@@ -12,6 +12,8 @@ namespace System { class Tuple; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelBattlePageViewModel___c__DisplayClass21_0_TypeDefinitionIndex = 63401;
+
 	class ChimeraDuelBattlePageViewModel___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

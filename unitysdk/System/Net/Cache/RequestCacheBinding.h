@@ -9,6 +9,8 @@ namespace System::Net::Cache { class RequestCacheValidator; }
 
 namespace System::Net::Cache
 {
+	inline static constexpr unsigned int RequestCacheBinding_TypeDefinitionIndex = 2982;
+
 	class RequestCacheBinding : public ::System::Object
 	{
 	public:

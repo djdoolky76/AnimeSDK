@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MultiPathAvatarSetTypeNotifyData_TypeDefinitionIndex = 66304;
+
 	class MultiPathAvatarSetTypeNotifyData : public ::System::Object
 	{
 	public:

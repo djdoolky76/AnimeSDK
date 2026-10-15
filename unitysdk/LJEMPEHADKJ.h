@@ -28,6 +28,8 @@ namespace System { class String; }
 #define LJEMPEHADKJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E97A450)
 #define LJEMPEHADKJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E97A4B0)
 
+inline static constexpr unsigned int LJEMPEHADKJ_TypeDefinitionIndex = 25690;
+
 	class LJEMPEHADKJ : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_ByHasAbnormalState_TypeDefinitionIndex = 20081;
+
 	class ST_ByHasAbnormalState : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

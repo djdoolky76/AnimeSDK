@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierAddExpertRestrictConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierAddExpertRestrictConfig_TypeDefinitionIndex = 19469;
+
 	class GridFightModifierAddExpertRestrictConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

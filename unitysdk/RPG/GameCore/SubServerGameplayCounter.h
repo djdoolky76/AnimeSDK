@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SubServerGameplayCounter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SubServerGameplayCounter_TypeDefinitionIndex = 20557;
+
 	class SubServerGameplayCounter : public ::RPG::GameCore::TaskConfig
 	{
 	public:

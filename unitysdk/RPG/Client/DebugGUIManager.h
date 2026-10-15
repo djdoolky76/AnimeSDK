@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DebugGUIManager_TypeDefinitionIndex = 68334;
+
 	class DebugGUIManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelGroupSpatialBoundingType_TypeDefinitionIndex = 17188;
+
 	enum class LevelGroupSpatialBoundingType : ::System::Int32
 	{
 		Simple = 0,

@@ -16,6 +16,8 @@ namespace System::Xml::Schema { class XmlValueConverter; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Numeric2FacetsChecker_TypeDefinitionIndex = 2157;
+
 	class Numeric2FacetsChecker : public ::System::Xml::Schema::FacetsChecker
 	{
 	public:

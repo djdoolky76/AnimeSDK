@@ -8,6 +8,8 @@ namespace Sofa { class BaseSofaWindow; }
 #define CGPLPLEELDM___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCC8F020)
 #define CGPLPLEELDM___C__DISPLAYCLASS7_0___FETCHFORSOFA_B__0_OFFSET UNITYSDK_OFFSET(0xCC8F0B0)
 
+inline static constexpr unsigned int CGPLPLEELDM___c__DisplayClass7_0_TypeDefinitionIndex = 72995;
+
 	class CGPLPLEELDM___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

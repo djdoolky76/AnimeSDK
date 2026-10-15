@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameEntityVar; }
 #define AEHGOOCDHCE_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C879230)
 #define AEHGOOCDHCE_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C879280)
 
+inline static constexpr unsigned int AEHGOOCDHCE_TypeDefinitionIndex = 43339;
+
 	class AEHGOOCDHCE : public ::System::Object
 	{
 	public:

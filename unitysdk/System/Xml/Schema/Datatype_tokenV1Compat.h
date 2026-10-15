@@ -8,6 +8,8 @@
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_tokenV1Compat_TypeDefinitionIndex = 2124;
+
 	class Datatype_tokenV1Compat : public ::System::Xml::Schema::Datatype_normalizedStringV1Compat
 	{
 	public:

@@ -17,6 +17,8 @@ class PEKCKMDIAFL;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CelestialRenderer_TypeDefinitionIndex = 69792;
+
 	class CelestialRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

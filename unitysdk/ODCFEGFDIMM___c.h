@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define ODCFEGFDIMM___C__FINISHINITGAME_B__15_0_OFFSET UNITYSDK_OFFSET(0xBD88AD0)
 #define ODCFEGFDIMM___C___INITAUDIOPCK_B__12_2_OFFSET UNITYSDK_OFFSET(0xBD88A80)
 
+inline static constexpr unsigned int ODCFEGFDIMM___c_TypeDefinitionIndex = 61151;
+
 	class ODCFEGFDIMM___c : public ::System::Object
 	{
 	public:

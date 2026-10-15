@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTask_DelayFramePromise___c_TypeDefinitionIndex = 38235;
+
 	class UniTask_DelayFramePromise___c : public ::System::Object
 	{
 	public:

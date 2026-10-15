@@ -22,6 +22,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int OverseaGuestBindMail_TypeDefinitionIndex = 9495;
+
 	class OverseaGuestBindMail : public ::MiHoYo::SDK::UIElement
 	{
 	public:

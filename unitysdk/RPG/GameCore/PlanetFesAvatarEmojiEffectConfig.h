@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlanetFesAvatarEmojiEffectInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesAvatarEmojiEffectConfig_TypeDefinitionIndex = 16256;
+
 	class PlanetFesAvatarEmojiEffectConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

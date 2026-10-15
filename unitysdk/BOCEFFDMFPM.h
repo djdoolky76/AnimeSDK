@@ -105,6 +105,8 @@ namespace UnityEngine { class Object; }
 #define BOCEFFDMFPM_SET_OPTYPE_OFFSET UNITYSDK_OFFSET(0x1C438230)
 #define BOCEFFDMFPM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C4413B0)
 
+inline static constexpr unsigned int BOCEFFDMFPM_TypeDefinitionIndex = 41567;
+
 	class BOCEFFDMFPM : public ::System::Object
 	{
 	public:

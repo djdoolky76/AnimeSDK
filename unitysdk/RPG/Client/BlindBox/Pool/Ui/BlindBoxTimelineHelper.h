@@ -8,6 +8,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 
 namespace RPG::Client::BlindBox::Pool::Ui
 {
+	inline static constexpr unsigned int BlindBoxTimelineHelper_TypeDefinitionIndex = 74966;
+
 	class BlindBoxTimelineHelper : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UniqueItemKey_TypeDefinitionIndex = 65746;
+
 	struct alignas(4) UniqueItemKey
 	{
 		::RPG::Client::UniqueItemKind _Kind_k__BackingField; // 0x10

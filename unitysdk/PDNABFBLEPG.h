@@ -37,6 +37,8 @@ namespace System { class String; }
 #define PDNABFBLEPG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF12D70)
 #define PDNABFBLEPG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF12DD0)
 
+inline static constexpr unsigned int PDNABFBLEPG_TypeDefinitionIndex = 30996;
+
 	class PDNABFBLEPG : public ::System::Object
 	{
 	public:

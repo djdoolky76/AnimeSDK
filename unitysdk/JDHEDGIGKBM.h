@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JDHEDGIGKBM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E70B010)
 #define JDHEDGIGKBM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E70B070)
 
+inline static constexpr unsigned int JDHEDGIGKBM_TypeDefinitionIndex = 30435;
+
 	class JDHEDGIGKBM : public ::System::Object
 	{
 	public:

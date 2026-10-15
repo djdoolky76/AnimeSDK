@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BEBIJAKFNLO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9215C0)
 #define BEBIJAKFNLO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E921620)
 
+inline static constexpr unsigned int BEBIJAKFNLO_TypeDefinitionIndex = 29419;
+
 	class BEBIJAKFNLO : public ::System::Object
 	{
 	public:

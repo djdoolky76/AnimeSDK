@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RtSummonCharacterExtraDataBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtSummonCharacterExtraDataBase_TypeDefinitionIndex = 24123;
+
 	class RtSummonCharacterExtraDataBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:

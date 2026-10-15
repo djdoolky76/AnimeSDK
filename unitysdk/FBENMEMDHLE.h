@@ -12,6 +12,8 @@ namespace System { class String; }
 
 #define FBENMEMDHLE_CTOR_OFFSET UNITYSDK_OFFSET(0x15697B40)
 
+inline static constexpr unsigned int FBENMEMDHLE_TypeDefinitionIndex = 53848;
+
 	class FBENMEMDHLE : public ::System::Object
 	{
 	public:

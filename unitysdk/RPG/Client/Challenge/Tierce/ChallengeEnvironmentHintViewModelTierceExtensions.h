@@ -7,6 +7,8 @@ namespace RPG::Client::Challenge { class IChallengeEnvironmentHintViewModel; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeEnvironmentHintViewModelTierceExtensions_TypeDefinitionIndex = 81595;
+
 	class ChallengeEnvironmentHintViewModelTierceExtensions : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ class AOIAGGGHHBD;
 #define MADHNHEMBOJ___C__DISPLAYCLASS30_0___UNIONINTO_B__0_OFFSET UNITYSDK_OFFSET(0xB84B3E0)
 #define MADHNHEMBOJ___C__DISPLAYCLASS30_0___UNIONINTO_B__1_OFFSET UNITYSDK_OFFSET(0xB84B420)
 
+inline static constexpr unsigned int MADHNHEMBOJ___c__DisplayClass30_0_TypeDefinitionIndex = 71206;
+
 	class MADHNHEMBOJ___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:

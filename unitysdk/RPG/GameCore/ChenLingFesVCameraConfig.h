@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingFesVCameraConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingFesVCameraConfig_TypeDefinitionIndex = 18428;
+
 	class ChenLingFesVCameraConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

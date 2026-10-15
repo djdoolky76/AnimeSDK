@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GAFBHMOFNBI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE1F370)
 #define GAFBHMOFNBI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE1EC90)
 
+inline static constexpr unsigned int GAFBHMOFNBI_TypeDefinitionIndex = 14969;
+
 	class GAFBHMOFNBI : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int BiliBiliManager___c__DisplayClass27_1_TypeDefinitionIndex = 9326;
+
 	template <typename T>
 	class BiliBiliManager___c__DisplayClass27_1 : public ::System::Object
 	{

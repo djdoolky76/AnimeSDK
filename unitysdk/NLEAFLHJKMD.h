@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int NLEAFLHJKMD_TypeDefinitionIndex = 27777;
+
 	enum class NLEAFLHJKMD : ::System::Int32
 	{
 		PBJPDNBIAOG = 0,

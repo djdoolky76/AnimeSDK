@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActPersonaSpecialClonePumanCardConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActPersonaSpecialClonePumanCardConfig_TypeDefinitionIndex = 19785;
+
 	class RogueActPersonaSpecialClonePumanCardConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

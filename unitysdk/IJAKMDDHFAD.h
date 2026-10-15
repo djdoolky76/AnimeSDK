@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IJAKMDDHFAD_PHJELNCJEKL_OFFSET UNITYSDK_OFFSET(0x16457680)
 #define IJAKMDDHFAD_TICK_OFFSET UNITYSDK_OFFSET(0x16457460)
 
+inline static constexpr unsigned int IJAKMDDHFAD_TypeDefinitionIndex = 53562;
+
 	class IJAKMDDHFAD : public ::System::Object
 	{
 	public:

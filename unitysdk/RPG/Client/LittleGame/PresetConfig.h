@@ -6,6 +6,8 @@
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int PresetConfig_TypeDefinitionIndex = 42325;
+
 	class PresetConfig : public ::System::Object
 	{
 	public:

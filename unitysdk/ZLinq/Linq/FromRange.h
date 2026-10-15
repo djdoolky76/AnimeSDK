@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace ZLinq::Linq
 {
+	inline static constexpr unsigned int FromRange_TypeDefinitionIndex = 6131;
+
 	struct alignas(4) FromRange
 	{
 		::System::Int32 value; // 0x10

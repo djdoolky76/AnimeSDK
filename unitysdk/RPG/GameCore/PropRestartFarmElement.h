@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PropRestartFarmElement; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropRestartFarmElement_TypeDefinitionIndex = 22089;
+
 	class PropRestartFarmElement : public ::RPG::GameCore::TaskConfig
 	{
 	public:

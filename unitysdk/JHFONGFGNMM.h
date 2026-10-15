@@ -10,6 +10,8 @@ class PHKEBBMDJKD;
 #define JHFONGFGNMM_START_OFFSET UNITYSDK_OFFSET(0xB1B2B50)
 #define JHFONGFGNMM_STOP_OFFSET UNITYSDK_OFFSET(0xB1B2BE0)
 
+inline static constexpr unsigned int JHFONGFGNMM_TypeDefinitionIndex = 81025;
+
 	class JHFONGFGNMM : public ::System::Object
 	{
 	public:

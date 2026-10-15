@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define JHGAJMAOPJE_CTOR_OFFSET UNITYSDK_OFFSET(0xB1B2D70)
 
+inline static constexpr unsigned int JHGAJMAOPJE_TypeDefinitionIndex = 64221;
+
 	class JHGAJMAOPJE : public ::System::Object
 	{
 	public:

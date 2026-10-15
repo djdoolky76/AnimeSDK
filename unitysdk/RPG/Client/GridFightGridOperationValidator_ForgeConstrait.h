@@ -11,6 +11,8 @@ namespace RPG::Client { class GridFightGridMoveValidateResult; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGridOperationValidator_ForgeConstrait_TypeDefinitionIndex = 64850;
+
 	class GridFightGridOperationValidator_ForgeConstrait : public ::System::Object
 	{
 	public:

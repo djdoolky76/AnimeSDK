@@ -15,6 +15,8 @@ namespace Spine { template <typename T> class ExposedList_1; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int PathConstraintMixTimeline_TypeDefinitionIndex = 39626;
+
 	class PathConstraintMixTimeline : public ::Spine::CurveTimeline
 	{
 	public:

@@ -5,6 +5,8 @@
 #define DFGEPHCKAHM_CTOR_OFFSET UNITYSDK_OFFSET(0xE82D450)
 #define DFGEPHCKAHM_GAOBNIHOCLL_OFFSET UNITYSDK_OFFSET(0xE82D3A0)
 
+inline static constexpr unsigned int DFGEPHCKAHM_TypeDefinitionIndex = 67326;
+
 	class DFGEPHCKAHM : public ::System::Object
 	{
 	public:

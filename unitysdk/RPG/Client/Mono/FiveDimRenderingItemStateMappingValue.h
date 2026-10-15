@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Mono
 {
+	inline static constexpr unsigned int FiveDimRenderingItemStateMappingValue_TypeDefinitionIndex = 76026;
+
 	class FiveDimRenderingItemStateMappingValue : public ::System::Object
 	{
 	public:

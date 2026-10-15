@@ -4,6 +4,8 @@
 #include "unitysdk/RPG/GameCore/SummonUnitMemoryStrategy.h"
 namespace System { class Object; }
 
+inline static constexpr unsigned int MIGEAMGGJFN_MCAFAODGNDF_TypeDefinitionIndex = 62215;
+
 	struct alignas(8) MIGEAMGGJFN_MCAFAODGNDF
 	{
 		::RPG::GameCore::SummonUnitMemoryStrategy KFPMJKCOJAJ; // 0x10

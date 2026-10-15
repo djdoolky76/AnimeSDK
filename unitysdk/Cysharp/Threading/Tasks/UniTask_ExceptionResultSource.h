@@ -16,6 +16,8 @@ namespace System::Runtime::ExceptionServices { class ExceptionDispatchInfo; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTask_ExceptionResultSource_TypeDefinitionIndex = 38243;
+
 	class UniTask_ExceptionResultSource : public ::System::Object
 	{
 	public:

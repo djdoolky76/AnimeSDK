@@ -9,6 +9,8 @@ namespace UnityEngine::AI { class NavMeshPath; }
 #define DOPGONOIPBC_CCTOR_OFFSET UNITYSDK_OFFSET(0x11FF4B60)
 #define DOPGONOIPBC_CTOR_OFFSET UNITYSDK_OFFSET(0x11FF4B50)
 
+inline static constexpr unsigned int DOPGONOIPBC_TypeDefinitionIndex = 57123;
+
 	class DOPGONOIPBC : public ::System::Object
 	{
 	public:

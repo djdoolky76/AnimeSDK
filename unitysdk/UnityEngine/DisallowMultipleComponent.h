@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int DisallowMultipleComponent_TypeDefinitionIndex = 4302;
+
 	class DisallowMultipleComponent : public ::System::Attribute
 	{
 	public:

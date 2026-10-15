@@ -25,6 +25,8 @@ namespace XLua::LuaDLL { class lua_CSFunction; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int MethodWrapsCache_TypeDefinitionIndex = 50216;
+
 	class MethodWrapsCache : public ::System::Object
 	{
 	public:

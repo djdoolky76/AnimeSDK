@@ -11,6 +11,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginCharaPropSpecularLighting_TypeDefinitionIndex = 69979;
+
 	class MonoEffectPluginCharaPropSpecularLighting : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
 	public:

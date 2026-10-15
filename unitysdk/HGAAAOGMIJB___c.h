@@ -9,6 +9,8 @@ namespace System { template <typename T> class Func_1; }
 #define HGAAAOGMIJB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15C8EAC0)
 #define HGAAAOGMIJB___C___PLAYSTORY_B__4_0_OFFSET UNITYSDK_OFFSET(0x15C8EAD0)
 
+inline static constexpr unsigned int HGAAAOGMIJB___c_TypeDefinitionIndex = 67400;
+
 	class HGAAAOGMIJB___c : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define KHPENGJFKBB___C___CTOR_B__8_0_OFFSET UNITYSDK_OFFSET(0xB415E60)
 #define KHPENGJFKBB___C___CTOR_B__9_0_OFFSET UNITYSDK_OFFSET(0xB415E70)
 
+inline static constexpr unsigned int KHPENGJFKBB___c_TypeDefinitionIndex = 81463;
+
 	class KHPENGJFKBB___c : public ::System::Object
 	{
 	public:

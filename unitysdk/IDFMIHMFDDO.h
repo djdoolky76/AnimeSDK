@@ -30,6 +30,8 @@ namespace System { class String; }
 #define IDFMIHMFDDO_PAFCMAMJENB_OFFSET UNITYSDK_OFFSET(0x15EC7E90)
 #define IDFMIHMFDDO_PHEPLPLJCKD_OFFSET UNITYSDK_OFFSET(0x15EC7DC0)
 
+inline static constexpr unsigned int IDFMIHMFDDO_TypeDefinitionIndex = 81769;
+
 	class IDFMIHMFDDO : public ::System::Object
 	{
 	public:

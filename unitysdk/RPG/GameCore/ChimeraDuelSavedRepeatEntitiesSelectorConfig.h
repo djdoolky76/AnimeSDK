@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraDuelSavedRepeatEntitiesSelectorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelSavedRepeatEntitiesSelectorConfig_TypeDefinitionIndex = 15933;
+
 	class ChimeraDuelSavedRepeatEntitiesSelectorConfig : public ::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig
 	{
 	public:

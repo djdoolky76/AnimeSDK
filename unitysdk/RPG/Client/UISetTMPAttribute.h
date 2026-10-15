@@ -56,6 +56,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UISetTMPAttribute_TypeDefinitionIndex = 70712;
+
 	class UISetTMPAttribute : public ::UnityEngine::MonoBehaviour
 	{
 	public:

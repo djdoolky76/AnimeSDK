@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightRoleEffect_TypeDefinitionIndex = 65131;
+
 	class GridFightRoleEffect : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RogueTournTitanBlessRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournTitanBlessRow_TypeDefinitionIndex = 15069;
+
 	class RogueTournTitanBlessRow : public ::System::Object
 	{
 	public:

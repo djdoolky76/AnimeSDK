@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LLGOONIKLAJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E99B650)
 #define LLGOONIKLAJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E99B6B0)
 
+inline static constexpr unsigned int LLGOONIKLAJ_TypeDefinitionIndex = 27678;
+
 	class LLGOONIKLAJ : public ::System::Object
 	{
 	public:

@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int ChenLingBattleEffectController_TypeDefinitionIndex = 76402;
+
 	class ChenLingBattleEffectController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

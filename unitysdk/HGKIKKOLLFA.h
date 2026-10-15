@@ -17,6 +17,8 @@ class POCFKFBIABM;
 #define HGKIKKOLLFA_ODDLBLFDJJM_OFFSET UNITYSDK_OFFSET(0x15CAAAC0)
 #define HGKIKKOLLFA_PGCPDNGPMLJ_OFFSET UNITYSDK_OFFSET(0x15CAABF0)
 
+inline static constexpr unsigned int HGKIKKOLLFA_TypeDefinitionIndex = 71506;
+
 	class HGKIKKOLLFA : public ::System::Object
 	{
 	public:

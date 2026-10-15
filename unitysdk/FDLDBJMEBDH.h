@@ -5,6 +5,8 @@ namespace UnityEngine { class Transform; }
 
 #define FDLDBJMEBDH_DMOIEHPEMBM_OFFSET UNITYSDK_OFFSET(0x3C31860)
 
+inline static constexpr unsigned int FDLDBJMEBDH_TypeDefinitionIndex = 43431;
+
 	struct alignas(8) FDLDBJMEBDH
 	{
 		::System::Boolean PPIIMDCGAMO; // 0x10

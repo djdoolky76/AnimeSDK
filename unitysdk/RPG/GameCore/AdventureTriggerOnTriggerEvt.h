@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureTriggerOnTriggerEvt_TypeDefinitionIndex = 56603;
+
 	class AdventureTriggerOnTriggerEvt : public ::System::Object
 	{
 	public:

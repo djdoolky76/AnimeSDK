@@ -24,6 +24,8 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GachaTimelineController_TypeDefinitionIndex = 72803;
+
 	class GachaTimelineController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

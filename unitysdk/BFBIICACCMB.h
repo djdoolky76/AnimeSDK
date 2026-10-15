@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BFBIICACCMB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D66E3A0)
 #define BFBIICACCMB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D66E360)
 
+inline static constexpr unsigned int BFBIICACCMB_TypeDefinitionIndex = 24185;
+
 	class BFBIICACCMB : public ::RPG::GameCore::TaskConfig
 	{
 	public:

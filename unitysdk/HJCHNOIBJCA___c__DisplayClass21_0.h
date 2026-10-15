@@ -8,6 +8,8 @@ namespace RPG::Client::Promises { class Promise; }
 #define HJCHNOIBJCA___C__DISPLAYCLASS21_0__REQUESTRELICDATAREFRESH_B__1_OFFSET UNITYSDK_OFFSET(0x15D07460)
 #define HJCHNOIBJCA___C__DISPLAYCLASS21_0__REQUESTRELICDATAREFRESH_B__2_OFFSET UNITYSDK_OFFSET(0x15D07480)
 
+inline static constexpr unsigned int HJCHNOIBJCA___c__DisplayClass21_0_TypeDefinitionIndex = 66726;
+
 	class HJCHNOIBJCA___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

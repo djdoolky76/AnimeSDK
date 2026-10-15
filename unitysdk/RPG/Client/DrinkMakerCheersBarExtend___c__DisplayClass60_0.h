@@ -9,6 +9,8 @@ namespace RPG::Client { class DrinkMakerCheersGuestDrinkRecordData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DrinkMakerCheersBarExtend___c__DisplayClass60_0_TypeDefinitionIndex = 63614;
+
 	class DrinkMakerCheersBarExtend___c__DisplayClass60_0 : public ::System::Object
 	{
 	public:

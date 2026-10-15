@@ -5,6 +5,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int DronesPuzzleAreaConfig_TypeDefinitionIndex = 78569;
+
 	struct alignas(8) DronesPuzzleAreaConfig
 	{
 		::UnityEngine::Transform* anchor; // 0x10

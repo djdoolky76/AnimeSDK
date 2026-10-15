@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleScoringConfigExcelTable_TypeDefinitionIndex = 12881;
+
 	class BattleScoringConfigExcelTable : public ::System::Object
 	{
 	public:

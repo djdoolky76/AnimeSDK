@@ -13,6 +13,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PropInstanceMatFloatConfig_TypeDefinitionIndex = 70752;
+
 	class PropInstanceMatFloatConfig : public ::RPG::Client::PropInstanceMatConfigBase
 	{
 	public:

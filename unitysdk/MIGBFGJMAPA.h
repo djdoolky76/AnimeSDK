@@ -31,6 +31,8 @@ namespace System { class String; }
 #define MIGBFGJMAPA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA3B010)
 #define MIGBFGJMAPA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA3B070)
 
+inline static constexpr unsigned int MIGBFGJMAPA_TypeDefinitionIndex = 28221;
+
 	class MIGBFGJMAPA : public ::System::Object
 	{
 	public:

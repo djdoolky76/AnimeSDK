@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ClientOnlyCommonConfig_MainLightOffsetItem_TypeDefinitionIndex = 60018;
+
 	class ClientOnlyCommonConfig_MainLightOffsetItem : public ::System::Object
 	{
 	public:

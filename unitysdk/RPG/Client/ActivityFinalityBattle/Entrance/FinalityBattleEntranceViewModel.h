@@ -41,6 +41,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityFinalityBattle::Entrance
 {
+	inline static constexpr unsigned int FinalityBattleEntranceViewModel_TypeDefinitionIndex = 82080;
+
 	class FinalityBattleEntranceViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

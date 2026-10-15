@@ -29,6 +29,8 @@ namespace System { class String; }
 #define NONBNJJHPFP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB90320)
 #define NONBNJJHPFP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB90380)
 
+inline static constexpr unsigned int NONBNJJHPFP_TypeDefinitionIndex = 34168;
+
 	class NONBNJJHPFP : public ::System::Object
 	{
 	public:

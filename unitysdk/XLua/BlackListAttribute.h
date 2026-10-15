@@ -6,6 +6,8 @@
 
 namespace XLua
 {
+	inline static constexpr unsigned int BlackListAttribute_TypeDefinitionIndex = 5601;
+
 	class BlackListAttribute : public ::System::Attribute
 	{
 	public:

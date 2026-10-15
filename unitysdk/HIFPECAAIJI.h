@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HIFPECAAIJI_CTOR_OFFSET UNITYSDK_OFFSET(0x15CE48E0)
 #define HIFPECAAIJI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CE4910)
 
+inline static constexpr unsigned int HIFPECAAIJI_TypeDefinitionIndex = 55538;
+
 	class HIFPECAAIJI
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define OAEMCMCGPID_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EBA6B80)
 #define OAEMCMCGPID_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EBA6BE0)
 
+inline static constexpr unsigned int OAEMCMCGPID_TypeDefinitionIndex = 33680;
+
 	class OAEMCMCGPID : public ::System::Object
 	{
 	public:

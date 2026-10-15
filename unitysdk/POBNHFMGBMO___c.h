@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define POBNHFMGBMO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC358160)
 #define POBNHFMGBMO___C___CTOR_B__1_0_OFFSET UNITYSDK_OFFSET(0xC358170)
 
+inline static constexpr unsigned int POBNHFMGBMO___c_TypeDefinitionIndex = 63379;
+
 	class POBNHFMGBMO___c : public ::System::Object
 	{
 	public:

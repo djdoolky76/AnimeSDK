@@ -14,6 +14,8 @@ namespace RPG::GameCore { class PingPongPositionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PingPongPositionConfig_TypeDefinitionIndex = 17004;
+
 	class PingPongPositionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

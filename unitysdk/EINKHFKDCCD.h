@@ -48,6 +48,8 @@ namespace System { class String; }
 #define EINKHFKDCCD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2ADCC0)
 #define EINKHFKDCCD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2ADD20)
 
+inline static constexpr unsigned int EINKHFKDCCD_TypeDefinitionIndex = 34366;
+
 	class EINKHFKDCCD : public ::System::Object
 	{
 	public:

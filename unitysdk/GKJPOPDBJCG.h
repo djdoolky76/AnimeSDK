@@ -38,6 +38,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GKJPOPDBJCG_OFLDFOPHEFL_OFFSET UNITYSDK_OFFSET(0x1C644B80)
 #define GKJPOPDBJCG_ONHNGCNCLPO_OFFSET UNITYSDK_OFFSET(0x1C645360)
 
+inline static constexpr unsigned int GKJPOPDBJCG_TypeDefinitionIndex = 37127;
+
 	class GKJPOPDBJCG : public ::System::Object
 	{
 	public:

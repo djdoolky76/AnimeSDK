@@ -16,6 +16,8 @@ namespace System::Xml { class XmlQualifiedName; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlSerializerNamespaces_TypeDefinitionIndex = 1980;
+
 	class XmlSerializerNamespaces : public ::System::Object
 	{
 	public:

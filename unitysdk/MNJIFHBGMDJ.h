@@ -43,6 +43,8 @@ namespace System { class String; }
 #define MNJIFHBGMDJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA9C400)
 #define MNJIFHBGMDJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA9C460)
 
+inline static constexpr unsigned int MNJIFHBGMDJ_TypeDefinitionIndex = 29675;
+
 	class MNJIFHBGMDJ : public ::System::Object
 	{
 	public:

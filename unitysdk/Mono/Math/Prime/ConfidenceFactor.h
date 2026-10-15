@@ -3,6 +3,8 @@
 
 namespace Mono::Math::Prime
 {
+	inline static constexpr unsigned int ConfidenceFactor_TypeDefinitionIndex = 85;
+
 	enum class ConfidenceFactor : ::System::Int32
 	{
 		ExtraLow = 0,

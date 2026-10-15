@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HyperTextLink_HrefInfo_TypeDefinitionIndex = 72542;
+
 	class HyperTextLink_HrefInfo : public ::System::Object
 	{
 	public:

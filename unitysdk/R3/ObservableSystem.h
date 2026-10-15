@@ -12,6 +12,8 @@ namespace System { class TimeProvider; }
 
 namespace R3
 {
+	inline static constexpr unsigned int ObservableSystem_TypeDefinitionIndex = 35924;
+
 	class ObservableSystem : public ::System::Object
 	{
 	public:

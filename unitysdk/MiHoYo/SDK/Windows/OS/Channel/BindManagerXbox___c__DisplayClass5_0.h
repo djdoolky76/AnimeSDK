@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Windows::OS::Channel
 {
+	inline static constexpr unsigned int BindManagerXbox___c__DisplayClass5_0_TypeDefinitionIndex = 8370;
+
 	class BindManagerXbox___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

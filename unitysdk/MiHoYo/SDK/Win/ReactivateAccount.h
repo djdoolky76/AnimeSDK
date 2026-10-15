@@ -17,6 +17,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int ReactivateAccount_TypeDefinitionIndex = 9546;
+
 	class ReactivateAccount : public ::MiHoYo::SDK::UIElement
 	{
 	public:

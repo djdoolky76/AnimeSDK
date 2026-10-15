@@ -17,6 +17,8 @@ namespace System::Net { class IPEndPoint; }
 #define ILCOCKHBCEN_MLGCPAHPBMP_OFFSET UNITYSDK_OFFSET(0x1DDADE40)
 #define ILCOCKHBCEN___COMPAREBYPING_B__12_0_OFFSET UNITYSDK_OFFSET(0x1DDAE110)
 
+inline static constexpr unsigned int ILCOCKHBCEN_TypeDefinitionIndex = 43935;
+
 	class ILCOCKHBCEN : public ::DABGOCJPFBI
 	{
 	public:

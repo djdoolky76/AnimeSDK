@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RuntimeStageCaptureAliasData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AliasConfig_TypeDefinitionIndex = 19168;
+
 	class AliasConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChessRogueDiceSurfaceDisplayData_TypeDefinitionIndex = 66950;
+
 	class ChessRogueDiceSurfaceDisplayData : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define ENOAHPICLOL_NGLEBDKMLEB_OFFSET UNITYSDK_OFFSET(0x155B4FC0)
 #define ENOAHPICLOL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155B4880)
 
+inline static constexpr unsigned int ENOAHPICLOL_TypeDefinitionIndex = 54808;
+
 	class ENOAHPICLOL
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Xml { class XmlNameTable; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_doubleXdr_TypeDefinitionIndex = 2146;
+
 	class Datatype_doubleXdr : public ::System::Xml::Schema::Datatype_double
 	{
 	public:

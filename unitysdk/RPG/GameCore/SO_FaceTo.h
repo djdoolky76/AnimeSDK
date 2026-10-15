@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SO_FaceTo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SO_FaceTo_TypeDefinitionIndex = 20061;
+
 	class SO_FaceTo : public ::RPG::GameCore::SOTaskConfig
 	{
 	public:

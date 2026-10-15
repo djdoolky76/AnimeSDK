@@ -24,6 +24,8 @@ namespace RPG::GameCore { class MuseumMissionRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MuseumTargetMission_TypeDefinitionIndex = 66353;
+
 	class MuseumTargetMission : public ::System::Object
 	{
 	public:

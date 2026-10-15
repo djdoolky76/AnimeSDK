@@ -9,6 +9,8 @@ namespace RPG::GameCore { class BattleAreaRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleAreaRow_TypeDefinitionIndex = 12832;
+
 	class BattleAreaRow : public ::System::Object
 	{
 	public:

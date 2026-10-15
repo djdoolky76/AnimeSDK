@@ -4,6 +4,8 @@
 
 namespace Cinemachine::Utility
 {
+	inline static constexpr unsigned int HeadingTracker_Item_TypeDefinitionIndex = 39895;
+
 	struct alignas(4) HeadingTracker_Item
 	{
 		::UnityEngine::Vector3 velocity; // 0x10

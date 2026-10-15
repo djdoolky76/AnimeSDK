@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ELevelPerformanceType_TypeDefinitionIndex = 10484;
+
 	enum class ELevelPerformanceType : ::System::Int32
 	{
 		Unknown = 0,

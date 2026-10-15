@@ -5,6 +5,8 @@ class LBAMBIMMJKB;
 
 #define EBFMLBNIEMK_CTOR_OFFSET UNITYSDK_OFFSET(0x12CEF290)
 
+inline static constexpr unsigned int EBFMLBNIEMK_TypeDefinitionIndex = 71358;
+
 	class EBFMLBNIEMK : public ::RPG::Client::UIController
 	{
 	public:

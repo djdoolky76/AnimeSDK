@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int LuaMemoryLeakChecker___c__DisplayClass7_0_TypeDefinitionIndex = 50066;
+
 	class LuaMemoryLeakChecker___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

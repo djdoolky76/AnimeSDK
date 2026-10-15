@@ -5,6 +5,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKWebViewManager___O_TypeDefinitionIndex = 46622;
+
 	class MiHoYoSDKWebViewManager___O : public ::System::Object
 	{
 	public:

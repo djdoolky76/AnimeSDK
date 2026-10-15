@@ -24,6 +24,8 @@ namespace System { class Nullable; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FreeStyleController_TypeDefinitionIndex = 57274;
+
 	class FreeStyleController : public ::System::Object
 	{
 	public:

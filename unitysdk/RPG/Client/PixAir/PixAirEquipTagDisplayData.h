@@ -14,6 +14,8 @@ namespace RPG::Client::PixAir { class PixAirEquipTagDisplayData; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirEquipTagDisplayData_TypeDefinitionIndex = 79306;
+
 	class PixAirEquipTagDisplayData : public ::System::Object
 	{
 	public:

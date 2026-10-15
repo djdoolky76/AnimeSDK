@@ -17,6 +17,8 @@ namespace System { class String; }
 #define HHJKFOHHHFA_NHEDINBLOIH_OFFSET UNITYSDK_OFFSET(0x15CCF000)
 #define HHJKFOHHHFA_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x15CCF630)
 
+inline static constexpr unsigned int HHJKFOHHHFA_TypeDefinitionIndex = 69634;
+
 	class HHJKFOHHHFA : public ::MDILEMALGNC
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace System::Net::Http
 {
+	inline static constexpr unsigned int HttpMessageHandler_TypeDefinitionIndex = 3769;
+
 	class HttpMessageHandler : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LOKBNDDCILM_CTOR_OFFSET UNITYSDK_OFFSET(0xB806190)
 #define LOKBNDDCILM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8061C0)
 
+inline static constexpr unsigned int LOKBNDDCILM_TypeDefinitionIndex = 53179;
+
 	class LOKBNDDCILM
 	{
 	public:

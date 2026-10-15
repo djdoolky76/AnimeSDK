@@ -15,6 +15,8 @@ class AkMIDIEvent_tPitchBend;
 #define AKMIDIEVENT_TPITCHBEND_SET_BYVALUELSB_OFFSET UNITYSDK_OFFSET(0x1F5A2530)
 #define AKMIDIEVENT_TPITCHBEND_SET_BYVALUEMSB_OFFSET UNITYSDK_OFFSET(0x1F5A26A0)
 
+inline static constexpr unsigned int AkMIDIEvent_tPitchBend_TypeDefinitionIndex = 44754;
+
 	class AkMIDIEvent_tPitchBend : public ::System::Object
 	{
 	public:

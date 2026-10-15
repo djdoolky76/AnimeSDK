@@ -43,6 +43,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int TerrainLayer_TypeDefinitionIndex = 5336;
+
 	class TerrainLayer : public ::UnityEngine::Object
 	{
 	public:

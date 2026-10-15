@@ -27,6 +27,8 @@ namespace RPG::GameCore { class FiveDimFloatingSpiritPropSpawnerParam; }
 #define BCNGHBDEDBL_OCENCOOIHHC_OFFSET UNITYSDK_OFFSET(0x162E85C0)
 #define BCNGHBDEDBL_OJCMIPNEJAA_OFFSET UNITYSDK_OFFSET(0x162E8050)
 
+inline static constexpr unsigned int BCNGHBDEDBL_TypeDefinitionIndex = 77047;
+
 	class BCNGHBDEDBL : public ::CCEJFGMOHGP
 	{
 	public:

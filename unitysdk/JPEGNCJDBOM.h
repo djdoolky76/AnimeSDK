@@ -31,6 +31,8 @@ namespace System { class String; }
 #define JPEGNCJDBOM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7D1F40)
 #define JPEGNCJDBOM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7D1FA0)
 
+inline static constexpr unsigned int JPEGNCJDBOM_TypeDefinitionIndex = 31149;
+
 	class JPEGNCJDBOM : public ::System::Object
 	{
 	public:

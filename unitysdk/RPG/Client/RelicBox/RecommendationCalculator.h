@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::RelicBox
 {
+	inline static constexpr unsigned int RecommendationCalculator_TypeDefinitionIndex = 74450;
+
 	class RecommendationCalculator : public ::System::Object
 	{
 	public:

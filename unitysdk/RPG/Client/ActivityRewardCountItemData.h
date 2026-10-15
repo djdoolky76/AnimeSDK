@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityRewardCountItemData_TypeDefinitionIndex = 61790;
+
 	class ActivityRewardCountItemData : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 #define JPJBFIGDLGG_CTOR_OFFSET UNITYSDK_OFFSET(0xB2C4980)
 #define JPJBFIGDLGG_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xB2C4930)
 
+inline static constexpr unsigned int JPJBFIGDLGG_TypeDefinitionIndex = 76507;
+
 	class JPJBFIGDLGG : public ::RPG::Client::MockAnimator
 	{
 	public:

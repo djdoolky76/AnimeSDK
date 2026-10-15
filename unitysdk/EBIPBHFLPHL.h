@@ -202,6 +202,8 @@ namespace System { class String; }
 #define EBIPBHFLPHL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E23D5C0)
 #define EBIPBHFLPHL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E23D620)
 
+inline static constexpr unsigned int EBIPBHFLPHL_TypeDefinitionIndex = 32072;
+
 	class EBIPBHFLPHL : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityTeamBoostPointChange_TypeDefinitionIndex = 56573;
+
 	class AbilityTeamBoostPointChange : public ::CMPGEAFHHDC
 	{
 	public:

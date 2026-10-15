@@ -13,6 +13,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChenLingTablePrepareScene_TypeDefinitionIndex = 72469;
+
 	class ChenLingTablePrepareScene : public ::RPG::Client::ChenLingTableScene
 	{
 	public:

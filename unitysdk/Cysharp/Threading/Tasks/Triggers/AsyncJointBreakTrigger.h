@@ -13,6 +13,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnJointBreakHandler;
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncJointBreakTrigger_TypeDefinitionIndex = 38553;
+
 	class AsyncJointBreakTrigger
 	{
 	public:

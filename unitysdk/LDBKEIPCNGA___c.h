@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define LDBKEIPCNGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C739150)
 #define LDBKEIPCNGA___C___TRYADDCOLORDICEMODIFIER_B__4_0_OFFSET UNITYSDK_OFFSET(0x1C739160)
 
+inline static constexpr unsigned int LDBKEIPCNGA___c_TypeDefinitionIndex = 36423;
+
 	class LDBKEIPCNGA___c : public ::System::Object
 	{
 	public:

@@ -46,6 +46,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueNousUtils_TypeDefinitionIndex = 67487;
+
 	class RogueNousUtils : public ::System::Object
 	{
 	public:

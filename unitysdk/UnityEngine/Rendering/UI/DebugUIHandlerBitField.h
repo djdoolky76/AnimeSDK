@@ -23,6 +23,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace UnityEngine::Rendering::UI
 {
+	inline static constexpr unsigned int DebugUIHandlerBitField_TypeDefinitionIndex = 35672;
+
 	class DebugUIHandlerBitField : public ::UnityEngine::Rendering::UI::DebugUIHandlerWidget
 	{
 	public:

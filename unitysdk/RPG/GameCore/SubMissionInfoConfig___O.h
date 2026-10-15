@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SubMissionInfoConfig___O_TypeDefinitionIndex = 15473;
+
 	class SubMissionInfoConfig___O : public ::System::Object
 	{
 	public:

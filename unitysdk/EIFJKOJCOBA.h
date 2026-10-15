@@ -33,6 +33,8 @@ namespace UnityEngine { class Transform; }
 #define EIFJKOJCOBA_PFHPIAGCPOL_OFFSET UNITYSDK_OFFSET(0x154C25D0)
 #define EIFJKOJCOBA__ONBIND_OFFSET UNITYSDK_OFFSET(0x154C22D0)
 
+inline static constexpr unsigned int EIFJKOJCOBA_TypeDefinitionIndex = 71779;
+
 	class EIFJKOJCOBA : public ::FMPCODLIOLG
 	{
 	public:

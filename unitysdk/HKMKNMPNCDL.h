@@ -31,6 +31,8 @@ namespace UnityEngine::UI { class Text; }
 #define HKMKNMPNCDL__ONBIND_OFFSET UNITYSDK_OFFSET(0x15D4EC40)
 #define HKMKNMPNCDL__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x15D4EFF0)
 
+inline static constexpr unsigned int HKMKNMPNCDL_TypeDefinitionIndex = 71285;
+
 	class HKMKNMPNCDL : public ::CAOEEDDAPIK
 	{
 	public:

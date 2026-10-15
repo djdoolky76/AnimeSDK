@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VoracityInvasionProgressBuffData_TypeDefinitionIndex = 68266;
+
 	class VoracityInvasionProgressBuffData : public ::System::Object
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HoYoSDKNetworkInterface_TypeDefinitionIndex = 46108;
+
 	class HoYoSDKNetworkInterface : public ::System::Object
 	{
 	public:

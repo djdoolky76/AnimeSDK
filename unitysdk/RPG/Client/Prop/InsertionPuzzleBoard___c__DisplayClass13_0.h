@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int InsertionPuzzleBoard___c__DisplayClass13_0_TypeDefinitionIndex = 78625;
+
 	class InsertionPuzzleBoard___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

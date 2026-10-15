@@ -6,6 +6,8 @@
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int FlipConfig_TypeDefinitionIndex = 42323;
+
 	class FlipConfig : public ::System::Object
 	{
 	public:

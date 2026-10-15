@@ -15,6 +15,8 @@ namespace System { class String; }
 #define MOAKENFIBPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1DBED0)
 #define MOAKENFIBPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1DBDD0)
 
+inline static constexpr unsigned int MOAKENFIBPE_TypeDefinitionIndex = 24163;
+
 	class MOAKENFIBPE : public ::RPG::GameCore::TaskConfig
 	{
 	public:

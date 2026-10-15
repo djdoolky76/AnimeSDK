@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int WarmupPipelineState_TypeDefinitionIndex = 4383;
+
 	struct alignas(8) WarmupPipelineState
 	{
 		::UnityEngine::WarmupQualityCategory qualityCategory; // 0x10

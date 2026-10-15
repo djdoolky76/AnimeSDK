@@ -63,6 +63,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingGameplayWorldEnergyBarsControl_TypeDefinitionIndex = 81929;
+
 	class B51RacingGameplayWorldEnergyBarsControl : public ::Sofa::BaseSofaControl
 	{
 	public:

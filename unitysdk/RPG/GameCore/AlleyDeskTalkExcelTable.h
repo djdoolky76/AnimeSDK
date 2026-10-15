@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AlleyDeskTalkExcelTable_TypeDefinitionIndex = 12633;
+
 	class AlleyDeskTalkExcelTable : public ::System::Object
 	{
 	public:

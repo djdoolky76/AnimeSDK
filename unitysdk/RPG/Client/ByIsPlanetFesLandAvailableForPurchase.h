@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ByIsPlanetFesLandAvailableForPurchase_TypeDefinitionIndex = 10271;
+
 	class ByIsPlanetFesLandAvailableForPurchase : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

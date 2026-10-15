@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DHECODIPCEM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD21F30)
 #define DHECODIPCEM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD21840)
 
+inline static constexpr unsigned int DHECODIPCEM_TypeDefinitionIndex = 14949;
+
 	class DHECODIPCEM : public ::System::Object
 	{
 	public:

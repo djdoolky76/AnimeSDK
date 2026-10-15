@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define DHAPPCLCHEJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD21830)
 #define DHAPPCLCHEJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD216A0)
 
+inline static constexpr unsigned int DHAPPCLCHEJ_TypeDefinitionIndex = 12942;
+
 	class DHAPPCLCHEJ : public ::System::Object
 	{
 	public:

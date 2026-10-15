@@ -6,6 +6,8 @@
 #define FGIBGCKPBHP_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1CA6E340)
 #define FGIBGCKPBHP__UPDATE_B__0_0_OFFSET UNITYSDK_OFFSET(0x1CA6E530)
 
+inline static constexpr unsigned int FGIBGCKPBHP_TypeDefinitionIndex = 42204;
+
 	class FGIBGCKPBHP : public ::CKFDNGOHNPC
 	{
 	public:

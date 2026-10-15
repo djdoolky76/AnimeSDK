@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRCompositor__GetCurrentSceneFocusProcess_TypeDefinitionIndex = 39037;
+
 	class IVRCompositor__GetCurrentSceneFocusProcess : public ::System::MulticastDelegate
 	{
 	public:

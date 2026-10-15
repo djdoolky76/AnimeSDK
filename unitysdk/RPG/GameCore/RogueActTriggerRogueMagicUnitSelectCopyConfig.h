@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActTriggerRogueMagicUnitSelectCopyConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActTriggerRogueMagicUnitSelectCopyConfig_TypeDefinitionIndex = 19685;
+
 	class RogueActTriggerRogueMagicUnitSelectCopyConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define EPBFAAHFDNF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3039B0)
 #define EPBFAAHFDNF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E303A10)
 
+inline static constexpr unsigned int EPBFAAHFDNF_TypeDefinitionIndex = 31704;
+
 	class EPBFAAHFDNF : public ::System::Object
 	{
 	public:

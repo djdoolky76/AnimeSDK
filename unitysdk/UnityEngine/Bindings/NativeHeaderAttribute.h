@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Bindings
 {
+	inline static constexpr unsigned int NativeHeaderAttribute_TypeDefinitionIndex = 3721;
+
 	class NativeHeaderAttribute : public ::System::Attribute
 	{
 	public:

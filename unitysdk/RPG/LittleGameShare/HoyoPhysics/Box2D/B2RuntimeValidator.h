@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2RuntimeValidator_TypeDefinitionIndex = 36744;
+
 	class B2RuntimeValidator : public ::System::Object
 	{
 	public:

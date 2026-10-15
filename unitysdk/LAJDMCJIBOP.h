@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LAJDMCJIBOP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8CD140)
 #define LAJDMCJIBOP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8CD1A0)
 
+inline static constexpr unsigned int LAJDMCJIBOP_TypeDefinitionIndex = 32215;
+
 	class LAJDMCJIBOP : public ::System::Object
 	{
 	public:

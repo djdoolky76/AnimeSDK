@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierRandomPortalEffectConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierRandomPortalEffectConfig_TypeDefinitionIndex = 19449;
+
 	class GridFightModifierRandomPortalEffectConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

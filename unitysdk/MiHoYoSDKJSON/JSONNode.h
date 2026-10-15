@@ -79,6 +79,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace MiHoYoSDKJSON
 {
+	inline static constexpr unsigned int JSONNode_TypeDefinitionIndex = 46046;
+
 	class JSONNode : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftOrderRequirementVie
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftOrderDetailInfoViewModel_TypeDefinitionIndex = 79658;
+
 	class MechCraftOrderDetailInfoViewModel : public ::Sofa::Core::ObservableObject
 	{
 	public:

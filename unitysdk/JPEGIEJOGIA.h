@@ -8,6 +8,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define JPEGIEJOGIA_HFIDHKKOEOA_OFFSET UNITYSDK_OFFSET(0xB2BB820)
 #define JPEGIEJOGIA_JAGPJGOOALH_OFFSET UNITYSDK_OFFSET(0xB2BB780)
 
+inline static constexpr unsigned int JPEGIEJOGIA_TypeDefinitionIndex = 65576;
+
 	class JPEGIEJOGIA : public ::System::Object
 	{
 	public:

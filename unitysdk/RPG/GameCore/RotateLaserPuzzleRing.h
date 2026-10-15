@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RotateLaserPuzzleRing_TypeDefinitionIndex = 22146;
+
 	class RotateLaserPuzzleRing : public ::RPG::GameCore::TaskConfig
 	{
 	public:

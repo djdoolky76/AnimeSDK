@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtSkillPropertyType_TypeDefinitionIndex = 17666;
+
 	enum class RtSkillPropertyType : ::System::Int32
 	{
 		None = 0,

@@ -8,6 +8,8 @@ class PHJFJAOILHD;
 #define PHJFJAOILHD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2E84F0)
 #define PHJFJAOILHD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2E8420)
 
+inline static constexpr unsigned int PHJFJAOILHD_TypeDefinitionIndex = 22616;
+
 	class PHJFJAOILHD : public ::RPG::GameCore::TaskConfig
 	{
 	public:

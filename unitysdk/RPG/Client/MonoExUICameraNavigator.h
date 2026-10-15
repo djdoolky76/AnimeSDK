@@ -13,6 +13,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoExUICameraNavigator_TypeDefinitionIndex = 72986;
+
 	class MonoExUICameraNavigator : public ::UnityEngine::MonoBehaviour
 	{
 	public:

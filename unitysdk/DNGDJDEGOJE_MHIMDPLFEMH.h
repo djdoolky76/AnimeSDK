@@ -13,6 +13,8 @@ namespace System { class Action; }
 #define DNGDJDEGOJE_MHIMDPLFEMH_KIMGPAHIEDA_OFFSET UNITYSDK_OFFSET(0x1194F4E0)
 #define DNGDJDEGOJE_MHIMDPLFEMH_OEAHGJKNEPI_OFFSET UNITYSDK_OFFSET(0x1194F530)
 
+inline static constexpr unsigned int DNGDJDEGOJE_MHIMDPLFEMH_TypeDefinitionIndex = 58869;
+
 	class DNGDJDEGOJE_MHIMDPLFEMH : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace RPG::GameCore { class AbilityDirtyHPChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityDirtyHPChange_TypeDefinitionIndex = 56593;
+
 	class AbilityDirtyHPChange : public ::CMPGEAFHHDC
 	{
 	public:

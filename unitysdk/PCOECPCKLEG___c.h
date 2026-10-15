@@ -9,6 +9,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define PCOECPCKLEG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7EC060)
 #define PCOECPCKLEG___C__REMOVEENDBUFFS_B__8_0_OFFSET UNITYSDK_OFFSET(0x1C7EC070)
 
+inline static constexpr unsigned int PCOECPCKLEG___c_TypeDefinitionIndex = 37288;
+
 	class PCOECPCKLEG___c : public ::System::Object
 	{
 	public:

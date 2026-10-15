@@ -7,6 +7,8 @@ namespace System { class String; }
 #define LMIACDNCFJN_CKKGEBFPKAE_OFFSET UNITYSDK_OFFSET(0xB782B70)
 #define LMIACDNCFJN_CTOR_OFFSET UNITYSDK_OFFSET(0xB782B50)
 
+inline static constexpr unsigned int LMIACDNCFJN_TypeDefinitionIndex = 64696;
+
 	class LMIACDNCFJN : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageInvasionForceKillMarkData_TypeDefinitionIndex = 71672;
+
 	class StageInvasionForceKillMarkData : public ::System::Object
 	{
 	public:

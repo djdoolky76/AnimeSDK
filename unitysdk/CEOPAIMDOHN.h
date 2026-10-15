@@ -7,6 +7,8 @@ class JCLBAEHIBLA;
 
 #define CEOPAIMDOHN_CTOR_OFFSET UNITYSDK_OFFSET(0xC9F7FE0)
 
+inline static constexpr unsigned int CEOPAIMDOHN_TypeDefinitionIndex = 60340;
+
 	class CEOPAIMDOHN : public ::DAMIINECKKH
 	{
 	public:

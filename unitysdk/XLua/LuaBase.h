@@ -14,6 +14,8 @@ namespace XLua { class LuaEnv; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int LuaBase_TypeDefinitionIndex = 50203;
+
 	class LuaBase : public ::System::Object
 	{
 	public:

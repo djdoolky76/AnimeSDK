@@ -15,6 +15,8 @@ namespace System { class String; }
 #define HPAMHJCLNBF_SAMPLEDELAY_OFFSET UNITYSDK_OFFSET(0x15DC0440)
 #define HPAMHJCLNBF_SET_OWNERFMSYSTEM_OFFSET UNITYSDK_OFFSET(0x15DC0330)
 
+inline static constexpr unsigned int HPAMHJCLNBF_TypeDefinitionIndex = 60896;
+
 	class HPAMHJCLNBF : public ::System::Object
 	{
 	public:

@@ -37,6 +37,8 @@ namespace System { class Type; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriFsWebInstaller_TypeDefinitionIndex = 40119;
+
 	class CriFsWebInstaller : public ::CriWare::CriDisposable
 	{
 	public:

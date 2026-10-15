@@ -24,6 +24,8 @@ namespace UnityEngine { class Transform; }
 #define BFHCIFFJNIA_OIHFKHNHEKG_OFFSET UNITYSDK_OFFSET(0xB1634B0)
 #define BFHCIFFJNIA_SET_VIEWROOT_OFFSET UNITYSDK_OFFSET(0xB163360)
 
+inline static constexpr unsigned int BFHCIFFJNIA_TypeDefinitionIndex = 78011;
+
 	class BFHCIFFJNIA
 	{
 	public:

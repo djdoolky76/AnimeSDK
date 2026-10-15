@@ -26,6 +26,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginFade_TypeDefinitionIndex = 70059;
+
 	class MonoEffectPluginFade : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

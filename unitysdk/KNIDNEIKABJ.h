@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define KNIDNEIKABJ_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0xB586650)
 #define KNIDNEIKABJ_SET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0xB586660)
 
+inline static constexpr unsigned int KNIDNEIKABJ_TypeDefinitionIndex = 62711;
+
 	class KNIDNEIKABJ : public ::System::Object
 	{
 	public:

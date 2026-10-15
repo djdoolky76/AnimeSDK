@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesBuffItemControl_TypeDefinitionIndex = 81301;
+
 	class ChenLingFesBuffItemControl : public ::Sofa::BaseSofaControl
 	{
 	public:

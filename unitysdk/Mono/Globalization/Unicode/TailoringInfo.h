@@ -6,6 +6,8 @@
 
 namespace Mono::Globalization::Unicode
 {
+	inline static constexpr unsigned int TailoringInfo_TypeDefinitionIndex = 31;
+
 	class TailoringInfo : public ::System::Object
 	{
 	public:

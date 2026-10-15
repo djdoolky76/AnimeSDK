@@ -3,6 +3,8 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveQuestStatus_TypeDefinitionIndex = 75307;
+
 	enum class IdleLiveQuestStatus : ::System::Int32
 	{
 		None = 0,

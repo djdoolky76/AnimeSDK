@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JDCNLKFDIOA_CTOR_OFFSET UNITYSDK_OFFSET(0x165BF5A0)
 #define JDCNLKFDIOA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165BF5D0)
 
+inline static constexpr unsigned int JDCNLKFDIOA_TypeDefinitionIndex = 58363;
+
 	class JDCNLKFDIOA
 	{
 	public:

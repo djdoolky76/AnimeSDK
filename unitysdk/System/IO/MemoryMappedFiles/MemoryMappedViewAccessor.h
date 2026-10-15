@@ -11,6 +11,8 @@ namespace System::IO::MemoryMappedFiles { class MemoryMappedView; }
 
 namespace System::IO::MemoryMappedFiles
 {
+	inline static constexpr unsigned int MemoryMappedViewAccessor_TypeDefinitionIndex = 3124;
+
 	class MemoryMappedViewAccessor : public ::System::IO::UnmanagedMemoryAccessor
 	{
 	public:

@@ -5,6 +5,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineTrackedDolly_AutoDolly_TypeDefinitionIndex = 39791;
+
 	struct alignas(4) CinemachineTrackedDolly_AutoDolly
 	{
 		::System::Boolean m_Enabled; // 0x10

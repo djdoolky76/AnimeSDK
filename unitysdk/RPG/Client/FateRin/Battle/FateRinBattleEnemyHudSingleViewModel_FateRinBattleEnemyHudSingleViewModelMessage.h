@@ -3,6 +3,8 @@
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleEnemyHudSingleViewModel_FateRinBattleEnemyHudSingleViewModelMessage_TypeDefinitionIndex = 80863;
+
 	enum class FateRinBattleEnemyHudSingleViewModel_FateRinBattleEnemyHudSingleViewModelMessage : ::System::Int32
 	{
 		None = 0,

@@ -11,6 +11,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int Number_9011FAD97750D224_TypeDefinitionIndex = 4972;
+
 	class Number_9011FAD97750D224 : public ::System::Object
 	{
 	public:

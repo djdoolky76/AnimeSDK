@@ -11,6 +11,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int Extrapolation___c_TypeDefinitionIndex = 38873;
+
 	class Extrapolation___c : public ::System::Object
 	{
 	public:

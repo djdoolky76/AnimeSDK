@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int Length_TypeDefinitionIndex = 5998;
+
 	struct alignas(4) Length
 	{
 		::System::Single m_Value; // 0x10

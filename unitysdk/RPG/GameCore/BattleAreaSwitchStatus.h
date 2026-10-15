@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleAreaSwitchStatus_TypeDefinitionIndex = 24740;
+
 	enum class BattleAreaSwitchStatus : ::System::Int32
 	{
 		Active = 0,

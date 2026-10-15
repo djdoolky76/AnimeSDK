@@ -6,6 +6,8 @@
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
+inline static constexpr unsigned int EKOODKKPECI_TypeDefinitionIndex = 57735;
+
 	struct alignas(8) EKOODKKPECI
 	{
 		::RPG::GameCore::TurnBasedAbilityComponent* JEBFODHHNKF; // 0x10

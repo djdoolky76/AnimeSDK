@@ -4,6 +4,8 @@
 
 #define GPGOJLCDIHD_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x3C27830)
 
+inline static constexpr unsigned int GPGOJLCDIHD_TypeDefinitionIndex = 41426;
+
 	struct alignas(4) GPGOJLCDIHD
 	{
 		::RPG::Client::DesignDataShortNameHash JKBOFDEJEEP; // 0x10

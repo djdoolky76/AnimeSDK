@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 #define OMHEDNHBCHO_GMFKFFBMACL_OFFSET UNITYSDK_OFFSET(0xBF2CE70)
 #define OMHEDNHBCHO_KBFDFOGDILL_OFFSET UNITYSDK_OFFSET(0xBF2CE10)
 
+inline static constexpr unsigned int OMHEDNHBCHO_TypeDefinitionIndex = 49528;
+
 	class OMHEDNHBCHO : public ::EMLPMKPFLAH
 	{
 	public:

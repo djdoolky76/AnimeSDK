@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GOOJIJDPKIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4F5000)
 #define GOOJIJDPKIP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E4F5010)
 
+inline static constexpr unsigned int GOOJIJDPKIP___c_TypeDefinitionIndex = 28087;
+
 	class GOOJIJDPKIP___c : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace System::Collections::Immutable
 {
+	inline static constexpr unsigned int ImmutableArray_TypeDefinitionIndex = 6614;
+
 	class ImmutableArray : public ::System::Object
 	{
 	public:

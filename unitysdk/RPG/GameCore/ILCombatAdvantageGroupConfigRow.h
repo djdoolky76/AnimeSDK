@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ILCombatAdvantageGroupConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ILCombatAdvantageGroupConfigRow_TypeDefinitionIndex = 13803;
+
 	class ILCombatAdvantageGroupConfigRow : public ::System::Object
 	{
 	public:

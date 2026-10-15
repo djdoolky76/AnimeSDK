@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueMagicStyleTypeSelectRow_TypeDefinitionIndex = 14896;
+
 	class RogueMagicStyleTypeSelectRow : public ::System::Object
 	{
 	public:

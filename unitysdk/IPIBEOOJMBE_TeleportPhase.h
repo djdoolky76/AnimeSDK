@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int IPIBEOOJMBE_TeleportPhase_TypeDefinitionIndex = 60556;
+
 	enum class IPIBEOOJMBE_TeleportPhase : ::System::Int32
 	{
 		Invalid = 0,

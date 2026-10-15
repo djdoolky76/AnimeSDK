@@ -11,6 +11,8 @@ namespace MiHoYo::SDK::HoYoUI { class HoYoUIMeta; }
 
 namespace MiHoYo::SDK::HoYoUI
 {
+	inline static constexpr unsigned int HoYoImage_TypeDefinitionIndex = 46709;
+
 	class HoYoImage : public ::UnityEngine::UI::Image
 	{
 	public:

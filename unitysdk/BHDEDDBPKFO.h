@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BHDEDDBPKFO_CTOR_OFFSET UNITYSDK_OFFSET(0xB474630)
 #define BHDEDDBPKFO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB474660)
 
+inline static constexpr unsigned int BHDEDDBPKFO_TypeDefinitionIndex = 54659;
+
 	class BHDEDDBPKFO
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define PDMJAIFPCJE_FIGLOLHCHHL_OFFSET UNITYSDK_OFFSET(0x1C57D4B0)
 #define PDMJAIFPCJE_NCLOMPDLJPB_OFFSET UNITYSDK_OFFSET(0x1C57D670)
 
+inline static constexpr unsigned int PDMJAIFPCJE_TypeDefinitionIndex = 41768;
+
 	class PDMJAIFPCJE : public ::MFPKNIHJJDI
 	{
 	public:

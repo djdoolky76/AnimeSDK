@@ -9,6 +9,8 @@ namespace System { class String; }
 #define PGFBPOEHOLL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2E1940)
 #define PGFBPOEHOLL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2D9610)
 
+inline static constexpr unsigned int PGFBPOEHOLL_TypeDefinitionIndex = 14432;
+
 	class PGFBPOEHOLL : public ::System::Object
 	{
 	public:

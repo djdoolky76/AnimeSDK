@@ -4,6 +4,8 @@
 
 #define KNEBGJFMJDK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C909830)
 
+inline static constexpr unsigned int KNEBGJFMJDK_TypeDefinitionIndex = 42136;
+
 	class KNEBGJFMJDK : public ::System::Object
 	{
 	public:

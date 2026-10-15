@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AMGDILBAPOM_PGCFDFAAOLG_OFFSET UNITYSDK_OFFSET(0x1557CEE0)
 #define AMGDILBAPOM_TICK_OFFSET UNITYSDK_OFFSET(0x1557CD60)
 
+inline static constexpr unsigned int AMGDILBAPOM_TypeDefinitionIndex = 58439;
+
 	class AMGDILBAPOM : public ::GELIALJDFBL
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define CIIFBLMIPGP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCF7F310)
 #define CIIFBLMIPGP___C___CTOR_B__42_0_OFFSET UNITYSDK_OFFSET(0xCF7F320)
 
+inline static constexpr unsigned int CIIFBLMIPGP___c_TypeDefinitionIndex = 69862;
+
 	class CIIFBLMIPGP___c : public ::System::Object
 	{
 	public:

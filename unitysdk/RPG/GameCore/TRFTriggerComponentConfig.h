@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TRFTriggerComponentConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TRFTriggerComponentConfig_TypeDefinitionIndex = 18910;
+
 	class TRFTriggerComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

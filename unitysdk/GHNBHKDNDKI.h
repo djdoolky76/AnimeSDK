@@ -5,6 +5,8 @@
 #define GHNBHKDNDKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4214E0)
 #define GHNBHKDNDKI_GET_PARAMETERVALUE_OFFSET UNITYSDK_OFFSET(0x1C4214F0)
 
+inline static constexpr unsigned int GHNBHKDNDKI_TypeDefinitionIndex = 5084;
+
 	class GHNBHKDNDKI : public ::System::Attribute
 	{
 	public:

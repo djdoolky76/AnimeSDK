@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingBattleDamageImmunityExtraConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleDamageImmunityExtraConfig_TypeDefinitionIndex = 15798;
+
 	class ChenLingBattleDamageImmunityExtraConfig : public ::RPG::GameCore::ChenLingBattleBuffTypeExtraConfig
 	{
 	public:

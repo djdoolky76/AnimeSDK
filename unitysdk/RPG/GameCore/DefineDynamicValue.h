@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DefineDynamicValue_TypeDefinitionIndex = 22899;
+
 	class DefineDynamicValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

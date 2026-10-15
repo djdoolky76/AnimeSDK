@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int BackgroundWorker_BackgroundTask_TypeDefinitionIndex = 46290;
+
 	class BackgroundWorker_BackgroundTask : public ::System::MulticastDelegate
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System { class String; }
 #define JMJEIBGACMD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E78DB10)
 #define JMJEIBGACMD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E78DB70)
 
+inline static constexpr unsigned int JMJEIBGACMD_TypeDefinitionIndex = 33368;
+
 	class JMJEIBGACMD : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Buffers { class ReadOnlySequence; }
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int SequenceMarshal_TypeDefinitionIndex = 4990;
+
 	class SequenceMarshal : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 #define EKOPEANPFKF_FMODFGHBEBK_OFFSET UNITYSDK_OFFSET(0x1CC8F6E0)
 #define EKOPEANPFKF_LFKJJELMNPK_OFFSET UNITYSDK_OFFSET(0x1CC8F6F0)
 
+inline static constexpr unsigned int EKOPEANPFKF_TypeDefinitionIndex = 43889;
+
 	class EKOPEANPFKF : public ::System::Object
 	{
 	public:

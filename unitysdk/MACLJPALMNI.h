@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MACLJPALMNI_CTOR_OFFSET UNITYSDK_OFFSET(0xB842170)
 #define MACLJPALMNI_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB8421C0)
 
+inline static constexpr unsigned int MACLJPALMNI_TypeDefinitionIndex = 59219;
+
 	class MACLJPALMNI
 	{
 	public:

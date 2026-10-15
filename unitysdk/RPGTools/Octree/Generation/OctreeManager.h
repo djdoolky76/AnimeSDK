@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPGTools::Octree::Generation
 {
+	inline static constexpr unsigned int OctreeManager_TypeDefinitionIndex = 48886;
+
 	class OctreeManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

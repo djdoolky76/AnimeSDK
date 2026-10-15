@@ -27,6 +27,8 @@ namespace System { class String; }
 #define EEAGACLNDFN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E263E50)
 #define EEAGACLNDFN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E263EB0)
 
+inline static constexpr unsigned int EEAGACLNDFN_TypeDefinitionIndex = 28030;
+
 	class EEAGACLNDFN : public ::System::Object
 	{
 	public:

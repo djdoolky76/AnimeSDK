@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::CharacterStoryMove
 {
+	inline static constexpr unsigned int AvatarStoryMoveSequenceConfig_TypeDefinitionIndex = 48711;
+
 	class AvatarStoryMoveSequenceConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

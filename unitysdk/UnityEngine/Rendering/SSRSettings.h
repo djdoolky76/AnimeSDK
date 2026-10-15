@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int SSRSettings_TypeDefinitionIndex = 4847;
+
 	struct alignas(4) SSRSettings
 	{
 		::System::Boolean IsMobile; // 0x10

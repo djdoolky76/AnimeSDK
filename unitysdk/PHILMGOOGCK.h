@@ -67,6 +67,8 @@ namespace UnityEngine::UI { class Image; }
 #define PHILMGOOGCK__SETBROKEN_B__34_0_OFFSET UNITYSDK_OFFSET(0xC24F150)
 #define PHILMGOOGCK__SETBROKEN_B__34_1_OFFSET UNITYSDK_OFFSET(0xC24F170)
 
+inline static constexpr unsigned int PHILMGOOGCK_TypeDefinitionIndex = 72096;
+
 	class PHILMGOOGCK : public ::FMPCODLIOLG
 	{
 	public:

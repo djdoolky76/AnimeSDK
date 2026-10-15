@@ -27,6 +27,8 @@ namespace UnityEngine::Rendering { class VolumeParameter; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int VolumeComponent_TypeDefinitionIndex = 35617;
+
 	class VolumeComponent : public ::UnityEngine::ScriptableObject
 	{
 	public:

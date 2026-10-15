@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersBossData_TypeDefinitionIndex = 79019;
+
 	class TeamTowersBossData : public ::System::Object
 	{
 	public:

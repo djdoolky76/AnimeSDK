@@ -21,6 +21,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::BattlePerform
 {
+	inline static constexpr unsigned int BPCameraClip_TypeDefinitionIndex = 48793;
+
 	class BPCameraClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterStoryMoveClip_TypeDefinitionIndex = 47999;
+
 	class CharacterStoryMoveClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

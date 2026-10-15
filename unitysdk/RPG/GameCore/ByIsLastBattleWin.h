@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ByIsLastBattleWin; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsLastBattleWin_TypeDefinitionIndex = 20793;
+
 	class ByIsLastBattleWin : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

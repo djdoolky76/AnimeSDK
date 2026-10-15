@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define BABPNPJGDHP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15BD2330)
 #define BABPNPJGDHP___C__SORTDARKTEAMMULTIROWMEMBER_B__11_0_OFFSET UNITYSDK_OFFSET(0x15BD2340)
 
+inline static constexpr unsigned int BABPNPJGDHP___c_TypeDefinitionIndex = 59052;
+
 	class BABPNPJGDHP___c : public ::System::Object
 	{
 	public:

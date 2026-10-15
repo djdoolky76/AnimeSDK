@@ -10,6 +10,8 @@ namespace InControl { class IInControlGetter; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int InControlGetterUtils_TypeDefinitionIndex = 40850;
+
 	class InControlGetterUtils : public ::System::Object
 	{
 	public:

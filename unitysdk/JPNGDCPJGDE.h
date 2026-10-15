@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JPNGDCPJGDE_NIJJPBOIGBI_OFFSET UNITYSDK_OFFSET(0xB2CB290)
 #define JPNGDCPJGDE_OCNMAKONNMG_OFFSET UNITYSDK_OFFSET(0xB2CB4D0)
 
+inline static constexpr unsigned int JPNGDCPJGDE_TypeDefinitionIndex = 71617;
+
 	class JPNGDCPJGDE : public ::FMPCODLIOLG
 	{
 	public:

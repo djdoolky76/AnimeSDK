@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int SkirtIK_LookDirection_TypeDefinitionIndex = 47252;
+
 	enum class SkirtIK_LookDirection : ::System::Int32
 	{
 		UpLeft = 0,

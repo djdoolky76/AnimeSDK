@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceBaseBubbleMonoView_TypeDefinitionIndex = 78136;
+
 	class CakeRaceBaseBubbleMonoView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

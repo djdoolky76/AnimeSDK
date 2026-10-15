@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_TriggerSkillCutin; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_TriggerSkillCutin_TypeDefinitionIndex = 16038;
+
 	class DiceCombatTaskConfig_TriggerSkillCutin : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int TaskTracker_TypeDefinitionIndex = 38173;
+
 	class TaskTracker : public ::System::Object
 	{
 	public:

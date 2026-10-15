@@ -4,6 +4,8 @@
 
 #define NAALNIKAJDP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDC0)
 
+inline static constexpr unsigned int NAALNIKAJDP_TypeDefinitionIndex = 58813;
+
 	struct alignas(4) NAALNIKAJDP
 	{
 		::RPG::GameCore::TutorialB51RacingGameButtonType PGOHOFMMIAJ; // 0x10

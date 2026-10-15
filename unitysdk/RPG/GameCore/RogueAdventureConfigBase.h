@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueAdventureConfigBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueAdventureConfigBase_TypeDefinitionIndex = 17891;
+
 	class RogueAdventureConfigBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -88,6 +88,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameCoreConfigManager_TypeDefinitionIndex = 56506;
+
 	class GameCoreConfigManager : public ::System::Object
 	{
 	public:

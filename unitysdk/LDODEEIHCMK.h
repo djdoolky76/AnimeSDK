@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define LDODEEIHCMK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB63EF10)
 #define LDODEEIHCMK_TICK_OFFSET UNITYSDK_OFFSET(0xB63EFC0)
 
+inline static constexpr unsigned int LDODEEIHCMK_TypeDefinitionIndex = 53419;
+
 	class LDODEEIHCMK : public ::GELIALJDFBL
 	{
 	public:

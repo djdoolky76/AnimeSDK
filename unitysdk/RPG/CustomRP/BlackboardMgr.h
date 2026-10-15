@@ -20,6 +20,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int BlackboardMgr_TypeDefinitionIndex = 37531;
+
 	class BlackboardMgr : public ::System::Object
 	{
 	public:

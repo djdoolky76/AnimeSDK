@@ -30,6 +30,8 @@ namespace System { class String; }
 #define PJGAHLDOIIG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF79DB0)
 #define PJGAHLDOIIG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF79E10)
 
+inline static constexpr unsigned int PJGAHLDOIIG_TypeDefinitionIndex = 30132;
+
 	class PJGAHLDOIIG : public ::System::Object
 	{
 	public:

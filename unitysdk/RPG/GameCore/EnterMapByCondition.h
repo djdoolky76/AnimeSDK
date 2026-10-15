@@ -11,6 +11,8 @@ namespace RPG::GameCore { class EnterMapByCondition; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnterMapByCondition_TypeDefinitionIndex = 20294;
+
 	class EnterMapByCondition : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPG::GameCore { class StackShield; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StackShield_TypeDefinitionIndex = 23601;
+
 	class StackShield : public ::RPG::GameCore::TaskConfig
 	{
 	public:

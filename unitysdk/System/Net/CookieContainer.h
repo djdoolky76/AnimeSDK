@@ -26,6 +26,8 @@ namespace System::Net { class PathList; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int CookieContainer_TypeDefinitionIndex = 2804;
+
 	class CookieContainer : public ::System::Object
 	{
 	public:

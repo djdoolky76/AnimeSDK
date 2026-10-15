@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define AIGHNCCAJPL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCC9840)
 #define AIGHNCCAJPL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCC9800)
 
+inline static constexpr unsigned int AIGHNCCAJPL_TypeDefinitionIndex = 23352;
+
 	class AIGHNCCAJPL : public ::RPG::GameCore::TaskConfig
 	{
 	public:

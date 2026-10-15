@@ -33,6 +33,8 @@ namespace System { class String; }
 #define FIPOBGFFNKD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E39E500)
 #define FIPOBGFFNKD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E39E560)
 
+inline static constexpr unsigned int FIPOBGFFNKD_TypeDefinitionIndex = 27614;
+
 	class FIPOBGFFNKD : public ::System::Object
 	{
 	public:

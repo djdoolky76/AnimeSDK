@@ -29,6 +29,8 @@ namespace System { class String; }
 #define ICNPODONHGN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E626630)
 #define ICNPODONHGN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E626690)
 
+inline static constexpr unsigned int ICNPODONHGN_TypeDefinitionIndex = 33511;
+
 	class ICNPODONHGN : public ::System::Object
 	{
 	public:

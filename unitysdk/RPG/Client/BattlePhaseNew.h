@@ -31,6 +31,8 @@ namespace RPG::Client { class RPGProfilerMarker; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattlePhaseNew_TypeDefinitionIndex = 61039;
+
 	class BattlePhaseNew : public ::RPG::Client::GamePhase
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Action; }
 #define MGMMCFLBCNM_GET_TO_OFFSET UNITYSDK_OFFSET(0xB928CA0)
 #define MGMMCFLBCNM_GET_UID_OFFSET UNITYSDK_OFFSET(0xB928CB0)
 
+inline static constexpr unsigned int MGMMCFLBCNM_TypeDefinitionIndex = 76062;
+
 	class MGMMCFLBCNM : public ::System::Object
 	{
 	public:

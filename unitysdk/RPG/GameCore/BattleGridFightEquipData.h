@@ -19,6 +19,8 @@ namespace System { class Nullable; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleGridFightEquipData_TypeDefinitionIndex = 56288;
+
 	class BattleGridFightEquipData : public ::System::Object
 	{
 	public:

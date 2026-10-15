@@ -26,6 +26,8 @@ namespace VLB { class VolumetricLightBeam; }
 #define LLPHPDPFBKL_PNIEFOONFOP_OFFSET UNITYSDK_OFFSET(0xB775CA0)
 #define LLPHPDPFBKL_TICK_OFFSET UNITYSDK_OFFSET(0xB777080)
 
+inline static constexpr unsigned int LLPHPDPFBKL_TypeDefinitionIndex = 49011;
+
 	class LLPHPDPFBKL : public ::RPG::Client::TABehaviorBase
 	{
 	public:

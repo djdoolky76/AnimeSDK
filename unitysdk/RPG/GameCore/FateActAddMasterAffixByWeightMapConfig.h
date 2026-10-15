@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateActAddMasterAffixByWeightMapConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateActAddMasterAffixByWeightMapConfig_TypeDefinitionIndex = 19232;
+
 	class FateActAddMasterAffixByWeightMapConfig : public ::RPG::GameCore::FateActionConfigBase
 	{
 	public:

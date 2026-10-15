@@ -9,6 +9,8 @@ namespace System { class Action; }
 #define MHINANAPELB_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C92AD40)
 #define MHINANAPELB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92AE10)
 
+inline static constexpr unsigned int MHINANAPELB_TypeDefinitionIndex = 43570;
+
 	class MHINANAPELB : public ::System::Object
 	{
 	public:

@@ -32,6 +32,8 @@ namespace UnityEngine { class GameObject; }
 #define LHLEGLKEECE_NAKPIHJKFIM_OFFSET UNITYSDK_OFFSET(0xB6B9320)
 #define LHLEGLKEECE_ONEAGNJBFJH_OFFSET UNITYSDK_OFFSET(0xB6B9DE0)
 
+inline static constexpr unsigned int LHLEGLKEECE_TypeDefinitionIndex = 57332;
+
 	class LHLEGLKEECE : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define JNEMCHKBEPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA6540)
 
+inline static constexpr unsigned int JNEMCHKBEPJ_TypeDefinitionIndex = 43333;
+
 	class JNEMCHKBEPJ : public ::System::Object
 	{
 	public:

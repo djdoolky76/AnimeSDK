@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PropLodTemplate; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropLodTemplate_TypeDefinitionIndex = 19114;
+
 	class PropLodTemplate : public ::RPG::GameCore::LodTemplate
 	{
 	public:

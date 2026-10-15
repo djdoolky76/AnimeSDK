@@ -9,6 +9,8 @@ namespace System::Reflection { class MemberInfo; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int MemberBinding_TypeDefinitionIndex = 3243;
+
 	class MemberBinding : public ::System::Object
 	{
 	public:

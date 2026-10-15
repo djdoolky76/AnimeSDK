@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define MDJFAJMPODL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D149550)
 #define MDJFAJMPODL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D149500)
 
+inline static constexpr unsigned int MDJFAJMPODL_TypeDefinitionIndex = 19914;
+
 	class MDJFAJMPODL : public ::RPG::GameCore::TaskConfig
 	{
 	public:

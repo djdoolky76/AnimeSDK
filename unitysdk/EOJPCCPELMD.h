@@ -162,6 +162,8 @@ namespace RPG::GameCore { class GridFightModifierConfigBase; }
 #define EOJPCCPELMD_PMCGMLLCBLF_OFFSET UNITYSDK_OFFSET(0x1CDB8200)
 #define EOJPCCPELMD_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1CDB7800)
 
+inline static constexpr unsigned int EOJPCCPELMD_TypeDefinitionIndex = 19338;
+
 	class EOJPCCPELMD : public ::System::Object
 	{
 	public:

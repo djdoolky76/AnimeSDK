@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PICMINKDDFA_FMAKAHMBAPF_2_OFFSET UNITYSDK_OFFSET(0xC25CFF0)
 #define PICMINKDDFA_FMAKAHMBAPF_OFFSET UNITYSDK_OFFSET(0xC25CD50)
 
+inline static constexpr unsigned int PICMINKDDFA_TypeDefinitionIndex = 74598;
+
 	class PICMINKDDFA : public ::System::Object
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System::Globalization { class RegionInfo; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int RegionInfo_TypeDefinitionIndex = 795;
+
 	class RegionInfo : public ::System::Object
 	{
 	public:

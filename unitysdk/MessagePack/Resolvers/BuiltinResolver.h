@@ -8,6 +8,8 @@ namespace MessagePack::Resolvers { class BuiltinResolver; }
 
 namespace MessagePack::Resolvers
 {
+	inline static constexpr unsigned int BuiltinResolver_TypeDefinitionIndex = 7252;
+
 	class BuiltinResolver : public ::System::Object
 	{
 	public:

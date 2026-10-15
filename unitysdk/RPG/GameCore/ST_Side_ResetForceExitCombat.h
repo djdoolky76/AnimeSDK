@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Side_ResetForceExitCombat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_ResetForceExitCombat_TypeDefinitionIndex = 20126;
+
 	class ST_Side_ResetForceExitCombat : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

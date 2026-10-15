@@ -23,6 +23,8 @@ namespace System { class Object; }
 #define DMELLFNBBDH_INIT_OFFSET UNITYSDK_OFFSET(0x14160)
 #define DMELLFNBBDH_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1CD42FB0)
 
+inline static constexpr unsigned int DMELLFNBBDH_TypeDefinitionIndex = 10659;
+
 	struct alignas(8) DMELLFNBBDH
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

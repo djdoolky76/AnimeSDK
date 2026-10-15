@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 
 #define DFOAEBGJJJG_COFKMAJKGOL_CTOR_OFFSET UNITYSDK_OFFSET(0xE8338F0)
 
+inline static constexpr unsigned int DFOAEBGJJJG_COFKMAJKGOL_TypeDefinitionIndex = 76717;
+
 	class DFOAEBGJJJG_COFKMAJKGOL : public ::System::Object
 	{
 	public:

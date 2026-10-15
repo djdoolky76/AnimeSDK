@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BJHGBFMIPFN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE0B930)
 #define BJHGBFMIPFN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE0B990)
 
+inline static constexpr unsigned int BJHGBFMIPFN_TypeDefinitionIndex = 31590;
+
 	class BJHGBFMIPFN : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 #define FNAFLGKGKII_GET_GRAPHID_OFFSET UNITYSDK_OFFSET(0x15867F80)
 #define FNAFLGKGKII_SET_CUSTOMDATA_OFFSET UNITYSDK_OFFSET(0x15867F70)
 
+inline static constexpr unsigned int FNAFLGKGKII_TypeDefinitionIndex = 58970;
+
 	class FNAFLGKGKII : public ::RPG::GameCore::LevelGraph
 	{
 	public:

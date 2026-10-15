@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameEntityMoveBakedConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameEntityMoveBakedConfig_TypeDefinitionIndex = 18888;
+
 	class LittleGameEntityMoveBakedConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

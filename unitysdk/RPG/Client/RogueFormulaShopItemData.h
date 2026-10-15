@@ -20,6 +20,8 @@ namespace RPG::Client { class RogueFormulaData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueFormulaShopItemData_TypeDefinitionIndex = 67332;
+
 	class RogueFormulaShopItemData : public ::System::Object
 	{
 	public:

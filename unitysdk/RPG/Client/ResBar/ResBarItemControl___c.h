@@ -25,6 +25,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::ResBar
 {
+	inline static constexpr unsigned int ResBarItemControl___c_TypeDefinitionIndex = 79143;
+
 	class ResBarItemControl___c : public ::System::Object
 	{
 	public:

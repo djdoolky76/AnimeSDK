@@ -11,6 +11,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DebugUI_HistoryEnumField_TypeDefinitionIndex = 35536;
+
 	class DebugUI_HistoryEnumField : public ::UnityEngine::Rendering::DebugUI_EnumField
 	{
 	public:

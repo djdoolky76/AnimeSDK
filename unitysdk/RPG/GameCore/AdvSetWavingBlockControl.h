@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvSetWavingBlockControl_TypeDefinitionIndex = 22233;
+
 	class AdvSetWavingBlockControl : public ::RPG::GameCore::TaskConfig
 	{
 	public:

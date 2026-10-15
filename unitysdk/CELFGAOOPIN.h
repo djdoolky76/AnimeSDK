@@ -12,6 +12,8 @@ namespace RPG::Client { class ChessRogueBoardCellDecayData; }
 #define CELFGAOOPIN_SET_BOSSSELECTDATA_OFFSET UNITYSDK_OFFSET(0xC9E48D0)
 #define CELFGAOOPIN_SET_DECAYDATA_OFFSET UNITYSDK_OFFSET(0xC9E48F0)
 
+inline static constexpr unsigned int CELFGAOOPIN_TypeDefinitionIndex = 66922;
+
 	class CELFGAOOPIN : public ::GNFLPMACOFA
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int HoYoPassSDK_GetTokenResultHandlerDelegate_TypeDefinitionIndex = 8297;
+
 	class HoYoPassSDK_GetTokenResultHandlerDelegate : public ::System::MulticastDelegate
 	{
 	public:

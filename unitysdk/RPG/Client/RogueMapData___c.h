@@ -12,6 +12,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMapData___c_TypeDefinitionIndex = 67460;
+
 	class RogueMapData___c : public ::System::Object
 	{
 	public:

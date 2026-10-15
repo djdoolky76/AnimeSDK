@@ -8,6 +8,8 @@ class KIKKCLCAIFJ;
 #define KIKKCLCAIFJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0969E0)
 #define KIKKCLCAIFJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D096910)
 
+inline static constexpr unsigned int KIKKCLCAIFJ_TypeDefinitionIndex = 19934;
+
 	class KIKKCLCAIFJ : public ::RPG::GameCore::TaskConfig
 	{
 	public:

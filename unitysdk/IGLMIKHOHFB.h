@@ -8,6 +8,8 @@ namespace RPG::Client { class ActivityModule; }
 #define IGLMIKHOHFB_CTOR_OFFSET UNITYSDK_OFFSET(0x16410780)
 #define IGLMIKHOHFB_JDGOKNKFKHI_OFFSET UNITYSDK_OFFSET(0x164108B0)
 
+inline static constexpr unsigned int IGLMIKHOHFB_TypeDefinitionIndex = 61702;
+
 	class IGLMIKHOHFB : public ::System::Object
 	{
 	public:

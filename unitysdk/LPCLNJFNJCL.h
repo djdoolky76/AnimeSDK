@@ -29,6 +29,8 @@ namespace UnityEngine { class Transform; }
 #define LPCLNJFNJCL_PMMJGEDIIJD_OFFSET UNITYSDK_OFFSET(0xB81A270)
 #define LPCLNJFNJCL_SET_CURRENTMOVESTATE_OFFSET UNITYSDK_OFFSET(0xB819390)
 
+inline static constexpr unsigned int LPCLNJFNJCL_TypeDefinitionIndex = 53621;
+
 	class LPCLNJFNJCL : public ::System::Object
 	{
 	public:

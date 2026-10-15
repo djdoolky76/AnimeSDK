@@ -7,6 +7,8 @@ namespace System::Reflection { class TypeInfo; }
 
 namespace MessagePack::ImmutableCollection
 {
+	inline static constexpr unsigned int ReflectionExtensions_TypeDefinitionIndex = 7371;
+
 	class ReflectionExtensions : public ::System::Object
 	{
 	public:

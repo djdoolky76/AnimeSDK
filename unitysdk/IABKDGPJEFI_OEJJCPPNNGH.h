@@ -17,6 +17,8 @@ namespace UnityEngine { class Coroutine; }
 #define IABKDGPJEFI_OEJJCPPNNGH_EPKECAMLCJH_OFFSET UNITYSDK_OFFSET(0x15DFD400)
 #define IABKDGPJEFI_OEJJCPPNNGH_KGPCCGNFFJJ_OFFSET UNITYSDK_OFFSET(0x15DFD490)
 
+inline static constexpr unsigned int IABKDGPJEFI_OEJJCPPNNGH_TypeDefinitionIndex = 80166;
+
 	class IABKDGPJEFI_OEJJCPPNNGH : public ::System::Object
 	{
 	public:

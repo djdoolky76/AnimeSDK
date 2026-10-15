@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace System
 {
+	inline static constexpr unsigned int ConsoleKeyInfo_TypeDefinitionIndex = 216;
+
 	struct alignas(4) ConsoleKeyInfo
 	{
 		::System::Char _keyChar; // 0x10

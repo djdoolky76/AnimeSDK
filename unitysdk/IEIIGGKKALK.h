@@ -6,6 +6,8 @@
 #define IEIIGGKKALK_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0x15EFD5D0)
 #define IEIIGGKKALK_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x15EFD560)
 
+inline static constexpr unsigned int IEIIGGKKALK_TypeDefinitionIndex = 67059;
+
 	class IEIIGGKKALK : public ::System::Object
 	{
 	public:

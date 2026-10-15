@@ -40,6 +40,8 @@ namespace System { class String; }
 #define OBPMHOLHOHG_SET_CUSTOMDATA_OFFSET UNITYSDK_OFFSET(0xBD52D70)
 #define OBPMHOLHOHG_SET_LEVELGRAPH_OFFSET UNITYSDK_OFFSET(0xBD52D50)
 
+inline static constexpr unsigned int OBPMHOLHOHG_TypeDefinitionIndex = 76497;
+
 	class OBPMHOLHOHG : public ::System::Object
 	{
 	public:

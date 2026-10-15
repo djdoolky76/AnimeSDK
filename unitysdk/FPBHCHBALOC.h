@@ -31,6 +31,8 @@ namespace System { class String; }
 #define FPBHCHBALOC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E403420)
 #define FPBHCHBALOC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E403480)
 
+inline static constexpr unsigned int FPBHCHBALOC_TypeDefinitionIndex = 26574;
+
 	class FPBHCHBALOC : public ::System::Object
 	{
 	public:

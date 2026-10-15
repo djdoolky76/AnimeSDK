@@ -20,6 +20,8 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int VFXTimelineClip_TypeDefinitionIndex = 48687;
+
 	class VFXTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

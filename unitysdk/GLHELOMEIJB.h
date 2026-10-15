@@ -6,6 +6,8 @@
 
 #define GLHELOMEIJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB1C40)
 
+inline static constexpr unsigned int GLHELOMEIJB_TypeDefinitionIndex = 41988;
+
 	class GLHELOMEIJB : public ::System::Object
 	{
 	public:

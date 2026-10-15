@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KPPPMHDPFML_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8C4280)
 #define KPPPMHDPFML_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8C42E0)
 
+inline static constexpr unsigned int KPPPMHDPFML_TypeDefinitionIndex = 34461;
+
 	class KPPPMHDPFML : public ::System::Object
 	{
 	public:

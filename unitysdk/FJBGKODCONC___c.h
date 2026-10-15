@@ -14,6 +14,8 @@ namespace UnityEngine { class Collider; }
 #define FJBGKODCONC___C___DEPLOYCRYSTALTRIGGERS_B__10_2_OFFSET UNITYSDK_OFFSET(0x157BC7A0)
 #define FJBGKODCONC___C___DEPLOYCRYSTALTRIGGERS_B__10_3_OFFSET UNITYSDK_OFFSET(0x157BC7D0)
 
+inline static constexpr unsigned int FJBGKODCONC___c_TypeDefinitionIndex = 77078;
+
 	class FJBGKODCONC___c : public ::System::Object
 	{
 	public:

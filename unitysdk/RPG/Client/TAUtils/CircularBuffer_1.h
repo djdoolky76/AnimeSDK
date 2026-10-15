@@ -4,6 +4,8 @@
 
 namespace RPG::Client::TAUtils
 {
+	inline static constexpr unsigned int CircularBuffer_1_TypeDefinitionIndex = 73638;
+
 	template <typename T>
 	class CircularBuffer_1 : public ::System::Object
 	{

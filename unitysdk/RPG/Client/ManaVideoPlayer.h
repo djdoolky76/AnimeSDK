@@ -57,6 +57,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ManaVideoPlayer_TypeDefinitionIndex = 73197;
+
 	class ManaVideoPlayer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

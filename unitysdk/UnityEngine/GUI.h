@@ -120,6 +120,8 @@ namespace UnityEngineInternal { class GenericStack; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GUI_TypeDefinitionIndex = 5165;
+
 	class GUI : public ::System::Object
 	{
 	public:

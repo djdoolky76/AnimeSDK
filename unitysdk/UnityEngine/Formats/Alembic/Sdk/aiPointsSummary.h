@@ -15,6 +15,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aiPointsSummary_TypeDefinitionIndex = 45815;
+
 	struct alignas(4) aiPointsSummary
 	{
 		::UnityEngine::Formats::Alembic::Sdk::Bool _hasVelocities_k__BackingField; // 0x10

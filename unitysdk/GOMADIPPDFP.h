@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GOMADIPPDFP_CTOR_OFFSET UNITYSDK_OFFSET(0x15B39BF0)
 #define GOMADIPPDFP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B39CD0)
 
+inline static constexpr unsigned int GOMADIPPDFP_TypeDefinitionIndex = 53865;
+
 	class GOMADIPPDFP
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ST_Main_Predicate_Behaviour; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_Predicate_Behaviour_TypeDefinitionIndex = 20121;
+
 	class ST_Main_Predicate_Behaviour : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

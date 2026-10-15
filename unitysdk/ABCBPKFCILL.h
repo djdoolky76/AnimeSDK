@@ -7,6 +7,8 @@ class PNIFMEAJAEB;
 #define ABCBPKFCILL_GAFHBCDPFOM_OFFSET UNITYSDK_OFFSET(0xB0EBE80)
 #define ABCBPKFCILL_KDKCABHPPGK_OFFSET UNITYSDK_OFFSET(0xB0EBDD0)
 
+inline static constexpr unsigned int ABCBPKFCILL_TypeDefinitionIndex = 80820;
+
 	class ABCBPKFCILL : public ::System::Object
 	{
 	public:

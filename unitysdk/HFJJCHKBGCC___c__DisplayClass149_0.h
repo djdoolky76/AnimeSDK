@@ -8,6 +8,8 @@ class ODGPPIHLOFF;
 #define HFJJCHKBGCC___C__DISPLAYCLASS149_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15C84420)
 #define HFJJCHKBGCC___C__DISPLAYCLASS149_0__APPLYSTACKSYNCRESLOADING_B__0_OFFSET UNITYSDK_OFFSET(0x15C872D0)
 
+inline static constexpr unsigned int HFJJCHKBGCC___c__DisplayClass149_0_TypeDefinitionIndex = 49283;
+
 	class HFJJCHKBGCC___c__DisplayClass149_0 : public ::System::Object
 	{
 	public:

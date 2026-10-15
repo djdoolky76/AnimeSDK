@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KPCNNOGGIDO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8B9E10)
 #define KPCNNOGGIDO___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1E8B9E20)
 
+inline static constexpr unsigned int KPCNNOGGIDO___c_TypeDefinitionIndex = 31339;
+
 	class KPCNNOGGIDO___c : public ::System::Object
 	{
 	public:

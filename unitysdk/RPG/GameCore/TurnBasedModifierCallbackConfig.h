@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TurnBasedModifierCallbackConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TurnBasedModifierCallbackConfig_TypeDefinitionIndex = 18235;
+
 	class TurnBasedModifierCallbackConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

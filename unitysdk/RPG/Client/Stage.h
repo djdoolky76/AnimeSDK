@@ -179,6 +179,8 @@ namespace UnityEngine::AI { class NavMeshData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Stage_TypeDefinitionIndex = 69507;
+
 	class Stage : public ::System::Object
 	{
 	public:

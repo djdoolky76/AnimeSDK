@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DLFEICHFIOA_IJOLENBNDDC_OFFSET UNITYSDK_OFFSET(0xF89CBE0)
 #define DLFEICHFIOA_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xF89C8F0)
 
+inline static constexpr unsigned int DLFEICHFIOA_TypeDefinitionIndex = 76660;
+
 	class DLFEICHFIOA : public ::System::Object
 	{
 	public:

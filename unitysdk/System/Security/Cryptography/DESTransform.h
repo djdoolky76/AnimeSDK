@@ -15,6 +15,8 @@ namespace System::Security::Cryptography { class SymmetricAlgorithm; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int DESTransform_TypeDefinitionIndex = 1075;
+
 	class DESTransform : public ::Mono::Security::Cryptography::SymmetricTransform
 	{
 	public:

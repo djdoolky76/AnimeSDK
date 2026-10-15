@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelSwapPositionNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelSwapPositionNode_TypeDefinitionIndex = 15966;
+
 	class ChimeraDuelSwapPositionNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
 	public:

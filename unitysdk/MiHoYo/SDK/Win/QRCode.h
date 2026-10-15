@@ -15,6 +15,8 @@ namespace UnityEngine::UI { class RawImage; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int QRCode_TypeDefinitionIndex = 9544;
+
 	class QRCode : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -15,6 +15,8 @@ namespace UnityEngine { class GameObject; }
 #define LFAOHPGFNKB_NJEPOLNAFGF_OFFSET UNITYSDK_OFFSET(0xB65FA90)
 #define LFAOHPGFNKB_PAHEIGLPKJE_OFFSET UNITYSDK_OFFSET(0xB6601A0)
 
+inline static constexpr unsigned int LFAOHPGFNKB_TypeDefinitionIndex = 75572;
+
 	class LFAOHPGFNKB : public ::KFCMMMMMIIO
 	{
 	public:

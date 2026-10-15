@@ -28,6 +28,8 @@ namespace UnityEngine::UI { class SmoothMask; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftChipImageControlBinder_TypeDefinitionIndex = 79810;
+
 	class MechCraftChipImageControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

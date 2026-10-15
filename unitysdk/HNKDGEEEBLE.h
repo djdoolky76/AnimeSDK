@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HNKDGEEEBLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C678140)
 #define HNKDGEEEBLE_GNLJKGAHBLI_OFFSET UNITYSDK_OFFSET(0x1C678050)
 
+inline static constexpr unsigned int HNKDGEEEBLE_TypeDefinitionIndex = 37209;
+
 	class HNKDGEEEBLE : public ::System::Object
 	{
 	public:

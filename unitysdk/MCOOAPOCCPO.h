@@ -9,6 +9,8 @@ namespace System { class String; }
 #define MCOOAPOCCPO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D13F990)
 #define MCOOAPOCCPO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D13F950)
 
+inline static constexpr unsigned int MCOOAPOCCPO_TypeDefinitionIndex = 23301;
+
 	class MCOOAPOCCPO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -38,6 +38,8 @@ namespace System { class String; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int DescriptorProto_Types_ExtensionRange_TypeDefinitionIndex = 5463;
+
 	class DescriptorProto_Types_ExtensionRange : public ::System::Object
 	{
 	public:

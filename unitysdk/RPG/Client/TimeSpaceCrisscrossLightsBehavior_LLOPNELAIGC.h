@@ -10,6 +10,8 @@ namespace UnityEngine { class Light; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeSpaceCrisscrossLightsBehavior_LLOPNELAIGC_TypeDefinitionIndex = 70230;
+
 	class TimeSpaceCrisscrossLightsBehavior_LLOPNELAIGC : public ::System::Object
 	{
 	public:

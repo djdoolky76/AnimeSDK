@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ServerSetMainMissionCustomValue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ServerSetMainMissionCustomValue_TypeDefinitionIndex = 20440;
+
 	class ServerSetMainMissionCustomValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

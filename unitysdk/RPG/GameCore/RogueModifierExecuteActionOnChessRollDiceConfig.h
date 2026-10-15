@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionOnChessRollDiceConfig;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionOnChessRollDiceConfig_TypeDefinitionIndex = 17947;
+
 	class RogueModifierExecuteActionOnChessRollDiceConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

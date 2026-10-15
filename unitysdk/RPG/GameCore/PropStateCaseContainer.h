@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PropStateCaseContainer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropStateCaseContainer_TypeDefinitionIndex = 17536;
+
 	class PropStateCaseContainer : public ::RPG::GameCore::CaseContainerBase
 	{
 	public:

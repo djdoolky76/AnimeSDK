@@ -6,6 +6,8 @@ namespace RPG::GameCore { class FiveDimPipePortalConfig; }
 
 #define PDNCJCGIFAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9A58F0)
 
+inline static constexpr unsigned int PDNCJCGIFAJ_TypeDefinitionIndex = 43485;
+
 	class PDNCJCGIFAJ : public ::System::Object
 	{
 	public:

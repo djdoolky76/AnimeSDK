@@ -83,6 +83,8 @@ namespace UnityEngine::UI::CoroutineTween { template <typename T> class TweenRun
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int Dropdown_TypeDefinitionIndex = 6707;
+
 	class Dropdown : public ::UnityEngine::UI::Selectable
 	{
 	public:

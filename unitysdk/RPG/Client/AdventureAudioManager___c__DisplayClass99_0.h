@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AdventureAudioManager___c__DisplayClass99_0_TypeDefinitionIndex = 60490;
+
 	class AdventureAudioManager___c__DisplayClass99_0 : public ::System::Object
 	{
 	public:

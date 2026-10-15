@@ -3,6 +3,8 @@
 
 #define HAMCAOCNLGB_CKBLPDGKMMD_CTOR_OFFSET UNITYSDK_OFFSET(0x15B933E0)
 
+inline static constexpr unsigned int HAMCAOCNLGB_CKBLPDGKMMD_TypeDefinitionIndex = 79539;
+
 	class HAMCAOCNLGB_CKBLPDGKMMD
 	{
 	public:

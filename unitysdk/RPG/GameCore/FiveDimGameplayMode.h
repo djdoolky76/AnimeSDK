@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimGameplayMode_TypeDefinitionIndex = 18510;
+
 	enum class FiveDimGameplayMode : ::System::UInt32
 	{
 		Default = 0,

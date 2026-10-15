@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 
 #define CCCBENCKELF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DCD40)
 
+inline static constexpr unsigned int CCCBENCKELF_TypeDefinitionIndex = 42518;
+
 	class CCCBENCKELF : public ::System::Object
 	{
 	public:

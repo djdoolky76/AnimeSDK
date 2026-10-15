@@ -10,6 +10,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoInflatableFighter_TypeDefinitionIndex = 68682;
+
 	class MonoInflatableFighter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

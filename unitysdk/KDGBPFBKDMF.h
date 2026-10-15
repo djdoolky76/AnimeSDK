@@ -4,6 +4,8 @@
 
 #define KDGBPFBKDMF_CTOR_OFFSET UNITYSDK_OFFSET(0xB35D030)
 
+inline static constexpr unsigned int KDGBPFBKDMF_TypeDefinitionIndex = 80199;
+
 	class KDGBPFBKDMF : public ::System::Object
 	{
 	public:

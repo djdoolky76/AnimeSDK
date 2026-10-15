@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class Slider; }
 #define GAPDMPDBIME_REVERSE_OFFSET UNITYSDK_OFFSET(0x159448F0)
 #define GAPDMPDBIME_STARTWITHTARGET_OFFSET UNITYSDK_OFFSET(0x15944750)
 
+inline static constexpr unsigned int GAPDMPDBIME_TypeDefinitionIndex = 73531;
+
 	class GAPDMPDBIME : public ::MOGBNBGMIHF
 	{
 	public:

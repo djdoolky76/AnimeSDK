@@ -10,6 +10,8 @@ namespace System::IO { class TextWriter; }
 #define EPEDNGKJEDH_MCAGHMBABGB_OFFSET UNITYSDK_OFFSET(0x1CDBE030)
 #define EPEDNGKJEDH_MEGNNLKMBAJ_OFFSET UNITYSDK_OFFSET(0x1CDBE2B0)
 
+inline static constexpr unsigned int EPEDNGKJEDH_TypeDefinitionIndex = 10823;
+
 	class EPEDNGKJEDH : public ::System::Object
 	{
 	public:

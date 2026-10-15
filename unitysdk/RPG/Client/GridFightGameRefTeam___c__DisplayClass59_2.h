@@ -9,6 +9,8 @@ class KKJMAOMDCAE_OPIGALIJPOP;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameRefTeam___c__DisplayClass59_2_TypeDefinitionIndex = 64811;
+
 	template <typename T1, typename T2>
 	class GridFightGameRefTeam___c__DisplayClass59_2 : public ::System::Object
 	{

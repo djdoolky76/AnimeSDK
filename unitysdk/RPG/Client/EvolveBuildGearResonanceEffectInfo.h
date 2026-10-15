@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EvolveBuildGearResonanceEffectInfo_TypeDefinitionIndex = 63775;
+
 	class EvolveBuildGearResonanceEffectInfo : public ::System::Object
 	{
 	public:

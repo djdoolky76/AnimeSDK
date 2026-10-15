@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetSeqOperation_TypeDefinitionIndex = 23742;
+
 	class TargetSeqOperation : public ::RPG::GameCore::JsonConfig
 	{
 	public:

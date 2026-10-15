@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int TaskSchedulerAwaitTaskContinuation___c_TypeDefinitionIndex = 924;
+
 	class TaskSchedulerAwaitTaskContinuation___c : public ::System::Object
 	{
 	public:

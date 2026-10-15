@@ -13,6 +13,8 @@ namespace UnityEngine { class Animation; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyDreamWorldController_TypeDefinitionIndex = 72844;
+
 	class MonopolyDreamWorldController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

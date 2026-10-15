@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CLEGFMMPCPN_CTOR_OFFSET UNITYSDK_OFFSET(0xD77B850)
 #define CLEGFMMPCPN_EVALUATE_OFFSET UNITYSDK_OFFSET(0xD77B880)
 
+inline static constexpr unsigned int CLEGFMMPCPN_TypeDefinitionIndex = 54470;
+
 	class CLEGFMMPCPN
 	{
 	public:

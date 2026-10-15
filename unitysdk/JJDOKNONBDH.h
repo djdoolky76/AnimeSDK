@@ -14,6 +14,8 @@ namespace System { class String; }
 #define JJDOKNONBDH_LMEDOJHAKEP_OFFSET UNITYSDK_OFFSET(0xB202F80)
 #define JJDOKNONBDH_MIFPPJNHEDA_OFFSET UNITYSDK_OFFSET(0xB202710)
 
+inline static constexpr unsigned int JJDOKNONBDH_TypeDefinitionIndex = 60068;
+
 	class JJDOKNONBDH : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JAMPFIHLEDG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1655BCF0)
 #define JAMPFIHLEDG_TICK_OFFSET UNITYSDK_OFFSET(0x1655BD40)
 
+inline static constexpr unsigned int JAMPFIHLEDG_TypeDefinitionIndex = 52629;
+
 	class JAMPFIHLEDG : public ::GELIALJDFBL
 	{
 	public:

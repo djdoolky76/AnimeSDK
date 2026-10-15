@@ -25,6 +25,8 @@ namespace System { class String; }
 #define OFNMDDJOJEO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE4C370)
 #define OFNMDDJOJEO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE4C3D0)
 
+inline static constexpr unsigned int OFNMDDJOJEO_TypeDefinitionIndex = 31605;
+
 	class OFNMDDJOJEO : public ::System::Object
 	{
 	public:

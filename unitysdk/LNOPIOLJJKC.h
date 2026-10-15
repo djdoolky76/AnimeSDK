@@ -31,6 +31,8 @@ namespace System { class String; }
 #define LNOPIOLJJKC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9B6A40)
 #define LNOPIOLJJKC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9B6AA0)
 
+inline static constexpr unsigned int LNOPIOLJJKC_TypeDefinitionIndex = 32044;
+
 	class LNOPIOLJJKC : public ::System::Object
 	{
 	public:

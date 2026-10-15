@@ -11,6 +11,8 @@ class BJHMBGLPOLB;
 #define AKAPOCMFCHC_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x12CC8CD0)
 #define AKAPOCMFCHC_SET_CARD_OFFSET UNITYSDK_OFFSET(0x12CC8D80)
 
+inline static constexpr unsigned int AKAPOCMFCHC_TypeDefinitionIndex = 80544;
+
 	class AKAPOCMFCHC : public ::System::Object
 	{
 	public:

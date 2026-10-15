@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DGEPFHILKPM_CTOR_OFFSET UNITYSDK_OFFSET(0xE846200)
 #define DGEPFHILKPM_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xE8461B0)
 
+inline static constexpr unsigned int DGEPFHILKPM_TypeDefinitionIndex = 80113;
+
 	class DGEPFHILKPM : public ::System::Object
 	{
 	public:

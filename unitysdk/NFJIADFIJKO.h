@@ -14,6 +14,8 @@ namespace UnityEngine { class Object; }
 #define NFJIADFIJKO_KPMAJCLMOKK_OFFSET UNITYSDK_OFFSET(0xBB97F20)
 #define NFJIADFIJKO_OHBNKHOOIAB_OFFSET UNITYSDK_OFFSET(0xBB98190)
 
+inline static constexpr unsigned int NFJIADFIJKO_TypeDefinitionIndex = 59920;
+
 	class NFJIADFIJKO : public ::HEAIEBHLCMJ
 	{
 	public:

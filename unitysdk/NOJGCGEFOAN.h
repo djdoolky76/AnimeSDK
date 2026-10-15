@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TeamTowersPlayerModifierType.h"
 
+inline static constexpr unsigned int NOJGCGEFOAN_TypeDefinitionIndex = 37089;
+
 	struct alignas(4) NOJGCGEFOAN
 	{
 		::RPG::GameCore::TeamTowersPlayerModifierType JMNJLFACCLM; // 0x10

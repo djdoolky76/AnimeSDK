@@ -89,6 +89,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int BrowserWin32Helper_TypeDefinitionIndex = 46607;
+
 	class BrowserWin32Helper : public ::UnityEngine::MonoBehaviour
 	{
 	public:

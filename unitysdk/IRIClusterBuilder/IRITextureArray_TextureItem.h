@@ -7,6 +7,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace IRIClusterBuilder
 {
+	inline static constexpr unsigned int IRITextureArray_TextureItem_TypeDefinitionIndex = 47752;
+
 	class IRITextureArray_TextureItem : public ::System::Object
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define DLEKOLHCNIE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1E65B0)
 #define DLEKOLHCNIE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1E6610)
 
+inline static constexpr unsigned int DLEKOLHCNIE_TypeDefinitionIndex = 33708;
+
 	class DLEKOLHCNIE : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoAnimatorStateSync_AnimatorStateSync_TypeDefinitionIndex = 68527;
+
 	struct alignas(8) MonoAnimatorStateSync_AnimatorStateSync
 	{
 		::System::String* sourceStateName; // 0x10

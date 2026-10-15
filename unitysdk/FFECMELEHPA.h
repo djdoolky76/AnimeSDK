@@ -6,6 +6,8 @@ namespace RPG::GameCore { class ItemConfig; }
 #define FFECMELEHPA_COMPARE_OFFSET UNITYSDK_OFFSET(0x15733170)
 #define FFECMELEHPA_CTOR_OFFSET UNITYSDK_OFFSET(0x15733240)
 
+inline static constexpr unsigned int FFECMELEHPA_TypeDefinitionIndex = 61700;
+
 	class FFECMELEHPA : public ::System::Object
 	{
 	public:

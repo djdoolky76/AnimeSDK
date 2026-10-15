@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BKIFLODEGFC_ONSKIP_OFFSET UNITYSDK_OFFSET(0xBA58910)
 #define BKIFLODEGFC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA58850)
 
+inline static constexpr unsigned int BKIFLODEGFC_TypeDefinitionIndex = 57911;
+
 	class BKIFLODEGFC
 	{
 	public:

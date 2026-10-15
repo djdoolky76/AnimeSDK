@@ -7,6 +7,8 @@ namespace RPG::Client::Promises { class Promise; }
 #define JGDCIMPJDNN___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB1986E0)
 #define JGDCIMPJDNN___C__DISPLAYCLASS3_0___WAITMISSIONDATAREADY_B__0_OFFSET UNITYSDK_OFFSET(0xB198770)
 
+inline static constexpr unsigned int JGDCIMPJDNN___c__DisplayClass3_0_TypeDefinitionIndex = 80522;
+
 	class JGDCIMPJDNN___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

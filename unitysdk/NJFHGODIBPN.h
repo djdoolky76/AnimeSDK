@@ -42,6 +42,8 @@ namespace System { class Nullable; }
 #define NJFHGODIBPN_SET_OWNERCONTROLLER_OFFSET UNITYSDK_OFFSET(0xBC0F2C0)
 #define NJFHGODIBPN_TICK_OFFSET UNITYSDK_OFFSET(0xBC0DC50)
 
+inline static constexpr unsigned int NJFHGODIBPN_TypeDefinitionIndex = 56990;
+
 	class NJFHGODIBPN : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

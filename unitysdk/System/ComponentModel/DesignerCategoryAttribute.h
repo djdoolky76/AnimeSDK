@@ -16,6 +16,8 @@ namespace System::ComponentModel { class DesignerCategoryAttribute; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int DesignerCategoryAttribute_TypeDefinitionIndex = 2583;
+
 	class DesignerCategoryAttribute : public ::System::Attribute
 	{
 	public:

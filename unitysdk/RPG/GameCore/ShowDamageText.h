@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowDamageText_TypeDefinitionIndex = 23560;
+
 	class ShowDamageText : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -5,6 +5,8 @@
 #define BPFLOGNFMBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC655C0)
 #define BPFLOGNFMBO_DPMJELFJBBE_OFFSET UNITYSDK_OFFSET(0x1EC655E0)
 
+inline static constexpr unsigned int BPFLOGNFMBO_TypeDefinitionIndex = 44195;
+
 	class BPFLOGNFMBO
 	{
 	public:

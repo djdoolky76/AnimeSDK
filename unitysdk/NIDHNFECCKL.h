@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 class BJLOENPDAHE;
 
+inline static constexpr unsigned int NIDHNFECCKL_TypeDefinitionIndex = 62100;
+
 	struct alignas(8) NIDHNFECCKL
 	{
 		::BJLOENPDAHE* CIKPBGDIABO; // 0x10

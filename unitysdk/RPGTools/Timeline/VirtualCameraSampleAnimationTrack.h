@@ -13,6 +13,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int VirtualCameraSampleAnimationTrack_TypeDefinitionIndex = 47834;
+
 	class VirtualCameraSampleAnimationTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

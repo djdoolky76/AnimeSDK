@@ -7,6 +7,8 @@ namespace Proto { class MonopolyActionResult; }
 #define IOIAJBJFKMF_CTOR_OFFSET UNITYSDK_OFFSET(0x16502E00)
 #define IOIAJBJFKMF_TRIGGER_OFFSET UNITYSDK_OFFSET(0x16502CB0)
 
+inline static constexpr unsigned int IOIAJBJFKMF_TypeDefinitionIndex = 66228;
+
 	class IOIAJBJFKMF : public ::System::Object
 	{
 	public:

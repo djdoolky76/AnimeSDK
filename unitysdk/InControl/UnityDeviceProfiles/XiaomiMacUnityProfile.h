@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int XiaomiMacUnityProfile_TypeDefinitionIndex = 41035;
+
 	class XiaomiMacUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

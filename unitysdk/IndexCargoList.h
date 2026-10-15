@@ -6,6 +6,8 @@ namespace UnityEngine { class GameObject; }
 
 #define INDEXCARGOLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x16537AE0)
 
+inline static constexpr unsigned int IndexCargoList_TypeDefinitionIndex = 47088;
+
 	class IndexCargoList : public ::System::Object
 	{
 	public:

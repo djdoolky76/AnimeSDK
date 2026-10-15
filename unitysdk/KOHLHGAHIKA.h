@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KOHLHGAHIKA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB596FB0)
 #define KOHLHGAHIKA_TICK_OFFSET UNITYSDK_OFFSET(0xB597000)
 
+inline static constexpr unsigned int KOHLHGAHIKA_TypeDefinitionIndex = 57933;
+
 	class KOHLHGAHIKA : public ::GELIALJDFBL
 	{
 	public:

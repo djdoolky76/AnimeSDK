@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::LittleGame::ChenLing
 {
+	inline static constexpr unsigned int ChenLingJumpTextView_TypeDefinitionIndex = 77973;
+
 	class ChenLingJumpTextView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

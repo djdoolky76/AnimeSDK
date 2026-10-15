@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CutSceneSFXItem_TypeDefinitionIndex = 17018;
+
 	class CutSceneSFXItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

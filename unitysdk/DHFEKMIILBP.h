@@ -18,6 +18,8 @@ namespace System { class String; }
 #define DHFEKMIILBP_PGBMECJEPJF_OFFSET UNITYSDK_OFFSET(0xEBCD790)
 #define DHFEKMIILBP_PKPIJPGKCPE_OFFSET UNITYSDK_OFFSET(0xEBCD5A0)
 
+inline static constexpr unsigned int DHFEKMIILBP_TypeDefinitionIndex = 61219;
+
 	class DHFEKMIILBP : public ::System::Object
 	{
 	public:

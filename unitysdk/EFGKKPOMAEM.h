@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define EFGKKPOMAEM_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x13A4BA50)
 #define EFGKKPOMAEM_OALKEPEHJEP_OFFSET UNITYSDK_OFFSET(0x13A4BAE0)
 
+inline static constexpr unsigned int EFGKKPOMAEM_TypeDefinitionIndex = 71172;
+
 	class EFGKKPOMAEM : public ::System::Object
 	{
 	public:

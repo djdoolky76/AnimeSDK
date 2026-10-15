@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Mono
 {
+	inline static constexpr unsigned int FiveDimChildPresetItem_TypeDefinitionIndex = 76024;
+
 	class FiveDimChildPresetItem : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChangeCharacterRowData_TypeDefinitionIndex = 23677;
+
 	class ChangeCharacterRowData : public ::RPG::GameCore::TaskConfig
 	{
 	public:

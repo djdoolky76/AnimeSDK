@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OAKFFCPPPIM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D24C0D0)
 #define OAKFFCPPPIM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D24BA30)
 
+inline static constexpr unsigned int OAKFFCPPPIM_TypeDefinitionIndex = 11497;
+
 	class OAKFFCPPPIM : public ::System::Object
 	{
 	public:

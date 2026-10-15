@@ -19,6 +19,8 @@ namespace RPG::Client { class GrowthTargetRelicRecommender; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GrowthTargetHelper_TypeDefinitionIndex = 65604;
+
 	class GrowthTargetHelper : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitPredicateSucc; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitPredicateSucc_TypeDefinitionIndex = 22082;
+
 	class WaitPredicateSucc : public ::RPG::GameCore::TaskConfig
 	{
 	public:

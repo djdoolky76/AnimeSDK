@@ -7,6 +7,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceGameFlow___O_TypeDefinitionIndex = 76445;
+
 	class CakeRaceGameFlow___O : public ::System::Object
 	{
 	public:

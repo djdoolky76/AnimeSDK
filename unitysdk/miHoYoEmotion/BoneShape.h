@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace miHoYoEmotion
 {
+	inline static constexpr unsigned int BoneShape_TypeDefinitionIndex = 45959;
+
 	class BoneShape : public ::System::Object
 	{
 	public:

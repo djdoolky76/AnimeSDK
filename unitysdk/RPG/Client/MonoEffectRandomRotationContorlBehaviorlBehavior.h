@@ -18,6 +18,8 @@ namespace RPG::Client { class MonoEffectRandomRotation; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectRandomRotationContorlBehaviorlBehavior_TypeDefinitionIndex = 70372;
+
 	class MonoEffectRandomRotationContorlBehaviorlBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

@@ -8,6 +8,8 @@
 #define NKGEOIFDGFF_JMKLBMEHDCG_OFFSET UNITYSDK_OFFSET(0xBC33EB0)
 #define NKGEOIFDGFF_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBC33E60)
 
+inline static constexpr unsigned int NKGEOIFDGFF_TypeDefinitionIndex = 61054;
+
 	class NKGEOIFDGFF : public ::System::Object
 	{
 	public:

@@ -42,6 +42,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::FateRin::View::Battle
 {
+	inline static constexpr unsigned int FateRinCardHitTestService_TypeDefinitionIndex = 80676;
+
 	class FateRinCardHitTestService : public ::System::Object
 	{
 	public:

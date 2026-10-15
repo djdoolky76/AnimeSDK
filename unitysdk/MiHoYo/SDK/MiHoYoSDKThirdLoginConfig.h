@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKThirdLoginConfig_TypeDefinitionIndex = 46336;
+
 	class MiHoYoSDKThirdLoginConfig : public ::System::Object
 	{
 	public:

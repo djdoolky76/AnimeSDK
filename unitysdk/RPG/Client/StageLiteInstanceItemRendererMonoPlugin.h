@@ -12,6 +12,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageLiteInstanceItemRendererMonoPlugin_TypeDefinitionIndex = 71019;
+
 	class StageLiteInstanceItemRendererMonoPlugin
 	{
 	public:

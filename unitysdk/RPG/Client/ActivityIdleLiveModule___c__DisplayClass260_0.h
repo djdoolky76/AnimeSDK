@@ -9,6 +9,8 @@ namespace RPG::Client::ActivityIdleLive { class CaptainData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityIdleLiveModule___c__DisplayClass260_0_TypeDefinitionIndex = 61544;
+
 	class ActivityIdleLiveModule___c__DisplayClass260_0 : public ::System::Object
 	{
 	public:

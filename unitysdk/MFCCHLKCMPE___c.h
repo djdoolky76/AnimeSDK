@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define MFCCHLKCMPE___C__CONVERTTOBINARYFORMAT_B__1_0_OFFSET UNITYSDK_OFFSET(0xB8EDD00)
 #define MFCCHLKCMPE___C__CONVERTTOBINARYFORMAT_B__1_1_OFFSET UNITYSDK_OFFSET(0xB8EDD10)
 
+inline static constexpr unsigned int MFCCHLKCMPE___c_TypeDefinitionIndex = 73760;
+
 	class MFCCHLKCMPE___c : public ::System::Object
 	{
 	public:

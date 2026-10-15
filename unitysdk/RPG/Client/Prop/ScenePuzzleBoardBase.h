@@ -12,6 +12,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ScenePuzzleBoardBase_TypeDefinitionIndex = 78855;
+
 	class ScenePuzzleBoardBase : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

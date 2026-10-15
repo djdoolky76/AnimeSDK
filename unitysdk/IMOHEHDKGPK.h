@@ -9,6 +9,8 @@ namespace System { class String; }
 #define IMOHEHDKGPK_LEOMPNIAAGG_OFFSET UNITYSDK_OFFSET(0x2E82C90)
 #define IMOHEHDKGPK_MLGBLCIBHOE_OFFSET UNITYSDK_OFFSET(0x2E82D10)
 
+inline static constexpr unsigned int IMOHEHDKGPK_TypeDefinitionIndex = 73329;
+
 	struct alignas(4) IMOHEHDKGPK
 	{
 		::System::Int32 BJMAHPHMFDM; // 0x10

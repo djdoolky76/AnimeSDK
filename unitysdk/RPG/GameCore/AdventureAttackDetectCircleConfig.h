@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdventureAttackDetectCircleConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureAttackDetectCircleConfig_TypeDefinitionIndex = 16276;
+
 	class AdventureAttackDetectCircleConfig : public ::RPG::GameCore::AdventureAttackDetectShapeConfig
 	{
 	public:

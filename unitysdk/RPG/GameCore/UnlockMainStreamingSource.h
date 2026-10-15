@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UnlockMainStreamingSource; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UnlockMainStreamingSource_TypeDefinitionIndex = 20503;
+
 	class UnlockMainStreamingSource : public ::RPG::GameCore::TaskConfig
 	{
 	public:

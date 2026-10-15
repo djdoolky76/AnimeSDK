@@ -11,6 +11,8 @@ namespace System { class String; }
 #define PELKNPKGJJN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2D59E0)
 #define PELKNPKGJJN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2D5920)
 
+inline static constexpr unsigned int PELKNPKGJJN_TypeDefinitionIndex = 21080;
+
 	class PELKNPKGJJN : public ::RPG::GameCore::TaskConfig
 	{
 	public:

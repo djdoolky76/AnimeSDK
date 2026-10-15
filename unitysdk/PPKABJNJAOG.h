@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleByCasterAction; }
 #define PPKABJNJAOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F95C0)
 #define PPKABJNJAOG_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1C9F95D0)
 
+inline static constexpr unsigned int PPKABJNJAOG_TypeDefinitionIndex = 43140;
+
 	class PPKABJNJAOG : public ::LHJPMDPJPEC
 	{
 	public:

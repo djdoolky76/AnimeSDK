@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MunicipalChatActionEmoji_TypeDefinitionIndex = 16926;
+
 	class MunicipalChatActionEmoji : public ::RPG::GameCore::MunicipalChatActionBase
 	{
 	public:

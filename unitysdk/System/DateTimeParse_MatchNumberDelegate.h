@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace System
 {
+	inline static constexpr unsigned int DateTimeParse_MatchNumberDelegate_TypeDefinitionIndex = 253;
+
 	class DateTimeParse_MatchNumberDelegate : public ::System::MulticastDelegate
 	{
 	public:

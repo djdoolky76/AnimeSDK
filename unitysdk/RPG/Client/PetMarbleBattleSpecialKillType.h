@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PetMarbleBattleSpecialKillType_TypeDefinitionIndex = 65826;
+
 	enum class PetMarbleBattleSpecialKillType : ::System::Int32
 	{
 		FirstBlood = 0,

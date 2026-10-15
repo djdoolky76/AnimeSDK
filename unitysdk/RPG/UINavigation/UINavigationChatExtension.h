@@ -25,6 +25,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::UINavigation
 {
+	inline static constexpr unsigned int UINavigationChatExtension_TypeDefinitionIndex = 51723;
+
 	class UINavigationChatExtension : public ::RPG::UINavigation::UINavigationExtension
 	{
 	public:

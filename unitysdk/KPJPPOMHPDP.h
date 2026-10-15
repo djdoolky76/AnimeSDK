@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KPJPPOMHPDP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90B9C0)
 #define KPJPPOMHPDP_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C90C2E0)
 
+inline static constexpr unsigned int KPJPPOMHPDP_TypeDefinitionIndex = 42089;
+
 	class KPJPPOMHPDP : public ::System::Object
 	{
 	public:

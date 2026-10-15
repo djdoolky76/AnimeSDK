@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ExpeditionBattleVictoryTalkAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ExpeditionBattleVictoryTalkAction_TypeDefinitionIndex = 16222;
+
 	class ExpeditionBattleVictoryTalkAction : public ::RPG::GameCore::BaseExpeditionBattleAction
 	{
 	public:

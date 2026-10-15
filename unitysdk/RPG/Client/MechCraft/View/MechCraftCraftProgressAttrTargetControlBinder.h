@@ -10,6 +10,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftNodeListControl; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftProgressAttrTargetControlBinder_TypeDefinitionIndex = 79918;
+
 	class MechCraftCraftProgressAttrTargetControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int ABTestGooglePlay___c_TypeDefinitionIndex = 8716;
+
 	class ABTestGooglePlay___c : public ::System::Object
 	{
 	public:

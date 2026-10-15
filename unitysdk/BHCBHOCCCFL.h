@@ -8,6 +8,8 @@ class EDNFOIODAHO;
 #define BHCBHOCCCFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BADD0)
 #define BHCBHOCCCFL_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1C8BACB0)
 
+inline static constexpr unsigned int BHCBHOCCCFL_TypeDefinitionIndex = 43384;
+
 	class BHCBHOCCCFL : public ::System::Object
 	{
 	public:

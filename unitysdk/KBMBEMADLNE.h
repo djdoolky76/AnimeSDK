@@ -7,6 +7,8 @@ namespace RPG::GameCore { class ItemDisplaySortNewRow; }
 #define KBMBEMADLNE_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB31EC00)
 #define KBMBEMADLNE_CTOR_OFFSET UNITYSDK_OFFSET(0xB31ECC0)
 
+inline static constexpr unsigned int KBMBEMADLNE_TypeDefinitionIndex = 65742;
+
 	class KBMBEMADLNE : public ::System::Object
 	{
 	public:

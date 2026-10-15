@@ -23,6 +23,8 @@ namespace System::IO { class MemoryStream; }
 #define FLKLNIEDGFF_OPDHPJPHDDP_OFFSET UNITYSDK_OFFSET(0x1C477390)
 #define FLKLNIEDGFF_SET_OFFSET_OFFSET UNITYSDK_OFFSET(0x1C476F70)
 
+inline static constexpr unsigned int FLKLNIEDGFF_TypeDefinitionIndex = 41549;
+
 	class FLKLNIEDGFF : public ::System::Object
 	{
 	public:

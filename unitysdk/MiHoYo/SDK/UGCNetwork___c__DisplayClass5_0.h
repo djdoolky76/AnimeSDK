@@ -9,6 +9,8 @@ namespace UnityEngine::Networking { class UnityWebRequest; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int UGCNetwork___c__DisplayClass5_0_TypeDefinitionIndex = 46454;
+
 	class UGCNetwork___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

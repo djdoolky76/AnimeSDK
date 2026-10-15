@@ -8,6 +8,8 @@ namespace RPG::GameCore { class CakeRaceActionPropertyModifier; }
 #define GPMPCBLBFNI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C64C6D0)
 #define GPMPCBLBFNI_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C64C6E0)
 
+inline static constexpr unsigned int GPMPCBLBFNI_TypeDefinitionIndex = 37391;
+
 	class GPMPCBLBFNI : public ::GPLOFONGBGI
 	{
 	public:

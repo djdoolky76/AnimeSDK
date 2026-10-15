@@ -234,6 +234,8 @@ namespace System::Runtime::CompilerServices { template <typename T1, typename T2
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int Expression_TypeDefinitionIndex = 3191;
+
 	class Expression : public ::System::Object
 	{
 	public:

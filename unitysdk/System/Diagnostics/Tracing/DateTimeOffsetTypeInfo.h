@@ -12,6 +12,8 @@ namespace System::Diagnostics::Tracing { class TraceLoggingMetadataCollector; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int DateTimeOffsetTypeInfo_TypeDefinitionIndex = 1654;
+
 	class DateTimeOffsetTypeInfo
 	{
 	public:

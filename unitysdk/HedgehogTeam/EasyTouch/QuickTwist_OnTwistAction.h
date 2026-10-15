@@ -5,6 +5,8 @@
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int QuickTwist_OnTwistAction_TypeDefinitionIndex = 40281;
+
 	class QuickTwist_OnTwistAction
 	{
 	public:

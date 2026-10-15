@@ -5,6 +5,8 @@
 
 #define MGAOKAFAHPJ_LPGJLLJAGDN_OFFSET UNITYSDK_OFFSET(0x1EC379D0)
 
+inline static constexpr unsigned int MGAOKAFAHPJ_TypeDefinitionIndex = 35253;
+
 	class MGAOKAFAHPJ : public ::System::Object
 	{
 	public:

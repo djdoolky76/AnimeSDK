@@ -54,6 +54,8 @@ namespace XLua { class LuaTable; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int LoopFlexibleGridView_TypeDefinitionIndex = 47644;
+
 	class LoopFlexibleGridView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client::LittleGame::Match3
 {
+	inline static constexpr unsigned int MatchThreeEmojiInfo_TypeDefinitionIndex = 43017;
+
 	class MatchThreeEmojiInfo : public ::System::Object
 	{
 	public:

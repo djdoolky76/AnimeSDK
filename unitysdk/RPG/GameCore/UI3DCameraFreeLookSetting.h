@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UI3DCameraFreeLookSetting_TypeDefinitionIndex = 57537;
+
 	class UI3DCameraFreeLookSetting : public ::System::Object
 	{
 	public:

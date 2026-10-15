@@ -25,6 +25,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesRouteRendererView_TypeDefinitionIndex = 77790;
+
 	class ChenLingFesRouteRendererView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

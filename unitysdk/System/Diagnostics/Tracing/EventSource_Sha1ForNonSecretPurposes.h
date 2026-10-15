@@ -12,6 +12,8 @@
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int EventSource_Sha1ForNonSecretPurposes_TypeDefinitionIndex = 1664;
+
 	struct alignas(8) EventSource_Sha1ForNonSecretPurposes
 	{
 		::System::Int64 length; // 0x10

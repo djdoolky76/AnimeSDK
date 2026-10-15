@@ -36,6 +36,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoDestructibleObject_TypeDefinitionIndex = 68580;
+
 	class MonoDestructibleObject : public ::RPG::Client::MonoEntityLogicBase
 	{
 	public:

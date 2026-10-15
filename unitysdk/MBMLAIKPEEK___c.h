@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MBMLAIKPEEK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9EBAD0)
 #define MBMLAIKPEEK___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1E9EBAE0)
 
+inline static constexpr unsigned int MBMLAIKPEEK___c_TypeDefinitionIndex = 27539;
+
 	class MBMLAIKPEEK___c : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int AdditionalColorGradingParameter_TypeDefinitionIndex = 48528;
+
 	struct alignas(8) AdditionalColorGradingParameter
 	{
 		::System::Boolean ColorGradingMethodEnable; // 0x10

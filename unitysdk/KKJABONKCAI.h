@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define KKJABONKCAI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D09D4E0)
 #define KKJABONKCAI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D09D470)
 
+inline static constexpr unsigned int KKJABONKCAI_TypeDefinitionIndex = 24136;
+
 	class KKJABONKCAI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

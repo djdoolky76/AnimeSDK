@@ -37,6 +37,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int RotatePillarPuzzleSwitch_TypeDefinitionIndex = 78814;
+
 	class RotatePillarPuzzleSwitch : public ::UnityEngine::MonoBehaviour
 	{
 	public:

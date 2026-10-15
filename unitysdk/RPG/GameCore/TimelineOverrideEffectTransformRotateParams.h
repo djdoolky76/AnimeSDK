@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TimelineOverrideEffectTransformRotateParams; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimelineOverrideEffectTransformRotateParams_TypeDefinitionIndex = 57359;
+
 	class TimelineOverrideEffectTransformRotateParams : public ::System::Object
 	{
 	public:

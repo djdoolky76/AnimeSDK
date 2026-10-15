@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int LayoutPrefabPropertyData_TypeDefinitionIndex = 49374;
+
 	class LayoutPrefabPropertyData
 	{
 	public:

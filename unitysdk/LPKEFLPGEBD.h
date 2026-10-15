@@ -9,6 +9,8 @@ class NJKFOJJDGGG;
 #define LPKEFLPGEBD_NGLKABLICOE_OFFSET UNITYSDK_OFFSET(0xB8226A0)
 #define LPKEFLPGEBD_PDNMFMKOGNB_OFFSET UNITYSDK_OFFSET(0xB822560)
 
+inline static constexpr unsigned int LPKEFLPGEBD_TypeDefinitionIndex = 65013;
+
 	class LPKEFLPGEBD : public ::RPG::Client::GridFightGameModifier
 	{
 	public:

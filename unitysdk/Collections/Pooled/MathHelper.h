@@ -8,6 +8,8 @@
 
 namespace Collections::Pooled
 {
+	inline static constexpr unsigned int MathHelper_TypeDefinitionIndex = 5097;
+
 	class MathHelper : public ::System::Object
 	{
 	public:

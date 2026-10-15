@@ -9,6 +9,8 @@ namespace System { class String; }
 #define BDJKFAGEKIP_ALEBBJAFIOG_OFFSET UNITYSDK_OFFSET(0x162FCDB0)
 #define BDJKFAGEKIP_CTOR_OFFSET UNITYSDK_OFFSET(0x162FD0E0)
 
+inline static constexpr unsigned int BDJKFAGEKIP_TypeDefinitionIndex = 64916;
+
 	class BDJKFAGEKIP : public ::System::Object
 	{
 	public:

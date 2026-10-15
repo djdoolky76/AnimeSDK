@@ -40,6 +40,8 @@ namespace System { class String; }
 #define GIPBHLBFDAH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4A3DC0)
 #define GIPBHLBFDAH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4A3E20)
 
+inline static constexpr unsigned int GIPBHLBFDAH_TypeDefinitionIndex = 27757;
+
 	class GIPBHLBFDAH : public ::System::Object
 	{
 	public:

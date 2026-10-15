@@ -4,6 +4,8 @@
 #define ICBHGLKDANP_CTOR_OFFSET UNITYSDK_OFFSET(0x3C33250)
 #define ICBHGLKDANP_OFGFINMGGGN_OFFSET UNITYSDK_OFFSET(0x3C33260)
 
+inline static constexpr unsigned int ICBHGLKDANP_TypeDefinitionIndex = 42267;
+
 	struct alignas(4) ICBHGLKDANP
 	{
 		::System::UInt32 NEIBPPBMIKN; // 0x10

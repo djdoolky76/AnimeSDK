@@ -9,6 +9,8 @@ namespace RPG::Client { class DirectDeliveryNoticeModule; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DirectDeliveryNoticeModule___c__DisplayClass26_0_TypeDefinitionIndex = 63579;
+
 	class DirectDeliveryNoticeModule___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:

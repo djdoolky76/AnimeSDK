@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FPGBALIKPDE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E408D60)
 #define FPGBALIKPDE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E408DC0)
 
+inline static constexpr unsigned int FPGBALIKPDE_TypeDefinitionIndex = 34966;
+
 	class FPGBALIKPDE : public ::System::Object
 	{
 	public:

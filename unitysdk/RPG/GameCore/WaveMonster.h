@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaveMonster_TypeDefinitionIndex = 23400;
+
 	class WaveMonster : public ::RPG::GameCore::TaskConfig
 	{
 	public:

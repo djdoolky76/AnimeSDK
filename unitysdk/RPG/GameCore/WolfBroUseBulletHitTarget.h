@@ -13,6 +13,8 @@ namespace RPG::GameCore { class WolfBroUseBulletHitTarget; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WolfBroUseBulletHitTarget_TypeDefinitionIndex = 20173;
+
 	class WolfBroUseBulletHitTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class WolfBroPickupBullet; }
 #define HEOMLFAFILL_CTOR_OFFSET UNITYSDK_OFFSET(0x15C63D10)
 #define HEOMLFAFILL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C63D40)
 
+inline static constexpr unsigned int HEOMLFAFILL_TypeDefinitionIndex = 58960;
+
 	class HEOMLFAFILL
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int MonoCurve_TypeDefinitionIndex = 76511;
+
 	class MonoCurve : public ::RPG::Client::LittleGame::BaseMonoGenericView
 	{
 	public:

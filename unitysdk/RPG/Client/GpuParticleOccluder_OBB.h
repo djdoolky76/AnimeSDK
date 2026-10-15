@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GpuParticleOccluder_OBB_TypeDefinitionIndex = 69805;
+
 	struct alignas(8) GpuParticleOccluder_OBB
 	{
 		::UnityEngine::Vector3 center; // 0x10

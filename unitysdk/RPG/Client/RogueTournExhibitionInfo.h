@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournExhibitionInfo_TypeDefinitionIndex = 67575;
+
 	class RogueTournExhibitionInfo : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginSimpleCRPVCamera_TypeDefinitionIndex = 70111;
+
 	class MonoEffectPluginSimpleCRPVCamera : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MHYSDKC_RoleInfo_TypeDefinitionIndex = 46194;
+
 	class MHYSDKC_RoleInfo : public ::System::Object
 	{
 	public:

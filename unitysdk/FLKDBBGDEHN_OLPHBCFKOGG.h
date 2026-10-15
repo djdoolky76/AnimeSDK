@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 #define FLKDBBGDEHN_OLPHBCFKOGG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE05EE0)
 
+inline static constexpr unsigned int FLKDBBGDEHN_OLPHBCFKOGG_TypeDefinitionIndex = 13233;
+
 	class FLKDBBGDEHN_OLPHBCFKOGG : public ::System::Object
 	{
 	public:

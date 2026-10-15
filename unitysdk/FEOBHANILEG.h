@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FEOBHANILEG_CTOR_OFFSET UNITYSDK_OFFSET(0x1572CA50)
 #define FEOBHANILEG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1572CA80)
 
+inline static constexpr unsigned int FEOBHANILEG_TypeDefinitionIndex = 52928;
+
 	class FEOBHANILEG
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Action; }
 #define EDDEAGMMAPE_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CA334C0)
 #define EDDEAGMMAPE_SET_STATE_OFFSET UNITYSDK_OFFSET(0x1CA33320)
 
+inline static constexpr unsigned int EDDEAGMMAPE_TypeDefinitionIndex = 43379;
+
 	class EDDEAGMMAPE : public ::System::Object
 	{
 	public:

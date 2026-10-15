@@ -10,6 +10,8 @@ class NJFANBADGMB;
 #define OIIFFJPMINO_JKPBHIIBCCO_OFFSET UNITYSDK_OFFSET(0xBE962D0)
 #define OIIFFJPMINO_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xBE95720)
 
+inline static constexpr unsigned int OIIFFJPMINO_TypeDefinitionIndex = 73483;
+
 	class OIIFFJPMINO : public ::System::Object
 	{
 	public:

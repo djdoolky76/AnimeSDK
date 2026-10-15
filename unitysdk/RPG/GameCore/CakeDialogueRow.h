@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeDialogueRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeDialogueRow_TypeDefinitionIndex = 12932;
+
 	class CakeDialogueRow : public ::System::Object
 	{
 	public:

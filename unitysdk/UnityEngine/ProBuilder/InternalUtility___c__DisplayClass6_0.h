@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int InternalUtility___c__DisplayClass6_0_TypeDefinitionIndex = 44368;
+
 	class InternalUtility___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GOOPPKCFNLM_SET_CATSTATS_OFFSET UNITYSDK_OFFSET(0x1C64BB20)
 #define GOOPPKCFNLM_SET_PLAYERSTATS_OFFSET UNITYSDK_OFFSET(0x1C64BB40)
 
+inline static constexpr unsigned int GOOPPKCFNLM_TypeDefinitionIndex = 37327;
+
 	class GOOPPKCFNLM : public ::System::Object
 	{
 	public:

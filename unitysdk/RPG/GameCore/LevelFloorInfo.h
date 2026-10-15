@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelFloorInfo_TypeDefinitionIndex = 17356;
+
 	class LevelFloorInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

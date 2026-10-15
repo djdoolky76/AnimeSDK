@@ -16,6 +16,8 @@ namespace RPG::Client { class PlayerBriefDisplayData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AssistData_TypeDefinitionIndex = 64254;
+
 	class AssistData : public ::System::Object
 	{
 	public:

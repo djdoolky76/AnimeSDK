@@ -8,6 +8,8 @@ class HOAPGECFOFC;
 #define HOAPGECFOFC_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x15DA9DE0)
 #define HOAPGECFOFC_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x15DA9E80)
 
+inline static constexpr unsigned int HOAPGECFOFC_TypeDefinitionIndex = 62535;
+
 	class HOAPGECFOFC : public ::System::Object
 	{
 	public:

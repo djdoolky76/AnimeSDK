@@ -8,6 +8,8 @@ class FNMDEKMKEKH;
 #define JCGJEBAIBPL_CTOR_OFFSET UNITYSDK_OFFSET(0x165887D0)
 #define JCGJEBAIBPL_MJFKHPEKPBP_OFFSET UNITYSDK_OFFSET(0x16588840)
 
+inline static constexpr unsigned int JCGJEBAIBPL_TypeDefinitionIndex = 81107;
+
 	class JCGJEBAIBPL : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int DeployPuzzleHint_TypeDefinitionIndex = 78535;
+
 	class DeployPuzzleHint : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AssistantModule_TypeDefinitionIndex = 62437;
+
 	class AssistantModule : public ::RPG::Client::BaseModule
 	{
 	public:

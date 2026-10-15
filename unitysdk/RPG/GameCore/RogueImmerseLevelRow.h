@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueImmerseLevelRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueImmerseLevelRow_TypeDefinitionIndex = 14843;
+
 	class RogueImmerseLevelRow : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_SessionSyncData_TypeDefinitionIndex = 40590;
+
 	class HEU_SessionSyncData : public ::System::Object
 	{
 	public:

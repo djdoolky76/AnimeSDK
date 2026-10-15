@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define LJLHLALFIAD___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB71F050)
 #define LJLHLALFIAD___C__DISPLAYCLASS1_0__CREATEMARKSKIPLAYOUTCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xB720B00)
 
+inline static constexpr unsigned int LJLHLALFIAD___c__DisplayClass1_0_TypeDefinitionIndex = 80841;
+
 	class LJLHLALFIAD___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

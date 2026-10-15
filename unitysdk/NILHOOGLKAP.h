@@ -25,6 +25,8 @@ namespace System { class String; }
 #define NILHOOGLKAP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB364C0)
 #define NILHOOGLKAP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB36520)
 
+inline static constexpr unsigned int NILHOOGLKAP_TypeDefinitionIndex = 32799;
+
 	class NILHOOGLKAP : public ::System::Object
 	{
 	public:

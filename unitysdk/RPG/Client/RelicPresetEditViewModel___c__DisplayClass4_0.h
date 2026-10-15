@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RelicPresetEditViewModel___c__DisplayClass4_0_TypeDefinitionIndex = 66864;
+
 	class RelicPresetEditViewModel___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

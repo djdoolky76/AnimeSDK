@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KBDMHGCLEEJ_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xB2F1BE0)
 #define KBDMHGCLEEJ_PFFICPCIMCM_OFFSET UNITYSDK_OFFSET(0xB2F1C40)
 
+inline static constexpr unsigned int KBDMHGCLEEJ_TypeDefinitionIndex = 78268;
+
 	class KBDMHGCLEEJ : public ::KNFCEJEJINK
 	{
 	public:

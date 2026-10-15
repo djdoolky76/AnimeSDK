@@ -15,6 +15,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ActiveTimelineBehaviour_TypeDefinitionIndex = 47786;
+
 	class ActiveTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

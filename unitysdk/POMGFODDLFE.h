@@ -9,6 +9,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define POMGFODDLFE_HFIDHKKOEOA_OFFSET UNITYSDK_OFFSET(0xC371150)
 #define POMGFODDLFE_JAGPJGOOALH_OFFSET UNITYSDK_OFFSET(0xC370E70)
 
+inline static constexpr unsigned int POMGFODDLFE_TypeDefinitionIndex = 65589;
+
 	class POMGFODDLFE : public ::System::Object
 	{
 	public:

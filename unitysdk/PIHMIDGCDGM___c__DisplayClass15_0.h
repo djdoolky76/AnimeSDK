@@ -6,6 +6,8 @@ namespace RPG::Client { class EnhanceSkillParam; }
 #define PIHMIDGCDGM___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC262DC0)
 #define PIHMIDGCDGM___C__DISPLAYCLASS15_0___ONSHOWSKILLENHANCE_B__0_OFFSET UNITYSDK_OFFSET(0xC2635C0)
 
+inline static constexpr unsigned int PIHMIDGCDGM___c__DisplayClass15_0_TypeDefinitionIndex = 71948;
+
 	class PIHMIDGCDGM___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

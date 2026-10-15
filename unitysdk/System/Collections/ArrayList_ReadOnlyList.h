@@ -26,6 +26,8 @@ namespace System::Collections { class IList; }
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int ArrayList_ReadOnlyList_TypeDefinitionIndex = 1460;
+
 	class ArrayList_ReadOnlyList : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ExtraEffectRow_TypeDefinitionIndex = 13267;
+
 	class ExtraEffectRow : public ::System::Object
 	{
 	public:

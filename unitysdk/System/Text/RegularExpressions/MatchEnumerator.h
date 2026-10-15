@@ -12,6 +12,8 @@ namespace System::Text::RegularExpressions { class MatchCollection; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int MatchEnumerator_TypeDefinitionIndex = 2521;
+
 	class MatchEnumerator : public ::System::Object
 	{
 	public:

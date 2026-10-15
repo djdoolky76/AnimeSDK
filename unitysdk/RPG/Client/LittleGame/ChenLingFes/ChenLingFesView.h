@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesView_TypeDefinitionIndex = 77792;
+
 	class ChenLingFesView : public ::RPG::Client::LittleGame::BaseMonoGenericView
 	{
 	public:

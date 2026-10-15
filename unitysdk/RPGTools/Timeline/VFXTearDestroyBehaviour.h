@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int VFXTearDestroyBehaviour_TypeDefinitionIndex = 48083;
+
 	class VFXTearDestroyBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

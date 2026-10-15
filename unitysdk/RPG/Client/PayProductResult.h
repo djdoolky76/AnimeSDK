@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PayProductResult_TypeDefinitionIndex = 59969;
+
 	enum class PayProductResult : ::System::Int32
 	{
 		SDK_FAILED = 0,

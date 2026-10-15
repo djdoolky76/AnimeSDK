@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define ADNEHABCMCM_CTOR_OFFSET UNITYSDK_OFFSET(0xB1472B0)
 #define ADNEHABCMCM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1472E0)
 
+inline static constexpr unsigned int ADNEHABCMCM_TypeDefinitionIndex = 55551;
+
 	class ADNEHABCMCM
 	{
 	public:

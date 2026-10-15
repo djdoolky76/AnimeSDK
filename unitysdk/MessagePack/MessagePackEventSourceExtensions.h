@@ -8,6 +8,8 @@ namespace System { class Type; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MessagePackEventSourceExtensions_TypeDefinitionIndex = 7171;
+
 	class MessagePackEventSourceExtensions : public ::System::Object
 	{
 	public:

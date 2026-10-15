@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JNEBIKHBHOB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E795290)
 #define JNEBIKHBHOB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7952F0)
 
+inline static constexpr unsigned int JNEBIKHBHOB_TypeDefinitionIndex = 30124;
+
 	class JNEBIKHBHOB : public ::System::Object
 	{
 	public:

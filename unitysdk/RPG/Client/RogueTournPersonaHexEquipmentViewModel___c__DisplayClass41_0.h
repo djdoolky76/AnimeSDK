@@ -10,6 +10,8 @@ namespace RPG::Client { class RogueTournPersonaHexEquipmentViewModel; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaHexEquipmentViewModel___c__DisplayClass41_0_TypeDefinitionIndex = 72896;
+
 	class RogueTournPersonaHexEquipmentViewModel___c__DisplayClass41_0 : public ::System::Object
 	{
 	public:

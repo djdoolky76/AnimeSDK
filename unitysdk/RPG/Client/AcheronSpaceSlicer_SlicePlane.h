@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AcheronSpaceSlicer_SlicePlane_TypeDefinitionIndex = 70353;
+
 	struct alignas(8) AcheronSpaceSlicer_SlicePlane
 	{
 		::UnityEngine::Transform* InTransform; // 0x10

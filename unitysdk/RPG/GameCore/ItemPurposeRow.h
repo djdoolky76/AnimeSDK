@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ItemPurposeRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ItemPurposeRow_TypeDefinitionIndex = 13875;
+
 	class ItemPurposeRow : public ::System::Object
 	{
 	public:

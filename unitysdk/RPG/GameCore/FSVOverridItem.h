@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FSVOverridItem_TypeDefinitionIndex = 19041;
+
 	class FSVOverridItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace MiHoYo::SDK::Cloud
 {
+	inline static constexpr unsigned int CloudPipe___c__DisplayClass7_0_TypeDefinitionIndex = 8886;
+
 	class CloudPipe___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

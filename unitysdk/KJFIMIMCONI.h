@@ -4,6 +4,8 @@
 
 #define KJFIMIMCONI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD6C590)
 
+inline static constexpr unsigned int KJFIMIMCONI_TypeDefinitionIndex = 6313;
+
 	class KJFIMIMCONI : public ::System::Attribute
 	{
 	public:

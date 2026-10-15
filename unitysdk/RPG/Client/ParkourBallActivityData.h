@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ParkourBallActivityData_TypeDefinitionIndex = 61648;
+
 	class ParkourBallActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

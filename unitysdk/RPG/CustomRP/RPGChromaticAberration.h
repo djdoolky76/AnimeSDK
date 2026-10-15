@@ -10,6 +10,8 @@ namespace UnityEngine::Rendering { class ColorParameter; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGChromaticAberration_TypeDefinitionIndex = 37793;
+
 	class RPGChromaticAberration : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:

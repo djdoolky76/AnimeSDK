@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TutorialSetMonopolyPauseState; }
 #define DKMMMLPPHNH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF88A100)
 #define DKMMMLPPHNH_TICK_OFFSET UNITYSDK_OFFSET(0xF88A1C0)
 
+inline static constexpr unsigned int DKMMMLPPHNH_TypeDefinitionIndex = 58829;
+
 	class DKMMMLPPHNH : public ::GELIALJDFBL
 	{
 	public:

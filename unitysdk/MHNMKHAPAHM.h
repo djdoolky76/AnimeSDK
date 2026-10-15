@@ -18,6 +18,8 @@ namespace RPG::GameCore { class MatchThreeV2TipsRow; }
 #define MHNMKHAPAHM_PNLLINHJDJF_OFFSET UNITYSDK_OFFSET(0xB947C40)
 #define MHNMKHAPAHM_SET_CONDITION_OFFSET UNITYSDK_OFFSET(0xB947DB0)
 
+inline static constexpr unsigned int MHNMKHAPAHM_TypeDefinitionIndex = 66031;
+
 	class MHNMKHAPAHM : public ::System::Object
 	{
 	public:

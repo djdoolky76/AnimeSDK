@@ -19,6 +19,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int BadImageFormatException_TypeDefinitionIndex = 203;
+
 	class BadImageFormatException : public ::System::SystemException
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define KDFJEIIBHLL_CTOR_OFFSET UNITYSDK_OFFSET(0xB35D020)
 
+inline static constexpr unsigned int KDFJEIIBHLL_TypeDefinitionIndex = 48725;
+
 	class KDFJEIIBHLL : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

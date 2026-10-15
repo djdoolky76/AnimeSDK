@@ -624,6 +624,8 @@ namespace UnityEngine { class Transform; }
 #define INMMPMDELKE_REPLACEGENERICVIEWLOADCALLBACK_OFFSET UNITYSDK_OFFSET(0x1CB7C580)
 #define INMMPMDELKE_REPLACEGENERICVIEWUNLOADCALLBACK_OFFSET UNITYSDK_OFFSET(0x1CB7C860)
 
+inline static constexpr unsigned int INMMPMDELKE_TypeDefinitionIndex = 42581;
+
 	class INMMPMDELKE : public ::Entitas::Entity
 	{
 	public:

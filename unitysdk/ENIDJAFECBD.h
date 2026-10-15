@@ -29,6 +29,8 @@ namespace System { class String; }
 #define ENIDJAFECBD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2EFFC0)
 #define ENIDJAFECBD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2F0020)
 
+inline static constexpr unsigned int ENIDJAFECBD_TypeDefinitionIndex = 29839;
+
 	class ENIDJAFECBD : public ::System::Object
 	{
 	public:

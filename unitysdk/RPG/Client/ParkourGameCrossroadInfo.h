@@ -19,6 +19,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ParkourGameCrossroadInfo_TypeDefinitionIndex = 61836;
+
 	class ParkourGameCrossroadInfo : public ::System::Object
 	{
 	public:

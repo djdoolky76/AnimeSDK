@@ -16,6 +16,8 @@ namespace System { class Object; }
 #define PIMLNACNJAO_LEAVE_OFFSET UNITYSDK_OFFSET(0xC272200)
 #define PIMLNACNJAO_TICK_OFFSET UNITYSDK_OFFSET(0xC271A40)
 
+inline static constexpr unsigned int PIMLNACNJAO_TypeDefinitionIndex = 61157;
+
 	class PIMLNACNJAO : public ::RPG::Client::LoginPhase
 	{
 	public:

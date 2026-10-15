@@ -15,6 +15,8 @@ namespace System { class String; }
 #define BAFPKHMAKID_SET_PORT_OFFSET UNITYSDK_OFFSET(0x15BDCB20)
 #define BAFPKHMAKID_SET_ROOMUID_OFFSET UNITYSDK_OFFSET(0x15BDCAE0)
 
+inline static constexpr unsigned int BAFPKHMAKID_TypeDefinitionIndex = 69365;
+
 	class BAFPKHMAKID : public ::System::Object
 	{
 	public:

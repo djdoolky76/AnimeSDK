@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MFMELFDCBGF_CTOR_OFFSET UNITYSDK_OFFSET(0xB90BD20)
 #define MFMELFDCBGF_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0xB90BF90)
 
+inline static constexpr unsigned int MFMELFDCBGF_TypeDefinitionIndex = 82277;
+
 	class MFMELFDCBGF : public ::KAANKGHDHCB
 	{
 	public:

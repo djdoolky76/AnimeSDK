@@ -13,6 +13,8 @@ namespace System::Timers { class ElapsedEventArgs; }
 
 namespace System::Timers
 {
+	inline static constexpr unsigned int ElapsedEventHandler_TypeDefinitionIndex = 2493;
+
 	class ElapsedEventHandler : public ::System::MulticastDelegate
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class AvatarEnhancedSeasonRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarEnhancedSeasonRow_TypeDefinitionIndex = 12793;
+
 	class AvatarEnhancedSeasonRow : public ::System::Object
 	{
 	public:

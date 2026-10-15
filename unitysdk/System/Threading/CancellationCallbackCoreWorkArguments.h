@@ -7,6 +7,8 @@ namespace System::Threading { template <typename T> class SparselyPopulatedArray
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int CancellationCallbackCoreWorkArguments_TypeDefinitionIndex = 801;
+
 	struct alignas(8) CancellationCallbackCoreWorkArguments
 	{
 		::System::Threading::SparselyPopulatedArrayFragment_1<::System::Threading::CancellationCallbackInfo*>* m_currArrayFragment; // 0x10

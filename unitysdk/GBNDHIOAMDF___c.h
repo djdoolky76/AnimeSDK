@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GBNDHIOAMDF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E433940)
 #define GBNDHIOAMDF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E433950)
 
+inline static constexpr unsigned int GBNDHIOAMDF___c_TypeDefinitionIndex = 27256;
+
 	class GBNDHIOAMDF___c : public ::System::Object
 	{
 	public:

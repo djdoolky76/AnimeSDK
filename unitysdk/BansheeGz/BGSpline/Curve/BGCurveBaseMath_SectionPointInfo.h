@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGCurveBaseMath_SectionPointInfo_TypeDefinitionIndex = 36002;
+
 	class BGCurveBaseMath_SectionPointInfo : public ::System::Object
 	{
 	public:

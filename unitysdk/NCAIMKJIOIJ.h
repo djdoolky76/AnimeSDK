@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 
 #define NCAIMKJIOIJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBAF7240)
 
+inline static constexpr unsigned int NCAIMKJIOIJ_TypeDefinitionIndex = 78534;
+
 	class NCAIMKJIOIJ : public ::System::Object
 	{
 	public:

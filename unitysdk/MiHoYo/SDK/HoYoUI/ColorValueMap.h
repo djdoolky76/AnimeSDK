@@ -5,6 +5,8 @@
 
 namespace MiHoYo::SDK::HoYoUI
 {
+	inline static constexpr unsigned int ColorValueMap_TypeDefinitionIndex = 46727;
+
 	class ColorValueMap
 	{
 	public:

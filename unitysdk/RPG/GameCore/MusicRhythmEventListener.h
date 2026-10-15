@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MusicRhythmEventListener_TypeDefinitionIndex = 22065;
+
 	class MusicRhythmEventListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

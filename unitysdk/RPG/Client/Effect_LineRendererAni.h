@@ -66,6 +66,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_LineRendererAni_TypeDefinitionIndex = 70499;
+
 	class Effect_LineRendererAni : public ::UnityEngine::MonoBehaviour
 	{
 	public:

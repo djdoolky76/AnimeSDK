@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define IDKGOGKFDOB_CTOR_OFFSET UNITYSDK_OFFSET(0x15ED9880)
 
+inline static constexpr unsigned int IDKGOGKFDOB_TypeDefinitionIndex = 76384;
+
 	class IDKGOGKFDOB : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define KOAIMAGDCOH___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB58F3A0)
 #define KOAIMAGDCOH___C__GETCONTENT_B__8_0_OFFSET UNITYSDK_OFFSET(0xB58F3B0)
 
+inline static constexpr unsigned int KOAIMAGDCOH___c_TypeDefinitionIndex = 68807;
+
 	class KOAIMAGDCOH___c : public ::System::Object
 	{
 	public:

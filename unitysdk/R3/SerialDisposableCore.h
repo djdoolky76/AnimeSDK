@@ -7,6 +7,8 @@ namespace System { class IDisposable; }
 
 namespace R3
 {
+	inline static constexpr unsigned int SerialDisposableCore_TypeDefinitionIndex = 35967;
+
 	struct alignas(8) SerialDisposableCore
 	{
 		::System::IDisposable* current; // 0x10

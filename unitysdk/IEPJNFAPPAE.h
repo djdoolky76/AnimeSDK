@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IEPJNFAPPAE_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C692FE0)
 #define IEPJNFAPPAE_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C692FA0)
 
+inline static constexpr unsigned int IEPJNFAPPAE_TypeDefinitionIndex = 37440;
+
 	class IEPJNFAPPAE : public ::System::Object
 	{
 	public:

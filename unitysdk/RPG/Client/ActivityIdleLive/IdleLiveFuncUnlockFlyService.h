@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveFuncUnlockFlyService_TypeDefinitionIndex = 75293;
+
 	class IdleLiveFuncUnlockFlyService : public ::System::Object
 	{
 	public:

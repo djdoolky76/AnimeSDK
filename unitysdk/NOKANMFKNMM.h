@@ -27,6 +27,8 @@ namespace System { class String; }
 #define NOKANMFKNMM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB8CD10)
 #define NOKANMFKNMM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB8CD70)
 
+inline static constexpr unsigned int NOKANMFKNMM_TypeDefinitionIndex = 31102;
+
 	class NOKANMFKNMM : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtLifeBindingConfig_TypeDefinitionIndex = 24156;
+
 	class RtLifeBindingConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

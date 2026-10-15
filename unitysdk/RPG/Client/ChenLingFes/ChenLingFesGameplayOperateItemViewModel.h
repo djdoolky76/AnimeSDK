@@ -40,6 +40,8 @@ namespace Sofa::Core { class SimpleCommand; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameplayOperateItemViewModel_TypeDefinitionIndex = 81379;
+
 	class ChenLingFesGameplayOperateItemViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

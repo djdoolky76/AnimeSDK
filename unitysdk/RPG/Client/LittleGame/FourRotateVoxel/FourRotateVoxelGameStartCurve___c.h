@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
+	inline static constexpr unsigned int FourRotateVoxelGameStartCurve___c_TypeDefinitionIndex = 76843;
+
 	class FourRotateVoxelGameStartCurve___c : public ::System::Object
 	{
 	public:

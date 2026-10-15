@@ -18,6 +18,8 @@ namespace UnityEngine { class Animation; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftOrderItemControlBinder_TypeDefinitionIndex = 80016;
+
 	class MechCraftOrderItemControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

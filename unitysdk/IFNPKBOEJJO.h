@@ -21,6 +21,8 @@ namespace UnityEngine { class Texture2D; }
 #define IFNPKBOEJJO_OPOCOKKJCNJ_OFFSET UNITYSDK_OFFSET(0x15F2A710)
 #define IFNPKBOEJJO_PFCCBIKGLPL_OFFSET UNITYSDK_OFFSET(0x15F2A4D0)
 
+inline static constexpr unsigned int IFNPKBOEJJO_TypeDefinitionIndex = 48980;
+
 	class IFNPKBOEJJO : public ::System::Object
 	{
 	public:

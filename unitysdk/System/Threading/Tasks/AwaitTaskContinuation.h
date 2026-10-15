@@ -28,6 +28,8 @@ namespace System::Threading::Tasks { class TaskScheduler; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int AwaitTaskContinuation_TypeDefinitionIndex = 925;
+
 	class AwaitTaskContinuation : public ::System::Threading::Tasks::TaskContinuation
 	{
 	public:

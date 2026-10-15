@@ -28,6 +28,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftTalentPointControl_TypeDefinitionIndex = 80071;
+
 	class MechCraftTalentPointControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

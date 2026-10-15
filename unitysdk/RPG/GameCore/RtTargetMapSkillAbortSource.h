@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtTargetMapSkillAbortSource_TypeDefinitionIndex = 24250;
+
 	class RtTargetMapSkillAbortSource : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:

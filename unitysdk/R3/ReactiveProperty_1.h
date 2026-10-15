@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace R3
 {
+	inline static constexpr unsigned int ReactiveProperty_1_TypeDefinitionIndex = 35961;
+
 	template <typename T>
 	class ReactiveProperty_1
 	{

@@ -4,6 +4,8 @@
 #define BBICCJAGCDL_CTOR_OFFSET UNITYSDK_OFFSET(0x15E8D410)
 #define BBICCJAGCDL_FGHLAGJJMKC_OFFSET UNITYSDK_OFFSET(0x15E8D420)
 
+inline static constexpr unsigned int BBICCJAGCDL_TypeDefinitionIndex = 59057;
+
 	class BBICCJAGCDL
 	{
 	public:

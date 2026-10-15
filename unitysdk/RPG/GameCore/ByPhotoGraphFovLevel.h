@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByPhotoGraphFovLevel_TypeDefinitionIndex = 21652;
+
 	class ByPhotoGraphFovLevel : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

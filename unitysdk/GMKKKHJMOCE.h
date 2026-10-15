@@ -7,6 +7,8 @@ class GMKKKHJMOCE;
 #define GMKKKHJMOCE_CTOR_OFFSET UNITYSDK_OFFSET(0x15AD50C0)
 #define GMKKKHJMOCE_MDNLOJEGBLJ_OFFSET UNITYSDK_OFFSET(0x15AD50D0)
 
+inline static constexpr unsigned int GMKKKHJMOCE_TypeDefinitionIndex = 72186;
+
 	class GMKKKHJMOCE : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@ namespace System { class String; }
 
 #define BCFDAHOHJEA_CPPOCCPECLA_CTOR_OFFSET UNITYSDK_OFFSET(0xF54D0)
 
+inline static constexpr unsigned int BCFDAHOHJEA_CPPOCCPECLA_TypeDefinitionIndex = 71492;
+
 	struct alignas(8) BCFDAHOHJEA_CPPOCCPECLA
 	{
 		::System::String* CONHLPHNAEL; // 0x10

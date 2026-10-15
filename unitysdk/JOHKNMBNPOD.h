@@ -3,6 +3,8 @@
 
 #define JOHKNMBNPOD_DGCGLNOLDIB_OFFSET UNITYSDK_OFFSET(0x12990)
 
+inline static constexpr unsigned int JOHKNMBNPOD_TypeDefinitionIndex = 78945;
+
 	struct alignas(4) JOHKNMBNPOD
 	{
 		::System::UInt32 MIAFMBHCMOG; // 0x10

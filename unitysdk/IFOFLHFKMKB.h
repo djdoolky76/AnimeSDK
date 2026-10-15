@@ -27,6 +27,8 @@ namespace System { class String; }
 #define IFOFLHFKMKB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6468B0)
 #define IFOFLHFKMKB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E646910)
 
+inline static constexpr unsigned int IFOFLHFKMKB_TypeDefinitionIndex = 27461;
+
 	class IFOFLHFKMKB : public ::System::Object
 	{
 	public:

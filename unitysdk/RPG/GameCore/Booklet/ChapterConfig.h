@@ -11,6 +11,8 @@ namespace RPG::GameCore::Booklet { class SectionSynopsis; }
 
 namespace RPG::GameCore::Booklet
 {
+	inline static constexpr unsigned int ChapterConfig_TypeDefinitionIndex = 24959;
+
 	class ChapterConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

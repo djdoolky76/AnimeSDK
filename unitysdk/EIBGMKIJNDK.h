@@ -31,6 +31,8 @@ namespace System { class String; }
 #define EIBGMKIJNDK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2A4AF0)
 #define EIBGMKIJNDK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2A4B50)
 
+inline static constexpr unsigned int EIBGMKIJNDK_TypeDefinitionIndex = 31372;
+
 	class EIBGMKIJNDK : public ::System::Object
 	{
 	public:

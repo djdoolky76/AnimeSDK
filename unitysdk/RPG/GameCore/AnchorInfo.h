@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AnchorInfo_TypeDefinitionIndex = 57838;
+
 	class AnchorInfo : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 #define CLPCAFJKOBK_CTOR_OFFSET UNITYSDK_OFFSET(0xDA22470)
 #define CLPCAFJKOBK_INTERP_OFFSET UNITYSDK_OFFSET(0xDA224F0)
 
+inline static constexpr unsigned int CLPCAFJKOBK_TypeDefinitionIndex = 74028;
+
 	class CLPCAFJKOBK
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetActionBarRightDownMiniIcon_TypeDefinitionIndex = 23280;
+
 	class SetActionBarRightDownMiniIcon : public ::RPG::GameCore::TaskConfig
 	{
 	public:

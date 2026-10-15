@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FreeStyleAnimEventConfig_TypeDefinitionIndex = 16300;
+
 	class FreeStyleAnimEventConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

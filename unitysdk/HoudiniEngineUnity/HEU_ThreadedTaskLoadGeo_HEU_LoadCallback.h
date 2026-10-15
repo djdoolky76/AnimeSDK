@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_ThreadedTaskLoadGeo_HEU_LoadCallback_TypeDefinitionIndex = 40619;
+
 	class HEU_ThreadedTaskLoadGeo_HEU_LoadCallback : public ::System::MulticastDelegate
 	{
 	public:

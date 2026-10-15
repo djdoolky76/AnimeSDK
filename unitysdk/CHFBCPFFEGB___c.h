@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define CHFBCPFFEGB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCC96210)
 #define CHFBCPFFEGB___C___REFRESHVIEW_B__19_1_OFFSET UNITYSDK_OFFSET(0xCC96220)
 
+inline static constexpr unsigned int CHFBCPFFEGB___c_TypeDefinitionIndex = 72321;
+
 	class CHFBCPFFEGB___c : public ::System::Object
 	{
 	public:

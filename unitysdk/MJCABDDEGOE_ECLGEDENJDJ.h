@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define MJCABDDEGOE_ECLGEDENJDJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB9684D0)
 
+inline static constexpr unsigned int MJCABDDEGOE_ECLGEDENJDJ_TypeDefinitionIndex = 62358;
+
 	class MJCABDDEGOE_ECLGEDENJDJ : public ::System::Object
 	{
 	public:

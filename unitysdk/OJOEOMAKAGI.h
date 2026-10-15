@@ -32,6 +32,8 @@ namespace System { class String; }
 #define OJOEOMAKAGI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE8BBC0)
 #define OJOEOMAKAGI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE8BC20)
 
+inline static constexpr unsigned int OJOEOMAKAGI_TypeDefinitionIndex = 26527;
+
 	class OJOEOMAKAGI : public ::System::Object
 	{
 	public:

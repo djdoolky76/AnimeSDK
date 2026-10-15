@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterSomatoType_TypeDefinitionIndex = 16554;
+
 	enum class CharacterSomatoType : ::System::Int32
 	{
 		MiddleMonster = 0,

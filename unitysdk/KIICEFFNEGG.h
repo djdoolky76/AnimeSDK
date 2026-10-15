@@ -10,6 +10,8 @@ class LPOOJCMOLDC;
 #define KIICEFFNEGG_START_OFFSET UNITYSDK_OFFSET(0xB4303F0)
 #define KIICEFFNEGG_STOP_OFFSET UNITYSDK_OFFSET(0xB430430)
 
+inline static constexpr unsigned int KIICEFFNEGG_TypeDefinitionIndex = 79225;
+
 	class KIICEFFNEGG : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleChangeAvatar_Begin_TypeDefinitionIndex = 22775;
+
 	class BattleChangeAvatar_Begin : public ::RPG::GameCore::TaskConfig
 	{
 	public:

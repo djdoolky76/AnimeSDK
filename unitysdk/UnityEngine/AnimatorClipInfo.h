@@ -8,6 +8,8 @@ namespace UnityEngine { class AnimationClip; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AnimatorClipInfo_TypeDefinitionIndex = 5705;
+
 	struct alignas(4) AnimatorClipInfo
 	{
 		::System::Int32 m_ClipInstanceID; // 0x10

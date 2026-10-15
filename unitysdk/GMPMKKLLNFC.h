@@ -4,6 +4,8 @@
 
 #define GMPMKKLLNFC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB4E70)
 
+inline static constexpr unsigned int GMPMKKLLNFC_TypeDefinitionIndex = 41972;
+
 	class GMPMKKLLNFC : public ::System::Object
 	{
 	public:

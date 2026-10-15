@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DBFGKBNAKNH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E159B70)
 #define DBFGKBNAKNH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E159BD0)
 
+inline static constexpr unsigned int DBFGKBNAKNH_TypeDefinitionIndex = 29292;
+
 	class DBFGKBNAKNH : public ::System::Object
 	{
 	public:

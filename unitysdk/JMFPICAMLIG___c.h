@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JMFPICAMLIG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E78B7A0)
 #define JMFPICAMLIG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E78B7B0)
 
+inline static constexpr unsigned int JMFPICAMLIG___c_TypeDefinitionIndex = 25743;
+
 	class JMFPICAMLIG___c : public ::System::Object
 	{
 	public:

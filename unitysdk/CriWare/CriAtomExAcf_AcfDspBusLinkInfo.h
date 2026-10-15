@@ -6,6 +6,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExAcf_AcfDspBusLinkInfo_TypeDefinitionIndex = 40029;
+
 	struct alignas(4) CriAtomExAcf_AcfDspBusLinkInfo
 	{
 		::CriWare::CriAtomExAcf_AcfDspBusLinkType type; // 0x10

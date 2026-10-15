@@ -12,6 +12,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarEffectRenderer___c_TypeDefinitionIndex = 70246;
+
 	class AvatarEffectRenderer___c : public ::System::Object
 	{
 	public:

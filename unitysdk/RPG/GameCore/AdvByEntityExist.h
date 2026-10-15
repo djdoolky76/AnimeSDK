@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvByEntityExist_TypeDefinitionIndex = 22242;
+
 	class AdvByEntityExist : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

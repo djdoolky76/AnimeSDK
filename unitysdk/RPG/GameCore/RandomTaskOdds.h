@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RandomTaskOdds_TypeDefinitionIndex = 21278;
+
 	class RandomTaskOdds : public ::RPG::GameCore::JsonConfig
 	{
 	public:

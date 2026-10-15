@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecActionOnAdventureRoomGameplayLe
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecActionOnAdventureRoomGameplayLevelConfig_TypeDefinitionIndex = 17838;
+
 	class RogueModifierExecActionOnAdventureRoomGameplayLevelConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

@@ -46,6 +46,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define OEODAOIOGLO_SET_ISENABLE_OFFSET UNITYSDK_OFFSET(0xBE34450)
 #define OEODAOIOGLO__LOADINDEXINFO_OFFSET UNITYSDK_OFFSET(0xBE34690)
 
+inline static constexpr unsigned int OEODAOIOGLO_TypeDefinitionIndex = 59455;
+
 	class OEODAOIOGLO
 	{
 	public:

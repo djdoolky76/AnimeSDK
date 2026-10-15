@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define DAPFANDHPAA_LIGOGGEEMKL_OFFSET UNITYSDK_OFFSET(0xDFC80D0)
 #define DAPFANDHPAA_MHHGHBJFKON_OFFSET UNITYSDK_OFFSET(0xDFC8320)
 
+inline static constexpr unsigned int DAPFANDHPAA_TypeDefinitionIndex = 48367;
+
 	class DAPFANDHPAA : public ::System::Object
 	{
 	public:

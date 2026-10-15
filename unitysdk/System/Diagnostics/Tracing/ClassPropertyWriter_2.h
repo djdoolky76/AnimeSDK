@@ -5,6 +5,8 @@ namespace System::Diagnostics::Tracing { class TraceLoggingTypeInfo; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int ClassPropertyWriter_2_TypeDefinitionIndex = 1610;
+
 	template <typename T1, typename T2>
 	class ClassPropertyWriter_2
 	{

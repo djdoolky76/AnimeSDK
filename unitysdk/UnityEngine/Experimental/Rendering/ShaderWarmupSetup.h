@@ -4,6 +4,8 @@
 
 namespace UnityEngine::Experimental::Rendering
 {
+	inline static constexpr unsigned int ShaderWarmupSetup_TypeDefinitionIndex = 4947;
+
 	struct alignas(8) ShaderWarmupSetup
 	{
 		::Il2CppArray<::UnityEngine::Rendering::VertexAttributeDescriptor>* vdecl; // 0x10

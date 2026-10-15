@@ -28,6 +28,8 @@ namespace System { class String; }
 #define GPDCBDHANON_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4F5F10)
 #define GPDCBDHANON_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4F5F70)
 
+inline static constexpr unsigned int GPDCBDHANON_TypeDefinitionIndex = 27855;
+
 	class GPDCBDHANON : public ::System::Object
 	{
 	public:

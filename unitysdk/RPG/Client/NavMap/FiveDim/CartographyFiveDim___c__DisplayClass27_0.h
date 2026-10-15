@@ -8,6 +8,8 @@ namespace RPG::Client::NavMap::FiveDim { class Face; }
 
 namespace RPG::Client::NavMap::FiveDim
 {
+	inline static constexpr unsigned int CartographyFiveDim___c__DisplayClass27_0_TypeDefinitionIndex = 74649;
+
 	class CartographyFiveDim___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:

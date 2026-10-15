@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCheckAdditionalConditions_TypeDefinitionIndex = 23436;
+
 	class ByCheckAdditionalConditions : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

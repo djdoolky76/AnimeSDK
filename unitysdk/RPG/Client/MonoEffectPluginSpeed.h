@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginSpeed_TypeDefinitionIndex = 70113;
+
 	class MonoEffectPluginSpeed : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

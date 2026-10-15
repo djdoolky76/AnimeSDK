@@ -4,6 +4,8 @@ class JMLOMHHEAEJ;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
+inline static constexpr unsigned int HHECHLOIEJO___c__DisplayClass4_0_TypeDefinitionIndex = 57143;
+
 	struct alignas(8) HHECHLOIEJO___c__DisplayClass4_0
 	{
 		::JMLOMHHEAEJ* feature; // 0x10

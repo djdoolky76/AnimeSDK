@@ -17,6 +17,8 @@ namespace RPG::Client::Promises { class IPromise; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GlobalConfigManager_TypeDefinitionIndex = 60041;
+
 	class GlobalConfigManager : public ::System::Object
 	{
 	public:

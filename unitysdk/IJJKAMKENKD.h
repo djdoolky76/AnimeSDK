@@ -15,6 +15,8 @@ namespace RPG::GameCore { class WaitAnimStateChangeV2; }
 #define IJJKAMKENKD__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1646AFB0)
 #define IJJKAMKENKD__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1646B0A0)
 
+inline static constexpr unsigned int IJJKAMKENKD_TypeDefinitionIndex = 58851;
+
 	class IJJKAMKENKD
 	{
 	public:

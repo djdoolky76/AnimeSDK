@@ -10,6 +10,8 @@ namespace System { class String; }
 #define BJLFAGGBLAG_LNLMELEFIKE_OFFSET UNITYSDK_OFFSET(0xB7A4570)
 #define BJLFAGGBLAG_PDAENODHFCM_OFFSET UNITYSDK_OFFSET(0xB7A4620)
 
+inline static constexpr unsigned int BJLFAGGBLAG_TypeDefinitionIndex = 74327;
+
 	class BJLFAGGBLAG : public ::System::Object
 	{
 	public:

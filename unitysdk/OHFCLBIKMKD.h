@@ -8,6 +8,8 @@ class OHFCLBIKMKD;
 #define OHFCLBIKMKD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2775A0)
 #define OHFCLBIKMKD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D277560)
 
+inline static constexpr unsigned int OHFCLBIKMKD_TypeDefinitionIndex = 21559;
+
 	class OHFCLBIKMKD : public ::RPG::GameCore::TaskConfig
 	{
 	public:

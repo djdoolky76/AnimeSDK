@@ -18,6 +18,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int RuntimeFieldInfo_TypeDefinitionIndex = 617;
+
 	class RuntimeFieldInfo : public ::System::Reflection::FieldInfo
 	{
 	public:

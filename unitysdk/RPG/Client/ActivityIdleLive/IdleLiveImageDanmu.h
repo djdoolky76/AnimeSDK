@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveImageDanmu_TypeDefinitionIndex = 75183;
+
 	class IdleLiveImageDanmu : public ::RPG::Client::ActivityIdleLive::IdleLiveDanmuBase
 	{
 	public:

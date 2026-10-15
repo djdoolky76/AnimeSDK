@@ -8,6 +8,8 @@
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int CursorRendererOverlay_TypeDefinitionIndex = 39470;
+
 	class CursorRendererOverlay : public ::ZenFulcrum::EmbeddedBrowser::CursorRendererBase
 	{
 	public:

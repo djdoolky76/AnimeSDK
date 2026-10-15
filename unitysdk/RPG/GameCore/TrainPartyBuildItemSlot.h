@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TrainPartyBuildItemSlotExt; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyBuildItemSlot_TypeDefinitionIndex = 16265;
+
 	class TrainPartyBuildItemSlot : public ::RPG::GameCore::JsonConfig
 	{
 	public:

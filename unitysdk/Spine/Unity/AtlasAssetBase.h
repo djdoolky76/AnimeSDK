@@ -6,6 +6,8 @@
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int AtlasAssetBase_TypeDefinitionIndex = 44997;
+
 	class AtlasAssetBase : public ::UnityEngine::ScriptableObject
 	{
 	public:

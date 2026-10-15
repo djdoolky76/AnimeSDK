@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MEFBCOKEFIN_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB8BF900)
 #define MEFBCOKEFIN_PFCKLEMPAAD_OFFSET UNITYSDK_OFFSET(0xB8C0EF0)
 
+inline static constexpr unsigned int MEFBCOKEFIN_TypeDefinitionIndex = 69153;
+
 	class MEFBCOKEFIN : public ::System::Object
 	{
 	public:

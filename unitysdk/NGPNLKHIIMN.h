@@ -18,6 +18,8 @@ namespace UnityEngine { class Renderer; }
 #define NGPNLKHIIMN_OLMCEKIKCKJ_OFFSET UNITYSDK_OFFSET(0xBBB3DF0)
 #define NGPNLKHIIMN_PICDOIMIDKM_OFFSET UNITYSDK_OFFSET(0xBBB3D50)
 
+inline static constexpr unsigned int NGPNLKHIIMN_TypeDefinitionIndex = 70379;
+
 	class NGPNLKHIIMN : public ::RPG::Client::BehaviorBase
 	{
 	public:

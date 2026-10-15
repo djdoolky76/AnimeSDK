@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LevelNpcMaterialReplacer_TypeDefinitionIndex = 69038;
+
 	class LevelNpcMaterialReplacer : public ::RPG::Client::MaterialReplacerBase
 	{
 	public:

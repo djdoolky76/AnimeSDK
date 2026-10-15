@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetCharacterEffectMaterialBlock_TypeDefinitionIndex = 23188;
+
 	class SetCharacterEffectMaterialBlock : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define FCBILBGBNMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA663E0)
 
+inline static constexpr unsigned int FCBILBGBNMN_TypeDefinitionIndex = 42988;
+
 	class FCBILBGBNMN : public ::System::Object
 	{
 	public:

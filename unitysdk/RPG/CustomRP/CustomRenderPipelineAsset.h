@@ -58,6 +58,8 @@ namespace UnityEngine::Rendering { class RenderPipeline; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CustomRenderPipelineAsset_TypeDefinitionIndex = 37547;
+
 	class CustomRenderPipelineAsset : public ::UnityEngine::Rendering::RenderPipelineAsset
 	{
 	public:

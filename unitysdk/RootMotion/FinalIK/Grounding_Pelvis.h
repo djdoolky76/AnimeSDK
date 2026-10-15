@@ -20,6 +20,8 @@ namespace RootMotion::FinalIK { class Grounding; }
 
 namespace RootMotion::FinalIK
 {
+	inline static constexpr unsigned int Grounding_Pelvis_TypeDefinitionIndex = 46010;
+
 	class Grounding_Pelvis : public ::System::Object
 	{
 	public:

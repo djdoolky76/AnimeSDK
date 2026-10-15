@@ -6,6 +6,8 @@
 #define CLASS_580_E27D851BE2A350FD_METHOD_2_OFFSET UNITYSDK_OFFSET(0x1494C240)
 #define CLASS_580_E27D851BE2A350FD_METHOD_OFFSET UNITYSDK_OFFSET(0x1494C890)
 
+inline static constexpr unsigned int Class_580_E27D851BE2A350FD_TypeDefinitionIndex = 50914;
+
 	class Class_580_E27D851BE2A350FD : public ::System::Object
 	{
 	public:

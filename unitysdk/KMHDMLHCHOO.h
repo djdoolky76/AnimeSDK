@@ -24,6 +24,8 @@ namespace System { class String; }
 #define KMHDMLHCHOO_PGOLCLMMANO_OFFSET UNITYSDK_OFFSET(0xB556C80)
 #define KMHDMLHCHOO_PLMIIKONDEO_OFFSET UNITYSDK_OFFSET(0xB556DA0)
 
+inline static constexpr unsigned int KMHDMLHCHOO_TypeDefinitionIndex = 47351;
+
 	class KMHDMLHCHOO : public ::System::Object
 	{
 	public:

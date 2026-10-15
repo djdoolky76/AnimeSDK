@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_DiceIncludeAnySpecialE
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatPredicateConfig_DiceIncludeAnySpecialEffect_TypeDefinitionIndex = 16103;
+
 	class DiceCombatPredicateConfig_DiceIncludeAnySpecialEffect : public ::RPG::GameCore::DiceCombatPredicateConfig
 	{
 	public:

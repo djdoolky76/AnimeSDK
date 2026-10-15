@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TwinkleFlipperLightDevice; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TwinkleFlipperLightDevice_TypeDefinitionIndex = 22340;
+
 	class TwinkleFlipperLightDevice : public ::RPG::GameCore::TaskConfig
 	{
 	public:

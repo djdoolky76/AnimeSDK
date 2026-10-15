@@ -12,6 +12,8 @@ namespace RPG::Client::FateRin::Day { class SwitchDayTalkViewModel; }
 
 namespace RPG::Client::FateRin::Day
 {
+	inline static constexpr unsigned int SwitchDayTalkViewModelFactory_TypeDefinitionIndex = 81073;
+
 	class SwitchDayTalkViewModelFactory : public ::System::Object
 	{
 	public:

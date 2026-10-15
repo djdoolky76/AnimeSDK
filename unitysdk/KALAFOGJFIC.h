@@ -33,6 +33,8 @@ namespace UnityEngine::UI { class Text; }
 #define KALAFOGJFIC__ONBIND_OFFSET UNITYSDK_OFFSET(0xB2DCB10)
 #define KALAFOGJFIC__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xB2DCF30)
 
+inline static constexpr unsigned int KALAFOGJFIC_TypeDefinitionIndex = 71229;
+
 	class KALAFOGJFIC : public ::CAOEEDDAPIK
 	{
 	public:

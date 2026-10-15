@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelVSMasterView_TypeDefinitionIndex = 68645;
+
 	class ChimeraDuelVSMasterView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

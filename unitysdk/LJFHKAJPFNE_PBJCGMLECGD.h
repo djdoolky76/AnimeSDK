@@ -38,6 +38,8 @@ namespace UnityEngine { class Mesh; }
 #define LJFHKAJPFNE_PBJCGMLECGD_SET_HASHCODE_OFFSET UNITYSDK_OFFSET(0xB713C10)
 #define LJFHKAJPFNE_PBJCGMLECGD_SET_REFCNT_OFFSET UNITYSDK_OFFSET(0xB713BF0)
 
+inline static constexpr unsigned int LJFHKAJPFNE_PBJCGMLECGD_TypeDefinitionIndex = 73858;
+
 	class LJFHKAJPFNE_PBJCGMLECGD : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int TwoFingerGesture_TypeDefinitionIndex = 40343;
+
 	class TwoFingerGesture : public ::System::Object
 	{
 	public:

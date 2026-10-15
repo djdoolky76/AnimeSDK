@@ -6,6 +6,8 @@ namespace UnityEngine { class Transform; }
 
 #define FMDCBILJCGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1584E550)
 
+inline static constexpr unsigned int FMDCBILJCGE_TypeDefinitionIndex = 74967;
+
 	class FMDCBILJCGE : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

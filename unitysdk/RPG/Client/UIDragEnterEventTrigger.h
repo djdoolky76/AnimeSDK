@@ -26,6 +26,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIDragEnterEventTrigger_TypeDefinitionIndex = 73057;
+
 	class UIDragEnterEventTrigger : public ::UnityEngine::MonoBehaviour
 	{
 	public:

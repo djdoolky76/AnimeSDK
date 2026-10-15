@@ -20,6 +20,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimFluteGamePadInput_TypeDefinitionIndex = 77222;
+
 	class FiveDimFluteGamePadInput : public ::UnityEngine::MonoBehaviour
 	{
 	public:

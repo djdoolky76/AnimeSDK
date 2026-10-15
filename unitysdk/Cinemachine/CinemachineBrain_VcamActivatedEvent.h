@@ -5,6 +5,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineBrain_VcamActivatedEvent_TypeDefinitionIndex = 39721;
+
 	class CinemachineBrain_VcamActivatedEvent
 	{
 	public:

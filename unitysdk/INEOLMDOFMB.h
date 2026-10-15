@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define INEOLMDOFMB_CTOR_OFFSET UNITYSDK_OFFSET(0x164E94A0)
 #define INEOLMDOFMB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x164E94D0)
 
+inline static constexpr unsigned int INEOLMDOFMB_TypeDefinitionIndex = 55113;
+
 	class INEOLMDOFMB
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BEDLDBOAPPM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E923050)
 #define BEDLDBOAPPM___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E923060)
 
+inline static constexpr unsigned int BEDLDBOAPPM___c_TypeDefinitionIndex = 26053;
+
 	class BEDLDBOAPPM___c : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FreeStyleObsoleteMotionList; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FreeStyleObsoleteMotionList_TypeDefinitionIndex = 16317;
+
 	class FreeStyleObsoleteMotionList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

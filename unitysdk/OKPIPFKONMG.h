@@ -34,6 +34,8 @@ namespace System { class String; }
 #define OKPIPFKONMG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEA1A10)
 #define OKPIPFKONMG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEA1A70)
 
+inline static constexpr unsigned int OKPIPFKONMG_TypeDefinitionIndex = 33230;
+
 	class OKPIPFKONMG : public ::System::Object
 	{
 	public:

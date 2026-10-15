@@ -3,6 +3,8 @@
 
 namespace System::Diagnostics::Contracts
 {
+	inline static constexpr unsigned int ContractFailureKind_TypeDefinitionIndex = 1587;
+
 	enum class ContractFailureKind : ::System::Int32
 	{
 		Precondition = 0,

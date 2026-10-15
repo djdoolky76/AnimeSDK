@@ -6,6 +6,8 @@
 
 namespace Newtonsoft::Json
 {
+	inline static constexpr unsigned int JsonDictionaryAttribute_TypeDefinitionIndex = 9587;
+
 	class JsonDictionaryAttribute : public ::Newtonsoft::Json::JsonContainerAttribute
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BAGIHIEADIL_NDMOIDOOGJN_OFFSET UNITYSDK_OFFSET(0x15BDE4A0)
 #define BAGIHIEADIL_OAMEIMOJGHN_OFFSET UNITYSDK_OFFSET(0x15BDE950)
 
+inline static constexpr unsigned int BAGIHIEADIL_TypeDefinitionIndex = 56851;
+
 	class BAGIHIEADIL : public ::ENEIHJJPNPI
 	{
 	public:

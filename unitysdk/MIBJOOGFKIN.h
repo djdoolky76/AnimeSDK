@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MIBJOOGFKIN_OLLLFEAKKNO_OFFSET UNITYSDK_OFFSET(0xB94F9C0)
 #define MIBJOOGFKIN_SET_AUTOINPUTWATINGTIME_OFFSET UNITYSDK_OFFSET(0xB94FB10)
 
+inline static constexpr unsigned int MIBJOOGFKIN_TypeDefinitionIndex = 75594;
+
 	class MIBJOOGFKIN : public ::System::Object
 	{
 	public:

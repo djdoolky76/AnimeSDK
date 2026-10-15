@@ -3,6 +3,8 @@
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int IMaterialModifier_TypeDefinitionIndex = 6796;
+
 	class IMaterialModifier
 	{
 	public:

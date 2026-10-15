@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NOAGHDALEJE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB87350)
 #define NOAGHDALEJE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EB87360)
 
+inline static constexpr unsigned int NOAGHDALEJE___c_TypeDefinitionIndex = 29026;
+
 	class NOAGHDALEJE___c : public ::System::Object
 	{
 	public:

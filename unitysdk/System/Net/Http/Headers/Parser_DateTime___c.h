@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int Parser_DateTime___c_TypeDefinitionIndex = 3811;
+
 	class Parser_DateTime___c : public ::System::Object
 	{
 	public:

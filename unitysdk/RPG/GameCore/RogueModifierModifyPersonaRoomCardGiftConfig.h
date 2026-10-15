@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyPersonaRoomCardGiftConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyPersonaRoomCardGiftConfig_TypeDefinitionIndex = 17869;
+
 	class RogueModifierModifyPersonaRoomCardGiftConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

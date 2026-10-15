@@ -10,6 +10,8 @@ class BCLKDMAHONE;
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirGhostBase_TypeDefinitionIndex = 79194;
+
 	class PixAirGhostBase : public ::Sofa::Core::ObservableObject
 	{
 	public:

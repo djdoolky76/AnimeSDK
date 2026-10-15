@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame::FiveDim::MiniGameNotify
 {
+	inline static constexpr unsigned int GameResult_TypeDefinitionIndex = 77247;
+
 	class GameResult : public ::System::Object
 	{
 	public:

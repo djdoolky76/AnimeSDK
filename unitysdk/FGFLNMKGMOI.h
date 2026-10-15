@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaitFMChannelReceiverSignalChange; }
 #define FGFLNMKGMOI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1575B790)
 #define FGFLNMKGMOI_TICK_OFFSET UNITYSDK_OFFSET(0x1575BB90)
 
+inline static constexpr unsigned int FGFLNMKGMOI_TypeDefinitionIndex = 53467;
+
 	class FGFLNMKGMOI : public ::GELIALJDFBL
 	{
 	public:

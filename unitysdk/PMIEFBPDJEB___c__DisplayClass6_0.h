@@ -7,6 +7,8 @@ class PMIEFBPDJEB;
 #define PMIEFBPDJEB___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC3201A0)
 #define PMIEFBPDJEB___C__DISPLAYCLASS6_0___CAST_B__0_OFFSET UNITYSDK_OFFSET(0xC320520)
 
+inline static constexpr unsigned int PMIEFBPDJEB___c__DisplayClass6_0_TypeDefinitionIndex = 77868;
+
 	class PMIEFBPDJEB___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

@@ -36,6 +36,8 @@ namespace System { class String; }
 #define ELPANOAHJIB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2DA7E0)
 #define ELPANOAHJIB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2DA840)
 
+inline static constexpr unsigned int ELPANOAHJIB_TypeDefinitionIndex = 31988;
+
 	class ELPANOAHJIB : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PIPLDPCCAFA_PLLAAIFHBLG_OFFSET UNITYSDK_OFFSET(0xC276990)
 #define PIPLDPCCAFA_PNBIAFHNCOI_OFFSET UNITYSDK_OFFSET(0xC276A90)
 
+inline static constexpr unsigned int PIPLDPCCAFA_TypeDefinitionIndex = 71708;
+
 	class PIPLDPCCAFA : public ::FMPCODLIOLG
 	{
 	public:

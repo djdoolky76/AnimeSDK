@@ -8,6 +8,8 @@ namespace RPG::Client { class DirectDeliveryNoticeToastData; }
 
 namespace RPG::Client::DirectDeliveryNotice
 {
+	inline static constexpr unsigned int DirectDeliveryAvatarRewardToastViewModel___c__DisplayClass2_0_TypeDefinitionIndex = 81243;
+
 	class DirectDeliveryAvatarRewardToastViewModel___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

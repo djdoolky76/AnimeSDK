@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__ResetSeatedZeroPose_TypeDefinitionIndex = 38902;
+
 	class IVRSystem__ResetSeatedZeroPose : public ::System::MulticastDelegate
 	{
 	public:

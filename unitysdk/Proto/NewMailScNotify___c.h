@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int NewMailScNotify___c_TypeDefinitionIndex = 30503;
+
 	class NewMailScNotify___c : public ::System::Object
 	{
 	public:

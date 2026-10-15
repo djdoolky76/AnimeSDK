@@ -8,6 +8,8 @@
 #define ECKANFHGNPP_BOKFHPNIIEO_OFFSET UNITYSDK_OFFSET(0x12D124D0)
 #define ECKANFHGNPP_CCTOR_OFFSET UNITYSDK_OFFSET(0x12D12540)
 
+inline static constexpr unsigned int ECKANFHGNPP_TypeDefinitionIndex = 69332;
+
 	class ECKANFHGNPP : public ::System::Object
 	{
 	public:

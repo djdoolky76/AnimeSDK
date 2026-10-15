@@ -26,6 +26,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 #define IDMANGCKPFO_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x15EDB020)
 #define IDMANGCKPFO_SET_ENABLESPECIFICREGIONSTRATEGY_OFFSET UNITYSDK_OFFSET(0x15EDACE0)
 
+inline static constexpr unsigned int IDMANGCKPFO_TypeDefinitionIndex = 60731;
+
 	class IDMANGCKPFO : public ::System::Object
 	{
 	public:

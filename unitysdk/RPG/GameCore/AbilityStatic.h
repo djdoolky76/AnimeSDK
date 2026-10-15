@@ -429,6 +429,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityStatic_TypeDefinitionIndex = 54404;
+
 	class AbilityStatic : public ::System::Object
 	{
 	public:

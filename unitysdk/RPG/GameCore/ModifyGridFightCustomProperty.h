@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ModifyGridFightCustomProperty; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyGridFightCustomProperty_TypeDefinitionIndex = 22533;
+
 	class ModifyGridFightCustomProperty : public ::RPG::GameCore::TaskConfig
 	{
 	public:

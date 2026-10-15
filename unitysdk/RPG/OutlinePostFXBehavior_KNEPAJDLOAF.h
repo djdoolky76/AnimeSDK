@@ -13,6 +13,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int OutlinePostFXBehavior_KNEPAJDLOAF_TypeDefinitionIndex = 51717;
+
 	class OutlinePostFXBehavior_KNEPAJDLOAF : public ::System::Object
 	{
 	public:

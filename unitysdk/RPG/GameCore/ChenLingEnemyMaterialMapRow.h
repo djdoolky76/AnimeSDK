@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingEnemyMaterialMapRow_TypeDefinitionIndex = 11077;
+
 	class ChenLingEnemyMaterialMapRow : public ::System::Object
 	{
 	public:

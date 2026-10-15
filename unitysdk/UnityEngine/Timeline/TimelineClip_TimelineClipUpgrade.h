@@ -7,6 +7,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int TimelineClip_TimelineClipUpgrade_TypeDefinitionIndex = 38786;
+
 	class TimelineClip_TimelineClipUpgrade : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Security::Cryptography { class RSA; }
 
 namespace Mono::Security::Authenticode
 {
+	inline static constexpr unsigned int PrivateKey_TypeDefinitionIndex = 2313;
+
 	class PrivateKey : public ::System::Object
 	{
 	public:

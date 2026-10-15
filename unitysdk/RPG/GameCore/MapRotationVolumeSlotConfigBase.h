@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MapRotationVolumeSlotConfigBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MapRotationVolumeSlotConfigBase_TypeDefinitionIndex = 22305;
+
 	class MapRotationVolumeSlotConfigBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:

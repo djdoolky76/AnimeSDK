@@ -20,6 +20,8 @@
 
 namespace InControl
 {
+	inline static constexpr unsigned int Native_TypeDefinitionIndex = 40865;
+
 	class Native : public ::System::Object
 	{
 	public:

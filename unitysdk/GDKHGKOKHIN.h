@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TriggerEffectOnlyForLoading; }
 #define GDKHGKOKHIN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x159A1C90)
 #define GDKHGKOKHIN_TICK_OFFSET UNITYSDK_OFFSET(0x159A1CE0)
 
+inline static constexpr unsigned int GDKHGKOKHIN_TypeDefinitionIndex = 55731;
+
 	class GDKHGKOKHIN : public ::GELIALJDFBL
 	{
 	public:

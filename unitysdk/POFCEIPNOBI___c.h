@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define POFCEIPNOBI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFC8E30)
 #define POFCEIPNOBI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DFC8E40)
 
+inline static constexpr unsigned int POFCEIPNOBI___c_TypeDefinitionIndex = 30530;
+
 	class POFCEIPNOBI___c : public ::System::Object
 	{
 	public:

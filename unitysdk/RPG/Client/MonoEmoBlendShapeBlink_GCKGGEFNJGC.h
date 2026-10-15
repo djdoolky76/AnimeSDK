@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEmoBlendShapeBlink_GCKGGEFNJGC_TypeDefinitionIndex = 71146;
+
 	class MonoEmoBlendShapeBlink_GCKGGEFNJGC : public ::System::Object
 	{
 	public:

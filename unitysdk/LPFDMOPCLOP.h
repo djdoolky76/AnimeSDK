@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LPFDMOPCLOP_ILDPEKPFLNF_OFFSET UNITYSDK_OFFSET(0xB81F790)
 #define LPFDMOPCLOP_LCCEAGNLIPP_OFFSET UNITYSDK_OFFSET(0xB81F6F0)
 
+inline static constexpr unsigned int LPFDMOPCLOP_TypeDefinitionIndex = 62366;
+
 	class LPFDMOPCLOP : public ::System::Object
 	{
 	public:

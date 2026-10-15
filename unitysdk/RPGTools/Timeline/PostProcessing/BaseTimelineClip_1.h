@@ -4,6 +4,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int BaseTimelineClip_1_TypeDefinitionIndex = 48535;
+
 	template <typename T>
 	class BaseTimelineClip_1 : public ::RPGTools::Timeline::PostProcessing::BaseTimelineClip
 	{

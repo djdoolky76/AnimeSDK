@@ -56,6 +56,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraGameInstance_TypeDefinitionIndex = 60453;
+
 	class ChimeraGameInstance : public ::HCLPKMIIANI
 	{
 	public:

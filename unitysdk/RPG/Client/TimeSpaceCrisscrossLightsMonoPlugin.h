@@ -9,6 +9,8 @@ namespace EnviromentSystem { class EnviromentProfile; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeSpaceCrisscrossLightsMonoPlugin_TypeDefinitionIndex = 70232;
+
 	class TimeSpaceCrisscrossLightsMonoPlugin
 	{
 	public:

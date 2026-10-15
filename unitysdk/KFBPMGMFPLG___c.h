@@ -12,6 +12,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define KFBPMGMFPLG___C__BUILDDISPLAYOPTIONS_B__13_2_OFFSET UNITYSDK_OFFSET(0xB38EF70)
 #define KFBPMGMFPLG___C___PICKLEAVEEMPLOYEE_B__26_0_OFFSET UNITYSDK_OFFSET(0xB38EF80)
 
+inline static constexpr unsigned int KFBPMGMFPLG___c_TypeDefinitionIndex = 80313;
+
 	class KFBPMGMFPLG___c : public ::System::Object
 	{
 	public:

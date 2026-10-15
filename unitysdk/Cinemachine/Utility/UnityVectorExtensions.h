@@ -17,6 +17,8 @@
 
 namespace Cinemachine::Utility
 {
+	inline static constexpr unsigned int UnityVectorExtensions_TypeDefinitionIndex = 39897;
+
 	class UnityVectorExtensions : public ::System::Object
 	{
 	public:

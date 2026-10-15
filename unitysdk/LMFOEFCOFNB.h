@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define LMFOEFCOFNB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D113AC0)
 #define LMFOEFCOFNB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D113A80)
 
+inline static constexpr unsigned int LMFOEFCOFNB_TypeDefinitionIndex = 21550;
+
 	class LMFOEFCOFNB : public ::RPG::GameCore::TaskConfig
 	{
 	public:

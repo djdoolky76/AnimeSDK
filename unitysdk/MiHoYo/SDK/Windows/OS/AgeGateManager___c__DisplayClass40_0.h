@@ -8,6 +8,8 @@ namespace MiHoYo::SDK::Windows::OS { class AgeGateManager; }
 
 namespace MiHoYo::SDK::Windows::OS
 {
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass40_0_TypeDefinitionIndex = 8357;
+
 	class AgeGateManager___c__DisplayClass40_0 : public ::System::Object
 	{
 	public:

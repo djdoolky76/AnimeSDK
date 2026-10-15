@@ -89,6 +89,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BACCOPOCMPC_TICK_OFFSET UNITYSDK_OFFSET(0x15BD3EA0)
 #define BACCOPOCMPC__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0x15BD27F0)
 
+inline static constexpr unsigned int BACCOPOCMPC_TypeDefinitionIndex = 56857;
+
 	class BACCOPOCMPC : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

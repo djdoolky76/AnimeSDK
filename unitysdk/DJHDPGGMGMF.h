@@ -6,6 +6,8 @@ namespace RPG::GameCore { class FiveDimAnimatorStateListenerConfig; }
 #define DJHDPGGMGMF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA2AAF0)
 #define DJHDPGGMGMF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2AB40)
 
+inline static constexpr unsigned int DJHDPGGMGMF_TypeDefinitionIndex = 43291;
+
 	class DJHDPGGMGMF : public ::System::Object
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MCHDFGLEMCD_SET_CHIMERAEVALUATIONDISPLAYDATA_OFFSET UNITYSDK_OFFSET(0xB87DC20)
 #define MCHDFGLEMCD_SET_CHIMERASATISFYEVALUATIONDICT_OFFSET UNITYSDK_OFFSET(0xB87DC00)
 
+inline static constexpr unsigned int MCHDFGLEMCD_TypeDefinitionIndex = 63494;
+
 	class MCHDFGLEMCD : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System { class String; }
 #define INGNCPPMOFG_SET_EXTRAPARAMOBJ_OFFSET UNITYSDK_OFFSET(0xAD10)
 #define INGNCPPMOFG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2E82ED0)
 
+inline static constexpr unsigned int INGNCPPMOFG_TypeDefinitionIndex = 59005;
+
 	struct alignas(8) INGNCPPMOFG
 	{
 		::System::Single MFCHJFPOCIA; // 0x10

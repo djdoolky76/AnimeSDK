@@ -31,6 +31,8 @@ namespace System { class String; }
 #define EKEFLKGCMBN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2BF1A0)
 #define EKEFLKGCMBN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2BF200)
 
+inline static constexpr unsigned int EKEFLKGCMBN_TypeDefinitionIndex = 30178;
+
 	class EKEFLKGCMBN : public ::System::Object
 	{
 	public:

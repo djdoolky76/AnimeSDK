@@ -10,6 +10,8 @@
 #define PLMHNHHBGLP_OIMKLIFNCAN_OFFSET UNITYSDK_OFFSET(0xC30B980)
 #define PLMHNHHBGLP_PBKLKFNKGDK_OFFSET UNITYSDK_OFFSET(0xC30BC10)
 
+inline static constexpr unsigned int PLMHNHHBGLP_TypeDefinitionIndex = 57011;
+
 	class PLMHNHHBGLP : public ::System::Object
 	{
 	public:

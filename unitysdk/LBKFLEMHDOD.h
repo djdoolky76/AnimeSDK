@@ -7,6 +7,8 @@ class KPCDEJGJHBK;
 #define LBKFLEMHDOD_CTOR_OFFSET UNITYSDK_OFFSET(0xB606DA0)
 #define LBKFLEMHDOD_IGKLKLJCMBI_OFFSET UNITYSDK_OFFSET(0xB606AA0)
 
+inline static constexpr unsigned int LBKFLEMHDOD_TypeDefinitionIndex = 75951;
+
 	class LBKFLEMHDOD : public ::MKHNMHOHEAK
 	{
 	public:

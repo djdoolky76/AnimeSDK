@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SwitchHandForbidUIOperate; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchHandForbidUIOperate_TypeDefinitionIndex = 20963;
+
 	class SwitchHandForbidUIOperate : public ::RPG::GameCore::TaskConfig
 	{
 	public:

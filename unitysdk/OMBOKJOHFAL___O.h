@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class NotifyHandler; }
 
+inline static constexpr unsigned int OMBOKJOHFAL___O_TypeDefinitionIndex = 69485;
+
 	class OMBOKJOHFAL___O : public ::System::Object
 	{
 	public:

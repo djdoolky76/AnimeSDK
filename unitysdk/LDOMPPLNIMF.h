@@ -5,6 +5,8 @@
 #define LDOMPPLNIMF_CTOR_OFFSET UNITYSDK_OFFSET(0xB644C90)
 #define LDOMPPLNIMF_PBEIGLCAHMN_OFFSET UNITYSDK_OFFSET(0xB644C40)
 
+inline static constexpr unsigned int LDOMPPLNIMF_TypeDefinitionIndex = 75373;
+
 	class LDOMPPLNIMF : public ::System::Object
 	{
 	public:

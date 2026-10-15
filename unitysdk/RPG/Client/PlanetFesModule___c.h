@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesModule___c_TypeDefinitionIndex = 66647;
+
 	class PlanetFesModule___c : public ::System::Object
 	{
 	public:

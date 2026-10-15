@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceCatMonoView___c__DisplayClass18_0_TypeDefinitionIndex = 78148;
+
 	class CakeRaceCatMonoView___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:

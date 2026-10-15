@@ -5,6 +5,8 @@
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int FMChannelEnvSysClientMonoPlugin_TypeDefinitionIndex = 49567;
+
 	class FMChannelEnvSysClientMonoPlugin
 	{
 	public:

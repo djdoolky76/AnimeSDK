@@ -9,6 +9,8 @@
 #define KDIKPOCOCOM_SET_DAY_OFFSET UNITYSDK_OFFSET(0xB363530)
 #define KDIKPOCOCOM_SET_TALK_OFFSET UNITYSDK_OFFSET(0xB363550)
 
+inline static constexpr unsigned int KDIKPOCOCOM_TypeDefinitionIndex = 81070;
+
 	class KDIKPOCOCOM : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define MNGNKCEOKIF_OKDFDOILLDA_OFFSET UNITYSDK_OFFSET(0x1DD6B030)
 #define MNGNKCEOKIF_POBHKMHMOGE_OFFSET UNITYSDK_OFFSET(0x1DD79460)
 
+inline static constexpr unsigned int MNGNKCEOKIF_TypeDefinitionIndex = 6260;
+
 	class MNGNKCEOKIF : public ::System::Object
 	{
 	public:

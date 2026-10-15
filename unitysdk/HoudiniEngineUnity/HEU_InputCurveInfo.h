@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_InputCurveInfo_TypeDefinitionIndex = 40378;
+
 	class HEU_InputCurveInfo : public ::System::Object
 	{
 	public:

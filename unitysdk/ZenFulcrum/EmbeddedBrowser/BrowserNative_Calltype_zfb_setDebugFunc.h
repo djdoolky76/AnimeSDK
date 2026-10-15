@@ -13,6 +13,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_MessageFunc; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_setDebugFunc_TypeDefinitionIndex = 39407;
+
 	class BrowserNative_Calltype_zfb_setDebugFunc : public ::System::MulticastDelegate
 	{
 	public:

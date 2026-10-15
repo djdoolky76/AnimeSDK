@@ -5,6 +5,8 @@
 #define ONPIMFEHIIM_CTOR_OFFSET UNITYSDK_OFFSET(0xBF60F30)
 #define ONPIMFEHIIM_FHAAHMEJMCI_OFFSET UNITYSDK_OFFSET(0xBF609C0)
 
+inline static constexpr unsigned int ONPIMFEHIIM_TypeDefinitionIndex = 66523;
+
 	class ONPIMFEHIIM : public ::FMIHMGNLBPN
 	{
 	public:

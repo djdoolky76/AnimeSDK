@@ -12,6 +12,8 @@ namespace UnityEngine::UI { class Toggle; }
 
 namespace SRDebugger::UI::Tabs
 {
+	inline static constexpr unsigned int ProfilerTabController_TypeDefinitionIndex = 37995;
+
 	class ProfilerTabController : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

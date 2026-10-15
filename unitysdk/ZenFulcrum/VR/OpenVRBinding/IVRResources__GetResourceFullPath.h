@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRResources__GetResourceFullPath_TypeDefinitionIndex = 39185;
+
 	class IVRResources__GetResourceFullPath : public ::System::MulticastDelegate
 	{
 	public:

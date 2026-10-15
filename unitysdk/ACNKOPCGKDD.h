@@ -31,6 +31,8 @@ namespace System { class String; }
 #define ACNKOPCGKDD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDDF200)
 #define ACNKOPCGKDD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDDF260)
 
+inline static constexpr unsigned int ACNKOPCGKDD_TypeDefinitionIndex = 28135;
+
 	class ACNKOPCGKDD : public ::System::Object
 	{
 	public:

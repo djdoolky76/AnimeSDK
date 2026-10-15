@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JMGKOCCHEFG_IFKJNDBNBLM_OFFSET UNITYSDK_OFFSET(0xB264F50)
 #define JMGKOCCHEFG_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0xB264EA0)
 
+inline static constexpr unsigned int JMGKOCCHEFG_TypeDefinitionIndex = 63359;
+
 	class JMGKOCCHEFG : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System { class String; }
 #define BEFIOALJIMP_PGCHAECEEPP_OFFSET UNITYSDK_OFFSET(0x16315670)
 #define BEFIOALJIMP___CREATENORMALSKIN_G__ADDMAP_4_0_OFFSET UNITYSDK_OFFSET(0x16316A10)
 
+inline static constexpr unsigned int BEFIOALJIMP_TypeDefinitionIndex = 62609;
+
 	class BEFIOALJIMP : public ::System::Object
 	{
 	public:

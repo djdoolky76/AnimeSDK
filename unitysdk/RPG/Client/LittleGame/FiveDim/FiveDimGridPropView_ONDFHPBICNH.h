@@ -14,6 +14,8 @@ namespace UnityEngine { class BoxCollider; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimGridPropView_ONDFHPBICNH_TypeDefinitionIndex = 77183;
+
 	class FiveDimGridPropView_ONDFHPBICNH : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ class LMJPODEEGKK;
 
 #define JOLDFJCNJOI_CTOR_OFFSET UNITYSDK_OFFSET(0xB2A7640)
 
+inline static constexpr unsigned int JOLDFJCNJOI_TypeDefinitionIndex = 77416;
+
 	class JOLDFJCNJOI : public ::DJJKNHPLHDI
 	{
 	public:

@@ -8,6 +8,8 @@ class BPLFICOBKKK;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayerMemoryRecordData_TypeDefinitionIndex = 64273;
+
 	class PlayerMemoryRecordData : public ::RPG::Client::PlayerChallengeRecordData
 	{
 	public:

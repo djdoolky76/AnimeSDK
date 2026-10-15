@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DNCEOOPHIOK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1F3CF0)
 #define DNCEOOPHIOK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1F3D50)
 
+inline static constexpr unsigned int DNCEOOPHIOK_TypeDefinitionIndex = 33804;
+
 	class DNCEOOPHIOK : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define CCKEHNGDJJF_GETTYPENAME_OFFSET UNITYSDK_OFFSET(0xC74B000)
 #define CCKEHNGDJJF_IKDDBODBGGN_OFFSET UNITYSDK_OFFSET(0xC74B070)
 
+inline static constexpr unsigned int CCKEHNGDJJF_TypeDefinitionIndex = 59487;
+
 	class CCKEHNGDJJF : public ::OEODAOIOGLO
 	{
 	public:

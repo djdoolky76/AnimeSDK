@@ -6,6 +6,8 @@ class JBAMLLPFKFF_GMMEADJNPBI;
 
 #define JBAMLLPFKFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1655ED30)
 
+inline static constexpr unsigned int JBAMLLPFKFF_TypeDefinitionIndex = 59067;
+
 	class JBAMLLPFKFF : public ::System::Object
 	{
 	public:

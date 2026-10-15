@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MarbleByTeamRound; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleByTeamRound_TypeDefinitionIndex = 16892;
+
 	class MarbleByTeamRound : public ::RPG::GameCore::MarblePredicateConfig
 	{
 	public:

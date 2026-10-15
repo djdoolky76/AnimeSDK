@@ -16,6 +16,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByHasStanceWeak_TypeDefinitionIndex = 22556;
+
 	class ByHasStanceWeak : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateBuffTraitInfo___c__DisplayClass7_0_TypeDefinitionIndex = 64004;
+
 	class FateBuffTraitInfo___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

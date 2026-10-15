@@ -25,6 +25,8 @@ namespace System { class String; }
 #define KGKLEEPMGEF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E839150)
 #define KGKLEEPMGEF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8391B0)
 
+inline static constexpr unsigned int KGKLEEPMGEF_TypeDefinitionIndex = 26804;
+
 	class KGKLEEPMGEF : public ::System::Object
 	{
 	public:

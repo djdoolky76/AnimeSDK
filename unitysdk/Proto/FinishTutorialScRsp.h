@@ -32,6 +32,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int FinishTutorialScRsp_TypeDefinitionIndex = 35058;
+
 	class FinishTutorialScRsp : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define OMAFHCAGGCC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEAEF20)
 #define OMAFHCAGGCC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEAEF80)
 
+inline static constexpr unsigned int OMAFHCAGGCC_TypeDefinitionIndex = 34938;
+
 	class OMAFHCAGGCC : public ::System::Object
 	{
 	public:

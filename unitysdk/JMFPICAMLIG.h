@@ -28,6 +28,8 @@ namespace System { class String; }
 #define JMFPICAMLIG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E78B230)
 #define JMFPICAMLIG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E78B290)
 
+inline static constexpr unsigned int JMFPICAMLIG_TypeDefinitionIndex = 25742;
+
 	class JMFPICAMLIG : public ::System::Object
 	{
 	public:

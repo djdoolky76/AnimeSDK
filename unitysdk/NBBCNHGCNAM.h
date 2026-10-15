@@ -16,6 +16,8 @@ namespace System { class Action; }
 #define NBBCNHGCNAM_PBAAICNFJJO_OFFSET UNITYSDK_OFFSET(0xBABD1F0)
 #define NBBCNHGCNAM_TICK_OFFSET UNITYSDK_OFFSET(0xBABD140)
 
+inline static constexpr unsigned int NBBCNHGCNAM_TypeDefinitionIndex = 58887;
+
 	class NBBCNHGCNAM : public ::GELIALJDFBL
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class RandomChangeBombToMultiStyleAction; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int RandomChangeBombToMultiStyleAction_TypeDefinitionIndex = 24917;
+
 	class RandomChangeBombToMultiStyleAction : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:

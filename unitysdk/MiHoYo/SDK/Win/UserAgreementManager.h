@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int UserAgreementManager_TypeDefinitionIndex = 9373;
+
 	class UserAgreementManager : public ::System::Object
 	{
 	public:

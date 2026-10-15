@@ -12,6 +12,8 @@ namespace RPG::Client { class TimeSpaceCrisscrossDebugMonoPlugin; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeSpaceCrisscrossDebugBehavior_TypeDefinitionIndex = 70199;
+
 	class TimeSpaceCrisscrossDebugBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

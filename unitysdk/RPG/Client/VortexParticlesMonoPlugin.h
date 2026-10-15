@@ -12,6 +12,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VortexParticlesMonoPlugin_TypeDefinitionIndex = 70715;
+
 	class VortexParticlesMonoPlugin
 	{
 	public:

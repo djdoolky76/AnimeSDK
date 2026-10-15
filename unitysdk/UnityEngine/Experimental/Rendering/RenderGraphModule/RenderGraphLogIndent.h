@@ -8,6 +8,8 @@ namespace UnityEngine::Experimental::Rendering::RenderGraphModule { class Render
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
+	inline static constexpr unsigned int RenderGraphLogIndent_TypeDefinitionIndex = 35455;
+
 	struct alignas(8) RenderGraphLogIndent
 	{
 		::System::Int32 m_Indentation; // 0x10

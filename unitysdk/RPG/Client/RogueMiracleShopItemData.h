@@ -31,6 +31,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMiracleShopItemData_TypeDefinitionIndex = 67334;
+
 	class RogueMiracleShopItemData : public ::System::Object
 	{
 	public:

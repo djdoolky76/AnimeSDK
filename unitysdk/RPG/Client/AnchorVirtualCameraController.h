@@ -46,6 +46,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AnchorVirtualCameraController_TypeDefinitionIndex = 68316;
+
 	class AnchorVirtualCameraController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

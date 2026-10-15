@@ -9,6 +9,8 @@ namespace System { class Exception; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ClientStartupPhase___c__DisplayClass17_0_TypeDefinitionIndex = 61141;
+
 	class ClientStartupPhase___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

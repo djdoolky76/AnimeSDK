@@ -10,6 +10,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int ReflectionUtils___c__DisplayClass42_0_TypeDefinitionIndex = 9681;
+
 	class ReflectionUtils___c__DisplayClass42_0 : public ::System::Object
 	{
 	public:

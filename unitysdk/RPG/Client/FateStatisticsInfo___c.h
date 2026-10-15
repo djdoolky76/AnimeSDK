@@ -15,6 +15,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateStatisticsInfo___c_TypeDefinitionIndex = 64132;
+
 	class FateStatisticsInfo___c : public ::System::Object
 	{
 	public:

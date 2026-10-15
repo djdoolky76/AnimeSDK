@@ -38,6 +38,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsWebsiteWindow_TypeDefinitionIndex = 80405;
+
 	class LimaoNewsWebsiteWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:

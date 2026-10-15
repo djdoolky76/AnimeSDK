@@ -5,6 +5,8 @@ class HGBGJIPLILP;
 
 #define CBCPEACIJIE_CTOR_OFFSET UNITYSDK_OFFSET(0xC49F4D0)
 
+inline static constexpr unsigned int CBCPEACIJIE_TypeDefinitionIndex = 54287;
+
 	class CBCPEACIJIE : public ::System::Object
 	{
 	public:

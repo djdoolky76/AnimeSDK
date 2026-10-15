@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSettings__SetFloat_TypeDefinitionIndex = 39167;
+
 	class IVRSettings__SetFloat : public ::System::MulticastDelegate
 	{
 	public:

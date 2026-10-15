@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtByHasLockTarget_TypeDefinitionIndex = 24233;
+
 	class RtByHasLockTarget : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

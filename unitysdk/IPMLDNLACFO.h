@@ -31,6 +31,8 @@ namespace System { class String; }
 #define IPMLDNLACFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6E78A0)
 #define IPMLDNLACFO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6E7900)
 
+inline static constexpr unsigned int IPMLDNLACFO_TypeDefinitionIndex = 31816;
+
 	class IPMLDNLACFO : public ::System::Object
 	{
 	public:

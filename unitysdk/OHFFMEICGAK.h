@@ -26,6 +26,8 @@
 #define OHFFMEICGAK_MFIKKGLCFII_OFFSET UNITYSDK_OFFSET(0xBE689F0)
 #define OHFFMEICGAK_OAEDEIOMIIE_OFFSET UNITYSDK_OFFSET(0xBE68870)
 
+inline static constexpr unsigned int OHFFMEICGAK_TypeDefinitionIndex = 74275;
+
 	class OHFFMEICGAK : public ::System::Object
 	{
 	public:

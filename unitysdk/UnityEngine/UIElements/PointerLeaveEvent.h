@@ -7,6 +7,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int PointerLeaveEvent_TypeDefinitionIndex = 5986;
+
 	class PointerLeaveEvent
 	{
 	public:

@@ -16,6 +16,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MaterialSubmissionActivityData_TypeDefinitionIndex = 61639;
+
 	class MaterialSubmissionActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

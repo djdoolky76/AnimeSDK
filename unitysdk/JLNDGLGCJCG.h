@@ -9,6 +9,8 @@ class NDNBAKIOMIC;
 #define JLNDGLGCJCG_GET_PARAMS_OFFSET UNITYSDK_OFFSET(0xB251100)
 #define JLNDGLGCJCG_SET_PARAMS_OFFSET UNITYSDK_OFFSET(0xB251110)
 
+inline static constexpr unsigned int JLNDGLGCJCG_TypeDefinitionIndex = 64346;
+
 	class JLNDGLGCJCG : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TrainPartySimpleTalkData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayTrainPartySimpleTalk_TypeDefinitionIndex = 22362;
+
 	class PlayTrainPartySimpleTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

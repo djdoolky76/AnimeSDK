@@ -13,6 +13,8 @@ namespace System::Security::Cryptography { class RSA; }
 
 namespace Mono::Security::Cryptography
 {
+	inline static constexpr unsigned int CryptoConvert_BF9E6DD63016EAB7_TypeDefinitionIndex = 2300;
+
 	class CryptoConvert_BF9E6DD63016EAB7 : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define LJAIOGHEIBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90F510)
 
+inline static constexpr unsigned int LJAIOGHEIBA_TypeDefinitionIndex = 42913;
+
 	class LJAIOGHEIBA : public ::System::Object
 	{
 	public:

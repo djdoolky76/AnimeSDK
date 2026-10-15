@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CoroutineBehaviour_TypeDefinitionIndex = 35222;
+
 	class CoroutineBehaviour : public ::UnityEngine::MonoBehaviour
 	{
 	public:

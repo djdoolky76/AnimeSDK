@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OGMCLIEEMHE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2732D0)
 #define OGMCLIEEMHE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D2728E0)
 
+inline static constexpr unsigned int OGMCLIEEMHE_TypeDefinitionIndex = 14608;
+
 	class OGMCLIEEMHE : public ::System::Object
 	{
 	public:

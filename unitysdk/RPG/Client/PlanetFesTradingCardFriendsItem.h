@@ -41,6 +41,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesTradingCardFriendsItem_TypeDefinitionIndex = 66580;
+
 	class PlanetFesTradingCardFriendsItem : public ::System::Object
 	{
 	public:

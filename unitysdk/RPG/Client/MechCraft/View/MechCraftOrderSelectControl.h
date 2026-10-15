@@ -11,6 +11,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftOrderSelectControlBinder
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftOrderSelectControl_TypeDefinitionIndex = 80002;
+
 	class MechCraftOrderSelectControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

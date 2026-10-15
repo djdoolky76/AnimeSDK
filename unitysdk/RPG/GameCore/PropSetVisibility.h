@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropSetVisibility_TypeDefinitionIndex = 20397;
+
 	class PropSetVisibility : public ::RPG::GameCore::TaskConfig
 	{
 	public:

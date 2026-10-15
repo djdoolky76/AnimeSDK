@@ -10,6 +10,8 @@ class MFKLCJHKNBK;
 #define GDDHPAMLKGF_CTOR_OFFSET UNITYSDK_OFFSET(0x159960D0)
 #define GDDHPAMLKGF_EXECUTE_OFFSET UNITYSDK_OFFSET(0x159960E0)
 
+inline static constexpr unsigned int GDDHPAMLKGF_TypeDefinitionIndex = 75760;
+
 	class GDDHPAMLKGF : public ::System::Object
 	{
 	public:

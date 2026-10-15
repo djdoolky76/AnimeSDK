@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IslandStateConditionSet_TypeDefinitionIndex = 19134;
+
 	class IslandStateConditionSet : public ::RPG::GameCore::JsonConfig
 	{
 	public:

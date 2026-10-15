@@ -9,6 +9,8 @@ class IOJGBIAJBIC;
 #define EDPAHELFOKO_SET_COLLIDERA_OFFSET UNITYSDK_OFFSET(0x1C5FB3F0)
 #define EDPAHELFOKO_SET_COLLIDERB_OFFSET UNITYSDK_OFFSET(0x1C5FB410)
 
+inline static constexpr unsigned int EDPAHELFOKO_TypeDefinitionIndex = 36553;
+
 	class EDPAHELFOKO : public ::System::Object
 	{
 	public:

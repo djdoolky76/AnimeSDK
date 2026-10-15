@@ -4,6 +4,8 @@
 
 #define GJDKNDBDIGN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAAFF10)
 
+inline static constexpr unsigned int GJDKNDBDIGN_TypeDefinitionIndex = 42364;
+
 	class GJDKNDBDIGN : public ::System::Object
 	{
 	public:

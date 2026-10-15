@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerEffectForUI___O_TypeDefinitionIndex = 20155;
+
 	class TriggerEffectForUI___O : public ::System::Object
 	{
 	public:

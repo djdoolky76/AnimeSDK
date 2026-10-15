@@ -28,6 +28,8 @@ class NALGGFHJEBB;
 #define IHNHMJLGEDI_OKGFBDGMLED_OFFSET UNITYSDK_OFFSET(0x1C4A0920)
 #define IHNHMJLGEDI_OPKLJKDABFL_OFFSET UNITYSDK_OFFSET(0x1C49FA00)
 
+inline static constexpr unsigned int IHNHMJLGEDI_TypeDefinitionIndex = 41483;
+
 	class IHNHMJLGEDI : public ::System::Object
 	{
 	public:

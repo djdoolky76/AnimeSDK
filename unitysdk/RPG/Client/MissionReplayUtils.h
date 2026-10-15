@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionReplayUtils_TypeDefinitionIndex = 66208;
+
 	class MissionReplayUtils : public ::System::Object
 	{
 	public:

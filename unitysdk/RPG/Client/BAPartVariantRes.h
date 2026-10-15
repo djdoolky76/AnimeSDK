@@ -30,6 +30,8 @@ namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BAPartVariantRes_TypeDefinitionIndex = 69523;
+
 	class BAPartVariantRes : public ::System::Object
 	{
 	public:

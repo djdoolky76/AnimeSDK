@@ -12,6 +12,8 @@ namespace RPG::GameCore { class LineupGridFightTraitParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LineupGridFightConfig_TypeDefinitionIndex = 18129;
+
 	class LineupGridFightConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

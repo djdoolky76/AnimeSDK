@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierAddReplenishRoomCardExtraCompositio
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierAddReplenishRoomCardExtraCompositionTypeConfig_TypeDefinitionIndex = 17842;
+
 	class RogueModifierAddReplenishRoomCardExtraCompositionTypeConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

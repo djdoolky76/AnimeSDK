@@ -11,6 +11,8 @@ namespace System { class String; }
 #define FFCMNDPOADN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDE4550)
 #define FFCMNDPOADN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDE44E0)
 
+inline static constexpr unsigned int FFCMNDPOADN_TypeDefinitionIndex = 21493;
+
 	class FFCMNDPOADN : public ::RPG::GameCore::TaskConfig
 	{
 	public:

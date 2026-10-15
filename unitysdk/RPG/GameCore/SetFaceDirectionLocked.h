@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetFaceDirectionLocked_TypeDefinitionIndex = 22705;
+
 	class SetFaceDirectionLocked : public ::RPG::GameCore::TaskConfig
 	{
 	public:

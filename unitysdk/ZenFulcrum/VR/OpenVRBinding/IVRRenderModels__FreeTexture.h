@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRRenderModels__FreeTexture_TypeDefinitionIndex = 39144;
+
 	class IVRRenderModels__FreeTexture : public ::System::MulticastDelegate
 	{
 	public:

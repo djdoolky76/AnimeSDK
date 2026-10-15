@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateCondLineupHasAvatarConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateCondLineupHasAvatarConfig_TypeDefinitionIndex = 19250;
+
 	class FateCondLineupHasAvatarConfig : public ::RPG::GameCore::FateConditionConfigBase
 	{
 	public:

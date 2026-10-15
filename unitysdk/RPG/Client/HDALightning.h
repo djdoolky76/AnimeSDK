@@ -12,6 +12,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HDALightning_TypeDefinitionIndex = 70607;
+
 	class HDALightning : public ::UnityEngine::MonoBehaviour
 	{
 	public:

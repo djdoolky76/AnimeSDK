@@ -13,6 +13,8 @@ namespace UnityEngine { class MeshRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TSCRendererMaterialRefData_TypeDefinitionIndex = 70208;
+
 	class TSCRendererMaterialRefData : public ::System::Object
 	{
 	public:

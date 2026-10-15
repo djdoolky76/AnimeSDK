@@ -7,6 +7,8 @@
 #define FMNAMHLNOJB_LPFBANCOMPE_OFFSET UNITYSDK_OFFSET(0x1CA71420)
 #define FMNAMHLNOJB_OOCHJEEPBHL_OFFSET UNITYSDK_OFFSET(0x1CA71470)
 
+inline static constexpr unsigned int FMNAMHLNOJB_TypeDefinitionIndex = 43711;
+
 	class FMNAMHLNOJB : public ::System::Object
 	{
 	public:

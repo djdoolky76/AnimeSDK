@@ -33,6 +33,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraGameObjectBuilder_TypeDefinitionIndex = 78455;
+
 	class ChimeraGameObjectBuilder : public ::UnityEngine::MonoBehaviour
 	{
 	public:

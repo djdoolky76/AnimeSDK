@@ -8,6 +8,8 @@ class FCHFCKDICNA;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChenLingBattleTeamSnapshot___c__DisplayClass4_0_TypeDefinitionIndex = 61436;
+
 	class ChenLingBattleTeamSnapshot___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

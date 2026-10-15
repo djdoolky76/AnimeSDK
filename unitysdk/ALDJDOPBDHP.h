@@ -29,6 +29,8 @@ namespace System { class String; }
 #define ALDJDOPBDHP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3D6030)
 #define ALDJDOPBDHP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3D6090)
 
+inline static constexpr unsigned int ALDJDOPBDHP_TypeDefinitionIndex = 33517;
+
 	class ALDJDOPBDHP : public ::System::Object
 	{
 	public:

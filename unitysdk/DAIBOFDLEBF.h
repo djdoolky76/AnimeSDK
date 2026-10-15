@@ -14,6 +14,8 @@ class DAIBOFDLEBF;
 #define DAIBOFDLEBF_SET_ISHASPROPERTYBONUS_OFFSET UNITYSDK_OFFSET(0xDFC3330)
 #define DAIBOFDLEBF_SET_SCORE_OFFSET UNITYSDK_OFFSET(0xDFC3310)
 
+inline static constexpr unsigned int DAIBOFDLEBF_TypeDefinitionIndex = 74427;
+
 	class DAIBOFDLEBF : public ::System::Object
 	{
 	public:

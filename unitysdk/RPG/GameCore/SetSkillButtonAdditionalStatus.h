@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetSkillButtonAdditionalStatus_TypeDefinitionIndex = 23655;
+
 	class SetSkillButtonAdditionalStatus : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define OMJJNKHHKPG_SET_TRANSITINTIME_OFFSET UNITYSDK_OFFSET(0xBF2FCB0)
 #define OMJJNKHHKPG_SET_TRANSITOUTTIME_OFFSET UNITYSDK_OFFSET(0xBF2FCD0)
 
+inline static constexpr unsigned int OMJJNKHHKPG_TypeDefinitionIndex = 69543;
+
 	class OMJJNKHHKPG : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingBattleBezierPointConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleBezierPointConfig_TypeDefinitionIndex = 15717;
+
 	class ChenLingBattleBezierPointConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

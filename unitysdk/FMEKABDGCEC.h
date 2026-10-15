@@ -32,6 +32,8 @@ namespace System { class String; }
 #define FMEKABDGCEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3E1240)
 #define FMEKABDGCEC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3E12A0)
 
+inline static constexpr unsigned int FMEKABDGCEC_TypeDefinitionIndex = 25622;
+
 	class FMEKABDGCEC : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class StackBoostPointDirty; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StackBoostPointDirty_TypeDefinitionIndex = 23554;
+
 	class StackBoostPointDirty : public ::RPG::GameCore::TaskConfig
 	{
 	public:

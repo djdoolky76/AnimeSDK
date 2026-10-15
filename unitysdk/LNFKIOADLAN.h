@@ -8,6 +8,8 @@ class LNFKIOADLAN;
 #define LNFKIOADLAN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D11B120)
 #define LNFKIOADLAN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D11B0E0)
 
+inline static constexpr unsigned int LNFKIOADLAN_TypeDefinitionIndex = 21878;
+
 	class LNFKIOADLAN : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int ObjectTranslator___c__7191_1_TypeDefinitionIndex = 50082;
+
 	template <typename T>
 	class ObjectTranslator___c__7191_1 : public ::System::Object
 	{

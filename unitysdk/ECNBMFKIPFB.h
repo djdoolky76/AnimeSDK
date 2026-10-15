@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define ECNBMFKIPFB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD6D610)
 #define ECNBMFKIPFB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD6D5D0)
 
+inline static constexpr unsigned int ECNBMFKIPFB_TypeDefinitionIndex = 21331;
+
 	class ECNBMFKIPFB : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

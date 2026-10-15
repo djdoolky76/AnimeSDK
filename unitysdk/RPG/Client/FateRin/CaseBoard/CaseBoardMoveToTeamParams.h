@@ -8,6 +8,8 @@ namespace RPG::GameCore { class FateRinCaseBoardMoveBaseInfo; }
 
 namespace RPG::Client::FateRin::CaseBoard
 {
+	inline static constexpr unsigned int CaseBoardMoveToTeamParams_TypeDefinitionIndex = 80804;
+
 	class CaseBoardMoveToTeamParams : public ::System::Object
 	{
 	public:

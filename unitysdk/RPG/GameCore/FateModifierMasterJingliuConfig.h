@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateModifierMasterJingliuConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateModifierMasterJingliuConfig_TypeDefinitionIndex = 19290;
+
 	class FateModifierMasterJingliuConfig : public ::RPG::GameCore::FateModifierConfigBase
 	{
 	public:

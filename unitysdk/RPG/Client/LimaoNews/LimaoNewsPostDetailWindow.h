@@ -42,6 +42,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsPostDetailWindow_TypeDefinitionIndex = 80407;
+
 	class LimaoNewsPostDetailWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:

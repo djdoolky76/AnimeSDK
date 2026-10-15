@@ -9,6 +9,8 @@ class PPAGOKHODLP;
 
 namespace Sofa::Demo::GridFight
 {
+	inline static constexpr unsigned int GridFightAvatarBackpackControl___c__DisplayClass0_0_TypeDefinitionIndex = 49702;
+
 	class GridFightAvatarBackpackControl___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

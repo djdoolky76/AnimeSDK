@@ -13,6 +13,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int BaseSpEquipInventoryDisplayData___c_TypeDefinitionIndex = 75435;
+
 	class BaseSpEquipInventoryDisplayData___c : public ::System::Object
 	{
 	public:

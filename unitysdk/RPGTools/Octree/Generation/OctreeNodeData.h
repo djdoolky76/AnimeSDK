@@ -8,6 +8,8 @@ namespace RPGTools::Octree::Generation { class OctreeNodeData; }
 
 namespace RPGTools::Octree::Generation
 {
+	inline static constexpr unsigned int OctreeNodeData_TypeDefinitionIndex = 48875;
+
 	class OctreeNodeData : public ::System::Object
 	{
 	public:

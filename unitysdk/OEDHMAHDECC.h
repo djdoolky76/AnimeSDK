@@ -76,6 +76,8 @@ namespace System { class String; }
 #define OEDHMAHDECC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE26670)
 #define OEDHMAHDECC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE266D0)
 
+inline static constexpr unsigned int OEDHMAHDECC_TypeDefinitionIndex = 29629;
+
 	class OEDHMAHDECC : public ::System::Object
 	{
 	public:

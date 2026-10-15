@@ -12,6 +12,8 @@
 #define BENFAMJGAJP_KKIGIGILMHB_OFFSET UNITYSDK_OFFSET(0xB159590)
 #define BENFAMJGAJP_SET_ISLOADED_OFFSET UNITYSDK_OFFSET(0xB159600)
 
+inline static constexpr unsigned int BENFAMJGAJP_TypeDefinitionIndex = 59753;
+
 	class BENFAMJGAJP : public ::System::Object
 	{
 	public:

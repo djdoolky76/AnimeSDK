@@ -6,6 +6,8 @@ class KOAOAKKCCPK;
 
 #define LJJOFAOLODC_KCOOAMKHEGC_CTOR_OFFSET UNITYSDK_OFFSET(0xB71C790)
 
+inline static constexpr unsigned int LJJOFAOLODC_KCOOAMKHEGC_TypeDefinitionIndex = 72262;
+
 	class LJJOFAOLODC_KCOOAMKHEGC : public ::System::Object
 	{
 	public:

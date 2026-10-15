@@ -16,6 +16,8 @@ namespace RPG::Client::Billboard { class BillboardIdentifier; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FourRotateVoxelWaypointTarget_TypeDefinitionIndex = 69075;
+
 	class FourRotateVoxelWaypointTarget : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int IdentityData_TypeDefinitionIndex = 60001;
+
 	class IdentityData : public ::System::Object
 	{
 	public:

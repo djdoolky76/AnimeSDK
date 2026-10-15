@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TriggerHitProp; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerHitProp_TypeDefinitionIndex = 20212;
+
 	class TriggerHitProp : public ::RPG::GameCore::TaskConfig
 	{
 	public:

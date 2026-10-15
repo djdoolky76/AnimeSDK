@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int SequencePool_TypeDefinitionIndex = 7241;
+
 	class SequencePool : public ::System::Object
 	{
 	public:

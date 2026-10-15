@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MEJJIHNOIBD_IJFIDEHGOGE_OFFSET UNITYSDK_OFFSET(0xB8DA1B0)
 #define MEJJIHNOIBD_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB8DA240)
 
+inline static constexpr unsigned int MEJJIHNOIBD_TypeDefinitionIndex = 61327;
+
 	class MEJJIHNOIBD : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 #define BMIKHDAIIMO___C__DISPLAYCLASS39_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBDB6BC0)
 #define BMIKHDAIIMO___C__DISPLAYCLASS39_0___INITINSTOBJ_B__0_OFFSET UNITYSDK_OFFSET(0xBDBC750)
 
+inline static constexpr unsigned int BMIKHDAIIMO___c__DisplayClass39_0_TypeDefinitionIndex = 73879;
+
 	class BMIKHDAIIMO___c__DisplayClass39_0 : public ::System::Object
 	{
 	public:

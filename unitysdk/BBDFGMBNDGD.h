@@ -10,6 +10,8 @@ namespace System { class String; }
 
 #define BBDFGMBNDGD_CTOR_OFFSET UNITYSDK_OFFSET(0x15E854D0)
 
+inline static constexpr unsigned int BBDFGMBNDGD_TypeDefinitionIndex = 55590;
+
 	class BBDFGMBNDGD : public ::System::Object
 	{
 	public:

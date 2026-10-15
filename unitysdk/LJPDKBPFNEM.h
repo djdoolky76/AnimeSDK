@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LJPDKBPFNEM_CTOR_OFFSET UNITYSDK_OFFSET(0xB724990)
 #define LJPDKBPFNEM_GICABFLDIPA_OFFSET UNITYSDK_OFFSET(0xB724620)
 
+inline static constexpr unsigned int LJPDKBPFNEM_TypeDefinitionIndex = 77495;
+
 	class LJPDKBPFNEM : public ::FJNNEOKOCJD
 	{
 	public:

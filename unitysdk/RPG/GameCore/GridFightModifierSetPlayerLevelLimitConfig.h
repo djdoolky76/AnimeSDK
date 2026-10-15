@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierSetPlayerLevelLimitConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierSetPlayerLevelLimitConfig_TypeDefinitionIndex = 19419;
+
 	class GridFightModifierSetPlayerLevelLimitConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

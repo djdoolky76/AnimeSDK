@@ -8,6 +8,8 @@ namespace RPG::GameCore { class CakeRaceActionChangeCurWaitTime; }
 #define FBKECJJDDDC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6117F0)
 #define FBKECJJDDDC_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C611800)
 
+inline static constexpr unsigned int FBKECJJDDDC_TypeDefinitionIndex = 37380;
+
 	class FBKECJJDDDC : public ::GPLOFONGBGI
 	{
 	public:

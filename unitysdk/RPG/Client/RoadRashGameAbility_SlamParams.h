@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoadRashGameAbility_SlamParams_TypeDefinitionIndex = 10292;
+
 	class RoadRashGameAbility_SlamParams : public ::RPG::GameCore::JsonConfig
 	{
 	public:

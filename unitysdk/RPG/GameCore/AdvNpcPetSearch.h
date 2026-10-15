@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvNpcPetSearch_TypeDefinitionIndex = 19990;
+
 	class AdvNpcPetSearch : public ::RPG::GameCore::TaskConfig
 	{
 	public:

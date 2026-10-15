@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityPlayerReturnInviteData_TypeDefinitionIndex = 61866;
+
 	class ActivityPlayerReturnInviteData : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvPauseTickValue_TypeDefinitionIndex = 21025;
+
 	class AdvPauseTickValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

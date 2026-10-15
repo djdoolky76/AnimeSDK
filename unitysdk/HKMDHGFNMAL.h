@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HKMDHGFNMAL_CTOR_OFFSET UNITYSDK_OFFSET(0x15D4E700)
 #define HKMDHGFNMAL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15D4E770)
 
+inline static constexpr unsigned int HKMDHGFNMAL_TypeDefinitionIndex = 59094;
+
 	class HKMDHGFNMAL
 	{
 	public:

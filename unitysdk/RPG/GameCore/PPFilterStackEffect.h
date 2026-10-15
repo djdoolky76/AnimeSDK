@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PPFilterStackEffect_TypeDefinitionIndex = 20263;
+
 	class PPFilterStackEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

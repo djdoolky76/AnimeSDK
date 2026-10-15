@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GHONBGEKOAI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E490060)
 #define GHONBGEKOAI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4900C0)
 
+inline static constexpr unsigned int GHONBGEKOAI_TypeDefinitionIndex = 34974;
+
 	class GHONBGEKOAI : public ::System::Object
 	{
 	public:

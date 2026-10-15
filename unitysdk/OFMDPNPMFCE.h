@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define OFMDPNPMFCE_JGHDBJLBEEG_1_OFFSET UNITYSDK_OFFSET(0x1C57A770)
 #define OFMDPNPMFCE_JGHDBJLBEEG_OFFSET UNITYSDK_OFFSET(0x1C57A6D0)
 
+inline static constexpr unsigned int OFMDPNPMFCE_TypeDefinitionIndex = 41855;
+
 	class OFMDPNPMFCE : public ::JEBPFBNCALB
 	{
 	public:

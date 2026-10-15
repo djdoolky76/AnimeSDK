@@ -33,6 +33,8 @@ namespace System { class String; }
 #define FODMCAGKAIO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3F91F0)
 #define FODMCAGKAIO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3F9250)
 
+inline static constexpr unsigned int FODMCAGKAIO_TypeDefinitionIndex = 32247;
+
 	class FODMCAGKAIO : public ::System::Object
 	{
 	public:

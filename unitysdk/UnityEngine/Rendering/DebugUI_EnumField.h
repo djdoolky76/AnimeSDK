@@ -18,6 +18,8 @@ namespace UnityEngine { class GUIContent; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DebugUI_EnumField_TypeDefinitionIndex = 35534;
+
 	class DebugUI_EnumField
 	{
 	public:

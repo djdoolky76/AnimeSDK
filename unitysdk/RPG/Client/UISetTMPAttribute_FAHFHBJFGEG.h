@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UISetTMPAttribute_FAHFHBJFGEG_TypeDefinitionIndex = 70713;
+
 	class UISetTMPAttribute_FAHFHBJFGEG : public ::System::MulticastDelegate
 	{
 	public:

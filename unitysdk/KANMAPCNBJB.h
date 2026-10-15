@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KANMAPCNBJB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB2E4C50)
 #define KANMAPCNBJB_HECCKKKHKBN_OFFSET UNITYSDK_OFFSET(0xB2E5020)
 
+inline static constexpr unsigned int KANMAPCNBJB_TypeDefinitionIndex = 54565;
+
 	class KANMAPCNBJB
 	{
 	public:

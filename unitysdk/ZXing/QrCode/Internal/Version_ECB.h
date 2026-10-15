@@ -8,6 +8,8 @@
 
 namespace ZXing::QrCode::Internal
 {
+	inline static constexpr unsigned int Version_ECB_TypeDefinitionIndex = 6995;
+
 	class Version_ECB : public ::System::Object
 	{
 	public:

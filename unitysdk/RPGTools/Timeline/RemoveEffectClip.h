@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int RemoveEffectClip_TypeDefinitionIndex = 48327;
+
 	class RemoveEffectClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

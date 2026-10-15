@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define OLLLPNOEEEK_ABHMCPCPPPP_OFFSET UNITYSDK_OFFSET(0xBF0FF60)
 #define OLLLPNOEEEK_CTOR_OFFSET UNITYSDK_OFFSET(0xBF10340)
 
+inline static constexpr unsigned int OLLLPNOEEEK_TypeDefinitionIndex = 77375;
+
 	class OLLLPNOEEEK : public ::System::Object
 	{
 	public:

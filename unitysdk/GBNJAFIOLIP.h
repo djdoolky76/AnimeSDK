@@ -11,6 +11,8 @@ namespace RPG::Client { class ExpeditionBattleDisplayAvatar; }
 #define GBNJAFIOLIP_NKIJLGEJIFH_OFFSET UNITYSDK_OFFSET(0x159543F0)
 #define GBNJAFIOLIP_OIAHPHFBFGA_OFFSET UNITYSDK_OFFSET(0x15954500)
 
+inline static constexpr unsigned int GBNJAFIOLIP_TypeDefinitionIndex = 63941;
+
 	class GBNJAFIOLIP : public ::System::Object
 	{
 	public:

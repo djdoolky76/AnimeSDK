@@ -16,6 +16,8 @@ namespace UnityEngine { class SkinnedMeshRenderer; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int EmoEyeBloomMixer_TypeDefinitionIndex = 48113;
+
 	class EmoEyeBloomMixer : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

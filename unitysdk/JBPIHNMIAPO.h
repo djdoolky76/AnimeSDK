@@ -9,6 +9,8 @@ namespace System { class String; }
 #define JBPIHNMIAPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0153A0)
 #define JBPIHNMIAPO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D015250)
 
+inline static constexpr unsigned int JBPIHNMIAPO_TypeDefinitionIndex = 22870;
+
 	class JBPIHNMIAPO : public ::RPG::GameCore::JsonConfig
 	{
 	public:

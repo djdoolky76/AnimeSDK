@@ -4,6 +4,8 @@
 
 #define KLEIHHJBLNN_CTOR_OFFSET UNITYSDK_OFFSET(0xB525F00)
 
+inline static constexpr unsigned int KLEIHHJBLNN_TypeDefinitionIndex = 48800;
+
 	class KLEIHHJBLNN : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

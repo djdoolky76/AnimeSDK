@@ -19,6 +19,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ForceKillMarkDataProvider_TypeDefinitionIndex = 71676;
+
 	class ForceKillMarkDataProvider : public ::System::Object
 	{
 	public:

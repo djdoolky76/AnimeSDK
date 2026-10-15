@@ -23,6 +23,8 @@ namespace UnityEngine { class SkinnedMeshRenderer; }
 #define NCGGFMLOPHB_PCMPBLPELOB_OFFSET UNITYSDK_OFFSET(0xBB0EF30)
 #define NCGGFMLOPHB_PFNPFKAEHGF_OFFSET UNITYSDK_OFFSET(0xBB0F020)
 
+inline static constexpr unsigned int NCGGFMLOPHB_TypeDefinitionIndex = 68292;
+
 	class NCGGFMLOPHB : public ::System::Object
 	{
 	public:

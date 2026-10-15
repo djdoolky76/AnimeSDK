@@ -11,6 +11,8 @@ namespace RPG::GameCore { class HalfBoomerangProjectileData; }
 #define BHGBOAGMPNH_LHDIJEEEKEJ_OFFSET UNITYSDK_OFFSET(0xB477E70)
 #define BHGBOAGMPNH_PGKPGNJJMMB_OFFSET UNITYSDK_OFFSET(0xB478050)
 
+inline static constexpr unsigned int BHGBOAGMPNH_TypeDefinitionIndex = 54743;
+
 	class BHGBOAGMPNH : public ::GGJEMEHMBNL
 	{
 	public:

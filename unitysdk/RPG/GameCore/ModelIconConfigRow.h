@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModelIconConfigRow_TypeDefinitionIndex = 12578;
+
 	class ModelIconConfigRow : public ::System::Object
 	{
 	public:

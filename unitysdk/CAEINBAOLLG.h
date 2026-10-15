@@ -30,6 +30,8 @@ namespace System { class String; }
 #define CAEINBAOLLG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E057DB0)
 #define CAEINBAOLLG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E057E10)
 
+inline static constexpr unsigned int CAEINBAOLLG_TypeDefinitionIndex = 35020;
+
 	class CAEINBAOLLG : public ::System::Object
 	{
 	public:

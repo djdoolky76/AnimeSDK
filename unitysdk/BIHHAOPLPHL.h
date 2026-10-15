@@ -4,6 +4,8 @@
 
 #define BIHHAOPLPHL_CEPDAOEBPJD_OFFSET UNITYSDK_OFFSET(0xB4A86F0)
 
+inline static constexpr unsigned int BIHHAOPLPHL_TypeDefinitionIndex = 63518;
+
 	class BIHHAOPLPHL : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int XboxOneBluetoothAndroidUnityProfile_TypeDefinitionIndex = 40992;
+
 	class XboxOneBluetoothAndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

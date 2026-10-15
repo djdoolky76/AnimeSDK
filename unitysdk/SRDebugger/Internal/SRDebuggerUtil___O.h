@@ -9,6 +9,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace SRDebugger::Internal
 {
+	inline static constexpr unsigned int SRDebuggerUtil___O_TypeDefinitionIndex = 38109;
+
 	class SRDebuggerUtil___O : public ::System::Object
 	{
 	public:

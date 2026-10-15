@@ -14,6 +14,8 @@ namespace System { class String; }
 #define MIJHOOLPJNI_NONJDKKDDLE_OFFSET UNITYSDK_OFFSET(0xB95A520)
 #define MIJHOOLPJNI_OLENGDCIONA_OFFSET UNITYSDK_OFFSET(0xB95A4E0)
 
+inline static constexpr unsigned int MIJHOOLPJNI_TypeDefinitionIndex = 60476;
+
 	class MIJHOOLPJNI : public ::System::Object
 	{
 	public:

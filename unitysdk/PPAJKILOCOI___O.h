@@ -4,6 +4,8 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
+inline static constexpr unsigned int PPAJKILOCOI___O_TypeDefinitionIndex = 59292;
+
 	class PPAJKILOCOI___O : public ::System::Object
 	{
 	public:

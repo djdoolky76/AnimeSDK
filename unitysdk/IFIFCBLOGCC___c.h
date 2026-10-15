@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define IFIFCBLOGCC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15F18560)
 #define IFIFCBLOGCC___C__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0x15F18570)
 
+inline static constexpr unsigned int IFIFCBLOGCC___c_TypeDefinitionIndex = 58023;
+
 	class IFIFCBLOGCC___c : public ::System::Object
 	{
 	public:

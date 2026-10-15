@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DAIHKPJPMCE_MMJDLOAHDCF_OFFSET UNITYSDK_OFFSET(0xDFC3C00)
 #define DAIHKPJPMCE_PHGAFDNJAEN_OFFSET UNITYSDK_OFFSET(0xDFC3A80)
 
+inline static constexpr unsigned int DAIHKPJPMCE_TypeDefinitionIndex = 69531;
+
 	class DAIHKPJPMCE : public ::System::Object
 	{
 	public:

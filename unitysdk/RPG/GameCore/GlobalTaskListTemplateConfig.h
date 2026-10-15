@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskListTemplate; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GlobalTaskListTemplateConfig_TypeDefinitionIndex = 18240;
+
 	class GlobalTaskListTemplateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

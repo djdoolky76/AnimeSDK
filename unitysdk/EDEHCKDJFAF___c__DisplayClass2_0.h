@@ -11,6 +11,8 @@ namespace System { class String; }
 #define EDEHCKDJFAF___C__DISPLAYCLASS2_0__CREATEITEM_B__0_OFFSET UNITYSDK_OFFSET(0x13312C00)
 #define EDEHCKDJFAF___C__DISPLAYCLASS2_0__CREATEITEM_B__1_OFFSET UNITYSDK_OFFSET(0x13312D40)
 
+inline static constexpr unsigned int EDEHCKDJFAF___c__DisplayClass2_0_TypeDefinitionIndex = 65595;
+
 	class EDEHCKDJFAF___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

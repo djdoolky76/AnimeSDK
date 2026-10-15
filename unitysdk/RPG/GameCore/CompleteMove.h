@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CompleteMove_TypeDefinitionIndex = 22464;
+
 	class CompleteMove : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -126,6 +126,8 @@ namespace System::IO { class MemoryStream; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKServer_TypeDefinitionIndex = 46312;
+
 	class MiHoYoSDKServer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

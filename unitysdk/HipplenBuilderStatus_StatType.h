@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int HipplenBuilderStatus_StatType_TypeDefinitionIndex = 47208;
+
 	enum class HipplenBuilderStatus_StatType : ::System::Int32
 	{
 		Health = 0,

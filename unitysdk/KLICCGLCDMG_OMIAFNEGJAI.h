@@ -3,6 +3,8 @@
 #include "unitysdk/RPG/Client/Textmap/Parameter/Compiler/Syntax/SyntaxKind.h"
 namespace System { class String; }
 
+inline static constexpr unsigned int KLICCGLCDMG_OMIAFNEGJAI_TypeDefinitionIndex = 73403;
+
 	struct alignas(8) KLICCGLCDMG_OMIAFNEGJAI
 	{
 		::RPG::Client::Textmap::Parameter::Compiler::Syntax::SyntaxKind KAPIKEEGEPA; // 0x10

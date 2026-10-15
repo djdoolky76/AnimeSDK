@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MazeFreelookDragCameraConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MazeFreelookDragCameraConfig_TypeDefinitionIndex = 17629;
+
 	class MazeFreelookDragCameraConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

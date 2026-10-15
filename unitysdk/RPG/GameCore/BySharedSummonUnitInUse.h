@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BySharedSummonUnitInUse_TypeDefinitionIndex = 21167;
+
 	class BySharedSummonUnitInUse : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

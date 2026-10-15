@@ -6,6 +6,8 @@ class FLCCFFNAMLJ;
 #define FLCCFFNAMLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15829FB0)
 #define FLCCFFNAMLJ_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x15829EE0)
 
+inline static constexpr unsigned int FLCCFFNAMLJ_TypeDefinitionIndex = 70826;
+
 	class FLCCFFNAMLJ : public ::System::Object
 	{
 	public:

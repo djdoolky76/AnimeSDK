@@ -10,6 +10,8 @@ namespace System { class String; }
 #define GIKHELDPFIA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE50140)
 #define GIKHELDPFIA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE50100)
 
+inline static constexpr unsigned int GIKHELDPFIA_TypeDefinitionIndex = 21462;
+
 	class GIKHELDPFIA : public ::RPG::GameCore::TaskConfig
 	{
 	public:

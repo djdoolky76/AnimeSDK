@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HoyoTag_TypeDefinitionIndex = 18318;
+
 	class HoyoTag : public ::RPG::GameCore::JsonConfig
 	{
 	public:

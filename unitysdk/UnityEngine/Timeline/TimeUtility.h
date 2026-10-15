@@ -23,6 +23,8 @@ namespace UnityEngine { class AnimationClip; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int TimeUtility_TypeDefinitionIndex = 38878;
+
 	class TimeUtility : public ::System::Object
 	{
 	public:

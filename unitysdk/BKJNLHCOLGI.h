@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define BKJNLHCOLGI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D81D5D0)
 #define BKJNLHCOLGI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D81D380)
 
+inline static constexpr unsigned int BKJNLHCOLGI_TypeDefinitionIndex = 11677;
+
 	class BKJNLHCOLGI : public ::System::Object
 	{
 	public:

@@ -47,6 +47,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace System::Dynamic
 {
+	inline static constexpr unsigned int ExpandoObject_TypeDefinitionIndex = 3676;
+
 	class ExpandoObject : public ::System::Object
 	{
 	public:

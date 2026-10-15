@@ -31,6 +31,8 @@ namespace System { class String; }
 #define PAGLMEAGPPC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEED6C0)
 #define PAGLMEAGPPC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEED720)
 
+inline static constexpr unsigned int PAGLMEAGPPC_TypeDefinitionIndex = 26591;
+
 	class PAGLMEAGPPC : public ::System::Object
 	{
 	public:

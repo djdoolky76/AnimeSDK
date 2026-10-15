@@ -30,6 +30,8 @@ namespace System { class String; }
 #define CBJGONHJAAC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E06D510)
 #define CBJGONHJAAC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E06D570)
 
+inline static constexpr unsigned int CBJGONHJAAC_TypeDefinitionIndex = 34856;
+
 	class CBJGONHJAAC : public ::System::Object
 	{
 	public:

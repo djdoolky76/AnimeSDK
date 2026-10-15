@@ -92,6 +92,8 @@ namespace System::IO { class FileStream; }
 #define PLAJONHLDJN_SET_ISFRIENDROOM_OFFSET UNITYSDK_OFFSET(0x1C7F34D0)
 #define PLAJONHLDJN_SET_ROOMUID_OFFSET UNITYSDK_OFFSET(0x1C7F34B0)
 
+inline static constexpr unsigned int PLAJONHLDJN_TypeDefinitionIndex = 36266;
+
 	class PLAJONHLDJN : public ::AEKIOONKCIB
 	{
 	public:

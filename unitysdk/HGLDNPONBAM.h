@@ -49,6 +49,8 @@ namespace System { class Object; }
 #define HGLDNPONBAM_SET_SCEPTERSTATE_OFFSET UNITYSDK_OFFSET(0x15CAE380)
 #define HGLDNPONBAM_TICK_OFFSET UNITYSDK_OFFSET(0x15CACB80)
 
+inline static constexpr unsigned int HGLDNPONBAM_TypeDefinitionIndex = 57660;
+
 	class HGLDNPONBAM : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

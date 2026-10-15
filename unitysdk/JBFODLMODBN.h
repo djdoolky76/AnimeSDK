@@ -6,6 +6,8 @@
 #define JBFODLMODBN_CJDNCBHLOGD_OFFSET UNITYSDK_OFFSET(0x1656DB30)
 #define JBFODLMODBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1656DCA0)
 
+inline static constexpr unsigned int JBFODLMODBN_TypeDefinitionIndex = 64933;
+
 	class JBFODLMODBN : public ::BOIKIMJHDHK
 	{
 	public:

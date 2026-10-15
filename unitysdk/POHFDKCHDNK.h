@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define POHFDKCHDNK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7F7A80)
 
+inline static constexpr unsigned int POHFDKCHDNK_TypeDefinitionIndex = 36449;
+
 	class POHFDKCHDNK : public ::System::Object
 	{
 	public:

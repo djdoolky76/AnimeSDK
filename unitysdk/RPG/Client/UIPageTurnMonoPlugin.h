@@ -10,6 +10,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIPageTurnMonoPlugin_TypeDefinitionIndex = 71060;
+
 	class UIPageTurnMonoPlugin
 	{
 	public:

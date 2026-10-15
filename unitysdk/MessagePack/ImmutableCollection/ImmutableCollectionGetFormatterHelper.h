@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MessagePack::ImmutableCollection
 {
+	inline static constexpr unsigned int ImmutableCollectionGetFormatterHelper_TypeDefinitionIndex = 7370;
+
 	class ImmutableCollectionGetFormatterHelper : public ::System::Object
 	{
 	public:

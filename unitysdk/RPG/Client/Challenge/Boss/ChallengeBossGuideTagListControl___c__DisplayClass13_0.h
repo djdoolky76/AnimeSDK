@@ -8,6 +8,8 @@ namespace RPG::Client::Challenge::Boss { class ChallengeBossGuideTagListControl;
 
 namespace RPG::Client::Challenge::Boss
 {
+	inline static constexpr unsigned int ChallengeBossGuideTagListControl___c__DisplayClass13_0_TypeDefinitionIndex = 81643;
+
 	class ChallengeBossGuideTagListControl___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

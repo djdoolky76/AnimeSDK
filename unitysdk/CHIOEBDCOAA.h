@@ -65,6 +65,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CHIOEBDCOAA_PDICAOOLLIE_OFFSET UNITYSDK_OFFSET(0xCF4CF70)
 #define CHIOEBDCOAA_PGKDBJFDDPP_OFFSET UNITYSDK_OFFSET(0xCF51020)
 
+inline static constexpr unsigned int CHIOEBDCOAA_TypeDefinitionIndex = 70150;
+
 	class CHIOEBDCOAA : public ::System::Object
 	{
 	public:

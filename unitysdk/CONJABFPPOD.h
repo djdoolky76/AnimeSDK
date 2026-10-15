@@ -9,6 +9,8 @@ namespace System { class String; }
 #define CONJABFPPOD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCBB430)
 #define CONJABFPPOD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCBB320)
 
+inline static constexpr unsigned int CONJABFPPOD_TypeDefinitionIndex = 11544;
+
 	class CONJABFPPOD : public ::System::Object
 	{
 	public:

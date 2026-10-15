@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GGNJOILILIM_CTOR_OFFSET UNITYSDK_OFFSET(0x15A11460)
 #define GGNJOILILIM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A11490)
 
+inline static constexpr unsigned int GGNJOILILIM_TypeDefinitionIndex = 54155;
+
 	class GGNJOILILIM
 	{
 	public:

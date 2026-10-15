@@ -18,6 +18,8 @@ class MFKLCJHKNBK;
 #define JFFHNKLGDDG_JNIHLEFPIEG_OFFSET UNITYSDK_OFFSET(0x1664AD40)
 #define JFFHNKLGDDG_MACOKGJNJOC_OFFSET UNITYSDK_OFFSET(0x1664B010)
 
+inline static constexpr unsigned int JFFHNKLGDDG_TypeDefinitionIndex = 75759;
+
 	class JFFHNKLGDDG : public ::System::Object
 	{
 	public:

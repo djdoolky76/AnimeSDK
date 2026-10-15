@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleGameConfig_TypeDefinitionIndex = 18927;
+
 	class MarbleGameConfig : public ::RPG::GameCore::LittleGameConstConfig
 	{
 	public:

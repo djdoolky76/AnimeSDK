@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LensDistortionCurveEffect_TypeDefinitionIndex = 20260;
+
 	class LensDistortionCurveEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

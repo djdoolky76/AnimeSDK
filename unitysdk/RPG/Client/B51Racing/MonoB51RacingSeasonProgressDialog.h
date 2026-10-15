@@ -88,6 +88,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int MonoB51RacingSeasonProgressDialog_TypeDefinitionIndex = 81979;
+
 	class MonoB51RacingSeasonProgressDialog : public ::Sofa::BaseSofaControl
 	{
 	public:

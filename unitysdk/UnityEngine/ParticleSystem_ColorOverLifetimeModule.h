@@ -15,6 +15,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystem_ColorOverLifetimeModule_TypeDefinitionIndex = 5236;
+
 	struct alignas(8) ParticleSystem_ColorOverLifetimeModule
 	{
 		::UnityEngine::ParticleSystem* m_ParticleSystem; // 0x10

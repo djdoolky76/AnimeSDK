@@ -11,6 +11,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoamingModuleConfig_TypeDefinitionIndex = 69685;
+
 	class RoamingModuleConfig : public ::RPG::Client::CameraModuleConfigBase
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define JMDENKICHGK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E78A530)
 #define JMDENKICHGK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E78A590)
 
+inline static constexpr unsigned int JMDENKICHGK_TypeDefinitionIndex = 26900;
+
 	class JMDENKICHGK : public ::System::Object
 	{
 	public:

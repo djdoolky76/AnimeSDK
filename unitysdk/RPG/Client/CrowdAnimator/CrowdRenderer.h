@@ -77,6 +77,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::Client::CrowdAnimator
 {
+	inline static constexpr unsigned int CrowdRenderer_TypeDefinitionIndex = 73724;
+
 	class CrowdRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -23,6 +23,8 @@ namespace UnityEngine::Networking { class UnityWebRequest; }
 #define PBEKLCMIPAL_OAFHHCFIJBC_1_OFFSET UNITYSDK_OFFSET(0xBFEB400)
 #define PBEKLCMIPAL_OAFHHCFIJBC_OFFSET UNITYSDK_OFFSET(0xBFEB0E0)
 
+inline static constexpr unsigned int PBEKLCMIPAL_TypeDefinitionIndex = 51709;
+
 	class PBEKLCMIPAL : public ::System::Object
 	{
 	public:

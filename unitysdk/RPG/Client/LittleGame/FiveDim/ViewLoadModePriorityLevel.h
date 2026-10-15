@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int ViewLoadModePriorityLevel_TypeDefinitionIndex = 43334;
+
 	enum class ViewLoadModePriorityLevel : ::System::Int32
 	{
 		None = 0,

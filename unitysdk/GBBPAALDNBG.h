@@ -16,6 +16,8 @@ class GBBPAALDNBG;
 #define GBBPAALDNBG_SET_CURRENTHP_OFFSET UNITYSDK_OFFSET(0x1594ADD0)
 #define GBBPAALDNBG_SET_ISDEAD_OFFSET UNITYSDK_OFFSET(0x1594AE10)
 
+inline static constexpr unsigned int GBBPAALDNBG_TypeDefinitionIndex = 63419;
+
 	class GBBPAALDNBG : public ::System::Object
 	{
 	public:

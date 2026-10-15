@@ -6,6 +6,8 @@ namespace System { class String; }
 #define DJJKNHPLHDI_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CA12DA0)
 #define DJJKNHPLHDI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2AB50)
 
+inline static constexpr unsigned int DJJKNHPLHDI_TypeDefinitionIndex = 41923;
+
 	class DJJKNHPLHDI : public ::Entitas::Systems
 	{
 	public:

@@ -40,6 +40,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OMMEIHJOHGJ_SET_EMOBLACKLIST_OFFSET UNITYSDK_OFFSET(0xBF32810)
 #define OMMEIHJOHGJ_SET_NPCSERVERID_OFFSET UNITYSDK_OFFSET(0xBF327D0)
 
+inline static constexpr unsigned int OMMEIHJOHGJ_TypeDefinitionIndex = 65658;
+
 	class OMMEIHJOHGJ : public ::System::Object
 	{
 	public:

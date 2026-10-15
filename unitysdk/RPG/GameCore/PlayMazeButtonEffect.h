@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PlayMazeButtonEffect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayMazeButtonEffect_TypeDefinitionIndex = 20500;
+
 	class PlayMazeButtonEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

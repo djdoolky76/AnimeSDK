@@ -30,6 +30,8 @@ namespace System { class String; }
 #define AMPMJPCFLND_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5275F0)
 #define AMPMJPCFLND_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E527650)
 
+inline static constexpr unsigned int AMPMJPCFLND_TypeDefinitionIndex = 30194;
+
 	class AMPMJPCFLND : public ::System::Object
 	{
 	public:

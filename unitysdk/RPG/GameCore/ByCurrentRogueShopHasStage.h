@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCurrentRogueShopHasStage_TypeDefinitionIndex = 21046;
+
 	class ByCurrentRogueShopHasStage : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

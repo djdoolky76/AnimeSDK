@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRExtendedDisplay__GetEyeOutputViewport_TypeDefinitionIndex = 38937;
+
 	class IVRExtendedDisplay__GetEyeOutputViewport : public ::System::MulticastDelegate
 	{
 	public:

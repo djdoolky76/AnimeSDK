@@ -41,6 +41,8 @@ namespace System { class String; }
 #define MEKDHGNOEIJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA0E3E0)
 #define MEKDHGNOEIJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA0E440)
 
+inline static constexpr unsigned int MEKDHGNOEIJ_TypeDefinitionIndex = 34064;
+
 	class MEKDHGNOEIJ : public ::System::Object
 	{
 	public:

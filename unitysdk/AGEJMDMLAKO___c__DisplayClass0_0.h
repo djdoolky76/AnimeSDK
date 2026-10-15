@@ -8,6 +8,8 @@ namespace UnityEngine::Events { class UnityEvent; }
 #define AGEJMDMLAKO___C__DISPLAYCLASS0_0__ASOBSERVABLE_B__1_OFFSET UNITYSDK_OFFSET(0xCF28010)
 #define AGEJMDMLAKO___C__DISPLAYCLASS0_0__ASOBSERVABLE_B__2_OFFSET UNITYSDK_OFFSET(0xCF28030)
 
+inline static constexpr unsigned int AGEJMDMLAKO___c__DisplayClass0_0_TypeDefinitionIndex = 49989;
+
 	class AGEJMDMLAKO___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

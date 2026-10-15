@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActGetMagicUnitByMaxStyleConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActGetMagicUnitByMaxStyleConfig_TypeDefinitionIndex = 19694;
+
 	class RogueActGetMagicUnitByMaxStyleConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

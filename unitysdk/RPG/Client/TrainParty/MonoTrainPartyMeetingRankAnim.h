@@ -17,6 +17,8 @@ namespace UnityEngine::UI { class Slider; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int MonoTrainPartyMeetingRankAnim_TypeDefinitionIndex = 74277;
+
 	class MonoTrainPartyMeetingRankAnim : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define ENDPGDJBBDJ_LLEBHGCCHIJ_OFFSET UNITYSDK_OFFSET(0x155A7F10)
 #define ENDPGDJBBDJ_PFJOJBGLCFI_OFFSET UNITYSDK_OFFSET(0x155A8380)
 
+inline static constexpr unsigned int ENDPGDJBBDJ_TypeDefinitionIndex = 54276;
+
 	class ENDPGDJBBDJ : public ::System::Object
 	{
 	public:

@@ -40,6 +40,8 @@ namespace UnityEngine { class Transform; }
 #define DBCCLMILLOB_PBKMHGAGIMB_OFFSET UNITYSDK_OFFSET(0xDFD8EA0)
 #define DBCCLMILLOB_SET_TIMESCALE_OFFSET UNITYSDK_OFFSET(0xDFDB680)
 
+inline static constexpr unsigned int DBCCLMILLOB_TypeDefinitionIndex = 59794;
+
 	class DBCCLMILLOB : public ::System::Object
 	{
 	public:

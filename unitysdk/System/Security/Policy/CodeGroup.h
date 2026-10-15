@@ -8,6 +8,8 @@ namespace System::Security::Policy { class PolicyStatement; }
 
 namespace System::Security::Policy
 {
+	inline static constexpr unsigned int CodeGroup_TypeDefinitionIndex = 956;
+
 	class CodeGroup : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ class KAKADGHNMFK;
 #define HIKJKAEJKDB_HGJJFLNONLA_OFFSET UNITYSDK_OFFSET(0x15CF5F70)
 #define HIKJKAEJKDB_KMGIAJLFPCN_OFFSET UNITYSDK_OFFSET(0x15CF6400)
 
+inline static constexpr unsigned int HIKJKAEJKDB_TypeDefinitionIndex = 77578;
+
 	class HIKJKAEJKDB : public ::System::Object
 	{
 	public:

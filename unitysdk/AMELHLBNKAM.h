@@ -27,6 +27,8 @@ namespace System { class String; }
 #define AMELHLBNKAM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E51EEB0)
 #define AMELHLBNKAM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E51EF10)
 
+inline static constexpr unsigned int AMELHLBNKAM_TypeDefinitionIndex = 29653;
+
 	class AMELHLBNKAM : public ::System::Object
 	{
 	public:

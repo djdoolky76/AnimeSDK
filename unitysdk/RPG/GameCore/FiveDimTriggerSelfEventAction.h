@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimTriggerSelfEventAction_TypeDefinitionIndex = 18651;
+
 	class FiveDimTriggerSelfEventAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

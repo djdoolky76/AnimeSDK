@@ -14,6 +14,8 @@ namespace RPG::Client::ActivityAlley { class AlleyPackGoodData; }
 #define JLJHFLEECLF_MJNMFMEDJJM_OFFSET UNITYSDK_OFFSET(0xB24CD70)
 #define JLJHFLEECLF_NMDDKPMDNPA_OFFSET UNITYSDK_OFFSET(0xB24CB50)
 
+inline static constexpr unsigned int JLJHFLEECLF_TypeDefinitionIndex = 74100;
+
 	class JLJHFLEECLF : public ::IBNAFGFFJLJ
 	{
 	public:

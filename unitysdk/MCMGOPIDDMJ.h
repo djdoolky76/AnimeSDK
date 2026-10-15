@@ -10,6 +10,8 @@ namespace System { class String; }
 #define MCMGOPIDDMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D13EC10)
 #define MCMGOPIDDMJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D13E8F0)
 
+inline static constexpr unsigned int MCMGOPIDDMJ_TypeDefinitionIndex = 11498;
+
 	class MCMGOPIDDMJ : public ::System::Object
 	{
 	public:

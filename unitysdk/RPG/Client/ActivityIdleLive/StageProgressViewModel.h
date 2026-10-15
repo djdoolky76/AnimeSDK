@@ -60,6 +60,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int StageProgressViewModel_TypeDefinitionIndex = 75442;
+
 	class StageProgressViewModel : public ::System::Object
 	{
 	public:

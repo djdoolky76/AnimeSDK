@@ -39,6 +39,8 @@ namespace System { class String; }
 #define KPCNNOGGIDO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8B94B0)
 #define KPCNNOGGIDO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8B9510)
 
+inline static constexpr unsigned int KPCNNOGGIDO_TypeDefinitionIndex = 31338;
+
 	class KPCNNOGGIDO : public ::System::Object
 	{
 	public:

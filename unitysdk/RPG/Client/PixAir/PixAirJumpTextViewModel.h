@@ -16,6 +16,8 @@ namespace RPG::Client::PixAir { class PixAirJumpTextViewModel; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirJumpTextViewModel_TypeDefinitionIndex = 79267;
+
 	class PixAirJumpTextViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class FiveDimBorderPlatConfig; }
 #define NAKCDHDLNEI_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C934CF0)
 #define NAKCDHDLNEI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C934D50)
 
+inline static constexpr unsigned int NAKCDHDLNEI_TypeDefinitionIndex = 43501;
+
 	class NAKCDHDLNEI : public ::System::Object
 	{
 	public:

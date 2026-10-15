@@ -4,6 +4,8 @@
 #define BDEOPBMJHFD_CTOR_OFFSET UNITYSDK_OFFSET(0x162F68A0)
 #define BDEOPBMJHFD_GGNBOEIMEPM_OFFSET UNITYSDK_OFFSET(0x162F67F0)
 
+inline static constexpr unsigned int BDEOPBMJHFD_TypeDefinitionIndex = 68704;
+
 	class BDEOPBMJHFD
 	{
 	public:

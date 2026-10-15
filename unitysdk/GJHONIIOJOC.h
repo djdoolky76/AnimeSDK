@@ -11,6 +11,8 @@ namespace RPG::Client { class PlanetFesFloatingController; }
 #define GJHONIIOJOC_LGAOOKPFIMF_OFFSET UNITYSDK_OFFSET(0x15A69FD0)
 #define GJHONIIOJOC_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x15A69D90)
 
+inline static constexpr unsigned int GJHONIIOJOC_TypeDefinitionIndex = 74465;
+
 	class GJHONIIOJOC : public ::MFDDEJCPLON
 	{
 	public:

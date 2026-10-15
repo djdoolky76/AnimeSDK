@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEquipDressEvent_TypeDefinitionIndex = 64917;
+
 	class GridFightEquipDressEvent : public ::System::Object
 	{
 	public:

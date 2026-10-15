@@ -25,6 +25,8 @@ namespace System { class String; }
 #define PJKNNJGEEBJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF7C980)
 #define PJKNNJGEEBJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF7C9E0)
 
+inline static constexpr unsigned int PJKNNJGEEBJ_TypeDefinitionIndex = 34394;
+
 	class PJKNNJGEEBJ : public ::System::Object
 	{
 	public:

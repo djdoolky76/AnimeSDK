@@ -38,6 +38,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CRPFlagHelper_TypeDefinitionIndex = 37528;
+
 	class CRPFlagHelper : public ::System::Object
 	{
 	public:

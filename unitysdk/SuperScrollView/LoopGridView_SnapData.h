@@ -10,6 +10,8 @@
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int LoopGridView_SnapData_TypeDefinitionIndex = 47654;
+
 	class LoopGridView_SnapData : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Type; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int UnionAttribute_TypeDefinitionIndex = 6169;
+
 	class UnionAttribute : public ::System::Attribute
 	{
 	public:

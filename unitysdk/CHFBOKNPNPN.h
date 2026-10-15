@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define CHFBOKNPNPN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E4940)
 
+inline static constexpr unsigned int CHFBOKNPNPN_TypeDefinitionIndex = 42063;
+
 	class CHFBOKNPNPN : public ::System::Exception
 	{
 	public:

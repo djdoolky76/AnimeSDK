@@ -22,6 +22,8 @@ namespace UnityEngine { class Texture; }
 #define DHCAOJAKHIG_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xEBC85C0)
 #define DHCAOJAKHIG_LEHHMJJLLEP_OFFSET UNITYSDK_OFFSET(0xEBC9460)
 
+inline static constexpr unsigned int DHCAOJAKHIG_TypeDefinitionIndex = 49539;
+
 	class DHCAOJAKHIG : public ::GNFIJNAMOHD
 	{
 	public:

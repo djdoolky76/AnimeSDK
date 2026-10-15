@@ -11,6 +11,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftStarControlBinder; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftStarControl_TypeDefinitionIndex = 80020;
+
 	class MechCraftStarControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

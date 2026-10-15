@@ -5,6 +5,8 @@ class LMLONCKKIJL;
 
 #define JOLDHDEFMOE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA7D10)
 
+inline static constexpr unsigned int JOLDHDEFMOE_TypeDefinitionIndex = 43799;
+
 	class JOLDHDEFMOE : public ::System::Object
 	{
 	public:

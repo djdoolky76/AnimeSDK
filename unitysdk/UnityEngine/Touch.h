@@ -27,6 +27,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Touch_TypeDefinitionIndex = 5781;
+
 	struct alignas(4) Touch
 	{
 		::System::Int32 m_FingerId; // 0x10

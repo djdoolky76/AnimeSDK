@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MiParameterConfigBase; }
 #define KKIDLNPCJCG_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0xB4CD010)
 #define KKIDLNPCJCG_CTOR_OFFSET UNITYSDK_OFFSET(0xB4CD110)
 
+inline static constexpr unsigned int KKIDLNPCJCG_TypeDefinitionIndex = 64144;
+
 	class KKIDLNPCJCG : public ::System::Object
 	{
 	public:

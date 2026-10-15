@@ -17,6 +17,8 @@ namespace UnityEngine { class Camera; }
 #define BOJPIOJDBAP_REFRESH_OFFSET UNITYSDK_OFFSET(0xC1942C0)
 #define BOJPIOJDBAP_RESET_OFFSET UNITYSDK_OFFSET(0xC194950)
 
+inline static constexpr unsigned int BOJPIOJDBAP_TypeDefinitionIndex = 69596;
+
 	class BOJPIOJDBAP : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine::Rendering { class MinFloatParameter; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGAmbientOcclusion_TypeDefinitionIndex = 37785;
+
 	class RPGAmbientOcclusion : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:

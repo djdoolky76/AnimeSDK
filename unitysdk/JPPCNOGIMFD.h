@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JPPCNOGIMFD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7DBBF0)
 #define JPPCNOGIMFD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7DBC50)
 
+inline static constexpr unsigned int JPPCNOGIMFD_TypeDefinitionIndex = 30727;
+
 	class JPPCNOGIMFD : public ::System::Object
 	{
 	public:

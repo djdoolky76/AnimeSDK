@@ -8,6 +8,8 @@ namespace RPG::Client::Prop { class StableSystemPuzzlePillarAndPedestal; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int StableSystemPuzzlePedestal___c__DisplayClass0_0_TypeDefinitionIndex = 78876;
+
 	class StableSystemPuzzlePedestal___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

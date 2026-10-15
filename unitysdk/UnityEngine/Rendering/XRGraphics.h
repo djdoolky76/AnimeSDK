@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int XRGraphics_TypeDefinitionIndex = 35512;
+
 	class XRGraphics : public ::System::Object
 	{
 	public:

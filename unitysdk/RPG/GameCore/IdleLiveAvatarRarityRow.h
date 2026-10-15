@@ -10,6 +10,8 @@ namespace RPG::GameCore { class IdleLiveAvatarRarityRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveAvatarRarityRow_TypeDefinitionIndex = 11722;
+
 	class IdleLiveAvatarRarityRow : public ::System::Object
 	{
 	public:

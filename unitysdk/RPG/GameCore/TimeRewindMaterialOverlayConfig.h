@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TimeRewindOverlayMaterials; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimeRewindMaterialOverlayConfig_TypeDefinitionIndex = 17568;
+
 	class TimeRewindMaterialOverlayConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

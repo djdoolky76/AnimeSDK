@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HipplenSetEntityPositionByAnchor_TypeDefinitionIndex = 21317;
+
 	class HipplenSetEntityPositionByAnchor : public ::RPG::GameCore::TaskConfig
 	{
 	public:

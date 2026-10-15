@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterVisibleComponent__GetFollowTargetsRecusively_d__10_TypeDefinitionIndex = 57219;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10>
 	class CharacterVisibleComponent__GetFollowTargetsRecusively_d__10 : public ::System::Object
 	{

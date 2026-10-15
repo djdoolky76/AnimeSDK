@@ -7,6 +7,8 @@ class PHCMIJEDENP;
 #define AMAPKJDDKCO___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C53F6A0)
 #define AMAPKJDDKCO___C__DISPLAYCLASS1_0__GETUNLOCKEDTALENTPATH_B__0_OFFSET UNITYSDK_OFFSET(0x1C53F6B0)
 
+inline static constexpr unsigned int AMAPKJDDKCO___c__DisplayClass1_0_TypeDefinitionIndex = 41906;
+
 	class AMAPKJDDKCO___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

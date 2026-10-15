@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PPEffectManager___c__DisplayClass21_0_TypeDefinitionIndex = 69772;
+
 	class PPEffectManager___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

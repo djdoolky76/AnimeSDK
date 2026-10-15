@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TutorialChimeraArrangementDisableDragging; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TutorialChimeraArrangementDisableDragging_TypeDefinitionIndex = 24385;
+
 	class TutorialChimeraArrangementDisableDragging : public ::RPG::GameCore::TaskConfig
 	{
 	public:

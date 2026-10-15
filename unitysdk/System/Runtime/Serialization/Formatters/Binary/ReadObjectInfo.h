@@ -40,6 +40,8 @@ namespace System::Runtime::Serialization::Formatters::Binary { class SerObjectIn
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int ReadObjectInfo_TypeDefinitionIndex = 1183;
+
 	class ReadObjectInfo : public ::System::Object
 	{
 	public:

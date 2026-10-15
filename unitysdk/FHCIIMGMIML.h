@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FHCIIMGMIML_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E388F90)
 #define FHCIIMGMIML_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E388FF0)
 
+inline static constexpr unsigned int FHCIIMGMIML_TypeDefinitionIndex = 27997;
+
 	class FHCIIMGMIML : public ::System::Object
 	{
 	public:

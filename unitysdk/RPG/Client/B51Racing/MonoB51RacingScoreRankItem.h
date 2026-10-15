@@ -14,6 +14,8 @@ namespace UnityEngine { class Animation; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int MonoB51RacingScoreRankItem_TypeDefinitionIndex = 81977;
+
 	class MonoB51RacingScoreRankItem : public ::Sofa::BaseSofaControl
 	{
 	public:

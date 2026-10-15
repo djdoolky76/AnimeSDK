@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LJGKOGKEDOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9811D0)
 #define LJGKOGKEDOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E981230)
 
+inline static constexpr unsigned int LJGKOGKEDOA_TypeDefinitionIndex = 31700;
+
 	class LJGKOGKEDOA : public ::System::Object
 	{
 	public:

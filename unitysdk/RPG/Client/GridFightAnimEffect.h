@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightAnimEffect_TypeDefinitionIndex = 64472;
+
 	class GridFightAnimEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

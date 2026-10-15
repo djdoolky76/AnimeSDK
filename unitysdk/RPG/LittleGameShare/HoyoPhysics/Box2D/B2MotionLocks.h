@@ -5,6 +5,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2MotionLocks_TypeDefinitionIndex = 36711;
+
 	struct alignas(4) B2MotionLocks
 	{
 		::System::Boolean linearX; // 0x10

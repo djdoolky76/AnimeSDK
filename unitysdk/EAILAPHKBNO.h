@@ -27,6 +27,8 @@ namespace System { class String; }
 #define EAILAPHKBNO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E22AFD0)
 #define EAILAPHKBNO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E22B030)
 
+inline static constexpr unsigned int EAILAPHKBNO_TypeDefinitionIndex = 30006;
+
 	class EAILAPHKBNO : public ::System::Object
 	{
 	public:

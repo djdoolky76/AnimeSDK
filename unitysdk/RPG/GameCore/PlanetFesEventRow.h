@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlanetFesEventRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesEventRow_TypeDefinitionIndex = 12234;
+
 	class PlanetFesEventRow : public ::System::Object
 	{
 	public:

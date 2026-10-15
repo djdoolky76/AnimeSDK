@@ -38,6 +38,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraEntranceStateController_TypeDefinitionIndex = 78493;
+
 	class ChimeraEntranceStateController : public ::RPG::Client::Prop::ChimeraPreparationStateControllerBase
 	{
 	public:

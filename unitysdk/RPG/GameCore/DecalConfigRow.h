@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DecalConfigRow_TypeDefinitionIndex = 12357;
+
 	class DecalConfigRow : public ::System::Object
 	{
 	public:

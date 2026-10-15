@@ -5,6 +5,8 @@
 #define BLKFJOLACOB_CTOR_OFFSET UNITYSDK_OFFSET(0xBA78CC0)
 #define BLKFJOLACOB_ONSTARTLOADING_OFFSET UNITYSDK_OFFSET(0xBA78C70)
 
+inline static constexpr unsigned int BLKFJOLACOB_TypeDefinitionIndex = 61068;
+
 	class BLKFJOLACOB : public ::JDKNLNLGODN
 	{
 	public:

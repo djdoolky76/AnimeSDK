@@ -4,6 +4,8 @@
 
 #define PAJHIBDCGDG_CTOR_OFFSET UNITYSDK_OFFSET(0xBFCB3F0)
 
+inline static constexpr unsigned int PAJHIBDCGDG_TypeDefinitionIndex = 57034;
+
 	class PAJHIBDCGDG : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PGINHECHMPM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF32410)
 #define PGINHECHMPM___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1DF32420)
 
+inline static constexpr unsigned int PGINHECHMPM___c_TypeDefinitionIndex = 33334;
+
 	class PGINHECHMPM___c : public ::System::Object
 	{
 	public:

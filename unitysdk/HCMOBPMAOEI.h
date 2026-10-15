@@ -28,6 +28,8 @@ namespace System { class String; }
 #define HCMOBPMAOEI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E543B70)
 #define HCMOBPMAOEI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E543BD0)
 
+inline static constexpr unsigned int HCMOBPMAOEI_TypeDefinitionIndex = 30425;
+
 	class HCMOBPMAOEI : public ::System::Object
 	{
 	public:

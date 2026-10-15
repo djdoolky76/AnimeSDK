@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetCountDownWarning; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetCountDownWarning_TypeDefinitionIndex = 22933;
+
 	class SetCountDownWarning : public ::RPG::GameCore::TaskConfig
 	{
 	public:

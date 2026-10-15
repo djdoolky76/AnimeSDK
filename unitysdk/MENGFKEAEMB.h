@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AvatarPropertyValue; }
 #define MENGFKEAEMB_JKHEOBBHGNH_OFFSET UNITYSDK_OFFSET(0xB8E1E80)
 #define MENGFKEAEMB_LNEPAFGAPJH_OFFSET UNITYSDK_OFFSET(0xB8E16E0)
 
+inline static constexpr unsigned int MENGFKEAEMB_TypeDefinitionIndex = 65141;
+
 	class MENGFKEAEMB : public ::KKPPDDOFADO
 	{
 	public:

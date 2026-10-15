@@ -14,6 +14,8 @@ namespace RPG::GameCore { class RtLevelGroupInstanceCommonInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtLevelGroupInstanceCommonInfo_TypeDefinitionIndex = 17346;
+
 	class RtLevelGroupInstanceCommonInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

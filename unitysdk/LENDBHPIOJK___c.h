@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LENDBHPIOJK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E937520)
 #define LENDBHPIOJK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E937530)
 
+inline static constexpr unsigned int LENDBHPIOJK___c_TypeDefinitionIndex = 26413;
+
 	class LENDBHPIOJK___c : public ::System::Object
 	{
 	public:

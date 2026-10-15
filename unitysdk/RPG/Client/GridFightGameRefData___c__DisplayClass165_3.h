@@ -11,6 +11,8 @@ namespace RPG::Client { class GridFightGameRefTrait; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameRefData___c__DisplayClass165_3_TypeDefinitionIndex = 64734;
+
 	template <typename T1, typename T2, typename T3>
 	class GridFightGameRefData___c__DisplayClass165_3 : public ::System::Object
 	{

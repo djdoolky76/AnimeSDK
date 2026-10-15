@@ -5,6 +5,8 @@ namespace UnityEngine::LowLevel { class PlayerLoopSystem_UpdateFunction; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int PlayerLoopHelper___O_TypeDefinitionIndex = 38208;
+
 	class PlayerLoopHelper___O : public ::System::Object
 	{
 	public:

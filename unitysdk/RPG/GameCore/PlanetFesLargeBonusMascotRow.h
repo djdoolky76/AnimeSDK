@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RangeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesLargeBonusMascotRow_TypeDefinitionIndex = 12261;
+
 	class PlanetFesLargeBonusMascotRow : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int AnimatorControlTimelineBehaviour_TypeDefinitionIndex = 47799;
+
 	class AnimatorControlTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

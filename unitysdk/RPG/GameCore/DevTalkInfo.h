@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DevTalkInfo_TypeDefinitionIndex = 21134;
+
 	class DevTalkInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

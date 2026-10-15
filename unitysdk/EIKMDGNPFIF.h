@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define EIKMDGNPFIF_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C600F50)
 #define EIKMDGNPFIF_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C600F10)
 
+inline static constexpr unsigned int EIKMDGNPFIF_TypeDefinitionIndex = 37311;
+
 	class EIKMDGNPFIF : public ::System::MulticastDelegate
 	{
 	public:

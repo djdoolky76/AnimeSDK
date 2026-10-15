@@ -31,6 +31,8 @@ namespace System { class String; }
 #define ELKDCCIHLAB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2D52B0)
 #define ELKDCCIHLAB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2D5310)
 
+inline static constexpr unsigned int ELKDCCIHLAB_TypeDefinitionIndex = 26922;
+
 	class ELKDCCIHLAB : public ::System::Object
 	{
 	public:

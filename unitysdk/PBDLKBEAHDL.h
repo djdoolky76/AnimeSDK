@@ -105,6 +105,8 @@ namespace UnityEngine { class Transform; }
 #define PBDLKBEAHDL_SET_TRIGGERINRANGECOUNT_OFFSET UNITYSDK_OFFSET(0xBFEA1A0)
 #define PBDLKBEAHDL_TICK_OFFSET UNITYSDK_OFFSET(0xBFCD380)
 
+inline static constexpr unsigned int PBDLKBEAHDL_TypeDefinitionIndex = 69449;
+
 	class PBDLKBEAHDL : public ::System::Object
 	{
 	public:

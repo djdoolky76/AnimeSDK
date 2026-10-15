@@ -24,6 +24,8 @@ namespace System::Collections::Immutable { template <typename T> class IImmutabl
 #define HFBEJKNDLJF__INIT_B__15_1_OFFSET UNITYSDK_OFFSET(0x15C69500)
 #define HFBEJKNDLJF__INIT_B__15_2_OFFSET UNITYSDK_OFFSET(0x15C69520)
 
+inline static constexpr unsigned int HFBEJKNDLJF_TypeDefinitionIndex = 79459;
+
 	class HFBEJKNDLJF : public ::System::Object
 	{
 	public:

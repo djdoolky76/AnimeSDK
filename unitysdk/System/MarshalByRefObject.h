@@ -14,6 +14,8 @@ namespace System::Runtime::Remoting { class ServerIdentity; }
 
 namespace System
 {
+	inline static constexpr unsigned int MarshalByRefObject_TypeDefinitionIndex = 404;
+
 	class MarshalByRefObject : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int ColorTween_ColorTweenCallback_TypeDefinitionIndex = 44553;
+
 	class ColorTween_ColorTweenCallback
 	{
 	public:

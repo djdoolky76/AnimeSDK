@@ -11,6 +11,8 @@ namespace System { class String; }
 #define HEBOGJMNJIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE990B0)
 #define HEBOGJMNJIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE99070)
 
+inline static constexpr unsigned int HEBOGJMNJIG_TypeDefinitionIndex = 22591;
+
 	class HEBOGJMNJIG : public ::RPG::GameCore::TaskConfig
 	{
 	public:

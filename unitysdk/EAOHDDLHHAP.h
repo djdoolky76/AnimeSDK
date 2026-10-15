@@ -6,6 +6,8 @@ namespace UnityEngine { class Mesh; }
 #define EAOHDDLHHAP_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x12CE4340)
 #define EAOHDDLHHAP_BJMNKLGEMPM_OFFSET UNITYSDK_OFFSET(0x12CE4560)
 
+inline static constexpr unsigned int EAOHDDLHHAP_TypeDefinitionIndex = 48995;
+
 	class EAOHDDLHHAP : public ::System::Object
 	{
 	public:

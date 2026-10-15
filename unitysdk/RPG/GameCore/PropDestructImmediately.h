@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PropDestructImmediately; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropDestructImmediately_TypeDefinitionIndex = 22067;
+
 	class PropDestructImmediately : public ::RPG::GameCore::PropDestruct
 	{
 	public:

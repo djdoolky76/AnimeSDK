@@ -15,6 +15,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftChipMoldFilterItemContro
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftChipMoldFilterItemControl_TypeDefinitionIndex = 79901;
+
 	class MechCraftChipMoldFilterItemControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

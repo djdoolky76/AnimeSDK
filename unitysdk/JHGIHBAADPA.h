@@ -13,6 +13,8 @@
 #define JHGIHBAADPA_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xB1B3460)
 #define JHGIHBAADPA_SET_PRESSSTATEDELAYSECONDS_OFFSET UNITYSDK_OFFSET(0xB1B3480)
 
+inline static constexpr unsigned int JHGIHBAADPA_TypeDefinitionIndex = 81878;
+
 	class JHGIHBAADPA : public ::System::Object
 	{
 	public:

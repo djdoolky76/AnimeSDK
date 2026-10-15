@@ -7,6 +7,8 @@ class NJKFOJJDGGG;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightRecycleRoleModifier_TypeDefinitionIndex = 65010;
+
 	class GridFightRecycleRoleModifier : public ::RPG::Client::GridFightGameModifier
 	{
 	public:

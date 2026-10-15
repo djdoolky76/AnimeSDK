@@ -30,6 +30,8 @@ namespace System { class String; }
 #define DLAJEPIPOMO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1DC880)
 #define DLAJEPIPOMO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1DC8E0)
 
+inline static constexpr unsigned int DLAJEPIPOMO_TypeDefinitionIndex = 34680;
+
 	class DLAJEPIPOMO : public ::System::Object
 	{
 	public:

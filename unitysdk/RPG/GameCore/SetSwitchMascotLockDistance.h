@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetSwitchMascotLockDistance; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetSwitchMascotLockDistance_TypeDefinitionIndex = 22002;
+
 	class SetSwitchMascotLockDistance : public ::RPG::GameCore::TaskConfig
 	{
 	public:

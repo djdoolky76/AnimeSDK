@@ -15,6 +15,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define MABKGECBBGD_NJHJIOLNDMM_OFFSET UNITYSDK_OFFSET(0xB83E600)
 #define MABKGECBBGD_POPNLPIAOCM_OFFSET UNITYSDK_OFFSET(0xB83E510)
 
+inline static constexpr unsigned int MABKGECBBGD_TypeDefinitionIndex = 69895;
+
 	class MABKGECBBGD : public ::RPG::Client::BehaviorBase
 	{
 	public:

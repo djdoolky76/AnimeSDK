@@ -5,6 +5,8 @@ class MKINHDIFEBD;
 namespace RPG::GameCore { class ChimeraDuelEntityComparerBase; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
+inline static constexpr unsigned int CKPNJMFPFMA___O_TypeDefinitionIndex = 77444;
+
 	class CKPNJMFPFMA___O : public ::System::Object
 	{
 	public:

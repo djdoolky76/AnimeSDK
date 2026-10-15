@@ -15,6 +15,8 @@ namespace System::Linq::Expressions { class ParameterExpression; }
 
 namespace System::Dynamic::Utils
 {
+	inline static constexpr unsigned int ExpressionVisitorUtils_TypeDefinitionIndex = 3689;
+
 	class ExpressionVisitorUtils : public ::System::Object
 	{
 	public:

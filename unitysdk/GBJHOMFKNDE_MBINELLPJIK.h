@@ -5,6 +5,8 @@
 
 #define GBJHOMFKNDE_MBINELLPJIK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C62D940)
 
+inline static constexpr unsigned int GBJHOMFKNDE_MBINELLPJIK_TypeDefinitionIndex = 36846;
+
 	class GBJHOMFKNDE_MBINELLPJIK : public ::System::Object
 	{
 	public:

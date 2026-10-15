@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int DomainNameHelper_TypeDefinitionIndex = 2480;
+
 	class DomainNameHelper : public ::System::Object
 	{
 	public:

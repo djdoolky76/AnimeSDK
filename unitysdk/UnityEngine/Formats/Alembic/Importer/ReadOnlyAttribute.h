@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int ReadOnlyAttribute_TypeDefinitionIndex = 45888;
+
 	class ReadOnlyAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:

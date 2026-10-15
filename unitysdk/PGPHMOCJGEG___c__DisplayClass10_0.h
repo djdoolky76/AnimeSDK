@@ -6,6 +6,8 @@ namespace RPG::GameCore { class LevelLittleGameInfo; }
 #define PGPHMOCJGEG___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC2360D0)
 #define PGPHMOCJGEG___C__DISPLAYCLASS10_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0xC236730)
 
+inline static constexpr unsigned int PGPHMOCJGEG___c__DisplayClass10_0_TypeDefinitionIndex = 64207;
+
 	class PGPHMOCJGEG___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

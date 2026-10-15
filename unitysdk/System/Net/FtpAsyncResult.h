@@ -27,6 +27,8 @@ namespace System::Threading { class WaitHandle; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int FtpAsyncResult_TypeDefinitionIndex = 2837;
+
 	class FtpAsyncResult : public ::System::Object
 	{
 	public:

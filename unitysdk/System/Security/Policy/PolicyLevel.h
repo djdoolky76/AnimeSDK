@@ -12,6 +12,8 @@ namespace System::Security::Policy { class CodeGroup; }
 
 namespace System::Security::Policy
 {
+	inline static constexpr unsigned int PolicyLevel_TypeDefinitionIndex = 960;
+
 	class PolicyLevel : public ::System::Object
 	{
 	public:

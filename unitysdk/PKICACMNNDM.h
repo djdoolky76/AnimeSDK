@@ -4,6 +4,8 @@
 #include "unitysdk/RPG/GameCore/FiveDimCameraPriority.h"
 #include "unitysdk/RPG/GameCore/FiveDimLevelCameraType.h"
 
+inline static constexpr unsigned int PKICACMNNDM_TypeDefinitionIndex = 43253;
+
 	struct alignas(4) PKICACMNNDM
 	{
 		::RPG::GameCore::FiveDimCameraPriority NALMBOOCCIN; // 0x10

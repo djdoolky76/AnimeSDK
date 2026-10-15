@@ -18,6 +18,8 @@ namespace RPG::Client { class RogueWorkBenchAncientCoinTrade; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueWorkBenchAncientCoinTrade_TypeDefinitionIndex = 67351;
+
 	class RogueWorkBenchAncientCoinTrade : public ::System::Object
 	{
 	public:

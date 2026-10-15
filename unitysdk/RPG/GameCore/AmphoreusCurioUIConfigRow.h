@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AmphoreusCurioUIConfigRow_TypeDefinitionIndex = 11967;
+
 	class AmphoreusCurioUIConfigRow : public ::System::Object
 	{
 	public:

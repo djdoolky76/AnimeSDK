@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BDAFKFCMNCB_EBBGNFPNGFE_OFFSET UNITYSDK_OFFSET(0x1CCFAEB0)
 #define BDAFKFCMNCB_EFBEDKJGDII_OFFSET UNITYSDK_OFFSET(0x1CCFAEF0)
 
+inline static constexpr unsigned int BDAFKFCMNCB_TypeDefinitionIndex = 10639;
+
 	class BDAFKFCMNCB : public ::System::Object
 	{
 	public:

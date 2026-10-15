@@ -35,6 +35,8 @@ namespace System { class String; }
 #define LEGPFIAPLOO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E92F540)
 #define LEGPFIAPLOO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E92F5A0)
 
+inline static constexpr unsigned int LEGPFIAPLOO_TypeDefinitionIndex = 29478;
+
 	class LEGPFIAPLOO : public ::System::Object
 	{
 	public:

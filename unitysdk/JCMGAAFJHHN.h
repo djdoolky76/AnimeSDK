@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define JCMGAAFJHHN_GET_PARAMLIST_OFFSET UNITYSDK_OFFSET(0x165A7720)
 #define JCMGAAFJHHN_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x165A7710)
 
+inline static constexpr unsigned int JCMGAAFJHHN_TypeDefinitionIndex = 80096;
+
 	class JCMGAAFJHHN : public ::System::Object
 	{
 	public:

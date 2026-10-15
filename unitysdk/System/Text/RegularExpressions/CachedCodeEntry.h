@@ -12,6 +12,8 @@ namespace System::Text::RegularExpressions { class SharedReference; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int CachedCodeEntry_TypeDefinitionIndex = 2499;
+
 	class CachedCodeEntry : public ::System::Object
 	{
 	public:

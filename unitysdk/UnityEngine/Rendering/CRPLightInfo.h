@@ -10,6 +10,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CRPLightInfo_TypeDefinitionIndex = 4875;
+
 	struct alignas(4) CRPLightInfo
 	{
 		::UnityEngine::Rendering::GameLightType InternalLightType; // 0x10

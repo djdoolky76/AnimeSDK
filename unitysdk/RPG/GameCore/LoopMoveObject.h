@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoopMoveObject_TypeDefinitionIndex = 20429;
+
 	class LoopMoveObject : public ::RPG::GameCore::JsonConfig
 	{
 	public:

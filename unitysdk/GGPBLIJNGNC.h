@@ -8,6 +8,8 @@
 #define GGPBLIJNGNC_MIKLAEBGDPC_OFFSET UNITYSDK_OFFSET(0x2E7B490)
 #define GGPBLIJNGNC_SET_USEFULLSCREENBLOCK_OFFSET UNITYSDK_OFFSET(0xE7630)
 
+inline static constexpr unsigned int GGPBLIJNGNC_TypeDefinitionIndex = 80501;
+
 	struct alignas(4) GGPBLIJNGNC
 	{
 		::System::Boolean _UseFullScreenBlock_k__BackingField; // 0x10

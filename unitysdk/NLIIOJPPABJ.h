@@ -8,6 +8,8 @@ namespace UnityEngine { class Rigidbody; }
 #define NLIIOJPPABJ_HHCBBGLHFAN_OFFSET UNITYSDK_OFFSET(0x21AC0)
 #define NLIIOJPPABJ_HKELLKAAHNN_OFFSET UNITYSDK_OFFSET(0x21A60)
 
+inline static constexpr unsigned int NLIIOJPPABJ_TypeDefinitionIndex = 54756;
+
 	struct alignas(4) NLIIOJPPABJ
 	{
 		::System::Single COAELIHGAHH; // 0x10

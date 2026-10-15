@@ -6,6 +6,8 @@ namespace UnityEngine { class GameObject; }
 
 #define DPKGEGJBEFD_CTOR_OFFSET UNITYSDK_OFFSET(0x12658270)
 
+inline static constexpr unsigned int DPKGEGJBEFD_TypeDefinitionIndex = 57196;
+
 	class DPKGEGJBEFD : public ::System::Object
 	{
 	public:

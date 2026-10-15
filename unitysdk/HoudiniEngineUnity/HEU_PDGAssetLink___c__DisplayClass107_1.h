@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_PDGAssetLink___c__DisplayClass107_1_TypeDefinitionIndex = 40536;
+
 	template <typename T>
 	class HEU_PDGAssetLink___c__DisplayClass107_1 : public ::System::Object
 	{

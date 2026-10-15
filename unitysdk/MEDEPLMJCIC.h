@@ -8,6 +8,8 @@ class MEDEPLMJCIC;
 #define MEDEPLMJCIC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D14F800)
 #define MEDEPLMJCIC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D14F700)
 
+inline static constexpr unsigned int MEDEPLMJCIC_TypeDefinitionIndex = 19912;
+
 	class MEDEPLMJCIC : public ::RPG::GameCore::DamageByAttackProperty
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraBillboardController___c__DisplayClass18_0_TypeDefinitionIndex = 78469;
+
 	class ChimeraBillboardController___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:

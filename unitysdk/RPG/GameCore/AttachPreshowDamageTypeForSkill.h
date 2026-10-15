@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AttachPreshowDamageTypeForSkill_TypeDefinitionIndex = 22836;
+
 	class AttachPreshowDamageTypeForSkill : public ::RPG::GameCore::TaskConfig
 	{
 	public:

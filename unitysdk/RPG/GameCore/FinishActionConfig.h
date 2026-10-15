@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FinishActionConfig_TypeDefinitionIndex = 19014;
+
 	class FinishActionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

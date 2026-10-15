@@ -13,6 +13,8 @@ namespace System { class String; }
 #define KFLOFDNCIPO_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0xB3C5480)
 #define KFLOFDNCIPO_NDMBDGKAJEK_OFFSET UNITYSDK_OFFSET(0xB3C53B0)
 
+inline static constexpr unsigned int KFLOFDNCIPO_TypeDefinitionIndex = 65280;
+
 	class KFLOFDNCIPO : public ::HEOLKMLMPML
 	{
 	public:

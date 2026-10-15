@@ -4,6 +4,8 @@
 
 #define IRI_WALLCUSTOMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x16537AD0)
 
+inline static constexpr unsigned int IRI_WallCustomData_TypeDefinitionIndex = 47186;
+
 	class IRI_WallCustomData : public ::IRI_BaseWallCustomData
 	{
 	public:

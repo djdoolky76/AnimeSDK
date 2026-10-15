@@ -33,6 +33,8 @@ namespace System { class String; }
 #define FLFHACPLDJE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3B9AA0)
 #define FLFHACPLDJE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3B9B00)
 
+inline static constexpr unsigned int FLFHACPLDJE_TypeDefinitionIndex = 29180;
+
 	class FLFHACPLDJE : public ::System::Object
 	{
 	public:

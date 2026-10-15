@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int GoogleStadiaMacUnityProfile_TypeDefinitionIndex = 41014;
+
 	class GoogleStadiaMacUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

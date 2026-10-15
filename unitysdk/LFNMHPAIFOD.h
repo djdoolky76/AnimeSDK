@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define LFNMHPAIFOD_CCTOR_OFFSET UNITYSDK_OFFSET(0xB685BC0)
 #define LFNMHPAIFOD_MKGBADKMKBA_OFFSET UNITYSDK_OFFSET(0xB685B20)
 
+inline static constexpr unsigned int LFNMHPAIFOD_TypeDefinitionIndex = 72740;
+
 	class LFNMHPAIFOD : public ::System::Object
 	{
 	public:

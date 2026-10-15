@@ -6,6 +6,8 @@ class IKBAMHGDEJC;
 
 #define JHPCJGHOMOP_CTOR_OFFSET UNITYSDK_OFFSET(0xB1C9150)
 
+inline static constexpr unsigned int JHPCJGHOMOP_TypeDefinitionIndex = 71238;
+
 	class JHPCJGHOMOP : public ::System::Object
 	{
 	public:

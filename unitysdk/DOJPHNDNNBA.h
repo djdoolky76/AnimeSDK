@@ -9,6 +9,8 @@ namespace System { class Nullable; }
 #define DOJPHNDNNBA_HFKHAGNJGEA_OFFSET UNITYSDK_OFFSET(0x11FECF90)
 #define DOJPHNDNNBA_JLJDNFAAGFP_OFFSET UNITYSDK_OFFSET(0x11FED0C0)
 
+inline static constexpr unsigned int DOJPHNDNNBA_TypeDefinitionIndex = 81640;
+
 	class DOJPHNDNNBA : public ::System::Object
 	{
 	public:

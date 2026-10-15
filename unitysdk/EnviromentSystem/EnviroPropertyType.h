@@ -3,6 +3,8 @@
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int EnviroPropertyType_TypeDefinitionIndex = 49614;
+
 	enum class EnviroPropertyType : ::System::Int32
 	{
 		Float = 0,

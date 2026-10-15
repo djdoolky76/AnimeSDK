@@ -8,6 +8,8 @@ namespace System { class Action; }
 #define NKMEEIAEDDP___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBC3D130)
 #define NKMEEIAEDDP___C__DISPLAYCLASS0_0__ATTACHBUTTONTOENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xBC3E760)
 
+inline static constexpr unsigned int NKMEEIAEDDP___c__DisplayClass0_0_TypeDefinitionIndex = 76743;
+
 	class NKMEEIAEDDP___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

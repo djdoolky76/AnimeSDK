@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define FAJKMECFHKO_HCDBMMFEHHK_1_OFFSET UNITYSDK_OFFSET(0x15682230)
 #define FAJKMECFHKO_HCDBMMFEHHK_OFFSET UNITYSDK_OFFSET(0x156821A0)
 
+inline static constexpr unsigned int FAJKMECFHKO_TypeDefinitionIndex = 57458;
+
 	class FAJKMECFHKO : public ::System::Object
 	{
 	public:

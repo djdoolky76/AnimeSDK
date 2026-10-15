@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonMecanim_MecanimTranslator_IntEqualityComparer_TypeDefinitionIndex = 45041;
+
 	class SkeletonMecanim_MecanimTranslator_IntEqualityComparer : public ::System::Object
 	{
 	public:

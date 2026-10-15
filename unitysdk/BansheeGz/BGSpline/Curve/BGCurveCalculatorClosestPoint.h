@@ -12,6 +12,8 @@ namespace BansheeGz::BGSpline::Curve { class BGCurveBaseMath_SectionInfo; }
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGCurveCalculatorClosestPoint_TypeDefinitionIndex = 36005;
+
 	class BGCurveCalculatorClosestPoint : public ::System::Object
 	{
 	public:

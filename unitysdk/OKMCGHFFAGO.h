@@ -16,6 +16,8 @@ namespace System { class Object; }
 #define OKMCGHFFAGO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBEEDFD0)
 #define OKMCGHFFAGO___ONIDLELIVETEAMUPDATED_B__6_0_OFFSET UNITYSDK_OFFSET(0xBEEE180)
 
+inline static constexpr unsigned int OKMCGHFFAGO_TypeDefinitionIndex = 58175;
+
 	class OKMCGHFFAGO : public ::CMMNJAMJJCN
 	{
 	public:

@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+inline static constexpr unsigned int BHLEJLMBACE_TypeDefinitionIndex = 62159;
+
 	class BHLEJLMBACE : public ::System::Object
 	{
 	public:

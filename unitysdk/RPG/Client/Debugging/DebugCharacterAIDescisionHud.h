@@ -6,6 +6,8 @@
 
 namespace RPG::Client::Debugging
 {
+	inline static constexpr unsigned int DebugCharacterAIDescisionHud_TypeDefinitionIndex = 82130;
+
 	class DebugCharacterAIDescisionHud : public ::UnityEngine::MonoBehaviour
 	{
 	public:

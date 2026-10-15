@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JGHALBFPDLO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7396B0)
 #define JGHALBFPDLO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E739710)
 
+inline static constexpr unsigned int JGHALBFPDLO_TypeDefinitionIndex = 33386;
+
 	class JGHALBFPDLO : public ::System::Object
 	{
 	public:

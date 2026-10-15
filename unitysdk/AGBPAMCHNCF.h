@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AGBPAMCHNCF_FILTER_OFFSET UNITYSDK_OFFSET(0x1C881A40)
 #define AGBPAMCHNCF_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C881920)
 
+inline static constexpr unsigned int AGBPAMCHNCF_TypeDefinitionIndex = 42872;
+
 	class AGBPAMCHNCF
 	{
 	public:

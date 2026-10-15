@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MLNOEMIDHME___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA899C0)
 #define MLNOEMIDHME___C___CCTOR_B__99_0_OFFSET UNITYSDK_OFFSET(0x1EA899D0)
 
+inline static constexpr unsigned int MLNOEMIDHME___c_TypeDefinitionIndex = 34202;
+
 	class MLNOEMIDHME___c : public ::System::Object
 	{
 	public:

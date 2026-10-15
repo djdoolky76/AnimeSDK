@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WolfBroTeleportTiming; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WolfBroTeleportTiming_TypeDefinitionIndex = 21993;
+
 	class WolfBroTeleportTiming : public ::RPG::GameCore::TaskConfig
 	{
 	public:

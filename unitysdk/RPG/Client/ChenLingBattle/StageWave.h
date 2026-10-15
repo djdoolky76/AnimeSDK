@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChenLingStageWaveRow; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int StageWave_TypeDefinitionIndex = 76345;
+
 	class StageWave : public ::System::Object
 	{
 	public:

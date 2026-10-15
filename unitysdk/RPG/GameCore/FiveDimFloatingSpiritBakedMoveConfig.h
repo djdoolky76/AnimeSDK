@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimFloatingSpiritBakedMoveConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimFloatingSpiritBakedMoveConfig_TypeDefinitionIndex = 16680;
+
 	class FiveDimFloatingSpiritBakedMoveConfig : public ::RPG::GameCore::FiveDimPropBakedMoveConfig
 	{
 	public:

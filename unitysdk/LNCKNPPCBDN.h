@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimTrainEnergyGear; }
 #define LNCKNPPCBDN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D118DB0)
 #define LNCKNPPCBDN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D118D70)
 
+inline static constexpr unsigned int LNCKNPPCBDN_TypeDefinitionIndex = 21469;
+
 	class LNCKNPPCBDN : public ::RPG::GameCore::TaskConfig
 	{
 	public:

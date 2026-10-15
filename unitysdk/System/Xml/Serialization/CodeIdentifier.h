@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int CodeIdentifier_TypeDefinitionIndex = 1979;
+
 	class CodeIdentifier : public ::System::Object
 	{
 	public:

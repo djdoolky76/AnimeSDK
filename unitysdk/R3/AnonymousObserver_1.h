@@ -6,6 +6,8 @@ namespace System { class Exception; }
 
 namespace R3
 {
+	inline static constexpr unsigned int AnonymousObserver_1_TypeDefinitionIndex = 35923;
+
 	template <typename T>
 	class AnonymousObserver_1
 	{

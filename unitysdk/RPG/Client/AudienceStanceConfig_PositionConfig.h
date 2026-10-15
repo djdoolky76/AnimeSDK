@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AudienceStanceConfig_PositionConfig_TypeDefinitionIndex = 69160;
+
 	struct alignas(4) AudienceStanceConfig_PositionConfig
 	{
 		::UnityEngine::Vector2 position; // 0x10

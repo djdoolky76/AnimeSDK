@@ -4,6 +4,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { template <typename T1, typename T2> class Func_2; }
 
+inline static constexpr unsigned int AGFFMOLFPEF___O_TypeDefinitionIndex = 41750;
+
 	class AGFFMOLFPEF___O : public ::System::Object
 	{
 	public:

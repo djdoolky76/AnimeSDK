@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SwordTrainingUnlockRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwordTrainingUnlockRow_TypeDefinitionIndex = 12462;
+
 	class SwordTrainingUnlockRow : public ::System::Object
 	{
 	public:

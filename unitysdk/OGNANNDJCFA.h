@@ -23,6 +23,8 @@ namespace System { class Object; }
 #define OGNANNDJCFA_NPJCJHBJLHA_OFFSET UNITYSDK_OFFSET(0xBE5D2F0)
 #define OGNANNDJCFA_PHBFDPONIIN_OFFSET UNITYSDK_OFFSET(0xBE5CDD0)
 
+inline static constexpr unsigned int OGNANNDJCFA_TypeDefinitionIndex = 52420;
+
 	class OGNANNDJCFA : public ::LNHDPDCGLAG
 	{
 	public:

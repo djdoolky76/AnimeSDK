@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyModifierAddGridTypeWeightConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyModifierAddGridTypeWeightConfig_TypeDefinitionIndex = 18100;
+
 	class TrainPartyModifierAddGridTypeWeightConfig : public ::RPG::GameCore::TrainPartyModifierConfigBase
 	{
 	public:

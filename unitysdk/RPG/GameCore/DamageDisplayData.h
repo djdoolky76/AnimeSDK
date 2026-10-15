@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DamageDisplayData_TypeDefinitionIndex = 22577;
+
 	class DamageDisplayData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

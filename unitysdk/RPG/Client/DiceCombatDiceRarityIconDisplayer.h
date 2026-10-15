@@ -24,6 +24,8 @@ namespace UnityEngine::UI { class SmoothMask; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DiceCombatDiceRarityIconDisplayer_TypeDefinitionIndex = 63555;
+
 	class DiceCombatDiceRarityIconDisplayer : public ::System::Object
 	{
 	public:

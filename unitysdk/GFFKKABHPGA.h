@@ -97,6 +97,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define GFFKKABHPGA_POPMMDAMGGK_OFFSET UNITYSDK_OFFSET(0x1CA9BED0)
 #define GFFKKABHPGA_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x1CA96D40)
 
+inline static constexpr unsigned int GFFKKABHPGA_TypeDefinitionIndex = 42528;
+
 	class GFFKKABHPGA : public ::System::Object
 	{
 	public:

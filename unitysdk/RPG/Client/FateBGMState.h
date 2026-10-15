@@ -12,6 +12,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateBGMState_TypeDefinitionIndex = 64024;
+
 	class FateBGMState : public ::System::Object
 	{
 	public:

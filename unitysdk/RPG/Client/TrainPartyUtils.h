@@ -44,6 +44,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TrainPartyUtils_TypeDefinitionIndex = 68170;
+
 	class TrainPartyUtils : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ColorGradingMaskClip_TypeDefinitionIndex = 48467;
+
 	class ColorGradingMaskClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

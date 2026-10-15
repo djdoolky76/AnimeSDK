@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FCOPOELIDBD_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CDD87B0)
 #define FCOPOELIDBD_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CDD8090)
 
+inline static constexpr unsigned int FCOPOELIDBD_TypeDefinitionIndex = 11068;
+
 	class FCOPOELIDBD : public ::System::Object
 	{
 	public:

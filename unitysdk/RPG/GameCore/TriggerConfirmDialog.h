@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TriggerConfirmDialog; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerConfirmDialog_TypeDefinitionIndex = 21577;
+
 	class TriggerConfirmDialog : public ::RPG::GameCore::TaskConfig
 	{
 	public:

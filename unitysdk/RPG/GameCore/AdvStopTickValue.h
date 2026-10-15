@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvStopTickValue_TypeDefinitionIndex = 21027;
+
 	class AdvStopTickValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

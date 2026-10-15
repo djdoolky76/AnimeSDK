@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace RPG::Client::Pet
 {
+	inline static constexpr unsigned int PetLineup_TypeDefinitionIndex = 75686;
+
 	class PetLineup : public ::System::Object
 	{
 	public:

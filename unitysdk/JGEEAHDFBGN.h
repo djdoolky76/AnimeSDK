@@ -9,6 +9,8 @@ class JGEEAHDFBGN;
 #define JGEEAHDFBGN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D029180)
 #define JGEEAHDFBGN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D029140)
 
+inline static constexpr unsigned int JGEEAHDFBGN_TypeDefinitionIndex = 19944;
+
 	class JGEEAHDFBGN : public ::RPG::GameCore::TaskConfig
 	{
 	public:

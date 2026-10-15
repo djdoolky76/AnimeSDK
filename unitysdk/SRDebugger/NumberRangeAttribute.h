@@ -6,6 +6,8 @@
 
 namespace SRDebugger
 {
+	inline static constexpr unsigned int NumberRangeAttribute_TypeDefinitionIndex = 37959;
+
 	class NumberRangeAttribute : public ::System::Attribute
 	{
 	public:

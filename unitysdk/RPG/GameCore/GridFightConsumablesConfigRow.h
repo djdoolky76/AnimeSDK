@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GridFightConsumablesConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightConsumablesConfigRow_TypeDefinitionIndex = 13445;
+
 	class GridFightConsumablesConfigRow : public ::System::Object
 	{
 	public:

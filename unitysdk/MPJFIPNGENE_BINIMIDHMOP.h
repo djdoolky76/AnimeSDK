@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define MPJFIPNGENE_BINIMIDHMOP_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EC50630)
 #define MPJFIPNGENE_BINIMIDHMOP_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EC4FFE0)
 
+inline static constexpr unsigned int MPJFIPNGENE_BINIMIDHMOP_TypeDefinitionIndex = 44031;
+
 	class MPJFIPNGENE_BINIMIDHMOP : public ::System::MulticastDelegate
 	{
 	public:

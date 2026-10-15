@@ -38,6 +38,8 @@ namespace System::Security { class SecurityElement; }
 
 namespace Microsoft::Win32
 {
+	inline static constexpr unsigned int KeyHandler_TypeDefinitionIndex = 109;
+
 	class KeyHandler : public ::System::Object
 	{
 	public:

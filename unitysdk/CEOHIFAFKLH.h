@@ -16,6 +16,8 @@ namespace System { class String; }
 #define CEOHIFAFKLH__CUSTOMBINDVIEW_OFFSET UNITYSDK_OFFSET(0xC9EDDC0)
 #define CEOHIFAFKLH__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xC9EE390)
 
+inline static constexpr unsigned int CEOHIFAFKLH_TypeDefinitionIndex = 72751;
+
 	class CEOHIFAFKLH : public ::RPG::Client::UIController
 	{
 	public:

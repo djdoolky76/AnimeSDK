@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int RogueCollectionRatioAction_TypeDefinitionIndex = 78950;
+
 	class RogueCollectionRatioAction : public ::UnityEngine::MonoBehaviour
 	{
 	public:

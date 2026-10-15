@@ -25,6 +25,8 @@ namespace System { class String; }
 #define CDHHAGAANBG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E085080)
 #define CDHHAGAANBG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0850E0)
 
+inline static constexpr unsigned int CDHHAGAANBG_TypeDefinitionIndex = 32180;
+
 	class CDHHAGAANBG : public ::System::Object
 	{
 	public:

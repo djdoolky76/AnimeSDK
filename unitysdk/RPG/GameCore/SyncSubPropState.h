@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SyncSubPropState; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SyncSubPropState_TypeDefinitionIndex = 22128;
+
 	class SyncSubPropState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

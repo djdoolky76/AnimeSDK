@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int RedSamuraiAndroidUnityProfile_TypeDefinitionIndex = 40986;
+
 	class RedSamuraiAndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

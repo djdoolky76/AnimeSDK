@@ -7,6 +7,8 @@ namespace System { class String; }
 #define BKFGHKEMJJG_GET_ISANIMATORTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C8BC300)
 #define BKFGHKEMJJG_GET_OUTPUTTYPE_OFFSET UNITYSDK_OFFSET(0x1C8BC2F0)
 
+inline static constexpr unsigned int BKFGHKEMJJG_TypeDefinitionIndex = 43246;
+
 	class BKFGHKEMJJG : public ::System::Attribute
 	{
 	public:

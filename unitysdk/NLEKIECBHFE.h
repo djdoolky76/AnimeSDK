@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NLEKIECBHFE_GPLCMHDFMEK_OFFSET UNITYSDK_OFFSET(0xBC64F30)
 #define NLEKIECBHFE_IDFGDJEPFIK_OFFSET UNITYSDK_OFFSET(0xBC647A0)
 
+inline static constexpr unsigned int NLEKIECBHFE_TypeDefinitionIndex = 79163;
+
 	class NLEKIECBHFE : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ class OJNEALELKJB;
 #define OJNEALELKJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D28B080)
 #define OJNEALELKJB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D28ADF0)
 
+inline static constexpr unsigned int OJNEALELKJB_TypeDefinitionIndex = 12479;
+
 	class OJNEALELKJB : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ class JMMACJPIGDN;
 #define JMMACJPIGDN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D04B5E0)
 #define JMMACJPIGDN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D04B4F0)
 
+inline static constexpr unsigned int JMMACJPIGDN_TypeDefinitionIndex = 14089;
+
 	class JMMACJPIGDN : public ::System::Object
 	{
 	public:

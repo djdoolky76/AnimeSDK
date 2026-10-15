@@ -33,6 +33,8 @@ namespace System { class String; }
 #define KHCMPDLLMGP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8408A0)
 #define KHCMPDLLMGP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E840900)
 
+inline static constexpr unsigned int KHCMPDLLMGP_TypeDefinitionIndex = 34256;
+
 	class KHCMPDLLMGP : public ::System::Object
 	{
 	public:

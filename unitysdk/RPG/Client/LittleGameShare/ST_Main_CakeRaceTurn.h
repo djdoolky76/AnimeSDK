@@ -10,6 +10,8 @@ namespace RPG::Client::LittleGameShare { class ST_Main_CakeRaceTurn; }
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int ST_Main_CakeRaceTurn_TypeDefinitionIndex = 10331;
+
 	class ST_Main_CakeRaceTurn : public ::RPG::Client::LittleGameShare::LittleGameSTTaskConfig
 	{
 	public:

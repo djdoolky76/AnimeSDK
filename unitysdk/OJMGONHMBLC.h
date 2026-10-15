@@ -71,6 +71,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OJMGONHMBLC_SET__ALLSOURCEPROXY_OFFSET UNITYSDK_OFFSET(0xBEC2580)
 #define OJMGONHMBLC_SET__ALLSOURCESTACK_OFFSET UNITYSDK_OFFSET(0xBEC2560)
 
+inline static constexpr unsigned int OJMGONHMBLC_TypeDefinitionIndex = 74000;
+
 	class OJMGONHMBLC : public ::System::Object
 	{
 	public:

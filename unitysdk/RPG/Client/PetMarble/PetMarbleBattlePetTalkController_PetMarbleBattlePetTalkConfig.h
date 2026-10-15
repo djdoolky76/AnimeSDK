@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client::PetMarble
 {
+	inline static constexpr unsigned int PetMarbleBattlePetTalkController_PetMarbleBattlePetTalkConfig_TypeDefinitionIndex = 74704;
+
 	class PetMarbleBattlePetTalkController_PetMarbleBattlePetTalkConfig : public ::System::Object
 	{
 	public:

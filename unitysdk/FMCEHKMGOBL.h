@@ -4,6 +4,8 @@
 
 #define FMCEHKMGOBL_CTOR_OFFSET UNITYSDK_OFFSET(0x1584E080)
 
+inline static constexpr unsigned int FMCEHKMGOBL_TypeDefinitionIndex = 48656;
+
 	class FMCEHKMGOBL : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

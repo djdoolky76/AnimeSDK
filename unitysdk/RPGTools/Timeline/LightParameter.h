@@ -8,6 +8,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int LightParameter_TypeDefinitionIndex = 48439;
+
 	struct alignas(4) LightParameter
 	{
 		::System::Single intensity; // 0x10

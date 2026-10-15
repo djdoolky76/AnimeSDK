@@ -13,6 +13,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BGCurveShadowFollowMonoPlugin_TypeDefinitionIndex = 70357;
+
 	class BGCurveShadowFollowMonoPlugin
 	{
 	public:

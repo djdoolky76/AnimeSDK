@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Main_ElfWaiterSleep; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_ElfWaiterSleep_TypeDefinitionIndex = 21527;
+
 	class ST_Main_ElfWaiterSleep : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

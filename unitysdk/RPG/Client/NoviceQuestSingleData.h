@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ActivityNewbiePromoteRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NoviceQuestSingleData_TypeDefinitionIndex = 61647;
+
 	class NoviceQuestSingleData : public ::System::Object
 	{
 	public:

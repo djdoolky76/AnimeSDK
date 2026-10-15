@@ -3,6 +3,8 @@
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int ISet_1_TypeDefinitionIndex = 3055;
+
 	template <typename T>
 	class ISet_1
 	{

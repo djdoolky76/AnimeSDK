@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRTrackedCamera__GetVideoStreamTextureSize_TypeDefinitionIndex = 38948;
+
 	class IVRTrackedCamera__GetVideoStreamTextureSize : public ::System::MulticastDelegate
 	{
 	public:

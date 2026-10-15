@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_ByHasAdvBehaviorFlag___O_TypeDefinitionIndex = 20084;
+
 	class ST_ByHasAdvBehaviorFlag___O : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PropFastDeliverSetSimplifiedMode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropFastDeliverSetSimplifiedMode_TypeDefinitionIndex = 22151;
+
 	class PropFastDeliverSetSimplifiedMode : public ::RPG::GameCore::TaskConfig
 	{
 	public:

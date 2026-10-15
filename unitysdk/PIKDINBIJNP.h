@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PIKDINBIJNP_CTOR_OFFSET UNITYSDK_OFFSET(0xC26AE20)
 #define PIKDINBIJNP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC26AE50)
 
+inline static constexpr unsigned int PIKDINBIJNP_TypeDefinitionIndex = 53905;
+
 	class PIKDINBIJNP
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BLOBBPLCDDM_SET_LITTLEGAMEINSTANCE_OFFSET UNITYSDK_OFFSET(0xBA7FCF0)
 #define BLOBBPLCDDM_TICK_OFFSET UNITYSDK_OFFSET(0xBA7F8E0)
 
+inline static constexpr unsigned int BLOBBPLCDDM_TypeDefinitionIndex = 57301;
+
 	class BLOBBPLCDDM : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

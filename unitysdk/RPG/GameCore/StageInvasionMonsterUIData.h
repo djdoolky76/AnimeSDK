@@ -7,6 +7,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageInvasionMonsterUIData_TypeDefinitionIndex = 56180;
+
 	struct alignas(4) StageInvasionMonsterUIData
 	{
 		::System::UInt32 RuntimeID; // 0x10

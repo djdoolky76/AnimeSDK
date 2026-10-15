@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierAddExpConvertToCoinConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierAddExpConvertToCoinConfig_TypeDefinitionIndex = 19481;
+
 	class GridFightModifierAddExpConvertToCoinConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

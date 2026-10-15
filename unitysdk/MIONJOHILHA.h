@@ -8,6 +8,8 @@ namespace System { class String; }
 #define MIONJOHILHA_FAECKOBFFHC_OFFSET UNITYSDK_OFFSET(0xB960AC0)
 #define MIONJOHILHA_MHPBMOILMNG_OFFSET UNITYSDK_OFFSET(0xB960AE0)
 
+inline static constexpr unsigned int MIONJOHILHA_TypeDefinitionIndex = 55009;
+
 	class MIONJOHILHA : public ::System::Object
 	{
 	public:

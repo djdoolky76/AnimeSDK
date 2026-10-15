@@ -15,6 +15,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TutorialRaycaster_TypeDefinitionIndex = 69036;
+
 	class TutorialRaycaster : public ::UnityEngine::EventSystems::BaseRaycaster
 	{
 	public:

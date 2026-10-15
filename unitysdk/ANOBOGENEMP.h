@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define ANOBOGENEMP_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x158A0AE0)
 #define ANOBOGENEMP_INVOKE_OFFSET UNITYSDK_OFFSET(0x158A0A80)
 
+inline static constexpr unsigned int ANOBOGENEMP_TypeDefinitionIndex = 75668;
+
 	class ANOBOGENEMP : public ::System::MulticastDelegate
 	{
 	public:

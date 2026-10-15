@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EnableIsometricTeleport; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnableIsometricTeleport_TypeDefinitionIndex = 22208;
+
 	class EnableIsometricTeleport : public ::RPG::GameCore::TaskConfig
 	{
 	public:

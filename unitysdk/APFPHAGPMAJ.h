@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define APFPHAGPMAJ_IFAECDEFCHA_OFFSET UNITYSDK_OFFSET(0x15BA92E0)
 #define APFPHAGPMAJ_MFCFABPGFGB_OFFSET UNITYSDK_OFFSET(0x15BA9460)
 
+inline static constexpr unsigned int APFPHAGPMAJ_TypeDefinitionIndex = 69774;
+
 	class APFPHAGPMAJ : public ::System::Object
 	{
 	public:

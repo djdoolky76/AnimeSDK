@@ -31,6 +31,8 @@ namespace System { class String; }
 #define FCEHCMIGCNC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3441F0)
 #define FCEHCMIGCNC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E344250)
 
+inline static constexpr unsigned int FCEHCMIGCNC_TypeDefinitionIndex = 30418;
+
 	class FCEHCMIGCNC : public ::System::Object
 	{
 	public:

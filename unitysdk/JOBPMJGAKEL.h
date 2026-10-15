@@ -4,6 +4,8 @@
 
 #define JOBPMJGAKEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA6AF0)
 
+inline static constexpr unsigned int JOBPMJGAKEL_TypeDefinitionIndex = 42959;
+
 	class JOBPMJGAKEL : public ::System::Object
 	{
 	public:

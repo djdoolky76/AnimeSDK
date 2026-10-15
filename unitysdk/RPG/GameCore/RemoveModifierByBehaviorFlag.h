@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveModifierByBehaviorFlag_TypeDefinitionIndex = 23080;
+
 	class RemoveModifierByBehaviorFlag : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int HandheldWelcomeDialog___c_TypeDefinitionIndex = 8825;
+
 	class HandheldWelcomeDialog___c : public ::System::Object
 	{
 	public:

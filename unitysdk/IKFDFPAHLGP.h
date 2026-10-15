@@ -8,6 +8,8 @@ namespace RPG::Client { class UIController; }
 #define IKFDFPAHLGP_EFCPNPIACIK_OFFSET UNITYSDK_OFFSET(0x16487B70)
 #define IKFDFPAHLGP_IGLFJMACJNP_OFFSET UNITYSDK_OFFSET(0x16487A80)
 
+inline static constexpr unsigned int IKFDFPAHLGP_TypeDefinitionIndex = 73126;
+
 	class IKFDFPAHLGP : public ::System::Object
 	{
 	public:

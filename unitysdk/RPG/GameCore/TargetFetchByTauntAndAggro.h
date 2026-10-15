@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetFetchByTauntAndAggro_TypeDefinitionIndex = 23968;
+
 	class TargetFetchByTauntAndAggro : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:

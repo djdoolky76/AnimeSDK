@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MEMHGHMEBBM_MELGLBNFBPC_OFFSET UNITYSDK_OFFSET(0xB8E0F70)
 #define MEMHGHMEBBM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8E00F0)
 
+inline static constexpr unsigned int MEMHGHMEBBM_TypeDefinitionIndex = 58746;
+
 	class MEMHGHMEBBM
 	{
 	public:

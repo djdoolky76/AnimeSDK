@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AvatarColliderCameraConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarColliderCameraConfig_TypeDefinitionIndex = 16432;
+
 	class AvatarColliderCameraConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

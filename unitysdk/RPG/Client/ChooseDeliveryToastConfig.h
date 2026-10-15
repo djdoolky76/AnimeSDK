@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChooseDeliveryToastConfig_TypeDefinitionIndex = 63528;
+
 	class ChooseDeliveryToastConfig : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ class OPGCGKNDLOE;
 #define OPGCGKNDLOE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2BC610)
 #define OPGCGKNDLOE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2BC5D0)
 
+inline static constexpr unsigned int OPGCGKNDLOE_TypeDefinitionIndex = 24308;
+
 	class OPGCGKNDLOE : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace BansheeGz::BGSpline::Components
 {
+	inline static constexpr unsigned int BGCcWithCursorObject_TypeDefinitionIndex = 36062;
+
 	class BGCcWithCursorObject : public ::BansheeGz::BGSpline::Components::BGCcWithCursor
 	{
 	public:

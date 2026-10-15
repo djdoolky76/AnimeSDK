@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LogSamplerParamDefine_TypeDefinitionIndex = 18163;
+
 	class LogSamplerParamDefine : public ::RPG::GameCore::JsonConfig
 	{
 	public:

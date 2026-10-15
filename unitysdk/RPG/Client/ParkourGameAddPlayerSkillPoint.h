@@ -10,6 +10,8 @@ namespace RPG::Client { class ParkourGameAddPlayerSkillPoint; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ParkourGameAddPlayerSkillPoint_TypeDefinitionIndex = 10260;
+
 	class ParkourGameAddPlayerSkillPoint : public ::RPG::GameCore::TaskConfig
 	{
 	public:

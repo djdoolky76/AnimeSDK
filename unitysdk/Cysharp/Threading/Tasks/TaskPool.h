@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int TaskPool_TypeDefinitionIndex = 38219;
+
 	class TaskPool : public ::System::Object
 	{
 	public:

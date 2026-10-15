@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::CharacterStoryMove
 {
+	inline static constexpr unsigned int CharacterStoryMoveSequenceConfig_TypeDefinitionIndex = 48713;
+
 	class CharacterStoryMoveSequenceConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

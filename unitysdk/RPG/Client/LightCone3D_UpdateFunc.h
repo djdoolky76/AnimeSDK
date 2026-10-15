@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LightCone3D_UpdateFunc_TypeDefinitionIndex = 72969;
+
 	class LightCone3D_UpdateFunc : public ::System::MulticastDelegate
 	{
 	public:

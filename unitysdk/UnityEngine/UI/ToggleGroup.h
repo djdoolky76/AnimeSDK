@@ -20,6 +20,8 @@ namespace UnityEngine::UI { class Toggle; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int ToggleGroup_TypeDefinitionIndex = 6869;
+
 	class ToggleGroup : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int RSAPKCS1SignatureFormatter_TypeDefinitionIndex = 1081;
+
 	class RSAPKCS1SignatureFormatter : public ::System::Security::Cryptography::AsymmetricSignatureFormatter
 	{
 	public:

@@ -17,6 +17,8 @@
 #define PREFABCUSTOMSTATECONFIG_SET_CUSTOMOBJCOLOR_OFFSET UNITYSDK_OFFSET(0xC39BCC0)
 #define PREFABCUSTOMSTATECONFIG_SET_TERRAINRATEPEROBJ_OFFSET UNITYSDK_OFFSET(0xC39BEB0)
 
+inline static constexpr unsigned int PrefabCustomStateConfig_TypeDefinitionIndex = 47334;
+
 	class PrefabCustomStateConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveAvatarPromotionPropertyD
 #define IFPDAIALNLL_CTOR_OFFSET UNITYSDK_OFFSET(0x15F30B00)
 #define IFPDAIALNLL_EDGLFNBMGPD_OFFSET UNITYSDK_OFFSET(0x15F30B10)
 
+inline static constexpr unsigned int IFPDAIALNLL_TypeDefinitionIndex = 75114;
+
 	class IFPDAIALNLL : public ::OLBAIJKEIBM
 	{
 	public:

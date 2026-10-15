@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int BezierPoint_TypeDefinitionIndex = 44337;
+
 	struct alignas(4) BezierPoint
 	{
 		::UnityEngine::Vector3 position; // 0x10

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AHNLKBOKIEN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB88890)
 #define AHNLKBOKIEN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEB88D70)
 
+inline static constexpr unsigned int AHNLKBOKIEN_TypeDefinitionIndex = 53592;
+
 	class AHNLKBOKIEN : public ::CMMNJAMJJCN
 	{
 	public:

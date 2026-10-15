@@ -8,6 +8,8 @@ namespace RPG::Client { class ChallengeGroupData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengeModule___c__DisplayClass89_0_TypeDefinitionIndex = 63098;
+
 	class ChallengeModule___c__DisplayClass89_0 : public ::System::Object
 	{
 	public:

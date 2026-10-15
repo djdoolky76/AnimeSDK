@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierSetCountByDestructPropConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierSetCountByDestructPropConfig_TypeDefinitionIndex = 17716;
+
 	class RogueModifierSetCountByDestructPropConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

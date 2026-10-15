@@ -80,6 +80,8 @@ namespace UnityEngine::ProBuilder { class Vertex; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int Math_TypeDefinitionIndex = 44373;
+
 	class Math : public ::System::Object
 	{
 	public:

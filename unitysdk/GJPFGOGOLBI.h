@@ -15,6 +15,8 @@ class MNBNFBAMKKI;
 #define GJPFGOGOLBI_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0x15A824A0)
 #define GJPFGOGOLBI_PKHHFCJDKHD_OFFSET UNITYSDK_OFFSET(0x15A82500)
 
+inline static constexpr unsigned int GJPFGOGOLBI_TypeDefinitionIndex = 53779;
+
 	class GJPFGOGOLBI : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MultiPlayerActivityInfo_TypeDefinitionIndex = 61800;
+
 	class MultiPlayerActivityInfo : public ::System::Object
 	{
 	public:

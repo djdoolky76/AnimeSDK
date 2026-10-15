@@ -7,6 +7,8 @@ namespace System { class String; }
 #define ONNFKOHKGPO_CTOR_OFFSET UNITYSDK_OFFSET(0xBF5F870)
 #define ONNFKOHKGPO_PARSE_OFFSET UNITYSDK_OFFSET(0xBF5F800)
 
+inline static constexpr unsigned int ONNFKOHKGPO_TypeDefinitionIndex = 59933;
+
 	class ONNFKOHKGPO : public ::System::Object
 	{
 	public:

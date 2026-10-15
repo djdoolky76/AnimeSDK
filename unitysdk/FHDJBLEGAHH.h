@@ -4,6 +4,8 @@
 
 #define FHDJBLEGAHH_CTOR_OFFSET UNITYSDK_OFFSET(0x15775DD0)
 
+inline static constexpr unsigned int FHDJBLEGAHH_TypeDefinitionIndex = 61567;
+
 	class FHDJBLEGAHH : public ::System::Object
 	{
 	public:

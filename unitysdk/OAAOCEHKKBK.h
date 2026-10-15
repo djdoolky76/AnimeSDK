@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 #define OAAOCEHKKBK_LNKGPIDCNIN_OFFSET UNITYSDK_OFFSET(0xBD182E0)
 #define OAAOCEHKKBK_MHIPBMKDGDL_OFFSET UNITYSDK_OFFSET(0xBD18010)
 
+inline static constexpr unsigned int OAAOCEHKKBK_TypeDefinitionIndex = 76548;
+
 	class OAAOCEHKKBK : public ::System::Object
 	{
 	public:

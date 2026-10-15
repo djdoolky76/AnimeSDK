@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesLevelUnlockType_TypeDefinitionIndex = 12184;
+
 	enum class PlanetFesLevelUnlockType : ::System::Int32
 	{
 		None = 0,

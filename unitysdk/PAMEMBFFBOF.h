@@ -48,6 +48,8 @@ namespace UnityEngine { class Transform; }
 #define PAMEMBFFBOF__ONBIND_OFFSET UNITYSDK_OFFSET(0xBFD2330)
 #define PAMEMBFFBOF__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xBFD2B00)
 
+inline static constexpr unsigned int PAMEMBFFBOF_TypeDefinitionIndex = 71925;
+
 	class PAMEMBFFBOF : public ::CLAADCBPCHM
 	{
 	public:

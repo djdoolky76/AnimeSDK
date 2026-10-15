@@ -3,6 +3,8 @@
 #include "unitysdk/UnityChan/SpringColliderType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+inline static constexpr unsigned int JNIKNNFPBEJ_TypeDefinitionIndex = 47686;
+
 	struct alignas(4) JNIKNNFPBEJ
 	{
 		::UnityChan::SpringColliderType MPDOMNOHGJK; // 0x10

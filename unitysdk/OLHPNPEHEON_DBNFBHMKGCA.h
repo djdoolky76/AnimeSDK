@@ -8,6 +8,8 @@ namespace System { class String; }
 #define OLHPNPEHEON_DBNFBHMKGCA_CTOR_OFFSET UNITYSDK_OFFSET(0xBF0CA60)
 #define OLHPNPEHEON_DBNFBHMKGCA_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0xBF0CC10)
 
+inline static constexpr unsigned int OLHPNPEHEON_DBNFBHMKGCA_TypeDefinitionIndex = 65275;
+
 	class OLHPNPEHEON_DBNFBHMKGCA : public ::System::Object
 	{
 	public:

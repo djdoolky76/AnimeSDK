@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetFilterVolumeEnable; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetFilterVolumeEnable_TypeDefinitionIndex = 22254;
+
 	class SetFilterVolumeEnable : public ::RPG::GameCore::TaskConfig
 	{
 	public:

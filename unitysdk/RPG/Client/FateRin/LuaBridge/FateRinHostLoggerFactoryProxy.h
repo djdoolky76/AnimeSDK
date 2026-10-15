@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::LuaBridge
 {
+	inline static constexpr unsigned int FateRinHostLoggerFactoryProxy_TypeDefinitionIndex = 81034;
+
 	class FateRinHostLoggerFactoryProxy : public ::System::Object
 	{
 	public:

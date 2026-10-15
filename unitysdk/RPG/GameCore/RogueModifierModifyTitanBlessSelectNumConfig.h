@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyTitanBlessSelectNumConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyTitanBlessSelectNumConfig_TypeDefinitionIndex = 17747;
+
 	class RogueModifierModifyTitanBlessSelectNumConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

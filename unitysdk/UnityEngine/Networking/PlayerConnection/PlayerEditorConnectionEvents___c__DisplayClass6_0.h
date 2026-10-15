@@ -9,6 +9,8 @@ namespace UnityEngine::Networking::PlayerConnection { class PlayerEditorConnecti
 
 namespace UnityEngine::Networking::PlayerConnection
 {
+	inline static constexpr unsigned int PlayerEditorConnectionEvents___c__DisplayClass6_0_TypeDefinitionIndex = 4682;
+
 	class PlayerEditorConnectionEvents___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class VSBarWeatherUIConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VSBarWeatherUIConfig_TypeDefinitionIndex = 22793;
+
 	class VSBarWeatherUIConfig : public ::RPG::GameCore::WeatherUIBaseConfig
 	{
 	public:

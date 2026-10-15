@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
+	inline static constexpr unsigned int AccountList___c__DisplayClass51_0_TypeDefinitionIndex = 8435;
+
 	class AccountList___c__DisplayClass51_0 : public ::System::Object
 	{
 	public:

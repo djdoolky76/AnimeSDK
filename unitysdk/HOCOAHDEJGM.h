@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HOCOAHDEJGM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CECE830)
 #define HOCOAHDEJGM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CECE140)
 
+inline static constexpr unsigned int HOCOAHDEJGM_TypeDefinitionIndex = 12409;
+
 	class HOCOAHDEJGM : public ::System::Object
 	{
 	public:

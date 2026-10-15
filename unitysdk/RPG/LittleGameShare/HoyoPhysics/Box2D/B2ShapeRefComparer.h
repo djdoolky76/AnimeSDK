@@ -10,6 +10,8 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2ShapeRefComparer; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2ShapeRefComparer_TypeDefinitionIndex = 36768;
+
 	class B2ShapeRefComparer : public ::System::Object
 	{
 	public:

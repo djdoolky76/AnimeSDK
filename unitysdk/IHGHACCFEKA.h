@@ -13,6 +13,8 @@ namespace RPG::Client { class PipelineCameraGlobalConfig; }
 #define IHGHACCFEKA_NHEDINBLOIH_OFFSET UNITYSDK_OFFSET(0x1641E240)
 #define IHGHACCFEKA_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1641E520)
 
+inline static constexpr unsigned int IHGHACCFEKA_TypeDefinitionIndex = 69627;
+
 	class IHGHACCFEKA : public ::MDILEMALGNC
 	{
 	public:

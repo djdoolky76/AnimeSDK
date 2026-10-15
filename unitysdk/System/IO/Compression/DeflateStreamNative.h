@@ -29,6 +29,8 @@ namespace System::IO::Compression { class DeflateStreamNative_UnmanagedReadOrWri
 
 namespace System::IO::Compression
 {
+	inline static constexpr unsigned int DeflateStreamNative_TypeDefinitionIndex = 2720;
+
 	class DeflateStreamNative : public ::System::Object
 	{
 	public:

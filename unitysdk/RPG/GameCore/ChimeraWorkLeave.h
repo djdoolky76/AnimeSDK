@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraWorkLeave; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraWorkLeave_TypeDefinitionIndex = 15867;
+
 	class ChimeraWorkLeave : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{
 	public:

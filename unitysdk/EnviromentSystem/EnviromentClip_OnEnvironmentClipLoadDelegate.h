@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int EnviromentClip_OnEnvironmentClipLoadDelegate_TypeDefinitionIndex = 49584;
+
 	class EnviromentClip_OnEnvironmentClipLoadDelegate : public ::System::MulticastDelegate
 	{
 	public:

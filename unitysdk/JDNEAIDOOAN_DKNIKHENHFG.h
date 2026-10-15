@@ -6,6 +6,8 @@ class HGGENLBDAPM;
 
 #define JDNEAIDOOAN_DKNIKHENHFG_CTOR_OFFSET UNITYSDK_OFFSET(0x2E851A0)
 
+inline static constexpr unsigned int JDNEAIDOOAN_DKNIKHENHFG_TypeDefinitionIndex = 48941;
+
 	struct alignas(8) JDNEAIDOOAN_DKNIKHENHFG
 	{
 		::UnityEngine::Vector3 BBFOLEOPPPL; // 0x10

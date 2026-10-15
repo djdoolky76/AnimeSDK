@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int AKOBFMCEJKL_LABGODKGGEM_TypeDefinitionIndex = 72356;
+
 	struct alignas(4) AKOBFMCEJKL_LABGODKGGEM
 	{
 		::System::Boolean EMKFJOOPDKE; // 0x10

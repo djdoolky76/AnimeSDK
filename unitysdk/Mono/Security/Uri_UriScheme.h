@@ -6,6 +6,8 @@ namespace System { class String; }
 
 namespace Mono::Security
 {
+	inline static constexpr unsigned int Uri_UriScheme_TypeDefinitionIndex = 53;
+
 	struct alignas(8) Uri_UriScheme
 	{
 		::System::String* scheme; // 0x10

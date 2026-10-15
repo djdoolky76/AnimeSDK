@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriFsRequest_DoneDelegate_TypeDefinitionIndex = 40106;
+
 	class CriFsRequest_DoneDelegate : public ::System::MulticastDelegate
 	{
 	public:

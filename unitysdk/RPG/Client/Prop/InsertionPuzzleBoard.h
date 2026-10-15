@@ -78,6 +78,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int InsertionPuzzleBoard_TypeDefinitionIndex = 78624;
+
 	class InsertionPuzzleBoard : public ::RPG::Client::Prop::BlockScreenHexPuzzle
 	{
 	public:

@@ -34,6 +34,8 @@ namespace System { class String; }
 #define AMEJEFBKPCH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E51E270)
 #define AMEJEFBKPCH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E51E2D0)
 
+inline static constexpr unsigned int AMEJEFBKPCH_TypeDefinitionIndex = 34788;
+
 	class AMEJEFBKPCH : public ::System::Object
 	{
 	public:

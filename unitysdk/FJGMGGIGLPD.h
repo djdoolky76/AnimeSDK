@@ -25,6 +25,8 @@ namespace System { class String; }
 #define FJGMGGIGLPD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3A2CC0)
 #define FJGMGGIGLPD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3A2D20)
 
+inline static constexpr unsigned int FJGMGGIGLPD_TypeDefinitionIndex = 31682;
+
 	class FJGMGGIGLPD : public ::System::Object
 	{
 	public:

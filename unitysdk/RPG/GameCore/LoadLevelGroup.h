@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LoadLevelGroup; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoadLevelGroup_TypeDefinitionIndex = 22071;
+
 	class LoadLevelGroup : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -41,6 +41,8 @@ namespace System { class String; }
 #define ANPNPAOHJGA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6663A0)
 #define ANPNPAOHJGA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E666400)
 
+inline static constexpr unsigned int ANPNPAOHJGA_TypeDefinitionIndex = 26872;
+
 	class ANPNPAOHJGA : public ::System::Object
 	{
 	public:

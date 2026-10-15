@@ -18,6 +18,8 @@ namespace Mono::Net { class CFString; }
 
 namespace Mono::Net
 {
+	inline static constexpr unsigned int CFRunLoop_TypeDefinitionIndex = 2413;
+
 	class CFRunLoop : public ::Mono::Net::CFObject
 	{
 	public:

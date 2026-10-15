@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int MeshRenderData_TypeDefinitionIndex = 37904;
+
 	class MeshRenderData : public ::System::Object
 	{
 	public:

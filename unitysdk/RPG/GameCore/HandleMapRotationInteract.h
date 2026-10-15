@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HandleMapRotationInteract_TypeDefinitionIndex = 22303;
+
 	class HandleMapRotationInteract : public ::RPG::GameCore::TaskConfig
 	{
 	public:

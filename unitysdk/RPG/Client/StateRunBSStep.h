@@ -11,6 +11,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StateRunBSStep_TypeDefinitionIndex = 68841;
+
 	class StateRunBSStep : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:

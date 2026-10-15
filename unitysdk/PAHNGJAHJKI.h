@@ -37,6 +37,8 @@ namespace System::Collections::Immutable { template <typename T> class IImmutabl
 #define PAHNGJAHJKI_SET_INTEGRATIONAGGREGATOR_OFFSET UNITYSDK_OFFSET(0x1C57C860)
 #define PAHNGJAHJKI_SET_PIECEVALIDATOR_OFFSET UNITYSDK_OFFSET(0x1C57C840)
 
+inline static constexpr unsigned int PAHNGJAHJKI_TypeDefinitionIndex = 41829;
+
 	class PAHNGJAHJKI : public ::System::Object
 	{
 	public:

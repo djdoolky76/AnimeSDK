@@ -4,6 +4,8 @@
 
 #define IALELFFHPGO_CTOR_OFFSET UNITYSDK_OFFSET(0x15E19AA0)
 
+inline static constexpr unsigned int IALELFFHPGO_TypeDefinitionIndex = 81285;
+
 	class IALELFFHPGO : public ::System::Object
 	{
 	public:

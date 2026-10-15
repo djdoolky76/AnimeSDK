@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 #define OICJECAKIJG_CTOR_OFFSET UNITYSDK_OFFSET(0xBE76A80)
 
+inline static constexpr unsigned int OICJECAKIJG_TypeDefinitionIndex = 63747;
+
 	class OICJECAKIJG : public ::System::Object
 	{
 	public:

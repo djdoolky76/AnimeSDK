@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MAMINBCLDKO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9DC8B0)
 #define MAMINBCLDKO___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1E9DC8C0)
 
+inline static constexpr unsigned int MAMINBCLDKO___c_TypeDefinitionIndex = 30454;
+
 	class MAMINBCLDKO___c : public ::System::Object
 	{
 	public:

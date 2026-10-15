@@ -25,6 +25,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int TimeRewindParterrePuzzleBoard_TypeDefinitionIndex = 78908;
+
 	class TimeRewindParterrePuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

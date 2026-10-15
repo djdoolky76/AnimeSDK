@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
+	inline static constexpr unsigned int PayParentConsentSentDialog_TypeDefinitionIndex = 8419;
+
 	class PayParentConsentSentDialog : public ::System::Object
 	{
 	public:

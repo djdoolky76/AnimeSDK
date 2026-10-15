@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueFormulaInfo___c__DisplayClass29_0_TypeDefinitionIndex = 67220;
+
 	class RogueFormulaInfo___c__DisplayClass29_0 : public ::System::Object
 	{
 	public:

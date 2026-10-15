@@ -10,6 +10,8 @@ class JBACCAGFHON;
 #define IDFEIOLEDIG_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x15EC7520)
 #define IDFEIOLEDIG_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x15EC7810)
 
+inline static constexpr unsigned int IDFEIOLEDIG_TypeDefinitionIndex = 78129;
+
 	class IDFEIOLEDIG : public ::System::Object
 	{
 	public:

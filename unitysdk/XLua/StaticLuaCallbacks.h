@@ -1489,6 +1489,8 @@ namespace XLua::LuaDLL { class lua_CSFunction; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int StaticLuaCallbacks_TypeDefinitionIndex = 50259;
+
 	class StaticLuaCallbacks : public ::XLua::LuaCallbacks
 	{
 	public:

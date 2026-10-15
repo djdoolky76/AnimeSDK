@@ -6,6 +6,8 @@
 #define GNPLPKBLGBG_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x15B1F930)
 #define GNPLPKBLGBG_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x15B1F940)
 
+inline static constexpr unsigned int GNPLPKBLGBG_TypeDefinitionIndex = 74008;
+
 	class GNPLPKBLGBG : public ::HONIFDCKPFM
 	{
 	public:

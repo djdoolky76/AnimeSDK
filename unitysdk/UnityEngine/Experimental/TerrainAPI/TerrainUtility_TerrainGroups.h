@@ -5,6 +5,8 @@
 
 namespace UnityEngine::Experimental::TerrainAPI
 {
+	inline static constexpr unsigned int TerrainUtility_TerrainGroups_TypeDefinitionIndex = 5346;
+
 	class TerrainUtility_TerrainGroups
 	{
 	public:

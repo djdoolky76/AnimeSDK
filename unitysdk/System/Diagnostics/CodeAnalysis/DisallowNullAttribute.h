@@ -6,6 +6,8 @@
 
 namespace System::Diagnostics::CodeAnalysis
 {
+	inline static constexpr unsigned int DisallowNullAttribute_TypeDefinitionIndex = 7523;
+
 	class DisallowNullAttribute : public ::System::Attribute
 	{
 	public:

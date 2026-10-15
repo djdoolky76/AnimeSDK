@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define JABNLOAOIBH___C__GETCLIPANCHORINFO_B__12_0_OFFSET UNITYSDK_OFFSET(0x16540310)
 #define JABNLOAOIBH___C__GETCLIPANCHORINFO_B__12_1_OFFSET UNITYSDK_OFFSET(0x16540330)
 
+inline static constexpr unsigned int JABNLOAOIBH___c_TypeDefinitionIndex = 48478;
+
 	class JABNLOAOIBH___c : public ::System::Object
 	{
 	public:

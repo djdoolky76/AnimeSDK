@@ -23,6 +23,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginParticleFollow_TypeDefinitionIndex = 70088;
+
 	class MonoEffectPluginParticleFollow : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

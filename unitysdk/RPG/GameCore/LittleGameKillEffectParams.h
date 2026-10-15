@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameKillEffectParams_TypeDefinitionIndex = 18890;
+
 	class LittleGameKillEffectParams : public ::RPG::GameCore::JsonConfig
 	{
 	public:

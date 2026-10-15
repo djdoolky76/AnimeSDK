@@ -9,6 +9,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int TileLayoutUtils_TypeDefinitionIndex = 35612;
+
 	class TileLayoutUtils : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define HPLNOGAJHKC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5FD260)
 #define HPLNOGAJHKC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5FD2C0)
 
+inline static constexpr unsigned int HPLNOGAJHKC_TypeDefinitionIndex = 25469;
+
 	class HPLNOGAJHKC : public ::System::Object
 	{
 	public:

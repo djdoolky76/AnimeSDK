@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SysMailGotoConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SysMailGotoConfigRow_TypeDefinitionIndex = 15210;
+
 	class SysMailGotoConfigRow : public ::System::Object
 	{
 	public:

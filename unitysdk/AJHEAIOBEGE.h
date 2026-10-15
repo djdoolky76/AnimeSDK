@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AJHEAIOBEGE_DALCBAAGIHL_OFFSET UNITYSDK_OFFSET(0x12CBD290)
 #define AJHEAIOBEGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CBD190)
 
+inline static constexpr unsigned int AJHEAIOBEGE_TypeDefinitionIndex = 55062;
+
 	class AJHEAIOBEGE
 	{
 	public:

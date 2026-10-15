@@ -30,6 +30,8 @@ namespace System { class String; }
 #define DOIBLFFDHDG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2010C0)
 #define DOIBLFFDHDG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E201120)
 
+inline static constexpr unsigned int DOIBLFFDHDG_TypeDefinitionIndex = 28525;
+
 	class DOIBLFFDHDG : public ::System::Object
 	{
 	public:

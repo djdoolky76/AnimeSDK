@@ -10,6 +10,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define NMNNJBEGLIE___C__SETFORMATIONFORMULTITARGETS_B__6_0_OFFSET UNITYSDK_OFFSET(0xBC93D50)
 #define NMNNJBEGLIE___C__SETFORMATIONFORSINGLETARGET_B__5_0_OFFSET UNITYSDK_OFFSET(0xBC93CE0)
 
+inline static constexpr unsigned int NMNNJBEGLIE___c_TypeDefinitionIndex = 56424;
+
 	class NMNNJBEGLIE___c : public ::System::Object
 	{
 	public:

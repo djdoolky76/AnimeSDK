@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 #define KMGEHFEAMGM_SET_INDEX_OFFSET UNITYSDK_OFFSET(0xB5543D0)
 #define KMGEHFEAMGM__ONBIND_OFFSET UNITYSDK_OFFSET(0xB554330)
 
+inline static constexpr unsigned int KMGEHFEAMGM_TypeDefinitionIndex = 72216;
+
 	class KMGEHFEAMGM : public ::FMPCODLIOLG
 	{
 	public:

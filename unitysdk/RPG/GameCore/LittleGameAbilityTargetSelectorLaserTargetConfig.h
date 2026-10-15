@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameAbilityTargetSelectorLaserTargetConfig
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityTargetSelectorLaserTargetConfig_TypeDefinitionIndex = 21373;
+
 	class LittleGameAbilityTargetSelectorLaserTargetConfig : public ::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define IOFOKNJPJHL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16501250)
 #define IOFOKNJPJHL_RESETTODEFAULT_OFFSET UNITYSDK_OFFSET(0x165021A0)
 
+inline static constexpr unsigned int IOFOKNJPJHL_TypeDefinitionIndex = 57561;
+
 	class IOFOKNJPJHL : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

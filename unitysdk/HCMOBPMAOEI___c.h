@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HCMOBPMAOEI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E544050)
 #define HCMOBPMAOEI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E544060)
 
+inline static constexpr unsigned int HCMOBPMAOEI___c_TypeDefinitionIndex = 30426;
+
 	class HCMOBPMAOEI___c : public ::System::Object
 	{
 	public:

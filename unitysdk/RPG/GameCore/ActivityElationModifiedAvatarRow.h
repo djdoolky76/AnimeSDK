@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityElationModifiedAvatarRow_TypeDefinitionIndex = 11323;
+
 	class ActivityElationModifiedAvatarRow : public ::System::Object
 	{
 	public:

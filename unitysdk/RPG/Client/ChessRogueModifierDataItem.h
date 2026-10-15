@@ -19,6 +19,8 @@ namespace RPG::Client { class ChessRogueModifierSelectData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChessRogueModifierDataItem_TypeDefinitionIndex = 66966;
+
 	class ChessRogueModifierDataItem : public ::System::Object
 	{
 	public:

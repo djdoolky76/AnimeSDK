@@ -7,6 +7,8 @@
 
 namespace RPG::Client::LittleGame::PixAir
 {
+	inline static constexpr unsigned int PixAirEquipInteractionNotifyData_TypeDefinitionIndex = 77288;
+
 	class PixAirEquipInteractionNotifyData : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RtLevelGroupInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtLevelGroupInfo_TypeDefinitionIndex = 17344;
+
 	class RtLevelGroupInfo : public ::RPG::GameCore::RtLevelGroupInfoBase
 	{
 	public:

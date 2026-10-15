@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TutorialChangeLockTarget; }
 #define CBJKLGBIKFC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC4AEE30)
 #define CBJKLGBIKFC_TICK_OFFSET UNITYSDK_OFFSET(0xC4AEE80)
 
+inline static constexpr unsigned int CBJKLGBIKFC_TypeDefinitionIndex = 58815;
+
 	class CBJKLGBIKFC : public ::GELIALJDFBL
 	{
 	public:

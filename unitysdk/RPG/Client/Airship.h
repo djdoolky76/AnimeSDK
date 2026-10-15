@@ -68,6 +68,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Airship_TypeDefinitionIndex = 59785;
+
 	class Airship : public ::UnityEngine::MonoBehaviour
 	{
 	public:

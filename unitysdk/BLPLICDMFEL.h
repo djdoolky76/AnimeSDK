@@ -31,6 +31,8 @@ namespace System { class String; }
 #define BLPLICDMFEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E01CD70)
 #define BLPLICDMFEL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E01CDD0)
 
+inline static constexpr unsigned int BLPLICDMFEL_TypeDefinitionIndex = 30845;
+
 	class BLPLICDMFEL : public ::System::Object
 	{
 	public:

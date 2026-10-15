@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::UI
 {
+	inline static constexpr unsigned int Alert_OnAlertDelegate_TypeDefinitionIndex = 8396;
+
 	class Alert_OnAlertDelegate : public ::System::MulticastDelegate
 	{
 	public:

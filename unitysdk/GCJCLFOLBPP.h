@@ -32,6 +32,8 @@ namespace System { class String; }
 #define GCJCLFOLBPP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E43F7D0)
 #define GCJCLFOLBPP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E43F830)
 
+inline static constexpr unsigned int GCJCLFOLBPP_TypeDefinitionIndex = 28451;
+
 	class GCJCLFOLBPP : public ::System::Object
 	{
 	public:

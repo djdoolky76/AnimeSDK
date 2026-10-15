@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByComparePropType___O_TypeDefinitionIndex = 20317;
+
 	class ByComparePropType___O : public ::System::Object
 	{
 	public:

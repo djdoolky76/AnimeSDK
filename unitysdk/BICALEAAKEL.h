@@ -4,6 +4,8 @@
 
 #define BICALEAAKEL_CTOR_OFFSET UNITYSDK_OFFSET(0xB4950D0)
 
+inline static constexpr unsigned int BICALEAAKEL_TypeDefinitionIndex = 67791;
+
 	class BICALEAAKEL : public ::System::Object
 	{
 	public:

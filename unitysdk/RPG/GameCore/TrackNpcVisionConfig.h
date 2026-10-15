@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrackNpcVisionConfig_TypeDefinitionIndex = 16280;
+
 	class TrackNpcVisionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

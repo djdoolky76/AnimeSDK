@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KJIMFIHOAFM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E86E010)
 #define KJIMFIHOAFM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E86E070)
 
+inline static constexpr unsigned int KJIMFIHOAFM_TypeDefinitionIndex = 31133;
+
 	class KJIMFIHOAFM : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhotoGraphUtils___c__DisplayClass1_0_TypeDefinitionIndex = 69471;
+
 	class PhotoGraphUtils___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamTotalEquipCntConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamTotalEquipCntConfig_TypeDefinitionIndex = 19516;
+
 	class GridFightParamTotalEquipCntConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int Struct_TypeDefinitionIndex = 35747;
+
 	class Struct : public ::System::Object
 	{
 	public:

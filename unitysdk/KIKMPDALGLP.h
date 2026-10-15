@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define KIKMPDALGLP_ABHMCPCPPPP_OFFSET UNITYSDK_OFFSET(0xB432C90)
 #define KIKMPDALGLP_CTOR_OFFSET UNITYSDK_OFFSET(0xB433C40)
 
+inline static constexpr unsigned int KIKMPDALGLP_TypeDefinitionIndex = 77379;
+
 	class KIKMPDALGLP : public ::System::Object
 	{
 	public:

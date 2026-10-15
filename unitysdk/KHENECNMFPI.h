@@ -29,6 +29,8 @@ namespace System { class String; }
 #define KHENECNMFPI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E841340)
 #define KHENECNMFPI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8413A0)
 
+inline static constexpr unsigned int KHENECNMFPI_TypeDefinitionIndex = 26521;
+
 	class KHENECNMFPI : public ::System::Object
 	{
 	public:

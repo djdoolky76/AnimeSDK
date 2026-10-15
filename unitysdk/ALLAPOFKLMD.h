@@ -4,6 +4,8 @@
 
 #define ALLAPOFKLMD_CTOR_OFFSET UNITYSDK_OFFSET(0x1556F840)
 
+inline static constexpr unsigned int ALLAPOFKLMD_TypeDefinitionIndex = 81280;
+
 	class ALLAPOFKLMD : public ::System::Object
 	{
 	public:

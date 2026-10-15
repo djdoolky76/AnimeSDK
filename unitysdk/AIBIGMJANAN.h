@@ -8,6 +8,8 @@ namespace RPG::Client::Promises { class IPromise; }
 #define AIBIGMJANAN_GEHGMDLOPHM_OFFSET UNITYSDK_OFFSET(0xEB93FE0)
 #define AIBIGMJANAN_GNEMLAHPOFK_OFFSET UNITYSDK_OFFSET(0xEB93DE0)
 
+inline static constexpr unsigned int AIBIGMJANAN_TypeDefinitionIndex = 62783;
+
 	class AIBIGMJANAN : public ::BHPMNMMGLHI
 	{
 	public:

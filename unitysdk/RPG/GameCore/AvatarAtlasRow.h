@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AvatarAtlasRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarAtlasRow_TypeDefinitionIndex = 12701;
+
 	class AvatarAtlasRow : public ::System::Object
 	{
 	public:

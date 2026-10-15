@@ -20,6 +20,8 @@ namespace RPG::Client { class MonoTimelineControlGameLevelCell_TriggerConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTimelineControlGameLevelCell_TypeDefinitionIndex = 60436;
+
 	class MonoTimelineControlGameLevelCell : public ::UnityEngine::MonoBehaviour
 	{
 	public:

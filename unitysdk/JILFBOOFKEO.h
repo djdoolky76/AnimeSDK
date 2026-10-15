@@ -33,6 +33,8 @@ namespace System { class String; }
 #define JILFBOOFKEO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E74F800)
 #define JILFBOOFKEO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E74F860)
 
+inline static constexpr unsigned int JILFBOOFKEO_TypeDefinitionIndex = 27429;
+
 	class JILFBOOFKEO : public ::System::Object
 	{
 	public:

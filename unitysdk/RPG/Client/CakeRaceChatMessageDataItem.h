@@ -18,6 +18,8 @@ namespace RPG::GameCore { class CakeRaceMessageRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeRaceChatMessageDataItem_TypeDefinitionIndex = 63038;
+
 	class CakeRaceChatMessageDataItem : public ::System::Object
 	{
 	public:

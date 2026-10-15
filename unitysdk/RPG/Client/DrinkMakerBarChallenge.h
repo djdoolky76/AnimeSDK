@@ -20,6 +20,8 @@ namespace RPG::GameCore { class DrinkMakerChallengeRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DrinkMakerBarChallenge_TypeDefinitionIndex = 63589;
+
 	class DrinkMakerBarChallenge : public ::System::Object
 	{
 	public:

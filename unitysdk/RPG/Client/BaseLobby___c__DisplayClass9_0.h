@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BaseLobby___c__DisplayClass9_0_TypeDefinitionIndex = 65773;
+
 	class BaseLobby___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

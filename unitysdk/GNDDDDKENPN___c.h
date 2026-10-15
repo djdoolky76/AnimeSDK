@@ -12,6 +12,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define GNDDDDKENPN___C__REMOVEDIRECTORYREADONLYATTR_B__70_1_OFFSET UNITYSDK_OFFSET(0x1EC1B730)
 #define GNDDDDKENPN___C__SORTFILEBYNAME_B__103_0_OFFSET UNITYSDK_OFFSET(0x1EC1B740)
 
+inline static constexpr unsigned int GNDDDDKENPN___c_TypeDefinitionIndex = 35307;
+
 	class GNDDDDKENPN___c : public ::System::Object
 	{
 	public:

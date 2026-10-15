@@ -8,6 +8,8 @@ namespace RPG::GameCore { class CakeRaceActionApplyMoveStateInGridMoveDirection;
 #define NJGBONGOKEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C79AF90)
 #define NJGBONGOKEB_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C79AFA0)
 
+inline static constexpr unsigned int NJGBONGOKEB_TypeDefinitionIndex = 37377;
+
 	class NJGBONGOKEB : public ::GPLOFONGBGI
 	{
 	public:

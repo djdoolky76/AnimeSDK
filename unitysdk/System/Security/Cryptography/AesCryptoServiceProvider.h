@@ -27,6 +27,8 @@ namespace System::Security::Cryptography { class ICryptoTransform; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int AesCryptoServiceProvider_TypeDefinitionIndex = 3130;
+
 	class AesCryptoServiceProvider : public ::System::Security::Cryptography::Aes
 	{
 	public:

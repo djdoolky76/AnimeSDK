@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int DelegateHelpers___c_TypeDefinitionIndex = 3662;
+
 	class DelegateHelpers___c : public ::System::Object
 	{
 	public:

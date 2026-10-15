@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define CHBMLEKKNPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E4700)
 
+inline static constexpr unsigned int CHBMLEKKNPE_TypeDefinitionIndex = 42434;
+
 	class CHBMLEKKNPE : public ::System::Object
 	{
 	public:

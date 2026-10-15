@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActTriggerDialogueBattleConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActTriggerDialogueBattleConfig_TypeDefinitionIndex = 19637;
+
 	class RogueActTriggerDialogueBattleConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

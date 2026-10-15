@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoadRashGameModifier_AbilityMaxUsableCount_TypeDefinitionIndex = 10300;
+
 	class RoadRashGameModifier_AbilityMaxUsableCount : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:

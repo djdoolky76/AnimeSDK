@@ -9,6 +9,8 @@ namespace MiHoYo::SDK::UI::OS { class IAgeGateAgeAppealOptionDialog; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass31_1_TypeDefinitionIndex = 8726;
+
 	template <typename T>
 	class AgeGateManager___c__DisplayClass31_1 : public ::System::Object
 	{

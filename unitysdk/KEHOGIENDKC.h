@@ -32,6 +32,8 @@ namespace System { class String; }
 #define KEHOGIENDKC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E80A3A0)
 #define KEHOGIENDKC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E80A400)
 
+inline static constexpr unsigned int KEHOGIENDKC_TypeDefinitionIndex = 32213;
+
 	class KEHOGIENDKC : public ::System::Object
 	{
 	public:

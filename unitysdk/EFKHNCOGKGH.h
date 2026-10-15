@@ -11,6 +11,8 @@ namespace UnityEngine { class Collider; }
 #define EFKHNCOGKGH_MLJLMOFIJFL_OFFSET UNITYSDK_OFFSET(0x1CA4A5E0)
 #define EFKHNCOGKGH_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CA4A400)
 
+inline static constexpr unsigned int EFKHNCOGKGH_TypeDefinitionIndex = 43533;
+
 	class EFKHNCOGKGH : public ::NOOHPODHIAA
 	{
 	public:

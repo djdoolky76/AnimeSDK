@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetDynamicValueByRoguePassCell; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByRoguePassCell_TypeDefinitionIndex = 21791;
+
 	class SetDynamicValueByRoguePassCell : public ::RPG::GameCore::TaskConfig
 	{
 	public:

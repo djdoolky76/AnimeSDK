@@ -28,6 +28,8 @@ namespace System { class String; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int OptionalInputDeviceTransportType_TypeDefinitionIndex = 40907;
+
 	struct alignas(4) OptionalInputDeviceTransportType
 	{
 		::System::Boolean hasValue; // 0x10

@@ -10,6 +10,8 @@ namespace System::Reflection { class MethodBase; }
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int ArgInfo_TypeDefinitionIndex = 1297;
+
 	class ArgInfo : public ::System::Object
 	{
 	public:

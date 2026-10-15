@@ -14,6 +14,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int SingleFieldAccessor_TypeDefinitionIndex = 5574;
+
 	class SingleFieldAccessor : public ::Google::Protobuf::Reflection::FieldAccessorBase
 	{
 	public:

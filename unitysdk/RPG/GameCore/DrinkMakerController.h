@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DrinkMakerController_TypeDefinitionIndex = 21103;
+
 	class DrinkMakerController : public ::RPG::GameCore::TaskConfig
 	{
 	public:

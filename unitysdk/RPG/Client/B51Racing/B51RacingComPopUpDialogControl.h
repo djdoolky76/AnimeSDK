@@ -12,6 +12,8 @@ namespace RPG::Client::B51Racing { class B51RacingComPopUpDialogViewModel; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingComPopUpDialogControl_TypeDefinitionIndex = 81821;
+
 	class B51RacingComPopUpDialogControl : public ::Sofa::BaseSofaControl
 	{
 	public:

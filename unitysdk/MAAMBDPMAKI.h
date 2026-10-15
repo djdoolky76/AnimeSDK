@@ -6,6 +6,8 @@
 #define MAAMBDPMAKI_BPMGPFLHPLC_OFFSET UNITYSDK_OFFSET(0xB83D760)
 #define MAAMBDPMAKI_CTOR_OFFSET UNITYSDK_OFFSET(0xB83D7B0)
 
+inline static constexpr unsigned int MAAMBDPMAKI_TypeDefinitionIndex = 77033;
+
 	class MAAMBDPMAKI : public ::EGFGCOMABKB
 	{
 	public:

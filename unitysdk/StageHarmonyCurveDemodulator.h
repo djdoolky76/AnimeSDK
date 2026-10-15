@@ -7,6 +7,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define STAGEHARMONYCURVEDEMODULATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xE98D610)
 #define STAGEHARMONYCURVEDEMODULATOR_FCDECODOKAK_OFFSET UNITYSDK_OFFSET(0xE98D550)
 
+inline static constexpr unsigned int StageHarmonyCurveDemodulator_TypeDefinitionIndex = 47528;
+
 	class StageHarmonyCurveDemodulator
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MPPGBPFHKLP_CTOR_OFFSET UNITYSDK_OFFSET(0xBA45490)
 #define MPPGBPFHKLP_GICABFLDIPA_OFFSET UNITYSDK_OFFSET(0xBA45150)
 
+inline static constexpr unsigned int MPPGBPFHKLP_TypeDefinitionIndex = 77465;
+
 	class MPPGBPFHKLP : public ::LDCOFDFFPBD
 	{
 	public:

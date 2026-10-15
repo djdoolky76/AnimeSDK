@@ -10,6 +10,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarPathChangeEventListener_TypeDefinitionIndex = 71339;
+
 	class AvatarPathChangeEventListener : public ::UnityEngine::MonoBehaviour
 	{
 	public:

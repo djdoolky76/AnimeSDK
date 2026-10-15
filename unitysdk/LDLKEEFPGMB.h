@@ -16,6 +16,8 @@ namespace System { class String; }
 #define LDLKEEFPGMB_SET_RELEASETYPE_OFFSET UNITYSDK_OFFSET(0xB63C920)
 #define LDLKEEFPGMB_SET_SCHEDULEACTIVITYMODULEID_OFFSET UNITYSDK_OFFSET(0xB63C940)
 
+inline static constexpr unsigned int LDLKEEFPGMB_TypeDefinitionIndex = 66721;
+
 	class LDLKEEFPGMB : public ::System::Object
 	{
 	public:

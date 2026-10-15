@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IFNHPAKOANE_CTOR_OFFSET UNITYSDK_OFFSET(0x15F26E90)
 #define IFNHPAKOANE_IOKIHHEAJLL_OFFSET UNITYSDK_OFFSET(0x15F269B0)
 
+inline static constexpr unsigned int IFNHPAKOANE_TypeDefinitionIndex = 66635;
+
 	class IFNHPAKOANE : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define EIFBMCGPNMG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2A8430)
 #define EIFBMCGPNMG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2A8490)
 
+inline static constexpr unsigned int EIFBMCGPNMG_TypeDefinitionIndex = 31629;
+
 	class EIFBMCGPNMG : public ::System::Object
 	{
 	public:

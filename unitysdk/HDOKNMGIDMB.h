@@ -34,6 +34,8 @@ namespace System { class String; }
 #define HDOKNMGIDMB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E552C40)
 #define HDOKNMGIDMB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E552CA0)
 
+inline static constexpr unsigned int HDOKNMGIDMB_TypeDefinitionIndex = 25321;
+
 	class HDOKNMGIDMB : public ::System::Object
 	{
 	public:

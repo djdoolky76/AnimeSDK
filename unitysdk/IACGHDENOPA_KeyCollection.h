@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 class IACGHDENOPA;
 
+inline static constexpr unsigned int IACGHDENOPA_KeyCollection_TypeDefinitionIndex = 6329;
+
 	class IACGHDENOPA_KeyCollection : public ::System::Object
 	{
 	public:

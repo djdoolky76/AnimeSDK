@@ -29,6 +29,8 @@ namespace System { class String; }
 #define NIALCDGNNLC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB24E90)
 #define NIALCDGNNLC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB24EF0)
 
+inline static constexpr unsigned int NIALCDGNNLC_TypeDefinitionIndex = 30839;
+
 	class NIALCDGNNLC : public ::System::Object
 	{
 	public:

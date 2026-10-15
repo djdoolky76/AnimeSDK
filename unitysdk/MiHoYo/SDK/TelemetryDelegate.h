@@ -14,6 +14,8 @@ namespace MiHoYo::SDK { class TelemetryDelegate_StopKibanaDelegate; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int TelemetryDelegate_TypeDefinitionIndex = 7701;
+
 	class TelemetryDelegate : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchBattleArea_TypeDefinitionIndex = 23321;
+
 	class SwitchBattleArea : public ::RPG::GameCore::TaskConfig
 	{
 	public:

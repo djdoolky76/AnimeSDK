@@ -16,6 +16,8 @@ namespace UnityEngine { class CanvasGroup; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PerformanceRollingSubtitlesFadeController_TypeDefinitionIndex = 72853;
+
 	class PerformanceRollingSubtitlesFadeController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

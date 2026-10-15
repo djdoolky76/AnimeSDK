@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityThemeRow_TypeDefinitionIndex = 11213;
+
 	class ActivityThemeRow : public ::System::Object
 	{
 	public:

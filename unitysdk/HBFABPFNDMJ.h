@@ -8,6 +8,8 @@ namespace System { class Action; }
 #define HBFABPFNDMJ_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15BED720)
 #define HBFABPFNDMJ_TICK_OFFSET UNITYSDK_OFFSET(0x15BED8B0)
 
+inline static constexpr unsigned int HBFABPFNDMJ_TypeDefinitionIndex = 77657;
+
 	class HBFABPFNDMJ : public ::System::Object
 	{
 	public:

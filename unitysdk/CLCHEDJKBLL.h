@@ -33,6 +33,8 @@ namespace UnityEngine { class GameObject; }
 #define CLCHEDJKBLL_PBKMHGAGIMB_OFFSET UNITYSDK_OFFSET(0xD778920)
 #define CLCHEDJKBLL_SET_TIMESCALE_OFFSET UNITYSDK_OFFSET(0xD778DA0)
 
+inline static constexpr unsigned int CLCHEDJKBLL_TypeDefinitionIndex = 59818;
+
 	class CLCHEDJKBLL : public ::System::Object
 	{
 	public:

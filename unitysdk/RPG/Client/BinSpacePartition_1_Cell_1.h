@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BinSpacePartition_1_Cell_1_TypeDefinitionIndex = 35191;
+
 	template <typename T>
 	class BinSpacePartition_1_Cell_1 : public ::System::Object
 	{

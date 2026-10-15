@@ -6,6 +6,8 @@
 
 namespace Google::Protobuf
 {
+	inline static constexpr unsigned int Extension_TypeDefinitionIndex = 5371;
+
 	class Extension : public ::System::Object
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System { class Nullable; }
 #define KPMLCCHLLKG_SET_RARITY_OFFSET UNITYSDK_OFFSET(0xB5C1B90)
 #define KPMLCCHLLKG__GET_HANDLECLICKCOMMAND_B__18_0_OFFSET UNITYSDK_OFFSET(0xB5C1DE0)
 
+inline static constexpr unsigned int KPMLCCHLLKG_TypeDefinitionIndex = 79469;
+
 	class KPMLCCHLLKG : public ::System::Object
 	{
 	public:

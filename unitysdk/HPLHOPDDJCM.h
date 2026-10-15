@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define HPLHOPDDJCM_ONENUMBLOCKITEMS_OFFSET UNITYSDK_OFFSET(0x15DD1F30)
 #define HPLHOPDDJCM___N__0_OFFSET UNITYSDK_OFFSET(0x15DD2200)
 
+inline static constexpr unsigned int HPLHOPDDJCM_TypeDefinitionIndex = 59489;
+
 	class HPLHOPDDJCM : public ::EADIJOHAPHK
 	{
 	public:

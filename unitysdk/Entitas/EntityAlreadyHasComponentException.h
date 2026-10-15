@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace Entitas
 {
+	inline static constexpr unsigned int EntityAlreadyHasComponentException_TypeDefinitionIndex = 10006;
+
 	class EntityAlreadyHasComponentException : public ::Entitas::EntitasException
 	{
 	public:

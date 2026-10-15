@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Main_ElfCustomerProcessBill; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_ElfCustomerProcessBill_TypeDefinitionIndex = 21536;
+
 	class ST_Main_ElfCustomerProcessBill : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

@@ -5,6 +5,8 @@ class IJKJDMEMJND;
 
 #define DICAKOGDNAD_BEDEBOCHANL_OFFSET UNITYSDK_OFFSET(0xEBF06D0)
 
+inline static constexpr unsigned int DICAKOGDNAD_TypeDefinitionIndex = 60071;
+
 	class DICAKOGDNAD : public ::System::Object
 	{
 	public:

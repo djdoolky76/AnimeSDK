@@ -10,6 +10,8 @@ namespace RPG::GameCore { class HipplenIncidentStepConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HipplenIncidentStepConfig_TypeDefinitionIndex = 16803;
+
 	class HipplenIncidentStepConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

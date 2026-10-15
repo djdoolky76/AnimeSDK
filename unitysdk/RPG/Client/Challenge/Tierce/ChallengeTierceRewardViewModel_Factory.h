@@ -10,6 +10,8 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceRewardViewModel;
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceRewardViewModel_Factory_TypeDefinitionIndex = 81616;
+
 	class ChallengeTierceRewardViewModel_Factory : public ::System::Object
 	{
 	public:

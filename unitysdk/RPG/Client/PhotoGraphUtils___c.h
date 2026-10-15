@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhotoGraphUtils___c_TypeDefinitionIndex = 69464;
+
 	class PhotoGraphUtils___c : public ::System::Object
 	{
 	public:

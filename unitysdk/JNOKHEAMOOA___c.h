@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define JNOKHEAMOOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB291E00)
 #define JNOKHEAMOOA___C__EVALUATE_B__0_0_OFFSET UNITYSDK_OFFSET(0xB291E10)
 
+inline static constexpr unsigned int JNOKHEAMOOA___c_TypeDefinitionIndex = 64146;
+
 	class JNOKHEAMOOA___c : public ::System::Object
 	{
 	public:

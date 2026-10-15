@@ -32,6 +32,8 @@ namespace System { class String; }
 #define CACKKIOEOEF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E056220)
 #define CACKKIOEOEF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E056280)
 
+inline static constexpr unsigned int CACKKIOEOEF_TypeDefinitionIndex = 33219;
+
 	class CACKKIOEOEF : public ::System::Object
 	{
 	public:

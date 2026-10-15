@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LoopWaitEnterScene; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoopWaitEnterScene_TypeDefinitionIndex = 21185;
+
 	class LoopWaitEnterScene : public ::RPG::GameCore::TaskConfig
 	{
 	public:

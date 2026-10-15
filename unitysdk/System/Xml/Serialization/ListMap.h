@@ -19,6 +19,8 @@ namespace System::Xml::Serialization { class XmlTypeMapElementInfoList; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int ListMap_TypeDefinitionIndex = 2059;
+
 	class ListMap : public ::System::Xml::Serialization::ObjectMap
 	{
 	public:

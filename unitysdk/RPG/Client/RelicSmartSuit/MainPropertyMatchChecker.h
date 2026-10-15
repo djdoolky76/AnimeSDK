@@ -16,6 +16,8 @@ namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitResultRelicInfo; }
 
 namespace RPG::Client::RelicSmartSuit
 {
+	inline static constexpr unsigned int MainPropertyMatchChecker_TypeDefinitionIndex = 74391;
+
 	class MainPropertyMatchChecker : public ::System::Object
 	{
 	public:

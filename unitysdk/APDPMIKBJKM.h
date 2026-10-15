@@ -7,6 +7,8 @@ class OOCCBMLAELL;
 
 #define APDPMIKBJKM_CTOR_OFFSET UNITYSDK_OFFSET(0x15BA7D60)
 
+inline static constexpr unsigned int APDPMIKBJKM_TypeDefinitionIndex = 80591;
+
 	class APDPMIKBJKM : public ::System::Object
 	{
 	public:

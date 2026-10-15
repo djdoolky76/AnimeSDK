@@ -17,6 +17,8 @@ namespace RPG::Client::TrainParty { class TrainPartyPassengerData; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyMeetingPassengerCardInfo_TypeDefinitionIndex = 74331;
+
 	class TrainPartyMeetingPassengerCardInfo : public ::System::Object
 	{
 	public:

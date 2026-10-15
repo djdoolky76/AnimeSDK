@@ -44,6 +44,8 @@ namespace System { class Object; }
 #define NHJPHMBEDKM_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xBBC8CC0)
 #define NHJPHMBEDKM_PNJDAOLMAJL_OFFSET UNITYSDK_OFFSET(0xBBCE3F0)
 
+inline static constexpr unsigned int NHJPHMBEDKM_TypeDefinitionIndex = 69641;
+
 	class NHJPHMBEDKM : public ::MDILEMALGNC
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::TAUtils
 {
+	inline static constexpr unsigned int SimpleTransform_TypeDefinitionIndex = 73642;
+
 	struct alignas(4) SimpleTransform
 	{
 		::UnityEngine::Vector3 position; // 0x10

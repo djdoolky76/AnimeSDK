@@ -9,6 +9,8 @@
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int TimelineAsset_EditorSettings_TypeDefinitionIndex = 38794;
+
 	class TimelineAsset_EditorSettings : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Reflection { class MonoCMethod; }
 
 namespace System
 {
+	inline static constexpr unsigned int MonoTypeInfo_TypeDefinitionIndex = 376;
+
 	class MonoTypeInfo : public ::System::Object
 	{
 	public:

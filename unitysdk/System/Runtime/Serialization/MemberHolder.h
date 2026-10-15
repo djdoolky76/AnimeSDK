@@ -12,6 +12,8 @@ namespace System::Reflection { class MemberInfo; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int MemberHolder_TypeDefinitionIndex = 1107;
+
 	class MemberHolder : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace JetBrains::Annotations
 {
+	inline static constexpr unsigned int NotNullAttribute_TypeDefinitionIndex = 4009;
+
 	class NotNullAttribute : public ::System::Attribute
 	{
 	public:

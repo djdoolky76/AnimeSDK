@@ -31,6 +31,8 @@ namespace System { class String; }
 #define BEDLDBOAPPM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E922910)
 #define BEDLDBOAPPM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E922970)
 
+inline static constexpr unsigned int BEDLDBOAPPM_TypeDefinitionIndex = 26052;
+
 	class BEDLDBOAPPM : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace Cinemachine { class CinemachineTargetGroup; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int GroupWeightManipulator_TypeDefinitionIndex = 39862;
+
 	class GroupWeightManipulator : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class EvolveBuildMonsteCollectionRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EvolveBuildMonsteCollectionRow_TypeDefinitionIndex = 11404;
+
 	class EvolveBuildMonsteCollectionRow : public ::System::Object
 	{
 	public:

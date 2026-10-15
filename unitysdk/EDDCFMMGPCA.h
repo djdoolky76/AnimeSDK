@@ -11,6 +11,8 @@ namespace RPG::Client { class GridFightBonusResultData; }
 #define EDDCFMMGPCA_SET_TRAITEFFECTID_OFFSET UNITYSDK_OFFSET(0x13311CA0)
 #define EDDCFMMGPCA_SET_TRAITID_OFFSET UNITYSDK_OFFSET(0x13311C80)
 
+inline static constexpr unsigned int EDDCFMMGPCA_TypeDefinitionIndex = 64451;
+
 	class EDDCFMMGPCA : public ::System::Object
 	{
 	public:

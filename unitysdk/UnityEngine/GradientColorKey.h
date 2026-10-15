@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GradientColorKey_TypeDefinitionIndex = 4221;
+
 	struct alignas(4) GradientColorKey
 	{
 		::UnityEngine::Color color; // 0x10

@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int OUYAWindowsNativeProfile_TypeDefinitionIndex = 41315;
+
 	class OUYAWindowsNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

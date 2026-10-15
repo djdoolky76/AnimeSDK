@@ -18,6 +18,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int StoryPropAnimatorParamBehaviour_TypeDefinitionIndex = 48235;
+
 	class StoryPropAnimatorParamBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

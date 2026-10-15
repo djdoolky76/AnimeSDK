@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformDelayExecute_TypeDefinitionIndex = 22832;
+
 	class PerformDelayExecute : public ::RPG::GameCore::TaskConfig
 	{
 	public:

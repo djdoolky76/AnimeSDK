@@ -29,6 +29,8 @@ namespace System { class String; }
 #define BELCKPBEIOK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA64070)
 #define BELCKPBEIOK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA640D0)
 
+inline static constexpr unsigned int BELCKPBEIOK_TypeDefinitionIndex = 27144;
+
 	class BELCKPBEIOK : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AIRSHIPSUBWAYSCHEDULE_MLKOLOKHIKO_OFFSET UNITYSDK_OFFSET(0x15BC4680)
 #define AIRSHIPSUBWAYSCHEDULE_OHNAOCOEKKF_OFFSET UNITYSDK_OFFSET(0x15BC4700)
 
+inline static constexpr unsigned int AirShipSubwaySchedule_TypeDefinitionIndex = 47091;
+
 	class AirShipSubwaySchedule : public ::UnityEngine::ScriptableObject
 	{
 	public:

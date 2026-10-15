@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class Text; }
 #define MONODEBUGUI_START_OFFSET UNITYSDK_OFFSET(0xBA4CEA0)
 #define MONODEBUGUI_UPDATE_OFFSET UNITYSDK_OFFSET(0xBA4D0B0)
 
+inline static constexpr unsigned int MonoDebugUI_TypeDefinitionIndex = 47579;
+
 	class MonoDebugUI : public ::UnityEngine::MonoBehaviour
 	{
 	public:

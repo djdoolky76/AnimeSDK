@@ -8,6 +8,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client::TAUtils
 {
+	inline static constexpr unsigned int ComputeMaterial_TextureProperty_TypeDefinitionIndex = 73613;
+
 	class ComputeMaterial_TextureProperty : public ::System::Object
 	{
 	public:

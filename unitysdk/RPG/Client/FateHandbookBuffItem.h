@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateHandbookBuffItem_TypeDefinitionIndex = 64069;
+
 	class FateHandbookBuffItem : public ::System::Object
 	{
 	public:

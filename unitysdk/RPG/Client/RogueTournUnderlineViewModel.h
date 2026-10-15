@@ -14,6 +14,8 @@ namespace RPG::Client { class RogueTournUnderlineViewModel; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournUnderlineViewModel_TypeDefinitionIndex = 72919;
+
 	class RogueTournUnderlineViewModel : public ::System::Object
 	{
 	public:

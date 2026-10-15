@@ -4,6 +4,8 @@
 
 #define BPMADEEINBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DBAB0)
 
+inline static constexpr unsigned int BPMADEEINBP_TypeDefinitionIndex = 42825;
+
 	class BPMADEEINBP : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{
 	public:

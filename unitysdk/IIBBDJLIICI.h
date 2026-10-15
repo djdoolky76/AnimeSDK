@@ -60,6 +60,8 @@ namespace System::Text { class StringBuilder; }
 #define IIBBDJLIICI_PLDCOBOKHJC_OFFSET UNITYSDK_OFFSET(0x16430050)
 #define IIBBDJLIICI_PNKAMOJFPNK_OFFSET UNITYSDK_OFFSET(0x16431CB0)
 
+inline static constexpr unsigned int IIBBDJLIICI_TypeDefinitionIndex = 77285;
+
 	class IIBBDJLIICI : public ::System::Object
 	{
 	public:

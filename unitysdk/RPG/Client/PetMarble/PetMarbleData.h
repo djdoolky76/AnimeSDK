@@ -61,6 +61,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::PetMarble
 {
+	inline static constexpr unsigned int PetMarbleData_TypeDefinitionIndex = 74695;
+
 	class PetMarbleData : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ class MNCOPNHONHO;
 #define MDEHFBCFGAJ_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB8A2A50)
 #define MDEHFBCFGAJ_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xB8A2A10)
 
+inline static constexpr unsigned int MDEHFBCFGAJ_TypeDefinitionIndex = 76744;
+
 	class MDEHFBCFGAJ : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EmojiIconConfig_TypeDefinitionIndex = 62943;
+
 	class EmojiIconConfig : public ::System::Object
 	{
 	public:

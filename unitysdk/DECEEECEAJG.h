@@ -17,6 +17,8 @@ namespace Proto { class MonopolyActionResult; }
 #define DECEEECEAJG_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xE5022C0)
 #define DECEEECEAJG_TRIGGER_OFFSET UNITYSDK_OFFSET(0xE501FF0)
 
+inline static constexpr unsigned int DECEEECEAJG_TypeDefinitionIndex = 66246;
+
 	class DECEEECEAJG : public ::System::Object
 	{
 	public:

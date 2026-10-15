@@ -19,6 +19,8 @@ namespace RPG::GameCore { class PlanetFesLargeBonusMascotRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesLargeBonusEventData_TypeDefinitionIndex = 66554;
+
 	class PlanetFesLargeBonusEventData : public ::RPG::Client::PlanetFesBonusEventData
 	{
 	public:

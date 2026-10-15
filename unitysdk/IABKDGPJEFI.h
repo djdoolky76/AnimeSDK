@@ -25,6 +25,8 @@ namespace System { class String; }
 #define IABKDGPJEFI_PAFCMAMJENB_OFFSET UNITYSDK_OFFSET(0x15DFCC70)
 #define IABKDGPJEFI_PMGAIODGIIA_OFFSET UNITYSDK_OFFSET(0x15DFD2E0)
 
+inline static constexpr unsigned int IABKDGPJEFI_TypeDefinitionIndex = 80164;
+
 	class IABKDGPJEFI : public ::System::Object
 	{
 	public:

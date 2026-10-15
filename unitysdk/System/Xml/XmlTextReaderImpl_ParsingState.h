@@ -15,6 +15,8 @@ namespace System::Xml { class IDtdEntityInfo; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlTextReaderImpl_ParsingState_TypeDefinitionIndex = 1854;
+
 	struct alignas(8) XmlTextReaderImpl_ParsingState
 	{
 		::Il2CppArray<::System::Char>* chars; // 0x10

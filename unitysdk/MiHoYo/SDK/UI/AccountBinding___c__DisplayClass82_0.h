@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::UI
 {
+	inline static constexpr unsigned int AccountBinding___c__DisplayClass82_0_TypeDefinitionIndex = 8374;
+
 	class AccountBinding___c__DisplayClass82_0 : public ::System::Object
 	{
 	public:

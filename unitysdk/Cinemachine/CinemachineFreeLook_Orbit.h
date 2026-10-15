@@ -5,6 +5,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineFreeLook_Orbit_TypeDefinitionIndex = 39739;
+
 	struct alignas(4) CinemachineFreeLook_Orbit
 	{
 		::System::Single m_Height; // 0x10

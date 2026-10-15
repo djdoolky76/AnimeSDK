@@ -18,6 +18,8 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int EmoBlendShapeBlinkTrack_TypeDefinitionIndex = 48748;
+
 	class EmoBlendShapeBlinkTrack : public ::RPGTools::Timeline::Emotion::BaseEmoTrack
 	{
 	public:

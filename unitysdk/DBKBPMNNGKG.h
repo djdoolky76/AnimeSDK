@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DBKBPMNNGKG_HCOIJJKNAJF_OFFSET UNITYSDK_OFFSET(0xE228FC0)
 #define DBKBPMNNGKG_IFIDJPHDEHI_OFFSET UNITYSDK_OFFSET(0xE228B80)
 
+inline static constexpr unsigned int DBKBPMNNGKG_TypeDefinitionIndex = 79694;
+
 	class DBKBPMNNGKG : public ::System::Object
 	{
 	public:

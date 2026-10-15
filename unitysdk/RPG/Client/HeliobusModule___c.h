@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HeliobusModule___c_TypeDefinitionIndex = 65664;
+
 	class HeliobusModule___c : public ::System::Object
 	{
 	public:

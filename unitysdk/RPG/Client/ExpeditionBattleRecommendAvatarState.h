@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ExpeditionBattleRecommendAvatarState_TypeDefinitionIndex = 63947;
+
 	enum class ExpeditionBattleRecommendAvatarState : ::System::Int32
 	{
 		None = 0,

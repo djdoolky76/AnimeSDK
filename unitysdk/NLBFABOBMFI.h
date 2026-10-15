@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 #define NLBFABOBMFI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBC604F0)
 #define NLBFABOBMFI_PAHIDOMHIIB_OFFSET UNITYSDK_OFFSET(0xBC607B0)
 
+inline static constexpr unsigned int NLBFABOBMFI_TypeDefinitionIndex = 69868;
+
 	class NLBFABOBMFI : public ::RPG::Client::BehaviorBase
 	{
 	public:

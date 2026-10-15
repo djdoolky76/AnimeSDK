@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define BOOHMOLKDCA_FPDICBGPCDE_OFFSET UNITYSDK_OFFSET(0xC19A320)
 #define BOOHMOLKDCA_GEPMKGAJMNP_OFFSET UNITYSDK_OFFSET(0xC19A8F0)
 
+inline static constexpr unsigned int BOOHMOLKDCA_TypeDefinitionIndex = 71550;
+
 	class BOOHMOLKDCA : public ::System::Object
 	{
 	public:

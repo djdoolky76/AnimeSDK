@@ -71,6 +71,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Collections::Pooled
 {
+	inline static constexpr unsigned int ThrowHelper_TypeDefinitionIndex = 5134;
+
 	class ThrowHelper : public ::System::Object
 	{
 	public:

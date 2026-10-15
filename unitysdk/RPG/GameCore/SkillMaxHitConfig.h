@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SkillMaxHitConfig_TypeDefinitionIndex = 16529;
+
 	class SkillMaxHitConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

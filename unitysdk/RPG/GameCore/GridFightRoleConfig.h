@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightRoleConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightRoleConfig_TypeDefinitionIndex = 10552;
+
 	class GridFightRoleConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

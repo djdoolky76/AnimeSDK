@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicStreamAnalytics_TypeDefinitionIndex = 45849;
+
 	class AlembicStreamAnalytics : public ::System::Object
 	{
 	public:

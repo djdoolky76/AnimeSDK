@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int ECJAMIHNOFL_PBLLMNPNDEO_TypeDefinitionIndex = 33226;
+
 	enum class ECJAMIHNOFL_PBLLMNPNDEO : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

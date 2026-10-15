@@ -11,6 +11,8 @@ namespace RPG { class ReferencePool_RuntimeTypeHandleComparer; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int ReferencePool_RuntimeTypeHandleComparer_TypeDefinitionIndex = 5627;
+
 	class ReferencePool_RuntimeTypeHandleComparer : public ::System::Object
 	{
 	public:

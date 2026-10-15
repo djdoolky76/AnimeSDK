@@ -9,6 +9,8 @@ class JBAPFPNFAIE;
 #define JBAPFPNFAIE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D012200)
 #define JBAPFPNFAIE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D012080)
 
+inline static constexpr unsigned int JBAPFPNFAIE_TypeDefinitionIndex = 11976;
+
 	class JBAPFPNFAIE : public ::System::Object
 	{
 	public:

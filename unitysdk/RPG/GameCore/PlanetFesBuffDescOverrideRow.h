@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlanetFesBuffDescOverrideRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesBuffDescOverrideRow_TypeDefinitionIndex = 12280;
+
 	class PlanetFesBuffDescOverrideRow : public ::System::Object
 	{
 	public:

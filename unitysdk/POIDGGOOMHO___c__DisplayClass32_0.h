@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define POIDGGOOMHO___C__DISPLAYCLASS32_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC36A770)
 #define POIDGGOOMHO___C__DISPLAYCLASS32_0___SHOW_B__0_OFFSET UNITYSDK_OFFSET(0xC36B6F0)
 
+inline static constexpr unsigned int POIDGGOOMHO___c__DisplayClass32_0_TypeDefinitionIndex = 80238;
+
 	class POIDGGOOMHO___c__DisplayClass32_0 : public ::System::Object
 	{
 	public:

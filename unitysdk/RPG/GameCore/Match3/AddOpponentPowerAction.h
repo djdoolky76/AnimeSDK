@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class AddOpponentPowerAction; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int AddOpponentPowerAction_TypeDefinitionIndex = 24899;
+
 	class AddOpponentPowerAction : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TravelShipResetState; }
 #define ONDGLJGHLHG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBF4F5A0)
 #define ONDGLJGHLHG_TICK_OFFSET UNITYSDK_OFFSET(0xBF4F4C0)
 
+inline static constexpr unsigned int ONDGLJGHLHG_TypeDefinitionIndex = 53441;
+
 	class ONDGLJGHLHG : public ::GELIALJDFBL
 	{
 	public:

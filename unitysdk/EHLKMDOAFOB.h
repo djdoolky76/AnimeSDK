@@ -49,6 +49,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EHLKMDOAFOB_SET_FILLEDCOUNT_OFFSET UNITYSDK_OFFSET(0x154B1C50)
 #define EHLKMDOAFOB_SET_MAXCASTCOUNT_OFFSET UNITYSDK_OFFSET(0x154B1C30)
 
+inline static constexpr unsigned int EHLKMDOAFOB_TypeDefinitionIndex = 71869;
+
 	class EHLKMDOAFOB : public ::System::Object
 	{
 	public:

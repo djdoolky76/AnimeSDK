@@ -31,6 +31,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int ActiveMCVKeySnapshot_TypeDefinitionIndex = 25819;
+
 	class ActiveMCVKeySnapshot : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@ namespace UnityEngine { class ReflectionProbe; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int ReflectionProbeBlendInfo_TypeDefinitionIndex = 4718;
+
 	struct alignas(8) ReflectionProbeBlendInfo
 	{
 		::UnityEngine::ReflectionProbe* probe; // 0x10

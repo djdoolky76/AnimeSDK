@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FNNPBDDIJAG_EHGBLDIPCGL_OFFSET UNITYSDK_OFFSET(0x158903E0)
 #define FNNPBDDIJAG_GICABFLDIPA_OFFSET UNITYSDK_OFFSET(0x1588FE80)
 
+inline static constexpr unsigned int FNNPBDDIJAG_TypeDefinitionIndex = 77447;
+
 	class FNNPBDDIJAG : public ::FJNNEOKOCJD
 	{
 	public:

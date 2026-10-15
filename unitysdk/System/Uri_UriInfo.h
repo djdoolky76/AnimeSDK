@@ -9,6 +9,8 @@ namespace System { class Uri_MoreInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int Uri_UriInfo_TypeDefinitionIndex = 2463;
+
 	class Uri_UriInfo : public ::System::Object
 	{
 	public:

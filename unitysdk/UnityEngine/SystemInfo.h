@@ -206,6 +206,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int SystemInfo_TypeDefinitionIndex = 4393;
+
 	class SystemInfo : public ::System::Object
 	{
 	public:

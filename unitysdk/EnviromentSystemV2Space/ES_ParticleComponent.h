@@ -29,6 +29,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int ES_ParticleComponent_TypeDefinitionIndex = 49303;
+
 	class ES_ParticleComponent : public ::EnviromentSystemV2Space::PrefabPropertyComponent
 	{
 	public:

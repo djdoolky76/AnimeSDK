@@ -5,6 +5,8 @@
 
 #define NGCFJDEBCGH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C95A360)
 
+inline static constexpr unsigned int NGCFJDEBCGH_TypeDefinitionIndex = 42933;
+
 	class NGCFJDEBCGH : public ::System::Object
 	{
 	public:

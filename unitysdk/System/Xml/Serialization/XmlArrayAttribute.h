@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlArrayAttribute_TypeDefinitionIndex = 1999;
+
 	class XmlArrayAttribute : public ::System::Attribute
 	{
 	public:

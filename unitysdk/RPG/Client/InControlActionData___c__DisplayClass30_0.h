@@ -8,6 +8,8 @@ namespace InControl { class PlayerAction; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int InControlActionData___c__DisplayClass30_0_TypeDefinitionIndex = 61296;
+
 	class InControlActionData___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:

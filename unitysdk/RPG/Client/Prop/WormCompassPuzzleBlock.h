@@ -9,6 +9,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int WormCompassPuzzleBlock_TypeDefinitionIndex = 78922;
+
 	class WormCompassPuzzleBlock : public ::RPG::Client::Prop::WormCompassPuzzleStaticItemBase
 	{
 	public:

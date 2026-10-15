@@ -19,6 +19,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FKHGMHKFOID_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x157F5A40)
 #define FKHGMHKFOID_TICK_OFFSET UNITYSDK_OFFSET(0x157F5810)
 
+inline static constexpr unsigned int FKHGMHKFOID_TypeDefinitionIndex = 54145;
+
 	class FKHGMHKFOID
 	{
 	public:

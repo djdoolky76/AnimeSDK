@@ -6,6 +6,8 @@
 
 #define IOJLOPLDGDJ_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x16503210)
 
+inline static constexpr unsigned int IOJLOPLDGDJ_TypeDefinitionIndex = 75704;
+
 	class IOJLOPLDGDJ : public ::System::Object
 	{
 	public:

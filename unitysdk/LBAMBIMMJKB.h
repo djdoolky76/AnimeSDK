@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 #define LBAMBIMMJKB_JHKBGBMLBOI_OFFSET UNITYSDK_OFFSET(0xB5EAD90)
 #define LBAMBIMMJKB_SET_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB5EAE70)
 
+inline static constexpr unsigned int LBAMBIMMJKB_TypeDefinitionIndex = 73194;
+
 	class LBAMBIMMJKB : public ::System::Object
 	{
 	public:

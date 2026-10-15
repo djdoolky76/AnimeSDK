@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 #define CFHGNDLNPEB_NLMCDHNHMEL_OFFSET UNITYSDK_OFFSET(0xCC4BF60)
 #define CFHGNDLNPEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC4B900)
 
+inline static constexpr unsigned int CFHGNDLNPEB_TypeDefinitionIndex = 55210;
+
 	class CFHGNDLNPEB
 	{
 	public:

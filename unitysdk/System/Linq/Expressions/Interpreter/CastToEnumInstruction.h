@@ -9,6 +9,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int CastToEnumInstruction_TypeDefinitionIndex = 3657;
+
 	class CastToEnumInstruction : public ::System::Linq::Expressions::Interpreter::CastInstruction
 	{
 	public:

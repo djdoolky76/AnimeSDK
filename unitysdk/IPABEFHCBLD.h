@@ -10,6 +10,8 @@ class IPABEFHCBLD;
 #define IPABEFHCBLD_SET_DICEID_OFFSET UNITYSDK_OFFSET(0x1651C4D0)
 #define IPABEFHCBLD_SET_UNLOCKTIME_OFFSET UNITYSDK_OFFSET(0x1651C4F0)
 
+inline static constexpr unsigned int IPABEFHCBLD_TypeDefinitionIndex = 76077;
+
 	class IPABEFHCBLD : public ::System::Object
 	{
 	public:

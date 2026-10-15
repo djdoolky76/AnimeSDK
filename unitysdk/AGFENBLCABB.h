@@ -27,6 +27,8 @@ namespace System { class String; }
 #define AGFENBLCABB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E12B670)
 #define AGFENBLCABB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E12B6D0)
 
+inline static constexpr unsigned int AGFENBLCABB_TypeDefinitionIndex = 31392;
+
 	class AGFENBLCABB : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define JKELHPDPDMH_OIBKPJEGPOK_OFFSET UNITYSDK_OFFSET(0xB21A860)
 
+inline static constexpr unsigned int JKELHPDPDMH_TypeDefinitionIndex = 78786;
+
 	class JKELHPDPDMH : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int LayoutPropertyDataBase_TypeDefinitionIndex = 49365;
+
 	class LayoutPropertyDataBase : public ::EnviromentSystemV2Space::PropertyDataBase
 	{
 	public:

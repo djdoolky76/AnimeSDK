@@ -9,6 +9,8 @@ namespace UnityEngine::Playables { class INotification; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int TimeNotificationBehaviour_NotificationEntry_TypeDefinitionIndex = 38852;
+
 	struct alignas(8) TimeNotificationBehaviour_NotificationEntry
 	{
 		::System::Double time; // 0x10

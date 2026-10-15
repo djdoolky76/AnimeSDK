@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int Sequence_TypeDefinitionIndex = 39660;
+
 	class Sequence : public ::System::Object
 	{
 	public:

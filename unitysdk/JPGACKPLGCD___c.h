@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JPGACKPLGCD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7D2F60)
 #define JPGACKPLGCD___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E7D2F70)
 
+inline static constexpr unsigned int JPGACKPLGCD___c_TypeDefinitionIndex = 25361;
+
 	class JPGACKPLGCD___c : public ::System::Object
 	{
 	public:

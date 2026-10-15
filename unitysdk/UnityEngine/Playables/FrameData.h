@@ -20,6 +20,8 @@
 
 namespace UnityEngine::Playables
 {
+	inline static constexpr unsigned int FrameData_TypeDefinitionIndex = 4902;
+
 	struct alignas(4) FrameData
 	{
 		::System::UInt64 m_FrameID; // 0x10

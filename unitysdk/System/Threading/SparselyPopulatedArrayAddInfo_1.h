@@ -4,6 +4,8 @@ namespace System::Threading { template <typename T> class SparselyPopulatedArray
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int SparselyPopulatedArrayAddInfo_1_TypeDefinitionIndex = 804;
+
 	template <typename T>
 	struct alignas(8) SparselyPopulatedArrayAddInfo_1
 	{

@@ -49,6 +49,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KFBPMGMFPLG_OPCNDECFNGG_OFFSET UNITYSDK_OFFSET(0xB38E380)
 #define KFBPMGMFPLG_SET_CURRENTCHECKINGEMPLOYEEID_OFFSET UNITYSDK_OFFSET(0xB38A6D0)
 
+inline static constexpr unsigned int KFBPMGMFPLG_TypeDefinitionIndex = 80312;
+
 	class KFBPMGMFPLG : public ::System::Object
 	{
 	public:

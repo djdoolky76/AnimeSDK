@@ -9,6 +9,8 @@ namespace RPG::Client::BlindBox::Pool { class IBlindBoxPool; }
 
 namespace RPG::Client::BlindBox::Pool
 {
+	inline static constexpr unsigned int IBlindBoxPoolExtensions_TypeDefinitionIndex = 74948;
+
 	class IBlindBoxPoolExtensions : public ::System::Object
 	{
 	public:

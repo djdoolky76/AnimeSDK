@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EnableSmoothLoadBattle; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnableSmoothLoadBattle_TypeDefinitionIndex = 23324;
+
 	class EnableSmoothLoadBattle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

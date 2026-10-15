@@ -22,6 +22,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleAssetPreload_BattleEventAssetPreloadGroup_TypeDefinitionIndex = 59648;
+
 	class BattleAssetPreload_BattleEventAssetPreloadGroup : public ::RPG::Client::BattleAssetPreload_CharacterPreloadGroupBase
 	{
 	public:

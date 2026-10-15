@@ -15,6 +15,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoPathLightControl_TypeDefinitionIndex = 68614;
+
 	class MonoPathLightControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

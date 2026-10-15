@@ -11,6 +11,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftSettleProductSummaryCont
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftSettleProductSummaryControl_TypeDefinitionIndex = 80045;
+
 	class MechCraftSettleProductSummaryControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

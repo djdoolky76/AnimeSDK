@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SpritePresetsInFolder_TypeDefinitionIndex = 24423;
+
 	class SpritePresetsInFolder : public ::RPG::GameCore::JsonConfig
 	{
 	public:

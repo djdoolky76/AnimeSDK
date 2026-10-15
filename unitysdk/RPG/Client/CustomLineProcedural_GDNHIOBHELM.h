@@ -5,6 +5,8 @@ namespace UnityEngine { class LineRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CustomLineProcedural_GDNHIOBHELM_TypeDefinitionIndex = 70401;
+
 	struct alignas(8) CustomLineProcedural_GDNHIOBHELM
 	{
 		::UnityEngine::LineRenderer* ONEFCLJPGLE; // 0x10

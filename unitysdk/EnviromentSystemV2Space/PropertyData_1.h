@@ -4,6 +4,8 @@
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int PropertyData_1_TypeDefinitionIndex = 49383;
+
 	template <typename T>
 	class PropertyData_1 : public ::EnviromentSystemV2Space::PropertyDataBase
 	{

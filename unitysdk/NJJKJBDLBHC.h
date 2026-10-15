@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 #define NJJKJBDLBHC_STARTWITHTARGET_OFFSET UNITYSDK_OFFSET(0xBC19C50)
 #define NJJKJBDLBHC_STEP_OFFSET UNITYSDK_OFFSET(0xBC19F90)
 
+inline static constexpr unsigned int NJJKJBDLBHC_TypeDefinitionIndex = 73495;
+
 	class NJJKJBDLBHC : public ::CLFIGBPHLHI
 	{
 	public:

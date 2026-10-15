@@ -7,6 +7,8 @@ class ILDNJGBJGPF;
 #define ALBNIGBDDKI___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15560D80)
 #define ALBNIGBDDKI___C__DISPLAYCLASS3_0___CREATEFORSTORY_B__5_OFFSET UNITYSDK_OFFSET(0x155610E0)
 
+inline static constexpr unsigned int ALBNIGBDDKI___c__DisplayClass3_0_TypeDefinitionIndex = 81567;
+
 	class ALBNIGBDDKI___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

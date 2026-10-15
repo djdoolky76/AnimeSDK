@@ -28,6 +28,8 @@ namespace System { class String; }
 #define COGDEMPCLHA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E133210)
 #define COGDEMPCLHA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E133270)
 
+inline static constexpr unsigned int COGDEMPCLHA_TypeDefinitionIndex = 29486;
+
 	class COGDEMPCLHA : public ::System::Object
 	{
 	public:

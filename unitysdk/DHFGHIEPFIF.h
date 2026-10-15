@@ -38,6 +38,8 @@ namespace RPG::Client { class MapDef; }
 #define DHFGHIEPFIF_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xEBCDFC0)
 #define DHFGHIEPFIF_LABAJJDODJF_OFFSET UNITYSDK_OFFSET(0xEBCF320)
 
+inline static constexpr unsigned int DHFGHIEPFIF_TypeDefinitionIndex = 61169;
+
 	class DHFGHIEPFIF : public ::System::Object
 	{
 	public:

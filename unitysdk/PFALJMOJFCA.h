@@ -48,6 +48,8 @@ namespace System { class Object; }
 #define PFALJMOJFCA_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xC202D90)
 #define PFALJMOJFCA_PNDIJPAIHJG_OFFSET UNITYSDK_OFFSET(0xC2041B0)
 
+inline static constexpr unsigned int PFALJMOJFCA_TypeDefinitionIndex = 76971;
+
 	class PFALJMOJFCA : public ::OEAMAMLDKFC
 	{
 	public:

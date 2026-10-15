@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int LIKMDKALNNI_TypeDefinitionIndex = 31457;
+
 	enum class LIKMDKALNNI : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

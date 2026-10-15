@@ -6,6 +6,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DynamicValue_UnionValue_TypeDefinitionIndex = 10839;
+
 	struct alignas(4) DynamicValue_UnionValue
 	{
 		::System::Double doubleValue; // 0x10

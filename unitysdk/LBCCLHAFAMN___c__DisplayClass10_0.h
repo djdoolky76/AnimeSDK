@@ -7,6 +7,8 @@ class LBCCLHAFAMN;
 #define LBCCLHAFAMN___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB5F0AA0)
 #define LBCCLHAFAMN___C__DISPLAYCLASS10_0___UPDATESOLDIERSTATE_B__0_OFFSET UNITYSDK_OFFSET(0xB5F1970)
 
+inline static constexpr unsigned int LBCCLHAFAMN___c__DisplayClass10_0_TypeDefinitionIndex = 77967;
+
 	class LBCCLHAFAMN___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

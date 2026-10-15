@@ -6,6 +6,8 @@
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int RSAPKCS1SHA512SignatureDescription_TypeDefinitionIndex = 1068;
+
 	class RSAPKCS1SHA512SignatureDescription : public ::System::Security::Cryptography::RSAPKCS1SignatureDescription
 	{
 	public:

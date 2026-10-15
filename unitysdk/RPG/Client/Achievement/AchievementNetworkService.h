@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Achievement
 {
+	inline static constexpr unsigned int AchievementNetworkService_TypeDefinitionIndex = 82113;
+
 	class AchievementNetworkService : public ::BHPMNMMGLHI
 	{
 	public:

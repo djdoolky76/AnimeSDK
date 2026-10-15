@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int JSON_TypeDefinitionIndex = 40686;
+
 	class JSON : public ::System::Object
 	{
 	public:

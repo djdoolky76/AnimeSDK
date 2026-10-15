@@ -43,6 +43,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client::PetMarble
 {
+	inline static constexpr unsigned int PetMarbleMatchContext_TypeDefinitionIndex = 74697;
+
 	class PetMarbleMatchContext : public ::RPG::Client::ActivityMarble::MarblePVPMatchContext
 	{
 	public:

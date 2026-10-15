@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::Pet
 {
+	inline static constexpr unsigned int IPetInstanceRepositoryExtensions___c_TypeDefinitionIndex = 75652;
+
 	class IPetInstanceRepositoryExtensions___c : public ::System::Object
 	{
 	public:

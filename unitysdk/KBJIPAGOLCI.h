@@ -5,6 +5,8 @@ class KGHLIHCOLKE;
 
 #define KBJIPAGOLCI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB0E60)
 
+inline static constexpr unsigned int KBJIPAGOLCI_TypeDefinitionIndex = 43204;
+
 	class KBJIPAGOLCI : public ::System::Object
 	{
 	public:

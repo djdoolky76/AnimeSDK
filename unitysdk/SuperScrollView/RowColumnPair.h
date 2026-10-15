@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int RowColumnPair_TypeDefinitionIndex = 47633;
+
 	struct alignas(4) RowColumnPair
 	{
 		::System::Int32 mRow; // 0x10

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define FNDGNKPHLMP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3ED0C0)
 #define FNDGNKPHLMP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3ED120)
 
+inline static constexpr unsigned int FNDGNKPHLMP_TypeDefinitionIndex = 25509;
+
 	class FNDGNKPHLMP : public ::System::Object
 	{
 	public:

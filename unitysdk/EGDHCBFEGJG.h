@@ -58,6 +58,8 @@ namespace UnityEngine { class Transform; }
 #define EGDHCBFEGJG__ONBIND_OFFSET UNITYSDK_OFFSET(0x13A61E90)
 #define EGDHCBFEGJG__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x13A62A60)
 
+inline static constexpr unsigned int EGDHCBFEGJG_TypeDefinitionIndex = 72182;
+
 	class EGDHCBFEGJG : public ::CAOEEDDAPIK
 	{
 	public:

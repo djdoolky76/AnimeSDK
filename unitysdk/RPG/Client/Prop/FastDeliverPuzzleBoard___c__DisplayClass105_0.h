@@ -9,6 +9,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int FastDeliverPuzzleBoard___c__DisplayClass105_0_TypeDefinitionIndex = 78582;
+
 	class FastDeliverPuzzleBoard___c__DisplayClass105_0 : public ::System::Object
 	{
 	public:

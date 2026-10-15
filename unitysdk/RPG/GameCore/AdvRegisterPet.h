@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvRegisterPet; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvRegisterPet_TypeDefinitionIndex = 20941;
+
 	class AdvRegisterPet : public ::RPG::GameCore::TaskConfig
 	{
 	public:

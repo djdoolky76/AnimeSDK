@@ -8,6 +8,8 @@ namespace System::Reflection { class MemberInfo; }
 #define NAKENCHKLAJ_CCTOR_OFFSET UNITYSDK_OFFSET(0xBAA3480)
 #define NAKENCHKLAJ_OEPCGHPGFOK_OFFSET UNITYSDK_OFFSET(0xBAA2E60)
 
+inline static constexpr unsigned int NAKENCHKLAJ_TypeDefinitionIndex = 67243;
+
 	class NAKENCHKLAJ : public ::System::Object
 	{
 	public:

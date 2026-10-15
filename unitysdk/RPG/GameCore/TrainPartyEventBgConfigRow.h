@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyEventBgConfigRow_TypeDefinitionIndex = 15323;
+
 	class TrainPartyEventBgConfigRow : public ::System::Object
 	{
 	public:

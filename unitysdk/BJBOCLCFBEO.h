@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BJBOCLCFBEO_GET_PREDECESSORS_OFFSET UNITYSDK_OFFSET(0xB796B90)
 #define BJBOCLCFBEO_SET_ISENDVERTEX_OFFSET UNITYSDK_OFFSET(0xB796B80)
 
+inline static constexpr unsigned int BJBOCLCFBEO_TypeDefinitionIndex = 74540;
+
 	class BJBOCLCFBEO : public ::System::Object
 	{
 	public:

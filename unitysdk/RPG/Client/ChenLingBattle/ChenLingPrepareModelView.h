@@ -14,6 +14,8 @@ namespace UnityEngine { class MeshRenderer; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int ChenLingPrepareModelView_TypeDefinitionIndex = 76401;
+
 	class ChenLingPrepareModelView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

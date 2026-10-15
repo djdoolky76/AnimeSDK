@@ -14,6 +14,8 @@
 
 namespace System::Buffers::Text
 {
+	inline static constexpr unsigned int Utf8Formatter_TypeDefinitionIndex = 5004;
+
 	class Utf8Formatter : public ::System::Object
 	{
 	public:

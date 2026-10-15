@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define MMDJCDCBHAI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB9C07E0)
 #define MMDJCDCBHAI_TICK_OFFSET UNITYSDK_OFFSET(0xB9C0AD0)
 
+inline static constexpr unsigned int MMDJCDCBHAI_TypeDefinitionIndex = 53480;
+
 	class MMDJCDCBHAI : public ::GELIALJDFBL
 	{
 	public:

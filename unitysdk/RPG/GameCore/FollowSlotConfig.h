@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FollowSlotConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FollowSlotConfig_TypeDefinitionIndex = 15615;
+
 	class FollowSlotConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

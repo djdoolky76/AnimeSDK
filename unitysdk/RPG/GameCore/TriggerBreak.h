@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TriggerBreak; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerBreak_TypeDefinitionIndex = 22716;
+
 	class TriggerBreak : public ::RPG::GameCore::TaskConfig
 	{
 	public:

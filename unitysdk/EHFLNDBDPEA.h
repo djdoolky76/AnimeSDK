@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EHFLNDBDPEA_CTOR_OFFSET UNITYSDK_OFFSET(0x154A5300)
 #define EHFLNDBDPEA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x154A5370)
 
+inline static constexpr unsigned int EHFLNDBDPEA_TypeDefinitionIndex = 59254;
+
 	class EHFLNDBDPEA
 	{
 	public:

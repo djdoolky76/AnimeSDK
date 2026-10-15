@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define GHNPMFCIIGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15A2CA20)
 #define GHNPMFCIIGA___C__CREATEBETUPS_B__1_0_OFFSET UNITYSDK_OFFSET(0x15A2CA30)
 
+inline static constexpr unsigned int GHNPMFCIIGA___c_TypeDefinitionIndex = 66612;
+
 	class GHNPMFCIIGA___c : public ::System::Object
 	{
 	public:

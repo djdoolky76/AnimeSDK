@@ -29,6 +29,8 @@ namespace System { class String; }
 #define AODEGGFNDJP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E669EE0)
 #define AODEGGFNDJP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E669F40)
 
+inline static constexpr unsigned int AODEGGFNDJP_TypeDefinitionIndex = 28028;
+
 	class AODEGGFNDJP : public ::System::Object
 	{
 	public:

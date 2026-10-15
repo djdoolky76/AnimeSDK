@@ -18,6 +18,8 @@ namespace Entitas { class IGroup; }
 #define DGODIIEJKBA_NFAPABMBPIC_OFFSET UNITYSDK_OFFSET(0xE85AB80)
 #define DGODIIEJKBA_PPHCJICFGMH_OFFSET UNITYSDK_OFFSET(0xE859FA0)
 
+inline static constexpr unsigned int DGODIIEJKBA_TypeDefinitionIndex = 76662;
+
 	class DGODIIEJKBA : public ::System::Object
 	{
 	public:

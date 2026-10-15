@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int EventSourceException_TypeDefinitionIndex = 1711;
+
 	class EventSourceException : public ::System::Exception
 	{
 	public:

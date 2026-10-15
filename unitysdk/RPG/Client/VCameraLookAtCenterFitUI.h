@@ -9,6 +9,8 @@ namespace Cinemachine { class CinemachineVirtualCamera; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VCameraLookAtCenterFitUI_TypeDefinitionIndex = 68321;
+
 	class VCameraLookAtCenterFitUI : public ::UnityEngine::MonoBehaviour
 	{
 	public:

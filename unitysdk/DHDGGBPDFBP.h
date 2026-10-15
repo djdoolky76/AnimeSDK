@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define DHDGGBPDFBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA297B0)
 
+inline static constexpr unsigned int DHDGGBPDFBP_TypeDefinitionIndex = 42252;
+
 	class DHDGGBPDFBP : public ::System::Object
 	{
 	public:

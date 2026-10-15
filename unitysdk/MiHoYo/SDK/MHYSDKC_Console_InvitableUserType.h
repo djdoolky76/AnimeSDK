@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MHYSDKC_Console_InvitableUserType_TypeDefinitionIndex = 46161;
+
 	enum class MHYSDKC_Console_InvitableUserType : ::System::Int32
 	{
 		NotSet = 0,

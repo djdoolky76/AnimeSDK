@@ -29,6 +29,8 @@ namespace System { class String; }
 #define BAEKEIDLDCI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7B2CE0)
 #define BAEKEIDLDCI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7B2D40)
 
+inline static constexpr unsigned int BAEKEIDLDCI_TypeDefinitionIndex = 34260;
+
 	class BAEKEIDLDCI : public ::System::Object
 	{
 	public:

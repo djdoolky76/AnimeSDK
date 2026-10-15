@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameSubMissionCondition; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameSubMissionCondition_TypeDefinitionIndex = 18866;
+
 	class LittleGameSubMissionCondition : public ::RPG::GameCore::JsonConfig
 	{
 	public:

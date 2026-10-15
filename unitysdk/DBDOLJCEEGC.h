@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TravelShipFollowTo; }
 #define DBDOLJCEEGC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xDFDD0E0)
 #define DBDOLJCEEGC_TICK_OFFSET UNITYSDK_OFFSET(0xDFDCFB0)
 
+inline static constexpr unsigned int DBDOLJCEEGC_TypeDefinitionIndex = 53435;
+
 	class DBDOLJCEEGC : public ::GELIALJDFBL
 	{
 	public:

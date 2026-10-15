@@ -8,6 +8,8 @@
 
 namespace Spine
 {
+	inline static constexpr unsigned int TextureRegion_TypeDefinitionIndex = 39702;
+
 	class TextureRegion : public ::System::Object
 	{
 	public:

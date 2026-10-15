@@ -10,6 +10,8 @@ namespace System { class String; }
 #define GAMAMJKNNFK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE21760)
 #define GAMAMJKNNFK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE21330)
 
+inline static constexpr unsigned int GAMAMJKNNFK_TypeDefinitionIndex = 11310;
+
 	class GAMAMJKNNFK : public ::System::Object
 	{
 	public:

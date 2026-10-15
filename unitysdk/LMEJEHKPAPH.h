@@ -11,6 +11,8 @@ namespace System { class String; }
 #define LMEJEHKPAPH_CTOR_OFFSET UNITYSDK_OFFSET(0xB77C120)
 #define LMEJEHKPAPH_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0xB77C130)
 
+inline static constexpr unsigned int LMEJEHKPAPH_TypeDefinitionIndex = 67174;
+
 	class LMEJEHKPAPH : public ::System::Object
 	{
 	public:

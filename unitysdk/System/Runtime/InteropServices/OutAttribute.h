@@ -6,6 +6,8 @@
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int OutAttribute_TypeDefinitionIndex = 1417;
+
 	class OutAttribute : public ::System::Attribute
 	{
 	public:

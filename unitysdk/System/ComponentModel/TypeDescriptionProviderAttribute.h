@@ -10,6 +10,8 @@ namespace System { class Type; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int TypeDescriptionProviderAttribute_TypeDefinitionIndex = 2636;
+
 	class TypeDescriptionProviderAttribute : public ::System::Attribute
 	{
 	public:

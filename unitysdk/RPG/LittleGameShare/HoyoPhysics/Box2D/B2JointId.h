@@ -6,6 +6,8 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2World; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2JointId_TypeDefinitionIndex = 36698;
+
 	struct alignas(8) B2JointId
 	{
 		::System::Int32 index1; // 0x10

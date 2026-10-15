@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlayerCondInRogueTournModeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerCondInRogueTournModeConfig_TypeDefinitionIndex = 19562;
+
 	class PlayerCondInRogueTournModeConfig : public ::RPG::GameCore::PlayerCondConfigBase
 	{
 	public:

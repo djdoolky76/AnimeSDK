@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int OGANCPOAIIP_TypeDefinitionIndex = 11971;
+
 	enum class OGANCPOAIIP : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

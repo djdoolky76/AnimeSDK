@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MIPGDFDCKLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA444B0)
 #define MIPGDFDCKLE___C___CCTOR_B__72_0_OFFSET UNITYSDK_OFFSET(0x1EA444C0)
 
+inline static constexpr unsigned int MIPGDFDCKLE___c_TypeDefinitionIndex = 33341;
+
 	class MIPGDFDCKLE___c : public ::System::Object
 	{
 	public:

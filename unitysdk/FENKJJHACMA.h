@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 #define FENKJJHACMA_NGICNEMJFAG_OFFSET UNITYSDK_OFFSET(0x1572C5B0)
 #define FENKJJHACMA_ODEDLGMDAKG_OFFSET UNITYSDK_OFFSET(0x1572BF60)
 
+inline static constexpr unsigned int FENKJJHACMA_TypeDefinitionIndex = 80171;
+
 	class FENKJJHACMA : public ::System::Object
 	{
 	public:

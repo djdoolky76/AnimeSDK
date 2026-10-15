@@ -30,6 +30,8 @@ namespace UnityEngine { class SphereCollider; }
 #define GOHOKMDFJHL_MONODNDCLJI_OFFSET UNITYSDK_OFFSET(0x15B329E0)
 #define GOHOKMDFJHL_OHMHJFANEIF_OFFSET UNITYSDK_OFFSET(0x15B329A0)
 
+inline static constexpr unsigned int GOHOKMDFJHL_TypeDefinitionIndex = 60795;
+
 	class GOHOKMDFJHL : public ::System::Object
 	{
 	public:

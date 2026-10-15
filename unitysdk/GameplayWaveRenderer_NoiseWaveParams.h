@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int GameplayWaveRenderer_NoiseWaveParams_TypeDefinitionIndex = 47313;
+
 	struct alignas(4) GameplayWaveRenderer_NoiseWaveParams
 	{
 		::System::Single amplitude; // 0x10

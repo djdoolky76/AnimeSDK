@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GGBGDAFPGID_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E477CE0)
 #define GGBGDAFPGID_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E477D40)
 
+inline static constexpr unsigned int GGBGDAFPGID_TypeDefinitionIndex = 30188;
+
 	class GGBGDAFPGID : public ::System::Object
 	{
 	public:

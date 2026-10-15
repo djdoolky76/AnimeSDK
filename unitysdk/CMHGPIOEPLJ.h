@@ -13,6 +13,8 @@
 #define CMHGPIOEPLJ_GET_ROTATIONRATE_OFFSET UNITYSDK_OFFSET(0xDA348B0)
 #define CMHGPIOEPLJ_GET_USERACCELERATION_OFFSET UNITYSDK_OFFSET(0xDA34B20)
 
+inline static constexpr unsigned int CMHGPIOEPLJ_TypeDefinitionIndex = 68297;
+
 	class CMHGPIOEPLJ : public ::System::Object
 	{
 	public:

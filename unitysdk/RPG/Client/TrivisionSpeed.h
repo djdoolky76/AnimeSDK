@@ -14,6 +14,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TrivisionSpeed_TypeDefinitionIndex = 70710;
+
 	class TrivisionSpeed : public ::UnityEngine::MonoBehaviour
 	{
 	public:

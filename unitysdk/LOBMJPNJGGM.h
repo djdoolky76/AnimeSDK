@@ -5,6 +5,8 @@ namespace RPG::GameCore { class FiveDimPropMoveConfig; }
 
 #define LOBMJPNJGGM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C91E890)
 
+inline static constexpr unsigned int LOBMJPNJGGM_TypeDefinitionIndex = 43524;
+
 	class LOBMJPNJGGM : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::Client::LittleGameShare { class ST_CakeRaceByIdleCanEnterAIState;
 #define MJOOBPJDNAF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C74D080)
 #define MJOOBPJDNAF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C74D100)
 
+inline static constexpr unsigned int MJOOBPJDNAF_TypeDefinitionIndex = 36984;
+
 	class MJOOBPJDNAF
 	{
 	public:

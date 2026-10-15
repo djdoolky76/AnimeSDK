@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int UpdateTracker_TypeDefinitionIndex = 39853;
+
 	class UpdateTracker : public ::System::Object
 	{
 	public:

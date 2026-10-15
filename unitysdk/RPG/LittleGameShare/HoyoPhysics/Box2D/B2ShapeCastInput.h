@@ -5,6 +5,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2ShapeCastInput_TypeDefinitionIndex = 36762;
+
 	struct alignas(4) B2ShapeCastInput
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ShapeProxy proxy; // 0x10

@@ -6,6 +6,8 @@
 #define CLASS_284_DAB181C7365AA19B_METHOD_2_OFFSET UNITYSDK_OFFSET(0x148C63E0)
 #define CLASS_284_DAB181C7365AA19B_METHOD_OFFSET UNITYSDK_OFFSET(0x148C6A30)
 
+inline static constexpr unsigned int Class_284_DAB181C7365AA19B_TypeDefinitionIndex = 50604;
+
 	class Class_284_DAB181C7365AA19B : public ::System::Object
 	{
 	public:

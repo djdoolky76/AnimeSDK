@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingActivityPanelBridge_TypeDefinitionIndex = 81953;
+
 	class B51RacingActivityPanelBridge : public ::System::Object
 	{
 	public:

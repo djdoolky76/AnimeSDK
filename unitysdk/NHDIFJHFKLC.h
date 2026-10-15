@@ -33,6 +33,8 @@ namespace System { class String; }
 #define NHDIFJHFKLC_NHHJKCLMOPB_OFFSET UNITYSDK_OFFSET(0x1C798410)
 #define NHDIFJHFKLC_PMOKJAJHIAH_OFFSET UNITYSDK_OFFSET(0x1C799840)
 
+inline static constexpr unsigned int NHDIFJHFKLC_TypeDefinitionIndex = 37293;
+
 	class NHDIFJHFKLC : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int DebuggerStepThroughAttribute_TypeDefinitionIndex = 1573;
+
 	class DebuggerStepThroughAttribute : public ::System::Attribute
 	{
 	public:

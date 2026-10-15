@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NPOOPAFDNOO_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBD12B70)
 #define NPOOPAFDNOO_SET_REFRESHMDV_OFFSET UNITYSDK_OFFSET(0xBD136B0)
 
+inline static constexpr unsigned int NPOOPAFDNOO_TypeDefinitionIndex = 73845;
+
 	class NPOOPAFDNOO : public ::PAOIIOIGCOJ
 	{
 	public:

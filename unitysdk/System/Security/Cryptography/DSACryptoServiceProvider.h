@@ -20,6 +20,8 @@ namespace System { class Object; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int DSACryptoServiceProvider_TypeDefinitionIndex = 1076;
+
 	class DSACryptoServiceProvider : public ::System::Security::Cryptography::DSA
 	{
 	public:

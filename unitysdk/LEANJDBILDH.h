@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 #define LEANJDBILDH_NKFKBIGPJDB_OFFSET UNITYSDK_OFFSET(0xB64B440)
 #define LEANJDBILDH_PKOEHOGLCND_OFFSET UNITYSDK_OFFSET(0xB64B380)
 
+inline static constexpr unsigned int LEANJDBILDH_TypeDefinitionIndex = 77768;
+
 	class LEANJDBILDH : public ::System::Object
 	{
 	public:

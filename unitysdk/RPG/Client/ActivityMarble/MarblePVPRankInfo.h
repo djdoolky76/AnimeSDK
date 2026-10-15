@@ -27,6 +27,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarblePVPRankInfo_TypeDefinitionIndex = 76018;
+
 	class MarblePVPRankInfo : public ::System::Object
 	{
 	public:

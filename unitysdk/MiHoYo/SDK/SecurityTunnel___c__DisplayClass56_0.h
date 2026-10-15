@@ -8,6 +8,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass56_0_TypeDefinitionIndex = 46423;
+
 	class SecurityTunnel___c__DisplayClass56_0 : public ::System::Object
 	{
 	public:

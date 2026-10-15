@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelDialogPackInfo_TypeDefinitionIndex = 17236;
+
 	class LevelDialogPackInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

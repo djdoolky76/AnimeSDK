@@ -24,6 +24,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoUIPrefabLODLoader_TypeDefinitionIndex = 68981;
+
 	class MonoUIPrefabLODLoader : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client::TrainParty::BadgeWall
 {
+	inline static constexpr unsigned int TrainPartyBuildBadgeDetailViewModel_TypeDefinitionIndex = 74378;
+
 	class TrainPartyBuildBadgeDetailViewModel : public ::System::Object
 	{
 	public:

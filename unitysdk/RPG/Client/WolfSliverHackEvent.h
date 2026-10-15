@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfSliverHackEvent_TypeDefinitionIndex = 65185;
+
 	class WolfSliverHackEvent : public ::System::Object
 	{
 	public:

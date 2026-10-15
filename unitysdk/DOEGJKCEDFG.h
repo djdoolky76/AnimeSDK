@@ -6,6 +6,8 @@ namespace System { class Action; }
 
 #define DOEGJKCEDFG_CTOR_OFFSET UNITYSDK_OFFSET(0x11FE1630)
 
+inline static constexpr unsigned int DOEGJKCEDFG_TypeDefinitionIndex = 49646;
+
 	class DOEGJKCEDFG : public ::System::Object
 	{
 	public:

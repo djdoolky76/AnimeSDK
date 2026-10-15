@@ -6,6 +6,8 @@
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int MaskGenerationMethod_TypeDefinitionIndex = 1035;
+
 	class MaskGenerationMethod : public ::System::Object
 	{
 	public:

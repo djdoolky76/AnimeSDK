@@ -22,6 +22,8 @@ namespace UnityEngine::UI { class Slider; }
 #define KDFGFICBOGJ__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xB35C9D0)
 #define KDFGFICBOGJ__UNBINDVIEW_OFFSET UNITYSDK_OFFSET(0xB35CB30)
 
+inline static constexpr unsigned int KDFGFICBOGJ_TypeDefinitionIndex = 72312;
+
 	class KDFGFICBOGJ : public ::RPG::Client::UIController
 	{
 	public:

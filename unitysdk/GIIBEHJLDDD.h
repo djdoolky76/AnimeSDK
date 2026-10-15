@@ -9,6 +9,8 @@ namespace System { class String; }
 #define GIIBEHJLDDD_UNRESOLVE_OFFSET UNITYSDK_OFFSET(0x15A394F0)
 #define GIIBEHJLDDD__RESOLVE_OFFSET UNITYSDK_OFFSET(0x15A393D0)
 
+inline static constexpr unsigned int GIIBEHJLDDD_TypeDefinitionIndex = 56522;
+
 	class GIIBEHJLDDD
 	{
 	public:

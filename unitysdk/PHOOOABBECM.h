@@ -6,6 +6,8 @@ namespace RPG::Client { class RogueTournPersonaStyleExpChangeParam; }
 #define PHOOOABBECM_CTOR_OFFSET UNITYSDK_OFFSET(0xC259640)
 #define PHOOOABBECM_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xC259650)
 
+inline static constexpr unsigned int PHOOOABBECM_TypeDefinitionIndex = 67045;
+
 	class PHOOOABBECM : public ::System::Object
 	{
 	public:

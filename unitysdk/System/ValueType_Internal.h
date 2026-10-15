@@ -4,6 +4,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int ValueType_Internal_TypeDefinitionIndex = 451;
+
 	class ValueType_Internal : public ::System::Object
 	{
 	public:

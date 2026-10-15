@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace Collections::Pooled
 {
+	inline static constexpr unsigned int HashHelpers_TypeDefinitionIndex = 5090;
+
 	class HashHelpers : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HEIMBHMBDAC_ODILFILGIKH_OFFSET UNITYSDK_OFFSET(0x15C54420)
 #define HEIMBHMBDAC_PLEAMMAFDMM_OFFSET UNITYSDK_OFFSET(0x15C54AB0)
 
+inline static constexpr unsigned int HEIMBHMBDAC_TypeDefinitionIndex = 60163;
+
 	class HEIMBHMBDAC : public ::NEKAOEFLAMO
 	{
 	public:

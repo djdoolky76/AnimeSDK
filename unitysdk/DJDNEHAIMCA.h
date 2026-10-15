@@ -31,6 +31,8 @@ namespace RPG::Client { class ChenLingFesStageData; }
 #define DJDNEHAIMCA_SET_STAGEDATAREF_OFFSET UNITYSDK_OFFSET(0xF22E7C0)
 #define DJDNEHAIMCA_SET_TOTALSCORE_OFFSET UNITYSDK_OFFSET(0xF22E800)
 
+inline static constexpr unsigned int DJDNEHAIMCA_TypeDefinitionIndex = 61467;
+
 	class DJDNEHAIMCA : public ::System::Object
 	{
 	public:

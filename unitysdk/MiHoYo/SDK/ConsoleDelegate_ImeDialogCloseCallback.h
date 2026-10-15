@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_ImeDialogCloseCallback_TypeDefinitionIndex = 7650;
+
 	class ConsoleDelegate_ImeDialogCloseCallback : public ::System::MulticastDelegate
 	{
 	public:

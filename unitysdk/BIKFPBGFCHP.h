@@ -71,6 +71,8 @@ namespace System::Collections::Immutable { template <typename T> class IImmutabl
 #define BIKFPBGFCHP_REMOVE_ONTUTORIALTARGETCELLSCHANGED_OFFSET UNITYSDK_OFFSET(0xB4B04A0)
 #define BIKFPBGFCHP___REFRESHPREVIEWOVERLAPPEDCELLS_G__ISSTILLOVERLAPPEDEVENWHENCONSIDERINGDRAGGED_89_0_OFFSET UNITYSDK_OFFSET(0xB4B0DD0)
 
+inline static constexpr unsigned int BIKFPBGFCHP_TypeDefinitionIndex = 79454;
+
 	class BIKFPBGFCHP : public ::System::Object
 	{
 	public:

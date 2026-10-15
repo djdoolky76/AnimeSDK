@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceNearRowsSelectorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceNearRowsSelectorConfig_TypeDefinitionIndex = 18395;
+
 	class CakeRaceNearRowsSelectorConfig : public ::RPG::GameCore::CakeRaceBaseTargetSelectorConfig
 	{
 	public:

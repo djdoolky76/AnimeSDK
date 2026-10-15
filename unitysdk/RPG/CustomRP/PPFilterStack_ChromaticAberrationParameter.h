@@ -7,6 +7,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int PPFilterStack_ChromaticAberrationParameter_TypeDefinitionIndex = 51858;
+
 	struct alignas(4) PPFilterStack_ChromaticAberrationParameter
 	{
 		::System::Boolean ChromaticAberrationOverrideState; // 0x10

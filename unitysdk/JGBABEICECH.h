@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class Text; }
 #define JGBABEICECH_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x1665D2F0)
 #define JGBABEICECH_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0x1665D1D0)
 
+inline static constexpr unsigned int JGBABEICECH_TypeDefinitionIndex = 72820;
+
 	class JGBABEICECH : public ::LBAMBIMMJKB
 	{
 	public:

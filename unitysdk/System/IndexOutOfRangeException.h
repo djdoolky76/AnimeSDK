@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int IndexOutOfRangeException_TypeDefinitionIndex = 282;
+
 	class IndexOutOfRangeException : public ::System::SystemException
 	{
 	public:

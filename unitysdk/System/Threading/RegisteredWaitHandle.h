@@ -14,6 +14,8 @@ namespace System::Threading { class WaitOrTimerCallback; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int RegisteredWaitHandle_TypeDefinitionIndex = 877;
+
 	class RegisteredWaitHandle : public ::System::MarshalByRefObject
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define ABLBFIGHCLE___C___CCTOR_B__3_5_OFFSET UNITYSDK_OFFSET(0xB106A10)
 #define ABLBFIGHCLE___C___CCTOR_B__3_6_OFFSET UNITYSDK_OFFSET(0xB106A50)
 
+inline static constexpr unsigned int ABLBFIGHCLE___c_TypeDefinitionIndex = 61957;
+
 	class ABLBFIGHCLE___c : public ::System::Object
 	{
 	public:

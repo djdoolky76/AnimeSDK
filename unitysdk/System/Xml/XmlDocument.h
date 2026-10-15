@@ -131,6 +131,8 @@ namespace System::Xml::Schema { class XmlSchemaSet; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlDocument_TypeDefinitionIndex = 1899;
+
 	class XmlDocument : public ::System::Xml::XmlNode
 	{
 	public:

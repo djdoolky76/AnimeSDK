@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetMonsterPhasePointPrefab_TypeDefinitionIndex = 23249;
+
 	class SetMonsterPhasePointPrefab : public ::RPG::GameCore::TaskConfig
 	{
 	public:

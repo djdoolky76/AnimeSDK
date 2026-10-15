@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimKillAllEffectAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimKillAllEffectAction_TypeDefinitionIndex = 18743;
+
 	class FiveDimKillAllEffectAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MarblePhaseRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarblePhaseRow_TypeDefinitionIndex = 11867;
+
 	class MarblePhaseRow : public ::System::Object
 	{
 	public:

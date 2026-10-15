@@ -10,6 +10,8 @@ namespace System { class Type; }
 #define KIKLIMIBGNE_FNAAJGAHIAI_OFFSET UNITYSDK_OFFSET(0xB432A90)
 #define KIKLIMIBGNE_IHPAKOMCHGP_OFFSET UNITYSDK_OFFSET(0xB432AE0)
 
+inline static constexpr unsigned int KIKLIMIBGNE_TypeDefinitionIndex = 81212;
+
 	class KIKLIMIBGNE : public ::System::Object
 	{
 	public:

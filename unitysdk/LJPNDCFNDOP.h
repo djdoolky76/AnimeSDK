@@ -8,6 +8,8 @@ class LJPNDCFNDOP;
 #define LJPNDCFNDOP_FFHNOMIDEDE_OFFSET UNITYSDK_OFFSET(0xB724C10)
 #define LJPNDCFNDOP_OHMHJFANEIF_OFFSET UNITYSDK_OFFSET(0xB7249A0)
 
+inline static constexpr unsigned int LJPNDCFNDOP_TypeDefinitionIndex = 68242;
+
 	class LJPNDCFNDOP : public ::System::Object
 	{
 	public:

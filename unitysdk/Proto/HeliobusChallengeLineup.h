@@ -34,6 +34,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int HeliobusChallengeLineup_TypeDefinitionIndex = 29769;
+
 	class HeliobusChallengeLineup : public ::System::Object
 	{
 	public:

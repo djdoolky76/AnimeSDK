@@ -6,6 +6,8 @@ class LBJLBMOOJGM;
 #define LOIHKGBOJPM_CTOR_OFFSET UNITYSDK_OFFSET(0xB8056C0)
 #define LOIHKGBOJPM_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xB8054A0)
 
+inline static constexpr unsigned int LOIHKGBOJPM_TypeDefinitionIndex = 61289;
+
 	class LOIHKGBOJPM : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Map_RefreshEntitiesExtraInfo_TypeDefinitionIndex = 60871;
+
 	class Map_RefreshEntitiesExtraInfo : public ::System::Object
 	{
 	public:

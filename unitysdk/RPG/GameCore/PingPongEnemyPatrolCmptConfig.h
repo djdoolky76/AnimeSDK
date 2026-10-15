@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PingPongEnemyPatrolCmptConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PingPongEnemyPatrolCmptConfig_TypeDefinitionIndex = 18937;
+
 	class PingPongEnemyPatrolCmptConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

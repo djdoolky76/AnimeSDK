@@ -4,6 +4,8 @@
 
 #define CEFHJDBAGKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5CA020)
 
+inline static constexpr unsigned int CEFHJDBAGKO_TypeDefinitionIndex = 37097;
+
 	class CEFHJDBAGKO : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NpcBodyEyeConfig_TypeDefinitionIndex = 60051;
+
 	struct alignas(8) NpcBodyEyeConfig
 	{
 		::RPG::GameCore::NPCBodySize bodySize; // 0x10

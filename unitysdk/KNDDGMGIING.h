@@ -14,6 +14,8 @@ namespace System { class String; }
 #define KNDDGMGIING__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xB580260)
 #define KNDDGMGIING__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xB580450)
 
+inline static constexpr unsigned int KNDDGMGIING_TypeDefinitionIndex = 52524;
+
 	class KNDDGMGIING
 	{
 	public:

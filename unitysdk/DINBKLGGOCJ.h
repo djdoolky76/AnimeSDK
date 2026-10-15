@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define DINBKLGGOCJ_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD29070)
 #define DINBKLGGOCJ_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD28430)
 
+inline static constexpr unsigned int DINBKLGGOCJ_TypeDefinitionIndex = 13501;
+
 	class DINBKLGGOCJ : public ::System::Object
 	{
 	public:

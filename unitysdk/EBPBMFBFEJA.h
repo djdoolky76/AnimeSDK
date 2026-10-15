@@ -35,6 +35,8 @@ namespace System { class String; }
 #define EBPBMFBFEJA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E249690)
 #define EBPBMFBFEJA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2496F0)
 
+inline static constexpr unsigned int EBPBMFBFEJA_TypeDefinitionIndex = 27606;
+
 	class EBPBMFBFEJA : public ::System::Object
 	{
 	public:

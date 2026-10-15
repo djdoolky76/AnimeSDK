@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define NFCPIHAFKGB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C956510)
 
+inline static constexpr unsigned int NFCPIHAFKGB_TypeDefinitionIndex = 42112;
+
 	class NFCPIHAFKGB : public ::System::Object
 	{
 	public:

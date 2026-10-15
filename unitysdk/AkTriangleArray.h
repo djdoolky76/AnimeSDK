@@ -8,6 +8,8 @@ class AkTriangle;
 #define AKTRIANGLEARRAY_DEFAULTCONSTRUCTATINTPTR_OFFSET UNITYSDK_OFFSET(0x1F6175F0)
 #define AKTRIANGLEARRAY_GET_STRUCTURESIZE_OFFSET UNITYSDK_OFFSET(0x1F617540)
 
+inline static constexpr unsigned int AkTriangleArray_TypeDefinitionIndex = 44873;
+
 	class AkTriangleArray
 	{
 	public:

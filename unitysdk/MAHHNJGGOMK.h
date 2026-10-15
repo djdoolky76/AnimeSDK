@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MAHHNJGGOMK_OJNKDPOPLFP_OFFSET UNITYSDK_OFFSET(0xB84E6C0)
 #define MAHHNJGGOMK__UNLOCKAVATARPATH_B__3_0_OFFSET UNITYSDK_OFFSET(0xB84E760)
 
+inline static constexpr unsigned int MAHHNJGGOMK_TypeDefinitionIndex = 62769;
+
 	class MAHHNJGGOMK : public ::BHPMNMMGLHI
 	{
 	public:

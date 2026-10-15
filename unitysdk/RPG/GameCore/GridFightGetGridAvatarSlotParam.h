@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GridFightGetGridAvatarSlotParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightGetGridAvatarSlotParam_TypeDefinitionIndex = 19954;
+
 	class GridFightGetGridAvatarSlotParam : public ::RPG::GameCore::TutorialDynamicParamBase
 	{
 	public:

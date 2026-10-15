@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GGFABEMMGNG_CTOR_OFFSET UNITYSDK_OFFSET(0x15A03DE0)
 #define GGFABEMMGNG_JHLOPJHGJFO_OFFSET UNITYSDK_OFFSET(0x15A03690)
 
+inline static constexpr unsigned int GGFABEMMGNG_TypeDefinitionIndex = 81946;
+
 	class GGFABEMMGNG : public ::System::Object
 	{
 	public:

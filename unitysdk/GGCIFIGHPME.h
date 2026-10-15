@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GGCIFIGHPME_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE3EEA0)
 #define GGCIFIGHPME_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE3E7C0)
 
+inline static constexpr unsigned int GGCIFIGHPME_TypeDefinitionIndex = 12823;
+
 	class GGCIFIGHPME : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define FMDAAIKLAJA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3DFC50)
 #define FMDAAIKLAJA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3DFCB0)
 
+inline static constexpr unsigned int FMDAAIKLAJA_TypeDefinitionIndex = 25189;
+
 	class FMDAAIKLAJA : public ::System::Object
 	{
 	public:

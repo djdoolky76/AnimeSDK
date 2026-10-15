@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierChangePersonaStyleCoreGiftLevelInte
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierChangePersonaStyleCoreGiftLevelIntervalConfig_TypeDefinitionIndex = 17802;
+
 	class RogueModifierChangePersonaStyleCoreGiftLevelIntervalConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

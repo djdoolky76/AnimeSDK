@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ACNGJIENJNK_GET_BUFFVIEWDATAS_OFFSET UNITYSDK_OFFSET(0xB126D70)
 #define ACNGJIENJNK_SET_BUFFVIEWDATAS_OFFSET UNITYSDK_OFFSET(0xB126D80)
 
+inline static constexpr unsigned int ACNGJIENJNK_TypeDefinitionIndex = 71514;
+
 	class ACNGJIENJNK : public ::System::Object
 	{
 	public:

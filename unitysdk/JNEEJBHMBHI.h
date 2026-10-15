@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define JNEEJBHMBHI__ISDATAREADYIMPL_OFFSET UNITYSDK_OFFSET(0xB27C690)
 #define JNEEJBHMBHI__PREPAREDATAIMPL_OFFSET UNITYSDK_OFFSET(0xB27C730)
 
+inline static constexpr unsigned int JNEEJBHMBHI_TypeDefinitionIndex = 59893;
+
 	class JNEEJBHMBHI : public ::RPG::Client::AsyncCheckItemBase
 	{
 	public:

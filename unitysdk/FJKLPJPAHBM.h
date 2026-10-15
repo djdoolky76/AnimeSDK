@@ -41,6 +41,8 @@ namespace RPG::GameCore { class FiveDimCameraObserveConfig; }
 #define FJKLPJPAHBM__UPDATEFOLLOWCAMERAOBSERVE_OFFSET UNITYSDK_OFFSET(0x157D6810)
 #define FJKLPJPAHBM__UPDATELOOKAHEADX_OFFSET UNITYSDK_OFFSET(0x157D58E0)
 
+inline static constexpr unsigned int FJKLPJPAHBM_TypeDefinitionIndex = 76915;
+
 	class FJKLPJPAHBM
 	{
 	public:

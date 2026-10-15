@@ -13,6 +13,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define PKIIEFHDOKD_CTOR_OFFSET UNITYSDK_OFFSET(0xC2BF940)
 #define PKIIEFHDOKD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC2BF950)
 
+inline static constexpr unsigned int PKIIEFHDOKD_TypeDefinitionIndex = 68463;
+
 	class PKIIEFHDOKD : public ::System::Object
 	{
 	public:

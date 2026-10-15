@@ -19,6 +19,8 @@ namespace System::Text { class StringBuilder; }
 #define KFBOFAILIBG_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0xFE80)
 #define KFBOFAILIBG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x13A90)
 
+inline static constexpr unsigned int KFBOFAILIBG_TypeDefinitionIndex = 51976;
+
 	struct alignas(4) KFBOFAILIBG
 	{
 		::RPG::GameCore::AvatarSkillTreeAnchorType _AnchorType_k__BackingField; // 0x10

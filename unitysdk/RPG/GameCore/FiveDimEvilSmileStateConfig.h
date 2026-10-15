@@ -12,6 +12,8 @@ namespace RPG::GameCore { class FloatCurve; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimEvilSmileStateConfig_TypeDefinitionIndex = 16700;
+
 	class FiveDimEvilSmileStateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPG::Client { class Effect_WingInstanceMonoPlugin; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_WingInstanceBehavior_TypeDefinitionIndex = 70532;
+
 	class Effect_WingInstanceBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

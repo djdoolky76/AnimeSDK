@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceEndSeq_TypeDefinitionIndex = 21244;
+
 	class PerformanceEndSeq : public ::RPG::GameCore::TaskConfig
 	{
 	public:

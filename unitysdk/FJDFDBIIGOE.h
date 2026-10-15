@@ -39,6 +39,8 @@ namespace System { class String; }
 #define FJDFDBIIGOE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E39EFF0)
 #define FJDFDBIIGOE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E39F050)
 
+inline static constexpr unsigned int FJDFDBIIGOE_TypeDefinitionIndex = 30368;
+
 	class FJDFDBIIGOE : public ::System::Object
 	{
 	public:

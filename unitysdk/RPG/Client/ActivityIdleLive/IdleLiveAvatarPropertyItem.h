@@ -25,6 +25,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveAvatarPropertyItem_TypeDefinitionIndex = 75117;
+
 	class IdleLiveAvatarPropertyItem : public ::System::Object
 	{
 	public:

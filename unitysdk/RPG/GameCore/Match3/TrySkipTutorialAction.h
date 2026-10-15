@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class TrySkipTutorialAction; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int TrySkipTutorialAction_TypeDefinitionIndex = 24920;
+
 	class TrySkipTutorialAction : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:

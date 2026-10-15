@@ -33,6 +33,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightAvatarRow_AvatarCommonRowWrap_TypeDefinitionIndex = 56545;
+
 	class GridFightAvatarRow_AvatarCommonRowWrap : public ::RPG::GameCore::AvatarRow_AvatarCommonRowWrap
 	{
 	public:

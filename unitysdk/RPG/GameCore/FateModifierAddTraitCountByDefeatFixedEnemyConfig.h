@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateModifierAddTraitCountByDefeatFixedEnemyConfi
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateModifierAddTraitCountByDefeatFixedEnemyConfig_TypeDefinitionIndex = 19286;
+
 	class FateModifierAddTraitCountByDefeatFixedEnemyConfig : public ::RPG::GameCore::FateModifierConfigBase
 	{
 	public:

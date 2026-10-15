@@ -30,6 +30,8 @@ namespace UnityEngine::Rendering { class BatchAnimationMeshVariant; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BatchAnimationVariantAsset_TypeDefinitionIndex = 69525;
+
 	class BatchAnimationVariantAsset : public ::UnityEngine::MonoBehaviour
 	{
 	public:

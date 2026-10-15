@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define EEHPNCLKDJH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD75DE0)
 #define EEHPNCLKDJH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD75D90)
 
+inline static constexpr unsigned int EEHPNCLKDJH_TypeDefinitionIndex = 21975;
+
 	class EEHPNCLKDJH : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:

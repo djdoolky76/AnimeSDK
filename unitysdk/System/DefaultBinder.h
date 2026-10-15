@@ -37,6 +37,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int DefaultBinder_TypeDefinitionIndex = 229;
+
 	class DefaultBinder : public ::System::Reflection::Binder
 	{
 	public:

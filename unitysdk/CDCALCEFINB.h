@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 #define CDCALCEFINB_CTOR_OFFSET UNITYSDK_OFFSET(0xC761C60)
 
+inline static constexpr unsigned int CDCALCEFINB_TypeDefinitionIndex = 57377;
+
 	class CDCALCEFINB : public ::System::Object
 	{
 	public:

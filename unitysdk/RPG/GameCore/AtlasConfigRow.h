@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AtlasConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AtlasConfigRow_TypeDefinitionIndex = 12678;
+
 	class AtlasConfigRow : public ::System::Object
 	{
 	public:

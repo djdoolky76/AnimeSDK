@@ -8,6 +8,8 @@ class PBGNKMMDBGD;
 #define DBBPHCIBIBI___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5DAF40)
 #define DBBPHCIBIBI___C__DISPLAYCLASS27_0___FORCECATREPALCE_B__0_OFFSET UNITYSDK_OFFSET(0x1C5DB590)
 
+inline static constexpr unsigned int DBBPHCIBIBI___c__DisplayClass27_0_TypeDefinitionIndex = 37285;
+
 	class DBBPHCIBIBI___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:

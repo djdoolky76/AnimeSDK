@@ -26,6 +26,8 @@ namespace UnityEngine { class Transform; }
 #define KBPAADAANEO___ONBIND_B__0_0_OFFSET UNITYSDK_OFFSET(0xB325D10)
 #define KBPAADAANEO___ONBIND_B__0_1_OFFSET UNITYSDK_OFFSET(0xB325D80)
 
+inline static constexpr unsigned int KBPAADAANEO_TypeDefinitionIndex = 72069;
+
 	class KBPAADAANEO : public ::FMPCODLIOLG
 	{
 	public:

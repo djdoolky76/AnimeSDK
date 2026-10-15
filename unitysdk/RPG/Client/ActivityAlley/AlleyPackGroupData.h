@@ -43,6 +43,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ActivityAlley
 {
+	inline static constexpr unsigned int AlleyPackGroupData_TypeDefinitionIndex = 74109;
+
 	class AlleyPackGroupData : public ::System::Object
 	{
 	public:

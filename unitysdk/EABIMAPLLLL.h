@@ -28,6 +28,8 @@ namespace System { class String; }
 #define EABIMAPLLLL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E222020)
 #define EABIMAPLLLL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E222080)
 
+inline static constexpr unsigned int EABIMAPLLLL_TypeDefinitionIndex = 30905;
+
 	class EABIMAPLLLL : public ::System::Object
 	{
 	public:

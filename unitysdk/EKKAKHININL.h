@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define EKKAKHININL_AIJHHGPIBJG_OFFSET UNITYSDK_OFFSET(0x1550B790)
 #define EKKAKHININL_FBHHGMHOCLA_OFFSET UNITYSDK_OFFSET(0x1550ADE0)
 
+inline static constexpr unsigned int EKKAKHININL_TypeDefinitionIndex = 52855;
+
 	class EKKAKHININL : public ::System::Object
 	{
 	public:

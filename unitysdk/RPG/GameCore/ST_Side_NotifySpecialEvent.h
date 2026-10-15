@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ST_Side_NotifySpecialEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_NotifySpecialEvent_TypeDefinitionIndex = 20134;
+
 	class ST_Side_NotifySpecialEvent : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2BodyMoveEvent_TypeDefinitionIndex = 36596;
+
 	struct alignas(8) B2BodyMoveEvent
 	{
 		::System::Object* userData; // 0x10

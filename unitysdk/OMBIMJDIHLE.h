@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OMBIMJDIHLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C99DCD0)
 #define OMBIMJDIHLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C99DCE0)
 
+inline static constexpr unsigned int OMBIMJDIHLE_TypeDefinitionIndex = 41998;
+
 	class OMBIMJDIHLE : public ::System::Object
 	{
 	public:

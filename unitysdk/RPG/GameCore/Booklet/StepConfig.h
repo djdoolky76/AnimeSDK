@@ -10,6 +10,8 @@ namespace RPG::GameCore::Booklet { class StepConfig; }
 
 namespace RPG::GameCore::Booklet
 {
+	inline static constexpr unsigned int StepConfig_TypeDefinitionIndex = 24975;
+
 	class StepConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -9,6 +9,8 @@
 
 namespace RPG::Client::ElectricChainV2
 {
+	inline static constexpr unsigned int GaussianSampler_TypeDefinitionIndex = 73593;
+
 	class GaussianSampler : public ::RPG::Client::ElectricChainV2::Sampler
 	{
 	public:

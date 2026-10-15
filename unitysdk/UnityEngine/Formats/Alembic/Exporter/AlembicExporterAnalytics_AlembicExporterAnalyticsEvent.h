@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Formats::Alembic::Exporter
 {
+	inline static constexpr unsigned int AlembicExporterAnalytics_AlembicExporterAnalyticsEvent_TypeDefinitionIndex = 45891;
+
 	struct alignas(4) AlembicExporterAnalytics_AlembicExporterAnalyticsEvent
 	{
 		::System::Boolean capture_mesh; // 0x10

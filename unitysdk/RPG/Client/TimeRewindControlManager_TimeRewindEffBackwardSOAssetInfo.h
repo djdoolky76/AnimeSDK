@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeRewindControlManager_TimeRewindEffBackwardSOAssetInfo_TypeDefinitionIndex = 60826;
+
 	class TimeRewindControlManager_TimeRewindEffBackwardSOAssetInfo : public ::System::Object
 	{
 	public:

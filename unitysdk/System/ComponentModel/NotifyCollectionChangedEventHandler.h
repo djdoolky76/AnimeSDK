@@ -13,6 +13,8 @@ namespace System::ComponentModel { class NotifyCollectionChangedEventArgs; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int NotifyCollectionChangedEventHandler_TypeDefinitionIndex = 9575;
+
 	class NotifyCollectionChangedEventHandler : public ::System::MulticastDelegate
 	{
 	public:

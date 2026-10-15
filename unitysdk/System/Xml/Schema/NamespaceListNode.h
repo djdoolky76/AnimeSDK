@@ -17,6 +17,8 @@ namespace System::Xml::Schema { class SymbolsDictionary; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int NamespaceListNode_TypeDefinitionIndex = 2070;
+
 	class NamespaceListNode : public ::System::Xml::Schema::SyntaxTreeNode
 	{
 	public:

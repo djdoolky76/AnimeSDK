@@ -9,6 +9,8 @@ namespace RPG::GameCore { class EffectAdaptCharaScaleDataItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EffectAdaptCharaScaleDataItem_TypeDefinitionIndex = 16492;
+
 	class EffectAdaptCharaScaleDataItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

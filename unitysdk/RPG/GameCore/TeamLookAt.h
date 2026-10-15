@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TeamLookAt; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamLookAt_TypeDefinitionIndex = 22452;
+
 	class TeamLookAt : public ::RPG::GameCore::TaskConfig
 	{
 	public:

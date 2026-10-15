@@ -19,6 +19,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int RenderTargetBinding_TypeDefinitionIndex = 4713;
+
 	struct alignas(8) RenderTargetBinding
 	{
 		::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* m_ColorRenderTargets; // 0x10

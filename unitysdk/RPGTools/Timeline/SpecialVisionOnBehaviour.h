@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class SpecialVisionOnClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SpecialVisionOnBehaviour_TypeDefinitionIndex = 48313;
+
 	class SpecialVisionOnBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

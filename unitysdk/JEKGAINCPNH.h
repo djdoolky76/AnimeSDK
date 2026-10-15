@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JEKGAINCPNH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E71F240)
 #define JEKGAINCPNH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E71F2A0)
 
+inline static constexpr unsigned int JEKGAINCPNH_TypeDefinitionIndex = 32892;
+
 	class JEKGAINCPNH : public ::System::Object
 	{
 	public:

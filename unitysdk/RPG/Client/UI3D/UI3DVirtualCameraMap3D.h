@@ -10,6 +10,8 @@ namespace System { class Type; }
 
 namespace RPG::Client::UI3D
 {
+	inline static constexpr unsigned int UI3DVirtualCameraMap3D_TypeDefinitionIndex = 78993;
+
 	class UI3DVirtualCameraMap3D : public ::RPG::Client::UI3D::UI3DVirtualCameraBase
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int SRMath_EaseType_TypeDefinitionIndex = 35354;
+
 	enum class SRMath_EaseType : ::System::Int32
 	{
 		Linear = 0,

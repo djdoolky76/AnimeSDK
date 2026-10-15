@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimMusicComboJumpConfig_TypeDefinitionIndex = 18828;
+
 	class FiveDimMusicComboJumpConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

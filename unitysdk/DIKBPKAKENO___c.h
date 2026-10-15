@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DIKBPKAKENO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1C1BF0)
 #define DIKBPKAKENO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E1C1C00)
 
+inline static constexpr unsigned int DIKBPKAKENO___c_TypeDefinitionIndex = 33375;
+
 	class DIKBPKAKENO___c : public ::System::Object
 	{
 	public:

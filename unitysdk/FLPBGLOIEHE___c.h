@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define FLPBGLOIEHE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x158444B0)
 #define FLPBGLOIEHE___C___SORTSUBPANELS_B__10_0_OFFSET UNITYSDK_OFFSET(0x158444C0)
 
+inline static constexpr unsigned int FLPBGLOIEHE___c_TypeDefinitionIndex = 71769;
+
 	class FLPBGLOIEHE___c : public ::System::Object
 	{
 	public:

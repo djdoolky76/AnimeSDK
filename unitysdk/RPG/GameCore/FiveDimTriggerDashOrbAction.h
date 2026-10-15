@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimTriggerDashOrbAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimTriggerDashOrbAction_TypeDefinitionIndex = 18764;
+
 	class FiveDimTriggerDashOrbAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

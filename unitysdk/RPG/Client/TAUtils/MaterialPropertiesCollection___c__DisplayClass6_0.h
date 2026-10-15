@@ -8,6 +8,8 @@ namespace RPG::Client::TAUtils { class MaterialPropertiesCollection_Property; }
 
 namespace RPG::Client::TAUtils
 {
+	inline static constexpr unsigned int MaterialPropertiesCollection___c__DisplayClass6_0_TypeDefinitionIndex = 73630;
+
 	class MaterialPropertiesCollection___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

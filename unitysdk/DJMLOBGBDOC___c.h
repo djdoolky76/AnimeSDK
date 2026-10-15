@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define DJMLOBGBDOC___C_CTOR_OFFSET UNITYSDK_OFFSET(0xF2403C0)
 #define DJMLOBGBDOC___C__GET_REACTIVESELECTED_B__8_0_OFFSET UNITYSDK_OFFSET(0xF2403D0)
 
+inline static constexpr unsigned int DJMLOBGBDOC___c_TypeDefinitionIndex = 79510;
+
 	class DJMLOBGBDOC___c : public ::System::Object
 	{
 	public:

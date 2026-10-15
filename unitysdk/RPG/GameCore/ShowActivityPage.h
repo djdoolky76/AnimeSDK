@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowActivityPage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowActivityPage_TypeDefinitionIndex = 21700;
+
 	class ShowActivityPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

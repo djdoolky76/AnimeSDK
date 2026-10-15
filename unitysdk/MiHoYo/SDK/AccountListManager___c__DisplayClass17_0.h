@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int AccountListManager___c__DisplayClass17_0_TypeDefinitionIndex = 7985;
+
 	class AccountListManager___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define ONMFMINNBEB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DECEAC0)
 #define ONMFMINNBEB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DECEB20)
 
+inline static constexpr unsigned int ONMFMINNBEB_TypeDefinitionIndex = 33197;
+
 	class ONMFMINNBEB : public ::System::Object
 	{
 	public:

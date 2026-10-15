@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraBattleCheckWorkFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraBattleCheckWorkFinish_TypeDefinitionIndex = 15873;
+
 	class ChimeraBattleCheckWorkFinish : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{
 	public:

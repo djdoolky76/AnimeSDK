@@ -24,6 +24,8 @@ namespace UnityEngine { class Material; }
 
 namespace UnityEngine::Experimental::Rendering
 {
+	inline static constexpr unsigned int RendererListDesc_TypeDefinitionIndex = 35445;
+
 	struct alignas(8) RendererListDesc
 	{
 		::UnityEngine::Rendering::SortingCriteria sortingCriteria; // 0x10

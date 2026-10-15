@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
+inline static constexpr unsigned int AJHOBFAMAFO___O_TypeDefinitionIndex = 49463;
+
 	class AJHOBFAMAFO___O : public ::System::Object
 	{
 	public:

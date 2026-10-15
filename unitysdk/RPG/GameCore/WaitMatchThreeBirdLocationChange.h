@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaitMatchThreeBirdLocationChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitMatchThreeBirdLocationChange_TypeDefinitionIndex = 20982;
+
 	class WaitMatchThreeBirdLocationChange : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:

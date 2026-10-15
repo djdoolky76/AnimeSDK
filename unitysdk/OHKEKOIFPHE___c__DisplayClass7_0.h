@@ -7,6 +7,8 @@ class OHKEKOIFPHE;
 #define OHKEKOIFPHE___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBE6F930)
 #define OHKEKOIFPHE___C__DISPLAYCLASS7_0__SETTOASTENTRY_B__0_OFFSET UNITYSDK_OFFSET(0xBE710F0)
 
+inline static constexpr unsigned int OHKEKOIFPHE___c__DisplayClass7_0_TypeDefinitionIndex = 71534;
+
 	class OHKEKOIFPHE___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

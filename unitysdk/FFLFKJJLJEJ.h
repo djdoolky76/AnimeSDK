@@ -6,6 +6,8 @@ class FFLFKJJLJEJ;
 #define FFLFKJJLJEJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15745520)
 #define FFLFKJJLJEJ_MJEODHKPKEB_OFFSET UNITYSDK_OFFSET(0x157454A0)
 
+inline static constexpr unsigned int FFLFKJJLJEJ_TypeDefinitionIndex = 56289;
+
 	class FFLFKJJLJEJ : public ::System::Object
 	{
 	public:

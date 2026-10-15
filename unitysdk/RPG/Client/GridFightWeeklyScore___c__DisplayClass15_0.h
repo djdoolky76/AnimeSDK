@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GridFightScoreRewardConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightWeeklyScore___c__DisplayClass15_0_TypeDefinitionIndex = 65526;
+
 	class GridFightWeeklyScore___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

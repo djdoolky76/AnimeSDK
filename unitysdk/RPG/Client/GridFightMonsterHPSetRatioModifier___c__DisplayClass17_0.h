@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightMonsterHPSetRatioModifier___c__DisplayClass17_0_TypeDefinitionIndex = 65024;
+
 	class GridFightMonsterHPSetRatioModifier___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DHLPMJFEECF_SET_PLANDATA_OFFSET UNITYSDK_OFFSET(0xEBE9B40)
 #define DHLPMJFEECF_SET_VERSION_OFFSET UNITYSDK_OFFSET(0xEBE9A90)
 
+inline static constexpr unsigned int DHLPMJFEECF_TypeDefinitionIndex = 66896;
+
 	class DHLPMJFEECF : public ::System::Object
 	{
 	public:

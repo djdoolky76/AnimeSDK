@@ -8,6 +8,8 @@
 
 namespace GeometryEdit
 {
+	inline static constexpr unsigned int Prism___c__DisplayClass36_0_TypeDefinitionIndex = 49187;
+
 	class Prism___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:

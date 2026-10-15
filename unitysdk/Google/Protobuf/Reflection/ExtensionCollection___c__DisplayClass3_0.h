@@ -11,6 +11,8 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int ExtensionCollection___c__DisplayClass3_0_TypeDefinitionIndex = 5539;
+
 	class ExtensionCollection___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

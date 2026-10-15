@@ -3,6 +3,8 @@
 
 namespace InControl
 {
+	inline static constexpr unsigned int NativeVersionInfo_TypeDefinitionIndex = 40872;
+
 	struct alignas(4) NativeVersionInfo
 	{
 		::System::UInt32 major; // 0x10

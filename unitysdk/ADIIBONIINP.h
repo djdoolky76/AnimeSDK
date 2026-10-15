@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define ADIIBONIINP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB13F840)
 #define ADIIBONIINP_TICK_OFFSET UNITYSDK_OFFSET(0xB13FF30)
 
+inline static constexpr unsigned int ADIIBONIINP_TypeDefinitionIndex = 52761;
+
 	class ADIIBONIINP : public ::GELIALJDFBL
 	{
 	public:

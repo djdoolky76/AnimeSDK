@@ -18,6 +18,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int FormatterResolverExtensions_TypeDefinitionIndex = 7163;
+
 	class FormatterResolverExtensions : public ::System::Object
 	{
 	public:

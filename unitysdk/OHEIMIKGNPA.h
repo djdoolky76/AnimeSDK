@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define OHEIMIKGNPA__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xBE632A0)
 #define OHEIMIKGNPA__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xBE63430)
 
+inline static constexpr unsigned int OHEIMIKGNPA_TypeDefinitionIndex = 52831;
+
 	class OHEIMIKGNPA
 	{
 	public:

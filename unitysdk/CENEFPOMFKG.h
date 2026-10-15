@@ -71,6 +71,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CENEFPOMFKG_PNFMOCAOABJ_OFFSET UNITYSDK_OFFSET(0xC9E9FC0)
 #define CENEFPOMFKG_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC9EB940)
 
+inline static constexpr unsigned int CENEFPOMFKG_TypeDefinitionIndex = 54057;
+
 	class CENEFPOMFKG : public ::System::Object
 	{
 	public:

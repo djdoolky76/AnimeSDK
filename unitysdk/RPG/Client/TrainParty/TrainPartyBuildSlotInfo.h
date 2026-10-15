@@ -24,6 +24,8 @@ namespace RPG::GameCore { class PlayerRoomSlotConfigRow; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyBuildSlotInfo_TypeDefinitionIndex = 74314;
+
 	class TrainPartyBuildSlotInfo : public ::System::Object
 	{
 	public:

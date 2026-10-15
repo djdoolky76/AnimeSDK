@@ -41,6 +41,8 @@ namespace System { class String; }
 #define KBDOJBJDMOI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7EB8F0)
 #define KBDOJBJDMOI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7EB950)
 
+inline static constexpr unsigned int KBDOJBJDMOI_TypeDefinitionIndex = 33899;
+
 	class KBDOJBJDMOI : public ::System::Object
 	{
 	public:

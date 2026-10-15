@@ -5,6 +5,8 @@
 #define LKLOMEEPIEM_CCTOR_OFFSET UNITYSDK_OFFSET(0xB7546A0)
 #define LKLOMEEPIEM_CTOR_OFFSET UNITYSDK_OFFSET(0x19D60)
 
+inline static constexpr unsigned int LKLOMEEPIEM_TypeDefinitionIndex = 57294;
+
 	struct alignas(4) LKLOMEEPIEM
 	{
 		::BPFKOIIMKBG EMGADNPKAIK; // 0x10

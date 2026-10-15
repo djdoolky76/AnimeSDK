@@ -7,6 +7,8 @@ namespace System::Net { class ICredentials; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int CredentialCache_TypeDefinitionIndex = 2728;
+
 	class CredentialCache : public ::System::Object
 	{
 	public:

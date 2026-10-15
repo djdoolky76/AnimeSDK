@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingEnchantRow; }
 #define IBEOHNNCPDC_PNLLINHJDJF_OFFSET UNITYSDK_OFFSET(0x15E31050)
 #define IBEOHNNCPDC_SET_ID_OFFSET UNITYSDK_OFFSET(0x15E30F20)
 
+inline static constexpr unsigned int IBEOHNNCPDC_TypeDefinitionIndex = 61430;
+
 	class IBEOHNNCPDC : public ::System::Object
 	{
 	public:

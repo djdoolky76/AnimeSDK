@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimEntityRotateConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimEntityRotateAction_TypeDefinitionIndex = 18750;
+
 	class FiveDimEntityRotateAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

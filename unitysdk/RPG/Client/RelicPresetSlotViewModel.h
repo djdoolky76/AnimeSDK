@@ -19,6 +19,8 @@ namespace RPG::Client { class RelicShowPropertyData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RelicPresetSlotViewModel_TypeDefinitionIndex = 66879;
+
 	class RelicPresetSlotViewModel : public ::System::Object
 	{
 	public:

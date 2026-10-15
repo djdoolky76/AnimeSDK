@@ -8,6 +8,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int NegateInstruction_NegateSingle_TypeDefinitionIndex = 3552;
+
 	class NegateInstruction_NegateSingle : public ::System::Linq::Expressions::Interpreter::NegateInstruction
 	{
 	public:

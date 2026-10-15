@@ -7,6 +7,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int ViewportComposition_TypeDefinitionIndex = 49636;
+
 	struct alignas(4) ViewportComposition
 	{
 		::System::Single X; // 0x10

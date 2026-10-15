@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GNOKFPIKEFH_CTOR_OFFSET UNITYSDK_OFFSET(0x15B1EE90)
 #define GNOKFPIKEFH_PPKPOMGIKEP_OFFSET UNITYSDK_OFFSET(0x15B1EDE0)
 
+inline static constexpr unsigned int GNOKFPIKEFH_TypeDefinitionIndex = 57559;
+
 	class GNOKFPIKEFH : public ::System::Object
 	{
 	public:

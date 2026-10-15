@@ -9,6 +9,8 @@ namespace MiHoYo::SDK::Win { class OverseaGrantMail; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int OverseaGrantMail___c__DisplayClass39_0_TypeDefinitionIndex = 9531;
+
 	class OverseaGrantMail___c__DisplayClass39_0 : public ::System::Object
 	{
 	public:

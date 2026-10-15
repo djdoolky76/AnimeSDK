@@ -5,6 +5,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SkillCharacterComponent_HitTargetTimeSlowRecord_TypeDefinitionIndex = 54866;
+
 	struct alignas(8) SkillCharacterComponent_HitTargetTimeSlowRecord
 	{
 		::RPG::GameCore::GameEntity* Target; // 0x10

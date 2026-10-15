@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace Cysharp::Threading::Tasks::Internal
 {
+	inline static constexpr unsigned int RuntimeHelpersAbstraction_TypeDefinitionIndex = 38665;
+
 	class RuntimeHelpersAbstraction : public ::System::Object
 	{
 	public:

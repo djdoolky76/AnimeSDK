@@ -17,6 +17,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int BitArrayUtilities_TypeDefinitionIndex = 35595;
+
 	class BitArrayUtilities : public ::System::Object
 	{
 	public:

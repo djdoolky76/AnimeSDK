@@ -29,6 +29,8 @@ namespace System { class String; }
 #define EPELDFBCCEK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E309940)
 #define EPELDFBCCEK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3099A0)
 
+inline static constexpr unsigned int EPELDFBCCEK_TypeDefinitionIndex = 29603;
+
 	class EPELDFBCCEK : public ::System::Object
 	{
 	public:

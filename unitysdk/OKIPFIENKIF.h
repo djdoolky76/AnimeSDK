@@ -36,6 +36,8 @@ namespace System { class String; }
 #define OKIPFIENKIF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE9B270)
 #define OKIPFIENKIF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE9B2D0)
 
+inline static constexpr unsigned int OKIPFIENKIF_TypeDefinitionIndex = 28754;
+
 	class OKIPFIENKIF : public ::System::Object
 	{
 	public:

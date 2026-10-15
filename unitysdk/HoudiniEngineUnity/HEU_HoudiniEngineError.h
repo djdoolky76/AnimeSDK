@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_HoudiniEngineError_TypeDefinitionIndex = 40435;
+
 	class HEU_HoudiniEngineError : public ::System::Exception
 	{
 	public:

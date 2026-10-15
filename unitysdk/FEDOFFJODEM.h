@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FEDOFFJODEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E361B20)
 #define FEDOFFJODEM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E361B80)
 
+inline static constexpr unsigned int FEDOFFJODEM_TypeDefinitionIndex = 31364;
+
 	class FEDOFFJODEM : public ::System::Object
 	{
 	public:

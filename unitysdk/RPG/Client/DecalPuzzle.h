@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DecalPuzzle_TypeDefinitionIndex = 68654;
+
 	class DecalPuzzle : public ::UnityEngine::MonoBehaviour
 	{
 	public:

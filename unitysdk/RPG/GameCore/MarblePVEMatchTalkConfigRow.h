@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MarblePVEMatchTalkConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarblePVEMatchTalkConfigRow_TypeDefinitionIndex = 11859;
+
 	class MarblePVEMatchTalkConfigRow : public ::System::Object
 	{
 	public:

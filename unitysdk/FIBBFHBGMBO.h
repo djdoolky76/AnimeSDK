@@ -50,6 +50,8 @@ namespace UnityEngine { class GameObject; }
 #define FIBBFHBGMBO_SET_SUIYANGBEATBPM_OFFSET UNITYSDK_OFFSET(0x1579AC30)
 #define FIBBFHBGMBO_SET_SUIYANGBEATSTARTTIME_OFFSET UNITYSDK_OFFSET(0x1579AC10)
 
+inline static constexpr unsigned int FIBBFHBGMBO_TypeDefinitionIndex = 76894;
+
 	class FIBBFHBGMBO : public ::System::Object
 	{
 	public:

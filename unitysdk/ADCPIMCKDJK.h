@@ -8,6 +8,8 @@ namespace System { class String; }
 #define ADCPIMCKDJK_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0x1EBEB780)
 #define ADCPIMCKDJK_SET_OFFSET UNITYSDK_OFFSET(0x1EBEB580)
 
+inline static constexpr unsigned int ADCPIMCKDJK_TypeDefinitionIndex = 35215;
+
 	class ADCPIMCKDJK : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int LLGKeyValuePairs_TypeDefinitionIndex = 49321;
+
 	class LLGKeyValuePairs : public ::EnviromentSystemV2Space::BlendingValBase
 	{
 	public:

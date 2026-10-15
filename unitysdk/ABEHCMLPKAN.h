@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 #define ABEHCMLPKAN_CTOR_OFFSET UNITYSDK_OFFSET(0xB0F2220)
 
+inline static constexpr unsigned int ABEHCMLPKAN_TypeDefinitionIndex = 56233;
+
 	class ABEHCMLPKAN : public ::System::Object
 	{
 	public:

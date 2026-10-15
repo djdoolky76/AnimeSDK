@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueTalkInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTalkInfo_TypeDefinitionIndex = 21111;
+
 	class RogueTalkInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitTimelineFinish_TypeDefinitionIndex = 23732;
+
 	class WaitTimelineFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

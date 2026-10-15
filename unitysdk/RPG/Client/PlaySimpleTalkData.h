@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlaySimpleTalkData_TypeDefinitionIndex = 68044;
+
 	class PlaySimpleTalkData : public ::System::Object
 	{
 	public:

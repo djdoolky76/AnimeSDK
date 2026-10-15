@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NCPHGMEMAPP_CTOR_OFFSET UNITYSDK_OFFSET(0xBB1DDA0)
 #define NCPHGMEMAPP_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xBB1DD00)
 
+inline static constexpr unsigned int NCPHGMEMAPP_TypeDefinitionIndex = 77697;
+
 	class NCPHGMEMAPP : public ::HBLDGJCDJPF
 	{
 	public:

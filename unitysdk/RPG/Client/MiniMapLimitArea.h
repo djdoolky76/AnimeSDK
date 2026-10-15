@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MiniMapLimitArea_TypeDefinitionIndex = 68957;
+
 	class MiniMapLimitArea : public ::UnityEngine::MonoBehaviour
 	{
 	public:

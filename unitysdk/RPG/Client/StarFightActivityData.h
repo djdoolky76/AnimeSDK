@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StarFightActivityData_TypeDefinitionIndex = 61665;
+
 	class StarFightActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

@@ -19,6 +19,8 @@ class HECCJLJMCCE;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateGameMasterTalkInfoItem_TypeDefinitionIndex = 64108;
+
 	class FateGameMasterTalkInfoItem : public ::System::Object
 	{
 	public:

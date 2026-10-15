@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 namespace SRDebugger::Profiler
 {
+	inline static constexpr unsigned int ProfilerLateUpdateListener_TypeDefinitionIndex = 38092;
+
 	class ProfilerLateUpdateListener : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class BattlePassWeekConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattlePassWeekConfigRow_TypeDefinitionIndex = 12875;
+
 	class BattlePassWeekConfigRow : public ::System::Object
 	{
 	public:

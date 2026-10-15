@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournGameScoreSettleResultVirtualItem_TypeDefinitionIndex = 67845;
+
 	class RogueTournGameScoreSettleResultVirtualItem : public ::System::Object
 	{
 	public:

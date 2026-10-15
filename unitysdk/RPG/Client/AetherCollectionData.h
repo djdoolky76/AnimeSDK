@@ -17,6 +17,8 @@ namespace RPG::Client { class AetherDivideModule; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AetherCollectionData_TypeDefinitionIndex = 62234;
+
 	class AetherCollectionData : public ::System::Object
 	{
 	public:

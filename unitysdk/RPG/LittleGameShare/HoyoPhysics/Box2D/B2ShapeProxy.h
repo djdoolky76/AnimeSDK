@@ -5,6 +5,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2ShapeProxy_TypeDefinitionIndex = 36767;
+
 	struct alignas(8) B2ShapeProxy
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2FixedArray8_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2> points; // 0x10

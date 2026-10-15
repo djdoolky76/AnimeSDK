@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MarbleByCheckHaveSkill; }
 #define GKJAKDLLLGA_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1CAB0980)
 #define GKJAKDLLLGA___EVALUATEIMP_B__1_0_OFFSET UNITYSDK_OFFSET(0x1CAB0A80)
 
+inline static constexpr unsigned int GKJAKDLLLGA_TypeDefinitionIndex = 43153;
+
 	class GKJAKDLLLGA : public ::LHJPMDPJPEC
 	{
 	public:

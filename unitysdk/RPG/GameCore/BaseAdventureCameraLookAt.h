@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaseAdventureCameraLookAt_TypeDefinitionIndex = 23730;
+
 	class BaseAdventureCameraLookAt : public ::RPG::GameCore::TaskConfig
 	{
 	public:

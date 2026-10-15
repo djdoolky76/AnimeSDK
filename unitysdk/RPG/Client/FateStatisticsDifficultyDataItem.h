@@ -21,6 +21,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateStatisticsDifficultyDataItem_TypeDefinitionIndex = 64128;
+
 	class FateStatisticsDifficultyDataItem : public ::System::Object
 	{
 	public:

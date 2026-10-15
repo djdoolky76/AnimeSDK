@@ -18,6 +18,8 @@ namespace UnityEngine::Rendering { class ProfilingSampler; }
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
+	inline static constexpr unsigned int RenderGraph_RenderPass_TypeDefinitionIndex = 35452;
+
 	class RenderGraph_RenderPass : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPG::GameCore { class LevelTurnInsertAbilityAfterUltraSkillBegin; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelTurnInsertAbilityAfterUltraSkillBegin_TypeDefinitionIndex = 56726;
+
 	class LevelTurnInsertAbilityAfterUltraSkillBegin : public ::CMPGEAFHHDC
 	{
 	public:

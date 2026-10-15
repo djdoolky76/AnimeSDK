@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DistrictSetupGeometryTrigger_TypeDefinitionIndex = 21972;
+
 	class DistrictSetupGeometryTrigger : public ::RPG::GameCore::TaskConfig
 	{
 	public:

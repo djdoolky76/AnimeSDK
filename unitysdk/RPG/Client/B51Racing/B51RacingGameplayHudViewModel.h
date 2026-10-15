@@ -6,6 +6,8 @@
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingGameplayHudViewModel_TypeDefinitionIndex = 82039;
+
 	class B51RacingGameplayHudViewModel : public ::System::Object
 	{
 	public:

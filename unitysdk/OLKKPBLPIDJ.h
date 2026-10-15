@@ -9,6 +9,8 @@ namespace System { class String; }
 #define OLKKPBLPIDJ_UNRESOLVE_OFFSET UNITYSDK_OFFSET(0xBF0F5F0)
 #define OLKKPBLPIDJ__RESOLVE_OFFSET UNITYSDK_OFFSET(0xBF0F4B0)
 
+inline static constexpr unsigned int OLKKPBLPIDJ_TypeDefinitionIndex = 56523;
+
 	class OLKKPBLPIDJ
 	{
 	public:

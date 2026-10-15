@@ -40,6 +40,8 @@ namespace UnityEngine::UI { class Button; }
 #define JEIIMOFONFD__ONBIND_OFFSET UNITYSDK_OFFSET(0x1662A1C0)
 #define JEIIMOFONFD__ONTICK_OFFSET UNITYSDK_OFFSET(0x16629F90)
 
+inline static constexpr unsigned int JEIIMOFONFD_TypeDefinitionIndex = 72279;
+
 	class JEIIMOFONFD : public ::FMPCODLIOLG
 	{
 	public:

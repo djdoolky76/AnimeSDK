@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleBulletCommentItem_TypeDefinitionIndex = 23251;
+
 	class BattleBulletCommentItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define NINEEGGAMBC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB37C00)
 #define NINEEGGAMBC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB37C60)
 
+inline static constexpr unsigned int NINEEGGAMBC_TypeDefinitionIndex = 31978;
+
 	class NINEEGGAMBC : public ::System::Object
 	{
 	public:

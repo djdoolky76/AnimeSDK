@@ -7,6 +7,8 @@ namespace UnityEngine::UIElements { class EventBase; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int EventDebuggerLogExecuteDefaultAction_TypeDefinitionIndex = 5993;
+
 	struct alignas(4) EventDebuggerLogExecuteDefaultAction
 	{
 		::System::Void _ctor(::UnityEngine::UIElements::EventBase* a1)

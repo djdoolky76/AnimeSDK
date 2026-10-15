@@ -8,6 +8,8 @@ namespace RPG::Client { class HandbookModule; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HandbookModule___c__DisplayClass125_0_TypeDefinitionIndex = 65636;
+
 	class HandbookModule___c__DisplayClass125_0 : public ::System::Object
 	{
 	public:

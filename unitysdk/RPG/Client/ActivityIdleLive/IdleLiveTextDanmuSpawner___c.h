@@ -11,6 +11,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveTextDanmuSpawner___c_TypeDefinitionIndex = 75191;
+
 	class IdleLiveTextDanmuSpawner___c : public ::System::Object
 	{
 	public:

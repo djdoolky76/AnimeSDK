@@ -3,6 +3,8 @@
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int ISite_TypeDefinitionIndex = 2604;
+
 	class ISite
 	{
 	public:

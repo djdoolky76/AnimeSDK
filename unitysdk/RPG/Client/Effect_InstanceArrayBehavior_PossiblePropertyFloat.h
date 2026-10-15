@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_InstanceArrayBehavior_PossiblePropertyFloat_TypeDefinitionIndex = 70614;
+
 	class Effect_InstanceArrayBehavior_PossiblePropertyFloat : public ::System::Object
 	{
 	public:

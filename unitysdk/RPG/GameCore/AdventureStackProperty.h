@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureStackProperty_TypeDefinitionIndex = 21762;
+
 	class AdventureStackProperty : public ::RPG::GameCore::TaskConfig
 	{
 	public:

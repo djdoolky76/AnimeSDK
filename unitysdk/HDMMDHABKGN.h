@@ -5,6 +5,8 @@ class ECNEEKNHIOE;
 
 #define HDMMDHABKGN_CTOR_OFFSET UNITYSDK_OFFSET(0x15C3E900)
 
+inline static constexpr unsigned int HDMMDHABKGN_TypeDefinitionIndex = 80568;
+
 	class HDMMDHABKGN : public ::System::Object
 	{
 	public:

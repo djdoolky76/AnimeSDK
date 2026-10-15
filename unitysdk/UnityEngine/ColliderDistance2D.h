@@ -4,6 +4,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ColliderDistance2D_TypeDefinitionIndex = 5807;
+
 	struct alignas(4) ColliderDistance2D
 	{
 		::UnityEngine::Vector2 m_PointA; // 0x10

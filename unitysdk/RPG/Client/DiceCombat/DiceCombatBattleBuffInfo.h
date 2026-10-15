@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatBattleBuffInfo_TypeDefinitionIndex = 76031;
+
 	class DiceCombatBattleBuffInfo : public ::System::Object
 	{
 	public:

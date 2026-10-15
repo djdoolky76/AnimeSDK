@@ -17,6 +17,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JEHBKLPGDDP_TICK_OFFSET UNITYSDK_OFFSET(0x16622FE0)
 #define JEHBKLPGDDP___SHOWTUTORIALGUIDE_B__5_0_OFFSET UNITYSDK_OFFSET(0x166231E0)
 
+inline static constexpr unsigned int JEHBKLPGDDP_TypeDefinitionIndex = 58701;
+
 	class JEHBKLPGDDP : public ::GELIALJDFBL
 	{
 	public:

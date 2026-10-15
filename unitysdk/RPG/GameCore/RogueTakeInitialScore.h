@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueTakeInitialScore; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTakeInitialScore_TypeDefinitionIndex = 22288;
+
 	class RogueTakeInitialScore : public ::RPG::GameCore::TaskConfig
 	{
 	public:

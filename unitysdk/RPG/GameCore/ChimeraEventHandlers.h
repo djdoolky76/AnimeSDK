@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraEventHandlers; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraEventHandlers_TypeDefinitionIndex = 15847;
+
 	class ChimeraEventHandlers : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int GradientTex_TypeDefinitionIndex = 37886;
+
 	class GradientTex : public ::System::Object
 	{
 	public:

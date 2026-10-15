@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 #define ODNFMKLDPJO_IPKLEHABJDF_OFFSET UNITYSDK_OFFSET(0xBDF1850)
 #define ODNFMKLDPJO__ONBIND_OFFSET UNITYSDK_OFFSET(0xBDF17A0)
 
+inline static constexpr unsigned int ODNFMKLDPJO_TypeDefinitionIndex = 71668;
+
 	class ODNFMKLDPJO : public ::FMPCODLIOLG
 	{
 	public:

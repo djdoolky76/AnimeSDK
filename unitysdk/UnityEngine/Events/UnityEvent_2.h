@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Events
 {
+	inline static constexpr unsigned int UnityEvent_2_TypeDefinitionIndex = 4496;
+
 	template <typename T1, typename T2>
 	class UnityEvent_2 : public ::UnityEngine::Events::UnityEventBase
 	{

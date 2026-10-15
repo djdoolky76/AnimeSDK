@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GJJCGMJMGMF_HKEPJLDBGIG_OFFSET UNITYSDK_OFFSET(0x1C47E7E0)
 #define GJJCGMJMGMF_JIEICCEMJEG_OFFSET UNITYSDK_OFFSET(0x1C47E220)
 
+inline static constexpr unsigned int GJJCGMJMGMF_TypeDefinitionIndex = 41469;
+
 	class GJJCGMJMGMF : public ::System::Object
 	{
 	public:

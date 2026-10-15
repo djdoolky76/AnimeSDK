@@ -11,6 +11,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournBuildRefInfo___c__DisplayClass9_0_TypeDefinitionIndex = 67530;
+
 	class RogueTournBuildRefInfo___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

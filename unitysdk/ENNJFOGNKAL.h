@@ -7,6 +7,8 @@
 #define ENNJFOGNKAL__CUSTOMBINDVIEW_OFFSET UNITYSDK_OFFSET(0x155B42A0)
 #define ENNJFOGNKAL__UNBINDVIEW_OFFSET UNITYSDK_OFFSET(0x155B43A0)
 
+inline static constexpr unsigned int ENNJFOGNKAL_TypeDefinitionIndex = 65840;
+
 	class ENNJFOGNKAL : public ::RPG::Client::UIController
 	{
 	public:

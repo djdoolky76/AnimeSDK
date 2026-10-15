@@ -14,6 +14,8 @@ namespace RPG::Client::RoadRash { class RoadRashGameSettingsConfigure_RoadRashTR
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int RoadRashGameSettingsConfigure_TypeDefinitionIndex = 75895;
+
 	class RoadRashGameSettingsConfigure : public ::UnityEngine::ScriptableObject
 	{
 	public:

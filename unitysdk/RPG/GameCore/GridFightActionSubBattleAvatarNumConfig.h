@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightActionSubBattleAvatarNumConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightActionSubBattleAvatarNumConfig_TypeDefinitionIndex = 19305;
+
 	class GridFightActionSubBattleAvatarNumConfig : public ::RPG::GameCore::GridFightActionConfigBase
 	{
 	public:

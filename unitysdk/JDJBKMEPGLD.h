@@ -8,6 +8,8 @@ namespace RPG::GameCore { class CakeRaceBuffConfig; }
 
 #define JDJBKMEPGLD_JCEMLMIABIP_OFFSET UNITYSDK_OFFSET(0x1C6F4610)
 
+inline static constexpr unsigned int JDJBKMEPGLD_TypeDefinitionIndex = 37403;
+
 	class JDJBKMEPGLD : public ::System::Object
 	{
 	public:

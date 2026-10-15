@@ -9,6 +9,8 @@
 #define KEPOOHPDFJG_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB3872E0)
 #define KEPOOHPDFJG_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xB3872F0)
 
+inline static constexpr unsigned int KEPOOHPDFJG_TypeDefinitionIndex = 56146;
+
 	class KEPOOHPDFJG : public ::DBGDNLLDPFI
 	{
 	public:

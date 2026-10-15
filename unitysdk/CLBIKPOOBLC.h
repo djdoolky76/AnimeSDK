@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CLBIKPOOBLC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD776C70)
 #define CLBIKPOOBLC_TICK_OFFSET UNITYSDK_OFFSET(0xD776CC0)
 
+inline static constexpr unsigned int CLBIKPOOBLC_TypeDefinitionIndex = 56364;
+
 	class CLBIKPOOBLC : public ::GELIALJDFBL
 	{
 	public:

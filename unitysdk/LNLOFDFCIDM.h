@@ -7,6 +7,8 @@ namespace System::Threading { class ManualResetEvent; }
 #define LNLOFDFCIDM_EEMDBGCMHLP_OFFSET UNITYSDK_OFFSET(0xB7E8950)
 #define LNLOFDFCIDM_OEPGEEFHCDL_OFFSET UNITYSDK_OFFSET(0xB7E8A60)
 
+inline static constexpr unsigned int LNLOFDFCIDM_TypeDefinitionIndex = 59441;
+
 	class LNLOFDFCIDM : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System::Xml::Schema { class FacetsChecker; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_long_TypeDefinitionIndex = 2136;
+
 	class Datatype_long : public ::System::Xml::Schema::Datatype_integer
 	{
 	public:

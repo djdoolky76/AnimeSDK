@@ -23,6 +23,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MultiLightEffectMaterialBlock_TypeDefinitionIndex = 70689;
+
 	class MultiLightEffectMaterialBlock : public ::UnityEngine::MonoBehaviour
 	{
 	public:

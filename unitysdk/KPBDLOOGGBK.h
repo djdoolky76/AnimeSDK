@@ -55,6 +55,8 @@ namespace UnityEngine { class Texture3D; }
 #define KPBDLOOGGBK_PIBBPFDIDLN_OFFSET UNITYSDK_OFFSET(0xB5A79A0)
 #define KPBDLOOGGBK_SET_NAMEPREFIX_OFFSET UNITYSDK_OFFSET(0xB5A77C0)
 
+inline static constexpr unsigned int KPBDLOOGGBK_TypeDefinitionIndex = 47479;
+
 	class KPBDLOOGGBK : public ::System::Object
 	{
 	public:

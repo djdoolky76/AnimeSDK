@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueParamRogueTournRoomAttributeCountConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueParamRogueTournRoomAttributeCountConfig_TypeDefinitionIndex = 19854;
+
 	class RogueParamRogueTournRoomAttributeCountConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:

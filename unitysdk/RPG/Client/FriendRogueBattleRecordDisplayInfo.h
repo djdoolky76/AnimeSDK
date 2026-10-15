@@ -17,6 +17,8 @@ namespace RPG::Client { class RogueTournDivisionData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FriendRogueBattleRecordDisplayInfo_TypeDefinitionIndex = 64247;
+
 	class FriendRogueBattleRecordDisplayInfo : public ::System::Object
 	{
 	public:

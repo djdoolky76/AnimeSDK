@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PingPongEnemyShootOverrideConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PingPongEnemyShootOverrideConfig_TypeDefinitionIndex = 18939;
+
 	class PingPongEnemyShootOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvNavigationState_TypeDefinitionIndex = 57115;
+
 	enum class AdvNavigationState : ::System::Int32
 	{
 		Ready = 0,

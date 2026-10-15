@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitAllProjectileFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitAllProjectileFinish_TypeDefinitionIndex = 23550;
+
 	class WaitAllProjectileFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -6,6 +6,8 @@
 #define PNAMLHEHKHB_CTOR_OFFSET UNITYSDK_OFFSET(0xC332B50)
 #define PNAMLHEHKHB_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xC332BA0)
 
+inline static constexpr unsigned int PNAMLHEHKHB_TypeDefinitionIndex = 69797;
+
 	class PNAMLHEHKHB : public ::HGEGFCADEEC
 	{
 	public:

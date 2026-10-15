@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetFetchFateRinCardSkillTargetList_TypeDefinitionIndex = 24015;
+
 	class TargetFetchFateRinCardSkillTargetList : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:

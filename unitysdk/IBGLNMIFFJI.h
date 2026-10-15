@@ -9,6 +9,8 @@ namespace RPG::GameCore { class HipplenIncidentStepConfig; }
 #define IBGLNMIFFJI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15E32450)
 #define IBGLNMIFFJI_ODHGGOOEIAC_OFFSET UNITYSDK_OFFSET(0x15E326D0)
 
+inline static constexpr unsigned int IBGLNMIFFJI_TypeDefinitionIndex = 75555;
+
 	class IBGLNMIFFJI : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NOHKADAPKHE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB8B5F0)
 #define NOHKADAPKHE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EB8B600)
 
+inline static constexpr unsigned int NOHKADAPKHE___c_TypeDefinitionIndex = 30060;
+
 	class NOHKADAPKHE___c : public ::System::Object
 	{
 	public:

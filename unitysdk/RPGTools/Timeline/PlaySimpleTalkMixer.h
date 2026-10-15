@@ -18,6 +18,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int PlaySimpleTalkMixer_TypeDefinitionIndex = 48226;
+
 	class PlaySimpleTalkMixer : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

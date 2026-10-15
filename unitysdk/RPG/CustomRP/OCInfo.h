@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int OCInfo_TypeDefinitionIndex = 37580;
+
 	class OCInfo : public ::System::Object
 	{
 	public:

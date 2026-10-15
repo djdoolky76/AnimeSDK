@@ -13,6 +13,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EmsMatCustomDictionay_TypeDefinitionIndex = 70740;
+
 	class EmsMatCustomDictionay : public ::System::Object
 	{
 	public:

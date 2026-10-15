@@ -62,6 +62,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineFreeLook_TypeDefinitionIndex = 39738;
+
 	class CinemachineFreeLook : public ::Cinemachine::CinemachineVirtualCameraBase
 	{
 	public:

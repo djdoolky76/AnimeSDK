@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvPlayerEnableIdleShow_TypeDefinitionIndex = 20236;
+
 	class AdvPlayerEnableIdleShow : public ::RPG::GameCore::TaskConfig
 	{
 	public:

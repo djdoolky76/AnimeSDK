@@ -6,6 +6,8 @@ namespace System { class String; }
 #define EMIOLHAIOIG_GET_BLOCKNAME_OFFSET UNITYSDK_OFFSET(0x1D30)
 #define EMIOLHAIOIG_GET_REASON_OFFSET UNITYSDK_OFFSET(0x1D40)
 
+inline static constexpr unsigned int EMIOLHAIOIG_TypeDefinitionIndex = 62166;
+
 	struct alignas(8) EMIOLHAIOIG
 	{
 		::System::String* _BlockName_k__BackingField; // 0x10

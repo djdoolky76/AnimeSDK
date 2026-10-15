@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamFormationComponent_MultiRowTargetSelector_TypeDefinitionIndex = 57703;
+
 	class TeamFormationComponent_MultiRowTargetSelector : public ::System::Object
 	{
 	public:

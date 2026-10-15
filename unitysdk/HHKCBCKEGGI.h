@@ -4,6 +4,8 @@
 
 #define HHKCBCKEGGI_CTOR_OFFSET UNITYSDK_OFFSET(0x15CD0290)
 
+inline static constexpr unsigned int HHKCBCKEGGI_TypeDefinitionIndex = 75673;
+
 	class HHKCBCKEGGI : public ::System::Object
 	{
 	public:

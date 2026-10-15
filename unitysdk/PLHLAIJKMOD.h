@@ -13,6 +13,8 @@ namespace System { class String; }
 #define PLHLAIJKMOD_OBAFLPMJEBE_OFFSET UNITYSDK_OFFSET(0x3C29090)
 #define PLHLAIJKMOD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C28FA0)
 
+inline static constexpr unsigned int PLHLAIJKMOD_TypeDefinitionIndex = 41831;
+
 	struct alignas(4) PLHLAIJKMOD
 	{
 		::UnityEngine::Vector2Int BBFOLEOPPPL; // 0x10

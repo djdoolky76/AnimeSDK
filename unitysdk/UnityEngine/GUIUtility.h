@@ -78,6 +78,8 @@ namespace UnityEngine { class ScriptableObject; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GUIUtility_TypeDefinitionIndex = 5187;
+
 	class GUIUtility : public ::System::Object
 	{
 	public:

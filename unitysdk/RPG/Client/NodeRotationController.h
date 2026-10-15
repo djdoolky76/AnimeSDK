@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NodeRotationController_TypeDefinitionIndex = 68634;
+
 	class NodeRotationController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

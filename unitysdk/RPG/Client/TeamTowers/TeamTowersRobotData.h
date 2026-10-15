@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersRobotData_TypeDefinitionIndex = 79031;
+
 	class TeamTowersRobotData : public ::System::Object
 	{
 	public:

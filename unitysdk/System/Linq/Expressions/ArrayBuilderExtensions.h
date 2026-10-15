@@ -4,6 +4,8 @@
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int ArrayBuilderExtensions_TypeDefinitionIndex = 3206;
+
 	class ArrayBuilderExtensions : public ::System::Object
 	{
 	public:

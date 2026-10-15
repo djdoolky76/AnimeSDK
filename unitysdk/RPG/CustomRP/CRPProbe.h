@@ -36,6 +36,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPProbe_TypeDefinitionIndex = 37683;
+
 	class CRPProbe : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int DiagnosticsTraceWriter_TypeDefinitionIndex = 9688;
+
 	class DiagnosticsTraceWriter : public ::System::Object
 	{
 	public:

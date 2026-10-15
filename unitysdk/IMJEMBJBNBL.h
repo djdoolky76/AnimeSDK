@@ -5,6 +5,8 @@
 
 #define IMJEMBJBNBL_KBNJDPKPIKB_OFFSET UNITYSDK_OFFSET(0x164DC730)
 
+inline static constexpr unsigned int IMJEMBJBNBL_TypeDefinitionIndex = 53733;
+
 	class IMJEMBJBNBL : public ::System::Object
 	{
 	public:

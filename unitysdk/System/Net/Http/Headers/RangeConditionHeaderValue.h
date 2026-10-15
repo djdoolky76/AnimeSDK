@@ -22,6 +22,8 @@ namespace System::Net::Http::Headers { class RangeConditionHeaderValue; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int RangeConditionHeaderValue_TypeDefinitionIndex = 3822;
+
 	class RangeConditionHeaderValue : public ::System::Object
 	{
 	public:

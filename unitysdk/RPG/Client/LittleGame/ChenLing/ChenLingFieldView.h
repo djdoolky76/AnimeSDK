@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::ChenLing
 {
+	inline static constexpr unsigned int ChenLingFieldView_TypeDefinitionIndex = 77971;
+
 	class ChenLingFieldView : public ::RPG::Client::LittleGame::ChenLing::ChenLingGameView
 	{
 	public:

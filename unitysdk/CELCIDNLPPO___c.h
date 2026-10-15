@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CELCIDNLPPO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0990C0)
 #define CELCIDNLPPO___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E0990D0)
 
+inline static constexpr unsigned int CELCIDNLPPO___c_TypeDefinitionIndex = 32389;
+
 	class CELCIDNLPPO___c : public ::System::Object
 	{
 	public:

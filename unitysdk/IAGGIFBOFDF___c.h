@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define IAGGIFBOFDF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E604FF0)
 #define IAGGIFBOFDF___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E605000)
 
+inline static constexpr unsigned int IAGGIFBOFDF___c_TypeDefinitionIndex = 25681;
+
 	class IAGGIFBOFDF___c : public ::System::Object
 	{
 	public:

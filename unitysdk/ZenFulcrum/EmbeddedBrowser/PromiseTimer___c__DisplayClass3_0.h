@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int PromiseTimer___c__DisplayClass3_0_TypeDefinitionIndex = 39539;
+
 	class PromiseTimer___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

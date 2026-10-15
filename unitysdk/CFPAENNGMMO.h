@@ -17,6 +17,8 @@ namespace System { class String; }
 #define CFPAENNGMMO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC0B2C0)
 #define CFPAENNGMMO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC0B180)
 
+inline static constexpr unsigned int CFPAENNGMMO_TypeDefinitionIndex = 24200;
+
 	class CFPAENNGMMO : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

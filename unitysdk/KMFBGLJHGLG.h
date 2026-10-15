@@ -5,6 +5,8 @@
 
 #define KMFBGLJHGLG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9089F0)
 
+inline static constexpr unsigned int KMFBGLJHGLG_TypeDefinitionIndex = 42502;
+
 	class KMFBGLJHGLG : public ::System::Object
 	{
 	public:

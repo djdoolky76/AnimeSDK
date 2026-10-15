@@ -8,6 +8,8 @@ namespace RPG::Client { class ActivityModule; }
 #define LKFAPBHAHCK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB732F80)
 #define LKFAPBHAHCK_CTOR_OFFSET UNITYSDK_OFFSET(0xB732F30)
 
+inline static constexpr unsigned int LKFAPBHAHCK_TypeDefinitionIndex = 61705;
+
 	class LKFAPBHAHCK : public ::System::Object
 	{
 	public:

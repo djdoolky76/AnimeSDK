@@ -10,6 +10,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 #define OKKFJLFMPFK___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBEE0190)
 #define OKKFJLFMPFK___C__DISPLAYCLASS4_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xBEE8D30)
 
+inline static constexpr unsigned int OKKFJLFMPFK___c__DisplayClass4_0_TypeDefinitionIndex = 56371;
+
 	class OKKFJLFMPFK___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

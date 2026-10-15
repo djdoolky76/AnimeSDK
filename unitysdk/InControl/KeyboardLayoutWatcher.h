@@ -17,6 +17,8 @@ namespace System::Threading { class Timer; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int KeyboardLayoutWatcher_TypeDefinitionIndex = 40862;
+
 	class KeyboardLayoutWatcher : public ::System::Object
 	{
 	public:

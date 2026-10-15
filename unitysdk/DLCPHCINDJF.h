@@ -13,6 +13,8 @@ namespace System { class String; }
 #define DLCPHCINDJF_JAJHGFBIKIG_OFFSET UNITYSDK_OFFSET(0xF898520)
 #define DLCPHCINDJF_MDPIAODLBID_OFFSET UNITYSDK_OFFSET(0xF898430)
 
+inline static constexpr unsigned int DLCPHCINDJF_TypeDefinitionIndex = 72179;
+
 	class DLCPHCINDJF : public ::System::Object
 	{
 	public:

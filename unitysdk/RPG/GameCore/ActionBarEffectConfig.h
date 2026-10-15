@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActionBarEffectConfig_TypeDefinitionIndex = 22947;
+
 	class ActionBarEffectConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

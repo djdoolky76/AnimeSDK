@@ -11,6 +11,8 @@ namespace System::Collections::Generic { class ObjectEqualityComparer; }
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int ObjectEqualityComparer_TypeDefinitionIndex = 1543;
+
 	class ObjectEqualityComparer : public ::System::Object
 	{
 	public:

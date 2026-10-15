@@ -27,6 +27,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace RPG::Client::FullBody
 {
+	inline static constexpr unsigned int Grounder_TypeDefinitionIndex = 74230;
+
 	class Grounder : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -50,6 +50,8 @@ namespace UnityEngine { class Animator; }
 #define GBHFOGMDJPF_SET_TASKCONTEXT_OFFSET UNITYSDK_OFFSET(0x15950390)
 #define GBHFOGMDJPF_SET_WORLDREF_OFFSET UNITYSDK_OFFSET(0x15950360)
 
+inline static constexpr unsigned int GBHFOGMDJPF_TypeDefinitionIndex = 77329;
+
 	class GBHFOGMDJPF : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int DialogHandler_MenuCallback_TypeDefinitionIndex = 39495;
+
 	class DialogHandler_MenuCallback : public ::System::MulticastDelegate
 	{
 	public:

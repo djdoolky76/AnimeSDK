@@ -11,6 +11,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RandomPlayAnimation_TypeDefinitionIndex = 68812;
+
 	class RandomPlayAnimation : public ::UnityEngine::MonoBehaviour
 	{
 	public:

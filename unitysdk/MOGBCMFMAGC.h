@@ -30,6 +30,8 @@ namespace UnityEngine { class RenderTexture; }
 #define MOGBCMFMAGC__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xBA2B030)
 #define MOGBCMFMAGC__UNBINDVIEW_OFFSET UNITYSDK_OFFSET(0xBA2B130)
 
+inline static constexpr unsigned int MOGBCMFMAGC_TypeDefinitionIndex = 72786;
+
 	class MOGBCMFMAGC : public ::RPG::Client::UIController
 	{
 	public:

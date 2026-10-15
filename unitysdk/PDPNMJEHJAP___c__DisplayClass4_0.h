@@ -6,6 +6,8 @@ namespace RPG::Client::Promises { class Promise; }
 #define PDPNMJEHJAP___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC023750)
 #define PDPNMJEHJAP___C__DISPLAYCLASS4_0___SHOWCHESSROGUENEWLEVELDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0xC023860)
 
+inline static constexpr unsigned int PDPNMJEHJAP___c__DisplayClass4_0_TypeDefinitionIndex = 66965;
+
 	class PDPNMJEHJAP___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

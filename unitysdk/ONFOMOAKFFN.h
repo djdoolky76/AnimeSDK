@@ -8,6 +8,8 @@ class FNCJNHDMCBH;
 #define ONFOMOAKFFN_GET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0xBF518A0)
 #define ONFOMOAKFFN_GET_PAINTCOLORID_OFFSET UNITYSDK_OFFSET(0xBF51890)
 
+inline static constexpr unsigned int ONFOMOAKFFN_TypeDefinitionIndex = 80119;
+
 	class ONFOMOAKFFN : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleAIUseUltraSkillUIEvent_TypeDefinitionIndex = 72766;
+
 	class BattleAIUseUltraSkillUIEvent : public ::System::Object
 	{
 	public:

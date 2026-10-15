@@ -15,6 +15,8 @@ namespace RPGTools::Timeline { class SetCharacterAnimExtLayerEnableConfig; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SetCharacterAnimExtLayerEnableBehaviour_TypeDefinitionIndex = 47934;
+
 	class SetCharacterAnimExtLayerEnableBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

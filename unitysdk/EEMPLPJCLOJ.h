@@ -8,6 +8,8 @@ namespace ZLinq { class ValueEnumerable; }
 
 #define EEMPLPJCLOJ_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1DD3A090)
 
+inline static constexpr unsigned int EEMPLPJCLOJ_TypeDefinitionIndex = 6414;
+
 	class EEMPLPJCLOJ : public ::System::Object
 	{
 	public:

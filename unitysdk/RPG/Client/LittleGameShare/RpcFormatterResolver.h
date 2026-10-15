@@ -9,6 +9,8 @@ namespace MessagePack { class IFormatterResolver; }
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int RpcFormatterResolver_TypeDefinitionIndex = 37061;
+
 	class RpcFormatterResolver : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int PlayerLoopHelper___c_TypeDefinitionIndex = 38209;
+
 	class PlayerLoopHelper___c : public ::System::Object
 	{
 	public:

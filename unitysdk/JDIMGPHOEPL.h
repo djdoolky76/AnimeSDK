@@ -33,6 +33,8 @@ namespace System { class String; }
 #define JDIMGPHOEPL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E70B900)
 #define JDIMGPHOEPL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E70B960)
 
+inline static constexpr unsigned int JDIMGPHOEPL_TypeDefinitionIndex = 31325;
+
 	class JDIMGPHOEPL : public ::System::Object
 	{
 	public:

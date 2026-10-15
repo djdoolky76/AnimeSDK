@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEquipCraftCombination_TypeDefinitionIndex = 64511;
+
 	class GridFightEquipCraftCombination : public ::System::Object
 	{
 	public:

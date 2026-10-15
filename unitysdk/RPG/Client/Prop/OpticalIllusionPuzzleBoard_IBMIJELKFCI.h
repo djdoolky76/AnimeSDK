@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int OpticalIllusionPuzzleBoard_IBMIJELKFCI_TypeDefinitionIndex = 78704;
+
 	class OpticalIllusionPuzzleBoard_IBMIJELKFCI : public ::System::Object
 	{
 	public:

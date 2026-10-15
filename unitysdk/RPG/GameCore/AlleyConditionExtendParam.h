@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AlleyConditionExtendParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AlleyConditionExtendParam_TypeDefinitionIndex = 15677;
+
 	class AlleyConditionExtendParam : public ::RPG::GameCore::JsonConfig
 	{
 	public:

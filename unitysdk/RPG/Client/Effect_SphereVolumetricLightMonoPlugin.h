@@ -21,6 +21,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_SphereVolumetricLightMonoPlugin_TypeDefinitionIndex = 70558;
+
 	class Effect_SphereVolumetricLightMonoPlugin
 	{
 	public:

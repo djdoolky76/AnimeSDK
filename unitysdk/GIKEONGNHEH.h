@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GIKEONGNHEH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E49D410)
 #define GIKEONGNHEH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E49D470)
 
+inline static constexpr unsigned int GIKEONGNHEH_TypeDefinitionIndex = 26123;
+
 	class GIKEONGNHEH : public ::System::Object
 	{
 	public:

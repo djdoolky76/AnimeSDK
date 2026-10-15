@@ -6,6 +6,8 @@ namespace UnityEngine { class GameObject; }
 #define ABDMJGCCAHG_CTOR_OFFSET UNITYSDK_OFFSET(0xB0F03E0)
 #define ABDMJGCCAHG_GETTYPEID_OFFSET UNITYSDK_OFFSET(0xB0F03F0)
 
+inline static constexpr unsigned int ABDMJGCCAHG_TypeDefinitionIndex = 49043;
+
 	class ABDMJGCCAHG : public ::GPFEAEOEGFA
 	{
 	public:

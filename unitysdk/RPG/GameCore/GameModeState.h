@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameModeState_TypeDefinitionIndex = 16455;
+
 	enum class GameModeState : ::System::Int32
 	{
 		PreBattle = 0,

@@ -9,6 +9,8 @@ namespace RPG::Client { class UIController; }
 #define GPOBDDKIHKC_ONEXITBEGIN_OFFSET UNITYSDK_OFFSET(0x15B64520)
 #define GPOBDDKIHKC_ONTRANSITIONEND_OFFSET UNITYSDK_OFFSET(0x15B64820)
 
+inline static constexpr unsigned int GPOBDDKIHKC_TypeDefinitionIndex = 73122;
+
 	class GPOBDDKIHKC : public ::HFACHPPOANI
 	{
 	public:

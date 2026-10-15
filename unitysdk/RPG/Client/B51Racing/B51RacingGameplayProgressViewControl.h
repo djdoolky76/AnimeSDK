@@ -7,6 +7,8 @@
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingGameplayProgressViewControl_TypeDefinitionIndex = 81897;
+
 	class B51RacingGameplayProgressViewControl : public ::Sofa::BaseSofaControl
 	{
 	public:

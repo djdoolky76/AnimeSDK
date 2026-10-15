@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SpritePresetRecord; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SpritePresetRecord_TypeDefinitionIndex = 24419;
+
 	class SpritePresetRecord : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -35,6 +35,8 @@ namespace System { class String; }
 #define OINNEGOFKAA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE7A8C0)
 #define OINNEGOFKAA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE7A920)
 
+inline static constexpr unsigned int OINNEGOFKAA_TypeDefinitionIndex = 25175;
+
 	class OINNEGOFKAA : public ::System::Object
 	{
 	public:

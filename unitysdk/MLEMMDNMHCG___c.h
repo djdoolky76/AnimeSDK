@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define MLEMMDNMHCG___C___ITERATESORTEDACTIVETALENTEFFECTSOFTYPE_B__13_5_OFFSET UNITYSDK_OFFSET(0x1C572B20)
 #define MLEMMDNMHCG___C___ITERATESORTEDACTIVETALENTEFFECTSOFTYPE_B__13_8_OFFSET UNITYSDK_OFFSET(0x1C572B80)
 
+inline static constexpr unsigned int MLEMMDNMHCG___c_TypeDefinitionIndex = 41879;
+
 	class MLEMMDNMHCG___c : public ::System::Object
 	{
 	public:

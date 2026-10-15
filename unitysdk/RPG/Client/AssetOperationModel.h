@@ -45,6 +45,8 @@ namespace System { class Type; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AssetOperationModel_TypeDefinitionIndex = 41375;
+
 	class AssetOperationModel : public ::System::Object
 	{
 	public:

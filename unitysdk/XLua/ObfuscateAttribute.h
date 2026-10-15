@@ -6,6 +6,8 @@
 
 namespace XLua
 {
+	inline static constexpr unsigned int ObfuscateAttribute_TypeDefinitionIndex = 5602;
+
 	class ObfuscateAttribute : public ::System::Attribute
 	{
 	public:

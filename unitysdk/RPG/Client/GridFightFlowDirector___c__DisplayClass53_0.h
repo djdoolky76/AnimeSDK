@@ -9,6 +9,8 @@ namespace RPG::Client { class GridFightFlowDirector_ITransitionRule; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightFlowDirector___c__DisplayClass53_0_TypeDefinitionIndex = 64610;
+
 	class GridFightFlowDirector___c__DisplayClass53_0 : public ::System::Object
 	{
 	public:

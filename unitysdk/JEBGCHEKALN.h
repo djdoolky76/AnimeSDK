@@ -6,6 +6,8 @@ namespace UnityEngine { class Transform; }
 #define JEBGCHEKALN_CTOR_OFFSET UNITYSDK_OFFSET(0x16618BE0)
 #define JEBGCHEKALN_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x16618C50)
 
+inline static constexpr unsigned int JEBGCHEKALN_TypeDefinitionIndex = 69799;
+
 	class JEBGCHEKALN : public ::IHDHPABKGPB
 	{
 	public:

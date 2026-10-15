@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlTextWriter_TagInfo_TypeDefinitionIndex = 1864;
+
 	struct alignas(8) XmlTextWriter_TagInfo
 	{
 		::System::String* name; // 0x10

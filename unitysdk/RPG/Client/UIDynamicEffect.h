@@ -21,6 +21,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIDynamicEffect_TypeDefinitionIndex = 69096;
+
 	class UIDynamicEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

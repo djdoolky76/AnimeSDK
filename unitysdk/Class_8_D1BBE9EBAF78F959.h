@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int Class_8_D1BBE9EBAF78F959_TypeDefinitionIndex = 46895;
+
 	struct alignas(4) Class_8_D1BBE9EBAF78F959
 	{
 		::System::UInt32 Field_0; // 0x10

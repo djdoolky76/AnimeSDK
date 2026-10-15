@@ -19,6 +19,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoUIScreenConstraint_TypeDefinitionIndex = 68983;
+
 	class MonoUIScreenConstraint : public ::UnityEngine::MonoBehaviour
 	{
 	public:

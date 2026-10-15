@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NotifyShowFuncBtnParam_TypeDefinitionIndex = 53269;
+
 	class NotifyShowFuncBtnParam : public ::System::Object
 	{
 	public:

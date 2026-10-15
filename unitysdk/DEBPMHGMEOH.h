@@ -5,6 +5,8 @@
 #define DEBPMHGMEOH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA25780)
 #define DEBPMHGMEOH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA257E0)
 
+inline static constexpr unsigned int DEBPMHGMEOH_TypeDefinitionIndex = 43537;
+
 	class DEBPMHGMEOH : public ::LDLBMDMFIEE
 	{
 	public:

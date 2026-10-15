@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_setZoom_TypeDefinitionIndex = 39436;
+
 	class BrowserNative_Calltype_zfb_setZoom : public ::System::MulticastDelegate
 	{
 	public:

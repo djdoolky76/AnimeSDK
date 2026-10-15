@@ -11,6 +11,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int GenericDelegateFactory__Create_c__AnonStorey1_TypeDefinitionIndex = 7120;
+
 	class GenericDelegateFactory__Create_c__AnonStorey1 : public ::System::Object
 	{
 	public:

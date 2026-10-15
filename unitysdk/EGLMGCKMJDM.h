@@ -21,6 +21,8 @@ namespace UnityEngine { class GameObject; }
 #define EGLMGCKMJDM_NKLNPFICKKM_OFFSET UNITYSDK_OFFSET(0x1451E610)
 #define EGLMGCKMJDM_PJDMFCOOCMO_OFFSET UNITYSDK_OFFSET(0x1451DDD0)
 
+inline static constexpr unsigned int EGLMGCKMJDM_TypeDefinitionIndex = 81762;
+
 	class EGLMGCKMJDM : public ::System::Object
 	{
 	public:

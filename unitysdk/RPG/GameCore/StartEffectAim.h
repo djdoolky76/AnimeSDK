@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StartEffectAim_TypeDefinitionIndex = 22454;
+
 	class StartEffectAim : public ::RPG::GameCore::TaskConfig
 	{
 	public:

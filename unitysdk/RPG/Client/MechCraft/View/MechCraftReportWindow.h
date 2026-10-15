@@ -12,6 +12,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftReportControl; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftReportWindow_TypeDefinitionIndex = 80027;
+
 	class MechCraftReportWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:

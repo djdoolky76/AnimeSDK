@@ -12,6 +12,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int RuntimeVariablesInstruction_TypeDefinitionIndex = 3518;
+
 	class RuntimeVariablesInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:

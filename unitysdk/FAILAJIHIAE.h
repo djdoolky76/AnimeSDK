@@ -45,6 +45,8 @@ namespace UnityEngine { class Transform; }
 #define FAILAJIHIAE__ONBIND_OFFSET UNITYSDK_OFFSET(0x1567C920)
 #define FAILAJIHIAE__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x1567D9D0)
 
+inline static constexpr unsigned int FAILAJIHIAE_TypeDefinitionIndex = 72295;
+
 	class FAILAJIHIAE : public ::FMPCODLIOLG
 	{
 	public:

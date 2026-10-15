@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int CustomYieldInstruction_TypeDefinitionIndex = 4323;
+
 	class CustomYieldInstruction : public ::System::Object
 	{
 	public:

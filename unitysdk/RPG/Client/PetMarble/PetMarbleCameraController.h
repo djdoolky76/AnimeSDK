@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace RPG::Client::PetMarble
 {
+	inline static constexpr unsigned int PetMarbleCameraController_TypeDefinitionIndex = 74712;
+
 	class PetMarbleCameraController : public ::System::Object
 	{
 	public:

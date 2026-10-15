@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginRandomPosInRing_TypeDefinitionIndex = 70100;
+
 	class MonoEffectPluginRandomPosInRing : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

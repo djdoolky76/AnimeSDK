@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MIKGMGBHLEN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA3DDD0)
 #define MIKGMGBHLEN___C___CCTOR_B__32_0_OFFSET UNITYSDK_OFFSET(0x1EA3DDE0)
 
+inline static constexpr unsigned int MIKGMGBHLEN___c_TypeDefinitionIndex = 25898;
+
 	class MIKGMGBHLEN___c : public ::System::Object
 	{
 	public:

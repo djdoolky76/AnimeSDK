@@ -18,6 +18,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfRestaurantManageStatistics___c_TypeDefinitionIndex = 63745;
+
 	class ElfRestaurantManageStatistics___c : public ::System::Object
 	{
 	public:

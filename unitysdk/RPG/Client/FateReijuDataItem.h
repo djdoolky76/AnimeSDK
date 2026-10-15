@@ -28,6 +28,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateReijuDataItem_TypeDefinitionIndex = 64118;
+
 	class FateReijuDataItem : public ::System::Object
 	{
 	public:

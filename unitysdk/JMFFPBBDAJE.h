@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_Or; }
 #define JMFFPBBDAJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7067C0)
 #define JMFFPBBDAJE_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C7067E0)
 
+inline static constexpr unsigned int JMFFPBBDAJE_TypeDefinitionIndex = 36364;
+
 	class JMFFPBBDAJE : public ::HHOHBHGLHHF
 	{
 	public:

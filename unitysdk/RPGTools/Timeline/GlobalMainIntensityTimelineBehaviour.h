@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int GlobalMainIntensityTimelineBehaviour_TypeDefinitionIndex = 48471;
+
 	class GlobalMainIntensityTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HAMADBEECBL_GET_ORDERIDLIST_OFFSET UNITYSDK_OFFSET(0x15B8FF50)
 #define HAMADBEECBL_SET_ORDERIDLIST_OFFSET UNITYSDK_OFFSET(0x15B8FF60)
 
+inline static constexpr unsigned int HAMADBEECBL_TypeDefinitionIndex = 79672;
+
 	class HAMADBEECBL : public ::System::Object
 	{
 	public:

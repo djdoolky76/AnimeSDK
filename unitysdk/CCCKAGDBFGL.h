@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define CCCKAGDBFGL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC737C20)
 #define CCCKAGDBFGL_TICK_OFFSET UNITYSDK_OFFSET(0xC737C70)
 
+inline static constexpr unsigned int CCCKAGDBFGL_TypeDefinitionIndex = 58899;
+
 	class CCCKAGDBFGL : public ::GELIALJDFBL
 	{
 	public:

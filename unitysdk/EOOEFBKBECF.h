@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define EOOEFBKBECF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDBBAC0)
 #define EOOEFBKBECF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDBBA80)
 
+inline static constexpr unsigned int EOOEFBKBECF_TypeDefinitionIndex = 22323;
+
 	class EOOEFBKBECF : public ::RPG::GameCore::TaskConfig
 	{
 	public:

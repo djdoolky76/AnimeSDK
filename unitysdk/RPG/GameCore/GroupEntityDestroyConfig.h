@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GroupEntityDestroyConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GroupEntityDestroyConfig_TypeDefinitionIndex = 21227;
+
 	class GroupEntityDestroyConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

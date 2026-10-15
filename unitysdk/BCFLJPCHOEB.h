@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define BCFLJPCHOEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8B1AF0)
 
+inline static constexpr unsigned int BCFLJPCHOEB_TypeDefinitionIndex = 43215;
+
 	class BCFLJPCHOEB : public ::System::Object
 	{
 	public:

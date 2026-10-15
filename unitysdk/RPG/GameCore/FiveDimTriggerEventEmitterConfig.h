@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimTriggerEventEmitterConfig_TypeDefinitionIndex = 18637;
+
 	class FiveDimTriggerEventEmitterConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

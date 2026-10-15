@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChallengeBossDifficultyStateConfig_TypeDefinitionIndex = 16405;
+
 	class ChallengeBossDifficultyStateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

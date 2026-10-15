@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BGIBGHAGANE_CTOR_OFFSET UNITYSDK_OFFSET(0xB1894D0)
 #define BGIBGHAGANE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB189500)
 
+inline static constexpr unsigned int BGIBGHAGANE_TypeDefinitionIndex = 57992;
+
 	class BGIBGHAGANE
 	{
 	public:

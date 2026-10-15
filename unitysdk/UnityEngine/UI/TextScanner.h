@@ -17,6 +17,8 @@ namespace UnityEngine::UI { class SimpleStringReader; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int TextScanner_TypeDefinitionIndex = 6757;
+
 	class TextScanner : public ::System::Object
 	{
 	public:

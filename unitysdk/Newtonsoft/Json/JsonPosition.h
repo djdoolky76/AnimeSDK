@@ -17,6 +17,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace Newtonsoft::Json
 {
+	inline static constexpr unsigned int JsonPosition_TypeDefinitionIndex = 9591;
+
 	struct alignas(8) JsonPosition
 	{
 		::Newtonsoft::Json::JsonContainerType Type; // 0x10

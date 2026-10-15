@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetRoguePFBillboardInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetRoguePFBillboardInfo_TypeDefinitionIndex = 22083;
+
 	class SetRoguePFBillboardInfo : public ::RPG::GameCore::SetBillboardInfo
 	{
 	public:

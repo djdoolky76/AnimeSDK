@@ -11,6 +11,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int RepeatedFieldAccessor_TypeDefinitionIndex = 35852;
+
 	class RepeatedFieldAccessor : public ::MiHoYo::SDK::Protobuf::Reflection::FieldAccessorBase
 	{
 	public:

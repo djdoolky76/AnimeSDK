@@ -8,6 +8,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SignalCurvePoolEntry_TypeDefinitionIndex = 70961;
+
 	class SignalCurvePoolEntry : public ::System::Object
 	{
 	public:

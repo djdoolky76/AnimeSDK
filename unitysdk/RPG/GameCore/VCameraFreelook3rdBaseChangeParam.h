@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VCameraFreelook3rdBaseChangeParam_TypeDefinitionIndex = 16409;
+
 	class VCameraFreelook3rdBaseChangeParam : public ::RPG::GameCore::JsonConfig
 	{
 	public:

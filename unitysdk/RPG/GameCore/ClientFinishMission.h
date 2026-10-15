@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClientFinishMission_TypeDefinitionIndex = 20356;
+
 	class ClientFinishMission : public ::RPG::GameCore::TaskConfig
 	{
 	public:

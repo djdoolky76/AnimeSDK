@@ -10,6 +10,8 @@ class AMLPJLCCMPP;
 #define AMLPJLCCMPP_HMAONENFGHD_OFFSET UNITYSDK_OFFSET(0x155851D0)
 #define AMLPJLCCMPP_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x155851F0)
 
+inline static constexpr unsigned int AMLPJLCCMPP_TypeDefinitionIndex = 53694;
+
 	class AMLPJLCCMPP : public ::System::Object
 	{
 	public:

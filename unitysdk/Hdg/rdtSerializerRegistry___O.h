@@ -5,6 +5,8 @@ namespace Hdg { class rdtSerializerRegistry_ConvertObjectDelegate; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int rdtSerializerRegistry___O_TypeDefinitionIndex = 46968;
+
 	class rdtSerializerRegistry___O : public ::System::Object
 	{
 	public:

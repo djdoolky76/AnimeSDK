@@ -9,6 +9,8 @@ class PEEDLCHFAFL;
 
 #define EAEBHLNALON_FGKLJKEKAKE_OFFSET UNITYSDK_OFFSET(0x12673C70)
 
+inline static constexpr unsigned int EAEBHLNALON_TypeDefinitionIndex = 76874;
+
 	class EAEBHLNALON : public ::System::Object
 	{
 	public:

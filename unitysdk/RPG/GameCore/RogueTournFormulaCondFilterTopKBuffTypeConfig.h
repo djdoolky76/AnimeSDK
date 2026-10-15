@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueTournFormulaCondFilterTopKBuffTypeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournFormulaCondFilterTopKBuffTypeConfig_TypeDefinitionIndex = 19572;
+
 	class RogueTournFormulaCondFilterTopKBuffTypeConfig : public ::RPG::GameCore::RogueFormulaConditionConfigBase
 	{
 	public:

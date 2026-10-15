@@ -14,6 +14,8 @@ namespace RPG::GameCore { class RogueNPCDialogueConfig; }
 #define OCJPAHFOIGD_MLGDOCLAKEO_OFFSET UNITYSDK_OFFSET(0xBD6F050)
 #define OCJPAHFOIGD_PHBBLFOICJJ_OFFSET UNITYSDK_OFFSET(0xBD6EDA0)
 
+inline static constexpr unsigned int OCJPAHFOIGD_TypeDefinitionIndex = 67296;
+
 	class OCJPAHFOIGD : public ::System::Object
 	{
 	public:

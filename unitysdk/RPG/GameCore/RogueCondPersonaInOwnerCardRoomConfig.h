@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueCondPersonaInOwnerCardRoomConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueCondPersonaInOwnerCardRoomConfig_TypeDefinitionIndex = 19812;
+
 	class RogueCondPersonaInOwnerCardRoomConfig : public ::RPG::GameCore::RogueConditionConfigBase
 	{
 	public:

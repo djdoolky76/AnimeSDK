@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define COAKKNPDPCM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5D7DF0)
 
+inline static constexpr unsigned int COAKKNPDPCM_TypeDefinitionIndex = 36447;
+
 	class COAKKNPDPCM : public ::System::Object
 	{
 	public:

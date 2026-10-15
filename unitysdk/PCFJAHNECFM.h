@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PCFJAHNECFM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF08090)
 #define PCFJAHNECFM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF080F0)
 
+inline static constexpr unsigned int PCFJAHNECFM_TypeDefinitionIndex = 32553;
+
 	class PCFJAHNECFM : public ::System::Object
 	{
 	public:

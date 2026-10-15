@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesBuffIconViewModel_TypeDefinitionIndex = 81369;
+
 	class ChenLingFesBuffIconViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

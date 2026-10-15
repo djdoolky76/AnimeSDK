@@ -18,6 +18,8 @@ namespace System { class String; }
 #define CFNALNFLBIN_DGHNHCGGOOC_POCIFAJNIHC_OFFSET UNITYSDK_OFFSET(0xCC576B0)
 #define CFNALNFLBIN_DGHNHCGGOOC_SET_DEBUGASSETPATH_OFFSET UNITYSDK_OFFSET(0xCC586D0)
 
+inline static constexpr unsigned int CFNALNFLBIN_DGHNHCGGOOC_TypeDefinitionIndex = 73748;
+
 	class CFNALNFLBIN_DGHNHCGGOOC : public ::System::Object
 	{
 	public:

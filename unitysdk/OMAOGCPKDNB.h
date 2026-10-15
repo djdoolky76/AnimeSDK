@@ -30,6 +30,8 @@ namespace System { class String; }
 #define OMAOGCPKDNB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEAF600)
 #define OMAOGCPKDNB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEAF660)
 
+inline static constexpr unsigned int OMAOGCPKDNB_TypeDefinitionIndex = 32988;
+
 	class OMAOGCPKDNB : public ::System::Object
 	{
 	public:

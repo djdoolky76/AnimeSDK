@@ -8,6 +8,8 @@
 
 namespace CriWare::CriMana
 {
+	inline static constexpr unsigned int FrameInfo_TypeDefinitionIndex = 40211;
+
 	class FrameInfo : public ::System::Object
 	{
 	public:

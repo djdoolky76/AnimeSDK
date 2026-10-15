@@ -43,6 +43,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MarbleHexInfo_TypeDefinitionIndex = 65806;
+
 	class MarbleHexInfo : public ::System::Object
 	{
 	public:

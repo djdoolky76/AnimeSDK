@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GIOLAAKLDED_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4A3300)
 #define GIOLAAKLDED_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4A3360)
 
+inline static constexpr unsigned int GIOLAAKLDED_TypeDefinitionIndex = 29509;
+
 	class GIOLAAKLDED : public ::System::Object
 	{
 	public:

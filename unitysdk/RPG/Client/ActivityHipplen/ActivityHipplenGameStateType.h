@@ -3,6 +3,8 @@
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenGameStateType_TypeDefinitionIndex = 75532;
+
 	enum class ActivityHipplenGameStateType : ::System::Int32
 	{
 		None = 0,

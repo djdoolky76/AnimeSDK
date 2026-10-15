@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int EventProvider___c__DisplayClass44_0_TypeDefinitionIndex = 1686;
+
 	class EventProvider___c__DisplayClass44_0 : public ::System::Object
 	{
 	public:

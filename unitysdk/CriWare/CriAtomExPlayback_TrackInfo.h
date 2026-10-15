@@ -4,6 +4,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExPlayback_TrackInfo_TypeDefinitionIndex = 40055;
+
 	struct alignas(4) CriAtomExPlayback_TrackInfo
 	{
 		::System::UInt32 id; // 0x10

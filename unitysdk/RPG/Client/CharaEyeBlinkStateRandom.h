@@ -16,6 +16,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharaEyeBlinkStateRandom_TypeDefinitionIndex = 68376;
+
 	class CharaEyeBlinkStateRandom : public ::System::Object
 	{
 	public:

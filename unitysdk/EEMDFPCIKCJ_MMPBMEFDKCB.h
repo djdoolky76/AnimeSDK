@@ -15,6 +15,8 @@ namespace UnityEngine { class SkinnedMeshRenderer; }
 #define EEMDFPCIKCJ_MMPBMEFDKCB_KFLFMKLBEKL_OFFSET UNITYSDK_OFFSET(0x13A38650)
 #define EEMDFPCIKCJ_MMPBMEFDKCB_PMEFNHLHDMA_OFFSET UNITYSDK_OFFSET(0x13A39670)
 
+inline static constexpr unsigned int EEMDFPCIKCJ_MMPBMEFDKCB_TypeDefinitionIndex = 57346;
+
 	class EEMDFPCIKCJ_MMPBMEFDKCB : public ::System::Object
 	{
 	public:

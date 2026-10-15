@@ -15,6 +15,8 @@ namespace UnityEngine::Rendering { class VolumeProfile; }
 #define ANOJGLJKKNH__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0x158A0FA0)
 #define ANOJGLJKKNH__INIT_B__1_1_OFFSET UNITYSDK_OFFSET(0x158A0FD0)
 
+inline static constexpr unsigned int ANOJGLJKKNH_TypeDefinitionIndex = 49335;
+
 	class ANOJGLJKKNH : public ::KHAKCLAJLOB
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimCustomScreenTransferStyle_TypeDefinitionIndex = 18512;
+
 	enum class FiveDimCustomScreenTransferStyle : ::System::Int32
 	{
 		FiveDimDefault = 0,

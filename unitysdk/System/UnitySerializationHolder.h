@@ -23,6 +23,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int UnitySerializationHolder_TypeDefinitionIndex = 362;
+
 	class UnitySerializationHolder : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FinishLevelGraph; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FinishLevelGraph_TypeDefinitionIndex = 20625;
+
 	class FinishLevelGraph : public ::RPG::GameCore::TaskConfig
 	{
 	public:

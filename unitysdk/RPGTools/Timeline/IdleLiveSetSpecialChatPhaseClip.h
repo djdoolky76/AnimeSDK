@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int IdleLiveSetSpecialChatPhaseClip_TypeDefinitionIndex = 47794;
+
 	class IdleLiveSetSpecialChatPhaseClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

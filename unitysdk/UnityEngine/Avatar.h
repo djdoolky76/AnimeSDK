@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Avatar_TypeDefinitionIndex = 5719;
+
 	class Avatar : public ::UnityEngine::Object
 	{
 	public:

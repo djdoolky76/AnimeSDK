@@ -18,6 +18,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline::EnvironmentSyetem
 {
+	inline static constexpr unsigned int EnviroSysFogBehaviour_TypeDefinitionIndex = 48638;
+
 	class EnviroSysFogBehaviour : public ::RPGTools::Timeline::RecoverablePlayableBehaviour
 	{
 	public:

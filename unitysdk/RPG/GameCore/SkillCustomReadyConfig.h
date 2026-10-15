@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SkillCustomReadyConfig_TypeDefinitionIndex = 18185;
+
 	class SkillCustomReadyConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

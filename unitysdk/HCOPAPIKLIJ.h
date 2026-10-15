@@ -6,6 +6,8 @@ namespace System { class String; }
 #define HCOPAPIKLIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD61BA0)
 #define HCOPAPIKLIJ_GET_PARAMETERNAME_OFFSET UNITYSDK_OFFSET(0x1DD61BB0)
 
+inline static constexpr unsigned int HCOPAPIKLIJ_TypeDefinitionIndex = 6317;
+
 	class HCOPAPIKLIJ : public ::System::Attribute
 	{
 	public:

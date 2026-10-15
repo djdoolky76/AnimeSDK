@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BaseChimeraDuelNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaseChimeraDuelNode_TypeDefinitionIndex = 15945;
+
 	class BaseChimeraDuelNode : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -9,6 +9,8 @@ class WaveSimPanel;
 #define KKAKDKDKNKM___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB4B36E0)
 #define KKAKDKDKNKM___C__DISPLAYCLASS9_0__TRIGGERFALLEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xB4B36F0)
 
+inline static constexpr unsigned int KKAKDKDKNKM___c__DisplayClass9_0_TypeDefinitionIndex = 70866;
+
 	class KKAKDKDKNKM___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

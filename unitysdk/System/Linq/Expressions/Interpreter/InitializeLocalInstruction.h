@@ -6,6 +6,8 @@
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int InitializeLocalInstruction_TypeDefinitionIndex = 3509;
+
 	class InitializeLocalInstruction : public ::System::Linq::Expressions::Interpreter::LocalAccessInstruction
 	{
 	public:

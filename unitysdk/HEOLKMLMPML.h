@@ -4,6 +4,8 @@
 
 #define HEOLKMLMPML_CTOR_OFFSET UNITYSDK_OFFSET(0x15C63D00)
 
+inline static constexpr unsigned int HEOLKMLMPML_TypeDefinitionIndex = 65312;
+
 	class HEOLKMLMPML : public ::System::Object
 	{
 	public:

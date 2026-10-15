@@ -6,6 +6,8 @@ class EDNECKFHLEM;
 namespace RPG::Client { class TabView; }
 namespace System { class Action; }
 
+inline static constexpr unsigned int CPFEJLFOAPK_TypeDefinitionIndex = 49820;
+
 	class CPFEJLFOAPK : public ::System::Object
 	{
 	public:

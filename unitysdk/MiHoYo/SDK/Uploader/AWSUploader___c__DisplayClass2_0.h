@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Uploader
 {
+	inline static constexpr unsigned int AWSUploader___c__DisplayClass2_0_TypeDefinitionIndex = 46672;
+
 	class AWSUploader___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

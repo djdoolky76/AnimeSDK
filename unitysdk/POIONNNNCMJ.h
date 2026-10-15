@@ -8,6 +8,8 @@ class KKGMHJNMOID;
 #define POIONNNNCMJ_GET_CONSTRAINT_OFFSET UNITYSDK_OFFSET(0x1C57E090)
 #define POIONNNNCMJ_GET_TRACKER_OFFSET UNITYSDK_OFFSET(0x1C57E0A0)
 
+inline static constexpr unsigned int POIONNNNCMJ_TypeDefinitionIndex = 41834;
+
 	class POIONNNNCMJ : public ::System::Object
 	{
 	public:

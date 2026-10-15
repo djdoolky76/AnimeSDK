@@ -11,6 +11,8 @@ namespace RPG::Client { class DeformationCasterCleanupMonoPlugin; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DeformationCasterCleanupBehavior_TypeDefinitionIndex = 70266;
+
 	class DeformationCasterCleanupBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

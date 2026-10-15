@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 #define AALKJGAHAHC_CLEAR_OFFSET UNITYSDK_OFFSET(0xB0CFCB0)
 #define AALKJGAHAHC_CTOR_OFFSET UNITYSDK_OFFSET(0xB0CFD00)
 
+inline static constexpr unsigned int AALKJGAHAHC_TypeDefinitionIndex = 54837;
+
 	class AALKJGAHAHC : public ::System::Object
 	{
 	public:

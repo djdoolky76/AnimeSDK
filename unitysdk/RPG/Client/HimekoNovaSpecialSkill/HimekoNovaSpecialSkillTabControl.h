@@ -17,6 +17,8 @@ namespace RPG::UINavigation { class UINavigationButton; }
 
 namespace RPG::Client::HimekoNovaSpecialSkill
 {
+	inline static constexpr unsigned int HimekoNovaSpecialSkillTabControl_TypeDefinitionIndex = 80491;
+
 	class HimekoNovaSpecialSkillTabControl : public ::Sofa::BaseSofaControl
 	{
 	public:

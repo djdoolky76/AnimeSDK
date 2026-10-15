@@ -9,6 +9,8 @@
 
 namespace RPG::Client::ElectricChainV2
 {
+	inline static constexpr unsigned int StraightLine_TypeDefinitionIndex = 73601;
+
 	class StraightLine : public ::RPG::Client::ElectricChainV2::Line
 	{
 	public:

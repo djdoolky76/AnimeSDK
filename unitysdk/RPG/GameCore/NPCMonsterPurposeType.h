@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NPCMonsterPurposeType_TypeDefinitionIndex = 17170;
+
 	enum class NPCMonsterPurposeType : ::System::Int32
 	{
 		Normal = 0,

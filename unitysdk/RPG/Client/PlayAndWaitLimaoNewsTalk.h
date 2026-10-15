@@ -10,6 +10,8 @@ namespace RPG::Client { class PlayAndWaitLimaoNewsTalk; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayAndWaitLimaoNewsTalk_TypeDefinitionIndex = 10240;
+
 	class PlayAndWaitLimaoNewsTalk : public ::RPG::GameCore::SimpleTalkListConfig
 	{
 	public:

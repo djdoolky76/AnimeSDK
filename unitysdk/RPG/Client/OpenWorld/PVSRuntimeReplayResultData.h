@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::OpenWorld
 {
+	inline static constexpr unsigned int PVSRuntimeReplayResultData_TypeDefinitionIndex = 73768;
+
 	class PVSRuntimeReplayResultData : public ::System::Object
 	{
 	public:

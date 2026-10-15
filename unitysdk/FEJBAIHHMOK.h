@@ -9,6 +9,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define FEJBAIHHMOK_HPNDIIPEFLJ_OFFSET UNITYSDK_OFFSET(0x15724BD0)
 #define FEJBAIHHMOK_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15724AF0)
 
+inline static constexpr unsigned int FEJBAIHHMOK_TypeDefinitionIndex = 69864;
+
 	class FEJBAIHHMOK : public ::RPG::Client::BehaviorBase
 	{
 	public:

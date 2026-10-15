@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define LEILONLGEGA_KOMDKENHMPE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB6570B0)
 #define LEILONLGEGA_KOMDKENHMPE_INVOKE_OFFSET UNITYSDK_OFFSET(0xB6565C0)
 
+inline static constexpr unsigned int LEILONLGEGA_KOMDKENHMPE_TypeDefinitionIndex = 57353;
+
 	class LEILONLGEGA_KOMDKENHMPE : public ::System::MulticastDelegate
 	{
 	public:

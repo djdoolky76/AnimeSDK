@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int PluginUIBridgeEventModel_TypeDefinitionIndex = 9162;
+
 	class PluginUIBridgeEventModel : public ::System::Object
 	{
 	public:

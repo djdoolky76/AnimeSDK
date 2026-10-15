@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PMLDGPDNEOA_SET_EXPIRETIME_OFFSET UNITYSDK_OFFSET(0xC323C60)
 #define PMLDGPDNEOA_SET_LIGHTCONEIDS_OFFSET UNITYSDK_OFFSET(0xC323C40)
 
+inline static constexpr unsigned int PMLDGPDNEOA_TypeDefinitionIndex = 68251;
+
 	class PMLDGPDNEOA : public ::System::Object
 	{
 	public:

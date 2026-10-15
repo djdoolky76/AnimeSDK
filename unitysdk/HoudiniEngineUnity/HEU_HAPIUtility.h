@@ -103,6 +103,8 @@ namespace UnityEngine { class Transform; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_HAPIUtility_TypeDefinitionIndex = 40434;
+
 	class HEU_HAPIUtility : public ::System::Object
 	{
 	public:

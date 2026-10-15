@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 #define BIMOMBLBMHN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C8BAF70)
 #define BIMOMBLBMHN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BB000)
 
+inline static constexpr unsigned int BIMOMBLBMHN_TypeDefinitionIndex = 42968;
+
 	class BIMOMBLBMHN : public ::System::Object
 	{
 	public:

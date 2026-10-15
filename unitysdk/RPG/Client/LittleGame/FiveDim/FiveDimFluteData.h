@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimFluteData_TypeDefinitionIndex = 77211;
+
 	class FiveDimFluteData : public ::System::Object
 	{
 	public:

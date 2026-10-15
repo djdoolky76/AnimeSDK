@@ -3,6 +3,8 @@
 
 namespace System::Runtime::Remoting::Contexts
 {
+	inline static constexpr unsigned int IContextAttribute_TypeDefinitionIndex = 1253;
+
 	class IContextAttribute
 	{
 	public:

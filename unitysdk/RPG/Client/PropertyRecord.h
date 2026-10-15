@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PropertyRecord_TypeDefinitionIndex = 72626;
+
 	class PropertyRecord : public ::System::Object
 	{
 	public:

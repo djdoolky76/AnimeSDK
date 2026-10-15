@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PAKEEGONMOJ_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2C1450)
 #define PAKEEGONMOJ_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D2C0D70)
 
+inline static constexpr unsigned int PAKEEGONMOJ_TypeDefinitionIndex = 13412;
+
 	class PAKEEGONMOJ : public ::System::Object
 	{
 	public:

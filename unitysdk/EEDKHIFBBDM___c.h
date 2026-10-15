@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define EEDKHIFBBDM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x13A2A490)
 #define EEDKHIFBBDM___C__GETSORTEDBUFFLIST_B__2_0_OFFSET UNITYSDK_OFFSET(0x13A2A4A0)
 
+inline static constexpr unsigned int EEDKHIFBBDM___c_TypeDefinitionIndex = 68269;
+
 	class EEDKHIFBBDM___c : public ::System::Object
 	{
 	public:

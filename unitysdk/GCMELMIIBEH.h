@@ -4,6 +4,8 @@ class BMJHAHOLEGH;
 
 #define GCMELMIIBEH_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0x2E7A030)
 
+inline static constexpr unsigned int GCMELMIIBEH_TypeDefinitionIndex = 66320;
+
 	struct alignas(4) GCMELMIIBEH
 	{
 		::System::UInt32 BHMANHGHNNC; // 0x10

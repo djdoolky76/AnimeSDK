@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::MechCraft
 {
+	inline static constexpr unsigned int MechCraftCountingSet_1_TypeDefinitionIndex = 41733;
+
 	template <typename T>
 	class MechCraftCountingSet_1 : public ::System::Object
 	{

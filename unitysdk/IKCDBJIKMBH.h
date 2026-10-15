@@ -13,6 +13,8 @@ namespace System { class String; }
 #define IKCDBJIKMBH_ONFADING_OFFSET UNITYSDK_OFFSET(0x16482B70)
 #define IKCDBJIKMBH_RELEASE_OFFSET UNITYSDK_OFFSET(0x16482CF0)
 
+inline static constexpr unsigned int IKCDBJIKMBH_TypeDefinitionIndex = 49309;
+
 	class IKCDBJIKMBH : public ::IEJMFJKDEHJ
 	{
 	public:

@@ -33,6 +33,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginDialogRendererOverlay_TypeDefinitionIndex = 69998;
+
 	class MonoEffectPluginDialogRendererOverlay : public ::RPG::Client::MonoEffectPluginCharaOverlayMatBase
 	{
 	public:

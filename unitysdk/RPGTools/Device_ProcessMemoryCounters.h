@@ -3,6 +3,8 @@
 
 namespace RPGTools
 {
+	inline static constexpr unsigned int Device_ProcessMemoryCounters_TypeDefinitionIndex = 46917;
+
 	struct alignas(4) Device_ProcessMemoryCounters
 	{
 		::System::Int32 cb; // 0x10

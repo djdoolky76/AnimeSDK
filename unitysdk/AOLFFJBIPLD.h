@@ -5,6 +5,8 @@
 #define AOLFFJBIPLD_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C8A5A60)
 #define AOLFFJBIPLD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8A5AB0)
 
+inline static constexpr unsigned int AOLFFJBIPLD_TypeDefinitionIndex = 42115;
+
 	class AOLFFJBIPLD : public ::System::Object
 	{
 	public:

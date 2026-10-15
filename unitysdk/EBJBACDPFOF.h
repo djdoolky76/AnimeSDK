@@ -51,6 +51,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EBJBACDPFOF_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x12CFBC50)
 #define EBJBACDPFOF_PKBAPIKKOIN_OFFSET UNITYSDK_OFFSET(0x12CFEDB0)
 
+inline static constexpr unsigned int EBJBACDPFOF_TypeDefinitionIndex = 77258;
+
 	class EBJBACDPFOF : public ::System::Object
 	{
 	public:

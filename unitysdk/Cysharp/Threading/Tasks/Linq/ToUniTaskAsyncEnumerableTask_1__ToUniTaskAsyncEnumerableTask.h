@@ -6,6 +6,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int ToUniTaskAsyncEnumerableTask_1__ToUniTaskAsyncEnumerableTask_TypeDefinitionIndex = 45705;
+
 	template <typename T>
 	class ToUniTaskAsyncEnumerableTask_1__ToUniTaskAsyncEnumerableTask : public ::System::Object
 	{

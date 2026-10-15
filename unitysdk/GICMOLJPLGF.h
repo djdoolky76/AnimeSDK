@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GICMOLJPLGF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E492F50)
 #define GICMOLJPLGF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E492FB0)
 
+inline static constexpr unsigned int GICMOLJPLGF_TypeDefinitionIndex = 27168;
+
 	class GICMOLJPLGF : public ::System::Object
 	{
 	public:

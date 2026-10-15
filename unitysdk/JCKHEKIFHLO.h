@@ -34,6 +34,8 @@ namespace System { class String; }
 #define JCKHEKIFHLO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E703410)
 #define JCKHEKIFHLO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E703470)
 
+inline static constexpr unsigned int JCKHEKIFHLO_TypeDefinitionIndex = 31356;
+
 	class JCKHEKIFHLO : public ::System::Object
 	{
 	public:

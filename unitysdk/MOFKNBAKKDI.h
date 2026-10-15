@@ -42,6 +42,8 @@ namespace System { class String; }
 #define MOFKNBAKKDI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAA7C60)
 #define MOFKNBAKKDI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAA7CC0)
 
+inline static constexpr unsigned int MOFKNBAKKDI_TypeDefinitionIndex = 31882;
+
 	class MOFKNBAKKDI : public ::System::Object
 	{
 	public:

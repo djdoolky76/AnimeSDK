@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SwitchOnPartialFlipDevice; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchOnPartialFlipDevice_TypeDefinitionIndex = 22337;
+
 	class SwitchOnPartialFlipDevice : public ::RPG::GameCore::TaskConfig
 	{
 	public:

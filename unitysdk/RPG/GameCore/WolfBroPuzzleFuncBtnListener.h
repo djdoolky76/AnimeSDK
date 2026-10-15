@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WolfBroPuzzleFuncBtnListener; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WolfBroPuzzleFuncBtnListener_TypeDefinitionIndex = 21168;
+
 	class WolfBroPuzzleFuncBtnListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

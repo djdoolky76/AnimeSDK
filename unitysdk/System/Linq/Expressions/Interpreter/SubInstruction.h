@@ -13,6 +13,8 @@ namespace System::Linq::Expressions::Interpreter { class Instruction; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int SubInstruction_TypeDefinitionIndex = 3624;
+
 	class SubInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:

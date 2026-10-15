@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define EONDKJGOGPO_CONVERT_OFFSET UNITYSDK_OFFSET(0x1CC92840)
 #define EONDKJGOGPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC92960)
 
+inline static constexpr unsigned int EONDKJGOGPO_TypeDefinitionIndex = 43903;
+
 	class EONDKJGOGPO : public ::System::Object
 	{
 	public:

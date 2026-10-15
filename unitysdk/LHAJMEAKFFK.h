@@ -26,6 +26,8 @@ namespace UnityEngine { class Transform; }
 #define LHAJMEAKFFK_LHOFDLKIFBF_OFFSET UNITYSDK_OFFSET(0xB6A2CF0)
 #define LHAJMEAKFFK_MHFNJCLKNMG_OFFSET UNITYSDK_OFFSET(0xB6A2F20)
 
+inline static constexpr unsigned int LHAJMEAKFFK_TypeDefinitionIndex = 57450;
+
 	class LHAJMEAKFFK : public ::KKPJOMHOLPJ
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define PJJKDGFODDL_OCHAIPCAONE_CTOR_OFFSET UNITYSDK_OFFSET(0xC293B60)
 
+inline static constexpr unsigned int PJJKDGFODDL_OCHAIPCAONE_TypeDefinitionIndex = 75636;
+
 	class PJJKDGFODDL_OCHAIPCAONE : public ::System::Object
 	{
 	public:

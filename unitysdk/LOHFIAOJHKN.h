@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define LOHFIAOJHKN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB802B70)
 #define LOHFIAOJHKN_TICK_OFFSET UNITYSDK_OFFSET(0xB802BC0)
 
+inline static constexpr unsigned int LOHFIAOJHKN_TypeDefinitionIndex = 52936;
+
 	class LOHFIAOJHKN
 	{
 	public:

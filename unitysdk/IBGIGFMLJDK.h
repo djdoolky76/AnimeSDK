@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IBGIGFMLJDK_CTOR_OFFSET UNITYSDK_OFFSET(0x15E32440)
 #define IBGIGFMLJDK_DPDJOAOLJCI_OFFSET UNITYSDK_OFFSET(0x15E32080)
 
+inline static constexpr unsigned int IBGIGFMLJDK_TypeDefinitionIndex = 66467;
+
 	class IBGIGFMLJDK : public ::System::Object
 	{
 	public:

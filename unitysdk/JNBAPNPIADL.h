@@ -12,6 +12,8 @@ class KMAEPFCHJIB;
 #define JNBAPNPIADL_OKHLHJFFKCN_OFFSET UNITYSDK_OFFSET(0xB2763A0)
 #define JNBAPNPIADL_PDAENODHFCM_OFFSET UNITYSDK_OFFSET(0xB276200)
 
+inline static constexpr unsigned int JNBAPNPIADL_TypeDefinitionIndex = 61400;
+
 	class JNBAPNPIADL : public ::System::Object
 	{
 	public:

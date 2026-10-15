@@ -19,6 +19,8 @@ namespace System { class String; }
 #define AKBASEPATHGETTER_SET_PERSISTENTDATAPATH_OFFSET UNITYSDK_OFFSET(0x1F57D2E0)
 #define AKBASEPATHGETTER_SET_SOUNDBANKBASEPATH_OFFSET UNITYSDK_OFFSET(0x1F57D2C0)
 
+inline static constexpr unsigned int AkBasePathGetter_TypeDefinitionIndex = 44821;
+
 	class AkBasePathGetter : public ::System::Object
 	{
 	public:

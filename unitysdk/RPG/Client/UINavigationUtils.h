@@ -21,6 +21,8 @@ namespace UnityEngine::UI { class Selectable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UINavigationUtils_TypeDefinitionIndex = 73174;
+
 	class UINavigationUtils : public ::System::Object
 	{
 	public:

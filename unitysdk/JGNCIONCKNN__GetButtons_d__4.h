@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define JGNCIONCKNN__GETBUTTONS_D__4___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xB1A4060)
 #define JGNCIONCKNN__GETBUTTONS_D__4___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0xB1A3F60)
 
+inline static constexpr unsigned int JGNCIONCKNN__GetButtons_d__4_TypeDefinitionIndex = 71962;
+
 	template <typename T1, typename T2, typename T3, typename T4>
 	class JGNCIONCKNN__GetButtons_d__4 : public ::System::Object
 	{

@@ -22,6 +22,8 @@ namespace UnityEngine { class Collider; }
 #define MCGNFDFJBGD_PGMEGIAGOLL_OFFSET UNITYSDK_OFFSET(0xB87C540)
 #define MCGNFDFJBGD_TICK_OFFSET UNITYSDK_OFFSET(0xB87AF90)
 
+inline static constexpr unsigned int MCGNFDFJBGD_TypeDefinitionIndex = 58333;
+
 	class MCGNFDFJBGD : public ::GELIALJDFBL
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define HAKKGAAOFNJ_NGOCIDIPOEO_OFFSET UNITYSDK_OFFSET(0x15B82DC0)
 #define HAKKGAAOFNJ_PHBHLOJOGJP_OFFSET UNITYSDK_OFFSET(0x15B82C40)
 
+inline static constexpr unsigned int HAKKGAAOFNJ_TypeDefinitionIndex = 69262;
+
 	class HAKKGAAOFNJ : public ::LAJCPEFEOPN
 	{
 	public:

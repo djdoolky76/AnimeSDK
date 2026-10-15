@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace Microsoft::Win32
 {
+	inline static constexpr unsigned int ExpandString_TypeDefinitionIndex = 107;
+
 	class ExpandString : public ::System::Object
 	{
 	public:

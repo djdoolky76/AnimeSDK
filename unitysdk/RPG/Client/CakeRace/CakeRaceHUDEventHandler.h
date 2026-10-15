@@ -23,6 +23,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceHUDEventHandler_TypeDefinitionIndex = 76438;
+
 	class CakeRaceHUDEventHandler : public ::System::Object
 	{
 	public:

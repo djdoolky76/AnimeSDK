@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GridFightSettleRankRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightSettleRankRow_TypeDefinitionIndex = 13433;
+
 	class GridFightSettleRankRow : public ::System::Object
 	{
 	public:

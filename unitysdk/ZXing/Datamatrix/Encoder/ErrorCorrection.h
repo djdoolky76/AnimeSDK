@@ -11,6 +11,8 @@ namespace ZXing::Datamatrix::Encoder { class SymbolInfo; }
 
 namespace ZXing::Datamatrix::Encoder
 {
+	inline static constexpr unsigned int ErrorCorrection_TypeDefinitionIndex = 7051;
+
 	class ErrorCorrection : public ::System::Object
 	{
 	public:

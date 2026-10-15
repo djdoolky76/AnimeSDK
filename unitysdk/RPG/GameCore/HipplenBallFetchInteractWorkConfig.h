@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HipplenBallFetchInteractWorkConfig_TypeDefinitionIndex = 16785;
+
 	class HipplenBallFetchInteractWorkConfig : public ::RPG::GameCore::HipplenInteractWorkConfig
 	{
 	public:

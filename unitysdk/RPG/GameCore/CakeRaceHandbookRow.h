@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CakeRaceHandbookRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceHandbookRow_TypeDefinitionIndex = 11025;
+
 	class CakeRaceHandbookRow : public ::System::Object
 	{
 	public:

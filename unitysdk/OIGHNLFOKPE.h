@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define OIGHNLFOKPE_NPHAKGGHKCK_OFFSET UNITYSDK_OFFSET(0xBE8FDE0)
 #define OIGHNLFOKPE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xBE8F6E0)
 
+inline static constexpr unsigned int OIGHNLFOKPE_TypeDefinitionIndex = 62139;
+
 	class OIGHNLFOKPE : public ::System::Object
 	{
 	public:

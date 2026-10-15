@@ -10,6 +10,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NewsTicker___c__DisplayClass12_0_TypeDefinitionIndex = 68994;
+
 	class NewsTicker___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

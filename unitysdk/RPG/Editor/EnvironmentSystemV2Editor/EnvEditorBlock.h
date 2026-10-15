@@ -6,6 +6,8 @@
 
 namespace RPG::Editor::EnvironmentSystemV2Editor
 {
+	inline static constexpr unsigned int EnvEditorBlock_TypeDefinitionIndex = 52069;
+
 	class EnvEditorBlock : public ::System::Object
 	{
 	public:

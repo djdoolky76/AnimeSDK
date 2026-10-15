@@ -14,6 +14,8 @@
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int LongList_TypeDefinitionIndex = 1113;
+
 	class LongList : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 #define CEFEPAIHCAG_GET_METHODNAME_OFFSET UNITYSDK_OFFSET(0xC783D30)
 #define CEFEPAIHCAG_GET_PARAMKINDS_OFFSET UNITYSDK_OFFSET(0xC783D40)
 
+inline static constexpr unsigned int CEFEPAIHCAG_TypeDefinitionIndex = 49038;
+
 	class CEFEPAIHCAG : public ::System::Attribute
 	{
 	public:

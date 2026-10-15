@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CDIFPACDAAE_ODFMJCEEAIP_OFFSET UNITYSDK_OFFSET(0xC769EA0)
 #define CDIFPACDAAE_SET_DETECTORCONFIG_OFFSET UNITYSDK_OFFSET(0xC769520)
 
+inline static constexpr unsigned int CDIFPACDAAE_TypeDefinitionIndex = 75927;
+
 	class CDIFPACDAAE : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HNJFGBNMAIE_HAPCMKAALCO_OFFSET UNITYSDK_OFFSET(0x15D9C600)
 #define HNJFGBNMAIE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D9BCD0)
 
+inline static constexpr unsigned int HNJFGBNMAIE_TypeDefinitionIndex = 58040;
+
 	class HNJFGBNMAIE : public ::NAPIKMAGDDI
 	{
 	public:

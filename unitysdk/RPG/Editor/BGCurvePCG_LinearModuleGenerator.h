@@ -31,6 +31,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int BGCurvePCG_LinearModuleGenerator_TypeDefinitionIndex = 52025;
+
 	class BGCurvePCG_LinearModuleGenerator : public ::RPG::Editor::BGCurvePCG_MeshGeneratorBase
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class HideTopPage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HideTopPage_TypeDefinitionIndex = 20899;
+
 	class HideTopPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

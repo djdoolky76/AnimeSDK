@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChessRogueExploreFinishInfo___c_TypeDefinitionIndex = 66961;
+
 	class ChessRogueExploreFinishInfo___c : public ::System::Object
 	{
 	public:

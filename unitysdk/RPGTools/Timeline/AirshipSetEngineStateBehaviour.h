@@ -9,6 +9,8 @@ class CommonShipEngineController;
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int AirshipSetEngineStateBehaviour_TypeDefinitionIndex = 47836;
+
 	class AirshipSetEngineStateBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
 	public:

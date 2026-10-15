@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FourRotateVoxelLevelCustomCameraParameterConfig;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelLevelCustomCameraParameterConfig_TypeDefinitionIndex = 16749;
+
 	class FourRotateVoxelLevelCustomCameraParameterConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int HoYoChannelInitModel_TypeDefinitionIndex = 8586;
+
 	class HoYoChannelInitModel : public ::System::Object
 	{
 	public:

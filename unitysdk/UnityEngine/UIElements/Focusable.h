@@ -7,6 +7,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int Focusable_TypeDefinitionIndex = 5875;
+
 	class Focusable : public ::UnityEngine::UIElements::CallbackEventHandler
 	{
 	public:

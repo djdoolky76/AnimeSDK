@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+inline static constexpr unsigned int DLLLOPNKHCL_TypeDefinitionIndex = 75464;
+
 	class DLLLOPNKHCL : public ::System::Object
 	{
 	public:

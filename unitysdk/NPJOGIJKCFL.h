@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NPJOGIJKCFL_ONSKIP_OFFSET UNITYSDK_OFFSET(0xBD0C9F0)
 #define NPJOGIJKCFL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD0C990)
 
+inline static constexpr unsigned int NPJOGIJKCFL_TypeDefinitionIndex = 58076;
+
 	class NPJOGIJKCFL
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define PNOIMIPEOFA_KKLHJCEJGEG_OFFSET UNITYSDK_OFFSET(0xC356240)
 #define PNOIMIPEOFA_SET_DRESSEDENPCF07_OFFSET UNITYSDK_OFFSET(0xC356220)
 
+inline static constexpr unsigned int PNOIMIPEOFA_TypeDefinitionIndex = 51909;
+
 	class PNOIMIPEOFA : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPGTools::Timeline::Story
 {
+	inline static constexpr unsigned int CharacterStoryMoveMap_TypeDefinitionIndex = 48702;
+
 	class CharacterStoryMoveMap : public ::UnityEngine::ScriptableObject
 	{
 	public:

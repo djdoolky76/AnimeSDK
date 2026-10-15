@@ -46,6 +46,8 @@ namespace System { class String; }
 #define BGGIHLHFPGA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA778A0)
 #define BGGIHLHFPGA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA77900)
 
+inline static constexpr unsigned int BGGIHLHFPGA_TypeDefinitionIndex = 32470;
+
 	class BGGIHLHFPGA : public ::System::Object
 	{
 	public:

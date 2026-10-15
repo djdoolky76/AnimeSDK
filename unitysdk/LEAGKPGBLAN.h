@@ -4,6 +4,8 @@
 
 #define LEAGKPGBLAN_CTOR_OFFSET UNITYSDK_OFFSET(0xB649AE0)
 
+inline static constexpr unsigned int LEAGKPGBLAN_TypeDefinitionIndex = 48174;
+
 	class LEAGKPGBLAN : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

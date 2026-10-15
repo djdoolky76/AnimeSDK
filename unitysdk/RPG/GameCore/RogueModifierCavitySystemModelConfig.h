@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierCavitySystemModelConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierCavitySystemModelConfig_TypeDefinitionIndex = 17753;
+
 	class RogueModifierCavitySystemModelConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

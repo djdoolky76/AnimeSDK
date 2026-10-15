@@ -9,6 +9,8 @@ namespace Cinemachine { class CinemachineBlend; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineBrain_BrainFrame_TypeDefinitionIndex = 39722;
+
 	class CinemachineBrain_BrainFrame : public ::System::Object
 	{
 	public:

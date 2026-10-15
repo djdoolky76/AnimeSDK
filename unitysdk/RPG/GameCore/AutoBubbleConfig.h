@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AutoBubbleConfig_TypeDefinitionIndex = 16949;
+
 	class AutoBubbleConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

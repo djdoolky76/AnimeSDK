@@ -13,6 +13,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureAbilityMoveSpeedAttenuationRatioChange_TypeDefinitionIndex = 56615;
+
 	class AdventureAbilityMoveSpeedAttenuationRatioChange : public ::System::Object
 	{
 	public:

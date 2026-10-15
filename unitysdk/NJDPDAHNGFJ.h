@@ -5,6 +5,8 @@ namespace System { class Type; }
 
 #define NJDPDAHNGFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2156D0)
 
+inline static constexpr unsigned int NJDPDAHNGFJ_TypeDefinitionIndex = 10381;
+
 	class NJDPDAHNGFJ : public ::System::Attribute
 	{
 	public:

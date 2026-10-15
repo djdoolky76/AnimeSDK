@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int MonoLimitationAttribute_4616CBFEE5F63A91_TypeDefinitionIndex = 3098;
+
 	class MonoLimitationAttribute_4616CBFEE5F63A91 : public ::System::MonoTODOAttribute_AA3A9161C5173D10
 	{
 	public:

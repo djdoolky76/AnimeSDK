@@ -68,6 +68,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CHKMFJDANOL_PCOINPOKPNK_OFFSET UNITYSDK_OFFSET(0xCF58570)
 #define CHKMFJDANOL_SET_SYNCEDWITHSERVER_OFFSET UNITYSDK_OFFSET(0xCF57530)
 
+inline static constexpr unsigned int CHKMFJDANOL_TypeDefinitionIndex = 74614;
+
 	class CHKMFJDANOL : public ::System::Object
 	{
 	public:

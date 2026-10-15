@@ -23,6 +23,8 @@ namespace UnityEngine { class Animator; }
 #define HLCJMAAPPPL_ONFLAGSTATECHANGE_OFFSET UNITYSDK_OFFSET(0x15D5BC60)
 #define HLCJMAAPPPL_SET_HITADDITIVELAYERINDEX_OFFSET UNITYSDK_OFFSET(0x15D5BE90)
 
+inline static constexpr unsigned int HLCJMAAPPPL_TypeDefinitionIndex = 53947;
+
 	class HLCJMAAPPPL : public ::KKEFMOKEJIF
 	{
 	public:

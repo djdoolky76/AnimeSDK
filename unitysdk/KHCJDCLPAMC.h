@@ -3,6 +3,8 @@
 namespace RPG { template <typename T> class PoolList_1; }
 namespace System { class String; }
 
+inline static constexpr unsigned int KHCJDCLPAMC_TypeDefinitionIndex = 43437;
+
 	struct alignas(8) KHCJDCLPAMC
 	{
 		::System::Boolean MKBPAMPGLKI; // 0x10

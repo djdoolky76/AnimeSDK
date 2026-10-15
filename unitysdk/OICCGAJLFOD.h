@@ -19,6 +19,8 @@ namespace RPG::Client { class PipelineCameraGlobalConfig; }
 #define OICCGAJLFOD_OEHINGNBEHI_OFFSET UNITYSDK_OFFSET(0xBE76510)
 #define OICCGAJLFOD_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xBE768E0)
 
+inline static constexpr unsigned int OICCGAJLFOD_TypeDefinitionIndex = 69612;
+
 	class OICCGAJLFOD : public ::MDILEMALGNC
 	{
 	public:

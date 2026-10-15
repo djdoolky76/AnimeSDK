@@ -28,6 +28,8 @@ namespace UnityEngine::UI { class SmoothMask; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirPlaneStatusBarView_TypeDefinitionIndex = 79269;
+
 	class PixAirPlaneStatusBarView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

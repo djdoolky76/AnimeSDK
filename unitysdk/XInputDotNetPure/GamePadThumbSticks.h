@@ -8,6 +8,8 @@
 
 namespace XInputDotNetPure
 {
+	inline static constexpr unsigned int GamePadThumbSticks_TypeDefinitionIndex = 40783;
+
 	struct alignas(4) GamePadThumbSticks
 	{
 		::XInputDotNetPure::GamePadThumbSticks_StickValue left; // 0x10

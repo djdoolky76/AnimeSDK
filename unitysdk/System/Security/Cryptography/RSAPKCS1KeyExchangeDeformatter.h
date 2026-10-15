@@ -11,6 +11,8 @@ namespace System::Security::Cryptography { class RSA; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int RSAPKCS1KeyExchangeDeformatter_TypeDefinitionIndex = 1053;
+
 	class RSAPKCS1KeyExchangeDeformatter : public ::System::Security::Cryptography::AsymmetricKeyExchangeDeformatter
 	{
 	public:

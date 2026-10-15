@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ChenLingBattleAbility_ShowToast; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAbility_ShowToast_TypeDefinitionIndex = 15737;
+
 	class ChenLingBattleAbility_ShowToast : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
 	public:

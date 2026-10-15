@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DHKLEPPAPBJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEBE7050)
 #define DHKLEPPAPBJ__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xEBE73D0)
 
+inline static constexpr unsigned int DHKLEPPAPBJ_TypeDefinitionIndex = 58600;
+
 	class DHKLEPPAPBJ
 	{
 	public:

@@ -6,6 +6,8 @@
 #define DECMMBGLMFD_CTOR_OFFSET UNITYSDK_OFFSET(0xE502330)
 #define DECMMBGLMFD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE5022F0)
 
+inline static constexpr unsigned int DECMMBGLMFD_TypeDefinitionIndex = 57339;
+
 	class DECMMBGLMFD : public ::System::Object
 	{
 	public:

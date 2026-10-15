@@ -21,6 +21,8 @@ namespace UnityEngine::UI { class SmoothMask; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SmoothMaskDrawerBehavior_TypeDefinitionIndex = 71052;
+
 	class SmoothMaskDrawerBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

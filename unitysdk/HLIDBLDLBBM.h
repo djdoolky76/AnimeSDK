@@ -48,6 +48,8 @@ namespace System { class String; }
 #define HLIDBLDLBBM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5C0900)
 #define HLIDBLDLBBM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5C0960)
 
+inline static constexpr unsigned int HLIDBLDLBBM_TypeDefinitionIndex = 28643;
+
 	class HLIDBLDLBBM : public ::System::Object
 	{
 	public:

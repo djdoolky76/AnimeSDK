@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengePeakProgressInfo_TypeDefinitionIndex = 63176;
+
 	struct alignas(4) ChallengePeakProgressInfo
 	{
 		::System::Int32 _Current_k__BackingField; // 0x10

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MessageItemType_TypeDefinitionIndex = 14454;
+
 	enum class MessageItemType : ::System::Int32
 	{
 		None = 0,

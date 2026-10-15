@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::EnvironmentSyetem
 {
+	inline static constexpr unsigned int EnviroSysFogClip_TypeDefinitionIndex = 48639;
+
 	class EnviroSysFogClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

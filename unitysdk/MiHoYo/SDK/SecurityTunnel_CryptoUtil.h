@@ -15,6 +15,8 @@ namespace System::Security::Cryptography { class RijndaelManaged; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_CryptoUtil_TypeDefinitionIndex = 46400;
+
 	class SecurityTunnel_CryptoUtil : public ::System::Object
 	{
 	public:

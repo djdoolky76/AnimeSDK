@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ResistanceItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResistanceItem_TypeDefinitionIndex = 23072;
+
 	class ResistanceItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

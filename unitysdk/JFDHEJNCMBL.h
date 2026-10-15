@@ -9,6 +9,8 @@ namespace UnityEngine { class Collider; }
 #define JFDHEJNCMBL_GCBAEEAJNGH_OFFSET UNITYSDK_OFFSET(0x1CB90560)
 #define JFDHEJNCMBL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1CB90510)
 
+inline static constexpr unsigned int JFDHEJNCMBL_TypeDefinitionIndex = 43251;
+
 	class JFDHEJNCMBL : public ::System::Object
 	{
 	public:

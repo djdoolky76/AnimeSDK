@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define BIIAGBFHLJN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D808010)
 #define BIIAGBFHLJN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D807F40)
 
+inline static constexpr unsigned int BIIAGBFHLJN_TypeDefinitionIndex = 24072;
+
 	class BIIAGBFHLJN : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

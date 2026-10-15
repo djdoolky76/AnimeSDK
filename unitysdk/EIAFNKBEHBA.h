@@ -21,6 +21,8 @@ namespace System { class String; }
 #define EIAFNKBEHBA_NHOCLKNNDIJ_OFFSET UNITYSDK_OFFSET(0x154BB490)
 #define EIAFNKBEHBA_OHHJCALLOEA_OFFSET UNITYSDK_OFFSET(0x154BB3F0)
 
+inline static constexpr unsigned int EIAFNKBEHBA_TypeDefinitionIndex = 71443;
+
 	class EIAFNKBEHBA : public ::System::Object
 	{
 	public:

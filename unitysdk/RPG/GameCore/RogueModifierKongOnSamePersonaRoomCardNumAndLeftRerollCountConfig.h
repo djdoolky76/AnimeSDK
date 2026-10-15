@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierKongOnSamePersonaRoomCardNumAndLeft
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierKongOnSamePersonaRoomCardNumAndLeftRerollCountConfig_TypeDefinitionIndex = 17821;
+
 	class RogueModifierKongOnSamePersonaRoomCardNumAndLeftRerollCountConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

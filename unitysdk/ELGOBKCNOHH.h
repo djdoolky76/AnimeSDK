@@ -36,6 +36,8 @@ namespace System { class String; }
 #define ELGOBKCNOHH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2D16B0)
 #define ELGOBKCNOHH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2D1710)
 
+inline static constexpr unsigned int ELGOBKCNOHH_TypeDefinitionIndex = 32960;
+
 	class ELGOBKCNOHH : public ::System::Object
 	{
 	public:

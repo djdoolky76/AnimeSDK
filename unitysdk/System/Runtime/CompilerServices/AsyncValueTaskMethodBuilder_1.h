@@ -4,6 +4,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int AsyncValueTaskMethodBuilder_1_TypeDefinitionIndex = 6681;
+
 	template <typename T>
 	struct alignas(8) AsyncValueTaskMethodBuilder_1
 	{

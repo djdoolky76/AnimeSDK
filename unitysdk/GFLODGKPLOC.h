@@ -6,6 +6,8 @@ namespace UnityEngine { class Transform; }
 
 #define GFLODGKPLOC_HCLHNCAMGHL_OFFSET UNITYSDK_OFFSET(0x159FC980)
 
+inline static constexpr unsigned int GFLODGKPLOC_TypeDefinitionIndex = 79189;
+
 	class GFLODGKPLOC : public ::System::Object
 	{
 	public:

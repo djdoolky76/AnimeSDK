@@ -17,6 +17,8 @@ namespace System { class Object; }
 #define LLDEAHOIEID_PFEODCIJKPH_OFFSET UNITYSDK_OFFSET(0xB763AB0)
 #define LLDEAHOIEID_TICK_OFFSET UNITYSDK_OFFSET(0xB763A50)
 
+inline static constexpr unsigned int LLDEAHOIEID_TypeDefinitionIndex = 58031;
+
 	class LLDEAHOIEID : public ::GELIALJDFBL
 	{
 	public:

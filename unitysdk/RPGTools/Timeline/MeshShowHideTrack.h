@@ -11,6 +11,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int MeshShowHideTrack_TypeDefinitionIndex = 48187;
+
 	class MeshShowHideTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:

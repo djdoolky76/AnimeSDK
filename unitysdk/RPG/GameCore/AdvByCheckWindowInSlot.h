@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvByCheckWindowInSlot_TypeDefinitionIndex = 21288;
+
 	class AdvByCheckWindowInSlot : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

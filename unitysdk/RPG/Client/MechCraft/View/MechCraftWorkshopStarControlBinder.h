@@ -8,6 +8,8 @@ namespace RPG::Client { class UIStateCtrl; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftWorkshopStarControlBinder_TypeDefinitionIndex = 80081;
+
 	class MechCraftWorkshopStarControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

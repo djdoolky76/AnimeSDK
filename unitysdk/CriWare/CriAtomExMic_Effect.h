@@ -10,6 +10,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExMic_Effect_TypeDefinitionIndex = 40044;
+
 	class CriAtomExMic_Effect : public ::System::Object
 	{
 	public:

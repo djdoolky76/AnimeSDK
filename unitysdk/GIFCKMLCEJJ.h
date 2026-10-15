@@ -4,6 +4,8 @@
 
 #define GIFCKMLCEJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15A34360)
 
+inline static constexpr unsigned int GIFCKMLCEJJ_TypeDefinitionIndex = 81277;
+
 	class GIFCKMLCEJJ : public ::System::Object
 	{
 	public:

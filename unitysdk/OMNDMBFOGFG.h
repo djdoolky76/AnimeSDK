@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define OMNDMBFOGFG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C99DEF0)
 
+inline static constexpr unsigned int OMNDMBFOGFG_TypeDefinitionIndex = 43785;
+
 	class OMNDMBFOGFG : public ::System::Object
 	{
 	public:

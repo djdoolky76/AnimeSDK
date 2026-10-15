@@ -5,6 +5,8 @@
 
 #define JMLLBDHHDHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA3380)
 
+inline static constexpr unsigned int JMLLBDHHDHE_TypeDefinitionIndex = 43058;
+
 	class JMLLBDHHDHE : public ::System::Object
 	{
 	public:

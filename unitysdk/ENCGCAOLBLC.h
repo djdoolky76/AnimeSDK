@@ -27,6 +27,8 @@ namespace System { class String; }
 #define ENCGCAOLBLC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2E9400)
 #define ENCGCAOLBLC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2E9460)
 
+inline static constexpr unsigned int ENCGCAOLBLC_TypeDefinitionIndex = 30582;
+
 	class ENCGCAOLBLC : public ::System::Object
 	{
 	public:

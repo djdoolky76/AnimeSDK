@@ -7,6 +7,8 @@ class NJKFOJJDGGG;
 #define KGFNADPCPCE_CTOR_OFFSET UNITYSDK_OFFSET(0xB3DDE90)
 #define KGFNADPCPCE_UPDATE_OFFSET UNITYSDK_OFFSET(0xB3DDEA0)
 
+inline static constexpr unsigned int KGFNADPCPCE_TypeDefinitionIndex = 65033;
+
 	class KGFNADPCPCE : public ::RPG::Client::GridFightGameModifier
 	{
 	public:

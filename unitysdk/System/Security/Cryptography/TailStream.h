@@ -21,6 +21,8 @@
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int TailStream_TypeDefinitionIndex = 1034;
+
 	class TailStream : public ::System::IO::Stream
 	{
 	public:

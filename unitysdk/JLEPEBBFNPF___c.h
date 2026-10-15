@@ -11,6 +11,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define JLEPEBBFNPF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB23EFD0)
 #define JLEPEBBFNPF___C__GET_REQUIREDATTRIBUTELEVELS_B__7_0_OFFSET UNITYSDK_OFFSET(0xB23EFE0)
 
+inline static constexpr unsigned int JLEPEBBFNPF___c_TypeDefinitionIndex = 80147;
+
 	class JLEPEBBFNPF___c : public ::System::Object
 	{
 	public:

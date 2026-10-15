@@ -6,6 +6,8 @@
 
 namespace RPG::Client::FateRin
 {
+	inline static constexpr unsigned int FateRinSupportStatic_TypeDefinitionIndex = 80633;
+
 	class FateRinSupportStatic : public ::System::Object
 	{
 	public:

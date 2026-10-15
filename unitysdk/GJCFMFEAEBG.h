@@ -19,6 +19,8 @@ namespace UnityEngine { class MeshRenderer; }
 #define GJCFMFEAEBG_JIFPPKNBGMH_OFFSET UNITYSDK_OFFSET(0x15A5CA30)
 #define GJCFMFEAEBG_NLHPBAOOMDK_OFFSET UNITYSDK_OFFSET(0x15A5C840)
 
+inline static constexpr unsigned int GJCFMFEAEBG_TypeDefinitionIndex = 74371;
+
 	class GJCFMFEAEBG : public ::System::Object
 	{
 	public:

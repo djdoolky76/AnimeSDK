@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByAnimatorParam_TypeDefinitionIndex = 20804;
+
 	class ByAnimatorParam : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -43,6 +43,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AchievementData_TypeDefinitionIndex = 61357;
+
 	class AchievementData : public ::System::Object
 	{
 	public:

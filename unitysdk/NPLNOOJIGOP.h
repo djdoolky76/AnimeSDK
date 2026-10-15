@@ -8,6 +8,8 @@ class NPLNOOJIGOP;
 #define NPLNOOJIGOP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D246810)
 #define NPLNOOJIGOP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2467D0)
 
+inline static constexpr unsigned int NPLNOOJIGOP_TypeDefinitionIndex = 19884;
+
 	class NPLNOOJIGOP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class QATestDataConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int QATestDataConfig_TypeDefinitionIndex = 19065;
+
 	class QATestDataConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

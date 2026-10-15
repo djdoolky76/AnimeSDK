@@ -30,6 +30,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengePeakReward_TypeDefinitionIndex = 63182;
+
 	class ChallengePeakReward : public ::System::Object
 	{
 	public:

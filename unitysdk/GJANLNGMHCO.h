@@ -17,6 +17,8 @@ namespace System { class Object; }
 #define GJANLNGMHCO_OPCKNBHNBOA_OFFSET UNITYSDK_OFFSET(0x15A59140)
 #define GJANLNGMHCO_TICK_OFFSET UNITYSDK_OFFSET(0x15A591C0)
 
+inline static constexpr unsigned int GJANLNGMHCO_TypeDefinitionIndex = 55852;
+
 	class GJANLNGMHCO : public ::System::Object
 	{
 	public:

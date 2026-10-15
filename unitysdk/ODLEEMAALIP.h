@@ -42,6 +42,8 @@ namespace System { class String; }
 #define ODLEEMAALIP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE200A0)
 #define ODLEEMAALIP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE20100)
 
+inline static constexpr unsigned int ODLEEMAALIP_TypeDefinitionIndex = 31554;
+
 	class ODLEEMAALIP : public ::System::Object
 	{
 	public:

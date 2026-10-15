@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CheckItemReachWorldLevel_TypeDefinitionIndex = 59888;
+
 	class CheckItemReachWorldLevel : public ::RPG::Client::SyncCheckItemBase
 	{
 	public:

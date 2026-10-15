@@ -8,6 +8,8 @@ namespace RPG::GameCore { class LineUpCharacter; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GlobalBuffService___c__DisplayClass0_0_TypeDefinitionIndex = 62763;
+
 	class GlobalBuffService___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

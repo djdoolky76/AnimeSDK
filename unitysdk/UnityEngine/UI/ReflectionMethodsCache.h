@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class ReflectionMethodsCache_RaycastAllCallback; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int ReflectionMethodsCache_TypeDefinitionIndex = 6879;
+
 	class ReflectionMethodsCache : public ::System::Object
 	{
 	public:

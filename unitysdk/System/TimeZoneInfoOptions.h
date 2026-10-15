@@ -3,6 +3,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int TimeZoneInfoOptions_TypeDefinitionIndex = 342;
+
 	enum class TimeZoneInfoOptions : ::System::Int32
 	{
 		None = 1,

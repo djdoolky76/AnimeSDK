@@ -6,6 +6,8 @@ namespace RPG::GameCore { class UnloadBattleEvent; }
 #define PBODAPNJACO_CTOR_OFFSET UNITYSDK_OFFSET(0xBFF5DA0)
 #define PBODAPNJACO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFF5DD0)
 
+inline static constexpr unsigned int PBODAPNJACO_TypeDefinitionIndex = 58841;
+
 	class PBODAPNJACO
 	{
 	public:

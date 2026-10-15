@@ -39,6 +39,8 @@ namespace System { class String; }
 #define PGIOKHAKAPP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF329C0)
 #define PGIOKHAKAPP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF32A20)
 
+inline static constexpr unsigned int PGIOKHAKAPP_TypeDefinitionIndex = 30651;
+
 	class PGIOKHAKAPP : public ::System::Object
 	{
 	public:

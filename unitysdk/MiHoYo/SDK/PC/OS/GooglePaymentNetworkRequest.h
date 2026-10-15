@@ -13,6 +13,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int GooglePaymentNetworkRequest_TypeDefinitionIndex = 8540;
+
 	class GooglePaymentNetworkRequest : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::PetMarble::Level
 {
+	inline static constexpr unsigned int PetMarbleLevelMode_TypeDefinitionIndex = 74741;
+
 	class PetMarbleLevelMode : public ::System::Object
 	{
 	public:

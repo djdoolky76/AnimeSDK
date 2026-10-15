@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRRenderModels__RenderModelHasComponent_TypeDefinitionIndex = 39155;
+
 	class IVRRenderModels__RenderModelHasComponent : public ::System::MulticastDelegate
 	{
 	public:

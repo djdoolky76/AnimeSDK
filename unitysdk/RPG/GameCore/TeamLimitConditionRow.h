@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TeamLimitConditionRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamLimitConditionRow_TypeDefinitionIndex = 15277;
+
 	class TeamLimitConditionRow : public ::System::Object
 	{
 	public:

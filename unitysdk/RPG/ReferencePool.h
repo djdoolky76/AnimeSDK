@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int ReferencePool_TypeDefinitionIndex = 5621;
+
 	class ReferencePool : public ::System::Object
 	{
 	public:

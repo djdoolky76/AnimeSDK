@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Camera_FieldOfViewAxis_TypeDefinitionIndex = 4042;
+
 	enum class Camera_FieldOfViewAxis : ::System::Int32
 	{
 		Vertical = 0,

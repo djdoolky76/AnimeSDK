@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MBEIDNCLJFC_MPJJFIKPGOK_OFFSET UNITYSDK_OFFSET(0xB859F50)
 #define MBEIDNCLJFC_SET_VOICEENTRYLIST_OFFSET UNITYSDK_OFFSET(0xB85A000)
 
+inline static constexpr unsigned int MBEIDNCLJFC_TypeDefinitionIndex = 62427;
+
 	class MBEIDNCLJFC : public ::System::Object
 	{
 	public:

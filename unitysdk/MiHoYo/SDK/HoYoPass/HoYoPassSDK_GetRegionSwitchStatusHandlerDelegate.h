@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int HoYoPassSDK_GetRegionSwitchStatusHandlerDelegate_TypeDefinitionIndex = 8301;
+
 	class HoYoPassSDK_GetRegionSwitchStatusHandlerDelegate : public ::System::MulticastDelegate
 	{
 	public:

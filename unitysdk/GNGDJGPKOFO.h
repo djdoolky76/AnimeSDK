@@ -13,6 +13,8 @@ namespace RPG::GameCore { class CharacterInputData; }
 #define GNGDJGPKOFO_MNKAPPBEJOK_OFFSET UNITYSDK_OFFSET(0x15B07DC0)
 #define GNGDJGPKOFO_PMMJGEDIIJD_OFFSET UNITYSDK_OFFSET(0x15B07D60)
 
+inline static constexpr unsigned int GNGDJGPKOFO_TypeDefinitionIndex = 53616;
+
 	class GNGDJGPKOFO : public ::IECNEMPGKJL
 	{
 	public:

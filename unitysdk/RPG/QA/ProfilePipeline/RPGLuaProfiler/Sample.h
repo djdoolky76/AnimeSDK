@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::QA::ProfilePipeline::RPGLuaProfiler
 {
+	inline static constexpr unsigned int Sample_TypeDefinitionIndex = 51827;
+
 	class Sample : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace UnityEngine::UIElements { class VisualElement; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int ElementUnderPointer_TypeDefinitionIndex = 5928;
+
 	class ElementUnderPointer : public ::System::Object
 	{
 	public:

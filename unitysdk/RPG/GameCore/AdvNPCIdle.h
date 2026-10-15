@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvNPCIdle; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvNPCIdle_TypeDefinitionIndex = 19986;
+
 	class AdvNPCIdle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

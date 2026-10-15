@@ -25,6 +25,8 @@ namespace System { class String; }
 #define IKFDIJLEOJA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6A0750)
 #define IKFDIJLEOJA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6A07B0)
 
+inline static constexpr unsigned int IKFDIJLEOJA_TypeDefinitionIndex = 28861;
+
 	class IKFDIJLEOJA : public ::System::Object
 	{
 	public:

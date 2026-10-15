@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceWaitCatGotoPosZ; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceWaitCatGotoPosZ_TypeDefinitionIndex = 24297;
+
 	class CakeRaceWaitCatGotoPosZ : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropSetupSceneSelection_TypeDefinitionIndex = 22023;
+
 	class PropSetupSceneSelection : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PropOverrideColliderConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropOverrideColliderConfig_TypeDefinitionIndex = 17585;
+
 	class PropOverrideColliderConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

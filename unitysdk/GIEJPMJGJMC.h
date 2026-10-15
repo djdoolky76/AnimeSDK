@@ -11,6 +11,8 @@ namespace RPG::Client { class FateGameData; }
 #define GIEJPMJGJMC_LHHBFAAJHCI_OFFSET UNITYSDK_OFFSET(0x15A341E0)
 #define GIEJPMJGJMC_LIHJCMNPNAG_OFFSET UNITYSDK_OFFSET(0x15A33FA0)
 
+inline static constexpr unsigned int GIEJPMJGJMC_TypeDefinitionIndex = 64038;
+
 	class GIEJPMJGJMC : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define AKBOBPLCNFN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3C8340)
 #define AKBOBPLCNFN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3C83A0)
 
+inline static constexpr unsigned int AKBOBPLCNFN_TypeDefinitionIndex = 34626;
+
 	class AKBOBPLCNFN : public ::System::Object
 	{
 	public:

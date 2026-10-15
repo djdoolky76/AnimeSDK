@@ -33,6 +33,8 @@ class AkThreadProperties;
 #define AKDEVICESETTINGS_SET_UMAXCONCURRENTIO_OFFSET UNITYSDK_OFFSET(0x1F58C420)
 #define AKDEVICESETTINGS_SET_USCHEDULERTYPEFLAGS_OFFSET UNITYSDK_OFFSET(0x1F58BFD0)
 
+inline static constexpr unsigned int AkDeviceSettings_TypeDefinitionIndex = 44733;
+
 	class AkDeviceSettings : public ::System::Object
 	{
 	public:

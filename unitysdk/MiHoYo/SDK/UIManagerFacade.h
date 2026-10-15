@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int UIManagerFacade_TypeDefinitionIndex = 8263;
+
 	class UIManagerFacade : public ::System::Object
 	{
 	public:

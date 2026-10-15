@@ -24,6 +24,8 @@ namespace UnityEngine { class Transform; }
 #define COLPFPLJGEB_MLIIJANOECA_OFFSET UNITYSDK_OFFSET(0xDCBDE60)
 #define COLPFPLJGEB_MNJCMELCNEI_OFFSET UNITYSDK_OFFSET(0xDCBC990)
 
+inline static constexpr unsigned int COLPFPLJGEB_TypeDefinitionIndex = 76428;
+
 	class COLPFPLJGEB : public ::System::Object
 	{
 	public:

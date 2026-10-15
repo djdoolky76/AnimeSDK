@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int PDLOAMGLGJB_TypeDefinitionIndex = 32634;
+
 	enum class PDLOAMGLGJB : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

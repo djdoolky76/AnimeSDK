@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int World3DMapEntranceConfigRow_TypeDefinitionIndex = 14024;
+
 	class World3DMapEntranceConfigRow : public ::System::Object
 	{
 	public:

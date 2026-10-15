@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int LMIBAPMLJND_RunOutStage_TypeDefinitionIndex = 78442;
+
 	enum class LMIBAPMLJND_RunOutStage : ::System::Int32
 	{
 		None = 0,

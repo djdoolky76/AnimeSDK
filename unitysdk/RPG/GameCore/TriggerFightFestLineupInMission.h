@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TriggerFightFestLineupInMission; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerFightFestLineupInMission_TypeDefinitionIndex = 21720;
+
 	class TriggerFightFestLineupInMission : public ::RPG::GameCore::TaskConfig
 	{
 	public:

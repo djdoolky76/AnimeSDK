@@ -34,6 +34,8 @@ namespace System { class String; }
 #define GCPGBPNGOFF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E443140)
 #define GCPGBPNGOFF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4431A0)
 
+inline static constexpr unsigned int GCPGBPNGOFF_TypeDefinitionIndex = 32789;
+
 	class GCPGBPNGOFF : public ::System::Object
 	{
 	public:

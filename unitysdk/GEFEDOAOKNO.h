@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GEFEDOAOKNO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E456AD0)
 #define GEFEDOAOKNO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E456B30)
 
+inline static constexpr unsigned int GEFEDOAOKNO_TypeDefinitionIndex = 29827;
+
 	class GEFEDOAOKNO : public ::System::Object
 	{
 	public:

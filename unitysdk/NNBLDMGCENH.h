@@ -4,6 +4,8 @@
 
 #define NNBLDMGCENH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C973540)
 
+inline static constexpr unsigned int NNBLDMGCENH_TypeDefinitionIndex = 42352;
+
 	class NNBLDMGCENH : public ::System::Object
 	{
 	public:

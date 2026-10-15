@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlaySerialBells_TypeDefinitionIndex = 22195;
+
 	class PlaySerialBells : public ::RPG::GameCore::TaskConfig
 	{
 	public:

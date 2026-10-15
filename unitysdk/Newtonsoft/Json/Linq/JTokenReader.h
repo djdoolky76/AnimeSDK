@@ -25,6 +25,8 @@ namespace System { class String; }
 
 namespace Newtonsoft::Json::Linq
 {
+	inline static constexpr unsigned int JTokenReader_TypeDefinitionIndex = 9778;
+
 	class JTokenReader : public ::Newtonsoft::Json::JsonReader
 	{
 	public:

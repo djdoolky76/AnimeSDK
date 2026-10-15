@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define COADBCKHCOJ_AGPNBFEAHLI_OFFSET UNITYSDK_OFFSET(0xDCACC70)
 
+inline static constexpr unsigned int COADBCKHCOJ_TypeDefinitionIndex = 58989;
+
 	class COADBCKHCOJ : public ::System::Object
 	{
 	public:

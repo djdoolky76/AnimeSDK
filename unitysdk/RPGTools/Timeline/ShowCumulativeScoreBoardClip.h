@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ShowCumulativeScoreBoardClip_TypeDefinitionIndex = 48279;
+
 	class ShowCumulativeScoreBoardClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

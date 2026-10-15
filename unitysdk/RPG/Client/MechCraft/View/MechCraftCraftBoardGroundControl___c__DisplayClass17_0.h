@@ -15,6 +15,8 @@ namespace System::Collections::Immutable { template <typename T> class IImmutabl
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftBoardGroundControl___c__DisplayClass17_0_TypeDefinitionIndex = 79845;
+
 	class MechCraftCraftBoardGroundControl___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

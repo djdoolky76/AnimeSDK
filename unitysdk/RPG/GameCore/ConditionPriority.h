@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConditionPriority_TypeDefinitionIndex = 22662;
+
 	class ConditionPriority : public ::RPG::GameCore::JsonConfig
 	{
 	public:

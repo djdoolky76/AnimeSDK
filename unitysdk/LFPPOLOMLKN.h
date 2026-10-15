@@ -31,6 +31,8 @@ namespace System { class String; }
 #define LFPPOLOMLKN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E947D20)
 #define LFPPOLOMLKN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E947D80)
 
+inline static constexpr unsigned int LFPPOLOMLKN_TypeDefinitionIndex = 25568;
+
 	class LFPPOLOMLKN : public ::System::Object
 	{
 	public:

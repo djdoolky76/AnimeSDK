@@ -71,6 +71,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ActivityAlley
 {
+	inline static constexpr unsigned int AlleyPackComponent_TypeDefinitionIndex = 74087;
+
 	class AlleyPackComponent : public ::UnityEngine::MonoBehaviour
 	{
 	public:

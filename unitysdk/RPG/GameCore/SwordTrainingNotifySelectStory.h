@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SwordTrainingNotifySelectStory; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwordTrainingNotifySelectStory_TypeDefinitionIndex = 20327;
+
 	class SwordTrainingNotifySelectStory : public ::RPG::GameCore::TaskConfig
 	{
 	public:

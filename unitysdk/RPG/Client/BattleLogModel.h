@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleLogModel_TypeDefinitionIndex = 60957;
+
 	class BattleLogModel : public ::System::Object
 	{
 	public:

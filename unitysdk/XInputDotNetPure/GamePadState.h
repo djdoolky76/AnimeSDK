@@ -16,6 +16,8 @@
 
 namespace XInputDotNetPure
 {
+	inline static constexpr unsigned int GamePadState_TypeDefinitionIndex = 40786;
+
 	struct alignas(4) GamePadState
 	{
 		::System::Boolean isConnected; // 0x10

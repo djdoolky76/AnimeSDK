@@ -5,6 +5,8 @@
 
 #define PIJEFEJMFFA_NFECDPGDBMO_OFFSET UNITYSDK_OFFSET(0xC269780)
 
+inline static constexpr unsigned int PIJEFEJMFFA_TypeDefinitionIndex = 69812;
+
 	class PIJEFEJMFFA : public ::System::Object
 	{
 	public:

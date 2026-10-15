@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DawnsEyeWeatherUIBaseConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DawnsEyeWeatherUIBaseConfig_TypeDefinitionIndex = 22795;
+
 	class DawnsEyeWeatherUIBaseConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

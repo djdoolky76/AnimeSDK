@@ -30,6 +30,8 @@ namespace System { class String; }
 #define IBCNMNCCCBJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E610E70)
 #define IBCNMNCCCBJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E610ED0)
 
+inline static constexpr unsigned int IBCNMNCCCBJ_TypeDefinitionIndex = 26963;
+
 	class IBCNMNCCCBJ : public ::System::Object
 	{
 	public:

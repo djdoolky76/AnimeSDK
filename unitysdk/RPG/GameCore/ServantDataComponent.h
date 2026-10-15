@@ -32,6 +32,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ServantDataComponent_TypeDefinitionIndex = 57663;
+
 	class ServantDataComponent : public ::RPG::GameCore::CharacterDataComponent
 	{
 	public:

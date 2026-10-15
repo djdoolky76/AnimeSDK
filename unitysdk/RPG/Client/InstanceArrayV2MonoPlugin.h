@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int InstanceArrayV2MonoPlugin_TypeDefinitionIndex = 70622;
+
 	class InstanceArrayV2MonoPlugin
 	{
 	public:

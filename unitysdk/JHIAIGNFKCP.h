@@ -3,6 +3,8 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/SkillPropertyModifyType.h"
 
+inline static constexpr unsigned int JHIAIGNFKCP_TypeDefinitionIndex = 57682;
+
 	struct alignas(4) JHIAIGNFKCP
 	{
 		::RPG::GameCore::SkillPropertyModifyType JFPEKLPIHHB; // 0x10

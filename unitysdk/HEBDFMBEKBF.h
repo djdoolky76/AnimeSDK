@@ -12,6 +12,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 #define HEBDFMBEKBF_FIOEFKBHKJF_OFFSET UNITYSDK_OFFSET(0x15C434C0)
 #define HEBDFMBEKBF_KFDMIOANNDO_OFFSET UNITYSDK_OFFSET(0x15C43300)
 
+inline static constexpr unsigned int HEBDFMBEKBF_TypeDefinitionIndex = 47475;
+
 	class HEBDFMBEKBF : public ::RPG::Client::MusicVisualization_SpectrumEffectElementVisualBase
 	{
 	public:

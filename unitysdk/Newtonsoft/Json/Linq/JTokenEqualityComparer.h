@@ -9,6 +9,8 @@ namespace Newtonsoft::Json::Linq { class JToken; }
 
 namespace Newtonsoft::Json::Linq
 {
+	inline static constexpr unsigned int JTokenEqualityComparer_TypeDefinitionIndex = 9760;
+
 	class JTokenEqualityComparer : public ::System::Object
 	{
 	public:

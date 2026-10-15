@@ -17,6 +17,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftEditingChipDetailControlBinder_TypeDefinitionIndex = 79889;
+
 	class MechCraftCraftEditingChipDetailControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

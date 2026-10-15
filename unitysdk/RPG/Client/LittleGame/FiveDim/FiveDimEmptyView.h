@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimEmptyView_TypeDefinitionIndex = 77174;
+
 	class FiveDimEmptyView : public ::RPG::Client::LittleGame::BaseMonoGenericView
 	{
 	public:

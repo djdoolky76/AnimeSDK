@@ -10,6 +10,8 @@ namespace RPG::GameCore { class NounAtlasRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NounAtlasRow_TypeDefinitionIndex = 12694;
+
 	class NounAtlasRow : public ::System::Object
 	{
 	public:

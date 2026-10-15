@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MusicRhythmOpticalRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MusicRhythmOpticalRow_TypeDefinitionIndex = 14273;
+
 	class MusicRhythmOpticalRow : public ::System::Object
 	{
 	public:

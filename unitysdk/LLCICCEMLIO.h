@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define LLCICCEMLIO_GET_CANDIDATEAVATARIDS_OFFSET UNITYSDK_OFFSET(0xB762700)
 #define LLCICCEMLIO_GET_ID_OFFSET UNITYSDK_OFFSET(0xB7626F0)
 
+inline static constexpr unsigned int LLCICCEMLIO_TypeDefinitionIndex = 68090;
+
 	class LLCICCEMLIO : public ::System::Object
 	{
 	public:

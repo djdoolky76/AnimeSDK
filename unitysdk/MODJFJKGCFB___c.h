@@ -14,6 +14,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define MODJFJKGCFB___C__GET_ACQUIREDCOUNT_B__11_0_OFFSET UNITYSDK_OFFSET(0xBA29830)
 #define MODJFJKGCFB___C__GET_COLLECTABLECOUNT_B__13_0_OFFSET UNITYSDK_OFFSET(0xBA29850)
 
+inline static constexpr unsigned int MODJFJKGCFB___c_TypeDefinitionIndex = 81094;
+
 	class MODJFJKGCFB___c : public ::System::Object
 	{
 	public:

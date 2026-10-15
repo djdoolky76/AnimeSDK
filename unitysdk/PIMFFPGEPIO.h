@@ -32,6 +32,8 @@ namespace System { class String; }
 #define PIMFFPGEPIO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF6D910)
 #define PIMFFPGEPIO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF6D970)
 
+inline static constexpr unsigned int PIMFFPGEPIO_TypeDefinitionIndex = 30819;
+
 	class PIMFFPGEPIO : public ::System::Object
 	{
 	public:

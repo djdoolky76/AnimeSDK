@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define APMDFMCBCPL_CTOR_OFFSET UNITYSDK_OFFSET(0x15BB4990)
 #define APMDFMCBCPL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15BB4A00)
 
+inline static constexpr unsigned int APMDFMCBCPL_TypeDefinitionIndex = 59189;
+
 	class APMDFMCBCPL
 	{
 	public:

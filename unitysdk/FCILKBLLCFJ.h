@@ -28,6 +28,8 @@ namespace UnityEngine { class Transform; }
 #define FCILKBLLCFJ_PMMJGEDIIJD_OFFSET UNITYSDK_OFFSET(0x156C2DD0)
 #define FCILKBLLCFJ_SET_CURRENTMOVESTATE_OFFSET UNITYSDK_OFFSET(0x156C2090)
 
+inline static constexpr unsigned int FCILKBLLCFJ_TypeDefinitionIndex = 53617;
+
 	class FCILKBLLCFJ : public ::System::Object
 	{
 	public:

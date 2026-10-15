@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfRestaurantEmployeeUpData_TypeDefinitionIndex = 63665;
+
 	class ElfRestaurantEmployeeUpData : public ::System::Object
 	{
 	public:

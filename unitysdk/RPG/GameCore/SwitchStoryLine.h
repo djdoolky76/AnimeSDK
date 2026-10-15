@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SwitchStoryLine; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchStoryLine_TypeDefinitionIndex = 20767;
+
 	class SwitchStoryLine : public ::RPG::GameCore::TaskConfig
 	{
 	public:

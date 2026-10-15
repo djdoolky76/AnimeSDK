@@ -19,6 +19,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlDownloadManager_TypeDefinitionIndex = 1944;
+
 	class XmlDownloadManager : public ::System::Object
 	{
 	public:

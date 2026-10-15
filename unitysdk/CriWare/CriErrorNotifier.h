@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriErrorNotifier_TypeDefinitionIndex = 40146;
+
 	class CriErrorNotifier : public ::System::Object
 	{
 	public:

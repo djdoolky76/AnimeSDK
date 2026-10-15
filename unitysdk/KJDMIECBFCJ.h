@@ -6,6 +6,8 @@ namespace RPG::GameCore { class BattleAreaRow; }
 #define KJDMIECBFCJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB442210)
 #define KJDMIECBFCJ_IMHKCDCAFFK_OFFSET UNITYSDK_OFFSET(0xB442170)
 
+inline static constexpr unsigned int KJDMIECBFCJ_TypeDefinitionIndex = 58770;
+
 	class KJDMIECBFCJ : public ::System::Object
 	{
 	public:

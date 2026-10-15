@@ -8,6 +8,8 @@ namespace MiHoYo::SDK { class MiHoYoSDKWebViewManager; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKWebViewManager___c__DisplayClass156_0_TypeDefinitionIndex = 46625;
+
 	class MiHoYoSDKWebViewManager___c__DisplayClass156_0 : public ::System::Object
 	{
 	public:

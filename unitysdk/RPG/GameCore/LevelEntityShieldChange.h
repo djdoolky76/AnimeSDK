@@ -15,6 +15,8 @@ namespace RPG::GameCore { class LevelEntityShieldChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEntityShieldChange_TypeDefinitionIndex = 56838;
+
 	class LevelEntityShieldChange : public ::CMPGEAFHHDC
 	{
 	public:

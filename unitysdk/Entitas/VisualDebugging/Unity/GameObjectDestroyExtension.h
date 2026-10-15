@@ -7,6 +7,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace Entitas::VisualDebugging::Unity
 {
+	inline static constexpr unsigned int GameObjectDestroyExtension_TypeDefinitionIndex = 10066;
+
 	class GameObjectDestroyExtension : public ::System::Object
 	{
 	public:

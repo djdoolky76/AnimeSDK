@@ -13,6 +13,8 @@ namespace System { class String; }
 #define NADNNBCHIDO_TICK_OFFSET UNITYSDK_OFFSET(0xBA953C0)
 #define NADNNBCHIDO__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xBA95420)
 
+inline static constexpr unsigned int NADNNBCHIDO_TypeDefinitionIndex = 58546;
+
 	class NADNNBCHIDO : public ::GELIALJDFBL
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Type; }
 #define FNLODLDBEPE_DLHCHMNCCLE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x158859C0)
 #define FNLODLDBEPE_DLHCHMNCCLE_INVOKE_OFFSET UNITYSDK_OFFSET(0x15880040)
 
+inline static constexpr unsigned int FNLODLDBEPE_DLHCHMNCCLE_TypeDefinitionIndex = 67914;
+
 	class FNLODLDBEPE_DLHCHMNCCLE : public ::System::MulticastDelegate
 	{
 	public:

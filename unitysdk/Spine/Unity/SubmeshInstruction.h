@@ -9,6 +9,8 @@ namespace UnityEngine { class Material; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SubmeshInstruction_TypeDefinitionIndex = 45087;
+
 	struct alignas(8) SubmeshInstruction
 	{
 		::Spine::Skeleton* skeleton; // 0x10

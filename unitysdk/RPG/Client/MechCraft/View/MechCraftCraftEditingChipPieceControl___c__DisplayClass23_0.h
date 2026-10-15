@@ -5,6 +5,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftCraftEditingChipPieceCon
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftEditingChipPieceControl___c__DisplayClass23_0_TypeDefinitionIndex = 79893;
+
 	struct alignas(8) MechCraftCraftEditingChipPieceControl___c__DisplayClass23_0
 	{
 		::RPG::Client::MechCraft::View::MechCraftCraftEditingChipPieceControl* __4__this; // 0x10

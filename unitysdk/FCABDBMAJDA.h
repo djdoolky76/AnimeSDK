@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimBaseCameraConfig; }
 #define FCABDBMAJDA_NMCLGOHGBIO_OFFSET UNITYSDK_OFFSET(0x1CA66330)
 #define FCABDBMAJDA_PLNCKLJOJME_OFFSET UNITYSDK_OFFSET(0x1CA662F0)
 
+inline static constexpr unsigned int FCABDBMAJDA_TypeDefinitionIndex = 43254;
+
 	class FCABDBMAJDA : public ::System::Object
 	{
 	public:

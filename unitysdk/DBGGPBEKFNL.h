@@ -9,6 +9,8 @@ namespace System { class String; }
 #define DBGGPBEKFNL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCCFB10)
 #define DBGGPBEKFNL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCCF890)
 
+inline static constexpr unsigned int DBGGPBEKFNL_TypeDefinitionIndex = 21454;
+
 	class DBGGPBEKFNL : public ::RPG::GameCore::JsonConfig
 	{
 	public:

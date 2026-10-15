@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonsterStatusResistanceData_TypeDefinitionIndex = 71778;
+
 	class MonsterStatusResistanceData : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 #define APADFFNMMAN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCEC1C0)
 #define APADFFNMMAN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCEC120)
 
+inline static constexpr unsigned int APADFFNMMAN_TypeDefinitionIndex = 20406;
+
 	class APADFFNMMAN : public ::RPG::GameCore::TaskConfig
 	{
 	public:

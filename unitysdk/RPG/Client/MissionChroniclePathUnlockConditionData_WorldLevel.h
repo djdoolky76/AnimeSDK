@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionChroniclePathUnlockConditionData_WorldLevel_TypeDefinitionIndex = 66125;
+
 	class MissionChroniclePathUnlockConditionData_WorldLevel : public ::System::Object
 	{
 	public:

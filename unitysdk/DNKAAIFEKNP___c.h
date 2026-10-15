@@ -28,6 +28,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define DNKAAIFEKNP___C___GENERATEROGUETOURNBUILDREFTEAMMEMBERJSON_B__15_0_OFFSET UNITYSDK_OFFSET(0x11FD2330)
 #define DNKAAIFEKNP___C___GENERATESTRINGLIST_B__129_0_OFFSET UNITYSDK_OFFSET(0x11FD2380)
 
+inline static constexpr unsigned int DNKAAIFEKNP___c_TypeDefinitionIndex = 59992;
+
 	class DNKAAIFEKNP___c : public ::System::Object
 	{
 	public:

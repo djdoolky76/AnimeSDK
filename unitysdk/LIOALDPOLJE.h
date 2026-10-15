@@ -6,6 +6,8 @@ namespace Proto { class Item; }
 #define LIOALDPOLJE_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB6DB1C0)
 #define LIOALDPOLJE_CTOR_OFFSET UNITYSDK_OFFSET(0xB6DB1B0)
 
+inline static constexpr unsigned int LIOALDPOLJE_TypeDefinitionIndex = 62884;
+
 	class LIOALDPOLJE : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimSetCameraActiveAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetCameraActiveAction_TypeDefinitionIndex = 18735;
+
 	class FiveDimSetCameraActiveAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

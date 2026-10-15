@@ -5,6 +5,8 @@ namespace System { class Action; }
 
 #define BDDAELGEKFF_COLDJHDEDBD_CTOR_OFFSET UNITYSDK_OFFSET(0x162F1E20)
 
+inline static constexpr unsigned int BDDAELGEKFF_COLDJHDEDBD_TypeDefinitionIndex = 49445;
+
 	class BDDAELGEKFF_COLDJHDEDBD : public ::JHPHMGHKGEN
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LMOICHMLIFM_ONRETURN_OFFSET UNITYSDK_OFFSET(0xB7D26D0)
 #define LMOICHMLIFM__ONBIND_OFFSET UNITYSDK_OFFSET(0xB7D2500)
 
+inline static constexpr unsigned int LMOICHMLIFM_TypeDefinitionIndex = 71393;
+
 	class LMOICHMLIFM : public ::FMPCODLIOLG
 	{
 	public:

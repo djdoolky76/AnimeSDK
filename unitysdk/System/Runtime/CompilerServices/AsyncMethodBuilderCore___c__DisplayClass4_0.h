@@ -9,6 +9,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int AsyncMethodBuilderCore___c__DisplayClass4_0_TypeDefinitionIndex = 1356;
+
 	class AsyncMethodBuilderCore___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

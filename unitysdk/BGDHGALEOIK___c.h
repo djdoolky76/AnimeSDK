@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BGDHGALEOIK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA71C70)
 #define BGDHGALEOIK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EA71C80)
 
+inline static constexpr unsigned int BGDHGALEOIK___c_TypeDefinitionIndex = 33250;
+
 	class BGDHGALEOIK___c : public ::System::Object
 	{
 	public:

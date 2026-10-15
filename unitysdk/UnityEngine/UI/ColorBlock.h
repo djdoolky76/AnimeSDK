@@ -26,6 +26,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int ColorBlock_TypeDefinitionIndex = 6697;
+
 	struct alignas(4) ColorBlock
 	{
 		::UnityEngine::Color m_NormalColor; // 0x10

@@ -9,6 +9,8 @@ namespace MiHoYo::SDK::Win { class RealName; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int RealName___c__DisplayClass25_0_TypeDefinitionIndex = 9549;
+
 	class RealName___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:

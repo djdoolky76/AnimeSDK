@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TimeRewindSetSpecularMat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimeRewindSetSpecularMat_TypeDefinitionIndex = 20646;
+
 	class TimeRewindSetSpecularMat : public ::RPG::GameCore::TaskConfig
 	{
 	public:

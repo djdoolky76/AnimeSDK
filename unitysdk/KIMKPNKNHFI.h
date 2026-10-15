@@ -9,6 +9,8 @@ class KIMKPNKNHFI;
 #define KIMKPNKNHFI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D096AE0)
 #define KIMKPNKNHFI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D096AA0)
 
+inline static constexpr unsigned int KIMKPNKNHFI_TypeDefinitionIndex = 21074;
+
 	class KIMKPNKNHFI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

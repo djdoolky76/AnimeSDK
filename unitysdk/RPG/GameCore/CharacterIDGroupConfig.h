@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterIDGroupConfig_TypeDefinitionIndex = 17137;
+
 	class CharacterIDGroupConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

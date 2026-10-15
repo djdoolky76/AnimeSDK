@@ -32,6 +32,8 @@ namespace System { class String; }
 #define LADNPPKPJGM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8CA210)
 #define LADNPPKPJGM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8CA270)
 
+inline static constexpr unsigned int LADNPPKPJGM_TypeDefinitionIndex = 34543;
+
 	class LADNPPKPJGM : public ::System::Object
 	{
 	public:

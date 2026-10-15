@@ -10,6 +10,8 @@ class LAFAMEHCOOE;
 #define LAFAMEHCOOE_CTOR_OFFSET UNITYSDK_OFFSET(0xB5DDB80)
 #define LAFAMEHCOOE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB5DDA00)
 
+inline static constexpr unsigned int LAFAMEHCOOE_TypeDefinitionIndex = 65876;
+
 	class LAFAMEHCOOE : public ::MLKDDLHNNHH
 	{
 	public:

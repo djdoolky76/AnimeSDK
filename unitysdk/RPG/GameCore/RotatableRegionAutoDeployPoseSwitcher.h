@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RotatableRegionAutoDeployPoseSwitcher; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RotatableRegionAutoDeployPoseSwitcher_TypeDefinitionIndex = 21263;
+
 	class RotatableRegionAutoDeployPoseSwitcher : public ::RPG::GameCore::TaskConfig
 	{
 	public:

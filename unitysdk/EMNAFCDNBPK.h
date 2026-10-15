@@ -43,6 +43,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EMNAFCDNBPK_OPNBBEDNLPB_OFFSET UNITYSDK_OFFSET(0x155574F0)
 #define EMNAFCDNBPK_TICK_OFFSET UNITYSDK_OFFSET(0x15554FC0)
 
+inline static constexpr unsigned int EMNAFCDNBPK_TypeDefinitionIndex = 52544;
+
 	class EMNAFCDNBPK : public ::GELIALJDFBL
 	{
 	public:

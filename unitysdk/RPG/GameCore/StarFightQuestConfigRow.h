@@ -9,6 +9,8 @@ namespace RPG::GameCore { class StarFightQuestConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StarFightQuestConfigRow_TypeDefinitionIndex = 12394;
+
 	class StarFightQuestConfigRow : public ::System::Object
 	{
 	public:

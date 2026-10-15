@@ -30,6 +30,8 @@ namespace System { class String; }
 #define BMDEEMIDNEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E023150)
 #define BMDEEMIDNEL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0231B0)
 
+inline static constexpr unsigned int BMDEEMIDNEL_TypeDefinitionIndex = 30263;
+
 	class BMDEEMIDNEL : public ::System::Object
 	{
 	public:

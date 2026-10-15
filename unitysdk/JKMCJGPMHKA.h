@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JKMCJGPMHKA__FILTERLIGHTSBYTARGET_B__32_1_OFFSET UNITYSDK_OFFSET(0xB222470)
 #define JKMCJGPMHKA__FILTERLIGHTSBYTARGET_B__32_2_OFFSET UNITYSDK_OFFSET(0xB2224A0)
 
+inline static constexpr unsigned int JKMCJGPMHKA_TypeDefinitionIndex = 51808;
+
 	class JKMCJGPMHKA : public ::System::Object
 	{
 	public:

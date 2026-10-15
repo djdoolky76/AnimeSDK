@@ -8,6 +8,8 @@ namespace System { class String; }
 #define OMGONAELHIE___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBF29F20)
 #define OMGONAELHIE___C__DISPLAYCLASS10_0___DICEAPPEAR_B__1_OFFSET UNITYSDK_OFFSET(0xBF2B3D0)
 
+inline static constexpr unsigned int OMGONAELHIE___c__DisplayClass10_0_TypeDefinitionIndex = 58455;
+
 	class OMGONAELHIE___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

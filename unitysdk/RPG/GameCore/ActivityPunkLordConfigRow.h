@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityPunkLordConfigRow_TypeDefinitionIndex = 12289;
+
 	class ActivityPunkLordConfigRow : public ::System::Object
 	{
 	public:

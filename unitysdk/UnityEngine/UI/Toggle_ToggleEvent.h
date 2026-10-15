@@ -5,6 +5,8 @@
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int Toggle_ToggleEvent_TypeDefinitionIndex = 6867;
+
 	class Toggle_ToggleEvent
 	{
 	public:

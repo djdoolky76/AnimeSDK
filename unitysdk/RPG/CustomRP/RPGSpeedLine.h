@@ -12,6 +12,8 @@ namespace UnityEngine::Rendering { class TextureParameter; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGSpeedLine_TypeDefinitionIndex = 37843;
+
 	class RPGSpeedLine : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:

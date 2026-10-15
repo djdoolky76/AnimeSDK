@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimEvilSmileStateEventConfig_TypeDefinitionIndex = 16699;
+
 	class FiveDimEvilSmileStateEventConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

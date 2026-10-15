@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 #define OCGGODBCLBO_SET_EFFECTOR_OFFSET UNITYSDK_OFFSET(0xBD60A00)
 #define OCGGODBCLBO_SET_MAPPINGLIMB_OFFSET UNITYSDK_OFFSET(0xBD60A20)
 
+inline static constexpr unsigned int OCGGODBCLBO_TypeDefinitionIndex = 68595;
+
 	class OCGGODBCLBO : public ::System::Object
 	{
 	public:

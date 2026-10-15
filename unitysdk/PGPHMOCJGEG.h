@@ -18,6 +18,8 @@ namespace RPG::GameCore { class LevelLittleGameInfo; }
 #define PGPHMOCJGEG_PPDLMCEFPDC_OFFSET UNITYSDK_OFFSET(0xC235D70)
 #define PGPHMOCJGEG_PPLOEFLAGIB_OFFSET UNITYSDK_OFFSET(0xC235DC0)
 
+inline static constexpr unsigned int PGPHMOCJGEG_TypeDefinitionIndex = 64206;
+
 	class PGPHMOCJGEG : public ::System::Object
 	{
 	public:

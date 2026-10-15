@@ -35,6 +35,8 @@ namespace System { class String; }
 #define INHMDFDBGCL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6C2BC0)
 #define INHMDFDBGCL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6C2C20)
 
+inline static constexpr unsigned int INHMDFDBGCL_TypeDefinitionIndex = 25108;
+
 	class INHMDFDBGCL : public ::System::Object
 	{
 	public:

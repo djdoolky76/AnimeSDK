@@ -30,6 +30,8 @@ namespace System { class String; }
 #define GDHFMHKFEAL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E44AC20)
 #define GDHFMHKFEAL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E44AC80)
 
+inline static constexpr unsigned int GDHFMHKFEAL_TypeDefinitionIndex = 29440;
+
 	class GDHFMHKFEAL : public ::System::Object
 	{
 	public:

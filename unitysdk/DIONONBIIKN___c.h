@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DIONONBIIKN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1C3850)
 #define DIONONBIIKN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E1C3860)
 
+inline static constexpr unsigned int DIONONBIIKN___c_TypeDefinitionIndex = 27160;
+
 	class DIONONBIIKN___c : public ::System::Object
 	{
 	public:

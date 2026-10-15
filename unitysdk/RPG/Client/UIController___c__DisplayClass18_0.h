@@ -8,6 +8,8 @@ namespace RPG::Client::Promises { class Promise; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIController___c__DisplayClass18_0_TypeDefinitionIndex = 73038;
+
 	class UIController___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCheckModifierCallBackName_TypeDefinitionIndex = 23043;
+
 	class ByCheckModifierCallBackName : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

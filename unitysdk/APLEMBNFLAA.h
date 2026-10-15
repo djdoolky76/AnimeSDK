@@ -70,6 +70,8 @@ namespace UnityEngine { class Camera; }
 #define APLEMBNFLAA_SET_SOURCERADIUS_OFFSET UNITYSDK_OFFSET(0x15BAD0C0)
 #define APLEMBNFLAA_SET_SOURCETYPE_OFFSET UNITYSDK_OFFSET(0x15BB1CF0)
 
+inline static constexpr unsigned int APLEMBNFLAA_TypeDefinitionIndex = 73938;
+
 	class APLEMBNFLAA : public ::System::Object
 	{
 	public:

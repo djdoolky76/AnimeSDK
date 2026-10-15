@@ -28,6 +28,8 @@ namespace System { class String; }
 #define OKBLBLPOENO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE8FA60)
 #define OKBLBLPOENO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE8FAC0)
 
+inline static constexpr unsigned int OKBLBLPOENO_TypeDefinitionIndex = 32866;
+
 	class OKBLBLPOENO : public ::System::Object
 	{
 	public:

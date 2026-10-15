@@ -11,6 +11,8 @@ namespace System { class String; }
 #define CBOICBCAHBE_NJGEHICPCNO_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xC4B5EB0)
 #define CBOICBCAHBE_NJGEHICPCNO_INVOKE_OFFSET UNITYSDK_OFFSET(0xC4B52B0)
 
+inline static constexpr unsigned int CBOICBCAHBE_NJGEHICPCNO_TypeDefinitionIndex = 69272;
+
 	class CBOICBCAHBE_NJGEHICPCNO : public ::System::MulticastDelegate
 	{
 	public:

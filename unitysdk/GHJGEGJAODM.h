@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GHJGEGJAODM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E48BE60)
 #define GHJGEGJAODM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E48BEC0)
 
+inline static constexpr unsigned int GHJGEGJAODM_TypeDefinitionIndex = 29095;
+
 	class GHJGEGJAODM : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BALPIPIDLDM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7BB780)
 #define BALPIPIDLDM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7BB7E0)
 
+inline static constexpr unsigned int BALPIPIDLDM_TypeDefinitionIndex = 27669;
+
 	class BALPIPIDLDM : public ::System::Object
 	{
 	public:

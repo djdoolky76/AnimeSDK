@@ -5,6 +5,8 @@
 #define DKPNNFMBDEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2EA90)
 #define DKPNNFMBDEB_LADNBLPENHJ_OFFSET UNITYSDK_OFFSET(0x1CA2EA40)
 
+inline static constexpr unsigned int DKPNNFMBDEB_TypeDefinitionIndex = 42097;
+
 	class DKPNNFMBDEB : public ::System::Object
 	{
 	public:

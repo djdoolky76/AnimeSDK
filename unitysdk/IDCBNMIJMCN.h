@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define IDCBNMIJMCN_PCHMLFKBNNN_OFFSET UNITYSDK_OFFSET(0x15E69FF0)
 #define IDCBNMIJMCN_SET_GROWTHTARGET_OFFSET UNITYSDK_OFFSET(0x15E69F00)
 
+inline static constexpr unsigned int IDCBNMIJMCN_TypeDefinitionIndex = 62750;
+
 	class IDCBNMIJMCN : public ::System::Object
 	{
 	public:

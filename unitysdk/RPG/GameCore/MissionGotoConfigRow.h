@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MissionGotoConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MissionGotoConfigRow_TypeDefinitionIndex = 14162;
+
 	class MissionGotoConfigRow : public ::System::Object
 	{
 	public:

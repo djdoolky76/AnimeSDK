@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 
+inline static constexpr unsigned int EPCHCFOEJNL_TypeDefinitionIndex = 42911;
+
 	struct alignas(4) EPCHCFOEJNL
 	{
 		::System::Boolean EHCPMDDIEEH; // 0x10

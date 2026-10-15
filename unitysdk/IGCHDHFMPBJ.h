@@ -32,6 +32,8 @@ namespace System { class String; }
 #define IGCHDHFMPBJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E649090)
 #define IGCHDHFMPBJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6490F0)
 
+inline static constexpr unsigned int IGCHDHFMPBJ_TypeDefinitionIndex = 25239;
+
 	class IGCHDHFMPBJ : public ::System::Object
 	{
 	public:

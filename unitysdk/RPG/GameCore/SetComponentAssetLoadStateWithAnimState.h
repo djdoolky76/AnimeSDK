@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetComponentAssetLoadStateWithAnimState_TypeDefinitionIndex = 22813;
+
 	class SetComponentAssetLoadStateWithAnimState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

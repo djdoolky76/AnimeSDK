@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CheckHPPercentAxis; }
 #define FFLALKIGDFP_ENFLDOAMMMC_OFFSET UNITYSDK_OFFSET(0x15744A60)
 #define FFLALKIGDFP_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0x157449F0)
 
+inline static constexpr unsigned int FFLALKIGDFP_TypeDefinitionIndex = 54367;
+
 	class FFLALKIGDFP : public ::BEMKNPIFMBI
 	{
 	public:

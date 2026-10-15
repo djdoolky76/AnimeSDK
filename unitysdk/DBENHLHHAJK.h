@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define DBENHLHHAJK_CTOR_OFFSET UNITYSDK_OFFSET(0xF1890)
 
+inline static constexpr unsigned int DBENHLHHAJK_TypeDefinitionIndex = 56964;
+
 	struct alignas(8) DBENHLHHAJK
 	{
 		::RPG::GameCore::GameEntity* FCKCHPNEEKB; // 0x10

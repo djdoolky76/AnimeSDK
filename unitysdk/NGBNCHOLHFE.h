@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NGBNCHOLHFE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB0B280)
 #define NGBNCHOLHFE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB0B2E0)
 
+inline static constexpr unsigned int NGBNCHOLHFE_TypeDefinitionIndex = 34291;
+
 	class NGBNCHOLHFE : public ::System::Object
 	{
 	public:

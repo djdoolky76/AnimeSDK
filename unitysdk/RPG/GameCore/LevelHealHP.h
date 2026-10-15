@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelHealHP_TypeDefinitionIndex = 56741;
+
 	class LevelHealHP : public ::System::Object
 	{
 	public:

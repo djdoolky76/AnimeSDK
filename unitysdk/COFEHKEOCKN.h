@@ -10,6 +10,8 @@ class LBJLBMOOJGM;
 #define COFEHKEOCKN_FMLALIAOPOA_OFFSET UNITYSDK_OFFSET(0xDCB4850)
 #define COFEHKEOCKN_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xDCB47E0)
 
+inline static constexpr unsigned int COFEHKEOCKN_TypeDefinitionIndex = 79411;
+
 	class COFEHKEOCKN : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System { class String; }
 #define FONMDGEEEGO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1CA71DA0)
 #define FONMDGEEEGO_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0x1CA71EF0)
 
+inline static constexpr unsigned int FONMDGEEEGO_TypeDefinitionIndex = 42064;
+
 	class FONMDGEEEGO : public ::System::Object
 	{
 	public:

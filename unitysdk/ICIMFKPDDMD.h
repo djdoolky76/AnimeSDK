@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 #define ICIMFKPDDMD_MPFKCHHCIMO_OFFSET UNITYSDK_OFFSET(0x15E4E850)
 #define ICIMFKPDDMD_NMENMJMBNOL_OFFSET UNITYSDK_OFFSET(0x15E4E6A0)
 
+inline static constexpr unsigned int ICIMFKPDDMD_TypeDefinitionIndex = 71177;
+
 	class ICIMFKPDDMD : public ::System::Object
 	{
 	public:

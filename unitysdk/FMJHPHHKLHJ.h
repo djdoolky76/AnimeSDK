@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleAddShield; }
 #define FMJHPHHKLHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA71300)
 #define FMJHPHHKLHJ_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1CA71310)
 
+inline static constexpr unsigned int FMJHPHHKLHJ_TypeDefinitionIndex = 43116;
+
 	class FMJHPHHKLHJ : public ::BKABEBEPPJK
 	{
 	public:

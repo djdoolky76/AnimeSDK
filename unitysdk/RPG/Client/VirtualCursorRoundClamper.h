@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VirtualCursorRoundClamper_TypeDefinitionIndex = 73241;
+
 	class VirtualCursorRoundClamper : public ::System::Object
 	{
 	public:

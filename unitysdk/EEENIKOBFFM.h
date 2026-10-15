@@ -12,6 +12,8 @@ namespace RPG::GameCore::Match3 { class ShowCharacterCutInGroupAction; }
 #define EEENIKOBFFM_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CA336E0)
 #define EEENIKOBFFM_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CA33940)
 
+inline static constexpr unsigned int EEENIKOBFFM_TypeDefinitionIndex = 42991;
+
 	class EEENIKOBFFM : public ::System::Object
 	{
 	public:

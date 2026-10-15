@@ -3,6 +3,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_PluginStorage_DataType_TypeDefinitionIndex = 40441;
+
 	enum class HEU_PluginStorage_DataType : ::System::Int32
 	{
 		BOOL = 0,

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Side_MuteVision; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_MuteVision_TypeDefinitionIndex = 20117;
+
 	class ST_Side_MuteVision : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

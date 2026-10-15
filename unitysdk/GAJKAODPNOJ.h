@@ -19,6 +19,8 @@ namespace System { class Random; }
 #define GAJKAODPNOJ_ONFEVERTIME_OFFSET UNITYSDK_OFFSET(0x1CA7B120)
 #define GAJKAODPNOJ_PAMCNHHKJKP_OFFSET UNITYSDK_OFFSET(0x1CA79CD0)
 
+inline static constexpr unsigned int GAJKAODPNOJ_TypeDefinitionIndex = 42393;
+
 	class GAJKAODPNOJ : public ::System::Object
 	{
 	public:

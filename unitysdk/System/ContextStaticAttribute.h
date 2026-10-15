@@ -6,6 +6,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int ContextStaticAttribute_TypeDefinitionIndex = 220;
+
 	class ContextStaticAttribute : public ::System::Attribute
 	{
 	public:

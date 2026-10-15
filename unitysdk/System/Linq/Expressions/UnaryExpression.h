@@ -27,6 +27,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int UnaryExpression_TypeDefinitionIndex = 3281;
+
 	class UnaryExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:

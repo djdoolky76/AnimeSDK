@@ -7,6 +7,8 @@
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingExitDoubleConfirmationDialogViewModel_TypeDefinitionIndex = 82041;
+
 	class B51RacingExitDoubleConfirmationDialogViewModel : public ::System::Object
 	{
 	public:

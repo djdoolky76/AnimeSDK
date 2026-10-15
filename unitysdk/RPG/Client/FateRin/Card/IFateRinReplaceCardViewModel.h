@@ -3,6 +3,8 @@
 
 namespace RPG::Client::FateRin::Card
 {
+	inline static constexpr unsigned int IFateRinReplaceCardViewModel_TypeDefinitionIndex = 81167;
+
 	class IFateRinReplaceCardViewModel
 	{
 	public:

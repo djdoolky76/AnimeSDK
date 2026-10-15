@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AudiencePrefabSpecialTag_TypeDefinitionIndex = 69126;
+
 	class AudiencePrefabSpecialTag : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ class KCEFGDCEJMD;
 #define PCEJNOLBNHI_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C9A4EE0)
 #define PCEJNOLBNHI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9A4F60)
 
+inline static constexpr unsigned int PCEJNOLBNHI_TypeDefinitionIndex = 43517;
+
 	class PCEJNOLBNHI : public ::System::Object
 	{
 	public:

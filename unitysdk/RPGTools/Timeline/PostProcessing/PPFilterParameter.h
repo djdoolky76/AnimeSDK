@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int PPFilterParameter_TypeDefinitionIndex = 48588;
+
 	struct alignas(8) PPFilterParameter
 	{
 		::System::Single Duration; // 0x10

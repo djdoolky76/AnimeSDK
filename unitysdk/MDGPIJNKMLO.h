@@ -25,6 +25,8 @@ namespace System { class String; }
 #define MDGPIJNKMLO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA03210)
 #define MDGPIJNKMLO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA03270)
 
+inline static constexpr unsigned int MDGPIJNKMLO_TypeDefinitionIndex = 30525;
+
 	class MDGPIJNKMLO : public ::System::Object
 	{
 	public:

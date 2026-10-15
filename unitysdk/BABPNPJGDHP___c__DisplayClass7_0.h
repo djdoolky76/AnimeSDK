@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define BABPNPJGDHP___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15BD1320)
 #define BABPNPJGDHP___C__DISPLAYCLASS7_0__APPLYFORMATION_B__0_OFFSET UNITYSDK_OFFSET(0x15BD23C0)
 
+inline static constexpr unsigned int BABPNPJGDHP___c__DisplayClass7_0_TypeDefinitionIndex = 59053;
+
 	class BABPNPJGDHP___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

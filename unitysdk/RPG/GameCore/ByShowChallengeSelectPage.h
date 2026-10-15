@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByShowChallengeSelectPage_TypeDefinitionIndex = 20474;
+
 	class ByShowChallengeSelectPage : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

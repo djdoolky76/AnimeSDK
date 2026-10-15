@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define MEGIEBCBOCI_GET_SETTLERESULT_OFFSET UNITYSDK_OFFSET(0xB8C3780)
 #define MEGIEBCBOCI_KLNBEHCHGIG_OFFSET UNITYSDK_OFFSET(0xB8C37F0)
 
+inline static constexpr unsigned int MEGIEBCBOCI_TypeDefinitionIndex = 80180;
+
 	class MEGIEBCBOCI : public ::System::Object
 	{
 	public:

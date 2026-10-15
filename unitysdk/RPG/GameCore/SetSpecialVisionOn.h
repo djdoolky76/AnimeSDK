@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetSpecialVisionOn_TypeDefinitionIndex = 20513;
+
 	class SetSpecialVisionOn : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -14,6 +14,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FarmUtils_TypeDefinitionIndex = 63985;
+
 	class FarmUtils : public ::System::Object
 	{
 	public:

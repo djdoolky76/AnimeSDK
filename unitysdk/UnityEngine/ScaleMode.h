@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ScaleMode_TypeDefinitionIndex = 5171;
+
 	enum class ScaleMode : ::System::Int32
 	{
 		StretchToFill = 0,

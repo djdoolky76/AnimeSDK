@@ -10,6 +10,8 @@ namespace System { class String; }
 #define GCBGLHJIHOK_JBGIFBGMLMF_OFFSET UNITYSDK_OFFSET(0x1595FE40)
 #define GCBGLHJIHOK_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0x1595FDD0)
 
+inline static constexpr unsigned int GCBGLHJIHOK_TypeDefinitionIndex = 73356;
+
 	class GCBGLHJIHOK : public ::System::Object
 	{
 	public:

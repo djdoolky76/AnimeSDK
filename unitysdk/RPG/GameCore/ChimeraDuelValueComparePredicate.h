@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChimeraDuelValueComparePredicate; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelValueComparePredicate_TypeDefinitionIndex = 15975;
+
 	class ChimeraDuelValueComparePredicate : public ::RPG::GameCore::ChimeraDuelPredicateBase
 	{
 	public:

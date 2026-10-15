@@ -27,6 +27,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client::AstraFX
 {
+	inline static constexpr unsigned int AstraFXDataManagerBehavior_TypeDefinitionIndex = 73684;
+
 	class AstraFXDataManagerBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

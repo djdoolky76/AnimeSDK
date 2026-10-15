@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int TrackInfo___c_TypeDefinitionIndex = 46363;
+
 	class TrackInfo___c : public ::System::Object
 	{
 	public:

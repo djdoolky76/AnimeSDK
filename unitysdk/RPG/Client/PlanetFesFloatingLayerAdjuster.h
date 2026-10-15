@@ -9,6 +9,8 @@ namespace UnityEngine { class Canvas; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesFloatingLayerAdjuster_TypeDefinitionIndex = 66499;
+
 	class PlanetFesFloatingLayerAdjuster : public ::UnityEngine::MonoBehaviour
 	{
 	public:

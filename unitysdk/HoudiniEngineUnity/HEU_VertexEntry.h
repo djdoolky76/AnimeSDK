@@ -6,6 +6,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_VertexEntry_TypeDefinitionIndex = 40640;
+
 	class HEU_VertexEntry : public ::System::Object
 	{
 	public:

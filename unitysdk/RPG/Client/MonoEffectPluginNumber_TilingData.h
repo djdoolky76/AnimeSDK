@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginNumber_TilingData_TypeDefinitionIndex = 70083;
+
 	class MonoEffectPluginNumber_TilingData : public ::System::Object
 	{
 	public:

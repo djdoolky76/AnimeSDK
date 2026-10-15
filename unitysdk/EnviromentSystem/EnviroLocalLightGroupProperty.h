@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int EnviroLocalLightGroupProperty_TypeDefinitionIndex = 49605;
+
 	class EnviroLocalLightGroupProperty : public ::EnviromentSystem::EnviroProperty
 	{
 	public:

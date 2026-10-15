@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class GridLayoutGroup_RowColumnComparer; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int GridLayoutGroup_RowColumnComparer_TypeDefinitionIndex = 6773;
+
 	class GridLayoutGroup_RowColumnComparer : public ::System::Object
 	{
 	public:

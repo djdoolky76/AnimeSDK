@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int TouchScreenKeyboard_Status_TypeDefinitionIndex = 4398;
+
 	enum class TouchScreenKeyboard_Status : ::System::Int32
 	{
 		Visible = 0,

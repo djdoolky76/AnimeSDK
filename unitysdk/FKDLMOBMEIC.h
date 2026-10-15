@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define FKDLMOBMEIC_OOJIFECGAGE_OFFSET UNITYSDK_OFFSET(0x157EA5D0)
 #define FKDLMOBMEIC_TICK_OFFSET UNITYSDK_OFFSET(0x157EA450)
 
+inline static constexpr unsigned int FKDLMOBMEIC_TypeDefinitionIndex = 53483;
+
 	class FKDLMOBMEIC : public ::GELIALJDFBL
 	{
 	public:

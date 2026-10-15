@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesAssistantController___c_TypeDefinitionIndex = 66473;
+
 	class PlanetFesAssistantController___c : public ::System::Object
 	{
 	public:

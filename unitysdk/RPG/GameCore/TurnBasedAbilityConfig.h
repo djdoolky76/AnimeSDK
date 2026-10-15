@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TurnBasedAbilityConfig_TypeDefinitionIndex = 18197;
+
 	class TurnBasedAbilityConfig : public ::RPG::GameCore::AbilityConfig
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define MJONIALKJID_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B6550)
 
+inline static constexpr unsigned int MJONIALKJID_TypeDefinitionIndex = 25000;
+
 	class MJONIALKJID : public ::System::Attribute
 	{
 	public:

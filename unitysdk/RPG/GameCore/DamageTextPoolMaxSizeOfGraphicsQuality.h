@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DamageTextPoolMaxSizeOfGraphicsQuality; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DamageTextPoolMaxSizeOfGraphicsQuality_TypeDefinitionIndex = 17142;
+
 	class DamageTextPoolMaxSizeOfGraphicsQuality : public ::RPG::GameCore::JsonConfig
 	{
 	public:

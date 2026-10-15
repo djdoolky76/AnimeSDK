@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueWorkbenchFuncBaseConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueWorkbenchFuncBaseConfig_TypeDefinitionIndex = 18017;
+
 	class RogueWorkbenchFuncBaseConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

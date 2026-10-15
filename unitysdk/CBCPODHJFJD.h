@@ -32,6 +32,8 @@ namespace System { class String; }
 #define CBCPODHJFJD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E063360)
 #define CBCPODHJFJD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0633C0)
 
+inline static constexpr unsigned int CBCPODHJFJD_TypeDefinitionIndex = 28209;
+
 	class CBCPODHJFJD : public ::System::Object
 	{
 	public:

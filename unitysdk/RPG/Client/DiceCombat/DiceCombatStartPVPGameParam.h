@@ -10,6 +10,8 @@ namespace RPG::Client::DiceCombat { class DiceCombatStartPVPGameParam; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatStartPVPGameParam_TypeDefinitionIndex = 76130;
+
 	class DiceCombatStartPVPGameParam : public ::System::Object
 	{
 	public:

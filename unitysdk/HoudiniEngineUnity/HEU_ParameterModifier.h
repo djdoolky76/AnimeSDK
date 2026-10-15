@@ -26,6 +26,8 @@ namespace HoudiniEngineUnity { class HEU_ParameterModifier; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_ParameterModifier_TypeDefinitionIndex = 40549;
+
 	class HEU_ParameterModifier : public ::System::Object
 	{
 	public:

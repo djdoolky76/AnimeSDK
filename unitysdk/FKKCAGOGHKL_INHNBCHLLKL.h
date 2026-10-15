@@ -5,6 +5,8 @@
 
 #define FKKCAGOGHKL_INHNBCHLLKL_CCTOR_OFFSET UNITYSDK_OFFSET(0x15804110)
 
+inline static constexpr unsigned int FKKCAGOGHKL_INHNBCHLLKL_TypeDefinitionIndex = 59331;
+
 	class FKKCAGOGHKL_INHNBCHLLKL : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define BLLCDNDBMFC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF66230)
 #define BLLCDNDBMFC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF66290)
 
+inline static constexpr unsigned int BLLCDNDBMFC_TypeDefinitionIndex = 35014;
+
 	class BLLCDNDBMFC : public ::System::Object
 	{
 	public:

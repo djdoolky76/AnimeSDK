@@ -34,6 +34,8 @@ namespace System { class String; }
 #define IOIJDHEMDLK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6D6960)
 #define IOIJDHEMDLK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6D69C0)
 
+inline static constexpr unsigned int IOIJDHEMDLK_TypeDefinitionIndex = 34277;
+
 	class IOIJDHEMDLK : public ::System::Object
 	{
 	public:

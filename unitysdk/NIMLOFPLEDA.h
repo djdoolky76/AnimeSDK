@@ -6,6 +6,8 @@
 #define NIMLOFPLEDA_CIGPLCIKPLE_OFFSET UNITYSDK_OFFSET(0xBBFDC70)
 #define NIMLOFPLEDA_CTOR_OFFSET UNITYSDK_OFFSET(0xBBFDCC0)
 
+inline static constexpr unsigned int NIMLOFPLEDA_TypeDefinitionIndex = 78556;
+
 	class NIMLOFPLEDA : public ::MKADHMMGGNA
 	{
 	public:

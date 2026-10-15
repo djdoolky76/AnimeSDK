@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 #define SPINESKELETONFLIPCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECF6AC0)
 #define SPINESKELETONFLIPCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1ECF6A20)
 
+inline static constexpr unsigned int SpineSkeletonFlipClip_TypeDefinitionIndex = 45902;
+
 	class SpineSkeletonFlipClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

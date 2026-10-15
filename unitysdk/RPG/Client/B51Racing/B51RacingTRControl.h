@@ -37,6 +37,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingTRControl_TypeDefinitionIndex = 81905;
+
 	class B51RacingTRControl : public ::Sofa::BaseSofaControl
 	{
 	public:

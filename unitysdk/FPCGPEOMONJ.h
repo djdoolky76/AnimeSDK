@@ -10,6 +10,8 @@ namespace RPG::Client { class MatchThreeBoard; }
 #define FPCGPEOMONJ_LGAOOKPFIMF_OFFSET UNITYSDK_OFFSET(0x1590D8C0)
 #define FPCGPEOMONJ_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1590D7E0)
 
+inline static constexpr unsigned int FPCGPEOMONJ_TypeDefinitionIndex = 65857;
+
 	class FPCGPEOMONJ : public ::FNIDIOCNBBI
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PhotoGraphOnShotCondition; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphOnShotCondition_TypeDefinitionIndex = 21649;
+
 	class PhotoGraphOnShotCondition : public ::RPG::GameCore::JsonConfig
 	{
 	public:

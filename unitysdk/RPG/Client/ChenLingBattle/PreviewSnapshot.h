@@ -10,6 +10,8 @@ namespace RPG::Client::ChenLingBattle { class PreviewSnapshot; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int PreviewSnapshot_TypeDefinitionIndex = 76294;
+
 	class PreviewSnapshot : public ::System::Object
 	{
 	public:

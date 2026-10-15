@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BGGJMEAOBFG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA78D10)
 #define BGGJMEAOBFG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA78D70)
 
+inline static constexpr unsigned int BGGJMEAOBFG_TypeDefinitionIndex = 30881;
+
 	class BGGJMEAOBFG : public ::System::Object
 	{
 	public:

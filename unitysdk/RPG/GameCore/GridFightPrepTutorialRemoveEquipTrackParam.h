@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightPrepTutorialRemoveEquipTrackParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightPrepTutorialRemoveEquipTrackParam_TypeDefinitionIndex = 19970;
+
 	class GridFightPrepTutorialRemoveEquipTrackParam : public ::RPG::GameCore::JsonConfig
 	{
 	public:

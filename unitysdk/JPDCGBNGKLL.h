@@ -13,6 +13,8 @@ namespace System { class Action; }
 #define JPDCGBNGKLL_IHMOBDGAOMD_OFFSET UNITYSDK_OFFSET(0xB2B3EA0)
 #define JPDCGBNGKLL_KNOEMFGLKPI_OFFSET UNITYSDK_OFFSET(0xB2B3F80)
 
+inline static constexpr unsigned int JPDCGBNGKLL_TypeDefinitionIndex = 60849;
+
 	class JPDCGBNGKLL : public ::System::Object
 	{
 	public:

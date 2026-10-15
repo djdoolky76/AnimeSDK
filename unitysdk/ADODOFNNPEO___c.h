@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ADODOFNNPEO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDE5EF0)
 #define ADODOFNNPEO___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1DDE5F00)
 
+inline static constexpr unsigned int ADODOFNNPEO___c_TypeDefinitionIndex = 32013;
+
 	class ADODOFNNPEO___c : public ::System::Object
 	{
 	public:

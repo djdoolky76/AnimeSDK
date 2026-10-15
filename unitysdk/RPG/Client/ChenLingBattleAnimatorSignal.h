@@ -13,6 +13,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChenLingBattleAnimatorSignal_TypeDefinitionIndex = 72466;
+
 	class ChenLingBattleAnimatorSignal : public ::UnityEngine::MonoBehaviour
 	{
 	public:

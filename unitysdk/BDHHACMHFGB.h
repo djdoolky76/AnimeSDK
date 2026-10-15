@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BDHHACMHFGB_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x162FA910)
 #define BDHHACMHFGB_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x162FA9D0)
 
+inline static constexpr unsigned int BDHHACMHFGB_TypeDefinitionIndex = 47964;
+
 	class BDHHACMHFGB : public ::ONEGHOPELAC
 	{
 	public:

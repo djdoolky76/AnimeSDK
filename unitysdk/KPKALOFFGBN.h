@@ -12,6 +12,8 @@ namespace RPG::GameCore { class CharacterVisibleComponent; }
 #define KPKALOFFGBN_KPEOBOBLPAG_OFFSET UNITYSDK_OFFSET(0xB5C1480)
 #define KPKALOFFGBN_LMCEDCHJKFF_OFFSET UNITYSDK_OFFSET(0xB5C10E0)
 
+inline static constexpr unsigned int KPKALOFFGBN_TypeDefinitionIndex = 57307;
+
 	class KPKALOFFGBN : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

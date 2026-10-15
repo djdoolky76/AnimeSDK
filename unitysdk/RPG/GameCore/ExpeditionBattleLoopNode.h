@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ExpeditionBattleLoopNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ExpeditionBattleLoopNode_TypeDefinitionIndex = 16204;
+
 	class ExpeditionBattleLoopNode : public ::RPG::GameCore::BaseExpeditionBattleNode
 	{
 	public:

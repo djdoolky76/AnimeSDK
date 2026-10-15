@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define OLOPGLDOPHB___C__GETDIRECTORIES_B__20_0_OFFSET UNITYSDK_OFFSET(0x1EC3F810)
 #define OLOPGLDOPHB___C__GETFILES_B__19_0_OFFSET UNITYSDK_OFFSET(0x1EC3F780)
 
+inline static constexpr unsigned int OLOPGLDOPHB___c_TypeDefinitionIndex = 35294;
+
 	class OLOPGLDOPHB___c : public ::System::Object
 	{
 	public:

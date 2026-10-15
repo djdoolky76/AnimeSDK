@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::View::Battle
 {
+	inline static constexpr unsigned int FateRinDiscardCardFlowView___c__DisplayClass11_0_TypeDefinitionIndex = 80680;
+
 	class FateRinDiscardCardFlowView___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

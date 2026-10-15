@@ -8,6 +8,8 @@ class CAINPBIGHGM;
 #define ODJIEONBGBL_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0xBD960C0)
 #define ODJIEONBGBL_CTOR_OFFSET UNITYSDK_OFFSET(0xBD96070)
 
+inline static constexpr unsigned int ODJIEONBGBL_TypeDefinitionIndex = 62707;
+
 	class ODJIEONBGBL : public ::System::Object
 	{
 	public:

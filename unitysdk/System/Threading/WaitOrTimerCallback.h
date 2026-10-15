@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int WaitOrTimerCallback_TypeDefinitionIndex = 856;
+
 	class WaitOrTimerCallback : public ::System::MulticastDelegate
 	{
 	public:

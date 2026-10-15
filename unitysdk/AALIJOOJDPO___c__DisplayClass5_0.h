@@ -6,6 +6,8 @@ namespace UnityEngine { class Component; }
 #define AALIJOOJDPO___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB0CF2A0)
 #define AALIJOOJDPO___C__DISPLAYCLASS5_0__PLAYSHOW_B__0_OFFSET UNITYSDK_OFFSET(0xB0CFB50)
 
+inline static constexpr unsigned int AALIJOOJDPO___c__DisplayClass5_0_TypeDefinitionIndex = 47840;
+
 	class AALIJOOJDPO___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

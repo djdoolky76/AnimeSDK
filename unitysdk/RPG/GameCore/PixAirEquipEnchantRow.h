@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PixAirEquipEnchantRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PixAirEquipEnchantRow_TypeDefinitionIndex = 12159;
+
 	class PixAirEquipEnchantRow : public ::System::Object
 	{
 	public:

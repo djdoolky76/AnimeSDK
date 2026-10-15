@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateModifierModifyMasterDamageConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateModifierModifyMasterDamageConfig_TypeDefinitionIndex = 19270;
+
 	class FateModifierModifyMasterDamageConfig : public ::RPG::GameCore::FateModifierConfigBase
 	{
 	public:

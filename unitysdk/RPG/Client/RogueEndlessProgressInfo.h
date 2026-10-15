@@ -25,6 +25,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueEndlessProgressInfo_TypeDefinitionIndex = 67446;
+
 	class RogueEndlessProgressInfo : public ::System::Object
 	{
 	public:

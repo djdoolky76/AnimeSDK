@@ -50,6 +50,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GGBGCKBDJEH_SET_REGIONCONFIG_OFFSET UNITYSDK_OFFSET(0x15A01C10)
 #define GGBGCKBDJEH_SET_UNLOCKNORMALCELLPREFABPATH_OFFSET UNITYSDK_OFFSET(0x15A01BF0)
 
+inline static constexpr unsigned int GGBGCKBDJEH_TypeDefinitionIndex = 77750;
+
 	class GGBGCKBDJEH : public ::System::Object
 	{
 	public:

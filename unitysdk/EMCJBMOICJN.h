@@ -60,6 +60,8 @@ namespace System { class String; }
 #define EMCJBMOICJN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2DD7C0)
 #define EMCJBMOICJN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2DD820)
 
+inline static constexpr unsigned int EMCJBMOICJN_TypeDefinitionIndex = 29956;
+
 	class EMCJBMOICJN : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class Object; }
 #define KPOPIBFJNDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90C3E0)
 #define KPOPIBFJNDA_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1C90C3F0)
 
+inline static constexpr unsigned int KPOPIBFJNDA_TypeDefinitionIndex = 42471;
+
 	class KPOPIBFJNDA : public ::KIDPCOMKMKJ
 	{
 	public:

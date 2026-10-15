@@ -13,6 +13,8 @@ namespace RPG::Client { class CameraFightStateLightTeamDollyConfig; }
 #define AHAHIDHJNPE_REFRESH_OFFSET UNITYSDK_OFFSET(0xEB794C0)
 #define AHAHIDHJNPE_RESET_OFFSET UNITYSDK_OFFSET(0xEB79860)
 
+inline static constexpr unsigned int AHAHIDHJNPE_TypeDefinitionIndex = 69599;
+
 	class AHAHIDHJNPE : public ::System::Object
 	{
 	public:

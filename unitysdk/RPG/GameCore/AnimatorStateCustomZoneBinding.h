@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AnimatorStateCustomZoneBinding_TypeDefinitionIndex = 16333;
+
 	class AnimatorStateCustomZoneBinding : public ::RPG::GameCore::JsonConfig
 	{
 	public:

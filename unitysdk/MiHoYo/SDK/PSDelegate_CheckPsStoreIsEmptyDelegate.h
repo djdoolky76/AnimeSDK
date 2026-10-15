@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PSDelegate_CheckPsStoreIsEmptyDelegate_TypeDefinitionIndex = 7731;
+
 	class PSDelegate_CheckPsStoreIsEmptyDelegate : public ::System::MulticastDelegate
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 #define IPFAILKGJBK_JOLDEBJNCLL_OFFSET UNITYSDK_OFFSET(0x1651F630)
 #define IPFAILKGJBK_PFEKEEJINJD_OFFSET UNITYSDK_OFFSET(0x1651F440)
 
+inline static constexpr unsigned int IPFAILKGJBK_TypeDefinitionIndex = 60081;
+
 	class IPFAILKGJBK : public ::LNDHLHALKAK
 	{
 	public:

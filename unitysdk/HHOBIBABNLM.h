@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define HHOBIBABNLM_CTOR_OFFSET UNITYSDK_OFFSET(0x15CD4F80)
 
+inline static constexpr unsigned int HHOBIBABNLM_TypeDefinitionIndex = 55333;
+
 	class HHOBIBABNLM : public ::System::Object
 	{
 	public:

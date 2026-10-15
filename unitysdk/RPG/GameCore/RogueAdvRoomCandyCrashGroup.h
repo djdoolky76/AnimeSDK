@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueAdvRoomCandyCrashGroupTemplate; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueAdvRoomCandyCrashGroup_TypeDefinitionIndex = 17887;
+
 	class RogueAdvRoomCandyCrashGroup : public ::RPG::GameCore::JsonConfig
 	{
 	public:

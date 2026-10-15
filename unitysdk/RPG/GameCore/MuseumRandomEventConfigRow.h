@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MuseumRandomEventConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MuseumRandomEventConfigRow_TypeDefinitionIndex = 14246;
+
 	class MuseumRandomEventConfigRow : public ::System::Object
 	{
 	public:

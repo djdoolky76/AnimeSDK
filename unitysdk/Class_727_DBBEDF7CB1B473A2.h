@@ -6,6 +6,8 @@
 #define CLASS_727_DBBEDF7CB1B473A2_METHOD_2_OFFSET UNITYSDK_OFFSET(0x14987C50)
 #define CLASS_727_DBBEDF7CB1B473A2_METHOD_OFFSET UNITYSDK_OFFSET(0x14988280)
 
+inline static constexpr unsigned int Class_727_DBBEDF7CB1B473A2_TypeDefinitionIndex = 51062;
+
 	class Class_727_DBBEDF7CB1B473A2 : public ::System::Object
 	{
 	public:

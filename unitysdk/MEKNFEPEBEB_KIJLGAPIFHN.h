@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+inline static constexpr unsigned int MEKNFEPEBEB_KIJLGAPIFHN_TypeDefinitionIndex = 81199;
+
 	class MEKNFEPEBEB_KIJLGAPIFHN : public ::System::Object
 	{
 	public:

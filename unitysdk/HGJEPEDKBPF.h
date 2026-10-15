@@ -4,6 +4,8 @@
 
 #define HGJEPEDKBPF_CTOR_OFFSET UNITYSDK_OFFSET(0x15CA3A60)
 
+inline static constexpr unsigned int HGJEPEDKBPF_TypeDefinitionIndex = 61266;
+
 	class HGJEPEDKBPF : public ::System::Exception
 	{
 	public:

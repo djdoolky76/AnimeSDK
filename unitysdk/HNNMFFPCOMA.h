@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define HNNMFFPCOMA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CAF3380)
 
+inline static constexpr unsigned int HNNMFFPCOMA_TypeDefinitionIndex = 42779;
+
 	class HNNMFFPCOMA : public ::System::Object
 	{
 	public:

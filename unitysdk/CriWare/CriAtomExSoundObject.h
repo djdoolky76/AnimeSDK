@@ -19,6 +19,8 @@ namespace CriWare { class CriAtomExPlayer; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExSoundObject_TypeDefinitionIndex = 40064;
+
 	class CriAtomExSoundObject : public ::CriWare::CriDisposable
 	{
 	public:

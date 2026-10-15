@@ -30,6 +30,8 @@ namespace System { class String; }
 #define DMDDINNHIOE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1EA6E0)
 #define DMDDINNHIOE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1EA740)
 
+inline static constexpr unsigned int DMDDINNHIOE_TypeDefinitionIndex = 30192;
+
 	class DMDDINNHIOE : public ::System::Object
 	{
 	public:

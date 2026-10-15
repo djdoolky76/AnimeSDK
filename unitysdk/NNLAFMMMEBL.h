@@ -34,6 +34,8 @@ namespace UnityEngine::UI { class Text; }
 #define NNLAFMMMEBL__ONTICK_OFFSET UNITYSDK_OFFSET(0xBCC9D40)
 #define NNLAFMMMEBL__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xBCCA030)
 
+inline static constexpr unsigned int NNLAFMMMEBL_TypeDefinitionIndex = 71734;
+
 	class NNLAFMMMEBL : public ::RPG::Client::UIController
 	{
 	public:

@@ -4,6 +4,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int ReadOnlyCollectionBuilder_1_TypeDefinitionIndex = 3670;
+
 	template <typename T>
 	class ReadOnlyCollectionBuilder_1 : public ::System::Object
 	{

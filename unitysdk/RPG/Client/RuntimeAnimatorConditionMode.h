@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RuntimeAnimatorConditionMode_TypeDefinitionIndex = 68829;
+
 	enum class RuntimeAnimatorConditionMode : ::System::Int32
 	{
 		If = 1,

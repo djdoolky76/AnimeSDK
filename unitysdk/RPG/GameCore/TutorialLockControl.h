@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TutorialLockControl; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TutorialLockControl_TypeDefinitionIndex = 24275;
+
 	class TutorialLockControl : public ::RPG::GameCore::TaskConfig
 	{
 	public:

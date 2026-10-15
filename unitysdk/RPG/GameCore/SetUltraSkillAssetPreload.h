@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetUltraSkillAssetPreload_TypeDefinitionIndex = 22805;
+
 	class SetUltraSkillAssetPreload : public ::RPG::GameCore::TaskConfig
 	{
 	public:

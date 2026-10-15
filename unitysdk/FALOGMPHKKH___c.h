@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define FALOGMPHKKH___C__GET_ISVALID_B__5_0_OFFSET UNITYSDK_OFFSET(0x156841A0)
 #define FALOGMPHKKH___C__GET_ISVALID_B__5_1_OFFSET UNITYSDK_OFFSET(0x15684260)
 
+inline static constexpr unsigned int FALOGMPHKKH___c_TypeDefinitionIndex = 65178;
+
 	class FALOGMPHKKH___c : public ::System::Object
 	{
 	public:

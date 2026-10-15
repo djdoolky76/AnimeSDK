@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomEx_GameVariableInfo_TypeDefinitionIndex = 39971;
+
 	struct alignas(8) CriAtomEx_GameVariableInfo
 	{
 		::System::String* name; // 0x10

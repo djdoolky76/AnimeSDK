@@ -3,6 +3,8 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int ETextureType_TypeDefinitionIndex = 39215;
+
 	enum class ETextureType : ::System::Int32
 	{
 		DirectX = 0,

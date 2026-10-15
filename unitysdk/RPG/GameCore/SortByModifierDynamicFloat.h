@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SortByModifierDynamicFloat_TypeDefinitionIndex = 18259;
+
 	class SortByModifierDynamicFloat : public ::RPG::GameCore::BaseSortConfig
 	{
 	public:

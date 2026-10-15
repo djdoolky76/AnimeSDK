@@ -10,6 +10,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System::Text
 {
+	inline static constexpr unsigned int StringBuilderCache_TypeDefinitionIndex = 499;
+
 	class StringBuilderCache : public ::System::Object
 	{
 	public:

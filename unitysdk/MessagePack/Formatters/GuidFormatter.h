@@ -14,6 +14,8 @@ namespace MessagePack::Formatters { class IMessagePackFormatter; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int GuidFormatter_TypeDefinitionIndex = 7489;
+
 	class GuidFormatter : public ::System::Object
 	{
 	public:

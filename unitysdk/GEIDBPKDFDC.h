@@ -5,6 +5,8 @@
 
 #define GEIDBPKDFDC_CTOR_OFFSET UNITYSDK_OFFSET(0x159D99D0)
 
+inline static constexpr unsigned int GEIDBPKDFDC_TypeDefinitionIndex = 69052;
+
 	class GEIDBPKDFDC : public ::System::Object
 	{
 	public:

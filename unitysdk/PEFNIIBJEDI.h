@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PEFNIIBJEDI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2D3700)
 #define PEFNIIBJEDI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D2D30A0)
 
+inline static constexpr unsigned int PEFNIIBJEDI_TypeDefinitionIndex = 12402;
+
 	class PEFNIIBJEDI : public ::System::Object
 	{
 	public:

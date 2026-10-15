@@ -9,6 +9,8 @@ class AKAEJEADPHM;
 #define AKAEJEADPHM_GAOLADBNJOB_OFFSET UNITYSDK_OFFSET(0x12CC8A80)
 #define AKAEJEADPHM_OKPMJOCEKBC_OFFSET UNITYSDK_OFFSET(0x12CC8990)
 
+inline static constexpr unsigned int AKAEJEADPHM_TypeDefinitionIndex = 68230;
+
 	class AKAEJEADPHM : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define KIAKKNFLEPN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E852A00)
 #define KIAKKNFLEPN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E852A60)
 
+inline static constexpr unsigned int KIAKKNFLEPN_TypeDefinitionIndex = 28574;
+
 	class KIAKKNFLEPN : public ::System::Object
 	{
 	public:

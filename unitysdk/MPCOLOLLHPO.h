@@ -9,6 +9,8 @@
 #define MPCOLOLLHPO_SET_ID_OFFSET UNITYSDK_OFFSET(0xBA3A2E0)
 #define MPCOLOLLHPO_SET_POSITION_OFFSET UNITYSDK_OFFSET(0xBA3A310)
 
+inline static constexpr unsigned int MPCOLOLLHPO_TypeDefinitionIndex = 62137;
+
 	class MPCOLOLLHPO : public ::System::Object
 	{
 	public:

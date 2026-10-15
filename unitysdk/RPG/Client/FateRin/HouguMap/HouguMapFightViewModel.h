@@ -25,6 +25,8 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::HouguMap
 {
+	inline static constexpr unsigned int HouguMapFightViewModel_TypeDefinitionIndex = 80769;
+
 	class HouguMapFightViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System::Runtime::InteropServices { class MarshalAsAttribute; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int FieldInfo_TypeDefinitionIndex = 607;
+
 	class FieldInfo : public ::System::Reflection::MemberInfo
 	{
 	public:

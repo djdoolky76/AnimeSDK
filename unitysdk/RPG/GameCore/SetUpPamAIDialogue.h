@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetUpPamAIDialogue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetUpPamAIDialogue_TypeDefinitionIndex = 21108;
+
 	class SetUpPamAIDialogue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JEGNOIJMBCA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E71A360)
 #define JEGNOIJMBCA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E71A3C0)
 
+inline static constexpr unsigned int JEGNOIJMBCA_TypeDefinitionIndex = 30318;
+
 	class JEGNOIJMBCA : public ::System::Object
 	{
 	public:

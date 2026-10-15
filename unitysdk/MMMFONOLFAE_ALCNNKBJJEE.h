@@ -6,6 +6,8 @@ namespace UnityEngine { class Transform; }
 
 #define MMMFONOLFAE_ALCNNKBJJEE_CTOR_OFFSET UNITYSDK_OFFSET(0xB9D9180)
 
+inline static constexpr unsigned int MMMFONOLFAE_ALCNNKBJJEE_TypeDefinitionIndex = 68446;
+
 	class MMMFONOLFAE_ALCNNKBJJEE : public ::System::Object
 	{
 	public:

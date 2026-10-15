@@ -43,6 +43,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_6_OFFSET UNITYSDK_OFFSET(0x15F2F3C0)
 #define IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_9_OFFSET UNITYSDK_OFFSET(0x15F2F3E0)
 
+inline static constexpr unsigned int IFOEBJMEFKG___c_TypeDefinitionIndex = 79446;
+
 	class IFOEBJMEFKG___c : public ::System::Object
 	{
 	public:

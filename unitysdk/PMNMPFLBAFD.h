@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PMNMPFLBAFD_CTOR_OFFSET UNITYSDK_OFFSET(0xC328930)
 #define PMNMPFLBAFD_EXECUTE_OFFSET UNITYSDK_OFFSET(0xC328520)
 
+inline static constexpr unsigned int PMNMPFLBAFD_TypeDefinitionIndex = 77356;
+
 	class PMNMPFLBAFD : public ::System::Object
 	{
 	public:

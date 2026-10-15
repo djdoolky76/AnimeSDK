@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int UGCProtocolManager_AgreementStatus_TypeDefinitionIndex = 8958;
+
 	enum class UGCProtocolManager_AgreementStatus : ::System::Int32
 	{
 		None = -1,

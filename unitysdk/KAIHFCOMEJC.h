@@ -40,6 +40,8 @@ namespace UnityEngine::UI { class Image; }
 #define KAIHFCOMEJC_OJOANCLAHBL_OFFSET UNITYSDK_OFFSET(0xB2DA190)
 #define KAIHFCOMEJC__ONBIND_OFFSET UNITYSDK_OFFSET(0xB2D8D10)
 
+inline static constexpr unsigned int KAIHFCOMEJC_TypeDefinitionIndex = 71939;
+
 	class KAIHFCOMEJC : public ::FMPCODLIOLG
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int TaskFactory_CompleteOnInvokePromise_TypeDefinitionIndex = 929;
+
 	class TaskFactory_CompleteOnInvokePromise
 	{
 	public:

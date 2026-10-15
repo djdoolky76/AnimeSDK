@@ -37,6 +37,8 @@ namespace System { class String; }
 #define AFGMNFFBBIG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1178F0)
 #define AFGMNFFBBIG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E117950)
 
+inline static constexpr unsigned int AFGMNFFBBIG_TypeDefinitionIndex = 25479;
+
 	class AFGMNFFBBIG : public ::System::Object
 	{
 	public:

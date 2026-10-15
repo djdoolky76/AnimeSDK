@@ -7,6 +7,8 @@ class KPOHCHFBABO;
 #define KPOHCHFBABO___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB5D1100)
 #define KPOHCHFBABO___C__DISPLAYCLASS10_0__ONDETAILCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0xB5D1F60)
 
+inline static constexpr unsigned int KPOHCHFBABO___c__DisplayClass10_0_TypeDefinitionIndex = 71288;
+
 	class KPOHCHFBABO___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

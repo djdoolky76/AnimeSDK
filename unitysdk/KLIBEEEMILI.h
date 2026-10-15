@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KLIBEEEMILI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D0A7240)
 #define KLIBEEEMILI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0A6BA0)
 
+inline static constexpr unsigned int KLIBEEEMILI_TypeDefinitionIndex = 12985;
+
 	class KLIBEEEMILI : public ::System::Object
 	{
 	public:

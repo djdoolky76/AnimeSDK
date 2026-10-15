@@ -7,6 +7,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPGraphicsSettingsData_LocalLightLOD_TypeDefinitionIndex = 37659;
+
 	class CRPGraphicsSettingsData_LocalLightLOD : public ::System::Object
 	{
 	public:

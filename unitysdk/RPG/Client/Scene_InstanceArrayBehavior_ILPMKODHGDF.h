@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Scene_InstanceArrayBehavior_ILPMKODHGDF_TypeDefinitionIndex = 70847;
+
 	class Scene_InstanceArrayBehavior_ILPMKODHGDF : public ::System::Object
 	{
 	public:

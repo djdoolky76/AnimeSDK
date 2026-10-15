@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightRoleConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameRefFilter_GridFightFilterRoleConfigComparer_TypeDefinitionIndex = 64759;
+
 	class GridFightGameRefFilter_GridFightFilterRoleConfigComparer : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FMDGFHPOAIO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3E0580)
 #define FMDGFHPOAIO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3E05E0)
 
+inline static constexpr unsigned int FMDGFHPOAIO_TypeDefinitionIndex = 26593;
+
 	class FMDGFHPOAIO : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PAHPNDELELN_CTOR_OFFSET UNITYSDK_OFFSET(0xBFC9D30)
 #define PAHPNDELELN_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBFC9D60)
 
+inline static constexpr unsigned int PAHPNDELELN_TypeDefinitionIndex = 52970;
+
 	class PAHPNDELELN
 	{
 	public:

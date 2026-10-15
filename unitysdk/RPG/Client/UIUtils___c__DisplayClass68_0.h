@@ -10,6 +10,8 @@ namespace UnityEngine::Events { class UnityAction; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIUtils___c__DisplayClass68_0_TypeDefinitionIndex = 73190;
+
 	class UIUtils___c__DisplayClass68_0 : public ::System::Object
 	{
 	public:

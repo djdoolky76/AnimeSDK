@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TriggerLittleGameCustomEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerLittleGameCustomEvent_TypeDefinitionIndex = 21422;
+
 	class TriggerLittleGameCustomEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:

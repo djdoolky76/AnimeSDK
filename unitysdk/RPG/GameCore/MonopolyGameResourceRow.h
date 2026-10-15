@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonopolyGameResourceRow_TypeDefinitionIndex = 12073;
+
 	class MonopolyGameResourceRow : public ::System::Object
 	{
 	public:

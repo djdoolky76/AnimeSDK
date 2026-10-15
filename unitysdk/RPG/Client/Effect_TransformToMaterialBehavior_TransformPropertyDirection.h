@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformPropertyDirection_TypeDefinitionIndex = 70580;
+
 	class Effect_TransformToMaterialBehavior_TransformPropertyDirection : public ::RPG::Client::Effect_TransformToMaterialBehavior_TransformProperty
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine::Video { class VideoPlayer; }
 
 namespace UnityEngine::Video
 {
+	inline static constexpr unsigned int VideoPlayer_TimeEventHandler_TypeDefinitionIndex = 6060;
+
 	class VideoPlayer_TimeEventHandler : public ::System::MulticastDelegate
 	{
 	public:

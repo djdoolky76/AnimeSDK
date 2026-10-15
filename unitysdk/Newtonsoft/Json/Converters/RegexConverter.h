@@ -22,6 +22,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 
 namespace Newtonsoft::Json::Converters
 {
+	inline static constexpr unsigned int RegexConverter_TypeDefinitionIndex = 9819;
+
 	class RegexConverter : public ::Newtonsoft::Json::JsonConverter
 	{
 	public:

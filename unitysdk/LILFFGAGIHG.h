@@ -43,6 +43,8 @@ namespace System { class Object; }
 #define LILFFGAGIHG_REMOVE_ONSTAGESETTLECONFIRM_OFFSET UNITYSDK_OFFSET(0xB6D6F90)
 #define LILFFGAGIHG_REMOVE_ONSTAGESETTLE_OFFSET UNITYSDK_OFFSET(0xB6D6E10)
 
+inline static constexpr unsigned int LILFFGAGIHG_TypeDefinitionIndex = 81492;
+
 	class LILFFGAGIHG : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetSignedAngleByTarget_TypeDefinitionIndex = 22741;
+
 	class SetSignedAngleByTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:

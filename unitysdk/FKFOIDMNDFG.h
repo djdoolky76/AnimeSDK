@@ -34,6 +34,8 @@ namespace System { class String; }
 #define FKFOIDMNDFG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3AEB60)
 #define FKFOIDMNDFG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3AEBC0)
 
+inline static constexpr unsigned int FKFOIDMNDFG_TypeDefinitionIndex = 33523;
+
 	class FKFOIDMNDFG : public ::System::Object
 	{
 	public:

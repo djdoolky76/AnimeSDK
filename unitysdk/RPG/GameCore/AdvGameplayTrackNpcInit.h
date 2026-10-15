@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvGameplayTrackNpcInit; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvGameplayTrackNpcInit_TypeDefinitionIndex = 22186;
+
 	class AdvGameplayTrackNpcInit : public ::RPG::GameCore::TaskConfig
 	{
 	public:

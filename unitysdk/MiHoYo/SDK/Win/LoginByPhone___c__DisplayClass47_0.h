@@ -9,6 +9,8 @@ namespace MiHoYo::SDK::Win { class LoginByPhone; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int LoginByPhone___c__DisplayClass47_0_TypeDefinitionIndex = 9540;
+
 	class LoginByPhone___c__DisplayClass47_0 : public ::System::Object
 	{
 	public:

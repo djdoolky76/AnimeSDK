@@ -33,6 +33,8 @@ namespace UnityEngine { class Transform; }
 #define OGBPMPBLDNK_NOELJCEPAPE_OFFSET UNITYSDK_OFFSET(0xBE50D10)
 #define OGBPMPBLDNK_PDDANNNEDAL_OFFSET UNITYSDK_OFFSET(0xBE51A50)
 
+inline static constexpr unsigned int OGBPMPBLDNK_TypeDefinitionIndex = 48070;
+
 	class OGBPMPBLDNK : public ::System::Object
 	{
 	public:

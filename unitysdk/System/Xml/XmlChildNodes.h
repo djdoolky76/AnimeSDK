@@ -10,6 +10,8 @@ namespace System::Xml { class XmlNode; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlChildNodes_TypeDefinitionIndex = 1896;
+
 	class XmlChildNodes : public ::System::Xml::XmlNodeList
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Reflection { class AssemblyName; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int SkipClrVisibilityChecks_AssemblyNameEqualityComparer_TypeDefinitionIndex = 7237;
+
 	class SkipClrVisibilityChecks_AssemblyNameEqualityComparer : public ::System::Object
 	{
 	public:

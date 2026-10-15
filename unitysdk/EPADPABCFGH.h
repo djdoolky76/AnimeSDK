@@ -31,6 +31,8 @@ namespace System { class String; }
 #define EPADPABCFGH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E300F70)
 #define EPADPABCFGH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E300FD0)
 
+inline static constexpr unsigned int EPADPABCFGH_TypeDefinitionIndex = 31652;
+
 	class EPADPABCFGH : public ::System::Object
 	{
 	public:

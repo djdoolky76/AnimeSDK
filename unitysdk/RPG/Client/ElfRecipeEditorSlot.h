@@ -12,6 +12,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfRecipeEditorSlot_TypeDefinitionIndex = 63730;
+
 	class ElfRecipeEditorSlot : public ::System::Object
 	{
 	public:

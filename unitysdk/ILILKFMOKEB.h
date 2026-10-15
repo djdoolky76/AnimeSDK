@@ -6,6 +6,8 @@ class DMANKEBECAE;
 
 #define ILILKFMOKEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB783A0)
 
+inline static constexpr unsigned int ILILKFMOKEB_TypeDefinitionIndex = 42499;
+
 	class ILILKFMOKEB : public ::System::Object
 	{
 	public:

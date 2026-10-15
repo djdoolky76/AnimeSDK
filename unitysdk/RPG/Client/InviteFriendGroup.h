@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int InviteFriendGroup_TypeDefinitionIndex = 64260;
+
 	class InviteFriendGroup : public ::System::Object
 	{
 	public:

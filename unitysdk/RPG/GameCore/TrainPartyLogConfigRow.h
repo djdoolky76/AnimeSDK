@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TrainPartyLogConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyLogConfigRow_TypeDefinitionIndex = 15322;
+
 	class TrainPartyLogConfigRow : public ::System::Object
 	{
 	public:

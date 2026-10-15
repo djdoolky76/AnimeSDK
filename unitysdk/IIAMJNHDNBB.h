@@ -8,6 +8,8 @@ class IIAMJNHDNBB;
 #define IIAMJNHDNBB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CF127E0)
 #define IIAMJNHDNBB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF12710)
 
+inline static constexpr unsigned int IIAMJNHDNBB_TypeDefinitionIndex = 20265;
+
 	class IIAMJNHDNBB : public ::RPG::GameCore::TaskConfig
 	{
 	public:

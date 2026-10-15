@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_ChallengerRevival; }
 #define FOJHFFIJIJC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C626BF0)
 #define FOJHFFIJIJC_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C626C00)
 
+inline static constexpr unsigned int FOJHFFIJIJC_TypeDefinitionIndex = 36332;
+
 	class FOJHFFIJIJC : public ::AJBKGPOEBFG
 	{
 	public:

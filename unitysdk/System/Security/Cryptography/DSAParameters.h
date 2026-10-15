@@ -3,6 +3,8 @@
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int DSAParameters_TypeDefinitionIndex = 1019;
+
 	struct alignas(8) DSAParameters
 	{
 		::Il2CppArray<::System::Byte>* P; // 0x10

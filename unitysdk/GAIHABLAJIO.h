@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GAIHABLAJIO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E41D5F0)
 #define GAIHABLAJIO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E41D650)
 
+inline static constexpr unsigned int GAIHABLAJIO_TypeDefinitionIndex = 25505;
+
 	class GAIHABLAJIO : public ::System::Object
 	{
 	public:

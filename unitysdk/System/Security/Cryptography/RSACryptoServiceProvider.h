@@ -42,6 +42,8 @@ namespace System::Security::Cryptography { class RSAEncryptionPadding; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int RSACryptoServiceProvider_TypeDefinitionIndex = 1050;
+
 	class RSACryptoServiceProvider : public ::System::Security::Cryptography::RSA
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HAILIPBNAJL___C__DISPLAYCLASS32_0___CALCBESTSWAP_B__4_OFFSET UNITYSDK_OFFSET(0x1C65AA00)
 #define HAILIPBNAJL___C__DISPLAYCLASS32_0___CALCBESTSWAP_B__5_OFFSET UNITYSDK_OFFSET(0x1C65AA40)
 
+inline static constexpr unsigned int HAILIPBNAJL___c__DisplayClass32_0_TypeDefinitionIndex = 36411;
+
 	class HAILIPBNAJL___c__DisplayClass32_0 : public ::System::Object
 	{
 	public:

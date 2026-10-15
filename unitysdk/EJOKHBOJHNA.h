@@ -31,6 +31,8 @@ namespace System { class Object; }
 #define EJOKHBOJHNA_OPBNCBJGFEI_OFFSET UNITYSDK_OFFSET(0x154F4D30)
 #define EJOKHBOJHNA_REMOVE_AGENDACOMPLETED_OFFSET UNITYSDK_OFFSET(0x154F43A0)
 
+inline static constexpr unsigned int EJOKHBOJHNA_TypeDefinitionIndex = 81847;
+
 	class EJOKHBOJHNA : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define OMBBCMEHFCP_GET_VERSION_OFFSET UNITYSDK_OFFSET(0xBF17810)
 #define OMBBCMEHFCP_MHOJFDOJILH_OFFSET UNITYSDK_OFFSET(0xBF17970)
 
+inline static constexpr unsigned int OMBBCMEHFCP_TypeDefinitionIndex = 51991;
+
 	class OMBBCMEHFCP : public ::System::Object
 	{
 	public:

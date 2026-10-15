@@ -44,6 +44,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int TouchStickControl_TypeDefinitionIndex = 40878;
+
 	class TouchStickControl : public ::InControl::TouchControl
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GHGECAINBLA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E489090)
 #define GHGECAINBLA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4890F0)
 
+inline static constexpr unsigned int GHGECAINBLA_TypeDefinitionIndex = 30443;
+
 	class GHGECAINBLA : public ::System::Object
 	{
 	public:

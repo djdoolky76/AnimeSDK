@@ -113,6 +113,8 @@ namespace UnityEngine { class TouchScreenKeyboard; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int TextEditor_TypeDefinitionIndex = 5198;
+
 	class TextEditor : public ::System::Object
 	{
 	public:

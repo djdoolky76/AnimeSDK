@@ -3,6 +3,8 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int D3D12TextureData_t_TypeDefinitionIndex = 39281;
+
 	struct alignas(4) D3D12TextureData_t
 	{
 		::System::IntPtr m_pResource; // 0x10

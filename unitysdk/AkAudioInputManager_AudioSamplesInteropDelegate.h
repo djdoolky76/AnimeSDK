@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define AKAUDIOINPUTMANAGER_AUDIOSAMPLESINTEROPDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F575190)
 #define AKAUDIOINPUTMANAGER_AUDIOSAMPLESINTEROPDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F5750C0)
 
+inline static constexpr unsigned int AkAudioInputManager_AudioSamplesInteropDelegate_TypeDefinitionIndex = 44814;
+
 	class AkAudioInputManager_AudioSamplesInteropDelegate : public ::System::MulticastDelegate
 	{
 	public:

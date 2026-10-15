@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int GeneratedCodeInfo_Types_Annotation___c_TypeDefinitionIndex = 5524;
+
 	class GeneratedCodeInfo_Types_Annotation___c : public ::System::Object
 	{
 	public:

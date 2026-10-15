@@ -10,6 +10,8 @@ namespace RPG::Client { class MatchThreeModule; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ResidentMatchThreeActivityData_TypeDefinitionIndex = 65983;
+
 	class ResidentMatchThreeActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KLNGFBHIADA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8929E0)
 #define KLNGFBHIADA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E892A40)
 
+inline static constexpr unsigned int KLNGFBHIADA_TypeDefinitionIndex = 34387;
+
 	class KLNGFBHIADA : public ::System::Object
 	{
 	public:

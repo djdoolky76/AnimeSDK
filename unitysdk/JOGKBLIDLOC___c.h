@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JOGKBLIDLOC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A2800)
 #define JOGKBLIDLOC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E7A2810)
 
+inline static constexpr unsigned int JOGKBLIDLOC___c_TypeDefinitionIndex = 34120;
+
 	class JOGKBLIDLOC___c : public ::System::Object
 	{
 	public:

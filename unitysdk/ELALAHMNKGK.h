@@ -18,6 +18,8 @@ namespace RPG::Client { class PipelineCameraGlobalConfig; }
 #define ELALAHMNKGK_SET_MODULECONFIGREF_OFFSET UNITYSDK_OFFSET(0x1551ADD0)
 #define ELALAHMNKGK_SET_OWNERCAMERAENGINEREF_OFFSET UNITYSDK_OFFSET(0x1551AD90)
 
+inline static constexpr unsigned int ELALAHMNKGK_TypeDefinitionIndex = 69737;
+
 	class ELALAHMNKGK : public ::RPGCamera::BaseCameraState
 	{
 	public:

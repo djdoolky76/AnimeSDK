@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingNewPartHintDialogViewModel_TypeDefinitionIndex = 82008;
+
 	class B51RacingNewPartHintDialogViewModel : public ::System::Object
 	{
 	public:

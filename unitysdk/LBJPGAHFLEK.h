@@ -9,6 +9,8 @@ class LBJPGAHFLEK;
 #define LBJPGAHFLEK_CTOR_OFFSET UNITYSDK_OFFSET(0xB600D30)
 #define LBJPGAHFLEK_JOHPKPGOGHD_OFFSET UNITYSDK_OFFSET(0xB600CA0)
 
+inline static constexpr unsigned int LBJPGAHFLEK_TypeDefinitionIndex = 78076;
+
 	class LBJPGAHFLEK : public ::BHCEEHPIGFL
 	{
 	public:

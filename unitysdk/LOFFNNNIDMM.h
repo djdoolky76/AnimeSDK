@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LOFFNNNIDMM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9BBF10)
 #define LOFFNNNIDMM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9BBF70)
 
+inline static constexpr unsigned int LOFFNNNIDMM_TypeDefinitionIndex = 31830;
+
 	class LOFFNNNIDMM : public ::System::Object
 	{
 	public:

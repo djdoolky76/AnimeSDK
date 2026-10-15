@@ -10,6 +10,8 @@
 #define INIKGGEBLOF_SET_TARGETID_OFFSET UNITYSDK_OFFSET(0x164EF9D0)
 #define INIKGGEBLOF_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x164EF9B0)
 
+inline static constexpr unsigned int INIKGGEBLOF_TypeDefinitionIndex = 66784;
+
 	class INIKGGEBLOF : public ::System::Object
 	{
 	public:

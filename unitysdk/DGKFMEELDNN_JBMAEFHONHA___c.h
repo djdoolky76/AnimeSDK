@@ -16,6 +16,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define DGKFMEELDNN_JBMAEFHONHA___C___CREATETRAITITEMS_B__9_2_OFFSET UNITYSDK_OFFSET(0xE84EF90)
 #define DGKFMEELDNN_JBMAEFHONHA___C___CREATETRAITITEMS_B__9_3_OFFSET UNITYSDK_OFFSET(0xE84EFB0)
 
+inline static constexpr unsigned int DGKFMEELDNN_JBMAEFHONHA___c_TypeDefinitionIndex = 79525;
+
 	class DGKFMEELDNN_JBMAEFHONHA___c : public ::System::Object
 	{
 	public:

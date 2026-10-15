@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define JGHGCOMJODN_SET_ONCLOSE_OFFSET UNITYSDK_OFFSET(0xB19A680)
 #define JGHGCOMJODN_SET_ONRESTART_OFFSET UNITYSDK_OFFSET(0xB19A6A0)
 
+inline static constexpr unsigned int JGHGCOMJODN_TypeDefinitionIndex = 81401;
+
 	class JGHGCOMJODN : public ::System::Object
 	{
 	public:

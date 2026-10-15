@@ -4,6 +4,8 @@
 
 #define EANKKLCLOMC_CTOR_OFFSET UNITYSDK_OFFSET(0x12CE41C0)
 
+inline static constexpr unsigned int EANKKLCLOMC_TypeDefinitionIndex = 80543;
+
 	class EANKKLCLOMC : public ::System::Object
 	{
 	public:

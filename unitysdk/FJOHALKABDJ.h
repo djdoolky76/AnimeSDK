@@ -13,6 +13,8 @@
 #define FJOHALKABDJ_SET_NAME_OFFSET UNITYSDK_OFFSET(0x157E2DE0)
 #define FJOHALKABDJ_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x157E2DC0)
 
+inline static constexpr unsigned int FJOHALKABDJ_TypeDefinitionIndex = 81083;
+
 	class FJOHALKABDJ : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TriggerFightFestLineupInMission; }
 #define JFGNALMKMOL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1664CCE0)
 #define JFGNALMKMOL_TICK_OFFSET UNITYSDK_OFFSET(0x1664CDC0)
 
+inline static constexpr unsigned int JFGNALMKMOL_TypeDefinitionIndex = 58786;
+
 	class JFGNALMKMOL : public ::GELIALJDFBL
 	{
 	public:

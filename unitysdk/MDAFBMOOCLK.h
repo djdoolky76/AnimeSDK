@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MDAFBMOOCLK_CTOR_OFFSET UNITYSDK_OFFSET(0xB88D940)
 #define MDAFBMOOCLK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB88D970)
 
+inline static constexpr unsigned int MDAFBMOOCLK_TypeDefinitionIndex = 56393;
+
 	class MDAFBMOOCLK
 	{
 	public:

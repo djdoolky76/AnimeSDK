@@ -21,6 +21,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 #define LABKNEEHINJ_NCPFGEDLDEM_OFFSET UNITYSDK_OFFSET(0xB5D7C80)
 #define LABKNEEHINJ___RETRIVEDEPTHSAMPLE_B__8_0_OFFSET UNITYSDK_OFFSET(0xB5D7DA0)
 
+inline static constexpr unsigned int LABKNEEHINJ_TypeDefinitionIndex = 63073;
+
 	class LABKNEEHINJ : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::FateRin::BattleSettle
 {
+	inline static constexpr unsigned int FateRinChallengeSettleViewModel_TypeDefinitionIndex = 80642;
+
 	class FateRinChallengeSettleViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

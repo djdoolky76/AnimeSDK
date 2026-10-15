@@ -8,6 +8,8 @@ class OEJDHDANODH;
 #define OEJDHDANODH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D260DE0)
 #define OEJDHDANODH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D260C80)
 
+inline static constexpr unsigned int OEJDHDANODH_TypeDefinitionIndex = 12498;
+
 	class OEJDHDANODH : public ::System::Object
 	{
 	public:

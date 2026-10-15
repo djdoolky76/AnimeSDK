@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DEGFPIEIBAL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD10A30)
 #define DEGFPIEIBAL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD10340)
 
+inline static constexpr unsigned int DEGFPIEIBAL_TypeDefinitionIndex = 15058;
+
 	class DEGFPIEIBAL : public ::System::Object
 	{
 	public:

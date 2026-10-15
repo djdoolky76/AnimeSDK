@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarServantSkillExcelTable_TypeDefinitionIndex = 12808;
+
 	class AvatarServantSkillExcelTable : public ::System::Object
 	{
 	public:

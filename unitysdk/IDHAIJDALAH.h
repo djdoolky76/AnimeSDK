@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IDHAIJDALAH_ONGNDOHAMDB_OFFSET UNITYSDK_OFFSET(0x15ED2FA0)
 #define IDHAIJDALAH_SET_DEFAULTLEVEL_OFFSET UNITYSDK_OFFSET(0x15ED37C0)
 
+inline static constexpr unsigned int IDHAIJDALAH_TypeDefinitionIndex = 74192;
+
 	class IDHAIJDALAH : public ::System::Object
 	{
 	public:

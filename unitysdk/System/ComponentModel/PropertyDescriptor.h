@@ -15,6 +15,8 @@ namespace System::ComponentModel { class TypeConverter; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int PropertyDescriptor_TypeDefinitionIndex = 2617;
+
 	class PropertyDescriptor : public ::System::ComponentModel::MemberDescriptor
 	{
 	public:

@@ -5,6 +5,8 @@
 
 namespace ZLinq::Internal
 {
+	inline static constexpr unsigned int SegmentedArrayProvider_1_TypeDefinitionIndex = 6152;
+
 	template <typename T>
 	struct alignas(8) SegmentedArrayProvider_1
 	{

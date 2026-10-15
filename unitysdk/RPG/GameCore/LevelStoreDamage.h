@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelStoreDamage_TypeDefinitionIndex = 56742;
+
 	class LevelStoreDamage : public ::System::Object
 	{
 	public:

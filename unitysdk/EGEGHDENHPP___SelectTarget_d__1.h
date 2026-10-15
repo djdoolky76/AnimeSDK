@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define EGEGHDENHPP___SELECTTARGET_D__1_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x145098D0)
 #define EGEGHDENHPP___SELECTTARGET_D__1___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x14509910)
 
+inline static constexpr unsigned int EGEGHDENHPP___SelectTarget_d__1_TypeDefinitionIndex = 77507;
+
 	template <typename T>
 	class EGEGHDENHPP___SelectTarget_d__1 : public ::System::Object
 	{

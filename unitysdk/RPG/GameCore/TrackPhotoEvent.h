@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrackPhotoEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrackPhotoEvent_TypeDefinitionIndex = 21644;
+
 	class TrackPhotoEvent : public ::RPG::GameCore::JsonConfig
 	{
 	public:

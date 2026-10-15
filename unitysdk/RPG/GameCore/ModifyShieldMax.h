@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyShieldMax_TypeDefinitionIndex = 23119;
+
 	class ModifyShieldMax : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -16,6 +16,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtTargetMapPosWithMaxTargetCount_TypeDefinitionIndex = 24258;
+
 	class RtTargetMapPosWithMaxTargetCount : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:

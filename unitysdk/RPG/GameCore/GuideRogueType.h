@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GuideRogueType_TypeDefinitionIndex = 13390;
+
 	enum class GuideRogueType : ::System::Int32
 	{
 		Unknown = 0,

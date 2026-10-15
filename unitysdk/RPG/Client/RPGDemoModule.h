@@ -11,6 +11,8 @@ class HFNPJABCAFI;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGDemoModule_TypeDefinitionIndex = 66764;
+
 	class RPGDemoModule : public ::RPG::Client::BaseModule
 	{
 	public:

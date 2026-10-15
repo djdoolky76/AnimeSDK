@@ -4,6 +4,8 @@
 
 #define PNECKGBKMEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7F6E20)
 
+inline static constexpr unsigned int PNECKGBKMEL_TypeDefinitionIndex = 36208;
+
 	class PNECKGBKMEL : public ::System::Object
 	{
 	public:

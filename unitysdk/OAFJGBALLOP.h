@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OAFJGBALLOP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2496B0)
 #define OAFJGBALLOP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D249B60)
 
+inline static constexpr unsigned int OAFJGBALLOP_TypeDefinitionIndex = 15346;
+
 	class OAFJGBALLOP : public ::System::Object
 	{
 	public:

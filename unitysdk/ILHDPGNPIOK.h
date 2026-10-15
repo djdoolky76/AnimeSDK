@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 #define ILHDPGNPIOK_JHKBGBMLBOI_OFFSET UNITYSDK_OFFSET(0x164B3CF0)
 #define ILHDPGNPIOK_MKFLEJIFBLL_OFFSET UNITYSDK_OFFSET(0x164B4420)
 
+inline static constexpr unsigned int ILHDPGNPIOK_TypeDefinitionIndex = 72348;
+
 	class ILHDPGNPIOK : public ::System::Object
 	{
 	public:

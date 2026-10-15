@@ -4,6 +4,8 @@
 
 #define MHBMAJKHALN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4BC790)
 
+inline static constexpr unsigned int MHBMAJKHALN_TypeDefinitionIndex = 41438;
+
 	class MHBMAJKHALN : public ::LFPEEBKPEIO
 	{
 	public:

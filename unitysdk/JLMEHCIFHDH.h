@@ -11,6 +11,8 @@ namespace System { class String; }
 #define JLMEHCIFHDH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D047460)
 #define JLMEHCIFHDH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D047040)
 
+inline static constexpr unsigned int JLMEHCIFHDH_TypeDefinitionIndex = 18155;
+
 	class JLMEHCIFHDH : public ::RPG::GameCore::JsonConfig
 	{
 	public:

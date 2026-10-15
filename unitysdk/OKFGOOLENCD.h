@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define OKFGOOLENCD_OLHCIHEPAFD_OFFSET UNITYSDK_OFFSET(0xBED7CF0)
 #define OKFGOOLENCD_PACFMNIDLKH_OFFSET UNITYSDK_OFFSET(0xBED7E70)
 
+inline static constexpr unsigned int OKFGOOLENCD_TypeDefinitionIndex = 74861;
+
 	class OKFGOOLENCD : public ::System::Object
 	{
 	public:

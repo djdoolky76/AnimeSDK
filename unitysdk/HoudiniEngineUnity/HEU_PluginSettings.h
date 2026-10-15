@@ -152,6 +152,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_PluginSettings_TypeDefinitionIndex = 40439;
+
 	class HEU_PluginSettings : public ::System::Object
 	{
 	public:

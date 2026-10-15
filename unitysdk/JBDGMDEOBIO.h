@@ -10,6 +10,8 @@ namespace RPG::GameCore { class VCameraNoiseChange; }
 #define JBDGMDEOBIO_CTOR_OFFSET UNITYSDK_OFFSET(0x16567A90)
 #define JBDGMDEOBIO_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x165679E0)
 
+inline static constexpr unsigned int JBDGMDEOBIO_TypeDefinitionIndex = 69562;
+
 	class JBDGMDEOBIO : public ::System::Object
 	{
 	public:

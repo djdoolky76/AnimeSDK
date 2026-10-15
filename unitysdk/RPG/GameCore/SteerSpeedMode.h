@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SteerSpeedMode_TypeDefinitionIndex = 24601;
+
 	enum class SteerSpeedMode : ::System::Int32
 	{
 		Duration = 0,

@@ -81,6 +81,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int PlayerAction_TypeDefinitionIndex = 40806;
+
 	class PlayerAction : public ::InControl::OneAxisInputControl
 	{
 	public:

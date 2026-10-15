@@ -31,6 +31,8 @@ namespace UnityEngine { class Transform; }
 #define BABYHIPPLENCONTROLLER_START_OFFSET UNITYSDK_OFFSET(0xC1B0BC0)
 #define BABYHIPPLENCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0xC1B0D20)
 
+inline static constexpr unsigned int BabyHipplenController_TypeDefinitionIndex = 47194;
+
 	class BabyHipplenController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

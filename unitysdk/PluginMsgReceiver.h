@@ -8,6 +8,8 @@ class JsonObject;
 #define PLUGINMSGRECEIVER_SENDPLUGINMSG_OFFSET UNITYSDK_OFFSET(0x1C371500)
 #define PLUGINMSGRECEIVER_START_OFFSET UNITYSDK_OFFSET(0x1C371380)
 
+inline static constexpr unsigned int PluginMsgReceiver_TypeDefinitionIndex = 41340;
+
 	class PluginMsgReceiver : public ::UnityEngine::MonoBehaviour
 	{
 	public:

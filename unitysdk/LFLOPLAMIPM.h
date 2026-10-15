@@ -10,6 +10,8 @@ namespace RPG::Client::LittleGameShare { class ST_Main_CakeRaceUseTrashItemDecis
 #define LFLOPLAMIPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C73ACD0)
 #define LFLOPLAMIPM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1C73B110)
 
+inline static constexpr unsigned int LFLOPLAMIPM_TypeDefinitionIndex = 36997;
+
 	class LFLOPLAMIPM
 	{
 	public:

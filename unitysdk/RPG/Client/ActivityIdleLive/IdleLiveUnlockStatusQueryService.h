@@ -17,6 +17,8 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveUnlockStatusQueryService_TypeDefinitionIndex = 75337;
+
 	class IdleLiveUnlockStatusQueryService : public ::System::Object
 	{
 	public:

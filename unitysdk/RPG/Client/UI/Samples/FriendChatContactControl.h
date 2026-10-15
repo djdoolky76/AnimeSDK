@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::Ui::Samples
 {
+	inline static constexpr unsigned int FriendChatContactControl_TypeDefinitionIndex = 73433;
+
 	class FriendChatContactControl
 	{
 	public:

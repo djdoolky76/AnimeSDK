@@ -15,6 +15,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MuseumModule___c_TypeDefinitionIndex = 66334;
+
 	class MuseumModule___c : public ::System::Object
 	{
 	public:

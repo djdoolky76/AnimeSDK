@@ -6,6 +6,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeBoard_PowerCounterSizeConfig_TypeDefinitionIndex = 65902;
+
 	struct alignas(8) MatchThreeBoard_PowerCounterSizeConfig
 	{
 		::System::Int32 FontSize; // 0x10

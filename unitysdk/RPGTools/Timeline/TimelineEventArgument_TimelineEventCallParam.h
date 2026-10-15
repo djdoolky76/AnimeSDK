@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TimelineEventArgument_TimelineEventCallParam_TypeDefinitionIndex = 48433;
+
 	class TimelineEventArgument_TimelineEventCallParam : public ::System::Object
 	{
 	public:

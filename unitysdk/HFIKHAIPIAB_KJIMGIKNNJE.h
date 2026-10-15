@@ -7,6 +7,8 @@ namespace RPG::Client { class EquipmentItemData; }
 #define HFIKHAIPIAB_KJIMGIKNNJE_CTOR_OFFSET UNITYSDK_OFFSET(0x15C7C640)
 #define HFIKHAIPIAB_KJIMGIKNNJE_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x15C7C650)
 
+inline static constexpr unsigned int HFIKHAIPIAB_KJIMGIKNNJE_TypeDefinitionIndex = 65537;
+
 	class HFIKHAIPIAB_KJIMGIKNNJE : public ::System::Object
 	{
 	public:

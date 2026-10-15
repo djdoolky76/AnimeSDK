@@ -8,6 +8,8 @@ namespace RPG::Client { class ChessRogueAreaLayerDataItem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChessRogueAreaDataItem___c__DisplayClass3_0_TypeDefinitionIndex = 66904;
+
 	class ChessRogueAreaDataItem___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

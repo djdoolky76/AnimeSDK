@@ -6,6 +6,8 @@ namespace System { class Nullable; }
 
 #define EJGNKNAGOON_CTOR_OFFSET UNITYSDK_OFFSET(0x154DB8F0)
 
+inline static constexpr unsigned int EJGNKNAGOON_TypeDefinitionIndex = 57724;
+
 	class EJGNKNAGOON : public ::System::Object
 	{
 	public:

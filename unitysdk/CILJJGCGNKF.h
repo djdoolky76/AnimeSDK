@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CheckSkillSPAxis; }
 #define CILJJGCGNKF_HGEDCFNBPGL_OFFSET UNITYSDK_OFFSET(0xCF8DA00)
 #define CILJJGCGNKF_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0xCF8D990)
 
+inline static constexpr unsigned int CILJJGCGNKF_TypeDefinitionIndex = 54372;
+
 	class CILJJGCGNKF : public ::BEMKNPIFMBI
 	{
 	public:

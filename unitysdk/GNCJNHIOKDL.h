@@ -39,6 +39,8 @@ namespace System { class String; }
 #define GNCJNHIOKDL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4DB2F0)
 #define GNCJNHIOKDL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4DB350)
 
+inline static constexpr unsigned int GNCJNHIOKDL_TypeDefinitionIndex = 31718;
+
 	class GNCJNHIOKDL : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections { class Hashtable; }
 
 namespace RPG::QA::ProfilePipeline::RPGLuaProfiler
 {
+	inline static constexpr unsigned int SampleResult_TypeDefinitionIndex = 51826;
+
 	class SampleResult : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System { class String; }
 #define KHBEIDOCBCN_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB3FC5F0)
 #define KHBEIDOCBCN_NNICOCFHCBJ_OFFSET UNITYSDK_OFFSET(0xB3FC710)
 
+inline static constexpr unsigned int KHBEIDOCBCN_TypeDefinitionIndex = 74493;
+
 	class KHBEIDOCBCN : public ::System::Object
 	{
 	public:

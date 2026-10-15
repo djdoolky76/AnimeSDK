@@ -14,6 +14,8 @@ namespace System::Reflection { class MemberInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int CustomAttributeNamedArgument_TypeDefinitionIndex = 602;
+
 	struct alignas(8) CustomAttributeNamedArgument
 	{
 		::System::Reflection::CustomAttributeTypedArgument typedArgument; // 0x10

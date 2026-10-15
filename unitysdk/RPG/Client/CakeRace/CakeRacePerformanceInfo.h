@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::CakeRace
 {
+	inline static constexpr unsigned int CakeRacePerformanceInfo_TypeDefinitionIndex = 76471;
+
 	class CakeRacePerformanceInfo : public ::System::Object
 	{
 	public:

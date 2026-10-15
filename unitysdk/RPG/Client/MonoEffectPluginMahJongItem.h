@@ -22,6 +22,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginMahJongItem_TypeDefinitionIndex = 70075;
+
 	class MonoEffectPluginMahJongItem : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

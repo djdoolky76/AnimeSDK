@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ABKMDDDHPCG_HMOGJKLNPMA_OFFSET UNITYSDK_OFFSET(0xF000)
 #define ABKMDDDHPCG_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xF040)
 
+inline static constexpr unsigned int ABKMDDDHPCG_TypeDefinitionIndex = 68484;
+
 	struct alignas(8) ABKMDDDHPCG
 	{
 		::System::Boolean KKJLMNLCMBK; // 0x10

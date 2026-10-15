@@ -65,6 +65,8 @@ namespace UnityEngine { class Font; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LocalizedText_TypeDefinitionIndex = 72564;
+
 	class LocalizedText : public ::UnityEngine::UI::Text
 	{
 	public:

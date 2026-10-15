@@ -68,6 +68,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NKIKDLEONLC_TICK_OFFSET UNITYSDK_OFFSET(0xBC36B60)
 #define NKIKDLEONLC__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0xBC35B60)
 
+inline static constexpr unsigned int NKIKDLEONLC_TypeDefinitionIndex = 57764;
+
 	class NKIKDLEONLC : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

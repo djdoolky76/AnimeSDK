@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FateRinStageSpecifiedDeckEntry; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateRinStageSpecifiedDeckEntry_TypeDefinitionIndex = 18153;
+
 	class FateRinStageSpecifiedDeckEntry : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define JOCIGDPJMNK_CTOR_OFFSET UNITYSDK_OFFSET(0xB29EF70)
 
+inline static constexpr unsigned int JOCIGDPJMNK_TypeDefinitionIndex = 72029;
+
 	class JOCIGDPJMNK : public ::System::Object
 	{
 	public:

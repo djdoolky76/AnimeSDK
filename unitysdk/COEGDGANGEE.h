@@ -9,6 +9,8 @@ namespace System { class String; }
 #define COEGDGANGEE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCB78C0)
 #define COEGDGANGEE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCB76B0)
 
+inline static constexpr unsigned int COEGDGANGEE_TypeDefinitionIndex = 15386;
+
 	class COEGDGANGEE : public ::System::Object
 	{
 	public:

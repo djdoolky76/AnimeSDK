@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define JODEEEDPIIL_OLKAHGPNFDD_OFFSET UNITYSDK_OFFSET(0xB29FD40)
 #define JODEEEDPIIL_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB29FF10)
 
+inline static constexpr unsigned int JODEEEDPIIL_TypeDefinitionIndex = 65850;
+
 	class JODEEEDPIIL : public ::System::Object
 	{
 	public:

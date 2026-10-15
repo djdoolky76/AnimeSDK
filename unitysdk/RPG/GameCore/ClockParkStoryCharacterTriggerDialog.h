@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClockParkStoryCharacterTriggerDialog_TypeDefinitionIndex = 20945;
+
 	class ClockParkStoryCharacterTriggerDialog : public ::RPG::GameCore::TaskConfig
 	{
 	public:

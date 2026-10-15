@@ -18,6 +18,8 @@ namespace System::Xml { class XmlQualifiedName; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int NamespaceList_TypeDefinitionIndex = 2167;
+
 	class NamespaceList : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EnvironmentSystem_KeywordGroup_TypeDefinitionIndex = 69783;
+
 	struct alignas(8) EnvironmentSystem_KeywordGroup
 	{
 		::System::String* prefix; // 0x10

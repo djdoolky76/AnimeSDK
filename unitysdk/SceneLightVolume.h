@@ -33,6 +33,8 @@ namespace UnityEngine { class Transform; }
 #define SCENELIGHTVOLUME_REGENINDEXER_OFFSET UNITYSDK_OFFSET(0xE95EFA0)
 #define SCENELIGHTVOLUME_SETBLOCKS_OFFSET UNITYSDK_OFFSET(0xE95FBF0)
 
+inline static constexpr unsigned int SceneLightVolume_TypeDefinitionIndex = 47397;
+
 	class SceneLightVolume : public ::UnityEngine::MonoBehaviour
 	{
 	public:

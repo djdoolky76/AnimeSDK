@@ -23,6 +23,8 @@ namespace UnityEngine::AI { class NavMeshData; }
 
 namespace UnityEngine::AI
 {
+	inline static constexpr unsigned int NavMeshData_TypeDefinitionIndex = 5653;
+
 	class NavMeshData : public ::UnityEngine::Object
 	{
 	public:

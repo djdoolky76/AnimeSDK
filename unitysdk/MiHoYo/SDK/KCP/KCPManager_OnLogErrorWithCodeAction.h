@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::KCP
 {
+	inline static constexpr unsigned int KCPManager_OnLogErrorWithCodeAction_TypeDefinitionIndex = 46694;
+
 	class KCPManager_OnLogErrorWithCodeAction : public ::System::MulticastDelegate
 	{
 	public:

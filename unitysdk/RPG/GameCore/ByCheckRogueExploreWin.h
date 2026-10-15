@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCheckRogueExploreWin_TypeDefinitionIndex = 21691;
+
 	class ByCheckRogueExploreWin : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

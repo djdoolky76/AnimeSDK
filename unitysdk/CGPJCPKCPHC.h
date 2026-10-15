@@ -9,6 +9,8 @@ namespace RPG::Client { class OnlinePlayRoomModule; }
 #define CGPJCPKCPHC_LBBLIMMEMCO_OFFSET UNITYSDK_OFFSET(0xCC8D800)
 #define CGPJCPKCPHC_MMIIPFEMLED_OFFSET UNITYSDK_OFFSET(0xCC8DC80)
 
+inline static constexpr unsigned int CGPJCPKCPHC_TypeDefinitionIndex = 66396;
+
 	class CGPJCPKCPHC : public ::System::Object
 	{
 	public:

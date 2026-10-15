@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ItemComefromRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ItemComefromRow_TypeDefinitionIndex = 13864;
+
 	class ItemComefromRow : public ::System::Object
 	{
 	public:

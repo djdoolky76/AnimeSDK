@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int RefreshEventArgs_TypeDefinitionIndex = 2623;
+
 	class RefreshEventArgs : public ::System::EventArgs
 	{
 	public:

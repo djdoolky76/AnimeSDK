@@ -7,6 +7,8 @@ namespace RPG::Client { class PlayGoManager; }
 #define EPLMOIMGMIH___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x155D8910)
 #define EPLMOIMGMIH___C__DISPLAYCLASS4_0__ONPLAYGOFINISH_B__0_OFFSET UNITYSDK_OFFSET(0x155D8A60)
 
+inline static constexpr unsigned int EPLMOIMGMIH___c__DisplayClass4_0_TypeDefinitionIndex = 58678;
+
 	class EPLMOIMGMIH___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

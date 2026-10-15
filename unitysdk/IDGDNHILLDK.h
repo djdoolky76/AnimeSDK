@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IDGDNHILLDK_ONEPBLBGLKO_OFFSET UNITYSDK_OFFSET(0x15ED0130)
 #define IDGDNHILLDK_PJKIPBDNHLC_OFFSET UNITYSDK_OFFSET(0x15ECFCF0)
 
+inline static constexpr unsigned int IDGDNHILLDK_TypeDefinitionIndex = 81944;
+
 	class IDGDNHILLDK : public ::System::Object
 	{
 	public:

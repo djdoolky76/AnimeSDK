@@ -13,6 +13,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SwitchStillGradeAnimTrack_TypeDefinitionIndex = 48371;
+
 	class SwitchStillGradeAnimTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:

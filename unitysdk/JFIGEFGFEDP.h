@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define JFIGEFGFEDP_GET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x1664EBC0)
 #define JFIGEFGFEDP_SET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x1664EBD0)
 
+inline static constexpr unsigned int JFIGEFGFEDP_TypeDefinitionIndex = 51966;
+
 	class JFIGEFGFEDP : public ::System::Object
 	{
 	public:

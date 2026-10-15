@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int AkiOSSettings_PlatformAdvancedSettings_Category_TypeDefinitionIndex = 44904;
+
 	enum class AkiOSSettings_PlatformAdvancedSettings_Category : ::System::Int32
 	{
 		Ambient = 0,

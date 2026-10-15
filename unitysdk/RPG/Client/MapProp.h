@@ -65,6 +65,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MapProp_TypeDefinitionIndex = 60884;
+
 	class MapProp : public ::System::Object
 	{
 	public:

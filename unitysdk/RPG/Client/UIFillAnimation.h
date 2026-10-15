@@ -17,6 +17,8 @@ namespace UnityEngine::UI { class Slider; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIFillAnimation_TypeDefinitionIndex = 69097;
+
 	class UIFillAnimation : public ::UnityEngine::MonoBehaviour
 	{
 	public:

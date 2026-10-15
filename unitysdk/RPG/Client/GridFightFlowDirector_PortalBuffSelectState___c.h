@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightFlowDirector_PortalBuffSelectState___c_TypeDefinitionIndex = 64596;
+
 	class GridFightFlowDirector_PortalBuffSelectState___c : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__GetUint64TrackedDeviceProperty_TypeDefinitionIndex = 38915;
+
 	class IVRSystem__GetUint64TrackedDeviceProperty : public ::System::MulticastDelegate
 	{
 	public:

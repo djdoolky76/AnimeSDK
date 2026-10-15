@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define IODEFIMLAJO_CTOR_OFFSET UNITYSDK_OFFSET(0x164FF040)
 #define IODEFIMLAJO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x164FF070)
 
+inline static constexpr unsigned int IODEFIMLAJO_TypeDefinitionIndex = 54900;
+
 	class IODEFIMLAJO
 	{
 	public:

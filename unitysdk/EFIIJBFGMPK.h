@@ -17,6 +17,8 @@ namespace System::IO { class BinaryWriter; }
 #define EFIIJBFGMPK_NIBCDPDJJBP_OFFSET UNITYSDK_OFFSET(0x1C462F40)
 #define EFIIJBFGMPK_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0x1C463730)
 
+inline static constexpr unsigned int EFIIJBFGMPK_TypeDefinitionIndex = 41561;
+
 	class EFIIJBFGMPK : public ::System::Object
 	{
 	public:

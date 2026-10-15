@@ -9,6 +9,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int OuterGlow_TypeDefinitionIndex = 37781;
+
 	class OuterGlow : public ::System::Object
 	{
 	public:

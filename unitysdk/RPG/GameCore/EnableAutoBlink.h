@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnableAutoBlink_TypeDefinitionIndex = 22411;
+
 	class EnableAutoBlink : public ::RPG::GameCore::TaskConfig
 	{
 	public:

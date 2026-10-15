@@ -17,6 +17,8 @@ namespace System { class String; }
 #define DFBAHCICJNE_ISTMPFILENAMEADDFILEHASH_OFFSET UNITYSDK_OFFSET(0x1C45A930)
 #define DFBAHCICJNE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C45A850)
 
+inline static constexpr unsigned int DFBAHCICJNE_TypeDefinitionIndex = 41425;
+
 	class DFBAHCICJNE : public ::System::Object
 	{
 	public:

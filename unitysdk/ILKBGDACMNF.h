@@ -33,6 +33,8 @@ namespace RPG::GameCore { class RtDefenceValueIncreasement; }
 #define ILKBGDACMNF_OCBCMOHKMKN_OFFSET UNITYSDK_OFFSET(0x164C3850)
 #define ILKBGDACMNF_ODGAOBJNAPC_OFFSET UNITYSDK_OFFSET(0x164C2930)
 
+inline static constexpr unsigned int ILKBGDACMNF_TypeDefinitionIndex = 54293;
+
 	class ILKBGDACMNF : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

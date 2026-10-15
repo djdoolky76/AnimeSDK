@@ -13,6 +13,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int NPCRideTrack_TypeDefinitionIndex = 48205;
+
 	class NPCRideTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:

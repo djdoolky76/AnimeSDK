@@ -13,6 +13,8 @@ namespace RPG::GameCore { class NpcEntityInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CreateNPCV2_TypeDefinitionIndex = 21945;
+
 	class CreateNPCV2 : public ::RPG::GameCore::TaskConfig
 	{
 	public:

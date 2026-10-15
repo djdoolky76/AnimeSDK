@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoWolfBroBulletPoint_TypeDefinitionIndex = 68720;
+
 	class MonoWolfBroBulletPoint : public ::UnityEngine::MonoBehaviour
 	{
 	public:

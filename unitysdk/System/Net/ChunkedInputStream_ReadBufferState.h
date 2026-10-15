@@ -7,6 +7,8 @@ namespace System::Net { class HttpStreamAsyncResult; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int ChunkedInputStream_ReadBufferState_TypeDefinitionIndex = 2826;
+
 	class ChunkedInputStream_ReadBufferState : public ::System::Object
 	{
 	public:

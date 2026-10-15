@@ -18,6 +18,8 @@ namespace RPG::Client::PixAir { class PixAirEquipItemChangeInfo; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirEquipItemChangeInfo_TypeDefinitionIndex = 79273;
+
 	class PixAirEquipItemChangeInfo : public ::System::Object
 	{
 	public:

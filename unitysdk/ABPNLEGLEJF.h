@@ -31,6 +31,8 @@ namespace System { class String; }
 #define ABPNLEGLEJF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDD4D40)
 #define ABPNLEGLEJF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDD4DA0)
 
+inline static constexpr unsigned int ABPNLEGLEJF_TypeDefinitionIndex = 32498;
+
 	class ABPNLEGLEJF : public ::System::Object
 	{
 	public:

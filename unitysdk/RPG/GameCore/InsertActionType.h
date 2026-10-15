@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InsertActionType_TypeDefinitionIndex = 18218;
+
 	enum class InsertActionType : ::System::Int32
 	{
 		Normal = 0,

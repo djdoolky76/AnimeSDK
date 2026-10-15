@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitEnterBattleTransitionFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitEnterBattleTransitionFinish_TypeDefinitionIndex = 23318;
+
 	class WaitEnterBattleTransitionFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int OverseaAccountListConfirm___c_TypeDefinitionIndex = 9304;
+
 	class OverseaAccountListConfirm___c : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace ZXing::QrCode::Internal { class ErrorCorrectionLevel; }
 
 namespace ZXing::QrCode::Internal
 {
+	inline static constexpr unsigned int ErrorCorrectionLevel_TypeDefinitionIndex = 7027;
+
 	class ErrorCorrectionLevel : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define MGIJBEAPGFA_CTOR_OFFSET UNITYSDK_OFFSET(0xB920920)
 
+inline static constexpr unsigned int MGIJBEAPGFA_TypeDefinitionIndex = 69621;
+
 	class MGIJBEAPGFA : public ::System::Object
 	{
 	public:

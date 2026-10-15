@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ExecuteInEditMode_TypeDefinitionIndex = 4307;
+
 	class ExecuteInEditMode : public ::System::Attribute
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client { class GridFightRole; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEquipChangeEvent_TypeDefinitionIndex = 64918;
+
 	class GridFightEquipChangeEvent : public ::System::Object
 	{
 	public:

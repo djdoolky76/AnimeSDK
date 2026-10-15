@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BPLNKHGAILK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E04CFE0)
 #define BPLNKHGAILK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E04D040)
 
+inline static constexpr unsigned int BPLNKHGAILK_TypeDefinitionIndex = 32832;
+
 	class BPLNKHGAILK : public ::System::Object
 	{
 	public:

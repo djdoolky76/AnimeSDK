@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SetStageItemStateEventClip_TypeDefinitionIndex = 48407;
+
 	class SetStageItemStateEventClip : public ::RPGTools::Timeline::CustomEventClip
 	{
 	public:

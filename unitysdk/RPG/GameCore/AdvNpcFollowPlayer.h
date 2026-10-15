@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvNpcFollowPlayer_TypeDefinitionIndex = 19987;
+
 	class AdvNpcFollowPlayer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace System::Collections::Concurrent
 {
+	inline static constexpr unsigned int ConcurrentDictionary_2_TypeDefinitionIndex = 1514;
+
 	template <typename T1, typename T2>
 	class ConcurrentDictionary_2 : public ::System::Object
 	{

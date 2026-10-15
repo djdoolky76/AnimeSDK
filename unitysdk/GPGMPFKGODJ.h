@@ -15,6 +15,8 @@ namespace System { class Nullable; }
 #define GPGMPFKGODJ_NGGNCBDMMLJ_OFFSET UNITYSDK_OFFSET(0x15B59260)
 #define GPGMPFKGODJ_OPINPJAKEEJ_OFFSET UNITYSDK_OFFSET(0x15B591A0)
 
+inline static constexpr unsigned int GPGMPFKGODJ_TypeDefinitionIndex = 56043;
+
 	class GPGMPFKGODJ : public ::System::Object
 	{
 	public:

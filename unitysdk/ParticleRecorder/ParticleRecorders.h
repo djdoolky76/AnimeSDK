@@ -7,6 +7,8 @@
 
 namespace ParticleRecorder
 {
+	inline static constexpr unsigned int ParticleRecorders_TypeDefinitionIndex = 37488;
+
 	class ParticleRecorders : public ::System::Object
 	{
 	public:

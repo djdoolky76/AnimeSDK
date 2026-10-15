@@ -31,6 +31,8 @@ namespace System { class String; }
 #define BDKIMOIFPIL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E919690)
 #define BDKIMOIFPIL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9196F0)
 
+inline static constexpr unsigned int BDKIMOIFPIL_TypeDefinitionIndex = 29992;
+
 	class BDKIMOIFPIL : public ::System::Object
 	{
 	public:

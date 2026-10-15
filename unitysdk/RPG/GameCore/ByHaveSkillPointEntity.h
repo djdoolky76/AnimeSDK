@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByHaveSkillPointEntity_TypeDefinitionIndex = 22423;
+
 	class ByHaveSkillPointEntity : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

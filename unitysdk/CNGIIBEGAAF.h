@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CNGIIBEGAAF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DCB32C0)
 #define CNGIIBEGAAF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DCB2BE0)
 
+inline static constexpr unsigned int CNGIIBEGAAF_TypeDefinitionIndex = 10878;
+
 	class CNGIIBEGAAF : public ::System::Object
 	{
 	public:

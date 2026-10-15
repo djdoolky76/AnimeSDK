@@ -7,6 +7,8 @@
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int ParkourSkillConfig_Fireworks_TypeDefinitionIndex = 74128;
+
 	class ParkourSkillConfig_Fireworks : public ::RPG::Client::ParkourGame::ParkourSkillConfig
 	{
 	public:

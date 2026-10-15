@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournKeywordUnderlineParam_TypeDefinitionIndex = 67875;
+
 	class RogueTournKeywordUnderlineParam : public ::System::Object
 	{
 	public:

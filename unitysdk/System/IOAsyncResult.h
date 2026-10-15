@@ -19,6 +19,8 @@ namespace System::Threading { class WaitHandle; }
 
 namespace System
 {
+	inline static constexpr unsigned int IOAsyncResult_TypeDefinitionIndex = 2488;
+
 	class IOAsyncResult : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CameraBattleTransitionBeHitConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CameraBattleTransitionBeHitConfig_TypeDefinitionIndex = 20426;
+
 	class CameraBattleTransitionBeHitConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

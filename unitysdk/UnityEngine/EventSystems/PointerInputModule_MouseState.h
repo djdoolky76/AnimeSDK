@@ -16,6 +16,8 @@ namespace UnityEngine::EventSystems { class PointerInputModule_ButtonState; }
 
 namespace UnityEngine::EventSystems
 {
+	inline static constexpr unsigned int PointerInputModule_MouseState_TypeDefinitionIndex = 6942;
+
 	class PointerInputModule_MouseState : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LFHJPBCAKCM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB66DD20)
 #define LFHJPBCAKCM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB66DD60)
 
+inline static constexpr unsigned int LFHJPBCAKCM_TypeDefinitionIndex = 53820;
+
 	class LFHJPBCAKCM
 	{
 	public:

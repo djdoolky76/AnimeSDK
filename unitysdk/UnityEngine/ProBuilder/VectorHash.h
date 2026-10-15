@@ -12,6 +12,8 @@
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int VectorHash_TypeDefinitionIndex = 44449;
+
 	class VectorHash : public ::System::Object
 	{
 	public:

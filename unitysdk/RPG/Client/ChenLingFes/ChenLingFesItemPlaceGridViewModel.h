@@ -7,6 +7,8 @@
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesItemPlaceGridViewModel_TypeDefinitionIndex = 81394;
+
 	class ChenLingFesItemPlaceGridViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

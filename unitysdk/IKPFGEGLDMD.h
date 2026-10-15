@@ -10,6 +10,8 @@
 #define IKPFGEGLDMD_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1649F940)
 #define IKPFGEGLDMD_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x1649F950)
 
+inline static constexpr unsigned int IKPFGEGLDMD_TypeDefinitionIndex = 56132;
+
 	class IKPFGEGLDMD : public ::DBGDNLLDPFI
 	{
 	public:

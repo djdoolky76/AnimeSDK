@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::TextCore
 {
+	inline static constexpr unsigned int GlyphRect_TypeDefinitionIndex = 5839;
+
 	struct alignas(4) GlyphRect
 	{
 		::System::Int32 m_X; // 0x10

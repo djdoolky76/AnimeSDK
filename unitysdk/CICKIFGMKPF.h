@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CICKIFGMKPF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0CEB70)
 #define CICKIFGMKPF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0CEBD0)
 
+inline static constexpr unsigned int CICKIFGMKPF_TypeDefinitionIndex = 32976;
+
 	class CICKIFGMKPF : public ::System::Object
 	{
 	public:

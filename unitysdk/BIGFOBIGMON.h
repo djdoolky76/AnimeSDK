@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BIGFOBIGMON_CTOR_OFFSET UNITYSDK_OFFSET(0xB4A7FC0)
 #define BIGFOBIGMON_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB4A7FF0)
 
+inline static constexpr unsigned int BIGFOBIGMON_TypeDefinitionIndex = 54893;
+
 	class BIGFOBIGMON
 	{
 	public:

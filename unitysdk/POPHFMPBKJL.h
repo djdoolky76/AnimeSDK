@@ -7,6 +7,8 @@ namespace RPG::GameCore { class FloatCurve; }
 
 #define POPHFMPBKJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7F7B10)
 
+inline static constexpr unsigned int POPHFMPBKJL_TypeDefinitionIndex = 36832;
+
 	class POPHFMPBKJL : public ::System::Object
 	{
 	public:

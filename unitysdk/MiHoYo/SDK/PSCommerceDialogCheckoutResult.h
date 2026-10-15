@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PSCommerceDialogCheckoutResult_TypeDefinitionIndex = 8112;
+
 	enum class PSCommerceDialogCheckoutResult : ::System::Int32
 	{
 		ErrorOccured = -1,

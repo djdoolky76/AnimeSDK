@@ -4,6 +4,8 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int PhantomPlayerFrameData_1_TypeDefinitionIndex = 43587;
+
 	template <typename T>
 	class PhantomPlayerFrameData_1 : public ::System::Object
 	{

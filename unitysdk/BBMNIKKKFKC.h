@@ -5,6 +5,8 @@
 #define BBMNIKKKFKC_CTOR_OFFSET UNITYSDK_OFFSET(0x15E93790)
 #define BBMNIKKKFKC_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x15E937A0)
 
+inline static constexpr unsigned int BBMNIKKKFKC_TypeDefinitionIndex = 67043;
+
 	class BBMNIKKKFKC : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ class LBJLBMOOJGM;
 #define DNKDEAPFJFE_CTOR_OFFSET UNITYSDK_OFFSET(0x11FD38C0)
 #define DNKDEAPFJFE_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0x11FD2A00)
 
+inline static constexpr unsigned int DNKDEAPFJFE_TypeDefinitionIndex = 63859;
+
 	class DNKDEAPFJFE : public ::System::Object
 	{
 	public:

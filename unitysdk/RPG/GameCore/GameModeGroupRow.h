@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GameModeGroupRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameModeGroupRow_TypeDefinitionIndex = 12886;
+
 	class GameModeGroupRow : public ::System::Object
 	{
 	public:

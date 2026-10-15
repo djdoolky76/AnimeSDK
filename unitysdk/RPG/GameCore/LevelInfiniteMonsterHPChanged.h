@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelInfiniteMonsterHPChanged_TypeDefinitionIndex = 56735;
+
 	class LevelInfiniteMonsterHPChanged : public ::System::Object
 	{
 	public:

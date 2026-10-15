@@ -7,6 +7,8 @@ class HAGAFPDHLCK_Section;
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int BGCurvePCG_ExtrusionMesh_GeometrySetting_TypeDefinitionIndex = 52024;
+
 	struct alignas(8) BGCurvePCG_ExtrusionMesh_GeometrySetting
 	{
 		::UnityEngine::Vector2 Range; // 0x10

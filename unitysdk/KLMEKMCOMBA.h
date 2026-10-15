@@ -28,6 +28,8 @@ namespace System { class String; }
 #define KLMEKMCOMBA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8911B0)
 #define KLMEKMCOMBA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E891210)
 
+inline static constexpr unsigned int KLMEKMCOMBA_TypeDefinitionIndex = 32090;
+
 	class KLMEKMCOMBA : public ::System::Object
 	{
 	public:

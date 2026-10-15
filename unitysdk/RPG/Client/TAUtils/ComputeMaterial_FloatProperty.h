@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client::TAUtils
 {
+	inline static constexpr unsigned int ComputeMaterial_FloatProperty_TypeDefinitionIndex = 73611;
+
 	class ComputeMaterial_FloatProperty : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ class FDPALAEIHPB;
 
 #define BNLHMBDFJAF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BD6A0)
 
+inline static constexpr unsigned int BNLHMBDFJAF_TypeDefinitionIndex = 42879;
+
 	class BNLHMBDFJAF : public ::DJJKNHPLHDI
 	{
 	public:

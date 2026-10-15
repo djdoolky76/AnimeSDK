@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrackNpcAlertValueConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrackNpcAlertConfig_TypeDefinitionIndex = 22180;
+
 	class TrackNpcAlertConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtInsertSkill_TypeDefinitionIndex = 24218;
+
 	class RtInsertSkill : public ::RPG::GameCore::TaskConfig
 	{
 	public:

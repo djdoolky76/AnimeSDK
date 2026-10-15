@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GFAMMPEELKD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E460020)
 #define GFAMMPEELKD___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E460030)
 
+inline static constexpr unsigned int GFAMMPEELKD___c_TypeDefinitionIndex = 33769;
+
 	class GFAMMPEELKD___c : public ::System::Object
 	{
 	public:

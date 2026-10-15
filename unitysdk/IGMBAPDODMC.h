@@ -16,6 +16,8 @@ namespace RPG::Client::LittleGame::CakeRace { class CakeRaceCatMonoView; }
 #define IGMBAPDODMC_KDAIMCILPAM_OFFSET UNITYSDK_OFFSET(0x16410DB0)
 #define IGMBAPDODMC_OLLKIHLLNOO_OFFSET UNITYSDK_OFFSET(0x16410A80)
 
+inline static constexpr unsigned int IGMBAPDODMC_TypeDefinitionIndex = 78082;
+
 	class IGMBAPDODMC : public ::HBBCDNAHNMH
 	{
 	public:

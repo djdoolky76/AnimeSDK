@@ -59,6 +59,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JLCFMIPMHJO_PHFAGOBBFGC_OFFSET UNITYSDK_OFFSET(0xB237630)
 #define JLCFMIPMHJO_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB236370)
 
+inline static constexpr unsigned int JLCFMIPMHJO_TypeDefinitionIndex = 76817;
+
 	class JLCFMIPMHJO : public ::System::Object
 	{
 	public:

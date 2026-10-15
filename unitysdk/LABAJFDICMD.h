@@ -31,6 +31,8 @@ namespace System { class String; }
 #define LABAJFDICMD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8C60B0)
 #define LABAJFDICMD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8C6110)
 
+inline static constexpr unsigned int LABAJFDICMD_TypeDefinitionIndex = 31656;
+
 	class LABAJFDICMD : public ::System::Object
 	{
 	public:

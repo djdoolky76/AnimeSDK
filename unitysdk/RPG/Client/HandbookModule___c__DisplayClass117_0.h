@@ -11,6 +11,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HandbookModule___c__DisplayClass117_0_TypeDefinitionIndex = 65633;
+
 	class HandbookModule___c__DisplayClass117_0 : public ::System::Object
 	{
 	public:

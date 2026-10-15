@@ -73,6 +73,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HPONPMMKCNF_SET_LASTCARDPACKID_OFFSET UNITYSDK_OFFSET(0x15DD5C20)
 #define HPONPMMKCNF_SET_NEXTCARDPACKID_OFFSET UNITYSDK_OFFSET(0x15DD5C00)
 
+inline static constexpr unsigned int HPONPMMKCNF_TypeDefinitionIndex = 68073;
+
 	class HPONPMMKCNF : public ::System::Object
 	{
 	public:

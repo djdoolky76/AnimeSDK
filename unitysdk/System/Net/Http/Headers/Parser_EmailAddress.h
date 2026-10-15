@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int Parser_EmailAddress_TypeDefinitionIndex = 3812;
+
 	class Parser_EmailAddress : public ::System::Object
 	{
 	public:

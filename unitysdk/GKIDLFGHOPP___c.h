@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GKIDLFGHOPP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4B6CC0)
 #define GKIDLFGHOPP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E4B6CD0)
 
+inline static constexpr unsigned int GKIDLFGHOPP___c_TypeDefinitionIndex = 26290;
+
 	class GKIDLFGHOPP___c : public ::System::Object
 	{
 	public:

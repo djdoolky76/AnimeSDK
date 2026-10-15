@@ -20,6 +20,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AudioListener_TypeDefinitionIndex = 5148;
+
 	class AudioListener : public ::UnityEngine::AudioBehaviour
 	{
 	public:

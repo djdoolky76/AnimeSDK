@@ -27,6 +27,8 @@ namespace System { class String; }
 #define MBJCCOCANEJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9E5A80)
 #define MBJCCOCANEJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9E5AE0)
 
+inline static constexpr unsigned int MBJCCOCANEJ_TypeDefinitionIndex = 27361;
+
 	class MBJCCOCANEJ : public ::System::Object
 	{
 	public:

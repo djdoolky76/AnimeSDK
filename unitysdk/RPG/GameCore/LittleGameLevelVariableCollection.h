@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameLevelVariableCollection; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameLevelVariableCollection_TypeDefinitionIndex = 18904;
+
 	class LittleGameLevelVariableCollection : public ::RPG::GameCore::JsonConfig
 	{
 	public:

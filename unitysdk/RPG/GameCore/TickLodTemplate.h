@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TickLodTemplate; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TickLodTemplate_TypeDefinitionIndex = 19217;
+
 	class TickLodTemplate : public ::RPG::GameCore::LodTemplate
 	{
 	public:

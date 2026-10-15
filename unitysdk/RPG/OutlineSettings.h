@@ -9,6 +9,8 @@ namespace UnityEngine { class Shader; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int OutlineSettings_TypeDefinitionIndex = 51720;
+
 	class OutlineSettings : public ::System::Object
 	{
 	public:

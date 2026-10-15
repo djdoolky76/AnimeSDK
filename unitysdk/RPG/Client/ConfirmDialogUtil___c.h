@@ -21,6 +21,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ConfirmDialogUtil___c_TypeDefinitionIndex = 72716;
+
 	class ConfirmDialogUtil___c : public ::System::Object
 	{
 	public:

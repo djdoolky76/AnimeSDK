@@ -7,6 +7,8 @@ class JCLBAEHIBLA;
 #define KPKEHPDAEGL_CTOR_OFFSET UNITYSDK_OFFSET(0xB5C15F0)
 #define KPKEHPDAEGL_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB5C1600)
 
+inline static constexpr unsigned int KPKEHPDAEGL_TypeDefinitionIndex = 60342;
+
 	class KPKEHPDAEGL : public ::EFNJLACKEDH
 	{
 	public:

@@ -74,6 +74,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineVirtualCameraBase_TypeDefinitionIndex = 39834;
+
 	class CinemachineVirtualCameraBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

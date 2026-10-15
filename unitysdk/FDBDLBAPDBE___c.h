@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FDBDLBAPDBE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E351710)
 #define FDBDLBAPDBE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E351720)
 
+inline static constexpr unsigned int FDBDLBAPDBE___c_TypeDefinitionIndex = 33233;
+
 	class FDBDLBAPDBE___c : public ::System::Object
 	{
 	public:

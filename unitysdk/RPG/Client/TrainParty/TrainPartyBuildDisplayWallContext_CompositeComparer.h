@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class IComparer_1
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_CompositeComparer_TypeDefinitionIndex = 74290;
+
 	class TrainPartyBuildDisplayWallContext_CompositeComparer : public ::System::Object
 	{
 	public:

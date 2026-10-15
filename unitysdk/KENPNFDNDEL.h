@@ -6,6 +6,8 @@ class EOABGMGNKGA;
 #define KENPNFDNDEL_CTOR_OFFSET UNITYSDK_OFFSET(0xB37FEE0)
 #define KENPNFDNDEL_KEOKEELBKHI_OFFSET UNITYSDK_OFFSET(0xB37FEF0)
 
+inline static constexpr unsigned int KENPNFDNDEL_TypeDefinitionIndex = 59267;
+
 	class KENPNFDNDEL : public ::System::Object
 	{
 	public:

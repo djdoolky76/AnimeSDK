@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int XLuaExtensionMethodRegistrationAttribute_TypeDefinitionIndex = 50284;
+
 	class XLuaExtensionMethodRegistrationAttribute : public ::System::Attribute
 	{
 	public:

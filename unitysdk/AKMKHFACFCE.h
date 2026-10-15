@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 #define AKMKHFACFCE_LOHIFEMCGMP_OFFSET UNITYSDK_OFFSET(0x12CD89C0)
 #define AKMKHFACFCE_MHFNJCLKNMG_OFFSET UNITYSDK_OFFSET(0x12CD87C0)
 
+inline static constexpr unsigned int AKMKHFACFCE_TypeDefinitionIndex = 69320;
+
 	class AKMKHFACFCE : public ::ICOHAPENNHF
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System::IO { class MemoryStream; }
 #define GIECAJFKIBJ_PONHHIHOCHH_OFFSET UNITYSDK_OFFSET(0x1C4796A0)
 #define GIECAJFKIBJ_SET_OFFSET_OFFSET UNITYSDK_OFFSET(0x1C479580)
 
+inline static constexpr unsigned int GIECAJFKIBJ_TypeDefinitionIndex = 41550;
+
 	class GIECAJFKIBJ : public ::System::Object
 	{
 	public:

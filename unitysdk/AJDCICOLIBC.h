@@ -30,6 +30,8 @@ namespace System { class String; }
 #define AJDCICOLIBC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3BEED0)
 #define AJDCICOLIBC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3BEF30)
 
+inline static constexpr unsigned int AJDCICOLIBC_TypeDefinitionIndex = 30602;
+
 	class AJDCICOLIBC : public ::System::Object
 	{
 	public:

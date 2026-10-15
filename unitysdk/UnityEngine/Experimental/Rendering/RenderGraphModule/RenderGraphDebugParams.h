@@ -20,6 +20,8 @@
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
+	inline static constexpr unsigned int RenderGraphDebugParams_TypeDefinitionIndex = 35449;
+
 	class RenderGraphDebugParams : public ::System::Object
 	{
 	public:

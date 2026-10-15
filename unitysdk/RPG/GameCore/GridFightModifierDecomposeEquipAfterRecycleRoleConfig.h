@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierDecomposeEquipAfterRecycleRoleC
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierDecomposeEquipAfterRecycleRoleConfig_TypeDefinitionIndex = 19425;
+
 	class GridFightModifierDecomposeEquipAfterRecycleRoleConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

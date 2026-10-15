@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ClockParkGameStateEnum_TypeDefinitionIndex = 61499;
+
 	enum class ClockParkGameStateEnum : ::System::Int32
 	{
 		None = 0,

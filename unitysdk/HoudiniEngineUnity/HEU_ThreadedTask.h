@@ -31,6 +31,8 @@ namespace System::Threading { class Thread; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_ThreadedTask_TypeDefinitionIndex = 40612;
+
 	class HEU_ThreadedTask : public ::System::Object
 	{
 	public:

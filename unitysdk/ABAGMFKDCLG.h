@@ -22,6 +22,8 @@ namespace System { class Object; }
 #define ABAGMFKDCLG_MMKMOEIDFGG_OFFSET UNITYSDK_OFFSET(0x3C361C0)
 #define ABAGMFKDCLG_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1CC9BA10)
 
+inline static constexpr unsigned int ABAGMFKDCLG_TypeDefinitionIndex = 10708;
+
 	struct alignas(8) ABAGMFKDCLG
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

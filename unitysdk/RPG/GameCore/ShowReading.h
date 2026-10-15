@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ShowReading; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowReading_TypeDefinitionIndex = 20891;
+
 	class ShowReading : public ::RPG::GameCore::TaskConfig
 	{
 	public:

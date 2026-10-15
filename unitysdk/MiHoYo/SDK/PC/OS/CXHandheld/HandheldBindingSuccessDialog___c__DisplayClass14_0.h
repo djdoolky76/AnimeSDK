@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int HandheldBindingSuccessDialog___c__DisplayClass14_0_TypeDefinitionIndex = 8806;
+
 	class HandheldBindingSuccessDialog___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:

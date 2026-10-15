@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MHCOBFJNNJB.h"
 
+inline static constexpr unsigned int GFFNGOOMMKL_BIPCMCCNNFG_TypeDefinitionIndex = 76592;
+
 	struct alignas(4) GFFNGOOMMKL_BIPCMCCNNFG
 	{
 		::System::UInt32 MLDLOJJBIJD; // 0x10

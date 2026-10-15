@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DevTalkInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DevPlayPerformanceE_TypeDefinitionIndex = 21135;
+
 	class DevPlayPerformanceE : public ::RPG::GameCore::TaskConfig
 	{
 	public:

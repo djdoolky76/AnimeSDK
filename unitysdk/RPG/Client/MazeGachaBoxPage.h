@@ -29,6 +29,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MazeGachaBoxPage_TypeDefinitionIndex = 72920;
+
 	class MazeGachaBoxPage : public ::UnityEngine::MonoBehaviour
 	{
 	public:

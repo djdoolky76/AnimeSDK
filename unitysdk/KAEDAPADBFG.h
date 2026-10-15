@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KAEDAPADBFG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB2D42C0)
 #define KAEDAPADBFG_TICK_OFFSET UNITYSDK_OFFSET(0xB2D4310)
 
+inline static constexpr unsigned int KAEDAPADBFG_TypeDefinitionIndex = 58509;
+
 	class KAEDAPADBFG : public ::GELIALJDFBL
 	{
 	public:

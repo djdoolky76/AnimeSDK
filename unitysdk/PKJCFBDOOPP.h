@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define PKJCFBDOOPP_CTOR_OFFSET UNITYSDK_OFFSET(0xC2C16E0)
 
+inline static constexpr unsigned int PKJCFBDOOPP_TypeDefinitionIndex = 52064;
+
 	class PKJCFBDOOPP : public ::System::Attribute
 	{
 	public:

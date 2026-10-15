@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CaptureSetupCb_TypeDefinitionIndex = 37609;
+
 	class CaptureSetupCb : public ::System::MulticastDelegate
 	{
 	public:

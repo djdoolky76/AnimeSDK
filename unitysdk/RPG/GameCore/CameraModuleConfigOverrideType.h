@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CameraModuleConfigOverrideType_TypeDefinitionIndex = 24607;
+
 	enum class CameraModuleConfigOverrideType : ::System::Int32
 	{
 		BattleTransitionModuleConfig = 0,

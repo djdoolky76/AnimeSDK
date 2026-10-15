@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Editor::EnvironmentSystemV2Editor
 {
+	inline static constexpr unsigned int EnvEditorCategorySubVersion_TypeDefinitionIndex = 52072;
+
 	class EnvEditorCategorySubVersion : public ::System::Object
 	{
 	public:

@@ -44,6 +44,8 @@ namespace System { class String; }
 #define EAFMJGEGIDG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2276C0)
 #define EAFMJGEGIDG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E227720)
 
+inline static constexpr unsigned int EAFMJGEGIDG_TypeDefinitionIndex = 28889;
+
 	class EAFMJGEGIDG : public ::System::Object
 	{
 	public:

@@ -101,6 +101,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIAdventureMinimap_TypeDefinitionIndex = 69059;
+
 	class UIAdventureMinimap : public ::UnityEngine::MonoBehaviour
 	{
 	public:

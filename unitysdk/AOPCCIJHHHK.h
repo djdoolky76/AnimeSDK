@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AOPCCIJHHHK_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C8A6D60)
 #define AOPCCIJHHHK_RECALCULATE_OFFSET UNITYSDK_OFFSET(0x1C8A7960)
 
+inline static constexpr unsigned int AOPCCIJHHHK_TypeDefinitionIndex = 43667;
+
 	class AOPCCIJHHHK : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AssemNPCRandomCombinationCollection_TypeDefinitionIndex = 60008;
+
 	class AssemNPCRandomCombinationCollection : public ::UnityEngine::ScriptableObject
 	{
 	public:

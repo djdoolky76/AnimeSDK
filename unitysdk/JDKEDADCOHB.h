@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JDKEDADCOHB_CTOR_OFFSET UNITYSDK_OFFSET(0x165D39B0)
 #define JDKEDADCOHB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x165D39E0)
 
+inline static constexpr unsigned int JDKEDADCOHB_TypeDefinitionIndex = 54488;
+
 	class JDKEDADCOHB
 	{
 	public:

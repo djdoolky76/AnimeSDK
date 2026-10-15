@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RestaurantFacilityUpRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RestaurantFacilityUpRow_TypeDefinitionIndex = 11339;
+
 	class RestaurantFacilityUpRow : public ::System::Object
 	{
 	public:

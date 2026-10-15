@@ -30,6 +30,8 @@ namespace System { class String; }
 #define DBDOIJGPJJG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E157DD0)
 #define DBDOIJGPJJG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E157E30)
 
+inline static constexpr unsigned int DBDOIJGPJJG_TypeDefinitionIndex = 27972;
+
 	class DBDOIJGPJJG : public ::System::Object
 	{
 	public:

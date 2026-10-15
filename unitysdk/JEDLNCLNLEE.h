@@ -28,6 +28,8 @@ namespace System { class Object; }
 #define JEDLNCLNLEE_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1D01B800)
 #define JEDLNCLNLEE_PJPFCEMEGBP_OFFSET UNITYSDK_OFFSET(0x3C3ADA0)
 
+inline static constexpr unsigned int JEDLNCLNLEE_TypeDefinitionIndex = 10655;
+
 	struct alignas(8) JEDLNCLNLEE
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

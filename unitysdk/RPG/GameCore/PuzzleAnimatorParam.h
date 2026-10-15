@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PuzzleAnimatorParam_TypeDefinitionIndex = 22226;
+
 	class PuzzleAnimatorParam : public ::RPG::GameCore::JsonConfig
 	{
 	public:

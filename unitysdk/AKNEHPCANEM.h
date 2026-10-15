@@ -16,6 +16,8 @@ namespace System::Text { class StringBuilder; }
 #define AKNEHPCANEM_SET_ID_OFFSET UNITYSDK_OFFSET(0xAF40)
 #define AKNEHPCANEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2306040)
 
+inline static constexpr unsigned int AKNEHPCANEM_TypeDefinitionIndex = 51982;
+
 	struct alignas(4) AKNEHPCANEM
 	{
 		::System::UInt32 _ID_k__BackingField; // 0x10

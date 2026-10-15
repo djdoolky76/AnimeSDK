@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetTimeRewindAttachPointVisible_TypeDefinitionIndex = 20675;
+
 	class SetTimeRewindAttachPointVisible : public ::RPG::GameCore::TaskConfig
 	{
 	public:

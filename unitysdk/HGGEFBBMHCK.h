@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define HGGEFBBMHCK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x15C99530)
 #define HGGEFBBMHCK_INVOKE_OFFSET UNITYSDK_OFFSET(0x15C994F0)
 
+inline static constexpr unsigned int HGGEFBBMHCK_TypeDefinitionIndex = 57111;
+
 	class HGGEFBBMHCK : public ::System::MulticastDelegate
 	{
 	public:

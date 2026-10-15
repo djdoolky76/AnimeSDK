@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::ElfRestaurant
 {
+	inline static constexpr unsigned int ElfRestaurantView_TypeDefinitionIndex = 77283;
+
 	class ElfRestaurantView : public ::RPG::Client::LittleGame::BaseMonoGenericView
 	{
 	public:

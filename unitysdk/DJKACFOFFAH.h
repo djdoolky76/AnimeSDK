@@ -35,6 +35,8 @@ namespace System { class String; }
 #define DJKACFOFFAH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1CD090)
 #define DJKACFOFFAH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1CD0F0)
 
+inline static constexpr unsigned int DJKACFOFFAH_TypeDefinitionIndex = 34822;
+
 	class DJKACFOFFAH : public ::System::Object
 	{
 	public:

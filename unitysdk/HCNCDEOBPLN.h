@@ -68,6 +68,8 @@ namespace System::IO { class Stream; }
 #define HCNCDEOBPLN_OKNOOFMMEHB_OFFSET UNITYSDK_OFFSET(0x1CC8C590)
 #define HCNCDEOBPLN_PNLMANBEMLK_OFFSET UNITYSDK_OFFSET(0x1CC8B630)
 
+inline static constexpr unsigned int HCNCDEOBPLN_TypeDefinitionIndex = 43855;
+
 	class HCNCDEOBPLN : public ::System::Object
 	{
 	public:

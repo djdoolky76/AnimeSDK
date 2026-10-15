@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int KibanaReportSender_TypeDefinitionIndex = 46568;
+
 	class KibanaReportSender : public ::System::Object
 	{
 	public:

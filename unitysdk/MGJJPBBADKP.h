@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleByHadKillThisAction; }
 #define MGJJPBBADKP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92A9D0)
 #define MGJJPBBADKP_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1C92A9E0)
 
+inline static constexpr unsigned int MGJJPBBADKP_TypeDefinitionIndex = 43144;
+
 	class MGJJPBBADKP : public ::LHJPMDPJPEC
 	{
 	public:

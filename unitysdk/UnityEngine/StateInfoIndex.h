@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int StateInfoIndex_TypeDefinitionIndex = 5697;
+
 	enum class StateInfoIndex : ::System::Int32
 	{
 		CurrentState = 0,

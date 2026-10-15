@@ -11,6 +11,8 @@ namespace System { class String; }
 #define OEKNPAHILEB_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xBE31890)
 #define OEKNPAHILEB_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xBE318A0)
 
+inline static constexpr unsigned int OEKNPAHILEB_TypeDefinitionIndex = 56139;
+
 	class OEKNPAHILEB : public ::DBGDNLLDPFI
 	{
 	public:

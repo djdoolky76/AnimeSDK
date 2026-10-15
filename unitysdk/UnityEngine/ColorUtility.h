@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ColorUtility_TypeDefinitionIndex = 4220;
+
 	class ColorUtility : public ::System::Object
 	{
 	public:

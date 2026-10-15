@@ -10,6 +10,8 @@ namespace RPGTools::Timeline::BattlePerform { class BPCharacterMoveData; }
 
 namespace RPGTools::Timeline::BattlePerform
 {
+	inline static constexpr unsigned int BPCharacterMoveBehaviour_TypeDefinitionIndex = 48817;
+
 	class BPCharacterMoveBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

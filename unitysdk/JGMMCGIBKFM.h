@@ -23,6 +23,8 @@ namespace UnityEngine { class RectTransform; }
 #define JGMMCGIBKFM_ODGLEFLLDPI_OFFSET UNITYSDK_OFFSET(0xB19EB00)
 #define JGMMCGIBKFM__ONBIND_OFFSET UNITYSDK_OFFSET(0xB19EA50)
 
+inline static constexpr unsigned int JGMMCGIBKFM_TypeDefinitionIndex = 71978;
+
 	class JGMMCGIBKFM : public ::FMPCODLIOLG
 	{
 	public:

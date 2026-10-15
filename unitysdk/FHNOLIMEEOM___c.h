@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FHNOLIMEEOM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E393820)
 #define FHNOLIMEEOM___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E393830)
 
+inline static constexpr unsigned int FHNOLIMEEOM___c_TypeDefinitionIndex = 26724;
+
 	class FHNOLIMEEOM___c : public ::System::Object
 	{
 	public:

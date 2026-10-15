@@ -5,6 +5,8 @@ class MDOLOOKKHJM;
 
 #define FLAINONONFA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C623110)
 
+inline static constexpr unsigned int FLAINONONFA_TypeDefinitionIndex = 37193;
+
 	class FLAINONONFA : public ::Entitas::Systems
 	{
 	public:

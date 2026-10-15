@@ -29,6 +29,8 @@ namespace System { class String; }
 #define KJDLIPEIAAK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E869440)
 #define KJDLIPEIAAK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8694A0)
 
+inline static constexpr unsigned int KJDLIPEIAAK_TypeDefinitionIndex = 30200;
+
 	class KJDLIPEIAAK : public ::System::Object
 	{
 	public:

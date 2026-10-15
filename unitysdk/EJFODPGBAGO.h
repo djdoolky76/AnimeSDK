@@ -11,6 +11,8 @@ namespace System { class String; }
 
 #define EJFODPGBAGO_HGOCMAKIHBC_OFFSET UNITYSDK_OFFSET(0x154D90A0)
 
+inline static constexpr unsigned int EJFODPGBAGO_TypeDefinitionIndex = 77350;
+
 	class EJFODPGBAGO : public ::System::Object
 	{
 	public:

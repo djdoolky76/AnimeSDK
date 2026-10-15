@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamRoundCntUntilChapterEndConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamRoundCntUntilChapterEndConfig_TypeDefinitionIndex = 19513;
+
 	class GridFightParamRoundCntUntilChapterEndConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

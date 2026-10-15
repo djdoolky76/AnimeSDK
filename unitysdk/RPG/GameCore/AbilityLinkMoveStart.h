@@ -10,6 +10,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityLinkMoveStart_TypeDefinitionIndex = 56585;
+
 	class AbilityLinkMoveStart : public ::System::Object
 	{
 	public:

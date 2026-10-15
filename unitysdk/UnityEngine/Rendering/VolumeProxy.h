@@ -39,6 +39,8 @@ namespace UnityEngine::Rendering { class VolumeStack; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int VolumeProxy_TypeDefinitionIndex = 35662;
+
 	class VolumeProxy : public ::System::Object
 	{
 	public:

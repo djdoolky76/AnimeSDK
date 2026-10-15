@@ -8,6 +8,8 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld { class LoginManagerCXHandheld; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int LoginManagerCXHandheld___c__DisplayClass5_0_TypeDefinitionIndex = 8760;
+
 	class LoginManagerCXHandheld___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

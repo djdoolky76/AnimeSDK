@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BPAICANEHBO_CONVERT_OFFSET UNITYSDK_OFFSET(0x1CC8F300)
 #define BPAICANEHBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC8F450)
 
+inline static constexpr unsigned int BPAICANEHBO_TypeDefinitionIndex = 43911;
+
 	class BPAICANEHBO : public ::System::Object
 	{
 	public:

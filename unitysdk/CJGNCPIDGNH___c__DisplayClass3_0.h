@@ -11,6 +11,8 @@ namespace System { class Exception; }
 #define CJGNCPIDGNH___C__DISPLAYCLASS3_0___DOCREATELOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xD2115A0)
 #define CJGNCPIDGNH___C__DISPLAYCLASS3_0___DOCREATELOBBY_B__1_OFFSET UNITYSDK_OFFSET(0xD211740)
 
+inline static constexpr unsigned int CJGNCPIDGNH___c__DisplayClass3_0_TypeDefinitionIndex = 80272;
+
 	class CJGNCPIDGNH___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

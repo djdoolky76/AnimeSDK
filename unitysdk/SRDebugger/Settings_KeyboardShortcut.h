@@ -8,6 +8,8 @@
 
 namespace SRDebugger
 {
+	inline static constexpr unsigned int Settings_KeyboardShortcut_TypeDefinitionIndex = 37978;
+
 	class Settings_KeyboardShortcut : public ::System::Object
 	{
 	public:

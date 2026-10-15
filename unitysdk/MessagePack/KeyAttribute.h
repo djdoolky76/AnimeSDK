@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int KeyAttribute_TypeDefinitionIndex = 6167;
+
 	class KeyAttribute : public ::System::Attribute
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int IHFGILEEIGA_ThreadState_TypeDefinitionIndex = 59571;
+
 	enum class IHFGILEEIGA_ThreadState : ::System::Int32
 	{
 		None = 0,

@@ -7,6 +7,8 @@ namespace System::Globalization { class CultureInfo; }
 
 namespace System::Web::Util
 {
+	inline static constexpr unsigned int Helpers_TypeDefinitionIndex = 2665;
+
 	class Helpers : public ::System::Object
 	{
 	public:

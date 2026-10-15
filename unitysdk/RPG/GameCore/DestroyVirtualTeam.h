@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DestroyVirtualTeam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DestroyVirtualTeam_TypeDefinitionIndex = 21610;
+
 	class DestroyVirtualTeam : public ::RPG::GameCore::TaskConfig
 	{
 	public:

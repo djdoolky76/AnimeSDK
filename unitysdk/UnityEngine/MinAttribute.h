@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int MinAttribute_TypeDefinitionIndex = 4243;
+
 	class MinAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int TranslateInvoke_TypeDefinitionIndex = 46581;
+
 	class TranslateInvoke : public ::System::Object
 	{
 	public:

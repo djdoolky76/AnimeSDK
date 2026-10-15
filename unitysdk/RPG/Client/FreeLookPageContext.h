@@ -23,6 +23,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FreeLookPageContext_TypeDefinitionIndex = 72861;
+
 	class FreeLookPageContext : public ::RPG::Client::UIController
 	{
 	public:

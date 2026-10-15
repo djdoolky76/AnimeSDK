@@ -15,6 +15,8 @@ namespace UnityEngine { class Animation; }
 #define AKCDMJONKMB_PRINTMEMBERS_OFFSET UNITYSDK_OFFSET(0x2305DC0)
 #define AKCDMJONKMB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2305DB0)
 
+inline static constexpr unsigned int AKCDMJONKMB_TypeDefinitionIndex = 49758;
+
 	struct alignas(8) AKCDMJONKMB
 	{
 		::UnityEngine::Animation* IJPHJEDPHGN; // 0x10

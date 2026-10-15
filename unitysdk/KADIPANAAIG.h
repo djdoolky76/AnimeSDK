@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MiParameterConfigBase; }
 #define KADIPANAAIG_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0xB2D2BA0)
 #define KADIPANAAIG_CTOR_OFFSET UNITYSDK_OFFSET(0xB2D2CA0)
 
+inline static constexpr unsigned int KADIPANAAIG_TypeDefinitionIndex = 82159;
+
 	class KADIPANAAIG : public ::System::Object
 	{
 	public:

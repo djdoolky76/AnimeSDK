@@ -13,6 +13,8 @@ class FBMKMNHIDGA;
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ChangePropLocationBehaviour_TypeDefinitionIndex = 47917;
+
 	class ChangePropLocationBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

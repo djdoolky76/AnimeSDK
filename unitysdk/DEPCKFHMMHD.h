@@ -18,6 +18,8 @@ namespace System::Text { class StringBuilder; }
 #define DEPCKFHMMHD_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0xFE80)
 #define DEPCKFHMMHD_TOSTRING_OFFSET UNITYSDK_OFFSET(0xF5D80)
 
+inline static constexpr unsigned int DEPCKFHMMHD_TypeDefinitionIndex = 51937;
+
 	struct alignas(4) DEPCKFHMMHD
 	{
 		::System::UInt32 _ID_k__BackingField; // 0x10

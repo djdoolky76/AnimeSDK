@@ -9,6 +9,8 @@ namespace RPG::Client::HimekoNovaSpecialSkill { class HimekoNovaSpecialSkillTabV
 
 namespace RPG::Client::HimekoNovaSpecialSkill
 {
+	inline static constexpr unsigned int HimekoNovaSpecialSkillDisplayViewModel___c__DisplayClass67_0_TypeDefinitionIndex = 80495;
+
 	class HimekoNovaSpecialSkillDisplayViewModel___c__DisplayClass67_0 : public ::System::Object
 	{
 	public:

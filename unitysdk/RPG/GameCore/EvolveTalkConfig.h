@@ -7,6 +7,8 @@ namespace System { class Action; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EvolveTalkConfig_TypeDefinitionIndex = 58654;
+
 	class EvolveTalkConfig : public ::System::Object
 	{
 	public:

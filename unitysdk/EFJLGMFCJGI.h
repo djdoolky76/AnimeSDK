@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EFJLGMFCJGI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13A51720)
 #define EFJLGMFCJGI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A51770)
 
+inline static constexpr unsigned int EFJLGMFCJGI_TypeDefinitionIndex = 58561;
+
 	class EFJLGMFCJGI
 	{
 	public:

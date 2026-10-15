@@ -4,6 +4,8 @@
 
 #define CNKEOOAMELC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA13410)
 
+inline static constexpr unsigned int CNKEOOAMELC_TypeDefinitionIndex = 42190;
+
 	class CNKEOOAMELC : public ::System::Object
 	{
 	public:

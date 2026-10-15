@@ -20,6 +20,8 @@ namespace System::Security::Cryptography { class HashAlgorithm; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int HMAC_TypeDefinitionIndex = 1024;
+
 	class HMAC : public ::System::Security::Cryptography::KeyedHashAlgorithm
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VE_FactorGroup_TypeDefinitionIndex = 24046;
+
 	class VE_FactorGroup : public ::RPG::GameCore::ValueEvaluatorConfig
 	{
 	public:

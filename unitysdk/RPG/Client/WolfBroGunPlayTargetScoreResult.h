@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayTargetScoreResult_TypeDefinitionIndex = 68744;
+
 	struct alignas(4) WolfBroGunPlayTargetScoreResult
 	{
 		::RPG::Client::EWolfBroGunPlayTargetScoreMode Mode; // 0x10

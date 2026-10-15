@@ -33,6 +33,8 @@ namespace System { class String; }
 #define CDMPJODLBEE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E08A1E0)
 #define CDMPJODLBEE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E08A240)
 
+inline static constexpr unsigned int CDMPJODLBEE_TypeDefinitionIndex = 25657;
+
 	class CDMPJODLBEE : public ::System::Object
 	{
 	public:

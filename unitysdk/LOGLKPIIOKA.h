@@ -30,6 +30,8 @@ namespace System { class String; }
 #define LOGLKPIIOKA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9BD310)
 #define LOGLKPIIOKA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9BD370)
 
+inline static constexpr unsigned int LOGLKPIIOKA_TypeDefinitionIndex = 26814;
+
 	class LOGLKPIIOKA : public ::System::Object
 	{
 	public:

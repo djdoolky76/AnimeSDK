@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FLIPNFHAMPO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3D97F0)
 #define FLIPNFHAMPO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E3D9800)
 
+inline static constexpr unsigned int FLIPNFHAMPO___c_TypeDefinitionIndex = 26968;
+
 	class FLIPNFHAMPO___c : public ::System::Object
 	{
 	public:

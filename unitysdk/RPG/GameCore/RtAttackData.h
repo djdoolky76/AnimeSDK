@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtAttackData_TypeDefinitionIndex = 24160;
+
 	class RtAttackData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

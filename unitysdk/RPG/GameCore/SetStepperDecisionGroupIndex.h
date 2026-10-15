@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetStepperDecisionGroupIndex_TypeDefinitionIndex = 22742;
+
 	class SetStepperDecisionGroupIndex : public ::RPG::GameCore::TaskConfig
 	{
 	public:

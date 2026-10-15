@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define NCDGLNLIBEA_ONJPNCNLBDA_OFFSET UNITYSDK_OFFSET(0xBB03BD0)
 #define NCDGLNLIBEA_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xBB036F0)
 
+inline static constexpr unsigned int NCDGLNLIBEA_TypeDefinitionIndex = 59763;
+
 	class NCDGLNLIBEA : public ::System::Object
 	{
 	public:

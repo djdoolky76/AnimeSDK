@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class Text; }
 #define FLLDADGFACE_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x1583F210)
 #define FLLDADGFACE_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0x1583F150)
 
+inline static constexpr unsigned int FLLDADGFACE_TypeDefinitionIndex = 73196;
+
 	class FLLDADGFACE : public ::LBAMBIMMJKB
 	{
 	public:

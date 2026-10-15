@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PEPCOKALCGP_EDBDAAKMDFI_OFFSET UNITYSDK_OFFSET(0xC1F80F0)
 #define PEPCOKALCGP_GICABFLDIPA_OFFSET UNITYSDK_OFFSET(0xC1F7AB0)
 
+inline static constexpr unsigned int PEPCOKALCGP_TypeDefinitionIndex = 77498;
+
 	class PEPCOKALCGP : public ::FJNNEOKOCJD
 	{
 	public:

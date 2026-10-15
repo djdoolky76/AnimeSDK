@@ -18,6 +18,8 @@ namespace System::Collections::Concurrent { template <typename T> class Concurre
 
 namespace RPG
 {
+	inline static constexpr unsigned int ThreadProfileManager_TypeDefinitionIndex = 35155;
+
 	class ThreadProfileManager : public ::System::Object
 	{
 	public:

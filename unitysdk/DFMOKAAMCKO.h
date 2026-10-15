@@ -7,6 +7,8 @@
 #define DFMOKAAMCKO_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE833600)
 #define DFMOKAAMCKO_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE833650)
 
+inline static constexpr unsigned int DFMOKAAMCKO_TypeDefinitionIndex = 56629;
+
 	class DFMOKAAMCKO : public ::System::Object
 	{
 	public:

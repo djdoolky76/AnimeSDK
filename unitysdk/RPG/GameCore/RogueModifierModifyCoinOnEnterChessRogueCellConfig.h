@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyCoinOnEnterChessRogueCellConf
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyCoinOnEnterChessRogueCellConfig_TypeDefinitionIndex = 17987;
+
 	class RogueModifierModifyCoinOnEnterChessRogueCellConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

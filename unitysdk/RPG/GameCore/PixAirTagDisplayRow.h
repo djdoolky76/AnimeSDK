@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PixAirTagDisplayRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PixAirTagDisplayRow_TypeDefinitionIndex = 12167;
+
 	class PixAirTagDisplayRow : public ::System::Object
 	{
 	public:

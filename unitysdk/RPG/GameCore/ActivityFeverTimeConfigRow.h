@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityFeverTimeConfigRow_TypeDefinitionIndex = 11587;
+
 	class ActivityFeverTimeConfigRow : public ::System::Object
 	{
 	public:

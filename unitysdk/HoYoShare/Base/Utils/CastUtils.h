@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace HoYoShare::Base::Utils
 {
+	inline static constexpr unsigned int CastUtils_TypeDefinitionIndex = 7535;
+
 	class CastUtils : public ::System::Object
 	{
 	public:

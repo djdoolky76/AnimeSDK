@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int CharUnicodeInfo_Debug_TypeDefinitionIndex = 733;
+
 	class CharUnicodeInfo_Debug : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client { class MatchThreeV2PvpScoreData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeV2PvpScoreInfos___c__DisplayClass4_0_TypeDefinitionIndex = 66051;
+
 	class MatchThreeV2PvpScoreInfos___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

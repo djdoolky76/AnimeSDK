@@ -6,6 +6,8 @@
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int MonoParkourRoad_AccelerationTriggerInfo_TypeDefinitionIndex = 74159;
+
 	class MonoParkourRoad_AccelerationTriggerInfo : public ::RPG::Client::ParkourGame::MonoParkourRoad_TriggerInfo
 	{
 	public:

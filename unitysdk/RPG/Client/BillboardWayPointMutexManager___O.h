@@ -6,6 +6,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BillboardWayPointMutexManager___O_TypeDefinitionIndex = 60502;
+
 	class BillboardWayPointMutexManager___O : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Events
 {
+	inline static constexpr unsigned int UnityAction_TypeDefinitionIndex = 4491;
+
 	class UnityAction : public ::System::MulticastDelegate
 	{
 	public:

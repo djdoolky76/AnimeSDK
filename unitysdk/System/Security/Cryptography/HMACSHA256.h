@@ -7,6 +7,8 @@
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int HMACSHA256_TypeDefinitionIndex = 1028;
+
 	class HMACSHA256 : public ::System::Security::Cryptography::HMAC
 	{
 	public:

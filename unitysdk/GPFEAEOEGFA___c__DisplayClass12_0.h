@@ -7,6 +7,8 @@ namespace UnityEngine { class Object; }
 #define GPFEAEOEGFA___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15B539B0)
 #define GPFEAEOEGFA___C__DISPLAYCLASS12_0__UNSERIALIZEASYNC_B__2_OFFSET UNITYSDK_OFFSET(0x15B53BE0)
 
+inline static constexpr unsigned int GPFEAEOEGFA___c__DisplayClass12_0_TypeDefinitionIndex = 49042;
+
 	class GPFEAEOEGFA___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

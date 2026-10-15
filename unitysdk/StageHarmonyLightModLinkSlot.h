@@ -13,6 +13,8 @@ class StageHarmonyTargetLightGroup;
 #define STAGEHARMONYLIGHTMODLINKSLOT_LPDNFAMGEGG_OFFSET UNITYSDK_OFFSET(0xE98D180)
 #define STAGEHARMONYLIGHTMODLINKSLOT_OBOGCFEKGKL_OFFSET UNITYSDK_OFFSET(0xE992FE0)
 
+inline static constexpr unsigned int StageHarmonyLightModLinkSlot_TypeDefinitionIndex = 47539;
+
 	class StageHarmonyLightModLinkSlot : public ::StageHarmonyBaseLinkSlot
 	{
 	public:

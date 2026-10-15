@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ConfigManager_TypeDefinitionIndex = 4054;
+
 	class ConfigManager : public ::System::Object
 	{
 	public:

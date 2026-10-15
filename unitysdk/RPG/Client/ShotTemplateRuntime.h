@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ShotTemplateRuntime_TypeDefinitionIndex = 69692;
+
 	class ShotTemplateRuntime : public ::UnityEngine::ScriptableObject
 	{
 	public:

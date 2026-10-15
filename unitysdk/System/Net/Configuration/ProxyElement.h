@@ -8,6 +8,8 @@ namespace System::Configuration { class ConfigurationPropertyCollection; }
 
 namespace System::Net::Configuration
 {
+	inline static constexpr unsigned int ProxyElement_TypeDefinitionIndex = 3079;
+
 	class ProxyElement : public ::System::Configuration::ConfigurationElement
 	{
 	public:

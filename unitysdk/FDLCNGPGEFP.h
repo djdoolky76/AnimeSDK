@@ -4,6 +4,8 @@
 
 #define FDLCNGPGEFP_CTOR_OFFSET UNITYSDK_OFFSET(0x156DE130)
 
+inline static constexpr unsigned int FDLCNGPGEFP_TypeDefinitionIndex = 78052;
+
 	class FDLCNGPGEFP : public ::System::Object
 	{
 	public:

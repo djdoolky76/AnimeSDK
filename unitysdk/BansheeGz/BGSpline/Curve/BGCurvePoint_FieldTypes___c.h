@@ -37,6 +37,8 @@ namespace System { class Object; }
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGCurvePoint_FieldTypes___c_TypeDefinitionIndex = 36018;
+
 	class BGCurvePoint_FieldTypes___c : public ::System::Object
 	{
 	public:

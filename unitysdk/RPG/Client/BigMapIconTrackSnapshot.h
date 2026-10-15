@@ -46,6 +46,8 @@ namespace RPG::Client::NavMap { class ICartographerIdentifier; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BigMapIconTrackSnapshot_TypeDefinitionIndex = 62915;
+
 	class BigMapIconTrackSnapshot : public ::System::Object
 	{
 	public:

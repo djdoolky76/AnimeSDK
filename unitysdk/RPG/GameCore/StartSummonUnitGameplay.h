@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StartSummonUnitGameplay_TypeDefinitionIndex = 21163;
+
 	class StartSummonUnitGameplay : public ::RPG::GameCore::TaskConfig
 	{
 	public:

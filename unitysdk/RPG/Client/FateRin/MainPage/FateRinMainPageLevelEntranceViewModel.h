@@ -39,6 +39,8 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::MainPage
 {
+	inline static constexpr unsigned int FateRinMainPageLevelEntranceViewModel_TypeDefinitionIndex = 80635;
+
 	class FateRinMainPageLevelEntranceViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define EJDPLLIJDNK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2B1EF0)
 #define EJDPLLIJDNK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2B1F50)
 
+inline static constexpr unsigned int EJDPLLIJDNK_TypeDefinitionIndex = 27192;
+
 	class EJDPLLIJDNK : public ::System::Object
 	{
 	public:

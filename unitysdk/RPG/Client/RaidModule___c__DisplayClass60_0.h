@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RaidModule___c__DisplayClass60_0_TypeDefinitionIndex = 66775;
+
 	class RaidModule___c__DisplayClass60_0 : public ::System::Object
 	{
 	public:

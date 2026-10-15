@@ -6,6 +6,8 @@
 #define ADHAJOLFCNH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF470)
 #define ADHAJOLFCNH_EXECUTE_OFFSET UNITYSDK_OFFSET(0xF460)
 
+inline static constexpr unsigned int ADHAJOLFCNH_TypeDefinitionIndex = 71091;
+
 	struct alignas(8) ADHAJOLFCNH
 	{
 		::Unity::Collections::NativeArray_1<::PJPIEKNGCMC> ENDAAPHNJIL; // 0x10

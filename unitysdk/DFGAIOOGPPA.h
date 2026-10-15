@@ -30,6 +30,8 @@ namespace System { class String; }
 #define DFGAIOOGPPA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1A2290)
 #define DFGAIOOGPPA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1A22F0)
 
+inline static constexpr unsigned int DFGAIOOGPPA_TypeDefinitionIndex = 33577;
+
 	class DFGAIOOGPPA : public ::System::Object
 	{
 	public:

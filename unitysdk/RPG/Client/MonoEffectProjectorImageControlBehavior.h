@@ -23,6 +23,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectProjectorImageControlBehavior_TypeDefinitionIndex = 70371;
+
 	class MonoEffectProjectorImageControlBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

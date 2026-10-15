@@ -11,6 +11,8 @@ namespace RPG::Client { class OnBackPressedCallback; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OnBackPressedDispatcher_CallbackEntry_TypeDefinitionIndex = 71347;
+
 	class OnBackPressedDispatcher_CallbackEntry : public ::System::Object
 	{
 	public:

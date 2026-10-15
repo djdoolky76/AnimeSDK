@@ -5,6 +5,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int BrowserWin32Helper_ResolutionChangedEvent_TypeDefinitionIndex = 46615;
+
 	class BrowserWin32Helper_ResolutionChangedEvent
 	{
 	public:

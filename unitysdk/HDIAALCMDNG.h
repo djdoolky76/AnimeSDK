@@ -22,6 +22,8 @@ namespace System { class String; }
 #define HDIAALCMDNG_KIAOJGOIFJK_OFFSET UNITYSDK_OFFSET(0x1CABD270)
 #define HDIAALCMDNG_LPEHGMGDCIO_OFFSET UNITYSDK_OFFSET(0x1CABD1F0)
 
+inline static constexpr unsigned int HDIAALCMDNG_TypeDefinitionIndex = 42567;
+
 	class HDIAALCMDNG
 	{
 	public:

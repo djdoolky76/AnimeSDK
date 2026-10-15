@@ -57,6 +57,8 @@ namespace UnityEngine::UI { class Toggle; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int HandheldEmailBindingDialog_TypeDefinitionIndex = 8808;
+
 	class HandheldEmailBindingDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:

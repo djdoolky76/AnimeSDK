@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelCharacterModifyShield_TypeDefinitionIndex = 56790;
+
 	class LevelCharacterModifyShield : public ::CMPGEAFHHDC
 	{
 	public:

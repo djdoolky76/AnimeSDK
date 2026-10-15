@@ -30,6 +30,8 @@ namespace System { class String; }
 #define NBGDEFLFLMI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAD07A0)
 #define NBGDEFLFLMI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAD0800)
 
+inline static constexpr unsigned int NBGDEFLFLMI_TypeDefinitionIndex = 29215;
+
 	class NBGDEFLFLMI : public ::System::Object
 	{
 	public:

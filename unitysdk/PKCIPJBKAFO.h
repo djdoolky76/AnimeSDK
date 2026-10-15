@@ -30,6 +30,8 @@ namespace System { class String; }
 #define PKCIPJBKAFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF87980)
 #define PKCIPJBKAFO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF879E0)
 
+inline static constexpr unsigned int PKCIPJBKAFO_TypeDefinitionIndex = 28250;
+
 	class PKCIPJBKAFO : public ::System::Object
 	{
 	public:

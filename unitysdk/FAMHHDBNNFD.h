@@ -25,6 +25,8 @@ namespace System { class String; }
 #define FAMHHDBNNFD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E329570)
 #define FAMHHDBNNFD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3295D0)
 
+inline static constexpr unsigned int FAMHHDBNNFD_TypeDefinitionIndex = 26515;
+
 	class FAMHHDBNNFD : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace Collections::Pooled
 {
+	inline static constexpr unsigned int IReadOnlyPooledList_1_TypeDefinitionIndex = 5096;
+
 	template <typename T>
 	class IReadOnlyPooledList_1
 	{

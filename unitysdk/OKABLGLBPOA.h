@@ -33,6 +33,8 @@ namespace System { class String; }
 #define OKABLGLBPOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE8E0B0)
 #define OKABLGLBPOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE8E110)
 
+inline static constexpr unsigned int OKABLGLBPOA_TypeDefinitionIndex = 30041;
+
 	class OKABLGLBPOA : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LJLDAMPBAGH_CTOR_OFFSET UNITYSDK_OFFSET(0xB71ECA0)
 #define LJLDAMPBAGH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB71ED60)
 
+inline static constexpr unsigned int LJLDAMPBAGH_TypeDefinitionIndex = 52185;
+
 	class LJLDAMPBAGH
 	{
 	public:

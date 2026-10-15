@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int UniWebViewMessage_TypeDefinitionIndex = 7940;
+
 	struct alignas(8) UniWebViewMessage
 	{
 		::System::String* _RawMessage_k__BackingField; // 0x10

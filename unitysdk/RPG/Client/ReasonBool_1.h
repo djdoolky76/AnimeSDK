@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ReasonBool_1_TypeDefinitionIndex = 59963;
+
 	template <typename T>
 	struct alignas(4) ReasonBool_1
 	{

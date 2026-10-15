@@ -10,6 +10,8 @@ namespace System::Threading { class SynchronizationContext; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NetworkManager___c__DisplayClass125_0_TypeDefinitionIndex = 69373;
+
 	class NetworkManager___c__DisplayClass125_0 : public ::System::Object
 	{
 	public:

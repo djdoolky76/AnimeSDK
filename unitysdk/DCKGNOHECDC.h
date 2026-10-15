@@ -21,6 +21,8 @@ namespace System { class Action; }
 #define DCKGNOHECDC_REMOVE_ONLINEUPCHANGED_OFFSET UNITYSDK_OFFSET(0xE24EC40)
 #define DCKGNOHECDC_REMOVE_ONRESULTCHANGED_OFFSET UNITYSDK_OFFSET(0xE24EAD0)
 
+inline static constexpr unsigned int DCKGNOHECDC_TypeDefinitionIndex = 81483;
+
 	class DCKGNOHECDC : public ::System::Object
 	{
 	public:

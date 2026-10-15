@@ -35,6 +35,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int AstrolabeInterface_TypeDefinitionIndex = 46506;
+
 	class AstrolabeInterface : public ::System::Object
 	{
 	public:

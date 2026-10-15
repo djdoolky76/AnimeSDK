@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CutscenePropRow_TypeDefinitionIndex = 13105;
+
 	class CutscenePropRow : public ::System::Object
 	{
 	public:

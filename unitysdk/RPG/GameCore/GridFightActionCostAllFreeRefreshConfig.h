@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightActionCostAllFreeRefreshConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightActionCostAllFreeRefreshConfig_TypeDefinitionIndex = 19323;
+
 	class GridFightActionCostAllFreeRefreshConfig : public ::RPG::GameCore::GridFightActionConfigBase
 	{
 	public:

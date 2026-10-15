@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NumBarTypeConfig_TypeDefinitionIndex = 22736;
+
 	class NumBarTypeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

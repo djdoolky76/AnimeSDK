@@ -7,6 +7,8 @@ namespace RPG::Client::Compliance::Ftc::DirectPurchase { class FtcDirectPurchase
 #define CHAAEPHBCLP_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xCC8F210)
 #define CHAAEPHBCLP_CTOR_OFFSET UNITYSDK_OFFSET(0xCC8F1C0)
 
+inline static constexpr unsigned int CHAAEPHBCLP_TypeDefinitionIndex = 74835;
+
 	class CHAAEPHBCLP : public ::System::Object
 	{
 	public:

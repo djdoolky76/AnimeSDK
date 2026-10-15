@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifierReattachEffect_TypeDefinitionIndex = 21744;
+
 	class ModifierReattachEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GANDCEDCLDL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4227E0)
 #define GANDCEDCLDL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E422840)
 
+inline static constexpr unsigned int GANDCEDCLDL_TypeDefinitionIndex = 25477;
+
 	class GANDCEDCLDL : public ::System::Object
 	{
 	public:

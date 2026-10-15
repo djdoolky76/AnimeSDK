@@ -5,6 +5,8 @@
 #define EPDNPCNJMDF_CTOR_OFFSET UNITYSDK_OFFSET(0x155D2020)
 #define EPDNPCNJMDF_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x155D2080)
 
+inline static constexpr unsigned int EPDNPCNJMDF_TypeDefinitionIndex = 49418;
+
 	class EPDNPCNJMDF
 	{
 	public:

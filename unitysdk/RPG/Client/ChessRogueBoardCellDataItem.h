@@ -61,6 +61,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChessRogueBoardCellDataItem_TypeDefinitionIndex = 66918;
+
 	class ChessRogueBoardCellDataItem : public ::System::Object
 	{
 	public:

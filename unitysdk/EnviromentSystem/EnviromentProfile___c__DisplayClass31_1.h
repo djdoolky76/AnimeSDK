@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int EnviromentProfile___c__DisplayClass31_1_TypeDefinitionIndex = 49589;
+
 	template <typename T>
 	class EnviromentProfile___c__DisplayClass31_1 : public ::System::Object
 	{

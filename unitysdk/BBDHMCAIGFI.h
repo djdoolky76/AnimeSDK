@@ -5,6 +5,8 @@
 
 #define BBDHMCAIGFI_CTOR_OFFSET UNITYSDK_OFFSET(0x15E854E0)
 
+inline static constexpr unsigned int BBDHMCAIGFI_TypeDefinitionIndex = 57630;
+
 	class BBDHMCAIGFI : public ::System::Object
 	{
 	public:

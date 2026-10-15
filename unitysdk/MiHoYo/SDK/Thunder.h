@@ -41,6 +41,8 @@ namespace System::Timers { class Timer; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Thunder_TypeDefinitionIndex = 46297;
+
 	class Thunder : public ::System::Object
 	{
 	public:

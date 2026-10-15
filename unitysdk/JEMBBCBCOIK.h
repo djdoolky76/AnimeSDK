@@ -25,6 +25,8 @@ namespace System { class String; }
 #define JEMBBCBCOIK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E71FA30)
 #define JEMBBCBCOIK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E71FA90)
 
+inline static constexpr unsigned int JEMBBCBCOIK_TypeDefinitionIndex = 27933;
+
 	class JEMBBCBCOIK : public ::System::Object
 	{
 	public:

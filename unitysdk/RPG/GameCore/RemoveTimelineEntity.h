@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TimelineEntityConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveTimelineEntity_TypeDefinitionIndex = 20633;
+
 	class RemoveTimelineEntity : public ::RPG::GameCore::TaskConfig
 	{
 	public:

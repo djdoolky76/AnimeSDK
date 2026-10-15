@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ElfDecoratorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfDecoratorConfig_TypeDefinitionIndex = 18482;
+
 	class ElfDecoratorConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

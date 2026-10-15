@@ -22,6 +22,8 @@ namespace System::Net::Sockets { class Socket; }
 
 namespace System::Net::Sockets
 {
+	inline static constexpr unsigned int UdpClient_TypeDefinitionIndex = 2916;
+
 	class UdpClient : public ::System::Object
 	{
 	public:

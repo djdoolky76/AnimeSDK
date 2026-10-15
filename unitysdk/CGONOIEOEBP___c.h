@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CGONOIEOEBP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0BA300)
 #define CGONOIEOEBP___C___CCTOR_B__40_0_OFFSET UNITYSDK_OFFSET(0x1E0BA310)
 
+inline static constexpr unsigned int CGONOIEOEBP___c_TypeDefinitionIndex = 29867;
+
 	class CGONOIEOEBP___c : public ::System::Object
 	{
 	public:

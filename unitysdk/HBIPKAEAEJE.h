@@ -68,6 +68,8 @@ namespace UnityEngine { class Transform; }
 #define HBIPKAEAEJE__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x15C07670)
 #define HBIPKAEAEJE___ONSETHPBREAKHINT_B__15_0_OFFSET UNITYSDK_OFFSET(0x15C0A380)
 
+inline static constexpr unsigned int HBIPKAEAEJE_TypeDefinitionIndex = 71486;
+
 	class HBIPKAEAEJE : public ::FMPCODLIOLG
 	{
 	public:

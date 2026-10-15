@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAbilityEffectApplyHasteConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityEffectApplyHasteConfig_TypeDefinitionIndex = 21341;
+
 	class LittleGameAbilityEffectApplyHasteConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AudioLanguageItem_TypeDefinitionIndex = 59741;
+
 	class AudioLanguageItem : public ::System::Object
 	{
 	public:

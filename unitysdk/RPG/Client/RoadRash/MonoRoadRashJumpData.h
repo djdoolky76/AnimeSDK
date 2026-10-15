@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int MonoRoadRashJumpData_TypeDefinitionIndex = 75880;
+
 	class MonoRoadRashJumpData : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -52,6 +52,8 @@ namespace UnityEngine::UI { class Image; }
 #define JDEKPPKFFIB__ONBIND_OFFSET UNITYSDK_OFFSET(0x165BF9B0)
 #define JDEKPPKFFIB___ONBIND_B__0_0_OFFSET UNITYSDK_OFFSET(0x165C1940)
 
+inline static constexpr unsigned int JDEKPPKFFIB_TypeDefinitionIndex = 71402;
+
 	class JDEKPPKFFIB : public ::FMPCODLIOLG
 	{
 	public:

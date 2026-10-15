@@ -30,6 +30,8 @@ namespace System { class String; }
 #define ALCDAEIDEAM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3D4FE0)
 #define ALCDAEIDEAM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3D5040)
 
+inline static constexpr unsigned int ALCDAEIDEAM_TypeDefinitionIndex = 30895;
+
 	class ALCDAEIDEAM : public ::System::Object
 	{
 	public:

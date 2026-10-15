@@ -5,6 +5,8 @@ namespace RPG::Client::Promises { class IPromise; }
 
 #define OKEBEBMINDJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBED6920)
 
+inline static constexpr unsigned int OKEBEBMINDJ_TypeDefinitionIndex = 61069;
+
 	class OKEBEBMINDJ : public ::System::Object
 	{
 	public:

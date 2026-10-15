@@ -8,6 +8,8 @@
 #define OECNOHOLGPP___C__DISPLAYCLASS35_0__MOVE_B__0_OFFSET UNITYSDK_OFFSET(0x1C5781E0)
 #define OECNOHOLGPP___C__DISPLAYCLASS35_0__MOVE_B__1_OFFSET UNITYSDK_OFFSET(0x1C578200)
 
+inline static constexpr unsigned int OECNOHOLGPP___c__DisplayClass35_0_TypeDefinitionIndex = 41796;
+
 	class OECNOHOLGPP___c__DisplayClass35_0 : public ::System::Object
 	{
 	public:

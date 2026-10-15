@@ -30,6 +30,8 @@ namespace System { class String; }
 #define NALJOPFBJDK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAC5BA0)
 #define NALJOPFBJDK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAC5C00)
 
+inline static constexpr unsigned int NALJOPFBJDK_TypeDefinitionIndex = 27908;
+
 	class NALJOPFBJDK : public ::System::Object
 	{
 	public:

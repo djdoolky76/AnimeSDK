@@ -19,6 +19,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client::UI::UIStateCtrl
 {
+	inline static constexpr unsigned int LineRendererMaterialSwitchTarget_TypeDefinitionIndex = 74072;
+
 	class LineRendererMaterialSwitchTarget : public ::RPG::Client::UI::UIStateCtrl::MaterialSwitchTarget
 	{
 	public:

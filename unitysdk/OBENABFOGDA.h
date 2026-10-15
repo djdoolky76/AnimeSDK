@@ -13,6 +13,8 @@
 #define OBENABFOGDA_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0x22D00)
 #define OBENABFOGDA_OLMCIPPKBFP_OFFSET UNITYSDK_OFFSET(0x22CB0)
 
+inline static constexpr unsigned int OBENABFOGDA_TypeDefinitionIndex = 68437;
+
 	struct alignas(8) OBENABFOGDA
 	{
 		::UnityEngine::Vector3 FJMCLOIEMKG; // 0x10

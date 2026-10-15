@@ -6,6 +6,8 @@
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int InvalidJSONNodeException_TypeDefinitionIndex = 39510;
+
 	class InvalidJSONNodeException : public ::System::Exception
 	{
 	public:

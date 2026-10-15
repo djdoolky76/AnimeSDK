@@ -28,6 +28,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int TranslateService_TypeDefinitionIndex = 46582;
+
 	class TranslateService : public ::System::Object
 	{
 	public:

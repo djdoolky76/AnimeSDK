@@ -12,6 +12,8 @@ namespace UnityEngine { class RenderTexture; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AdaptiveTessellationRenderer_TypeDefinitionIndex = 4251;
+
 	class AdaptiveTessellationRenderer : public ::UnityEngine::Behaviour
 	{
 	public:

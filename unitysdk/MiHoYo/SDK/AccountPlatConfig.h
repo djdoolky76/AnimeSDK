@@ -7,6 +7,8 @@ namespace MiHoYo::SDK { class AccountPlatABTestInfo; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int AccountPlatConfig_TypeDefinitionIndex = 7903;
+
 	class AccountPlatConfig : public ::System::Object
 	{
 	public:

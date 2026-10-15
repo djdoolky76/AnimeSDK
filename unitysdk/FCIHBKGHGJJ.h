@@ -55,6 +55,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FCIHBKGHGJJ__ENTERPATROL_B__16_0_OFFSET UNITYSDK_OFFSET(0x156C2060)
 #define FCIHBKGHGJJ__FACETOTARGETPOSITION_B__22_0_OFFSET UNITYSDK_OFFSET(0x156C2070)
 
+inline static constexpr unsigned int FCIHBKGHGJJ_TypeDefinitionIndex = 52432;
+
 	class FCIHBKGHGJJ : public ::GELIALJDFBL
 	{
 	public:

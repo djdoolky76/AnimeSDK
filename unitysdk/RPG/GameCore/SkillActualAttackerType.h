@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SkillActualAttackerType_TypeDefinitionIndex = 18196;
+
 	enum class SkillActualAttackerType : ::System::Int32
 	{
 		Self = 0,

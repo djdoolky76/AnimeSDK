@@ -5,6 +5,8 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int PhantomPlayerRecordFrames_System_Boolean_AutoGen_TypeDefinitionIndex = 43636;
+
 	class PhantomPlayerRecordFrames_System_Boolean_AutoGen
 	{
 	public:

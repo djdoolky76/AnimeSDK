@@ -28,6 +28,8 @@ namespace System { class String; }
 #define HOGPMBGJIDH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5E8780)
 #define HOGPMBGJIDH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5E87E0)
 
+inline static constexpr unsigned int HOGPMBGJIDH_TypeDefinitionIndex = 30410;
+
 	class HOGPMBGJIDH : public ::System::Object
 	{
 	public:

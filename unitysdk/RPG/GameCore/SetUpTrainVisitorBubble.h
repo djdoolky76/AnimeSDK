@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetUpTrainVisitorBubble; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetUpTrainVisitorBubble_TypeDefinitionIndex = 21596;
+
 	class SetUpTrainVisitorBubble : public ::RPG::GameCore::TaskConfig
 	{
 	public:

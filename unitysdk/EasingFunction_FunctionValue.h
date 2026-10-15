@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define EASINGFUNCTION_FUNCTIONVALUE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xAF1B1B0)
 #define EASINGFUNCTION_FUNCTIONVALUE_INVOKE_OFFSET UNITYSDK_OFFSET(0xAF1B150)
 
+inline static constexpr unsigned int EasingFunction_FunctionValue_TypeDefinitionIndex = 45932;
+
 	class EasingFunction_FunctionValue : public ::System::MulticastDelegate
 	{
 	public:

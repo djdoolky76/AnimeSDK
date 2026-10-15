@@ -20,6 +20,8 @@ namespace System::Runtime::Serialization::Formatters::Binary { class SizedArray;
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int ObjectMap_TypeDefinitionIndex = 1163;
+
 	class ObjectMap : public ::System::Object
 	{
 	public:

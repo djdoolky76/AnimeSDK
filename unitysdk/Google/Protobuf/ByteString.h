@@ -42,6 +42,8 @@ namespace System::Text { class Encoding; }
 
 namespace Google::Protobuf
 {
+	inline static constexpr unsigned int ByteString_TypeDefinitionIndex = 5367;
+
 	class ByteString : public ::System::Object
 	{
 	public:

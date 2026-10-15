@@ -7,6 +7,8 @@ namespace RPG::GameCore { class SkillData; }
 #define IFDFFNOKNFE___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15F0ACE0)
 #define IFDFFNOKNFE___C__DISPLAYCLASS5_0__REMOVESKILLDATA_B__0_OFFSET UNITYSDK_OFFSET(0x15F0AF80)
 
+inline static constexpr unsigned int IFDFFNOKNFE___c__DisplayClass5_0_TypeDefinitionIndex = 72153;
+
 	class IFDFFNOKNFE___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

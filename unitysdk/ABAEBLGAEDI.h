@@ -8,6 +8,8 @@ namespace System { class String; }
 #define ABAEBLGAEDI_JCOHKDCAOLF_OFFSET UNITYSDK_OFFSET(0x1C428BA0)
 #define ABAEBLGAEDI_PDHDOHAIJKD_OFFSET UNITYSDK_OFFSET(0x1C428540)
 
+inline static constexpr unsigned int ABAEBLGAEDI_TypeDefinitionIndex = 41516;
+
 	class ABAEBLGAEDI : public ::System::Object
 	{
 	public:

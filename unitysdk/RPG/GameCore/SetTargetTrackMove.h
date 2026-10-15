@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetTargetTrackMove_TypeDefinitionIndex = 20171;
+
 	class SetTargetTrackMove : public ::RPG::GameCore::TaskConfig
 	{
 	public:

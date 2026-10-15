@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimEvilSmileSetTraceTargetAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimEvilSmileSetTraceTargetAction_TypeDefinitionIndex = 18788;
+
 	class FiveDimEvilSmileSetTraceTargetAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

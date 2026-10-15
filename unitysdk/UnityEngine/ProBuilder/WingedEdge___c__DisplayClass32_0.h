@@ -9,6 +9,8 @@ namespace UnityEngine::ProBuilder { class WingedEdge; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int WingedEdge___c__DisplayClass32_0_TypeDefinitionIndex = 44456;
+
 	class WingedEdge___c__DisplayClass32_0 : public ::System::Object
 	{
 	public:

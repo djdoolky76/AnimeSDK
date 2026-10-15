@@ -7,6 +7,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int NoiseSettings_TransformNoiseParams_TypeDefinitionIndex = 39842;
+
 	struct alignas(4) NoiseSettings_TransformNoiseParams
 	{
 		::Cinemachine::NoiseSettings_NoiseParams X; // 0x10

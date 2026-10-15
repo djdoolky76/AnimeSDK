@@ -13,6 +13,8 @@ class IDACDDHLPKI;
 #define PPMELJBNKPF__CREATE_G__ADDSKINID_3_1_OFFSET UNITYSDK_OFFSET(0xC393C10)
 #define PPMELJBNKPF__CREATE_G__ISTARGET_3_0_OFFSET UNITYSDK_OFFSET(0xC393880)
 
+inline static constexpr unsigned int PPMELJBNKPF_TypeDefinitionIndex = 62623;
+
 	class PPMELJBNKPF : public ::System::Object
 	{
 	public:

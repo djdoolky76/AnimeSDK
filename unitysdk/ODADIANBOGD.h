@@ -42,6 +42,8 @@ namespace UnityEngine { class Transform; }
 #define ODADIANBOGD_PFPGMDMLNEN_OFFSET UNITYSDK_OFFSET(0xBD76530)
 #define ODADIANBOGD__ONBIND_OFFSET UNITYSDK_OFFSET(0xBD75E00)
 
+inline static constexpr unsigned int ODADIANBOGD_TypeDefinitionIndex = 71450;
+
 	class ODADIANBOGD : public ::FMPCODLIOLG
 	{
 	public:

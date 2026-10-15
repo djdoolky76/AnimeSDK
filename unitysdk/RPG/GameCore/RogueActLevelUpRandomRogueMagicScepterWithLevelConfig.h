@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActLevelUpRandomRogueMagicScepterWithLevelC
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActLevelUpRandomRogueMagicScepterWithLevelConfig_TypeDefinitionIndex = 19689;
+
 	class RogueActLevelUpRandomRogueMagicScepterWithLevelConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

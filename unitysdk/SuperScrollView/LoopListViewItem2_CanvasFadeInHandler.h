@@ -18,6 +18,8 @@ namespace UnityEngine { class CanvasGroup; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int LoopListViewItem2_CanvasFadeInHandler_TypeDefinitionIndex = 47672;
+
 	class LoopListViewItem2_CanvasFadeInHandler : public ::System::Object
 	{
 	public:

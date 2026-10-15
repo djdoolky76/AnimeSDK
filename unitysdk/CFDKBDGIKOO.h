@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CFDKBDGIKOO_ONUNINIT_OFFSET UNITYSDK_OFFSET(0xCA0A750)
 #define CFDKBDGIKOO_TICK_OFFSET UNITYSDK_OFFSET(0xCA0A7F0)
 
+inline static constexpr unsigned int CFDKBDGIKOO_TypeDefinitionIndex = 57825;
+
 	class CFDKBDGIKOO : public ::HBCMHADMLOP
 	{
 	public:

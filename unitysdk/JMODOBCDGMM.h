@@ -9,6 +9,8 @@ class OFAKEFLLHNP;
 #define JMODOBCDGMM_HJEMHMNCBIN_OFFSET UNITYSDK_OFFSET(0xB273490)
 #define JMODOBCDGMM_PFIEMGLKFPC_OFFSET UNITYSDK_OFFSET(0xB273360)
 
+inline static constexpr unsigned int JMODOBCDGMM_TypeDefinitionIndex = 65100;
+
 	class JMODOBCDGMM : public ::System::Object
 	{
 	public:

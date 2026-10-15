@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int SkipUntil_1__SkipUntil_TypeDefinitionIndex = 45584;
+
 	template <typename T>
 	class SkipUntil_1__SkipUntil : public ::Cysharp::Threading::Tasks::MoveNextSource
 	{

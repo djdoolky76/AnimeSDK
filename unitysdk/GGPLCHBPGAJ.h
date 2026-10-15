@@ -8,6 +8,8 @@ namespace RPG::Client::Pet { class IPet; }
 #define GGPLCHBPGAJ_IBIHKDJNLFD_OFFSET UNITYSDK_OFFSET(0x15A12F70)
 #define GGPLCHBPGAJ_IHLNIGFNCKH_OFFSET UNITYSDK_OFFSET(0x15A13590)
 
+inline static constexpr unsigned int GGPLCHBPGAJ_TypeDefinitionIndex = 75720;
+
 	class GGPLCHBPGAJ : public ::System::Object
 	{
 	public:

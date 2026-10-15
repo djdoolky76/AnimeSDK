@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int EventWaitHandle_TypeDefinitionIndex = 827;
+
 	class EventWaitHandle : public ::System::Threading::WaitHandle
 	{
 	public:

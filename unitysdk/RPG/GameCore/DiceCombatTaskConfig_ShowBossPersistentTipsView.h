@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_ShowBossPersistentTipsView;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_ShowBossPersistentTipsView_TypeDefinitionIndex = 16190;
+
 	class DiceCombatTaskConfig_ShowBossPersistentTipsView : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

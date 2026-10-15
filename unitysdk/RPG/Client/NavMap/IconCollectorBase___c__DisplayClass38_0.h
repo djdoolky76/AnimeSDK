@@ -8,6 +8,8 @@ namespace RPG::Client::NavMap { class AreaData; }
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int IconCollectorBase___c__DisplayClass38_0_TypeDefinitionIndex = 74529;
+
 	class IconCollectorBase___c__DisplayClass38_0 : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimWaterReflectionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimWaterReflectionConfig_TypeDefinitionIndex = 18607;
+
 	class FiveDimWaterReflectionConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

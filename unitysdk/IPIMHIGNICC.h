@@ -8,6 +8,8 @@ class IPIMHIGNICC;
 #define IPIMHIGNICC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CF2F140)
 #define IPIMHIGNICC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF2F070)
 
+inline static constexpr unsigned int IPIMHIGNICC_TypeDefinitionIndex = 20303;
+
 	class IPIMHIGNICC : public ::RPG::GameCore::TaskConfig
 	{
 	public:

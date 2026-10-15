@@ -13,6 +13,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineFixedSignal_TypeDefinitionIndex = 39864;
+
 	class CinemachineFixedSignal : public ::Cinemachine::SignalSourceAsset
 	{
 	public:

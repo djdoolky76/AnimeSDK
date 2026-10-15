@@ -7,6 +7,8 @@ namespace RPG::Client::Prop { class ChimeraEntranceRoundConfig; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraEntranceRoundParam_TypeDefinitionIndex = 78485;
+
 	class ChimeraEntranceRoundParam : public ::System::Object
 	{
 	public:

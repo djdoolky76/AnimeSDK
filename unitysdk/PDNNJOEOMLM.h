@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define PDNNJOEOMLM_CTOR_OFFSET UNITYSDK_OFFSET(0xC0218E0)
 
+inline static constexpr unsigned int PDNNJOEOMLM_TypeDefinitionIndex = 77711;
+
 	class PDNNJOEOMLM : public ::System::Object
 	{
 	public:

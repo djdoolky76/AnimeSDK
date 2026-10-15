@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TimeRewindOverrideHitProtectTime; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimeRewindOverrideHitProtectTime_TypeDefinitionIndex = 20644;
+
 	class TimeRewindOverrideHitProtectTime : public ::RPG::GameCore::TaskConfig
 	{
 	public:

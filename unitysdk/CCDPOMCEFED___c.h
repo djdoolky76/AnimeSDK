@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CCDPOMCEFED___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0732E0)
 #define CCDPOMCEFED___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E0732F0)
 
+inline static constexpr unsigned int CCDPOMCEFED___c_TypeDefinitionIndex = 30422;
+
 	class CCDPOMCEFED___c : public ::System::Object
 	{
 	public:

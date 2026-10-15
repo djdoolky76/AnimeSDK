@@ -4,6 +4,8 @@
 
 #define NMIGMOHJEKK_CTOR_OFFSET UNITYSDK_OFFSET(0xBC87980)
 
+inline static constexpr unsigned int NMIGMOHJEKK_TypeDefinitionIndex = 80604;
+
 	class NMIGMOHJEKK : public ::System::Object
 	{
 	public:

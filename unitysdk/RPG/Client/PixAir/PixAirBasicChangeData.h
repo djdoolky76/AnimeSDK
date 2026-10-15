@@ -13,6 +13,8 @@ namespace RPG::Client::PixAir { class PixAirBasicInfo; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirBasicChangeData_TypeDefinitionIndex = 79313;
+
 	class PixAirBasicChangeData : public ::System::Object
 	{
 	public:

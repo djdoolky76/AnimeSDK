@@ -4,6 +4,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2SensorOverlaps_TypeDefinitionIndex = 36752;
+
 	struct alignas(8) B2SensorOverlaps
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Array_1<::System::Int32> overlaps; // 0x10

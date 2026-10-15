@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AccountLoginMode_TypeDefinitionIndex = 61084;
+
 	enum class AccountLoginMode : ::System::Int32
 	{
 		eSDK = 0,

@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JMNAGCHOAKN_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0xB2726D0)
 #define JMNAGCHOAKN_SET_CONTROLLER_OFFSET UNITYSDK_OFFSET(0xB272620)
 
+inline static constexpr unsigned int JMNAGCHOAKN_TypeDefinitionIndex = 71147;
+
 	class JMNAGCHOAKN : public ::System::Object
 	{
 	public:

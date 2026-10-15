@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SaveModelWhenDead; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SaveModelWhenDead_TypeDefinitionIndex = 23135;
+
 	class SaveModelWhenDead : public ::RPG::GameCore::TaskConfig
 	{
 	public:

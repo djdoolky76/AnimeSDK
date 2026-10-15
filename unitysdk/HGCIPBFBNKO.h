@@ -38,6 +38,8 @@ namespace System { class String; }
 #define HGCIPBFBNKO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E574660)
 #define HGCIPBFBNKO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5746C0)
 
+inline static constexpr unsigned int HGCIPBFBNKO_TypeDefinitionIndex = 27037;
+
 	class HGCIPBFBNKO : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FINMGDLKNMH_SET_TEAMRANKLIST_OFFSET UNITYSDK_OFFSET(0x157AF100)
 #define FINMGDLKNMH_SET_TRACKIDLIST_OFFSET UNITYSDK_OFFSET(0x157AF080)
 
+inline static constexpr unsigned int FINMGDLKNMH_TypeDefinitionIndex = 81670;
+
 	class FINMGDLKNMH : public ::System::Object
 	{
 	public:

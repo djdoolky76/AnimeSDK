@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MarbleBattleShowSpecialKillNotify_TypeDefinitionIndex = 65827;
+
 	class MarbleBattleShowSpecialKillNotify : public ::System::Object
 	{
 	public:

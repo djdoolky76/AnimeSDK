@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace Mono::Util
 {
+	inline static constexpr unsigned int MonoPInvokeCallbackAttribute_TypeDefinitionIndex = 2346;
+
 	class MonoPInvokeCallbackAttribute : public ::System::Attribute
 	{
 	public:

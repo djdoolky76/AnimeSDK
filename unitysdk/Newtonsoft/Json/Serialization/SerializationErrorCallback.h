@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int SerializationErrorCallback_TypeDefinitionIndex = 9722;
+
 	class SerializationErrorCallback : public ::System::MulticastDelegate
 	{
 	public:

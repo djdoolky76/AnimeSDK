@@ -11,6 +11,8 @@ namespace RPG::Client::LimaoNews { class LimaoNewsWindowService; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsPlanReviewPhaseItemViewModel___c__DisplayClass0_0_TypeDefinitionIndex = 80443;
+
 	class LimaoNewsPlanReviewPhaseItemViewModel___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

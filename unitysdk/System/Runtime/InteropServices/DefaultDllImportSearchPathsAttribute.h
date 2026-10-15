@@ -7,6 +7,8 @@
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int DefaultDllImportSearchPathsAttribute_TypeDefinitionIndex = 1420;
+
 	class DefaultDllImportSearchPathsAttribute : public ::System::Attribute
 	{
 	public:

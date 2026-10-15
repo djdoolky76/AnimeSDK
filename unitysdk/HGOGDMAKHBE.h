@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HGOGDMAKHBE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15CB2EF0)
 #define HGOGDMAKHBE_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x15CB2F80)
 
+inline static constexpr unsigned int HGOGDMAKHBE_TypeDefinitionIndex = 67027;
+
 	class HGOGDMAKHBE : public ::System::Object
 	{
 	public:

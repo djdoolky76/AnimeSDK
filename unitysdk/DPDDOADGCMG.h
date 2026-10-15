@@ -31,6 +31,8 @@ namespace System { class String; }
 #define DPDDOADGCMG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E20B340)
 #define DPDDOADGCMG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E20B3A0)
 
+inline static constexpr unsigned int DPDDOADGCMG_TypeDefinitionIndex = 28810;
+
 	class DPDDOADGCMG : public ::System::Object
 	{
 	public:

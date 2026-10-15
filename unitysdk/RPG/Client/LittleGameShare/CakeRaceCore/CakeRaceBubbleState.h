@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGameShare::CakeRaceCore
 {
+	inline static constexpr unsigned int CakeRaceBubbleState_TypeDefinitionIndex = 37234;
+
 	enum class CakeRaceBubbleState : ::System::Int32
 	{
 		Active = 0,

@@ -3,6 +3,8 @@
 
 namespace VLB
 {
+	inline static constexpr unsigned int BlendingMode_TypeDefinitionIndex = 48989;
+
 	enum class BlendingMode : ::System::Int32
 	{
 		Additive = 0,

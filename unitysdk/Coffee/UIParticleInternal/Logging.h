@@ -20,6 +20,8 @@ namespace UnityEngine { class Object; }
 
 namespace Coffee::UIParticleInternal
 {
+	inline static constexpr unsigned int Logging_TypeDefinitionIndex = 45133;
+
 	class Logging : public ::System::Object
 	{
 	public:

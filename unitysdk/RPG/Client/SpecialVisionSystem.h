@@ -30,6 +30,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SpecialVisionSystem_TypeDefinitionIndex = 60940;
+
 	class SpecialVisionSystem : public ::System::Object
 	{
 	public:

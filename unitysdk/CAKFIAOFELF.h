@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CAKFIAOFELF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC487990)
 #define CAKFIAOFELF_TICK_OFFSET UNITYSDK_OFFSET(0xC487A20)
 
+inline static constexpr unsigned int CAKFIAOFELF_TypeDefinitionIndex = 58149;
+
 	class CAKFIAOFELF : public ::GELIALJDFBL
 	{
 	public:

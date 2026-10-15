@@ -9,6 +9,8 @@ namespace RPG::Client { class ExpeditionModule; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ExpeditionGroupData___c__DisplayClass1_0_TypeDefinitionIndex = 63963;
+
 	class ExpeditionGroupData___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

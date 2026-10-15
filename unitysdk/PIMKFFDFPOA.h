@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PIMKFFDFPOA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC2714C0)
 #define PIMKFFDFPOA_PICOOGCCFGD_OFFSET UNITYSDK_OFFSET(0xC271670)
 
+inline static constexpr unsigned int PIMKFFDFPOA_TypeDefinitionIndex = 53337;
+
 	class PIMKFFDFPOA
 	{
 	public:

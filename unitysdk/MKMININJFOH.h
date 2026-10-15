@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MKMININJFOH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB99DB20)
 #define MKMININJFOH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB99DEA0)
 
+inline static constexpr unsigned int MKMININJFOH_TypeDefinitionIndex = 52122;
+
 	class MKMININJFOH
 	{
 	public:

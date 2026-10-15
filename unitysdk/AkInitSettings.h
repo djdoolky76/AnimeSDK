@@ -43,6 +43,8 @@ namespace System { class String; }
 #define AKINITSETTINGS_SET_UMONITORQUEUEPOOLSIZE_OFFSET UNITYSDK_OFFSET(0x1F5850D0)
 #define AKINITSETTINGS_SET_UNUMSAMPLESPERFRAME_OFFSET UNITYSDK_OFFSET(0x1F588B50)
 
+inline static constexpr unsigned int AkInitSettings_TypeDefinitionIndex = 44746;
+
 	class AkInitSettings : public ::System::Object
 	{
 	public:

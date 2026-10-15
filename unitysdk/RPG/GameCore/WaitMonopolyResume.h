@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitMonopolyResume; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitMonopolyResume_TypeDefinitionIndex = 20926;
+
 	class WaitMonopolyResume : public ::RPG::GameCore::TaskConfig
 	{
 	public:

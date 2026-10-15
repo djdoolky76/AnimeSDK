@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 #define FNGAIKFIAAE_CTOR_OFFSET UNITYSDK_OFFSET(0x1586E9D0)
 
+inline static constexpr unsigned int FNGAIKFIAAE_TypeDefinitionIndex = 56893;
+
 	class FNGAIKFIAAE : public ::System::Object
 	{
 	public:

@@ -79,6 +79,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RenderTestPageContext_TypeDefinitionIndex = 72863;
+
 	class RenderTestPageContext : public ::RPG::Client::UIController
 	{
 	public:

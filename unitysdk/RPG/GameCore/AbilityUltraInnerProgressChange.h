@@ -16,6 +16,8 @@ namespace RPG::GameCore { class AbilityUltraInnerProgressChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityUltraInnerProgressChange_TypeDefinitionIndex = 56563;
+
 	class AbilityUltraInnerProgressChange : public ::CMPGEAFHHDC
 	{
 	public:

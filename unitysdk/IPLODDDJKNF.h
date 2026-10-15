@@ -36,6 +36,8 @@ namespace System { class String; }
 #define IPLODDDJKNF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6E68D0)
 #define IPLODDDJKNF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6E6930)
 
+inline static constexpr unsigned int IPLODDDJKNF_TypeDefinitionIndex = 28177;
+
 	class IPLODDDJKNF : public ::System::Object
 	{
 	public:

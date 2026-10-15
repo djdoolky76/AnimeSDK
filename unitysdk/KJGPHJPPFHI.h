@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KJGPHJPPFHI_LNEMCMANEJE_1_OFFSET UNITYSDK_OFFSET(0xB44A270)
 #define KJGPHJPPFHI_LNEMCMANEJE_OFFSET UNITYSDK_OFFSET(0xB44A0B0)
 
+inline static constexpr unsigned int KJGPHJPPFHI_TypeDefinitionIndex = 64017;
+
 	class KJGPHJPPFHI : public ::System::Object
 	{
 	public:

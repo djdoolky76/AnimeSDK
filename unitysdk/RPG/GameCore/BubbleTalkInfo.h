@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BubbleTalkInfo_TypeDefinitionIndex = 20404;
+
 	class BubbleTalkInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System { class String; }
 #define NKKGEMBHBLA_EHAIPFFJIKK_OFFSET UNITYSDK_OFFSET(0xBC39430)
 #define NKKGEMBHBLA_FHMHFKCILOI_OFFSET UNITYSDK_OFFSET(0xBC39580)
 
+inline static constexpr unsigned int NKKGEMBHBLA_TypeDefinitionIndex = 76192;
+
 	class NKKGEMBHBLA : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__TriggerHapticPulse_TypeDefinitionIndex = 38925;
+
 	class IVRSystem__TriggerHapticPulse : public ::System::MulticastDelegate
 	{
 	public:

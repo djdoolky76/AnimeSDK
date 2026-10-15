@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LineupMazeBuffConfig_TypeDefinitionIndex = 18132;
+
 	class LineupMazeBuffConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int CVRDriverManager_TypeDefinitionIndex = 39212;
+
 	class CVRDriverManager : public ::System::Object
 	{
 	public:

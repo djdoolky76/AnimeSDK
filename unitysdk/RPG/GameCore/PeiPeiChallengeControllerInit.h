@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PeiPeiChallengeControllerInit; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PeiPeiChallengeControllerInit_TypeDefinitionIndex = 21192;
+
 	class PeiPeiChallengeControllerInit : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int HoYoSDKWebView_WebViewJoypadConfig_TypeDefinitionIndex = 46778;
+
 	class HoYoSDKWebView_WebViewJoypadConfig : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MoveTeamRootPosByTargetDistance; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MoveTeamRootPosByTargetDistance_TypeDefinitionIndex = 22636;
+
 	class MoveTeamRootPosByTargetDistance : public ::RPG::GameCore::TaskConfig
 	{
 	public:

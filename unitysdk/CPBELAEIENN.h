@@ -13,6 +13,8 @@
 #define CPBELAEIENN_SET_ISEXITBATTLEBTNDISABLE_OFFSET UNITYSDK_OFFSET(0xDCCE350)
 #define CPBELAEIENN_SET_ISTRYOPEN_OFFSET UNITYSDK_OFFSET(0xDCCE330)
 
+inline static constexpr unsigned int CPBELAEIENN_TypeDefinitionIndex = 71647;
+
 	class CPBELAEIENN : public ::System::Object
 	{
 	public:

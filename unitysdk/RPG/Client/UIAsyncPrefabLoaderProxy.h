@@ -11,6 +11,8 @@ namespace RPG::Client { class UIPrefabLoader; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIAsyncPrefabLoaderProxy_TypeDefinitionIndex = 73022;
+
 	class UIAsyncPrefabLoaderProxy : public ::System::Object
 	{
 	public:

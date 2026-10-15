@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoBaseSDK_CustomAutoTestUniqueInfo_TypeDefinitionIndex = 46263;
+
 	class MiHoYoBaseSDK_CustomAutoTestUniqueInfo : public ::System::Object
 	{
 	public:

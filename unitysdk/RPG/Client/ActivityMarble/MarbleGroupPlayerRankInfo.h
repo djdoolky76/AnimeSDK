@@ -16,6 +16,8 @@ namespace RPG::GameCore { class MarbleMatchGroupStageRankRow; }
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarbleGroupPlayerRankInfo_TypeDefinitionIndex = 75986;
+
 	class MarbleGroupPlayerRankInfo : public ::System::Object
 	{
 	public:

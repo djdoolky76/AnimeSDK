@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int ObjectTranslator___c__DisplayClass7115_0_TypeDefinitionIndex = 50086;
+
 	class ObjectTranslator___c__DisplayClass7115_0 : public ::System::Object
 	{
 	public:

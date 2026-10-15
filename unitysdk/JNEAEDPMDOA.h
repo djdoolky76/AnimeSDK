@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define JNEAEDPMDOA_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB27BF40)
 #define JNEAEDPMDOA_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB27BED0)
 
+inline static constexpr unsigned int JNEAEDPMDOA_TypeDefinitionIndex = 54083;
+
 	class JNEAEDPMDOA : public ::CMPGEAFHHDC
 	{
 	public:

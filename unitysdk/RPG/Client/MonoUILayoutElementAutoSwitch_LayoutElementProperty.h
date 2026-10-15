@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoUILayoutElementAutoSwitch_LayoutElementProperty_TypeDefinitionIndex = 72615;
+
 	class MonoUILayoutElementAutoSwitch_LayoutElementProperty : public ::System::Object
 	{
 	public:

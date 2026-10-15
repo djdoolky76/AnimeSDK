@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NpcSetupTrigger_TypeDefinitionIndex = 21973;
+
 	class NpcSetupTrigger : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client { class ScheduleData; }
 #define PMEKHCELADI___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC318E30)
 #define PMEKHCELADI___C__DISPLAYCLASS8_0___ONSCHEDULECONFIGREFRESHFINISH_B__0_OFFSET UNITYSDK_OFFSET(0xC3193C0)
 
+inline static constexpr unsigned int PMEKHCELADI___c__DisplayClass8_0_TypeDefinitionIndex = 61406;
+
 	class PMEKHCELADI___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 #define OOPMKGIBJMN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C9A0B60)
 #define OOPMKGIBJMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9A0BE0)
 
+inline static constexpr unsigned int OOPMKGIBJMN_TypeDefinitionIndex = 43656;
+
 	class OOPMKGIBJMN : public ::System::Object
 	{
 	public:

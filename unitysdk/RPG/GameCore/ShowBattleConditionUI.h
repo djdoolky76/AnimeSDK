@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowBattleConditionUI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowBattleConditionUI_TypeDefinitionIndex = 23364;
+
 	class ShowBattleConditionUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

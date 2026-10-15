@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define KHJDGHIPOCO_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C70F4C0)
 #define KHJDGHIPOCO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C70F480)
 
+inline static constexpr unsigned int KHJDGHIPOCO_TypeDefinitionIndex = 36234;
+
 	class KHJDGHIPOCO : public ::System::MulticastDelegate
 	{
 	public:

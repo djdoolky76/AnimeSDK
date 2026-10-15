@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define BBKMLDGICCH___C___CCTOR_B__13_3_OFFSET UNITYSDK_OFFSET(0x15E8FB20)
 #define BBKMLDGICCH___C___CCTOR_B__13_4_OFFSET UNITYSDK_OFFSET(0x15E8FC30)
 
+inline static constexpr unsigned int BBKMLDGICCH___c_TypeDefinitionIndex = 80519;
+
 	class BBKMLDGICCH___c : public ::System::Object
 	{
 	public:

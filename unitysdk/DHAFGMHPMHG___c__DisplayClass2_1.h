@@ -8,6 +8,8 @@ namespace System { class String; }
 #define DHAFGMHPMHG___C__DISPLAYCLASS2_1_CTOR_OFFSET UNITYSDK_OFFSET(0xEBB4F20)
 #define DHAFGMHPMHG___C__DISPLAYCLASS2_1___DOACTION_B__0_OFFSET UNITYSDK_OFFSET(0xEBB4F30)
 
+inline static constexpr unsigned int DHAFGMHPMHG___c__DisplayClass2_1_TypeDefinitionIndex = 59583;
+
 	template <typename T>
 	class DHAFGMHPMHG___c__DisplayClass2_1 : public ::System::Object
 	{

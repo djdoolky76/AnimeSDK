@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int DMHILEFFPFL_TypeDefinitionIndex = 30354;
+
 	enum class DMHILEFFPFL : ::System::Int32
 	{
 		MCOJKNIBCLO = 0,

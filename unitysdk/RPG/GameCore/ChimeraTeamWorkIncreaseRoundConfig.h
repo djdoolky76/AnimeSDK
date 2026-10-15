@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChimeraTeamWorkIncreaseRoundConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraTeamWorkIncreaseRoundConfig_TypeDefinitionIndex = 15890;
+
 	class ChimeraTeamWorkIncreaseRoundConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

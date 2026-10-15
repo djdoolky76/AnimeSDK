@@ -10,6 +10,8 @@ class LAECFLNNOFH;
 #define IPIAHMIOHMN_KJJKAHIIAHO_OFFSET UNITYSDK_OFFSET(0x16520FB0)
 #define IPIAHMIOHMN_NDOEBAFGOEK_OFFSET UNITYSDK_OFFSET(0x16521380)
 
+inline static constexpr unsigned int IPIAHMIOHMN_TypeDefinitionIndex = 77316;
+
 	class IPIAHMIOHMN : public ::System::Object
 	{
 	public:

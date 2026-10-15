@@ -9,6 +9,8 @@ class OFHBIFPNNBH;
 #define OFHBIFPNNBH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D269340)
 #define OFHBIFPNNBH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D269150)
 
+inline static constexpr unsigned int OFHBIFPNNBH_TypeDefinitionIndex = 11549;
+
 	class OFHBIFPNNBH : public ::System::Object
 	{
 	public:

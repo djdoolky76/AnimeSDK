@@ -34,6 +34,8 @@ namespace System { class String; }
 #define DLCNDCKCIPC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1E0540)
 #define DLCNDCKCIPC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1E05A0)
 
+inline static constexpr unsigned int DLCNDCKCIPC_TypeDefinitionIndex = 27315;
+
 	class DLCNDCKCIPC : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DialogueGroupExcelTable_IndexKey_TypeDefinitionIndex = 13131;
+
 	struct alignas(4) DialogueGroupExcelTable_IndexKey
 	{
 		::System::UInt32 GroupID; // 0x10

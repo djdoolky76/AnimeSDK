@@ -8,6 +8,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SetStageItemStateBehaviour_TypeDefinitionIndex = 48406;
+
 	class SetStageItemStateBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
 	public:

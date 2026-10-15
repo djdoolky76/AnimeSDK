@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define POGFIPOLGDG_LJNHGMGKLOI_OFFSET UNITYSDK_OFFSET(0xC3604A0)
 #define POGFIPOLGDG_OAMHIBHKPGJ_OFFSET UNITYSDK_OFFSET(0xC360890)
 
+inline static constexpr unsigned int POGFIPOLGDG_TypeDefinitionIndex = 77410;
+
 	class POGFIPOLGDG : public ::System::Object
 	{
 	public:

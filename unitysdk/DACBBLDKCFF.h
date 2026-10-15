@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define DACBBLDKCFF_DMOOFECJDCD_OFFSET UNITYSDK_OFFSET(0xDFBC4D0)
 #define DACBBLDKCFF_JIFKINHMFHE_OFFSET UNITYSDK_OFFSET(0xDFBC340)
 
+inline static constexpr unsigned int DACBBLDKCFF_TypeDefinitionIndex = 79646;
+
 	class DACBBLDKCFF : public ::System::Object
 	{
 	public:

@@ -40,6 +40,8 @@ namespace UnityEngine { class Transform; }
 #define FHMPBHAPGKP_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1578A880)
 #define FHMPBHAPGKP_PNNEABEMEMO_OFFSET UNITYSDK_OFFSET(0x1578B040)
 
+inline static constexpr unsigned int FHMPBHAPGKP_TypeDefinitionIndex = 69639;
+
 	class FHMPBHAPGKP : public ::MDILEMALGNC
 	{
 	public:

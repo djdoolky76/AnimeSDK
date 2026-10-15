@@ -9,6 +9,8 @@ namespace RPG::GameCore { class NpcPerfStatConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NpcPerfStatConfig_TypeDefinitionIndex = 19112;
+
 	class NpcPerfStatConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

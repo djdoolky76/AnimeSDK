@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetComfortZoneWidthOverride; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetComfortZoneWidthOverride_TypeDefinitionIndex = 22982;
+
 	class SetComfortZoneWidthOverride : public ::RPG::GameCore::TaskConfig
 	{
 	public:

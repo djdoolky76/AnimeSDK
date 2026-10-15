@@ -11,6 +11,8 @@ namespace System::Net::Sockets { class Socket; }
 #define HCCEELDOMFB___C__PINGBYUDPSYNC_B__2_0_OFFSET UNITYSDK_OFFSET(0x1DDADB40)
 #define HCCEELDOMFB___C__PINGBYUDPSYNC_B__2_1_OFFSET UNITYSDK_OFFSET(0x1DDADB50)
 
+inline static constexpr unsigned int HCCEELDOMFB___c_TypeDefinitionIndex = 43964;
+
 	class HCCEELDOMFB___c : public ::System::Object
 	{
 	public:

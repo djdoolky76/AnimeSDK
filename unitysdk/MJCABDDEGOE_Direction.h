@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int MJCABDDEGOE_Direction_TypeDefinitionIndex = 62359;
+
 	enum class MJCABDDEGOE_Direction : ::System::Int32
 	{
 		Stay = 0,

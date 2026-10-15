@@ -29,6 +29,8 @@ namespace System::Text { class Encoding; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKRC4Encryptor_TypeDefinitionIndex = 46477;
+
 	class MiHoYoSDKRC4Encryptor : public ::System::Object
 	{
 	public:

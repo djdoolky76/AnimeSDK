@@ -27,6 +27,8 @@ namespace System { class String; }
 #define MBKBDPECMHA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9E6270)
 #define MBKBDPECMHA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9E62D0)
 
+inline static constexpr unsigned int MBKBDPECMHA_TypeDefinitionIndex = 31089;
+
 	class MBKBDPECMHA : public ::System::Object
 	{
 	public:

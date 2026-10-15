@@ -5,6 +5,8 @@ class KHPOKIKCOFO;
 
 #define OLOMBDFNFFG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C99DBE0)
 
+inline static constexpr unsigned int OLOMBDFNFFG_TypeDefinitionIndex = 42144;
+
 	class OLOMBDFNFFG : public ::System::Object
 	{
 	public:

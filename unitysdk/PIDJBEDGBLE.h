@@ -30,6 +30,8 @@ namespace System { class String; }
 #define PIDJBEDGBLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF44400)
 #define PIDJBEDGBLE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF44460)
 
+inline static constexpr unsigned int PIDJBEDGBLE_TypeDefinitionIndex = 26835;
+
 	class PIDJBEDGBLE : public ::System::Object
 	{
 	public:

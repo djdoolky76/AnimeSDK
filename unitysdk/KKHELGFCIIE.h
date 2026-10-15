@@ -13,6 +13,8 @@ namespace Entitas { class IGroup; }
 #define KKHELGFCIIE_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xB4BC460)
 #define KKHELGFCIIE_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB4BD0C0)
 
+inline static constexpr unsigned int KKHELGFCIIE_TypeDefinitionIndex = 77781;
+
 	class KKHELGFCIIE : public ::System::Object
 	{
 	public:

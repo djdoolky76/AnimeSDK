@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::Prop::PillarPuzzle
 {
+	inline static constexpr unsigned int PillarPuzzleBoardSequenceInteract___OnResetPuzzleCo_d__7_TypeDefinitionIndex = 78973;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
 	class PillarPuzzleBoardSequenceInteract___OnResetPuzzleCo_d__7 : public ::System::Object
 	{

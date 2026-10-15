@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NELAJPKAHLM_CTOR_OFFSET UNITYSDK_OFFSET(0xBB6FB90)
 #define NELAJPKAHLM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBB6FBE0)
 
+inline static constexpr unsigned int NELAJPKAHLM_TypeDefinitionIndex = 59225;
+
 	class NELAJPKAHLM
 	{
 	public:

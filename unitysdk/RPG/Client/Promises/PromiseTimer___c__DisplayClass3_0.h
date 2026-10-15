@@ -8,6 +8,8 @@
 
 namespace RPG::Client::Promises
 {
+	inline static constexpr unsigned int PromiseTimer___c__DisplayClass3_0_TypeDefinitionIndex = 9905;
+
 	class PromiseTimer___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

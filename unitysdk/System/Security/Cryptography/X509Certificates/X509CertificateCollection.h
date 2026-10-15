@@ -15,6 +15,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Certifica
 
 namespace System::Security::Cryptography::X509Certificates
 {
+	inline static constexpr unsigned int X509CertificateCollection_TypeDefinitionIndex = 2696;
+
 	class X509CertificateCollection : public ::System::Collections::CollectionBase
 	{
 	public:

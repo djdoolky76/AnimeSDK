@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AnimZoneFootConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AnimZoneFootConfig_TypeDefinitionIndex = 16322;
+
 	class AnimZoneFootConfig : public ::RPG::GameCore::AnimZoneBaseConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace SRF::Helpers
 {
+	inline static constexpr unsigned int PropertyReference___c__DisplayClass14_0_TypeDefinitionIndex = 35430;
+
 	class PropertyReference___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:

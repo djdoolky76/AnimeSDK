@@ -29,6 +29,8 @@ namespace UnityEngine { class AndroidJavaObject; }
 #define OCAPJEHJPNC_NPJODHJPFDL_OFFSET UNITYSDK_OFFSET(0x1CC8E910)
 #define OCAPJEHJPNC_PDKLDMNAJBO_OFFSET UNITYSDK_OFFSET(0x1CC8F170)
 
+inline static constexpr unsigned int OCAPJEHJPNC_TypeDefinitionIndex = 43838;
+
 	class OCAPJEHJPNC : public ::OAHMMNKIOFD
 	{
 	public:

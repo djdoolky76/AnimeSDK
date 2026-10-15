@@ -7,6 +7,8 @@
 #define IMGGLIKONAG_FMHOOKOBIBK_OFFSET UNITYSDK_OFFSET(0x164D4440)
 #define IMGGLIKONAG_LEJJJLKKCBC_OFFSET UNITYSDK_OFFSET(0x164D43C0)
 
+inline static constexpr unsigned int IMGGLIKONAG_TypeDefinitionIndex = 54407;
+
 	class IMGGLIKONAG : public ::System::Object
 	{
 	public:

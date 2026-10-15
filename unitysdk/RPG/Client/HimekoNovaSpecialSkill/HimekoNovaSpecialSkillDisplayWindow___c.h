@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::HimekoNovaSpecialSkill
 {
+	inline static constexpr unsigned int HimekoNovaSpecialSkillDisplayWindow___c_TypeDefinitionIndex = 80490;
+
 	class HimekoNovaSpecialSkillDisplayWindow___c : public ::System::Object
 	{
 	public:

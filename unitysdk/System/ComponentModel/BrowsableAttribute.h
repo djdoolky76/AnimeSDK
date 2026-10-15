@@ -13,6 +13,8 @@ namespace System::ComponentModel { class BrowsableAttribute; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int BrowsableAttribute_TypeDefinitionIndex = 2565;
+
 	class BrowsableAttribute : public ::System::Attribute
 	{
 	public:

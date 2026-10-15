@@ -16,6 +16,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::BattlePerform
 {
+	inline static constexpr unsigned int BPCharacterHeadLookAtClip_TypeDefinitionIndex = 48811;
+
 	class BPCharacterHeadLookAtClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvSetDynamicValueByTargetDistance_TypeDefinitionIndex = 20771;
+
 	class AdvSetDynamicValueByTargetDistance : public ::RPG::GameCore::TaskConfig
 	{
 	public:

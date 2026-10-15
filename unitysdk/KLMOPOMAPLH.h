@@ -7,6 +7,8 @@ namespace RPG::GameCore { class RtDamageConstConfig; }
 #define KLMOPOMAPLH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB52F670)
 #define KLMOPOMAPLH_KJBDNPJAHOP_OFFSET UNITYSDK_OFFSET(0xB52F3C0)
 
+inline static constexpr unsigned int KLMOPOMAPLH_TypeDefinitionIndex = 54201;
+
 	class KLMOPOMAPLH : public ::System::Object
 	{
 	public:

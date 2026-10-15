@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierExecActionTraitRefreshConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierExecActionTraitRefreshConfig_TypeDefinitionIndex = 19461;
+
 	class GridFightModifierExecActionTraitRefreshConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

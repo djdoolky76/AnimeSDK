@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 #define MONOUIADAPTCONFIGITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xBA4FA40)
 #define MONOUIADAPTCONFIGITEM_EPGFADIBHKP_OFFSET UNITYSDK_OFFSET(0xBA4F530)
 
+inline static constexpr unsigned int MonoUIAdaptConfigItem_TypeDefinitionIndex = 47584;
+
 	class MonoUIAdaptConfigItem : public ::System::Object
 	{
 	public:

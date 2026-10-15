@@ -93,6 +93,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define KKKKGPJLODD_SET_TURNSTARTANGLE_OFFSET UNITYSDK_OFFSET(0xB4D23C0)
 #define KKKKGPJLODD_SET_TURNTIME_OFFSET UNITYSDK_OFFSET(0xB4D23A0)
 
+inline static constexpr unsigned int KKKKGPJLODD_TypeDefinitionIndex = 75821;
+
 	class KKKKGPJLODD
 	{
 	public:

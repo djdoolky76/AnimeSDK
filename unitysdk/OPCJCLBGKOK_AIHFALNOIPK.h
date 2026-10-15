@@ -4,6 +4,8 @@
 
 #define OPCJCLBGKOK_AIHFALNOIPK_CTOR_OFFSET UNITYSDK_OFFSET(0xBFA5640)
 
+inline static constexpr unsigned int OPCJCLBGKOK_AIHFALNOIPK_TypeDefinitionIndex = 71914;
+
 	class OPCJCLBGKOK_AIHFALNOIPK : public ::System::Object
 	{
 	public:

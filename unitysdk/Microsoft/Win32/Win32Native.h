@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace Microsoft::Win32
 {
+	inline static constexpr unsigned int Win32Native_TypeDefinitionIndex = 112;
+
 	class Win32Native : public ::System::Object
 	{
 	public:

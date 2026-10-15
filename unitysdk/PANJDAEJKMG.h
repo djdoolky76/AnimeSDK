@@ -9,6 +9,8 @@ namespace RPG::Client { template <typename T1, typename T2> class PrefDictionary
 #define PANJDAEJKMG_MCICJIGBFLJ_OFFSET UNITYSDK_OFFSET(0x260B0)
 #define PANJDAEJKMG_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x26180)
 
+inline static constexpr unsigned int PANJDAEJKMG_TypeDefinitionIndex = 63123;
+
 	struct alignas(8) PANJDAEJKMG
 	{
 		::RPG::Client::PrefDictionary_2<::System::UInt32, ::System::UInt32>* FMEIEHKADFL; // 0x10

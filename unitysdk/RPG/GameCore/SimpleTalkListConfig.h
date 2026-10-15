@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SimpleTalkListConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SimpleTalkListConfig_TypeDefinitionIndex = 20843;
+
 	class SimpleTalkListConfig : public ::RPG::GameCore::TaskConfig
 	{
 	public:

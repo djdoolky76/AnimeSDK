@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HBNPGDPCGDJ_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x15C138E0)
 #define HBNPGDPCGDJ_PMFJEAIKHKA_OFFSET UNITYSDK_OFFSET(0x15C132C0)
 
+inline static constexpr unsigned int HBNPGDPCGDJ_TypeDefinitionIndex = 73570;
+
 	class HBNPGDPCGDJ : public ::System::Object
 	{
 	public:

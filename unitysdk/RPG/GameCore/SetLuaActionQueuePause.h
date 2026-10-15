@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetLuaActionQueuePause; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetLuaActionQueuePause_TypeDefinitionIndex = 24283;
+
 	class SetLuaActionQueuePause : public ::RPG::GameCore::TaskConfig
 	{
 	public:

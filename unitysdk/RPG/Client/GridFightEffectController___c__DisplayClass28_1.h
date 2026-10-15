@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass28_1_TypeDefinitionIndex = 64487;
+
 	template <typename T>
 	class GridFightEffectController___c__DisplayClass28_1 : public ::System::Object
 	{

@@ -7,6 +7,8 @@
 
 namespace UnityEngine::Experimental::Video
 {
+	inline static constexpr unsigned int VideoClipPlayable_TypeDefinitionIndex = 6047;
+
 	struct alignas(4) VideoClipPlayable
 	{
 		::UnityEngine::Playables::PlayableHandle m_Handle; // 0x10

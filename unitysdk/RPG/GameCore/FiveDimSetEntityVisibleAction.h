@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimSetEntityVisibleAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetEntityVisibleAction_TypeDefinitionIndex = 18683;
+
 	class FiveDimSetEntityVisibleAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

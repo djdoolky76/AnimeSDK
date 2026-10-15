@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NIFJLPOAIKN_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0xBBE9AF0)
 #define NIFJLPOAIKN_CCTOR_OFFSET UNITYSDK_OFFSET(0xBBE9D90)
 
+inline static constexpr unsigned int NIFJLPOAIKN_TypeDefinitionIndex = 59951;
+
 	class NIFJLPOAIKN : public ::System::Object
 	{
 	public:

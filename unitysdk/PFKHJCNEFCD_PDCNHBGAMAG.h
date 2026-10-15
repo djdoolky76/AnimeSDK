@@ -8,6 +8,8 @@ namespace System { class String; }
 #define PFKHJCNEFCD_PDCNHBGAMAG_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C36280)
 #define PFKHJCNEFCD_PDCNHBGAMAG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C3E770)
 
+inline static constexpr unsigned int PFKHJCNEFCD_PDCNHBGAMAG_TypeDefinitionIndex = 14354;
+
 	struct alignas(4) PFKHJCNEFCD_PDCNHBGAMAG
 	{
 		::RPG::GameCore::ELevelPerformanceType DNGFHOEACBI; // 0x10

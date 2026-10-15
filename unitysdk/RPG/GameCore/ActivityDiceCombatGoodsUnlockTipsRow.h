@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActivityDiceCombatGoodsUnlockTipsRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityDiceCombatGoodsUnlockTipsRow_TypeDefinitionIndex = 11249;
+
 	class ActivityDiceCombatGoodsUnlockTipsRow : public ::System::Object
 	{
 	public:

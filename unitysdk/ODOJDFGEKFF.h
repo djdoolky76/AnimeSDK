@@ -8,6 +8,8 @@ class ODOJDFGEKFF;
 #define ODOJDFGEKFF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D25B3A0)
 #define ODOJDFGEKFF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D25B2D0)
 
+inline static constexpr unsigned int ODOJDFGEKFF_TypeDefinitionIndex = 21904;
+
 	class ODOJDFGEKFF : public ::RPG::GameCore::TaskConfig
 	{
 	public:

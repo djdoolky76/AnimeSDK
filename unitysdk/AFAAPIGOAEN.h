@@ -34,6 +34,8 @@ namespace System { class String; }
 #define AFAAPIGOAEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E10F4A0)
 #define AFAAPIGOAEN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E10F500)
 
+inline static constexpr unsigned int AFAAPIGOAEN_TypeDefinitionIndex = 27922;
+
 	class AFAAPIGOAEN : public ::System::Object
 	{
 	public:

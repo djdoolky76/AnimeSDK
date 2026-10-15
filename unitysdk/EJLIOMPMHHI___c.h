@@ -18,6 +18,8 @@ namespace System { class Tuple; }
 #define EJLIOMPMHHI___C__ADDUNPACK_B__14_2_OFFSET UNITYSDK_OFFSET(0x154EA3F0)
 #define EJLIOMPMHHI___C__ADDVERIFY_B__9_2_OFFSET UNITYSDK_OFFSET(0x154EA1A0)
 
+inline static constexpr unsigned int EJLIOMPMHHI___c_TypeDefinitionIndex = 59562;
+
 	class EJLIOMPMHHI___c : public ::System::Object
 	{
 	public:

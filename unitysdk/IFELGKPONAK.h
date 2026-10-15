@@ -14,6 +14,8 @@ namespace UnityEngine { class Mesh; }
 #define IFELGKPONAK_CTOR_OFFSET UNITYSDK_OFFSET(0x15F108E0)
 #define IFELGKPONAK_FMPAOKGPMNG_OFFSET UNITYSDK_OFFSET(0x15F10BC0)
 
+inline static constexpr unsigned int IFELGKPONAK_TypeDefinitionIndex = 70213;
+
 	class IFELGKPONAK : public ::System::Object
 	{
 	public:

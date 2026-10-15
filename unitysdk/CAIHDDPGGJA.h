@@ -41,6 +41,8 @@ namespace System { class String; }
 #define CAIHDDPGGJA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E05BFC0)
 #define CAIHDDPGGJA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E05C020)
 
+inline static constexpr unsigned int CAIHDDPGGJA_TypeDefinitionIndex = 26491;
+
 	class CAIHDDPGGJA : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LevelNPCInfoOverrideLocation; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelNPCInfoOverrideLocation_TypeDefinitionIndex = 17363;
+
 	class LevelNPCInfoOverrideLocation : public ::RPG::GameCore::JsonConfig
 	{
 	public:

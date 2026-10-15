@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PrefabLoadMeta_TypeDefinitionIndex = 72855;
+
 	class PrefabLoadMeta : public ::UnityEngine::MonoBehaviour
 	{
 	public:

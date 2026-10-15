@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaRoomCardCastAction_TypeDefinitionIndex = 67048;
+
 	class RogueTournPersonaRoomCardCastAction : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int PrepareBattleTalkEntryViewModel_TypeDefinitionIndex = 80984;
+
 	class PrepareBattleTalkEntryViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

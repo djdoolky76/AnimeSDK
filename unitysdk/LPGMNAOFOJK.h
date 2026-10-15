@@ -30,6 +30,8 @@ namespace System { class String; }
 #define LPGMNAOFOJK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9CCEF0)
 #define LPGMNAOFOJK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9CCF50)
 
+inline static constexpr unsigned int LPGMNAOFOJK_TypeDefinitionIndex = 28115;
+
 	class LPGMNAOFOJK : public ::System::Object
 	{
 	public:

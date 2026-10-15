@@ -11,6 +11,8 @@ namespace System { class Type; }
 #define CMEEKJAKLIJ_ICIFMFBBKPK_OFFSET UNITYSDK_OFFSET(0xDA297E0)
 #define CMEEKJAKLIJ_MFAKHNJGMGF_OFFSET UNITYSDK_OFFSET(0xDA29830)
 
+inline static constexpr unsigned int CMEEKJAKLIJ_TypeDefinitionIndex = 67180;
+
 	class CMEEKJAKLIJ : public ::System::Object
 	{
 	public:

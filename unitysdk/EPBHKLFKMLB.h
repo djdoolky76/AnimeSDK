@@ -27,6 +27,8 @@ namespace System { class String; }
 #define EPBHKLFKMLB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3044A0)
 #define EPBHKLFKMLB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E304500)
 
+inline static constexpr unsigned int EPBHKLFKMLB_TypeDefinitionIndex = 29883;
+
 	class EPBHKLFKMLB : public ::System::Object
 	{
 	public:

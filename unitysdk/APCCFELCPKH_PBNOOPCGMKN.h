@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 #define APCCFELCPKH_PBNOOPCGMKN_CTOR_OFFSET UNITYSDK_OFFSET(0x15BA4B30)
 
+inline static constexpr unsigned int APCCFELCPKH_PBNOOPCGMKN_TypeDefinitionIndex = 60235;
+
 	class APCCFELCPKH_PBNOOPCGMKN : public ::System::Object
 	{
 	public:

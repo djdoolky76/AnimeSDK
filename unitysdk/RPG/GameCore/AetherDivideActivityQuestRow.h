@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AetherDivideActivityQuestRow_TypeDefinitionIndex = 10930;
+
 	class AetherDivideActivityQuestRow : public ::System::Object
 	{
 	public:

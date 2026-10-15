@@ -5,6 +5,8 @@
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int EventProvider_SessionInfo_TypeDefinitionIndex = 1683;
+
 	struct alignas(4) EventProvider_SessionInfo
 	{
 		::System::Int32 sessionIdBit; // 0x10

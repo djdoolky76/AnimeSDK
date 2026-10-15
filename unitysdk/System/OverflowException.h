@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int OverflowException_TypeDefinitionIndex = 313;
+
 	class OverflowException : public ::System::ArithmeticException
 	{
 	public:

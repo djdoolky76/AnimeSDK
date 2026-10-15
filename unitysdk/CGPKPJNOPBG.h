@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define CGPKPJNOPBG_IPAFMOLNMAC_OFFSET UNITYSDK_OFFSET(0xCC8E560)
 #define CGPKPJNOPBG_OAOJCALOGGK_OFFSET UNITYSDK_OFFSET(0xCC8E5E0)
 
+inline static constexpr unsigned int CGPKPJNOPBG_TypeDefinitionIndex = 56046;
+
 	class CGPKPJNOPBG : public ::System::Object
 	{
 	public:

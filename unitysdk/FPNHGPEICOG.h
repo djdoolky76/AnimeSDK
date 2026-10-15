@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FPNHGPEICOG_MFMOHGHOFOJ_OFFSET UNITYSDK_OFFSET(0x15921D70)
 #define FPNHGPEICOG_OMAAOOHOOOA_OFFSET UNITYSDK_OFFSET(0x15921DC0)
 
+inline static constexpr unsigned int FPNHGPEICOG_TypeDefinitionIndex = 53671;
+
 	class FPNHGPEICOG : public ::System::Object
 	{
 	public:

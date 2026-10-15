@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HLDCDMHAMOG_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CEBF490)
 #define HLDCDMHAMOG_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CEBEDB0)
 
+inline static constexpr unsigned int HLDCDMHAMOG_TypeDefinitionIndex = 13932;
+
 	class HLDCDMHAMOG : public ::System::Object
 	{
 	public:

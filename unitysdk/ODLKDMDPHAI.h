@@ -12,6 +12,8 @@ class ODLKDMDPHAI;
 #define ODLKDMDPHAI_LEICGLBOIDL_OFFSET UNITYSDK_OFFSET(0xBDEC570)
 #define ODLKDMDPHAI_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0xBDEC5C0)
 
+inline static constexpr unsigned int ODLKDMDPHAI_TypeDefinitionIndex = 57261;
+
 	class ODLKDMDPHAI : public ::System::Object
 	{
 	public:

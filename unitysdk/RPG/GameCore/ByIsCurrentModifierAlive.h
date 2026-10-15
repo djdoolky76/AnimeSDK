@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsCurrentModifierAlive_TypeDefinitionIndex = 23709;
+
 	class ByIsCurrentModifierAlive : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

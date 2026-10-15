@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MHPFDIABKNB_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D1ADAD0)
 #define MHPFDIABKNB_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D1AD3F0)
 
+inline static constexpr unsigned int MHPFDIABKNB_TypeDefinitionIndex = 11879;
+
 	class MHPFDIABKNB : public ::System::Object
 	{
 	public:

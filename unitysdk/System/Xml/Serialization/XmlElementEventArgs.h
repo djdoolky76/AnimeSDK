@@ -9,6 +9,8 @@ namespace System::Xml { class XmlElement; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlElementEventArgs_TypeDefinitionIndex = 1984;
+
 	class XmlElementEventArgs : public ::System::EventArgs
 	{
 	public:

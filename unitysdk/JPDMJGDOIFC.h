@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define JPDMJGDOIFC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA7EA0)
 
+inline static constexpr unsigned int JPDMJGDOIFC_TypeDefinitionIndex = 43763;
+
 	class JPDMJGDOIFC : public ::System::Object
 	{
 	public:

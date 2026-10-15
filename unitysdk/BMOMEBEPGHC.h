@@ -14,6 +14,8 @@ class FDPALAEIHPB;
 #define BMOMEBEPGHC_PICLGALMMBC_OFFSET UNITYSDK_OFFSET(0xBDC3260)
 #define BMOMEBEPGHC_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xBDC3180)
 
+inline static constexpr unsigned int BMOMEBEPGHC_TypeDefinitionIndex = 76542;
+
 	class BMOMEBEPGHC : public ::System::Object
 	{
 	public:

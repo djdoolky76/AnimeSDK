@@ -27,6 +27,8 @@ namespace RPG::Client::LimaoNews { class LimaoNewsMainEntrance3DViewModel; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsMainEntrance3DViewModel_TypeDefinitionIndex = 80419;
+
 	class LimaoNewsMainEntrance3DViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

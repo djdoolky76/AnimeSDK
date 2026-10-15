@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateModifierShopModifyRarityWeightConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateModifierShopModifyRarityWeightConfig_TypeDefinitionIndex = 19264;
+
 	class FateModifierShopModifyRarityWeightConfig : public ::RPG::GameCore::FateModifierConfigBase
 	{
 	public:

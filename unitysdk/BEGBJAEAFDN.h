@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BEGBJAEAFDN_MJPKPCOIIOD_OFFSET UNITYSDK_OFFSET(0x16319440)
 #define BEGBJAEAFDN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16316B50)
 
+inline static constexpr unsigned int BEGBJAEAFDN_TypeDefinitionIndex = 58959;
+
 	class BEGBJAEAFDN
 	{
 	public:

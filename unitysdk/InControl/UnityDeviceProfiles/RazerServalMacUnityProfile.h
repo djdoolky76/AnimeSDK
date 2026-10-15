@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int RazerServalMacUnityProfile_TypeDefinitionIndex = 41027;
+
 	class RazerServalMacUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

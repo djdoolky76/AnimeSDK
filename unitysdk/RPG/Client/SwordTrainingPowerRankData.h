@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SwordTrainingPowerRankData_TypeDefinitionIndex = 61963;
+
 	class SwordTrainingPowerRankData : public ::System::Object
 	{
 	public:

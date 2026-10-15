@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AnniversaryCollectionGroupData_TypeDefinitionIndex = 62401;
+
 	class AnniversaryCollectionGroupData : public ::System::Object
 	{
 	public:

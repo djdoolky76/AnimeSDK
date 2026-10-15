@@ -10,6 +10,8 @@
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceRecordOfMemory_TypeDefinitionIndex = 81470;
+
 	class ChallengeTierceRecordOfMemory : public ::RPG::Client::Challenge::Tierce::ChallengeTierceRecordBase
 	{
 	public:

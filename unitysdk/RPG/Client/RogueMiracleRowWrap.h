@@ -12,6 +12,8 @@ namespace RPG::GameCore { class RogueMiracleRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMiracleRowWrap_TypeDefinitionIndex = 67290;
+
 	class RogueMiracleRowWrap : public ::System::Object
 	{
 	public:

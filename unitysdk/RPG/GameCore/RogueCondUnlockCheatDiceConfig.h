@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueCondUnlockCheatDiceConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueCondUnlockCheatDiceConfig_TypeDefinitionIndex = 19801;
+
 	class RogueCondUnlockCheatDiceConfig : public ::RPG::GameCore::RogueConditionConfigBase
 	{
 	public:

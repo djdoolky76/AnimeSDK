@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SimulateLineupConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SimulateLineupConfig_TypeDefinitionIndex = 18143;
+
 	class SimulateLineupConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

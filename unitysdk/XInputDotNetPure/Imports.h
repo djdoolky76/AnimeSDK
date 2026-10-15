@@ -12,6 +12,8 @@
 
 namespace XInputDotNetPure
 {
+	inline static constexpr unsigned int Imports_TypeDefinitionIndex = 40779;
+
 	class Imports : public ::System::Object
 	{
 	public:

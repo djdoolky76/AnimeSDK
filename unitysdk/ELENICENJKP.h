@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define ELENICENJKP_GET_UNLOCKID_OFFSET UNITYSDK_OFFSET(0x1551ED30)
 #define ELENICENJKP_KPPCFNJMHIC_OFFSET UNITYSDK_OFFSET(0x1551ED60)
 
+inline static constexpr unsigned int ELENICENJKP_TypeDefinitionIndex = 79160;
+
 	class ELENICENJKP : public ::System::Object
 	{
 	public:

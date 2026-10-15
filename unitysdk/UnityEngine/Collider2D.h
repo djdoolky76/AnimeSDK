@@ -14,6 +14,8 @@ namespace UnityEngine { class Rigidbody2D; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Collider2D_TypeDefinitionIndex = 5813;
+
 	class Collider2D : public ::UnityEngine::Behaviour
 	{
 	public:

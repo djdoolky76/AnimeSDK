@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 #define CDNPFKDLFFB_JDAGFHEPMHF_OFFSET UNITYSDK_OFFSET(0xC76E9A0)
 #define CDNPFKDLFFB_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xC76EB70)
 
+inline static constexpr unsigned int CDNPFKDLFFB_TypeDefinitionIndex = 70937;
+
 	class CDNPFKDLFFB : public ::System::Object
 	{
 	public:

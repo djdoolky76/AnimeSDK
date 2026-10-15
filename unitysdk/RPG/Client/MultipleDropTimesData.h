@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MultipleDropTimesData_TypeDefinitionIndex = 66318;
+
 	struct alignas(4) MultipleDropTimesData
 	{
 		::System::UInt32 TotalTimes; // 0x10

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int AkChannelConfigType_TypeDefinitionIndex = 44727;
+
 	enum class AkChannelConfigType : ::System::Int32
 	{
 		AK_ChannelConfigType_Anonymous = 0,

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define GDKHHPPIFBC_PIHOIAIAOPG_OFFSET UNITYSDK_OFFSET(0x159A1DA0)
 #define GDKHHPPIFBC_SET_ALIAS_OFFSET UNITYSDK_OFFSET(0x159A31F0)
 
+inline static constexpr unsigned int GDKHHPPIFBC_TypeDefinitionIndex = 73895;
+
 	class GDKHHPPIFBC : public ::RPG::Client::OpenWorld::StreamingItemData
 	{
 	public:

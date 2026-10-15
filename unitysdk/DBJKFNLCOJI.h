@@ -6,6 +6,8 @@ namespace RPG::Client { class RogueTournTitanBlessInfo; }
 
 #define DBJKFNLCOJI_CTOR_OFFSET UNITYSDK_OFFSET(0xE228590)
 
+inline static constexpr unsigned int DBJKFNLCOJI_TypeDefinitionIndex = 67121;
+
 	class DBJKFNLCOJI : public ::EBIMENNAEIE
 	{
 	public:

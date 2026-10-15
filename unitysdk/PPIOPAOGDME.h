@@ -5,6 +5,8 @@
 
 #define PPIOPAOGDME_CTOR_OFFSET UNITYSDK_OFFSET(0xC389FF0)
 
+inline static constexpr unsigned int PPIOPAOGDME_TypeDefinitionIndex = 48304;
+
 	class PPIOPAOGDME : public ::System::Object
 	{
 	public:

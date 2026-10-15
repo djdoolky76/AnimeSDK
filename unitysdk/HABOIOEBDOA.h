@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define HABOIOEBDOA_ODFIFAAGBCO_OFFSET UNITYSDK_OFFSET(0x15B71080)
 #define HABOIOEBDOA_PFNDDBOENHC_OFFSET UNITYSDK_OFFSET(0x15B71140)
 
+inline static constexpr unsigned int HABOIOEBDOA_TypeDefinitionIndex = 62735;
+
 	class HABOIOEBDOA : public ::System::Object
 	{
 	public:

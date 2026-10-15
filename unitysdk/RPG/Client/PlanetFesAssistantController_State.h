@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesAssistantController_State_TypeDefinitionIndex = 66472;
+
 	enum class PlanetFesAssistantController_State : ::System::Int32
 	{
 		Idle = 0,

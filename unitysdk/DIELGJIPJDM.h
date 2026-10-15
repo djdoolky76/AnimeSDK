@@ -47,6 +47,8 @@ namespace UnityEngine::UI { class Text; }
 #define DIELGJIPJDM_PFJDLLGFCOD_OFFSET UNITYSDK_OFFSET(0xEBF51D0)
 #define DIELGJIPJDM__ONBIND_OFFSET UNITYSDK_OFFSET(0xEBF2A00)
 
+inline static constexpr unsigned int DIELGJIPJDM_TypeDefinitionIndex = 71785;
+
 	class DIELGJIPJDM : public ::GPMFOHDCMFF
 	{
 	public:

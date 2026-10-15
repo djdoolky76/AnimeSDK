@@ -18,6 +18,8 @@ namespace UnityEngine::UI { class Text; }
 #define DLLDHFAAHEP_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xF8AB010)
 #define DLLDHFAAHEP__ONBIND_OFFSET UNITYSDK_OFFSET(0xF8AAD10)
 
+inline static constexpr unsigned int DLLDHFAAHEP_TypeDefinitionIndex = 71312;
+
 	class DLLDHFAAHEP : public ::FMPCODLIOLG
 	{
 	public:

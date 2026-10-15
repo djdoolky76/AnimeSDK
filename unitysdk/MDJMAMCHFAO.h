@@ -27,6 +27,8 @@ namespace System { class String; }
 #define MDJMAMCHFAO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA04F00)
 #define MDJMAMCHFAO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA04F60)
 
+inline static constexpr unsigned int MDJMAMCHFAO_TypeDefinitionIndex = 27955;
+
 	class MDJMAMCHFAO : public ::System::Object
 	{
 	public:

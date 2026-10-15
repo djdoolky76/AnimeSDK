@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GAIANGFBBPG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E41CD10)
 #define GAIANGFBBPG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E41CD70)
 
+inline static constexpr unsigned int GAIANGFBBPG_TypeDefinitionIndex = 29994;
+
 	class GAIANGFBBPG : public ::System::Object
 	{
 	public:

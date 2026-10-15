@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MOFGGFPAJPG_CTOR_OFFSET UNITYSDK_OFFSET(0xBA29D00)
 #define MOFGGFPAJPG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA29D30)
 
+inline static constexpr unsigned int MOFGGFPAJPG_TypeDefinitionIndex = 53867;
+
 	class MOFGGFPAJPG
 	{
 	public:

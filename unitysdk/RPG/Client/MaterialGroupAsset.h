@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MaterialGroupAsset_TypeDefinitionIndex = 69844;
+
 	class MaterialGroupAsset : public ::UnityEngine::ScriptableObject
 	{
 	public:

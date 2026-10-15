@@ -35,6 +35,8 @@ namespace System { class String; }
 #define FNBJGDHOIBP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3EC440)
 #define FNBJGDHOIBP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3EC4A0)
 
+inline static constexpr unsigned int FNBJGDHOIBP_TypeDefinitionIndex = 33800;
+
 	class FNBJGDHOIBP : public ::System::Object
 	{
 	public:

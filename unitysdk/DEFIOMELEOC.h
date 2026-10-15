@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 #define DEFIOMELEOC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA257F0)
 
+inline static constexpr unsigned int DEFIOMELEOC_TypeDefinitionIndex = 43786;
+
 	class DEFIOMELEOC : public ::System::Object
 	{
 	public:

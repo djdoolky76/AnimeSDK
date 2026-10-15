@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define MDDJNELCOMK_CTOR_OFFSET UNITYSDK_OFFSET(0xB89FD70)
 
+inline static constexpr unsigned int MDDJNELCOMK_TypeDefinitionIndex = 55540;
+
 	class MDDJNELCOMK : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define DLCDKACJFKA___LISTENDIEFUNC_D__13_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xF895D90)
 #define DLCDKACJFKA___LISTENDIEFUNC_D__13_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF895C80)
 
+inline static constexpr unsigned int DLCDKACJFKA___ListenDieFunc_d__13_TypeDefinitionIndex = 52439;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13>
 	class DLCDKACJFKA___ListenDieFunc_d__13 : public ::System::Object
 	{

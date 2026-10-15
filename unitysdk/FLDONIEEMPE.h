@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+inline static constexpr unsigned int FLDONIEEMPE_TypeDefinitionIndex = 54200;
+
 	class FLDONIEEMPE : public ::System::Object
 	{
 	public:

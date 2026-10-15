@@ -7,6 +7,8 @@ class HJAGOKIHCLK;
 
 #define JLNOLMNPIGN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7066B0)
 
+inline static constexpr unsigned int JLNOLMNPIGN_TypeDefinitionIndex = 36272;
+
 	class JLNOLMNPIGN : public ::NCEBAMHOOJM
 	{
 	public:

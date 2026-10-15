@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetNoShadowCaster_TypeDefinitionIndex = 22895;
+
 	class SetNoShadowCaster : public ::RPG::GameCore::TaskConfig
 	{
 	public:

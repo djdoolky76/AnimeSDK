@@ -20,6 +20,8 @@ class AkObjectInfo;
 #define AKOBJECTINFO_SET_OBJID_OFFSET UNITYSDK_OFFSET(0x1F5A9150)
 #define AKOBJECTINFO_SET_PARENTID_OFFSET UNITYSDK_OFFSET(0x1F5A92C0)
 
+inline static constexpr unsigned int AkObjectInfo_TypeDefinitionIndex = 44770;
+
 	class AkObjectInfo : public ::System::Object
 	{
 	public:

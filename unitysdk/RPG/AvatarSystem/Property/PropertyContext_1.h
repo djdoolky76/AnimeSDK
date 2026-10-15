@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::AvatarSystem::Property
 {
+	inline static constexpr unsigned int PropertyContext_1_TypeDefinitionIndex = 52006;
+
 	template <typename T>
 	class PropertyContext_1 : public ::System::Object
 	{

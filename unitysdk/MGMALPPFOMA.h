@@ -10,6 +10,8 @@ class MGMALPPFOMA;
 #define MGMALPPFOMA_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB928690)
 #define MGMALPPFOMA_PMDIKIMNKOK_OFFSET UNITYSDK_OFFSET(0xB9286E0)
 
+inline static constexpr unsigned int MGMALPPFOMA_TypeDefinitionIndex = 75758;
+
 	class MGMALPPFOMA : public ::System::Object
 	{
 	public:

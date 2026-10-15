@@ -31,6 +31,8 @@ namespace UnityEngine { class MeshFilter; }
 
 namespace BansheeGz::BGSpline::Components
 {
+	inline static constexpr unsigned int BGCcTriangulate2D_TypeDefinitionIndex = 36053;
+
 	class BGCcTriangulate2D : public ::BansheeGz::BGSpline::Components::BGCcSplitterPolyline
 	{
 	public:

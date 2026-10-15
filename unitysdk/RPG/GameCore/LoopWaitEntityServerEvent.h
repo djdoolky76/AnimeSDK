@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LoopWaitEntityServerEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoopWaitEntityServerEvent_TypeDefinitionIndex = 22132;
+
 	class LoopWaitEntityServerEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:

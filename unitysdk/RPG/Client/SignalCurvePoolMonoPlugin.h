@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SignalCurvePoolMonoPlugin_TypeDefinitionIndex = 70962;
+
 	class SignalCurvePoolMonoPlugin
 	{
 	public:

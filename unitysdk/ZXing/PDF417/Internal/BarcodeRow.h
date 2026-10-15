@@ -9,6 +9,8 @@
 
 namespace ZXing::PDF417::Internal
 {
+	inline static constexpr unsigned int BarcodeRow_TypeDefinitionIndex = 7005;
+
 	class BarcodeRow : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace RPG::Client { class ResultModuleConfig; }
 #define DFFOLOMKDOC_NNLDJLFIOEJ_OFFSET UNITYSDK_OFFSET(0xE8291F0)
 #define DFFOLOMKDOC_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xE82A070)
 
+inline static constexpr unsigned int DFFOLOMKDOC_TypeDefinitionIndex = 69640;
+
 	class DFFOLOMKDOC : public ::MDILEMALGNC
 	{
 	public:

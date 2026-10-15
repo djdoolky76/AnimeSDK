@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BEONILAAKHO_CTOR_OFFSET UNITYSDK_OFFSET(0xB15B820)
 #define BEONILAAKHO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB15B850)
 
+inline static constexpr unsigned int BEONILAAKHO_TypeDefinitionIndex = 57904;
+
 	class BEONILAAKHO
 	{
 	public:

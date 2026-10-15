@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace System
 {
+	inline static constexpr unsigned int Action_TypeDefinitionIndex = 169;
+
 	class Action : public ::System::MulticastDelegate
 	{
 	public:

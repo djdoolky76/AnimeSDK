@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JCAMAKMFPNP_CCTOR_OFFSET UNITYSDK_OFFSET(0x16578870)
 #define JCAMAKMFPNP_CTOR_OFFSET UNITYSDK_OFFSET(0x16578840)
 
+inline static constexpr unsigned int JCAMAKMFPNP_TypeDefinitionIndex = 49535;
+
 	class JCAMAKMFPNP : public ::GGJFAFONDHN
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LAECHEMKJOO_FIXEDDELTATIME_OFFSET UNITYSDK_OFFSET(0xB5DBC30)
 #define LAECHEMKJOO_TIMESCALE_OFFSET UNITYSDK_OFFSET(0xB5DBCE0)
 
+inline static constexpr unsigned int LAECHEMKJOO_TypeDefinitionIndex = 76881;
+
 	class LAECHEMKJOO : public ::System::Object
 	{
 	public:

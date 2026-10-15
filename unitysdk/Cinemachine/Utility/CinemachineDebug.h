@@ -18,6 +18,8 @@ namespace UnityEngine { class Object; }
 
 namespace Cinemachine::Utility
 {
+	inline static constexpr unsigned int CinemachineDebug_TypeDefinitionIndex = 39886;
+
 	class CinemachineDebug : public ::System::Object
 	{
 	public:

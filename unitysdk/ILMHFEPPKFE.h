@@ -33,6 +33,8 @@ namespace System { class String; }
 #define ILMHFEPPKFE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6B2840)
 #define ILMHFEPPKFE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6B28A0)
 
+inline static constexpr unsigned int ILMHFEPPKFE_TypeDefinitionIndex = 26422;
+
 	class ILMHFEPPKFE : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define OPMNMIEBEKI___C__SELECTENTITYIDS_B__4_1_OFFSET UNITYSDK_OFFSET(0xBFB4520)
 #define OPMNMIEBEKI___C__SELECTENTITYIDS_B__4_3_OFFSET UNITYSDK_OFFSET(0xBFB4540)
 
+inline static constexpr unsigned int OPMNMIEBEKI___c_TypeDefinitionIndex = 77645;
+
 	class OPMNMIEBEKI___c : public ::System::Object
 	{
 	public:

@@ -70,6 +70,8 @@ namespace System::Text { class StringBuilder; }
 #define MPJFIPNGENE_REMOVE__WORKSTEPENDEVENT_OFFSET UNITYSDK_OFFSET(0x1EC4EDC0)
 #define MPJFIPNGENE_SET_FRAMECOUNT_OFFSET UNITYSDK_OFFSET(0x1EC50440)
 
+inline static constexpr unsigned int MPJFIPNGENE_TypeDefinitionIndex = 44021;
+
 	class MPJFIPNGENE : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class FiveDimPressureSwitchConfig; }
 #define IPJGAJLEBDH_IHDLGOIKJNP_OFFSET UNITYSDK_OFFSET(0x1CB8A540)
 #define IPJGAJLEBDH_NAGCIOAJHOA_OFFSET UNITYSDK_OFFSET(0x1CB8A670)
 
+inline static constexpr unsigned int IPJGAJLEBDH_TypeDefinitionIndex = 42759;
+
 	class IPJGAJLEBDH : public ::System::Object
 	{
 	public:

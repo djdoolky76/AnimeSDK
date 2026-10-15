@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SetAudienceGroupVisibleClip_TypeDefinitionIndex = 48272;
+
 	class SetAudienceGroupVisibleClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

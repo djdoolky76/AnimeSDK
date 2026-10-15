@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int IKCPClient_TypeDefinitionIndex = 46126;
+
 	class IKCPClient : public ::System::Object
 	{
 	public:

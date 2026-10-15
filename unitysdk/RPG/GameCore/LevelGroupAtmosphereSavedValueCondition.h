@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelGroupAtmosphereSavedValueCondition_TypeDefinitionIndex = 17215;
+
 	class LevelGroupAtmosphereSavedValueCondition : public ::RPG::GameCore::LevelGroupAtmosphereLoadCondition
 	{
 	public:

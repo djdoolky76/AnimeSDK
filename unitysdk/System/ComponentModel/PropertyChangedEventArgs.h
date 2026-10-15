@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int PropertyChangedEventArgs_TypeDefinitionIndex = 2615;
+
 	class PropertyChangedEventArgs : public ::System::EventArgs
 	{
 	public:

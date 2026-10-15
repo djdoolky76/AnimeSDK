@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueModifyBlackboardConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifyBlackboardConfig_TypeDefinitionIndex = 19790;
+
 	class RogueModifyBlackboardConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

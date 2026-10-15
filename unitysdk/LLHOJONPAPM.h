@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LLHOJONPAPM_IGBFHCJEHNK_OFFSET UNITYSDK_OFFSET(0xB76ED20)
 #define LLHOJONPAPM_MLEGKIDDPAJ_OFFSET UNITYSDK_OFFSET(0xB76ED70)
 
+inline static constexpr unsigned int LLHOJONPAPM_TypeDefinitionIndex = 73304;
+
 	class LLHOJONPAPM : public ::System::Object
 	{
 	public:

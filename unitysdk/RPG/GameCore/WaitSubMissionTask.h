@@ -18,6 +18,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitSubMissionTask_TypeDefinitionIndex = 58930;
+
 	class WaitSubMissionTask : public ::GELIALJDFBL
 	{
 	public:

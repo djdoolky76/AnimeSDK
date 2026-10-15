@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BaseChenLingBattleResource; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaseChenLingBattleResource_TypeDefinitionIndex = 15779;
+
 	class BaseChenLingBattleResource : public ::RPG::GameCore::JsonConfig
 	{
 	public:

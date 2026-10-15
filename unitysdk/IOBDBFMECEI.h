@@ -27,6 +27,8 @@ class LMJPODEEGKK;
 #define IOBDBFMECEI_NHGEBJDAPDL_OFFSET UNITYSDK_OFFSET(0x164FD5B0)
 #define IOBDBFMECEI_NMMFCAIOJNM_OFFSET UNITYSDK_OFFSET(0x164FBAB0)
 
+inline static constexpr unsigned int IOBDBFMECEI_TypeDefinitionIndex = 77606;
+
 	class IOBDBFMECEI : public ::System::Object
 	{
 	public:

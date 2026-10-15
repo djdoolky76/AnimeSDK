@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Web_OnWebViewPageClose_TypeDefinitionIndex = 8218;
+
 	class Web_OnWebViewPageClose : public ::System::MulticastDelegate
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ShowDialogTrack_TypeDefinitionIndex = 48291;
+
 	class ShowDialogTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

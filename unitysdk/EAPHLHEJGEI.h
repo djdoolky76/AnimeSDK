@@ -34,6 +34,8 @@ namespace System { class String; }
 #define EAPHLHEJGEI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E22F960)
 #define EAPHLHEJGEI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E22F9C0)
 
+inline static constexpr unsigned int EAPHLHEJGEI_TypeDefinitionIndex = 34185;
+
 	class EAPHLHEJGEI : public ::System::Object
 	{
 	public:

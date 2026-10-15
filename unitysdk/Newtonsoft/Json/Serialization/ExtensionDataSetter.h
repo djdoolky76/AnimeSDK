@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int ExtensionDataSetter_TypeDefinitionIndex = 9723;
+
 	class ExtensionDataSetter : public ::System::MulticastDelegate
 	{
 	public:

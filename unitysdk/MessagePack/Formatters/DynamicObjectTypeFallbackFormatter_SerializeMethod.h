@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int DynamicObjectTypeFallbackFormatter_SerializeMethod_TypeDefinitionIndex = 7428;
+
 	class DynamicObjectTypeFallbackFormatter_SerializeMethod : public ::System::MulticastDelegate
 	{
 	public:

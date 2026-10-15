@@ -31,6 +31,8 @@ namespace System { class String; }
 #define POFCEIPNOBI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFC88E0)
 #define POFCEIPNOBI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFC8940)
 
+inline static constexpr unsigned int POFCEIPNOBI_TypeDefinitionIndex = 30529;
+
 	class POFCEIPNOBI : public ::System::Object
 	{
 	public:

@@ -102,6 +102,8 @@ class EasingFunction_FunctionValue;
 #define EASINGFUNCTION_SPRING_1_OFFSET UNITYSDK_OFFSET(0xAF178A0)
 #define EASINGFUNCTION_SPRING_OFFSET UNITYSDK_OFFSET(0xAF177B0)
 
+inline static constexpr unsigned int EasingFunction_TypeDefinitionIndex = 45929;
+
 	class EasingFunction : public ::System::Object
 	{
 	public:

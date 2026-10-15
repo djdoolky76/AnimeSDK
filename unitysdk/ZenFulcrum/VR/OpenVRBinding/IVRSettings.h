@@ -15,6 +15,8 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRSettings__Sync; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSettings_TypeDefinitionIndex = 39162;
+
 	struct alignas(8) IVRSettings
 	{
 		::ZenFulcrum::VR::OpenVRBinding::IVRSettings__GetSettingsErrorNameFromEnum* GetSettingsErrorNameFromEnum; // 0x10

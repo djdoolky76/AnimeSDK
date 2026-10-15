@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define AOCEFOODCCE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CCE81D0)
 #define AOCEFOODCCE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CCE7AF0)
 
+inline static constexpr unsigned int AOCEFOODCCE_TypeDefinitionIndex = 12053;
+
 	class AOCEFOODCCE : public ::System::Object
 	{
 	public:

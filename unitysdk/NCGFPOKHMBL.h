@@ -29,6 +29,8 @@ namespace System { class String; }
 #define NCGFPOKHMBL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EADBFA0)
 #define NCGFPOKHMBL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EADC000)
 
+inline static constexpr unsigned int NCGFPOKHMBL_TypeDefinitionIndex = 30691;
+
 	class NCGFPOKHMBL : public ::System::Object
 	{
 	public:

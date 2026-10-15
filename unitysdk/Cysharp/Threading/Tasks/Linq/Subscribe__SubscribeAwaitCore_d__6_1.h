@@ -13,6 +13,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Subscribe__SubscribeAwaitCore_d__6_1_TypeDefinitionIndex = 45603;
+
 	template <typename T>
 	struct alignas(8) Subscribe__SubscribeAwaitCore_d__6_1
 	{

@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DMNNACMBAJC_OKPGBMLBMJN_OFFSET UNITYSDK_OFFSET(0x1C5F88B0)
 #define DMNNACMBAJC_PAFKJAHJMCE_OFFSET UNITYSDK_OFFSET(0x1C5F9890)
 
+inline static constexpr unsigned int DMNNACMBAJC_TypeDefinitionIndex = 37185;
+
 	class DMNNACMBAJC : public ::AEKIOONKCIB
 	{
 	public:

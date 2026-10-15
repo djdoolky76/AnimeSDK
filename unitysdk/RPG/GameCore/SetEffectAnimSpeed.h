@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetEffectAnimSpeed_TypeDefinitionIndex = 22884;
+
 	class SetEffectAnimSpeed : public ::RPG::GameCore::TaskConfig
 	{
 	public:

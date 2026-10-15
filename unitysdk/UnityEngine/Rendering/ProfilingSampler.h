@@ -23,6 +23,8 @@ namespace UnityEngine::Profiling { class CustomSampler; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int ProfilingSampler_TypeDefinitionIndex = 35554;
+
 	class ProfilingSampler : public ::System::Object
 	{
 	public:

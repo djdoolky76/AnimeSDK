@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TransferMahJongLayoutEffect; }
 #define DMOBAEFEAEO_CTOR_OFFSET UNITYSDK_OFFSET(0xFEC8110)
 #define DMOBAEFEAEO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFEC8140)
 
+inline static constexpr unsigned int DMOBAEFEAEO_TypeDefinitionIndex = 55709;
+
 	class DMOBAEFEAEO
 	{
 	public:

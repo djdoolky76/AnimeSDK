@@ -30,6 +30,8 @@ namespace UnityEngine { class Texture2D; }
 #define MGHKENFHAAC_PPMCCPDEFEF_OFFSET UNITYSDK_OFFSET(0xB91ED70)
 #define MGHKENFHAAC_TICK_OFFSET UNITYSDK_OFFSET(0xB91E860)
 
+inline static constexpr unsigned int MGHKENFHAAC_TypeDefinitionIndex = 57420;
+
 	class MGHKENFHAAC : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int AutoUnwrapSettings_TypeDefinitionIndex = 44332;
+
 	struct alignas(4) AutoUnwrapSettings
 	{
 		::System::Boolean m_UseWorldSpace; // 0x10

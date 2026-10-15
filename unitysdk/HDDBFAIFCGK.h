@@ -31,6 +31,8 @@ namespace System { class String; }
 #define HDDBFAIFCGK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E547D80)
 #define HDDBFAIFCGK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E547DE0)
 
+inline static constexpr unsigned int HDDBFAIFCGK_TypeDefinitionIndex = 30273;
+
 	class HDDBFAIFCGK : public ::System::Object
 	{
 	public:

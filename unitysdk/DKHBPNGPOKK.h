@@ -25,6 +25,8 @@ namespace System { class String; }
 #define DKHBPNGPOKK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1D6AE0)
 #define DKHBPNGPOKK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1D6B40)
 
+inline static constexpr unsigned int DKHBPNGPOKK_TypeDefinitionIndex = 26000;
+
 	class DKHBPNGPOKK : public ::System::Object
 	{
 	public:

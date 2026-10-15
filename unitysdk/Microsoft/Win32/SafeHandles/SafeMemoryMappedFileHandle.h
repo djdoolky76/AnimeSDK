@@ -7,6 +7,8 @@
 
 namespace Microsoft::Win32::SafeHandles
 {
+	inline static constexpr unsigned int SafeMemoryMappedFileHandle_TypeDefinitionIndex = 3095;
+
 	class SafeMemoryMappedFileHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid
 	{
 	public:

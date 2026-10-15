@@ -12,6 +12,8 @@ namespace System::Runtime::Remoting::Activation { class IConstructionCallMessage
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int ConstructionCallDictionary_TypeDefinitionIndex = 1308;
+
 	class ConstructionCallDictionary : public ::System::Runtime::Remoting::Messaging::MessageDictionary
 	{
 	public:

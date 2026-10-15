@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameCollider2DComponent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameCollider2DComponent_TypeDefinitionIndex = 18881;
+
 	class LittleGameCollider2DComponent : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define AEBCPLHFDBI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C878B90)
 
+inline static constexpr unsigned int AEBCPLHFDBI_TypeDefinitionIndex = 42359;
+
 	class AEBCPLHFDBI : public ::System::Object
 	{
 	public:

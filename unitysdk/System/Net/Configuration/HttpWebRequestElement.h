@@ -8,6 +8,8 @@ namespace System::Configuration { class ConfigurationPropertyCollection; }
 
 namespace System::Net::Configuration
 {
+	inline static constexpr unsigned int HttpWebRequestElement_TypeDefinitionIndex = 3080;
+
 	class HttpWebRequestElement : public ::System::Configuration::ConfigurationElement
 	{
 	public:

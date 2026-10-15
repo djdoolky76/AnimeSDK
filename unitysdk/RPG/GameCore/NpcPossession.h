@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NpcPossession_TypeDefinitionIndex = 22397;
+
 	class NpcPossession : public ::RPG::GameCore::TaskConfig
 	{
 	public:

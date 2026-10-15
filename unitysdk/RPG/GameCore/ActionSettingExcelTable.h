@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActionSettingExcelTable_TypeDefinitionIndex = 13812;
+
 	class ActionSettingExcelTable : public ::System::Object
 	{
 	public:

@@ -19,6 +19,8 @@ namespace RPG::GameCore { class GameWorld; }
 #define HHPNMFABCEI_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0x15CD74E0)
 #define HHPNMFABCEI_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0x15CD7580)
 
+inline static constexpr unsigned int HHPNMFABCEI_TypeDefinitionIndex = 54304;
+
 	class HHPNMFABCEI : public ::System::Object
 	{
 	public:

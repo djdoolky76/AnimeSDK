@@ -7,6 +7,8 @@ namespace RPG::Client { class TriggerEffectParams; }
 
 #define DLKMIHDPILO_POGGMBKAEJM_CTOR_OFFSET UNITYSDK_OFFSET(0xF8AA640)
 
+inline static constexpr unsigned int DLKMIHDPILO_POGGMBKAEJM_TypeDefinitionIndex = 76809;
+
 	class DLKMIHDPILO_POGGMBKAEJM : public ::System::Object
 	{
 	public:

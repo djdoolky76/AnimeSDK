@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateRinCaseBoardTeamRelationInfo; }
 #define BCNALJEILCD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCFA770)
 #define BCNALJEILCD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCFA700)
 
+inline static constexpr unsigned int BCNALJEILCD_TypeDefinitionIndex = 19929;
+
 	class BCNALJEILCD : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define KPNOBBFKNHA_PHOBLLNADAL_OFFSET UNITYSDK_OFFSET(0xB5CDD10)
 #define KPNOBBFKNHA___N__0_OFFSET UNITYSDK_OFFSET(0xB5CDF30)
 
+inline static constexpr unsigned int KPNOBBFKNHA_TypeDefinitionIndex = 59485;
+
 	class KPNOBBFKNHA : public ::DGACHEOMECA
 	{
 	public:

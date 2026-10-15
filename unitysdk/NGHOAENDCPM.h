@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NGHOAENDCPM_CTOR_OFFSET UNITYSDK_OFFSET(0xBBA7F00)
 #define NGHOAENDCPM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBBA7F30)
 
+inline static constexpr unsigned int NGHOAENDCPM_TypeDefinitionIndex = 52086;
+
 	class NGHOAENDCPM
 	{
 	public:

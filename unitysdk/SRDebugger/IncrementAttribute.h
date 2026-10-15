@@ -6,6 +6,8 @@
 
 namespace SRDebugger
 {
+	inline static constexpr unsigned int IncrementAttribute_TypeDefinitionIndex = 37960;
+
 	class IncrementAttribute : public ::System::Attribute
 	{
 	public:

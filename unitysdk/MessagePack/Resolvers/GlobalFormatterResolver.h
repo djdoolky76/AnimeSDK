@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MessagePack::Resolvers
 {
+	inline static constexpr unsigned int GlobalFormatterResolver_TypeDefinitionIndex = 7269;
+
 	class GlobalFormatterResolver : public ::System::Object
 	{
 	public:

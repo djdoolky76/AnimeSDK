@@ -26,6 +26,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int AspectRatioFitter_TypeDefinitionIndex = 6750;
+
 	class AspectRatioFitter : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

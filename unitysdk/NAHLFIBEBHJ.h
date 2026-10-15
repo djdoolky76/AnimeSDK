@@ -33,6 +33,8 @@ namespace System { class String; }
 #define NAHLFIBEBHJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAC3D60)
 #define NAHLFIBEBHJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAC3DC0)
 
+inline static constexpr unsigned int NAHLFIBEBHJ_TypeDefinitionIndex = 34325;
+
 	class NAHLFIBEBHJ : public ::System::Object
 	{
 	public:

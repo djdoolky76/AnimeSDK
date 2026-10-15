@@ -10,6 +10,8 @@ namespace UnityEngine::Rendering { class VolumeManager; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int VolumeManager___c_TypeDefinitionIndex = 35620;
+
 	class VolumeManager___c : public ::System::Object
 	{
 	public:

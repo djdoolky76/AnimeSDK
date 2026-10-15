@@ -4,6 +4,8 @@
 
 #define MOHFNFDHMMO_CTOR_OFFSET UNITYSDK_OFFSET(0xBA2C740)
 
+inline static constexpr unsigned int MOHFNFDHMMO_TypeDefinitionIndex = 49326;
+
 	class MOHFNFDHMMO : public ::System::Attribute
 	{
 	public:

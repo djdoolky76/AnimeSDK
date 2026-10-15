@@ -10,6 +10,8 @@ namespace System { class String; }
 #define NMMNJLDKJMD___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBC8E3B0)
 #define NMMNJLDKJMD___C__DISPLAYCLASS5_0__SWITCHAREA_B__0_OFFSET UNITYSDK_OFFSET(0xBC8F270)
 
+inline static constexpr unsigned int NMMNJLDKJMD___c__DisplayClass5_0_TypeDefinitionIndex = 75471;
+
 	class NMMNJLDKJMD___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

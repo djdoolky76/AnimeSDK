@@ -7,6 +7,8 @@ namespace System { class IOSelectorJob; }
 
 namespace System
 {
+	inline static constexpr unsigned int IOSelector_TypeDefinitionIndex = 2490;
+
 	class IOSelector : public ::System::Object
 	{
 	public:

@@ -36,6 +36,8 @@ namespace System { class String; }
 #define HIJCLODMBPO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E598310)
 #define HIJCLODMBPO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E598370)
 
+inline static constexpr unsigned int HIJCLODMBPO_TypeDefinitionIndex = 28370;
+
 	class HIJCLODMBPO : public ::System::Object
 	{
 	public:

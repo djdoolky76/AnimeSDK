@@ -10,6 +10,8 @@ namespace System::Runtime::Serialization { class SerializationEvents; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int SerializationEventsCache_TypeDefinitionIndex = 1127;
+
 	class SerializationEventsCache : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GroupEntityInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GroupEntityInfo_TypeDefinitionIndex = 20289;
+
 	class GroupEntityInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

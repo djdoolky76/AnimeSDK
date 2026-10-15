@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MonsterRandomPoolRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonsterRandomPoolRow_TypeDefinitionIndex = 14195;
+
 	class MonsterRandomPoolRow : public ::System::Object
 	{
 	public:

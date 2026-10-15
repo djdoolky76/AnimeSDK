@@ -18,6 +18,8 @@ namespace RPG::Client { class Effect_DynamicTrailMonoPlugin; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_DynamicTrailBehavior_TypeDefinitionIndex = 70446;
+
 	class Effect_DynamicTrailBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class WaitStartMarbleGame; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitStartMarbleGame_TypeDefinitionIndex = 22041;
+
 	class WaitStartMarbleGame : public ::RPG::GameCore::TaskConfig
 	{
 	public:

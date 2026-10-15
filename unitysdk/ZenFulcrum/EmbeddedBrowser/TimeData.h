@@ -3,6 +3,8 @@
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int TimeData_TypeDefinitionIndex = 39535;
+
 	struct alignas(4) TimeData
 	{
 		::System::Single elapsedTime; // 0x10

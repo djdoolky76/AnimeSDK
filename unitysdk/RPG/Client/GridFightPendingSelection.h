@@ -35,6 +35,8 @@ namespace RPG::Client { class GridFightTraitChooseBaseAction; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightPendingSelection_TypeDefinitionIndex = 64613;
+
 	class GridFightPendingSelection : public ::System::Object
 	{
 	public:

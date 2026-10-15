@@ -8,6 +8,8 @@ namespace System::Configuration { class ConfigurationPropertyCollection; }
 
 namespace System::Net::Configuration
 {
+	inline static constexpr unsigned int ServicePointManagerElement_TypeDefinitionIndex = 3085;
+
 	class ServicePointManagerElement : public ::System::Configuration::ConfigurationElement
 	{
 	public:

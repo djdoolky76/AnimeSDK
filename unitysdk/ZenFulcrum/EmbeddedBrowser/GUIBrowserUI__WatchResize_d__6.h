@@ -14,6 +14,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class GUIBrowserUI; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int GUIBrowserUI__WatchResize_d__6_TypeDefinitionIndex = 39480;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	class GUIBrowserUI__WatchResize_d__6 : public ::System::Object
 	{

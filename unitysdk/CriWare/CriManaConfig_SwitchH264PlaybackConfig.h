@@ -6,6 +6,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriManaConfig_SwitchH264PlaybackConfig_TypeDefinitionIndex = 40171;
+
 	class CriManaConfig_SwitchH264PlaybackConfig : public ::System::Object
 	{
 	public:

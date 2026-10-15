@@ -5,6 +5,8 @@
 
 #define BAHEINMHOAC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8AFFC0)
 
+inline static constexpr unsigned int BAHEINMHOAC_TypeDefinitionIndex = 42939;
+
 	class BAHEINMHOAC : public ::System::Object
 	{
 	public:

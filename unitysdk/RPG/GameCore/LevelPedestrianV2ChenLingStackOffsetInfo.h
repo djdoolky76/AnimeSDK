@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelPedestrianV2ChenLingStackOffsetInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPedestrianV2ChenLingStackOffsetInfo_TypeDefinitionIndex = 17322;
+
 	class LevelPedestrianV2ChenLingStackOffsetInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -18,6 +18,8 @@ namespace UnityEngine { class GameObject; }
 #define GDLANOHKANB_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x159A3A60)
 #define GDLANOHKANB_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x159A3C50)
 
+inline static constexpr unsigned int GDLANOHKANB_TypeDefinitionIndex = 47922;
+
 	class GDLANOHKANB : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -13,6 +13,8 @@ namespace XLua { class LuaEnv; }
 
 namespace XLua::CSObjectWrap
 {
+	inline static constexpr unsigned int SystemCollectionsGenericIEnumerable_1_SystemUInt32_Bridge_TypeDefinitionIndex = 51623;
+
 	class SystemCollectionsGenericIEnumerable_1_SystemUInt32_Bridge : public ::XLua::LuaBase
 	{
 	public:

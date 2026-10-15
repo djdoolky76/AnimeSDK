@@ -29,6 +29,8 @@ namespace System { class String; }
 #define DIFAPHOCGKL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1BC5D0)
 #define DIFAPHOCGKL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1BC630)
 
+inline static constexpr unsigned int DIFAPHOCGKL_TypeDefinitionIndex = 25392;
+
 	class DIFAPHOCGKL : public ::System::Object
 	{
 	public:

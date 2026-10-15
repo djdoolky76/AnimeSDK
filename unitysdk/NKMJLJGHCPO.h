@@ -11,6 +11,8 @@ namespace RPG::Client { class EquipmentItemData; }
 #define NKMJLJGHCPO_FDNPNMCEBKI_OFFSET UNITYSDK_OFFSET(0xBC3E9C0)
 #define NKMJLJGHCPO_MOOCLGLOBJA_OFFSET UNITYSDK_OFFSET(0xBC3EA50)
 
+inline static constexpr unsigned int NKMJLJGHCPO_TypeDefinitionIndex = 62544;
+
 	class NKMJLJGHCPO : public ::System::Object
 	{
 	public:

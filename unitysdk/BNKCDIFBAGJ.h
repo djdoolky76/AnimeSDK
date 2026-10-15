@@ -17,6 +17,8 @@ namespace System { class Nullable; }
 #define BNKCDIFBAGJ_PAGGIBBGBLM_OFFSET UNITYSDK_OFFSET(0x1C546700)
 #define BNKCDIFBAGJ_PLGCBKJCKIK_OFFSET UNITYSDK_OFFSET(0x1C545D90)
 
+inline static constexpr unsigned int BNKCDIFBAGJ_TypeDefinitionIndex = 41895;
+
 	class BNKCDIFBAGJ : public ::System::Object
 	{
 	public:

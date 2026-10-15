@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsCharacterWeaknessActivated_TypeDefinitionIndex = 23544;
+
 	class ByIsCharacterWeaknessActivated : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

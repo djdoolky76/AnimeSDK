@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvTrackNpcLockAlert; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvTrackNpcLockAlert_TypeDefinitionIndex = 22189;
+
 	class AdvTrackNpcLockAlert : public ::RPG::GameCore::TaskConfig
 	{
 	public:

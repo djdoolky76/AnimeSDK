@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AttachEntityDeparted_TypeDefinitionIndex = 23610;
+
 	class AttachEntityDeparted : public ::RPG::GameCore::TaskConfig
 	{
 	public:

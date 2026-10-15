@@ -4,6 +4,8 @@
 
 #define BONGEDMOKEL_NNIDFNMHGFA_CTOR_OFFSET UNITYSDK_OFFSET(0xC198D20)
 
+inline static constexpr unsigned int BONGEDMOKEL_NNIDFNMHGFA_TypeDefinitionIndex = 72206;
+
 	class BONGEDMOKEL_NNIDFNMHGFA : public ::System::Object
 	{
 	public:

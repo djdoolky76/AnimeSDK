@@ -6,6 +6,8 @@ class AEIDHPBIDKK;
 #define AEIDHPBIDKK___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB152CB0)
 #define AEIDHPBIDKK___C__DISPLAYCLASS8_0__SETPROGRESSFILL_B__0_OFFSET UNITYSDK_OFFSET(0xB1539C0)
 
+inline static constexpr unsigned int AEIDHPBIDKK___c__DisplayClass8_0_TypeDefinitionIndex = 71409;
+
 	class AEIDHPBIDKK___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

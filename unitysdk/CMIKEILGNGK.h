@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CMIKEILGNGK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1021F0)
 #define CMIKEILGNGK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E102250)
 
+inline static constexpr unsigned int CMIKEILGNGK_TypeDefinitionIndex = 25570;
+
 	class CMIKEILGNGK : public ::System::Object
 	{
 	public:

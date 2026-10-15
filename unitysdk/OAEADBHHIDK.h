@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 #define OAEADBHHIDK_MACOMAHJKIH_OFFSET UNITYSDK_OFFSET(0xBD1DD10)
 #define OAEADBHHIDK_OHEOHGJNBHP_OFFSET UNITYSDK_OFFSET(0xBD1DB80)
 
+inline static constexpr unsigned int OAEADBHHIDK_TypeDefinitionIndex = 72016;
+
 	class OAEADBHHIDK : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2ContactConstraintSIMD_TypeDefinitionIndex = 36621;
+
 	struct alignas(8) B2ContactConstraintSIMD
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2FixedArray4_1<::System::Int32> indexA; // 0x10

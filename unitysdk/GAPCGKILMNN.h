@@ -8,6 +8,8 @@ class WaveFloatingProxy;
 #define GAPCGKILMNN_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15943C40)
 #define GAPCGKILMNN_NDKIMFFNEDA_OFFSET UNITYSDK_OFFSET(0x15943DA0)
 
+inline static constexpr unsigned int GAPCGKILMNN_TypeDefinitionIndex = 47490;
+
 	class GAPCGKILMNN : public ::RPG::Client::TABehaviorBase
 	{
 	public:

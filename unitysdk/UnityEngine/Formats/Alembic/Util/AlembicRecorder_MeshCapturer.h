@@ -12,6 +12,8 @@ namespace UnityEngine::Formats::Alembic::Util { class AlembicRecorder_MeshBuffer
 
 namespace UnityEngine::Formats::Alembic::Util
 {
+	inline static constexpr unsigned int AlembicRecorder_MeshCapturer_TypeDefinitionIndex = 45772;
+
 	class AlembicRecorder_MeshCapturer : public ::UnityEngine::Formats::Alembic::Util::ComponentCapturer
 	{
 	public:

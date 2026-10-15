@@ -7,6 +7,8 @@ class JBGMDJBCHFO;
 #define ALNFHFDBDCH_GDNFNCJPDKD_OFFSET UNITYSDK_OFFSET(0x1DD0C2D0)
 #define ALNFHFDBDCH_ILJANLIPIKB_OFFSET UNITYSDK_OFFSET(0x1DD0C2E0)
 
+inline static constexpr unsigned int ALNFHFDBDCH_TypeDefinitionIndex = 6273;
+
 	class ALNFHFDBDCH : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace RPG::Client { class LuaUIController; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyContentTrigger_TypeDefinitionIndex = 66279;
+
 	class MonopolyContentTrigger : public ::System::Object
 	{
 	public:

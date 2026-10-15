@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FormationData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FormationAssetConfig_TypeDefinitionIndex = 17134;
+
 	class FormationAssetConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

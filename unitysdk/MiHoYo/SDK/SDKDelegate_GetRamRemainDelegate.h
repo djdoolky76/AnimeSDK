@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKDelegate_GetRamRemainDelegate_TypeDefinitionIndex = 7789;
+
 	class SDKDelegate_GetRamRemainDelegate : public ::System::MulticastDelegate
 	{
 	public:

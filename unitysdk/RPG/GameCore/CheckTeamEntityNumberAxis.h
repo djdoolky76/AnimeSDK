@@ -13,6 +13,8 @@ namespace RPG::GameCore { class CheckTeamEntityNumberAxis; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CheckTeamEntityNumberAxis_TypeDefinitionIndex = 15509;
+
 	class CheckTeamEntityNumberAxis : public ::RPG::GameCore::ConsiderationAxisConfig
 	{
 	public:

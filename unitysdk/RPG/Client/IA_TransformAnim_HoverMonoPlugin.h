@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int IA_TransformAnim_HoverMonoPlugin_TypeDefinitionIndex = 70844;
+
 	class IA_TransformAnim_HoverMonoPlugin
 	{
 	public:

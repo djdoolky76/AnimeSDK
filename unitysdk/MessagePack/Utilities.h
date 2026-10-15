@@ -13,6 +13,8 @@ namespace System::Collections { class IDictionary; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int Utilities_TypeDefinitionIndex = 7247;
+
 	class Utilities : public ::System::Object
 	{
 	public:

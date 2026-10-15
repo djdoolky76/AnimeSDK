@@ -7,6 +7,8 @@ namespace UnityEngine { class GameObject; }
 
 #define JEKAHBPEMCH___C__DISPLAYCLASS47_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16636F20)
 
+inline static constexpr unsigned int JEKAHBPEMCH___c__DisplayClass47_0_TypeDefinitionIndex = 76712;
+
 	class JEKAHBPEMCH___c__DisplayClass47_0 : public ::System::Object
 	{
 	public:

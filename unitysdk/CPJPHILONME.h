@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CPJPHILONME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E13F960)
 #define CPJPHILONME_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E13F9C0)
 
+inline static constexpr unsigned int CPJPHILONME_TypeDefinitionIndex = 26489;
+
 	class CPJPHILONME : public ::System::Object
 	{
 	public:

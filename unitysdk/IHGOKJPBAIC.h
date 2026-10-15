@@ -15,6 +15,8 @@ class LNHACPACCKH;
 #define IHGOKJPBAIC_NOJIPMKAGON_OFFSET UNITYSDK_OFFSET(0x1C6D80B0)
 #define IHGOKJPBAIC_PNJODACLLPH_OFFSET UNITYSDK_OFFSET(0x1C6D80A0)
 
+inline static constexpr unsigned int IHGOKJPBAIC_TypeDefinitionIndex = 36836;
+
 	class IHGOKJPBAIC : public ::System::Object
 	{
 	public:

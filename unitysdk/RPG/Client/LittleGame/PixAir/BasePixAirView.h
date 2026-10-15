@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::PixAir
 {
+	inline static constexpr unsigned int BasePixAirView_TypeDefinitionIndex = 77317;
+
 	class BasePixAirView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

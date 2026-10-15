@@ -10,6 +10,8 @@ namespace UnityEngine::LowLevel { class PlayerLoopSystem_UpdateFunction; }
 #define EPOKLOCMNLA___C__DISPLAYCLASS1_0__REMOVEINJECT_B__0_OFFSET UNITYSDK_OFFSET(0x1EC07820)
 #define EPOKLOCMNLA___C__DISPLAYCLASS1_0__REMOVEINJECT_B__1_OFFSET UNITYSDK_OFFSET(0x1EC078E0)
 
+inline static constexpr unsigned int EPOKLOCMNLA___c__DisplayClass1_0_TypeDefinitionIndex = 35176;
+
 	class EPOKLOCMNLA___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

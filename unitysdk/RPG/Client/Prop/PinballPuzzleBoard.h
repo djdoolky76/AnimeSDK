@@ -121,6 +121,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int PinballPuzzleBoard_TypeDefinitionIndex = 78768;
+
 	class PinballPuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

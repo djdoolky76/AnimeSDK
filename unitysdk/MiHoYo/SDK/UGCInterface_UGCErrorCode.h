@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int UGCInterface_UGCErrorCode_TypeDefinitionIndex = 46429;
+
 	enum class UGCInterface_UGCErrorCode : ::System::Int32
 	{
 		ErrorAuthKeyError = -1000431,

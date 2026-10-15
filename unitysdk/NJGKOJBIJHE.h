@@ -4,6 +4,8 @@
 
 #define NJGKOJBIJHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C96D370)
 
+inline static constexpr unsigned int NJGKOJBIJHE_TypeDefinitionIndex = 42121;
+
 	class NJGKOJBIJHE : public ::System::Object
 	{
 	public:

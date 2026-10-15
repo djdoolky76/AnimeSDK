@@ -105,6 +105,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System::Text
 {
+	inline static constexpr unsigned int StringBuilder_TypeDefinitionIndex = 498;
+
 	class StringBuilder : public ::System::Object
 	{
 	public:

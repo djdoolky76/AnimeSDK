@@ -7,6 +7,8 @@ namespace Code::Rendering::EnvironmentSystemV2 { class EnvV2ParamPreset; }
 
 namespace Code::Rendering::EnvironmentSystemV2::Test
 {
+	inline static constexpr unsigned int EnvSystemDebugConfig_TypeDefinitionIndex = 50050;
+
 	class EnvSystemDebugConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:

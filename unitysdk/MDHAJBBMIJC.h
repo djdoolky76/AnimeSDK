@@ -8,6 +8,8 @@
 #define MDHAJBBMIJC_ICNEKGBHIHP_OFFSET UNITYSDK_OFFSET(0xB8A4250)
 #define MDHAJBBMIJC_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xB8A42C0)
 
+inline static constexpr unsigned int MDHAJBBMIJC_TypeDefinitionIndex = 77049;
+
 	class MDHAJBBMIJC : public ::GKIPJBKNCNB
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TalkOptionData_TypeDefinitionIndex = 68038;
+
 	class TalkOptionData : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CameraShakeTrack_TypeDefinitionIndex = 47811;
+
 	class CameraShakeTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

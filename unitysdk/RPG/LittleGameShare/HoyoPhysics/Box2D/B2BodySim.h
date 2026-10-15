@@ -12,6 +12,8 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2BodySim; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2BodySim_TypeDefinitionIndex = 36597;
+
 	class B2BodySim : public ::System::Object
 	{
 	public:

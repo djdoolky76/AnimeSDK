@@ -5,6 +5,8 @@
 #define DDNKPKBGBKK_IELMAIBIJOM_OFFSET UNITYSDK_OFFSET(0xF56E0)
 #define DDNKPKBGBKK_PKMNGOHOIID_OFFSET UNITYSDK_OFFSET(0xF56C0)
 
+inline static constexpr unsigned int DDNKPKBGBKK_TypeDefinitionIndex = 78891;
+
 	struct alignas(4) DDNKPKBGBKK
 	{
 		::UnityEngine::Vector3 FACGMPEJDEF; // 0x10

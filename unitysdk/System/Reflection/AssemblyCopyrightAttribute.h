@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int AssemblyCopyrightAttribute_TypeDefinitionIndex = 540;
+
 	class AssemblyCopyrightAttribute : public ::System::Attribute
 	{
 	public:

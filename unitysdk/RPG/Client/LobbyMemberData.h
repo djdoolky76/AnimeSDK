@@ -38,6 +38,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LobbyMemberData_TypeDefinitionIndex = 65779;
+
 	class LobbyMemberData : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
+inline static constexpr unsigned int LFKBKMDMAEM_TypeDefinitionIndex = 44114;
+
 	struct alignas(8) LFKBKMDMAEM
 	{
 		::System::Func_3<::System::String*, ::System::Collections::Generic::IEnumerable_1<::System::Object*>*, ::System::Collections::Generic::IReadOnlyList_1<::KPCIBMMKBEG*>*>* HNPBPCDOLHI; // 0x0

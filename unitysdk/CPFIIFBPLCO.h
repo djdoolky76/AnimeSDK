@@ -13,6 +13,8 @@ namespace RPG::GameCore { class MonoProjectileBGCurve; }
 #define CPFIIFBPLCO_NNALPNDFFIJ_OFFSET UNITYSDK_OFFSET(0xDCD3250)
 #define CPFIIFBPLCO_PGKPGNJJMMB_OFFSET UNITYSDK_OFFSET(0xDCD3E60)
 
+inline static constexpr unsigned int CPFIIFBPLCO_TypeDefinitionIndex = 54733;
+
 	class CPFIIFBPLCO : public ::GGJEMEHMBNL
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client { class PlayerReturnExtraHcoinItemData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayerReturnExtraHcoinItemData_TypeDefinitionIndex = 61874;
+
 	class PlayerReturnExtraHcoinItemData : public ::System::Object
 	{
 	public:

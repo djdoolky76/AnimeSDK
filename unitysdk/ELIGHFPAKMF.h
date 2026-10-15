@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define ELIGHFPAKMF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD9D5D0)
 #define ELIGHFPAKMF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD9D590)
 
+inline static constexpr unsigned int ELIGHFPAKMF_TypeDefinitionIndex = 10248;
+
 	class ELIGHFPAKMF : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateGameRoundSettleDmgSourceRivalExtraFactorItem_TypeDefinitionIndex = 64059;
+
 	class FateGameRoundSettleDmgSourceRivalExtraFactorItem : public ::System::Object
 	{
 	public:

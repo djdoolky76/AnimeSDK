@@ -10,6 +10,8 @@ namespace System { class String; }
 #define KLGKGCKNFNC_CTOR_OFFSET UNITYSDK_OFFSET(0xB528180)
 #define KLGKGCKNFNC_NDMBDGKAJEK_OFFSET UNITYSDK_OFFSET(0xB528110)
 
+inline static constexpr unsigned int KLGKGCKNFNC_TypeDefinitionIndex = 65271;
+
 	class KLGKGCKNFNC : public ::HEOLKMLMPML
 	{
 	public:

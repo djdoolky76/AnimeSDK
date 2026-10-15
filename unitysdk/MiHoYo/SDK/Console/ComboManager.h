@@ -31,6 +31,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int ComboManager_TypeDefinitionIndex = 8968;
+
 	class ComboManager : public ::System::Object
 	{
 	public:

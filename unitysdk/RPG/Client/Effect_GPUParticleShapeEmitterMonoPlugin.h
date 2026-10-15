@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_GPUParticleShapeEmitterMonoPlugin_TypeDefinitionIndex = 70484;
+
 	class Effect_GPUParticleShapeEmitterMonoPlugin
 	{
 	public:

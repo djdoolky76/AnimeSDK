@@ -7,6 +7,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterStoryMoveData_PathPoint_TypeDefinitionIndex = 48004;
+
 	class CharacterStoryMoveData_PathPoint : public ::System::Object
 	{
 	public:

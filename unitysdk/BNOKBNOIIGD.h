@@ -32,6 +32,8 @@ namespace System { class String; }
 #define BNOKBNOIIGD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0388C0)
 #define BNOKBNOIIGD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E038920)
 
+inline static constexpr unsigned int BNOKBNOIIGD_TypeDefinitionIndex = 30429;
+
 	class BNOKBNOIIGD : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client { class UIStateCtrl; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingDevelopValueSingleIconItemControl_TypeDefinitionIndex = 81826;
+
 	class B51RacingDevelopValueSingleIconItemControl : public ::Sofa::BaseSofaControl
 	{
 	public:

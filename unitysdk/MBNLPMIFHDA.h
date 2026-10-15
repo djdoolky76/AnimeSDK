@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MBNLPMIFHDA_LNCEGKNJPKM_OFFSET UNITYSDK_OFFSET(0xB86FCC0)
 #define MBNLPMIFHDA_SET_LONGTAILMAINMISSIONID_OFFSET UNITYSDK_OFFSET(0xB86FD60)
 
+inline static constexpr unsigned int MBNLPMIFHDA_TypeDefinitionIndex = 80744;
+
 	class MBNLPMIFHDA : public ::System::Object
 	{
 	public:

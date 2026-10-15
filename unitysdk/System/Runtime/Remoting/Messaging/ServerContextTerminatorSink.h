@@ -11,6 +11,8 @@ namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int ServerContextTerminatorSink_TypeDefinitionIndex = 1334;
+
 	class ServerContextTerminatorSink : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class Action; }
 #define EDNFOIODAHO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA33590)
 #define EDNFOIODAHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA335E0)
 
+inline static constexpr unsigned int EDNFOIODAHO_TypeDefinitionIndex = 43383;
+
 	class EDNFOIODAHO : public ::System::Object
 	{
 	public:

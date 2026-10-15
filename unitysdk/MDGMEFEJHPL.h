@@ -10,6 +10,8 @@ namespace RPG::Client::OpenWorld { class StreamingItemData; }
 #define MDGMEFEJHPL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB8A4030)
 #define MDGMEFEJHPL_OGDLIONGCMP_OFFSET UNITYSDK_OFFSET(0xB8A40C0)
 
+inline static constexpr unsigned int MDGMEFEJHPL_TypeDefinitionIndex = 73850;
+
 	class MDGMEFEJHPL : public ::HPKACEPPPCA
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Type; }
 
 namespace SRF
 {
+	inline static constexpr unsigned int ImportAttribute_TypeDefinitionIndex = 35363;
+
 	class ImportAttribute : public ::System::Attribute
 	{
 	public:

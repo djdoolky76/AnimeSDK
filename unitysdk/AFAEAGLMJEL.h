@@ -27,6 +27,8 @@ namespace System { class String; }
 #define AFAEAGLMJEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E10FEC0)
 #define AFAEAGLMJEL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E10FF20)
 
+inline static constexpr unsigned int AFAEAGLMJEL_TypeDefinitionIndex = 34513;
+
 	class AFAEAGLMJEL : public ::System::Object
 	{
 	public:

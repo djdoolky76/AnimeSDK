@@ -10,6 +10,8 @@ class KHOHPNEGHHN;
 #define LGAJIAAJIJI_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C90D800)
 #define LGAJIAAJIJI_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C90D870)
 
+inline static constexpr unsigned int LGAJIAAJIJI_TypeDefinitionIndex = 43297;
+
 	class LGAJIAAJIJI : public ::System::Object
 	{
 	public:

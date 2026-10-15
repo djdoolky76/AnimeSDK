@@ -31,6 +31,8 @@ namespace System { class String; }
 #define MJEICIEGAHF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA46570)
 #define MJEICIEGAHF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA465D0)
 
+inline static constexpr unsigned int MJEICIEGAHF_TypeDefinitionIndex = 29251;
+
 	class MJEICIEGAHF : public ::System::Object
 	{
 	public:

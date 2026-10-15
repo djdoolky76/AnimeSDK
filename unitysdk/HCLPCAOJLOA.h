@@ -49,6 +49,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HCLPCAOJLOA_PINALIPFLCF_OFFSET UNITYSDK_OFFSET(0x15C23320)
 #define HCLPCAOJLOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15C24140)
 
+inline static constexpr unsigned int HCLPCAOJLOA_TypeDefinitionIndex = 62033;
+
 	class HCLPCAOJLOA : public ::AJEAHAODOHJ
 	{
 	public:

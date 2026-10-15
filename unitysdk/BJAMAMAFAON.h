@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_AIEffectScore; }
 #define BJAMAMAFAON_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5BF700)
 #define BJAMAMAFAON_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C5BF710)
 
+inline static constexpr unsigned int BJAMAMAFAON_TypeDefinitionIndex = 36322;
+
 	class BJAMAMAFAON : public ::AJBKGPOEBFG
 	{
 	public:

@@ -48,6 +48,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int FieldDescriptorProto_TypeDefinitionIndex = 35769;
+
 	class FieldDescriptorProto : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_ContextMenuOrigin_TypeDefinitionIndex = 39392;
+
 	enum class BrowserNative_ContextMenuOrigin : ::System::Int32
 	{
 		Editable = 2,

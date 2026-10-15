@@ -43,6 +43,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EOOAMCPDPCE_OJCOENFILOM_OFFSET UNITYSDK_OFFSET(0x155CA090)
 #define EOOAMCPDPCE_PJDNHKCNBOC_OFFSET UNITYSDK_OFFSET(0x155CB730)
 
+inline static constexpr unsigned int EOOAMCPDPCE_TypeDefinitionIndex = 57154;
+
 	class EOOAMCPDPCE : public ::System::Object
 	{
 	public:

@@ -45,6 +45,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelGraphComponent_TypeDefinitionIndex = 57636;
+
 	class LevelGraphComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

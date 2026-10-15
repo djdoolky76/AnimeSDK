@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FunctionHudSpecialConfigRow_TypeDefinitionIndex = 13308;
+
 	class FunctionHudSpecialConfigRow : public ::System::Object
 	{
 	public:

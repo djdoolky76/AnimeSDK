@@ -6,6 +6,8 @@
 
 namespace System::Net::Cache
 {
+	inline static constexpr unsigned int RequestCache_TypeDefinitionIndex = 2980;
+
 	class RequestCache : public ::System::Object
 	{
 	public:

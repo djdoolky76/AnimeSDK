@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define LEAEAGIIDKO__ENUMERATESKILLLEVELS_D__3_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xB649960)
 #define LEAEAGIIDKO__ENUMERATESKILLLEVELS_D__3_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB649920)
 
+inline static constexpr unsigned int LEAEAGIIDKO__EnumerateSkillLevels_d__3_TypeDefinitionIndex = 51996;
+
 	template <typename T1, typename T2, typename T3>
 	class LEAEAGIIDKO__EnumerateSkillLevels_d__3 : public ::System::Object
 	{

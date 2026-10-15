@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GHAELIMHEOD_CTOR_OFFSET UNITYSDK_OFFSET(0x15A13D40)
 #define GHAELIMHEOD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15A13D70)
 
+inline static constexpr unsigned int GHAELIMHEOD_TypeDefinitionIndex = 52597;
+
 	class GHAELIMHEOD
 	{
 	public:

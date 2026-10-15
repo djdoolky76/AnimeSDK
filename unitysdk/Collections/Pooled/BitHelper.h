@@ -11,6 +11,8 @@
 
 namespace Collections::Pooled
 {
+	inline static constexpr unsigned int BitHelper_TypeDefinitionIndex = 5085;
+
 	struct alignas(8) BitHelper
 	{
 		::System::Span_1_0C0D59FF8BC7380B<::System::Int32> _span; // 0x10

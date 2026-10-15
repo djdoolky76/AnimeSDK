@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGame::Marble
 {
+	inline static constexpr unsigned int MarbleErrorCode_TypeDefinitionIndex = 43050;
+
 	enum class MarbleErrorCode : ::System::Int32
 	{
 		RoomNotExist = 1,

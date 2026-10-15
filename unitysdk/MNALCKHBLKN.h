@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define MNALCKHBLKN_NFLFJANAICB_OFFSET UNITYSDK_OFFSET(0xB9E2410)
 #define MNALCKHBLKN_PMJANNPMPAK_OFFSET UNITYSDK_OFFSET(0xB9E2380)
 
+inline static constexpr unsigned int MNALCKHBLKN_TypeDefinitionIndex = 81500;
+
 	class MNALCKHBLKN : public ::System::Object
 	{
 	public:

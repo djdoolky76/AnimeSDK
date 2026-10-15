@@ -9,6 +9,8 @@ namespace UnityEngine { class Renderer; }
 #define EFFECT_SETMATERIALPROPERTYBYRULES_CTOR_OFFSET UNITYSDK_OFFSET(0x155E2E70)
 #define EFFECT_SETMATERIALPROPERTYBYRULES_ONENABLE_OFFSET UNITYSDK_OFFSET(0x155E2E00)
 
+inline static constexpr unsigned int Effect_SetMaterialPropertyByRules_TypeDefinitionIndex = 47455;
+
 	class Effect_SetMaterialPropertyByRules : public ::UnityEngine::MonoBehaviour
 	{
 	public:

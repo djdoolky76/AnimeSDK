@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LMJAGGOPGDD_KOHOGMCJHBH_OFFSET UNITYSDK_OFFSET(0xB7CA530)
 #define LMJAGGOPGDD_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB7CA2E0)
 
+inline static constexpr unsigned int LMJAGGOPGDD_TypeDefinitionIndex = 82119;
+
 	class LMJAGGOPGDD : public ::System::Object
 	{
 	public:

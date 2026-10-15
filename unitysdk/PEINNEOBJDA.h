@@ -12,6 +12,8 @@ namespace RPGCamera { class ICameraStateRunner; }
 #define PEINNEOBJDA_NJDMJODMLFF_OFFSET UNITYSDK_OFFSET(0xC03DF10)
 #define PEINNEOBJDA_OGLOMDGPBPA_OFFSET UNITYSDK_OFFSET(0xC03DF90)
 
+inline static constexpr unsigned int PEINNEOBJDA_TypeDefinitionIndex = 69734;
+
 	class PEINNEOBJDA : public ::RPGCamera::CameraStateMgr
 	{
 	public:

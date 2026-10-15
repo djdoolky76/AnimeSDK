@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Console::UI::OS
 {
+	inline static constexpr unsigned int ConsoleAgeGateAgeAppealOptionDialog___CorrectAgeButtonPressed_g__OnClosePressedRoutine_37_0_d_TypeDefinitionIndex = 9029;
+
 	class ConsoleAgeGateAgeAppealOptionDialog___CorrectAgeButtonPressed_g__OnClosePressedRoutine_37_0_d : public ::System::Object
 	{
 	public:

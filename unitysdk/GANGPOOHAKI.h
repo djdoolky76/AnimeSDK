@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GANGPOOHAKI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E425080)
 #define GANGPOOHAKI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4250E0)
 
+inline static constexpr unsigned int GANGPOOHAKI_TypeDefinitionIndex = 31710;
+
 	class GANGPOOHAKI : public ::System::Object
 	{
 	public:

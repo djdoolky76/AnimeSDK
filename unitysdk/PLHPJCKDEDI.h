@@ -25,6 +25,8 @@ namespace System { class String; }
 #define PLHPJCKDEDI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFA0E00)
 #define PLHPJCKDEDI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFA0E60)
 
+inline static constexpr unsigned int PLHPJCKDEDI_TypeDefinitionIndex = 28744;
+
 	class PLHPJCKDEDI : public ::System::Object
 	{
 	public:

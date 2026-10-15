@@ -9,6 +9,8 @@ namespace System { class String; }
 #define LPKGCDELJML_CTOR_OFFSET UNITYSDK_OFFSET(0x1D12A930)
 #define LPKGCDELJML_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D12A730)
 
+inline static constexpr unsigned int LPKGCDELJML_TypeDefinitionIndex = 11258;
+
 	class LPKGCDELJML : public ::System::Object
 	{
 	public:

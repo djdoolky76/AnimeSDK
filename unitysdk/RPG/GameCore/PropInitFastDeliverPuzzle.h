@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropInitFastDeliverPuzzle_TypeDefinitionIndex = 22147;
+
 	class PropInitFastDeliverPuzzle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

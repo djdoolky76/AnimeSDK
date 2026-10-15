@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RemoveEffect; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int RemoveEffectBehaviour_TypeDefinitionIndex = 48326;
+
 	class RemoveEffectBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PIHKLPJGEPM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF47150)
 #define PIHKLPJGEPM___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DF47160)
 
+inline static constexpr unsigned int PIHKLPJGEPM___c_TypeDefinitionIndex = 29363;
+
 	class PIHKLPJGEPM___c : public ::System::Object
 	{
 	public:

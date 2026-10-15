@@ -3,6 +3,8 @@
 
 namespace Google::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int Syntax_TypeDefinitionIndex = 5442;
+
 	enum class Syntax : ::System::Int32
 	{
 		Proto2 = 0,

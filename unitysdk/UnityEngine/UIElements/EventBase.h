@@ -74,6 +74,8 @@ namespace UnityEngine::UIElements { class PropagationPaths; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int EventBase_TypeDefinitionIndex = 5929;
+
 	class EventBase : public ::System::Object
 	{
 	public:

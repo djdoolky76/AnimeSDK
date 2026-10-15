@@ -4,6 +4,8 @@
 
 #define FDPFMFINJCO_CTOR_OFFSET UNITYSDK_OFFSET(0x156E3290)
 
+inline static constexpr unsigned int FDPFMFINJCO_TypeDefinitionIndex = 67555;
+
 	class FDPFMFINJCO : public ::System::Object
 	{
 	public:

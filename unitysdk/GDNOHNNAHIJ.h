@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GDNOHNNAHIJ_NLKMAMKEHDB_OFFSET UNITYSDK_OFFSET(0x159BD950)
 #define GDNOHNNAHIJ_PGMLIEMFAIM_OFFSET UNITYSDK_OFFSET(0x159BC840)
 
+inline static constexpr unsigned int GDNOHNNAHIJ_TypeDefinitionIndex = 77947;
+
 	class GDNOHNNAHIJ : public ::System::Object
 	{
 	public:

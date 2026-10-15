@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueTournFormulaRow; }
 #define AMKCDHLIGDK_GET_MAINITEM_OFFSET UNITYSDK_OFFSET(0x15584A30)
 #define AMKCDHLIGDK_GET_SUBITEM_OFFSET UNITYSDK_OFFSET(0x15584A40)
 
+inline static constexpr unsigned int AMKCDHLIGDK_TypeDefinitionIndex = 67213;
+
 	class AMKCDHLIGDK : public ::System::Object
 	{
 	public:

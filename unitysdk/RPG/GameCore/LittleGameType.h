@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameType_TypeDefinitionIndex = 18836;
+
 	enum class LittleGameType : ::System::Int32
 	{
 		TimeRelayFlame = 301,

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define DAFHOKGICNG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E14F910)
 #define DAFHOKGICNG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E14F970)
 
+inline static constexpr unsigned int DAFHOKGICNG_TypeDefinitionIndex = 28362;
+
 	class DAFHOKGICNG : public ::System::Object
 	{
 	public:

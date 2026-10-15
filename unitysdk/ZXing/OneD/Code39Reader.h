@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace ZXing::OneD
 {
+	inline static constexpr unsigned int Code39Reader_TypeDefinitionIndex = 7042;
+
 	class Code39Reader : public ::ZXing::OneD::OneDReader
 	{
 	public:

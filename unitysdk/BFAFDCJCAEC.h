@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BFAFDCJCAEC__SENDADDRELICPRESETPLAN_B__2_0_OFFSET UNITYSDK_OFFSET(0xB15D730)
 #define BFAFDCJCAEC__SENDGETRELICPRESETPLAN_B__1_0_OFFSET UNITYSDK_OFFSET(0xB15D660)
 
+inline static constexpr unsigned int BFAFDCJCAEC_TypeDefinitionIndex = 66868;
+
 	class BFAFDCJCAEC : public ::BHPMNMMGLHI
 	{
 	public:

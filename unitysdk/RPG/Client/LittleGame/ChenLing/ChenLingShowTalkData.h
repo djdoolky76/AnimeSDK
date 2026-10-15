@@ -7,6 +7,8 @@
 
 namespace RPG::Client::LittleGame::ChenLing
 {
+	inline static constexpr unsigned int ChenLingShowTalkData_TypeDefinitionIndex = 77833;
+
 	class ChenLingShowTalkData : public ::System::Object
 	{
 	public:

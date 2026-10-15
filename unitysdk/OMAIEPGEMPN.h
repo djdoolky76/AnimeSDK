@@ -7,6 +7,8 @@ namespace System::Collections::Concurrent { template <typename T1, typename T2> 
 
 #define OMAIEPGEMPN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC94200)
 
+inline static constexpr unsigned int OMAIEPGEMPN_TypeDefinitionIndex = 43881;
+
 	class OMAIEPGEMPN : public ::System::Object
 	{
 	public:

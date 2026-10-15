@@ -7,6 +7,8 @@ namespace RPG::GameCore { class RoadRashGameModifierConfig; }
 
 #define NFKBBGEFJIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C956520)
 
+inline static constexpr unsigned int NFKBBGEFJIN_TypeDefinitionIndex = 42887;
+
 	class NFKBBGEFJIN : public ::System::Object
 	{
 	public:

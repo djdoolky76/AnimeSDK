@@ -15,6 +15,8 @@ class LNHACPACCKH;
 #define GELNHFKCMFN_NOJIPMKAGON_OFFSET UNITYSDK_OFFSET(0x1C63AA60)
 #define GELNHFKCMFN_PNJODACLLPH_OFFSET UNITYSDK_OFFSET(0x1C63AA50)
 
+inline static constexpr unsigned int GELNHFKCMFN_TypeDefinitionIndex = 37180;
+
 	class GELNHFKCMFN : public ::System::Object
 	{
 	public:

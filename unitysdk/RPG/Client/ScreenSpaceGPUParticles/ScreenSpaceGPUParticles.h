@@ -8,6 +8,8 @@ namespace UnityEngine { class GPUParticlesRenderer; }
 
 namespace RPG::Client::ScreenSpaceGPUParticles
 {
+	inline static constexpr unsigned int ScreenSpaceGPUParticles_TypeDefinitionIndex = 73705;
+
 	class ScreenSpaceGPUParticles
 	{
 	public:

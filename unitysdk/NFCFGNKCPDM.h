@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NFCFGNKCPDM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2015C0)
 #define NFCFGNKCPDM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D200F60)
 
+inline static constexpr unsigned int NFCFGNKCPDM_TypeDefinitionIndex = 14869;
+
 	class NFCFGNKCPDM : public ::System::Object
 	{
 	public:

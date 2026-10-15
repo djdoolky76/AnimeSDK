@@ -22,6 +22,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int RuntimePropertyInfo_TypeDefinitionIndex = 631;
+
 	class RuntimePropertyInfo : public ::System::Reflection::PropertyInfo
 	{
 	public:

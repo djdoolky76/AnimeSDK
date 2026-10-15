@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define CNHDNBDONPH_OPCKNBHNBOA_OFFSET UNITYSDK_OFFSET(0xDA508C0)
 #define CNHDNBDONPH_PFMCNHJGDBM_OFFSET UNITYSDK_OFFSET(0xDA4FCD0)
 
+inline static constexpr unsigned int CNHDNBDONPH_TypeDefinitionIndex = 66671;
+
 	class CNHDNBDONPH : public ::FFAOGKGJGPO
 	{
 	public:

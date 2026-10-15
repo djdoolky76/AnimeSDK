@@ -5,6 +5,8 @@
 
 #define FDAGJGPPPBC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C615640)
 
+inline static constexpr unsigned int FDAGJGPPPBC_TypeDefinitionIndex = 36568;
+
 	class FDAGJGPPPBC : public ::RPG::LittleGameShare::HoyoPhysics::PhysicsCollider2DConfig
 	{
 	public:

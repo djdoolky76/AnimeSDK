@@ -9,6 +9,8 @@ class PNIHHKFGKPN;
 #define PNIHHKFGKPN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D30FBB0)
 #define PNIHHKFGKPN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D30F900)
 
+inline static constexpr unsigned int PNIHHKFGKPN_TypeDefinitionIndex = 14176;
+
 	class PNIHHKFGKPN : public ::System::Object
 	{
 	public:

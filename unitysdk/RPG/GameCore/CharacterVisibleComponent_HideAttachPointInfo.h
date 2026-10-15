@@ -7,6 +7,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterVisibleComponent_HideAttachPointInfo_TypeDefinitionIndex = 57216;
+
 	class CharacterVisibleComponent_HideAttachPointInfo : public ::System::Object
 	{
 	public:

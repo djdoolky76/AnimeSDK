@@ -8,6 +8,8 @@ namespace UnityEngine { class Terrain; }
 
 namespace UnityEngine::Experimental::TerrainAPI
 {
+	inline static constexpr unsigned int TerrainUtility_TerrainMap___c__DisplayClass4_0_TypeDefinitionIndex = 5345;
+
 	class TerrainUtility_TerrainMap___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

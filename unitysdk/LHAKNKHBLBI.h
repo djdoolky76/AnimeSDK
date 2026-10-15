@@ -33,6 +33,8 @@ namespace System { class String; }
 #define LHAKNKHBLBI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E95B350)
 #define LHAKNKHBLBI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E95B3B0)
 
+inline static constexpr unsigned int LHAKNKHBLBI_TypeDefinitionIndex = 26947;
+
 	class LHAKNKHBLBI : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace RPG::Client::B51Racing { class LuaControllerHandle; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingDIYNumButtonItemControl_TypeDefinitionIndex = 81774;
+
 	class B51RacingDIYNumButtonItemControl : public ::Sofa::BaseSofaControl
 	{
 	public:

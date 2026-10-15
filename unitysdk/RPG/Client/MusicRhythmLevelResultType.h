@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MusicRhythmLevelResultType_TypeDefinitionIndex = 61820;
+
 	enum class MusicRhythmLevelResultType : ::System::Int32
 	{
 		Perfect = 0,

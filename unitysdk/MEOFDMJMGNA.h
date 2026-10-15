@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MEOFDMJMGNA_PPJPJNMHINL_OFFSET UNITYSDK_OFFSET(0xB8E5170)
 #define MEOFDMJMGNA_TICK_OFFSET UNITYSDK_OFFSET(0xB8E5010)
 
+inline static constexpr unsigned int MEOFDMJMGNA_TypeDefinitionIndex = 52124;
+
 	class MEOFDMJMGNA
 	{
 	public:

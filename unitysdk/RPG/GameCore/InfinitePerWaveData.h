@@ -65,6 +65,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InfinitePerWaveData_TypeDefinitionIndex = 57591;
+
 	class InfinitePerWaveData : public ::System::Object
 	{
 	public:

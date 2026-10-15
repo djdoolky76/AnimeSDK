@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::BlindBox::Trade
 {
+	inline static constexpr unsigned int BlindBoxTradePublishOrderPetItem_TypeDefinitionIndex = 74888;
+
 	class BlindBoxTradePublishOrderPetItem : public ::System::Object
 	{
 	public:

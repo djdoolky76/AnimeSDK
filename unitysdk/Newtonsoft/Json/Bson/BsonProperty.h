@@ -10,6 +10,8 @@ namespace Newtonsoft::Json::Bson { class BsonToken; }
 
 namespace Newtonsoft::Json::Bson
 {
+	inline static constexpr unsigned int BsonProperty_TypeDefinitionIndex = 9858;
+
 	class BsonProperty : public ::System::Object
 	{
 	public:

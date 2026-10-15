@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RestaurantSpecialBubbleRow_TypeDefinitionIndex = 11349;
+
 	class RestaurantSpecialBubbleRow : public ::System::Object
 	{
 	public:

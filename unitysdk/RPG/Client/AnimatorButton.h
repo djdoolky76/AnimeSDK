@@ -78,6 +78,8 @@ namespace UnityEngine::UI { class ScrollRect; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AnimatorButton_TypeDefinitionIndex = 72502;
+
 	class AnimatorButton : public ::RPG::Client::CustomButton
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace Mirrorment
 {
+	inline static constexpr unsigned int MirrormentTool_PDMGFPOCAND_TypeDefinitionIndex = 47768;
+
 	class MirrormentTool_PDMGFPOCAND : public ::System::Object
 	{
 	public:

@@ -58,6 +58,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JHMBGNKOIJH_ONJAHEBDMCN_OFFSET UNITYSDK_OFFSET(0xB1BD840)
 #define JHMBGNKOIJH_SET_ANIMATORREF_OFFSET UNITYSDK_OFFSET(0xB1BE890)
 
+inline static constexpr unsigned int JHMBGNKOIJH_TypeDefinitionIndex = 55944;
+
 	class JHMBGNKOIJH : public ::System::Object
 	{
 	public:

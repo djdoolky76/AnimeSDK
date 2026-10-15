@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnhancedAdventurePlayerRow_TypeDefinitionIndex = 12587;
+
 	class EnhancedAdventurePlayerRow : public ::System::Object
 	{
 	public:

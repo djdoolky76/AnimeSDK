@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByDrinkMakerCheersStoryLastMakedDrinkIsPositive_TypeDefinitionIndex = 21716;
+
 	class ByDrinkMakerCheersStoryLastMakedDrinkIsPositive : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

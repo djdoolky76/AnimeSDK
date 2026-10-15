@@ -6,6 +6,8 @@ namespace ScenenLightManager { class BlockEnvExportDataHeader; }
 #define OFBJPNPBGLL_CTOR_OFFSET UNITYSDK_OFFSET(0xBE3D0F0)
 #define OFBJPNPBGLL_HKGGINIOJOG_OFFSET UNITYSDK_OFFSET(0xBE3CED0)
 
+inline static constexpr unsigned int OFBJPNPBGLL_TypeDefinitionIndex = 49167;
+
 	class OFBJPNPBGLL : public ::System::Object
 	{
 	public:

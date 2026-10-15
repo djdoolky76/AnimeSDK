@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MHYSDKC_AccountInfo_TypeDefinitionIndex = 46198;
+
 	class MHYSDKC_AccountInfo : public ::System::Object
 	{
 	public:

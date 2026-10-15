@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceActionGenCurSectionWubbaboo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceActionGenCurSectionWubbaboo_TypeDefinitionIndex = 18340;
+
 	class CakeRaceActionGenCurSectionWubbaboo : public ::RPG::GameCore::CakeRaceActionBase
 	{
 	public:

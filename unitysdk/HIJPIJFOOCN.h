@@ -98,6 +98,8 @@ namespace UnityEngine { class Transform; }
 #define HIJPIJFOOCN_SET_QTEPERFORMANCECONFIG_OFFSET UNITYSDK_OFFSET(0x15CEFA50)
 #define HIJPIJFOOCN_TICK_OFFSET UNITYSDK_OFFSET(0x15CEC040)
 
+inline static constexpr unsigned int HIJPIJFOOCN_TypeDefinitionIndex = 81871;
+
 	class HIJPIJFOOCN : public ::System::Object
 	{
 	public:

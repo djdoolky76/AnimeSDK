@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LILHIEALFOC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9722B0)
 #define LILHIEALFOC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E972310)
 
+inline static constexpr unsigned int LILHIEALFOC_TypeDefinitionIndex = 26182;
+
 	class LILHIEALFOC : public ::System::Object
 	{
 	public:

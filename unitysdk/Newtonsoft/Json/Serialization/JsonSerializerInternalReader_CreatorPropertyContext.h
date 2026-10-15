@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int JsonSerializerInternalReader_CreatorPropertyContext_TypeDefinitionIndex = 9737;
+
 	class JsonSerializerInternalReader_CreatorPropertyContext : public ::System::Object
 	{
 	public:

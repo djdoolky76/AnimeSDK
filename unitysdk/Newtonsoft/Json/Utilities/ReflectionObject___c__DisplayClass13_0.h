@@ -9,6 +9,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int ReflectionObject___c__DisplayClass13_0_TypeDefinitionIndex = 9647;
+
 	class ReflectionObject___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

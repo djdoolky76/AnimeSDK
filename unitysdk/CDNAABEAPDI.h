@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CDNAABEAPDI_MMMBLEDBODN_OFFSET UNITYSDK_OFFSET(0xC76D980)
 #define CDNAABEAPDI_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC76DC30)
 
+inline static constexpr unsigned int CDNAABEAPDI_TypeDefinitionIndex = 52012;
+
 	class CDNAABEAPDI : public ::System::Object
 	{
 	public:

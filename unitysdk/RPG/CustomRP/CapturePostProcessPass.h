@@ -28,6 +28,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CapturePostProcessPass_TypeDefinitionIndex = 37762;
+
 	class CapturePostProcessPass : public ::System::Object
 	{
 	public:

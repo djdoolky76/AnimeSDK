@@ -5,6 +5,8 @@
 
 #define JJKIGLIJCPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA1380)
 
+inline static constexpr unsigned int JJKIGLIJCPA_TypeDefinitionIndex = 41977;
+
 	class JJKIGLIJCPA : public ::System::Object
 	{
 	public:

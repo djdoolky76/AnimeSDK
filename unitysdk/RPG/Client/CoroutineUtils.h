@@ -48,6 +48,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CoroutineUtils_TypeDefinitionIndex = 35223;
+
 	class CoroutineUtils : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine { class Collider; }
 #define GJLJLLKPEJH___C___DEPLOYSWITCHPLATFORMTRIGGER_B__8_1_OFFSET UNITYSDK_OFFSET(0x15A6F310)
 #define GJLJLLKPEJH___C___LISTENLEVELVAR_B__20_0_OFFSET UNITYSDK_OFFSET(0x15A6F330)
 
+inline static constexpr unsigned int GJLJLLKPEJH___c_TypeDefinitionIndex = 77157;
+
 	class GJLJLLKPEJH___c : public ::System::Object
 	{
 	public:

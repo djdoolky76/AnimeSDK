@@ -17,6 +17,8 @@ namespace RPG::Client { class IRogueTournPersonaStyleAncientCoinHubInfo; }
 #define BIBONFENHII_SET_SOURCETYPE_OFFSET UNITYSDK_OFFSET(0xB495090)
 #define BIBONFENHII_UPDATE_OFFSET UNITYSDK_OFFSET(0xB495010)
 
+inline static constexpr unsigned int BIBONFENHII_TypeDefinitionIndex = 67701;
+
 	class BIBONFENHII : public ::System::Object
 	{
 	public:

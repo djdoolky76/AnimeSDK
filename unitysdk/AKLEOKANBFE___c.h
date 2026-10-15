@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AKLEOKANBFE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3D0220)
 #define AKLEOKANBFE___C___CCTOR_B__58_0_OFFSET UNITYSDK_OFFSET(0x1E3D0230)
 
+inline static constexpr unsigned int AKLEOKANBFE___c_TypeDefinitionIndex = 34432;
+
 	class AKLEOKANBFE___c : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 #define LPPOALBKPIL_CTOR_OFFSET UNITYSDK_OFFSET(0xB836B70)
 #define LPPOALBKPIL_FHAAHMEJMCI_OFFSET UNITYSDK_OFFSET(0xB836920)
 
+inline static constexpr unsigned int LPPOALBKPIL_TypeDefinitionIndex = 66521;
+
 	class LPPOALBKPIL : public ::FMIHMGNLBPN
 	{
 	public:

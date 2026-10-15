@@ -12,6 +12,8 @@ namespace RPG::GameCore { class MissionChronicleConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MissionChronicleConfig_TypeDefinitionIndex = 18979;
+
 	class MissionChronicleConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveDungeonHpChangeMonitor_TypeDefinitionIndex = 75173;
+
 	class IdleLiveDungeonHpChangeMonitor : public ::UnityEngine::MonoBehaviour
 	{
 	public:

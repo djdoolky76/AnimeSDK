@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CKGKGBIKFLP_GEJNOLBPEBO_OFFSET UNITYSDK_OFFSET(0xD75A960)
 #define CKGKGBIKFLP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD75A460)
 
+inline static constexpr unsigned int CKGKGBIKFLP_TypeDefinitionIndex = 55186;
+
 	class CKGKGBIKFLP
 	{
 	public:

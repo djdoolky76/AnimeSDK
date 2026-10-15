@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int ResetPostProcessTimelineClip_TypeDefinitionIndex = 48609;
+
 	class ResetPostProcessTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

@@ -15,6 +15,8 @@ namespace RPG::GameCore { class IdleLiveImgDanmuRow; }
 #define NLPDPEMHNOA_SET_INTERVAL_OFFSET UNITYSDK_OFFSET(0xBC78B60)
 #define NLPDPEMHNOA_SET_ISENDED_OFFSET UNITYSDK_OFFSET(0xBC78B80)
 
+inline static constexpr unsigned int NLPDPEMHNOA_TypeDefinitionIndex = 75349;
+
 	class NLPDPEMHNOA : public ::System::Object
 	{
 	public:

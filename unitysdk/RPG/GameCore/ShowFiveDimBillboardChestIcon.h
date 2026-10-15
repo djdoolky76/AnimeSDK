@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowFiveDimBillboardChestIcon_TypeDefinitionIndex = 21294;
+
 	class ShowFiveDimBillboardChestIcon : public ::RPG::GameCore::TaskConfig
 	{
 	public:

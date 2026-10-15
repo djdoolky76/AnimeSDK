@@ -8,6 +8,8 @@ namespace UnityEngine { class BindlessTextureArray; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int BindlessTextureArray_TypeDefinitionIndex = 4253;
+
 	class BindlessTextureArray : public ::UnityEngine::BaseBindlessArray
 	{
 	public:

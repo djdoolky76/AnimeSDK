@@ -17,6 +17,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournBuildRefShareCodeHelper___c_TypeDefinitionIndex = 67553;
+
 	class RogueTournBuildRefShareCodeHelper___c : public ::System::Object
 	{
 	public:

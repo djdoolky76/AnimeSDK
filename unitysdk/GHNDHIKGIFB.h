@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 #define GHNDHIKGIFB__ONBIND_OFFSET UNITYSDK_OFFSET(0x15A2A890)
 #define GHNDHIKGIFB__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x15A2A9B0)
 
+inline static constexpr unsigned int GHNDHIKGIFB_TypeDefinitionIndex = 72257;
+
 	class GHNDHIKGIFB : public ::FMPCODLIOLG
 	{
 	public:

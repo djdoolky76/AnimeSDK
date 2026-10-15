@@ -5,6 +5,8 @@
 
 #define CGHMJEKOHNP_LFBOCIBEHJO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DC0D290)
 
+inline static constexpr unsigned int CGHMJEKOHNP_LFBOCIBEHJO_TypeDefinitionIndex = 10872;
+
 	class CGHMJEKOHNP_LFBOCIBEHJO : public ::System::Object
 	{
 	public:

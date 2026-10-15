@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LightConeZoom_UpdateFunc_TypeDefinitionIndex = 72554;
+
 	class LightConeZoom_UpdateFunc : public ::System::MulticastDelegate
 	{
 	public:

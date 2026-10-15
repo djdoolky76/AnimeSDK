@@ -16,6 +16,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::SceneOptimizer::PVSSceneBudgetStatTool
 {
+	inline static constexpr unsigned int GrassPreviewer_TypeDefinitionIndex = 51787;
+
 	class GrassPreviewer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

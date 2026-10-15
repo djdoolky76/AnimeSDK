@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VE_RtAngleBetween_TypeDefinitionIndex = 24268;
+
 	class VE_RtAngleBetween : public ::RPG::GameCore::ValueEvaluatorConfig
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PHPFEHIKCPC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2EC7B0)
 #define PHPFEHIKCPC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D2EC0D0)
 
+inline static constexpr unsigned int PHPFEHIKCPC_TypeDefinitionIndex = 13593;
+
 	class PHPFEHIKCPC : public ::System::Object
 	{
 	public:

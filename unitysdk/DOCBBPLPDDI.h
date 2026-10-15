@@ -11,6 +11,8 @@ namespace System { class String; }
 #define DOCBBPLPDDI_LFPNIPDMOOM_OFFSET UNITYSDK_OFFSET(0x11FDF160)
 #define DOCBBPLPDDI_MNLPJLBAJKJ_OFFSET UNITYSDK_OFFSET(0x11FDF0F0)
 
+inline static constexpr unsigned int DOCBBPLPDDI_TypeDefinitionIndex = 72198;
+
 	class DOCBBPLPDDI : public ::System::Object
 	{
 	public:

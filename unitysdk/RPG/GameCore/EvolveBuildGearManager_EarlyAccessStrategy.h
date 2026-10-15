@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EvolveBuildGearManager_EarlyAccessStrategy_TypeDefinitionIndex = 56064;
+
 	class EvolveBuildGearManager_EarlyAccessStrategy : public ::System::Object
 	{
 	public:

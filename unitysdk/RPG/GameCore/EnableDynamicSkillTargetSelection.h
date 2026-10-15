@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EnableDynamicSkillTargetSelection; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnableDynamicSkillTargetSelection_TypeDefinitionIndex = 22841;
+
 	class EnableDynamicSkillTargetSelection : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::Client { class MatchThreeBoard; }
 #define NKKPADEBJFM_LGAOOKPFIMF_OFFSET UNITYSDK_OFFSET(0xBC39C00)
 #define NKKPADEBJFM_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xBC399C0)
 
+inline static constexpr unsigned int NKKPADEBJFM_TypeDefinitionIndex = 65855;
+
 	class NKKPADEBJFM : public ::FNIDIOCNBBI
 	{
 	public:

@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TriggerRogueSelectLimitedAvatar; }
 #define DJHGGKPBPKL_TICK_OFFSET UNITYSDK_OFFSET(0xF234950)
 #define DJHGGKPBPKL__ONTASKBEGIN_B__3_0_OFFSET UNITYSDK_OFFSET(0xF234F00)
 
+inline static constexpr unsigned int DJHGGKPBPKL_TypeDefinitionIndex = 58799;
+
 	class DJHGGKPBPKL : public ::GELIALJDFBL
 	{
 	public:

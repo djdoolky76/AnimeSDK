@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define OLPFMPIKIPK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEAD050)
 #define OLPFMPIKIPK___C___CCTOR_B__63_0_OFFSET UNITYSDK_OFFSET(0x1DEAD060)
 
+inline static constexpr unsigned int OLPFMPIKIPK___c_TypeDefinitionIndex = 29632;
+
 	class OLPFMPIKIPK___c : public ::System::Object
 	{
 	public:

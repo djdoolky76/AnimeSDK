@@ -22,6 +22,8 @@ class JBACCAGFHON;
 #define HBBCDNAHNMH_OBJDDAIFHAI_OFFSET UNITYSDK_OFFSET(0x15BE3B20)
 #define HBBCDNAHNMH_OIGLONAKGKF_OFFSET UNITYSDK_OFFSET(0x15BE4110)
 
+inline static constexpr unsigned int HBBCDNAHNMH_TypeDefinitionIndex = 78081;
+
 	class HBBCDNAHNMH : public ::System::Object
 	{
 	public:

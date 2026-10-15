@@ -8,6 +8,8 @@ namespace System::Xml::Serialization { class XmlArrayItemAttribute; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlArrayItemAttributes_TypeDefinitionIndex = 2001;
+
 	class XmlArrayItemAttributes : public ::System::Collections::CollectionBase
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int MovieGameModeComponent_TypeDefinitionIndex = 42376;
+
 	class MovieGameModeComponent : public ::System::Object
 	{
 	public:

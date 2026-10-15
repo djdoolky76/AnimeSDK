@@ -41,6 +41,8 @@ namespace System { class String; }
 #define PHIFCNHKOAI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF3BCA0)
 #define PHIFCNHKOAI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF3BD00)
 
+inline static constexpr unsigned int PHIFCNHKOAI_TypeDefinitionIndex = 29588;
+
 	class PHIFCNHKOAI : public ::System::Object
 	{
 	public:

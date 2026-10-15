@@ -31,6 +31,8 @@ namespace System { class String; }
 #define MIECIEKKIMJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA3A3F0)
 #define MIECIEKKIMJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA3A450)
 
+inline static constexpr unsigned int MIECIEKKIMJ_TypeDefinitionIndex = 26686;
+
 	class MIECIEKKIMJ : public ::System::Object
 	{
 	public:

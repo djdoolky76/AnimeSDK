@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JAIHODJEIMI_MMFEEJAHPLJ_OFFSET UNITYSDK_OFFSET(0x16552890)
 #define JAIHODJEIMI_PNFAHABNEMH_OFFSET UNITYSDK_OFFSET(0x16552BC0)
 
+inline static constexpr unsigned int JAIHODJEIMI_TypeDefinitionIndex = 54295;
+
 	class JAIHODJEIMI : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int JsonConfigListType_TypeDefinitionIndex = 56508;
+
 	enum class JsonConfigListType : ::System::Int32
 	{
 		AdventureAbilityConfig = 0,

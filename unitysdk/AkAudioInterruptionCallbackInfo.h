@@ -12,6 +12,8 @@ class AkAudioInterruptionCallbackInfo;
 #define AKAUDIOINTERRUPTIONCALLBACKINFO_GET_BENTERINTERRUPTION_OFFSET UNITYSDK_OFFSET(0x1F575650)
 #define AKAUDIOINTERRUPTIONCALLBACKINFO_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1F575220)
 
+inline static constexpr unsigned int AkAudioInterruptionCallbackInfo_TypeDefinitionIndex = 44716;
+
 	class AkAudioInterruptionCallbackInfo : public ::System::Object
 	{
 	public:

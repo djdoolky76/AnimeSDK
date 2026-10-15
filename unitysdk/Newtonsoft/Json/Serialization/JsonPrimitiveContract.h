@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int JsonPrimitiveContract_TypeDefinitionIndex = 9699;
+
 	class JsonPrimitiveContract : public ::Newtonsoft::Json::Serialization::JsonContract
 	{
 	public:

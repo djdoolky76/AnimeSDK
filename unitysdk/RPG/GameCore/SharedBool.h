@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SharedBool; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SharedBool_TypeDefinitionIndex = 18307;
+
 	class SharedBool : public ::RPG::GameCore::SharedValue
 	{
 	public:

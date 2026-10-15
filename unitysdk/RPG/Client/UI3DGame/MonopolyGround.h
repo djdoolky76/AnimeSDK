@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace RPG::Client::UI3DGame
 {
+	inline static constexpr unsigned int MonopolyGround_TypeDefinitionIndex = 75812;
+
 	class MonopolyGround : public ::RPG::Client::UI3DGame::MonoUI3DGameView
 	{
 	public:

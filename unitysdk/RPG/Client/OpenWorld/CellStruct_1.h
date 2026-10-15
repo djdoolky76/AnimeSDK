@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client::OpenWorld
 {
+	inline static constexpr unsigned int CellStruct_1_TypeDefinitionIndex = 73888;
+
 	template <typename T>
 	class CellStruct_1 : public ::System::Object
 	{

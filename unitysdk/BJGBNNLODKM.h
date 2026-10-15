@@ -20,6 +20,8 @@ namespace System { class Object; }
 #define BJGBNNLODKM_INIT_OFFSET UNITYSDK_OFFSET(0x14160)
 #define BJGBNNLODKM_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1D80E580)
 
+inline static constexpr unsigned int BJGBNNLODKM_TypeDefinitionIndex = 10673;
+
 	struct alignas(8) BJGBNNLODKM
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

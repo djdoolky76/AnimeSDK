@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierAddRoleDelayGrantConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierAddRoleDelayGrantConfig_TypeDefinitionIndex = 19468;
+
 	class GridFightModifierAddRoleDelayGrantConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

@@ -5,6 +5,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_PDGCookedDataEvent_TypeDefinitionIndex = 40530;
+
 	class HEU_PDGCookedDataEvent
 	{
 	public:

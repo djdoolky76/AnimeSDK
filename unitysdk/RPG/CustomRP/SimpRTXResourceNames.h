@@ -6,6 +6,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int SimpRTXResourceNames_TypeDefinitionIndex = 37875;
+
 	class SimpRTXResourceNames : public ::System::Object
 	{
 	public:

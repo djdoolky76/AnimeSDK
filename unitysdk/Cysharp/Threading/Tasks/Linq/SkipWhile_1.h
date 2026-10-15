@@ -6,6 +6,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int SkipWhile_1_TypeDefinitionIndex = 45588;
+
 	template <typename T>
 	class SkipWhile_1 : public ::System::Object
 	{

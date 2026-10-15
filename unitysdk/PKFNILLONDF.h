@@ -31,6 +31,8 @@ namespace System { class String; }
 #define PKFNILLONDF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF8A150)
 #define PKFNILLONDF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF8A1B0)
 
+inline static constexpr unsigned int PKFNILLONDF_TypeDefinitionIndex = 32850;
+
 	class PKFNILLONDF : public ::System::Object
 	{
 	public:

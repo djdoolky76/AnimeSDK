@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByComparePhoneMessageItem_TypeDefinitionIndex = 20714;
+
 	class ByComparePhoneMessageItem : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

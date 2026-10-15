@@ -7,6 +7,8 @@ namespace System { class String; }
 #define BFPOPEHNOAP_CTOR_OFFSET UNITYSDK_OFFSET(0xB1758E0)
 #define BFPOPEHNOAP_GNADABFLEFM_OFFSET UNITYSDK_OFFSET(0xB1757F0)
 
+inline static constexpr unsigned int BFPOPEHNOAP_TypeDefinitionIndex = 55600;
+
 	class BFPOPEHNOAP : public ::System::Object
 	{
 	public:

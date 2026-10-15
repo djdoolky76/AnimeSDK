@@ -12,6 +12,8 @@ namespace RPG::Client { class GridFightRole; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightShopBuyEvent_TypeDefinitionIndex = 65235;
+
 	class GridFightShopBuyEvent : public ::System::Object
 	{
 	public:

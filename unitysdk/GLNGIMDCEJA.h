@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GLNGIMDCEJA_CTOR_OFFSET UNITYSDK_OFFSET(0x15ABDDD0)
 #define GLNGIMDCEJA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15ABDE00)
 
+inline static constexpr unsigned int GLNGIMDCEJA_TypeDefinitionIndex = 54606;
+
 	class GLNGIMDCEJA
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAbilityEffectMultiplyShieldConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityEffectMultiplyShieldConfig_TypeDefinitionIndex = 21349;
+
 	class LittleGameAbilityEffectMultiplyShieldConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:

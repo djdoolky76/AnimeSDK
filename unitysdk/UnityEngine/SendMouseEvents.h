@@ -12,6 +12,8 @@ namespace UnityEngine { class Camera; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int SendMouseEvents_TypeDefinitionIndex = 5789;
+
 	class SendMouseEvents : public ::System::Object
 	{
 	public:

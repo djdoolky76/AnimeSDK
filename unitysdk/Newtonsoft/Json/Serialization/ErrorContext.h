@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int ErrorContext_TypeDefinitionIndex = 9716;
+
 	class ErrorContext : public ::System::Object
 	{
 	public:

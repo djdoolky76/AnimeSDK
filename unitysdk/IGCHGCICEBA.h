@@ -4,6 +4,8 @@
 
 #define IGCHGCICEBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6D4E60)
 
+inline static constexpr unsigned int IGCHGCICEBA_TypeDefinitionIndex = 36468;
+
 	class IGCHGCICEBA : public ::System::Object
 	{
 	public:

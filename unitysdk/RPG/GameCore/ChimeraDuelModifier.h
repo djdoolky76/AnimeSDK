@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelModifier; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelModifier_TypeDefinitionIndex = 16017;
+
 	class ChimeraDuelModifier : public ::RPG::GameCore::JsonConfig
 	{
 	public:

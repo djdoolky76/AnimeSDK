@@ -8,6 +8,8 @@
 
 namespace System::Security::Permissions
 {
+	inline static constexpr unsigned int SecurityPermissionAttribute_TypeDefinitionIndex = 968;
+
 	class SecurityPermissionAttribute : public ::System::Security::Permissions::CodeAccessSecurityAttribute
 	{
 	public:

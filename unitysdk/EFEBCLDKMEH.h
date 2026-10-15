@@ -5,6 +5,8 @@
 
 #define EFEBCLDKMEH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA33A30)
 
+inline static constexpr unsigned int EFEBCLDKMEH_TypeDefinitionIndex = 42985;
+
 	class EFEBCLDKMEH : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int rdtTcpMessageDeleteGameObjects_TypeDefinitionIndex = 46981;
+
 	struct alignas(8) rdtTcpMessageDeleteGameObjects
 	{
 		::System::Collections::Generic::List_1<::System::Int32>* m_instanceIds; // 0x10

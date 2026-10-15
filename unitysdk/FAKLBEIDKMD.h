@@ -11,6 +11,8 @@
 #define FAKLBEIDKMD_SET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x15682FB0)
 #define FAKLBEIDKMD_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x15682F70)
 
+inline static constexpr unsigned int FAKLBEIDKMD_TypeDefinitionIndex = 74592;
+
 	class FAKLBEIDKMD : public ::System::Object
 	{
 	public:

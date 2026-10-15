@@ -15,6 +15,8 @@ namespace RPG::Client { class ChimeraDoingRoundData; }
 #define LHDKHAJMJLD_OFDPBELBBCB_OFFSET UNITYSDK_OFFSET(0xB6AA5E0)
 #define LHDKHAJMJLD_PBBGECIINAM_OFFSET UNITYSDK_OFFSET(0xB6AA960)
 
+inline static constexpr unsigned int LHDKHAJMJLD_TypeDefinitionIndex = 76624;
+
 	class LHDKHAJMJLD : public ::System::Object
 	{
 	public:

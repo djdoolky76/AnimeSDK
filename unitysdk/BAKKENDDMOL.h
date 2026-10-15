@@ -25,6 +25,8 @@ namespace System { class String; }
 #define BAKKENDDMOL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7BA870)
 #define BAKKENDDMOL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7BA8D0)
 
+inline static constexpr unsigned int BAKKENDDMOL_TypeDefinitionIndex = 28017;
+
 	class BAKKENDDMOL : public ::System::Object
 	{
 	public:

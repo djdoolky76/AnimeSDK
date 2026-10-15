@@ -4,6 +4,8 @@
 
 #define JEALAGIGPFB_FJFDLGMIPAO_CMEFMFOIHLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x16615C90)
 
+inline static constexpr unsigned int JEALAGIGPFB_FJFDLGMIPAO_CMEFMFOIHLJ_TypeDefinitionIndex = 57428;
+
 	class JEALAGIGPFB_FJFDLGMIPAO_CMEFMFOIHLJ : public ::System::Object
 	{
 	public:

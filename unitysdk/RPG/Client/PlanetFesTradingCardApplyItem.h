@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesTradingCardApplyItem_TypeDefinitionIndex = 66577;
+
 	class PlanetFesTradingCardApplyItem : public ::System::Object
 	{
 	public:

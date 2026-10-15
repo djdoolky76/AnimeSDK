@@ -28,6 +28,8 @@ namespace System::Runtime::CompilerServices { class DebugInfoGenerator; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int LambdaExpression_TypeDefinitionIndex = 3230;
+
 	class LambdaExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:

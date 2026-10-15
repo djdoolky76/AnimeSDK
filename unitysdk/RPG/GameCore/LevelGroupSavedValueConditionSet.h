@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelGroupSavedValueConditionSet; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelGroupSavedValueConditionSet_TypeDefinitionIndex = 17210;
+
 	class LevelGroupSavedValueConditionSet : public ::RPG::GameCore::JsonConfig
 	{
 	public:

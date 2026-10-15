@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GrowthTargetNeedMaterialData_TypeDefinitionIndex = 65606;
+
 	class GrowthTargetNeedMaterialData : public ::System::Object
 	{
 	public:

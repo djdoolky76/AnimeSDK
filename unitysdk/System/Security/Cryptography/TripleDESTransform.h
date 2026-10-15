@@ -10,6 +10,8 @@ namespace System::Security::Cryptography { class TripleDES; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int TripleDESTransform_TypeDefinitionIndex = 1084;
+
 	class TripleDESTransform : public ::Mono::Security::Cryptography::SymmetricTransform
 	{
 	public:

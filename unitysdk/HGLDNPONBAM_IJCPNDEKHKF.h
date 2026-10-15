@@ -10,6 +10,8 @@ namespace System { class String; }
 #define HGLDNPONBAM_IJCPNDEKHKF_JINDACEGJGF_OFFSET UNITYSDK_OFFSET(0x15CAD0E0)
 #define HGLDNPONBAM_IJCPNDEKHKF_KMNNGHKFCEC_OFFSET UNITYSDK_OFFSET(0x15CAC6B0)
 
+inline static constexpr unsigned int HGLDNPONBAM_IJCPNDEKHKF_TypeDefinitionIndex = 57661;
+
 	class HGLDNPONBAM_IJCPNDEKHKF : public ::System::Object
 	{
 	public:

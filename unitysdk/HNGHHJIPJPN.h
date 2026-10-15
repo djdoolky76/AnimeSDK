@@ -100,6 +100,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define HNGHHJIPJPN_PAPENIFIPMH_OFFSET UNITYSDK_OFFSET(0x1CAF0900)
 #define HNGHHJIPJPN_PMOHKEKKOLM_OFFSET UNITYSDK_OFFSET(0x1CAEE7A0)
 
+inline static constexpr unsigned int HNGHHJIPJPN_TypeDefinitionIndex = 42566;
+
 	class HNGHHJIPJPN : public ::System::Object
 	{
 	public:

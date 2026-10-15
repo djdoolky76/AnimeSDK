@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvNPCGoback_TypeDefinitionIndex = 19985;
+
 	class AdvNPCGoback : public ::RPG::GameCore::TaskConfig
 	{
 	public:

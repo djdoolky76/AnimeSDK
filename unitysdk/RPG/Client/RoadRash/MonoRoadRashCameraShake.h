@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int MonoRoadRashCameraShake_TypeDefinitionIndex = 75843;
+
 	class MonoRoadRashCameraShake : public ::UnityEngine::MonoBehaviour
 	{
 	public:

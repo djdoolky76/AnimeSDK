@@ -9,6 +9,8 @@ class NBJOCFJOOKL;
 #define NBJOCFJOOKL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1EFA50)
 #define NBJOCFJOOKL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1EFA10)
 
+inline static constexpr unsigned int NBJOCFJOOKL_TypeDefinitionIndex = 21743;
+
 	class NBJOCFJOOKL : public ::RPG::GameCore::TaskConfig
 	{
 	public:

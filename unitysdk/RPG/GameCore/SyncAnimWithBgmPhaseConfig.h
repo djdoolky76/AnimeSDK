@@ -9,6 +9,8 @@ namespace RPG::GameCore { class SyncAnimWithBgmPhaseConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SyncAnimWithBgmPhaseConfig_TypeDefinitionIndex = 22391;
+
 	class SyncAnimWithBgmPhaseConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

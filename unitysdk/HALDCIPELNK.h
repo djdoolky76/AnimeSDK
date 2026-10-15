@@ -25,6 +25,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define HALDCIPELNK_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x15B85FF0)
 #define HALDCIPELNK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15B860C0)
 
+inline static constexpr unsigned int HALDCIPELNK_TypeDefinitionIndex = 49499;
+
 	class HALDCIPELNK
 	{
 	public:

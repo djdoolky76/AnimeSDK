@@ -39,6 +39,8 @@ namespace System { class String; }
 #define AANLJBLOOFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDC17D0)
 #define AANLJBLOOFO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDC1830)
 
+inline static constexpr unsigned int AANLJBLOOFO_TypeDefinitionIndex = 26843;
+
 	class AANLJBLOOFO : public ::System::Object
 	{
 	public:

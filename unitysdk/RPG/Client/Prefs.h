@@ -25,6 +25,8 @@ namespace RPG::Client::Promises { class IPromise; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Prefs_TypeDefinitionIndex = 59352;
+
 	class Prefs : public ::System::Object
 	{
 	public:

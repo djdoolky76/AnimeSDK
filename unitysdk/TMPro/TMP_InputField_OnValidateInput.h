@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_InputField_OnValidateInput_TypeDefinitionIndex = 44598;
+
 	class TMP_InputField_OnValidateInput : public ::System::MulticastDelegate
 	{
 	public:

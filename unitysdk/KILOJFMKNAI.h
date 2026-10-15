@@ -7,6 +7,8 @@
 #define KILOJFMKNAI_FEADNMNABOL_OFFSET UNITYSDK_OFFSET(0x1C711520)
 #define KILOJFMKNAI_MIFAOKMDILB_OFFSET UNITYSDK_OFFSET(0x1C711560)
 
+inline static constexpr unsigned int KILOJFMKNAI_TypeDefinitionIndex = 36847;
+
 	class KILOJFMKNAI : public ::System::Object
 	{
 	public:

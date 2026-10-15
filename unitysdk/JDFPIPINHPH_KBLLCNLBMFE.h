@@ -14,6 +14,8 @@ namespace System { class String; }
 #define JDFPIPINHPH_KBLLCNLBMFE__CUSTOMBINDVIEW_OFFSET UNITYSDK_OFFSET(0x165C65E0)
 #define JDFPIPINHPH_KBLLCNLBMFE__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x165C6680)
 
+inline static constexpr unsigned int JDFPIPINHPH_KBLLCNLBMFE_TypeDefinitionIndex = 72800;
+
 	class JDFPIPINHPH_KBLLCNLBMFE : public ::RPG::Client::UIController
 	{
 	public:

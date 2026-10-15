@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeCatchStatic___c__DisplayClass52_1_TypeDefinitionIndex = 62974;
+
 	template <typename T>
 	class CakeCatchStatic___c__DisplayClass52_1 : public ::System::Object
 	{

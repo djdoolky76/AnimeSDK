@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeRaceBattleItemSyncData_TypeDefinitionIndex = 63001;
+
 	class CakeRaceBattleItemSyncData : public ::System::Object
 	{
 	public:

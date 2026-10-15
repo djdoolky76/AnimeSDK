@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InitShield_TypeDefinitionIndex = 22686;
+
 	class InitShield : public ::RPG::GameCore::TaskConfig
 	{
 	public:

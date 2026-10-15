@@ -6,6 +6,8 @@ class AAEKKFIJFDL;
 #define CNNGAKJDMPN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA13420)
 #define CNNGAKJDMPN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA13480)
 
+inline static constexpr unsigned int CNNGAKJDMPN_TypeDefinitionIndex = 43336;
+
 	class CNNGAKJDMPN : public ::System::Object
 	{
 	public:

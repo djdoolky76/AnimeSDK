@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PuManMoveNotifyConfig_TypeDefinitionIndex = 16964;
+
 	class PuManMoveNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

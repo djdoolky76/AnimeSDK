@@ -11,6 +11,8 @@ namespace System::Security::Util { class Tokenizer_StringMaker; }
 
 namespace System
 {
+	inline static constexpr unsigned int SharedStatics_TypeDefinitionIndex = 327;
+
 	class SharedStatics : public ::System::Object
 	{
 	public:

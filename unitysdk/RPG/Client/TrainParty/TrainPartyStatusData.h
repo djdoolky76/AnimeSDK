@@ -6,6 +6,8 @@
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyStatusData_TypeDefinitionIndex = 74367;
+
 	class TrainPartyStatusData : public ::System::Object
 	{
 	public:

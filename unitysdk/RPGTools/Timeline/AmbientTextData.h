@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int AmbientTextData_TypeDefinitionIndex = 47845;
+
 	class AmbientTextData : public ::System::Object
 	{
 	public:

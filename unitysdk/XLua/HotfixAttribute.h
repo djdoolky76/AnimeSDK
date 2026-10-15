@@ -8,6 +8,8 @@
 
 namespace XLua
 {
+	inline static constexpr unsigned int HotfixAttribute_TypeDefinitionIndex = 5613;
+
 	class HotfixAttribute : public ::System::Attribute
 	{
 	public:

@@ -4,6 +4,8 @@
 
 namespace Newtonsoft::Json::Converters
 {
+	inline static constexpr unsigned int CustomCreationConverter_1_TypeDefinitionIndex = 9814;
+
 	template <typename T>
 	class CustomCreationConverter_1 : public ::Newtonsoft::Json::JsonConverter
 	{

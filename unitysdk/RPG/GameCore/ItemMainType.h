@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ItemMainType_TypeDefinitionIndex = 13848;
+
 	enum class ItemMainType : ::System::Int32
 	{
 		Unknown = 0,

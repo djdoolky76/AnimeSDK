@@ -4,6 +4,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BasePage_1_TypeDefinitionIndex = 71361;
+
 	template <typename T>
 	class BasePage_1 : public ::RPG::Client::BasePage
 	{

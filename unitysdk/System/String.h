@@ -237,6 +237,8 @@ namespace System::Text { class Encoding; }
 
 namespace System
 {
+	inline static constexpr unsigned int String_TypeDefinitionIndex = 330;
+
 	class String : public ::System::Object
 	{
 	public:

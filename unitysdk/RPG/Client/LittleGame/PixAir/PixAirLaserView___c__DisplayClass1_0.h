@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::LittleGame::PixAir
 {
+	inline static constexpr unsigned int PixAirLaserView___c__DisplayClass1_0_TypeDefinitionIndex = 77322;
+
 	class PixAirLaserView___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

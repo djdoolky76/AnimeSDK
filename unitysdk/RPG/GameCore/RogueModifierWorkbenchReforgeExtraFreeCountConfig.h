@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierWorkbenchReforgeExtraFreeCountConfi
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierWorkbenchReforgeExtraFreeCountConfig_TypeDefinitionIndex = 17879;
+
 	class RogueModifierWorkbenchReforgeExtraFreeCountConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityStrongChallengeStageData___O_TypeDefinitionIndex = 61916;
+
 	class ActivityStrongChallengeStageData___O : public ::System::Object
 	{
 	public:

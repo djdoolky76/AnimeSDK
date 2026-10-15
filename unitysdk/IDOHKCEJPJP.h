@@ -32,6 +32,8 @@ namespace System { class Object; }
 #define IDOHKCEJPJP_PBGHLMEDMBA_OFFSET UNITYSDK_OFFSET(0x3C3A090)
 #define IDOHKCEJPJP_POEGANGJCPG_OFFSET UNITYSDK_OFFSET(0x3C3A020)
 
+inline static constexpr unsigned int IDOHKCEJPJP_TypeDefinitionIndex = 10669;
+
 	struct alignas(8) IDOHKCEJPJP
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

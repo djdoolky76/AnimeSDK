@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MiConditionConfigBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MiConditionConfigBase_TypeDefinitionIndex = 17070;
+
 	class MiConditionConfigBase : public ::RPG::GameCore::MiAtomConfigBase
 	{
 	public:

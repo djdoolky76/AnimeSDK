@@ -9,6 +9,8 @@ class EHFPIBGDAKP;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PamChatData___c__DisplayClass28_0_TypeDefinitionIndex = 63279;
+
 	class PamChatData___c__DisplayClass28_0 : public ::System::Object
 	{
 	public:

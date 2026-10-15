@@ -32,6 +32,8 @@ namespace System { class String; }
 #define GMIMDEJMFCO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4D5AE0)
 #define GMIMDEJMFCO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4D5B40)
 
+inline static constexpr unsigned int GMIMDEJMFCO_TypeDefinitionIndex = 33396;
+
 	class GMIMDEJMFCO : public ::System::Object
 	{
 	public:

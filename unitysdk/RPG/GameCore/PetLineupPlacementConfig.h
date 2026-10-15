@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PetLineupPlacementConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PetLineupPlacementConfig_TypeDefinitionIndex = 15616;
+
 	class PetLineupPlacementConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

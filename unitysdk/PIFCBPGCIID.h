@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PIFCBPGCIID_NBLODDAKOBK_OFFSET UNITYSDK_OFFSET(0xC25EAC0)
 #define PIFCBPGCIID_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC25E670)
 
+inline static constexpr unsigned int PIFCBPGCIID_TypeDefinitionIndex = 55871;
+
 	class PIFCBPGCIID
 	{
 	public:

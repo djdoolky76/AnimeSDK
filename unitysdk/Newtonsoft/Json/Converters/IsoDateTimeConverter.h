@@ -17,6 +17,8 @@ namespace System::Globalization { class CultureInfo; }
 
 namespace Newtonsoft::Json::Converters
 {
+	inline static constexpr unsigned int IsoDateTimeConverter_TypeDefinitionIndex = 9823;
+
 	class IsoDateTimeConverter : public ::Newtonsoft::Json::Converters::DateTimeConverterBase
 	{
 	public:

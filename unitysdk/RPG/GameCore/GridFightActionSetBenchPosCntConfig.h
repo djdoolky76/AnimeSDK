@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightActionSetBenchPosCntConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightActionSetBenchPosCntConfig_TypeDefinitionIndex = 19310;
+
 	class GridFightActionSetBenchPosCntConfig : public ::RPG::GameCore::GridFightActionConfigBase
 	{
 	public:

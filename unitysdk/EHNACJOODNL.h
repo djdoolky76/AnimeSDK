@@ -12,6 +12,8 @@ namespace System { class String; }
 #define EHNACJOODNL_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1EC06910)
 #define EHNACJOODNL_PLDEMOHNMOK_OFFSET UNITYSDK_OFFSET(0x1EC06B00)
 
+inline static constexpr unsigned int EHNACJOODNL_TypeDefinitionIndex = 35188;
+
 	class EHNACJOODNL : public ::System::Object
 	{
 	public:

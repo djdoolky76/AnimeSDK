@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HIMDBEBGODF_CTOR_OFFSET UNITYSDK_OFFSET(0x15CF86B0)
 #define HIMDBEBGODF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15CF86E0)
 
+inline static constexpr unsigned int HIMDBEBGODF_TypeDefinitionIndex = 52188;
+
 	class HIMDBEBGODF
 	{
 	public:

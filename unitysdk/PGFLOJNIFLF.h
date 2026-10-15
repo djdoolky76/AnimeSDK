@@ -32,6 +32,8 @@ namespace System { class String; }
 #define PGFLOJNIFLF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF2E650)
 #define PGFLOJNIFLF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF2E6B0)
 
+inline static constexpr unsigned int PGFLOJNIFLF_TypeDefinitionIndex = 30791;
+
 	class PGFLOJNIFLF : public ::System::Object
 	{
 	public:

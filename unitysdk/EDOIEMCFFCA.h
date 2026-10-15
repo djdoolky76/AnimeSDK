@@ -37,6 +37,8 @@ namespace System { class String; }
 #define EDOIEMCFFCA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E263300)
 #define EDOIEMCFFCA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E263360)
 
+inline static constexpr unsigned int EDOIEMCFFCA_TypeDefinitionIndex = 32658;
+
 	class EDOIEMCFFCA : public ::System::Object
 	{
 	public:

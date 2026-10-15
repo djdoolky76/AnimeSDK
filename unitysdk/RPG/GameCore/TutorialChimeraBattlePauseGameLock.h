@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TutorialChimeraBattlePauseGameLock; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TutorialChimeraBattlePauseGameLock_TypeDefinitionIndex = 24383;
+
 	class TutorialChimeraBattlePauseGameLock : public ::RPG::GameCore::TaskConfig
 	{
 	public:

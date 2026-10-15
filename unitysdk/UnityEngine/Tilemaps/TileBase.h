@@ -17,6 +17,8 @@ namespace UnityEngine::Tilemaps { class ITilemap; }
 
 namespace UnityEngine::Tilemaps
 {
+	inline static constexpr unsigned int TileBase_TypeDefinitionIndex = 5857;
+
 	class TileBase : public ::UnityEngine::ScriptableObject
 	{
 	public:

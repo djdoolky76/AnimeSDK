@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class HorizontalLayoutGroup; }
 #define IAINCJNENGI_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x15E0FE90)
 #define IAINCJNENGI_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0x15E0FBA0)
 
+inline static constexpr unsigned int IAINCJNENGI_TypeDefinitionIndex = 72720;
+
 	class IAINCJNENGI : public ::LBAMBIMMJKB
 	{
 	public:

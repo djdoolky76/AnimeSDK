@@ -17,6 +17,8 @@ namespace RPG::GameCore { class VCameraShakeV2; }
 #define GMMEANMBFIK_PLNBBGBECMO_OFFSET UNITYSDK_OFFSET(0x15AD72D0)
 #define GMMEANMBFIK_PLPPPMHNOEP_OFFSET UNITYSDK_OFFSET(0x15AD6F00)
 
+inline static constexpr unsigned int GMMEANMBFIK_TypeDefinitionIndex = 60797;
+
 	class GMMEANMBFIK : public ::KJCHLFOFENJ
 	{
 	public:

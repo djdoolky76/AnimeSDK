@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PIDNKDBOJHD_PGLHAMMBGLG_OFFSET UNITYSDK_OFFSET(0xC25D530)
 #define PIDNKDBOJHD_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xC25D4C0)
 
+inline static constexpr unsigned int PIDNKDBOJHD_TypeDefinitionIndex = 73983;
+
 	class PIDNKDBOJHD : public ::System::Object
 	{
 	public:

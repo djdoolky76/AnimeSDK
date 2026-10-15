@@ -13,6 +13,8 @@ namespace BansheeGz::BGSpline::Curve { class BGCurvePointI; }
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGCurveFormulaMath_TypeDefinitionIndex = 36009;
+
 	class BGCurveFormulaMath : public ::BansheeGz::BGSpline::Curve::BGCurveBaseMath
 	{
 	public:

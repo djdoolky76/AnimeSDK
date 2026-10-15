@@ -3,6 +3,8 @@
 #include "unitysdk/RPG/GameCore/WeaknessStackOperationType.h"
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 
+inline static constexpr unsigned int HPLDJOLCDOE_TypeDefinitionIndex = 55828;
+
 	struct alignas(8) HPLDJOLCDOE
 	{
 		::RPG::GameCore::TurnBasedAbilityComponent* MCLLALGABAB; // 0x10

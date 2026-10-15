@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
+	inline static constexpr unsigned int ConfirmDialog_TypeDefinitionIndex = 8443;
+
 	class ConfirmDialog : public ::System::Object
 	{
 	public:

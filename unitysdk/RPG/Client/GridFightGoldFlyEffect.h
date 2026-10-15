@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGoldFlyEffect_TypeDefinitionIndex = 64497;
+
 	class GridFightGoldFlyEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

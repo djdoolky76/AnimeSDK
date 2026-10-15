@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DPJOLHBKFAJ_ANBOIIDGNGC_OFFSET UNITYSDK_OFFSET(0x12655430)
 #define DPJOLHBKFAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x126550E0)
 
+inline static constexpr unsigned int DPJOLHBKFAJ_TypeDefinitionIndex = 81092;
+
 	class DPJOLHBKFAJ : public ::System::Object
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System { class String; }
 #define ECGKEKKAHGN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E24ED50)
 #define ECGKEKKAHGN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E24EDB0)
 
+inline static constexpr unsigned int ECGKEKKAHGN_TypeDefinitionIndex = 28050;
+
 	class ECGKEKKAHGN : public ::System::Object
 	{
 	public:

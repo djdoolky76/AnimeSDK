@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitDrinkMakerCheersInitFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitDrinkMakerCheersInitFinish_TypeDefinitionIndex = 21719;
+
 	class WaitDrinkMakerCheersInitFinish : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System::Runtime::CompilerServices { class RuntimeWrappedException; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int ThrowInstruction_TypeDefinitionIndex = 3338;
+
 	class ThrowInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:

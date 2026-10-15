@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NMJKAIKBLFG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBC88240)
 #define NMJKAIKBLFG_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xBC881B0)
 
+inline static constexpr unsigned int NMJKAIKBLFG_TypeDefinitionIndex = 59071;
+
 	class NMJKAIKBLFG : public ::System::Object
 	{
 	public:

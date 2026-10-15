@@ -13,6 +13,8 @@ namespace System { class Type; }
 
 namespace Newtonsoft::Json::Converters
 {
+	inline static constexpr unsigned int JavaScriptDateTimeConverter_TypeDefinitionIndex = 9824;
+
 	class JavaScriptDateTimeConverter : public ::Newtonsoft::Json::Converters::DateTimeConverterBase
 	{
 	public:

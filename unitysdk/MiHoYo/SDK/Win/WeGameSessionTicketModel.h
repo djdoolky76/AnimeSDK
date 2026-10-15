@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int WeGameSessionTicketModel_TypeDefinitionIndex = 9486;
+
 	class WeGameSessionTicketModel : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class PlanetFesLevelRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesLevelRow_TypeDefinitionIndex = 12203;
+
 	class PlanetFesLevelRow : public ::System::Object
 	{
 	public:

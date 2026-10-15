@@ -34,6 +34,8 @@ namespace System { class String; }
 #define MHDMHAEADMI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA2D5C0)
 #define MHDMHAEADMI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA2D620)
 
+inline static constexpr unsigned int MHDMHAEADMI_TypeDefinitionIndex = 26060;
+
 	class MHDMHAEADMI : public ::System::Object
 	{
 	public:

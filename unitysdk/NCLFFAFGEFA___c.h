@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NCLFFAFGEFA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAE09E0)
 #define NCLFFAFGEFA___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1EAE09F0)
 
+inline static constexpr unsigned int NCLFFAFGEFA___c_TypeDefinitionIndex = 33584;
+
 	class NCLFFAFGEFA___c : public ::System::Object
 	{
 	public:

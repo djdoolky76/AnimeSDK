@@ -60,6 +60,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define HKAJMEMCBLC_SET_STORYDESC_OFFSET UNITYSDK_OFFSET(0x15D3B140)
 #define HKAJMEMCBLC_SET_TAG_OFFSET UNITYSDK_OFFSET(0x15D3B080)
 
+inline static constexpr unsigned int HKAJMEMCBLC_TypeDefinitionIndex = 81079;
+
 	class HKAJMEMCBLC : public ::System::Object
 	{
 	public:

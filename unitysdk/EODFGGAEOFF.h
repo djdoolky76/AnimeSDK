@@ -6,6 +6,8 @@ class JBPDHHAHKJP;
 #define EODFGGAEOFF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA61B90)
 #define EODFGGAEOFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA61BF0)
 
+inline static constexpr unsigned int EODFGGAEOFF_TypeDefinitionIndex = 43338;
+
 	class EODFGGAEOFF : public ::System::Object
 	{
 	public:

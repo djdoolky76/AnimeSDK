@@ -11,6 +11,8 @@ class PBGNKMMDBGD;
 #define DAPADJELPAG_IGECEJEPOHO_OFFSET UNITYSDK_OFFSET(0x1C5D8AE0)
 #define DAPADJELPAG_MDKNCBOOCEC_OFFSET UNITYSDK_OFFSET(0x1C5D8270)
 
+inline static constexpr unsigned int DAPADJELPAG_TypeDefinitionIndex = 37449;
+
 	class DAPADJELPAG : public ::System::Object
 	{
 	public:

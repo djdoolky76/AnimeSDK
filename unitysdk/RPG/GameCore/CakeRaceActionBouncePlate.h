@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceActionBouncePlate; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceActionBouncePlate_TypeDefinitionIndex = 18354;
+
 	class CakeRaceActionBouncePlate : public ::RPG::GameCore::CakeRaceActionBase
 	{
 	public:

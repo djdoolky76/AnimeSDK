@@ -110,6 +110,8 @@ namespace System::Collections { class IEqualityComparer; }
 
 namespace System
 {
+	inline static constexpr unsigned int Array_TypeDefinitionIndex = 136;
+
 	class Array : public ::System::Object
 	{
 	public:

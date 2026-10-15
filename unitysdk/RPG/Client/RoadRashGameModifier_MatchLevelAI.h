@@ -13,6 +13,8 @@ namespace RPG::Client { class RoadRashGameModifier_MatchLevelAIGlobalParams; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoadRashGameModifier_MatchLevelAI_TypeDefinitionIndex = 10318;
+
 	class RoadRashGameModifier_MatchLevelAI : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:

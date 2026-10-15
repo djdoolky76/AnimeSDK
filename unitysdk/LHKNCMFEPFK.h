@@ -32,6 +32,8 @@ namespace System { class String; }
 #define LHKNCMFEPFK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E965390)
 #define LHKNCMFEPFK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9653F0)
 
+inline static constexpr unsigned int LHKNCMFEPFK_TypeDefinitionIndex = 32864;
+
 	class LHKNCMFEPFK : public ::System::Object
 	{
 	public:

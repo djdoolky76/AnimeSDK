@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define INNOKICFPLN_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1C6E3990)
 #define INNOKICFPLN_PIBGDEAECCM_OFFSET UNITYSDK_OFFSET(0x1C6E40B0)
 
+inline static constexpr unsigned int INNOKICFPLN_TypeDefinitionIndex = 36899;
+
 	class INNOKICFPLN : public ::JBIAMEODIHF
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityModule___c_TypeDefinitionIndex = 61689;
+
 	class ActivityModule___c : public ::System::Object
 	{
 	public:

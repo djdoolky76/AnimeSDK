@@ -26,6 +26,8 @@ namespace System { class Object; }
 #define PEOEGGPBHMI_START_OFFSET UNITYSDK_OFFSET(0xC1F3C20)
 #define PEOEGGPBHMI_STOP_OFFSET UNITYSDK_OFFSET(0xC1F3ED0)
 
+inline static constexpr unsigned int PEOEGGPBHMI_TypeDefinitionIndex = 80242;
+
 	class PEOEGGPBHMI : public ::System::Object
 	{
 	public:

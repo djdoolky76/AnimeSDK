@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MHYSDKC_Console_EncounterType_TypeDefinitionIndex = 46158;
+
 	enum class MHYSDKC_Console_EncounterType : ::System::Int32
 	{
 		Default = 0,

@@ -9,6 +9,8 @@ class DLOJKAIBPBI;
 #define JCKCHPFFEHM_CTOR_OFFSET UNITYSDK_OFFSET(0x16596CF0)
 #define JCKCHPFFEHM_EOAGKKAIAGM_OFFSET UNITYSDK_OFFSET(0x16596D80)
 
+inline static constexpr unsigned int JCKCHPFFEHM_TypeDefinitionIndex = 47391;
+
 	class JCKCHPFFEHM : public ::System::Object
 	{
 	public:

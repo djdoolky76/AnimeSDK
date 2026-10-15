@@ -9,6 +9,8 @@ namespace System::Xml { class XmlNode; }
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int DiagnosticsConfigurationHandler_TypeDefinitionIndex = 3091;
+
 	class DiagnosticsConfigurationHandler : public ::System::Object
 	{
 	public:

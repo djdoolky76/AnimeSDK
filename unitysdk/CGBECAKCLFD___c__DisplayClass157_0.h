@@ -6,6 +6,8 @@ namespace RPG::Client::LittleGame::RoadRash { class RoadRashAbilityValueModifer;
 #define CGBECAKCLFD___C__DISPLAYCLASS157_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCC81ED0)
 #define CGBECAKCLFD___C__DISPLAYCLASS157_0__REMOVESLAMTARGETSPEEDCLAMP_B__0_OFFSET UNITYSDK_OFFSET(0xCC85120)
 
+inline static constexpr unsigned int CGBECAKCLFD___c__DisplayClass157_0_TypeDefinitionIndex = 75918;
+
 	class CGBECAKCLFD___c__DisplayClass157_0 : public ::System::Object
 	{
 	public:

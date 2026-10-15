@@ -41,6 +41,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DialogRendererBehavior_TypeDefinitionIndex = 70282;
+
 	class DialogRendererBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MIBPJLAGBLD_PGJFMAFIDPK_OFFSET UNITYSDK_OFFSET(0xB950AA0)
 #define MIBPJLAGBLD_PIHJDKODOLB_OFFSET UNITYSDK_OFFSET(0xB94FFE0)
 
+inline static constexpr unsigned int MIBPJLAGBLD_TypeDefinitionIndex = 76460;
+
 	class MIBPJLAGBLD : public ::RPG::Client::BaseGameFlowContext
 	{
 	public:

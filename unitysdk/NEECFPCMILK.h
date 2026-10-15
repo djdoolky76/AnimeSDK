@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NEECFPCMILK_CTOR_OFFSET UNITYSDK_OFFSET(0xBB59E80)
 #define NEECFPCMILK_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBB59EB0)
 
+inline static constexpr unsigned int NEECFPCMILK_TypeDefinitionIndex = 53138;
+
 	class NEECFPCMILK
 	{
 	public:

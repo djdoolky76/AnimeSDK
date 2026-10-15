@@ -28,6 +28,8 @@ namespace System { class String; }
 #define PEPPCBMPOJD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF20A70)
 #define PEPPCBMPOJD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF20AD0)
 
+inline static constexpr unsigned int PEPPCBMPOJD_TypeDefinitionIndex = 33609;
+
 	class PEPPCBMPOJD : public ::System::Object
 	{
 	public:

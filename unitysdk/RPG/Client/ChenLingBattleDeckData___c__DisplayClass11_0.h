@@ -8,6 +8,8 @@ namespace RPG::Client::ChenLingBattle { class CardConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChenLingBattleDeckData___c__DisplayClass11_0_TypeDefinitionIndex = 61426;
+
 	class ChenLingBattleDeckData___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

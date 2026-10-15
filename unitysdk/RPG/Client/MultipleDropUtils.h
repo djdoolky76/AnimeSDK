@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MultipleDropUtils_TypeDefinitionIndex = 66322;
+
 	class MultipleDropUtils : public ::System::Object
 	{
 	public:

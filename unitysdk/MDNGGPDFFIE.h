@@ -40,6 +40,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define MDNGGPDFFIE_REMOVE_SLOTENTITYRELEASED_OFFSET UNITYSDK_OFFSET(0xB8B3AC0)
 #define MDNGGPDFFIE_TICK_OFFSET UNITYSDK_OFFSET(0xB8B2EF0)
 
+inline static constexpr unsigned int MDNGGPDFFIE_TypeDefinitionIndex = 60203;
+
 	class MDNGGPDFFIE : public ::HBCMHADMLOP
 	{
 	public:

@@ -28,6 +28,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int HandheldAgeGateGeneralErrorDialog_TypeDefinitionIndex = 8777;
+
 	class HandheldAgeGateGeneralErrorDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:

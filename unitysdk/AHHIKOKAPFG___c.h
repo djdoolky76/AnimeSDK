@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AHHIKOKAPFG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E26F320)
 #define AHHIKOKAPFG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E26F330)
 
+inline static constexpr unsigned int AHHIKOKAPFG___c_TypeDefinitionIndex = 33870;
+
 	class AHHIKOKAPFG___c : public ::System::Object
 	{
 	public:

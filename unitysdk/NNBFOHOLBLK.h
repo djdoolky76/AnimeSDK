@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NNBFOHOLBLK_PJHKGEOENAE_OFFSET UNITYSDK_OFFSET(0xBC9CE10)
 #define NNBFOHOLBLK_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xBC9CF80)
 
+inline static constexpr unsigned int NNBFOHOLBLK_TypeDefinitionIndex = 73868;
+
 	class NNBFOHOLBLK : public ::System::Object
 	{
 	public:

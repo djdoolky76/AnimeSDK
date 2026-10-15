@@ -7,6 +7,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Transform_TypeDefinitionIndex = 36794;
+
 	struct alignas(4) B2Transform
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 p; // 0x10

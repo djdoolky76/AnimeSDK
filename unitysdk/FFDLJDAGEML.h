@@ -28,6 +28,8 @@ namespace System { class String; }
 #define FFDLJDAGEML_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E36B8B0)
 #define FFDLJDAGEML_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E36B910)
 
+inline static constexpr unsigned int FFDLJDAGEML_TypeDefinitionIndex = 27725;
+
 	class FFDLJDAGEML : public ::System::Object
 	{
 	public:

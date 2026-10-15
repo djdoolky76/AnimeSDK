@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define PLKIFOPLIAB_IGPCBGPIHII_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7F4A10)
 
+inline static constexpr unsigned int PLKIFOPLIAB_IGPCBGPIHII_TypeDefinitionIndex = 36292;
+
 	class PLKIFOPLIAB_IGPCBGPIHII : public ::System::Object
 	{
 	public:

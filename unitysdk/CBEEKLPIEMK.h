@@ -30,6 +30,8 @@ namespace System { class String; }
 #define CBEEKLPIEMK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E065020)
 #define CBEEKLPIEMK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E065080)
 
+inline static constexpr unsigned int CBEEKLPIEMK_TypeDefinitionIndex = 29456;
+
 	class CBEEKLPIEMK : public ::System::Object
 	{
 	public:

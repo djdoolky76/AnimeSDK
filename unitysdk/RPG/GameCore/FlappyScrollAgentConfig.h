@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FlappyScrollAgentConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FlappyScrollAgentConfig_TypeDefinitionIndex = 18629;
+
 	class FlappyScrollAgentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RelicPresetPropertyViewModel_TypeDefinitionIndex = 66876;
+
 	class RelicPresetPropertyViewModel : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int ColorParameter_TypeDefinitionIndex = 35643;
+
 	class ColorParameter
 	{
 	public:

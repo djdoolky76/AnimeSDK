@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirBag_TypeDefinitionIndex = 79322;
+
 	class PixAirBag : public ::System::Object
 	{
 	public:

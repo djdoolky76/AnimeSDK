@@ -39,6 +39,8 @@ namespace RPG::Client::Promises { class Promise; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraSettleManager_TypeDefinitionIndex = 63452;
+
 	class ChimeraSettleManager : public ::System::Object
 	{
 	public:

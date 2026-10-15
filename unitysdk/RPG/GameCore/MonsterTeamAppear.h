@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MonsterTeamAppear; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonsterTeamAppear_TypeDefinitionIndex = 23397;
+
 	class MonsterTeamAppear : public ::RPG::GameCore::TaskConfig
 	{
 	public:

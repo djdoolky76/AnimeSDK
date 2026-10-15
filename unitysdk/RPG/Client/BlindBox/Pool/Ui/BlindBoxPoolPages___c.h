@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::BlindBox::Pool::Ui
 {
+	inline static constexpr unsigned int BlindBoxPoolPages___c_TypeDefinitionIndex = 74964;
+
 	class BlindBoxPoolPages___c : public ::System::Object
 	{
 	public:

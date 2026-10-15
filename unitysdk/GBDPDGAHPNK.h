@@ -30,6 +30,8 @@ namespace System { class String; }
 #define GBDPDGAHPNK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E429030)
 #define GBDPDGAHPNK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E429090)
 
+inline static constexpr unsigned int GBDPDGAHPNK_TypeDefinitionIndex = 27369;
+
 	class GBDPDGAHPNK : public ::System::Object
 	{
 	public:

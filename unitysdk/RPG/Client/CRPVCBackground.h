@@ -10,6 +10,8 @@ namespace UnityEngine { class MeshRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CRPVCBackground_TypeDefinitionIndex = 69711;
+
 	class CRPVCBackground : public ::System::Object
 	{
 	public:

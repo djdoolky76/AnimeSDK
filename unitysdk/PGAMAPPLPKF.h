@@ -17,6 +17,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define PGAMAPPLPKF_PGJDCHNGHNK_OFFSET UNITYSDK_OFFSET(0xC21BFB0)
 #define PGAMAPPLPKF_SET_CURRENTVALUE_OFFSET UNITYSDK_OFFSET(0xC21C700)
 
+inline static constexpr unsigned int PGAMAPPLPKF_TypeDefinitionIndex = 69886;
+
 	class PGAMAPPLPKF : public ::RPG::Client::BehaviorBase
 	{
 	public:

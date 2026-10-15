@@ -5,6 +5,8 @@ class GHNMNFHDCME;
 
 #define BAEOHMGMIJN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C59B660)
 
+inline static constexpr unsigned int BAEOHMGMIJN_TypeDefinitionIndex = 36443;
+
 	class BAEOHMGMIJN : public ::System::Object
 	{
 	public:

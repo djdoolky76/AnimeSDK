@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::FateRin::CaseBoard
 {
+	inline static constexpr unsigned int TeamRelationViewModel_TypeDefinitionIndex = 80814;
+
 	class TeamRelationViewModel : public ::System::Object
 	{
 	public:

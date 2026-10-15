@@ -13,6 +13,8 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::CompilerServices
 {
+	inline static constexpr unsigned int AsyncUniTaskMethodBuilder_TypeDefinitionIndex = 38702;
+
 	struct alignas(8) AsyncUniTaskMethodBuilder
 	{
 		::Cysharp::Threading::Tasks::CompilerServices::IStateMachineRunnerPromise* runnerPromise; // 0x10

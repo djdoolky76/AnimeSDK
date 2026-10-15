@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define HAOCAPILIGF_NKKNFAPIBOL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15B9DA30)
 #define HAOCAPILIGF_NKKNFAPIBOL_CTOR_OFFSET UNITYSDK_OFFSET(0x15B9DAA0)
 
+inline static constexpr unsigned int HAOCAPILIGF_NKKNFAPIBOL_TypeDefinitionIndex = 71805;
+
 	class HAOCAPILIGF_NKKNFAPIBOL : public ::System::Object
 	{
 	public:

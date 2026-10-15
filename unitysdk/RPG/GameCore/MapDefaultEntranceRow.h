@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MapDefaultEntranceRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MapDefaultEntranceRow_TypeDefinitionIndex = 14018;
+
 	class MapDefaultEntranceRow : public ::System::Object
 	{
 	public:

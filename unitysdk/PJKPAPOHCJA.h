@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PJKPAPOHCJA_NFANNGGMHAI_OFFSET UNITYSDK_OFFSET(0xC299240)
 #define PJKPAPOHCJA_OBAOGFHPPFC_OFFSET UNITYSDK_OFFSET(0xC299A10)
 
+inline static constexpr unsigned int PJKPAPOHCJA_TypeDefinitionIndex = 53632;
+
 	class PJKPAPOHCJA : public ::PAMIGLDMHFH
 	{
 	public:

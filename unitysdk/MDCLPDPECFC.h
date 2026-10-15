@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define MDCLPDPECFC_CTOR_OFFSET UNITYSDK_OFFSET(0xB89EA70)
 
+inline static constexpr unsigned int MDCLPDPECFC_TypeDefinitionIndex = 48927;
+
 	class MDCLPDPECFC : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Bindings
 {
+	inline static constexpr unsigned int ThreadSafeAttribute_TypeDefinitionIndex = 3733;
+
 	class ThreadSafeAttribute : public ::UnityEngine::Bindings::NativeMethodAttribute
 	{
 	public:

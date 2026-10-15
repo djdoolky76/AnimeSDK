@@ -52,6 +52,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExAcfDebug_TypeDefinitionIndex = 40177;
+
 	class CriAtomExAcfDebug : public ::System::Object
 	{
 	public:

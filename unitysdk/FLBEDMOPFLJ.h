@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FLBEDMOPFLJ_KGLIKPFIIFO_OFFSET UNITYSDK_OFFSET(0x15828410)
 #define FLBEDMOPFLJ_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x15828FA0)
 
+inline static constexpr unsigned int FLBEDMOPFLJ_TypeDefinitionIndex = 73796;
+
 	class FLBEDMOPFLJ : public ::PAOIIOIGCOJ
 	{
 	public:

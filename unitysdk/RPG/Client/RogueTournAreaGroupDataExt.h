@@ -9,6 +9,8 @@ namespace RPG::Client { class RogueTournAreaGroupData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournAreaGroupDataExt_TypeDefinitionIndex = 67499;
+
 	class RogueTournAreaGroupDataExt : public ::System::Object
 	{
 	public:

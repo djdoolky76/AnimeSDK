@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CaptureLocalPlayer_TypeDefinitionIndex = 20293;
+
 	class CaptureLocalPlayer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PamLevelInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PamAIConstValue_TypeDefinitionIndex = 15623;
+
 	class PamAIConstValue : public ::RPG::GameCore::JsonConfig
 	{
 	public:

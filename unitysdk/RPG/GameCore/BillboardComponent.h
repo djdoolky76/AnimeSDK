@@ -92,6 +92,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BillboardComponent_TypeDefinitionIndex = 57157;
+
 	class BillboardComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

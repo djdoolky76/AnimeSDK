@@ -10,6 +10,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGPPDownsampleRenderer_TypeDefinitionIndex = 37835;
+
 	class RPGPPDownsampleRenderer : public ::RPG::CustomRP::CRPPostprocessSubPass2
 	{
 	public:

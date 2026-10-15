@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KFEIOIDJBOG_OKPHIHCJNAL_OFFSET UNITYSDK_OFFSET(0xB397AA0)
 #define KFEIOIDJBOG_PHPEGAONMLP_OFFSET UNITYSDK_OFFSET(0xB397780)
 
+inline static constexpr unsigned int KFEIOIDJBOG_TypeDefinitionIndex = 62090;
+
 	class KFEIOIDJBOG : public ::System::Object
 	{
 	public:

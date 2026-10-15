@@ -17,6 +17,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameEntityExtensions___c_TypeDefinitionIndex = 57795;
+
 	class GameEntityExtensions___c : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 #define HHAKEEKGKIJ_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CACC050)
 #define HHAKEEKGKIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CACC0A0)
 
+inline static constexpr unsigned int HHAKEEKGKIJ_TypeDefinitionIndex = 42996;
+
 	class HHAKEEKGKIJ : public ::System::Object
 	{
 	public:

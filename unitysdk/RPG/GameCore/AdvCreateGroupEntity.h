@@ -11,6 +11,8 @@ namespace RPG::GameCore { class AdvCreateGroupEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvCreateGroupEntity_TypeDefinitionIndex = 20285;
+
 	class AdvCreateGroupEntity : public ::RPG::GameCore::TaskConfig
 	{
 	public:

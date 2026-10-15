@@ -11,6 +11,8 @@ namespace System::Reflection { class MemberInfo; }
 #define JIMLMBBNIKH_LMNHLKKONPD_OFFSET UNITYSDK_OFFSET(0xB1FD3D0)
 #define JIMLMBBNIKH_OFGCNINHECD_OFFSET UNITYSDK_OFFSET(0xB1FD550)
 
+inline static constexpr unsigned int JIMLMBBNIKH_TypeDefinitionIndex = 67240;
+
 	class JIMLMBBNIKH : public ::System::Object
 	{
 	public:

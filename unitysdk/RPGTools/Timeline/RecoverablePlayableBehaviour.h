@@ -12,6 +12,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int RecoverablePlayableBehaviour_TypeDefinitionIndex = 48496;
+
 	class RecoverablePlayableBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

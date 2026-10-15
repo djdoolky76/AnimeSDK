@@ -14,6 +14,8 @@ namespace System::Text { class StringBuilder; }
 #define OEKELFEJKOP_DLDMIKBNBJH_OFFSET UNITYSDK_OFFSET(0xBE30D50)
 #define OEKELFEJKOP_PIMPEHIOGLC_OFFSET UNITYSDK_OFFSET(0xBE31410)
 
+inline static constexpr unsigned int OEKELFEJKOP_TypeDefinitionIndex = 59947;
+
 	class OEKELFEJKOP : public ::System::Object
 	{
 	public:

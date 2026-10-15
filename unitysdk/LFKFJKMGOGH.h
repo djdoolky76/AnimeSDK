@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LFKFJKMGOGH_SET_NEXT_OFFSET UNITYSDK_OFFSET(0xB680D20)
 #define LFKFJKMGOGH_SET_PREV_OFFSET UNITYSDK_OFFSET(0xB680D00)
 
+inline static constexpr unsigned int LFKFJKMGOGH_TypeDefinitionIndex = 54104;
+
 	class LFKFJKMGOGH : public ::System::Object
 	{
 	public:

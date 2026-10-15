@@ -7,6 +7,8 @@
 #define STAGEHARMONYFLOATDEMODULATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xE98F8C0)
 #define STAGEHARMONYFLOATDEMODULATOR_FCDECODOKAK_OFFSET UNITYSDK_OFFSET(0xE990F00)
 
+inline static constexpr unsigned int StageHarmonyFloatDemodulator_TypeDefinitionIndex = 47527;
+
 	class StageHarmonyFloatDemodulator
 	{
 	public:

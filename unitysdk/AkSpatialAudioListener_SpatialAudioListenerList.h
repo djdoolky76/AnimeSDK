@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AKSPATIALAUDIOLISTENER_SPATIALAUDIOLISTENERLIST_REFRESH_OFFSET UNITYSDK_OFFSET(0x1F609980)
 #define AKSPATIALAUDIOLISTENER_SPATIALAUDIOLISTENERLIST_REMOVE_OFFSET UNITYSDK_OFFSET(0x1F6096C0)
 
+inline static constexpr unsigned int AkSpatialAudioListener_SpatialAudioListenerList_TypeDefinitionIndex = 44954;
+
 	class AkSpatialAudioListener_SpatialAudioListenerList : public ::System::Object
 	{
 	public:

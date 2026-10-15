@@ -7,6 +7,8 @@ namespace System { class Action; }
 #define OEAEAFGIGIE___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBDF27B0)
 #define OEAEAFGIGIE___C__DISPLAYCLASS0_0__SENDPIXAIRPAUSESTAGECSREQWITHCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xBDF27D0)
 
+inline static constexpr unsigned int OEAEAFGIGIE___c__DisplayClass0_0_TypeDefinitionIndex = 79368;
+
 	class OEAEAFGIGIE___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

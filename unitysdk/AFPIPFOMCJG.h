@@ -10,6 +10,8 @@ namespace RPG::Client::ChenLingBattle { class DynamicProgressEffect; }
 #define AFPIPFOMCJG_GKMPNELOMAP_OFFSET UNITYSDK_OFFSET(0xCF233C0)
 #define AFPIPFOMCJG_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xCF22F90)
 
+inline static constexpr unsigned int AFPIPFOMCJG_TypeDefinitionIndex = 76275;
+
 	class AFPIPFOMCJG : public ::MLKDDLHNNHH
 	{
 	public:

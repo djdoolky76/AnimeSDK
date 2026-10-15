@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChooseDeliveryRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChooseDeliveryRow_TypeDefinitionIndex = 13056;
+
 	class ChooseDeliveryRow : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define OFAFAALOFEF_IJOONKNIDKI_OFFSET UNITYSDK_OFFSET(0xBE39CD0)
 #define OFAFAALOFEF_OKBIPDHEKHF_OFFSET UNITYSDK_OFFSET(0xBE39DF0)
 
+inline static constexpr unsigned int OFAFAALOFEF_TypeDefinitionIndex = 67252;
+
 	class OFAFAALOFEF : public ::System::Object
 	{
 	public:

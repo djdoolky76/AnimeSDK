@@ -6,6 +6,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MazeAutoUseMPItemHintData_ItemEntry_TypeDefinitionIndex = 62144;
+
 	struct alignas(4) MazeAutoUseMPItemHintData_ItemEntry
 	{
 		::System::UInt32 ConfigID; // 0x10

@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace SRDebugger
 {
+	inline static constexpr unsigned int InfoEntry___c__DisplayClass12_0_TypeDefinitionIndex = 37969;
+
 	class InfoEntry___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

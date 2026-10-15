@@ -15,6 +15,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginCharaEffectDataTransfer_TypeDefinitionIndex = 70044;
+
 	class MonoEffectPluginCharaEffectDataTransfer : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class LinkedListNode_1; }
 namespace System::Collections::Generic { template <typename T> class LinkedList_1; }
 
+inline static constexpr unsigned int BAELMPAAFEC_TypeDefinitionIndex = 49493;
+
 	class BAELMPAAFEC
 	{
 	public:

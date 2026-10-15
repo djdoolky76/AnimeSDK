@@ -23,6 +23,8 @@ namespace System { class String; }
 #define CNJBKPBBJNL_PMOJPICPCDJ_OFFSET UNITYSDK_OFFSET(0xDA56860)
 #define CNJBKPBBJNL_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xDA56720)
 
+inline static constexpr unsigned int CNJBKPBBJNL_TypeDefinitionIndex = 77106;
+
 	class CNJBKPBBJNL : public ::System::Object
 	{
 	public:

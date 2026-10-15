@@ -18,6 +18,8 @@ namespace UnityEngine { class MeshRenderer; }
 #define IRI_DEFORMMODULECUSTOMDATA_IRI_DATAPEROBJECT_GET_MODULESIZE_OFFSET UNITYSDK_OFFSET(0x2E843D0)
 #define IRI_DEFORMMODULECUSTOMDATA_IRI_DATAPEROBJECT_SET_BOUNDS_OFFSET UNITYSDK_OFFSET(0x2E84450)
 
+inline static constexpr unsigned int IRI_DeformModuleCustomData_IRI_DataPerObject_TypeDefinitionIndex = 47174;
+
 	struct alignas(8) IRI_DeformModuleCustomData_IRI_DataPerObject
 	{
 		::UnityEngine::MeshRenderer* Target; // 0x10

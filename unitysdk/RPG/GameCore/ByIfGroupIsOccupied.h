@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIfGroupIsOccupied_TypeDefinitionIndex = 21094;
+
 	class ByIfGroupIsOccupied : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

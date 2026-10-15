@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ALMGFDOPLGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E512E20)
 #define ALMGFDOPLGA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E512E30)
 
+inline static constexpr unsigned int ALMGFDOPLGA___c_TypeDefinitionIndex = 33135;
+
 	class ALMGFDOPLGA___c : public ::System::Object
 	{
 	public:

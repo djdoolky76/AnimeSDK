@@ -15,6 +15,8 @@ namespace UnityEngine { class Component; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BinderIndex_TypeDefinitionIndex = 72508;
+
 	class BinderIndex : public ::UnityEngine::MonoBehaviour
 	{
 	public:

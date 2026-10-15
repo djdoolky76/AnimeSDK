@@ -9,6 +9,8 @@ namespace RPG::GameCore { class SavedValueDimensionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SavedValueDimensionConfig_TypeDefinitionIndex = 17347;
+
 	class SavedValueDimensionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

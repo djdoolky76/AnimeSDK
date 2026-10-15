@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightPrepTutorialToastHintParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightPrepTutorialToastHintParam_TypeDefinitionIndex = 19964;
+
 	class GridFightPrepTutorialToastHintParam : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 #define PJMAKJHFMMF_IEHGJKIODLM_OFFSET UNITYSDK_OFFSET(0xC29A1B0)
 #define PJMAKJHFMMF_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xC29A650)
 
+inline static constexpr unsigned int PJMAKJHFMMF_TypeDefinitionIndex = 57040;
+
 	class PJMAKJHFMMF : public ::BDENDNDOFLF
 	{
 	public:

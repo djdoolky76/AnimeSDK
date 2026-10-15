@@ -5,6 +5,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 #define AOJFALFPIFE_LLHPBDPNHMA_OFFSET UNITYSDK_OFFSET(0x158B08E0)
 
+inline static constexpr unsigned int AOJFALFPIFE_TypeDefinitionIndex = 73176;
+
 	class AOJFALFPIFE : public ::System::Object
 	{
 	public:

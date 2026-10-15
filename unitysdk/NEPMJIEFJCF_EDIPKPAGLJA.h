@@ -5,6 +5,8 @@ namespace RPG::GameCore { class ActionDelayLinkExtraBehaviorGroup; }
 
 #define NEPMJIEFJCF_EDIPKPAGLJA_CTOR_OFFSET UNITYSDK_OFFSET(0x20510)
 
+inline static constexpr unsigned int NEPMJIEFJCF_EDIPKPAGLJA_TypeDefinitionIndex = 55952;
+
 	struct alignas(4) NEPMJIEFJCF_EDIPKPAGLJA
 	{
 		::RPG::GameCore::ActionDelayLinkExtraBehaviorMask ACGIACDMCII; // 0x10

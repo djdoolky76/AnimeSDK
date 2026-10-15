@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define INBMHMPKACI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6C0380)
 #define INBMHMPKACI___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E6C0390)
 
+inline static constexpr unsigned int INBMHMPKACI___c_TypeDefinitionIndex = 30568;
+
 	class INBMHMPKACI___c : public ::System::Object
 	{
 	public:

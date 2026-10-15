@@ -49,6 +49,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarbleMatchContext_TypeDefinitionIndex = 75967;
+
 	class MarbleMatchContext : public ::System::Object
 	{
 	public:

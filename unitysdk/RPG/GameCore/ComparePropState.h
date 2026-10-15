@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ComparePropState; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComparePropState_TypeDefinitionIndex = 21619;
+
 	class ComparePropState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

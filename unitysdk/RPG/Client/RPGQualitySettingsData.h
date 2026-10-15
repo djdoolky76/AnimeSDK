@@ -8,6 +8,8 @@ namespace RPG::Client { class RPGQualitySettingsPreset; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGQualitySettingsData_TypeDefinitionIndex = 67944;
+
 	class RPGQualitySettingsData : public ::UnityEngine::ScriptableObject
 	{
 	public:

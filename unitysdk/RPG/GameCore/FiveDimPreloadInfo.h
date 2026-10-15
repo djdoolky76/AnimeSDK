@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimPreloadInfo_TypeDefinitionIndex = 16726;
+
 	class FiveDimPreloadInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

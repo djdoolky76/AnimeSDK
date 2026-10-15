@@ -30,6 +30,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExTween_TypeDefinitionIndex = 40066;
+
 	class CriAtomExTween : public ::CriWare::CriDisposable
 	{
 	public:

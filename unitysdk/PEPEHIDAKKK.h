@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PEPEHIDAKKK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF1FEA0)
 #define PEPEHIDAKKK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF1FF00)
 
+inline static constexpr unsigned int PEPEHIDAKKK_TypeDefinitionIndex = 29916;
+
 	class PEPEHIDAKKK : public ::System::Object
 	{
 	public:

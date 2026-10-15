@@ -46,6 +46,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveTextDanmuSpawner_TypeDefinitionIndex = 75190;
+
 	class IdleLiveTextDanmuSpawner : public ::UnityEngine::MonoBehaviour
 	{
 	public:

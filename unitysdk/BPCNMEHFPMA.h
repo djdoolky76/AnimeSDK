@@ -4,6 +4,8 @@
 
 #define BPCNMEHFPMA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DBA50)
 
+inline static constexpr unsigned int BPCNMEHFPMA_TypeDefinitionIndex = 42809;
+
 	class BPCNMEHFPMA : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{
 	public:

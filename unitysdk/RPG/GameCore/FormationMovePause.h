@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FormationMovePause; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FormationMovePause_TypeDefinitionIndex = 21257;
+
 	class FormationMovePause : public ::RPG::GameCore::TaskConfig
 	{
 	public:

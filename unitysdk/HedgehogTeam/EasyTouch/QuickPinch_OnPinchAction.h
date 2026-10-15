@@ -5,6 +5,8 @@
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int QuickPinch_OnPinchAction_TypeDefinitionIndex = 40266;
+
 	class QuickPinch_OnPinchAction
 	{
 	public:

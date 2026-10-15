@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingBattleValueGetter_LeftAnimTime; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleValueGetter_LeftAnimTime_TypeDefinitionIndex = 15807;
+
 	class ChenLingBattleValueGetter_LeftAnimTime : public ::RPG::GameCore::BaseChenLingBattleValueGetter
 	{
 	public:

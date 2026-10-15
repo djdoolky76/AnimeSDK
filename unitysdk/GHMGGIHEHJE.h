@@ -233,6 +233,8 @@ namespace UnityEngine { class Transform; }
 #define GHMGGIHEHJE_POOOLFMLLOF_OFFSET UNITYSDK_OFFSET(0x1CAA2760)
 #define GHMGGIHEHJE_PPNKBCFENNP_OFFSET UNITYSDK_OFFSET(0x1CAA8010)
 
+inline static constexpr unsigned int GHMGGIHEHJE_TypeDefinitionIndex = 42618;
+
 	class GHMGGIHEHJE : public ::Entitas::Entity
 	{
 	public:

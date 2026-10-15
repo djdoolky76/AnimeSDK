@@ -15,6 +15,8 @@ namespace Entitas { class IGroup; }
 #define JFDMOCBAOBP_PGEGBHDKPCJ_OFFSET UNITYSDK_OFFSET(0x166470D0)
 #define JFDMOCBAOBP_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x16647360)
 
+inline static constexpr unsigned int JFDMOCBAOBP_TypeDefinitionIndex = 77160;
+
 	class JFDMOCBAOBP : public ::System::Object
 	{
 	public:

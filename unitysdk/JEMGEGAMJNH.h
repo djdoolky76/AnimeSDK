@@ -12,6 +12,8 @@ namespace System { class String; }
 #define JEMGEGAMJNH_LHDLBGLFDMC_OFFSET UNITYSDK_OFFSET(0x16640FA0)
 #define JEMGEGAMJNH_MNLPJLBAJKJ_OFFSET UNITYSDK_OFFSET(0x16640EC0)
 
+inline static constexpr unsigned int JEMGEGAMJNH_TypeDefinitionIndex = 71841;
+
 	class JEMGEGAMJNH : public ::System::Object
 	{
 	public:

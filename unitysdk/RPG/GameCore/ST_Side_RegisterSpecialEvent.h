@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_RegisterSpecialEvent_TypeDefinitionIndex = 20133;
+
 	class ST_Side_RegisterSpecialEvent : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

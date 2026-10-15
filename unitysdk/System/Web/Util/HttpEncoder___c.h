@@ -10,6 +10,8 @@ namespace System::Web::Util { class HttpEncoder; }
 
 namespace System::Web::Util
 {
+	inline static constexpr unsigned int HttpEncoder___c_TypeDefinitionIndex = 2667;
+
 	class HttpEncoder___c : public ::System::Object
 	{
 	public:

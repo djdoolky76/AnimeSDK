@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int SourceCodeInfo___c_TypeDefinitionIndex = 5520;
+
 	class SourceCodeInfo___c : public ::System::Object
 	{
 	public:

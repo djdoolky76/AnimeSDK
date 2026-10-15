@@ -21,6 +21,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int IRIRenderer_TypeDefinitionIndex = 68891;
+
 	class IRIRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

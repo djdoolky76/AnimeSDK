@@ -54,6 +54,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int NoticeManager_TypeDefinitionIndex = 9393;
+
 	class NoticeManager : public ::System::Object
 	{
 	public:

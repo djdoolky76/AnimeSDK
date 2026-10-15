@@ -9,6 +9,8 @@ namespace UnityEngine::ProBuilder { class WingedEdge; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int UVEditing___c__DisplayClass0_0_TypeDefinitionIndex = 44521;
+
 	class UVEditing___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

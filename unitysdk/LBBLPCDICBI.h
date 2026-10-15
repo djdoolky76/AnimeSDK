@@ -8,6 +8,8 @@ class KCFOCCAGGAN;
 #define LBBLPCDICBI_DPLPHMELCKM_OFFSET UNITYSDK_OFFSET(0xB5EE630)
 #define LBBLPCDICBI_PGIDLIEOMAF_OFFSET UNITYSDK_OFFSET(0xB5EEDC0)
 
+inline static constexpr unsigned int LBBLPCDICBI_TypeDefinitionIndex = 53702;
+
 	class LBBLPCDICBI : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ class MCFJIFLMBCE;
 #define MCFJIFLMBCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D139AC0)
 #define MCFJIFLMBCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D139A80)
 
+inline static constexpr unsigned int MCFJIFLMBCE_TypeDefinitionIndex = 10232;
+
 	class MCFJIFLMBCE : public ::RPG::GameCore::TaskConfig
 	{
 	public:

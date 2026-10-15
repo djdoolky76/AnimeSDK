@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KEHEOOAKMBP_GET_FACTORY_OFFSET UNITYSDK_OFFSET(0xB37A810)
 #define KEHEOOAKMBP_SET_FACTORY_OFFSET UNITYSDK_OFFSET(0xB37A820)
 
+inline static constexpr unsigned int KEHEOOAKMBP_TypeDefinitionIndex = 62739;
+
 	class KEHEOOAKMBP : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CLAKIACAACO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0F3040)
 #define CLAKIACAACO___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E0F3050)
 
+inline static constexpr unsigned int CLAKIACAACO___c_TypeDefinitionIndex = 26989;
+
 	class CLAKIACAACO___c : public ::System::Object
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int ENHFBPKPFDI_TypeDefinitionIndex = 26198;
+
 	enum class ENHFBPKPFDI : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

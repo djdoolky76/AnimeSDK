@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Billboard
 {
+	inline static constexpr unsigned int EntityTemporaryBillboardHost_TypeDefinitionIndex = 74974;
+
 	class EntityTemporaryBillboardHost : public ::System::Object
 	{
 	public:

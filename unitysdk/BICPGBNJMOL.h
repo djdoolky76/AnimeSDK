@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BICPGBNJMOL_CTOR_OFFSET UNITYSDK_OFFSET(0xB496140)
 #define BICPGBNJMOL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB496170)
 
+inline static constexpr unsigned int BICPGBNJMOL_TypeDefinitionIndex = 53918;
+
 	class BICPGBNJMOL
 	{
 	public:

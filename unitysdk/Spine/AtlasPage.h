@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int AtlasPage_TypeDefinitionIndex = 39646;
+
 	class AtlasPage : public ::System::Object
 	{
 	public:

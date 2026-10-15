@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
 #define PLMOFPPHJBH_CTOR_OFFSET UNITYSDK_OFFSET(0xC30C790)
 
+inline static constexpr unsigned int PLMOFPPHJBH_TypeDefinitionIndex = 57611;
+
 	class PLMOFPPHJBH : public ::System::Object
 	{
 	public:

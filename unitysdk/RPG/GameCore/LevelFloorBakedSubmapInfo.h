@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelFloorBakedSubmapInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelFloorBakedSubmapInfo_TypeDefinitionIndex = 17164;
+
 	class LevelFloorBakedSubmapInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -5,6 +5,8 @@
 #define HHGMLCNCHJE_CTOR_OFFSET UNITYSDK_OFFSET(0x15CCC590)
 #define HHGMLCNCHJE_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x15CCC5A0)
 
+inline static constexpr unsigned int HHGMLCNCHJE_TypeDefinitionIndex = 74847;
+
 	class HHGMLCNCHJE : public ::IAJLELNJPEA
 	{
 	public:

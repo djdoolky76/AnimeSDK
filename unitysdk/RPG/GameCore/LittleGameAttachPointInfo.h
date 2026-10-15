@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAttachPointInfo_TypeDefinitionIndex = 18854;
+
 	class LittleGameAttachPointInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

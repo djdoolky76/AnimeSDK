@@ -38,6 +38,8 @@ namespace System { class Nullable; }
 #define DAOENPMCFON_OEGBHGKMGHB_OFFSET UNITYSDK_OFFSET(0xDFC6DF0)
 #define DAOENPMCFON_PICJJLDKKBN_OFFSET UNITYSDK_OFFSET(0xDFC78C0)
 
+inline static constexpr unsigned int DAOENPMCFON_TypeDefinitionIndex = 74179;
+
 	class DAOENPMCFON : public ::LEJFDHMDDKO
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class StopCurrentLittleGame; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StopCurrentLittleGame_TypeDefinitionIndex = 20994;
+
 	class StopCurrentLittleGame : public ::RPG::GameCore::TaskConfig
 	{
 	public:

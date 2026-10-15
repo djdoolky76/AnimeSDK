@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateActBanMasterConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateActBanMasterConfig_TypeDefinitionIndex = 19243;
+
 	class FateActBanMasterConfig : public ::RPG::GameCore::FateActionConfigBase
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SpecialBpFeature; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetBpFeature_TypeDefinitionIndex = 23223;
+
 	class SetBpFeature : public ::RPG::GameCore::TaskConfig
 	{
 	public:

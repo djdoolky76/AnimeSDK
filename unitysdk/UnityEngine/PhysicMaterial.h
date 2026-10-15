@@ -32,6 +32,8 @@ namespace UnityEngine { class PhysicMaterial; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int PhysicMaterial_TypeDefinitionIndex = 5311;
+
 	class PhysicMaterial : public ::UnityEngine::Object
 	{
 	public:

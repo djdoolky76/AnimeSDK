@@ -15,6 +15,8 @@ namespace UnityEngine::UI { class Slider; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2BrandRankingEntry_TypeDefinitionIndex = 76204;
+
 	class DiceCombatV2BrandRankingEntry : public ::UnityEngine::MonoBehaviour
 	{
 	public:

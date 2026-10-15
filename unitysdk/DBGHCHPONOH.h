@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DBGHCHPONOH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E15BC50)
 #define DBGHCHPONOH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E15BCB0)
 
+inline static constexpr unsigned int DBGHCHPONOH_TypeDefinitionIndex = 34871;
+
 	class DBGHCHPONOH : public ::System::Object
 	{
 	public:

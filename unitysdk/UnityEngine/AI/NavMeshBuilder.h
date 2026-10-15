@@ -27,6 +27,8 @@ namespace UnityEngine::AI { class NavMeshData; }
 
 namespace UnityEngine::AI
 {
+	inline static constexpr unsigned int NavMeshBuilder_TypeDefinitionIndex = 5644;
+
 	class NavMeshBuilder : public ::System::Object
 	{
 	public:

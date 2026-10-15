@@ -15,6 +15,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace InControl
 {
+	inline static constexpr unsigned int BindingListenOptions_TypeDefinitionIndex = 40792;
+
 	class BindingListenOptions : public ::System::Object
 	{
 	public:

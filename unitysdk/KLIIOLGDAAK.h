@@ -8,6 +8,8 @@ namespace RPG { template <typename T> class PoolList_1; }
 #define KLIIOLGDAAK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C908450)
 #define KLIIOLGDAAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C908530)
 
+inline static constexpr unsigned int KLIIOLGDAAK_TypeDefinitionIndex = 42288;
+
 	class KLIIOLGDAAK : public ::System::Object
 	{
 	public:

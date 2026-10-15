@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GIMLCCAKGDG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4A1D90)
 #define GIMLCCAKGDG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4A1DF0)
 
+inline static constexpr unsigned int GIMLCCAKGDG_TypeDefinitionIndex = 28957;
+
 	class GIMLCCAKGDG : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 #define BOGJDLJHDNI_CTOR_OFFSET UNITYSDK_OFFSET(0xC18FBE0)
 #define BOGJDLJHDNI_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xC18FA20)
 
+inline static constexpr unsigned int BOGJDLJHDNI_TypeDefinitionIndex = 73343;
+
 	class BOGJDLJHDNI : public ::JMDAIKOHCAE
 	{
 	public:

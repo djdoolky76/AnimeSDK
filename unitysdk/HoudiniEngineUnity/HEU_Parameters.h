@@ -104,6 +104,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_Parameters_TypeDefinitionIndex = 40552;
+
 	class HEU_Parameters : public ::UnityEngine::ScriptableObject
 	{
 	public:

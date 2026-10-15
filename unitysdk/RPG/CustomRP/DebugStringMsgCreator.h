@@ -8,6 +8,8 @@ namespace RPG::CustomRP { class IRPMessage; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int DebugStringMsgCreator_TypeDefinitionIndex = 37743;
+
 	class DebugStringMsgCreator
 	{
 	public:

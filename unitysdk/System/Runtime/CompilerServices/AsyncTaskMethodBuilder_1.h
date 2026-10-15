@@ -5,6 +5,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int AsyncTaskMethodBuilder_1_TypeDefinitionIndex = 1351;
+
 	template <typename T>
 	struct alignas(8) AsyncTaskMethodBuilder_1
 	{

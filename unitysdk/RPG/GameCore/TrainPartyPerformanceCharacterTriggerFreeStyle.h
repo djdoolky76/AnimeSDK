@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyPerformanceCharacterTriggerFreeStyle_TypeDefinitionIndex = 22354;
+
 	class TrainPartyPerformanceCharacterTriggerFreeStyle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

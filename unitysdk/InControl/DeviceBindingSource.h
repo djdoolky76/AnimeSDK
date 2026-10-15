@@ -37,6 +37,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int DeviceBindingSource_TypeDefinitionIndex = 40797;
+
 	class DeviceBindingSource : public ::InControl::BindingSource
 	{
 	public:

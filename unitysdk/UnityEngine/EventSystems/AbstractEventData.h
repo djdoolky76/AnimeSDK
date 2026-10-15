@@ -9,6 +9,8 @@
 
 namespace UnityEngine::EventSystems
 {
+	inline static constexpr unsigned int AbstractEventData_TypeDefinitionIndex = 6904;
+
 	class AbstractEventData : public ::System::Object
 	{
 	public:

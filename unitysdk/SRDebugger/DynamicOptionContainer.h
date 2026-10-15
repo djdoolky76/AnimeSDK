@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace SRDebugger
 {
+	inline static constexpr unsigned int DynamicOptionContainer_TypeDefinitionIndex = 37950;
+
 	class DynamicOptionContainer : public ::System::Object
 	{
 	public:

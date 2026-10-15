@@ -35,6 +35,8 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaStyleDataBase_TypeDefinitionIndex = 67752;
+
 	class RogueTournPersonaStyleDataBase : public ::System::Object
 	{
 	public:

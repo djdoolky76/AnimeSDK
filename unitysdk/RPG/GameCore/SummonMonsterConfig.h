@@ -9,6 +9,8 @@ namespace RPG::GameCore { class SummonMonsterConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SummonMonsterConfig_TypeDefinitionIndex = 16365;
+
 	class SummonMonsterConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

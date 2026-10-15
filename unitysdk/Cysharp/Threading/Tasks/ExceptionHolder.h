@@ -9,6 +9,8 @@ namespace System::Runtime::ExceptionServices { class ExceptionDispatchInfo; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int ExceptionHolder_TypeDefinitionIndex = 38392;
+
 	class ExceptionHolder : public ::System::Object
 	{
 	public:

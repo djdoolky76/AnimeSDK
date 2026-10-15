@@ -14,6 +14,8 @@ namespace System::Linq::Expressions::Interpreter { class ValueTypeCopyInstructio
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int ValueTypeCopyInstruction_TypeDefinitionIndex = 3508;
+
 	class ValueTypeCopyInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:

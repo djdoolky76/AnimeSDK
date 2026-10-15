@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define DBPOLNGAAPH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DCD2B50)
 #define DBPOLNGAAPH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCD2B10)
 
+inline static constexpr unsigned int DBPOLNGAAPH_TypeDefinitionIndex = 10218;
+
 	class DBPOLNGAAPH : public ::RPG::GameCore::TaskConfig
 	{
 	public:

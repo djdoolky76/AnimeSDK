@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChooseDeliveryEntry_TypeDefinitionIndex = 63517;
+
 	class ChooseDeliveryEntry : public ::System::Object
 	{
 	public:

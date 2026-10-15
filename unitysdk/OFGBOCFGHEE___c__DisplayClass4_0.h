@@ -7,6 +7,8 @@ class OFGBOCFGHEE;
 #define OFGBOCFGHEE___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBE414B0)
 #define OFGBOCFGHEE___C__DISPLAYCLASS4_0__EXECUTESEQUENCE_B__0_OFFSET UNITYSDK_OFFSET(0xBE415C0)
 
+inline static constexpr unsigned int OFGBOCFGHEE___c__DisplayClass4_0_TypeDefinitionIndex = 76574;
+
 	class OFGBOCFGHEE___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

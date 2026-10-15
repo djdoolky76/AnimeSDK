@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TriggerCustomString; }
 #define HFIIEDMBIBC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15C7B050)
 #define HFIIEDMBIBC_TICK_OFFSET UNITYSDK_OFFSET(0x15C7B0A0)
 
+inline static constexpr unsigned int HFIIEDMBIBC_TypeDefinitionIndex = 58776;
+
 	class HFIIEDMBIBC : public ::GELIALJDFBL
 	{
 	public:

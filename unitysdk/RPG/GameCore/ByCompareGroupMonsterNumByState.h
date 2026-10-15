@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ByCompareGroupMonsterNumByState; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareGroupMonsterNumByState_TypeDefinitionIndex = 21161;
+
 	class ByCompareGroupMonsterNumByState : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

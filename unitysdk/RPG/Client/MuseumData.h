@@ -68,6 +68,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MuseumData_TypeDefinitionIndex = 66330;
+
 	class MuseumData : public ::System::Object
 	{
 	public:

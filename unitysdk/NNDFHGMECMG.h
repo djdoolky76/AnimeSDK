@@ -8,6 +8,8 @@ class NNDFHGMECMG;
 #define NNDFHGMECMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D23B770)
 #define NNDFHGMECMG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D23B620)
 
+inline static constexpr unsigned int NNDFHGMECMG_TypeDefinitionIndex = 20129;
+
 	class NNDFHGMECMG : public ::RPG::GameCore::JsonConfig
 	{
 	public:

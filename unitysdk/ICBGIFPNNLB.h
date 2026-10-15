@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define ICBGIFPNNLB_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C68E690)
 #define ICBGIFPNNLB_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C68E650)
 
+inline static constexpr unsigned int ICBGIFPNNLB_TypeDefinitionIndex = 36254;
+
 	class ICBGIFPNNLB : public ::System::MulticastDelegate
 	{
 	public:

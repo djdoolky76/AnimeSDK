@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int LightRubikCubePuzzleCubeData_TypeDefinitionIndex = 78684;
+
 	class LightRubikCubePuzzleCubeData : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirEquipShowUpgradeViewAction_TypeDefinitionIndex = 79286;
+
 	class PixAirEquipShowUpgradeViewAction : public ::RPG::Client::PixAir::BasePixAirPendingAction
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int StructureData_TypeDefinitionIndex = 49403;
+
 	class StructureData : public ::EnviromentSystemV2Space::PropertyDataBase
 	{
 	public:

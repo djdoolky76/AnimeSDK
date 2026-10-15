@@ -25,6 +25,8 @@ namespace System { class String; }
 #define NCLGCOEMLIF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAE0D20)
 #define NCLGCOEMLIF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAE0D80)
 
+inline static constexpr unsigned int NCLGCOEMLIF_TypeDefinitionIndex = 31523;
+
 	class NCLGCOEMLIF : public ::System::Object
 	{
 	public:

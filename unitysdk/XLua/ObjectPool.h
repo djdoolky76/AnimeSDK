@@ -22,6 +22,8 @@ namespace XLua { class ObjectTranslator; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int ObjectPool_TypeDefinitionIndex = 50242;
+
 	class ObjectPool : public ::System::Object
 	{
 	public:

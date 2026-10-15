@@ -6,6 +6,8 @@ class OAFCCICMILM;
 
 #define EODHPDKAAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x155BC4F0)
 
+inline static constexpr unsigned int EODHPDKAAGE_TypeDefinitionIndex = 76616;
+
 	class EODHPDKAAGE : public ::DJJKNHPLHDI
 	{
 	public:

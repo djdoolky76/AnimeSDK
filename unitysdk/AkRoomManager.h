@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AKROOMMANAGER_UNREGISTERREFLECTOR_OFFSET UNITYSDK_OFFSET(0x1F5BC120)
 #define AKROOMMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F5BC4E0)
 
+inline static constexpr unsigned int AkRoomManager_TypeDefinitionIndex = 44850;
+
 	class AkRoomManager : public ::System::Object
 	{
 	public:

@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomConfig_TypeDefinitionIndex = 40152;
+
 	class CriAtomConfig : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client { template <typename T> class PrefHashSet_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfHintToastManager___c__DisplayClass9_0_TypeDefinitionIndex = 63706;
+
 	class ElfHintToastManager___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ class MIFEMBBHLPB;
 #define MIFEMBBHLPB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B2DC0)
 #define MIFEMBBHLPB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1B2B20)
 
+inline static constexpr unsigned int MIFEMBBHLPB_TypeDefinitionIndex = 13909;
+
 	class MIFEMBBHLPB : public ::System::Object
 	{
 	public:

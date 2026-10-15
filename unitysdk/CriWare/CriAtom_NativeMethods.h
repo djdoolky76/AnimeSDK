@@ -8,6 +8,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtom_NativeMethods_TypeDefinitionIndex = 39906;
+
 	class CriAtom_NativeMethods : public ::System::Object
 	{
 	public:

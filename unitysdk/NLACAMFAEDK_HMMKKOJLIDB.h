@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define NLACAMFAEDK_HMMKKOJLIDB_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xBC602F0)
 #define NLACAMFAEDK_HMMKKOJLIDB_INVOKE_OFFSET UNITYSDK_OFFSET(0xBC58360)
 
+inline static constexpr unsigned int NLACAMFAEDK_HMMKKOJLIDB_TypeDefinitionIndex = 55947;
+
 	class NLACAMFAEDK_HMMKKOJLIDB : public ::System::MulticastDelegate
 	{
 	public:

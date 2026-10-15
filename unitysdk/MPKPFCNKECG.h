@@ -36,6 +36,8 @@ namespace System { class String; }
 #define MPKPFCNKECG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EABA070)
 #define MPKPFCNKECG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EABA0D0)
 
+inline static constexpr unsigned int MPKPFCNKECG_TypeDefinitionIndex = 28564;
+
 	class MPKPFCNKECG : public ::System::Object
 	{
 	public:

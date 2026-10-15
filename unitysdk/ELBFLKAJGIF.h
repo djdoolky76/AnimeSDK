@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define ELBFLKAJGIF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD99660)
 #define ELBFLKAJGIF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD99000)
 
+inline static constexpr unsigned int ELBFLKAJGIF_TypeDefinitionIndex = 13976;
+
 	class ELBFLKAJGIF : public ::System::Object
 	{
 	public:

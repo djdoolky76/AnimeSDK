@@ -5,6 +5,8 @@ namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelStruct
 
 #define JCKNEKIMNOB_EFAFJLEALAC_CTOR_OFFSET UNITYSDK_OFFSET(0x165A4DE0)
 
+inline static constexpr unsigned int JCKNEKIMNOB_EFAFJLEALAC_TypeDefinitionIndex = 76819;
+
 	class JCKNEKIMNOB_EFAFJLEALAC : public ::System::Object
 	{
 	public:

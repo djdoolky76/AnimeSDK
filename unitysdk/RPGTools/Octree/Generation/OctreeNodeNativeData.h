@@ -12,6 +12,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace RPGTools::Octree::Generation
 {
+	inline static constexpr unsigned int OctreeNodeNativeData_TypeDefinitionIndex = 48880;
+
 	struct alignas(4) OctreeNodeNativeData
 	{
 		::UnityEngine::Vector3 localPosition; // 0x10

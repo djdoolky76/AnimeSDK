@@ -6,6 +6,8 @@ namespace RPG::Client::FateRin::View::Battle { class FateRinBattleHudHandCardLay
 #define LJLHLALFIAD___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB71F780)
 #define LJLHLALFIAD___C__DISPLAYCLASS6_0__CREATEREFLOWCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xB720BC0)
 
+inline static constexpr unsigned int LJLHLALFIAD___c__DisplayClass6_0_TypeDefinitionIndex = 80846;
+
 	class LJLHLALFIAD___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

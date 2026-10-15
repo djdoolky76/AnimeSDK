@@ -24,6 +24,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Line3DParticleEffectBehavior_TypeDefinitionIndex = 70642;
+
 	class Line3DParticleEffectBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

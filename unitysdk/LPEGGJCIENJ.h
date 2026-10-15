@@ -5,6 +5,8 @@
 
 #define LPEGGJCIENJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C922DB0)
 
+inline static constexpr unsigned int LPEGGJCIENJ_TypeDefinitionIndex = 42980;
+
 	class LPEGGJCIENJ : public ::System::Object
 	{
 	public:

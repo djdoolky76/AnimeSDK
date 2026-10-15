@@ -13,6 +13,8 @@ namespace System { class String; }
 #define MFHCAAHMOJB_IJCBBCDMMBC_OFFSET UNITYSDK_OFFSET(0xB8FB2C0)
 #define MFHCAAHMOJB_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB8FB540)
 
+inline static constexpr unsigned int MFHCAAHMOJB_TypeDefinitionIndex = 78177;
+
 	class MFHCAAHMOJB : public ::AJHHFMBOCEN
 	{
 	public:

@@ -82,6 +82,8 @@ namespace System::Reflection { class ParameterInfo; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int DefaultContractResolver_TypeDefinitionIndex = 9705;
+
 	class DefaultContractResolver : public ::System::Object
 	{
 	public:

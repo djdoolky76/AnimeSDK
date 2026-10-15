@@ -35,6 +35,8 @@ namespace UnityEngine { class MeshRenderer; }
 #define ADHEOIELCKB_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0xB139820)
 #define ADHEOIELCKB_PICDOIMIDKM_OFFSET UNITYSDK_OFFSET(0xB13A3E0)
 
+inline static constexpr unsigned int ADHEOIELCKB_TypeDefinitionIndex = 73221;
+
 	class ADHEOIELCKB : public ::RPG::Client::BehaviorBase
 	{
 	public:

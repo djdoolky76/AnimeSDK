@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define COLDDJCPBKG_GICABFLDIPA_OFFSET UNITYSDK_OFFSET(0xDCBA720)
 #define COLDDJCPBKG_NGMNJFOPLIN_OFFSET UNITYSDK_OFFSET(0xDCBACE0)
 
+inline static constexpr unsigned int COLDDJCPBKG_TypeDefinitionIndex = 77456;
+
 	class COLDDJCPBKG : public ::LDCOFDFFPBD
 	{
 	public:

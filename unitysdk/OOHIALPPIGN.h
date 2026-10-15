@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define OOHIALPPIGN_CTOR_OFFSET UNITYSDK_OFFSET(0xBF843B0)
 #define OOHIALPPIGN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF843E0)
 
+inline static constexpr unsigned int OOHIALPPIGN_TypeDefinitionIndex = 52474;
+
 	class OOHIALPPIGN
 	{
 	public:

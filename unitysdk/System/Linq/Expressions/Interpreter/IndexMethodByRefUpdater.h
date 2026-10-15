@@ -15,6 +15,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int IndexMethodByRefUpdater_TypeDefinitionIndex = 3493;
+
 	class IndexMethodByRefUpdater : public ::System::Linq::Expressions::Interpreter::ByRefUpdater
 	{
 	public:

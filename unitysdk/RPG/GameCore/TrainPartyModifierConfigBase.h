@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyModifierConfigBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyModifierConfigBase_TypeDefinitionIndex = 18094;
+
 	class TrainPartyModifierConfigBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:

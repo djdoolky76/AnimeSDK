@@ -37,6 +37,8 @@ namespace System { class String; }
 #define MCDONFNGMJE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9F2D50)
 #define MCDONFNGMJE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9F2DB0)
 
+inline static constexpr unsigned int MCDONFNGMJE_TypeDefinitionIndex = 27290;
+
 	class MCDONFNGMJE : public ::System::Object
 	{
 	public:

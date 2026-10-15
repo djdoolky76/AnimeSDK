@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 #define HOMJDGPEKOG_GBCIKKFDGLH_OFFSET UNITYSDK_OFFSET(0x15DBC1D0)
 #define HOMJDGPEKOG_GNCPAIGBHBE_OFFSET UNITYSDK_OFFSET(0x15DBCAB0)
 
+inline static constexpr unsigned int HOMJDGPEKOG_TypeDefinitionIndex = 71114;
+
 	class HOMJDGPEKOG : public ::System::Object
 	{
 	public:

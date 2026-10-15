@@ -6,6 +6,8 @@ namespace System { class String; }
 #define NEFPADIOLPB_CTOR_OFFSET UNITYSDK_OFFSET(0xBB5D800)
 #define NEFPADIOLPB_HKILPOPCDPJ_OFFSET UNITYSDK_OFFSET(0xBB5D5B0)
 
+inline static constexpr unsigned int NEFPADIOLPB_TypeDefinitionIndex = 76351;
+
 	class NEFPADIOLPB : public ::ODLJOLJDLNI
 	{
 	public:

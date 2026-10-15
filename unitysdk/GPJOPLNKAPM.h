@@ -15,6 +15,8 @@ namespace System { class String; }
 #define GPJOPLNKAPM_NIBGBDCHKEB_OFFSET UNITYSDK_OFFSET(0x3C27880)
 #define GPJOPLNKAPM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C27900)
 
+inline static constexpr unsigned int GPJOPLNKAPM_TypeDefinitionIndex = 41468;
+
 	struct alignas(4) GPJOPLNKAPM
 	{
 		::System::Int32 NDFGHECBPAP; // 0x10

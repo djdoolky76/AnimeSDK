@@ -9,6 +9,8 @@ class AkExternalSourceInfo;
 #define AKEXTERNALSOURCEINFOARRAY_GET_STRUCTURESIZE_OFFSET UNITYSDK_OFFSET(0x1F593AB0)
 #define AKEXTERNALSOURCEINFOARRAY_RELEASEALLOCATEDMEMORYFROMREFERENCEATINTPTR_OFFSET UNITYSDK_OFFSET(0x1F593C10)
 
+inline static constexpr unsigned int AkExternalSourceInfoArray_TypeDefinitionIndex = 44866;
+
 	class AkExternalSourceInfoArray
 	{
 	public:

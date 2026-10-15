@@ -15,6 +15,8 @@ namespace TMPro { class TMP_SpriteGlyph; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_SpriteCharacter_TypeDefinitionIndex = 44637;
+
 	class TMP_SpriteCharacter : public ::TMPro::TMP_TextElement
 	{
 	public:

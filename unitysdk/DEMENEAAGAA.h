@@ -25,6 +25,8 @@ namespace System { class String; }
 #define DEMENEAAGAA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E197280)
 #define DEMENEAAGAA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1972E0)
 
+inline static constexpr unsigned int DEMENEAAGAA_TypeDefinitionIndex = 32834;
+
 	class DEMENEAAGAA : public ::System::Object
 	{
 	public:

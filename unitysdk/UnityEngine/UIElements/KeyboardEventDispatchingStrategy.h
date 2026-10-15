@@ -10,6 +10,8 @@ namespace UnityEngine::UIElements { class IPanel; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int KeyboardEventDispatchingStrategy_TypeDefinitionIndex = 5949;
+
 	class KeyboardEventDispatchingStrategy : public ::System::Object
 	{
 	public:

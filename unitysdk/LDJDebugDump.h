@@ -10,6 +10,8 @@ namespace System { class String; }
 #define LDJDEBUGDUMP_IPJNCOGEDKI_OFFSET UNITYSDK_OFFSET(0xB6250D0)
 #define LDJDEBUGDUMP_KIBEMEIJBLO_OFFSET UNITYSDK_OFFSET(0xB625010)
 
+inline static constexpr unsigned int LDJDebugDump_TypeDefinitionIndex = 47590;
+
 	class LDJDebugDump : public ::UnityEngine::MonoBehaviour
 	{
 	public:

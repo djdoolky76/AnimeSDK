@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TurnBasedModifierUIConfig_TypeDefinitionIndex = 18249;
+
 	class TurnBasedModifierUIConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

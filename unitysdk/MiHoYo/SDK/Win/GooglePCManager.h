@@ -43,6 +43,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int GooglePCManager_TypeDefinitionIndex = 9334;
+
 	class GooglePCManager : public ::System::Object
 	{
 	public:

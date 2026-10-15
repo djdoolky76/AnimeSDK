@@ -8,6 +8,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 #define BJOKMIGAPGA_CTOR_OFFSET UNITYSDK_OFFSET(0xB7AABD0)
 #define BJOKMIGAPGA_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xB7AAB70)
 
+inline static constexpr unsigned int BJOKMIGAPGA_TypeDefinitionIndex = 49548;
+
 	class BJOKMIGAPGA : public ::System::Object
 	{
 	public:

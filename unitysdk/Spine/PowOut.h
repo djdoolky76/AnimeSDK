@@ -7,6 +7,8 @@
 
 namespace Spine
 {
+	inline static constexpr unsigned int PowOut_TypeDefinitionIndex = 39679;
+
 	class PowOut : public ::Spine::Pow
 	{
 	public:

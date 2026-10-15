@@ -7,6 +7,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TalkTrigger_TalkNotifyParam_TypeDefinitionIndex = 57534;
+
 	class TalkTrigger_TalkNotifyParam : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int ETestFlag_TypeDefinitionIndex = 37522;
+
 	enum class ETestFlag : ::System::Int32
 	{
 		kEnableCharPerDrawEx_NotUse = 1,

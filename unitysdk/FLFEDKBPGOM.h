@@ -9,6 +9,8 @@ namespace System { class Action; }
 #define FLFEDKBPGOM_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x1582FF80)
 #define FLFEDKBPGOM_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1582FF20)
 
+inline static constexpr unsigned int FLFEDKBPGOM_TypeDefinitionIndex = 80838;
+
 	class FLFEDKBPGOM : public ::MLKDDLHNNHH
 	{
 	public:

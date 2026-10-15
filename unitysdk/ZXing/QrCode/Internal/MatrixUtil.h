@@ -29,6 +29,8 @@ namespace ZXing::QrCode::Internal { class Version; }
 
 namespace ZXing::QrCode::Internal
 {
+	inline static constexpr unsigned int MatrixUtil_TypeDefinitionIndex = 7035;
+
 	class MatrixUtil : public ::System::Object
 	{
 	public:

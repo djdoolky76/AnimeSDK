@@ -38,6 +38,8 @@ namespace UnityEngine::UI { class Image; }
 #define FBGCOPDOJNJ__ONBIND_OFFSET UNITYSDK_OFFSET(0x1569A1F0)
 #define FBGCOPDOJNJ___PLAYSPCHANGEANIM_B__22_0_OFFSET UNITYSDK_OFFSET(0x1569BCE0)
 
+inline static constexpr unsigned int FBGCOPDOJNJ_TypeDefinitionIndex = 72313;
+
 	class FBGCOPDOJNJ : public ::FMPCODLIOLG
 	{
 	public:

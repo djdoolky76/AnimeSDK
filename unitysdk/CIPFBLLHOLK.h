@@ -14,6 +14,8 @@ namespace System { class Nullable; }
 #define CIPFBLLHOLK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCF90DF0)
 #define CIPFBLLHOLK_TICK_OFFSET UNITYSDK_OFFSET(0xCF90E40)
 
+inline static constexpr unsigned int CIPFBLLHOLK_TypeDefinitionIndex = 55511;
+
 	class CIPFBLLHOLK : public ::GELIALJDFBL
 	{
 	public:

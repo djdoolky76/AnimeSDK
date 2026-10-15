@@ -5,6 +5,8 @@
 #define CAPCJDGILMK_CTOR_OFFSET UNITYSDK_OFFSET(0xC49A070)
 #define CAPCJDGILMK_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xC499FD0)
 
+inline static constexpr unsigned int CAPCJDGILMK_TypeDefinitionIndex = 62458;
+
 	class CAPCJDGILMK : public ::System::Object
 	{
 	public:

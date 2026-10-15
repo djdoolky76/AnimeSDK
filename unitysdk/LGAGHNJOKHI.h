@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define LGAGHNJOKHI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90D670)
 
+inline static constexpr unsigned int LGAGHNJOKHI_TypeDefinitionIndex = 43190;
+
 	class LGAGHNJOKHI : public ::System::Object
 	{
 	public:

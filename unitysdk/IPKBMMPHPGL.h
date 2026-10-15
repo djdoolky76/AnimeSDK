@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define IPKBMMPHPGL_HKNFMBPILHL_OFFSET UNITYSDK_OFFSET(0x1C562E90)
 #define IPKBMMPHPGL_JALOJEDNDHP_OFFSET UNITYSDK_OFFSET(0x1C5634B0)
 
+inline static constexpr unsigned int IPKBMMPHPGL_TypeDefinitionIndex = 41835;
+
 	class IPKBMMPHPGL : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WormCompassItemXY_TypeDefinitionIndex = 22166;
+
 	class WormCompassItemXY : public ::RPG::GameCore::JsonConfig
 	{
 	public:

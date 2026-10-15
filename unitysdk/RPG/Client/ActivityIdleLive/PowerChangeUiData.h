@@ -4,6 +4,8 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int PowerChangeUiData_TypeDefinitionIndex = 75431;
+
 	struct alignas(4) PowerChangeUiData
 	{
 		::RPG::Client::ActivityIdleLive::IdleLiveDecimal CurPower; // 0x10

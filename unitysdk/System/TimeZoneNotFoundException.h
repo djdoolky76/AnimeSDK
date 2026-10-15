@@ -12,6 +12,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int TimeZoneNotFoundException_TypeDefinitionIndex = 350;
+
 	class TimeZoneNotFoundException : public ::System::Exception
 	{
 	public:

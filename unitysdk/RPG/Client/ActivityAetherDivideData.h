@@ -37,6 +37,8 @@ namespace RPG::GameCore { class AetherDivideActivityQuestRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityAetherDivideData_TypeDefinitionIndex = 61386;
+
 	class ActivityAetherDivideData : public ::System::Object
 	{
 	public:

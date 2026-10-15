@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define AOLONABCMEK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x158C26A0)
 #define AOLONABCMEK_TICK_OFFSET UNITYSDK_OFFSET(0x158C2F90)
 
+inline static constexpr unsigned int AOLONABCMEK_TypeDefinitionIndex = 53009;
+
 	class AOLONABCMEK : public ::GELIALJDFBL
 	{
 	public:

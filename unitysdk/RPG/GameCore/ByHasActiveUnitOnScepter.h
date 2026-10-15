@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByHasActiveUnitOnScepter_TypeDefinitionIndex = 23103;
+
 	class ByHasActiveUnitOnScepter : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

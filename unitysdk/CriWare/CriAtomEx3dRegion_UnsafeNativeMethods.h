@@ -9,6 +9,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomEx3dRegion_UnsafeNativeMethods_TypeDefinitionIndex = 40018;
+
 	class CriAtomEx3dRegion_UnsafeNativeMethods : public ::System::Object
 	{
 	public:

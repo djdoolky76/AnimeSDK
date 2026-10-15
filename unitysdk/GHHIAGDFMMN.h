@@ -17,6 +17,8 @@
 #define GHHIAGDFMMN_SET_IDLESTATEREDIRECT_OFFSET UNITYSDK_OFFSET(0x15A1ED00)
 #define GHHIAGDFMMN_SET_PLAYHITANIM_OFFSET UNITYSDK_OFFSET(0x15A1ED60)
 
+inline static constexpr unsigned int GHHIAGDFMMN_TypeDefinitionIndex = 57035;
+
 	class GHHIAGDFMMN : public ::System::Object
 	{
 	public:

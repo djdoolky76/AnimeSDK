@@ -156,6 +156,8 @@ namespace RPG::GameCore { class LittleGameBaseEventAction; }
 #define NOACHMIJNFO_PMCGMLLCBLF_OFFSET UNITYSDK_OFFSET(0x1D23DDA0)
 #define NOACHMIJNFO_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1D23D260)
 
+inline static constexpr unsigned int NOACHMIJNFO_TypeDefinitionIndex = 19094;
+
 	class NOACHMIJNFO : public ::System::Object
 	{
 	public:

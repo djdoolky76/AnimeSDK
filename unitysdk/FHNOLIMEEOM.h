@@ -34,6 +34,8 @@ namespace System { class String; }
 #define FHNOLIMEEOM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E393170)
 #define FHNOLIMEEOM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3931D0)
 
+inline static constexpr unsigned int FHNOLIMEEOM_TypeDefinitionIndex = 26723;
+
 	class FHNOLIMEEOM : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine { class Sprite; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_SpriteGlyph_TypeDefinitionIndex = 44638;
+
 	class TMP_SpriteGlyph : public ::UnityEngine::TextCore::Glyph
 	{
 	public:

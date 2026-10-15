@@ -31,6 +31,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SkillRelatedAvatarData_TypeDefinitionIndex = 62477;
+
 	class SkillRelatedAvatarData : public ::System::Object
 	{
 	public:

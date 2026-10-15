@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActTriggerModifierCustomEventConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActTriggerModifierCustomEventConfig_TypeDefinitionIndex = 19783;
+
 	class RogueActTriggerModifierCustomEventConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

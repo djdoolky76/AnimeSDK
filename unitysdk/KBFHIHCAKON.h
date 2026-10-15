@@ -6,6 +6,8 @@
 #define KBFHIHCAKON_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xB2F6920)
 #define KBFHIHCAKON_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xB2F6930)
 
+inline static constexpr unsigned int KBFHIHCAKON_TypeDefinitionIndex = 74020;
+
 	class KBFHIHCAKON : public ::HPGKMODCGOD
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class Object; }
 #define AMAGEEBFDBG__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x155727D0)
 #define AMAGEEBFDBG__INIT_B__21_0_OFFSET UNITYSDK_OFFSET(0x15572D60)
 
+inline static constexpr unsigned int AMAGEEBFDBG_TypeDefinitionIndex = 61396;
+
 	class AMAGEEBFDBG : public ::RPG::Client::BaseModule
 	{
 	public:

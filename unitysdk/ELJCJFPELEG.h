@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ELJCJFPELEG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15524E70)
 #define ELJCJFPELEG_PCPEOJKDHPH_OFFSET UNITYSDK_OFFSET(0x15525340)
 
+inline static constexpr unsigned int ELJCJFPELEG_TypeDefinitionIndex = 52927;
+
 	class ELJCJFPELEG
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int CanvasScaler_Unit_TypeDefinitionIndex = 6765;
+
 	enum class CanvasScaler_Unit : ::System::Int32
 	{
 		Centimeters = 0,

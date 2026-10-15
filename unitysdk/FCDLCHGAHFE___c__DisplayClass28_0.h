@@ -5,6 +5,8 @@
 #define FCDLCHGAHFE___C__DISPLAYCLASS28_0_CTOR_OFFSET UNITYSDK_OFFSET(0x156B6280)
 #define FCDLCHGAHFE___C__DISPLAYCLASS28_0__GETSORTEDLINEUPINDICES_B__0_OFFSET UNITYSDK_OFFSET(0x156B6E40)
 
+inline static constexpr unsigned int FCDLCHGAHFE___c__DisplayClass28_0_TypeDefinitionIndex = 63921;
+
 	class FCDLCHGAHFE___c__DisplayClass28_0 : public ::System::Object
 	{
 	public:

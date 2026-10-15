@@ -18,6 +18,8 @@ namespace System::Text { class StringBuilder; }
 #define IGCJIEGAOLH_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0xFE80)
 #define IGCJIEGAOLH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2E81290)
 
+inline static constexpr unsigned int IGCJIEGAOLH_TypeDefinitionIndex = 51935;
+
 	struct alignas(4) IGCJIEGAOLH
 	{
 		::System::UInt32 _ID_k__BackingField; // 0x10

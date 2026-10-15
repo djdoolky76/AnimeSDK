@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerPamMovePhaseTalk; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerPamMovePhaseTalk_TypeDefinitionIndex = 20027;
+
 	class TriggerPamMovePhaseTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

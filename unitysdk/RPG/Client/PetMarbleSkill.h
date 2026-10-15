@@ -11,6 +11,8 @@ class DOBOKPCPHCF;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PetMarbleSkill_TypeDefinitionIndex = 65835;
+
 	class PetMarbleSkill : public ::System::Object
 	{
 	public:

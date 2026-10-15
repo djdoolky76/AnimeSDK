@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NOADDKLOPCA_EXECUTE_OFFSET UNITYSDK_OFFSET(0xBCDF900)
 #define NOADDKLOPCA_TICK_OFFSET UNITYSDK_OFFSET(0xBCDFAD0)
 
+inline static constexpr unsigned int NOADDKLOPCA_TypeDefinitionIndex = 77648;
+
 	class NOADDKLOPCA : public ::System::Object
 	{
 	public:

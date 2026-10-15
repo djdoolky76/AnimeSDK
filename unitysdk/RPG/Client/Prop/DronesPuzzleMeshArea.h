@@ -10,6 +10,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int DronesPuzzleMeshArea_TypeDefinitionIndex = 78574;
+
 	class DronesPuzzleMeshArea : public ::UnityEngine::MonoBehaviour
 	{
 	public:

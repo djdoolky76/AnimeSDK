@@ -9,6 +9,8 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftTalentPointViewMode
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftTalentPointViewModel_Factory_TypeDefinitionIndex = 79779;
+
 	class MechCraftTalentPointViewModel_Factory : public ::System::Object
 	{
 	public:

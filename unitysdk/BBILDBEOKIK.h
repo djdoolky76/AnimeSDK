@@ -25,6 +25,8 @@ namespace System { class String; }
 #define BBILDBEOKIK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7C6AA0)
 #define BBILDBEOKIK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7C6B00)
 
+inline static constexpr unsigned int BBILDBEOKIK_TypeDefinitionIndex = 33280;
+
 	class BBILDBEOKIK : public ::System::Object
 	{
 	public:

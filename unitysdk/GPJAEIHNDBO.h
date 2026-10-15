@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChenLingFesTargetConfig; }
 #define GPJAEIHNDBO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE77C90)
 #define GPJAEIHNDBO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE77C50)
 
+inline static constexpr unsigned int GPJAEIHNDBO_TypeDefinitionIndex = 21505;
+
 	class GPJAEIHNDBO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

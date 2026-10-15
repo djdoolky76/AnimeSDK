@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GOIEJOCFKEE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4EFE00)
 #define GOIEJOCFKEE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4EFE60)
 
+inline static constexpr unsigned int GOIEJOCFKEE_TypeDefinitionIndex = 32664;
+
 	class GOIEJOCFKEE : public ::System::Object
 	{
 	public:

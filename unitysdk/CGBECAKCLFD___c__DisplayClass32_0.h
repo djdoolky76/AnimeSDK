@@ -10,6 +10,8 @@ namespace RPG::Client::RoadRash { class MonoRoadRashGameCar; }
 #define CGBECAKCLFD___C__DISPLAYCLASS32_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCC6CFA0)
 #define CGBECAKCLFD___C__DISPLAYCLASS32_0__FIRECAREFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xCC85140)
 
+inline static constexpr unsigned int CGBECAKCLFD___c__DisplayClass32_0_TypeDefinitionIndex = 75919;
+
 	class CGBECAKCLFD___c__DisplayClass32_0 : public ::System::Object
 	{
 	public:

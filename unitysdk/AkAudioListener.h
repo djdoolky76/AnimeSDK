@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AKAUDIOLISTENER_STOPLISTENINGTOEMITTER_OFFSET UNITYSDK_OFFSET(0x1F575880)
 #define AKAUDIOLISTENER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F576090)
 
+inline static constexpr unsigned int AkAudioListener_TypeDefinitionIndex = 44911;
+
 	class AkAudioListener : public ::UnityEngine::MonoBehaviour
 	{
 	public:

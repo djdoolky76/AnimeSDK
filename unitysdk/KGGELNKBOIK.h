@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define KGGELNKBOIK_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0x1C56C340)
 #define KGGELNKBOIK_NCLOMPDLJPB_OFFSET UNITYSDK_OFFSET(0x1C56C470)
 
+inline static constexpr unsigned int KGGELNKBOIK_TypeDefinitionIndex = 41772;
+
 	class KGGELNKBOIK : public ::CFGFAHEKNPD
 	{
 	public:

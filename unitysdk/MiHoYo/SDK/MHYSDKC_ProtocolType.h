@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MHYSDKC_ProtocolType_TypeDefinitionIndex = 46235;
+
 	class MHYSDKC_ProtocolType : public ::System::Object
 	{
 	public:

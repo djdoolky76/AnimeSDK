@@ -9,6 +9,8 @@ namespace System { class String; }
 #define EJDFDKMILOD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD8EC40)
 #define EJDFDKMILOD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD8EC00)
 
+inline static constexpr unsigned int EJDFDKMILOD_TypeDefinitionIndex = 24146;
+
 	class EJDFDKMILOD : public ::RPG::GameCore::TaskConfig
 	{
 	public:

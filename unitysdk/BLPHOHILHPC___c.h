@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define BLPHOHILHPC___C__ISTOOUNIFORM_B__16_0_OFFSET UNITYSDK_OFFSET(0xBA85400)
 #define BLPHOHILHPC___C__TRYGENERATE_B__13_0_OFFSET UNITYSDK_OFFSET(0xBA853E0)
 
+inline static constexpr unsigned int BLPHOHILHPC___c_TypeDefinitionIndex = 77903;
+
 	class BLPHOHILHPC___c : public ::System::Object
 	{
 	public:

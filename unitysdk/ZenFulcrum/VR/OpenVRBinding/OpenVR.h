@@ -45,6 +45,8 @@ namespace ZenFulcrum::VR::OpenVRBinding { class OpenVR_COpenVRContext; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int OpenVR_TypeDefinitionIndex = 39327;
+
 	class OpenVR : public ::System::Object
 	{
 	public:

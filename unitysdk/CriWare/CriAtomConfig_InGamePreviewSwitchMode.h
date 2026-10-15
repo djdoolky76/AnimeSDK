@@ -3,6 +3,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomConfig_InGamePreviewSwitchMode_TypeDefinitionIndex = 40155;
+
 	enum class CriAtomConfig_InGamePreviewSwitchMode : ::System::Int32
 	{
 		Disable = 0,

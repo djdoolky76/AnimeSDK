@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SummonUnitConfig_TypeDefinitionIndex = 17605;
+
 	class SummonUnitConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

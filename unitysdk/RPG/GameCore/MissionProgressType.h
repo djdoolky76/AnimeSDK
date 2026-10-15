@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MissionProgressType_TypeDefinitionIndex = 19018;
+
 	enum class MissionProgressType : ::System::Int32
 	{
 		ShowRate = 0,

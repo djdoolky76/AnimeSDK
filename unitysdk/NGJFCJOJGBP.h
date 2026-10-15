@@ -5,6 +5,8 @@
 
 #define NGJFCJOJGBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C960D10)
 
+inline static constexpr unsigned int NGJFCJOJGBP_TypeDefinitionIndex = 42341;
+
 	class NGJFCJOJGBP : public ::System::Object
 	{
 	public:

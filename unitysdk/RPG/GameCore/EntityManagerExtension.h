@@ -189,6 +189,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntityManagerExtension_TypeDefinitionIndex = 57770;
+
 	class EntityManagerExtension : public ::System::Object
 	{
 	public:

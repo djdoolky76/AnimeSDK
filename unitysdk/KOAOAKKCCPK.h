@@ -11,6 +11,8 @@ namespace System { class String; }
 #define KOAOAKKCCPK_NDHJKKDPGMO_1_OFFSET UNITYSDK_OFFSET(0xB58FB40)
 #define KOAOAKKCCPK_NDHJKKDPGMO_OFFSET UNITYSDK_OFFSET(0xB58FA30)
 
+inline static constexpr unsigned int KOAOAKKCCPK_TypeDefinitionIndex = 72344;
+
 	class KOAOAKKCCPK : public ::System::Object
 	{
 	public:

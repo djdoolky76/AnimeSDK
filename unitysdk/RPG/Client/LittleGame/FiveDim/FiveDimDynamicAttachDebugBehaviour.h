@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimDynamicAttachDebugBehaviour_TypeDefinitionIndex = 76869;
+
 	class FiveDimDynamicAttachDebugBehaviour : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTaskCancellationExtensions_TypeDefinitionIndex = 38226;
+
 	class UniTaskCancellationExtensions : public ::System::Object
 	{
 	public:

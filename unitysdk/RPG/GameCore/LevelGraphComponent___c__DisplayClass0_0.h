@@ -8,6 +8,8 @@ namespace RPG::GameCore { class LevelGraphComponent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelGraphComponent___c__DisplayClass0_0_TypeDefinitionIndex = 57637;
+
 	class LevelGraphComponent___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

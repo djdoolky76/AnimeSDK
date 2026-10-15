@@ -8,6 +8,8 @@ namespace HoudiniEngineUnity { class Test_LayerMask; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int Test_LayerMask_Extensions_TypeDefinitionIndex = 40744;
+
 	class Test_LayerMask_Extensions : public ::System::Object
 	{
 	public:

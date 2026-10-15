@@ -26,6 +26,8 @@ namespace System::Threading { class WaitHandle; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int LazyAsyncResult_TypeDefinitionIndex = 2780;
+
 	class LazyAsyncResult : public ::System::Object
 	{
 	public:

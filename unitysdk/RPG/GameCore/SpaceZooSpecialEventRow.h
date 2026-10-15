@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SpaceZooSpecialEventRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SpaceZooSpecialEventRow_TypeDefinitionIndex = 12371;
+
 	class SpaceZooSpecialEventRow : public ::System::Object
 	{
 	public:

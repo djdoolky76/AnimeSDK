@@ -8,6 +8,8 @@ namespace System::Reflection { class Module; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int Assembly_UnmanagedMemoryStreamForModule_TypeDefinitionIndex = 596;
+
 	class Assembly_UnmanagedMemoryStreamForModule : public ::System::IO::UnmanagedMemoryStream
 	{
 	public:

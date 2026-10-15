@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ODENGLAMPEH_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBD91A20)
 #define ODENGLAMPEH_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xBD91AB0)
 
+inline static constexpr unsigned int ODENGLAMPEH_TypeDefinitionIndex = 66993;
+
 	class ODENGLAMPEH : public ::System::Object
 	{
 	public:

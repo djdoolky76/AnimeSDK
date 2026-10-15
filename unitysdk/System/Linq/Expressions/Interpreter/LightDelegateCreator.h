@@ -13,6 +13,8 @@ namespace System::Runtime::CompilerServices { class IStrongBox; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int LightDelegateCreator_TypeDefinitionIndex = 3494;
+
 	class LightDelegateCreator : public ::System::Object
 	{
 	public:

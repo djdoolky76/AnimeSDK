@@ -12,6 +12,8 @@ namespace RPG::Client { template <typename T1, typename T2, typename T3> class R
 #define BDJOLKOIDJJ_OPJGEGLNBLH_OFFSET UNITYSDK_OFFSET(0x162FD1C0)
 #define BDJOLKOIDJJ_SET_PRESETID_OFFSET UNITYSDK_OFFSET(0x162FD100)
 
+inline static constexpr unsigned int BDJOLKOIDJJ_TypeDefinitionIndex = 67723;
+
 	class BDJOLKOIDJJ : public ::System::Object
 	{
 	public:

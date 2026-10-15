@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define CFGGOBEDJOK___C___CCTOR_B__28_1_OFFSET UNITYSDK_OFFSET(0x1E0A2FD0)
 #define CFGGOBEDJOK___C___CCTOR_B__28_2_OFFSET UNITYSDK_OFFSET(0x1E0A2FE0)
 
+inline static constexpr unsigned int CFGGOBEDJOK___c_TypeDefinitionIndex = 26381;
+
 	class CFGGOBEDJOK___c : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define OADFMMPLOGL_CTOR_OFFSET UNITYSDK_OFFSET(0xBD1BD50)
 #define OADFMMPLOGL_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0xBD1BD60)
 
+inline static constexpr unsigned int OADFMMPLOGL_TypeDefinitionIndex = 79696;
+
 	class OADFMMPLOGL : public ::System::Object
 	{
 	public:

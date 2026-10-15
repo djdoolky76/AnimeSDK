@@ -12,6 +12,8 @@ namespace UnityEngine { class Coroutine; }
 #define BPIEHCCAMIA_LDLGJOOEOFM_OFFSET UNITYSDK_OFFSET(0xC1A6530)
 #define BPIEHCCAMIA_MMAAGGPCFGL_OFFSET UNITYSDK_OFFSET(0xC1A6590)
 
+inline static constexpr unsigned int BPIEHCCAMIA_TypeDefinitionIndex = 60882;
+
 	class BPIEHCCAMIA : public ::System::Object
 	{
 	public:

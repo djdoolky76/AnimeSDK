@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_ReloadEventData_TypeDefinitionIndex = 40357;
+
 	class HEU_ReloadEventData : public ::HoudiniEngineUnity::HEU_AssetEventData
 	{
 	public:

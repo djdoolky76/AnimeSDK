@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKDelegate_GetDriveTotalFreeSpaceDelegate_TypeDefinitionIndex = 7788;
+
 	class SDKDelegate_GetDriveTotalFreeSpaceDelegate : public ::System::MulticastDelegate
 	{
 	public:

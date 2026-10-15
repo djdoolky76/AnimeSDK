@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CRPReflectionSettings_TypeDefinitionIndex = 67931;
+
 	class CRPReflectionSettings : public ::System::Object
 	{
 	public:

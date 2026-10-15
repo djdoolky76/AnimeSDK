@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntityColliderHeightCameraConfig_TypeDefinitionIndex = 16431;
+
 	class EntityColliderHeightCameraConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

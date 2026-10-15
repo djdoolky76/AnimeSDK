@@ -56,6 +56,8 @@ namespace MiHoYo::SDK { class WebDelegate_UpdateJoypadControlDelegate; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebDelegate_TypeDefinitionIndex = 7809;
+
 	class WebDelegate : public ::System::Object
 	{
 	public:

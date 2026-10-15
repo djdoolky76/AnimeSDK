@@ -35,6 +35,8 @@ namespace System { class String; }
 #define OJMPKMNINGK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE8AE20)
 #define OJMPKMNINGK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE8AE80)
 
+inline static constexpr unsigned int OJMPKMNINGK_TypeDefinitionIndex = 25557;
+
 	class OJMPKMNINGK : public ::System::Object
 	{
 	public:

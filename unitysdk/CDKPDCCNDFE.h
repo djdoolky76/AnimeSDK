@@ -12,6 +12,8 @@ namespace RPG::Client::DiceCombat { class DiceCombatV2Stage; }
 #define CDKPDCCNDFE_ODADAHOFBLL_OFFSET UNITYSDK_OFFSET(0xC76CE70)
 #define CDKPDCCNDFE_PHBBAJGNPAF_OFFSET UNITYSDK_OFFSET(0xC76C980)
 
+inline static constexpr unsigned int CDKPDCCNDFE_TypeDefinitionIndex = 76176;
+
 	class CDKPDCCNDFE : public ::System::Object
 	{
 	public:

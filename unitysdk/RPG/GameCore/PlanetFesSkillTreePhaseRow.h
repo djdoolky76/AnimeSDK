@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlanetFesSkillTreePhaseRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesSkillTreePhaseRow_TypeDefinitionIndex = 12205;
+
 	class PlanetFesSkillTreePhaseRow : public ::System::Object
 	{
 	public:

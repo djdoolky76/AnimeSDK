@@ -11,6 +11,8 @@ namespace XLua { class DelegateBridgeBase; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int ObjectTranslator___c__DisplayClass7115_1_TypeDefinitionIndex = 50087;
+
 	template <typename T>
 	class ObjectTranslator___c__DisplayClass7115_1 : public ::System::Object
 	{

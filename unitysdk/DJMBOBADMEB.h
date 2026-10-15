@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DJMBOBADMEB_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD30CE0)
 #define DJMBOBADMEB_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD30600)
 
+inline static constexpr unsigned int DJMBOBADMEB_TypeDefinitionIndex = 12134;
+
 	class DJMBOBADMEB : public ::System::Object
 	{
 	public:

@@ -53,6 +53,8 @@ namespace RPG::Client::LittleGame::ChimeraDuel { class ChimeraDuelChimeraCache; 
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelSettleGameData_TypeDefinitionIndex = 63328;
+
 	class ChimeraDuelSettleGameData : public ::System::Object
 	{
 	public:

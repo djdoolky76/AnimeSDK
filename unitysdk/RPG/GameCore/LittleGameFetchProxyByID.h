@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameFetchProxyByID_TypeDefinitionIndex = 21424;
+
 	class LittleGameFetchProxyByID : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Side_ElfInteractCurrentSlot; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_ElfInteractCurrentSlot_TypeDefinitionIndex = 21540;
+
 	class ST_Side_ElfInteractCurrentSlot : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

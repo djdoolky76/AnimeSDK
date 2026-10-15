@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesFloatingController___c__DisplayClass25_0_TypeDefinitionIndex = 66493;
+
 	class PlanetFesFloatingController___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:

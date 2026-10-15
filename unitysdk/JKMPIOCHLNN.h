@@ -18,6 +18,8 @@ namespace UnityEngine::UI { class Button; }
 #define JKMPIOCHLNN_NDCBHOKPKHG_OFFSET UNITYSDK_OFFSET(0xB2247E0)
 #define JKMPIOCHLNN_NKBDPMEPDHK_OFFSET UNITYSDK_OFFSET(0xB224BD0)
 
+inline static constexpr unsigned int JKMPIOCHLNN_TypeDefinitionIndex = 73027;
+
 	class JKMPIOCHLNN : public ::System::Object
 	{
 	public:

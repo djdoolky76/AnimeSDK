@@ -4,6 +4,8 @@
 
 #define GBOOKLKIMND_IHCBGIEAIKG_OFFSET UNITYSDK_OFFSET(0x15959330)
 
+inline static constexpr unsigned int GBOOKLKIMND_TypeDefinitionIndex = 65788;
+
 	class GBOOKLKIMND : public ::System::Object
 	{
 	public:

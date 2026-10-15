@@ -21,6 +21,8 @@ class AkTransform;
 #define AKTRANSFORM_SET_1_OFFSET UNITYSDK_OFFSET(0x1F615A40)
 #define AKTRANSFORM_SET_OFFSET UNITYSDK_OFFSET(0x1F6156A0)
 
+inline static constexpr unsigned int AkTransform_TypeDefinitionIndex = 44793;
+
 	class AkTransform : public ::System::Object
 	{
 	public:

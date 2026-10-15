@@ -15,6 +15,8 @@ namespace RPG::GameCore { class HoyoTag; }
 #define OMCDMNOJODP_MBPJMILLDGL_OFFSET UNITYSDK_OFFSET(0x3C3E6E0)
 #define OMCDMNOJODP_NDMBDGKAJEK_OFFSET UNITYSDK_OFFSET(0x3C3E650)
 
+inline static constexpr unsigned int OMCDMNOJODP_TypeDefinitionIndex = 10675;
+
 	struct alignas(8) OMCDMNOJODP
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

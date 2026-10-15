@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesLandCollectData_TypeDefinitionIndex = 66601;
+
 	class PlanetFesLandCollectData : public ::System::Object
 	{
 	public:

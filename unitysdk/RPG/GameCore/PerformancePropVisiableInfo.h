@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PerformancePropVisiableInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformancePropVisiableInfo_TypeDefinitionIndex = 21854;
+
 	class PerformancePropVisiableInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowFightActivityLose; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowFightActivityLose_TypeDefinitionIndex = 23462;
+
 	class ShowFightActivityLose : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int IQueryEntityService_1_TypeDefinitionIndex = 42420;
+
 	template <typename T>
 	class IQueryEntityService_1
 	{

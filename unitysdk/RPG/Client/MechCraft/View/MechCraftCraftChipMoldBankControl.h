@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftChipMoldBankControl_TypeDefinitionIndex = 79853;
+
 	class MechCraftCraftChipMoldBankControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

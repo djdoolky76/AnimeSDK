@@ -43,6 +43,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIFollow3DTarget_TypeDefinitionIndex = 69098;
+
 	class UIFollow3DTarget : public ::UnityEngine::MonoBehaviour
 	{
 	public:

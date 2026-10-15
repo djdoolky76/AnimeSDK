@@ -8,6 +8,8 @@ namespace System { class String; }
 #define PEIJLCLAJOO_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0x1EC3FB70)
 #define PEIJLCLAJOO_SET_OFFSET UNITYSDK_OFFSET(0x1EC3F990)
 
+inline static constexpr unsigned int PEIJLCLAJOO_TypeDefinitionIndex = 35212;
+
 	class PEIJLCLAJOO : public ::System::Object
 	{
 	public:

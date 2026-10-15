@@ -6,6 +6,8 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
+inline static constexpr unsigned int JBAINNEFHME_TypeDefinitionIndex = 49997;
+
 	class JBAINNEFHME : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 #define AAHOFEAIMFO_CTOR_OFFSET UNITYSDK_OFFSET(0xB0C71E0)
 #define AAHOFEAIMFO_ONRECYCLEDITEMREUSED_OFFSET UNITYSDK_OFFSET(0xB0C73B0)
 
+inline static constexpr unsigned int AAHOFEAIMFO_TypeDefinitionIndex = 68996;
+
 	class AAHOFEAIMFO : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvWaitArtLoad_TypeDefinitionIndex = 22049;
+
 	class AdvWaitArtLoad : public ::RPG::GameCore::TaskConfig
 	{
 	public:

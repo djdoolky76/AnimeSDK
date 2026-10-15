@@ -12,6 +12,8 @@ namespace RPG::GameCore { class PredicateConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CheckPredicateAxis_TypeDefinitionIndex = 15512;
+
 	class CheckPredicateAxis : public ::RPG::GameCore::ConsiderationAxisConfig
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfPropertyModifier_TypeDefinitionIndex = 18488;
+
 	class ElfPropertyModifier : public ::RPG::GameCore::JsonConfig
 	{
 	public:

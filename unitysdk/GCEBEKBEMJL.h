@@ -10,6 +10,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define GCEBEKBEMJL_HPNDIIPEFLJ_OFFSET UNITYSDK_OFFSET(0x1596A2A0)
 #define GCEBEKBEMJL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15969AA0)
 
+inline static constexpr unsigned int GCEBEKBEMJL_TypeDefinitionIndex = 47445;
+
 	class GCEBEKBEMJL : public ::RPG::Client::BehaviorBase
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::Client { class EntityTimelineControlNode; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeRewindItemSingleClipData_TypeDefinitionIndex = 60838;
+
 	class TimeRewindItemSingleClipData : public ::UnityEngine::ScriptableObject
 	{
 	public:

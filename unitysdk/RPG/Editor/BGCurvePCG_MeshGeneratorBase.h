@@ -27,6 +27,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int BGCurvePCG_MeshGeneratorBase_TypeDefinitionIndex = 52028;
+
 	class BGCurvePCG_MeshGeneratorBase : public ::System::Object
 	{
 	public:

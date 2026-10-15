@@ -12,6 +12,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 #define GOEMAGKPDAM_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0x15B2C520)
 #define GOEMAGKPDAM_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x15B2C600)
 
+inline static constexpr unsigned int GOEMAGKPDAM_TypeDefinitionIndex = 48459;
+
 	class GOEMAGKPDAM : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

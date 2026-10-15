@@ -13,6 +13,8 @@ namespace System { class String; }
 #define DBDIHLMEFAJ_GET_NAME_OFFSET UNITYSDK_OFFSET(0xDFDCD30)
 #define DBDIHLMEFAJ_GET_PARENT_OFFSET UNITYSDK_OFFSET(0xDFDCD50)
 
+inline static constexpr unsigned int DBDIHLMEFAJ_TypeDefinitionIndex = 80142;
+
 	class DBDIHLMEFAJ : public ::System::Object
 	{
 	public:

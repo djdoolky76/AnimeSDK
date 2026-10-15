@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DPHCAHABIHN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD568E0)
 #define DPHCAHABIHN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD56280)
 
+inline static constexpr unsigned int DPHCAHABIHN_TypeDefinitionIndex = 12210;
+
 	class DPHCAHABIHN : public ::System::Object
 	{
 	public:

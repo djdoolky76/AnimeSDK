@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int AccountPlatformPlugin_TypeDefinitionIndex = 7968;
+
 	class AccountPlatformPlugin : public ::System::Object
 	{
 	public:

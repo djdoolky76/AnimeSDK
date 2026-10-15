@@ -9,6 +9,8 @@ namespace System { class Action; }
 #define NJFHGODIBPN_BNDKBMLLKBO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBC0F3C0)
 #define NJFHGODIBPN_BNDKBMLLKBO_OCOGKAHEEHI_OFFSET UNITYSDK_OFFSET(0xBC0F2D0)
 
+inline static constexpr unsigned int NJFHGODIBPN_BNDKBMLLKBO_TypeDefinitionIndex = 56991;
+
 	class NJFHGODIBPN_BNDKBMLLKBO : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ namespace Cysharp::Threading::Tasks::Internal { template <typename T> class Thro
 
 namespace Cysharp::Threading::Tasks::Internal
 {
+	inline static constexpr unsigned int ThrowObserver_1_TypeDefinitionIndex = 38699;
+
 	template <typename T>
 	class ThrowObserver_1 : public ::System::Object
 	{

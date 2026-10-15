@@ -7,6 +7,8 @@ class OFKKIMABHJD;
 
 #define DMADJEDDOLM_IPGNDDNDKLI_OFFSET UNITYSDK_OFFSET(0xFEB6460)
 
+inline static constexpr unsigned int DMADJEDDOLM_TypeDefinitionIndex = 64041;
+
 	class DMADJEDDOLM : public ::System::Object
 	{
 	public:

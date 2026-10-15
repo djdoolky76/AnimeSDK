@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define OLDIEIKKCAK_CTOR_OFFSET UNITYSDK_OFFSET(0xBF026A0)
 #define OLDIEIKKCAK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF026D0)
 
+inline static constexpr unsigned int OLDIEIKKCAK_TypeDefinitionIndex = 58152;
+
 	class OLDIEIKKCAK
 	{
 	public:

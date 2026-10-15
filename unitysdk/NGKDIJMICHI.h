@@ -27,6 +27,8 @@ namespace System { class Object; }
 #define NGKDIJMICHI_PJEKHBCLOBC_OFFSET UNITYSDK_OFFSET(0xBBAB4C0)
 #define NGKDIJMICHI__ONBIND_OFFSET UNITYSDK_OFFSET(0xBBAADC0)
 
+inline static constexpr unsigned int NGKDIJMICHI_TypeDefinitionIndex = 71588;
+
 	class NGKDIJMICHI : public ::FMPCODLIOLG
 	{
 	public:

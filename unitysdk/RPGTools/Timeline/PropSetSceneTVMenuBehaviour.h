@@ -14,6 +14,8 @@ namespace RPGTools::Timeline { class PropSetSceneTVMenuClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int PropSetSceneTVMenuBehaviour_TypeDefinitionIndex = 48253;
+
 	class PropSetSceneTVMenuBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

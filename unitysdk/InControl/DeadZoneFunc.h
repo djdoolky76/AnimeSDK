@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int DeadZoneFunc_TypeDefinitionIndex = 40817;
+
 	class DeadZoneFunc : public ::System::MulticastDelegate
 	{
 	public:

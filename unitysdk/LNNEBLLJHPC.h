@@ -19,6 +19,8 @@ namespace System::Text { class StringBuilder; }
 #define LNNEBLLJHPC_SET_PROTOTYPEIDENTIFIER_OFFSET UNITYSDK_OFFSET(0x94B0)
 #define LNNEBLLJHPC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B390)
 
+inline static constexpr unsigned int LNNEBLLJHPC_TypeDefinitionIndex = 51970;
+
 	struct alignas(4) LNNEBLLJHPC
 	{
 		::APCGKBOPGJL _PrototypeIdentifier_k__BackingField; // 0x10

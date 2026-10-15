@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DNIAFCGKEOP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1F7680)
 #define DNIAFCGKEOP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E1F7690)
 
+inline static constexpr unsigned int DNIAFCGKEOP___c_TypeDefinitionIndex = 34884;
+
 	class DNIAFCGKEOP___c : public ::System::Object
 	{
 	public:

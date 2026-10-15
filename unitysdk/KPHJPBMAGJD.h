@@ -18,6 +18,8 @@ namespace UnityEngine { class Collider; }
 #define KPHJPBMAGJD_NNALPNDFFIJ_OFFSET UNITYSDK_OFFSET(0xB5BE910)
 #define KPHJPBMAGJD_PGKPGNJJMMB_OFFSET UNITYSDK_OFFSET(0xB5BF390)
 
+inline static constexpr unsigned int KPHJPBMAGJD_TypeDefinitionIndex = 54738;
+
 	class KPHJPBMAGJD : public ::GGJEMEHMBNL
 	{
 	public:

@@ -7,6 +7,8 @@ class INMMPMDELKE;
 #define CHENLCDDMGN___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCC94410)
 #define CHENLCDDMGN___C__DISPLAYCLASS11_0___REGISTERONCLOSEINDOORCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xCC94D90)
 
+inline static constexpr unsigned int CHENLCDDMGN___c__DisplayClass11_0_TypeDefinitionIndex = 76816;
+
 	class CHENLCDDMGN___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

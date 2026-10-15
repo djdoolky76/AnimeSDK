@@ -6,6 +6,8 @@
 #define JLEFPBCCAGJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x113A0)
 #define JLEFPBCCAGJ_EXECUTE_OFFSET UNITYSDK_OFFSET(0x113B0)
 
+inline static constexpr unsigned int JLEFPBCCAGJ_TypeDefinitionIndex = 57792;
+
 	struct alignas(8) JLEFPBCCAGJ
 	{
 		::Unity::Collections::NativeArray_1<::HPDMDPFCDKJ> MFACGAHGEJM; // 0x10

@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int VFXTearBehaviour_TypeDefinitionIndex = 48079;
+
 	class VFXTearBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

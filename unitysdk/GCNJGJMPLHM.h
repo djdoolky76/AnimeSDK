@@ -25,6 +25,8 @@ namespace System { class String; }
 #define GCNJGJMPLHM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4420F0)
 #define GCNJGJMPLHM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E442150)
 
+inline static constexpr unsigned int GCNJGJMPLHM_TypeDefinitionIndex = 29863;
+
 	class GCNJGJMPLHM : public ::System::Object
 	{
 	public:

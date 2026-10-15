@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TransitionPerformConfig_TypeDefinitionIndex = 17639;
+
 	class TransitionPerformConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

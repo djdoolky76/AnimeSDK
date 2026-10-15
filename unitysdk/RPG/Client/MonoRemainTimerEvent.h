@@ -19,6 +19,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoRemainTimerEvent_TypeDefinitionIndex = 72597;
+
 	class MonoRemainTimerEvent : public ::UnityEngine::MonoBehaviour
 	{
 	public:

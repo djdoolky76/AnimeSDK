@@ -3,6 +3,8 @@
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int GregorianCalendarTypes_TypeDefinitionIndex = 752;
+
 	enum class GregorianCalendarTypes : ::System::Int32
 	{
 		Localized = 1,

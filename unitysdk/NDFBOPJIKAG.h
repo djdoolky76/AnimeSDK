@@ -7,6 +7,8 @@ namespace System { class String; }
 #define NDFBOPJIKAG_GET_DESC_OFFSET UNITYSDK_OFFSET(0xBB22A00)
 #define NDFBOPJIKAG_SET_DESC_OFFSET UNITYSDK_OFFSET(0xBB22A10)
 
+inline static constexpr unsigned int NDFBOPJIKAG_TypeDefinitionIndex = 79665;
+
 	class NDFBOPJIKAG : public ::System::Object
 	{
 	public:

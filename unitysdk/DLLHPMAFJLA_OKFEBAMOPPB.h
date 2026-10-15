@@ -4,6 +4,8 @@ namespace System { class String; }
 
 #define DLLHPMAFJLA_OKFEBAMOPPB_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0x850C40)
 
+inline static constexpr unsigned int DLLHPMAFJLA_OKFEBAMOPPB_TypeDefinitionIndex = 61036;
+
 	struct alignas(8) DLLHPMAFJLA_OKFEBAMOPPB
 	{
 		::System::String* ICGKFDEILKA; // 0x10

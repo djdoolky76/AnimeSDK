@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FIMGINEKACP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E39C250)
 #define FIMGINEKACP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E39C260)
 
+inline static constexpr unsigned int FIMGINEKACP___c_TypeDefinitionIndex = 33566;
+
 	class FIMGINEKACP___c : public ::System::Object
 	{
 	public:

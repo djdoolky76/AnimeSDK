@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateActDebugLogConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateActDebugLogConfig_TypeDefinitionIndex = 19223;
+
 	class FateActDebugLogConfig : public ::RPG::GameCore::FateActionConfigBase
 	{
 	public:

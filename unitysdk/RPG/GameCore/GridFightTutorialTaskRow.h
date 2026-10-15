@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightTutorialTaskRow_TypeDefinitionIndex = 13651;
+
 	class GridFightTutorialTaskRow : public ::System::Object
 	{
 	public:

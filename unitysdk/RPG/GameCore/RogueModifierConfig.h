@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierConfig_TypeDefinitionIndex = 17931;
+
 	class RogueModifierConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

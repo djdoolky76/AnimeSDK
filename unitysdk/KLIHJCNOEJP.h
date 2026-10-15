@@ -36,6 +36,8 @@ namespace System { class String; }
 #define KLIHJCNOEJP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E88C2B0)
 #define KLIHJCNOEJP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E88C310)
 
+inline static constexpr unsigned int KLIHJCNOEJP_TypeDefinitionIndex = 29318;
+
 	class KLIHJCNOEJP : public ::System::Object
 	{
 	public:

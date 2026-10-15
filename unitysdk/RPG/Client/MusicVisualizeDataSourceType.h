@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MusicVisualizeDataSourceType_TypeDefinitionIndex = 59735;
+
 	enum class MusicVisualizeDataSourceType : ::System::Int32
 	{
 		BGM = 0,

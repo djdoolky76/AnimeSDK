@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowRogueTalkUI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowRogueTalkUI_TypeDefinitionIndex = 21110;
+
 	class ShowRogueTalkUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

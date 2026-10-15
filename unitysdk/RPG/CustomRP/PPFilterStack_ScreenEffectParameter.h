@@ -4,6 +4,8 @@ namespace System { class String; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int PPFilterStack_ScreenEffectParameter_TypeDefinitionIndex = 51863;
+
 	struct alignas(8) PPFilterStack_ScreenEffectParameter
 	{
 		::System::String* ScreenEffectPath; // 0x10

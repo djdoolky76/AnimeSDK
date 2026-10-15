@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JMPNGBAILBG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E791A90)
 #define JMPNGBAILBG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E791AF0)
 
+inline static constexpr unsigned int JMPNGBAILBG_TypeDefinitionIndex = 32928;
+
 	class JMPNGBAILBG : public ::System::Object
 	{
 	public:

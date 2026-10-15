@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMagicFinishRecordDataItem_TypeDefinitionIndex = 67389;
+
 	class RogueMagicFinishRecordDataItem : public ::System::Object
 	{
 	public:

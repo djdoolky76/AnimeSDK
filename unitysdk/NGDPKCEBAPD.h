@@ -20,6 +20,8 @@ namespace System { class String; }
 #define NGDPKCEBAPD_POOMMGANEIK_OFFSET UNITYSDK_OFFSET(0xBBA3520)
 #define NGDPKCEBAPD_SET_INTERVIEWID_OFFSET UNITYSDK_OFFSET(0xBBA3290)
 
+inline static constexpr unsigned int NGDPKCEBAPD_TypeDefinitionIndex = 80285;
+
 	class NGDPKCEBAPD : public ::System::Object
 	{
 	public:

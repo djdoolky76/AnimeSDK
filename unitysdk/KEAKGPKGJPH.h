@@ -6,6 +6,8 @@ namespace System { class String; }
 #define KEAKGPKGJPH_CCTOR_OFFSET UNITYSDK_OFFSET(0xB36FB30)
 #define KEAKGPKGJPH_CTOR_OFFSET UNITYSDK_OFFSET(0xB36FB20)
 
+inline static constexpr unsigned int KEAKGPKGJPH_TypeDefinitionIndex = 74545;
+
 	class KEAKGPKGJPH : public ::System::Object
 	{
 	public:

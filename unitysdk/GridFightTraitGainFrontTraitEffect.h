@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GRIDFIGHTTRAITGAINFRONTTRAITEFFECT_GETFRONTTRAITS_OFFSET UNITYSDK_OFFSET(0x15B6FC80)
 #define GRIDFIGHTTRAITGAINFRONTTRAITEFFECT__GETFRONTTRAITS_B__1_0_OFFSET UNITYSDK_OFFSET(0x15B700A0)
 
+inline static constexpr unsigned int GridFightTraitGainFrontTraitEffect_TypeDefinitionIndex = 47192;
+
 	class GridFightTraitGainFrontTraitEffect : public ::RPG::Client::GridFightTraitEffectBase
 	{
 	public:

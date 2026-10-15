@@ -42,6 +42,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int HandheldQRBindingDialog_TypeDefinitionIndex = 8815;
+
 	class HandheldQRBindingDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:

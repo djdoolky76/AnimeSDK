@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 #define OLIEFEDKFJG_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0xBF0CD90)
 #define OLIEFEDKFJG_PFKHGPABMJE_OFFSET UNITYSDK_OFFSET(0xBF0D430)
 
+inline static constexpr unsigned int OLIEFEDKFJG_TypeDefinitionIndex = 54099;
+
 	class OLIEFEDKFJG : public ::System::Object
 	{
 	public:

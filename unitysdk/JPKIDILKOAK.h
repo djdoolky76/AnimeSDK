@@ -30,6 +30,8 @@ namespace System { class String; }
 #define JPKIDILKOAK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7D7670)
 #define JPKIDILKOAK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7D76D0)
 
+inline static constexpr unsigned int JPKIDILKOAK_TypeDefinitionIndex = 25154;
+
 	class JPKIDILKOAK : public ::System::Object
 	{
 	public:

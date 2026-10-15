@@ -74,6 +74,8 @@ namespace XLua { class ObjectTranslator; }
 
 namespace XLua::CSObjectWrap
 {
+	inline static constexpr unsigned int XLua_Gen_Initer_Register___TypeDefinitionIndex = 51702;
+
 	class XLua_Gen_Initer_Register__ : public ::System::Object
 	{
 	public:

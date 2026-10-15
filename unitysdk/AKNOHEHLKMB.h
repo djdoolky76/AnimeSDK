@@ -7,6 +7,8 @@ class FCOEMCEDLNL;
 #define AKNOHEHLKMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCD66A0)
 #define AKNOHEHLKMB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCD64C0)
 
+inline static constexpr unsigned int AKNOHEHLKMB_TypeDefinitionIndex = 15334;
+
 	class AKNOHEHLKMB : public ::System::Object
 	{
 	public:

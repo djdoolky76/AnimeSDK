@@ -10,6 +10,8 @@ namespace RPG::Client::LittleGame::CakeRace { class CakeRaceTalkBubbleMonoView; 
 #define DFBNOICFONC_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xE824790)
 #define DFBNOICFONC_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xE8245F0)
 
+inline static constexpr unsigned int DFBNOICFONC_TypeDefinitionIndex = 78169;
+
 	class DFBNOICFONC : public ::AJHHFMBOCEN
 	{
 	public:

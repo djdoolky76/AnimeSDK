@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define NJEIPCDKLMG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBC0D7F0)
 #define NJEIPCDKLMG___C__GETDICESURFACEDISPLAYDATALIST_B__17_0_OFFSET UNITYSDK_OFFSET(0xBC0D800)
 
+inline static constexpr unsigned int NJEIPCDKLMG___c_TypeDefinitionIndex = 66949;
+
 	class NJEIPCDKLMG___c : public ::System::Object
 	{
 	public:

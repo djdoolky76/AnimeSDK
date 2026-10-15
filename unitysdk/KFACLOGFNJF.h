@@ -63,6 +63,8 @@ namespace System { class String; }
 #define KFACLOGFNJF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8130B0)
 #define KFACLOGFNJF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E813110)
 
+inline static constexpr unsigned int KFACLOGFNJF_TypeDefinitionIndex = 27276;
+
 	class KFACLOGFNJF : public ::System::Object
 	{
 	public:

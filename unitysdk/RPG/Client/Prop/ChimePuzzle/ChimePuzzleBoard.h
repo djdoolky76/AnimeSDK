@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Prop::ChimePuzzle
 {
+	inline static constexpr unsigned int ChimePuzzleBoard_TypeDefinitionIndex = 78988;
+
 	class ChimePuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

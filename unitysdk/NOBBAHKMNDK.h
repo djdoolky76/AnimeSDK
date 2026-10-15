@@ -42,6 +42,8 @@ namespace UnityEngine { class Rigidbody; }
 #define NOBBAHKMNDK_SET_ROOTMOTIONSCALE_OFFSET UNITYSDK_OFFSET(0xBCE4850)
 #define NOBBAHKMNDK_SET_USERIGIDBODY_OFFSET UNITYSDK_OFFSET(0xBCE4780)
 
+inline static constexpr unsigned int NOBBAHKMNDK_TypeDefinitionIndex = 57103;
+
 	class NOBBAHKMNDK : public ::KMEOMKNPNCC
 	{
 	public:

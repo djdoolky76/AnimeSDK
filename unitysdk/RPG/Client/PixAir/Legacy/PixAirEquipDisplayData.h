@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client::PixAir::Legacy
 {
+	inline static constexpr unsigned int PixAirEquipDisplayData_TypeDefinitionIndex = 79406;
+
 	class PixAirEquipDisplayData : public ::System::Object
 	{
 	public:

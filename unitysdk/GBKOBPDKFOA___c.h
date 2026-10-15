@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GBKOBPDKFOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4307E0)
 #define GBKOBPDKFOA___C___CCTOR_B__36_0_OFFSET UNITYSDK_OFFSET(0x1E4307F0)
 
+inline static constexpr unsigned int GBKOBPDKFOA___c_TypeDefinitionIndex = 27803;
+
 	class GBKOBPDKFOA___c : public ::System::Object
 	{
 	public:

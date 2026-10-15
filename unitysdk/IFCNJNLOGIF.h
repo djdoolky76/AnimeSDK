@@ -6,6 +6,8 @@ class LBJLBMOOJGM;
 #define IFCNJNLOGIF_CTOR_OFFSET UNITYSDK_OFFSET(0x15F09890)
 #define IFCNJNLOGIF_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0x15F097B0)
 
+inline static constexpr unsigned int IFCNJNLOGIF_TypeDefinitionIndex = 79004;
+
 	class IFCNJNLOGIF : public ::System::Object
 	{
 	public:

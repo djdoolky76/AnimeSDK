@@ -13,6 +13,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StarFightUtils___c_TypeDefinitionIndex = 67986;
+
 	class StarFightUtils___c : public ::System::Object
 	{
 	public:

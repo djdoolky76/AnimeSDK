@@ -6,6 +6,8 @@ namespace UnityEngine { class Object; }
 
 #define KLKMCNOECAL_CTOR_OFFSET UNITYSDK_OFFSET(0xB52CBD0)
 
+inline static constexpr unsigned int KLKMCNOECAL_TypeDefinitionIndex = 59297;
+
 	class KLKMCNOECAL : public ::System::Object
 	{
 	public:

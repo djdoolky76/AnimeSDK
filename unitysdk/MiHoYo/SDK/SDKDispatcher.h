@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKDispatcher_TypeDefinitionIndex = 46266;
+
 	class SDKDispatcher : public ::System::Object
 	{
 	public:

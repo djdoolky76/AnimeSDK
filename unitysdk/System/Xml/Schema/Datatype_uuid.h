@@ -18,6 +18,8 @@ namespace System::Xml { class XmlNameTable; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_uuid_TypeDefinitionIndex = 2152;
+
 	class Datatype_uuid : public ::System::Xml::Schema::Datatype_anySimpleType
 	{
 	public:

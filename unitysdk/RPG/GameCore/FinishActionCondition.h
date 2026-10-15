@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FinishActionCondition; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FinishActionCondition_TypeDefinitionIndex = 19013;
+
 	class FinishActionCondition : public ::RPG::GameCore::JsonConfig
 	{
 	public:

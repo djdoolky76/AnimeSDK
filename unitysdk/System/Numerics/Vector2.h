@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace System::Numerics
 {
+	inline static constexpr unsigned int Vector2_TypeDefinitionIndex = 3864;
+
 	struct alignas(4) Vector2
 	{
 		::System::Single X; // 0x10

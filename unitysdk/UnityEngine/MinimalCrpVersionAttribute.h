@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int MinimalCrpVersionAttribute_TypeDefinitionIndex = 4314;
+
 	class MinimalCrpVersionAttribute : public ::System::Attribute
 	{
 	public:

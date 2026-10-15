@@ -5,6 +5,8 @@ namespace System { class Type; }
 
 #define CMEHCLFHINF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C454DF0)
 
+inline static constexpr unsigned int CMEHCLFHINF_TypeDefinitionIndex = 41409;
+
 	class CMEHCLFHINF : public ::System::Attribute
 	{
 	public:

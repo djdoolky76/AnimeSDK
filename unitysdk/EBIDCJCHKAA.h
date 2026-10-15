@@ -27,6 +27,8 @@ namespace System { class String; }
 #define EBIDCJCHKAA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2384B0)
 #define EBIDCJCHKAA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E238510)
 
+inline static constexpr unsigned int EBIDCJCHKAA_TypeDefinitionIndex = 26924;
+
 	class EBIDCJCHKAA : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define ENDBIELFKCP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CDAB550)
 #define ENDBIELFKCP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CDAAEF0)
 
+inline static constexpr unsigned int ENDBIELFKCP_TypeDefinitionIndex = 12057;
+
 	class ENDBIELFKCP : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MazeCharacterTeleportConfig_TypeDefinitionIndex = 17633;
+
 	class MazeCharacterTeleportConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

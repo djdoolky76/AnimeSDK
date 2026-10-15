@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization { class SurrogateHashtable; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int SurrogateSelector_TypeDefinitionIndex = 1136;
+
 	class SurrogateSelector : public ::System::Object
 	{
 	public:

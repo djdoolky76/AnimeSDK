@@ -14,6 +14,8 @@ namespace MessagePack::Formatters { class IMessagePackFormatter; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int DateTimeOffsetFormatter_TypeDefinitionIndex = 7488;
+
 	class DateTimeOffsetFormatter : public ::System::Object
 	{
 	public:

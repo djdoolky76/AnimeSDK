@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FNNFHNKHIDD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3F4E60)
 #define FNNFHNKHIDD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3F4EC0)
 
+inline static constexpr unsigned int FNNFHNKHIDD_TypeDefinitionIndex = 29525;
+
 	class FNNFHNKHIDD : public ::System::Object
 	{
 	public:

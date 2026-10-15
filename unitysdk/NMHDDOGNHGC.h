@@ -32,6 +32,8 @@ namespace System { class String; }
 #define NMHDDOGNHGC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB75AB0)
 #define NMHDDOGNHGC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB75B10)
 
+inline static constexpr unsigned int NMHDDOGNHGC_TypeDefinitionIndex = 28487;
+
 	class NMHDDOGNHGC : public ::System::Object
 	{
 	public:

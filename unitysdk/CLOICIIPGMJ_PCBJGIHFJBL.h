@@ -17,6 +17,8 @@ namespace UnityEngine { class Object; }
 #define CLOICIIPGMJ_PCBJGIHFJBL_REMOVE_ONLOADED_OFFSET UNITYSDK_OFFSET(0xDA22340)
 #define CLOICIIPGMJ_PCBJGIHFJBL_REMOVE__ONLOADED_OFFSET UNITYSDK_OFFSET(0xDA223F0)
 
+inline static constexpr unsigned int CLOICIIPGMJ_PCBJGIHFJBL_TypeDefinitionIndex = 49781;
+
 	class CLOICIIPGMJ_PCBJGIHFJBL : public ::System::Object
 	{
 	public:

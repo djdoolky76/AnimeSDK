@@ -16,6 +16,8 @@ namespace RPG::Client::AssetSystem { class AssetOptConfig; }
 #define OFEDACKIHKH_OJFJLILBKAM_OFFSET UNITYSDK_OFFSET(0x1C4CD390)
 #define OFEDACKIHKH_PGAMNBOGFBO_OFFSET UNITYSDK_OFFSET(0x1C4CD320)
 
+inline static constexpr unsigned int OFEDACKIHKH_TypeDefinitionIndex = 41590;
+
 	class OFEDACKIHKH : public ::System::Object
 	{
 	public:

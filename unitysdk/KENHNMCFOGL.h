@@ -19,6 +19,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define KENHNMCFOGL_ONPGJCHIKEO_OFFSET UNITYSDK_OFFSET(0xB37FDB0)
 #define KENHNMCFOGL_POPNLPIAOCM_OFFSET UNITYSDK_OFFSET(0xB37F9C0)
 
+inline static constexpr unsigned int KENHNMCFOGL_TypeDefinitionIndex = 70077;
+
 	class KENHNMCFOGL : public ::RPG::Client::BehaviorBase
 	{
 	public:

@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TemplateMonoPlugin_TypeDefinitionIndex = 70779;
+
 	class TemplateMonoPlugin
 	{
 	public:

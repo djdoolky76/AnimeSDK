@@ -8,6 +8,8 @@ class NECBBLNKIII;
 #define NECBBLNKIII_CTOR_OFFSET UNITYSDK_OFFSET(0xBB58930)
 #define NECBBLNKIII_FFHNOMIDEDE_OFFSET UNITYSDK_OFFSET(0xBB58AB0)
 
+inline static constexpr unsigned int NECBBLNKIII_TypeDefinitionIndex = 68240;
+
 	class NECBBLNKIII : public ::System::Object
 	{
 	public:

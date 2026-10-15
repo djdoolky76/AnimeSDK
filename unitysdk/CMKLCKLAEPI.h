@@ -30,6 +30,8 @@ namespace System { class String; }
 #define CMKLCKLAEPI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1036F0)
 #define CMKLCKLAEPI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E103750)
 
+inline static constexpr unsigned int CMKLCKLAEPI_TypeDefinitionIndex = 26904;
+
 	class CMKLCKLAEPI : public ::System::Object
 	{
 	public:

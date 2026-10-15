@@ -12,6 +12,8 @@ namespace XLua { class LuaMemoryLeakChecker_Data; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LuaMemoryLeakCheckerTest_TypeDefinitionIndex = 59401;
+
 	class LuaMemoryLeakCheckerTest : public ::UnityEngine::MonoBehaviour
 	{
 	public:

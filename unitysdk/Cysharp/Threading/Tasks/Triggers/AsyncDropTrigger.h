@@ -14,6 +14,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncDropTrigger_TypeDefinitionIndex = 38627;
+
 	class AsyncDropTrigger
 	{
 	public:

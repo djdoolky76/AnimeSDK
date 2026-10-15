@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace AK::Wwise
 {
+	inline static constexpr unsigned int BaseType_TypeDefinitionIndex = 44979;
+
 	class BaseType : public ::System::Object
 	{
 	public:

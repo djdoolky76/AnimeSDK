@@ -50,6 +50,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 #define GNFODCFLEMH__ONTICK_OFFSET UNITYSDK_OFFSET(0x15B02520)
 #define GNFODCFLEMH___UPDATEAVATARSPANEL_B__19_0_OFFSET UNITYSDK_OFFSET(0x15B06DA0)
 
+inline static constexpr unsigned int GNFODCFLEMH_TypeDefinitionIndex = 71448;
+
 	class GNFODCFLEMH : public ::FMPCODLIOLG
 	{
 	public:

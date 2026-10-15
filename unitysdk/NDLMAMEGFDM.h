@@ -39,6 +39,8 @@ namespace System { class String; }
 #define NDLMAMEGFDM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAEA520)
 #define NDLMAMEGFDM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAEA580)
 
+inline static constexpr unsigned int NDLMAMEGFDM_TypeDefinitionIndex = 34726;
+
 	class NDLMAMEGFDM : public ::System::Object
 	{
 	public:

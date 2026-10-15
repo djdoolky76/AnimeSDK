@@ -22,6 +22,8 @@ namespace System::IO { class Stream; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int MiHoYoSDKHTTPResponse_TypeDefinitionIndex = 9401;
+
 	class MiHoYoSDKHTTPResponse : public ::System::Object
 	{
 	public:

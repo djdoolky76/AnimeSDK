@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int IntervalTree_1_Entry_TypeDefinitionIndex = 38821;
+
 	template <typename T>
 	struct alignas(8) IntervalTree_1_Entry
 	{

@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int DebateBehaviour_TypeDefinitionIndex = 48067;
+
 	class DebateBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

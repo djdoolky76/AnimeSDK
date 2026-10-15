@@ -10,6 +10,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int ES_CloudParticleComponent_TypeDefinitionIndex = 49299;
+
 	class ES_CloudParticleComponent : public ::EnviromentSystemV2Space::ES_ParticleComponent
 	{
 	public:

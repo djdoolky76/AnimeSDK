@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateActGetCoinByParamConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateActGetCoinByParamConfig_TypeDefinitionIndex = 19224;
+
 	class FateActGetCoinByParamConfig : public ::RPG::GameCore::FateActionConfigBase
 	{
 	public:

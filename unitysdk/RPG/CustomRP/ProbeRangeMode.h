@@ -3,6 +3,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ProbeRangeMode_TypeDefinitionIndex = 37682;
+
 	enum class ProbeRangeMode : ::System::Int32
 	{
 		Local = 0,

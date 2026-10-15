@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifySkillPropertyByType_TypeDefinitionIndex = 23558;
+
 	class ModifySkillPropertyByType : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System { class String; }
 #define OLKFGPPNJFN_NNKOMLNPHID_OFFSET UNITYSDK_OFFSET(0xBF0EB40)
 #define OLKFGPPNJFN_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xBF0EF70)
 
+inline static constexpr unsigned int OLKFGPPNJFN_TypeDefinitionIndex = 77121;
+
 	class OLKFGPPNJFN : public ::System::Object
 	{
 	public:

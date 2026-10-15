@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKWebViewManager_WebEventDataModel_TypeDefinitionIndex = 46620;
+
 	class MiHoYoSDKWebViewManager_WebEventDataModel : public ::System::Object
 	{
 	public:

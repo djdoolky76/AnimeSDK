@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int BoxConfigModel_TypeDefinitionIndex = 7867;
+
 	class BoxConfigModel : public ::System::Object
 	{
 	public:

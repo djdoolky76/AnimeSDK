@@ -9,6 +9,8 @@ namespace System { class TimeProvider; }
 
 namespace System
 {
+	inline static constexpr unsigned int TimeProvider_TypeDefinitionIndex = 10173;
+
 	class TimeProvider : public ::System::Object
 	{
 	public:

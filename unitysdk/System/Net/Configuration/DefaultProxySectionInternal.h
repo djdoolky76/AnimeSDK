@@ -14,6 +14,8 @@ namespace System::Net::Configuration { class DefaultProxySectionInternal; }
 
 namespace System::Net::Configuration
 {
+	inline static constexpr unsigned int DefaultProxySectionInternal_TypeDefinitionIndex = 2976;
+
 	class DefaultProxySectionInternal : public ::System::Object
 	{
 	public:

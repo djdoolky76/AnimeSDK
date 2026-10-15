@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowBattleScreenEffect_TypeDefinitionIndex = 23250;
+
 	class ShowBattleScreenEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

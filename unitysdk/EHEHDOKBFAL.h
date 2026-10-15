@@ -36,6 +36,8 @@ namespace System { class String; }
 #define EHEHDOKBFAL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E29DB50)
 #define EHEHDOKBFAL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E29DBB0)
 
+inline static constexpr unsigned int EHEHDOKBFAL_TypeDefinitionIndex = 25144;
+
 	class EHEHDOKBFAL : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WatermarkDefine_TypeDefinitionIndex = 7600;
+
 	class WatermarkDefine : public ::System::Object
 	{
 	public:

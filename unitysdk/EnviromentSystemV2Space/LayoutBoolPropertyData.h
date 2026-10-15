@@ -7,6 +7,8 @@ class GGJFAFONDHN;
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int LayoutBoolPropertyData_TypeDefinitionIndex = 49370;
+
 	class LayoutBoolPropertyData
 	{
 	public:

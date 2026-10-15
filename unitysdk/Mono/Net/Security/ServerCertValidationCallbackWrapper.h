@@ -16,6 +16,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
 namespace Mono::Net::Security
 {
+	inline static constexpr unsigned int ServerCertValidationCallbackWrapper_TypeDefinitionIndex = 2434;
+
 	class ServerCertValidationCallbackWrapper : public ::System::MulticastDelegate
 	{
 	public:

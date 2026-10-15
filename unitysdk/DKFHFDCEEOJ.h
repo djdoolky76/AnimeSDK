@@ -8,6 +8,8 @@ namespace System { class String; }
 #define DKFHFDCEEOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xF87B060)
 #define DKFHFDCEEOJ_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xF87AF50)
 
+inline static constexpr unsigned int DKFHFDCEEOJ_TypeDefinitionIndex = 48256;
+
 	class DKFHFDCEEOJ : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

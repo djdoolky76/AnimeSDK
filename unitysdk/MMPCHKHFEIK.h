@@ -4,6 +4,8 @@
 
 #define MMPCHKHFEIK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C74FAE0)
 
+inline static constexpr unsigned int MMPCHKHFEIK_TypeDefinitionIndex = 37096;
+
 	class MMPCHKHFEIK : public ::System::Object
 	{
 	public:

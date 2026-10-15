@@ -30,6 +30,8 @@ namespace System { class String; }
 #define KAJGFEJKOIC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7E5970)
 #define KAJGFEJKOIC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7E59D0)
 
+inline static constexpr unsigned int KAJGFEJKOIC_TypeDefinitionIndex = 28111;
+
 	class KAJGFEJKOIC : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 #define MNLHJMMEHEI_NNKHNDEBHDA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xBA15C30)
 #define MNLHJMMEHEI_NNKHNDEBHDA_JNEKHBHNKNM_OFFSET UNITYSDK_OFFSET(0xBA15BA0)
 
+inline static constexpr unsigned int MNLHJMMEHEI_NNKHNDEBHDA_TypeDefinitionIndex = 57001;
+
 	class MNLHJMMEHEI_NNKHNDEBHDA : public ::System::Object
 	{
 	public:

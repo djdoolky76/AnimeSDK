@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define BMGHBPAPAPB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBDADCD0)
 #define BMGHBPAPAPB___ONGRIDFIGHTREMOVEORB_B__6_0_OFFSET UNITYSDK_OFFSET(0xBDAE170)
 
+inline static constexpr unsigned int BMGHBPAPAPB_TypeDefinitionIndex = 53593;
+
 	class BMGHBPAPAPB : public ::CMMNJAMJJCN
 	{
 	public:

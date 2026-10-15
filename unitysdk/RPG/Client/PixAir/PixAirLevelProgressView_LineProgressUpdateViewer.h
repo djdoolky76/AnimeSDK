@@ -9,6 +9,8 @@ namespace RPG::Client { class UILineRenderer; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirLevelProgressView_LineProgressUpdateViewer_TypeDefinitionIndex = 79389;
+
 	class PixAirLevelProgressView_LineProgressUpdateViewer : public ::System::Object
 	{
 	public:

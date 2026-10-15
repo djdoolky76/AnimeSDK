@@ -27,6 +27,8 @@ namespace System { class String; }
 #define OKLKPLGFPNM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE9EF70)
 #define OKLKPLGFPNM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE9EFD0)
 
+inline static constexpr unsigned int OKLKPLGFPNM_TypeDefinitionIndex = 32601;
+
 	class OKLKPLGFPNM : public ::System::Object
 	{
 	public:

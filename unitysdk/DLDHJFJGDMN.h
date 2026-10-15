@@ -20,6 +20,8 @@ class OHLGEHNPAAL;
 #define DLDHJFJGDMN_OIMLJOAOFKB_OFFSET UNITYSDK_OFFSET(0xF898C50)
 #define DLDHJFJGDMN_OLOHFJDEBCO_OFFSET UNITYSDK_OFFSET(0xF899580)
 
+inline static constexpr unsigned int DLDHJFJGDMN_TypeDefinitionIndex = 74853;
+
 	class DLDHJFJGDMN : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsCharacterWeaknessActivated___O_TypeDefinitionIndex = 23545;
+
 	class ByIsCharacterWeaknessActivated___O : public ::System::Object
 	{
 	public:

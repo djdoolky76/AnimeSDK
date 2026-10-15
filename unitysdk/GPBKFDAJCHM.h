@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TriggerEffectOnAnchor; }
 #define GPBKFDAJCHM_CTOR_OFFSET UNITYSDK_OFFSET(0x15B3D760)
 #define GPBKFDAJCHM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B3D790)
 
+inline static constexpr unsigned int GPBKFDAJCHM_TypeDefinitionIndex = 58782;
+
 	class GPBKFDAJCHM
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GOELKOBOCDI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4EEA50)
 #define GOELKOBOCDI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4EEAB0)
 
+inline static constexpr unsigned int GOELKOBOCDI_TypeDefinitionIndex = 28453;
+
 	class GOELKOBOCDI : public ::System::Object
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System::Xml::Linq { class XElement; }
 
 namespace Newtonsoft::Json::Converters
 {
+	inline static constexpr unsigned int XElementWrapper_TypeDefinitionIndex = 9844;
+
 	class XElementWrapper : public ::Newtonsoft::Json::Converters::XContainerWrapper
 	{
 	public:

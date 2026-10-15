@@ -32,6 +32,8 @@ namespace System { class String; }
 #define DNPDLODGAHA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1FB8C0)
 #define DNPDLODGAHA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1FB920)
 
+inline static constexpr unsigned int DNPDLODGAHA_TypeDefinitionIndex = 25694;
+
 	class DNPDLODGAHA : public ::System::Object
 	{
 	public:

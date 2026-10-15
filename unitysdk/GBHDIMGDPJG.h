@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GBHDIMGDPJG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E42B400)
 #define GBHDIMGDPJG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E42B460)
 
+inline static constexpr unsigned int GBHDIMGDPJG_TypeDefinitionIndex = 27389;
+
 	class GBHDIMGDPJG : public ::System::Object
 	{
 	public:

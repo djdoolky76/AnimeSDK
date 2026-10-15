@@ -78,6 +78,8 @@ namespace UnityEngine { class Transform; }
 #define JIJBCGDANLJ_POBPBGGLAIB_OFFSET UNITYSDK_OFFSET(0x1CB9EDB0)
 #define JIJBCGDANLJ_PPIEDIOPCCM_OFFSET UNITYSDK_OFFSET(0x1CBA0510)
 
+inline static constexpr unsigned int JIJBCGDANLJ_TypeDefinitionIndex = 42616;
+
 	class JIJBCGDANLJ
 	{
 	public:

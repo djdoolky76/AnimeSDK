@@ -9,6 +9,8 @@ namespace RPG::Client { class GridFightGameModifier; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightModifierInfo___c__DisplayClass25_0_TypeDefinitionIndex = 65046;
+
 	class GridFightModifierInfo___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:

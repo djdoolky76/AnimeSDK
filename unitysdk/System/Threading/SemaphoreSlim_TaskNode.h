@@ -9,6 +9,8 @@ namespace System::Threading { class ThreadAbortException; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int SemaphoreSlim_TaskNode_TypeDefinitionIndex = 810;
+
 	class SemaphoreSlim_TaskNode
 	{
 	public:

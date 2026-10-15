@@ -15,6 +15,8 @@ namespace RPG::GameCore { class StageVolumeComponentData; }
 #define EJOKIJIAKNH_NDGDDODNDMP_OFFSET UNITYSDK_OFFSET(0x154F6E30)
 #define EJOKIJIAKNH_OJJPFMBLLDJ_OFFSET UNITYSDK_OFFSET(0x154F70B0)
 
+inline static constexpr unsigned int EJOKIJIAKNH_TypeDefinitionIndex = 73997;
+
 	class EJOKIJIAKNH : public ::FECDLDCCHPN
 	{
 	public:

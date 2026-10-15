@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int VFXPageTearTrack_TypeDefinitionIndex = 48684;
+
 	class VFXPageTearTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

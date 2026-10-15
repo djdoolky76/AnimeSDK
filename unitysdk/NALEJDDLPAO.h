@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NALEJDDLPAO_CTOR_OFFSET UNITYSDK_OFFSET(0xBAA6530)
 #define NALEJDDLPAO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAA6560)
 
+inline static constexpr unsigned int NALEJDDLPAO_TypeDefinitionIndex = 55610;
+
 	class NALEJDDLPAO
 	{
 	public:

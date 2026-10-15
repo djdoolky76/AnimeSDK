@@ -9,6 +9,8 @@ namespace System { class String; }
 #define IALHIKGIPOB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CEDBD50)
 #define IALHIKGIPOB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEDBD10)
 
+inline static constexpr unsigned int IALHIKGIPOB_TypeDefinitionIndex = 24145;
+
 	class IALHIKGIPOB : public ::RPG::GameCore::TaskConfig
 	{
 	public:

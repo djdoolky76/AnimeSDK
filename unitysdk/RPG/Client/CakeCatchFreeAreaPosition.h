@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeCatchFreeAreaPosition_TypeDefinitionIndex = 62977;
+
 	class CakeCatchFreeAreaPosition : public ::System::Object
 	{
 	public:

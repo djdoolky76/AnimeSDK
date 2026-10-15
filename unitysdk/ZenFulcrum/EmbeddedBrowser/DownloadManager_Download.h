@@ -8,6 +8,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int DownloadManager_Download_TypeDefinitionIndex = 39498;
+
 	class DownloadManager_Download : public ::System::Object
 	{
 	public:

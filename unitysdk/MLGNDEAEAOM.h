@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define MLGNDEAEAOM_CTOR_OFFSET UNITYSDK_OFFSET(0xB9ADE40)
 
+inline static constexpr unsigned int MLGNDEAEAOM_TypeDefinitionIndex = 52060;
+
 	class MLGNDEAEAOM : public ::System::Attribute
 	{
 	public:

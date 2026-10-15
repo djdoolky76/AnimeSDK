@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_init_TypeDefinitionIndex = 39414;
+
 	class BrowserNative_Calltype_zfb_init : public ::System::MulticastDelegate
 	{
 	public:

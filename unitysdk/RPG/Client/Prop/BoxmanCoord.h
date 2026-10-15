@@ -5,6 +5,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int BoxmanCoord_TypeDefinitionIndex = 78842;
+
 	struct alignas(4) BoxmanCoord
 	{
 		::System::Int32 Col; // 0x10

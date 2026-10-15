@@ -10,6 +10,8 @@ namespace UnityEngine { class MeshRenderer; }
 #define AREAFADEPOINTLIGHT_MANKKFNCLJK_OFFSET UNITYSDK_OFFSET(0x15BC49F0)
 #define AREAFADEPOINTLIGHT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x15BC4FA0)
 
+inline static constexpr unsigned int AreaFadePointLight_TypeDefinitionIndex = 47338;
+
 	class AreaFadePointLight : public ::UnityEngine::MonoBehaviour
 	{
 	public:

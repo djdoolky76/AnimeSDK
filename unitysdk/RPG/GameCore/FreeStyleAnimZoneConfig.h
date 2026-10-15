@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FreeStyleAnimZoneConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FreeStyleAnimZoneConfig_TypeDefinitionIndex = 16306;
+
 	class FreeStyleAnimZoneConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

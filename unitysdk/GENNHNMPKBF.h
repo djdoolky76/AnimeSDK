@@ -38,6 +38,8 @@ namespace System { class String; }
 #define GENNHNMPKBF_OMDEGNPHNGF_OFFSET UNITYSDK_OFFSET(0x159E31C0)
 #define GENNHNMPKBF_PNPJINPACJB_OFFSET UNITYSDK_OFFSET(0x159E45E0)
 
+inline static constexpr unsigned int GENNHNMPKBF_TypeDefinitionIndex = 73875;
+
 	class GENNHNMPKBF : public ::System::Object
 	{
 	public:

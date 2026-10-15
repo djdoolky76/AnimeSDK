@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
+inline static constexpr unsigned int ACNFHAKPMIK___O_TypeDefinitionIndex = 22894;
+
 	class ACNFHAKPMIK___O : public ::System::Object
 	{
 	public:

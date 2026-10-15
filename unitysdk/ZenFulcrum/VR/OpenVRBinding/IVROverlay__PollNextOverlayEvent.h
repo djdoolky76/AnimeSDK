@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVROverlay__PollNextOverlayEvent_TypeDefinitionIndex = 39104;
+
 	class IVROverlay__PollNextOverlayEvent : public ::System::MulticastDelegate
 	{
 	public:

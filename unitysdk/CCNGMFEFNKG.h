@@ -37,6 +37,8 @@ namespace System { class String; }
 #define CCNGMFEFNKG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E07B720)
 #define CCNGMFEFNKG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E07B780)
 
+inline static constexpr unsigned int CCNGMFEFNKG_TypeDefinitionIndex = 27885;
+
 	class CCNGMFEFNKG : public ::System::Object
 	{
 	public:

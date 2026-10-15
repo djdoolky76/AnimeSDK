@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EnableHugeMonsterHalfDither; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnableHugeMonsterHalfDither_TypeDefinitionIndex = 22677;
+
 	class EnableHugeMonsterHalfDither : public ::RPG::GameCore::TaskConfig
 	{
 	public:

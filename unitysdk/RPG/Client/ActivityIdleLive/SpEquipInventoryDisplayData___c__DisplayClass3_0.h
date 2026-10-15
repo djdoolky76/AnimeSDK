@@ -9,6 +9,8 @@ namespace RPG::Client::ActivityIdleLive { class SpecialEquip; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int SpEquipInventoryDisplayData___c__DisplayClass3_0_TypeDefinitionIndex = 75440;
+
 	class SpEquipInventoryDisplayData___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

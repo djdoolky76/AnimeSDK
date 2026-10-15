@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define GEKBDOPFHBO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x159DEE00)
 #define GEKBDOPFHBO_TICK_OFFSET UNITYSDK_OFFSET(0x159DEE50)
 
+inline static constexpr unsigned int GEKBDOPFHBO_TypeDefinitionIndex = 52998;
+
 	class GEKBDOPFHBO : public ::GELIALJDFBL
 	{
 	public:

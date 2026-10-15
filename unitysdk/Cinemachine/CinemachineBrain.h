@@ -65,6 +65,8 @@ namespace UnityEngine { class WaitForFixedUpdate; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineBrain_TypeDefinitionIndex = 39717;
+
 	class CinemachineBrain : public ::UnityEngine::MonoBehaviour
 	{
 	public:

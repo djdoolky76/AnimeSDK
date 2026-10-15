@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace DesperateDevs::Utils
 {
+	inline static constexpr unsigned int PublicMemberInfoExtension_TypeDefinitionIndex = 7098;
+
 	class PublicMemberInfoExtension : public ::System::Object
 	{
 	public:

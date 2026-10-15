@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BAICKCNKJGB_JMPLDGBMBJJ_OFFSET UNITYSDK_OFFSET(0x15E6CA10)
 #define BAICKCNKJGB_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x15E6CCD0)
 
+inline static constexpr unsigned int BAICKCNKJGB_TypeDefinitionIndex = 77917;
+
 	class BAICKCNKJGB : public ::JNALBIEDNLH
 	{
 	public:

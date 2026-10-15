@@ -15,6 +15,8 @@ namespace System::Linq::Expressions::Interpreter { class LeaveExceptionHandlerIn
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int LeaveExceptionHandlerInstruction_TypeDefinitionIndex = 3337;
+
 	class LeaveExceptionHandlerInstruction : public ::System::Linq::Expressions::Interpreter::IndexedBranchInstruction
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KOKEEMJDHNG_HJHFDEPFEED_OFFSET UNITYSDK_OFFSET(0xB5A0A70)
 #define KOKEEMJDHNG_PAOCHKMFNPI_OFFSET UNITYSDK_OFFSET(0xB5A04C0)
 
+inline static constexpr unsigned int KOKEEMJDHNG_TypeDefinitionIndex = 79176;
+
 	class KOKEEMJDHNG : public ::System::Object
 	{
 	public:

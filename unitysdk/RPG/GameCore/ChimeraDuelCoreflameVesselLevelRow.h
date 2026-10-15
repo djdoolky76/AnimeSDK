@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChimeraDuelCoreflameVesselLevelRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelCoreflameVesselLevelRow_TypeDefinitionIndex = 11117;
+
 	class ChimeraDuelCoreflameVesselLevelRow : public ::System::Object
 	{
 	public:

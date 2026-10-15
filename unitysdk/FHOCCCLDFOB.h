@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FHOCCCLDFOB_ONSKIP_OFFSET UNITYSDK_OFFSET(0x15791BB0)
 #define FHOCCCLDFOB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15791D90)
 
+inline static constexpr unsigned int FHOCCCLDFOB_TypeDefinitionIndex = 52983;
+
 	class FHOCCCLDFOB
 	{
 	public:

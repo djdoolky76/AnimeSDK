@@ -15,6 +15,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIClonableDrag_TypeDefinitionIndex = 72741;
+
 	class UIClonableDrag : public ::UnityEngine::MonoBehaviour
 	{
 	public:

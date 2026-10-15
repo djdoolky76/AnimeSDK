@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CheckCurrentAIPhaseAxis_TypeDefinitionIndex = 15502;
+
 	class CheckCurrentAIPhaseAxis : public ::RPG::GameCore::ConsiderationAxisConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FiveDimEditorLoadStageConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimEditorLoadStageConfig_TypeDefinitionIndex = 18835;
+
 	class FiveDimEditorLoadStageConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

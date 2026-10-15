@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TeamLookAt; }
 #define JGBKFALLLOI_CTOR_OFFSET UNITYSDK_OFFSET(0xB1914A0)
 #define JGBKFALLLOI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1914D0)
 
+inline static constexpr unsigned int JGBKFALLLOI_TypeDefinitionIndex = 55705;
+
 	class JGBKFALLLOI
 	{
 	public:

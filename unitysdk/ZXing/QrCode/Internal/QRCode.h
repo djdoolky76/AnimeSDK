@@ -24,6 +24,8 @@ namespace ZXing::QrCode::Internal { class Version; }
 
 namespace ZXing::QrCode::Internal
 {
+	inline static constexpr unsigned int QRCode_TypeDefinitionIndex = 7034;
+
 	class QRCode : public ::System::Object
 	{
 	public:

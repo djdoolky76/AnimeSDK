@@ -4,6 +4,8 @@
 namespace System { class Object; }
 namespace System { class String; }
 
+inline static constexpr unsigned int DPHCPLJMDKL___c__DisplayClass23_1_1_TypeDefinitionIndex = 60031;
+
 	template <typename T>
 	class DPHCPLJMDKL___c__DisplayClass23_1_1 : public ::System::Object
 	{

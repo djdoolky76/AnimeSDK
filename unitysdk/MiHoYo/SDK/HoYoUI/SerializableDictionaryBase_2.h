@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::HoYoUI
 {
+	inline static constexpr unsigned int SerializableDictionaryBase_2_TypeDefinitionIndex = 46732;
+
 	template <typename T1, typename T2>
 	class SerializableDictionaryBase_2 : public ::MiHoYo::SDK::HoYoUI::SerializableDictionaryBase
 	{

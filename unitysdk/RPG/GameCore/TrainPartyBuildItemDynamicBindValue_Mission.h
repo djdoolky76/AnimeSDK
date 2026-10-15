@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyBuildItemDynamicBindValue_Mission; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyBuildItemDynamicBindValue_Mission_TypeDefinitionIndex = 16268;
+
 	class TrainPartyBuildItemDynamicBindValue_Mission : public ::RPG::GameCore::TrainPartyBuildItemDynamicBindValue
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define HNKFLALPNAL_DOONENTER_OFFSET UNITYSDK_OFFSET(0x15D9E9F0)
 #define HNKFLALPNAL_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x15D9EA80)
 
+inline static constexpr unsigned int HNKFLALPNAL_TypeDefinitionIndex = 57508;
+
 	class HNKFLALPNAL : public ::EDLDHDMLJDH
 	{
 	public:

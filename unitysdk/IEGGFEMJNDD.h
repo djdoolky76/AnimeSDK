@@ -53,6 +53,8 @@ namespace UnityEngine { class Transform; }
 #define IEGGFEMJNDD_PJHHJJOBAHH_1_OFFSET UNITYSDK_OFFSET(0x15EF78E0)
 #define IEGGFEMJNDD_PJHHJJOBAHH_OFFSET UNITYSDK_OFFSET(0x15EF73E0)
 
+inline static constexpr unsigned int IEGGFEMJNDD_TypeDefinitionIndex = 69257;
+
 	class IEGGFEMJNDD : public ::LAJCPEFEOPN
 	{
 	public:

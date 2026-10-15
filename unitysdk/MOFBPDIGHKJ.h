@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define MOFBPDIGHKJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1DC530)
 #define MOFBPDIGHKJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1DC490)
 
+inline static constexpr unsigned int MOFBPDIGHKJ_TypeDefinitionIndex = 23825;
+
 	class MOFBPDIGHKJ : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

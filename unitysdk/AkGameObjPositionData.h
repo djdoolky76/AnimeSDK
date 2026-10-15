@@ -5,6 +5,8 @@
 
 #define AKGAMEOBJPOSITIONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F598050)
 
+inline static constexpr unsigned int AkGameObjPositionData_TypeDefinitionIndex = 44933;
+
 	class AkGameObjPositionData : public ::System::Object
 	{
 	public:

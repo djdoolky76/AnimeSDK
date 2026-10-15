@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightAugmentExpiredConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightAugmentExpiredConfigRow_TypeDefinitionIndex = 13409;
+
 	class GridFightAugmentExpiredConfigRow : public ::System::Object
 	{
 	public:

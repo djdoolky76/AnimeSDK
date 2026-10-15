@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriFsConfig_TypeDefinitionIndex = 40151;
+
 	class CriFsConfig : public ::System::Object
 	{
 	public:

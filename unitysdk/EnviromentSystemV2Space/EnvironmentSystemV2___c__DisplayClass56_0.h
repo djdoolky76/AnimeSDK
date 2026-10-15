@@ -13,6 +13,8 @@ namespace System { class Action; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int EnvironmentSystemV2___c__DisplayClass56_0_TypeDefinitionIndex = 49472;
+
 	class EnvironmentSystemV2___c__DisplayClass56_0 : public ::System::Object
 	{
 	public:

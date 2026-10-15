@@ -17,6 +17,8 @@ namespace RPG::GameCore { class BattleInstance; }
 #define CJFBIIGGPHK_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xD2024F0)
 #define CJFBIIGGPHK__ONBIND_OFFSET UNITYSDK_OFFSET(0xD202440)
 
+inline static constexpr unsigned int CJFBIIGGPHK_TypeDefinitionIndex = 72234;
+
 	class CJFBIIGGPHK : public ::FMPCODLIOLG
 	{
 	public:

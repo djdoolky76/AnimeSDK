@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define GBHADOLNLHE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1594ECA0)
 #define GBHADOLNLHE_LNJFJBPLJPN_OFFSET UNITYSDK_OFFSET(0x1594F680)
 
+inline static constexpr unsigned int GBHADOLNLHE_TypeDefinitionIndex = 78091;
+
 	class GBHADOLNLHE : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class Nullable; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceMazeProgressHintViewModel_TypeDefinitionIndex = 81589;
+
 	class ChallengeTierceMazeProgressHintViewModel : public ::System::Object
 	{
 	public:

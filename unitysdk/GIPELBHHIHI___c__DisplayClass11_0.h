@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define GIPELBHHIHI___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15A4EE30)
 #define GIPELBHHIHI___C__DISPLAYCLASS11_0__TRYCREATEPOSESWITCHER_B__0_OFFSET UNITYSDK_OFFSET(0x15A50790)
 
+inline static constexpr unsigned int GIPELBHHIHI___c__DisplayClass11_0_TypeDefinitionIndex = 60630;
+
 	class GIPELBHHIHI___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

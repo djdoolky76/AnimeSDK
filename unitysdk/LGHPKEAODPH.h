@@ -14,6 +14,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define LGHPKEAODPH_JMEJFBACGEB_OFFSET UNITYSDK_OFFSET(0x1C90E200)
 #define LGHPKEAODPH_MJLOIEOCAGP_OFFSET UNITYSDK_OFFSET(0x1C90E2E0)
 
+inline static constexpr unsigned int LGHPKEAODPH_TypeDefinitionIndex = 42559;
+
 	class LGHPKEAODPH
 	{
 	public:

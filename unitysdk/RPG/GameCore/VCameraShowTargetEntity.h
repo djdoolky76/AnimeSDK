@@ -11,6 +11,8 @@ namespace RPG::GameCore { class VCameraShowTargetEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VCameraShowTargetEntity_TypeDefinitionIndex = 16422;
+
 	class VCameraShowTargetEntity : public ::RPG::GameCore::JsonConfig
 	{
 	public:

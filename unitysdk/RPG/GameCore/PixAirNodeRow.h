@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PixAirNodeRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PixAirNodeRow_TypeDefinitionIndex = 12131;
+
 	class PixAirNodeRow : public ::System::Object
 	{
 	public:

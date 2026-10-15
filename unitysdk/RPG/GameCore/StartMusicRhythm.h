@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StartMusicRhythm_TypeDefinitionIndex = 22054;
+
 	class StartMusicRhythm : public ::RPG::GameCore::TaskConfig
 	{
 	public:

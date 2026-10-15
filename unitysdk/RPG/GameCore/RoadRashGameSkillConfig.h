@@ -12,6 +12,8 @@ namespace RPG::GameCore { class RoadRashGameSkillConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RoadRashGameSkillConfig_TypeDefinitionIndex = 17008;
+
 	class RoadRashGameSkillConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

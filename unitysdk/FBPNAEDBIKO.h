@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FBPNAEDBIKO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156ADBD0)
 #define FBPNAEDBIKO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x156ADE00)
 
+inline static constexpr unsigned int FBPNAEDBIKO_TypeDefinitionIndex = 52720;
+
 	class FBPNAEDBIKO
 	{
 	public:

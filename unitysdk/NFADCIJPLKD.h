@@ -4,6 +4,8 @@
 
 #define NFADCIJPLKD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C956500)
 
+inline static constexpr unsigned int NFADCIJPLKD_TypeDefinitionIndex = 42970;
+
 	class NFADCIJPLKD : public ::System::Object
 	{
 	public:

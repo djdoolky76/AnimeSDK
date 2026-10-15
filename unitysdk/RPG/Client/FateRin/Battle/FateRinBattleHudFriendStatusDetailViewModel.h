@@ -45,6 +45,8 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudFriendStatusDetailViewModel_TypeDefinitionIndex = 80919;
+
 	class FateRinBattleHudFriendStatusDetailViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

@@ -5,6 +5,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 #define IFJOOOHNFPM_CTOR_OFFSET UNITYSDK_OFFSET(0x15F1ECD0)
 
+inline static constexpr unsigned int IFJOOOHNFPM_TypeDefinitionIndex = 55348;
+
 	class IFJOOOHNFPM : public ::System::Object
 	{
 	public:

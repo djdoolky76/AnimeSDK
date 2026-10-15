@@ -31,6 +31,8 @@ namespace System { class String; }
 #define PELFPKFFFBO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF1C320)
 #define PELFPKFFFBO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF1C380)
 
+inline static constexpr unsigned int PELFPKFFFBO_TypeDefinitionIndex = 30787;
+
 	class PELFPKFFFBO : public ::System::Object
 	{
 	public:

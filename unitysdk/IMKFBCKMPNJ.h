@@ -6,6 +6,8 @@ namespace RPG::Client { class MainMissionData; }
 #define IMKFBCKMPNJ_CTOR_OFFSET UNITYSDK_OFFSET(0x164DD820)
 #define IMKFBCKMPNJ_HDILBJHMBMF_OFFSET UNITYSDK_OFFSET(0x164DD350)
 
+inline static constexpr unsigned int IMKFBCKMPNJ_TypeDefinitionIndex = 66185;
+
 	class IMKFBCKMPNJ : public ::System::Object
 	{
 	public:

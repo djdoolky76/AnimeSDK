@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FDNHGAHKHIN_TICK_OFFSET UNITYSDK_OFFSET(0x156DF1A0)
 #define FDNHGAHKHIN__ONTASKBEGIN_B__2_0_OFFSET UNITYSDK_OFFSET(0x156DF200)
 
+inline static constexpr unsigned int FDNHGAHKHIN_TypeDefinitionIndex = 52916;
+
 	class FDNHGAHKHIN : public ::GELIALJDFBL
 	{
 	public:

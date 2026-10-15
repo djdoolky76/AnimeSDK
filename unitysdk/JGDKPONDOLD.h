@@ -18,6 +18,8 @@ namespace UnityEngine::UI { class Text; }
 #define JGDKPONDOLD__ONBIND_OFFSET UNITYSDK_OFFSET(0xB198F60)
 #define JGDKPONDOLD___ONBUTTONCLICK_B__9_0_OFFSET UNITYSDK_OFFSET(0xB199740)
 
+inline static constexpr unsigned int JGDKPONDOLD_TypeDefinitionIndex = 72281;
+
 	class JGDKPONDOLD : public ::FMPCODLIOLG
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define KMGAKDFMMPI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB554000)
 #define KMGAKDFMMPI_TICK_OFFSET UNITYSDK_OFFSET(0xB554050)
 
+inline static constexpr unsigned int KMGAKDFMMPI_TypeDefinitionIndex = 58438;
+
 	class KMGAKDFMMPI : public ::GELIALJDFBL
 	{
 	public:

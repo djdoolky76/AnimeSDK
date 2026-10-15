@@ -9,6 +9,8 @@ namespace RPG::Client::ActivityIdleLive { class SpEquipSlotInfo; }
 #define IGHJBLHCOOI__CHECKNEEDREBUILD_OFFSET UNITYSDK_OFFSET(0x1640E840)
 #define IGHJBLHCOOI__REBUILD_OFFSET UNITYSDK_OFFSET(0x1640E020)
 
+inline static constexpr unsigned int IGHJBLHCOOI_TypeDefinitionIndex = 75130;
+
 	class IGHJBLHCOOI
 	{
 	public:

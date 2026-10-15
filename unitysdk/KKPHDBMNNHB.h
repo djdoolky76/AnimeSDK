@@ -41,6 +41,8 @@ namespace System { class String; }
 #define KKPHDBMNNHB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E87F000)
 #define KKPHDBMNNHB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E87F060)
 
+inline static constexpr unsigned int KKPHDBMNNHB_TypeDefinitionIndex = 34596;
+
 	class KKPHDBMNNHB : public ::System::Object
 	{
 	public:

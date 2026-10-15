@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsInsertAction___O_TypeDefinitionIndex = 22565;
+
 	class ByIsInsertAction___O : public ::System::Object
 	{
 	public:

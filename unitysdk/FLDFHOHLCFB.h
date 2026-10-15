@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define FLDFHOHLCFB_SET_INDEX_OFFSET UNITYSDK_OFFSET(0xACF0)
 #define FLDFHOHLCFB_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x2E77840)
 
+inline static constexpr unsigned int FLDFHOHLCFB_TypeDefinitionIndex = 75060;
+
 	struct alignas(8) FLDFHOHLCFB
 	{
 		::RPG::Client::SwordTraining::SwordTrainingActionData* _Current_k__BackingField; // 0x10

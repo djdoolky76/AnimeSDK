@@ -8,6 +8,8 @@ namespace System { class String; }
 
 #define JNPCHAAGGGO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC7A500)
 
+inline static constexpr unsigned int JNPCHAAGGGO_TypeDefinitionIndex = 44056;
+
 	class JNPCHAAGGGO : public ::System::Object
 	{
 	public:

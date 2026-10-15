@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int PropertyNameTable_Entry_TypeDefinitionIndex = 9634;
+
 	class PropertyNameTable_Entry : public ::System::Object
 	{
 	public:

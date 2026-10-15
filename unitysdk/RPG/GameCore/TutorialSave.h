@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TutorialSave; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TutorialSave_TypeDefinitionIndex = 24360;
+
 	class TutorialSave : public ::RPG::GameCore::TaskConfig
 	{
 	public:

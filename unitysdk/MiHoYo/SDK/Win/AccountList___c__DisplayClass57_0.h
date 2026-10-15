@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int AccountList___c__DisplayClass57_0_TypeDefinitionIndex = 9296;
+
 	class AccountList___c__DisplayClass57_0 : public ::System::Object
 	{
 	public:

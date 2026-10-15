@@ -54,6 +54,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int SceneEntityInfo_TypeDefinitionIndex = 33939;
+
 	class SceneEntityInfo : public ::System::Object
 	{
 	public:

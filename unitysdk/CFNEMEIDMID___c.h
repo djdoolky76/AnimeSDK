@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CFNEMEIDMID___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0A7A70)
 #define CFNEMEIDMID___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E0A7A80)
 
+inline static constexpr unsigned int CFNEMEIDMID___c_TypeDefinitionIndex = 28929;
+
 	class CFNEMEIDMID___c : public ::System::Object
 	{
 	public:

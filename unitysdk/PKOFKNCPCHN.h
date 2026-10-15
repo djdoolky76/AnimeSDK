@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define PKOFKNCPCHN_MCEBBODDIFH_OFFSET UNITYSDK_OFFSET(0x1DD89160)
 #define PKOFKNCPCHN_PJIFLDABEAG_OFFSET UNITYSDK_OFFSET(0x1DD88F90)
 
+inline static constexpr unsigned int PKOFKNCPCHN_TypeDefinitionIndex = 6268;
+
 	class PKOFKNCPCHN : public ::System::Object
 	{
 	public:

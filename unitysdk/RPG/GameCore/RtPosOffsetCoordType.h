@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtPosOffsetCoordType_TypeDefinitionIndex = 24809;
+
 	enum class RtPosOffsetCoordType : ::System::Int32
 	{
 		Self = 0,

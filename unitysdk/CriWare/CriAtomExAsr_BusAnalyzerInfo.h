@@ -5,6 +5,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExAsr_BusAnalyzerInfo_TypeDefinitionIndex = 40005;
+
 	struct alignas(8) CriAtomExAsr_BusAnalyzerInfo
 	{
 		::System::Int32 numChannels; // 0x10

@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HFDGMMPMGIC_SET_LUAREVISION_OFFSET UNITYSDK_OFFSET(0x15C706A0)
 #define HFDGMMPMGIC_SET_LUATESTCLASSNAME_OFFSET UNITYSDK_OFFSET(0x15C706C0)
 
+inline static constexpr unsigned int HFDGMMPMGIC_TypeDefinitionIndex = 68299;
+
 	class HFDGMMPMGIC : public ::System::Object
 	{
 	public:

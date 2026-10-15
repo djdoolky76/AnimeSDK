@@ -23,6 +23,8 @@ namespace UnityEngine { class Transform; }
 #define PFPNPJDJNOB_LAPJCIBMPIH_OFFSET UNITYSDK_OFFSET(0xC219A10)
 #define PFPNPJDJNOB_MIDKKNAGOFA_OFFSET UNITYSDK_OFFSET(0xC21A990)
 
+inline static constexpr unsigned int PFPNPJDJNOB_TypeDefinitionIndex = 78953;
+
 	class PFPNPJDJNOB : public ::System::Object
 	{
 	public:

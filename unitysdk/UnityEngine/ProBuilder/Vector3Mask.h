@@ -31,6 +31,8 @@ namespace System { class String; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int Vector3Mask_TypeDefinitionIndex = 44451;
+
 	struct alignas(4) Vector3Mask
 	{
 		::System::Byte m_Mask; // 0x10

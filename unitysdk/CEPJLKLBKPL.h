@@ -11,6 +11,8 @@ namespace System { class Action; }
 #define CEPJLKLBKPL_PLOCFDOAIMG_OFFSET UNITYSDK_OFFSET(0xC9F8460)
 #define CEPJLKLBKPL_PPENAJCONBD_OFFSET UNITYSDK_OFFSET(0xC9F8590)
 
+inline static constexpr unsigned int CEPJLKLBKPL_TypeDefinitionIndex = 75675;
+
 	class CEPJLKLBKPL : public ::System::Object
 	{
 	public:

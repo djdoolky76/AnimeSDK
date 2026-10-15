@@ -6,6 +6,8 @@ class KNBMAPNNDJL;
 #define JIPCKPDMOCH_CTOR_OFFSET UNITYSDK_OFFSET(0xB1FFE30)
 #define JIPCKPDMOCH_HMPDCLHIPHI_OFFSET UNITYSDK_OFFSET(0xB1FFDC0)
 
+inline static constexpr unsigned int JIPCKPDMOCH_TypeDefinitionIndex = 56054;
+
 	class JIPCKPDMOCH : public ::System::Object
 	{
 	public:

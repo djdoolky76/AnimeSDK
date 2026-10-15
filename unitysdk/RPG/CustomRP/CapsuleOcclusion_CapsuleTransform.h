@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CapsuleOcclusion_CapsuleTransform_TypeDefinitionIndex = 51885;
+
 	class CapsuleOcclusion_CapsuleTransform : public ::System::Object
 	{
 	public:

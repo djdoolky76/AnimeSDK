@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 #define CEEHGIEOAAI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC781400)
 #define CEEHGIEOAAI_PAGDGFKJLOC_OFFSET UNITYSDK_OFFSET(0xC781FD0)
 
+inline static constexpr unsigned int CEEHGIEOAAI_TypeDefinitionIndex = 55898;
+
 	class CEEHGIEOAAI
 	{
 	public:

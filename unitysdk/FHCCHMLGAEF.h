@@ -25,6 +25,8 @@ namespace System { class String; }
 #define FHCCHMLGAEF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E387F60)
 #define FHCCHMLGAEF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E387FC0)
 
+inline static constexpr unsigned int FHCCHMLGAEF_TypeDefinitionIndex = 31942;
+
 	class FHCCHMLGAEF : public ::System::Object
 	{
 	public:

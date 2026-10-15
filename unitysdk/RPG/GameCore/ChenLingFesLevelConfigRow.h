@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingFesLevelConfigRow_TypeDefinitionIndex = 11098;
+
 	class ChenLingFesLevelConfigRow : public ::System::Object
 	{
 	public:

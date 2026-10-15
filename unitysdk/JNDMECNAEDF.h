@@ -6,6 +6,8 @@ namespace RPG::Client { class RogueTournHexInfo; }
 
 #define JNDMECNAEDF_CTOR_OFFSET UNITYSDK_OFFSET(0xB27B790)
 
+inline static constexpr unsigned int JNDMECNAEDF_TypeDefinitionIndex = 67084;
+
 	class JNDMECNAEDF : public ::EBIMENNAEIE
 	{
 	public:

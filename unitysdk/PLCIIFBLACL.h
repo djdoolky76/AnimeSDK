@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PLCIIFBLACL_CTOR_OFFSET UNITYSDK_OFFSET(0xC2ECCC0)
 #define PLCIIFBLACL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC2ECCF0)
 
+inline static constexpr unsigned int PLCIIFBLACL_TypeDefinitionIndex = 57896;
+
 	class PLCIIFBLACL
 	{
 	public:

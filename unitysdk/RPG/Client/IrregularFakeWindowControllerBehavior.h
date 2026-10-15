@@ -24,6 +24,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int IrregularFakeWindowControllerBehavior_TypeDefinitionIndex = 70861;
+
 	class IrregularFakeWindowControllerBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

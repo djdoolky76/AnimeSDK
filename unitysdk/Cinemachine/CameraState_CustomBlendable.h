@@ -6,6 +6,8 @@ namespace UnityEngine { class Object; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CameraState_CustomBlendable_TypeDefinitionIndex = 39801;
+
 	struct alignas(8) CameraState_CustomBlendable
 	{
 		::UnityEngine::Object* m_Custom; // 0x10

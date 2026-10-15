@@ -9,6 +9,8 @@ namespace MiHoYo::SDK::PluginUI { class HoYoSDKWebView_CookieInfo; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int HoYoSDKWebView___c__DisplayClass37_0_TypeDefinitionIndex = 46780;
+
 	class HoYoSDKWebView___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:

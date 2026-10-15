@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int LiveRoomIconUiData_TypeDefinitionIndex = 75428;
+
 	class LiveRoomIconUiData : public ::System::Object
 	{
 	public:

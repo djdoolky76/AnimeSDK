@@ -6,6 +6,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int FlagsAttribute_TypeDefinitionIndex = 248;
+
 	class FlagsAttribute : public ::System::Attribute
 	{
 	public:

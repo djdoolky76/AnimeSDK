@@ -11,6 +11,8 @@ class OMNGKIHLBOL;
 #define OMNGKIHLBOL_IEHHEDGLAOI_OFFSET UNITYSDK_OFFSET(0xBF34820)
 #define OMNGKIHLBOL___TRYFADEOUT_B__6_0_OFFSET UNITYSDK_OFFSET(0xBF349B0)
 
+inline static constexpr unsigned int OMNGKIHLBOL_TypeDefinitionIndex = 59913;
+
 	class OMNGKIHLBOL : public ::System::Object
 	{
 	public:

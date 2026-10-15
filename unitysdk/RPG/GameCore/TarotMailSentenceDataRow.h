@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TarotMailSentenceDataRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TarotMailSentenceDataRow_TypeDefinitionIndex = 15248;
+
 	class TarotMailSentenceDataRow : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LockCurrentTeleportAction_TypeDefinitionIndex = 21663;
+
 	class LockCurrentTeleportAction : public ::RPG::GameCore::TaskConfig
 	{
 	public:

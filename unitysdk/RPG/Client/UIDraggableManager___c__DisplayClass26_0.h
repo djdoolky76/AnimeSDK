@@ -10,6 +10,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIDraggableManager___c__DisplayClass26_0_TypeDefinitionIndex = 69091;
+
 	class UIDraggableManager___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:

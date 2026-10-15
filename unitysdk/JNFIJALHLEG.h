@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JNFIJALHLEG_CTOR_OFFSET UNITYSDK_OFFSET(0xB27EE50)
 #define JNFIJALHLEG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB27EE80)
 
+inline static constexpr unsigned int JNFIJALHLEG_TypeDefinitionIndex = 58127;
+
 	class JNFIJALHLEG
 	{
 	public:

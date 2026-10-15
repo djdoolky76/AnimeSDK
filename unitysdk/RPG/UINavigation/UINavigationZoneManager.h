@@ -47,6 +47,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::UINavigation
 {
+	inline static constexpr unsigned int UINavigationZoneManager_TypeDefinitionIndex = 51749;
+
 	class UINavigationZoneManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

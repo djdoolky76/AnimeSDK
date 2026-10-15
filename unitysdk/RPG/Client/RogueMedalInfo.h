@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMedalInfo_TypeDefinitionIndex = 67360;
+
 	class RogueMedalInfo : public ::System::Object
 	{
 	public:

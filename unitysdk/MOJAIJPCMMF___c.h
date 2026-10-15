@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define MOJAIJPCMMF___C__GET__FIXEDUPDATEACTION_B__29_0_OFFSET UNITYSDK_OFFSET(0xBA327B0)
 #define MOJAIJPCMMF___C__GET__LATEFIXEDUPDATEACTION_B__31_0_OFFSET UNITYSDK_OFFSET(0xBA327D0)
 
+inline static constexpr unsigned int MOJAIJPCMMF___c_TypeDefinitionIndex = 76932;
+
 	class MOJAIJPCMMF___c : public ::System::Object
 	{
 	public:

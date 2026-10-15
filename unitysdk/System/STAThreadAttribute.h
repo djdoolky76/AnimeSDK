@@ -6,6 +6,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int STAThreadAttribute_TypeDefinitionIndex = 336;
+
 	class STAThreadAttribute : public ::System::Attribute
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueTournModifyRoomPoolItemInsertConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournModifyRoomPoolItemInsertConfig_TypeDefinitionIndex = 18009;
+
 	class RogueTournModifyRoomPoolItemInsertConfig : public ::RPG::GameCore::RogueTournModifyRoomPoolItemConfigBase
 	{
 	public:

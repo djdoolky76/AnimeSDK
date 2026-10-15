@@ -11,6 +11,8 @@ namespace UnityEngine::ProBuilder { class Face; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int CombineMeshes___c_TypeDefinitionIndex = 44483;
+
 	class CombineMeshes___c : public ::System::Object
 	{
 	public:

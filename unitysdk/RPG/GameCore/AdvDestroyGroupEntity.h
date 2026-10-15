@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvDestroyGroupEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvDestroyGroupEntity_TypeDefinitionIndex = 20287;
+
 	class AdvDestroyGroupEntity : public ::RPG::GameCore::TaskConfig
 	{
 	public:

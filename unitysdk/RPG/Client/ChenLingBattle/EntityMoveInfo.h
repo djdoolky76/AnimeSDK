@@ -7,6 +7,8 @@ namespace RPG::Client::ChenLingBattle { class GridIndex; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int EntityMoveInfo_TypeDefinitionIndex = 76277;
+
 	class EntityMoveInfo : public ::System::Object
 	{
 	public:

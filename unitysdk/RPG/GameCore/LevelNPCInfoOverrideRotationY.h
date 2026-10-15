@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LevelNPCInfoOverrideRotationY; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelNPCInfoOverrideRotationY_TypeDefinitionIndex = 17362;
+
 	class LevelNPCInfoOverrideRotationY : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define OALGKCCHLPK_BLIHKKBFCHC_OFFSET UNITYSDK_OFFSET(0x1D24C860)
 
+inline static constexpr unsigned int OALGKCCHLPK_TypeDefinitionIndex = 10827;
+
 	class OALGKCCHLPK : public ::System::Object
 	{
 	public:

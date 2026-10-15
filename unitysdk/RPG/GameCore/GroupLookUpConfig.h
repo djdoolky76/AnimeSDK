@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GroupValueLookUpConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GroupLookUpConfig_TypeDefinitionIndex = 16387;
+
 	class GroupLookUpConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

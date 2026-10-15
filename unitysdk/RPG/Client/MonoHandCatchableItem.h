@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoHandCatchableItem_TypeDefinitionIndex = 68777;
+
 	class MonoHandCatchableItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

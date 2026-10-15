@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TaskTemplateFetchParamSequence_TypeDefinitionIndex = 23831;
+
 	class TaskTemplateFetchParamSequence : public ::RPG::GameCore::TaskConfig
 	{
 	public:

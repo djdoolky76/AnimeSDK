@@ -19,6 +19,8 @@ namespace System { class String; }
 #define GOBLMHMGCNF_SET_ORDER_OFFSET UNITYSDK_OFFSET(0x15B272A0)
 #define GOBLMHMGCNF_SET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x15B27220)
 
+inline static constexpr unsigned int GOBLMHMGCNF_TypeDefinitionIndex = 76378;
+
 	class GOBLMHMGCNF : public ::System::Object
 	{
 	public:

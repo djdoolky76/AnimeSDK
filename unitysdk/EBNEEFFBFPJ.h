@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EBNEEFFBFPJ_SET_ISSUCCESS_OFFSET UNITYSDK_OFFSET(0x12D04B00)
 #define EBNEEFFBFPJ_SET_TOTALSCORE_OFFSET UNITYSDK_OFFSET(0x12D04B20)
 
+inline static constexpr unsigned int EBNEEFFBFPJ_TypeDefinitionIndex = 61464;
+
 	class EBNEEFFBFPJ : public ::System::Object
 	{
 	public:

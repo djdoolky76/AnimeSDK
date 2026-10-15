@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int MovieGameLevelConfig_TypeDefinitionIndex = 42328;
+
 	class MovieGameLevelConfig : public ::System::Object
 	{
 	public:

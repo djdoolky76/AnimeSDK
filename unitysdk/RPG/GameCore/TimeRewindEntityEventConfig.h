@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimeRewindEntityEventConfig_TypeDefinitionIndex = 16602;
+
 	class TimeRewindEntityEventConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

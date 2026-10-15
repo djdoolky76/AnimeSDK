@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetLastKillFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetLastKillFinish_TypeDefinitionIndex = 23413;
+
 	class SetLastKillFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

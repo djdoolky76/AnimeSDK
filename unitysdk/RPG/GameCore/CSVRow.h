@@ -34,6 +34,8 @@ namespace System::IO { class TextWriter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CSVRow_TypeDefinitionIndex = 10824;
+
 	class CSVRow : public ::System::Object
 	{
 	public:

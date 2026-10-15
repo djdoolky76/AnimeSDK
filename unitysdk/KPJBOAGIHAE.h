@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KPJBOAGIHAE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8BCFA0)
 #define KPJBOAGIHAE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8BD000)
 
+inline static constexpr unsigned int KPJBOAGIHAE_TypeDefinitionIndex = 28117;
+
 	class KPJBOAGIHAE : public ::System::Object
 	{
 	public:

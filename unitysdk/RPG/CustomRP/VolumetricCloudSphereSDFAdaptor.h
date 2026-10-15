@@ -13,6 +13,8 @@ namespace UnityEngine { class VolumetricCloudSphere; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int VolumetricCloudSphereSDFAdaptor_TypeDefinitionIndex = 37737;
+
 	class VolumetricCloudSphereSDFAdaptor : public ::UnityEngine::MonoBehaviour
 	{
 	public:

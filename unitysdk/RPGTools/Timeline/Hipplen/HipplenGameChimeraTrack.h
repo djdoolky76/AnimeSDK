@@ -11,6 +11,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::Hipplen
 {
+	inline static constexpr unsigned int HipplenGameChimeraTrack_TypeDefinitionIndex = 48650;
+
 	class HipplenGameChimeraTrack : public ::RPGTools::Timeline::CustomUniqueNameTrack
 	{
 	public:

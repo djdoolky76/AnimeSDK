@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define HMKFLGIBALP__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x15D86030)
 #define HMKFLGIBALP__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x15D860F0)
 
+inline static constexpr unsigned int HMKFLGIBALP_TypeDefinitionIndex = 53464;
+
 	class HMKFLGIBALP
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FABNMKAOFMJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E31C360)
 #define FABNMKAOFMJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E31C3C0)
 
+inline static constexpr unsigned int FABNMKAOFMJ_TypeDefinitionIndex = 33575;
+
 	class FABNMKAOFMJ : public ::System::Object
 	{
 	public:

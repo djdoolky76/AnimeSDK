@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int DoorState_TypeDefinitionIndex = 43474;
+
 	enum class DoorState : ::System::Int32
 	{
 		Close = 0,

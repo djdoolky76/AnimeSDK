@@ -10,6 +10,8 @@ namespace System { class Tuple; }
 #define NPJKDMFBDFG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBD0BBB0)
 #define NPJKDMFBDFG___C__INIT_B__40_0_OFFSET UNITYSDK_OFFSET(0xBD0BBC0)
 
+inline static constexpr unsigned int NPJKDMFBDFG___c_TypeDefinitionIndex = 49429;
+
 	class NPJKDMFBDFG___c : public ::System::Object
 	{
 	public:

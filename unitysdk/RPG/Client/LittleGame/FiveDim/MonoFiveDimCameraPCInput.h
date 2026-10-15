@@ -12,6 +12,8 @@ namespace HedgehogTeam::EasyTouch { class Gesture; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int MonoFiveDimCameraPCInput_TypeDefinitionIndex = 77234;
+
 	class MonoFiveDimCameraPCInput : public ::UnityEngine::MonoBehaviour
 	{
 	public:

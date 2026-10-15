@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int AgeGateTicketUpdateModel_TypeDefinitionIndex = 7564;
+
 	class AgeGateTicketUpdateModel : public ::System::Object
 	{
 	public:

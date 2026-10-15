@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPGTools::Timeline::Discussion
 {
+	inline static constexpr unsigned int ActorArrangementBehaviour_TypeDefinitionIndex = 48785;
+
 	class ActorArrangementBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

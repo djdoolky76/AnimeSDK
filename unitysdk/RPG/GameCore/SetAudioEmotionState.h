@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetAudioEmotionState_TypeDefinitionIndex = 20751;
+
 	class SetAudioEmotionState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

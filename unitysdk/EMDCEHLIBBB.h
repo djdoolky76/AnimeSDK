@@ -4,6 +4,8 @@
 
 #define EMDCEHLIBBB_CTOR_OFFSET UNITYSDK_OFFSET(0x155309B0)
 
+inline static constexpr unsigned int EMDCEHLIBBB_TypeDefinitionIndex = 60921;
+
 	class EMDCEHLIBBB : public ::System::Object
 	{
 	public:

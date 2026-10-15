@@ -48,6 +48,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HECDKHHCFJC_PALLIKAALGA_OFFSET UNITYSDK_OFFSET(0x15C471A0)
 #define HECDKHHCFJC_PFKLHIBBOMN_OFFSET UNITYSDK_OFFSET(0x15C46650)
 
+inline static constexpr unsigned int HECDKHHCFJC_TypeDefinitionIndex = 63232;
+
 	class HECDKHHCFJC : public ::AOHCPPHPOLK
 	{
 	public:

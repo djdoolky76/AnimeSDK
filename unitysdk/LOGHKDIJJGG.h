@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SimpleTalkTargetBehavior; }
 #define LOGHKDIJJGG_KECDJEOKGCM_OFFSET UNITYSDK_OFFSET(0xB802120)
 #define LOGHKDIJJGG_LHIDCMACLDH_OFFSET UNITYSDK_OFFSET(0xB802560)
 
+inline static constexpr unsigned int LOGHKDIJJGG_TypeDefinitionIndex = 60757;
+
 	class LOGHKDIJJGG : public ::System::Object
 	{
 	public:

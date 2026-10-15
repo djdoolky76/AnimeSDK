@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AITransitionTableRow_TypeDefinitionIndex = 15486;
+
 	class AITransitionTableRow : public ::RPG::GameCore::JsonConfig
 	{
 	public:

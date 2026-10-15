@@ -40,6 +40,8 @@ namespace System { class String; }
 #define FIMBJCONBAE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E39A500)
 #define FIMBJCONBAE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E39A560)
 
+inline static constexpr unsigned int FIMBJCONBAE_TypeDefinitionIndex = 25598;
+
 	class FIMBJCONBAE : public ::System::Object
 	{
 	public:

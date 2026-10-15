@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TurnBasedGameMode; }
 #define AABBKJDNEAK_INMAMAEFECM_OFFSET UNITYSDK_OFFSET(0xB0C0E70)
 #define AABBKJDNEAK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB0C0DD0)
 
+inline static constexpr unsigned int AABBKJDNEAK_TypeDefinitionIndex = 55007;
+
 	class AABBKJDNEAK
 	{
 	public:

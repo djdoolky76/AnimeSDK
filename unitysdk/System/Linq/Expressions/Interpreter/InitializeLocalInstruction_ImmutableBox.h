@@ -11,6 +11,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int InitializeLocalInstruction_ImmutableBox_TypeDefinitionIndex = 3512;
+
 	class InitializeLocalInstruction_ImmutableBox : public ::System::Linq::Expressions::Interpreter::InitializeLocalInstruction
 	{
 	public:

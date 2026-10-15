@@ -11,6 +11,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int RadialBlurTimelineTrack_TypeDefinitionIndex = 48602;
+
 	class RadialBlurTimelineTrack : public ::RPGTools::Timeline::PostProcessing::PostProcessTimelineTrack
 	{
 	public:

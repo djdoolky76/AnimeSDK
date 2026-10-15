@@ -23,6 +23,8 @@ namespace System { class Object; }
 #define OMHCJFNGNHC_PGMEGIAGOLL_OFFSET UNITYSDK_OFFSET(0xBF2C650)
 #define OMHCJFNGNHC_TICK_OFFSET UNITYSDK_OFFSET(0xBF2BF60)
 
+inline static constexpr unsigned int OMHCJFNGNHC_TypeDefinitionIndex = 53176;
+
 	class OMHCJFNGNHC : public ::GELIALJDFBL
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PHCOGNHOOJP_PPIHIDFCDCJ_OFFSET UNITYSDK_OFFSET(0xC23AF60)
 #define PHCOGNHOOJP_SET_GRAIL_OFFSET UNITYSDK_OFFSET(0xC23A8E0)
 
+inline static constexpr unsigned int PHCOGNHOOJP_TypeDefinitionIndex = 80788;
+
 	class PHCOGNHOOJP : public ::System::Object
 	{
 	public:

@@ -73,6 +73,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Booklet_TypeDefinitionIndex = 72382;
+
 	class Booklet : public ::System::Object
 	{
 	public:

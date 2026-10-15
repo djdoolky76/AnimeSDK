@@ -39,6 +39,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TravelShipModule_TypeDefinitionIndex = 68183;
+
 	class TravelShipModule : public ::RPG::Client::BaseModule
 	{
 	public:

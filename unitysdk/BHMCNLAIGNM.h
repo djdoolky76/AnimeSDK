@@ -4,6 +4,8 @@
 
 #define BHMCNLAIGNM_CTOR_OFFSET UNITYSDK_OFFSET(0xB48F190)
 
+inline static constexpr unsigned int BHMCNLAIGNM_TypeDefinitionIndex = 48796;
+
 	class BHMCNLAIGNM : public ::ONEGHOPELAC
 	{
 	public:

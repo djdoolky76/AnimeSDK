@@ -6,6 +6,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelGraph___O_TypeDefinitionIndex = 57847;
+
 	class LevelGraph___O : public ::System::Object
 	{
 	public:

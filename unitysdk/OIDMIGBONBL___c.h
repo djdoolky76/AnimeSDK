@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define OIDMIGBONBL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4CF900)
 #define OIDMIGBONBL___C__LOAD_B__4_0_OFFSET UNITYSDK_OFFSET(0x1C4CF910)
 
+inline static constexpr unsigned int OIDMIGBONBL___c_TypeDefinitionIndex = 41533;
+
 	class OIDMIGBONBL___c : public ::System::Object
 	{
 	public:

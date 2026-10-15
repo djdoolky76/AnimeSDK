@@ -27,6 +27,8 @@ namespace System { class Nullable; }
 #define LONPBELAPJO_MOCPCLHLAHK_OFFSET UNITYSDK_OFFSET(0xB810950)
 #define LONPBELAPJO_SET_LASTVALIDDESTINATION_OFFSET UNITYSDK_OFFSET(0xB8114D0)
 
+inline static constexpr unsigned int LONPBELAPJO_TypeDefinitionIndex = 68798;
+
 	class LONPBELAPJO : public ::GPGDJDKKHNE
 	{
 	public:

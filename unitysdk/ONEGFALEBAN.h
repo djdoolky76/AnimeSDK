@@ -4,6 +4,8 @@
 #define ONEGFALEBAN_CTOR_OFFSET UNITYSDK_OFFSET(0xBF50810)
 #define ONEGFALEBAN_INITINTERNAL_OFFSET UNITYSDK_OFFSET(0xBF506B0)
 
+inline static constexpr unsigned int ONEGFALEBAN_TypeDefinitionIndex = 69740;
+
 	class ONEGFALEBAN
 	{
 	public:

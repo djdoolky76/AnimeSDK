@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BCJPCHNKDCP_KKIPKMHADAP_OFFSET UNITYSDK_OFFSET(0x162E0590)
 #define BCJPCHNKDCP_NHDBLMOHPFN_OFFSET UNITYSDK_OFFSET(0x162E03F0)
 
+inline static constexpr unsigned int BCJPCHNKDCP_TypeDefinitionIndex = 74195;
+
 	class BCJPCHNKDCP : public ::System::Object
 	{
 	public:

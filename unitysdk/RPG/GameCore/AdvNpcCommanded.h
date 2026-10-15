@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvNpcCommanded_TypeDefinitionIndex = 19995;
+
 	class AdvNpcCommanded : public ::RPG::GameCore::TaskConfig
 	{
 	public:

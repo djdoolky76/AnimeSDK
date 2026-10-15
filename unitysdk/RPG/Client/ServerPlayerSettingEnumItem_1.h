@@ -5,6 +5,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ServerPlayerSettingEnumItem_1_TypeDefinitionIndex = 66702;
+
 	template <typename T>
 	class ServerPlayerSettingEnumItem_1 : public ::RPG::Client::ServerPlayerSettingItem
 	{

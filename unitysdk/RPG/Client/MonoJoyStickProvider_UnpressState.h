@@ -10,6 +10,8 @@ namespace RPG::Client { class MonoJoyStickProvider; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoJoyStickProvider_UnpressState_TypeDefinitionIndex = 61320;
+
 	class MonoJoyStickProvider_UnpressState : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System::Threading { class CancellationTokenSource; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int CancellationToken_TypeDefinitionIndex = 798;
+
 	struct alignas(8) CancellationToken
 	{
 		::System::Threading::CancellationTokenSource* m_source; // 0x10

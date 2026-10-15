@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TrainPartyModifierListConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyModifierListConfig_TypeDefinitionIndex = 18095;
+
 	class TrainPartyModifierListConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

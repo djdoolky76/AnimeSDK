@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FinishMazePuzzleChallenge; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FinishMazePuzzleChallenge_TypeDefinitionIndex = 22010;
+
 	class FinishMazePuzzleChallenge : public ::RPG::GameCore::TaskConfig
 	{
 	public:

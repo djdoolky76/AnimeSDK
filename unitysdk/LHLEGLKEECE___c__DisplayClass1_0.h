@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 #define LHLEGLKEECE___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB6B9810)
 #define LHLEGLKEECE___C__DISPLAYCLASS1_0__LOADART_B__0_OFFSET UNITYSDK_OFFSET(0xB6BA610)
 
+inline static constexpr unsigned int LHLEGLKEECE___c__DisplayClass1_0_TypeDefinitionIndex = 57333;
+
 	class LHLEGLKEECE___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

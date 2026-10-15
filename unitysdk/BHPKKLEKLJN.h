@@ -10,6 +10,8 @@ namespace System { class String; }
 #define BHPKKLEKLJN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D805AA0)
 #define BHPKKLEKLJN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D805A60)
 
+inline static constexpr unsigned int BHPKKLEKLJN_TypeDefinitionIndex = 21510;
+
 	class BHPKKLEKLJN : public ::RPG::GameCore::TaskConfig
 	{
 	public:

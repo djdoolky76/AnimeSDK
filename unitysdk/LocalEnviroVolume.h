@@ -20,6 +20,8 @@ namespace UnityEngine { class Texture2D; }
 #define LOCALENVIROVOLUME_START_OFFSET UNITYSDK_OFFSET(0xB83AE30)
 #define LOCALENVIROVOLUME_UPDATE_OFFSET UNITYSDK_OFFSET(0xB83B900)
 
+inline static constexpr unsigned int LocalEnviroVolume_TypeDefinitionIndex = 47468;
+
 	class LocalEnviroVolume : public ::UnityEngine::MonoBehaviour
 	{
 	public:

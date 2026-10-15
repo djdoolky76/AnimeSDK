@@ -7,6 +7,8 @@
 
 namespace Unity::IL2CPP::CompilerServices
 {
+	inline static constexpr unsigned int Il2CppMethodImplAttribute_TypeDefinitionIndex = 3976;
+
 	class Il2CppMethodImplAttribute : public ::System::Attribute
 	{
 	public:

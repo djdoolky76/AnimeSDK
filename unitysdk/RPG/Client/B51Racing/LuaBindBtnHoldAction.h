@@ -15,6 +15,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int LuaBindBtnHoldAction_TypeDefinitionIndex = 81756;
+
 	class LuaBindBtnHoldAction : public ::System::MulticastDelegate
 	{
 	public:

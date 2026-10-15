@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TitanAtlasVoiceInfo_TypeDefinitionIndex = 68146;
+
 	class TitanAtlasVoiceInfo : public ::System::Object
 	{
 	public:

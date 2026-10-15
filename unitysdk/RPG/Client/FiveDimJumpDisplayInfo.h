@@ -18,6 +18,8 @@ namespace RPG::Client { class FiveDimJumpDisplayInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FiveDimJumpDisplayInfo_TypeDefinitionIndex = 64215;
+
 	class FiveDimJumpDisplayInfo : public ::System::Object
 	{
 	public:

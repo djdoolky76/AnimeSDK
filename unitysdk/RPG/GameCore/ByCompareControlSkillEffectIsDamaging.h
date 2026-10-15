@@ -16,6 +16,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareControlSkillEffectIsDamaging_TypeDefinitionIndex = 23025;
+
 	class ByCompareControlSkillEffectIsDamaging : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

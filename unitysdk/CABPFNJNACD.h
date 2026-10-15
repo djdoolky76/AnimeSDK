@@ -25,6 +25,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define CABPFNJNACD_SET_STYLEID_OFFSET UNITYSDK_OFFSET(0xC1BCFC0)
 #define CABPFNJNACD_SET_STYLELEVEL_OFFSET UNITYSDK_OFFSET(0xC1BCFE0)
 
+inline static constexpr unsigned int CABPFNJNACD_TypeDefinitionIndex = 56016;
+
 	class CABPFNJNACD : public ::EGPLHHDBEIP
 	{
 	public:

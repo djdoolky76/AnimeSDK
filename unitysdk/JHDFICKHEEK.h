@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChimeraSetAttachPointActive; }
 #define JHDFICKHEEK_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xB1AA430)
 #define JHDFICKHEEK_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB1AA470)
 
+inline static constexpr unsigned int JHDFICKHEEK_TypeDefinitionIndex = 78417;
+
 	class JHDFICKHEEK : public ::System::Object
 	{
 	public:

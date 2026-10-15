@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightActionRemoveRoleConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightActionRemoveRoleConfig_TypeDefinitionIndex = 19312;
+
 	class GridFightActionRemoveRoleConfig : public ::RPG::GameCore::GridFightActionConfigBase
 	{
 	public:

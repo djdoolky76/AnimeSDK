@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirEquipAssembleViewModel___c_TypeDefinitionIndex = 79254;
+
 	class PixAirEquipAssembleViewModel___c : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define EAJJPEJCOJO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x12680C00)
 #define EAJJPEJCOJO___C___MERGENAVNODE_B__16_0_OFFSET UNITYSDK_OFFSET(0x12680C10)
 
+inline static constexpr unsigned int EAJJPEJCOJO___c_TypeDefinitionIndex = 74563;
+
 	class EAJJPEJCOJO___c : public ::System::Object
 	{
 	public:

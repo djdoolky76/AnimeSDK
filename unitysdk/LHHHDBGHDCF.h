@@ -40,6 +40,8 @@ namespace System { class String; }
 #define LHHHDBGHDCF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E960F50)
 #define LHHHDBGHDCF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E960FB0)
 
+inline static constexpr unsigned int LHHHDBGHDCF_TypeDefinitionIndex = 26466;
+
 	class LHHHDBGHDCF : public ::System::Object
 	{
 	public:

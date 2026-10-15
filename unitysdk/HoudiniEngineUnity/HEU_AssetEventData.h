@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_AssetEventData_TypeDefinitionIndex = 40356;
+
 	class HEU_AssetEventData : public ::System::Object
 	{
 	public:

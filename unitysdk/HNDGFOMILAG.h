@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HNDGFOMILAG_MAFMOPJDFIH_OFFSET UNITYSDK_OFFSET(0x15D8D940)
 #define HNDGFOMILAG_MJGKNFEILLI_OFFSET UNITYSDK_OFFSET(0x15D8D990)
 
+inline static constexpr unsigned int HNDGFOMILAG_TypeDefinitionIndex = 78107;
+
 	class HNDGFOMILAG : public ::System::Object
 	{
 	public:

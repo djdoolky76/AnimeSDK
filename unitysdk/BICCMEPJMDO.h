@@ -32,6 +32,8 @@ namespace System { class String; }
 #define BICCMEPJMDO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDFF5E0)
 #define BICCMEPJMDO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDFF640)
 
+inline static constexpr unsigned int BICCMEPJMDO_TypeDefinitionIndex = 28544;
+
 	class BICCMEPJMDO : public ::System::Object
 	{
 	public:

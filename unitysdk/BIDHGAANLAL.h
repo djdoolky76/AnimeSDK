@@ -18,6 +18,8 @@ namespace System { class String; }
 #define BIDHGAANLAL_SET_NAME_OFFSET UNITYSDK_OFFSET(0xB4A2250)
 #define BIDHGAANLAL_SET_UISTATE_OFFSET UNITYSDK_OFFSET(0xB4A2270)
 
+inline static constexpr unsigned int BIDHGAANLAL_TypeDefinitionIndex = 81086;
+
 	class BIDHGAANLAL : public ::System::Object
 	{
 	public:

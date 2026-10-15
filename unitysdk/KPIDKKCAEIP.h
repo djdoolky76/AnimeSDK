@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KPIDKKCAEIP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D0CAD30)
 #define KPIDKKCAEIP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0CB1E0)
 
+inline static constexpr unsigned int KPIDKKCAEIP_TypeDefinitionIndex = 15169;
+
 	class KPIDKKCAEIP : public ::System::Object
 	{
 	public:

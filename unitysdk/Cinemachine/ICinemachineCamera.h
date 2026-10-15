@@ -3,6 +3,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int ICinemachineCamera_TypeDefinitionIndex = 39838;
+
 	class ICinemachineCamera
 	{
 	public:

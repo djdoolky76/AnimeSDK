@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BIHPOFMBDEG_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D807940)
 #define BIHPOFMBDEG_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D8072A0)
 
+inline static constexpr unsigned int BIHPOFMBDEG_TypeDefinitionIndex = 15038;
+
 	class BIHPOFMBDEG : public ::System::Object
 	{
 	public:

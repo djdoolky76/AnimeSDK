@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitRogueFinishDialogue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitRogueFinishDialogue_TypeDefinitionIndex = 20489;
+
 	class WaitRogueFinishDialogue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

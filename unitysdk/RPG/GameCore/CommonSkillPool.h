@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CommonSkillPool_TypeDefinitionIndex = 18150;
+
 	class CommonSkillPool : public ::RPG::GameCore::JsonConfig
 	{
 	public:

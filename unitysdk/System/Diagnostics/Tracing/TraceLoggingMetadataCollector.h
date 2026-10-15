@@ -27,6 +27,8 @@ namespace System::Diagnostics::Tracing { class TraceLoggingMetadataCollector_Imp
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int TraceLoggingMetadataCollector_TypeDefinitionIndex = 1669;
+
 	class TraceLoggingMetadataCollector : public ::System::Object
 	{
 	public:

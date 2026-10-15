@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeEnemySwitchTipEffect_TypeDefinitionIndex = 65930;
+
 	class MatchThreeEnemySwitchTipEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

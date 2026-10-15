@@ -27,6 +27,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace RPGTools
 {
+	inline static constexpr unsigned int DeviceMemory_TypeDefinitionIndex = 46927;
+
 	class DeviceMemory : public ::System::Object
 	{
 	public:

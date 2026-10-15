@@ -4,6 +4,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AtomicObject_1_TypeDefinitionIndex = 59615;
+
 	template <typename T>
 	class AtomicObject_1 : public ::System::Object
 	{

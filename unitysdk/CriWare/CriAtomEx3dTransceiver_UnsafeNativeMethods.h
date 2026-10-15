@@ -29,6 +29,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomEx3dTransceiver_UnsafeNativeMethods_TypeDefinitionIndex = 40015;
+
 	class CriAtomEx3dTransceiver_UnsafeNativeMethods : public ::System::Object
 	{
 	public:

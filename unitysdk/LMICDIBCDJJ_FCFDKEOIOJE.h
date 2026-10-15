@@ -4,6 +4,8 @@
 
 #define LMICDIBCDJJ_FCFDKEOIOJE_CCTOR_OFFSET UNITYSDK_OFFSET(0xB784AE0)
 
+inline static constexpr unsigned int LMICDIBCDJJ_FCFDKEOIOJE_TypeDefinitionIndex = 73715;
+
 	class LMICDIBCDJJ_FCFDKEOIOJE : public ::System::Object
 	{
 	public:

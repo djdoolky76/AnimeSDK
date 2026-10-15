@@ -6,6 +6,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics
 {
+	inline static constexpr unsigned int PhysicsCollider2DConfig_TypeDefinitionIndex = 36565;
+
 	class PhysicsCollider2DConfig : public ::System::Object
 	{
 	public:

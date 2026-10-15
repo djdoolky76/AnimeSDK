@@ -3,6 +3,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExVoicePool_PlayerConfig_TypeDefinitionIndex = 40074;
+
 	struct alignas(4) CriAtomExVoicePool_PlayerConfig
 	{
 		::System::Int32 maxChannels; // 0x10

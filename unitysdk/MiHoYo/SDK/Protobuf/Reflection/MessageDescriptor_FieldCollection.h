@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int MessageDescriptor_FieldCollection_TypeDefinitionIndex = 35839;
+
 	class MessageDescriptor_FieldCollection : public ::System::Object
 	{
 	public:

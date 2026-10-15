@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 #define BNHJFKGEGNL_KAGICIAJEEA_OFFSET UNITYSDK_OFFSET(0xBDDA630)
 #define BNHJFKGEGNL_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xBDDA410)
 
+inline static constexpr unsigned int BNHJFKGEGNL_TypeDefinitionIndex = 79090;
+
 	class BNHJFKGEGNL : public ::System::Object
 	{
 	public:

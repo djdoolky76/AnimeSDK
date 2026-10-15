@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SwordTrainingSameRankSkill_TypeDefinitionIndex = 61976;
+
 	struct alignas(8) SwordTrainingSameRankSkill
 	{
 		::System::UInt32 SkillRank; // 0x10

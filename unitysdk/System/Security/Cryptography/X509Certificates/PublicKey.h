@@ -20,6 +20,8 @@ namespace System::Security::Cryptography { class RSA; }
 
 namespace System::Security::Cryptography::X509Certificates
 {
+	inline static constexpr unsigned int PublicKey_TypeDefinitionIndex = 2689;
+
 	class PublicKey : public ::System::Object
 	{
 	public:

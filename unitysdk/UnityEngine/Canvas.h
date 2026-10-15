@@ -72,6 +72,8 @@ namespace UnityEngine { class Texture; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Canvas_TypeDefinitionIndex = 6026;
+
 	class Canvas : public ::UnityEngine::Behaviour
 	{
 	public:

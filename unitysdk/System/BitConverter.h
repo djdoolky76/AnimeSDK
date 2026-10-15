@@ -33,6 +33,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int BitConverter_TypeDefinitionIndex = 204;
+
 	class BitConverter : public ::System::Object
 	{
 	public:

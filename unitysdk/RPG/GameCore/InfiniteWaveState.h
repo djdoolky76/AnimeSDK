@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InfiniteWaveState_TypeDefinitionIndex = 57590;
+
 	enum class InfiniteWaveState : ::System::Int32
 	{
 		Ready = 0,

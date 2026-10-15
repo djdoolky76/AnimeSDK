@@ -12,6 +12,8 @@ namespace System { class String; }
 #define BPCHFOKFLAB_METHOD_6_OFFSET UNITYSDK_OFFSET(0xC19F880)
 #define BPCHFOKFLAB_METHOD_OFFSET UNITYSDK_OFFSET(0xC19F380)
 
+inline static constexpr unsigned int BPCHFOKFLAB_TypeDefinitionIndex = 71157;
+
 	class BPCHFOKFLAB : public ::System::Object
 	{
 	public:

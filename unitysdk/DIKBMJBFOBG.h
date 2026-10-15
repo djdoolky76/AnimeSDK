@@ -13,6 +13,8 @@ namespace System { class String; }
 #define DIKBMJBFOBG_GET_REGIONID_OFFSET UNITYSDK_OFFSET(0xACE0)
 #define DIKBMJBFOBG_GET_SLOT_OFFSET UNITYSDK_OFFSET(0x3260)
 
+inline static constexpr unsigned int DIKBMJBFOBG_TypeDefinitionIndex = 62156;
+
 	struct alignas(8) DIKBMJBFOBG
 	{
 		::System::String* _BlockName_k__BackingField; // 0x10

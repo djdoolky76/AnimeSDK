@@ -12,6 +12,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SkirtIKConfig_Runtime_TypeDefinitionIndex = 68379;
+
 	class SkirtIKConfig_Runtime : public ::UnityEngine::ScriptableObject
 	{
 	public:

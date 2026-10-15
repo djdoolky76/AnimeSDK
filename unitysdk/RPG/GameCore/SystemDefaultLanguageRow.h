@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SystemDefaultLanguageRow_TypeDefinitionIndex = 12652;
+
 	class SystemDefaultLanguageRow : public ::System::Object
 	{
 	public:

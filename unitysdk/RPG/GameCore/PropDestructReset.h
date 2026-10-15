@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropDestructReset_TypeDefinitionIndex = 20179;
+
 	class PropDestructReset : public ::RPG::GameCore::TaskConfig
 	{
 	public:

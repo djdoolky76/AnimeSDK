@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActRemoveRogueMiracleAndModifyBlackboardCon
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActRemoveRogueMiracleAndModifyBlackboardConfig_TypeDefinitionIndex = 19608;
+
 	class RogueActRemoveRogueMiracleAndModifyBlackboardConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

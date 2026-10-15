@@ -29,6 +29,8 @@ namespace System { class String; }
 #define BKIKOGNAECK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF591C0)
 #define BKIKOGNAECK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF59220)
 
+inline static constexpr unsigned int BKIKOGNAECK_TypeDefinitionIndex = 29298;
+
 	class BKIKOGNAECK : public ::System::Object
 	{
 	public:

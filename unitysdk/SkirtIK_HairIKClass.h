@@ -9,6 +9,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define SKIRTIK_HAIRIKCLASS_CTOR_OFFSET UNITYSDK_OFFSET(0xE972D80)
 #define SKIRTIK_HAIRIKCLASS_GPOHHLEEMKC_OFFSET UNITYSDK_OFFSET(0xE972D00)
 
+inline static constexpr unsigned int SkirtIK_HairIKClass_TypeDefinitionIndex = 47257;
+
 	class SkirtIK_HairIKClass : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 #define OODMOIBKGCP___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBF74CA0)
 #define OODMOIBKGCP___C__DISPLAYCLASS11_0__CREATEBOARD_B__0_OFFSET UNITYSDK_OFFSET(0xBF79760)
 
+inline static constexpr unsigned int OODMOIBKGCP___c__DisplayClass11_0_TypeDefinitionIndex = 76657;
+
 	class OODMOIBKGCP___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

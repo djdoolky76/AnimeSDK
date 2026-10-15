@@ -28,6 +28,8 @@ namespace System { class Object; }
 
 namespace Spine::Unity::Playables
 {
+	inline static constexpr unsigned int SpineAnimationStateMixerBehaviour_TypeDefinitionIndex = 45910;
+
 	class SpineAnimationStateMixerBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

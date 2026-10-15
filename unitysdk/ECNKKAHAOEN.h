@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ECNKKAHAOEN_NLCBLNNGOCH_OFFSET UNITYSDK_OFFSET(0x12D160F0)
 #define ECNKKAHAOEN_SET_PHASEID_OFFSET UNITYSDK_OFFSET(0x12D16150)
 
+inline static constexpr unsigned int ECNKKAHAOEN_TypeDefinitionIndex = 56934;
+
 	class ECNKKAHAOEN : public ::System::Object
 	{
 	public:

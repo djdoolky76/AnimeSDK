@@ -8,6 +8,8 @@ namespace RPG::Client { class MainMissionData; }
 #define PDKEDIMFBGI_LCKGCJLDOHL_OFFSET UNITYSDK_OFFSET(0xC01E290)
 #define PDKEDIMFBGI_NKMINGBFCKM_OFFSET UNITYSDK_OFFSET(0xC01E560)
 
+inline static constexpr unsigned int PDKEDIMFBGI_TypeDefinitionIndex = 66184;
+
 	class PDKEDIMFBGI : public ::System::Object
 	{
 	public:

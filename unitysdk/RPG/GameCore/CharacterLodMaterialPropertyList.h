@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CharacterLodMaterialPropertyList; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterLodMaterialPropertyList_TypeDefinitionIndex = 19101;
+
 	class CharacterLodMaterialPropertyList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int TimeSpanParse_TimeSpanToken_TypeDefinitionIndex = 776;
+
 	struct alignas(8) TimeSpanParse_TimeSpanToken
 	{
 		::System::Globalization::TimeSpanParse_TTT ttt; // 0x10

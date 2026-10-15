@@ -26,6 +26,8 @@ namespace System { class Object; }
 #define GPLMEFBGGGM_ODNOFEEJHLF_OFFSET UNITYSDK_OFFSET(0x15B5F9A0)
 #define GPLMEFBGGGM_PKLAGKDNDPD_OFFSET UNITYSDK_OFFSET(0x15B5F830)
 
+inline static constexpr unsigned int GPLMEFBGGGM_TypeDefinitionIndex = 60760;
+
 	class GPLMEFBGGGM : public ::System::Object
 	{
 	public:

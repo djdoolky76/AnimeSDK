@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AvatarBaseType.h"
 
+inline static constexpr unsigned int FOMHMBKPEDB_EAODHPPGPNO_TypeDefinitionIndex = 59043;
+
 	struct alignas(4) FOMHMBKPEDB_EAODHPPGPNO
 	{
 		::System::UInt32 AAGKEBFHLMC; // 0x10

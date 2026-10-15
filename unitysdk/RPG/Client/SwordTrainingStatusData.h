@@ -17,6 +17,8 @@ namespace RPG::GameCore { class SwordTrainingStatusRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SwordTrainingStatusData_TypeDefinitionIndex = 61984;
+
 	class SwordTrainingStatusData : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define JJEFLBCLBFN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E759270)
 #define JJEFLBCLBFN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7592D0)
 
+inline static constexpr unsigned int JJEFLBCLBFN_TypeDefinitionIndex = 30466;
+
 	class JJEFLBCLBFN : public ::System::Object
 	{
 	public:

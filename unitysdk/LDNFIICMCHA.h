@@ -41,6 +41,8 @@ namespace System { class String; }
 #define LDNFIICMCHA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8FEC00)
 #define LDNFIICMCHA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8FEC60)
 
+inline static constexpr unsigned int LDNFIICMCHA_TypeDefinitionIndex = 27046;
+
 	class LDNFIICMCHA : public ::System::Object
 	{
 	public:

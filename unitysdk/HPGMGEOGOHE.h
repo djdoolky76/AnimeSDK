@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HPGMGEOGOHE_IJPCANPOACH_OFFSET UNITYSDK_OFFSET(0x15DC7150)
 #define HPGMGEOGOHE_PNOKNPFACNE_OFFSET UNITYSDK_OFFSET(0x15DC6AE0)
 
+inline static constexpr unsigned int HPGMGEOGOHE_TypeDefinitionIndex = 79341;
+
 	class HPGMGEOGOHE : public ::System::Object
 	{
 	public:

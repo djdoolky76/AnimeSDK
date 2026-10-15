@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FontType_TypeDefinitionIndex = 72565;
+
 	enum class FontType : ::System::Int32
 	{
 		Default = 0,

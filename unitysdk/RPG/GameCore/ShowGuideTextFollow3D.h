@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowGuideTextFollow3D_TypeDefinitionIndex = 24340;
+
 	class ShowGuideTextFollow3D : public ::RPG::GameCore::TaskConfig
 	{
 	public:

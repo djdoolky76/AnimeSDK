@@ -21,6 +21,8 @@ namespace System { class String; }
 #define DFGLKHAAGJB_SET_SKILLTYPE_OFFSET UNITYSDK_OFFSET(0xE82D610)
 #define DFGLKHAAGJB_SET_VIDEOID_OFFSET UNITYSDK_OFFSET(0xE82D5F0)
 
+inline static constexpr unsigned int DFGLKHAAGJB_TypeDefinitionIndex = 79033;
+
 	class DFGLKHAAGJB : public ::System::Object
 	{
 	public:

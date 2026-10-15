@@ -21,6 +21,8 @@ namespace System { class String; }
 #define PKONCMDMODF_OHMHJFANEIF_OFFSET UNITYSDK_OFFSET(0xC2EBA20)
 #define PKONCMDMODF_PIPALCIFPAO_OFFSET UNITYSDK_OFFSET(0xC2EC0E0)
 
+inline static constexpr unsigned int PKONCMDMODF_TypeDefinitionIndex = 61229;
+
 	class PKONCMDMODF : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ class DFBAHCICJNE;
 #define OBPJIBCAKEK___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4C92F0)
 #define OBPJIBCAKEK___C__DISPLAYCLASS19_0__GETBLOCKITEMBYNAMEORHASH_B__0_OFFSET UNITYSDK_OFFSET(0x1C4CC390)
 
+inline static constexpr unsigned int OBPJIBCAKEK___c__DisplayClass19_0_TypeDefinitionIndex = 41424;
+
 	class OBPJIBCAKEK___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:

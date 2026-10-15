@@ -19,6 +19,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Toast_TypeDefinitionIndex = 8228;
+
 	class Toast : public ::MiHoYo::SDK::UIElement
 	{
 	public:

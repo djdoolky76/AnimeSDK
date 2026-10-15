@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageSettleInfo_TypeDefinitionIndex = 61442;
+
 	class StageSettleInfo : public ::System::Object
 	{
 	public:

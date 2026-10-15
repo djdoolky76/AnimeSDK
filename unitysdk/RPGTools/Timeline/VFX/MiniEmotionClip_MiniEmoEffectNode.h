@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int MiniEmotionClip_MiniEmoEffectNode_TypeDefinitionIndex = 48660;
+
 	class MiniEmotionClip_MiniEmoEffectNode : public ::System::Object
 	{
 	public:

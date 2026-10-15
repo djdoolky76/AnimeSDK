@@ -10,6 +10,8 @@ namespace RPG::Client::CakeRace { class CakeRacePerformanceDataItem; }
 #define INEPEPBFMFG_CTOR_OFFSET UNITYSDK_OFFSET(0x164E9960)
 #define INEPEPBFMFG_HLOGMBDGPCC_OFFSET UNITYSDK_OFFSET(0x164E9970)
 
+inline static constexpr unsigned int INEPEPBFMFG_TypeDefinitionIndex = 78103;
+
 	class INEPEPBFMFG : public ::JIPBOGKHKBE
 	{
 	public:

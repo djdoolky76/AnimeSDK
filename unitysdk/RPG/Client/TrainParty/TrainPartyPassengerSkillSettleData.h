@@ -8,6 +8,8 @@ namespace RPG::Client::TrainParty { class TrainPartyPassengerSkillInfo; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyPassengerSkillSettleData_TypeDefinitionIndex = 74353;
+
 	class TrainPartyPassengerSkillSettleData : public ::System::Object
 	{
 	public:

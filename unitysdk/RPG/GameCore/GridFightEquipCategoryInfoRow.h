@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GridFightEquipCategoryInfoRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightEquipCategoryInfoRow_TypeDefinitionIndex = 13453;
+
 	class GridFightEquipCategoryInfoRow : public ::System::Object
 	{
 	public:

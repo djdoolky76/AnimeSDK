@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PIMNGBAMMAM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF6F640)
 #define PIMNGBAMMAM___C___CCTOR_B__78_0_OFFSET UNITYSDK_OFFSET(0x1DF6F650)
 
+inline static constexpr unsigned int PIMNGBAMMAM___c_TypeDefinitionIndex = 25069;
+
 	class PIMNGBAMMAM___c : public ::System::Object
 	{
 	public:

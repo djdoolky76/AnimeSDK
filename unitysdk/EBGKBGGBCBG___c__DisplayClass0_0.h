@@ -8,6 +8,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define EBGKBGGBCBG___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C54FE30)
 #define EBGKBGGBCBG___C__DISPLAYCLASS0_0__DETERMINE_B__0_OFFSET UNITYSDK_OFFSET(0x1C550000)
 
+inline static constexpr unsigned int EBGKBGGBCBG___c__DisplayClass0_0_TypeDefinitionIndex = 41892;
+
 	class EBGKBGGBCBG___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

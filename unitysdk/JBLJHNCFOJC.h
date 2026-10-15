@@ -8,6 +8,8 @@ namespace RPG::GameCore { class SkillExtensionComplexSkillAIConfig; }
 #define JBLJHNCFOJC_FKMJJNGEBIN_OFFSET UNITYSDK_OFFSET(0x16572790)
 #define JBLJHNCFOJC_JHMFMFHFAIG_OFFSET UNITYSDK_OFFSET(0x165726B0)
 
+inline static constexpr unsigned int JBLJHNCFOJC_TypeDefinitionIndex = 57681;
+
 	struct alignas(8) JBLJHNCFOJC
 	{
 		::System::Boolean EJKOCMLIKKF; // 0x10

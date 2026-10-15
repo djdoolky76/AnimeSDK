@@ -28,6 +28,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Sofa
 {
+	inline static constexpr unsigned int ShortCutHintControl_TypeDefinitionIndex = 49689;
+
 	class ShortCutHintControl : public ::Sofa::BaseSofaControl
 	{
 	public:

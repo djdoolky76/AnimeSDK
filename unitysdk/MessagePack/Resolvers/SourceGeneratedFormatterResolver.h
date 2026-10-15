@@ -11,6 +11,8 @@ namespace System::Reflection { class Assembly; }
 
 namespace MessagePack::Resolvers
 {
+	inline static constexpr unsigned int SourceGeneratedFormatterResolver_TypeDefinitionIndex = 7272;
+
 	class SourceGeneratedFormatterResolver : public ::System::Object
 	{
 	public:

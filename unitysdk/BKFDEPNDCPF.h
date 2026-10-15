@@ -11,6 +11,8 @@ namespace System::ComponentModel { class PropertyChangedEventArgs; }
 #define BKFDEPNDCPF__CHECKNEEDREBUILD_OFFSET UNITYSDK_OFFSET(0xB7B09E0)
 #define BKFDEPNDCPF__REBUILD_OFFSET UNITYSDK_OFFSET(0xB7AFF20)
 
+inline static constexpr unsigned int BKFDEPNDCPF_TypeDefinitionIndex = 75136;
+
 	class BKFDEPNDCPF
 	{
 	public:

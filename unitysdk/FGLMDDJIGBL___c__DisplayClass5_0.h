@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FGLMDDJIGBL___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15769690)
 #define FGLMDDJIGBL___C__DISPLAYCLASS5_0___EVALUATEARESELECTIONSEQUAL_B__0_OFFSET UNITYSDK_OFFSET(0x157696A0)
 
+inline static constexpr unsigned int FGLMDDJIGBL___c__DisplayClass5_0_TypeDefinitionIndex = 77576;
+
 	class FGLMDDJIGBL___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System { class String; }
 #define MEKNFEPEBEB_MEMLMMLJFLO_OFFSET UNITYSDK_OFFSET(0xB8DD560)
 #define MEKNFEPEBEB_NPCLLIBPMDD_OFFSET UNITYSDK_OFFSET(0xB8DD160)
 
+inline static constexpr unsigned int MEKNFEPEBEB_TypeDefinitionIndex = 81195;
+
 	class MEKNFEPEBEB : public ::System::Object
 	{
 	public:

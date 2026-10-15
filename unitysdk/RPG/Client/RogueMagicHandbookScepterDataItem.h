@@ -25,6 +25,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMagicHandbookScepterDataItem_TypeDefinitionIndex = 67404;
+
 	class RogueMagicHandbookScepterDataItem : public ::System::Object
 	{
 	public:

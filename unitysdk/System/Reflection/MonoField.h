@@ -37,6 +37,8 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int MonoField_TypeDefinitionIndex = 619;
+
 	class MonoField : public ::System::Reflection::RtFieldInfo
 	{
 	public:

@@ -11,6 +11,8 @@ namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncE
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int EveryUpdate_TypeDefinitionIndex = 45712;
+
 	class EveryUpdate : public ::System::Object
 	{
 	public:

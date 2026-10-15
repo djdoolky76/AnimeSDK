@@ -31,6 +31,8 @@ namespace System { class String; }
 #define PFBCBNMKFAK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF21AE0)
 #define PFBCBNMKFAK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF21B40)
 
+inline static constexpr unsigned int PFBCBNMKFAK_TypeDefinitionIndex = 29241;
+
 	class PFBCBNMKFAK : public ::System::Object
 	{
 	public:

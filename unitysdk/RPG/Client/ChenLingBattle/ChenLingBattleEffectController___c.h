@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int ChenLingBattleEffectController___c_TypeDefinitionIndex = 76403;
+
 	class ChenLingBattleEffectController___c : public ::System::Object
 	{
 	public:

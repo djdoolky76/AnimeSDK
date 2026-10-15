@@ -7,6 +7,8 @@ namespace RPG::GameCore { class ChenLingBattleAnimEventConfig; }
 #define KICPKKFAIBC___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB41B2B0)
 #define KICPKKFAIBC___C__DISPLAYCLASS12_0___TRYAPPLYEVENT_B__0_OFFSET UNITYSDK_OFFSET(0xB41B570)
 
+inline static constexpr unsigned int KICPKKFAIBC___c__DisplayClass12_0_TypeDefinitionIndex = 77912;
+
 	class KICPKKFAIBC___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

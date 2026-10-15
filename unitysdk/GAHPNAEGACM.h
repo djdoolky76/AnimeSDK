@@ -6,6 +6,8 @@ class GEDMHFPPBHN;
 
 #define GAHPNAEGACM_CTOR_OFFSET UNITYSDK_OFFSET(0x1593C290)
 
+inline static constexpr unsigned int GAHPNAEGACM_TypeDefinitionIndex = 71200;
+
 	class GAHPNAEGACM : public ::System::Object
 	{
 	public:

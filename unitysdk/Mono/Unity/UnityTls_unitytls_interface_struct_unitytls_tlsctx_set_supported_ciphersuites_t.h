@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace Mono::Unity
 {
+	inline static constexpr unsigned int UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_supported_ciphersuites_t_TypeDefinitionIndex = 2392;
+
 	class UnityTls_unitytls_interface_struct_unitytls_tlsctx_set_supported_ciphersuites_t : public ::System::MulticastDelegate
 	{
 	public:

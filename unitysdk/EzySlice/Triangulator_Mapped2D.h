@@ -9,6 +9,8 @@
 
 namespace EzySlice
 {
+	inline static constexpr unsigned int Triangulator_Mapped2D_TypeDefinitionIndex = 47003;
+
 	struct alignas(4) Triangulator_Mapped2D
 	{
 		::UnityEngine::Vector3 original; // 0x10

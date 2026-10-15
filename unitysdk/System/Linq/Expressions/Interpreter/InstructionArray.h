@@ -10,6 +10,8 @@ namespace System::Linq::Expressions::Interpreter { class Instruction; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int InstructionArray_TypeDefinitionIndex = 3435;
+
 	struct alignas(8) InstructionArray
 	{
 		::System::Int32 MaxStackDepth; // 0x10

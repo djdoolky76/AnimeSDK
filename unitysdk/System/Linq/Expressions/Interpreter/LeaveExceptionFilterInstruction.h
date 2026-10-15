@@ -13,6 +13,8 @@ namespace System::Linq::Expressions::Interpreter { class LeaveExceptionFilterIns
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int LeaveExceptionFilterInstruction_TypeDefinitionIndex = 3335;
+
 	class LeaveExceptionFilterInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:

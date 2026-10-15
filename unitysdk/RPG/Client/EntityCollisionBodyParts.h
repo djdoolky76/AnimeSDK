@@ -23,6 +23,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EntityCollisionBodyParts_TypeDefinitionIndex = 68414;
+
 	class EntityCollisionBodyParts : public ::UnityEngine::MonoBehaviour
 	{
 	public:

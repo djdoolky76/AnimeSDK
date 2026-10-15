@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddReShaReactProp_TypeDefinitionIndex = 22033;
+
 	class AddReShaReactProp : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvRemoveEffectList_TypeDefinitionIndex = 22318;
+
 	class AdvRemoveEffectList : public ::RPG::GameCore::TaskConfig
 	{
 	public:

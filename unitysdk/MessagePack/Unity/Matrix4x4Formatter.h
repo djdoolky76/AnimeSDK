@@ -12,6 +12,8 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Unity
 {
+	inline static constexpr unsigned int Matrix4x4Formatter_TypeDefinitionIndex = 10129;
+
 	class Matrix4x4Formatter : public ::System::Object
 	{
 	public:

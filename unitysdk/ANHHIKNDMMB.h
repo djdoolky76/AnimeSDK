@@ -13,6 +13,8 @@ namespace System { class String; }
 #define ANHHIKNDMMB_SET_PLAYERNAME_OFFSET UNITYSDK_OFFSET(0x15597120)
 #define ANHHIKNDMMB_SET_PLAYEROUTFIT_OFFSET UNITYSDK_OFFSET(0x15597160)
 
+inline static constexpr unsigned int ANHHIKNDMMB_TypeDefinitionIndex = 62732;
+
 	class ANHHIKNDMMB : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RVO
 {
+	inline static constexpr unsigned int Agent_TypeDefinitionIndex = 46026;
+
 	class Agent : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ class OJHHACMHFKA;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesMiddleBonusEventData_TypeDefinitionIndex = 66553;
+
 	class PlanetFesMiddleBonusEventData : public ::RPG::Client::PlanetFesBonusEventData
 	{
 	public:

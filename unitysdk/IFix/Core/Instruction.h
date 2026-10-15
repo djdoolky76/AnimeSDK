@@ -4,6 +4,8 @@
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int Instruction_TypeDefinitionIndex = 7111;
+
 	struct alignas(4) Instruction
 	{
 		::IFix::Core::Code Code; // 0x10

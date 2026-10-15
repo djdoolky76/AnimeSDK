@@ -8,6 +8,8 @@ namespace RPG::Client::CatGod { class CatGodGetShelfWindow; }
 #define IDIMLIFCFGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15ED6E10)
 #define IDIMLIFCFGJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15ED6CB0)
 
+inline static constexpr unsigned int IDIMLIFCFGJ_TypeDefinitionIndex = 81653;
+
 	class IDIMLIFCFGJ : public ::System::Object
 	{
 	public:

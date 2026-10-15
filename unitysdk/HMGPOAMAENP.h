@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HMGPOAMAENP_CTOR_OFFSET UNITYSDK_OFFSET(0x15D818B0)
 #define HMGPOAMAENP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15D818E0)
 
+inline static constexpr unsigned int HMGPOAMAENP_TypeDefinitionIndex = 52565;
+
 	class HMGPOAMAENP
 	{
 	public:

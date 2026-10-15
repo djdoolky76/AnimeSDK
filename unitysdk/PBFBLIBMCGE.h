@@ -5,6 +5,8 @@
 
 #define PBFBLIBMCGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9A4C60)
 
+inline static constexpr unsigned int PBFBLIBMCGE_TypeDefinitionIndex = 42238;
+
 	class PBFBLIBMCGE : public ::System::Object
 	{
 	public:

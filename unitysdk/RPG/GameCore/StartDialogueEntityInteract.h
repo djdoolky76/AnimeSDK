@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StartDialogueEntityInteract_TypeDefinitionIndex = 20394;
+
 	class StartDialogueEntityInteract : public ::RPG::GameCore::TaskConfig
 	{
 	public:

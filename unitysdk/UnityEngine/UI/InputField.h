@@ -203,6 +203,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int InputField_TypeDefinitionIndex = 6739;
+
 	class InputField : public ::UnityEngine::UI::Selectable
 	{
 	public:

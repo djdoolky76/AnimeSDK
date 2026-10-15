@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StopSerialBellsTask_TypeDefinitionIndex = 58736;
+
 	class StopSerialBellsTask : public ::GELIALJDFBL
 	{
 	public:

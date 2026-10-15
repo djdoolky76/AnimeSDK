@@ -11,6 +11,8 @@ namespace RPG::GameCore::Match3 { class Match3Config; }
 #define IFALNPKFEOM_LJFFILMDLLL_OFFSET UNITYSDK_OFFSET(0x15F08640)
 #define IFALNPKFEOM_OKHJCHBPDKI_OFFSET UNITYSDK_OFFSET(0x15F08700)
 
+inline static constexpr unsigned int IFALNPKFEOM_TypeDefinitionIndex = 76561;
+
 	class IFALNPKFEOM : public ::System::Object
 	{
 	public:

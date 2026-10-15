@@ -4,6 +4,8 @@ namespace System { class String; }
 
 namespace System::Net::NetworkInformation::MacOsStructs
 {
+	inline static constexpr unsigned int ifaddrs_TypeDefinitionIndex = 2970;
+
 	struct alignas(8) ifaddrs
 	{
 		::System::IntPtr ifa_next; // 0x10

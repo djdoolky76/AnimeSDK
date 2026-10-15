@@ -10,6 +10,8 @@ namespace RPG::Client { class UIStateCtrl; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftUnlockConditionControlBinder_TypeDefinitionIndex = 80068;
+
 	class MechCraftUnlockConditionControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

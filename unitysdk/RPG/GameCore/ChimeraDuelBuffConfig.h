@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelBuffConfig_TypeDefinitionIndex = 16004;
+
 	class ChimeraDuelBuffConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

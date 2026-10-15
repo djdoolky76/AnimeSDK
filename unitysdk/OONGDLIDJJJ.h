@@ -52,6 +52,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OONGDLIDJJJ_SET_VARIABLEANIMCONFIGREFKEY_OFFSET UNITYSDK_OFFSET(0xBF91F60)
 #define OONGDLIDJJJ_SET_VARIABLEFORBIDCLEARSKILLUSERECORDREFKEY_OFFSET UNITYSDK_OFFSET(0xBF91F40)
 
+inline static constexpr unsigned int OONGDLIDJJJ_TypeDefinitionIndex = 54335;
+
 	class OONGDLIDJJJ : public ::System::Object
 	{
 	public:

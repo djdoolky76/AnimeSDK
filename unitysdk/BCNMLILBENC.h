@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FloatCurve; }
 #define BCNMLILBENC_AOOOLFJDMLP_OFFSET UNITYSDK_OFFSET(0x162E9B40)
 #define BCNMLILBENC_CTOR_OFFSET UNITYSDK_OFFSET(0x162E9BC0)
 
+inline static constexpr unsigned int BCNMLILBENC_TypeDefinitionIndex = 56950;
+
 	class BCNMLILBENC : public ::System::Object
 	{
 	public:

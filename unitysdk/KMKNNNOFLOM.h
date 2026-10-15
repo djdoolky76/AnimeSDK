@@ -11,6 +11,8 @@ class OMNJCDDMLHI;
 #define KMKNNNOFLOM_CTOR_OFFSET UNITYSDK_OFFSET(0xB565D80)
 #define KMKNNNOFLOM_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB565ED0)
 
+inline static constexpr unsigned int KMKNNNOFLOM_TypeDefinitionIndex = 77933;
+
 	class KMKNNNOFLOM : public ::GCIBMBJGPKI
 	{
 	public:

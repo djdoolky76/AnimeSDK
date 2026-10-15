@@ -4,6 +4,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DeepCameraSettings_TypeDefinitionIndex = 4827;
+
 	struct alignas(4) DeepCameraSettings
 	{
 		::UnityEngine::Vector4 TransparentClearColor; // 0x10

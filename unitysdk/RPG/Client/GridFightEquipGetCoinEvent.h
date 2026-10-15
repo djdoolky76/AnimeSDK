@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEquipGetCoinEvent_TypeDefinitionIndex = 65069;
+
 	class GridFightEquipGetCoinEvent : public ::System::Object
 	{
 	public:

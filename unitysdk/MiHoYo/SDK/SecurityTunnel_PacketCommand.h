@@ -7,6 +7,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_PacketCommand_TypeDefinitionIndex = 46383;
+
 	struct alignas(4) SecurityTunnel_PacketCommand
 	{
 		::System::UInt32 CommandCode; // 0x10

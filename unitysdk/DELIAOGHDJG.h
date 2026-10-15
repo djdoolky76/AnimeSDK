@@ -4,6 +4,8 @@
 
 #define DELIAOGHDJG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5E89C0)
 
+inline static constexpr unsigned int DELIAOGHDJG_TypeDefinitionIndex = 37057;
+
 	class DELIAOGHDJG : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{
 	public:

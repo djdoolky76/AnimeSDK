@@ -6,6 +6,8 @@
 
 #define FDNCLPGAKOA_CTOR_OFFSET UNITYSDK_OFFSET(0x156DEF50)
 
+inline static constexpr unsigned int FDNCLPGAKOA_TypeDefinitionIndex = 53711;
+
 	class FDNCLPGAKOA : public ::System::Object
 	{
 	public:

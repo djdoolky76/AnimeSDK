@@ -15,6 +15,8 @@ namespace UnityEngine::UI { class Text; }
 #define LKJENIJEBMJ_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xB751130)
 #define LKJENIJEBMJ__ONBIND_OFFSET UNITYSDK_OFFSET(0xB750FF0)
 
+inline static constexpr unsigned int LKJENIJEBMJ_TypeDefinitionIndex = 72276;
+
 	class LKJENIJEBMJ : public ::FMPCODLIOLG
 	{
 	public:

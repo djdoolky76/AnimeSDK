@@ -35,6 +35,8 @@ namespace System { class String; }
 #define KMCCCOKIOFD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E893ED0)
 #define KMCCCOKIOFD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E893F30)
 
+inline static constexpr unsigned int KMCCCOKIOFD_TypeDefinitionIndex = 34998;
+
 	class KMCCCOKIOFD : public ::System::Object
 	{
 	public:

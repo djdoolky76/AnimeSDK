@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelSelectEvolveBuildCardConfirm; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelSelectEvolveBuildCardConfirm_TypeDefinitionIndex = 56824;
+
 	class LevelSelectEvolveBuildCardConfirm : public ::CMPGEAFHHDC
 	{
 	public:

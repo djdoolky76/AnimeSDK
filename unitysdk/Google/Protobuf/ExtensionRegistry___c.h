@@ -15,6 +15,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace Google::Protobuf
 {
+	inline static constexpr unsigned int ExtensionRegistry___c_TypeDefinitionIndex = 5373;
+
 	class ExtensionRegistry___c : public ::System::Object
 	{
 	public:

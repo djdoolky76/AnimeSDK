@@ -12,6 +12,8 @@ namespace UnityEngine { class Object; }
 
 namespace UnityEngine::Audio
 {
+	inline static constexpr unsigned int AudioPlayableBinding_TypeDefinitionIndex = 5152;
+
 	class AudioPlayableBinding : public ::System::Object
 	{
 	public:

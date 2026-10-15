@@ -16,6 +16,8 @@ namespace InControl { class InputDevice; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int UnknownDeviceBindingSourceListener_TypeDefinitionIndex = 40811;
+
 	class UnknownDeviceBindingSourceListener : public ::System::Object
 	{
 	public:

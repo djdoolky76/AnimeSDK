@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKDelegate_GeNetworkAdapterDescriptionDelegate_TypeDefinitionIndex = 7791;
+
 	class SDKDelegate_GeNetworkAdapterDescriptionDelegate : public ::System::MulticastDelegate
 	{
 	public:

@@ -18,6 +18,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JMGCMMBNAJN_TICK_OFFSET UNITYSDK_OFFSET(0xB263AF0)
 #define JMGCMMBNAJN___SHOWUI_B__5_0_OFFSET UNITYSDK_OFFSET(0xB263DF0)
 
+inline static constexpr unsigned int JMGCMMBNAJN_TypeDefinitionIndex = 58471;
+
 	class JMGCMMBNAJN : public ::GELIALJDFBL
 	{
 	public:

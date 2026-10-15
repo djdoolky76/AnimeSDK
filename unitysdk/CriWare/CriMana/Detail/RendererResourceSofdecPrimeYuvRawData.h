@@ -28,6 +28,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace CriWare::CriMana::Detail
 {
+	inline static constexpr unsigned int RendererResourceSofdecPrimeYuvRawData_TypeDefinitionIndex = 40236;
+
 	class RendererResourceSofdecPrimeYuvRawData : public ::CriWare::CriMana::Detail::RendererResource
 	{
 	public:

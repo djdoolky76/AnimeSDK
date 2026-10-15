@@ -7,6 +7,8 @@ namespace System::Collections::Concurrent { template <typename T1, typename T2> 
 
 #define JGNNDCJGPDA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC930E0)
 
+inline static constexpr unsigned int JGNNDCJGPDA_TypeDefinitionIndex = 43883;
+
 	class JGNNDCJGPDA : public ::System::Object
 	{
 	public:

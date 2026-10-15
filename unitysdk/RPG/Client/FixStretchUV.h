@@ -16,6 +16,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FixStretchUV_TypeDefinitionIndex = 70599;
+
 	class FixStretchUV
 	{
 	public:

@@ -15,6 +15,8 @@ namespace RPG::UINavigation { class UINavigationZoneManager; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingBridgeWindow_TypeDefinitionIndex = 81754;
+
 	class B51RacingBridgeWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:

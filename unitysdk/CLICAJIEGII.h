@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 #define CLICAJIEGII_HEANFLCGINL_OFFSET UNITYSDK_OFFSET(0xD78BDD0)
 
+inline static constexpr unsigned int CLICAJIEGII_TypeDefinitionIndex = 54341;
+
 	class CLICAJIEGII : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define FHPOKJDPCAG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C61A670)
 
+inline static constexpr unsigned int FHPOKJDPCAG_TypeDefinitionIndex = 37052;
+
 	class FHPOKJDPCAG : public ::System::Object
 	{
 	public:

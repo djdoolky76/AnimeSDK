@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TextJoinItemRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TextJoinItemRow_TypeDefinitionIndex = 15284;
+
 	class TextJoinItemRow : public ::System::Object
 	{
 	public:

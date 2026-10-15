@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PerformanceRollingSubtitlesFullScreenEffectParam
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceRollingSubtitlesFullScreenEffectParam_TypeDefinitionIndex = 24409;
+
 	class PerformanceRollingSubtitlesFullScreenEffectParam : public ::RPG::GameCore::JsonConfig
 	{
 	public:

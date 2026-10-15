@@ -29,6 +29,8 @@ namespace System { class String; }
 #define ILKADBIDKAA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6AFB90)
 #define ILKADBIDKAA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6AFBF0)
 
+inline static constexpr unsigned int ILKADBIDKAA_TypeDefinitionIndex = 34523;
+
 	class ILKADBIDKAA : public ::System::Object
 	{
 	public:

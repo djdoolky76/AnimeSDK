@@ -19,6 +19,8 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2World; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2ConstraintGraphs_TypeDefinitionIndex = 36616;
+
 	class B2ConstraintGraphs : public ::System::Object
 	{
 	public:

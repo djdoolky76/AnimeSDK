@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NCEHPMDLKHB_CTOR_OFFSET UNITYSDK_OFFSET(0xBB0A570)
 #define NCEHPMDLKHB_EEKEIPKOEKN_OFFSET UNITYSDK_OFFSET(0xBB0A680)
 
+inline static constexpr unsigned int NCEHPMDLKHB_TypeDefinitionIndex = 58235;
+
 	class NCEHPMDLKHB : public ::NCGKGFAJMGM
 	{
 	public:

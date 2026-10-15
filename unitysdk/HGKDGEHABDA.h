@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HGKDGEHABDA_MKCMBNHFAMB_OFFSET UNITYSDK_OFFSET(0x15CA8260)
 #define HGKDGEHABDA_UPDATEADDROLE_OFFSET UNITYSDK_OFFSET(0x15CA7C40)
 
+inline static constexpr unsigned int HGKDGEHABDA_TypeDefinitionIndex = 65198;
+
 	class HGKDGEHABDA : public ::AMCOEFHHBPO
 	{
 	public:

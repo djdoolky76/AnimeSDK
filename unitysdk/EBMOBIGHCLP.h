@@ -10,6 +10,8 @@ class HGJFHGEPFPP;
 #define EBMOBIGHCLP_CTOR_OFFSET UNITYSDK_OFFSET(0x12D03D90)
 #define EBMOBIGHCLP_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x12D03D10)
 
+inline static constexpr unsigned int EBMOBIGHCLP_TypeDefinitionIndex = 77297;
+
 	class EBMOBIGHCLP : public ::System::Object
 	{
 	public:

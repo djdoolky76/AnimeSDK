@@ -3,6 +3,8 @@
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesItemDetailViewModel___c__DisplayClass3_0_TypeDefinitionIndex = 81397;
+
 	struct alignas(4) ChenLingFesItemDetailViewModel___c__DisplayClass3_0
 	{
 		::System::Int32 maxZ; // 0x10

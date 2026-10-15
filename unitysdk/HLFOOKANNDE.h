@@ -31,6 +31,8 @@ namespace System { class String; }
 #define HLFOOKANNDE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5BE160)
 #define HLFOOKANNDE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5BE1C0)
 
+inline static constexpr unsigned int HLFOOKANNDE_TypeDefinitionIndex = 25489;
+
 	class HLFOOKANNDE : public ::System::Object
 	{
 	public:

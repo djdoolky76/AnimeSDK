@@ -16,6 +16,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int ConsoleReactivateDialog_TypeDefinitionIndex = 9006;
+
 	class ConsoleReactivateDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:

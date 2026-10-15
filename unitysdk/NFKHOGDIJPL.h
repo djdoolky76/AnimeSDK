@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NFKHOGDIJPL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB03E00)
 #define NFKHOGDIJPL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB03E60)
 
+inline static constexpr unsigned int NFKHOGDIJPL_TypeDefinitionIndex = 29754;
+
 	class NFKHOGDIJPL : public ::System::Object
 	{
 	public:

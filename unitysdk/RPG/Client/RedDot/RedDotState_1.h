@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::RedDot
 {
+	inline static constexpr unsigned int RedDotState_1_TypeDefinitionIndex = 79168;
+
 	template <typename T>
 	class RedDotState_1 : public ::EMHMFMNBJPG
 	{

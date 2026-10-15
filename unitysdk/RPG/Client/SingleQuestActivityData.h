@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SingleQuestActivityData_TypeDefinitionIndex = 61663;
+
 	class SingleQuestActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define GIEPFAIPADI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4953C0)
 #define GIEPFAIPADI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E495420)
 
+inline static constexpr unsigned int GIEPFAIPADI_TypeDefinitionIndex = 27623;
+
 	class GIEPFAIPADI : public ::System::Object
 	{
 	public:

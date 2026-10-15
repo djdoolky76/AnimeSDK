@@ -8,6 +8,8 @@ namespace UnityEngine { class Shader; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPRendererData_CRPDebugResources_TypeDefinitionIndex = 37865;
+
 	class CRPRendererData_CRPDebugResources : public ::System::Object
 	{
 	public:

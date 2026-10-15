@@ -10,6 +10,8 @@ namespace RPG::Client { class GridFightTrait; }
 #define KOKPABKMKIJ_LNEPAFGAPJH_OFFSET UNITYSDK_OFFSET(0xB5A12E0)
 #define KOKPABKMKIJ_PAMKOLICNOL_OFFSET UNITYSDK_OFFSET(0xB5A14D0)
 
+inline static constexpr unsigned int KOKPABKMKIJ_TypeDefinitionIndex = 65366;
+
 	class KOKPABKMKIJ : public ::System::Object
 	{
 	public:

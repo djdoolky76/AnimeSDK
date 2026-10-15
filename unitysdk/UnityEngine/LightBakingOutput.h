@@ -5,6 +5,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int LightBakingOutput_TypeDefinitionIndex = 4143;
+
 	struct alignas(4) LightBakingOutput
 	{
 		::System::Int32 probeOcclusionLightIndex; // 0x10

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define OIBLEFABPEG_JDPGFIBLFOP_OFFSET UNITYSDK_OFFSET(0xBE76060)
 #define OIBLEFABPEG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE75F20)
 
+inline static constexpr unsigned int OIBLEFABPEG_TypeDefinitionIndex = 53067;
+
 	class OIBLEFABPEG
 	{
 	public:

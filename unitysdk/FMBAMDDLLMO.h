@@ -35,6 +35,8 @@ namespace UnityEngine::UI { class Text; }
 #define FMBAMDDLLMO_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x15844B80)
 #define FMBAMDDLLMO__ONBIND_OFFSET UNITYSDK_OFFSET(0x15844BD0)
 
+inline static constexpr unsigned int FMBAMDDLLMO_TypeDefinitionIndex = 72111;
+
 	class FMBAMDDLLMO : public ::FMPCODLIOLG
 	{
 	public:

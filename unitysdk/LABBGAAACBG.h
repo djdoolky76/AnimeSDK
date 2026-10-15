@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define LABBGAAACBG_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C71F490)
 #define LABBGAAACBG_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C71F420)
 
+inline static constexpr unsigned int LABBGAAACBG_TypeDefinitionIndex = 36228;
+
 	class LABBGAAACBG : public ::System::MulticastDelegate
 	{
 	public:

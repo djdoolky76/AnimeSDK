@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define DGHEDDKAKOF_KMFGIKOABAG_OFFSET UNITYSDK_OFFSET(0x1CD1ED90)
 #define DGHEDDKAKOF_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1CD1EAF0)
 
+inline static constexpr unsigned int DGHEDDKAKOF_TypeDefinitionIndex = 10679;
+
 	class DGHEDDKAKOF : public ::System::Object
 	{
 	public:

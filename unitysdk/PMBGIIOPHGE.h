@@ -6,6 +6,8 @@
 
 #define PMBGIIOPHGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F6BA0)
 
+inline static constexpr unsigned int PMBGIIOPHGE_TypeDefinitionIndex = 42254;
+
 	class PMBGIIOPHGE : public ::System::Object
 	{
 	public:

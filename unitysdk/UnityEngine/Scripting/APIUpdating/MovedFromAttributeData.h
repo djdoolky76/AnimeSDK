@@ -6,6 +6,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Scripting::APIUpdating
 {
+	inline static constexpr unsigned int MovedFromAttributeData_TypeDefinitionIndex = 4506;
+
 	struct alignas(8) MovedFromAttributeData
 	{
 		::System::String* className; // 0x10

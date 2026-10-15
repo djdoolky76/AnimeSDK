@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TrainPartyAreaGoalConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyAreaGoalConfigRow_TypeDefinitionIndex = 15327;
+
 	class TrainPartyAreaGoalConfigRow : public ::System::Object
 	{
 	public:

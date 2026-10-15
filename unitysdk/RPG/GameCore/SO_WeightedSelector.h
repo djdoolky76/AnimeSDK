@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SO_WeightedSelector; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SO_WeightedSelector_TypeDefinitionIndex = 20057;
+
 	class SO_WeightedSelector : public ::RPG::GameCore::SOCompositeConfig
 	{
 	public:

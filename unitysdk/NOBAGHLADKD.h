@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 #define NOBAGHLADKD_ONMODELARTUNLOADED_OFFSET UNITYSDK_OFFSET(0xBCDFD50)
 #define NOBAGHLADKD_PKGNNMHJIJO_OFFSET UNITYSDK_OFFSET(0xBCDFDF0)
 
+inline static constexpr unsigned int NOBAGHLADKD_TypeDefinitionIndex = 57229;
+
 	class NOBAGHLADKD : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

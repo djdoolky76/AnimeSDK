@@ -9,6 +9,8 @@ namespace RPG::GameCore { class StageInfiniteGroupRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageInfiniteGroupRow_TypeDefinitionIndex = 15149;
+
 	class StageInfiniteGroupRow : public ::System::Object
 	{
 	public:

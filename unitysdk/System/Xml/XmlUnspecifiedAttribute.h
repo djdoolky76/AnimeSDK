@@ -17,6 +17,8 @@ namespace System::Xml { class XmlWriter; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlUnspecifiedAttribute_TypeDefinitionIndex = 1922;
+
 	class XmlUnspecifiedAttribute : public ::System::Xml::XmlAttribute
 	{
 	public:

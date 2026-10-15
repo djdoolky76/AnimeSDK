@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatSpecialRuleGroupData_TypeDefinitionIndex = 76088;
+
 	class DiceCombatSpecialRuleGroupData : public ::System::Object
 	{
 	public:

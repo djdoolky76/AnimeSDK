@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleBuffListViewData___c__DisplayClass8_0_TypeDefinitionIndex = 71517;
+
 	class BattleBuffListViewData___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

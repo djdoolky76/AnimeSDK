@@ -6,6 +6,8 @@ class EAHCLJPMCIG;
 
 #define LDEKKFJLNGH_CTOR_OFFSET UNITYSDK_OFFSET(0xB61E860)
 
+inline static constexpr unsigned int LDEKKFJLNGH_TypeDefinitionIndex = 80577;
+
 	class LDEKKFJLNGH : public ::System::Object
 	{
 	public:

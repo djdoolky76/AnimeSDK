@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PIBEHFDDAAJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF40600)
 #define PIBEHFDDAAJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF40660)
 
+inline static constexpr unsigned int PIBEHFDDAAJ_TypeDefinitionIndex = 26749;
+
 	class PIBEHFDDAAJ : public ::System::Object
 	{
 	public:

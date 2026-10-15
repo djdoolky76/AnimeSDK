@@ -4,6 +4,8 @@
 
 namespace System::Security::AccessControl
 {
+	inline static constexpr unsigned int CommonObjectSecurity_TypeDefinitionIndex = 970;
+
 	class CommonObjectSecurity : public ::System::Security::AccessControl::ObjectSecurity
 	{
 	public:

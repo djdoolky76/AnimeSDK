@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AttachPointEffectAdaptionConfig_TypeDefinitionIndex = 16510;
+
 	class AttachPointEffectAdaptionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

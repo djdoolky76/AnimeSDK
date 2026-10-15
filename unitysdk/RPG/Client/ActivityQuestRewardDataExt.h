@@ -11,6 +11,8 @@ namespace RPG::Client { class IActivityQuestRewardTabGroupInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityQuestRewardDataExt_TypeDefinitionIndex = 61732;
+
 	class ActivityQuestRewardDataExt : public ::System::Object
 	{
 	public:

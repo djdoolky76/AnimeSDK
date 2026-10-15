@@ -5,6 +5,8 @@ namespace RPG::GameCore { class FlappyScrollAgentConfig; }
 
 #define MDNAJPAKFNL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C924CD0)
 
+inline static constexpr unsigned int MDNAJPAKFNL_TypeDefinitionIndex = 43367;
+
 	class MDNAJPAKFNL : public ::System::Object
 	{
 	public:

@@ -62,6 +62,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenInteractController_TypeDefinitionIndex = 75573;
+
 	class ActivityHipplenInteractController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

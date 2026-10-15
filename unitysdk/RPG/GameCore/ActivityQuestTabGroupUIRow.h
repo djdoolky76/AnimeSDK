@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityQuestTabGroupUIRow_TypeDefinitionIndex = 12309;
+
 	class ActivityQuestTabGroupUIRow : public ::System::Object
 	{
 	public:

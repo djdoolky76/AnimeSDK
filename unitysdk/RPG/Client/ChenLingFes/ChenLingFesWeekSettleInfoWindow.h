@@ -20,6 +20,8 @@ namespace RPG::Client::ChenLingFes { class ChenLingFesWeekSettleInfoViewModel; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesWeekSettleInfoWindow_TypeDefinitionIndex = 81349;
+
 	class ChenLingFesWeekSettleInfoWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:

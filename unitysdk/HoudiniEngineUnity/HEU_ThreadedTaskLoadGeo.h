@@ -58,6 +58,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_ThreadedTaskLoadGeo_TypeDefinitionIndex = 40613;
+
 	class HEU_ThreadedTaskLoadGeo : public ::HoudiniEngineUnity::HEU_ThreadedTask
 	{
 	public:

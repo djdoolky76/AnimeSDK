@@ -4,6 +4,8 @@
 
 #define OKBBPCHOBEN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C995210)
 
+inline static constexpr unsigned int OKBBPCHOBEN_TypeDefinitionIndex = 42808;
+
 	class OKBBPCHOBEN : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{
 	public:

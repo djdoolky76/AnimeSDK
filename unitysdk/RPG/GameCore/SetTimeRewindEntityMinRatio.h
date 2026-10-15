@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetTimeRewindEntityMinRatio_TypeDefinitionIndex = 20680;
+
 	class SetTimeRewindEntityMinRatio : public ::RPG::GameCore::TaskConfig
 	{
 	public:

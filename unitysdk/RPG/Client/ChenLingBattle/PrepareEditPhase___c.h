@@ -17,6 +17,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int PrepareEditPhase___c_TypeDefinitionIndex = 76305;
+
 	class PrepareEditPhase___c : public ::System::Object
 	{
 	public:

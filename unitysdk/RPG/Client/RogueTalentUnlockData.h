@@ -15,6 +15,8 @@ namespace RPG::Client { class RogueTalentUnlockData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTalentUnlockData_TypeDefinitionIndex = 67474;
+
 	class RogueTalentUnlockData : public ::System::Object
 	{
 	public:

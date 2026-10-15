@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureShowReading_TypeDefinitionIndex = 20892;
+
 	class AdventureShowReading : public ::RPG::GameCore::TaskConfig
 	{
 	public:

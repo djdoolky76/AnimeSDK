@@ -38,6 +38,8 @@ namespace System { class String; }
 #define ONCGFIALKHI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEC2960)
 #define ONCGFIALKHI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEC29C0)
 
+inline static constexpr unsigned int ONCGFIALKHI_TypeDefinitionIndex = 31984;
+
 	class ONCGFIALKHI : public ::System::Object
 	{
 	public:

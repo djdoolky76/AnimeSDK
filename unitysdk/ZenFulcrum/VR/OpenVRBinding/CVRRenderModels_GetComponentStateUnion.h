@@ -5,6 +5,8 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRRenderModels__GetComponentSta
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int CVRRenderModels_GetComponentStateUnion_TypeDefinitionIndex = 39207;
+
 	struct alignas(8) CVRRenderModels_GetComponentStateUnion
 	{
 		::ZenFulcrum::VR::OpenVRBinding::IVRRenderModels__GetComponentState* pGetComponentState; // 0x10

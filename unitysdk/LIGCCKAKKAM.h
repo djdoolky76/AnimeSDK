@@ -4,6 +4,8 @@
 
 #define LIGCCKAKKAM_CTOR_OFFSET UNITYSDK_OFFSET(0xB6CAB10)
 
+inline static constexpr unsigned int LIGCCKAKKAM_TypeDefinitionIndex = 48685;
+
 	class LIGCCKAKKAM : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

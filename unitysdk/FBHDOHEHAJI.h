@@ -7,6 +7,8 @@ namespace System { class Object; }
 #define FBHDOHEHAJI_FNCNMCEOALF_OFFSET UNITYSDK_OFFSET(0x1EC69B80)
 #define FBHDOHEHAJI_LNHAOGJFKJE_OFFSET UNITYSDK_OFFSET(0x1EC69C50)
 
+inline static constexpr unsigned int FBHDOHEHAJI_TypeDefinitionIndex = 44083;
+
 	class FBHDOHEHAJI : public ::System::Object
 	{
 	public:

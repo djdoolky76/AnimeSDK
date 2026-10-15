@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ImageCache___c__DisplayClass6_0_TypeDefinitionIndex = 7979;
+
 	class ImageCache___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

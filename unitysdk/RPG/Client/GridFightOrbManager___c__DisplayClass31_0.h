@@ -9,6 +9,8 @@ namespace RPG::Client { class OrbSpawnConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightOrbManager___c__DisplayClass31_0_TypeDefinitionIndex = 64464;
+
 	class GridFightOrbManager___c__DisplayClass31_0 : public ::System::Object
 	{
 	public:

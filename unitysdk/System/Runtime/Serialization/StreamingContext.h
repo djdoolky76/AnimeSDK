@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int StreamingContext_TypeDefinitionIndex = 1134;
+
 	struct alignas(8) StreamingContext
 	{
 		::System::Object* m_additionalContext; // 0x10

@@ -26,6 +26,8 @@ namespace System::Net { class HttpListenerResponse; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int GoogleOAuthServer_TypeDefinitionIndex = 9314;
+
 	class GoogleOAuthServer : public ::System::Object
 	{
 	public:

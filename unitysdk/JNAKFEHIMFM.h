@@ -33,6 +33,8 @@ namespace System { class String; }
 #define JNAKFEHIMFM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E792640)
 #define JNAKFEHIMFM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7926A0)
 
+inline static constexpr unsigned int JNAKFEHIMFM_TypeDefinitionIndex = 33726;
+
 	class JNAKFEHIMFM : public ::System::Object
 	{
 	public:

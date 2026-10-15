@@ -5,6 +5,8 @@
 
 #define NEKPAIMIIBA_CTOR_OFFSET UNITYSDK_OFFSET(0xBB6FB80)
 
+inline static constexpr unsigned int NEKPAIMIIBA_TypeDefinitionIndex = 57545;
+
 	class NEKPAIMIIBA : public ::System::Object
 	{
 	public:

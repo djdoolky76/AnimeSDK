@@ -10,6 +10,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_KaleidoscopeAnimatorBehavior_ParticleData_TypeDefinitionIndex = 70493;
+
 	class Effect_KaleidoscopeAnimatorBehavior_ParticleData : public ::System::Object
 	{
 	public:

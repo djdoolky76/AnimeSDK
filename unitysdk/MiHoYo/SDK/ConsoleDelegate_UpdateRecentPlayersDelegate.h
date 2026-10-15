@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_UpdateRecentPlayersDelegate_TypeDefinitionIndex = 7634;
+
 	class ConsoleDelegate_UpdateRecentPlayersDelegate : public ::System::MulticastDelegate
 	{
 	public:

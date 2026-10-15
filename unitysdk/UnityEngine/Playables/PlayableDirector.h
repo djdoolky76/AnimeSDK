@@ -74,6 +74,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 
 namespace UnityEngine::Playables
 {
+	inline static constexpr unsigned int PlayableDirector_TypeDefinitionIndex = 5776;
+
 	class PlayableDirector : public ::UnityEngine::Behaviour
 	{
 	public:

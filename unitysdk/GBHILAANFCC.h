@@ -8,6 +8,8 @@ namespace System { class String; }
 #define GBHILAANFCC_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x15950990)
 #define GBHILAANFCC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15950C00)
 
+inline static constexpr unsigned int GBHILAANFCC_TypeDefinitionIndex = 82143;
+
 	class GBHILAANFCC : public ::JEAKFMBFLJK
 	{
 	public:

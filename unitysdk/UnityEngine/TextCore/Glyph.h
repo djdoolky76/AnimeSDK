@@ -21,6 +21,8 @@
 
 namespace UnityEngine::TextCore
 {
+	inline static constexpr unsigned int Glyph_TypeDefinitionIndex = 5841;
+
 	class Glyph : public ::System::Object
 	{
 	public:

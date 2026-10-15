@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define IGDKEENBOIO__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x16409B10)
 #define IGDKEENBOIO__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x16409BD0)
 
+inline static constexpr unsigned int IGDKEENBOIO_TypeDefinitionIndex = 53018;
+
 	class IGDKEENBOIO
 	{
 	public:

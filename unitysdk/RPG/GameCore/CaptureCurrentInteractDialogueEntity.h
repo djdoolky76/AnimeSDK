@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CaptureCurrentInteractDialogueEntity_TypeDefinitionIndex = 22291;
+
 	class CaptureCurrentInteractDialogueEntity : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoDanmuViewBase_TypeDefinitionIndex = 68951;
+
 	class MonoDanmuViewBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

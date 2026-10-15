@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ScoreChallengeTargetData_TypeDefinitionIndex = 63115;
+
 	class ScoreChallengeTargetData : public ::RPG::Client::BaseChallengeTargetData
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define BMDFGIEENPJ_IFCJKAMCFIK_OFFSET UNITYSDK_OFFSET(0xBDA2A10)
 #define BMDFGIEENPJ_JOHPKPGOGHD_OFFSET UNITYSDK_OFFSET(0xBDA2A00)
 
+inline static constexpr unsigned int BMDFGIEENPJ_TypeDefinitionIndex = 78074;
+
 	class BMDFGIEENPJ
 	{
 	public:

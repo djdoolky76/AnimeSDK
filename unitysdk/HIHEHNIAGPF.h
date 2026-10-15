@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HIHEHNIAGPF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E595570)
 #define HIHEHNIAGPF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5955D0)
 
+inline static constexpr unsigned int HIHEHNIAGPF_TypeDefinitionIndex = 31000;
+
 	class HIHEHNIAGPF : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlayerRoomTagConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerRoomTagConfigRow_TypeDefinitionIndex = 14553;
+
 	class PlayerRoomTagConfigRow : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BNIICAKJOLJ__ONTASKBEGIN_B__2_0_OFFSET UNITYSDK_OFFSET(0xBDDB850)
 #define BNIICAKJOLJ__ONTASKBEGIN_B__2_1_OFFSET UNITYSDK_OFFSET(0xBDDB860)
 
+inline static constexpr unsigned int BNIICAKJOLJ_TypeDefinitionIndex = 58104;
+
 	class BNIICAKJOLJ : public ::GELIALJDFBL
 	{
 	public:

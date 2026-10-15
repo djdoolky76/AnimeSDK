@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define IJPMEGMGOPH_CTOR_OFFSET UNITYSDK_OFFSET(0x16481290)
 #define IJPMEGMGOPH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16481370)
 
+inline static constexpr unsigned int IJPMEGMGOPH_TypeDefinitionIndex = 55407;
+
 	class IJPMEGMGOPH
 	{
 	public:

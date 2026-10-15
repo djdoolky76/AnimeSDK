@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LAKIIPFOJNB_LOCK_OFFSET UNITYSDK_OFFSET(0xB5E6670)
 #define LAKIIPFOJNB_UNLOCK_OFFSET UNITYSDK_OFFSET(0xB5E6730)
 
+inline static constexpr unsigned int LAKIIPFOJNB_TypeDefinitionIndex = 74796;
+
 	class LAKIIPFOJNB : public ::RPG::Client::GamePlayLockTargetFunc
 	{
 	public:

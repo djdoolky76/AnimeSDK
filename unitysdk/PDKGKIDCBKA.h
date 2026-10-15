@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PDKGKIDCBKA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF10D90)
 #define PDKGKIDCBKA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF10DF0)
 
+inline static constexpr unsigned int PDKGKIDCBKA_TypeDefinitionIndex = 29519;
+
 	class PDKGKIDCBKA : public ::System::Object
 	{
 	public:

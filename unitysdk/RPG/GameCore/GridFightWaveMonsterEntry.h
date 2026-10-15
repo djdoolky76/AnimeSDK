@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightWaveMonsterEntry; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightWaveMonsterEntry_TypeDefinitionIndex = 18166;
+
 	class GridFightWaveMonsterEntry : public ::RPG::GameCore::JsonConfig
 	{
 	public:

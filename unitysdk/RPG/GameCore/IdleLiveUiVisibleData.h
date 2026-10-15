@@ -8,6 +8,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveUiVisibleData_TypeDefinitionIndex = 58167;
+
 	class IdleLiveUiVisibleData : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PPHLICFGGKC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC387100)
 #define PPHLICFGGKC_OOGCMLCLMJF_OFFSET UNITYSDK_OFFSET(0xC3870B0)
 
+inline static constexpr unsigned int PPHLICFGGKC_TypeDefinitionIndex = 52209;
+
 	class PPHLICFGGKC
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class Slider; }
 #define ENPCHFJGOMK_HPKAAIMCAPC_OFFSET UNITYSDK_OFFSET(0x155B6C80)
 #define ENPCHFJGOMK__ONBIND_OFFSET UNITYSDK_OFFSET(0x155B67B0)
 
+inline static constexpr unsigned int ENPCHFJGOMK_TypeDefinitionIndex = 72288;
+
 	class ENPCHFJGOMK : public ::FMPCODLIOLG
 	{
 	public:

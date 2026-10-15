@@ -18,6 +18,8 @@ namespace System { class Object; }
 #define CNIBMPJMNGF_PLGEGHCLHHI_OFFSET UNITYSDK_OFFSET(0xDA54520)
 #define CNIBMPJMNGF_PLLAAIFHBLG_OFFSET UNITYSDK_OFFSET(0xDA54460)
 
+inline static constexpr unsigned int CNIBMPJMNGF_TypeDefinitionIndex = 72084;
+
 	class CNIBMPJMNGF : public ::FMPCODLIOLG
 	{
 	public:

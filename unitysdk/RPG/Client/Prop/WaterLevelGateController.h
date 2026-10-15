@@ -22,6 +22,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int WaterLevelGateController_TypeDefinitionIndex = 78919;
+
 	class WaterLevelGateController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

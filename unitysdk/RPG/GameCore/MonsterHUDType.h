@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonsterHUDType_TypeDefinitionIndex = 24653;
+
 	enum class MonsterHUDType : ::System::Int32
 	{
 		Default = 0,

@@ -15,6 +15,8 @@ namespace System { class String; }
 #define AGKEILLNKIC_PIHIHEGGAHC_1_OFFSET UNITYSDK_OFFSET(0x1C429360)
 #define AGKEILLNKIC_PIHIHEGGAHC_OFFSET UNITYSDK_OFFSET(0x1C4290F0)
 
+inline static constexpr unsigned int AGKEILLNKIC_TypeDefinitionIndex = 41411;
+
 	class AGKEILLNKIC : public ::System::Object
 	{
 	public:

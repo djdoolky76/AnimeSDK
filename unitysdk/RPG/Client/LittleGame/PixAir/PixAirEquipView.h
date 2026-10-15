@@ -20,6 +20,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client::LittleGame::PixAir
 {
+	inline static constexpr unsigned int PixAirEquipView_TypeDefinitionIndex = 77319;
+
 	class PixAirEquipView : public ::RPG::Client::LittleGame::PixAir::BasePixAirView
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ICKLANINJDB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E624150)
 #define ICKLANINJDB___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E624160)
 
+inline static constexpr unsigned int ICKLANINJDB___c_TypeDefinitionIndex = 28505;
+
 	class ICKLANINJDB___c : public ::System::Object
 	{
 	public:

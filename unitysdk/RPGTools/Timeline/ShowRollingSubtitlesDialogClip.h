@@ -15,6 +15,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ShowRollingSubtitlesDialogClip_TypeDefinitionIndex = 48300;
+
 	class ShowRollingSubtitlesDialogClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

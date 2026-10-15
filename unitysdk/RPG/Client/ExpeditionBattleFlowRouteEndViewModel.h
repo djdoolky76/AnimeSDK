@@ -13,6 +13,8 @@ namespace RPG::Client { class ExpeditionBattleRoute; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ExpeditionBattleFlowRouteEndViewModel_TypeDefinitionIndex = 63915;
+
 	class ExpeditionBattleFlowRouteEndViewModel : public ::System::Object
 	{
 	public:

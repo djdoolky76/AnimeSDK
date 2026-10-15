@@ -8,6 +8,8 @@ namespace RPG::Client::Pet { class IPet; }
 #define ABMFJGJPDNI___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB1099D0)
 #define ABMFJGJPDNI___C__DISPLAYCLASS4_0___REFRESHPETPRELOAD_B__0_OFFSET UNITYSDK_OFFSET(0xB109D10)
 
+inline static constexpr unsigned int ABMFJGJPDNI___c__DisplayClass4_0_TypeDefinitionIndex = 59719;
+
 	class ABMFJGJPDNI___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

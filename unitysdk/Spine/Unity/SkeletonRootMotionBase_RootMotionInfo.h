@@ -4,6 +4,8 @@
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonRootMotionBase_RootMotionInfo_TypeDefinitionIndex = 45024;
+
 	struct alignas(4) SkeletonRootMotionBase_RootMotionInfo
 	{
 		::UnityEngine::Vector2 start; // 0x10

@@ -63,6 +63,8 @@ namespace UnityEngine { class Transform; }
 #define OKDEEDBBFLO__ONTICK_OFFSET UNITYSDK_OFFSET(0xBED5DA0)
 #define OKDEEDBBFLO___ONBATTLEMONSTERHUDUIPANELALPHACHANGE_B__46_0_OFFSET UNITYSDK_OFFSET(0xBED67E0)
 
+inline static constexpr unsigned int OKDEEDBBFLO_TypeDefinitionIndex = 71793;
+
 	class OKDEEDBBFLO : public ::FMPCODLIOLG
 	{
 	public:

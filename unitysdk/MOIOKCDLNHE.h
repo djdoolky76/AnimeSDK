@@ -38,6 +38,8 @@ namespace System { class String; }
 #define MOIOKCDLNHE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAAB750)
 #define MOIOKCDLNHE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAAB7B0)
 
+inline static constexpr unsigned int MOIOKCDLNHE_TypeDefinitionIndex = 27465;
+
 	class MOIOKCDLNHE : public ::System::Object
 	{
 	public:

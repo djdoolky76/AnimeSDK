@@ -8,6 +8,8 @@ namespace System { class String; }
 #define BPMMCDJNBDB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9FB1B0)
 #define BPMMCDJNBDB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9FB000)
 
+inline static constexpr unsigned int BPMMCDJNBDB_TypeDefinitionIndex = 13953;
+
 	class BPMMCDJNBDB : public ::System::Object
 	{
 	public:

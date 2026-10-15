@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 #define ELPNFNJGCGD_FFHNOMIDEDE_OFFSET UNITYSDK_OFFSET(0x15529EB0)
 #define ELPNFNJGCGD_GIJADIPLPOP_OFFSET UNITYSDK_OFFSET(0x15517F40)
 
+inline static constexpr unsigned int ELPNFNJGCGD_TypeDefinitionIndex = 68234;
+
 	class ELPNFNJGCGD : public ::System::Object
 	{
 	public:

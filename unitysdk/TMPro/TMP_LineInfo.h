@@ -5,6 +5,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_LineInfo_TypeDefinitionIndex = 44609;
+
 	struct alignas(4) TMP_LineInfo
 	{
 		::System::Int32 controlCharacterCount; // 0x10

@@ -5,6 +5,8 @@ class IOJGBIAJBIC;
 
 #define AICBMLHDOOJ_PJEMGKGLDOK_OFFSET UNITYSDK_OFFSET(0x3C29180)
 
+inline static constexpr unsigned int AICBMLHDOOJ_TypeDefinitionIndex = 36558;
+
 	struct alignas(8) AICBMLHDOOJ
 	{
 		::RPG::MVector2 NKDECDGECFL; // 0x10

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FreeStyleStateTemplateConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FreeStyleStateTemplateConfig_TypeDefinitionIndex = 16314;
+
 	class FreeStyleStateTemplateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

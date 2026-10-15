@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class CRPCameraSplitScreenTemplateClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CRPCameraSplitScreenTemplateBehaviour_TypeDefinitionIndex = 47912;
+
 	class CRPCameraSplitScreenTemplateBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

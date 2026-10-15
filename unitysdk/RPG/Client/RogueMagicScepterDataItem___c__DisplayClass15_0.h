@@ -8,6 +8,8 @@ namespace RPG::Client { class RogueMagicUnitDataItem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMagicScepterDataItem___c__DisplayClass15_0_TypeDefinitionIndex = 67424;
+
 	class RogueMagicScepterDataItem___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

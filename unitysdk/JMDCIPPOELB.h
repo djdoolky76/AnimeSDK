@@ -49,6 +49,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JMDCIPPOELB_PNICDNHEPCL_2_OFFSET UNITYSDK_OFFSET(0xB261960)
 #define JMDCIPPOELB_PNICDNHEPCL_OFFSET UNITYSDK_OFFSET(0xB261480)
 
+inline static constexpr unsigned int JMDCIPPOELB_TypeDefinitionIndex = 80735;
+
 	class JMDCIPPOELB : public ::System::Object
 	{
 	public:

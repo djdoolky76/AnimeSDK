@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 #define MHJCAPNMMFM_SET_ISCURACTIONRUNNING_OFFSET UNITYSDK_OFFSET(0xB943C40)
 #define MHJCAPNMMFM_SET_MAXACTION_OFFSET UNITYSDK_OFFSET(0xB943C20)
 
+inline static constexpr unsigned int MHJCAPNMMFM_TypeDefinitionIndex = 57640;
+
 	class MHJCAPNMMFM : public ::System::Object
 	{
 	public:

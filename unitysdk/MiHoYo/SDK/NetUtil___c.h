@@ -13,6 +13,8 @@ namespace UnityEngine::Networking { class UnityWebRequest; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int NetUtil___c_TypeDefinitionIndex = 8187;
+
 	class NetUtil___c : public ::System::Object
 	{
 	public:

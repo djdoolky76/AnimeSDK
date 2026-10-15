@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int CJCBGHLDNAG_GMHJLMFBOKC_TypeDefinitionIndex = 69880;
+
 	struct alignas(4) CJCBGHLDNAG_GMHJLMFBOKC
 	{
 		::System::Boolean KKJLMNLCMBK; // 0x10

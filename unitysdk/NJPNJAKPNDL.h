@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NJPNJAKPNDL_EKFJDDKDABB_OFFSET UNITYSDK_OFFSET(0xBC2BC90)
 #define NJPNJAKPNDL_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xBC2BDB0)
 
+inline static constexpr unsigned int NJPNJAKPNDL_TypeDefinitionIndex = 71201;
+
 	class NJPNJAKPNDL : public ::System::Object
 	{
 	public:

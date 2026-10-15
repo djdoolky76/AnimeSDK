@@ -5,6 +5,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 #define PLBKCJPICMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F63D0)
 
+inline static constexpr unsigned int PLBKCJPICMN_TypeDefinitionIndex = 43217;
+
 	class PLBKCJPICMN : public ::System::Object
 	{
 	public:

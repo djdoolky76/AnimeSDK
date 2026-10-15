@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LittleGameFireEffectParams; }
 #define NIGOALBAAPN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D212D80)
 #define NIGOALBAAPN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D212D40)
 
+inline static constexpr unsigned int NIGOALBAAPN_TypeDefinitionIndex = 21443;
+
 	class NIGOALBAAPN : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ElfRefreshData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfRefreshData_TypeDefinitionIndex = 21737;
+
 	class ElfRefreshData : public ::RPG::GameCore::TaskConfig
 	{
 	public:

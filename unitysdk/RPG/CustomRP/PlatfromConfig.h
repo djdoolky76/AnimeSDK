@@ -5,6 +5,8 @@ namespace System { class String; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int PlatfromConfig_TypeDefinitionIndex = 37652;
+
 	struct alignas(8) PlatfromConfig
 	{
 		::System::Boolean multiDeviceName; // 0x10

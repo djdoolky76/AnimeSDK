@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitMechanismBarPhase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitMechanismBarPhase_TypeDefinitionIndex = 20526;
+
 	class WaitMechanismBarPhase : public ::RPG::GameCore::TaskConfig
 	{
 	public:

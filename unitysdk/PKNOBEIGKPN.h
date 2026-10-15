@@ -9,6 +9,8 @@ namespace System { class String; }
 #define PKNOBEIGKPN_MNJOCIFNCFK_OFFSET UNITYSDK_OFFSET(0xC2EA660)
 #define PKNOBEIGKPN_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC2EA780)
 
+inline static constexpr unsigned int PKNOBEIGKPN_TypeDefinitionIndex = 59268;
+
 	class PKNOBEIGKPN : public ::System::Object
 	{
 	public:

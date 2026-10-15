@@ -8,6 +8,8 @@ class DIGCDGKOBMK;
 #define GBFJKGKIIKD_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1C54C3C0)
 #define GBFJKGKIIKD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C555E70)
 
+inline static constexpr unsigned int GBFJKGKIIKD_TypeDefinitionIndex = 41785;
+
 	class GBFJKGKIIKD : public ::System::Object
 	{
 	public:

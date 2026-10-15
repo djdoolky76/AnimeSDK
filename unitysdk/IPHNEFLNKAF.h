@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define IPHNEFLNKAF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16520660)
 #define IPHNEFLNKAF_TICK_OFFSET UNITYSDK_OFFSET(0x16520710)
 
+inline static constexpr unsigned int IPHNEFLNKAF_TypeDefinitionIndex = 53015;
+
 	class IPHNEFLNKAF : public ::GELIALJDFBL
 	{
 	public:

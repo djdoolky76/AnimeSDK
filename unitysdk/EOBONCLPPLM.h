@@ -32,6 +32,8 @@ namespace System { class String; }
 #define EOBONCLPPLM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2F81E0)
 #define EOBONCLPPLM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2F8240)
 
+inline static constexpr unsigned int EOBONCLPPLM_TypeDefinitionIndex = 30376;
+
 	class EOBONCLPPLM : public ::System::Object
 	{
 	public:

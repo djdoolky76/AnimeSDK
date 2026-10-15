@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LHCBKDNHGCG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E95CEC0)
 #define LHCBKDNHGCG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E95CF20)
 
+inline static constexpr unsigned int LHCBKDNHGCG_TypeDefinitionIndex = 27779;
+
 	class LHCBKDNHGCG : public ::System::Object
 	{
 	public:

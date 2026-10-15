@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EmotionData_TypeDefinitionIndex = 69419;
+
 	class EmotionData : public ::System::Object
 	{
 	public:

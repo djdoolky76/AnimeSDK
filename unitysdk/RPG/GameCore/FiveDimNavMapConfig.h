@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimNavMapConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimNavMapConfig_TypeDefinitionIndex = 18520;
+
 	class FiveDimNavMapConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

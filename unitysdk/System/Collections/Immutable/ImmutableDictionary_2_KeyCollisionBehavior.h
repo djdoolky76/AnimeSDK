@@ -3,6 +3,8 @@
 
 namespace System::Collections::Immutable
 {
+	inline static constexpr unsigned int ImmutableDictionary_2_KeyCollisionBehavior_TypeDefinitionIndex = 6629;
+
 	enum class ImmutableDictionary_2_KeyCollisionBehavior : ::System::Int32
 	{
 		SetValue = 0,

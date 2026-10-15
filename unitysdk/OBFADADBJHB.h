@@ -36,6 +36,8 @@ namespace System { class String; }
 #define OBFADADBJHB_NNKPMJICHBD_OFFSET UNITYSDK_OFFSET(0xBD3C3F0)
 #define OBFADADBJHB_OGNBMBKFDGG_OFFSET UNITYSDK_OFFSET(0xBD3B220)
 
+inline static constexpr unsigned int OBFADADBJHB_TypeDefinitionIndex = 76884;
+
 	class OBFADADBJHB : public ::System::Object
 	{
 	public:

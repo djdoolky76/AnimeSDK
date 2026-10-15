@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NNPDAHNCAMK_HPBCOLDFMNI_OFFSET UNITYSDK_OFFSET(0xBCDEEC0)
 #define NNPDAHNCAMK_MBABPIHGAJN_OFFSET UNITYSDK_OFFSET(0xBCDF080)
 
+inline static constexpr unsigned int NNPDAHNCAMK_TypeDefinitionIndex = 59415;
+
 	class NNPDAHNCAMK : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define JFEKFHLDLPK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E727F10)
 #define JFEKFHLDLPK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E727F70)
 
+inline static constexpr unsigned int JFEKFHLDLPK_TypeDefinitionIndex = 32440;
+
 	class JFEKFHLDLPK : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int CameraData_TypeDefinitionIndex = 45841;
+
 	struct alignas(4) CameraData
 	{
 		::UnityEngine::Formats::Alembic::Sdk::Bool _visibility_k__BackingField; // 0x10

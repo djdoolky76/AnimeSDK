@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int Web_TypeDefinitionIndex = 8776;
+
 	class Web : public ::System::Object
 	{
 	public:

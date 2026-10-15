@@ -34,6 +34,8 @@ namespace System { class String; }
 #define LECPPIEIENH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E925800)
 #define LECPPIEIENH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E925860)
 
+inline static constexpr unsigned int LECPPIEIENH_TypeDefinitionIndex = 27244;
+
 	class LECPPIEIENH : public ::System::Object
 	{
 	public:

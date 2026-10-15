@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OnMuseumPerformanceBegin_TypeDefinitionIndex = 20905;
+
 	class OnMuseumPerformanceBegin : public ::RPG::GameCore::TaskConfig
 	{
 	public:

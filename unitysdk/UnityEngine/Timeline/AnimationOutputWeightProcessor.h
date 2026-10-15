@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int AnimationOutputWeightProcessor_TypeDefinitionIndex = 38768;
+
 	class AnimationOutputWeightProcessor : public ::System::Object
 	{
 	public:

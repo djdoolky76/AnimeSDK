@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MunicipalChatCharacterType_TypeDefinitionIndex = 16915;
+
 	enum class MunicipalChatCharacterType : ::System::Int32
 	{
 		NormalNpc = 0,

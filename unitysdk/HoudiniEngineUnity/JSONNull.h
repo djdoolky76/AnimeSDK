@@ -25,6 +25,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int JSONNull_TypeDefinitionIndex = 40684;
+
 	class JSONNull : public ::HoudiniEngineUnity::JSONNode
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimFinishChenLingGameBoyAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimFinishChenLingGameBoyAction_TypeDefinitionIndex = 18676;
+
 	class FiveDimFinishChenLingGameBoyAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

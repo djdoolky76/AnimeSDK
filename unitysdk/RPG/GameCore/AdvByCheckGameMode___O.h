@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvByCheckGameMode___O_TypeDefinitionIndex = 20780;
+
 	class AdvByCheckGameMode___O : public ::System::Object
 	{
 	public:

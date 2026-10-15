@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MessageUiData_TypeDefinitionIndex = 61553;
+
 	class MessageUiData : public ::System::Object
 	{
 	public:

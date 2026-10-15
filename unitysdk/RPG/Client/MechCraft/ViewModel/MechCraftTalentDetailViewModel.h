@@ -43,6 +43,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftTalentDetailViewModel_TypeDefinitionIndex = 79771;
+
 	class MechCraftTalentDetailViewModel : public ::Sofa::Core::ObservableObject
 	{
 	public:

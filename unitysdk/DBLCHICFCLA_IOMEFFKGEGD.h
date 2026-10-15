@@ -7,6 +7,8 @@ namespace UnityEngine::UI { class Text; }
 
 #define DBLCHICFCLA_IOMEFFKGEGD_CTOR_OFFSET UNITYSDK_OFFSET(0xE22E730)
 
+inline static constexpr unsigned int DBLCHICFCLA_IOMEFFKGEGD_TypeDefinitionIndex = 73202;
+
 	class DBLCHICFCLA_IOMEFFKGEGD : public ::System::Object
 	{
 	public:

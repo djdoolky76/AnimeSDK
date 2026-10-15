@@ -31,6 +31,8 @@ namespace System { class String; }
 #define LGCPLLJLHFF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E94A6A0)
 #define LGCPLLJLHFF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E94A700)
 
+inline static constexpr unsigned int LGCPLLJLHFF_TypeDefinitionIndex = 33732;
+
 	class LGCPLLJLHFF : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace UnityEngine { class EnumInfo; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int DiagnosticSwitch_TypeDefinitionIndex = 4072;
+
 	struct alignas(8) DiagnosticSwitch
 	{
 		::System::String* name; // 0x10

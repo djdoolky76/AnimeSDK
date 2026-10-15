@@ -8,6 +8,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int CircleCollider2D_TypeDefinitionIndex = 5814;
+
 	class CircleCollider2D : public ::UnityEngine::Collider2D
 	{
 	public:

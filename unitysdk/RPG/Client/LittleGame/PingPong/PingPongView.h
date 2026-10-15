@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::PingPong
 {
+	inline static constexpr unsigned int PingPongView_TypeDefinitionIndex = 76683;
+
 	class PingPongView : public ::RPG::Client::LittleGame::BaseMonoGenericView
 	{
 	public:

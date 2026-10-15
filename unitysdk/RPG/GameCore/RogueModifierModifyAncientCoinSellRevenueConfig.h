@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyAncientCoinSellRevenueConfig;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyAncientCoinSellRevenueConfig_TypeDefinitionIndex = 17808;
+
 	class RogueModifierModifyAncientCoinSellRevenueConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

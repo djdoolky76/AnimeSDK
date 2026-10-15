@@ -9,6 +9,8 @@ namespace RPG::GameCore { class HealPoolConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HealPoolConfigRow_TypeDefinitionIndex = 13715;
+
 	class HealPoolConfigRow : public ::System::Object
 	{
 	public:

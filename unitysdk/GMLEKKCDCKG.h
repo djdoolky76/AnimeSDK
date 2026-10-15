@@ -8,6 +8,8 @@ class GMLEKKCDCKG;
 #define GMLEKKCDCKG_EQUALS_OFFSET UNITYSDK_OFFSET(0x15AD54D0)
 #define GMLEKKCDCKG_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x15AD5530)
 
+inline static constexpr unsigned int GMLEKKCDCKG_TypeDefinitionIndex = 49137;
+
 	class GMLEKKCDCKG : public ::System::Object
 	{
 	public:

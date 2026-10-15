@@ -15,6 +15,8 @@ namespace System { class String; }
 #define GLJBBGBINBN_PBNJDHFCHHC_OFFSET UNITYSDK_OFFSET(0x15AB9DC0)
 #define GLJBBGBINBN_SET_KEY_OFFSET UNITYSDK_OFFSET(0x15AB9C20)
 
+inline static constexpr unsigned int GLJBBGBINBN_TypeDefinitionIndex = 55068;
+
 	class GLJBBGBINBN : public ::System::Object
 	{
 	public:

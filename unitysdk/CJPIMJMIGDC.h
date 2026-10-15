@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TimeRewindGlobalUnselectable; }
 #define CJPIMJMIGDC_CTOR_OFFSET UNITYSDK_OFFSET(0xD7513D0)
 #define CJPIMJMIGDC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD751400)
 
+inline static constexpr unsigned int CJPIMJMIGDC_TypeDefinitionIndex = 53400;
+
 	class CJPIMJMIGDC
 	{
 	public:

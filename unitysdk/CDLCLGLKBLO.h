@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CDLCLGLKBLO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E086CE0)
 #define CDLCLGLKBLO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E086D40)
 
+inline static constexpr unsigned int CDLCLGLKBLO_TypeDefinitionIndex = 28985;
+
 	class CDLCLGLKBLO : public ::System::Object
 	{
 	public:

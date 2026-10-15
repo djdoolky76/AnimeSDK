@@ -8,6 +8,8 @@ namespace RPG::GameCore { class CakeRaceActionRemoveBuff; }
 #define OBGIMOPFHNN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7CADD0)
 #define OBGIMOPFHNN_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C7CADE0)
 
+inline static constexpr unsigned int OBGIMOPFHNN_TypeDefinitionIndex = 37392;
+
 	class OBGIMOPFHNN : public ::GPLOFONGBGI
 	{
 	public:

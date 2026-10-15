@@ -44,6 +44,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int CVRApplications_TypeDefinitionIndex = 39198;
+
 	class CVRApplications : public ::System::Object
 	{
 	public:

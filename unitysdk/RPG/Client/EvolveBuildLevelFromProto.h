@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EvolveBuildLevelFromProto_TypeDefinitionIndex = 63797;
+
 	class EvolveBuildLevelFromProto : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PKENAGKIECB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF88F80)
 #define PKENAGKIECB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF88FE0)
 
+inline static constexpr unsigned int PKENAGKIECB_TypeDefinitionIndex = 27879;
+
 	class PKENAGKIECB : public ::System::Object
 	{
 	public:

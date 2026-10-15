@@ -37,6 +37,8 @@ namespace UnityEngine { class Light; }
 #define BNIEAMHOKJE_PLGMDMJENBH_OFFSET UNITYSDK_OFFSET(0xBDDB4B0)
 #define BNIEAMHOKJE_PPOGJCDIGPC_OFFSET UNITYSDK_OFFSET(0xBDDA790)
 
+inline static constexpr unsigned int BNIEAMHOKJE_TypeDefinitionIndex = 49569;
+
 	class BNIEAMHOKJE : public ::System::Object
 	{
 	public:

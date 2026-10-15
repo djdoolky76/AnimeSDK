@@ -13,6 +13,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_ForwardJSCallFunc; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_registerJSCallback_TypeDefinitionIndex = 39447;
+
 	class BrowserNative_Calltype_zfb_registerJSCallback : public ::System::MulticastDelegate
 	{
 	public:

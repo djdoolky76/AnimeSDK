@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureAIDefaultParameter_TypeDefinitionIndex = 15479;
+
 	class AdventureAIDefaultParameter : public ::RPG::GameCore::JsonConfig
 	{
 	public:

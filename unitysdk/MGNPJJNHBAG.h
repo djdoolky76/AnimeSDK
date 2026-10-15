@@ -6,6 +6,8 @@ namespace System { class String; }
 #define MGNPJJNHBAG_CTOR_OFFSET UNITYSDK_OFFSET(0xB929850)
 #define MGNPJJNHBAG_KLAMOIEIAIO_OFFSET UNITYSDK_OFFSET(0xB9297A0)
 
+inline static constexpr unsigned int MGNPJJNHBAG_TypeDefinitionIndex = 80341;
+
 	class MGNPJJNHBAG : public ::System::Object
 	{
 	public:

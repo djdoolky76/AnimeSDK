@@ -10,6 +10,8 @@ namespace System { class String; }
 #define AFJKCCDLNNA_JDKDPMGIABH_OFFSET UNITYSDK_OFFSET(0xCF0E420)
 #define AFJKCCDLNNA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF0E140)
 
+inline static constexpr unsigned int AFJKCCDLNNA_TypeDefinitionIndex = 53189;
+
 	class AFJKCCDLNNA
 	{
 	public:

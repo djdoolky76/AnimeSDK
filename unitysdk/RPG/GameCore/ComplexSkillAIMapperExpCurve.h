@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ComplexSkillAIMapperExpCurve; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAIMapperExpCurve_TypeDefinitionIndex = 15558;
+
 	class ComplexSkillAIMapperExpCurve : public ::RPG::GameCore::ComplexSkillAIMapper
 	{
 	public:

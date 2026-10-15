@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define PGFJBCEDDLN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E8F00)
 
+inline static constexpr unsigned int PGFJBCEDDLN_TypeDefinitionIndex = 41973;
+
 	class PGFJBCEDDLN : public ::System::Object
 	{
 	public:

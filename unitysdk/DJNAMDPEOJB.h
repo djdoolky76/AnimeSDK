@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define DJNAMDPEOJB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA2BCB0)
 
+inline static constexpr unsigned int DJNAMDPEOJB_TypeDefinitionIndex = 42795;
+
 	class DJNAMDPEOJB : public ::System::Object
 	{
 	public:

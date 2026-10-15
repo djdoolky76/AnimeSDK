@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MNFPIBFOIEF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA97A20)
 #define MNFPIBFOIEF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EA97A30)
 
+inline static constexpr unsigned int MNFPIBFOIEF___c_TypeDefinitionIndex = 30056;
+
 	class MNFPIBFOIEF___c : public ::System::Object
 	{
 	public:

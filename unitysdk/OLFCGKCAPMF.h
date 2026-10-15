@@ -4,6 +4,8 @@
 
 #define OLFCGKCAPMF_CTOR_OFFSET UNITYSDK_OFFSET(0xBF03850)
 
+inline static constexpr unsigned int OLFCGKCAPMF_TypeDefinitionIndex = 61268;
+
 	class OLFCGKCAPMF : public ::System::Exception
 	{
 	public:

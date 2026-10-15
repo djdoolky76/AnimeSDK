@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierExtraBinaryNodeRuleConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierExtraBinaryNodeRuleConfig_TypeDefinitionIndex = 19447;
+
 	class GridFightModifierExtraBinaryNodeRuleConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

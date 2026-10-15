@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvMonsterForbidSelect_TypeDefinitionIndex = 21808;
+
 	class AdvMonsterForbidSelect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

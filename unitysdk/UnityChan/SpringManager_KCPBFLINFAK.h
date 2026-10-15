@@ -6,6 +6,8 @@
 
 namespace UnityChan
 {
+	inline static constexpr unsigned int SpringManager_KCPBFLINFAK_TypeDefinitionIndex = 47697;
+
 	class SpringManager_KCPBFLINFAK : public ::System::Object
 	{
 	public:

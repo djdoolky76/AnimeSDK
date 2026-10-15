@@ -25,6 +25,8 @@ namespace System { class String; }
 #define IAFJANHGCLL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E603E70)
 #define IAFJANHGCLL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E603ED0)
 
+inline static constexpr unsigned int IAFJANHGCLL_TypeDefinitionIndex = 31163;
+
 	class IAFJANHGCLL : public ::System::Object
 	{
 	public:

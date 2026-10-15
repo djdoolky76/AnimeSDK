@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BOKEPGIBOHF_CTOR_OFFSET UNITYSDK_OFFSET(0xC194E30)
 #define BOKEPGIBOHF_EXECUTE_OFFSET UNITYSDK_OFFSET(0xC194B30)
 
+inline static constexpr unsigned int BOKEPGIBOHF_TypeDefinitionIndex = 77360;
+
 	class BOKEPGIBOHF : public ::System::Object
 	{
 	public:

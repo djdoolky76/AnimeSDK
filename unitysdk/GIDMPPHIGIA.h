@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define GIDMPPHIGIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAAB920)
 
+inline static constexpr unsigned int GIDMPPHIGIA_TypeDefinitionIndex = 43210;
+
 	class GIDMPPHIGIA : public ::System::Object
 	{
 	public:

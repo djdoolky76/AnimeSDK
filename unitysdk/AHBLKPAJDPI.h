@@ -31,6 +31,8 @@ namespace System { class String; }
 #define AHBLKPAJDPI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E26C310)
 #define AHBLKPAJDPI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E26C370)
 
+inline static constexpr unsigned int AHBLKPAJDPI_TypeDefinitionIndex = 26608;
+
 	class AHBLKPAJDPI : public ::System::Object
 	{
 	public:

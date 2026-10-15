@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AMDOMPIGBPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E51AA70)
 #define AMDOMPIGBPG___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E51AA80)
 
+inline static constexpr unsigned int AMDOMPIGBPG___c_TypeDefinitionIndex = 34870;
+
 	class AMDOMPIGBPG___c : public ::System::Object
 	{
 	public:

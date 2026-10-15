@@ -5,6 +5,8 @@ namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace System { class Action; }
 namespace UnityEngine::Events { class UnityAction; }
 
+inline static constexpr unsigned int IFBHALCIBOF_TypeDefinitionIndex = 49957;
+
 	class IFBHALCIBOF
 	{
 	public:

@@ -15,6 +15,8 @@ namespace UnityEngine { class Animation; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceSettleConfirmControl_TypeDefinitionIndex = 81544;
+
 	class ChallengeTierceSettleConfirmControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

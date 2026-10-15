@@ -13,6 +13,8 @@ namespace System { class String; }
 #define GJENMONALDH_NPNHKDDPNKC_OFFSET UNITYSDK_OFFSET(0x1CAB0010)
 #define GJENMONALDH_ONOMIHEBBIA_OFFSET UNITYSDK_OFFSET(0x1CAB03E0)
 
+inline static constexpr unsigned int GJENMONALDH_TypeDefinitionIndex = 42763;
+
 	class GJENMONALDH : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define AMNHNMCJDAL__GETVISUALTREEANCESTORS_D__1_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1EC63600)
 #define AMNHNMCJDAL__GETVISUALTREEANCESTORS_D__1_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EC63420)
 
+inline static constexpr unsigned int AMNHNMCJDAL__GetVisualTreeAncestors_d__1_TypeDefinitionIndex = 44102;
+
 	template <typename T>
 	class AMNHNMCJDAL__GetVisualTreeAncestors_d__1 : public ::System::Object
 	{

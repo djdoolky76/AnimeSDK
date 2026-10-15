@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyAudienceGroupAnimType_TypeDefinitionIndex = 21880;
+
 	class ModifyAudienceGroupAnimType : public ::RPG::GameCore::TaskConfig
 	{
 	public:

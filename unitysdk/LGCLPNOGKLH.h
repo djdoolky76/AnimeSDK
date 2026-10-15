@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LGCLPNOGKLH_LCDNFHIPGFA_OFFSET UNITYSDK_OFFSET(0xB68FD30)
 #define LGCLPNOGKLH_PFJDPKMFNOI_OFFSET UNITYSDK_OFFSET(0xB68FB80)
 
+inline static constexpr unsigned int LGCLPNOGKLH_TypeDefinitionIndex = 68255;
+
 	class LGCLPNOGKLH : public ::System::Object
 	{
 	public:

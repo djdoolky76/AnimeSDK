@@ -12,6 +12,8 @@ namespace RPG::GameCore { class LittleGameWayPointGraphEdge; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameWayPointGraphConfig_TypeDefinitionIndex = 18878;
+
 	class LittleGameWayPointGraphConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

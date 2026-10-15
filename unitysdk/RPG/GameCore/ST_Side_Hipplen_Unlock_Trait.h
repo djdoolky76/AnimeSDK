@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Side_Hipplen_Unlock_Trait; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_Hipplen_Unlock_Trait_TypeDefinitionIndex = 21306;
+
 	class ST_Side_Hipplen_Unlock_Trait : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

@@ -18,6 +18,8 @@ class KDFFHMDFALG;
 #define NPEBLEKDAGI_LKINOKFJPCL_OFFSET UNITYSDK_OFFSET(0xBCFB890)
 #define NPEBLEKDAGI_PCPBCOPEIED_OFFSET UNITYSDK_OFFSET(0xBCFB9B0)
 
+inline static constexpr unsigned int NPEBLEKDAGI_TypeDefinitionIndex = 60613;
+
 	class NPEBLEKDAGI : public ::System::Object
 	{
 	public:

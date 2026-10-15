@@ -5,6 +5,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int KeyUpEvent_TypeDefinitionIndex = 5953;
+
 	class KeyUpEvent
 	{
 	public:

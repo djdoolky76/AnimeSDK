@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CBHMAHKODLB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E069530)
 #define CBHMAHKODLB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E069590)
 
+inline static constexpr unsigned int CBHMAHKODLB_TypeDefinitionIndex = 31958;
+
 	class CBHMAHKODLB : public ::System::Object
 	{
 	public:

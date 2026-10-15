@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowFightFestMainRaceUpgradeResultDialog; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowFightFestMainRaceUpgradeResultDialog_TypeDefinitionIndex = 21722;
+
 	class ShowFightFestMainRaceUpgradeResultDialog : public ::RPG::GameCore::TaskConfig
 	{
 	public:

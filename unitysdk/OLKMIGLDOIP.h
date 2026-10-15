@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OLKMIGLDOIP_CTOR_OFFSET UNITYSDK_OFFSET(0xBF0F6B0)
 #define OLKMIGLDOIP_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0xBF0F6C0)
 
+inline static constexpr unsigned int OLKMIGLDOIP_TypeDefinitionIndex = 65985;
+
 	class OLKMIGLDOIP : public ::System::Object
 	{
 	public:

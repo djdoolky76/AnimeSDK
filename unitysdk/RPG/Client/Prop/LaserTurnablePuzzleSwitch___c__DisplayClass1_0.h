@@ -9,6 +9,8 @@ namespace RPG::Client::Prop { class LaserTurnableSelectParamData; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int LaserTurnablePuzzleSwitch___c__DisplayClass1_0_TypeDefinitionIndex = 78676;
+
 	class LaserTurnablePuzzleSwitch___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

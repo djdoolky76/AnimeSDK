@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int JukeBoxConfig_TypeDefinitionIndex = 16397;
+
 	class JukeBoxConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

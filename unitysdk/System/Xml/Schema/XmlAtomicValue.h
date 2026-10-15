@@ -36,6 +36,8 @@ namespace System::Xml::Schema { class XmlSchemaType; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlAtomicValue_TypeDefinitionIndex = 2180;
+
 	class XmlAtomicValue : public ::System::Xml::XPath::XPathItem
 	{
 	public:

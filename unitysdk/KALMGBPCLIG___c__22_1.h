@@ -4,6 +4,8 @@
 class CMGMEOACHDC;
 namespace System { class Object; }
 
+inline static constexpr unsigned int KALMGBPCLIG___c__22_1_TypeDefinitionIndex = 44185;
+
 	template <typename T>
 	class KALMGBPCLIG___c__22_1 : public ::System::Object
 	{

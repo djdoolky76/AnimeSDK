@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueMagicOptionalLayerGate; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueMagicOptionalLayerGate_TypeDefinitionIndex = 22125;
+
 	class RogueMagicOptionalLayerGate : public ::RPG::GameCore::TaskConfig
 	{
 	public:

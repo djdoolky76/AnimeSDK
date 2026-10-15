@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingBattleAbilityConditionChecker_HittedNumG
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAbilityConditionChecker_HittedNumGreaterThan_TypeDefinitionIndex = 15721;
+
 	class ChenLingBattleAbilityConditionChecker_HittedNumGreaterThan : public ::RPG::GameCore::BaseChenLingBattleAbilityConditionChecker
 	{
 	public:

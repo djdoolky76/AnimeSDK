@@ -28,6 +28,8 @@ namespace System { class String; }
 #define IEFFGOMNLNA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E638270)
 #define IEFFGOMNLNA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6382D0)
 
+inline static constexpr unsigned int IEFFGOMNLNA_TypeDefinitionIndex = 32786;
+
 	class IEFFGOMNLNA : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class AnchorConfigOld; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AnchorConfigOld_TypeDefinitionIndex = 18321;
+
 	class AnchorConfigOld : public ::RPG::GameCore::JsonConfig
 	{
 	public:

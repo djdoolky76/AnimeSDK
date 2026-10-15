@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JACCKHFDPCK_DGBHFNCJEGP_OFFSET UNITYSDK_OFFSET(0x16540490)
 #define JACCKHFDPCK_DGIFGCJKELM_OFFSET UNITYSDK_OFFSET(0x16540340)
 
+inline static constexpr unsigned int JACCKHFDPCK_TypeDefinitionIndex = 60110;
+
 	class JACCKHFDPCK : public ::System::Object
 	{
 	public:

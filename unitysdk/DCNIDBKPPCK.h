@@ -32,6 +32,8 @@ namespace System { class String; }
 #define DCNIDBKPPCK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1775D0)
 #define DCNIDBKPPCK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E177630)
 
+inline static constexpr unsigned int DCNIDBKPPCK_TypeDefinitionIndex = 26655;
+
 	class DCNIDBKPPCK : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Pet::BlindBox
 {
+	inline static constexpr unsigned int BlindBoxPetAppearance_TypeDefinitionIndex = 75722;
+
 	class BlindBoxPetAppearance : public ::System::Object
 	{
 	public:

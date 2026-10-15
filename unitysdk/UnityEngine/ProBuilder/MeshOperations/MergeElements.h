@@ -13,6 +13,8 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int MergeElements_TypeDefinitionIndex = 44501;
+
 	class MergeElements : public ::System::Object
 	{
 	public:

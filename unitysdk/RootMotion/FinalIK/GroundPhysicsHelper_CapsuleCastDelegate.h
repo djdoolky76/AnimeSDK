@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace RootMotion::FinalIK
 {
+	inline static constexpr unsigned int GroundPhysicsHelper_CapsuleCastDelegate_TypeDefinitionIndex = 45990;
+
 	class GroundPhysicsHelper_CapsuleCastDelegate : public ::System::MulticastDelegate
 	{
 	public:

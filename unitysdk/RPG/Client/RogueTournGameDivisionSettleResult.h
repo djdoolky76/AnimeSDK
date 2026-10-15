@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournGameDivisionSettleResult_TypeDefinitionIndex = 67843;
+
 	class RogueTournGameDivisionSettleResult : public ::System::Object
 	{
 	public:

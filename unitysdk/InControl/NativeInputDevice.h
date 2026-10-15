@@ -40,6 +40,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int NativeInputDevice_TypeDefinitionIndex = 40866;
+
 	class NativeInputDevice : public ::InControl::InputDevice
 	{
 	public:

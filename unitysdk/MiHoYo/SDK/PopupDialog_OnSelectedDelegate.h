@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PopupDialog_OnSelectedDelegate_TypeDefinitionIndex = 8010;
+
 	class PopupDialog_OnSelectedDelegate : public ::System::MulticastDelegate
 	{
 	public:

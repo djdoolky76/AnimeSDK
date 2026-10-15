@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BookletFlippableView_TypeDefinitionIndex = 72389;
+
 	class BookletFlippableView : public ::RPG::Client::BookletView
 	{
 	public:

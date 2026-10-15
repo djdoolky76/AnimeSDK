@@ -4,6 +4,8 @@
 
 #define EHFIOFCHLMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA50510)
 
+inline static constexpr unsigned int EHFIOFCHLMN_TypeDefinitionIndex = 42102;
+
 	class EHFIOFCHLMN : public ::System::Object
 	{
 	public:

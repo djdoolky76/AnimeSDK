@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetViewModeEnabled; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetViewModeEnabled_TypeDefinitionIndex = 23190;
+
 	class SetViewModeEnabled : public ::RPG::GameCore::TaskConfig
 	{
 	public:

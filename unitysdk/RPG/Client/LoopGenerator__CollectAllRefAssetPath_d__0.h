@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LoopGenerator__CollectAllRefAssetPath_d__0_TypeDefinitionIndex = 72977;
+
 	class LoopGenerator__CollectAllRefAssetPath_d__0 : public ::System::Object
 	{
 	public:

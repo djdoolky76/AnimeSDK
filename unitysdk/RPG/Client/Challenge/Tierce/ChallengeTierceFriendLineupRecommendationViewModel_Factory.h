@@ -10,6 +10,8 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceFriendLineupReco
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceFriendLineupRecommendationViewModel_Factory_TypeDefinitionIndex = 81602;
+
 	class ChallengeTierceFriendLineupRecommendationViewModel_Factory : public ::System::Object
 	{
 	public:

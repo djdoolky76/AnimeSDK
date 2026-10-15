@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IFPDNHGAKBG___SHOWCATCHUPREWARDDIALOG_B__27_0_OFFSET UNITYSDK_OFFSET(0x15F32C40)
 #define IFPDNHGAKBG___SHOWEQUIPORB_B__24_0_OFFSET UNITYSDK_OFFSET(0x15F32C10)
 
+inline static constexpr unsigned int IFPDNHGAKBG_TypeDefinitionIndex = 75264;
+
 	class IFPDNHGAKBG : public ::System::Object
 	{
 	public:

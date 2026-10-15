@@ -10,6 +10,8 @@ namespace RPG::GameCore::Booklet { class WaitAutoPlayStepConfig; }
 
 namespace RPG::GameCore::Booklet
 {
+	inline static constexpr unsigned int WaitAutoPlayStepConfig_TypeDefinitionIndex = 24982;
+
 	class WaitAutoPlayStepConfig : public ::RPG::GameCore::Booklet::StepConfig
 	{
 	public:

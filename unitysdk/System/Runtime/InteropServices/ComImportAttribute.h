@@ -6,6 +6,8 @@
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int ComImportAttribute_TypeDefinitionIndex = 1413;
+
 	class ComImportAttribute : public ::System::Attribute
 	{
 	public:

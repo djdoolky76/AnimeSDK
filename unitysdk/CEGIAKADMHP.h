@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CEGIAKADMHP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E092D90)
 #define CEGIAKADMHP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E092DF0)
 
+inline static constexpr unsigned int CEGIAKADMHP_TypeDefinitionIndex = 29448;
+
 	class CEGIAKADMHP : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_MarkRecommendDice; }
 #define PMHANPGENDG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7F5380)
 #define PMHANPGENDG_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C7F5430)
 
+inline static constexpr unsigned int PMHANPGENDG_TypeDefinitionIndex = 36290;
+
 	class PMHANPGENDG : public ::AJBKGPOEBFG
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define IMIOIKDAJOK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6B8540)
 #define IMIOIKDAJOK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6B85A0)
 
+inline static constexpr unsigned int IMIOIKDAJOK_TypeDefinitionIndex = 32452;
+
 	class IMIOIKDAJOK : public ::System::Object
 	{
 	public:

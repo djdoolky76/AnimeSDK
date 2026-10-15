@@ -140,6 +140,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingGameplayInputButtonsControl_TypeDefinitionIndex = 81881;
+
 	class B51RacingGameplayInputButtonsControl : public ::Sofa::BaseSofaControl
 	{
 	public:

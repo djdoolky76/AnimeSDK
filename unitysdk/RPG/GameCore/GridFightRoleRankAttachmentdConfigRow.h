@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightRoleRankAttachmentdConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightRoleRankAttachmentdConfigRow_TypeDefinitionIndex = 13560;
+
 	class GridFightRoleRankAttachmentdConfigRow : public ::System::Object
 	{
 	public:

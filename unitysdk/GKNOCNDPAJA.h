@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GKNOCNDPAJA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4BC660)
 #define GKNOCNDPAJA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4BC6C0)
 
+inline static constexpr unsigned int GKNOCNDPAJA_TypeDefinitionIndex = 27048;
+
 	class GKNOCNDPAJA : public ::System::Object
 	{
 	public:

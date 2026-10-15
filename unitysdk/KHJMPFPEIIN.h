@@ -28,6 +28,8 @@ namespace System { class String; }
 #define KHJMPFPEIIN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E845C10)
 #define KHJMPFPEIIN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E845C70)
 
+inline static constexpr unsigned int KHJMPFPEIIN_TypeDefinitionIndex = 26446;
+
 	class KHJMPFPEIIN : public ::System::Object
 	{
 	public:

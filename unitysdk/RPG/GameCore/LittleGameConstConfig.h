@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameConstConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameConstConfig_TypeDefinitionIndex = 18842;
+
 	class LittleGameConstConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

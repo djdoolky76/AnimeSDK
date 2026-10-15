@@ -63,6 +63,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MNBNFBAMKKI__SEQUENCEENDANDFLUSH_OFFSET UNITYSDK_OFFSET(0xB9E7420)
 #define MNBNFBAMKKI__TRYATTACHMUTEXEFFECTS_OFFSET UNITYSDK_OFFSET(0xB9E7490)
 
+inline static constexpr unsigned int MNBNFBAMKKI_TypeDefinitionIndex = 53780;
+
 	class MNBNFBAMKKI : public ::RPG::GameCore::BaseModifierInstance
 	{
 	public:

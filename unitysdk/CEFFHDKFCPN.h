@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 #define CEFFHDKFCPN_HHPLMJPLDHE_OFFSET UNITYSDK_OFFSET(0xC784000)
 #define CEFFHDKFCPN_MFDKJKMBHPD_OFFSET UNITYSDK_OFFSET(0xC7840B0)
 
+inline static constexpr unsigned int CEFFHDKFCPN_TypeDefinitionIndex = 65839;
+
 	class CEFFHDKFCPN : public ::System::Object
 	{
 	public:

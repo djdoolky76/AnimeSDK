@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEquipReturnPackEvent_TypeDefinitionIndex = 64919;
+
 	class GridFightEquipReturnPackEvent : public ::System::Object
 	{
 	public:

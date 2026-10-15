@@ -9,6 +9,8 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldUserAgreementDialog; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int HandheldUserAgreementDialog___c__DisplayClass32_0_TypeDefinitionIndex = 8821;
+
 	class HandheldUserAgreementDialog___c__DisplayClass32_0 : public ::System::Object
 	{
 	public:

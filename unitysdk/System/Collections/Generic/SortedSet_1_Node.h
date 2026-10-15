@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int SortedSet_1_Node_TypeDefinitionIndex = 3043;
+
 	template <typename T>
 	class SortedSet_1_Node : public ::System::Object
 	{

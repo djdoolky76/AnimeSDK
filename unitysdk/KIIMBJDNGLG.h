@@ -17,6 +17,8 @@ class LGHPKEAODPH;
 #define KIIMBJDNGLG_KELIEKPJHHC_OFFSET UNITYSDK_OFFSET(0xB4313D0)
 #define KIIMBJDNGLG_PMAFOPCACHL_OFFSET UNITYSDK_OFFSET(0xB431260)
 
+inline static constexpr unsigned int KIIMBJDNGLG_TypeDefinitionIndex = 78088;
+
 	class KIIMBJDNGLG : public ::System::Object
 	{
 	public:

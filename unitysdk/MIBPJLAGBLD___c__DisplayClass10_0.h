@@ -10,6 +10,8 @@ namespace System { class Action; }
 #define MIBPJLAGBLD___C__DISPLAYCLASS10_0___SHOWLOANPERFORMENCE_B__0_OFFSET UNITYSDK_OFFSET(0xB951310)
 #define MIBPJLAGBLD___C__DISPLAYCLASS10_0___SHOWLOANPERFORMENCE_B__1_OFFSET UNITYSDK_OFFSET(0xB9514A0)
 
+inline static constexpr unsigned int MIBPJLAGBLD___c__DisplayClass10_0_TypeDefinitionIndex = 76462;
+
 	class MIBPJLAGBLD___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

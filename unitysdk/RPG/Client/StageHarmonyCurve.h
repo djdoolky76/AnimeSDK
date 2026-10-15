@@ -7,6 +7,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageHarmonyCurve_TypeDefinitionIndex = 70982;
+
 	class StageHarmonyCurve : public ::System::Object
 	{
 	public:

@@ -67,6 +67,8 @@ namespace System::IO { class TextWriter; }
 
 namespace Newtonsoft::Json
 {
+	inline static constexpr unsigned int JsonTextWriter_TypeDefinitionIndex = 9611;
+
 	class JsonTextWriter : public ::Newtonsoft::Json::JsonWriter
 	{
 	public:

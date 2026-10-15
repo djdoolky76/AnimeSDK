@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PBLOJEGPEGE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBFF4AE0)
 #define PBLOJEGPEGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFF4A10)
 
+inline static constexpr unsigned int PBLOJEGPEGE_TypeDefinitionIndex = 52984;
+
 	class PBLOJEGPEGE
 	{
 	public:

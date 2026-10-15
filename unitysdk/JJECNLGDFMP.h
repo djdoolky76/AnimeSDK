@@ -12,6 +12,8 @@ namespace System { class Action; }
 #define JJECNLGDFMP_OPCKNBHNBOA_OFFSET UNITYSDK_OFFSET(0xB203470)
 #define JJECNLGDFMP_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xB2031C0)
 
+inline static constexpr unsigned int JJECNLGDFMP_TypeDefinitionIndex = 62150;
+
 	class JJECNLGDFMP : public ::System::Object
 	{
 	public:

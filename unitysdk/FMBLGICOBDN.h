@@ -62,6 +62,8 @@ namespace UnityEngine { class Transform; }
 #define FMBLGICOBDN_OIHHAOJDDBF_OFFSET UNITYSDK_OFFSET(0x15849800)
 #define FMBLGICOBDN_PFDPGBCAKFH_OFFSET UNITYSDK_OFFSET(0x1584A3F0)
 
+inline static constexpr unsigned int FMBLGICOBDN_TypeDefinitionIndex = 49139;
+
 	class FMBLGICOBDN : public ::System::Object
 	{
 	public:

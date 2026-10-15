@@ -18,6 +18,8 @@ namespace System { class String; }
 #define NOPELCCFAIG__CUSTOMBINDVIEW_OFFSET UNITYSDK_OFFSET(0xBCF84E0)
 #define NOPELCCFAIG__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xBCF8650)
 
+inline static constexpr unsigned int NOPELCCFAIG_TypeDefinitionIndex = 72721;
+
 	class NOPELCCFAIG : public ::RPG::Client::NetworkErrorDialog
 	{
 	public:

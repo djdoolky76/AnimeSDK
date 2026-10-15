@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PixAirSupplyRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PixAirSupplyRow_TypeDefinitionIndex = 12153;
+
 	class PixAirSupplyRow : public ::System::Object
 	{
 	public:

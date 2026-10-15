@@ -17,6 +17,8 @@ namespace System { class Action; }
 #define KEHHGINHEDO_MDNEACBIHEP_OFFSET UNITYSDK_OFFSET(0xB37ACF0)
 #define KEHHGINHEDO_PEAOIBKBPDO_OFFSET UNITYSDK_OFFSET(0xB37AA60)
 
+inline static constexpr unsigned int KEHHGINHEDO_TypeDefinitionIndex = 75451;
+
 	class KEHHGINHEDO : public ::System::Object
 	{
 	public:

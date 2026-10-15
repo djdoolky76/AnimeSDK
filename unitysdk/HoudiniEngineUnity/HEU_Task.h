@@ -12,6 +12,8 @@ namespace HoudiniEngineUnity { class HEU_Task_TaskCallback; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_Task_TypeDefinitionIndex = 40599;
+
 	class HEU_Task : public ::System::Object
 	{
 	public:

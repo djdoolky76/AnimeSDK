@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define HIKIBKBECKO_EHFLDBMLBPM_9_OFFSET UNITYSDK_OFFSET(0x15CF0DB0)
 #define HIKIBKBECKO_EHFLDBMLBPM_OFFSET UNITYSDK_OFFSET(0x15CF05B0)
 
+inline static constexpr unsigned int HIKIBKBECKO_TypeDefinitionIndex = 75884;
+
 	class HIKIBKBECKO : public ::System::Object
 	{
 	public:

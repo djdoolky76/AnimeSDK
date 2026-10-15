@@ -3,6 +3,8 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int DropRateType_TypeDefinitionIndex = 75149;
+
 	enum class DropRateType : ::System::Int32
 	{
 		Chest = 0,

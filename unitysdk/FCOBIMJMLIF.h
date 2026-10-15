@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FCOBIMJMLIF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E34F140)
 #define FCOBIMJMLIF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E34F1A0)
 
+inline static constexpr unsigned int FCOBIMJMLIF_TypeDefinitionIndex = 29823;
+
 	class FCOBIMJMLIF : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client::CityAtmosphereThread
 {
+	inline static constexpr unsigned int ECityAtmosphereThreadType_TypeDefinitionIndex = 82165;
+
 	enum class ECityAtmosphereThreadType : ::System::Int32
 	{
 		CarFlow = 0,

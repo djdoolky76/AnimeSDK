@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UINavigationDirection_TypeDefinitionIndex = 73173;
+
 	enum class UINavigationDirection : ::System::Int32
 	{
 		Up = 0,

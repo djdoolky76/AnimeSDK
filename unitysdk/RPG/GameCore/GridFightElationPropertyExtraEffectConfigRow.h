@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightElationPropertyExtraEffectConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightElationPropertyExtraEffectConfigRow_TypeDefinitionIndex = 13709;
+
 	class GridFightElationPropertyExtraEffectConfigRow : public ::System::Object
 	{
 	public:

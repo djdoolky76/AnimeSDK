@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitAnimState_TypeDefinitionIndex = 22875;
+
 	class WaitAnimState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

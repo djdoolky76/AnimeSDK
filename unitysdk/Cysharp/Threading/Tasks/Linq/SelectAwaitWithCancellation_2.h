@@ -8,6 +8,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int SelectAwaitWithCancellation_2_TypeDefinitionIndex = 45559;
+
 	template <typename T1, typename T2>
 	class SelectAwaitWithCancellation_2 : public ::System::Object
 	{

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LockCamera; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LockCamera_TypeDefinitionIndex = 20157;
+
 	class LockCamera : public ::RPG::GameCore::TaskConfig
 	{
 	public:

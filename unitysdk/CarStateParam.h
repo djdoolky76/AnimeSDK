@@ -4,6 +4,8 @@
 
 #define CARSTATEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xDCE6A30)
 
+inline static constexpr unsigned int CarStateParam_TypeDefinitionIndex = 47076;
+
 	class CarStateParam : public ::System::Object
 	{
 	public:

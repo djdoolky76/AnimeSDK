@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DFALDMOKJEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E199170)
 #define DFALDMOKJEN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1991D0)
 
+inline static constexpr unsigned int DFALDMOKJEN_TypeDefinitionIndex = 29787;
+
 	class DFALDMOKJEN : public ::System::Object
 	{
 	public:

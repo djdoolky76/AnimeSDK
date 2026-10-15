@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyCardSpecialShowConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyCardSpecialShowConfigRow_TypeDefinitionIndex = 15317;
+
 	class TrainPartyCardSpecialShowConfigRow : public ::System::Object
 	{
 	public:

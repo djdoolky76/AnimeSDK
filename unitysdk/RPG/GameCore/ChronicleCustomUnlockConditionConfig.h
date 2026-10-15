@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChronicleCustomUnlockConditionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChronicleCustomUnlockConditionConfig_TypeDefinitionIndex = 18974;
+
 	class ChronicleCustomUnlockConditionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

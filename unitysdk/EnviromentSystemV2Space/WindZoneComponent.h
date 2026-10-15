@@ -17,6 +17,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int WindZoneComponent_TypeDefinitionIndex = 49346;
+
 	class WindZoneComponent : public ::EnviromentSystemV2Space::PrefabPropertyComponent
 	{
 	public:

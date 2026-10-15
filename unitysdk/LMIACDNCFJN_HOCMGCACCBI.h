@@ -4,6 +4,8 @@
 
 #define LMIACDNCFJN_HOCMGCACCBI_CTOR_OFFSET UNITYSDK_OFFSET(0xB783800)
 
+inline static constexpr unsigned int LMIACDNCFJN_HOCMGCACCBI_TypeDefinitionIndex = 64697;
+
 	class LMIACDNCFJN_HOCMGCACCBI : public ::System::Object
 	{
 	public:

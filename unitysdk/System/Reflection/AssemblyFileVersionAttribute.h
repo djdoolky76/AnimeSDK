@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int AssemblyFileVersionAttribute_TypeDefinitionIndex = 549;
+
 	class AssemblyFileVersionAttribute : public ::System::Attribute
 	{
 	public:

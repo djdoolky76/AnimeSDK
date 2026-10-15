@@ -37,6 +37,8 @@ namespace System { class Nullable; }
 #define ACGKMEPLIBJ_SET_CURRENTWINDOW_OFFSET UNITYSDK_OFFSET(0xB11FF90)
 #define ACGKMEPLIBJ_SET_SIDE_OFFSET UNITYSDK_OFFSET(0xB11FF70)
 
+inline static constexpr unsigned int ACGKMEPLIBJ_TypeDefinitionIndex = 68675;
+
 	class ACGKMEPLIBJ : public ::System::Object
 	{
 	public:

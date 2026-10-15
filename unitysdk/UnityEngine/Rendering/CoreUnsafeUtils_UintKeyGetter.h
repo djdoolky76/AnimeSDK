@@ -5,6 +5,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CoreUnsafeUtils_UintKeyGetter_TypeDefinitionIndex = 35479;
+
 	struct alignas(4) CoreUnsafeUtils_UintKeyGetter
 	{
 		::System::UInt32 Get(::System::UInt32 a1)

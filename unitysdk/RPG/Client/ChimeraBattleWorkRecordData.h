@@ -19,6 +19,8 @@ namespace RPG::Client { class ChimeraBattleWorkRecordData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraBattleWorkRecordData_TypeDefinitionIndex = 63451;
+
 	class ChimeraBattleWorkRecordData : public ::System::Object
 	{
 	public:

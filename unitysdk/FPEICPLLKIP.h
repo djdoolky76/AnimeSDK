@@ -71,6 +71,8 @@ namespace UnityEngine { class Transform; }
 #define FPEICPLLKIP_SET_VIEWROOT_OFFSET UNITYSDK_OFFSET(0x15917A10)
 #define FPEICPLLKIP__ONRELEASEVIEW_OFFSET UNITYSDK_OFFSET(0x15911A50)
 
+inline static constexpr unsigned int FPEICPLLKIP_TypeDefinitionIndex = 77764;
+
 	class FPEICPLLKIP
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define ABGMGHNOONM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDCC410)
 #define ABGMGHNOONM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDCC470)
 
+inline static constexpr unsigned int ABGMGHNOONM_TypeDefinitionIndex = 28819;
+
 	class ABGMGHNOONM : public ::System::Object
 	{
 	public:

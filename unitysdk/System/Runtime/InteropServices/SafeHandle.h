@@ -19,6 +19,8 @@
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int SafeHandle_TypeDefinitionIndex = 1434;
+
 	class SafeHandle : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject
 	{
 	public:

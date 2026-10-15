@@ -6,6 +6,8 @@ namespace System { class Type; }
 #define NGJILGODIOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC886F0)
 #define NGJILGODIOP_GET_STAGESTEPTYPE_OFFSET UNITYSDK_OFFSET(0x1EC88900)
 
+inline static constexpr unsigned int NGJILGODIOP_TypeDefinitionIndex = 44218;
+
 	class NGJILGODIOP : public ::System::Attribute
 	{
 	public:

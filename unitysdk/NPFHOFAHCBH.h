@@ -8,6 +8,8 @@ namespace System { class String; }
 #define NPFHOFAHCBH_FAECKOBFFHC_OFFSET UNITYSDK_OFFSET(0xBCFCE80)
 #define NPFHOFAHCBH_MHPBMOILMNG_OFFSET UNITYSDK_OFFSET(0xBCFCEA0)
 
+inline static constexpr unsigned int NPFHOFAHCBH_TypeDefinitionIndex = 55010;
+
 	class NPFHOFAHCBH : public ::System::Object
 	{
 	public:

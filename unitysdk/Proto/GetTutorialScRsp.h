@@ -33,6 +33,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int GetTutorialScRsp_TypeDefinitionIndex = 35042;
+
 	class GetTutorialScRsp : public ::System::Object
 	{
 	public:

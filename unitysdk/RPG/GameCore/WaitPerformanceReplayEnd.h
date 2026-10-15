@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitPerformanceReplayEnd; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitPerformanceReplayEnd_TypeDefinitionIndex = 21849;
+
 	class WaitPerformanceReplayEnd : public ::RPG::GameCore::TaskConfig
 	{
 	public:

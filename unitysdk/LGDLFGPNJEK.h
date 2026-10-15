@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LGDLFGPNJEK_OLEHFIFCLIN_OFFSET UNITYSDK_OFFSET(0xB6905E0)
 #define LGDLFGPNJEK_PHDLCLKCAEC_OFFSET UNITYSDK_OFFSET(0xB690D10)
 
+inline static constexpr unsigned int LGDLFGPNJEK_TypeDefinitionIndex = 61359;
+
 	class LGDLFGPNJEK : public ::System::Object
 	{
 	public:

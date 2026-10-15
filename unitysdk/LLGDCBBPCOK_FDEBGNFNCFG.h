@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define LLGDCBBPCOK_FDEBGNFNCFG_OBNCMBGPLOG_OFFSET UNITYSDK_OFFSET(0x1A310)
 #define LLGDCBBPCOK_FDEBGNFNCFG_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1A320)
 
+inline static constexpr unsigned int LLGDCBBPCOK_FDEBGNFNCFG_TypeDefinitionIndex = 51807;
+
 	struct alignas(8) LLGDCBBPCOK_FDEBGNFNCFG
 	{
 		::Il2CppArray<::System::Collections::Generic::HashSet_1<::System::Int32>*>* KLJNOODEEBM; // 0x10

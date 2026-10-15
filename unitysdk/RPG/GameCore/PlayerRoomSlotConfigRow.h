@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PlayerRoomSlotConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerRoomSlotConfigRow_TypeDefinitionIndex = 14545;
+
 	class PlayerRoomSlotConfigRow : public ::System::Object
 	{
 	public:

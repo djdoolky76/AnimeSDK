@@ -51,6 +51,8 @@ namespace UnityEngine::UI { class Text; }
 #define BNBNDAHMGPE__ONBIND_OFFSET UNITYSDK_OFFSET(0xBDC4F60)
 #define BNBNDAHMGPE___ONBIND_B__1_0_OFFSET UNITYSDK_OFFSET(0xBDC6E00)
 
+inline static constexpr unsigned int BNBNDAHMGPE_TypeDefinitionIndex = 72039;
+
 	class BNBNDAHMGPE : public ::FMPCODLIOLG
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Util_TypeDefinitionIndex = 8198;
+
 	class Util : public ::System::Object
 	{
 	public:

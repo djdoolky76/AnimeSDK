@@ -13,6 +13,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int TypeExtensions___c_TypeDefinitionIndex = 50263;
+
 	class TypeExtensions___c : public ::System::Object
 	{
 	public:

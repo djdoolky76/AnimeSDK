@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 #define FIJALLBOCAM_NCEHOCEBIAF_OFFSET UNITYSDK_OFFSET(0x2E76760)
 #define FIJALLBOCAM_PODDBLGCJMF_OFFSET UNITYSDK_OFFSET(0x2E767E0)
 
+inline static constexpr unsigned int FIJALLBOCAM_TypeDefinitionIndex = 68485;
+
 	struct alignas(4) FIJALLBOCAM
 	{
 		::RootMotion::IKJob::IKTransformRef DICDJJOJKGF; // 0x10

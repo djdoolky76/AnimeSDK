@@ -59,6 +59,8 @@ namespace System { class String; }
 #define GOCBELPFLHO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4E9620)
 #define GOCBELPFLHO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4E9680)
 
+inline static constexpr unsigned int GOCBELPFLHO_TypeDefinitionIndex = 35143;
+
 	class GOCBELPFLHO : public ::System::Object
 	{
 	public:

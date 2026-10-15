@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DeployPuzzleChangeBoardState_TypeDefinitionIndex = 20364;
+
 	class DeployPuzzleChangeBoardState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

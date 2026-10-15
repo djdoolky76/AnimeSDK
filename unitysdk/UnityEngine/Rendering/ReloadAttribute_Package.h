@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int ReloadAttribute_Package_TypeDefinitionIndex = 35608;
+
 	enum class ReloadAttribute_Package : ::System::Int32
 	{
 		Builtin = 0,

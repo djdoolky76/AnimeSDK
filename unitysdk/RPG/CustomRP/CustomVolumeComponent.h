@@ -9,6 +9,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CustomVolumeComponent_TypeDefinitionIndex = 35441;
+
 	class CustomVolumeComponent : public ::UnityEngine::Rendering::VolumeComponent
 	{
 	public:

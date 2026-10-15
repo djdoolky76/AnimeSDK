@@ -7,6 +7,8 @@ class KAKADGHNMFK;
 #define JMAAPINLPDI___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB2583A0)
 #define JMAAPINLPDI___C__DISPLAYCLASS2_0__SELECTTARGET_B__0_OFFSET UNITYSDK_OFFSET(0xB2583B0)
 
+inline static constexpr unsigned int JMAAPINLPDI___c__DisplayClass2_0_TypeDefinitionIndex = 77547;
+
 	class JMAAPINLPDI___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

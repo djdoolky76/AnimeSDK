@@ -7,6 +7,8 @@ namespace RPG::Editor::EnvironmentSystemV2Editor { class EnvEditorPropertyData; 
 
 namespace RPG::Editor::EnvironmentSystemV2Editor
 {
+	inline static constexpr unsigned int EnvEditorSingleProperty_TypeDefinitionIndex = 52078;
+
 	class EnvEditorSingleProperty : public ::RPG::Editor::EnvironmentSystemV2Editor::EnvEditorBlock
 	{
 	public:

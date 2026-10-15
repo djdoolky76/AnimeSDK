@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define INBDPGBJIFA___C___CCTOR_B__73_1_OFFSET UNITYSDK_OFFSET(0x1E6BF0C0)
 #define INBDPGBJIFA___C___CCTOR_B__73_2_OFFSET UNITYSDK_OFFSET(0x1E6BF0D0)
 
+inline static constexpr unsigned int INBDPGBJIFA___c_TypeDefinitionIndex = 33981;
+
 	class INBDPGBJIFA___c : public ::System::Object
 	{
 	public:

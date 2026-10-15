@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsInCharmAction_TypeDefinitionIndex = 23494;
+
 	class ByIsInCharmAction : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

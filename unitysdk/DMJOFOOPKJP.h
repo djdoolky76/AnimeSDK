@@ -12,6 +12,8 @@ namespace System { class String; }
 #define DMJOFOOPKJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD46620)
 #define DMJOFOOPKJP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD46180)
 
+inline static constexpr unsigned int DMJOFOOPKJP_TypeDefinitionIndex = 15053;
+
 	class DMJOFOOPKJP : public ::System::Object
 	{
 	public:

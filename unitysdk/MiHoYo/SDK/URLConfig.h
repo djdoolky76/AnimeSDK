@@ -10,6 +10,8 @@ namespace MiHoYo::SDK { class URLConfig_URL; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int URLConfig_TypeDefinitionIndex = 8076;
+
 	class URLConfig : public ::System::Object
 	{
 	public:

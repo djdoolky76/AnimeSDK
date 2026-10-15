@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ELPBDFINJGH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2DBCC0)
 #define ELPBDFINJGH___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E2DBCD0)
 
+inline static constexpr unsigned int ELPBDFINJGH___c_TypeDefinitionIndex = 29969;
+
 	class ELPBDFINJGH___c : public ::System::Object
 	{
 	public:

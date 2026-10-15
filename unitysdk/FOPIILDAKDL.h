@@ -10,6 +10,8 @@ namespace RPG::GameCore { class VCameraNoiseChange; }
 #define FOPIILDAKDL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15909730)
 #define FOPIILDAKDL_TICK_OFFSET UNITYSDK_OFFSET(0x15909780)
 
+inline static constexpr unsigned int FOPIILDAKDL_TypeDefinitionIndex = 55799;
+
 	class FOPIILDAKDL : public ::GELIALJDFBL
 	{
 	public:

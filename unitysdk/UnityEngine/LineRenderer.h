@@ -30,6 +30,8 @@ namespace UnityEngine { class Gradient; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int LineRenderer_TypeDefinitionIndex = 4135;
+
 	class LineRenderer : public ::UnityEngine::Renderer
 	{
 	public:

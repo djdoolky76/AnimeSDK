@@ -8,6 +8,8 @@ namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelGameSt
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
+	inline static constexpr unsigned int FourRotateVoxelGameStartCurve___c__DisplayClass37_0_TypeDefinitionIndex = 76844;
+
 	class FourRotateVoxelGameStartCurve___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:

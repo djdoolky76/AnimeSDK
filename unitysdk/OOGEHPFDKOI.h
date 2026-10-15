@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TriggerBlendShapesEmotion; }
 #define OOGEHPFDKOI_CTOR_OFFSET UNITYSDK_OFFSET(0xBF7C660)
 #define OOGEHPFDKOI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF7C690)
 
+inline static constexpr unsigned int OOGEHPFDKOI_TypeDefinitionIndex = 55904;
+
 	class OOGEHPFDKOI
 	{
 	public:

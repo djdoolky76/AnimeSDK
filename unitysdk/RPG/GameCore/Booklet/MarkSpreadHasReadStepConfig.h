@@ -10,6 +10,8 @@ namespace RPG::GameCore::Booklet { class MarkSpreadHasReadStepConfig; }
 
 namespace RPG::GameCore::Booklet
 {
+	inline static constexpr unsigned int MarkSpreadHasReadStepConfig_TypeDefinitionIndex = 24981;
+
 	class MarkSpreadHasReadStepConfig : public ::RPG::GameCore::Booklet::StepConfig
 	{
 	public:

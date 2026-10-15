@@ -4,6 +4,8 @@
 
 #define KJMCNGNCOLP_CTOR_OFFSET UNITYSDK_OFFSET(0xB45BB30)
 
+inline static constexpr unsigned int KJMCNGNCOLP_TypeDefinitionIndex = 58520;
+
 	class KJMCNGNCOLP : public ::System::Object
 	{
 	public:

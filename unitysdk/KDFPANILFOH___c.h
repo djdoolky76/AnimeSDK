@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KDFPANILFOH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7FEAD0)
 #define KDFPANILFOH___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E7FEAE0)
 
+inline static constexpr unsigned int KDFPANILFOH___c_TypeDefinitionIndex = 35096;
+
 	class KDFPANILFOH___c : public ::System::Object
 	{
 	public:

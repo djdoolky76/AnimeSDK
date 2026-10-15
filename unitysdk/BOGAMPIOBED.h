@@ -5,6 +5,8 @@ class FDGPOGKILAJ;
 
 #define BOGAMPIOBED_CTOR_OFFSET UNITYSDK_OFFSET(0xC18FA10)
 
+inline static constexpr unsigned int BOGAMPIOBED_TypeDefinitionIndex = 77629;
+
 	class BOGAMPIOBED : public ::HMDKMIJLJFH
 	{
 	public:

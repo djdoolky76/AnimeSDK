@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 #define KJNCMHECOEO_PAHEIGLPKJE_OFFSET UNITYSDK_OFFSET(0xB45DCF0)
 #define KJNCMHECOEO_PEEAAIDNKAE_OFFSET UNITYSDK_OFFSET(0xB45CE90)
 
+inline static constexpr unsigned int KJNCMHECOEO_TypeDefinitionIndex = 75570;
+
 	class KJNCMHECOEO : public ::KFCMMMMMIIO
 	{
 	public:

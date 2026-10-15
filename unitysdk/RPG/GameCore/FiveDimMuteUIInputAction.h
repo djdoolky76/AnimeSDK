@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimMuteUIInputAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimMuteUIInputAction_TypeDefinitionIndex = 18771;
+
 	class FiveDimMuteUIInputAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

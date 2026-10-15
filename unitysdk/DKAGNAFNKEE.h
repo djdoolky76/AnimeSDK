@@ -6,6 +6,8 @@ class IMEFEGGEMIJ;
 #define DKAGNAFNKEE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2BFF0)
 #define DKAGNAFNKEE_LPOMBDLDBAF_OFFSET UNITYSDK_OFFSET(0x1CA2BF50)
 
+inline static constexpr unsigned int DKAGNAFNKEE_TypeDefinitionIndex = 42078;
+
 	class DKAGNAFNKEE : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PlanetFesGachaCardRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesGachaCardRow_TypeDefinitionIndex = 12218;
+
 	class PlanetFesGachaCardRow : public ::System::Object
 	{
 	public:

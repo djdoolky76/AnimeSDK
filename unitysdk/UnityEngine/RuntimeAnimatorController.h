@@ -8,6 +8,8 @@ namespace UnityEngine { class AnimationClip; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RuntimeAnimatorController_TypeDefinitionIndex = 5728;
+
 	class RuntimeAnimatorController : public ::UnityEngine::Object
 	{
 	public:

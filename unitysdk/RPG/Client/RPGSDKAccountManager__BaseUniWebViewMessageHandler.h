@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGSDKAccountManager__BaseUniWebViewMessageHandler_TypeDefinitionIndex = 61087;
+
 	class RPGSDKAccountManager__BaseUniWebViewMessageHandler : public ::System::MulticastDelegate
 	{
 	public:

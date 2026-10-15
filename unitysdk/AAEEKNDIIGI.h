@@ -47,6 +47,8 @@ namespace System { class String; }
 #define AAEEKNDIIGI_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB0C42A0)
 #define AAEEKNDIIGI_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB0C5060)
 
+inline static constexpr unsigned int AAEEKNDIIGI_TypeDefinitionIndex = 60647;
+
 	class AAEEKNDIIGI : public ::System::Object
 	{
 	public:

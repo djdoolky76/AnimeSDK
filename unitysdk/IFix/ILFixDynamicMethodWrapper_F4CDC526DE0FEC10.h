@@ -83,6 +83,8 @@ namespace UnityEngine { class Object; }
 
 namespace IFix
 {
+	inline static constexpr unsigned int ILFixDynamicMethodWrapper_F4CDC526DE0FEC10_TypeDefinitionIndex = 44318;
+
 	class ILFixDynamicMethodWrapper_F4CDC526DE0FEC10 : public ::System::Object
 	{
 	public:

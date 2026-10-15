@@ -11,6 +11,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class ExternalKeyboard; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int ExternalKeyboard___c__DisplayClass16_0_TypeDefinitionIndex = 39503;
+
 	class ExternalKeyboard___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:

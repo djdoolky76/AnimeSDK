@@ -11,6 +11,8 @@ class CEEGMMCFCBG;
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattlePauseButtonViewModel_TypeDefinitionIndex = 80948;
+
 	class FateRinBattlePauseButtonViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

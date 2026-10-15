@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass28_0_TypeDefinitionIndex = 64486;
+
 	class GridFightEffectController___c__DisplayClass28_0 : public ::System::Object
 	{
 	public:

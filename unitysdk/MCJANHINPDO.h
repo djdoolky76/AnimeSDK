@@ -38,6 +38,8 @@ namespace System { class String; }
 #define MCJANHINPDO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9F9AF0)
 #define MCJANHINPDO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9F9B50)
 
+inline static constexpr unsigned int MCJANHINPDO_TypeDefinitionIndex = 32418;
+
 	class MCJANHINPDO : public ::System::Object
 	{
 	public:

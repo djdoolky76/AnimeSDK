@@ -66,6 +66,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CIIKBJFOKHL___EVALUATENEARESTNSOLDIERS_B__15_0_OFFSET UNITYSDK_OFFSET(0xCF8A6C0)
 #define CIIKBJFOKHL___EVALUATENEARESTNTHSOLDIER_B__17_0_OFFSET UNITYSDK_OFFSET(0xCF8A910)
 
+inline static constexpr unsigned int CIIKBJFOKHL_TypeDefinitionIndex = 77869;
+
 	class CIIKBJFOKHL : public ::System::Object
 	{
 	public:

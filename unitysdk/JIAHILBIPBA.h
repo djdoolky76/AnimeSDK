@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JIAHILBIPBA_KHNCMBEFIKI_OFFSET UNITYSDK_OFFSET(0x1CBDF210)
 #define JIAHILBIPBA_PHFIEDGBECP_OFFSET UNITYSDK_OFFSET(0x1CBDD940)
 
+inline static constexpr unsigned int JIAHILBIPBA_TypeDefinitionIndex = 43823;
+
 	class JIAHILBIPBA : public ::System::Object
 	{
 	public:

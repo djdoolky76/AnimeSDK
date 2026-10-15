@@ -23,6 +23,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFes3DBtnContainerControl_TypeDefinitionIndex = 81297;
+
 	class ChenLingFes3DBtnContainerControl : public ::Sofa::BaseSofaControl
 	{
 	public:

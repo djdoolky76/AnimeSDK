@@ -32,6 +32,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightAugmentConfig_TypeDefinitionIndex = 64376;
+
 	class GridFightAugmentConfig : public ::System::Object
 	{
 	public:

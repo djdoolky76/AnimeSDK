@@ -16,6 +16,8 @@ namespace System::Net { class WebResponse; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int HttpWebRequest_AuthorizationState_TypeDefinitionIndex = 2859;
+
 	struct alignas(8) HttpWebRequest_AuthorizationState
 	{
 		::System::Net::HttpWebRequest* request; // 0x10

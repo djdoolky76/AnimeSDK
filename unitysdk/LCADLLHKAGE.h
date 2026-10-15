@@ -8,6 +8,8 @@ class LCADLLHKAGE;
 #define LCADLLHKAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0D7610)
 #define LCADLLHKAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0D7110)
 
+inline static constexpr unsigned int LCADLLHKAGE_TypeDefinitionIndex = 12002;
+
 	class LCADLLHKAGE : public ::System::Object
 	{
 	public:

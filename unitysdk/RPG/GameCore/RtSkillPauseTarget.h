@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtSkillPauseTarget_TypeDefinitionIndex = 24220;
+
 	class RtSkillPauseTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:

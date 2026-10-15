@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageBGMType_TypeDefinitionIndex = 24825;
+
 	enum class StageBGMType : ::System::Int32
 	{
 		Low = 0,

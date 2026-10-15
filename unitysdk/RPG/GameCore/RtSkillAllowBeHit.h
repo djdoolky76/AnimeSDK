@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RtSkillAllowBeHit; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtSkillAllowBeHit_TypeDefinitionIndex = 24216;
+
 	class RtSkillAllowBeHit : public ::RPG::GameCore::TaskConfig
 	{
 	public:

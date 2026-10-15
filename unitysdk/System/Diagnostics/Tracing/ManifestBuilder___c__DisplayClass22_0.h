@@ -8,6 +8,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int ManifestBuilder___c__DisplayClass22_0_TypeDefinitionIndex = 1707;
+
 	class ManifestBuilder___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:

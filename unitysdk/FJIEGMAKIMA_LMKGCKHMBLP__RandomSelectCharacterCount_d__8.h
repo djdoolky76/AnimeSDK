@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define FJIEGMAKIMA_LMKGCKHMBLP__RANDOMSELECTCHARACTERCOUNT_D__8_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x157CDDE0)
 #define FJIEGMAKIMA_LMKGCKHMBLP__RANDOMSELECTCHARACTERCOUNT_D__8___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x157CDDF0)
 
+inline static constexpr unsigned int FJIEGMAKIMA_LMKGCKHMBLP__RandomSelectCharacterCount_d__8_TypeDefinitionIndex = 60230;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
 	class FJIEGMAKIMA_LMKGCKHMBLP__RandomSelectCharacterCount_d__8 : public ::System::Object
 	{

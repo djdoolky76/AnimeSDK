@@ -6,6 +6,8 @@
 
 namespace Beebyte::Obfuscator
 {
+	inline static constexpr unsigned int ReplaceLiteralsWithNameAttribute_TypeDefinitionIndex = 47037;
+
 	class ReplaceLiteralsWithNameAttribute : public ::System::Attribute
 	{
 	public:

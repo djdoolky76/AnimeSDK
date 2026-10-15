@@ -71,6 +71,8 @@ namespace UnityEngine::Yoga { class YogaNode; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int VisualElement_TypeDefinitionIndex = 5902;
+
 	class VisualElement : public ::UnityEngine::UIElements::Focusable
 	{
 	public:

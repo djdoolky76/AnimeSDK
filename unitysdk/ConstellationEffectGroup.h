@@ -17,6 +17,8 @@ namespace UnityEngine { class Material; }
 #define CONSTELLATIONEFFECTGROUP_ONCCEFAHFLI_OFFSET UNITYSDK_OFFSET(0xDFB3450)
 #define CONSTELLATIONEFFECTGROUP_UPDATE_OFFSET UNITYSDK_OFFSET(0xDFB3B50)
 
+inline static constexpr unsigned int ConstellationEffectGroup_TypeDefinitionIndex = 47328;
+
 	class ConstellationEffectGroup : public ::UnityEngine::MonoBehaviour
 	{
 	public:

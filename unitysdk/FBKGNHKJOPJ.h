@@ -17,6 +17,8 @@ namespace System { class String; }
 #define FBKGNHKJOPJ_OAHLJLDFEIK_OFFSET UNITYSDK_OFFSET(0x156A2970)
 #define FBKGNHKJOPJ_SET_USING_OFFSET UNITYSDK_OFFSET(0x156A2940)
 
+inline static constexpr unsigned int FBKGNHKJOPJ_TypeDefinitionIndex = 73043;
+
 	class FBKGNHKJOPJ : public ::System::Object
 	{
 	public:

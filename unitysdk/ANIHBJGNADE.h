@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define ANIHBJGNADE_UPDATELEVELANDEXP_OFFSET UNITYSDK_OFFSET(0x15598170)
 #define ANIHBJGNADE_UPDATEMAXROLENUM_OFFSET UNITYSDK_OFFSET(0x155985D0)
 
+inline static constexpr unsigned int ANIHBJGNADE_TypeDefinitionIndex = 65070;
+
 	class ANIHBJGNADE : public ::AMCOEFHHBPO
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CakeRaceHalfGravityConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceHalfGravityConfig_TypeDefinitionIndex = 18405;
+
 	class CakeRaceHalfGravityConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

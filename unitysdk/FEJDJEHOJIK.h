@@ -7,6 +7,8 @@ class FEJDJEHOJIK;
 #define FEJDJEHOJIK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDE1F80)
 #define FEJDJEHOJIK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDE1E60)
 
+inline static constexpr unsigned int FEJDJEHOJIK_TypeDefinitionIndex = 12879;
+
 	class FEJDJEHOJIK : public ::System::Object
 	{
 	public:

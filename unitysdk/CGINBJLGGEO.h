@@ -7,6 +7,8 @@ namespace System { class String; }
 #define CGINBJLGGEO_AFIFMGOAMHF_OFFSET UNITYSDK_OFFSET(0xCC89CD0)
 #define CGINBJLGGEO_CTOR_OFFSET UNITYSDK_OFFSET(0xCC89DD0)
 
+inline static constexpr unsigned int CGINBJLGGEO_TypeDefinitionIndex = 81052;
+
 	class CGINBJLGGEO : public ::System::Object
 	{
 	public:

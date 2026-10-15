@@ -21,6 +21,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DiceCombatPhySimParameter_TypeDefinitionIndex = 60384;
+
 	class DiceCombatPhySimParameter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

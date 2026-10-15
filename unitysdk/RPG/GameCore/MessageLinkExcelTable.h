@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MessageLinkExcelTable_TypeDefinitionIndex = 14472;
+
 	class MessageLinkExcelTable : public ::System::Object
 	{
 	public:

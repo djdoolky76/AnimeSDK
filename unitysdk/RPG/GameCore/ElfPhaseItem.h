@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ElfPhaseItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfPhaseItem_TypeDefinitionIndex = 18458;
+
 	class ElfPhaseItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

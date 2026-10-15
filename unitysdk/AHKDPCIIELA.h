@@ -35,6 +35,8 @@ namespace System { class String; }
 #define AHKDPCIIELA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2724A0)
 #define AHKDPCIIELA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E272500)
 
+inline static constexpr unsigned int AHKDPCIIELA_TypeDefinitionIndex = 29207;
+
 	class AHKDPCIIELA : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int HMACRIPEMD160_TypeDefinitionIndex = 1026;
+
 	class HMACRIPEMD160 : public ::System::Security::Cryptography::HMAC
 	{
 	public:

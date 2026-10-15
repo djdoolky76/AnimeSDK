@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RegionManagerDebugMono_TypeDefinitionIndex = 62184;
+
 	class RegionManagerDebugMono : public ::UnityEngine::MonoBehaviour
 	{
 	public:

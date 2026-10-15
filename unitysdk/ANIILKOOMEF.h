@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ANIILKOOMEF_LOCK_OFFSET UNITYSDK_OFFSET(0x15598C60)
 #define ANIILKOOMEF_UNLOCK_OFFSET UNITYSDK_OFFSET(0x15598CB0)
 
+inline static constexpr unsigned int ANIILKOOMEF_TypeDefinitionIndex = 74771;
+
 	class ANIILKOOMEF : public ::RPG::Client::GamePlayLockTargetFunc
 	{
 	public:

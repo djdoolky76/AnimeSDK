@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceViewLuaHelper_TypeDefinitionIndex = 81522;
+
 	class ChallengeTierceViewLuaHelper : public ::System::Object
 	{
 	public:

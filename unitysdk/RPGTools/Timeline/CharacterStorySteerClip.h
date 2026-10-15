@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterStorySteerClip_TypeDefinitionIndex = 48020;
+
 	class CharacterStorySteerClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

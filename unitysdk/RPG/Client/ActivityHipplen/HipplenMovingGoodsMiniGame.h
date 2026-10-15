@@ -51,6 +51,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int HipplenMovingGoodsMiniGame_TypeDefinitionIndex = 75592;
+
 	class HipplenMovingGoodsMiniGame : public ::RPG::Client::ActivityHipplen::ActivityHipplenMiniGameBase
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::Client::Prop { class ChimeraDuelBubbleData; }
 #define LBHBAPIDFIH_CTOR_OFFSET UNITYSDK_OFFSET(0xB5FB050)
 #define LBHBAPIDFIH_KAJDHKHENLI_OFFSET UNITYSDK_OFFSET(0xB5FAFF0)
 
+inline static constexpr unsigned int LBHBAPIDFIH_TypeDefinitionIndex = 78292;
+
 	class LBHBAPIDFIH : public ::System::Object
 	{
 	public:

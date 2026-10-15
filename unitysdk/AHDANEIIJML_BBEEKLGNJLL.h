@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AHDANEIIJML_BBEEKLGNJLL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xEB7B1D0)
 #define AHDANEIIJML_BBEEKLGNJLL_CTOR_OFFSET UNITYSDK_OFFSET(0xEB7B290)
 
+inline static constexpr unsigned int AHDANEIIJML_BBEEKLGNJLL_TypeDefinitionIndex = 79774;
+
 	class AHDANEIIJML_BBEEKLGNJLL : public ::System::Object
 	{
 	public:

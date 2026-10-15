@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NHLLMHCBENK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBBD4D90)
 #define NHLLMHCBENK_TICK_OFFSET UNITYSDK_OFFSET(0xBBD4E00)
 
+inline static constexpr unsigned int NHLLMHCBENK_TypeDefinitionIndex = 58011;
+
 	class NHLLMHCBENK : public ::GELIALJDFBL
 	{
 	public:

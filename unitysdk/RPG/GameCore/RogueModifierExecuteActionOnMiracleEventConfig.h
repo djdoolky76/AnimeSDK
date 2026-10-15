@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionOnMiracleEventConfig; 
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionOnMiracleEventConfig_TypeDefinitionIndex = 17685;
+
 	class RogueModifierExecuteActionOnMiracleEventConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

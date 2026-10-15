@@ -7,6 +7,8 @@ class JMOHKKCNCMA;
 #define HNHPKPMFGKB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAF30B0)
 #define HNHPKPMFGKB_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1CAF30C0)
 
+inline static constexpr unsigned int HNHPKPMFGKB_TypeDefinitionIndex = 43112;
+
 	class HNHPKPMFGKB : public ::BKABEBEPPJK
 	{
 	public:

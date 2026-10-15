@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MapOnlinePlayRoomIconPositionController_RoomTypePositionConfig_TypeDefinitionIndex = 72811;
+
 	class MapOnlinePlayRoomIconPositionController_RoomTypePositionConfig : public ::System::Object
 	{
 	public:

@@ -24,6 +24,8 @@ namespace System::Text { class StringBuilder; }
 #define JLCJBFLKOJD_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB239460)
 #define JLCJBFLKOJD__CLONE___OFFSET UNITYSDK_OFFSET(0xB23A0E0)
 
+inline static constexpr unsigned int JLCJBFLKOJD_TypeDefinitionIndex = 81461;
+
 	class JLCJBFLKOJD : public ::System::Object
 	{
 	public:

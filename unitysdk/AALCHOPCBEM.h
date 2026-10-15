@@ -28,6 +28,8 @@ namespace System { class String; }
 #define AALCHOPCBEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDBE350)
 #define AALCHOPCBEM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDBE3B0)
 
+inline static constexpr unsigned int AALCHOPCBEM_TypeDefinitionIndex = 27059;
+
 	class AALCHOPCBEM : public ::System::Object
 	{
 	public:

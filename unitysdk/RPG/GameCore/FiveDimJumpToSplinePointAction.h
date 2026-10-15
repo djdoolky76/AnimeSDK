@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimJumpToSplinePointAction_TypeDefinitionIndex = 18755;
+
 	class FiveDimJumpToSplinePointAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

@@ -51,6 +51,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AnyType_TypeDefinitionIndex = 4298;
+
 	struct alignas(4) AnyType
 	{
 		::System::Int64 Bytes; // 0x10

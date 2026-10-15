@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 class LBOKPEKBPOK;
 
+inline static constexpr unsigned int CNAAFFOBOJE___O_TypeDefinitionIndex = 53812;
+
 	class CNAAFFOBOJE___O : public ::System::Object
 	{
 	public:

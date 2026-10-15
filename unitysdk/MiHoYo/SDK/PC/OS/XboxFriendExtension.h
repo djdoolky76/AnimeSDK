@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int XboxFriendExtension_TypeDefinitionIndex = 8666;
+
 	class XboxFriendExtension : public ::System::Object
 	{
 	public:

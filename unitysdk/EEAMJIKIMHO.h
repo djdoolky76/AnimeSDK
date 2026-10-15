@@ -6,6 +6,8 @@ namespace RPG::Client { class GridFightRole; }
 #define EEAMJIKIMHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1334D8C0)
 #define EEAMJIKIMHO_LNEPAFGAPJH_OFFSET UNITYSDK_OFFSET(0x1334D8E0)
 
+inline static constexpr unsigned int EEAMJIKIMHO_TypeDefinitionIndex = 65136;
+
 	class EEAMJIKIMHO : public ::KKPPDDOFADO
 	{
 	public:

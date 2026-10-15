@@ -9,6 +9,8 @@ namespace RPG::GameCore { class BattleLineupEquipmentConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleLineupEquipmentConfig_TypeDefinitionIndex = 18122;
+
 	class BattleLineupEquipmentConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int ReaderWriterLockSlim_TimeoutTracker_TypeDefinitionIndex = 3118;
+
 	struct alignas(4) ReaderWriterLockSlim_TimeoutTracker
 	{
 		::System::Int32 m_total; // 0x10

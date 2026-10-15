@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 #define DGLEMOAPNIJ_NAEDCDKDKCN_OFFSET UNITYSDK_OFFSET(0xE850E10)
 #define DGLEMOAPNIJ_UNITYENGINE_EVENTSYSTEMS_IEXECUTEEVENTBLOCKER_ISEVENTBLOCK_OFFSET UNITYSDK_OFFSET(0xE851420)
 
+inline static constexpr unsigned int DGLEMOAPNIJ_TypeDefinitionIndex = 68226;
+
 	class DGLEMOAPNIJ : public ::System::Object
 	{
 	public:

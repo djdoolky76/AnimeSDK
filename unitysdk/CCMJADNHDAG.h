@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define CCMJADNHDAG_MCGOFFADONA_OFFSET UNITYSDK_OFFSET(0xC74EFE0)
 #define CCMJADNHDAG_TICK_OFFSET UNITYSDK_OFFSET(0xC74F440)
 
+inline static constexpr unsigned int CCMJADNHDAG_TypeDefinitionIndex = 77663;
+
 	class CCMJADNHDAG : public ::System::Object
 	{
 	public:

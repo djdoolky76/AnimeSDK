@@ -14,6 +14,8 @@ namespace System { class String; }
 #define IIAAKMCLFMH_JJIPEOOFHDN_OFFSET UNITYSDK_OFFSET(0x1642E560)
 #define IIAAKMCLFMH_MNLPJLBAJKJ_OFFSET UNITYSDK_OFFSET(0x1642E5B0)
 
+inline static constexpr unsigned int IIAAKMCLFMH_TypeDefinitionIndex = 71582;
+
 	class IIAAKMCLFMH : public ::System::Object
 	{
 	public:

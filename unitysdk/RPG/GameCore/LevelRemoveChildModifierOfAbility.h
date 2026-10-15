@@ -10,6 +10,8 @@ class MBBEBLGELAP;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelRemoveChildModifierOfAbility_TypeDefinitionIndex = 56840;
+
 	class LevelRemoveChildModifierOfAbility : public ::System::Object
 	{
 	public:

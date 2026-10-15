@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LoopWaitRollShopTakeReward; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoopWaitRollShopTakeReward_TypeDefinitionIndex = 21215;
+
 	class LoopWaitRollShopTakeReward : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine { class AnimationClip; }
 
 namespace UnityEngine::Animations
 {
+	inline static constexpr unsigned int AnimationPlayableExtensions_TypeDefinitionIndex = 5753;
+
 	class AnimationPlayableExtensions : public ::System::Object
 	{
 	public:

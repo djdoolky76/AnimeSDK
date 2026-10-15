@@ -31,6 +31,8 @@ namespace System { class String; }
 #define HNBJHMCGEDK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5D89E0)
 #define HNBJHMCGEDK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5D8A40)
 
+inline static constexpr unsigned int HNBJHMCGEDK_TypeDefinitionIndex = 26931;
+
 	class HNBJHMCGEDK : public ::System::Object
 	{
 	public:

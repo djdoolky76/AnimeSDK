@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActPersonaAddAttributeMaxCountConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActPersonaAddAttributeMaxCountConfig_TypeDefinitionIndex = 19780;
+
 	class RogueActPersonaAddAttributeMaxCountConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

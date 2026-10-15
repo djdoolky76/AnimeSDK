@@ -12,6 +12,8 @@ namespace RPG::Client { class MonoEffectList; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectList_TypeDefinitionIndex = 69923;
+
 	class MonoEffectList
 	{
 	public:

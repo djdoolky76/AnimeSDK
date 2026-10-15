@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ProjectileCurveConfig_TypeDefinitionIndex = 54751;
+
 	class ProjectileCurveConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

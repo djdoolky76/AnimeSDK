@@ -18,6 +18,8 @@ namespace System { class String; }
 #define CPJONKIPHJP_SET_SPEEDINHERIT_OFFSET UNITYSDK_OFFSET(0xAD10)
 #define CPJONKIPHJP_SET_SPEEDSKILL_OFFSET UNITYSDK_OFFSET(0xAD30)
 
+inline static constexpr unsigned int CPJONKIPHJP_TypeDefinitionIndex = 51971;
+
 	struct alignas(8) CPJONKIPHJP
 	{
 		::System::String* _HPBase_k__BackingField; // 0x10

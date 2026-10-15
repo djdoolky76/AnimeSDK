@@ -28,6 +28,8 @@ namespace System { class String; }
 #define AANHEBGBNDL_PBLBDKGFHPN_OFFSET UNITYSDK_OFFSET(0xB0D3A10)
 #define AANHEBGBNDL_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB0D3830)
 
+inline static constexpr unsigned int AANHEBGBNDL_TypeDefinitionIndex = 76951;
+
 	class AANHEBGBNDL : public ::System::Object
 	{
 	public:

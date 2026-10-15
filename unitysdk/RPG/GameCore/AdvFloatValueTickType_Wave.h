@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvFloatValueTickType_Wave_TypeDefinitionIndex = 21023;
+
 	class AdvFloatValueTickType_Wave : public ::RPG::GameCore::AdvFloatValueTickType
 	{
 	public:

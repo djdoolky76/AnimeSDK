@@ -25,6 +25,8 @@ namespace System { class String; }
 #define MOEMKBLCKKO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAA6990)
 #define MOEMKBLCKKO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAA69F0)
 
+inline static constexpr unsigned int MOEMKBLCKKO_TypeDefinitionIndex = 27752;
+
 	class MOEMKBLCKKO : public ::System::Object
 	{
 	public:

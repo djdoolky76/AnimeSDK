@@ -33,6 +33,8 @@ namespace System { class String; }
 #define IGLEGGJHBDN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E650B40)
 #define IGLEGGJHBDN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E650BA0)
 
+inline static constexpr unsigned int IGLEGGJHBDN_TypeDefinitionIndex = 27860;
+
 	class IGLEGGJHBDN : public ::System::Object
 	{
 	public:

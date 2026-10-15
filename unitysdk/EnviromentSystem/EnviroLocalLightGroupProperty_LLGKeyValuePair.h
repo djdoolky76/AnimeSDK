@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int EnviroLocalLightGroupProperty_LLGKeyValuePair_TypeDefinitionIndex = 49606;
+
 	class EnviroLocalLightGroupProperty_LLGKeyValuePair : public ::System::Object
 	{
 	public:

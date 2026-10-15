@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KODNMKIMING_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C71C870)
 #define KODNMKIMING_FJCMHEKLOBD_OFFSET UNITYSDK_OFFSET(0x1C71C690)
 
+inline static constexpr unsigned int KODNMKIMING_TypeDefinitionIndex = 37407;
+
 	class KODNMKIMING : public ::System::Object
 	{
 	public:

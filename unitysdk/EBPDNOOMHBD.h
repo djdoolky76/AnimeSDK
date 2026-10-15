@@ -48,6 +48,8 @@ namespace System { class String; }
 #define EBPDNOOMHBD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E24A5B0)
 #define EBPDNOOMHBD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E24A610)
 
+inline static constexpr unsigned int EBPDNOOMHBD_TypeDefinitionIndex = 25435;
+
 	class EBPDNOOMHBD : public ::System::Object
 	{
 	public:

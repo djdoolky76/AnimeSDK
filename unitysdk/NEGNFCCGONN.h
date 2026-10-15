@@ -8,6 +8,8 @@ namespace RPG { template <typename T> class PoolHashSet_1; }
 #define NEGNFCCGONN_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C955C60)
 #define NEGNFCCGONN_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C955D40)
 
+inline static constexpr unsigned int NEGNFCCGONN_TypeDefinitionIndex = 43499;
+
 	class NEGNFCCGONN : public ::System::Object
 	{
 	public:

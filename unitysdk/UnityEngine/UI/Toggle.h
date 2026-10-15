@@ -37,6 +37,8 @@ namespace UnityEngine::UI { class Toggle_ToggleSelectEvent; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int Toggle_TypeDefinitionIndex = 6865;
+
 	class Toggle : public ::UnityEngine::UI::Selectable
 	{
 	public:

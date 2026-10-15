@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TeamLeaderRunning; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamLeaderRunning_TypeDefinitionIndex = 20943;
+
 	class TeamLeaderRunning : public ::RPG::GameCore::TaskConfig
 	{
 	public:

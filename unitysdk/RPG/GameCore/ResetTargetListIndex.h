@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ResetTargetListIndex; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResetTargetListIndex_TypeDefinitionIndex = 22471;
+
 	class ResetTargetListIndex : public ::RPG::GameCore::TaskConfig
 	{
 	public:

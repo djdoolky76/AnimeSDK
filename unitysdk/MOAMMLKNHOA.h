@@ -8,6 +8,8 @@ namespace System { class String; }
 #define MOAMMLKNHOA_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xBA1C1A0)
 #define MOAMMLKNHOA_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xBA1C1F0)
 
+inline static constexpr unsigned int MOAMMLKNHOA_TypeDefinitionIndex = 72808;
+
 	class MOAMMLKNHOA : public ::LBAMBIMMJKB
 	{
 	public:

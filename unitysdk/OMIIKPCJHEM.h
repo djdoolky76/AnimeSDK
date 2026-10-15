@@ -34,6 +34,8 @@ namespace System { class String; }
 #define OMIIKPCJHEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEB56A0)
 #define OMIIKPCJHEM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEB5700)
 
+inline static constexpr unsigned int OMIIKPCJHEM_TypeDefinitionIndex = 25315;
+
 	class OMIIKPCJHEM : public ::System::Object
 	{
 	public:

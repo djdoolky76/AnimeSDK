@@ -15,6 +15,8 @@ namespace System { class IDisposable; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftProgressIntegrationControl_TypeDefinitionIndex = 79936;
+
 	class MechCraftCraftProgressIntegrationControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

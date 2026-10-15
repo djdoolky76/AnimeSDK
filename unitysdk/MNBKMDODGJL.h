@@ -7,6 +7,8 @@ namespace RPG::Client { class MonoDanmuItem; }
 #define MNBKMDODGJL_CTOR_OFFSET UNITYSDK_OFFSET(0xB9E4750)
 #define MNBKMDODGJL_JDEKJLHMPLG_OFFSET UNITYSDK_OFFSET(0xB9E4600)
 
+inline static constexpr unsigned int MNBKMDODGJL_TypeDefinitionIndex = 68954;
+
 	class MNBKMDODGJL : public ::System::Object
 	{
 	public:

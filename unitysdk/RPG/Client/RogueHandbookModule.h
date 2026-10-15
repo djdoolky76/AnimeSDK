@@ -97,6 +97,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueHandbookModule_TypeDefinitionIndex = 67374;
+
 	class RogueHandbookModule : public ::RPG::Client::BaseModule
 	{
 	public:

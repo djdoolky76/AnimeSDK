@@ -43,6 +43,8 @@ class PEEDLCHFAFL;
 #define MOJAIJPCMMF_PIBOIOIAFIG_OFFSET UNITYSDK_OFFSET(0xBA2E7A0)
 #define MOJAIJPCMMF_POOLDMKLJLJ_OFFSET UNITYSDK_OFFSET(0xBA30140)
 
+inline static constexpr unsigned int MOJAIJPCMMF_TypeDefinitionIndex = 76931;
+
 	class MOJAIJPCMMF : public ::System::Object
 	{
 	public:

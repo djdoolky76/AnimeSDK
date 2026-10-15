@@ -10,6 +10,8 @@ namespace UnityEngine::Networking { class UnityWebRequest; }
 #define GHHJNCOAIJF_GHKPCOFFGMI___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15A20CE0)
 #define GHHJNCOAIJF_GHKPCOFFGMI___C__DISPLAYCLASS4_0__SEND_G___SEND_0_OFFSET UNITYSDK_OFFSET(0x15A21060)
 
+inline static constexpr unsigned int GHHJNCOAIJF_GHKPCOFFGMI___c__DisplayClass4_0_TypeDefinitionIndex = 69353;
+
 	class GHHJNCOAIJF_GHKPCOFFGMI___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NAOFIGCCGPF_CTOR_OFFSET UNITYSDK_OFFSET(0xBAA9620)
 #define NAOFIGCCGPF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBAA9670)
 
+inline static constexpr unsigned int NAOFIGCCGPF_TypeDefinitionIndex = 59209;
+
 	class NAOFIGCCGPF
 	{
 	public:

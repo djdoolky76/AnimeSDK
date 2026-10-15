@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FHKKPNDLLLO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E38E9F0)
 #define FHKKPNDLLLO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E38EA50)
 
+inline static constexpr unsigned int FHKKPNDLLLO_TypeDefinitionIndex = 25637;
+
 	class FHKKPNDLLLO : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int FileDescriptorSet_TypeDefinitionIndex = 35758;
+
 	class FileDescriptorSet : public ::System::Object
 	{
 	public:

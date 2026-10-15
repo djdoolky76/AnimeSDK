@@ -11,6 +11,8 @@ namespace System::Reflection { class TypeInfo; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int ReflectionExtensions_TypeDefinitionIndex = 7298;
+
 	class ReflectionExtensions : public ::System::Object
 	{
 	public:

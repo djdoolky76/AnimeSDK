@@ -56,6 +56,8 @@ namespace System { class String; }
 #define IPGIJFNAFLC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6E0BF0)
 #define IPGIJFNAFLC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6E0C50)
 
+inline static constexpr unsigned int IPGIJFNAFLC_TypeDefinitionIndex = 28740;
+
 	class IPGIJFNAFLC : public ::System::Object
 	{
 	public:

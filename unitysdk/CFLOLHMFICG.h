@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CFLOLHMFICG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0A6120)
 #define CFLOLHMFICG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0A6180)
 
+inline static constexpr unsigned int CFLOLHMFICG_TypeDefinitionIndex = 34541;
+
 	class CFLOLHMFICG : public ::System::Object
 	{
 	public:

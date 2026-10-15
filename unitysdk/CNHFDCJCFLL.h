@@ -6,6 +6,8 @@ class NEOCEOCDEAF;
 #define CNHFDCJCFLL_CLEAR_OFFSET UNITYSDK_OFFSET(0xDA52260)
 #define CNHFDCJCFLL_CTOR_OFFSET UNITYSDK_OFFSET(0xDA52310)
 
+inline static constexpr unsigned int CNHFDCJCFLL_TypeDefinitionIndex = 56906;
+
 	class CNHFDCJCFLL : public ::System::Object
 	{
 	public:

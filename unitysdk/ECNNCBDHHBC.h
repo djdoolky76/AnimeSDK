@@ -30,6 +30,8 @@ namespace System { class String; }
 #define ECNNCBDHHBC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E256FF0)
 #define ECNNCBDHHBC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E257050)
 
+inline static constexpr unsigned int ECNNCBDHHBC_TypeDefinitionIndex = 30110;
+
 	class ECNNCBDHHBC : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GuideType_TypeDefinitionIndex = 13374;
+
 	enum class GuideType : ::System::Int32
 	{
 		Unknown = 0,

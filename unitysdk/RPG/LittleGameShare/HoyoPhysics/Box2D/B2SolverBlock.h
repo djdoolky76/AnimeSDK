@@ -7,6 +7,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2SolverBlock_TypeDefinitionIndex = 36776;
+
 	class B2SolverBlock : public ::System::Object
 	{
 	public:

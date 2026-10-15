@@ -25,6 +25,8 @@ namespace System { class String; }
 #define NKOCCGLHOML_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB5F0B0)
 #define NKOCCGLHOML_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB5F110)
 
+inline static constexpr unsigned int NKOCCGLHOML_TypeDefinitionIndex = 27740;
+
 	class NKOCCGLHOML : public ::System::Object
 	{
 	public:

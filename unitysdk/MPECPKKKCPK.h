@@ -9,6 +9,8 @@ class MPECPKKKCPK;
 #define MPECPKKKCPK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1DE1F0)
 #define MPECPKKKCPK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1DDE20)
 
+inline static constexpr unsigned int MPECPKKKCPK_TypeDefinitionIndex = 11546;
+
 	class MPECPKKKCPK : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierSetCountByRemoveMiracleOnEnterRoomC
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierSetCountByRemoveMiracleOnEnterRoomConfig_TypeDefinitionIndex = 17724;
+
 	class RogueModifierSetCountByRemoveMiracleOnEnterRoomConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

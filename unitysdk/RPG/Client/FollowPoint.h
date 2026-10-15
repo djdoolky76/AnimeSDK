@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FollowPoint_TypeDefinitionIndex = 68424;
+
 	class FollowPoint : public ::System::Object
 	{
 	public:

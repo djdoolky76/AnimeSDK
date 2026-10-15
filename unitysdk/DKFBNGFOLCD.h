@@ -7,6 +7,8 @@ class DKFBNGFOLCD;
 #define DKFBNGFOLCD_FFHNOMIDEDE_OFFSET UNITYSDK_OFFSET(0xF87A3A0)
 #define DKFBNGFOLCD_GAJGBBFELEL_OFFSET UNITYSDK_OFFSET(0xF87A1D0)
 
+inline static constexpr unsigned int DKFBNGFOLCD_TypeDefinitionIndex = 68237;
+
 	class DKFBNGFOLCD : public ::System::Object
 	{
 	public:

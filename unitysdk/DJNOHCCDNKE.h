@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DJNOHCCDNKE_MIALNMOOHED_OFFSET UNITYSDK_OFFSET(0xF24DA80)
 #define DJNOHCCDNKE_OPDPNKBIOAE_OFFSET UNITYSDK_OFFSET(0xF24D5E0)
 
+inline static constexpr unsigned int DJNOHCCDNKE_TypeDefinitionIndex = 60895;
+
 	class DJNOHCCDNKE : public ::System::Object
 	{
 	public:

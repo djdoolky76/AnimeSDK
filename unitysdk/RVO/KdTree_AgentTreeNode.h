@@ -3,6 +3,8 @@
 
 namespace RVO
 {
+	inline static constexpr unsigned int KdTree_AgentTreeNode_TypeDefinitionIndex = 46028;
+
 	struct alignas(4) KdTree_AgentTreeNode
 	{
 		::System::Int32 begin_; // 0x10

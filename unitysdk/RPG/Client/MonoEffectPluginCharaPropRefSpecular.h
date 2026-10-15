@@ -13,6 +13,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginCharaPropRefSpecular_TypeDefinitionIndex = 69975;
+
 	class MonoEffectPluginCharaPropRefSpecular : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define IDENFKIJICM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E629B60)
 #define IDENFKIJICM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E629BC0)
 
+inline static constexpr unsigned int IDENFKIJICM_TypeDefinitionIndex = 30825;
+
 	class IDENFKIJICM : public ::System::Object
 	{
 	public:

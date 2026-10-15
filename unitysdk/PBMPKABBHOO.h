@@ -7,6 +7,8 @@ namespace RPG::Client::Compliance::Ftc::DirectPurchase { class FtcDirectPurchase
 #define PBMPKABBHOO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBFF5970)
 #define PBMPKABBHOO_CTOR_OFFSET UNITYSDK_OFFSET(0xBFF5920)
 
+inline static constexpr unsigned int PBMPKABBHOO_TypeDefinitionIndex = 74830;
+
 	class PBMPKABBHOO : public ::System::Object
 	{
 	public:

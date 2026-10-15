@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CRPCameraSmallWindowBackgroundClip_TypeDefinitionIndex = 47890;
+
 	class CRPCameraSmallWindowBackgroundClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CharacterOutfitPendantConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterOutfitPendantConfig_TypeDefinitionIndex = 17485;
+
 	class CharacterOutfitPendantConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

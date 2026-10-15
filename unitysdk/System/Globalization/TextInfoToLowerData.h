@@ -6,6 +6,8 @@
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int TextInfoToLowerData_TypeDefinitionIndex = 789;
+
 	class TextInfoToLowerData : public ::System::Object
 	{
 	public:

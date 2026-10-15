@@ -9,6 +9,8 @@ namespace RPG::Client { class HeliobusSkillData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HeliobusModule___c__DisplayClass93_0_TypeDefinitionIndex = 65667;
+
 	class HeliobusModule___c__DisplayClass93_0 : public ::System::Object
 	{
 	public:

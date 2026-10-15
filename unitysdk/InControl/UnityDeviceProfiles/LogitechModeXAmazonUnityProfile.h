@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int LogitechModeXAmazonUnityProfile_TypeDefinitionIndex = 40929;
+
 	class LogitechModeXAmazonUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

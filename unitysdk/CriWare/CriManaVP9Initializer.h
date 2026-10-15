@@ -8,6 +8,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriManaVP9Initializer_TypeDefinitionIndex = 40201;
+
 	class CriManaVP9Initializer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

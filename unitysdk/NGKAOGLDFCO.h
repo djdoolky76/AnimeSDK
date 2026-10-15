@@ -7,6 +7,8 @@ class ILPPBGLJABD;
 #define NGKAOGLDFCO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBBAAB90)
 #define NGKAOGLDFCO_CTOR_OFFSET UNITYSDK_OFFSET(0xBBAAD30)
 
+inline static constexpr unsigned int NGKAOGLDFCO_TypeDefinitionIndex = 62299;
+
 	class NGKAOGLDFCO : public ::System::Object
 	{
 	public:

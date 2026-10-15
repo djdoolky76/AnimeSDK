@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GOCPANCACGA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE72200)
 #define GOCPANCACGA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE71B40)
 
+inline static constexpr unsigned int GOCPANCACGA_TypeDefinitionIndex = 13302;
+
 	class GOCPANCACGA : public ::System::Object
 	{
 	public:

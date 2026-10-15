@@ -15,6 +15,8 @@ namespace System::IO { class TextReader; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int TextReader_SyncTextReader_TypeDefinitionIndex = 699;
+
 	class TextReader_SyncTextReader : public ::System::IO::TextReader
 	{
 	public:

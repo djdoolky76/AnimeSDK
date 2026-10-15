@@ -34,6 +34,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::FullBody
 {
+	inline static constexpr unsigned int FBIKChain_TypeDefinitionIndex = 74227;
+
 	class FBIKChain : public ::System::Object
 	{
 	public:

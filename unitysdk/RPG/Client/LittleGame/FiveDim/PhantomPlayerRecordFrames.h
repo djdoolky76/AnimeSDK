@@ -12,6 +12,8 @@ namespace RPG::Client::LittleGame::FiveDim { class PhantomPlayerRecordFrames_Sys
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int PhantomPlayerRecordFrames_TypeDefinitionIndex = 43586;
+
 	class PhantomPlayerRecordFrames : public ::System::Object
 	{
 	public:

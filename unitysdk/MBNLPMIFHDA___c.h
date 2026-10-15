@@ -14,6 +14,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define MBNLPMIFHDA___C___CTOR_B__0_2_OFFSET UNITYSDK_OFFSET(0xB86FDF0)
 #define MBNLPMIFHDA___C___CTOR_B__0_3_OFFSET UNITYSDK_OFFSET(0xB86FE10)
 
+inline static constexpr unsigned int MBNLPMIFHDA___c_TypeDefinitionIndex = 80745;
+
 	class MBNLPMIFHDA___c : public ::System::Object
 	{
 	public:

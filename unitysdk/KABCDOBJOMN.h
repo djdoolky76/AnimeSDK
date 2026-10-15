@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KABCDOBJOMN_CTOR_OFFSET UNITYSDK_OFFSET(0xB2D0B80)
 #define KABCDOBJOMN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2D0BB0)
 
+inline static constexpr unsigned int KABCDOBJOMN_TypeDefinitionIndex = 52696;
+
 	class KABCDOBJOMN
 	{
 	public:

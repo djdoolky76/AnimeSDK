@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 #define LPNIPNDEDDL___C__DISPLAYCLASS46_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB830BF0)
 #define LPNIPNDEDDL___C__DISPLAYCLASS46_0__INITBORDERPLATEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xB834380)
 
+inline static constexpr unsigned int LPNIPNDEDDL___c__DisplayClass46_0_TypeDefinitionIndex = 76893;
+
 	class LPNIPNDEDDL___c__DisplayClass46_0 : public ::System::Object
 	{
 	public:

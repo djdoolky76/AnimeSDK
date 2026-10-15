@@ -8,6 +8,8 @@ namespace UnityEngine { class RPGDensityMapGrassBlockData; }
 #define KLEFGGIHGMI___C__DISPLAYCLASS498_2_CTOR_OFFSET UNITYSDK_OFFSET(0xB523850)
 #define KLEFGGIHGMI___C__DISPLAYCLASS498_2___SETUPGRASSDATA_B__1_OFFSET UNITYSDK_OFFSET(0xB524690)
 
+inline static constexpr unsigned int KLEFGGIHGMI___c__DisplayClass498_2_TypeDefinitionIndex = 73913;
+
 	template <typename T1, typename T2>
 	class KLEFGGIHGMI___c__DisplayClass498_2 : public ::System::Object
 	{

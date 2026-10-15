@@ -13,6 +13,8 @@ namespace System::Globalization { class CultureInfo; }
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int CaseInsensitiveComparer_TypeDefinitionIndex = 1465;
+
 	class CaseInsensitiveComparer : public ::System::Object
 	{
 	public:

@@ -30,6 +30,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPG::Client::Timeline
 {
+	inline static constexpr unsigned int ManaVideoClip_TypeDefinitionIndex = 73347;
+
 	class ManaVideoClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

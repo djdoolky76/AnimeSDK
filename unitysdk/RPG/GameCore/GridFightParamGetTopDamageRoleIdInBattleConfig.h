@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamGetTopDamageRoleIdInBattleConfig; 
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamGetTopDamageRoleIdInBattleConfig_TypeDefinitionIndex = 19531;
+
 	class GridFightParamGetTopDamageRoleIdInBattleConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

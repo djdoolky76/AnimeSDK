@@ -9,6 +9,8 @@ namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int ChimeraWorkTransitionCommand___c__DisplayClass0_0_TypeDefinitionIndex = 76641;
+
 	class ChimeraWorkTransitionCommand___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

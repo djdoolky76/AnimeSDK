@@ -13,6 +13,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int MotionBlurRenderer_TypeDefinitionIndex = 37833;
+
 	class MotionBlurRenderer : public ::RPG::CustomRP::CRPPostprocessSubPass2
 	{
 	public:

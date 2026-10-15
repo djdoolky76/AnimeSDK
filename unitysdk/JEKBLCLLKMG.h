@@ -9,6 +9,8 @@ class JEKBLCLLKMG;
 #define JEKBLCLLKMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D01F510)
 #define JEKBLCLLKMG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D01F2C0)
 
+inline static constexpr unsigned int JEKBLCLLKMG_TypeDefinitionIndex = 13970;
+
 	class JEKBLCLLKMG : public ::System::Object
 	{
 	public:

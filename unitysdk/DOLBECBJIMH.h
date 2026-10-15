@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DOLBECBJIMH_SET_ENEMYHPMULTIPLIER_OFFSET UNITYSDK_OFFSET(0x11FF03F0)
 #define DOLBECBJIMH_SET_ENEMYRANK_OFFSET UNITYSDK_OFFSET(0x11FF03D0)
 
+inline static constexpr unsigned int DOLBECBJIMH_TypeDefinitionIndex = 56205;
+
 	class DOLBECBJIMH : public ::LHHEGNEBMLN
 	{
 	public:

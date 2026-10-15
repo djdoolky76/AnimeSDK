@@ -19,6 +19,8 @@ namespace RPG::GameCore { class ChimeraDuelTalkRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelTalkData_TypeDefinitionIndex = 63390;
+
 	class ChimeraDuelTalkData : public ::System::Object
 	{
 	public:

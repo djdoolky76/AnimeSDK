@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SetRaidTargetProgress; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetRaidTargetProgress_TypeDefinitionIndex = 23660;
+
 	class SetRaidTargetProgress : public ::RPG::GameCore::TaskConfig
 	{
 	public:

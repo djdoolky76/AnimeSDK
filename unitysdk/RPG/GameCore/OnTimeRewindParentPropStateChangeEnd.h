@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OnTimeRewindParentPropStateChangeEnd_TypeDefinitionIndex = 20653;
+
 	class OnTimeRewindParentPropStateChangeEnd : public ::RPG::GameCore::TaskConfig
 	{
 	public:

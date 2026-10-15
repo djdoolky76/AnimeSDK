@@ -14,6 +14,8 @@ namespace RPG::Client { class BillboardController; }
 #define STAGEHARMONYBILLBOARDCONTROLLERWRAPCOMPONENTLINKSLOT_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xE98D260)
 #define STAGEHARMONYBILLBOARDCONTROLLERWRAPCOMPONENTLINKSLOT_PKDEMCONMDA_OFFSET UNITYSDK_OFFSET(0xE98C8B0)
 
+inline static constexpr unsigned int StageHarmonyBillboardControllerWrapComponentLinkSlot_TypeDefinitionIndex = 47359;
+
 	class StageHarmonyBillboardControllerWrapComponentLinkSlot : public ::StageHarmonyLightModLinkSlot
 	{
 	public:

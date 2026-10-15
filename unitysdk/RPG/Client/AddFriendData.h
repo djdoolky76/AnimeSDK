@@ -25,6 +25,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AddFriendData_TypeDefinitionIndex = 64244;
+
 	class AddFriendData : public ::System::Object
 	{
 	public:

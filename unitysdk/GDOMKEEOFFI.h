@@ -32,6 +32,8 @@ namespace System { class Object; }
 #define GDOMKEEOFFI_SET_FOLLOWYAW_OFFSET UNITYSDK_OFFSET(0x159BE9B0)
 #define GDOMKEEOFFI_SET_LEADERTARGETPOS_OFFSET UNITYSDK_OFFSET(0x159BE990)
 
+inline static constexpr unsigned int GDOMKEEOFFI_TypeDefinitionIndex = 53508;
+
 	class GDOMKEEOFFI : public ::System::Object
 	{
 	public:

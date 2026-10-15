@@ -22,6 +22,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectGramophoneEffectControl_TypeDefinitionIndex = 70734;
+
 	class MonoEffectGramophoneEffectControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

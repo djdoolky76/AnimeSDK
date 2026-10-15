@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EnablePlayerPlayIdleShow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnablePlayerPlayIdleShow_TypeDefinitionIndex = 22246;
+
 	class EnablePlayerPlayIdleShow : public ::RPG::GameCore::TaskConfig
 	{
 	public:

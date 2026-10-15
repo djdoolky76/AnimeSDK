@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define PBDJFDBEDCL_PIIINLMDBMJ_OFFSET UNITYSDK_OFFSET(0xBFE4A70)
 #define PBDJFDBEDCL__ONBIND_OFFSET UNITYSDK_OFFSET(0xBFE49B0)
 
+inline static constexpr unsigned int PBDJFDBEDCL_TypeDefinitionIndex = 72188;
+
 	class PBDJFDBEDCL : public ::GJPBCNIIEOB
 	{
 	public:

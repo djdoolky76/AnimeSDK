@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengePeakGameContext___c__DisplayClass48_0_TypeDefinitionIndex = 63171;
+
 	class ChallengePeakGameContext___c__DisplayClass48_0 : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
+inline static constexpr unsigned int BOGJNAAODFM_TypeDefinitionIndex = 55836;
+
 	struct alignas(8) BOGJNAAODFM
 	{
 		::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x10

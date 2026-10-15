@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DisableNextBattleWinVO; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DisableNextBattleWinVO_TypeDefinitionIndex = 20550;
+
 	class DisableNextBattleWinVO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

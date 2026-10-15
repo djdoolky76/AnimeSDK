@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleAssetPreload_RtBattleCharacterPreloadGroup_TypeDefinitionIndex = 59663;
+
 	class BattleAssetPreload_RtBattleCharacterPreloadGroup : public ::RPG::Client::BattleAssetPreload_RtCharacterPreloadGroupBase
 	{
 	public:

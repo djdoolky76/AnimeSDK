@@ -17,6 +17,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StateWalkStyle_TypeDefinitionIndex = 68851;
+
 	class StateWalkStyle : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:

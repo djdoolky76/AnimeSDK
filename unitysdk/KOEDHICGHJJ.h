@@ -4,6 +4,8 @@
 
 #define KOEDHICGHJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90B450)
 
+inline static constexpr unsigned int KOEDHICGHJJ_TypeDefinitionIndex = 42367;
+
 	class KOEDHICGHJJ : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FormationMoveMemberInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FormationMoveMemberInfo_TypeDefinitionIndex = 21255;
+
 	class FormationMoveMemberInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

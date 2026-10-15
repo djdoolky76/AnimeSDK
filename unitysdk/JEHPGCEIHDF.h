@@ -37,6 +37,8 @@ namespace System { class String; }
 #define JEHPGCEIHDF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E71B840)
 #define JEHPGCEIHDF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E71B8A0)
 
+inline static constexpr unsigned int JEHPGCEIHDF_TypeDefinitionIndex = 25110;
+
 	class JEHPGCEIHDF : public ::System::Object
 	{
 	public:

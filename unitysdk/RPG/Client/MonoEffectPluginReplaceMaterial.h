@@ -16,6 +16,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginReplaceMaterial_TypeDefinitionIndex = 70104;
+
 	class MonoEffectPluginReplaceMaterial : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

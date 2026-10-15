@@ -8,6 +8,8 @@ namespace RPG::Client { class IRogueMiracleInfo; }
 #define DOLNICOMJJM_CTOR_OFFSET UNITYSDK_OFFSET(0x11FF0400)
 #define DOLNICOMJJM_JCEPADMLFPN_OFFSET UNITYSDK_OFFSET(0x11FF0410)
 
+inline static constexpr unsigned int DOLNICOMJJM_TypeDefinitionIndex = 67091;
+
 	class DOLNICOMJJM : public ::EBIMENNAEIE
 	{
 	public:

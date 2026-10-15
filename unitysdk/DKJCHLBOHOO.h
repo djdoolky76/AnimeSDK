@@ -39,6 +39,8 @@ namespace UnityEngine { class CapsuleCollider; }
 #define DKJCHLBOHOO_OBMOFHGPCNA_OFFSET UNITYSDK_OFFSET(0xF886E90)
 #define DKJCHLBOHOO_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xF883A80)
 
+inline static constexpr unsigned int DKJCHLBOHOO_TypeDefinitionIndex = 77015;
+
 	class DKJCHLBOHOO : public ::CBIKMJHGEDE
 	{
 	public:

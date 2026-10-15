@@ -14,6 +14,8 @@ namespace System::Dynamic { class ExpandoObject_ValueCollection; }
 
 namespace System::Dynamic
 {
+	inline static constexpr unsigned int ExpandoObject_ValueCollection__GetEnumerator_d__15_TypeDefinitionIndex = 3680;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15>
 	class ExpandoObject_ValueCollection__GetEnumerator_d__15 : public ::System::Object
 	{

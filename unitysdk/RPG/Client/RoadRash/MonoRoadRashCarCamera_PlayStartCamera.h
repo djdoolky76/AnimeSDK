@@ -4,6 +4,8 @@ namespace Cinemachine { class CinemachineVirtualCamera; }
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int MonoRoadRashCarCamera_PlayStartCamera_TypeDefinitionIndex = 75846;
+
 	struct alignas(8) MonoRoadRashCarCamera_PlayStartCamera
 	{
 		::Il2CppArray<::Cinemachine::CinemachineVirtualCamera*>* Cameras; // 0x10

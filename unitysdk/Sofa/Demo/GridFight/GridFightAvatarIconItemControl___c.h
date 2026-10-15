@@ -20,6 +20,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Sofa::Demo::GridFight
 {
+	inline static constexpr unsigned int GridFightAvatarIconItemControl___c_TypeDefinitionIndex = 49707;
+
 	class GridFightAvatarIconItemControl___c : public ::System::Object
 	{
 	public:

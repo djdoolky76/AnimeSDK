@@ -13,6 +13,8 @@ namespace System { class String; }
 #define EAKMBLKEJFF_KAJOBJFIAMJ_OFFSET UNITYSDK_OFFSET(0x126828A0)
 #define EAKMBLKEJFF_KINELKOLEGI_OFFSET UNITYSDK_OFFSET(0x12682BD0)
 
+inline static constexpr unsigned int EAKMBLKEJFF_TypeDefinitionIndex = 77570;
+
 	class EAKMBLKEJFF : public ::LEMPCCICHAA
 	{
 	public:

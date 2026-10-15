@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PhotoGraphStealConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphStealConfig_TypeDefinitionIndex = 19057;
+
 	class PhotoGraphStealConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

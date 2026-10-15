@@ -13,6 +13,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define BOCHJJNGOIH_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC18D550)
 #define BOCHJJNGOIH_OMCHFCDMIPL_OFFSET UNITYSDK_OFFSET(0xC18D630)
 
+inline static constexpr unsigned int BOCHJJNGOIH_TypeDefinitionIndex = 69878;
+
 	class BOCHJJNGOIH : public ::RPG::Client::BehaviorBase
 	{
 	public:

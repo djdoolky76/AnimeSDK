@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NAPFNBJDIOO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EACA630)
 #define NAPFNBJDIOO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EACA640)
 
+inline static constexpr unsigned int NAPFNBJDIOO___c_TypeDefinitionIndex = 32923;
+
 	class NAPFNBJDIOO___c : public ::System::Object
 	{
 	public:

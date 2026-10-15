@@ -24,6 +24,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraArrangementTouchInputListener_TypeDefinitionIndex = 78459;
+
 	class ChimeraArrangementTouchInputListener : public ::System::Object
 	{
 	public:

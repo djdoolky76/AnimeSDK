@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GuideChallengeTabRow_TypeDefinitionIndex = 13384;
+
 	class GuideChallengeTabRow : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int WormCompassItemGridData_TypeDefinitionIndex = 78923;
+
 	class WormCompassItemGridData : public ::System::Object
 	{
 	public:

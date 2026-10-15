@@ -7,6 +7,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int HashUnsafeUtilities_TypeDefinitionIndex = 4207;
+
 	class HashUnsafeUtilities : public ::System::Object
 	{
 	public:

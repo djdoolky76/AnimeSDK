@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Google::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int Duration___c_TypeDefinitionIndex = 5422;
+
 	class Duration___c : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Uploader
 {
+	inline static constexpr unsigned int UploaderFactory_TypeDefinitionIndex = 46666;
+
 	class UploaderFactory : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LevelStageVisableController_TypeDefinitionIndex = 68864;
+
 	class LevelStageVisableController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

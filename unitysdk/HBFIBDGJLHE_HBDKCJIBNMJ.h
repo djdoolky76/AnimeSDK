@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define HBFIBDGJLHE_HBDKCJIBNMJ_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x15BF86B0)
 #define HBFIBDGJLHE_HBDKCJIBNMJ_SET_PROXY_OFFSET UNITYSDK_OFFSET(0x15C00E40)
 
+inline static constexpr unsigned int HBFIBDGJLHE_HBDKCJIBNMJ_TypeDefinitionIndex = 82185;
+
 	class HBFIBDGJLHE_HBDKCJIBNMJ : public ::System::Object
 	{
 	public:

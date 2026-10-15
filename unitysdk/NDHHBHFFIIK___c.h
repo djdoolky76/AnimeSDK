@@ -12,6 +12,8 @@ namespace UnityEngine { class Collider; }
 #define NDHHBHFFIIK___C___DEPLOYDASHORBTRIGGER_B__9_0_OFFSET UNITYSDK_OFFSET(0xBB29CB0)
 #define NDHHBHFFIIK___C___DEPLOYDASHORBTRIGGER_B__9_1_OFFSET UNITYSDK_OFFSET(0xBB29CE0)
 
+inline static constexpr unsigned int NDHHBHFFIIK___c_TypeDefinitionIndex = 77080;
+
 	class NDHHBHFFIIK___c : public ::System::Object
 	{
 	public:

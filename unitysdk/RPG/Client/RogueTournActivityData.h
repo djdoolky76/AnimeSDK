@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournActivityData_TypeDefinitionIndex = 61659;
+
 	class RogueTournActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

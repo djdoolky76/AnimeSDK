@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMPro_ExtensionMethods_TypeDefinitionIndex = 44678;
+
 	class TMPro_ExtensionMethods : public ::System::Object
 	{
 	public:

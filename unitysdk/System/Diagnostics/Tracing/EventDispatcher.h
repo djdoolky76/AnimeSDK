@@ -8,6 +8,8 @@ namespace System::Diagnostics::Tracing { class EventListener; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int EventDispatcher_TypeDefinitionIndex = 1704;
+
 	class EventDispatcher : public ::System::Object
 	{
 	public:

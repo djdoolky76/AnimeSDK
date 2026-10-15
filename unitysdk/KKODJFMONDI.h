@@ -28,6 +28,8 @@ namespace System { class Type; }
 #define KKODJFMONDI_PAFPEMLLHIF_OFFSET UNITYSDK_OFFSET(0x1D0A2230)
 #define KKODJFMONDI_PHBKDFCBPIN_OFFSET UNITYSDK_OFFSET(0x1D0A1540)
 
+inline static constexpr unsigned int KKODJFMONDI_TypeDefinitionIndex = 10742;
+
 	class KKODJFMONDI : public ::System::Object
 	{
 	public:

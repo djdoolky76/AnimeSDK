@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int ConsoleAccountInfoDialog_TypeDefinitionIndex = 8998;
+
 	class ConsoleAccountInfoDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:

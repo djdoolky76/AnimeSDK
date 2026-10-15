@@ -9,6 +9,8 @@ namespace UnityEngine { class ParticleSystemForceField; }
 #define MHDJGJNGAGA_DCJLCKGOCJM_OFFSET UNITYSDK_OFFSET(0xB9337B0)
 #define MHDJGJNGAGA_DNHFHGPAHLM_OFFSET UNITYSDK_OFFSET(0xB933950)
 
+inline static constexpr unsigned int MHDJGJNGAGA_TypeDefinitionIndex = 70144;
+
 	class MHDJGJNGAGA : public ::System::Object
 	{
 	public:

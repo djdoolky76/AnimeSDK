@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 #define AEDLFHMOEID_KKHOMFOPFJA_OFFSET UNITYSDK_OFFSET(0xB14C990)
 #define AEDLFHMOEID__ONBIND_OFFSET UNITYSDK_OFFSET(0xB14C830)
 
+inline static constexpr unsigned int AEDLFHMOEID_TypeDefinitionIndex = 71979;
+
 	class AEDLFHMOEID : public ::FMPCODLIOLG
 	{
 	public:

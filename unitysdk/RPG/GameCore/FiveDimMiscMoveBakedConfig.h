@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimMiscMoveBakedConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimMiscMoveBakedConfig_TypeDefinitionIndex = 16658;
+
 	class FiveDimMiscMoveBakedConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

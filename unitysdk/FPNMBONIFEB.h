@@ -32,6 +32,8 @@ namespace System { class String; }
 #define FPNMBONIFEB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E40FC00)
 #define FPNMBONIFEB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E40FC60)
 
+inline static constexpr unsigned int FPNMBONIFEB_TypeDefinitionIndex = 33335;
+
 	class FPNMBONIFEB : public ::System::Object
 	{
 	public:

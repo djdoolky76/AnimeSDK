@@ -9,6 +9,8 @@
 
 namespace RPGTools::Timeline::BattlePerform
 {
+	inline static constexpr unsigned int BPTalkPauseBehaviour_TypeDefinitionIndex = 48831;
+
 	class BPTalkPauseBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

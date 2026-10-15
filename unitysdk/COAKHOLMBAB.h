@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define COAKHOLMBAB_CTOR_OFFSET UNITYSDK_OFFSET(0xDCB1730)
 #define COAKHOLMBAB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDCB1760)
 
+inline static constexpr unsigned int COAKHOLMBAB_TypeDefinitionIndex = 52908;
+
 	class COAKHOLMBAB
 	{
 	public:

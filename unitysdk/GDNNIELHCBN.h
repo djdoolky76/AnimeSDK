@@ -6,6 +6,8 @@
 
 #define GDNNIELHCBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA89420)
 
+inline static constexpr unsigned int GDNNIELHCBN_TypeDefinitionIndex = 42186;
+
 	class GDNNIELHCBN : public ::System::Object
 	{
 	public:

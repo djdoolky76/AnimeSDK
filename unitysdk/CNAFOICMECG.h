@@ -25,6 +25,8 @@ namespace System { class String; }
 #define CNAFOICMECG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E105EA0)
 #define CNAFOICMECG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E105F00)
 
+inline static constexpr unsigned int CNAFOICMECG_TypeDefinitionIndex = 27967;
+
 	class CNAFOICMECG : public ::System::Object
 	{
 	public:

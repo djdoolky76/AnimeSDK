@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int IntVec2_TypeDefinitionIndex = 44364;
+
 	struct alignas(4) IntVec2
 	{
 		::UnityEngine::Vector2 value; // 0x10

@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass32_1_TypeDefinitionIndex = 8268;
+
 	template <typename T>
 	class AgeGateManager___c__DisplayClass32_1 : public ::System::Object
 	{

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GENILKGBGFP_LNJBAHBMJAM_OFFSET UNITYSDK_OFFSET(0x159E1B10)
 #define GENILKGBGFP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159E1E10)
 
+inline static constexpr unsigned int GENILKGBGFP_TypeDefinitionIndex = 54475;
+
 	class GENILKGBGFP
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EraFlipperBattleAreaOverrideConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EraFlipperBattleAreaOverrideConfig_TypeDefinitionIndex = 16617;
+
 	class EraFlipperBattleAreaOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

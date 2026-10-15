@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AIDDODLHDLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E27A310)
 #define AIDDODLHDLE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E27A320)
 
+inline static constexpr unsigned int AIDDODLHDLE___c_TypeDefinitionIndex = 29616;
+
 	class AIDDODLHDLE___c : public ::System::Object
 	{
 	public:

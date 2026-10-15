@@ -78,6 +78,8 @@ namespace UnityEngine::UI { class Text; }
 #define CIHFHADBEEN__ONBIND_OFFSET UNITYSDK_OFFSET(0xCF758E0)
 #define CIHFHADBEEN__ONTICK_OFFSET UNITYSDK_OFFSET(0xCF77AB0)
 
+inline static constexpr unsigned int CIHFHADBEEN_TypeDefinitionIndex = 71399;
+
 	class CIHFHADBEEN : public ::FMPCODLIOLG
 	{
 	public:

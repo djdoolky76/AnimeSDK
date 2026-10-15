@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KAAIHICBBOH_CTOR_OFFSET UNITYSDK_OFFSET(0xB2D0790)
 #define KAAIHICBBOH_GICABFLDIPA_OFFSET UNITYSDK_OFFSET(0xB2D02C0)
 
+inline static constexpr unsigned int KAAIHICBBOH_TypeDefinitionIndex = 77467;
+
 	class KAAIHICBBOH : public ::LDCOFDFFPBD
 	{
 	public:

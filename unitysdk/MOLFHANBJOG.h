@@ -30,6 +30,8 @@ namespace System { class String; }
 #define MOLFHANBJOG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAAF100)
 #define MOLFHANBJOG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAAF160)
 
+inline static constexpr unsigned int MOLFHANBJOG_TypeDefinitionIndex = 32282;
+
 	class MOLFHANBJOG : public ::System::Object
 	{
 	public:

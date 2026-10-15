@@ -9,6 +9,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int PPFilterStack_PPPatternParameter_TypeDefinitionIndex = 51860;
+
 	struct alignas(8) PPFilterStack_PPPatternParameter
 	{
 		::System::Boolean PPPatternOverrideState; // 0x10

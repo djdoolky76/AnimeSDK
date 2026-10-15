@@ -4,6 +4,8 @@
 
 #define LCALPEKOEEG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90CDE0)
 
+inline static constexpr unsigned int LCALPEKOEEG_TypeDefinitionIndex = 42105;
+
 	class LCALPEKOEEG : public ::System::Object
 	{
 	public:

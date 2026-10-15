@@ -7,6 +7,8 @@ namespace UnityEngine { class Object; }
 #define NPJKDMFBDFG___C__DISPLAYCLASS63_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBD08880)
 #define NPJKDMFBDFG___C__DISPLAYCLASS63_0__PRELOADPROPERTYRESOURCESWITHHANDLE_B__0_OFFSET UNITYSDK_OFFSET(0xBD0C800)
 
+inline static constexpr unsigned int NPJKDMFBDFG___c__DisplayClass63_0_TypeDefinitionIndex = 49436;
+
 	class NPJKDMFBDFG___c__DisplayClass63_0 : public ::System::Object
 	{
 	public:

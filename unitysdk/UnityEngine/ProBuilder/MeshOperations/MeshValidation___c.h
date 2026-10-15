@@ -15,6 +15,8 @@ namespace UnityEngine::ProBuilder { class Face; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int MeshValidation___c_TypeDefinitionIndex = 44509;
+
 	class MeshValidation___c : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace Mono::Globalization::Unicode
 {
+	inline static constexpr unsigned int CodePointIndexer_TypeDefinitionIndex = 29;
+
 	class CodePointIndexer : public ::System::Object
 	{
 	public:

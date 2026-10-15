@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PSDelegate_HidePsStoreIconDelegate_TypeDefinitionIndex = 7740;
+
 	class PSDelegate_HidePsStoreIconDelegate : public ::System::MulticastDelegate
 	{
 	public:

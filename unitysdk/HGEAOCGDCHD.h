@@ -31,6 +31,8 @@ namespace System { class String; }
 #define HGEAOCGDCHD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E577790)
 #define HGEAOCGDCHD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5777F0)
 
+inline static constexpr unsigned int HGEAOCGDCHD_TypeDefinitionIndex = 29129;
+
 	class HGEAOCGDCHD : public ::System::Object
 	{
 	public:

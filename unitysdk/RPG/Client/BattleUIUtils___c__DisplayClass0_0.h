@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleUIUtils___c__DisplayClass0_0_TypeDefinitionIndex = 72082;
+
 	class BattleUIUtils___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

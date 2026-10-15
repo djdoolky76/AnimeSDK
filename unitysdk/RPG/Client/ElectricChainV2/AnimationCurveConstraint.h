@@ -8,6 +8,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::ElectricChainV2
 {
+	inline static constexpr unsigned int AnimationCurveConstraint_TypeDefinitionIndex = 73606;
+
 	class AnimationCurveConstraint : public ::RPG::Client::ElectricChainV2::Constraint
 	{
 	public:

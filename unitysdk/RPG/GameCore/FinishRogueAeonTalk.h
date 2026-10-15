@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FinishRogueAeonTalk; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FinishRogueAeonTalk_TypeDefinitionIndex = 21911;
+
 	class FinishRogueAeonTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

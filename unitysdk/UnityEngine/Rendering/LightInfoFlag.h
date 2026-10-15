@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int LightInfoFlag_TypeDefinitionIndex = 37513;
+
 	enum class LightInfoFlag : ::System::Int32
 	{
 		kLightDynamic = 1,

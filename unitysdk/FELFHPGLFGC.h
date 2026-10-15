@@ -11,6 +11,8 @@ namespace System { class String; }
 #define FELFHPGLFGC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDE2720)
 #define FELFHPGLFGC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDE23E0)
 
+inline static constexpr unsigned int FELFHPGLFGC_TypeDefinitionIndex = 14966;
+
 	class FELFHPGLFGC : public ::System::Object
 	{
 	public:

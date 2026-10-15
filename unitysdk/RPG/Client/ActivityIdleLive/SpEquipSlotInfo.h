@@ -45,6 +45,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int SpEquipSlotInfo_TypeDefinitionIndex = 75237;
+
 	class SpEquipSlotInfo : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitBatchItem_TypeDefinitionIndex = 23759;
+
 	class WaitBatchItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

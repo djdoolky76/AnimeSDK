@@ -25,6 +25,8 @@ namespace UnityEngine { class Collider; }
 #define OOPELOKBFME_ONUNINIT_OFFSET UNITYSDK_OFFSET(0xBF963E0)
 #define OOPELOKBFME_PHGOPGMPGNP_OFFSET UNITYSDK_OFFSET(0xBF97980)
 
+inline static constexpr unsigned int OOPELOKBFME_TypeDefinitionIndex = 60280;
+
 	class OOPELOKBFME : public ::HBCMHADMLOP
 	{
 	public:

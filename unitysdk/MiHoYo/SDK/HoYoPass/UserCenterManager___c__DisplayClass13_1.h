@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int UserCenterManager___c__DisplayClass13_1_TypeDefinitionIndex = 8277;
+
 	template <typename T>
 	class UserCenterManager___c__DisplayClass13_1 : public ::System::Object
 	{

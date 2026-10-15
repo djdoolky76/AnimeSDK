@@ -11,6 +11,8 @@ namespace RPG::GameCore { class InitColonyOrigamiEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InitColonyOrigamiEntity_TypeDefinitionIndex = 21173;
+
 	class InitColonyOrigamiEntity : public ::RPG::GameCore::TaskConfig
 	{
 	public:

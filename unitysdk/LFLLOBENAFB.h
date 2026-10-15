@@ -31,6 +31,8 @@ namespace UnityEngine { class Animator; }
 #define LFLLOBENAFB_OPKADIJMCAC_OFFSET UNITYSDK_OFFSET(0xB684080)
 #define LFLLOBENAFB__ONBIND_OFFSET UNITYSDK_OFFSET(0xB683220)
 
+inline static constexpr unsigned int LFLLOBENAFB_TypeDefinitionIndex = 71701;
+
 	class LFLLOBENAFB : public ::FMPCODLIOLG
 	{
 	public:

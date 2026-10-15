@@ -8,6 +8,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define IBMKMANFGNO___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15E428E0)
 #define IBMKMANFGNO___C__DISPLAYCLASS5_0___SYNCMAGICUNITS_B__0_OFFSET UNITYSDK_OFFSET(0x15E42BC0)
 
+inline static constexpr unsigned int IBMKMANFGNO___c__DisplayClass5_0_TypeDefinitionIndex = 67420;
+
 	class IBMKMANFGNO___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

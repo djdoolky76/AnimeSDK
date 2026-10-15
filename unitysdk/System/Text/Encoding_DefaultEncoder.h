@@ -17,6 +17,8 @@ namespace System::Text { class Encoding; }
 
 namespace System::Text
 {
+	inline static constexpr unsigned int Encoding_DefaultEncoder_TypeDefinitionIndex = 490;
+
 	class Encoding_DefaultEncoder : public ::System::Text::Encoder
 	{
 	public:

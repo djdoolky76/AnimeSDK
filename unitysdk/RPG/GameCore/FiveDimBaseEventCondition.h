@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimBaseEventCondition; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimBaseEventCondition_TypeDefinitionIndex = 18794;
+
 	class FiveDimBaseEventCondition : public ::RPG::GameCore::LittleGameBaseEventCondition
 	{
 	public:

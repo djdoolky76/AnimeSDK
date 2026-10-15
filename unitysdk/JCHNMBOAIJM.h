@@ -23,6 +23,8 @@ namespace System { class String; }
 #define JCHNMBOAIJM_PEINEMHEHGD_OFFSET UNITYSDK_OFFSET(0x165950F0)
 #define JCHNMBOAIJM_PKHCDDFDBEL_OFFSET UNITYSDK_OFFSET(0x16594DB0)
 
+inline static constexpr unsigned int JCHNMBOAIJM_TypeDefinitionIndex = 61058;
+
 	class JCHNMBOAIJM : public ::System::Object
 	{
 	public:

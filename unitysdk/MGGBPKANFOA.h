@@ -29,6 +29,8 @@ namespace System { class String; }
 #define MGGBPKANFOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA25030)
 #define MGGBPKANFOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA25090)
 
+inline static constexpr unsigned int MGGBPKANFOA_TypeDefinitionIndex = 33394;
+
 	class MGGBPKANFOA : public ::System::Object
 	{
 	public:

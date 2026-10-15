@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyBuildBlock_TypeDefinitionIndex = 16271;
+
 	class TrainPartyBuildBlock : public ::RPG::GameCore::JsonConfig
 	{
 	public:

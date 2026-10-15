@@ -6,6 +6,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define AIMNKMEFBKE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C58B540)
 #define AIMNKMEFBKE_GETCLIENTPROXYMATCHER_OFFSET UNITYSDK_OFFSET(0x1C58B4A0)
 
+inline static constexpr unsigned int AIMNKMEFBKE_TypeDefinitionIndex = 37045;
+
 	class AIMNKMEFBKE
 	{
 	public:

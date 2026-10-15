@@ -73,6 +73,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::AvatarSystem
 {
+	inline static constexpr unsigned int AvatarSkin_TypeDefinitionIndex = 51973;
+
 	class AvatarSkin : public ::System::Object
 	{
 	public:

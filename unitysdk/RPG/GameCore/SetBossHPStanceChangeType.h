@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SetBossHPStanceChangeType; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetBossHPStanceChangeType_TypeDefinitionIndex = 23649;
+
 	class SetBossHPStanceChangeType : public ::RPG::GameCore::TaskConfig
 	{
 	public:

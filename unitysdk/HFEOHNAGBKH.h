@@ -5,6 +5,8 @@ class PLBKCJPICMN;
 
 #define HFEOHNAGBKH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAC8280)
 
+inline static constexpr unsigned int HFEOHNAGBKH_TypeDefinitionIndex = 43218;
+
 	class HFEOHNAGBKH : public ::System::Object
 	{
 	public:

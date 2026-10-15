@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TriggerModelShake; }
 #define IGOPMGPDILB_CTOR_OFFSET UNITYSDK_OFFSET(0x164166D0)
 #define IGOPMGPDILB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16416700)
 
+inline static constexpr unsigned int IGOPMGPDILB_TypeDefinitionIndex = 55745;
+
 	class IGOPMGPDILB
 	{
 	public:

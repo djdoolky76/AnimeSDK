@@ -7,6 +7,8 @@ namespace System { class Nullable; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerLockTargetWeightOverrideConfig_TypeDefinitionIndex = 57654;
+
 	class PlayerLockTargetWeightOverrideConfig : public ::System::Object
 	{
 	public:

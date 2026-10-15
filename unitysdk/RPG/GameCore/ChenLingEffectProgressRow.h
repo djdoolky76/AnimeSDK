@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChenLingEffectProgressRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingEffectProgressRow_TypeDefinitionIndex = 11037;
+
 	class ChenLingEffectProgressRow : public ::System::Object
 	{
 	public:

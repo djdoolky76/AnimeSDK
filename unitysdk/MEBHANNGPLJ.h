@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int MEBHANNGPLJ_TypeDefinitionIndex = 25871;
+
 	enum class MEBHANNGPLJ : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

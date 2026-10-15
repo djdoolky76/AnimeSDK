@@ -12,6 +12,8 @@ namespace UnityEngine::Rendering { class BatchAnimation; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NPCPedestrianV2BatchAnimationEvent___c__DisplayClass4_0_TypeDefinitionIndex = 69256;
+
 	class NPCPedestrianV2BatchAnimationEvent___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

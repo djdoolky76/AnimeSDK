@@ -39,6 +39,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFes3DBtnContainerViewModel_TypeDefinitionIndex = 81365;
+
 	class ChenLingFes3DBtnContainerViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

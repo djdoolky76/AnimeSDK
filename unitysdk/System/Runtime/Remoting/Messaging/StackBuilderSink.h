@@ -17,6 +17,8 @@ namespace System::Runtime::Remoting::Proxies { class RealProxy; }
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int StackBuilderSink_TypeDefinitionIndex = 1337;
+
 	class StackBuilderSink : public ::System::Object
 	{
 	public:

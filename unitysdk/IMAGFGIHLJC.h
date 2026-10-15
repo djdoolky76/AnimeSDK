@@ -31,6 +31,8 @@ namespace System { class String; }
 #define IMAGFGIHLJC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6B39F0)
 #define IMAGFGIHLJC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6B3A50)
 
+inline static constexpr unsigned int IMAGFGIHLJC_TypeDefinitionIndex = 31636;
+
 	class IMAGFGIHLJC : public ::System::Object
 	{
 	public:

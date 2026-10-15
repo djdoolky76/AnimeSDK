@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMagicGameLayerInfo_TypeDefinitionIndex = 67391;
+
 	class RogueMagicGameLayerInfo : public ::System::Object
 	{
 	public:

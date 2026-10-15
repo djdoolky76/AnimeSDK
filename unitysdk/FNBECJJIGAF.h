@@ -12,6 +12,8 @@ namespace System { class String; }
 #define FNBECJJIGAF_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1586A2E0)
 #define FNBECJJIGAF__ONEXECUTE_B__5_0_OFFSET UNITYSDK_OFFSET(0x1586A550)
 
+inline static constexpr unsigned int FNBECJJIGAF_TypeDefinitionIndex = 78176;
+
 	class FNBECJJIGAF : public ::AJHHFMBOCEN
 	{
 	public:

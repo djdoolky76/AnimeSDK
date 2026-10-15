@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class RawImage; }
 #define FLDLEHLKHMB_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x1582D510)
 #define FLDLEHLKHMB_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0x1582D570)
 
+inline static constexpr unsigned int FLDLEHLKHMB_TypeDefinitionIndex = 72794;
+
 	class FLDLEHLKHMB : public ::LBAMBIMMJKB
 	{
 	public:

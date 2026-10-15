@@ -12,6 +12,8 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceSessionStageResu
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceSessionStageResultExtensions_TypeDefinitionIndex = 81487;
+
 	class ChallengeTierceSessionStageResultExtensions : public ::System::Object
 	{
 	public:

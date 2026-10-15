@@ -78,6 +78,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NPCManager_TypeDefinitionIndex = 60661;
+
 	class NPCManager : public ::System::Object
 	{
 	public:

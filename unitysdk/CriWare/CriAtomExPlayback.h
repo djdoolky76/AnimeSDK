@@ -49,6 +49,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExPlayback_TypeDefinitionIndex = 40053;
+
 	struct alignas(4) CriAtomExPlayback
 	{
 		::System::UInt32 _id_k__BackingField; // 0x10

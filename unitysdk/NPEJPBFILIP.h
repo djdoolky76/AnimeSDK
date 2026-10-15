@@ -5,6 +5,8 @@ namespace System { class Version; }
 
 #define NPEJPBFILIP_CTOR_OFFSET UNITYSDK_OFFSET(0xBCFC250)
 
+inline static constexpr unsigned int NPEJPBFILIP_TypeDefinitionIndex = 82240;
+
 	class NPEJPBFILIP : public ::System::Object
 	{
 	public:

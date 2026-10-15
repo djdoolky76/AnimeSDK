@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::AvatarSystem
 {
+	inline static constexpr unsigned int Avatar_TypeDefinitionIndex = 51891;
+
 	class Avatar : public ::System::Object
 	{
 	public:

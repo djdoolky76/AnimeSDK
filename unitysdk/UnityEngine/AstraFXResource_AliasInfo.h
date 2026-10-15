@@ -5,6 +5,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AstraFXResource_AliasInfo_TypeDefinitionIndex = 4091;
+
 	struct alignas(8) AstraFXResource_AliasInfo
 	{
 		::System::String* targetName; // 0x10

@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceTargetsViewModel___O_TypeDefinitionIndex = 81583;
+
 	class ChallengeTierceTargetsViewModel___O : public ::System::Object
 	{
 	public:

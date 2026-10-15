@@ -13,6 +13,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define AGJOIILGIHK___C___REFRESHCHATMESSAGEDATALIST_B__1_0_OFFSET UNITYSDK_OFFSET(0xCF3C300)
 #define AGJOIILGIHK___C___REFRESHCHATMESSAGEDATALIST_B__1_1_OFFSET UNITYSDK_OFFSET(0xCF3C340)
 
+inline static constexpr unsigned int AGJOIILGIHK___c_TypeDefinitionIndex = 66410;
+
 	class AGJOIILGIHK___c : public ::System::Object
 	{
 	public:

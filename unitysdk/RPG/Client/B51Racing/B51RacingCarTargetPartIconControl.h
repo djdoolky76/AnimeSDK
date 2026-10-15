@@ -16,6 +16,8 @@ namespace UnityEngine::UI { class SmoothMask; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingCarTargetPartIconControl_TypeDefinitionIndex = 81819;
+
 	class B51RacingCarTargetPartIconControl : public ::Sofa::BaseSofaControl
 	{
 	public:

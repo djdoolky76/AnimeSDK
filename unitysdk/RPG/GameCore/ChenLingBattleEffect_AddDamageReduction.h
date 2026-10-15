@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingBattleEffect_AddDamageReduction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleEffect_AddDamageReduction_TypeDefinitionIndex = 15789;
+
 	class ChenLingBattleEffect_AddDamageReduction : public ::RPG::GameCore::BaseChenLingBattleEffect
 	{
 	public:

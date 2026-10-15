@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionChroniclePathUnlockConditionData_LeaveFloor_TypeDefinitionIndex = 66119;
+
 	class MissionChroniclePathUnlockConditionData_LeaveFloor : public ::System::Object
 	{
 	public:

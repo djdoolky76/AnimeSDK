@@ -13,6 +13,8 @@
 #define AJPBKMBIGNC_SET_DAY_OFFSET UNITYSDK_OFFSET(0x12CC8930)
 #define AJPBKMBIGNC_SET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x12CC8970)
 
+inline static constexpr unsigned int AJPBKMBIGNC_TypeDefinitionIndex = 81661;
+
 	class AJPBKMBIGNC : public ::System::Object
 	{
 	public:

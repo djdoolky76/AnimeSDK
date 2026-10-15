@@ -25,6 +25,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BindSwitchPhotoGraphFuncBtn_TypeDefinitionIndex = 21656;
+
 	class BindSwitchPhotoGraphFuncBtn : public ::RPG::GameCore::TaskConfig
 	{
 	public:

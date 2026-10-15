@@ -8,6 +8,8 @@ namespace System { class String; }
 #define HCIOPLELMID_IHIHFINNDAJ_OFFSET UNITYSDK_OFFSET(0x15C1FCD0)
 #define HCIOPLELMID_SET_ISENABLED_OFFSET UNITYSDK_OFFSET(0x15C1FCC0)
 
+inline static constexpr unsigned int HCIOPLELMID_TypeDefinitionIndex = 56559;
+
 	class HCIOPLELMID : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoAtlasMouthTalk_TypeDefinitionIndex = 68528;
+
 	class MonoAtlasMouthTalk : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowPhaseUI_TypeDefinitionIndex = 23686;
+
 	class ShowPhaseUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

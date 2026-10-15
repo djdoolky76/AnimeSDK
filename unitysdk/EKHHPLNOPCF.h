@@ -42,6 +42,8 @@ namespace System { class String; }
 #define EKHHPLNOPCF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2C1520)
 #define EKHHPLNOPCF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2C1580)
 
+inline static constexpr unsigned int EKHHPLNOPCF_TypeDefinitionIndex = 26852;
+
 	class EKHHPLNOPCF : public ::System::Object
 	{
 	public:

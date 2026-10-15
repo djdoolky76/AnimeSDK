@@ -7,6 +7,8 @@ namespace MiHoYo::SDK { class AccountPlatNative_HoYoSDKPluginUICallback; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int AccountPlatNative___O_TypeDefinitionIndex = 46092;
+
 	class AccountPlatNative___O : public ::System::Object
 	{
 	public:

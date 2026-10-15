@@ -3,6 +3,8 @@
 
 namespace VLB
 {
+	inline static constexpr unsigned int VolumetricDustParticles_Direction_TypeDefinitionIndex = 49014;
+
 	enum class VolumetricDustParticles_Direction : ::System::Int32
 	{
 		Beam = 0,

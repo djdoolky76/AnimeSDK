@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityEngine::AI
 {
+	inline static constexpr unsigned int NavMeshBuildMarkup_TypeDefinitionIndex = 5663;
+
 	struct alignas(4) NavMeshBuildMarkup
 	{
 		::System::Int32 m_OverrideArea; // 0x10

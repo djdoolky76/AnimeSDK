@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LOMPEEDFPLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9C5DF0)
 #define LOMPEEDFPLE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9C5E50)
 
+inline static constexpr unsigned int LOMPEEDFPLE_TypeDefinitionIndex = 30022;
+
 	class LOMPEEDFPLE : public ::System::Object
 	{
 	public:

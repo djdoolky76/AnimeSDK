@@ -219,6 +219,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamFormationComponent_TypeDefinitionIndex = 57702;
+
 	class TeamFormationComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

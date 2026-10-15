@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define MFKJEGCNBHA_MHDJMHEMKIE_OFFSET UNITYSDK_OFFSET(0xB905410)
 #define MFKJEGCNBHA_PEMMNHMMMAE_OFFSET UNITYSDK_OFFSET(0xB905480)
 
+inline static constexpr unsigned int MFKJEGCNBHA_TypeDefinitionIndex = 60140;
+
 	class MFKJEGCNBHA : public ::System::Object
 	{
 	public:

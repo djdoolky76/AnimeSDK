@@ -4,6 +4,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int BAVariantKey_TypeDefinitionIndex = 4784;
+
 	struct alignas(8) BAVariantKey
 	{
 		::System::String* keyStr; // 0x10

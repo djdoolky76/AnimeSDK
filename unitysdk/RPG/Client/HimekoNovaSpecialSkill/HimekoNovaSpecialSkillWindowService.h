@@ -9,6 +9,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 
 namespace RPG::Client::HimekoNovaSpecialSkill
 {
+	inline static constexpr unsigned int HimekoNovaSpecialSkillWindowService_TypeDefinitionIndex = 80485;
+
 	class HimekoNovaSpecialSkillWindowService : public ::System::Object
 	{
 	public:

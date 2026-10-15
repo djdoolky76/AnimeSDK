@@ -24,6 +24,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int BasicPlayableBehaviour_TypeDefinitionIndex = 38844;
+
 	class BasicPlayableBehaviour : public ::UnityEngine::ScriptableObject
 	{
 	public:

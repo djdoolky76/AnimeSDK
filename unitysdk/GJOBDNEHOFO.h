@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define GJOBDNEHOFO__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x15A7A1A0)
 #define GJOBDNEHOFO__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x15A7A260)
 
+inline static constexpr unsigned int GJOBDNEHOFO_TypeDefinitionIndex = 52994;
+
 	class GJOBDNEHOFO
 	{
 	public:

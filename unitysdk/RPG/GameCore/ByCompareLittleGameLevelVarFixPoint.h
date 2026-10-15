@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareLittleGameLevelVarFixPoint_TypeDefinitionIndex = 21428;
+
 	class ByCompareLittleGameLevelVarFixPoint : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

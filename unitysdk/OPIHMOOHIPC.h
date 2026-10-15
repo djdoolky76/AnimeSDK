@@ -36,6 +36,8 @@ namespace System { class String; }
 #define OPIHMOOHIPC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEE2CF0)
 #define OPIHMOOHIPC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEE2D50)
 
+inline static constexpr unsigned int OPIHMOOHIPC_TypeDefinitionIndex = 28641;
+
 	class OPIHMOOHIPC : public ::System::Object
 	{
 	public:

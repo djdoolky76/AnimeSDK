@@ -6,6 +6,8 @@ class JOOHEPGEHNK;
 
 #define FPEHDMEOOKE_CJDNCBHLOGD_OFFSET UNITYSDK_OFFSET(0x1C555B10)
 
+inline static constexpr unsigned int FPEHDMEOOKE_TypeDefinitionIndex = 41908;
+
 	class FPEHDMEOOKE : public ::System::Object
 	{
 	public:

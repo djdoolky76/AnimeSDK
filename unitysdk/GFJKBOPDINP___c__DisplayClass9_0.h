@@ -6,6 +6,8 @@ namespace System { class Action; }
 #define GFJKBOPDINP___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x159FAD90)
 #define GFJKBOPDINP___C__DISPLAYCLASS9_0___ONFADEINFINISHED_B__0_OFFSET UNITYSDK_OFFSET(0x159FADA0)
 
+inline static constexpr unsigned int GFJKBOPDINP___c__DisplayClass9_0_TypeDefinitionIndex = 60469;
+
 	class GFJKBOPDINP___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

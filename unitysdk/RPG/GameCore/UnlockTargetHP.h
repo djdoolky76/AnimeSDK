@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UnlockTargetHP_TypeDefinitionIndex = 23620;
+
 	class UnlockTargetHP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

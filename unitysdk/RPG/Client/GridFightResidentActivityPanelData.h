@@ -65,6 +65,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightResidentActivityPanelData_TypeDefinitionIndex = 61769;
+
 	class GridFightResidentActivityPanelData : public ::System::Object
 	{
 	public:

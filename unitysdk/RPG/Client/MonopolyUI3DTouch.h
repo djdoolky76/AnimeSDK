@@ -23,6 +23,8 @@ namespace RPG::Client { class MonopolyUI3DTouch_FingerUtil; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyUI3DTouch_TypeDefinitionIndex = 72848;
+
 	class MonopolyUI3DTouch : public ::UnityEngine::MonoBehaviour
 	{
 	public:

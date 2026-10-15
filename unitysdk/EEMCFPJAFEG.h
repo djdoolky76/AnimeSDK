@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_ModifierAdditiveProper
 #define EEMCFPJAFEG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5DF7B0)
 #define EEMCFPJAFEG_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C5FB540)
 
+inline static constexpr unsigned int EEMCFPJAFEG_TypeDefinitionIndex = 36323;
+
 	class EEMCFPJAFEG : public ::HHOHBHGLHHF
 	{
 	public:

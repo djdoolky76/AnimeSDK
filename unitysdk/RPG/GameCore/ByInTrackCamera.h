@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByInTrackCamera_TypeDefinitionIndex = 20835;
+
 	class ByInTrackCamera : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

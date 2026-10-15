@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEquipActiveEffect_TypeDefinitionIndex = 64471;
+
 	class GridFightEquipActiveEffect : public ::RPG::Client::GridFightParticleEffect
 	{
 	public:

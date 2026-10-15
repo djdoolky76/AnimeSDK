@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SFXPlayType_TypeDefinitionIndex = 15431;
+
 	enum class SFXPlayType : ::System::Int32
 	{
 		Cutscene = 0,

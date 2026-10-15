@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Profiling_TypeDefinitionIndex = 36732;
+
 	class B2Profiling : public ::System::Object
 	{
 	public:

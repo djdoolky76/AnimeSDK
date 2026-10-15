@@ -73,6 +73,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 #define FHLLIHAHKHF__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x15784570)
 #define FHLLIHAHKHF__ONTICK_OFFSET UNITYSDK_OFFSET(0x15783FB0)
 
+inline static constexpr unsigned int FHLLIHAHKHF_TypeDefinitionIndex = 72032;
+
 	class FHLLIHAHKHF : public ::FMPCODLIOLG
 	{
 	public:

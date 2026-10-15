@@ -18,6 +18,8 @@ namespace RPG::Client::LittleGame::CakeRace { class CakeRaceTalkBubbleMonoView; 
 
 namespace RPG::Client::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceCatUI3DPerformancePrepareData_TypeDefinitionIndex = 76468;
+
 	class CakeRaceCatUI3DPerformancePrepareData : public ::System::Object
 	{
 	public:

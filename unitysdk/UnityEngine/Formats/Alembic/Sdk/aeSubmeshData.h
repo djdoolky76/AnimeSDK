@@ -11,6 +11,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aeSubmeshData_TypeDefinitionIndex = 45786;
+
 	struct alignas(4) aeSubmeshData
 	{
 		::System::IntPtr _indexes_k__BackingField; // 0x10

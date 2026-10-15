@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeV2PvpScoreData_TypeDefinitionIndex = 66048;
+
 	class MatchThreeV2PvpScoreData : public ::System::Object
 	{
 	public:

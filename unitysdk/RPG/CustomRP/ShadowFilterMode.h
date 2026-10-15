@@ -3,6 +3,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ShadowFilterMode_TypeDefinitionIndex = 37570;
+
 	enum class ShadowFilterMode : ::System::Int32
 	{
 		PCF2x2 = 0,

@@ -56,6 +56,8 @@ namespace System::Xml::Serialization { class XmlTypeMapping; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlSerializationReaderInterpreter_TypeDefinitionIndex = 2032;
+
 	class XmlSerializationReaderInterpreter : public ::System::Xml::Serialization::XmlSerializationReader
 	{
 	public:

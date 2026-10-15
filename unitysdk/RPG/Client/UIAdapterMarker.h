@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIAdapterMarker_TypeDefinitionIndex = 73019;
+
 	class UIAdapterMarker : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChessRogueDiceData_TypeDefinitionIndex = 66939;
+
 	class ChessRogueDiceData : public ::System::Object
 	{
 	public:

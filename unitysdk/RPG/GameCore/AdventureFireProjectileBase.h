@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureFireProjectileBase_TypeDefinitionIndex = 20209;
+
 	class AdventureFireProjectileBase : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -160,6 +160,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HBAHBGCOOML_PMILCIOAPLL_OFFSET UNITYSDK_OFFSET(0x1C6621B0)
 #define HBAHBGCOOML_PNBPEKPPLNA_OFFSET UNITYSDK_OFFSET(0x1C660E10)
 
+inline static constexpr unsigned int HBAHBGCOOML_TypeDefinitionIndex = 36287;
+
 	class HBAHBGCOOML : public ::KILOJFMKNAI
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LOFIKOLADHM_CTOR_OFFSET UNITYSDK_OFFSET(0xB7FF430)
 #define LOFIKOLADHM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB7FF460)
 
+inline static constexpr unsigned int LOFIKOLADHM_TypeDefinitionIndex = 54673;
+
 	class LOFIKOLADHM
 	{
 	public:

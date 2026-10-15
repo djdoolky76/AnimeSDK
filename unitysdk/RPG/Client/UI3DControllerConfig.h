@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UI3DControllerConfig_TypeDefinitionIndex = 73002;
+
 	class UI3DControllerConfig : public ::System::Object
 	{
 	public:

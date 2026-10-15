@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DebateInitialize_TypeDefinitionIndex = 21930;
+
 	class DebateInitialize : public ::RPG::GameCore::TaskConfig
 	{
 	public:

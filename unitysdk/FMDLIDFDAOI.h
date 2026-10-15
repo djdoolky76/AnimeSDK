@@ -13,6 +13,8 @@ namespace RPG::Client::FateRin::View::Card { class FateRinCardPosControlView; }
 #define FMDLIDFDAOI_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x1584FEC0)
 #define FMDLIDFDAOI_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1584FD60)
 
+inline static constexpr unsigned int FMDLIDFDAOI_TypeDefinitionIndex = 80850;
+
 	class FMDLIDFDAOI : public ::MLKDDLHNNHH
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JNLPINNKLML_MBNGKBHBNPP_OFFSET UNITYSDK_OFFSET(0xB28D240)
 #define JNLPINNKLML_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xB28C3C0)
 
+inline static constexpr unsigned int JNLPINNKLML_TypeDefinitionIndex = 78244;
+
 	class JNLPINNKLML : public ::KNFCEJEJINK
 	{
 	public:

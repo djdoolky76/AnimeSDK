@@ -65,6 +65,8 @@ namespace RPG::Client { class PlanetFesBusinessDayData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesEventDataBase_TypeDefinitionIndex = 66556;
+
 	class PlanetFesEventDataBase : public ::System::Object
 	{
 	public:

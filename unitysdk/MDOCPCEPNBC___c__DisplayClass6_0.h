@@ -6,6 +6,8 @@ class MDOCPCEPNBC;
 namespace System { class Action; }
 namespace System { class Exception; }
 
+inline static constexpr unsigned int MDOCPCEPNBC___c__DisplayClass6_0_TypeDefinitionIndex = 49243;
+
 	class MDOCPCEPNBC___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

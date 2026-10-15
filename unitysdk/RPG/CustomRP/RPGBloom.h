@@ -11,6 +11,8 @@ namespace UnityEngine::Rendering { class Vector4Parameter; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGBloom_TypeDefinitionIndex = 37790;
+
 	class RPGBloom : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:

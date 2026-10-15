@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int TypeAccessException_TypeDefinitionIndex = 352;
+
 	class TypeAccessException : public ::System::TypeLoadException
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_TOPNodeData_TypeDefinitionIndex = 40539;
+
 	class HEU_TOPNodeData : public ::System::Object
 	{
 	public:

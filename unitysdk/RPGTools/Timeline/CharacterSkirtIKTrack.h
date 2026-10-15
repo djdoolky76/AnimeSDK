@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterSkirtIKTrack_TypeDefinitionIndex = 47985;
+
 	class CharacterSkirtIKTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:

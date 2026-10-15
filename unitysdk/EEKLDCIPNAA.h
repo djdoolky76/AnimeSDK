@@ -5,6 +5,8 @@
 #define EEKLDCIPNAA_CCTOR_OFFSET UNITYSDK_OFFSET(0x13A33D30)
 #define EEKLDCIPNAA_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x13A33FB0)
 
+inline static constexpr unsigned int EEKLDCIPNAA_TypeDefinitionIndex = 69831;
+
 	class EEKLDCIPNAA : public ::System::Object
 	{
 	public:

@@ -36,6 +36,8 @@ namespace UnityEngine { class GameObject; }
 #define BIICGKJAGAG_LKINOKFJPCL_OFFSET UNITYSDK_OFFSET(0xB4AC930)
 #define BIICGKJAGAG_REMOVEFROMAOI_OFFSET UNITYSDK_OFFSET(0xB4AC310)
 
+inline static constexpr unsigned int BIICGKJAGAG_TypeDefinitionIndex = 73819;
+
 	class BIICGKJAGAG : public ::GDMONJOAKHD
 	{
 	public:

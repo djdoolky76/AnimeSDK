@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BOOPOAHOODF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E03E9B0)
 #define BOOPOAHOODF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E03EA10)
 
+inline static constexpr unsigned int BOOPOAHOODF_TypeDefinitionIndex = 30449;
+
 	class BOOPOAHOODF : public ::System::Object
 	{
 	public:

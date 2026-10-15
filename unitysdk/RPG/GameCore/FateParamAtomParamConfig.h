@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateParamAtomParamConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateParamAtomParamConfig_TypeDefinitionIndex = 16624;
+
 	class FateParamAtomParamConfig : public ::RPG::GameCore::FateParameterConfigBase
 	{
 	public:

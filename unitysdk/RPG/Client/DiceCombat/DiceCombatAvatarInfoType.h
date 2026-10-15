@@ -3,6 +3,8 @@
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatAvatarInfoType_TypeDefinitionIndex = 76092;
+
 	enum class DiceCombatAvatarInfoType : ::System::Int32
 	{
 		StaticConfig = 0,

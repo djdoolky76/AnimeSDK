@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define AMJFPOKLPFM_CTOR_OFFSET UNITYSDK_OFFSET(0x15582370)
 
+inline static constexpr unsigned int AMJFPOKLPFM_TypeDefinitionIndex = 68412;
+
 	class AMJFPOKLPFM : public ::System::Attribute
 	{
 	public:

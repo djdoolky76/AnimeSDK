@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraTalkContentWithWeight; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraPeriodicRandomTalk_TypeDefinitionIndex = 15853;
+
 	class ChimeraPeriodicRandomTalk : public ::RPG::GameCore::ChimeraTalk
 	{
 	public:

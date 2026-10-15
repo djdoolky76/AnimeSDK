@@ -6,6 +6,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomConfig_EditorPcmOutputConfig_TypeDefinitionIndex = 40157;
+
 	class CriAtomConfig_EditorPcmOutputConfig : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 #define KFLICJPAIDH_GET_REASON_OFFSET UNITYSDK_OFFSET(0x1EC4DF70)
 #define KFLICJPAIDH_SET_REASON_OFFSET UNITYSDK_OFFSET(0x1EC4DF80)
 
+inline static constexpr unsigned int KFLICJPAIDH_TypeDefinitionIndex = 44041;
+
 	class KFLICJPAIDH : public ::System::Object
 	{
 	public:

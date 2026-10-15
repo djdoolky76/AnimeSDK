@@ -6,6 +6,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_TextUtilities_LineSegment_TypeDefinitionIndex = 44672;
+
 	struct alignas(4) TMP_TextUtilities_LineSegment
 	{
 		::UnityEngine::Vector3 Point1; // 0x10

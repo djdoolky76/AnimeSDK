@@ -9,6 +9,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace SRF::Helpers
 {
+	inline static constexpr unsigned int SRReflection_TypeDefinitionIndex = 35431;
+
 	class SRReflection : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 #define BJMIEJPKBPA_PIJGJLABIFO_OFFSET UNITYSDK_OFFSET(0xB7A8F60)
 #define BJMIEJPKBPA_POMAEIJODAB_OFFSET UNITYSDK_OFFSET(0xB7A8E50)
 
+inline static constexpr unsigned int BJMIEJPKBPA_TypeDefinitionIndex = 70869;
+
 	class BJMIEJPKBPA : public ::NPMNBIGNDMO
 	{
 	public:

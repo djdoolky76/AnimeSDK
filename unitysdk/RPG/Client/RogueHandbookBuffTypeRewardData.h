@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueHandbookBuffTypeRewardData_TypeDefinitionIndex = 67371;
+
 	class RogueHandbookBuffTypeRewardData : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Threading { class ManualResetEvent; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int Stream_SynchronousAsyncResult___c_TypeDefinitionIndex = 689;
+
 	class Stream_SynchronousAsyncResult___c : public ::System::Object
 	{
 	public:

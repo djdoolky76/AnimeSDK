@@ -30,6 +30,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int ListValue_TypeDefinitionIndex = 35752;
+
 	class ListValue : public ::System::Object
 	{
 	public:

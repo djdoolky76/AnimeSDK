@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FantasticStoryChapterData_TypeDefinitionIndex = 63978;
+
 	class FantasticStoryChapterData : public ::System::Object
 	{
 	public:

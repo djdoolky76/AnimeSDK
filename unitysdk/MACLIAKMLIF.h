@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MACLIAKMLIF_GET_MATPATH_OFFSET UNITYSDK_OFFSET(0xB842100)
 #define MACLIAKMLIF_GET_PARTTYPE_OFFSET UNITYSDK_OFFSET(0xB8420F0)
 
+inline static constexpr unsigned int MACLIAKMLIF_TypeDefinitionIndex = 80130;
+
 	class MACLIAKMLIF : public ::System::Object
 	{
 	public:

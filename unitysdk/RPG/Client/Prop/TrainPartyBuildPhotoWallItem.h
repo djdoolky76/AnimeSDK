@@ -14,6 +14,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int TrainPartyBuildPhotoWallItem_TypeDefinitionIndex = 78183;
+
 	class TrainPartyBuildPhotoWallItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

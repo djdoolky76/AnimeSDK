@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ByCanPlanetFesLevelUp_TypeDefinitionIndex = 10272;
+
 	class ByCanPlanetFesLevelUp : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

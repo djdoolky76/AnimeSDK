@@ -11,6 +11,8 @@ namespace RPG::Client::DiceCombat { class IDiceCombatAvatarInfo; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatChangeDicePageParam_TypeDefinitionIndex = 76120;
+
 	class DiceCombatChangeDicePageParam : public ::System::Object
 	{
 	public:

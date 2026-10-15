@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define AKPPOAIOOHN_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C29350)
 #define AKPPOAIOOHN_HIDEJDELEEB_OFFSET UNITYSDK_OFFSET(0xE620)
 
+inline static constexpr unsigned int AKPPOAIOOHN_TypeDefinitionIndex = 36396;
+
 	struct alignas(4) AKPPOAIOOHN
 	{
 		::System::Int32 JGEJHLKFPOA; // 0x10

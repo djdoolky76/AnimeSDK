@@ -13,6 +13,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventurePropPlatformEnter_TypeDefinitionIndex = 56648;
+
 	class AdventurePropPlatformEnter : public ::CMPGEAFHHDC
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define CFDNIJHMEND_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E09EE30)
 #define CFDNIJHMEND_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E09EE90)
 
+inline static constexpr unsigned int CFDNIJHMEND_TypeDefinitionIndex = 30970;
+
 	class CFDNIJHMEND : public ::System::Object
 	{
 	public:

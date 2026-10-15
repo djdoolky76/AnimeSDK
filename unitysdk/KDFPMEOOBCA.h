@@ -4,6 +4,8 @@
 
 #define KDFPMEOOBCA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C70E970)
 
+inline static constexpr unsigned int KDFPMEOOBCA_TypeDefinitionIndex = 36207;
+
 	class KDFPMEOOBCA : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetVersusBar_TypeDefinitionIndex = 23144;
+
 	class SetVersusBar : public ::RPG::GameCore::TaskConfig
 	{
 	public:

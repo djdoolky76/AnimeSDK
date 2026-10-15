@@ -10,6 +10,8 @@ namespace System { class String; }
 #define KMGHEKCKAAP_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C908A10)
 #define KMGHEKCKAAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C908A80)
 
+inline static constexpr unsigned int KMGHEKCKAAP_TypeDefinitionIndex = 42015;
+
 	class KMGHEKCKAAP : public ::System::Object
 	{
 	public:

@@ -43,6 +43,8 @@ namespace System { class String; }
 #define BHMEPBAGOFF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDFA980)
 #define BHMEPBAGOFF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDFA9E0)
 
+inline static constexpr unsigned int BHMEPBAGOFF_TypeDefinitionIndex = 28776;
+
 	class BHMEPBAGOFF : public ::System::Object
 	{
 	public:

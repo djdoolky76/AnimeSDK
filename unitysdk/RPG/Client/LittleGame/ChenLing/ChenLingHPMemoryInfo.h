@@ -7,6 +7,8 @@
 
 namespace RPG::Client::LittleGame::ChenLing
 {
+	inline static constexpr unsigned int ChenLingHPMemoryInfo_TypeDefinitionIndex = 43748;
+
 	class ChenLingHPMemoryInfo : public ::System::Object
 	{
 	public:

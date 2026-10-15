@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HJCPBDECGML_PEHIHPHCJAK_OFFSET UNITYSDK_OFFSET(0x15D09C50)
 #define HJCPBDECGML_SET_PROPITEMS_OFFSET UNITYSDK_OFFSET(0x15D0A2D0)
 
+inline static constexpr unsigned int HJCPBDECGML_TypeDefinitionIndex = 71468;
+
 	class HJCPBDECGML : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int Enum_ValuesAndNames_TypeDefinitionIndex = 240;
+
 	class Enum_ValuesAndNames : public ::System::Object
 	{
 	public:

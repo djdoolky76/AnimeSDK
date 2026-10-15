@@ -12,6 +12,8 @@
 
 namespace RPGCamera
 {
+	inline static constexpr unsigned int CameraStatePostModule_TypeDefinitionIndex = 45950;
+
 	class CameraStatePostModule : public ::System::Object
 	{
 	public:

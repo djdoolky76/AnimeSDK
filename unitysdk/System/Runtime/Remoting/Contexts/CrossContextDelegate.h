@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace System::Runtime::Remoting::Contexts
 {
+	inline static constexpr unsigned int CrossContextDelegate_TypeDefinitionIndex = 1252;
+
 	class CrossContextDelegate : public ::System::MulticastDelegate
 	{
 	public:

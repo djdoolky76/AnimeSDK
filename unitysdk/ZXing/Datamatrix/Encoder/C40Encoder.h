@@ -16,6 +16,8 @@ namespace ZXing::Datamatrix::Encoder { class EncoderContext; }
 
 namespace ZXing::Datamatrix::Encoder
 {
+	inline static constexpr unsigned int C40Encoder_TypeDefinitionIndex = 7019;
+
 	class C40Encoder : public ::System::Object
 	{
 	public:

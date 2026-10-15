@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DNBNLNELCGI_CTOR_OFFSET UNITYSDK_OFFSET(0x11940900)
 #define DNBNLNELCGI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11940930)
 
+inline static constexpr unsigned int DNBNLNELCGI_TypeDefinitionIndex = 57878;
+
 	class DNBNLNELCGI
 	{
 	public:

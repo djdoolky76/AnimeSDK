@@ -5,6 +5,8 @@
 #define IBNJKFGBNGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15E435B0)
 #define IBNJKFGBNGJ_GET_ENABLED_OFFSET UNITYSDK_OFFSET(0x15E435C0)
 
+inline static constexpr unsigned int IBNJKFGBNGJ_TypeDefinitionIndex = 80716;
+
 	class IBNJKFGBNGJ : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GroupCategory_TypeDefinitionIndex = 17168;
+
 	enum class GroupCategory : ::System::Int32
 	{
 		Normal = 0,

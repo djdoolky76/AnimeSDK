@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTrainPartyBuildItemDynamicBind_DynamicBind_TypeDefinitionIndex = 68883;
+
 	class MonoTrainPartyBuildItemDynamicBind_DynamicBind : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int AccountInfo_TypeDefinitionIndex = 7565;
+
 	class AccountInfo : public ::System::Object
 	{
 	public:

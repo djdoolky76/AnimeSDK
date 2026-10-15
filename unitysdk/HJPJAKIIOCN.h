@@ -81,6 +81,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HJPJAKIIOCN_POLNJGOEKIO_OFFSET UNITYSDK_OFFSET(0x15D37250)
 #define HJPJAKIIOCN_POMABEGMOGJ_OFFSET UNITYSDK_OFFSET(0x15D373D0)
 
+inline static constexpr unsigned int HJPJAKIIOCN_TypeDefinitionIndex = 81255;
+
 	class HJPJAKIIOCN : public ::System::Object
 	{
 	public:

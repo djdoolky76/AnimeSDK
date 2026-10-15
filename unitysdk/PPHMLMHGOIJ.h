@@ -12,6 +12,8 @@
 #define PPHMLMHGOIJ_SET_LEVELISVISIBLE_OFFSET UNITYSDK_OFFSET(0xC3872A0)
 #define PPHMLMHGOIJ_SET_NAMEISVISIBLE_OFFSET UNITYSDK_OFFSET(0xC3872C0)
 
+inline static constexpr unsigned int PPHMLMHGOIJ_TypeDefinitionIndex = 60092;
+
 	class PPHMLMHGOIJ : public ::System::Object
 	{
 	public:

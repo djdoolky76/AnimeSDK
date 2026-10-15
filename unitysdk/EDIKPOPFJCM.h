@@ -63,6 +63,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EDIKPOPFJCM_SET_TOTALCOUNT_OFFSET UNITYSDK_OFFSET(0x1331ED70)
 #define EDIKPOPFJCM_UPDATEPROGRESS_OFFSET UNITYSDK_OFFSET(0x13320D00)
 
+inline static constexpr unsigned int EDIKPOPFJCM_TypeDefinitionIndex = 59549;
+
 	class EDIKPOPFJCM : public ::System::Object
 	{
 	public:

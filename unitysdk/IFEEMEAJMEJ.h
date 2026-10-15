@@ -36,6 +36,8 @@ namespace System { class String; }
 #define IFEEMEAJMEJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E644A60)
 #define IFEEMEAJMEJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E644AC0)
 
+inline static constexpr unsigned int IFEEMEAJMEJ_TypeDefinitionIndex = 25919;
+
 	class IFEEMEAJMEJ : public ::System::Object
 	{
 	public:

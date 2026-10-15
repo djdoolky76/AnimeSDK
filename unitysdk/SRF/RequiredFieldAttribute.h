@@ -13,6 +13,8 @@
 
 namespace SRF
 {
+	inline static constexpr unsigned int RequiredFieldAttribute_TypeDefinitionIndex = 35362;
+
 	class RequiredFieldAttribute : public ::System::Attribute
 	{
 	public:

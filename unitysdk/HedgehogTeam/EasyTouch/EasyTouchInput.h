@@ -15,6 +15,8 @@ namespace HedgehogTeam::EasyTouch { class Finger; }
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int EasyTouchInput_TypeDefinitionIndex = 40338;
+
 	class EasyTouchInput : public ::System::Object
 	{
 	public:

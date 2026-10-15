@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
+	inline static constexpr unsigned int Const_TypeDefinitionIndex = 8841;
+
 	class Const : public ::System::Object
 	{
 	public:

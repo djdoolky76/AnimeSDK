@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MPKLOFIMGGL_CTOR_OFFSET UNITYSDK_OFFSET(0xBA408B0)
 #define MPKLOFIMGGL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA408E0)
 
+inline static constexpr unsigned int MPKLOFIMGGL_TypeDefinitionIndex = 58374;
+
 	class MPKLOFIMGGL
 	{
 	public:

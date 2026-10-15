@@ -28,6 +28,8 @@ namespace System { class String; }
 #define AKJODHMMCAL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3CDE80)
 #define AKJODHMMCAL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3CDEE0)
 
+inline static constexpr unsigned int AKJODHMMCAL_TypeDefinitionIndex = 26504;
+
 	class AKJODHMMCAL : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::HoYoUI
 {
+	inline static constexpr unsigned int HoYoGlobalSkinAsset_TypeDefinitionIndex = 46722;
+
 	class HoYoGlobalSkinAsset : public ::System::Object
 	{
 	public:

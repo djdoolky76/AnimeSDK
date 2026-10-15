@@ -52,6 +52,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Map_MapObjectsUpdateRequest_TypeDefinitionIndex = 60865;
+
 	class Map_MapObjectsUpdateRequest : public ::System::Object
 	{
 	public:

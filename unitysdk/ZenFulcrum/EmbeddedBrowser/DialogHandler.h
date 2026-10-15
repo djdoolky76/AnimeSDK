@@ -17,6 +17,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class DialogHandler_MenuCallback; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int DialogHandler_TypeDefinitionIndex = 39493;
+
 	class DialogHandler : public ::UnityEngine::MonoBehaviour
 	{
 	public:

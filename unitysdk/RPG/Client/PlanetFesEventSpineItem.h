@@ -18,6 +18,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesEventSpineItem_TypeDefinitionIndex = 66482;
+
 	class PlanetFesEventSpineItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

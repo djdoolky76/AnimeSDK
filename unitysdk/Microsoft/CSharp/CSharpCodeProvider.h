@@ -6,6 +6,8 @@
 
 namespace Microsoft::CSharp
 {
+	inline static constexpr unsigned int CSharpCodeProvider_TypeDefinitionIndex = 1778;
+
 	class CSharpCodeProvider : public ::Microsoft::CSharp::CodeDomProvider
 	{
 	public:

@@ -27,6 +27,8 @@ namespace UnityEngine { class Animator; }
 #define KHDPCDPMIGM_PAHHKGIJONL_OFFSET UNITYSDK_OFFSET(0xB402230)
 #define KHDPCDPMIGM_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB4021F0)
 
+inline static constexpr unsigned int KHDPCDPMIGM_TypeDefinitionIndex = 78134;
+
 	class KHDPCDPMIGM : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 #define PJODNGFAAOK_SET_REWARDCOUNT_OFFSET UNITYSDK_OFFSET(0xC29E3B0)
 #define PJODNGFAAOK_SET_REWARDICONPATH_OFFSET UNITYSDK_OFFSET(0xC29E3D0)
 
+inline static constexpr unsigned int PJODNGFAAOK_TypeDefinitionIndex = 79262;
+
 	class PJODNGFAAOK : public ::System::Object
 	{
 	public:

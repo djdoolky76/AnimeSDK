@@ -7,6 +7,8 @@ class FOPMBGADNJD;
 #define FIKIBJDOEGP_CTOR_OFFSET UNITYSDK_OFFSET(0x157ABAB0)
 #define FIKIBJDOEGP_EKMPMMLBNEL_OFFSET UNITYSDK_OFFSET(0x157ABB40)
 
+inline static constexpr unsigned int FIKIBJDOEGP_TypeDefinitionIndex = 62565;
+
 	class FIKIBJDOEGP : public ::System::Object
 	{
 	public:

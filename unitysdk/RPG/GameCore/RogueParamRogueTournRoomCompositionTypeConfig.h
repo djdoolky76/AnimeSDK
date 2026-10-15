@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueParamRogueTournRoomCompositionTypeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueParamRogueTournRoomCompositionTypeConfig_TypeDefinitionIndex = 19852;
+
 	class RogueParamRogueTournRoomCompositionTypeConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueHandbookAeonsData___c__DisplayClass1_0_TypeDefinitionIndex = 67369;
+
 	class RogueHandbookAeonsData___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

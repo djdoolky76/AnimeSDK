@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicMaterialLoadState_TypeDefinitionIndex = 22809;
+
 	class SetDynamicMaterialLoadState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

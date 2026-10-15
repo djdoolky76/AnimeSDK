@@ -7,6 +7,8 @@ class KCLIKAPODAD;
 #define AMHCELGLLED_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1557ECA0)
 #define AMHCELGLLED_CTOR_OFFSET UNITYSDK_OFFSET(0x1557ED80)
 
+inline static constexpr unsigned int AMHCELGLLED_TypeDefinitionIndex = 62838;
+
 	class AMHCELGLLED : public ::System::Object
 	{
 	public:

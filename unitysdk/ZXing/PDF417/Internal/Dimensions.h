@@ -9,6 +9,8 @@
 
 namespace ZXing::PDF417::Internal
 {
+	inline static constexpr unsigned int Dimensions_TypeDefinitionIndex = 7028;
+
 	class Dimensions : public ::System::Object
 	{
 	public:

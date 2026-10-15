@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_DisplayDialogFunc_TypeDefinitionIndex = 39379;
+
 	class BrowserNative_DisplayDialogFunc : public ::System::MulticastDelegate
 	{
 	public:

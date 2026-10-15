@@ -7,6 +7,8 @@ namespace RPG::GameCore { class UnloadBackgroundPlayer; }
 #define JBLKMJKCKNJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16572B70)
 #define JBLKMJKCKNJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16572BB0)
 
+inline static constexpr unsigned int JBLKMJKCKNJ_TypeDefinitionIndex = 53460;
+
 	class JBLKMJKCKNJ
 	{
 	public:

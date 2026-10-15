@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StopWindowStage_TypeDefinitionIndex = 21286;
+
 	class StopWindowStage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

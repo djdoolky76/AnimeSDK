@@ -7,6 +7,8 @@ class OOCCBMLAELL;
 
 #define FCKGNAJIKMF_CTOR_OFFSET UNITYSDK_OFFSET(0x156CAAE0)
 
+inline static constexpr unsigned int FCKGNAJIKMF_TypeDefinitionIndex = 80537;
+
 	class FCKGNAJIKMF : public ::System::Object
 	{
 	public:

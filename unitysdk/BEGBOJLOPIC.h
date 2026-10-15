@@ -6,6 +6,8 @@
 #define BEGBOJLOPIC_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C8B84E0)
 #define BEGBOJLOPIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8B8850)
 
+inline static constexpr unsigned int BEGBOJLOPIC_TypeDefinitionIndex = 42013;
+
 	class BEGBOJLOPIC : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace RPG::GameCore { class LittleGameAbilityValueGetterSumAttributeConfig; 
 #define KFJJDAKNMAE_MMEOMCINFOG_OFFSET UNITYSDK_OFFSET(0xB3BA240)
 #define KFJJDAKNMAE_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0xB3B9CF0)
 
+inline static constexpr unsigned int KFJJDAKNMAE_TypeDefinitionIndex = 79405;
+
 	class KFJJDAKNMAE : public ::System::Object
 	{
 	public:

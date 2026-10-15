@@ -6,6 +6,8 @@
 #define KGGBPDIDJDL_CTOR_OFFSET UNITYSDK_OFFSET(0xB3DE050)
 #define KGGBPDIDJDL_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0xB3DDFA0)
 
+inline static constexpr unsigned int KGGBPDIDJDL_TypeDefinitionIndex = 61103;
+
 	class KGGBPDIDJDL : public ::KDLEIHJGDAP
 	{
 	public:

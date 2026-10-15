@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LIFAJCCCGAD_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D0F7160)
 #define LIFAJCCCGAD_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0F6AC0)
 
+inline static constexpr unsigned int LIFAJCCCGAD_TypeDefinitionIndex = 14700;
+
 	class LIFAJCCCGAD : public ::System::Object
 	{
 	public:

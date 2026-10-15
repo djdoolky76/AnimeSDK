@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BlockSetVisibility_TypeDefinitionIndex = 21186;
+
 	class BlockSetVisibility : public ::RPG::GameCore::TaskConfig
 	{
 	public:

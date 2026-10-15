@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TitanAtlasChangeInfoRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TitanAtlasChangeInfoRow_TypeDefinitionIndex = 15300;
+
 	class TitanAtlasChangeInfoRow : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class GameWorld; }
 #define AHCPMJFIJNH_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0xEB7AD00)
 #define AHCPMJFIJNH_MMPMOICKIEO_OFFSET UNITYSDK_OFFSET(0xEB7AF30)
 
+inline static constexpr unsigned int AHCPMJFIJNH_TypeDefinitionIndex = 54310;
+
 	class AHCPMJFIJNH : public ::GOIIMBFKMJC
 	{
 	public:

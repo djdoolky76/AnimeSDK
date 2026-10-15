@@ -24,6 +24,8 @@ namespace System::Text::RegularExpressions { class RegexTree; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int RegexFCD_TypeDefinitionIndex = 2511;
+
 	class RegexFCD : public ::System::Object
 	{
 	public:

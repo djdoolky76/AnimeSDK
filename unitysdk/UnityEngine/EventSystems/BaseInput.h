@@ -26,6 +26,8 @@ namespace System { class String; }
 
 namespace UnityEngine::EventSystems
 {
+	inline static constexpr unsigned int BaseInput_TypeDefinitionIndex = 6938;
+
 	class BaseInput : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

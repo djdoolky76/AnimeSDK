@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int ObjectTranslator_UpdateCSObject_TypeDefinitionIndex = 50073;
+
 	class ObjectTranslator_UpdateCSObject : public ::System::MulticastDelegate
 	{
 	public:

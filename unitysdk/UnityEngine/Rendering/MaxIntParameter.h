@@ -8,6 +8,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int MaxIntParameter_TypeDefinitionIndex = 35629;
+
 	class MaxIntParameter : public ::UnityEngine::Rendering::IntParameter
 	{
 	public:

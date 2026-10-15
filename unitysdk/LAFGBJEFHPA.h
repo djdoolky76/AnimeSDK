@@ -41,6 +41,8 @@ namespace System { template <typename T> class Func_1; }
 #define LAFGBJEFHPA___TRYTELEPORTFAILED_B__9_0_OFFSET UNITYSDK_OFFSET(0xB5DF060)
 #define LAFGBJEFHPA___TRYTELEPORTWIN_B__10_0_OFFSET UNITYSDK_OFFSET(0xB5DF0E0)
 
+inline static constexpr unsigned int LAFGBJEFHPA_TypeDefinitionIndex = 67825;
+
 	class LAFGBJEFHPA : public ::ODGEOHLNBIP
 	{
 	public:

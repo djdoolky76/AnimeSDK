@@ -31,6 +31,8 @@ namespace System { class String; }
 #define LOBFOKCKPKB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9B8E90)
 #define LOBFOKCKPKB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9B8EF0)
 
+inline static constexpr unsigned int LOBFOKCKPKB_TypeDefinitionIndex = 27732;
+
 	class LOBFOKCKPKB : public ::System::Object
 	{
 	public:

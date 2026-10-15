@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebViewRenderMethodScene_TypeDefinitionIndex = 7899;
+
 	class WebViewRenderMethodScene : public ::System::Object
 	{
 	public:

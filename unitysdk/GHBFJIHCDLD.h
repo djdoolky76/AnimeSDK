@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleByValueReach; }
 #define GHBFJIHCDLD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAA1E00)
 #define GHBFJIHCDLD_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1CAA1E20)
 
+inline static constexpr unsigned int GHBFJIHCDLD_TypeDefinitionIndex = 43148;
+
 	class GHBFJIHCDLD : public ::LHJPMDPJPEC
 	{
 	public:

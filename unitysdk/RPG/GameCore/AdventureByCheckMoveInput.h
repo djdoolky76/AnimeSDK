@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureByCheckMoveInput_TypeDefinitionIndex = 20241;
+
 	class AdventureByCheckMoveInput : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

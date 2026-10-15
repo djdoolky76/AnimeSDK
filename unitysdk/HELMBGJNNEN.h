@@ -8,6 +8,8 @@ class HELMBGJNNEN;
 #define HELMBGJNNEN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE9C310)
 #define HELMBGJNNEN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE9C240)
 
+inline static constexpr unsigned int HELMBGJNNEN_TypeDefinitionIndex = 24214;
+
 	class HELMBGJNNEN : public ::RPG::GameCore::TaskConfig
 	{
 	public:

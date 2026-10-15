@@ -8,6 +8,8 @@ namespace RPG::Client { class GridFightStageNode; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightStageRoute___c__DisplayClass15_0_TypeDefinitionIndex = 65250;
+
 	class GridFightStageRoute___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

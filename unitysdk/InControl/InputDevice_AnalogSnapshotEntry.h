@@ -5,6 +5,8 @@
 
 namespace InControl
 {
+	inline static constexpr unsigned int InputDevice_AnalogSnapshotEntry_TypeDefinitionIndex = 40836;
+
 	struct alignas(4) InputDevice_AnalogSnapshotEntry
 	{
 		::System::Single value; // 0x10

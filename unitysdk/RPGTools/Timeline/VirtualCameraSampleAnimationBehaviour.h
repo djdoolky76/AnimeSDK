@@ -30,6 +30,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int VirtualCameraSampleAnimationBehaviour_TypeDefinitionIndex = 47833;
+
 	class VirtualCameraSampleAnimationBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

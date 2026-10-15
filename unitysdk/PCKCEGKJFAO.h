@@ -8,6 +8,8 @@ class PCKCEGKJFAO;
 #define PCKCEGKJFAO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2CB4B0)
 #define PCKCEGKJFAO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2CB460)
 
+inline static constexpr unsigned int PCKCEGKJFAO_TypeDefinitionIndex = 22622;
+
 	class PCKCEGKJFAO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

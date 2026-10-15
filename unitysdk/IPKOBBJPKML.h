@@ -27,6 +27,8 @@ namespace System { class String; }
 #define IPKOBBJPKML_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6E6080)
 #define IPKOBBJPKML_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6E60E0)
 
+inline static constexpr unsigned int IPKOBBJPKML_TypeDefinitionIndex = 33040;
+
 	class IPKOBBJPKML : public ::System::Object
 	{
 	public:

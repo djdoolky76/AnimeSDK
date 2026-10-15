@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace System::IO::MemoryMappedFiles
 {
+	inline static constexpr unsigned int MemoryMapImpl_TypeDefinitionIndex = 3126;
+
 	class MemoryMapImpl : public ::System::Object
 	{
 	public:

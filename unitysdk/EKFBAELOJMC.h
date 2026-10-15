@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define EKFBAELOJMC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD95400)
 #define EKFBAELOJMC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD94D60)
 
+inline static constexpr unsigned int EKFBAELOJMC_TypeDefinitionIndex = 13204;
+
 	class EKFBAELOJMC : public ::System::Object
 	{
 	public:

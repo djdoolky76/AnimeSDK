@@ -32,6 +32,8 @@ namespace System { class String; }
 #define JOIAADCLOGF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7A36E0)
 #define JOIAADCLOGF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7A3740)
 
+inline static constexpr unsigned int JOIAADCLOGF_TypeDefinitionIndex = 26532;
+
 	class JOIAADCLOGF : public ::System::Object
 	{
 	public:

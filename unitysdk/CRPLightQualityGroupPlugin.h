@@ -13,6 +13,8 @@ namespace UnityEngine { class ReflectionProbe; }
 #define CRPLIGHTQUALITYGROUPPLUGIN_ONENABLE_OFFSET UNITYSDK_OFFSET(0xDCDDF80)
 #define CRPLIGHTQUALITYGROUPPLUGIN_TRYTURNONLIGHT_OFFSET UNITYSDK_OFFSET(0xDCDE630)
 
+inline static constexpr unsigned int CRPLightQualityGroupPlugin_TypeDefinitionIndex = 47323;
+
 	class CRPLightQualityGroupPlugin : public ::UnityEngine::MonoBehaviour
 	{
 	public:

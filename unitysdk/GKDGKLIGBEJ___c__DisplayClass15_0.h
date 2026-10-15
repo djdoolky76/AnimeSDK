@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define GKDGKLIGBEJ___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15A92C70)
 #define GKDGKLIGBEJ___C__DISPLAYCLASS15_0___ONBATTLEABILITYCURRENTHPCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x15A93460)
 
+inline static constexpr unsigned int GKDGKLIGBEJ___c__DisplayClass15_0_TypeDefinitionIndex = 72048;
+
 	class GKDGKLIGBEJ___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SetBattleRougeGoalProgress; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetBattleRougeGoalProgress_TypeDefinitionIndex = 23663;
+
 	class SetBattleRougeGoalProgress : public ::RPG::GameCore::TaskConfig
 	{
 	public:

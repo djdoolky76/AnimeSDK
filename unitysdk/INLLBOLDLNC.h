@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define INLLBOLDLNC_GET_FACTORY_OFFSET UNITYSDK_OFFSET(0x164F6E40)
 #define INLLBOLDLNC_SET_FACTORY_OFFSET UNITYSDK_OFFSET(0x164F6E50)
 
+inline static constexpr unsigned int INLLBOLDLNC_TypeDefinitionIndex = 62749;
+
 	class INLLBOLDLNC : public ::System::Object
 	{
 	public:

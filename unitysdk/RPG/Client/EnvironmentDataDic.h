@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EnvironmentDataDic_TypeDefinitionIndex = 70899;
+
 	class EnvironmentDataDic : public ::UnityEngine::MonoBehaviour
 	{
 	public:

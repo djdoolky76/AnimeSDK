@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvChaseBailu_TypeDefinitionIndex = 22228;
+
 	class AdvChaseBailu : public ::RPG::GameCore::TaskConfig
 	{
 	public:

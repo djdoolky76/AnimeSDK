@@ -29,6 +29,8 @@ namespace System { class String; }
 #define APIMIMMBOCL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E677740)
 #define APIMIMMBOCL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6777A0)
 
+inline static constexpr unsigned int APIMIMMBOCL_TypeDefinitionIndex = 34041;
+
 	class APIMIMMBOCL : public ::System::Object
 	{
 	public:

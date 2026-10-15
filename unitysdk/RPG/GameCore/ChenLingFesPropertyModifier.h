@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingFesPropertyModifier_TypeDefinitionIndex = 18451;
+
 	class ChenLingFesPropertyModifier : public ::RPG::GameCore::JsonConfig
 	{
 	public:

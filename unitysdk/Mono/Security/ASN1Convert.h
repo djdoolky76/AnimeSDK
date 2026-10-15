@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace Mono::Security
 {
+	inline static constexpr unsigned int ASN1Convert_TypeDefinitionIndex = 46;
+
 	class ASN1Convert : public ::System::Object
 	{
 	public:

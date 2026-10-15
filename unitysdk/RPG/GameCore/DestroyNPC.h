@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DestroyNPC_TypeDefinitionIndex = 21946;
+
 	class DestroyNPC : public ::RPG::GameCore::TaskConfig
 	{
 	public:

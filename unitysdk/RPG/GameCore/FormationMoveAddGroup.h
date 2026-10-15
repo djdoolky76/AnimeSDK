@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FormationMoveAddGroup_TypeDefinitionIndex = 21256;
+
 	class FormationMoveAddGroup : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleQTEBaseConfig_TypeDefinitionIndex = 23343;
+
 	class BattleQTEBaseConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

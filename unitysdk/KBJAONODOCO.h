@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KBJAONODOCO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D061690)
 #define KBJAONODOCO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D060FB0)
 
+inline static constexpr unsigned int KBJAONODOCO_TypeDefinitionIndex = 13414;
+
 	class KBJAONODOCO : public ::System::Object
 	{
 	public:

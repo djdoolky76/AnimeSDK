@@ -13,6 +13,8 @@ namespace RPG::Client::Promises { class IPromise; }
 #define CHBLNPGBIED_FFIGBOBCMMK_OFFSET UNITYSDK_OFFSET(0xCC913A0)
 #define CHBLNPGBIED_HOCNDKBLFNL_OFFSET UNITYSDK_OFFSET(0xCC915A0)
 
+inline static constexpr unsigned int CHBLNPGBIED_TypeDefinitionIndex = 81495;
+
 	class CHBLNPGBIED : public ::System::Object
 	{
 	public:

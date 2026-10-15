@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleAddSkillLog_TypeDefinitionIndex = 16867;
+
 	class MarbleAddSkillLog : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

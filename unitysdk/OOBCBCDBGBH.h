@@ -7,6 +7,8 @@
 #define OOBCBCDBGBH_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xBF62F30)
 #define OOBCBCDBGBH_SET_POSITION_OFFSET UNITYSDK_OFFSET(0xBF62F50)
 
+inline static constexpr unsigned int OOBCBCDBGBH_TypeDefinitionIndex = 74590;
+
 	class OOBCBCDBGBH : public ::System::Object
 	{
 	public:

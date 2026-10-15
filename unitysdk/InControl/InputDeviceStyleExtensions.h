@@ -9,6 +9,8 @@
 
 namespace InControl
 {
+	inline static constexpr unsigned int InputDeviceStyleExtensions_TypeDefinitionIndex = 40847;
+
 	class InputDeviceStyleExtensions : public ::System::Object
 	{
 	public:

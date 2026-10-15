@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PNOAIGFGNKE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFBF560)
 #define PNOAIGFGNKE___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1DFBF570)
 
+inline static constexpr unsigned int PNOAIGFGNKE___c_TypeDefinitionIndex = 30282;
+
 	class PNOAIGFGNKE___c : public ::System::Object
 	{
 	public:

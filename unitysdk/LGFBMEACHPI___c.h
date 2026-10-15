@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LGFBMEACHPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E950E80)
 #define LGFBMEACHPI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E950E90)
 
+inline static constexpr unsigned int LGFBMEACHPI___c_TypeDefinitionIndex = 27191;
+
 	class LGFBMEACHPI___c : public ::System::Object
 	{
 	public:

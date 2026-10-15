@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NMBOAAMFBCN_PBHCOGMEFJK_OFFSET UNITYSDK_OFFSET(0xBC80760)
 #define NMBOAAMFBCN_PNBCCHFNDAG_OFFSET UNITYSDK_OFFSET(0xBC80850)
 
+inline static constexpr unsigned int NMBOAAMFBCN_TypeDefinitionIndex = 60598;
+
 	class NMBOAAMFBCN : public ::NPEBLEKDAGI
 	{
 	public:

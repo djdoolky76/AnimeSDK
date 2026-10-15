@@ -27,6 +27,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int MonoB51RacingSeasonCalendarItem_TypeDefinitionIndex = 81978;
+
 	class MonoB51RacingSeasonCalendarItem : public ::Sofa::BaseSofaControl
 	{
 	public:

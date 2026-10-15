@@ -39,6 +39,8 @@ namespace System { class String; }
 #define EICNFLHIHOI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2A6120)
 #define EICNFLHIHOI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2A6180)
 
+inline static constexpr unsigned int EICNFLHIHOI_TypeDefinitionIndex = 25429;
+
 	class EICNFLHIHOI : public ::System::Object
 	{
 	public:

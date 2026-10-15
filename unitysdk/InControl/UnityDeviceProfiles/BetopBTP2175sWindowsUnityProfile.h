@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int BetopBTP2175sWindowsUnityProfile_TypeDefinitionIndex = 41061;
+
 	class BetopBTP2175sWindowsUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

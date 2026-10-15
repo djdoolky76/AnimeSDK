@@ -11,6 +11,8 @@ namespace RPG::Client { class GridFightFlowDirector_IFlowStateEvent; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightFlowDirector_MonsterRevealHintState_TypeDefinitionIndex = 64602;
+
 	class GridFightFlowDirector_MonsterRevealHintState : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CommandBufferPool___c_TypeDefinitionIndex = 35471;
+
 	class CommandBufferPool___c : public ::System::Object
 	{
 	public:

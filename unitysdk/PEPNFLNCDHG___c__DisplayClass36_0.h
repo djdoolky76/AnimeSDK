@@ -7,6 +7,8 @@ namespace System { class String; }
 #define PEPNFLNCDHG___C__DISPLAYCLASS36_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC1FCAA0)
 #define PEPNFLNCDHG___C__DISPLAYCLASS36_0__REPLACECHARACTEREMOTION_B__0_OFFSET UNITYSDK_OFFSET(0xC2000F0)
 
+inline static constexpr unsigned int PEPNFLNCDHG___c__DisplayClass36_0_TypeDefinitionIndex = 57246;
+
 	class PEPNFLNCDHG___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:

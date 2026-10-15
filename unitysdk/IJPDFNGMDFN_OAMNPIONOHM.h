@@ -4,6 +4,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 #define IJPDFNGMDFN_OAMNPIONOHM_CTOR_OFFSET UNITYSDK_OFFSET(0x2E82200)
 
+inline static constexpr unsigned int IJPDFNGMDFN_OAMNPIONOHM_TypeDefinitionIndex = 58491;
+
 	struct alignas(8) IJPDFNGMDFN_OAMNPIONOHM
 	{
 		::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x10

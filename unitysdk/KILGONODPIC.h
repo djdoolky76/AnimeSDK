@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KILGONODPIC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8638F0)
 #define KILGONODPIC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E863950)
 
+inline static constexpr unsigned int KILGONODPIC_TypeDefinitionIndex = 33808;
+
 	class KILGONODPIC : public ::System::Object
 	{
 	public:

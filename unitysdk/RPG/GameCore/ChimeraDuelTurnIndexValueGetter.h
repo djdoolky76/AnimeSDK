@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraDuelTurnIndexValueGetter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelTurnIndexValueGetter_TypeDefinitionIndex = 16003;
+
 	class ChimeraDuelTurnIndexValueGetter : public ::RPG::GameCore::BaseChimeraDuelValueGetter
 	{
 	public:

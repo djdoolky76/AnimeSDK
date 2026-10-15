@@ -100,6 +100,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NNKDKMBKFHC_PJNNDMJAOFF_OFFSET UNITYSDK_OFFSET(0xBCB9930)
 #define NNKDKMBKFHC_PPIAGJGCNOF_OFFSET UNITYSDK_OFFSET(0xBCBDFF0)
 
+inline static constexpr unsigned int NNKDKMBKFHC_TypeDefinitionIndex = 53509;
+
 	class NNKDKMBKFHC : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTaskExtensions__ForgetCoreWithCatch_d__53_1_TypeDefinitionIndex = 38423;
+
 	template <typename T>
 	struct alignas(8) UniTaskExtensions__ForgetCoreWithCatch_d__53_1
 	{

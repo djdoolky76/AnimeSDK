@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtSkillSetTargetPos_TypeDefinitionIndex = 24226;
+
 	class RtSkillSetTargetPos : public ::RPG::GameCore::TaskConfig
 	{
 	public:

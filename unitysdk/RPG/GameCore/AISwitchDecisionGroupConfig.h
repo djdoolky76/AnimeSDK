@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AISwitchDecisionGroupConfig_TypeDefinitionIndex = 15485;
+
 	class AISwitchDecisionGroupConfig : public ::RPG::GameCore::AIDecisionBaseConfig
 	{
 	public:

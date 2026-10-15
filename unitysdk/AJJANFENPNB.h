@@ -29,6 +29,8 @@ namespace System { class String; }
 #define AJJANFENPNB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3C27D0)
 #define AJJANFENPNB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3C2830)
 
+inline static constexpr unsigned int AJJANFENPNB_TypeDefinitionIndex = 32028;
+
 	class AJJANFENPNB : public ::System::Object
 	{
 	public:

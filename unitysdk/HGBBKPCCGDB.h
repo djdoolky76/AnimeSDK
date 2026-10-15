@@ -13,6 +13,8 @@ namespace RPG::Client { class InflatableFighterPuzzleBoard; }
 #define HGBBKPCCGDB_LEIMFEIBEJB_OFFSET UNITYSDK_OFFSET(0x15C8F450)
 #define HGBBKPCCGDB_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x15C8F2F0)
 
+inline static constexpr unsigned int HGBBKPCCGDB_TypeDefinitionIndex = 68672;
+
 	class HGBBKPCCGDB : public ::System::Object
 	{
 	public:

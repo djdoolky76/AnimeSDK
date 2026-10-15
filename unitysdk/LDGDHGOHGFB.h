@@ -26,6 +26,8 @@
 #define LDGDHGOHGFB_PBLFAECCECM_OFFSET UNITYSDK_OFFSET(0xB622D10)
 #define LDGDHGOHGFB_PJEMGKGLDOK_OFFSET UNITYSDK_OFFSET(0xB623720)
 
+inline static constexpr unsigned int LDGDHGOHGFB_TypeDefinitionIndex = 54763;
+
 	class LDGDHGOHGFB : public ::System::Object
 	{
 	public:

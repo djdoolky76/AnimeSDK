@@ -13,6 +13,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int SphereCollider_TypeDefinitionIndex = 5320;
+
 	class SphereCollider : public ::UnityEngine::Collider
 	{
 	public:

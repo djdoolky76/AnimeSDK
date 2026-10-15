@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FlipDevicePoint___c__DisplayClass7_0_TypeDefinitionIndex = 73318;
+
 	class FlipDevicePoint___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

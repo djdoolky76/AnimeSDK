@@ -30,6 +30,8 @@ namespace RPG::GameCore { class TriggerValidGuestConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoGeometryTrigger_TypeDefinitionIndex = 68907;
+
 	class MonoGeometryTrigger : public ::RPG::Client::BaseMonoTriggerRegion
 	{
 	public:

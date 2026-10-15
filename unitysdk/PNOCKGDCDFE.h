@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PNOCKGDCDFE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC355090)
 #define PNOCKGDCDFE_PFNCLEHKPIC_OFFSET UNITYSDK_OFFSET(0xC355680)
 
+inline static constexpr unsigned int PNOCKGDCDFE_TypeDefinitionIndex = 56359;
+
 	class PNOCKGDCDFE
 	{
 	public:

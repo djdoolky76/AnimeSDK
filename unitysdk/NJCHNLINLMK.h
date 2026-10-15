@@ -21,6 +21,8 @@ namespace UnityEngine { class Coroutine; }
 #define NJCHNLINLMK_MMCKHIHJOEH_OFFSET UNITYSDK_OFFSET(0xBC0A3E0)
 #define NJCHNLINLMK_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xBC099A0)
 
+inline static constexpr unsigned int NJCHNLINLMK_TypeDefinitionIndex = 59439;
+
 	class NJCHNLINLMK : public ::System::Object
 	{
 	public:

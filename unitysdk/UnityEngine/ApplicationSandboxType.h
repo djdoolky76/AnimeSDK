@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ApplicationSandboxType_TypeDefinitionIndex = 4035;
+
 	enum class ApplicationSandboxType : ::System::Int32
 	{
 		Unknown = 0,

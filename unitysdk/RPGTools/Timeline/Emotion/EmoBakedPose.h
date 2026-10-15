@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int EmoBakedPose_TypeDefinitionIndex = 48746;
+
 	class EmoBakedPose : public ::System::Object
 	{
 	public:

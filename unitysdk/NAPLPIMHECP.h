@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NAPLPIMHECP_CTOR_OFFSET UNITYSDK_OFFSET(0xBAB9310)
 #define NAPLPIMHECP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAB9340)
 
+inline static constexpr unsigned int NAPLPIMHECP_TypeDefinitionIndex = 53229;
+
 	class NAPLPIMHECP
 	{
 	public:

@@ -50,6 +50,8 @@ namespace UnityEngine { class GUIStyle; }
 #define CNGABNLLLPO_PLKOGBCAFIL_OFFSET UNITYSDK_OFFSET(0xDA4EB70)
 #define CNGABNLLLPO_SET_PARENT_OFFSET UNITYSDK_OFFSET(0xDA4EEE0)
 
+inline static constexpr unsigned int CNGABNLLLPO_TypeDefinitionIndex = 68326;
+
 	class CNGABNLLLPO : public ::System::Object
 	{
 	public:

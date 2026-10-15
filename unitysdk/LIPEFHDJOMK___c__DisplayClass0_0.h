@@ -7,6 +7,8 @@ namespace System { class String; }
 #define LIPEFHDJOMK___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB6DC1D0)
 #define LIPEFHDJOMK___C__DISPLAYCLASS0_0__FINDBYNAME_B__0_OFFSET UNITYSDK_OFFSET(0xB6DC1E0)
 
+inline static constexpr unsigned int LIPEFHDJOMK___c__DisplayClass0_0_TypeDefinitionIndex = 49695;
+
 	class LIPEFHDJOMK___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

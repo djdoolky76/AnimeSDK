@@ -29,6 +29,8 @@ namespace System { class String; }
 #define IMIHIMCHHIP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6B7880)
 #define IMIHIMCHHIP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6B78E0)
 
+inline static constexpr unsigned int IMIHIMCHHIP_TypeDefinitionIndex = 28283;
+
 	class IMIHIMCHHIP : public ::System::Object
 	{
 	public:

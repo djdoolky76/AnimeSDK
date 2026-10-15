@@ -4,6 +4,8 @@
 
 #define CHBNFGAAMJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E4710)
 
+inline static constexpr unsigned int CHBNFGAAMJB_TypeDefinitionIndex = 42956;
+
 	class CHBNFGAAMJB : public ::System::Object
 	{
 	public:

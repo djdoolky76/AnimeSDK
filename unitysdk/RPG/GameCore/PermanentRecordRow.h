@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PermanentRecordRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PermanentRecordRow_TypeDefinitionIndex = 14380;
+
 	class PermanentRecordRow : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define DFDOGNBKHGL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE8253D0)
 #define DFDOGNBKHGL_TICK_OFFSET UNITYSDK_OFFSET(0xE825580)
 
+inline static constexpr unsigned int DFDOGNBKHGL_TypeDefinitionIndex = 58506;
+
 	class DFDOGNBKHGL : public ::GELIALJDFBL
 	{
 	public:

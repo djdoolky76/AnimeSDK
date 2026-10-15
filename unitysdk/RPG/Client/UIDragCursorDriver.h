@@ -28,6 +28,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIDragCursorDriver_TypeDefinitionIndex = 73056;
+
 	class UIDragCursorDriver : public ::UnityEngine::MonoBehaviour
 	{
 	public:

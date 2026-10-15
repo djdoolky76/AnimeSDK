@@ -36,6 +36,8 @@ namespace System { class String; }
 #define LACNGKFJELH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8C9350)
 #define LACNGKFJELH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8C93B0)
 
+inline static constexpr unsigned int LACNGKFJELH_TypeDefinitionIndex = 26083;
+
 	class LACNGKFJELH : public ::System::Object
 	{
 	public:

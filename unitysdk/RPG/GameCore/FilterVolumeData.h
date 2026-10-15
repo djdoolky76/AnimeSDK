@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FilterVolumeData_TypeDefinitionIndex = 19151;
+
 	class FilterVolumeData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

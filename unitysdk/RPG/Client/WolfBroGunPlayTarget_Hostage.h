@@ -13,6 +13,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayTarget_Hostage_TypeDefinitionIndex = 68730;
+
 	class WolfBroGunPlayTarget_Hostage : public ::RPG::Client::WolfBroGunPlayTarget
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int Grouping_2_TypeDefinitionIndex = 7398;
+
 	template <typename T1, typename T2>
 	class Grouping_2 : public ::System::Object
 	{

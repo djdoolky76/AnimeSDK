@@ -8,6 +8,8 @@ namespace System { class String; }
 #define PNFIEIKMHLM_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xC3384A0)
 #define PNFIEIKMHLM_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC338690)
 
+inline static constexpr unsigned int PNFIEIKMHLM_TypeDefinitionIndex = 82150;
+
 	class PNFIEIKMHLM : public ::FAJHHDCPLHD
 	{
 	public:

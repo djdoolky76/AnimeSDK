@@ -11,6 +11,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int SharedVertex___c_TypeDefinitionIndex = 44434;
+
 	class SharedVertex___c : public ::System::Object
 	{
 	public:

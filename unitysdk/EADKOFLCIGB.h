@@ -6,6 +6,8 @@
 #define EADKOFLCIGB_CJDNCBHLOGD_OFFSET UNITYSDK_OFFSET(0x126738F0)
 #define EADKOFLCIGB_CTOR_OFFSET UNITYSDK_OFFSET(0x126739E0)
 
+inline static constexpr unsigned int EADKOFLCIGB_TypeDefinitionIndex = 64935;
+
 	class EADKOFLCIGB : public ::BOIKIMJHDHK
 	{
 	public:

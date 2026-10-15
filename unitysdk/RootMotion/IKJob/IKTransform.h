@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RootMotion::IKJob
 {
+	inline static constexpr unsigned int IKTransform_TypeDefinitionIndex = 45983;
+
 	struct alignas(4) IKTransform
 	{
 		::UnityEngine::Vector3 LocalPosition; // 0x10

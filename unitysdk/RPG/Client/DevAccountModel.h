@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DevAccountModel_TypeDefinitionIndex = 61076;
+
 	class DevAccountModel : public ::System::Object
 	{
 	public:

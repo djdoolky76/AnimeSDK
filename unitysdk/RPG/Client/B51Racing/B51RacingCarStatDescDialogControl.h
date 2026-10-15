@@ -26,6 +26,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingCarStatDescDialogControl_TypeDefinitionIndex = 81816;
+
 	class B51RacingCarStatDescDialogControl : public ::Sofa::BaseSofaControl
 	{
 	public:

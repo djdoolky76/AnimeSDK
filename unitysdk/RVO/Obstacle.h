@@ -8,6 +8,8 @@ namespace RVO { class Obstacle; }
 
 namespace RVO
 {
+	inline static constexpr unsigned int Obstacle_TypeDefinitionIndex = 46032;
+
 	class Obstacle : public ::System::Object
 	{
 	public:

@@ -49,6 +49,8 @@ namespace UnityEngine { class Transform; }
 #define LDLCIEJKBNH_OHLPNMKCIFI_OFFSET UNITYSDK_OFFSET(0xB63B290)
 #define LDLCIEJKBNH_OIPCIGEEIHL_OFFSET UNITYSDK_OFFSET(0xB639780)
 
+inline static constexpr unsigned int LDLCIEJKBNH_TypeDefinitionIndex = 77810;
+
 	class LDLCIEJKBNH : public ::System::Object
 	{
 	public:

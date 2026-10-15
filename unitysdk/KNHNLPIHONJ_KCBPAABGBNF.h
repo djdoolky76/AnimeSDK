@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 #define KNHNLPIHONJ_KCBPAABGBNF_MFPGLOEGJJA_OFFSET UNITYSDK_OFFSET(0x1D0BD0F0)
 #define KNHNLPIHONJ_KCBPAABGBNF_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1D0BC550)
 
+inline static constexpr unsigned int KNHNLPIHONJ_KCBPAABGBNF_TypeDefinitionIndex = 10369;
+
 	class KNHNLPIHONJ_KCBPAABGBNF : public ::System::Object
 	{
 	public:

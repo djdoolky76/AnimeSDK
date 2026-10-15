@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int b2FrictionCallback_TypeDefinitionIndex = 36645;
+
 	class b2FrictionCallback : public ::System::MulticastDelegate
 	{
 	public:

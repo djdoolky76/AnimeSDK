@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueAdventureGameplayType_TypeDefinitionIndex = 10581;
+
 	enum class RogueAdventureGameplayType : ::System::Int32
 	{
 		None = 0,

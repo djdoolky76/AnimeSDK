@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SmellPathEdge; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SmellPathEdge_TypeDefinitionIndex = 17580;
+
 	class SmellPathEdge : public ::RPG::GameCore::JsonConfig
 	{
 	public:

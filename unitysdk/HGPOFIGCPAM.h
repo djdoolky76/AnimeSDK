@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HGPOFIGCPAM_MEFIGIGJAAF_OFFSET UNITYSDK_OFFSET(0x15CB3B80)
 #define HGPOFIGCPAM_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x15CB3980)
 
+inline static constexpr unsigned int HGPOFIGCPAM_TypeDefinitionIndex = 69138;
+
 	class HGPOFIGCPAM : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2WorkerContext_TypeDefinitionIndex = 36813;
+
 	class B2WorkerContext : public ::System::Object
 	{
 	public:

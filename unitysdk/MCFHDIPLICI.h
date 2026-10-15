@@ -11,6 +11,8 @@ namespace System { class String; }
 #define MCFHDIPLICI_OBMGOFOHNHN_OFFSET UNITYSDK_OFFSET(0xB878B80)
 #define MCFHDIPLICI__SETJSONNODEVALUE_G__SETJSONNODEVALUEBYKEY_0_0_OFFSET UNITYSDK_OFFSET(0xB878DC0)
 
+inline static constexpr unsigned int MCFHDIPLICI_TypeDefinitionIndex = 52054;
+
 	class MCFHDIPLICI : public ::System::Object
 	{
 	public:

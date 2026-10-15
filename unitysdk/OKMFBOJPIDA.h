@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OKMFBOJPIDA_MEGNNLKMBAJ_OFFSET UNITYSDK_OFFSET(0x1D294380)
 #define OKMFBOJPIDA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D294460)
 
+inline static constexpr unsigned int OKMFBOJPIDA_TypeDefinitionIndex = 10822;
+
 	class OKMFBOJPIDA : public ::System::Object
 	{
 	public:

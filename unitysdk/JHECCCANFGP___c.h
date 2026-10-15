@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JHECCCANFGP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E743E00)
 #define JHECCCANFGP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E743E10)
 
+inline static constexpr unsigned int JHECCCANFGP___c_TypeDefinitionIndex = 33667;
+
 	class JHECCCANFGP___c : public ::System::Object
 	{
 	public:

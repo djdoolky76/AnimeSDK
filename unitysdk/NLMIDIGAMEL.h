@@ -29,6 +29,8 @@ namespace System { class String; }
 #define NLMIDIGAMEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB680D0)
 #define NLMIDIGAMEL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB68130)
 
+inline static constexpr unsigned int NLMIDIGAMEL_TypeDefinitionIndex = 27433;
+
 	class NLMIDIGAMEL : public ::System::Object
 	{
 	public:

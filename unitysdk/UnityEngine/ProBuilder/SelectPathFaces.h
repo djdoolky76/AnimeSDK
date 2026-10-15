@@ -15,6 +15,8 @@ namespace UnityEngine::ProBuilder { class WingedEdge; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int SelectPathFaces_TypeDefinitionIndex = 44416;
+
 	class SelectPathFaces : public ::System::Object
 	{
 	public:

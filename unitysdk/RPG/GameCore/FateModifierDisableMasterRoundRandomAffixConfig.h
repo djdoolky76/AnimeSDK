@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateModifierDisableMasterRoundRandomAffixConfig;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateModifierDisableMasterRoundRandomAffixConfig_TypeDefinitionIndex = 19280;
+
 	class FateModifierDisableMasterRoundRandomAffixConfig : public ::RPG::GameCore::FateModifierConfigBase
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 #define OGILIJCMCKB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C98D040)
 
+inline static constexpr unsigned int OGILIJCMCKB_TypeDefinitionIndex = 42452;
+
 	class OGILIJCMCKB : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int MonoParkourAnimationChangeTexture_TypeDefinitionIndex = 74123;
+
 	class MonoParkourAnimationChangeTexture : public ::UnityEngine::MonoBehaviour
 	{
 	public:

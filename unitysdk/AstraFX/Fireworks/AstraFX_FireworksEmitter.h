@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 
 namespace AstraFX::Fireworks
 {
+	inline static constexpr unsigned int AstraFX_FireworksEmitter_TypeDefinitionIndex = 49026;
+
 	class AstraFX_FireworksEmitter
 	{
 	public:

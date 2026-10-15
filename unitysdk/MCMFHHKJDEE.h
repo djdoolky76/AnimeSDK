@@ -11,6 +11,8 @@ namespace RPG::GameCore { class StoryLineFloorDataRow; }
 #define MCMFHHKJDEE_MNBBCAMDGDI_OFFSET UNITYSDK_OFFSET(0xB888390)
 #define MCMFHHKJDEE_OJAKJDAJCNN_OFFSET UNITYSDK_OFFSET(0xB888230)
 
+inline static constexpr unsigned int MCMFHHKJDEE_TypeDefinitionIndex = 67990;
+
 	class MCMFHHKJDEE : public ::System::Object
 	{
 	public:

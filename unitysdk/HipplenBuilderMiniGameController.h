@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 #define HIPPLENBUILDERMINIGAMECONTROLLER_ECGDEPCBAAD_OFFSET UNITYSDK_OFFSET(0x15DED820)
 #define HIPPLENBUILDERMINIGAMECONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x15DEC730)
 
+inline static constexpr unsigned int HipplenBuilderMiniGameController_TypeDefinitionIndex = 47202;
+
 	class HipplenBuilderMiniGameController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

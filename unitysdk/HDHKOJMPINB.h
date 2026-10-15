@@ -10,6 +10,8 @@ class JJFJNKDHOCC;
 #define HDHKOJMPINB_CTOR_OFFSET UNITYSDK_OFFSET(0x15C33980)
 #define HDHKOJMPINB_EJNIADKOHKG_OFFSET UNITYSDK_OFFSET(0x15C33AA0)
 
+inline static constexpr unsigned int HDHKOJMPINB_TypeDefinitionIndex = 80085;
+
 	class HDHKOJMPINB : public ::System::Object
 	{
 	public:

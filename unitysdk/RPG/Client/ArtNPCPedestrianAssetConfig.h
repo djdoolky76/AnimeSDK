@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ArtNPCPedestrianAssetConfig_TypeDefinitionIndex = 69228;
+
 	class ArtNPCPedestrianAssetConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

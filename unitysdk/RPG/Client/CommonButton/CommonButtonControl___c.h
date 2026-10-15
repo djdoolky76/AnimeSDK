@@ -18,6 +18,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::CommonButton
 {
+	inline static constexpr unsigned int CommonButtonControl___c_TypeDefinitionIndex = 81245;
+
 	class CommonButtonControl___c : public ::System::Object
 	{
 	public:

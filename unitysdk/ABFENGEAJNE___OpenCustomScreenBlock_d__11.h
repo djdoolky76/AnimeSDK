@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define ABFENGEAJNE___OPENCUSTOMSCREENBLOCK_D__11_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xB0F2F60)
 #define ABFENGEAJNE___OPENCUSTOMSCREENBLOCK_D__11_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB0F2E20)
 
+inline static constexpr unsigned int ABFENGEAJNE___OpenCustomScreenBlock_d__11_TypeDefinitionIndex = 60548;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11>
 	class ABFENGEAJNE___OpenCustomScreenBlock_d__11 : public ::System::Object
 	{

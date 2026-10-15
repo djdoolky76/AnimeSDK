@@ -8,6 +8,8 @@
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int Base64Encoder_TypeDefinitionIndex = 1787;
+
 	class Base64Encoder : public ::System::Object
 	{
 	public:

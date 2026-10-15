@@ -4,6 +4,8 @@ namespace System { class String; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int Utils_MethodKey_TypeDefinitionIndex = 50266;
+
 	struct alignas(8) Utils_MethodKey
 	{
 		::System::String* Name; // 0x10

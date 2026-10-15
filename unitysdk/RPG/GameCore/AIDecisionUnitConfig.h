@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AIDecisionUnitConfig_TypeDefinitionIndex = 15480;
+
 	class AIDecisionUnitConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

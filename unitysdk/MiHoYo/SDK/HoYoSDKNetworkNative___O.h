@@ -7,6 +7,8 @@ namespace MiHoYo::SDK { class HoYoSDKNetworkNative_HoYoNetworkWriteCallback; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HoYoSDKNetworkNative___O_TypeDefinitionIndex = 46123;
+
 	class HoYoSDKNetworkNative___O : public ::System::Object
 	{
 	public:

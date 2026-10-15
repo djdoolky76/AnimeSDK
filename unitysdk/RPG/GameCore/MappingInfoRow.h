@@ -13,6 +13,8 @@ namespace RPG::GameCore { class MappingInfoRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MappingInfoRow_TypeDefinitionIndex = 12558;
+
 	class MappingInfoRow : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define LANJDEPOJNB_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC6EB60)
 #define LANJDEPOJNB_MMKGLLKFHCH_OFFSET UNITYSDK_OFFSET(0x1EC7BF30)
 
+inline static constexpr unsigned int LANJDEPOJNB_TypeDefinitionIndex = 44303;
+
 	class LANJDEPOJNB : public ::System::Exception
 	{
 	public:

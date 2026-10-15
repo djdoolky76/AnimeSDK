@@ -12,6 +12,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace SRF::Service
 {
+	inline static constexpr unsigned int SRServiceManager___c__DisplayClass27_0_TypeDefinitionIndex = 35421;
+
 	class SRServiceManager___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:

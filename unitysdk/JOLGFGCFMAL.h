@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JOLGFGCFMAL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7A6460)
 #define JOLGFGCFMAL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7A64C0)
 
+inline static constexpr unsigned int JOLGFGCFMAL_TypeDefinitionIndex = 28420;
+
 	class JOLGFGCFMAL : public ::System::Object
 	{
 	public:

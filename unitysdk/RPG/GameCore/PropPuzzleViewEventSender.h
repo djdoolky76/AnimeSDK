@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PropPuzzleViewEventSender; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropPuzzleViewEventSender_TypeDefinitionIndex = 21988;
+
 	class PropPuzzleViewEventSender : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define POBPAPGHKLD_CTOR_OFFSET UNITYSDK_OFFSET(0xC358230)
 
+inline static constexpr unsigned int POBPAPGHKLD_TypeDefinitionIndex = 66167;
+
 	class POBPAPGHKLD : public ::System::Object
 	{
 	public:

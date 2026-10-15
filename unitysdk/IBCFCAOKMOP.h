@@ -27,6 +27,8 @@ namespace System { class String; }
 #define IBCFCAOKMOP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E610420)
 #define IBCFCAOKMOP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E610480)
 
+inline static constexpr unsigned int IBCFCAOKMOP_TypeDefinitionIndex = 28853;
+
 	class IBCFCAOKMOP : public ::System::Object
 	{
 	public:

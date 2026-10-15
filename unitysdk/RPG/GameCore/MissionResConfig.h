@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MissionResConfig_TypeDefinitionIndex = 19026;
+
 	class MissionResConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

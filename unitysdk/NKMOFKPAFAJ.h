@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NKMOFKPAFAJ_ONSKIP_OFFSET UNITYSDK_OFFSET(0xBC3ED60)
 #define NKMOFKPAFAJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC3EDC0)
 
+inline static constexpr unsigned int NKMOFKPAFAJ_TypeDefinitionIndex = 57874;
+
 	class NKMOFKPAFAJ
 	{
 	public:

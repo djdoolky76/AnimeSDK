@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CutInSourceType_TypeDefinitionIndex = 24677;
+
 	enum class CutInSourceType : ::System::Int32
 	{
 		AetherDivideSkill = 0,

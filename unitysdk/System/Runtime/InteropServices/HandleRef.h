@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int HandleRef_TypeDefinitionIndex = 1430;
+
 	struct alignas(8) HandleRef
 	{
 		::System::Object* m_wrapper; // 0x10

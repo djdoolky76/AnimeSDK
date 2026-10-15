@@ -6,6 +6,8 @@ namespace RPG::GameCore { class GameWorld; }
 
 #define KANHBPAGDJD_CTOR_OFFSET UNITYSDK_OFFSET(0xB2DF430)
 
+inline static constexpr unsigned int KANHBPAGDJD_TypeDefinitionIndex = 54320;
+
 	class KANHBPAGDJD : public ::NFFHMOLDPEH
 	{
 	public:

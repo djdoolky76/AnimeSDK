@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIPolygon_VertexAttribute_TypeDefinitionIndex = 72697;
+
 	struct alignas(4) UIPolygon_VertexAttribute
 	{
 		::UnityEngine::Vector2 pos; // 0x10

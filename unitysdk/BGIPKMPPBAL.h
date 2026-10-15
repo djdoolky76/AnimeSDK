@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BGIPKMPPBAL_CTOR_OFFSET UNITYSDK_OFFSET(0xB18A1A0)
 #define BGIPKMPPBAL_GET_NODES_OFFSET UNITYSDK_OFFSET(0xB18A1B0)
 
+inline static constexpr unsigned int BGIPKMPPBAL_TypeDefinitionIndex = 79161;
+
 	class BGIPKMPPBAL : public ::System::Object
 	{
 	public:

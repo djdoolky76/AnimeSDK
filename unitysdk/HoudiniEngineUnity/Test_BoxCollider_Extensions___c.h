@@ -13,6 +13,8 @@ namespace UnityEngine { class BoxCollider; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int Test_BoxCollider_Extensions___c_TypeDefinitionIndex = 40724;
+
 	class Test_BoxCollider_Extensions___c : public ::System::Object
 	{
 	public:

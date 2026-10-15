@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BONOIPBEEAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E03E640)
 #define BONOIPBEEAP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E03E650)
 
+inline static constexpr unsigned int BONOIPBEEAP___c_TypeDefinitionIndex = 30123;
+
 	class BONOIPBEEAP___c : public ::System::Object
 	{
 	public:

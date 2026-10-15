@@ -7,6 +7,8 @@ class HGCEOEHGPPE;
 #define KJHGBANLEIC___C__DISPLAYCLASS30_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB451D20)
 #define KJHGBANLEIC___C__DISPLAYCLASS30_0___SENDITEMSUCCEED_B__0_OFFSET UNITYSDK_OFFSET(0xB456470)
 
+inline static constexpr unsigned int KJHGBANLEIC___c__DisplayClass30_0_TypeDefinitionIndex = 59598;
+
 	class KJHGBANLEIC___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:

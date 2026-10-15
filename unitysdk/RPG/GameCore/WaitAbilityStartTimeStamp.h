@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitAbilityStartTimeStamp; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitAbilityStartTimeStamp_TypeDefinitionIndex = 22692;
+
 	class WaitAbilityStartTimeStamp : public ::RPG::GameCore::TaskConfig
 	{
 	public:

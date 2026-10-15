@@ -147,6 +147,8 @@ namespace System { class Type; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int Error_TypeDefinitionIndex = 3217;
+
 	class Error : public ::System::Object
 	{
 	public:

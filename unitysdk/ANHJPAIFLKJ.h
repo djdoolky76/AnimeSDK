@@ -12,6 +12,8 @@ namespace UnityEngine { class Camera; }
 #define ANHJPAIFLKJ_MKBOIKJNJCB_OFFSET UNITYSDK_OFFSET(0x15597770)
 #define ANHJPAIFLKJ_NIMPADIFBKJ_OFFSET UNITYSDK_OFFSET(0x155975A0)
 
+inline static constexpr unsigned int ANHJPAIFLKJ_TypeDefinitionIndex = 73815;
+
 	class ANHJPAIFLKJ : public ::System::Object
 	{
 	public:

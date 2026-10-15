@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NONEJFOPOIO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D243510)
 #define NONEJFOPOIO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D242E30)
 
+inline static constexpr unsigned int NONEJFOPOIO_TypeDefinitionIndex = 14272;
+
 	class NONEJFOPOIO : public ::System::Object
 	{
 	public:

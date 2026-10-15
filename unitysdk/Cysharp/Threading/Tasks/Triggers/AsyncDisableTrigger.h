@@ -13,6 +13,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnDisableHandler; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncDisableTrigger_TypeDefinitionIndex = 38543;
+
 	class AsyncDisableTrigger
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class RandomFreezeBombAction; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int RandomFreezeBombAction_TypeDefinitionIndex = 24916;
+
 	class RandomFreezeBombAction : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:

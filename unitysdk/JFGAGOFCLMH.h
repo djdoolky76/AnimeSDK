@@ -11,6 +11,8 @@ namespace RPG::Client { class MonoDeferredDecalMonoPlugin; }
 #define JFGAGOFCLMH_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0x1664C320)
 #define JFGAGOFCLMH_PNHKKDHKBCM_OFFSET UNITYSDK_OFFSET(0x1664C740)
 
+inline static constexpr unsigned int JFGAGOFCLMH_TypeDefinitionIndex = 70922;
+
 	class JFGAGOFCLMH : public ::RPG::Client::TABehaviorBase
 	{
 	public:

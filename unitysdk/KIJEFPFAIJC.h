@@ -41,6 +41,8 @@ namespace System { class String; }
 #define KIJEFPFAIJC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E85D170)
 #define KIJEFPFAIJC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E85D1D0)
 
+inline static constexpr unsigned int KIJEFPFAIJC_TypeDefinitionIndex = 28490;
+
 	class KIJEFPFAIJC : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define DDBOKLCFEEA_CTOR_OFFSET UNITYSDK_OFFSET(0xE25CC80)
 
+inline static constexpr unsigned int DDBOKLCFEEA_TypeDefinitionIndex = 60655;
+
 	class DDBOKLCFEEA : public ::System::Object
 	{
 	public:

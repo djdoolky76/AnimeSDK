@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int BiliBiliDelegate_SDKInitDelegate_TypeDefinitionIndex = 7606;
+
 	class BiliBiliDelegate_SDKInitDelegate : public ::System::MulticastDelegate
 	{
 	public:

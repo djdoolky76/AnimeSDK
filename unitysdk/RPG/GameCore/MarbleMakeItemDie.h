@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MarbleMakeItemDie; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleMakeItemDie_TypeDefinitionIndex = 16872;
+
 	class MarbleMakeItemDie : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

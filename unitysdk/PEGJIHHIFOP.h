@@ -28,6 +28,8 @@ namespace System { class String; }
 #define PEGJIHHIFOP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF19BE0)
 #define PEGJIHHIFOP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF19C40)
 
+inline static constexpr unsigned int PEGJIHHIFOP_TypeDefinitionIndex = 25150;
+
 	class PEGJIHHIFOP : public ::System::Object
 	{
 	public:

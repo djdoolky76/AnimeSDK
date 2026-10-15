@@ -15,6 +15,8 @@ namespace System::IO::MemoryMappedFiles { class MemoryMappedFile; }
 #define OBKMGFPLJGB_LDCGNGDPGAM_OFFSET UNITYSDK_OFFSET(0x1EC3B370)
 #define OBKMGFPLJGB_NLMGPLDLEMN_OFFSET UNITYSDK_OFFSET(0x1EC3BB30)
 
+inline static constexpr unsigned int OBKMGFPLJGB_TypeDefinitionIndex = 35181;
+
 	class OBKMGFPLJGB : public ::System::Object
 	{
 	public:

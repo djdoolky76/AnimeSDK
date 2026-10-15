@@ -5,6 +5,8 @@ class JABLLPHOHLH_HNMMLJPADGI;
 
 #define JABLLPHOHLH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1653C5F0)
 
+inline static constexpr unsigned int JABLLPHOHLH_TypeDefinitionIndex = 61220;
+
 	class JABLLPHOHLH : public ::System::Object
 	{
 	public:

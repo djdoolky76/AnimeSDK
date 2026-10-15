@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define BFHDICJPGLD_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0xFD80)
 
+inline static constexpr unsigned int BFHDICJPGLD_TypeDefinitionIndex = 56894;
+
 	struct alignas(8) BFHDICJPGLD
 	{
 		::RPG::GameCore::TurnBasedModifierInstance* EKIFBHJOKFH; // 0x10

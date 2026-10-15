@@ -28,6 +28,8 @@ namespace System { class String; }
 #define AMABCENGLBJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E515D20)
 #define AMABCENGLBJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E515D80)
 
+inline static constexpr unsigned int AMABCENGLBJ_TypeDefinitionIndex = 34889;
+
 	class AMABCENGLBJ : public ::System::Object
 	{
 	public:

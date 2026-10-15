@@ -134,6 +134,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int Image_TypeDefinitionIndex = 6728;
+
 	class Image : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:

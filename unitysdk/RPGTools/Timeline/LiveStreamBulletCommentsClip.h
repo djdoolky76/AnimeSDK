@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int LiveStreamBulletCommentsClip_TypeDefinitionIndex = 48171;
+
 	class LiveStreamBulletCommentsClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

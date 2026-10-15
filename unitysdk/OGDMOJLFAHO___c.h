@@ -8,6 +8,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define OGDMOJLFAHO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBE56F60)
 #define OGDMOJLFAHO___C__SETVISIBILITY_B__32_0_OFFSET UNITYSDK_OFFSET(0xBE56F70)
 
+inline static constexpr unsigned int OGDMOJLFAHO___c_TypeDefinitionIndex = 71745;
+
 	class OGDMOJLFAHO___c : public ::System::Object
 	{
 	public:

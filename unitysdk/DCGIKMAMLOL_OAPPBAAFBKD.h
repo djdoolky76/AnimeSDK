@@ -7,6 +7,8 @@ namespace R3 { template <typename T> class Observer_1; }
 namespace System { class String; }
 namespace UnityEngine { class Object; }
 
+inline static constexpr unsigned int DCGIKMAMLOL_OAPPBAAFBKD_TypeDefinitionIndex = 49982;
+
 	class DCGIKMAMLOL_OAPPBAAFBKD
 	{
 	public:

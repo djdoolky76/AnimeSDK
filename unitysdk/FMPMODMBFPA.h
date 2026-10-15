@@ -9,6 +9,8 @@ namespace Entitas { class IEntity; }
 #define FMPMODMBFPA_ONREMOVE_OFFSET UNITYSDK_OFFSET(0x15867BA0)
 #define FMPMODMBFPA_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x15867A20)
 
+inline static constexpr unsigned int FMPMODMBFPA_TypeDefinitionIndex = 79114;
+
 	class FMPMODMBFPA
 	{
 	public:

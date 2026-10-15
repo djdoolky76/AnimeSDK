@@ -10,6 +10,8 @@ namespace System { class Action; }
 #define FGPBFMIECPL_KAGICIAJEEA_OFFSET UNITYSDK_OFFSET(0x1576E940)
 #define FGPBFMIECPL_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1576E870)
 
+inline static constexpr unsigned int FGPBFMIECPL_TypeDefinitionIndex = 79094;
+
 	class FGPBFMIECPL : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ItemConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HeartDialTraceConsumeRow_TypeDefinitionIndex = 13732;
+
 	class HeartDialTraceConsumeRow : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Coroutine_TypeDefinitionIndex = 4321;
+
 	class Coroutine : public ::UnityEngine::YieldInstruction
 	{
 	public:

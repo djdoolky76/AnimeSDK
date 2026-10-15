@@ -27,6 +27,8 @@ namespace System { class String; }
 #define IGDHPBBNEIC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E64A570)
 #define IGDHPBBNEIC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E64A5D0)
 
+inline static constexpr unsigned int IGDHPBBNEIC_TypeDefinitionIndex = 33704;
+
 	class IGDHPBBNEIC : public ::System::Object
 	{
 	public:

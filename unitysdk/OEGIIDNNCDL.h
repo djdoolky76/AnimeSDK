@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OEGIIDNNCDL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D25EBD0)
 #define OEGIIDNNCDL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D25E4F0)
 
+inline static constexpr unsigned int OEGIIDNNCDL_TypeDefinitionIndex = 11885;
+
 	class OEGIIDNNCDL : public ::System::Object
 	{
 	public:

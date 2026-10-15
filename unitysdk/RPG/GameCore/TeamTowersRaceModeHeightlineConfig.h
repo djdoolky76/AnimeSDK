@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TeamTowersRaceModeHeightlineConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamTowersRaceModeHeightlineConfig_TypeDefinitionIndex = 18949;
+
 	class TeamTowersRaceModeHeightlineConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -31,6 +31,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTravelShipController_TypeDefinitionIndex = 68784;
+
 	class MonoTravelShipController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

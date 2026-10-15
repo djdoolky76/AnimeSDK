@@ -34,6 +34,8 @@ namespace System { class String; }
 #define EAKNAOBLJGJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E22D2C0)
 #define EAKNAOBLJGJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E22D320)
 
+inline static constexpr unsigned int EAKNAOBLJGJ_TypeDefinitionIndex = 34720;
+
 	class EAKNAOBLJGJ : public ::System::Object
 	{
 	public:

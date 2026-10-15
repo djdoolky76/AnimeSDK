@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TarotBookCharacterLevelRow_TypeDefinitionIndex = 15233;
+
 	class TarotBookCharacterLevelRow : public ::System::Object
 	{
 	public:

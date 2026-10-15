@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client::Recommend
 {
+	inline static constexpr unsigned int GoodRelicPropertyDataGroup_TypeDefinitionIndex = 74460;
+
 	class GoodRelicPropertyDataGroup : public ::System::Object
 	{
 	public:

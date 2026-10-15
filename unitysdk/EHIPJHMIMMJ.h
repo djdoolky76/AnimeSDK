@@ -4,6 +4,8 @@
 
 #define EHIPJHMIMMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x154ACFF0)
 
+inline static constexpr unsigned int EHIPJHMIMMJ_TypeDefinitionIndex = 48806;
+
 	class EHIPJHMIMMJ : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

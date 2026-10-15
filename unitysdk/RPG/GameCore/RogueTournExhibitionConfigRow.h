@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RogueTournExhibitionConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournExhibitionConfigRow_TypeDefinitionIndex = 14995;
+
 	class RogueTournExhibitionConfigRow : public ::System::Object
 	{
 	public:

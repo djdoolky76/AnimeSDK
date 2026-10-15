@@ -30,6 +30,8 @@ namespace System { class String; }
 #define DDOOMBLAOHN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E18C9A0)
 #define DDOOMBLAOHN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E18CA00)
 
+inline static constexpr unsigned int DDOOMBLAOHN_TypeDefinitionIndex = 32698;
+
 	class DDOOMBLAOHN : public ::System::Object
 	{
 	public:

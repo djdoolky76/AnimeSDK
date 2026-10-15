@@ -8,6 +8,8 @@ class MIBMLOEAJII;
 #define MIBMLOEAJII_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1B0260)
 #define MIBMLOEAJII_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1B0100)
 
+inline static constexpr unsigned int MIBMLOEAJII_TypeDefinitionIndex = 21552;
+
 	class MIBMLOEAJII : public ::RPG::GameCore::TaskConfig
 	{
 	public:

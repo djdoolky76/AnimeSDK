@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EnterAetherGym; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnterAetherGym_TypeDefinitionIndex = 21674;
+
 	class EnterAetherGym : public ::RPG::GameCore::TaskConfig
 	{
 	public:

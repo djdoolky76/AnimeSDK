@@ -31,6 +31,8 @@ namespace System { class String; }
 #define IEIEEEFKLFA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E63A530)
 #define IEIEEEFKLFA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E63A590)
 
+inline static constexpr unsigned int IEIEEEFKLFA_TypeDefinitionIndex = 31586;
+
 	class IEIEEEFKLFA : public ::System::Object
 	{
 	public:

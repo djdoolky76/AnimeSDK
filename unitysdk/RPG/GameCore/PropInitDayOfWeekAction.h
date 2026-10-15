@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PropInitDayOfWeekAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropInitDayOfWeekAction_TypeDefinitionIndex = 22076;
+
 	class PropInitDayOfWeekAction : public ::RPG::GameCore::TaskConfig
 	{
 	public:

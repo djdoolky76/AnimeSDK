@@ -8,6 +8,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class AsyncDestroyTrigger; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncDestroyTrigger_AwakeMonitor_TypeDefinitionIndex = 38496;
+
 	class AsyncDestroyTrigger_AwakeMonitor : public ::System::Object
 	{
 	public:

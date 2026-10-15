@@ -40,6 +40,8 @@ namespace System { class String; }
 #define LEHBIBDGEHG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E930790)
 #define LEHBIBDGEHG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9307F0)
 
+inline static constexpr unsigned int LEHBIBDGEHG_TypeDefinitionIndex = 33264;
+
 	class LEHBIBDGEHG : public ::System::Object
 	{
 	public:

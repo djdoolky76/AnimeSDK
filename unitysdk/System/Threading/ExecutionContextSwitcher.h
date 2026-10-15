@@ -9,6 +9,8 @@ namespace System::Threading { class Thread; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int ExecutionContextSwitcher_TypeDefinitionIndex = 829;
+
 	struct alignas(8) ExecutionContextSwitcher
 	{
 		::System::Threading::ExecutionContext_Reader outerEC; // 0x10

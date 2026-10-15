@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JGNCJOINEMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E73DF70)
 #define JGNCJOINEMP___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E73DF80)
 
+inline static constexpr unsigned int JGNCJOINEMP___c_TypeDefinitionIndex = 28604;
+
 	class JGNCJOINEMP___c : public ::System::Object
 	{
 	public:

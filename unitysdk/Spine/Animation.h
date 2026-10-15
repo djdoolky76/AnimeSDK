@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace Spine
 {
+	inline static constexpr unsigned int Animation_TypeDefinitionIndex = 39593;
+
 	class Animation : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define CCGFCHPPIDH_CTOR_OFFSET UNITYSDK_OFFSET(0xC73ABD0)
 
+inline static constexpr unsigned int CCGFCHPPIDH_TypeDefinitionIndex = 64786;
+
 	class CCGFCHPPIDH : public ::System::Object
 	{
 	public:

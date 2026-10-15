@@ -7,6 +7,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SpineMesh_TypeDefinitionIndex = 45086;
+
 	class SpineMesh : public ::System::Object
 	{
 	public:

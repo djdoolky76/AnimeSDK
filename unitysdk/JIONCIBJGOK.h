@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JIONCIBJGOK_NOJIPMKAGON_OFFSET UNITYSDK_OFFSET(0x1C6F9B60)
 #define JIONCIBJGOK_PNJODACLLPH_OFFSET UNITYSDK_OFFSET(0x1C6F9B50)
 
+inline static constexpr unsigned int JIONCIBJGOK_TypeDefinitionIndex = 37092;
+
 	class JIONCIBJGOK : public ::System::Object
 	{
 	public:

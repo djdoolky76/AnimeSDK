@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ConeSphereTrigger_TypeDefinitionIndex = 60515;
+
 	class ConeSphereTrigger : public ::UnityEngine::MonoBehaviour
 	{
 	public:

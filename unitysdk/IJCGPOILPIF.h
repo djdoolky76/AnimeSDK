@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PropButtonConfig; }
 #define IJCGPOILPIF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CF17820)
 #define IJCGPOILPIF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF177E0)
 
+inline static constexpr unsigned int IJCGPOILPIF_TypeDefinitionIndex = 21429;
+
 	class IJCGPOILPIF : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define LAMOJOPDBDI___C__SORTEXAM_B__0_1_OFFSET UNITYSDK_OFFSET(0x1C56E000)
 #define LAMOJOPDBDI___C__SORTEXAM_B__0_2_OFFSET UNITYSDK_OFFSET(0x1C56E020)
 
+inline static constexpr unsigned int LAMOJOPDBDI___c_TypeDefinitionIndex = 41898;
+
 	class LAMOJOPDBDI___c : public ::System::Object
 	{
 	public:

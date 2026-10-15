@@ -8,6 +8,8 @@ namespace RPG::GameCore { class LoadingFuncConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LoadingTipsModule___c__DisplayClass0_0_TypeDefinitionIndex = 65765;
+
 	class LoadingTipsModule___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

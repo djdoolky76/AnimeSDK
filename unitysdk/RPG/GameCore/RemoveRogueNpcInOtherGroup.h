@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RemoveRogueNpcInOtherGroup; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveRogueNpcInOtherGroup_TypeDefinitionIndex = 20485;
+
 	class RemoveRogueNpcInOtherGroup : public ::RPG::GameCore::TaskConfig
 	{
 	public:

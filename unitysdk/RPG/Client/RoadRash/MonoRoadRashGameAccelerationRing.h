@@ -19,6 +19,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int MonoRoadRashGameAccelerationRing_TypeDefinitionIndex = 75848;
+
 	class MonoRoadRashGameAccelerationRing : public ::UnityEngine::MonoBehaviour
 	{
 	public:

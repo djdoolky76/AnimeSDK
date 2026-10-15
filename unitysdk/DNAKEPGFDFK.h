@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DNAKEPGFDFK_CTOR_OFFSET UNITYSDK_OFFSET(0x119402E0)
 #define DNAKEPGFDFK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11940310)
 
+inline static constexpr unsigned int DNAKEPGFDFK_TypeDefinitionIndex = 53838;
+
 	class DNAKEPGFDFK
 	{
 	public:

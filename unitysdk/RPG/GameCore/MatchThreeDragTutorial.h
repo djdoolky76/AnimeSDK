@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MatchThreeDragTutorial; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MatchThreeDragTutorial_TypeDefinitionIndex = 20986;
+
 	class MatchThreeDragTutorial : public ::RPG::GameCore::TaskConfig
 	{
 	public:

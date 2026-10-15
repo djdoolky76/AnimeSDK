@@ -5,6 +5,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int SpookyHash_U_TypeDefinitionIndex = 4209;
+
 	struct alignas(8) SpookyHash_U
 	{
 		::PVOID p8; // 0x10

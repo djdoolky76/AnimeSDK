@@ -6,6 +6,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPGraphicsSettingsData_GrassSettingCollection_TypeDefinitionIndex = 37672;
+
 	class CRPGraphicsSettingsData_GrassSettingCollection : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define GNBCBNCKLHE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4D88F0)
 #define GNBCBNCKLHE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4D8950)
 
+inline static constexpr unsigned int GNBCBNCKLHE_TypeDefinitionIndex = 26141;
+
 	class GNBCBNCKLHE : public ::System::Object
 	{
 	public:

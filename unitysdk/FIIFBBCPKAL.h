@@ -4,6 +4,8 @@
 
 #define FIIFBBCPKAL_CTOR_OFFSET UNITYSDK_OFFSET(0x157A97E0)
 
+inline static constexpr unsigned int FIIFBBCPKAL_TypeDefinitionIndex = 57948;
+
 	class FIIFBBCPKAL : public ::System::Object
 	{
 	public:

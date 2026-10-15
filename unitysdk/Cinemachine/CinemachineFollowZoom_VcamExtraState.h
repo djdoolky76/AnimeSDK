@@ -6,6 +6,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineFollowZoom_VcamExtraState_TypeDefinitionIndex = 39737;
+
 	class CinemachineFollowZoom_VcamExtraState : public ::System::Object
 	{
 	public:

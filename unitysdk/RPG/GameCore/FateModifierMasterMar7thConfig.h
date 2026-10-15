@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateModifierMasterMar7thConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateModifierMasterMar7thConfig_TypeDefinitionIndex = 19289;
+
 	class FateModifierMasterMar7thConfig : public ::RPG::GameCore::FateModifierConfigBase
 	{
 	public:

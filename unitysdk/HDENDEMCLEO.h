@@ -4,6 +4,8 @@
 
 #define HDENDEMCLEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CABD100)
 
+inline static constexpr unsigned int HDENDEMCLEO_TypeDefinitionIndex = 42335;
+
 	class HDENDEMCLEO : public ::System::Object
 	{
 	public:

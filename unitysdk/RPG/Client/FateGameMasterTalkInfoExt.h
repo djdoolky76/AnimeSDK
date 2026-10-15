@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateGameMasterTalkInfoExt_TypeDefinitionIndex = 64105;
+
 	class FateGameMasterTalkInfoExt : public ::System::Object
 	{
 	public:

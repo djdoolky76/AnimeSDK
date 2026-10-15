@@ -40,6 +40,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfRestaurantGameEntityProxy_TypeDefinitionIndex = 63748;
+
 	class ElfRestaurantGameEntityProxy : public ::System::Object
 	{
 	public:

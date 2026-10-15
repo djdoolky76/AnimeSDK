@@ -34,6 +34,8 @@ namespace System { class String; }
 #define KNECKDAOKOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8A1490)
 #define KNECKDAOKOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8A14F0)
 
+inline static constexpr unsigned int KNECKDAOKOA_TypeDefinitionIndex = 31755;
+
 	class KNECKDAOKOA : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace RPG::Client { class RogueTournPersonaPumanResultViewModel; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaPumanResultViewModel_TypeDefinitionIndex = 72917;
+
 	class RogueTournPersonaPumanResultViewModel : public ::RPG::Client::RogueTournPersonaBaseViewModel
 	{
 	public:

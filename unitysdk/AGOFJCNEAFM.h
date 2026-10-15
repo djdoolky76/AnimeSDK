@@ -7,6 +7,8 @@ namespace System { class Nullable; }
 #define AGOFJCNEAFM_GGNBOEIMEPM_OFFSET UNITYSDK_OFFSET(0xCF463B0)
 #define AGOFJCNEAFM_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0xCF46560)
 
+inline static constexpr unsigned int AGOFJCNEAFM_TypeDefinitionIndex = 68692;
+
 	class AGOFJCNEAFM
 	{
 	public:

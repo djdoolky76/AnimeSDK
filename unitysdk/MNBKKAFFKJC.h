@@ -15,6 +15,8 @@ namespace System::Text { class StringBuilder; }
 #define MNBKKAFFKJC_PRINTMEMBERS_OFFSET UNITYSDK_OFFSET(0x3C52B30)
 #define MNBKKAFFKJC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C52B20)
 
+inline static constexpr unsigned int MNBKKAFFKJC_TypeDefinitionIndex = 44221;
+
 	struct alignas(8) MNBKKAFFKJC
 	{
 		::System::Action* IMDLGFPMPEK; // 0x10

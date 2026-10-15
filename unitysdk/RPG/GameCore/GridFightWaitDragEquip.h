@@ -12,6 +12,8 @@ namespace RPG::GameCore { class GridFightWaitDragEquip; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightWaitDragEquip_TypeDefinitionIndex = 19961;
+
 	class GridFightWaitDragEquip : public ::RPG::GameCore::TaskConfig
 	{
 	public:

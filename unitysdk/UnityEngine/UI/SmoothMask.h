@@ -97,6 +97,8 @@ namespace UnityEngine { class Texture; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int SmoothMask_TypeDefinitionIndex = 6847;
+
 	class SmoothMask : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

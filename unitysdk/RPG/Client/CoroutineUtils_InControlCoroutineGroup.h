@@ -9,6 +9,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CoroutineUtils_InControlCoroutineGroup_TypeDefinitionIndex = 35224;
+
 	class CoroutineUtils_InControlCoroutineGroup : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2WheelJoint_TypeDefinitionIndex = 36810;
+
 	struct alignas(4) B2WheelJoint
 	{
 		::System::Single perpImpulse; // 0x10

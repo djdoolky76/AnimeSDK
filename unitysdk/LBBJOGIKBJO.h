@@ -16,6 +16,8 @@ namespace System { class Object; }
 #define LBBJOGIKBJO_PDFBFNFBMLF_OFFSET UNITYSDK_OFFSET(0xB5EE300)
 #define LBBJOGIKBJO_TICK_OFFSET UNITYSDK_OFFSET(0xB5EE580)
 
+inline static constexpr unsigned int LBBJOGIKBJO_TypeDefinitionIndex = 53498;
+
 	class LBBJOGIKBJO : public ::GELIALJDFBL
 	{
 	public:

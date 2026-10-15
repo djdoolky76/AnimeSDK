@@ -10,6 +10,8 @@ namespace System { class String; }
 #define DMHNMEJKELL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD447B0)
 #define DMHNMEJKELL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD445E0)
 
+inline static constexpr unsigned int DMHNMEJKELL_TypeDefinitionIndex = 13931;
+
 	class DMHNMEJKELL : public ::System::Object
 	{
 	public:

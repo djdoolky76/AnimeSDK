@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace ZXing
 {
+	inline static constexpr unsigned int WriterException_TypeDefinitionIndex = 6990;
+
 	class WriterException : public ::System::Exception
 	{
 	public:

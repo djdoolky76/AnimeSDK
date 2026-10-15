@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 #define MIBINCLECCE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB94CFD0)
 #define MIBINCLECCE_PODHAFACFLO_OFFSET UNITYSDK_OFFSET(0xB94DE20)
 
+inline static constexpr unsigned int MIBINCLECCE_TypeDefinitionIndex = 47444;
+
 	class MIBINCLECCE : public ::RPG::Client::BehaviorBase
 	{
 	public:

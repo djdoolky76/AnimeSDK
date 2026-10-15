@@ -42,6 +42,8 @@ namespace System { class String; }
 #define OEIHBAJCCAF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE2B790)
 #define OEIHBAJCCAF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE2B7F0)
 
+inline static constexpr unsigned int OEIHBAJCCAF_TypeDefinitionIndex = 30261;
+
 	class OEIHBAJCCAF : public ::System::Object
 	{
 	public:

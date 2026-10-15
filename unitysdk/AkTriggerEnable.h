@@ -4,6 +4,8 @@
 
 #define AKTRIGGERENABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F618490)
 
+inline static constexpr unsigned int AkTriggerEnable_TypeDefinitionIndex = 44964;
+
 	class AkTriggerEnable : public ::AkTriggerBase
 	{
 	public:

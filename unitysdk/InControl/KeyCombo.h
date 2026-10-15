@@ -38,6 +38,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int KeyCombo_TypeDefinitionIndex = 40802;
+
 	struct alignas(4) KeyCombo
 	{
 		::System::Int32 includeSize; // 0x10

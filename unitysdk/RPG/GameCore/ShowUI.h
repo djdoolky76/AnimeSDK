@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowUI_TypeDefinitionIndex = 23841;
+
 	class ShowUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

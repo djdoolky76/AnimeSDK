@@ -18,6 +18,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client::ScreenSpaceGPUParticles
 {
+	inline static constexpr unsigned int MonoEffectPluginScreenSpaceGPUParticlesEmitter_TypeDefinitionIndex = 73704;
+
 	class MonoEffectPluginScreenSpaceGPUParticlesEmitter : public ::RPG::Client::MonoEffectPluginCharaEffectBase
 	{
 	public:

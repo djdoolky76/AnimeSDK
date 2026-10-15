@@ -7,6 +7,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPGraphicsSettingsData_AdaptiveTessellationSettings_TypeDefinitionIndex = 37669;
+
 	class CRPGraphicsSettingsData_AdaptiveTessellationSettings : public ::System::Object
 	{
 	public:

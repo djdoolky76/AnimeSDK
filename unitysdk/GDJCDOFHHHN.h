@@ -8,6 +8,8 @@ class BMGHLHHJEGE;
 #define GDJCDOFHHHN_GET_ISDISAPPEAREDONCE_OFFSET UNITYSDK_OFFSET(0x1599D290)
 #define GDJCDOFHHHN_SET_ISDISAPPEAREDONCE_OFFSET UNITYSDK_OFFSET(0x1599D2A0)
 
+inline static constexpr unsigned int GDJCDOFHHHN_TypeDefinitionIndex = 66557;
+
 	class GDJCDOFHHHN : public ::System::Object
 	{
 	public:

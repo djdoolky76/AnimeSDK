@@ -101,6 +101,8 @@ namespace UnityEngine { class Transform; }
 #define DMPMGGKKIBH_PIFGDMMCALL_OFFSET UNITYSDK_OFFSET(0x1193E480)
 #define DMPMGGKKIBH_PJLOFAAAPEB_OFFSET UNITYSDK_OFFSET(0x119383B0)
 
+inline static constexpr unsigned int DMPMGGKKIBH_TypeDefinitionIndex = 74220;
+
 	class DMPMGGKKIBH : public ::System::Object
 	{
 	public:

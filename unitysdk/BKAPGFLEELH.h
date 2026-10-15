@@ -5,6 +5,8 @@ class GIDMPPHIGIA;
 
 #define BKAPGFLEELH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BC2D0)
 
+inline static constexpr unsigned int BKAPGFLEELH_TypeDefinitionIndex = 43211;
+
 	class BKAPGFLEELH : public ::System::Object
 	{
 	public:

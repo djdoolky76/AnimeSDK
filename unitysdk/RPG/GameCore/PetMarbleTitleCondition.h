@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PetMarbleTitleCondition_TypeDefinitionIndex = 14450;
+
 	enum class PetMarbleTitleCondition : ::System::Int32
 	{
 		None = 0,

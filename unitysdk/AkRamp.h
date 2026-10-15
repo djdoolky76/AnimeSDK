@@ -16,6 +16,8 @@ class AkRamp;
 #define AKRAMP_SET_FNEXT_OFFSET UNITYSDK_OFFSET(0x1F5B56C0)
 #define AKRAMP_SET_FPREV_OFFSET UNITYSDK_OFFSET(0x1F5B5550)
 
+inline static constexpr unsigned int AkRamp_TypeDefinitionIndex = 44781;
+
 	class AkRamp : public ::System::Object
 	{
 	public:

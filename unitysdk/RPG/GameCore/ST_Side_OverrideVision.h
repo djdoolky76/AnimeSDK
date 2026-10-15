@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_OverrideVision_TypeDefinitionIndex = 20106;
+
 	class ST_Side_OverrideVision : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

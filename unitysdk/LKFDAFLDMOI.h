@@ -19,6 +19,8 @@ class LIGGHLAHFNH;
 #define LKFDAFLDMOI_MIBNCJPFLCM_OFFSET UNITYSDK_OFFSET(0xB733450)
 #define LKFDAFLDMOI_PMAPIBBIBGF_OFFSET UNITYSDK_OFFSET(0xB7332F0)
 
+inline static constexpr unsigned int LKFDAFLDMOI_TypeDefinitionIndex = 62399;
+
 	class LKFDAFLDMOI : public ::System::Object
 	{
 	public:

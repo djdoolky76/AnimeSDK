@@ -31,6 +31,8 @@ namespace System { class String; }
 #define EGMPACONNFP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E299B30)
 #define EGMPACONNFP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E299B90)
 
+inline static constexpr unsigned int EGMPACONNFP_TypeDefinitionIndex = 33136;
+
 	class EGMPACONNFP : public ::System::Object
 	{
 	public:

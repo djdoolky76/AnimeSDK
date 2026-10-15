@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyAddBathBuff_TypeDefinitionIndex = 22360;
+
 	class TrainPartyAddBathBuff : public ::RPG::GameCore::TaskConfig
 	{
 	public:

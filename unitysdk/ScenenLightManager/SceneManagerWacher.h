@@ -8,6 +8,8 @@ class MEIGMBOLDOF;
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int SceneManagerWacher_TypeDefinitionIndex = 49185;
+
 	class SceneManagerWacher : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System { class String; }
 #define ABIEGBANPEE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDCC9E0)
 #define ABIEGBANPEE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDCCA40)
 
+inline static constexpr unsigned int ABIEGBANPEE_TypeDefinitionIndex = 25481;
+
 	class ABIEGBANPEE : public ::System::Object
 	{
 	public:

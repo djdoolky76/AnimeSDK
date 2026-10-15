@@ -8,6 +8,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int SimpleEffectService_1___c_TypeDefinitionIndex = 76484;
+
 	template <typename T>
 	class SimpleEffectService_1___c : public ::System::Object
 	{

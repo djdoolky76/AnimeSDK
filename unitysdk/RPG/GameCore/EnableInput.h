@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EnableInput; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnableInput_TypeDefinitionIndex = 20890;
+
 	class EnableInput : public ::RPG::GameCore::TaskConfig
 	{
 	public:

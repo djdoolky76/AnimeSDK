@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LimaoNewsLevelRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LimaoNewsLevelRow_TypeDefinitionIndex = 13951;
+
 	class LimaoNewsLevelRow : public ::System::Object
 	{
 	public:

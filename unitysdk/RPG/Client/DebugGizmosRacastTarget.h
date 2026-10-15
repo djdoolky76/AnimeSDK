@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DebugGizmosRacastTarget_TypeDefinitionIndex = 68338;
+
 	class DebugGizmosRacastTarget : public ::UnityEngine::MonoBehaviour
 	{
 	public:

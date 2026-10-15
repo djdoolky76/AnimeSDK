@@ -8,6 +8,8 @@ namespace System { class String; }
 #define NFKDMCDDEKI_CTOR_OFFSET UNITYSDK_OFFSET(0xBB994D0)
 #define NFKDMCDDEKI_GET_CMDID_OFFSET UNITYSDK_OFFSET(0xBB994C0)
 
+inline static constexpr unsigned int NFKDMCDDEKI_TypeDefinitionIndex = 69403;
+
 	class NFKDMCDDEKI : public ::System::Exception
 	{
 	public:

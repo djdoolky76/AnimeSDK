@@ -4,6 +4,8 @@
 
 #define PINNEDUIRATIOCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xC39AFD0)
 
+inline static constexpr unsigned int PinnedUIRatioController_TypeDefinitionIndex = 47583;
+
 	class PinnedUIRatioController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 #define DNMKKIAIIKL_JNAMCLDMIID_OFFSET UNITYSDK_OFFSET(0x11FD9910)
 #define DNMKKIAIIKL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FD9410)
 
+inline static constexpr unsigned int DNMKKIAIIKL_TypeDefinitionIndex = 55209;
+
 	class DNMKKIAIIKL
 	{
 	public:

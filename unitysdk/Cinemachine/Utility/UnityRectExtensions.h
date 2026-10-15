@@ -8,6 +8,8 @@
 
 namespace Cinemachine::Utility
 {
+	inline static constexpr unsigned int UnityRectExtensions_TypeDefinitionIndex = 39899;
+
 	class UnityRectExtensions : public ::System::Object
 	{
 	public:

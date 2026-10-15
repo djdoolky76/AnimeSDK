@@ -32,6 +32,8 @@ namespace System { class String; }
 #define GGLBEGNMMNJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E47EDD0)
 #define GGLBEGNMMNJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E47EE30)
 
+inline static constexpr unsigned int GGLBEGNMMNJ_TypeDefinitionIndex = 34225;
+
 	class GGLBEGNMMNJ : public ::System::Object
 	{
 	public:

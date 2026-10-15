@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int MonoProperty_GetterAdapter_TypeDefinitionIndex = 633;
+
 	class MonoProperty_GetterAdapter : public ::System::MulticastDelegate
 	{
 	public:

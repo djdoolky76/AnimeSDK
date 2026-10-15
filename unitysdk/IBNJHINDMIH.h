@@ -8,6 +8,8 @@
 #define IBNJHINDMIH_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x15E43580)
 #define IBNJHINDMIH_SET_PRIVILEGEPOINTS_OFFSET UNITYSDK_OFFSET(0x15E435A0)
 
+inline static constexpr unsigned int IBNJHINDMIH_TypeDefinitionIndex = 75618;
+
 	class IBNJHINDMIH : public ::System::Object
 	{
 	public:

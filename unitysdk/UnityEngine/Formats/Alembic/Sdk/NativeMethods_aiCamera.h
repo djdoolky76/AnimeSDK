@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int NativeMethods_aiCamera_TypeDefinitionIndex = 45795;
+
 	struct alignas(4) NativeMethods_aiCamera
 	{
 		static ::UnityEngine::Formats::Alembic::Sdk::aiCameraSample aiSchemaGetSample(::System::IntPtr a1)

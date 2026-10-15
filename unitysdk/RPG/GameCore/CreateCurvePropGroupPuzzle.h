@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CreateCurvePropGroupPuzzle_TypeDefinitionIndex = 22255;
+
 	class CreateCurvePropGroupPuzzle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

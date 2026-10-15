@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int HybridReferenceDictionary_2_TypeDefinitionIndex = 3665;
+
 	template <typename T1, typename T2>
 	class HybridReferenceDictionary_2 : public ::System::Object
 	{

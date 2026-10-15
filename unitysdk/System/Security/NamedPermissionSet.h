@@ -17,6 +17,8 @@ namespace System::Security { class SecurityElement; }
 
 namespace System::Security
 {
+	inline static constexpr unsigned int NamedPermissionSet_TypeDefinitionIndex = 945;
+
 	class NamedPermissionSet : public ::System::Security::PermissionSet
 	{
 	public:

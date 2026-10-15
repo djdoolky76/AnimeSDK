@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define NINEAIEIIOB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C96C8E0)
 
+inline static constexpr unsigned int NINEAIEIIOB_TypeDefinitionIndex = 42789;
+
 	class NINEAIEIIOB : public ::System::Object
 	{
 	public:

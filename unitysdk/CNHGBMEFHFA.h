@@ -7,6 +7,8 @@ class NPCIGEBNOFG;
 #define CNHGBMEFHFA_CTOR_OFFSET UNITYSDK_OFFSET(0xDA523B0)
 #define CNHGBMEFHFA_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0xDA523C0)
 
+inline static constexpr unsigned int CNHGBMEFHFA_TypeDefinitionIndex = 67117;
+
 	class CNHGBMEFHFA : public ::EBIMENNAEIE
 	{
 	public:

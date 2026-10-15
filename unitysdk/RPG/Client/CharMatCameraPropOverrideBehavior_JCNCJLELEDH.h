@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharMatCameraPropOverrideBehavior_JCNCJLELEDH_TypeDefinitionIndex = 70392;
+
 	class CharMatCameraPropOverrideBehavior_JCNCJLELEDH : public ::System::Object
 	{
 	public:

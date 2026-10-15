@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TutorialChimeraArrangementDisableDragging; }
 #define EAMDBAOAIKD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x126836D0)
 #define EAMDBAOAIKD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12683650)
 
+inline static constexpr unsigned int EAMDBAOAIKD_TypeDefinitionIndex = 58816;
+
 	class EAMDBAOAIKD
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CNNACDNLPHH_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xDA5A860)
 #define CNNACDNLPHH_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xDA5A8B0)
 
+inline static constexpr unsigned int CNNACDNLPHH_TypeDefinitionIndex = 82280;
+
 	class CNNACDNLPHH : public ::KAANKGHDHCB
 	{
 	public:

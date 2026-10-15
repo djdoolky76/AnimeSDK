@@ -33,6 +33,8 @@ namespace UnityEngine { class GameObject; }
 #define LFDEFOLDAPB_PKLPCNOJIKB_OFFSET UNITYSDK_OFFSET(0xB664B20)
 #define LFDEFOLDAPB___PERFORMLEAPSLAM_B__33_0_OFFSET UNITYSDK_OFFSET(0xB667480)
 
+inline static constexpr unsigned int LFDEFOLDAPB_TypeDefinitionIndex = 77908;
+
 	class LFDEFOLDAPB : public ::JNALBIEDNLH
 	{
 	public:

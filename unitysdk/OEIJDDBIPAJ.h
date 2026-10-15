@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 #define OEIJDDBIPAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7CD380)
 
+inline static constexpr unsigned int OEIJDDBIPAJ_TypeDefinitionIndex = 37226;
+
 	class OEIJDDBIPAJ : public ::System::Object
 	{
 	public:

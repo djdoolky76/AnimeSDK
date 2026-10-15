@@ -48,6 +48,8 @@ namespace System::Xml { class XmlResolver; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlLoader_TypeDefinitionIndex = 1908;
+
 	class XmlLoader : public ::System::Object
 	{
 	public:

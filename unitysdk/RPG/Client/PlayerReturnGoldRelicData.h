@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayerReturnGoldRelicData_TypeDefinitionIndex = 61875;
+
 	class PlayerReturnGoldRelicData : public ::System::Object
 	{
 	public:

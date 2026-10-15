@@ -51,6 +51,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ODKBNDCMMPB_SET_SKINID_OFFSET UNITYSDK_OFFSET(0xBD97A00)
 #define ODKBNDCMMPB_SET_ULTRASKILLCONFIG_OFFSET UNITYSDK_OFFSET(0xBD97A90)
 
+inline static constexpr unsigned int ODKBNDCMMPB_TypeDefinitionIndex = 57647;
+
 	class ODKBNDCMMPB : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

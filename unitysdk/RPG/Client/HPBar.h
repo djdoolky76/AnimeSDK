@@ -81,6 +81,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HPBar_TypeDefinitionIndex = 72537;
+
 	class HPBar : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:

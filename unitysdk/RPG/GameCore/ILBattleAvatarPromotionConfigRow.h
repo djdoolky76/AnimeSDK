@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ILBattleAvatarPromotionConfigRow_TypeDefinitionIndex = 13781;
+
 	class ILBattleAvatarPromotionConfigRow : public ::System::Object
 	{
 	public:

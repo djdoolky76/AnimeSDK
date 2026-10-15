@@ -3,6 +3,8 @@
 #include "unitysdk/RPG/GameCore/RtLifeBindingType.h"
 namespace System { class Object; }
 
+inline static constexpr unsigned int JPGCFEFDOAE_TypeDefinitionIndex = 54116;
+
 	struct alignas(8) JPGCFEFDOAE
 	{
 		::RPG::GameCore::RtLifeBindingType PPPOGKPOPBA; // 0x10

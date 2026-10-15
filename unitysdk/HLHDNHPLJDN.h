@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define HLHDNHPLJDN_CTOR_OFFSET UNITYSDK_OFFSET(0x15D5FAE0)
 
+inline static constexpr unsigned int HLHDNHPLJDN_TypeDefinitionIndex = 72102;
+
 	class HLHDNHPLJDN : public ::System::Attribute
 	{
 	public:

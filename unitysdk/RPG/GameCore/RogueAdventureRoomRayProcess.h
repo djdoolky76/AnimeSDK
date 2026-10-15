@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueAdventureRoomRayProcess_TypeDefinitionIndex = 22281;
+
 	class RogueAdventureRoomRayProcess : public ::RPG::GameCore::TaskConfig
 	{
 	public:

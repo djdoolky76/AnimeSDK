@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeSpaceCrisscrossIRIMonoPlugin_TSCInstanceData_TypeDefinitionIndex = 70228;
+
 	class TimeSpaceCrisscrossIRIMonoPlugin_TSCInstanceData : public ::System::Object
 	{
 	public:

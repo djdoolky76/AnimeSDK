@@ -63,6 +63,8 @@ namespace UnityEngine::UI { class Text; }
 #define LKCKHAIJMOB_PCCBKNGDAHB_OFFSET UNITYSDK_OFFSET(0xB72B0E0)
 #define LKCKHAIJMOB_PFDAKBENIJF_OFFSET UNITYSDK_OFFSET(0xB72D860)
 
+inline static constexpr unsigned int LKCKHAIJMOB_TypeDefinitionIndex = 48514;
+
 	class LKCKHAIJMOB : public ::System::Object
 	{
 	public:

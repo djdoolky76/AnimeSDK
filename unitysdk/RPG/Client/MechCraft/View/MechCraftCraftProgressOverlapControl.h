@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftProgressOverlapControl_TypeDefinitionIndex = 79941;
+
 	class MechCraftCraftProgressOverlapControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

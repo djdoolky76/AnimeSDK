@@ -8,6 +8,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int MulInstruction_MulUInt32_TypeDefinitionIndex = 3537;
+
 	class MulInstruction_MulUInt32 : public ::System::Linq::Expressions::Interpreter::MulInstruction
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int BoundsInt_TypeDefinitionIndex = 4076;
+
 	struct alignas(4) BoundsInt
 	{
 		::UnityEngine::Vector3Int m_Position; // 0x10

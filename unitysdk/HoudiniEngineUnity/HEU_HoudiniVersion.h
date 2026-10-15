@@ -6,6 +6,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_HoudiniVersion_TypeDefinitionIndex = 40525;
+
 	class HEU_HoudiniVersion : public ::System::Object
 	{
 	public:

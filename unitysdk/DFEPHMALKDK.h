@@ -36,6 +36,8 @@ namespace System { class String; }
 #define DFEPHMALKDK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1A0940)
 #define DFEPHMALKDK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1A09A0)
 
+inline static constexpr unsigned int DFEPHMALKDK_TypeDefinitionIndex = 31964;
+
 	class DFEPHMALKDK : public ::System::Object
 	{
 	public:

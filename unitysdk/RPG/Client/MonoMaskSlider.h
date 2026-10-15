@@ -30,6 +30,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoMaskSlider_TypeDefinitionIndex = 72585;
+
 	class MonoMaskSlider : public ::UnityEngine::MonoBehaviour
 	{
 	public:

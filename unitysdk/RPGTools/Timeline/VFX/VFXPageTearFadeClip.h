@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int VFXPageTearFadeClip_TypeDefinitionIndex = 48682;
+
 	class VFXPageTearFadeClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

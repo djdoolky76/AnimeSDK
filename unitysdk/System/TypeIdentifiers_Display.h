@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int TypeIdentifiers_Display_TypeDefinitionIndex = 443;
+
 	class TypeIdentifiers_Display : public ::System::TypeNames_ATypeName
 	{
 	public:

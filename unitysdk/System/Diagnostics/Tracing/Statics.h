@@ -41,6 +41,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int Statics_TypeDefinitionIndex = 1659;
+
 	class Statics : public ::System::Object
 	{
 	public:

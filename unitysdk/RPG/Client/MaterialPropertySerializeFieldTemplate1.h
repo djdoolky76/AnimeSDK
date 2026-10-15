@@ -11,6 +11,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MaterialPropertySerializeFieldTemplate1_TypeDefinitionIndex = 70656;
+
 	class MaterialPropertySerializeFieldTemplate1 : public ::UnityEngine::MonoBehaviour
 	{
 	public:

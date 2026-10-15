@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleGamePhase___c__DisplayClass55_0_TypeDefinitionIndex = 60967;
+
 	class BattleGamePhase___c__DisplayClass55_0 : public ::System::Object
 	{
 	public:

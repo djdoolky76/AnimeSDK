@@ -11,6 +11,8 @@ class BKJNLHCOLGI;
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenGiftData_TypeDefinitionIndex = 75475;
+
 	class ActivityHipplenGiftData : public ::System::Object
 	{
 	public:

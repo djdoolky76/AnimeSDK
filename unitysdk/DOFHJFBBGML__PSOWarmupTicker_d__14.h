@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DOFHJFBBGML__PSOWARMUPTICKER_D__14_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11FE5760)
 #define DOFHJFBBGML__PSOWARMUPTICKER_D__14___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x11FE57A0)
 
+inline static constexpr unsigned int DOFHJFBBGML__PSOWarmupTicker_d__14_TypeDefinitionIndex = 47426;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14>
 	class DOFHJFBBGML__PSOWarmupTicker_d__14 : public ::System::Object
 	{

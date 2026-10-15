@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleAddBullet; }
 #define CKGJLFPKCFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA12830)
 #define CKGJLFPKCFD_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1CA12840)
 
+inline static constexpr unsigned int CKGJLFPKCFD_TypeDefinitionIndex = 43111;
+
 	class CKGJLFPKCFD : public ::BKABEBEPPJK
 	{
 	public:

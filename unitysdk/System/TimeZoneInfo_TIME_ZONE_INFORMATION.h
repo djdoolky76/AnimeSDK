@@ -5,6 +5,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int TimeZoneInfo_TIME_ZONE_INFORMATION_TypeDefinitionIndex = 347;
+
 	struct alignas(8) TimeZoneInfo_TIME_ZONE_INFORMATION
 	{
 		::System::Int32 Bias; // 0x10

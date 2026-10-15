@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimSetConveyorDirectionAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetConveyorDirectionAction_TypeDefinitionIndex = 18661;
+
 	class FiveDimSetConveyorDirectionAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

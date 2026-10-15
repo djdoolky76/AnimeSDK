@@ -12,6 +12,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AssetBundleLoadingCache_TypeDefinitionIndex = 5765;
+
 	class AssetBundleLoadingCache : public ::System::Object
 	{
 	public:

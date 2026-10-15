@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_AttackDamage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_AttackDamage_TypeDefinitionIndex = 16048;
+
 	class DiceCombatTaskConfig_AttackDamage : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class OptionalRewardQuestRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OptionalRewardQuestRow_TypeDefinitionIndex = 14578;
+
 	class OptionalRewardQuestRow : public ::System::Object
 	{
 	public:

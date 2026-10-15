@@ -9,6 +9,8 @@ namespace System::Xml::Schema { class XmlSchemaSimpleType; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XsdSimpleValue_TypeDefinitionIndex = 2085;
+
 	class XsdSimpleValue : public ::System::Object
 	{
 	public:

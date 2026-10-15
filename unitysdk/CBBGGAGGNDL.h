@@ -11,6 +11,8 @@ namespace System { class String; }
 #define CBBGGAGGNDL_KDMEFAMAEJM_OFFSET UNITYSDK_OFFSET(0xC49DB20)
 #define CBBGGAGGNDL_KOGJGPJPKDF_OFFSET UNITYSDK_OFFSET(0xC49E600)
 
+inline static constexpr unsigned int CBBGGAGGNDL_TypeDefinitionIndex = 61284;
+
 	class CBBGGAGGNDL : public ::System::Object
 	{
 	public:

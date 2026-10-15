@@ -141,6 +141,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FiveDimManager_TypeDefinitionIndex = 60538;
+
 	class FiveDimManager : public ::System::Object
 	{
 	public:

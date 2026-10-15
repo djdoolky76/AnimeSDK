@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 #define DNKEOHEHEAK_KBOAICKAPLB_OFFSET UNITYSDK_OFFSET(0x11FD3930)
 #define DNKEOHEHEAK_KHDHLMENOHB_OFFSET UNITYSDK_OFFSET(0x11FD3B70)
 
+inline static constexpr unsigned int DNKEOHEHEAK_TypeDefinitionIndex = 57501;
+
 	class DNKEOHEHEAK : public ::System::Object
 	{
 	public:

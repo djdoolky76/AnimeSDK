@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TutorialGuideGroupTypeRow_TypeDefinitionIndex = 15383;
+
 	class TutorialGuideGroupTypeRow : public ::System::Object
 	{
 	public:

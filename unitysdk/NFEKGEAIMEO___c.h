@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NFEKGEAIMEO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB015F0)
 #define NFEKGEAIMEO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EB01600)
 
+inline static constexpr unsigned int NFEKGEAIMEO___c_TypeDefinitionIndex = 30656;
+
 	class NFEKGEAIMEO___c : public ::System::Object
 	{
 	public:

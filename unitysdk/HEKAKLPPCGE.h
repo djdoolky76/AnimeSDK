@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TutorialChimeraBattleShowSkillInfoLock; }
 #define HEKAKLPPCGE_HHPLCLPFPLD_OFFSET UNITYSDK_OFFSET(0x15C57B70)
 #define HEKAKLPPCGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C57B20)
 
+inline static constexpr unsigned int HEKAKLPPCGE_TypeDefinitionIndex = 58818;
+
 	class HEKAKLPPCGE
 	{
 	public:

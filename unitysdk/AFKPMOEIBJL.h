@@ -48,6 +48,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define AFKPMOEIBJL_OLENOOBHPFJ_OFFSET UNITYSDK_OFFSET(0x1C87E560)
 #define AFKPMOEIBJL_ONIBDCCPKAF_OFFSET UNITYSDK_OFFSET(0x1C87B470)
 
+inline static constexpr unsigned int AFKPMOEIBJL_TypeDefinitionIndex = 42302;
+
 	class AFKPMOEIBJL : public ::System::Object
 	{
 	public:

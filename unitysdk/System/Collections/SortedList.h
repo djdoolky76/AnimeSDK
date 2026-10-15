@@ -51,6 +51,8 @@ namespace System::Collections { class SortedList_ValueList; }
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int SortedList_TypeDefinitionIndex = 1498;
+
 	class SortedList : public ::System::Object
 	{
 	public:

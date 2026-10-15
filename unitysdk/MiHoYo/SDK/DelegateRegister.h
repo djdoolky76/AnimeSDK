@@ -14,6 +14,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int DelegateRegister_TypeDefinitionIndex = 46273;
+
 	class DelegateRegister : public ::System::Object
 	{
 	public:

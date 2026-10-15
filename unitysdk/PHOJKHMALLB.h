@@ -11,6 +11,8 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceSessionStageResu
 #define PHOJKHMALLB_BPLPBPMEODA_2_OFFSET UNITYSDK_OFFSET(0xC2589C0)
 #define PHOJKHMALLB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC258620)
 
+inline static constexpr unsigned int PHOJKHMALLB_TypeDefinitionIndex = 81488;
+
 	class PHOJKHMALLB : public ::System::Object
 	{
 	public:

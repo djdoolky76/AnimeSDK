@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PBKLNHJGMDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7EA670)
 #define PBKLNHJGMDJ_MIDKKNAGOFA_OFFSET UNITYSDK_OFFSET(0x1C7EA680)
 
+inline static constexpr unsigned int PBKLNHJGMDJ_TypeDefinitionIndex = 36383;
+
 	class PBKLNHJGMDJ : public ::IFNMPBPNBIF
 	{
 	public:

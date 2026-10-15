@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 #define MEIDOGGDELE_HLJEBPABFAD_OFFSET UNITYSDK_OFFSET(0xB8CFCC0)
 #define MEIDOGGDELE__ONBIND_OFFSET UNITYSDK_OFFSET(0xB8CFB50)
 
+inline static constexpr unsigned int MEIDOGGDELE_TypeDefinitionIndex = 72307;
+
 	class MEIDOGGDELE : public ::FMPCODLIOLG
 	{
 	public:

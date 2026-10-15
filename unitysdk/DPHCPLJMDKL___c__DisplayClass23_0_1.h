@@ -5,6 +5,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
+inline static constexpr unsigned int DPHCPLJMDKL___c__DisplayClass23_0_1_TypeDefinitionIndex = 60030;
+
 	template <typename T>
 	class DPHCPLJMDKL___c__DisplayClass23_0_1 : public ::System::Object
 	{

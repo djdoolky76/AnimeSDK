@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateRinCaseBoardMoveBaseInfo; }
 #define BPBDNMKIIKO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9F7190)
 #define BPBDNMKIIKO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9F7150)
 
+inline static constexpr unsigned int BPBDNMKIIKO_TypeDefinitionIndex = 19930;
+
 	class BPBDNMKIIKO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

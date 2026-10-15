@@ -16,6 +16,8 @@ namespace RPG::Client { class EnvironmentSystem; }
 #define STAGEHARMONYENVLINKSLOT_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xE98F7B0)
 #define STAGEHARMONYENVLINKSLOT_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xE98F8F0)
 
+inline static constexpr unsigned int StageHarmonyEnvLinkSlot_TypeDefinitionIndex = 47541;
+
 	class StageHarmonyEnvLinkSlot : public ::StageHarmonyBaseLinkSlot
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DialogueEventInfo_TypeDefinitionIndex = 21126;
+
 	class DialogueEventInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

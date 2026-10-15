@@ -35,6 +35,8 @@ namespace System::IO { class BinaryWriter; }
 #define OJMKANHHOBJ_OLGHCAMBMJA_OFFSET UNITYSDK_OFFSET(0xBEC9DE0)
 #define OJMKANHHOBJ_PENCBHKLPFG_OFFSET UNITYSDK_OFFSET(0xBEC9900)
 
+inline static constexpr unsigned int OJMKANHHOBJ_TypeDefinitionIndex = 82252;
+
 	class OJMKANHHOBJ : public ::System::Object
 	{
 	public:

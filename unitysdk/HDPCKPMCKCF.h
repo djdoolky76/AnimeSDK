@@ -5,6 +5,8 @@
 
 #define HDPCKPMCKCF_CTOR_OFFSET UNITYSDK_OFFSET(0x15C407A0)
 
+inline static constexpr unsigned int HDPCKPMCKCF_TypeDefinitionIndex = 57024;
+
 	class HDPCKPMCKCF : public ::PAJHIBDCGDG
 	{
 	public:

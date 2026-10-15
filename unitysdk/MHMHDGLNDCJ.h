@@ -11,6 +11,8 @@ namespace System { class String; }
 #define MHMHDGLNDCJ_GNPCEAPJJEP_OFFSET UNITYSDK_OFFSET(0xB946960)
 #define MHMHDGLNDCJ_PBEOADAADJO_OFFSET UNITYSDK_OFFSET(0xB946C30)
 
+inline static constexpr unsigned int MHMHDGLNDCJ_TypeDefinitionIndex = 61230;
+
 	class MHMHDGLNDCJ : public ::LCBKCCPECEN
 	{
 	public:

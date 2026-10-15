@@ -16,6 +16,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int WormCompassPuzzleRotateProxy_TypeDefinitionIndex = 78935;
+
 	class WormCompassPuzzleRotateProxy : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimDoorConfig__DoorKeyDropdown_d__11_TypeDefinitionIndex = 18599;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11>
 	class FiveDimDoorConfig__DoorKeyDropdown_d__11 : public ::System::Object
 	{

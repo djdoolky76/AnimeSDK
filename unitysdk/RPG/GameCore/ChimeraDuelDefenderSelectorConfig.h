@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraDuelDefenderSelectorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelDefenderSelectorConfig_TypeDefinitionIndex = 15907;
+
 	class ChimeraDuelDefenderSelectorConfig : public ::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters_TypeDefinitionIndex = 39083;
+
 	class IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters : public ::System::MulticastDelegate
 	{
 	public:

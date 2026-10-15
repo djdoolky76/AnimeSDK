@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAIContainModifier_TypeDefinitionIndex = 15532;
+
 	class ComplexSkillAIContainModifier : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:

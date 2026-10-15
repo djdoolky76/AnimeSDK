@@ -24,6 +24,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int MonoRoadRashGameProjectile_TypeDefinitionIndex = 75861;
+
 	class MonoRoadRashGameProjectile : public ::UnityEngine::MonoBehaviour
 	{
 	public:

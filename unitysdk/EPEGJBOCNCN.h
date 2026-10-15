@@ -6,6 +6,8 @@
 
 #define EPEGJBOCNCN_CTOR_OFFSET UNITYSDK_OFFSET(0x155A0ED0)
 
+inline static constexpr unsigned int EPEGJBOCNCN_TypeDefinitionIndex = 80581;
+
 	class EPEGJBOCNCN : public ::System::Object
 	{
 	public:

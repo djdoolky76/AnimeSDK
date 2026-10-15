@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define EBGMOALCIEA_ONENUMBLOCKITEMS_OFFSET UNITYSDK_OFFSET(0x12CEFE20)
 #define EBGMOALCIEA___N__0_OFFSET UNITYSDK_OFFSET(0x12CEFF00)
 
+inline static constexpr unsigned int EBGMOALCIEA_TypeDefinitionIndex = 59492;
+
 	class EBGMOALCIEA : public ::BMNJKMDDACL
 	{
 	public:

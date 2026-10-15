@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int APMC_LOGBACK_LogNativeRetrieveConfig_TypeDefinitionIndex = 46504;
+
 	struct alignas(4) APMC_LOGBACK_LogNativeRetrieveConfig
 	{
 		::System::IntPtr log_upload_start; // 0x10

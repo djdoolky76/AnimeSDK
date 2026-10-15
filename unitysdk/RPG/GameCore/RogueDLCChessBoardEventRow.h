@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueDLCChessBoardEventRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLCChessBoardEventRow_TypeDefinitionIndex = 14772;
+
 	class RogueDLCChessBoardEventRow : public ::System::Object
 	{
 	public:

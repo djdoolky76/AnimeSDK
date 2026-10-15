@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournFormulaAeonIconRow_TypeDefinitionIndex = 15009;
+
 	class RogueTournFormulaAeonIconRow : public ::System::Object
 	{
 	public:

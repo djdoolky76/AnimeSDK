@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByPreShowRedStanceBreak_TypeDefinitionIndex = 23540;
+
 	class ByPreShowRedStanceBreak : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

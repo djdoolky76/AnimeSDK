@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EnableLocalPlayerMoveIgnoreMonster; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnableLocalPlayerMoveIgnoreMonster_TypeDefinitionIndex = 20190;
+
 	class EnableLocalPlayerMoveIgnoreMonster : public ::RPG::GameCore::TaskConfig
 	{
 	public:

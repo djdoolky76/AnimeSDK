@@ -8,6 +8,8 @@ namespace RPG::Client { class ActivityRewardUtils_QuestCheckerFunc; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityRewardUtils___c__DisplayClass21_0_TypeDefinitionIndex = 61751;
+
 	class ActivityRewardUtils___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

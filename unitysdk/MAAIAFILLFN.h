@@ -27,6 +27,8 @@ namespace System { class String; }
 #define MAAIAFILLFN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9D5AB0)
 #define MAAIAFILLFN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9D5B10)
 
+inline static constexpr unsigned int MAAIAFILLFN_TypeDefinitionIndex = 29980;
+
 	class MAAIAFILLFN : public ::System::Object
 	{
 	public:

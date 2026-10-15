@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DiscreteBar_TypeDefinitionIndex = 72525;
+
 	class DiscreteBar : public ::UnityEngine::MonoBehaviour
 	{
 	public:

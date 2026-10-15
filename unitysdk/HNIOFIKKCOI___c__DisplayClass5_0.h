@@ -6,6 +6,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define HNIOFIKKCOI___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6716A0)
 #define HNIOFIKKCOI___C__DISPLAYCLASS5_0___FILTERCATVALUEMAPBYEXTREM_B__0_OFFSET UNITYSDK_OFFSET(0x1C674310)
 
+inline static constexpr unsigned int HNIOFIKKCOI___c__DisplayClass5_0_TypeDefinitionIndex = 37340;
+
 	class HNIOFIKKCOI___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

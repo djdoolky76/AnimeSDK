@@ -4,6 +4,8 @@
 
 #define PDCOJGIJMEP_CTOR_OFFSET UNITYSDK_OFFSET(0xC00D980)
 
+inline static constexpr unsigned int PDCOJGIJMEP_TypeDefinitionIndex = 48372;
+
 	class PDCOJGIJMEP : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

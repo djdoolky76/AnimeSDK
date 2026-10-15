@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAbilityAttributeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityAttributeConfig_TypeDefinitionIndex = 21335;
+
 	class LittleGameAbilityAttributeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

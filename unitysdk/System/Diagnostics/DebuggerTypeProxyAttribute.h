@@ -8,6 +8,8 @@ namespace System { class Type; }
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int DebuggerTypeProxyAttribute_TypeDefinitionIndex = 1580;
+
 	class DebuggerTypeProxyAttribute : public ::System::Attribute
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int IConvertible_TypeDefinitionIndex = 276;
+
 	class IConvertible
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LittleGameEvent; }
 #define BPPMOBDMFAB_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C8DBAC0)
 #define BPPMOBDMFAB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DBC00)
 
+inline static constexpr unsigned int BPPMOBDMFAB_TypeDefinitionIndex = 43312;
+
 	class BPPMOBDMFAB : public ::System::Object
 	{
 	public:

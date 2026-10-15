@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int FAKGHKIKHAP_TypeDefinitionIndex = 26994;
+
 	enum class FAKGHKIKHAP : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

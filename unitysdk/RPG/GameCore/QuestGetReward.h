@@ -11,6 +11,8 @@ namespace RPG::GameCore { class QuestGetReward; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int QuestGetReward_TypeDefinitionIndex = 21884;
+
 	class QuestGetReward : public ::RPG::GameCore::TaskConfig
 	{
 	public:

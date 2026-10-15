@@ -15,6 +15,8 @@ namespace System::Runtime::Remoting { class ObjRef; }
 
 namespace System::Runtime::Remoting
 {
+	inline static constexpr unsigned int ClientIdentity_TypeDefinitionIndex = 1209;
+
 	class ClientIdentity : public ::System::Runtime::Remoting::Identity
 	{
 	public:

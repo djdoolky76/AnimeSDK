@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ServantOverrideConfig_TypeDefinitionIndex = 16522;
+
 	class ServantOverrideConfig : public ::RPG::GameCore::ServantConfig
 	{
 	public:

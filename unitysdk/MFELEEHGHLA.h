@@ -33,6 +33,8 @@ namespace System { class String; }
 #define MFELEEHGHLA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA18820)
 #define MFELEEHGHLA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA18880)
 
+inline static constexpr unsigned int MFELEEHGHLA_TypeDefinitionIndex = 26133;
+
 	class MFELEEHGHLA : public ::System::Object
 	{
 	public:

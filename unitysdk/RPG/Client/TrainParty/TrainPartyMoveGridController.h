@@ -17,6 +17,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyMoveGridController_TypeDefinitionIndex = 74280;
+
 	class TrainPartyMoveGridController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

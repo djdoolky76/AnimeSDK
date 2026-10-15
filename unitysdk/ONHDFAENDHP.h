@@ -10,6 +10,8 @@ namespace RPGTools::Timeline { class CharacterStoryMoveStopData; }
 #define ONHDFAENDHP_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xBF56C00)
 #define ONHDFAENDHP_PREPAREFRAME_OFFSET UNITYSDK_OFFSET(0xBF56CD0)
 
+inline static constexpr unsigned int ONHDFAENDHP_TypeDefinitionIndex = 48015;
+
 	class ONHDFAENDHP : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

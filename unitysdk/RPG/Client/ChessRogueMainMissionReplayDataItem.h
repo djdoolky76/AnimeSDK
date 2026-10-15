@@ -27,6 +27,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChessRogueMainMissionReplayDataItem_TypeDefinitionIndex = 66968;
+
 	class ChessRogueMainMissionReplayDataItem : public ::System::Object
 	{
 	public:

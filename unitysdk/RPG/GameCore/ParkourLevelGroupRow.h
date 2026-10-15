@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ParkourLevelGroupRow_TypeDefinitionIndex = 12095;
+
 	class ParkourLevelGroupRow : public ::System::Object
 	{
 	public:

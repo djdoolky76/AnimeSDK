@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define BMOPCGJJIPL_UPDATEREMOVEROLE_OFFSET UNITYSDK_OFFSET(0xBDC40C0)
 #define BMOPCGJJIPL_UPDATESHOP_OFFSET UNITYSDK_OFFSET(0xBDC4050)
 
+inline static constexpr unsigned int BMOPCGJJIPL_TypeDefinitionIndex = 64389;
+
 	class BMOPCGJJIPL : public ::AMCOEFHHBPO
 	{
 	public:

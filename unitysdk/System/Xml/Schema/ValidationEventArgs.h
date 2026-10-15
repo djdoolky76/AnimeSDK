@@ -9,6 +9,8 @@ namespace System::Xml::Schema { class XmlSchemaException; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int ValidationEventArgs_TypeDefinitionIndex = 2178;
+
 	class ValidationEventArgs : public ::System::EventArgs
 	{
 	public:

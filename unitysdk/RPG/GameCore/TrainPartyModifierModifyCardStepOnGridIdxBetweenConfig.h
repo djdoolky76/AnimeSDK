@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyModifierModifyCardStepOnGridIdxBetween
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyModifierModifyCardStepOnGridIdxBetweenConfig_TypeDefinitionIndex = 18113;
+
 	class TrainPartyModifierModifyCardStepOnGridIdxBetweenConfig : public ::RPG::GameCore::TrainPartyModifierConfigBase
 	{
 	public:

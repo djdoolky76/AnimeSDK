@@ -44,6 +44,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EvolveBuildCollectionGearDisplayData_TypeDefinitionIndex = 63788;
+
 	class EvolveBuildCollectionGearDisplayData : public ::System::Object
 	{
 	public:

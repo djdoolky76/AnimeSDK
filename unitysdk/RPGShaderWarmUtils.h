@@ -7,6 +7,8 @@ namespace System { class String; }
 #define RPGSHADERWARMUTILS_ISENABLESHADERMEMTESTCONFIG_OFFSET UNITYSDK_OFFSET(0x1CC7FF80)
 #define RPGSHADERWARMUTILS_SWITCHSHADERMEMTESTFILE_OFFSET UNITYSDK_OFFSET(0x1CC80070)
 
+inline static constexpr unsigned int RPGShaderWarmUtils_TypeDefinitionIndex = 37481;
+
 	class RPGShaderWarmUtils : public ::System::Object
 	{
 	public:

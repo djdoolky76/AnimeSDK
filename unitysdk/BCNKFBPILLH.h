@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class Image; }
 #define BCNKFBPILLH_NFHJDCECMOD_OFFSET UNITYSDK_OFFSET(0x162E91E0)
 #define BCNKFBPILLH__ONBIND_OFFSET UNITYSDK_OFFSET(0x162E9000)
 
+inline static constexpr unsigned int BCNKFBPILLH_TypeDefinitionIndex = 71623;
+
 	class BCNKFBPILLH : public ::FMPCODLIOLG
 	{
 	public:

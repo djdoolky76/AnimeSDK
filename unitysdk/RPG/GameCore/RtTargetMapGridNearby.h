@@ -16,6 +16,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtTargetMapGridNearby_TypeDefinitionIndex = 24254;
+
 	class RtTargetMapGridNearby : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:

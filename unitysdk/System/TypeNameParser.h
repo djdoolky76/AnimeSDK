@@ -13,6 +13,8 @@ namespace System::Reflection { class AssemblyName; }
 
 namespace System
 {
+	inline static constexpr unsigned int TypeNameParser_TypeDefinitionIndex = 377;
+
 	class TypeNameParser : public ::System::Object
 	{
 	public:

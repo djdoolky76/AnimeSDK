@@ -11,6 +11,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri { class TriangulationPoint; }
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
+	inline static constexpr unsigned int AdvancingFrontNode_TypeDefinitionIndex = 38739;
+
 	class AdvancingFrontNode : public ::System::Object
 	{
 	public:

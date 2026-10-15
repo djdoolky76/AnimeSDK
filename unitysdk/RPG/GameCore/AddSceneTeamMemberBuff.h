@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AddSceneTeamMemberBuff; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddSceneTeamMemberBuff_TypeDefinitionIndex = 20421;
+
 	class AddSceneTeamMemberBuff : public ::RPG::GameCore::TaskConfig
 	{
 	public:

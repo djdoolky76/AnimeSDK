@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int SnapshotReceiveSystem_1_TypeDefinitionIndex = 36930;
+
 	template <typename T>
 	class SnapshotReceiveSystem_1 : public ::System::Object
 	{

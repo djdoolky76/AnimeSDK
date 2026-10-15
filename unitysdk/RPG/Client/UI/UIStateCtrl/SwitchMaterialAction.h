@@ -37,6 +37,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client::UI::UIStateCtrl
 {
+	inline static constexpr unsigned int SwitchMaterialAction_TypeDefinitionIndex = 74058;
+
 	class SwitchMaterialAction : public ::RPG::Client::UI::UIStateCtrl::AsyncAction
 	{
 	public:

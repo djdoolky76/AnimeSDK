@@ -27,6 +27,8 @@ namespace UnityEngine { class Sprite; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int SpriteMask_TypeDefinitionIndex = 5823;
+
 	class SpriteMask : public ::UnityEngine::Renderer
 	{
 	public:

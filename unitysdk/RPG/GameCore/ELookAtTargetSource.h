@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ELookAtTargetSource_TypeDefinitionIndex = 57304;
+
 	enum class ELookAtTargetSource : ::System::Int32
 	{
 		Unknown = 0,

@@ -8,6 +8,8 @@ namespace RPG::Client { class ActivityPhotoExhibitionGroupData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityPhotoExhibitionModule___c__DisplayClass3_0_TypeDefinitionIndex = 61731;
+
 	class ActivityPhotoExhibitionModule___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

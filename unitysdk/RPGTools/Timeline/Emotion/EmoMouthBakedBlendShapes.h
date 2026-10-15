@@ -7,6 +7,8 @@
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int EmoMouthBakedBlendShapes_TypeDefinitionIndex = 48769;
+
 	class EmoMouthBakedBlendShapes : public ::System::Object
 	{
 	public:

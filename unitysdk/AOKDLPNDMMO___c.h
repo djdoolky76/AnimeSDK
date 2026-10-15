@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define AOKDLPNDMMO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8A17D0)
 #define AOKDLPNDMMO___C__GETLAUNCHRESULT_B__8_0_OFFSET UNITYSDK_OFFSET(0x1C8A17E0)
 
+inline static constexpr unsigned int AOKDLPNDMMO___c_TypeDefinitionIndex = 43078;
+
 	class AOKDLPNDMMO___c : public ::System::Object
 	{
 	public:

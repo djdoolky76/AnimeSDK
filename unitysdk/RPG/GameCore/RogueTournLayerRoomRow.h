@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournLayerRoomRow_TypeDefinitionIndex = 14958;
+
 	class RogueTournLayerRoomRow : public ::System::Object
 	{
 	public:

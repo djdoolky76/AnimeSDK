@@ -30,6 +30,8 @@ namespace UnityEngine { class Animator; }
 #define GKOBBBBPJKK_PKPILICMLIJ_OFFSET UNITYSDK_OFFSET(0x15AA6E90)
 #define GKOBBBBPJKK_SET_ENABLEANIMATORMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0x15AA7AD0)
 
+inline static constexpr unsigned int GKOBBBBPJKK_TypeDefinitionIndex = 78697;
+
 	class GKOBBBBPJKK : public ::System::Object
 	{
 	public:

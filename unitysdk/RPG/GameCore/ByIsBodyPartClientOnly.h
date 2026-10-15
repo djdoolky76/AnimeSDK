@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsBodyPartClientOnly_TypeDefinitionIndex = 23313;
+
 	class ByIsBodyPartClientOnly : public ::RPG::GameCore::ByIsBodyPart
 	{
 	public:

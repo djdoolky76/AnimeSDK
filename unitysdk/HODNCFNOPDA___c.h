@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HODNCFNOPDA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5E7250)
 #define HODNCFNOPDA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E5E7260)
 
+inline static constexpr unsigned int HODNCFNOPDA___c_TypeDefinitionIndex = 27854;
+
 	class HODNCFNOPDA___c : public ::System::Object
 	{
 	public:

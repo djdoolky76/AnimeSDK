@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EENGOMFCDEI_SET_PAUSECAT_OFFSET UNITYSDK_OFFSET(0x1C5FB790)
 #define EENGOMFCDEI_SET_TIMEDYNAMICSCALE_OFFSET UNITYSDK_OFFSET(0x1C5FB770)
 
+inline static constexpr unsigned int EENGOMFCDEI_TypeDefinitionIndex = 37450;
+
 	class EENGOMFCDEI : public ::System::Object
 	{
 	public:

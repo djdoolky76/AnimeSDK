@@ -45,6 +45,8 @@ namespace System { class String; }
 
 namespace RPG::Client::NavMap::FiveDim
 {
+	inline static constexpr unsigned int MissionIcon_TypeDefinitionIndex = 74675;
+
 	class MissionIcon : public ::System::Object
 	{
 	public:

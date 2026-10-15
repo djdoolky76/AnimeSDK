@@ -11,6 +11,8 @@ namespace MessagePack { class MessagePackPrimitives_Decoders_ReadInt64FixInt; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MessagePackPrimitives_Decoders_ReadInt64FixInt_TypeDefinitionIndex = 7178;
+
 	class MessagePackPrimitives_Decoders_ReadInt64FixInt : public ::System::Object
 	{
 	public:

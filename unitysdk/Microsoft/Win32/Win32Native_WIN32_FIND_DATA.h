@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace Microsoft::Win32
 {
+	inline static constexpr unsigned int Win32Native_WIN32_FIND_DATA_TypeDefinitionIndex = 113;
+
 	class Win32Native_WIN32_FIND_DATA : public ::System::Object
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System { class String; }
 #define HHPILEGPJKC_GET_MESSAGEFORMAT_OFFSET UNITYSDK_OFFSET(0x1C532B50)
 #define HHPILEGPJKC_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x1C532B20)
 
+inline static constexpr unsigned int HHPILEGPJKC_TypeDefinitionIndex = 41610;
+
 	class HHPILEGPJKC : public ::System::Object
 	{
 	public:

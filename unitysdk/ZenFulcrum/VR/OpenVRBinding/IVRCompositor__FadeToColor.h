@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRCompositor__FadeToColor_TypeDefinitionIndex = 39027;
+
 	class IVRCompositor__FadeToColor : public ::System::MulticastDelegate
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Reflection { class ParameterInfo; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int DynamicGenericResolverGetFormatterHelper___c__DisplayClass1_0_TypeDefinitionIndex = 7311;
+
 	class DynamicGenericResolverGetFormatterHelper___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

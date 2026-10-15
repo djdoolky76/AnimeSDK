@@ -5,6 +5,8 @@
 #define ILJBKKCHDDP_CTOR_OFFSET UNITYSDK_OFFSET(0x164BB3C0)
 #define ILJBKKCHDDP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x164BB350)
 
+inline static constexpr unsigned int ILJBKKCHDDP_TypeDefinitionIndex = 73897;
+
 	class ILJBKKCHDDP
 	{
 	public:

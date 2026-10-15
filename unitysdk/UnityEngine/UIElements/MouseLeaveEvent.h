@@ -7,6 +7,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int MouseLeaveEvent_TypeDefinitionIndex = 5966;
+
 	class MouseLeaveEvent
 	{
 	public:

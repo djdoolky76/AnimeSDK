@@ -12,6 +12,8 @@
 #define JJGBKDLGDFN_PAFCMAMJENB_OFFSET UNITYSDK_OFFSET(0x1C6FF9F0)
 #define JJGBKDLGDFN_PMMNBAJPPKG_OFFSET UNITYSDK_OFFSET(0x1C6FFB00)
 
+inline static constexpr unsigned int JJGBKDLGDFN_TypeDefinitionIndex = 37246;
+
 	class JJGBKDLGDFN : public ::System::Object
 	{
 	public:

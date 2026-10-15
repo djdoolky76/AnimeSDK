@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define HBPJOJJIPPM_LNIMKEADCGB_OFFSET UNITYSDK_OFFSET(0x15C13CE0)
 #define HBPJOJJIPPM_SET_ISENDED_OFFSET UNITYSDK_OFFSET(0x15C13C80)
 
+inline static constexpr unsigned int HBPJOJJIPPM_TypeDefinitionIndex = 68933;
+
 	class HBPJOJJIPPM : public ::System::Object
 	{
 	public:

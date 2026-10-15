@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
+	inline static constexpr unsigned int PSProductManager___c_TypeDefinitionIndex = 8848;
+
 	class PSProductManager___c : public ::System::Object
 	{
 	public:

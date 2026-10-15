@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MatchThreePieceExcelTable_TypeDefinitionIndex = 11914;
+
 	class MatchThreePieceExcelTable : public ::System::Object
 	{
 	public:

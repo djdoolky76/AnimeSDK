@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Side_SearchSmartObject; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_SearchSmartObject_TypeDefinitionIndex = 20113;
+
 	class ST_Side_SearchSmartObject : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

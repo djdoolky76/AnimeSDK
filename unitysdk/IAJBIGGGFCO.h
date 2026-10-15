@@ -5,6 +5,8 @@
 
 #define IAJBIGGGFCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB06200)
 
+inline static constexpr unsigned int IAJBIGGGFCO_TypeDefinitionIndex = 43303;
+
 	class IAJBIGGGFCO : public ::System::Object
 	{
 	public:

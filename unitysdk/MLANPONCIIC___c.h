@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MLANPONCIIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA7D8E0)
 #define MLANPONCIIC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EA7D8F0)
 
+inline static constexpr unsigned int MLANPONCIIC___c_TypeDefinitionIndex = 32560;
+
 	class MLANPONCIIC___c : public ::System::Object
 	{
 	public:

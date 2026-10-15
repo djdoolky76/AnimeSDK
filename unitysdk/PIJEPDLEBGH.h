@@ -13,6 +13,8 @@ namespace RPG::GameCore { class WaitInfiniteWaveRefresh; }
 #define PIJEPDLEBGH_OPDLLNNEBPF_OFFSET UNITYSDK_OFFSET(0xC269C40)
 #define PIJEPDLEBGH_TICK_OFFSET UNITYSDK_OFFSET(0xC269860)
 
+inline static constexpr unsigned int PIJEPDLEBGH_TypeDefinitionIndex = 55116;
+
 	class PIJEPDLEBGH : public ::GELIALJDFBL
 	{
 	public:

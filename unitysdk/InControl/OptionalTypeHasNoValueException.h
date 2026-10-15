@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int OptionalTypeHasNoValueException_TypeDefinitionIndex = 40904;
+
 	class OptionalTypeHasNoValueException : public ::System::SystemException
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::Discussion
 {
+	inline static constexpr unsigned int StandTemplateUsageInfo_TypeDefinitionIndex = 48779;
+
 	class StandTemplateUsageInfo : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define FIKIBJDOEGP___C__GETCOMBATPOWER_B__3_0_OFFSET UNITYSDK_OFFSET(0x157ABFB0)
 #define FIKIBJDOEGP___C__GETCOMBATPOWER_B__3_1_OFFSET UNITYSDK_OFFSET(0x157ABFC0)
 
+inline static constexpr unsigned int FIKIBJDOEGP___c_TypeDefinitionIndex = 62566;
+
 	class FIKIBJDOEGP___c : public ::System::Object
 	{
 	public:

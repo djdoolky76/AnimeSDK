@@ -4,6 +4,8 @@
 
 namespace System::Diagnostics::Contracts
 {
+	inline static constexpr unsigned int Contract_TypeDefinitionIndex = 1586;
+
 	class Contract : public ::System::Object
 	{
 	public:

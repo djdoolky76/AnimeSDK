@@ -32,6 +32,8 @@ namespace System { class String; }
 #define MGBKBIKLJDN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA20DB0)
 #define MGBKBIKLJDN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA20E10)
 
+inline static constexpr unsigned int MGBKBIKLJDN_TypeDefinitionIndex = 30220;
+
 	class MGBKBIKLJDN : public ::System::Object
 	{
 	public:

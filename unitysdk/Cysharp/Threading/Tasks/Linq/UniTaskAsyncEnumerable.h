@@ -61,6 +61,8 @@ namespace System { class Nullable; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int UniTaskAsyncEnumerable_TypeDefinitionIndex = 45184;
+
 	class UniTaskAsyncEnumerable : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int RegexCharClass_LowerCaseMapping_TypeDefinitionIndex = 2507;
+
 	struct alignas(4) RegexCharClass_LowerCaseMapping
 	{
 		::System::Char _chMin; // 0x10

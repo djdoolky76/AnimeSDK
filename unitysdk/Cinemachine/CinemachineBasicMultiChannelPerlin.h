@@ -16,6 +16,8 @@ namespace Cinemachine { class NoiseSettings; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineBasicMultiChannelPerlin_TypeDefinitionIndex = 39770;
+
 	class CinemachineBasicMultiChannelPerlin : public ::Cinemachine::CinemachineComponentBase
 	{
 	public:

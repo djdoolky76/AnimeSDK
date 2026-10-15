@@ -10,6 +10,8 @@ namespace System::Xml { class XmlNode; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlNodeChangedEventArgs_TypeDefinitionIndex = 1915;
+
 	class XmlNodeChangedEventArgs : public ::System::EventArgs
 	{
 	public:

@@ -345,6 +345,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightModule_TypeDefinitionIndex = 64866;
+
 	class GridFightModule : public ::RPG::Client::BaseModule
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define OMPIHNGPLJO__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xBF499C0)
 #define OMPIHNGPLJO__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xBF49A80)
 
+inline static constexpr unsigned int OMPIHNGPLJO_TypeDefinitionIndex = 53013;
+
 	class OMPIHNGPLJO
 	{
 	public:

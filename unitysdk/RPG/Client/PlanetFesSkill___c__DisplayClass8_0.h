@@ -8,6 +8,8 @@ namespace RPG::Client { class PlanetFesSkill; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesSkill___c__DisplayClass8_0_TypeDefinitionIndex = 66631;
+
 	class PlanetFesSkill___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

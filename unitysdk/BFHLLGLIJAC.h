@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BFHLLGLIJAC_LHLALAKKKKJ_OFFSET UNITYSDK_OFFSET(0xB164320)
 #define BFHLLGLIJAC_OCHBPHJEPAM_OFFSET UNITYSDK_OFFSET(0xB164400)
 
+inline static constexpr unsigned int BFHLLGLIJAC_TypeDefinitionIndex = 63519;
+
 	class BFHLLGLIJAC : public ::System::Object
 	{
 	public:

@@ -36,6 +36,8 @@ namespace System { class String; }
 #define IPHMMEIDKHM_PODLKOGHGMA_1_OFFSET UNITYSDK_OFFSET(0x1C4A43B0)
 #define IPHMMEIDKHM_PODLKOGHGMA_OFFSET UNITYSDK_OFFSET(0x1C4A4320)
 
+inline static constexpr unsigned int IPHMMEIDKHM_TypeDefinitionIndex = 41414;
+
 	class IPHMMEIDKHM : public ::System::Object
 	{
 	public:

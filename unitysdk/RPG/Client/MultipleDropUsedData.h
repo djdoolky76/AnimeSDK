@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MultipleDropUsedData_TypeDefinitionIndex = 66317;
+
 	class MultipleDropUsedData : public ::System::Object
 	{
 	public:

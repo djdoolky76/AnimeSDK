@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FKHJLDPKMPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x157FAAD0)
 #define FKHJLDPKMPG___C___CLOSESCREENTRANSFER_B__24_0_OFFSET UNITYSDK_OFFSET(0x157FAAE0)
 
+inline static constexpr unsigned int FKHJLDPKMPG___c_TypeDefinitionIndex = 66134;
+
 	class FKHJLDPKMPG___c : public ::System::Object
 	{
 	public:

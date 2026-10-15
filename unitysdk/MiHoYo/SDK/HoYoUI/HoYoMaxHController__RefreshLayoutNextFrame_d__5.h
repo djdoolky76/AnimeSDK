@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::HoYoUI
 {
+	inline static constexpr unsigned int HoYoMaxHController__RefreshLayoutNextFrame_d__5_TypeDefinitionIndex = 46712;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5>
 	class HoYoMaxHController__RefreshLayoutNextFrame_d__5 : public ::System::Object
 	{

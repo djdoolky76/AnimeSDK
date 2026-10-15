@@ -6,6 +6,8 @@ class LBJLBMOOJGM;
 #define CINADEAHKGD_CTOR_OFFSET UNITYSDK_OFFSET(0xCF8ECE0)
 #define CINADEAHKGD_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xCF8E780)
 
+inline static constexpr unsigned int CINADEAHKGD_TypeDefinitionIndex = 81439;
+
 	class CINADEAHKGD : public ::System::Object
 	{
 	public:

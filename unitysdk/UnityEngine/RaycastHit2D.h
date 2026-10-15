@@ -10,6 +10,8 @@ namespace UnityEngine { class Collider2D; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RaycastHit2D_TypeDefinitionIndex = 5811;
+
 	struct alignas(4) RaycastHit2D
 	{
 		::UnityEngine::Vector2 m_Centroid; // 0x10

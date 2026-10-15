@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EBJCNGMPPJM_CTOR_OFFSET UNITYSDK_OFFSET(0x12CFF810)
 #define EBJCNGMPPJM_EXECUTE_OFFSET UNITYSDK_OFFSET(0x12CFF400)
 
+inline static constexpr unsigned int EBJCNGMPPJM_TypeDefinitionIndex = 77354;
+
 	class EBJCNGMPPJM : public ::System::Object
 	{
 	public:

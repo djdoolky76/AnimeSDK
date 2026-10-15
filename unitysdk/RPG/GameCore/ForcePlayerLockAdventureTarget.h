@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ForcePlayerLockAdventureTarget; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ForcePlayerLockAdventureTarget_TypeDefinitionIndex = 24279;
+
 	class ForcePlayerLockAdventureTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:

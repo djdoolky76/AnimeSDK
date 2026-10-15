@@ -14,6 +14,8 @@ namespace RPG::Client::LittleGame { class Match3EnergyViewStateBuffer; }
 #define LCFHLNGEJOG_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB6144B0)
 #define LCFHLNGEJOG_PFMFPOLDNKN_OFFSET UNITYSDK_OFFSET(0xB614510)
 
+inline static constexpr unsigned int LCFHLNGEJOG_TypeDefinitionIndex = 65872;
+
 	class LCFHLNGEJOG : public ::MLKDDLHNNHH
 	{
 	public:

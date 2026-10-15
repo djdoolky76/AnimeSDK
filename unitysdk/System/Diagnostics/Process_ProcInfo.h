@@ -4,6 +4,8 @@ namespace System { class String; }
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int Process_ProcInfo_TypeDefinitionIndex = 2549;
+
 	struct alignas(8) Process_ProcInfo
 	{
 		::System::IntPtr process_handle; // 0x10

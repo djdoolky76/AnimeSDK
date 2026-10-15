@@ -9,6 +9,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int UIVertex_TypeDefinitionIndex = 5055;
+
 	struct alignas(4) UIVertex
 	{
 		::UnityEngine::Vector3 position; // 0x10

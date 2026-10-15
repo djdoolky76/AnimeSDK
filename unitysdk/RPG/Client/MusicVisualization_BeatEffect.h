@@ -29,6 +29,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MusicVisualization_BeatEffect_TypeDefinitionIndex = 70799;
+
 	class MusicVisualization_BeatEffect : public ::RPG::Client::MusicVisualization_BeatEffectBase
 	{
 	public:

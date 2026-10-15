@@ -22,6 +22,8 @@ namespace UnityEngine { class AvatarMask; }
 #define OODAGDPHPJD_KDCPINKDNFK_OFFSET UNITYSDK_OFFSET(0xBF71730)
 #define OODAGDPHPJD_OFCFJCBHKNB_OFFSET UNITYSDK_OFFSET(0xBF719D0)
 
+inline static constexpr unsigned int OODAGDPHPJD_TypeDefinitionIndex = 73565;
+
 	class OODAGDPHPJD : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK::Protobuf
 {
+	inline static constexpr unsigned int JsonFormatter_OriginalEnumValueHelper_TypeDefinitionIndex = 35727;
+
 	class JsonFormatter_OriginalEnumValueHelper : public ::System::Object
 	{
 	public:

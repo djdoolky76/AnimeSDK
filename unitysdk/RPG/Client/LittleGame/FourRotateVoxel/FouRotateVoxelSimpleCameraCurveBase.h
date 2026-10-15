@@ -41,6 +41,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
+	inline static constexpr unsigned int FouRotateVoxelSimpleCameraCurveBase_TypeDefinitionIndex = 76848;
+
 	class FouRotateVoxelSimpleCameraCurveBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

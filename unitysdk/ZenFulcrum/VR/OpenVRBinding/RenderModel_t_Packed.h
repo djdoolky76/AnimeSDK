@@ -7,6 +7,8 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int RenderModel_t_Packed_TypeDefinitionIndex = 39323;
+
 	struct alignas(4) RenderModel_t_Packed
 	{
 		::System::IntPtr rVertexData; // 0x10

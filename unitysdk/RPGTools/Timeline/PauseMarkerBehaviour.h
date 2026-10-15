@@ -14,6 +14,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int PauseMarkerBehaviour_TypeDefinitionIndex = 48220;
+
 	class PauseMarkerBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

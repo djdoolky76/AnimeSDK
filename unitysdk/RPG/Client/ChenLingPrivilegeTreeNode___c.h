@@ -12,6 +12,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChenLingPrivilegeTreeNode___c_TypeDefinitionIndex = 61446;
+
 	class ChenLingPrivilegeTreeNode___c : public ::System::Object
 	{
 	public:

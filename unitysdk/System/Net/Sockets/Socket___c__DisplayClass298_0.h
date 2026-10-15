@@ -10,6 +10,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Net::Sockets
 {
+	inline static constexpr unsigned int Socket___c__DisplayClass298_0_TypeDefinitionIndex = 2906;
+
 	class Socket___c__DisplayClass298_0 : public ::System::Object
 	{
 	public:

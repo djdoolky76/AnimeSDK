@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int EmojiBubbleBehaviour_TypeDefinitionIndex = 48097;
+
 	class EmojiBubbleBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define JEBPFBNCALB_LDKMIKEMHFO_OFFSET UNITYSDK_OFFSET(0x1C53C3A0)
 #define JEBPFBNCALB_REMOVE_ONPROGRESSCHANGED_OFFSET UNITYSDK_OFFSET(0x1C54D9A0)
 
+inline static constexpr unsigned int JEBPFBNCALB_TypeDefinitionIndex = 41840;
+
 	class JEBPFBNCALB : public ::System::Object
 	{
 	public:

@@ -76,6 +76,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 #define PLELPMFHKMO_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xC2F2910)
 #define PLELPMFHKMO__POSTINIT_B__18_0_OFFSET UNITYSDK_OFFSET(0xC2F7CB0)
 
+inline static constexpr unsigned int PLELPMFHKMO_TypeDefinitionIndex = 49343;
+
 	class PLELPMFHKMO : public ::IACMAMNKKNA
 	{
 	public:

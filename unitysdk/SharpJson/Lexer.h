@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace SharpJson
 {
+	inline static constexpr unsigned int Lexer_TypeDefinitionIndex = 39590;
+
 	class Lexer : public ::System::Object
 	{
 	public:

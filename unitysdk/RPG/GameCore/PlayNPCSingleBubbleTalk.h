@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayNPCSingleBubbleTalk_TypeDefinitionIndex = 21597;
+
 	class PlayNPCSingleBubbleTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

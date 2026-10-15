@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TarotWikiSubTitle_TypeDefinitionIndex = 68078;
+
 	class TarotWikiSubTitle : public ::System::Object
 	{
 	public:

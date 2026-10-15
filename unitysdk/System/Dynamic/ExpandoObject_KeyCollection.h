@@ -21,6 +21,8 @@ namespace System::Dynamic { class ExpandoObject_ExpandoData; }
 
 namespace System::Dynamic
 {
+	inline static constexpr unsigned int ExpandoObject_KeyCollection_TypeDefinitionIndex = 3677;
+
 	class ExpandoObject_KeyCollection : public ::System::Object
 	{
 	public:

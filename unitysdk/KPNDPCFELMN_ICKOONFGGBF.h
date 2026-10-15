@@ -6,6 +6,8 @@ namespace System::Text { class StringBuilder; }
 
 #define KPNDPCFELMN_ICKOONFGGBF_CTOR_OFFSET UNITYSDK_OFFSET(0xB5C4C50)
 
+inline static constexpr unsigned int KPNDPCFELMN_ICKOONFGGBF_TypeDefinitionIndex = 69488;
+
 	class KPNDPCFELMN_ICKOONFGGBF : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine { class Renderer; }
 #define IMPABJLBFGK_PGJGDNBDHIL_OFFSET UNITYSDK_OFFSET(0x164E3E40)
 #define IMPABJLBFGK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x164E3F00)
 
+inline static constexpr unsigned int IMPABJLBFGK_TypeDefinitionIndex = 70177;
+
 	class IMPABJLBFGK : public ::System::Object
 	{
 	public:

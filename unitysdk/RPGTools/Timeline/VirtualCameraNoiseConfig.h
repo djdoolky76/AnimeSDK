@@ -8,6 +8,8 @@ namespace Cinemachine { class NoiseSettings; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int VirtualCameraNoiseConfig_TypeDefinitionIndex = 47826;
+
 	class VirtualCameraNoiseConfig : public ::System::Object
 	{
 	public:

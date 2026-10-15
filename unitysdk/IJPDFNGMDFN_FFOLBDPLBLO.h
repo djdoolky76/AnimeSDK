@@ -3,6 +3,8 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+inline static constexpr unsigned int IJPDFNGMDFN_FFOLBDPLBLO_TypeDefinitionIndex = 58490;
+
 	struct alignas(4) IJPDFNGMDFN_FFOLBDPLBLO
 	{
 		::UnityEngine::Vector3 BHCMCMADHBF; // 0x10

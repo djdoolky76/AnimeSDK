@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SetInwardBubbleInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetInwardBubbleInfo_TypeDefinitionIndex = 21613;
+
 	class SetInwardBubbleInfo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

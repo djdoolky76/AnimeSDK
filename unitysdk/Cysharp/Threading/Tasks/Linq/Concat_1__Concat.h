@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Concat_1__Concat_TypeDefinitionIndex = 45318;
+
 	template <typename T>
 	class Concat_1__Concat : public ::Cysharp::Threading::Tasks::MoveNextSource
 	{

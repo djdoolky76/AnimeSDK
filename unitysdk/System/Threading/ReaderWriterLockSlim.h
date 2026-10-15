@@ -57,6 +57,8 @@ namespace System::Threading { class ReaderWriterCount; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int ReaderWriterLockSlim_TypeDefinitionIndex = 3117;
+
 	class ReaderWriterLockSlim : public ::System::Object
 	{
 	public:

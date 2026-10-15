@@ -5,6 +5,8 @@
 
 #define CFFANKLMLLN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E1330)
 
+inline static constexpr unsigned int CFFANKLMLLN_TypeDefinitionIndex = 43671;
+
 	class CFFANKLMLLN : public ::System::Object
 	{
 	public:

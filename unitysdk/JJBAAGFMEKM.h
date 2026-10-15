@@ -5,6 +5,8 @@ namespace RPG::Client { class Airline; }
 
 #define JJBAAGFMEKM_CTOR_OFFSET UNITYSDK_OFFSET(0x10DC0)
 
+inline static constexpr unsigned int JJBAAGFMEKM_TypeDefinitionIndex = 59778;
+
 	struct alignas(8) JJBAAGFMEKM
 	{
 		::RPG::Client::Airline* BBLOHCHKFKD; // 0x10

@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define ECLEGOCKEHD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD6C400)
 #define ECLEGOCKEHD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD6C3C0)
 
+inline static constexpr unsigned int ECLEGOCKEHD_TypeDefinitionIndex = 19942;
+
 	class ECLEGOCKEHD : public ::RPG::GameCore::TaskConfig
 	{
 	public:

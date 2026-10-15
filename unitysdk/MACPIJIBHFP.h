@@ -12,6 +12,8 @@ namespace RPG::GameCore { class FiveDimLeverSwitchConfig; }
 #define MACPIJIBHFP_IJIHKMMOLPE_OFFSET UNITYSDK_OFFSET(0x1C922FD0)
 #define MACPIJIBHFP_KMKFOOCNJEE_OFFSET UNITYSDK_OFFSET(0x1C9232D0)
 
+inline static constexpr unsigned int MACPIJIBHFP_TypeDefinitionIndex = 42757;
+
 	class MACPIJIBHFP : public ::System::Object
 	{
 	public:

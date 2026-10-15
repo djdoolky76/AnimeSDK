@@ -9,6 +9,8 @@ namespace System { template <typename T> class Func_1; }
 #define LAFGBJEFHPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB5DF920)
 #define LAFGBJEFHPA___C___TRYCLOSEROGUETOURNENTRANCEPAGEINSTACK_B__11_0_OFFSET UNITYSDK_OFFSET(0xB5DF930)
 
+inline static constexpr unsigned int LAFGBJEFHPA___c_TypeDefinitionIndex = 67826;
+
 	class LAFGBJEFHPA___c : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Runtime::Remoting::Messaging { class LogicalCallContext; }
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int LogicalCallContext_Reader_TypeDefinitionIndex = 1293;
+
 	struct alignas(8) LogicalCallContext_Reader
 	{
 		::System::Runtime::Remoting::Messaging::LogicalCallContext* m_ctx; // 0x10

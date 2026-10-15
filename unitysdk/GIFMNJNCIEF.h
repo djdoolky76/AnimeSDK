@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define GIFMNJNCIEF_OCKPBEPBMCJ_OFFSET UNITYSDK_OFFSET(0x15A34830)
 #define GIFMNJNCIEF_PBOONHAEAKO_OFFSET UNITYSDK_OFFSET(0x15A34980)
 
+inline static constexpr unsigned int GIFMNJNCIEF_TypeDefinitionIndex = 80311;
+
 	class GIFMNJNCIEF : public ::System::Object
 	{
 	public:

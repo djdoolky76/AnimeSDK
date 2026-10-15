@@ -81,6 +81,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PPEffectManager_TypeDefinitionIndex = 69770;
+
 	class PPEffectManager : public ::System::Object
 	{
 	public:

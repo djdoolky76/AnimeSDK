@@ -6,6 +6,8 @@
 #define NCPLKHJEBFG_CCTOR_OFFSET UNITYSDK_OFFSET(0xBB1E270)
 #define NCPLKHJEBFG_EHFLDBMLBPM_OFFSET UNITYSDK_OFFSET(0xBB1DE20)
 
+inline static constexpr unsigned int NCPLKHJEBFG_TypeDefinitionIndex = 57457;
+
 	struct alignas(4) NCPLKHJEBFG
 	{
 		::System::Int32 PLLLPAOABLC; // 0x10

@@ -7,6 +7,8 @@ class FOMDMAGLLNI;
 #define AODLAALCCNF___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x158A7B80)
 #define AODLAALCCNF___C__DISPLAYCLASS21_0__CHANGEPLAN_B__0_OFFSET UNITYSDK_OFFSET(0x158A7B90)
 
+inline static constexpr unsigned int AODLAALCCNF___c__DisplayClass21_0_TypeDefinitionIndex = 81475;
+
 	class AODLAALCCNF___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

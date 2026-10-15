@@ -32,6 +32,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int AlchemyItem_TypeDefinitionIndex = 78199;
+
 	class AlchemyItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

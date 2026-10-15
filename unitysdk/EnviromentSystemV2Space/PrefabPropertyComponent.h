@@ -16,6 +16,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int PrefabPropertyComponent_TypeDefinitionIndex = 49348;
+
 	class PrefabPropertyComponent : public ::UnityEngine::MonoBehaviour
 	{
 	public:

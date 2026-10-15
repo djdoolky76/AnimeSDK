@@ -11,6 +11,8 @@ namespace System { class String; }
 #define MHIHPODNPMO___C___LISTENGUIDEHINTLEVELVAR_B__69_0_OFFSET UNITYSDK_OFFSET(0xB9430C0)
 #define MHIHPODNPMO___C___LISTENLEVELVAR_B__59_0_OFFSET UNITYSDK_OFFSET(0xB943090)
 
+inline static constexpr unsigned int MHIHPODNPMO___c_TypeDefinitionIndex = 76778;
+
 	class MHIHPODNPMO___c : public ::System::Object
 	{
 	public:

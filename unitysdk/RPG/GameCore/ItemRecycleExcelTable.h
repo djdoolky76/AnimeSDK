@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ItemRecycleExcelTable_TypeDefinitionIndex = 13893;
+
 	class ItemRecycleExcelTable : public ::System::Object
 	{
 	public:

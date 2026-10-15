@@ -5,6 +5,8 @@
 
 namespace Mono::Net
 {
+	inline static constexpr unsigned int CFRange_TypeDefinitionIndex = 2408;
+
 	struct alignas(4) CFRange
 	{
 		::System::IntPtr Location; // 0x10

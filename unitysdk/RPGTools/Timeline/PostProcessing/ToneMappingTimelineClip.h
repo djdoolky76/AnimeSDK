@@ -5,6 +5,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int ToneMappingTimelineClip_TypeDefinitionIndex = 48622;
+
 	class ToneMappingTimelineClip
 	{
 	public:

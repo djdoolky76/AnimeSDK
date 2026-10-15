@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GAOBINAMPJG_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE21E50)
 #define GAOBINAMPJG_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE21770)
 
+inline static constexpr unsigned int GAOBINAMPJG_TypeDefinitionIndex = 13402;
+
 	class GAOBINAMPJG : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PNJKHPMDMBP___C__DISPLAYCLASS4_0__ENTITYSORT_SORTBYMODIFIERVALUE_G___COMPAREIMPLMAXFISRT_1_OFFSET UNITYSDK_OFFSET(0xC33C6C0)
 #define PNJKHPMDMBP___C__DISPLAYCLASS4_0__ENTITYSORT_SORTBYMODIFIERVALUE_G___COMPAREIMPLMINFISRT_0_OFFSET UNITYSDK_OFFSET(0xC33C520)
 
+inline static constexpr unsigned int PNJKHPMDMBP___c__DisplayClass4_0_TypeDefinitionIndex = 55632;
+
 	class PNJKHPMDMBP___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

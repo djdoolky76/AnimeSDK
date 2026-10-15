@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define POAOPMNGMGD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC3573E0)
 #define POAOPMNGMGD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC3574B0)
 
+inline static constexpr unsigned int POAOPMNGMGD_TypeDefinitionIndex = 58350;
+
 	class POAOPMNGMGD
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PathAnimation_TypeDefinitionIndex = 70694;
+
 	class PathAnimation : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define FCPLIDBPDHJ_CLEAR_OFFSET UNITYSDK_OFFSET(0x156D01A0)
 #define FCPLIDBPDHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x156D0200)
 
+inline static constexpr unsigned int FCPLIDBPDHJ_TypeDefinitionIndex = 57063;
+
 	class FCPLIDBPDHJ : public ::System::Object
 	{
 	public:

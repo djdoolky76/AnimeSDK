@@ -6,6 +6,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RTIDs_TypeDefinitionIndex = 37775;
+
 	class RTIDs : public ::System::Object
 	{
 	public:

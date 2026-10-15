@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int TakeRollShopRewardScRsp___c_TypeDefinitionIndex = 33880;
+
 	class TakeRollShopRewardScRsp___c : public ::System::Object
 	{
 	public:

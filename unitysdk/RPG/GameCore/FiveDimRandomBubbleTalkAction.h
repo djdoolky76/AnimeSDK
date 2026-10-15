@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimRandomBubbleTalkAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimRandomBubbleTalkAction_TypeDefinitionIndex = 18774;
+
 	class FiveDimRandomBubbleTalkAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

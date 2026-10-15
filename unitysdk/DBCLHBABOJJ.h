@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DBCLHBABOJJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDFDB820)
 #define DBCLHBABOJJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xDFDBBD0)
 
+inline static constexpr unsigned int DBCLHBABOJJ_TypeDefinitionIndex = 54148;
+
 	class DBCLHBABOJJ
 	{
 	public:

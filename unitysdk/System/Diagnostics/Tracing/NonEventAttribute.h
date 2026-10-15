@@ -6,6 +6,8 @@
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int NonEventAttribute_TypeDefinitionIndex = 1694;
+
 	class NonEventAttribute : public ::System::Attribute
 	{
 	public:

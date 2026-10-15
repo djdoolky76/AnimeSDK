@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int DmgStatisticViewModel___c_TypeDefinitionIndex = 75418;
+
 	class DmgStatisticViewModel___c : public ::System::Object
 	{
 	public:

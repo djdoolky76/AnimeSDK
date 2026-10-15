@@ -86,6 +86,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameplayWindow_TypeDefinitionIndex = 81333;
+
 	class ChenLingFesGameplayWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:

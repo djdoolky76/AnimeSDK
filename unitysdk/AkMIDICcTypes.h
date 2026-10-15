@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int AkMIDICcTypes_TypeDefinitionIndex = 44749;
+
 	enum class AkMIDICcTypes : ::System::Int32
 	{
 		BANK_SELECT_COARSE = 0,

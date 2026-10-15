@@ -46,6 +46,8 @@ namespace System { class String; }
 #define MPIMAEMCEFH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAB8670)
 #define MPIMAEMCEFH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAB86D0)
 
+inline static constexpr unsigned int MPIMAEMCEFH_TypeDefinitionIndex = 29125;
+
 	class MPIMAEMCEFH : public ::System::Object
 	{
 	public:

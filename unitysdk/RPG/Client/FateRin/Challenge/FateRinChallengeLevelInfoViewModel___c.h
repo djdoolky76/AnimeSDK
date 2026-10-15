@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::FateRin::Challenge
 {
+	inline static constexpr unsigned int FateRinChallengeLevelInfoViewModel___c_TypeDefinitionIndex = 81032;
+
 	class FateRinChallengeLevelInfoViewModel___c : public ::System::Object
 	{
 	public:

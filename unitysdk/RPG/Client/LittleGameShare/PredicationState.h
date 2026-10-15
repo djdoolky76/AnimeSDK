@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int PredicationState_TypeDefinitionIndex = 36920;
+
 	enum class PredicationState : ::System::Int32
 	{
 		Unknown = 0,

@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define EIEBEHJKOAG_PMHGHLKJPKA_IGAGELKLFLK_CTOR_OFFSET UNITYSDK_OFFSET(0x154C0D30)
 
+inline static constexpr unsigned int EIEBEHJKOAG_PMHGHLKJPKA_IGAGELKLFLK_TypeDefinitionIndex = 47407;
+
 	class EIEBEHJKOAG_PMHGHLKJPKA_IGAGELKLFLK : public ::System::Object
 	{
 	public:

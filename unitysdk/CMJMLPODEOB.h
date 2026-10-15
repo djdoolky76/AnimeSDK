@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CMJMLPODEOB_MMCKDFFNDDG_OFFSET UNITYSDK_OFFSET(0xDA3A3F0)
 #define CMJMLPODEOB_MMDICFCCAGK_OFFSET UNITYSDK_OFFSET(0xDA39A90)
 
+inline static constexpr unsigned int CMJMLPODEOB_TypeDefinitionIndex = 69654;
+
 	class CMJMLPODEOB : public ::System::Object
 	{
 	public:

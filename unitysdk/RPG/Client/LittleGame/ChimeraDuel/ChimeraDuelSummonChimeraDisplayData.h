@@ -6,6 +6,8 @@
 
 namespace RPG::Client::LittleGame::ChimeraDuel
 {
+	inline static constexpr unsigned int ChimeraDuelSummonChimeraDisplayData_TypeDefinitionIndex = 77667;
+
 	class ChimeraDuelSummonChimeraDisplayData : public ::System::Object
 	{
 	public:

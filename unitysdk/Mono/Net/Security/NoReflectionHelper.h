@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace Mono::Net::Security
 {
+	inline static constexpr unsigned int NoReflectionHelper_TypeDefinitionIndex = 2446;
+
 	class NoReflectionHelper : public ::System::Object
 	{
 	public:

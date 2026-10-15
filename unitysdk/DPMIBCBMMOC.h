@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DPMIBCBMMOC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1265C260)
 #define DPMIBCBMMOC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1265C2A0)
 
+inline static constexpr unsigned int DPMIBCBMMOC_TypeDefinitionIndex = 55308;
+
 	class DPMIBCBMMOC
 	{
 	public:

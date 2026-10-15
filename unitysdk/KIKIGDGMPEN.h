@@ -29,6 +29,8 @@ namespace System { class String; }
 #define KIKIGDGMPEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8621E0)
 #define KIKIGDGMPEN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E862240)
 
+inline static constexpr unsigned int KIKIGDGMPEN_TypeDefinitionIndex = 29003;
+
 	class KIKIGDGMPEN : public ::System::Object
 	{
 	public:

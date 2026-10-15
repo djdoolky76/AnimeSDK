@@ -40,6 +40,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define AOILEMOBPJN_NDNFBCJOIJO_OFFSET UNITYSDK_OFFSET(0x158AE160)
 #define AOILEMOBPJN_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x158AE3B0)
 
+inline static constexpr unsigned int AOILEMOBPJN_TypeDefinitionIndex = 76823;
+
 	class AOILEMOBPJN : public ::System::Object
 	{
 	public:

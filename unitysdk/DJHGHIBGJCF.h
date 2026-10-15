@@ -23,6 +23,8 @@ namespace UnityEngine::Rendering { class CRPVirtualCamera; }
 #define DJHGHIBGJCF_OELGAPOIPIH_OFFSET UNITYSDK_OFFSET(0xF235290)
 #define DJHGHIBGJCF_PEEICDAMCMG_OFFSET UNITYSDK_OFFSET(0xF2352F0)
 
+inline static constexpr unsigned int DJHGHIBGJCF_TypeDefinitionIndex = 60671;
+
 	class DJHGHIBGJCF : public ::System::Object
 	{
 	public:

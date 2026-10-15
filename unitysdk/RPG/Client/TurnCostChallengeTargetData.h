@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TurnCostChallengeTargetData_TypeDefinitionIndex = 63117;
+
 	class TurnCostChallengeTargetData : public ::RPG::Client::BaseChallengeTargetData
 	{
 	public:

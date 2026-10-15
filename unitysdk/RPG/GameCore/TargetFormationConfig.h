@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TargetFormationConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetFormationConfig_TypeDefinitionIndex = 22493;
+
 	class TargetFormationConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

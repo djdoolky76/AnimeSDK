@@ -9,6 +9,8 @@ namespace MiHoYo::SDK::Win { class OverseaVerifyPhone; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int OverseaVerifyPhone___c__DisplayClass33_0_TypeDefinitionIndex = 9514;
+
 	class OverseaVerifyPhone___c__DisplayClass33_0 : public ::System::Object
 	{
 	public:

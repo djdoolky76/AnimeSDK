@@ -4,6 +4,8 @@
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int StateExtensions_TypeDefinitionIndex = 38131;
+
 	class StateExtensions : public ::System::Object
 	{
 	public:

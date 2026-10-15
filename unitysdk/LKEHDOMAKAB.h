@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int LKEHDOMAKAB_TypeDefinitionIndex = 63103;
+
 	struct alignas(4) LKEHDOMAKAB
 	{
 		::System::Boolean FHOEFKJFJLH; // 0x10

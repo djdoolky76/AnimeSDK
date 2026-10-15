@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 #define CMHBLDLFGNG_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xDA33CF0)
 #define CMHBLDLFGNG_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xDA34710)
 
+inline static constexpr unsigned int CMHBLDLFGNG_TypeDefinitionIndex = 57062;
+
 	class CMHBLDLFGNG : public ::System::Object
 	{
 	public:

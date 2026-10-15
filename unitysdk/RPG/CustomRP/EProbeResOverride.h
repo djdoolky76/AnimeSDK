@@ -3,6 +3,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int EProbeResOverride_TypeDefinitionIndex = 37647;
+
 	enum class EProbeResOverride : ::System::Int32
 	{
 		None = 0,

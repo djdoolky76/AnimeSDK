@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyGameBingoData_TypeDefinitionIndex = 66266;
+
 	class MonopolyGameBingoData : public ::System::Object
 	{
 	public:

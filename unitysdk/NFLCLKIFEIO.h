@@ -6,6 +6,8 @@ class PBGNKMMDBGD;
 #define NFLCLKIFEIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C793C10)
 #define NFLCLKIFEIO_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C793C20)
 
+inline static constexpr unsigned int NFLCLKIFEIO_TypeDefinitionIndex = 37438;
+
 	class NFLCLKIFEIO : public ::System::Object
 	{
 	public:

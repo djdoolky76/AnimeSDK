@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BySwitchMascotCanShootTarget_TypeDefinitionIndex = 20177;
+
 	class BySwitchMascotCanShootTarget : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -11,6 +11,8 @@
 #define HNFGANGGOCJ_OFMLLDLAOCC_OFFSET UNITYSDK_OFFSET(0x15D93060)
 #define HNFGANGGOCJ_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x15D92F70)
 
+inline static constexpr unsigned int HNFGANGGOCJ_TypeDefinitionIndex = 64355;
+
 	class HNFGANGGOCJ : public ::System::Object
 	{
 	public:

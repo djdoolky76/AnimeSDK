@@ -5,6 +5,8 @@ namespace XLua { class ObjectCast; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int ObjectCasters___O_TypeDefinitionIndex = 50237;
+
 	class ObjectCasters___O : public ::System::Object
 	{
 	public:

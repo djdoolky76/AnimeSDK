@@ -55,6 +55,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TextOutline_TypeDefinitionIndex = 72685;
+
 	class TextOutline : public ::UnityEngine::UI::BaseMeshEffect
 	{
 	public:

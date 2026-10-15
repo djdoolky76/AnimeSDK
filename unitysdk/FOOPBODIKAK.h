@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FOOPBODIKAK_CTOR_OFFSET UNITYSDK_OFFSET(0x15909050)
 #define FOOPBODIKAK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x159090A0)
 
+inline static constexpr unsigned int FOOPBODIKAK_TypeDefinitionIndex = 59084;
+
 	class FOOPBODIKAK
 	{
 	public:

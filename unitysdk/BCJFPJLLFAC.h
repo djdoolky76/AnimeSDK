@@ -22,6 +22,8 @@ class MKHNCCDJGDL;
 #define BCJFPJLLFAC_LBEJIALAFEM_OFFSET UNITYSDK_OFFSET(0x15EAAEF0)
 #define BCJFPJLLFAC_OHIPNMNMKDG_OFFSET UNITYSDK_OFFSET(0x15EAAFA0)
 
+inline static constexpr unsigned int BCJFPJLLFAC_TypeDefinitionIndex = 81014;
+
 	class BCJFPJLLFAC : public ::System::Object
 	{
 	public:

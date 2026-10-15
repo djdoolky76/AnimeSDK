@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyCo
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsLimaoData_TypeDefinitionIndex = 80287;
+
 	class LimaoNewsLimaoData : public ::System::Object
 	{
 	public:

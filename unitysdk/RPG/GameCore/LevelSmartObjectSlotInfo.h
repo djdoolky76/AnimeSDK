@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelSmartObjectSlotInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelSmartObjectSlotInfo_TypeDefinitionIndex = 17370;
+
 	class LevelSmartObjectSlotInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

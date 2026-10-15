@@ -7,6 +7,8 @@ namespace RPG::Client { class BaseShaderPropertyTransition; }
 
 namespace RPG::Client::LittleGame::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceFinalLineMonoView_TypeDefinitionIndex = 78154;
+
 	class CakeRaceFinalLineMonoView : public ::RPG::Client::LittleGame::CakeRace::CakeRaceMonoView
 	{
 	public:

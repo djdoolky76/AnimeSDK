@@ -5,6 +5,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ImmediateTaskBase_1_TypeDefinitionIndex = 54788;
+
 	template <typename T>
 	class ImmediateTaskBase_1 : public ::GELIALJDFBL
 	{

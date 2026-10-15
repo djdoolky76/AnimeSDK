@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NMFCOFBDPKK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2371A0)
 #define NMFCOFBDPKK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D237160)
 
+inline static constexpr unsigned int NMFCOFBDPKK_TypeDefinitionIndex = 24089;
+
 	class NMFCOFBDPKK : public ::RPG::GameCore::TaskConfig
 	{
 	public:

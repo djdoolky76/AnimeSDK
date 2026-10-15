@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define MKPPJMBJLMO_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB9A4BD0)
 #define MKPPJMBJLMO_INVOKE_OFFSET UNITYSDK_OFFSET(0xB9A4B20)
 
+inline static constexpr unsigned int MKPPJMBJLMO_TypeDefinitionIndex = 55999;
+
 	class MKPPJMBJLMO : public ::System::MulticastDelegate
 	{
 	public:

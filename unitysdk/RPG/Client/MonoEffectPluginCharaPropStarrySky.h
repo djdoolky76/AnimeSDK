@@ -18,6 +18,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginCharaPropStarrySky_TypeDefinitionIndex = 69980;
+
 	class MonoEffectPluginCharaPropStarrySky : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
 	public:

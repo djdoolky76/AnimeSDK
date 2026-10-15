@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define NMBCLGEHKKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C970010)
 
+inline static constexpr unsigned int NMBCLGEHKKG_TypeDefinitionIndex = 42021;
+
 	class NMBCLGEHKKG : public ::System::Object
 	{
 	public:

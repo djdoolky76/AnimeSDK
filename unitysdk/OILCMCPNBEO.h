@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OILCMCPNBEO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE73AE0)
 #define OILCMCPNBEO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE73B40)
 
+inline static constexpr unsigned int OILCMCPNBEO_TypeDefinitionIndex = 29395;
+
 	class OILCMCPNBEO : public ::System::Object
 	{
 	public:

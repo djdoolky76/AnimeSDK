@@ -6,6 +6,8 @@ class LGGELBFHJIM;
 #define BJDOCGAJBOK_CTOR_OFFSET UNITYSDK_OFFSET(0xB799080)
 #define BJDOCGAJBOK_LOMPGELJCLM_OFFSET UNITYSDK_OFFSET(0xB799090)
 
+inline static constexpr unsigned int BJDOCGAJBOK_TypeDefinitionIndex = 79051;
+
 	class BJDOCGAJBOK : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetPropInteractTriggerState_TypeDefinitionIndex = 20384;
+
 	class SetPropInteractTriggerState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

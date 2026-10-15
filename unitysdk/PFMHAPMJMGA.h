@@ -11,6 +11,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define PFMHAPMJMGA_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC217ED0)
 #define PFMHAPMJMGA_POPNLPIAOCM_OFFSET UNITYSDK_OFFSET(0xC218390)
 
+inline static constexpr unsigned int PFMHAPMJMGA_TypeDefinitionIndex = 69882;
+
 	class PFMHAPMJMGA : public ::RPG::Client::BehaviorBase
 	{
 	public:

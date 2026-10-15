@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SkillData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelSetActiveSkill_TypeDefinitionIndex = 56842;
+
 	class LevelSetActiveSkill : public ::System::Object
 	{
 	public:

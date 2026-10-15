@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int CloudDefine_TypeDefinitionIndex = 7933;
+
 	class CloudDefine : public ::System::Object
 	{
 	public:

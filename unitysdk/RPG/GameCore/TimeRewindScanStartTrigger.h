@@ -14,6 +14,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimeRewindScanStartTrigger_TypeDefinitionIndex = 57496;
+
 	class TimeRewindScanStartTrigger : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:

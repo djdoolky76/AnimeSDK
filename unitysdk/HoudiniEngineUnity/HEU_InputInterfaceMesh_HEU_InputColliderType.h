@@ -3,6 +3,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_InputInterfaceMesh_HEU_InputColliderType_TypeDefinitionIndex = 40647;
+
 	enum class HEU_InputInterfaceMesh_HEU_InputColliderType : ::System::Int32
 	{
 		NONE = 0,

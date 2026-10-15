@@ -14,6 +14,8 @@ namespace RPG::GameCore { class GridFightPrepTutorialTopHintParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightPrepTutorialOPParam_TypeDefinitionIndex = 53583;
+
 	class GridFightPrepTutorialOPParam : public ::System::Object
 	{
 	public:

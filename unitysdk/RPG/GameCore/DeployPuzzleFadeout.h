@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DeployPuzzleFadeout_TypeDefinitionIndex = 21982;
+
 	class DeployPuzzleFadeout : public ::RPG::GameCore::TaskConfig
 	{
 	public:

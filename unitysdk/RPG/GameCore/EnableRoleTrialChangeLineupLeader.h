@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EnableRoleTrialChangeLineupLeader; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnableRoleTrialChangeLineupLeader_TypeDefinitionIndex = 23850;
+
 	class EnableRoleTrialChangeLineupLeader : public ::RPG::GameCore::TaskConfig
 	{
 	public:

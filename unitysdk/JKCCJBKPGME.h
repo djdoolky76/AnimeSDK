@@ -5,6 +5,8 @@ namespace RPG::GameCore { class JsonEnum; }
 
 #define JKCCJBKPGME_CCTOR_OFFSET UNITYSDK_OFFSET(0xB212AD0)
 
+inline static constexpr unsigned int JKCCJBKPGME_TypeDefinitionIndex = 54064;
+
 	class JKCCJBKPGME : public ::System::Object
 	{
 	public:

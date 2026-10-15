@@ -9,6 +9,8 @@ namespace RPG::GameCore { class BattleGridFightTeamTraitData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightBattleGameContext___c__DisplayClass54_0_TypeDefinitionIndex = 64407;
+
 	class GridFightBattleGameContext___c__DisplayClass54_0 : public ::System::Object
 	{
 	public:

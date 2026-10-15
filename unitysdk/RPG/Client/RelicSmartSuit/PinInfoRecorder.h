@@ -43,6 +43,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::RelicSmartSuit
 {
+	inline static constexpr unsigned int PinInfoRecorder_TypeDefinitionIndex = 74413;
+
 	class PinInfoRecorder : public ::System::Object
 	{
 	public:

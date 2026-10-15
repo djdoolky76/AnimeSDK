@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FCDAFFCDLLD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E33E5D0)
 #define FCDAFFCDLLD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E33E630)
 
+inline static constexpr unsigned int FCDAFFCDLLD_TypeDefinitionIndex = 30624;
+
 	class FCDAFFCDLLD : public ::System::Object
 	{
 	public:

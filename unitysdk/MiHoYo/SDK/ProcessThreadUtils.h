@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ProcessThreadUtils_TypeDefinitionIndex = 7972;
+
 	class ProcessThreadUtils : public ::System::Object
 	{
 	public:

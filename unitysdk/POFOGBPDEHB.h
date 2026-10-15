@@ -29,6 +29,8 @@ namespace System { class String; }
 #define POFOGBPDEHB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFCA660)
 #define POFOGBPDEHB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFCA6C0)
 
+inline static constexpr unsigned int POFOGBPDEHB_TypeDefinitionIndex = 31081;
+
 	class POFOGBPDEHB : public ::System::Object
 	{
 	public:

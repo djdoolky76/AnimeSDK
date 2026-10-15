@@ -23,6 +23,8 @@ namespace UnityEngine { class Texture2DArray; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Texture2DArray_TypeDefinitionIndex = 4200;
+
 	class Texture2DArray : public ::UnityEngine::Texture
 	{
 	public:

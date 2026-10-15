@@ -233,6 +233,8 @@ namespace UnityEngine { class Animator; }
 #define CFFPEAALCPH_SET_WEAPONCONTROLLER_OFFSET UNITYSDK_OFFSET(0xCA20A00)
 #define CFFPEAALCPH_TICK_OFFSET UNITYSDK_OFFSET(0xCA1A070)
 
+inline static constexpr unsigned int CFFPEAALCPH_TypeDefinitionIndex = 56901;
+
 	class CFFPEAALCPH : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

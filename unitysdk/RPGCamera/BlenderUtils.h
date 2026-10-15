@@ -14,6 +14,8 @@ class EasingFunction_FunctionValue;
 
 namespace RPGCamera
 {
+	inline static constexpr unsigned int BlenderUtils_TypeDefinitionIndex = 45957;
+
 	class BlenderUtils : public ::System::Object
 	{
 	public:

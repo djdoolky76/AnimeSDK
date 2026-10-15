@@ -18,6 +18,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureTriggerAttack_TypeDefinitionIndex = 20207;
+
 	class AdventureTriggerAttack : public ::RPG::GameCore::TaskConfig
 	{
 	public:

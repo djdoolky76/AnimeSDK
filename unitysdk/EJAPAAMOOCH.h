@@ -6,6 +6,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 #define EJAPAAMOOCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD8CDB0)
 
+inline static constexpr unsigned int EJAPAAMOOCH_TypeDefinitionIndex = 10376;
+
 	class EJAPAAMOOCH : public ::System::Object
 	{
 	public:

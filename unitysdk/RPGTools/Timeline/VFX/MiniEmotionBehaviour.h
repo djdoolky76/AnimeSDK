@@ -36,6 +36,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int MiniEmotionBehaviour_TypeDefinitionIndex = 48657;
+
 	class MiniEmotionBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

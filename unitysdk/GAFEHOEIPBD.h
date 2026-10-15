@@ -6,6 +6,8 @@ class DMDIHKEBDJJ;
 #define GAFEHOEIPBD_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA73BF0)
 #define GAFEHOEIPBD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA73C50)
 
+inline static constexpr unsigned int GAFEHOEIPBD_TypeDefinitionIndex = 43568;
+
 	class GAFEHOEIPBD : public ::System::Object
 	{
 	public:

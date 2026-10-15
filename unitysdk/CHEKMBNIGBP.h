@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CHEKMBNIGBP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0C3180)
 #define CHEKMBNIGBP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0C31E0)
 
+inline static constexpr unsigned int CHEKMBNIGBP_TypeDefinitionIndex = 34244;
+
 	class CHEKMBNIGBP : public ::System::Object
 	{
 	public:

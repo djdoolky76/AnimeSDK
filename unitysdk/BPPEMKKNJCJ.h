@@ -15,6 +15,8 @@ namespace UnityEngine { class Animation; }
 #define BPPEMKKNJCJ__ONBIND_OFFSET UNITYSDK_OFFSET(0xC1AEAD0)
 #define BPPEMKKNJCJ__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xC1AEC30)
 
+inline static constexpr unsigned int BPPEMKKNJCJ_TypeDefinitionIndex = 71847;
+
 	class BPPEMKKNJCJ : public ::FMPCODLIOLG
 	{
 	public:

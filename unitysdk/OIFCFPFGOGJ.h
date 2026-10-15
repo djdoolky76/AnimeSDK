@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_StackAdditiveProperty; }
 #define OIFCFPFGOGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7CFA50)
 #define OIFCFPFGOGJ_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C7CFA60)
 
+inline static constexpr unsigned int OIFCFPFGOGJ_TypeDefinitionIndex = 36297;
+
 	class OIFCFPFGOGJ : public ::AJBKGPOEBFG
 	{
 	public:

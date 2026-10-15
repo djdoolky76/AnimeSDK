@@ -18,6 +18,8 @@ namespace UnityEngine::UI { class Button_ButtonClickedEvent; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int Button_TypeDefinitionIndex = 6691;
+
 	class Button : public ::UnityEngine::UI::Selectable
 	{
 	public:

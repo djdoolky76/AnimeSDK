@@ -30,6 +30,8 @@ namespace System { class String; }
 #define ENPJFKDKLOB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2F4680)
 #define ENPJFKDKLOB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2F46E0)
 
+inline static constexpr unsigned int ENPJFKDKLOB_TypeDefinitionIndex = 35101;
+
 	class ENPJFKDKLOB : public ::System::Object
 	{
 	public:

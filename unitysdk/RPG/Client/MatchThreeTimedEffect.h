@@ -20,6 +20,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeTimedEffect_TypeDefinitionIndex = 65966;
+
 	class MatchThreeTimedEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

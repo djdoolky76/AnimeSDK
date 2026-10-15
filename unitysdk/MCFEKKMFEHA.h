@@ -25,6 +25,8 @@ namespace System { class String; }
 #define MCFEKKMFEHA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9F4B10)
 #define MCFEKKMFEHA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9F4B70)
 
+inline static constexpr unsigned int MCFEKKMFEHA_TypeDefinitionIndex = 33111;
+
 	class MCFEKKMFEHA : public ::System::Object
 	{
 	public:

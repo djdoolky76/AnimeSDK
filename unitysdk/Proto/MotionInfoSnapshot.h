@@ -32,6 +32,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int MotionInfoSnapshot_TypeDefinitionIndex = 25815;
+
 	class MotionInfoSnapshot : public ::System::Object
 	{
 	public:

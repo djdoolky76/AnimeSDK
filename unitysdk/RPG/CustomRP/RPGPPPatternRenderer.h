@@ -15,6 +15,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGPPPatternRenderer_TypeDefinitionIndex = 37837;
+
 	class RPGPPPatternRenderer : public ::RPG::CustomRP::CRPPostprocessSubPass2
 	{
 	public:

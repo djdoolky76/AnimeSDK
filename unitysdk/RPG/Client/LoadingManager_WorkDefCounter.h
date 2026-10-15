@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LoadingManager_WorkDefCounter_TypeDefinitionIndex = 60578;
+
 	class LoadingManager_WorkDefCounter : public ::System::MulticastDelegate
 	{
 	public:

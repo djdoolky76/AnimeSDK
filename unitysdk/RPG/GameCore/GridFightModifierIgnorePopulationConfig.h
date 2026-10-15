@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierIgnorePopulationConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierIgnorePopulationConfig_TypeDefinitionIndex = 19479;
+
 	class GridFightModifierIgnorePopulationConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

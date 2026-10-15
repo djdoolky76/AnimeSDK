@@ -4,6 +4,8 @@
 
 #define BPEKEIDBJFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC655B0)
 
+inline static constexpr unsigned int BPEKEIDBJFD_TypeDefinitionIndex = 44274;
+
 	class BPEKEIDBJFD : public ::System::Object
 	{
 	public:

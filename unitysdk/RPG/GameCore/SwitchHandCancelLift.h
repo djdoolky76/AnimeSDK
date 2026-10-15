@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SwitchHandCancelLift; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchHandCancelLift_TypeDefinitionIndex = 20964;
+
 	class SwitchHandCancelLift : public ::RPG::GameCore::TaskConfig
 	{
 	public:

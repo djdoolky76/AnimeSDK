@@ -18,6 +18,8 @@ namespace System { class String; }
 #define BANEBMOLDPF_ICIOOHAFNCD_OFFSET UNITYSDK_OFFSET(0x15E749E0)
 #define BANEBMOLDPF_NDMGJENDLCP_OFFSET UNITYSDK_OFFSET(0x15E74B10)
 
+inline static constexpr unsigned int BANEBMOLDPF_TypeDefinitionIndex = 63292;
+
 	class BANEBMOLDPF : public ::AOHCPPHPOLK
 	{
 	public:

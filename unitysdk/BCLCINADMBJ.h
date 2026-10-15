@@ -20,6 +20,8 @@ namespace RPG::Client::Promises { class Promise; }
 #define BCLCINADMBJ___TRYEXITEQUIPGOTDIALOG_B__7_0_OFFSET UNITYSDK_OFFSET(0x162E3C00)
 #define BCLCINADMBJ___TRYEXITEQUIPSELECTDIALOG_B__8_0_OFFSET UNITYSDK_OFFSET(0x162E3C30)
 
+inline static constexpr unsigned int BCLCINADMBJ_TypeDefinitionIndex = 75232;
+
 	class BCLCINADMBJ : public ::System::Object
 	{
 	public:

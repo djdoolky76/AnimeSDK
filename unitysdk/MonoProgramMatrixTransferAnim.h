@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 #define MONOPROGRAMMATRIXTRANSFERANIM_ONENABLE_OFFSET UNITYSDK_OFFSET(0xBA4EB20)
 #define MONOPROGRAMMATRIXTRANSFERANIM_UPDATE_OFFSET UNITYSDK_OFFSET(0xBA4EB70)
 
+inline static constexpr unsigned int MonoProgramMatrixTransferAnim_TypeDefinitionIndex = 47510;
+
 	class MonoProgramMatrixTransferAnim : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -44,6 +44,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChenLingBattleDeckData_TypeDefinitionIndex = 61423;
+
 	class ChenLingBattleDeckData : public ::System::Object
 	{
 	public:

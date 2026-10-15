@@ -6,6 +6,8 @@ class JPKFKDGPDLJ;
 
 #define DODPFANHNDG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2FDD0)
 
+inline static constexpr unsigned int DODPFANHNDG_TypeDefinitionIndex = 41945;
+
 	class DODPFANHNDG : public ::System::Object
 	{
 	public:

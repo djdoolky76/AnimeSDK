@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NADIACFLGAO_CTOR_OFFSET UNITYSDK_OFFSET(0xBA56710)
 #define NADIACFLGAO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA56760)
 
+inline static constexpr unsigned int NADIACFLGAO_TypeDefinitionIndex = 59081;
+
 	class NADIACFLGAO
 	{
 	public:

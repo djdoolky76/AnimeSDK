@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GUI_WindowFunction_TypeDefinitionIndex = 5167;
+
 	class GUI_WindowFunction : public ::System::MulticastDelegate
 	{
 	public:

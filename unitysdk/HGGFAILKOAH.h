@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HGGFAILKOAH_CTOR_OFFSET UNITYSDK_OFFSET(0x15C9A110)
 #define HGGFAILKOAH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C9A140)
 
+inline static constexpr unsigned int HGGFAILKOAH_TypeDefinitionIndex = 55550;
+
 	class HGGFAILKOAH
 	{
 	public:

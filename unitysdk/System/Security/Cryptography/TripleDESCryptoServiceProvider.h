@@ -11,6 +11,8 @@ namespace System::Security::Cryptography { class ICryptoTransform; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int TripleDESCryptoServiceProvider_TypeDefinitionIndex = 1072;
+
 	class TripleDESCryptoServiceProvider : public ::System::Security::Cryptography::TripleDES
 	{
 	public:

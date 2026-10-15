@@ -11,6 +11,8 @@ namespace UnityEngine::Networking { class UnityWebRequestAsyncOperation; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int UnityWebRequestShim_TypeDefinitionIndex = 7981;
+
 	class UnityWebRequestShim : public ::System::Object
 	{
 	public:

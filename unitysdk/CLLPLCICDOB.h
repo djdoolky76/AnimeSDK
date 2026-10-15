@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CLLPLCICDOB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0FB100)
 #define CLLPLCICDOB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0FB160)
 
+inline static constexpr unsigned int CLLPLCICDOB_TypeDefinitionIndex = 31455;
+
 	class CLLPLCICDOB : public ::System::Object
 	{
 	public:

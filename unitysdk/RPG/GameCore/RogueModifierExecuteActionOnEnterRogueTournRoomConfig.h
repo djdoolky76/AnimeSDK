@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionOnEnterRogueTournRoomC
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionOnEnterRogueTournRoomConfig_TypeDefinitionIndex = 17766;
+
 	class RogueModifierExecuteActionOnEnterRogueTournRoomConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

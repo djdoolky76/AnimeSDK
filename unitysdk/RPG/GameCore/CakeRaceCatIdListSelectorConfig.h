@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceCatIdListSelectorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceCatIdListSelectorConfig_TypeDefinitionIndex = 18396;
+
 	class CakeRaceCatIdListSelectorConfig : public ::RPG::GameCore::CakeRaceBaseTargetSelectorConfig
 	{
 	public:

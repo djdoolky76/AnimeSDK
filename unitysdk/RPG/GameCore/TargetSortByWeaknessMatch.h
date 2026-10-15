@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetSortByWeaknessMatch_TypeDefinitionIndex = 23992;
+
 	class TargetSortByWeaknessMatch : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:

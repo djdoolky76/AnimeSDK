@@ -16,6 +16,8 @@ namespace System { class String; }
 #define DPHCPLJMDKL_EBNJAMHIFHA_SET_FILEPATH_OFFSET UNITYSDK_OFFSET(0x12006800)
 #define DPHCPLJMDKL_EBNJAMHIFHA_SET_ISDISPOSED_OFFSET UNITYSDK_OFFSET(0x12006830)
 
+inline static constexpr unsigned int DPHCPLJMDKL_EBNJAMHIFHA_TypeDefinitionIndex = 60028;
+
 	class DPHCPLJMDKL_EBNJAMHIFHA : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ class BJDBKICFGAM;
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftTargetWindow_TypeDefinitionIndex = 79951;
+
 	class MechCraftCraftTargetWindow
 	{
 	public:

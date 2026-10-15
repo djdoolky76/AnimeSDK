@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define KFOMKKPPMBO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB3C9150)
 #define KFOMKKPPMBO___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xB3C9160)
 
+inline static constexpr unsigned int KFOMKKPPMBO___c_TypeDefinitionIndex = 60520;
+
 	class KFOMKKPPMBO___c : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ class IAFKJCICCOP;
 
 #define LKLEBOOCADM_CTOR_OFFSET UNITYSDK_OFFSET(0xB753D50)
 
+inline static constexpr unsigned int LKLEBOOCADM_TypeDefinitionIndex = 67128;
+
 	class LKLEBOOCADM : public ::System::Object
 	{
 	public:

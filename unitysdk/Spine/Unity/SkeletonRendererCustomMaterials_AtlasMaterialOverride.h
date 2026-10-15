@@ -6,6 +6,8 @@ namespace UnityEngine { class Material; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonRendererCustomMaterials_AtlasMaterialOverride_TypeDefinitionIndex = 45055;
+
 	struct alignas(8) SkeletonRendererCustomMaterials_AtlasMaterialOverride
 	{
 		::System::Boolean overrideDisabled; // 0x10

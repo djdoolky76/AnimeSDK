@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ConditionParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AreaMapShowConfigRow_TypeDefinitionIndex = 14008;
+
 	class AreaMapShowConfigRow : public ::System::Object
 	{
 	public:

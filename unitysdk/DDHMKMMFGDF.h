@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define DDHMKMMFGDF_LFIFIEGFMOM_OFFSET UNITYSDK_OFFSET(0xE2658C0)
 #define DDHMKMMFGDF_OOFIFMBFGEN_OFFSET UNITYSDK_OFFSET(0xE2667A0)
 
+inline static constexpr unsigned int DDHMKMMFGDF_TypeDefinitionIndex = 77045;
+
 	class DDHMKMMFGDF : public ::CCEJFGMOHGP
 	{
 	public:

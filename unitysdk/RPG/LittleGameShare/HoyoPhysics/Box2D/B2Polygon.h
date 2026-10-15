@@ -5,6 +5,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Polygon_TypeDefinitionIndex = 36727;
+
 	struct alignas(8) B2Polygon
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2FixedArray8_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2> vertices; // 0x10

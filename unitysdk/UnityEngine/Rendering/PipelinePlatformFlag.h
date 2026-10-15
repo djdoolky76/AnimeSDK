@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int PipelinePlatformFlag_TypeDefinitionIndex = 37520;
+
 	enum class PipelinePlatformFlag : ::System::Int32
 	{
 		Android_VK_RenderPassSplitInMali = 1,

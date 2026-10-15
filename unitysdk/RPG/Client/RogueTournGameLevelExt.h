@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournGameLevelExt_TypeDefinitionIndex = 67643;
+
 	class RogueTournGameLevelExt : public ::System::Object
 	{
 	public:

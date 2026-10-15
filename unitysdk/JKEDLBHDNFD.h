@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JKEDLBHDNFD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB21A780)
 #define JKEDLBHDNFD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB21A560)
 
+inline static constexpr unsigned int JKEDLBHDNFD_TypeDefinitionIndex = 52618;
+
 	class JKEDLBHDNFD
 	{
 	public:

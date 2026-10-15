@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraEvaluationSlotConfig_TypeDefinitionIndex = 78453;
+
 	class ChimeraEvaluationSlotConfig : public ::System::Object
 	{
 	public:

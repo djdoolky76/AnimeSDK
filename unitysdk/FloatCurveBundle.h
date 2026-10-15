@@ -7,6 +7,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 #define FLOATCURVEBUNDLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBBD890)
 
+inline static constexpr unsigned int FloatCurveBundle_TypeDefinitionIndex = 43979;
+
 	class FloatCurveBundle : public ::System::Object
 	{
 	public:

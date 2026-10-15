@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SummonEntityPreloadConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SummonEntityPreloadConfig_TypeDefinitionIndex = 16342;
+
 	class SummonEntityPreloadConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

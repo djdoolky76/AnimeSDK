@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define PDMBLCALNPD_AHNJNLBGOKL_CTOR_OFFSET UNITYSDK_OFFSET(0xC0213E0)
 #define PDMBLCALNPD_AHNJNLBGOKL_LHLALAKKKKJ_OFFSET UNITYSDK_OFFSET(0xC0213F0)
 
+inline static constexpr unsigned int PDMBLCALNPD_AHNJNLBGOKL_TypeDefinitionIndex = 79575;
+
 	class PDMBLCALNPD_AHNJNLBGOKL : public ::System::Object
 	{
 	public:

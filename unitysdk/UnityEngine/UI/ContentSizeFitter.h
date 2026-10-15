@@ -24,6 +24,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int ContentSizeFitter_TypeDefinitionIndex = 6766;
+
 	class ContentSizeFitter : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RechargeShopModule___c__DisplayClass34_1_TypeDefinitionIndex = 66800;
+
 	template <typename T>
 	class RechargeShopModule___c__DisplayClass34_1 : public ::System::Object
 	{

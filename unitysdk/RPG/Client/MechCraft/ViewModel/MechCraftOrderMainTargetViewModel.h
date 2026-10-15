@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftOrderMainTargetViewModel_TypeDefinitionIndex = 79662;
+
 	class MechCraftOrderMainTargetViewModel : public ::Sofa::Core::ObservableObject
 	{
 	public:

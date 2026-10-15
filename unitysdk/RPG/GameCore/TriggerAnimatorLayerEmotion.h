@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TriggerAnimatorLayerEmotion; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerAnimatorLayerEmotion_TypeDefinitionIndex = 20599;
+
 	class TriggerAnimatorLayerEmotion : public ::RPG::GameCore::TaskConfig
 	{
 	public:

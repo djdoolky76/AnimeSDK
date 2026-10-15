@@ -6,6 +6,8 @@
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int MatchThreeFighter_BKILIDKENHA_TypeDefinitionIndex = 76555;
+
 	class MatchThreeFighter_BKILIDKENHA : public ::System::Object
 	{
 	public:

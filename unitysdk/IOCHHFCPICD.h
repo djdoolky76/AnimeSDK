@@ -24,6 +24,8 @@ namespace System { class String; }
 #define IOCHHFCPICD_PEECNCABGFD_OFFSET UNITYSDK_OFFSET(0x1C4A35E0)
 #define IOCHHFCPICD_PODLKOGHGMA_OFFSET UNITYSDK_OFFSET(0x1C4A35A0)
 
+inline static constexpr unsigned int IOCHHFCPICD_TypeDefinitionIndex = 41412;
+
 	class IOCHHFCPICD : public ::System::Object
 	{
 	public:

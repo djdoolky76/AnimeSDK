@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceGameFlow___c_TypeDefinitionIndex = 76446;
+
 	class CakeRaceGameFlow___c : public ::System::Object
 	{
 	public:

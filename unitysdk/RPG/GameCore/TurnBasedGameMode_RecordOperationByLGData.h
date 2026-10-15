@@ -4,6 +4,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TurnBasedGameMode_RecordOperationByLGData_TypeDefinitionIndex = 53603;
+
 	struct alignas(4) TurnBasedGameMode_RecordOperationByLGData
 	{
 		::RPG::GameCore::LevelGraphOperationType OperationType; // 0x10

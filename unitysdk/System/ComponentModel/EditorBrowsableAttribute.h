@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int EditorBrowsableAttribute_TypeDefinitionIndex = 2589;
+
 	class EditorBrowsableAttribute : public ::System::Attribute
 	{
 	public:

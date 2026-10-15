@@ -10,6 +10,8 @@ namespace RPG::Client { class ST_Parkour_ModifyScore; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ST_Parkour_ModifyScore_TypeDefinitionIndex = 10268;
+
 	class ST_Parkour_ModifyScore : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System { class Object; }
 #define FPMNLGNIOJE_SETNEXTTASK_OFFSET UNITYSDK_OFFSET(0x1591F870)
 #define FPMNLGNIOJE_TICK_OFFSET UNITYSDK_OFFSET(0x15920230)
 
+inline static constexpr unsigned int FPMNLGNIOJE_TypeDefinitionIndex = 58264;
+
 	class FPMNLGNIOJE : public ::GELIALJDFBL
 	{
 	public:

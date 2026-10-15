@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define ICNLEDIBDIE_NLEAMGJGCAH_OFFSET UNITYSDK_OFFSET(0x1C692140)
 #define ICNLEDIBDIE_OCHPNIFAHPK_OFFSET UNITYSDK_OFFSET(0x1C6920E0)
 
+inline static constexpr unsigned int ICNLEDIBDIE_TypeDefinitionIndex = 37250;
+
 	class ICNLEDIBDIE : public ::System::Object
 	{
 	public:

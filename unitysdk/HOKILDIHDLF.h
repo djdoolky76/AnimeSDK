@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HOKILDIHDLF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CED02A0)
 #define HOKILDIHDLF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CECFC00)
 
+inline static constexpr unsigned int HOKILDIHDLF_TypeDefinitionIndex = 11397;
+
 	class HOKILDIHDLF : public ::System::Object
 	{
 	public:

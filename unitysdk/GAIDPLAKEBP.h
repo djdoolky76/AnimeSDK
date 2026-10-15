@@ -7,6 +7,8 @@ namespace RPG::Client::FateRin::Battle { class FateRinBattleHudHoverBrain; }
 #define GAIDPLAKEBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1593C700)
 #define GAIDPLAKEBP_DDDBKDFGAHF_OFFSET UNITYSDK_OFFSET(0x1593C550)
 
+inline static constexpr unsigned int GAIDPLAKEBP_TypeDefinitionIndex = 80992;
+
 	class GAIDPLAKEBP : public ::OMCMJNICFCH
 	{
 	public:

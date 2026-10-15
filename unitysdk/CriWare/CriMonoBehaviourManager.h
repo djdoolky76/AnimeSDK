@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriMonoBehaviourManager_TypeDefinitionIndex = 40200;
+
 	class CriMonoBehaviourManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

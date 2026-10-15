@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UnLockCamera; }
 #define LOBAINCMKPG_ONSKIP_OFFSET UNITYSDK_OFFSET(0xB7F1F00)
 #define LOBAINCMKPG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7F2000)
 
+inline static constexpr unsigned int LOBAINCMKPG_TypeDefinitionIndex = 53458;
+
 	class LOBAINCMKPG
 	{
 	public:

@@ -14,6 +14,8 @@
 #define NNGPFFCBCFC_SET_KEYBOARDUSEWROTATE_OFFSET UNITYSDK_OFFSET(0xBCA8CD0)
 #define NNGPFFCBCFC_SET_MOBILEUSEBTNROTATE_OFFSET UNITYSDK_OFFSET(0xBCA8CB0)
 
+inline static constexpr unsigned int NNGPFFCBCFC_TypeDefinitionIndex = 79025;
+
 	class NNGPFFCBCFC : public ::System::Object
 	{
 	public:

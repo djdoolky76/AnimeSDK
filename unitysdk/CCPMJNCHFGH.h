@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define CCPMJNCHFGH_NDLHPJGNKDI_OFFSET UNITYSDK_OFFSET(0x1C450900)
 
+inline static constexpr unsigned int CCPMJNCHFGH_TypeDefinitionIndex = 41392;
+
 	class CCPMJNCHFGH : public ::System::Object
 	{
 	public:

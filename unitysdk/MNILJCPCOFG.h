@@ -27,6 +27,8 @@ namespace System { class String; }
 #define MNILJCPCOFG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA9A880)
 #define MNILJCPCOFG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA9A8E0)
 
+inline static constexpr unsigned int MNILJCPCOFG_TypeDefinitionIndex = 33864;
+
 	class MNILJCPCOFG : public ::System::Object
 	{
 	public:

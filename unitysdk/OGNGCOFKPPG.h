@@ -42,6 +42,8 @@ namespace System { class String; }
 #define OGNGCOFKPPG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE58C80)
 #define OGNGCOFKPPG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE58CE0)
 
+inline static constexpr unsigned int OGNGCOFKPPG_TypeDefinitionIndex = 34556;
+
 	class OGNGCOFKPPG : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AudioManager___c__DisplayClass60_0_TypeDefinitionIndex = 59733;
+
 	class AudioManager___c__DisplayClass60_0 : public ::System::Object
 	{
 	public:

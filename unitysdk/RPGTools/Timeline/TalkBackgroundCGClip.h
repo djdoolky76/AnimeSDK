@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TalkBackgroundCGClip_TypeDefinitionIndex = 48373;
+
 	class TalkBackgroundCGClip : public ::RPGTools::Timeline::CustomEventClip
 	{
 	public:

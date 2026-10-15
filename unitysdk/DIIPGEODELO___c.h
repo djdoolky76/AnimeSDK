@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DIIPGEODELO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1BFD20)
 #define DIIPGEODELO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E1BFD30)
 
+inline static constexpr unsigned int DIIPGEODELO___c_TypeDefinitionIndex = 34484;
+
 	class DIIPGEODELO___c : public ::System::Object
 	{
 	public:

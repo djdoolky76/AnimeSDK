@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BBILDBEOKIK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7C6CF0)
 #define BBILDBEOKIK___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E7C6D00)
 
+inline static constexpr unsigned int BBILDBEOKIK___c_TypeDefinitionIndex = 33281;
+
 	class BBILDBEOKIK___c : public ::System::Object
 	{
 	public:

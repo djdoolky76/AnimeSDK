@@ -10,6 +10,8 @@ namespace System { class String; }
 #define MHLJNIMJGKN_MIDJPFNPFPA_OACBGCFADMP_OFFSET UNITYSDK_OFFSET(0xB945B00)
 #define MHLJNIMJGKN_MIDJPFNPFPA_SET_TEXTJOINITEMID_OFFSET UNITYSDK_OFFSET(0xB945E90)
 
+inline static constexpr unsigned int MHLJNIMJGKN_MIDJPFNPFPA_TypeDefinitionIndex = 74388;
+
 	class MHLJNIMJGKN_MIDJPFNPFPA : public ::System::Object
 	{
 	public:

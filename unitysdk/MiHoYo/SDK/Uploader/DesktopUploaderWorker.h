@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK::Uploader
 {
+	inline static constexpr unsigned int DesktopUploaderWorker_TypeDefinitionIndex = 46659;
+
 	class DesktopUploaderWorker : public ::MiHoYo::SDK::Uploader::BaseUploaderWorker
 	{
 	public:

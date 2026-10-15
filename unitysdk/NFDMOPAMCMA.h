@@ -33,6 +33,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define NFDMOPAMCMA_SET_TARGETBASEMAXSPEED_OFFSET UNITYSDK_OFFSET(0xBB7BCC0)
 #define NFDMOPAMCMA_SET_TASKUNLOCK_OFFSET UNITYSDK_OFFSET(0xBB7BD00)
 
+inline static constexpr unsigned int NFDMOPAMCMA_TypeDefinitionIndex = 75839;
+
 	class NFDMOPAMCMA
 	{
 	public:

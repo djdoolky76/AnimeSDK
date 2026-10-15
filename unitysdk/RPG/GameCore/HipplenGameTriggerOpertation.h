@@ -11,6 +11,8 @@ namespace RPG::GameCore { class HipplenGameTriggerOpertation; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HipplenGameTriggerOpertation_TypeDefinitionIndex = 21322;
+
 	class HipplenGameTriggerOpertation : public ::RPG::GameCore::TaskConfig
 	{
 	public:

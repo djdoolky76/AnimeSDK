@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelAnimalAttachBillboardConfig_TypeDefinitionIndex = 16777;
+
 	class FourRotateVoxelAnimalAttachBillboardConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

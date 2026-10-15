@@ -22,6 +22,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftReportControl_TypeDefinitionIndex = 80024;
+
 	class MechCraftReportControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

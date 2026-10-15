@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MultiLightEffectMatBlockType_TypeDefinitionIndex = 70687;
+
 	enum class MultiLightEffectMatBlockType : ::System::Int32
 	{
 		Float = 2,

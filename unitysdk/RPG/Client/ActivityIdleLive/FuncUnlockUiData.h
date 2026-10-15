@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int FuncUnlockUiData_TypeDefinitionIndex = 75424;
+
 	class FuncUnlockUiData : public ::System::Object
 	{
 	public:

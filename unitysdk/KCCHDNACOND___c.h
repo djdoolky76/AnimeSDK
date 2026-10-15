@@ -11,6 +11,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define KCCHDNACOND___C___BUILDRUNTIMERANKROWS_B__9_0_OFFSET UNITYSDK_OFFSET(0xB331780)
 #define KCCHDNACOND___C___BUILDRUNTIMERANKROWS_B__9_1_OFFSET UNITYSDK_OFFSET(0xB3317C0)
 
+inline static constexpr unsigned int KCCHDNACOND___c_TypeDefinitionIndex = 81974;
+
 	class KCCHDNACOND___c : public ::System::Object
 	{
 	public:

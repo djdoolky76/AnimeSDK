@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_SetConfirmDiceCountToModifi
 #define HHGKMECFJHH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C666C60)
 #define HHGKMECFJHH_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C666C70)
 
+inline static constexpr unsigned int HHGKMECFJHH_TypeDefinitionIndex = 36300;
+
 	class HHGKMECFJHH : public ::AJBKGPOEBFG
 	{
 	public:

@@ -5,6 +5,8 @@ namespace RPG::GameCore { class FourRotateVoxelAnimalAttachBillboardConfig; }
 
 #define EKJELNMHMON_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA613B0)
 
+inline static constexpr unsigned int EKJELNMHMON_TypeDefinitionIndex = 43234;
+
 	class EKJELNMHMON : public ::System::Object
 	{
 	public:

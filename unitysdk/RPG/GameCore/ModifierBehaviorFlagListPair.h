@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ModifierBehaviorFlagListPair; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifierBehaviorFlagListPair_TypeDefinitionIndex = 17107;
+
 	class ModifierBehaviorFlagListPair : public ::RPG::GameCore::JsonConfig
 	{
 	public:

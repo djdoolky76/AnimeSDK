@@ -10,6 +10,8 @@ namespace UnityEngine { class Light; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int VoxelVisualizer_TypeDefinitionIndex = 51852;
+
 	class VoxelVisualizer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

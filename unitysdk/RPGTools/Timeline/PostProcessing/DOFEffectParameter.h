@@ -7,6 +7,8 @@ namespace RPG::CustomRP { class RPGDepthOfField; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int DOFEffectParameter_TypeDefinitionIndex = 48565;
+
 	struct alignas(4) DOFEffectParameter
 	{
 		::RPG::CustomRP::RPGDepthOfField_DepthOfFieldDebugMethod debugMode; // 0x10

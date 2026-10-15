@@ -5,6 +5,8 @@ namespace RPG::Client { class IntroButton; }
 namespace System { class Action; }
 namespace System { class Object; }
 
+inline static constexpr unsigned int BFKCJLGJINM___c__0_1_TypeDefinitionIndex = 49930;
+
 	template <typename T>
 	class BFKCJLGJINM___c__0_1 : public ::System::Object
 	{

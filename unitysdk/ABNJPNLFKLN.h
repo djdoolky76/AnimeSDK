@@ -9,6 +9,8 @@ class FCOEMCEDLNL;
 #define ABNJPNLFKLN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCA1160)
 #define ABNJPNLFKLN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCA0F70)
 
+inline static constexpr unsigned int ABNJPNLFKLN_TypeDefinitionIndex = 11972;
+
 	class ABNJPNLFKLN : public ::System::Object
 	{
 	public:

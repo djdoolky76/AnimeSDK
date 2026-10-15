@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DKDKIDGNMOM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD35080)
 #define DKDKIDGNMOM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD349A0)
 
+inline static constexpr unsigned int DKDKIDGNMOM_TypeDefinitionIndex = 11244;
+
 	class DKDKIDGNMOM : public ::System::Object
 	{
 	public:

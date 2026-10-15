@@ -8,6 +8,8 @@ namespace RPG::Client::Promises { class Promise; }
 #define KLKMOIFNKPC___C__DISPLAYCLASS8_0___ENTERBATTLEWITHMAZEINFONEXTFRAME_B__0_OFFSET UNITYSDK_OFFSET(0xB52D560)
 #define KLKMOIFNKPC___C__DISPLAYCLASS8_0___ENTERBATTLEWITHMAZEINFONEXTFRAME_B__1_OFFSET UNITYSDK_OFFSET(0xB52D580)
 
+inline static constexpr unsigned int KLKMOIFNKPC___c__DisplayClass8_0_TypeDefinitionIndex = 61201;
+
 	class KLKMOIFNKPC___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

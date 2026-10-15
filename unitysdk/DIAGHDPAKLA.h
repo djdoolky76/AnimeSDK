@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DIAGHDPAKLA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD24C10)
 #define DIAGHDPAKLA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD24530)
 
+inline static constexpr unsigned int DIAGHDPAKLA_TypeDefinitionIndex = 13096;
+
 	class DIAGHDPAKLA : public ::System::Object
 	{
 	public:

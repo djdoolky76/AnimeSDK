@@ -3,6 +3,8 @@
 
 namespace RPG::Client::Patch
 {
+	inline static constexpr unsigned int RemoteType_TypeDefinitionIndex = 82238;
+
 	enum class RemoteType : ::System::UInt16
 	{
 		None = 0,

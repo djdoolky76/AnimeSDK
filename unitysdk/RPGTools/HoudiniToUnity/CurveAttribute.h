@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPGTools::HoudiniToUnity
 {
+	inline static constexpr unsigned int CurveAttribute_TypeDefinitionIndex = 46933;
+
 	class CurveAttribute : public ::System::Object
 	{
 	public:

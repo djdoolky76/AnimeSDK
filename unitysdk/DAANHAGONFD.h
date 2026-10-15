@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DAANHAGONFD_CTOR_OFFSET UNITYSDK_OFFSET(0xDFBA770)
 #define DAANHAGONFD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xDFBA7A0)
 
+inline static constexpr unsigned int DAANHAGONFD_TypeDefinitionIndex = 52561;
+
 	class DAANHAGONFD
 	{
 	public:

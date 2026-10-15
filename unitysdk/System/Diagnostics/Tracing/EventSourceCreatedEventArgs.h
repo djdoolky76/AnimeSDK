@@ -8,6 +8,8 @@ namespace System::Diagnostics::Tracing { class EventSource; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int EventSourceCreatedEventArgs_TypeDefinitionIndex = 1690;
+
 	class EventSourceCreatedEventArgs : public ::System::EventArgs
 	{
 	public:

@@ -42,6 +42,8 @@ namespace System { class String; }
 #define LDECOFOGIGD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8F5410)
 #define LDECOFOGIGD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8F5470)
 
+inline static constexpr unsigned int LDECOFOGIGD_TypeDefinitionIndex = 29875;
+
 	class LDECOFOGIGD : public ::System::Object
 	{
 	public:

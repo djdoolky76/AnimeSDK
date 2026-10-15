@@ -6,6 +6,8 @@ class AJPBKMBIGNC;
 #define JKNHENOJFIG___C__DISPLAYCLASS44_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB228E10)
 #define JKNHENOJFIG___C__DISPLAYCLASS44_0___CHECKDRIVERSWITCHUNLOCKEDTOAST_B__0_OFFSET UNITYSDK_OFFSET(0xB229420)
 
+inline static constexpr unsigned int JKNHENOJFIG___c__DisplayClass44_0_TypeDefinitionIndex = 81714;
+
 	class JKNHENOJFIG___c__DisplayClass44_0 : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Reflection { class Assembly; }
 
 namespace System
 {
+	inline static constexpr unsigned int ResolveEventHandler_TypeDefinitionIndex = 420;
+
 	class ResolveEventHandler : public ::System::MulticastDelegate
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class SkillData; }
 
 #define PCAHBEILAIO_HHFDAIJIIJN_OFFSET UNITYSDK_OFFSET(0xBFC4AD0)
 
+inline static constexpr unsigned int PCAHBEILAIO_TypeDefinitionIndex = 57669;
+
 	class PCAHBEILAIO : public ::System::Object
 	{
 	public:

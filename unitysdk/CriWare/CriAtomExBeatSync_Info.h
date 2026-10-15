@@ -6,6 +6,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExBeatSync_Info_TypeDefinitionIndex = 40001;
+
 	struct alignas(4) CriAtomExBeatSync_Info
 	{
 		::System::IntPtr playerHn; // 0x10

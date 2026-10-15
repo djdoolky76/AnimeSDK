@@ -127,6 +127,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AONBKHCHAHK_PMPLLODEPJN_OFFSET UNITYSDK_OFFSET(0x1C599300)
 #define AONBKHCHAHK_PPFEKENKLDP_OFFSET UNITYSDK_OFFSET(0x1C595880)
 
+inline static constexpr unsigned int AONBKHCHAHK_TypeDefinitionIndex = 36429;
+
 	class AONBKHCHAHK : public ::PMMIGNNAIJB
 	{
 	public:

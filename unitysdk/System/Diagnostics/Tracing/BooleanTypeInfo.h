@@ -11,6 +11,8 @@ namespace System::Diagnostics::Tracing { class TraceLoggingMetadataCollector; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int BooleanTypeInfo_TypeDefinitionIndex = 1614;
+
 	class BooleanTypeInfo
 	{
 	public:

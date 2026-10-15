@@ -9,6 +9,8 @@ namespace RPG::Client { class DynamicTrailModule_PNNNHOHCKNN; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DynamicTrailModule_CHFHAKMMMGD_TypeDefinitionIndex = 70445;
+
 	class DynamicTrailModule_CHFHAKMMMGD : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class VCameraDOFFocusEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VCameraDOFFocusEntity_TypeDefinitionIndex = 16423;
+
 	class VCameraDOFFocusEntity : public ::RPG::GameCore::JsonConfig
 	{
 	public:

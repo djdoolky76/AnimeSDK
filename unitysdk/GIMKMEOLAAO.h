@@ -32,6 +32,8 @@ namespace System { class String; }
 #define GIMKMEOLAAO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4A1440)
 #define GIMKMEOLAAO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4A14A0)
 
+inline static constexpr unsigned int GIMKMEOLAAO_TypeDefinitionIndex = 29103;
+
 	class GIMKMEOLAAO : public ::System::Object
 	{
 	public:

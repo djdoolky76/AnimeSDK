@@ -14,6 +14,8 @@ namespace System { class Exception; }
 #define OHNBGJKGAPI__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xBE74EB0)
 #define OHNBGJKGAPI__ONTASKBEGIN_B__1_1_OFFSET UNITYSDK_OFFSET(0xBE74F30)
 
+inline static constexpr unsigned int OHNBGJKGAPI_TypeDefinitionIndex = 47102;
+
 	class OHNBGJKGAPI : public ::GELIALJDFBL
 	{
 	public:

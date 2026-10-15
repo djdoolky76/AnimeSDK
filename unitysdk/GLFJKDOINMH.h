@@ -14,6 +14,8 @@ namespace RPG::Client { class UIStateCtrl; }
 #define GLFJKDOINMH_PIOGLEMHPJE_OFFSET UNITYSDK_OFFSET(0x15AB0A80)
 #define GLFJKDOINMH__ONBIND_OFFSET UNITYSDK_OFFSET(0x15AB0630)
 
+inline static constexpr unsigned int GLFJKDOINMH_TypeDefinitionIndex = 71664;
+
 	class GLFJKDOINMH : public ::FMPCODLIOLG
 	{
 	public:

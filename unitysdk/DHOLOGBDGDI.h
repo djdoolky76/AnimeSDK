@@ -29,6 +29,8 @@ namespace System { class String; }
 #define DHOLOGBDGDI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1B9F20)
 #define DHOLOGBDGDI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1B9F80)
 
+inline static constexpr unsigned int DHOLOGBDGDI_TypeDefinitionIndex = 31221;
+
 	class DHOLOGBDGDI : public ::System::Object
 	{
 	public:

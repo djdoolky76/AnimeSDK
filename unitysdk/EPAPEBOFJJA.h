@@ -30,6 +30,8 @@ namespace System { class String; }
 #define EPAPEBOFJJA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E302E50)
 #define EPAPEBOFJJA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E302EB0)
 
+inline static constexpr unsigned int EPAPEBOFJJA_TypeDefinitionIndex = 26831;
+
 	class EPAPEBOFJJA : public ::System::Object
 	{
 	public:

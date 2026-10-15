@@ -17,6 +17,8 @@ class NHLGPCOOCMA;
 #define GLDDJECCBAO_IFHHFINIMCB_OFFSET UNITYSDK_OFFSET(0x15AAEBD0)
 #define GLDDJECCBAO_JKMAPLMJGPL_OFFSET UNITYSDK_OFFSET(0x15AAED70)
 
+inline static constexpr unsigned int GLDDJECCBAO_TypeDefinitionIndex = 74612;
+
 	class GLDDJECCBAO : public ::System::Object
 	{
 	public:

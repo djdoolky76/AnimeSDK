@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoopCGConfigRow_TypeDefinitionIndex = 15414;
+
 	class LoopCGConfigRow : public ::System::Object
 	{
 	public:

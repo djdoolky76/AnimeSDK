@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int MonoTeamTowersBrick_TypeDefinitionIndex = 79087;
+
 	class MonoTeamTowersBrick : public ::UnityEngine::MonoBehaviour
 	{
 	public:

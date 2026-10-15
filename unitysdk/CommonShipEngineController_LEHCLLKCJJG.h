@@ -6,6 +6,8 @@ class AirshipEngineBehaviorMode;
 
 #define COMMONSHIPENGINECONTROLLER_LEHCLLKCJJG_DLAILGNMFGI_OFFSET UNITYSDK_OFFSET(0xF12E0)
 
+inline static constexpr unsigned int CommonShipEngineController_LEHCLLKCJJG_TypeDefinitionIndex = 47086;
+
 	struct alignas(4) CommonShipEngineController_LEHCLLKCJJG
 	{
 		::System::Single GCJMFBKLGHI; // 0x10

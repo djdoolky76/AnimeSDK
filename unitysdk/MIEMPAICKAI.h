@@ -11,6 +11,8 @@ class AJHPHMDACGG;
 #define MIEMPAICKAI_SET_ID_OFFSET UNITYSDK_OFFSET(0xB952AD0)
 #define MIEMPAICKAI_SET_SPECIALMARKSTATE_OFFSET UNITYSDK_OFFSET(0xB952AF0)
 
+inline static constexpr unsigned int MIEMPAICKAI_TypeDefinitionIndex = 81009;
+
 	class MIEMPAICKAI : public ::System::Object
 	{
 	public:

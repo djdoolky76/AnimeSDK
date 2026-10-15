@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define IHIDPEDODEN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E67F1E0)
 #define IHIDPEDODEN___C___CCTOR_B__49_0_OFFSET UNITYSDK_OFFSET(0x1E67F1F0)
 
+inline static constexpr unsigned int IHIDPEDODEN___c_TypeDefinitionIndex = 25517;
+
 	class IHIDPEDODEN___c : public ::System::Object
 	{
 	public:

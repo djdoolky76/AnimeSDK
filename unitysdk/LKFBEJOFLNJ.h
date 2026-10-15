@@ -23,6 +23,8 @@ namespace RPG::GameCore { class ChenLingCardPreCheckRow; }
 #define LKFBEJOFLNJ_SET_USECARDID_OFFSET UNITYSDK_OFFSET(0xB733080)
 #define LKFBEJOFLNJ_SET_USECARDTYPE_OFFSET UNITYSDK_OFFSET(0xB733060)
 
+inline static constexpr unsigned int LKFBEJOFLNJ_TypeDefinitionIndex = 76344;
+
 	class LKFBEJOFLNJ : public ::System::Object
 	{
 	public:

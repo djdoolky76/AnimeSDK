@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OMBFNOOBJFD_PBNOCMEKDDI_OFFSET UNITYSDK_OFFSET(0xBF18A10)
 #define OMBFNOOBJFD_TICK_OFFSET UNITYSDK_OFFSET(0xBF184C0)
 
+inline static constexpr unsigned int OMBFNOOBJFD_TypeDefinitionIndex = 58266;
+
 	class OMBFNOOBJFD : public ::GELIALJDFBL
 	{
 	public:

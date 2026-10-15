@@ -16,6 +16,8 @@ namespace System::Text { class StringBuilder; }
 #define OIPMNNAHIFP_SET_AVATARID_OFFSET UNITYSDK_OFFSET(0xAF40)
 #define OIPMNNAHIFP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x25400)
 
+inline static constexpr unsigned int OIPMNNAHIFP_TypeDefinitionIndex = 51896;
+
 	struct alignas(4) OIPMNNAHIFP
 	{
 		::System::UInt32 _AvatarID_k__BackingField; // 0x10

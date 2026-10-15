@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HeadFrameUtils_TypeDefinitionIndex = 65647;
+
 	class HeadFrameUtils : public ::System::Object
 	{
 	public:

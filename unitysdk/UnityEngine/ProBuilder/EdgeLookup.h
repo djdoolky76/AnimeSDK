@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int EdgeLookup_TypeDefinitionIndex = 44352;
+
 	struct alignas(4) EdgeLookup
 	{
 		::UnityEngine::ProBuilder::Edge m_Local; // 0x10

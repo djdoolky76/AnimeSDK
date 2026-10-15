@@ -8,6 +8,8 @@ namespace System { class String; }
 #define KHBIBLMGMGC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D091450)
 #define KHBIBLMGMGC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0911E0)
 
+inline static constexpr unsigned int KHBIBLMGMGC_TypeDefinitionIndex = 15137;
+
 	class KHBIBLMGMGC : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvCharacterFloatingState_TypeDefinitionIndex = 57051;
+
 	enum class AdvCharacterFloatingState : ::System::Int32
 	{
 		Ground = 0,

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGridCyreneEffect_TypeDefinitionIndex = 64837;
+
 	class GridFightGridCyreneEffect : public ::EBMFAGKJIIM
 	{
 	public:

@@ -6,6 +6,8 @@ class APDMIIEDMLI_CFHOMFLPNNO;
 #define APDMIIEDMLI_CCTOR_OFFSET UNITYSDK_OFFSET(0x15BA7030)
 #define APDMIIEDMLI_CTOR_OFFSET UNITYSDK_OFFSET(0x15BA7020)
 
+inline static constexpr unsigned int APDMIIEDMLI_TypeDefinitionIndex = 59937;
+
 	class APDMIIEDMLI : public ::System::Object
 	{
 	public:

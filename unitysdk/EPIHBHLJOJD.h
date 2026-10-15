@@ -30,6 +30,8 @@ namespace System { class String; }
 #define EPIHBHLJOJD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E30DED0)
 #define EPIHBHLJOJD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E30DF30)
 
+inline static constexpr unsigned int EPIHBHLJOJD_TypeDefinitionIndex = 31173;
+
 	class EPIHBHLJOJD : public ::System::Object
 	{
 	public:

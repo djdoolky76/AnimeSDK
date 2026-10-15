@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ShowArcherProjectionSelectInBattle; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowArcherProjectionSelectInBattle_TypeDefinitionIndex = 23290;
+
 	class ShowArcherProjectionSelectInBattle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

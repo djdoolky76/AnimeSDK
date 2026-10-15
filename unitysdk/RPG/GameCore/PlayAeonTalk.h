@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlayAeonTalk; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayAeonTalk_TypeDefinitionIndex = 21115;
+
 	class PlayAeonTalk : public ::RPG::GameCore::PlayRogueSimpleTalk
 	{
 	public:

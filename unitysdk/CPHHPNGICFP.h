@@ -7,6 +7,8 @@
 #define CPHHPNGICFP_CDKBKBNJMEH_OFFSET UNITYSDK_OFFSET(0xDCD58F0)
 #define CPHHPNGICFP_CTOR_OFFSET UNITYSDK_OFFSET(0xDCD5890)
 
+inline static constexpr unsigned int CPHHPNGICFP_TypeDefinitionIndex = 68904;
+
 	class CPHHPNGICFP : public ::System::Object
 	{
 	public:

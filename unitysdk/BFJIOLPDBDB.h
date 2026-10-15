@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BFJIOLPDBDB_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D674050)
 #define BFJIOLPDBDB_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D673970)
 
+inline static constexpr unsigned int BFJIOLPDBDB_TypeDefinitionIndex = 13446;
+
 	class BFJIOLPDBDB : public ::System::Object
 	{
 	public:

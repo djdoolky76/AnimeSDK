@@ -7,6 +7,8 @@
 #define DPDEPLLPIKC_INTERP_OFFSET UNITYSDK_OFFSET(0x11FFA870)
 #define DPDEPLLPIKC_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x11FFA770)
 
+inline static constexpr unsigned int DPDEPLLPIKC_TypeDefinitionIndex = 74022;
+
 	class DPDEPLLPIKC
 	{
 	public:

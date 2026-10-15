@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int IAdventureSettingConflictShowInfo_TypeDefinitionIndex = 61306;
+
 	class IAdventureSettingConflictShowInfo
 	{
 	public:

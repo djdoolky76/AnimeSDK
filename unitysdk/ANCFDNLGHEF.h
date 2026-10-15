@@ -15,6 +15,8 @@ namespace RPG::GameCore { class FiveDimMapSurfaceConfig; }
 #define ANCFDNLGHEF_SET_SURFACEID_OFFSET UNITYSDK_OFFSET(0x15592000)
 #define ANCFDNLGHEF_SET__POSITIONINFACE_OFFSET UNITYSDK_OFFSET(0x15592020)
 
+inline static constexpr unsigned int ANCFDNLGHEF_TypeDefinitionIndex = 74666;
+
 	class ANCFDNLGHEF : public ::System::Object
 	{
 	public:

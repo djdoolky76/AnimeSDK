@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CIPCDNCKCGE_SET_NAME_OFFSET UNITYSDK_OFFSET(0xCF904E0)
 #define CIPCDNCKCGE_SET_UNLOCKSUBMISSIONID_OFFSET UNITYSDK_OFFSET(0xCF90480)
 
+inline static constexpr unsigned int CIPCDNCKCGE_TypeDefinitionIndex = 80750;
+
 	class CIPCDNCKCGE : public ::System::Object
 	{
 	public:

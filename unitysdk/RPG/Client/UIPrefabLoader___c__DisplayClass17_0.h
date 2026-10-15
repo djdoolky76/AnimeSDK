@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIPrefabLoader___c__DisplayClass17_0_TypeDefinitionIndex = 73099;
+
 	class UIPrefabLoader___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

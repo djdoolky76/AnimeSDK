@@ -9,6 +9,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int CharacterController_TypeDefinitionIndex = 5315;
+
 	class CharacterController : public ::UnityEngine::Collider
 	{
 	public:

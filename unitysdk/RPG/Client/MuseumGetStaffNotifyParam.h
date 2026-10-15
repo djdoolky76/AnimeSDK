@@ -7,6 +7,8 @@ namespace RPG::Client { class MuseumStaffData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MuseumGetStaffNotifyParam_TypeDefinitionIndex = 66342;
+
 	class MuseumGetStaffNotifyParam : public ::System::Object
 	{
 	public:

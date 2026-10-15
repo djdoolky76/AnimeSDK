@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LOMJGJBBEFP_OIFJEILKKCE_OFFSET UNITYSDK_OFFSET(0x1C9206F0)
 #define LOMJGJBBEFP_PLOINPGENBH_OFFSET UNITYSDK_OFFSET(0x1C91F8F0)
 
+inline static constexpr unsigned int LOMJGJBBEFP_TypeDefinitionIndex = 42462;
+
 	class LOMJGJBBEFP : public ::HLFHMKMJNPK
 	{
 	public:

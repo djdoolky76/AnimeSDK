@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TrainCakeCatchExhibitController_CatGround_TypeDefinitionIndex = 60220;
+
 	class TrainCakeCatchExhibitController_CatGround : public ::System::Object
 	{
 	public:

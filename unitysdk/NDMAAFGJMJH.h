@@ -5,6 +5,8 @@ namespace System { class String; }
 #define NDMAAFGJMJH_CTOR_OFFSET UNITYSDK_OFFSET(0xAF40)
 #define NDMAAFGJMJH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1FF60)
 
+inline static constexpr unsigned int NDMAAFGJMJH_TypeDefinitionIndex = 67215;
+
 	struct alignas(4) NDMAAFGJMJH
 	{
 		::System::UInt32 MNGBKJEBIGB; // 0x10

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CalcElevatorLoopTime_TypeDefinitionIndex = 20496;
+
 	class CalcElevatorLoopTime : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 #define OMMEOILKLHA_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0xBF34040)
 #define OMMEOILKLHA_OMJCIPOOJNF_OFFSET UNITYSDK_OFFSET(0xBF34180)
 
+inline static constexpr unsigned int OMMEOILKLHA_TypeDefinitionIndex = 78022;
+
 	class OMMEOILKLHA : public ::EFENAEKOKBI
 	{
 	public:

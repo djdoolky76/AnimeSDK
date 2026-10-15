@@ -16,6 +16,8 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceSessionStageResu
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceSessionStageResultOfMemory_TypeDefinitionIndex = 81490;
+
 	class ChallengeTierceSessionStageResultOfMemory : public ::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase
 	{
 	public:

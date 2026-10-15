@@ -3,6 +3,8 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IntersectionMaskCircle_t_TypeDefinitionIndex = 39316;
+
 	struct alignas(4) IntersectionMaskCircle_t
 	{
 		::System::Single m_flCenterX; // 0x10

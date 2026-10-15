@@ -63,6 +63,8 @@ namespace System { class String; }
 #define PIOGCEBHNBF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF709C0)
 #define PIOGCEBHNBF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF70A20)
 
+inline static constexpr unsigned int PIOGCEBHNBF_TypeDefinitionIndex = 25398;
+
 	class PIOGCEBHNBF : public ::System::Object
 	{
 	public:

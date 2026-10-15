@@ -10,6 +10,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_ReadyFunc; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int Browser___c__DisplayClass162_0_TypeDefinitionIndex = 39340;
+
 	class Browser___c__DisplayClass162_0 : public ::System::Object
 	{
 	public:

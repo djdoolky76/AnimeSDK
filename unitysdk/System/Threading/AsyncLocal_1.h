@@ -6,6 +6,8 @@ namespace System { class Action; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int AsyncLocal_1_TypeDefinitionIndex = 822;
+
 	template <typename T>
 	class AsyncLocal_1 : public ::System::Object
 	{

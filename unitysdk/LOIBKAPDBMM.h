@@ -25,6 +25,8 @@ namespace System { class String; }
 #define LOIBKAPDBMM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9C08E0)
 #define LOIBKAPDBMM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9C0940)
 
+inline static constexpr unsigned int LOIBKAPDBMM_TypeDefinitionIndex = 27397;
+
 	class LOIBKAPDBMM : public ::System::Object
 	{
 	public:

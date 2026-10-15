@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PMBCCLDHIPA_CTOR_OFFSET UNITYSDK_OFFSET(0xC314870)
 #define PMBCCLDHIPA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC3148A0)
 
+inline static constexpr unsigned int PMBCCLDHIPA_TypeDefinitionIndex = 54703;
+
 	class PMBCCLDHIPA
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System::Text { class StringBuilder; }
 #define ONBNKDPCNPD_OOFNJHFFGFC_9_OFFSET UNITYSDK_OFFSET(0x1DD862D0)
 #define ONBNKDPCNPD_OOFNJHFFGFC_OFFSET UNITYSDK_OFFSET(0x1DD85B10)
 
+inline static constexpr unsigned int ONBNKDPCNPD_TypeDefinitionIndex = 6402;
+
 	class ONBNKDPCNPD : public ::System::Object
 	{
 	public:

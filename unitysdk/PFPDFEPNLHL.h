@@ -25,6 +25,8 @@ namespace System { class String; }
 #define PFPDFEPNLHL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF29A20)
 #define PFPDFEPNLHL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF29A80)
 
+inline static constexpr unsigned int PFPDFEPNLHL_TypeDefinitionIndex = 30673;
+
 	class PFPDFEPNLHL : public ::System::Object
 	{
 	public:

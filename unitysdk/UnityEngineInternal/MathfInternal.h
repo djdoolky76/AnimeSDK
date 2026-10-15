@@ -5,6 +5,8 @@
 
 namespace UnityEngineInternal
 {
+	inline static constexpr unsigned int MathfInternal_TypeDefinitionIndex = 3918;
+
 	struct alignas(4) MathfInternal
 	{
 		static ::System::Single* StaticGet_FloatMinNormal()

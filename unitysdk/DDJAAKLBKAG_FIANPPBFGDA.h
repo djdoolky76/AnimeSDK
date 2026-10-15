@@ -27,6 +27,8 @@ namespace System { class Action; }
 #define DDJAAKLBKAG_FIANPPBFGDA_SET_WINDOWSERVICE_OFFSET UNITYSDK_OFFSET(0xE4E0750)
 #define DDJAAKLBKAG_FIANPPBFGDA__CREATE_B__24_0_OFFSET UNITYSDK_OFFSET(0xE4E0C60)
 
+inline static constexpr unsigned int DDJAAKLBKAG_FIANPPBFGDA_TypeDefinitionIndex = 79596;
+
 	class DDJAAKLBKAG_FIANPPBFGDA : public ::System::Object
 	{
 	public:

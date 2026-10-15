@@ -6,6 +6,8 @@ namespace System { class Object; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::UI { class RawImage; }
 
+inline static constexpr unsigned int PHLPHOICCDI___c__0_1_TypeDefinitionIndex = 49940;
+
 	template <typename T>
 	class PHLPHOICCDI___c__0_1 : public ::System::Object
 	{

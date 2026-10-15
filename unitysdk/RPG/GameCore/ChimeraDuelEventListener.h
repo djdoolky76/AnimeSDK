@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChimeraDuelEventListener; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelEventListener_TypeDefinitionIndex = 16022;
+
 	class ChimeraDuelEventListener : public ::RPG::GameCore::JsonConfig
 	{
 	public:

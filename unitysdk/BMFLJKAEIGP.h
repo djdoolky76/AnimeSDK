@@ -16,6 +16,8 @@ namespace System { class String; }
 #define BMFLJKAEIGP_DHHDFAAJMMC_OFFSET UNITYSDK_OFFSET(0xBDACA40)
 #define BMFLJKAEIGP__ONBIND_OFFSET UNITYSDK_OFFSET(0xBDAC770)
 
+inline static constexpr unsigned int BMFLJKAEIGP_TypeDefinitionIndex = 72299;
+
 	class BMFLJKAEIGP : public ::FMPCODLIOLG
 	{
 	public:

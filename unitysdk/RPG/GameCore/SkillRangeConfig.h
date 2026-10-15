@@ -9,6 +9,8 @@ namespace RPG::GameCore { class SkillRangeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SkillRangeConfig_TypeDefinitionIndex = 17507;
+
 	class SkillRangeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

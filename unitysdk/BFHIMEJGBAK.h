@@ -7,6 +7,8 @@
 #define BFHIMEJGBAK_CTOR_OFFSET UNITYSDK_OFFSET(0xB164310)
 #define BFHIMEJGBAK_GMKENGMMLKP_OFFSET UNITYSDK_OFFSET(0xB164300)
 
+inline static constexpr unsigned int BFHIMEJGBAK_TypeDefinitionIndex = 55390;
+
 	class BFHIMEJGBAK : public ::System::Object
 	{
 	public:

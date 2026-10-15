@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueMagicScepterRow_TypeDefinitionIndex = 14880;
+
 	class RogueMagicScepterRow : public ::System::Object
 	{
 	public:

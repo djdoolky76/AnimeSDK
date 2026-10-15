@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GlobalReactionParameter_TypeDefinitionIndex = 15638;
+
 	class GlobalReactionParameter : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Type; }
 
 namespace RPG::Client::UI3D
 {
+	inline static constexpr unsigned int UI3DVirtualCameraFreeLook_TypeDefinitionIndex = 78992;
+
 	class UI3DVirtualCameraFreeLook : public ::RPG::Client::UI3D::UI3DVirtualCameraBase
 	{
 	public:

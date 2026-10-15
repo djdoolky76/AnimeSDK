@@ -6,6 +6,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomConfig_Switch2OpusVoicePoolConfig_TypeDefinitionIndex = 40165;
+
 	class CriAtomConfig_Switch2OpusVoicePoolConfig : public ::System::Object
 	{
 	public:

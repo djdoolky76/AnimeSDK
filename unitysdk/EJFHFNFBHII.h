@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define EJFHFNFBHII_CTOR_OFFSET UNITYSDK_OFFSET(0x154D85F0)
 
+inline static constexpr unsigned int EJFHFNFBHII_TypeDefinitionIndex = 81263;
+
 	class EJFHFNFBHII : public ::System::Object
 	{
 	public:

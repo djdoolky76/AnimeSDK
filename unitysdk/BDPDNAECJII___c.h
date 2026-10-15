@@ -15,6 +15,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define BDPDNAECJII___C___INITPLAYER_B__47_0_OFFSET UNITYSDK_OFFSET(0x1C5B6EC0)
 #define BDPDNAECJII___C___INITPLAYER_B__47_1_OFFSET UNITYSDK_OFFSET(0x1C5B6F30)
 
+inline static constexpr unsigned int BDPDNAECJII___c_TypeDefinitionIndex = 37160;
+
 	class BDPDNAECJII___c : public ::System::Object
 	{
 	public:

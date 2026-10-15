@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ElfWaiterConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfWaiterConfig_TypeDefinitionIndex = 18470;
+
 	class ElfWaiterConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

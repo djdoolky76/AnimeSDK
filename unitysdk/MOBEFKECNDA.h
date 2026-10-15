@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TryTransferToHeroRoom; }
 #define MOBEFKECNDA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA21D10)
 #define MOBEFKECNDA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBA21D60)
 
+inline static constexpr unsigned int MOBEFKECNDA_TypeDefinitionIndex = 58808;
+
 	class MOBEFKECNDA
 	{
 	public:

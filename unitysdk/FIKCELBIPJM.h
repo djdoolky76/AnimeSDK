@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimDanmuTrack; }
 #define FIKCELBIPJM_OLIBOBNAGBG_OFFSET UNITYSDK_OFFSET(0x1CA6E8A0)
 #define FIKCELBIPJM_PANOONGGPNA_OFFSET UNITYSDK_OFFSET(0x1CA6E7F0)
 
+inline static constexpr unsigned int FIKCELBIPJM_TypeDefinitionIndex = 43405;
+
 	class FIKCELBIPJM : public ::System::Object
 	{
 	public:

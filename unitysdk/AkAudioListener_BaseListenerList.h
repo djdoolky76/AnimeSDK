@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AKAUDIOLISTENER_BASELISTENERLIST_GET_LISTENERLIST_OFFSET UNITYSDK_OFFSET(0x1F576670)
 #define AKAUDIOLISTENER_BASELISTENERLIST_REMOVE_OFFSET UNITYSDK_OFFSET(0x1F576AC0)
 
+inline static constexpr unsigned int AkAudioListener_BaseListenerList_TypeDefinitionIndex = 44912;
+
 	class AkAudioListener_BaseListenerList : public ::System::Object
 	{
 	public:

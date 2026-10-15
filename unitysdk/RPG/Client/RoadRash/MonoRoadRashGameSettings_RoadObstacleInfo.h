@@ -5,6 +5,8 @@ namespace RPG::Client::RoadRash { class MonoRoadRashGameRoadObstacle; }
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int MonoRoadRashGameSettings_RoadObstacleInfo_TypeDefinitionIndex = 75873;
+
 	struct alignas(8) MonoRoadRashGameSettings_RoadObstacleInfo
 	{
 		::RPG::Client::RoadRash::MonoRoadRashGameRoad* Road; // 0x10

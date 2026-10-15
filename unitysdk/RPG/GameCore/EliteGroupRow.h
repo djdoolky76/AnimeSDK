@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EliteGroupRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EliteGroupRow_TypeDefinitionIndex = 14184;
+
 	class EliteGroupRow : public ::System::Object
 	{
 	public:

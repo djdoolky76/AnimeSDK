@@ -5,6 +5,8 @@
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarbleSealTalkConfig_TypeDefinitionIndex = 75976;
+
 	struct alignas(4) MarbleSealTalkConfig
 	{
 		::System::UInt32 TalkID; // 0x10

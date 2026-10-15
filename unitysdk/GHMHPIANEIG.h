@@ -13,6 +13,8 @@ namespace System { class String; }
 #define GHMHPIANEIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE4ACD0)
 #define GHMHPIANEIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE4AC10)
 
+inline static constexpr unsigned int GHMHPIANEIG_TypeDefinitionIndex = 22919;
+
 	class GHMHPIANEIG : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

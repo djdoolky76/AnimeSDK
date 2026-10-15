@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int BFHGEENHOLP_LuaObjectType_TypeDefinitionIndex = 69479;
+
 	enum class BFHGEENHOLP_LuaObjectType : ::System::Int32
 	{
 		None = -1,

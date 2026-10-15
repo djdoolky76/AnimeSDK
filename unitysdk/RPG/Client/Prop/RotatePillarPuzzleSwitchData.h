@@ -7,6 +7,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int RotatePillarPuzzleSwitchData_TypeDefinitionIndex = 78811;
+
 	class RotatePillarPuzzleSwitchData : public ::System::Object
 	{
 	public:

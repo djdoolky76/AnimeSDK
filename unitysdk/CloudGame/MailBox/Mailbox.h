@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace CloudGame::MailBox
 {
+	inline static constexpr unsigned int Mailbox_TypeDefinitionIndex = 7543;
+
 	class Mailbox : public ::System::Object
 	{
 	public:

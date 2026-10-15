@@ -3,6 +3,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int PinballPageProxy_PinballPageFloatBtnType_TypeDefinitionIndex = 78766;
+
 	enum class PinballPageProxy_PinballPageFloatBtnType : ::System::Int32
 	{
 		ACTIVE = 0,

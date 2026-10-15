@@ -7,6 +7,8 @@ namespace RPG::Client { class IAssetOperation; }
 #define HFCOGLIEHFB_CTOR_OFFSET UNITYSDK_OFFSET(0x15C70680)
 #define HFCOGLIEHFB_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x15C705F0)
 
+inline static constexpr unsigned int HFCOGLIEHFB_TypeDefinitionIndex = 82302;
+
 	class HFCOGLIEHFB : public ::IDHNPGBOIKD
 	{
 	public:

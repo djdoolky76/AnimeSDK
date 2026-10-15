@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtBehaviorFlagStateAction_TypeDefinitionIndex = 17643;
+
 	class RtBehaviorFlagStateAction : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CHODMJBHEMJ_NILCFIFPNLN_OFFSET UNITYSDK_OFFSET(0xCF61630)
 #define CHODMJBHEMJ_SET_STORYENTRYLIST_OFFSET UNITYSDK_OFFSET(0xCF616E0)
 
+inline static constexpr unsigned int CHODMJBHEMJ_TypeDefinitionIndex = 62425;
+
 	class CHODMJBHEMJ : public ::System::Object
 	{
 	public:

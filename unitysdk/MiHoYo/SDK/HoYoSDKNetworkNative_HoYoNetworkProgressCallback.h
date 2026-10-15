@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HoYoSDKNetworkNative_HoYoNetworkProgressCallback_TypeDefinitionIndex = 46121;
+
 	class HoYoSDKNetworkNative_HoYoNetworkProgressCallback : public ::System::MulticastDelegate
 	{
 	public:

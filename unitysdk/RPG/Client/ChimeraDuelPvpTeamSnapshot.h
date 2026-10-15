@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelPvpTeamSnapshot_TypeDefinitionIndex = 63299;
+
 	class ChimeraDuelPvpTeamSnapshot : public ::System::Object
 	{
 	public:

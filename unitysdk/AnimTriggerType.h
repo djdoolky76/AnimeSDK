@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int AnimTriggerType_TypeDefinitionIndex = 47134;
+
 	enum class AnimTriggerType : ::System::Int32
 	{
 		OnDead = 0,

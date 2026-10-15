@@ -37,6 +37,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StateRunBlendTree_TypeDefinitionIndex = 68842;
+
 	class StateRunBlendTree : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:

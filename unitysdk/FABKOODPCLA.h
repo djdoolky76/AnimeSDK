@@ -33,6 +33,8 @@ namespace System { class String; }
 #define FABKOODPCLA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E31B7B0)
 #define FABKOODPCLA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E31B810)
 
+inline static constexpr unsigned int FABKOODPCLA_TypeDefinitionIndex = 32611;
+
 	class FABKOODPCLA : public ::System::Object
 	{
 	public:

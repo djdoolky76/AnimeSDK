@@ -51,6 +51,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 #define KDCNOMHGMNO_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0xB349480)
 #define KDCNOMHGMNO_PHMGENGILPP_OFFSET UNITYSDK_OFFSET(0xB34A0A0)
 
+inline static constexpr unsigned int KDCNOMHGMNO_TypeDefinitionIndex = 54096;
+
 	class KDCNOMHGMNO : public ::System::Object
 	{
 	public:

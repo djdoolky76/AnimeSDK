@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WhiteBoxFuncCommand_TypeDefinitionIndex = 22814;
+
 	class WhiteBoxFuncCommand : public ::RPG::GameCore::TaskConfig
 	{
 	public:

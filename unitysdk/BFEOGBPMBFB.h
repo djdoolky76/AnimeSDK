@@ -7,6 +7,8 @@
 #define BFEOGBPMBFB_GET_KEY_OFFSET UNITYSDK_OFFSET(0xFB90)
 #define BFEOGBPMBFB_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xFBB0)
 
+inline static constexpr unsigned int BFEOGBPMBFB_TypeDefinitionIndex = 62158;
+
 	struct alignas(4) BFEOGBPMBFB
 	{
 		::DIKBMJBFOBG _Key_k__BackingField; // 0x10

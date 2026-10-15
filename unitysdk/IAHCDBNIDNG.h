@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IAHCDBNIDNG_IFMOAJFEBDO_OFFSET UNITYSDK_OFFSET(0x15E0E290)
 #define IAHCDBNIDNG_PENLOOKMGKI_OFFSET UNITYSDK_OFFSET(0x15E0DCA0)
 
+inline static constexpr unsigned int IAHCDBNIDNG_TypeDefinitionIndex = 65568;
+
 	class IAHCDBNIDNG : public ::System::Object
 	{
 	public:

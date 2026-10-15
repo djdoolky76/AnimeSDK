@@ -8,6 +8,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace Coffee::UIExtensions
 {
+	inline static constexpr unsigned int UIParticle___c__DisplayClass5_0_TypeDefinitionIndex = 45155;
+
 	class UIParticle___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

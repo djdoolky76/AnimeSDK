@@ -9,6 +9,8 @@ namespace RPG::Client { class LimaoNewsDutyCheckGreetingBranch; }
 #define GFMKFAPADMA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE3DC00)
 #define GFMKFAPADMA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE3DBC0)
 
+inline static constexpr unsigned int GFMKFAPADMA_TypeDefinitionIndex = 10246;
+
 	class GFMKFAPADMA : public ::RPG::GameCore::TaskConfig
 	{
 	public:

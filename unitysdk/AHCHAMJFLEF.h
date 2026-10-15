@@ -7,6 +7,8 @@ namespace System { class Type; }
 #define AHCHAMJFLEF_CTOR_OFFSET UNITYSDK_OFFSET(0xEB7A850)
 #define AHCHAMJFLEF_GETCONTEXT_OFFSET UNITYSDK_OFFSET(0xEB7A7D0)
 
+inline static constexpr unsigned int AHCHAMJFLEF_TypeDefinitionIndex = 73395;
+
 	class AHCHAMJFLEF : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ class MNCOPNHONHO;
 #define PNLLCFEFEDE_CTOR_OFFSET UNITYSDK_OFFSET(0xC34D600)
 #define PNLLCFEFEDE_EXECUTE_OFFSET UNITYSDK_OFFSET(0xC34D610)
 
+inline static constexpr unsigned int PNLLCFEFEDE_TypeDefinitionIndex = 76822;
+
 	class PNLLCFEFEDE : public ::System::Object
 	{
 	public:

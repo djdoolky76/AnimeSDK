@@ -6,6 +6,8 @@ class CCGFLDDDIPN;
 #define CCGFLDDDIPN_CTOR_OFFSET UNITYSDK_OFFSET(0xC73AC50)
 #define CCGFLDDDIPN_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0xC73ABE0)
 
+inline static constexpr unsigned int CCGFLDDDIPN_TypeDefinitionIndex = 56307;
+
 	class CCGFLDDDIPN : public ::System::Object
 	{
 	public:

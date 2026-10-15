@@ -12,6 +12,8 @@ namespace RPG::GameCore { class AdventureCharacterController; }
 #define HFLPENKPGIH_OFIHKDMLIIP_OFFSET UNITYSDK_OFFSET(0x15C8BAD0)
 #define HFLPENKPGIH_TICK_OFFSET UNITYSDK_OFFSET(0x15C8B8A0)
 
+inline static constexpr unsigned int HFLPENKPGIH_TypeDefinitionIndex = 57354;
+
 	class HFLPENKPGIH : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AKTRIGGERHANDLER_START_OFFSET UNITYSDK_OFFSET(0x1F618C70)
 #define AKTRIGGERHANDLER_UNREGISTERTRIGGERS_OFFSET UNITYSDK_OFFSET(0x1F619020)
 
+inline static constexpr unsigned int AkTriggerHandler_TypeDefinitionIndex = 44967;
+
 	class AkTriggerHandler : public ::UnityEngine::MonoBehaviour
 	{
 	public:

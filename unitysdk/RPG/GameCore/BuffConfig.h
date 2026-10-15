@@ -9,6 +9,8 @@ namespace RPG::GameCore { class BuffConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BuffConfig_TypeDefinitionIndex = 13071;
+
 	class BuffConfig : public ::System::Object
 	{
 	public:

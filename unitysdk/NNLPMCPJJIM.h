@@ -9,6 +9,8 @@ class NNLPMCPJJIM;
 #define NNLPMCPJJIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D23C640)
 #define NNLPMCPJJIM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D23C440)
 
+inline static constexpr unsigned int NNLPMCPJJIM_TypeDefinitionIndex = 13783;
+
 	class NNLPMCPJJIM : public ::System::Object
 	{
 	public:

@@ -56,6 +56,8 @@ namespace System { class Random; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int MMathf_TypeDefinitionIndex = 6385;
+
 	struct alignas(4) MMathf
 	{
 		static ::System::Single* StaticGet_Epsilon()

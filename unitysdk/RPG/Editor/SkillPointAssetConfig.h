@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int SkillPointAssetConfig_TypeDefinitionIndex = 52036;
+
 	class SkillPointAssetConfig : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GIHLNOIACIH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E498BE0)
 #define GIHLNOIACIH___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E498BF0)
 
+inline static constexpr unsigned int GIHLNOIACIH___c_TypeDefinitionIndex = 34428;
+
 	class GIHLNOIACIH___c : public ::System::Object
 	{
 	public:

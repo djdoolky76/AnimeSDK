@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimRefillPlayerJumpEnergyAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimRefillPlayerJumpEnergyAction_TypeDefinitionIndex = 18726;
+
 	class FiveDimRefillPlayerJumpEnergyAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

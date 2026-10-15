@@ -7,6 +7,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightPrayQuest___O_TypeDefinitionIndex = 65088;
+
 	class GridFightPrayQuest___O : public ::System::Object
 	{
 	public:

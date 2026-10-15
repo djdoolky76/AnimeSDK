@@ -10,6 +10,8 @@ namespace System { class Action; }
 #define CCEGMAMFLLK_DOONENTER_OFFSET UNITYSDK_OFFSET(0xC738910)
 #define CCEGMAMFLLK_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xC738980)
 
+inline static constexpr unsigned int CCEGMAMFLLK_TypeDefinitionIndex = 57487;
+
 	class CCEGMAMFLLK : public ::EDLDHDMLJDH
 	{
 	public:

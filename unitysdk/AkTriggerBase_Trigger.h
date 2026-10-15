@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 #define AKTRIGGERBASE_TRIGGER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F618100)
 #define AKTRIGGERBASE_TRIGGER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F6180C0)
 
+inline static constexpr unsigned int AkTriggerBase_Trigger_TypeDefinitionIndex = 44960;
+
 	class AkTriggerBase_Trigger : public ::System::MulticastDelegate
 	{
 	public:

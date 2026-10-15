@@ -7,6 +7,8 @@
 #define MOIOIIICKOI_GET_MOVEDIRECTION_OFFSET UNITYSDK_OFFSET(0xBA2D270)
 #define MOIOIIICKOI_SET_MOVEDIRECTION_OFFSET UNITYSDK_OFFSET(0xBA2D280)
 
+inline static constexpr unsigned int MOIOIIICKOI_TypeDefinitionIndex = 68956;
+
 	class MOIOIIICKOI : public ::System::Object
 	{
 	public:

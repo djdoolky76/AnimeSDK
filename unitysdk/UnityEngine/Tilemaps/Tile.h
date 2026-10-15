@@ -28,6 +28,8 @@ namespace UnityEngine::Tilemaps { class ITilemap; }
 
 namespace UnityEngine::Tilemaps
 {
+	inline static constexpr unsigned int Tile_TypeDefinitionIndex = 5855;
+
 	class Tile : public ::UnityEngine::Tilemaps::TileBase
 	{
 	public:

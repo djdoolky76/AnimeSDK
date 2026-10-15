@@ -30,6 +30,8 @@ namespace System { class String; }
 #define IJHPILBBHDI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E694570)
 #define IJHPILBBHDI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6945D0)
 
+inline static constexpr unsigned int IJHPILBBHDI_TypeDefinitionIndex = 32434;
+
 	class IJHPILBBHDI : public ::System::Object
 	{
 	public:

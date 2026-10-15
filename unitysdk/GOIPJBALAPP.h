@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GOIPJBALAPP_CTOR_OFFSET UNITYSDK_OFFSET(0x15B34C50)
 #define GOIPJBALAPP_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15B34750)
 
+inline static constexpr unsigned int GOIPJBALAPP_TypeDefinitionIndex = 77340;
+
 	class GOIPJBALAPP : public ::System::Object
 	{
 	public:

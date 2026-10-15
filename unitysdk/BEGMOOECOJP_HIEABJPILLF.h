@@ -23,6 +23,8 @@ namespace RPG { template <typename T> class PoolList_1; }
 #define BEGMOOECOJP_HIEABJPILLF_NHIMCEIOFCP_OFFSET UNITYSDK_OFFSET(0x2E80F10)
 #define BEGMOOECOJP_HIEABJPILLF_SET_SERIALID_OFFSET UNITYSDK_OFFSET(0x94B0)
 
+inline static constexpr unsigned int BEGMOOECOJP_HIEABJPILLF_TypeDefinitionIndex = 76599;
+
 	struct alignas(8) BEGMOOECOJP_HIEABJPILLF
 	{
 		::System::UInt64 _SerialID_k__BackingField; // 0x10

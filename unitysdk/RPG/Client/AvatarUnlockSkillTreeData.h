@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarUnlockSkillTreeData_TypeDefinitionIndex = 62478;
+
 	class AvatarUnlockSkillTreeData : public ::System::Object
 	{
 	public:

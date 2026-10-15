@@ -31,6 +31,8 @@ namespace System { class String; }
 #define FIJIEAHHGFK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E398C30)
 #define FIJIEAHHGFK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E398C90)
 
+inline static constexpr unsigned int FIJIEAHHGFK_TypeDefinitionIndex = 32178;
+
 	class FIJIEAHHGFK : public ::System::Object
 	{
 	public:

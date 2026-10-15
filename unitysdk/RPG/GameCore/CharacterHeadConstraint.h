@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CharacterHeadConstraint; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterHeadConstraint_TypeDefinitionIndex = 20864;
+
 	class CharacterHeadConstraint : public ::RPG::GameCore::JsonConfig
 	{
 	public:

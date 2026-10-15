@@ -50,6 +50,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BezierCurve_TypeDefinitionIndex = 36079;
+
 	class BezierCurve : public ::UnityEngine::MonoBehaviour
 	{
 	public:

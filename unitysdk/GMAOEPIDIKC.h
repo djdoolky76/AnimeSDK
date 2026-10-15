@@ -11,6 +11,8 @@ class ODCELNBAEIB;
 #define GMAOEPIDIKC_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x15ACA130)
 #define GMAOEPIDIKC_ONCPBPEOIOH_OFFSET UNITYSDK_OFFSET(0x15ACA380)
 
+inline static constexpr unsigned int GMAOEPIDIKC_TypeDefinitionIndex = 79096;
+
 	class GMAOEPIDIKC : public ::System::Object
 	{
 	public:

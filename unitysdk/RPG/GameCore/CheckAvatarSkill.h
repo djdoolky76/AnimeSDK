@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CheckAvatarSkill; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CheckAvatarSkill_TypeDefinitionIndex = 22970;
+
 	class CheckAvatarSkill : public ::RPG::GameCore::TaskConfig
 	{
 	public:

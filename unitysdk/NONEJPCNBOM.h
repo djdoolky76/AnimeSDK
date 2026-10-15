@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NONEJPCNBOM_EXECUTE_OFFSET UNITYSDK_OFFSET(0xBCF53C0)
 #define NONEJPCNBOM_LIIEOICANAA_OFFSET UNITYSDK_OFFSET(0xBCF6570)
 
+inline static constexpr unsigned int NONEJPCNBOM_TypeDefinitionIndex = 77267;
+
 	class NONEJPCNBOM : public ::System::Object
 	{
 	public:

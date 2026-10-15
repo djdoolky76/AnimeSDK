@@ -7,6 +7,8 @@ class PBGNKMMDBGD;
 #define FFHFJECEOJO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C615920)
 #define FFHFJECEOJO_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C615930)
 
+inline static constexpr unsigned int FFHFJECEOJO_TypeDefinitionIndex = 37387;
+
 	class FFHFJECEOJO : public ::GPLOFONGBGI
 	{
 	public:

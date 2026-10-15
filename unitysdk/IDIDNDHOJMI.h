@@ -7,6 +7,8 @@ class FMIHMGNLBPN;
 #define IDIDNDHOJMI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15ED6B30)
 #define IDIDNDHOJMI_CTOR_OFFSET UNITYSDK_OFFSET(0x15ED6CA0)
 
+inline static constexpr unsigned int IDIDNDHOJMI_TypeDefinitionIndex = 66507;
+
 	class IDIDNDHOJMI : public ::System::Object
 	{
 	public:

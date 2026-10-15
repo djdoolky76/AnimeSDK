@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int BrowserWin32Helper_WndProcDelegate_TypeDefinitionIndex = 46608;
+
 	class BrowserWin32Helper_WndProcDelegate : public ::System::MulticastDelegate
 	{
 	public:

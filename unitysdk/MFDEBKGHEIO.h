@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define MFDEBKGHEIO_KICKOCALNHC_OFFSET UNITYSDK_OFFSET(0x1D1569D0)
 
+inline static constexpr unsigned int MFDEBKGHEIO_TypeDefinitionIndex = 10847;
+
 	struct alignas(8) MFDEBKGHEIO
 	{
 		::RPG::GameCore::DynamicValueReadType GMPGDEINODK; // 0x10

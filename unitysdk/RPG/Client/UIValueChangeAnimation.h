@@ -24,6 +24,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIValueChangeAnimation_TypeDefinitionIndex = 69118;
+
 	class UIValueChangeAnimation : public ::UnityEngine::MonoBehaviour
 	{
 	public:

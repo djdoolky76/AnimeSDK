@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DrinkMakerCheersPerformanceRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DrinkMakerCheersPerformanceRow_TypeDefinitionIndex = 13211;
+
 	class DrinkMakerCheersPerformanceRow : public ::System::Object
 	{
 	public:

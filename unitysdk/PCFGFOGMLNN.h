@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define PCFGFOGMLNN_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xBFFF070)
 #define PCFGFOGMLNN_INVOKE_OFFSET UNITYSDK_OFFSET(0xBFFF030)
 
+inline static constexpr unsigned int PCFGFOGMLNN_TypeDefinitionIndex = 57110;
+
 	class PCFGFOGMLNN : public ::System::MulticastDelegate
 	{
 	public:

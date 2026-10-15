@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define ALFMMJHGBPP___DOACTIVE_D__7_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x155674D0)
 #define ALFMMJHGBPP___DOACTIVE_D__7_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15567100)
 
+inline static constexpr unsigned int ALFMMJHGBPP___DoActive_d__7_TypeDefinitionIndex = 57129;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
 	class ALFMMJHGBPP___DoActive_d__7 : public ::System::Object
 	{

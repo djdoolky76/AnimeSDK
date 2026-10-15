@@ -3,6 +3,8 @@
 
 #define OOLFBCOGDMM_EXECUTE_OFFSET UNITYSDK_OFFSET(0x25C30)
 
+inline static constexpr unsigned int OOLFBCOGDMM_TypeDefinitionIndex = 71089;
+
 	struct alignas(4) OOLFBCOGDMM
 	{
 		::System::Int32 MPAJJCGFAKP; // 0x10

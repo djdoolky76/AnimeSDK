@@ -10,6 +10,8 @@ class HCAOKGHPNLA;
 #define HCAOKGHPNLA_SET_FROMPROPID_OFFSET UNITYSDK_OFFSET(0x15C168A0)
 #define HCAOKGHPNLA_SET_TOPROPID_OFFSET UNITYSDK_OFFSET(0x15C168C0)
 
+inline static constexpr unsigned int HCAOKGHPNLA_TypeDefinitionIndex = 78525;
+
 	class HCAOKGHPNLA : public ::System::Object
 	{
 	public:

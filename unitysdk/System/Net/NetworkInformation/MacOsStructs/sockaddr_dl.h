@@ -5,6 +5,8 @@
 
 namespace System::Net::NetworkInformation::MacOsStructs
 {
+	inline static constexpr unsigned int sockaddr_dl_TypeDefinitionIndex = 2975;
+
 	struct alignas(8) sockaddr_dl
 	{
 		::System::Byte sdl_len; // 0x10

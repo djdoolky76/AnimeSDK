@@ -9,6 +9,8 @@
 
 namespace Mono
 {
+	inline static constexpr unsigned int SafeGPtrArrayHandle_TypeDefinitionIndex = 21;
+
 	struct alignas(4) SafeGPtrArrayHandle
 	{
 		::Mono::RuntimeGPtrArrayHandle handle; // 0x10

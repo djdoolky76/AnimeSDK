@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueAdventureDestroyPropConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueAdventureDestroyPropConfig_TypeDefinitionIndex = 17892;
+
 	class RogueAdventureDestroyPropConfig : public ::RPG::GameCore::RogueAdventureConfigBase
 	{
 	public:

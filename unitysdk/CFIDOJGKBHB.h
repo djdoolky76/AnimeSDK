@@ -25,6 +25,8 @@ namespace System { class String; }
 #define CFIDOJGKBHB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0A3B10)
 #define CFIDOJGKBHB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0A3B70)
 
+inline static constexpr unsigned int CFIDOJGKBHB_TypeDefinitionIndex = 29554;
+
 	class CFIDOJGKBHB : public ::System::Object
 	{
 	public:

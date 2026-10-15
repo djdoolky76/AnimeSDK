@@ -3,6 +3,8 @@
 class JKNHENOJFIG;
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
+inline static constexpr unsigned int JKNHENOJFIG___c__DisplayClass51_0_TypeDefinitionIndex = 81716;
+
 	struct alignas(8) JKNHENOJFIG___c__DisplayClass51_0
 	{
 		::JKNHENOJFIG* __4__this; // 0x10

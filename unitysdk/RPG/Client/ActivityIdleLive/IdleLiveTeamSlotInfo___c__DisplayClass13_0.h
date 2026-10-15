@@ -8,6 +8,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveTeamSlotLevelUpReward; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveTeamSlotInfo___c__DisplayClass13_0_TypeDefinitionIndex = 75109;
+
 	class IdleLiveTeamSlotInfo___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

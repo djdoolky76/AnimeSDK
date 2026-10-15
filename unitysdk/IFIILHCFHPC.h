@@ -13,6 +13,8 @@
 #define IFIILHCFHPC_PKGCCAPDFBL_OFFSET UNITYSDK_OFFSET(0x15F188F0)
 #define IFIILHCFHPC_SET_OBJECTID_OFFSET UNITYSDK_OFFSET(0x15F189B0)
 
+inline static constexpr unsigned int IFIILHCFHPC_TypeDefinitionIndex = 66735;
+
 	class IFIILHCFHPC : public ::System::Object
 	{
 	public:

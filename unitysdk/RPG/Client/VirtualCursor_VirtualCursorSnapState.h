@@ -11,6 +11,8 @@ namespace RPG::Client { class VirtualCursor; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VirtualCursor_VirtualCursorSnapState_TypeDefinitionIndex = 73237;
+
 	class VirtualCursor_VirtualCursorSnapState : public ::System::Object
 	{
 	public:

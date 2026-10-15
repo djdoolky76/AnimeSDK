@@ -11,6 +11,8 @@ class OBJANKHLNGO;
 #define EAKMNIMFGGK_EBHHDNLACHP_OFFSET UNITYSDK_OFFSET(0x12682C90)
 #define EAKMNIMFGGK_GJFGMKLNAGE_OFFSET UNITYSDK_OFFSET(0x12682E60)
 
+inline static constexpr unsigned int EAKMNIMFGGK_TypeDefinitionIndex = 80212;
+
 	class EAKMNIMFGGK : public ::System::Object
 	{
 	public:

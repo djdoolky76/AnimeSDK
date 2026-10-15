@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CGAACLIDCBP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0A9960)
 #define CGAACLIDCBP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E0A9970)
 
+inline static constexpr unsigned int CGAACLIDCBP___c_TypeDefinitionIndex = 34468;
+
 	class CGAACLIDCBP___c : public ::System::Object
 	{
 	public:

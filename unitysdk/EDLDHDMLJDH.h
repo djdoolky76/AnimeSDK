@@ -84,6 +84,8 @@ namespace UnityEngine { class Transform; }
 #define EDLDHDMLJDH_SET__TRIGGERREGION_OFFSET UNITYSDK_OFFSET(0x133298D0)
 #define EDLDHDMLJDH_TICK_OFFSET UNITYSDK_OFFSET(0x13328080)
 
+inline static constexpr unsigned int EDLDHDMLJDH_TypeDefinitionIndex = 57499;
+
 	class EDLDHDMLJDH : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine { class GameObject; }
 #define AJEKOLJDHAK_KJPCHLKHCHG_OFFSET UNITYSDK_OFFSET(0x12CB9DA0)
 #define AJEKOLJDHAK_LBEEFCEMLNO_OFFSET UNITYSDK_OFFSET(0x12CB9B60)
 
+inline static constexpr unsigned int AJEKOLJDHAK_TypeDefinitionIndex = 73193;
+
 	class AJEKOLJDHAK : public ::System::Object
 	{
 	public:

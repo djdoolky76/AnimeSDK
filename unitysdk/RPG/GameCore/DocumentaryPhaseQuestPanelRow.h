@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DocumentaryPhaseQuestPanelRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DocumentaryPhaseQuestPanelRow_TypeDefinitionIndex = 11217;
+
 	class DocumentaryPhaseQuestPanelRow : public ::System::Object
 	{
 	public:

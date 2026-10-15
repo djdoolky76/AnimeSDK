@@ -17,6 +17,8 @@ namespace System { class Object; }
 #define JLAMCCBFMKK_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0xB232740)
 #define JLAMCCBFMKK_PJIGEGGAHAG_OFFSET UNITYSDK_OFFSET(0xB232420)
 
+inline static constexpr unsigned int JLAMCCBFMKK_TypeDefinitionIndex = 61047;
+
 	class JLAMCCBFMKK : public ::System::Object
 	{
 	public:

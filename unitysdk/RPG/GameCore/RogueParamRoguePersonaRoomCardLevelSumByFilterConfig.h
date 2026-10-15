@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueParamRoguePersonaRoomCardLevelSumByFilterCo
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueParamRoguePersonaRoomCardLevelSumByFilterConfig_TypeDefinitionIndex = 19849;
+
 	class RogueParamRoguePersonaRoomCardLevelSumByFilterConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:

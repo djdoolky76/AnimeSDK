@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BLIILGPDPPI_CTOR_OFFSET UNITYSDK_OFFSET(0xBA77910)
 #define BLIILGPDPPI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA77940)
 
+inline static constexpr unsigned int BLIILGPDPPI_TypeDefinitionIndex = 52766;
+
 	class BLIILGPDPPI
 	{
 	public:

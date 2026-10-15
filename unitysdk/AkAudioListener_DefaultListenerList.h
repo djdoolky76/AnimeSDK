@@ -7,6 +7,8 @@ class AkAudioListener;
 #define AKAUDIOLISTENER_DEFAULTLISTENERLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5765F0)
 #define AKAUDIOLISTENER_DEFAULTLISTENERLIST_REMOVE_OFFSET UNITYSDK_OFFSET(0x1F575BB0)
 
+inline static constexpr unsigned int AkAudioListener_DefaultListenerList_TypeDefinitionIndex = 44913;
+
 	class AkAudioListener_DefaultListenerList : public ::AkAudioListener_BaseListenerList
 	{
 	public:

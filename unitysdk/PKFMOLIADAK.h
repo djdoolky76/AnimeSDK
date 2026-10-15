@@ -7,6 +7,8 @@ class PKFMOLIADAK;
 #define PKFMOLIADAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2F8BA0)
 #define PKFMOLIADAK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2F86D0)
 
+inline static constexpr unsigned int PKFMOLIADAK_TypeDefinitionIndex = 11317;
+
 	class PKFMOLIADAK : public ::System::Object
 	{
 	public:

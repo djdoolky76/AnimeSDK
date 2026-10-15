@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayTimelinePrefab_TypeDefinitionIndex = 21925;
+
 	class PlayTimelinePrefab : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Application_AdvertisingIdentifierCallback_TypeDefinitionIndex = 4028;
+
 	class Application_AdvertisingIdentifierCallback : public ::System::MulticastDelegate
 	{
 	public:

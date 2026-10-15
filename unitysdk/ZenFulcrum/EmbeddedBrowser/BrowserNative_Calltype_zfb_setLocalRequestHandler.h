@@ -13,6 +13,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_NewRequestFunc; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_setLocalRequestHandler_TypeDefinitionIndex = 39408;
+
 	class BrowserNative_Calltype_zfb_setLocalRequestHandler : public ::System::MulticastDelegate
 	{
 	public:

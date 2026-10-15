@@ -15,6 +15,8 @@ namespace System::Collections::ObjectModel { template <typename T1, typename T2>
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityRewardCountData_TypeDefinitionIndex = 61786;
+
 	class ActivityRewardCountData : public ::System::Object
 	{
 	public:

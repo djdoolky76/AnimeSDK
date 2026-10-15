@@ -34,6 +34,8 @@ namespace System { class String; }
 #define LHKAOPAPJEK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9646E0)
 #define LHKAOPAPJEK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E964740)
 
+inline static constexpr unsigned int LHKAOPAPJEK_TypeDefinitionIndex = 33172;
+
 	class LHKAOPAPJEK : public ::System::Object
 	{
 	public:

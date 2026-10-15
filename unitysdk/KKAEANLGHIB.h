@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define KKAEANLGHIB_CCTOR_OFFSET UNITYSDK_OFFSET(0xB461750)
 
+inline static constexpr unsigned int KKAEANLGHIB_TypeDefinitionIndex = 75622;
+
 	class KKAEANLGHIB : public ::System::Object
 	{
 	public:

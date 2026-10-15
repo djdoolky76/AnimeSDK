@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::FateRin::Card
 {
+	inline static constexpr unsigned int IFateRinCardDeckViewModelExtensions_TypeDefinitionIndex = 81136;
+
 	class IFateRinCardDeckViewModelExtensions : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActGetAllKeyWordConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActGetAllKeyWordConfig_TypeDefinitionIndex = 19665;
+
 	class RogueActGetAllKeyWordConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

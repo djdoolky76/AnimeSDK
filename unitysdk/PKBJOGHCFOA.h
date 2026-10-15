@@ -34,6 +34,8 @@ namespace System { class String; }
 #define PKBJOGHCFOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF86570)
 #define PKBJOGHCFOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF865D0)
 
+inline static constexpr unsigned int PKBJOGHCFOA_TypeDefinitionIndex = 28806;
+
 	class PKBJOGHCFOA : public ::System::Object
 	{
 	public:

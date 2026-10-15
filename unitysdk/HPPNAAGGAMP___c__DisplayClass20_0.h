@@ -7,6 +7,8 @@ namespace System { class String; }
 #define HPPNAAGGAMP___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15DE1770)
 #define HPPNAAGGAMP___C__DISPLAYCLASS20_0__STOPTIMELINE_B__0_OFFSET UNITYSDK_OFFSET(0x15DE1780)
 
+inline static constexpr unsigned int HPPNAAGGAMP___c__DisplayClass20_0_TypeDefinitionIndex = 48483;
+
 	class HPPNAAGGAMP___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

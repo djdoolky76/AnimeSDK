@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GFCOGEMCFFD_FBKGBOAJPHF_OFFSET UNITYSDK_OFFSET(0x159EA3B0)
 #define GFCOGEMCFFD_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0x159EA5D0)
 
+inline static constexpr unsigned int GFCOGEMCFFD_TypeDefinitionIndex = 54368;
+
 	class GFCOGEMCFFD : public ::BEMKNPIFMBI
 	{
 	public:

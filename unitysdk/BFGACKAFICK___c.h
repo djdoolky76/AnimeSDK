@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BFGACKAFICK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA6CAD0)
 #define BFGACKAFICK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EA6CAE0)
 
+inline static constexpr unsigned int BFGACKAFICK___c_TypeDefinitionIndex = 33989;
+
 	class BFGACKAFICK___c : public ::System::Object
 	{
 	public:

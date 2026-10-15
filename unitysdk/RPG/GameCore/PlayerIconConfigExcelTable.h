@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerIconConfigExcelTable_TypeDefinitionIndex = 14497;
+
 	class PlayerIconConfigExcelTable : public ::System::Object
 	{
 	public:

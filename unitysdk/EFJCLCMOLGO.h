@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntityList; }
 
 #define EFJCLCMOLGO_CTOR_OFFSET UNITYSDK_OFFSET(0x13A4EBE0)
 
+inline static constexpr unsigned int EFJCLCMOLGO_TypeDefinitionIndex = 47616;
+
 	class EFJCLCMOLGO : public ::System::Object
 	{
 	public:

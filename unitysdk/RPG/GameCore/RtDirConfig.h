@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtDirConfig_TypeDefinitionIndex = 24267;
+
 	class RtDirConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -46,6 +46,8 @@ class PMFGGDFFLPE;
 #define KFDKOGMNCEL_SET_STATESTEP_OFFSET UNITYSDK_OFFSET(0xB395270)
 #define KFDKOGMNCEL_SET_TRACETREESTEP_OFFSET UNITYSDK_OFFSET(0xB395290)
 
+inline static constexpr unsigned int KFDKOGMNCEL_TypeDefinitionIndex = 62586;
+
 	class KFDKOGMNCEL : public ::System::Object
 	{
 	public:

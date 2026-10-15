@@ -3,6 +3,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int TypeNameKind_TypeDefinitionIndex = 320;
+
 	enum class TypeNameKind : ::System::Int32
 	{
 		Name = 0,

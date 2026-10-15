@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PHINPOJOJGD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF3EC40)
 #define PHINPOJOJGD___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1DF3EC50)
 
+inline static constexpr unsigned int PHINPOJOJGD___c_TypeDefinitionIndex = 32689;
+
 	class PHINPOJOJGD___c : public ::System::Object
 	{
 	public:

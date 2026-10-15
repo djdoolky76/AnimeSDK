@@ -24,6 +24,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int HipplenInteractCameraController_TypeDefinitionIndex = 75578;
+
 	class HipplenInteractCameraController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class BaseModifierInstance_ModifierEffectData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureModifierInstance___c__DisplayClass1_0_TypeDefinitionIndex = 54412;
+
 	class AdventureModifierInstance___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

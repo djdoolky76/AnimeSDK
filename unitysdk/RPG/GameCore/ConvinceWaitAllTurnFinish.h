@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ConvinceWaitAllTurnFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConvinceWaitAllTurnFinish_TypeDefinitionIndex = 21842;
+
 	class ConvinceWaitAllTurnFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

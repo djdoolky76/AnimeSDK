@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OLLEOCLINLN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEA8C30)
 #define OLLEOCLINLN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEA8C90)
 
+inline static constexpr unsigned int OLLEOCLINLN_TypeDefinitionIndex = 26348;
+
 	class OLLEOCLINLN : public ::System::Object
 	{
 	public:

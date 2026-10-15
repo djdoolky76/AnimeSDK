@@ -26,6 +26,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UI3DModelRotateComponent_TypeDefinitionIndex = 57549;
+
 	class UI3DModelRotateComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

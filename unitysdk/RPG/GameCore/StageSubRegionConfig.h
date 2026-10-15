@@ -9,6 +9,8 @@ namespace RPG::GameCore { class StageSubRegionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageSubRegionConfig_TypeDefinitionIndex = 19192;
+
 	class StageSubRegionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

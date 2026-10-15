@@ -29,6 +29,8 @@ namespace System { class String; }
 #define ICDBHMEPNDB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6200E0)
 #define ICDBHMEPNDB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E620140)
 
+inline static constexpr unsigned int ICDBHMEPNDB_TypeDefinitionIndex = 26740;
+
 	class ICDBHMEPNDB : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PhotoGraphLongRangeModeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphLongRangeModeConfig_TypeDefinitionIndex = 21657;
+
 	class PhotoGraphLongRangeModeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

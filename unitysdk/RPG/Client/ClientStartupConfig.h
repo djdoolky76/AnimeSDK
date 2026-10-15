@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ClientStartupConfig_TypeDefinitionIndex = 60021;
+
 	class ClientStartupConfig : public ::System::Object
 	{
 	public:

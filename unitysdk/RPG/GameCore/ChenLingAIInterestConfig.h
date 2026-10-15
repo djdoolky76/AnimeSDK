@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChenLingAIInterestConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingAIInterestConfig_TypeDefinitionIndex = 15695;
+
 	class ChenLingAIInterestConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

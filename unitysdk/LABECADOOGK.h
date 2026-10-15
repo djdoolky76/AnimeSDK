@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LABECADOOGK_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB5D5600)
 #define LABECADOOGK_FPJMPMFGMII_OFFSET UNITYSDK_OFFSET(0xB5D5A00)
 
+inline static constexpr unsigned int LABECADOOGK_TypeDefinitionIndex = 77348;
+
 	class LABECADOOGK : public ::System::Object
 	{
 	public:

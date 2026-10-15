@@ -10,6 +10,8 @@ namespace System::Xml::Serialization { class XmlElementAttribute; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlElementAttributes_TypeDefinitionIndex = 2008;
+
 	class XmlElementAttributes : public ::System::Collections::CollectionBase
 	{
 	public:

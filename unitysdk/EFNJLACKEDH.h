@@ -8,6 +8,8 @@ class BKHHFIJCHEP;
 #define EFNJLACKEDH_HCOFMFKFMDK_OFFSET UNITYSDK_OFFSET(0x13A5D8F0)
 #define EFNJLACKEDH_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0x13A5D890)
 
+inline static constexpr unsigned int EFNJLACKEDH_TypeDefinitionIndex = 60333;
+
 	class EFNJLACKEDH : public ::System::Object
 	{
 	public:

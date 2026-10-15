@@ -51,6 +51,8 @@ namespace UnityEngine { class Transform; }
 #define CIEHGAHJDFN_SET_PHOTOGRAPHCONDITIONCOMPLETE_OFFSET UNITYSDK_OFFSET(0xCF69C80)
 #define CIEHGAHJDFN_SET_TIPINFO_OFFSET UNITYSDK_OFFSET(0xCF69CA0)
 
+inline static constexpr unsigned int CIEHGAHJDFN_TypeDefinitionIndex = 69443;
+
 	class CIEHGAHJDFN : public ::System::Object
 	{
 	public:

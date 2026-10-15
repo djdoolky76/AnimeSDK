@@ -11,6 +11,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int LightLambda___c__DisplayClass74_0_TypeDefinitionIndex = 3496;
+
 	class LightLambda___c__DisplayClass74_0 : public ::System::Object
 	{
 	public:

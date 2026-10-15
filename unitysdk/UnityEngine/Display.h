@@ -22,6 +22,8 @@ namespace UnityEngine { class Display_DisplaysUpdatedDelegate; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Display_TypeDefinitionIndex = 4112;
+
 	class Display : public ::System::Object
 	{
 	public:

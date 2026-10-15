@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JEALAGIGPFB_TICK_OFFSET UNITYSDK_OFFSET(0x16614360)
 #define JEALAGIGPFB__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0x16614010)
 
+inline static constexpr unsigned int JEALAGIGPFB_TypeDefinitionIndex = 57424;
+
 	class JEALAGIGPFB : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

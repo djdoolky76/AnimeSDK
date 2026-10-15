@@ -29,6 +29,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int AntiAddictionManager_TypeDefinitionIndex = 7982;
+
 	class AntiAddictionManager : public ::System::Object
 	{
 	public:

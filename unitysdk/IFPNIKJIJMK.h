@@ -27,6 +27,8 @@ namespace System { class String; }
 #define IFPNIKJIJMK_PPDBAGOHOIN_OFFSET UNITYSDK_OFFSET(0x15F346C0)
 #define IFPNIKJIJMK_TICK_OFFSET UNITYSDK_OFFSET(0x15F33310)
 
+inline static constexpr unsigned int IFPNIKJIJMK_TypeDefinitionIndex = 58486;
+
 	class IFPNIKJIJMK : public ::GELIALJDFBL
 	{
 	public:

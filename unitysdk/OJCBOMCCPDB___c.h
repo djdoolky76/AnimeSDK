@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define OJCBOMCCPDB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE7DFC0)
 #define OJCBOMCCPDB___C___CCTOR_B__118_0_OFFSET UNITYSDK_OFFSET(0x1DE7DFD0)
 
+inline static constexpr unsigned int OJCBOMCCPDB___c_TypeDefinitionIndex = 25544;
+
 	class OJCBOMCCPDB___c : public ::System::Object
 	{
 	public:

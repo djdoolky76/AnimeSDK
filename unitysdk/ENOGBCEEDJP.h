@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ENOGBCEEDJP_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x155B5FC0)
 #define ENOGBCEEDJP_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x155B6070)
 
+inline static constexpr unsigned int ENOGBCEEDJP_TypeDefinitionIndex = 77892;
+
 	class ENOGBCEEDJP : public ::JNALBIEDNLH
 	{
 	public:

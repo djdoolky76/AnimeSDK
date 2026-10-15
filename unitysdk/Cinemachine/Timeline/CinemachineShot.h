@@ -16,6 +16,8 @@ namespace UnityEngine::Timeline { class IPropertyCollector; }
 
 namespace Cinemachine::Timeline
 {
+	inline static constexpr unsigned int CinemachineShot_TypeDefinitionIndex = 39881;
+
 	class CinemachineShot : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

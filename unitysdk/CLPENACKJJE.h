@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CLPENACKJJE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0FE0C0)
 #define CLPENACKJJE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0FE120)
 
+inline static constexpr unsigned int CLPENACKJJE_TypeDefinitionIndex = 25352;
+
 	class CLPENACKJJE : public ::System::Object
 	{
 	public:

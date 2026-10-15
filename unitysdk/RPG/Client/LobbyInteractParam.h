@@ -13,6 +13,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LobbyInteractParam_TypeDefinitionIndex = 65780;
+
 	class LobbyInteractParam : public ::System::Object
 	{
 	public:

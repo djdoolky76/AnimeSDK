@@ -18,6 +18,8 @@
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsPlanStateRefreshMessage_TypeDefinitionIndex = 80278;
+
 	class LimaoNewsPlanStateRefreshMessage : public ::System::Object
 	{
 	public:

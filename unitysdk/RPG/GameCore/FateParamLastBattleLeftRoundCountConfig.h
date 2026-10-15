@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateParamLastBattleLeftRoundCountConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateParamLastBattleLeftRoundCountConfig_TypeDefinitionIndex = 16627;
+
 	class FateParamLastBattleLeftRoundCountConfig : public ::RPG::GameCore::FateParameterConfigBase
 	{
 	public:

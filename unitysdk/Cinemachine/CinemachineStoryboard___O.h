@@ -6,6 +6,8 @@ namespace UnityEngine::Events { class UnityAction; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineStoryboard___O_TypeDefinitionIndex = 39757;
+
 	class CinemachineStoryboard___O : public ::System::Object
 	{
 	public:

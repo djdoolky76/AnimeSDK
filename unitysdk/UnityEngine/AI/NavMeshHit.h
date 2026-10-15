@@ -9,6 +9,8 @@
 
 namespace UnityEngine::AI
 {
+	inline static constexpr unsigned int NavMeshHit_TypeDefinitionIndex = 5652;
+
 	struct alignas(4) NavMeshHit
 	{
 		::UnityEngine::Vector3 m_Position; // 0x10

@@ -9,6 +9,8 @@ namespace System { class Nullable; }
 #define DADDJLABCNM_CTOR_OFFSET UNITYSDK_OFFSET(0xDFC1020)
 #define DADDJLABCNM_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xDFC0F80)
 
+inline static constexpr unsigned int DADDJLABCNM_TypeDefinitionIndex = 77698;
+
 	class DADDJLABCNM : public ::HBLDGJCDJPF
 	{
 	public:

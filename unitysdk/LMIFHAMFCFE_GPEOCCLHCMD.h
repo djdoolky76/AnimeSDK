@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int LMIFHAMFCFE_GPEOCCLHCMD_TypeDefinitionIndex = 29426;
+
 	enum class LMIFHAMFCFE_GPEOCCLHCMD : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

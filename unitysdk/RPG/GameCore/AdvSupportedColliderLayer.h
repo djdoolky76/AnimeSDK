@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvSupportedColliderLayer_TypeDefinitionIndex = 24514;
+
 	enum class AdvSupportedColliderLayer : ::System::Int32
 	{
 		StageColliderLayer = 0,

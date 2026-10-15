@@ -10,6 +10,8 @@ namespace RPG::Client { class ScheduleData; }
 #define CMEGDOIKIDH_EKNAANPELAI_OFFSET UNITYSDK_OFFSET(0xDA29A90)
 #define CMEGDOIKIDH_ELDFLEAPCCD_OFFSET UNITYSDK_OFFSET(0xDA29B70)
 
+inline static constexpr unsigned int CMEGDOIKIDH_TypeDefinitionIndex = 74925;
+
 	class CMEGDOIKIDH : public ::System::Object
 	{
 	public:

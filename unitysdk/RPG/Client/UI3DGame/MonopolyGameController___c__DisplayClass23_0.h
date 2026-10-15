@@ -9,6 +9,8 @@ namespace RPG::Client::UI3DGame { class MonopolyGameController; }
 
 namespace RPG::Client::UI3DGame
 {
+	inline static constexpr unsigned int MonopolyGameController___c__DisplayClass23_0_TypeDefinitionIndex = 75790;
+
 	class MonopolyGameController___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:

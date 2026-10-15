@@ -32,6 +32,8 @@ namespace System { class String; }
 #define AJGLEIOGOID_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3C1DA0)
 #define AJGLEIOGOID_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3C1E00)
 
+inline static constexpr unsigned int AJGLEIOGOID_TypeDefinitionIndex = 34588;
+
 	class AJGLEIOGOID : public ::System::Object
 	{
 	public:

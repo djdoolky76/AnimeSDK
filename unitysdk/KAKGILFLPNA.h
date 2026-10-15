@@ -6,6 +6,8 @@ namespace RPG::GameCore { class FiveDimMoveBakedConfig; }
 
 #define KAKGILFLPNA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB02E0)
 
+inline static constexpr unsigned int KAKGILFLPNA_TypeDefinitionIndex = 43271;
+
 	class KAKGILFLPNA : public ::System::Object
 	{
 	public:

@@ -24,6 +24,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int AutomataDictionary_TypeDefinitionIndex = 7281;
+
 	class AutomataDictionary : public ::System::Object
 	{
 	public:

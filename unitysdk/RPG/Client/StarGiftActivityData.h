@@ -11,6 +11,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StarGiftActivityData_TypeDefinitionIndex = 61666;
+
 	class StarGiftActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

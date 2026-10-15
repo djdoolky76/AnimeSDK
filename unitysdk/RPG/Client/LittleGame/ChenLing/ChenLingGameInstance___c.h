@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::LittleGame::ChenLing
 {
+	inline static constexpr unsigned int ChenLingGameInstance___c_TypeDefinitionIndex = 77799;
+
 	class ChenLingGameInstance___c : public ::System::Object
 	{
 	public:

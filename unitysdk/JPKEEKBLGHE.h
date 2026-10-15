@@ -9,6 +9,8 @@ namespace RPG::Client { class UIController; }
 #define JPKEEKBLGHE_HKDNHLPLDDG_OFFSET UNITYSDK_OFFSET(0xB2C6860)
 #define JPKEEKBLGHE_ONENTERBEGIN_OFFSET UNITYSDK_OFFSET(0xB2C6980)
 
+inline static constexpr unsigned int JPKEEKBLGHE_TypeDefinitionIndex = 73124;
+
 	class JPKEEKBLGHE : public ::HFACHPPOANI
 	{
 	public:

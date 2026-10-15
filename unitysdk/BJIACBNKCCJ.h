@@ -6,6 +6,8 @@ namespace BansheeGz::BGSpline::Curve { class ICustomBGCurve; }
 
 #define BJIACBNKCCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BB9A0)
 
+inline static constexpr unsigned int BJIACBNKCCJ_TypeDefinitionIndex = 42923;
+
 	class BJIACBNKCCJ : public ::System::Object
 	{
 	public:

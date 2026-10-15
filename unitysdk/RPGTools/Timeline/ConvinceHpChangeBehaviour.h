@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class ConvinceHpChangeClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ConvinceHpChangeBehaviour_TypeDefinitionIndex = 48044;
+
 	class ConvinceHpChangeBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

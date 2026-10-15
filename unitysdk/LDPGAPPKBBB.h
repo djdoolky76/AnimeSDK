@@ -41,6 +41,8 @@ namespace System { class String; }
 #define LDPGAPPKBBB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9019D0)
 #define LDPGAPPKBBB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E901A30)
 
+inline static constexpr unsigned int LDPGAPPKBBB_TypeDefinitionIndex = 29087;
+
 	class LDPGAPPKBBB : public ::System::Object
 	{
 	public:

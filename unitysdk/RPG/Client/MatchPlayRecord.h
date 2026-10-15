@@ -22,6 +22,8 @@ class PNEGDOHOLDN;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchPlayRecord_TypeDefinitionIndex = 66311;
+
 	class MatchPlayRecord : public ::System::Object
 	{
 	public:

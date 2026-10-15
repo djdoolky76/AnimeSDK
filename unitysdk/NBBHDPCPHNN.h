@@ -37,6 +37,8 @@ namespace System { class String; }
 #define NBBHDPCPHNN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EACBDA0)
 #define NBBHDPCPHNN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EACBE00)
 
+inline static constexpr unsigned int NBBHDPCPHNN_TypeDefinitionIndex = 28279;
+
 	class NBBHDPCPHNN : public ::System::Object
 	{
 	public:

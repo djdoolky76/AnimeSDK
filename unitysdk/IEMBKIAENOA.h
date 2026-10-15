@@ -63,6 +63,8 @@ namespace System { class String; }
 #define IEMBKIAENOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E63D600)
 #define IEMBKIAENOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E63D660)
 
+inline static constexpr unsigned int IEMBKIAENOA_TypeDefinitionIndex = 25100;
+
 	class IEMBKIAENOA : public ::System::Object
 	{
 	public:

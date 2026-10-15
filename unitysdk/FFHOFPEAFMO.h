@@ -22,6 +22,8 @@ namespace System { class String; }
 #define FFHOFPEAFMO_ONMODELROOTLOADED_OFFSET UNITYSDK_OFFSET(0x1573E280)
 #define FFHOFPEAFMO_ONMODELROOTUNLOADED_OFFSET UNITYSDK_OFFSET(0x1573E2E0)
 
+inline static constexpr unsigned int FFHOFPEAFMO_TypeDefinitionIndex = 57257;
+
 	class FFHOFPEAFMO : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

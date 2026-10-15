@@ -30,6 +30,8 @@ namespace System { class String; }
 #define JBMDMFOCOAK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6FA100)
 #define JBMDMFOCOAK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6FA160)
 
+inline static constexpr unsigned int JBMDMFOCOAK_TypeDefinitionIndex = 29912;
+
 	class JBMDMFOCOAK : public ::System::Object
 	{
 	public:

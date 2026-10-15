@@ -13,6 +13,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 #define MUSICVISUALIZATION_SPECTRUMEFFECTELEMENTMATARRAY_KFDMIOANNDO_OFFSET UNITYSDK_OFFSET(0xBA4FDA0)
 #define MUSICVISUALIZATION_SPECTRUMEFFECTELEMENTMATARRAY_NHLHOGDFBHD_OFFSET UNITYSDK_OFFSET(0xBA4FFD0)
 
+inline static constexpr unsigned int MusicVisualization_SpectrumEffectElementMatArray_TypeDefinitionIndex = 47473;
+
 	class MusicVisualization_SpectrumEffectElementMatArray : public ::RPG::Client::MusicVisualization_SpectrumEffectElementVisualBase
 	{
 	public:

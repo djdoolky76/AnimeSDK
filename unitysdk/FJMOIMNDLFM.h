@@ -19,6 +19,8 @@ namespace RPG::GameCore { class LoadingStratageConfigRow; }
 #define FJMOIMNDLFM_KADJEBGHMDF_OFFSET UNITYSDK_OFFSET(0x157D97C0)
 #define FJMOIMNDLFM_NGBODAHJPBI_OFFSET UNITYSDK_OFFSET(0x157D99A0)
 
+inline static constexpr unsigned int FJMOIMNDLFM_TypeDefinitionIndex = 60462;
+
 	class FJMOIMNDLFM : public ::System::Object
 	{
 	public:

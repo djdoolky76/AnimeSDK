@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierLostCoinAndGainMoreConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierLostCoinAndGainMoreConfig_TypeDefinitionIndex = 19391;
+
 	class GridFightModifierLostCoinAndGainMoreConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DBMMBDOINNC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E162040)
 #define DBMMBDOINNC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1620A0)
 
+inline static constexpr unsigned int DBMMBDOINNC_TypeDefinitionIndex = 34051;
+
 	class DBMMBDOINNC : public ::System::Object
 	{
 	public:

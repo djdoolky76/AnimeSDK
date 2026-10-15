@@ -18,6 +18,8 @@ namespace UnityEngine { class Animator; }
 #define MFPPIILJIFF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB913C20)
 #define MFPPIILJIFF_TICK_OFFSET UNITYSDK_OFFSET(0xB913DD0)
 
+inline static constexpr unsigned int MFPPIILJIFF_TypeDefinitionIndex = 55716;
+
 	class MFPPIILJIFF : public ::GELIALJDFBL
 	{
 	public:

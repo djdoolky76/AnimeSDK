@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateActivityPanelData_TypeDefinitionIndex = 61618;
+
 	class FateActivityPanelData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

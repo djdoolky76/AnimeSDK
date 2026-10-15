@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SupportData_TypeDefinitionIndex = 64255;
+
 	class SupportData : public ::System::Object
 	{
 	public:

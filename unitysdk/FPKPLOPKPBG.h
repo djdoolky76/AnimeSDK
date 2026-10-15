@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FPKPLOPKPBG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E40BF20)
 #define FPKPLOPKPBG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E40BF80)
 
+inline static constexpr unsigned int FPKPLOPKPBG_TypeDefinitionIndex = 32219;
+
 	class FPKPLOPKPBG : public ::System::Object
 	{
 	public:

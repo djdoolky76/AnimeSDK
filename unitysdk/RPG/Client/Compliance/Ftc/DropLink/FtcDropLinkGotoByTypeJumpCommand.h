@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::Compliance::Ftc::DropLink
 {
+	inline static constexpr unsigned int FtcDropLinkGotoByTypeJumpCommand_TypeDefinitionIndex = 74820;
+
 	class FtcDropLinkGotoByTypeJumpCommand : public ::System::Object
 	{
 	public:

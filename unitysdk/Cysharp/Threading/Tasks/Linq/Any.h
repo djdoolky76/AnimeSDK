@@ -4,6 +4,8 @@
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Any_TypeDefinitionIndex = 45218;
+
 	class Any : public ::System::Object
 	{
 	public:

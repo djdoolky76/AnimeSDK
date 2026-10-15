@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DOMOKHBMHDD_CTOR_OFFSET UNITYSDK_OFFSET(0x11FF2970)
 #define DOMOKHBMHDD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FF29A0)
 
+inline static constexpr unsigned int DOMOKHBMHDD_TypeDefinitionIndex = 54803;
+
 	class DOMOKHBMHDD
 	{
 	public:

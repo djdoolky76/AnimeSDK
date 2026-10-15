@@ -48,6 +48,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Badge
 {
+	inline static constexpr unsigned int BadgeModule_TypeDefinitionIndex = 74991;
+
 	class BadgeModule : public ::RPG::Client::BaseModule
 	{
 	public:

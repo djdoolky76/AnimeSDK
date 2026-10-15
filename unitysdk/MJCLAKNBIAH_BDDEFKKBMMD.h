@@ -24,6 +24,8 @@ namespace ObservableCollections { template <typename T> class ObservableList_1; 
 #define MJCLAKNBIAH_BDDEFKKBMMD_ODEDMNCFPDP_OFFSET UNITYSDK_OFFSET(0xB968870)
 #define MJCLAKNBIAH_BDDEFKKBMMD___CREATETRAITS_B__10_1_OFFSET UNITYSDK_OFFSET(0xB969750)
 
+inline static constexpr unsigned int MJCLAKNBIAH_BDDEFKKBMMD_TypeDefinitionIndex = 79739;
+
 	class MJCLAKNBIAH_BDDEFKKBMMD : public ::System::Object
 	{
 	public:

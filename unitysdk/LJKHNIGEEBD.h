@@ -4,6 +4,8 @@
 
 #define LJKHNIGEEBD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C421560)
 
+inline static constexpr unsigned int LJKHNIGEEBD_TypeDefinitionIndex = 5083;
+
 	class LJKHNIGEEBD : public ::System::Attribute
 	{
 	public:

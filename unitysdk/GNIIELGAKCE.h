@@ -14,6 +14,8 @@ namespace System { class String; }
 #define GNIIELGAKCE_MECHKEFKLJI_OFFSET UNITYSDK_OFFSET(0x15B12320)
 #define GNIIELGAKCE_SET_OFFERINGID_OFFSET UNITYSDK_OFFSET(0x15B12310)
 
+inline static constexpr unsigned int GNIIELGAKCE_TypeDefinitionIndex = 63805;
+
 	class GNIIELGAKCE : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPG::GameCore { class AlleyBaseGridItemData; }
 #define GCNEPHHMGLG_KFDIPBBFOOE_OFFSET UNITYSDK_OFFSET(0x1598F3A0)
 #define GCNEPHHMGLG_SET_GRIDTYPE_OFFSET UNITYSDK_OFFSET(0x1598F450)
 
+inline static constexpr unsigned int GCNEPHHMGLG_TypeDefinitionIndex = 62301;
+
 	class GCNEPHHMGLG : public ::System::Object
 	{
 	public:

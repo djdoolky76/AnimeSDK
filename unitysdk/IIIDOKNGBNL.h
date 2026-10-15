@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IIIDOKNGBNL_SET_LIFETIME_OFFSET UNITYSDK_OFFSET(0x1643D960)
 #define IIIDOKNGBNL_SET_MAXLAYER_OFFSET UNITYSDK_OFFSET(0x1643D940)
 
+inline static constexpr unsigned int IIIDOKNGBNL_TypeDefinitionIndex = 54442;
+
 	class IIIDOKNGBNL : public ::LJNDFBIACLJ
 	{
 	public:

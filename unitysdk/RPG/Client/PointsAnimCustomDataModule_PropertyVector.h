@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PointsAnimCustomDataModule_PropertyVector_TypeDefinitionIndex = 70626;
+
 	class PointsAnimCustomDataModule_PropertyVector : public ::System::Object
 	{
 	public:

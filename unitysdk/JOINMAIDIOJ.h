@@ -6,6 +6,8 @@ namespace RPG::GameCore { class AssistWayPoint; }
 #define JOINMAIDIOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB2A0D00)
 #define JOINMAIDIOJ_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xB2A0CB0)
 
+inline static constexpr unsigned int JOINMAIDIOJ_TypeDefinitionIndex = 66128;
+
 	class JOINMAIDIOJ : public ::System::Object
 	{
 	public:

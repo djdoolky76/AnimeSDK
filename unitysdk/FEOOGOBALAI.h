@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FEOOGOBALAI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1572D920)
 #define FEOOGOBALAI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1572D960)
 
+inline static constexpr unsigned int FEOOGOBALAI_TypeDefinitionIndex = 52334;
+
 	class FEOOGOBALAI
 	{
 	public:

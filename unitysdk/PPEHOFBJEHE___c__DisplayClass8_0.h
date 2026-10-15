@@ -7,6 +7,8 @@ namespace UnityEngine { class Object; }
 #define PPEHOFBJEHE___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC3801A0)
 #define PPEHOFBJEHE___C__DISPLAYCLASS8_0__ONOBJECTCREATEDASYNC_B__0_OFFSET UNITYSDK_OFFSET(0xC380C50)
 
+inline static constexpr unsigned int PPEHOFBJEHE___c__DisplayClass8_0_TypeDefinitionIndex = 70787;
+
 	class PPEHOFBJEHE___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

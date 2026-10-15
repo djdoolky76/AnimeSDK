@@ -7,6 +7,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int OraclePuzzleSolutionItem_TypeDefinitionIndex = 78735;
+
 	class OraclePuzzleSolutionItem : public ::System::Object
 	{
 	public:

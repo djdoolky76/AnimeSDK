@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGCinemachineZoom_GGKDJILKLIK_TypeDefinitionIndex = 69710;
+
 	class RPGCinemachineZoom_GGKDJILKLIK : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 #define OJAOEIMKKKE_CTOR_OFFSET UNITYSDK_OFFSET(0xBEAA060)
 #define OJAOEIMKKKE_OLKJENDHKDF_OFFSET UNITYSDK_OFFSET(0xBEAA000)
 
+inline static constexpr unsigned int OJAOEIMKKKE_TypeDefinitionIndex = 56223;
+
 	class OJAOEIMKKKE : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelResistModifier_TypeDefinitionIndex = 56777;
+
 	class LevelResistModifier : public ::CMPGEAFHHDC
 	{
 	public:

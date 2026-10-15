@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TextureInfo_TypeDefinitionIndex = 70595;
+
 	struct alignas(8) TextureInfo
 	{
 		::System::String* TextureName; // 0x10

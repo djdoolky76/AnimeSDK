@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NKOPIMHENEE_TICK_OFFSET UNITYSDK_OFFSET(0xBC4CD50)
 #define NKOPIMHENEE__ONTASKBEGIN_B__3_0_OFFSET UNITYSDK_OFFSET(0xBC4CE40)
 
+inline static constexpr unsigned int NKOPIMHENEE_TypeDefinitionIndex = 52365;
+
 	class NKOPIMHENEE : public ::GELIALJDFBL
 	{
 	public:

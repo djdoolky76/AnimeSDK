@@ -16,6 +16,8 @@ namespace TMPro { class TMP_SpriteAsset; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7_TypeDefinitionIndex = 44634;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
 	class TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7 : public ::System::Object
 	{

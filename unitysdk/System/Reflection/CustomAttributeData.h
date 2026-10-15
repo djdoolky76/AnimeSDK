@@ -35,6 +35,8 @@ namespace System::Reflection { class ParameterInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int CustomAttributeData_TypeDefinitionIndex = 599;
+
 	class CustomAttributeData : public ::System::Object
 	{
 	public:

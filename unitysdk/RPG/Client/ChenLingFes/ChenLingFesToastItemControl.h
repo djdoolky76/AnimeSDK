@@ -19,6 +19,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesToastItemControl_TypeDefinitionIndex = 81353;
+
 	class ChenLingFesToastItemControl : public ::Sofa::BaseSofaControl
 	{
 	public:

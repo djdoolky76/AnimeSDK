@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define FBKKFMONGAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C552400)
 #define FBKKFMONGAA_LICOGDLBFGE_OFFSET UNITYSDK_OFFSET(0x1C5522C0)
 
+inline static constexpr unsigned int FBKKFMONGAA_TypeDefinitionIndex = 41777;
+
 	class FBKKFMONGAA : public ::DIGCDGKOBMK
 	{
 	public:

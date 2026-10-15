@@ -30,6 +30,8 @@ namespace System { class String; }
 #define BLGIGKAHPAM_NHJGBBBGELN_OFFSET UNITYSDK_OFFSET(0xBA6D8F0)
 #define BLGIGKAHPAM_NKJEEDAGCBI_OFFSET UNITYSDK_OFFSET(0xBA6D480)
 
+inline static constexpr unsigned int BLGIGKAHPAM_TypeDefinitionIndex = 73410;
+
 	class BLGIGKAHPAM : public ::System::Object
 	{
 	public:

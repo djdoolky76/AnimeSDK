@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace XLua
 {
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_8BB18C14_TypeDefinitionIndex = 50160;
+
 	class InternalGlobals___GEN_DELEGATE_B00_8BB18C14 : public ::System::MulticastDelegate
 	{
 	public:

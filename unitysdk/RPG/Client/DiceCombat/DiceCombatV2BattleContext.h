@@ -119,6 +119,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2BattleContext_TypeDefinitionIndex = 76164;
+
 	class DiceCombatV2BattleContext : public ::RPG::Client::BaseGameFlowContext
 	{
 	public:

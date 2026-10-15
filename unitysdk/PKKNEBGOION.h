@@ -116,6 +116,8 @@ namespace UnityEngine { class GameObject; }
 #define PKKNEBGOION_SET_HASREGION_OFFSET UNITYSDK_OFFSET(0xC2CF530)
 #define PKKNEBGOION_SET_SOURCEDISTUSEREGIONV1_OFFSET UNITYSDK_OFFSET(0xC2CF6B0)
 
+inline static constexpr unsigned int PKKNEBGOION_TypeDefinitionIndex = 62175;
+
 	class PKKNEBGOION : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int ProfileUtility_LoadingData_TypeDefinitionIndex = 35152;
+
 	class ProfileUtility_LoadingData : public ::System::Object
 	{
 	public:

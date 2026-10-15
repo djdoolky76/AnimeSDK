@@ -74,6 +74,8 @@ namespace UnityEngine { class Transform; }
 #define KFGKNDNJKMI_SET_STAGE_OFFSET UNITYSDK_OFFSET(0xB39A480)
 #define KFGKNDNJKMI_SET_TRIGGERHANDLER_OFFSET UNITYSDK_OFFSET(0xB39A4A0)
 
+inline static constexpr unsigned int KFGKNDNJKMI_TypeDefinitionIndex = 69311;
+
 	class KFGKNDNJKMI : public ::ICOHAPENNHF
 	{
 	public:

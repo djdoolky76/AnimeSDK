@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MainMissionPackRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MainMissionPackRow_TypeDefinitionIndex = 14147;
+
 	class MainMissionPackRow : public ::System::Object
 	{
 	public:

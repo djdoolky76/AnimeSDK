@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class Text; }
 #define JDOGOCHLJNM_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x16611080)
 #define JDOGOCHLJNM__ONBIND_OFFSET UNITYSDK_OFFSET(0x16610FE0)
 
+inline static constexpr unsigned int JDOGOCHLJNM_TypeDefinitionIndex = 72291;
+
 	class JDOGOCHLJNM : public ::FMPCODLIOLG
 	{
 	public:

@@ -4,6 +4,8 @@ namespace Collections::Pooled { template <typename T1, typename T2> class Pooled
 
 namespace Collections::Pooled
 {
+	inline static constexpr unsigned int PooledDictionary_2_KeyCollection_Enumerator_TypeDefinitionIndex = 5106;
+
 	template <typename T1, typename T2>
 	struct alignas(8) PooledDictionary_2_KeyCollection_Enumerator
 	{

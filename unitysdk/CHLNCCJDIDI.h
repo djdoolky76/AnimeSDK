@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 #define CHLNCCJDIDI_NJBDJBHEBAN_OFFSET UNITYSDK_OFFSET(0xCF5F9A0)
 #define CHLNCCJDIDI__ONBIND_OFFSET UNITYSDK_OFFSET(0xCF5F720)
 
+inline static constexpr unsigned int CHLNCCJDIDI_TypeDefinitionIndex = 71994;
+
 	class CHLNCCJDIDI : public ::FMPCODLIOLG
 	{
 	public:

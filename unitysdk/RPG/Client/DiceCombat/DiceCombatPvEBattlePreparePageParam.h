@@ -12,6 +12,8 @@ namespace RPG::Client::DiceCombat { class DiceCombatPvEBattlePreparePageParam; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatPvEBattlePreparePageParam_TypeDefinitionIndex = 76128;
+
 	class DiceCombatPvEBattlePreparePageParam : public ::System::Object
 	{
 	public:

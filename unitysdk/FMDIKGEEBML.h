@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FMDIKGEEBML_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1584FC20)
 #define FMDIKGEEBML_TICK_OFFSET UNITYSDK_OFFSET(0x1584FBC0)
 
+inline static constexpr unsigned int FMDIKGEEBML_TypeDefinitionIndex = 52296;
+
 	class FMDIKGEEBML
 	{
 	public:

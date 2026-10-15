@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleByImmuneAttackBack; }
 #define DBHMNFJIJMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA14120)
 #define DBHMNFJIJMN_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1CA14140)
 
+inline static constexpr unsigned int DBHMNFJIJMN_TypeDefinitionIndex = 43160;
+
 	class DBHMNFJIJMN : public ::LHJPMDPJPEC
 	{
 	public:

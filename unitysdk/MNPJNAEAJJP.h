@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MNPJNAEAJJP_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0xBA19A00)
 #define MNPJNAEAJJP_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0xBA19AB0)
 
+inline static constexpr unsigned int MNPJNAEAJJP_TypeDefinitionIndex = 57817;
+
 	class MNPJNAEAJJP : public ::System::Object
 	{
 	public:

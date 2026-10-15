@@ -51,6 +51,8 @@ namespace InControl { class TwoAxisInputControl; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int TwoAxisInputControl_TypeDefinitionIndex = 40829;
+
 	class TwoAxisInputControl : public ::System::Object
 	{
 	public:

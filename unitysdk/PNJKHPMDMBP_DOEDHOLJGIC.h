@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PNJKHPMDMBP_DOEDHOLJGIC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xC33CBF0)
 #define PNJKHPMDMBP_DOEDHOLJGIC_INVOKE_OFFSET UNITYSDK_OFFSET(0xC33A9A0)
 
+inline static constexpr unsigned int PNJKHPMDMBP_DOEDHOLJGIC_TypeDefinitionIndex = 55629;
+
 	class PNJKHPMDMBP_DOEDHOLJGIC : public ::System::MulticastDelegate
 	{
 	public:

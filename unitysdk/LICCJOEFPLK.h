@@ -56,6 +56,8 @@ namespace UnityEngine { class GameObject; }
 #define LICCJOEFPLK_OLIPPHIPJMN_OFFSET UNITYSDK_OFFSET(0xB6C52B0)
 #define LICCJOEFPLK_PJNEHMGAMOC_OFFSET UNITYSDK_OFFSET(0xB6C5170)
 
+inline static constexpr unsigned int LICCJOEFPLK_TypeDefinitionIndex = 81964;
+
 	class LICCJOEFPLK : public ::System::Object
 	{
 	public:

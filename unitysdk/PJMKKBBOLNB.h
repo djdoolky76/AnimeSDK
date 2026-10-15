@@ -22,6 +22,8 @@ namespace System { class String; }
 #define PJMKKBBOLNB__ONBIND_OFFSET UNITYSDK_OFFSET(0xC29C3C0)
 #define PJMKKBBOLNB__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xC29C490)
 
+inline static constexpr unsigned int PJMKKBBOLNB_TypeDefinitionIndex = 71300;
+
 	class PJMKKBBOLNB : public ::FMPCODLIOLG
 	{
 	public:

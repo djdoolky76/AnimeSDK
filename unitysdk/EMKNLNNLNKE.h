@@ -88,6 +88,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EMKNLNNLNKE_PBHNKOHNJEO_OFFSET UNITYSDK_OFFSET(0x15550F60)
 #define EMKNLNNLNKE_PFNAKEOGPJI_OFFSET UNITYSDK_OFFSET(0x15552220)
 
+inline static constexpr unsigned int EMKNLNNLNKE_TypeDefinitionIndex = 76785;
+
 	class EMKNLNNLNKE : public ::IBDBGGMIBEE
 	{
 	public:

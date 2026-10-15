@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLCBossDecayRow_TypeDefinitionIndex = 14787;
+
 	class RogueDLCBossDecayRow : public ::System::Object
 	{
 	public:

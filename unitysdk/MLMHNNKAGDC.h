@@ -21,6 +21,8 @@ namespace System { class String; }
 #define MLMHNNKAGDC_LNKFDPNJMBC_OFFSET UNITYSDK_OFFSET(0xB9B9170)
 #define MLMHNNKAGDC_ONIPLEMHAME_OFFSET UNITYSDK_OFFSET(0xB9B9080)
 
+inline static constexpr unsigned int MLMHNNKAGDC_TypeDefinitionIndex = 76533;
+
 	class MLMHNNKAGDC : public ::System::Object
 	{
 	public:

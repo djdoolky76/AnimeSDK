@@ -24,6 +24,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystem_Burst_TypeDefinitionIndex = 5214;
+
 	struct alignas(4) ParticleSystem_Burst
 	{
 		::System::Single m_Time; // 0x10

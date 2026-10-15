@@ -3,6 +3,8 @@
 
 #define OHIOBPKCBFM_CTOR_OFFSET UNITYSDK_OFFSET(0x21E10)
 
+inline static constexpr unsigned int OHIOBPKCBFM_TypeDefinitionIndex = 78658;
+
 	struct alignas(4) OHIOBPKCBFM
 	{
 		::System::Int32 IJPJJPHNBOJ; // 0x10

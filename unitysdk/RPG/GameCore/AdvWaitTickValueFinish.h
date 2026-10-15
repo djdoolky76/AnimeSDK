@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvWaitTickValueFinish_TypeDefinitionIndex = 21028;
+
 	class AdvWaitTickValueFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

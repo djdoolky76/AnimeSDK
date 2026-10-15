@@ -29,6 +29,8 @@ namespace System { class String; }
 #define JDFAFAIMJOM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E708F60)
 #define JDFAFAIMJOM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E708FC0)
 
+inline static constexpr unsigned int JDFAFAIMJOM_TypeDefinitionIndex = 26450;
+
 	class JDFAFAIMJOM : public ::System::Object
 	{
 	public:

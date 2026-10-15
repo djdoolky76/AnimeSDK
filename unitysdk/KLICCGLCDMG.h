@@ -18,6 +18,8 @@ class KCNGFCAMLLN;
 #define KLICCGLCDMG_ONALLOC_OFFSET UNITYSDK_OFFSET(0xB529E90)
 #define KLICCGLCDMG_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0xB529FF0)
 
+inline static constexpr unsigned int KLICCGLCDMG_TypeDefinitionIndex = 73402;
+
 	class KLICCGLCDMG : public ::System::Object
 	{
 	public:

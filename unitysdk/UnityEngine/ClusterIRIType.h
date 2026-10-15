@@ -4,6 +4,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ClusterIRIType_TypeDefinitionIndex = 4292;
+
 	struct alignas(8) ClusterIRIType
 	{
 		::System::UInt64 MaterialHash; // 0x10

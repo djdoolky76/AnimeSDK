@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int AffixUiData_TypeDefinitionIndex = 75411;
+
 	class AffixUiData : public ::System::Object
 	{
 	public:

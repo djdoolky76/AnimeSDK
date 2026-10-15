@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MarbleProperty; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleProperty_TypeDefinitionIndex = 16829;
+
 	class MarbleProperty : public ::RPG::GameCore::JsonConfig
 	{
 	public:

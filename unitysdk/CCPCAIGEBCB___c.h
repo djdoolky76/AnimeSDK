@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CCPCAIGEBCB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E07EDB0)
 #define CCPCAIGEBCB___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E07EDC0)
 
+inline static constexpr unsigned int CCPCAIGEBCB___c_TypeDefinitionIndex = 31713;
+
 	class CCPCAIGEBCB___c : public ::System::Object
 	{
 	public:

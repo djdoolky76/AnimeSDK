@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CommonIndexKey_TypeDefinitionIndex = 10826;
+
 	struct alignas(4) CommonIndexKey
 	{
 		::System::Int32 hashCode; // 0x10

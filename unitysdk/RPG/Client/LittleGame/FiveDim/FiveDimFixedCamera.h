@@ -6,6 +6,8 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimFixedCamera_TypeDefinitionIndex = 76863;
+
 	class FiveDimFixedCamera : public ::RPG::Client::LittleGame::FiveDim::FiveDimMonoCamera
 	{
 	public:

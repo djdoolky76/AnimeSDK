@@ -6,6 +6,8 @@
 #define EJLHJFAKLHH_CCTOR_OFFSET UNITYSDK_OFFSET(0x154E2390)
 #define EJLHJFAKLHH_JMFGJFOAJFG_OFFSET UNITYSDK_OFFSET(0x154E23C0)
 
+inline static constexpr unsigned int EJLHJFAKLHH_TypeDefinitionIndex = 55824;
+
 	class EJLHJFAKLHH : public ::System::Object
 	{
 	public:

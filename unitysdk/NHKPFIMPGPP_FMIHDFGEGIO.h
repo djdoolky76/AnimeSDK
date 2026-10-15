@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NHKPFIMPGPP_FMIHDFGEGIO_GET_PROBABILITY_OFFSET UNITYSDK_OFFSET(0xBBD48B0)
 #define NHKPFIMPGPP_FMIHDFGEGIO_GET_STATETOPLAY_OFFSET UNITYSDK_OFFSET(0xBBD48C0)
 
+inline static constexpr unsigned int NHKPFIMPGPP_FMIHDFGEGIO_TypeDefinitionIndex = 75396;
+
 	class NHKPFIMPGPP_FMIHDFGEGIO : public ::System::Object
 	{
 	public:

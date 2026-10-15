@@ -37,6 +37,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::FullBody
 {
+	inline static constexpr unsigned int IKMapping_BoneMap_TypeDefinitionIndex = 74250;
+
 	class IKMapping_BoneMap : public ::System::Object
 	{
 	public:

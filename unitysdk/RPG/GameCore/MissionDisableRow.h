@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MissionDisableRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MissionDisableRow_TypeDefinitionIndex = 14160;
+
 	class MissionDisableRow : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace RPG::GameCore { class WaitAnimState; }
 #define IGDGNGLNABJ_PMLPLLLBPHL_OFFSET UNITYSDK_OFFSET(0x16401AC0)
 #define IGDGNGLNABJ_TICK_OFFSET UNITYSDK_OFFSET(0x16401FC0)
 
+inline static constexpr unsigned int IGDGNGLNABJ_TypeDefinitionIndex = 55807;
+
 	class IGDGNGLNABJ : public ::GELIALJDFBL
 	{
 	public:

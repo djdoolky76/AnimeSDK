@@ -69,6 +69,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfRestaurantMediator_TypeDefinitionIndex = 63746;
+
 	class ElfRestaurantMediator : public ::System::Object
 	{
 	public:

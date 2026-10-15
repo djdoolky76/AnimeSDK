@@ -55,6 +55,8 @@ namespace UnityEngine { class ScriptableObject; }
 #define FLIGGMCNCHM_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x158331D0)
 #define FLIGGMCNCHM_SET_PREFAB_OFFSET UNITYSDK_OFFSET(0x15833190)
 
+inline static constexpr unsigned int FLIGGMCNCHM_TypeDefinitionIndex = 69136;
+
 	class FLIGGMCNCHM : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPG::GameCore { class LevelAfterScepterTrigger; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelAfterScepterTrigger_TypeDefinitionIndex = 56832;
+
 	class LevelAfterScepterTrigger : public ::CMPGEAFHHDC
 	{
 	public:

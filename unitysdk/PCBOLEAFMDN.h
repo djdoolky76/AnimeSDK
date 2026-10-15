@@ -43,6 +43,8 @@ namespace System { class String; }
 #define PCBOLEAFMDN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF04260)
 #define PCBOLEAFMDN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF042C0)
 
+inline static constexpr unsigned int PCBOLEAFMDN_TypeDefinitionIndex = 27553;
+
 	class PCBOLEAFMDN : public ::System::Object
 	{
 	public:

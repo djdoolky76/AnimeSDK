@@ -9,6 +9,8 @@ namespace UnityEngine::Formats::Alembic::Importer { class AlembicStream; }
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicStream___c__DisplayClass4_0_TypeDefinitionIndex = 45868;
+
 	class AlembicStream___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

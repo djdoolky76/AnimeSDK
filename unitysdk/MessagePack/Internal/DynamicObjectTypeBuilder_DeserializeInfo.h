@@ -17,6 +17,8 @@ namespace System::Reflection::Emit { class LocalBuilder; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int DynamicObjectTypeBuilder_DeserializeInfo_TypeDefinitionIndex = 7318;
+
 	class DynamicObjectTypeBuilder_DeserializeInfo : public ::System::Object
 	{
 	public:

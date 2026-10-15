@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int EnableStandByBreakClip_TypeDefinitionIndex = 48102;
+
 	class EnableStandByBreakClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

@@ -36,6 +36,8 @@ namespace System { class String; }
 #define CCDPOMCEFED_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E072B60)
 #define CCDPOMCEFED_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E072BC0)
 
+inline static constexpr unsigned int CCDPOMCEFED_TypeDefinitionIndex = 30421;
+
 	class CCDPOMCEFED : public ::System::Object
 	{
 	public:

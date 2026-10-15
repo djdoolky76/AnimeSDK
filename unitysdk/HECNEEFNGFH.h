@@ -30,6 +30,8 @@ namespace System { class String; }
 #define HECNEEFNGFH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E557800)
 #define HECNEEFNGFH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E557860)
 
+inline static constexpr unsigned int HECNEEFNGFH_TypeDefinitionIndex = 33842;
+
 	class HECNEEFNGFH : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingBattleTargetEvaluator_LeapSlamTarget; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleTargetEvaluator_LeapSlamTarget_TypeDefinitionIndex = 15775;
+
 	class ChenLingBattleTargetEvaluator_LeapSlamTarget : public ::RPG::GameCore::BaseChenLingBattleTargetEvaluator
 	{
 	public:

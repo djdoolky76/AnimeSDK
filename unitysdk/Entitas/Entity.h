@@ -59,6 +59,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace Entitas
 {
+	inline static constexpr unsigned int Entity_TypeDefinitionIndex = 10004;
+
 	class Entity : public ::System::Object
 	{
 	public:

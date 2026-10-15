@@ -3,6 +3,8 @@
 
 namespace UnityEngineInternal::Input
 {
+	inline static constexpr unsigned int NativeInputEventBuffer_TypeDefinitionIndex = 5793;
+
 	struct alignas(8) NativeInputEventBuffer
 	{
 		::PVOID eventBuffer; // 0x10

@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIAdventureMinimap_IconLayerInfo_TypeDefinitionIndex = 69062;
+
 	class UIAdventureMinimap_IconLayerInfo : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueValueChangeByParamInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueValueChangeByParamInfo_TypeDefinitionIndex = 19860;
+
 	class RogueValueChangeByParamInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

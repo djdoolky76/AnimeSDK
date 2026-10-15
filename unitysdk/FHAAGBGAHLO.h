@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FHAAGBGAHLO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E384A30)
 #define FHAAGBGAHLO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E384A90)
 
+inline static constexpr unsigned int FHAAGBGAHLO_TypeDefinitionIndex = 33346;
+
 	class FHAAGBGAHLO : public ::System::Object
 	{
 	public:

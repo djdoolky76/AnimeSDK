@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TrainPartyMtCategoryScoreRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyMtCategoryScoreRow_TypeDefinitionIndex = 15332;
+
 	class TrainPartyMtCategoryScoreRow : public ::System::Object
 	{
 	public:

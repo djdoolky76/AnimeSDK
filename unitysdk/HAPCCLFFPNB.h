@@ -30,6 +30,8 @@ namespace System { class String; }
 #define HAPCCLFFPNB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E50B490)
 #define HAPCCLFFPNB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E50B4F0)
 
+inline static constexpr unsigned int HAPCCLFFPNB_TypeDefinitionIndex = 31239;
+
 	class HAPCCLFFPNB : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define DCMGMHEFMNH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC84F00)
 
+inline static constexpr unsigned int DCMGMHEFMNH_TypeDefinitionIndex = 43840;
+
 	class DCMGMHEFMNH : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::Client { class ShotAnimMovementData; }
 
 #define GNBHHBLMAIM_CTOR_OFFSET UNITYSDK_OFFSET(0x15AFC270)
 
+inline static constexpr unsigned int GNBHHBLMAIM_TypeDefinitionIndex = 69648;
+
 	class GNBHHBLMAIM : public ::System::Object
 	{
 	public:

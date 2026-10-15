@@ -28,6 +28,8 @@ namespace UnityEngine { class Object; }
 
 namespace RPG::Rendering::Terrain
 {
+	inline static constexpr unsigned int TerrainGridLoader_TypeDefinitionIndex = 51801;
+
 	class TerrainGridLoader : public ::UnityEngine::MonoBehaviour
 	{
 	public:

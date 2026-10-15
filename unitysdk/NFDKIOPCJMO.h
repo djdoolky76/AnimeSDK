@@ -6,6 +6,8 @@ class FDPALAEIHPB;
 #define NFDKIOPCJMO_CTOR_OFFSET UNITYSDK_OFFSET(0xBB7B650)
 #define NFDKIOPCJMO_EXECUTE_OFFSET UNITYSDK_OFFSET(0xBB7B660)
 
+inline static constexpr unsigned int NFDKIOPCJMO_TypeDefinitionIndex = 75808;
+
 	class NFDKIOPCJMO : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::AvatarSystem::Property
 {
+	inline static constexpr unsigned int PropertyModifierBuilder_1_TypeDefinitionIndex = 52007;
+
 	template <typename T>
 	class PropertyModifierBuilder_1 : public ::System::Object
 	{

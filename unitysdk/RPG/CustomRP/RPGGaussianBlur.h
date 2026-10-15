@@ -11,6 +11,8 @@ namespace UnityEngine::Rendering { class IntParameter; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGGaussianBlur_TypeDefinitionIndex = 37815;
+
 	class RPGGaussianBlur : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:

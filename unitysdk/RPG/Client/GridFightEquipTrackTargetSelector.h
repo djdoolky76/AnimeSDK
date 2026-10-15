@@ -11,6 +11,8 @@ namespace RPG::Client { class GridFightRole; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEquipTrackTargetSelector_TypeDefinitionIndex = 65346;
+
 	class GridFightEquipTrackTargetSelector : public ::System::Object
 	{
 	public:

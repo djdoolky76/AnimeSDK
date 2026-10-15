@@ -7,6 +7,8 @@ class HKLAOIMONBG;
 #define HKLAOIMONBG___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15D4AEE0)
 #define HKLAOIMONBG___C__DISPLAYCLASS3_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x15D4B3C0)
 
+inline static constexpr unsigned int HKLAOIMONBG___c__DisplayClass3_0_TypeDefinitionIndex = 58171;
+
 	class HKLAOIMONBG___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

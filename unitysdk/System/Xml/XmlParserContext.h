@@ -23,6 +23,8 @@ namespace System::Xml { class XmlNamespaceManager; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlParserContext_TypeDefinitionIndex = 1839;
+
 	class XmlParserContext : public ::System::Object
 	{
 	public:

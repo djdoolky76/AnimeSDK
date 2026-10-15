@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FreeStyleStateTemplateCharacterConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FreeStyleStateTemplateCharacterConfig_TypeDefinitionIndex = 16315;
+
 	class FreeStyleStateTemplateCharacterConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

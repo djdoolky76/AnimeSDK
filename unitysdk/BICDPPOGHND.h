@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BICDPPOGHND_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE00100)
 #define BICDPPOGHND_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE00160)
 
+inline static constexpr unsigned int BICDPPOGHND_TypeDefinitionIndex = 32360;
+
 	class BICDPPOGHND : public ::System::Object
 	{
 	public:

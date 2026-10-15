@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGameShare/CakeRaceCore/SparkleStatus.h"
 
+inline static constexpr unsigned int PJKLFKHHOMO_TypeDefinitionIndex = 37300;
+
 	struct alignas(4) PJKLFKHHOMO
 	{
 		::System::UInt32 OPNGHDENCAB; // 0x10

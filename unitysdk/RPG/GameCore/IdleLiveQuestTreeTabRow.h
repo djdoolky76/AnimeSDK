@@ -10,6 +10,8 @@ namespace RPG::GameCore { class IdleLiveQuestTreeTabRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveQuestTreeTabRow_TypeDefinitionIndex = 11733;
+
 	class IdleLiveQuestTreeTabRow : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TRFCameraComponentConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TRFCameraComponentConfig_TypeDefinitionIndex = 18907;
+
 	class TRFCameraComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

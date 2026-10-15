@@ -33,6 +33,8 @@ namespace System { class String; }
 #define EHFDAIAINCI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E29F8D0)
 #define EHFDAIAINCI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E29F930)
 
+inline static constexpr unsigned int EHFDAIAINCI_TypeDefinitionIndex = 33497;
+
 	class EHFDAIAINCI : public ::System::Object
 	{
 	public:

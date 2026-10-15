@@ -32,6 +32,8 @@ namespace System { class String; }
 #define PJPAOLMBKEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF83500)
 #define PJPAOLMBKEC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF83560)
 
+inline static constexpr unsigned int PJPAOLMBKEC_TypeDefinitionIndex = 28578;
+
 	class PJPAOLMBKEC : public ::System::Object
 	{
 	public:

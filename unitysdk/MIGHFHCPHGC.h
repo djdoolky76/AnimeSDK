@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define MIGHFHCPHGC_SET_SERVANTSKILLLEVELPROVIDER_OFFSET UNITYSDK_OFFSET(0xB957390)
 #define MIGHFHCPHGC_SET_SERVANT_OFFSET UNITYSDK_OFFSET(0xB9572F0)
 
+inline static constexpr unsigned int MIGHFHCPHGC_TypeDefinitionIndex = 62721;
+
 	class MIGHFHCPHGC : public ::System::Object
 	{
 	public:

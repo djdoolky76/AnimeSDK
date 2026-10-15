@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NBGAENHBEIF_IIJPAELMEEF_OFFSET UNITYSDK_OFFSET(0xBAC0540)
 #define NBGAENHBEIF_SET_FACTORY_OFFSET UNITYSDK_OFFSET(0xBAC0390)
 
+inline static constexpr unsigned int NBGAENHBEIF_TypeDefinitionIndex = 62744;
+
 	class NBGAENHBEIF : public ::System::Object
 	{
 	public:

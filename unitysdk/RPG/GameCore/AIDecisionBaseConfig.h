@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ConsiderationAxisConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AIDecisionBaseConfig_TypeDefinitionIndex = 15481;
+
 	class AIDecisionBaseConfig : public ::RPG::GameCore::AIDecisionUnitConfig
 	{
 	public:

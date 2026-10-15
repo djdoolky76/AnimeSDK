@@ -13,6 +13,8 @@ namespace RPG::Client::TrainParty { class TrainPartyBuildDIYPhotoItem; }
 #define PHPFNBDDNEK_LIEAIMNJANM_OFFSET UNITYSDK_OFFSET(0xC259B40)
 #define PHPFNBDDNEK_MJEKKLGPIAC_OFFSET UNITYSDK_OFFSET(0xC259A70)
 
+inline static constexpr unsigned int PHPFNBDDNEK_TypeDefinitionIndex = 68163;
+
 	class PHPFNBDDNEK : public ::System::Object
 	{
 	public:

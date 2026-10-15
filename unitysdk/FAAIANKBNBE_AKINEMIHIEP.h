@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 #define FAAIANKBNBE_AKINEMIHIEP_NKDLNMPNOJC_OFFSET UNITYSDK_OFFSET(0x15662950)
 #define FAAIANKBNBE_AKINEMIHIEP__ASYNCGET_B__8_0_OFFSET UNITYSDK_OFFSET(0x15662CD0)
 
+inline static constexpr unsigned int FAAIANKBNBE_AKINEMIHIEP_TypeDefinitionIndex = 69206;
+
 	class FAAIANKBNBE_AKINEMIHIEP : public ::System::Object
 	{
 	public:

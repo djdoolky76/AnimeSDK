@@ -15,6 +15,8 @@ namespace ZXing::Common { class BitMatrix; }
 
 namespace ZXing::OneD
 {
+	inline static constexpr unsigned int Code39Writer_TypeDefinitionIndex = 7041;
+
 	class Code39Writer : public ::ZXing::OneD::OneDimensionalCodeWriter
 	{
 	public:

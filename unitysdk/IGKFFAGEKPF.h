@@ -9,6 +9,8 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceSessionStageResu
 #define IGKFFAGEKPF_GET_NEWRESULT_OFFSET UNITYSDK_OFFSET(0x16410560)
 #define IGKFFAGEKPF_GET_OLDRESULT_OFFSET UNITYSDK_OFFSET(0x16410550)
 
+inline static constexpr unsigned int IGKFFAGEKPF_TypeDefinitionIndex = 81452;
+
 	class IGKFFAGEKPF : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine::Rendering { class FloatParameter; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGTonemapping_TypeDefinitionIndex = 37849;
+
 	class RPGTonemapping : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:

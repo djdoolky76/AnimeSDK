@@ -4,6 +4,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExAcfDebug_SelectorInfo_TypeDefinitionIndex = 40183;
+
 	struct alignas(8) CriAtomExAcfDebug_SelectorInfo
 	{
 		::System::String* name; // 0x10

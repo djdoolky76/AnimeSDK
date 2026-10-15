@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LAKCIMANKNP_CTOR_OFFSET UNITYSDK_OFFSET(0xB5E5A20)
 #define LAKCIMANKNP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5E5AA0)
 
+inline static constexpr unsigned int LAKCIMANKNP_TypeDefinitionIndex = 52807;
+
 	class LAKCIMANKNP
 	{
 	public:

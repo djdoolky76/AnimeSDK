@@ -37,6 +37,8 @@ namespace System { class String; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int PathConstraint_TypeDefinitionIndex = 39680;
+
 	class PathConstraint : public ::System::Object
 	{
 	public:

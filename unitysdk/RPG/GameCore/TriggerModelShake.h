@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerModelShake_TypeDefinitionIndex = 22453;
+
 	class TriggerModelShake : public ::RPG::GameCore::TaskConfig
 	{
 	public:

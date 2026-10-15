@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyBuffDataItem_TypeDefinitionIndex = 66217;
+
 	class MonopolyBuffDataItem : public ::System::Object
 	{
 	public:

@@ -54,6 +54,8 @@ namespace System { class String; }
 #define HNKAOFDGLIE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5DE890)
 #define HNKAOFDGLIE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5DE8F0)
 
+inline static constexpr unsigned int HNKAOFDGLIE_TypeDefinitionIndex = 32660;
+
 	class HNKAOFDGLIE : public ::System::Object
 	{
 	public:

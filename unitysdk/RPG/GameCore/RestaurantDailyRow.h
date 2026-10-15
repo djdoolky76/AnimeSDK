@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RestaurantDailyRow_TypeDefinitionIndex = 11328;
+
 	class RestaurantDailyRow : public ::System::Object
 	{
 	public:

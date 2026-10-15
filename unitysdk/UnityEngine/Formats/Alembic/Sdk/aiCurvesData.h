@@ -4,6 +4,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aiCurvesData_TypeDefinitionIndex = 45820;
+
 	struct alignas(4) aiCurvesData
 	{
 		::UnityEngine::Formats::Alembic::Sdk::Bool visibility; // 0x10

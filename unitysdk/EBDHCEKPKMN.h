@@ -21,6 +21,8 @@ namespace UnityEngine { class AnimationClip; }
 #define EBDHCEKPKMN_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0x12CECEF0)
 #define EBDHCEKPKMN_MAHCHECNLEP_OFFSET UNITYSDK_OFFSET(0x12CED120)
 
+inline static constexpr unsigned int EBDHCEKPKMN_TypeDefinitionIndex = 57284;
+
 	class EBDHCEKPKMN : public ::RPG::GameCore::FreeStyleController
 	{
 	public:

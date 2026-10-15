@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ILBattleStageConfigRow_TypeDefinitionIndex = 13797;
+
 	class ILBattleStageConfigRow : public ::System::Object
 	{
 	public:

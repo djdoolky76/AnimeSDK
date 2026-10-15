@@ -14,6 +14,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityIntroButton_TypeDefinitionIndex = 72496;
+
 	class ActivityIntroButton : public ::RPG::Client::AnimatorButton
 	{
 	public:

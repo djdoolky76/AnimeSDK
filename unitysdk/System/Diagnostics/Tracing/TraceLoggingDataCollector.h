@@ -43,6 +43,8 @@ namespace System::Diagnostics::Tracing { class TraceLoggingDataCollector; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int TraceLoggingDataCollector_TypeDefinitionIndex = 1660;
+
 	class TraceLoggingDataCollector : public ::System::Object
 	{
 	public:

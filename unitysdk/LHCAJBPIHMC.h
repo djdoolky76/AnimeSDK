@@ -44,6 +44,8 @@ namespace System { class String; }
 #define LHCAJBPIHMC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E95BF60)
 #define LHCAJBPIHMC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E95BFC0)
 
+inline static constexpr unsigned int LHCAJBPIHMC_TypeDefinitionIndex = 26310;
+
 	class LHCAJBPIHMC : public ::System::Object
 	{
 	public:

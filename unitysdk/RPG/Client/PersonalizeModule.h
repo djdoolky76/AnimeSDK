@@ -40,6 +40,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PersonalizeModule_TypeDefinitionIndex = 66451;
+
 	class PersonalizeModule : public ::RPG::Client::BaseModule
 	{
 	public:

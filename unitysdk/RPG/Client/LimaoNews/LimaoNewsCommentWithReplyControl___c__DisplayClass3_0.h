@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsCommentWithReplyControl___c__DisplayClass3_0_TypeDefinitionIndex = 80354;
+
 	class LimaoNewsCommentWithReplyControl___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

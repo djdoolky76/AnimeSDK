@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetProbePuzzleResetNumber; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetProbePuzzleResetNumber_TypeDefinitionIndex = 22017;
+
 	class SetProbePuzzleResetNumber : public ::RPG::GameCore::TaskConfig
 	{
 	public:

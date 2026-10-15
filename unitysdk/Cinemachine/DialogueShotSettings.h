@@ -13,6 +13,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int DialogueShotSettings_TypeDefinitionIndex = 49634;
+
 	struct alignas(8) DialogueShotSettings
 	{
 		::System::Single Yaw; // 0x10

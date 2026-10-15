@@ -5,6 +5,8 @@
 #define HAILIPBNAJL___C__DISPLAYCLASS41_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C65A050)
 #define HAILIPBNAJL___C__DISPLAYCLASS41_0___GETDICECONTENTWEIGHTLISTMAP_B__1_OFFSET UNITYSDK_OFFSET(0x1C65B100)
 
+inline static constexpr unsigned int HAILIPBNAJL___c__DisplayClass41_0_TypeDefinitionIndex = 36417;
+
 	class HAILIPBNAJL___c__DisplayClass41_0 : public ::System::Object
 	{
 	public:

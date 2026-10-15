@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int TooltipAttribute_TypeDefinitionIndex = 4239;
+
 	class TooltipAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:

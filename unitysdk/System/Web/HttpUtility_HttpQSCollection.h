@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Web
 {
+	inline static constexpr unsigned int HttpUtility_HttpQSCollection_TypeDefinitionIndex = 2664;
+
 	class HttpUtility_HttpQSCollection : public ::System::Collections::Specialized::NameValueCollection
 	{
 	public:

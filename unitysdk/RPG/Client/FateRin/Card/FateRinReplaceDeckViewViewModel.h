@@ -14,6 +14,8 @@ namespace RPG::Client::FateRin::Card { class IFateRinCardDeckViewModel; }
 
 namespace RPG::Client::FateRin::Card
 {
+	inline static constexpr unsigned int FateRinReplaceDeckViewViewModel_TypeDefinitionIndex = 81173;
+
 	class FateRinReplaceDeckViewViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

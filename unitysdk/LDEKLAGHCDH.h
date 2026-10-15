@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define LDEKLAGHCDH_PLHEIJBAKJI_OFFSET UNITYSDK_OFFSET(0xB61F220)
 #define LDEKLAGHCDH_PNELDCNHHGK_OFFSET UNITYSDK_OFFSET(0xB61F9F0)
 
+inline static constexpr unsigned int LDEKLAGHCDH_TypeDefinitionIndex = 60899;
+
 	class LDEKLAGHCDH : public ::System::Object
 	{
 	public:

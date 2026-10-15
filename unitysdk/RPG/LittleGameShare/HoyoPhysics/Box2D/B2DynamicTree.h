@@ -10,6 +10,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2DynamicTree_TypeDefinitionIndex = 36663;
+
 	class B2DynamicTree : public ::System::Object
 	{
 	public:

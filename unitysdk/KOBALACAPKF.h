@@ -34,6 +34,8 @@ namespace System { class String; }
 #define KOBALACAPKF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8AC110)
 #define KOBALACAPKF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8AC170)
 
+inline static constexpr unsigned int KOBALACAPKF_TypeDefinitionIndex = 26984;
+
 	class KOBALACAPKF : public ::System::Object
 	{
 	public:

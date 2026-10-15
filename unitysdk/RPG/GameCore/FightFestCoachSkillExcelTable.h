@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FightFestCoachSkillExcelTable_TypeDefinitionIndex = 13287;
+
 	class FightFestCoachSkillExcelTable : public ::System::Object
 	{
 	public:

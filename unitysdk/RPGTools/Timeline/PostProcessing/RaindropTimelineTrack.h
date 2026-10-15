@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int RaindropTimelineTrack_TypeDefinitionIndex = 48607;
+
 	class RaindropTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

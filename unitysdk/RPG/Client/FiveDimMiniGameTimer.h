@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FiveDimMiniGameTimer_TypeDefinitionIndex = 64226;
+
 	class FiveDimMiniGameTimer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

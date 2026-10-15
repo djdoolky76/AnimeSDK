@@ -11,6 +11,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class JSONNode; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int DownloadManager___c__DisplayClass7_0_TypeDefinitionIndex = 39499;
+
 	class DownloadManager___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

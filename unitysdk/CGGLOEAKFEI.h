@@ -7,6 +7,8 @@ class FCOEMCEDLNL;
 #define CGGLOEAKFEI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC0C460)
 #define CGGLOEAKFEI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC0C320)
 
+inline static constexpr unsigned int CGGLOEAKFEI_TypeDefinitionIndex = 11995;
+
 	class CGGLOEAKFEI : public ::System::Object
 	{
 	public:

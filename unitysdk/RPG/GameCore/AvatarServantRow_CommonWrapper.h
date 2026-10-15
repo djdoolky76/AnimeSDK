@@ -32,6 +32,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarServantRow_CommonWrapper_TypeDefinitionIndex = 56557;
+
 	class AvatarServantRow_CommonWrapper : public ::System::Object
 	{
 	public:

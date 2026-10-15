@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_ElectricChain_TypeDefinitionIndex = 70453;
+
 	class Effect_ElectricChain
 	{
 	public:

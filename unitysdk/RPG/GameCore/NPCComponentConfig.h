@@ -10,6 +10,8 @@ namespace RPG::GameCore { class NPCComponentConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NPCComponentConfig_TypeDefinitionIndex = 16568;
+
 	class NPCComponentConfig : public ::RPG::GameCore::ComponentConfig
 	{
 	public:

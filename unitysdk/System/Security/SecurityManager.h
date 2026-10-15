@@ -8,6 +8,8 @@
 
 namespace System::Security
 {
+	inline static constexpr unsigned int SecurityManager_TypeDefinitionIndex = 953;
+
 	class SecurityManager : public ::System::Object
 	{
 	public:

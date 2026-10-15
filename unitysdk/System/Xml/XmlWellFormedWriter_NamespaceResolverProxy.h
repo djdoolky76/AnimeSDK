@@ -10,6 +10,8 @@ namespace System::Xml { class XmlWellFormedWriter; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlWellFormedWriter_NamespaceResolverProxy_TypeDefinitionIndex = 1874;
+
 	class XmlWellFormedWriter_NamespaceResolverProxy : public ::System::Object
 	{
 	public:

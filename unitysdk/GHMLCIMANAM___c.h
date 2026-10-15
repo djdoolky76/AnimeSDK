@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GHMLCIMANAM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E48D790)
 #define GHMLCIMANAM___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E48D7A0)
 
+inline static constexpr unsigned int GHMLCIMANAM___c_TypeDefinitionIndex = 29303;
+
 	class GHMLCIMANAM___c : public ::System::Object
 	{
 	public:

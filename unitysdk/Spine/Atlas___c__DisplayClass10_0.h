@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int Atlas___c__DisplayClass10_0_TypeDefinitionIndex = 39642;
+
 	class Atlas___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

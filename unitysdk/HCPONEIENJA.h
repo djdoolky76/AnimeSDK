@@ -7,6 +7,8 @@
 #define HCPONEIENJA_IFLGHFBFGIE_OFFSET UNITYSDK_OFFSET(0x15C2F780)
 #define HCPONEIENJA_JBLDNBAJNBA_OFFSET UNITYSDK_OFFSET(0x15C2F730)
 
+inline static constexpr unsigned int HCPONEIENJA_TypeDefinitionIndex = 72368;
+
 	class HCPONEIENJA : public ::System::Object
 	{
 	public:

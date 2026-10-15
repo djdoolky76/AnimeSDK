@@ -18,6 +18,8 @@ namespace System { class String; }
 #define LFPOLDCPIGA_ONMODELARTLOADED_OFFSET UNITYSDK_OFFSET(0xB68B2A0)
 #define LFPOLDCPIGA_ONMODELARTUNLOADED_OFFSET UNITYSDK_OFFSET(0xB68B2E0)
 
+inline static constexpr unsigned int LFPOLDCPIGA_TypeDefinitionIndex = 57314;
+
 	class LFPOLDCPIGA : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

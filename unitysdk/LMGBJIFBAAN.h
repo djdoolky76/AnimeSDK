@@ -13,6 +13,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define LMGBJIFBAAN_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB7802D0)
 #define LMGBJIFBAAN_OLBAJJAGCAM_OFFSET UNITYSDK_OFFSET(0xB780510)
 
+inline static constexpr unsigned int LMGBJIFBAAN_TypeDefinitionIndex = 69893;
+
 	class LMGBJIFBAAN : public ::RPG::Client::BehaviorBase
 	{
 	public:

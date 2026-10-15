@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TriggerGroupEvent; }
 #define KCPGJIADFGE_CTOR_OFFSET UNITYSDK_OFFSET(0xB346130)
 #define KCPGJIADFGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB346160)
 
+inline static constexpr unsigned int KCPGJIADFGE_TypeDefinitionIndex = 52529;
+
 	class KCPGJIADFGE
 	{
 	public:

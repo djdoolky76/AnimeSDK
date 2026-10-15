@@ -4,6 +4,8 @@
 
 #define SROPTIONS_INCREMENTATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0xB0BF080)
 
+inline static constexpr unsigned int SROptions_IncrementAttribute_TypeDefinitionIndex = 45924;
+
 	class SROptions_IncrementAttribute : public ::SRDebugger::IncrementAttribute
 	{
 	public:

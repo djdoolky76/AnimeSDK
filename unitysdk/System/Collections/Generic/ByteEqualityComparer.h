@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int ByteEqualityComparer_TypeDefinitionIndex = 1553;
+
 	class ByteEqualityComparer
 	{
 	public:

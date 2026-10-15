@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass55_1_TypeDefinitionIndex = 46422;
+
 	template <typename T>
 	class SecurityTunnel___c__DisplayClass55_1 : public ::System::Object
 	{

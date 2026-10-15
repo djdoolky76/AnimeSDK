@@ -8,6 +8,8 @@ class FOHGGGFAGNK;
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftTalentTreeControl___c__DisplayClass10_0_TypeDefinitionIndex = 80056;
+
 	class MechCraftTalentTreeControl___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

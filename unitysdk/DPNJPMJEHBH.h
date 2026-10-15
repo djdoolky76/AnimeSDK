@@ -31,6 +31,8 @@ namespace System { class String; }
 #define DPNJPMJEHBH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E21CAB0)
 #define DPNJPMJEHBH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E21CB10)
 
+inline static constexpr unsigned int DPNJPMJEHBH_TypeDefinitionIndex = 34045;
+
 	class DPNJPMJEHBH : public ::System::Object
 	{
 	public:

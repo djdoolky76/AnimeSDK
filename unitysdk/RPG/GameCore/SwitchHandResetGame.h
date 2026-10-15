@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SwitchHandResetGame; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchHandResetGame_TypeDefinitionIndex = 20959;
+
 	class SwitchHandResetGame : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 #define OPNALPCMJCD_ALJIOCDBMKO_OFFSET UNITYSDK_OFFSET(0xBFB4560)
 #define OPNALPCMJCD_CTOR_OFFSET UNITYSDK_OFFSET(0xBFB5000)
 
+inline static constexpr unsigned int OPNALPCMJCD_TypeDefinitionIndex = 60894;
+
 	class OPNALPCMJCD : public ::System::Object
 	{
 	public:

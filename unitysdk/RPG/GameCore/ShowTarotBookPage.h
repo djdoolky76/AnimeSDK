@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ShowTarotBookPage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowTarotBookPage_TypeDefinitionIndex = 22352;
+
 	class ShowTarotBookPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

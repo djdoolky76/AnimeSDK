@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define PKFFDDDBIOO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7ED6F0)
 
+inline static constexpr unsigned int PKFFDDDBIOO_TypeDefinitionIndex = 36489;
+
 	class PKFFDDDBIOO : public ::System::Object
 	{
 	public:

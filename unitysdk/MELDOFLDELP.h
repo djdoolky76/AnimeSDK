@@ -9,6 +9,8 @@ namespace System { class String; }
 #define MELDOFLDELP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D153490)
 #define MELDOFLDELP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D153210)
 
+inline static constexpr unsigned int MELDOFLDELP_TypeDefinitionIndex = 12000;
+
 	class MELDOFLDELP : public ::System::Object
 	{
 	public:

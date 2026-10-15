@@ -12,6 +12,8 @@ namespace UnityEngine { class GUIStyle; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GUIGridSizer_TypeDefinitionIndex = 5190;
+
 	class GUIGridSizer : public ::UnityEngine::GUILayoutEntry
 	{
 	public:

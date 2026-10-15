@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_MoveAlongPath_TypeDefinitionIndex = 20102;
+
 	class ST_Main_MoveAlongPath : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

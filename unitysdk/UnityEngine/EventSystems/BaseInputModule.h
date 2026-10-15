@@ -34,6 +34,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace UnityEngine::EventSystems
 {
+	inline static constexpr unsigned int BaseInputModule_TypeDefinitionIndex = 6939;
+
 	class BaseInputModule : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

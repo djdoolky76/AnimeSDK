@@ -19,6 +19,8 @@ namespace System { class String; }
 #define DIFEEJPHMJC_LKEFCMNJDJI_OFFSET UNITYSDK_OFFSET(0x2F2B720)
 #define DIFEEJPHMJC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C46340)
 
+inline static constexpr unsigned int DIFEEJPHMJC_TypeDefinitionIndex = 6553;
+
 	struct alignas(8) DIFEEJPHMJC
 	{
 		::System::ReadOnlyMemory_1<::System::Char> INNIEFKCKBK; // 0x10

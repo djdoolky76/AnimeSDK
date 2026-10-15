@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class Match3ActionBase; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int Match3ActionBase_TypeDefinitionIndex = 24896;
+
 	class Match3ActionBase : public ::RPG::GameCore::MiActionConfigBase
 	{
 	public:

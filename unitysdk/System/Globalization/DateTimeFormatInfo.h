@@ -118,6 +118,8 @@ namespace System::Globalization { class TokenHashValue; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int DateTimeFormatInfo_TypeDefinitionIndex = 742;
+
 	class DateTimeFormatInfo : public ::System::Object
 	{
 	public:

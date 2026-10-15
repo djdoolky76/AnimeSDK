@@ -24,6 +24,8 @@ namespace UnityEngine { class Material; }
 #define GCHIHOOOADE_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0x1596FBA0)
 #define GCHIHOOOADE_TICK_OFFSET UNITYSDK_OFFSET(0x1596FD70)
 
+inline static constexpr unsigned int GCHIHOOOADE_TypeDefinitionIndex = 47488;
+
 	class GCHIHOOOADE : public ::RPG::Client::TABehaviorBase
 	{
 	public:

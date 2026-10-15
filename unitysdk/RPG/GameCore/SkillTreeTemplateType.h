@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SkillTreeTemplateType_TypeDefinitionIndex = 15432;
+
 	enum class SkillTreeTemplateType : ::System::Int32
 	{
 		TYPE_NONE = 0,

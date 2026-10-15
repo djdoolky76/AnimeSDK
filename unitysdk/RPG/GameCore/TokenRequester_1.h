@@ -5,6 +5,8 @@ class NEJPLEFGALN;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TokenRequester_1_TypeDefinitionIndex = 54253;
+
 	template <typename T>
 	class TokenRequester_1 : public ::System::Object
 	{

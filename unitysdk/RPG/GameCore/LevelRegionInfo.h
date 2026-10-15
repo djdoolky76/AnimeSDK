@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelRegionInfo_TypeDefinitionIndex = 17391;
+
 	class LevelRegionInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

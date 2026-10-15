@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define LGCLPNOGKLH___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB68FDD0)
 #define LGCLPNOGKLH___C__GETMONSTERDATALIST_B__5_0_OFFSET UNITYSDK_OFFSET(0xB68FDE0)
 
+inline static constexpr unsigned int LGCLPNOGKLH___c_TypeDefinitionIndex = 68256;
+
 	class LGCLPNOGKLH___c : public ::System::Object
 	{
 	public:

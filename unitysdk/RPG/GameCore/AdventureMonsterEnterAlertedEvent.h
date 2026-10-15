@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureMonsterEnterAlertedEvent_TypeDefinitionIndex = 56616;
+
 	class AdventureMonsterEnterAlertedEvent : public ::System::Object
 	{
 	public:

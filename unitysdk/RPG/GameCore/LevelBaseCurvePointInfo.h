@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelBaseCurvePointInfo_TypeDefinitionIndex = 17373;
+
 	class LevelBaseCurvePointInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

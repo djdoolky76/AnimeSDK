@@ -10,6 +10,8 @@ namespace System { class Type; }
 #define BKALJBOCMDI_FNAAJGAHIAI_OFFSET UNITYSDK_OFFSET(0xB7AC320)
 #define BKALJBOCMDI_IHPAKOMCHGP_OFFSET UNITYSDK_OFFSET(0xB7AC3C0)
 
+inline static constexpr unsigned int BKALJBOCMDI_TypeDefinitionIndex = 62682;
+
 	class BKALJBOCMDI : public ::System::Object
 	{
 	public:

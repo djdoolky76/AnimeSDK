@@ -10,6 +10,8 @@ namespace RPG::CustomRP { class CustomPostProcessData_CustomUIShaderResources; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CustomPostProcessData_TypeDefinitionIndex = 37769;
+
 	class CustomPostProcessData : public ::UnityEngine::ScriptableObject
 	{
 	public:

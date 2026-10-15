@@ -10,6 +10,8 @@ namespace UnityEngine { class ComputeShader; }
 #define GGLPJCKICNF_NFFAELNJGMK_OFFSET UNITYSDK_OFFSET(0x15A0FC00)
 #define GGLPJCKICNF_PCKEJOJIOOM_OFFSET UNITYSDK_OFFSET(0x15A0FBD0)
 
+inline static constexpr unsigned int GGLPJCKICNF_TypeDefinitionIndex = 49264;
+
 	class GGLPJCKICNF : public ::System::Object
 	{
 	public:

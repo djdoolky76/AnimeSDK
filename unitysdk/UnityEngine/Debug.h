@@ -76,6 +76,8 @@ namespace UnityEngine { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Debug_TypeDefinitionIndex = 4070;
+
 	class Debug : public ::System::Object
 	{
 	public:

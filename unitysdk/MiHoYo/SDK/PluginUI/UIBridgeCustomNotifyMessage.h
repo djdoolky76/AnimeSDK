@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int UIBridgeCustomNotifyMessage_TypeDefinitionIndex = 46789;
+
 	class UIBridgeCustomNotifyMessage : public ::System::Object
 	{
 	public:

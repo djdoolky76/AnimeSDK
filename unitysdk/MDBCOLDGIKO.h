@@ -4,6 +4,8 @@
 
 #define MDBCOLDGIKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C924CB0)
 
+inline static constexpr unsigned int MDBCOLDGIKO_TypeDefinitionIndex = 42365;
+
 	class MDBCOLDGIKO : public ::System::Object
 	{
 	public:

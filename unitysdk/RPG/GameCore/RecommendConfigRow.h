@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RecommendConfigRow_TypeDefinitionIndex = 14614;
+
 	class RecommendConfigRow : public ::System::Object
 	{
 	public:

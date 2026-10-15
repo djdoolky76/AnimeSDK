@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PausePerformanceTalkUIData_TypeDefinitionIndex = 60729;
+
 	class PausePerformanceTalkUIData : public ::System::Object
 	{
 	public:

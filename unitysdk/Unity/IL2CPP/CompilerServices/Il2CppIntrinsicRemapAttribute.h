@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace Unity::IL2CPP::CompilerServices
 {
+	inline static constexpr unsigned int Il2CppIntrinsicRemapAttribute_TypeDefinitionIndex = 3972;
+
 	class Il2CppIntrinsicRemapAttribute : public ::System::Attribute
 	{
 	public:

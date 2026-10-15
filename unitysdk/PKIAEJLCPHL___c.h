@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PKIAEJLCPHL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF93A20)
 #define PKIAEJLCPHL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DF93A30)
 
+inline static constexpr unsigned int PKIAEJLCPHL___c_TypeDefinitionIndex = 30145;
+
 	class PKIAEJLCPHL___c : public ::System::Object
 	{
 	public:

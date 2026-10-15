@@ -38,6 +38,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int ArrayList_ReadOnlyArrayList_TypeDefinitionIndex = 1461;
+
 	class ArrayList_ReadOnlyArrayList : public ::System::Collections::ArrayList
 	{
 	public:

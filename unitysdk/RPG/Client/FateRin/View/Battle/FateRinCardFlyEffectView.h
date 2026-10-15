@@ -17,6 +17,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::FateRin::View::Battle
 {
+	inline static constexpr unsigned int FateRinCardFlyEffectView_TypeDefinitionIndex = 80674;
+
 	class FateRinCardFlyEffectView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

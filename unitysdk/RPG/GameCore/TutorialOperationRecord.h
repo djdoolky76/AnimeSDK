@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TutorialOperationRecord; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TutorialOperationRecord_TypeDefinitionIndex = 18205;
+
 	class TutorialOperationRecord : public ::RPG::GameCore::JsonConfig
 	{
 	public:

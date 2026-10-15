@@ -9,6 +9,8 @@ namespace System { class Nullable; }
 #define OCJKANPGMBA_HOGBNAHHPHL_OFFSET UNITYSDK_OFFSET(0xBD6E470)
 #define OCJKANPGMBA_NANJEPLECBE_OFFSET UNITYSDK_OFFSET(0xBD6E630)
 
+inline static constexpr unsigned int OCJKANPGMBA_TypeDefinitionIndex = 81617;
+
 	class OCJKANPGMBA : public ::System::Object
 	{
 	public:

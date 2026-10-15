@@ -9,6 +9,8 @@ namespace System { class String; }
 #define DNMOIHMAPDD_OICGPNAMNAI_OFFSET UNITYSDK_OFFSET(0x11FDA6B0)
 #define DNMOIHMAPDD__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x11FDA740)
 
+inline static constexpr unsigned int DNMOIHMAPDD_TypeDefinitionIndex = 71713;
+
 	class DNMOIHMAPDD : public ::RPG::Client::UIController
 	{
 	public:

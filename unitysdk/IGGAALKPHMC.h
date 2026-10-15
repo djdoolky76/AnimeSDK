@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IGGAALKPHMC_JPALDNCMLOF_OFFSET UNITYSDK_OFFSET(0x1640CB90)
 #define IGGAALKPHMC_SET_SLOTNUM_OFFSET UNITYSDK_OFFSET(0x1640D0E0)
 
+inline static constexpr unsigned int IGGAALKPHMC_TypeDefinitionIndex = 79217;
+
 	class IGGAALKPHMC : public ::System::Object
 	{
 	public:

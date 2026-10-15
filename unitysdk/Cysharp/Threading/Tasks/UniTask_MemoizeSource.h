@@ -15,6 +15,8 @@ namespace System::Runtime::ExceptionServices { class ExceptionDispatchInfo; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTask_MemoizeSource_TypeDefinitionIndex = 38334;
+
 	class UniTask_MemoizeSource : public ::System::Object
 	{
 	public:

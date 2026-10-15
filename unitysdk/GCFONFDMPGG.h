@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define GCFONFDMPGG_GET_ISPOSTER_OFFSET UNITYSDK_OFFSET(0x1596A5D0)
 #define GCFONFDMPGG_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1596A5B0)
 
+inline static constexpr unsigned int GCFONFDMPGG_TypeDefinitionIndex = 79683;
+
 	class GCFONFDMPGG : public ::System::Object
 	{
 	public:

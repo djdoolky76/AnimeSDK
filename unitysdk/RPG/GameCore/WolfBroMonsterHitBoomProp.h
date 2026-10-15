@@ -13,6 +13,8 @@ namespace RPG::GameCore { class WolfBroMonsterHitBoomProp; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WolfBroMonsterHitBoomProp_TypeDefinitionIndex = 20174;
+
 	class WolfBroMonsterHitBoomProp : public ::RPG::GameCore::TaskConfig
 	{
 	public:

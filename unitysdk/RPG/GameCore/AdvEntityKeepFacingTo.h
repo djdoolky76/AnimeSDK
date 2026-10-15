@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvEntityKeepFacingTo_TypeDefinitionIndex = 20566;
+
 	class AdvEntityKeepFacingTo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

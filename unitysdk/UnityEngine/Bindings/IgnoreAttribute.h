@@ -7,6 +7,8 @@
 
 namespace UnityEngine::Bindings
 {
+	inline static constexpr unsigned int IgnoreAttribute_TypeDefinitionIndex = 3737;
+
 	class IgnoreAttribute : public ::System::Attribute
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int SkillLineAssetConfig_LineTypeState_TypeDefinitionIndex = 52038;
+
 	class SkillLineAssetConfig_LineTypeState : public ::System::Object
 	{
 	public:

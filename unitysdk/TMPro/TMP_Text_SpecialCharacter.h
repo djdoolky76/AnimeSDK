@@ -8,6 +8,8 @@ namespace UnityEngine { class Material; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_Text_SpecialCharacter_TypeDefinitionIndex = 44659;
+
 	struct alignas(8) TMP_Text_SpecialCharacter
 	{
 		::TMPro::TMP_Character* character; // 0x10

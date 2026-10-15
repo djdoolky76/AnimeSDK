@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class Graphic; }
 
 namespace SRF::UI
 {
+	inline static constexpr unsigned int InheritColour_TypeDefinitionIndex = 35381;
+
 	class InheritColour : public ::SRF::SRMonoBehaviour
 	{
 	public:

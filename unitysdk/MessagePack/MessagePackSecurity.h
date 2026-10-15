@@ -21,6 +21,8 @@ namespace System::Collections { class IEqualityComparer; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MessagePackSecurity_TypeDefinitionIndex = 7200;
+
 	class MessagePackSecurity : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define JGAONCGEIND_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E736620)
 #define JGAONCGEIND_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E736680)
 
+inline static constexpr unsigned int JGAONCGEIND_TypeDefinitionIndex = 32362;
+
 	class JGAONCGEIND : public ::System::Object
 	{
 	public:

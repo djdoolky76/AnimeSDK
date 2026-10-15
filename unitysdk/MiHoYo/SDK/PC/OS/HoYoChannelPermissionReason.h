@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int HoYoChannelPermissionReason_TypeDefinitionIndex = 8694;
+
 	class HoYoChannelPermissionReason : public ::System::Object
 	{
 	public:

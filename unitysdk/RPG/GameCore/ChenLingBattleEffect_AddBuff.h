@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChenLingBattleEffect_AddBuff; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleEffect_AddBuff_TypeDefinitionIndex = 15796;
+
 	class ChenLingBattleEffect_AddBuff : public ::RPG::GameCore::BaseChenLingBattleEffect
 	{
 	public:

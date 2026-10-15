@@ -10,6 +10,8 @@ namespace RPG::GameCore { class StagePVSRuntimeDebugExportData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StagePVSRuntimeDebugExportData_TypeDefinitionIndex = 19175;
+
 	class StagePVSRuntimeDebugExportData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

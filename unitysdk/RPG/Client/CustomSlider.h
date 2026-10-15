@@ -10,6 +10,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CustomSlider_TypeDefinitionIndex = 72522;
+
 	class CustomSlider : public ::UnityEngine::UI::Slider
 	{
 	public:

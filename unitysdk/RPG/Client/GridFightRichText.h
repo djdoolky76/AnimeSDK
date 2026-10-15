@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightRichText_TypeDefinitionIndex = 65307;
+
 	class GridFightRichText : public ::System::Object
 	{
 	public:

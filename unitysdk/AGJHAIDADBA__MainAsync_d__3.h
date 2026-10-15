@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define AGJHAIDADBA__MAINASYNC_D__3_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xCF36260)
 #define AGJHAIDADBA__MAINASYNC_D__3_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCF35BC0)
 
+inline static constexpr unsigned int AGJHAIDADBA__MainAsync_d__3_TypeDefinitionIndex = 48912;
+
 	template <typename T1, typename T2, typename T3>
 	class AGJHAIDADBA__MainAsync_d__3 : public ::System::Object
 	{

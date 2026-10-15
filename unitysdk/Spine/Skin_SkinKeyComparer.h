@@ -11,6 +11,8 @@ namespace Spine { class Skin_SkinKeyComparer; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int Skin_SkinKeyComparer_TypeDefinitionIndex = 39699;
+
 	class Skin_SkinKeyComparer : public ::System::Object
 	{
 	public:

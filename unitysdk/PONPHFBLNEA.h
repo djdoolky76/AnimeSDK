@@ -31,6 +31,8 @@ namespace System { class String; }
 #define PONPHFBLNEA_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xC371F10)
 #define PONPHFBLNEA___LOADNEWSPECIALVISIONEFFECT_B__7_0_OFFSET UNITYSDK_OFFSET(0xC374370)
 
+inline static constexpr unsigned int PONPHFBLNEA_TypeDefinitionIndex = 60949;
+
 	class PONPHFBLNEA : public ::System::Object
 	{
 	public:

@@ -50,6 +50,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define KFGPAHIEDKH_START_OFFSET UNITYSDK_OFFSET(0xB3A02F0)
 #define KFGPAHIEDKH_STOP_OFFSET UNITYSDK_OFFSET(0xB3A04D0)
 
+inline static constexpr unsigned int KFGPAHIEDKH_TypeDefinitionIndex = 80259;
+
 	class KFGPAHIEDKH : public ::System::Object
 	{
 	public:

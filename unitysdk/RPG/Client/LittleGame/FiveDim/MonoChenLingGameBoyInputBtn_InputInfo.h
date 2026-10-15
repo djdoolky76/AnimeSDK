@@ -6,6 +6,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int MonoChenLingGameBoyInputBtn_InputInfo_TypeDefinitionIndex = 77231;
+
 	struct alignas(8) MonoChenLingGameBoyInputBtn_InputInfo
 	{
 		::System::String* Key; // 0x10

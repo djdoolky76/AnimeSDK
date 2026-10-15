@@ -13,6 +13,8 @@ namespace RPG::Client::Prop { class ChimeraDuelTeamMemberSlotView; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelTeamMemberSlot_TypeDefinitionIndex = 78359;
+
 	class ChimeraDuelTeamMemberSlot : public ::System::Object
 	{
 	public:

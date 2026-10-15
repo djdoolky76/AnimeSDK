@@ -8,6 +8,8 @@ namespace RPG::GameCore { class DynamicToastConfig; }
 #define HIPJPNGLMEP_CPHHGKLIAKM_OFFSET UNITYSDK_OFFSET(0x15D01250)
 #define HIPJPNGLMEP_CTOR_OFFSET UNITYSDK_OFFSET(0x15D012D0)
 
+inline static constexpr unsigned int HIPJPNGLMEP_TypeDefinitionIndex = 57686;
+
 	class HIPJPNGLMEP : public ::System::Object
 	{
 	public:

@@ -34,6 +34,8 @@ namespace System { class String; }
 #define HPPOINFLEPJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6010E0)
 #define HPPOINFLEPJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E601140)
 
+inline static constexpr unsigned int HPPOINFLEPJ_TypeDefinitionIndex = 32565;
+
 	class HPPOINFLEPJ : public ::System::Object
 	{
 	public:

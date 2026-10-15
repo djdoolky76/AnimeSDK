@@ -4,6 +4,8 @@
 
 namespace RPG::Client::SkinnedGPUParticles
 {
+	inline static constexpr unsigned int SkinnedGPUParticlesBehavior_ParticleAttributes_TypeDefinitionIndex = 73702;
+
 	struct alignas(4) SkinnedGPUParticlesBehavior_ParticleAttributes
 	{
 		::System::UInt32 id; // 0x10

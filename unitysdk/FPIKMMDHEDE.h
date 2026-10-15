@@ -12,6 +12,8 @@ namespace RPG::Client::Promises { class Promise; }
 #define FPIKMMDHEDE_SET_GUIDEPROMISE_OFFSET UNITYSDK_OFFSET(0x1591AAD0)
 #define FPIKMMDHEDE_SET_TARGET_OFFSET UNITYSDK_OFFSET(0x1591AAB0)
 
+inline static constexpr unsigned int FPIKMMDHEDE_TypeDefinitionIndex = 79488;
+
 	class FPIKMMDHEDE : public ::System::Object
 	{
 	public:

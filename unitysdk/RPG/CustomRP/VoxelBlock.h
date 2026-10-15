@@ -7,6 +7,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int VoxelBlock_TypeDefinitionIndex = 51851;
+
 	class VoxelBlock : public ::System::Object
 	{
 	public:

@@ -32,6 +32,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int LightProbes_TypeDefinitionIndex = 4129;
+
 	class LightProbes : public ::UnityEngine::Object
 	{
 	public:

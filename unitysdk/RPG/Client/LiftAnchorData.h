@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LiftAnchorData_TypeDefinitionIndex = 60303;
+
 	class LiftAnchorData : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BitFlag_1_TypeDefinitionIndex = 59964;
+
 	template <typename T>
 	struct alignas(4) BitFlag_1
 	{

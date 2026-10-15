@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameTransformComponentConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameTransformComponentConfig_TypeDefinitionIndex = 18845;
+
 	class LittleGameTransformComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

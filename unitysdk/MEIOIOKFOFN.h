@@ -6,6 +6,8 @@ class AMKKNLEFDPP;
 #define MEIOIOKFOFN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C925390)
 #define MEIOIOKFOFN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C925410)
 
+inline static constexpr unsigned int MEIOIOKFOFN_TypeDefinitionIndex = 43325;
+
 	class MEIOIOKFOFN : public ::System::Object
 	{
 	public:

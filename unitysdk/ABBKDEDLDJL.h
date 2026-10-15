@@ -18,6 +18,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define ABBKDEDLDJL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB0E5CB0)
 #define ABBKDEDLDJL_LFCBOIGIBLP_OFFSET UNITYSDK_OFFSET(0xB0E6B50)
 
+inline static constexpr unsigned int ABBKDEDLDJL_TypeDefinitionIndex = 70380;
+
 	class ABBKDEDLDJL : public ::RPG::Client::BehaviorBase
 	{
 	public:

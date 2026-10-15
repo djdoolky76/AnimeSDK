@@ -14,6 +14,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define JOMAECLEPIB___C___DETERMINEAUTOUNLOCKEDPATHPOINT_B__17_4_OFFSET UNITYSDK_OFFSET(0xB2A97A0)
 #define JOMAECLEPIB___C___DETERMINEAUTOUNLOCKEDPATHPOINT_B__17_5_OFFSET UNITYSDK_OFFSET(0xB2A9920)
 
+inline static constexpr unsigned int JOMAECLEPIB___c_TypeDefinitionIndex = 79763;
+
 	class JOMAECLEPIB___c : public ::System::Object
 	{
 	public:

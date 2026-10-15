@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define NNOBLAFGHFG_HJNJHENHGHK_OFFSET UNITYSDK_OFFSET(0xBCD73C0)
 #define NNOBLAFGHFG_NBKNEOJKCPJ_OFFSET UNITYSDK_OFFSET(0xBCD6C60)
 
+inline static constexpr unsigned int NNOBLAFGHFG_TypeDefinitionIndex = 80216;
+
 	class NNOBLAFGHFG : public ::System::Object
 	{
 	public:

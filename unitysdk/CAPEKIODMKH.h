@@ -20,6 +20,8 @@ namespace UnityEngine { class Coroutine; }
 #define CAPEKIODMKH_OFBKIOEEMKE_OFFSET UNITYSDK_OFFSET(0xC49A090)
 #define CAPEKIODMKH_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xC49C3B0)
 
+inline static constexpr unsigned int CAPEKIODMKH_TypeDefinitionIndex = 76834;
+
 	class CAPEKIODMKH : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelTurnModifierPhase2Begin_TypeDefinitionIndex = 56708;
+
 	class LevelTurnModifierPhase2Begin : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueUtils___c__DisplayClass32_0_TypeDefinitionIndex = 67478;
+
 	class RogueUtils___c__DisplayClass32_0 : public ::System::Object
 	{
 	public:

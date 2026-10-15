@@ -3,6 +3,8 @@
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int IList_TypeDefinitionIndex = 1487;
+
 	class IList
 	{
 	public:

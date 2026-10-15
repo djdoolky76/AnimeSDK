@@ -8,6 +8,8 @@ namespace RPG::Client { class IChimeraSettleCommand; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraSettleCommandFactory_TypeDefinitionIndex = 63457;
+
 	class ChimeraSettleCommandFactory : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 #define DKPIDAKNGCH_TOSTRING_OFFSET UNITYSDK_OFFSET(0xF88E6C0)
 #define DKPIDAKNGCH_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xF88E760)
 
+inline static constexpr unsigned int DKPIDAKNGCH_TypeDefinitionIndex = 67055;
+
 	class DKPIDAKNGCH : public ::System::Object
 	{
 	public:

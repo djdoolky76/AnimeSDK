@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsRewardNumControl_TypeDefinitionIndex = 80360;
+
 	class LimaoNewsRewardNumControl : public ::Sofa::BaseSofaControl
 	{
 	public:

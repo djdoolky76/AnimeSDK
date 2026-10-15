@@ -12,6 +12,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EarlyAccessUtils_TypeDefinitionIndex = 63652;
+
 	class EarlyAccessUtils : public ::System::Object
 	{
 	public:

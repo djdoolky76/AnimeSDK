@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int BoxmanPuzzleNewBoard_TypeDefinitionIndex = 78853;
+
 	class BoxmanPuzzleNewBoard : public ::RPG::Client::Prop::BoxmanPuzzleBoard
 	{
 	public:

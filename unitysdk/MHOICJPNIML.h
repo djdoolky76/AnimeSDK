@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MHOICJPNIML_LNLCIKCFJFG_OFFSET UNITYSDK_OFFSET(0xB9499B0)
 #define MHOICJPNIML_NAKILKGGEDC_OFFSET UNITYSDK_OFFSET(0xB9496E0)
 
+inline static constexpr unsigned int MHOICJPNIML_TypeDefinitionIndex = 66716;
+
 	class MHOICJPNIML : public ::System::Object
 	{
 	public:

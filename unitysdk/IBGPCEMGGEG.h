@@ -4,6 +4,8 @@
 
 #define IBGPCEMGGEG_CTOR_OFFSET UNITYSDK_OFFSET(0x15E34F60)
 
+inline static constexpr unsigned int IBGPCEMGGEG_TypeDefinitionIndex = 61267;
+
 	class IBGPCEMGGEG : public ::System::Exception
 	{
 	public:

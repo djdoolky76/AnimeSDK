@@ -3,6 +3,8 @@
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/FiveDimExitType.h"
 #include "unitysdk/RPG/GameCore/FiveDimCustomScreenTransferStyle.h"
 
+inline static constexpr unsigned int GBNEGNHCHAB_TypeDefinitionIndex = 43558;
+
 	struct alignas(4) GBNEGNHCHAB
 	{
 		::System::Boolean KBFGMAOBANF; // 0x10

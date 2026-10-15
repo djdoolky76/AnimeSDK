@@ -23,6 +23,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int WormCompassPuzzleItemBase_TypeDefinitionIndex = 78931;
+
 	class WormCompassPuzzleItemBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

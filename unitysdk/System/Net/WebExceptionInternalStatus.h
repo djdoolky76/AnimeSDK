@@ -3,6 +3,8 @@
 
 namespace System::Net
 {
+	inline static constexpr unsigned int WebExceptionInternalStatus_TypeDefinitionIndex = 2759;
+
 	enum class WebExceptionInternalStatus : ::System::Int32
 	{
 		RequestFatal = 0,

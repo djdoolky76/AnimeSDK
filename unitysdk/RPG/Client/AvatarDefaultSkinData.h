@@ -53,6 +53,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarDefaultSkinData_TypeDefinitionIndex = 62480;
+
 	class AvatarDefaultSkinData : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::Client::ChenLingFes { class ChenLingFesGameplayStarViewModel; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameplayStarControl_TypeDefinitionIndex = 81328;
+
 	class ChenLingFesGameplayStarControl : public ::Sofa::BaseSofaControl
 	{
 	public:

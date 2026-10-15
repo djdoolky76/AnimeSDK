@@ -7,6 +7,8 @@ namespace System { class String; }
 #define LJFHKAJPFNE___C__DISPLAYCLASS328_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB70B1E0)
 #define LJFHKAJPFNE___C__DISPLAYCLASS328_0__GETALIASBLOCK_B__0_OFFSET UNITYSDK_OFFSET(0xB711B80)
 
+inline static constexpr unsigned int LJFHKAJPFNE___c__DisplayClass328_0_TypeDefinitionIndex = 73861;
+
 	class LJFHKAJPFNE___c__DisplayClass328_0 : public ::System::Object
 	{
 	public:

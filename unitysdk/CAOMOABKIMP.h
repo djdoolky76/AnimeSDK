@@ -32,6 +32,8 @@ namespace UnityEngine { class Transform; }
 #define CAOMOABKIMP__ONBIND_OFFSET UNITYSDK_OFFSET(0xC498F20)
 #define CAOMOABKIMP__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xC4997F0)
 
+inline static constexpr unsigned int CAOMOABKIMP_TypeDefinitionIndex = 71760;
+
 	class CAOMOABKIMP : public ::FMPCODLIOLG
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define BEBABPBHAIP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1630A2A0)
 #define BEBABPBHAIP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1630A590)
 
+inline static constexpr unsigned int BEBABPBHAIP_TypeDefinitionIndex = 52658;
+
 	class BEBABPBHAIP
 	{
 	public:

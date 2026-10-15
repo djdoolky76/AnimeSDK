@@ -9,6 +9,8 @@ namespace RPG::GameCore { class EvolveBuildGearManager; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EvolveBuildUtils___c__DisplayClass3_0_TypeDefinitionIndex = 63820;
+
 	class EvolveBuildUtils___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

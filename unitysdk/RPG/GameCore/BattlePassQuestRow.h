@@ -9,6 +9,8 @@ namespace RPG::GameCore { class BattlePassQuestRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattlePassQuestRow_TypeDefinitionIndex = 12871;
+
 	class BattlePassQuestRow : public ::System::Object
 	{
 	public:

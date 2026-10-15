@@ -9,6 +9,8 @@ class MKJBLEPELNC;
 #define HNDJJNKCBMA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15D8E3F0)
 #define HNDJJNKCBMA_CTOR_OFFSET UNITYSDK_OFFSET(0x15D8E2B0)
 
+inline static constexpr unsigned int HNDJJNKCBMA_TypeDefinitionIndex = 67130;
+
 	class HNDJJNKCBMA : public ::System::Object
 	{
 	public:

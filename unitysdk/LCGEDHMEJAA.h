@@ -14,6 +14,8 @@ namespace RPG::GameCore { class CakeRacePropertyModifier; }
 #define LCGEDHMEJAA_JONOFIGIPPH_OFFSET UNITYSDK_OFFSET(0x1C721090)
 #define LCGEDHMEJAA_LFGNLMGHHLI_OFFSET UNITYSDK_OFFSET(0x1C720F30)
 
+inline static constexpr unsigned int LCGEDHMEJAA_TypeDefinitionIndex = 37319;
+
 	class LCGEDHMEJAA : public ::System::Object
 	{
 	public:

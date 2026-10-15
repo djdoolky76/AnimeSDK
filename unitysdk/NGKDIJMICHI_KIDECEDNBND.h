@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TurnBasedGameMode; }
 
 #define NGKDIJMICHI_KIDECEDNBND_CTOR_OFFSET UNITYSDK_OFFSET(0xBBABC10)
 
+inline static constexpr unsigned int NGKDIJMICHI_KIDECEDNBND_TypeDefinitionIndex = 71589;
+
 	class NGKDIJMICHI_KIDECEDNBND : public ::System::Object
 	{
 	public:

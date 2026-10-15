@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HIKJCLDOFGF_GICABFLDIPA_OFFSET UNITYSDK_OFFSET(0x15CF5700)
 #define HIKJCLDOFGF_JKAJCDHLOPO_OFFSET UNITYSDK_OFFSET(0x15CF56B0)
 
+inline static constexpr unsigned int HIKJCLDOFGF_TypeDefinitionIndex = 77479;
+
 	class HIKJCLDOFGF : public ::FJNNEOKOCJD
 	{
 	public:

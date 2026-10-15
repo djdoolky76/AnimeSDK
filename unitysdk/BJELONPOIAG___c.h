@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BJELONPOIAG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE08FE0)
 #define BJELONPOIAG___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DE08FF0)
 
+inline static constexpr unsigned int BJELONPOIAG___c_TypeDefinitionIndex = 28174;
+
 	class BJELONPOIAG___c : public ::System::Object
 	{
 	public:

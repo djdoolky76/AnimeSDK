@@ -8,6 +8,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKWebViewManager___c__DisplayClass226_0_TypeDefinitionIndex = 46629;
+
 	class MiHoYoSDKWebViewManager___c__DisplayClass226_0 : public ::System::Object
 	{
 	public:

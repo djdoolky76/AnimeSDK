@@ -17,6 +17,8 @@ namespace UnityEngine { class Texture; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int AsyncGPUReadback_TypeDefinitionIndex = 4688;
+
 	class AsyncGPUReadback : public ::System::Object
 	{
 	public:

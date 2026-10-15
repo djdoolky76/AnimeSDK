@@ -5,6 +5,8 @@ namespace MessagePack::Formatters { class IMessagePackFormatter; }
 
 namespace MessagePack::Resolvers
 {
+	inline static constexpr unsigned int DynamicGenericResolver_FormatterCache_1_TypeDefinitionIndex = 7257;
+
 	template <typename T>
 	class DynamicGenericResolver_FormatterCache_1 : public ::System::Object
 	{

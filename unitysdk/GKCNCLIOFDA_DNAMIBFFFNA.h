@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define GKCNCLIOFDA_DNAMIBFFFNA_GET_CATEGORY_OFFSET UNITYSDK_OFFSET(0x15A904C0)
 #define GKCNCLIOFDA_DNAMIBFFFNA_GET_DEFINITION_OFFSET UNITYSDK_OFFSET(0x15A904D0)
 
+inline static constexpr unsigned int GKCNCLIOFDA_DNAMIBFFFNA_TypeDefinitionIndex = 53523;
+
 	class GKCNCLIOFDA_DNAMIBFFFNA : public ::System::Object
 	{
 	public:

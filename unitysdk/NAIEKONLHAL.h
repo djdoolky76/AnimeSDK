@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NAIEKONLHAL_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0xBA9BF70)
 #define NAIEKONLHAL_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xBA9C190)
 
+inline static constexpr unsigned int NAIEKONLHAL_TypeDefinitionIndex = 62489;
+
 	class NAIEKONLHAL : public ::System::Object
 	{
 	public:

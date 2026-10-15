@@ -54,6 +54,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournWeekChallengeData_TypeDefinitionIndex = 67880;
+
 	class RogueTournWeekChallengeData : public ::System::Object
 	{
 	public:

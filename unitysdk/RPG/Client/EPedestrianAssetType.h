@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EPedestrianAssetType_TypeDefinitionIndex = 69242;
+
 	enum class EPedestrianAssetType : ::System::Int32
 	{
 		GPU_CrowdPrototype = 0,

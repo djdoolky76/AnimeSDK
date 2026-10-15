@@ -6,6 +6,8 @@
 
 #define CLFPDHFOBAH_KIKAHEHPHAD_NADHPCNENFL_OFFSET UNITYSDK_OFFSET(0xD77EB30)
 
+inline static constexpr unsigned int CLFPDHFOBAH_KIKAHEHPHAD_TypeDefinitionIndex = 47129;
+
 	class CLFPDHFOBAH_KIKAHEHPHAD : public ::System::Object
 	{
 	public:

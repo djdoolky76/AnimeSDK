@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginChildNodeFollow_TypeDefinitionIndex = 70050;
+
 	class MonoEffectPluginChildNodeFollow : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

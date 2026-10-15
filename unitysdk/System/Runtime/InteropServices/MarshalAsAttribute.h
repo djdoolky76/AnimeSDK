@@ -11,6 +11,8 @@ namespace System::Runtime::InteropServices { class MarshalAsAttribute; }
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int MarshalAsAttribute_TypeDefinitionIndex = 1438;
+
 	class MarshalAsAttribute : public ::System::Attribute
 	{
 	public:

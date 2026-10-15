@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicString; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CancelMazePuzzleChallenge_TypeDefinitionIndex = 20375;
+
 	class CancelMazePuzzleChallenge : public ::RPG::GameCore::TaskConfig
 	{
 	public:

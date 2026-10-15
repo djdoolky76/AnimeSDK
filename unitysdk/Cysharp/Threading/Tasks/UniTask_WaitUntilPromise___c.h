@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTask_WaitUntilPromise___c_TypeDefinitionIndex = 38253;
+
 	class UniTask_WaitUntilPromise___c : public ::System::Object
 	{
 	public:

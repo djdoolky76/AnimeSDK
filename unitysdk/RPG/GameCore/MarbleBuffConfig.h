@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleBuffConfig_TypeDefinitionIndex = 16904;
+
 	class MarbleBuffConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

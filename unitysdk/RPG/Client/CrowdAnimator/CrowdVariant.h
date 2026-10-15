@@ -7,6 +7,8 @@
 
 namespace RPG::Client::CrowdAnimator
 {
+	inline static constexpr unsigned int CrowdVariant_TypeDefinitionIndex = 73741;
+
 	class CrowdVariant : public ::UnityEngine::ScriptableObject
 	{
 	public:

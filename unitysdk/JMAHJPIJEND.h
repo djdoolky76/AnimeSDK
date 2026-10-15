@@ -33,6 +33,8 @@ namespace System { class String; }
 #define JMAHJPIJEND_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E788D10)
 #define JMAHJPIJEND_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E788D70)
 
+inline static constexpr unsigned int JMAHJPIJEND_TypeDefinitionIndex = 33674;
+
 	class JMAHJPIJEND : public ::System::Object
 	{
 	public:

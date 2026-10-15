@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GGJFAFONDHN_SET_INTERNALNAME_OFFSET UNITYSDK_OFFSET(0x15A0CC00)
 #define GGJFAFONDHN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15A0D060)
 
+inline static constexpr unsigned int GGJFAFONDHN_TypeDefinitionIndex = 49513;
+
 	class GGJFAFONDHN : public ::System::Object
 	{
 	public:

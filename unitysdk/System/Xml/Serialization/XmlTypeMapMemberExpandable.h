@@ -8,6 +8,8 @@
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlTypeMapMemberExpandable_TypeDefinitionIndex = 2051;
+
 	class XmlTypeMapMemberExpandable : public ::System::Xml::Serialization::XmlTypeMapMemberElement
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ItemMultiMaterialConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ItemMultiMaterialConfigRow_TypeDefinitionIndex = 13890;
+
 	class ItemMultiMaterialConfigRow : public ::System::Object
 	{
 	public:

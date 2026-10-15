@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CityShopRewardListExcelTable_TypeDefinitionIndex = 13063;
+
 	class CityShopRewardListExcelTable : public ::System::Object
 	{
 	public:

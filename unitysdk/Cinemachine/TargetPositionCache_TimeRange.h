@@ -8,6 +8,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int TargetPositionCache_TimeRange_TypeDefinitionIndex = 39852;
+
 	struct alignas(4) TargetPositionCache_TimeRange
 	{
 		::System::Single Start; // 0x10

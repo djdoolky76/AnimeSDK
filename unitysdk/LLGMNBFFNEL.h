@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int LLGMNBFFNEL_TypeDefinitionIndex = 30793;
+
 	enum class LLGMNBFFNEL : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

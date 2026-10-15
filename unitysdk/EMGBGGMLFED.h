@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/MVector2.h"
 
+inline static constexpr unsigned int EMGBGGMLFED_TypeDefinitionIndex = 43063;
+
 	struct alignas(4) EMGBGGMLFED
 	{
 		::System::UInt32 AOLDKFBGNKJ; // 0x10

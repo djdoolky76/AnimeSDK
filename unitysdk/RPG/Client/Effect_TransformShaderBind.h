@@ -12,6 +12,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_TransformShaderBind_TypeDefinitionIndex = 70571;
+
 	class Effect_TransformShaderBind : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client { class ServerDispatchData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AdventurePhase___c__DisplayClass149_0_TypeDefinitionIndex = 60120;
+
 	class AdventurePhase___c__DisplayClass149_0 : public ::System::Object
 	{
 	public:

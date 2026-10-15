@@ -14,6 +14,8 @@ namespace MessagePack::Formatters { class ByteMemoryFormatter; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int ByteMemoryFormatter_TypeDefinitionIndex = 7373;
+
 	class ByteMemoryFormatter : public ::System::Object
 	{
 	public:

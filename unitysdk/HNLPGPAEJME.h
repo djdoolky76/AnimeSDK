@@ -9,6 +9,8 @@ namespace RPG::Client::FateRin::Battle { class FateRinBattleHudHoverBrain; }
 #define HNLPGPAEJME_ONHOVER_OFFSET UNITYSDK_OFFSET(0x15DA0E90)
 #define HNLPGPAEJME_POFHPJFCFFJ_OFFSET UNITYSDK_OFFSET(0x15DA0F40)
 
+inline static constexpr unsigned int HNLPGPAEJME_TypeDefinitionIndex = 80993;
+
 	class HNLPGPAEJME : public ::OMCMJNICFCH
 	{
 	public:

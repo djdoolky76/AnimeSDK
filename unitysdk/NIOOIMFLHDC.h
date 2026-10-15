@@ -16,6 +16,8 @@ namespace Entitas { class IGroup; }
 #define NIOOIMFLHDC_FKJAIHCPMAM_OFFSET UNITYSDK_OFFSET(0xBC06C40)
 #define NIOOIMFLHDC_PFLPCNPMKBD_OFFSET UNITYSDK_OFFSET(0xBC06FD0)
 
+inline static constexpr unsigned int NIOOIMFLHDC_TypeDefinitionIndex = 77969;
+
 	class NIOOIMFLHDC : public ::System::Object
 	{
 	public:

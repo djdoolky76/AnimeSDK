@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionChroniclePathUnlockConditionData_NextDailyRefresh_TypeDefinitionIndex = 66123;
+
 	class MissionChroniclePathUnlockConditionData_NextDailyRefresh : public ::System::Object
 	{
 	public:

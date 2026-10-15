@@ -30,6 +30,8 @@ namespace System { class String; }
 #define OGPOBJMBBLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE5A830)
 #define OGPOBJMBBLE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE5A890)
 
+inline static constexpr unsigned int OGPOBJMBBLE_TypeDefinitionIndex = 32151;
+
 	class OGPOBJMBBLE : public ::System::Object
 	{
 	public:

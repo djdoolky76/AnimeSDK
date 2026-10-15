@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EnterMarblePVEMatch; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnterMarblePVEMatch_TypeDefinitionIndex = 21730;
+
 	class EnterMarblePVEMatch : public ::RPG::GameCore::TaskConfig
 	{
 	public:

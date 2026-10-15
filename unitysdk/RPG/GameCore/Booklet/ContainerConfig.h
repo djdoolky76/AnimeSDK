@@ -11,6 +11,8 @@ namespace RPG::GameCore::Booklet { class ContainerConfig; }
 
 namespace RPG::GameCore::Booklet
 {
+	inline static constexpr unsigned int ContainerConfig_TypeDefinitionIndex = 24969;
+
 	class ContainerConfig : public ::RPG::GameCore::Booklet::ElementConfig
 	{
 	public:

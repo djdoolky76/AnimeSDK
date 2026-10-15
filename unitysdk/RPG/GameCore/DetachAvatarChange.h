@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DetachAvatarChange_TypeDefinitionIndex = 23613;
+
 	class DetachAvatarChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:

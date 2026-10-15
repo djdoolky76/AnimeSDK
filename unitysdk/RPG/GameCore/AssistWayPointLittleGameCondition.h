@@ -11,6 +11,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AssistWayPointLittleGameCondition_TypeDefinitionIndex = 19006;
+
 	class AssistWayPointLittleGameCondition : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -18,6 +18,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LoopTowerAnimBehavior_LoopTowerSlide_TypeDefinitionIndex = 70918;
+
 	class LoopTowerAnimBehavior_LoopTowerSlide : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class SortedSet_1
 
 #define NNJDEIOOHOA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C974750)
 
+inline static constexpr unsigned int NNJDEIOOHOA_TypeDefinitionIndex = 42883;
+
 	class NNJDEIOOHOA : public ::System::Object
 	{
 	public:

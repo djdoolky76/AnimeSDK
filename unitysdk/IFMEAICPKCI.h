@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define IFMEAICPKCI_DJEEPPHMNNI_OFFSET UNITYSDK_OFFSET(0x15F247E0)
 #define IFMEAICPKCI_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0x15F24790)
 
+inline static constexpr unsigned int IFMEAICPKCI_TypeDefinitionIndex = 75711;
+
 	class IFMEAICPKCI : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@
 #define KGMBGMIGHOE_SET_MAPID_OFFSET UNITYSDK_OFFSET(0x1CBB8190)
 #define KGMBGMIGHOE_SET_MOVETYPE_OFFSET UNITYSDK_OFFSET(0x1CBB81B0)
 
+inline static constexpr unsigned int KGMBGMIGHOE_TypeDefinitionIndex = 42551;
+
 	class KGMBGMIGHOE : public ::System::Object
 	{
 	public:

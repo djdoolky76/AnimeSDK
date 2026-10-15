@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CharacterReplaceMaterialPartShow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterReplaceMaterialPartShow_TypeDefinitionIndex = 17438;
+
 	class CharacterReplaceMaterialPartShow : public ::RPG::GameCore::JsonConfig
 	{
 	public:

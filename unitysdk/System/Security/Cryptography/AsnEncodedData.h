@@ -22,6 +22,8 @@ namespace System::Security::Cryptography { class Oid; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int AsnEncodedData_TypeDefinitionIndex = 2680;
+
 	class AsnEncodedData : public ::System::Object
 	{
 	public:

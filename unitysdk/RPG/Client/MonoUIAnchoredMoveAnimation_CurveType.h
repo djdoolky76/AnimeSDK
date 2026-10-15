@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoUIAnchoredMoveAnimation_CurveType_TypeDefinitionIndex = 68971;
+
 	enum class MonoUIAnchoredMoveAnimation_CurveType : ::System::Int32
 	{
 		Linear = 0,

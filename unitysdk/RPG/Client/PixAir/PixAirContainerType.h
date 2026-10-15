@@ -3,6 +3,8 @@
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirContainerType_TypeDefinitionIndex = 79337;
+
 	enum class PixAirContainerType : ::System::Int32
 	{
 		EquipBar = 0,

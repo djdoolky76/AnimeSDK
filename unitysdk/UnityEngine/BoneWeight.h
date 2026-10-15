@@ -18,6 +18,8 @@ namespace System { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int BoneWeight_TypeDefinitionIndex = 4193;
+
 	struct alignas(4) BoneWeight
 	{
 		::System::Single m_Weight0; // 0x10

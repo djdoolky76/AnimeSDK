@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetAttachmentVisibility_TypeDefinitionIndex = 22375;
+
 	class SetAttachmentVisibility : public ::RPG::GameCore::TaskConfig
 	{
 	public:

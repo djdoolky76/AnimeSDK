@@ -7,6 +7,8 @@ class OONKKNLPGCF;
 #define OONKKNLPGCF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2BA170)
 #define OONKKNLPGCF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2BA020)
 
+inline static constexpr unsigned int OONKKNLPGCF_TypeDefinitionIndex = 12006;
+
 	class OONKKNLPGCF : public ::System::Object
 	{
 	public:

@@ -38,6 +38,8 @@ namespace System { class String; }
 #define BKALMLMEEPL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF4DB10)
 #define BKALMLMEEPL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF4DB70)
 
+inline static constexpr unsigned int BKALMLMEEPL_TypeDefinitionIndex = 29062;
+
 	class BKALMLMEEPL : public ::System::Object
 	{
 	public:

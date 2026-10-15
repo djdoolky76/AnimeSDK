@@ -7,6 +7,8 @@ namespace RPG::Client::LittleGame { class PlacementConfig; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int ShootingConfig_TypeDefinitionIndex = 42322;
+
 	class ShootingConfig : public ::System::Object
 	{
 	public:

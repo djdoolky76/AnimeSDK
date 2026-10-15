@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionOnBattleCountConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionOnBattleCountConfig_TypeDefinitionIndex = 17985;
+
 	class RogueModifierExecuteActionOnBattleCountConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

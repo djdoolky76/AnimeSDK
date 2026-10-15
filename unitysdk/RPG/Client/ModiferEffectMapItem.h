@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ModiferEffectMapItem_TypeDefinitionIndex = 70129;
+
 	class ModiferEffectMapItem : public ::System::Object
 	{
 	public:

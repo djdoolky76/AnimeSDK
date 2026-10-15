@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelEvolveBuildForge; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEvolveBuildForge_TypeDefinitionIndex = 56830;
+
 	class LevelEvolveBuildForge : public ::CMPGEAFHHDC
 	{
 	public:

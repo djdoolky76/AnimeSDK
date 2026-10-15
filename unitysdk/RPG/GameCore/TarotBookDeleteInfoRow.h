@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TarotBookDeleteInfoRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TarotBookDeleteInfoRow_TypeDefinitionIndex = 15249;
+
 	class TarotBookDeleteInfoRow : public ::System::Object
 	{
 	public:

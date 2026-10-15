@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_AbyssCrystalManager_CrystalTransformStruct_TypeDefinitionIndex = 70422;
+
 	class Effect_AbyssCrystalManager_CrystalTransformStruct : public ::System::Object
 	{
 	public:

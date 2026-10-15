@@ -30,6 +30,8 @@ namespace System { class String; }
 #define NKOBPKLEDFP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB5E710)
 #define NKOBPKLEDFP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB5E770)
 
+inline static constexpr unsigned int NKOBPKLEDFP_TypeDefinitionIndex = 29060;
+
 	class NKOBPKLEDFP : public ::System::Object
 	{
 	public:

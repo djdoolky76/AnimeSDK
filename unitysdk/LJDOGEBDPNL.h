@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LJDOGEBDPNL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D0FF6F0)
 #define LJDOGEBDPNL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0FEFF0)
 
+inline static constexpr unsigned int LJDOGEBDPNL_TypeDefinitionIndex = 13791;
+
 	class LJDOGEBDPNL : public ::System::Object
 	{
 	public:

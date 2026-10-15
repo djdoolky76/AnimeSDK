@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IPKIFGDCGBN_SET_DRIVERID_OFFSET UNITYSDK_OFFSET(0x16524B30)
 #define IPKIFGDCGBN_SET_TRACKBESTTIMES_OFFSET UNITYSDK_OFFSET(0x16524B50)
 
+inline static constexpr unsigned int IPKIFGDCGBN_TypeDefinitionIndex = 81704;
+
 	class IPKIFGDCGBN : public ::System::Object
 	{
 	public:

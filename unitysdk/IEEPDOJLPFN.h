@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IEEPDOJLPFN_CTOR_OFFSET UNITYSDK_OFFSET(0x15EF53B0)
 #define IEEPDOJLPFN_LIEJEAGAHAM_OFFSET UNITYSDK_OFFSET(0x15EF5110)
 
+inline static constexpr unsigned int IEEPDOJLPFN_TypeDefinitionIndex = 81912;
+
 	class IEEPDOJLPFN : public ::System::Object
 	{
 	public:

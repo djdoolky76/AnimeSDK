@@ -17,6 +17,8 @@ class MEIGMBOLDOF;
 #define KDEFDGMFCJC_JEGBJJLOJOJ_OFFSET UNITYSDK_OFFSET(0xB34CE20)
 #define KDEFDGMFCJC_PKGGJLHGPBH_OFFSET UNITYSDK_OFFSET(0xB34CFB0)
 
+inline static constexpr unsigned int KDEFDGMFCJC_TypeDefinitionIndex = 49090;
+
 	class KDEFDGMFCJC : public ::System::Object
 	{
 	public:

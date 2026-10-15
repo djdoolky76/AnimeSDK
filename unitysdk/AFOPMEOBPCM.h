@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define AFOPMEOBPCM_IGCKNBMHNGI_OFFSET UNITYSDK_OFFSET(0xCF1DCA0)
 #define AFOPMEOBPCM_IJIFLAMHLLG_OFFSET UNITYSDK_OFFSET(0xCF1D7C0)
 
+inline static constexpr unsigned int AFOPMEOBPCM_TypeDefinitionIndex = 71654;
+
 	class AFOPMEOBPCM : public ::System::Object
 	{
 	public:

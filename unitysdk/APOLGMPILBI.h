@@ -5,6 +5,8 @@ class MDIHMNFMNBH;
 
 #define APOLGMPILBI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8AD510)
 
+inline static constexpr unsigned int APOLGMPILBI_TypeDefinitionIndex = 43718;
+
 	class APOLGMPILBI : public ::System::Object
 	{
 	public:

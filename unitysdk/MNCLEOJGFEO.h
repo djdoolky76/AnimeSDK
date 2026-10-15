@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define MNCLEOJGFEO_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB9E8850)
 #define MNCLEOJGFEO_INVOKE_OFFSET UNITYSDK_OFFSET(0xB9E87C0)
 
+inline static constexpr unsigned int MNCLEOJGFEO_TypeDefinitionIndex = 73485;
+
 	class MNCLEOJGFEO : public ::System::MulticastDelegate
 	{
 	public:

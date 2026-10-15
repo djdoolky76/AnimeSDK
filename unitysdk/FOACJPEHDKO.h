@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FOACJPEHDKO_SET_TALENTPOINTS_OFFSET UNITYSDK_OFFSET(0x158DC830)
 #define FOACJPEHDKO_SET_UNLOCKBYFINISHSUBMISSIONID_OFFSET UNITYSDK_OFFSET(0x158DC7F0)
 
+inline static constexpr unsigned int FOACJPEHDKO_TypeDefinitionIndex = 79775;
+
 	class FOACJPEHDKO : public ::System::Object
 	{
 	public:

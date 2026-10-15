@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define OBALPFEHAAK_CTOR_1_OFFSET UNITYSDK_OFFSET(0xBD32410)
 #define OBALPFEHAAK_CTOR_OFFSET UNITYSDK_OFFSET(0xBD323F0)
 
+inline static constexpr unsigned int OBALPFEHAAK_TypeDefinitionIndex = 60932;
+
 	class OBALPFEHAAK : public ::System::Object
 	{
 	public:

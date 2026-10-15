@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SceneGachaListener_TypeDefinitionIndex = 20349;
+
 	class SceneGachaListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenEndingData_TypeDefinitionIndex = 75500;
+
 	class ActivityHipplenEndingData : public ::System::Object
 	{
 	public:

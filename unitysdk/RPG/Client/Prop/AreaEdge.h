@@ -6,6 +6,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int AreaEdge_TypeDefinitionIndex = 78218;
+
 	class AreaEdge : public ::System::Object
 	{
 	public:

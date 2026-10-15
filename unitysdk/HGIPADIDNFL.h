@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HGIPADIDNFL_SET_BATTLEID_OFFSET UNITYSDK_OFFSET(0x15CA0840)
 #define HGIPADIDNFL_SET_ENEMYINFO_OFFSET UNITYSDK_OFFSET(0x15CA0860)
 
+inline static constexpr unsigned int HGIPADIDNFL_TypeDefinitionIndex = 79210;
+
 	class HGIPADIDNFL : public ::System::Object
 	{
 	public:

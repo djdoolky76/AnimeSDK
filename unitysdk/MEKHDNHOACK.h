@@ -19,6 +19,8 @@ namespace RPG::Client { class InflatableFighterPuzzleBoard; }
 #define MEKHDNHOACK_MBOMDOAMNHP_OFFSET UNITYSDK_OFFSET(0xB8DC540)
 #define MEKHDNHOACK_OJDJKEELHLM_OFFSET UNITYSDK_OFFSET(0xB8DC490)
 
+inline static constexpr unsigned int MEKHDNHOACK_TypeDefinitionIndex = 68677;
+
 	class MEKHDNHOACK : public ::System::Object
 	{
 	public:

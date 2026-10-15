@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DebateReturnTestimony; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DebateReturnTestimony_TypeDefinitionIndex = 21931;
+
 	class DebateReturnTestimony : public ::RPG::GameCore::TaskConfig
 	{
 	public:

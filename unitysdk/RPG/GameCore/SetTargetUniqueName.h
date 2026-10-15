@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetTargetUniqueName_TypeDefinitionIndex = 23186;
+
 	class SetTargetUniqueName : public ::RPG::GameCore::TaskConfig
 	{
 	public:

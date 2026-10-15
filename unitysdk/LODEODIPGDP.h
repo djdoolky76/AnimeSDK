@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LODEODIPGDP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB7F7E80)
 #define LODEODIPGDP_TICK_OFFSET UNITYSDK_OFFSET(0xB7F82A0)
 
+inline static constexpr unsigned int LODEODIPGDP_TypeDefinitionIndex = 53360;
+
 	class LODEODIPGDP : public ::GELIALJDFBL
 	{
 	public:

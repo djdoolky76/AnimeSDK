@@ -29,6 +29,8 @@ namespace UnityEngine { class Transform; }
 #define ANLGEIBGCFF_SET_DEBUGHOLDSECONDS_OFFSET UNITYSDK_OFFSET(0x15899E10)
 #define ANLGEIBGCFF_SET_DEBUGPHASEREMAINSECONDS_OFFSET UNITYSDK_OFFSET(0x15899DF0)
 
+inline static constexpr unsigned int ANLGEIBGCFF_TypeDefinitionIndex = 81873;
+
 	class ANLGEIBGCFF : public ::System::Object
 	{
 	public:

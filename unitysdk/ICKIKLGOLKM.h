@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define ICKIKLGOLKM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15E51460)
 #define ICKIKLGOLKM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E514A0)
 
+inline static constexpr unsigned int ICKIKLGOLKM_TypeDefinitionIndex = 53833;
+
 	class ICKIKLGOLKM
 	{
 	public:

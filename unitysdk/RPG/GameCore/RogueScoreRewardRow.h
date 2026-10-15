@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueScoreRewardRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueScoreRewardRow_TypeDefinitionIndex = 14936;
+
 	class RogueScoreRewardRow : public ::System::Object
 	{
 	public:

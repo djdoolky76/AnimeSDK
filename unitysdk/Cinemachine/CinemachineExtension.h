@@ -28,6 +28,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineExtension_TypeDefinitionIndex = 39816;
+
 	class CinemachineExtension : public ::UnityEngine::MonoBehaviour
 	{
 	public:

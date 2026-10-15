@@ -11,6 +11,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyMeetingCardController_CardMoveInfo_TypeDefinitionIndex = 74279;
+
 	class TrainPartyMeetingCardController_CardMoveInfo : public ::System::Object
 	{
 	public:

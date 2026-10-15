@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ValueEvaluatorVec2; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ValueEvaluatorVec2_TypeDefinitionIndex = 24038;
+
 	class ValueEvaluatorVec2 : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int MemGraphTaker_TypeDefinitionIndex = 35148;
+
 	class MemGraphTaker : public ::System::Object
 	{
 	public:

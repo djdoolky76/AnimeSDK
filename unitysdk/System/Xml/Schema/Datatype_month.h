@@ -8,6 +8,8 @@
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_month_TypeDefinitionIndex = 2116;
+
 	class Datatype_month : public ::System::Xml::Schema::Datatype_dateTimeBase
 	{
 	public:

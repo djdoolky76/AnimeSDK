@@ -13,6 +13,8 @@ namespace System { class String; }
 #define GBNPHKMEIHA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE28510)
 #define GBNPHKMEIHA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE284D0)
 
+inline static constexpr unsigned int GBNPHKMEIHA_TypeDefinitionIndex = 22785;
+
 	class GBNPHKMEIHA : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

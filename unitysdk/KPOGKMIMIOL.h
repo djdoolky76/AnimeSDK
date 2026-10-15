@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KPOGKMIMIOL_HKEPJLDBGIG_OFFSET UNITYSDK_OFFSET(0xB5D0790)
 #define KPOGKMIMIOL_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0xB5D03C0)
 
+inline static constexpr unsigned int KPOGKMIMIOL_TypeDefinitionIndex = 54229;
+
 	class KPOGKMIMIOL : public ::System::Object
 	{
 	public:

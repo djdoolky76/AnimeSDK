@@ -11,6 +11,8 @@ namespace RPG::GameCore { class AdvModifierOverrideFeatureFlagParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvModifierOverrideFeatureFlagParam_TypeDefinitionIndex = 21809;
+
 	class AdvModifierOverrideFeatureFlagParam : public ::RPG::GameCore::TaskConfig
 	{
 	public:

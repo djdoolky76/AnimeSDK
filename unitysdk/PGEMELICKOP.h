@@ -5,6 +5,8 @@ class CCLFKMFJLPB;
 
 #define PGEMELICKOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E8CA0)
 
+inline static constexpr unsigned int PGEMELICKOP_TypeDefinitionIndex = 42926;
+
 	class PGEMELICKOP : public ::System::Object
 	{
 	public:

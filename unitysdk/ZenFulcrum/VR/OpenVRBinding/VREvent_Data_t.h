@@ -22,6 +22,8 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int VREvent_Data_t_TypeDefinitionIndex = 39263;
+
 	struct alignas(4) VREvent_Data_t
 	{
 		::ZenFulcrum::VR::OpenVRBinding::VREvent_Reserved_t reserved; // 0x10

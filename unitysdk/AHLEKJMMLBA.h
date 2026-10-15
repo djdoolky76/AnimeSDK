@@ -19,6 +19,8 @@ namespace System::Text { class StringBuilder; }
 #define AHLEKJMMLBA_SET_PROTOTYPEIDENTIFIER_OFFSET UNITYSDK_OFFSET(0x94B0)
 #define AHLEKJMMLBA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C7310)
 
+inline static constexpr unsigned int AHLEKJMMLBA_TypeDefinitionIndex = 51963;
+
 	struct alignas(4) AHLEKJMMLBA
 	{
 		::APCGKBOPGJL _PrototypeIdentifier_k__BackingField; // 0x10

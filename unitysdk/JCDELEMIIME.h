@@ -12,6 +12,8 @@ namespace SimpleJSON { class JSONNode; }
 #define JCDELEMIIME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D016760)
 #define JCDELEMIIME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D016720)
 
+inline static constexpr unsigned int JCDELEMIIME_TypeDefinitionIndex = 24313;
+
 	class JCDELEMIIME : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

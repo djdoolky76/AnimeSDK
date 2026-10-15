@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FMELOMHPAAL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15853280)
 #define FMELOMHPAAL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15853630)
 
+inline static constexpr unsigned int FMELOMHPAAL_TypeDefinitionIndex = 58578;
+
 	class FMELOMHPAAL
 	{
 	public:

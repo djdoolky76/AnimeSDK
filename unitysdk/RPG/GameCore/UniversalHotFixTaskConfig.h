@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UniversalHotFixTaskConfig_TypeDefinitionIndex = 23354;
+
 	class UniversalHotFixTaskConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

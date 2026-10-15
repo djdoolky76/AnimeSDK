@@ -5,6 +5,8 @@
 
 #define AGALPCLOLOG_CPGOKIHOPMH_OFFSET UNITYSDK_OFFSET(0xCF25490)
 
+inline static constexpr unsigned int AGALPCLOLOG_TypeDefinitionIndex = 62709;
+
 	class AGALPCLOLOG : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FIBKOLLMPMM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E395350)
 #define FIBKOLLMPMM___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E395360)
 
+inline static constexpr unsigned int FIBKOLLMPMM___c_TypeDefinitionIndex = 27062;
+
 	class FIBKOLLMPMM___c : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGCurve_IterationCallback_TypeDefinitionIndex = 35993;
+
 	class BGCurve_IterationCallback : public ::System::MulticastDelegate
 	{
 	public:

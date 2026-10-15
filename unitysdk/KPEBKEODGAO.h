@@ -9,6 +9,8 @@ namespace System { class String; }
 
 #define KPEBKEODGAO_CTOR_OFFSET UNITYSDK_OFFSET(0xB5B41A0)
 
+inline static constexpr unsigned int KPEBKEODGAO_TypeDefinitionIndex = 58147;
+
 	class KPEBKEODGAO : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class HoyoGroupCommonConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HoyoGroupCommonConfig_TypeDefinitionIndex = 17626;
+
 	class HoyoGroupCommonConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

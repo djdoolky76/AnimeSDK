@@ -63,6 +63,8 @@ namespace System::ComponentModel { class PropertyChangedEventHandler; }
 
 namespace SRDebugger
 {
+	inline static constexpr unsigned int Settings_TypeDefinitionIndex = 37973;
+
 	class Settings : public ::UnityEngine::ScriptableObject
 	{
 	public:

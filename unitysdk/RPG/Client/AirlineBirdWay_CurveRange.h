@@ -7,6 +7,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AirlineBirdWay_CurveRange_TypeDefinitionIndex = 59798;
+
 	struct alignas(8) AirlineBirdWay_CurveRange
 	{
 		::System::Int32 startPointIndex; // 0x10

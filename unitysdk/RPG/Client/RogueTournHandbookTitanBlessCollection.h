@@ -10,6 +10,8 @@ namespace Google::Protobuf::Collections { template <typename T> class RepeatedFi
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournHandbookTitanBlessCollection_TypeDefinitionIndex = 67659;
+
 	class RogueTournHandbookTitanBlessCollection
 	{
 	public:

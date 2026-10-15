@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayerChallengeRecordDataGroup_TypeDefinitionIndex = 64272;
+
 	class PlayerChallengeRecordDataGroup : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModiferDecreaseDoorNumConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModiferDecreaseDoorNumConfig_TypeDefinitionIndex = 17784;
+
 	class RogueModiferDecreaseDoorNumConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MiTriggerConfigBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MiTriggerConfigBase_TypeDefinitionIndex = 17092;
+
 	class MiTriggerConfigBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:

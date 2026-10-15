@@ -17,6 +17,8 @@ namespace System::Text { class Encoding; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int CStreamWriter_TypeDefinitionIndex = 731;
+
 	class CStreamWriter : public ::System::IO::StreamWriter
 	{
 	public:

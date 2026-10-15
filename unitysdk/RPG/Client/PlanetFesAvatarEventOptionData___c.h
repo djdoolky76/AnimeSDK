@@ -12,6 +12,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesAvatarEventOptionData___c_TypeDefinitionIndex = 66550;
+
 	class PlanetFesAvatarEventOptionData___c : public ::System::Object
 	{
 	public:

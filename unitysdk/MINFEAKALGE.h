@@ -20,6 +20,8 @@ namespace System { class String; }
 #define MINFEAKALGE_SET_NAME_OFFSET UNITYSDK_OFFSET(0xB95F800)
 #define MINFEAKALGE_SET_SKILLID_OFFSET UNITYSDK_OFFSET(0xB95F7C0)
 
+inline static constexpr unsigned int MINFEAKALGE_TypeDefinitionIndex = 81696;
+
 	class MINFEAKALGE : public ::System::Object
 	{
 	public:

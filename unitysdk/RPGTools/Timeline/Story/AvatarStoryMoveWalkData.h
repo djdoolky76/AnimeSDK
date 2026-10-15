@@ -7,6 +7,8 @@
 
 namespace RPGTools::Timeline::Story
 {
+	inline static constexpr unsigned int AvatarStoryMoveWalkData_TypeDefinitionIndex = 48706;
+
 	class AvatarStoryMoveWalkData : public ::RPGTools::Timeline::Story::BaseStoryMoveWalkData
 	{
 	public:

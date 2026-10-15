@@ -6,6 +6,8 @@ namespace System { class Action; }
 #define CHBCJGDEBNA_CTOR_OFFSET UNITYSDK_OFFSET(0xCC90610)
 #define CHBCJGDEBNA_MBABPIHGAJN_OFFSET UNITYSDK_OFFSET(0xCC90670)
 
+inline static constexpr unsigned int CHBCJGDEBNA_TypeDefinitionIndex = 61143;
+
 	class CHBCJGDEBNA : public ::System::Exception
 	{
 	public:

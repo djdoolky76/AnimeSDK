@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 #define FOEAJCKLNKO_REVERSE_OFFSET UNITYSDK_OFFSET(0x158E5DB0)
 #define FOEAJCKLNKO_STARTWITHTARGET_OFFSET UNITYSDK_OFFSET(0x158E5BE0)
 
+inline static constexpr unsigned int FOEAJCKLNKO_TypeDefinitionIndex = 73528;
+
 	class FOEAJCKLNKO : public ::DOHOHDKDIJI
 	{
 	public:

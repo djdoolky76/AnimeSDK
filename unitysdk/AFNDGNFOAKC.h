@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AFNDGNFOAKC_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xCF19DB0)
 #define AFNDGNFOAKC_MHMFNGGAHPC_OFFSET UNITYSDK_OFFSET(0xCF1A100)
 
+inline static constexpr unsigned int AFNDGNFOAKC_TypeDefinitionIndex = 78226;
+
 	class AFNDGNFOAKC : public ::System::Object
 	{
 	public:

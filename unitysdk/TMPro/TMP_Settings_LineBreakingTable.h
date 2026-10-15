@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_Settings_LineBreakingTable_TypeDefinitionIndex = 44630;
+
 	class TMP_Settings_LineBreakingTable : public ::System::Object
 	{
 	public:

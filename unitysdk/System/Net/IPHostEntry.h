@@ -13,6 +13,8 @@ namespace System::Net { class IPAddress; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int IPHostEntry_TypeDefinitionIndex = 2745;
+
 	class IPHostEntry : public ::System::Object
 	{
 	public:

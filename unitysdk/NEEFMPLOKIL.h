@@ -32,6 +32,8 @@ namespace System { class String; }
 #define NEEFMPLOKIL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAF2C60)
 #define NEEFMPLOKIL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAF2CC0)
 
+inline static constexpr unsigned int NEEFMPLOKIL_TypeDefinitionIndex = 30008;
+
 	class NEEFMPLOKIL : public ::System::Object
 	{
 	public:

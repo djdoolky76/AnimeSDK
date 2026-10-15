@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define EOBONCLPPLM___C___CCTOR_B__28_1_OFFSET UNITYSDK_OFFSET(0x1E2F8980)
 #define EOBONCLPPLM___C___CCTOR_B__28_2_OFFSET UNITYSDK_OFFSET(0x1E2F8990)
 
+inline static constexpr unsigned int EOBONCLPPLM___c_TypeDefinitionIndex = 30377;
+
 	class EOBONCLPPLM___c : public ::System::Object
 	{
 	public:

@@ -38,6 +38,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ClockParkBuffItem_TypeDefinitionIndex = 61479;
+
 	class ClockParkBuffItem : public ::System::Object
 	{
 	public:

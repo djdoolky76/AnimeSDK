@@ -19,6 +19,8 @@ namespace System { class String; }
 #define DLLHPMAFJLA_NEBGFFGPEEA_OFFSET UNITYSDK_OFFSET(0xF8ABEC0)
 #define DLLHPMAFJLA_OPIIEBHOGOF_OFFSET UNITYSDK_OFFSET(0xF8AB820)
 
+inline static constexpr unsigned int DLLHPMAFJLA_TypeDefinitionIndex = 61035;
+
 	class DLLHPMAFJLA : public ::System::Object
 	{
 	public:

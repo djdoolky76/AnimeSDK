@@ -36,6 +36,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System::Security::Cryptography::X509Certificates
 {
+	inline static constexpr unsigned int X509Certificate2_TypeDefinitionIndex = 2692;
+
 	class X509Certificate2 : public ::System::Security::Cryptography::X509Certificates::X509Certificate
 	{
 	public:

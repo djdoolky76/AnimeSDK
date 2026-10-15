@@ -37,6 +37,8 @@ namespace System { class String; }
 #define PEOKJEOOOJD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF1F310)
 #define PEOKJEOOOJD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF1F370)
 
+inline static constexpr unsigned int PEOKJEOOOJD_TypeDefinitionIndex = 26961;
+
 	class PEOKJEOOOJD : public ::System::Object
 	{
 	public:

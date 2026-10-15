@@ -80,6 +80,8 @@ namespace UnityEngine { class Transform; }
 #define LAJCPEFEOPN_SET_SUPPRESSDISTANCELIFECYCLE_OFFSET UNITYSDK_OFFSET(0xB5E3F10)
 #define LAJCPEFEOPN_SET_SUPPRESSMOTIONAGENTONSTART_OFFSET UNITYSDK_OFFSET(0xB5E3EF0)
 
+inline static constexpr unsigned int LAJCPEFEOPN_TypeDefinitionIndex = 69252;
+
 	class LAJCPEFEOPN : public ::System::Object
 	{
 	public:

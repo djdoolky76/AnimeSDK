@@ -32,6 +32,8 @@ namespace System { class String; }
 #define EEKPMCEONGD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E287820)
 #define EEKPMCEONGD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E287880)
 
+inline static constexpr unsigned int EEKPMCEONGD_TypeDefinitionIndex = 32793;
+
 	class EEKPMCEONGD : public ::System::Object
 	{
 	public:

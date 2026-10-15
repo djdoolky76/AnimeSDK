@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define HIDDJGKBEBC_NHFNCBMGABG_EPBIHGNFANB_OFFSET UNITYSDK_OFFSET(0x15CE0E20)
 #define HIDDJGKBEBC_NHFNCBMGABG_MKBAFGPDDEF_OFFSET UNITYSDK_OFFSET(0x15CE0F90)
 
+inline static constexpr unsigned int HIDDJGKBEBC_NHFNCBMGABG_TypeDefinitionIndex = 79593;
+
 	class HIDDJGKBEBC_NHFNCBMGABG : public ::System::Object
 	{
 	public:

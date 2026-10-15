@@ -21,6 +21,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPGTools
 {
+	inline static constexpr unsigned int ScreenRecorder_TypeDefinitionIndex = 47777;
+
 	class ScreenRecorder : public ::UnityEngine::MonoBehaviour
 	{
 	public:

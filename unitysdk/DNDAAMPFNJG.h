@@ -40,6 +40,8 @@ namespace UnityEngine { class Collider; }
 #define DNDAAMPFNJG_POOLDMKLJLJ_OFFSET UNITYSDK_OFFSET(0x11944310)
 #define DNDAAMPFNJG_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x11941ED0)
 
+inline static constexpr unsigned int DNDAAMPFNJG_TypeDefinitionIndex = 77129;
+
 	class DNDAAMPFNJG : public ::System::Object
 	{
 	public:

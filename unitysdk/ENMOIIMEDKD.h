@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int ENMOIIMEDKD_TypeDefinitionIndex = 32366;
+
 	enum class ENMOIIMEDKD : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

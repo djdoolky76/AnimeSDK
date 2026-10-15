@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace IniParserEx
 {
+	inline static constexpr unsigned int IniFile_Section_TypeDefinitionIndex = 3932;
+
 	class IniFile_Section : public ::System::Object
 	{
 	public:

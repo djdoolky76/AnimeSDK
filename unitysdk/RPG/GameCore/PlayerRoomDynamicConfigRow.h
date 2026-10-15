@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerRoomDynamicConfigRow_TypeDefinitionIndex = 14547;
+
 	class PlayerRoomDynamicConfigRow : public ::System::Object
 	{
 	public:

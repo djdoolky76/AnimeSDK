@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define KMKKJDJPMOF__GETLOADEDBLOCKNODESTAGEPREFABINFOLIST_D__12___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xB564BA0)
 #define KMKKJDJPMOF__GETLOADEDBLOCKNODESTAGEPREFABINFOLIST_D__12___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0xB564CA0)
 
+inline static constexpr unsigned int KMKKJDJPMOF__GetLoadedBlockNodeStagePrefabInfoList_d__12_TypeDefinitionIndex = 69502;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12>
 	class KMKKJDJPMOF__GetLoadedBlockNodeStagePrefabInfoList_d__12 : public ::System::Object
 	{

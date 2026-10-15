@@ -4,6 +4,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int LocalAppContextSwitches_TypeDefinitionIndex = 1785;
+
 	class LocalAppContextSwitches : public ::System::Object
 	{
 	public:

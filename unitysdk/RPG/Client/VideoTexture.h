@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VideoTexture_TypeDefinitionIndex = 73220;
+
 	class VideoTexture : public ::UnityEngine::MonoBehaviour
 	{
 	public:

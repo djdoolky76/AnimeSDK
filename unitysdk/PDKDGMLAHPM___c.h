@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define PDKDGMLAHPM___C__REQUESTGETSTAGE_B__4_0_OFFSET UNITYSDK_OFFSET(0xC01E190)
 #define PDKDGMLAHPM___C__REQUESTSTARTSTAGE_B__3_0_OFFSET UNITYSDK_OFFSET(0xC01E170)
 
+inline static constexpr unsigned int PDKDGMLAHPM___c_TypeDefinitionIndex = 76238;
+
 	class PDKDGMLAHPM___c : public ::System::Object
 	{
 	public:

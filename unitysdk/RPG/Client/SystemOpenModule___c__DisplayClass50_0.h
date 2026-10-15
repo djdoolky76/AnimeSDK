@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SystemOpenModule___c__DisplayClass50_0_TypeDefinitionIndex = 68022;
+
 	class SystemOpenModule___c__DisplayClass50_0 : public ::System::Object
 	{
 	public:

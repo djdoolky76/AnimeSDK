@@ -9,6 +9,8 @@ class MCPOJOODEGO;
 #define MCPOJOODEGO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D141B90)
 #define MCPOJOODEGO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D141B30)
 
+inline static constexpr unsigned int MCPOJOODEGO_TypeDefinitionIndex = 16854;
+
 	class MCPOJOODEGO : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

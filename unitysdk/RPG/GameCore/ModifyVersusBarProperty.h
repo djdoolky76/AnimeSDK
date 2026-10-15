@@ -17,6 +17,8 @@ namespace RPG::GameCore { class ModifyVersusBarProperty; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyVersusBarProperty_TypeDefinitionIndex = 23147;
+
 	class ModifyVersusBarProperty : public ::RPG::GameCore::TaskConfig
 	{
 	public:

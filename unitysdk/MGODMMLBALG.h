@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MGODMMLBALG_SET_USINGRETURNID_OFFSET UNITYSDK_OFFSET(0xB92A4B0)
 #define MGODMMLBALG_SET_USINGTRIALAVATARGROUP_OFFSET UNITYSDK_OFFSET(0xB92A510)
 
+inline static constexpr unsigned int MGODMMLBALG_TypeDefinitionIndex = 61889;
+
 	class MGODMMLBALG : public ::System::Object
 	{
 	public:

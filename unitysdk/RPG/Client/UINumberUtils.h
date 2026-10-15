@@ -80,6 +80,8 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UINumberUtils_TypeDefinitionIndex = 73175;
+
 	class UINumberUtils : public ::System::Object
 	{
 	public:

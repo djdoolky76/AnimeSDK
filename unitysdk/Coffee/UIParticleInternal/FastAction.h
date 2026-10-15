@@ -6,6 +6,8 @@
 
 namespace Coffee::UIParticleInternal
 {
+	inline static constexpr unsigned int FastAction_TypeDefinitionIndex = 45128;
+
 	class FastAction
 	{
 	public:

@@ -24,6 +24,8 @@ namespace System { class String; }
 #define EMPHGLJADFP_PACBDGILPHI_OFFSET UNITYSDK_OFFSET(0x155A33C0)
 #define EMPHGLJADFP__ONBIND_OFFSET UNITYSDK_OFFSET(0x155A3170)
 
+inline static constexpr unsigned int EMPHGLJADFP_TypeDefinitionIndex = 71420;
+
 	class EMPHGLJADFP : public ::FMPCODLIOLG
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Action; }
 #define FGCOJOKNJKE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15753CF0)
 #define FGCOJOKNJKE_KGOIGDGEJFE_OFFSET UNITYSDK_OFFSET(0x15753AB0)
 
+inline static constexpr unsigned int FGCOJOKNJKE_TypeDefinitionIndex = 49858;
+
 	class FGCOJOKNJKE : public ::System::Object
 	{
 	public:

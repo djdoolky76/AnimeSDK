@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MALFLPEHNOA_CTOR_OFFSET UNITYSDK_OFFSET(0xB852C20)
 #define MALFLPEHNOA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB852C90)
 
+inline static constexpr unsigned int MALFLPEHNOA_TypeDefinitionIndex = 59096;
+
 	class MALFLPEHNOA
 	{
 	public:

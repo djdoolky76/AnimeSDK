@@ -6,6 +6,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int SerializableAttribute_TypeDefinitionIndex = 326;
+
 	class SerializableAttribute : public ::System::Attribute
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DynamicString; }
 #define CEIJCJHPKII_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA14200)
 #define CEIJCJHPKII_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA14110)
 
+inline static constexpr unsigned int CEIJCJHPKII_TypeDefinitionIndex = 22159;
+
 	class CEIJCJHPKII : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ class JBFGHNLMEDI;
 #define CAKMDHHJKDK_CTOR_OFFSET UNITYSDK_OFFSET(0xC487B70)
 #define CAKMDHHJKDK_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0xC487B80)
 
+inline static constexpr unsigned int CAKMDHHJKDK_TypeDefinitionIndex = 76419;
+
 	class CAKMDHHJKDK : public ::HALHKJLBIKJ
 	{
 	public:

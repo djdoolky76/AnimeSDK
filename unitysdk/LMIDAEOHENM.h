@@ -6,6 +6,8 @@ namespace RPG::GameCore { class WolfBroSetupCameraAxis; }
 #define LMIDAEOHENM_CTOR_OFFSET UNITYSDK_OFFSET(0xB7C8AC0)
 #define LMIDAEOHENM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7C8AF0)
 
+inline static constexpr unsigned int LMIDAEOHENM_TypeDefinitionIndex = 58964;
+
 	class LMIDAEOHENM
 	{
 	public:

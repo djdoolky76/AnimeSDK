@@ -4,6 +4,8 @@
 
 #define DLAPDGELEPN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2EAA0)
 
+inline static constexpr unsigned int DLAPDGELEPN_TypeDefinitionIndex = 42932;
+
 	class DLAPDGELEPN : public ::System::Object
 	{
 	public:

@@ -116,6 +116,8 @@ namespace UnityEngine { class Transform; }
 #define AJDAJPHJBME_SET_LOOKATTARGET_OFFSET UNITYSDK_OFFSET(0x12CB73E0)
 #define AJDAJPHJBME_SET_RUNTIMEID_OFFSET UNITYSDK_OFFSET(0x12CB7320)
 
+inline static constexpr unsigned int AJDAJPHJBME_TypeDefinitionIndex = 69752;
+
 	class AJDAJPHJBME : public ::System::Object
 	{
 	public:

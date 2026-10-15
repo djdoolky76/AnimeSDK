@@ -7,6 +7,8 @@
 
 #define KMIIJNNDFJP_EXECUTE_OFFSET UNITYSDK_OFFSET(0x165D0)
 
+inline static constexpr unsigned int KMIIJNNDFJP_TypeDefinitionIndex = 73726;
+
 	struct alignas(8) KMIIJNNDFJP
 	{
 		::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> NPLKIAMMBBL; // 0x10

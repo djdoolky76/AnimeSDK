@@ -9,6 +9,8 @@ namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyCon
 #define COLCDJNDLDD_CALCULATEVALUE_OFFSET UNITYSDK_OFFSET(0xDCBA390)
 #define COLCDJNDLDD_CTOR_OFFSET UNITYSDK_OFFSET(0xDCBA230)
 
+inline static constexpr unsigned int COLCDJNDLDD_TypeDefinitionIndex = 75128;
+
 	class COLCDJNDLDD : public ::System::Object
 	{
 	public:

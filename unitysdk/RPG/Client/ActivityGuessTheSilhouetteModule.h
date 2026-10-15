@@ -59,6 +59,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityGuessTheSilhouetteModule_TypeDefinitionIndex = 61518;
+
 	class ActivityGuessTheSilhouetteModule : public ::RPG::Client::BaseModule
 	{
 	public:

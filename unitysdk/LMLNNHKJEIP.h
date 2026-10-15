@@ -34,6 +34,8 @@ namespace System { class String; }
 #define LMLNNHKJEIP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9AAB60)
 #define LMLNNHKJEIP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9AABC0)
 
+inline static constexpr unsigned int LMLNNHKJEIP_TypeDefinitionIndex = 25773;
+
 	class LMLNNHKJEIP : public ::System::Object
 	{
 	public:

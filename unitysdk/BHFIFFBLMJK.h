@@ -42,6 +42,8 @@ namespace UnityEngine::UI { class Text; }
 #define BHFIFFBLMJK__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xB476C50)
 #define BHFIFFBLMJK__ONTICK_OFFSET UNITYSDK_OFFSET(0xB476950)
 
+inline static constexpr unsigned int BHFIFFBLMJK_TypeDefinitionIndex = 72322;
+
 	class BHFIFFBLMJK : public ::FMPCODLIOLG
 	{
 	public:

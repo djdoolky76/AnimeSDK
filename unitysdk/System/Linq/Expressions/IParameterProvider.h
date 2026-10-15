@@ -3,6 +3,8 @@
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int IParameterProvider_TypeDefinitionIndex = 3224;
+
 	class IParameterProvider
 	{
 	public:

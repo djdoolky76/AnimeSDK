@@ -9,6 +9,8 @@ namespace RPG::GameCore { class HoyoTagContainer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StreamingBlockVolumeComponentEditorData_TypeDefinitionIndex = 53596;
+
 	class StreamingBlockVolumeComponentEditorData : public ::RPG::GameCore::StreamingBlockVolumeComponentData
 	{
 	public:

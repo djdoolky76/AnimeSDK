@@ -40,6 +40,8 @@ namespace System::Xml::Linq { class XNode; }
 
 namespace System::Xml::Linq
 {
+	inline static constexpr unsigned int XContainer_TypeDefinitionIndex = 3893;
+
 	class XContainer : public ::System::Xml::Linq::XNode
 	{
 	public:

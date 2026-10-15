@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierSetCountByFinishGambleConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierSetCountByFinishGambleConfig_TypeDefinitionIndex = 17720;
+
 	class RogueModifierSetCountByFinishGambleConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

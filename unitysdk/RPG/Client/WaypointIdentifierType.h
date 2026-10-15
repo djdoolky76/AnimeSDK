@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WaypointIdentifierType_TypeDefinitionIndex = 69070;
+
 	enum class WaypointIdentifierType : ::System::Int32
 	{
 		Invalid = 0,

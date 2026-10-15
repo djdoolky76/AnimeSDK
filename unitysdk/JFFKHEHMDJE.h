@@ -8,6 +8,8 @@ class JFFKHEHMDJE;
 #define JFFKHEHMDJE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D023640)
 #define JFFKHEHMDJE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D023570)
 
+inline static constexpr unsigned int JFFKHEHMDJE_TypeDefinitionIndex = 19976;
+
 	class JFFKHEHMDJE : public ::RPG::GameCore::TaskConfig
 	{
 	public:

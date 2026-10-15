@@ -24,6 +24,8 @@ namespace System::Xml::Schema { class XmlValueConverter; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlNumeric2Converter_TypeDefinitionIndex = 2224;
+
 	class XmlNumeric2Converter : public ::System::Xml::Schema::XmlBaseConverter
 	{
 	public:

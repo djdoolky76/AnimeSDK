@@ -6,6 +6,8 @@
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsOfficeSurveyWindow_TypeDefinitionIndex = 80370;
+
 	class LimaoNewsOfficeSurveyWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:

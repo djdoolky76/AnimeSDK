@@ -19,6 +19,8 @@ namespace UnityEngine::UI { class Button; }
 #define NDAKLNGIAAL__ONBIND_OFFSET UNITYSDK_OFFSET(0xBB1EA10)
 #define NDAKLNGIAAL__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xBB1EB90)
 
+inline static constexpr unsigned int NDAKLNGIAAL_TypeDefinitionIndex = 71649;
+
 	class NDAKLNGIAAL : public ::FMPCODLIOLG
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int HoYoSDKAccountList___c__DisplayClass7_0_TypeDefinitionIndex = 46739;
+
 	class HoYoSDKAccountList___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

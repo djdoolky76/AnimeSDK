@@ -8,6 +8,8 @@ namespace RPG::Client { class CameraBlendCurve; }
 #define MJEOAJOAKOD_CTOR_OFFSET UNITYSDK_OFFSET(0xB969E90)
 #define MJEOAJOAKOD_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB969DB0)
 
+inline static constexpr unsigned int MJEOAJOAKOD_TypeDefinitionIndex = 57058;
+
 	class MJEOAJOAKOD : public ::System::Object
 	{
 	public:

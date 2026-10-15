@@ -60,6 +60,8 @@ namespace System { class String; }
 #define KMGDCCNNGEE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E896EF0)
 #define KMGDCCNNGEE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E896F50)
 
+inline static constexpr unsigned int KMGDCCNNGEE_TypeDefinitionIndex = 25064;
+
 	class KMGDCCNNGEE : public ::System::Object
 	{
 	public:

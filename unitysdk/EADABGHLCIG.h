@@ -9,6 +9,8 @@
 #define EADABGHLCIG_LLFBKAADOGN_OFFSET UNITYSDK_OFFSET(0x12671990)
 #define EADABGHLCIG_SET_BEHIT_OFFSET UNITYSDK_OFFSET(0x126719E0)
 
+inline static constexpr unsigned int EADABGHLCIG_TypeDefinitionIndex = 78557;
+
 	class EADABGHLCIG : public ::MKADHMMGGNA
 	{
 	public:

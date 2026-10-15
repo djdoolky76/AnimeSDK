@@ -36,6 +36,8 @@ namespace System { class String; }
 #define CNLOBEKDKGL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E10AE30)
 #define CNLOBEKDKGL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E10AE90)
 
+inline static constexpr unsigned int CNLOBEKDKGL_TypeDefinitionIndex = 28190;
+
 	class CNLOBEKDKGL : public ::System::Object
 	{
 	public:

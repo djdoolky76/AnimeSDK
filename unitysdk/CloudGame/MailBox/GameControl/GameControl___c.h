@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace CloudGame::MailBox::GameControl
 {
+	inline static constexpr unsigned int GameControl___c_TypeDefinitionIndex = 7549;
+
 	class GameControl___c : public ::System::Object
 	{
 	public:

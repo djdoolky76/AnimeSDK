@@ -7,6 +7,8 @@
 #define GBLCODHOIGG_GET_MAINMISSIONID_OFFSET UNITYSDK_OFFSET(0x15951C50)
 #define GBLCODHOIGG_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x15951C60)
 
+inline static constexpr unsigned int GBLCODHOIGG_TypeDefinitionIndex = 66160;
+
 	class GBLCODHOIGG : public ::System::Exception
 	{
 	public:

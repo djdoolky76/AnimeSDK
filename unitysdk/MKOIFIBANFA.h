@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MKOIFIBANFA_CTOR_OFFSET UNITYSDK_OFFSET(0xB9A20F0)
 #define MKOIFIBANFA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB9A2120)
 
+inline static constexpr unsigned int MKOIFIBANFA_TypeDefinitionIndex = 54697;
+
 	class MKOIFIBANFA
 	{
 	public:

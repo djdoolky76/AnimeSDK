@@ -27,6 +27,8 @@ namespace System { class String; }
 #define EMFJDODNGIF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2E00A0)
 #define EMFJDODNGIF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2E0100)
 
+inline static constexpr unsigned int EMFJDODNGIF_TypeDefinitionIndex = 29619;
+
 	class EMFJDODNGIF : public ::System::Object
 	{
 	public:

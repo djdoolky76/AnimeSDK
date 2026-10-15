@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskTemplateFetchParamSequence; }
 #define GCGHJHGDHMI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1596ACA0)
 #define GCGHJHGDHMI_TICK_OFFSET UNITYSDK_OFFSET(0x1596ACF0)
 
+inline static constexpr unsigned int GCGHJHGDHMI_TypeDefinitionIndex = 55703;
+
 	class GCGHJHGDHMI : public ::GELIALJDFBL
 	{
 	public:

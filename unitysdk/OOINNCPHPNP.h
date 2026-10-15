@@ -4,6 +4,8 @@
 
 #define OOINNCPHPNP_CTOR_OFFSET UNITYSDK_OFFSET(0xBF89090)
 
+inline static constexpr unsigned int OOINNCPHPNP_TypeDefinitionIndex = 73994;
+
 	class OOINNCPHPNP : public ::FECDLDCCHPN
 	{
 	public:

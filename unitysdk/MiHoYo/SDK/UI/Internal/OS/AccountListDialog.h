@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
+	inline static constexpr unsigned int AccountListDialog_TypeDefinitionIndex = 8426;
+
 	class AccountListDialog : public ::System::Object
 	{
 	public:

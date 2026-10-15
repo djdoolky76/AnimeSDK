@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingDIYPageControl___c__DisplayClass18_0_TypeDefinitionIndex = 81781;
+
 	class B51RacingDIYPageControl___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:

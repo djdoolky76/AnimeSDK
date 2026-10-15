@@ -50,6 +50,8 @@ namespace System { class String; }
 #define JACFBGPCGJB_SET_TEAMTYPE_OFFSET UNITYSDK_OFFSET(0x16540FE0)
 #define JACFBGPCGJB_SET_UNIQUEID_OFFSET UNITYSDK_OFFSET(0x16540FA0)
 
+inline static constexpr unsigned int JACFBGPCGJB_TypeDefinitionIndex = 61438;
+
 	class JACFBGPCGJB : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define AJDPPONBABG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3C0200)
 #define AJDPPONBABG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3C0260)
 
+inline static constexpr unsigned int AJDPPONBABG_TypeDefinitionIndex = 35125;
+
 	class AJDPPONBABG : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LoopWaitBattleWin; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoopWaitBattleWin_TypeDefinitionIndex = 21177;
+
 	class LoopWaitBattleWin : public ::RPG::GameCore::TaskConfig
 	{
 	public:

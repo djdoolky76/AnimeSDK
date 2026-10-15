@@ -5,6 +5,8 @@ namespace UnityEngine { class Transform; }
 
 #define BCFDIOHHLOM_CTOR_OFFSET UNITYSDK_OFFSET(0x15EA6510)
 
+inline static constexpr unsigned int BCFDIOHHLOM_TypeDefinitionIndex = 57541;
+
 	class BCFDIOHHLOM : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client { class TimeSpaceCrisscrossGroupBehavior; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeSpaceCrisscrossGroupBehavior___c__DisplayClass0_0_TypeDefinitionIndex = 70204;
+
 	class TimeSpaceCrisscrossGroupBehavior___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

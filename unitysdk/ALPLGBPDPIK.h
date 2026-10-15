@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ALPLGBPDPIK_SET_MULTSEQUENCE_OFFSET UNITYSDK_OFFSET(0x15571F10)
 #define ALPLGBPDPIK_SET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x15571ED0)
 
+inline static constexpr unsigned int ALPLGBPDPIK_TypeDefinitionIndex = 76383;
+
 	class ALPLGBPDPIK : public ::System::Object
 	{
 	public:

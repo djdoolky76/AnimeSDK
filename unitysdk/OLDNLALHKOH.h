@@ -8,6 +8,8 @@ class OLDNLALHKOH;
 #define OLDNLALHKOH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D298E90)
 #define OLDNLALHKOH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D298E40)
 
+inline static constexpr unsigned int OLDNLALHKOH_TypeDefinitionIndex = 24209;
+
 	class OLDNLALHKOH : public ::RPG::GameCore::TaskConfig
 	{
 	public:

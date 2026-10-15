@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LLILONBCMHC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB770D70)
 #define LLILONBCMHC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB7711C0)
 
+inline static constexpr unsigned int LLILONBCMHC_TypeDefinitionIndex = 52647;
+
 	class LLILONBCMHC
 	{
 	public:

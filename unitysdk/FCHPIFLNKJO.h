@@ -32,6 +32,8 @@ namespace UnityEngine { class Transform; }
 #define FCHPIFLNKJO_SET_PREFABPATH_OFFSET UNITYSDK_OFFSET(0x156BE000)
 #define FCHPIFLNKJO__ONBIND_OFFSET UNITYSDK_OFFSET(0x156BD150)
 
+inline static constexpr unsigned int FCHPIFLNKJO_TypeDefinitionIndex = 71257;
+
 	class FCHPIFLNKJO : public ::CAOEEDDAPIK
 	{
 	public:

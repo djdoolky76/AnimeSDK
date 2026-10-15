@@ -6,6 +6,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int GravityBallPlatformFlag_TypeDefinitionIndex = 78592;
+
 	class GravityBallPlatformFlag : public ::UnityEngine::MonoBehaviour
 	{
 	public:

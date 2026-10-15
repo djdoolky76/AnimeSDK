@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OCGNLGGKMID_NIOCBJAMEKC_OFFSET UNITYSDK_OFFSET(0x1EC8AD70)
 #define OCGNLGGKMID_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1EC8ACE0)
 
+inline static constexpr unsigned int OCGNLGGKMID_TypeDefinitionIndex = 44109;
+
 	class OCGNLGGKMID : public ::System::Object
 	{
 	public:

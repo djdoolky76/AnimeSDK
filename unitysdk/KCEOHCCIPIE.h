@@ -46,6 +46,8 @@ namespace UnityEngine::UI { class Image; }
 #define KCEOHCCIPIE_PMDONNAJEFC_OFFSET UNITYSDK_OFFSET(0xB333B00)
 #define KCEOHCCIPIE__ONBIND_OFFSET UNITYSDK_OFFSET(0xB332720)
 
+inline static constexpr unsigned int KCEOHCCIPIE_TypeDefinitionIndex = 71941;
+
 	class KCEOHCCIPIE : public ::CLAADCBPCHM
 	{
 	public:

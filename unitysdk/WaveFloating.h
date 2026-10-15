@@ -10,6 +10,8 @@ namespace UnityEngine { class MeshRenderer; }
 #define WAVEFLOATING_CTOR_OFFSET UNITYSDK_OFFSET(0xE9F7A70)
 #define WAVEFLOATING_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE9F7A20)
 
+inline static constexpr unsigned int WaveFloating_TypeDefinitionIndex = 47487;
+
 	class WaveFloating
 	{
 	public:

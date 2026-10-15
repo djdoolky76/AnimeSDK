@@ -25,6 +25,8 @@ namespace System { class Object; }
 #define GFBNDCCANOG_MJGKNFEILLI_OFFSET UNITYSDK_OFFSET(0x3C38A90)
 #define GFBNDCCANOG_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1CE3B200)
 
+inline static constexpr unsigned int GFBNDCCANOG_TypeDefinitionIndex = 10642;
+
 	struct alignas(8) GFBNDCCANOG
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

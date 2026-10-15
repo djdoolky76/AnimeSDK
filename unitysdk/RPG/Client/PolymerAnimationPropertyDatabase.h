@@ -28,6 +28,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PolymerAnimationPropertyDatabase_TypeDefinitionIndex = 70299;
+
 	class PolymerAnimationPropertyDatabase : public ::RPG::Client::PolymerEffectControllBase
 	{
 	public:

@@ -117,6 +117,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int WolfBroPuzzleBoard_TypeDefinitionIndex = 78689;
+
 	class WolfBroPuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

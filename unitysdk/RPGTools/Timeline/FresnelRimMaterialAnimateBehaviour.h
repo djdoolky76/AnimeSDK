@@ -17,6 +17,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int FresnelRimMaterialAnimateBehaviour_TypeDefinitionIndex = 48071;
+
 	class FresnelRimMaterialAnimateBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

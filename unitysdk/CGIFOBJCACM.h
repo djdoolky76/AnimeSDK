@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TriggerCustomPhotoGraphCondition; }
 #define CGIFOBJCACM_CTOR_OFFSET UNITYSDK_OFFSET(0xCC89B40)
 #define CGIFOBJCACM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC89B70)
 
+inline static constexpr unsigned int CGIFOBJCACM_TypeDefinitionIndex = 53445;
+
 	class CGIFOBJCACM
 	{
 	public:

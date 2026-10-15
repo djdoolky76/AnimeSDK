@@ -18,6 +18,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2BrandData_TypeDefinitionIndex = 76152;
+
 	class DiceCombatV2BrandData : public ::System::Object
 	{
 	public:

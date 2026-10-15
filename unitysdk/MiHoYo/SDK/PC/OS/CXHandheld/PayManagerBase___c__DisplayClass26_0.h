@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int PayManagerBase___c__DisplayClass26_0_TypeDefinitionIndex = 8765;
+
 	class PayManagerBase___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleEnemyHudSingleViewModel___c_TypeDefinitionIndex = 80864;
+
 	class FateRinBattleEnemyHudSingleViewModel___c : public ::System::Object
 	{
 	public:

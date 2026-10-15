@@ -5,6 +5,8 @@ class NBIBOKEFKIH;
 
 #define PCDPIIHCLNB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9A4ED0)
 
+inline static constexpr unsigned int PCDPIIHCLNB_TypeDefinitionIndex = 43054;
+
 	class PCDPIIHCLNB : public ::System::Object
 	{
 	public:

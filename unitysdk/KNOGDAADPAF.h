@@ -41,6 +41,8 @@ class OGNKOHNNFFH;
 #define KNOGDAADPAF_OLAAPKHJMNG_OFFSET UNITYSDK_OFFSET(0x1C90B080)
 #define KNOGDAADPAF_PKMMEPAEJBN_OFFSET UNITYSDK_OFFSET(0x1C90ACE0)
 
+inline static constexpr unsigned int KNOGDAADPAF_TypeDefinitionIndex = 42589;
+
 	class KNOGDAADPAF : public ::Entitas::Entity
 	{
 	public:

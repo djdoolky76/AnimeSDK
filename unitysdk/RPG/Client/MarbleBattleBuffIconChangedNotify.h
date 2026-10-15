@@ -11,6 +11,8 @@ namespace RPG::Client { class MarbleBattleSealData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MarbleBattleBuffIconChangedNotify_TypeDefinitionIndex = 65833;
+
 	class MarbleBattleBuffIconChangedNotify : public ::System::Object
 	{
 	public:

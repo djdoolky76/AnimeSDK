@@ -28,6 +28,8 @@ namespace System { class String; }
 #define ABFLEADGIIF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDC9D90)
 #define ABFLEADGIIF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDC9DF0)
 
+inline static constexpr unsigned int ABFLEADGIIF_TypeDefinitionIndex = 30980;
+
 	class ABFLEADGIIF : public ::System::Object
 	{
 	public:

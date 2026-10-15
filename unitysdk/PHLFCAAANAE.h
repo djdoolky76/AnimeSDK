@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PHLFCAAANAE_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC2553F0)
 #define PHLFCAAANAE_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xC255480)
 
+inline static constexpr unsigned int PHLFCAAANAE_TypeDefinitionIndex = 66998;
+
 	class PHLFCAAANAE : public ::System::Object
 	{
 	public:

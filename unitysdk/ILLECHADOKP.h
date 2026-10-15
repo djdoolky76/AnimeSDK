@@ -5,6 +5,8 @@
 
 #define ILLECHADOKP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB784D0)
 
+inline static constexpr unsigned int ILLECHADOKP_TypeDefinitionIndex = 42961;
+
 	class ILLECHADOKP : public ::System::Object
 	{
 	public:

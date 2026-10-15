@@ -12,6 +12,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 #define KNBEDHIFIEE_KIHMEBLNKBI_OFFSET UNITYSDK_OFFSET(0xB578A10)
 #define KNBEDHIFIEE_SET_VERTEXHELPER_OFFSET UNITYSDK_OFFSET(0xB578860)
 
+inline static constexpr unsigned int KNBEDHIFIEE_TypeDefinitionIndex = 73548;
+
 	class KNBEDHIFIEE : public ::System::Object
 	{
 	public:

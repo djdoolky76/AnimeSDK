@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIFollow3DTarget_PostProcessDelegate_TypeDefinitionIndex = 69099;
+
 	class UIFollow3DTarget_PostProcessDelegate : public ::System::MulticastDelegate
 	{
 	public:

@@ -38,6 +38,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_DynamicWavesManager_TypeDefinitionIndex = 70448;
+
 	class Effect_DynamicWavesManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

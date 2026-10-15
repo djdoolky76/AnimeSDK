@@ -28,6 +28,8 @@ namespace System { class String; }
 #define GAJPFLOMGEP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E41F530)
 #define GAJPFLOMGEP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E41F590)
 
+inline static constexpr unsigned int GAJPFLOMGEP_TypeDefinitionIndex = 27481;
+
 	class GAJPFLOMGEP : public ::System::Object
 	{
 	public:

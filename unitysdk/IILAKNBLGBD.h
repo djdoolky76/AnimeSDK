@@ -16,6 +16,8 @@ namespace UnityEngine { class Texture; }
 #define IILAKNBLGBD_PCDLKLNDNKO_OFFSET UNITYSDK_OFFSET(0x16442200)
 #define IILAKNBLGBD__INTERPOLATERES_B__11_0_OFFSET UNITYSDK_OFFSET(0x16442B30)
 
+inline static constexpr unsigned int IILAKNBLGBD_TypeDefinitionIndex = 49496;
+
 	class IILAKNBLGBD
 	{
 	public:

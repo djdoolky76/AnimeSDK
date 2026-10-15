@@ -12,6 +12,8 @@ namespace UnityEngine::UI { class Image; }
 #define OCKEFINEJCD_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xBD6F250)
 #define OCKEFINEJCD__ONBIND_OFFSET UNITYSDK_OFFSET(0xBD6F0A0)
 
+inline static constexpr unsigned int OCKEFINEJCD_TypeDefinitionIndex = 71600;
+
 	class OCKEFINEJCD : public ::FMPCODLIOLG
 	{
 	public:

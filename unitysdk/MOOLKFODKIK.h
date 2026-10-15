@@ -25,6 +25,8 @@ namespace System { class String; }
 #define MOOLKFODKIK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAB39A0)
 #define MOOLKFODKIK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAB3A00)
 
+inline static constexpr unsigned int MOOLKFODKIK_TypeDefinitionIndex = 31836;
+
 	class MOOLKFODKIK : public ::System::Object
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System { class String; }
 #define HEGDIJGNIHK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E558920)
 #define HEGDIJGNIHK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E558980)
 
+inline static constexpr unsigned int HEGDIJGNIHK_TypeDefinitionIndex = 31529;
+
 	class HEGDIJGNIHK : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterNavigateTo_TypeDefinitionIndex = 20855;
+
 	class CharacterNavigateTo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

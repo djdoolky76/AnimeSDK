@@ -12,6 +12,8 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceRecordOfStory; }
 #define NNNIFLIIKMF_HCPELCFLADG_OFFSET UNITYSDK_OFFSET(0xBCD5B20)
 #define NNNIFLIIKMF_PBMLOCMBHPI_OFFSET UNITYSDK_OFFSET(0xBCD58F0)
 
+inline static constexpr unsigned int NNNIFLIIKMF_TypeDefinitionIndex = 81467;
+
 	class NNNIFLIIKMF : public ::System::Object
 	{
 	public:

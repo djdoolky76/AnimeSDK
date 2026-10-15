@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LFCNPAACKCK_CTOR_OFFSET UNITYSDK_OFFSET(0xB663950)
 #define LFCNPAACKCK_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB663970)
 
+inline static constexpr unsigned int LFCNPAACKCK_TypeDefinitionIndex = 59116;
+
 	class LFCNPAACKCK
 	{
 	public:

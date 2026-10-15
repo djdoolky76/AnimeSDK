@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MMLOIAIKNNA_CTOR_OFFSET UNITYSDK_OFFSET(0xB9D85B0)
 #define MMLOIAIKNNA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB9D85E0)
 
+inline static constexpr unsigned int MMLOIAIKNNA_TypeDefinitionIndex = 54542;
+
 	class MMLOIAIKNNA
 	{
 	public:

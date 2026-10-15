@@ -84,6 +84,8 @@ namespace UnityEngine { class RuntimeAnimatorController; }
 #define HHECHLOIEJO__PREAPPLYTEAMSTANDBYPARTSVISIBILITY_G__APPLYCONFIG_4_0_OFFSET UNITYSDK_OFFSET(0x15CC16B0)
 #define HHECHLOIEJO___SETUPANIMEVENTCONFIGFILE_B__28_0_OFFSET UNITYSDK_OFFSET(0x15CC97E0)
 
+inline static constexpr unsigned int HHECHLOIEJO_TypeDefinitionIndex = 57139;
+
 	class HHECHLOIEJO : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@
 #define KNKNJOCECJK_LFIFIEGFMOM_OFFSET UNITYSDK_OFFSET(0xB587BE0)
 #define KNKNJOCECJK_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xB587B60)
 
+inline static constexpr unsigned int KNKNJOCECJK_TypeDefinitionIndex = 77046;
+
 	class KNKNJOCECJK : public ::CCEJFGMOHGP
 	{
 	public:

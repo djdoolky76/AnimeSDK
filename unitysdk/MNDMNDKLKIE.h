@@ -31,6 +31,8 @@ namespace System { class String; }
 #define MNDMNDKLKIE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA925A0)
 #define MNDMNDKLKIE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA92600)
 
+inline static constexpr unsigned int MNDMNDKLKIE_TypeDefinitionIndex = 27812;
+
 	class MNDMNDKLKIE : public ::System::Object
 	{
 	public:

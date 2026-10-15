@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveDungeonRow_TypeDefinitionIndex = 11737;
+
 	class IdleLiveDungeonRow : public ::System::Object
 	{
 	public:

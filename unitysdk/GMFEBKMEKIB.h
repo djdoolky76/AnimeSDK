@@ -16,6 +16,8 @@ namespace System::IO { class BinaryWriter; }
 #define GMFEBKMEKIB_NLEKLPKJNAF_OFFSET UNITYSDK_OFFSET(0x15ACC7E0)
 #define GMFEBKMEKIB_OAJLINPFPAD_OFFSET UNITYSDK_OFFSET(0x15ACD790)
 
+inline static constexpr unsigned int GMFEBKMEKIB_TypeDefinitionIndex = 64622;
+
 	class GMFEBKMEKIB : public ::System::Object
 	{
 	public:

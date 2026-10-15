@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int FEHEIOMNGHD_TypeDefinitionIndex = 31729;
+
 	enum class FEHEIOMNGHD : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

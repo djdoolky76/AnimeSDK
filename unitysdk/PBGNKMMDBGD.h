@@ -118,6 +118,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PBGNKMMDBGD_SET_TIMESERVICE_OFFSET UNITYSDK_OFFSET(0x1C7EA4C0)
 #define PBGNKMMDBGD_SET_TITLESERVICE_OFFSET UNITYSDK_OFFSET(0x1C7EA5A0)
 
+inline static constexpr unsigned int PBGNKMMDBGD_TypeDefinitionIndex = 37324;
+
 	class PBGNKMMDBGD
 	{
 	public:

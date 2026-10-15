@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define ONHFPNHODAL_HJOHDFKLIDK_OFFSET UNITYSDK_OFFSET(0xBF571B0)
 #define ONHFPNHODAL_IEOGLIENPMN_OFFSET UNITYSDK_OFFSET(0xBF56F20)
 
+inline static constexpr unsigned int ONHFPNHODAL_TypeDefinitionIndex = 72150;
+
 	class ONHFPNHODAL : public ::System::Object
 	{
 	public:

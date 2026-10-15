@@ -34,6 +34,8 @@ namespace System { class String; }
 #define PLOHACFCDKF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFA5AF0)
 #define PLOHACFCDKF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFA5B50)
 
+inline static constexpr unsigned int PLOHACFCDKF_TypeDefinitionIndex = 28056;
+
 	class PLOHACFCDKF : public ::System::Object
 	{
 	public:

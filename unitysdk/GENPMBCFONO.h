@@ -10,6 +10,8 @@ namespace System { class Type; }
 #define GENPMBCFONO_FORMAT_OFFSET UNITYSDK_OFFSET(0x159E4800)
 #define GENPMBCFONO_GETFORMAT_OFFSET UNITYSDK_OFFSET(0x159E4780)
 
+inline static constexpr unsigned int GENPMBCFONO_TypeDefinitionIndex = 51721;
+
 	class GENPMBCFONO : public ::System::Object
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System { class String; }
 #define AJGFHIIBNGP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3C1250)
 #define AJGFHIIBNGP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3C12B0)
 
+inline static constexpr unsigned int AJGFHIIBNGP_TypeDefinitionIndex = 34907;
+
 	class AJGFHIIBNGP : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PaymentCNBoxConfig_TypeDefinitionIndex = 7916;
+
 	class PaymentCNBoxConfig : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ICharacterSkillRowData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SkillCharacterComponent___c__DisplayClass62_0_TypeDefinitionIndex = 54867;
+
 	class SkillCharacterComponent___c__DisplayClass62_0 : public ::System::Object
 	{
 	public:

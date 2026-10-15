@@ -91,6 +91,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeSpaceCrisscrossGroupBehavior_TypeDefinitionIndex = 70201;
+
 	class TimeSpaceCrisscrossGroupBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

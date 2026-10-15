@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class ICollection
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionModule_MissionResState_TypeDefinitionIndex = 66144;
+
 	class MissionModule_MissionResState : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define AIKCHOLLELG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCC9BF0)
 #define AIKCHOLLELG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCC99C0)
 
+inline static constexpr unsigned int AIKCHOLLELG_TypeDefinitionIndex = 10982;
+
 	class AIKCHOLLELG : public ::System::Object
 	{
 	public:

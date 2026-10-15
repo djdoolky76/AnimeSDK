@@ -32,6 +32,8 @@ namespace System { class String; }
 #define CCCGMGMLKOM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E071E00)
 #define CCCGMGMLKOM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E071E60)
 
+inline static constexpr unsigned int CCCGMGMLKOM_TypeDefinitionIndex = 30035;
+
 	class CCCGMGMLKOM : public ::System::Object
 	{
 	public:

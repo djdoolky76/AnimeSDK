@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightManager_GridFightProgressRule_TypeDefinitionIndex = 56171;
+
 	class GridFightManager_GridFightProgressRule : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define CDDEIPOBBCN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E081610)
 #define CDDEIPOBBCN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E081670)
 
+inline static constexpr unsigned int CDDEIPOBBCN_TypeDefinitionIndex = 33242;
+
 	class CDDEIPOBBCN : public ::System::Object
 	{
 	public:

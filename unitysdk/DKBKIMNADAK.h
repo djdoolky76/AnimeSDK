@@ -8,6 +8,8 @@ class OAFCCICMILM;
 #define DKBKIMNADAK_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1CA2C020)
 #define DKBKIMNADAK_JNCLEMOHCKO_OFFSET UNITYSDK_OFFSET(0x1CA2DE20)
 
+inline static constexpr unsigned int DKBKIMNADAK_TypeDefinitionIndex = 42390;
+
 	class DKBKIMNADAK : public ::System::Object
 	{
 	public:

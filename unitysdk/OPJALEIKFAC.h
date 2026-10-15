@@ -25,6 +25,8 @@ namespace System { class String; }
 #define OPJALEIKFAC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEE4120)
 #define OPJALEIKFAC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEE4180)
 
+inline static constexpr unsigned int OPJALEIKFAC_TypeDefinitionIndex = 29282;
+
 	class OPJALEIKFAC : public ::System::Object
 	{
 	public:

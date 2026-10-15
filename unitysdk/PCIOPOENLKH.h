@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PCIOPOENLKH_LBBDMJFAENP_OFFSET UNITYSDK_OFFSET(0xC0016A0)
 #define PCIOPOENLKH_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xC0027A0)
 
+inline static constexpr unsigned int PCIOPOENLKH_TypeDefinitionIndex = 61475;
+
 	class PCIOPOENLKH : public ::System::Object
 	{
 	public:

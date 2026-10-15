@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FunNumMultiplierRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FunNumMultiplierRow_TypeDefinitionIndex = 13217;
+
 	class FunNumMultiplierRow : public ::System::Object
 	{
 	public:

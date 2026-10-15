@@ -18,6 +18,8 @@ namespace System { class String; }
 #define GNAKPEMFGFG_LOOPAIJCJEE_7_OFFSET UNITYSDK_OFFSET(0x3C49690)
 #define GNAKPEMFGFG_LOOPAIJCJEE_8_OFFSET UNITYSDK_OFFSET(0x3C49730)
 
+inline static constexpr unsigned int GNAKPEMFGFG_TypeDefinitionIndex = 6407;
+
 	struct alignas(4) GNAKPEMFGFG
 	{
 		::KEEEKDDBENC GHAFIAKHLLO; // 0x10

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebViewAPMBoxConfig_TypeDefinitionIndex = 7920;
+
 	class WebViewAPMBoxConfig : public ::System::Object
 	{
 	public:

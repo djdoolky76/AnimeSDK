@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AudienceStanceConfig_EPositionPoseType_TypeDefinitionIndex = 69159;
+
 	enum class AudienceStanceConfig_EPositionPoseType : ::System::Int32
 	{
 		Default = 0,

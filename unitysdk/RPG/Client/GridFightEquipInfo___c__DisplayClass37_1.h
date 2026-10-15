@@ -11,6 +11,8 @@ namespace RPG::Client { class GridFightTraitConfigBase; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEquipInfo___c__DisplayClass37_1_TypeDefinitionIndex = 64966;
+
 	template <typename T>
 	class GridFightEquipInfo___c__DisplayClass37_1 : public ::System::Object
 	{

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShaderTestPreloadItem_TypeDefinitionIndex = 16355;
+
 	class ShaderTestPreloadItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

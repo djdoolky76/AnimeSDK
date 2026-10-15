@@ -29,6 +29,8 @@ namespace System::Xml::Schema { class XmlValueConverter; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlSchemaType_TypeDefinitionIndex = 2216;
+
 	class XmlSchemaType : public ::System::Xml::Schema::XmlSchemaAnnotated
 	{
 	public:

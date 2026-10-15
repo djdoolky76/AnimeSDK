@@ -11,6 +11,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftCraftProgressOverlapCont
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftProgressOverlapControl___c__DisplayClass11_0_TypeDefinitionIndex = 79942;
+
 	class MechCraftCraftProgressOverlapControl___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

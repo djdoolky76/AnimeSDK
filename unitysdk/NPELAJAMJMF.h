@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NPELAJAMJMF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D244D50)
 #define NPELAJAMJMF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D2446F0)
 
+inline static constexpr unsigned int NPELAJAMJMF_TypeDefinitionIndex = 11466;
+
 	class NPELAJAMJMF : public ::System::Object
 	{
 	public:

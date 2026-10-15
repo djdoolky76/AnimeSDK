@@ -32,6 +32,8 @@ namespace System::Xml { class XmlWriterSettings; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlUtf8RawTextWriterIndent_TypeDefinitionIndex = 1870;
+
 	class XmlUtf8RawTextWriterIndent : public ::System::Xml::XmlUtf8RawTextWriter
 	{
 	public:

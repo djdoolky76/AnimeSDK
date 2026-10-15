@@ -28,6 +28,8 @@ namespace System { class String; }
 #define DKOPOIIBDGJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1DA8F0)
 #define DKOPOIIBDGJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1DA950)
 
+inline static constexpr unsigned int DKOPOIIBDGJ_TypeDefinitionIndex = 34300;
+
 	class DKOPOIIBDGJ : public ::System::Object
 	{
 	public:

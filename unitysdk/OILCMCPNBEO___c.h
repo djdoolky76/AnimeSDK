@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define OILCMCPNBEO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE74120)
 #define OILCMCPNBEO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DE74130)
 
+inline static constexpr unsigned int OILCMCPNBEO___c_TypeDefinitionIndex = 29396;
+
 	class OILCMCPNBEO___c : public ::System::Object
 	{
 	public:

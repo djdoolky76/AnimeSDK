@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BLICCEHIOLH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF636D0)
 #define BLICCEHIOLH___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DF636E0)
 
+inline static constexpr unsigned int BLICCEHIOLH___c_TypeDefinitionIndex = 33310;
+
 	class BLICCEHIOLH___c : public ::System::Object
 	{
 	public:

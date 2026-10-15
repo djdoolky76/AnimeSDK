@@ -15,6 +15,8 @@ namespace RPG::GameCore { class DiceCombatNotAvatarPreviewConfig; }
 #define LNJIOOMCMKC_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C7410A0)
 #define LNJIOOMCMKC_JOLFLGKGKPI_OFFSET UNITYSDK_OFFSET(0x1C7412D0)
 
+inline static constexpr unsigned int LNJIOOMCMKC_TypeDefinitionIndex = 36532;
+
 	class LNJIOOMCMKC : public ::System::Object
 	{
 	public:

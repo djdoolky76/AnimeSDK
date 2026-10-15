@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NEFDDKLOAKO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBB5C7A0)
 #define NEFDDKLOAKO_TICK_OFFSET UNITYSDK_OFFSET(0xBB5C7F0)
 
+inline static constexpr unsigned int NEFDDKLOAKO_TypeDefinitionIndex = 52451;
+
 	class NEFDDKLOAKO : public ::GELIALJDFBL
 	{
 	public:

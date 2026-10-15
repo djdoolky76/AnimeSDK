@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfBuffConfig_TypeDefinitionIndex = 18489;
+
 	class ElfBuffConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

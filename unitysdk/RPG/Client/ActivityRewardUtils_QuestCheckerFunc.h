@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityRewardUtils_QuestCheckerFunc_TypeDefinitionIndex = 61747;
+
 	class ActivityRewardUtils_QuestCheckerFunc : public ::System::MulticastDelegate
 	{
 	public:

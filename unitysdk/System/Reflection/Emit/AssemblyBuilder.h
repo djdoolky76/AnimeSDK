@@ -14,6 +14,8 @@ namespace System::Reflection::Emit { class ModuleBuilder; }
 
 namespace System::Reflection::Emit
 {
+	inline static constexpr unsigned int AssemblyBuilder_TypeDefinitionIndex = 639;
+
 	class AssemblyBuilder : public ::System::Reflection::Assembly
 	{
 	public:

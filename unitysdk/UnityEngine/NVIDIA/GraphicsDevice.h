@@ -45,6 +45,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace UnityEngine::NVIDIA
 {
+	inline static constexpr unsigned int GraphicsDevice_TypeDefinitionIndex = 5035;
+
 	class GraphicsDevice : public ::System::Object
 	{
 	public:

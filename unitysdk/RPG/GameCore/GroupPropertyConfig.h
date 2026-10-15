@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GroupPropertyConfig_TypeDefinitionIndex = 18289;
+
 	class GroupPropertyConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

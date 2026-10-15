@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int ETimelineControlGameCharacterMoveDirection_TypeDefinitionIndex = 42488;
+
 	enum class ETimelineControlGameCharacterMoveDirection : ::System::Int32
 	{
 		Forward = 0,

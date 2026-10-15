@@ -26,6 +26,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int Queue_TypeDefinitionIndex = 1495;
+
 	class Queue : public ::System::Object
 	{
 	public:

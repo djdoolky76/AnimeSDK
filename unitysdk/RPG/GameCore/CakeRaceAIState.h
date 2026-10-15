@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceAIState_TypeDefinitionIndex = 18416;
+
 	enum class CakeRaceAIState : ::System::Int32
 	{
 		Wait = 0,

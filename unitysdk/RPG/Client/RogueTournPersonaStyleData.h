@@ -11,6 +11,8 @@ namespace RPG::Client { template <typename T1, typename T2> class RogueInstanceC
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaStyleData_TypeDefinitionIndex = 67751;
+
 	class RogueTournPersonaStyleData : public ::RPG::Client::RogueTournPersonaStyleDataBase
 	{
 	public:

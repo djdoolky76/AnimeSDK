@@ -20,6 +20,8 @@
 
 namespace Mono::Security::Cryptography
 {
+	inline static constexpr unsigned int MD4Managed_TypeDefinitionIndex = 70;
+
 	class MD4Managed : public ::Mono::Security::Cryptography::MD4
 	{
 	public:

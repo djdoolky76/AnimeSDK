@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define JBAMLLPFKFF_GMMEADJNPBI_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1655EE30)
 #define JBAMLLPFKFF_GMMEADJNPBI_INVOKE_OFFSET UNITYSDK_OFFSET(0x1655EDB0)
 
+inline static constexpr unsigned int JBAMLLPFKFF_GMMEADJNPBI_TypeDefinitionIndex = 59068;
+
 	class JBAMLLPFKFF_GMMEADJNPBI : public ::System::MulticastDelegate
 	{
 	public:

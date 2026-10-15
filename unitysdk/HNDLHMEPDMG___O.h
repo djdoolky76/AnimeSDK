@@ -6,6 +6,8 @@ class PJNDEJDPCLP;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Func_1; }
 
+inline static constexpr unsigned int HNDLHMEPDMG___O_TypeDefinitionIndex = 71503;
+
 	class HNDLHMEPDMG___O : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define KGICAFNNGMB_CCTOR_OFFSET UNITYSDK_OFFSET(0xB3ED7B0)
 
+inline static constexpr unsigned int KGICAFNNGMB_TypeDefinitionIndex = 57566;
+
 	class KGICAFNNGMB : public ::System::Object
 	{
 	public:

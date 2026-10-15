@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetCharacterShowSummonUI_TypeDefinitionIndex = 23365;
+
 	class SetCharacterShowSummonUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

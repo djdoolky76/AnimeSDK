@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define BOLBOHBECFL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC195C10)
 #define BOLBOHBECFL_TICK_OFFSET UNITYSDK_OFFSET(0xC195D90)
 
+inline static constexpr unsigned int BOLBOHBECFL_TypeDefinitionIndex = 53494;
+
 	class BOLBOHBECFL : public ::GELIALJDFBL
 	{
 	public:

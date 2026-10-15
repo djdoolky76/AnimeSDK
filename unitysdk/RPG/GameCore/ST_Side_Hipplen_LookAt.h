@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_Hipplen_LookAt_TypeDefinitionIndex = 21305;
+
 	class ST_Side_Hipplen_LookAt : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

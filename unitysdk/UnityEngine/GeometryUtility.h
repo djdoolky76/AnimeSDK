@@ -16,6 +16,8 @@ namespace UnityEngine { class Camera; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GeometryUtility_TypeDefinitionIndex = 4077;
+
 	class GeometryUtility : public ::System::Object
 	{
 	public:

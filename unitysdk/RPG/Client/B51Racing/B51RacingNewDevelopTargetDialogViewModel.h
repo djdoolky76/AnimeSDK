@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingNewDevelopTargetDialogViewModel_TypeDefinitionIndex = 82027;
+
 	class B51RacingNewDevelopTargetDialogViewModel : public ::System::Object
 	{
 	public:

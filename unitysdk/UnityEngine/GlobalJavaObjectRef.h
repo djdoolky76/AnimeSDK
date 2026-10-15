@@ -10,6 +10,8 @@ namespace UnityEngine { class GlobalJavaObjectRef; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GlobalJavaObjectRef_TypeDefinitionIndex = 5678;
+
 	class GlobalJavaObjectRef : public ::System::Object
 	{
 	public:

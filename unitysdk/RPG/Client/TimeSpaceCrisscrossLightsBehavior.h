@@ -39,6 +39,8 @@ namespace VLB { class VolumetricLightBeam; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeSpaceCrisscrossLightsBehavior_TypeDefinitionIndex = 70229;
+
 	class TimeSpaceCrisscrossLightsBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

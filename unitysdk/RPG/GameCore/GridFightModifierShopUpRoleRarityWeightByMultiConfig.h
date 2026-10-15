@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierShopUpRoleRarityWeightByMultiCo
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierShopUpRoleRarityWeightByMultiConfig_TypeDefinitionIndex = 19354;
+
 	class GridFightModifierShopUpRoleRarityWeightByMultiConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

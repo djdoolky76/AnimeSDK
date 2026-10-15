@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ItemGotoDataRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ItemGotoDataRow_TypeDefinitionIndex = 13869;
+
 	class ItemGotoDataRow : public ::System::Object
 	{
 	public:

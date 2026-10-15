@@ -9,6 +9,8 @@ class OMNJCDDMLHI;
 #define OCHENAGEBIG_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBD63960)
 #define OCHENAGEBIG_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xBD63640)
 
+inline static constexpr unsigned int OCHENAGEBIG_TypeDefinitionIndex = 77944;
+
 	class OCHENAGEBIG : public ::System::Object
 	{
 	public:

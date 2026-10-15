@@ -5,6 +5,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int RichTextTagAttribute_TypeDefinitionIndex = 44690;
+
 	struct alignas(4) RichTextTagAttribute
 	{
 		::System::Int32 nameHashCode; // 0x10

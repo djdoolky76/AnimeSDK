@@ -7,6 +7,8 @@ namespace UnityEngine::Rendering { class TextureCurve; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int TextureCurveParameter_TypeDefinitionIndex = 35611;
+
 	class TextureCurveParameter
 	{
 	public:

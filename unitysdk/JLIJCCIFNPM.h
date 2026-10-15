@@ -9,6 +9,8 @@ namespace RPG::Client { class MonoDanmuItem; }
 #define JLIJCCIFNPM_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0xB24BE40)
 #define JLIJCCIFNPM_JDEKJLHMPLG_OFFSET UNITYSDK_OFFSET(0xB24BD80)
 
+inline static constexpr unsigned int JLIJCCIFNPM_TypeDefinitionIndex = 68939;
+
 	class JLIJCCIFNPM : public ::System::Object
 	{
 	public:

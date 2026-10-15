@@ -16,6 +16,8 @@ namespace UnityEngine { class GameObject; }
 #define AKMIDIPOST_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1F5A3EC0)
 #define AKMIDIPOST_SET_UOFFSET_OFFSET UNITYSDK_OFFSET(0x1F5A41B0)
 
+inline static constexpr unsigned int AkMIDIPost_TypeDefinitionIndex = 44760;
+
 	class AkMIDIPost : public ::AkMIDIEvent
 	{
 	public:

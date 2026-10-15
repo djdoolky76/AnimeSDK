@@ -10,6 +10,8 @@ namespace System { class String; }
 #define ALAOCJKOBCN_SET_DESCSTRING_OFFSET UNITYSDK_OFFSET(0x12CE16A0)
 #define ALAOCJKOBCN_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x12CE1680)
 
+inline static constexpr unsigned int ALAOCJKOBCN_TypeDefinitionIndex = 79420;
+
 	class ALAOCJKOBCN : public ::System::Object
 	{
 	public:

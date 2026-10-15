@@ -11,6 +11,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client::LittleGame::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesCellView_TypeDefinitionIndex = 77787;
+
 	class ChenLingFesCellView : public ::RPG::Client::LittleGame::ChenLingFes::ChenLingFesView
 	{
 	public:

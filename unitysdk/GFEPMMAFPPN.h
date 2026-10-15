@@ -7,6 +7,8 @@ namespace RPG::GameCore { class CakeRaceActionBase; }
 #define GFEPMMAFPPN_AEJKGIGAKMN_OFFSET UNITYSDK_OFFSET(0x1C627BA0)
 #define GFEPMMAFPPN_HBDLMPFGDJN_OFFSET UNITYSDK_OFFSET(0x1C63B810)
 
+inline static constexpr unsigned int GFEPMMAFPPN_TypeDefinitionIndex = 37375;
+
 	class GFEPMMAFPPN : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaseScrollGameConfig_TypeDefinitionIndex = 18806;
+
 	class BaseScrollGameConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

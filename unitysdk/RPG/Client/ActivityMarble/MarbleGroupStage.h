@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarbleGroupStage_TypeDefinitionIndex = 75985;
+
 	class MarbleGroupStage : public ::System::Object
 	{
 	public:

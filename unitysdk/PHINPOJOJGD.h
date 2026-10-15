@@ -40,6 +40,8 @@ namespace System { class String; }
 #define PHINPOJOJGD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF3E1C0)
 #define PHINPOJOJGD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF3E220)
 
+inline static constexpr unsigned int PHINPOJOJGD_TypeDefinitionIndex = 32688;
+
 	class PHINPOJOJGD : public ::System::Object
 	{
 	public:

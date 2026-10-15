@@ -14,6 +14,8 @@ namespace UnityEngine { class Collider; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncTriggerEnterTrigger_TypeDefinitionIndex = 38599;
+
 	class AsyncTriggerEnterTrigger
 	{
 	public:

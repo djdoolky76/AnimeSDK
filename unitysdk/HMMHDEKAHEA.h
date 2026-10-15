@@ -30,6 +30,8 @@ namespace System { class String; }
 #define HMMHDEKAHEA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5D2820)
 #define HMMHDEKAHEA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5D2880)
 
+inline static constexpr unsigned int HMMHDEKAHEA_TypeDefinitionIndex = 27684;
+
 	class HMMHDEKAHEA : public ::System::Object
 	{
 	public:

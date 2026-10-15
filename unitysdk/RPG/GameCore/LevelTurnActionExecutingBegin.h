@@ -12,6 +12,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelTurnActionExecutingBegin_TypeDefinitionIndex = 56705;
+
 	class LevelTurnActionExecutingBegin : public ::System::Object
 	{
 	public:

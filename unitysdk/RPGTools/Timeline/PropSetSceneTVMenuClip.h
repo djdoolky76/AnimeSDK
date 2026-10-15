@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int PropSetSceneTVMenuClip_TypeDefinitionIndex = 48252;
+
 	class PropSetSceneTVMenuClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define NCCMCBNNOHC___C__ONTASKBEGIN_B__3_1_OFFSET UNITYSDK_OFFSET(0xBB02E50)
 #define NCCMCBNNOHC___C__ONTASKBEGIN_B__3_2_OFFSET UNITYSDK_OFFSET(0xBB02ED0)
 
+inline static constexpr unsigned int NCCMCBNNOHC___c_TypeDefinitionIndex = 56422;
+
 	class NCCMCBNNOHC___c : public ::System::Object
 	{
 	public:

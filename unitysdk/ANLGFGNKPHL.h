@@ -12,6 +12,8 @@ namespace System { class String; }
 #define ANLGFGNKPHL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15899E20)
 #define ANLGFGNKPHL_KCKLKNEDPBG_OFFSET UNITYSDK_OFFSET(0x1589A490)
 
+inline static constexpr unsigned int ANLGFGNKPHL_TypeDefinitionIndex = 78395;
+
 	class ANLGFGNKPHL : public ::System::Object
 	{
 	public:

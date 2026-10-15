@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TreasureDungeonExitParam_TypeDefinitionIndex = 68188;
+
 	class TreasureDungeonExitParam : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int RegionTranslationManager___c__DisplayClass14_0_TypeDefinitionIndex = 7958;
+
 	class RegionTranslationManager___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:

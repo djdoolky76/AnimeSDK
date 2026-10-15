@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleByCompareBuffCount_TypeDefinitionIndex = 16883;
+
 	class MarbleByCompareBuffCount : public ::RPG::GameCore::MarblePredicateConfig
 	{
 	public:

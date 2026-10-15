@@ -21,6 +21,8 @@ namespace System::ComponentModel { class ISite; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int Component_TypeDefinitionIndex = 2570;
+
 	class Component : public ::System::MarshalByRefObject
 	{
 	public:

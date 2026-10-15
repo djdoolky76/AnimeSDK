@@ -13,6 +13,8 @@ namespace System { class String; }
 #define IGKLKGGKAJO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF0E6B0)
 #define IGKLKGGKAJO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF0E210)
 
+inline static constexpr unsigned int IGKLKGGKAJO_TypeDefinitionIndex = 11238;
+
 	class IGKLKGGKAJO : public ::System::Object
 	{
 	public:

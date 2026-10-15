@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace CriWare::CriMana
 {
+	inline static constexpr unsigned int Player_SubtitleCallbackFromNativeDelegate_TypeDefinitionIndex = 40225;
+
 	class Player_SubtitleCallbackFromNativeDelegate : public ::System::MulticastDelegate
 	{
 	public:

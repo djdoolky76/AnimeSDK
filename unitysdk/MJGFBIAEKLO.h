@@ -13,6 +13,8 @@ namespace System { class String; }
 #define MJGFBIAEKLO_KPJGDHLENIP_1_OFFSET UNITYSDK_OFFSET(0xB96C270)
 #define MJGFBIAEKLO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB96C1E0)
 
+inline static constexpr unsigned int MJGFBIAEKLO_TypeDefinitionIndex = 61053;
+
 	class MJGFBIAEKLO : public ::System::Object
 	{
 	public:

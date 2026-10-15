@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_TriggerBossSpecialEffect; }
 #define BOIKLKGBAKA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5C8BA0)
 #define BOIKLKGBAKA_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C5C8BB0)
 
+inline static constexpr unsigned int BOIKLKGBAKA_TypeDefinitionIndex = 36304;
+
 	class BOIKLKGBAKA : public ::AJBKGPOEBFG
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 #define DLFINJBAEIG_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xF89EE50)
 #define DLFINJBAEIG_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xF89EDD0)
 
+inline static constexpr unsigned int DLFINJBAEIG_TypeDefinitionIndex = 78173;
+
 	class DLFINJBAEIG : public ::AJHHFMBOCEN
 	{
 	public:

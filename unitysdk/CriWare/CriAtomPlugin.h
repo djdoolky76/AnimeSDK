@@ -92,6 +92,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomPlugin_TypeDefinitionIndex = 39929;
+
 	class CriAtomPlugin : public ::System::Object
 	{
 	public:

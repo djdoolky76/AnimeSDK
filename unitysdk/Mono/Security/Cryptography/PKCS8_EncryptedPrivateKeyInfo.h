@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace Mono::Security::Cryptography
 {
+	inline static constexpr unsigned int PKCS8_EncryptedPrivateKeyInfo_TypeDefinitionIndex = 74;
+
 	class PKCS8_EncryptedPrivateKeyInfo : public ::System::Object
 	{
 	public:

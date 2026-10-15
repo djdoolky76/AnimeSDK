@@ -27,6 +27,8 @@ namespace System { class String; }
 #define EJIPDMFGOON_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2B9240)
 #define EJIPDMFGOON_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2B92A0)
 
+inline static constexpr unsigned int EJIPDMFGOON_TypeDefinitionIndex = 26278;
+
 	class EJIPDMFGOON : public ::System::Object
 	{
 	public:

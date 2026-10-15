@@ -5,6 +5,8 @@
 
 #define BKCNJMECPEG_CTOR_OFFSET UNITYSDK_OFFSET(0xB7ADAD0)
 
+inline static constexpr unsigned int BKCNJMECPEG_TypeDefinitionIndex = 71226;
+
 	class BKCNJMECPEG : public ::System::Object
 	{
 	public:

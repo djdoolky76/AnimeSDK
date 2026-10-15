@@ -7,6 +7,8 @@ class KHDJLEELKHD;
 #define EHKNLKAPGLG_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x154AE2C0)
 #define EHKNLKAPGLG_CTOR_OFFSET UNITYSDK_OFFSET(0x154AE410)
 
+inline static constexpr unsigned int EHKNLKAPGLG_TypeDefinitionIndex = 62633;
+
 	class EHKNLKAPGLG : public ::System::Object
 	{
 	public:

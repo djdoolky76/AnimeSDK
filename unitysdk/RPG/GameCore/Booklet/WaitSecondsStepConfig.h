@@ -10,6 +10,8 @@ namespace RPG::GameCore::Booklet { class WaitSecondsStepConfig; }
 
 namespace RPG::GameCore::Booklet
 {
+	inline static constexpr unsigned int WaitSecondsStepConfig_TypeDefinitionIndex = 24978;
+
 	class WaitSecondsStepConfig : public ::RPG::GameCore::Booklet::StepConfig
 	{
 	public:

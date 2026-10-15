@@ -15,6 +15,8 @@ namespace System::Threading { class SendOrPostCallback; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTaskScheduler_TypeDefinitionIndex = 38445;
+
 	class UniTaskScheduler : public ::System::Object
 	{
 	public:

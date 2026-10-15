@@ -19,6 +19,8 @@ namespace System::Reflection { class ParameterInfo; }
 
 namespace System::Dynamic::Utils
 {
+	inline static constexpr unsigned int ExpressionUtils_TypeDefinitionIndex = 3688;
+
 	class ExpressionUtils : public ::System::Object
 	{
 	public:

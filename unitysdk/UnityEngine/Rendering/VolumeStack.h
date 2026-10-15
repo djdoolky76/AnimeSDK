@@ -19,6 +19,8 @@ namespace UnityEngine::Rendering { class VolumeStack_RuntimeTypeHandleComparer; 
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int VolumeStack_TypeDefinitionIndex = 35667;
+
 	class VolumeStack : public ::System::Object
 	{
 	public:

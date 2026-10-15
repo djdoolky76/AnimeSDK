@@ -8,6 +8,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AutoReleaseNativeStringScope_TypeDefinitionIndex = 4354;
+
 	struct alignas(4) AutoReleaseNativeStringScope
 	{
 		/*

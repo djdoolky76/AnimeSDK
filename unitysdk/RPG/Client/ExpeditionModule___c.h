@@ -17,6 +17,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ExpeditionModule___c_TypeDefinitionIndex = 63967;
+
 	class ExpeditionModule___c : public ::System::Object
 	{
 	public:

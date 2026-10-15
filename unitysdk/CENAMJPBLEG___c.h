@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CENAMJPBLEG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E09C5B0)
 #define CENAMJPBLEG___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E09C5C0)
 
+inline static constexpr unsigned int CENAMJPBLEG___c_TypeDefinitionIndex = 34286;
+
 	class CENAMJPBLEG___c : public ::System::Object
 	{
 	public:

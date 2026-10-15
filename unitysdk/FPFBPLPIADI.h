@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FPFBPLPIADI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E408460)
 #define FPFBPLPIADI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4084C0)
 
+inline static constexpr unsigned int FPFBPLPIADI_TypeDefinitionIndex = 27339;
+
 	class FPFBPLPIADI : public ::System::Object
 	{
 	public:

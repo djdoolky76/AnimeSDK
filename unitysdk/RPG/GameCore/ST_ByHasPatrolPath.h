@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_ByHasPatrolPath_TypeDefinitionIndex = 20071;
+
 	class ST_ByHasPatrolPath : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

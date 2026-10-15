@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define EKIEDOBHEPF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD96DC0)
 #define EKIEDOBHEPF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD966A0)
 
+inline static constexpr unsigned int EKIEDOBHEPF_TypeDefinitionIndex = 11860;
+
 	class EKIEDOBHEPF : public ::System::Object
 	{
 	public:

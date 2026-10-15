@@ -18,6 +18,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class WebResources_ResponsePreamble; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int WebResources_TypeDefinitionIndex = 39572;
+
 	class WebResources : public ::System::Object
 	{
 	public:

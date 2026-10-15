@@ -13,6 +13,8 @@ namespace UnityEngine { class Renderer; }
 #define DHLMGCAIBKA_KMHLIJDJHOJ_OFFSET UNITYSDK_OFFSET(0xEBE8A90)
 #define DHLMGCAIBKA_NMHMIKIICEA_OFFSET UNITYSDK_OFFSET(0xEBE9420)
 
+inline static constexpr unsigned int DHLMGCAIBKA_TypeDefinitionIndex = 57187;
+
 	class DHLMGCAIBKA : public ::System::Object
 	{
 	public:

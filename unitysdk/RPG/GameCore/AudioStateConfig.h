@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AudioStateConfig_TypeDefinitionIndex = 16383;
+
 	class AudioStateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

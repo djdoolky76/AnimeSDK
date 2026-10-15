@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NoteType_TypeDefinitionIndex = 16951;
+
 	enum class NoteType : ::System::Int32
 	{
 		Hint = 0,

@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KADNINAMKGA_LCLBHGBDCDM_OFFSET UNITYSDK_OFFSET(0xB2D30D0)
 #define KADNINAMKGA_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB2D3300)
 
+inline static constexpr unsigned int KADNINAMKGA_TypeDefinitionIndex = 53849;
+
 	class KADNINAMKGA : public ::System::Object
 	{
 	public:

@@ -634,6 +634,8 @@ namespace System { class Object; }
 #define DDBILFIDDJP___C___CCTOR_B__2_99_OFFSET UNITYSDK_OFFSET(0x1DCF51F0)
 #define DDBILFIDDJP___C___CCTOR_B__2_9_OFFSET UNITYSDK_OFFSET(0x1DCF38E0)
 
+inline static constexpr unsigned int DDBILFIDDJP___c_TypeDefinitionIndex = 23857;
+
 	class DDBILFIDDJP___c : public ::System::Object
 	{
 	public:

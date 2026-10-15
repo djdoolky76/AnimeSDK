@@ -9,6 +9,8 @@ namespace System { class String; }
 #define OFMELBNNBIB_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0xBE47810)
 #define OFMELBNNBIB_GET_MATERIALPATH_OFFSET UNITYSDK_OFFSET(0xBE47820)
 
+inline static constexpr unsigned int OFMELBNNBIB_TypeDefinitionIndex = 80126;
+
 	class OFMELBNNBIB : public ::System::Object
 	{
 	public:

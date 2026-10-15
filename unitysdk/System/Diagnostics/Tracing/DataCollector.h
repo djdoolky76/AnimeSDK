@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int DataCollector_TypeDefinitionIndex = 1591;
+
 	struct alignas(8) DataCollector
 	{
 		::PVOID scratchEnd; // 0x10

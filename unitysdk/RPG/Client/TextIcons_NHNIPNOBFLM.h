@@ -9,6 +9,8 @@ namespace RPG::Client { class TextIcons; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TextIcons_NHNIPNOBFLM_TypeDefinitionIndex = 72680;
+
 	class TextIcons_NHNIPNOBFLM : public ::System::Object
 	{
 	public:

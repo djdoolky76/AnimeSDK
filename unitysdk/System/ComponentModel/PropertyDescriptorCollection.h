@@ -63,6 +63,8 @@ namespace System::ComponentModel { class PropertyDescriptorCollection; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int PropertyDescriptorCollection_TypeDefinitionIndex = 2618;
+
 	class PropertyDescriptorCollection : public ::System::Object
 	{
 	public:

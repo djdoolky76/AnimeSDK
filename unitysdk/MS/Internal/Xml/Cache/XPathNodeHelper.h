@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MS::Internal::Xml::Cache
 {
+	inline static constexpr unsigned int XPathNodeHelper_TypeDefinitionIndex = 1782;
+
 	class XPathNodeHelper : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace BansheeGz::BGSpline::Curve { class BGCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CurveUndirectedConnection_TypeDefinitionIndex = 68564;
+
 	class CurveUndirectedConnection : public ::System::Object
 	{
 	public:

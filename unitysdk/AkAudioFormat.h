@@ -31,6 +31,8 @@ class AkChannelConfig;
 #define AKAUDIOFORMAT_SET_USAMPLERATE_OFFSET UNITYSDK_OFFSET(0x1F572CF0)
 #define AKAUDIOFORMAT_SET_UTYPEID_OFFSET UNITYSDK_OFFSET(0x1F5733B0)
 
+inline static constexpr unsigned int AkAudioFormat_TypeDefinitionIndex = 44715;
+
 	class AkAudioFormat : public ::System::Object
 	{
 	public:

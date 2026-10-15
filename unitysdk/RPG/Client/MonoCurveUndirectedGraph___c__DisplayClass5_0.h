@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoCurveUndirectedGraph___c__DisplayClass5_0_TypeDefinitionIndex = 68575;
+
 	class MonoCurveUndirectedGraph___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

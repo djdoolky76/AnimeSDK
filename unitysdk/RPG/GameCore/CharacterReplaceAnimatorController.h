@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterReplaceAnimatorController_TypeDefinitionIndex = 23205;
+
 	class CharacterReplaceAnimatorController : public ::RPG::GameCore::TaskConfig
 	{
 	public:

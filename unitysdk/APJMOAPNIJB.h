@@ -37,6 +37,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define APJMOAPNIJB_SET_MOVESPEEDPROTECTDURATION_OFFSET UNITYSDK_OFFSET(0x15BACCD0)
 #define APJMOAPNIJB_SET_MOVESPEED_OFFSET UNITYSDK_OFFSET(0x15BACB90)
 
+inline static constexpr unsigned int APJMOAPNIJB_TypeDefinitionIndex = 75835;
+
 	class APJMOAPNIJB : public ::System::Object
 	{
 	public:

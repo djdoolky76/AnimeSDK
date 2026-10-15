@@ -10,6 +10,8 @@ namespace RPG::CustomRP { class SDFSystemBehaviour; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int SDFSystemBehaviour___c__DisplayClass2_0_TypeDefinitionIndex = 51870;
+
 	class SDFSystemBehaviour___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

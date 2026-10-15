@@ -18,6 +18,8 @@ namespace RPG::GameCore { class ElfFeverSkillLevelConfig; }
 #define MOACPLIFJOO_NPJMBJCDDOB_OFFSET UNITYSDK_OFFSET(0xBA1B7C0)
 #define MOACPLIFJOO___TICKGAME_B__6_0_OFFSET UNITYSDK_OFFSET(0xBA1BC90)
 
+inline static constexpr unsigned int MOACPLIFJOO_TypeDefinitionIndex = 77270;
+
 	class MOACPLIFJOO : public ::System::Object
 	{
 	public:

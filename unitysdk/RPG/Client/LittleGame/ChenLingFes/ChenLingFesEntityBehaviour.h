@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace RPG::Client::LittleGame::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesEntityBehaviour_TypeDefinitionIndex = 77718;
+
 	class ChenLingFesEntityBehaviour : public ::Entitas::VisualDebugging::Unity::EntityBehaviour
 	{
 	public:

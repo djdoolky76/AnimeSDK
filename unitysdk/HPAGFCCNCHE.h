@@ -28,6 +28,8 @@ namespace System { class String; }
 #define HPAGFCCNCHE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5F3BC0)
 #define HPAGFCCNCHE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5F3C20)
 
+inline static constexpr unsigned int HPAGFCCNCHE_TypeDefinitionIndex = 34762;
+
 	class HPAGFCCNCHE : public ::System::Object
 	{
 	public:

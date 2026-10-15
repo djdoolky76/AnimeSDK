@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__GetTrackedDeviceActivityLevel_TypeDefinitionIndex = 38906;
+
 	class IVRSystem__GetTrackedDeviceActivityLevel : public ::System::MulticastDelegate
 	{
 	public:

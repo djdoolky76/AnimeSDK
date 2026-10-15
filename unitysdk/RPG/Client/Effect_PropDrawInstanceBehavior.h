@@ -25,6 +25,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_PropDrawInstanceBehavior_TypeDefinitionIndex = 70538;
+
 	class Effect_PropDrawInstanceBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

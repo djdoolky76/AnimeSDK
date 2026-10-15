@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define AHDANEIIJML_SET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0xEB7B1B0)
 #define AHDANEIIJML_SET_PARAMLIST_OFFSET UNITYSDK_OFFSET(0xEB7B190)
 
+inline static constexpr unsigned int AHDANEIIJML_TypeDefinitionIndex = 79773;
+
 	class AHDANEIIJML : public ::System::Object
 	{
 	public:

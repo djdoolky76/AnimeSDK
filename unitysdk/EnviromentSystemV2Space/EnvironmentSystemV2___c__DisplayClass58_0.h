@@ -10,6 +10,8 @@ namespace EnviromentSystem { class EnviromentClip_OnEnvironmentClipLoadDelegate;
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int EnvironmentSystemV2___c__DisplayClass58_0_TypeDefinitionIndex = 49473;
+
 	class EnvironmentSystemV2___c__DisplayClass58_0 : public ::System::Object
 	{
 	public:

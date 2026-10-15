@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int PHAPALJNLBE_TypeDefinitionIndex = 31402;
+
 	enum class PHAPALJNLBE : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

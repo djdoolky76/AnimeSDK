@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CNAICCGGDOH_SET_AVATARID_OFFSET UNITYSDK_OFFSET(0xDA46F90)
 #define CNAICCGGDOH_SET_AVATARLEVEL_OFFSET UNITYSDK_OFFSET(0xDA46FB0)
 
+inline static constexpr unsigned int CNAICCGGDOH_TypeDefinitionIndex = 66756;
+
 	class CNAICCGGDOH : public ::System::Object
 	{
 	public:

@@ -39,6 +39,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AppPrefs_TypeDefinitionIndex = 59350;
+
 	class AppPrefs : public ::RPG::Client::PrefGroup
 	{
 	public:

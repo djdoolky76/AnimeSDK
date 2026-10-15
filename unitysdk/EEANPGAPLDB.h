@@ -9,6 +9,8 @@ namespace RPG::GameCore { class JsonEnum; }
 #define EEANPGAPLDB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD71E40)
 #define EEANPGAPLDB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD71E00)
 
+inline static constexpr unsigned int EEANPGAPLDB_TypeDefinitionIndex = 24153;
+
 	class EEANPGAPLDB : public ::RPG::GameCore::TaskConfig
 	{
 	public:

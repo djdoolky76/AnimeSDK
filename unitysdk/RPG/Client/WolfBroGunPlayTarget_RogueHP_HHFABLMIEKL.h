@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayTarget_RogueHP_HHFABLMIEKL_TypeDefinitionIndex = 68734;
+
 	struct alignas(4) WolfBroGunPlayTarget_RogueHP_HHFABLMIEKL
 	{
 		::System::Int32 EIAKNONOIHA; // 0x10

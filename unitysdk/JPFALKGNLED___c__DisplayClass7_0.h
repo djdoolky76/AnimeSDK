@@ -4,6 +4,8 @@
 class IFKBGBPINCO;
 class JPFALKGNLED;
 
+inline static constexpr unsigned int JPFALKGNLED___c__DisplayClass7_0_TypeDefinitionIndex = 44133;
+
 	class JPFALKGNLED___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

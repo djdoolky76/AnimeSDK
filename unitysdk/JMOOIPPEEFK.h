@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define JMOOIPPEEFK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D04C000)
 #define JMOOIPPEEFK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D04B5F0)
 
+inline static constexpr unsigned int JMOOIPPEEFK_TypeDefinitionIndex = 12893;
+
 	class JMOOIPPEEFK : public ::System::Object
 	{
 	public:

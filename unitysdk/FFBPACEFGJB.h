@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FFBPACEFGJB_CTOR_OFFSET UNITYSDK_OFFSET(0x15730200)
 #define FFBPACEFGJB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15730210)
 
+inline static constexpr unsigned int FFBPACEFGJB_TypeDefinitionIndex = 52680;
+
 	class FFBPACEFGJB : public ::CMMNJAMJJCN
 	{
 	public:

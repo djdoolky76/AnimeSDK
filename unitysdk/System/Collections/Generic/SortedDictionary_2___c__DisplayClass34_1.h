@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class EqualityCom
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int SortedDictionary_2___c__DisplayClass34_1_TypeDefinitionIndex = 3032;
+
 	template <typename T1, typename T2>
 	class SortedDictionary_2___c__DisplayClass34_1 : public ::System::Object
 	{

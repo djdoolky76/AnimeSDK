@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoadRashGameModifier_MatchLevelAIGlobalParams_TypeDefinitionIndex = 10317;
+
 	class RoadRashGameModifier_MatchLevelAIGlobalParams : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace ParticleRecorder
 {
+	inline static constexpr unsigned int ParticleClip_TypeDefinitionIndex = 37490;
+
 	class ParticleClip : public ::System::Object
 	{
 	public:

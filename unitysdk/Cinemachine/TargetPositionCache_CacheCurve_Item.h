@@ -8,6 +8,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int TargetPositionCache_CacheCurve_Item_TypeDefinitionIndex = 39849;
+
 	struct alignas(4) TargetPositionCache_CacheCurve_Item
 	{
 		::UnityEngine::Vector3 Pos; // 0x10

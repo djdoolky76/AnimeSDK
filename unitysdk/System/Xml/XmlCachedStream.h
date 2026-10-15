@@ -8,6 +8,8 @@ namespace System::IO { class Stream; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlCachedStream_TypeDefinitionIndex = 1949;
+
 	class XmlCachedStream : public ::System::IO::MemoryStream
 	{
 	public:

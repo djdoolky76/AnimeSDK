@@ -201,6 +201,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Map_TypeDefinitionIndex = 60861;
+
 	class Map : public ::System::Object
 	{
 	public:

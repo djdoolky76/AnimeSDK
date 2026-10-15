@@ -9,6 +9,8 @@ class KOKDNGLIFND;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournDifficultyCompData___c__DisplayClass2_0_TypeDefinitionIndex = 67584;
+
 	class RogueTournDifficultyCompData___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

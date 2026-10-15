@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ParallelConfigForTaskListTemplate_TypeDefinitionIndex = 23308;
+
 	class ParallelConfigForTaskListTemplate : public ::RPG::GameCore::JsonConfig
 	{
 	public:

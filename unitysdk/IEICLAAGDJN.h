@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define IEICLAAGDJN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB085F0)
 
+inline static constexpr unsigned int IEICLAAGDJN_TypeDefinitionIndex = 42786;
+
 	class IEICLAAGDJN : public ::System::Object
 	{
 	public:

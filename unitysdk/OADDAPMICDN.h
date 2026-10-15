@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define OADDAPMICDN_DPNMEFMDFJB_OFFSET UNITYSDK_OFFSET(0xBD1B4D0)
 #define OADDAPMICDN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD1B360)
 
+inline static constexpr unsigned int OADDAPMICDN_TypeDefinitionIndex = 52841;
+
 	class OADDAPMICDN
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int SkillAssetConfig_TypeDefinitionIndex = 52035;
+
 	class SkillAssetConfig : public ::System::Object
 	{
 	public:

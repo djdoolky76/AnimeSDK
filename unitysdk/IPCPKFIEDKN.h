@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 #define IPCPKFIEDKN_JLGEMCDBJPN_OFFSET UNITYSDK_OFFSET(0x1651DBD0)
 #define IPCPKFIEDKN_NJOBMENFBFJ_OFFSET UNITYSDK_OFFSET(0x1651D7F0)
 
+inline static constexpr unsigned int IPCPKFIEDKN_TypeDefinitionIndex = 72673;
+
 	class IPCPKFIEDKN : public ::System::Object
 	{
 	public:

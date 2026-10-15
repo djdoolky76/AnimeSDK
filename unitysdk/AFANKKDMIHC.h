@@ -28,6 +28,8 @@ namespace System { class String; }
 #define AFANKKDMIHC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E112B40)
 #define AFANKKDMIHC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E112BA0)
 
+inline static constexpr unsigned int AFANKKDMIHC_TypeDefinitionIndex = 28353;
+
 	class AFANKKDMIHC : public ::System::Object
 	{
 	public:

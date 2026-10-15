@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MissionMapPropType; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MissionMapPropType_TypeDefinitionIndex = 19010;
+
 	class MissionMapPropType : public ::RPG::GameCore::JsonConfig
 	{
 	public:

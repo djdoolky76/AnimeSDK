@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int AgeGateRegionPolicyProvider_TypeDefinitionIndex = 8271;
+
 	class AgeGateRegionPolicyProvider : public ::System::Object
 	{
 	public:

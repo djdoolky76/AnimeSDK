@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace SRDebugger::Services
 {
+	inline static constexpr unsigned int BugReportCompleteCallback_TypeDefinitionIndex = 38051;
+
 	class BugReportCompleteCallback : public ::System::MulticastDelegate
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Type; }
 
 namespace Newtonsoft::Json
 {
+	inline static constexpr unsigned int JsonContainerAttribute_TypeDefinitionIndex = 9599;
+
 	class JsonContainerAttribute : public ::System::Attribute
 	{
 	public:

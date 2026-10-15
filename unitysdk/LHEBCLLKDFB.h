@@ -9,6 +9,8 @@ namespace System { class String; }
 #define LHEBCLLKDFB_EJDOLLILIMM_OFFSET UNITYSDK_OFFSET(0x1D0F0D20)
 #define LHEBCLLKDFB_LFANOJFAEDL_OFFSET UNITYSDK_OFFSET(0x1D0F0DD0)
 
+inline static constexpr unsigned int LHEBCLLKDFB_TypeDefinitionIndex = 10810;
+
 	class LHEBCLLKDFB : public ::System::Object
 	{
 	public:

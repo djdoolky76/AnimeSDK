@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterStorySteerData_TypeDefinitionIndex = 48021;
+
 	class CharacterStorySteerData : public ::System::Object
 	{
 	public:

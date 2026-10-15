@@ -30,6 +30,8 @@ namespace System { class String; }
 #define KGPIEEKIEME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E83E950)
 #define KGPIEEKIEME_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E83E9B0)
 
+inline static constexpr unsigned int KGPIEEKIEME_TypeDefinitionIndex = 33846;
+
 	class KGPIEEKIEME : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace System
 {
+	inline static constexpr unsigned int MonoListItem_TypeDefinitionIndex = 408;
+
 	class MonoListItem : public ::System::Object
 	{
 	public:

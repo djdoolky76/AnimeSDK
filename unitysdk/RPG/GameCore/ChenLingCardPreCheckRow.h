@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ChenLingCardPreCheckRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingCardPreCheckRow_TypeDefinitionIndex = 11045;
+
 	class ChenLingCardPreCheckRow : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TraceOrigamiByColony; }
 #define FLDCBKIIFJB_JDFGMNCMFLK_OFFSET UNITYSDK_OFFSET(0x1582CE20)
 #define FLDCBKIIFJB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1582C3F0)
 
+inline static constexpr unsigned int FLDCBKIIFJB_TypeDefinitionIndex = 53413;
+
 	class FLDCBKIIFJB
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { class String; }
 #define PPCEOBNEDEH_CTOR_OFFSET UNITYSDK_OFFSET(0xC37AC50)
 #define PPCEOBNEDEH_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0xC37ACC0)
 
+inline static constexpr unsigned int PPCEOBNEDEH_TypeDefinitionIndex = 50044;
+
 	class PPCEOBNEDEH : public ::System::Exception
 	{
 	public:

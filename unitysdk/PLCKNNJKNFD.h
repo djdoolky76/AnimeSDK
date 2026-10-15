@@ -4,6 +4,8 @@
 
 #define PLCKNNJKNFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F63E0)
 
+inline static constexpr unsigned int PLCKNNJKNFD_TypeDefinitionIndex = 42169;
+
 	class PLCKNNJKNFD : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::Client { class ActivityClockParkModule; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ClockParkActivityData_TypeDefinitionIndex = 61606;
+
 	class ClockParkActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

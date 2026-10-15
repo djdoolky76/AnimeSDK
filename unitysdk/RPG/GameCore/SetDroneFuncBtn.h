@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetDroneFuncBtn; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDroneFuncBtn_TypeDefinitionIndex = 22135;
+
 	class SetDroneFuncBtn : public ::RPG::GameCore::TaskConfig
 	{
 	public:

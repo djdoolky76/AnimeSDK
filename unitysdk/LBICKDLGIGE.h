@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define LBICKDLGIGE_CTOR_OFFSET UNITYSDK_OFFSET(0xB5FB210)
 
+inline static constexpr unsigned int LBICKDLGIGE_TypeDefinitionIndex = 47609;
+
 	class LBICKDLGIGE : public ::System::Object
 	{
 	public:

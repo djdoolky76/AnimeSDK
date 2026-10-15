@@ -8,6 +8,8 @@ namespace RPG::Client { class GridFightPrayQuestFinishType; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightModifierInfo___c__DisplayClass35_0_TypeDefinitionIndex = 65051;
+
 	class GridFightModifierInfo___c__DisplayClass35_0 : public ::System::Object
 	{
 	public:

@@ -20,6 +20,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MaterialReplacerBase_TypeDefinitionIndex = 69041;
+
 	class MaterialReplacerBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

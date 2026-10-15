@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int PrepareUnlockGridPhase_TypeDefinitionIndex = 76309;
+
 	class PrepareUnlockGridPhase : public ::RPG::Client::ChenLingBattle::GamePhase
 	{
 	public:

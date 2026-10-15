@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyCalcOpType_TypeDefinitionIndex = 13513;
+
 	enum class ModifyCalcOpType : ::System::Int32
 	{
 		Set = 1,

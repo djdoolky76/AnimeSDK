@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MHCOBFJNNJB.h"
 
+inline static constexpr unsigned int LDIMIJBHBPB_TypeDefinitionIndex = 42291;
+
 	struct alignas(4) LDIMIJBHBPB
 	{
 		::System::UInt32 BCAKPNCHIIJ; // 0x10

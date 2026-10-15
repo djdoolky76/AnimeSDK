@@ -3,6 +3,8 @@
 #include "unitysdk/RPG/GameCore/Match3/BombType.h"
 #include "unitysdk/System/ValueTuple.h"
 
+inline static constexpr unsigned int MFPCEFGHPIN_TypeDefinitionIndex = 42225;
+
 	struct alignas(8) MFPCEFGHPIN
 	{
 		::System::ValueTuple FECJLBKEKCN; // 0x10

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MonsterDifficultyGuideConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonsterDifficultyGuideConfigRow_TypeDefinitionIndex = 14208;
+
 	class MonsterDifficultyGuideConfigRow : public ::System::Object
 	{
 	public:

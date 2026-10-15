@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define LLKJHFNFMCA_CTOR_OFFSET UNITYSDK_OFFSET(0xB774260)
 
+inline static constexpr unsigned int LLKJHFNFMCA_TypeDefinitionIndex = 68009;
+
 	class LLKJHFNFMCA : public ::System::Object
 	{
 	public:

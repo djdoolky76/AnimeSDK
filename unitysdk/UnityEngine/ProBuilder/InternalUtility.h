@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int InternalUtility_TypeDefinitionIndex = 44367;
+
 	class InternalUtility : public ::System::Object
 	{
 	public:

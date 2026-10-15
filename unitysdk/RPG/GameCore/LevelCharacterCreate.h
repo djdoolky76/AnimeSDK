@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelCharacterCreate_TypeDefinitionIndex = 56763;
+
 	class LevelCharacterCreate : public ::System::Object
 	{
 	public:

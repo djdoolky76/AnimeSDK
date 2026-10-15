@@ -104,6 +104,8 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace InControl
 {
+	inline static constexpr unsigned int InputManager_TypeDefinitionIndex = 40855;
+
 	class InputManager : public ::System::Object
 	{
 	public:

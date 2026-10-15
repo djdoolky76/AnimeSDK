@@ -5,6 +5,8 @@
 #define AFHOPECDEFA_CTOR_OFFSET UNITYSDK_OFFSET(0xCF0C840)
 #define AFHOPECDEFA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCF0C850)
 
+inline static constexpr unsigned int AFHOPECDEFA_TypeDefinitionIndex = 61323;
+
 	class AFHOPECDEFA : public ::System::Object
 	{
 	public:

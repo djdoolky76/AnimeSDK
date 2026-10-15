@@ -6,6 +6,8 @@ class OIHFMECAJBH;
 
 #define CDHILJAILCF_HLBOMGOBPPK_OFFSET UNITYSDK_OFFSET(0xC767D10)
 
+inline static constexpr unsigned int CDHILJAILCF_TypeDefinitionIndex = 64264;
+
 	class CDHILJAILCF : public ::System::Object
 	{
 	public:

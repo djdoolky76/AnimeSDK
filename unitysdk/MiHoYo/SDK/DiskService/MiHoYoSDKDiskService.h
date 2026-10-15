@@ -21,6 +21,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace MiHoYo::SDK::DiskService
 {
+	inline static constexpr unsigned int MiHoYoSDKDiskService_TypeDefinitionIndex = 46673;
+
 	class MiHoYoSDKDiskService : public ::System::Object
 	{
 	public:

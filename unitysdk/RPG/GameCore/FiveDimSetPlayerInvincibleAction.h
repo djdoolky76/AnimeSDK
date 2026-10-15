@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimSetPlayerInvincibleAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetPlayerInvincibleAction_TypeDefinitionIndex = 18708;
+
 	class FiveDimSetPlayerInvincibleAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

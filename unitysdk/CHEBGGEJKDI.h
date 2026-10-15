@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define CHEBGGEJKDI_CTOR_OFFSET UNITYSDK_OFFSET(0xCC92FE0)
 
+inline static constexpr unsigned int CHEBGGEJKDI_TypeDefinitionIndex = 77715;
+
 	class CHEBGGEJKDI : public ::IAJLHKIHBFB
 	{
 	public:

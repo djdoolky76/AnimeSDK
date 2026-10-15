@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define CECCNCOACPK_GET_PUZZLEEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xC77CF00)
 #define CECCNCOACPK_SET_PUZZLEEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xC77CF10)
 
+inline static constexpr unsigned int CECCNCOACPK_TypeDefinitionIndex = 56641;
+
 	class CECCNCOACPK : public ::HMFOPIJNNDI
 	{
 	public:

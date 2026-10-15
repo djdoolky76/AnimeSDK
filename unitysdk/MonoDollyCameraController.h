@@ -14,6 +14,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define MONODOLLYCAMERACONTROLLER_UPDATEBYTIMERATIO_OFFSET UNITYSDK_OFFSET(0xBA4D3D0)
 #define MONODOLLYCAMERACONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0xBA4D330)
 
+inline static constexpr unsigned int MonoDollyCameraController_TypeDefinitionIndex = 47261;
+
 	class MonoDollyCameraController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

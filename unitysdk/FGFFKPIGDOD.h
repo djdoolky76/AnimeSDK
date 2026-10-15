@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FGFFKPIGDOD_MLPJKDKLOLM_OFFSET UNITYSDK_OFFSET(0x1575B010)
 #define FGFFKPIGDOD_MOLIEAOEFNC_OFFSET UNITYSDK_OFFSET(0x1575A570)
 
+inline static constexpr unsigned int FGFFKPIGDOD_TypeDefinitionIndex = 67879;
+
 	class FGFFKPIGDOD : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LBCBJBKNNCC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8D9860)
 #define LBCBJBKNNCC___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E8D9870)
 
+inline static constexpr unsigned int LBCBJBKNNCC___c_TypeDefinitionIndex = 26275;
+
 	class LBCBJBKNNCC___c : public ::System::Object
 	{
 	public:

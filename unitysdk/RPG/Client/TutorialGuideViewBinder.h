@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TutorialGuideViewBinder_TypeDefinitionIndex = 68214;
+
 	class TutorialGuideViewBinder : public ::UnityEngine::MonoBehaviour
 	{
 	public:

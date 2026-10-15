@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 #define HNGAFOODKNC_CTOR_OFFSET UNITYSDK_OFFSET(0x15D930E0)
 #define HNGAFOODKNC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15D93270)
 
+inline static constexpr unsigned int HNGAFOODKNC_TypeDefinitionIndex = 54628;
+
 	class HNGAFOODKNC
 	{
 	public:

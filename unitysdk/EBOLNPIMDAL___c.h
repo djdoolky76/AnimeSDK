@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define EBOLNPIMDAL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E246B70)
 #define EBOLNPIMDAL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E246B80)
 
+inline static constexpr unsigned int EBOLNPIMDAL___c_TypeDefinitionIndex = 33118;
+
 	class EBOLNPIMDAL___c : public ::System::Object
 	{
 	public:

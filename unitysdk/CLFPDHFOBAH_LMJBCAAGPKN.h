@@ -3,6 +3,8 @@
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+inline static constexpr unsigned int CLFPDHFOBAH_LMJBCAAGPKN_TypeDefinitionIndex = 47127;
+
 	struct alignas(4) CLFPDHFOBAH_LMJBCAAGPKN
 	{
 		::UnityEngine::Matrix4x4 JMFCJFACICD; // 0x10

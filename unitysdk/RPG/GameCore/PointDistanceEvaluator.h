@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PointDistanceEvaluator_TypeDefinitionIndex = 15631;
+
 	class PointDistanceEvaluator : public ::RPG::GameCore::PointEvaluatorByDistanceConfig
 	{
 	public:

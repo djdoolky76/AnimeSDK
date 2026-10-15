@@ -8,6 +8,8 @@
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_ENUMERATION_TypeDefinitionIndex = 2149;
+
 	class Datatype_ENUMERATION : public ::System::Xml::Schema::Datatype_NMTOKEN
 	{
 	public:

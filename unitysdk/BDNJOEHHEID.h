@@ -5,6 +5,8 @@
 
 #define BDNJOEHHEID_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5A3CB0)
 
+inline static constexpr unsigned int BDNJOEHHEID_TypeDefinitionIndex = 36880;
+
 	class BDNJOEHHEID : public ::System::Attribute
 	{
 	public:

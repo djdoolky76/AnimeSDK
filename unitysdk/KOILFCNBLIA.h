@@ -22,6 +22,8 @@ namespace RPG::Client::Pet { class IPetInstance; }
 #define KOILFCNBLIA_GET_RARITY_OFFSET UNITYSDK_OFFSET(0xB599030)
 #define KOILFCNBLIA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB598B10)
 
+inline static constexpr unsigned int KOILFCNBLIA_TypeDefinitionIndex = 75664;
+
 	class KOILFCNBLIA : public ::System::Object
 	{
 	public:

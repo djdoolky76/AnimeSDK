@@ -41,6 +41,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::FullBody
 {
+	inline static constexpr unsigned int Grounding_TypeDefinitionIndex = 74238;
+
 	class Grounding : public ::System::Object
 	{
 	public:

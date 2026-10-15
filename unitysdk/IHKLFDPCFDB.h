@@ -23,6 +23,8 @@ namespace UnityEngine { class Animator; }
 #define IHKLFDPCFDB_LLNHDJMMLMD_OFFSET UNITYSDK_OFFSET(0x16423EF0)
 #define IHKLFDPCFDB_NBAANGFGGAN_OFFSET UNITYSDK_OFFSET(0x164240D0)
 
+inline static constexpr unsigned int IHKLFDPCFDB_TypeDefinitionIndex = 57646;
+
 	class IHKLFDPCFDB : public ::System::Object
 	{
 	public:

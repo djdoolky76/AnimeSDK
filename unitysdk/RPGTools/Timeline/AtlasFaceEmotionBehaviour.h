@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int AtlasFaceEmotionBehaviour_TypeDefinitionIndex = 48029;
+
 	class AtlasFaceEmotionBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

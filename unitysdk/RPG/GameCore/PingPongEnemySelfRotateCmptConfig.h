@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PingPongEnemySelfRotateCmptConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PingPongEnemySelfRotateCmptConfig_TypeDefinitionIndex = 18938;
+
 	class PingPongEnemySelfRotateCmptConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

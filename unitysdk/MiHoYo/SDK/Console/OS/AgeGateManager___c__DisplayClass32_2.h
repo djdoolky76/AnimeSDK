@@ -9,6 +9,8 @@ namespace MiHoYo::SDK::UI::OS { class IAgeGateGeneralErrorDialog; }
 
 namespace MiHoYo::SDK::Console::OS
 {
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass32_2_TypeDefinitionIndex = 9060;
+
 	template <typename T1, typename T2>
 	class AgeGateManager___c__DisplayClass32_2 : public ::System::Object
 	{

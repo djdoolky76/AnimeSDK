@@ -43,6 +43,8 @@ class LNHACPACCKH;
 #define GAICBMDAOFB_OMPIFMLEDEI_OFFSET UNITYSDK_OFFSET(0x1C628590)
 #define GAICBMDAOFB_PNJODACLLPH_OFFSET UNITYSDK_OFFSET(0x1C628520)
 
+inline static constexpr unsigned int GAICBMDAOFB_TypeDefinitionIndex = 37077;
+
 	class GAICBMDAOFB : public ::System::Object
 	{
 	public:

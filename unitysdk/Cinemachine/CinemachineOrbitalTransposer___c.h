@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineOrbitalTransposer___c_TypeDefinitionIndex = 39785;
+
 	class CinemachineOrbitalTransposer___c : public ::System::Object
 	{
 	public:

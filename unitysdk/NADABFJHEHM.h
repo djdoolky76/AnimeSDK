@@ -7,6 +7,8 @@ namespace RPG::Client { class AnniversaryCollectionPanelData; }
 #define NADABFJHEHM_KHCMGMOCHKN_OFFSET UNITYSDK_OFFSET(0xBA55E80)
 #define NADABFJHEHM_MNFDJHCGKNE_OFFSET UNITYSDK_OFFSET(0xBA55E00)
 
+inline static constexpr unsigned int NADABFJHEHM_TypeDefinitionIndex = 62391;
+
 	class NADABFJHEHM : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ShowCumulativeScoreBoardBehaviour_TypeDefinitionIndex = 48276;
+
 	class ShowCumulativeScoreBoardBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EDHBLGMGBNC_KPKCFMCJBCF_OFFSET UNITYSDK_OFFSET(0x13315870)
 #define EDHBLGMGBNC_SET_MISSIONID_OFFSET UNITYSDK_OFFSET(0x13315B80)
 
+inline static constexpr unsigned int EDHBLGMGBNC_TypeDefinitionIndex = 66088;
+
 	class EDHBLGMGBNC : public ::System::Object
 	{
 	public:

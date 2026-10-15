@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int GeneratedMessagePackResolver_ACMFEOAAJMN_TypeDefinitionIndex = 36095;
+
 	class GeneratedMessagePackResolver_ACMFEOAAJMN : public ::System::Object
 	{
 	public:

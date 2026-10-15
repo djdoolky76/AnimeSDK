@@ -6,6 +6,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int CustomConstantAttribute_TypeDefinitionIndex = 1382;
+
 	class CustomConstantAttribute : public ::System::Attribute
 	{
 	public:

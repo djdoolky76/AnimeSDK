@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayPuzzleBoard_ScoreRankConfig_TypeDefinitionIndex = 68748;
+
 	struct alignas(4) WolfBroGunPlayPuzzleBoard_ScoreRankConfig
 	{
 		::System::Single S; // 0x10

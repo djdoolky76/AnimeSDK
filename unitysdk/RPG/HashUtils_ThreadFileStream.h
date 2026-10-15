@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int HashUtils_ThreadFileStream_TypeDefinitionIndex = 6373;
+
 	class HashUtils_ThreadFileStream : public ::System::IO::FileStream
 	{
 	public:

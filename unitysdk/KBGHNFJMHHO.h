@@ -52,6 +52,8 @@ namespace UnityEngine { class Animation; }
 #define KBGHNFJMHHO__ONTICK_OFFSET UNITYSDK_OFFSET(0xB2F8F50)
 #define KBGHNFJMHHO__PLAYFADE_B__8_0_OFFSET UNITYSDK_OFFSET(0xB2FCE20)
 
+inline static constexpr unsigned int KBGHNFJMHHO_TypeDefinitionIndex = 71627;
+
 	class KBGHNFJMHHO : public ::FMPCODLIOLG
 	{
 	public:

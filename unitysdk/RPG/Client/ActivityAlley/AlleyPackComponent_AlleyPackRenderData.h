@@ -8,6 +8,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client::ActivityAlley
 {
+	inline static constexpr unsigned int AlleyPackComponent_AlleyPackRenderData_TypeDefinitionIndex = 74090;
+
 	class AlleyPackComponent_AlleyPackRenderData : public ::System::Object
 	{
 	public:

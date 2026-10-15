@@ -15,6 +15,8 @@ namespace UnityEngine { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIPage_TypeDefinitionIndex = 69009;
+
 	class UIPage : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -59,6 +59,8 @@ namespace UnityEngine { class Coroutine; }
 #define DNGDKOGLNFP_SET_CURRENTLEAVECONTAINERID_OFFSET UNITYSDK_OFFSET(0x11952300)
 #define DNGDKOGLNFP_SET_CURRENTLEAVEGROUPID_OFFSET UNITYSDK_OFFSET(0x119522E0)
 
+inline static constexpr unsigned int DNGDKOGLNFP_TypeDefinitionIndex = 60534;
+
 	class DNGDKOGLNFP : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define JFPMCBDHGPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB946F0)
 
+inline static constexpr unsigned int JFPMCBDHGPG_TypeDefinitionIndex = 42355;
+
 	class JFPMCBDHGPG : public ::System::Object
 	{
 	public:

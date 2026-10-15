@@ -7,6 +7,8 @@ namespace Spine::Unity { class ISpineComponent; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int ISpineComponentExtensions_TypeDefinitionIndex = 45071;
+
 	class ISpineComponentExtensions : public ::System::Object
 	{
 	public:

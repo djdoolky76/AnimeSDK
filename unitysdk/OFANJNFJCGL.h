@@ -35,6 +35,8 @@ namespace System { class String; }
 #define OFANJNFJCGL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE35C80)
 #define OFANJNFJCGL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE35CE0)
 
+inline static constexpr unsigned int OFANJNFJCGL_TypeDefinitionIndex = 27961;
+
 	class OFANJNFJCGL : public ::System::Object
 	{
 	public:

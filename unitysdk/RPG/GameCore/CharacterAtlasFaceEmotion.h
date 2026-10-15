@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterAtlasFaceEmotion_TypeDefinitionIndex = 21892;
+
 	class CharacterAtlasFaceEmotion : public ::RPG::GameCore::JsonConfig
 	{
 	public:

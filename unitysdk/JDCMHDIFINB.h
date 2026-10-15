@@ -17,6 +17,8 @@ namespace System { class String; }
 #define JDCMHDIFINB_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0x165BF4A0)
 #define JDCMHDIFINB_MMFEEJAHPLJ_OFFSET UNITYSDK_OFFSET(0x165BF4C0)
 
+inline static constexpr unsigned int JDCMHDIFINB_TypeDefinitionIndex = 54070;
+
 	class JDCMHDIFINB : public ::System::Object
 	{
 	public:

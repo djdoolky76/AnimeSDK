@@ -13,6 +13,8 @@ namespace System { class Action; }
 #define GCPBLDNKFCI_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0x1598F7D0)
 #define GCPBLDNKFCI_JMHMOEDJHAN_OFFSET UNITYSDK_OFFSET(0x1598F890)
 
+inline static constexpr unsigned int GCPBLDNKFCI_TypeDefinitionIndex = 79794;
+
 	class GCPBLDNKFCI : public ::MBPKHMAJLGK
 	{
 	public:

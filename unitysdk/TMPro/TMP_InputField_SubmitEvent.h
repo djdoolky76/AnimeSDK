@@ -5,6 +5,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_InputField_SubmitEvent_TypeDefinitionIndex = 44599;
+
 	class TMP_InputField_SubmitEvent
 	{
 	public:

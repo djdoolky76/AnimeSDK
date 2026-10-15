@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerDialogueEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerDialogueEvent_TypeDefinitionIndex = 20852;
+
 	class TriggerDialogueEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:

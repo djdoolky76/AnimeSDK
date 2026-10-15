@@ -12,6 +12,8 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 #define JHOCADLMHCA__GETSHEETVALUESV2RAW_D__9_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x10BD0)
 #define JHOCADLMHCA__GETSHEETVALUESV2RAW_D__9_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10BE0)
 
+inline static constexpr unsigned int JHOCADLMHCA__GetSheetValuesV2Raw_d__9_TypeDefinitionIndex = 50040;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9>
 	struct alignas(8) JHOCADLMHCA__GetSheetValuesV2Raw_d__9
 	{

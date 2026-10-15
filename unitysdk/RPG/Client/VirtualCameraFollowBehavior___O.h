@@ -5,6 +5,8 @@ namespace RPG::CustomRP { class CRPVirtualCameraVolumn_PostUpdateVCCamera; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VirtualCameraFollowBehavior___O_TypeDefinitionIndex = 70347;
+
 	class VirtualCameraFollowBehavior___O : public ::System::Object
 	{
 	public:

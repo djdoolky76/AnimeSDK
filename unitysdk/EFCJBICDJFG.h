@@ -7,6 +7,8 @@
 #define EFCJBICDJFG_CTOR_OFFSET UNITYSDK_OFFSET(0x13A483C0)
 #define EFCJBICDJFG_PJLGNEPKOGE_OFFSET UNITYSDK_OFFSET(0x13A48370)
 
+inline static constexpr unsigned int EFCJBICDJFG_TypeDefinitionIndex = 54279;
+
 	class EFCJBICDJFG : public ::System::Object
 	{
 	public:

@@ -24,6 +24,8 @@ namespace System::Runtime::InteropServices { class MarshalAsAttribute; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int MonoMethodInfo_TypeDefinitionIndex = 620;
+
 	struct alignas(8) MonoMethodInfo
 	{
 		::System::Type* parent; // 0x10

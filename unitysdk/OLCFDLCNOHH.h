@@ -9,6 +9,8 @@ class OLCFDLCNOHH;
 #define OLCFDLCNOHH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D297820)
 #define OLCFDLCNOHH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2977E0)
 
+inline static constexpr unsigned int OLCFDLCNOHH_TypeDefinitionIndex = 23164;
+
 	class OLCFDLCNOHH : public ::RPG::GameCore::TaskConfig
 	{
 	public:

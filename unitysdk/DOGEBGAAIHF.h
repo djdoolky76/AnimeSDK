@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DOGEBGAAIHF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x11FE86B0)
 #define DOGEBGAAIHF_TICK_OFFSET UNITYSDK_OFFSET(0x11FE8790)
 
+inline static constexpr unsigned int DOGEBGAAIHF_TypeDefinitionIndex = 58015;
+
 	class DOGEBGAAIHF : public ::GELIALJDFBL
 	{
 	public:

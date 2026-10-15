@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define NFHHADIKANJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBB93EE0)
 
+inline static constexpr unsigned int NFHHADIKANJ_TypeDefinitionIndex = 67783;
+
 	class NFHHADIKANJ : public ::System::Object
 	{
 	public:

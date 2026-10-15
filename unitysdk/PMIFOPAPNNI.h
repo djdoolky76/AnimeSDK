@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PMIFOPAPNNI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFAB8C0)
 #define PMIFOPAPNNI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFAB920)
 
+inline static constexpr unsigned int PMIFOPAPNNI_TypeDefinitionIndex = 26719;
+
 	class PMIFOPAPNNI : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::Client::LittleGame::FiveDim { class PhantomPlayerRecordFrames; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int PhantomPlayerFrameAsset_TypeDefinitionIndex = 43585;
+
 	class PhantomPlayerFrameAsset : public ::UnityEngine::ScriptableObject
 	{
 	public:

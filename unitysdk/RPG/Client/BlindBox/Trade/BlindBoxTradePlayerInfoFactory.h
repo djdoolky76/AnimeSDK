@@ -11,6 +11,8 @@ namespace RPG::Client::BlindBox::Trade { class IBlindBoxTradePlayerInfo; }
 
 namespace RPG::Client::BlindBox::Trade
 {
+	inline static constexpr unsigned int BlindBoxTradePlayerInfoFactory_TypeDefinitionIndex = 74884;
+
 	class BlindBoxTradePlayerInfoFactory : public ::System::Object
 	{
 	public:

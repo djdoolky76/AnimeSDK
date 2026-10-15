@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int FtpStatus_TypeDefinitionIndex = 2842;
+
 	class FtpStatus : public ::System::Object
 	{
 	public:

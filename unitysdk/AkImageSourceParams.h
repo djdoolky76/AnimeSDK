@@ -25,6 +25,8 @@ class AkImageSourceParams;
 #define AKIMAGESOURCEPARAMS_SET_UDIFFRACTIONEMITTERSIDE_OFFSET UNITYSDK_OFFSET(0x1F598C60)
 #define AKIMAGESOURCEPARAMS_SET_UDIFFRACTIONLISTENERSIDE_OFFSET UNITYSDK_OFFSET(0x1F598DD0)
 
+inline static constexpr unsigned int AkImageSourceParams_TypeDefinitionIndex = 44744;
+
 	class AkImageSourceParams : public ::System::Object
 	{
 	public:

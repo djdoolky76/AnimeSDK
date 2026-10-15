@@ -21,6 +21,8 @@ namespace HedgehogTeam::EasyTouch { class Gesture; }
 #define FAAHAACBEEK_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1565C5D0)
 #define FAAHAACBEEK_PKONPECCLIN_OFFSET UNITYSDK_OFFSET(0x1565D130)
 
+inline static constexpr unsigned int FAAHAACBEEK_TypeDefinitionIndex = 73273;
+
 	class FAAHAACBEEK : public ::System::Object
 	{
 	public:

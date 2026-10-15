@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int SkillTreeGridLayout_TypeDefinitionIndex = 52046;
+
 	class SkillTreeGridLayout : public ::UnityEngine::MonoBehaviour
 	{
 	public:

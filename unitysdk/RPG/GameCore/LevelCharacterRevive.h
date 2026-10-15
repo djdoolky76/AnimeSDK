@@ -13,6 +13,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelCharacterRevive_TypeDefinitionIndex = 56793;
+
 	class LevelCharacterRevive : public ::System::Object
 	{
 	public:

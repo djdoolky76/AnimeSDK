@@ -42,6 +42,8 @@ namespace System { class String; }
 #define JAACNICGMHN_SET_SPECIALEFFPATH_OFFSET UNITYSDK_OFFSET(0x16539130)
 #define JAACNICGMHN_SET_TRIGGERNAME_OFFSET UNITYSDK_OFFSET(0x165390F0)
 
+inline static constexpr unsigned int JAACNICGMHN_TypeDefinitionIndex = 81008;
+
 	class JAACNICGMHN : public ::System::Object
 	{
 	public:

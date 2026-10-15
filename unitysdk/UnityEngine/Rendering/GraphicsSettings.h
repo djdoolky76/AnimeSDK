@@ -22,6 +22,8 @@ namespace UnityEngine::Rendering { class RenderPipelineAsset; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int GraphicsSettings_TypeDefinitionIndex = 4730;
+
 	class GraphicsSettings : public ::UnityEngine::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConditionLoopExecuteTaskList_TypeDefinitionIndex = 23469;
+
 	class ConditionLoopExecuteTaskList : public ::RPG::GameCore::TaskConfig
 	{
 	public:

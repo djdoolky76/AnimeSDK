@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyModifierRefreshCardStepOnRoundFinishCo
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyModifierRefreshCardStepOnRoundFinishConfig_TypeDefinitionIndex = 18108;
+
 	class TrainPartyModifierRefreshCardStepOnRoundFinishConfig : public ::RPG::GameCore::TrainPartyModifierConfigBase
 	{
 	public:

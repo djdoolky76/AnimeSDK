@@ -30,6 +30,8 @@ namespace System { class String; }
 #define LPKBLKAHEDB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9D14E0)
 #define LPKBLKAHEDB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9D1540)
 
+inline static constexpr unsigned int LPKBLKAHEDB_TypeDefinitionIndex = 26485;
+
 	class LPKBLKAHEDB : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HoYoSDKNetworkInterface_CustomHttpRequestHandler_TypeDefinitionIndex = 46111;
+
 	class HoYoSDKNetworkInterface_CustomHttpRequestHandler : public ::System::MulticastDelegate
 	{
 	public:

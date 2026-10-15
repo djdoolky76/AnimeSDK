@@ -36,6 +36,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Vector3Int_TypeDefinitionIndex = 4231;
+
 	struct alignas(4) Vector3Int
 	{
 		::System::Int32 m_X; // 0x10

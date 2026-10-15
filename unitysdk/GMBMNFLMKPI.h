@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GMBMNFLMKPI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4CA810)
 #define GMBMNFLMKPI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4CA870)
 
+inline static constexpr unsigned int GMBMNFLMKPI_TypeDefinitionIndex = 29131;
+
 	class GMBMNFLMKPI : public ::System::Object
 	{
 	public:

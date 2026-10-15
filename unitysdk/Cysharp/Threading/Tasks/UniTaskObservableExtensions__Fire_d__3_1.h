@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTaskObservableExtensions__Fire_d__3_1_TypeDefinitionIndex = 38443;
+
 	template <typename T>
 	struct alignas(8) UniTaskObservableExtensions__Fire_d__3_1
 	{

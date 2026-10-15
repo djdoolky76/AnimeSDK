@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int MeshHandle_TypeDefinitionIndex = 44374;
+
 	class MeshHandle : public ::System::Object
 	{
 	public:

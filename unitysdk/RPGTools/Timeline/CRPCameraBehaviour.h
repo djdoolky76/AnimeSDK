@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CRPCameraBehaviour_TypeDefinitionIndex = 47887;
+
 	class CRPCameraBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore::Booklet { class SpreadConfig; }
 
 namespace RPG::GameCore::Booklet
 {
+	inline static constexpr unsigned int SectionConfig_TypeDefinitionIndex = 24961;
+
 	class SectionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

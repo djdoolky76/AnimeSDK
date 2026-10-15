@@ -33,6 +33,8 @@ namespace TMPro { class TMP_FontAsset; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LocalizedTextSDF_TypeDefinitionIndex = 72566;
+
 	class LocalizedTextSDF : public ::TMPro::TextMeshProUGUI
 	{
 	public:

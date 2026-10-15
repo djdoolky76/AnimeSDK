@@ -7,6 +7,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournWeekChallengeData_ObjectLevelSegmentedList_1___c_TypeDefinitionIndex = 67882;
+
 	template <typename T>
 	class RogueTournWeekChallengeData_ObjectLevelSegmentedList_1___c : public ::System::Object
 	{

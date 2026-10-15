@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 #define MJHPMAOIGPN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92C8E0)
 
+inline static constexpr unsigned int MJHPMAOIGPN_TypeDefinitionIndex = 42896;
+
 	class MJHPMAOIGPN : public ::System::Object
 	{
 	public:

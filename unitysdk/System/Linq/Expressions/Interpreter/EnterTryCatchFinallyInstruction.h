@@ -17,6 +17,8 @@ namespace System::Linq::Expressions::Interpreter { class TryCatchFinallyHandler;
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int EnterTryCatchFinallyInstruction_TypeDefinitionIndex = 3328;
+
 	class EnterTryCatchFinallyInstruction : public ::System::Linq::Expressions::Interpreter::IndexedBranchInstruction
 	{
 	public:

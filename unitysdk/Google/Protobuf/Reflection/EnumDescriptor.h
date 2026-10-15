@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int EnumDescriptor_TypeDefinitionIndex = 5532;
+
 	class EnumDescriptor : public ::Google::Protobuf::Reflection::DescriptorBase
 	{
 	public:

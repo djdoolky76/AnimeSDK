@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LPJOINCGBBP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9D0FE0)
 #define LPJOINCGBBP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E9D0FF0)
 
+inline static constexpr unsigned int LPJOINCGBBP___c_TypeDefinitionIndex = 28649;
+
 	class LPJOINCGBBP___c : public ::System::Object
 	{
 	public:

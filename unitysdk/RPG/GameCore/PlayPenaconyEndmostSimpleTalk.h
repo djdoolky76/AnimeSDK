@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PlayPenaconyEndmostSimpleTalk; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayPenaconyEndmostSimpleTalk_TypeDefinitionIndex = 21826;
+
 	class PlayPenaconyEndmostSimpleTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

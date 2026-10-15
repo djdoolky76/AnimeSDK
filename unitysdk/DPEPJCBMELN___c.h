@@ -9,6 +9,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define DPEPJCBMELN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x11FFB4A0)
 #define DPEPJCBMELN___C__EVALUATE_B__1_0_OFFSET UNITYSDK_OFFSET(0x11FFB4B0)
 
+inline static constexpr unsigned int DPEPJCBMELN___c_TypeDefinitionIndex = 59130;
+
 	class DPEPJCBMELN___c : public ::System::Object
 	{
 	public:

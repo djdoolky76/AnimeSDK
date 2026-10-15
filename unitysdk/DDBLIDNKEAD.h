@@ -16,6 +16,8 @@ namespace System { class String; }
 #define DDBLIDNKEAD_KPFMLADHOKE_OFFSET UNITYSDK_OFFSET(0xE25C410)
 #define DDBLIDNKEAD_MBABPIHGAJN_OFFSET UNITYSDK_OFFSET(0xE25C500)
 
+inline static constexpr unsigned int DDBLIDNKEAD_TypeDefinitionIndex = 59604;
+
 	class DDBLIDNKEAD : public ::System::Object
 	{
 	public:

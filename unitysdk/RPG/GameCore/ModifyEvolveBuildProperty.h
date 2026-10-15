@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ModifyEvolveBuildProperty; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyEvolveBuildProperty_TypeDefinitionIndex = 23099;
+
 	class ModifyEvolveBuildProperty : public ::RPG::GameCore::TaskConfig
 	{
 	public:

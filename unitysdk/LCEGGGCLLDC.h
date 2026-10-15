@@ -14,6 +14,8 @@ namespace RPG::Client::PetMarble { class PetMarblePlayer; }
 #define LCEGGGCLLDC_SET_ENEMYTEAMPLAYER_OFFSET UNITYSDK_OFFSET(0x94E0)
 #define LCEGGGCLLDC_SET_SELFPLAYER_OFFSET UNITYSDK_OFFSET(0x94B0)
 
+inline static constexpr unsigned int LCEGGGCLLDC_TypeDefinitionIndex = 74733;
+
 	struct alignas(8) LCEGGGCLLDC
 	{
 		::RPG::Client::PetMarble::PetMarblePlayer* _SelfPlayer_k__BackingField; // 0x10

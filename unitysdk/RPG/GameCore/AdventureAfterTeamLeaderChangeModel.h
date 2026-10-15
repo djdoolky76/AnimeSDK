@@ -12,6 +12,8 @@ namespace RPG::GameCore { class AdventureAfterTeamLeaderChangeModel; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureAfterTeamLeaderChangeModel_TypeDefinitionIndex = 56608;
+
 	class AdventureAfterTeamLeaderChangeModel : public ::CMPGEAFHHDC
 	{
 	public:

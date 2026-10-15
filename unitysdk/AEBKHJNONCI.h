@@ -12,6 +12,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 #define AEBKHJNONCI_JBGIFBGMLMF_OFFSET UNITYSDK_OFFSET(0xB14AAE0)
 #define AEBKHJNONCI_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0xB14AA70)
 
+inline static constexpr unsigned int AEBKHJNONCI_TypeDefinitionIndex = 73359;
+
 	class AEBKHJNONCI : public ::System::Object
 	{
 	public:

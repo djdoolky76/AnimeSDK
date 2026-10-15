@@ -33,6 +33,8 @@ namespace System { class String; }
 #define BKCJLICDPMD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF4EF30)
 #define BKCJLICDPMD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF4EF90)
 
+inline static constexpr unsigned int BKCJLICDPMD_TypeDefinitionIndex = 27806;
+
 	class BKCJLICDPMD : public ::System::Object
 	{
 	public:

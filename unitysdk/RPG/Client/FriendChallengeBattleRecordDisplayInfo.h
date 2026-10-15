@@ -22,6 +22,8 @@ namespace RPG::Client { class PlayerChallengeTierceBriefRecord; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FriendChallengeBattleRecordDisplayInfo_TypeDefinitionIndex = 64246;
+
 	class FriendChallengeBattleRecordDisplayInfo : public ::System::Object
 	{
 	public:

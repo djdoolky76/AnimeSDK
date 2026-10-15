@@ -27,6 +27,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int DatePicker_TypeDefinitionIndex = 9288;
+
 	class DatePicker : public ::MiHoYo::SDK::UIElement
 	{
 	public:

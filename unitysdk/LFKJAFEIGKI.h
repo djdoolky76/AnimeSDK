@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define LFKJAFEIGKI_LMGJKEKFHMK_OFFSET UNITYSDK_OFFSET(0xB681360)
 #define LFKJAFEIGKI_MGHGGCNHFDF_OFFSET UNITYSDK_OFFSET(0xB681A60)
 
+inline static constexpr unsigned int LFKJAFEIGKI_TypeDefinitionIndex = 81514;
+
 	class LFKJAFEIGKI : public ::System::Object
 	{
 	public:

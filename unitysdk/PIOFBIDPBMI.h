@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define PIOFBIDPBMI_KDPEDNKCMEB_OFFSET UNITYSDK_OFFSET(0xDE4D0)
 
+inline static constexpr unsigned int PIOFBIDPBMI_TypeDefinitionIndex = 56919;
+
 	struct alignas(8) PIOFBIDPBMI
 	{
 		::RPG::Client::TextID NLCHJCDAKCB; // 0x10

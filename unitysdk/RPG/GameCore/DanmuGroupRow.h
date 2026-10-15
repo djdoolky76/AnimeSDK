@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DanmuGroupRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DanmuGroupRow_TypeDefinitionIndex = 15189;
+
 	class DanmuGroupRow : public ::System::Object
 	{
 	public:

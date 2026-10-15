@@ -8,6 +8,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 #define KGKHBCCDPIC_AABNJGJKPJN_OFFSET UNITYSDK_OFFSET(0xB3F5AE0)
 
+inline static constexpr unsigned int KGKHBCCDPIC_TypeDefinitionIndex = 60046;
+
 	class KGKHBCCDPIC : public ::System::Object
 	{
 	public:

@@ -58,6 +58,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HBFIBDGJLHE_APICCADOKMH_SET_PROXY_OFFSET UNITYSDK_OFFSET(0x15BF95B0)
 #define HBFIBDGJLHE_APICCADOKMH_SET_SPEEDMULTIPLIER_OFFSET UNITYSDK_OFFSET(0x15BF9450)
 
+inline static constexpr unsigned int HBFIBDGJLHE_APICCADOKMH_TypeDefinitionIndex = 82182;
+
 	class HBFIBDGJLHE_APICCADOKMH : public ::System::Object
 	{
 	public:

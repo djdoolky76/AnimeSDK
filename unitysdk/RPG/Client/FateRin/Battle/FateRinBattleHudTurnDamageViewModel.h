@@ -27,6 +27,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudTurnDamageViewModel_TypeDefinitionIndex = 80939;
+
 	class FateRinBattleHudTurnDamageViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

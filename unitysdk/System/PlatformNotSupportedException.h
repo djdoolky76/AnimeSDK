@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int PlatformNotSupportedException_TypeDefinitionIndex = 316;
+
 	class PlatformNotSupportedException : public ::System::NotSupportedException
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int PEBBBNOOCFO_PoseEntitiesLoadingState_TypeDefinitionIndex = 60606;
+
 	enum class PEBBBNOOCFO_PoseEntitiesLoadingState : ::System::Int32
 	{
 		NotLoading = 0,

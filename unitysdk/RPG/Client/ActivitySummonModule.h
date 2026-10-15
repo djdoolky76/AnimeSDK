@@ -61,6 +61,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivitySummonModule_TypeDefinitionIndex = 61923;
+
 	class ActivitySummonModule : public ::RPG::Client::BaseModule
 	{
 	public:

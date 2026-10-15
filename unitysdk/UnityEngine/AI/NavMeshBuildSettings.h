@@ -12,6 +12,8 @@
 
 namespace UnityEngine::AI
 {
+	inline static constexpr unsigned int NavMeshBuildSettings_TypeDefinitionIndex = 5664;
+
 	struct alignas(4) NavMeshBuildSettings
 	{
 		::System::Int32 m_AgentTypeID; // 0x10

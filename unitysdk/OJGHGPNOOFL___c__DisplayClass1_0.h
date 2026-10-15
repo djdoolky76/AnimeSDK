@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OJGHGPNOOFL___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBEB6D20)
 #define OJGHGPNOOFL___C__DISPLAYCLASS1_0__REFRESHEFFECTS_B__1_OFFSET UNITYSDK_OFFSET(0xBEB7240)
 
+inline static constexpr unsigned int OJGHGPNOOFL___c__DisplayClass1_0_TypeDefinitionIndex = 71237;
+
 	class OJGHGPNOOFL___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BOMLHFMOLAG_CTOR_OFFSET UNITYSDK_OFFSET(0xC197030)
 #define BOMLHFMOLAG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC197060)
 
+inline static constexpr unsigned int BOMLHFMOLAG_TypeDefinitionIndex = 52493;
+
 	class BOMLHFMOLAG
 	{
 	public:

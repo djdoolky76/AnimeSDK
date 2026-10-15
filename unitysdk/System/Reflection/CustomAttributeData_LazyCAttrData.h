@@ -7,6 +7,8 @@ namespace System::Reflection { class Assembly; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int CustomAttributeData_LazyCAttrData_TypeDefinitionIndex = 600;
+
 	class CustomAttributeData_LazyCAttrData : public ::System::Object
 	{
 	public:

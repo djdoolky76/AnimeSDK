@@ -9,6 +9,8 @@
 #define BHCNCIJJHPF_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB473F00)
 #define BHCNCIJJHPF_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xB473F10)
 
+inline static constexpr unsigned int BHCNCIJJHPF_TypeDefinitionIndex = 56155;
+
 	class BHCNCIJJHPF : public ::DBGDNLLDPFI
 	{
 	public:

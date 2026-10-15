@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int DNKAAIFEKNP_OBOPLGMNNFC_TypeDefinitionIndex = 59990;
+
 	struct alignas(8) DNKAAIFEKNP_OBOPLGMNNFC
 	{
 		::System::Int32 CDEJPMNLJNB; // 0x10

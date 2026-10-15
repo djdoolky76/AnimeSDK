@@ -5,6 +5,8 @@ class IKBAMHGDEJC;
 
 #define NCCLPHOILBE_EENAIDFFJGM_CTOR_OFFSET UNITYSDK_OFFSET(0xBAFD7D0)
 
+inline static constexpr unsigned int NCCLPHOILBE_EENAIDFFJGM_TypeDefinitionIndex = 71595;
+
 	class NCCLPHOILBE_EENAIDFFJGM : public ::System::Object
 	{
 	public:

@@ -41,6 +41,8 @@ namespace System::IO { class DirectoryInfo; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int Directory_TypeDefinitionIndex = 664;
+
 	class Directory : public ::System::Object
 	{
 	public:

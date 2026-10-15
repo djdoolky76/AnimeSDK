@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PHINIAKLBLJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF3D740)
 #define PHINIAKLBLJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF3D7A0)
 
+inline static constexpr unsigned int PHINIAKLBLJ_TypeDefinitionIndex = 26139;
+
 	class PHINIAKLBLJ : public ::System::Object
 	{
 	public:

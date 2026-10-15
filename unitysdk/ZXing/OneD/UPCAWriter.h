@@ -14,6 +14,8 @@ namespace ZXing::OneD { class EAN13Writer; }
 
 namespace ZXing::OneD
 {
+	inline static constexpr unsigned int UPCAWriter_TypeDefinitionIndex = 7006;
+
 	class UPCAWriter : public ::System::Object
 	{
 	public:

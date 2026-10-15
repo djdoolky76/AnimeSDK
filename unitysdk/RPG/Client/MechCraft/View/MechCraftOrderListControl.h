@@ -15,6 +15,8 @@ namespace SuperScrollView { class LoopGridViewItem; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftOrderListControl_TypeDefinitionIndex = 80017;
+
 	class MechCraftOrderListControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

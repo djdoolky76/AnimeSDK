@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesBonusEventData_TypeDefinitionIndex = 66551;
+
 	class PlanetFesBonusEventData : public ::RPG::Client::PlanetFesEventDataBase
 	{
 	public:

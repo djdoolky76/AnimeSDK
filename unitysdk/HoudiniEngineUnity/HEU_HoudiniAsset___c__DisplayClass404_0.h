@@ -10,6 +10,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_HoudiniAsset___c__DisplayClass404_0_TypeDefinitionIndex = 40400;
+
 	class HEU_HoudiniAsset___c__DisplayClass404_0 : public ::System::Object
 	{
 	public:

@@ -84,6 +84,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EJLIOMPMHHI__ADDSINGLEDOWNLOAD_B__1_0_OFFSET UNITYSDK_OFFSET(0x154E9FE0)
 #define EJLIOMPMHHI__ADDSINGLEDOWNLOAD_B__2_0_OFFSET UNITYSDK_OFFSET(0x154EA040)
 
+inline static constexpr unsigned int EJLIOMPMHHI_TypeDefinitionIndex = 59561;
+
 	class EJLIOMPMHHI : public ::System::Object
 	{
 	public:

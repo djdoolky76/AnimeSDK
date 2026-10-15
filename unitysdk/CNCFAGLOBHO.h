@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int CNCFAGLOBHO_TypeDefinitionIndex = 25377;
+
 	enum class CNCFAGLOBHO : ::System::Int32
 	{
 		DICNFGDPGDN = 0,

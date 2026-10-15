@@ -3,6 +3,8 @@
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlSchemaWhiteSpace_TypeDefinitionIndex = 2087;
+
 	enum class XmlSchemaWhiteSpace : ::System::Int32
 	{
 		Preserve = 0,

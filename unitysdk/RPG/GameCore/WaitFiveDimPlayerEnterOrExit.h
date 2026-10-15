@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaitFiveDimPlayerEnterOrExit; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitFiveDimPlayerEnterOrExit_TypeDefinitionIndex = 21290;
+
 	class WaitFiveDimPlayerEnterOrExit : public ::RPG::GameCore::TaskConfig
 	{
 	public:

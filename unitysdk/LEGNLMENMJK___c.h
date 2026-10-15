@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LEGNLMENMJK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E92EF70)
 #define LEGNLMENMJK___C___CCTOR_B__42_0_OFFSET UNITYSDK_OFFSET(0x1E92EF80)
 
+inline static constexpr unsigned int LEGNLMENMJK___c_TypeDefinitionIndex = 27052;
+
 	class LEGNLMENMJK___c : public ::System::Object
 	{
 	public:

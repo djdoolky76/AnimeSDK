@@ -29,6 +29,8 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 #define DDHEIHMPJKE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE263470)
 #define DDHEIHMPJKE_TICK_OFFSET UNITYSDK_OFFSET(0xE2634C0)
 
+inline static constexpr unsigned int DDHEIHMPJKE_TypeDefinitionIndex = 57953;
+
 	class DDHEIHMPJKE : public ::GELIALJDFBL
 	{
 	public:

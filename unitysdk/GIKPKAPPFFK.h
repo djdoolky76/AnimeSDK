@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define GIKPKAPPFFK_JDEKJLHMPLG_OFFSET UNITYSDK_OFFSET(0x15A45E60)
 #define GIKPKAPPFFK_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x15A45F50)
 
+inline static constexpr unsigned int GIKPKAPPFFK_TypeDefinitionIndex = 54240;
+
 	class GIKPKAPPFFK : public ::System::Object
 	{
 	public:

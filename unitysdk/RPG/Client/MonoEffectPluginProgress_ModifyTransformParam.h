@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginProgress_ModifyTransformParam_TypeDefinitionIndex = 70099;
+
 	class MonoEffectPluginProgress_ModifyTransformParam : public ::System::Object
 	{
 	public:

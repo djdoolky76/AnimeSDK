@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetNpcStatus_TypeDefinitionIndex = 20340;
+
 	class SetNpcStatus : public ::RPG::GameCore::TaskConfig
 	{
 	public:

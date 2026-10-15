@@ -10,6 +10,8 @@ namespace System { class String; }
 #define HMKBFLFIOMH_IOBACAGGCJN_OFFSET UNITYSDK_OFFSET(0x15D85C10)
 #define HMKBFLFIOMH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15D85B30)
 
+inline static constexpr unsigned int HMKBFLFIOMH_TypeDefinitionIndex = 62024;
+
 	class HMKBFLFIOMH : public ::MAOPBKPKCEK
 	{
 	public:

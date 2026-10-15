@@ -26,6 +26,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PS
 {
+	inline static constexpr unsigned int BindingManagerPSCN_TypeDefinitionIndex = 8896;
+
 	class BindingManagerPSCN : public ::MiHoYo::SDK::PS::BindManagerPS
 	{
 	public:

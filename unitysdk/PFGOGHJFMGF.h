@@ -8,6 +8,8 @@ namespace System { class String; }
 #define PFGOGHJFMGF_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xC20EEE0)
 #define PFGOGHJFMGF__ONBIND_OFFSET UNITYSDK_OFFSET(0xC20EE80)
 
+inline static constexpr unsigned int PFGOGHJFMGF_TypeDefinitionIndex = 72292;
+
 	class PFGOGHJFMGF : public ::FMPCODLIOLG
 	{
 	public:

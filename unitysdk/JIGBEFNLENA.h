@@ -77,6 +77,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JIGBEFNLENA_NJEIGMHOFKP_OFFSET UNITYSDK_OFFSET(0xB1F4600)
 #define JIGBEFNLENA_NLDKFBOFPPL_OFFSET UNITYSDK_OFFSET(0xB1F7750)
 
+inline static constexpr unsigned int JIGBEFNLENA_TypeDefinitionIndex = 66588;
+
 	class JIGBEFNLENA : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace RPG::Client { class AdventureAudioManager; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengePeakBGMUIState_TypeDefinitionIndex = 63155;
+
 	class ChallengePeakBGMUIState : public ::System::Object
 	{
 	public:

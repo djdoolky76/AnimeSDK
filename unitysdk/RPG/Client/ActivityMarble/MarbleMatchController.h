@@ -27,6 +27,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarbleMatchController_TypeDefinitionIndex = 75968;
+
 	class MarbleMatchController : public ::System::Object
 	{
 	public:

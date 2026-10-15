@@ -6,6 +6,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int RefSafetyRulesAttribute_3020561B2816563F_TypeDefinitionIndex = 44325;
+
 	class RefSafetyRulesAttribute_3020561B2816563F : public ::System::Attribute
 	{
 	public:

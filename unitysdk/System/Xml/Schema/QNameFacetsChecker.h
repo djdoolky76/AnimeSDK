@@ -15,6 +15,8 @@ namespace System::Xml::Schema { class XmlSchemaDatatype; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int QNameFacetsChecker_TypeDefinitionIndex = 2161;
+
 	class QNameFacetsChecker : public ::System::Xml::Schema::FacetsChecker
 	{
 	public:

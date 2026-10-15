@@ -54,6 +54,8 @@ namespace System { class String; }
 #define GCBHOIJLBFL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4380B0)
 #define GCBHOIJLBFL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E438110)
 
+inline static constexpr unsigned int GCBHOIJLBFL_TypeDefinitionIndex = 25234;
+
 	class GCBHOIJLBFL : public ::System::Object
 	{
 	public:

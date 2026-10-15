@@ -10,6 +10,8 @@ namespace RPG::Client::Promises { class Promise; }
 #define EGFHAJCOOPO___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0x14514CB0)
 #define EGFHAJCOOPO___C__DISPLAYCLASS20_0__SHOWDEVELOPACTIONSELECTPAGEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x14516170)
 
+inline static constexpr unsigned int EGFHAJCOOPO___c__DisplayClass20_0_TypeDefinitionIndex = 81748;
+
 	class EGFHAJCOOPO___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

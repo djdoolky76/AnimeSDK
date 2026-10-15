@@ -5,6 +5,8 @@
 #define DHHDBNNPIOL_CTOR_OFFSET UNITYSDK_OFFSET(0xEBD9270)
 #define DHHDBNNPIOL_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xEBD91D0)
 
+inline static constexpr unsigned int DHHDBNNPIOL_TypeDefinitionIndex = 62454;
+
 	class DHHDBNNPIOL : public ::System::Object
 	{
 	public:

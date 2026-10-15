@@ -6,6 +6,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamFormationComponent_EntityFormationSortData_TypeDefinitionIndex = 57708;
+
 	struct alignas(8) TeamFormationComponent_EntityFormationSortData
 	{
 		::RPG::GameCore::GameEntity* Entity; // 0x10

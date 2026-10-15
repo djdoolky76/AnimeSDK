@@ -12,6 +12,8 @@ namespace System { class String; }
 #define ENPEFNKMGJA_SET_PARTNERACTORICON_OFFSET UNITYSDK_OFFSET(0x155B6E40)
 #define ENPEFNKMGJA_SET_PARTNERACTORNAME_OFFSET UNITYSDK_OFFSET(0x155B6E60)
 
+inline static constexpr unsigned int ENPEFNKMGJA_TypeDefinitionIndex = 79751;
+
 	class ENPEFNKMGJA : public ::System::Object
 	{
 	public:

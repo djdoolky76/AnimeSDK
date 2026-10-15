@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PJBPJMDKALB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF74CA0)
 #define PJBPJMDKALB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF74D00)
 
+inline static constexpr unsigned int PJBPJMDKALB_TypeDefinitionIndex = 31564;
+
 	class PJBPJMDKALB : public ::System::Object
 	{
 	public:

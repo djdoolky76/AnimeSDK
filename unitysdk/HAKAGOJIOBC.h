@@ -11,6 +11,8 @@ namespace System { class Action; }
 #define HAKAGOJIOBC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15B81840)
 #define HAKAGOJIOBC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B81910)
 
+inline static constexpr unsigned int HAKAGOJIOBC_TypeDefinitionIndex = 55648;
+
 	class HAKAGOJIOBC
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class AvatarGlobalBuffConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarGlobalBuffConfigRow_TypeDefinitionIndex = 12795;
+
 	class AvatarGlobalBuffConfigRow : public ::System::Object
 	{
 	public:

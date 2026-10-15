@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int EffectLightControlClip_TypeDefinitionIndex = 48158;
+
 	class EffectLightControlClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

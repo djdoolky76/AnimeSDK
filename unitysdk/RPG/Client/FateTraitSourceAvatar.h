@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateTraitSourceAvatar_TypeDefinitionIndex = 64012;
+
 	class FateTraitSourceAvatar : public ::System::Object
 	{
 	public:

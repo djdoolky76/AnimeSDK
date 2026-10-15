@@ -7,6 +7,8 @@ class JEFCCHAPOLA;
 #define JEFCCHAPOLA_CTOR_OFFSET UNITYSDK_OFFSET(0x1661F8F0)
 #define JEFCCHAPOLA_EQUALS_OFFSET UNITYSDK_OFFSET(0x1661F870)
 
+inline static constexpr unsigned int JEFCCHAPOLA_TypeDefinitionIndex = 54274;
+
 	class JEFCCHAPOLA : public ::System::Object
 	{
 	public:

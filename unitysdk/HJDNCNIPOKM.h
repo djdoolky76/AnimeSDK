@@ -99,6 +99,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HJDNCNIPOKM_SET_ISPVPNETWORKDATAREADY_OFFSET UNITYSDK_OFFSET(0x15D13E30)
 #define HJDNCNIPOKM_SET_ISPVPROYALENETWORKDATAREADY_OFFSET UNITYSDK_OFFSET(0x15D13E70)
 
+inline static constexpr unsigned int HJDNCNIPOKM_TypeDefinitionIndex = 76558;
+
 	class HJDNCNIPOKM : public ::System::Object
 	{
 	public:

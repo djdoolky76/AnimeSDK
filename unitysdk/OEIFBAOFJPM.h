@@ -6,6 +6,8 @@
 namespace RPG { template <typename T> class PoolList_1; }
 namespace System { class String; }
 
+inline static constexpr unsigned int OEIFBAOFJPM_TypeDefinitionIndex = 43461;
+
 	struct alignas(8) OEIFBAOFJPM
 	{
 		::System::Boolean NOOJOFHAIAA; // 0x10

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MENCBJMOEML___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA11B80)
 #define MENCBJMOEML___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EA11B90)
 
+inline static constexpr unsigned int MENCBJMOEML___c_TypeDefinitionIndex = 26662;
+
 	class MENCBJMOEML___c : public ::System::Object
 	{
 	public:

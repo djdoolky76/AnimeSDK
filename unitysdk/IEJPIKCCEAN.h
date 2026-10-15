@@ -17,6 +17,8 @@ namespace UnityEngine { class GameObject; }
 #define IEJPIKCCEAN_ONSKIP_OFFSET UNITYSDK_OFFSET(0x15F00B10)
 #define IEJPIKCCEAN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15F00510)
 
+inline static constexpr unsigned int IEJPIKCCEAN_TypeDefinitionIndex = 57851;
+
 	class IEJPIKCCEAN : public ::KHEEFIDGFPC
 	{
 	public:

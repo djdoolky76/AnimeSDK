@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass33_0_TypeDefinitionIndex = 8269;
+
 	class AgeGateManager___c__DisplayClass33_0 : public ::System::Object
 	{
 	public:

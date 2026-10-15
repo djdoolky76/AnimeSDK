@@ -10,6 +10,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int StopStoryLightControlBehaviour_TypeDefinitionIndex = 48340;
+
 	class StopStoryLightControlBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int BlinkTimelineBehaviour_TypeDefinitionIndex = 48542;
+
 	class BlinkTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

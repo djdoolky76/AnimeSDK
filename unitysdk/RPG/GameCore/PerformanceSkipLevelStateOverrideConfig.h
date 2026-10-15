@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PerformanceSkipLevelStateOverrideItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceSkipLevelStateOverrideConfig_TypeDefinitionIndex = 19044;
+
 	class PerformanceSkipLevelStateOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

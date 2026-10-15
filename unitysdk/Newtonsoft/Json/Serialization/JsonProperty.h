@@ -83,6 +83,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int JsonProperty_TypeDefinitionIndex = 9729;
+
 	class JsonProperty : public ::System::Object
 	{
 	public:

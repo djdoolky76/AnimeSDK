@@ -6,6 +6,8 @@ namespace System { class Type; }
 #define HDLBFMFOIMA_CTOR_OFFSET UNITYSDK_OFFSET(0x15C3C410)
 #define HDLBFMFOIMA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x15C3C400)
 
+inline static constexpr unsigned int HDLBFMFOIMA_TypeDefinitionIndex = 49657;
+
 	class HDLBFMFOIMA : public ::System::Attribute
 	{
 	public:

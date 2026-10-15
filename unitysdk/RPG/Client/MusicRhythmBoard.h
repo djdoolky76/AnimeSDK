@@ -62,6 +62,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MusicRhythmBoard_TypeDefinitionIndex = 60158;
+
 	class MusicRhythmBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

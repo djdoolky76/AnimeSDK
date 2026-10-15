@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BNHDGEHMMIO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBDD9870)
 #define BNHDGEHMMIO_TICK_OFFSET UNITYSDK_OFFSET(0xBDD9B90)
 
+inline static constexpr unsigned int BNHDGEHMMIO_TypeDefinitionIndex = 54768;
+
 	class BNHDGEHMMIO : public ::BNBOAMEBAOE
 	{
 	public:

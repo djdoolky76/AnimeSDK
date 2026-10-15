@@ -22,6 +22,8 @@ namespace RPG::GameCore { class ItemConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GachaItemData_TypeDefinitionIndex = 64298;
+
 	class GachaItemData : public ::System::Object
 	{
 	public:

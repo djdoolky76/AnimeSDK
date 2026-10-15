@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 #define EKPOLIPHPIK_CTOR_OFFSET UNITYSDK_OFFSET(0x15519870)
 
+inline static constexpr unsigned int EKPOLIPHPIK_TypeDefinitionIndex = 51886;
+
 	class EKPOLIPHPIK : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@
 #define CLJGGIMAGGA_LCKCABJFHEA_OFFSET UNITYSDK_OFFSET(0xD78CE90)
 #define CLJGGIMAGGA_MHDGICEJKMP_OFFSET UNITYSDK_OFFSET(0xD78CF50)
 
+inline static constexpr unsigned int CLJGGIMAGGA_TypeDefinitionIndex = 78503;
+
 	class CLJGGIMAGGA : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define FAMLGHGHIOD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E329B20)
 #define FAMLGHGHIOD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E329B80)
 
+inline static constexpr unsigned int FAMLGHGHIOD_TypeDefinitionIndex = 27734;
+
 	class FAMLGHGHIOD : public ::System::Object
 	{
 	public:

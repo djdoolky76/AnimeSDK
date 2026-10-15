@@ -34,6 +34,8 @@ namespace RPG { template <typename T> class PoolList_1; }
 #define NNHECPOCLJI_NINJAGOBFOK_OFFSET UNITYSDK_OFFSET(0x1C973970)
 #define NNHECPOCLJI_PNBLMANGJCA_OFFSET UNITYSDK_OFFSET(0x1C973B10)
 
+inline static constexpr unsigned int NNHECPOCLJI_TypeDefinitionIndex = 42591;
+
 	class NNHECPOCLJI
 	{
 	public:

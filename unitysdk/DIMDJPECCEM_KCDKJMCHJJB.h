@@ -20,6 +20,8 @@ namespace System::Text { class StringBuilder; }
 #define DIMDJPECCEM_KCDKJMCHJJB_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xF21F640)
 #define DIMDJPECCEM_KCDKJMCHJJB_POAHFONFCLE_OFFSET UNITYSDK_OFFSET(0xF222610)
 
+inline static constexpr unsigned int DIMDJPECCEM_KCDKJMCHJJB_TypeDefinitionIndex = 76901;
+
 	class DIMDJPECCEM_KCDKJMCHJJB : public ::System::Object
 	{
 	public:

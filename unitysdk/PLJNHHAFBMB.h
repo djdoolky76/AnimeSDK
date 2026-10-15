@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PLJNHHAFBMB_SET_ROOMEXTINFO_OFFSET UNITYSDK_OFFSET(0xC307F50)
 #define PLJNHHAFBMB_SET_ROOMID_OFFSET UNITYSDK_OFFSET(0xC307F30)
 
+inline static constexpr unsigned int PLJNHHAFBMB_TypeDefinitionIndex = 69360;
+
 	class PLJNHHAFBMB : public ::System::Object
 	{
 	public:

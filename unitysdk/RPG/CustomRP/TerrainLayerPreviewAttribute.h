@@ -6,6 +6,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int TerrainLayerPreviewAttribute_TypeDefinitionIndex = 37727;
+
 	class TerrainLayerPreviewAttribute : public ::System::Attribute
 	{
 	public:

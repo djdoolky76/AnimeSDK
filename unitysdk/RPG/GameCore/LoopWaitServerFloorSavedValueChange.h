@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LoopWaitServerFloorSavedValueChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoopWaitServerFloorSavedValueChange_TypeDefinitionIndex = 22249;
+
 	class LoopWaitServerFloorSavedValueChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:

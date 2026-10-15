@@ -36,6 +36,8 @@ namespace System { class String; }
 #define MAPFMHHMKIM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9DFF90)
 #define MAPFMHHMKIM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9DFFF0)
 
+inline static constexpr unsigned int MAPFMHHMKIM_TypeDefinitionIndex = 33982;
+
 	class MAPFMHHMKIM : public ::System::Object
 	{
 	public:

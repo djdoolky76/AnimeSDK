@@ -9,6 +9,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int ThreadInterruptedException_TypeDefinitionIndex = 853;
+
 	class ThreadInterruptedException : public ::System::SystemException
 	{
 	public:

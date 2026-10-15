@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WeakAssetReference_TypeDefinitionIndex = 41410;
+
 	struct alignas(8) WeakAssetReference
 	{
 		::System::String* guid; // 0x10

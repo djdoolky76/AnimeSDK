@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MarbleConvertBuff; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleConvertBuff_TypeDefinitionIndex = 16833;
+
 	class MarbleConvertBuff : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

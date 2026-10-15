@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueCondDimensionPointConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueCondDimensionPointConfig_TypeDefinitionIndex = 19798;
+
 	class RogueCondDimensionPointConfig : public ::RPG::GameCore::RogueConditionConfigBase
 	{
 	public:

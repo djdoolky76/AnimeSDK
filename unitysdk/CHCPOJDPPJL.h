@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CHCPOJDPPJL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0C2260)
 #define CHCPOJDPPJL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0C22C0)
 
+inline static constexpr unsigned int CHCPOJDPPJL_TypeDefinitionIndex = 31360;
+
 	class CHCPOJDPPJL : public ::System::Object
 	{
 	public:

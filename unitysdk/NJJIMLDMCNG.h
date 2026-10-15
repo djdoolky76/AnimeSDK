@@ -12,6 +12,8 @@ namespace RPG::Client { class BaseGachaPoolData; }
 #define NJJIMLDMCNG_KBMJGBPKCFF_OFFSET UNITYSDK_OFFSET(0xBC19460)
 #define NJJIMLDMCNG_KPKCFMCJBCF_OFFSET UNITYSDK_OFFSET(0xBC193F0)
 
+inline static constexpr unsigned int NJJIMLDMCNG_TypeDefinitionIndex = 65581;
+
 	class NJJIMLDMCNG : public ::System::Object
 	{
 	public:

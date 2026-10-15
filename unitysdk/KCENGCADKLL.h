@@ -7,6 +7,8 @@ class KCENGCADKLL;
 #define KCENGCADKLL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D066350)
 #define KCENGCADKLL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0660C0)
 
+inline static constexpr unsigned int KCENGCADKLL_TypeDefinitionIndex = 11507;
+
 	class KCENGCADKLL : public ::System::Object
 	{
 	public:

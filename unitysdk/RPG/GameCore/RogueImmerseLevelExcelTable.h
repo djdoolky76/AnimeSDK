@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueImmerseLevelExcelTable_TypeDefinitionIndex = 14844;
+
 	class RogueImmerseLevelExcelTable : public ::System::Object
 	{
 	public:

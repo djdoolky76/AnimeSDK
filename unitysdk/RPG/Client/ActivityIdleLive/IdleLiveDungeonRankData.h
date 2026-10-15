@@ -20,6 +20,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveDungeonRankData; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveDungeonRankData_TypeDefinitionIndex = 75217;
+
 	class IdleLiveDungeonRankData : public ::System::Object
 	{
 	public:

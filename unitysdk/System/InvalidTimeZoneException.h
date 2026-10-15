@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int InvalidTimeZoneException_TypeDefinitionIndex = 290;
+
 	class InvalidTimeZoneException : public ::System::Exception
 	{
 	public:

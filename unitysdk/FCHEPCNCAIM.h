@@ -48,6 +48,8 @@ namespace System { class Object; }
 #define FCHEPCNCAIM_PCIOAANPHKO_OFFSET UNITYSDK_OFFSET(0x3C38150)
 #define FCHEPCNCAIM_PCKEJOJIOOM_OFFSET UNITYSDK_OFFSET(0x3C37EA0)
 
+inline static constexpr unsigned int FCHEPCNCAIM_TypeDefinitionIndex = 10672;
+
 	struct alignas(8) FCHEPCNCAIM
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ENDIDPAKMGF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2EAC10)
 #define ENDIDPAKMGF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E2EAC20)
 
+inline static constexpr unsigned int ENDIDPAKMGF___c_TypeDefinitionIndex = 28099;
+
 	class ENDIDPAKMGF___c : public ::System::Object
 	{
 	public:

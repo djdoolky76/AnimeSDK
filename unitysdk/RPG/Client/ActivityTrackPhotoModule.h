@@ -46,6 +46,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityTrackPhotoModule_TypeDefinitionIndex = 62003;
+
 	class ActivityTrackPhotoModule : public ::RPG::Client::BaseModule
 	{
 	public:

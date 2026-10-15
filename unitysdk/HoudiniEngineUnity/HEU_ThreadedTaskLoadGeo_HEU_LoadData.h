@@ -13,6 +13,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_ThreadedTaskLoadGeo_HEU_LoadData_TypeDefinitionIndex = 40615;
+
 	class HEU_ThreadedTaskLoadGeo_HEU_LoadData : public ::System::Object
 	{
 	public:

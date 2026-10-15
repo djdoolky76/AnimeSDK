@@ -30,6 +30,8 @@ namespace System { class String; }
 #define GPONDAHEKJN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4FC1C0)
 #define GPONDAHEKJN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4FC220)
 
+inline static constexpr unsigned int GPONDAHEKJN_TypeDefinitionIndex = 32058;
+
 	class GPONDAHEKJN : public ::System::Object
 	{
 	public:

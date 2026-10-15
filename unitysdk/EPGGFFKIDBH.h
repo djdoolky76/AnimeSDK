@@ -12,6 +12,8 @@ namespace System { class String; }
 #define EPGGFFKIDBH_GGOBOBEOKME_OFFSET UNITYSDK_OFFSET(0x155D4410)
 #define EPGGFFKIDBH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155D42F0)
 
+inline static constexpr unsigned int EPGGFFKIDBH_TypeDefinitionIndex = 53817;
+
 	class EPGGFFKIDBH
 	{
 	public:

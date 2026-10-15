@@ -54,6 +54,8 @@ namespace System { class String; }
 #define JLPEICPFLMC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E783110)
 #define JLPEICPFLMC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E783170)
 
+inline static constexpr unsigned int JLPEICPFLMC_TypeDefinitionIndex = 27032;
+
 	class JLPEICPFLMC : public ::System::Object
 	{
 	public:

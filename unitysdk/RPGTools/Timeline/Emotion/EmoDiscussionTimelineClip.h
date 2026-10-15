@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int EmoDiscussionTimelineClip_TypeDefinitionIndex = 48764;
+
 	class EmoDiscussionTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

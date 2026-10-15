@@ -13,6 +13,8 @@ namespace System::Net::Http::Headers { class TransferCodingWithQualityHeaderValu
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int TransferCodingWithQualityHeaderValue_TypeDefinitionIndex = 3828;
+
 	class TransferCodingWithQualityHeaderValue : public ::System::Net::Http::Headers::TransferCodingHeaderValue
 	{
 	public:

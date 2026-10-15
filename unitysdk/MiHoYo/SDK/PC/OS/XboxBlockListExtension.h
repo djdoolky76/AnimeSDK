@@ -7,6 +7,8 @@ namespace MiHoYo::SDK::PC::OS { class XboxBlockListEntry; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int XboxBlockListExtension_TypeDefinitionIndex = 8668;
+
 	class XboxBlockListExtension : public ::System::Object
 	{
 	public:

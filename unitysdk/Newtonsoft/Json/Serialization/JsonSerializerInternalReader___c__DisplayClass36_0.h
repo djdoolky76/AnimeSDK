@@ -9,6 +9,8 @@ namespace Newtonsoft::Json::Serialization { class JsonSerializerInternalReader_C
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int JsonSerializerInternalReader___c__DisplayClass36_0_TypeDefinitionIndex = 9738;
+
 	class JsonSerializerInternalReader___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:

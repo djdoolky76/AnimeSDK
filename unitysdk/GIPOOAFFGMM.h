@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GIPOOAFFGMM_NIJJPBOIGBI_OFFSET UNITYSDK_OFFSET(0x15A54BA0)
 #define GIPOOAFFGMM_PGIJAGHKJLN_OFFSET UNITYSDK_OFFSET(0x15A54E30)
 
+inline static constexpr unsigned int GIPOOAFFGMM_TypeDefinitionIndex = 72060;
+
 	class GIPOOAFFGMM : public ::FMPCODLIOLG
 	{
 	public:

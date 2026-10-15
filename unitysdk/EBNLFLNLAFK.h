@@ -37,6 +37,8 @@ namespace System { class String; }
 #define EBNLFLNLAFK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E244C20)
 #define EBNLFLNLAFK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E244C80)
 
+inline static constexpr unsigned int EBNLFLNLAFK_TypeDefinitionIndex = 32288;
+
 	class EBNLFLNLAFK : public ::System::Object
 	{
 	public:

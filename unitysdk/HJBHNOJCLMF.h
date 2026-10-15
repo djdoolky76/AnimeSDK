@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define HJBHNOJCLMF_CTOR_OFFSET UNITYSDK_OFFSET(0x15D028B0)
 
+inline static constexpr unsigned int HJBHNOJCLMF_TypeDefinitionIndex = 65519;
+
 	class HJBHNOJCLMF : public ::System::Object
 	{
 	public:

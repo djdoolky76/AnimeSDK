@@ -25,6 +25,8 @@ namespace System { class String; }
 #define NGKOLFNOAKC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB14520)
 #define NGKOLFNOAKC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB14580)
 
+inline static constexpr unsigned int NGKOLFNOAKC_TypeDefinitionIndex = 32521;
+
 	class NGKOLFNOAKC : public ::System::Object
 	{
 	public:

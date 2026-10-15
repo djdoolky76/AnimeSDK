@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelCharacterInitShield_TypeDefinitionIndex = 56791;
+
 	class LevelCharacterInitShield : public ::System::Object
 	{
 	public:

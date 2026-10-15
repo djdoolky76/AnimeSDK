@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 #define GOCODBMFHPH_DKEJODLFBKG_CTOR_OFFSET UNITYSDK_OFFSET(0x15B29790)
 
+inline static constexpr unsigned int GOCODBMFHPH_DKEJODLFBKG_TypeDefinitionIndex = 76301;
+
 	class GOCODBMFHPH_DKEJODLFBKG : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define GINLLEEBIOH__SELECTENTITYIDS_D__6___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x15A47540)
 #define GINLLEEBIOH__SELECTENTITYIDS_D__6___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0x15A47550)
 
+inline static constexpr unsigned int GINLLEEBIOH__SelectEntityIDs_d__6_TypeDefinitionIndex = 78354;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	class GINLLEEBIOH__SelectEntityIDs_d__6 : public ::System::Object
 	{

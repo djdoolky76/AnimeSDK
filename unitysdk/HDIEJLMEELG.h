@@ -7,6 +7,8 @@ namespace RPG::GameCore { class StageMonsterInvasionParamRow; }
 
 #define HDIEJLMEELG_CTOR_OFFSET UNITYSDK_OFFSET(0x15C37200)
 
+inline static constexpr unsigned int HDIEJLMEELG_TypeDefinitionIndex = 56181;
+
 	class HDIEJLMEELG : public ::System::Object
 	{
 	public:

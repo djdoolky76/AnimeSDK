@@ -21,6 +21,8 @@ namespace System { class String; }
 #define LEAKCHFEDDK_IBNIJBDKBDD_OFFSET UNITYSDK_OFFSET(0xB64AD10)
 #define LEAKCHFEDDK_MLHNJEGGOAI_OFFSET UNITYSDK_OFFSET(0xB64A9E0)
 
+inline static constexpr unsigned int LEAKCHFEDDK_TypeDefinitionIndex = 73790;
+
 	class LEAKCHFEDDK : public ::RPG::Client::OpenWorld::StreamingItemData
 	{
 	public:

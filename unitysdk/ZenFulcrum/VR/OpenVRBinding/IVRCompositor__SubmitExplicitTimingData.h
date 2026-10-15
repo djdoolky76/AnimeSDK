@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRCompositor__SubmitExplicitTimingData_TypeDefinitionIndex = 39057;
+
 	class IVRCompositor__SubmitExplicitTimingData : public ::System::MulticastDelegate
 	{
 	public:

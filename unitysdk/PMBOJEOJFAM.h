@@ -18,6 +18,8 @@ namespace UnityEngine { class Camera; }
 #define PMBOJEOJFAM_MOBDIGFMJCI_OFFSET UNITYSDK_OFFSET(0xC315280)
 #define PMBOJEOJFAM_SET_EFFECTTYPE_OFFSET UNITYSDK_OFFSET(0xC315580)
 
+inline static constexpr unsigned int PMBOJEOJFAM_TypeDefinitionIndex = 71475;
+
 	class PMBOJEOJFAM : public ::System::Object
 	{
 	public:

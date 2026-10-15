@@ -5,6 +5,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 #define MNIFJMMMEHD_CTOR_OFFSET UNITYSDK_OFFSET(0xBA0CB80)
 
+inline static constexpr unsigned int MNIFJMMMEHD_TypeDefinitionIndex = 57926;
+
 	class MNIFJMMMEHD
 	{
 	public:

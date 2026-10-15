@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KIMOBGCPCDC_CTOR_OFFSET UNITYSDK_OFFSET(0xB435CB0)
 #define KIMOBGCPCDC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB435DA0)
 
+inline static constexpr unsigned int KIMOBGCPCDC_TypeDefinitionIndex = 52199;
+
 	class KIMOBGCPCDC
 	{
 	public:

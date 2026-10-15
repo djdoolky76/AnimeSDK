@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GEINBBPNBGO_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x159D9F80)
 #define GEINBBPNBGO_PNOKNPFACNE_OFFSET UNITYSDK_OFFSET(0x159D9FD0)
 
+inline static constexpr unsigned int GEINBBPNBGO_TypeDefinitionIndex = 79334;
+
 	class GEINBBPNBGO : public ::System::Object
 	{
 	public:

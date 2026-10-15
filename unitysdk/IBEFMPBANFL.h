@@ -6,6 +6,8 @@ class DDJGBFMADIB;
 #define IBEFMPBANFL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CB071A0)
 #define IBEFMPBANFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB07220)
 
+inline static constexpr unsigned int IBEFMPBANFL_TypeDefinitionIndex = 43504;
+
 	class IBEFMPBANFL : public ::System::Object
 	{
 	public:

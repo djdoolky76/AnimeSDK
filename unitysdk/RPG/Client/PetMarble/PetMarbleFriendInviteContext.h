@@ -13,6 +13,8 @@ namespace RPG::Client::PetMarble { class PetMarbleFriendInviteContext; }
 
 namespace RPG::Client::PetMarble
 {
+	inline static constexpr unsigned int PetMarbleFriendInviteContext_TypeDefinitionIndex = 74715;
+
 	class PetMarbleFriendInviteContext : public ::RPG::Client::OnlinePlayRoomFriendInviteContextBase
 	{
 	public:

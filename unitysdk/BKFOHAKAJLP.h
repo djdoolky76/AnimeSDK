@@ -6,6 +6,8 @@
 #define BKFOHAKAJLP_CTOR_OFFSET UNITYSDK_OFFSET(0xB7B3AE0)
 #define BKFOHAKAJLP_FGFNHDKKJBA_OFFSET UNITYSDK_OFFSET(0xB7B3740)
 
+inline static constexpr unsigned int BKFOHAKAJLP_TypeDefinitionIndex = 78005;
+
 	class BKFOHAKAJLP : public ::BLLEONBDOMJ
 	{
 	public:

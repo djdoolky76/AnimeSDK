@@ -18,6 +18,8 @@ namespace System::Net::Http { class HttpMethod; }
 
 namespace System::Net::Http
 {
+	inline static constexpr unsigned int HttpMethod_TypeDefinitionIndex = 3771;
+
 	class HttpMethod : public ::System::Object
 	{
 	public:

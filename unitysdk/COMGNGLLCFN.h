@@ -31,6 +31,8 @@ namespace System { class String; }
 #define COMGNGLLCFN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E136160)
 #define COMGNGLLCFN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1361C0)
 
+inline static constexpr unsigned int COMGNGLLCFN_TypeDefinitionIndex = 25415;
+
 	class COMGNGLLCFN : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueEndlessMegaBuffDescRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueEndlessMegaBuffDescRow_TypeDefinitionIndex = 12343;
+
 	class RogueEndlessMegaBuffDescRow : public ::System::Object
 	{
 	public:

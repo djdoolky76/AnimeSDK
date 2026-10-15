@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LNINOCICGPA_CTOR_OFFSET UNITYSDK_OFFSET(0xB7E3AE0)
 #define LNINOCICGPA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB7E3B10)
 
+inline static constexpr unsigned int LNINOCICGPA_TypeDefinitionIndex = 54694;
+
 	class LNINOCICGPA
 	{
 	public:

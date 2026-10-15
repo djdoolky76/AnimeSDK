@@ -6,6 +6,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 #define KCEOHCCIPIE_GLBDDNOPOJN_CTOR_OFFSET UNITYSDK_OFFSET(0xB334480)
 
+inline static constexpr unsigned int KCEOHCCIPIE_GLBDDNOPOJN_TypeDefinitionIndex = 71942;
+
 	class KCEOHCCIPIE_GLBDDNOPOJN : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define INEBJNDOBGP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6C0710)
 #define INEBJNDOBGP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6C0770)
 
+inline static constexpr unsigned int INEBJNDOBGP_TypeDefinitionIndex = 31205;
+
 	class INEBJNDOBGP : public ::System::Object
 	{
 	public:

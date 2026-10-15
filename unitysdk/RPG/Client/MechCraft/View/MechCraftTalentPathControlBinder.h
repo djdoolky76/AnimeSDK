@@ -6,6 +6,8 @@
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftTalentPathControlBinder_TypeDefinitionIndex = 80070;
+
 	class MechCraftTalentPathControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define OMAAIFEDKOO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEADCA0)
 #define OMAAIFEDKOO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEADD00)
 
+inline static constexpr unsigned int OMAAIFEDKOO_TypeDefinitionIndex = 26054;
+
 	class OMAAIFEDKOO : public ::System::Object
 	{
 	public:

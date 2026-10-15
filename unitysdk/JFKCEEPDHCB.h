@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JFKCEEPDHCB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E72E640)
 #define JFKCEEPDHCB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E72E6A0)
 
+inline static constexpr unsigned int JFKCEEPDHCB_TypeDefinitionIndex = 29809;
+
 	class JFKCEEPDHCB : public ::System::Object
 	{
 	public:

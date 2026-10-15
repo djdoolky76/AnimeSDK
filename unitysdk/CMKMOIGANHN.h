@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CMKMOIGANHN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E104010)
 #define CMKMOIGANHN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E104070)
 
+inline static constexpr unsigned int CMKMOIGANHN_TypeDefinitionIndex = 27881;
+
 	class CMKMOIGANHN : public ::System::Object
 	{
 	public:

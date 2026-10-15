@@ -12,6 +12,8 @@ namespace RPG::GameCore { class UITriggerMonopolyModifier; }
 #define PFKCHJHJAJC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC2148B0)
 #define PFKCHJHJAJC_TICK_OFFSET UNITYSDK_OFFSET(0xC2147D0)
 
+inline static constexpr unsigned int PFKCHJHJAJC_TypeDefinitionIndex = 58839;
+
 	class PFKCHJHJAJC : public ::GELIALJDFBL
 	{
 	public:

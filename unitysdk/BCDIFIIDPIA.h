@@ -29,6 +29,8 @@ namespace System { class String; }
 #define BCDIFIIDPIA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E906E40)
 #define BCDIFIIDPIA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E906EA0)
 
+inline static constexpr unsigned int BCDIFIIDPIA_TypeDefinitionIndex = 31006;
+
 	class BCDIFIIDPIA : public ::System::Object
 	{
 	public:

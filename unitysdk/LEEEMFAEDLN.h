@@ -6,6 +6,8 @@
 #define LEEEMFAEDLN_CTOR_OFFSET UNITYSDK_OFFSET(0xB64EFC0)
 #define LEEEMFAEDLN_HOKENEHPKKJ_OFFSET UNITYSDK_OFFSET(0xB64EFA0)
 
+inline static constexpr unsigned int LEEEMFAEDLN_TypeDefinitionIndex = 73490;
+
 	class LEEEMFAEDLN : public ::CLFIGBPHLHI
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 #define FNFAEAEOFAN___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1586DF90)
 #define FNFAEAEOFAN___C__DISPLAYCLASS22_0___FIRETRAILEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x1586E540)
 
+inline static constexpr unsigned int FNFAEAEOFAN___c__DisplayClass22_0_TypeDefinitionIndex = 60610;
+
 	class FNFAEAEOFAN___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RestoreWolfBroPuzzleArchive_TypeDefinitionIndex = 21996;
+
 	class RestoreWolfBroPuzzleArchive : public ::RPG::GameCore::TaskConfig
 	{
 	public:

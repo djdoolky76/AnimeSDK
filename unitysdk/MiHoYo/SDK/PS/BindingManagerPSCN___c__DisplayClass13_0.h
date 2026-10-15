@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PS
 {
+	inline static constexpr unsigned int BindingManagerPSCN___c__DisplayClass13_0_TypeDefinitionIndex = 8899;
+
 	class BindingManagerPSCN___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

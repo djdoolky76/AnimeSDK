@@ -8,6 +8,8 @@
 #define INLKLJJDHLN_MIDJJIPGBCK_OFFSET UNITYSDK_OFFSET(0x3C33710)
 #define INLKLJJDHLN_OMICPBOIPOE_OFFSET UNITYSDK_OFFSET(0x3C33620)
 
+inline static constexpr unsigned int INLKLJJDHLN_TypeDefinitionIndex = 43452;
+
 	struct alignas(4) INLKLJJDHLN
 	{
 		::RPG::Client::LittleGame::FiveDim::DestructState MJCKCNENACO; // 0x10

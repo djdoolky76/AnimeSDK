@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OKCCLEEPELM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE90CB0)
 #define OKCCLEEPELM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE90D10)
 
+inline static constexpr unsigned int OKCCLEEPELM_TypeDefinitionIndex = 33075;
+
 	class OKCCLEEPELM : public ::System::Object
 	{
 	public:

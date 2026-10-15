@@ -29,6 +29,8 @@ namespace UnityEngine { class RenderTexture; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OffScreenCanvas_TypeDefinitionIndex = 72620;
+
 	class OffScreenCanvas : public ::UnityEngine::MonoBehaviour
 	{
 	public:

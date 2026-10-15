@@ -329,6 +329,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MapDef_TypeDefinitionIndex = 62079;
+
 	class MapDef : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System { class String; }
 #define BJIAFAFAFNE___C__DISPLAYCLASS31_0___ASYNCSWITCHSECTIONUI_B__4_OFFSET UNITYSDK_OFFSET(0xB7A0A00)
 #define BJIAFAFAFNE___C__DISPLAYCLASS31_0___ASYNCSWITCHSECTIONUI_B__5_OFFSET UNITYSDK_OFFSET(0xB7A0A20)
 
+inline static constexpr unsigned int BJIAFAFAFNE___c__DisplayClass31_0_TypeDefinitionIndex = 76459;
+
 	class BJIAFAFAFNE___c__DisplayClass31_0 : public ::System::Object
 	{
 	public:

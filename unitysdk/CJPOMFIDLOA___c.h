@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CJPOMFIDLOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0E8080)
 #define CJPOMFIDLOA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E0E8090)
 
+inline static constexpr unsigned int CJPOMFIDLOA___c_TypeDefinitionIndex = 29508;
+
 	class CJPOMFIDLOA___c : public ::System::Object
 	{
 	public:

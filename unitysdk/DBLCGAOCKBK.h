@@ -8,6 +8,8 @@ namespace RPG::Client::FateRin::Battle { class IFateRinBattleModifierHintViewMod
 #define DBLCGAOCKBK_COMPARE_OFFSET UNITYSDK_OFFSET(0xE22AC50)
 #define DBLCGAOCKBK_CTOR_OFFSET UNITYSDK_OFFSET(0xE22AFB0)
 
+inline static constexpr unsigned int DBLCGAOCKBK_TypeDefinitionIndex = 80987;
+
 	class DBLCGAOCKBK : public ::System::Object
 	{
 	public:

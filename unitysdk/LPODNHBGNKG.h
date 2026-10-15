@@ -32,6 +32,8 @@ namespace System { class String; }
 #define LPODNHBGNKG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9D4FC0)
 #define LPODNHBGNKG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9D5020)
 
+inline static constexpr unsigned int LPODNHBGNKG_TypeDefinitionIndex = 28679;
+
 	class LPODNHBGNKG : public ::System::Object
 	{
 	public:

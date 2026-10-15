@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRCompositor__ForceReconnectProcess_TypeDefinitionIndex = 39046;
+
 	class IVRCompositor__ForceReconnectProcess : public ::System::MulticastDelegate
 	{
 	public:

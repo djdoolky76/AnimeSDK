@@ -13,6 +13,8 @@ namespace UnityEngine { class SDFStreamingParams; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int SDFSystem_TypeDefinitionIndex = 4265;
+
 	class SDFSystem : public ::UnityEngine::Behaviour
 	{
 	public:

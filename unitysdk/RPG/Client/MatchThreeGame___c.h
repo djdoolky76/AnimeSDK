@@ -21,6 +21,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeGame___c_TypeDefinitionIndex = 65937;
+
 	class MatchThreeGame___c : public ::System::Object
 	{
 	public:

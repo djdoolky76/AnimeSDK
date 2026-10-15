@@ -19,6 +19,8 @@ namespace System { template <typename T> class Func_1; }
 #define OOHFBGJHCMB___C___TRYSHOWQUICKPASSHINT_B__46_0_OFFSET UNITYSDK_OFFSET(0xBF84240)
 #define OOHFBGJHCMB___C___TRYSHOWSETTLECONFIRM_B__47_0_OFFSET UNITYSDK_OFFSET(0xBF842B0)
 
+inline static constexpr unsigned int OOHFBGJHCMB___c_TypeDefinitionIndex = 63163;
+
 	class OOHFBGJHCMB___c : public ::System::Object
 	{
 	public:

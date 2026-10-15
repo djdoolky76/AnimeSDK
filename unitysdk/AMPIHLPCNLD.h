@@ -7,6 +7,8 @@ namespace RPG::Client { class WolfBroGunPlayTarget_Boss; }
 #define AMPIHLPCNLD_IDGNPDMICLA_OFFSET UNITYSDK_OFFSET(0x1558EA80)
 #define AMPIHLPCNLD_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0x1558E9A0)
 
+inline static constexpr unsigned int AMPIHLPCNLD_TypeDefinitionIndex = 68702;
+
 	class AMPIHLPCNLD
 	{
 	public:

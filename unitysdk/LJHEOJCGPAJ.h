@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LJHEOJCGPAJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E982440)
 #define LJHEOJCGPAJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9824A0)
 
+inline static constexpr unsigned int LJHEOJCGPAJ_TypeDefinitionIndex = 31531;
+
 	class LJHEOJCGPAJ : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ClearTalkUI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClearTalkUI_TypeDefinitionIndex = 21910;
+
 	class ClearTalkUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

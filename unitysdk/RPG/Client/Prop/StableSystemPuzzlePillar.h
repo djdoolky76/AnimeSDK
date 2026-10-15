@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int StableSystemPuzzlePillar_TypeDefinitionIndex = 78878;
+
 	class StableSystemPuzzlePillar : public ::UnityEngine::MonoBehaviour
 	{
 	public:

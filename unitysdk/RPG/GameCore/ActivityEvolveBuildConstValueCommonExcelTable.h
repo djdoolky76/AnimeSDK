@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityEvolveBuildConstValueCommonExcelTable_TypeDefinitionIndex = 15458;
+
 	class ActivityEvolveBuildConstValueCommonExcelTable : public ::System::Object
 	{
 	public:

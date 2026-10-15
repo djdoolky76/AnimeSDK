@@ -60,6 +60,8 @@ namespace System { class String; }
 #define CHIIPPKECEF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0C7B90)
 #define CHIIPPKECEF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0C7BF0)
 
+inline static constexpr unsigned int CHIIPPKECEF_TypeDefinitionIndex = 26507;
+
 	class CHIIPPKECEF : public ::System::Object
 	{
 	public:

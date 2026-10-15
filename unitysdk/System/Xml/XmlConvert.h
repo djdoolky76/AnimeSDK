@@ -112,6 +112,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlConvert_TypeDefinitionIndex = 1943;
+
 	class XmlConvert : public ::System::Object
 	{
 	public:

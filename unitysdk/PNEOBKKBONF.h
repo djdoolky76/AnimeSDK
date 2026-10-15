@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelGraphComponent; }
 #define PNEOBKKBONF_KBOJANLFKIJ_OFFSET UNITYSDK_OFFSET(0xC335DD0)
 #define PNEOBKKBONF_LHMKCOHPLMN_OFFSET UNITYSDK_OFFSET(0xC335DC0)
 
+inline static constexpr unsigned int PNEOBKKBONF_TypeDefinitionIndex = 60909;
+
 	class PNEOBKKBONF : public ::System::Object
 	{
 	public:

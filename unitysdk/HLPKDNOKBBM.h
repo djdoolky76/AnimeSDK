@@ -40,6 +40,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HLPKDNOKBBM_OKMMLJNNJHL_OFFSET UNITYSDK_OFFSET(0x1C66B770)
 #define HLPKDNOKBBM_OOEEDIKJONP_OFFSET UNITYSDK_OFFSET(0x1C66E190)
 
+inline static constexpr unsigned int HLPKDNOKBBM_TypeDefinitionIndex = 36522;
+
 	class HLPKDNOKBBM : public ::LOEONJJICDK
 	{
 	public:

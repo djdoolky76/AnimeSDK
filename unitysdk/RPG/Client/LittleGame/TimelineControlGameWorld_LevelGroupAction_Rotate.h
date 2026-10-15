@@ -7,6 +7,8 @@
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int TimelineControlGameWorld_LevelGroupAction_Rotate_TypeDefinitionIndex = 42523;
+
 	class TimelineControlGameWorld_LevelGroupAction_Rotate : public ::RPG::Client::LittleGame::TimelineControlGameWorld_LevelGroupAction
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int InitializeLocalInstruction_Reference_TypeDefinitionIndex = 3510;
+
 	class InitializeLocalInstruction_Reference : public ::System::Linq::Expressions::Interpreter::InitializeLocalInstruction
 	{
 	public:

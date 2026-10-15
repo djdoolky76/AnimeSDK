@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityBenefitDailyInfo_TypeDefinitionIndex = 61390;
+
 	class ActivityBenefitDailyInfo : public ::System::Object
 	{
 	public:

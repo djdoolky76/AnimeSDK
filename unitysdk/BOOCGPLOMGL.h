@@ -10,6 +10,8 @@ namespace System::Reflection { class MethodInfo; }
 #define BOOCGPLOMGL_CTOR_OFFSET UNITYSDK_OFFSET(0xC199FE0)
 #define BOOCGPLOMGL_INTERNALINVOKE_OFFSET UNITYSDK_OFFSET(0xC19A060)
 
+inline static constexpr unsigned int BOOCGPLOMGL_TypeDefinitionIndex = 73148;
+
 	class BOOCGPLOMGL : public ::DGCNFOOAFPO
 	{
 	public:

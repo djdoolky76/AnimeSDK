@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int OOHEEFDHPHM_CBLJKOMGOIF_TypeDefinitionIndex = 60936;
+
 	struct alignas(4) OOHEEFDHPHM_CBLJKOMGOIF
 	{
 		::System::Boolean MHCALCBDEKI; // 0x10

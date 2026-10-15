@@ -27,6 +27,8 @@ class LNHACPACCKH;
 #define PKJCKJKKKCA_OKMJFMHHDIO_OFFSET UNITYSDK_OFFSET(0x1C7ED8C0)
 #define PKJCKJKKKCA_PNJODACLLPH_OFFSET UNITYSDK_OFFSET(0x1C7ED750)
 
+inline static constexpr unsigned int PKJCKJKKKCA_TypeDefinitionIndex = 37071;
+
 	class PKJCKJKKKCA : public ::System::Object
 	{
 	public:

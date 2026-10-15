@@ -8,6 +8,8 @@ namespace MiHoYo::SDK::Console::OS { class LoginManagerCX; }
 
 namespace MiHoYo::SDK::Console::OS
 {
+	inline static constexpr unsigned int LoginManagerCX___c__DisplayClass5_0_TypeDefinitionIndex = 9088;
+
 	class LoginManagerCX___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

@@ -41,6 +41,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::IO::Compression
 {
+	inline static constexpr unsigned int GZipStream_TypeDefinitionIndex = 2716;
+
 	class GZipStream : public ::System::IO::Stream
 	{
 	public:

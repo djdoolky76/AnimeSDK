@@ -109,6 +109,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StatisticsComponent_TypeDefinitionIndex = 57633;
+
 	class StatisticsComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

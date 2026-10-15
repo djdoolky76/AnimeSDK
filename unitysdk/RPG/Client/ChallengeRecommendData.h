@@ -18,6 +18,8 @@ namespace RPG::Client { class ChallengeStatisticRecommendLineupData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengeRecommendData_TypeDefinitionIndex = 63129;
+
 	class ChallengeRecommendData : public ::System::Object
 	{
 	public:

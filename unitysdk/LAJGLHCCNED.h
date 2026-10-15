@@ -53,6 +53,8 @@ namespace System { class String; }
 #define LAJGLHCCNED_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8CDC80)
 #define LAJGLHCCNED_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8CDCE0)
 
+inline static constexpr unsigned int LAJGLHCCNED_TypeDefinitionIndex = 25775;
+
 	class LAJGLHCCNED : public ::System::Object
 	{
 	public:

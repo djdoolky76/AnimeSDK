@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceActionGenCurSectionBubbleCell; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceActionGenCurSectionBubbleCell_TypeDefinitionIndex = 18339;
+
 	class CakeRaceActionGenCurSectionBubbleCell : public ::RPG::GameCore::CakeRaceActionBase
 	{
 	public:

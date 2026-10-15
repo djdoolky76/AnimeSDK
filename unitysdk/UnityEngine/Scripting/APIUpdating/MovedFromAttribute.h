@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Scripting::APIUpdating
 {
+	inline static constexpr unsigned int MovedFromAttribute_TypeDefinitionIndex = 4507;
+
 	class MovedFromAttribute : public ::System::Attribute
 	{
 	public:

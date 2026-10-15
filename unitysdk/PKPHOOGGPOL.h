@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PKPHOOGGPOL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF98010)
 #define PKPHOOGGPOL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF98070)
 
+inline static constexpr unsigned int PKPHOOGGPOL_TypeDefinitionIndex = 31688;
+
 	class PKPHOOGGPOL : public ::System::Object
 	{
 	public:

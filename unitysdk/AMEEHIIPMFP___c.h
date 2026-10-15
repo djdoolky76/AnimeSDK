@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AMEEHIIPMFP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E51C9A0)
 #define AMEEHIIPMFP___C___CCTOR_B__58_0_OFFSET UNITYSDK_OFFSET(0x1E51C9B0)
 
+inline static constexpr unsigned int AMEEHIIPMFP___c_TypeDefinitionIndex = 29638;
+
 	class AMEEHIIPMFP___c : public ::System::Object
 	{
 	public:

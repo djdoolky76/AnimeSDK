@@ -12,6 +12,8 @@ namespace UnityEngine { class RectTransform; }
 #define HKHAKEGOLDK_CLCBKHJJPDL_OFFSET UNITYSDK_OFFSET(0x15D43E70)
 #define HKHAKEGOLDK_CTOR_OFFSET UNITYSDK_OFFSET(0x15D44120)
 
+inline static constexpr unsigned int HKHAKEGOLDK_TypeDefinitionIndex = 74759;
+
 	class HKHAKEGOLDK : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace RPG::Client { class TAComponetStablelizerContorlMonoPlugin; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TAComponetStablelizerContorlBehavior_TypeDefinitionIndex = 70382;
+
 	class TAComponetStablelizerContorlBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

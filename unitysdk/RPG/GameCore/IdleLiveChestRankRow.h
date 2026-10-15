@@ -9,6 +9,8 @@ namespace RPG::GameCore { class IdleLiveChestRankRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveChestRankRow_TypeDefinitionIndex = 11748;
+
 	class IdleLiveChestRankRow : public ::System::Object
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class Action; }
 #define LMKDIBLJBOG_PMFBJDHPFPB_OFFSET UNITYSDK_OFFSET(0xB7CD6F0)
 #define LMKDIBLJBOG_REMOVE_ONLOADINGSTART_OFFSET UNITYSDK_OFFSET(0xB7CD420)
 
+inline static constexpr unsigned int LMKDIBLJBOG_TypeDefinitionIndex = 76440;
+
 	class LMKDIBLJBOG : public ::System::Object
 	{
 	public:

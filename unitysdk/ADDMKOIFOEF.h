@@ -25,6 +25,8 @@ namespace System { class String; }
 #define ADDMKOIFOEF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDE0EC0)
 #define ADDMKOIFOEF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDE0F20)
 
+inline static constexpr unsigned int ADDMKOIFOEF_TypeDefinitionIndex = 30698;
+
 	class ADDMKOIFOEF : public ::System::Object
 	{
 	public:

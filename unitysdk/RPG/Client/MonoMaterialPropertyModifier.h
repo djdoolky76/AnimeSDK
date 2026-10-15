@@ -14,6 +14,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoMaterialPropertyModifier_TypeDefinitionIndex = 68506;
+
 	class MonoMaterialPropertyModifier : public ::UnityEngine::MonoBehaviour
 	{
 	public:

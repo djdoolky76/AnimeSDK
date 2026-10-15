@@ -5,6 +5,8 @@
 #define JBLCKECLODH_CTOR_OFFSET UNITYSDK_OFFSET(0x16571B40)
 #define JBLCKECLODH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16571A20)
 
+inline static constexpr unsigned int JBLCKECLODH_TypeDefinitionIndex = 68599;
+
 	class JBLCKECLODH
 	{
 	public:

@@ -119,6 +119,8 @@ namespace UnityEngine { class RectOffset; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int JSONNode_TypeDefinitionIndex = 40668;
+
 	class JSONNode : public ::System::Object
 	{
 	public:

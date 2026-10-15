@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonopolyEventOptionExcelTable_TypeDefinitionIndex = 12040;
+
 	class MonopolyEventOptionExcelTable : public ::System::Object
 	{
 	public:

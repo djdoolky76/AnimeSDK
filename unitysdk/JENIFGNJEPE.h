@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define JENIFGNJEPE_CTOR_OFFSET UNITYSDK_OFFSET(0x16641C00)
 
+inline static constexpr unsigned int JENIFGNJEPE_TypeDefinitionIndex = 58994;
+
 	class JENIFGNJEPE : public ::System::Object
 	{
 	public:

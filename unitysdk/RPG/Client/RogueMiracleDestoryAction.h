@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMiracleDestoryAction_TypeDefinitionIndex = 67020;
+
 	class RogueMiracleDestoryAction : public ::System::Object
 	{
 	public:

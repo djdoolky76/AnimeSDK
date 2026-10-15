@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NotifyOverrideFuncBtnParam_TypeDefinitionIndex = 53236;
+
 	class NotifyOverrideFuncBtnParam : public ::System::Object
 	{
 	public:

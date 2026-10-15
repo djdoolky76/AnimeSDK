@@ -10,6 +10,8 @@ namespace System { class String; }
 #define CINFANPAMGG_JBGIFBGMLMF_OFFSET UNITYSDK_OFFSET(0xCF8F080)
 #define CINFANPAMGG_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0xCF8F010)
 
+inline static constexpr unsigned int CINFANPAMGG_TypeDefinitionIndex = 73364;
+
 	class CINFANPAMGG : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 #define BPELBPKAMCI_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0xC1A3D60)
 #define BPELBPKAMCI_IGBFHCJEHNK_OFFSET UNITYSDK_OFFSET(0xC1A3E00)
 
+inline static constexpr unsigned int BPELBPKAMCI_TypeDefinitionIndex = 73305;
+
 	class BPELBPKAMCI : public ::System::Object
 	{
 	public:

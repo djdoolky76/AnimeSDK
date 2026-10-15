@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftTalentedPartnerHeadControl_TypeDefinitionIndex = 79831;
+
 	class MechCraftTalentedPartnerHeadControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

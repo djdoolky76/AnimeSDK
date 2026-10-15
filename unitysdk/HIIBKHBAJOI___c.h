@@ -11,6 +11,8 @@ namespace System { template <typename T> class Func_1; }
 #define HIIBKHBAJOI___C__CREATEITEM_B__1_1_OFFSET UNITYSDK_OFFSET(0x15CE5C50)
 #define HIIBKHBAJOI___C__CREATEITEM_B__1_2_OFFSET UNITYSDK_OFFSET(0x15CE5CF0)
 
+inline static constexpr unsigned int HIIBKHBAJOI___c_TypeDefinitionIndex = 65565;
+
 	class HIIBKHBAJOI___c : public ::System::Object
 	{
 	public:

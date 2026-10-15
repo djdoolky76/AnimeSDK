@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define DCNENMDFKIG_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C5E7F40)
 #define DCNENMDFKIG_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C5E7ED0)
 
+inline static constexpr unsigned int DCNENMDFKIG_TypeDefinitionIndex = 36250;
+
 	class DCNENMDFKIG : public ::System::MulticastDelegate
 	{
 	public:

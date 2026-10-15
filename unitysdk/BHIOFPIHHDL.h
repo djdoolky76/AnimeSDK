@@ -7,6 +7,8 @@
 #define BHIOFPIHHDL_EQUALS_OFFSET UNITYSDK_OFFSET(0xB48CEA0)
 #define BHIOFPIHHDL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xB48CF00)
 
+inline static constexpr unsigned int BHIOFPIHHDL_TypeDefinitionIndex = 57585;
+
 	class BHIOFPIHHDL : public ::System::Object
 	{
 	public:

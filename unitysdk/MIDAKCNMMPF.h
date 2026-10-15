@@ -21,6 +21,8 @@ namespace RPG::GameCore { class FiveDimMusicInfo; }
 #define MIDAKCNMMPF_PPNCIPNDEFA_OFFSET UNITYSDK_OFFSET(0x1C92AF20)
 #define MIDAKCNMMPF_SET_LENGTH_OFFSET UNITYSDK_OFFSET(0x1C92AEA0)
 
+inline static constexpr unsigned int MIDAKCNMMPF_TypeDefinitionIndex = 43639;
+
 	class MIDAKCNMMPF : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@ namespace System { class Object; }
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int Hashtable_bucket_TypeDefinitionIndex = 1473;
+
 	struct alignas(8) Hashtable_bucket
 	{
 		::System::Object* key; // 0x10

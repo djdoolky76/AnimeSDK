@@ -25,6 +25,8 @@ namespace System { class String; }
 #define BKPFBNADBFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF5C520)
 #define BKPFBNADBFO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF5C580)
 
+inline static constexpr unsigned int BKPFBNADBFO_TypeDefinitionIndex = 30468;
+
 	class BKPFBNADBFO : public ::System::Object
 	{
 	public:

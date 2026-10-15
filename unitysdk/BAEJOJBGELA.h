@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BAEJOJBGELA_CTOR_OFFSET UNITYSDK_OFFSET(0x15BD9490)
 #define BAEJOJBGELA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15BD94C0)
 
+inline static constexpr unsigned int BAEJOJBGELA_TypeDefinitionIndex = 52104;
+
 	class BAEJOJBGELA
 	{
 	public:

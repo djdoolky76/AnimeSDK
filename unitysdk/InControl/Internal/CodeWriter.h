@@ -18,6 +18,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace InControl::Internal
 {
+	inline static constexpr unsigned int CodeWriter_TypeDefinitionIndex = 40921;
+
 	class CodeWriter : public ::System::Object
 	{
 	public:

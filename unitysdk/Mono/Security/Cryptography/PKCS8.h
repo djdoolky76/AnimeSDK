@@ -4,6 +4,8 @@
 
 namespace Mono::Security::Cryptography
 {
+	inline static constexpr unsigned int PKCS8_TypeDefinitionIndex = 72;
+
 	class PKCS8 : public ::System::Object
 	{
 	public:

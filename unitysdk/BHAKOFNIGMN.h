@@ -20,6 +20,8 @@ namespace UnityEngine::UI { class Image; }
 #define BHAKOFNIGMN_ONCNALEHHKK_OFFSET UNITYSDK_OFFSET(0xB46EA50)
 #define BHAKOFNIGMN__ONBIND_OFFSET UNITYSDK_OFFSET(0xB46E530)
 
+inline static constexpr unsigned int BHAKOFNIGMN_TypeDefinitionIndex = 71272;
+
 	class BHAKOFNIGMN : public ::FMPCODLIOLG
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define KCIDOKIGACH_REMOVE_HANDLEEXIT_OFFSET UNITYSDK_OFFSET(0xB3381B0)
 #define KCIDOKIGACH___ONEXIT_B__33_0_OFFSET UNITYSDK_OFFSET(0xB338550)
 
+inline static constexpr unsigned int KCIDOKIGACH_TypeDefinitionIndex = 79685;
+
 	class KCIDOKIGACH : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPG::GameCore { class ChenLingBattleBulletView; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleBulletConfig_TypeDefinitionIndex = 15710;
+
 	class ChenLingBattleBulletConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

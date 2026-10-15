@@ -17,6 +17,8 @@ namespace RPG::GameCore { class ActivityDiceCombatAvatarRow; }
 #define HMECAJDGNFF_LOCLEOMHGLA_OFFSET UNITYSDK_OFFSET(0x1C66FC90)
 #define HMECAJDGNFF_PEJFNJPAKGB_OFFSET UNITYSDK_OFFSET(0x1C66F8C0)
 
+inline static constexpr unsigned int HMECAJDGNFF_TypeDefinitionIndex = 36539;
+
 	class HMECAJDGNFF : public ::DHAIADCDCCG
 	{
 	public:

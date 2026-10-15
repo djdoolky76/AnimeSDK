@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace System::Runtime::Remoting
 {
+	inline static constexpr unsigned int TypeEntry_TypeDefinitionIndex = 1227;
+
 	class TypeEntry : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace UnityEngine { class Light; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RenderSettings_TypeDefinitionIndex = 4138;
+
 	class RenderSettings : public ::UnityEngine::Object
 	{
 	public:

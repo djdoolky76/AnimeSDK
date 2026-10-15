@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AGMKEJJJGFM_GET_DIALOGUELIST_OFFSET UNITYSDK_OFFSET(0xCF40BA0)
 #define AGMKEJJJGFM_SET_DIALOGUELIST_OFFSET UNITYSDK_OFFSET(0xCF40BB0)
 
+inline static constexpr unsigned int AGMKEJJJGFM_TypeDefinitionIndex = 62993;
+
 	class AGMKEJJJGFM : public ::System::Object
 	{
 	public:

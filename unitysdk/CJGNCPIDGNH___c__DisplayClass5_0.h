@@ -13,6 +13,8 @@ namespace System { class Exception; }
 #define CJGNCPIDGNH___C__DISPLAYCLASS5_0___DOJOINLOBBY_B__1_OFFSET UNITYSDK_OFFSET(0xD211A00)
 #define CJGNCPIDGNH___C__DISPLAYCLASS5_0___DOJOINLOBBY_B__2_OFFSET UNITYSDK_OFFSET(0xD211CC0)
 
+inline static constexpr unsigned int CJGNCPIDGNH___c__DisplayClass5_0_TypeDefinitionIndex = 80274;
+
 	class CJGNCPIDGNH___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

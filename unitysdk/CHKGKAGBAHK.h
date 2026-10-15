@@ -11,6 +11,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 #define CHKGKAGBAHK_JBGIFBGMLMF_OFFSET UNITYSDK_OFFSET(0xCF54A40)
 #define CHKGKAGBAHK_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0xCF549D0)
 
+inline static constexpr unsigned int CHKGKAGBAHK_TypeDefinitionIndex = 73367;
+
 	class CHKGKAGBAHK : public ::System::Object
 	{
 	public:

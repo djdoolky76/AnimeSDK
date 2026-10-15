@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DNMPPNELDBD_CTOR_OFFSET UNITYSDK_OFFSET(0x11FDA910)
 #define DNMPPNELDBD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11FDA940)
 
+inline static constexpr unsigned int DNMPPNELDBD_TypeDefinitionIndex = 54719;
+
 	class DNMPPNELDBD
 	{
 	public:

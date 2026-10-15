@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace UnityEngine::miHoYo
 {
+	inline static constexpr unsigned int EngineVersion_TypeDefinitionIndex = 6063;
+
 	class EngineVersion : public ::System::Object
 	{
 	public:

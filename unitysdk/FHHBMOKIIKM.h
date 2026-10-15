@@ -39,6 +39,8 @@ namespace RPGTools::Timeline::Story { class BaseStoryMoveWalkData; }
 #define FHHBMOKIIKM_NJKCMKCGJFA_OFFSET UNITYSDK_OFFSET(0x1577EFC0)
 #define FHHBMOKIIKM_OPONADPFICO_OFFSET UNITYSDK_OFFSET(0x1577F290)
 
+inline static constexpr unsigned int FHHBMOKIIKM_TypeDefinitionIndex = 53607;
+
 	class FHHBMOKIIKM : public ::System::Object
 	{
 	public:

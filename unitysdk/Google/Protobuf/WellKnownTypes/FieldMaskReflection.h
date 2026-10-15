@@ -8,6 +8,8 @@ namespace Google::Protobuf::Reflection { class FileDescriptor; }
 
 namespace Google::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int FieldMaskReflection_TypeDefinitionIndex = 5423;
+
 	class FieldMaskReflection : public ::System::Object
 	{
 	public:

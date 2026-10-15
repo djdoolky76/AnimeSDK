@@ -138,6 +138,8 @@ namespace UnityEngine { class GameObject; }
 #define KGDADKNPPOL_SET_VISIBLEMIDDLEOWNERSTREAMINGBLOCKS_OFFSET UNITYSDK_OFFSET(0xB3DB3A0)
 #define KGDADKNPPOL_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB3CFEF0)
 
+inline static constexpr unsigned int KGDADKNPPOL_TypeDefinitionIndex = 62148;
+
 	class KGDADKNPPOL : public ::System::Object
 	{
 	public:

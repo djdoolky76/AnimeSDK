@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PSDelegate_ActivityEndDelegate_TypeDefinitionIndex = 7753;
+
 	class PSDelegate_ActivityEndDelegate : public ::System::MulticastDelegate
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ContainerStateToSeedStateConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ContainerAndSeedBind_TypeDefinitionIndex = 17572;
+
 	class ContainerAndSeedBind : public ::RPG::GameCore::JsonConfig
 	{
 	public:

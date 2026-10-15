@@ -15,6 +15,8 @@ namespace RPG::Client { class PlayerGridFightRecordData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayerGridFightRecordData_TypeDefinitionIndex = 64284;
+
 	class PlayerGridFightRecordData : public ::System::Object
 	{
 	public:

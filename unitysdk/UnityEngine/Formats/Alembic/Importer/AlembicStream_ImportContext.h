@@ -8,6 +8,8 @@ namespace UnityEngine::Formats::Alembic::Importer { class AlembicTreeNode; }
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicStream_ImportContext_TypeDefinitionIndex = 45865;
+
 	class AlembicStream_ImportContext : public ::System::Object
 	{
 	public:

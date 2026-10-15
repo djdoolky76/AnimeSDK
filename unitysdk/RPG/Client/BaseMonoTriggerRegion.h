@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BaseMonoTriggerRegion_TypeDefinitionIndex = 68621;
+
 	class BaseMonoTriggerRegion : public ::UnityEngine::MonoBehaviour
 	{
 	public:

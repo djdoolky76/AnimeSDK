@@ -26,6 +26,8 @@ namespace RPG::GameCore { class TrainPartyCardEffectConfig; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyCardData_TypeDefinitionIndex = 74316;
+
 	class TrainPartyCardData : public ::System::Object
 	{
 	public:

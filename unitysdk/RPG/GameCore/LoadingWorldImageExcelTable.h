@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoadingWorldImageExcelTable_TypeDefinitionIndex = 13990;
+
 	class LoadingWorldImageExcelTable : public ::System::Object
 	{
 	public:

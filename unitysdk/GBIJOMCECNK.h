@@ -7,6 +7,8 @@
 #define GBIJOMCECNK_GFEGBKDDDNM_OFFSET UNITYSDK_OFFSET(0x15951060)
 #define GBIJOMCECNK_JJCNGHLNDJC_OFFSET UNITYSDK_OFFSET(0x15951000)
 
+inline static constexpr unsigned int GBIJOMCECNK_TypeDefinitionIndex = 59634;
+
 	class GBIJOMCECNK : public ::System::Object
 	{
 	public:

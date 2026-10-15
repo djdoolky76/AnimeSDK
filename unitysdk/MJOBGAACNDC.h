@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MJOBGAACNDC_SET_ID_OFFSET UNITYSDK_OFFSET(0xB976A40)
 #define MJOBGAACNDC_SET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xB976AA0)
 
+inline static constexpr unsigned int MJOBGAACNDC_TypeDefinitionIndex = 74604;
+
 	class MJOBGAACNDC : public ::System::Object
 	{
 	public:

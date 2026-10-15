@@ -17,6 +17,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int ArgumentException_TypeDefinitionIndex = 192;
+
 	class ArgumentException : public ::System::SystemException
 	{
 	public:

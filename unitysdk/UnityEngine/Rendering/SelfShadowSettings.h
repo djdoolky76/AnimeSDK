@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int SelfShadowSettings_TypeDefinitionIndex = 4889;
+
 	struct alignas(4) SelfShadowSettings
 	{
 		::System::Boolean enableSelfShadow; // 0x10

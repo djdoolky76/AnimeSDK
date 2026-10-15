@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int JSONNode_KeyEnumerator_TypeDefinitionIndex = 40672;
+
 	struct alignas(4) JSONNode_KeyEnumerator
 	{
 		::HoudiniEngineUnity::JSONNode_Enumerator m_Enumerator; // 0x10

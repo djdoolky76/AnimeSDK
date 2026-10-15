@@ -7,6 +7,8 @@ class OMNJCDDMLHI;
 #define HBJFGFAFGDN_CTOR_OFFSET UNITYSDK_OFFSET(0x15C0AD40)
 #define HBJFGFAFGDN_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15C0AD50)
 
+inline static constexpr unsigned int HBJFGFAFGDN_TypeDefinitionIndex = 77964;
+
 	class HBJFGFAFGDN : public ::System::Object
 	{
 	public:

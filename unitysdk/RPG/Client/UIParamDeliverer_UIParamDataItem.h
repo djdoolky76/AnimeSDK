@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIParamDeliverer_UIParamDataItem_TypeDefinitionIndex = 69111;
+
 	class UIParamDeliverer_UIParamDataItem : public ::System::Object
 	{
 	public:

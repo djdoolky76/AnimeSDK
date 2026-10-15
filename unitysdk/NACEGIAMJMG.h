@@ -29,6 +29,8 @@ namespace System { class String; }
 #define NACEGIAMJMG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EABE4B0)
 #define NACEGIAMJMG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EABE510)
 
+inline static constexpr unsigned int NACEGIAMJMG_TypeDefinitionIndex = 27931;
+
 	class NACEGIAMJMG : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MessageContentEmojiBlock_TypeDefinitionIndex = 63239;
+
 	class MessageContentEmojiBlock : public ::RPG::Client::MessageContentBlock
 	{
 	public:

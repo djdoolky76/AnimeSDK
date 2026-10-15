@@ -22,6 +22,8 @@ namespace RPG::GameCore { class RogueMagicUnitRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueMagicUnitRow_TypeDefinitionIndex = 14884;
+
 	class RogueMagicUnitRow : public ::System::Object
 	{
 	public:

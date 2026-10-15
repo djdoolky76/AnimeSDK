@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelMasterChallengeTeamAdapter_TypeDefinitionIndex = 63302;
+
 	class ChimeraDuelMasterChallengeTeamAdapter : public ::System::Object
 	{
 	public:

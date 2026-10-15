@@ -13,6 +13,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StateRemainTimeTrigger_TypeDefinitionIndex = 57486;
+
 	class StateRemainTimeTrigger : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:

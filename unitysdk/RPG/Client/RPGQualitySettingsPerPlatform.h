@@ -8,6 +8,8 @@ namespace RPG::CustomRP { class CRPGraphicsSettingsData_LocalLightLOD; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGQualitySettingsPerPlatform_TypeDefinitionIndex = 67939;
+
 	class RPGQualitySettingsPerPlatform : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int ConsoleColor_TypeDefinitionIndex = 214;
+
 	enum class ConsoleColor : ::System::Int32
 	{
 		Black = 0,

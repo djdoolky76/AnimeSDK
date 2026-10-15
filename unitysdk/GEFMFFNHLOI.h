@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GEFMFFNHLOI_LLIMAMJMPMN_OFFSET UNITYSDK_OFFSET(0x159D3930)
 #define GEFMFFNHLOI_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x159D39F0)
 
+inline static constexpr unsigned int GEFMFFNHLOI_TypeDefinitionIndex = 70194;
+
 	class GEFMFFNHLOI : public ::System::Object
 	{
 	public:

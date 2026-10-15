@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareTeamLeaderBodySize_TypeDefinitionIndex = 21105;
+
 	class ByCompareTeamLeaderBodySize : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

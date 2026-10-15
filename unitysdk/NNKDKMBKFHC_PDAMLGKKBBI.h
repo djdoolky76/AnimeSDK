@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+inline static constexpr unsigned int NNKDKMBKFHC_PDAMLGKKBBI_TypeDefinitionIndex = 53510;
+
 	struct alignas(4) NNKDKMBKFHC_PDAMLGKKBBI
 	{
 		::System::Boolean PIFAKJFLGFH; // 0x10

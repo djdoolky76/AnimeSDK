@@ -11,6 +11,8 @@ namespace System { class String; }
 #define PKHNHEBKPPI_LAMDCHCLEAA_OFFSET UNITYSDK_OFFSET(0xDE8D0)
 #define PKHNHEBKPPI_MPHNMOGNEHL_OFFSET UNITYSDK_OFFSET(0xDE830)
 
+inline static constexpr unsigned int PKHNHEBKPPI_TypeDefinitionIndex = 73369;
+
 	struct alignas(8) PKHNHEBKPPI
 	{
 		::System::String* DKEFJBAMMIO; // 0x10

@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRChaperone__GetCalibrationState_TypeDefinitionIndex = 38985;
+
 	class IVRChaperone__GetCalibrationState : public ::System::MulticastDelegate
 	{
 	public:

@@ -57,6 +57,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define FLDCOAJPMEP_SET_TOTALREUSES_OFFSET UNITYSDK_OFFSET(0x1582D000)
 #define FLDCOAJPMEP_SET_TOTALSYNCREQUESTS_OFFSET UNITYSDK_OFFSET(0x1582CFA0)
 
+inline static constexpr unsigned int FLDCOAJPMEP_TypeDefinitionIndex = 77845;
+
 	class FLDCOAJPMEP : public ::System::Object
 	{
 	public:

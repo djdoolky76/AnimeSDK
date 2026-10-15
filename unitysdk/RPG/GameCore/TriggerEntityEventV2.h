@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TriggerEntityEventV2; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerEntityEventV2_TypeDefinitionIndex = 20723;
+
 	class TriggerEntityEventV2 : public ::RPG::GameCore::TaskConfig
 	{
 	public:

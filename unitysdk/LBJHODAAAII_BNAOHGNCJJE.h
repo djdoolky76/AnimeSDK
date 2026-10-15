@@ -5,6 +5,8 @@ namespace System { class String; }
 #define LBJHODAAAII_BNAOHGNCJJE_CTOR_OFFSET UNITYSDK_OFFSET(0x111F0)
 #define LBJHODAAAII_BNAOHGNCJJE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17750)
 
+inline static constexpr unsigned int LBJHODAAAII_BNAOHGNCJJE_TypeDefinitionIndex = 47271;
+
 	struct alignas(4) LBJHODAAAII_BNAOHGNCJJE
 	{
 		::System::Int32 GAOAMKBNDPN; // 0x10

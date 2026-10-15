@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int NetworkResponseModelEx_TypeDefinitionIndex = 8178;
+
 	class NetworkResponseModelEx : public ::System::Object
 	{
 	public:

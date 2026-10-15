@@ -11,6 +11,8 @@ namespace System { class IDisposable; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 
+inline static constexpr unsigned int DLINHEPHECJ_TypeDefinitionIndex = 49793;
+
 	class DLINHEPHECJ : public ::System::Object
 	{
 	public:

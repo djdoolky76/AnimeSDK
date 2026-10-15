@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define LOPKOIMKGOF_BELPNMDCFEM_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB813EF0)
 #define LOPKOIMKGOF_BELPNMDCFEM_INVOKE_OFFSET UNITYSDK_OFFSET(0xB812EF0)
 
+inline static constexpr unsigned int LOPKOIMKGOF_BELPNMDCFEM_TypeDefinitionIndex = 78788;
+
 	class LOPKOIMKGOF_BELPNMDCFEM : public ::System::MulticastDelegate
 	{
 	public:

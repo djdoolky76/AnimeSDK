@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChangeSkillUIDisplay_TypeDefinitionIndex = 23681;
+
 	class ChangeSkillUIDisplay : public ::RPG::GameCore::TaskConfig
 	{
 	public:

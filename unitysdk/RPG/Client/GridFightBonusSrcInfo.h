@@ -12,6 +12,8 @@ namespace RPG::Client { class GridFightPortalData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightBonusSrcInfo_TypeDefinitionIndex = 64388;
+
 	class GridFightBonusSrcInfo : public ::System::Object
 	{
 	public:

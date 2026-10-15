@@ -31,6 +31,8 @@ namespace System { class String; }
 #define DPBMNEMLMBI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E209E30)
 #define DPBMNEMLMBI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E209E90)
 
+inline static constexpr unsigned int DPBMNEMLMBI_TypeDefinitionIndex = 26318;
+
 	class DPBMNEMLMBI : public ::System::Object
 	{
 	public:

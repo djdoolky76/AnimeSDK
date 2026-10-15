@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace System
 {
+	inline static constexpr unsigned int TimeZoneInfo___c_TypeDefinitionIndex = 349;
+
 	class TimeZoneInfo___c : public ::System::Object
 	{
 	public:

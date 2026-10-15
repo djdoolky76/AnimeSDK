@@ -31,6 +31,8 @@ namespace System { class String; }
 #define BBKDJPONHPL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7C7B80)
 #define BBKDJPONHPL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7C7BE0)
 
+inline static constexpr unsigned int BBKDJPONHPL_TypeDefinitionIndex = 34639;
+
 	class BBKDJPONHPL : public ::System::Object
 	{
 	public:

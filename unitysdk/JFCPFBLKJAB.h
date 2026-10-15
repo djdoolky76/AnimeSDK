@@ -43,6 +43,8 @@ namespace System { class String; }
 #define JFCPFBLKJAB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E725110)
 #define JFCPFBLKJAB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E725170)
 
+inline static constexpr unsigned int JFCPFBLKJAB_TypeDefinitionIndex = 25708;
+
 	class JFCPFBLKJAB : public ::System::Object
 	{
 	public:

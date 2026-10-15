@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 #define FCFLKPABIOM_PEECNCABGFD_OFFSET UNITYSDK_OFFSET(0x156B9130)
 #define FCFLKPABIOM_USELIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0x156B97B0)
 
+inline static constexpr unsigned int FCFLKPABIOM_TypeDefinitionIndex = 69273;
+
 	class FCFLKPABIOM : public ::System::Object
 	{
 	public:

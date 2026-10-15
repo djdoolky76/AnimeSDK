@@ -6,6 +6,8 @@ namespace System { class String; }
 #define CDKEBLNOEPH_CTOR_OFFSET UNITYSDK_OFFSET(0xC76BE10)
 #define CDKEBLNOEPH_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC76BD90)
 
+inline static constexpr unsigned int CDKEBLNOEPH_TypeDefinitionIndex = 59623;
+
 	class CDKEBLNOEPH : public ::System::Object
 	{
 	public:

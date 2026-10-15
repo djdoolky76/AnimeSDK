@@ -14,6 +14,8 @@ namespace System::Collections { class IList; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int NonGenericInterfaceListFormatter_TypeDefinitionIndex = 7403;
+
 	class NonGenericInterfaceListFormatter : public ::System::Object
 	{
 	public:

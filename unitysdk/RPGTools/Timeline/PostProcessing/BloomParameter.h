@@ -6,6 +6,8 @@ namespace RPG::CustomRP { class AllBloomStage; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int BloomParameter_TypeDefinitionIndex = 48549;
+
 	struct alignas(8) BloomParameter
 	{
 		::System::Single BloomThreshold; // 0x10

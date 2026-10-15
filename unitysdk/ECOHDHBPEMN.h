@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ECOHDHBPEMN_CTOR_OFFSET UNITYSDK_OFFSET(0x12D16490)
 #define ECOHDHBPEMN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12D16500)
 
+inline static constexpr unsigned int ECOHDHBPEMN_TypeDefinitionIndex = 59135;
+
 	class ECOHDHBPEMN
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FreeStyleCharacterInfoConfigRow_TypeDefinitionIndex = 13301;
+
 	class FreeStyleCharacterInfoConfigRow : public ::System::Object
 	{
 	public:

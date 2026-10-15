@@ -6,6 +6,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int BloomStage_TypeDefinitionIndex = 37787;
+
 	class BloomStage : public ::System::Object
 	{
 	public:

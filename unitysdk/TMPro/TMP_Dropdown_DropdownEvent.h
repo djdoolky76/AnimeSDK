@@ -5,6 +5,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_Dropdown_DropdownEvent_TypeDefinitionIndex = 44564;
+
 	class TMP_Dropdown_DropdownEvent
 	{
 	public:

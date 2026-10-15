@@ -25,6 +25,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int GridItemPool_TypeDefinitionIndex = 47648;
+
 	class GridItemPool : public ::System::Object
 	{
 	public:

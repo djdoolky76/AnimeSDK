@@ -20,6 +20,8 @@ namespace System::Resources { class FastResourceComparer; }
 
 namespace System::Resources
 {
+	inline static constexpr unsigned int FastResourceComparer_TypeDefinitionIndex = 516;
+
 	class FastResourceComparer : public ::System::Object
 	{
 	public:

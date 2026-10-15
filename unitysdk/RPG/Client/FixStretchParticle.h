@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FixStretchParticle_TypeDefinitionIndex = 70593;
+
 	class FixStretchParticle
 	{
 	public:

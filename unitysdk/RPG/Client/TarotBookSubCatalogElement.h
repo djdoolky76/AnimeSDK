@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TarotBookSubCatalogElement_TypeDefinitionIndex = 72464;
+
 	class TarotBookSubCatalogElement
 	{
 	public:

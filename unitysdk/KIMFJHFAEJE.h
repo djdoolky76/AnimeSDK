@@ -7,6 +7,8 @@ namespace System { class String; }
 #define KIMFJHFAEJE_MJKMLOELJHO_OFFSET UNITYSDK_OFFSET(0xB435A80)
 #define KIMFJHFAEJE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x14ED0)
 
+inline static constexpr unsigned int KIMFJHFAEJE_TypeDefinitionIndex = 64034;
+
 	struct alignas(4) KIMFJHFAEJE
 	{
 		::MOHNIMLCODA DCMLEEPIBNA; // 0x10

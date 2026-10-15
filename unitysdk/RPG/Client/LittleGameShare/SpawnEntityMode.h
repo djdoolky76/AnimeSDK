@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int SpawnEntityMode_TypeDefinitionIndex = 36913;
+
 	enum class SpawnEntityMode : ::System::Byte
 	{
 		Unknown = 0,

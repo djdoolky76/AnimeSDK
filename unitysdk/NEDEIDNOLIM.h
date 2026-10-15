@@ -30,6 +30,8 @@ namespace System { class String; }
 #define NEDEIDNOLIM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAF0BC0)
 #define NEDEIDNOLIM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAF0C20)
 
+inline static constexpr unsigned int NEDEIDNOLIM_TypeDefinitionIndex = 33513;
+
 	class NEDEIDNOLIM : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define ECPHOKOPKBP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E259A60)
 #define ECPHOKOPKBP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E259AC0)
 
+inline static constexpr unsigned int ECPHOKOPKBP_TypeDefinitionIndex = 34406;
+
 	class ECPHOKOPKBP : public ::System::Object
 	{
 	public:

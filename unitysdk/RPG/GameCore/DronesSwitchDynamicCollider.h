@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DronesSwitchDynamicCollider_TypeDefinitionIndex = 20373;
+
 	class DronesSwitchDynamicCollider : public ::RPG::GameCore::TaskConfig
 	{
 	public:

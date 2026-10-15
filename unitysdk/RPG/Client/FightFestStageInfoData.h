@@ -24,6 +24,8 @@ namespace RPG::GameCore { class FightFestStageInfoRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FightFestStageInfoData_TypeDefinitionIndex = 64184;
+
 	class FightFestStageInfoData : public ::System::Object
 	{
 	public:

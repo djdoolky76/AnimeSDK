@@ -6,6 +6,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExAcfDebug_CategoryInfoForMarshaling_TypeDefinitionIndex = 40185;
+
 	struct alignas(4) CriAtomExAcfDebug_CategoryInfoForMarshaling
 	{
 		::System::UInt32 groupNo; // 0x10

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitEntityArtLoad; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitEntityArtLoad_TypeDefinitionIndex = 21955;
+
 	class WaitEntityArtLoad : public ::RPG::GameCore::TaskConfig
 	{
 	public:

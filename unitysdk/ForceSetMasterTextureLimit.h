@@ -5,6 +5,8 @@
 #define FORCESETMASTERTEXTURELIMIT_CTOR_OFFSET UNITYSDK_OFFSET(0x15933DA0)
 #define FORCESETMASTERTEXTURELIMIT_GIFENDBHOIH_OFFSET UNITYSDK_OFFSET(0x15933D50)
 
+inline static constexpr unsigned int ForceSetMasterTextureLimit_TypeDefinitionIndex = 47589;
+
 	class ForceSetMasterTextureLimit : public ::UnityEngine::MonoBehaviour
 	{
 	public:

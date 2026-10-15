@@ -16,6 +16,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MainMissionData___c_TypeDefinitionIndex = 66131;
+
 	class MainMissionData___c : public ::System::Object
 	{
 	public:

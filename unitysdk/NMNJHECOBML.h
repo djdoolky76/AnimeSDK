@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NMNJHECOBML_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBC91410)
 #define NMNJHECOBML_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC90910)
 
+inline static constexpr unsigned int NMNJHECOBML_TypeDefinitionIndex = 52907;
+
 	class NMNJHECOBML
 	{
 	public:

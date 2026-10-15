@@ -21,6 +21,8 @@ namespace System::Diagnostics::Tracing { class EventWrittenEventArgs; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int EventListener_TypeDefinitionIndex = 1688;
+
 	class EventListener : public ::System::Object
 	{
 	public:

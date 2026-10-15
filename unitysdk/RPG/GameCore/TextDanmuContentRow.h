@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TextDanmuContentRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TextDanmuContentRow_TypeDefinitionIndex = 15190;
+
 	class TextDanmuContentRow : public ::System::Object
 	{
 	public:

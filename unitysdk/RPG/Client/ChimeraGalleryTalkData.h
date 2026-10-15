@@ -13,6 +13,8 @@ namespace System { class Nullable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraGalleryTalkData_TypeDefinitionIndex = 63427;
+
 	class ChimeraGalleryTalkData : public ::System::Object
 	{
 	public:

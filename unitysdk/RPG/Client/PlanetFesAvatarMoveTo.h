@@ -10,6 +10,8 @@ namespace RPG::Client { class PlanetFesAvatarMoveTo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesAvatarMoveTo_TypeDefinitionIndex = 10281;
+
 	class PlanetFesAvatarMoveTo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

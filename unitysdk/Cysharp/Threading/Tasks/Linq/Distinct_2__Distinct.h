@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Distinct_2__Distinct_TypeDefinitionIndex = 45339;
+
 	template <typename T1, typename T2>
 	class Distinct_2__Distinct
 	{

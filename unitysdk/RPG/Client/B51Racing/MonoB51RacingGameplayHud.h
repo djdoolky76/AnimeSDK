@@ -45,6 +45,8 @@ namespace System { class String; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int MonoB51RacingGameplayHud_TypeDefinitionIndex = 81891;
+
 	class MonoB51RacingGameplayHud : public ::Sofa::BaseSofaControl
 	{
 	public:

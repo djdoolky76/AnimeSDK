@@ -19,6 +19,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2BitSets_TypeDefinitionIndex = 36587;
+
 	class B2BitSets : public ::System::Object
 	{
 	public:

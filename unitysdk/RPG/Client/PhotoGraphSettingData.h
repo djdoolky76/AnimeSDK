@@ -13,6 +13,8 @@ namespace RPG::GameCore { class PhotoGraphSettingDataConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhotoGraphSettingData_TypeDefinitionIndex = 66461;
+
 	class PhotoGraphSettingData : public ::System::Object
 	{
 	public:

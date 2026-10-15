@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_SphereVolumetricLightRendererMonoPlugin_TypeDefinitionIndex = 70560;
+
 	class Effect_SphereVolumetricLightRendererMonoPlugin
 	{
 	public:

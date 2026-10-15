@@ -6,6 +6,8 @@ namespace System { class Action; }
 
 #define DEGPLAGNABP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD11070)
 
+inline static constexpr unsigned int DEGPLAGNABP_TypeDefinitionIndex = 10372;
+
 	class DEGPLAGNABP : public ::System::Object
 	{
 	public:

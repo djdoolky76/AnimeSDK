@@ -3,6 +3,8 @@
 
 namespace IFix
 {
+	inline static constexpr unsigned int IDMAP0_39599CE241B42D11_TypeDefinitionIndex = 44990;
+
 	enum class IDMAP0_39599CE241B42D11 : ::System::Int32
 	{
 		AkAcousticSurface_getCPtr0 = 0,

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class LittleGameLevelVariableCollection; }
 #define JBHBCLCLMKH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CB8D150)
 #define JBHBCLCLMKH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8D1B0)
 
+inline static constexpr unsigned int JBHBCLCLMKH_TypeDefinitionIndex = 42067;
+
 	class JBHBCLCLMKH : public ::System::Object
 	{
 	public:

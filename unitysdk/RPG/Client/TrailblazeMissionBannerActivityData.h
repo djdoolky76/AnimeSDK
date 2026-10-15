@@ -15,6 +15,8 @@ namespace RPG::GameCore { class MissionChapterConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TrailblazeMissionBannerActivityData_TypeDefinitionIndex = 61671;
+
 	class TrailblazeMissionBannerActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

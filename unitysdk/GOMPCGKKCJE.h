@@ -9,6 +9,8 @@ namespace System { class String; }
 #define GOMPCGKKCJE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE75DB0)
 #define GOMPCGKKCJE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE75CF0)
 
+inline static constexpr unsigned int GOMPCGKKCJE_TypeDefinitionIndex = 23335;
+
 	class GOMPCGKKCJE : public ::KAKCDBGNJKN
 	{
 	public:

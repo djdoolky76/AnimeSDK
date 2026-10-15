@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BatchAnimationAttachPointMapping_TypeDefinitionIndex = 69514;
+
 	class BatchAnimationAttachPointMapping : public ::UnityEngine::MonoBehaviour
 	{
 	public:

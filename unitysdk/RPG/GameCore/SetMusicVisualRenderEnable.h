@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetMusicVisualRenderEnable_TypeDefinitionIndex = 22312;
+
 	class SetMusicVisualRenderEnable : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRTrackedCamera__GetVideoStreamFrameBuffer_TypeDefinitionIndex = 38947;
+
 	class IVRTrackedCamera__GetVideoStreamFrameBuffer : public ::System::MulticastDelegate
 	{
 	public:

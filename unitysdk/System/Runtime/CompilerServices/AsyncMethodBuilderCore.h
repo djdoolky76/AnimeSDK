@@ -17,6 +17,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int AsyncMethodBuilderCore_TypeDefinitionIndex = 1353;
+
 	struct alignas(8) AsyncMethodBuilderCore
 	{
 		::System::Runtime::CompilerServices::IAsyncStateMachine* m_stateMachine; // 0x10

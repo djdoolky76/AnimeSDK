@@ -13,6 +13,8 @@ namespace UnityEngine { class ScriptableObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PedestrianMemberExternalConfig_BatchAnimation_TypeDefinitionIndex = 69249;
+
 	class PedestrianMemberExternalConfig_BatchAnimation : public ::RPG::Client::IPedestrianMemberExternalConfig
 	{
 	public:

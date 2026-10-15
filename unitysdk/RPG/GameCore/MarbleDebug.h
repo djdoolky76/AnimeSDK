@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MarbleDebug; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleDebug_TypeDefinitionIndex = 16869;
+
 	class MarbleDebug : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

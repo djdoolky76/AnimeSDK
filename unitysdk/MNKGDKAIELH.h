@@ -37,6 +37,8 @@ namespace System { class String; }
 #define MNKGDKAIELH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA9E090)
 #define MNKGDKAIELH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA9E0F0)
 
+inline static constexpr unsigned int MNKGDKAIELH_TypeDefinitionIndex = 34917;
+
 	class MNKGDKAIELH : public ::System::Object
 	{
 	public:

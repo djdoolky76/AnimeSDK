@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TalkSentenceConfigExcelTable_IndexKey_TypeDefinitionIndex = 15221;
+
 	struct alignas(4) TalkSentenceConfigExcelTable_IndexKey
 	{
 		::System::UInt32 TalkSentenceID; // 0x10

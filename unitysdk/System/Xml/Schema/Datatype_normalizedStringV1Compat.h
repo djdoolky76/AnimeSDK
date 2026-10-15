@@ -8,6 +8,8 @@
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_normalizedStringV1Compat_TypeDefinitionIndex = 2122;
+
 	class Datatype_normalizedStringV1Compat : public ::System::Xml::Schema::Datatype_string
 	{
 	public:

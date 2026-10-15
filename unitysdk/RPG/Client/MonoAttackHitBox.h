@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoAttackHitBox_TypeDefinitionIndex = 68529;
+
 	class MonoAttackHitBox : public ::UnityEngine::MonoBehaviour
 	{
 	public:

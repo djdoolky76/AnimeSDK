@@ -9,6 +9,8 @@
 
 namespace Google::Protobuf
 {
+	inline static constexpr unsigned int WireFormat_TypeDefinitionIndex = 5415;
+
 	class WireFormat : public ::System::Object
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int OperatingSystem_TypeDefinitionIndex = 417;
+
 	class OperatingSystem : public ::System::Object
 	{
 	public:

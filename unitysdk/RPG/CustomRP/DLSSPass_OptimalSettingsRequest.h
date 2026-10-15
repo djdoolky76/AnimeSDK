@@ -9,6 +9,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int DLSSPass_OptimalSettingsRequest_TypeDefinitionIndex = 37559;
+
 	struct alignas(4) DLSSPass_OptimalSettingsRequest
 	{
 		::UnityEngine::NVIDIA::DLSSQuality quality; // 0x10

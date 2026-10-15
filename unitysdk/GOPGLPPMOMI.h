@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GOPGLPPMOMI_CTOR_OFFSET UNITYSDK_OFFSET(0x15B3C710)
 #define GOPGLPPMOMI_JDJDCFLAKGP_OFFSET UNITYSDK_OFFSET(0x15B3C900)
 
+inline static constexpr unsigned int GOPGLPPMOMI_TypeDefinitionIndex = 67115;
+
 	class GOPGLPPMOMI : public ::System::Object
 	{
 	public:

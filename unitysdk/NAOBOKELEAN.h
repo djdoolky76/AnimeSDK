@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NAOBOKELEAN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D1EA4A0)
 #define NAOBOKELEAN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D1E9E40)
 
+inline static constexpr unsigned int NAOBOKELEAN_TypeDefinitionIndex = 11125;
+
 	class NAOBOKELEAN : public ::System::Object
 	{
 	public:

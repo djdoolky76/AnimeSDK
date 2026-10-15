@@ -41,6 +41,8 @@ namespace System { class String; }
 #define DJIFIBOJKFP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1CA1F0)
 #define DJIFIBOJKFP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1CA250)
 
+inline static constexpr unsigned int DJIFIBOJKFP_TypeDefinitionIndex = 29070;
+
 	class DJIFIBOJKFP : public ::System::Object
 	{
 	public:

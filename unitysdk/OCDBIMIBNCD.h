@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OCDBIMIBNCD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE0DA40)
 #define OCDBIMIBNCD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE0DAA0)
 
+inline static constexpr unsigned int OCDBIMIBNCD_TypeDefinitionIndex = 31014;
+
 	class OCDBIMIBNCD : public ::System::Object
 	{
 	public:

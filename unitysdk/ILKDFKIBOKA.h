@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 #define ILKDFKIBOKA_FNBGFENAFFL_OFFSET UNITYSDK_OFFSET(0x164C3A80)
 #define ILKDFKIBOKA_GDKBLINFAHI_OFFSET UNITYSDK_OFFSET(0x164C3AE0)
 
+inline static constexpr unsigned int ILKDFKIBOKA_TypeDefinitionIndex = 59747;
+
 	class ILKDFKIBOKA : public ::System::Object
 	{
 	public:

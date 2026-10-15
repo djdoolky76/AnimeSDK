@@ -7,6 +7,8 @@ class JNFBANKKLJK;
 
 #define GBJEJEAMCBC_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1C62A690)
 
+inline static constexpr unsigned int GBJEJEAMCBC_TypeDefinitionIndex = 37130;
+
 	class GBJEJEAMCBC : public ::System::Object
 	{
 	public:

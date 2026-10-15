@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitServerRotatableRegionChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitServerRotatableRegionChange_TypeDefinitionIndex = 21252;
+
 	class WaitServerRotatableRegionChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:

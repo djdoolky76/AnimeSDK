@@ -12,6 +12,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define OFIOOHMOGEC_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xBE43160)
 #define OFIOOHMOGEC_JFCHEALPNIA_OFFSET UNITYSDK_OFFSET(0xBE43220)
 
+inline static constexpr unsigned int OFIOOHMOGEC_TypeDefinitionIndex = 56686;
+
 	class OFIOOHMOGEC : public ::System::Object
 	{
 	public:

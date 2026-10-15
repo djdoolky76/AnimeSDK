@@ -34,6 +34,8 @@ namespace UnityEngine { class RangeAttribute; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int rdtSerializerRegistry_TypeDefinitionIndex = 46966;
+
 	class rdtSerializerRegistry : public ::System::Object
 	{
 	public:

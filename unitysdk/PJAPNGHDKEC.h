@@ -4,6 +4,8 @@
 
 #define PJAPNGHDKEC_CTOR_OFFSET UNITYSDK_OFFSET(0xC27AC70)
 
+inline static constexpr unsigned int PJAPNGHDKEC_TypeDefinitionIndex = 80542;
+
 	class PJAPNGHDKEC : public ::System::Object
 	{
 	public:

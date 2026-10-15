@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_OnServerEventCallbackAction_TypeDefinitionIndex = 46397;
+
 	class SecurityTunnel_OnServerEventCallbackAction : public ::System::MulticastDelegate
 	{
 	public:

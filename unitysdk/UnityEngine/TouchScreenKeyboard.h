@@ -36,6 +36,8 @@ namespace UnityEngine { class TouchScreenKeyboard; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int TouchScreenKeyboard_TypeDefinitionIndex = 4397;
+
 	class TouchScreenKeyboard : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int TriggerBehaviour_TypeDefinitionIndex = 44444;
+
 	class TriggerBehaviour : public ::UnityEngine::ProBuilder::EntityBehaviour
 	{
 	public:

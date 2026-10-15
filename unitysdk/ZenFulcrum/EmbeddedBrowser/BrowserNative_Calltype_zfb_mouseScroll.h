@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_mouseScroll_TypeDefinitionIndex = 39442;
+
 	class BrowserNative_Calltype_zfb_mouseScroll : public ::System::MulticastDelegate
 	{
 	public:

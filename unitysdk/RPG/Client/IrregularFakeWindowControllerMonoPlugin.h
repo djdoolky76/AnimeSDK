@@ -6,6 +6,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int IrregularFakeWindowControllerMonoPlugin_TypeDefinitionIndex = 70862;
+
 	class IrregularFakeWindowControllerMonoPlugin
 	{
 	public:

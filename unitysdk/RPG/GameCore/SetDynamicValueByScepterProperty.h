@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByScepterProperty_TypeDefinitionIndex = 23105;
+
 	class SetDynamicValueByScepterProperty : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

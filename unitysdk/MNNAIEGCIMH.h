@@ -7,6 +7,8 @@ namespace RPG::Client { class IActivityQuestRewardTabGroupInfo; }
 #define MNNAIEGCIMH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBA17BB0)
 #define MNNAIEGCIMH_CTOR_OFFSET UNITYSDK_OFFSET(0xBA17B60)
 
+inline static constexpr unsigned int MNNAIEGCIMH_TypeDefinitionIndex = 61735;
+
 	class MNNAIEGCIMH : public ::System::Object
 	{
 	public:

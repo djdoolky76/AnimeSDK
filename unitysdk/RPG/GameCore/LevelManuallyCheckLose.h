@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelManuallyCheckLose; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelManuallyCheckLose_TypeDefinitionIndex = 56833;
+
 	class LevelManuallyCheckLose : public ::CMPGEAFHHDC
 	{
 	public:

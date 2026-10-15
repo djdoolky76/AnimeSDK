@@ -8,6 +8,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEscalatorItem_TypeDefinitionIndex = 68590;
+
 	class MonoEscalatorItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

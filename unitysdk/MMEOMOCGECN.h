@@ -40,6 +40,8 @@ namespace System::Text { class StringBuilder; }
 #define MMEOMOCGECN_SET_BLOCKMOVEMENTSYNCONRECONNECTING_OFFSET UNITYSDK_OFFSET(0xB9C44B0)
 #define MMEOMOCGECN_SET_PAUSEGAME_OFFSET UNITYSDK_OFFSET(0xB9C4490)
 
+inline static constexpr unsigned int MMEOMOCGECN_TypeDefinitionIndex = 60914;
+
 	class MMEOMOCGECN : public ::System::Object
 	{
 	public:

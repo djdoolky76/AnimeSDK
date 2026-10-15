@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DrinkMakerBarDrinkMakingStep_TypeDefinitionIndex = 63592;
+
 	class DrinkMakerBarDrinkMakingStep : public ::System::Object
 	{
 	public:

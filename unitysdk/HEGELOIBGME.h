@@ -30,6 +30,8 @@ namespace System { class String; }
 #define HEGELOIBGME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5594D0)
 #define HEGELOIBGME_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E559530)
 
+inline static constexpr unsigned int HEGELOIBGME_TypeDefinitionIndex = 31075;
+
 	class HEGELOIBGME : public ::System::Object
 	{
 	public:

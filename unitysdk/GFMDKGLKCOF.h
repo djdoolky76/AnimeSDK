@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GFMDKGLKCOF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E471820)
 #define GFMDKGLKCOF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E471880)
 
+inline static constexpr unsigned int GFMDKGLKCOF_TypeDefinitionIndex = 32740;
+
 	class GFMDKGLKCOF : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace Entitas { class IGroup; }
 #define FHACOAFALLG_INPLOLCCJHM_OFFSET UNITYSDK_OFFSET(0x1576FF00)
 #define FHACOAFALLG_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x1576FEC0)
 
+inline static constexpr unsigned int FHACOAFALLG_TypeDefinitionIndex = 77107;
+
 	class FHACOAFALLG : public ::System::Object
 	{
 	public:

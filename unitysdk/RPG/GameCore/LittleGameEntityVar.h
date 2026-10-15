@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameEntityVar_TypeDefinitionIndex = 18868;
+
 	class LittleGameEntityVar : public ::RPG::GameCore::JsonConfig
 	{
 	public:

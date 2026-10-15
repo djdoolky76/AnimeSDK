@@ -15,6 +15,8 @@ namespace System { class String; }
 #define OEGABLPGGIE_PBBFABLNIGC_OFFSET UNITYSDK_OFFSET(0xBE2C670)
 #define OEGABLPGGIE_SET_PRECISION_OFFSET UNITYSDK_OFFSET(0xBE2C8C0)
 
+inline static constexpr unsigned int OEGABLPGGIE_TypeDefinitionIndex = 73380;
+
 	class OEGABLPGGIE : public ::System::Object
 	{
 	public:

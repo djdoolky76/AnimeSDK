@@ -46,6 +46,8 @@ namespace System { class String; }
 #define KFOOLGFCNDN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E831560)
 #define KFOOLGFCNDN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8315C0)
 
+inline static constexpr unsigned int KFOOLGFCNDN_TypeDefinitionIndex = 27071;
+
 	class KFOOLGFCNDN : public ::System::Object
 	{
 	public:

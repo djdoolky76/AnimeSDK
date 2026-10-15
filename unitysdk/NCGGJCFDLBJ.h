@@ -7,6 +7,8 @@ namespace RPG::GameCore { class FiveDimGravitySwitchLineConfig; }
 #define NCGGJCFDLBJ_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C943980)
 #define NCGGJCFDLBJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C943A10)
 
+inline static constexpr unsigned int NCGGJCFDLBJ_TypeDefinitionIndex = 43508;
+
 	class NCGGJCFDLBJ : public ::System::Object
 	{
 	public:

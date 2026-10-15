@@ -9,6 +9,8 @@ namespace SRF::Service { class ServiceSelectorAttribute; }
 
 namespace SRF::Service
 {
+	inline static constexpr unsigned int SRServiceManager___c__DisplayClass26_0_TypeDefinitionIndex = 35420;
+
 	class SRServiceManager___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:

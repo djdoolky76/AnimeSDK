@@ -16,6 +16,8 @@ namespace RPG::Client::ActivityAlley { class AlleyPackComponent; }
 
 namespace RPG::Client::ActivityAlley
 {
+	inline static constexpr unsigned int AlleyPackComponent_AlleyPackSelectState_TypeDefinitionIndex = 74093;
+
 	class AlleyPackComponent_AlleyPackSelectState : public ::System::Object
 	{
 	public:

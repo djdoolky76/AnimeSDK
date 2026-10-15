@@ -6,6 +6,8 @@
 #define GDOJNLDGHOP_CTOR_OFFSET UNITYSDK_OFFSET(0x159BE840)
 #define GDOJNLDGHOP_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x159BE570)
 
+inline static constexpr unsigned int GDOJNLDGHOP_TypeDefinitionIndex = 53789;
+
 	class GDOJNLDGHOP
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MazeItemUseBuffGameModeDropConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MazeItemUseBuffGameModeDropConfig_TypeDefinitionIndex = 21758;
+
 	class MazeItemUseBuffGameModeDropConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

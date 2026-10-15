@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define GECICOILNGO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE33F80)
 #define GECICOILNGO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE33F30)
 
+inline static constexpr unsigned int GECICOILNGO_TypeDefinitionIndex = 10203;
+
 	class GECICOILNGO : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:

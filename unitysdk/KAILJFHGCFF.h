@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+inline static constexpr unsigned int KAILJFHGCFF_TypeDefinitionIndex = 44250;
+
 	class KAILJFHGCFF : public ::System::Object
 	{
 	public:

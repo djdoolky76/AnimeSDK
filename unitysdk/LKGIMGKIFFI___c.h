@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define LKGIMGKIFFI___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB747140)
 #define LKGIMGKIFFI___C___DEMOTEALLSTACKCAMERAPRIORITIES_B__4_0_OFFSET UNITYSDK_OFFSET(0xB747150)
 
+inline static constexpr unsigned int LKGIMGKIFFI___c_TypeDefinitionIndex = 76761;
+
 	class LKGIMGKIFFI___c : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightCondCompareNodeIdConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightCondCompareNodeIdConfig_TypeDefinitionIndex = 19336;
+
 	class GridFightCondCompareNodeIdConfig : public ::RPG::GameCore::GridFightConditionConfigBase
 	{
 	public:

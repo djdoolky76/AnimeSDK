@@ -43,6 +43,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::KCP
 {
+	inline static constexpr unsigned int KCPManager_TypeDefinitionIndex = 46691;
+
 	class KCPManager : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine { class Object; }
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int EnviroAssetProperty_IFHBMIMLLLK_TypeDefinitionIndex = 49616;
+
 	class EnviroAssetProperty_IFHBMIMLLLK : public ::System::Object
 	{
 	public:

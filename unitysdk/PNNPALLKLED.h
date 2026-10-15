@@ -6,6 +6,8 @@
 #define PNNPALLKLED_CDMBJFLNNHD_OFFSET UNITYSDK_OFFSET(0xC350580)
 #define PNNPALLKLED_EIMINJCDELC_OFFSET UNITYSDK_OFFSET(0xC350460)
 
+inline static constexpr unsigned int PNNPALLKLED_TypeDefinitionIndex = 51848;
+
 	class PNNPALLKLED : public ::System::Object
 	{
 	public:

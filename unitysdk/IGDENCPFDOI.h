@@ -4,6 +4,8 @@
 
 #define IGDENCPFDOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB75590)
 
+inline static constexpr unsigned int IGDENCPFDOI_TypeDefinitionIndex = 42451;
+
 	class IGDENCPFDOI : public ::System::Object
 	{
 	public:

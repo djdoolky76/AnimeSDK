@@ -29,6 +29,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AetherMonsterAvatarSkillSingleSlotData_TypeDefinitionIndex = 62231;
+
 	class AetherMonsterAvatarSkillSingleSlotData : public ::System::Object
 	{
 	public:

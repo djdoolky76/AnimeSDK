@@ -44,6 +44,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JICPKADGNIF_OMIODCOOMEL_OFFSET UNITYSDK_OFFSET(0x1CB9E100)
 #define JICPKADGNIF_PCOKEOBBAAH_OFFSET UNITYSDK_OFFSET(0x1CB95CF0)
 
+inline static constexpr unsigned int JICPKADGNIF_TypeDefinitionIndex = 43083;
+
 	class JICPKADGNIF : public ::System::Object
 	{
 	public:

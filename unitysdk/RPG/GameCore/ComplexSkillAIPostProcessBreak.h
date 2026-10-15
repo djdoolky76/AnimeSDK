@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ComplexSkillAIPostProcessBreak; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAIPostProcessBreak_TypeDefinitionIndex = 15561;
+
 	class ComplexSkillAIPostProcessBreak : public ::RPG::GameCore::ComplexSkillAIPostProcess
 	{
 	public:

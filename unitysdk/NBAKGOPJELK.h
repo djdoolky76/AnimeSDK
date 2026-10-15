@@ -38,6 +38,8 @@ namespace System { class String; }
 #define NBAKGOPJELK__ONTICK_OFFSET UNITYSDK_OFFSET(0xBABA760)
 #define NBAKGOPJELK___ONSTART_B__3_0_OFFSET UNITYSDK_OFFSET(0xBABB7A0)
 
+inline static constexpr unsigned int NBAKGOPJELK_TypeDefinitionIndex = 60429;
+
 	class NBAKGOPJELK : public ::HCLPKMIIANI
 	{
 	public:

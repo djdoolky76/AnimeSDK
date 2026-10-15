@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AccelerationEvent_TypeDefinitionIndex = 5783;
+
 	struct alignas(4) AccelerationEvent
 	{
 		::System::Single x; // 0x10

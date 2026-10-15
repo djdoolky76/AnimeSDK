@@ -22,6 +22,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client::UI::UIStateCtrl
 {
+	inline static constexpr unsigned int MaterialParameterData_TypeDefinitionIndex = 74059;
+
 	class MaterialParameterData : public ::System::Object
 	{
 	public:

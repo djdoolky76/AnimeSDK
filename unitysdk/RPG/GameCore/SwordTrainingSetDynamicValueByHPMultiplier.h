@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwordTrainingSetDynamicValueByHPMultiplier_TypeDefinitionIndex = 22600;
+
 	class SwordTrainingSetDynamicValueByHPMultiplier : public ::RPG::GameCore::TaskConfig
 	{
 	public:

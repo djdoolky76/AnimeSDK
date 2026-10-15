@@ -9,6 +9,8 @@ namespace Entitas::VisualDebugging::Unity { class DebugSystems; }
 
 namespace Entitas::VisualDebugging::Unity
 {
+	inline static constexpr unsigned int DebugSystemsBehaviour_TypeDefinitionIndex = 10061;
+
 	class DebugSystemsBehaviour : public ::UnityEngine::MonoBehaviour
 	{
 	public:

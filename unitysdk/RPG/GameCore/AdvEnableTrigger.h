@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvEnableTrigger_TypeDefinitionIndex = 20538;
+
 	class AdvEnableTrigger : public ::RPG::GameCore::TaskConfig
 	{
 	public:

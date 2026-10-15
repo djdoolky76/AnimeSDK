@@ -7,6 +7,8 @@ class FHFCJKKKNLP;
 #define BECJPAKGDMA___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1630FBE0)
 #define BECJPAKGDMA___C__DISPLAYCLASS9_0___DOSHOWENTRANCEPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x16310030)
 
+inline static constexpr unsigned int BECJPAKGDMA___c__DisplayClass9_0_TypeDefinitionIndex = 58162;
+
 	class BECJPAKGDMA___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

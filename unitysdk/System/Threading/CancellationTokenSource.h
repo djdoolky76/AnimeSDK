@@ -49,6 +49,8 @@ namespace System::Threading { template <typename T> class SparselyPopulatedArray
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int CancellationTokenSource_TypeDefinitionIndex = 800;
+
 	class CancellationTokenSource : public ::System::Object
 	{
 	public:

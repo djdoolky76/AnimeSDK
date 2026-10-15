@@ -7,6 +7,8 @@
 #define KBPPKMAJGCG_ANIMATEDINSTANCE_CTOR_OFFSET UNITYSDK_OFFSET(0xB32E300)
 #define KBPPKMAJGCG_ANIMATEDINSTANCE_GET_RANDOMVALUE_OFFSET UNITYSDK_OFFSET(0xB32D530)
 
+inline static constexpr unsigned int KBPPKMAJGCG_AnimatedInstance_TypeDefinitionIndex = 70327;
+
 	class KBPPKMAJGCG_AnimatedInstance : public ::System::Object
 	{
 	public:

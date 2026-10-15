@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BHMEPBAGOFF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDFB5C0)
 #define BHMEPBAGOFF___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1DDFB5D0)
 
+inline static constexpr unsigned int BHMEPBAGOFF___c_TypeDefinitionIndex = 28777;
+
 	class BHMEPBAGOFF___c : public ::System::Object
 	{
 	public:

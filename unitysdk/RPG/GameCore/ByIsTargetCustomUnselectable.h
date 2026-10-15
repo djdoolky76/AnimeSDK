@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsTargetCustomUnselectable_TypeDefinitionIndex = 23527;
+
 	class ByIsTargetCustomUnselectable : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

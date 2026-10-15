@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierFormulaForceEnableConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierFormulaForceEnableConfig_TypeDefinitionIndex = 17989;
+
 	class RogueModifierFormulaForceEnableConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

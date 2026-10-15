@@ -40,6 +40,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChenLingBattleTeamSnapshot_TypeDefinitionIndex = 61434;
+
 	class ChenLingBattleTeamSnapshot : public ::System::Object
 	{
 	public:

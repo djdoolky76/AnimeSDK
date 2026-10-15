@@ -8,6 +8,8 @@ namespace UnityEngine { class Material; }
 
 namespace Code::MonoBehavior::Level
 {
+	inline static constexpr unsigned int MonoTrainPartyBuildEffectSetting_ShaderVector_TypeDefinitionIndex = 50053;
+
 	struct alignas(8) MonoTrainPartyBuildEffectSetting_ShaderVector
 	{
 		::System::String* name; // 0x10

@@ -9,6 +9,8 @@ namespace System { class String; }
 #define CARFLOWINTERSECTIONRULEGROUP_GDNHAHJPJDE_OFFSET UNITYSDK_OFFSET(0xDCE35C0)
 #define CARFLOWINTERSECTIONRULEGROUP_GOMNJJFHDDB_OFFSET UNITYSDK_OFFSET(0xDCE3A10)
 
+inline static constexpr unsigned int CarFlowIntersectionRuleGroup_TypeDefinitionIndex = 47069;
+
 	class CarFlowIntersectionRuleGroup : public ::System::Object
 	{
 	public:

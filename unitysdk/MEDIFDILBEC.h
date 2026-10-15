@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define MEDIFDILBEC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB8BCED0)
 #define MEDIFDILBEC_INVOKE_OFFSET UNITYSDK_OFFSET(0xB8BCE90)
 
+inline static constexpr unsigned int MEDIFDILBEC_TypeDefinitionIndex = 73837;
+
 	class MEDIFDILBEC : public ::System::MulticastDelegate
 	{
 	public:

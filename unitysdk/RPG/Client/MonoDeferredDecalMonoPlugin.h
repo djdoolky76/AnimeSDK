@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoDeferredDecalMonoPlugin_TypeDefinitionIndex = 70923;
+
 	class MonoDeferredDecalMonoPlugin
 	{
 	public:

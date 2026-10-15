@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RA_SetAIVariableBool_TypeDefinitionIndex = 20042;
+
 	class RA_SetAIVariableBool : public ::RPG::GameCore::ReactionTaskConfig
 	{
 	public:

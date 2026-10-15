@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int AndroidTVUnityProfile_TypeDefinitionIndex = 40938;
+
 	class AndroidTVUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

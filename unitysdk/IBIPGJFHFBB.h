@@ -9,6 +9,8 @@ namespace System { class String; }
 #define IBIPGJFHFBB_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x15E3A860)
 #define IBIPGJFHFBB_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x15E3A810)
 
+inline static constexpr unsigned int IBIPGJFHFBB_TypeDefinitionIndex = 56676;
+
 	class IBIPGJFHFBB : public ::System::Object
 	{
 	public:

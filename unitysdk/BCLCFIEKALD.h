@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BCLCFIEKALD_EDBDAAKMDFI_OFFSET UNITYSDK_OFFSET(0x162E2800)
 #define BCLCFIEKALD_GICABFLDIPA_OFFSET UNITYSDK_OFFSET(0x162E25B0)
 
+inline static constexpr unsigned int BCLCFIEKALD_TypeDefinitionIndex = 77468;
+
 	class BCLCFIEKALD : public ::FJNNEOKOCJD
 	{
 	public:

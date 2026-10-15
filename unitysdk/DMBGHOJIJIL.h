@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define DMBGHOJIJIL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD427D0)
 #define DMBGHOJIJIL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD42790)
 
+inline static constexpr unsigned int DMBGHOJIJIL_TypeDefinitionIndex = 10217;
+
 	class DMBGHOJIJIL : public ::RPG::GameCore::TaskConfig
 	{
 	public:

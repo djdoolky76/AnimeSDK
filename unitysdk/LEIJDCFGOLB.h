@@ -13,6 +13,8 @@ namespace System::Collections { class IEnumerable; }
 #define LEIJDCFGOLB_EHPGFKGLBBJ_OFFSET UNITYSDK_OFFSET(0x1C4AC460)
 #define LEIJDCFGOLB_HAGHKCMHEIG_OFFSET UNITYSDK_OFFSET(0x1C4AC3A0)
 
+inline static constexpr unsigned int LEIJDCFGOLB_TypeDefinitionIndex = 41592;
+
 	class LEIJDCFGOLB : public ::System::Object
 	{
 	public:

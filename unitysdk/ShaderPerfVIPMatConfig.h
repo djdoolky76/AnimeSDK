@@ -6,6 +6,8 @@ namespace UnityEngine { class Material; }
 
 #define SHADERPERFVIPMATCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE9697F0)
 
+inline static constexpr unsigned int ShaderPerfVIPMatConfig_TypeDefinitionIndex = 47480;
+
 	class ShaderPerfVIPMatConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

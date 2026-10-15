@@ -37,6 +37,8 @@ namespace System { class String; }
 #define KBKLNECKDEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7F0C20)
 #define KBKLNECKDEN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7F0C80)
 
+inline static constexpr unsigned int KBKLNECKDEN_TypeDefinitionIndex = 33085;
+
 	class KBKLNECKDEN : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class StepPowerLargerThanCondition; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int StepPowerLargerThanCondition_TypeDefinitionIndex = 24892;
+
 	class StepPowerLargerThanCondition : public ::RPG::GameCore::Match3::Match3ConditionBase
 	{
 	public:

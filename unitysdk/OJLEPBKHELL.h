@@ -11,6 +11,8 @@ namespace System { class Action; }
 #define OJLEPBKHELL_MKMKIMGFEEF_OFFSET UNITYSDK_OFFSET(0xBEBDEE0)
 #define OJLEPBKHELL_OEKNALJNBHN_OFFSET UNITYSDK_OFFSET(0xBEBDF80)
 
+inline static constexpr unsigned int OJLEPBKHELL_TypeDefinitionIndex = 75284;
+
 	class OJLEPBKHELL : public ::System::Object
 	{
 	public:

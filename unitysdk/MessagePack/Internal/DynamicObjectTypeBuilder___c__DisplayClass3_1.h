@@ -12,6 +12,8 @@ namespace System::Reflection::Emit { class ILGenerator; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass3_1_TypeDefinitionIndex = 7326;
+
 	template <typename T>
 	class DynamicObjectTypeBuilder___c__DisplayClass3_1 : public ::System::Object
 	{

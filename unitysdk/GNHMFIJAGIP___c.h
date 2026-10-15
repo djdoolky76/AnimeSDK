@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define GNHMFIJAGIP___C___CCTOR_B__23_1_OFFSET UNITYSDK_OFFSET(0x1E4E0F80)
 #define GNHMFIJAGIP___C___CCTOR_B__23_2_OFFSET UNITYSDK_OFFSET(0x1E4E0F90)
 
+inline static constexpr unsigned int GNHMFIJAGIP___c_TypeDefinitionIndex = 31291;
+
 	class GNHMFIJAGIP___c : public ::System::Object
 	{
 	public:

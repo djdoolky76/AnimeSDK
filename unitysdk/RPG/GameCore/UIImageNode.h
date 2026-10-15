@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UIImageNode_TypeDefinitionIndex = 23837;
+
 	class UIImageNode : public ::RPG::GameCore::JsonConfig
 	{
 	public:

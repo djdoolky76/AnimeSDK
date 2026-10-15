@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByPamNormalActionSwitch_TypeDefinitionIndex = 20014;
+
 	class ByPamNormalActionSwitch : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

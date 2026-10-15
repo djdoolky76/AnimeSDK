@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define OLOOCOMMIKE_CTOR_OFFSET UNITYSDK_OFFSET(0xBF17220)
 #define OLOOCOMMIKE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF17250)
 
+inline static constexpr unsigned int OLOOCOMMIKE_TypeDefinitionIndex = 52491;
+
 	class OLOOCOMMIKE
 	{
 	public:

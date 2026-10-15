@@ -5,6 +5,8 @@
 #define LGGGGGJFKMI_EQUALS_OFFSET UNITYSDK_OFFSET(0x19090)
 #define LGGGGGJFKMI_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x190F0)
 
+inline static constexpr unsigned int LGGGGGJFKMI_TypeDefinitionIndex = 56689;
+
 	struct alignas(4) LGGGGGJFKMI
 	{
 		::System::UInt32 CEGOPEIKDLA; // 0x10

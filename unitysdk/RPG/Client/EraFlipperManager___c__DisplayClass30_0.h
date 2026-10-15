@@ -9,6 +9,8 @@ namespace RPG::GameCore { class EraRegion; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EraFlipperManager___c__DisplayClass30_0_TypeDefinitionIndex = 60510;
+
 	class EraFlipperManager___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:

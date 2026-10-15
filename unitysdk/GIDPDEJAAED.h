@@ -38,6 +38,8 @@ namespace System { class String; }
 #define GIDPDEJAAED_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E494540)
 #define GIDPDEJAAED_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4945A0)
 
+inline static constexpr unsigned int GIDPDEJAAED_TypeDefinitionIndex = 26462;
+
 	class GIDPDEJAAED : public ::System::Object
 	{
 	public:

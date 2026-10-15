@@ -6,6 +6,8 @@ class APGJODNAGHB;
 #define HEFPOJBKFFF_CTOR_OFFSET UNITYSDK_OFFSET(0x15C4FA50)
 #define HEFPOJBKFFF_EKMPMMLBNEL_OFFSET UNITYSDK_OFFSET(0x15C4FAA0)
 
+inline static constexpr unsigned int HEFPOJBKFFF_TypeDefinitionIndex = 62563;
+
 	class HEFPOJBKFFF : public ::System::Object
 	{
 	public:

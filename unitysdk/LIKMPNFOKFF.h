@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LIKMPNFOKFF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9708E0)
 #define LIKMPNFOKFF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E970940)
 
+inline static constexpr unsigned int LIKMPNFOKFF_TypeDefinitionIndex = 35115;
+
 	class LIKMPNFOKFF : public ::System::Object
 	{
 	public:

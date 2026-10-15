@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateGameRoundSettleDmgSourcePhaseFixedItem_TypeDefinitionIndex = 64056;
+
 	class FateGameRoundSettleDmgSourcePhaseFixedItem : public ::System::Object
 	{
 	public:

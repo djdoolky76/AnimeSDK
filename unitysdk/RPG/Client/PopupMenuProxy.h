@@ -16,6 +16,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PopupMenuProxy_TypeDefinitionIndex = 72487;
+
 	class PopupMenuProxy : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebViewReportBoxConfig_TypeDefinitionIndex = 7921;
+
 	class WebViewReportBoxConfig : public ::System::Object
 	{
 	public:

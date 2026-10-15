@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 #define BJIFEEEDFAO_CTOR_OFFSET UNITYSDK_OFFSET(0xB7A1480)
 #define BJIFEEEDFAO_OBCKIOEGOGL_OFFSET UNITYSDK_OFFSET(0xB7A12D0)
 
+inline static constexpr unsigned int BJIFEEEDFAO_TypeDefinitionIndex = 47937;
+
 	class BJIFEEEDFAO : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
 	public:

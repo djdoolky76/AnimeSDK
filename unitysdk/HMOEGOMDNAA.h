@@ -27,6 +27,8 @@ namespace System { class String; }
 #define HMOEGOMDNAA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5D5F00)
 #define HMOEGOMDNAA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5D5F60)
 
+inline static constexpr unsigned int HMOEGOMDNAA_TypeDefinitionIndex = 31594;
+
 	class HMOEGOMDNAA : public ::System::Object
 	{
 	public:

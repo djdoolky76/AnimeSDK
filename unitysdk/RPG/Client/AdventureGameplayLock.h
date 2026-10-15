@@ -11,6 +11,8 @@ namespace RPG::Client { class AdventureGameplayLock; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AdventureGameplayLock_TypeDefinitionIndex = 10319;
+
 	class AdventureGameplayLock : public ::RPG::GameCore::TaskConfig
 	{
 	public:

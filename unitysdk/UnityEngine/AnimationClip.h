@@ -54,6 +54,8 @@ namespace UnityEngine { class SyncMarkerTrack; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AnimationClip_TypeDefinitionIndex = 5692;
+
 	class AnimationClip : public ::UnityEngine::Motion
 	{
 	public:

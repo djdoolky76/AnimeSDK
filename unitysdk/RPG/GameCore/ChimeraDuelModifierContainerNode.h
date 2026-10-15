@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelModifierContainerNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelModifierContainerNode_TypeDefinitionIndex = 16018;
+
 	class ChimeraDuelModifierContainerNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
 	public:

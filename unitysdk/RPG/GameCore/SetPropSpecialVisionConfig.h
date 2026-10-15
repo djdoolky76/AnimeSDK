@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetPropSpecialVisionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetPropSpecialVisionConfig_TypeDefinitionIndex = 20511;
+
 	class SetPropSpecialVisionConfig : public ::RPG::GameCore::TaskConfig
 	{
 	public:

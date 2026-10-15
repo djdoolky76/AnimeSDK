@@ -17,6 +17,8 @@ namespace RPG::GameCore { class FiveDimSimpleProjectilePropSpawnerParam; }
 #define CCHDOBAEGCN_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC73C4C0)
 #define CCHDOBAEGCN_MNMPLEEMKKN_OFFSET UNITYSDK_OFFSET(0xC73CB10)
 
+inline static constexpr unsigned int CCHDOBAEGCN_TypeDefinitionIndex = 77063;
+
 	class CCHDOBAEGCN : public ::CBIKMJHGEDE
 	{
 	public:

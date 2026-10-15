@@ -9,6 +9,8 @@ class FCOEMCEDLNL;
 #define BCNMIFBIGIE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCFAAB0)
 #define BCNMIFBIGIE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCFAA70)
 
+inline static constexpr unsigned int BCNMIFBIGIE_TypeDefinitionIndex = 23173;
+
 	class BCNMIFBIGIE : public ::RPG::GameCore::TaskConfig
 	{
 	public:

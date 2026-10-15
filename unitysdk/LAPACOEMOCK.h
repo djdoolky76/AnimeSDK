@@ -35,6 +35,8 @@ namespace System { class String; }
 #define LAPACOEMOCK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8D3FD0)
 #define LAPACOEMOCK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8D4030)
 
+inline static constexpr unsigned int LAPACOEMOCK_TypeDefinitionIndex = 32000;
+
 	class LAPACOEMOCK : public ::System::Object
 	{
 	public:

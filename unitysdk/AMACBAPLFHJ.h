@@ -13,6 +13,8 @@ namespace System { class String; }
 #define AMACBAPLFHJ__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x15572230)
 #define AMACBAPLFHJ__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x15572360)
 
+inline static constexpr unsigned int AMACBAPLFHJ_TypeDefinitionIndex = 52530;
+
 	class AMACBAPLFHJ
 	{
 	public:

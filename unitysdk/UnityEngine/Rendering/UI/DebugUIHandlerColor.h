@@ -35,6 +35,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace UnityEngine::Rendering::UI
 {
+	inline static constexpr unsigned int DebugUIHandlerColor_TypeDefinitionIndex = 35678;
+
 	class DebugUIHandlerColor : public ::UnityEngine::Rendering::UI::DebugUIHandlerWidget
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int JSONObject___c__DisplayClass21_0_TypeDefinitionIndex = 8135;
+
 	class JSONObject___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

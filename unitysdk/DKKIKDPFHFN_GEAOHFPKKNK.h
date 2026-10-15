@@ -8,6 +8,8 @@ namespace System { class Action; }
 namespace System { class IDisposable; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
+inline static constexpr unsigned int DKKIKDPFHFN_GEAOHFPKKNK_TypeDefinitionIndex = 50008;
+
 	class DKKIKDPFHFN_GEAOHFPKKNK : public ::System::Object
 	{
 	public:

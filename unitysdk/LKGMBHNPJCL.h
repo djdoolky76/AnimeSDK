@@ -15,6 +15,8 @@ namespace UnityEngine { class Mesh; }
 #define LKGMBHNPJCL_MEHLCEFMECA_OFFSET UNITYSDK_OFFSET(0xB749510)
 #define LKGMBHNPJCL_NAABEHOGIDN_OFFSET UNITYSDK_OFFSET(0xB7490E0)
 
+inline static constexpr unsigned int LKGMBHNPJCL_TypeDefinitionIndex = 48919;
+
 	class LKGMBHNPJCL : public ::System::Object
 	{
 	public:

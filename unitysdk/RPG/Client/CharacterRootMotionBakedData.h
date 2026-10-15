@@ -16,6 +16,8 @@ namespace RPG::Client { class MovementStoppedRootMotionBakedData_OAKCINDCPAJ; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharacterRootMotionBakedData_TypeDefinitionIndex = 60057;
+
 	class CharacterRootMotionBakedData : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TAMonoTickLodConfig_TypeDefinitionIndex = 19201;
+
 	class TAMonoTickLodConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

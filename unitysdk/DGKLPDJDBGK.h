@@ -12,6 +12,8 @@ namespace RPG::Client { class MatchThreeBoard; }
 #define DGKLPDJDBGK_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xE84F5F0)
 #define DGKLPDJDBGK_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xE84F4F0)
 
+inline static constexpr unsigned int DGKLPDJDBGK_TypeDefinitionIndex = 65867;
+
 	class DGKLPDJDBGK : public ::FNIDIOCNBBI
 	{
 	public:

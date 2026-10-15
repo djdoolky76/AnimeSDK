@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ModifyLoseHPData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyLoseHPData_TypeDefinitionIndex = 23573;
+
 	class ModifyLoseHPData : public ::RPG::GameCore::TaskConfig
 	{
 	public:

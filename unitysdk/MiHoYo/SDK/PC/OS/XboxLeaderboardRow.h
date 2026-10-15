@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int XboxLeaderboardRow_TypeDefinitionIndex = 8683;
+
 	class XboxLeaderboardRow : public ::System::Object
 	{
 	public:

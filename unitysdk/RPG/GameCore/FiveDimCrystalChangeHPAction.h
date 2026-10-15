@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimCrystalChangeHPAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimCrystalChangeHPAction_TypeDefinitionIndex = 18780;
+
 	class FiveDimCrystalChangeHPAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

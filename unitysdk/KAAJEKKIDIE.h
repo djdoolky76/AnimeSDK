@@ -28,6 +28,8 @@ namespace System { class String; }
 #define KAAJEKKIDIE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7DC770)
 #define KAAJEKKIDIE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7DC7D0)
 
+inline static constexpr unsigned int KAAJEKKIDIE_TypeDefinitionIndex = 31694;
+
 	class KAAJEKKIDIE : public ::System::Object
 	{
 	public:

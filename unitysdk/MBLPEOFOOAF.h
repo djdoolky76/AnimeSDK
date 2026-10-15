@@ -33,6 +33,8 @@ namespace System { class String; }
 #define MBLPEOFOOAF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9E9330)
 #define MBLPEOFOOAF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9E9390)
 
+inline static constexpr unsigned int MBLPEOFOOAF_TypeDefinitionIndex = 32583;
+
 	class MBLPEOFOOAF : public ::System::Object
 	{
 	public:

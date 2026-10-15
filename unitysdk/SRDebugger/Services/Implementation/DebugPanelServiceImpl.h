@@ -32,6 +32,8 @@ namespace System { class String; }
 
 namespace SRDebugger::Services::Implementation
 {
+	inline static constexpr unsigned int DebugPanelServiceImpl_TypeDefinitionIndex = 38076;
+
 	class DebugPanelServiceImpl : public ::UnityEngine::ScriptableObject
 	{
 	public:

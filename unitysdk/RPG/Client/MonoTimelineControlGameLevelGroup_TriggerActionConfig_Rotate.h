@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTimelineControlGameLevelGroup_TriggerActionConfig_Rotate_TypeDefinitionIndex = 60447;
+
 	class MonoTimelineControlGameLevelGroup_TriggerActionConfig_Rotate : public ::RPG::Client::MonoTimelineControlGameLevelGroup_TriggerActionConfig
 	{
 	public:

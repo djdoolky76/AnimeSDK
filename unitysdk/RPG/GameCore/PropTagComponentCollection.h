@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PropTagComponentCollection; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropTagComponentCollection_TypeDefinitionIndex = 17583;
+
 	class PropTagComponentCollection : public ::RPG::GameCore::JsonConfig
 	{
 	public:

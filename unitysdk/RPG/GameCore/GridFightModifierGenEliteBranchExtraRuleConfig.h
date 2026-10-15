@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierGenEliteBranchExtraRuleConfig; 
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierGenEliteBranchExtraRuleConfig_TypeDefinitionIndex = 19482;
+
 	class GridFightModifierGenEliteBranchExtraRuleConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

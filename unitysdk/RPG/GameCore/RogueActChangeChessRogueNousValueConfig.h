@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActChangeChessRogueNousValueConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActChangeChessRogueNousValueConfig_TypeDefinitionIndex = 19642;
+
 	class RogueActChangeChessRogueNousValueConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

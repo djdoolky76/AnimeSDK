@@ -18,6 +18,8 @@ namespace System::Runtime::Remoting::Lifetime { class LeaseManager; }
 
 namespace System::Runtime::Remoting::Lifetime
 {
+	inline static constexpr unsigned int LifetimeServices_TypeDefinitionIndex = 1245;
+
 	class LifetimeServices : public ::System::Object
 	{
 	public:

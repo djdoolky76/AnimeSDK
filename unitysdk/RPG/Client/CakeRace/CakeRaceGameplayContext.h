@@ -165,6 +165,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceGameplayContext_TypeDefinitionIndex = 76435;
+
 	class CakeRaceGameplayContext : public ::RPG::Client::BaseGameFlowContext
 	{
 	public:

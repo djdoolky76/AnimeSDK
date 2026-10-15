@@ -10,6 +10,8 @@ namespace UnityEngine::UI { class Image; }
 #define PEPGBNEBKLL_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xC1F8910)
 #define PEPGBNEBKLL__ONBIND_OFFSET UNITYSDK_OFFSET(0xC1F8770)
 
+inline static constexpr unsigned int PEPGBNEBKLL_TypeDefinitionIndex = 71401;
+
 	class PEPGBNEBKLL : public ::FMPCODLIOLG
 	{
 	public:

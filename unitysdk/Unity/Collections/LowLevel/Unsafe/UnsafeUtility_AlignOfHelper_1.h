@@ -3,6 +3,8 @@
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
+	inline static constexpr unsigned int UnsafeUtility_AlignOfHelper_1_TypeDefinitionIndex = 4007;
+
 	template <typename T>
 	struct alignas(8) UnsafeUtility_AlignOfHelper_1
 	{

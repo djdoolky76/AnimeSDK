@@ -18,6 +18,8 @@ namespace System::Reflection { class ParameterInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int CustomAttributeExtensions_TypeDefinitionIndex = 537;
+
 	class CustomAttributeExtensions : public ::System::Object
 	{
 	public:

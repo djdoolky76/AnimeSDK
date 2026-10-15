@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifierBindEffectConfig_TypeDefinitionIndex = 16487;
+
 	class ModifierBindEffectConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

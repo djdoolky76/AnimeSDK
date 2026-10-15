@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int Capture_TypeDefinitionIndex = 2503;
+
 	class Capture : public ::System::Object
 	{
 	public:

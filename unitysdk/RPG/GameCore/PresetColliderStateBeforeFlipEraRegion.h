@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PresetColliderStateBeforeFlipEraRegion; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PresetColliderStateBeforeFlipEraRegion_TypeDefinitionIndex = 22331;
+
 	class PresetColliderStateBeforeFlipEraRegion : public ::RPG::GameCore::TaskConfig
 	{
 	public:

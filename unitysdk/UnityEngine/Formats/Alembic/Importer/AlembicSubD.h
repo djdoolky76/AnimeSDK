@@ -11,6 +11,8 @@
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicSubD_TypeDefinitionIndex = 45873;
+
 	class AlembicSubD : public ::UnityEngine::Formats::Alembic::Importer::AlembicMesh
 	{
 	public:

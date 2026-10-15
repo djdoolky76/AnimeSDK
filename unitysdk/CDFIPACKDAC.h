@@ -5,6 +5,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define CDFIPACKDAC_CTOR_OFFSET UNITYSDK_OFFSET(0xC766AD0)
 #define CDFIPACKDAC_MBABPIHGAJN_OFFSET UNITYSDK_OFFSET(0xC766A30)
 
+inline static constexpr unsigned int CDFIPACKDAC_TypeDefinitionIndex = 55121;
+
 	class CDFIPACKDAC
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityPropertyChangeReasonExtension_TypeDefinitionIndex = 57726;
+
 	class AbilityPropertyChangeReasonExtension : public ::System::Object
 	{
 	public:

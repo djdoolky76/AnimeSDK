@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIMap3DContainer_RotatablePoseTransformProvider_TypeDefinitionIndex = 69056;
+
 	class UIMap3DContainer_RotatablePoseTransformProvider : public ::System::Object
 	{
 	public:

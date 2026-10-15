@@ -8,6 +8,8 @@ class INMMPMDELKE;
 #define FLEKJOODOBH___C__DISPLAYCLASS7_0___ADDEVENTEMITTER_B__0_OFFSET UNITYSDK_OFFSET(0x1582F6C0)
 #define FLEKJOODOBH___C__DISPLAYCLASS7_0___ADDEVENTEMITTER_B__1_OFFSET UNITYSDK_OFFSET(0x1582F6F0)
 
+inline static constexpr unsigned int FLEKJOODOBH___c__DisplayClass7_0_TypeDefinitionIndex = 76757;
+
 	class FLEKJOODOBH___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

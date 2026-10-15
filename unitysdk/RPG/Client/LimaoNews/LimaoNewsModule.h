@@ -56,6 +56,8 @@ namespace RPG::Client::LimaoNews { class LimaoNewsWindowService; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsModule_TypeDefinitionIndex = 80291;
+
 	class LimaoNewsModule : public ::RPG::Client::BaseModule
 	{
 	public:

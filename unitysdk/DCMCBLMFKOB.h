@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int DCMCBLMFKOB_TypeDefinitionIndex = 25276;
+
 	enum class DCMCBLMFKOB : ::System::Int32
 	{
 		CHCPOELFFDD = 0,

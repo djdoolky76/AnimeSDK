@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharacterTeleportParams_TypeDefinitionIndex = 60133;
+
 	class CharacterTeleportParams : public ::System::Object
 	{
 	public:

@@ -37,6 +37,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int TakeMailAttachmentScRsp_TypeDefinitionIndex = 30500;
+
 	class TakeMailAttachmentScRsp : public ::System::Object
 	{
 	public:

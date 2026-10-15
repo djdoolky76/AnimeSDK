@@ -7,6 +7,8 @@ class MJNGFEGNCOA;
 #define MJNGFEGNCOA_CCTOR_OFFSET UNITYSDK_OFFSET(0xB96F4C0)
 #define MJNGFEGNCOA_CTOR_OFFSET UNITYSDK_OFFSET(0xB96F4B0)
 
+inline static constexpr unsigned int MJNGFEGNCOA_TypeDefinitionIndex = 54125;
+
 	class MJNGFEGNCOA : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPG::GameCore { class AbilityCurrentStanceChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityCurrentStanceChange_TypeDefinitionIndex = 56571;
+
 	class AbilityCurrentStanceChange : public ::CMPGEAFHHDC
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FatePhaseInfoItem_TypeDefinitionIndex = 64114;
+
 	class FatePhaseInfoItem : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace Cinemachine { class CinemachineBrain; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfGame___c__DisplayClass43_0_TypeDefinitionIndex = 63695;
+
 	class ElfGame___c__DisplayClass43_0 : public ::System::Object
 	{
 	public:

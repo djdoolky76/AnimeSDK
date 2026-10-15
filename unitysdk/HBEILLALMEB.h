@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HBEILLALMEB_CTOR_OFFSET UNITYSDK_OFFSET(0x15BED630)
 #define HBEILLALMEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15BED660)
 
+inline static constexpr unsigned int HBEILLALMEB_TypeDefinitionIndex = 53216;
+
 	class HBEILLALMEB
 	{
 	public:

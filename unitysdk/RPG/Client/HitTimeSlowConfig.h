@@ -9,6 +9,8 @@ namespace RPG::Client { class NamedCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HitTimeSlowConfig_TypeDefinitionIndex = 60042;
+
 	class HitTimeSlowConfig : public ::System::Object
 	{
 	public:

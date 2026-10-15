@@ -5,6 +5,8 @@
 #define MAMMNPKANJC_CTOR_OFFSET UNITYSDK_OFFSET(0xB854E90)
 #define MAMMNPKANJC__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0xB854DB0)
 
+inline static constexpr unsigned int MAMMNPKANJC_TypeDefinitionIndex = 59883;
+
 	class MAMMNPKANJC : public ::RPG::Client::SyncCheckItemBase
 	{
 	public:

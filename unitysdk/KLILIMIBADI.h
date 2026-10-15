@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KLILIMIBADI_CCTOR_OFFSET UNITYSDK_OFFSET(0xB52B2D0)
 #define KLILIMIBADI_ILOHHJDPDBE_OFFSET UNITYSDK_OFFSET(0xB52ADB0)
 
+inline static constexpr unsigned int KLILIMIBADI_TypeDefinitionIndex = 53678;
+
 	class KLILIMIBADI : public ::System::Object
 	{
 	public:

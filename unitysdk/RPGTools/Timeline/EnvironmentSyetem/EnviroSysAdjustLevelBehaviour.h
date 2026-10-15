@@ -18,6 +18,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline::EnvironmentSyetem
 {
+	inline static constexpr unsigned int EnviroSysAdjustLevelBehaviour_TypeDefinitionIndex = 48634;
+
 	class EnviroSysAdjustLevelBehaviour : public ::RPGTools::Timeline::RecoverablePlayableBehaviour
 	{
 	public:

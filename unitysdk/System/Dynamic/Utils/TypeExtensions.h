@@ -17,6 +17,8 @@ namespace System::Reflection { class ParameterInfo; }
 
 namespace System::Dynamic::Utils
 {
+	inline static constexpr unsigned int TypeExtensions_TypeDefinitionIndex = 3690;
+
 	class TypeExtensions : public ::System::Object
 	{
 	public:

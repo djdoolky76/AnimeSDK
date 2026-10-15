@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CBEMBJPNIJJ_SET_REUSES_OFFSET UNITYSDK_OFFSET(0xC4A1B30)
 #define CBEMBJPNIJJ_SET_SYNCREQUESTS_OFFSET UNITYSDK_OFFSET(0xC4A1AD0)
 
+inline static constexpr unsigned int CBEMBJPNIJJ_TypeDefinitionIndex = 77846;
+
 	class CBEMBJPNIJJ : public ::System::Object
 	{
 	public:

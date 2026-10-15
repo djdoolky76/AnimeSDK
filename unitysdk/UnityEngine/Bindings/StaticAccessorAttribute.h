@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Bindings
 {
+	inline static constexpr unsigned int StaticAccessorAttribute_TypeDefinitionIndex = 3735;
+
 	class StaticAccessorAttribute : public ::System::Attribute
 	{
 	public:

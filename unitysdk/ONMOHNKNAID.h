@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DynamicString; }
 #define ONMOHNKNAID_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2A4430)
 #define ONMOHNKNAID_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2A43F0)
 
+inline static constexpr unsigned int ONMOHNKNAID_TypeDefinitionIndex = 20991;
+
 	class ONMOHNKNAID : public ::RPG::GameCore::TaskConfig
 	{
 	public:

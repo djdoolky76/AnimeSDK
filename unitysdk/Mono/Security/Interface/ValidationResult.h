@@ -10,6 +10,8 @@ namespace System { class Nullable; }
 
 namespace Mono::Security::Interface
 {
+	inline static constexpr unsigned int ValidationResult_TypeDefinitionIndex = 2284;
+
 	class ValidationResult : public ::System::Object
 	{
 	public:

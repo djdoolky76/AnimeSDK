@@ -22,6 +22,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AirshipCarCollision_TypeDefinitionIndex = 59810;
+
 	class AirshipCarCollision : public ::UnityEngine::MonoBehaviour
 	{
 	public:

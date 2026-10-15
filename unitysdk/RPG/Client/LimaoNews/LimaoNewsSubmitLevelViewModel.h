@@ -14,6 +14,8 @@ namespace RPG::Client::LimaoNews { class LimaoNewsOfferingService; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsSubmitLevelViewModel_TypeDefinitionIndex = 80474;
+
 	class LimaoNewsSubmitLevelViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

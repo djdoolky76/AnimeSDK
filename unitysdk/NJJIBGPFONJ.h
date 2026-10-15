@@ -17,6 +17,8 @@ namespace System { class Object; }
 #define NJJIBGPFONJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBC19340)
 #define NJJIBGPFONJ_TICK_OFFSET UNITYSDK_OFFSET(0xBC19390)
 
+inline static constexpr unsigned int NJJIBGPFONJ_TypeDefinitionIndex = 52923;
+
 	class NJJIBGPFONJ : public ::GELIALJDFBL
 	{
 	public:

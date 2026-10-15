@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AGFHDKLNAAD_GGHIDBNAJFA_OFFSET UNITYSDK_OFFSET(0xCF29B90)
 #define AGFHDKLNAAD_JCDJLKDDHPC_OFFSET UNITYSDK_OFFSET(0xCF297F0)
 
+inline static constexpr unsigned int AGFHDKLNAAD_TypeDefinitionIndex = 57973;
+
 	class AGFHDKLNAAD
 	{
 	public:

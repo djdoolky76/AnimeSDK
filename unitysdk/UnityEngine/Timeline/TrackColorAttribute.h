@@ -8,6 +8,8 @@
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int TrackColorAttribute_TypeDefinitionIndex = 38802;
+
 	class TrackColorAttribute : public ::System::Attribute
 	{
 	public:

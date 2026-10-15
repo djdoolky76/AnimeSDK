@@ -52,6 +52,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LHHEGNEBMLN_SET_PROGRESSMONITOR_OFFSET UNITYSDK_OFFSET(0xB6B3020)
 #define LHHEGNEBMLN_SET__GAMEMODE_OFFSET UNITYSDK_OFFSET(0xB6B2F60)
 
+inline static constexpr unsigned int LHHEGNEBMLN_TypeDefinitionIndex = 56018;
+
 	class LHHEGNEBMLN : public ::System::Object
 	{
 	public:

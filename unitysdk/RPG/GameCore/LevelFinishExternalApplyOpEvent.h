@@ -13,6 +13,8 @@ namespace RPG::GameCore { class LevelFinishExternalApplyOpEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelFinishExternalApplyOpEvent_TypeDefinitionIndex = 56811;
+
 	class LevelFinishExternalApplyOpEvent : public ::CMPGEAFHHDC
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class SetTVNotifyConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetTVNotifyConfig_TypeDefinitionIndex = 16967;
+
 	class SetTVNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

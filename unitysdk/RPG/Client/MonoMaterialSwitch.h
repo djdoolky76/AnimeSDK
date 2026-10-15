@@ -16,6 +16,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoMaterialSwitch_TypeDefinitionIndex = 72590;
+
 	class MonoMaterialSwitch : public ::UnityEngine::MonoBehaviour
 	{
 	public:

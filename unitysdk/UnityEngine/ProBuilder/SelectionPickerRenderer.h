@@ -41,6 +41,8 @@ namespace UnityEngine::ProBuilder { class SelectionPickerRenderer_ISelectionPick
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int SelectionPickerRenderer_TypeDefinitionIndex = 44420;
+
 	class SelectionPickerRenderer : public ::System::Object
 	{
 	public:

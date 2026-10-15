@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
 #define FNALLJBLNEI_EGNOMFBOLKG_OFFSET UNITYSDK_OFFSET(0x2E77E10)
 
+inline static constexpr unsigned int FNALLJBLNEI_TypeDefinitionIndex = 55643;
+
 	struct alignas(8) FNALLJBLNEI
 	{
 		::RPG::GameCore::TurnBasedModifierInstance* ILIIOLJMKME; // 0x10

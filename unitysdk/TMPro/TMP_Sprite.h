@@ -9,6 +9,8 @@ namespace UnityEngine { class Sprite; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_Sprite_TypeDefinitionIndex = 44632;
+
 	class TMP_Sprite : public ::TMPro::TMP_TextElement_Legacy
 	{
 	public:

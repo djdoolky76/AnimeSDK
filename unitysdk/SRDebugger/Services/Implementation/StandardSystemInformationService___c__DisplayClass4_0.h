@@ -8,6 +8,8 @@ namespace SRDebugger { class InfoEntry; }
 
 namespace SRDebugger::Services::Implementation
 {
+	inline static constexpr unsigned int StandardSystemInformationService___c__DisplayClass4_0_TypeDefinitionIndex = 38091;
+
 	class StandardSystemInformationService___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define BCJPCHNKDCP__SEARCHALLENTITY_D__4___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x162E09D0)
 #define BCJPCHNKDCP__SEARCHALLENTITY_D__4___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0x162E0AD0)
 
+inline static constexpr unsigned int BCJPCHNKDCP__SearchAllEntity_d__4_TypeDefinitionIndex = 74196;
+
 	template <typename T1, typename T2, typename T3, typename T4>
 	class BCJPCHNKDCP__SearchAllEntity_d__4 : public ::System::Object
 	{

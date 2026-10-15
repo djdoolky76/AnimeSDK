@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LightConeQuickGrowCalculator_ExpSourceRow_TypeDefinitionIndex = 65721;
+
 	class LightConeQuickGrowCalculator_ExpSourceRow : public ::System::Object
 	{
 	public:

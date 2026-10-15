@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PKEJBHFMHCB_NODPBIKOJCF_OFFSET UNITYSDK_OFFSET(0xC2B3C90)
 #define PKEJBHFMHCB_SET_REPEATCOUNT_OFFSET UNITYSDK_OFFSET(0xC2B3A20)
 
+inline static constexpr unsigned int PKEJBHFMHCB_TypeDefinitionIndex = 77618;
+
 	class PKEJBHFMHCB : public ::MHALMEEDBAO
 	{
 	public:

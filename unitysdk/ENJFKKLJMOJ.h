@@ -14,6 +14,8 @@ class PNDNFPHFBMK;
 #define ENJFKKLJMOJ_KGDDIFMLKIF_OFFSET UNITYSDK_OFFSET(0x155B0AF0)
 #define ENJFKKLJMOJ_OBOJEIPJBBJ_OFFSET UNITYSDK_OFFSET(0x155B0970)
 
+inline static constexpr unsigned int ENJFKKLJMOJ_TypeDefinitionIndex = 67177;
+
 	class ENJFKKLJMOJ : public ::System::Object
 	{
 	public:

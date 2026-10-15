@@ -9,6 +9,8 @@ namespace System { class String; }
 #define DEHHODAHDMH_TOSTRING_OFFSET UNITYSDK_OFFSET(0xE50BFB0)
 #define DEHHODAHDMH_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xE50C060)
 
+inline static constexpr unsigned int DEHHODAHDMH_TypeDefinitionIndex = 67065;
+
 	class DEHHODAHDMH : public ::System::Object
 	{
 	public:

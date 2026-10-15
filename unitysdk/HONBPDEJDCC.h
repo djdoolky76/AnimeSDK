@@ -44,6 +44,8 @@ namespace System { class String; }
 #define HONBPDEJDCC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5EFF90)
 #define HONBPDEJDCC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5EFFF0)
 
+inline static constexpr unsigned int HONBPDEJDCC_TypeDefinitionIndex = 28554;
+
 	class HONBPDEJDCC : public ::System::Object
 	{
 	public:

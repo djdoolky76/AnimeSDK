@@ -12,6 +12,8 @@ namespace RPG::Client { class FABRIK; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TailIKController_TypeDefinitionIndex = 68861;
+
 	class TailIKController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System { class Object; }
 #define LGPFGDFHIOM_KDNEJKGDECC_OFFSET UNITYSDK_OFFSET(0x3C3CB40)
 #define LGPFGDFHIOM_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1D0EEBC0)
 
+inline static constexpr unsigned int LGPFGDFHIOM_TypeDefinitionIndex = 10670;
+
 	struct alignas(8) LGPFGDFHIOM
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

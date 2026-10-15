@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DLJPDKIMHAC_SET_AVAILABLEPARTIDLIST_OFFSET UNITYSDK_OFFSET(0xF8A1280)
 #define DLJPDKIMHAC_SET_CARID_OFFSET UNITYSDK_OFFSET(0xF8A1260)
 
+inline static constexpr unsigned int DLJPDKIMHAC_TypeDefinitionIndex = 81702;
+
 	class DLJPDKIMHAC : public ::System::Object
 	{
 	public:

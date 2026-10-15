@@ -420,6 +420,8 @@ namespace XLua { class LuaTable; }
 #define DNKAAIFEKNP_PNAHJNMOMMJ_OFFSET UNITYSDK_OFFSET(0x11965310)
 #define DNKAAIFEKNP_PNMPDMAHGKL_OFFSET UNITYSDK_OFFSET(0x11FA8D40)
 
+inline static constexpr unsigned int DNKAAIFEKNP_TypeDefinitionIndex = 59977;
+
 	class DNKAAIFEKNP : public ::System::Object
 	{
 	public:

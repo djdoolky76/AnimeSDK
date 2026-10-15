@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeCatchModule___c_TypeDefinitionIndex = 62967;
+
 	class CakeCatchModule___c : public ::System::Object
 	{
 	public:

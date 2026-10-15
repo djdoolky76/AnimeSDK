@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvSetHoyoGroupNpcAnimSpeedRatio_TypeDefinitionIndex = 21029;
+
 	class AdvSetHoyoGroupNpcAnimSpeedRatio : public ::RPG::GameCore::TaskConfig
 	{
 	public:

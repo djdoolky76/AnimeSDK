@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GFFDMPOCAIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E468100)
 #define GFFDMPOCAIP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E468110)
 
+inline static constexpr unsigned int GFFDMPOCAIP___c_TypeDefinitionIndex = 25117;
+
 	class GFFDMPOCAIP___c : public ::System::Object
 	{
 	public:

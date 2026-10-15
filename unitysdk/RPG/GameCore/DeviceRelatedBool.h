@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DeviceRelatedBool; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DeviceRelatedBool_TypeDefinitionIndex = 16470;
+
 	class DeviceRelatedBool : public ::RPG::GameCore::DeviceRelatedConfigBase
 	{
 	public:

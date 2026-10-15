@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimEvilSmileBakedMoveConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimEvilSmileBakedMoveConfig_TypeDefinitionIndex = 16684;
+
 	class FiveDimEvilSmileBakedMoveConfig : public ::RPG::GameCore::FiveDimPropBakedMoveConfig
 	{
 	public:

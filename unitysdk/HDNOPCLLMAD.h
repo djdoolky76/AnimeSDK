@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HDNOPCLLMAD_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x15C40040)
 #define HDNOPCLLMAD_SET_PREFAB_OFFSET UNITYSDK_OFFSET(0x15C40000)
 
+inline static constexpr unsigned int HDNOPCLLMAD_TypeDefinitionIndex = 69263;
+
 	class HDNOPCLLMAD : public ::System::Object
 	{
 	public:

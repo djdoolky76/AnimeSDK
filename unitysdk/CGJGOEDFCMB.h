@@ -13,6 +13,8 @@ namespace System { class Random; }
 #define CGJGOEDFCMB_OOCHBIFMPJM_OFFSET UNITYSDK_OFFSET(0x1DD188A0)
 #define CGJGOEDFCMB_PLPIEBGMNON_OFFSET UNITYSDK_OFFSET(0x1DD18A10)
 
+inline static constexpr unsigned int CGJGOEDFCMB_TypeDefinitionIndex = 6558;
+
 	class CGJGOEDFCMB : public ::System::Object
 	{
 	public:

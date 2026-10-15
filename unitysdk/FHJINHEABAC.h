@@ -25,6 +25,8 @@ namespace System { class String; }
 #define FHJINHEABAC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E38DAB0)
 #define FHJINHEABAC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E38DB10)
 
+inline static constexpr unsigned int FHJINHEABAC_TypeDefinitionIndex = 33676;
+
 	class FHJINHEABAC : public ::System::Object
 	{
 	public:

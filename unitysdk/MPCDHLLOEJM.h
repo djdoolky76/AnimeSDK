@@ -31,6 +31,8 @@ namespace System { class String; }
 #define MPCDHLLOEJM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAB3F70)
 #define MPCDHLLOEJM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAB3FD0)
 
+inline static constexpr unsigned int MPCDHLLOEJM_TypeDefinitionIndex = 30626;
+
 	class MPCDHLLOEJM : public ::System::Object
 	{
 	public:

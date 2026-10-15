@@ -6,6 +6,8 @@
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int ComCompatibleVersionAttribute_TypeDefinitionIndex = 1424;
+
 	class ComCompatibleVersionAttribute : public ::System::Attribute
 	{
 	public:

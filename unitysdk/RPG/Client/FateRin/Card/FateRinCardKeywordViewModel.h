@@ -11,6 +11,8 @@ class KMGFDBOANJO;
 
 namespace RPG::Client::FateRin::Card
 {
+	inline static constexpr unsigned int FateRinCardKeywordViewModel_TypeDefinitionIndex = 81143;
+
 	class FateRinCardKeywordViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

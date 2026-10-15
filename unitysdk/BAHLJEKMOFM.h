@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TutorialClearAllHideNodes; }
 #define BAHLJEKMOFM_CTOR_OFFSET UNITYSDK_OFFSET(0x15BE2590)
 #define BAHLJEKMOFM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15BE25C0)
 
+inline static constexpr unsigned int BAHLJEKMOFM_TypeDefinitionIndex = 58819;
+
 	class BAHLJEKMOFM
 	{
 	public:

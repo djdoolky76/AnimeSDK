@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IFOEBJMEFKG___C__DISPLAYCLASS52_0___TRYRECOMMENDMOLDFORATTRNOTMETONLY_G__ISPROGRESSMET_9_OFFSET UNITYSDK_OFFSET(0x15F2F9E0)
 #define IFOEBJMEFKG___C__DISPLAYCLASS52_0___TRYRECOMMENDMOLDFORATTRNOTMETONLY_G__MATCHES_8_OFFSET UNITYSDK_OFFSET(0x15F2F940)
 
+inline static constexpr unsigned int IFOEBJMEFKG___c__DisplayClass52_0_TypeDefinitionIndex = 79449;
+
 	class IFOEBJMEFKG___c__DisplayClass52_0 : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int BTC938AndroidUnityProfile_TypeDefinitionIndex = 40939;
+
 	class BTC938AndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

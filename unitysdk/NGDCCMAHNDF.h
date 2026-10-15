@@ -29,6 +29,8 @@ namespace System { class String; }
 #define NGDCCMAHNDF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB0C150)
 #define NGDCCMAHNDF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB0C1B0)
 
+inline static constexpr unsigned int NGDCCMAHNDF_TypeDefinitionIndex = 32406;
+
 	class NGDCCMAHNDF : public ::System::Object
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int CJBNLBINFJJ_TypeDefinitionIndex = 34931;
+
 	enum class CJBNLBINFJJ : ::System::Int32
 	{
 		NFDNDMDGICK = 0,

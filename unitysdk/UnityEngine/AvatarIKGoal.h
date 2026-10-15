@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AvatarIKGoal_TypeDefinitionIndex = 5694;
+
 	enum class AvatarIKGoal : ::System::Int32
 	{
 		LeftFoot = 0,

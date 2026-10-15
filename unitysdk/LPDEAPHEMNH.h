@@ -5,6 +5,8 @@
 
 #define LPDEAPHEMNH_PAANEAMLHMK_OFFSET UNITYSDK_OFFSET(0xB81ABA0)
 
+inline static constexpr unsigned int LPDEAPHEMNH_TypeDefinitionIndex = 64356;
+
 	class LPDEAPHEMNH : public ::System::Object
 	{
 	public:

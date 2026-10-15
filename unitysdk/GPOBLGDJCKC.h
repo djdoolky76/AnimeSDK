@@ -37,6 +37,8 @@ namespace System { class String; }
 #define GPOBLGDJCKC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4FB430)
 #define GPOBLGDJCKC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4FB490)
 
+inline static constexpr unsigned int GPOBLGDJCKC_TypeDefinitionIndex = 34141;
+
 	class GPOBLGDJCKC : public ::System::Object
 	{
 	public:

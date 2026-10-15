@@ -11,6 +11,8 @@ namespace System { class String; }
 #define OEKLIOCCJNB_UNRESOLVE_OFFSET UNITYSDK_OFFSET(0xBE31820)
 #define OEKLIOCCJNB__RESOLVE_OFFSET UNITYSDK_OFFSET(0xBE316C0)
 
+inline static constexpr unsigned int OEKLIOCCJNB_TypeDefinitionIndex = 56520;
+
 	class OEKLIOCCJNB
 	{
 	public:

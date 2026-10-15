@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BPKHHEBKEOH_KNEDNCKHOOC_GET_UIDTONEWCHIMERA_OFFSET UNITYSDK_OFFSET(0xC1A8750)
 #define BPKHHEBKEOH_KNEDNCKHOOC_SET_UIDTONEWCHIMERA_OFFSET UNITYSDK_OFFSET(0xC1A8760)
 
+inline static constexpr unsigned int BPKHHEBKEOH_KNEDNCKHOOC_TypeDefinitionIndex = 77449;
+
 	class BPKHHEBKEOH_KNEDNCKHOOC : public ::DFDIEEHGJED
 	{
 	public:

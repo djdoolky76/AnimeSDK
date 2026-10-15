@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_MoveToTarget_TypeDefinitionIndex = 20105;
+
 	class ST_Main_MoveToTarget : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

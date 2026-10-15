@@ -6,6 +6,8 @@
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int AutoResetEvent_TypeDefinitionIndex = 825;
+
 	class AutoResetEvent : public ::System::Threading::EventWaitHandle
 	{
 	public:

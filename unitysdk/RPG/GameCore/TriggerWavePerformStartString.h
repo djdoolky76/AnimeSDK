@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerWavePerformStartString; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerWavePerformStartString_TypeDefinitionIndex = 23401;
+
 	class TriggerWavePerformStartString : public ::RPG::GameCore::TaskConfig
 	{
 	public:

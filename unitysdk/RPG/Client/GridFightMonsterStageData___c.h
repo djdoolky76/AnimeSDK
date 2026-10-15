@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightMonsterStageData___c_TypeDefinitionIndex = 65061;
+
 	class GridFightMonsterStageData___c : public ::System::Object
 	{
 	public:

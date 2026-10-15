@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesBusinessDayHistoryData_TypeDefinitionIndex = 66564;
+
 	class PlanetFesBusinessDayHistoryData : public ::System::Object
 	{
 	public:

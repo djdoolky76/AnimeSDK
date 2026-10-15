@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVROverlay__GetOverlayErrorNameFromEnum_TypeDefinitionIndex = 39068;
+
 	class IVROverlay__GetOverlayErrorNameFromEnum : public ::System::MulticastDelegate
 	{
 	public:

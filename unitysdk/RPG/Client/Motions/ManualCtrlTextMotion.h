@@ -19,6 +19,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace RPG::Client::Motions
 {
+	inline static constexpr unsigned int ManualCtrlTextMotion_TypeDefinitionIndex = 73541;
+
 	class ManualCtrlTextMotion : public ::UnityEngine::UI::BaseMeshEffect
 	{
 	public:

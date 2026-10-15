@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HIAHLINDEHP_PAALJDJAMDK_OFFSET UNITYSDK_OFFSET(0x15CDCDA0)
 #define HIAHLINDEHP_SET_IDLELIVEPROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x15CDB5B0)
 
+inline static constexpr unsigned int HIAHLINDEHP_TypeDefinitionIndex = 75330;
+
 	class HIAHLINDEHP : public ::System::Object
 	{
 	public:

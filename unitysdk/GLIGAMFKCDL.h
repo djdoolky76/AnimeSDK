@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GLIGAMFKCDL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15AB7AD0)
 #define GLIGAMFKCDL_TICK_OFFSET UNITYSDK_OFFSET(0x15AB7B30)
 
+inline static constexpr unsigned int GLIGAMFKCDL_TypeDefinitionIndex = 53587;
+
 	class GLIGAMFKCDL : public ::GELIALJDFBL
 	{
 	public:

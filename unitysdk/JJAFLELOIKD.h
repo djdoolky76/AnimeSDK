@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define JJAFLELOIKD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0374B0)
 #define JJAFLELOIKD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D037470)
 
+inline static constexpr unsigned int JJAFLELOIKD_TypeDefinitionIndex = 10249;
+
 	class JJAFLELOIKD : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define AIGNBOLGIGI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E27B9A0)
 #define AIGNBOLGIGI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E27BA00)
 
+inline static constexpr unsigned int AIGNBOLGIGI_TypeDefinitionIndex = 29752;
+
 	class AIGNBOLGIGI : public ::System::Object
 	{
 	public:

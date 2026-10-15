@@ -9,6 +9,8 @@ namespace RPG::Client { class MatchThreeTimedEffect; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeBoard___c__DisplayClass37_0_TypeDefinitionIndex = 65916;
+
 	class MatchThreeBoard___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:

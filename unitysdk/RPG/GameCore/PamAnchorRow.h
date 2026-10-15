@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PamAnchorRow_TypeDefinitionIndex = 14306;
+
 	class PamAnchorRow : public ::System::Object
 	{
 	public:

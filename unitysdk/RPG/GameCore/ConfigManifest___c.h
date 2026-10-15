@@ -12,6 +12,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConfigManifest___c_TypeDefinitionIndex = 56512;
+
 	class ConfigManifest___c : public ::System::Object
 	{
 	public:

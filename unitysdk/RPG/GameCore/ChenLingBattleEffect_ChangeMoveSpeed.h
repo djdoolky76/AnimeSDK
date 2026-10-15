@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingBattleEffect_ChangeMoveSpeed; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleEffect_ChangeMoveSpeed_TypeDefinitionIndex = 15793;
+
 	class ChenLingBattleEffect_ChangeMoveSpeed : public ::RPG::GameCore::BaseChenLingBattleEffect
 	{
 	public:

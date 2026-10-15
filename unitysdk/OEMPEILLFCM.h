@@ -6,6 +6,8 @@ class LBJLBMOOJGM;
 #define OEMPEILLFCM_CTOR_OFFSET UNITYSDK_OFFSET(0xBE336C0)
 #define OEMPEILLFCM_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xBE33610)
 
+inline static constexpr unsigned int OEMPEILLFCM_TypeDefinitionIndex = 81260;
+
 	class OEMPEILLFCM : public ::System::Object
 	{
 	public:

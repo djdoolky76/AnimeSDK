@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int GuidAttribute_TypeDefinitionIndex = 1414;
+
 	class GuidAttribute : public ::System::Attribute
 	{
 	public:

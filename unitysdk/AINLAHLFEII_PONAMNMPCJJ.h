@@ -7,6 +7,8 @@ namespace System { class String; }
 #define AINLAHLFEII_PONAMNMPCJJ_CTOR_2_OFFSET UNITYSDK_OFFSET(0x2305D10)
 #define AINLAHLFEII_PONAMNMPCJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x2305CE0)
 
+inline static constexpr unsigned int AINLAHLFEII_PONAMNMPCJJ_TypeDefinitionIndex = 57281;
+
 	struct alignas(8) AINLAHLFEII_PONAMNMPCJJ
 	{
 		::System::Boolean EPAOGCJLFHJ; // 0x10

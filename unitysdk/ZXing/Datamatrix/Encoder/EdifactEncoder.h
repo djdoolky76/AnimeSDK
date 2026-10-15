@@ -14,6 +14,8 @@ namespace ZXing::Datamatrix::Encoder { class EncoderContext; }
 
 namespace ZXing::Datamatrix::Encoder
 {
+	inline static constexpr unsigned int EdifactEncoder_TypeDefinitionIndex = 7015;
+
 	class EdifactEncoder : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebDelegate_QueryIsOffScreenRenderingDelegate_TypeDefinitionIndex = 7856;
+
 	class WebDelegate_QueryIsOffScreenRenderingDelegate : public ::System::MulticastDelegate
 	{
 	public:

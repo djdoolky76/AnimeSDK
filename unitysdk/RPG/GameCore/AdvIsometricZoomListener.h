@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvIsometricZoomListener_TypeDefinitionIndex = 22212;
+
 	class AdvIsometricZoomListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

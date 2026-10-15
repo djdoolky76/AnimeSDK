@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int HBFIBDGJLHE_ETriggerState_TypeDefinitionIndex = 82171;
+
 	enum class HBFIBDGJLHE_ETriggerState : ::System::Int32
 	{
 		None = 0,

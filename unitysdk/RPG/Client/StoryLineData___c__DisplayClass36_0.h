@@ -8,6 +8,8 @@ class MCMFHHKJDEE;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StoryLineData___c__DisplayClass36_0_TypeDefinitionIndex = 67989;
+
 	class StoryLineData___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:

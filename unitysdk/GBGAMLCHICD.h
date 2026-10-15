@@ -6,6 +6,8 @@ class INHCJHBALFC;
 #define GBGAMLCHICD_CTOR_OFFSET UNITYSDK_OFFSET(0x1594C690)
 #define GBGAMLCHICD_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1594C1D0)
 
+inline static constexpr unsigned int GBGAMLCHICD_TypeDefinitionIndex = 54268;
+
 	class GBGAMLCHICD : public ::BHDAFDOMINP
 	{
 	public:

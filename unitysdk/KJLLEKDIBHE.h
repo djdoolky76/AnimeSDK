@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define KJLLEKDIBHE_CTOR_OFFSET UNITYSDK_OFFSET(0xB45AAE0)
 
+inline static constexpr unsigned int KJLLEKDIBHE_TypeDefinitionIndex = 48936;
+
 	class KJLLEKDIBHE : public ::System::Object
 	{
 	public:

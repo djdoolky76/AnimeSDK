@@ -31,6 +31,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesSkillBuffData_TypeDefinitionIndex = 66632;
+
 	class PlanetFesSkillBuffData : public ::System::Object
 	{
 	public:

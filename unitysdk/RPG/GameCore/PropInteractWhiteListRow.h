@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PropInteractWhiteListRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropInteractWhiteListRow_TypeDefinitionIndex = 13234;
+
 	class PropInteractWhiteListRow : public ::System::Object
 	{
 	public:

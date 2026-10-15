@@ -27,6 +27,8 @@ namespace System { class String; }
 #define OBICGCEFCCI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EBAF270)
 #define OBICGCEFCCI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EBAF2D0)
 
+inline static constexpr unsigned int OBICGCEFCCI_TypeDefinitionIndex = 34929;
+
 	class OBICGCEFCCI : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 namespace UnityEngine::ParticleSystemJobs
 {
+	inline static constexpr unsigned int ParticleSystemNativeArray4_TypeDefinitionIndex = 5294;
+
 	struct alignas(8) ParticleSystemNativeArray4
 	{
 		::Unity::Collections::NativeArray_1<::System::Single> x; // 0x10

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define MJEPCLPMKKI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA489E0)
 #define MJEPCLPMKKI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA48A40)
 
+inline static constexpr unsigned int MJEPCLPMKKI_TypeDefinitionIndex = 32996;
+
 	class MJEPCLPMKKI : public ::System::Object
 	{
 	public:

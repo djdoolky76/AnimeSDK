@@ -9,6 +9,8 @@ namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 #define FEIEBAJPIAE___C__DISPLAYCLASS111_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15702120)
 #define FEIEBAJPIAE___C__DISPLAYCLASS111_0__DETECTCHARGINGROTATION_B__0_OFFSET UNITYSDK_OFFSET(0x15722C40)
 
+inline static constexpr unsigned int FEIEBAJPIAE___c__DisplayClass111_0_TypeDefinitionIndex = 75943;
+
 	class FEIEBAJPIAE___c__DisplayClass111_0 : public ::System::Object
 	{
 	public:

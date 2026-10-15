@@ -3,6 +3,8 @@
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGCurveSettings_ShowCurveModeEnum_TypeDefinitionIndex = 36027;
+
 	enum class BGCurveSettings_ShowCurveModeEnum : ::System::Int32
 	{
 		CurveSelected = 0,

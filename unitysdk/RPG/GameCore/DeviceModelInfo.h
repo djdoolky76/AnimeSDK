@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DeviceModelInfo_TypeDefinitionIndex = 18269;
+
 	class DeviceModelInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

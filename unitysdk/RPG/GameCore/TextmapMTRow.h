@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TextmapMTRow_TypeDefinitionIndex = 15292;
+
 	class TextmapMTRow : public ::System::Object
 	{
 	public:

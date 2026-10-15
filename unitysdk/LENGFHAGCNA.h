@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LENGFHAGCNA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D0E5A90)
 #define LENGFHAGCNA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0E53F0)
 
+inline static constexpr unsigned int LENGFHAGCNA_TypeDefinitionIndex = 12256;
+
 	class LENGFHAGCNA : public ::System::Object
 	{
 	public:

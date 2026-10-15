@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::Promises
 {
+	inline static constexpr unsigned int PredicateWait_TypeDefinitionIndex = 9901;
+
 	class PredicateWait : public ::System::Object
 	{
 	public:

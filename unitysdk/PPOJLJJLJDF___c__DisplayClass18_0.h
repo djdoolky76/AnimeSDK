@@ -7,6 +7,8 @@ class PPOJLJJLJDF;
 #define PPOJLJJLJDF___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC398290)
 #define PPOJLJJLJDF___C__DISPLAYCLASS18_0__ONDETAILCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0xC3990A0)
 
+inline static constexpr unsigned int PPOJLJJLJDF___c__DisplayClass18_0_TypeDefinitionIndex = 71280;
+
 	class PPOJLJJLJDF___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:

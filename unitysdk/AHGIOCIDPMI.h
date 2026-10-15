@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define AHGIOCIDPMI_OACBGCFADMP_OFFSET UNITYSDK_OFFSET(0xEB815B0)
 #define AHGIOCIDPMI_OKDCEHFFPOM_OFFSET UNITYSDK_OFFSET(0xEB80AB0)
 
+inline static constexpr unsigned int AHGIOCIDPMI_TypeDefinitionIndex = 73416;
+
 	class AHGIOCIDPMI : public ::AENEFHBMEMJ
 	{
 	public:

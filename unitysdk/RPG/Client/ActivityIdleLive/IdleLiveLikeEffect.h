@@ -13,6 +13,8 @@ namespace UnityEngine { class Animation; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveLikeEffect_TypeDefinitionIndex = 75186;
+
 	class IdleLiveLikeEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

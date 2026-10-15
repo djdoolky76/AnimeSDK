@@ -17,6 +17,8 @@ namespace System { class String; }
 #define MPBEEEJDIJF_PBBFABLNIGC_OFFSET UNITYSDK_OFFSET(0xBA38B50)
 #define MPBEEEJDIJF_SET_PRECISION_OFFSET UNITYSDK_OFFSET(0xBA38D70)
 
+inline static constexpr unsigned int MPBEEEJDIJF_TypeDefinitionIndex = 73388;
+
 	class MPBEEEJDIJF : public ::System::Object
 	{
 	public:

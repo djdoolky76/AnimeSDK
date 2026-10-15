@@ -28,6 +28,8 @@ namespace System { class String; }
 #define FCEILNCDMAH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E344CB0)
 #define FCEILNCDMAH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E344D10)
 
+inline static constexpr unsigned int FCEILNCDMAH_TypeDefinitionIndex = 29665;
+
 	class FCEILNCDMAH : public ::System::Object
 	{
 	public:

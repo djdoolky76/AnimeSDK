@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesFeverProgressControl_TypeDefinitionIndex = 81305;
+
 	class ChenLingFesFeverProgressControl : public ::Sofa::BaseSofaControl
 	{
 	public:

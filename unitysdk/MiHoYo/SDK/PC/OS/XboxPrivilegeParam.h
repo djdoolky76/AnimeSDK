@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int XboxPrivilegeParam_TypeDefinitionIndex = 8689;
+
 	class XboxPrivilegeParam : public ::System::Object
 	{
 	public:

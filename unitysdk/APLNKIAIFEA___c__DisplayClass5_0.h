@@ -9,6 +9,8 @@ namespace RPG::Client::Promises { class IPromise; }
 #define APLNKIAIFEA___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15BB28E0)
 #define APLNKIAIFEA___C__DISPLAYCLASS5_0__DIRECTACQUIREPARTASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x15BB47E0)
 
+inline static constexpr unsigned int APLNKIAIFEA___c__DisplayClass5_0_TypeDefinitionIndex = 81815;
+
 	class APLNKIAIFEA___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

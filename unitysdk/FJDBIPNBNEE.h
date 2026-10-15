@@ -5,6 +5,8 @@
 #define FJDBIPNBNEE_CTOR_OFFSET UNITYSDK_OFFSET(0x157C2EC0)
 #define FJDBIPNBNEE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x157C2E80)
 
+inline static constexpr unsigned int FJDBIPNBNEE_TypeDefinitionIndex = 78789;
+
 	class FJDBIPNBNEE : public ::System::Object
 	{
 	public:

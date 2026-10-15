@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace SRDebugger::UI::Controls
 {
+	inline static constexpr unsigned int ConsoleEntryView_TypeDefinitionIndex = 38020;
+
 	class ConsoleEntryView : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class UniversalHotFixPredicateC; }
 #define ADIKNDCNGJC_CTOR_OFFSET UNITYSDK_OFFSET(0xB141060)
 #define ADIKNDCNGJC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB1410E0)
 
+inline static constexpr unsigned int ADIKNDCNGJC_TypeDefinitionIndex = 55792;
+
 	class ADIKNDCNGJC : public ::OGEFLHNGAEH
 	{
 	public:

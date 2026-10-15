@@ -8,6 +8,8 @@ namespace RPG::Client { class RogueSiteData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMapData___c__DisplayClass4_0_TypeDefinitionIndex = 67461;
+
 	class RogueMapData___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

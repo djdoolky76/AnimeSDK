@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActivityTelevisionQuestRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityTelevisionQuestRow_TypeDefinitionIndex = 12506;
+
 	class ActivityTelevisionQuestRow : public ::System::Object
 	{
 	public:

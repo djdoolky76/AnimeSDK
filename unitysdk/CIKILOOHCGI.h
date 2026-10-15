@@ -9,6 +9,8 @@ namespace System { template <typename T> class Func_1; }
 #define CIKILOOHCGI_CTOR_OFFSET UNITYSDK_OFFSET(0xCF8D110)
 #define CIKILOOHCGI_NPNMEEJGCLB_OFFSET UNITYSDK_OFFSET(0xCF8D1A0)
 
+inline static constexpr unsigned int CIKILOOHCGI_TypeDefinitionIndex = 78874;
+
 	class CIKILOOHCGI : public ::BKDAGBGKDKA
 	{
 	public:

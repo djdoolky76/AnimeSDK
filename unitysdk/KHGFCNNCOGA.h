@@ -30,6 +30,8 @@ namespace System { class String; }
 #define KHGFCNNCOGA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E843FA0)
 #define KHGFCNNCOGA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E844000)
 
+inline static constexpr unsigned int KHGFCNNCOGA_TypeDefinitionIndex = 27180;
+
 	class KHGFCNNCOGA : public ::System::Object
 	{
 	public:

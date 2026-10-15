@@ -18,6 +18,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharacterArtModelEffectBehavior_TypeDefinitionIndex = 70252;
+
 	class CharacterArtModelEffectBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

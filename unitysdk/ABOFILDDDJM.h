@@ -27,6 +27,8 @@ namespace UnityEngine { class Transform; }
 #define ABOFILDDDJM_PMMJGEDIIJD_OFFSET UNITYSDK_OFFSET(0xB10FF70)
 #define ABOFILDDDJM_SET_CURRENTMOVESTATE_OFFSET UNITYSDK_OFFSET(0xB10F0C0)
 
+inline static constexpr unsigned int ABOFILDDDJM_TypeDefinitionIndex = 53620;
+
 	class ABOFILDDDJM : public ::System::Object
 	{
 	public:

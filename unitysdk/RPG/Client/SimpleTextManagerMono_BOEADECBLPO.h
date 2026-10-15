@@ -7,6 +7,8 @@ namespace UnityEngine { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SimpleTextManagerMono_BOEADECBLPO_TypeDefinitionIndex = 72649;
+
 	class SimpleTextManagerMono_BOEADECBLPO : public ::System::Object
 	{
 	public:

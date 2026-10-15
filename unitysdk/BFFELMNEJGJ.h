@@ -9,6 +9,8 @@ namespace RPG::Client { class GridFightRole; }
 #define BFFELMNEJGJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB162280)
 #define BFFELMNEJGJ_PAMKOLICNOL_OFFSET UNITYSDK_OFFSET(0xB162310)
 
+inline static constexpr unsigned int BFFELMNEJGJ_TypeDefinitionIndex = 65140;
+
 	class BFFELMNEJGJ : public ::System::Object
 	{
 	public:

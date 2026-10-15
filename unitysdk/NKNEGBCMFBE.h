@@ -5,6 +5,8 @@ namespace RPG::GameCore { class MonopolyMapConfig; }
 
 #define NKNEGBCMFBE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C96DBD0)
 
+inline static constexpr unsigned int NKNEGBCMFBE_TypeDefinitionIndex = 42547;
+
 	class NKNEGBCMFBE : public ::System::Object
 	{
 	public:

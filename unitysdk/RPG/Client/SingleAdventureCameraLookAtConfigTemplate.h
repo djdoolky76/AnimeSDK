@@ -8,6 +8,8 @@ namespace RPG::GameCore { class BaseAdventureCameraLookAt; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SingleAdventureCameraLookAtConfigTemplate_TypeDefinitionIndex = 69527;
+
 	class SingleAdventureCameraLookAtConfigTemplate : public ::System::Object
 	{
 	public:

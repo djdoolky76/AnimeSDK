@@ -8,6 +8,8 @@ namespace System { class IDisposable; }
 
 namespace R3
 {
+	inline static constexpr unsigned int SingleAssignmentDisposableCore_TypeDefinitionIndex = 35969;
+
 	struct alignas(8) SingleAssignmentDisposableCore
 	{
 		::System::IDisposable* current; // 0x10

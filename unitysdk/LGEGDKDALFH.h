@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChimeraBattleShowNPCDither; }
 #define LGEGDKDALFH_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xB691190)
 #define LGEGDKDALFH_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB690EF0)
 
+inline static constexpr unsigned int LGEGDKDALFH_TypeDefinitionIndex = 78407;
+
 	class LGEGDKDALFH : public ::System::Object
 	{
 	public:

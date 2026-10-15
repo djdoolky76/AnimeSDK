@@ -6,6 +6,8 @@
 
 namespace InControl
 {
+	inline static constexpr unsigned int NativeInputDeviceProfileAttribute_TypeDefinitionIndex = 40869;
+
 	class NativeInputDeviceProfileAttribute : public ::System::Attribute
 	{
 	public:

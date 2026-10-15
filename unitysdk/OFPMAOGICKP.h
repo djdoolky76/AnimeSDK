@@ -5,6 +5,8 @@
 #define OFPMAOGICKP_CTOR_OFFSET UNITYSDK_OFFSET(0xBE4DA80)
 #define OFPMAOGICKP_EEBLEFFIHBP_OFFSET UNITYSDK_OFFSET(0xBE4D9E0)
 
+inline static constexpr unsigned int OFPMAOGICKP_TypeDefinitionIndex = 62658;
+
 	class OFPMAOGICKP : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 #define JHPHMGHKGEN_BEMHFPJIJME_OFFSET UNITYSDK_OFFSET(0xB1C9160)
 #define JHPHMGHKGEN_CTOR_OFFSET UNITYSDK_OFFSET(0xB1C91A0)
 
+inline static constexpr unsigned int JHPHMGHKGEN_TypeDefinitionIndex = 49250;
+
 	class JHPHMGHKGEN : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 #define BACIMFPMOPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCF0B00)
 #define BACIMFPMOPJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCF0850)
 
+inline static constexpr unsigned int BACIMFPMOPJ_TypeDefinitionIndex = 11568;
+
 	class BACIMFPMOPJ : public ::System::Object
 	{
 	public:

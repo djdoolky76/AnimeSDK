@@ -15,6 +15,8 @@ namespace UnityEngine { class Object; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int RuntimeUtility_TypeDefinitionIndex = 39843;
+
 	class RuntimeUtility : public ::System::Object
 	{
 	public:

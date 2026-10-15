@@ -17,6 +17,8 @@ namespace System::Xml::Linq { class XNamespace; }
 
 namespace System::Xml::Linq
 {
+	inline static constexpr unsigned int ElementWriter_TypeDefinitionIndex = 3898;
+
 	struct alignas(8) ElementWriter
 	{
 		::System::Xml::XmlWriter* writer; // 0x10

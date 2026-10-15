@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LoopWaitRogueTournPermanantTalentStateChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoopWaitRogueTournPermanantTalentStateChange_TypeDefinitionIndex = 21235;
+
 	class LoopWaitRogueTournPermanantTalentStateChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:

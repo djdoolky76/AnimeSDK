@@ -49,6 +49,8 @@ namespace System::Runtime::Serialization { class SerializationInfoEnumerator; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int SerializationInfo_TypeDefinitionIndex = 1130;
+
 	class SerializationInfo : public ::System::Object
 	{
 	public:

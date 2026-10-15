@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace System
 {
+	inline static constexpr unsigned int AppContext_TypeDefinitionIndex = 154;
+
 	class AppContext : public ::System::Object
 	{
 	public:

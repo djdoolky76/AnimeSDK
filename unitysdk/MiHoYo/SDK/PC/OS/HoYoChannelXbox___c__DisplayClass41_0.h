@@ -10,6 +10,8 @@ namespace MiHoYo::SDK::PC::OS { class XboxPayInfo; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int HoYoChannelXbox___c__DisplayClass41_0_TypeDefinitionIndex = 8652;
+
 	class HoYoChannelXbox___c__DisplayClass41_0 : public ::System::Object
 	{
 	public:

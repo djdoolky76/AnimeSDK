@@ -52,6 +52,8 @@ namespace System { class String; }
 #define KIKEAJJLAMH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E85FCE0)
 #define KIKEAJJLAMH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E85FD40)
 
+inline static constexpr unsigned int KIKEAJJLAMH_TypeDefinitionIndex = 33724;
+
 	class KIKEAJJLAMH : public ::System::Object
 	{
 	public:

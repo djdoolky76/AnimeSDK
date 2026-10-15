@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatDiceSelectorConfig_Triple; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatDiceSelectorConfig_Triple_TypeDefinitionIndex = 16142;
+
 	class DiceCombatDiceSelectorConfig_Triple : public ::RPG::GameCore::DiceCombatDiceSelectorConfig
 	{
 	public:

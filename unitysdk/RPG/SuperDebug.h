@@ -102,6 +102,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int SuperDebug_TypeDefinitionIndex = 6404;
+
 	class SuperDebug : public ::System::Object
 	{
 	public:

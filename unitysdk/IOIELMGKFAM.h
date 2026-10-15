@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define IOIELMGKFAM_CTOR_OFFSET UNITYSDK_OFFSET(0x16502EB0)
 #define IOIELMGKFAM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16502EE0)
 
+inline static constexpr unsigned int IOIELMGKFAM_TypeDefinitionIndex = 52704;
+
 	class IOIELMGKFAM
 	{
 	public:

@@ -4,6 +4,8 @@
 class HIOAMIPNLIN;
 namespace System { template <typename T> class Predicate_1; }
 
+inline static constexpr unsigned int EFCOKCPFADH___O_TypeDefinitionIndex = 53959;
+
 	class EFCOKCPFADH___O : public ::System::Object
 	{
 	public:

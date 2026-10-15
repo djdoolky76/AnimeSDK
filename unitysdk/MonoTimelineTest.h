@@ -6,6 +6,8 @@ namespace UnityEngine { class GameObject; }
 #define MONOTIMELINETEST_CTOR_OFFSET UNITYSDK_OFFSET(0xBA4F3C0)
 #define MONOTIMELINETEST_UPDATE_OFFSET UNITYSDK_OFFSET(0xBA4F060)
 
+inline static constexpr unsigned int MonoTimelineTest_TypeDefinitionIndex = 47567;
+
 	class MonoTimelineTest : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -7,6 +7,8 @@
 #define JEANAIHDCAA_CTOR_OFFSET UNITYSDK_OFFSET(0x16617230)
 #define JEANAIHDCAA_PFBGIJIBAEE_OFFSET UNITYSDK_OFFSET(0x166171E0)
 
+inline static constexpr unsigned int JEANAIHDCAA_TypeDefinitionIndex = 65960;
+
 	class JEANAIHDCAA : public ::System::Object
 	{
 	public:

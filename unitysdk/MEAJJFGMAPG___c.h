@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MEAJJFGMAPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA07CD0)
 #define MEAJJFGMAPG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EA07CE0)
 
+inline static constexpr unsigned int MEAJJFGMAPG___c_TypeDefinitionIndex = 27677;
+
 	class MEAJJFGMAPG___c : public ::System::Object
 	{
 	public:

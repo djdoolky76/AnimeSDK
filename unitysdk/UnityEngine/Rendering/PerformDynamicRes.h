@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int PerformDynamicRes_TypeDefinitionIndex = 35481;
+
 	class PerformDynamicRes : public ::System::MulticastDelegate
 	{
 	public:

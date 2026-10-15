@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DHGNBCEBBKC_PBIPAGHLINB_OFFSET UNITYSDK_OFFSET(0xEBD34A0)
 #define DHGNBCEBBKC_PBLGDPDJPJM_OFFSET UNITYSDK_OFFSET(0xEBD38A0)
 
+inline static constexpr unsigned int DHGNBCEBBKC_TypeDefinitionIndex = 66387;
+
 	class DHGNBCEBBKC : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

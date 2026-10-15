@@ -35,6 +35,8 @@ namespace System { class String; }
 #define MMIGPCKGBBO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA8C850)
 #define MMIGPCKGBBO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA8C8B0)
 
+inline static constexpr unsigned int MMIGPCKGBBO_TypeDefinitionIndex = 32308;
+
 	class MMIGPCKGBBO : public ::System::Object
 	{
 	public:

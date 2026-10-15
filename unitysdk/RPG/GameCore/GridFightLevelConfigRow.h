@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightLevelConfigRow_TypeDefinitionIndex = 13473;
+
 	class GridFightLevelConfigRow : public ::System::Object
 	{
 	public:

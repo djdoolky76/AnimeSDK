@@ -4,6 +4,8 @@
 
 #define DIHJGOJEDOA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2AAC0)
 
+inline static constexpr unsigned int DIHJGOJEDOA_TypeDefinitionIndex = 43777;
+
 	class DIHJGOJEDOA : public ::System::Object
 	{
 	public:

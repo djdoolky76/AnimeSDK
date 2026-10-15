@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareFloorCustomString_TypeDefinitionIndex = 20694;
+
 	class ByCompareFloorCustomString : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define DKFKJFDBAHA_CCTOR_OFFSET UNITYSDK_OFFSET(0xF87B070)
 
+inline static constexpr unsigned int DKFKJFDBAHA_TypeDefinitionIndex = 49253;
+
 	class DKFKJFDBAHA : public ::System::Object
 	{
 	public:

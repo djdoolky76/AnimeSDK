@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Ui::Samples
 {
+	inline static constexpr unsigned int FriendChatTabViewModel_TypeDefinitionIndex = 73438;
+
 	class FriendChatTabViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

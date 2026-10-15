@@ -33,6 +33,8 @@ namespace System { class String; }
 #define IPBOFGFMHHC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6DD340)
 #define IPBOFGFMHHC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6DD3A0)
 
+inline static constexpr unsigned int IPBOFGFMHHC_TypeDefinitionIndex = 31313;
+
 	class IPBOFGFMHHC : public ::System::Object
 	{
 	public:

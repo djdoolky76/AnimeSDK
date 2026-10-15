@@ -11,6 +11,8 @@ namespace RPG::GameCore { class HeartDialBillboardRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HeartDialBillboardRow_TypeDefinitionIndex = 13728;
+
 	class HeartDialBillboardRow : public ::System::Object
 	{
 	public:

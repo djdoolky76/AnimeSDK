@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int LoginManagerCXHandheld_TypeDefinitionIndex = 8759;
+
 	class LoginManagerCXHandheld : public ::MiHoYo::SDK::PC::OS::CXHandheld::LoginManagerHandheld
 	{
 	public:

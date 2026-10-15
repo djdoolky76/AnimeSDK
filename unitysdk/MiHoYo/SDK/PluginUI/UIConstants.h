@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int UIConstants_TypeDefinitionIndex = 46796;
+
 	class UIConstants : public ::System::Object
 	{
 	public:

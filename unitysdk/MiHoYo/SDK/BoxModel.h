@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int BoxModel_TypeDefinitionIndex = 7929;
+
 	class BoxModel : public ::System::Object
 	{
 	public:

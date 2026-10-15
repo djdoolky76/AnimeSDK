@@ -3,6 +3,8 @@
 
 namespace UnityEngine::EventSystems
 {
+	inline static constexpr unsigned int EventTriggerType_TypeDefinitionIndex = 6933;
+
 	enum class EventTriggerType : ::System::Int32
 	{
 		PointerEnter = 0,

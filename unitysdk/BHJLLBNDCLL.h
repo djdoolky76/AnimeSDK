@@ -13,6 +13,8 @@ namespace System { class String; }
 #define BHJLLBNDCLL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D803A60)
 #define BHJLLBNDCLL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D803960)
 
+inline static constexpr unsigned int BHJLLBNDCLL_TypeDefinitionIndex = 22862;
+
 	class BHJLLBNDCLL : public ::RPG::GameCore::TaskConfig
 	{
 	public:

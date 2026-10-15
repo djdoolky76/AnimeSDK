@@ -5,6 +5,8 @@
 #define BKCFIHPCEMA_CTOR_OFFSET UNITYSDK_OFFSET(0xB7AD3B0)
 #define BKCFIHPCEMA_GAOBNIHOCLL_OFFSET UNITYSDK_OFFSET(0xB7AD300)
 
+inline static constexpr unsigned int BKCFIHPCEMA_TypeDefinitionIndex = 67325;
+
 	class BKCFIHPCEMA : public ::System::Object
 	{
 	public:

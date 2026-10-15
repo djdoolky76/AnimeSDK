@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define EJLFOBMAPEJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2BD6C0)
 #define EJLFOBMAPEJ___C___CCTOR_B__83_0_OFFSET UNITYSDK_OFFSET(0x1E2BD6D0)
 
+inline static constexpr unsigned int EJLFOBMAPEJ___c_TypeDefinitionIndex = 31379;
+
 	class EJLFOBMAPEJ___c : public ::System::Object
 	{
 	public:

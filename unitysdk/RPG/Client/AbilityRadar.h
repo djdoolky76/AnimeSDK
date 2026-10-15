@@ -15,6 +15,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AbilityRadar_TypeDefinitionIndex = 72495;
+
 	class AbilityRadar : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:

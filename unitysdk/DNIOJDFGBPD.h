@@ -10,6 +10,8 @@ namespace Entitas { class IEntity; }
 #define DNIOJDFGBPD_ONREMOVE_OFFSET UNITYSDK_OFFSET(0x119630E0)
 #define DNIOJDFGBPD_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x11962D90)
 
+inline static constexpr unsigned int DNIOJDFGBPD_TypeDefinitionIndex = 79127;
+
 	class DNIOJDFGBPD
 	{
 	public:

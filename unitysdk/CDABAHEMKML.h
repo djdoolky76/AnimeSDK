@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CDABAHEMKML_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DA0EA80)
 #define CDABAHEMKML_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DA0E3A0)
 
+inline static constexpr unsigned int CDABAHEMKML_TypeDefinitionIndex = 13576;
+
 	class CDABAHEMKML : public ::System::Object
 	{
 	public:

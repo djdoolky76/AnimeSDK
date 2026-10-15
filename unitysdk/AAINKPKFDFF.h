@@ -13,6 +13,8 @@ class MOJFFDOILBN;
 #define AAINKPKFDFF_SET_SCORE_OFFSET UNITYSDK_OFFSET(0xB0C77C0)
 #define AAINKPKFDFF_SET_STARNUM_OFFSET UNITYSDK_OFFSET(0xB0C77E0)
 
+inline static constexpr unsigned int AAINKPKFDFF_TypeDefinitionIndex = 61463;
+
 	class AAINKPKFDFF : public ::System::Object
 	{
 	public:

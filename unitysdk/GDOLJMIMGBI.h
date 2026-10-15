@@ -9,6 +9,8 @@ class HNLKNLJBHDD;
 #define GDOLJMIMGBI_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x1C635660)
 #define GDOLJMIMGBI_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x1C634A40)
 
+inline static constexpr unsigned int GDOLJMIMGBI_TypeDefinitionIndex = 37138;
+
 	class GDOLJMIMGBI : public ::System::Object
 	{
 	public:

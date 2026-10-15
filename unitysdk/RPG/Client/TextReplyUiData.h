@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TextReplyUiData_TypeDefinitionIndex = 61552;
+
 	class TextReplyUiData : public ::System::Object
 	{
 	public:

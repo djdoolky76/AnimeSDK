@@ -10,6 +10,8 @@ namespace RPG::GameCore { class StrongChallengeBossDetailRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityStrongChallengeBossDetailData_TypeDefinitionIndex = 61907;
+
 	class ActivityStrongChallengeBossDetailData : public ::System::Object
 	{
 	public:

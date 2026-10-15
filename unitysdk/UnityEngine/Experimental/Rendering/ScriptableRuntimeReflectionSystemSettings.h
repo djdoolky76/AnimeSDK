@@ -11,6 +11,8 @@ namespace UnityEngine::Experimental::Rendering { class ScriptableRuntimeReflecti
 
 namespace UnityEngine::Experimental::Rendering
 {
+	inline static constexpr unsigned int ScriptableRuntimeReflectionSystemSettings_TypeDefinitionIndex = 4939;
+
 	class ScriptableRuntimeReflectionSystemSettings : public ::System::Object
 	{
 	public:

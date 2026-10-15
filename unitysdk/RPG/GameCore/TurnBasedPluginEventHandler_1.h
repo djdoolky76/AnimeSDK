@@ -5,6 +5,8 @@ namespace System { class Action; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TurnBasedPluginEventHandler_1_TypeDefinitionIndex = 56246;
+
 	template <typename T>
 	class TurnBasedPluginEventHandler_1 : public ::System::Object
 	{

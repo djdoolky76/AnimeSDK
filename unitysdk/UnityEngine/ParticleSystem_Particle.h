@@ -55,6 +55,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystem_Particle_TypeDefinitionIndex = 5213;
+
 	struct alignas(4) ParticleSystem_Particle
 	{
 		::UnityEngine::Vector3 m_Position; // 0x10

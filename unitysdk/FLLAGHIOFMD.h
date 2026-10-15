@@ -10,6 +10,8 @@ namespace UnityEngine::UI { class Text; }
 #define FLLAGHIOFMD_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x1583D940)
 #define FLLAGHIOFMD__ONBIND_OFFSET UNITYSDK_OFFSET(0x1583D8C0)
 
+inline static constexpr unsigned int FLLAGHIOFMD_TypeDefinitionIndex = 71232;
+
 	class FLLAGHIOFMD : public ::FMPCODLIOLG
 	{
 	public:

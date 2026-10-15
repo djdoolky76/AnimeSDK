@@ -30,6 +30,8 @@ namespace System { class String; }
 #define JJPDJPINDOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E766B10)
 #define JJPDJPINDOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E766B70)
 
+inline static constexpr unsigned int JJPDJPINDOA_TypeDefinitionIndex = 32894;
+
 	class JJPDJPINDOA : public ::System::Object
 	{
 	public:

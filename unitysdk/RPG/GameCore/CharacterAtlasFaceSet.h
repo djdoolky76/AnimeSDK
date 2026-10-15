@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterAtlasFaceSet_TypeDefinitionIndex = 17456;
+
 	class CharacterAtlasFaceSet : public ::RPG::GameCore::JsonConfig
 	{
 	public:

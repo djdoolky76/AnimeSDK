@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FDJCGEHPLEI_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1CA66610)
 #define FDJCGEHPLEI_IKHJMENJMHJ_OFFSET UNITYSDK_OFFSET(0x1CA66A20)
 
+inline static constexpr unsigned int FDJCGEHPLEI_TypeDefinitionIndex = 42487;
+
 	class FDJCGEHPLEI
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierPersonaRoomCardForceDrawByTypeConfi
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierPersonaRoomCardForceDrawByTypeConfig_TypeDefinitionIndex = 17812;
+
 	class RogueModifierPersonaRoomCardForceDrawByTypeConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

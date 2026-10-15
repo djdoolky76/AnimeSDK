@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LPDPAJGFBMM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9C9B50)
 #define LPDPAJGFBMM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9C9BB0)
 
+inline static constexpr unsigned int LPDPAJGFBMM_TypeDefinitionIndex = 33290;
+
 	class LPDPAJGFBMM : public ::System::Object
 	{
 	public:

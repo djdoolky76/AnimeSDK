@@ -19,6 +19,8 @@ namespace ZXing::Common::ReedSolomon { class GenericGF; }
 
 namespace ZXing::Aztec::Internal
 {
+	inline static constexpr unsigned int Encoder_TypeDefinitionIndex = 6989;
+
 	class Encoder : public ::System::Object
 	{
 	public:

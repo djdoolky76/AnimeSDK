@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleByCheckSealLevel; }
 #define LGPLCAEPBPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90EB40)
 #define LGPLCAEPBPO_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1C90EB60)
 
+inline static constexpr unsigned int LGPLCAEPBPO_TypeDefinitionIndex = 43154;
+
 	class LGPLCAEPBPO : public ::LHJPMDPJPEC
 	{
 	public:

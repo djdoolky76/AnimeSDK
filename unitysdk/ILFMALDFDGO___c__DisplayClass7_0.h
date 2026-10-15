@@ -7,6 +7,8 @@ class NJCHNLINLMK;
 #define ILFMALDFDGO___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x164B0B50)
 #define ILFMALDFDGO___C__DISPLAYCLASS7_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x164B0B60)
 
+inline static constexpr unsigned int ILFMALDFDGO___c__DisplayClass7_0_TypeDefinitionIndex = 82284;
+
 	class ILFMALDFDGO___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TutorialChimeraBattleShowSkillInfoLock; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TutorialChimeraBattleShowSkillInfoLock_TypeDefinitionIndex = 24384;
+
 	class TutorialChimeraBattleShowSkillInfoLock : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define HPGMGEOGOHE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15DC7350)
 #define HPGMGEOGOHE___C___SORTPOSLIST_B__3_0_OFFSET UNITYSDK_OFFSET(0x15DC7360)
 
+inline static constexpr unsigned int HPGMGEOGOHE___c_TypeDefinitionIndex = 79342;
+
 	class HPGMGEOGOHE___c : public ::System::Object
 	{
 	public:

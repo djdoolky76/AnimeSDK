@@ -6,6 +6,8 @@
 
 namespace Entitas::CodeGeneration::Attributes
 {
+	inline static constexpr unsigned int EntityIndexGetMethodAttribute_TypeDefinitionIndex = 10079;
+
 	class EntityIndexGetMethodAttribute : public ::System::Attribute
 	{
 	public:

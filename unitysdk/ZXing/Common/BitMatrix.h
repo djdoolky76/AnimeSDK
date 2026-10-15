@@ -22,6 +22,8 @@ namespace ZXing::Common { class BitArray; }
 
 namespace ZXing::Common
 {
+	inline static constexpr unsigned int BitMatrix_TypeDefinitionIndex = 7021;
+
 	class BitMatrix : public ::System::Object
 	{
 	public:

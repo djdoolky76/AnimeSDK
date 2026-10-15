@@ -25,6 +25,8 @@ namespace System { class String; }
 #define FFBPKIGNIAO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E36A350)
 #define FFBPKIGNIAO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E36A3B0)
 
+inline static constexpr unsigned int FFBPKIGNIAO_TypeDefinitionIndex = 35040;
+
 	class FFBPKIGNIAO : public ::System::Object
 	{
 	public:

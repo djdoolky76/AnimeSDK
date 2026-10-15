@@ -9,6 +9,8 @@ namespace UnityEngine { class Object; }
 #define MDKJNMJFNAD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC86B40)
 #define MDKJNMJFNAD___C__CLOSE_B__2_0_OFFSET UNITYSDK_OFFSET(0x1EC86B50)
 
+inline static constexpr unsigned int MDKJNMJFNAD___c_TypeDefinitionIndex = 44245;
+
 	class MDKJNMJFNAD___c : public ::System::Object
 	{
 	public:

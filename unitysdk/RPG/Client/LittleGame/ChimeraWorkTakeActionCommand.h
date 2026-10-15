@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int ChimeraWorkTakeActionCommand_TypeDefinitionIndex = 76636;
+
 	class ChimeraWorkTakeActionCommand : public ::System::Object
 	{
 	public:

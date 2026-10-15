@@ -8,6 +8,8 @@ class BKHHFIJCHEP;
 #define LNMFGBNACBJ_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB7E8AF0)
 #define LNMFGBNACBJ__START_B__3_0_OFFSET UNITYSDK_OFFSET(0xB7E8BF0)
 
+inline static constexpr unsigned int LNMFGBNACBJ_TypeDefinitionIndex = 60378;
+
 	class LNMFGBNACBJ : public ::EFNJLACKEDH
 	{
 	public:

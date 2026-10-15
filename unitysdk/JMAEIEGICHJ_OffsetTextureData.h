@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 #define JMAEIEGICHJ_OFFSETTEXTUREDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xB2595D0)
 
+inline static constexpr unsigned int JMAEIEGICHJ_OffsetTextureData_TypeDefinitionIndex = 51845;
+
 	class JMAEIEGICHJ_OffsetTextureData : public ::System::Object
 	{
 	public:

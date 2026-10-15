@@ -5,6 +5,8 @@
 #define ILAAFNEOBMO_CTOR_OFFSET UNITYSDK_OFFSET(0x164A1700)
 #define ILAAFNEOBMO_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x164A1580)
 
+inline static constexpr unsigned int ILAAFNEOBMO_TypeDefinitionIndex = 64150;
+
 	class ILAAFNEOBMO : public ::HGMMFJHJECA
 	{
 	public:

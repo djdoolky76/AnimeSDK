@@ -24,6 +24,8 @@
 
 namespace InControl
 {
+	inline static constexpr unsigned int UnityMouseProvider_TypeDefinitionIndex = 40864;
+
 	class UnityMouseProvider : public ::System::Object
 	{
 	public:

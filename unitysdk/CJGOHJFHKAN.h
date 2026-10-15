@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define CJGOHJFHKAN_JEBDAFCDCIO_OFFSET UNITYSDK_OFFSET(0xD212270)
 #define CJGOHJFHKAN_OBGHNMKLOIB_OFFSET UNITYSDK_OFFSET(0xD211F50)
 
+inline static constexpr unsigned int CJGOHJFHKAN_TypeDefinitionIndex = 75461;
+
 	class CJGOHJFHKAN : public ::System::Object
 	{
 	public:

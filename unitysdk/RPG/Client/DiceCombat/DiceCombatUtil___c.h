@@ -22,6 +22,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatUtil___c_TypeDefinitionIndex = 76099;
+
 	class DiceCombatUtil___c : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int GaussianBlurTimelineTrack_TypeDefinitionIndex = 48575;
+
 	class GaussianBlurTimelineTrack : public ::RPGTools::Timeline::PostProcessing::PostProcessTimelineTrack
 	{
 	public:

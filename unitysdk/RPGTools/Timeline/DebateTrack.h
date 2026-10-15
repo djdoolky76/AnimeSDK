@@ -13,6 +13,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int DebateTrack_TypeDefinitionIndex = 48068;
+
 	class DebateTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

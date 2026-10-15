@@ -10,6 +10,8 @@ namespace System { class String; }
 #define IBJPKKJKCKP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CEDECF0)
 #define IBJPKKJKCKP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEDECB0)
 
+inline static constexpr unsigned int IBJPKKJKCKP_TypeDefinitionIndex = 20279;
+
 	class IBJPKKJKCKP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

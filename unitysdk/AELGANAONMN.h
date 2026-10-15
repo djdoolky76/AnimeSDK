@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define AELGANAONMN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CCB2DB0)
 #define AELGANAONMN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CCB2710)
 
+inline static constexpr unsigned int AELGANAONMN_TypeDefinitionIndex = 12904;
+
 	class AELGANAONMN : public ::System::Object
 	{
 	public:

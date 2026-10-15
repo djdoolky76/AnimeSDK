@@ -6,6 +6,8 @@ class JOLAHHGIFHA;
 #define DHGNBCEBBKC___C__DISPLAYCLASS3_1_CTOR_OFFSET UNITYSDK_OFFSET(0xEBD2290)
 #define DHGNBCEBBKC___C__DISPLAYCLASS3_1__SYNCMOTIONINFO_B__2_OFFSET UNITYSDK_OFFSET(0xEBD4180)
 
+inline static constexpr unsigned int DHGNBCEBBKC___c__DisplayClass3_1_TypeDefinitionIndex = 66390;
+
 	template <typename T>
 	class DHGNBCEBBKC___c__DisplayClass3_1 : public ::System::Object
 	{

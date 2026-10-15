@@ -6,6 +6,8 @@
 
 namespace Unity::Collections
 {
+	inline static constexpr unsigned int NativeDisableParallelForRestrictionAttribute_TypeDefinitionIndex = 3984;
+
 	class NativeDisableParallelForRestrictionAttribute : public ::System::Attribute
 	{
 	public:

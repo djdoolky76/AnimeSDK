@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SpritePresetNameList_TypeDefinitionIndex = 24422;
+
 	class SpritePresetNameList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

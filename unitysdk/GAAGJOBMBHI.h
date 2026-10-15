@@ -5,6 +5,8 @@
 
 #define GAAGJOBMBHI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA73910)
 
+inline static constexpr unsigned int GAAGJOBMBHI_TypeDefinitionIndex = 42457;
+
 	class GAAGJOBMBHI : public ::System::Object
 	{
 	public:

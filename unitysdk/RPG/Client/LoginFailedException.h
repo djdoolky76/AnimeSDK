@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LoginFailedException_TypeDefinitionIndex = 61108;
+
 	class LoginFailedException : public ::System::Exception
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int SpeedLineTimelineBehaviour_TypeDefinitionIndex = 48616;
+
 	class SpeedLineTimelineBehaviour
 	{
 	public:

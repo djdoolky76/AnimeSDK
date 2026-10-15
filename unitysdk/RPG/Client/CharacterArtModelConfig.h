@@ -9,6 +9,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharacterArtModelConfig_TypeDefinitionIndex = 69755;
+
 	class CharacterArtModelConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:

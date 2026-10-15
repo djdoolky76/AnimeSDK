@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FHHGBMIEBOE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E38CC20)
 #define FHHGBMIEBOE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E38CC80)
 
+inline static constexpr unsigned int FHHGBMIEBOE_TypeDefinitionIndex = 28548;
+
 	class FHHGBMIEBOE : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace MiHoYo::SDK::Console { class ConsoleReactivateDialog; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int ConsoleReactivateDialog___c__DisplayClass9_0_TypeDefinitionIndex = 9007;
+
 	class ConsoleReactivateDialog___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

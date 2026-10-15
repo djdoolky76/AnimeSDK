@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleLineupDevPresetConfig_TypeDefinitionIndex = 18141;
+
 	class BattleLineupDevPresetConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

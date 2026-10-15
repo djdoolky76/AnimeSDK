@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GHCDMMNHNHO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E484B40)
 #define GHCDMMNHNHO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E484BA0)
 
+inline static constexpr unsigned int GHCDMMNHNHO_TypeDefinitionIndex = 25475;
+
 	class GHCDMMNHNHO : public ::System::Object
 	{
 	public:

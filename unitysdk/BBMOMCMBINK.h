@@ -17,6 +17,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 #define BBMOMCMBINK_NPHDJAKLKJF_OFFSET UNITYSDK_OFFSET(0x15E94980)
 #define BBMOMCMBINK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E939C0)
 
+inline static constexpr unsigned int BBMOMCMBINK_TypeDefinitionIndex = 55747;
+
 	class BBMOMCMBINK
 	{
 	public:

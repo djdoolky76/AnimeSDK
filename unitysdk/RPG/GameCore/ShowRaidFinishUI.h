@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowRaidFinishUI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowRaidFinishUI_TypeDefinitionIndex = 21616;
+
 	class ShowRaidFinishUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define FKIAHEEJGKH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C622D80)
 
+inline static constexpr unsigned int FKIAHEEJGKH_TypeDefinitionIndex = 37171;
+
 	class FKIAHEEJGKH : public ::System::Object
 	{
 	public:

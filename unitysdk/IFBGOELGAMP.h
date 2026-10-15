@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define IFBGOELGAMP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CEEDAF0)
 #define IFBGOELGAMP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEEDA50)
 
+inline static constexpr unsigned int IFBGOELGAMP_TypeDefinitionIndex = 22247;
+
 	class IFBGOELGAMP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

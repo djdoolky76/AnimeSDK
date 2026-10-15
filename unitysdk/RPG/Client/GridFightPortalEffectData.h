@@ -8,6 +8,8 @@ namespace RPG::Client { class GridFightBonusSrcInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightPortalEffectData_TypeDefinitionIndex = 64391;
+
 	class GridFightPortalEffectData : public ::System::Object
 	{
 	public:

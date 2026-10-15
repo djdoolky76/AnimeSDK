@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MHYSDKC_SafeArea_TypeDefinitionIndex = 46237;
+
 	class MHYSDKC_SafeArea : public ::System::Object
 	{
 	public:

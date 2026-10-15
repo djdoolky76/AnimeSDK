@@ -13,6 +13,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectSpecialVisionControl_TypeDefinitionIndex = 70739;
+
 	class MonoEffectSpecialVisionControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

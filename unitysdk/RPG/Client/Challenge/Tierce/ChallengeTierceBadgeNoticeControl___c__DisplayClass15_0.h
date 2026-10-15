@@ -8,6 +8,8 @@ class KELDADFDNPO;
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceBadgeNoticeControl___c__DisplayClass15_0_TypeDefinitionIndex = 81519;
+
 	class ChallengeTierceBadgeNoticeControl___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::Client { class ActivityPlayerReturnRecommendData; }
 #define CCJGBHEHLKB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC73EE10)
 #define CCJGBHEHLKB_CTOR_OFFSET UNITYSDK_OFFSET(0xC73F0A0)
 
+inline static constexpr unsigned int CCJGBHEHLKB_TypeDefinitionIndex = 61881;
+
 	class CCJGBHEHLKB : public ::System::Object
 	{
 	public:

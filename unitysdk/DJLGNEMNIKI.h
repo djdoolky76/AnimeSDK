@@ -38,6 +38,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define DJLGNEMNIKI__LOADINDEXINFO_OFFSET UNITYSDK_OFFSET(0xF23A890)
 #define DJLGNEMNIKI___N__0_OFFSET UNITYSDK_OFFSET(0xF23B590)
 
+inline static constexpr unsigned int DJLGNEMNIKI_TypeDefinitionIndex = 59463;
+
 	class DJLGNEMNIKI
 	{
 	public:

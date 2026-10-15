@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define PCOMPBCHHKC___C__GETDELETEENTITYLISTSTRING_B__5_0_OFFSET UNITYSDK_OFFSET(0x1C7EC5D0)
 #define PCOMPBCHHKC___C__GETUPDATEENTITYLISTSTRING_B__4_0_OFFSET UNITYSDK_OFFSET(0x1C7EC5B0)
 
+inline static constexpr unsigned int PCOMPBCHHKC___c_TypeDefinitionIndex = 36912;
+
 	class PCOMPBCHHKC___c : public ::System::Object
 	{
 	public:

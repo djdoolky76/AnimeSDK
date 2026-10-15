@@ -6,6 +6,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Segment_TypeDefinitionIndex = 36745;
+
 	struct alignas(4) B2Segment
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 point1; // 0x10

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BABICHJDNNH___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15BCE300)
 #define BABICHJDNNH___C__DISPLAYCLASS23_0___REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x15BCE3E0)
 
+inline static constexpr unsigned int BABICHJDNNH___c__DisplayClass23_0_TypeDefinitionIndex = 72327;
+
 	class BABICHJDNNH___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:

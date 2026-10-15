@@ -7,6 +7,8 @@ namespace Cinemachine { class CinemachineVirtualCamera; }
 
 namespace RPG::Client::LittleGame::ElfRestaurant
 {
+	inline static constexpr unsigned int ElfRestaurantCameraView_TypeDefinitionIndex = 77277;
+
 	class ElfRestaurantCameraView : public ::RPG::Client::LittleGame::ElfRestaurant::ElfRestaurantView
 	{
 	public:

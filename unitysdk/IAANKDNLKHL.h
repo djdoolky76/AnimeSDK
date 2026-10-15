@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define IAANKDNLKHL_OABLDCCJFKD_OFFSET UNITYSDK_OFFSET(0x1C689960)
 #define IAANKDNLKHL_SET_SPAWNBRICKLIST_OFFSET UNITYSDK_OFFSET(0x1C68A740)
 
+inline static constexpr unsigned int IAANKDNLKHL_TypeDefinitionIndex = 37155;
+
 	class IAANKDNLKHL : public ::System::Object
 	{
 	public:

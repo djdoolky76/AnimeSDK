@@ -4,6 +4,8 @@
 namespace RPG::Client { class NotifyHandler; }
 namespace System { class Action; }
 
+inline static constexpr unsigned int NPPODGNEDLF___O_TypeDefinitionIndex = 61171;
+
 	class NPPODGNEDLF___O : public ::System::Object
 	{
 	public:

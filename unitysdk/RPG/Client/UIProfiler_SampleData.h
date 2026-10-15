@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIProfiler_SampleData_TypeDefinitionIndex = 73180;
+
 	class UIProfiler_SampleData : public ::System::Object
 	{
 	public:

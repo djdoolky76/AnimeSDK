@@ -7,6 +7,8 @@ namespace System { class Action; }
 
 #define CEDOCEHLDLF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DD670)
 
+inline static constexpr unsigned int CEDOCEHLDLF_TypeDefinitionIndex = 43197;
+
 	class CEDOCEHLDLF : public ::System::Object
 	{
 	public:

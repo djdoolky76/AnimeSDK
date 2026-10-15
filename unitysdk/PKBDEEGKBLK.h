@@ -18,6 +18,8 @@ namespace System { class Action; }
 #define PKBDEEGKBLK_REMOVE_ONGETDATAFINISHED_OFFSET UNITYSDK_OFFSET(0xC2AAEC0)
 #define PKBDEEGKBLK__REQUESTGETDATA_B__3_0_OFFSET UNITYSDK_OFFSET(0xC2AB3E0)
 
+inline static constexpr unsigned int PKBDEEGKBLK_TypeDefinitionIndex = 61397;
+
 	class PKBDEEGKBLK : public ::BHPMNMMGLHI
 	{
 	public:

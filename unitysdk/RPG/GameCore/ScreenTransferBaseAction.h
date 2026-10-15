@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ScreenTransferBaseAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ScreenTransferBaseAction_TypeDefinitionIndex = 20859;
+
 	class ScreenTransferBaseAction : public ::RPG::GameCore::JsonConfig
 	{
 	public:

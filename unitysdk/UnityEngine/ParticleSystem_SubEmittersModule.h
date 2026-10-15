@@ -35,6 +35,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystem_SubEmittersModule_TypeDefinitionIndex = 5211;
+
 	struct alignas(8) ParticleSystem_SubEmittersModule
 	{
 		::UnityEngine::ParticleSystem* m_ParticleSystem; // 0x10

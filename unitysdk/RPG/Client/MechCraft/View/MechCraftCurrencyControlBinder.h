@@ -10,6 +10,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCurrencyControlBinder_TypeDefinitionIndex = 79816;
+
 	class MechCraftCurrencyControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

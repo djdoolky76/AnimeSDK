@@ -11,6 +11,8 @@ class MNCOPNHONHO;
 #define JGLAHKEALJM_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xB19C980)
 #define JGLAHKEALJM_LLDIACFIFAB_OFFSET UNITYSDK_OFFSET(0xB19CA40)
 
+inline static constexpr unsigned int JGLAHKEALJM_TypeDefinitionIndex = 76775;
+
 	class JGLAHKEALJM : public ::System::Object
 	{
 	public:

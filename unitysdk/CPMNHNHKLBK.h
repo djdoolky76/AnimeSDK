@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CPMNHNHKLBK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E144C30)
 #define CPMNHNHKLBK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E144C90)
 
+inline static constexpr unsigned int CPMNHNHKLBK_TypeDefinitionIndex = 25513;
+
 	class CPMNHNHKLBK : public ::System::Object
 	{
 	public:

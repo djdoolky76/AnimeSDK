@@ -4,6 +4,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2ExplosionDef_TypeDefinitionIndex = 36666;
+
 	struct alignas(4) B2ExplosionDef
 	{
 		::System::UInt64 maskBits; // 0x10

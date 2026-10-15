@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
+	inline static constexpr unsigned int GooglePCOAuth___c_TypeDefinitionIndex = 8432;
+
 	class GooglePCOAuth___c : public ::System::Object
 	{
 	public:

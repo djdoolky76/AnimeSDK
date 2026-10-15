@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetFetchActionDelayExceed_TypeDefinitionIndex = 23938;
+
 	class TargetFetchActionDelayExceed : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:

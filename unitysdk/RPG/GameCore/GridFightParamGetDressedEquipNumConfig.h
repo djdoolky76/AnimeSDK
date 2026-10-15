@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamGetDressedEquipNumConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamGetDressedEquipNumConfig_TypeDefinitionIndex = 19524;
+
 	class GridFightParamGetDressedEquipNumConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TextDynamicParamExpr; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TextDynamicParamExpr_TypeDefinitionIndex = 17011;
+
 	class TextDynamicParamExpr : public ::RPG::GameCore::TextDynamicParamBase
 	{
 	public:

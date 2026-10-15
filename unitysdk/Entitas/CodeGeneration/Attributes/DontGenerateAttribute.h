@@ -6,6 +6,8 @@
 
 namespace Entitas::CodeGeneration::Attributes
 {
+	inline static constexpr unsigned int DontGenerateAttribute_TypeDefinitionIndex = 10075;
+
 	class DontGenerateAttribute : public ::System::Attribute
 	{
 	public:

@@ -16,6 +16,8 @@ class KFDKOGMNCEL;
 #define AHAODIJBKGG_SET_TRIALCOMPONENTSTEP_OFFSET UNITYSDK_OFFSET(0xEB79CD0)
 #define AHAODIJBKGG_SET_TRIALRELICSTEP_OFFSET UNITYSDK_OFFSET(0xEB79CB0)
 
+inline static constexpr unsigned int AHAODIJBKGG_TypeDefinitionIndex = 62821;
+
 	class AHAODIJBKGG : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client::OpenWorld
 {
+	inline static constexpr unsigned int PVSRuntimeReplayJudgeEntry_TypeDefinitionIndex = 73767;
+
 	class PVSRuntimeReplayJudgeEntry : public ::System::Object
 	{
 	public:

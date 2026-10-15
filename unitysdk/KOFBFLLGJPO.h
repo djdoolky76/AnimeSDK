@@ -9,6 +9,8 @@ namespace System { class String; }
 #define KOFBFLLGJPO_GET_SOURCE_OFFSET UNITYSDK_OFFSET(0x1CC93330)
 #define KOFBFLLGJPO_LGMEJIBMFBJ_OFFSET UNITYSDK_OFFSET(0x1CC93340)
 
+inline static constexpr unsigned int KOFBFLLGJPO_TypeDefinitionIndex = 43871;
+
 	class KOFBFLLGJPO : public ::JGLPONENAKN
 	{
 	public:

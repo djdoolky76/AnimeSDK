@@ -4,6 +4,8 @@
 
 #define MIDCDMEKHHA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92BD20)
 
+inline static constexpr unsigned int MIDCDMEKHHA_TypeDefinitionIndex = 42123;
+
 	class MIDCDMEKHHA : public ::System::Object
 	{
 	public:

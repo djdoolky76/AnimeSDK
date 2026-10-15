@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define HHIJNKNJPMG_JGHDBJLBEEG_OFFSET UNITYSDK_OFFSET(0x1C559640)
 #define HHIJNKNJPMG_KANMCJHEFJJ_OFFSET UNITYSDK_OFFSET(0x1C559780)
 
+inline static constexpr unsigned int HHIJNKNJPMG_TypeDefinitionIndex = 41847;
+
 	class HHIJNKNJPMG : public ::JEBPFBNCALB
 	{
 	public:

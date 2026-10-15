@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace Entitas
 {
+	inline static constexpr unsigned int EntityEvent_TypeDefinitionIndex = 10014;
+
 	class EntityEvent : public ::System::MulticastDelegate
 	{
 	public:

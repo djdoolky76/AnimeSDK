@@ -11,6 +11,8 @@ namespace RPG::Client { class GridFightGameRefTrait; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightRefTraitLayerCalculator___c__DisplayClass5_1_TypeDefinitionIndex = 64822;
+
 	template <typename T>
 	class GridFightRefTraitLayerCalculator___c__DisplayClass5_1 : public ::System::Object
 	{

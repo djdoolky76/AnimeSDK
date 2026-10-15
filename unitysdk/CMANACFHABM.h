@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define CMANACFHABM_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xDA24540)
 #define CMANACFHABM_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xDA244F0)
 
+inline static constexpr unsigned int CMANACFHABM_TypeDefinitionIndex = 56657;
+
 	class CMANACFHABM : public ::System::Object
 	{
 	public:

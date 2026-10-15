@@ -3,6 +3,8 @@
 
 namespace RPG::Client::PetMarble
 {
+	inline static constexpr unsigned int IPetMarbleData_TypeDefinitionIndex = 74694;
+
 	class IPetMarbleData
 	{
 	public:

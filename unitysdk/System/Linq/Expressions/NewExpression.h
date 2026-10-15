@@ -25,6 +25,8 @@ namespace System::Reflection { class MemberInfo; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int NewExpression_TypeDefinitionIndex = 3267;
+
 	class NewExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:

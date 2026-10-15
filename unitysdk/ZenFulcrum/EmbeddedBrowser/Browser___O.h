@@ -12,6 +12,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_ReportFunc; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int Browser___O_TypeDefinitionIndex = 39336;
+
 	class Browser___O : public ::System::Object
 	{
 	public:

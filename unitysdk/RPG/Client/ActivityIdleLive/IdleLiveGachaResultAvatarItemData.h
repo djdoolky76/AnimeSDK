@@ -14,6 +14,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveGachaResultAvatarItemDat
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveGachaResultAvatarItemData_TypeDefinitionIndex = 75258;
+
 	class IdleLiveGachaResultAvatarItemData : public ::System::Object
 	{
 	public:

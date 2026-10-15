@@ -3,6 +3,8 @@
 
 namespace System::Numerics
 {
+	inline static constexpr unsigned int Register_TypeDefinitionIndex = 3860;
+
 	struct alignas(4) Register
 	{
 		::System::Byte byte_0; // 0x10

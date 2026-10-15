@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define IEEMPNDGFEI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB08230)
 
+inline static constexpr unsigned int IEEMPNDGFEI_TypeDefinitionIndex = 42783;
+
 	class IEEMPNDGFEI : public ::System::Object
 	{
 	public:

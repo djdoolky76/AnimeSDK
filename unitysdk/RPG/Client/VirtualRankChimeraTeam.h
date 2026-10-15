@@ -20,6 +20,8 @@ namespace RPG::Client { class VirtualRankChimeraTeam; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VirtualRankChimeraTeam_TypeDefinitionIndex = 72476;
+
 	class VirtualRankChimeraTeam : public ::System::Object
 	{
 	public:

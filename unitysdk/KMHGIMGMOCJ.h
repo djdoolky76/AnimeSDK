@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KMHGIMGMOCJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E89AA30)
 #define KMHGIMGMOCJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E89AA90)
 
+inline static constexpr unsigned int KMHGIMGMOCJ_TypeDefinitionIndex = 34175;
+
 	class KMHGIMGMOCJ : public ::System::Object
 	{
 	public:

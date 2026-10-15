@@ -21,6 +21,8 @@ namespace RPG::Client::TeamTowers { class TeamTowersGameBubbleTalkMessage; }
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersGameBubbleTalkMessage_TypeDefinitionIndex = 79014;
+
 	class TeamTowersGameBubbleTalkMessage : public ::System::Object
 	{
 	public:

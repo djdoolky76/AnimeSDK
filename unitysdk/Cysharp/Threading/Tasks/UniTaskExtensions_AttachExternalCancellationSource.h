@@ -22,6 +22,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTaskExtensions_AttachExternalCancellationSource_TypeDefinitionIndex = 38402;
+
 	class UniTaskExtensions_AttachExternalCancellationSource : public ::System::Object
 	{
 	public:

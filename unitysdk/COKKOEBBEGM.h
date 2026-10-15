@@ -27,6 +27,8 @@ namespace System { class String; }
 #define COKKOEBBEGM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E135970)
 #define COKKOEBBEGM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1359D0)
 
+inline static constexpr unsigned int COKKOEBBEGM_TypeDefinitionIndex = 33344;
+
 	class COKKOEBBEGM : public ::System::Object
 	{
 	public:

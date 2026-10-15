@@ -14,6 +14,8 @@ namespace System::Net { class ServicePoint; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int BindIPEndPoint_TypeDefinitionIndex = 2824;
+
 	class BindIPEndPoint : public ::System::MulticastDelegate
 	{
 	public:

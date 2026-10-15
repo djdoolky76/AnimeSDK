@@ -11,6 +11,8 @@ namespace UnityEngine::Rendering { class VolumeComponent; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int VolumeProfile___c_TypeDefinitionIndex = 35661;
+
 	class VolumeProfile___c : public ::System::Object
 	{
 	public:

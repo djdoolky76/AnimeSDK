@@ -12,6 +12,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SummonActivityData_TypeDefinitionIndex = 61667;
+
 	class SummonActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

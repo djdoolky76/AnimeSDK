@@ -6,6 +6,8 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int PhantomPlayerFrameFloatData_TypeDefinitionIndex = 43588;
+
 	class PhantomPlayerFrameFloatData
 	{
 	public:

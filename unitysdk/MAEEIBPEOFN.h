@@ -34,6 +34,8 @@ namespace System { class String; }
 #define MAEEIBPEOFN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9D7030)
 #define MAEEIBPEOFN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9D7090)
 
+inline static constexpr unsigned int MAEEIBPEOFN_TypeDefinitionIndex = 33273;
+
 	class MAEEIBPEOFN : public ::System::Object
 	{
 	public:

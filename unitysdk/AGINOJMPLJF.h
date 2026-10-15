@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define AGINOJMPLJF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCBE4F0)
 #define AGINOJMPLJF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCBE450)
 
+inline static constexpr unsigned int AGINOJMPLJF_TypeDefinitionIndex = 20192;
+
 	class AGINOJMPLJF : public ::RPG::GameCore::TaskConfig
 	{
 	public:

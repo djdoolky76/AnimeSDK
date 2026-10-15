@@ -7,6 +7,8 @@ namespace System { class String; }
 #define GPNMGGINMFC___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15B640B0)
 #define GPNMGGINMFC___C__DISPLAYCLASS24_0__GETLOOPCGKEYBYPATH_B__0_OFFSET UNITYSDK_OFFSET(0x15B644E0)
 
+inline static constexpr unsigned int GPNMGGINMFC___c__DisplayClass24_0_TypeDefinitionIndex = 73225;
+
 	class GPNMGGINMFC___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:

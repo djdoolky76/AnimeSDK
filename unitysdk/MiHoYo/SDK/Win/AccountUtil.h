@@ -12,6 +12,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int AccountUtil_TypeDefinitionIndex = 9298;
+
 	class AccountUtil : public ::System::Object
 	{
 	public:

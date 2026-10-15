@@ -47,6 +47,8 @@ namespace UnityEngine { class ParticleSystemForceField; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystem_ExternalForcesModule_TypeDefinitionIndex = 5242;
+
 	struct alignas(8) ParticleSystem_ExternalForcesModule
 	{
 		::UnityEngine::ParticleSystem* m_ParticleSystem; // 0x10

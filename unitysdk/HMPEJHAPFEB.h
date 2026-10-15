@@ -7,6 +7,8 @@ namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 #define HMPEJHAPFEB_CTOR_OFFSET UNITYSDK_OFFSET(0x15D8A570)
 #define HMPEJHAPFEB_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x15D8A340)
 
+inline static constexpr unsigned int HMPEJHAPFEB_TypeDefinitionIndex = 76257;
+
 	class HMPEJHAPFEB : public ::MLKDDLHNNHH
 	{
 	public:

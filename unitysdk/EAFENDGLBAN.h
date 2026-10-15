@@ -10,6 +10,8 @@ class LAECFLNNOFH;
 #define EAFENDGLBAN_GCMIKOOCOGE_OFFSET UNITYSDK_OFFSET(0x12676470)
 #define EAFENDGLBAN_IKPBGDCLDOH_OFFSET UNITYSDK_OFFSET(0x12676030)
 
+inline static constexpr unsigned int EAFENDGLBAN_TypeDefinitionIndex = 77312;
+
 	class EAFENDGLBAN : public ::System::Object
 	{
 	public:

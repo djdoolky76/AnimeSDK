@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimAddDynamicColliderDetectAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimAddDynamicColliderDetectAction_TypeDefinitionIndex = 18763;
+
 	class FiveDimAddDynamicColliderDetectAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

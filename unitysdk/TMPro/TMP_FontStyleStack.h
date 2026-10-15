@@ -8,6 +8,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_FontStyleStack_TypeDefinitionIndex = 44667;
+
 	struct alignas(4) TMP_FontStyleStack
 	{
 		::System::Byte bold; // 0x10

@@ -3,6 +3,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineDialogueShot_LEKEBCOJDEK_TypeDefinitionIndex = 49640;
+
 	struct alignas(4) CinemachineDialogueShot_LEKEBCOJDEK
 	{
 		::System::Double CJELGFGPEBJ; // 0x10

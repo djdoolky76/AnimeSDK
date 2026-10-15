@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PropInstanceTransform_TypeDefinitionIndex = 70753;
+
 	class PropInstanceTransform : public ::System::Object
 	{
 	public:

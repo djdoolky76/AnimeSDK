@@ -17,6 +17,8 @@ namespace System { class Nullable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateSupportCollectionPart_TypeDefinitionIndex = 64159;
+
 	class FateSupportCollectionPart : public ::System::Object
 	{
 	public:

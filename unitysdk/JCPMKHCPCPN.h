@@ -29,6 +29,8 @@ namespace System { class String; }
 #define JCPMKHCPCPN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7057A0)
 #define JCPMKHCPCPN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E705800)
 
+inline static constexpr unsigned int JCPMKHCPCPN_TypeDefinitionIndex = 34714;
+
 	class JCPMKHCPCPN : public ::System::Object
 	{
 	public:

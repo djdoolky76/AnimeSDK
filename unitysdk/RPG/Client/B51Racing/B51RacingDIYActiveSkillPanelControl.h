@@ -19,6 +19,8 @@ namespace RPG::Client::B51Racing { class LuaControllerHandle; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingDIYActiveSkillPanelControl_TypeDefinitionIndex = 81770;
+
 	class B51RacingDIYActiveSkillPanelControl : public ::Sofa::BaseSofaControl
 	{
 	public:

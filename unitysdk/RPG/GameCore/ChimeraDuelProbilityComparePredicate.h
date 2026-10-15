@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraDuelProbilityComparePredicate; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelProbilityComparePredicate_TypeDefinitionIndex = 15978;
+
 	class ChimeraDuelProbilityComparePredicate : public ::RPG::GameCore::JsonConfig
 	{
 	public:

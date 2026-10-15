@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::Console::OS
 {
+	inline static constexpr unsigned int BindManager_TypeDefinitionIndex = 9065;
+
 	class BindManager : public ::MiHoYo::SDK::Console::BindManagerBase
 	{
 	public:

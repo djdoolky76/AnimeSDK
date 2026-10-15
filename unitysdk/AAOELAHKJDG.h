@@ -4,6 +4,8 @@
 
 #define AAOELAHKJDG_CTOR_OFFSET UNITYSDK_OFFSET(0xB0D8340)
 
+inline static constexpr unsigned int AAOELAHKJDG_TypeDefinitionIndex = 48042;
+
 	class AAOELAHKJDG : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

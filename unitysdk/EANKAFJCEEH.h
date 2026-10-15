@@ -122,6 +122,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EANKAFJCEEH_SET_SKILLLOCKDICT_OFFSET UNITYSDK_OFFSET(0x1268DBE0)
 #define EANKAFJCEEH___PLAYSKILLREADYEFFECT_B__60_0_OFFSET UNITYSDK_OFFSET(0x12CE41B0)
 
+inline static constexpr unsigned int EANKAFJCEEH_TypeDefinitionIndex = 72007;
+
 	class EANKAFJCEEH : public ::System::Object
 	{
 	public:

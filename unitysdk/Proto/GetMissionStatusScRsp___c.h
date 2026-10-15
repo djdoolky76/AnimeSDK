@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int GetMissionStatusScRsp___c_TypeDefinitionIndex = 30961;
+
 	class GetMissionStatusScRsp___c : public ::System::Object
 	{
 	public:

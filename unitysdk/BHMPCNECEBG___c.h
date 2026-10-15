@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BHMPCNECEBG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDFCB80)
 #define BHMPCNECEBG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DDFCB90)
 
+inline static constexpr unsigned int BHMPCNECEBG___c_TypeDefinitionIndex = 28616;
+
 	class BHMPCNECEBG___c : public ::System::Object
 	{
 	public:

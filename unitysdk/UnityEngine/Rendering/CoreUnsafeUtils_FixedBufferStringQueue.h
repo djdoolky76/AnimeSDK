@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CoreUnsafeUtils_FixedBufferStringQueue_TypeDefinitionIndex = 35476;
+
 	struct alignas(8) CoreUnsafeUtils_FixedBufferStringQueue
 	{
 		::PVOID m_ReadCursor; // 0x10

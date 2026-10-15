@@ -7,6 +7,8 @@
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncAwakeTrigger_TypeDefinitionIndex = 38494;
+
 	class AsyncAwakeTrigger
 	{
 	public:

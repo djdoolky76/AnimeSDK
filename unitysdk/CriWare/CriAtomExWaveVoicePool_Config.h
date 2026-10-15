@@ -6,6 +6,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExWaveVoicePool_Config_TypeDefinitionIndex = 40082;
+
 	struct alignas(4) CriAtomExWaveVoicePool_Config
 	{
 		::System::UInt32 identifier; // 0x10

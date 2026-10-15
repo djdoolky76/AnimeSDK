@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PACANMANAII_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBFC5A10)
 #define PACANMANAII_TICK_OFFSET UNITYSDK_OFFSET(0xBFC5A60)
 
+inline static constexpr unsigned int PACANMANAII_TypeDefinitionIndex = 58269;
+
 	class PACANMANAII : public ::GELIALJDFBL
 	{
 	public:

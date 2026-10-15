@@ -4,6 +4,8 @@
 
 #define ENEDFLIIDNP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA615C0)
 
+inline static constexpr unsigned int ENEDFLIIDNP_TypeDefinitionIndex = 42340;
+
 	class ENEDFLIIDNP : public ::System::Object
 	{
 	public:

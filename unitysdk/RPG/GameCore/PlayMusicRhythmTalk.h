@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PlayMusicRhythmTalk; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayMusicRhythmTalk_TypeDefinitionIndex = 22063;
+
 	class PlayMusicRhythmTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

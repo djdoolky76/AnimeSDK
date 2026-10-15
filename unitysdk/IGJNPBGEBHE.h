@@ -9,6 +9,8 @@ namespace System { class String; }
 #define IGJNPBGEBHE_KAJOBJFIAMJ_OFFSET UNITYSDK_OFFSET(0x1640FCA0)
 #define IGJNPBGEBHE_MHKBGJFJBBH_OFFSET UNITYSDK_OFFSET(0x1640FD60)
 
+inline static constexpr unsigned int IGJNPBGEBHE_TypeDefinitionIndex = 77565;
+
 	class IGJNPBGEBHE : public ::LEMPCCICHAA
 	{
 	public:

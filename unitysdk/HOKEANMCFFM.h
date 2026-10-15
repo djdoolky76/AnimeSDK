@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 #define HOKEANMCFFM_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x15DB98E0)
 #define HOKEANMCFFM_REVERSE_OFFSET UNITYSDK_OFFSET(0x15DB9620)
 
+inline static constexpr unsigned int HOKEANMCFFM_TypeDefinitionIndex = 73498;
+
 	class HOKEANMCFFM : public ::LLJAOGKDNFD
 	{
 	public:

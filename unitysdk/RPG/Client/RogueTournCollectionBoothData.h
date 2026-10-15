@@ -18,6 +18,8 @@ namespace RPG::GameCore { class RogueTournCollectionConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournCollectionBoothData_TypeDefinitionIndex = 67569;
+
 	class RogueTournCollectionBoothData : public ::System::Object
 	{
 	public:

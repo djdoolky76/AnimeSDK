@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 #define HLALBKIHMAD_FJPEEFLJEEP_OFFSET UNITYSDK_OFFSET(0x15D56360)
 #define HLALBKIHMAD_IODILAIIBEP_OFFSET UNITYSDK_OFFSET(0x15D56510)
 
+inline static constexpr unsigned int HLALBKIHMAD_TypeDefinitionIndex = 73336;
+
 	class HLALBKIHMAD : public ::System::Object
 	{
 	public:

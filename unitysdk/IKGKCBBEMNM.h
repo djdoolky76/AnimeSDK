@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
+inline static constexpr unsigned int IKGKCBBEMNM_TypeDefinitionIndex = 66298;
+
 	struct alignas(8) IKGKCBBEMNM
 	{
 		::System::UInt32 JCLIFKACIJD; // 0x10

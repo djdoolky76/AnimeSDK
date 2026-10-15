@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelWaitReplaceEffectNode_TypeDefinitionIndex = 15956;
+
 	class ChimeraDuelWaitReplaceEffectNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
 	public:

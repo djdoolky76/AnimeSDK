@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int SlotUiData_TypeDefinitionIndex = 75433;
+
 	struct alignas(8) SlotUiData
 	{
 		::System::String* ImagePath; // 0x10

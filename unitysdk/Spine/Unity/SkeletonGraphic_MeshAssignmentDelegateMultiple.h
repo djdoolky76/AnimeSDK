@@ -15,6 +15,8 @@ namespace UnityEngine { class Texture; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonGraphic_MeshAssignmentDelegateMultiple_TypeDefinitionIndex = 45030;
+
 	class SkeletonGraphic_MeshAssignmentDelegateMultiple : public ::System::MulticastDelegate
 	{
 	public:

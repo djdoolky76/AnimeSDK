@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EABLPGMPHBM_CTOR_OFFSET UNITYSDK_OFFSET(0x1266FBC0)
 #define EABLPGMPHBM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1266FC10)
 
+inline static constexpr unsigned int EABLPGMPHBM_TypeDefinitionIndex = 59127;
+
 	class EABLPGMPHBM
 	{
 	public:

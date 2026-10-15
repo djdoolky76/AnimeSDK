@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeV2PvpManagerBase_TypeDefinitionIndex = 66047;
+
 	class MatchThreeV2PvpManagerBase : public ::System::Object
 	{
 	public:

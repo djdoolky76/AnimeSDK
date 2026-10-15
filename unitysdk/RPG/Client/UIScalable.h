@@ -25,6 +25,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIScalable_TypeDefinitionIndex = 69113;
+
 	class UIScalable : public ::UnityEngine::MonoBehaviour
 	{
 	public:

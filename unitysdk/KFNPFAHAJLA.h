@@ -10,6 +10,8 @@ class LMFOOOLDECA;
 #define KFNPFAHAJLA_FKFDADNHMLJ_OFFSET UNITYSDK_OFFSET(0xB3C6580)
 #define KFNPFAHAJLA_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xB3C6120)
 
+inline static constexpr unsigned int KFNPFAHAJLA_TypeDefinitionIndex = 77851;
+
 	class KFNPFAHAJLA : public ::System::Object
 	{
 	public:

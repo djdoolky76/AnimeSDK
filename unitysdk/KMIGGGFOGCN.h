@@ -25,6 +25,8 @@ namespace System { class String; }
 #define KMIGGGFOGCN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E89B9A0)
 #define KMIGGGFOGCN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E89BA00)
 
+inline static constexpr unsigned int KMIGGGFOGCN_TypeDefinitionIndex = 29849;
+
 	class KMIGGGFOGCN : public ::System::Object
 	{
 	public:

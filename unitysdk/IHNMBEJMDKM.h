@@ -4,6 +4,8 @@
 
 #define IHNMBEJMDKM_CTOR_OFFSET UNITYSDK_OFFSET(0x16426240)
 
+inline static constexpr unsigned int IHNMBEJMDKM_TypeDefinitionIndex = 73553;
+
 	class IHNMBEJMDKM : public ::LLJAOGKDNFD
 	{
 	public:

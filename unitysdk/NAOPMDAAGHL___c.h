@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 #define NAOPMDAAGHL___C__CREATESPECIALCUSTOMERENTITYANDVIEW_B__11_0_OFFSET UNITYSDK_OFFSET(0xBAB7800)
 #define NAOPMDAAGHL___C__CREATETAKEOUTENTITYANDVIEW_B__34_0_OFFSET UNITYSDK_OFFSET(0xBAB7920)
 
+inline static constexpr unsigned int NAOPMDAAGHL___c_TypeDefinitionIndex = 77262;
+
 	class NAOPMDAAGHL___c : public ::System::Object
 	{
 	public:

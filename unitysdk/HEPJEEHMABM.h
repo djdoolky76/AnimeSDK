@@ -8,6 +8,8 @@ class HEPJEEHMABM;
 #define HEPJEEHMABM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE9C5A0)
 #define HEPJEEHMABM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE9C560)
 
+inline static constexpr unsigned int HEPJEEHMABM_TypeDefinitionIndex = 24318;
+
 	class HEPJEEHMABM : public ::RPG::GameCore::TaskConfig
 	{
 	public:

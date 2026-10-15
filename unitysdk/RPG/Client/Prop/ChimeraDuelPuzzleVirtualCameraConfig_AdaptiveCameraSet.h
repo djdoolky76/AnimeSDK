@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelPuzzleVirtualCameraConfig_AdaptiveCameraSet_TypeDefinitionIndex = 78314;
+
 	class ChimeraDuelPuzzleVirtualCameraConfig_AdaptiveCameraSet : public ::System::Object
 	{
 	public:

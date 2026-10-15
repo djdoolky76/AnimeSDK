@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client::CrowdAnimator
 {
+	inline static constexpr unsigned int BoneData_TypeDefinitionIndex = 73732;
+
 	class BoneData : public ::System::Object
 	{
 	public:

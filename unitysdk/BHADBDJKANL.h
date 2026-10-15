@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BHADBDJKANL_MGOMLAEAIAC_OFFSET UNITYSDK_OFFSET(0xB46D1D0)
 #define BHADBDJKANL_OOKCHDHELPB_OFFSET UNITYSDK_OFFSET(0xB46D780)
 
+inline static constexpr unsigned int BHADBDJKANL_TypeDefinitionIndex = 57519;
+
 	class BHADBDJKANL : public ::EDLDHDMLJDH
 	{
 	public:

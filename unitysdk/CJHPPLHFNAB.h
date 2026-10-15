@@ -32,6 +32,8 @@ namespace System { class String; }
 #define CJHPPLHFNAB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0DE2C0)
 #define CJHPPLHFNAB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0DE320)
 
+inline static constexpr unsigned int CJHPPLHFNAB_TypeDefinitionIndex = 25561;
+
 	class CJHPPLHFNAB : public ::System::Object
 	{
 	public:

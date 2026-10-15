@@ -7,6 +7,8 @@ namespace System { class String; }
 #define LOCALE_GETTEXT_1_OFFSET UNITYSDK_OFFSET(0x1C04C910)
 #define LOCALE_GETTEXT_OFFSET UNITYSDK_OFFSET(0x1C04C900)
 
+inline static constexpr unsigned int Locale_TypeDefinitionIndex = 2;
+
 	class Locale : public ::System::Object
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace RPG::Client::BlindBox::Pool
 {
+	inline static constexpr unsigned int BlindBoxPool_TypeDefinitionIndex = 74908;
+
 	class BlindBoxPool : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlSchemaDatatypeVariety_TypeDefinitionIndex = 2084;
+
 	enum class XmlSchemaDatatypeVariety : ::System::Int32
 	{
 		Atomic = 0,

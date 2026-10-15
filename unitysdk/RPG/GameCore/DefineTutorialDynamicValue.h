@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DefineTutorialDynamicValue_TypeDefinitionIndex = 24382;
+
 	class DefineTutorialDynamicValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

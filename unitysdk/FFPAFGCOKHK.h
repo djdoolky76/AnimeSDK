@@ -15,6 +15,8 @@ namespace RPG::GameCore { class ParkourTriggerEventRow; }
 #define FFPAFGCOKHK_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1574D3F0)
 #define FFPAFGCOKHK_LDKMIKEMHFO_OFFSET UNITYSDK_OFFSET(0x1574D870)
 
+inline static constexpr unsigned int FFPAFGCOKHK_TypeDefinitionIndex = 74197;
+
 	class FFPAFGCOKHK : public ::System::Object
 	{
 	public:

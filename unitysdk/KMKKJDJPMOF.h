@@ -80,6 +80,8 @@ namespace UnityEngine { class Texture2D; }
 #define KMKKJDJPMOF_PBOLIFDNOAC_OFFSET UNITYSDK_OFFSET(0xB560260)
 #define KMKKJDJPMOF_PCBDFNEMANE_OFFSET UNITYSDK_OFFSET(0xB561A80)
 
+inline static constexpr unsigned int KMKKJDJPMOF_TypeDefinitionIndex = 69501;
+
 	class KMKKJDJPMOF : public ::System::Object
 	{
 	public:

@@ -51,6 +51,8 @@ namespace System::IO { class TextWriter; }
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int DateTimeUtils_TypeDefinitionIndex = 9663;
+
 	class DateTimeUtils : public ::System::Object
 	{
 	public:

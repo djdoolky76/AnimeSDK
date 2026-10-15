@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define IMAGFGIHLJC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6B4080)
 #define IMAGFGIHLJC___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E6B4090)
 
+inline static constexpr unsigned int IMAGFGIHLJC___c_TypeDefinitionIndex = 31637;
+
 	class IMAGFGIHLJC___c : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace UnityEngine::UI { class Button; }
 #define HHGEMBBMLIC_PFGLOEELJOB_OFFSET UNITYSDK_OFFSET(0x15CCB0E0)
 #define HHGEMBBMLIC__ONBIND_OFFSET UNITYSDK_OFFSET(0x15CCB5C0)
 
+inline static constexpr unsigned int HHGEMBBMLIC_TypeDefinitionIndex = 72217;
+
 	class HHGEMBBMLIC : public ::FMPCODLIOLG
 	{
 	public:

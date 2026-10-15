@@ -7,6 +7,8 @@
 
 namespace RPG::Client::MechCraft
 {
+	inline static constexpr unsigned int MechCraftRedDotHelper_TypeDefinitionIndex = 79412;
+
 	class MechCraftRedDotHelper : public ::System::Object
 	{
 	public:

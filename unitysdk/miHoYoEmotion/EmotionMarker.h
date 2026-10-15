@@ -7,6 +7,8 @@
 
 namespace miHoYoEmotion
 {
+	inline static constexpr unsigned int EmotionMarker_TypeDefinitionIndex = 45963;
+
 	class EmotionMarker : public ::miHoYoEmotion::BaseMarker
 	{
 	public:

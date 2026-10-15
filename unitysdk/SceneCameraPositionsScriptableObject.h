@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define SCENECAMERAPOSITIONSSCRIPTABLEOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0xE95ED10)
 
+inline static constexpr unsigned int SceneCameraPositionsScriptableObject_TypeDefinitionIndex = 47099;
+
 	class SceneCameraPositionsScriptableObject : public ::UnityEngine::ScriptableObject
 	{
 	public:

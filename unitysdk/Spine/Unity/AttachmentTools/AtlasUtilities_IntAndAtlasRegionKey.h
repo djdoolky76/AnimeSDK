@@ -7,6 +7,8 @@ namespace Spine { class AtlasRegion; }
 
 namespace Spine::Unity::AttachmentTools
 {
+	inline static constexpr unsigned int AtlasUtilities_IntAndAtlasRegionKey_TypeDefinitionIndex = 45113;
+
 	struct alignas(8) AtlasUtilities_IntAndAtlasRegionKey
 	{
 		::System::Int32 i; // 0x10

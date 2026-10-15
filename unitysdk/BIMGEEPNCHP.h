@@ -5,6 +5,8 @@
 
 #define BIMGEEPNCHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BAF60)
 
+inline static constexpr unsigned int BIMGEEPNCHP_TypeDefinitionIndex = 42222;
+
 	class BIMGEEPNCHP : public ::System::Object
 	{
 	public:

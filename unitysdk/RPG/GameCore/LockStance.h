@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LockStance; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LockStance_TypeDefinitionIndex = 23623;
+
 	class LockStance : public ::RPG::GameCore::TaskConfig
 	{
 	public:

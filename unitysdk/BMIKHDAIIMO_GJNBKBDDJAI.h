@@ -6,6 +6,8 @@ namespace RPG::Client::OpenWorld { class StreamingItemData; }
 #define BMIKHDAIIMO_GJNBKBDDJAI_CTOR_OFFSET UNITYSDK_OFFSET(0xBDB5FB0)
 #define BMIKHDAIIMO_GJNBKBDDJAI_FMPHNNADJPE_OFFSET UNITYSDK_OFFSET(0xBDBD410)
 
+inline static constexpr unsigned int BMIKHDAIIMO_GJNBKBDDJAI_TypeDefinitionIndex = 73878;
+
 	class BMIKHDAIIMO_GJNBKBDDJAI : public ::HPKACEPPPCA
 	{
 	public:

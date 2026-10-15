@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int OverseaPayManager___c__DisplayClass42_0_TypeDefinitionIndex = 9343;
+
 	class OverseaPayManager___c__DisplayClass42_0 : public ::System::Object
 	{
 	public:

@@ -60,6 +60,8 @@ namespace System { class String; }
 #define LJGKNFCFLLB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E97E6F0)
 #define LJGKNFCFLLB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E97E750)
 
+inline static constexpr unsigned int LJGKNFCFLLB_TypeDefinitionIndex = 34410;
+
 	class LJGKNFCFLLB : public ::System::Object
 	{
 	public:

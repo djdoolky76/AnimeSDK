@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MarbleSwallow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleSwallow_TypeDefinitionIndex = 16858;
+
 	class MarbleSwallow : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierExecActionAfterAddRoleConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierExecActionAfterAddRoleConfig_TypeDefinitionIndex = 19370;
+
 	class GridFightModifierExecActionAfterAddRoleConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

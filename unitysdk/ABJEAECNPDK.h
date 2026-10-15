@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define ABJEAECNPDK_PKOCDCNOAKH_OFFSET UNITYSDK_OFFSET(0x1C580F20)
 
+inline static constexpr unsigned int ABJEAECNPDK_TypeDefinitionIndex = 36395;
+
 	class ABJEAECNPDK : public ::System::Object
 	{
 	public:

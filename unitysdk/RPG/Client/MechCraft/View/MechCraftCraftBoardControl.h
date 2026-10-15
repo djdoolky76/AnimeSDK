@@ -15,6 +15,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftCraftBoardControlBinder;
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftBoardControl_TypeDefinitionIndex = 79842;
+
 	class MechCraftCraftBoardControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AudiencePrefabSpecialTag_Blink_TypeDefinitionIndex = 69127;
+
 	class AudiencePrefabSpecialTag_Blink : public ::RPG::Client::AudiencePrefabSpecialTag
 	{
 	public:

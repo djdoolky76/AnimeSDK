@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LOJDGEMICFP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D121A60)
 #define LOJDGEMICFP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D121380)
 
+inline static constexpr unsigned int LOJDGEMICFP_TypeDefinitionIndex = 11832;
+
 	class LOJDGEMICFP : public ::System::Object
 	{
 	public:

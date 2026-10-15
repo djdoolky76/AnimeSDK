@@ -28,6 +28,8 @@ namespace RPG::GameCore { class TurnBasedGameMode; }
 #define FFGBCKAOMGE_PCKBOHGFFPF_OFFSET UNITYSDK_OFFSET(0x15737310)
 #define FFGBCKAOMGE_SET_INFEVER_OFFSET UNITYSDK_OFFSET(0x15737460)
 
+inline static constexpr unsigned int FFGBCKAOMGE_TypeDefinitionIndex = 56281;
+
 	class FFGBCKAOMGE : public ::System::Object
 	{
 	public:

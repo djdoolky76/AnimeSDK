@@ -22,6 +22,8 @@ namespace System { class String; }
 #define OFNHLNAFMJM_OOKFNPPHHEK_OFFSET UNITYSDK_OFFSET(0xBE49530)
 #define OFNHLNAFMJM_OPCKNBHNBOA_OFFSET UNITYSDK_OFFSET(0xBE49A30)
 
+inline static constexpr unsigned int OFNHLNAFMJM_TypeDefinitionIndex = 54327;
+
 	class OFNHLNAFMJM : public ::System::Object
 	{
 	public:

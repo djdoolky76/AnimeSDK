@@ -28,6 +28,8 @@ namespace System { class String; }
 #define FFLCBCBGMLI_SET_OVERRIDEPROPERTIES_OFFSET UNITYSDK_OFFSET(0x15744F50)
 #define FFLCBCBGMLI_SET_SLOTTRIGGERKEY_OFFSET UNITYSDK_OFFSET(0x157451F0)
 
+inline static constexpr unsigned int FFLCBCBGMLI_TypeDefinitionIndex = 57685;
+
 	class FFLCBCBGMLI : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftSubmitControlBinder_TypeDefinitionIndex = 79946;
+
 	class MechCraftCraftSubmitControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

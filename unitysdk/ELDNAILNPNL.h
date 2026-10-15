@@ -4,6 +4,8 @@
 
 #define ELDNAILNPNL_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x2E73580)
 
+inline static constexpr unsigned int ELDNAILNPNL_TypeDefinitionIndex = 57648;
+
 	struct alignas(4) ELDNAILNPNL
 	{
 		::System::Single JMBHCPLJNNM; // 0x10

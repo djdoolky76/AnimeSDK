@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HJJDEPBAGJA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D250D0)
 #define HJJDEPBAGJA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15D25910)
 
+inline static constexpr unsigned int HJJDEPBAGJA_TypeDefinitionIndex = 55324;
+
 	class HJJDEPBAGJA : public ::JODABDCOPOP
 	{
 	public:

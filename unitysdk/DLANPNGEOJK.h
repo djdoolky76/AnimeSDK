@@ -7,6 +7,8 @@ namespace RPG::Client::PetMarble { class IPetMarbleData; }
 #define DLANPNGEOJK_COMPARE_OFFSET UNITYSDK_OFFSET(0xF8908D0)
 #define DLANPNGEOJK_CTOR_OFFSET UNITYSDK_OFFSET(0xF8908C0)
 
+inline static constexpr unsigned int DLANPNGEOJK_TypeDefinitionIndex = 74693;
+
 	class DLANPNGEOJK : public ::System::Object
 	{
 	public:

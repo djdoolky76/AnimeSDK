@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define DIPKIAKHPAK_UPDATEPROJECTIONADD_OFFSET UNITYSDK_OFFSET(0xF22A6E0)
 #define DIPKIAKHPAK_UPDATEREMOVEROLE_OFFSET UNITYSDK_OFFSET(0xF22A880)
 
+inline static constexpr unsigned int DIPKIAKHPAK_TypeDefinitionIndex = 65182;
+
 	class DIPKIAKHPAK : public ::AMCOEFHHBPO
 	{
 	public:

@@ -15,6 +15,8 @@ namespace UnityEngine::UIElements { template <typename T> class ObjectPool_1; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int PropagationPaths_TypeDefinitionIndex = 5989;
+
 	class PropagationPaths : public ::System::Object
 	{
 	public:

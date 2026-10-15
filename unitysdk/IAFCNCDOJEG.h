@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IAFCNCDOJEG_LNMIEBBHDGF_OFFSET UNITYSDK_OFFSET(0x15E04CE0)
 #define IAFCNCDOJEG_PHDNDNECHMM_OFFSET UNITYSDK_OFFSET(0x15E03F20)
 
+inline static constexpr unsigned int IAFCNCDOJEG_TypeDefinitionIndex = 60636;
+
 	class IAFCNCDOJEG : public ::System::Object
 	{
 	public:

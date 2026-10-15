@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BGICFJOHEDO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB189920)
 #define BGICFJOHEDO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB189700)
 
+inline static constexpr unsigned int BGICFJOHEDO_TypeDefinitionIndex = 52685;
+
 	class BGICFJOHEDO
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define KDNNNPMJINB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C56B6E0)
 #define KDNNNPMJINB___C__ITERATEAFFECTEDCELLS_B__5_1_OFFSET UNITYSDK_OFFSET(0x1C56B6F0)
 
+inline static constexpr unsigned int KDNNNPMJINB___c_TypeDefinitionIndex = 41781;
+
 	class KDNNNPMJINB___c : public ::System::Object
 	{
 	public:

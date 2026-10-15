@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GIJLACBOPEE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E49C9E0)
 #define GIJLACBOPEE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E49CA40)
 
+inline static constexpr unsigned int GIJLACBOPEE_TypeDefinitionIndex = 34419;
+
 	class GIJLACBOPEE : public ::System::Object
 	{
 	public:

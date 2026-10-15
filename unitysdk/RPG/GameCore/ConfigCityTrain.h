@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConfigCityTrain_TypeDefinitionIndex = 16923;
+
 	class ConfigCityTrain : public ::RPG::GameCore::JsonConfig
 	{
 	public:

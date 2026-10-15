@@ -25,6 +25,8 @@ namespace System { class String; }
 #define GHDNIIFHFGB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4862D0)
 #define GHDNIIFHFGB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E486330)
 
+inline static constexpr unsigned int GHDNIIFHFGB_TypeDefinitionIndex = 27663;
+
 	class GHDNIIFHFGB : public ::System::Object
 	{
 	public:

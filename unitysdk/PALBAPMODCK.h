@@ -4,6 +4,8 @@
 #include "unitysdk/RPG/Client/FiveDimScreenTransferType.h"
 namespace System { class Action; }
 
+inline static constexpr unsigned int PALBAPMODCK_TypeDefinitionIndex = 60532;
+
 	struct alignas(8) PALBAPMODCK
 	{
 		::System::Boolean KBFGMAOBANF; // 0x10

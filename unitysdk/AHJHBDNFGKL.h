@@ -4,6 +4,8 @@
 
 #define AHJHBDNFGKL_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1CCC4420)
 
+inline static constexpr unsigned int AHJHBDNFGKL_TypeDefinitionIndex = 10699;
+
 	class AHJHBDNFGKL : public ::System::Object
 	{
 	public:

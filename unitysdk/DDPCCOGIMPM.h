@@ -6,6 +6,8 @@ namespace RPG::GameCore { class WolfBroActivateBullet; }
 #define DDPCCOGIMPM_CTOR_OFFSET UNITYSDK_OFFSET(0xE4F1120)
 #define DDPCCOGIMPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE4F1150)
 
+inline static constexpr unsigned int DDPCCOGIMPM_TypeDefinitionIndex = 58952;
+
 	class DDPCCOGIMPM
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleByTeamOnFieldCount_TypeDefinitionIndex = 16891;
+
 	class MarbleByTeamOnFieldCount : public ::RPG::GameCore::MarblePredicateConfig
 	{
 	public:

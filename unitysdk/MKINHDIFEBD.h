@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChimeraDuelEntityComparerBase; }
 #define MKINHDIFEBD_COMPARE_OFFSET UNITYSDK_OFFSET(0xB9982E0)
 #define MKINHDIFEBD_CTOR_OFFSET UNITYSDK_OFFSET(0xB9982C0)
 
+inline static constexpr unsigned int MKINHDIFEBD_TypeDefinitionIndex = 77441;
+
 	class MKINHDIFEBD : public ::PADIOAPBPLC
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int DirectoryNotFoundException_TypeDefinitionIndex = 666;
+
 	class DirectoryNotFoundException : public ::System::IO::IOException
 	{
 	public:

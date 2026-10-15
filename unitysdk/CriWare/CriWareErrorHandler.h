@@ -27,6 +27,8 @@ namespace System::Collections::Concurrent { template <typename T> class Concurre
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriWareErrorHandler_TypeDefinitionIndex = 40143;
+
 	class CriWareErrorHandler : public ::CriWare::CriMonoBehaviour
 	{
 	public:

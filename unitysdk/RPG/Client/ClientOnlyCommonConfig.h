@@ -44,6 +44,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ClientOnlyCommonConfig_TypeDefinitionIndex = 60017;
+
 	class ClientOnlyCommonConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

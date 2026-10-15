@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int SingletonMonoBehavior_1_TypeDefinitionIndex = 40914;
+
 	template <typename T>
 	class SingletonMonoBehavior_1 : public ::UnityEngine::MonoBehaviour
 	{

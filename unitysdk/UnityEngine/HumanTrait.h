@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int HumanTrait_TypeDefinitionIndex = 5725;
+
 	class HumanTrait : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GIPBHLBFDAH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4A4740)
 #define GIPBHLBFDAH___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E4A4750)
 
+inline static constexpr unsigned int GIPBHLBFDAH___c_TypeDefinitionIndex = 27758;
+
 	class GIPBHLBFDAH___c : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeV2RewardInfo_TypeDefinitionIndex = 66005;
+
 	class MatchThreeV2RewardInfo : public ::System::Object
 	{
 	public:

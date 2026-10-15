@@ -66,6 +66,8 @@ namespace UnityEngine::UI { class Image; }
 #define KFLMHOMOIGO__ONBIND_OFFSET UNITYSDK_OFFSET(0xB3C1D70)
 #define KFLMHOMOIGO__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xB3C2150)
 
+inline static constexpr unsigned int KFLMHOMOIGO_TypeDefinitionIndex = 72258;
+
 	class KFLMHOMOIGO : public ::FMPCODLIOLG
 	{
 	public:

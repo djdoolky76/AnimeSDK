@@ -16,6 +16,8 @@ namespace System { class Object; }
 #define NLCNANBOKKK_PCECDHMCNMP_OFFSET UNITYSDK_OFFSET(0xBC63B10)
 #define NLCNANBOKKK_TICK_OFFSET UNITYSDK_OFFSET(0xBC63480)
 
+inline static constexpr unsigned int NLCNANBOKKK_TypeDefinitionIndex = 58460;
+
 	class NLCNANBOKKK : public ::GELIALJDFBL
 	{
 	public:

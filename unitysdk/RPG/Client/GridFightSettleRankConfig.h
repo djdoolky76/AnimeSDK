@@ -19,6 +19,8 @@ namespace RPG::GameCore { class GridFightSettleRankRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightSettleRankConfig_TypeDefinitionIndex = 65207;
+
 	class GridFightSettleRankConfig : public ::System::Object
 	{
 	public:

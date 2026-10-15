@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StateValueEntry_TypeDefinitionIndex = 71008;
+
 	class StateValueEntry : public ::System::Object
 	{
 	public:

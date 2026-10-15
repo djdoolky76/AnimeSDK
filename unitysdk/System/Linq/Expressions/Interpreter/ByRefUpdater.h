@@ -9,6 +9,8 @@ namespace System::Linq::Expressions::Interpreter { class LocalVariables; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int ByRefUpdater_TypeDefinitionIndex = 3488;
+
 	class ByRefUpdater : public ::System::Object
 	{
 	public:

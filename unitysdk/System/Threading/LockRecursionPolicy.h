@@ -3,6 +3,8 @@
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int LockRecursionPolicy_TypeDefinitionIndex = 3115;
+
 	enum class LockRecursionPolicy : ::System::Int32
 	{
 		NoRecursion = 0,

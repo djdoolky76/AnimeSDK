@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterPhaseOverrideConfig_TypeDefinitionIndex = 16504;
+
 	class CharacterPhaseOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

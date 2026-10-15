@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightPendingStageBattleBonusAction_TypeDefinitionIndex = 64615;
+
 	class GridFightPendingStageBattleBonusAction : public ::RPG::Client::GridFightPendingStageBaseAction
 	{
 	public:

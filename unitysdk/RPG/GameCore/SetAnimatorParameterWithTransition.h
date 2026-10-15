@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetAnimatorParameterWithTransition_TypeDefinitionIndex = 22880;
+
 	class SetAnimatorParameterWithTransition : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -6,6 +6,8 @@ class INHCJHBALFC;
 #define OICNDGLEACD_CTOR_OFFSET UNITYSDK_OFFSET(0xBE76B30)
 #define OICNDGLEACD_EXECUTE_OFFSET UNITYSDK_OFFSET(0xBE76A90)
 
+inline static constexpr unsigned int OICNDGLEACD_TypeDefinitionIndex = 54262;
+
 	class OICNDGLEACD : public ::BHDAFDOMINP
 	{
 	public:

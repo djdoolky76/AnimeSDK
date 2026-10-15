@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PEPJOKKACDO_CTOR_OFFSET UNITYSDK_OFFSET(0xC1F89E0)
 #define PEPJOKKACDO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC1F8B40)
 
+inline static constexpr unsigned int PEPJOKKACDO_TypeDefinitionIndex = 54477;
+
 	class PEPJOKKACDO
 	{
 	public:

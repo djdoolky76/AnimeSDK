@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueParamRogueMagicLayerIndexConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueParamRogueMagicLayerIndexConfig_TypeDefinitionIndex = 19836;
+
 	class RogueParamRogueMagicLayerIndexConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:

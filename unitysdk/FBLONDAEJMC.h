@@ -28,6 +28,8 @@ namespace System { class String; }
 #define FBLONDAEJMC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E339330)
 #define FBLONDAEJMC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E339390)
 
+inline static constexpr unsigned int FBLONDAEJMC_TypeDefinitionIndex = 33154;
+
 	class FBLONDAEJMC : public ::System::Object
 	{
 	public:

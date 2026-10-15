@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TriggerAutoLayoutTransferPerform; }
 #define AOHNNKDMBJA_CTOR_OFFSET UNITYSDK_OFFSET(0x158AD110)
 #define AOHNNKDMBJA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158AD140)
 
+inline static constexpr unsigned int AOHNNKDMBJA_TypeDefinitionIndex = 55717;
+
 	class AOHNNKDMBJA
 	{
 	public:

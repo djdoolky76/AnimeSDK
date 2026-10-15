@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityEffectClearShieldConfig_TypeDefinitionIndex = 21346;
+
 	class LittleGameAbilityEffectClearShieldConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CEAPCHBBOFN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E08E910)
 #define CEAPCHBBOFN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E08E970)
 
+inline static constexpr unsigned int CEAPCHBBOFN_TypeDefinitionIndex = 26684;
+
 	class CEAPCHBBOFN : public ::System::Object
 	{
 	public:

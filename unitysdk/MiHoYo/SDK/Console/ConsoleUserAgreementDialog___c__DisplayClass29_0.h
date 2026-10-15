@@ -9,6 +9,8 @@ namespace MiHoYo::SDK::Console { class ConsoleUserAgreementDialog; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int ConsoleUserAgreementDialog___c__DisplayClass29_0_TypeDefinitionIndex = 9012;
+
 	class ConsoleUserAgreementDialog___c__DisplayClass29_0 : public ::System::Object
 	{
 	public:

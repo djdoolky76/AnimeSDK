@@ -13,6 +13,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int MonoEffectLoginCameraControl_TypeDefinitionIndex = 51836;
+
 	class MonoEffectLoginCameraControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

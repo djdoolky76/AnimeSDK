@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Subway
 {
+	inline static constexpr unsigned int AirshipSubwayEmitter_TypeDefinitionIndex = 82209;
+
 	class AirshipSubwayEmitter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

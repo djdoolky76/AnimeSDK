@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MGOLOIGOAMB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA2B570)
 #define MGOLOIGOAMB___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EA2B580)
 
+inline static constexpr unsigned int MGOLOIGOAMB___c_TypeDefinitionIndex = 34771;
+
 	class MGOLOIGOAMB___c : public ::System::Object
 	{
 	public:

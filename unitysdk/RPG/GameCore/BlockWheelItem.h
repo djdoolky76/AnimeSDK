@@ -12,6 +12,8 @@ namespace RPG::GameCore { class BlockWheelItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BlockWheelItem_TypeDefinitionIndex = 24276;
+
 	class BlockWheelItem : public ::RPG::GameCore::TaskConfig
 	{
 	public:

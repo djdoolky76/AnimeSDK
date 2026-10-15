@@ -13,6 +13,8 @@ namespace RPG::Client { class PreDownloadAsset; }
 #define AHPGFIBMGJJ_LEAVE_OFFSET UNITYSDK_OFFSET(0xEB8C410)
 #define AHPGFIBMGJJ_TICK_OFFSET UNITYSDK_OFFSET(0xEB8C2F0)
 
+inline static constexpr unsigned int AHPGFIBMGJJ_TypeDefinitionIndex = 61159;
+
 	class AHPGFIBMGJJ : public ::RPG::Client::LoginPhase
 	{
 	public:

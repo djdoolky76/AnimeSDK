@@ -23,6 +23,8 @@ namespace UnityEngine::UI { class Text; }
 #define GDJDKGHHHMP_NJHINLAMJHO_OFFSET UNITYSDK_OFFSET(0x1599D560)
 #define GDJDKGHHHMP_PFAHEOHCAIL_OFFSET UNITYSDK_OFFSET(0x1599D490)
 
+inline static constexpr unsigned int GDJDKGHHHMP_TypeDefinitionIndex = 71858;
+
 	class GDJDKGHHHMP : public ::FMPCODLIOLG
 	{
 	public:

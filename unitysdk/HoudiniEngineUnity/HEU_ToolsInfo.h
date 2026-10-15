@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_ToolsInfo_TypeDefinitionIndex = 40766;
+
 	class HEU_ToolsInfo : public ::UnityEngine::ScriptableObject
 	{
 	public:

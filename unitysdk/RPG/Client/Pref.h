@@ -17,6 +17,8 @@ namespace System { class Type; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Pref_TypeDefinitionIndex = 35317;
+
 	class Pref : public ::System::Object
 	{
 	public:

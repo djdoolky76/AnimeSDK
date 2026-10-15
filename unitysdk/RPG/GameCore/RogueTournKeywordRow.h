@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournKeywordRow_TypeDefinitionIndex = 15011;
+
 	class RogueTournKeywordRow : public ::System::Object
 	{
 	public:

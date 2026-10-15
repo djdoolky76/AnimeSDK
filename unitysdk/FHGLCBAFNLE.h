@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FHGLCBAFNLE_ICEMIKMHIHA_OFFSET UNITYSDK_OFFSET(0x1577CCF0)
 #define FHGLCBAFNLE_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0x1577CC10)
 
+inline static constexpr unsigned int FHGLCBAFNLE_TypeDefinitionIndex = 53751;
+
 	class FHGLCBAFNLE : public ::GJPFGOGOLBI
 	{
 	public:

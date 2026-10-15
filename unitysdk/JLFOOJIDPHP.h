@@ -7,6 +7,8 @@ class KFMGKJPDLNB;
 #define JLFOOJIDPHP_CTOR_OFFSET UNITYSDK_OFFSET(0xB243390)
 #define JLFOOJIDPHP_EKMPMMLBNEL_OFFSET UNITYSDK_OFFSET(0xB243420)
 
+inline static constexpr unsigned int JLFOOJIDPHP_TypeDefinitionIndex = 62564;
+
 	class JLFOOJIDPHP : public ::System::Object
 	{
 	public:

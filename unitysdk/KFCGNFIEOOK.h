@@ -10,6 +10,8 @@ namespace System { class Type; }
 #define KFCGNFIEOOK_FNAAJGAHIAI_OFFSET UNITYSDK_OFFSET(0xB38F390)
 #define KFCGNFIEOOK_IHPAKOMCHGP_OFFSET UNITYSDK_OFFSET(0xB38F4C0)
 
+inline static constexpr unsigned int KFCGNFIEOOK_TypeDefinitionIndex = 62818;
+
 	class KFCGNFIEOOK : public ::System::Object
 	{
 	public:

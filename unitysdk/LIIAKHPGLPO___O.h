@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
+inline static constexpr unsigned int LIIAKHPGLPO___O_TypeDefinitionIndex = 54236;
+
 	class LIIAKHPGLPO___O : public ::System::Object
 	{
 	public:

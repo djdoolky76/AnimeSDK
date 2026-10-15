@@ -49,6 +49,8 @@ namespace System { class String; }
 #define LKLKNFHKCBK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E992CC0)
 #define LKLKNFHKCBK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E992D20)
 
+inline static constexpr unsigned int LKLKNFHKCBK_TypeDefinitionIndex = 29085;
+
 	class LKLKNFHKCBK : public ::System::Object
 	{
 	public:

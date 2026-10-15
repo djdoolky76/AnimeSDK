@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GNNGLBEGIKB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4E7010)
 #define GNNGLBEGIKB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4E7070)
 
+inline static constexpr unsigned int GNNGLBEGIKB_TypeDefinitionIndex = 31175;
+
 	class GNNGLBEGIKB : public ::System::Object
 	{
 	public:

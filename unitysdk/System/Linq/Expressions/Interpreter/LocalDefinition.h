@@ -11,6 +11,8 @@ namespace System::Linq::Expressions { class ParameterExpression; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int LocalDefinition_TypeDefinitionIndex = 3520;
+
 	struct alignas(8) LocalDefinition
 	{
 		::System::Int32 _Index_k__BackingField; // 0x10

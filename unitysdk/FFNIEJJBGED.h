@@ -16,6 +16,8 @@ namespace RPG::GameCore { class LevelNavNodeConditionInfos; }
 #define FFNIEJJBGED_KKHCCLHAOBD_OFFSET UNITYSDK_OFFSET(0x3C386B0)
 #define FFNIEJJBGED_PEMJALLNANO_OFFSET UNITYSDK_OFFSET(0x3C38620)
 
+inline static constexpr unsigned int FFNIEJJBGED_TypeDefinitionIndex = 10731;
+
 	struct alignas(8) FFNIEJJBGED
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

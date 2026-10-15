@@ -7,6 +7,8 @@ class NFAHODNHEKK;
 #define OGIKFAKMNAI_FCKDPOPNLIB_OFFSET UNITYSDK_OFFSET(0x1C7CE440)
 #define OGIKFAKMNAI_TICK_OFFSET UNITYSDK_OFFSET(0x1C7CE5E0)
 
+inline static constexpr unsigned int OGIKFAKMNAI_TypeDefinitionIndex = 37342;
+
 	class OGIKFAKMNAI : public ::HOCBJOJNLLC
 	{
 	public:

@@ -15,6 +15,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftTargetControl_TypeDefinitionIndex = 79949;
+
 	class MechCraftCraftTargetControl
 	{
 	public:

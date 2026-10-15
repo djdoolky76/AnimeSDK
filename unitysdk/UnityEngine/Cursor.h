@@ -15,6 +15,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Cursor_TypeDefinitionIndex = 4212;
+
 	class Cursor : public ::System::Object
 	{
 	public:

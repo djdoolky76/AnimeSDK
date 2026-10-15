@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define BCLNOMLHKEI_CTOR_OFFSET UNITYSDK_OFFSET(0x162E3C60)
 
+inline static constexpr unsigned int BCLNOMLHKEI_TypeDefinitionIndex = 56441;
+
 	class BCLNOMLHKEI : public ::System::Object
 	{
 	public:

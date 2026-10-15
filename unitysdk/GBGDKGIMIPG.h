@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define GBGDKGIMIPG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1594C830)
 #define GBGDKGIMIPG_TICK_OFFSET UNITYSDK_OFFSET(0x1594C880)
 
+inline static constexpr unsigned int GBGDKGIMIPG_TypeDefinitionIndex = 58807;
+
 	class GBGDKGIMIPG : public ::GELIALJDFBL
 	{
 	public:

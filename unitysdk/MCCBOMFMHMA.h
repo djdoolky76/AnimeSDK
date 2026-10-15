@@ -17,6 +17,8 @@ namespace System { class Object; }
 #define MCCBOMFMHMA_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xB873DE0)
 #define MCCBOMFMHMA_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB8741B0)
 
+inline static constexpr unsigned int MCCBOMFMHMA_TypeDefinitionIndex = 72964;
+
 	class MCCBOMFMHMA : public ::GNGPLDGOEAI
 	{
 	public:

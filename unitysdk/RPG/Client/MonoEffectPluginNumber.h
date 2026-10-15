@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginNumber_TypeDefinitionIndex = 70082;
+
 	class MonoEffectPluginNumber : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

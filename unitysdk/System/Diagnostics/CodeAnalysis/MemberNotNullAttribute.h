@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::Diagnostics::CodeAnalysis
 {
+	inline static constexpr unsigned int MemberNotNullAttribute_TypeDefinitionIndex = 6076;
+
 	class MemberNotNullAttribute : public ::System::Attribute
 	{
 	public:

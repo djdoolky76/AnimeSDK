@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightCondCheckHasAugmentConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightCondCheckHasAugmentConfig_TypeDefinitionIndex = 19333;
+
 	class GridFightCondCheckHasAugmentConfig : public ::RPG::GameCore::GridFightConditionConfigBase
 	{
 	public:

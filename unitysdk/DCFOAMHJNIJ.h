@@ -5,6 +5,8 @@
 #define DCFOAMHJNIJ_CTOR_OFFSET UNITYSDK_OFFSET(0xE2427E0)
 #define DCFOAMHJNIJ_GNLKPJHAKHM_OFFSET UNITYSDK_OFFSET(0xE2418E0)
 
+inline static constexpr unsigned int DCFOAMHJNIJ_TypeDefinitionIndex = 59717;
+
 	class DCFOAMHJNIJ : public ::LJKHPOHKIIF
 	{
 	public:

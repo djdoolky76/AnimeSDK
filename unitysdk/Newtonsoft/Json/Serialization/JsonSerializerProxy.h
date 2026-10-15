@@ -67,6 +67,8 @@ namespace System::Runtime::Serialization { class SerializationBinder; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int JsonSerializerProxy_TypeDefinitionIndex = 9741;
+
 	class JsonSerializerProxy : public ::Newtonsoft::Json::JsonSerializer
 	{
 	public:

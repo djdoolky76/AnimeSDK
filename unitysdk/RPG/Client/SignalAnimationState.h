@@ -20,6 +20,8 @@ namespace UnityEngine { class AnimationClip; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SignalAnimationState_TypeDefinitionIndex = 70978;
+
 	class SignalAnimationState : public ::System::Object
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::PetDiy
 {
+	inline static constexpr unsigned int ParkPetDiyController_TypeDefinitionIndex = 74476;
+
 	class ParkPetDiyController : public ::System::Object
 	{
 	public:

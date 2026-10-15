@@ -27,6 +27,8 @@ namespace System { class String; }
 #define MOOGABJBJAG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAB0F00)
 #define MOOGABJBJAG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAB0F60)
 
+inline static constexpr unsigned int MOOGABJBJAG_TypeDefinitionIndex = 28930;
+
 	class MOOGABJBJAG : public ::System::Object
 	{
 	public:

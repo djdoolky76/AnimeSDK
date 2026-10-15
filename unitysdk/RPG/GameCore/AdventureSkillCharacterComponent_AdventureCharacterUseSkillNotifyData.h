@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureSkillCharacterComponent_AdventureCharacterUseSkillNotifyData_TypeDefinitionIndex = 56866;
+
 	class AdventureSkillCharacterComponent_AdventureCharacterUseSkillNotifyData : public ::System::Object
 	{
 	public:

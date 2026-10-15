@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FloorInstanceType_TypeDefinitionIndex = 10527;
+
 	enum class FloorInstanceType : ::System::Int32
 	{
 		Anchor = 0,

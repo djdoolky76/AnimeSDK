@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LHPEMLMHIHE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E969530)
 #define LHPEMLMHIHE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E969590)
 
+inline static constexpr unsigned int LHPEMLMHIHE_TypeDefinitionIndex = 33694;
+
 	class LHPEMLMHIHE : public ::System::Object
 	{
 	public:

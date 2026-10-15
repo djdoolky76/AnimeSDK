@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureNpcMonsterDestroy_TypeDefinitionIndex = 56624;
+
 	class AdventureNpcMonsterDestroy : public ::System::Object
 	{
 	public:

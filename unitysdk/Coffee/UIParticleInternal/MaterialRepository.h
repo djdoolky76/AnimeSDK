@@ -17,6 +17,8 @@ namespace UnityEngine { class Material; }
 
 namespace Coffee::UIParticleInternal
 {
+	inline static constexpr unsigned int MaterialRepository_TypeDefinitionIndex = 45134;
+
 	class MaterialRepository : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RtSubModifierData; }
 #define ELKAKOOGJLB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDA3F90)
 #define ELKAKOOGJLB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDA3F50)
 
+inline static constexpr unsigned int ELKAKOOGJLB_TypeDefinitionIndex = 24187;
+
 	class ELKAKOOGJLB : public ::RPG::GameCore::TaskConfig
 	{
 	public:

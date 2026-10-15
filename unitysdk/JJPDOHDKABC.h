@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingBattleAbility_ShowToast; }
 #define JJPDOHDKABC_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0xB20A1D0)
 #define JJPDOHDKABC_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB20A650)
 
+inline static constexpr unsigned int JJPDOHDKABC_TypeDefinitionIndex = 77922;
+
 	class JJPDOHDKABC : public ::JNALBIEDNLH
 	{
 	public:

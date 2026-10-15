@@ -27,6 +27,8 @@ namespace System { class String; }
 #define HIEACFOEMCE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E590FD0)
 #define HIEACFOEMCE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E591030)
 
+inline static constexpr unsigned int HIEACFOEMCE_TypeDefinitionIndex = 31708;
+
 	class HIEACFOEMCE : public ::System::Object
 	{
 	public:

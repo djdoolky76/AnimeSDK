@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OJHCOOKDPHD_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2898D0)
 #define OJHCOOKDPHD_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D2891E0)
 
+inline static constexpr unsigned int OJHCOOKDPHD_TypeDefinitionIndex = 14516;
+
 	class OJHCOOKDPHD : public ::System::Object
 	{
 	public:

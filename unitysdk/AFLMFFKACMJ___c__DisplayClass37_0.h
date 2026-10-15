@@ -6,6 +6,8 @@ class AFLMFFKACMJ;
 #define AFLMFFKACMJ___C__DISPLAYCLASS37_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCF16510)
 #define AFLMFFKACMJ___C__DISPLAYCLASS37_0__SETVISIBLE_B__0_OFFSET UNITYSDK_OFFSET(0xCF17810)
 
+inline static constexpr unsigned int AFLMFFKACMJ___c__DisplayClass37_0_TypeDefinitionIndex = 72109;
+
 	class AFLMFFKACMJ___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:

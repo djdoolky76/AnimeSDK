@@ -144,6 +144,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGQualitySettings_TypeDefinitionIndex = 67919;
+
 	class RPGQualitySettings : public ::System::Object
 	{
 	public:

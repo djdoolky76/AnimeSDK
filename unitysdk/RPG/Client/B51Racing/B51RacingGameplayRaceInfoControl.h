@@ -32,6 +32,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingGameplayRaceInfoControl_TypeDefinitionIndex = 81892;
+
 	class B51RacingGameplayRaceInfoControl : public ::Sofa::BaseSofaControl
 	{
 	public:

@@ -6,6 +6,8 @@
 #define GCHIOHGGHNE_CTOR_OFFSET UNITYSDK_OFFSET(0x159710C0)
 #define GCHIOHGGHNE_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0x159710B0)
 
+inline static constexpr unsigned int GCHIOHGGHNE_TypeDefinitionIndex = 76992;
+
 	class GCHIOHGGHNE : public ::HCODNLKAGHK
 	{
 	public:

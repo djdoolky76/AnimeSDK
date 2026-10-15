@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LanguageSettings_TypeDefinitionIndex = 59360;
+
 	class LanguageSettings : public ::RPG::Client::PrefGroup
 	{
 	public:

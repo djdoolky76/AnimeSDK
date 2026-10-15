@@ -29,6 +29,8 @@ namespace System { class String; }
 #define KOLCCDIJBGO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8B3870)
 #define KOLCCDIJBGO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8B38D0)
 
+inline static constexpr unsigned int KOLCCDIJBGO_TypeDefinitionIndex = 28273;
+
 	class KOLCCDIJBGO : public ::System::Object
 	{
 	public:

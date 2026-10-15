@@ -10,6 +10,8 @@ class ODLHDHLDOJJ;
 #define ODLHDHLDOJJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBDEADB0)
 #define ODLHDHLDOJJ_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0xBDEADC0)
 
+inline static constexpr unsigned int ODLHDHLDOJJ_TypeDefinitionIndex = 76414;
+
 	class ODLHDHLDOJJ : public ::HALHKJLBIKJ
 	{
 	public:

@@ -11,6 +11,8 @@ class WwiseSwitchGroupReference;
 #define WWISESWITCHREFERENCE_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1F637380)
 #define WWISESWITCHREFERENCE_SET_GROUPOBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1F6373A0)
 
+inline static constexpr unsigned int WwiseSwitchReference_TypeDefinitionIndex = 44892;
+
 	class WwiseSwitchReference : public ::WwiseGroupValueObjectReference
 	{
 	public:

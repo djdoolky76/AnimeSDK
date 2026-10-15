@@ -29,6 +29,8 @@ namespace System { class String; }
 #define APAMFCKFHLL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E671FF0)
 #define APAMFCKFHLL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E672050)
 
+inline static constexpr unsigned int APAMFCKFHLL_TypeDefinitionIndex = 27827;
+
 	class APAMFCKFHLL : public ::System::Object
 	{
 	public:

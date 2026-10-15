@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FABRIK_WeaponControl_WeaponHand_TypeDefinitionIndex = 68421;
+
 	class FABRIK_WeaponControl_WeaponHand : public ::System::Object
 	{
 	public:

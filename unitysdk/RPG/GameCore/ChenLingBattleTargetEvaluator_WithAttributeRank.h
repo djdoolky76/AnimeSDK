@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ChenLingBattleTargetEvaluator_WithAttributeRank;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleTargetEvaluator_WithAttributeRank_TypeDefinitionIndex = 15773;
+
 	class ChenLingBattleTargetEvaluator_WithAttributeRank : public ::RPG::GameCore::BaseChenLingBattleTargetEvaluator
 	{
 	public:

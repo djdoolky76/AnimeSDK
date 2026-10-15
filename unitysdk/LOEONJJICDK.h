@@ -7,6 +7,8 @@ class IJFIHJJPHNA;
 #define LOEONJJICDK_BOLNHEOJFME_OFFSET UNITYSDK_OFFSET(0x1C741670)
 #define LOEONJJICDK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C741660)
 
+inline static constexpr unsigned int LOEONJJICDK_TypeDefinitionIndex = 36521;
+
 	class LOEONJJICDK : public ::System::Object
 	{
 	public:

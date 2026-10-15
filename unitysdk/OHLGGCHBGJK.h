@@ -5,6 +5,8 @@
 #define OHLGGCHBGJK_CTOR_OFFSET UNITYSDK_OFFSET(0x24B50)
 #define OHLGGCHBGJK_HJFFHBPCBNC_OFFSET UNITYSDK_OFFSET(0x24B70)
 
+inline static constexpr unsigned int OHLGGCHBGJK_TypeDefinitionIndex = 57007;
+
 	struct alignas(4) OHLGGCHBGJK
 	{
 		::UnityEngine::Vector3 GNOKDJHJJAB; // 0x10

@@ -17,6 +17,8 @@ namespace System { class Object; }
 #define IKGJBGEADKI_OPCKNBHNBOA_OFFSET UNITYSDK_OFFSET(0x1648CC40)
 #define IKGJBGEADKI_TICK_OFFSET UNITYSDK_OFFSET(0x1648CD20)
 
+inline static constexpr unsigned int IKGJBGEADKI_TypeDefinitionIndex = 55855;
+
 	class IKGJBGEADKI : public ::System::Object
 	{
 	public:

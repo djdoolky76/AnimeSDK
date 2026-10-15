@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LBKJOGEFFOK_NPGJNHKKAMI_OFFSET UNITYSDK_OFFSET(0xB606F60)
 #define LBKJOGEFFOK_SET_BOUNDSOCCLUDERFORJOB_OFFSET UNITYSDK_OFFSET(0xB609BF0)
 
+inline static constexpr unsigned int LBKJOGEFFOK_TypeDefinitionIndex = 60531;
+
 	class LBKJOGEFFOK : public ::System::Object
 	{
 	public:

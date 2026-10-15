@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournBuildRefTeamAvatarMemberData_TypeDefinitionIndex = 67532;
+
 	class RogueTournBuildRefTeamAvatarMemberData : public ::System::Object
 	{
 	public:

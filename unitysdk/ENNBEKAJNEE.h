@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ENNBEKAJNEE_GET_SHOULDERREFFECTPATH_OFFSET UNITYSDK_OFFSET(0x155B35B0)
 #define ENNBEKAJNEE_JPBJMJAIDHJ_OFFSET UNITYSDK_OFFSET(0x155B3F70)
 
+inline static constexpr unsigned int ENNBEKAJNEE_TypeDefinitionIndex = 80117;
+
 	class ENNBEKAJNEE : public ::System::Object
 	{
 	public:

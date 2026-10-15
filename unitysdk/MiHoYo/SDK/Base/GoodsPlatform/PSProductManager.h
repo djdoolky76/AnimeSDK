@@ -26,6 +26,8 @@ namespace System::Diagnostics { class Stopwatch; }
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
+	inline static constexpr unsigned int PSProductManager_TypeDefinitionIndex = 8847;
+
 	class PSProductManager : public ::System::Object
 	{
 	public:

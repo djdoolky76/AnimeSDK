@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JMLPEHEPJIH_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D04AEF0)
 #define JMLPEHEPJIH_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D04A850)
 
+inline static constexpr unsigned int JMLPEHEPJIH_TypeDefinitionIndex = 11567;
+
 	class JMLPEHEPJIH : public ::System::Object
 	{
 	public:

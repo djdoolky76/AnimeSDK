@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitWaveBattlePerformFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitWaveBattlePerformFinish_TypeDefinitionIndex = 23319;
+
 	class WaitWaveBattlePerformFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

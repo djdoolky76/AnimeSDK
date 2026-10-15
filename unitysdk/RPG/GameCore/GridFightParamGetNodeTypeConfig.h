@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamGetNodeTypeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamGetNodeTypeConfig_TypeDefinitionIndex = 19545;
+
 	class GridFightParamGetNodeTypeConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

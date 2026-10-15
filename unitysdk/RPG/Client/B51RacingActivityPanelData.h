@@ -12,6 +12,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int B51RacingActivityPanelData_TypeDefinitionIndex = 61593;
+
 	class B51RacingActivityPanelData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

@@ -5,6 +5,8 @@
 #define AKTRIGGERDISABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F618480)
 #define AKTRIGGERDISABLE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1F618420)
 
+inline static constexpr unsigned int AkTriggerDisable_TypeDefinitionIndex = 44963;
+
 	class AkTriggerDisable : public ::AkTriggerBase
 	{
 	public:

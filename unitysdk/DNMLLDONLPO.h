@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DNMLLDONLPO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x11FD9C60)
 #define DNMLLDONLPO_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x11FD9E40)
 
+inline static constexpr unsigned int DNMLLDONLPO_TypeDefinitionIndex = 61240;
+
 	class DNMLLDONLPO : public ::System::Object
 	{
 	public:

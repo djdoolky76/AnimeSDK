@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelWaveMonster_TypeDefinitionIndex = 56730;
+
 	class LevelWaveMonster : public ::System::Object
 	{
 	public:

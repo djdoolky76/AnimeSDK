@@ -8,6 +8,8 @@ namespace RPG::Client::B51Racing { class B51RacingDIYPageControl; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingDIYPageControl___c__DisplayClass16_0_TypeDefinitionIndex = 81779;
+
 	class B51RacingDIYPageControl___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:

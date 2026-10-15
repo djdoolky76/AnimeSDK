@@ -7,6 +7,8 @@ class FCOEMCEDLNL;
 #define ACDOGMEAIPD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCA41D0)
 #define ACDOGMEAIPD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCA3FC0)
 
+inline static constexpr unsigned int ACDOGMEAIPD_TypeDefinitionIndex = 14407;
+
 	class ACDOGMEAIPD : public ::System::Object
 	{
 	public:

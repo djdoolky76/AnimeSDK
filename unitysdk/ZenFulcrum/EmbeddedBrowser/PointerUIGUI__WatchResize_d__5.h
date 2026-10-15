@@ -14,6 +14,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class PointerUIGUI; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int PointerUIGUI__WatchResize_d__5_TypeDefinitionIndex = 39485;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5>
 	class PointerUIGUI__WatchResize_d__5 : public ::System::Object
 	{

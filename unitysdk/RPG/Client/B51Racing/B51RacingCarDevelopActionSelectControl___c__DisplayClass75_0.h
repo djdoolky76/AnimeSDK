@@ -9,6 +9,8 @@ namespace RPG::Client::B51Racing { class B51RacingDevelopActionResultViewModel; 
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingCarDevelopActionSelectControl___c__DisplayClass75_0_TypeDefinitionIndex = 81801;
+
 	class B51RacingCarDevelopActionSelectControl___c__DisplayClass75_0 : public ::System::Object
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int JJDFGMMMCMI_TypeDefinitionIndex = 29113;
+
 	enum class JJDFGMMMCMI : ::System::Int32
 	{
 		CMOALMGLKIE = 0,

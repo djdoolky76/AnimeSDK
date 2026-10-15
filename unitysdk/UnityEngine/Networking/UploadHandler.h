@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Networking
 {
+	inline static constexpr unsigned int UploadHandler_TypeDefinitionIndex = 5363;
+
 	class UploadHandler : public ::System::Object
 	{
 	public:

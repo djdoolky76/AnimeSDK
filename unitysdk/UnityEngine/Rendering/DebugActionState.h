@@ -20,6 +20,8 @@ namespace UnityEngine::Rendering { class DebugActionDesc; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DebugActionState_TypeDefinitionIndex = 35519;
+
 	class DebugActionState : public ::System::Object
 	{
 	public:

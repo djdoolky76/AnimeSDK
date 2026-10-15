@@ -8,6 +8,8 @@ namespace UnityEngine { class Flare; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Flare_TypeDefinitionIndex = 4141;
+
 	class Flare : public ::UnityEngine::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TraceCurrentHeartDialNPC; }
 #define PEPBOMOMFNP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC1F7A00)
 #define PEPBOMOMFNP_TICK_OFFSET UNITYSDK_OFFSET(0xC1F7A50)
 
+inline static constexpr unsigned int PEPBOMOMFNP_TypeDefinitionIndex = 53410;
+
 	class PEPBOMOMFNP : public ::GELIALJDFBL
 	{
 	public:

@@ -23,6 +23,8 @@ namespace RPG::Client { class ClockParkSlotInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ClockParkSlotItem_TypeDefinitionIndex = 61494;
+
 	class ClockParkSlotItem : public ::System::Object
 	{
 	public:

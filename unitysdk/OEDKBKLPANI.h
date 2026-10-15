@@ -8,6 +8,8 @@ namespace Proto { class MonopolyActionResult; }
 #define OEDKBKLPANI_EIMIIHEDKFM_OFFSET UNITYSDK_OFFSET(0xBE26380)
 #define OEDKBKLPANI_TRIGGER_OFFSET UNITYSDK_OFFSET(0xBE26250)
 
+inline static constexpr unsigned int OEDKBKLPANI_TypeDefinitionIndex = 66226;
+
 	class OEDKBKLPANI : public ::System::Object
 	{
 	public:

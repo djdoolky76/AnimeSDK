@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_IsPVE; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatPredicateConfig_IsPVE_TypeDefinitionIndex = 16118;
+
 	class DiceCombatPredicateConfig_IsPVE : public ::RPG::GameCore::DiceCombatPredicateConfig
 	{
 	public:

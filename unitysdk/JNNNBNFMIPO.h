@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 #define JNNNBNFMIPO_SET_ISMOVESTARTED_OFFSET UNITYSDK_OFFSET(0xB28F1A0)
 #define JNNNBNFMIPO_SET_NORMALIZEDSPEED_OFFSET UNITYSDK_OFFSET(0xB28F180)
 
+inline static constexpr unsigned int JNNNBNFMIPO_TypeDefinitionIndex = 57055;
+
 	class JNNNBNFMIPO : public ::System::Object
 	{
 	public:

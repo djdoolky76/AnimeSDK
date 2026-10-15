@@ -9,6 +9,8 @@ namespace System { class String; }
 #define AKUTILITIES_SHORTIDGENERATOR_GET_HASHSIZE_OFFSET UNITYSDK_OFFSET(0x1F61A340)
 #define AKUTILITIES_SHORTIDGENERATOR_SET_HASHSIZE_OFFSET UNITYSDK_OFFSET(0x1F61A2D0)
 
+inline static constexpr unsigned int AkUtilities_ShortIDGenerator_TypeDefinitionIndex = 44853;
+
 	class AkUtilities_ShortIDGenerator : public ::System::Object
 	{
 	public:

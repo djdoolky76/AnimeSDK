@@ -4,6 +4,8 @@ namespace UnityEngine { class Sprite; }
 
 namespace UnityEngine::Tilemaps
 {
+	inline static constexpr unsigned int TileAnimationData_TypeDefinitionIndex = 5862;
+
 	struct alignas(8) TileAnimationData
 	{
 		::Il2CppArray<::UnityEngine::Sprite*>* m_AnimatedSprites; // 0x10

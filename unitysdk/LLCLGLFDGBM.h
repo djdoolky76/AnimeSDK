@@ -9,6 +9,8 @@ class LLCLGLFDGBM;
 #define LLCLGLFDGBM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D10D3E0)
 #define LLCLGLFDGBM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D10D3A0)
 
+inline static constexpr unsigned int LLCLGLFDGBM_TypeDefinitionIndex = 21486;
+
 	class LLCLGLFDGBM : public ::RPG::GameCore::TaskConfig
 	{
 	public:

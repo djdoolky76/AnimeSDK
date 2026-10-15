@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define JBBAMLKCDKG___C__DISPLAYCLASS9_0___FINDPATH_B__0_OFFSET UNITYSDK_OFFSET(0x16560580)
 #define JBBAMLKCDKG___C__DISPLAYCLASS9_0___FINDPATH_B__1_OFFSET UNITYSDK_OFFSET(0x16560720)
 
+inline static constexpr unsigned int JBBAMLKCDKG___c__DisplayClass9_0_TypeDefinitionIndex = 79769;
+
 	class JBBAMLKCDKG___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

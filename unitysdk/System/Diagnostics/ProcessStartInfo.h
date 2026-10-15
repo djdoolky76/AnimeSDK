@@ -33,6 +33,8 @@ namespace System::Text { class Encoding; }
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int ProcessStartInfo_TypeDefinitionIndex = 2552;
+
 	class ProcessStartInfo : public ::System::Object
 	{
 	public:

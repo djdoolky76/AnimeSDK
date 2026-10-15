@@ -6,6 +6,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int ThreadLocal_1_TypeDefinitionIndex = 816;
+
 	template <typename T>
 	class ThreadLocal_1 : public ::System::Object
 	{

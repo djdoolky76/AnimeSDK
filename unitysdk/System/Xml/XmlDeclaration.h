@@ -28,6 +28,8 @@ namespace System::Xml { class XmlWriter; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlDeclaration_TypeDefinitionIndex = 1898;
+
 	class XmlDeclaration : public ::System::Xml::XmlLinkedNode
 	{
 	public:

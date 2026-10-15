@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraBattlePuzzleBoard___c_TypeDefinitionIndex = 78425;
+
 	class ChimeraBattlePuzzleBoard___c : public ::System::Object
 	{
 	public:

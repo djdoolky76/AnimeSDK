@@ -6,6 +6,8 @@
 
 namespace Entitas::CodeGeneration::Attributes
 {
+	inline static constexpr unsigned int PrimaryEntityIndexAttribute_TypeDefinitionIndex = 10081;
+
 	class PrimaryEntityIndexAttribute : public ::Entitas::CodeGeneration::Attributes::AbstractEntityIndexAttribute
 	{
 	public:

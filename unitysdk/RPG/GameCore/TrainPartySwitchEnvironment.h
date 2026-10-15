@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartySwitchEnvironment_TypeDefinitionIndex = 22358;
+
 	class TrainPartySwitchEnvironment : public ::RPG::GameCore::TaskConfig
 	{
 	public:

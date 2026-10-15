@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitPhotoGraphResult_TypeDefinitionIndex = 22170;
+
 	class WaitPhotoGraphResult : public ::RPG::GameCore::TaskConfig
 	{
 	public:

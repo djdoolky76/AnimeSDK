@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int ToLookup_Lookup_2_TypeDefinitionIndex = 45687;
+
 	template <typename T1, typename T2>
 	class ToLookup_Lookup_2 : public ::System::Object
 	{

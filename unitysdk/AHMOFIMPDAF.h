@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AHMOFIMPDAF_CTOR_OFFSET UNITYSDK_OFFSET(0xEB88390)
 #define AHMOFIMPDAF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xEB883C0)
 
+inline static constexpr unsigned int AHMOFIMPDAF_TypeDefinitionIndex = 52606;
+
 	class AHMOFIMPDAF
 	{
 	public:

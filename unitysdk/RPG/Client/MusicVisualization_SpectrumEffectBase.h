@@ -28,6 +28,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MusicVisualization_SpectrumEffectBase_TypeDefinitionIndex = 70827;
+
 	class MusicVisualization_SpectrumEffectBase : public ::RPG::Client::PolymerEffectControllBase
 	{
 	public:

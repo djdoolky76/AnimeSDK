@@ -39,6 +39,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DHAFGMHPMHG_PHBCJJBLJMA_OFFSET UNITYSDK_OFFSET(0xEBB4810)
 #define DHAFGMHPMHG__ONTHREADHANDLE_B__1_0_OFFSET UNITYSDK_OFFSET(0xEBB4F00)
 
+inline static constexpr unsigned int DHAFGMHPMHG_TypeDefinitionIndex = 59580;
+
 	class DHAFGMHPMHG : public ::IHFGILEEIGA
 	{
 	public:

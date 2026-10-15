@@ -7,6 +7,8 @@ namespace RPG::Client { class AirlineStation; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AirlineStationInfo_TypeDefinitionIndex = 59769;
+
 	class AirlineStationInfo : public ::System::Object
 	{
 	public:

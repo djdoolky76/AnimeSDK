@@ -22,6 +22,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengeGroupStatisticsData_TypeDefinitionIndex = 63124;
+
 	struct alignas(8) ChallengeGroupStatisticsData
 	{
 		::System::UInt32 ChallengeGroupID; // 0x10

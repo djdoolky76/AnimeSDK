@@ -9,6 +9,8 @@ namespace RPG::GameCore { class IdleLiveChatStoryPhaseRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveChatStoryPhaseRow_TypeDefinitionIndex = 11782;
+
 	class IdleLiveChatStoryPhaseRow : public ::System::Object
 	{
 	public:

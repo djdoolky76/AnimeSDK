@@ -30,6 +30,8 @@ namespace System::Xml { class XmlWriter; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlEntityReference_TypeDefinitionIndex = 1904;
+
 	class XmlEntityReference : public ::System::Xml::XmlLinkedNode
 	{
 	public:

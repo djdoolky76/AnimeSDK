@@ -24,6 +24,8 @@ class HPCHMNEMDIF;
 #define ELLFLAGIOPJ_OKGFBDGMLED_OFFSET UNITYSDK_OFFSET(0x1C4703F0)
 #define ELLFLAGIOPJ_OPKLJKDABFL_OFFSET UNITYSDK_OFFSET(0x1C46DB80)
 
+inline static constexpr unsigned int ELLFLAGIOPJ_TypeDefinitionIndex = 41482;
+
 	class ELLFLAGIOPJ : public ::System::Object
 	{
 	public:

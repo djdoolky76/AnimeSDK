@@ -17,6 +17,8 @@ namespace System { class Type; }
 
 namespace Newtonsoft::Json::Converters
 {
+	inline static constexpr unsigned int StringEnumConverter_TypeDefinitionIndex = 9820;
+
 	class StringEnumConverter : public ::Newtonsoft::Json::JsonConverter
 	{
 	public:

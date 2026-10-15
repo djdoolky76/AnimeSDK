@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NJIOPBEDMOA_CTOR_OFFSET UNITYSDK_OFFSET(0xBC18400)
 #define NJIOPBEDMOA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC18430)
 
+inline static constexpr unsigned int NJIOPBEDMOA_TypeDefinitionIndex = 52815;
+
 	class NJIOPBEDMOA
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace IRI2
 {
+	inline static constexpr unsigned int MeshClusterInfo_TypeDefinitionIndex = 49663;
+
 	struct alignas(8) MeshClusterInfo
 	{
 		::Il2CppArray<::System::UInt32>* ClusterIndexData; // 0x10

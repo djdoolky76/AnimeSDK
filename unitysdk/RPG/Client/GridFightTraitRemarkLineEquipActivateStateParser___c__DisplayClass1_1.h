@@ -10,6 +10,8 @@ namespace RPG::Client { class GridFightRole; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTraitRemarkLineEquipActivateStateParser___c__DisplayClass1_1_TypeDefinitionIndex = 65489;
+
 	template <typename T>
 	class GridFightTraitRemarkLineEquipActivateStateParser___c__DisplayClass1_1 : public ::System::Object
 	{

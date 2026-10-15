@@ -12,6 +12,8 @@ namespace RPG::GameCore { class RtModifierPropertyOverrideData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtModifierPropertyOverrideData_TypeDefinitionIndex = 24184;
+
 	class RtModifierPropertyOverrideData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

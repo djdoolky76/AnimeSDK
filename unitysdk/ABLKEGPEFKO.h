@@ -8,6 +8,8 @@
 #define ABLKEGPEFKO_KDCMIGBDKDO_OFFSET UNITYSDK_OFFSET(0xB107710)
 #define ABLKEGPEFKO_MGBLJFOEMHI_OFFSET UNITYSDK_OFFSET(0xB107550)
 
+inline static constexpr unsigned int ABLKEGPEFKO_TypeDefinitionIndex = 80176;
+
 	class ABLKEGPEFKO : public ::System::Object
 	{
 	public:

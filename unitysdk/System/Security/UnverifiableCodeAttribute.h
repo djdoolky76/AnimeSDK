@@ -6,6 +6,8 @@
 
 namespace System::Security
 {
+	inline static constexpr unsigned int UnverifiableCodeAttribute_TypeDefinitionIndex = 938;
+
 	class UnverifiableCodeAttribute : public ::System::Attribute
 	{
 	public:

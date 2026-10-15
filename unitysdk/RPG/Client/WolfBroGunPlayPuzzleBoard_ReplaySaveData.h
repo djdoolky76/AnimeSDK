@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayPuzzleBoard_ReplaySaveData_TypeDefinitionIndex = 68746;
+
 	struct alignas(4) WolfBroGunPlayPuzzleBoard_ReplaySaveData
 	{
 		::System::UInt32 Value; // 0x10

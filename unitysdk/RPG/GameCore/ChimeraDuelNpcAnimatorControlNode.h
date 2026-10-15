@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelNpcAnimatorControlNode_TypeDefinitionIndex = 15949;
+
 	class ChimeraDuelNpcAnimatorControlNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTouchUpCallbackHandler_TypeDefinitionIndex = 63686;
+
 	class MonoTouchUpCallbackHandler : public ::UnityEngine::MonoBehaviour
 	{
 	public:

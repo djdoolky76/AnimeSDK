@@ -10,6 +10,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aiSampleSelector_TypeDefinitionIndex = 45807;
+
 	struct alignas(4) aiSampleSelector
 	{
 		::System::UInt64 _requestedIndex_k__BackingField; // 0x10

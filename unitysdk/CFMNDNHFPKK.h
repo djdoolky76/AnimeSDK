@@ -15,6 +15,8 @@ namespace System { class Nullable; }
 #define CFMNDNHFPKK__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xCC549A0)
 #define CFMNDNHFPKK__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xCC54B80)
 
+inline static constexpr unsigned int CFMNDNHFPKK_TypeDefinitionIndex = 53473;
+
 	class CFMNDNHFPKK
 	{
 	public:

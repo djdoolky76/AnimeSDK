@@ -37,6 +37,8 @@ namespace System { class String; }
 #define CBNNMKNBLDI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E06E960)
 #define CBNNMKNBLDI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E06E9C0)
 
+inline static constexpr unsigned int CBNNMKNBLDI_TypeDefinitionIndex = 29924;
+
 	class CBNNMKNBLDI : public ::System::Object
 	{
 	public:

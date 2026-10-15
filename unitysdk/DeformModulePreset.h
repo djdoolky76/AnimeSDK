@@ -17,6 +17,8 @@ namespace UnityEngine { class Renderer; }
 #define DEFORMMODULEPRESET_GET_ISLOD0_OFFSET UNITYSDK_OFFSET(0x12666F10)
 #define DEFORMMODULEPRESET_SET_IFDISABLEAUTOADJUST_OFFSET UNITYSDK_OFFSET(0x12666F00)
 
+inline static constexpr unsigned int DeformModulePreset_TypeDefinitionIndex = 47159;
+
 	class DeformModulePreset : public ::UnityEngine::MonoBehaviour
 	{
 	public:

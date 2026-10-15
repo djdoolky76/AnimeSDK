@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharaEyeLightBehaviour_TypeDefinitionIndex = 47930;
+
 	class CharaEyeLightBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginInitStateByTargetNormalizedTime_TypeDefinitionIndex = 70073;
+
 	class MonoEffectPluginInitStateByTargetNormalizedTime : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

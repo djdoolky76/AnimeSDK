@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int FileDescriptorProto___c_TypeDefinitionIndex = 5460;
+
 	class FileDescriptorProto___c : public ::System::Object
 	{
 	public:

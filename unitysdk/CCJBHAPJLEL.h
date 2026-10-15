@@ -9,6 +9,8 @@ class NCOOOFILFOE;
 #define CCJBHAPJLEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA0CDA0)
 #define CCJBHAPJLEL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA0CC00)
 
+inline static constexpr unsigned int CCJBHAPJLEL_TypeDefinitionIndex = 16814;
+
 	class CCJBHAPJLEL : public ::RPG::GameCore::JsonConfig
 	{
 	public:

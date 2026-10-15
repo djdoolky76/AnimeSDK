@@ -30,6 +30,8 @@ namespace System { class String; }
 #define EBPBGFNCJEP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E248A10)
 #define EBPBGFNCJEP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E248A70)
 
+inline static constexpr unsigned int EBPBGFNCJEP_TypeDefinitionIndex = 30210;
+
 	class EBPBGFNCJEP : public ::System::Object
 	{
 	public:

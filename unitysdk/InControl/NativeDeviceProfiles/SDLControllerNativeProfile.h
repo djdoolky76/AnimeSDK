@@ -47,6 +47,8 @@ namespace System { class String; }
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int SDLControllerNativeProfile_TypeDefinitionIndex = 41278;
+
 	class SDLControllerNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

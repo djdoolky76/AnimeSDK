@@ -48,6 +48,8 @@ namespace System { class String; }
 #define KPBCIIFIAGI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8B5E80)
 #define KPBCIIFIAGI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8B5EE0)
 
+inline static constexpr unsigned int KPBCIIFIAGI_TypeDefinitionIndex = 34664;
+
 	class KPBCIIFIAGI : public ::System::Object
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define PJLMOOPKHEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF7E370)
 #define PJLMOOPKHEM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF7E3D0)
 
+inline static constexpr unsigned int PJLMOOPKHEM_TypeDefinitionIndex = 25203;
+
 	class PJLMOOPKHEM : public ::System::Object
 	{
 	public:

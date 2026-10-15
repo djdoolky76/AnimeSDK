@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JFKGEOBIHHD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E72FD90)
 #define JFKGEOBIHHD___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1E72FDA0)
 
+inline static constexpr unsigned int JFKGEOBIHHD___c_TypeDefinitionIndex = 27354;
+
 	class JFKGEOBIHHD___c : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace UnityEngine { class Object; }
 
 #define IKMOKCKMNMC_CTOR_OFFSET UNITYSDK_OFFSET(0x1649BA50)
 
+inline static constexpr unsigned int IKMOKCKMNMC_TypeDefinitionIndex = 73192;
+
 	class IKMOKCKMNMC : public ::System::Object
 	{
 	public:

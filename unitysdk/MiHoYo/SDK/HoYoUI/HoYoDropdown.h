@@ -20,6 +20,8 @@ namespace UnityEngine::EventSystems { class BaseEventData; }
 
 namespace MiHoYo::SDK::HoYoUI
 {
+	inline static constexpr unsigned int HoYoDropdown_TypeDefinitionIndex = 46708;
+
 	class HoYoDropdown : public ::UnityEngine::UI::Dropdown
 	{
 	public:

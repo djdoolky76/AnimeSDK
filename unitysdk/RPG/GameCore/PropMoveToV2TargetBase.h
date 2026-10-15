@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PropMoveToV2TargetBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropMoveToV2TargetBase_TypeDefinitionIndex = 20348;
+
 	class PropMoveToV2TargetBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:

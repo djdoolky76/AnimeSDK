@@ -28,6 +28,8 @@ namespace System { class String; }
 #define OGKOAHJCBAF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE580E0)
 #define OGKOAHJCBAF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE58140)
 
+inline static constexpr unsigned int OGKOAHJCBAF_TypeDefinitionIndex = 33758;
+
 	class OGKOAHJCBAF : public ::System::Object
 	{
 	public:

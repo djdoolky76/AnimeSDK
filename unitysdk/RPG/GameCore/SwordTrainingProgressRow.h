@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SwordTrainingProgressRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwordTrainingProgressRow_TypeDefinitionIndex = 12426;
+
 	class SwordTrainingProgressRow : public ::System::Object
 	{
 	public:

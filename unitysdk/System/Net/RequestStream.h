@@ -29,6 +29,8 @@ namespace System::IO { class Stream; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int RequestStream_TypeDefinitionIndex = 2871;
+
 	class RequestStream : public ::System::IO::Stream
 	{
 	public:

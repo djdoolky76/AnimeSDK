@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TriggerPartnerAnimSync; }
 #define JFLGPNLHPEF_CTOR_OFFSET UNITYSDK_OFFSET(0x166561B0)
 #define JFLGPNLHPEF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x166561E0)
 
+inline static constexpr unsigned int JFLGPNLHPEF_TypeDefinitionIndex = 55762;
+
 	class JFLGPNLHPEF
 	{
 	public:

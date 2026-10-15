@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageMonsterWave_TypeDefinitionIndex = 15135;
+
 	class StageMonsterWave : public ::System::Object
 	{
 	public:

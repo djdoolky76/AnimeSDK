@@ -42,6 +42,8 @@ namespace UnityEngine { class Transform; }
 #define MNEAPCBEGBI_POBJMFGACME_1_OFFSET UNITYSDK_OFFSET(0xBA06840)
 #define MNEAPCBEGBI_POBJMFGACME_OFFSET UNITYSDK_OFFSET(0xBA05EE0)
 
+inline static constexpr unsigned int MNEAPCBEGBI_TypeDefinitionIndex = 76618;
+
 	class MNEAPCBEGBI : public ::System::Object
 	{
 	public:

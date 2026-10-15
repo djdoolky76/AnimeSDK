@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 namespace Google::Protobuf { class IMessage; }
 
+inline static constexpr unsigned int NEMHKFFNDJO_TypeDefinitionIndex = 42162;
+
 	struct alignas(8) NEMHKFFNDJO
 	{
 		::System::UInt64 MMFFIENECJI; // 0x10

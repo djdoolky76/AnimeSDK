@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SelectMissionItem_TypeDefinitionIndex = 20447;
+
 	class SelectMissionItem : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -49,6 +49,8 @@ namespace System::IO { class StreamReader; }
 
 namespace System
 {
+	inline static constexpr unsigned int TermInfoDriver_TypeDefinitionIndex = 426;
+
 	class TermInfoDriver : public ::System::Object
 	{
 	public:

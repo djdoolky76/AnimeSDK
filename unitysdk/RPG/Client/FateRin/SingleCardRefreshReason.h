@@ -3,6 +3,8 @@
 
 namespace RPG::Client::FateRin
 {
+	inline static constexpr unsigned int SingleCardRefreshReason_TypeDefinitionIndex = 80602;
+
 	enum class SingleCardRefreshReason : ::System::Int32
 	{
 		None = 0,

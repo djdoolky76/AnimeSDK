@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StopEffectFollow_TypeDefinitionIndex = 22373;
+
 	class StopEffectFollow : public ::RPG::GameCore::TaskConfig
 	{
 	public:

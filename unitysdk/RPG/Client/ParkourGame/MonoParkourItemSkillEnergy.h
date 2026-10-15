@@ -10,6 +10,8 @@ namespace RPG::Client::ParkourGame { class MonoParkourCharacter; }
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int MonoParkourItemSkillEnergy_TypeDefinitionIndex = 74145;
+
 	class MonoParkourItemSkillEnergy : public ::RPG::Client::ParkourGame::MonoParkourItem
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MatchThreeTemplateApplyRuleRow_TypeDefinitionIndex = 11928;
+
 	class MatchThreeTemplateApplyRuleRow : public ::System::Object
 	{
 	public:

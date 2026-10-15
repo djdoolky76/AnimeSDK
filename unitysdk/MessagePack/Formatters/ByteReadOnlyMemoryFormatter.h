@@ -14,6 +14,8 @@ namespace MessagePack::Formatters { class ByteReadOnlyMemoryFormatter; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int ByteReadOnlyMemoryFormatter_TypeDefinitionIndex = 7374;
+
 	class ByteReadOnlyMemoryFormatter : public ::System::Object
 	{
 	public:

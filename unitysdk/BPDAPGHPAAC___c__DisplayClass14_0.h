@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define BPDAPGHPAAC___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC1A1140)
 #define BPDAPGHPAAC___C__DISPLAYCLASS14_0___CREATEBATTLEEVENTPANEL_B__0_OFFSET UNITYSDK_OFFSET(0xC1A1EA0)
 
+inline static constexpr unsigned int BPDAPGHPAAC___c__DisplayClass14_0_TypeDefinitionIndex = 71621;
+
 	class BPDAPGHPAAC___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:

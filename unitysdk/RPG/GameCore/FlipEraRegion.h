@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FlipEraRegion; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FlipEraRegion_TypeDefinitionIndex = 22330;
+
 	class FlipEraRegion : public ::RPG::GameCore::TaskConfig
 	{
 	public:

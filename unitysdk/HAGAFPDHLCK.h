@@ -15,6 +15,8 @@ namespace UnityEngine { class Mesh; }
 #define HAGAFPDHLCK_GFHPMLDBFGB_OFFSET UNITYSDK_OFFSET(0x15B74AC0)
 #define HAGAFPDHLCK_LHOPKOFGELM_OFFSET UNITYSDK_OFFSET(0x15B73E90)
 
+inline static constexpr unsigned int HAGAFPDHLCK_TypeDefinitionIndex = 73631;
+
 	class HAGAFPDHLCK : public ::System::Object
 	{
 	public:

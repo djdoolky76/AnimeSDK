@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int Description_TypeDefinitionIndex = 9407;
+
 	class Description : public ::System::Attribute
 	{
 	public:

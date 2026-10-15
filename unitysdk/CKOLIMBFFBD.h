@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameEntityVarConfig; }
 #define CKOLIMBFFBD_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CA12F90)
 #define CKOLIMBFFBD_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CA13020)
 
+inline static constexpr unsigned int CKOLIMBFFBD_TypeDefinitionIndex = 43357;
+
 	class CKOLIMBFFBD : public ::System::Object
 	{
 	public:

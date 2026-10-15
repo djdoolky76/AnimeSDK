@@ -26,6 +26,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginAudio_TypeDefinitionIndex = 70035;
+
 	class MonoEffectPluginAudio : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace XLua
 {
+	inline static constexpr unsigned int UInt64UserDataAttribute_TypeDefinitionIndex = 5605;
+
 	class UInt64UserDataAttribute : public ::System::Attribute
 	{
 	public:

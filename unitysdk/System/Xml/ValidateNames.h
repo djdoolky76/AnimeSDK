@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int ValidateNames_TypeDefinitionIndex = 1938;
+
 	class ValidateNames : public ::System::Object
 	{
 	public:

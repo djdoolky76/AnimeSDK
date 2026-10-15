@@ -12,6 +12,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesWeekSettleValueControl_TypeDefinitionIndex = 81351;
+
 	class ChenLingFesWeekSettleValueControl : public ::Sofa::BaseSofaControl
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class PetMarbleSetFaceEmotion; }
 #define KNGOJKKLOPK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C909980)
 #define KNGOJKKLOPK_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C909990)
 
+inline static constexpr unsigned int KNGOJKKLOPK_TypeDefinitionIndex = 43103;
+
 	class KNGOJKKLOPK : public ::BKABEBEPPJK
 	{
 	public:

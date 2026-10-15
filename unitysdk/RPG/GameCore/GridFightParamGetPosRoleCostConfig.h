@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamGetPosRoleCostConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamGetPosRoleCostConfig_TypeDefinitionIndex = 19509;
+
 	class GridFightParamGetPosRoleCostConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

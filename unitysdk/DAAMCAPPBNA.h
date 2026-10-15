@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DAAMCAPPBNA_CTOR_OFFSET UNITYSDK_OFFSET(0xDFBA500)
 #define DAAMCAPPBNA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDFBA530)
 
+inline static constexpr unsigned int DAAMCAPPBNA_TypeDefinitionIndex = 53931;
+
 	class DAAMCAPPBNA
 	{
 	public:

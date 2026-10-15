@@ -10,6 +10,8 @@
 
 namespace XInputDotNetPure
 {
+	inline static constexpr unsigned int GamePad_TypeDefinitionIndex = 40791;
+
 	class GamePad : public ::System::Object
 	{
 	public:

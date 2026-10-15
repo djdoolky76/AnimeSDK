@@ -8,6 +8,8 @@ namespace RPG::Client { class FightFestChallengeLevelData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FightFestChallengeResultInfo_TypeDefinitionIndex = 64192;
+
 	struct alignas(8) FightFestChallengeResultInfo
 	{
 		::RPG::Client::FightFestChallengeLevelData* ChallengeLevelDataRef; // 0x10

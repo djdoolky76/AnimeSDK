@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RaidSceneTransfer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RaidSceneTransfer_TypeDefinitionIndex = 20495;
+
 	class RaidSceneTransfer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

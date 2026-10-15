@@ -4,6 +4,8 @@
 
 #define HMGGAEKEMPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAED090)
 
+inline static constexpr unsigned int HMGGAEKEMPJ_TypeDefinitionIndex = 42811;
+
 	class HMGGAEKEMPJ : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{
 	public:

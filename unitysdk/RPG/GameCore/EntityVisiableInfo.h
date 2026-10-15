@@ -9,6 +9,8 @@ namespace RPG::GameCore { class EntityVisiableInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntityVisiableInfo_TypeDefinitionIndex = 21853;
+
 	class EntityVisiableInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

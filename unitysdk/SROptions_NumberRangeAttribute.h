@@ -4,6 +4,8 @@
 
 #define SROPTIONS_NUMBERRANGEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0xB0BF090)
 
+inline static constexpr unsigned int SROptions_NumberRangeAttribute_TypeDefinitionIndex = 45925;
+
 	class SROptions_NumberRangeAttribute : public ::SRDebugger::NumberRangeAttribute
 	{
 	public:

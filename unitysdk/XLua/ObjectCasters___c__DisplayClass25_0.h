@@ -9,6 +9,8 @@ namespace XLua { class ObjectCast; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int ObjectCasters___c__DisplayClass25_0_TypeDefinitionIndex = 50241;
+
 	class ObjectCasters___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:

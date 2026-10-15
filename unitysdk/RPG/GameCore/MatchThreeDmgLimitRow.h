@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MatchThreeDmgLimitRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MatchThreeDmgLimitRow_TypeDefinitionIndex = 11921;
+
 	class MatchThreeDmgLimitRow : public ::System::Object
 	{
 	public:

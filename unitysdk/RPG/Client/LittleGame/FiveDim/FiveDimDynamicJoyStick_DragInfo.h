@@ -6,6 +6,8 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimDynamicJoyStick_DragInfo_TypeDefinitionIndex = 77220;
+
 	struct alignas(4) FiveDimDynamicJoyStick_DragInfo
 	{
 		::System::Single UIAngle; // 0x10

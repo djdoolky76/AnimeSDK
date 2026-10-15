@@ -30,6 +30,8 @@ namespace System { class String; }
 #define EDLENJAPMBJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2618F0)
 #define EDLENJAPMBJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E261950)
 
+inline static constexpr unsigned int EDLENJAPMBJ_TypeDefinitionIndex = 25804;
+
 	class EDLENJAPMBJ : public ::System::Object
 	{
 	public:

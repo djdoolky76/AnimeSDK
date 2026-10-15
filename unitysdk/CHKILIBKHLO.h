@@ -12,6 +12,8 @@ namespace System { class String; }
 #define CHKILIBKHLO_KAJOBJFIAMJ_OFFSET UNITYSDK_OFFSET(0xCF550D0)
 #define CHKILIBKHLO_OBGMNDEELJM_OFFSET UNITYSDK_OFFSET(0xCF55370)
 
+inline static constexpr unsigned int CHKILIBKHLO_TypeDefinitionIndex = 77567;
+
 	class CHKILIBKHLO : public ::LEMPCCICHAA
 	{
 	public:

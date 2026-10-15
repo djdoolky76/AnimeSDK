@@ -12,6 +12,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int ChimeraTeamMemberDeathCommand___c__DisplayClass2_0_TypeDefinitionIndex = 76643;
+
 	class ChimeraTeamMemberDeathCommand___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

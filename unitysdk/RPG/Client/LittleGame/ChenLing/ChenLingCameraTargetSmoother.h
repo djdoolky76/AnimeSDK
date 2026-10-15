@@ -25,6 +25,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::LittleGame::ChenLing
 {
+	inline static constexpr unsigned int ChenLingCameraTargetSmoother_TypeDefinitionIndex = 77970;
+
 	class ChenLingCameraTargetSmoother : public ::UnityEngine::MonoBehaviour
 	{
 	public:

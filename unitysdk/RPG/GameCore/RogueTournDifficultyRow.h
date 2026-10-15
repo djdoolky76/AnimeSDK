@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueTournDifficultyRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournDifficultyRow_TypeDefinitionIndex = 14954;
+
 	class RogueTournDifficultyRow : public ::System::Object
 	{
 	public:

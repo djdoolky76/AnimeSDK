@@ -11,6 +11,8 @@ namespace UnityEngine { class AnimationClip; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonMecanim_MecanimTranslator_AnimationClipEqualityComparer_TypeDefinitionIndex = 45040;
+
 	class SkeletonMecanim_MecanimTranslator_AnimationClipEqualityComparer : public ::System::Object
 	{
 	public:

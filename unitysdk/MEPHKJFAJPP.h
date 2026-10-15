@@ -39,6 +39,8 @@ namespace System { class String; }
 #define MEPHKJFAJPP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA133E0)
 #define MEPHKJFAJPP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA13440)
 
+inline static constexpr unsigned int MEPHKJFAJPP_TypeDefinitionIndex = 25323;
+
 	class MEPHKJFAJPP : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Type; }
 #define EHCLMBHKPCK_FNAAJGAHIAI_OFFSET UNITYSDK_OFFSET(0x154A38C0)
 #define EHCLMBHKPCK_IHPAKOMCHGP_OFFSET UNITYSDK_OFFSET(0x154A3960)
 
+inline static constexpr unsigned int EHCLMBHKPCK_TypeDefinitionIndex = 62817;
+
 	class EHCLMBHKPCK : public ::System::Object
 	{
 	public:

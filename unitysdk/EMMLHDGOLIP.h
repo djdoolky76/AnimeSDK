@@ -17,6 +17,8 @@ namespace System::Reflection { class PropertyInfo; }
 #define EMMLHDGOLIP_JGCMHDNJAHO_OFFSET UNITYSDK_OFFSET(0x1CC904C0)
 #define EMMLHDGOLIP_KGBMNPFLGKD_OFFSET UNITYSDK_OFFSET(0x1CC8FEC0)
 
+inline static constexpr unsigned int EMMLHDGOLIP_TypeDefinitionIndex = 43884;
+
 	class EMMLHDGOLIP : public ::System::Object
 	{
 	public:

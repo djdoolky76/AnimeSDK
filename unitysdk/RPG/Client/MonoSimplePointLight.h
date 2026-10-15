@@ -15,6 +15,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoSimplePointLight_TypeDefinitionIndex = 70797;
+
 	class MonoSimplePointLight : public ::UnityEngine::MonoBehaviour
 	{
 	public:

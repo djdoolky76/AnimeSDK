@@ -33,6 +33,8 @@ namespace System { class String; }
 #define GHMLCIMANAM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E48D0E0)
 #define GHMLCIMANAM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E48D140)
 
+inline static constexpr unsigned int GHMLCIMANAM_TypeDefinitionIndex = 29302;
+
 	class GHMLCIMANAM : public ::System::Object
 	{
 	public:

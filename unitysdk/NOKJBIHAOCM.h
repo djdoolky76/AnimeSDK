@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NOKJBIHAOCM_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF3110)
 #define NOKJBIHAOCM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBCF3160)
 
+inline static constexpr unsigned int NOKJBIHAOCM_TypeDefinitionIndex = 53845;
+
 	class NOKJBIHAOCM : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 #define ECAGMOOFEAI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD63D90)
 #define ECAGMOOFEAI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD63CD0)
 
+inline static constexpr unsigned int ECAGMOOFEAI_TypeDefinitionIndex = 24126;
+
 	class ECAGMOOFEAI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

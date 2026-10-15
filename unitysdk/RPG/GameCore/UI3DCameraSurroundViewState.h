@@ -17,6 +17,8 @@ namespace System { class Action; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UI3DCameraSurroundViewState_TypeDefinitionIndex = 57542;
+
 	class UI3DCameraSurroundViewState : public ::RPG::GameCore::UI3DCameraStateBase
 	{
 	public:

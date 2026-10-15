@@ -51,6 +51,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace System::Dynamic::Utils
 {
+	inline static constexpr unsigned int TypeUtils_TypeDefinitionIndex = 3691;
+
 	class TypeUtils : public ::System::Object
 	{
 	public:

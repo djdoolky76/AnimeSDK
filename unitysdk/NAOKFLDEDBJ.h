@@ -91,6 +91,8 @@ namespace UnityEngine { class Transform; }
 #define NAOKFLDEDBJ_SET_TARGETPOSENTITY_OFFSET UNITYSDK_OFFSET(0xBAABE60)
 #define NAOKFLDEDBJ___CTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0xBAADE80)
 
+inline static constexpr unsigned int NAOKFLDEDBJ_TypeDefinitionIndex = 54757;
+
 	class NAOKFLDEDBJ : public ::System::Object
 	{
 	public:

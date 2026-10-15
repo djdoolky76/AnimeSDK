@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ModifierForceKillConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifierForceKillConfig_TypeDefinitionIndex = 18247;
+
 	class ModifierForceKillConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define DBNGNLBAOAG_LHGOLMGGOJL_OFFSET UNITYSDK_OFFSET(0xE2339A0)
 #define DBNGNLBAOAG_NEBADKFMPKK_OFFSET UNITYSDK_OFFSET(0xE233C10)
 
+inline static constexpr unsigned int DBNGNLBAOAG_TypeDefinitionIndex = 61408;
+
 	class DBNGNLBAOAG : public ::System::Object
 	{
 	public:

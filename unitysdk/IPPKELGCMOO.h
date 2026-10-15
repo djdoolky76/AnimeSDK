@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define IPPKELGCMOO_NPAPIGMIPAD_OFFSET UNITYSDK_OFFSET(0x16527920)
 #define IPPKELGCMOO_OCNMAKONNMG_OFFSET UNITYSDK_OFFSET(0x165275D0)
 
+inline static constexpr unsigned int IPPKELGCMOO_TypeDefinitionIndex = 71569;
+
 	class IPPKELGCMOO : public ::FMPCODLIOLG
 	{
 	public:

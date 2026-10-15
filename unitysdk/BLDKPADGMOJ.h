@@ -18,6 +18,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 #define BLDKPADGMOJ_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBA6A800)
 #define BLDKPADGMOJ_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0xBA6A4F0)
 
+inline static constexpr unsigned int BLDKPADGMOJ_TypeDefinitionIndex = 80697;
+
 	class BLDKPADGMOJ : public ::System::Object
 	{
 	public:

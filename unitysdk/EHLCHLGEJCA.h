@@ -7,6 +7,8 @@ class FCOEMCEDLNL;
 #define EHLCHLGEJCA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD82F10)
 #define EHLCHLGEJCA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD82DF0)
 
+inline static constexpr unsigned int EHLCHLGEJCA_TypeDefinitionIndex = 14137;
+
 	class EHLCHLGEJCA : public ::System::Object
 	{
 	public:

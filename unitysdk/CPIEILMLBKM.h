@@ -9,6 +9,8 @@ namespace System { class String; }
 #define CPIEILMLBKM_ALEBBJAFIOG_OFFSET UNITYSDK_OFFSET(0xDCD6430)
 #define CPIEILMLBKM_CTOR_OFFSET UNITYSDK_OFFSET(0xDCD66D0)
 
+inline static constexpr unsigned int CPIEILMLBKM_TypeDefinitionIndex = 64914;
+
 	class CPIEILMLBKM : public ::System::Object
 	{
 	public:

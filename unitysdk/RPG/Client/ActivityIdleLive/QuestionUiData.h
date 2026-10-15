@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int QuestionUiData_TypeDefinitionIndex = 75432;
+
 	class QuestionUiData : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TAComponetStablelizerContorlMonoPlugin_TypeDefinitionIndex = 70765;
+
 	class TAComponetStablelizerContorlMonoPlugin
 	{
 	public:

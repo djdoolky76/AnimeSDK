@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CameraNamedDynamicOffset_TypeDefinitionIndex = 69725;
+
 	class CameraNamedDynamicOffset : public ::System::Object
 	{
 	public:

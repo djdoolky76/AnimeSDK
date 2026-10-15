@@ -7,6 +7,8 @@ namespace System::Diagnostics { class Stopwatch; }
 #define IABKDGPJEFI_OEJJCPPNNGH___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15DFD6C0)
 #define IABKDGPJEFI_OEJJCPPNNGH___C__DISPLAYCLASS7_0___WAITREADY_B__0_OFFSET UNITYSDK_OFFSET(0x15DFD6D0)
 
+inline static constexpr unsigned int IABKDGPJEFI_OEJJCPPNNGH___c__DisplayClass7_0_TypeDefinitionIndex = 80167;
+
 	class IABKDGPJEFI_OEJJCPPNNGH___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@
 
 namespace RPG::Client::CityCarFlow
 {
+	inline static constexpr unsigned int MonoCityCarDetectTrigger_TypeDefinitionIndex = 82224;
+
 	class MonoCityCarDetectTrigger : public ::RPG::Client::AirshipCarDetectTrigger
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_InputValidator_TypeDefinitionIndex = 44608;
+
 	class TMP_InputValidator : public ::UnityEngine::ScriptableObject
 	{
 	public:

@@ -7,6 +7,8 @@ class NDONMNFEIOE;
 #define ODILJDGAHIG_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBD93E90)
 #define ODILJDGAHIG_IBJMGHEEKGH_OFFSET UNITYSDK_OFFSET(0xBD93FB0)
 
+inline static constexpr unsigned int ODILJDGAHIG_TypeDefinitionIndex = 74492;
+
 	class ODILJDGAHIG : public ::System::Object
 	{
 	public:

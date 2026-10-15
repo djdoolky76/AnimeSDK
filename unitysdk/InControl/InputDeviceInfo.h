@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int InputDeviceInfo_TypeDefinitionIndex = 40840;
+
 	struct alignas(8) InputDeviceInfo
 	{
 		::System::String* name; // 0x10

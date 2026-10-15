@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StackWeakness_TypeDefinitionIndex = 23074;
+
 	class StackWeakness : public ::RPG::GameCore::TaskConfig
 	{
 	public:

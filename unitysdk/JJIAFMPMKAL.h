@@ -29,6 +29,8 @@ namespace System { class String; }
 #define JJIAFMPMKAL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E75CC20)
 #define JJIAFMPMKAL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E75CC80)
 
+inline static constexpr unsigned int JJIAFMPMKAL_TypeDefinitionIndex = 25451;
+
 	class JJIAFMPMKAL : public ::System::Object
 	{
 	public:

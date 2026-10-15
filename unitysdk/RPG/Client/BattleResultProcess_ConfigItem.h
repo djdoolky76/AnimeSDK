@@ -12,6 +12,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleResultProcess_ConfigItem_TypeDefinitionIndex = 60997;
+
 	class BattleResultProcess_ConfigItem : public ::System::Object
 	{
 	public:

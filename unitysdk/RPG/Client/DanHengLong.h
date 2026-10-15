@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DanHengLong_TypeDefinitionIndex = 70402;
+
 	class DanHengLong : public ::UnityEngine::MonoBehaviour
 	{
 	public:

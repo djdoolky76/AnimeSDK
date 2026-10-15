@@ -3,6 +3,8 @@
 
 namespace BansheeGz::BGSpline::Components
 {
+	inline static constexpr unsigned int BGTriangulator2D_Config_UvModeEnum_TypeDefinitionIndex = 36073;
+
 	enum class BGTriangulator2D_Config_UvModeEnum : ::System::Int32
 	{
 		Scale = 0,

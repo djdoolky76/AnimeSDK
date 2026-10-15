@@ -11,6 +11,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirModule___c__DisplayClass24_0_TypeDefinitionIndex = 79365;
+
 	class PixAirModule___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:

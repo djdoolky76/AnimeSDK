@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterLeaveStage_TypeDefinitionIndex = 22747;
+
 	class CharacterLeaveStage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

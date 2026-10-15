@@ -27,6 +27,8 @@ namespace System { class String; }
 #define AGEOGDOGDMM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E12A930)
 #define AGEOGDOGDMM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E12A990)
 
+inline static constexpr unsigned int AGEOGDOGDMM_TypeDefinitionIndex = 32912;
+
 	class AGEOGDOGDMM : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 #define DNDAAMPFNJG_NNPINFJIFPC_CTOR_OFFSET UNITYSDK_OFFSET(0x11944680)
 
+inline static constexpr unsigned int DNDAAMPFNJG_NNPINFJIFPC_TypeDefinitionIndex = 77130;
+
 	class DNDAAMPFNJG_NNPINFJIFPC
 	{
 	public:

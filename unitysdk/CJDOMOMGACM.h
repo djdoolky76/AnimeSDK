@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CJDOMOMGACM_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C5D58B0)
 #define CJDOMOMGACM_JKLJCAAPKMO_OFFSET UNITYSDK_OFFSET(0x1C5D5E10)
 
+inline static constexpr unsigned int CJDOMOMGACM_TypeDefinitionIndex = 37146;
+
 	class CJDOMOMGACM : public ::System::Object
 	{
 	public:

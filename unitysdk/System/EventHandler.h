@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace System
 {
+	inline static constexpr unsigned int EventHandler_TypeDefinitionIndex = 242;
+
 	class EventHandler : public ::System::MulticastDelegate
 	{
 	public:

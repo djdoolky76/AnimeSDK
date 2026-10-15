@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvOverrideCameraModuleConfig_TypeDefinitionIndex = 22194;
+
 	class AdvOverrideCameraModuleConfig : public ::RPG::GameCore::TaskConfig
 	{
 	public:

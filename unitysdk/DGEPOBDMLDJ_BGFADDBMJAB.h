@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define DGEPOBDMLDJ_BGFADDBMJAB_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C45ED0)
 #define DGEPOBDMLDJ_BGFADDBMJAB_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C45EF0)
 
+inline static constexpr unsigned int DGEPOBDMLDJ_BGFADDBMJAB_TypeDefinitionIndex = 6537;
+
 	struct alignas(4) DGEPOBDMLDJ_BGFADDBMJAB
 	{
 		::System::Boolean HOGICPACECN; // 0x10

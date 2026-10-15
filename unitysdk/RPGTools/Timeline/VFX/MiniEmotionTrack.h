@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int MiniEmotionTrack_TypeDefinitionIndex = 48661;
+
 	class MiniEmotionTrack : public ::RPGTools::Timeline::Emotion::BaseEmoTrack
 	{
 	public:

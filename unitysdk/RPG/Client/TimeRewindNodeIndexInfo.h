@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeRewindNodeIndexInfo_TypeDefinitionIndex = 63767;
+
 	class TimeRewindNodeIndexInfo : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client { class GridFightRoleConfig; }
 #define EILHDIJIKOB_DCAPOEODPJH_OFFSET UNITYSDK_OFFSET(0x154CFC10)
 #define EILHDIJIKOB_UPDATE_OFFSET UNITYSDK_OFFSET(0x154CFA50)
 
+inline static constexpr unsigned int EILHDIJIKOB_TypeDefinitionIndex = 65030;
+
 	class EILHDIJIKOB : public ::RPG::Client::GridFightGameModifier
 	{
 	public:

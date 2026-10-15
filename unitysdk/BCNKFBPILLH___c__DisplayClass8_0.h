@@ -6,6 +6,8 @@ class BCNKFBPILLH;
 #define BCNKFBPILLH___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x162E9460)
 #define BCNKFBPILLH___C__DISPLAYCLASS8_0__SETPROGRESSFILL_B__0_OFFSET UNITYSDK_OFFSET(0x162E97B0)
 
+inline static constexpr unsigned int BCNKFBPILLH___c__DisplayClass8_0_TypeDefinitionIndex = 71625;
+
 	class BCNKFBPILLH___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

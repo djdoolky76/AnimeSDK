@@ -14,6 +14,8 @@ namespace System { class String; }
 #define KHIFMPGFGCJ_NONJDKKDDLE_OFFSET UNITYSDK_OFFSET(0xB4097E0)
 #define KHIFMPGFGCJ_OLENGDCIONA_OFFSET UNITYSDK_OFFSET(0xB4097A0)
 
+inline static constexpr unsigned int KHIFMPGFGCJ_TypeDefinitionIndex = 60481;
+
 	class KHIFMPGFGCJ : public ::System::Object
 	{
 	public:

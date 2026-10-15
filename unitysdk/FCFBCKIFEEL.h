@@ -7,6 +7,8 @@ namespace RPG::GameCore { class ComplexSkillAISourcePropertyFormation; }
 
 #define FCFBCKIFEEL_CAJCCHOMCLC_OFFSET UNITYSDK_OFFSET(0x156B8180)
 
+inline static constexpr unsigned int FCFBCKIFEEL_TypeDefinitionIndex = 54362;
+
 	class FCFBCKIFEEL : public ::System::Object
 	{
 	public:

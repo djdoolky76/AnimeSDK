@@ -25,6 +25,8 @@ namespace System { class String; }
 #define LFEFLIMJOGO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E93B9A0)
 #define LFEFLIMJOGO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E93BA00)
 
+inline static constexpr unsigned int LFEFLIMJOGO_TypeDefinitionIndex = 29442;
+
 	class LFEFLIMJOGO : public ::System::Object
 	{
 	public:

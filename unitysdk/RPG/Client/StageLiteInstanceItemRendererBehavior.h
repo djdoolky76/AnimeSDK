@@ -26,6 +26,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageLiteInstanceItemRendererBehavior_TypeDefinitionIndex = 71018;
+
 	class StageLiteInstanceItemRendererBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

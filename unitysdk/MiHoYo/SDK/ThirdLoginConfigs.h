@@ -7,6 +7,8 @@ namespace MiHoYo::SDK { class ThirdLoginConfig; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ThirdLoginConfigs_TypeDefinitionIndex = 7908;
+
 	class ThirdLoginConfigs : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PendingRspEntry_1_TypeDefinitionIndex = 69407;
+
 	template <typename T>
 	class PendingRspEntry_1 : public ::POEELJNJAAO
 	{

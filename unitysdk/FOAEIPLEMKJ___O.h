@@ -5,6 +5,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { template <typename T1, typename T2> class Func_2; }
 
+inline static constexpr unsigned int FOAEIPLEMKJ___O_TypeDefinitionIndex = 81497;
+
 	class FOAEIPLEMKJ___O : public ::System::Object
 	{
 	public:

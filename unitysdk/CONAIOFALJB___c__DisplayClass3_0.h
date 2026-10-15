@@ -8,6 +8,8 @@ namespace System { class Action; }
 #define CONAIOFALJB___C__DISPLAYCLASS3_0__ISFOCUSED_B__1_OFFSET UNITYSDK_OFFSET(0xDCBFE10)
 #define CONAIOFALJB___C__DISPLAYCLASS3_0__ISFOCUSED_B__2_OFFSET UNITYSDK_OFFSET(0xDCBFE80)
 
+inline static constexpr unsigned int CONAIOFALJB___c__DisplayClass3_0_TypeDefinitionIndex = 49832;
+
 	class CONAIOFALJB___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

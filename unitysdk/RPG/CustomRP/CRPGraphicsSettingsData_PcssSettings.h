@@ -8,6 +8,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPGraphicsSettingsData_PcssSettings_TypeDefinitionIndex = 37670;
+
 	class CRPGraphicsSettingsData_PcssSettings : public ::System::Object
 	{
 	public:

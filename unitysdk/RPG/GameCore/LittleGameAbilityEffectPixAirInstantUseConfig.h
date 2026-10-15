@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameAbilityEffectPixAirInstantUseConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityEffectPixAirInstantUseConfig_TypeDefinitionIndex = 21344;
+
 	class LittleGameAbilityEffectPixAirInstantUseConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:

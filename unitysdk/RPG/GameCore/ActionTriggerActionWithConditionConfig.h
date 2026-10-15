@@ -12,6 +12,8 @@ namespace RPG::GameCore { class MiConditionConfigBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActionTriggerActionWithConditionConfig_TypeDefinitionIndex = 17050;
+
 	class ActionTriggerActionWithConditionConfig : public ::RPG::GameCore::MiActionConfigBase
 	{
 	public:

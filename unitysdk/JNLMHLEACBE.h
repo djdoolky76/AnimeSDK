@@ -28,6 +28,8 @@ namespace System { class String; }
 #define JNLMHLEACBE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E799740)
 #define JNLMHLEACBE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7997A0)
 
+inline static constexpr unsigned int JNLMHLEACBE_TypeDefinitionIndex = 26040;
+
 	class JNLMHLEACBE : public ::System::Object
 	{
 	public:

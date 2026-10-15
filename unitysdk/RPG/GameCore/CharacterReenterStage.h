@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterReenterStage_TypeDefinitionIndex = 22748;
+
 	class CharacterReenterStage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

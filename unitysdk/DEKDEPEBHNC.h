@@ -75,6 +75,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DEKDEPEBHNC_SET_OVERRIDEELATIONPOINT_OFFSET UNITYSDK_OFFSET(0xE513BD0)
 #define DEKDEPEBHNC_SET_UICONFIG_OFFSET UNITYSDK_OFFSET(0xE5139E0)
 
+inline static constexpr unsigned int DEKDEPEBHNC_TypeDefinitionIndex = 56229;
+
 	class DEKDEPEBHNC : public ::System::Object
 	{
 	public:

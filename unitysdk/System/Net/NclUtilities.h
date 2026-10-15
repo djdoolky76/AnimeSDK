@@ -13,6 +13,8 @@ namespace System::Net { class IPHostEntry; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int NclUtilities_TypeDefinitionIndex = 2748;
+
 	class NclUtilities : public ::System::Object
 	{
 	public:

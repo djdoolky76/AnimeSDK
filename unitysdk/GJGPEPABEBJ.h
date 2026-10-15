@@ -21,6 +21,8 @@ namespace System { class Object; }
 #define GJGPEPABEBJ_START_OFFSET UNITYSDK_OFFSET(0x15A69600)
 #define GJGPEPABEBJ_STOP_OFFSET UNITYSDK_OFFSET(0x15A69800)
 
+inline static constexpr unsigned int GJGPEPABEBJ_TypeDefinitionIndex = 66727;
+
 	class GJGPEPABEBJ : public ::BHPMNMMGLHI
 	{
 	public:

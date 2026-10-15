@@ -14,6 +14,8 @@ namespace UnityEngine { class Font; }
 #define MPNCINEOKEJ_NFDOMALHMOJ_OFFSET UNITYSDK_OFFSET(0xBA427A0)
 #define MPNCINEOKEJ_NPAAKCGMOLP_OFFSET UNITYSDK_OFFSET(0xBA42290)
 
+inline static constexpr unsigned int MPNCINEOKEJ_TypeDefinitionIndex = 72677;
+
 	class MPNCINEOKEJ : public ::System::Object
 	{
 	public:

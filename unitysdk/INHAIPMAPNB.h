@@ -11,6 +11,8 @@ namespace RPG::Client { class RogueFormulaInfo; }
 #define INHAIPMAPNB_FMMKHGDNANK_OFFSET UNITYSDK_OFFSET(0x164EEF30)
 #define INHAIPMAPNB_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x164EEBC0)
 
+inline static constexpr unsigned int INHAIPMAPNB_TypeDefinitionIndex = 67074;
+
 	class INHAIPMAPNB : public ::KOJHMGMKDPJ
 	{
 	public:

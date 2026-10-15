@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int ImageCurveAsset_TypeDefinitionIndex = 49485;
+
 	class ImageCurveAsset : public ::UnityEngine::ScriptableObject
 	{
 	public:

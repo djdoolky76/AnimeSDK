@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PFKIFOKEFMC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF25650)
 #define PFKIFOKEFMC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF256B0)
 
+inline static constexpr unsigned int PFKIFOKEFMC_TypeDefinitionIndex = 25209;
+
 	class PFKIFOKEFMC : public ::System::Object
 	{
 	public:

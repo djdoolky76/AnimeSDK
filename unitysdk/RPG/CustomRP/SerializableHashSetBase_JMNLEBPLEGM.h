@@ -6,6 +6,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int SerializableHashSetBase_JMNLEBPLEGM_TypeDefinitionIndex = 51880;
+
 	class SerializableHashSetBase_JMNLEBPLEGM : public ::System::Object
 	{
 	public:

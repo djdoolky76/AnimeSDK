@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RA_ByContainEntityTag___O_TypeDefinitionIndex = 20049;
+
 	class RA_ByContainEntityTag___O : public ::System::Object
 	{
 	public:

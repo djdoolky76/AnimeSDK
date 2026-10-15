@@ -6,6 +6,8 @@
 
 namespace Newtonsoft::Json::Linq::JsonPath
 {
+	inline static constexpr unsigned int ArraySliceFilter_TypeDefinitionIndex = 9796;
+
 	class ArraySliceFilter : public ::Newtonsoft::Json::Linq::JsonPath::PathFilter
 	{
 	public:

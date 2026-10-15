@@ -4,6 +4,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int PinnedList_1___c__DisplayClass19_0_TypeDefinitionIndex = 45848;
+
 	template <typename T>
 	class PinnedList_1___c__DisplayClass19_0 : public ::System::Object
 	{

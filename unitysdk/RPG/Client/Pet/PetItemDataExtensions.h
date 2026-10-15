@@ -25,6 +25,8 @@ namespace RPG::Client::Pet { class PetModule; }
 
 namespace RPG::Client::Pet
 {
+	inline static constexpr unsigned int PetItemDataExtensions_TypeDefinitionIndex = 75662;
+
 	class PetItemDataExtensions : public ::System::Object
 	{
 	public:

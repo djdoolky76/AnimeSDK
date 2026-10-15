@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int AfterglowXbox360WindowsNativeProfile_TypeDefinitionIndex = 41295;
+
 	class AfterglowXbox360WindowsNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

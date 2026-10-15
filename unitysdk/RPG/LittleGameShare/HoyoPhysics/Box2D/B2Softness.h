@@ -5,6 +5,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Softness_TypeDefinitionIndex = 36775;
+
 	struct alignas(4) B2Softness
 	{
 		::System::Single biasRate; // 0x10

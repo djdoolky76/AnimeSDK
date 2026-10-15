@@ -6,6 +6,8 @@ namespace System { class String; }
 #define GDBGPMBIGNN_CTOR_OFFSET UNITYSDK_OFFSET(0x159937E0)
 #define GDBGPMBIGNN_GET_NAME_OFFSET UNITYSDK_OFFSET(0x159937D0)
 
+inline static constexpr unsigned int GDBGPMBIGNN_TypeDefinitionIndex = 79349;
+
 	class GDBGPMBIGNN : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPGTools::Timeline { class BlusherData; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int EmoFaceBlusherTimelineBehaviour_TypeDefinitionIndex = 48118;
+
 	class EmoFaceBlusherTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

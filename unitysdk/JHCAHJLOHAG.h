@@ -8,6 +8,8 @@ class JHCAHJLOHAG;
 #define JHCAHJLOHAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D02D290)
 #define JHCAHJLOHAG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D02D190)
 
+inline static constexpr unsigned int JHCAHJLOHAG_TypeDefinitionIndex = 15406;
+
 	class JHCAHJLOHAG : public ::System::Object
 	{
 	public:

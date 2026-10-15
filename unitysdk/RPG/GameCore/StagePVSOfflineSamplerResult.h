@@ -11,6 +11,8 @@ namespace RPG::GameCore { class StagePVSOfflineVisiblityInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StagePVSOfflineSamplerResult_TypeDefinitionIndex = 19183;
+
 	class StagePVSOfflineSamplerResult : public ::RPG::GameCore::StagePVSOfflineSamplerInfo
 	{
 	public:

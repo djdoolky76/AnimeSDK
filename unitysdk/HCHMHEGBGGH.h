@@ -17,6 +17,8 @@ namespace System { class String; }
 #define HCHMHEGBGGH_JDIOOEABHKJ_OFFSET UNITYSDK_OFFSET(0x15C1FC50)
 #define HCHMHEGBGGH_ONTRANSFORMCHANGE_OFFSET UNITYSDK_OFFSET(0x15C1F7B0)
 
+inline static constexpr unsigned int HCHMHEGBGGH_TypeDefinitionIndex = 73849;
+
 	class HCHMHEGBGGH : public ::RPG::Client::OpenWorld::StreamingItemData
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define EHMNCCDAJDM_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x154B7CE0)
 #define EHMNCCDAJDM_SET_DURATIONOFUNIT_OFFSET UNITYSDK_OFFSET(0x154B7B60)
 
+inline static constexpr unsigned int EHMNCCDAJDM_TypeDefinitionIndex = 79792;
+
 	class EHMNCCDAJDM : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System { class Exception; }
 #define FOMNCOHAGBA_MMDKMEFGKNB_OFFSET UNITYSDK_OFFSET(0x158FDF60)
 #define FOMNCOHAGBA_SET_STATE_OFFSET UNITYSDK_OFFSET(0x158FE100)
 
+inline static constexpr unsigned int FOMNCOHAGBA_TypeDefinitionIndex = 80229;
+
 	class FOMNCOHAGBA : public ::System::Object
 	{
 	public:

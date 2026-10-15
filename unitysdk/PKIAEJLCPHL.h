@@ -30,6 +30,8 @@ namespace System { class String; }
 #define PKIAEJLCPHL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF93440)
 #define PKIAEJLCPHL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF934A0)
 
+inline static constexpr unsigned int PKIAEJLCPHL_TypeDefinitionIndex = 30144;
+
 	class PKIAEJLCPHL : public ::System::Object
 	{
 	public:

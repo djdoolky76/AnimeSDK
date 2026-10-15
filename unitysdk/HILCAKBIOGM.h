@@ -12,6 +12,8 @@ namespace RPG::GameCore { class PlanetFesUseItemRow; }
 #define HILCAKBIOGM_IALMFPJLFMG_OFFSET UNITYSDK_OFFSET(0x15CF6510)
 #define HILCAKBIOGM_NEIFJFDPBOP_OFFSET UNITYSDK_OFFSET(0x15CF6610)
 
+inline static constexpr unsigned int HILCAKBIOGM_TypeDefinitionIndex = 66659;
+
 	class HILCAKBIOGM : public ::System::Object
 	{
 	public:

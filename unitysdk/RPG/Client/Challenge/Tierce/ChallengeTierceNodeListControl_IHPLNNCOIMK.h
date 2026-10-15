@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceNodeListControl_IHPLNNCOIMK_TypeDefinitionIndex = 81524;
+
 	class ChallengeTierceNodeListControl_IHPLNNCOIMK : public ::System::MulticastDelegate
 	{
 	public:

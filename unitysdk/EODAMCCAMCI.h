@@ -4,6 +4,8 @@
 
 #define EODAMCCAMCI_CTOR_OFFSET UNITYSDK_OFFSET(0x155BBE10)
 
+inline static constexpr unsigned int EODAMCCAMCI_TypeDefinitionIndex = 56454;
+
 	class EODAMCCAMCI : public ::System::Object
 	{
 	public:

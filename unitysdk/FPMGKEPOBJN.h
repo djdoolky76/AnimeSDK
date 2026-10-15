@@ -12,6 +12,8 @@ namespace RPG::Client { class GridFightTeam; }
 #define FPMGKEPOBJN_PEJJODPMBCG_OFFSET UNITYSDK_OFFSET(0x1591EED0)
 #define FPMGKEPOBJN_PPCBBEALMAO_OFFSET UNITYSDK_OFFSET(0x1591ECF0)
 
+inline static constexpr unsigned int FPMGKEPOBJN_TypeDefinitionIndex = 65143;
+
 	class FPMGKEPOBJN : public ::System::Object
 	{
 	public:

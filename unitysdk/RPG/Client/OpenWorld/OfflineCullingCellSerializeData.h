@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::OpenWorld
 {
+	inline static constexpr unsigned int OfflineCullingCellSerializeData_TypeDefinitionIndex = 73757;
+
 	class OfflineCullingCellSerializeData : public ::System::Object
 	{
 	public:

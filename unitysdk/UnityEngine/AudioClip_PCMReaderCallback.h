@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AudioClip_PCMReaderCallback_TypeDefinitionIndex = 5145;
+
 	class AudioClip_PCMReaderCallback : public ::System::MulticastDelegate
 	{
 	public:

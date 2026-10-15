@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitRogueObjectRewardRunout; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitRogueObjectRewardRunout_TypeDefinitionIndex = 20492;
+
 	class WaitRogueObjectRewardRunout : public ::RPG::GameCore::TaskConfig
 	{
 	public:

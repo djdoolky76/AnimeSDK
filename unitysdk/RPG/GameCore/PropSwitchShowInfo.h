@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropSwitchShowInfo_TypeDefinitionIndex = 20435;
+
 	class PropSwitchShowInfo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

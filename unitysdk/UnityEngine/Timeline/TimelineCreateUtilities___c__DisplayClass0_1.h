@@ -9,6 +9,8 @@ namespace UnityEngine { class ScriptableObject; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int TimelineCreateUtilities___c__DisplayClass0_1_TypeDefinitionIndex = 38882;
+
 	template <typename T>
 	class TimelineCreateUtilities___c__DisplayClass0_1 : public ::System::Object
 	{

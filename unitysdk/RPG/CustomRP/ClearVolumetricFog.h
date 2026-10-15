@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ClearVolumetricFog_TypeDefinitionIndex = 37728;
+
 	class ClearVolumetricFog : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Type; }
 
 namespace UnityEngine::Playables
 {
+	inline static constexpr unsigned int Playable_TypeDefinitionIndex = 4911;
+
 	struct alignas(4) Playable
 	{
 		::UnityEngine::Playables::PlayableHandle m_Handle; // 0x10

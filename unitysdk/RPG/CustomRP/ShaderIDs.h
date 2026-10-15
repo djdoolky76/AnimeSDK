@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ShaderIDs_TypeDefinitionIndex = 37630;
+
 	class ShaderIDs : public ::System::Object
 	{
 	public:

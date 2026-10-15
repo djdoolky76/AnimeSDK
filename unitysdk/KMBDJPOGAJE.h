@@ -6,6 +6,8 @@
 #define KMBDJPOGAJE_GET_ACTIVE_OFFSET UNITYSDK_OFFSET(0xB53BE10)
 #define KMBDJPOGAJE_SET_ACTIVE_OFFSET UNITYSDK_OFFSET(0xB53BE20)
 
+inline static constexpr unsigned int KMBDJPOGAJE_TypeDefinitionIndex = 49698;
+
 	class KMBDJPOGAJE : public ::System::Object
 	{
 	public:

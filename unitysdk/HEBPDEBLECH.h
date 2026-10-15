@@ -27,6 +27,8 @@ namespace UnityEngine { class Transform; }
 #define HEBPDEBLECH_ODGLEFLLDPI_OFFSET UNITYSDK_OFFSET(0x15C43A50)
 #define HEBPDEBLECH__ONBIND_OFFSET UNITYSDK_OFFSET(0x15C43760)
 
+inline static constexpr unsigned int HEBPDEBLECH_TypeDefinitionIndex = 71910;
+
 	class HEBPDEBLECH : public ::FMPCODLIOLG
 	{
 	public:

@@ -210,6 +210,8 @@ namespace UnityEngine { class Rigidbody; }
 #define FEIEBAJPIAE_PNABMEBLCFE_OFFSET UNITYSDK_OFFSET(0x15707590)
 #define FEIEBAJPIAE_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x156F52D0)
 
+inline static constexpr unsigned int FEIEBAJPIAE_TypeDefinitionIndex = 75940;
+
 	class FEIEBAJPIAE : public ::System::Object
 	{
 	public:

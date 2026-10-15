@@ -37,6 +37,8 @@ namespace UnityEngine::UIElements { class IMGUIContainer; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int IMGUIContainer_TypeDefinitionIndex = 5880;
+
 	class IMGUIContainer : public ::UnityEngine::UIElements::VisualElement
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NMOHDEDKFLA_CTOR_OFFSET UNITYSDK_OFFSET(0xBC93F80)
 #define NMOHDEDKFLA_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xBC93FA0)
 
+inline static constexpr unsigned int NMOHDEDKFLA_TypeDefinitionIndex = 59244;
+
 	class NMOHDEDKFLA
 	{
 	public:

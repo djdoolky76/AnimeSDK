@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MatchThreeV2LevelRow_TypeDefinitionIndex = 11932;
+
 	class MatchThreeV2LevelRow : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Hash128_TypeDefinitionIndex = 4205;
+
 	struct alignas(4) Hash128
 	{
 		::System::UInt32 m_u32_0; // 0x10

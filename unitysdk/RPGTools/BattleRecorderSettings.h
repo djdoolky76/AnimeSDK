@@ -6,6 +6,8 @@
 
 namespace RPGTools
 {
+	inline static constexpr unsigned int BattleRecorderSettings_TypeDefinitionIndex = 47773;
+
 	class BattleRecorderSettings : public ::UnityEngine::ScriptableObject
 	{
 	public:

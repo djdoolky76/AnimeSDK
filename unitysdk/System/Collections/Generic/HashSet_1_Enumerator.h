@@ -4,6 +4,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int HashSet_1_Enumerator_TypeDefinitionIndex = 3699;
+
 	template <typename T>
 	struct alignas(8) HashSet_1_Enumerator
 	{

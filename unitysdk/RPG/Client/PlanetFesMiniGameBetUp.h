@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesMiniGameBetUp_TypeDefinitionIndex = 66607;
+
 	class PlanetFesMiniGameBetUp : public ::System::Object
 	{
 	public:

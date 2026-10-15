@@ -76,6 +76,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleInstance_TypeDefinitionIndex = 56038;
+
 	class BattleInstance : public ::System::Object
 	{
 	public:

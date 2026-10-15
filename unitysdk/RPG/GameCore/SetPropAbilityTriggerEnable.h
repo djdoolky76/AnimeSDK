@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetPropAbilityTriggerEnable; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetPropAbilityTriggerEnable_TypeDefinitionIndex = 20355;
+
 	class SetPropAbilityTriggerEnable : public ::RPG::GameCore::TaskConfig
 	{
 	public:

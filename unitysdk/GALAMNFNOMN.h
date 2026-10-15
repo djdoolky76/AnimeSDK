@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GALAMNFNOMN_CTOR_OFFSET UNITYSDK_OFFSET(0x15941090)
 #define GALAMNFNOMN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159410C0)
 
+inline static constexpr unsigned int GALAMNFNOMN_TypeDefinitionIndex = 58752;
+
 	class GALAMNFNOMN
 	{
 	public:

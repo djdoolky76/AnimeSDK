@@ -72,6 +72,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPMath_TypeDefinitionIndex = 37890;
+
 	class RPMath : public ::System::Object
 	{
 	public:

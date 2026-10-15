@@ -5,6 +5,8 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenWorkData; }
 
 #define EICGHABDLPM_FDKIMLGCCNK_OFFSET UNITYSDK_OFFSET(0x154BCBF0)
 
+inline static constexpr unsigned int EICGHABDLPM_TypeDefinitionIndex = 75610;
+
 	class EICGHABDLPM : public ::System::Object
 	{
 	public:

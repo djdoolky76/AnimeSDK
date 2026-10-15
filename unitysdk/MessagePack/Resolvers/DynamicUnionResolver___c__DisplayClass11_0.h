@@ -10,6 +10,8 @@ namespace System::Reflection::Emit { class ILGenerator; }
 
 namespace MessagePack::Resolvers
 {
+	inline static constexpr unsigned int DynamicUnionResolver___c__DisplayClass11_0_TypeDefinitionIndex = 7266;
+
 	class DynamicUnionResolver___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 #define AKTIMELINERTPCTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F614D40)
 #define AKTIMELINERTPCTRACK_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1F614780)
 
+inline static constexpr unsigned int AkTimelineRtpcTrack_TypeDefinitionIndex = 44880;
+
 	class AkTimelineRtpcTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

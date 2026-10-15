@@ -13,6 +13,8 @@ namespace RPG::Client { class ActivityBenefitV2RedDotViewModel; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityBenefitV2ActivityPanelData_TypeDefinitionIndex = 61577;
+
 	class ActivityBenefitV2ActivityPanelData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

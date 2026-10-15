@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MiActionConfigBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActionCheckActionConfig_TypeDefinitionIndex = 17057;
+
 	class ActionCheckActionConfig : public ::RPG::GameCore::MiActionConfigBase
 	{
 	public:

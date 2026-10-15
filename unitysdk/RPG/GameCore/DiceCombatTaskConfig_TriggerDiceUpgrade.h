@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_TriggerDiceUpgrade; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_TriggerDiceUpgrade_TypeDefinitionIndex = 16058;
+
 	class DiceCombatTaskConfig_TriggerDiceUpgrade : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

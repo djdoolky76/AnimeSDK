@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameplayFunctionBtnControl___c_TypeDefinitionIndex = 81313;
+
 	class ChenLingFesGameplayFunctionBtnControl___c : public ::System::Object
 	{
 	public:

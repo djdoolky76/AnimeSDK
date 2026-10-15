@@ -8,6 +8,8 @@ namespace RPG::Client::LittleGameShare { class ST_CakeRaceByIsSkillCD; }
 #define HLBMMEPAJCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C667D70)
 #define HLBMMEPAJCB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C667E50)
 
+inline static constexpr unsigned int HLBMMEPAJCB_TypeDefinitionIndex = 36985;
+
 	class HLBMMEPAJCB
 	{
 	public:

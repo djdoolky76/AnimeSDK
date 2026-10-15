@@ -6,6 +6,8 @@ namespace System { template <typename T> class Func_1; }
 
 #define GMGGBIBGMLE_CTOR_OFFSET UNITYSDK_OFFSET(0x15AD12A0)
 
+inline static constexpr unsigned int GMGGBIBGMLE_TypeDefinitionIndex = 68553;
+
 	class GMGGBIBGMLE : public ::System::Object
 	{
 	public:

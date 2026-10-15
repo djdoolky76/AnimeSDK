@@ -20,6 +20,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Dll_TypeDefinitionIndex = 7941;
+
 	class Dll : public ::UnityEngine::MonoBehaviour
 	{
 	public:

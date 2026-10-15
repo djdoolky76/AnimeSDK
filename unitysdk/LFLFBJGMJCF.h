@@ -9,6 +9,8 @@ namespace System { class String; }
 #define LFLFBJGMJCF_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB6829E0)
 #define LFLFBJGMJCF_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xB682A80)
 
+inline static constexpr unsigned int LFLFBJGMJCF_TypeDefinitionIndex = 67028;
+
 	class LFLFBJGMJCF : public ::System::Object
 	{
 	public:

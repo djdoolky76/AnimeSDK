@@ -18,6 +18,8 @@ namespace System { class String; }
 #define DEBHBAOHHII_GET_VISIBILITYPRIORITY_OFFSET UNITYSDK_OFFSET(0xEE4D0)
 #define DEBHBAOHHII_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0xFE70)
 
+inline static constexpr unsigned int DEBHBAOHHII_TypeDefinitionIndex = 62157;
+
 	struct alignas(4) DEBHBAOHHII
 	{
 		::RPG::Client::RegionContentLevel _ContentLevel_k__BackingField; // 0x10

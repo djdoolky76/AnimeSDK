@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OnlinePlayRoomStatic_TypeDefinitionIndex = 66413;
+
 	class OnlinePlayRoomStatic : public ::System::Object
 	{
 	public:

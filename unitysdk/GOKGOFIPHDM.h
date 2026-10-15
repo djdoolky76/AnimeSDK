@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GOKGOFIPHDM_GEAIBGBGFDF_OFFSET UNITYSDK_OFFSET(0x15B392A0)
 #define GOKGOFIPHDM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B39230)
 
+inline static constexpr unsigned int GOKGOFIPHDM_TypeDefinitionIndex = 55605;
+
 	class GOKGOFIPHDM
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetTargetColliderLayer_TypeDefinitionIndex = 22176;
+
 	class SetTargetColliderLayer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

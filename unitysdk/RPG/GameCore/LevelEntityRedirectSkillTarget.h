@@ -13,6 +13,8 @@ namespace RPG::GameCore { class LevelEntityRedirectSkillTarget; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEntityRedirectSkillTarget_TypeDefinitionIndex = 56748;
+
 	class LevelEntityRedirectSkillTarget : public ::CMPGEAFHHDC
 	{
 	public:

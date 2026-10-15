@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MissionTalkStyleType_TypeDefinitionIndex = 24782;
+
 	enum class MissionTalkStyleType : ::System::Int32
 	{
 		Default = 0,

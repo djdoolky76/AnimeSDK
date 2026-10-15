@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CheckUIMode_TypeDefinitionIndex = 24361;
+
 	class CheckUIMode : public ::RPG::GameCore::TaskConfig
 	{
 	public:

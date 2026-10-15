@@ -12,6 +12,8 @@ namespace miHoYoEmotion { class BoneShape; }
 
 namespace miHoYoEmotion
 {
+	inline static constexpr unsigned int Shape_TypeDefinitionIndex = 45971;
+
 	class Shape : public ::System::Object
 	{
 	public:

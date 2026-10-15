@@ -15,6 +15,8 @@ class AkMIDIEvent_tCc;
 #define AKMIDIEVENT_TCC_SET_BYCC_OFFSET UNITYSDK_OFFSET(0x1F59FF00)
 #define AKMIDIEVENT_TCC_SET_BYVALUE_OFFSET UNITYSDK_OFFSET(0x1F5A0070)
 
+inline static constexpr unsigned int AkMIDIEvent_tCc_TypeDefinitionIndex = 44753;
+
 	class AkMIDIEvent_tCc : public ::System::Object
 	{
 	public:

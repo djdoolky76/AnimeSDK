@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define GENHFDKDIBH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x159E19F0)
 #define GENHFDKDIBH___C__COMPILE_B__4_0_OFFSET UNITYSDK_OFFSET(0x159E1A00)
 
+inline static constexpr unsigned int GENHFDKDIBH___c_TypeDefinitionIndex = 65297;
+
 	class GENHFDKDIBH___c : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace UnityEngine::UIElements { class Focusable; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int FocusEventBase_1_TypeDefinitionIndex = 5940;
+
 	template <typename T>
 	class FocusEventBase_1
 	{

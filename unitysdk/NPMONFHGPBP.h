@@ -11,6 +11,8 @@ namespace System { class String; }
 #define NPMONFHGPBP_CTOR_OFFSET UNITYSDK_OFFSET(0xBD105D0)
 #define NPMONFHGPBP_NDINLCMBHMG_OFFSET UNITYSDK_OFFSET(0xBD10610)
 
+inline static constexpr unsigned int NPMONFHGPBP_TypeDefinitionIndex = 49477;
+
 	class NPMONFHGPBP
 	{
 	public:

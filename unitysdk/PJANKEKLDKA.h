@@ -8,6 +8,8 @@ namespace System { class Type; }
 #define PJANKEKLDKA_KPLLACOKKKL_1_OFFSET UNITYSDK_OFFSET(0xC279FB0)
 #define PJANKEKLDKA_KPLLACOKKKL_OFFSET UNITYSDK_OFFSET(0xC279D00)
 
+inline static constexpr unsigned int PJANKEKLDKA_TypeDefinitionIndex = 49683;
+
 	class PJANKEKLDKA : public ::System::Object
 	{
 	public:

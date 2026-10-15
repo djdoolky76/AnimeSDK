@@ -15,6 +15,8 @@
 #define EGEBJOOMBBL_PCKCPPGNLHG_1_OFFSET UNITYSDK_OFFSET(0x13A64B10)
 #define EGEBJOOMBBL_PCKCPPGNLHG_OFFSET UNITYSDK_OFFSET(0x13A64A80)
 
+inline static constexpr unsigned int EGEBJOOMBBL_TypeDefinitionIndex = 62160;
+
 	class EGEBJOOMBBL : public ::System::Object
 	{
 	public:

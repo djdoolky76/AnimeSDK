@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AetherDivideTriggerAttackSimplified_TypeDefinitionIndex = 24068;
+
 	class AetherDivideTriggerAttackSimplified : public ::RPG::GameCore::TaskConfig
 	{
 	public:

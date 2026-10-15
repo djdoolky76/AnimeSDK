@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetRogueRoomFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetRogueRoomFinish_TypeDefinitionIndex = 20483;
+
 	class SetRogueRoomFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System::IO { class MemoryStream; }
 #define EHHMIEEGCKG_LAFEOPLPDIN_OFFSET UNITYSDK_OFFSET(0x154A8660)
 #define EHHMIEEGCKG_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0x154A78A0)
 
+inline static constexpr unsigned int EHHMIEEGCKG_TypeDefinitionIndex = 48881;
+
 	class EHHMIEEGCKG : public ::System::Object
 	{
 	public:

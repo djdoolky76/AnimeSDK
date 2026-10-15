@@ -16,6 +16,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::SceneOptimizer::PVSSceneBudgetStatTool
 {
+	inline static constexpr unsigned int GPUPassSubmitter_TypeDefinitionIndex = 51786;
+
 	class GPUPassSubmitter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

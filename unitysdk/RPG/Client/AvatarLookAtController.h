@@ -23,6 +23,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarLookAtController_TypeDefinitionIndex = 68369;
+
 	class AvatarLookAtController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

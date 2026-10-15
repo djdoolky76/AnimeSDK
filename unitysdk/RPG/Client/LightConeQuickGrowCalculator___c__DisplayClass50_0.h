@@ -9,6 +9,8 @@ namespace RPG::Client { class LightConeQuickGrowCalculator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LightConeQuickGrowCalculator___c__DisplayClass50_0_TypeDefinitionIndex = 65730;
+
 	class LightConeQuickGrowCalculator___c__DisplayClass50_0 : public ::System::Object
 	{
 	public:

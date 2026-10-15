@@ -30,6 +30,8 @@ namespace System { class String; }
 #define OCCAABPFBLF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE0CDD0)
 #define OCCAABPFBLF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE0CE30)
 
+inline static constexpr unsigned int OCCAABPFBLF_TypeDefinitionIndex = 26095;
+
 	class OCCAABPFBLF : public ::System::Object
 	{
 	public:

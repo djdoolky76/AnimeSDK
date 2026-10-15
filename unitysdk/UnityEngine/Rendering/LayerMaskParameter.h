@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int LayerMaskParameter_TypeDefinitionIndex = 35624;
+
 	class LayerMaskParameter
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
+	inline static constexpr unsigned int NativeContainerAttribute_TypeDefinitionIndex = 3992;
+
 	class NativeContainerAttribute : public ::System::Attribute
 	{
 	public:

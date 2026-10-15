@@ -8,6 +8,8 @@ namespace RPG::Client::Pet::BlindBox { class IBlindBoxPet; }
 
 namespace RPG::Client::Pet::BlindBox
 {
+	inline static constexpr unsigned int BlindBoxPetRepository___c__DisplayClass3_0_TypeDefinitionIndex = 75735;
+
 	class BlindBoxPetRepository___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

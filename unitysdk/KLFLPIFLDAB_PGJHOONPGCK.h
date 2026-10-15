@@ -8,6 +8,8 @@ namespace System { class String; }
 #define KLFLPIFLDAB_PGJHOONPGCK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB5262B0)
 #define KLFLPIFLDAB_PGJHOONPGCK_CTOR_OFFSET UNITYSDK_OFFSET(0xB526350)
 
+inline static constexpr unsigned int KLFLPIFLDAB_PGJHOONPGCK_TypeDefinitionIndex = 79746;
+
 	class KLFLPIFLDAB_PGJHOONPGCK : public ::System::Object
 	{
 	public:

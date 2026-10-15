@@ -25,6 +25,8 @@ namespace UnityEngine::UIElements { template <typename T> class ObjectPool_1; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int EventDispatcher_TypeDefinitionIndex = 5872;
+
 	class EventDispatcher : public ::System::Object
 	{
 	public:

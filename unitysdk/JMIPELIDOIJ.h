@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JMIPELIDOIJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E78D390)
 #define JMIPELIDOIJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E78D3F0)
 
+inline static constexpr unsigned int JMIPELIDOIJ_TypeDefinitionIndex = 30968;
+
 	class JMIPELIDOIJ : public ::System::Object
 	{
 	public:

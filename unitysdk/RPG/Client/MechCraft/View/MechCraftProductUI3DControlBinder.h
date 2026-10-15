@@ -8,6 +8,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftMechatronView; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftProductUI3DControlBinder_TypeDefinitionIndex = 80051;
+
 	class MechCraftProductUI3DControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

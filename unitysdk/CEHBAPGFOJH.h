@@ -14,6 +14,8 @@ class CEHBAPGFOJH;
 #define CEHBAPGFOJH_PCGLHHKFPBJ_OFFSET UNITYSDK_OFFSET(0xC9DC220)
 #define CEHBAPGFOJH_SET_POSITION_OFFSET UNITYSDK_OFFSET(0xC9DC190)
 
+inline static constexpr unsigned int CEHBAPGFOJH_TypeDefinitionIndex = 74576;
+
 	class CEHBAPGFOJH : public ::System::Object
 	{
 	public:

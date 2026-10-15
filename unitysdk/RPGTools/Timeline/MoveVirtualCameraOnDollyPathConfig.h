@@ -8,6 +8,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int MoveVirtualCameraOnDollyPathConfig_TypeDefinitionIndex = 47820;
+
 	class MoveVirtualCameraOnDollyPathConfig : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine { class GameObject; }
 #define CJLJOFHCMPB_OJGPHAIABGK_OFFSET UNITYSDK_OFFSET(0xD4D0590)
 #define CJLJOFHCMPB___UPDATEGEAR_B__9_0_OFFSET UNITYSDK_OFFSET(0xD4D1A00)
 
+inline static constexpr unsigned int CJLJOFHCMPB_TypeDefinitionIndex = 78720;
+
 	class CJLJOFHCMPB : public ::FKPLNMJHANM
 	{
 	public:

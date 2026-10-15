@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OverrideSkillTargetInfo_TypeDefinitionIndex = 22715;
+
 	class OverrideSkillTargetInfo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

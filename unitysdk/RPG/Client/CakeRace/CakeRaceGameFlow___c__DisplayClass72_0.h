@@ -14,6 +14,8 @@ namespace RPG::Client::Promises { class IPromise; }
 
 namespace RPG::Client::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceGameFlow___c__DisplayClass72_0_TypeDefinitionIndex = 76451;
+
 	class CakeRaceGameFlow___c__DisplayClass72_0 : public ::System::Object
 	{
 	public:

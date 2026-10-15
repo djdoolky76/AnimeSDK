@@ -9,6 +9,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class JSONNode; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int Browser___c__DisplayClass226_0_TypeDefinitionIndex = 39354;
+
 	class Browser___c__DisplayClass226_0 : public ::System::Object
 	{
 	public:

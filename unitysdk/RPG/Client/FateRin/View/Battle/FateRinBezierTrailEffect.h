@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::FateRin::View::Battle
 {
+	inline static constexpr unsigned int FateRinBezierTrailEffect_TypeDefinitionIndex = 80673;
+
 	class FateRinBezierTrailEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

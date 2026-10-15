@@ -27,6 +27,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelMonsterInfo_TypeDefinitionIndex = 17249;
+
 	class LevelMonsterInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{
 	public:

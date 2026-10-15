@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FHBEEOHLHPC_JKDLGPBDNLL_OFFSET UNITYSDK_OFFSET(0x15771100)
 #define FHBEEOHLHPC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15770FC0)
 
+inline static constexpr unsigned int FHBEEOHLHPC_TypeDefinitionIndex = 53100;
+
 	class FHBEEOHLHPC
 	{
 	public:

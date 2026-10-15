@@ -13,6 +13,8 @@ namespace RPG::GameCore { class AchievementSeriesRow; }
 
 namespace RPG::Client::Achievement
 {
+	inline static constexpr unsigned int AchievementSeriesTitleViewModel_TypeDefinitionIndex = 82115;
+
 	class AchievementSeriesTitleViewModel : public ::System::Object
 	{
 	public:

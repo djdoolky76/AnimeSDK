@@ -5,6 +5,8 @@
 #define JNOKHEAMOOA_CTOR_OFFSET UNITYSDK_OFFSET(0xB291DB0)
 #define JNOKHEAMOOA_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xB2918B0)
 
+inline static constexpr unsigned int JNOKHEAMOOA_TypeDefinitionIndex = 64145;
+
 	class JNOKHEAMOOA : public ::HGMMFJHJECA
 	{
 	public:

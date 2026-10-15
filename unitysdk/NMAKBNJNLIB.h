@@ -20,6 +20,8 @@ namespace RPG::AvatarSystem { class AvatarServant; }
 #define NMAKBNJNLIB_SET_SERVANTSKILLROWDATAPROVIDER_OFFSET UNITYSDK_OFFSET(0xBC7BF80)
 #define NMAKBNJNLIB_SET_SKILLLEVELPROVIDER_OFFSET UNITYSDK_OFFSET(0xBC7BF20)
 
+inline static constexpr unsigned int NMAKBNJNLIB_TypeDefinitionIndex = 51931;
+
 	class NMAKBNJNLIB : public ::System::Object
 	{
 	public:

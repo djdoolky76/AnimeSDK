@@ -27,6 +27,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityElationAvatarData_TypeDefinitionIndex = 61504;
+
 	class ActivityElationAvatarData : public ::System::Object
 	{
 	public:

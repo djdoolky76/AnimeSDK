@@ -8,6 +8,8 @@ namespace RPG::Client::Promises { class Promise; }
 #define JGDCIMPJDNN___C__DISPLAYCLASS1_0__FULLSYNC_B__0_OFFSET UNITYSDK_OFFSET(0xB198710)
 #define JGDCIMPJDNN___C__DISPLAYCLASS1_0__FULLSYNC_B__1_OFFSET UNITYSDK_OFFSET(0xB198730)
 
+inline static constexpr unsigned int JGDCIMPJDNN___c__DisplayClass1_0_TypeDefinitionIndex = 80521;
+
 	class JGDCIMPJDNN___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

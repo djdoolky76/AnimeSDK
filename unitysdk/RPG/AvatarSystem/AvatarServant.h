@@ -41,6 +41,8 @@ namespace System { class String; }
 
 namespace RPG::AvatarSystem
 {
+	inline static constexpr unsigned int AvatarServant_TypeDefinitionIndex = 51972;
+
 	class AvatarServant : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class String; }
 #define OPAPALLGMEE_GGHIDBNAJFA_OFFSET UNITYSDK_OFFSET(0xBF9CB00)
 #define OPAPALLGMEE_HABAEAOCJNE_OFFSET UNITYSDK_OFFSET(0xBF9CBD0)
 
+inline static constexpr unsigned int OPAPALLGMEE_TypeDefinitionIndex = 57989;
+
 	class OPAPALLGMEE
 	{
 	public:

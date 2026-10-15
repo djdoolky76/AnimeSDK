@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PixAirEnemyDisplayConfigRow_TypeDefinitionIndex = 12147;
+
 	class PixAirEnemyDisplayConfigRow : public ::System::Object
 	{
 	public:

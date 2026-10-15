@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvSetSkillSlotDataItem_TypeDefinitionIndex = 20201;
+
 	class AdvSetSkillSlotDataItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

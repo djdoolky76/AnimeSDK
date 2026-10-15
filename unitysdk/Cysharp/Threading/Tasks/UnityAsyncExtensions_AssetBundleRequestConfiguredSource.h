@@ -31,6 +31,8 @@ namespace UnityEngine { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UnityAsyncExtensions_AssetBundleRequestConfiguredSource_TypeDefinitionIndex = 38463;
+
 	class UnityAsyncExtensions_AssetBundleRequestConfiguredSource : public ::System::Object
 	{
 	public:

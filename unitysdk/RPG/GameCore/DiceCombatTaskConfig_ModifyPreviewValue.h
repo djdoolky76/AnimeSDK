@@ -12,6 +12,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_ModifyPreviewValue_TypeDefinitionIndex = 16158;
+
 	class DiceCombatTaskConfig_ModifyPreviewValue : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

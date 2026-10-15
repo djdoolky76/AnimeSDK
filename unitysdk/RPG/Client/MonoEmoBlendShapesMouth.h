@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEmoBlendShapesMouth_TypeDefinitionIndex = 71150;
+
 	class MonoEmoBlendShapesMouth : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System { class Object; }
 #define DPOAHFJILKN_OCHGACEJDGH_OFFSET UNITYSDK_OFFSET(0x1265FA20)
 #define DPOAHFJILKN_REMOVE_ONMAYBECHANGED_OFFSET UNITYSDK_OFFSET(0x1265F6C0)
 
+inline static constexpr unsigned int DPOAHFJILKN_TypeDefinitionIndex = 60106;
+
 	class DPOAHFJILKN : public ::System::Object
 	{
 	public:

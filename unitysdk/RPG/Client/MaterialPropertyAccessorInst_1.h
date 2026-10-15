@@ -5,6 +5,8 @@ namespace RPG::Client { template <typename T> class IMaterialPropertyAccessor_1;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MaterialPropertyAccessorInst_1_TypeDefinitionIndex = 69820;
+
 	template <typename T>
 	class MaterialPropertyAccessorInst_1 : public ::System::Object
 	{

@@ -6,6 +6,8 @@
 #define NELEJGOMCPO_KPAOCJEJCNA_OFFSET UNITYSDK_OFFSET(0xBB70D20)
 #define NELEJGOMCPO_NPOFEKBLAIH_OFFSET UNITYSDK_OFFSET(0xBB70CA0)
 
+inline static constexpr unsigned int NELEJGOMCPO_TypeDefinitionIndex = 72420;
+
 	class NELEJGOMCPO : public ::JPNPHHIBPEK
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define LKDMCPDHEGM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E98D250)
 #define LKDMCPDHEGM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E98D2B0)
 
+inline static constexpr unsigned int LKDMCPDHEGM_TypeDefinitionIndex = 29446;
+
 	class LKDMCPDHEGM : public ::System::Object
 	{
 	public:

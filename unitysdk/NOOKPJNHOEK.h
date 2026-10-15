@@ -17,6 +17,8 @@ namespace System::Text { class Encoding; }
 #define NOOKPJNHOEK_PAKFEFGCHFM_6_OFFSET UNITYSDK_OFFSET(0x1DD846A0)
 #define NOOKPJNHOEK_PAKFEFGCHFM_OFFSET UNITYSDK_OFFSET(0x1DD83E70)
 
+inline static constexpr unsigned int NOOKPJNHOEK_TypeDefinitionIndex = 6412;
+
 	class NOOKPJNHOEK : public ::System::Object
 	{
 	public:

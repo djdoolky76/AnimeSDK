@@ -25,6 +25,8 @@ namespace System { class Object; }
 #define FOFEHEIJHFB_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x158E76D0)
 #define FOFEHEIJHFB__ONBIND_OFFSET UNITYSDK_OFFSET(0x158E7460)
 
+inline static constexpr unsigned int FOFEHEIJHFB_TypeDefinitionIndex = 71883;
+
 	class FOFEHEIJHFB : public ::FMPCODLIOLG
 	{
 	public:

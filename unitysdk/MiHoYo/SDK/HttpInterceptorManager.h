@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HttpInterceptorManager_TypeDefinitionIndex = 7962;
+
 	class HttpInterceptorManager : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define MEDCHLCIOEI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA08D50)
 #define MEDCHLCIOEI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA08DB0)
 
+inline static constexpr unsigned int MEDCHLCIOEI_TypeDefinitionIndex = 34774;
+
 	class MEDCHLCIOEI : public ::System::Object
 	{
 	public:

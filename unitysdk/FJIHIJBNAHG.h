@@ -5,6 +5,8 @@
 
 #define FJIHIJBNAHG_CTOR_OFFSET UNITYSDK_OFFSET(0x157CF420)
 
+inline static constexpr unsigned int FJIHIJBNAHG_TypeDefinitionIndex = 48429;
+
 	class FJIHIJBNAHG : public ::System::Object
 	{
 	public:

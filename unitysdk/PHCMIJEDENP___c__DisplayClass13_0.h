@@ -6,6 +6,8 @@ class GMDIBFIGIEG;
 #define PHCMIJEDENP___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C57DBE0)
 #define PHCMIJEDENP___C__DISPLAYCLASS13_0__GETTALENTPOINT_B__0_OFFSET UNITYSDK_OFFSET(0x1C57DBF0)
 
+inline static constexpr unsigned int PHCMIJEDENP___c__DisplayClass13_0_TypeDefinitionIndex = 41876;
+
 	class PHCMIJEDENP___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

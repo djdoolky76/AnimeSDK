@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IAEKCICMBEE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CED9880)
 #define IAEKCICMBEE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CED91A0)
 
+inline static constexpr unsigned int IAEKCICMBEE_TypeDefinitionIndex = 10967;
+
 	class IAEKCICMBEE : public ::System::Object
 	{
 	public:

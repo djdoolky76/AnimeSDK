@@ -19,6 +19,8 @@ namespace System { class Object; }
 #define NJPKCIBCLNK_OPCKNBHNBOA_OFFSET UNITYSDK_OFFSET(0xBC2B210)
 #define NJPKCIBCLNK_TICK_OFFSET UNITYSDK_OFFSET(0xBC2B4B0)
 
+inline static constexpr unsigned int NJPKCIBCLNK_TypeDefinitionIndex = 55854;
+
 	class NJPKCIBCLNK : public ::System::Object
 	{
 	public:

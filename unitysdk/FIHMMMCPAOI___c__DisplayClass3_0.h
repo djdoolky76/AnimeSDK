@@ -7,6 +7,8 @@ namespace RPG::Client::Promises { class IPromise; }
 #define FIHMMMCPAOI___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x157A8560)
 #define FIHMMMCPAOI___C__DISPLAYCLASS3_0___SHOWROGUETOURNFORMULASTORYTOASTPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x157A8A20)
 
+inline static constexpr unsigned int FIHMMMCPAOI___c__DisplayClass3_0_TypeDefinitionIndex = 67638;
+
 	class FIHMMMCPAOI___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

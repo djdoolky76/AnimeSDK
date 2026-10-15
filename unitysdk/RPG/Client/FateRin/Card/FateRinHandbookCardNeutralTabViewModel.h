@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::Card
 {
+	inline static constexpr unsigned int FateRinHandbookCardNeutralTabViewModel_TypeDefinitionIndex = 81185;
+
 	class FateRinHandbookCardNeutralTabViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

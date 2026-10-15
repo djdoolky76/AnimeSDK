@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LPALFGALCMM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D124330)
 #define LPALFGALCMM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D123C90)
 
+inline static constexpr unsigned int LPALFGALCMM_TypeDefinitionIndex = 12998;
+
 	class LPALFGALCMM : public ::System::Object
 	{
 	public:

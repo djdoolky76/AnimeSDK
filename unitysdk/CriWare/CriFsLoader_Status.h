@@ -3,6 +3,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriFsLoader_Status_TypeDefinitionIndex = 40098;
+
 	enum class CriFsLoader_Status : ::System::Int32
 	{
 		Stop = 0,

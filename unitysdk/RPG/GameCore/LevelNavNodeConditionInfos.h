@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelNavNodeConditionInfos; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelNavNodeConditionInfos_TypeDefinitionIndex = 17159;
+
 	class LevelNavNodeConditionInfos : public ::RPG::GameCore::JsonConfig
 	{
 	public:

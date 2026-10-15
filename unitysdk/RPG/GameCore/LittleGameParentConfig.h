@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameParentConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameParentConfig_TypeDefinitionIndex = 18846;
+
 	class LittleGameParentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

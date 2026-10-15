@@ -5,6 +5,8 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace SRF
 {
+	inline static constexpr unsigned int SRMonoBehaviourEx_FieldInfo_TypeDefinitionIndex = 35365;
+
 	struct alignas(8) SRMonoBehaviourEx_FieldInfo
 	{
 		::System::Boolean AutoCreate; // 0x10

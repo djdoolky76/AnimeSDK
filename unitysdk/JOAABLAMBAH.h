@@ -14,6 +14,8 @@ class OMPCEECHGJK;
 #define JOAABLAMBAH_LLBFBLIGNDG_OFFSET UNITYSDK_OFFSET(0xB294A10)
 #define JOAABLAMBAH_PJDJLFFOFDH_OFFSET UNITYSDK_OFFSET(0xB294780)
 
+inline static constexpr unsigned int JOAABLAMBAH_TypeDefinitionIndex = 76668;
+
 	class JOAABLAMBAH : public ::System::Object
 	{
 	public:

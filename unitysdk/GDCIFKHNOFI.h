@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GDCIFKHNOFI_CTOR_OFFSET UNITYSDK_OFFSET(0x15995120)
 #define GDCIFKHNOFI_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x15995140)
 
+inline static constexpr unsigned int GDCIFKHNOFI_TypeDefinitionIndex = 59240;
+
 	class GDCIFKHNOFI
 	{
 	public:

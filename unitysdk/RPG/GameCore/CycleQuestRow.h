@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CycleQuestRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CycleQuestRow_TypeDefinitionIndex = 14574;
+
 	class CycleQuestRow : public ::System::Object
 	{
 	public:

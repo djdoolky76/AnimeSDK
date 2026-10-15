@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 #define OOAFFEKMMDL_MLLMAFCHNGD_OFFSET UNITYSDK_OFFSET(0xBF61FC0)
 #define OOAFFEKMMDL_PIGJDJADHAB_OFFSET UNITYSDK_OFFSET(0xBF62060)
 
+inline static constexpr unsigned int OOAFFEKMMDL_TypeDefinitionIndex = 60767;
+
 	class OOAFFEKMMDL : public ::System::Object
 	{
 	public:

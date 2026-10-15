@@ -13,6 +13,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ScaleCharacterNodeTrack_TypeDefinitionIndex = 48269;
+
 	class ScaleCharacterNodeTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:

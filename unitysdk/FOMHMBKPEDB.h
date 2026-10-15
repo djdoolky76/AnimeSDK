@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FOMHMBKPEDB_LEDBDGOAMMN_OFFSET UNITYSDK_OFFSET(0x158FBCB0)
 #define FOMHMBKPEDB_NNDEDMOIBBH_OFFSET UNITYSDK_OFFSET(0x158FBED0)
 
+inline static constexpr unsigned int FOMHMBKPEDB_TypeDefinitionIndex = 59041;
+
 	class FOMHMBKPEDB : public ::System::Object
 	{
 	public:

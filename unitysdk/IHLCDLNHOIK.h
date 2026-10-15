@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IHLCDLNHOIK_CTOR_OFFSET UNITYSDK_OFFSET(0x16425220)
 #define IHLCDLNHOIK_EXECUTE_OFFSET UNITYSDK_OFFSET(0x16424F70)
 
+inline static constexpr unsigned int IHLCDLNHOIK_TypeDefinitionIndex = 77343;
+
 	class IHLCDLNHOIK : public ::System::Object
 	{
 	public:

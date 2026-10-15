@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PolymerPropertyLinkBase_TypeDefinitionIndex = 70302;
+
 	class PolymerPropertyLinkBase : public ::System::Object
 	{
 	public:

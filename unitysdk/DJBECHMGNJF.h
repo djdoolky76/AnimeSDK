@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define DJBECHMGNJF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2AAD0)
 
+inline static constexpr unsigned int DJBECHMGNJF_TypeDefinitionIndex = 42540;
+
 	class DJBECHMGNJF : public ::System::Object
 	{
 	public:

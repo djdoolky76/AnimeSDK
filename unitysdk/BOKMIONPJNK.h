@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define BOKMIONPJNK_GCKKHEIOFOG_1_OFFSET UNITYSDK_OFFSET(0x1DCF6FB0)
 #define BOKMIONPJNK_GCKKHEIOFOG_OFFSET UNITYSDK_OFFSET(0x1DCF6530)
 
+inline static constexpr unsigned int BOKMIONPJNK_TypeDefinitionIndex = 9942;
+
 	class BOKMIONPJNK : public ::System::Object
 	{
 	public:

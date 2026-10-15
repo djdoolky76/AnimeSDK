@@ -6,6 +6,8 @@
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int OnDeserializedAttribute_TypeDefinitionIndex = 1124;
+
 	class OnDeserializedAttribute : public ::System::Attribute
 	{
 	public:

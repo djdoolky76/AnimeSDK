@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntityManagerExtension___c__DisplayClass36_0_TypeDefinitionIndex = 57781;
+
 	class EntityManagerExtension___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:

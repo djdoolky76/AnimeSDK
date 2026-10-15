@@ -44,6 +44,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define MKAEECGEMME_OCDAEECDMCF_OFFSET UNITYSDK_OFFSET(0xB97EE90)
 #define MKAEECGEMME_PAHHKGIJONL_OFFSET UNITYSDK_OFFSET(0xB97EB80)
 
+inline static constexpr unsigned int MKAEECGEMME_TypeDefinitionIndex = 78087;
+
 	class MKAEECGEMME : public ::System::Object
 	{
 	public:

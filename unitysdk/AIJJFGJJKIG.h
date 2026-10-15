@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 #define AIJJFGJJKIG_NFGONCCEFJJ_OFFSET UNITYSDK_OFFSET(0xEBADDA0)
 #define AIJJFGJJKIG_OEHPIOOIJDN_OFFSET UNITYSDK_OFFSET(0xEBAE370)
 
+inline static constexpr unsigned int AIJJFGJJKIG_TypeDefinitionIndex = 71529;
+
 	class AIJJFGJJKIG : public ::FMPCODLIOLG
 	{
 	public:

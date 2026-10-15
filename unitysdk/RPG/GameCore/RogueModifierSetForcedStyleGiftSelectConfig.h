@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierSetForcedStyleGiftSelectConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierSetForcedStyleGiftSelectConfig_TypeDefinitionIndex = 17856;
+
 	class RogueModifierSetForcedStyleGiftSelectConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

@@ -5,6 +5,8 @@ class OOCCBMLAELL;
 
 #define NOIJCJDEABA_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF08E0)
 
+inline static constexpr unsigned int NOIJCJDEABA_TypeDefinitionIndex = 80595;
+
 	class NOIJCJDEABA : public ::System::Object
 	{
 	public:

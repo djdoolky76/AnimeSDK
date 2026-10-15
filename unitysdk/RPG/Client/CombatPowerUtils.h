@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CombatPowerUtils_TypeDefinitionIndex = 62488;
+
 	class CombatPowerUtils : public ::System::Object
 	{
 	public:

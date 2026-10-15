@@ -14,6 +14,8 @@ namespace System { class Action; }
 #define PILHBCFGLIA_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xC26E470)
 #define PILHBCFGLIA_OBFHNAPFEIN_OFFSET UNITYSDK_OFFSET(0xC26E740)
 
+inline static constexpr unsigned int PILHBCFGLIA_TypeDefinitionIndex = 61044;
+
 	class PILHBCFGLIA : public ::System::Object
 	{
 	public:

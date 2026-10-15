@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RoguePropOpenPage_TypeDefinitionIndex = 22289;
+
 	class RoguePropOpenPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

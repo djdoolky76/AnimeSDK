@@ -29,6 +29,8 @@ namespace System { class String; }
 #define ONAEGKCMPNN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEC1500)
 #define ONAEGKCMPNN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEC1560)
 
+inline static constexpr unsigned int ONAEGKCMPNN_TypeDefinitionIndex = 30661;
+
 	class ONAEGKCMPNN : public ::System::Object
 	{
 	public:

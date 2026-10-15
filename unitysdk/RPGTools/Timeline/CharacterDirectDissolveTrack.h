@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterDirectDissolveTrack_TypeDefinitionIndex = 47950;
+
 	class CharacterDirectDissolveTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

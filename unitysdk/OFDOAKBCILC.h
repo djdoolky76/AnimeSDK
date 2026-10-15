@@ -4,6 +4,8 @@
 
 #define OFDOAKBCILC_CTOR_OFFSET UNITYSDK_OFFSET(0xBE3DC00)
 
+inline static constexpr unsigned int OFDOAKBCILC_TypeDefinitionIndex = 61137;
+
 	class OFDOAKBCILC : public ::System::Exception
 	{
 	public:

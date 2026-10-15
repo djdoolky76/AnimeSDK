@@ -21,6 +21,8 @@ namespace System { class String; }
 #define BFBICOAJGBJ_SET_ISEXTERNALSOURCEVO_OFFSET UNITYSDK_OFFSET(0xB15E090)
 #define BFBICOAJGBJ_SET_USEEXTERNALSOURCE_OFFSET UNITYSDK_OFFSET(0xB15E030)
 
+inline static constexpr unsigned int BFBICOAJGBJ_TypeDefinitionIndex = 48837;
+
 	class BFBICOAJGBJ : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ComponentAssetLoader_ComponentLoadAssetInfo_TypeDefinitionIndex = 68390;
+
 	struct alignas(8) ComponentAssetLoader_ComponentLoadAssetInfo
 	{
 		::Il2CppArray<::System::String*>* ParamArray; // 0x10

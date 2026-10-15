@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ToggleButton_ToggleEvent_TypeDefinitionIndex = 72690;
+
 	class ToggleButton_ToggleEvent
 	{
 	public:

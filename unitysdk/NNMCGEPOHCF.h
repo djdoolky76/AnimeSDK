@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NNMCGEPOHCF_OCCDOODODEE_OFFSET UNITYSDK_OFFSET(0xBCCBAC0)
 #define NNMCGEPOHCF__COMPAREIMPL_OFFSET UNITYSDK_OFFSET(0xBCCBB80)
 
+inline static constexpr unsigned int NNMCGEPOHCF_TypeDefinitionIndex = 62813;
+
 	class NNMCGEPOHCF : public ::RPG::Client::AvatarComparerBase
 	{
 	public:

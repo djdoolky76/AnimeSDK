@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LevelGroupEditorDefaultConfigCollection; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelGroupEditorDefaultConfigCollection_TypeDefinitionIndex = 17415;
+
 	class LevelGroupEditorDefaultConfigCollection : public ::RPG::GameCore::JsonConfig
 	{
 	public:

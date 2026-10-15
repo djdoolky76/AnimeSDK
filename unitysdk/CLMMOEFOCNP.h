@@ -11,6 +11,8 @@ namespace System { class String; }
 #define CLMMOEFOCNP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC24FF0)
 #define CLMMOEFOCNP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC24FA0)
 
+inline static constexpr unsigned int CLMMOEFOCNP_TypeDefinitionIndex = 23339;
+
 	class CLMMOEFOCNP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

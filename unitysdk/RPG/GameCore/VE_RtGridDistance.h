@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VE_RtGridDistance_TypeDefinitionIndex = 24260;
+
 	class VE_RtGridDistance : public ::RPG::GameCore::ValueEvaluatorConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveDungeonFriendSoltData; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveDungeonData___c__DisplayClass4_0_TypeDefinitionIndex = 75202;
+
 	class IdleLiveDungeonData___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

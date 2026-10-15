@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::UI::UIStateCtrl
 {
+	inline static constexpr unsigned int LoadSpriteToImageAction_TypeDefinitionIndex = 74048;
+
 	class LoadSpriteToImageAction : public ::RPG::Client::UI::UIStateCtrl::InstantAction
 	{
 	public:

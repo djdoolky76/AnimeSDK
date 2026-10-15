@@ -4,6 +4,8 @@
 
 #define POFDBJOCKLG_CINNBBLIBHP_COMPARETO_OFFSET UNITYSDK_OFFSET(0xDF530)
 
+inline static constexpr unsigned int POFDBJOCKLG_CINNBBLIBHP_TypeDefinitionIndex = 55293;
+
 	struct alignas(4) POFDBJOCKLG_CINNBBLIBHP
 	{
 		::RPG::Client::QingQueEnergyBarIconType MJPKBIGCFOM; // 0x10

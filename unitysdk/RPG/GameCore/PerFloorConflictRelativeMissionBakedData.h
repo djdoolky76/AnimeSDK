@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PerFloorConflictRelativeMissionBakedData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerFloorConflictRelativeMissionBakedData_TypeDefinitionIndex = 17156;
+
 	class PerFloorConflictRelativeMissionBakedData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetDanmuTrackAction_TypeDefinitionIndex = 18705;
+
 	class FiveDimSetDanmuTrackAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

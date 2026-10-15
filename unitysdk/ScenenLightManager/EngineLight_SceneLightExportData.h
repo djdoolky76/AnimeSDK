@@ -9,6 +9,8 @@ namespace ScenenLightManager { class EngineLight_ExportData; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int EngineLight_SceneLightExportData_TypeDefinitionIndex = 49056;
+
 	class EngineLight_SceneLightExportData : public ::ScenenLightManager::BaseSceneLightExportData
 	{
 	public:

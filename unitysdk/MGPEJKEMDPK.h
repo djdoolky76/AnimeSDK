@@ -23,6 +23,8 @@ namespace System { class String; }
 #define MGPEJKEMDPK_NENLPBDFKJA_OFFSET UNITYSDK_OFFSET(0x1C74CC90)
 #define MGPEJKEMDPK_PCHAMOCLBBD_OFFSET UNITYSDK_OFFSET(0x1C74CE60)
 
+inline static constexpr unsigned int MGPEJKEMDPK_TypeDefinitionIndex = 36972;
+
 	class MGPEJKEMDPK : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WorldShiftingReason_TypeDefinitionIndex = 60950;
+
 	enum class WorldShiftingReason : ::System::Int32
 	{
 		MapRotationReset = 0,

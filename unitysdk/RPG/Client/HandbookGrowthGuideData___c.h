@@ -10,6 +10,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HandbookGrowthGuideData___c_TypeDefinitionIndex = 65618;
+
 	class HandbookGrowthGuideData___c : public ::System::Object
 	{
 	public:

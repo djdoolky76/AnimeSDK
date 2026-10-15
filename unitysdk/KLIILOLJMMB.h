@@ -4,6 +4,8 @@
 
 #define KLIILOLJMMB_CTOR_OFFSET UNITYSDK_OFFSET(0xB52ADA0)
 
+inline static constexpr unsigned int KLIILOLJMMB_TypeDefinitionIndex = 57027;
+
 	class KLIILOLJMMB : public ::PAJHIBDCGDG
 	{
 	public:

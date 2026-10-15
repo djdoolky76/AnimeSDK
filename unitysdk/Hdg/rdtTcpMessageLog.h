@@ -12,6 +12,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int rdtTcpMessageLog_TypeDefinitionIndex = 46986;
+
 	struct alignas(8) rdtTcpMessageLog
 	{
 		::System::String* m_message; // 0x10

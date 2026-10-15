@@ -6,6 +6,8 @@
 
 namespace RPG::Client::OpenWorld
 {
+	inline static constexpr unsigned int MonoStagePrefabInfoOverride_TypeDefinitionIndex = 73744;
+
 	class MonoStagePrefabInfoOverride : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AdventurePhaseInitParams_TypeDefinitionIndex = 60131;
+
 	class AdventurePhaseInitParams : public ::System::Object
 	{
 	public:

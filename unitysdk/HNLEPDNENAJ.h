@@ -21,6 +21,8 @@ namespace UnityEngine { class Renderer; }
 #define HNLEPDNENAJ_OONEJNFHIBB_OFFSET UNITYSDK_OFFSET(0x15D9FB80)
 #define HNLEPDNENAJ_PJLOJLFPFFC_OFFSET UNITYSDK_OFFSET(0x15D9F280)
 
+inline static constexpr unsigned int HNLEPDNENAJ_TypeDefinitionIndex = 70216;
+
 	class HNLEPDNENAJ : public ::IDEFMHBFDKL
 	{
 	public:

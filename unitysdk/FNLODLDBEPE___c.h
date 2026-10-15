@@ -38,6 +38,8 @@ namespace System { class Type; }
 #define FNLODLDBEPE___C__SERIALIZEINIT_B__38_8_OFFSET UNITYSDK_OFFSET(0x15884C00)
 #define FNLODLDBEPE___C__SERIALIZEINIT_B__38_9_OFFSET UNITYSDK_OFFSET(0x15884C90)
 
+inline static constexpr unsigned int FNLODLDBEPE___c_TypeDefinitionIndex = 67917;
+
 	class FNLODLDBEPE___c : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define AJJOBOBLIEF_CTOR_OFFSET UNITYSDK_OFFSET(0x12CC1AD0)
 
+inline static constexpr unsigned int AJJOBOBLIEF_TypeDefinitionIndex = 74742;
+
 	class AJJOBOBLIEF : public ::System::Object
 	{
 	public:

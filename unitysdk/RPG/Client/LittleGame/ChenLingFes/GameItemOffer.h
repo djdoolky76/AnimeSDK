@@ -54,6 +54,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame::ChenLingFes
 {
+	inline static constexpr unsigned int GameItemOffer_TypeDefinitionIndex = 77742;
+
 	class GameItemOffer : public ::Sofa::Core::ObservableObject
 	{
 	public:

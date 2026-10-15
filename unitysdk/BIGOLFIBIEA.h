@@ -14,6 +14,8 @@ namespace RPG::GameCore { class LittleGameAbilityValueGetterCalculateConfig; }
 #define BIGOLFIBIEA_LCCPPENAFPJ_OFFSET UNITYSDK_OFFSET(0xB4A83E0)
 #define BIGOLFIBIEA_NNNBMNFGKFD_OFFSET UNITYSDK_OFFSET(0xB4A84A0)
 
+inline static constexpr unsigned int BIGOLFIBIEA_TypeDefinitionIndex = 77401;
+
 	class BIGOLFIBIEA : public ::System::Object
 	{
 	public:

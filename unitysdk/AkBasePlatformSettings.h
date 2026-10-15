@@ -19,6 +19,8 @@ namespace System { class String; }
 #define AKBASEPLATFORMSETTINGS_GET_USEASYNCOPEN_OFFSET UNITYSDK_OFFSET(0x1F57D710)
 #define AKBASEPLATFORMSETTINGS_SETNUMREFILLSINVOICE_OFFSET UNITYSDK_OFFSET(0x1F57D720)
 
+inline static constexpr unsigned int AkBasePlatformSettings_TypeDefinitionIndex = 44831;
+
 	class AkBasePlatformSettings : public ::UnityEngine::ScriptableObject
 	{
 	public:

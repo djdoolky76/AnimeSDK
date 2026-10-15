@@ -17,6 +17,8 @@ namespace UnityEngine::UI { class Graphic; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DisableUIPostProcessBehaviour_TypeDefinitionIndex = 72761;
+
 	class DisableUIPostProcessBehaviour : public ::UnityEngine::MonoBehaviour
 	{
 	public:

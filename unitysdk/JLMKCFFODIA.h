@@ -11,6 +11,8 @@ namespace System { class String; }
 #define JLMKCFFODIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D047860)
 #define JLMKCFFODIA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D047470)
 
+inline static constexpr unsigned int JLMKCFFODIA_TypeDefinitionIndex = 13961;
+
 	class JLMKCFFODIA : public ::System::Object
 	{
 	public:

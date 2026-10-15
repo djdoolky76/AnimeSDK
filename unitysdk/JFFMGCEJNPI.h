@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define JFFMGCEJNPI_GET_LEVELINDEX_OFFSET UNITYSDK_OFFSET(0x1664C2A0)
 #define JFFMGCEJNPI_GET_ROUTECONTEXTS_OFFSET UNITYSDK_OFFSET(0x1664C2C0)
 
+inline static constexpr unsigned int JFFMGCEJNPI_TypeDefinitionIndex = 63876;
+
 	class JFFMGCEJNPI : public ::System::Object
 	{
 	public:

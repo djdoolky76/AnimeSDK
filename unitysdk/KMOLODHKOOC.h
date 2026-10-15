@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KMOLODHKOOC_PHHEHKGCBBD_OFFSET UNITYSDK_OFFSET(0xB56E010)
 #define KMOLODHKOOC_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB56C420)
 
+inline static constexpr unsigned int KMOLODHKOOC_TypeDefinitionIndex = 75944;
+
 	class KMOLODHKOOC : public ::System::Object
 	{
 	public:

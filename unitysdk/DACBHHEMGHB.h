@@ -5,6 +5,8 @@
 
 #define DACBHHEMGHB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA13E00)
 
+inline static constexpr unsigned int DACBHHEMGHB_TypeDefinitionIndex = 42218;
+
 	class DACBHHEMGHB : public ::System::Object
 	{
 	public:

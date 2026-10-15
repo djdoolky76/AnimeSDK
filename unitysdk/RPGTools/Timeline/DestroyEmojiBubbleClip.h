@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int DestroyEmojiBubbleClip_TypeDefinitionIndex = 48094;
+
 	class DestroyEmojiBubbleClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

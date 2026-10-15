@@ -13,6 +13,8 @@ class AkSpatialAudioListener_SpatialAudioListenerList;
 #define AKSPATIALAUDIOLISTENER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1F609630)
 #define AKSPATIALAUDIOLISTENER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1F6094A0)
 
+inline static constexpr unsigned int AkSpatialAudioListener_TypeDefinitionIndex = 44953;
+
 	class AkSpatialAudioListener : public ::UnityEngine::MonoBehaviour
 	{
 	public:

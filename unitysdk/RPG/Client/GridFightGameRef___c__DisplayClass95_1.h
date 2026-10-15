@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass95_1_TypeDefinitionIndex = 64719;
+
 	template <typename T>
 	class GridFightGameRef___c__DisplayClass95_1 : public ::System::Object
 	{

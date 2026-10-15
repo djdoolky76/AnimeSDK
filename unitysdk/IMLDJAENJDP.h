@@ -21,6 +21,8 @@ namespace System::Reflection { class MethodInfo; }
 #define IMLDJAENJDP_MODAIPIEFEP_OFFSET UNITYSDK_OFFSET(0x164DDF30)
 #define IMLDJAENJDP_NKFPOCLGINE_OFFSET UNITYSDK_OFFSET(0x164DE7C0)
 
+inline static constexpr unsigned int IMLDJAENJDP_TypeDefinitionIndex = 54786;
+
 	class IMLDJAENJDP : public ::System::Object
 	{
 	public:

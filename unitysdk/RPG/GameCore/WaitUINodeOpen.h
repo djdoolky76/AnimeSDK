@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitUINodeOpen_TypeDefinitionIndex = 24354;
+
 	class WaitUINodeOpen : public ::RPG::GameCore::TaskConfig
 	{
 	public:

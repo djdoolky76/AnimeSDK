@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudCardAreaViewModel___c__DisplayClass27_0_TypeDefinitionIndex = 80893;
+
 	class FateRinBattleHudCardAreaViewModel___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:

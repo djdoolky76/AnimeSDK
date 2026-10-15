@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int JLPEICPFLMC_NNLJFBFHLCO_TypeDefinitionIndex = 27033;
+
 	enum class JLPEICPFLMC_NNLJFBFHLCO : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

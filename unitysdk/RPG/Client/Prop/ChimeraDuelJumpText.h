@@ -7,6 +7,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelJumpText_TypeDefinitionIndex = 78273;
+
 	class ChimeraDuelJumpText : public ::System::Object
 	{
 	public:

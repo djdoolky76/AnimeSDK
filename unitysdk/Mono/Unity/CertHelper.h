@@ -11,6 +11,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Certifica
 
 namespace Mono::Unity
 {
+	inline static constexpr unsigned int CertHelper_TypeDefinitionIndex = 2347;
+
 	class CertHelper : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AGIFDHGNHIP_GET_TASKCONTEXT_OFFSET UNITYSDK_OFFSET(0xCF330B0)
 #define AGIFDHGNHIP_SET_TASKCONTEXT_OFFSET UNITYSDK_OFFSET(0xCF330C0)
 
+inline static constexpr unsigned int AGIFDHGNHIP_TypeDefinitionIndex = 77710;
+
 	class AGIFDHGNHIP : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System::Net { class WebHeaderCollection; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int FtpWebResponse_TypeDefinitionIndex = 2845;
+
 	class FtpWebResponse : public ::System::Net::WebResponse
 	{
 	public:

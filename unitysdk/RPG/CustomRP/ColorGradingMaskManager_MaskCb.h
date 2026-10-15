@@ -14,6 +14,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ColorGradingMaskManager_MaskCb_TypeDefinitionIndex = 37768;
+
 	class ColorGradingMaskManager_MaskCb : public ::System::Object
 	{
 	public:

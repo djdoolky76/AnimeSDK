@@ -27,6 +27,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChenLingPrivilege_TypeDefinitionIndex = 61444;
+
 	class ChenLingPrivilege : public ::System::Object
 	{
 	public:

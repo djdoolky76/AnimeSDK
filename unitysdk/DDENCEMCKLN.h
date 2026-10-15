@@ -85,6 +85,8 @@ namespace System { class String; }
 #define DDENCEMCKLN_SET_ISREADABLE_OFFSET UNITYSDK_OFFSET(0x1EBFFA90)
 #define DDENCEMCKLN_SET_ISWRITEABLE_OFFSET UNITYSDK_OFFSET(0x1EBFFAB0)
 
+inline static constexpr unsigned int DDENCEMCKLN_TypeDefinitionIndex = 35194;
+
 	class DDENCEMCKLN : public ::System::Object
 	{
 	public:

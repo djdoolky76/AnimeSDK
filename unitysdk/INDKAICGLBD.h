@@ -17,6 +17,8 @@ namespace System { class String; }
 #define INDKAICGLBD_KHAJJDAFMPE_OFFSET UNITYSDK_OFFSET(0x164E8740)
 #define INDKAICGLBD_LADPPAFHFCP_OFFSET UNITYSDK_OFFSET(0x164E7FD0)
 
+inline static constexpr unsigned int INDKAICGLBD_TypeDefinitionIndex = 73159;
+
 	class INDKAICGLBD : public ::System::Object
 	{
 	public:

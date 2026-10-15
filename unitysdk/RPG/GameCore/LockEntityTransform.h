@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LockEntityTransform_TypeDefinitionIndex = 23757;
+
 	class LockEntityTransform : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BySkipNextTeleportEffect_TypeDefinitionIndex = 20586;
+
 	class BySkipNextTeleportEffect : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -15,6 +15,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GPUTransformLoopAnim___c_TypeDefinitionIndex = 70323;
+
 	class GPUTransformLoopAnim___c : public ::System::Object
 	{
 	public:

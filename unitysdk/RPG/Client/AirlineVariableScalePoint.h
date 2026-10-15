@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AirlineVariableScalePoint_TypeDefinitionIndex = 59771;
+
 	class AirlineVariableScalePoint : public ::System::Object
 	{
 	public:

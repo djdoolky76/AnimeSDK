@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetCustomLocationConfig_TypeDefinitionIndex = 22491;
+
 	class SetCustomLocationConfig : public ::RPG::GameCore::TaskConfig
 	{
 	public:

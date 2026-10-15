@@ -5,6 +5,8 @@ namespace System { class String; }
 #define ICHCKGNHKPF_CTOR_OFFSET UNITYSDK_OFFSET(0x111F0)
 #define ICHCKGNHKPF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2E7FAF0)
 
+inline static constexpr unsigned int ICHCKGNHKPF_TypeDefinitionIndex = 67196;
+
 	struct alignas(4) ICHCKGNHKPF
 	{
 		::System::UInt32 EFAIIOHKFGD; // 0x10

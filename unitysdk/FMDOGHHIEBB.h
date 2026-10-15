@@ -31,6 +31,8 @@ namespace System { class Object; }
 #define FMDOGHHIEBB_PKEHDBLBPOH_OFFSET UNITYSDK_OFFSET(0x158527D0)
 #define FMDOGHHIEBB_TICK_OFFSET UNITYSDK_OFFSET(0x158519D0)
 
+inline static constexpr unsigned int FMDOGHHIEBB_TypeDefinitionIndex = 58642;
+
 	class FMDOGHHIEBB : public ::GELIALJDFBL
 	{
 	public:

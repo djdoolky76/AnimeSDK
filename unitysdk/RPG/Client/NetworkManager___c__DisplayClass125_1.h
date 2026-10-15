@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NetworkManager___c__DisplayClass125_1_TypeDefinitionIndex = 69374;
+
 	template <typename T>
 	class NetworkManager___c__DisplayClass125_1 : public ::System::Object
 	{

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtBattleTriggerCharacterCamera_TypeDefinitionIndex = 24096;
+
 	class RtBattleTriggerCharacterCamera : public ::RPG::GameCore::TaskConfig
 	{
 	public:

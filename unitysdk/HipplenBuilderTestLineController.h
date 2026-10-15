@@ -16,6 +16,8 @@ namespace UnityEngine::UI { class Text; }
 #define HIPPLENBUILDERTESTLINECONTROLLER_ONPIN_OFFSET UNITYSDK_OFFSET(0x15DF2D90)
 #define HIPPLENBUILDERTESTLINECONTROLLER_REFRESH_OFFSET UNITYSDK_OFFSET(0x15DF34E0)
 
+inline static constexpr unsigned int HipplenBuilderTestLineController_TypeDefinitionIndex = 47212;
+
 	class HipplenBuilderTestLineController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

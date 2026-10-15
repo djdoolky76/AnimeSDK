@@ -30,6 +30,8 @@ namespace System { class String; }
 #define DPIFGEONFPI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E210E00)
 #define DPIFGEONFPI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E210E60)
 
+inline static constexpr unsigned int DPIFGEONFPI_TypeDefinitionIndex = 25226;
+
 	class DPIFGEONFPI : public ::System::Object
 	{
 	public:

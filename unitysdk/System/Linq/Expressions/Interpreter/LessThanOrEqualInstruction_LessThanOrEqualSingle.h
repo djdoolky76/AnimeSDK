@@ -9,6 +9,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int LessThanOrEqualInstruction_LessThanOrEqualSingle_TypeDefinitionIndex = 3475;
+
 	class LessThanOrEqualInstruction_LessThanOrEqualSingle : public ::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction
 	{
 	public:

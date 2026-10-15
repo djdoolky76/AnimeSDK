@@ -10,6 +10,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int FogVolumeVisualizer_TypeDefinitionIndex = 37734;
+
 	class FogVolumeVisualizer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

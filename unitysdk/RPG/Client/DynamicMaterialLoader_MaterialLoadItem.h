@@ -11,6 +11,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DynamicMaterialLoader_MaterialLoadItem_TypeDefinitionIndex = 68409;
+
 	class DynamicMaterialLoader_MaterialLoadItem : public ::System::Object
 	{
 	public:

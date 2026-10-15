@@ -16,6 +16,8 @@ namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyCon
 #define EJCBEHLHKLC_SET_DELTA_OFFSET UNITYSDK_OFFSET(0x154D7A30)
 #define EJCBEHLHKLC_SET_RATIO_OFFSET UNITYSDK_OFFSET(0x154D7A10)
 
+inline static constexpr unsigned int EJCBEHLHKLC_TypeDefinitionIndex = 62710;
+
 	class EJCBEHLHKLC : public ::System::Object
 	{
 	public:

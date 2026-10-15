@@ -5,6 +5,8 @@
 
 #define FDRISTATEOPERATION_CTOR_OFFSET UNITYSDK_OFFSET(0x156E44E0)
 
+inline static constexpr unsigned int FDRIStateOperation_TypeDefinitionIndex = 47112;
+
 	class FDRIStateOperation : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 #define APMFKFNCCHH___C__DISPLAYCLASS47_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15BBB0A0)
 #define APMFKFNCCHH___C__DISPLAYCLASS47_0___ONTEXTLOADED_B__0_OFFSET UNITYSDK_OFFSET(0x15BBF150)
 
+inline static constexpr unsigned int APMFKFNCCHH___c__DisplayClass47_0_TypeDefinitionIndex = 73777;
+
 	class APMFKFNCCHH___c__DisplayClass47_0 : public ::System::Object
 	{
 	public:

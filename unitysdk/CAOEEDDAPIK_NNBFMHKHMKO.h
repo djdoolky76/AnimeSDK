@@ -9,6 +9,8 @@ class MADHNHEMBOJ;
 
 #define CAOEEDDAPIK_NNBFMHKHMKO_CTOR_OFFSET UNITYSDK_OFFSET(0xC483F80)
 
+inline static constexpr unsigned int CAOEEDDAPIK_NNBFMHKHMKO_TypeDefinitionIndex = 71246;
+
 	class CAOEEDDAPIK_NNBFMHKHMKO : public ::System::Object
 	{
 	public:

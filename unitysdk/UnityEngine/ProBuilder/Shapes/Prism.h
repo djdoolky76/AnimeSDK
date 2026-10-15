@@ -13,6 +13,8 @@ namespace UnityEngine::ProBuilder::Shapes { class Shape; }
 
 namespace UnityEngine::ProBuilder::Shapes
 {
+	inline static constexpr unsigned int Prism_TypeDefinitionIndex = 44465;
+
 	class Prism : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
 	public:

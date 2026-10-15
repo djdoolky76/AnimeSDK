@@ -31,6 +31,8 @@ namespace UnityEngine { class Shader; }
 #define DOFHJFBBGML_ONLNPAEDPLC_OFFSET UNITYSDK_OFFSET(0x11FE3440)
 #define DOFHJFBBGML_PINIJBNDPAA_OFFSET UNITYSDK_OFFSET(0x11FE33D0)
 
+inline static constexpr unsigned int DOFHJFBBGML_TypeDefinitionIndex = 47423;
+
 	class DOFHJFBBGML : public ::System::Object
 	{
 	public:

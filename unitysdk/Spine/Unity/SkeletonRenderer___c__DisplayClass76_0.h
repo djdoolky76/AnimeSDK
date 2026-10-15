@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonRenderer___c__DisplayClass76_0_TypeDefinitionIndex = 45049;
+
 	class SkeletonRenderer___c__DisplayClass76_0 : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ class KGNMOPCCKCB;
 
 #define HLGIDLIGKMB_GOKNKIJGKIA_OFFSET UNITYSDK_OFFSET(0x15D5F5E0)
 
+inline static constexpr unsigned int HLGIDLIGKMB_TypeDefinitionIndex = 79294;
+
 	class HLGIDLIGKMB : public ::System::Object
 	{
 	public:

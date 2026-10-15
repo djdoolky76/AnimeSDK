@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int WeGameManager___c__DisplayClass22_0_TypeDefinitionIndex = 9485;
+
 	class WeGameManager___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:

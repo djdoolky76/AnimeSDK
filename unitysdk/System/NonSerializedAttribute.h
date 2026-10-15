@@ -6,6 +6,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int NonSerializedAttribute_TypeDefinitionIndex = 303;
+
 	class NonSerializedAttribute : public ::System::Attribute
 	{
 	public:

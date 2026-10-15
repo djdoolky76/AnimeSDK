@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CondParamListInclusionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CondParamListInclusionConfig_TypeDefinitionIndex = 17077;
+
 	class CondParamListInclusionConfig : public ::RPG::GameCore::MiConditionConfigBase
 	{
 	public:

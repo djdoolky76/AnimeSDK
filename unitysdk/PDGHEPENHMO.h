@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PDGHEPENHMO_FCDHAOFHHPA_OFFSET UNITYSDK_OFFSET(0xC011150)
 #define PDGHEPENHMO_HHGCODLKHCN_OFFSET UNITYSDK_OFFSET(0xC012020)
 
+inline static constexpr unsigned int PDGHEPENHMO_TypeDefinitionIndex = 76924;
+
 	class PDGHEPENHMO : public ::DJJKNHPLHDI
 	{
 	public:

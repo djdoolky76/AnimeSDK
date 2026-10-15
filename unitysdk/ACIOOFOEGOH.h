@@ -4,6 +4,8 @@
 
 #define ACIOOFOEGOH_CTOR_OFFSET UNITYSDK_OFFSET(0xB123410)
 
+inline static constexpr unsigned int ACIOOFOEGOH_TypeDefinitionIndex = 72208;
+
 	class ACIOOFOEGOH : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 #define IFMJNIDOJFD_CTOR_OFFSET UNITYSDK_OFFSET(0x15F24A70)
 #define IFMJNIDOJFD_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0x15F24A60)
 
+inline static constexpr unsigned int IFMJNIDOJFD_TypeDefinitionIndex = 77004;
+
 	class IFMJNIDOJFD : public ::KIEMPKOFMLG
 	{
 	public:

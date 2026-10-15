@@ -14,6 +14,8 @@ namespace UnityEngine { class Collider; }
 #define ILJKOLGJHMC_PGKPGNJJMMB_OFFSET UNITYSDK_OFFSET(0x164C10E0)
 #define ILJKOLGJHMC_SET_FIRSTFRAMEOCCLUSION_OFFSET UNITYSDK_OFFSET(0x164C18B0)
 
+inline static constexpr unsigned int ILJKOLGJHMC_TypeDefinitionIndex = 54746;
+
 	class ILJKOLGJHMC : public ::GGJEMEHMBNL
 	{
 	public:

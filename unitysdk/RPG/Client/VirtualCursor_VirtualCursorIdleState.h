@@ -10,6 +10,8 @@ namespace RPG::Client { class VirtualCursor; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VirtualCursor_VirtualCursorIdleState_TypeDefinitionIndex = 73234;
+
 	class VirtualCursor_VirtualCursorIdleState : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@
 #define FCOEMCEDLNL_NOOKHODLNNM_OFFSET UNITYSDK_OFFSET(0x1DD3CAD0)
 #define FCOEMCEDLNL_PAFCMAMJENB_OFFSET UNITYSDK_OFFSET(0x1DD3CD40)
 
+inline static constexpr unsigned int FCOEMCEDLNL_TypeDefinitionIndex = 6336;
+
 	class FCOEMCEDLNL : public ::System::Object
 	{
 	public:

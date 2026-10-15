@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int OneofDescriptor_TypeDefinitionIndex = 35844;
+
 	class OneofDescriptor : public ::MiHoYo::SDK::Protobuf::Reflection::DescriptorBase
 	{
 	public:

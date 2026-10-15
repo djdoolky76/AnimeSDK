@@ -6,6 +6,8 @@
 
 namespace CriWare::CriMana::Detail
 {
+	inline static constexpr unsigned int RendererResourceFactoryPriorityAttribute_TypeDefinitionIndex = 40235;
+
 	class RendererResourceFactoryPriorityAttribute : public ::System::Attribute
 	{
 	public:

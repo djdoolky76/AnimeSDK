@@ -31,6 +31,8 @@ namespace System { class String; }
 #define IDJALKEGPLI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E62CEE0)
 #define IDJALKEGPLI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E62CF40)
 
+inline static constexpr unsigned int IDJALKEGPLI_TypeDefinitionIndex = 31615;
+
 	class IDJALKEGPLI : public ::System::Object
 	{
 	public:

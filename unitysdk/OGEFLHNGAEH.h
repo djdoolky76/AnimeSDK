@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define OGEFLHNGAEH_CTOR_OFFSET UNITYSDK_OFFSET(0xBE56F80)
 #define OGEFLHNGAEH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBE57000)
 
+inline static constexpr unsigned int OGEFLHNGAEH_TypeDefinitionIndex = 55786;
+
 	class OGEFLHNGAEH
 	{
 	public:

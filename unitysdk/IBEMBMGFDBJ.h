@@ -38,6 +38,8 @@ namespace System { class String; }
 #define IBEMBMGFDBJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6129B0)
 #define IBEMBMGFDBJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E612A10)
 
+inline static constexpr unsigned int IBEMBMGFDBJ_TypeDefinitionIndex = 29714;
+
 	class IBEMBMGFDBJ : public ::System::Object
 	{
 	public:

@@ -38,6 +38,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveTechTreeInfo_TypeDefinitionIndex = 75404;
+
 	class IdleLiveTechTreeInfo : public ::Sofa::Core::ObservableObject
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GCIPPFFMEDI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E43F0B0)
 #define GCIPPFFMEDI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E43F0C0)
 
+inline static constexpr unsigned int GCIPPFFMEDI___c_TypeDefinitionIndex = 31576;
+
 	class GCIPPFFMEDI___c : public ::System::Object
 	{
 	public:

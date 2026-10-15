@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int LipLineFixScaleTimelineBehaviour_TypeDefinitionIndex = 48581;
+
 	class LipLineFixScaleTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

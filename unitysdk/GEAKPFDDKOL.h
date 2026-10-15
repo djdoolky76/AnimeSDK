@@ -5,6 +5,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GEAKPFDDKOL_CTOR_OFFSET UNITYSDK_OFFSET(0x2E7A440)
 #define GEAKPFDDKOL_NCFPHCFJGNN_OFFSET UNITYSDK_OFFSET(0x2E7A470)
 
+inline static constexpr unsigned int GEAKPFDDKOL_TypeDefinitionIndex = 56183;
+
 	struct alignas(8) GEAKPFDDKOL
 	{
 		::RPG::GameCore::TaskContext* OBKLPOKMIEA; // 0x10

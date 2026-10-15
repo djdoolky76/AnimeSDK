@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetTrackPhotoStandardSpeed; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetTrackPhotoStandardSpeed_TypeDefinitionIndex = 21647;
+
 	class SetTrackPhotoStandardSpeed : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AADOCJDBAGC_LNIFCPFDBLA_OFFSET UNITYSDK_OFFSET(0xB0C2C00)
 #define AADOCJDBAGC_MOIGBOKABGH_OFFSET UNITYSDK_OFFSET(0xB0C2E30)
 
+inline static constexpr unsigned int AADOCJDBAGC_TypeDefinitionIndex = 77601;
+
 	class AADOCJDBAGC : public ::System::Object
 	{
 	public:

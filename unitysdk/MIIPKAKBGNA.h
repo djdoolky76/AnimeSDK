@@ -5,6 +5,8 @@
 #define MIIPKAKBGNA_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xB95A2C0)
 #define MIIPKAKBGNA_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xB95A2D0)
 
+inline static constexpr unsigned int MIIPKAKBGNA_TypeDefinitionIndex = 74019;
+
 	class MIIPKAKBGNA
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int NHGAOAKEMDK_TypeDefinitionIndex = 34696;
+
 	enum class NHGAOAKEMDK : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

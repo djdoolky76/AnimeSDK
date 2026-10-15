@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Application_LowMemoryCallback_TypeDefinitionIndex = 4029;
+
 	class Application_LowMemoryCallback : public ::System::MulticastDelegate
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimPropSpawnerItem_TypeDefinitionIndex = 18590;
+
 	class FiveDimPropSpawnerItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ArtNPCPedestrianEntityConfig_EntityInfo_TypeDefinitionIndex = 69235;
+
 	class ArtNPCPedestrianEntityConfig_EntityInfo : public ::System::Object
 	{
 	public:

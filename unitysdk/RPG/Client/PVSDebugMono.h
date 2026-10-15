@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PVSDebugMono_TypeDefinitionIndex = 68897;
+
 	class PVSDebugMono : public ::UnityEngine::MonoBehaviour
 	{
 	public:

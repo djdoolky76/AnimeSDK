@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int BinaryPrefabAsset_TypeDefinitionIndex = 5763;
+
 	class BinaryPrefabAsset : public ::UnityEngine::Object
 	{
 	public:

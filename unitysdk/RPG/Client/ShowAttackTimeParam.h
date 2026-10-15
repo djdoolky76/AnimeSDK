@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ShowAttackTimeParam_TypeDefinitionIndex = 73287;
+
 	class ShowAttackTimeParam : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int RawImage_TypeDefinitionIndex = 6806;
+
 	class RawImage : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:

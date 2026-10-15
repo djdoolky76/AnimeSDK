@@ -10,6 +10,8 @@ namespace System { class String; }
 #define LPIKBFBBDIK_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB820350)
 #define LPIKBFBBDIK_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xB81FE10)
 
+inline static constexpr unsigned int LPIKBFBBDIK_TypeDefinitionIndex = 78243;
+
 	class LPIKBFBBDIK : public ::KNFCEJEJINK
 	{
 	public:

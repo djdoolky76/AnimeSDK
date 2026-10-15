@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TriggerDrinkMakerBartend; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerDrinkMakerBartend_TypeDefinitionIndex = 21712;
+
 	class TriggerDrinkMakerBartend : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define HIMPJFMPEPA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E59DC00)
 #define HIMPJFMPEPA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E59DC60)
 
+inline static constexpr unsigned int HIMPJFMPEPA_TypeDefinitionIndex = 25909;
+
 	class HIMPJFMPEPA : public ::System::Object
 	{
 	public:

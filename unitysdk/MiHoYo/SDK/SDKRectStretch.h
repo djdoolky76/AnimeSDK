@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKRectStretch_TypeDefinitionIndex = 8006;
+
 	enum class SDKRectStretch : ::System::Int32
 	{
 		HorizontalTop = 0,

@@ -63,6 +63,8 @@ namespace System { class String; }
 #define GAECNILJCEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E418C80)
 #define GAECNILJCEC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E418CE0)
 
+inline static constexpr unsigned int GAECNILJCEC_TypeDefinitionIndex = 27250;
+
 	class GAECNILJCEC : public ::System::Object
 	{
 	public:

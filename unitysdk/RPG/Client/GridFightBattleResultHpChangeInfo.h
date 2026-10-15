@@ -27,6 +27,8 @@ namespace RPG::Client { class GridFightBattleResultHpChangeInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightBattleResultHpChangeInfo_TypeDefinitionIndex = 64409;
+
 	class GridFightBattleResultHpChangeInfo : public ::System::Object
 	{
 	public:

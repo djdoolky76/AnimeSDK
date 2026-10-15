@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DPIDBGLEBEM_NGMILBPIGEJ_OFFSET UNITYSDK_OFFSET(0x1263E840)
 #define DPIDBGLEBEM_PPAPBNGOBFC_OFFSET UNITYSDK_OFFSET(0x1263E850)
 
+inline static constexpr unsigned int DPIDBGLEBEM_TypeDefinitionIndex = 49305;
+
 	class DPIDBGLEBEM : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative___c_TypeDefinitionIndex = 39462;
+
 	class BrowserNative___c : public ::System::Object
 	{
 	public:

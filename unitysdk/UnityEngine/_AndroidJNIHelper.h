@@ -29,6 +29,8 @@ namespace UnityEngine { class AndroidJavaRunnable; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int _AndroidJNIHelper_TypeDefinitionIndex = 5684;
+
 	class _AndroidJNIHelper : public ::System::Object
 	{
 	public:

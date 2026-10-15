@@ -4,6 +4,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VectorMaterialBlock_TypeDefinitionIndex = 69929;
+
 	struct alignas(4) VectorMaterialBlock
 	{
 		::System::Boolean Enable; // 0x10

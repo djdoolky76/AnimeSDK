@@ -8,6 +8,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RacingDriveConfig_TypeDefinitionIndex = 59773;
+
 	class RacingDriveConfig : public ::System::Object
 	{
 	public:

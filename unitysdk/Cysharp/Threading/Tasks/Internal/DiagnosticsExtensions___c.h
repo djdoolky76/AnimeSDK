@@ -15,6 +15,8 @@ namespace System::Reflection { class ParameterInfo; }
 
 namespace Cysharp::Threading::Tasks::Internal
 {
+	inline static constexpr unsigned int DiagnosticsExtensions___c_TypeDefinitionIndex = 38658;
+
 	class DiagnosticsExtensions___c : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::Client::CakeRace { class CakeRacePerformanceDataItem; }
 #define HDPIBMLOAGP_JPNFBCNFFPC_OFFSET UNITYSDK_OFFSET(0x15C419E0)
 #define HDPIBMLOAGP_NHJANJONAHK_OFFSET UNITYSDK_OFFSET(0x15C41950)
 
+inline static constexpr unsigned int HDPIBMLOAGP_TypeDefinitionIndex = 78102;
+
 	class HDPIBMLOAGP : public ::JIPBOGKHKBE
 	{
 	public:

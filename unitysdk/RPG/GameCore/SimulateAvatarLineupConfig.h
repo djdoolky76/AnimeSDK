@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SimulateAvatarLineupConfig_TypeDefinitionIndex = 18142;
+
 	class SimulateAvatarLineupConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

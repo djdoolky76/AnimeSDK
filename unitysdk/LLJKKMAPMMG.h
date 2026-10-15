@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitTimeRelayFlameLoaded; }
 #define LLJKKMAPMMG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB773D30)
 #define LLJKKMAPMMG_TICK_OFFSET UNITYSDK_OFFSET(0xB773DC0)
 
+inline static constexpr unsigned int LLJKKMAPMMG_TypeDefinitionIndex = 53497;
+
 	class LLJKKMAPMMG : public ::GELIALJDFBL
 	{
 	public:

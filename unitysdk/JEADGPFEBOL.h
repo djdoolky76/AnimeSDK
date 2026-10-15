@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define JEADGPFEBOL_LEPOJDCMAMN_OFFSET UNITYSDK_OFFSET(0x16612670)
 #define JEADGPFEBOL_MCOEJCBNOJM_OFFSET UNITYSDK_OFFSET(0x166123F0)
 
+inline static constexpr unsigned int JEADGPFEBOL_TypeDefinitionIndex = 54449;
+
 	class JEADGPFEBOL : public ::System::Object
 	{
 	public:

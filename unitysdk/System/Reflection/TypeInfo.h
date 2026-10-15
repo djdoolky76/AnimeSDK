@@ -21,6 +21,8 @@ namespace System::Reflection { class TypeInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int TypeInfo_TypeDefinitionIndex = 592;
+
 	class TypeInfo : public ::System::Type
 	{
 	public:

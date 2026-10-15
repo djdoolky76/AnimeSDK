@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIMonoJoyStick_DragInfo_TypeDefinitionIndex = 72837;
+
 	struct alignas(4) UIMonoJoyStick_DragInfo
 	{
 		::System::Single UIAngle; // 0x10

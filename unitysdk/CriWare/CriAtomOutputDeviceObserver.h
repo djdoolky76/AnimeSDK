@@ -19,6 +19,8 @@ namespace CriWare { class CriAtomOutputDeviceObserver_DeviceConnectionChangeCall
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomOutputDeviceObserver_TypeDefinitionIndex = 39935;
+
 	class CriAtomOutputDeviceObserver : public ::CriWare::CriMonoBehaviour
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define FKOGDINOBDF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3B2130)
 #define FKOGDINOBDF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3B2190)
 
+inline static constexpr unsigned int FKOGDINOBDF_TypeDefinitionIndex = 32836;
+
 	class FKOGDINOBDF : public ::System::Object
 	{
 	public:

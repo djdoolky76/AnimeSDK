@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define ELMCGEDKMDL_CTOR_OFFSET UNITYSDK_OFFSET(0x15528DC0)
 
+inline static constexpr unsigned int ELMCGEDKMDL_TypeDefinitionIndex = 63666;
+
 	class ELMCGEDKMDL : public ::System::Exception
 	{
 	public:

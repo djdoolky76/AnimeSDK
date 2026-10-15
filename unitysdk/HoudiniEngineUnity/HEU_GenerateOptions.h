@@ -3,6 +3,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_GenerateOptions_TypeDefinitionIndex = 40596;
+
 	struct alignas(4) HEU_GenerateOptions
 	{
 		::System::Boolean _generateUVs; // 0x10

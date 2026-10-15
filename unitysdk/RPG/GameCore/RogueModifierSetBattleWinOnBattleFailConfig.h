@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierSetBattleWinOnBattleFailConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierSetBattleWinOnBattleFailConfig_TypeDefinitionIndex = 17755;
+
 	class RogueModifierSetBattleWinOnBattleFailConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

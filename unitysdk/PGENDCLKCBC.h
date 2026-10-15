@@ -6,6 +6,8 @@
 #define PGENDCLKCBC_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1C9E8CB0)
 #define PGENDCLKCBC__START_B__0_0_OFFSET UNITYSDK_OFFSET(0x1C9E8EF0)
 
+inline static constexpr unsigned int PGENDCLKCBC_TypeDefinitionIndex = 42206;
+
 	class PGENDCLKCBC : public ::CKFDNGOHNPC
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::Client { class FeatureSwitchModule; }
 #define BEIKEPBIGDB_CTOR_OFFSET UNITYSDK_OFFSET(0x16324840)
 #define BEIKEPBIGDB_EMMPCNEIFGM_OFFSET UNITYSDK_OFFSET(0x163248C0)
 
+inline static constexpr unsigned int BEIKEPBIGDB_TypeDefinitionIndex = 74920;
+
 	class BEIKEPBIGDB : public ::System::Object
 	{
 	public:

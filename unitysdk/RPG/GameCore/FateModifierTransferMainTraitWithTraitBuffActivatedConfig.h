@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateModifierTransferMainTraitWithTraitBuffActiva
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateModifierTransferMainTraitWithTraitBuffActivatedConfig_TypeDefinitionIndex = 19287;
+
 	class FateModifierTransferMainTraitWithTraitBuffActivatedConfig : public ::RPG::GameCore::FateModifierConfigBase
 	{
 	public:

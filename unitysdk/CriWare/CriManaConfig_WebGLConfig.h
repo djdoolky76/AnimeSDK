@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriManaConfig_WebGLConfig_TypeDefinitionIndex = 40173;
+
 	class CriManaConfig_WebGLConfig : public ::System::Object
 	{
 	public:

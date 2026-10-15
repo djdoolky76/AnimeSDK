@@ -14,6 +14,8 @@ class KKJMAOMDCAE_OPIGALIJPOP;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameRefData___c__DisplayClass181_0_TypeDefinitionIndex = 64739;
+
 	class GridFightGameRefData___c__DisplayClass181_0 : public ::System::Object
 	{
 	public:

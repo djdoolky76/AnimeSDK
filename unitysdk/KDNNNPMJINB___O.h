@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
+inline static constexpr unsigned int KDNNNPMJINB___O_TypeDefinitionIndex = 41780;
+
 	class KDNNNPMJINB___O : public ::System::Object
 	{
 	public:

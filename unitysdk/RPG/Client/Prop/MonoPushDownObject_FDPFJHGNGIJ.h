@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int MonoPushDownObject_FDPFJHGNGIJ_TypeDefinitionIndex = 78687;
+
 	class MonoPushDownObject_FDPFJHGNGIJ : public ::System::MulticastDelegate
 	{
 	public:

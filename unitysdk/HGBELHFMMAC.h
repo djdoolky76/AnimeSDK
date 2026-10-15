@@ -6,6 +6,8 @@ class KPDKCEAFBHI;
 
 #define HGBELHFMMAC_CTOR_OFFSET UNITYSDK_OFFSET(0x15C8F570)
 
+inline static constexpr unsigned int HGBELHFMMAC_TypeDefinitionIndex = 75908;
+
 	class HGBELHFMMAC : public ::DJJKNHPLHDI
 	{
 	public:

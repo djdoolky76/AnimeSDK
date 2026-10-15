@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int StableSystemPuzzleBoard_TypeDefinitionIndex = 78872;
+
 	class StableSystemPuzzleBoard : public ::RPG::Client::Prop::ScenePuzzleBoardBase
 	{
 	public:

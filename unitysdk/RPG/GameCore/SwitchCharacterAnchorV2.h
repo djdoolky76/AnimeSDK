@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SwitchCharacterAnchorV2; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchCharacterAnchorV2_TypeDefinitionIndex = 20571;
+
 	class SwitchCharacterAnchorV2 : public ::RPG::GameCore::TaskConfig
 	{
 	public:

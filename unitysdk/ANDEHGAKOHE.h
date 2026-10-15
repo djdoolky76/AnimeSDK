@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RtBattleStageConfig; }
 
 #define ANDEHGAKOHE_CTOR_OFFSET UNITYSDK_OFFSET(0x15592B80)
 
+inline static constexpr unsigned int ANDEHGAKOHE_TypeDefinitionIndex = 54281;
+
 	class ANDEHGAKOHE : public ::System::Object
 	{
 	public:

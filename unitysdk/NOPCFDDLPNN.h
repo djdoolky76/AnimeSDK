@@ -27,6 +27,8 @@ namespace System { class String; }
 #define NOPCFDDLPNN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB91520)
 #define NOPCFDDLPNN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB91580)
 
+inline static constexpr unsigned int NOPCFDDLPNN_TypeDefinitionIndex = 29895;
+
 	class NOPCFDDLPNN : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int LiveStreamSwitchTrack_TypeDefinitionIndex = 48183;
+
 	class LiveStreamSwitchTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

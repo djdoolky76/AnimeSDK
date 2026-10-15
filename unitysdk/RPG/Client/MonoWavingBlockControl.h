@@ -17,6 +17,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoWavingBlockControl_TypeDefinitionIndex = 70747;
+
 	class MonoWavingBlockControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

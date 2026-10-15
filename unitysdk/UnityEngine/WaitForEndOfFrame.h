@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int WaitForEndOfFrame_TypeDefinitionIndex = 4366;
+
 	class WaitForEndOfFrame : public ::UnityEngine::YieldInstruction
 	{
 	public:

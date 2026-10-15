@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureByIsNPCControlled_TypeDefinitionIndex = 20790;
+
 	class AdventureByIsNPCControlled : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

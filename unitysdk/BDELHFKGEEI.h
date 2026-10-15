@@ -10,6 +10,8 @@ namespace System { class String; }
 #define BDELHFKGEEI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCFCF30)
 #define BDELHFKGEEI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCFCBE0)
 
+inline static constexpr unsigned int BDELHFKGEEI_TypeDefinitionIndex = 12495;
+
 	class BDELHFKGEEI : public ::System::Object
 	{
 	public:

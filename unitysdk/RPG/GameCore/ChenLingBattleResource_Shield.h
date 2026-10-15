@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingBattleResource_Shield; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleResource_Shield_TypeDefinitionIndex = 15780;
+
 	class ChenLingBattleResource_Shield : public ::RPG::GameCore::BaseChenLingBattleResource
 	{
 	public:

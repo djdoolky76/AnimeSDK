@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int AccountPlatformPlugin_MessageHandler_TypeDefinitionIndex = 7970;
+
 	class AccountPlatformPlugin_MessageHandler : public ::System::MulticastDelegate
 	{
 	public:

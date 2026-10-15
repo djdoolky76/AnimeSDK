@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropPredicateWithEntity_TypeDefinitionIndex = 22018;
+
 	class PropPredicateWithEntity : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

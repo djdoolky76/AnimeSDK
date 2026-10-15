@@ -17,6 +17,8 @@ namespace System { class Object; }
 #define NPKNJAMIKEA_PKBEIHIGMHH_OFFSET UNITYSDK_OFFSET(0xBD0EA90)
 #define NPKNJAMIKEA_PKMHODPACHF_OFFSET UNITYSDK_OFFSET(0xBD0E7E0)
 
+inline static constexpr unsigned int NPKNJAMIKEA_TypeDefinitionIndex = 56889;
+
 	class NPKNJAMIKEA : public ::System::Object
 	{
 	public:

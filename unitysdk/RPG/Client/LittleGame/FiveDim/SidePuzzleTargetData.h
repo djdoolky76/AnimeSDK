@@ -24,6 +24,8 @@ namespace RPG::GameCore { class FiveDimPuzzleChallengeRow; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int SidePuzzleTargetData_TypeDefinitionIndex = 77241;
+
 	class SidePuzzleTargetData : public ::System::Object
 	{
 	public:

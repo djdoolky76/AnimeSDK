@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AGHNPLMPGLE_CTOR_OFFSET UNITYSDK_OFFSET(0xCF32AE0)
 #define AGHNPLMPGLE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF32BC0)
 
+inline static constexpr unsigned int AGHNPLMPGLE_TypeDefinitionIndex = 55422;
+
 	class AGHNPLMPGLE
 	{
 	public:

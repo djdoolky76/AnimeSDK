@@ -27,6 +27,8 @@ namespace System::Reflection::Emit { class ModuleBuilder; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int SkipClrVisibilityChecks_TypeDefinitionIndex = 7236;
+
 	class SkipClrVisibilityChecks : public ::System::Object
 	{
 	public:

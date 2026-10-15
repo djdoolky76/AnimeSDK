@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FitToGroundIK_TypeDefinitionIndex = 68453;
+
 	class FitToGroundIK : public ::UnityEngine::MonoBehaviour
 	{
 	public:

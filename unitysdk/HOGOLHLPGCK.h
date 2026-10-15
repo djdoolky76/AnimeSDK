@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HOGOLHLPGCK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CECF510)
 #define HOGOLHLPGCK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CECEE70)
 
+inline static constexpr unsigned int HOGOLHLPGCK_TypeDefinitionIndex = 14207;
+
 	class HOGOLHLPGCK : public ::System::Object
 	{
 	public:

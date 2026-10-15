@@ -36,6 +36,8 @@ namespace System { class String; }
 #define FFMOAGPPHGP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3788C0)
 #define FFMOAGPPHGP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E378920)
 
+inline static constexpr unsigned int FFMOAGPPHGP_TypeDefinitionIndex = 34990;
+
 	class FFMOAGPPHGP : public ::System::Object
 	{
 	public:

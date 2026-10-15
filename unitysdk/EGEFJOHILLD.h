@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define EGEFJOHILLD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD7BDE0)
 #define EGEFJOHILLD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD7BBF0)
 
+inline static constexpr unsigned int EGEFJOHILLD_TypeDefinitionIndex = 11509;
+
 	class EGEFJOHILLD : public ::System::Object
 	{
 	public:

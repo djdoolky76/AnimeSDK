@@ -35,6 +35,8 @@ namespace RPG::GameCore { class FiveDimCleanerBotMoveConfig; }
 #define FCCKDJABHCN_NOKBMFGHMJG_OFFSET UNITYSDK_OFFSET(0x156B2F10)
 #define FCCKDJABHCN_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x156B2220)
 
+inline static constexpr unsigned int FCCKDJABHCN_TypeDefinitionIndex = 77148;
+
 	class FCCKDJABHCN : public ::System::Object
 	{
 	public:

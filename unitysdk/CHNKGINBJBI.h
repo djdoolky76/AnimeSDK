@@ -10,6 +10,8 @@ namespace System::Reflection { class MethodInfo; }
 #define CHNKGINBJBI_ABFDIFLKGDF_OFFSET UNITYSDK_OFFSET(0xCF60CC0)
 #define CHNKGINBJBI_CTOR_OFFSET UNITYSDK_OFFSET(0xCF60CB0)
 
+inline static constexpr unsigned int CHNKGINBJBI_TypeDefinitionIndex = 73150;
+
 	class CHNKGINBJBI : public ::System::Object
 	{
 	public:

@@ -49,6 +49,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IFGHNHEJCLF___CREATEORDERITEMS_B__21_1_OFFSET UNITYSDK_OFFSET(0x15F17100)
 #define IFGHNHEJCLF___CREATEREQUIREINFOS_B__26_1_OFFSET UNITYSDK_OFFSET(0x15F17150)
 
+inline static constexpr unsigned int IFGHNHEJCLF_TypeDefinitionIndex = 79670;
+
 	class IFGHNHEJCLF : public ::System::Object
 	{
 	public:

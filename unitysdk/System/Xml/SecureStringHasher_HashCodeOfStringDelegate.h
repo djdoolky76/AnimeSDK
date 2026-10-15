@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int SecureStringHasher_HashCodeOfStringDelegate_TypeDefinitionIndex = 1827;
+
 	class SecureStringHasher_HashCodeOfStringDelegate : public ::System::MulticastDelegate
 	{
 	public:

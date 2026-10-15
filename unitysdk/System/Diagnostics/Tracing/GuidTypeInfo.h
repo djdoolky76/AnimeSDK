@@ -12,6 +12,8 @@ namespace System::Diagnostics::Tracing { class TraceLoggingMetadataCollector; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int GuidTypeInfo_TypeDefinitionIndex = 1651;
+
 	class GuidTypeInfo
 	{
 	public:

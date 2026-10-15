@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceOddOrEvenC
 #define ENBFGOGFELD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C605220)
 #define ENBFGOGFELD_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C605230)
 
+inline static constexpr unsigned int ENBFGOGFELD_TypeDefinitionIndex = 36210;
+
 	class ENBFGOGFELD : public ::PNECKGBKMEL
 	{
 	public:

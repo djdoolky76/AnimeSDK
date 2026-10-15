@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 #define GAMEOBJECTTOSCREENPOS_START_OFFSET UNITYSDK_OFFSET(0x15B6A310)
 #define GAMEOBJECTTOSCREENPOS_UPDATE_OFFSET UNITYSDK_OFFSET(0x15B6A360)
 
+inline static constexpr unsigned int GameObjectToScreenPos_TypeDefinitionIndex = 47276;
+
 	class GameObjectToScreenPos : public ::UnityEngine::MonoBehaviour
 	{
 	public:

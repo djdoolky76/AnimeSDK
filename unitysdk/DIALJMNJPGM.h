@@ -5,6 +5,8 @@
 
 #define DIALJMNJPGM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2A7B0)
 
+inline static constexpr unsigned int DIALJMNJPGM_TypeDefinitionIndex = 42099;
+
 	class DIALJMNJPGM : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ClearAllEffect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClearAllEffect_TypeDefinitionIndex = 20272;
+
 	class ClearAllEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

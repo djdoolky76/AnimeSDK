@@ -6,6 +6,8 @@ namespace System { class Action; }
 
 #define BPGMHFLHAKH_CTOR_OFFSET UNITYSDK_OFFSET(0xC1A51B0)
 
+inline static constexpr unsigned int BPGMHFLHAKH_TypeDefinitionIndex = 49647;
+
 	class BPGMHFLHAKH : public ::System::Object
 	{
 	public:

@@ -36,6 +36,8 @@ namespace System::IO { class IOException; }
 
 namespace Microsoft::Win32
 {
+	inline static constexpr unsigned int RegistryKey_TypeDefinitionIndex = 104;
+
 	class RegistryKey : public ::System::MarshalByRefObject
 	{
 	public:

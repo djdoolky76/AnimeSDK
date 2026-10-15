@@ -11,6 +11,8 @@ namespace RPG { template <typename T> class PoolList_1; }
 #define BMAGFPDPEDN_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C8BC5A0)
 #define BMAGFPDPEDN_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C8BC710)
 
+inline static constexpr unsigned int BMAGFPDPEDN_TypeDefinitionIndex = 43354;
+
 	class BMAGFPDPEDN : public ::System::Object
 	{
 	public:

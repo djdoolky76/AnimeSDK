@@ -30,6 +30,8 @@ namespace System { class String; }
 #define GFGHGCIMKGA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E46A2E0)
 #define GFGHGCIMKGA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E46A340)
 
+inline static constexpr unsigned int GFGHGCIMKGA_TypeDefinitionIndex = 32666;
+
 	class GFGHGCIMKGA : public ::System::Object
 	{
 	public:

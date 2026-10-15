@@ -3,6 +3,8 @@
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int SimpleTuple_3_TypeDefinitionIndex = 44436;
+
 	template <typename T1, typename T2, typename T3>
 	struct alignas(8) SimpleTuple_3
 	{

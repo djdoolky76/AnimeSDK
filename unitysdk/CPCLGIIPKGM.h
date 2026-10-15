@@ -5,6 +5,8 @@
 #define CPCLGIIPKGM_CTOR_OFFSET UNITYSDK_OFFSET(0xDCCFFA0)
 #define CPCLGIIPKGM_FHAAHMEJMCI_OFFSET UNITYSDK_OFFSET(0xDCCFDF0)
 
+inline static constexpr unsigned int CPCLGIIPKGM_TypeDefinitionIndex = 66512;
+
 	class CPCLGIIPKGM : public ::FMIHMGNLBPN
 	{
 	public:

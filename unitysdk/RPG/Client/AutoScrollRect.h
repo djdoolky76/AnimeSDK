@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AutoScrollRect_TypeDefinitionIndex = 72505;
+
 	class AutoScrollRect : public ::UnityEngine::UI::ScrollRect
 	{
 	public:

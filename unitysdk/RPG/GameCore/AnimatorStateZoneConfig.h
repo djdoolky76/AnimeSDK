@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AnimatorStateZoneRangeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AnimatorStateZoneConfig_TypeDefinitionIndex = 16324;
+
 	class AnimatorStateZoneConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

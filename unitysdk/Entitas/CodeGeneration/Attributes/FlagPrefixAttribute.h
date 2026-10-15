@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace Entitas::CodeGeneration::Attributes
 {
+	inline static constexpr unsigned int FlagPrefixAttribute_TypeDefinitionIndex = 10085;
+
 	class FlagPrefixAttribute : public ::System::Attribute
 	{
 	public:

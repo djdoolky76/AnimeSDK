@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 #define CBOELLFBHBA_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xC4AFF10)
 #define CBOELLFBHBA_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xC4AFF00)
 
+inline static constexpr unsigned int CBOELLFBHBA_TypeDefinitionIndex = 48268;
+
 	class CBOELLFBHBA : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -18,6 +18,8 @@
 #define DKDDEOLBGEI_GET_UNITLENGTH_OFFSET UNITYSDK_OFFSET(0x1D00)
 #define DKDDEOLBGEI_GET_WALLSKINWIDTH_OFFSET UNITYSDK_OFFSET(0x2FF5140)
 
+inline static constexpr unsigned int DKDDEOLBGEI_TypeDefinitionIndex = 43578;
+
 	struct alignas(4) DKDDEOLBGEI
 	{
 		::System::Single _UnitLength_k__BackingField; // 0x10

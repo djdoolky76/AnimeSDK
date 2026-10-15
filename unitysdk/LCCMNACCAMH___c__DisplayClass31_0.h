@@ -7,6 +7,8 @@ class LCCMNACCAMH;
 #define LCCMNACCAMH___C__DISPLAYCLASS31_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB612970)
 #define LCCMNACCAMH___C__DISPLAYCLASS31_0__REGISTERPEDESTRIAN_B__0_OFFSET UNITYSDK_OFFSET(0xB612D80)
 
+inline static constexpr unsigned int LCCMNACCAMH___c__DisplayClass31_0_TypeDefinitionIndex = 69314;
+
 	class LCCMNACCAMH___c__DisplayClass31_0 : public ::System::Object
 	{
 	public:

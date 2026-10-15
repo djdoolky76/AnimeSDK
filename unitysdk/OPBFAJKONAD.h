@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OPBFAJKONAD_MMLEHHDMPOE_OFFSET UNITYSDK_OFFSET(0xBF9F920)
 #define OPBFAJKONAD_PDOOHGHFPCO_OFFSET UNITYSDK_OFFSET(0xBF9F8B0)
 
+inline static constexpr unsigned int OPBFAJKONAD_TypeDefinitionIndex = 54043;
+
 	class OPBFAJKONAD : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

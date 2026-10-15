@@ -18,6 +18,8 @@ namespace UnityEngine { class Animation; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftTalentTreeEntranceControl_TypeDefinitionIndex = 80008;
+
 	class MechCraftTalentTreeEntranceControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

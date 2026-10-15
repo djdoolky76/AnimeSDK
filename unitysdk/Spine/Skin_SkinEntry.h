@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int Skin_SkinEntry_TypeDefinitionIndex = 39697;
+
 	struct alignas(8) Skin_SkinEntry
 	{
 		::System::Int32 slotIndex; // 0x10

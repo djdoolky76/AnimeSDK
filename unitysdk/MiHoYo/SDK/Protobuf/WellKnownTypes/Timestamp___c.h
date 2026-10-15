@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int Timestamp___c_TypeDefinitionIndex = 35756;
+
 	class Timestamp___c : public ::System::Object
 	{
 	public:

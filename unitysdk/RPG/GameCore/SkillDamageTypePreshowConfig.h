@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SkillDamageTypePreshowConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SkillDamageTypePreshowConfig_TypeDefinitionIndex = 17114;
+
 	class SkillDamageTypePreshowConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

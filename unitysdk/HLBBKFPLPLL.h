@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HLBBKFPLPLL_ONUNINIT_OFFSET UNITYSDK_OFFSET(0x15D56C90)
 #define HLBBKFPLPLL_PKPICPOIHIC_OFFSET UNITYSDK_OFFSET(0x15D57A90)
 
+inline static constexpr unsigned int HLBBKFPLPLL_TypeDefinitionIndex = 55085;
+
 	class HLBBKFPLPLL : public ::HBCMHADMLOP
 	{
 	public:

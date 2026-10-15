@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define HJDGINDNJEM___C__FROMHTTP_B__2_0_OFFSET UNITYSDK_OFFSET(0x15D0CF90)
 #define HJDGINDNJEM___C__FROMSERVERARCHIVE_B__1_0_OFFSET UNITYSDK_OFFSET(0x15D0CF80)
 
+inline static constexpr unsigned int HJDGINDNJEM___c_TypeDefinitionIndex = 67523;
+
 	class HJDGINDNJEM___c : public ::System::Object
 	{
 	public:

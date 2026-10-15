@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PKOOFPOCNKB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF95A10)
 #define PKOOFPOCNKB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF95A70)
 
+inline static constexpr unsigned int PKOOFPOCNKB_TypeDefinitionIndex = 33046;
+
 	class PKOOFPOCNKB : public ::System::Object
 	{
 	public:

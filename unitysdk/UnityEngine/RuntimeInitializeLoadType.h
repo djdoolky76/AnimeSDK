@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RuntimeInitializeLoadType_TypeDefinitionIndex = 4337;
+
 	enum class RuntimeInitializeLoadType : ::System::Int32
 	{
 		AfterSceneLoad = 0,

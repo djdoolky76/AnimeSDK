@@ -15,6 +15,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define CALDEIENJLL_OPCKNBHNBOA_OFFSET UNITYSDK_OFFSET(0xC488640)
 #define CALDEIENJLL_SET_IGNOREAPPEAR_OFFSET UNITYSDK_OFFSET(0xC4886A0)
 
+inline static constexpr unsigned int CALDEIENJLL_TypeDefinitionIndex = 55924;
+
 	class CALDEIENJLL : public ::JJANGHIBICJ
 	{
 	public:

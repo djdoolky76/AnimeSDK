@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FMDODCIIAJA_ICBPOKHOLOE_OFFSET UNITYSDK_OFFSET(0x1584FF90)
 #define FMDODCIIAJA_IDOFFOMIPIC_OFFSET UNITYSDK_OFFSET(0x158500C0)
 
+inline static constexpr unsigned int FMDODCIIAJA_TypeDefinitionIndex = 79215;
+
 	class FMDODCIIAJA : public ::System::Object
 	{
 	public:

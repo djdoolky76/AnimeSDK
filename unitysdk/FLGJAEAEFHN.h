@@ -12,6 +12,8 @@ namespace UnityEngine { class RectTransform; }
 #define FLGJAEAEFHN_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x15831320)
 #define FLGJAEAEFHN_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x15830FC0)
 
+inline static constexpr unsigned int FLGJAEAEFHN_TypeDefinitionIndex = 80852;
+
 	class FLGJAEAEFHN : public ::MLKDDLHNNHH
 	{
 	public:

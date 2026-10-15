@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NCFJLHGFEEG_HHPBALCFKBL_OFFSET UNITYSDK_OFFSET(0xBB0E510)
 #define NCFJLHGFEEG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB0CCE0)
 
+inline static constexpr unsigned int NCFJLHGFEEG_TypeDefinitionIndex = 54815;
+
 	class NCFJLHGFEEG
 	{
 	public:

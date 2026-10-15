@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMagicDiffCompDataItem_TypeDefinitionIndex = 67388;
+
 	class RogueMagicDiffCompDataItem : public ::System::Object
 	{
 	public:

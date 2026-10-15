@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeRaceBattleItemUIHandler_DragDelegate_TypeDefinitionIndex = 63005;
+
 	class CakeRaceBattleItemUIHandler_DragDelegate : public ::System::MulticastDelegate
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LittleGameKillEffectParams; }
 #define EDFBEHBEDED_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD70B40)
 #define EDFBEHBEDED_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD70B00)
 
+inline static constexpr unsigned int EDFBEHBEDED_TypeDefinitionIndex = 22384;
+
 	class EDFBEHBEDED : public ::RPG::GameCore::TaskConfig
 	{
 	public:

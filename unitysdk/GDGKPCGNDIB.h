@@ -25,6 +25,8 @@ namespace System { class String; }
 #define GDGKPCGNDIB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E449A40)
 #define GDGKPCGNDIB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E449AA0)
 
+inline static constexpr unsigned int GDGKPCGNDIB_TypeDefinitionIndex = 33790;
+
 	class GDGKPCGNDIB : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int UpaException_TypeDefinitionIndex = 2064;
+
 	class UpaException : public ::System::Exception
 	{
 	public:

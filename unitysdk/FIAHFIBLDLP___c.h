@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FIAHFIBLDLP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E394D80)
 #define FIAHFIBLDLP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E394D90)
 
+inline static constexpr unsigned int FIAHFIBLDLP___c_TypeDefinitionIndex = 34008;
+
 	class FIAHFIBLDLP___c : public ::System::Object
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define DCDMPLJNBJC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E168840)
 #define DCDMPLJNBJC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1688A0)
 
+inline static constexpr unsigned int DCDMPLJNBJC_TypeDefinitionIndex = 33630;
+
 	class DCDMPLJNBJC : public ::System::Object
 	{
 	public:

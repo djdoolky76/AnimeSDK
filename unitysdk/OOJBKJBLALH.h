@@ -15,6 +15,8 @@ namespace RPG::Client { class PrefabLoadMeta; }
 #define OOJBKJBLALH_MAPEPANNHJC_OFFSET UNITYSDK_OFFSET(0xBF89700)
 #define OOJBKJBLALH_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xBF89420)
 
+inline static constexpr unsigned int OOJBKJBLALH_TypeDefinitionIndex = 71325;
+
 	class OOJBKJBLALH : public ::FMPCODLIOLG
 	{
 	public:

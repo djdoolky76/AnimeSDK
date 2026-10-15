@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FKLMGEFILDI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3B16A0)
 #define FKLMGEFILDI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3B1700)
 
+inline static constexpr unsigned int FKLMGEFILDI_TypeDefinitionIndex = 30255;
+
 	class FKLMGEFILDI : public ::System::Object
 	{
 	public:

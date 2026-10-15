@@ -26,6 +26,8 @@ namespace System { class Object; }
 #define DMAAGEECMIL_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1CD41010)
 #define DMAAGEECMIL_OIMEAFBFPLG_OFFSET UNITYSDK_OFFSET(0x3C36BD0)
 
+inline static constexpr unsigned int DMAAGEECMIL_TypeDefinitionIndex = 10651;
+
 	struct alignas(8) DMAAGEECMIL
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

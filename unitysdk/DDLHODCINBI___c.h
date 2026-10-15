@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DDLHODCINBI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1881D0)
 #define DDLHODCINBI___C___CCTOR_B__108_0_OFFSET UNITYSDK_OFFSET(0x1E1881E0)
 
+inline static constexpr unsigned int DDLHODCINBI___c_TypeDefinitionIndex = 28312;
+
 	class DDLHODCINBI___c : public ::System::Object
 	{
 	public:

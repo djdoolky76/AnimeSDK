@@ -11,6 +11,8 @@ namespace VLB { class VolumetricLightBeam; }
 #define PEKIFHNMHMJ_LHNHEMLKING_OFFSET UNITYSDK_OFFSET(0xC1F2D10)
 #define PEKIFHNMHMJ_LJEPKEGFGHA_OFFSET UNITYSDK_OFFSET(0xC1F29C0)
 
+inline static constexpr unsigned int PEKIFHNMHMJ_TypeDefinitionIndex = 48996;
+
 	class PEKIFHNMHMJ : public ::System::Object
 	{
 	public:

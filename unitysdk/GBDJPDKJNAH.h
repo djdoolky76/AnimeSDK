@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AvatarRelicRecommendRow; }
 #define GBDJPDKJNAH_HJOODJOOHCG_OFFSET UNITYSDK_OFFSET(0x1594B6A0)
 #define GBDJPDKJNAH_JCOPJGBOOKG_OFFSET UNITYSDK_OFFSET(0x1594B5A0)
 
+inline static constexpr unsigned int GBDJPDKJNAH_TypeDefinitionIndex = 62868;
+
 	class GBDJPDKJNAH : public ::System::Object
 	{
 	public:

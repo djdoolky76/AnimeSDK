@@ -6,6 +6,8 @@
 #define LLIHEIDDEEM_OGENJNOIIJH_OFFSET UNITYSDK_OFFSET(0xB770610)
 #define LLIHEIDDEEM_PCILLJABPKK_OFFSET UNITYSDK_OFFSET(0xB7705A0)
 
+inline static constexpr unsigned int LLIHEIDDEEM_TypeDefinitionIndex = 64620;
+
 	class LLIHEIDDEEM : public ::System::Object
 	{
 	public:

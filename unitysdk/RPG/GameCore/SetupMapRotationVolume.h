@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SetupMapRotationVolume; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetupMapRotationVolume_TypeDefinitionIndex = 22306;
+
 	class SetupMapRotationVolume : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 #define MOMAIEHBLOP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBA33C50)
 #define MOMAIEHBLOP_ILEMLGEGLCC_OFFSET UNITYSDK_OFFSET(0xBA33A10)
 
+inline static constexpr unsigned int MOMAIEHBLOP_TypeDefinitionIndex = 49871;
+
 	class MOMAIEHBLOP : public ::System::Object
 	{
 	public:

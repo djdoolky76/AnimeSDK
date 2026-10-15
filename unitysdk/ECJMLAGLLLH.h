@@ -14,6 +14,8 @@ namespace RPG::GameCore { class LittleGameLevelVarBindingMap; }
 #define ECJMLAGLLLH_SET_CONTAINERINFO_OFFSET UNITYSDK_OFFSET(0x12D10690)
 #define ECJMLAGLLLH_SET_LEVELVARBINDINGMAP_OFFSET UNITYSDK_OFFSET(0x12D10670)
 
+inline static constexpr unsigned int ECJMLAGLLLH_TypeDefinitionIndex = 60395;
+
 	class ECJMLAGLLLH : public ::IAJLHKIHBFB
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelLockFeature; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelLockFeature_TypeDefinitionIndex = 23403;
+
 	class LevelLockFeature : public ::RPG::GameCore::TaskConfig
 	{
 	public:

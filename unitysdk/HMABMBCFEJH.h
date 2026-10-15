@@ -46,6 +46,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HMABMBCFEJH_SET_PRESSTIME_OFFSET UNITYSDK_OFFSET(0x15D785D0)
 #define HMABMBCFEJH_SET_STARTTIME_OFFSET UNITYSDK_OFFSET(0x15D78550)
 
+inline static constexpr unsigned int HMABMBCFEJH_TypeDefinitionIndex = 60176;
+
 	class HMABMBCFEJH : public ::System::Object
 	{
 	public:

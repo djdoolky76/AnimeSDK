@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightConstants_TypeDefinitionIndex = 64860;
+
 	class GridFightConstants : public ::System::Object
 	{
 	public:

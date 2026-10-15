@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelPedestrianV2SpawnGroupInfo_ChenLingStack; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPedestrianV2SpawnGroupInfo_ChenLingStack_TypeDefinitionIndex = 17323;
+
 	class LevelPedestrianV2SpawnGroupInfo_ChenLingStack : public ::RPG::GameCore::LevelPedestrianV2SpawnGroupInfo
 	{
 	public:

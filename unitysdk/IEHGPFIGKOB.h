@@ -40,6 +40,8 @@ namespace UnityEngine::UI { class Slider; }
 #define IEHGPFIGKOB__ONBIND_OFFSET UNITYSDK_OFFSET(0x15EF9EF0)
 #define IEHGPFIGKOB__ONTICK_OFFSET UNITYSDK_OFFSET(0x15EFB7B0)
 
+inline static constexpr unsigned int IEHGPFIGKOB_TypeDefinitionIndex = 72087;
+
 	class IEHGPFIGKOB : public ::FMPCODLIOLG
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int Stream___c_TypeDefinitionIndex = 690;
+
 	class Stream___c : public ::System::Object
 	{
 	public:

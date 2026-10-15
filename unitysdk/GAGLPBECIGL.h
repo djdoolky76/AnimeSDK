@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GAGLPBECIGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1593B430)
 #define GAGLPBECIGL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1593B460)
 
+inline static constexpr unsigned int GAGLPBECIGL_TypeDefinitionIndex = 58352;
+
 	class GAGLPBECIGL
 	{
 	public:

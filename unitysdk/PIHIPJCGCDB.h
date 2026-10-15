@@ -4,6 +4,8 @@
 
 #define PIHIPJCGCDB_CTOR_OFFSET UNITYSDK_OFFSET(0xC262050)
 
+inline static constexpr unsigned int PIHIPJCGCDB_TypeDefinitionIndex = 73373;
+
 	class PIHIPJCGCDB : public ::System::Object
 	{
 	public:

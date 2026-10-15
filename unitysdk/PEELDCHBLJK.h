@@ -67,6 +67,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PEELDCHBLJK_SET_OVERRIDE_DISAPPEAR_MAX_DISTANCE_OFFSET UNITYSDK_OFFSET(0xC034670)
 #define PEELDCHBLJK_SET_RUNNINGTIME_OFFSET UNITYSDK_OFFSET(0xC0349B0)
 
+inline static constexpr unsigned int PEELDCHBLJK_TypeDefinitionIndex = 69281;
+
 	class PEELDCHBLJK : public ::System::Object
 	{
 	public:

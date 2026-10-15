@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define EDGKHGLGIGD_CTOR_OFFSET UNITYSDK_OFFSET(0x133142F0)
 #define EDGKHGLGIGD_DPMMPFGKAFJ_OFFSET UNITYSDK_OFFSET(0x13314960)
 
+inline static constexpr unsigned int EDGKHGLGIGD_TypeDefinitionIndex = 81068;
+
 	class EDGKHGLGIGD : public ::System::Object
 	{
 	public:

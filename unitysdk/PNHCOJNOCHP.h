@@ -37,6 +37,8 @@ namespace System { class String; }
 #define PNHCOJNOCHP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFB9F90)
 #define PNHCOJNOCHP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFB9FF0)
 
+inline static constexpr unsigned int PNHCOJNOCHP_TypeDefinitionIndex = 34061;
+
 	class PNHCOJNOCHP : public ::System::Object
 	{
 	public:

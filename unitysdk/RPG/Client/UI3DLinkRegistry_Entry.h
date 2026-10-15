@@ -7,6 +7,8 @@ namespace RPG::Client { class UIController; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UI3DLinkRegistry_Entry_TypeDefinitionIndex = 73005;
+
 	struct alignas(8) UI3DLinkRegistry_Entry
 	{
 		::RPG::Client::IUI3DController* UI3D; // 0x10

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueTournEntranceShowUI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournEntranceShowUI_TypeDefinitionIndex = 22097;
+
 	class RogueTournEntranceShowUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

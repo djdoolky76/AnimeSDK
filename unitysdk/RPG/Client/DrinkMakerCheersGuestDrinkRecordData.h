@@ -27,6 +27,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DrinkMakerCheersGuestDrinkRecordData_TypeDefinitionIndex = 63622;
+
 	class DrinkMakerCheersGuestDrinkRecordData : public ::System::Object
 	{
 	public:

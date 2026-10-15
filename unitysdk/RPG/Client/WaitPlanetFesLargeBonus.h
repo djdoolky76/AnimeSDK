@@ -10,6 +10,8 @@ namespace RPG::Client { class WaitPlanetFesLargeBonus; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WaitPlanetFesLargeBonus_TypeDefinitionIndex = 10276;
+
 	class WaitPlanetFesLargeBonus : public ::RPG::GameCore::TaskConfig
 	{
 	public:

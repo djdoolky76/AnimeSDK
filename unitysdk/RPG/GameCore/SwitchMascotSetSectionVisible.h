@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SwitchMascotSetSectionVisible; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchMascotSetSectionVisible_TypeDefinitionIndex = 22000;
+
 	class SwitchMascotSetSectionVisible : public ::RPG::GameCore::TaskConfig
 	{
 	public:

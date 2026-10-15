@@ -4,6 +4,8 @@
 
 #define PDEBGMMGENG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9A58E0)
 
+inline static constexpr unsigned int PDEBGMMGENG_TypeDefinitionIndex = 42982;
+
 	class PDEBGMMGENG : public ::System::Object
 	{
 	public:

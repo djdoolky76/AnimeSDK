@@ -28,6 +28,8 @@ namespace System { class String; }
 #define HMNMJKCHABE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5D4200)
 #define HMNMJKCHABE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5D4260)
 
+inline static constexpr unsigned int HMNMJKCHABE_TypeDefinitionIndex = 29517;
+
 	class HMNMJKCHABE : public ::System::Object
 	{
 	public:

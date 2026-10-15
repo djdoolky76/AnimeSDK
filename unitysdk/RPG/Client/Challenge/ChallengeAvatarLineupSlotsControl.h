@@ -20,6 +20,8 @@ namespace UnityEngine::Events { class UnityEvent; }
 
 namespace RPG::Client::Challenge
 {
+	inline static constexpr unsigned int ChallengeAvatarLineupSlotsControl_TypeDefinitionIndex = 81415;
+
 	class ChallengeAvatarLineupSlotsControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

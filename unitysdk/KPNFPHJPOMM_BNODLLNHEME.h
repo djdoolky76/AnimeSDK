@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define KPNFPHJPOMM_BNODLLNHEME_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB5CDA20)
 #define KPNFPHJPOMM_BNODLLNHEME_INVOKE_OFFSET UNITYSDK_OFFSET(0xB5C9E10)
 
+inline static constexpr unsigned int KPNFPHJPOMM_BNODLLNHEME_TypeDefinitionIndex = 49182;
+
 	class KPNFPHJPOMM_BNODLLNHEME : public ::System::MulticastDelegate
 	{
 	public:

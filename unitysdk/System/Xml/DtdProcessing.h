@@ -3,6 +3,8 @@
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int DtdProcessing_TypeDefinitionIndex = 1799;
+
 	enum class DtdProcessing : ::System::Int32
 	{
 		Prohibit = 0,

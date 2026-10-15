@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::PingPong
 {
+	inline static constexpr unsigned int PingPongEnemyView_TypeDefinitionIndex = 76680;
+
 	class PingPongEnemyView : public ::RPG::Client::LittleGame::PingPong::PingPongView
 	{
 	public:

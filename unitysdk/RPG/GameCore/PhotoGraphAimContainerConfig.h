@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphAimContainerConfig_TypeDefinitionIndex = 21640;
+
 	class PhotoGraphAimContainerConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

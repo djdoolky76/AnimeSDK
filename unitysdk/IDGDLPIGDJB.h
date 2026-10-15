@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IDGDLPIGDJB_JGAENCJAPLK_OFFSET UNITYSDK_OFFSET(0x15ECA9F0)
 #define IDGDLPIGDJB_KMKADIPFHCO_OFFSET UNITYSDK_OFFSET(0x15ECDB30)
 
+inline static constexpr unsigned int IDGDLPIGDJB_TypeDefinitionIndex = 67156;
+
 	class IDGDLPIGDJB : public ::System::Object
 	{
 	public:

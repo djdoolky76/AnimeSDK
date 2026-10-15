@@ -6,6 +6,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int SaveDuringPlayAttribute_TypeDefinitionIndex = 39827;
+
 	class SaveDuringPlayAttribute : public ::System::Attribute
 	{
 	public:

@@ -3,6 +3,8 @@
 namespace System { class Object; }
 namespace System { class String; }
 
+inline static constexpr unsigned int GOJPFJPHINM_LEAJGACHPHI_TypeDefinitionIndex = 41584;
+
 	struct alignas(8) GOJPFJPHINM_LEAJGACHPHI
 	{
 		::System::Int32 CJCCLNEDGKB; // 0x10

@@ -15,6 +15,8 @@ namespace RPG::GameCore { class LevelTurnInsertAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelTurnInsertAction_TypeDefinitionIndex = 56712;
+
 	class LevelTurnInsertAction : public ::CMPGEAFHHDC
 	{
 	public:

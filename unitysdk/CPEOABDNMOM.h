@@ -6,6 +6,8 @@
 
 #define CPEOABDNMOM_CTOR_OFFSET UNITYSDK_OFFSET(0xDCD12F0)
 
+inline static constexpr unsigned int CPEOABDNMOM_TypeDefinitionIndex = 62919;
+
 	class CPEOABDNMOM : public ::System::Object
 	{
 	public:

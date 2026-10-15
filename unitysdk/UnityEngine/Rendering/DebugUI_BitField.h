@@ -13,6 +13,8 @@ namespace UnityEngine { class GUIContent; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DebugUI_BitField_TypeDefinitionIndex = 35537;
+
 	class DebugUI_BitField
 	{
 	public:

@@ -7,6 +7,8 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int ProBuilderMesh_NonVersionedEditScope_TypeDefinitionIndex = 44406;
+
 	struct alignas(8) ProBuilderMesh_NonVersionedEditScope
 	{
 		::UnityEngine::ProBuilder::ProBuilderMesh* m_Mesh; // 0x10

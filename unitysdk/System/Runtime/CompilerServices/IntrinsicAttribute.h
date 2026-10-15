@@ -6,6 +6,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int IntrinsicAttribute_TypeDefinitionIndex = 3855;
+
 	class IntrinsicAttribute : public ::System::Attribute
 	{
 	public:

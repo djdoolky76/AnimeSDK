@@ -21,6 +21,8 @@ namespace System { class Object; }
 #define AKKHJPODFDG_TICK_OFFSET UNITYSDK_OFFSET(0x12CD55F0)
 #define AKKHJPODFDG___SHOWUI_B__6_0_OFFSET UNITYSDK_OFFSET(0x12CD5CA0)
 
+inline static constexpr unsigned int AKKHJPODFDG_TypeDefinitionIndex = 58708;
+
 	class AKKHJPODFDG : public ::GELIALJDFBL
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightBackRankConfig_TypeDefinitionIndex = 65127;
+
 	class GridFightBackRankConfig : public ::System::Object
 	{
 	public:

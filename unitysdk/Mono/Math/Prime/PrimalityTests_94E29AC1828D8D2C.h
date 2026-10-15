@@ -9,6 +9,8 @@ namespace Mono::Math { class BigInteger_B63D07FB4865BEA1; }
 
 namespace Mono::Math::Prime
 {
+	inline static constexpr unsigned int PrimalityTests_94E29AC1828D8D2C_TypeDefinitionIndex = 2320;
+
 	class PrimalityTests_94E29AC1828D8D2C : public ::System::Object
 	{
 	public:

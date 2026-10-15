@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvLogisticsRobotReachEnd; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvLogisticsRobotReachEnd_TypeDefinitionIndex = 21202;
+
 	class AdvLogisticsRobotReachEnd : public ::RPG::GameCore::TaskConfig
 	{
 	public:

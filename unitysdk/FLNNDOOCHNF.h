@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 #define FLNNDOOCHNF_JIHDMDMDPHG_OFFSET UNITYSDK_OFFSET(0x158426A0)
 
+inline static constexpr unsigned int FLNNDOOCHNF_TypeDefinitionIndex = 77388;
+
 	class FLNNDOOCHNF : public ::System::Object
 	{
 	public:

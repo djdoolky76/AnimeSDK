@@ -7,6 +7,8 @@
 
 namespace ZXing
 {
+	inline static constexpr unsigned int Dimension_TypeDefinitionIndex = 7009;
+
 	class Dimension : public ::System::Object
 	{
 	public:

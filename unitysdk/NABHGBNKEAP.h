@@ -6,6 +6,8 @@ namespace System { class String; }
 #define NABHGBNKEAP_CTOR_OFFSET UNITYSDK_OFFSET(0xBA52DD0)
 #define NABHGBNKEAP_GAGLFGLKEOJ_OFFSET UNITYSDK_OFFSET(0xBA52CD0)
 
+inline static constexpr unsigned int NABHGBNKEAP_TypeDefinitionIndex = 77557;
+
 	class NABHGBNKEAP : public ::EHDCFBBIJIM
 	{
 	public:

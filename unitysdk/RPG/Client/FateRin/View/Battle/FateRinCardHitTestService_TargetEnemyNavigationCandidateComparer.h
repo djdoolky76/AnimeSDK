@@ -10,6 +10,8 @@ namespace RPG::Client::FateRin::View::Battle { class FateRinCardHitTestService_T
 
 namespace RPG::Client::FateRin::View::Battle
 {
+	inline static constexpr unsigned int FateRinCardHitTestService_TargetEnemyNavigationCandidateComparer_TypeDefinitionIndex = 80677;
+
 	class FateRinCardHitTestService_TargetEnemyNavigationCandidateComparer : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StateParamModifier_TypeDefinitionIndex = 68835;
+
 	class StateParamModifier : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CIGEFGHOKPI_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCF709F0)
 #define CIGEFGHOKPI_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0xCF70A80)
 
+inline static constexpr unsigned int CIGEFGHOKPI_TypeDefinitionIndex = 71080;
+
 	class CIGEFGHOKPI
 	{
 	public:

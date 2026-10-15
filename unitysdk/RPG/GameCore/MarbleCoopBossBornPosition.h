@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MarbleCoopBossBornPosition; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleCoopBossBornPosition_TypeDefinitionIndex = 18915;
+
 	class MarbleCoopBossBornPosition : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 #define IFGHCMHLNNB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEEF940)
 #define IFGHCMHLNNB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEEF6E0)
 
+inline static constexpr unsigned int IFGHCMHLNNB_TypeDefinitionIndex = 12016;
+
 	class IFGHCMHLNNB : public ::System::Object
 	{
 	public:

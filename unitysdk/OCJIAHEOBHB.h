@@ -4,6 +4,8 @@
 
 #define OCJIAHEOBHB_CTOR_OFFSET UNITYSDK_OFFSET(0xBD6E460)
 
+inline static constexpr unsigned int OCJIAHEOBHB_TypeDefinitionIndex = 77794;
+
 	class OCJIAHEOBHB : public ::System::Object
 	{
 	public:

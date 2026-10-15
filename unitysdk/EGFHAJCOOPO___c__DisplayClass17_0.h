@@ -8,6 +8,8 @@ namespace RPG::Client::B51Racing { class B51RacingDIYPageViewModel; }
 #define EGFHAJCOOPO___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0x145148B0)
 #define EGFHAJCOOPO___C__DISPLAYCLASS17_0__SHOWCARDIYPAGEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x14515F50)
 
+inline static constexpr unsigned int EGFHAJCOOPO___c__DisplayClass17_0_TypeDefinitionIndex = 81746;
+
 	class EGFHAJCOOPO___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

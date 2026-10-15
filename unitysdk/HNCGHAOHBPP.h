@@ -8,6 +8,8 @@ class HNCGHAOHBPP;
 #define HNCGHAOHBPP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CECABA0)
 #define HNCGHAOHBPP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CECA6E0)
 
+inline static constexpr unsigned int HNCGHAOHBPP_TypeDefinitionIndex = 11988;
+
 	class HNCGHAOHBPP : public ::System::Object
 	{
 	public:

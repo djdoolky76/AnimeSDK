@@ -30,6 +30,8 @@ namespace System { class String; }
 #define AKEXTERNALSOURCEINFO_SET_SZFILE_OFFSET UNITYSDK_OFFSET(0x1F5934C0)
 #define AKEXTERNALSOURCEINFO_SET_UIMEMORYSIZE_OFFSET UNITYSDK_OFFSET(0x1F5937C0)
 
+inline static constexpr unsigned int AkExternalSourceInfo_TypeDefinitionIndex = 44740;
+
 	class AkExternalSourceInfo : public ::System::Object
 	{
 	public:

@@ -103,6 +103,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExCategory_TypeDefinitionIndex = 39982;
+
 	class CriAtomExCategory : public ::System::Object
 	{
 	public:

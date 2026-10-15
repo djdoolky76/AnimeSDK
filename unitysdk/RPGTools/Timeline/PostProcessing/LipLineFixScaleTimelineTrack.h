@@ -11,6 +11,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int LipLineFixScaleTimelineTrack_TypeDefinitionIndex = 48583;
+
 	class LipLineFixScaleTimelineTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:

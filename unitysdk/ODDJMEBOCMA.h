@@ -8,6 +8,8 @@ namespace RPG::Client { class IRogueMiracleInfo; }
 #define ODDJMEBOCMA_CTOR_OFFSET UNITYSDK_OFFSET(0xBD91100)
 #define ODDJMEBOCMA_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0xBD91110)
 
+inline static constexpr unsigned int ODDJMEBOCMA_TypeDefinitionIndex = 67094;
+
 	class ODDJMEBOCMA : public ::DOLNICOMJJM
 	{
 	public:

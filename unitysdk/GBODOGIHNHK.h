@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GBODOGIHNHK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C62D950)
 #define GBODOGIHNHK_MIDKKNAGOFA_OFFSET UNITYSDK_OFFSET(0x1C62D960)
 
+inline static constexpr unsigned int GBODOGIHNHK_TypeDefinitionIndex = 36389;
+
 	class GBODOGIHNHK : public ::IFNMPBPNBIF
 	{
 	public:

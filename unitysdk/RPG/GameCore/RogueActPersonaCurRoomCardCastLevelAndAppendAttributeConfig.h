@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActPersonaCurRoomCardCastLevelAndAppendAttr
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActPersonaCurRoomCardCastLevelAndAppendAttributeConfig_TypeDefinitionIndex = 19766;
+
 	class RogueActPersonaCurRoomCardCastLevelAndAppendAttributeConfig : public ::RPG::GameCore::RogueActPersonaCurRoomCardCastConfig
 	{
 	public:

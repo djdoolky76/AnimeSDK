@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CurveObjectLoadTrigger_TypeDefinitionIndex = 68562;
+
 	class CurveObjectLoadTrigger : public ::System::Object
 	{
 	public:

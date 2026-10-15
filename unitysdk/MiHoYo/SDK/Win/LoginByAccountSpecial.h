@@ -43,6 +43,8 @@ namespace UnityEngine::UI { class Toggle; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int LoginByAccountSpecial_TypeDefinitionIndex = 9542;
+
 	class LoginByAccountSpecial : public ::MiHoYo::SDK::UIElement
 	{
 	public:

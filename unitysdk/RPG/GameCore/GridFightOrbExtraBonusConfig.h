@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightOrbExtraBonusConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightOrbExtraBonusConfig_TypeDefinitionIndex = 19407;
+
 	class GridFightOrbExtraBonusConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

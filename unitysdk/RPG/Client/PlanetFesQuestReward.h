@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesQuestReward_TypeDefinitionIndex = 66623;
+
 	class PlanetFesQuestReward : public ::System::Object
 	{
 	public:

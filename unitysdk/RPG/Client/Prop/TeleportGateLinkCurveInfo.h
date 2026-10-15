@@ -5,6 +5,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int TeleportGateLinkCurveInfo_TypeDefinitionIndex = 78897;
+
 	struct alignas(8) TeleportGateLinkCurveInfo
 	{
 		::System::Int32 StartIndex; // 0x10

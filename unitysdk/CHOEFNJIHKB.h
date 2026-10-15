@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CHOEFNJIHKB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0CC830)
 #define CHOEFNJIHKB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0CC890)
 
+inline static constexpr unsigned int CHOEFNJIHKB_TypeDefinitionIndex = 30116;
+
 	class CHOEFNJIHKB : public ::System::Object
 	{
 	public:

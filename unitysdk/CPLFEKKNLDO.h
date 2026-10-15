@@ -34,6 +34,8 @@ namespace System { class String; }
 #define CPLFEKKNLDO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1426E0)
 #define CPLFEKKNLDO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E142740)
 
+inline static constexpr unsigned int CPLFEKKNLDO_TypeDefinitionIndex = 31934;
+
 	class CPLFEKKNLDO : public ::System::Object
 	{
 	public:

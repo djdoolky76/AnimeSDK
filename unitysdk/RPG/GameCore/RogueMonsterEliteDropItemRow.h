@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueMonsterEliteDropItemRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueMonsterEliteDropItemRow_TypeDefinitionIndex = 14693;
+
 	class RogueMonsterEliteDropItemRow : public ::System::Object
 	{
 	public:

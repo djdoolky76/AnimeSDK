@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int GooglePlayAbTestConfigs_TypeDefinitionIndex = 7902;
+
 	class GooglePlayAbTestConfigs : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PeiPeiChallengeCheckPoint; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PeiPeiChallengeCheckPoint_TypeDefinitionIndex = 21191;
+
 	class PeiPeiChallengeCheckPoint : public ::RPG::GameCore::JsonConfig
 	{
 	public:

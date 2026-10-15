@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ElectricChainV2
 {
+	inline static constexpr unsigned int RandomUpdater_TypeDefinitionIndex = 73587;
+
 	class RandomUpdater : public ::System::Object
 	{
 	public:

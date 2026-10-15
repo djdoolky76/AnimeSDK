@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonMecanim_MecanimTranslator_ClipInfos_TypeDefinitionIndex = 45039;
+
 	class SkeletonMecanim_MecanimTranslator_ClipInfos : public ::System::Object
 	{
 	public:

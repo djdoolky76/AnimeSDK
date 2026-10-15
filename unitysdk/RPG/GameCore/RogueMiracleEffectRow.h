@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RogueMiracleEffectRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueMiracleEffectRow_TypeDefinitionIndex = 14699;
+
 	class RogueMiracleEffectRow : public ::System::Object
 	{
 	public:

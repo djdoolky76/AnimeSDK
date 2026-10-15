@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GJBIPAMPICI_NOHILMOBENM_OFFSET UNITYSDK_OFFSET(0x15A5A290)
 #define GJBIPAMPICI_PMMFMADNPLD_OFFSET UNITYSDK_OFFSET(0x15A5A200)
 
+inline static constexpr unsigned int GJBIPAMPICI_TypeDefinitionIndex = 80832;
+
 	class GJBIPAMPICI : public ::System::Object
 	{
 	public:

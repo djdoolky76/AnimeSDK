@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int MenuCategoryAttribute_TypeDefinitionIndex = 38867;
+
 	class MenuCategoryAttribute : public ::System::Attribute
 	{
 	public:

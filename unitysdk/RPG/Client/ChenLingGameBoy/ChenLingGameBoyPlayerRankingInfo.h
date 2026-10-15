@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ChenLingGameBoy
 {
+	inline static constexpr unsigned int ChenLingGameBoyPlayerRankingInfo_TypeDefinitionIndex = 74806;
+
 	class ChenLingGameBoyPlayerRankingInfo : public ::System::Object
 	{
 	public:

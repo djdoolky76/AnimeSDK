@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace R3
 {
+	inline static constexpr unsigned int Result_TypeDefinitionIndex = 35966;
+
 	struct alignas(8) Result
 	{
 		::System::Exception* _Exception_k__BackingField; // 0x10

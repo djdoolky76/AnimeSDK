@@ -18,6 +18,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceResultBadgeNoticeViewModel_TypeDefinitionIndex = 81605;
+
 	class ChallengeTierceResultBadgeNoticeViewModel : public ::System::Object
 	{
 	public:

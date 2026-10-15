@@ -41,6 +41,8 @@ namespace System { class String; }
 #define FFEEHEBBLCI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E36C320)
 #define FFEEHEBBLCI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E36C380)
 
+inline static constexpr unsigned int FFEEHEBBLCI_TypeDefinitionIndex = 31342;
+
 	class FFEEHEBBLCI : public ::System::Object
 	{
 	public:

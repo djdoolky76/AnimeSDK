@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SimpRTXProxy_TypeDefinitionIndex = 70185;
+
 	class SimpRTXProxy : public ::System::Object
 	{
 	public:

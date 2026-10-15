@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::Audio
 {
+	inline static constexpr unsigned int WwiseUnmutePropAudioClip_TypeDefinitionIndex = 48860;
+
 	class WwiseUnmutePropAudioClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

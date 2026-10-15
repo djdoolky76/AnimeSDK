@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int SubMissionSnapshot___c_TypeDefinitionIndex = 25837;
+
 	class SubMissionSnapshot___c : public ::System::Object
 	{
 	public:

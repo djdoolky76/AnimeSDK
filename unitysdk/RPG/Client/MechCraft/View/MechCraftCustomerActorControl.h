@@ -16,6 +16,8 @@ namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCustomerActorControl_TypeDefinitionIndex = 79985;
+
 	class MechCraftCustomerActorControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

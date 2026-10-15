@@ -5,6 +5,8 @@
 #define AFMLOPJNMAK_CTOR_OFFSET UNITYSDK_OFFSET(0xCF19060)
 #define AFMLOPJNMAK_FHAAHMEJMCI_OFFSET UNITYSDK_OFFSET(0xCF18DE0)
 
+inline static constexpr unsigned int AFMLOPJNMAK_TypeDefinitionIndex = 66511;
+
 	class AFMLOPJNMAK : public ::FMIHMGNLBPN
 	{
 	public:

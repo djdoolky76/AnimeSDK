@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveMessageService_TypeDefinitionIndex = 75371;
+
 	class IdleLiveMessageService : public ::System::Object
 	{
 	public:

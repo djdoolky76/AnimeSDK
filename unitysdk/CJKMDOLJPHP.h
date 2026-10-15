@@ -34,6 +34,8 @@ namespace System { class String; }
 #define CJKMDOLJPHP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0E2670)
 #define CJKMDOLJPHP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0E26D0)
 
+inline static constexpr unsigned int CJKMDOLJPHP_TypeDefinitionIndex = 34074;
+
 	class CJKMDOLJPHP : public ::System::Object
 	{
 	public:

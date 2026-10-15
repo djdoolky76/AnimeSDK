@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournHandbookMiracleCollection_TypeDefinitionIndex = 67656;
+
 	class RogueTournHandbookMiracleCollection
 	{
 	public:

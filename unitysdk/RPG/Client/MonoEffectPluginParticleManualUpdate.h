@@ -12,6 +12,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginParticleManualUpdate_TypeDefinitionIndex = 70089;
+
 	class MonoEffectPluginParticleManualUpdate : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

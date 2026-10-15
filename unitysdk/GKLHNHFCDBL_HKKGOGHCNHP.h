@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GKLHNHFCDBL_HKKGOGHCNHP_HIDEJDELEEB_OFFSET UNITYSDK_OFFSET(0x15AA14C0)
 #define GKLHNHFCDBL_HKKGOGHCNHP_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x15AA1520)
 
+inline static constexpr unsigned int GKLHNHFCDBL_HKKGOGHCNHP_TypeDefinitionIndex = 67780;
+
 	class GKLHNHFCDBL_HKKGOGHCNHP : public ::System::Object
 	{
 	public:

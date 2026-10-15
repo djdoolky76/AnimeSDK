@@ -13,6 +13,8 @@ namespace System::Threading { class ManualResetEvent; }
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int AsyncStreamReader_TypeDefinitionIndex = 2545;
+
 	class AsyncStreamReader : public ::System::Object
 	{
 	public:

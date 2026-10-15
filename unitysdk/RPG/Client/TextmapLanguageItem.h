@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TextmapLanguageItem_TypeDefinitionIndex = 61253;
+
 	class TextmapLanguageItem : public ::System::Object
 	{
 	public:

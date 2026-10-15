@@ -39,6 +39,8 @@ namespace System { class String; }
 #define NAPNODDGMMI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EACAC30)
 #define NAPNODDGMMI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EACAC90)
 
+inline static constexpr unsigned int NAPNODDGMMI_TypeDefinitionIndex = 27337;
+
 	class NAPNODDGMMI : public ::System::Object
 	{
 	public:

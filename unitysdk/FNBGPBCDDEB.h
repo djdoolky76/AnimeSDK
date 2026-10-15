@@ -9,6 +9,8 @@ class GDLKLEPOLOK;
 #define FNBGPBCDDEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE0D660)
 #define FNBGPBCDDEB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE0D130)
 
+inline static constexpr unsigned int FNBGPBCDDEB_TypeDefinitionIndex = 11993;
+
 	class FNBGPBCDDEB : public ::System::Object
 	{
 	public:

@@ -30,6 +30,8 @@ namespace UnityEngine { class Transform; }
 #define PMOMDOHCCOO_ONSELECT_OFFSET UNITYSDK_OFFSET(0xC32A380)
 #define PMOMDOHCCOO_SET_ID_OFFSET UNITYSDK_OFFSET(0xC32A8E0)
 
+inline static constexpr unsigned int PMOMDOHCCOO_TypeDefinitionIndex = 75588;
+
 	class PMOMDOHCCOO : public ::System::Object
 	{
 	public:

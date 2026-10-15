@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define JGBOFNGGDOK_OLKAHGPNFDD_OFFSET UNITYSDK_OFFSET(0xB193D60)
 #define JGBOFNGGDOK_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB193F30)
 
+inline static constexpr unsigned int JGBOFNGGDOK_TypeDefinitionIndex = 78167;
+
 	class JGBOFNGGDOK : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client { class PlanetFesAvatarData; }
 #define JJGFIMMGAJO_ISTRIGGERED_OFFSET UNITYSDK_OFFSET(0xB204710)
 #define JJGFIMMGAJO__ONINITPARAM_OFFSET UNITYSDK_OFFSET(0xB204660)
 
+inline static constexpr unsigned int JJGFIMMGAJO_TypeDefinitionIndex = 66542;
+
 	class JJGFIMMGAJO : public ::RPG::Client::BasePlanetFesBuff
 	{
 	public:

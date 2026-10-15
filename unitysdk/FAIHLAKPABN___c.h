@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FAIHLAKPABN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E326910)
 #define FAIHLAKPABN___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E326920)
 
+inline static constexpr unsigned int FAIHLAKPABN___c_TypeDefinitionIndex = 29691;
+
 	class FAIHLAKPABN___c : public ::System::Object
 	{
 	public:

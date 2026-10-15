@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleBulletView_TypeDefinitionIndex = 15712;
+
 	class ChenLingBattleBulletView : public ::RPG::GameCore::JsonConfig
 	{
 	public:

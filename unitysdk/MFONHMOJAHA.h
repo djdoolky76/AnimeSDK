@@ -7,6 +7,8 @@
 
 #define MFONHMOJAHA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9255C0)
 
+inline static constexpr unsigned int MFONHMOJAHA_TypeDefinitionIndex = 42263;
+
 	class MFONHMOJAHA : public ::System::Object
 	{
 	public:

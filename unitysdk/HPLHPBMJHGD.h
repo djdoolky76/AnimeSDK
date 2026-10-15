@@ -18,6 +18,8 @@ namespace RPG::GameCore { class RogueTournAdventureRoomRow; }
 #define HPLHPBMJHGD_SET_ADVENTURETYPE_OFFSET UNITYSDK_OFFSET(0x15DD37A0)
 #define HPLHPBMJHGD_SET_PARAMGROUPID_OFFSET UNITYSDK_OFFSET(0x15DD37C0)
 
+inline static constexpr unsigned int HPLHPBMJHGD_TypeDefinitionIndex = 67161;
+
 	class HPLHPBMJHGD : public ::System::Object
 	{
 	public:

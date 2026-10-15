@@ -5,6 +5,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 #define BECGIIJOOJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1630D4A0)
 
+inline static constexpr unsigned int BECGIIJOOJP_TypeDefinitionIndex = 61073;
+
 	class BECGIIJOOJP : public ::System::Object
 	{
 	public:

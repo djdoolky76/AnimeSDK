@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueCompositionTypeDisableOperation_TypeDefinitionIndex = 15052;
+
 	enum class RogueCompositionTypeDisableOperation : ::System::Int32
 	{
 		None = 0,

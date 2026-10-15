@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EKIOCLBBOFE_CTOR_OFFSET UNITYSDK_OFFSET(0x15506490)
 #define EKIOCLBBOFE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155064C0)
 
+inline static constexpr unsigned int EKIOCLBBOFE_TypeDefinitionIndex = 53301;
+
 	class EKIOCLBBOFE
 	{
 	public:

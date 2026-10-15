@@ -30,6 +30,8 @@ namespace System { class String; }
 #define AJAOJOEAGML_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E283FF0)
 #define AJAOJOEAGML_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E284050)
 
+inline static constexpr unsigned int AJAOJOEAGML_TypeDefinitionIndex = 32720;
+
 	class AJAOJOEAGML : public ::System::Object
 	{
 	public:

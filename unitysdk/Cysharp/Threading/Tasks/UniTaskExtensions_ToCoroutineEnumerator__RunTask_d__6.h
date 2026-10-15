@@ -11,6 +11,8 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTaskExtensions_ToCoroutineEnumerator__RunTask_d__6_TypeDefinitionIndex = 38407;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	struct alignas(8) UniTaskExtensions_ToCoroutineEnumerator__RunTask_d__6
 	{

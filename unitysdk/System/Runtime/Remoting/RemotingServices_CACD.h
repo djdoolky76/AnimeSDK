@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace System::Runtime::Remoting
 {
+	inline static constexpr unsigned int RemotingServices_CACD_TypeDefinitionIndex = 1219;
+
 	class RemotingServices_CACD : public ::System::Object
 	{
 	public:

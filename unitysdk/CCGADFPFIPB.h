@@ -5,6 +5,8 @@
 
 #define CCGADFPFIPB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DD370)
 
+inline static constexpr unsigned int CCGADFPFIPB_TypeDefinitionIndex = 42125;
+
 	class CCGADFPFIPB : public ::System::Object
 	{
 	public:

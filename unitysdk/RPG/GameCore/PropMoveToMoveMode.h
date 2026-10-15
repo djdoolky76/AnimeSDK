@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropMoveToMoveMode_TypeDefinitionIndex = 24574;
+
 	enum class PropMoveToMoveMode : ::System::Int32
 	{
 		ByDuration = 0,

@@ -25,6 +25,8 @@ namespace RPG::Client { class StageHarmonyEmotionOperatorMonoPlugin; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageHarmonyEmotionOperatorBehavior_TypeDefinitionIndex = 70964;
+
 	class StageHarmonyEmotionOperatorBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

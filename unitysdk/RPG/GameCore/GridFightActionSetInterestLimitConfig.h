@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightActionSetInterestLimitConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightActionSetInterestLimitConfig_TypeDefinitionIndex = 19300;
+
 	class GridFightActionSetInterestLimitConfig : public ::RPG::GameCore::GridFightActionConfigBase
 	{
 	public:

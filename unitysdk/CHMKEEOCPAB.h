@@ -6,6 +6,8 @@
 #define CHMKEEOCPAB_GET_ORDERID_OFFSET UNITYSDK_OFFSET(0x1C54CB40)
 #define CHMKEEOCPAB_SET_ORDERID_OFFSET UNITYSDK_OFFSET(0x1C54CB50)
 
+inline static constexpr unsigned int CHMKEEOCPAB_TypeDefinitionIndex = 41735;
+
 	class CHMKEEOCPAB : public ::LBMCGPOLJHO
 	{
 	public:

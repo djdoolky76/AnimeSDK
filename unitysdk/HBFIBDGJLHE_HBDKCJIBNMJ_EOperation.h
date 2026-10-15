@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int HBFIBDGJLHE_HBDKCJIBNMJ_EOperation_TypeDefinitionIndex = 82186;
+
 	enum class HBFIBDGJLHE_HBDKCJIBNMJ_EOperation : ::System::Int32
 	{
 		None = 0,

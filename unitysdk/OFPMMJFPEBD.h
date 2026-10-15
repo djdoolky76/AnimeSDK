@@ -11,6 +11,8 @@ class ECPDFJJNDBI;
 #define OFPMMJFPEBD_IIBLNDECKMN_1_OFFSET UNITYSDK_OFFSET(0x1C4CD7D0)
 #define OFPMMJFPEBD_IIBLNDECKMN_OFFSET UNITYSDK_OFFSET(0x1C4CD780)
 
+inline static constexpr unsigned int OFPMMJFPEBD_TypeDefinitionIndex = 41564;
+
 	class OFPMMJFPEBD : public ::System::Object
 	{
 	public:

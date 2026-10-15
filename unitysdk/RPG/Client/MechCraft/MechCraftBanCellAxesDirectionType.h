@@ -3,6 +3,8 @@
 
 namespace RPG::Client::MechCraft
 {
+	inline static constexpr unsigned int MechCraftBanCellAxesDirectionType_TypeDefinitionIndex = 41645;
+
 	enum class MechCraftBanCellAxesDirectionType : ::System::Int32
 	{
 		None = 0,

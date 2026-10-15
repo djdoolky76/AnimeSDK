@@ -6,6 +6,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client::PetDiy
 {
+	inline static constexpr unsigned int PetDiyEditControllerBase___O_TypeDefinitionIndex = 74486;
+
 	class PetDiyEditControllerBase___O : public ::System::Object
 	{
 	public:

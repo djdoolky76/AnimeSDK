@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define LAKPHDOKIGE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB5E6A20)
 #define LAKPHDOKIGE_TICK_OFFSET UNITYSDK_OFFSET(0xB5E6980)
 
+inline static constexpr unsigned int LAKPHDOKIGE_TypeDefinitionIndex = 58483;
+
 	class LAKPHDOKIGE : public ::GELIALJDFBL
 	{
 	public:

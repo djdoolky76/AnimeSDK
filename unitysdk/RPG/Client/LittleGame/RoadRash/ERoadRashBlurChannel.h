@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGame::RoadRash
 {
+	inline static constexpr unsigned int ERoadRashBlurChannel_TypeDefinitionIndex = 42894;
+
 	enum class ERoadRashBlurChannel : ::System::Int32
 	{
 		Default = 0,

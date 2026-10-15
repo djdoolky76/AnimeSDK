@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GEKBDAKFNHK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E45A7A0)
 #define GEKBDAKFNHK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E45A800)
 
+inline static constexpr unsigned int GEKBDAKFNHK_TypeDefinitionIndex = 29399;
+
 	class GEKBDAKFNHK : public ::System::Object
 	{
 	public:

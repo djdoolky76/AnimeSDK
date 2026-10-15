@@ -8,6 +8,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int EqualInstruction_EqualInt64_TypeDefinitionIndex = 3366;
+
 	class EqualInstruction_EqualInt64 : public ::System::Linq::Expressions::Interpreter::EqualInstruction
 	{
 	public:

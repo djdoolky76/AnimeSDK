@@ -9,6 +9,8 @@ namespace System { class String; }
 #define GDPGBLHPJNO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE315E0)
 #define GDPGBLHPJNO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE312D0)
 
+inline static constexpr unsigned int GDPGBLHPJNO_TypeDefinitionIndex = 11281;
+
 	class GDPGBLHPJNO : public ::System::Object
 	{
 	public:

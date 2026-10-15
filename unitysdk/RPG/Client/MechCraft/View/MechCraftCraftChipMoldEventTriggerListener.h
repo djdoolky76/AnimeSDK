@@ -12,6 +12,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftChipMoldEventTriggerListener_TypeDefinitionIndex = 79859;
+
 	class MechCraftCraftChipMoldEventTriggerListener : public ::RPG::Client::FilterDragEventTriggerListener
 	{
 	public:

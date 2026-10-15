@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int AkQueryRTPCValue_TypeDefinitionIndex = 44780;
+
 	enum class AkQueryRTPCValue : ::System::Int32
 	{
 		RTPCValue_Default = 0,

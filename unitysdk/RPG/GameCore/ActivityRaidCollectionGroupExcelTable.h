@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityRaidCollectionGroupExcelTable_TypeDefinitionIndex = 12323;
+
 	class ActivityRaidCollectionGroupExcelTable : public ::System::Object
 	{
 	public:

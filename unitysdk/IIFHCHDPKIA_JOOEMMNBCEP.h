@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int IIFHCHDPKIA_JOOEMMNBCEP_TypeDefinitionIndex = 31674;
+
 	enum class IIFHCHDPKIA_JOOEMMNBCEP : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

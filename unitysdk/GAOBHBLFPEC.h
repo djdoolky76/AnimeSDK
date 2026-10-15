@@ -33,6 +33,8 @@ namespace System { class String; }
 #define GAOBHBLFPEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4258A0)
 #define GAOBHBLFPEC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E425900)
 
+inline static constexpr unsigned int GAOBHBLFPEC_TypeDefinitionIndex = 32654;
+
 	class GAOBHBLFPEC : public ::System::Object
 	{
 	public:

@@ -46,6 +46,8 @@ namespace UnityEngine { class Coroutine; }
 #define IPIBEOOJMBE_PEIMEMNHFKM_OFFSET UNITYSDK_OFFSET(0x16522AA0)
 #define IPIBEOOJMBE_PLIADKGLEPA_OFFSET UNITYSDK_OFFSET(0x16522D60)
 
+inline static constexpr unsigned int IPIBEOOJMBE_TypeDefinitionIndex = 60555;
+
 	class IPIBEOOJMBE : public ::DKBCNADLOGN
 	{
 	public:

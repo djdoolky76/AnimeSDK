@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ServerPlayerSettingBoolItem_TypeDefinitionIndex = 66700;
+
 	class ServerPlayerSettingBoolItem : public ::RPG::Client::ServerPlayerSettingItem
 	{
 	public:

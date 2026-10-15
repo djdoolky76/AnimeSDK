@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoWolfBroBossCustomData_TypeDefinitionIndex = 68630;
+
 	class MonoWolfBroBossCustomData : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -4,6 +4,8 @@ namespace System { class String; }
 
 #define OPPEGLOCAGH_CCMBOGFDEII_CTOR_OFFSET UNITYSDK_OFFSET(0x10480)
 
+inline static constexpr unsigned int OPPEGLOCAGH_CCMBOGFDEII_TypeDefinitionIndex = 41694;
+
 	struct alignas(8) OPPEGLOCAGH_CCMBOGFDEII
 	{
 		::System::String* OENAMINOLLF; // 0x10

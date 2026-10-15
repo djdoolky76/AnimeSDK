@@ -7,6 +7,8 @@
 #define PPIGLFFDLIH_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0xC389590)
 #define PPIGLFFDLIH_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0xC389690)
 
+inline static constexpr unsigned int PPIGLFFDLIH_TypeDefinitionIndex = 77103;
+
 	class PPIGLFFDLIH : public ::GJOFNOCMMKL
 	{
 	public:

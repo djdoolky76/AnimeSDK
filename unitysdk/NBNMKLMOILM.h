@@ -29,6 +29,8 @@ namespace System { class String; }
 #define NBNMKLMOILM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAD5340)
 #define NBNMKLMOILM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAD53A0)
 
+inline static constexpr unsigned int NBNMKLMOILM_TypeDefinitionIndex = 27707;
+
 	class NBNMKLMOILM : public ::System::Object
 	{
 	public:

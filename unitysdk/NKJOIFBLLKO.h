@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NKJOIFBLLKO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB599A0)
 #define NKJOIFBLLKO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB59A00)
 
+inline static constexpr unsigned int NKJOIFBLLKO_TypeDefinitionIndex = 31976;
+
 	class NKJOIFBLLKO : public ::System::Object
 	{
 	public:

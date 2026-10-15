@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsPostViewModel___c_TypeDefinitionIndex = 80471;
+
 	class LimaoNewsPostViewModel___c : public ::System::Object
 	{
 	public:

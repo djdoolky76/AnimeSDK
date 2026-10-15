@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define FAILCGLDICF_REMOVE_ONTRANSFORMCHANGED_OFFSET UNITYSDK_OFFSET(0x1567F0C0)
 #define FAILCGLDICF___NOTIFYBUFFEDCELLSMAYBECHANGED_B__17_3_OFFSET UNITYSDK_OFFSET(0x1567F230)
 
+inline static constexpr unsigned int FAILCGLDICF_TypeDefinitionIndex = 79499;
+
 	class FAILCGLDICF : public ::System::Object
 	{
 	public:

@@ -37,6 +37,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoRogueHexChessBoard_TypeDefinitionIndex = 68921;
+
 	class MonoRogueHexChessBoard : public ::UnityEngine::MonoBehaviour
 	{
 	public:

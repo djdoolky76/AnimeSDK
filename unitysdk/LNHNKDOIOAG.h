@@ -29,6 +29,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define LNHNKDOIOAG_SET_ORDER_OFFSET UNITYSDK_OFFSET(0xB7E3450)
 #define LNHNKDOIOAG__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0xB7E2C60)
 
+inline static constexpr unsigned int LNHNKDOIOAG_TypeDefinitionIndex = 54202;
+
 	class LNHNKDOIOAG : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

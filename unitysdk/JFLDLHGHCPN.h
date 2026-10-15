@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 #define JFLDLHGHCPN_LGPLAOGBGLM_OFFSET UNITYSDK_OFFSET(0x166506F0)
 #define JFLDLHGHCPN_NKEBOIHBCCD_OFFSET UNITYSDK_OFFSET(0x16650950)
 
+inline static constexpr unsigned int JFLDLHGHCPN_TypeDefinitionIndex = 56890;
+
 	class JFLDLHGHCPN : public ::NPKNJAMIKEA
 	{
 	public:

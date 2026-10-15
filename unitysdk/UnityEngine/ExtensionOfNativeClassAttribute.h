@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ExtensionOfNativeClassAttribute_TypeDefinitionIndex = 4326;
+
 	class ExtensionOfNativeClassAttribute : public ::System::Attribute
 	{
 	public:

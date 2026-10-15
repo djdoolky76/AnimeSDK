@@ -5,6 +5,8 @@
 
 #define GOJOAIGGHJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC6F1E0)
 
+inline static constexpr unsigned int GOJOAIGGHJB_TypeDefinitionIndex = 44300;
+
 	class GOJOAIGGHJB : public ::System::Exception
 	{
 	public:

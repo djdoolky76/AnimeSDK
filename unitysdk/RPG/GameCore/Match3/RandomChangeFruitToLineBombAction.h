@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class RandomChangeFruitToLineBombAction; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int RandomChangeFruitToLineBombAction_TypeDefinitionIndex = 24918;
+
 	class RandomChangeFruitToLineBombAction : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:

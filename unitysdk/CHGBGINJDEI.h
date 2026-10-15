@@ -11,6 +11,8 @@ namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelRuntim
 #define CHGBGINJDEI_JCOIGCGPMDJ_OFFSET UNITYSDK_OFFSET(0xCF48460)
 #define CHGBGINJDEI_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xCF48330)
 
+inline static constexpr unsigned int CHGBGINJDEI_TypeDefinitionIndex = 76812;
+
 	class CHGBGINJDEI : public ::System::Object
 	{
 	public:

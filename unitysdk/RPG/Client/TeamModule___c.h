@@ -11,6 +11,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TeamModule___c_TypeDefinitionIndex = 68132;
+
 	class TeamModule___c : public ::System::Object
 	{
 	public:

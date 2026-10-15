@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveSpineAnimTriggerType_TypeDefinitionIndex = 11812;
+
 	enum class IdleLiveSpineAnimTriggerType : ::System::Int32
 	{
 		None = 0,

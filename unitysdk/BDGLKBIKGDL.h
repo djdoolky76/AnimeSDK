@@ -9,6 +9,8 @@
 #define BDGLKBIKGDL_NEIFJAGPBCF_1_OFFSET UNITYSDK_OFFSET(0x1EBEF980)
 #define BDGLKBIKGDL_NEIFJAGPBCF_OFFSET UNITYSDK_OFFSET(0x1EBEF550)
 
+inline static constexpr unsigned int BDGLKBIKGDL_TypeDefinitionIndex = 35193;
+
 	class BDGLKBIKGDL : public ::System::Object
 	{
 	public:

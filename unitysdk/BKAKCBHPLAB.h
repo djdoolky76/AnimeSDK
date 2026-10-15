@@ -11,6 +11,8 @@ namespace System { class String; }
 #define BKAKCBHPLAB_GLDEHIOBKPB_OFFSET UNITYSDK_OFFSET(0xB7AC1B0)
 #define BKAKCBHPLAB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7ABBF0)
 
+inline static constexpr unsigned int BKAKCBHPLAB_TypeDefinitionIndex = 53082;
+
 	class BKAKCBHPLAB
 	{
 	public:

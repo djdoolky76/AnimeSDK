@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RandomSelectMonsterIDFromPool_TypeDefinitionIndex = 23275;
+
 	class RandomSelectMonsterIDFromPool : public ::RPG::GameCore::TaskConfig
 	{
 	public:

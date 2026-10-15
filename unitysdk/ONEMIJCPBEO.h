@@ -10,6 +10,8 @@
 #define ONEMIJCPBEO_LCIJNBGNABG_OFFSET UNITYSDK_OFFSET(0xBF51270)
 #define ONEMIJCPBEO_MJGKNFEILLI_OFFSET UNITYSDK_OFFSET(0xBF51180)
 
+inline static constexpr unsigned int ONEMIJCPBEO_TypeDefinitionIndex = 49121;
+
 	class ONEMIJCPBEO : public ::System::Object
 	{
 	public:

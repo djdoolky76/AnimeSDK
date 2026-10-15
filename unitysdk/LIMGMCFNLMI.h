@@ -6,6 +6,8 @@ namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 #define LIMGMCFNLMI_CTOR_OFFSET UNITYSDK_OFFSET(0xB6DAEE0)
 #define LIMGMCFNLMI_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB6DAE50)
 
+inline static constexpr unsigned int LIMGMCFNLMI_TypeDefinitionIndex = 76280;
+
 	class LIMGMCFNLMI : public ::MLKDDLHNNHH
 	{
 	public:

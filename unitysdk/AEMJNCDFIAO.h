@@ -5,6 +5,8 @@
 
 #define AEMJNCDFIAO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C879420)
 
+inline static constexpr unsigned int AEMJNCDFIAO_TypeDefinitionIndex = 43207;
+
 	class AEMJNCDFIAO : public ::System::Object
 	{
 	public:

@@ -69,6 +69,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarSkillRowData_TypeDefinitionIndex = 57675;
+
 	class AvatarSkillRowData : public ::System::Object
 	{
 	public:

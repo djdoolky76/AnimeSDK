@@ -29,6 +29,8 @@ namespace System { class Object; }
 #define NDPPHPJKOLN_SET_CONTACTLISTENER_OFFSET UNITYSDK_OFFSET(0x1C787BD0)
 #define NDPPHPJKOLN_SET_WORLD_OFFSET UNITYSDK_OFFSET(0x1C787BB0)
 
+inline static constexpr unsigned int NDPPHPJKOLN_TypeDefinitionIndex = 36552;
+
 	class NDPPHPJKOLN : public ::System::Object
 	{
 	public:

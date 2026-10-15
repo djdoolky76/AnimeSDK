@@ -11,6 +11,8 @@ namespace UnityEngine::Tilemaps { class Tilemap; }
 
 namespace UnityEngine::Tilemaps
 {
+	inline static constexpr unsigned int ITilemap_TypeDefinitionIndex = 5854;
+
 	class ITilemap : public ::System::Object
 	{
 	public:

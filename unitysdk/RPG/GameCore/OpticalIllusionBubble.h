@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OpticalIllusionBubble_TypeDefinitionIndex = 22225;
+
 	class OpticalIllusionBubble : public ::RPG::GameCore::TaskConfig
 	{
 	public:

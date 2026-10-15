@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CullingAllocationInfo_TypeDefinitionIndex = 4750;
+
 	struct alignas(8) CullingAllocationInfo
 	{
 		::PVOID visibleLightsPtr; // 0x10

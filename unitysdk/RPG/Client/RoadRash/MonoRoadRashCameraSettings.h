@@ -16,6 +16,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int MonoRoadRashCameraSettings_TypeDefinitionIndex = 75842;
+
 	class MonoRoadRashCameraSettings : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -7,6 +7,8 @@ class JIGPGHCDBOE;
 #define MBPKHMAJLGK_GET_OWNER_OFFSET UNITYSDK_OFFSET(0xB871FD0)
 #define MBPKHMAJLGK_SET_OWNER_OFFSET UNITYSDK_OFFSET(0xB871FE0)
 
+inline static constexpr unsigned int MBPKHMAJLGK_TypeDefinitionIndex = 79791;
+
 	class MBPKHMAJLGK : public ::System::Object
 	{
 	public:

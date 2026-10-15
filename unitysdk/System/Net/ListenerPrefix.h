@@ -18,6 +18,8 @@ namespace System::Net { class HttpListener; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int ListenerPrefix_TypeDefinitionIndex = 2866;
+
 	class ListenerPrefix : public ::System::Object
 	{
 	public:

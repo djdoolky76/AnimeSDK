@@ -20,6 +20,8 @@
 #define GOEGNFMOAAC_SET_ROTATIONRATE_OFFSET UNITYSDK_OFFSET(0x15B2C410)
 #define GOEGNFMOAAC_SET_USERACCELERATION_OFFSET UNITYSDK_OFFSET(0x15B2C4A0)
 
+inline static constexpr unsigned int GOEGNFMOAAC_TypeDefinitionIndex = 68296;
+
 	class GOEGNFMOAAC : public ::System::Object
 	{
 	public:

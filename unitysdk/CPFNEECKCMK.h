@@ -36,6 +36,8 @@ namespace System { class String; }
 #define CPFNEECKCMK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E13CBE0)
 #define CPFNEECKCMK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E13CC40)
 
+inline static constexpr unsigned int CPFNEECKCMK_TypeDefinitionIndex = 30045;
+
 	class CPFNEECKCMK : public ::System::Object
 	{
 	public:

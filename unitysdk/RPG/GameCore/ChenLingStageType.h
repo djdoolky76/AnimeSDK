@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingStageType_TypeDefinitionIndex = 11074;
+
 	enum class ChenLingStageType : ::System::Int32
 	{
 		Teaching = 0,

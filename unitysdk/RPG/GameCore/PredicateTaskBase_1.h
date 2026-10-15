@@ -5,6 +5,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PredicateTaskBase_1_TypeDefinitionIndex = 54789;
+
 	template <typename T>
 	class PredicateTaskBase_1 : public ::GELIALJDFBL
 	{

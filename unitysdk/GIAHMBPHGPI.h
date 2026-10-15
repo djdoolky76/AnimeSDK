@@ -33,6 +33,8 @@ namespace System { class String; }
 #define GIAHMBPHGPI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4914D0)
 #define GIAHMBPHGPI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E491530)
 
+inline static constexpr unsigned int GIAHMBPHGPI_TypeDefinitionIndex = 30573;
+
 	class GIAHMBPHGPI : public ::System::Object
 	{
 	public:

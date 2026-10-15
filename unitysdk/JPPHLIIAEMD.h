@@ -13,6 +13,8 @@ namespace Proto { class MonopolyActionResult; }
 #define JPPHLIIAEMD_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xB2CF780)
 #define JPPHLIIAEMD_TRIGGER_OFFSET UNITYSDK_OFFSET(0xB2CF530)
 
+inline static constexpr unsigned int JPPHLIIAEMD_TypeDefinitionIndex = 66224;
+
 	class JPPHLIIAEMD : public ::System::Object
 	{
 	public:

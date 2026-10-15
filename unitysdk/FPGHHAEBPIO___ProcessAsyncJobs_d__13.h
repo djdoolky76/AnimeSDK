@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define FPGHHAEBPIO___PROCESSASYNCJOBS_D__13_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x15919460)
 #define FPGHHAEBPIO___PROCESSASYNCJOBS_D__13_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x159192F0)
 
+inline static constexpr unsigned int FPGHHAEBPIO___ProcessAsyncJobs_d__13_TypeDefinitionIndex = 73786;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13>
 	class FPGHHAEBPIO___ProcessAsyncJobs_d__13 : public ::System::Object
 	{

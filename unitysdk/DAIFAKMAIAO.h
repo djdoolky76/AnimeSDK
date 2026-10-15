@@ -19,6 +19,8 @@ namespace UnityEngine { class RectTransform; }
 #define DAIFAKMAIAO_NJBDJBHEBAN_OFFSET UNITYSDK_OFFSET(0xDFC3400)
 #define DAIFAKMAIAO_ODGLEFLLDPI_OFFSET UNITYSDK_OFFSET(0xDFC3700)
 
+inline static constexpr unsigned int DAIFAKMAIAO_TypeDefinitionIndex = 71958;
+
 	class DAIFAKMAIAO : public ::System::Object
 	{
 	public:

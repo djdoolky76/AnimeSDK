@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 #define OGAPCFAJDLM_CTOR_OFFSET UNITYSDK_OFFSET(0xBE4E380)
 #define OGAPCFAJDLM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE4E3B0)
 
+inline static constexpr unsigned int OGAPCFAJDLM_TypeDefinitionIndex = 55206;
+
 	class OGAPCFAJDLM
 	{
 	public:

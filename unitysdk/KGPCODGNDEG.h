@@ -30,6 +30,8 @@ namespace System { class String; }
 #define KGPCODGNDEG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E83CE70)
 #define KGPCODGNDEG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E83CED0)
 
+inline static constexpr unsigned int KGPCODGNDEG_TypeDefinitionIndex = 30783;
+
 	class KGPCODGNDEG : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client { class SwordTrainingSkillData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SwordTrainingSkillInfo___c__DisplayClass3_0_TypeDefinitionIndex = 61974;
+
 	class SwordTrainingSkillInfo___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

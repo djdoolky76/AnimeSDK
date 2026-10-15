@@ -351,6 +351,8 @@ namespace UnityEngine { class GameObject; }
 #define EDPHMDDGGGL___STARTBYTRIGGER_B__346_0_OFFSET UNITYSDK_OFFSET(0x1334B5E0)
 #define EDPHMDDGGGL___TRYCHANGELOCALPLAYERTOSTORY_B__145_0_OFFSET UNITYSDK_OFFSET(0x1334B4B0)
 
+inline static constexpr unsigned int EDPHMDDGGGL_TypeDefinitionIndex = 60715;
+
 	class EDPHMDDGGGL : public ::System::Object
 	{
 	public:

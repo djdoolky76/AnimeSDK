@@ -7,6 +7,8 @@ class GIPFFGFJCBF;
 #define GIPFFGFJCBF___C__DISPLAYCLASS41_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15A52D60)
 #define GIPFFGFJCBF___C__DISPLAYCLASS41_0___ONBATTLESHOWAVATARHUDSPECIALEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x15A53220)
 
+inline static constexpr unsigned int GIPFFGFJCBF___c__DisplayClass41_0_TypeDefinitionIndex = 71433;
+
 	class GIPFFGFJCBF___c__DisplayClass41_0 : public ::System::Object
 	{
 	public:

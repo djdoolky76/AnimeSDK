@@ -11,6 +11,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftCraftProgressAttrTraitDe
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftProgressAttrTraitDetailTraitControl_TypeDefinitionIndex = 79926;
+
 	class MechCraftCraftProgressAttrTraitDetailTraitControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

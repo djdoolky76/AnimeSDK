@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KMOKCHFNKAH_START_OFFSET UNITYSDK_OFFSET(0xB56A300)
 #define KMOKCHFNKAH_STOP_OFFSET UNITYSDK_OFFSET(0xB56A340)
 
+inline static constexpr unsigned int KMOKCHFNKAH_TypeDefinitionIndex = 62764;
+
 	class KMOKCHFNKAH : public ::BHPMNMMGLHI
 	{
 	public:

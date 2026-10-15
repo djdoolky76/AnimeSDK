@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define EINDOIIAMOB_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD8C730)
 #define EINDOIIAMOB_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD8C010)
 
+inline static constexpr unsigned int EINDOIIAMOB_TypeDefinitionIndex = 13406;
+
 	class EINDOIIAMOB : public ::System::Object
 	{
 	public:

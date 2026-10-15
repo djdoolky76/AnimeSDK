@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Cloud
 {
+	inline static constexpr unsigned int CloudDataStorage___c_TypeDefinitionIndex = 8882;
+
 	class CloudDataStorage___c : public ::System::Object
 	{
 	public:

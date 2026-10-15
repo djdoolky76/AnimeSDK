@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BOIEOAPGENC_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1C8C3790)
 #define BOIEOAPGENC_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1C8C3B00)
 
+inline static constexpr unsigned int BOIEOAPGENC_TypeDefinitionIndex = 42199;
+
 	class BOIEOAPGENC : public ::CKFDNGOHNPC
 	{
 	public:

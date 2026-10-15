@@ -7,6 +7,8 @@ namespace UnityEngine { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoUIColorSwitcher_NodeItem_TypeDefinitionIndex = 68977;
+
 	class MonoUIColorSwitcher_NodeItem : public ::System::Object
 	{
 	public:

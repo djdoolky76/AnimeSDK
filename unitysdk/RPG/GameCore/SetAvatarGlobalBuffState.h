@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SetAvatarGlobalBuffState; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetAvatarGlobalBuffState_TypeDefinitionIndex = 22738;
+
 	class SetAvatarGlobalBuffState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

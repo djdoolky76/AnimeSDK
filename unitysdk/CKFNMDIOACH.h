@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CKFNMDIOACH_CTOR_OFFSET UNITYSDK_OFFSET(0xD759F90)
 #define CKFNMDIOACH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD759FC0)
 
+inline static constexpr unsigned int CKFNMDIOACH_TypeDefinitionIndex = 54921;
+
 	class CKFNMDIOACH
 	{
 	public:

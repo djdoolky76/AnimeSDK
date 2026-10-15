@@ -32,6 +32,8 @@ namespace System { class String; }
 #define ICKLANINJDB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E623A10)
 #define ICKLANINJDB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E623A70)
 
+inline static constexpr unsigned int ICKLANINJDB_TypeDefinitionIndex = 28504;
+
 	class ICKLANINJDB : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define BBGMIOOFEOC_LBNFHLPFFLD_OFFSET UNITYSDK_OFFSET(0x1C435350)
 #define BBGMIOOFEOC_OCNMECOOLON_OFFSET UNITYSDK_OFFSET(0x1C434F70)
 
+inline static constexpr unsigned int BBGMIOOFEOC_TypeDefinitionIndex = 41519;
+
 	class BBGMIOOFEOC : public ::System::Object
 	{
 	public:

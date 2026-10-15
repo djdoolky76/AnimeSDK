@@ -14,6 +14,8 @@ namespace UnityEngine { class Material; }
 #define AREAFEDEGROUP_SET_FADEMODE_OFFSET UNITYSDK_OFFSET(0x15BC5100)
 #define AREAFEDEGROUP_UPDATE_OFFSET UNITYSDK_OFFSET(0x15BC57A0)
 
+inline static constexpr unsigned int AreaFedeGroup_TypeDefinitionIndex = 47339;
+
 	class AreaFedeGroup : public ::UnityEngine::MonoBehaviour
 	{
 	public:

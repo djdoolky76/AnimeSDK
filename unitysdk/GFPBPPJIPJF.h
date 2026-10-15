@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 #define GFPBPPJIPJF_CTOR_OFFSET UNITYSDK_OFFSET(0x15A00110)
 
+inline static constexpr unsigned int GFPBPPJIPJF_TypeDefinitionIndex = 77292;
+
 	class GFPBPPJIPJF : public ::IAJLHKIHBFB
 	{
 	public:

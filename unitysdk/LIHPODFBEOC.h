@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LIHPODFBEOC_CTOR_OFFSET UNITYSDK_OFFSET(0xB6CBBD0)
 #define LIHPODFBEOC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6CBC00)
 
+inline static constexpr unsigned int LIHPODFBEOC_TypeDefinitionIndex = 52545;
+
 	class LIHPODFBEOC
 	{
 	public:

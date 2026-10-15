@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhotoGraphConditionPageParam_TypeDefinitionIndex = 69457;
+
 	struct alignas(4) PhotoGraphConditionPageParam
 	{
 		::System::Boolean IsLongRangeMode; // 0x10

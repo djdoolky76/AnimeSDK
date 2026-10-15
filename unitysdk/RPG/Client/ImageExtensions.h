@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ImageExtensions_TypeDefinitionIndex = 72779;
+
 	class ImageExtensions : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityElationBattleResult_TypeDefinitionIndex = 61507;
+
 	class ActivityElationBattleResult : public ::System::Object
 	{
 	public:

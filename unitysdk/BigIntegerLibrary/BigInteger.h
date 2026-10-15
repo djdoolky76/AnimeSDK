@@ -52,6 +52,8 @@ namespace System { class String; }
 
 namespace BigIntegerLibrary
 {
+	inline static constexpr unsigned int BigInteger_TypeDefinitionIndex = 7000;
+
 	class BigInteger : public ::System::Object
 	{
 	public:

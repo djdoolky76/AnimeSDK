@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define EJDKNIHIKGO_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x154D8450)
 #define EJDKNIHIKGO_NNJHMGPKBPF_OFFSET UNITYSDK_OFFSET(0x154D8320)
 
+inline static constexpr unsigned int EJDKNIHIKGO_TypeDefinitionIndex = 62376;
+
 	class EJDKNIHIKGO : public ::System::Object
 	{
 	public:

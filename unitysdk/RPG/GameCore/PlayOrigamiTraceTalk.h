@@ -12,6 +12,8 @@ namespace RPG::GameCore { class PlayOrigamiTraceTalk; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayOrigamiTraceTalk_TypeDefinitionIndex = 21870;
+
 	class PlayOrigamiTraceTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -25,6 +25,8 @@ namespace UnityEngine::UI { class CanvasScaler; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIPostProcessTween_TypeDefinitionIndex = 73094;
+
 	class UIPostProcessTween : public ::UnityEngine::MonoBehaviour
 	{
 	public:

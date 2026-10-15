@@ -4,6 +4,8 @@
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int IgnoreDataMemberAttribute_TypeDefinitionIndex = 3709;
+
 	class IgnoreDataMemberAttribute : public ::System::Attribute
 	{
 	public:

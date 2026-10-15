@@ -8,6 +8,8 @@ class OBJANKHLNGO;
 #define GIAJIHEEEAI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15A2E270)
 #define GIAJIHEEEAI_CTOR_OFFSET UNITYSDK_OFFSET(0x15A2E260)
 
+inline static constexpr unsigned int GIAJIHEEEAI_TypeDefinitionIndex = 79650;
+
 	class GIAJIHEEEAI : public ::System::Object
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TreasureDungeonBuff_TypeDefinitionIndex = 68187;
+
 	class TreasureDungeonBuff : public ::System::Object
 	{
 	public:

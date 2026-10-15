@@ -5,6 +5,8 @@ namespace System { class Type; }
 
 #define DIIKKFFLFJM_CTOR_OFFSET UNITYSDK_OFFSET(0xF20AD50)
 
+inline static constexpr unsigned int DIIKKFFLFJM_TypeDefinitionIndex = 57582;
+
 	class DIIKKFFLFJM : public ::System::Attribute
 	{
 	public:

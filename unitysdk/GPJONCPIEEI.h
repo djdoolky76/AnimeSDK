@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GPJONCPIEEI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4FAA70)
 #define GPJONCPIEEI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4FAAD0)
 
+inline static constexpr unsigned int GPJONCPIEEI_TypeDefinitionIndex = 34570;
+
 	class GPJONCPIEEI : public ::System::Object
 	{
 	public:

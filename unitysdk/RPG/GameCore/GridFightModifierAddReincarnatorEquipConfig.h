@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierAddReincarnatorEquipConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierAddReincarnatorEquipConfig_TypeDefinitionIndex = 19473;
+
 	class GridFightModifierAddReincarnatorEquipConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AudioSetRTPCValue_TypeDefinitionIndex = 20613;
+
 	class AudioSetRTPCValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int PropertyAnalysis_TypeDefinitionIndex = 1612;
+
 	class PropertyAnalysis : public ::System::Object
 	{
 	public:

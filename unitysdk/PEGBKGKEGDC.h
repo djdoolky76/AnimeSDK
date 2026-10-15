@@ -10,6 +10,8 @@
 #define PEGBKGKEGDC_MCEPPPJPEGG_OFFSET UNITYSDK_OFFSET(0x1D30)
 #define PEGBKGKEGDC_NLOPAOJDOAG_OFFSET UNITYSDK_OFFSET(0x1D40)
 
+inline static constexpr unsigned int PEGBKGKEGDC_TypeDefinitionIndex = 9941;
+
 	struct alignas(4) PEGBKGKEGDC
 	{
 		::System::Int64 KIPJPGOLEJH; // 0x10

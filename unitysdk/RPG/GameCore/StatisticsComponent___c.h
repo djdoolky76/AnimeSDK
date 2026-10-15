@@ -23,6 +23,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StatisticsComponent___c_TypeDefinitionIndex = 57634;
+
 	class StatisticsComponent___c : public ::System::Object
 	{
 	public:

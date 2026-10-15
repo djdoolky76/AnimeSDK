@@ -32,6 +32,8 @@ namespace System { class String; }
 #define JEIKFFFGONB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E71E120)
 #define JEIKFFFGONB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E71E180)
 
+inline static constexpr unsigned int JEIKFFFGONB_TypeDefinitionIndex = 33223;
+
 	class JEIKFFFGONB : public ::System::Object
 	{
 	public:

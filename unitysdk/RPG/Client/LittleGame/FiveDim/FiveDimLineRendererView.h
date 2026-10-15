@@ -9,6 +9,8 @@ namespace UnityEngine { class LineRenderer; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimLineRendererView_TypeDefinitionIndex = 77186;
+
 	class FiveDimLineRendererView : public ::RPG::Client::LittleGame::FiveDim::FiveDimView
 	{
 	public:

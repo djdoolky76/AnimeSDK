@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::UINavigation
 {
+	inline static constexpr unsigned int UINavigationUtils_TypeDefinitionIndex = 51746;
+
 	class UINavigationUtils : public ::System::Object
 	{
 	public:

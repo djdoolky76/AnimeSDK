@@ -34,6 +34,8 @@ namespace System { class String; }
 #define KNOLJDOPBDG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8A9010)
 #define KNOLJDOPBDG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8A9070)
 
+inline static constexpr unsigned int KNOLJDOPBDG_TypeDefinitionIndex = 33413;
+
 	class KNOLJDOPBDG : public ::System::Object
 	{
 	public:

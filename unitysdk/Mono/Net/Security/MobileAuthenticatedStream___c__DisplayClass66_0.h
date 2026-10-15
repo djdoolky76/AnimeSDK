@@ -8,6 +8,8 @@ namespace Mono::Net::Security { class MobileAuthenticatedStream; }
 
 namespace Mono::Net::Security
 {
+	inline static constexpr unsigned int MobileAuthenticatedStream___c__DisplayClass66_0_TypeDefinitionIndex = 2440;
+
 	class MobileAuthenticatedStream___c__DisplayClass66_0 : public ::System::Object
 	{
 	public:

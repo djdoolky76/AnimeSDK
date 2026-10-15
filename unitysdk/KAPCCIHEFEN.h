@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KAPCCIHEFEN_PFJOJBGLCFI_OFFSET UNITYSDK_OFFSET(0xB2EBC00)
 #define KAPCCIHEFEN_PIOPGKOHBHC_OFFSET UNITYSDK_OFFSET(0xB2EB510)
 
+inline static constexpr unsigned int KAPCCIHEFEN_TypeDefinitionIndex = 54247;
+
 	class KAPCCIHEFEN : public ::System::Object
 	{
 	public:

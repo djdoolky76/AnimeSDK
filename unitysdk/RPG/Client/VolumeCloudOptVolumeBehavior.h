@@ -17,6 +17,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VolumeCloudOptVolumeBehavior_TypeDefinitionIndex = 70837;
+
 	class VolumeCloudOptVolumeBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

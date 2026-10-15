@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimChenLingEmotionAudioPostEventAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimChenLingEmotionAudioPostEventAction_TypeDefinitionIndex = 18719;
+
 	class FiveDimChenLingEmotionAudioPostEventAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

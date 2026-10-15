@@ -3,6 +3,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_Curve_CurveDrawCollision_TypeDefinitionIndex = 40383;
+
 	enum class HEU_Curve_CurveDrawCollision : ::System::Int32
 	{
 		COLLIDERS = 0,

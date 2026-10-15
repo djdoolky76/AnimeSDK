@@ -5,6 +5,8 @@
 
 #define IDKCGDNCCGC_CTOR_OFFSET UNITYSDK_OFFSET(0x15ED71E0)
 
+inline static constexpr unsigned int IDKCGDNCCGC_TypeDefinitionIndex = 63095;
+
 	class IDKCGDNCCGC : public ::System::Object
 	{
 	public:

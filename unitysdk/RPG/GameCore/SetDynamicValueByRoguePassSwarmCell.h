@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetDynamicValueByRoguePassSwarmCell; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByRoguePassSwarmCell_TypeDefinitionIndex = 21790;
+
 	class SetDynamicValueByRoguePassSwarmCell : public ::RPG::GameCore::TaskConfig
 	{
 	public:

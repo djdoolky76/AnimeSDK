@@ -25,6 +25,8 @@ namespace RPG::Client::PixAir { class PixAirEquipInstance; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirSlot_TypeDefinitionIndex = 79332;
+
 	class PixAirSlot : public ::System::Object
 	{
 	public:

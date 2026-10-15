@@ -7,6 +7,8 @@ namespace RPG::GameCore { class LevelPedestrianV2IntersectionAreaInfo; }
 #define PFFJCPFPPHG_CTOR_OFFSET UNITYSDK_OFFSET(0xC20D020)
 #define PFFJCPFPPHG_DINCADBEGGE_OFFSET UNITYSDK_OFFSET(0xC20D2B0)
 
+inline static constexpr unsigned int PFFJCPFPPHG_TypeDefinitionIndex = 69321;
+
 	class PFFJCPFPPHG : public ::LCCMNACCAMH
 	{
 	public:

@@ -73,6 +73,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::UINavigation
 {
+	inline static constexpr unsigned int UINavigationArea_TypeDefinitionIndex = 51728;
+
 	class UINavigationArea : public ::RPG::UINavigation::UINavigation
 	{
 	public:

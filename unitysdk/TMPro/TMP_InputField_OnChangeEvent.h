@@ -5,6 +5,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_InputField_OnChangeEvent_TypeDefinitionIndex = 44600;
+
 	class TMP_InputField_OnChangeEvent
 	{
 	public:

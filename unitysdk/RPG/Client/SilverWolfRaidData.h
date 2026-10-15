@@ -8,6 +8,8 @@ namespace RPG::Client { class SilverWolfImgPath; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SilverWolfRaidData_TypeDefinitionIndex = 67961;
+
 	class SilverWolfRaidData : public ::RPG::Client::SilverWolfBaseMissionData
 	{
 	public:

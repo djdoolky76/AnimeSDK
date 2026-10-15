@@ -62,6 +62,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameRefData___c_TypeDefinitionIndex = 64728;
+
 	class GridFightGameRefData___c : public ::System::Object
 	{
 	public:

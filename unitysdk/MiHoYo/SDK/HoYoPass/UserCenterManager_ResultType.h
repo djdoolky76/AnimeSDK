@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int UserCenterManager_ResultType_TypeDefinitionIndex = 8275;
+
 	class UserCenterManager_ResultType : public ::System::Object
 	{
 	public:

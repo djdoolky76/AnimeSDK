@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int ValueType_TypeDefinitionIndex = 450;
+
 	class ValueType : public ::System::Object
 	{
 	public:

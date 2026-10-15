@@ -9,6 +9,8 @@ namespace RPG::Client::Promises { class Promise; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VersionUpdateCheck___c__DisplayClass5_0_TypeDefinitionIndex = 61262;
+
 	class VersionUpdateCheck___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

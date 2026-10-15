@@ -6,6 +6,8 @@
 
 #define EOCABHPJJJP_CIJDJDICMMM_OFFSET UNITYSDK_OFFSET(0x2E73C90)
 
+inline static constexpr unsigned int EOCABHPJJJP_TypeDefinitionIndex = 68454;
+
 	struct alignas(8) EOCABHPJJJP
 	{
 		::System::Single EMBOAAJDADC; // 0x10

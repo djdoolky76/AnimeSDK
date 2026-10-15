@@ -13,6 +13,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoleTrialActivityData_TypeDefinitionIndex = 61660;
+
 	class RoleTrialActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

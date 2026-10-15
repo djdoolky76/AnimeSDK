@@ -3,6 +3,8 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace System { class String; }
 
+inline static constexpr unsigned int SubwayScheduleData_SubwayMemberAnimWeightConfig_TypeDefinitionIndex = 47095;
+
 	struct alignas(8) SubwayScheduleData_SubwayMemberAnimWeightConfig
 	{
 		::System::String* AnimationType; // 0x10

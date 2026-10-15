@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KCEJNBLDAFE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7F55E0)
 #define KCEJNBLDAFE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7F5640)
 
+inline static constexpr unsigned int KCEJNBLDAFE_TypeDefinitionIndex = 27096;
+
 	class KCEJNBLDAFE : public ::System::Object
 	{
 	public:

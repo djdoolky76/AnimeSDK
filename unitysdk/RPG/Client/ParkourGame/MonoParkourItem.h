@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int MonoParkourItem_TypeDefinitionIndex = 74141;
+
 	class MonoParkourItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

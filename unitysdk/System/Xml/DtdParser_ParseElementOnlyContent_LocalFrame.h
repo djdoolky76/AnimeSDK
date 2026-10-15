@@ -7,6 +7,8 @@
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int DtdParser_ParseElementOnlyContent_LocalFrame_TypeDefinitionIndex = 1936;
+
 	class DtdParser_ParseElementOnlyContent_LocalFrame : public ::System::Object
 	{
 	public:

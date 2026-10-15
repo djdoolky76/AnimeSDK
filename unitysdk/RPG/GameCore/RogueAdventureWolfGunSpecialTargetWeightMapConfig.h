@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueAdventureWolfGunSpecialTargetWeightMapConfi
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueAdventureWolfGunSpecialTargetWeightMapConfig_TypeDefinitionIndex = 17901;
+
 	class RogueAdventureWolfGunSpecialTargetWeightMapConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

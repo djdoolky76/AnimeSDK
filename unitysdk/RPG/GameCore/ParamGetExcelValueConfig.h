@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ParamGetExcelValueConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ParamGetExcelValueConfig_TypeDefinitionIndex = 17087;
+
 	class ParamGetExcelValueConfig : public ::RPG::GameCore::MiParameterConfigBase
 	{
 	public:

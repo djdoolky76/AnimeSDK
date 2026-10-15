@@ -28,6 +28,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SpineAtlasAsset_TypeDefinitionIndex = 45008;
+
 	class SpineAtlasAsset : public ::Spine::Unity::AtlasAssetBase
 	{
 	public:

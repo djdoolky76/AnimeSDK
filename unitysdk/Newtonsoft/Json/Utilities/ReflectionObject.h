@@ -22,6 +22,8 @@ namespace System::Reflection { class MethodBase; }
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int ReflectionObject_TypeDefinitionIndex = 9646;
+
 	class ReflectionObject : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 #define AMCLMKCCDCL_ILGKMKEEACE_OFFSET UNITYSDK_OFFSET(0x155769E0)
 #define AMCLMKCCDCL_KCNBAIDPAON_OFFSET UNITYSDK_OFFSET(0x15576940)
 
+inline static constexpr unsigned int AMCLMKCCDCL_TypeDefinitionIndex = 54679;
+
 	class AMCLMKCCDCL
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { class String; }
 #define WWISEGROUPVALUEOBJECTREFERENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F637190)
 #define WWISEGROUPVALUEOBJECTREFERENCE_GET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x1F637090)
 
+inline static constexpr unsigned int WwiseGroupValueObjectReference_TypeDefinitionIndex = 44886;
+
 	class WwiseGroupValueObjectReference : public ::WwiseObjectReference
 	{
 	public:

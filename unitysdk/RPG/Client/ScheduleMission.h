@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ScheduleMission_TypeDefinitionIndex = 66199;
+
 	class ScheduleMission : public ::System::Object
 	{
 	public:

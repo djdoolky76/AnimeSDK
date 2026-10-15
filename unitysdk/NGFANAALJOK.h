@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NGFANAALJOK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2064F0)
 #define NGFANAALJOK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D205E10)
 
+inline static constexpr unsigned int NGFANAALJOK_TypeDefinitionIndex = 13978;
+
 	class NGFANAALJOK : public ::System::Object
 	{
 	public:

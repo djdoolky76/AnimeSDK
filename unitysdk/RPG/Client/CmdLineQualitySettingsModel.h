@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CmdLineQualitySettingsModel_TypeDefinitionIndex = 35206;
+
 	class CmdLineQualitySettingsModel : public ::System::Object
 	{
 	public:

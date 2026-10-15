@@ -6,6 +6,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int HandheldProduct_TypeDefinitionIndex = 8766;
+
 	struct alignas(8) HandheldProduct
 	{
 		::System::String* productLabel; // 0x10

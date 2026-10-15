@@ -23,6 +23,8 @@ namespace RPG::GameCore { class VCameraOverrideShakeV2; }
 #define EMHOOPFDGGO_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1553AAF0)
 #define EMHOOPFDGGO_PGHPODHPGDB_OFFSET UNITYSDK_OFFSET(0x1553A880)
 
+inline static constexpr unsigned int EMHOOPFDGGO_TypeDefinitionIndex = 76966;
+
 	class EMHOOPFDGGO : public ::PFALJMOJFCA
 	{
 	public:

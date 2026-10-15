@@ -12,6 +12,8 @@ namespace System { class Action; }
 #define DNGDJDEGOJE_KEDOECJLFBK_ILEMLGEGLCC_OFFSET UNITYSDK_OFFSET(0x1194F180)
 #define DNGDJDEGOJE_KEDOECJLFBK_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1194F140)
 
+inline static constexpr unsigned int DNGDJDEGOJE_KEDOECJLFBK_TypeDefinitionIndex = 58867;
+
 	class DNGDJDEGOJE_KEDOECJLFBK : public ::System::Object
 	{
 	public:

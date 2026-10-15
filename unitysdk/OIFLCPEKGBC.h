@@ -108,6 +108,8 @@ namespace UnityEngine { class Renderer; }
 #define OIFLCPEKGBC__MARKFORCESYNCNEXTACTIVE_B__115_0_OFFSET UNITYSDK_OFFSET(0xBE8E270)
 #define OIFLCPEKGBC__MARKFORCESYNCNEXTACTIVE_B__115_1_OFFSET UNITYSDK_OFFSET(0xBE8E390)
 
+inline static constexpr unsigned int OIFLCPEKGBC_TypeDefinitionIndex = 70220;
+
 	class OIFLCPEKGBC : public ::System::Object
 	{
 	public:

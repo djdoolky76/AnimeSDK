@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BHLMIOBOBDP_MPDFIJBHKEC_OFFSET UNITYSDK_OFFSET(0xB48EB10)
 #define BHLMIOBOBDP_PPDEMFDGEIC_OFFSET UNITYSDK_OFFSET(0xB48EA50)
 
+inline static constexpr unsigned int BHLMIOBOBDP_TypeDefinitionIndex = 55953;
+
 	class BHLMIOBOBDP : public ::System::Object
 	{
 	public:

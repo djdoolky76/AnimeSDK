@@ -23,6 +23,8 @@ namespace System { class Object; }
 
 namespace System
 {
+	inline static constexpr unsigned int GC_TypeDefinitionIndex = 250;
+
 	class GC : public ::System::Object
 	{
 	public:

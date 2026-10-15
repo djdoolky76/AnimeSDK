@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GDDLBMCHIED___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E445D40)
 #define GDDLBMCHIED___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E445D50)
 
+inline static constexpr unsigned int GDDLBMCHIED___c_TypeDefinitionIndex = 27066;
+
 	class GDDLBMCHIED___c : public ::System::Object
 	{
 	public:

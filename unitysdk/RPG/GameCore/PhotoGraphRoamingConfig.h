@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PhotoGraphRoamingConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphRoamingConfig_TypeDefinitionIndex = 19056;
+
 	class PhotoGraphRoamingConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

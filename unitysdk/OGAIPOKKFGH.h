@@ -10,6 +10,8 @@
 #define OGAIPOKKFGH_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xBE4DE40)
 #define OGAIPOKKFGH_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xBE4DE50)
 
+inline static constexpr unsigned int OGAIPOKKFGH_TypeDefinitionIndex = 56159;
+
 	class OGAIPOKKFGH : public ::DBGDNLLDPFI
 	{
 	public:

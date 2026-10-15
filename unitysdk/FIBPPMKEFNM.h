@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FIBPPMKEFNM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CDF5850)
 #define FIBPPMKEFNM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CDF51F0)
 
+inline static constexpr unsigned int FIBPPMKEFNM_TypeDefinitionIndex = 12276;
+
 	class FIBPPMKEFNM : public ::System::Object
 	{
 	public:

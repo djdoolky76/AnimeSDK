@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimEntityRotateConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimEntityRotateConfig_TypeDefinitionIndex = 18752;
+
 	class FiveDimEntityRotateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Protobuf
 {
+	inline static constexpr unsigned int InvalidProtocolBufferException_TypeDefinitionIndex = 35724;
+
 	class InvalidProtocolBufferException : public ::System::IO::IOException
 	{
 	public:

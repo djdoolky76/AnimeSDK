@@ -28,6 +28,8 @@ namespace System { class String; }
 #define HCFLLCPLMHF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E53AEC0)
 #define HCFLLCPLMHF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E53AF20)
 
+inline static constexpr unsigned int HCFLLCPLMHF_TypeDefinitionIndex = 30478;
+
 	class HCFLLCPLMHF : public ::System::Object
 	{
 	public:

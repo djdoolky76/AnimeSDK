@@ -9,6 +9,8 @@ namespace R3 { class SingleAssignmentDisposableCore_DisposedSentinel; }
 
 namespace R3
 {
+	inline static constexpr unsigned int SingleAssignmentDisposableCore_DisposedSentinel_TypeDefinitionIndex = 35970;
+
 	class SingleAssignmentDisposableCore_DisposedSentinel : public ::System::Object
 	{
 	public:

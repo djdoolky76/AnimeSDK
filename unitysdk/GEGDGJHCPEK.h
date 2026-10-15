@@ -11,6 +11,8 @@ namespace System { class Type; }
 #define GEGDGJHCPEK_FNAAJGAHIAI_OFFSET UNITYSDK_OFFSET(0x159D4E60)
 #define GEGDGJHCPEK_IHPAKOMCHGP_OFFSET UNITYSDK_OFFSET(0x159D4EB0)
 
+inline static constexpr unsigned int GEGDGJHCPEK_TypeDefinitionIndex = 81211;
+
 	class GEGDGJHCPEK : public ::System::Object
 	{
 	public:

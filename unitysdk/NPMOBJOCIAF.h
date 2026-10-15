@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NPMOBJOCIAF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB9EC90)
 #define NPMOBJOCIAF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB9ECF0)
 
+inline static constexpr unsigned int NPMOBJOCIAF_TypeDefinitionIndex = 30710;
+
 	class NPMOBJOCIAF : public ::System::Object
 	{
 	public:

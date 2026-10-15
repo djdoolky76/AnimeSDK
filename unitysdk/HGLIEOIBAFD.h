@@ -10,6 +10,8 @@ namespace System { class Type; }
 #define HGLIEOIBAFD_FNAAJGAHIAI_OFFSET UNITYSDK_OFFSET(0x15CAE430)
 #define HGLIEOIBAFD_IHPAKOMCHGP_OFFSET UNITYSDK_OFFSET(0x15CAE500)
 
+inline static constexpr unsigned int HGLIEOIBAFD_TypeDefinitionIndex = 62729;
+
 	class HGLIEOIBAFD : public ::System::Object
 	{
 	public:

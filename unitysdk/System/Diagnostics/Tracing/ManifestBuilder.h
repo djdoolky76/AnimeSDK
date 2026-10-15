@@ -42,6 +42,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int ManifestBuilder_TypeDefinitionIndex = 1706;
+
 	class ManifestBuilder : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OFENEHICIDC_FHBANFEMAOC_OFFSET UNITYSDK_OFFSET(0xBE3ECD0)
 #define OFENEHICIDC_LBHIGGIECDK_OFFSET UNITYSDK_OFFSET(0xBE3EFC0)
 
+inline static constexpr unsigned int OFENEHICIDC_TypeDefinitionIndex = 60579;
+
 	class OFENEHICIDC : public ::System::Object
 	{
 	public:

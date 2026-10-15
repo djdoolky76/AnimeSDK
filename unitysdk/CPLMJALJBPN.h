@@ -25,6 +25,8 @@ namespace System { class String; }
 #define CPLMJALJBPN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E143D80)
 #define CPLMJALJBPN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E143DE0)
 
+inline static constexpr unsigned int CPLMJALJBPN_TypeDefinitionIndex = 34151;
+
 	class CPLMJALJBPN : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define AKGCCADNCEK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C58B9C0)
 
+inline static constexpr unsigned int AKGCCADNCEK_TypeDefinitionIndex = 37055;
+
 	class AKGCCADNCEK : public ::System::Object
 	{
 	public:

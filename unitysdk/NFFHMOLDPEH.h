@@ -5,6 +5,8 @@ class MFFFJIIIMNH;
 
 #define NFFHMOLDPEH_CTOR_OFFSET UNITYSDK_OFFSET(0xBB7E130)
 
+inline static constexpr unsigned int NFFHMOLDPEH_TypeDefinitionIndex = 53656;
+
 	class NFFHMOLDPEH : public ::System::Object
 	{
 	public:

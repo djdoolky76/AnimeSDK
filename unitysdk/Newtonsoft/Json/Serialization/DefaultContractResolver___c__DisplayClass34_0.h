@@ -9,6 +9,8 @@ namespace System::Reflection { class MemberInfo; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int DefaultContractResolver___c__DisplayClass34_0_TypeDefinitionIndex = 9709;
+
 	class DefaultContractResolver___c__DisplayClass34_0 : public ::System::Object
 	{
 	public:

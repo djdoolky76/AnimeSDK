@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HideSummonUnit_TypeDefinitionIndex = 20361;
+
 	class HideSummonUnit : public ::RPG::GameCore::TaskConfig
 	{
 	public:

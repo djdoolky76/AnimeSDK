@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int PerformanceLiveStreamSwitchData_TypeDefinitionIndex = 48180;
+
 	class PerformanceLiveStreamSwitchData : public ::System::Object
 	{
 	public:

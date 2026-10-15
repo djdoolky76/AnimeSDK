@@ -34,6 +34,8 @@ namespace System { class String; }
 #define ALNGMGOJDOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E513B50)
 #define ALNGMGOJDOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E513BB0)
 
+inline static constexpr unsigned int ALNGMGOJDOA_TypeDefinitionIndex = 30600;
+
 	class ALNGMGOJDOA : public ::System::Object
 	{
 	public:

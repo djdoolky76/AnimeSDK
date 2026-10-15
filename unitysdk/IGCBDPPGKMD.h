@@ -6,6 +6,8 @@ class KFELGAIGHAP;
 
 #define IGCBDPPGKMD_CTOR_OFFSET UNITYSDK_OFFSET(0x163F4720)
 
+inline static constexpr unsigned int IGCBDPPGKMD_TypeDefinitionIndex = 54106;
+
 	class IGCBDPPGKMD : public ::System::Object
 	{
 	public:

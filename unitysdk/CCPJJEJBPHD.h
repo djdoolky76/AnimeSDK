@@ -18,6 +18,8 @@ namespace System::IO { class Stream; }
 #define CCPJJEJBPHD_READUINT32_OFFSET UNITYSDK_OFFSET(0x1C44ED20)
 #define CCPJJEJBPHD_READUINT64_OFFSET UNITYSDK_OFFSET(0x1C44F5D0)
 
+inline static constexpr unsigned int CCPJJEJBPHD_TypeDefinitionIndex = 41373;
+
 	class CCPJJEJBPHD : public ::System::IO::BinaryReader
 	{
 	public:

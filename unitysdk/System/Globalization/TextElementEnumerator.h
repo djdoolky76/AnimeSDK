@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int TextElementEnumerator_TypeDefinitionIndex = 765;
+
 	class TextElementEnumerator : public ::System::Object
 	{
 	public:

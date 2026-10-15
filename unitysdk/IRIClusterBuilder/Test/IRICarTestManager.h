@@ -64,6 +64,8 @@ namespace UnityEngine { class RPGInstancedItemClusterVolumeManager; }
 
 namespace IRIClusterBuilder::Test
 {
+	inline static constexpr unsigned int IRICarTestManager_TypeDefinitionIndex = 47758;
+
 	class IRICarTestManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

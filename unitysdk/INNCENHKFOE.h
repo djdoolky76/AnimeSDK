@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define INNCENHKFOE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8A3E0)
 
+inline static constexpr unsigned int INNCENHKFOE_TypeDefinitionIndex = 43755;
+
 	class INNCENHKFOE : public ::System::Object
 	{
 	public:

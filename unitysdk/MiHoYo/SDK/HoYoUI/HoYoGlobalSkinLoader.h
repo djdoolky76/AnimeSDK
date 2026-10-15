@@ -8,6 +8,8 @@ namespace MiHoYo::SDK::HoYoUI { class HoYoGlobalSkinAsset; }
 
 namespace MiHoYo::SDK::HoYoUI
 {
+	inline static constexpr unsigned int HoYoGlobalSkinLoader_TypeDefinitionIndex = 46723;
+
 	class HoYoGlobalSkinLoader : public ::System::Object
 	{
 	public:

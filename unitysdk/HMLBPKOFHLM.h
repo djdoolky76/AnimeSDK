@@ -31,6 +31,8 @@ namespace System { class String; }
 #define HMLBPKOFHLM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5D1130)
 #define HMLBPKOFHLM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5D1190)
 
+inline static constexpr unsigned int HMLBPKOFHLM_TypeDefinitionIndex = 25990;
+
 	class HMLBPKOFHLM : public ::System::Object
 	{
 	public:

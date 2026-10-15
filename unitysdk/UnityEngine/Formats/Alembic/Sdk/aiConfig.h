@@ -32,6 +32,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aiConfig_TypeDefinitionIndex = 45806;
+
 	struct alignas(4) aiConfig
 	{
 		::UnityEngine::Formats::Alembic::Sdk::NormalsMode _normalsMode_k__BackingField; // 0x10

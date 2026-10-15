@@ -9,6 +9,8 @@ namespace UnityEngine { class Gradient; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int LayoutGradientPropertyData_TypeDefinitionIndex = 49378;
+
 	class LayoutGradientPropertyData
 	{
 	public:

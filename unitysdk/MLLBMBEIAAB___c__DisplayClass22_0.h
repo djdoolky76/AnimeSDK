@@ -9,6 +9,8 @@ namespace UnityEngine { class Object; }
 #define MLLBMBEIAAB___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB9B7CA0)
 #define MLLBMBEIAAB___C__DISPLAYCLASS22_0__ASYNCRESOURCELOADING_B__0_OFFSET UNITYSDK_OFFSET(0xB9B7CB0)
 
+inline static constexpr unsigned int MLLBMBEIAAB___c__DisplayClass22_0_TypeDefinitionIndex = 49177;
+
 	class MLLBMBEIAAB___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:

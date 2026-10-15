@@ -25,6 +25,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveDanmuBase_TypeDefinitionIndex = 75172;
+
 	class IdleLiveDanmuBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

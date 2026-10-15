@@ -25,6 +25,8 @@ namespace UnityEngine { class Light; }
 #define LMPIJJGMNPD_PGOLCLMMANO_OFFSET UNITYSDK_OFFSET(0xB7D3B90)
 #define LMPIJJGMNPD_PLMIIKONDEO_OFFSET UNITYSDK_OFFSET(0xB7D3CB0)
 
+inline static constexpr unsigned int LMPIJJGMNPD_TypeDefinitionIndex = 47366;
+
 	class LMPIJJGMNPD : public ::System::Object
 	{
 	public:

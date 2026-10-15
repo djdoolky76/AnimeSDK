@@ -79,6 +79,8 @@ namespace UnityEngine { class Renderer; }
 #define IKLIHOEDGBE_PNGFPLFEECK_OFFSET UNITYSDK_OFFSET(0x16497410)
 #define IKLIHOEDGBE_PPHJJDELKJN_OFFSET UNITYSDK_OFFSET(0x16496E70)
 
+inline static constexpr unsigned int IKLIHOEDGBE_TypeDefinitionIndex = 60706;
+
 	class IKLIHOEDGBE : public ::System::Object
 	{
 	public:

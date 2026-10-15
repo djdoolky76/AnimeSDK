@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKDelegate_IsInStackTopDelegate_TypeDefinitionIndex = 7806;
+
 	class SDKDelegate_IsInStackTopDelegate : public ::System::MulticastDelegate
 	{
 	public:

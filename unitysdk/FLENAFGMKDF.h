@@ -13,6 +13,8 @@ namespace System { class Type; }
 #define FLENAFGMKDF_LFOLLFPFJHF_OFFSET UNITYSDK_OFFSET(0x1EC09540)
 #define FLENAFGMKDF_LOAD_OFFSET UNITYSDK_OFFSET(0x1EC09120)
 
+inline static constexpr unsigned int FLENAFGMKDF_TypeDefinitionIndex = 35314;
+
 	class FLENAFGMKDF : public ::BCCCCPPIJDB
 	{
 	public:

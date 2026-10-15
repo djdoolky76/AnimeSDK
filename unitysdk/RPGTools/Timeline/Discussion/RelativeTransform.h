@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::Discussion
 {
+	inline static constexpr unsigned int RelativeTransform_TypeDefinitionIndex = 48783;
+
 	struct alignas(8) RelativeTransform
 	{
 		::UnityEngine::Vector3 rawPosition; // 0x10

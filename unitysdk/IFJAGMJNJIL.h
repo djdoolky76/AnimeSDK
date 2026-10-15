@@ -14,6 +14,8 @@ namespace System { class Action; }
 #define IFJAGMJNJIL_REMOVE_EXITHANDLER_OFFSET UNITYSDK_OFFSET(0x15F1AB50)
 #define IFJAGMJNJIL_SET_WORKSHOPLEVEL_OFFSET UNITYSDK_OFFSET(0x15F1AAA0)
 
+inline static constexpr unsigned int IFJAGMJNJIL_TypeDefinitionIndex = 79780;
+
 	class IFJAGMJNJIL : public ::System::Object
 	{
 	public:

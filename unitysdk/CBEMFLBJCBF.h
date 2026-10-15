@@ -13,6 +13,8 @@ namespace RPG::GameCore { class HoyoTagContainer; }
 #define CBEMFLBJCBF_INIT_OFFSET UNITYSDK_OFFSET(0x14160)
 #define CBEMFLBJCBF_INJPGPGPMDO_OFFSET UNITYSDK_OFFSET(0x3C403C0)
 
+inline static constexpr unsigned int CBEMFLBJCBF_TypeDefinitionIndex = 10676;
+
 	struct alignas(8) CBEMFLBJCBF
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

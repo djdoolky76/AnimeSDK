@@ -4,6 +4,8 @@
 
 #define HFFBAGEDBMO_CTOR_OFFSET UNITYSDK_OFFSET(0x15C76A00)
 
+inline static constexpr unsigned int HFFBAGEDBMO_TypeDefinitionIndex = 48178;
+
 	class HFFBAGEDBMO : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

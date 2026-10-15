@@ -12,6 +12,8 @@ namespace UnityEngine { class Gradient; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageHarmonyWeatherControllerBehavior_CMKIIDKKKJB_TypeDefinitionIndex = 71017;
+
 	class StageHarmonyWeatherControllerBehavior_CMKIIDKKKJB : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Main_ElfTakeOutDelivery; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_ElfTakeOutDelivery_TypeDefinitionIndex = 21539;
+
 	class ST_Main_ElfTakeOutDelivery : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

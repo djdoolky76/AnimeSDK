@@ -29,6 +29,8 @@ namespace System { class String; }
 #define BGFLAKMOIGC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA75F40)
 #define BGFLAKMOIGC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA75FA0)
 
+inline static constexpr unsigned int BGFLAKMOIGC_TypeDefinitionIndex = 33916;
+
 	class BGFLAKMOIGC : public ::System::Object
 	{
 	public:

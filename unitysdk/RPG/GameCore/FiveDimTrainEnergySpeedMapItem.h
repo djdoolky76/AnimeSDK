@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FiveDimTrainEnergySpeedMapItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimTrainEnergySpeedMapItem_TypeDefinitionIndex = 18531;
+
 	class FiveDimTrainEnergySpeedMapItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

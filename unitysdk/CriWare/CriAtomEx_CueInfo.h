@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomEx_CueInfo_TypeDefinitionIndex = 39974;
+
 	struct alignas(8) CriAtomEx_CueInfo
 	{
 		::System::Int32 id; // 0x10

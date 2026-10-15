@@ -4,6 +4,8 @@
 
 #define AKHOONOADHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C890170)
 
+inline static constexpr unsigned int AKHOONOADHM_TypeDefinitionIndex = 41986;
+
 	class AKHOONOADHM : public ::System::Object
 	{
 	public:

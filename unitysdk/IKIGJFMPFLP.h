@@ -9,6 +9,8 @@ namespace System { class String; }
 #define IKIGJFMPFLP_HBAOMEBJKGM_OFFSET UNITYSDK_OFFSET(0x1648E190)
 #define IKIGJFMPFLP_MBGGDMCLMPO_OFFSET UNITYSDK_OFFSET(0x1648E230)
 
+inline static constexpr unsigned int IKIGJFMPFLP_TypeDefinitionIndex = 49645;
+
 	class IKIGJFMPFLP : public ::System::Object
 	{
 	public:

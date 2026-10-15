@@ -28,6 +28,8 @@ namespace System { class String; }
 #define DLAEOKIKLAA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1DBF30)
 #define DLAEOKIKLAA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1DBF90)
 
+inline static constexpr unsigned int DLAEOKIKLAA_TypeDefinitionIndex = 30521;
+
 	class DLAEOKIKLAA : public ::System::Object
 	{
 	public:

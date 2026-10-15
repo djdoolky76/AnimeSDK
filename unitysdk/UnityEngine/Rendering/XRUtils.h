@@ -8,6 +8,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int XRUtils_TypeDefinitionIndex = 35613;
+
 	class XRUtils : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Threading { class Thread; }
 
 namespace System::Net::Sockets
 {
+	inline static constexpr unsigned int SafeSocketHandle_TypeDefinitionIndex = 2917;
+
 	class SafeSocketHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid
 	{
 	public:

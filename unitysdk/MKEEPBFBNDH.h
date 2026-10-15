@@ -10,6 +10,8 @@ namespace System { class String; }
 #define MKEEPBFBNDH_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0xB990360)
 #define MKEEPBFBNDH_OMMPJHHHIHA_OFFSET UNITYSDK_OFFSET(0xB990680)
 
+inline static constexpr unsigned int MKEEPBFBNDH_TypeDefinitionIndex = 73118;
+
 	class MKEEPBFBNDH : public ::System::Object
 	{
 	public:

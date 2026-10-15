@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NBDELHIPKLP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EACDDC0)
 #define NBDELHIPKLP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EACDE20)
 
+inline static constexpr unsigned int NBDELHIPKLP_TypeDefinitionIndex = 30972;
+
 	class NBDELHIPKLP : public ::System::Object
 	{
 	public:

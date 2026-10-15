@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StoryFeverToastHintItem_Status_TypeDefinitionIndex = 72115;
+
 	enum class StoryFeverToastHintItem_Status : ::System::Int32
 	{
 		Hiding = 0,

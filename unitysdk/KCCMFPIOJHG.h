@@ -9,6 +9,8 @@ class KCCMFPIOJHG;
 #define KCCMFPIOJHG_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D065330)
 #define KCCMFPIOJHG_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D065340)
 
+inline static constexpr unsigned int KCCMFPIOJHG_TypeDefinitionIndex = 10829;
+
 	class KCCMFPIOJHG : public ::System::Object
 	{
 	public:

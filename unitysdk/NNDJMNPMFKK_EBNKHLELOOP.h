@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 #define NNDJMNPMFKK_EBNKHLELOOP_NDGCCMLANIG_OFFSET UNITYSDK_OFFSET(0x1DDAF880)
 #define NNDJMNPMFKK_EBNKHLELOOP_NMDDMMILMJL_OFFSET UNITYSDK_OFFSET(0x1DDB1B70)
 
+inline static constexpr unsigned int NNDJMNPMFKK_EBNKHLELOOP_TypeDefinitionIndex = 43918;
+
 	class NNDJMNPMFKK_EBNKHLELOOP : public ::System::Object
 	{
 	public:

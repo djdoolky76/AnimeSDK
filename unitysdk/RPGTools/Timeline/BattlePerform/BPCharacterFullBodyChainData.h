@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::BattlePerform
 {
+	inline static constexpr unsigned int BPCharacterFullBodyChainData_TypeDefinitionIndex = 48803;
+
 	class BPCharacterFullBodyChainData : public ::System::Object
 	{
 	public:

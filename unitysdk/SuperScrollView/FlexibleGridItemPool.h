@@ -28,6 +28,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int FlexibleGridItemPool_TypeDefinitionIndex = 47640;
+
 	class FlexibleGridItemPool : public ::UnityEngine::MonoBehaviour
 	{
 	public:

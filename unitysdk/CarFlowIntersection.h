@@ -9,6 +9,8 @@ class CarFlowIntersectionRuleGroup;
 #define CARFLOWINTERSECTION_START_OFFSET UNITYSDK_OFFSET(0xDCE3670)
 #define CARFLOWINTERSECTION_UPDATE_OFFSET UNITYSDK_OFFSET(0xDCE36B0)
 
+inline static constexpr unsigned int CarFlowIntersection_TypeDefinitionIndex = 47068;
+
 	class CarFlowIntersection : public ::UnityEngine::MonoBehaviour
 	{
 	public:

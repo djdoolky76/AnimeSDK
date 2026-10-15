@@ -8,6 +8,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Sensor_TypeDefinitionIndex = 36747;
+
 	class B2Sensor : public ::System::Object
 	{
 	public:

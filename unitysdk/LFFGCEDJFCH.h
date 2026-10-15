@@ -4,6 +4,8 @@
 
 #define LFFGCEDJFCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C73AC70)
 
+inline static constexpr unsigned int LFFGCEDJFCH_TypeDefinitionIndex = 37059;
+
 	class LFFGCEDJFCH : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{
 	public:

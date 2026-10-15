@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AvatarLineupPresetConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarLineupPresetConfig_TypeDefinitionIndex = 18133;
+
 	class AvatarLineupPresetConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

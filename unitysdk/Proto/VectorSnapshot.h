@@ -33,6 +33,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int VectorSnapshot_TypeDefinitionIndex = 25813;
+
 	class VectorSnapshot : public ::System::Object
 	{
 	public:

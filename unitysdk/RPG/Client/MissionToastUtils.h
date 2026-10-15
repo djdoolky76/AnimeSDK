@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionToastUtils_TypeDefinitionIndex = 66170;
+
 	class MissionToastUtils : public ::System::Object
 	{
 	public:

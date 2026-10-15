@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PixAirPlaneRow_TypeDefinitionIndex = 12135;
+
 	class PixAirPlaneRow : public ::System::Object
 	{
 	public:

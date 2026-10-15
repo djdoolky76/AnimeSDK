@@ -4,6 +4,8 @@
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int TwoDimensionalArrayFormatter_1_TypeDefinitionIndex = 7437;
+
 	template <typename T>
 	class TwoDimensionalArrayFormatter_1 : public ::System::Object
 	{

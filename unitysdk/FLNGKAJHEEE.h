@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FLNGKAJHEEE_REMOVE_ONROTATED_OFFSET UNITYSDK_OFFSET(0x1583FC50)
 #define FLNGKAJHEEE_REMOVE_ONSINGLEREMOVED_OFFSET UNITYSDK_OFFSET(0x1583F950)
 
+inline static constexpr unsigned int FLNGKAJHEEE_TypeDefinitionIndex = 79476;
+
 	class FLNGKAJHEEE : public ::System::Object
 	{
 	public:

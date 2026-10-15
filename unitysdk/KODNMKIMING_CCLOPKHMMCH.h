@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define KODNMKIMING_CCLOPKHMMCH_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C71D980)
 #define KODNMKIMING_CCLOPKHMMCH_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C71C680)
 
+inline static constexpr unsigned int KODNMKIMING_CCLOPKHMMCH_TypeDefinitionIndex = 37408;
+
 	class KODNMKIMING_CCLOPKHMMCH : public ::System::MulticastDelegate
 	{
 	public:

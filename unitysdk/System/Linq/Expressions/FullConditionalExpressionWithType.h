@@ -9,6 +9,8 @@ namespace System::Linq::Expressions { class Expression; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int FullConditionalExpressionWithType_TypeDefinitionIndex = 3211;
+
 	class FullConditionalExpressionWithType : public ::System::Linq::Expressions::FullConditionalExpression
 	{
 	public:

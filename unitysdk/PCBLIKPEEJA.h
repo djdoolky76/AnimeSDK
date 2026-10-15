@@ -38,6 +38,8 @@ namespace System { class String; }
 #define PCBLIKPEEJA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF00BA0)
 #define PCBLIKPEEJA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF00C00)
 
+inline static constexpr unsigned int PCBLIKPEEJA_TypeDefinitionIndex = 25760;
+
 	class PCBLIKPEEJA : public ::System::Object
 	{
 	public:

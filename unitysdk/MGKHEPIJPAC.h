@@ -31,6 +31,8 @@ namespace System { class String; }
 #define MGKHEPIJPAC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA26DB0)
 #define MGKHEPIJPAC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA26E10)
 
+inline static constexpr unsigned int MGKHEPIJPAC_TypeDefinitionIndex = 30016;
+
 	class MGKHEPIJPAC : public ::System::Object
 	{
 	public:

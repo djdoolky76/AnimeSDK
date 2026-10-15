@@ -11,6 +11,8 @@ namespace RPG::Client { class MatchThreeBoard; }
 #define NJBMOGMCOOL_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xBC09150)
 #define NJBMOGMCOOL_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xBC090E0)
 
+inline static constexpr unsigned int NJBMOGMCOOL_TypeDefinitionIndex = 65870;
+
 	class NJBMOGMCOOL : public ::FNIDIOCNBBI
 	{
 	public:

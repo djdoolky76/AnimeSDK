@@ -35,6 +35,8 @@ namespace System::IO { class TextWriter; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int TextWriter_TypeDefinitionIndex = 701;
+
 	class TextWriter : public ::System::MarshalByRefObject
 	{
 	public:

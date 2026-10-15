@@ -8,6 +8,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UI3DMap3DCameraSettings_TypeDefinitionIndex = 73006;
+
 	class UI3DMap3DCameraSettings : public ::UnityEngine::MonoBehaviour
 	{
 	public:

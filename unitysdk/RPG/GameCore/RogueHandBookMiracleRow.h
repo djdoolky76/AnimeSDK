@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueHandBookMiracleRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueHandBookMiracleRow_TypeDefinitionIndex = 14835;
+
 	class RogueHandBookMiracleRow : public ::System::Object
 	{
 	public:

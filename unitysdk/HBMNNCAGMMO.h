@@ -10,6 +10,8 @@ namespace UnityEngine { class Material; }
 #define HBMNNCAGMMO_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x15C11400)
 #define HBMNNCAGMMO_NHPDCPKMNAM_OFFSET UNITYSDK_OFFSET(0x15C11340)
 
+inline static constexpr unsigned int HBMNNCAGMMO_TypeDefinitionIndex = 78598;
+
 	class HBMNNCAGMMO : public ::System::Object
 	{
 	public:

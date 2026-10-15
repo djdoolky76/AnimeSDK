@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActivityRaidCollectionRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityRaidCollectionRow_TypeDefinitionIndex = 12324;
+
 	class ActivityRaidCollectionRow : public ::System::Object
 	{
 	public:

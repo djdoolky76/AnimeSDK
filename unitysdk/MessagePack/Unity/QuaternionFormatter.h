@@ -12,6 +12,8 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Unity
 {
+	inline static constexpr unsigned int QuaternionFormatter_TypeDefinitionIndex = 10121;
+
 	class QuaternionFormatter : public ::System::Object
 	{
 	public:

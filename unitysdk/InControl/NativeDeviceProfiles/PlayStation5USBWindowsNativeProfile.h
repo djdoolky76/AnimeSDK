@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int PlayStation5USBWindowsNativeProfile_TypeDefinitionIndex = 41319;
+
 	class PlayStation5USBWindowsNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

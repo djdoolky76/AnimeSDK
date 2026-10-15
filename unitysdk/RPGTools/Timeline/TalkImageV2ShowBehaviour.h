@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class TalkImageV2ShowClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TalkImageV2ShowBehaviour_TypeDefinitionIndex = 48395;
+
 	class TalkImageV2ShowBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

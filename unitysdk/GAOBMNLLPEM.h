@@ -5,6 +5,8 @@
 
 #define GAOBMNLLPEM_CTOR_OFFSET UNITYSDK_OFFSET(0x15943560)
 
+inline static constexpr unsigned int GAOBMNLLPEM_TypeDefinitionIndex = 82038;
+
 	class GAOBMNLLPEM : public ::System::Object
 	{
 	public:

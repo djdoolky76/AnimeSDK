@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DispelStatus_TypeDefinitionIndex = 22684;
+
 	class DispelStatus : public ::RPG::GameCore::TaskConfig
 	{
 	public:

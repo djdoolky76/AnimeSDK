@@ -11,6 +11,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int rdtUdpMessageHello_TypeDefinitionIndex = 46992;
+
 	class rdtUdpMessageHello : public ::System::Object
 	{
 	public:

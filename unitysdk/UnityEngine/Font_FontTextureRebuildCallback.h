@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Font_FontTextureRebuildCallback_TypeDefinitionIndex = 5062;
+
 	class Font_FontTextureRebuildCallback : public ::System::MulticastDelegate
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 #define LODAOADEKHE_GNNMGJMFNAE_OFFSET UNITYSDK_OFFSET(0xB7F4A70)
 #define LODAOADEKHE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB7F4920)
 
+inline static constexpr unsigned int LODAOADEKHE_TypeDefinitionIndex = 61109;
+
 	class LODAOADEKHE : public ::System::Object
 	{
 	public:

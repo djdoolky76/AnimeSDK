@@ -41,6 +41,8 @@ namespace UnityEngine { class Transform; }
 #define MKBFCANFMEL_PFHPIAGCPOL_OFFSET UNITYSDK_OFFSET(0xB987150)
 #define MKBFCANFMEL__ONBIND_OFFSET UNITYSDK_OFFSET(0xB988410)
 
+inline static constexpr unsigned int MKBFCANFMEL_TypeDefinitionIndex = 71811;
+
 	class MKBFCANFMEL : public ::FMPCODLIOLG
 	{
 	public:

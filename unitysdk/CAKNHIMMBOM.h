@@ -16,6 +16,8 @@ namespace System { class Nullable; }
 #define CAKNHIMMBOM_ONIMOHLBCHA_OFFSET UNITYSDK_OFFSET(0x1C8DBE40)
 #define CAKNHIMMBOM_ONPDAALFIIH_OFFSET UNITYSDK_OFFSET(0x1C8DBC20)
 
+inline static constexpr unsigned int CAKNHIMMBOM_TypeDefinitionIndex = 43007;
+
 	class CAKNHIMMBOM : public ::System::Object
 	{
 	public:

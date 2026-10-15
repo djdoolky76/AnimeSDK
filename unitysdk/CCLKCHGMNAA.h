@@ -30,6 +30,8 @@ namespace System { class String; }
 #define CCLKCHGMNAA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0794D0)
 #define CCLKCHGMNAA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E079530)
 
+inline static constexpr unsigned int CCLKCHGMNAA_TypeDefinitionIndex = 33784;
+
 	class CCLKCHGMNAA : public ::System::Object
 	{
 	public:

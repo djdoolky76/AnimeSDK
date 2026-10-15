@@ -8,6 +8,8 @@ namespace System { class String; }
 #define GANLFBNCJCB_CTOR_OFFSET UNITYSDK_OFFSET(0x15942990)
 #define GANLFBNCJCB_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0x159429A0)
 
+inline static constexpr unsigned int GANLFBNCJCB_TypeDefinitionIndex = 65988;
+
 	class GANLFBNCJCB : public ::System::Object
 	{
 	public:

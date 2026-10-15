@@ -7,6 +7,8 @@ class IKHDMKIGNDL;
 #define MDOLOOKKHJM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C748B80)
 #define MDOLOOKKHJM_PBDFDNCIMIH_OFFSET UNITYSDK_OFFSET(0x1C748C50)
 
+inline static constexpr unsigned int MDOLOOKKHJM_TypeDefinitionIndex = 37188;
+
 	class MDOLOOKKHJM : public ::JNHEPGLMAFE
 	{
 	public:

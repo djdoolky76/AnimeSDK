@@ -3,6 +3,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HAPI_VolumeVisualType_TypeDefinitionIndex = 40468;
+
 	enum class HAPI_VolumeVisualType : ::System::Int32
 	{
 		HAPI_VOLUMEVISTYPE_INVALID = -1,

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GCIFHADOEPI_CTOR_OFFSET UNITYSDK_OFFSET(0x1597B450)
 #define GCIFHADOEPI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1597B480)
 
+inline static constexpr unsigned int GCIFHADOEPI_TypeDefinitionIndex = 52103;
+
 	class GCIFHADOEPI
 	{
 	public:

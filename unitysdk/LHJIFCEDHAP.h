@@ -14,6 +14,8 @@ namespace System { class String; }
 #define LHJIFCEDHAP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB6B5220)
 #define LHJIFCEDHAP_TICK_OFFSET UNITYSDK_OFFSET(0xB6B5A40)
 
+inline static constexpr unsigned int LHJIFCEDHAP_TypeDefinitionIndex = 58317;
+
 	class LHJIFCEDHAP : public ::GELIALJDFBL
 	{
 	public:

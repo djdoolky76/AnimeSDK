@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MarbleByOtherFaction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleByOtherFaction_TypeDefinitionIndex = 16879;
+
 	class MarbleByOtherFaction : public ::RPG::GameCore::MarblePredicateConfig
 	{
 	public:

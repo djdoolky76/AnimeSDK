@@ -42,6 +42,8 @@ class AkPlaylistItem;
 #define AKPLAYLISTARRAY_TERM_OFFSET UNITYSDK_OFFSET(0x1F5AFAA0)
 #define AKPLAYLISTARRAY_TRANSFER_OFFSET UNITYSDK_OFFSET(0x1F5B0AA0)
 
+inline static constexpr unsigned int AkPlaylistArray_TypeDefinitionIndex = 44775;
+
 	class AkPlaylistArray : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitRotatableRegionChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitRotatableRegionChange_TypeDefinitionIndex = 21251;
+
 	class WaitRotatableRegionChange : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelBubbleEvent_TypeDefinitionIndex = 78276;
+
 	class ChimeraDuelBubbleEvent : public ::System::Object
 	{
 	public:

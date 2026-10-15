@@ -18,6 +18,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIQuad_TypeDefinitionIndex = 72709;
+
 	class UIQuad : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:

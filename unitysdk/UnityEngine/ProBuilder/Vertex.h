@@ -76,6 +76,8 @@ namespace UnityEngine::ProBuilder { class Vertex; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int Vertex_TypeDefinitionIndex = 44452;
+
 	class Vertex : public ::System::Object
 	{
 	public:

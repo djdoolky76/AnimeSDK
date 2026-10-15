@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveTeamRecommendRow_TypeDefinitionIndex = 11709;
+
 	class IdleLiveTeamRecommendRow : public ::System::Object
 	{
 	public:

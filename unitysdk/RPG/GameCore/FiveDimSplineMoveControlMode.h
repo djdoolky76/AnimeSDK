@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSplineMoveControlMode_TypeDefinitionIndex = 18565;
+
 	enum class FiveDimSplineMoveControlMode : ::System::Int32
 	{
 		PointConfig = 0,

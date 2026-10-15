@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CIBNECOGBOF_CTOR_OFFSET UNITYSDK_OFFSET(0xCF651D0)
 #define CIBNECOGBOF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF65200)
 
+inline static constexpr unsigned int CIBNECOGBOF_TypeDefinitionIndex = 58437;
+
 	class CIBNECOGBOF
 	{
 	public:

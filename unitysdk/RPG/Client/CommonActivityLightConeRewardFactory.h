@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ActivityEquipmentRewardMaterialRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CommonActivityLightConeRewardFactory_TypeDefinitionIndex = 61679;
+
 	class CommonActivityLightConeRewardFactory : public ::System::Object
 	{
 	public:

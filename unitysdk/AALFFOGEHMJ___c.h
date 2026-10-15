@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define AALFFOGEHMJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB0CEBC0)
 #define AALFFOGEHMJ___C___ONCARDUNLOCKSYNC_B__3_2_OFFSET UNITYSDK_OFFSET(0xB0CEBD0)
 
+inline static constexpr unsigned int AALFFOGEHMJ___c_TypeDefinitionIndex = 81078;
+
 	class AALFFOGEHMJ___c : public ::System::Object
 	{
 	public:

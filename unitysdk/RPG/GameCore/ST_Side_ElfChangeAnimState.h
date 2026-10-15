@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_ElfChangeAnimState_TypeDefinitionIndex = 21541;
+
 	class ST_Side_ElfChangeAnimState : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

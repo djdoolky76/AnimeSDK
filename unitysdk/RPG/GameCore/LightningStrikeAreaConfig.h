@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LightningStrikeAreaConfig_TypeDefinitionIndex = 21075;
+
 	class LightningStrikeAreaConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 #define BCBBIEHANAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCF7FF0)
 #define BCBBIEHANAD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCF7DD0)
 
+inline static constexpr unsigned int BCBBIEHANAD_TypeDefinitionIndex = 11315;
+
 	class BCBBIEHANAD : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define ECDNDKIHCHA_CTOR_OFFSET UNITYSDK_OFFSET(0x12D0ACB0)
 
+inline static constexpr unsigned int ECDNDKIHCHA_TypeDefinitionIndex = 72407;
+
 	class ECDNDKIHCHA : public ::System::Object
 	{
 	public:

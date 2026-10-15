@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelBattlePageViewModel_TeamViewModel_TypeDefinitionIndex = 63399;
+
 	class ChimeraDuelBattlePageViewModel_TeamViewModel : public ::System::Object
 	{
 	public:

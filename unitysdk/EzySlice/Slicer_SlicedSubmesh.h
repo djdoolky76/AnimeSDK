@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace EzySlice
 {
+	inline static constexpr unsigned int Slicer_SlicedSubmesh_TypeDefinitionIndex = 47007;
+
 	class Slicer_SlicedSubmesh : public ::System::Object
 	{
 	public:

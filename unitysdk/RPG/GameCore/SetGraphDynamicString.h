@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetGraphDynamicString_TypeDefinitionIndex = 20711;
+
 	class SetGraphDynamicString : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SkillTreePointPreset_TypeDefinitionIndex = 18136;
+
 	class SkillTreePointPreset : public ::RPG::GameCore::JsonConfig
 	{
 	public:

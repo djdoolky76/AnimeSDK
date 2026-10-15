@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LIHMMAPDCMN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E96DDB0)
 #define LIHMMAPDCMN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E96DDC0)
 
+inline static constexpr unsigned int LIHMMAPDCMN___c_TypeDefinitionIndex = 32628;
+
 	class LIHMMAPDCMN___c : public ::System::Object
 	{
 	public:

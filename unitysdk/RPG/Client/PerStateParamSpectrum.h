@@ -8,6 +8,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PerStateParamSpectrum_TypeDefinitionIndex = 70825;
+
 	class PerStateParamSpectrum : public ::System::Object
 	{
 	public:

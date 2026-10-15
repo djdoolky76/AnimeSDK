@@ -3,6 +3,8 @@
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int Image_Origin90_TypeDefinitionIndex = 6733;
+
 	enum class Image_Origin90 : ::System::Int32
 	{
 		BottomLeft = 0,

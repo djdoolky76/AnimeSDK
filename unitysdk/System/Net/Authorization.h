@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int Authorization_TypeDefinitionIndex = 2727;
+
 	class Authorization : public ::System::Object
 	{
 	public:

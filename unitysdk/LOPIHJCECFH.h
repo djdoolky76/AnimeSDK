@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define LOPIHJCECFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C921A10)
 
+inline static constexpr unsigned int LOPIHJCECFH_TypeDefinitionIndex = 42844;
+
 	class LOPIHJCECFH : public ::System::Object
 	{
 	public:

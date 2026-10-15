@@ -8,6 +8,8 @@ class MBBPMEANHCL;
 #define MBBPMEANHCL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D132740)
 #define MBBPMEANHCL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1325B0)
 
+inline static constexpr unsigned int MBBPMEANHCL_TypeDefinitionIndex = 11974;
+
 	class MBBPMEANHCL : public ::System::Object
 	{
 	public:

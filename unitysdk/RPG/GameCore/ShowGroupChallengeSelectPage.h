@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowGroupChallengeSelectPage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowGroupChallengeSelectPage_TypeDefinitionIndex = 21618;
+
 	class ShowGroupChallengeSelectPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

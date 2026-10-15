@@ -5,6 +5,8 @@
 
 namespace RPG::Embree
 {
+	inline static constexpr unsigned int EmbreeWrapper_RaycastHitInfo_TypeDefinitionIndex = 47024;
+
 	struct alignas(4) EmbreeWrapper_RaycastHitInfo
 	{
 		::UnityEngine::Vector3 point; // 0x10

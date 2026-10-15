@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShareChannelConfigRow_TypeDefinitionIndex = 14493;
+
 	class ShareChannelConfigRow : public ::System::Object
 	{
 	public:

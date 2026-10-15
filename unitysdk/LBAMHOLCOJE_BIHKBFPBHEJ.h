@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define LBAMHOLCOJE_BIHKBFPBHEJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB5EBCC0)
 
+inline static constexpr unsigned int LBAMHOLCOJE_BIHKBFPBHEJ_TypeDefinitionIndex = 56530;
+
 	class LBAMHOLCOJE_BIHKBFPBHEJ : public ::System::Object
 	{
 	public:

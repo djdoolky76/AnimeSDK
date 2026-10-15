@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PlanetFesEffectRow; }
 #define AJNGOHLNFKK_JCEMLMIABIP_OFFSET UNITYSDK_OFFSET(0x12CC7D20)
 #define AJNGOHLNFKK_NECKGJFCFJK_OFFSET UNITYSDK_OFFSET(0x12CC7EB0)
 
+inline static constexpr unsigned int AJNGOHLNFKK_TypeDefinitionIndex = 66544;
+
 	class AJNGOHLNFKK : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerEnergyBarEffect; }
 #define FMCNKHOPJLI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1584E4A0)
 #define FMCNKHOPJLI_TICK_OFFSET UNITYSDK_OFFSET(0x1584E4F0)
 
+inline static constexpr unsigned int FMCNKHOPJLI_TypeDefinitionIndex = 55736;
+
 	class FMCNKHOPJLI : public ::GELIALJDFBL
 	{
 	public:

@@ -7,6 +7,8 @@ namespace MiHoYo::SDK { class JSONNode; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKClientConfigModel_TypeDefinitionIndex = 46335;
+
 	class MiHoYoSDKClientConfigModel : public ::System::Object
 	{
 	public:

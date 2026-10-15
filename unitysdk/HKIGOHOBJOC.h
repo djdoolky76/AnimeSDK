@@ -6,6 +6,8 @@ namespace RPG::Client { class GridFightGameRefData; }
 #define HKIGOHOBJOC_CTOR_OFFSET UNITYSDK_OFFSET(0x15D461C0)
 #define HKIGOHOBJOC_MJDOBHGFEFP_OFFSET UNITYSDK_OFFSET(0x15D463D0)
 
+inline static constexpr unsigned int HKIGOHOBJOC_TypeDefinitionIndex = 64756;
+
 	class HKIGOHOBJOC : public ::System::Object
 	{
 	public:

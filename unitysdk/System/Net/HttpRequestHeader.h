@@ -3,6 +3,8 @@
 
 namespace System::Net
 {
+	inline static constexpr unsigned int HttpRequestHeader_TypeDefinitionIndex = 2737;
+
 	enum class HttpRequestHeader : ::System::Int32
 	{
 		CacheControl = 0,

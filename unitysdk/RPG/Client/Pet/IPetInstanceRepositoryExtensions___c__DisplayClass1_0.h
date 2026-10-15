@@ -8,6 +8,8 @@ namespace RPG::Client::Pet { class IPetInstance; }
 
 namespace RPG::Client::Pet
 {
+	inline static constexpr unsigned int IPetInstanceRepositoryExtensions___c__DisplayClass1_0_TypeDefinitionIndex = 75653;
+
 	class IPetInstanceRepositoryExtensions___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

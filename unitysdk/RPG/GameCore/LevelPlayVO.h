@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelPlayVO; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPlayVO_TypeDefinitionIndex = 23394;
+
 	class LevelPlayVO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

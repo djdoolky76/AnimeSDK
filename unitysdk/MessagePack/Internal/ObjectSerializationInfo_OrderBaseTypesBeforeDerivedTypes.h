@@ -10,6 +10,8 @@ namespace System { class Type; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int ObjectSerializationInfo_OrderBaseTypesBeforeDerivedTypes_TypeDefinitionIndex = 7336;
+
 	class ObjectSerializationInfo_OrderBaseTypesBeforeDerivedTypes : public ::System::Object
 	{
 	public:

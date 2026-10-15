@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace SRDebugger::UI::Controls
 {
+	inline static constexpr unsigned int TableSize_TypeDefinitionIndex = 38033;
+
 	class TableSize : public ::System::Object
 	{
 	public:

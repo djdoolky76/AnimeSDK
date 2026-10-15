@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GFDENAMMEHM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E465A40)
 #define GFDENAMMEHM___C___CCTOR_B__61_0_OFFSET UNITYSDK_OFFSET(0x1E465A50)
 
+inline static constexpr unsigned int GFDENAMMEHM___c_TypeDefinitionIndex = 33934;
+
 	class GFDENAMMEHM___c : public ::System::Object
 	{
 	public:

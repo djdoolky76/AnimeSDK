@@ -30,6 +30,8 @@ namespace System { class String; }
 #define GAMCGLNKLLG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E421EC0)
 #define GAMCGLNKLLG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E421F20)
 
+inline static constexpr unsigned int GAMCGLNKLLG_TypeDefinitionIndex = 26557;
+
 	class GAMCGLNKLLG : public ::System::Object
 	{
 	public:

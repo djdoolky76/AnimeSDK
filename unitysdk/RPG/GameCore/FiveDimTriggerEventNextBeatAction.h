@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimTriggerEventNextBeatAction_TypeDefinitionIndex = 18711;
+
 	class FiveDimTriggerEventNextBeatAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

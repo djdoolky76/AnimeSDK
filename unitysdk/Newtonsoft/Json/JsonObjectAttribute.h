@@ -10,6 +10,8 @@ namespace System { class Nullable; }
 
 namespace Newtonsoft::Json
 {
+	inline static constexpr unsigned int JsonObjectAttribute_TypeDefinitionIndex = 9602;
+
 	class JsonObjectAttribute : public ::Newtonsoft::Json::JsonContainerAttribute
 	{
 	public:

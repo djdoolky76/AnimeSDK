@@ -12,6 +12,8 @@ namespace System::Net { class WebRequest; }
 
 namespace Mono::Http
 {
+	inline static constexpr unsigned int NtlmSession_TypeDefinitionIndex = 2452;
+
 	class NtlmSession : public ::System::Object
 	{
 	public:

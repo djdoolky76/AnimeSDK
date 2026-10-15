@@ -11,6 +11,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightForgeAwardData_TypeDefinitionIndex = 64987;
+
 	class GridFightForgeAwardData : public ::System::Object
 	{
 	public:

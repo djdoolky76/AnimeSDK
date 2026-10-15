@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JIBGBCAHCKA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D034150)
 #define JIBGBCAHCKA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D034110)
 
+inline static constexpr unsigned int JIBGBCAHCKA_TypeDefinitionIndex = 24157;
+
 	class JIBGBCAHCKA : public ::RPG::GameCore::TaskConfig
 	{
 	public:

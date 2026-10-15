@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HCPNKGMBBIP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5454B0)
 #define HCPNKGMBBIP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E545510)
 
+inline static constexpr unsigned int HCPNKGMBBIP_TypeDefinitionIndex = 28308;
+
 	class HCPNKGMBBIP : public ::System::Object
 	{
 	public:

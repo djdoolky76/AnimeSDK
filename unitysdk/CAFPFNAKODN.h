@@ -32,6 +32,8 @@ namespace System { class String; }
 #define CAFPFNAKODN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E058C70)
 #define CAFPFNAKODN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E058CD0)
 
+inline static constexpr unsigned int CAFPFNAKODN_TypeDefinitionIndex = 34078;
+
 	class CAFPFNAKODN : public ::System::Object
 	{
 	public:

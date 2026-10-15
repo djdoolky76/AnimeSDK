@@ -87,6 +87,8 @@ namespace UnityEngine::Events { class UnityEvent; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VirtualCursor_TypeDefinitionIndex = 73232;
+
 	class VirtualCursor : public ::UnityEngine::MonoBehaviour
 	{
 	public:

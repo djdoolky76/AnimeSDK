@@ -12,6 +12,8 @@ namespace System { class String; }
 #define IJNMLEBAMIH_DFFCHNLKELO_OFFSET UNITYSDK_OFFSET(0x164721E0)
 #define IJNMLEBAMIH_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0x16472060)
 
+inline static constexpr unsigned int IJNMLEBAMIH_TypeDefinitionIndex = 53955;
+
 	class IJNMLEBAMIH : public ::KKEFMOKEJIF
 	{
 	public:

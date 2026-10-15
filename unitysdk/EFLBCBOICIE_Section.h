@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int EFLBCBOICIE_Section_TypeDefinitionIndex = 41456;
+
 	enum class EFLBCBOICIE_Section : ::System::Int32
 	{
 		BlockInfo = 0,

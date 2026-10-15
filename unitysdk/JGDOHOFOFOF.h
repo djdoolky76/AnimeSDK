@@ -33,6 +33,8 @@ namespace System { class String; }
 #define JGDOHOFOFOF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E738500)
 #define JGDOHOFOFOF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E738560)
 
+inline static constexpr unsigned int JGDOHOFOFOF_TypeDefinitionIndex = 31505;
+
 	class JGDOHOFOFOF : public ::System::Object
 	{
 	public:

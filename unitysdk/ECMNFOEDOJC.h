@@ -27,6 +27,8 @@ namespace System { class String; }
 #define ECMNFOEDOJC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E255B20)
 #define ECMNFOEDOJC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E255B80)
 
+inline static constexpr unsigned int ECMNFOEDOJC_TypeDefinitionIndex = 33802;
+
 	class ECMNFOEDOJC : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System::Xml::Linq { class XNamespace; }
 
 namespace System::Xml::Linq
 {
+	inline static constexpr unsigned int NamespaceCache_TypeDefinitionIndex = 3895;
+
 	struct alignas(8) NamespaceCache
 	{
 		::System::Xml::Linq::XNamespace* ns; // 0x10

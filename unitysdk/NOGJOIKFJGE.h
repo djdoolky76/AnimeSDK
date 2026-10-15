@@ -46,6 +46,8 @@ namespace UnityEngine { class Transform; }
 #define NOGJOIKFJGE_OOHEABNLHKN_OFFSET UNITYSDK_OFFSET(0xBCEF100)
 #define NOGJOIKFJGE_PCHGGMJFNKI_OFFSET UNITYSDK_OFFSET(0xBCEDDB0)
 
+inline static constexpr unsigned int NOGJOIKFJGE_TypeDefinitionIndex = 81766;
+
 	class NOGJOIKFJGE : public ::System::Object
 	{
 	public:

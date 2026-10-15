@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowSDFText_TypeDefinitionIndex = 20910;
+
 	class ShowSDFText : public ::RPG::GameCore::TaskConfig
 	{
 	public:

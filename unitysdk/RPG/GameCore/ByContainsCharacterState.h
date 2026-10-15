@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByContainsCharacterState_TypeDefinitionIndex = 22758;
+
 	class ByContainsCharacterState : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

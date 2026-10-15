@@ -12,6 +12,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::PS
 {
+	inline static constexpr unsigned int BindingManagerPSOS___c__DisplayClass26_0_TypeDefinitionIndex = 8902;
+
 	class BindingManagerPSOS___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:

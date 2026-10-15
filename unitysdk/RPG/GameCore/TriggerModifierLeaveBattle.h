@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerModifierLeaveBattle; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerModifierLeaveBattle_TypeDefinitionIndex = 23450;
+
 	class TriggerModifierLeaveBattle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class ConvinceSplitLineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ConvinceSplitLineBehaviour_TypeDefinitionIndex = 48054;
+
 	class ConvinceSplitLineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

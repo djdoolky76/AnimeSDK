@@ -44,6 +44,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::UINavigation
 {
+	inline static constexpr unsigned int UINavigationInControlAction_TypeDefinitionIndex = 51739;
+
 	class UINavigationInControlAction : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int BinaryExpression_TypeDefinitionIndex = 3184;
+
 	class BinaryExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:

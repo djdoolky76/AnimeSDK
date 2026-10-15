@@ -8,6 +8,8 @@ class PIPDCBLLPDI;
 #define CDEHGGILJOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C549770)
 #define CDEHGGILJOM_NMMPKFCNKEN_OFFSET UNITYSDK_OFFSET(0x1C549780)
 
+inline static constexpr unsigned int CDEHGGILJOM_TypeDefinitionIndex = 41746;
+
 	class CDEHGGILJOM : public ::System::Object
 	{
 	public:

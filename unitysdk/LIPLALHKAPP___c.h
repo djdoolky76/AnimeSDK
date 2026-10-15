@@ -18,6 +18,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define LIPLALHKAPP___C___CTOR_B__13_3_OFFSET UNITYSDK_OFFSET(0xB6DEEA0)
 #define LIPLALHKAPP___C___CTOR_B__13_4_OFFSET UNITYSDK_OFFSET(0xB6DEED0)
 
+inline static constexpr unsigned int LIPLALHKAPP___c_TypeDefinitionIndex = 73451;
+
 	class LIPLALHKAPP___c : public ::System::Object
 	{
 	public:

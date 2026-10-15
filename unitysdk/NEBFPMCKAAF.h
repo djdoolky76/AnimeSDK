@@ -17,6 +17,8 @@ namespace System { class Object; }
 #define NEBFPMCKAAF_PNDMMDPGIDA_OFFSET UNITYSDK_OFFSET(0xBB57DC0)
 #define NEBFPMCKAAF_TICK_OFFSET UNITYSDK_OFFSET(0xBB57BB0)
 
+inline static constexpr unsigned int NEBFPMCKAAF_TypeDefinitionIndex = 53006;
+
 	class NEBFPMCKAAF : public ::GELIALJDFBL
 	{
 	public:

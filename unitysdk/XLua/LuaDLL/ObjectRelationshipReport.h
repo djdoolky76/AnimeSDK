@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace XLua::LuaDLL
 {
+	inline static constexpr unsigned int ObjectRelationshipReport_TypeDefinitionIndex = 51705;
+
 	class ObjectRelationshipReport : public ::System::MulticastDelegate
 	{
 	public:

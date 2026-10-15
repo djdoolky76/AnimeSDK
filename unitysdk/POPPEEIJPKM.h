@@ -31,6 +31,8 @@ namespace System { class String; }
 #define POPPEEIJPKM_OONGGAFCBCD_OFFSET UNITYSDK_OFFSET(0x1C4D3030)
 #define POPPEEIJPKM_OPKLJKDABFL_OFFSET UNITYSDK_OFFSET(0x1C4D22B0)
 
+inline static constexpr unsigned int POPPEEIJPKM_TypeDefinitionIndex = 41473;
+
 	class POPPEEIJPKM : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::Security::Cryptography { class Oid; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int OidCollection_TypeDefinitionIndex = 2676;
+
 	class OidCollection : public ::System::Object
 	{
 	public:

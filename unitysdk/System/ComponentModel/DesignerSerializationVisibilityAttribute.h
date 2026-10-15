@@ -14,6 +14,8 @@ namespace System::ComponentModel { class DesignerSerializationVisibilityAttribut
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int DesignerSerializationVisibilityAttribute_TypeDefinitionIndex = 2585;
+
 	class DesignerSerializationVisibilityAttribute : public ::System::Attribute
 	{
 	public:

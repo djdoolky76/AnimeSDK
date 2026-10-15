@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int EventInfo_AddEventAdapter_TypeDefinitionIndex = 605;
+
 	class EventInfo_AddEventAdapter : public ::System::MulticastDelegate
 	{
 	public:

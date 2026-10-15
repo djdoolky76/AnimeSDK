@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MLLBHOEDLMC_ODIKJOCIDNE_OFFSET UNITYSDK_OFFSET(0xB9B5990)
 #define MLLBHOEDLMC_OECOILPECAM_OFFSET UNITYSDK_OFFSET(0xB9B5720)
 
+inline static constexpr unsigned int MLLBHOEDLMC_TypeDefinitionIndex = 59625;
+
 	class MLLBHOEDLMC : public ::System::Object
 	{
 	public:

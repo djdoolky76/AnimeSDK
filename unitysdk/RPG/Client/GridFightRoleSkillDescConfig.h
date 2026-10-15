@@ -27,6 +27,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightRoleSkillDescConfig_TypeDefinitionIndex = 65126;
+
 	class GridFightRoleSkillDescConfig : public ::System::Object
 	{
 	public:

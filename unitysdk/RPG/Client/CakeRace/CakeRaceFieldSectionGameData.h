@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceFieldSectionGameData_TypeDefinitionIndex = 76434;
+
 	class CakeRaceFieldSectionGameData : public ::System::Object
 	{
 	public:

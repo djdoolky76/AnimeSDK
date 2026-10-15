@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Bindings
 {
+	inline static constexpr unsigned int NativeAsStructAttribute_TypeDefinitionIndex = 3728;
+
 	class NativeAsStructAttribute : public ::System::Attribute
 	{
 	public:

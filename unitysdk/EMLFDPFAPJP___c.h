@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define EMLFDPFAPJP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2E6860)
 #define EMLFDPFAPJP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E2E6870)
 
+inline static constexpr unsigned int EMLFDPFAPJP___c_TypeDefinitionIndex = 25556;
+
 	class EMLFDPFAPJP___c : public ::System::Object
 	{
 	public:

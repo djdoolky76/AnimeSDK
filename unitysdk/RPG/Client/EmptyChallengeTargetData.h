@@ -16,6 +16,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EmptyChallengeTargetData_TypeDefinitionIndex = 63109;
+
 	class EmptyChallengeTargetData : public ::RPG::Client::BaseChallengeTargetData
 	{
 	public:

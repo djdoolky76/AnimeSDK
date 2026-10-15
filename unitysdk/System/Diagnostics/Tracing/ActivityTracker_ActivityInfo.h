@@ -20,6 +20,8 @@ namespace System::Diagnostics::Tracing { class ActivityTracker_ActivityInfo; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int ActivityTracker_ActivityInfo_TypeDefinitionIndex = 1675;
+
 	class ActivityTracker_ActivityInfo : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DPFGFDPIIHP_MNEPDJOCMPD_OFFSET UNITYSDK_OFFSET(0x11FFB5F0)
 #define DPFGFDPIIHP_OFBEPKPCIJG_OFFSET UNITYSDK_OFFSET(0x11FFB6F0)
 
+inline static constexpr unsigned int DPFGFDPIIHP_TypeDefinitionIndex = 49096;
+
 	class DPFGFDPIIHP : public ::System::Object
 	{
 	public:

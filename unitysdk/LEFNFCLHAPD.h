@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LEFNFCLHAPD_JECJEHEAEAI_OFFSET UNITYSDK_OFFSET(0xB6509B0)
 #define LEFNFCLHAPD_NGONJMGPIHC_OFFSET UNITYSDK_OFFSET(0xB651280)
 
+inline static constexpr unsigned int LEFNFCLHAPD_TypeDefinitionIndex = 66962;
+
 	class LEFNFCLHAPD : public ::GCBOJGNGLGO
 	{
 	public:

@@ -14,6 +14,8 @@ namespace ZXing::Common { class BitMatrix; }
 
 namespace ZXing::OneD
 {
+	inline static constexpr unsigned int UPCEWriter_TypeDefinitionIndex = 7023;
+
 	class UPCEWriter : public ::ZXing::OneD::UPCEANWriter
 	{
 	public:

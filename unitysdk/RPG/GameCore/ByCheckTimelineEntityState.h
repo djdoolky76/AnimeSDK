@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCheckTimelineEntityState_TypeDefinitionIndex = 20636;
+
 	class ByCheckTimelineEntityState : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

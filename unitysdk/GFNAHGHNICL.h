@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define GFNAHGHNICL_NPJPBDLJLLN_OFFSET UNITYSDK_OFFSET(0x159FCBF0)
 #define GFNAHGHNICL_REMOVE_ONCHANGED_OFFSET UNITYSDK_OFFSET(0x159FCF20)
 
+inline static constexpr unsigned int GFNAHGHNICL_TypeDefinitionIndex = 81478;
+
 	class GFNAHGHNICL : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Xml { class XmlResolver; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlTextReaderImpl_LaterInitParam_TypeDefinitionIndex = 1852;
+
 	class XmlTextReaderImpl_LaterInitParam : public ::System::Object
 	{
 	public:

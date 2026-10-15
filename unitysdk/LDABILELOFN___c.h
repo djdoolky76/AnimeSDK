@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LDABILELOFN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F0960)
 #define LDABILELOFN___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E8F0970)
 
+inline static constexpr unsigned int LDABILELOFN___c_TypeDefinitionIndex = 27871;
+
 	class LDABILELOFN___c : public ::System::Object
 	{
 	public:

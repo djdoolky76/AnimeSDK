@@ -7,6 +7,8 @@ namespace UnityEngine { class GameObject; }
 
 #define GDLANOHKANB_MENFMLGGFGK_CTOR_OFFSET UNITYSDK_OFFSET(0x159A43F0)
 
+inline static constexpr unsigned int GDLANOHKANB_MENFMLGGFGK_TypeDefinitionIndex = 47923;
+
 	class GDLANOHKANB_MENFMLGGFGK : public ::System::Object
 	{
 	public:

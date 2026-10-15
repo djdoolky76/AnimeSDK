@@ -22,6 +22,8 @@ namespace System::Net::Http::Headers { class StringWithQualityHeaderValue; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int StringWithQualityHeaderValue_TypeDefinitionIndex = 3826;
+
 	class StringWithQualityHeaderValue : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 #define GNMHCHNDJON_MMNOLLFJEAE_OFFSET UNITYSDK_OFFSET(0x15B1B060)
 #define GNMHCHNDJON_ONMKOKMPANB_OFFSET UNITYSDK_OFFSET(0x15B1AEA0)
 
+inline static constexpr unsigned int GNMHCHNDJON_TypeDefinitionIndex = 77818;
+
 	class GNMHCHNDJON : public ::System::Object
 	{
 	public:

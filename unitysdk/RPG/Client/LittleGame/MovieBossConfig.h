@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int MovieBossConfig_TypeDefinitionIndex = 42316;
+
 	class MovieBossConfig : public ::RPG::Client::LittleGame::MovieEnemyConfig
 	{
 	public:

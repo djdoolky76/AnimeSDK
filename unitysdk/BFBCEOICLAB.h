@@ -64,6 +64,8 @@ namespace System { class String; }
 #define BFBCEOICLAB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA6A120)
 #define BFBCEOICLAB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA6A180)
 
+inline static constexpr unsigned int BFBCEOICLAB_TypeDefinitionIndex = 28295;
+
 	class BFBCEOICLAB : public ::System::Object
 	{
 	public:

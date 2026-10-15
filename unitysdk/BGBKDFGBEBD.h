@@ -11,6 +11,8 @@ namespace System { class String; }
 #define BGBKDFGBEBD_NAILNOEMNJC_OFFSET UNITYSDK_OFFSET(0x1EBEFC40)
 #define BGBKDFGBEBD_ONEBKMMIIFI_OFFSET UNITYSDK_OFFSET(0x1EBEFC90)
 
+inline static constexpr unsigned int BGBKDFGBEBD_TypeDefinitionIndex = 35272;
+
 	class BGBKDFGBEBD : public ::System::Object
 	{
 	public:

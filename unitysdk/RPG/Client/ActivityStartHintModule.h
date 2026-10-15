@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityStartHintModule_TypeDefinitionIndex = 61905;
+
 	class ActivityStartHintModule : public ::RPG::Client::BaseModule
 	{
 	public:

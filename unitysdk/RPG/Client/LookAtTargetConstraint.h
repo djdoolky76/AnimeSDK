@@ -13,6 +13,8 @@ namespace RPG::GameCore { class CharacterHeadConstraint; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LookAtTargetConstraint_TypeDefinitionIndex = 68478;
+
 	class LookAtTargetConstraint : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ColliderShaderPropertyConnection_TypeDefinitionIndex = 68857;
+
 	class ColliderShaderPropertyConnection : public ::UnityEngine::MonoBehaviour
 	{
 	public:

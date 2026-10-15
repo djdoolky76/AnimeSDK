@@ -16,6 +16,8 @@ namespace System { class Object; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int BindingSource_TypeDefinitionIndex = 40793;
+
 	class BindingSource : public ::System::Object
 	{
 	public:

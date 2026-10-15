@@ -6,6 +6,8 @@
 #define CLASS_742_FB5D20B114065592_METHOD_2_OFFSET UNITYSDK_OFFSET(0x1498DB70)
 #define CLASS_742_FB5D20B114065592_METHOD_OFFSET UNITYSDK_OFFSET(0x1498E1C0)
 
+inline static constexpr unsigned int Class_742_FB5D20B114065592_TypeDefinitionIndex = 51077;
+
 	class Class_742_FB5D20B114065592 : public ::System::Object
 	{
 	public:

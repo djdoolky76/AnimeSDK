@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HoYoChannelSDK_CallBack_TypeDefinitionIndex = 46545;
+
 	class HoYoChannelSDK_CallBack : public ::System::MulticastDelegate
 	{
 	public:

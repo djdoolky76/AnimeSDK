@@ -8,6 +8,8 @@ namespace System { class String; }
 #define PJECBIOOJKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2F4B10)
 #define PJECBIOOJKI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2F4A00)
 
+inline static constexpr unsigned int PJECBIOOJKI_TypeDefinitionIndex = 13068;
+
 	class PJECBIOOJKI : public ::System::Object
 	{
 	public:

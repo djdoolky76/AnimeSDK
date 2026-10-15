@@ -13,6 +13,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int DefaultValueInstruction_TypeDefinitionIndex = 3350;
+
 	class DefaultValueInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:

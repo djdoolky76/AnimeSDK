@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class Toggle; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int ToggleGroup___c_TypeDefinitionIndex = 6870;
+
 	class ToggleGroup___c : public ::System::Object
 	{
 	public:

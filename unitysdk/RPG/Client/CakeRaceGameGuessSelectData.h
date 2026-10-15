@@ -10,6 +10,8 @@ namespace RPG::Client { class CakeRaceGameGuessSelectData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeRaceGameGuessSelectData_TypeDefinitionIndex = 63044;
+
 	class CakeRaceGameGuessSelectData : public ::System::Object
 	{
 	public:

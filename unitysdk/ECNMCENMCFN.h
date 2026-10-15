@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class RawImage; }
 #define ECNMCENMCFN_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x12D16170)
 #define ECNMCENMCFN_PBJAENMIKEJ_OFFSET UNITYSDK_OFFSET(0x12D16360)
 
+inline static constexpr unsigned int ECNMCENMCFN_TypeDefinitionIndex = 72791;
+
 	class ECNMCENMCFN : public ::System::Object
 	{
 	public:

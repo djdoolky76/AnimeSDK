@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierSkipBattleConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierSkipBattleConfig_TypeDefinitionIndex = 19487;
+
 	class GridFightModifierSkipBattleConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

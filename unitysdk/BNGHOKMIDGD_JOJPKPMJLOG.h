@@ -6,6 +6,8 @@ namespace System { template <typename T> class Func_1; }
 #define BNGHOKMIDGD_JOJPKPMJLOG_CLEAR_OFFSET UNITYSDK_OFFSET(0xBDD8DC0)
 #define BNGHOKMIDGD_JOJPKPMJLOG_CTOR_OFFSET UNITYSDK_OFFSET(0xBDD23C0)
 
+inline static constexpr unsigned int BNGHOKMIDGD_JOJPKPMJLOG_TypeDefinitionIndex = 60793;
+
 	class BNGHOKMIDGD_JOJPKPMJLOG : public ::System::Object
 	{
 	public:

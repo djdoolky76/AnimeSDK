@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace System::Linq
 {
+	inline static constexpr unsigned int Set_1_TypeDefinitionIndex = 3174;
+
 	template <typename T>
 	class Set_1 : public ::System::Object
 	{

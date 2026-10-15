@@ -10,6 +10,8 @@
 #define HDBLOCLJPOF_SET_X_OFFSET UNITYSDK_OFFSET(0x15C30150)
 #define HDBLOCLJPOF_SET_Y_OFFSET UNITYSDK_OFFSET(0x15C30170)
 
+inline static constexpr unsigned int HDBLOCLJPOF_TypeDefinitionIndex = 64468;
+
 	class HDBLOCLJPOF : public ::System::Object
 	{
 	public:

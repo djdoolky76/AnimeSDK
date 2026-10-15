@@ -11,6 +11,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PointsAnimRenderModule_PointsAnimRendererPackage_TypeDefinitionIndex = 70629;
+
 	class PointsAnimRenderModule_PointsAnimRendererPackage : public ::System::Object
 	{
 	public:

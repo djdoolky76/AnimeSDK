@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DFDCPCNBPAD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E19D5F0)
 #define DFDCPCNBPAD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E19D650)
 
+inline static constexpr unsigned int DFDCPCNBPAD_TypeDefinitionIndex = 28439;
+
 	class DFDCPCNBPAD : public ::System::Object
 	{
 	public:

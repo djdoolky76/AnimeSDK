@@ -31,6 +31,8 @@ namespace System { class String; }
 #define FIMLPDOBHBD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E39C6F0)
 #define FIMLPDOBHBD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E39C750)
 
+inline static constexpr unsigned int FIMLPDOBHBD_TypeDefinitionIndex = 30394;
+
 	class FIMLPDOBHBD : public ::System::Object
 	{
 	public:

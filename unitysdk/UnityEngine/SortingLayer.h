@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int SortingLayer_TypeDefinitionIndex = 4022;
+
 	struct alignas(4) SortingLayer
 	{
 		::System::Int32 m_Id; // 0x10

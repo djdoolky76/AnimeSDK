@@ -21,6 +21,8 @@ namespace System::Security { class SecureString; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int NetworkCredential_TypeDefinitionIndex = 2754;
+
 	class NetworkCredential : public ::System::Object
 	{
 	public:

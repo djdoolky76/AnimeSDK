@@ -32,6 +32,8 @@ namespace System { class String; }
 #define PLOFKJDKEPN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFA4DF0)
 #define PLOFKJDKEPN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFA4E50)
 
+inline static constexpr unsigned int PLOFKJDKEPN_TypeDefinitionIndex = 31769;
+
 	class PLOFKJDKEPN : public ::System::Object
 	{
 	public:

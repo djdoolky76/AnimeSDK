@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int ChromaticAberrationParameter_TypeDefinitionIndex = 48553;
+
 	struct alignas(4) ChromaticAberrationParameter
 	{
 		::System::Boolean ChromaticAberrationOverrideState; // 0x10

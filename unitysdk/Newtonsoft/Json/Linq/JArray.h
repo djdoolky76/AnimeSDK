@@ -44,6 +44,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Newtonsoft::Json::Linq
 {
+	inline static constexpr unsigned int JArray_TypeDefinitionIndex = 9777;
+
 	class JArray : public ::Newtonsoft::Json::Linq::JContainer
 	{
 	public:

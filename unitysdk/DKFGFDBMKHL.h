@@ -7,6 +7,8 @@ class FCOEMCEDLNL;
 #define DKFGFDBMKHL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD357F0)
 #define DKFGFDBMKHL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD356D0)
 
+inline static constexpr unsigned int DKFGFDBMKHL_TypeDefinitionIndex = 13337;
+
 	class DKFGFDBMKHL : public ::System::Object
 	{
 	public:

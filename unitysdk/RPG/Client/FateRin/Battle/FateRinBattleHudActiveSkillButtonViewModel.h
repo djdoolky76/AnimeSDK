@@ -25,6 +25,8 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudActiveSkillButtonViewModel_TypeDefinitionIndex = 80881;
+
 	class FateRinBattleHudActiveSkillButtonViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

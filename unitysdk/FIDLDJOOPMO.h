@@ -39,6 +39,8 @@ namespace System { class String; }
 #define FIDLDJOOPMO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E396850)
 #define FIDLDJOOPMO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3968B0)
 
+inline static constexpr unsigned int FIDLDJOOPMO_TypeDefinitionIndex = 25441;
+
 	class FIDLDJOOPMO : public ::System::Object
 	{
 	public:

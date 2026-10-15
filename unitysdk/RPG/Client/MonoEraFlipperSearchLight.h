@@ -16,6 +16,8 @@ namespace UnityEngine::EventSystems { class AxisEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEraFlipperSearchLight_TypeDefinitionIndex = 68955;
+
 	class MonoEraFlipperSearchLight : public ::UnityEngine::MonoBehaviour
 	{
 	public:

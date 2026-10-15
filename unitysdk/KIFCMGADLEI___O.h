@@ -5,6 +5,8 @@ namespace RPG::GameCore { class JsonConfig; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
+inline static constexpr unsigned int KIFCMGADLEI___O_TypeDefinitionIndex = 63371;
+
 	class KIFCMGADLEI___O : public ::System::Object
 	{
 	public:

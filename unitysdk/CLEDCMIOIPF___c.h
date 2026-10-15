@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CLEDCMIOIPF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0F7A30)
 #define CLEDCMIOIPF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E0F7A40)
 
+inline static constexpr unsigned int CLEDCMIOIPF___c_TypeDefinitionIndex = 29642;
+
 	class CLEDCMIOIPF___c : public ::System::Object
 	{
 	public:

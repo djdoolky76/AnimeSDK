@@ -5,6 +5,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace InControl::Internal
 {
+	inline static constexpr unsigned int CodeWriter___O_TypeDefinitionIndex = 40922;
+
 	class CodeWriter___O : public ::System::Object
 	{
 	public:

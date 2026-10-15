@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int ReplicationFormatterResolver_FIJPBNBAHGD_TypeDefinitionIndex = 37066;
+
 	class ReplicationFormatterResolver_FIJPBNBAHGD : public ::System::Object
 	{
 	public:

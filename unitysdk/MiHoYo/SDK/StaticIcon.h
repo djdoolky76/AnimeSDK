@@ -29,6 +29,8 @@ namespace UnityEngine::UI { class RawImage; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int StaticIcon_TypeDefinitionIndex = 8015;
+
 	class StaticIcon : public ::UnityEngine::MonoBehaviour
 	{
 	public:

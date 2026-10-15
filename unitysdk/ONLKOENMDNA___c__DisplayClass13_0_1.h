@@ -5,6 +5,8 @@ class ONLKOENMDNA;
 namespace System { class Action; }
 namespace System { class String; }
 
+inline static constexpr unsigned int ONLKOENMDNA___c__DisplayClass13_0_1_TypeDefinitionIndex = 49351;
+
 	template <typename T>
 	class ONLKOENMDNA___c__DisplayClass13_0_1 : public ::System::Object
 	{

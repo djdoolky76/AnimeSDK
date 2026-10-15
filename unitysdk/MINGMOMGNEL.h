@@ -31,6 +31,8 @@ namespace System { class String; }
 #define MINGMOMGNEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA3E9E0)
 #define MINGMOMGNEL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA3EA40)
 
+inline static constexpr unsigned int MINGMOMGNEL_TypeDefinitionIndex = 29783;
+
 	class MINGMOMGNEL : public ::System::Object
 	{
 	public:

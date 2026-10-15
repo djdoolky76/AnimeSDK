@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int MoveVirtualCameraOnDollyPathClip_TypeDefinitionIndex = 47819;
+
 	class MoveVirtualCameraOnDollyPathClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

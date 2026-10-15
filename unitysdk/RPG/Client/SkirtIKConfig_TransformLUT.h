@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SkirtIKConfig_TransformLUT_TypeDefinitionIndex = 68380;
+
 	class SkirtIKConfig_TransformLUT : public ::UnityEngine::ScriptableObject
 	{
 	public:

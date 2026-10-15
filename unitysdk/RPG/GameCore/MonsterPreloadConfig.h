@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MonsterPreloadConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonsterPreloadConfig_TypeDefinitionIndex = 16339;
+
 	class MonsterPreloadConfig : public ::RPG::GameCore::CharacterPreloadConfigBase
 	{
 	public:

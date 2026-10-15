@@ -16,6 +16,8 @@ namespace RPG::GameCore { class LevelPropInfo; }
 #define IMIIIFGHJAK_MGOGPIGEHOF_OFFSET UNITYSDK_OFFSET(0x164D9CE0)
 #define IMIIIFGHJAK_PPLOEFLAGIB_OFFSET UNITYSDK_OFFSET(0x164D9D30)
 
+inline static constexpr unsigned int IMIIIFGHJAK_TypeDefinitionIndex = 64205;
+
 	class IMIIIFGHJAK : public ::System::Object
 	{
 	public:

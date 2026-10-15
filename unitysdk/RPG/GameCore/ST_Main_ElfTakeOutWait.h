@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Main_ElfTakeOutWait; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_ElfTakeOutWait_TypeDefinitionIndex = 21538;
+
 	class ST_Main_ElfTakeOutWait : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

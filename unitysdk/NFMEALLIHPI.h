@@ -40,6 +40,8 @@ namespace System { class String; }
 #define NFMEALLIHPI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB065D0)
 #define NFMEALLIHPI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB06630)
 
+inline static constexpr unsigned int NFMEALLIHPI_TypeDefinitionIndex = 34002;
+
 	class NFMEALLIHPI : public ::System::Object
 	{
 	public:

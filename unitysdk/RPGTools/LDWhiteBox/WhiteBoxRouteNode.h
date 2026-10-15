@@ -31,6 +31,8 @@ namespace System { class String; }
 
 namespace RPGTools::LDWhiteBox
 {
+	inline static constexpr unsigned int WhiteBoxRouteNode_TypeDefinitionIndex = 48962;
+
 	class WhiteBoxRouteNode : public ::UnityEngine::MonoBehaviour
 	{
 	public:

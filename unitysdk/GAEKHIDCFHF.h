@@ -36,6 +36,8 @@ namespace System { class String; }
 #define GAEKHIDCFHF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E41AD70)
 #define GAEKHIDCFHF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E41ADD0)
 
+inline static constexpr unsigned int GAEKHIDCFHF_TypeDefinitionIndex = 29684;
+
 	class GAEKHIDCFHF : public ::System::Object
 	{
 	public:

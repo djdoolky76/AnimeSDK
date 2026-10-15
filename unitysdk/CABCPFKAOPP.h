@@ -33,6 +33,8 @@ namespace System { class String; }
 #define CABCPFKAOPP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E053F20)
 #define CABCPFKAOPP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E053F80)
 
+inline static constexpr unsigned int CABCPFKAOPP_TypeDefinitionIndex = 27057;
+
 	class CABCPFKAOPP : public ::System::Object
 	{
 	public:

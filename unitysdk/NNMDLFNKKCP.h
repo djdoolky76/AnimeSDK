@@ -49,6 +49,8 @@ namespace UnityEngine { class AnimatorOverrideController; }
 #define NNMDLFNKKCP_NFKONKKPLJK_OFFSET UNITYSDK_OFFSET(0xBCCD100)
 #define NNMDLFNKKCP_NPGHJNNFANA_OFFSET UNITYSDK_OFFSET(0xBCCE840)
 
+inline static constexpr unsigned int NNMDLFNKKCP_TypeDefinitionIndex = 57291;
+
 	class NNMDLFNKKCP : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define ELDONCLGHPO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2CD980)
 #define ELDONCLGHPO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2CD9E0)
 
+inline static constexpr unsigned int ELDONCLGHPO_TypeDefinitionIndex = 33754;
+
 	class ELDONCLGHPO : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRSystem__GetControllerState; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int CVRSystem_GetControllerStateUnion_TypeDefinitionIndex = 39193;
+
 	struct alignas(8) CVRSystem_GetControllerStateUnion
 	{
 		::ZenFulcrum::VR::OpenVRBinding::IVRSystem__GetControllerState* pGetControllerState; // 0x10

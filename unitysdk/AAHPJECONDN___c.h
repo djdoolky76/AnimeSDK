@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AAHPJECONDN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDBB750)
 #define AAHPJECONDN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DDBB760)
 
+inline static constexpr unsigned int AAHPJECONDN___c_TypeDefinitionIndex = 32005;
+
 	class AAHPJECONDN___c : public ::System::Object
 	{
 	public:

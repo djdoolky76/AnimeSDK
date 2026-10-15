@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetHpBreakHint_TypeDefinitionIndex = 23656;
+
 	class SetHpBreakHint : public ::RPG::GameCore::TaskConfig
 	{
 	public:

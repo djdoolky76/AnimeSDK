@@ -9,6 +9,8 @@ namespace RPG::Client::DiceCombat { class DiceCombatV2SideBarToastQueue_ActiveTo
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2SideBarToastQueue___c__DisplayClass14_0_TypeDefinitionIndex = 76215;
+
 	class DiceCombatV2SideBarToastQueue___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:

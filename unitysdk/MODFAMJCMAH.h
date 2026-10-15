@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MODFAMJCMAH_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBA26E40)
 #define MODFAMJCMAH_PDOKCIFFKIC_OFFSET UNITYSDK_OFFSET(0xBA27230)
 
+inline static constexpr unsigned int MODFAMJCMAH_TypeDefinitionIndex = 57361;
+
 	class MODFAMJCMAH : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

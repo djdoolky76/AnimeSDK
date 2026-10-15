@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int PathTracingDebug_DumpPath_TypeDefinitionIndex = 51843;
+
 	class PathTracingDebug_DumpPath : public ::System::Object
 	{
 	public:

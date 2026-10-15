@@ -8,6 +8,8 @@ namespace System::Xml { class NameTable_Entry; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int NameTable_Entry_TypeDefinitionIndex = 1929;
+
 	class NameTable_Entry : public ::System::Object
 	{
 	public:

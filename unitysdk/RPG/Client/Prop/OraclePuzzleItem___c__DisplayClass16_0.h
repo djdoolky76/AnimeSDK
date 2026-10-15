@@ -11,6 +11,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int OraclePuzzleItem___c__DisplayClass16_0_TypeDefinitionIndex = 78733;
+
 	class OraclePuzzleItem___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define GMCAGPOHKJJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4CB400)
 #define GMCAGPOHKJJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4CB460)
 
+inline static constexpr unsigned int GMCAGPOHKJJ_TypeDefinitionIndex = 35088;
+
 	class GMCAGPOHKJJ : public ::System::Object
 	{
 	public:

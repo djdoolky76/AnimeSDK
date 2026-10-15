@@ -34,6 +34,8 @@ namespace System { class String; }
 #define BLHGFHMEFMB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF61730)
 #define BLHGFHMEFMB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF61790)
 
+inline static constexpr unsigned int BLHGFHMEFMB_TypeDefinitionIndex = 31061;
+
 	class BLHGFHMEFMB : public ::System::Object
 	{
 	public:

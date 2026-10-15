@@ -30,6 +30,8 @@ namespace System { class String; }
 #define LEIBJEPHONE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9317F0)
 #define LEIBJEPHONE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E931850)
 
+inline static constexpr unsigned int LEIBJEPHONE_TypeDefinitionIndex = 31930;
+
 	class LEIBJEPHONE : public ::System::Object
 	{
 	public:

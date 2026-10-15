@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PS
 {
+	inline static constexpr unsigned int BindingManagerPSOS___c__DisplayClass28_0_TypeDefinitionIndex = 8904;
+
 	class BindingManagerPSOS___c__DisplayClass28_0 : public ::System::Object
 	{
 	public:

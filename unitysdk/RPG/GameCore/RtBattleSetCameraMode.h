@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RtBattleSetCameraMode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtBattleSetCameraMode_TypeDefinitionIndex = 24093;
+
 	class RtBattleSetCameraMode : public ::RPG::GameCore::TaskConfig
 	{
 	public:

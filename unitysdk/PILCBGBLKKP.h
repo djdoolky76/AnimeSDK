@@ -9,6 +9,8 @@ namespace Entitas { class IEntity; }
 #define PILCBGBLKKP_ONREMOVE_OFFSET UNITYSDK_OFFSET(0xC26E330)
 #define PILCBGBLKKP_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xC26E1C0)
 
+inline static constexpr unsigned int PILCBGBLKKP_TypeDefinitionIndex = 79124;
+
 	class PILCBGBLKKP
 	{
 	public:

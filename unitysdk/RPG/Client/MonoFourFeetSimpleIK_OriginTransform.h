@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoFourFeetSimpleIK_OriginTransform_TypeDefinitionIndex = 68592;
+
 	class MonoFourFeetSimpleIK_OriginTransform : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NEDEIDNOLIM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAF1190)
 #define NEDEIDNOLIM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EAF11A0)
 
+inline static constexpr unsigned int NEDEIDNOLIM___c_TypeDefinitionIndex = 33514;
+
 	class NEDEIDNOLIM___c : public ::System::Object
 	{
 	public:

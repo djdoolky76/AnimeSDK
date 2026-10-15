@@ -6,6 +6,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2MotorJoint_TypeDefinitionIndex = 36712;
+
 	struct alignas(4) B2MotorJoint
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 linearOffset; // 0x10

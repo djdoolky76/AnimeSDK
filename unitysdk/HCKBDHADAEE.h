@@ -146,6 +146,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define HCKBDHADAEE_PMJAEEJCDCA_OFFSET UNITYSDK_OFFSET(0x1CAB8990)
 #define HCKBDHADAEE_PPAMJNOKPLO_OFFSET UNITYSDK_OFFSET(0x1CAB9200)
 
+inline static constexpr unsigned int HCKBDHADAEE_TypeDefinitionIndex = 42582;
+
 	class HCKBDHADAEE : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define ANDPLLAKCLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E52A0F0)
 #define ANDPLLAKCLE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E52A150)
 
+inline static constexpr unsigned int ANDPLLAKCLE_TypeDefinitionIndex = 30663;
+
 	class ANDPLLAKCLE : public ::System::Object
 	{
 	public:

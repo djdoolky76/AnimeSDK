@@ -6,6 +6,8 @@
 #define BIDFKKAKOLB_GET_ISDISKFULL_OFFSET UNITYSDK_OFFSET(0xB4A2200)
 #define BIDFKKAKOLB_SET_ISDISKFULL_OFFSET UNITYSDK_OFFSET(0xB4A2210)
 
+inline static constexpr unsigned int BIDFKKAKOLB_TypeDefinitionIndex = 61272;
+
 	class BIDFKKAKOLB : public ::System::Exception
 	{
 	public:

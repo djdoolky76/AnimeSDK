@@ -22,6 +22,8 @@ namespace System::Xml { class XmlNode; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlNamedNodeMap_TypeDefinitionIndex = 1911;
+
 	class XmlNamedNodeMap : public ::System::Object
 	{
 	public:

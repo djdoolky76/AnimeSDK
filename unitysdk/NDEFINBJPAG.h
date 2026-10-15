@@ -27,6 +27,8 @@ namespace System { class String; }
 #define NDEFINBJPAG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAE59D0)
 #define NDEFINBJPAG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAE5A30)
 
+inline static constexpr unsigned int NDEFINBJPAG_TypeDefinitionIndex = 28092;
+
 	class NDEFINBJPAG : public ::System::Object
 	{
 	public:

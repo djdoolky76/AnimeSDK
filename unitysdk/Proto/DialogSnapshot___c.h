@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int DialogSnapshot___c_TypeDefinitionIndex = 25851;
+
 	class DialogSnapshot___c : public ::System::Object
 	{
 	public:

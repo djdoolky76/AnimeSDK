@@ -35,6 +35,8 @@ namespace UnityEngine { class Transform; }
 #define KDPCEBNFPAC_OFLJBEOJIGF_OFFSET UNITYSDK_OFFSET(0xB36C920)
 #define KDPCEBNFPAC_PACFOLEBMDB_OFFSET UNITYSDK_OFFSET(0xB36D5D0)
 
+inline static constexpr unsigned int KDPCEBNFPAC_TypeDefinitionIndex = 80169;
+
 	class KDPCEBNFPAC : public ::System::Object
 	{
 	public:

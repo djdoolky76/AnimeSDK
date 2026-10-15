@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LockFov; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LockFov_TypeDefinitionIndex = 20839;
+
 	class LockFov : public ::RPG::GameCore::TaskConfig
 	{
 	public:

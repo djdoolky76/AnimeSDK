@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define NBJOMCFBDFN_JMBMOCBBBEM_OFFSET UNITYSDK_OFFSET(0xBAD8D50)
 #define NBJOMCFBDFN_MEAGKJGPAOO_OFFSET UNITYSDK_OFFSET(0xBAD8E00)
 
+inline static constexpr unsigned int NBJOMCFBDFN_TypeDefinitionIndex = 80112;
+
 	class NBJOMCFBDFN : public ::System::Object
 	{
 	public:

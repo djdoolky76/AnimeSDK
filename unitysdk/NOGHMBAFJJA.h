@@ -4,6 +4,8 @@
 
 #define NOGHMBAFJJA_CTOR_OFFSET UNITYSDK_OFFSET(0xBCEBE90)
 
+inline static constexpr unsigned int NOGHMBAFJJA_TypeDefinitionIndex = 80193;
+
 	class NOGHMBAFJJA : public ::System::Object
 	{
 	public:

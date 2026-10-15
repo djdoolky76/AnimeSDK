@@ -173,6 +173,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MainMissionData_TypeDefinitionIndex = 66130;
+
 	class MainMissionData : public ::System::Object
 	{
 	public:

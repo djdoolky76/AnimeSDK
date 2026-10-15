@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCanAutoUseItemToRecoverMP_TypeDefinitionIndex = 20195;
+
 	class ByCanAutoUseItemToRecoverMP : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

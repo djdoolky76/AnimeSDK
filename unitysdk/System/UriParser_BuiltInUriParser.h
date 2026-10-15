@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int UriParser_BuiltInUriParser_TypeDefinitionIndex = 2479;
+
 	class UriParser_BuiltInUriParser : public ::System::UriParser
 	{
 	public:

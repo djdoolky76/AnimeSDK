@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Bindings
 {
+	inline static constexpr unsigned int VisibleToOtherModulesAttribute_TypeDefinitionIndex = 3719;
+
 	class VisibleToOtherModulesAttribute : public ::System::Attribute
 	{
 	public:

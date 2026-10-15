@@ -7,6 +7,8 @@ namespace System { class String; }
 #define EFJCOMHLIDO_CTOR_OFFSET UNITYSDK_OFFSET(0x13A4EC60)
 #define EFJCOMHLIDO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x13A4EBF0)
 
+inline static constexpr unsigned int EFJCOMHLIDO_TypeDefinitionIndex = 82239;
+
 	class EFJCOMHLIDO : public ::System::Object
 	{
 	public:

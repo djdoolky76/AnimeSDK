@@ -14,6 +14,8 @@ namespace System { class String; }
 #define CGAGOFECAHD_KOCLGAFFGOP_OFFSET UNITYSDK_OFFSET(0xCC63330)
 #define CGAGOFECAHD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC62CE0)
 
+inline static constexpr unsigned int CGAGOFECAHD_TypeDefinitionIndex = 58050;
+
 	class CGAGOFECAHD
 	{
 	public:

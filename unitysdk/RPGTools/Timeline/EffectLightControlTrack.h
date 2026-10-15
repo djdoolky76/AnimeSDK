@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int EffectLightControlTrack_TypeDefinitionIndex = 48159;
+
 	class EffectLightControlTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

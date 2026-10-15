@@ -6,6 +6,8 @@ namespace UnityEngine { class Gradient; }
 
 #define CONSTELLATIONEFFECTGROUP_CONSTELLATIONLINE_CTOR_OFFSET UNITYSDK_OFFSET(0xDFB3BB0)
 
+inline static constexpr unsigned int ConstellationEffectGroup_ConstellationLine_TypeDefinitionIndex = 47329;
+
 	class ConstellationEffectGroup_ConstellationLine : public ::System::Object
 	{
 	public:

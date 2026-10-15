@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AnimatorControllerParameter_TypeDefinitionIndex = 5714;
+
 	class AnimatorControllerParameter : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NativeContainer_1_TypeDefinitionIndex = 10874;
+
 	template <typename T>
 	class NativeContainer_1 : public ::MBGOLJBHEHA
 	{

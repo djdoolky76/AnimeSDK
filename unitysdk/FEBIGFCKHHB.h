@@ -12,6 +12,8 @@ class NEJPLEFGALN;
 #define FEBIGFCKHHB_GET_TOKENQUEUE_OFFSET UNITYSDK_OFFSET(0x156E4790)
 #define FEBIGFCKHHB_SET_TOKENQUEUE_OFFSET UNITYSDK_OFFSET(0x156E47A0)
 
+inline static constexpr unsigned int FEBIGFCKHHB_TypeDefinitionIndex = 54246;
+
 	class FEBIGFCKHHB : public ::System::Object
 	{
 	public:

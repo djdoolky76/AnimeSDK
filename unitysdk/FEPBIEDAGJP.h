@@ -21,6 +21,8 @@ namespace RPG::Client { class PipelineCameraGlobalConfig; }
 #define FEPBIEDAGJP_NHEDINBLOIH_OFFSET UNITYSDK_OFFSET(0x1572DC50)
 #define FEPBIEDAGJP_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1572EA30)
 
+inline static constexpr unsigned int FEPBIEDAGJP_TypeDefinitionIndex = 69635;
+
 	class FEPBIEDAGJP : public ::MDILEMALGNC
 	{
 	public:

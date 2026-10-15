@@ -31,6 +31,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int DeployPuzzleBasePoint_TypeDefinitionIndex = 78519;
+
 	class DeployPuzzleBasePoint : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int TaskAwaiter_TypeDefinitionIndex = 1369;
+
 	struct alignas(8) TaskAwaiter
 	{
 		::System::Threading::Tasks::Task* m_task; // 0x10

@@ -6,6 +6,8 @@ class HFALLFOEHKN;
 
 #define LLPEHDFMLNJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB775A00)
 
+inline static constexpr unsigned int LLPEHDFMLNJ_TypeDefinitionIndex = 57626;
+
 	class LLPEHDFMLNJ : public ::BIMHOGHOCKP
 	{
 	public:

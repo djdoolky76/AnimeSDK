@@ -16,6 +16,8 @@ namespace ZXing::Common { class EncodingOptions; }
 
 namespace ZXing
 {
+	inline static constexpr unsigned int Color32Renderer_TypeDefinitionIndex = 7010;
+
 	class Color32Renderer : public ::System::Object
 	{
 	public:

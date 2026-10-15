@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetAudienceGroupVisible; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetAudienceGroupVisible_TypeDefinitionIndex = 21881;
+
 	class SetAudienceGroupVisible : public ::RPG::GameCore::TaskConfig
 	{
 	public:

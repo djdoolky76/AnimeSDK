@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 #define MNCOPNHONHO___C__DISPLAYCLASS156_2_CTOR_OFFSET UNITYSDK_OFFSET(0xB9F46A0)
 
+inline static constexpr unsigned int MNCOPNHONHO___c__DisplayClass156_2_TypeDefinitionIndex = 76693;
+
 	template <typename T1, typename T2>
 	class MNCOPNHONHO___c__DisplayClass156_2 : public ::System::Object
 	{

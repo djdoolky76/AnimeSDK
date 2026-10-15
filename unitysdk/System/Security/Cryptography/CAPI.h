@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int CAPI_TypeDefinitionIndex = 2678;
+
 	class CAPI : public ::System::Object
 	{
 	public:

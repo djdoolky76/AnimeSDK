@@ -9,6 +9,8 @@ namespace RPG::Client { class ChimeraDuelItemInfo; }
 #define OFIAIIJCJMP___C__DISPLAYCLASS15_0___GETITEMPOOLMAXRARITY_B__0_OFFSET UNITYSDK_OFFSET(0xBE42850)
 #define OFIAIIJCJMP___C__DISPLAYCLASS15_0___GETITEMPOOLMAXRARITY_B__2_OFFSET UNITYSDK_OFFSET(0xBE42870)
 
+inline static constexpr unsigned int OFIAIIJCJMP___c__DisplayClass15_0_TypeDefinitionIndex = 63385;
+
 	class OFIAIIJCJMP___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtCharacterVisual_TypeDefinitionIndex = 24091;
+
 	class RtCharacterVisual : public ::RPG::GameCore::JsonConfig
 	{
 	public:

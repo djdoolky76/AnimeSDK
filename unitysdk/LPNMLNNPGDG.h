@@ -20,6 +20,8 @@ class PBGNKMMDBGD;
 #define LPNMLNNPGDG_KGIBBJILPNE_OFFSET UNITYSDK_OFFSET(0x1C7459F0)
 #define LPNMLNNPGDG_NOCCGMOFBFD_OFFSET UNITYSDK_OFFSET(0x1C745490)
 
+inline static constexpr unsigned int LPNMLNNPGDG_TypeDefinitionIndex = 37445;
+
 	class LPNMLNNPGDG : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 #define GBMEOKDMCAN_CTOR_OFFSET UNITYSDK_OFFSET(0x15952890)
 
+inline static constexpr unsigned int GBMEOKDMCAN_TypeDefinitionIndex = 55885;
+
 	class GBMEOKDMCAN : public ::JHJHLNDJKNM
 	{
 	public:

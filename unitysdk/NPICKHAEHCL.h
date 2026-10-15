@@ -26,6 +26,8 @@ namespace UnityEngine { class Transform; }
 #define NPICKHAEHCL_ONUNSERIALIZEFINISH_OFFSET UNITYSDK_OFFSET(0xBCFE810)
 #define NPICKHAEHCL_SETHOSTMANAGEDLIGHT_OFFSET UNITYSDK_OFFSET(0xBCFE4C0)
 
+inline static constexpr unsigned int NPICKHAEHCL_TypeDefinitionIndex = 49073;
+
 	class NPICKHAEHCL : public ::System::Object
 	{
 	public:

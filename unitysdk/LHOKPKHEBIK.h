@@ -12,6 +12,8 @@ namespace System { class String; }
 #define LHOKPKHEBIK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0F4810)
 #define LHOKPKHEBIK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0F47C0)
 
+inline static constexpr unsigned int LHOKPKHEBIK_TypeDefinitionIndex = 23328;
+
 	class LHOKPKHEBIK : public ::RPG::GameCore::TaskConfig
 	{
 	public:

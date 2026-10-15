@@ -30,6 +30,8 @@ namespace System { class String; }
 #define FGGJCLDLMMI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E37E3E0)
 #define FGGJCLDLMMI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E37E440)
 
+inline static constexpr unsigned int FGGJCLDLMMI_TypeDefinitionIndex = 33105;
+
 	class FGGJCLDLMMI : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define GCIBMBJGPKI_JLHFIJGHJPN_CTOR_OFFSET UNITYSDK_OFFSET(0x159764F0)
 
+inline static constexpr unsigned int GCIBMBJGPKI_JLHFIJGHJPN_TypeDefinitionIndex = 77937;
+
 	class GCIBMBJGPKI_JLHFIJGHJPN : public ::System::Object
 	{
 	public:

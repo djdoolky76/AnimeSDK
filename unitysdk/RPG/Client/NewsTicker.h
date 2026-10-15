@@ -34,6 +34,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NewsTicker_TypeDefinitionIndex = 68992;
+
 	class NewsTicker : public ::UnityEngine::MonoBehaviour
 	{
 	public:

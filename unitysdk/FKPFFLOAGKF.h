@@ -8,6 +8,8 @@ namespace System { class String; }
 #define FKPFFLOAGKF_DCPHJCMNPJN_OFFSET UNITYSDK_OFFSET(0x15825DA0)
 #define FKPFFLOAGKF_KPLDMOMNCLF_OFFSET UNITYSDK_OFFSET(0x15825E80)
 
+inline static constexpr unsigned int FKPFFLOAGKF_TypeDefinitionIndex = 72283;
+
 	class FKPFFLOAGKF : public ::OIDEBLCILOL
 	{
 	public:

@@ -13,6 +13,8 @@ class OMNJCDDMLHI;
 #define HMDCOHHMMFA_JOLMCAGPKOC_OFFSET UNITYSDK_OFFSET(0x15D7A4F0)
 #define HMDCOHHMMFA_MFBMHCAMAEI_OFFSET UNITYSDK_OFFSET(0x15D7A450)
 
+inline static constexpr unsigned int HMDCOHHMMFA_TypeDefinitionIndex = 77858;
+
 	class HMDCOHHMMFA : public ::System::Object
 	{
 	public:

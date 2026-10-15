@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FGIAPIJFCFN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15764560)
 #define FGIAPIJFCFN___C___SETVCAM_B__10_0_OFFSET UNITYSDK_OFFSET(0x15764570)
 
+inline static constexpr unsigned int FGIAPIJFCFN___c_TypeDefinitionIndex = 60766;
+
 	class FGIAPIJFCFN___c : public ::System::Object
 	{
 	public:

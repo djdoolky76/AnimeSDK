@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TargetConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetConfig_TypeDefinitionIndex = 15642;
+
 	class TargetConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -17,6 +17,8 @@ namespace RPG::Client::Pet { class IPetInstance; }
 
 namespace RPG::Client::Pet
 {
+	inline static constexpr unsigned int PetItemHelper_TypeDefinitionIndex = 75663;
+
 	class PetItemHelper : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@
 #define SERIALIZEDRENDERTARGETBLENDSTATE_ICGKFDEILKA_OFFSET UNITYSDK_OFFSET(0xF9970)
 #define SERIALIZEDRENDERTARGETBLENDSTATE_OLCHHDKKPLI_OFFSET UNITYSDK_OFFSET(0xF9A30)
 
+inline static constexpr unsigned int SerializedRenderTargetBlendState_TypeDefinitionIndex = 47414;
+
 	struct alignas(4) SerializedRenderTargetBlendState
 	{
 		::UnityEngine::Rendering::ColorWriteMask writeMask; // 0x10

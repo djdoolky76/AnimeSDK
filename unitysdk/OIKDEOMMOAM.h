@@ -21,6 +21,8 @@ namespace System { class String; }
 #define OIKDEOMMOAM_OFJNKCJKOLJ_OFFSET UNITYSDK_OFFSET(0xBE9FD60)
 #define OIKDEOMMOAM_SET_PARAMLIST_OFFSET UNITYSDK_OFFSET(0xBE9FBE0)
 
+inline static constexpr unsigned int OIKDEOMMOAM_TypeDefinitionIndex = 54001;
+
 	class OIKDEOMMOAM : public ::System::Object
 	{
 	public:

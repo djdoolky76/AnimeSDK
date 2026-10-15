@@ -10,6 +10,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int rdtTcpMessageGameObjects_TypeDefinitionIndex = 46982;
+
 	struct alignas(8) rdtTcpMessageGameObjects
 	{
 		::System::Collections::Generic::List_1<::System::Object*>* m_allGobs; // 0x10

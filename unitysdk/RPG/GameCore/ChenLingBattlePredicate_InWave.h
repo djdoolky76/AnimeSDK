@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingBattlePredicate_InWave; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattlePredicate_InWave_TypeDefinitionIndex = 15817;
+
 	class ChenLingBattlePredicate_InWave : public ::RPG::GameCore::BaseChenLingBattlePredicate
 	{
 	public:

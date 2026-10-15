@@ -53,6 +53,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightProjection_TypeDefinitionIndex = 65077;
+
 	class GridFightProjection : public ::RPG::Client::GridFightGridMember
 	{
 	public:

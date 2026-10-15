@@ -57,6 +57,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FBDPOPBPHKP_SET_ROUNDSCORE_OFFSET UNITYSDK_OFFSET(0x1CA65FD0)
 #define FBDPOPBPHKP_SET_TEAMA_OFFSET UNITYSDK_OFFSET(0x1CA66040)
 
+inline static constexpr unsigned int FBDPOPBPHKP_TypeDefinitionIndex = 43088;
+
 	class FBDPOPBPHKP : public ::System::Object
 	{
 	public:

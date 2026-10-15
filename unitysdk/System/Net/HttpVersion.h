@@ -7,6 +7,8 @@ namespace System { class Version; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int HttpVersion_TypeDefinitionIndex = 2739;
+
 	class HttpVersion : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JFPGNGNBOBJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E732E70)
 #define JFPGNGNBOBJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E732ED0)
 
+inline static constexpr unsigned int JFPGNGNBOBJ_TypeDefinitionIndex = 30374;
+
 	class JFPGNGNBOBJ : public ::System::Object
 	{
 	public:

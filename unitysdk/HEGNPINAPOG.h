@@ -8,6 +8,8 @@ class DMDPOFBLBIE;
 #define HEGNPINAPOG_LNGKNPJIOML_OFFSET UNITYSDK_OFFSET(0x15C51AE0)
 #define HEGNPINAPOG_SET_NEEDRELOADOPERATIONS_OFFSET UNITYSDK_OFFSET(0x15C51AD0)
 
+inline static constexpr unsigned int HEGNPINAPOG_TypeDefinitionIndex = 72435;
+
 	class HEGNPINAPOG : public ::System::Object
 	{
 	public:

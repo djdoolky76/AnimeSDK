@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelUIMoveToSummonQueueNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelUIMoveToSummonQueueNode_TypeDefinitionIndex = 15969;
+
 	class ChimeraDuelUIMoveToSummonQueueNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
 	public:

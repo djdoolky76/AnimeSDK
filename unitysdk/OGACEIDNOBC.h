@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 #define OGACEIDNOBC_MOBDJPFFFID_OFFSET UNITYSDK_OFFSET(0x1D26D7D0)
 #define OGACEIDNOBC_NMDDMMILMJL_OFFSET UNITYSDK_OFFSET(0x1D26D510)
 
+inline static constexpr unsigned int OGACEIDNOBC_TypeDefinitionIndex = 10375;
+
 	class OGACEIDNOBC : public ::System::Object
 	{
 	public:

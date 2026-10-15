@@ -27,6 +27,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int UI3DClippable_TypeDefinitionIndex = 47733;
+
 	class UI3DClippable : public ::UnityEngine::UI::Graphic
 	{
 	public:

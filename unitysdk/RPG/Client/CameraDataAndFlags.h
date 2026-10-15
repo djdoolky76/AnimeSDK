@@ -155,6 +155,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CameraDataAndFlags_TypeDefinitionIndex = 69547;
+
 	class CameraDataAndFlags : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 #define BFAMDKOOIDM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8B88B0)
 
+inline static constexpr unsigned int BFAMDKOOIDM_TypeDefinitionIndex = 43787;
+
 	class BFAMDKOOIDM : public ::System::Object
 	{
 	public:

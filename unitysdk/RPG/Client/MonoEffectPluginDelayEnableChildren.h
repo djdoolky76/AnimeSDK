@@ -14,6 +14,8 @@ namespace RPG::Client { class DelayEnableGameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginDelayEnableChildren_TypeDefinitionIndex = 70055;
+
 	class MonoEffectPluginDelayEnableChildren : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

@@ -14,6 +14,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnParticleUpdateJobS
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncParticleUpdateJobScheduledTrigger_TypeDefinitionIndex = 38577;
+
 	class AsyncParticleUpdateJobScheduledTrigger
 	{
 	public:

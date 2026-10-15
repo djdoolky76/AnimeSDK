@@ -30,6 +30,8 @@ namespace System { class String; }
 #define DIIGIPHOJAC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1BECC0)
 #define DIIGIPHOJAC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1BED20)
 
+inline static constexpr unsigned int DIIGIPHOJAC_TypeDefinitionIndex = 26448;
+
 	class DIIGIPHOJAC : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropSetupHitBox_TypeDefinitionIndex = 20392;
+
 	class PropSetupHitBox : public ::RPG::GameCore::TaskConfig
 	{
 	public:

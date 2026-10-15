@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRTrackedCamera__GetCameraErrorNameFromEnum_TypeDefinitionIndex = 38940;
+
 	class IVRTrackedCamera__GetCameraErrorNameFromEnum : public ::System::MulticastDelegate
 	{
 	public:

@@ -7,6 +7,8 @@ class NKIJFPHFJCO;
 #define FLNGKAJHEEE___C__DISPLAYCLASS30_0_CTOR_OFFSET UNITYSDK_OFFSET(0x158410E0)
 #define FLNGKAJHEEE___C__DISPLAYCLASS30_0___ONCHIPPIECEROTATED_B__0_OFFSET UNITYSDK_OFFSET(0x15841E10)
 
+inline static constexpr unsigned int FLNGKAJHEEE___c__DisplayClass30_0_TypeDefinitionIndex = 79478;
+
 	class FLNGKAJHEEE___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:

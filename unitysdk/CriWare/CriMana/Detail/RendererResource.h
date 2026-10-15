@@ -40,6 +40,8 @@ namespace UnityEngine { class Texture; }
 
 namespace CriWare::CriMana::Detail
 {
+	inline static constexpr unsigned int RendererResource_TypeDefinitionIndex = 40233;
+
 	class RendererResource : public ::System::Object
 	{
 	public:

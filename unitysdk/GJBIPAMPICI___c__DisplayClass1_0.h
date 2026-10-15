@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GJBIPAMPICI___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15A59C10)
 #define GJBIPAMPICI___C__DISPLAYCLASS1_0__SYNCHRONIZEALL_B__0_OFFSET UNITYSDK_OFFSET(0x15A5A670)
 
+inline static constexpr unsigned int GJBIPAMPICI___c__DisplayClass1_0_TypeDefinitionIndex = 80833;
+
 	class GJBIPAMPICI___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

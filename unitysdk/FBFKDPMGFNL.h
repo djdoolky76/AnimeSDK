@@ -32,6 +32,8 @@ namespace System { class String; }
 #define FBFKDPMGFNL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E334470)
 #define FBFKDPMGFNL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3344D0)
 
+inline static constexpr unsigned int FBFKDPMGFNL_TypeDefinitionIndex = 28953;
+
 	class FBFKDPMGFNL : public ::System::Object
 	{
 	public:

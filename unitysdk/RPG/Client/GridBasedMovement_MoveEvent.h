@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridBasedMovement_MoveEvent_TypeDefinitionIndex = 72536;
+
 	class GridBasedMovement_MoveEvent
 	{
 	public:

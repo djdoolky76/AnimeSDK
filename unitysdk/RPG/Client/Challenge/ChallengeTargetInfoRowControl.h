@@ -30,6 +30,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::Challenge
 {
+	inline static constexpr unsigned int ChallengeTargetInfoRowControl_TypeDefinitionIndex = 81420;
+
 	class ChallengeTargetInfoRowControl : public ::Sofa::BaseSofaControl
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int CausalityTraceLevel_TypeDefinitionIndex = 884;
+
 	enum class CausalityTraceLevel : ::System::Int32
 	{
 		Required = 0,

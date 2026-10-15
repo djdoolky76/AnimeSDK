@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvPuzzleCollectItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvPuzzleCollectItem_TypeDefinitionIndex = 22142;
+
 	class AdvPuzzleCollectItem : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Optimize_EnvGPUParticleRemoteTestMonoPlugin_TypeDefinitionIndex = 70834;
+
 	class Optimize_EnvGPUParticleRemoteTestMonoPlugin
 	{
 	public:

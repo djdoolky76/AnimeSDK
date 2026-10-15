@@ -8,6 +8,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int rdtTcpMessageGetGameObjects_TypeDefinitionIndex = 46985;
+
 	struct alignas(4) rdtTcpMessageGetGameObjects
 	{
 		::System::Void Write(::System::IO::BinaryWriter* a1)

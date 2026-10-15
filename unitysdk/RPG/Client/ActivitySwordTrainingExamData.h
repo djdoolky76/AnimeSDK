@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivitySwordTrainingExamData_TypeDefinitionIndex = 61944;
+
 	class ActivitySwordTrainingExamData : public ::System::Object
 	{
 	public:

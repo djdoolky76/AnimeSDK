@@ -27,6 +27,8 @@ namespace System::Xml::XPath { class XPathDocument; }
 
 namespace MS::Internal::Xml::Cache
 {
+	inline static constexpr unsigned int XPathNode_TypeDefinitionIndex = 1780;
+
 	struct alignas(8) XPathNode
 	{
 		::MS::Internal::Xml::Cache::XPathNodeInfoAtom* info; // 0x10

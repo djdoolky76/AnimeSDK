@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define CFMIENMOHGM_IKAENLHPKLL_OFFSET UNITYSDK_OFFSET(0xCC53D50)
 #define CFMIENMOHGM_NNEDEODMNEN_OFFSET UNITYSDK_OFFSET(0xCC53FA0)
 
+inline static constexpr unsigned int CFMIENMOHGM_TypeDefinitionIndex = 77389;
+
 	class CFMIENMOHGM : public ::System::Object
 	{
 	public:

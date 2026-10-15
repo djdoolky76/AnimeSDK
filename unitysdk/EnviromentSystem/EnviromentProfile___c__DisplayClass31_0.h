@@ -8,6 +8,8 @@ namespace EnviromentSystem { class EnviromentProfile; }
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int EnviromentProfile___c__DisplayClass31_0_TypeDefinitionIndex = 49588;
+
 	class EnviromentProfile___c__DisplayClass31_0 : public ::System::Object
 	{
 	public:

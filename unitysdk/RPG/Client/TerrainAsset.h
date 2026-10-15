@@ -26,6 +26,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TerrainAsset_TypeDefinitionIndex = 68886;
+
 	class TerrainAsset : public ::UnityEngine::MonoBehaviour
 	{
 	public:

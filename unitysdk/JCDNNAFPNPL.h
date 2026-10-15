@@ -98,6 +98,8 @@ namespace UnityEngine { class Transform; }
 #define JCDNNAFPNPL_PLIONAKOBGG_OFFSET UNITYSDK_OFFSET(0x1657EA50)
 #define JCDNNAFPNPL_TICK_OFFSET UNITYSDK_OFFSET(0x16580CC0)
 
+inline static constexpr unsigned int JCDNNAFPNPL_TypeDefinitionIndex = 60305;
+
 	class JCDNNAFPNPL : public ::HBCMHADMLOP
 	{
 	public:

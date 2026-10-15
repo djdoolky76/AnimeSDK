@@ -6,6 +6,8 @@
 #define BAFMBNKKDKE_CCTOR_OFFSET UNITYSDK_OFFSET(0x15BDA480)
 #define BAFMBNKKDKE_CTOR_OFFSET UNITYSDK_OFFSET(0x15BDA470)
 
+inline static constexpr unsigned int BAFMBNKKDKE_TypeDefinitionIndex = 59670;
+
 	class BAFMBNKKDKE : public ::System::Object
 	{
 	public:

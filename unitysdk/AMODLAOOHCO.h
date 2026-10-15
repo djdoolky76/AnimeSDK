@@ -12,6 +12,8 @@ namespace System { class String; }
 #define AMODLAOOHCO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCE1260)
 #define AMODLAOOHCO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCE11C0)
 
+inline static constexpr unsigned int AMODLAOOHCO_TypeDefinitionIndex = 21065;
+
 	class AMODLAOOHCO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

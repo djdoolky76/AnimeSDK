@@ -32,6 +32,8 @@ namespace System::Xml::Schema { class SchemaNotation; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int SchemaInfo_TypeDefinitionIndex = 2175;
+
 	class SchemaInfo : public ::System::Object
 	{
 	public:

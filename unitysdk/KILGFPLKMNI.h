@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KILGFPLKMNI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB433CE0)
 #define KILGFPLKMNI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB433D20)
 
+inline static constexpr unsigned int KILGFPLKMNI_TypeDefinitionIndex = 53942;
+
 	class KILGFPLKMNI
 	{
 	public:

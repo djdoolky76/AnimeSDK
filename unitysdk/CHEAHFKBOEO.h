@@ -147,6 +147,8 @@
 #define CHEAHFKBOEO_PKCJKBJPOAN_1_OFFSET UNITYSDK_OFFSET(0x1DD27C50)
 #define CHEAHFKBOEO_PKCJKBJPOAN_OFFSET UNITYSDK_OFFSET(0x1DD272D0)
 
+inline static constexpr unsigned int CHEAHFKBOEO_TypeDefinitionIndex = 6196;
+
 	class CHEAHFKBOEO : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KEALONANBJO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E808A50)
 #define KEALONANBJO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E808AB0)
 
+inline static constexpr unsigned int KEALONANBJO_TypeDefinitionIndex = 26334;
+
 	class KEALONANBJO : public ::System::Object
 	{
 	public:

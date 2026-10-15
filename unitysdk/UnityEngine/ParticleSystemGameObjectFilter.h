@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystemGameObjectFilter_TypeDefinitionIndex = 5285;
+
 	enum class ParticleSystemGameObjectFilter : ::System::Int32
 	{
 		LayerMask = 0,

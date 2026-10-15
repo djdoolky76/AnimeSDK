@@ -8,6 +8,8 @@ namespace IniParserEx { class IniFile_SectionItem; }
 
 namespace IniParserEx
 {
+	inline static constexpr unsigned int IniFileParser_SectionItemScope_TypeDefinitionIndex = 3944;
+
 	class IniFileParser_SectionItemScope : public ::System::Object
 	{
 	public:

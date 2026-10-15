@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client::NavMap::FiveDim
 {
+	inline static constexpr unsigned int CartographyFiveDim___c_TypeDefinitionIndex = 74648;
+
 	class CartographyFiveDim___c : public ::System::Object
 	{
 	public:

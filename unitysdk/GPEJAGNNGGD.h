@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CakeRaceBasePredicateConfig; }
 #define GPEJAGNNGGD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C64C3B0)
 #define GPEJAGNNGGD_ISMATCHIMPL_OFFSET UNITYSDK_OFFSET(0x1C64C3D0)
 
+inline static constexpr unsigned int GPEJAGNNGGD_TypeDefinitionIndex = 37416;
+
 	class GPEJAGNNGGD
 	{
 	public:

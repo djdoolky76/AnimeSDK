@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int GameAccelerateConfig_TypeDefinitionIndex = 42319;
+
 	class GameAccelerateConfig : public ::System::Object
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DEJJFDCPGBD_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE50FAA0)
 #define DEJJFDCPGBD_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0xE50FB30)
 
+inline static constexpr unsigned int DEJJFDCPGBD_TypeDefinitionIndex = 71094;
+
 	class DEJJFDCPGBD
 	{
 	public:

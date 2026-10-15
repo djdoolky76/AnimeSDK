@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CLHJNLDDIMK_CTOR_OFFSET UNITYSDK_OFFSET(0xD78BD70)
 #define CLHJNLDDIMK_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xD78B7E0)
 
+inline static constexpr unsigned int CLHJNLDDIMK_TypeDefinitionIndex = 65880;
+
 	class CLHJNLDDIMK : public ::MLKDDLHNNHH
 	{
 	public:

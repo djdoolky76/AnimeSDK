@@ -9,6 +9,8 @@ namespace UnityEngine { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CachedAssetLoader_AssetObjectNode_TypeDefinitionIndex = 59433;
+
 	class CachedAssetLoader_AssetObjectNode : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PhotoGraphAimContainerLocalPlayer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphAimContainerLocalPlayer_TypeDefinitionIndex = 17518;
+
 	class PhotoGraphAimContainerLocalPlayer : public ::RPG::GameCore::PhotoGraphAimContainerTargetBase
 	{
 	public:

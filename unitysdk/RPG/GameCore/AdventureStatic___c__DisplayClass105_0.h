@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureStatic___c__DisplayClass105_0_TypeDefinitionIndex = 59024;
+
 	class AdventureStatic___c__DisplayClass105_0 : public ::System::Object
 	{
 	public:

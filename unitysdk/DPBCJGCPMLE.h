@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int DPBCJGCPMLE_TypeDefinitionIndex = 27263;
+
 	enum class DPBCJGCPMLE : ::System::Int32
 	{
 		PMJGFDCJKML = 0,

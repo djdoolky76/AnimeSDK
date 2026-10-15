@@ -6,6 +6,8 @@
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int GeneratedMessagePackResolver_HAIPKFMHKOD_PODOPFOEJNJ_TypeDefinitionIndex = 36121;
+
 	class GeneratedMessagePackResolver_HAIPKFMHKOD_PODOPFOEJNJ : public ::System::Object
 	{
 	public:

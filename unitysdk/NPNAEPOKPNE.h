@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NPNAEPOKPNE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB9FBD0)
 #define NPNAEPOKPNE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB9FC30)
 
+inline static constexpr unsigned int NPNAEPOKPNE_TypeDefinitionIndex = 27214;
+
 	class NPNAEPOKPNE : public ::System::Object
 	{
 	public:

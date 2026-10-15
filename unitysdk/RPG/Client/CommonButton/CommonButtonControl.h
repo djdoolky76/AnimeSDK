@@ -12,6 +12,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::CommonButton
 {
+	inline static constexpr unsigned int CommonButtonControl_TypeDefinitionIndex = 81244;
+
 	class CommonButtonControl
 	{
 	public:

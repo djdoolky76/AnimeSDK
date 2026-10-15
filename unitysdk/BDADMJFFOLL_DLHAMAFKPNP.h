@@ -7,6 +7,8 @@ namespace RPG::GameCore { class FreeStyleController; }
 #define BDADMJFFOLL_DLHAMAFKPNP_CTOR_OFFSET UNITYSDK_OFFSET(0x162EBB10)
 #define BDADMJFFOLL_DLHAMAFKPNP_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x162EBCA0)
 
+inline static constexpr unsigned int BDADMJFFOLL_DLHAMAFKPNP_TypeDefinitionIndex = 57276;
+
 	class BDADMJFFOLL_DLHAMAFKPNP : public ::IMPNPPMLNPH
 	{
 	public:

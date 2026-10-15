@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateRoundInfoItem_TypeDefinitionIndex = 64115;
+
 	class FateRoundInfoItem : public ::System::Object
 	{
 	public:

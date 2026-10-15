@@ -12,6 +12,8 @@ namespace System { class String; }
 #define IKAHOOLKHDN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CF19D30)
 #define IKAHOOLKHDN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF19CE0)
 
+inline static constexpr unsigned int IKAHOOLKHDN_TypeDefinitionIndex = 23340;
+
 	class IKAHOOLKHDN : public ::RPG::GameCore::TaskConfig
 	{
 	public:

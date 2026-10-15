@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Resources
 {
+	inline static constexpr unsigned int MissingSatelliteAssemblyException_TypeDefinitionIndex = 522;
+
 	class MissingSatelliteAssemblyException : public ::System::SystemException
 	{
 	public:

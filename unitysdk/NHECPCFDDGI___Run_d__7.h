@@ -10,6 +10,8 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 #define NHECPCFDDGI___RUN_D__7_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C52C90)
 #define NHECPCFDDGI___RUN_D__7_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
 
+inline static constexpr unsigned int NHECPCFDDGI___Run_d__7_TypeDefinitionIndex = 44211;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
 	struct alignas(8) NHECPCFDDGI___Run_d__7
 	{

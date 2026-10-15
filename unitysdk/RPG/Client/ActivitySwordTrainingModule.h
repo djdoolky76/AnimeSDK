@@ -62,6 +62,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivitySwordTrainingModule_TypeDefinitionIndex = 61929;
+
 	class ActivitySwordTrainingModule : public ::RPG::Client::BaseModule
 	{
 	public:

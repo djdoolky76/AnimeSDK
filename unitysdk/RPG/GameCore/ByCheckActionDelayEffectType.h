@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCheckActionDelayEffectType_TypeDefinitionIndex = 23475;
+
 	class ByCheckActionDelayEffectType : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

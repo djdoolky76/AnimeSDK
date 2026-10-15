@@ -5,6 +5,8 @@
 
 namespace Collections::Pooled
 {
+	inline static constexpr unsigned int DefaultArrayPoolSource_1_Bucket_TypeDefinitionIndex = 5089;
+
 	template <typename T>
 	class DefaultArrayPoolSource_1_Bucket : public ::System::Object
 	{

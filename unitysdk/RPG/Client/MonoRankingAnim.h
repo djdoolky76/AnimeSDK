@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoRankingAnim_TypeDefinitionIndex = 72594;
+
 	class MonoRankingAnim : public ::UnityEngine::MonoBehaviour
 	{
 	public:

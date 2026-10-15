@@ -4,6 +4,8 @@
 class JLJMMKPGDGH;
 namespace System { template <typename T> class Func_1; }
 
+inline static constexpr unsigned int AAKEKBEKPJA___O_TypeDefinitionIndex = 81854;
+
 	class AAKEKBEKPJA___O : public ::System::Object
 	{
 	public:

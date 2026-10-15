@@ -4,6 +4,8 @@
 class CMGMEOACHDC;
 namespace System { class Object; }
 
+inline static constexpr unsigned int IAFJMAODGAG_TypeDefinitionIndex = 44256;
+
 	class IAFJMAODGAG : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OBLMFFJNNKP_DEACTIVATE_OFFSET UNITYSDK_OFFSET(0xBD4BE30)
 #define OBLMFFJNNKP_ONENTITYCREATED_OFFSET UNITYSDK_OFFSET(0xBD4BFD0)
 
+inline static constexpr unsigned int OBLMFFJNNKP_TypeDefinitionIndex = 77248;
+
 	class OBLMFFJNNKP : public ::Entitas::VisualDebugging::Unity::ContextObserver
 	{
 	public:

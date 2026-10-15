@@ -16,6 +16,8 @@ namespace System::Collections { class SortedList; }
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int SortedList_SortedListEnumerator_TypeDefinitionIndex = 1500;
+
 	class SortedList_SortedListEnumerator : public ::System::Object
 	{
 	public:

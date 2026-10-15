@@ -24,6 +24,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int HandheldAgeGateParentalConsentProcessDialog_TypeDefinitionIndex = 8790;
+
 	class HandheldAgeGateParentalConsentProcessDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:

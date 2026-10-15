@@ -16,6 +16,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCoinResBarControl_TypeDefinitionIndex = 79812;
+
 	class MechCraftCoinResBarControl : public ::Sofa::BaseSofaControl
 	{
 	public:

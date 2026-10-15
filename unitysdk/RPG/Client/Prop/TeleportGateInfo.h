@@ -4,6 +4,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int TeleportGateInfo_TypeDefinitionIndex = 78896;
+
 	struct alignas(8) TeleportGateInfo
 	{
 		::System::UInt32 GroupID; // 0x10

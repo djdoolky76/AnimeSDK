@@ -4,6 +4,8 @@
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlAtomicValue_Union_TypeDefinitionIndex = 2181;
+
 	struct alignas(4) XmlAtomicValue_Union
 	{
 		::System::Boolean boolVal; // 0x10

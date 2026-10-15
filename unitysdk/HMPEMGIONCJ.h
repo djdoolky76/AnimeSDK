@@ -4,6 +4,8 @@
 
 #define HMPEMGIONCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x202EFC0)
 
+inline static constexpr unsigned int HMPEMGIONCJ_TypeDefinitionIndex = 71099;
+
 	struct alignas(4) HMPEMGIONCJ
 	{
 		::UnityEngine::Vector3 IKINMNCCKJI; // 0x10

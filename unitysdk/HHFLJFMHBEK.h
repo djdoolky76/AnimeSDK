@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HHFLJFMHBEK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15CCA7B0)
 #define HHFLJFMHBEK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CCA7F0)
 
+inline static constexpr unsigned int HHFLJFMHBEK_TypeDefinitionIndex = 53901;
+
 	class HHFLJFMHBEK
 	{
 	public:

@@ -48,6 +48,8 @@ namespace UnityEngine::UI { class VerticalLayoutGroup; }
 #define HIPPLENBUILDERUIMAN_SHOWTESTLINEPANEL_OFFSET UNITYSDK_OFFSET(0x15DF43B0)
 #define HIPPLENBUILDERUIMAN_TRYDISPLAYBEHAVIOR_OFFSET UNITYSDK_OFFSET(0x15DE7310)
 
+inline static constexpr unsigned int HipplenBuilderUIMan_TypeDefinitionIndex = 47216;
+
 	class HipplenBuilderUIMan : public ::UnityEngine::MonoBehaviour
 	{
 	public:

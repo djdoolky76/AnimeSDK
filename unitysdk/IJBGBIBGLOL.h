@@ -4,6 +4,8 @@
 
 #define IJBGBIBGLOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB77740)
 
+inline static constexpr unsigned int IJBGBIBGLOL_TypeDefinitionIndex = 42815;
+
 	class IJBGBIBGLOL : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{
 	public:

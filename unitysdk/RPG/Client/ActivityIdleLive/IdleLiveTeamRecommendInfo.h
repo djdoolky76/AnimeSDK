@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveTeamRecommendInfo_TypeDefinitionIndex = 75085;
+
 	class IdleLiveTeamRecommendInfo : public ::System::Object
 	{
 	public:

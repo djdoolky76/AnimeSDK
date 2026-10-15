@@ -37,6 +37,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ScreenAdapterUtils_TypeDefinitionIndex = 60072;
+
 	class ScreenAdapterUtils : public ::System::Object
 	{
 	public:

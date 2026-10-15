@@ -12,6 +12,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureModifyMazeMP_TypeDefinitionIndex = 21751;
+
 	class AdventureModifyMazeMP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

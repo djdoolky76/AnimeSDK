@@ -7,6 +7,8 @@ class GGJFAFONDHN;
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int LayoutIntPropertyData_TypeDefinitionIndex = 49368;
+
 	class LayoutIntPropertyData
 	{
 	public:

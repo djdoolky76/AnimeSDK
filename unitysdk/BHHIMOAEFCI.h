@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BHHIMOAEFCI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D8032A0)
 #define BHHIMOAEFCI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D802B80)
 
+inline static constexpr unsigned int BHHIMOAEFCI_TypeDefinitionIndex = 11985;
+
 	class BHHIMOAEFCI : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LockTargetShield_TypeDefinitionIndex = 23621;
+
 	class LockTargetShield : public ::RPG::GameCore::TaskConfig
 	{
 	public:

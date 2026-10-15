@@ -43,6 +43,8 @@ namespace UnityEngine { class Collider; }
 #define NJIOAKCLACC_PODHBCLOBHM_OFFSET UNITYSDK_OFFSET(0xBC15390)
 #define NJIOAKCLACC_TICK_OFFSET UNITYSDK_OFFSET(0xBC16750)
 
+inline static constexpr unsigned int NJIOAKCLACC_TypeDefinitionIndex = 57922;
+
 	class NJIOAKCLACC : public ::JEKCCAGBHKK
 	{
 	public:

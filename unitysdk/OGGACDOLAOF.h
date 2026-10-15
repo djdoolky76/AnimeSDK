@@ -31,6 +31,8 @@ namespace System { class String; }
 #define OGGACDOLAOF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE51760)
 #define OGGACDOLAOF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE517C0)
 
+inline static constexpr unsigned int OGGACDOLAOF_TypeDefinitionIndex = 25932;
+
 	class OGGACDOLAOF : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TeamAssociationHelper_TypeDefinitionIndex = 68082;
+
 	class TeamAssociationHelper : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 #define MHGLPLLMNBF_CTOR_OFFSET UNITYSDK_OFFSET(0xB935520)
 #define MHGLPLLMNBF_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xB935420)
 
+inline static constexpr unsigned int MHGLPLLMNBF_TypeDefinitionIndex = 62450;
+
 	class MHGLPLLMNBF : public ::System::Object
 	{
 	public:

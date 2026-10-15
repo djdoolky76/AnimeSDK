@@ -7,6 +7,8 @@
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int PreferenceKeys_TypeDefinitionIndex = 44386;
+
 	class PreferenceKeys : public ::System::Object
 	{
 	public:

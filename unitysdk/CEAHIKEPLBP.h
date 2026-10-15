@@ -7,6 +7,8 @@ namespace RPG::GameCore { class LittleGameEvent; }
 #define CEAHIKEPLBP_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C8DD5E0)
 #define CEAHIKEPLBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DD660)
 
+inline static constexpr unsigned int CEAHIKEPLBP_TypeDefinitionIndex = 43546;
+
 	class CEAHIKEPLBP : public ::NNDJBGAGHLD
 	{
 	public:

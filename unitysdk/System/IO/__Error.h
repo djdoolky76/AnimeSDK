@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int __Error_TypeDefinitionIndex = 661;
+
 	class __Error : public ::System::Object
 	{
 	public:

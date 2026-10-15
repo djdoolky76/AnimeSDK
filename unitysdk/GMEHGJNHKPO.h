@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TriggerSkipDeadHandler; }
 #define GMEHGJNHKPO_CTOR_OFFSET UNITYSDK_OFFSET(0x15ACB6F0)
 #define GMEHGJNHKPO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15ACB720)
 
+inline static constexpr unsigned int GMEHGJNHKPO_TypeDefinitionIndex = 56468;
+
 	class GMEHGJNHKPO
 	{
 	public:

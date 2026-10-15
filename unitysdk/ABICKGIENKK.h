@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define ABICKGIENKK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CC9FC80)
 #define ABICKGIENKK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CC9F5A0)
 
+inline static constexpr unsigned int ABICKGIENKK_TypeDefinitionIndex = 14305;
+
 	class ABICKGIENKK : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System::Xml::Schema { class SyntaxTreeNode; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int InteriorNode_TypeDefinitionIndex = 2071;
+
 	class InteriorNode : public ::System::Xml::Schema::SyntaxTreeNode
 	{
 	public:

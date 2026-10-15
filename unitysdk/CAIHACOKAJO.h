@@ -33,6 +33,8 @@ namespace System { class String; }
 #define CAIHACOKAJO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E05B410)
 #define CAIHACOKAJO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E05B470)
 
+inline static constexpr unsigned int CAIHACOKAJO_TypeDefinitionIndex = 34814;
+
 	class CAIHACOKAJO : public ::System::Object
 	{
 	public:

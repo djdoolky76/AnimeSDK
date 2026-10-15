@@ -45,6 +45,8 @@ namespace UnityEngine { class WaitForSeconds; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int DestroyRootPuzzleBoard_TypeDefinitionIndex = 78543;
+
 	class DestroyRootPuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

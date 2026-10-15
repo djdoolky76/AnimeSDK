@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAIValueInTeamType_TypeDefinitionIndex = 15584;
+
 	enum class ComplexSkillAIValueInTeamType : ::System::Int32
 	{
 		MaxHP = 0,

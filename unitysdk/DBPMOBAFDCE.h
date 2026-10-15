@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DBPMOBAFDCE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DCD24C0)
 #define DBPMOBAFDCE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DCD1E20)
 
+inline static constexpr unsigned int DBPMOBAFDCE_TypeDefinitionIndex = 12669;
+
 	class DBPMOBAFDCE : public ::System::Object
 	{
 	public:

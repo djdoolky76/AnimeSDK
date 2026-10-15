@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int ActionGroupConfig_TypeDefinitionIndex = 42330;
+
 	class ActionGroupConfig : public ::RPG::Client::LittleGame::WeightConfig
 	{
 	public:

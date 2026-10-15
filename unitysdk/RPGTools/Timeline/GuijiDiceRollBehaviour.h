@@ -37,6 +37,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int GuijiDiceRollBehaviour_TypeDefinitionIndex = 48134;
+
 	class GuijiDiceRollBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -8,6 +8,8 @@
 #include <string.h>
 #include <string>
 #include <unordered_map>
+#include <unordered_set>
+#include <vector>
 
 #ifndef UNITYSDK_OFFSET
 #define UNITYSDK_OFFSET(offset) offset
@@ -38,6 +40,10 @@ namespace UnitySDK
 
 	inline void** g_table = nullptr;
 	inline std::unordered_map<std::string, Il2CppClass*>* g_map = nullptr;
+	// Classes in enumeration order (image walk, first occurrence). The generated
+	// *_TypeDefinitionIndex constants use this index so FromTypeDefinitionIndex
+	// resolves the same class. Values are capture-local, not game metadata indices.
+	inline std::vector<Il2CppClass*>* g_classes = nullptr;
 
 	// Anchor scan: the name getter is a byte-verified leaf inside GameAssembly.
 	inline bool ResolveTable()
@@ -117,6 +123,9 @@ namespace UnitySDK
 
 		auto* map = new std::unordered_map<std::string, Il2CppClass*>();
 		map->reserve(160000);
+		auto* classes = new std::vector<Il2CppClass*>();
+		classes->reserve(160000);
+		std::unordered_set<Il2CppClass*> seen;
 
 		for (size_t a = 0; a < assemblyCount; ++a)
 		{
@@ -131,6 +140,9 @@ namespace UnitySDK
 				const void* klass = image_class(image, c);
 				if (!klass)
 					continue;
+				auto* classPointer = const_cast<Il2CppClass*>(reinterpret_cast<const Il2CppClass*>(klass));
+				if (seen.insert(classPointer).second)
+					classes->push_back(classPointer);
 				const char* name = class_get_name(klass);
 				const char* ns = class_get_namespace(klass);
 				if (!name)
@@ -145,6 +157,7 @@ namespace UnitySDK
 		}
 
 		g_map = map;
+		g_classes = classes;
 		return true;
 	}
 
@@ -190,6 +203,18 @@ struct Il2CppClass
 		if (!UnitySDK::g_table)
 			return nullptr;
 		return ((Il2CppClass*(__cdecl*)(PVOID))UnitySDK::g_table[UnitySDK::IDX_CLASS_GET_PARENT])(this);
+	}
+
+	// 4.5-compatible handle resolver. The generated *_TypeDefinitionIndex
+	// constants are indices into the live enumeration (image walk order), so
+	// this maps them back to the same class objects deterministically.
+	static Il2CppClass* FromTypeDefinitionIndex(unsigned int Index)
+	{
+		if (!UnitySDK::g_classes && !UnitySDK::ResolveTable())
+			return nullptr;
+		if (!UnitySDK::g_classes && !UnitySDK::BuildMap())
+			return nullptr;
+		return Index < UnitySDK::g_classes->size() ? (*UnitySDK::g_classes)[Index] : nullptr;
 	}
 
 	PVOID GetStaticField(DWORD Offset)

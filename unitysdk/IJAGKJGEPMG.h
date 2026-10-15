@@ -11,6 +11,8 @@ namespace System { class Exception; }
 #define IJAGKJGEPMG_KGDLMPEABGG_OFFSET UNITYSDK_OFFSET(0x16456920)
 #define IJAGKJGEPMG__PLAYTRANSITION_B__1_0_OFFSET UNITYSDK_OFFSET(0x16456E30)
 
+inline static constexpr unsigned int IJAGKJGEPMG_TypeDefinitionIndex = 73112;
+
 	class IJAGKJGEPMG : public ::KNAKIBHJLFN
 	{
 	public:

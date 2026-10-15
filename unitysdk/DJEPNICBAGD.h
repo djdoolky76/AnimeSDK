@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define DJEPNICBAGD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD2DDF0)
 
+inline static constexpr unsigned int DJEPNICBAGD_TypeDefinitionIndex = 24989;
+
 	class DJEPNICBAGD : public ::System::Attribute
 	{
 	public:

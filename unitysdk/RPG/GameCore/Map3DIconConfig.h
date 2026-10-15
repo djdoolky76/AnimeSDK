@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MapRotationVolumeIconConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int Map3DIconConfig_TypeDefinitionIndex = 17040;
+
 	class Map3DIconConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

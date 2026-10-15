@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournCurseChestExcelTable_TypeDefinitionIndex = 15047;
+
 	class RogueTournCurseChestExcelTable : public ::System::Object
 	{
 	public:

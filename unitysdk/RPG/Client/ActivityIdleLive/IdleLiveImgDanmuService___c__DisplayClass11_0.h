@@ -9,6 +9,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveImgDanmuService; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveImgDanmuService___c__DisplayClass11_0_TypeDefinitionIndex = 75352;
+
 	class IdleLiveImgDanmuService___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

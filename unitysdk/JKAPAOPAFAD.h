@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define JKAPAOPAFAD__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xB20D6F0)
 #define JKAPAOPAFAD__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xB20D7B0)
 
+inline static constexpr unsigned int JKAPAOPAFAD_TypeDefinitionIndex = 53016;
+
 	class JKAPAOPAFAD
 	{
 	public:

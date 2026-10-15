@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureLinearMovementControlType_TypeDefinitionIndex = 57057;
+
 	enum class AdventureLinearMovementControlType : ::System::Int32
 	{
 		Auto = 0,

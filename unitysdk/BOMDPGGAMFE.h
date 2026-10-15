@@ -94,6 +94,8 @@ namespace RPG::GameCore { class SetDynamicValueBase; }
 #define BOMDPGGAMFE_PMCGMLLCBLF_OFFSET UNITYSDK_OFFSET(0x1D9F4D70)
 #define BOMDPGGAMFE_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1D9F42A0)
 
+inline static constexpr unsigned int BOMDPGGAMFE_TypeDefinitionIndex = 23820;
+
 	class BOMDPGGAMFE : public ::System::Object
 	{
 	public:

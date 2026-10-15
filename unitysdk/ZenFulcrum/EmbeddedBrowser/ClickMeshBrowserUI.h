@@ -41,6 +41,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class ClickMeshBrowserUI; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int ClickMeshBrowserUI_TypeDefinitionIndex = 39476;
+
 	class ClickMeshBrowserUI : public ::UnityEngine::MonoBehaviour
 	{
 	public:

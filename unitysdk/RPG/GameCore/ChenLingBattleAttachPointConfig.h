@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAttachPointConfig_TypeDefinitionIndex = 15713;
+
 	class ChenLingBattleAttachPointConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AvatarRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GachaAvatarItemData_TypeDefinitionIndex = 64299;
+
 	class GachaAvatarItemData : public ::RPG::Client::GachaItemData
 	{
 	public:

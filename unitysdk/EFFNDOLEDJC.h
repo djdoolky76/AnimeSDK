@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define EFFNDOLEDJC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA33A50)
 
+inline static constexpr unsigned int EFFNDOLEDJC_TypeDefinitionIndex = 42794;
+
 	class EFFNDOLEDJC : public ::System::Object
 	{
 	public:

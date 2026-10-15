@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int LoginRecordBoxConfig_TypeDefinitionIndex = 7924;
+
 	class LoginRecordBoxConfig : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DLCJPINDIAC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1E0200)
 #define DLCJPINDIAC___C___CCTOR_B__50_0_OFFSET UNITYSDK_OFFSET(0x1E1E0210)
 
+inline static constexpr unsigned int DLCJPINDIAC___c_TypeDefinitionIndex = 31303;
+
 	class DLCJPINDIAC___c : public ::System::Object
 	{
 	public:

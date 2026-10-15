@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BCKBEMGGGIF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E909A60)
 #define BCKBEMGGGIF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E909AC0)
 
+inline static constexpr unsigned int BCKBEMGGGIF_TypeDefinitionIndex = 31282;
+
 	class BCKBEMGGGIF : public ::System::Object
 	{
 	public:

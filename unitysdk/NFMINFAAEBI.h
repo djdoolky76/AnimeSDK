@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NFMINFAAEBI_CTOR_OFFSET UNITYSDK_OFFSET(0xBB9B910)
 #define NFMINFAAEBI_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBB9B960)
 
+inline static constexpr unsigned int NFMINFAAEBI_TypeDefinitionIndex = 59131;
+
 	class NFMINFAAEBI
 	{
 	public:

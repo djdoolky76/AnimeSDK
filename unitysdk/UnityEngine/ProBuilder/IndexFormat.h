@@ -3,6 +3,8 @@
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int IndexFormat_TypeDefinitionIndex = 44401;
+
 	enum class IndexFormat : ::System::Int32
 	{
 		Local = 0,

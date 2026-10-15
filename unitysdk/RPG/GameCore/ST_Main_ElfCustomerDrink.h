@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Main_ElfCustomerDrink; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_ElfCustomerDrink_TypeDefinitionIndex = 21535;
+
 	class ST_Main_ElfCustomerDrink : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

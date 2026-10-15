@@ -8,6 +8,8 @@ namespace System::IO { class Stream; }
 #define OAHMMNKIOFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC8E2D0)
 #define OAHMMNKIOFD_DCDDKNNINEB_1_OFFSET UNITYSDK_OFFSET(0x1CC8A860)
 
+inline static constexpr unsigned int OAHMMNKIOFD_TypeDefinitionIndex = 43861;
+
 	class OAHMMNKIOFD : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace UnityEngine { class Transform; }
 #define BADKKFKHLNE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15BD8690)
 #define BADKKFKHLNE_TICK_OFFSET UNITYSDK_OFFSET(0x15BD7560)
 
+inline static constexpr unsigned int BADKKFKHLNE_TypeDefinitionIndex = 53321;
+
 	class BADKKFKHLNE : public ::GELIALJDFBL
 	{
 	public:

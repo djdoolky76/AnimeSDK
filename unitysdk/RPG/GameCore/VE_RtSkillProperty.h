@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VE_RtSkillProperty_TypeDefinitionIndex = 24272;
+
 	class VE_RtSkillProperty : public ::RPG::GameCore::ValueEvaluatorConfig
 	{
 	public:

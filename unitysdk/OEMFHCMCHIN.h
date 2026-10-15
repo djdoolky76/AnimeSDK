@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OEMFHCMCHIN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D262220)
 #define OEMFHCMCHIN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D261B30)
 
+inline static constexpr unsigned int OEMFHCMCHIN_TypeDefinitionIndex = 11841;
+
 	class OEMFHCMCHIN : public ::System::Object
 	{
 	public:

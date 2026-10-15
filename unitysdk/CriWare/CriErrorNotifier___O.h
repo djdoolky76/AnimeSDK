@@ -5,6 +5,8 @@ namespace CriWare { class CriErrorNotifier_ErrorCallbackFunc; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriErrorNotifier___O_TypeDefinitionIndex = 40150;
+
 	class CriErrorNotifier___O : public ::System::Object
 	{
 	public:

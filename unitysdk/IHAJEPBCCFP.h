@@ -20,6 +20,8 @@ namespace System { class String; }
 #define IHAJEPBCCFP_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CB76580)
 #define IHAJEPBCCFP_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CB765E0)
 
+inline static constexpr unsigned int IHAJEPBCCFP_TypeDefinitionIndex = 43556;
+
 	class IHAJEPBCCFP : public ::System::Object
 	{
 	public:

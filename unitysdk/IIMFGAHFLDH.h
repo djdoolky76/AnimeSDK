@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define IIMFGAHFLDH_ONRETURN_OFFSET UNITYSDK_OFFSET(0x1644DE30)
 #define IIMFGAHFLDH__ONBIND_OFFSET UNITYSDK_OFFSET(0x1644DD10)
 
+inline static constexpr unsigned int IIMFGAHFLDH_TypeDefinitionIndex = 71546;
+
 	class IIMFGAHFLDH : public ::FMPCODLIOLG
 	{
 	public:

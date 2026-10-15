@@ -9,6 +9,8 @@ namespace RPG::GameCore { class IdleLiveAvatarUpgradeCostRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveAvatarUpgradeCostRow_TypeDefinitionIndex = 11683;
+
 	class IdleLiveAvatarUpgradeCostRow : public ::System::Object
 	{
 	public:

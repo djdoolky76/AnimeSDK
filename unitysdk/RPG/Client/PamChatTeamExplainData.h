@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PamChatTeamExplainData_TypeDefinitionIndex = 63291;
+
 	class PamChatTeamExplainData : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int HipplenMovingGoodsMiniGame_InnerState_TypeDefinitionIndex = 75593;
+
 	enum class HipplenMovingGoodsMiniGame_InnerState : ::System::Int32
 	{
 		WaitingStart = 0,

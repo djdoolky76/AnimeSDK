@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UnLockCamera; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UnLockCamera_TypeDefinitionIndex = 20158;
+
 	class UnLockCamera : public ::RPG::GameCore::TaskConfig
 	{
 	public:

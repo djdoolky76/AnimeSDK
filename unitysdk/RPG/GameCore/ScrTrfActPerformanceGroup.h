@@ -17,6 +17,8 @@ namespace RPG::GameCore { class SwitchCharacterAnchor; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ScrTrfActPerformanceGroup_TypeDefinitionIndex = 20860;
+
 	class ScrTrfActPerformanceGroup : public ::RPG::GameCore::ScreenTransferBaseAction
 	{
 	public:

@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 #define DOBDMMLFKDL_PFJPIPEHMMH_OFFSET UNITYSDK_OFFSET(0x11FDDB70)
 #define DOBDMMLFKDL_PIMOGOHKEOC_OFFSET UNITYSDK_OFFSET(0x11FDE2A0)
 
+inline static constexpr unsigned int DOBDMMLFKDL_TypeDefinitionIndex = 78978;
+
 	class DOBDMMLFKDL : public ::System::Object
 	{
 	public:

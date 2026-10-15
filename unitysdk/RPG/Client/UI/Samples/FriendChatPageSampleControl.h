@@ -13,6 +13,8 @@ namespace RPG::Client::ResBar { class TopBarControl; }
 
 namespace RPG::Client::Ui::Samples
 {
+	inline static constexpr unsigned int FriendChatPageSampleControl_TypeDefinitionIndex = 73436;
+
 	class FriendChatPageSampleControl
 	{
 	public:

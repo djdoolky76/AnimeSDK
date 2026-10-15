@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace Entitas::CodeGeneration::Attributes
 {
+	inline static constexpr unsigned int ContextAttribute_TypeDefinitionIndex = 10073;
+
 	class ContextAttribute : public ::System::Attribute
 	{
 	public:

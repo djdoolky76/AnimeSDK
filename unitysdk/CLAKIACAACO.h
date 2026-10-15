@@ -38,6 +38,8 @@ namespace System { class String; }
 #define CLAKIACAACO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0F2720)
 #define CLAKIACAACO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0F2780)
 
+inline static constexpr unsigned int CLAKIACAACO_TypeDefinitionIndex = 26988;
+
 	class CLAKIACAACO : public ::System::Object
 	{
 	public:

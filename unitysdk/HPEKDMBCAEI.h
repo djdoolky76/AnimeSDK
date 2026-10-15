@@ -27,6 +27,8 @@ namespace System { class String; }
 #define HPEKDMBCAEI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5F4450)
 #define HPEKDMBCAEI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5F44B0)
 
+inline static constexpr unsigned int HPEKDMBCAEI_TypeDefinitionIndex = 31664;
+
 	class HPEKDMBCAEI : public ::System::Object
 	{
 	public:

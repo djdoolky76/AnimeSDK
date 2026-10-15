@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int NEMIDPFEJFL_MPCNBHIKLOK_TypeDefinitionIndex = 31043;
+
 	enum class NEMIDPFEJFL_MPCNBHIKLOK : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

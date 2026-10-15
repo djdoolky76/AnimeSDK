@@ -57,6 +57,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GCEBGLLMGPE_SET_CUREVENT_OFFSET UNITYSDK_OFFSET(0x1C632C10)
 #define GCEBGLLMGPE_SET_CURSELECTROOTSTATE_OFFSET UNITYSDK_OFFSET(0x1C632C30)
 
+inline static constexpr unsigned int GCEBGLLMGPE_TypeDefinitionIndex = 36968;
+
 	class GCEBGLLMGPE : public ::GKDAANCFPGO
 	{
 	public:

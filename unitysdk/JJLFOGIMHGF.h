@@ -3,6 +3,8 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
+inline static constexpr unsigned int JJLFOGIMHGF_TypeDefinitionIndex = 57750;
+
 	struct alignas(8) JJLFOGIMHGF
 	{
 		::RPG::GameCore::TurnBasedModifierInstance* MIAJNJNECOG; // 0x10

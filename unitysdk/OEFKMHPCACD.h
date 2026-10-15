@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define OEFKMHPCACD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBE2BBE0)
 #define OEFKMHPCACD_TICK_OFFSET UNITYSDK_OFFSET(0xBE2BC30)
 
+inline static constexpr unsigned int OEFKMHPCACD_TypeDefinitionIndex = 52151;
+
 	class OEFKMHPCACD
 	{
 	public:

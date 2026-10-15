@@ -6,6 +6,8 @@ class LBJLBMOOJGM;
 #define PAIBIGAADMI_CTOR_OFFSET UNITYSDK_OFFSET(0xBFCA150)
 #define PAIBIGAADMI_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xBFC9F90)
 
+inline static constexpr unsigned int PAIBIGAADMI_TypeDefinitionIndex = 66865;
+
 	class PAIBIGAADMI : public ::System::Object
 	{
 	public:

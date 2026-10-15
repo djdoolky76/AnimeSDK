@@ -8,6 +8,8 @@ namespace System { class String; }
 #define AIDNGNILOAF_NIMOMCPNPMN_EQUALS_OFFSET UNITYSDK_OFFSET(0xEBA1C50)
 #define AIDNGNILOAF_NIMOMCPNPMN_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xEBA1D10)
 
+inline static constexpr unsigned int AIDNGNILOAF_NIMOMCPNPMN_TypeDefinitionIndex = 72942;
+
 	class AIDNGNILOAF_NIMOMCPNPMN : public ::System::Object
 	{
 	public:

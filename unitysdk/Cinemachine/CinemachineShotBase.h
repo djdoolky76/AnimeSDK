@@ -21,6 +21,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineShotBase_TypeDefinitionIndex = 49643;
+
 	class CinemachineShotBase : public ::Cinemachine::CinemachineComponentBase
 	{
 	public:

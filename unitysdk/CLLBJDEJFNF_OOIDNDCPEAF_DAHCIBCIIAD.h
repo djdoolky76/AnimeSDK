@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int CLLBJDEJFNF_OOIDNDCPEAF_DAHCIBCIIAD_TypeDefinitionIndex = 27839;
+
 	enum class CLLBJDEJFNF_OOIDNDCPEAF_DAHCIBCIIAD : ::System::Int32
 	{
 		MNEIHEIGLPO = 0,

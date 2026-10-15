@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MODIAGGMAMG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAA5BC0)
 #define MODIAGGMAMG___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1EAA5BD0)
 
+inline static constexpr unsigned int MODIAGGMAMG___c_TypeDefinitionIndex = 34667;
+
 	class MODIAGGMAMG___c : public ::System::Object
 	{
 	public:

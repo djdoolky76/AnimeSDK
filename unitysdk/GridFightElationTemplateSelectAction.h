@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GRIDFIGHTELATIONTEMPLATESELECTACTION_SYNCHANDLERSP_OFFSET UNITYSDK_OFFSET(0x15B6F830)
 #define GRIDFIGHTELATIONTEMPLATESELECTACTION__GETTEMPLATEFIRSTEQUIP_OFFSET UNITYSDK_OFFSET(0x15B6F950)
 
+inline static constexpr unsigned int GridFightElationTemplateSelectAction_TypeDefinitionIndex = 47189;
+
 	class GridFightElationTemplateSelectAction : public ::RPG::Client::GridFightPendingSelectableBaseAction
 	{
 	public:

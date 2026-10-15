@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::Contract
 {
+	inline static constexpr unsigned int FateRinContractViewModel_TypeDefinitionIndex = 80639;
+
 	class FateRinContractViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

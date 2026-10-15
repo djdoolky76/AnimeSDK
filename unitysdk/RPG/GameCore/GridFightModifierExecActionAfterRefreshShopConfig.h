@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierExecActionAfterRefreshShopConfi
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierExecActionAfterRefreshShopConfig_TypeDefinitionIndex = 19378;
+
 	class GridFightModifierExecActionAfterRefreshShopConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

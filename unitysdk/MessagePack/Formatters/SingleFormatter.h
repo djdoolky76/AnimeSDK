@@ -13,6 +13,8 @@ namespace MessagePack::Formatters { class SingleFormatter; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int SingleFormatter_TypeDefinitionIndex = 7462;
+
 	class SingleFormatter : public ::System::Object
 	{
 	public:

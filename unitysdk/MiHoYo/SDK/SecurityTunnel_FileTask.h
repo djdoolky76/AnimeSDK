@@ -11,6 +11,8 @@ namespace MiHoYo::SDK { class SecurityTunnel_Packet; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_FileTask_TypeDefinitionIndex = 46374;
+
 	class SecurityTunnel_FileTask : public ::System::Object
 	{
 	public:

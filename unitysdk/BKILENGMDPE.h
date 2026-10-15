@@ -19,6 +19,8 @@ class MNCOPNHONHO;
 #define BKILENGMDPE_KDKGLIOCPAP_OFFSET UNITYSDK_OFFSET(0xBA592C0)
 #define BKILENGMDPE_OPKIAFLPGAM_OFFSET UNITYSDK_OFFSET(0xBA591B0)
 
+inline static constexpr unsigned int BKILENGMDPE_TypeDefinitionIndex = 76702;
+
 	class BKILENGMDPE : public ::System::Object
 	{
 	public:

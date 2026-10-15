@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int MethodAccessException_TypeDefinitionIndex = 297;
+
 	class MethodAccessException : public ::System::MemberAccessException
 	{
 	public:

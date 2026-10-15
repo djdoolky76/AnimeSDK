@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByAllowInstantKill_TypeDefinitionIndex = 20253;
+
 	class ByAllowInstantKill : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

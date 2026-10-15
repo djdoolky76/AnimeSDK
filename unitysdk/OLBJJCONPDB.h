@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define OLBJJCONPDB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C99DBC0)
 
+inline static constexpr unsigned int OLBJJCONPDB_TypeDefinitionIndex = 41974;
+
 	class OLBJJCONPDB : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define MHMLBEJKFDE_MCFLBFCDADF_OFFSET UNITYSDK_OFFSET(0xB946F90)
 #define MHMLBEJKFDE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB946DD0)
 
+inline static constexpr unsigned int MHMLBEJKFDE_TypeDefinitionIndex = 69421;
+
 	class MHMLBEJKFDE : public ::System::Object
 	{
 	public:

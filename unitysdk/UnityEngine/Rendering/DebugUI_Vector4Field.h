@@ -5,6 +5,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DebugUI_Vector4Field_TypeDefinitionIndex = 35542;
+
 	class DebugUI_Vector4Field
 	{
 	public:

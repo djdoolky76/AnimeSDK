@@ -11,6 +11,8 @@ namespace UnityEngine::Windows::Speech { class PhraseRecognitionSystem_StatusDel
 
 namespace UnityEngine::Windows::Speech
 {
+	inline static constexpr unsigned int PhraseRecognitionSystem_TypeDefinitionIndex = 4432;
+
 	class PhraseRecognitionSystem : public ::System::Object
 	{
 	public:

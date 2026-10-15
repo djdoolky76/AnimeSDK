@@ -4,6 +4,8 @@ namespace System { class String; }
 
 #define ABKHJBACHOO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xEFD0)
 
+inline static constexpr unsigned int ABKHJBACHOO_TypeDefinitionIndex = 74548;
+
 	struct alignas(4) ABKHJBACHOO
 	{
 		::System::UInt32 LLDCHLHNADA; // 0x10

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define DHMAENLPNCF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1B8420)
 #define DHMAENLPNCF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1B8480)
 
+inline static constexpr unsigned int DHMAENLPNCF_TypeDefinitionIndex = 34269;
+
 	class DHMAENLPNCF : public ::System::Object
 	{
 	public:

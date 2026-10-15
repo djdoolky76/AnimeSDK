@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define LJLHLALFIAD___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB71F470)
 #define LJLHLALFIAD___C__DISPLAYCLASS4_0__CREATESETOFFSETNODEWORLDPOSECOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xB720B40)
 
+inline static constexpr unsigned int LJLHLALFIAD___c__DisplayClass4_0_TypeDefinitionIndex = 80844;
+
 	class LJLHLALFIAD___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

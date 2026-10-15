@@ -4,6 +4,8 @@
 
 #define HABHJADBJAC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C64CED0)
 
+inline static constexpr unsigned int HABHJADBJAC_TypeDefinitionIndex = 37167;
+
 	class HABHJADBJAC : public ::System::Object
 	{
 	public:

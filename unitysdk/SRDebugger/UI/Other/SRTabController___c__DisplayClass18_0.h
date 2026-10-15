@@ -9,6 +9,8 @@ namespace SRDebugger::UI::Other { class SRTabController; }
 
 namespace SRDebugger::UI::Other
 {
+	inline static constexpr unsigned int SRTabController___c__DisplayClass18_0_TypeDefinitionIndex = 38014;
+
 	class SRTabController___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:

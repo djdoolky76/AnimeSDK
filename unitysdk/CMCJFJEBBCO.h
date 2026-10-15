@@ -35,6 +35,8 @@ namespace System { class String; }
 #define CMCJFJEBBCO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E100280)
 #define CMCJFJEBBCO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1002E0)
 
+inline static constexpr unsigned int CMCJFJEBBCO_TypeDefinitionIndex = 25325;
+
 	class CMCJFJEBBCO : public ::System::Object
 	{
 	public:

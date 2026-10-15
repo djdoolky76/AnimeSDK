@@ -42,6 +42,8 @@ namespace UnityEngine::UI { class Image; }
 #define CONMANNGDEC_PLHMPPPAODJ_OFFSET UNITYSDK_OFFSET(0xDCC1000)
 #define CONMANNGDEC__ONBIND_OFFSET UNITYSDK_OFFSET(0xDCC0DB0)
 
+inline static constexpr unsigned int CONMANNGDEC_TypeDefinitionIndex = 71938;
+
 	class CONMANNGDEC : public ::CLAADCBPCHM
 	{
 	public:

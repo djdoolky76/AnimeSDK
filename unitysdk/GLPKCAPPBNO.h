@@ -3,6 +3,8 @@
 #include "unitysdk/Dest/Math/IntersectionTypes.h"
 #include "unitysdk/RPG/MVector2.h"
 
+inline static constexpr unsigned int GLPKCAPPBNO_TypeDefinitionIndex = 6199;
+
 	struct alignas(4) GLPKCAPPBNO
 	{
 		::Dest::Math::IntersectionTypes DLMLMAGCHJK; // 0x10

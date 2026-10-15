@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int EventProvider_MonoPInvokeCallbackAttribute_TypeDefinitionIndex = 1685;
+
 	class EventProvider_MonoPInvokeCallbackAttribute : public ::System::Attribute
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define AEDAMOLHMAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCAF300)
 #define AEDAMOLHMAJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCAEFC0)
 
+inline static constexpr unsigned int AEDAMOLHMAJ_TypeDefinitionIndex = 24122;
+
 	class AEDAMOLHMAJ : public ::RPG::GameCore::JsonConfig
 	{
 	public:

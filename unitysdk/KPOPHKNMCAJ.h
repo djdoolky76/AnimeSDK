@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define KPOPHKNMCAJ_CCCKHPAJFEA_OFFSET UNITYSDK_OFFSET(0xB5D2280)
 #define KPOPHKNMCAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB5D40B0)
 
+inline static constexpr unsigned int KPOPHKNMCAJ_TypeDefinitionIndex = 79695;
+
 	class KPOPHKNMCAJ : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TarotWikiTimelineRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TarotWikiTimelineRow_TypeDefinitionIndex = 15242;
+
 	class TarotWikiTimelineRow : public ::System::Object
 	{
 	public:

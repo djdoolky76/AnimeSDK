@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define NNBKBGKBBEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBC9DE20)
 #define NNBKBGKBBEM___C__SETREQUESTUNLOCKEDMULTIPATHAVATARTYPES_B__5_0_OFFSET UNITYSDK_OFFSET(0xBC9DE30)
 
+inline static constexpr unsigned int NNBKBGKBBEM___c_TypeDefinitionIndex = 62666;
+
 	class NNBKBGKBBEM___c : public ::System::Object
 	{
 	public:

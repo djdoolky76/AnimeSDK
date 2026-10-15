@@ -3,6 +3,8 @@
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int UniverseData_SubNavMapCreateState_TypeDefinitionIndex = 74636;
+
 	enum class UniverseData_SubNavMapCreateState : ::System::Int32
 	{
 		Pending = 0,

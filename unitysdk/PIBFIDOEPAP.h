@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PIBFIDOEPAP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF40EE0)
 #define PIBFIDOEPAP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF40F40)
 
+inline static constexpr unsigned int PIBFIDOEPAP_TypeDefinitionIndex = 28871;
+
 	class PIBFIDOEPAP : public ::System::Object
 	{
 	public:

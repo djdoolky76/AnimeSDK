@@ -16,6 +16,8 @@ class PEMFMPIPNJN;
 #define GCCFHOMFHNA_MMDDFOJCLBC_OFFSET UNITYSDK_OFFSET(0x1CA7E500)
 #define GCCFHOMFHNA_OBDOKODNMDA_OFFSET UNITYSDK_OFFSET(0x1CA7CD30)
 
+inline static constexpr unsigned int GCCFHOMFHNA_TypeDefinitionIndex = 42484;
+
 	class GCCFHOMFHNA : public ::System::Object
 	{
 	public:

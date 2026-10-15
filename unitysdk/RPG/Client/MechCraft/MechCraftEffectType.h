@@ -3,6 +3,8 @@
 
 namespace RPG::Client::MechCraft
 {
+	inline static constexpr unsigned int MechCraftEffectType_TypeDefinitionIndex = 41657;
+
 	enum class MechCraftEffectType : ::System::Int32
 	{
 		None = 0,

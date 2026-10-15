@@ -8,6 +8,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ShowCumulativeScoreBoardTrack_TypeDefinitionIndex = 48280;
+
 	class ShowCumulativeScoreBoardTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

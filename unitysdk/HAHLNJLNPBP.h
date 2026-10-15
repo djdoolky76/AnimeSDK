@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainVisitorDialogueEnd; }
 #define HAHLNJLNPBP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15B78830)
 #define HAHLNJLNPBP_TICK_OFFSET UNITYSDK_OFFSET(0x15B78880)
 
+inline static constexpr unsigned int HAHLNJLNPBP_TypeDefinitionIndex = 53432;
+
 	class HAHLNJLNPBP : public ::GELIALJDFBL
 	{
 	public:

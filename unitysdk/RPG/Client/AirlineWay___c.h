@@ -13,6 +13,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AirlineWay___c_TypeDefinitionIndex = 59777;
+
 	class AirlineWay___c : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PGDNIMPPAAI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2E03B0)
 #define PGDNIMPPAAI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D2DFCD0)
 
+inline static constexpr unsigned int PGDNIMPPAAI_TypeDefinitionIndex = 14270;
+
 	class PGDNIMPPAAI : public ::System::Object
 	{
 	public:

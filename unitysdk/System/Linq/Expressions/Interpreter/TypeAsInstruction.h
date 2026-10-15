@@ -14,6 +14,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int TypeAsInstruction_TypeDefinitionIndex = 3642;
+
 	class TypeAsInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:

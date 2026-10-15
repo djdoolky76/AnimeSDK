@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LinearQuestRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LinearQuestRow_TypeDefinitionIndex = 14572;
+
 	class LinearQuestRow : public ::System::Object
 	{
 	public:

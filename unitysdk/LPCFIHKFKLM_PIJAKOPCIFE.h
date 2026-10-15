@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define LPCFIHKFKLM_PIJAKOPCIFE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C7434A0)
 #define LPCFIHKFKLM_PIJAKOPCIFE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C7429A0)
 
+inline static constexpr unsigned int LPCFIHKFKLM_PIJAKOPCIFE_TypeDefinitionIndex = 36224;
+
 	class LPCFIHKFKLM_PIJAKOPCIFE : public ::System::MulticastDelegate
 	{
 	public:

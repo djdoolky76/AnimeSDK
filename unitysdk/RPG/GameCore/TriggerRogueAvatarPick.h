@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerRogueAvatarPick; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerRogueAvatarPick_TypeDefinitionIndex = 22265;
+
 	class TriggerRogueAvatarPick : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int Anniversary2NDTabConfigRow_TypeDefinitionIndex = 12657;
+
 	class Anniversary2NDTabConfigRow : public ::System::Object
 	{
 	public:

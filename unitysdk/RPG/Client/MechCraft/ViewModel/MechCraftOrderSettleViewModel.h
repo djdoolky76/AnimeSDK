@@ -29,6 +29,8 @@ class GLNDAKAGDKA;
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftOrderSettleViewModel_TypeDefinitionIndex = 79730;
+
 	class MechCraftOrderSettleViewModel : public ::RPG::Client::MechCraft::ViewModel::MechCraftSettleViewModel
 	{
 	public:

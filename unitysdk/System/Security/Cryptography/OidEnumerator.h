@@ -11,6 +11,8 @@ namespace System::Security::Cryptography { class OidCollection; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int OidEnumerator_TypeDefinitionIndex = 2677;
+
 	class OidEnumerator : public ::System::Object
 	{
 	public:

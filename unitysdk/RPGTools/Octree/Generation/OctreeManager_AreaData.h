@@ -6,6 +6,8 @@
 
 namespace RPGTools::Octree::Generation
 {
+	inline static constexpr unsigned int OctreeManager_AreaData_TypeDefinitionIndex = 48890;
+
 	class OctreeManager_AreaData : public ::System::Object
 	{
 	public:

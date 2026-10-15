@@ -4,6 +4,8 @@
 
 namespace System::Linq
 {
+	inline static constexpr unsigned int Enumerable__RepeatIterator_d__117_1_TypeDefinitionIndex = 3163;
+
 	template <typename T>
 	class Enumerable__RepeatIterator_d__117_1 : public ::System::Object
 	{

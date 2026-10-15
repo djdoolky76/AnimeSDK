@@ -4,6 +4,8 @@
 
 #define BEBIIJELGDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8B84C0)
 
+inline static constexpr unsigned int BEBIIJELGDA_TypeDefinitionIndex = 42541;
+
 	class BEBIIJELGDA : public ::System::Object
 	{
 	public:

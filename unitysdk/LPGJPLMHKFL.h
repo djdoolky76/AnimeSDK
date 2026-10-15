@@ -32,6 +32,8 @@ namespace System { class String; }
 #define LPGJPLMHKFL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9CC2A0)
 #define LPGJPLMHKFL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9CC300)
 
+inline static constexpr unsigned int LPGJPLMHKFL_TypeDefinitionIndex = 25754;
+
 	class LPGJPLMHKFL : public ::System::Object
 	{
 	public:

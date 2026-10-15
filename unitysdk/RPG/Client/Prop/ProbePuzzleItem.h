@@ -27,6 +27,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ProbePuzzleItem_TypeDefinitionIndex = 78780;
+
 	class ProbePuzzleItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

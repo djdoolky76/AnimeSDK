@@ -11,6 +11,8 @@ namespace System::Globalization { class CultureInfo; }
 #define SR_FAE8451854D89B61_GETSTRING_2_OFFSET UNITYSDK_OFFSET(0x1EFD3D60)
 #define SR_FAE8451854D89B61_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1EFD3C10)
 
+inline static constexpr unsigned int SR_FAE8451854D89B61_TypeDefinitionIndex = 2345;
+
 	class SR_FAE8451854D89B61 : public ::System::Object
 	{
 	public:

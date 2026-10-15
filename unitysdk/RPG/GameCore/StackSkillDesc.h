@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StackSkillDesc_TypeDefinitionIndex = 23131;
+
 	class StackSkillDesc : public ::RPG::GameCore::TaskConfig
 	{
 	public:

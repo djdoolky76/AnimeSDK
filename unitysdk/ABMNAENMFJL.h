@@ -16,6 +16,8 @@ namespace System::Text { class StringBuilder; }
 #define ABMNAENMFJL_SET_WORLDLEVEL_OFFSET UNITYSDK_OFFSET(0xAF40)
 #define ABMNAENMFJL_TOSTRING_OFFSET UNITYSDK_OFFSET(0xF070)
 
+inline static constexpr unsigned int ABMNAENMFJL_TypeDefinitionIndex = 51980;
+
 	struct alignas(4) ABMNAENMFJL
 	{
 		::System::UInt32 _WorldLevel_k__BackingField; // 0x10

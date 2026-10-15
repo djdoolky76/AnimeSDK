@@ -5,6 +5,8 @@
 
 #define LOBACMDPMFE_CTOR_OFFSET UNITYSDK_OFFSET(0xB7F1E70)
 
+inline static constexpr unsigned int LOBACMDPMFE_TypeDefinitionIndex = 71251;
+
 	class LOBACMDPMFE : public ::System::Object
 	{
 	public:

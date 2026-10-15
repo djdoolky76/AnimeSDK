@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchRefRollShopReward_TypeDefinitionIndex = 17531;
+
 	class SwitchRefRollShopReward : public ::RPG::GameCore::SwitchRefBase
 	{
 	public:

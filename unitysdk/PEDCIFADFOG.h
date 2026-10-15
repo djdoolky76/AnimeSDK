@@ -3,6 +3,8 @@
 
 #define PEDCIFADFOG_CTOR_OFFSET UNITYSDK_OFFSET(0xC0342D0)
 
+inline static constexpr unsigned int PEDCIFADFOG_TypeDefinitionIndex = 74007;
+
 	class PEDCIFADFOG
 	{
 	public:

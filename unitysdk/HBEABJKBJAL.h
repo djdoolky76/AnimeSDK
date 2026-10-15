@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 #define HBEABJKBJAL_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0x15BED090)
 #define HBEABJKBJAL_PCDLKLNDNKO_OFFSET UNITYSDK_OFFSET(0x15BED4A0)
 
+inline static constexpr unsigned int HBEABJKBJAL_TypeDefinitionIndex = 49487;
+
 	class HBEABJKBJAL
 	{
 	public:

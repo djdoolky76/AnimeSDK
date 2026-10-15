@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int OverrideTransform_Controller_TypeDefinitionIndex = 48526;
+
 	class OverrideTransform_Controller : public ::System::Object
 	{
 	public:

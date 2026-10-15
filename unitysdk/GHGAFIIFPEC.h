@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define GHGAFIIFPEC_NPALABKHMLL_OFFSET UNITYSDK_OFFSET(0x1C556AA0)
 #define GHGAFIIFPEC_PGBIPGAOKFG_OFFSET UNITYSDK_OFFSET(0x1C556470)
 
+inline static constexpr unsigned int GHGAFIIFPEC_TypeDefinitionIndex = 41865;
+
 	class GHGAFIIFPEC : public ::System::Object
 	{
 	public:

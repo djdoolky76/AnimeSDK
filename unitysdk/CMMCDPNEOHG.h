@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CMMCDPNEOHG_LHKDAODJOHC_OFFSET UNITYSDK_OFFSET(0xDA3B990)
 #define CMMCDPNEOHG_MMMGHLBMNHN_OFFSET UNITYSDK_OFFSET(0xDA3B860)
 
+inline static constexpr unsigned int CMMCDPNEOHG_TypeDefinitionIndex = 47157;
+
 	class CMMCDPNEOHG : public ::System::Object
 	{
 	public:

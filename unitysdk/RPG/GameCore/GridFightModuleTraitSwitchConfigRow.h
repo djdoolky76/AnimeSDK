@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightModuleTraitSwitchConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModuleTraitSwitchConfigRow_TypeDefinitionIndex = 13483;
+
 	class GridFightModuleTraitSwitchConfigRow : public ::System::Object
 	{
 	public:

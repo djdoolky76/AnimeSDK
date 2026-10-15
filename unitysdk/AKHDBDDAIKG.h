@@ -13,6 +13,8 @@ namespace System { class String; }
 #define AKHDBDDAIKG_TICK_OFFSET UNITYSDK_OFFSET(0x12CD3600)
 #define AKHDBDDAIKG__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0x12CD3660)
 
+inline static constexpr unsigned int AKHDBDDAIKG_TypeDefinitionIndex = 52712;
+
 	class AKHDBDDAIKG : public ::GELIALJDFBL
 	{
 	public:

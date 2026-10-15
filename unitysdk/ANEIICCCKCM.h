@@ -27,6 +27,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define ANEIICCCKCM_NMJGILFHFPC_OFFSET UNITYSDK_OFFSET(0x15594830)
 #define ANEIICCCKCM_ONMKPFKIAOD_OFFSET UNITYSDK_OFFSET(0x15594EA0)
 
+inline static constexpr unsigned int ANEIICCCKCM_TypeDefinitionIndex = 57029;
+
 	class ANEIICCCKCM : public ::BDENDNDOFLF
 	{
 	public:

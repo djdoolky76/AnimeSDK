@@ -14,6 +14,8 @@ namespace System::Threading { class SynchronizationContext; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int CancellationCallbackInfo_TypeDefinitionIndex = 802;
+
 	class CancellationCallbackInfo : public ::System::Object
 	{
 	public:

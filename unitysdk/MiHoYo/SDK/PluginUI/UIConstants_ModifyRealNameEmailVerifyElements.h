@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int UIConstants_ModifyRealNameEmailVerifyElements_TypeDefinitionIndex = 46837;
+
 	class UIConstants_ModifyRealNameEmailVerifyElements : public ::System::Object
 	{
 	public:

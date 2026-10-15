@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_CXOpenCommerceCheckoutDialogDelegate_TypeDefinitionIndex = 7678;
+
 	class ConsoleDelegate_CXOpenCommerceCheckoutDialogDelegate : public ::System::MulticastDelegate
 	{
 	public:

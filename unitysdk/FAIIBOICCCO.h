@@ -10,6 +10,8 @@ namespace System { class String; }
 #define FAIIBOICCCO_SET_DAMAGECOUNTER_OFFSET UNITYSDK_OFFSET(0x1567C8F0)
 #define FAIIBOICCCO_SET_INTVAL_OFFSET UNITYSDK_OFFSET(0x1567C910)
 
+inline static constexpr unsigned int FAIIBOICCCO_TypeDefinitionIndex = 58998;
+
 	class FAIIBOICCCO : public ::JENIFGNJEPE
 	{
 	public:

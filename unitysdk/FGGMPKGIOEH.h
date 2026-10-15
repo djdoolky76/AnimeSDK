@@ -10,6 +10,8 @@
 #define FGGMPKGIOEH_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1575DEF0)
 #define FGGMPKGIOEH_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x1575DF00)
 
+inline static constexpr unsigned int FGGMPKGIOEH_TypeDefinitionIndex = 56161;
+
 	class FGGMPKGIOEH : public ::DBGDNLLDPFI
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define NKLLJLBFPNP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C96DBC0)
 
+inline static constexpr unsigned int NKLLJLBFPNP_TypeDefinitionIndex = 42232;
+
 	class NKLLJLBFPNP : public ::System::Object
 	{
 	public:

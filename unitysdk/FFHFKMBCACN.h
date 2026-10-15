@@ -31,6 +31,8 @@ namespace System { class String; }
 #define FFHFKMBCACN_ONRETURN_OFFSET UNITYSDK_OFFSET(0x1573DBE0)
 #define FFHFKMBCACN__ONBIND_OFFSET UNITYSDK_OFFSET(0x1573D2B0)
 
+inline static constexpr unsigned int FFHFKMBCACN_TypeDefinitionIndex = 71784;
+
 	class FFHFKMBCACN : public ::FMPCODLIOLG
 	{
 	public:

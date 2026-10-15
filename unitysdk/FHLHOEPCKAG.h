@@ -25,6 +25,8 @@ namespace System { class String; }
 #define FHLHOEPCKAG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E390110)
 #define FHLHOEPCKAG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E390170)
 
+inline static constexpr unsigned int FHLHOEPCKAG_TypeDefinitionIndex = 34865;
+
 	class FHLHOEPCKAG : public ::System::Object
 	{
 	public:

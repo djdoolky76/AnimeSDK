@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyEventEntityInstance_TypeDefinitionIndex = 74324;
+
 	class TrainPartyEventEntityInstance : public ::System::Object
 	{
 	public:

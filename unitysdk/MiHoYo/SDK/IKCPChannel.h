@@ -37,6 +37,8 @@ namespace System::Net { class IPEndPoint; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int IKCPChannel_TypeDefinitionIndex = 46125;
+
 	class IKCPChannel : public ::System::Object
 	{
 	public:

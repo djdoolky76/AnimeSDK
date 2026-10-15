@@ -7,6 +7,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace SRF
 {
+	inline static constexpr unsigned int Coroutines_TypeDefinitionIndex = 35366;
+
 	class Coroutines : public ::System::Object
 	{
 	public:

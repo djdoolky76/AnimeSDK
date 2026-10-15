@@ -18,6 +18,8 @@ namespace XLua { class OverloadMethodWrap; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int DictionaryMethodWrapCreator_TypeDefinitionIndex = 50226;
+
 	class DictionaryMethodWrapCreator : public ::System::Object
 	{
 	public:

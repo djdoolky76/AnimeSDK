@@ -21,6 +21,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int ScriptableCullingParameters_TypeDefinitionIndex = 4746;
+
 	struct alignas(4) ScriptableCullingParameters
 	{
 		::System::Int32 m_IsOrthographic; // 0x10

@@ -59,6 +59,8 @@ namespace RPG::GameCore { class PlayerCondConfigBase; }
 #define MCPNGLAKGEI_PLMPBNAEIGN_OFFSET UNITYSDK_OFFSET(0x1D140B40)
 #define MCPNGLAKGEI_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1D140D00)
 
+inline static constexpr unsigned int MCPNGLAKGEI_TypeDefinitionIndex = 19558;
+
 	class MCPNGLAKGEI : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EMOCGPGJCGO_DHOCMMBBDIM_OFFSET UNITYSDK_OFFSET(0x1C550CB0)
 #define EMOCGPGJCGO_JDLENDNKCED_OFFSET UNITYSDK_OFFSET(0x1C550B50)
 
+inline static constexpr unsigned int EMOCGPGJCGO_TypeDefinitionIndex = 41871;
+
 	class EMOCGPGJCGO : public ::System::Object
 	{
 	public:

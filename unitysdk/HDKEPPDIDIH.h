@@ -45,6 +45,8 @@ namespace System { class String; }
 #define HDKEPPDIDIH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E54F0C0)
 #define HDKEPPDIDIH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E54F120)
 
+inline static constexpr unsigned int HDKEPPDIDIH_TypeDefinitionIndex = 25473;
+
 	class HDKEPPDIDIH : public ::System::Object
 	{
 	public:

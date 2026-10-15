@@ -10,6 +10,8 @@
 #define GKODJGAGKEB_SET_DEFAULTTOPN_OFFSET UNITYSDK_OFFSET(0x15AA8030)
 #define GKODJGAGKEB_SET_ENABLED_OFFSET UNITYSDK_OFFSET(0x15AA7FF0)
 
+inline static constexpr unsigned int GKODJGAGKEB_TypeDefinitionIndex = 77841;
+
 	class GKODJGAGKEB : public ::System::Object
 	{
 	public:

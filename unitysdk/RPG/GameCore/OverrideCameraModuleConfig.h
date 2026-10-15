@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OverrideCameraModuleConfig_TypeDefinitionIndex = 22193;
+
 	class OverrideCameraModuleConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

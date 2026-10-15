@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FBNLFBHBLDF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CDCDD40)
 #define FBNLFBHBLDF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CDCD620)
 
+inline static constexpr unsigned int FBNLFBHBLDF_TypeDefinitionIndex = 11612;
+
 	class FBNLFBHBLDF : public ::System::Object
 	{
 	public:

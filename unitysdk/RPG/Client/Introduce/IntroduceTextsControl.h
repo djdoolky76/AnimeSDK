@@ -12,6 +12,8 @@ namespace RPG::Client::Introduce { class IntroduceViewModel; }
 
 namespace RPG::Client::Introduce
 {
+	inline static constexpr unsigned int IntroduceTextsControl_TypeDefinitionIndex = 80480;
+
 	class IntroduceTextsControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

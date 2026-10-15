@@ -4,6 +4,8 @@
 class MEIGMBOLDOF;
 namespace UnityEngine::Events { class UnityAction; }
 
+inline static constexpr unsigned int PEOGBBHBPFF___O_TypeDefinitionIndex = 49573;
+
 	class PEOGBBHBPFF___O : public ::System::Object
 	{
 	public:

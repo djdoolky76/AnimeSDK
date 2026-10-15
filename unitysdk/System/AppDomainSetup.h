@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int AppDomainSetup_TypeDefinitionIndex = 378;
+
 	class AppDomainSetup : public ::System::Object
 	{
 	public:

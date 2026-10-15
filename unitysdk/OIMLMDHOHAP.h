@@ -33,6 +33,8 @@ namespace System { class String; }
 #define OIMLMDHOHAP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE74A70)
 #define OIMLMDHOHAP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE74AD0)
 
+inline static constexpr unsigned int OIMLMDHOHAP_TypeDefinitionIndex = 28914;
+
 	class OIMLMDHOHAP : public ::System::Object
 	{
 	public:

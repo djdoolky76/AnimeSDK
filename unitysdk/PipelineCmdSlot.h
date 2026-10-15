@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int PipelineCmdSlot_TypeDefinitionIndex = 37477;
+
 	enum class PipelineCmdSlot : ::System::Int32
 	{
 		BeforePrepare = 0,

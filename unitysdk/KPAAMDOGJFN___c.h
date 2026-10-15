@@ -12,6 +12,8 @@ namespace UnityEngine { class Collider; }
 #define KPAAMDOGJFN___C___INITONESIDEPASSPROP_B__5_0_OFFSET UNITYSDK_OFFSET(0xB5A76A0)
 #define KPAAMDOGJFN___C___INITONESIDEPASSPROP_B__5_1_OFFSET UNITYSDK_OFFSET(0xB5A76D0)
 
+inline static constexpr unsigned int KPAAMDOGJFN___c_TypeDefinitionIndex = 77134;
+
 	class KPAAMDOGJFN___c : public ::System::Object
 	{
 	public:

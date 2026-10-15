@@ -4,6 +4,8 @@
 
 #define BBAAOCLHKGH_CTOR_OFFSET UNITYSDK_OFFSET(0x15E80E70)
 
+inline static constexpr unsigned int BBAAOCLHKGH_TypeDefinitionIndex = 81647;
+
 	class BBAAOCLHKGH : public ::System::Object
 	{
 	public:

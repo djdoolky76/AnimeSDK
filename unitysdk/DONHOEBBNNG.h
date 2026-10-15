@@ -25,6 +25,8 @@ namespace System { class String; }
 #define DONHOEBBNNG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E205440)
 #define DONHOEBBNNG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2054A0)
 
+inline static constexpr unsigned int DONHOEBBNNG_TypeDefinitionIndex = 30243;
+
 	class DONHOEBBNNG : public ::System::Object
 	{
 	public:

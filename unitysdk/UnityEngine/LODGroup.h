@@ -29,6 +29,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int LODGroup_TypeDefinitionIndex = 4191;
+
 	class LODGroup : public ::UnityEngine::Component
 	{
 	public:

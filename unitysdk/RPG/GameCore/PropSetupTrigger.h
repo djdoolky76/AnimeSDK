@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropSetupTrigger_TypeDefinitionIndex = 20353;
+
 	class PropSetupTrigger : public ::RPG::GameCore::TaskConfig
 	{
 	public:

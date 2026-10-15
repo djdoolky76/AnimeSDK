@@ -9,6 +9,8 @@ namespace System::Text::RegularExpressions { class Match; }
 
 namespace MiHoYo::SDK::Common
 {
+	inline static constexpr unsigned int StringUtils___c__DisplayClass2_0_TypeDefinitionIndex = 8828;
+
 	class StringUtils___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

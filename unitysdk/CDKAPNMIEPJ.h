@@ -6,6 +6,8 @@ class EIAKOPHIHOA;
 
 #define CDKAPNMIEPJ_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC76B250)
 
+inline static constexpr unsigned int CDKAPNMIEPJ_TypeDefinitionIndex = 67359;
+
 	class CDKAPNMIEPJ : public ::System::Object
 	{
 	public:

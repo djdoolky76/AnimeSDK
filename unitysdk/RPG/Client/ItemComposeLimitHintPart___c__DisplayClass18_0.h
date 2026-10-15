@@ -9,6 +9,8 @@ namespace RPG::Client { class ItemComposeLimitHintPart; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ItemComposeLimitHintPart___c__DisplayClass18_0_TypeDefinitionIndex = 65751;
+
 	class ItemComposeLimitHintPart___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:

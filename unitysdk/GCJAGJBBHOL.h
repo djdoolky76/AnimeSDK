@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GCJAGJBBHOL_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0x1597CF40)
 #define GCJAGJBBHOL_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0x1597D380)
 
+inline static constexpr unsigned int GCJAGJBBHOL_TypeDefinitionIndex = 73249;
+
 	class GCJAGJBBHOL : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateSupportModule_TypeDefinitionIndex = 64160;
+
 	class FateSupportModule : public ::RPG::Client::BaseModule
 	{
 	public:

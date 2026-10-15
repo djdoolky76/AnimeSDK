@@ -15,6 +15,8 @@ namespace System { template <typename T> class Func_1; }
 #define EAKHEENLDKM___C___CTOR_B__45_0_OFFSET UNITYSDK_OFFSET(0x1CA32130)
 #define EAKHEENLDKM___C___CTOR_B__45_1_OFFSET UNITYSDK_OFFSET(0x1CA32160)
 
+inline static constexpr unsigned int EAKHEENLDKM___c_TypeDefinitionIndex = 41981;
+
 	class EAKHEENLDKM___c : public ::System::Object
 	{
 	public:

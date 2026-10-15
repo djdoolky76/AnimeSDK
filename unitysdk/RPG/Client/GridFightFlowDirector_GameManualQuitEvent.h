@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightFlowDirector_GameManualQuitEvent_TypeDefinitionIndex = 64587;
+
 	class GridFightFlowDirector_GameManualQuitEvent
 	{
 	public:

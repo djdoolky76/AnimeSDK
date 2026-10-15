@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingBattlePredicate_GreaterThanOrEqual; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattlePredicate_GreaterThanOrEqual_TypeDefinitionIndex = 15811;
+
 	class ChenLingBattlePredicate_GreaterThanOrEqual : public ::RPG::GameCore::BaseChenLingBattlePredicate
 	{
 	public:

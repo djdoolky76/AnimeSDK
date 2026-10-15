@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimAddMoneyAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimAddMoneyAction_TypeDefinitionIndex = 18724;
+
 	class FiveDimAddMoneyAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

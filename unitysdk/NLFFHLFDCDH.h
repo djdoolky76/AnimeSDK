@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NLFFHLFDCDH_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C96F6E0)
 #define NLFFHLFDCDH_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C96F850)
 
+inline static constexpr unsigned int NLFFHLFDCDH_TypeDefinitionIndex = 43307;
+
 	class NLFFHLFDCDH : public ::System::Object
 	{
 	public:

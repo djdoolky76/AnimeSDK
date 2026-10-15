@@ -61,6 +61,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LACLKDPNNLH_PEOALEFNMOG_OFFSET UNITYSDK_OFFSET(0xB5D8D90)
 #define LACLKDPNNLH_PPHMOAHCOMJ_OFFSET UNITYSDK_OFFSET(0xB5D8A60)
 
+inline static constexpr unsigned int LACLKDPNNLH_TypeDefinitionIndex = 56177;
+
 	class LACLKDPNNLH : public ::System::Object
 	{
 	public:

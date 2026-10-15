@@ -35,6 +35,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SkillConfig_TypeDefinitionIndex = 18190;
+
 	class SkillConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

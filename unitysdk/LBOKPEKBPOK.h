@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define LBOKPEKBPOK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB60DE40)
 #define LBOKPEKBPOK_INVOKE_OFFSET UNITYSDK_OFFSET(0xB60DE00)
 
+inline static constexpr unsigned int LBOKPEKBPOK_TypeDefinitionIndex = 54219;
+
 	class LBOKPEKBPOK : public ::System::MulticastDelegate
 	{
 	public:

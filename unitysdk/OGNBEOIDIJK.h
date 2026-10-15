@@ -7,6 +7,8 @@ class NOOHPODHIAA;
 #define OGNBEOIDIJK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C98D210)
 #define OGNBEOIDIJK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C98D2B0)
 
+inline static constexpr unsigned int OGNBEOIDIJK_TypeDefinitionIndex = 43543;
+
 	class OGNBEOIDIJK : public ::System::Object
 	{
 	public:

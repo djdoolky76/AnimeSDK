@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 #define KBLANADAHOM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D061F90)
 #define KBLANADAHOM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D061F40)
 
+inline static constexpr unsigned int KBLANADAHOM_TypeDefinitionIndex = 19911;
+
 	class KBLANADAHOM : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

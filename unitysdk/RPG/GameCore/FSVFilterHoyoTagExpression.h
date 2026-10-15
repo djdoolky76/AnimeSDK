@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FSVFilterHoyoTagExpression; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FSVFilterHoyoTagExpression_TypeDefinitionIndex = 17404;
+
 	class FSVFilterHoyoTagExpression : public ::RPG::GameCore::FSVFilterExpression
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlEnumAttribute_TypeDefinitionIndex = 2009;
+
 	class XmlEnumAttribute : public ::System::Attribute
 	{
 	public:

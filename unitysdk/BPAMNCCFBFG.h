@@ -4,6 +4,8 @@
 
 #define BPAMNCCFBFG_CTOR_OFFSET UNITYSDK_OFFSET(0xC19B680)
 
+inline static constexpr unsigned int BPAMNCCFBFG_TypeDefinitionIndex = 81279;
+
 	class BPAMNCCFBFG : public ::System::Object
 	{
 	public:

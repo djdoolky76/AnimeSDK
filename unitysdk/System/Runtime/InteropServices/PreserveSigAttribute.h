@@ -6,6 +6,8 @@
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int PreserveSigAttribute_TypeDefinitionIndex = 1415;
+
 	class PreserveSigAttribute : public ::System::Attribute
 	{
 	public:

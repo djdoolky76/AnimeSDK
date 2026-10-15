@@ -21,6 +21,8 @@ namespace RPG::GameCore { class BattlePassLevelRewardRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattlePassRewardPointData_TypeDefinitionIndex = 62896;
+
 	class BattlePassRewardPointData : public ::System::Object
 	{
 	public:

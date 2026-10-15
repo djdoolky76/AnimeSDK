@@ -12,6 +12,8 @@ namespace System { class String; }
 #define EDDOMNACGOI_NOPELAGFMAJ_OFFSET UNITYSDK_OFFSET(0x1690)
 #define EDDOMNACGOI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C477C0)
 
+inline static constexpr unsigned int EDDOMNACGOI_TypeDefinitionIndex = 6389;
+
 	struct alignas(4) EDDOMNACGOI
 	{
 		::RPG::MVector3 DOBKPINIPHM; // 0x10

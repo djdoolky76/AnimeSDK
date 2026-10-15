@@ -4,6 +4,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2SimplexCache_TypeDefinitionIndex = 36773;
+
 	struct alignas(8) B2SimplexCache
 	{
 		::System::UInt16 count; // 0x10

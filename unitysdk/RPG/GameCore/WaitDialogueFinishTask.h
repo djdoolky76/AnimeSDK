@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitDialogueFinishTask_TypeDefinitionIndex = 58884;
+
 	class WaitDialogueFinishTask : public ::GELIALJDFBL
 	{
 	public:

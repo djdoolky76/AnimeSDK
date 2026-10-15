@@ -11,6 +11,8 @@ namespace ZXing::Common { class BitArray; }
 
 namespace ZXing::Aztec::Internal
 {
+	inline static constexpr unsigned int SimpleToken_TypeDefinitionIndex = 7026;
+
 	class SimpleToken : public ::ZXing::Aztec::Internal::Token
 	{
 	public:

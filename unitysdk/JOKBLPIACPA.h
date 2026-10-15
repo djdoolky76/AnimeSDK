@@ -5,6 +5,8 @@
 
 #define JOKBLPIACPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA7CF0)
 
+inline static constexpr unsigned int JOKBLPIACPA_TypeDefinitionIndex = 43406;
+
 	class JOKBLPIACPA : public ::System::Object
 	{
 	public:

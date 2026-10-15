@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CJIFMPGCOOC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0DF750)
 #define CJIFMPGCOOC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0DF7B0)
 
+inline static constexpr unsigned int CJIFMPGCOOC_TypeDefinitionIndex = 27690;
+
 	class CJIFMPGCOOC : public ::System::Object
 	{
 	public:

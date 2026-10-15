@@ -18,6 +18,8 @@ namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; 
 #define JEHEMLENCIE___C__ONGAMEFINISHED_B__14_3_OFFSET UNITYSDK_OFFSET(0x16627920)
 #define JEHEMLENCIE___C__ONGAMEFINISHED_B__14_4_OFFSET UNITYSDK_OFFSET(0x16627900)
 
+inline static constexpr unsigned int JEHEMLENCIE___c_TypeDefinitionIndex = 79043;
+
 	class JEHEMLENCIE___c : public ::System::Object
 	{
 	public:

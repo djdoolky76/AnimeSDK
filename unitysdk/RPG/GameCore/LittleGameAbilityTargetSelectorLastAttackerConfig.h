@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameAbilityTargetSelectorLastAttackerConfi
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityTargetSelectorLastAttackerConfig_TypeDefinitionIndex = 21371;
+
 	class LittleGameAbilityTargetSelectorLastAttackerConfig : public ::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig
 	{
 	public:

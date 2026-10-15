@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PingPongAddPointConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PingPongAddPointConfig_TypeDefinitionIndex = 16977;
+
 	class PingPongAddPointConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

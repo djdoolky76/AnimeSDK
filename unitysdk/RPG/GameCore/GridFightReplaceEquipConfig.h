@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightReplaceEquipConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightReplaceEquipConfig_TypeDefinitionIndex = 19472;
+
 	class GridFightReplaceEquipConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ProxyEffectProp_TypeDefinitionIndex = 60503;
+
 	class ProxyEffectProp : public ::System::Object
 	{
 	public:

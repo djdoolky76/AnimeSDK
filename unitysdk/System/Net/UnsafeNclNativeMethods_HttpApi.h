@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int UnsafeNclNativeMethods_HttpApi_TypeDefinitionIndex = 2816;
+
 	class UnsafeNclNativeMethods_HttpApi : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CNAAFFOBOJE_EBIDFEGMEAO_OFFSET UNITYSDK_OFFSET(0xDA46910)
 #define CNAAFFOBOJE_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xDA45E80)
 
+inline static constexpr unsigned int CNAAFFOBOJE_TypeDefinitionIndex = 53811;
+
 	class CNAAFFOBOJE
 	{
 	public:

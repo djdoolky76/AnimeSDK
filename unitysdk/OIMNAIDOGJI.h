@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OIMNAIDOGJI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE75420)
 #define OIMNAIDOGJI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE75480)
 
+inline static constexpr unsigned int OIMNAIDOGJI_TypeDefinitionIndex = 25978;
+
 	class OIMNAIDOGJI : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define AMEINMHLDNA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CCDB1E0)
 #define AMEINMHLDNA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CCDB690)
 
+inline static constexpr unsigned int AMEINMHLDNA_TypeDefinitionIndex = 15165;
+
 	class AMEINMHLDNA : public ::System::Object
 	{
 	public:

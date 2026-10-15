@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LoadingStratageConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoadingStratageConfigRow_TypeDefinitionIndex = 13995;
+
 	class LoadingStratageConfigRow : public ::System::Object
 	{
 	public:

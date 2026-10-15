@@ -5,6 +5,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::RoadRash
 {
+	inline static constexpr unsigned int ProjectileHitEffectConfig_TypeDefinitionIndex = 42935;
+
 	struct alignas(8) ProjectileHitEffectConfig
 	{
 		::System::String* PrefabPath; // 0x10

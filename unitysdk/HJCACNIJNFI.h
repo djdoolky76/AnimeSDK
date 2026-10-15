@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 #define HJCACNIJNFI_MHFNJCLKNMG_OFFSET UNITYSDK_OFFSET(0x15D038E0)
 #define HJCACNIJNFI_OELCGEJKKLC_OFFSET UNITYSDK_OFFSET(0x15D02990)
 
+inline static constexpr unsigned int HJCACNIJNFI_TypeDefinitionIndex = 69316;
+
 	class HJCACNIJNFI : public ::ICOHAPENNHF
 	{
 	public:

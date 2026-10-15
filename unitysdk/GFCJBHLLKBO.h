@@ -14,6 +14,8 @@ namespace System { class Action; }
 #define GFCJBHLLKBO_MMDCJOAPDCD_OFFSET UNITYSDK_OFFSET(0x159E9B40)
 #define GFCJBHLLKBO_SET_LASTINTERACTION_OFFSET UNITYSDK_OFFSET(0x159E9B30)
 
+inline static constexpr unsigned int GFCJBHLLKBO_TypeDefinitionIndex = 68064;
+
 	class GFCJBHLLKBO : public ::System::Object
 	{
 	public:

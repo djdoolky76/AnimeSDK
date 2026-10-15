@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client::AstraFX
 {
+	inline static constexpr unsigned int AstraFXDataManager_TypeDefinitionIndex = 73683;
+
 	class AstraFXDataManager
 	{
 	public:

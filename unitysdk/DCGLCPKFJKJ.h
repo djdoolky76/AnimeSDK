@@ -12,6 +12,8 @@ class JHIGAEIELKO;
 #define DCGLCPKFJKJ_FNFNNGCIEEE_OFFSET UNITYSDK_OFFSET(0xE246A80)
 #define DCGLCPKFJKJ_PDHHNKABAFI_OFFSET UNITYSDK_OFFSET(0xE246A30)
 
+inline static constexpr unsigned int DCGLCPKFJKJ_TypeDefinitionIndex = 54198;
+
 	class DCGLCPKFJKJ : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 #define GDFCJJAAOPJ_UNRESOLVE_OFFSET UNITYSDK_OFFSET(0x1599B850)
 #define GDFCJJAAOPJ__RESOLVE_OFFSET UNITYSDK_OFFSET(0x1599B730)
 
+inline static constexpr unsigned int GDFCJJAAOPJ_TypeDefinitionIndex = 56526;
+
 	class GDFCJJAAOPJ
 	{
 	public:

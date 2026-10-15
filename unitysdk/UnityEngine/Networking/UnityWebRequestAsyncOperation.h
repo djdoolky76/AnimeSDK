@@ -9,6 +9,8 @@ namespace UnityEngine::Networking { class UnityWebRequest; }
 
 namespace UnityEngine::Networking
 {
+	inline static constexpr unsigned int UnityWebRequestAsyncOperation_TypeDefinitionIndex = 5355;
+
 	class UnityWebRequestAsyncOperation : public ::UnityEngine::AsyncOperation
 	{
 	public:

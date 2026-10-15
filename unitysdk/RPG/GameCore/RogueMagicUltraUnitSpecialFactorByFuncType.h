@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RogueMagicUltraUnitSpecialFactorByFuncType; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueMagicUltraUnitSpecialFactorByFuncType_TypeDefinitionIndex = 17926;
+
 	class RogueMagicUltraUnitSpecialFactorByFuncType : public ::RPG::GameCore::BaseRogueMagicUltraUnitSpecialFactor
 	{
 	public:

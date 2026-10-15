@@ -7,6 +7,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int TextAreaAttribute_TypeDefinitionIndex = 4244;
+
 	class TextAreaAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:

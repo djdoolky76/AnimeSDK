@@ -8,6 +8,8 @@
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int BGCurvePCG_CurveScatter_NHPPEMJONFE_TypeDefinitionIndex = 52021;
+
 	class BGCurvePCG_CurveScatter_NHPPEMJONFE : public ::System::Object
 	{
 	public:

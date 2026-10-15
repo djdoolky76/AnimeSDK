@@ -39,6 +39,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::FateRin::View::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudHandCardLayout_TypeDefinitionIndex = 80669;
+
 	class FateRinBattleHudHandCardLayout : public ::UnityEngine::MonoBehaviour
 	{
 	public:

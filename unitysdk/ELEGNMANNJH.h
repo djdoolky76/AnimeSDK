@@ -5,6 +5,8 @@
 
 #define ELEGNMANNJH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA61500)
 
+inline static constexpr unsigned int ELEGNMANNJH_TypeDefinitionIndex = 42240;
+
 	class ELEGNMANNJH : public ::System::Object
 	{
 	public:

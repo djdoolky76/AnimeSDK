@@ -4,6 +4,8 @@
 
 #define MJFEDNFDKDO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92C8C0)
 
+inline static constexpr unsigned int MJFEDNFDKDO_TypeDefinitionIndex = 42556;
+
 	class MJFEDNFDKDO : public ::System::Object
 	{
 	public:

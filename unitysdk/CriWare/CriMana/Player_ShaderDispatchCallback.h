@@ -14,6 +14,8 @@ namespace UnityEngine { class Shader; }
 
 namespace CriWare::CriMana
 {
+	inline static constexpr unsigned int Player_ShaderDispatchCallback_TypeDefinitionIndex = 40223;
+
 	class Player_ShaderDispatchCallback : public ::System::MulticastDelegate
 	{
 	public:

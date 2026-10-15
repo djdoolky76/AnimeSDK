@@ -4,6 +4,8 @@
 
 #define KBNONEGEOMC_CTOR_OFFSET UNITYSDK_OFFSET(0xB323CF0)
 
+inline static constexpr unsigned int KBNONEGEOMC_TypeDefinitionIndex = 51810;
+
 	class KBNONEGEOMC : public ::System::Object
 	{
 	public:

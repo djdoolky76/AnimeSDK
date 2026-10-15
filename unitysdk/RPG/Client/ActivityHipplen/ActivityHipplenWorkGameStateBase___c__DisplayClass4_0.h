@@ -9,6 +9,8 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenWorkGameStateBase;
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenWorkGameStateBase___c__DisplayClass4_0_TypeDefinitionIndex = 75537;
+
 	class ActivityHipplenWorkGameStateBase___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

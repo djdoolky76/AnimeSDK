@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatNotAvatarPreviewConfig_TypeDefinitionIndex = 16126;
+
 	class DiceCombatNotAvatarPreviewConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -31,6 +31,8 @@ namespace UnityEngine { class Transform; }
 #define KGNMHBFIJEI_NGOMLJNPAMM_OFFSET UNITYSDK_OFFSET(0xB3F8770)
 #define KGNMHBFIJEI_NODLOIDGBGL_OFFSET UNITYSDK_OFFSET(0xB3F79B0)
 
+inline static constexpr unsigned int KGNMHBFIJEI_TypeDefinitionIndex = 78800;
+
 	class KGNMHBFIJEI : public ::System::Object
 	{
 	public:

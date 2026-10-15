@@ -31,6 +31,8 @@ namespace System { class String; }
 #define JIDMMPAOELM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E749570)
 #define JIDMMPAOELM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7495D0)
 
+inline static constexpr unsigned int JIDMMPAOELM_TypeDefinitionIndex = 34217;
+
 	class JIDMMPAOELM : public ::System::Object
 	{
 	public:

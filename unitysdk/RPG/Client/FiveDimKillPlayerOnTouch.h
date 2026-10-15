@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FiveDimKillPlayerOnTouch_TypeDefinitionIndex = 60397;
+
 	class FiveDimKillPlayerOnTouch : public ::UnityEngine::MonoBehaviour
 	{
 	public:

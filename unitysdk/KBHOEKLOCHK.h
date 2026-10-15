@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KBHOEKLOCHK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D0609B0)
 #define KBHOEKLOCHK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D060310)
 
+inline static constexpr unsigned int KBHOEKLOCHK_TypeDefinitionIndex = 12863;
+
 	class KBHOEKLOCHK : public ::System::Object
 	{
 	public:

@@ -49,6 +49,8 @@ namespace System::Globalization { class SortVersion; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int CompareInfo_TypeDefinitionIndex = 737;
+
 	class CompareInfo : public ::System::Object
 	{
 	public:

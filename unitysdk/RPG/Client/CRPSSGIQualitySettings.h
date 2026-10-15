@@ -8,6 +8,8 @@ namespace RPG::CustomRP { class CRPGraphicsSettingsData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CRPSSGIQualitySettings_TypeDefinitionIndex = 67934;
+
 	class CRPSSGIQualitySettings : public ::System::Object
 	{
 	public:

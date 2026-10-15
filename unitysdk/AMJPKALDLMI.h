@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AMJPKALDLMI_GOBLKKJBMHK_OFFSET UNITYSDK_OFFSET(0x15583CB0)
 #define AMJPKALDLMI_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0x15583C10)
 
+inline static constexpr unsigned int AMJPKALDLMI_TypeDefinitionIndex = 53729;
+
 	class AMJPKALDLMI : public ::KIFCLJJAOFJ
 	{
 	public:

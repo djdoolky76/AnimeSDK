@@ -33,6 +33,8 @@ namespace System { class String; }
 #define HLECBNECIJA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5BC3E0)
 #define HLECBNECIJA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5BC440)
 
+inline static constexpr unsigned int HLECBNECIJA_TypeDefinitionIndex = 28426;
+
 	class HLECBNECIJA : public ::System::Object
 	{
 	public:

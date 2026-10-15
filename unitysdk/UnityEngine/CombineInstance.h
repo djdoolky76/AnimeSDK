@@ -11,6 +11,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int CombineInstance_TypeDefinitionIndex = 4194;
+
 	struct alignas(4) CombineInstance
 	{
 		::System::Int32 m_MeshInstanceID; // 0x10

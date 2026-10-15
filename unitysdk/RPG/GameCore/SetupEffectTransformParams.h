@@ -14,6 +14,8 @@ namespace RPG::GameCore { class SetupEffectTransformParams; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetupEffectTransformParams_TypeDefinitionIndex = 22238;
+
 	class SetupEffectTransformParams : public ::RPG::GameCore::TaskConfig
 	{
 	public:

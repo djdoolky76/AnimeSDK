@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CrowdUnit_TypeDefinitionIndex = 70478;
+
 	class CrowdUnit : public ::System::Object
 	{
 	public:

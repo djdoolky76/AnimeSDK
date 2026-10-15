@@ -6,6 +6,8 @@
 #define AILLIHEBFID___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEBB2200)
 #define AILLIHEBFID___C__DISPLAYCLASS20_0___ONSELFMARBLESELECTEDREQUESTED_B__0_OFFSET UNITYSDK_OFFSET(0xEBB2F90)
 
+inline static constexpr unsigned int AILLIHEBFID___c__DisplayClass20_0_TypeDefinitionIndex = 74727;
+
 	class AILLIHEBFID___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

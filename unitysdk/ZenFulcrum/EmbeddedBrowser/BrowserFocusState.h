@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserFocusState_TypeDefinitionIndex = 39570;
+
 	class BrowserFocusState : public ::System::Object
 	{
 	public:

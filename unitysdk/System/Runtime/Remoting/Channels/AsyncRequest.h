@@ -8,6 +8,8 @@ namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
 namespace System::Runtime::Remoting::Channels
 {
+	inline static constexpr unsigned int AsyncRequest_TypeDefinitionIndex = 1268;
+
 	class AsyncRequest : public ::System::Object
 	{
 	public:

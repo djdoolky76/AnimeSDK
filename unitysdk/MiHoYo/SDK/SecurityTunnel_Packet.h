@@ -20,6 +20,8 @@ namespace System::IO { class MemoryStream; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_Packet_TypeDefinitionIndex = 46385;
+
 	class SecurityTunnel_Packet : public ::System::Object
 	{
 	public:

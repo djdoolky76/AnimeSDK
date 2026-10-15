@@ -20,6 +20,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int EnviroSceneClip_TypeDefinitionIndex = 49577;
+
 	class EnviroSceneClip : public ::EnviromentSystem::EnviromentClip
 	{
 	public:

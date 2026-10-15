@@ -42,6 +42,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define NNOFIHMOPLG__ONBIND_OFFSET UNITYSDK_OFFSET(0xBCD7950)
 #define NNOFIHMOPLG__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xBCD8280)
 
+inline static constexpr unsigned int NNOFIHMOPLG_TypeDefinitionIndex = 71986;
+
 	class NNOFIHMOPLG : public ::FMPCODLIOLG
 	{
 	public:

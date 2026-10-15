@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PlayPenaconyChroniclePerformance; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayPenaconyChroniclePerformance_TypeDefinitionIndex = 21830;
+
 	class PlayPenaconyChroniclePerformance : public ::RPG::GameCore::TaskConfig
 	{
 	public:

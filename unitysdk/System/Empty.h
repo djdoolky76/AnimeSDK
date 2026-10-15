@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int Empty_TypeDefinitionIndex = 235;
+
 	class Empty : public ::System::Object
 	{
 	public:

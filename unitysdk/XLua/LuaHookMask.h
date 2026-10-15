@@ -6,6 +6,8 @@
 
 namespace XLua
 {
+	inline static constexpr unsigned int LuaHookMask_TypeDefinitionIndex = 50249;
+
 	class LuaHookMask : public ::System::Object
 	{
 	public:

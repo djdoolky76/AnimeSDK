@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 #define HBBPPNAAMGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15BE61E0)
 #define HBBPPNAAMGJ_ELINOHABNCJ_OFFSET UNITYSDK_OFFSET(0x15BE61F0)
 
+inline static constexpr unsigned int HBBPPNAAMGJ_TypeDefinitionIndex = 69000;
+
 	class HBBPPNAAMGJ : public ::AAHOFEAIMFO
 	{
 	public:

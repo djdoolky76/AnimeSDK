@@ -40,6 +40,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int BaseSpEquipInventoryDisplayData_TypeDefinitionIndex = 75434;
+
 	class BaseSpEquipInventoryDisplayData : public ::System::Object
 	{
 	public:

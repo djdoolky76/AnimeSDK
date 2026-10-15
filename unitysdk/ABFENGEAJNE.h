@@ -23,6 +23,8 @@ namespace UnityEngine { class Coroutine; }
 #define ABFENGEAJNE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB0F22D0)
 #define ABFENGEAJNE_LPMGMBACEIL_OFFSET UNITYSDK_OFFSET(0xB0F2340)
 
+inline static constexpr unsigned int ABFENGEAJNE_TypeDefinitionIndex = 60547;
+
 	class ABFENGEAJNE : public ::System::Object
 	{
 	public:

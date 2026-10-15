@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingConditionDescRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingConditionDescRow_TypeDefinitionIndex = 11032;
+
 	class ChenLingConditionDescRow : public ::System::Object
 	{
 	public:

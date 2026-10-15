@@ -16,6 +16,8 @@ namespace RPG::GameCore { class LevelMainMonsterChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelMainMonsterChange_TypeDefinitionIndex = 56837;
+
 	class LevelMainMonsterChange : public ::CMPGEAFHHDC
 	{
 	public:

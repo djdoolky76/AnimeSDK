@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define ADOJBOKNGMB_CTOR_OFFSET UNITYSDK_OFFSET(0xF890)
 
+inline static constexpr unsigned int ADOJBOKNGMB_TypeDefinitionIndex = 69264;
+
 	struct alignas(8) ADOJBOKNGMB
 	{
 		::System::String* BDACPPLKLGL; // 0x10

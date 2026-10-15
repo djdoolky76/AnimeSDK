@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TutorialRemoveHideNodes; }
 #define CEJLIEFLBGO_CTOR_OFFSET UNITYSDK_OFFSET(0xC9E2190)
 #define CEJLIEFLBGO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC9E21C0)
 
+inline static constexpr unsigned int CEJLIEFLBGO_TypeDefinitionIndex = 58827;
+
 	class CEJLIEFLBGO
 	{
 	public:

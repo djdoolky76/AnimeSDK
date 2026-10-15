@@ -8,6 +8,8 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftTalentTreeEntranceV
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftTalentTreeEntranceControl___c__DisplayClass8_0_TypeDefinitionIndex = 80009;
+
 	class MechCraftTalentTreeEntranceControl___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AetherDivideChallengeRankRow_TypeDefinitionIndex = 10916;
+
 	class AetherDivideChallengeRankRow : public ::System::Object
 	{
 	public:

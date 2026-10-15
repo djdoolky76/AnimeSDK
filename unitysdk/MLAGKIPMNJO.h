@@ -6,6 +6,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 #define MLAGKIPMNJO_CTOR_OFFSET UNITYSDK_OFFSET(0xB9A4D30)
 
+inline static constexpr unsigned int MLAGKIPMNJO_TypeDefinitionIndex = 54961;
+
 	class MLAGKIPMNJO : public ::System::Object
 	{
 	public:

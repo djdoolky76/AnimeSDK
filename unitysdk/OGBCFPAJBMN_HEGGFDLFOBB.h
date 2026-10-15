@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define OGBCFPAJBMN_HEGGFDLFOBB_CTOR_OFFSET UNITYSDK_OFFSET(0xBE4F570)
 
+inline static constexpr unsigned int OGBCFPAJBMN_HEGGFDLFOBB_TypeDefinitionIndex = 62162;
+
 	class OGBCFPAJBMN_HEGGFDLFOBB : public ::System::Object
 	{
 	public:

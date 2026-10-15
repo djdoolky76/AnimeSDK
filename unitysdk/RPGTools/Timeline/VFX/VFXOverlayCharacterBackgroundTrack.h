@@ -15,6 +15,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int VFXOverlayCharacterBackgroundTrack_TypeDefinitionIndex = 48674;
+
 	class VFXOverlayCharacterBackgroundTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

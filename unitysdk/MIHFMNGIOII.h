@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class Image; }
 #define MIHFMNGIOII__ONBIND_OFFSET UNITYSDK_OFFSET(0xB959330)
 #define MIHFMNGIOII__SETUPVIEW_B__4_0_OFFSET UNITYSDK_OFFSET(0xB959890)
 
+inline static constexpr unsigned int MIHFMNGIOII_TypeDefinitionIndex = 71362;
+
 	class MIHFMNGIOII : public ::FMPCODLIOLG
 	{
 	public:

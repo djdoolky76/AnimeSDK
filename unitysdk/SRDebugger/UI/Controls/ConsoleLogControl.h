@@ -40,6 +40,8 @@ namespace UnityEngine::UI { class ScrollRect; }
 
 namespace SRDebugger::UI::Controls
 {
+	inline static constexpr unsigned int ConsoleLogControl_TypeDefinitionIndex = 38021;
+
 	class ConsoleLogControl : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

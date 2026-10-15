@@ -30,6 +30,8 @@ namespace System { class String; }
 #define CCOCKCOOOKO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E07D680)
 #define CCOCKCOOOKO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E07D6E0)
 
+inline static constexpr unsigned int CCOCKCOOOKO_TypeDefinitionIndex = 33992;
+
 	class CCOCKCOOOKO : public ::System::Object
 	{
 	public:

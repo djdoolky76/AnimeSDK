@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DirectDeliveryNoticeRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DirectDeliveryNoticeModule___c__DisplayClass22_0_TypeDefinitionIndex = 63576;
+
 	class DirectDeliveryNoticeModule___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:

@@ -46,6 +46,8 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelDelegate_RegisterMicroTxnCallba
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int DelegateRegister___O_TypeDefinitionIndex = 46274;
+
 	class DelegateRegister___O : public ::System::Object
 	{
 	public:

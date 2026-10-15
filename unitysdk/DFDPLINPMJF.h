@@ -33,6 +33,8 @@ namespace System { class String; }
 #define DFDPLINPMJF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E19DFE0)
 #define DFDPLINPMJF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E19E040)
 
+inline static constexpr unsigned int DFDPLINPMJF_TypeDefinitionIndex = 25572;
+
 	class DFDPLINPMJF : public ::System::Object
 	{
 	public:

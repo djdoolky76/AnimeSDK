@@ -25,6 +25,8 @@ namespace System { class String; }
 #define LJEOPDIBMCL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E97AD70)
 #define LJEOPDIBMCL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E97ADD0)
 
+inline static constexpr unsigned int LJEOPDIBMCL_TypeDefinitionIndex = 34283;
+
 	class LJEOPDIBMCL : public ::System::Object
 	{
 	public:

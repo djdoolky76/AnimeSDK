@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ILBattleMonsterRank_TypeDefinitionIndex = 13792;
+
 	enum class ILBattleMonsterRank : ::System::Int32
 	{
 		Unknow = 0,

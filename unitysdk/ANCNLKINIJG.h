@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define ANCNLKINIJG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x155926A0)
 #define ANCNLKINIJG_OMJDPKMFKOA_OFFSET UNITYSDK_OFFSET(0x15592AC0)
 
+inline static constexpr unsigned int ANCNLKINIJG_TypeDefinitionIndex = 57984;
+
 	class ANCNLKINIJG
 	{
 	public:

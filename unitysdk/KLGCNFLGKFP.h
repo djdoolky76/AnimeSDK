@@ -32,6 +32,8 @@ namespace UnityEngine { class GameObject; }
 #define KLGCNFLGKFP_MPDJNGIEDPK_OFFSET UNITYSDK_OFFSET(0xB527EA0)
 #define KLGCNFLGKFP_NHIKLGJEKPK_OFFSET UNITYSDK_OFFSET(0xB526E90)
 
+inline static constexpr unsigned int KLGCNFLGKFP_TypeDefinitionIndex = 59751;
+
 	class KLGCNFLGKFP : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int MiHoYoSDKUIBridgeNotifyMessageModel_TypeDefinitionIndex = 46786;
+
 	class MiHoYoSDKUIBridgeNotifyMessageModel : public ::System::Object
 	{
 	public:

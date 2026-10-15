@@ -65,6 +65,8 @@ namespace UnityEngine { class Transform; }
 #define HBFIBDGJLHE_SET_ROOT_OFFSET UNITYSDK_OFFSET(0x15BF2550)
 #define HBFIBDGJLHE_SET_WORLDUPAXIS_OFFSET UNITYSDK_OFFSET(0x15BF2530)
 
+inline static constexpr unsigned int HBFIBDGJLHE_TypeDefinitionIndex = 82170;
+
 	class HBFIBDGJLHE : public ::System::Object
 	{
 	public:

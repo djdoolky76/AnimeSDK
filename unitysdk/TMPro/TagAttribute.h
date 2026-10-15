@@ -3,6 +3,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TagAttribute_TypeDefinitionIndex = 44689;
+
 	struct alignas(4) TagAttribute
 	{
 		::System::Int32 startIndex; // 0x10

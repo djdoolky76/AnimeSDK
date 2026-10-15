@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define CHALEFNMKHD_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xCC90600)
 #define CHALEFNMKHD_INVOKE_OFFSET UNITYSDK_OFFSET(0xCC905C0)
 
+inline static constexpr unsigned int CHALEFNMKHD_TypeDefinitionIndex = 57416;
+
 	class CHALEFNMKHD : public ::System::MulticastDelegate
 	{
 	public:

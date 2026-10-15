@@ -7,6 +7,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterStoryMoveData_BezierPathPoint_TypeDefinitionIndex = 48005;
+
 	class CharacterStoryMoveData_BezierPathPoint : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 #define JAENDDMAHNP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF33DD0)
 #define JAENDDMAHNP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF33C10)
 
+inline static constexpr unsigned int JAENDDMAHNP_TypeDefinitionIndex = 14399;
+
 	class JAENDDMAHNP : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ class JBNOMIECJDO;
 #define MFFEPDFGNNN_JHBCCLOFBEN_OFFSET UNITYSDK_OFFSET(0xB8F1660)
 #define MFFEPDFGNNN_LJNFLLLICCN_OFFSET UNITYSDK_OFFSET(0xB8F1700)
 
+inline static constexpr unsigned int MFFEPDFGNNN_TypeDefinitionIndex = 81206;
+
 	class MFFEPDFGNNN : public ::System::Object
 	{
 	public:

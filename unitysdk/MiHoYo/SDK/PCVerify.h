@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PCVerify_TypeDefinitionIndex = 46257;
+
 	class PCVerify : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueAdventureTurntableConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueAdventureTurntableConfig_TypeDefinitionIndex = 17894;
+
 	class RogueAdventureTurntableConfig : public ::RPG::GameCore::RogueAdventureConfigBase
 	{
 	public:

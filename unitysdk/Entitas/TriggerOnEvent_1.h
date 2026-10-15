@@ -5,6 +5,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 
 namespace Entitas
 {
+	inline static constexpr unsigned int TriggerOnEvent_1_TypeDefinitionIndex = 9984;
+
 	template <typename T>
 	struct alignas(8) TriggerOnEvent_1
 	{

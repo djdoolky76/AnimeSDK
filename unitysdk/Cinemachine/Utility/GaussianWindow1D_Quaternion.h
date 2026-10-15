@@ -7,6 +7,8 @@
 
 namespace Cinemachine::Utility
 {
+	inline static constexpr unsigned int GaussianWindow1D_Quaternion_TypeDefinitionIndex = 39890;
+
 	class GaussianWindow1D_Quaternion
 	{
 	public:

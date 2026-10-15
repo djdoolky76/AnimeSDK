@@ -15,6 +15,8 @@ namespace System { class String; }
 #define FGAGLALEPJG_PCAEONDNMHB_OFFSET UNITYSDK_OFFSET(0x1EC080A0)
 #define FGAGLALEPJG_POJJFMOKLJN_OFFSET UNITYSDK_OFFSET(0x1EC07F00)
 
+inline static constexpr unsigned int FGAGLALEPJG_TypeDefinitionIndex = 35266;
+
 	class FGAGLALEPJG : public ::System::Object
 	{
 	public:

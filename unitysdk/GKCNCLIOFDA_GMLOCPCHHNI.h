@@ -15,6 +15,8 @@ namespace System { class String; }
 #define GKCNCLIOFDA_GMLOCPCHHNI_GET_SELECTIONKEY_OFFSET UNITYSDK_OFFSET(0x15A90670)
 #define GKCNCLIOFDA_GMLOCPCHHNI_GET_STARTPATTERNS_OFFSET UNITYSDK_OFFSET(0x15A90680)
 
+inline static constexpr unsigned int GKCNCLIOFDA_GMLOCPCHHNI_TypeDefinitionIndex = 53530;
+
 	class GKCNCLIOFDA_GMLOCPCHHNI : public ::System::Object
 	{
 	public:

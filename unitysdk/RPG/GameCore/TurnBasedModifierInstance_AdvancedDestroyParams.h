@@ -6,6 +6,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TurnBasedModifierInstance_AdvancedDestroyParams_TypeDefinitionIndex = 54845;
+
 	struct alignas(8) TurnBasedModifierInstance_AdvancedDestroyParams
 	{
 		::System::Boolean MuteDispelCallback; // 0x10

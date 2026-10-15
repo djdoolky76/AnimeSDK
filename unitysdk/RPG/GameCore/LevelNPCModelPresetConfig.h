@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelNPCModelPresetConfig_TypeDefinitionIndex = 17275;
+
 	class LevelNPCModelPresetConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

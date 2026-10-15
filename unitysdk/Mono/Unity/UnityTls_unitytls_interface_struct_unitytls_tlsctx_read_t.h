@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace Mono::Unity
 {
+	inline static constexpr unsigned int UnityTls_unitytls_interface_struct_unitytls_tlsctx_read_t_TypeDefinitionIndex = 2396;
+
 	class UnityTls_unitytls_interface_struct_unitytls_tlsctx_read_t : public ::System::MulticastDelegate
 	{
 	public:

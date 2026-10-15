@@ -8,6 +8,8 @@ namespace RPG::GameCore { class SwordTrainingEffectRow; }
 #define JOGBPGMLEGO_CTOR_OFFSET UNITYSDK_OFFSET(0xB2A05E0)
 #define JOGBPGMLEGO_FMPJJHKCNGG_OFFSET UNITYSDK_OFFSET(0xB2A0620)
 
+inline static constexpr unsigned int JOGBPGMLEGO_TypeDefinitionIndex = 75029;
+
 	class JOGBPGMLEGO : public ::System::Object
 	{
 	public:

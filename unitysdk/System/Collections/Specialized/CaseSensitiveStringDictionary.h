@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Collections::Specialized
 {
+	inline static constexpr unsigned int CaseSensitiveStringDictionary_TypeDefinitionIndex = 2986;
+
 	class CaseSensitiveStringDictionary : public ::System::Collections::Specialized::StringDictionary
 	{
 	public:

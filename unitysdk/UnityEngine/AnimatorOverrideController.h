@@ -27,6 +27,8 @@ namespace UnityEngine { class RuntimeAnimatorController; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AnimatorOverrideController_TypeDefinitionIndex = 5715;
+
 	class AnimatorOverrideController : public ::UnityEngine::RuntimeAnimatorController
 	{
 	public:

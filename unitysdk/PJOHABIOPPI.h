@@ -38,6 +38,8 @@ namespace System { class String; }
 #define PJOHABIOPPI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF823F0)
 #define PJOHABIOPPI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF82450)
 
+inline static constexpr unsigned int PJOHABIOPPI_TypeDefinitionIndex = 29831;
+
 	class PJOHABIOPPI : public ::System::Object
 	{
 	public:

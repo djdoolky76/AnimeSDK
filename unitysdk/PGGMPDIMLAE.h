@@ -28,6 +28,8 @@ namespace System { class String; }
 #define PGGMPDIMLAE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF2FDC0)
 #define PGGMPDIMLAE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF2FE20)
 
+inline static constexpr unsigned int PGGMPDIMLAE_TypeDefinitionIndex = 33543;
+
 	class PGGMPDIMLAE : public ::System::Object
 	{
 	public:

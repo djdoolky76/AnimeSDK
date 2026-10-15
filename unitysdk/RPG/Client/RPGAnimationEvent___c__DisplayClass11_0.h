@@ -9,6 +9,8 @@ namespace RPG::Client { class RPGAnimationEvent_AnimationEventCallBack; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGAnimationEvent___c__DisplayClass11_0_TypeDefinitionIndex = 72860;
+
 	class RPGAnimationEvent___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

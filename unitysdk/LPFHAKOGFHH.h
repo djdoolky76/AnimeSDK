@@ -31,6 +31,8 @@ namespace System { class String; }
 #define LPFHAKOGFHH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9CAEC0)
 #define LPFHAKOGFHH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9CAF20)
 
+inline static constexpr unsigned int LPFHAKOGFHH_TypeDefinitionIndex = 33824;
+
 	class LPFHAKOGFHH : public ::System::Object
 	{
 	public:

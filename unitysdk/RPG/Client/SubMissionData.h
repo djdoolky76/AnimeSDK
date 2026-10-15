@@ -76,6 +76,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SubMissionData_TypeDefinitionIndex = 66204;
+
 	class SubMissionData : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ class NJKFOJJDGGG;
 #define KOECBKCCIJF_CTOR_OFFSET UNITYSDK_OFFSET(0xB592E10)
 #define KOECBKCCIJF_PMPODEGJNNA_OFFSET UNITYSDK_OFFSET(0xB592E20)
 
+inline static constexpr unsigned int KOECBKCCIJF_TypeDefinitionIndex = 65009;
+
 	class KOECBKCCIJF : public ::RPG::Client::GridFightGameModifier
 	{
 	public:

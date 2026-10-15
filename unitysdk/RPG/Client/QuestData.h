@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int QuestData_TypeDefinitionIndex = 66762;
+
 	class QuestData : public ::System::Object
 	{
 	public:

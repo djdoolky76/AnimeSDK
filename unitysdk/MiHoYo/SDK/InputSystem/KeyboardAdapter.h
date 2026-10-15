@@ -15,6 +15,8 @@ namespace MiHoYo::SDK::InputSystem { class KeyboardAdapter; }
 
 namespace MiHoYo::SDK::InputSystem
 {
+	inline static constexpr unsigned int KeyboardAdapter_TypeDefinitionIndex = 10096;
+
 	class KeyboardAdapter : public ::System::Object
 	{
 	public:

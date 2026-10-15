@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CakeRaceBasePredicateConfig; }
 #define BKLADGIBPIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5BFD10)
 #define BKLADGIBPIN_ISMATCHIMPL_OFFSET UNITYSDK_OFFSET(0x1C5BFD30)
 
+inline static constexpr unsigned int BKLADGIBPIN_TypeDefinitionIndex = 37410;
+
 	class BKLADGIBPIN
 	{
 	public:

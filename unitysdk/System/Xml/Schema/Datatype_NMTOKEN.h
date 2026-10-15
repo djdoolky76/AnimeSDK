@@ -10,6 +10,8 @@
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_NMTOKEN_TypeDefinitionIndex = 2126;
+
 	class Datatype_NMTOKEN : public ::System::Xml::Schema::Datatype_token
 	{
 	public:

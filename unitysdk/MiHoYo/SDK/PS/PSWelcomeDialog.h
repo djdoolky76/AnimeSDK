@@ -22,6 +22,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::PS
 {
+	inline static constexpr unsigned int PSWelcomeDialog_TypeDefinitionIndex = 8943;
+
 	class PSWelcomeDialog : public ::MiHoYo::SDK::PS::PSDialogBase
 	{
 	public:

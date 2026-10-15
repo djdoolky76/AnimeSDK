@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ECGPDFFMFBN_LAKHOMDOENC_OFFSET UNITYSDK_OFFSET(0x12D0C860)
 #define ECGPDFFMFBN_ONBJAKCADJN_OFFSET UNITYSDK_OFFSET(0x12D0CE20)
 
+inline static constexpr unsigned int ECGPDFFMFBN_TypeDefinitionIndex = 77895;
+
 	class ECGPDFFMFBN : public ::JNALBIEDNLH
 	{
 	public:

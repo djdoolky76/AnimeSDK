@@ -18,6 +18,8 @@ namespace System { class String; }
 #define JKDPNADLFEB_NOMFMJDEIAN_OFFSET UNITYSDK_OFFSET(0xB2181C0)
 #define JKDPNADLFEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB216F00)
 
+inline static constexpr unsigned int JKDPNADLFEB_TypeDefinitionIndex = 58061;
+
 	class JKDPNADLFEB
 	{
 	public:

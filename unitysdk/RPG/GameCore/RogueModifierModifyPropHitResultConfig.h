@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyPropHitResultConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyPropHitResultConfig_TypeDefinitionIndex = 17966;
+
 	class RogueModifierModifyPropHitResultConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

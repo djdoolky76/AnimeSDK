@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GridFightRandomBonusPoolConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightRandomBonusPoolConfigRow_TypeDefinitionIndex = 13416;
+
 	class GridFightRandomBonusPoolConfigRow : public ::System::Object
 	{
 	public:

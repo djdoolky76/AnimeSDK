@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 #define KDOLHBPALAA_OKNIDHAPGLH_OFFSET UNITYSDK_OFFSET(0xB36BE30)
 #define KDOLHBPALAA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB36BB50)
 
+inline static constexpr unsigned int KDOLHBPALAA_TypeDefinitionIndex = 57999;
+
 	class KDOLHBPALAA
 	{
 	public:

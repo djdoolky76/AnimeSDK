@@ -10,6 +10,8 @@ namespace RPG::Client::NavMap { class ICartographer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FindChestModule___c__DisplayClass4_0_TypeDefinitionIndex = 64202;
+
 	class FindChestModule___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

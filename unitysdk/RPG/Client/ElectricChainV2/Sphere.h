@@ -10,6 +10,8 @@ namespace RPG::Client::ElectricChainV2 { class Sampler; }
 
 namespace RPG::Client::ElectricChainV2
 {
+	inline static constexpr unsigned int Sphere_TypeDefinitionIndex = 73598;
+
 	class Sphere : public ::RPG::Client::ElectricChainV2::Shape
 	{
 	public:

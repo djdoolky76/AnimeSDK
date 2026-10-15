@@ -7,6 +7,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int PuzzleTutorialEventParam_TypeDefinitionIndex = 78785;
+
 	class PuzzleTutorialEventParam : public ::System::Object
 	{
 	public:

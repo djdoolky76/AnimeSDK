@@ -11,6 +11,8 @@ namespace RPG::Client::LittleGameShare { class ST_Main_CakeRaceUseRocketItemDeci
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int ST_Main_CakeRaceUseRocketItemDecision_TypeDefinitionIndex = 10345;
+
 	class ST_Main_CakeRaceUseRocketItemDecision : public ::RPG::Client::LittleGameShare::LittleGameSTTaskConfig
 	{
 	public:

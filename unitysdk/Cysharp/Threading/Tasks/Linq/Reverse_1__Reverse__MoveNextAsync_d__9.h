@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Reverse_1__Reverse__MoveNextAsync_d__9_TypeDefinitionIndex = 45550;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9>
 	struct alignas(8) Reverse_1__Reverse__MoveNextAsync_d__9
 	{

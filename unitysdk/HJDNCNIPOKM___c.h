@@ -16,6 +16,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define HJDNCNIPOKM___C___COMPUTESTYLEWEIGHTS_B__48_0_OFFSET UNITYSDK_OFFSET(0x15D13EE0)
 #define HJDNCNIPOKM___C___COMPUTESTYLEWEIGHTS_B__48_1_OFFSET UNITYSDK_OFFSET(0x15D13F00)
 
+inline static constexpr unsigned int HJDNCNIPOKM___c_TypeDefinitionIndex = 76559;
+
 	class HJDNCNIPOKM___c : public ::System::Object
 	{
 	public:

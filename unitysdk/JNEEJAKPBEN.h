@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define JNEEJAKPBEN__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xB27C180)
 #define JNEEJAKPBEN__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xB27C240)
 
+inline static constexpr unsigned int JNEEJAKPBEN_TypeDefinitionIndex = 53491;
+
 	class JNEEJAKPBEN
 	{
 	public:

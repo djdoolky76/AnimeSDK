@@ -35,6 +35,8 @@ namespace System { class String; }
 #define LNDNIBFBGAC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9B2DF0)
 #define LNDNIBFBGAC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9B2E50)
 
+inline static constexpr unsigned int LNDNIBFBGAC_TypeDefinitionIndex = 28704;
+
 	class LNDNIBFBGAC : public ::System::Object
 	{
 	public:

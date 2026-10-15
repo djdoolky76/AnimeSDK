@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueDoorSetGotoInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDoorSetGotoInfo_TypeDefinitionIndex = 22268;
+
 	class RogueDoorSetGotoInfo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

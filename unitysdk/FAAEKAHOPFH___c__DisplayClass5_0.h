@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FAAEKAHOPFH___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1565BD60)
 #define FAAEKAHOPFH___C__DISPLAYCLASS5_0___FIREMISSLE_B__0_OFFSET UNITYSDK_OFFSET(0x1565C5A0)
 
+inline static constexpr unsigned int FAAEKAHOPFH___c__DisplayClass5_0_TypeDefinitionIndex = 58192;
+
 	class FAAEKAHOPFH___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

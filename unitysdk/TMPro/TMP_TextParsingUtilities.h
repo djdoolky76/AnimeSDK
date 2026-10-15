@@ -19,6 +19,8 @@ namespace TMPro { class TMP_TextParsingUtilities; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_TextParsingUtilities_TypeDefinitionIndex = 44666;
+
 	class TMP_TextParsingUtilities : public ::System::Object
 	{
 	public:

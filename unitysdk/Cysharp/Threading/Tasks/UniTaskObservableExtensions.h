@@ -12,6 +12,8 @@ namespace System { template <typename T> class IObservable_1; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTaskObservableExtensions_TypeDefinitionIndex = 38438;
+
 	class UniTaskObservableExtensions : public ::System::Object
 	{
 	public:

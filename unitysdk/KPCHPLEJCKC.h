@@ -33,6 +33,8 @@ namespace System { class String; }
 #define KPCHPLEJCKC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8B8A90)
 #define KPCHPLEJCKC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8B8AF0)
 
+inline static constexpr unsigned int KPCHPLEJCKC_TypeDefinitionIndex = 30618;
+
 	class KPCHPLEJCKC : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleAssetPreload_RecorderState_TypeDefinitionIndex = 59660;
+
 	enum class BattleAssetPreload_RecorderState : ::System::Int32
 	{
 		None = 0,

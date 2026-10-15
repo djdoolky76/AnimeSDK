@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define LAELGPHMBOO_CHAKABNICEL_OFFSET UNITYSDK_OFFSET(0xB5DC360)
 #define LAELGPHMBOO_CTOR_OFFSET UNITYSDK_OFFSET(0xB5DC420)
 
+inline static constexpr unsigned int LAELGPHMBOO_TypeDefinitionIndex = 77515;
+
 	class LAELGPHMBOO : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::GameCore { class CakeRaceActionGeneratePickupItem; }
 #define KIOKHKLAAJD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C711570)
 #define KIOKHKLAAJD_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C711580)
 
+inline static constexpr unsigned int KIOKHKLAAJD_TypeDefinitionIndex = 37386;
+
 	class KIOKHKLAAJD : public ::GPLOFONGBGI
 	{
 	public:

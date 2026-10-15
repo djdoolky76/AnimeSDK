@@ -8,6 +8,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Cloth_TypeDefinitionIndex = 5774;
+
 	class Cloth : public ::UnityEngine::Component
 	{
 	public:

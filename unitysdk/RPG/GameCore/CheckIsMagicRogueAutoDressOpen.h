@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CheckIsMagicRogueAutoDressOpen_TypeDefinitionIndex = 24291;
+
 	class CheckIsMagicRogueAutoDressOpen : public ::RPG::GameCore::TaskConfig
 	{
 	public:

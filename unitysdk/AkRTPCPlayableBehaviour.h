@@ -18,6 +18,8 @@ namespace UnityEngine { class GameObject; }
 #define AKRTPCPLAYABLEBEHAVIOUR_SET_RTPCOBJECT_OFFSET UNITYSDK_OFFSET(0x1F5B4130)
 #define AKRTPCPLAYABLEBEHAVIOUR_SET_SETRTPCGLOBALLY_OFFSET UNITYSDK_OFFSET(0x1F5B40F0)
 
+inline static constexpr unsigned int AkRTPCPlayableBehaviour_TypeDefinitionIndex = 44941;
+
 	class AkRTPCPlayableBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

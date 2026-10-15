@@ -35,6 +35,8 @@ namespace System::Globalization { class GregorianCalendarHelper; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int JapaneseCalendar_TypeDefinitionIndex = 759;
+
 	class JapaneseCalendar : public ::System::Globalization::Calendar
 	{
 	public:

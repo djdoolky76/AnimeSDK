@@ -20,6 +20,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LuaUI3DController_TypeDefinitionIndex = 59425;
+
 	class LuaUI3DController : public ::RPG::Client::UI3DControllerBase
 	{
 	public:

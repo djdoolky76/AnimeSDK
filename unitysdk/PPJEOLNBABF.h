@@ -11,6 +11,8 @@ namespace UnityEngine { class Material; }
 #define PPJEOLNBABF_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xC38C040)
 #define PPJEOLNBABF_SET_FINISH_OFFSET UNITYSDK_OFFSET(0xC38C280)
 
+inline static constexpr unsigned int PPJEOLNBABF_TypeDefinitionIndex = 78528;
+
 	class PPJEOLNBABF : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ALEEDHCDIAL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3D9000)
 #define ALEEDHCDIAL___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E3D9010)
 
+inline static constexpr unsigned int ALEEDHCDIAL___c_TypeDefinitionIndex = 28022;
+
 	class ALEEDHCDIAL___c : public ::System::Object
 	{
 	public:

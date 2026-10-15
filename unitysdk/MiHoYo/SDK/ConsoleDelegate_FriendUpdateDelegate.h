@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_FriendUpdateDelegate_TypeDefinitionIndex = 7624;
+
 	class ConsoleDelegate_FriendUpdateDelegate : public ::System::MulticastDelegate
 	{
 	public:

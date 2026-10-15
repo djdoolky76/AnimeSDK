@@ -26,6 +26,8 @@ namespace UnityEngine::U2D { class SpriteAtlas; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SpineSpriteAtlasAsset_TypeDefinitionIndex = 45011;
+
 	class SpineSpriteAtlasAsset : public ::Spine::Unity::AtlasAssetBase
 	{
 	public:

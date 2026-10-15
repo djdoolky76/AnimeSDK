@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DGLBOFKGGLL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1B0C20)
 #define DGLBOFKGGLL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1B0C80)
 
+inline static constexpr unsigned int DGLBOFKGGLL_TypeDefinitionIndex = 31276;
+
 	class DGLBOFKGGLL : public ::System::Object
 	{
 	public:

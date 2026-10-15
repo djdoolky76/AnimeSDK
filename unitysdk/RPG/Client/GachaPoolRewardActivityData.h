@@ -20,6 +20,8 @@ namespace RPG::Client { class QuestData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GachaPoolRewardActivityData_TypeDefinitionIndex = 61628;
+
 	class GachaPoolRewardActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

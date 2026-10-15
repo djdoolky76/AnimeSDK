@@ -22,6 +22,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CJDNIAGGIDL_OHPMNIHBCMB_OFFSET UNITYSDK_OFFSET(0xCF962F0)
 #define CJDNIAGGIDL_OMFDLOCEADN_OFFSET UNITYSDK_OFFSET(0xCF95B90)
 
+inline static constexpr unsigned int CJDNIAGGIDL_TypeDefinitionIndex = 52413;
+
 	class CJDNIAGGIDL : public ::FBGNNLOGCLG
 	{
 	public:

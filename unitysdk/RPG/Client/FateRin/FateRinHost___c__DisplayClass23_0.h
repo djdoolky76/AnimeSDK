@@ -7,6 +7,8 @@
 
 namespace RPG::Client::FateRin
 {
+	inline static constexpr unsigned int FateRinHost___c__DisplayClass23_0_TypeDefinitionIndex = 80528;
+
 	class FateRinHost___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define EBMFAGKJIIM_CTOR_OFFSET UNITYSDK_OFFSET(0x12D030A0)
 
+inline static constexpr unsigned int EBMFAGKJIIM_TypeDefinitionIndex = 64833;
+
 	class EBMFAGKJIIM : public ::System::Object
 	{
 	public:

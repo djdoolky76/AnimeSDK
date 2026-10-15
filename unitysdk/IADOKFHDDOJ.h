@@ -14,6 +14,8 @@ namespace R3 { template <typename T> class ReactiveProperty_1; }
 #define IADOKFHDDOJ_MLKBLGCOLCA_OFFSET UNITYSDK_OFFSET(0x15E01D30)
 #define IADOKFHDDOJ_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x15E01E60)
 
+inline static constexpr unsigned int IADOKFHDDOJ_TypeDefinitionIndex = 49717;
+
 	class IADOKFHDDOJ : public ::System::Object
 	{
 	public:

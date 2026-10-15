@@ -12,6 +12,8 @@
 #define MIDOCOLHFPC_LNHAMPDKLLD_OFFSET UNITYSDK_OFFSET(0xB951D30)
 #define MIDOCOLHFPC_PFFHBMPFMFJ_OFFSET UNITYSDK_OFFSET(0xB951FB0)
 
+inline static constexpr unsigned int MIDOCOLHFPC_TypeDefinitionIndex = 59063;
+
 	class MIDOCOLHFPC : public ::System::Object
 	{
 	public:

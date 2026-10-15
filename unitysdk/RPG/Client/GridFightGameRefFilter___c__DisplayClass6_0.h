@@ -15,6 +15,8 @@ namespace RPG::Client { class GridFightRole; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameRefFilter___c__DisplayClass6_0_TypeDefinitionIndex = 64764;
+
 	class GridFightGameRefFilter___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System::Text { class StringBuilder; }
 #define DCMKIHKMBCF_SET_ID_OFFSET UNITYSDK_OFFSET(0xAF40)
 #define DCMKIHKMBCF_TOSTRING_OFFSET UNITYSDK_OFFSET(0xF2B60)
 
+inline static constexpr unsigned int DCMKIHKMBCF_TypeDefinitionIndex = 51959;
+
 	struct alignas(4) DCMKIHKMBCF
 	{
 		::System::UInt32 _ID_k__BackingField; // 0x10

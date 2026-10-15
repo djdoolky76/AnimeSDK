@@ -5,6 +5,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_PreAssetEvent_TypeDefinitionIndex = 40364;
+
 	class HEU_PreAssetEvent
 	{
 	public:

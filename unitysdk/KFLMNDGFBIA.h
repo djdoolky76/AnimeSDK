@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KFLMNDGFBIA_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1EC31300)
 #define KFLMNDGFBIA_PAPABNOPCFC_OFFSET UNITYSDK_OFFSET(0x1EC318A0)
 
+inline static constexpr unsigned int KFLMNDGFBIA_TypeDefinitionIndex = 35268;
+
 	class KFLMNDGFBIA : public ::System::Object
 	{
 	public:

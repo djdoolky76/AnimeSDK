@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PerformanceStandalonePlayOverrideConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceStandalonePlayOverrideConfig_TypeDefinitionIndex = 19033;
+
 	class PerformanceStandalonePlayOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

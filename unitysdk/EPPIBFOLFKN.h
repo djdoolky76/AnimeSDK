@@ -42,6 +42,8 @@ namespace System { class String; }
 #define EPPIBFOLFKN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E31A440)
 #define EPPIBFOLFKN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E31A4A0)
 
+inline static constexpr unsigned int EPPIBFOLFKN_TypeDefinitionIndex = 31970;
+
 	class EPPIBFOLFKN : public ::System::Object
 	{
 	public:

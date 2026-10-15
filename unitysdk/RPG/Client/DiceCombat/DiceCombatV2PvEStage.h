@@ -32,6 +32,8 @@ namespace System { class String; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2PvEStage_TypeDefinitionIndex = 76174;
+
 	class DiceCombatV2PvEStage : public ::RPG::Client::DiceCombat::DiceCombatV2Stage
 	{
 	public:

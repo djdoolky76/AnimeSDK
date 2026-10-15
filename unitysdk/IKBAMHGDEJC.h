@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 #define IKBAMHGDEJC_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0x16481D40)
 #define IKBAMHGDEJC_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0x16481DD0)
 
+inline static constexpr unsigned int IKBAMHGDEJC_TypeDefinitionIndex = 72065;
+
 	class IKBAMHGDEJC : public ::System::Object
 	{
 	public:

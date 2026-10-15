@@ -26,6 +26,8 @@ namespace UnityEngine { class Coroutine; }
 #define ALFMMJHGBPP_SET_ISFARMELEMENTACTIVE_OFFSET UNITYSDK_OFFSET(0x15566FA0)
 #define ALFMMJHGBPP___DOACTIVE_B__7_0_OFFSET UNITYSDK_OFFSET(0x15566FF0)
 
+inline static constexpr unsigned int ALFMMJHGBPP_TypeDefinitionIndex = 57128;
+
 	class ALFMMJHGBPP : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

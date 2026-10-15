@@ -21,6 +21,8 @@ namespace System { class Action; }
 #define NMIFMBCCOGA_OOFFKJBMIPD_OFFSET UNITYSDK_OFFSET(0xBC86910)
 #define NMIFMBCCOGA_PFCODDKFPLF_OFFSET UNITYSDK_OFFSET(0xBC87830)
 
+inline static constexpr unsigned int NMIFMBCCOGA_TypeDefinitionIndex = 79108;
+
 	class NMIFMBCCOGA : public ::System::Object
 	{
 	public:

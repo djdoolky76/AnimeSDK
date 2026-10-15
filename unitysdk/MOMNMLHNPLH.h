@@ -6,6 +6,8 @@ class FCOEMCEDLNL;
 #define MOMNMLHNPLH_BIKABOFADBP_OFFSET UNITYSDK_OFFSET(0x1D1DCAB0)
 #define MOMNMLHNPLH_DCDDKNNINEB_OFFSET UNITYSDK_OFFSET(0x1D1DCA00)
 
+inline static constexpr unsigned int MOMNMLHNPLH_TypeDefinitionIndex = 10815;
+
 	class MOMNMLHNPLH : public ::System::Object
 	{
 	public:

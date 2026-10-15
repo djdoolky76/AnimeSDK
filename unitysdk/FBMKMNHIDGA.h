@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define FBMKMNHIDGA_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x156A7B40)
 #define FBMKMNHIDGA_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x156A7D30)
 
+inline static constexpr unsigned int FBMKMNHIDGA_TypeDefinitionIndex = 47918;
+
 	class FBMKMNHIDGA : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define BJEKBEMLPCH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D80D2E0)
 #define BJEKBEMLPCH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D80D260)
 
+inline static constexpr unsigned int BJEKBEMLPCH_TypeDefinitionIndex = 20988;
+
 	class BJEKBEMLPCH : public ::RPG::GameCore::TaskConfig
 	{
 	public:

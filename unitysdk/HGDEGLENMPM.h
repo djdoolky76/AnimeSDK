@@ -25,6 +25,8 @@ namespace System { class String; }
 #define HGDEGLENMPM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E575B30)
 #define HGDEGLENMPM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E575B90)
 
+inline static constexpr unsigned int HGDEGLENMPM_TypeDefinitionIndex = 30051;
+
 	class HGDEGLENMPM : public ::System::Object
 	{
 	public:

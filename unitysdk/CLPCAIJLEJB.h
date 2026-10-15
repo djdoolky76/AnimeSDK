@@ -8,6 +8,8 @@ namespace RPG::Client { class RogueTournTitanBlessInfo; }
 #define CLPCAIJLEJB_CTOR_OFFSET UNITYSDK_OFFSET(0xDA225C0)
 #define CLPCAIJLEJB_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0xDA225D0)
 
+inline static constexpr unsigned int CLPCAIJLEJB_TypeDefinitionIndex = 67123;
+
 	class CLPCAIJLEJB : public ::DBJKFNLCOJI
 	{
 	public:

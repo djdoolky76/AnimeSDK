@@ -8,6 +8,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int FrameTimingManager_TypeDefinitionIndex = 4126;
+
 	class FrameTimingManager : public ::System::Object
 	{
 	public:

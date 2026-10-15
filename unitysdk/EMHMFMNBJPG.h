@@ -11,6 +11,8 @@ class GMGOEKLIILL;
 #define EMHMFMNBJPG_FLUSH_OFFSET UNITYSDK_OFFSET(0x15538DE0)
 #define EMHMFMNBJPG_OKINNGPHENJ_OFFSET UNITYSDK_OFFSET(0x15538E60)
 
+inline static constexpr unsigned int EMHMFMNBJPG_TypeDefinitionIndex = 79167;
+
 	class EMHMFMNBJPG : public ::System::Object
 	{
 	public:

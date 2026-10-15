@@ -15,6 +15,8 @@
 #define GCEJKLFGMCF_NPMPAPPNADO_OFFSET UNITYSDK_OFFSET(0x1CA7F830)
 #define GCEJKLFGMCF_PEGNIMOJGMD_OFFSET UNITYSDK_OFFSET(0x1CA7F5C0)
 
+inline static constexpr unsigned int GCEJKLFGMCF_TypeDefinitionIndex = 42069;
+
 	class GCEJKLFGMCF : public ::System::Object
 	{
 	public:

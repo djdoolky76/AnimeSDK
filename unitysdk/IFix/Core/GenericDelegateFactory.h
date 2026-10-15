@@ -24,6 +24,8 @@ namespace System::Reflection { class ParameterInfo; }
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int GenericDelegateFactory_TypeDefinitionIndex = 7118;
+
 	class GenericDelegateFactory : public ::System::Object
 	{
 	public:

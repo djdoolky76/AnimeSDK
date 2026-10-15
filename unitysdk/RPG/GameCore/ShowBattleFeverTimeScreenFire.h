@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowBattleFeverTimeScreenFire; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowBattleFeverTimeScreenFire_TypeDefinitionIndex = 23304;
+
 	class ShowBattleFeverTimeScreenFire : public ::RPG::GameCore::TaskConfig
 	{
 	public:

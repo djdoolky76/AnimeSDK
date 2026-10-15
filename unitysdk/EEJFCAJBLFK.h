@@ -44,6 +44,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EEJFCAJBLFK_PKNEAPBEJLD_OFFSET UNITYSDK_OFFSET(0x13A30DA0)
 #define EEJFCAJBLFK_SET_GAMECONFIG_OFFSET UNITYSDK_OFFSET(0x13A313E0)
 
+inline static constexpr unsigned int EEJFCAJBLFK_TypeDefinitionIndex = 77253;
+
 	class EEJFCAJBLFK : public ::System::Object
 	{
 	public:

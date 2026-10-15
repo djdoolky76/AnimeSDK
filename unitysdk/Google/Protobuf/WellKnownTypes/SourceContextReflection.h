@@ -8,6 +8,8 @@ namespace Google::Protobuf::Reflection { class FileDescriptor; }
 
 namespace Google::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int SourceContextReflection_TypeDefinitionIndex = 5426;
+
 	class SourceContextReflection : public ::System::Object
 	{
 	public:

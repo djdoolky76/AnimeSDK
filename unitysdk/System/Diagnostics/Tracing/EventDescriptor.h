@@ -17,6 +17,8 @@ namespace System { class Object; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int EventDescriptor_TypeDefinitionIndex = 1679;
+
 	struct alignas(4) EventDescriptor
 	{
 		::System::Int32 m_traceloggingId; // 0x10

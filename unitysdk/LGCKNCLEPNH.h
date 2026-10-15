@@ -6,6 +6,8 @@ namespace System { class Type; }
 #define LGCKNCLEPNH_CTOR_OFFSET UNITYSDK_OFFSET(0xB68F690)
 #define LGCKNCLEPNH_GET_LIGHTTYPE_OFFSET UNITYSDK_OFFSET(0xB68F680)
 
+inline static constexpr unsigned int LGCKNCLEPNH_TypeDefinitionIndex = 49033;
+
 	class LGCKNCLEPNH : public ::System::Attribute
 	{
 	public:

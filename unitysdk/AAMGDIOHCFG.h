@@ -8,6 +8,8 @@
 #define AAMGDIOHCFG_GDKCEGIAOKA_OFFSET UNITYSDK_OFFSET(0xB0CFD70)
 #define AAMGDIOHCFG_IDCGICECPHO_OFFSET UNITYSDK_OFFSET(0xB0CFDC0)
 
+inline static constexpr unsigned int AAMGDIOHCFG_TypeDefinitionIndex = 77740;
+
 	class AAMGDIOHCFG : public ::System::Object
 	{
 	public:

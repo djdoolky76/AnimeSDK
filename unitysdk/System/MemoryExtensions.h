@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int MemoryExtensions_TypeDefinitionIndex = 4968;
+
 	class MemoryExtensions : public ::System::Object
 	{
 	public:

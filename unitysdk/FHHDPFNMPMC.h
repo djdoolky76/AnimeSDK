@@ -36,6 +36,8 @@ namespace System { class String; }
 #define FHHDPFNMPMC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E38C120)
 #define FHHDPFNMPMC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E38C180)
 
+inline static constexpr unsigned int FHHDPFNMPMC_TypeDefinitionIndex = 26802;
+
 	class FHHDPFNMPMC : public ::System::Object
 	{
 	public:

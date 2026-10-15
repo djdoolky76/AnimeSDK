@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyPerformanceFreeStyleAction_TypeDefinitionIndex = 16262;
+
 	class TrainPartyPerformanceFreeStyleAction : public ::RPG::GameCore::JsonConfig
 	{
 	public:

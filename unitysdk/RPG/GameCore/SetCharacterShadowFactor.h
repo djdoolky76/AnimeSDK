@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetCharacterShadowFactor; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetCharacterShadowFactor_TypeDefinitionIndex = 21885;
+
 	class SetCharacterShadowFactor : public ::RPG::GameCore::TaskConfig
 	{
 	public:

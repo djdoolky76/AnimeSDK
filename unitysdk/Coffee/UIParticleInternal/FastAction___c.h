@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Coffee::UIParticleInternal
 {
+	inline static constexpr unsigned int FastAction___c_TypeDefinitionIndex = 45129;
+
 	class FastAction___c : public ::System::Object
 	{
 	public:

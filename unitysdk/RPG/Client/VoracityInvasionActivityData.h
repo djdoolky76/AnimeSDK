@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VoracityInvasionActivityData_TypeDefinitionIndex = 61674;
+
 	class VoracityInvasionActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

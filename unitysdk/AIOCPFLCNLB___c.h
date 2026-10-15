@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AIOCPFLCNLB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E282810)
 #define AIOCPFLCNLB___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E282820)
 
+inline static constexpr unsigned int AIOCPFLCNLB___c_TypeDefinitionIndex = 34843;
+
 	class AIOCPFLCNLB___c : public ::System::Object
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define GLJODGEMIIN_NLBKIBELCMF_OFFSET UNITYSDK_OFFSET(0x15ABB6A0)
 #define GLJODGEMIIN_TICK_OFFSET UNITYSDK_OFFSET(0x15ABBA50)
 
+inline static constexpr unsigned int GLJODGEMIIN_TypeDefinitionIndex = 56273;
+
 	class GLJODGEMIIN : public ::HBPNHCICJGF
 	{
 	public:

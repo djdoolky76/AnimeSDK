@@ -18,6 +18,8 @@ namespace RPG::Client { template <typename T1, typename T2> class RogueInstanceC
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMiracleDisplayDataFactory_TypeDefinitionIndex = 67275;
+
 	class RogueMiracleDisplayDataFactory : public ::System::Object
 	{
 	public:

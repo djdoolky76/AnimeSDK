@@ -15,6 +15,8 @@ class LILDMGCIAKD;
 #define NPCLLLLIPEH_NJOGOMGHIEA_OFFSET UNITYSDK_OFFSET(0xBCFAA10)
 #define NPCLLLLIPEH_SET_ENGAGEMENT_OFFSET UNITYSDK_OFFSET(0xBCFA6F0)
 
+inline static constexpr unsigned int NPCLLLLIPEH_TypeDefinitionIndex = 81451;
+
 	class NPCLLLLIPEH : public ::System::Object
 	{
 	public:

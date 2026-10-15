@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GridFightCoreRoleChooseRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightCoreRoleChooseRow_TypeDefinitionIndex = 13689;
+
 	class GridFightCoreRoleChooseRow : public ::System::Object
 	{
 	public:

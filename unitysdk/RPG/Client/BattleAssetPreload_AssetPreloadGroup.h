@@ -91,6 +91,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleAssetPreload_AssetPreloadGroup_TypeDefinitionIndex = 59644;
+
 	class BattleAssetPreload_AssetPreloadGroup : public ::System::Object
 	{
 	public:

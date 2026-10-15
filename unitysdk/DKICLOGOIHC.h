@@ -10,6 +10,8 @@ namespace System { class String; }
 #define DKICLOGOIHC_KIADNFBKOCM_OFFSET UNITYSDK_OFFSET(0xF8810F0)
 #define DKICLOGOIHC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF880EC0)
 
+inline static constexpr unsigned int DKICLOGOIHC_TypeDefinitionIndex = 55781;
+
 	class DKICLOGOIHC
 	{
 	public:

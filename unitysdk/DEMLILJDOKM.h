@@ -17,6 +17,8 @@ namespace System { class String; }
 #define DEMLILJDOKM_SET_ISREGISTERREGIONCHANGE_OFFSET UNITYSDK_OFFSET(0xE51A930)
 #define DEMLILJDOKM_TOSTRING_OFFSET UNITYSDK_OFFSET(0xE51A610)
 
+inline static constexpr unsigned int DEMLILJDOKM_TypeDefinitionIndex = 60910;
+
 	class DEMLILJDOKM : public ::System::Object
 	{
 	public:

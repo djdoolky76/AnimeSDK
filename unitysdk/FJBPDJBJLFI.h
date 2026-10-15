@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class Image; }
 #define FJBPDJBJLFI_OFPJPKJDECJ_OFFSET UNITYSDK_OFFSET(0x157BCD80)
 #define FJBPDJBJLFI__ONBIND_OFFSET UNITYSDK_OFFSET(0x157BC920)
 
+inline static constexpr unsigned int FJBPDJBJLFI_TypeDefinitionIndex = 72266;
+
 	class FJBPDJBJLFI : public ::FMPCODLIOLG
 	{
 	public:

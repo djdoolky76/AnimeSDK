@@ -11,6 +11,8 @@ namespace System { class String; }
 #define IKAALIEGBOG_LFPNIPDMOOM_OFFSET UNITYSDK_OFFSET(0x16481730)
 #define IKAALIEGBOG_MNLPJLBAJKJ_OFFSET UNITYSDK_OFFSET(0x164816E0)
 
+inline static constexpr unsigned int IKAALIEGBOG_TypeDefinitionIndex = 72199;
+
 	class IKAALIEGBOG : public ::System::Object
 	{
 	public:

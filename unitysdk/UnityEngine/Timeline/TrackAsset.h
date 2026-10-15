@@ -155,6 +155,8 @@ namespace UnityEngine::Timeline { template <typename T> class IntervalTree_1; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int TrackAsset_TypeDefinitionIndex = 38796;
+
 	class TrackAsset : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EndPropInteract; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EndPropInteract_TypeDefinitionIndex = 20388;
+
 	class EndPropInteract : public ::RPG::GameCore::TaskConfig
 	{
 	public:

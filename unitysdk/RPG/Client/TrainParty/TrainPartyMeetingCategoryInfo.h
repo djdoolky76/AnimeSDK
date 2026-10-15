@@ -23,6 +23,8 @@ namespace RPG::GameCore { class TrainPartyMtCategoryScoreRow; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyMeetingCategoryInfo_TypeDefinitionIndex = 74329;
+
 	class TrainPartyMeetingCategoryInfo : public ::System::Object
 	{
 	public:

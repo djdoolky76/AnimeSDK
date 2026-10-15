@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define _PRIVATEIMPLEMENTATIONDETAILS__8E2FBD436556F7D9_COMPUTESTRINGHASH_OFFSET UNITYSDK_OFFSET(0x1BC1DCC0)
 
+inline static constexpr unsigned int _PrivateImplementationDetails__8E2FBD436556F7D9_TypeDefinitionIndex = 9566;
+
 	class _PrivateImplementationDetails__8E2FBD436556F7D9 : public ::System::Object
 	{
 	public:

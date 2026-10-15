@@ -24,6 +24,8 @@ namespace UnityEngine { class Collider; }
 #define DEKJNPKKLDA_ONAPODCLPII_OFFSET UNITYSDK_OFFSET(0xE518100)
 #define DEKJNPKKLDA_PBLHBHGEFLJ_OFFSET UNITYSDK_OFFSET(0xE517D30)
 
+inline static constexpr unsigned int DEKJNPKKLDA_TypeDefinitionIndex = 60617;
+
 	class DEKJNPKKLDA : public ::NPEBLEKDAGI
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define INHFINPHDJE_CCTOR_OFFSET UNITYSDK_OFFSET(0x164EF0D0)
 #define INHFINPHDJE_MLLBLLHGFCA_OFFSET UNITYSDK_OFFSET(0x164EF3C0)
 
+inline static constexpr unsigned int INHFINPHDJE_TypeDefinitionIndex = 56022;
+
 	class INHFINPHDJE : public ::System::Object
 	{
 	public:

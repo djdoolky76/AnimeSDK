@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::UI::External::OS
 {
+	inline static constexpr unsigned int ToastPluginUI_TypeDefinitionIndex = 8415;
+
 	class ToastPluginUI : public ::System::Object
 	{
 	public:

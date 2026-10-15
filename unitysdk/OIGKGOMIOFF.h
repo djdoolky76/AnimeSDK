@@ -30,6 +30,8 @@ namespace System { class String; }
 #define OIGKGOMIOFF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE6C2D0)
 #define OIGKGOMIOFF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE6C330)
 
+inline static constexpr unsigned int OIGKGOMIOFF_TypeDefinitionIndex = 32791;
+
 	class OIGKGOMIOFF : public ::System::Object
 	{
 	public:

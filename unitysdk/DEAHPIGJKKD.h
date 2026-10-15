@@ -8,6 +8,8 @@ namespace RPG::GameCore { class CakeRaceActionSpawnAbility; }
 #define DEAHPIGJKKD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5E8910)
 #define DEAHPIGJKKD_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C5E8920)
 
+inline static constexpr unsigned int DEAHPIGJKKD_TypeDefinitionIndex = 37373;
+
 	class DEAHPIGJKKD : public ::GPLOFONGBGI
 	{
 	public:

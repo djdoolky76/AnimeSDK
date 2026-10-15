@@ -9,6 +9,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int Browser___c__DisplayClass179_0_TypeDefinitionIndex = 39342;
+
 	class Browser___c__DisplayClass179_0 : public ::System::Object
 	{
 	public:

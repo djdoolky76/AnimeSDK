@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterVisionDisableReason_TypeDefinitionIndex = 56977;
+
 	enum class CharacterVisionDisableReason : ::System::Int32
 	{
 		Task = 1,

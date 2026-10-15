@@ -6,6 +6,8 @@
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserInputSettings_TypeDefinitionIndex = 39473;
+
 	class BrowserInputSettings : public ::System::Object
 	{
 	public:

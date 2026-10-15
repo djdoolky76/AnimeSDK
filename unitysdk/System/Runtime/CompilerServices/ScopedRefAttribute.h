@@ -6,6 +6,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int ScopedRefAttribute_TypeDefinitionIndex = 6070;
+
 	class ScopedRefAttribute : public ::System::Attribute
 	{
 	public:

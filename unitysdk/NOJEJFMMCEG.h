@@ -4,6 +4,8 @@
 
 #define NOJEJFMMCEG_AKEJHIHBIDL_OFFSET UNITYSDK_OFFSET(0x22200)
 
+inline static constexpr unsigned int NOJEJFMMCEG_TypeDefinitionIndex = 53679;
+
 	struct alignas(4) NOJEJFMMCEG
 	{
 		::RPG::GameCore::FixVec2 OBADDJMDKIP; // 0x10

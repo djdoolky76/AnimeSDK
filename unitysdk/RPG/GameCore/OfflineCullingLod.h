@@ -10,6 +10,8 @@ namespace RPG::GameCore { class OfflineCullingLod; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OfflineCullingLod_TypeDefinitionIndex = 19129;
+
 	class OfflineCullingLod : public ::RPG::GameCore::JsonConfig
 	{
 	public:

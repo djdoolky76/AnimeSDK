@@ -10,6 +10,8 @@ namespace Entitas { class IGroup; }
 #define NNIPKONHIAA_EXECUTE_OFFSET UNITYSDK_OFFSET(0xBCB0190)
 #define NNIPKONHIAA_KMANBNKPLJJ_OFFSET UNITYSDK_OFFSET(0xBCB0140)
 
+inline static constexpr unsigned int NNIPKONHIAA_TypeDefinitionIndex = 77782;
+
 	class NNIPKONHIAA : public ::System::Object
 	{
 	public:

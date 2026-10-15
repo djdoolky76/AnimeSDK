@@ -11,6 +11,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ShellFurRendererMonoPlugin_TypeDefinitionIndex = 70946;
+
 	class ShellFurRendererMonoPlugin
 	{
 	public:

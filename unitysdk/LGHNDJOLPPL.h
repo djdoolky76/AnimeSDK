@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LGHNDJOLPPL_CTOR_OFFSET UNITYSDK_OFFSET(0xB697CE0)
 #define LGHNDJOLPPL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB697D50)
 
+inline static constexpr unsigned int LGHNDJOLPPL_TypeDefinitionIndex = 59106;
+
 	class LGHNDJOLPPL
 	{
 	public:

@@ -33,6 +33,8 @@ namespace UnityEngine { class RenderTexture; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Optimize_EnvGPUParticleRemoteTestBehavior_TypeDefinitionIndex = 70833;
+
 	class Optimize_EnvGPUParticleRemoteTestBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

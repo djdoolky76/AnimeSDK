@@ -114,6 +114,8 @@ namespace System::Text { class StringBuilder; }
 #define OMOCGBPOKPO_PDLACIJJDNG_OFFSET UNITYSDK_OFFSET(0xBF34C70)
 #define OMOCGBPOKPO_PEFDCBPGJCH_OFFSET UNITYSDK_OFFSET(0xBF41D60)
 
+inline static constexpr unsigned int OMOCGBPOKPO_TypeDefinitionIndex = 53847;
+
 	class OMOCGBPOKPO : public ::System::Object
 	{
 	public:

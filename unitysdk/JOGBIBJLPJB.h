@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define JOGBIBJLPJB_FEIIDFFOICL_OFFSET UNITYSDK_OFFSET(0xB2A03E0)
 #define JOGBIBJLPJB_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x12930)
 
+inline static constexpr unsigned int JOGBIBJLPJB_TypeDefinitionIndex = 69301;
+
 	struct alignas(4) JOGBIBJLPJB
 	{
 		::System::Int32 EOGHMIGDMGJ; // 0x10

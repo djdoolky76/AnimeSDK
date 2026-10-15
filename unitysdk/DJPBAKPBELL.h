@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define DJPBAKPBELL_FLFLCMEJEPM_OFFSET UNITYSDK_OFFSET(0x1C5F2930)
 #define DJPBAKPBELL_MDFBKGOJOJI_OFFSET UNITYSDK_OFFSET(0x1C5F28F0)
 
+inline static constexpr unsigned int DJPBAKPBELL_TypeDefinitionIndex = 37009;
+
 	class DJPBAKPBELL : public ::System::Object
 	{
 	public:

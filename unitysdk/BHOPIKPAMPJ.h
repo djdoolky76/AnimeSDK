@@ -30,6 +30,8 @@ namespace System { class String; }
 #define BHOPIKPAMPJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDFD170)
 #define BHOPIKPAMPJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDFD1D0)
 
+inline static constexpr unsigned int BHOPIKPAMPJ_TypeDefinitionIndex = 34834;
+
 	class BHOPIKPAMPJ : public ::System::Object
 	{
 	public:

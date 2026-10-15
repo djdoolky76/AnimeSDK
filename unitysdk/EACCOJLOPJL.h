@@ -29,6 +29,8 @@ namespace System { class String; }
 #define EACCOJLOPJL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E222A80)
 #define EACCOJLOPJL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E222AE0)
 
+inline static constexpr unsigned int EACCOJLOPJL_TypeDefinitionIndex = 28696;
+
 	class EACCOJLOPJL : public ::System::Object
 	{
 	public:

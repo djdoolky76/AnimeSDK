@@ -16,6 +16,8 @@ namespace UnityEngine { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ArtPrefabPreview_TypeDefinitionIndex = 68357;
+
 	class ArtPrefabPreview : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TarotBookTalkInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayTarotBookTalk_TypeDefinitionIndex = 21141;
+
 	class PlayTarotBookTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -40,6 +40,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XsdDateTime_TypeDefinitionIndex = 2234;
+
 	struct alignas(4) XsdDateTime
 	{
 		::System::DateTime dt; // 0x10

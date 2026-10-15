@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetMonsterHitCountEnergyBarState_TypeDefinitionIndex = 23654;
+
 	class SetMonsterHitCountEnergyBarState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

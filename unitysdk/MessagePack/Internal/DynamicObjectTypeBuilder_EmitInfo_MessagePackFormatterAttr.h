@@ -7,6 +7,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int DynamicObjectTypeBuilder_EmitInfo_MessagePackFormatterAttr_TypeDefinitionIndex = 7317;
+
 	class DynamicObjectTypeBuilder_EmitInfo_MessagePackFormatterAttr : public ::System::Object
 	{
 	public:

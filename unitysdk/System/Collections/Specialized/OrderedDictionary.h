@@ -41,6 +41,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Collections::Specialized
 {
+	inline static constexpr unsigned int OrderedDictionary_TypeDefinitionIndex = 3003;
+
 	class OrderedDictionary : public ::System::Object
 	{
 	public:

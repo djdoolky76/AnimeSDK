@@ -5,6 +5,8 @@
 
 #define MGOKKPMFACL_FNNMONCNBAB_CTOR_OFFSET UNITYSDK_OFFSET(0xB92B450)
 
+inline static constexpr unsigned int MGOKKPMFACL_FNNMONCNBAB_TypeDefinitionIndex = 74117;
+
 	class MGOKKPMFACL_FNNMONCNBAB : public ::System::Object
 	{
 	public:

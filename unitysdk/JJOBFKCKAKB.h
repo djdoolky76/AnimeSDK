@@ -6,6 +6,8 @@ namespace RPG::Client { class PlanetFesTradingCardExchangeCardItem; }
 #define JJOBFKCKAKB_COMPARE_OFFSET UNITYSDK_OFFSET(0xB209860)
 #define JJOBFKCKAKB_CTOR_OFFSET UNITYSDK_OFFSET(0xB209A90)
 
+inline static constexpr unsigned int JJOBFKCKAKB_TypeDefinitionIndex = 66595;
+
 	class JJOBFKCKAKB : public ::System::Object
 	{
 	public:

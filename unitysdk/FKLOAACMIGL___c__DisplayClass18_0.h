@@ -7,6 +7,8 @@ class NLOOHFMLFMM;
 #define FKLOAACMIGL___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1580D220)
 #define FKLOAACMIGL___C__DISPLAYCLASS18_0___GETORBPANELBYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x1580D910)
 
+inline static constexpr unsigned int FKLOAACMIGL___c__DisplayClass18_0_TypeDefinitionIndex = 72286;
+
 	class FKLOAACMIGL___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:

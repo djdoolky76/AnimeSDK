@@ -41,6 +41,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HPHENNAIEPF_SET_SCENESYSTEM_OFFSET UNITYSDK_OFFSET(0x15DC8E20)
 #define HPHENNAIEPF_SET_UIINPUTSYSTEM_OFFSET UNITYSDK_OFFSET(0x15DC8E00)
 
+inline static constexpr unsigned int HPHENNAIEPF_TypeDefinitionIndex = 76701;
+
 	class HPHENNAIEPF : public ::DJJKNHPLHDI
 	{
 	public:

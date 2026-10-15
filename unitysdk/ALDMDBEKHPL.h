@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define ALDMDBEKHPL_HJNELDDMENH_OFFSET UNITYSDK_OFFSET(0x1C53EC60)
 #define ALDMDBEKHPL_SET_TRAITMINCHIPCOUNT_OFFSET UNITYSDK_OFFSET(0x1C53EC40)
 
+inline static constexpr unsigned int ALDMDBEKHPL_TypeDefinitionIndex = 41739;
+
 	class ALDMDBEKHPL : public ::System::Object
 	{
 	public:

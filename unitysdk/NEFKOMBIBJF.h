@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NEFKOMBIBJF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D1FD1A0)
 #define NEFKOMBIBJF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D1FCB40)
 
+inline static constexpr unsigned int NEFKOMBIBJF_TypeDefinitionIndex = 12212;
+
 	class NEFKOMBIBJF : public ::System::Object
 	{
 	public:

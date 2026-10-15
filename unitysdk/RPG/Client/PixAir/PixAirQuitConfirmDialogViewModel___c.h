@@ -14,6 +14,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirQuitConfirmDialogViewModel___c_TypeDefinitionIndex = 79385;
+
 	class PixAirQuitConfirmDialogViewModel___c : public ::System::Object
 	{
 	public:

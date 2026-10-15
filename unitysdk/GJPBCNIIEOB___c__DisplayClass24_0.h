@@ -7,6 +7,8 @@ class GJPBCNIIEOB;
 #define GJPBCNIIEOB___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15A80DD0)
 #define GJPBCNIIEOB___C__DISPLAYCLASS24_0__ONDETAILCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x15A82240)
 
+inline static constexpr unsigned int GJPBCNIIEOB___c__DisplayClass24_0_TypeDefinitionIndex = 71265;
+
 	class GJPBCNIIEOB___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:

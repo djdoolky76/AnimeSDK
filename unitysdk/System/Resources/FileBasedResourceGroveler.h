@@ -15,6 +15,8 @@ namespace System::Resources { class ResourceSet; }
 
 namespace System::Resources
 {
+	inline static constexpr unsigned int FileBasedResourceGroveler_TypeDefinitionIndex = 517;
+
 	class FileBasedResourceGroveler : public ::System::Object
 	{
 	public:

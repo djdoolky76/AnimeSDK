@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameCoreConfigPathInfo_TypeDefinitionIndex = 17127;
+
 	class GameCoreConfigPathInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

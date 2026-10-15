@@ -21,6 +21,8 @@ namespace System::IO { class StreamReader; }
 #define BJHAIOJBFAK_MFFKOKFNLAG_OFFSET UNITYSDK_OFFSET(0x1C436BD0)
 #define BJHAIOJBFAK_NGCFPFALCGD_OFFSET UNITYSDK_OFFSET(0x1C436AF0)
 
+inline static constexpr unsigned int BJHAIOJBFAK_TypeDefinitionIndex = 41545;
+
 	class BJHAIOJBFAK : public ::System::Object
 	{
 	public:

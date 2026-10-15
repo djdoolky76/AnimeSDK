@@ -13,6 +13,8 @@ namespace UnityEngine { class Renderer; }
 #define OBDLPMBNHDK_IMPCLGNNONP_OFFSET UNITYSDK_OFFSET(0xBD38390)
 #define OBDLPMBNHDK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD38150)
 
+inline static constexpr unsigned int OBDLPMBNHDK_TypeDefinitionIndex = 55189;
+
 	class OBDLPMBNHDK
 	{
 	public:

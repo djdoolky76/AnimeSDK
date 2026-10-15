@@ -10,6 +10,8 @@ class JBFGHNLMEDI;
 #define CMDIPGJEPIP_CTOR_OFFSET UNITYSDK_OFFSET(0xDA283C0)
 #define CMDIPGJEPIP_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0xDA283D0)
 
+inline static constexpr unsigned int CMDIPGJEPIP_TypeDefinitionIndex = 76412;
+
 	class CMDIPGJEPIP : public ::HALHKJLBIKJ
 	{
 	public:

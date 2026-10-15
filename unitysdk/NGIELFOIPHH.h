@@ -25,6 +25,8 @@ namespace System { class String; }
 #define NGIELFOIPHH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB11B60)
 #define NGIELFOIPHH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB11BC0)
 
+inline static constexpr unsigned int NGIELFOIPHH_TypeDefinitionIndex = 27441;
+
 	class NGIELFOIPHH : public ::System::Object
 	{
 	public:

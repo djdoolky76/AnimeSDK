@@ -8,6 +8,8 @@ namespace MiHoYo::SDK::Protobuf::Reflection { class FileDescriptor; }
 
 namespace MiHoYo::SDK::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int AnyReflection_TypeDefinitionIndex = 35736;
+
 	class AnyReflection : public ::System::Object
 	{
 	public:

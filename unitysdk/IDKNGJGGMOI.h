@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
+inline static constexpr unsigned int IDKNGJGGMOI_TypeDefinitionIndex = 71728;
+
 	struct alignas(8) IDKNGJGGMOI
 	{
 		::System::String* OLOIFNNLKJP; // 0x10

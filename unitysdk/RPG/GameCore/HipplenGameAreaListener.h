@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HipplenGameAreaListener_TypeDefinitionIndex = 21301;
+
 	class HipplenGameAreaListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

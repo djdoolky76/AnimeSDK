@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CHGCCAGBEKF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0C5CB0)
 #define CHGCCAGBEKF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0C5D10)
 
+inline static constexpr unsigned int CHGCCAGBEKF_TypeDefinitionIndex = 34572;
+
 	class CHGCCAGBEKF : public ::System::Object
 	{
 	public:

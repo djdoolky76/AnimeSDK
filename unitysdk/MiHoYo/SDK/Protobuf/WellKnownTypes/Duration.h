@@ -35,6 +35,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace MiHoYo::SDK::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int Duration_TypeDefinitionIndex = 35740;
+
 	class Duration : public ::System::Object
 	{
 	public:

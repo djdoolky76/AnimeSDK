@@ -128,6 +128,8 @@ namespace UnityEngine::UI { class Toggle; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UnityAsyncExtensions_TypeDefinitionIndex = 38449;
+
 	class UnityAsyncExtensions : public ::System::Object
 	{
 	public:

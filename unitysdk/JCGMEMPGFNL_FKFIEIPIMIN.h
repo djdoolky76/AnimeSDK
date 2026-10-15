@@ -6,6 +6,8 @@ namespace RPG::GameCore { class StageBattleEventRow; }
 #define JCGMEMPGFNL_FKFIEIPIMIN_CTOR_OFFSET UNITYSDK_OFFSET(0x16589D30)
 #define JCGMEMPGFNL_FKFIEIPIMIN_MDOFJHCLPAC_OFFSET UNITYSDK_OFFSET(0x1658AC40)
 
+inline static constexpr unsigned int JCGMEMPGFNL_FKFIEIPIMIN_TypeDefinitionIndex = 56204;
+
 	class JCGMEMPGFNL_FKFIEIPIMIN : public ::System::Object
 	{
 	public:

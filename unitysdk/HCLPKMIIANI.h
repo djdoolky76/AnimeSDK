@@ -99,6 +99,8 @@ namespace UnityEngine { class Transform; }
 #define HCLPKMIIANI__SETPOSTPROCESSONINIT_OFFSET UNITYSDK_OFFSET(0x15C279A0)
 #define HCLPKMIIANI__STARTLEVELGRAPH_OFFSET UNITYSDK_OFFSET(0x15C27E20)
 
+inline static constexpr unsigned int HCLPKMIIANI_TypeDefinitionIndex = 60567;
+
 	class HCLPKMIIANI : public ::System::Object
 	{
 	public:

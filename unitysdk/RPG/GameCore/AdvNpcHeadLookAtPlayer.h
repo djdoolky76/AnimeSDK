@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvNpcHeadLookAtPlayer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvNpcHeadLookAtPlayer_TypeDefinitionIndex = 21748;
+
 	class AdvNpcHeadLookAtPlayer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

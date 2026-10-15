@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace Mono::Security::X509
 {
+	inline static constexpr unsigned int PKCS12_DeriveBytes_TypeDefinitionIndex = 56;
+
 	class PKCS12_DeriveBytes : public ::System::Object
 	{
 	public:

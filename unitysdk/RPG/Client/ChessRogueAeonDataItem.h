@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChessRogueAeonDataItem_TypeDefinitionIndex = 66900;
+
 	class ChessRogueAeonDataItem : public ::System::Object
 	{
 	public:

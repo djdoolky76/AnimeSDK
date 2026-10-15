@@ -31,6 +31,8 @@ namespace System { class String; }
 #define EPAJKAFCJME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E302290)
 #define EPAJKAFCJME_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3022F0)
 
+inline static constexpr unsigned int EPAJKAFCJME_TypeDefinitionIndex = 33894;
+
 	class EPAJKAFCJME : public ::System::Object
 	{
 	public:

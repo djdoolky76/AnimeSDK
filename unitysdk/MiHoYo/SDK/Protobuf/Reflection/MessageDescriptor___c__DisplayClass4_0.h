@@ -20,6 +20,8 @@ namespace MiHoYo::SDK::Protobuf::Reflection { class OneofDescriptorProto; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int MessageDescriptor___c__DisplayClass4_0_TypeDefinitionIndex = 35840;
+
 	class MessageDescriptor___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

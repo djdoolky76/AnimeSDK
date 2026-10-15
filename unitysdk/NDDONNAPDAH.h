@@ -9,6 +9,8 @@
 #define NDDONNAPDAH_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xBB216A0)
 #define NDDONNAPDAH_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xBB216B0)
 
+inline static constexpr unsigned int NDDONNAPDAH_TypeDefinitionIndex = 56105;
+
 	class NDDONNAPDAH : public ::DBGDNLLDPFI
 	{
 	public:

@@ -21,6 +21,8 @@ namespace RPG::Client::Pet { class SimplePetAppearance; }
 
 namespace RPG::Client::Pet
 {
+	inline static constexpr unsigned int NormalPet_TypeDefinitionIndex = 75667;
+
 	class NormalPet : public ::System::Object
 	{
 	public:

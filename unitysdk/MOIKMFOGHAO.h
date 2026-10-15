@@ -4,6 +4,8 @@ namespace System { class String; }
 
 #define MOIKMFOGHAO_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EA30)
 
+inline static constexpr unsigned int MOIKMFOGHAO_TypeDefinitionIndex = 57819;
+
 	struct alignas(8) MOIKMFOGHAO
 	{
 		::System::String* BFDAADMGNFD; // 0x10

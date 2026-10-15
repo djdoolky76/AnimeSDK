@@ -18,6 +18,8 @@ namespace RPG::Client { class ActivityLoginData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BlindBoxAllInOneActivityPanelData_TypeDefinitionIndex = 61595;
+
 	class BlindBoxAllInOneActivityPanelData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

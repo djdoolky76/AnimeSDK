@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define JBGMDJBCHFO_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1DD65AE0)
 #define JBGMDJBCHFO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DD65A40)
 
+inline static constexpr unsigned int JBGMDJBCHFO_TypeDefinitionIndex = 6272;
+
 	class JBGMDJBCHFO : public ::System::MulticastDelegate
 	{
 	public:

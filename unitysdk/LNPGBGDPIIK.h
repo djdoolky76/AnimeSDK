@@ -35,6 +35,8 @@ namespace System { class String; }
 #define LNPGBGDPIIK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9B8410)
 #define LNPGBGDPIIK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9B8470)
 
+inline static constexpr unsigned int LNPGBGDPIIK_TypeDefinitionIndex = 33315;
+
 	class LNPGBGDPIIK : public ::System::Object
 	{
 	public:

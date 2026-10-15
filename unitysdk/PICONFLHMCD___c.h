@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PICONFLHMCD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF43DC0)
 #define PICONFLHMCD___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF43DD0)
 
+inline static constexpr unsigned int PICONFLHMCD___c_TypeDefinitionIndex = 30898;
+
 	class PICONFLHMCD___c : public ::System::Object
 	{
 	public:

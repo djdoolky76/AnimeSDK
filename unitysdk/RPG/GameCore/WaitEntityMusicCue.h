@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaitEntityMusicCue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitEntityMusicCue_TypeDefinitionIndex = 20619;
+
 	class WaitEntityMusicCue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

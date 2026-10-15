@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRCompositor__ReleaseSharedGLTexture_TypeDefinitionIndex = 39051;
+
 	class IVRCompositor__ReleaseSharedGLTexture : public ::System::MulticastDelegate
 	{
 	public:

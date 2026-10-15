@@ -19,6 +19,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MuseumUtils_TypeDefinitionIndex = 66354;
+
 	class MuseumUtils : public ::System::Object
 	{
 	public:

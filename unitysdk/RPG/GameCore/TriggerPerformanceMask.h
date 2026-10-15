@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TriggerPerformanceMask; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerPerformanceMask_TypeDefinitionIndex = 20300;
+
 	class TriggerPerformanceMask : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SampleAnimationClip_TypeDefinitionIndex = 47858;
+
 	class SampleAnimationClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

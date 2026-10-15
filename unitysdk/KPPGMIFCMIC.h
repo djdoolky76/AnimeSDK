@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define KPPGMIFCMIC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB5D4A80)
 #define KPPGMIFCMIC_TICK_OFFSET UNITYSDK_OFFSET(0xB5D4CA0)
 
+inline static constexpr unsigned int KPPGMIFCMIC_TypeDefinitionIndex = 58097;
+
 	class KPPGMIFCMIC : public ::GELIALJDFBL
 	{
 	public:

@@ -29,6 +29,8 @@ namespace UnityEngine { class Collider; }
 #define DNGIEBCPNIB_SET_POSAPDATIONTARGET_OFFSET UNITYSDK_OFFSET(0x11954010)
 #define DNGIEBCPNIB_TICK_OFFSET UNITYSDK_OFFSET(0x11952970)
 
+inline static constexpr unsigned int DNGIEBCPNIB_TypeDefinitionIndex = 57363;
+
 	class DNGIEBCPNIB : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

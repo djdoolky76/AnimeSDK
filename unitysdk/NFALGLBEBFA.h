@@ -6,6 +6,8 @@ class GIDHOABFFFP;
 
 #define NFALGLBEBFA_CCNNHMNAMIP_OFFSET UNITYSDK_OFFSET(0xBB76E40)
 
+inline static constexpr unsigned int NFALGLBEBFA_TypeDefinitionIndex = 62701;
+
 	class NFALGLBEBFA : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define EMDKLICDPKK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2DED20)
 #define EMDKLICDPKK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2DED80)
 
+inline static constexpr unsigned int EMDKLICDPKK_TypeDefinitionIndex = 30667;
+
 	class EMDKLICDPKK : public ::System::Object
 	{
 	public:

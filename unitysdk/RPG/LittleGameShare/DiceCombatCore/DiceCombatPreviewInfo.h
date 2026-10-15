@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::LittleGameShare::DiceCombatCore
 {
+	inline static constexpr unsigned int DiceCombatPreviewInfo_TypeDefinitionIndex = 36498;
+
 	class DiceCombatPreviewInfo : public ::System::Object
 	{
 	public:

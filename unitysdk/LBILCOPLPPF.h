@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 #define LBILCOPLPPF_NGLEEPLKMNP_OFFSET UNITYSDK_OFFSET(0xB5FC070)
 #define LBILCOPLPPF_NHPDCPKMNAM_OFFSET UNITYSDK_OFFSET(0xB5FBFE0)
 
+inline static constexpr unsigned int LBILCOPLPPF_TypeDefinitionIndex = 73250;
+
 	class LBILCOPLPPF : public ::System::Object
 	{
 	public:

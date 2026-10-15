@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int PKHKEEKIODC_FHPOBLJBLPI_TypeDefinitionIndex = 33049;
+
 	enum class PKHKEEKIODC_FHPOBLJBLPI : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

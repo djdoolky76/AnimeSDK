@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightLevelBaseValueConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightLevelBaseValueConfigRow_TypeDefinitionIndex = 13625;
+
 	class GridFightLevelBaseValueConfigRow : public ::System::Object
 	{
 	public:

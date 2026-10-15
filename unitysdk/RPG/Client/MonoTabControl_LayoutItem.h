@@ -7,6 +7,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTabControl_LayoutItem_TypeDefinitionIndex = 72608;
+
 	class MonoTabControl_LayoutItem : public ::System::Object
 	{
 	public:

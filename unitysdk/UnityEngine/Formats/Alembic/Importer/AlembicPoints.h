@@ -19,6 +19,8 @@ namespace UnityEngine::Formats::Alembic::Sdk { template <typename T> class Pinne
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicPoints_TypeDefinitionIndex = 45859;
+
 	class AlembicPoints : public ::UnityEngine::Formats::Alembic::Importer::AlembicElement
 	{
 	public:

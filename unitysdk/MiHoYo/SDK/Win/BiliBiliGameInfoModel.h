@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int BiliBiliGameInfoModel_TypeDefinitionIndex = 9328;
+
 	class BiliBiliGameInfoModel : public ::System::Object
 	{
 	public:

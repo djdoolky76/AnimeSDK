@@ -9,6 +9,8 @@ namespace RPG::Client { class BookletLuaPanelParam; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TarotBookEpilogueElement_TypeDefinitionIndex = 72459;
+
 	class TarotBookEpilogueElement
 	{
 	public:

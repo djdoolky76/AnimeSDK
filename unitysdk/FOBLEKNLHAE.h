@@ -6,6 +6,8 @@ namespace RPG::GameCore { class WaitCustomString; }
 
 #define FOBLEKNLHAE_CTOR_OFFSET UNITYSDK_OFFSET(0x158E1270)
 
+inline static constexpr unsigned int FOBLEKNLHAE_TypeDefinitionIndex = 58881;
+
 	class FOBLEKNLHAE : public ::MPLFJICIMNH
 	{
 	public:

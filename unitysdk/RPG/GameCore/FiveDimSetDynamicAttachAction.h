@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetDynamicAttachAction_TypeDefinitionIndex = 18760;
+
 	class FiveDimSetDynamicAttachAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

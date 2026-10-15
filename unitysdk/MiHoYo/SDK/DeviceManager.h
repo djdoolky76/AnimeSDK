@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int DeviceManager_TypeDefinitionIndex = 46288;
+
 	class DeviceManager : public ::System::Object
 	{
 	public:

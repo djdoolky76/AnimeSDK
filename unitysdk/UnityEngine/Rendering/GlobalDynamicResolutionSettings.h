@@ -7,6 +7,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int GlobalDynamicResolutionSettings_TypeDefinitionIndex = 35487;
+
 	struct alignas(4) GlobalDynamicResolutionSettings
 	{
 		::System::Boolean enabled; // 0x10

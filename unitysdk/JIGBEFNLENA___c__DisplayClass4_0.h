@@ -6,6 +6,8 @@ class EPPIBFOLFKN;
 #define JIGBEFNLENA___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB1F2E10)
 #define JIGBEFNLENA___C__DISPLAYCLASS4_0__SYNC_B__0_OFFSET UNITYSDK_OFFSET(0xB1FA230)
 
+inline static constexpr unsigned int JIGBEFNLENA___c__DisplayClass4_0_TypeDefinitionIndex = 66590;
+
 	class JIGBEFNLENA___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

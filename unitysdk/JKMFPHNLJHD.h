@@ -12,6 +12,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define JKMFPHNLJHD_CONVERTTOUPGRADE_OFFSET UNITYSDK_OFFSET(0xB222570)
 #define JKMFPHNLJHD_CTOR_OFFSET UNITYSDK_OFFSET(0xB2224E0)
 
+inline static constexpr unsigned int JKMFPHNLJHD_TypeDefinitionIndex = 62841;
+
 	class JKMFPHNLJHD : public ::System::Object
 	{
 	public:

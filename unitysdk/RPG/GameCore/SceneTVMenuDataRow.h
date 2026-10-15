@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SceneTVMenuDataRow_TypeDefinitionIndex = 14562;
+
 	class SceneTVMenuDataRow : public ::System::Object
 	{
 	public:

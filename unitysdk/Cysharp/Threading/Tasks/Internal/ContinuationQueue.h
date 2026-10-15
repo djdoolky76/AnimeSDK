@@ -27,6 +27,8 @@ namespace System { class Action; }
 
 namespace Cysharp::Threading::Tasks::Internal
 {
+	inline static constexpr unsigned int ContinuationQueue_TypeDefinitionIndex = 38656;
+
 	class ContinuationQueue : public ::System::Object
 	{
 	public:

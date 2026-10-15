@@ -33,6 +33,8 @@ namespace System { class String; }
 #define CJOCDGGCPCN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0E5CD0)
 #define CJOCDGGCPCN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0E5D30)
 
+inline static constexpr unsigned int CJOCDGGCPCN_TypeDefinitionIndex = 33710;
+
 	class CJOCDGGCPCN : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class MiParameterConfigBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActionTriggerActionMultiTimeConfig_TypeDefinitionIndex = 17049;
+
 	class ActionTriggerActionMultiTimeConfig : public ::RPG::GameCore::MiActionConfigBase
 	{
 	public:

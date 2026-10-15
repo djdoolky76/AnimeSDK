@@ -27,6 +27,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int MonoChunkStream_TypeDefinitionIndex = 2867;
+
 	class MonoChunkStream : public ::System::Object
 	{
 	public:

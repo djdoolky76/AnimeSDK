@@ -15,6 +15,8 @@
 #define DCIAAMADOGH_SET_EXP_OFFSET UNITYSDK_OFFSET(0xE246B30)
 #define DCIAAMADOGH_SET_SOURCEID_OFFSET UNITYSDK_OFFSET(0xE246B50)
 
+inline static constexpr unsigned int DCIAAMADOGH_TypeDefinitionIndex = 79038;
+
 	class DCIAAMADOGH : public ::System::Object
 	{
 	public:

@@ -34,6 +34,8 @@ namespace System { class String; }
 #define EIDFCGLODFB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2A6D20)
 #define EIDFCGLODFB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2A6D80)
 
+inline static constexpr unsigned int EIDFCGLODFB_TypeDefinitionIndex = 31018;
+
 	class EIDFCGLODFB : public ::System::Object
 	{
 	public:

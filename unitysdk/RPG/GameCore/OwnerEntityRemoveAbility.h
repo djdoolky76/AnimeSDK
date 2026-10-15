@@ -11,6 +11,8 @@ namespace RPG::GameCore { class OwnerEntityRemoveAbility; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OwnerEntityRemoveAbility_TypeDefinitionIndex = 23471;
+
 	class OwnerEntityRemoveAbility : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int MGAFALOCHKA_TypeDefinitionIndex = 27257;
+
 	enum class MGAFALOCHKA : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

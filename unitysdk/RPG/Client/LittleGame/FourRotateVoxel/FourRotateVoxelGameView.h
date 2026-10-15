@@ -74,6 +74,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
+	inline static constexpr unsigned int FourRotateVoxelGameView_TypeDefinitionIndex = 76855;
+
 	class FourRotateVoxelGameView : public ::RPG::Client::LittleGame::BaseMonoGenericView
 	{
 	public:

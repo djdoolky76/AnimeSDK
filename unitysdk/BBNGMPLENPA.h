@@ -84,6 +84,8 @@ namespace UnityEngine::UI { class Text; }
 #define BBNGMPLENPA__ONBIND_OFFSET UNITYSDK_OFFSET(0x15E94D10)
 #define BBNGMPLENPA__ONTICK_OFFSET UNITYSDK_OFFSET(0x15E95B50)
 
+inline static constexpr unsigned int BBNGMPLENPA_TypeDefinitionIndex = 71512;
+
 	class BBNGMPLENPA : public ::FMPCODLIOLG
 	{
 	public:

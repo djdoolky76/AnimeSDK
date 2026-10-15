@@ -89,6 +89,8 @@ namespace System { class String; }
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGCurveSettings_TypeDefinitionIndex = 36025;
+
 	class BGCurveSettings : public ::System::Object
 	{
 	public:

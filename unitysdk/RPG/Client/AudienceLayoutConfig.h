@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AudienceLayoutConfig_TypeDefinitionIndex = 69148;
+
 	class AudienceLayoutConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

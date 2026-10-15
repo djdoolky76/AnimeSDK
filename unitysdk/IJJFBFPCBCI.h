@@ -33,6 +33,8 @@ namespace System { class String; }
 #define IJJFBFPCBCI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E694E80)
 #define IJJFBFPCBCI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E694EE0)
 
+inline static constexpr unsigned int IJJFBFPCBCI_TypeDefinitionIndex = 31495;
+
 	class IJJFBFPCBCI : public ::System::Object
 	{
 	public:

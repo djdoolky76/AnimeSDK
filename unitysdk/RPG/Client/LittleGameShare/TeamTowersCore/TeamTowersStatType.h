@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGameShare::TeamTowersCore
 {
+	inline static constexpr unsigned int TeamTowersStatType_TypeDefinitionIndex = 37123;
+
 	enum class TeamTowersStatType : ::System::Int32
 	{
 		None = 0,

@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK::UI::OS
 {
+	inline static constexpr unsigned int GooglePCOAuthState_TypeDefinitionIndex = 8471;
+
 	enum class GooglePCOAuthState : ::System::Int32
 	{
 		GoToGooglePlay = 0,

@@ -6,6 +6,8 @@ class OCOAGBCDNBC;
 
 #define DIBNPCGEPAC_CBBCKNEIIEM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1DDA8950)
 
+inline static constexpr unsigned int DIBNPCGEPAC_CBBCKNEIIEM_TypeDefinitionIndex = 43945;
+
 	class DIBNPCGEPAC_CBBCKNEIIEM : public ::System::Object
 	{
 	public:

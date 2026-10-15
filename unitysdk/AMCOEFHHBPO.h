@@ -58,6 +58,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define AMCOEFHHBPO_UPDATETRAITEFFECT_OFFSET UNITYSDK_OFFSET(0x155770C0)
 #define AMCOEFHHBPO_UPDATEUNLOCKEDPROJECTIONID_OFFSET UNITYSDK_OFFSET(0x15577070)
 
+inline static constexpr unsigned int AMCOEFHHBPO_TypeDefinitionIndex = 64881;
+
 	class AMCOEFHHBPO : public ::System::Object
 	{
 	public:

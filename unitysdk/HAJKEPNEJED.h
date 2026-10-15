@@ -30,6 +30,8 @@ namespace System { class String; }
 #define HAJKEPNEJED_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5072F0)
 #define HAJKEPNEJED_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E507350)
 
+inline static constexpr unsigned int HAJKEPNEJED_TypeDefinitionIndex = 30548;
+
 	class HAJKEPNEJED : public ::System::Object
 	{
 	public:

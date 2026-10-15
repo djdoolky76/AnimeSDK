@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MultiPlayerGameMode_TypeDefinitionIndex = 10575;
+
 	enum class MultiPlayerGameMode : ::System::Int32
 	{
 		NONE = 0,

@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int HidePropForStoryClip_TypeDefinitionIndex = 48141;
+
 	class HidePropForStoryClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

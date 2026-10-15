@@ -17,6 +17,8 @@ namespace UnityEngine::UI { class Slider; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirGameProgressControl_TypeDefinitionIndex = 79234;
+
 	class PixAirGameProgressControl : public ::Sofa::BaseSofaControl
 	{
 	public:

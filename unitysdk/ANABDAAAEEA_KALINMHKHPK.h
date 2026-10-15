@@ -5,6 +5,8 @@ namespace System { class Action; }
 
 #define ANABDAAAEEA_KALINMHKHPK_CTOR_OFFSET UNITYSDK_OFFSET(0x15591C50)
 
+inline static constexpr unsigned int ANABDAAAEEA_KALINMHKHPK_TypeDefinitionIndex = 71254;
+
 	class ANABDAAAEEA_KALINMHKHPK : public ::System::Object
 	{
 	public:

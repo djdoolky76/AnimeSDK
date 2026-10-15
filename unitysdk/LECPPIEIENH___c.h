@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LECPPIEIENH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E925F50)
 #define LECPPIEIENH___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E925F60)
 
+inline static constexpr unsigned int LECPPIEIENH___c_TypeDefinitionIndex = 27245;
+
 	class LECPPIEIENH___c : public ::System::Object
 	{
 	public:

@@ -20,6 +20,8 @@ class IDCBNMIJMCN;
 #define EBCNOFGFELC_OPLBLMFAIKA_OFFSET UNITYSDK_OFFSET(0x12CEC410)
 #define EBCNOFGFELC_PLOFJDKCCIJ_OFFSET UNITYSDK_OFFSET(0x12CEC8D0)
 
+inline static constexpr unsigned int EBCNOFGFELC_TypeDefinitionIndex = 62778;
+
 	class EBCNOFGFELC : public ::System::Object
 	{
 	public:

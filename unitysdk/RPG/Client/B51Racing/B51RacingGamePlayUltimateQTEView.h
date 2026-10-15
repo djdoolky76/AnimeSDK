@@ -11,6 +11,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingGamePlayUltimateQTEView_TypeDefinitionIndex = 81880;
+
 	class B51RacingGamePlayUltimateQTEView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

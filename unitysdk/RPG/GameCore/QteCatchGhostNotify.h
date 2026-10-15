@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int QteCatchGhostNotify_TypeDefinitionIndex = 24598;
+
 	enum class QteCatchGhostNotify : ::System::Int32
 	{
 		OpenTreasureBox = 0,

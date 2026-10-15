@@ -6,6 +6,8 @@
 
 namespace Newtonsoft::Json
 {
+	inline static constexpr unsigned int JsonRequiredAttribute_TypeDefinitionIndex = 9592;
+
 	class JsonRequiredAttribute : public ::System::Attribute
 	{
 	public:

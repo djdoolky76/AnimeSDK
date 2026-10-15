@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define EKKHCDCABPE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD97B20)
 #define EKKHCDCABPE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD97440)
 
+inline static constexpr unsigned int EKKHCDCABPE_TypeDefinitionIndex = 12813;
+
 	class EKKHCDCABPE : public ::System::Object
 	{
 	public:

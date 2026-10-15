@@ -6,6 +6,8 @@
 #define KICHJEFBCIH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8FC030)
 #define KICHJEFBCIH_LGEGPGKNFOO_OFFSET UNITYSDK_OFFSET(0x1C8FBFD0)
 
+inline static constexpr unsigned int KICHJEFBCIH_TypeDefinitionIndex = 43509;
+
 	class KICHJEFBCIH : public ::System::Object
 	{
 	public:

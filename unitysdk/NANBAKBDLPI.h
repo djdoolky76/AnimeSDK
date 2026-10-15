@@ -33,6 +33,8 @@ namespace System { class String; }
 #define NANBAKBDLPI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAC78F0)
 #define NANBAKBDLPI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAC7950)
 
+inline static constexpr unsigned int NANBAKBDLPI_TypeDefinitionIndex = 31406;
+
 	class NANBAKBDLPI : public ::System::Object
 	{
 	public:

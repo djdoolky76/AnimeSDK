@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define COIELIGKLBE_JIGJDOFEJMI_OFFSET UNITYSDK_OFFSET(0xDCB8520)
 #define COIELIGKLBE_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xDCB8260)
 
+inline static constexpr unsigned int COIELIGKLBE_TypeDefinitionIndex = 59164;
+
 	class COIELIGKLBE
 	{
 	public:

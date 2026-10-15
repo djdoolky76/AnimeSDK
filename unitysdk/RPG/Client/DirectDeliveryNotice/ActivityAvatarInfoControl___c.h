@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::DirectDeliveryNotice
 {
+	inline static constexpr unsigned int ActivityAvatarInfoControl___c_TypeDefinitionIndex = 81238;
+
 	class ActivityAvatarInfoControl___c : public ::System::Object
 	{
 	public:

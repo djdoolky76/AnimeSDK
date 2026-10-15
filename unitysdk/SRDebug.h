@@ -13,6 +13,8 @@ namespace UnityEngine::Events { class UnityEvent; }
 #define SRDEBUG_GET_MIHOYOASSETLOADER_OFFSET UNITYSDK_OFFSET(0x1ED36260)
 #define SRDEBUG_INIT_OFFSET UNITYSDK_OFFSET(0x1ED362A0)
 
+inline static constexpr unsigned int SRDebug_TypeDefinitionIndex = 37946;
+
 	class SRDebug : public ::System::Object
 	{
 	public:

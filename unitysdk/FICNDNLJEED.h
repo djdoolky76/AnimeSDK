@@ -25,6 +25,8 @@ namespace System { class String; }
 #define FICNDNLJEED_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E395690)
 #define FICNDNLJEED_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3956F0)
 
+inline static constexpr unsigned int FICNDNLJEED_TypeDefinitionIndex = 26785;
+
 	class FICNDNLJEED : public ::System::Object
 	{
 	public:

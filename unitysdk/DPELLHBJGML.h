@@ -40,6 +40,8 @@ namespace System { class String; }
 #define DPELLHBJGML_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E20CAA0)
 #define DPELLHBJGML_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E20CB00)
 
+inline static constexpr unsigned int DPELLHBJGML_TypeDefinitionIndex = 27301;
+
 	class DPELLHBJGML : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define NMCIEIIHGCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C970020)
 
+inline static constexpr unsigned int NMCIEIIHGCP_TypeDefinitionIndex = 42143;
+
 	class NMCIEIIHGCP : public ::System::Object
 	{
 	public:

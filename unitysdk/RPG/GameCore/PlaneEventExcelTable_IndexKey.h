@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlaneEventExcelTable_IndexKey_TypeDefinitionIndex = 14070;
+
 	struct alignas(4) PlaneEventExcelTable_IndexKey
 	{
 		::System::UInt32 EventID; // 0x10

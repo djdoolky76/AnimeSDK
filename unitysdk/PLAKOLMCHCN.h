@@ -5,6 +5,8 @@
 
 #define PLAKOLMCHCN_CTOR_OFFSET UNITYSDK_OFFSET(0xC2EC690)
 
+inline static constexpr unsigned int PLAKOLMCHCN_TypeDefinitionIndex = 56892;
+
 	class PLAKOLMCHCN : public ::System::Object
 	{
 	public:

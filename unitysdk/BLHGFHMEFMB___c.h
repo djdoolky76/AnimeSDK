@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BLHGFHMEFMB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF62040)
 #define BLHGFHMEFMB___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DF62050)
 
+inline static constexpr unsigned int BLHGFHMEFMB___c_TypeDefinitionIndex = 31062;
+
 	class BLHGFHMEFMB___c : public ::System::Object
 	{
 	public:

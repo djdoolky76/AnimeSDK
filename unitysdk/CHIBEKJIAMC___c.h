@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CHIBEKJIAMC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0C7270)
 #define CHIBEKJIAMC___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E0C7280)
 
+inline static constexpr unsigned int CHIBEKJIAMC___c_TypeDefinitionIndex = 31369;
+
 	class CHIBEKJIAMC___c : public ::System::Object
 	{
 	public:

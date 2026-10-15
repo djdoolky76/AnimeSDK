@@ -17,6 +17,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::BattlePerform
 {
+	inline static constexpr unsigned int BPCharacterAnimCrossFadeClip_TypeDefinitionIndex = 48797;
+
 	class BPCharacterAnimCrossFadeClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

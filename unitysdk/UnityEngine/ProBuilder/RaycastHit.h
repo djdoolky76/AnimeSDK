@@ -7,6 +7,8 @@
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int RaycastHit_TypeDefinitionIndex = 44415;
+
 	class RaycastHit : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::FateRin::Talent
 {
+	inline static constexpr unsigned int FateRinTalentUpgradeViewModel_TypeDefinitionIndex = 80726;
+
 	class FateRinTalentUpgradeViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

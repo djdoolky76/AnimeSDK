@@ -54,6 +54,8 @@ namespace System { class String; }
 #define KFGILGDFEKE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E819470)
 #define KFGILGDFEKE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8194D0)
 
+inline static constexpr unsigned int KFGILGDFEKE_TypeDefinitionIndex = 31004;
+
 	class KFGILGDFEKE : public ::System::Object
 	{
 	public:

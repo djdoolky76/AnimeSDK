@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace Spine::Unity::Playables
 {
+	inline static constexpr unsigned int SpineEventDelegate_TypeDefinitionIndex = 45905;
+
 	class SpineEventDelegate : public ::System::MulticastDelegate
 	{
 	public:

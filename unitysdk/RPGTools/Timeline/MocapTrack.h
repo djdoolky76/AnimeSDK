@@ -14,6 +14,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int MocapTrack_TypeDefinitionIndex = 48190;
+
 	class MocapTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define FGLLAJMCPKM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E382130)
 #define FGLLAJMCPKM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E382190)
 
+inline static constexpr unsigned int FGLLAJMCPKM_TypeDefinitionIndex = 29488;
+
 	class FGLLAJMCPKM : public ::System::Object
 	{
 	public:

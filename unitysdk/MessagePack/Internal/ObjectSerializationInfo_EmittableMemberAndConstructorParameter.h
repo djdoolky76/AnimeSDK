@@ -10,6 +10,8 @@ namespace System::Reflection { class ParameterInfo; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int ObjectSerializationInfo_EmittableMemberAndConstructorParameter_TypeDefinitionIndex = 7332;
+
 	class ObjectSerializationInfo_EmittableMemberAndConstructorParameter : public ::System::Object
 	{
 	public:

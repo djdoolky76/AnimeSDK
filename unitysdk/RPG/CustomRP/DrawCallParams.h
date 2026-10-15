@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int DrawCallParams_TypeDefinitionIndex = 37930;
+
 	struct alignas(8) DrawCallParams
 	{
 		::System::String* name; // 0x10

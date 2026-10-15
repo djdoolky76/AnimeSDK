@@ -38,6 +38,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int MonoFiveDimMoveInput_TypeDefinitionIndex = 77239;
+
 	class MonoFiveDimMoveInput : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define DPDFBCGJNHP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11FFA920)
 #define DPDFBCGJNHP_IKHMHLJHKDI_OFFSET UNITYSDK_OFFSET(0x11FFABB0)
 
+inline static constexpr unsigned int DPDFBCGJNHP_TypeDefinitionIndex = 54626;
+
 	class DPDFBCGJNHP
 	{
 	public:

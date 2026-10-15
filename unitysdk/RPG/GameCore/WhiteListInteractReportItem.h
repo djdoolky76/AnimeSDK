@@ -9,6 +9,8 @@ namespace RPG::GameCore { class WhiteListInteractReportItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WhiteListInteractReportItem_TypeDefinitionIndex = 17636;
+
 	class WhiteListInteractReportItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

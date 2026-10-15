@@ -3,6 +3,8 @@
 #include "unitysdk/Dest/Math/IntersectionTypes.h"
 #include "unitysdk/RPG/MVector2.h"
 
+inline static constexpr unsigned int IIMAKFLGOCN_TypeDefinitionIndex = 6201;
+
 	struct alignas(4) IIMAKFLGOCN
 	{
 		::Dest::Math::IntersectionTypes DLMLMAGCHJK; // 0x10

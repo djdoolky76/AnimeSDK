@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IDEMGIIKMFC_ODFEJECBJAJ_OFFSET UNITYSDK_OFFSET(0x15EC6370)
 #define IDEMGIIKMFC_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x15EC5110)
 
+inline static constexpr unsigned int IDEMGIIKMFC_TypeDefinitionIndex = 78125;
+
 	class IDEMGIIKMFC : public ::System::Object
 	{
 	public:

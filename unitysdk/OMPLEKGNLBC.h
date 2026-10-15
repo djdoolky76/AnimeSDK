@@ -32,6 +32,8 @@ namespace System { class String; }
 #define OMPLEKGNLBC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEC0150)
 #define OMPLEKGNLBC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEC01B0)
 
+inline static constexpr unsigned int OMPLEKGNLBC_TypeDefinitionIndex = 27993;
+
 	class OMPLEKGNLBC : public ::System::Object
 	{
 	public:

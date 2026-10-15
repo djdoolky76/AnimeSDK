@@ -28,6 +28,8 @@ namespace System { class String; }
 #define PHHLBGLNBHE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF3AD80)
 #define PHHLBGLNBHE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF3ADE0)
 
+inline static constexpr unsigned int PHHLBGLNBHE_TypeDefinitionIndex = 33651;
+
 	class PHHLBGLNBHE : public ::System::Object
 	{
 	public:

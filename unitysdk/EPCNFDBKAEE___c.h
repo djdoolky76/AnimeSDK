@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define EPCNFDBKAEE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E307740)
 #define EPCNFDBKAEE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E307750)
 
+inline static constexpr unsigned int EPCNFDBKAEE___c_TypeDefinitionIndex = 25229;
+
 	class EPCNFDBKAEE___c : public ::System::Object
 	{
 	public:

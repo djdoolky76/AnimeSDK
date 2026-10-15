@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesItemPlaceGridRowControl_TypeDefinitionIndex = 81337;
+
 	class ChenLingFesItemPlaceGridRowControl : public ::Sofa::BaseSofaControl
 	{
 	public:

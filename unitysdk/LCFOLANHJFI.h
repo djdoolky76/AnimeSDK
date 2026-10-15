@@ -9,6 +9,8 @@ namespace System { class String; }
 #define LCFOLANHJFI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0D8D20)
 #define LCFOLANHJFI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0D8A20)
 
+inline static constexpr unsigned int LCFOLANHJFI_TypeDefinitionIndex = 14404;
+
 	class LCFOLANHJFI : public ::System::Object
 	{
 	public:

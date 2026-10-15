@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::InputSystem
 {
+	inline static constexpr unsigned int CommonAdapter_TypeDefinitionIndex = 10093;
+
 	class CommonAdapter : public ::System::Object
 	{
 	public:

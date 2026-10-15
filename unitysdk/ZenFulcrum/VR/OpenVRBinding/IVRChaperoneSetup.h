@@ -23,6 +23,8 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRChaperoneSetup__SetWorkingSta
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRChaperoneSetup_TypeDefinitionIndex = 38993;
+
 	struct alignas(8) IVRChaperoneSetup
 	{
 		::ZenFulcrum::VR::OpenVRBinding::IVRChaperoneSetup__CommitWorkingCopy* CommitWorkingCopy; // 0x10

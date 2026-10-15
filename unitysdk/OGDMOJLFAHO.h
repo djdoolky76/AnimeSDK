@@ -58,6 +58,8 @@ namespace UnityEngine { class Transform; }
 #define OGDMOJLFAHO__ONTICK_OFFSET UNITYSDK_OFFSET(0xBE562D0)
 #define OGDMOJLFAHO___ONBATTLEMONSTERHUDUIPANELALPHACHANGE_B__35_0_OFFSET UNITYSDK_OFFSET(0xBE56E90)
 
+inline static constexpr unsigned int OGDMOJLFAHO_TypeDefinitionIndex = 71744;
+
 	class OGDMOJLFAHO : public ::FMPCODLIOLG
 	{
 	public:

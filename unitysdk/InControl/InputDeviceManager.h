@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int InputDeviceManager_TypeDefinitionIndex = 40841;
+
 	class InputDeviceManager : public ::System::Object
 	{
 	public:

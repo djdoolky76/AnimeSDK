@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PLADCLDJGKK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF9B5B0)
 #define PLADCLDJGKK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF9B610)
 
+inline static constexpr unsigned int PLADCLDJGKK_TypeDefinitionIndex = 30340;
+
 	class PLADCLDJGKK : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 #include "unitysdk/HCHGAEGOFBO_TriggerDisableReason.h"
 namespace System { class String; }
 
+inline static constexpr unsigned int LDJLOIJHLOC_OBHDLHPOJNM_TypeDefinitionIndex = 57455;
+
 	struct alignas(8) LDJLOIJHLOC_OBHDLHPOJNM
 	{
 		::Il2CppArray<::System::String*>* KBJJMGMOFDL; // 0x10

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FormationMoveSetGroupToStation; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FormationMoveSetGroupToStation_TypeDefinitionIndex = 21260;
+
 	class FormationMoveSetGroupToStation : public ::RPG::GameCore::TaskConfig
 	{
 	public:

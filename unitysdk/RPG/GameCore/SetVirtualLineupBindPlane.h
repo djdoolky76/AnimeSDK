@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetVirtualLineupBindPlane; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetVirtualLineupBindPlane_TypeDefinitionIndex = 21611;
+
 	class SetVirtualLineupBindPlane : public ::RPG::GameCore::TaskConfig
 	{
 	public:

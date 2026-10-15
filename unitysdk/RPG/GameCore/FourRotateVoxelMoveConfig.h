@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FourRotateVoxelMoveConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelMoveConfig_TypeDefinitionIndex = 16739;
+
 	class FourRotateVoxelMoveConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

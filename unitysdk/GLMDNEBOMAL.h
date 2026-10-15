@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define GLMDNEBOMAL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15ABD910)
 #define GLMDNEBOMAL_TICK_OFFSET UNITYSDK_OFFSET(0x15ABD2B0)
 
+inline static constexpr unsigned int GLMDNEBOMAL_TypeDefinitionIndex = 58467;
+
 	class GLMDNEBOMAL : public ::GELIALJDFBL
 	{
 	public:

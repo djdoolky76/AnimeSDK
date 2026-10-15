@@ -32,6 +32,8 @@ namespace System { class String; }
 #define IEFICANECDH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E638D80)
 #define IEFICANECDH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E638DE0)
 
+inline static constexpr unsigned int IEFICANECDH_TypeDefinitionIndex = 27723;
+
 	class IEFICANECDH : public ::System::Object
 	{
 	public:

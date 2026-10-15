@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MFDJOHFILED_ONSKIP_OFFSET UNITYSDK_OFFSET(0xB8F0F10)
 #define MFDJOHFILED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8F11C0)
 
+inline static constexpr unsigned int MFDJOHFILED_TypeDefinitionIndex = 52988;
+
 	class MFDJOHFILED
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ALNGMGOJDOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5143D0)
 #define ALNGMGOJDOA___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E5143E0)
 
+inline static constexpr unsigned int ALNGMGOJDOA___c_TypeDefinitionIndex = 30601;
+
 	class ALNGMGOJDOA___c : public ::System::Object
 	{
 	public:

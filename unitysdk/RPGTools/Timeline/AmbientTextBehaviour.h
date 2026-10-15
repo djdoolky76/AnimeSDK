@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class AmbientTextClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int AmbientTextBehaviour_TypeDefinitionIndex = 47847;
+
 	class AmbientTextBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

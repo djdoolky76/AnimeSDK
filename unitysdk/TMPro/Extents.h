@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int Extents_TypeDefinitionIndex = 44686;
+
 	struct alignas(4) Extents
 	{
 		::UnityEngine::Vector2 min; // 0x10

@@ -6,6 +6,8 @@
 
 #define GNEBNHLMFAF_CTOR_OFFSET UNITYSDK_OFFSET(0x15AFF3C0)
 
+inline static constexpr unsigned int GNEBNHLMFAF_TypeDefinitionIndex = 56329;
+
 	class GNEBNHLMFAF : public ::System::Object
 	{
 	public:

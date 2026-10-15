@@ -15,6 +15,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int Stream_ReadWriteTask_TypeDefinitionIndex = 686;
+
 	class Stream_ReadWriteTask
 	{
 	public:

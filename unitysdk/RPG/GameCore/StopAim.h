@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StopAim_TypeDefinitionIndex = 22406;
+
 	class StopAim : public ::RPG::GameCore::TaskConfig
 	{
 	public:

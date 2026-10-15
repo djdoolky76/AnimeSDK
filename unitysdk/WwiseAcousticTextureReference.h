@@ -6,6 +6,8 @@
 #define WWISEACOUSTICTEXTUREREFERENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F636F70)
 #define WWISEACOUSTICTEXTUREREFERENCE_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1F636F60)
 
+inline static constexpr unsigned int WwiseAcousticTextureReference_TypeDefinitionIndex = 44881;
+
 	class WwiseAcousticTextureReference : public ::WwiseObjectReference
 	{
 	public:

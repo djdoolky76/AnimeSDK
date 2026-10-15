@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int AnimationReferenceAsset_TypeDefinitionIndex = 44996;
+
 	class AnimationReferenceAsset : public ::UnityEngine::ScriptableObject
 	{
 	public:

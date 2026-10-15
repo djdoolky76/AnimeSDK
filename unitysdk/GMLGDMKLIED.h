@@ -6,6 +6,8 @@ class KPMHFPMPBBD;
 #define GMLGDMKLIED_CTOR_OFFSET UNITYSDK_OFFSET(0x15AD5700)
 #define GMLGDMKLIED_GIGJMNCIFMJ_OFFSET UNITYSDK_OFFSET(0x15AD55C0)
 
+inline static constexpr unsigned int GMLGDMKLIED_TypeDefinitionIndex = 82138;
+
 	class GMLGDMKLIED : public ::System::Object
 	{
 	public:

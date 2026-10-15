@@ -32,6 +32,8 @@ namespace System { class String; }
 #define GDFEPBJJBJB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E446AA0)
 #define GDFEPBJJBJB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E446B00)
 
+inline static constexpr unsigned int GDFEPBJJBJB_TypeDefinitionIndex = 27657;
+
 	class GDFEPBJJBJB : public ::System::Object
 	{
 	public:

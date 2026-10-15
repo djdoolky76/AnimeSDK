@@ -33,6 +33,8 @@ namespace System { class String; }
 #define LLCBGMJAICJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E997AA0)
 #define LLCBGMJAICJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E997B00)
 
+inline static constexpr unsigned int LLCBGMJAICJ_TypeDefinitionIndex = 26999;
+
 	class LLCBGMJAICJ : public ::System::Object
 	{
 	public:

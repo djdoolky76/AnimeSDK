@@ -31,6 +31,8 @@ namespace System { class String; }
 #define PBMGACMAMBE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEFA6C0)
 #define PBMGACMAMBE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEFA720)
 
+inline static constexpr unsigned int PBMGACMAMBE_TypeDefinitionIndex = 33166;
+
 	class PBMGACMAMBE : public ::System::Object
 	{
 	public:

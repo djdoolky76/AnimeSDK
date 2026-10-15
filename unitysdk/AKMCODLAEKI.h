@@ -29,6 +29,8 @@ namespace System { class String; }
 #define AKMCODLAEKI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3D0E20)
 #define AKMCODLAEKI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3D0E80)
 
+inline static constexpr unsigned int AKMCODLAEKI_TypeDefinitionIndex = 33390;
+
 	class AKMCODLAEKI : public ::System::Object
 	{
 	public:

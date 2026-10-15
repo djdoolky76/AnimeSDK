@@ -13,6 +13,8 @@ class NKNEGBCMFBE;
 #define PDBCIPCDIPC_NAFOMFHONAH_OFFSET UNITYSDK_OFFSET(0x1C9A5450)
 #define PDBCIPCDIPC_PIHIMDLJMFD_OFFSET UNITYSDK_OFFSET(0x1C9A5800)
 
+inline static constexpr unsigned int PDBCIPCDIPC_TypeDefinitionIndex = 42638;
+
 	class PDBCIPCDIPC : public ::Entitas::Entity
 	{
 	public:

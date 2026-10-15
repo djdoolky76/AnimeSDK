@@ -10,6 +10,8 @@
 #define AMEJOLGMDJC_KJPBMOPALOM_1_OFFSET UNITYSDK_OFFSET(0x1557C360)
 #define AMEJOLGMDJC_KJPBMOPALOM_OFFSET UNITYSDK_OFFSET(0x1557C100)
 
+inline static constexpr unsigned int AMEJOLGMDJC_TypeDefinitionIndex = 62170;
+
 	class AMEJOLGMDJC : public ::System::Object
 	{
 	public:

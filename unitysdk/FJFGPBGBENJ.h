@@ -10,6 +10,8 @@ namespace System { class String; }
 #define FJFGPBGBENJ_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0x1CA70E70)
 #define FJFGPBGBENJ_NKAMGFABLPN_OFFSET UNITYSDK_OFFSET(0x1CA70DF0)
 
+inline static constexpr unsigned int FJFGPBGBENJ_TypeDefinitionIndex = 43395;
+
 	class FJFGPBGBENJ : public ::System::Object
 	{
 	public:

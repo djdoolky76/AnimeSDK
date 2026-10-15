@@ -12,6 +12,8 @@ namespace System::Xml { class SecureStringHasher_HashCodeOfStringDelegate; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int SecureStringHasher_TypeDefinitionIndex = 1826;
+
 	class SecureStringHasher : public ::System::Object
 	{
 	public:

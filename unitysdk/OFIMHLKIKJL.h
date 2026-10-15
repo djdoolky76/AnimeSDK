@@ -5,6 +5,8 @@ class AEMJNCDFIAO;
 
 #define OFIMHLKIKJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C98CD80)
 
+inline static constexpr unsigned int OFIMHLKIKJL_TypeDefinitionIndex = 43208;
+
 	class OFIMHLKIKJL : public ::System::Object
 	{
 	public:

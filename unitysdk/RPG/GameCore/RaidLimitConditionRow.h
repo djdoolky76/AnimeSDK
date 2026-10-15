@@ -12,6 +12,8 @@ namespace RPG::GameCore { class RaidLimitConditionRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RaidLimitConditionRow_TypeDefinitionIndex = 14595;
+
 	class RaidLimitConditionRow : public ::System::Object
 	{
 	public:

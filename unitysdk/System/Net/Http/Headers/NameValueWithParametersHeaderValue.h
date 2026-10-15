@@ -22,6 +22,8 @@ namespace System::Net::Http::Headers { class NameValueWithParametersHeaderValue;
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int NameValueWithParametersHeaderValue_TypeDefinitionIndex = 3807;
+
 	class NameValueWithParametersHeaderValue : public ::System::Net::Http::Headers::NameValueHeaderValue
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client { class GridFightGridData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGridCyreneEffect___c__DisplayClass5_0_TypeDefinitionIndex = 64839;
+
 	class GridFightGridCyreneEffect___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

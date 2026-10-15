@@ -7,6 +7,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int TransitionTimelineBehaviour_TypeDefinitionIndex = 48625;
+
 	class TransitionTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -21,6 +21,8 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRRenderModels__RenderModelHasC
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRRenderModels_TypeDefinitionIndex = 39140;
+
 	struct alignas(8) IVRRenderModels
 	{
 		::ZenFulcrum::VR::OpenVRBinding::IVRRenderModels__LoadRenderModel_Async* LoadRenderModel_Async; // 0x10

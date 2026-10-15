@@ -14,6 +14,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesBusinessDayData___c_TypeDefinitionIndex = 66563;
+
 	class PlanetFesBusinessDayData___c : public ::System::Object
 	{
 	public:

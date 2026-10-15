@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlaneSlice_GDALMNIDFNI_TypeDefinitionIndex = 70701;
+
 	struct alignas(4) PlaneSlice_GDALMNIDFNI
 	{
 		::System::Int32 NBPINLGNJOJ; // 0x10

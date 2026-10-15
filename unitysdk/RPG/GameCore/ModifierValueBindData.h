@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ModifierValueBindData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifierValueBindData_TypeDefinitionIndex = 18232;
+
 	class ModifierValueBindData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

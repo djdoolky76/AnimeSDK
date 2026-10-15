@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 #define KMOOKKEFGDF_PKECEGBJLEC_OFFSET UNITYSDK_OFFSET(0xB574C00)
 #define KMOOKKEFGDF__ONBIND_OFFSET UNITYSDK_OFFSET(0xB5746B0)
 
+inline static constexpr unsigned int KMOOKKEFGDF_TypeDefinitionIndex = 71867;
+
 	class KMOOKKEFGDF : public ::GBBIDCKOIOG
 	{
 	public:

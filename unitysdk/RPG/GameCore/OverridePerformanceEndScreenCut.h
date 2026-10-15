@@ -10,6 +10,8 @@ namespace RPG::GameCore { class OverridePerformanceEndScreenCut; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OverridePerformanceEndScreenCut_TypeDefinitionIndex = 21918;
+
 	class OverridePerformanceEndScreenCut : public ::RPG::GameCore::TaskConfig
 	{
 	public:

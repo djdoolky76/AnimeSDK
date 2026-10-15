@@ -42,6 +42,8 @@ namespace UnityEngine { class Transform; }
 #define MARBLETRANSFORMANIMATIONHANDLE_TRIGGERTRANSFORMANIMATION_OFFSET UNITYSDK_OFFSET(0xBA49060)
 #define MARBLETRANSFORMANIMATIONHANDLE_UPDATE_OFFSET UNITYSDK_OFFSET(0xBA46E10)
 
+inline static constexpr unsigned int MarbleTransformAnimationHandle_TypeDefinitionIndex = 47137;
+
 	class MarbleTransformAnimationHandle : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -4,6 +4,8 @@
 #define PDOOHMMHCFN_NDFCJNAMFJG_OFFSET UNITYSDK_OFFSET(0x3C4D7E0)
 #define PDOOHMMHCFN_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x3C4D780)
 
+inline static constexpr unsigned int PDOOHMMHCFN_TypeDefinitionIndex = 6223;
+
 	struct alignas(4) PDOOHMMHCFN
 	{
 		::System::Single CNAEHKPLENB; // 0x10

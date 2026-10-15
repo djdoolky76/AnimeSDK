@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByLocalPlayerIsFakeAvatar_TypeDefinitionIndex = 20585;
+
 	class ByLocalPlayerIsFakeAvatar : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

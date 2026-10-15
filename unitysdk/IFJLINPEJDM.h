@@ -15,6 +15,8 @@ namespace UnityEngine { class GameObject; }
 #define IFJLINPEJDM_ONSCENELIGHTFADING_OFFSET UNITYSDK_OFFSET(0x15F1DD80)
 #define IFJLINPEJDM_UNSERIALIZEASYNC_OFFSET UNITYSDK_OFFSET(0x15F1DBF0)
 
+inline static constexpr unsigned int IFJLINPEJDM_TypeDefinitionIndex = 49048;
+
 	class IFJLINPEJDM
 	{
 	public:

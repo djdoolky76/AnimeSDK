@@ -30,6 +30,8 @@ namespace System { class String; }
 #define HKNFAFFEHDL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5B7050)
 #define HKNFAFFEHDL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5B70B0)
 
+inline static constexpr unsigned int HKNFAFFEHDL_TypeDefinitionIndex = 26721;
+
 	class HKNFAFFEHDL : public ::System::Object
 	{
 	public:

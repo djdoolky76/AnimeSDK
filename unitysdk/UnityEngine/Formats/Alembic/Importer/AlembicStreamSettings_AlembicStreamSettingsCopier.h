@@ -7,6 +7,8 @@ namespace UnityEngine::Formats::Alembic::Importer { class AlembicStreamSettings;
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicStreamSettings_AlembicStreamSettingsCopier_TypeDefinitionIndex = 45861;
+
 	class AlembicStreamSettings_AlembicStreamSettingsCopier : public ::UnityEngine::ScriptableObject
 	{
 	public:

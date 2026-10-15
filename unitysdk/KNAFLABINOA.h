@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KNAFLABINOA_PLGEBDDNCKC_OFFSET UNITYSDK_OFFSET(0xB575CF0)
 #define KNAFLABINOA_SET_LEVELID_OFFSET UNITYSDK_OFFSET(0xB575CC0)
 
+inline static constexpr unsigned int KNAFLABINOA_TypeDefinitionIndex = 63852;
+
 	class KNAFLABINOA : public ::System::Object
 	{
 	public:

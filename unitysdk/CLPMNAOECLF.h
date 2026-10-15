@@ -17,6 +17,8 @@ namespace RPG::GameCore { class WaitAnimStateChange; }
 #define CLPMNAOECLF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xDA23B40)
 #define CLPMNAOECLF_TICK_OFFSET UNITYSDK_OFFSET(0xDA23B90)
 
+inline static constexpr unsigned int CLPMNAOECLF_TypeDefinitionIndex = 58850;
+
 	class CLPMNAOECLF : public ::GELIALJDFBL
 	{
 	public:

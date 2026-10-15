@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TransformComponent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterFormationrComponentExtension_TypeDefinitionIndex = 56942;
+
 	class CharacterFormationrComponentExtension : public ::System::Object
 	{
 	public:

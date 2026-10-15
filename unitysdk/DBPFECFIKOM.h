@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define DBPFECFIKOM_NEKLMMHMCFB_OFFSET UNITYSDK_OFFSET(0x1C54D730)
 #define DBPFECFIKOM_PFABKAHHLDA_OFFSET UNITYSDK_OFFSET(0x1C54D780)
 
+inline static constexpr unsigned int DBPFECFIKOM_TypeDefinitionIndex = 41838;
+
 	class DBPFECFIKOM : public ::System::Object
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System { class Array; }
 
 namespace System
 {
+	inline static constexpr unsigned int Buffer_TypeDefinitionIndex = 206;
+
 	class Buffer : public ::System::Object
 	{
 	public:

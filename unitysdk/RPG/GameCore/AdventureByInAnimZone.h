@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureByInAnimZone_TypeDefinitionIndex = 20007;
+
 	class AdventureByInAnimZone : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

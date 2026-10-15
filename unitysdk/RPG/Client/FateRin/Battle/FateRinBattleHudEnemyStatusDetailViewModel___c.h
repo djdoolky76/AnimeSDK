@@ -13,6 +13,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudEnemyStatusDetailViewModel___c_TypeDefinitionIndex = 80910;
+
 	class FateRinBattleHudEnemyStatusDetailViewModel___c : public ::System::Object
 	{
 	public:

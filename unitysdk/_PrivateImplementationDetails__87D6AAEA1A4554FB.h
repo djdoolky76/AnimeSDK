@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/_PrivateImplementationDetails__87D6AAEA1A4554FB___StaticArrayInitTypeSize_32.h"
 
+inline static constexpr unsigned int _PrivateImplementationDetails__87D6AAEA1A4554FB_TypeDefinitionIndex = 4957;
+
 	class _PrivateImplementationDetails__87D6AAEA1A4554FB : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CELKIABDADM_CTOR_OFFSET UNITYSDK_OFFSET(0xC9E6180)
 #define CELKIABDADM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC9E6260)
 
+inline static constexpr unsigned int CELKIABDADM_TypeDefinitionIndex = 55479;
+
 	class CELKIABDADM
 	{
 	public:

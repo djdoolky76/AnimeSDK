@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EnableStoryWin; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnableStoryWin_TypeDefinitionIndex = 23315;
+
 	class EnableStoryWin : public ::RPG::GameCore::TaskConfig
 	{
 	public:

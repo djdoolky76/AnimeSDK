@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesQuestType_TypeDefinitionIndex = 12220;
+
 	enum class PlanetFesQuestType : ::System::Int32
 	{
 		None = 0,

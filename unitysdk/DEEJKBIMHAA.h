@@ -16,6 +16,8 @@ namespace System { class Random; }
 #define DEEJKBIMHAA_MDFJMMIBNEJ_OFFSET UNITYSDK_OFFSET(0xE506B50)
 #define DEEJKBIMHAA_SET_SEED_OFFSET UNITYSDK_OFFSET(0xE507220)
 
+inline static constexpr unsigned int DEEJKBIMHAA_TypeDefinitionIndex = 56182;
+
 	class DEEJKBIMHAA : public ::System::Object
 	{
 	public:

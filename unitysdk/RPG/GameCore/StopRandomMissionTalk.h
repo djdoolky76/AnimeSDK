@@ -10,6 +10,8 @@ namespace RPG::GameCore { class StopRandomMissionTalk; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StopRandomMissionTalk_TypeDefinitionIndex = 20847;
+
 	class StopRandomMissionTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

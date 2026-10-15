@@ -31,6 +31,8 @@ namespace System { class String; }
 #define KDNMOFGMMNP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E806150)
 #define KDNMOFGMMNP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8061B0)
 
+inline static constexpr unsigned int KDNMOFGMMNP_TypeDefinitionIndex = 33756;
+
 	class KDNMOFGMMNP : public ::System::Object
 	{
 	public:

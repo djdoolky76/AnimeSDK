@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DamageBehaviorTemplate_TypeDefinitionIndex = 15646;
+
 	class DamageBehaviorTemplate : public ::RPG::GameCore::JsonConfig
 	{
 	public:

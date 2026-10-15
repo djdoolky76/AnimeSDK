@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CreateBattleTarget_TypeDefinitionIndex = 23182;
+
 	class CreateBattleTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:

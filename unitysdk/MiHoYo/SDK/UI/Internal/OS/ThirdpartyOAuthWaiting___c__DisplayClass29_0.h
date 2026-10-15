@@ -9,6 +9,8 @@ namespace MiHoYo::SDK::UI::Internal::OS { class ThirdpartyOAuthWaiting; }
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
+	inline static constexpr unsigned int ThirdpartyOAuthWaiting___c__DisplayClass29_0_TypeDefinitionIndex = 8440;
+
 	class ThirdpartyOAuthWaiting___c__DisplayClass29_0 : public ::System::Object
 	{
 	public:

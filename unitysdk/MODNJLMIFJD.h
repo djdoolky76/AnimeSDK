@@ -31,6 +31,8 @@ namespace System { class String; }
 #define MODNJLMIFJD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAA5F00)
 #define MODNJLMIFJD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAA5F60)
 
+inline static constexpr unsigned int MODNJLMIFJD_TypeDefinitionIndex = 25142;
+
 	class MODNJLMIFJD : public ::System::Object
 	{
 	public:

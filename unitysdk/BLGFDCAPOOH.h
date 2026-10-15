@@ -32,6 +32,8 @@ namespace System { class String; }
 #define BLGFDCAPOOH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF60B60)
 #define BLGFDCAPOOH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF60BC0)
 
+inline static constexpr unsigned int BLGFDCAPOOH_TypeDefinitionIndex = 27864;
+
 	class BLGFDCAPOOH : public ::System::Object
 	{
 	public:

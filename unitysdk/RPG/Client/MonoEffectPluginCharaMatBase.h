@@ -12,6 +12,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginCharaMatBase_TypeDefinitionIndex = 69945;
+
 	class MonoEffectPluginCharaMatBase : public ::RPG::Client::MonoEffectPluginCharaEffectBase
 	{
 	public:

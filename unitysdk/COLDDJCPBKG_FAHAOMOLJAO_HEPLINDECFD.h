@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define COLDDJCPBKG_FAHAOMOLJAO_HEPLINDECFD_CTOR_OFFSET UNITYSDK_OFFSET(0xDCBAE80)
 
+inline static constexpr unsigned int COLDDJCPBKG_FAHAOMOLJAO_HEPLINDECFD_TypeDefinitionIndex = 77458;
+
 	class COLDDJCPBKG_FAHAOMOLJAO_HEPLINDECFD : public ::System::Object
 	{
 	public:

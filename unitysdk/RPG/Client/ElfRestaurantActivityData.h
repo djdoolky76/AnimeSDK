@@ -18,6 +18,8 @@ namespace RPG::Client { class ElfRestaurantModule; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfRestaurantActivityData_TypeDefinitionIndex = 61614;
+
 	class ElfRestaurantActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

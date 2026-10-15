@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CFIFGPLIOAA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCC4EB60)
 #define CFIFGPLIOAA_TICK_OFFSET UNITYSDK_OFFSET(0xCC4EB00)
 
+inline static constexpr unsigned int CFIFGPLIOAA_TypeDefinitionIndex = 52289;
+
 	class CFIFGPLIOAA
 	{
 	public:

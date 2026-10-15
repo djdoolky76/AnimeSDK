@@ -4,6 +4,8 @@
 #include "unitysdk/RPG/GameCore/LittleGameEntityType.h"
 #include "unitysdk/RPG/GameCore/LittleGameSmartObjectType.h"
 
+inline static constexpr unsigned int LDMIMCIHMFL_TypeDefinitionIndex = 76531;
+
 	struct alignas(4) LDMIMCIHMFL
 	{
 		::RPG::GameCore::LittleGameSmartObjectType KPDDLPBGDLD; // 0x10

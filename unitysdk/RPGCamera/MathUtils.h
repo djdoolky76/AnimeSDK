@@ -21,6 +21,8 @@
 
 namespace RPGCamera
 {
+	inline static constexpr unsigned int MathUtils_TypeDefinitionIndex = 45958;
+
 	class MathUtils : public ::System::Object
 	{
 	public:

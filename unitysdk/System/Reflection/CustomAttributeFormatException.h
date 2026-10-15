@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int CustomAttributeFormatException_TypeDefinitionIndex = 601;
+
 	class CustomAttributeFormatException : public ::System::FormatException
 	{
 	public:

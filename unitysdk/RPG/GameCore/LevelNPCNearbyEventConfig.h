@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelNPCNearbyEventConfig_TypeDefinitionIndex = 17274;
+
 	class LevelNPCNearbyEventConfig : public ::RPG::GameCore::LevelNPCNearbyConfig
 	{
 	public:

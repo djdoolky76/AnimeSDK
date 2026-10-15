@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int GuijiDiceRollTrack_TypeDefinitionIndex = 48135;
+
 	class GuijiDiceRollTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:

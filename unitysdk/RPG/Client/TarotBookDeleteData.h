@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TarotBookDeleteData_TypeDefinitionIndex = 68058;
+
 	class TarotBookDeleteData : public ::System::Object
 	{
 	public:

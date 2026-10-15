@@ -29,6 +29,8 @@ namespace System { class String; }
 #define NOAKCDKAAFB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB88150)
 #define NOAKCDKAAFB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB881B0)
 
+inline static constexpr unsigned int NOAKCDKAAFB_TypeDefinitionIndex = 33519;
+
 	class NOAKCDKAAFB : public ::System::Object
 	{
 	public:

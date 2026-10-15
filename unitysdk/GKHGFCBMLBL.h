@@ -47,6 +47,8 @@ namespace System { class String; }
 #define GKHGFCBMLBL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4B40B0)
 #define GKHGFCBMLBL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4B4110)
 
+inline static constexpr unsigned int GKHGFCBMLBL_TypeDefinitionIndex = 32686;
+
 	class GKHGFCBMLBL : public ::System::Object
 	{
 	public:

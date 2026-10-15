@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int OraclePuzzlePanel___c__DisplayClass8_0_TypeDefinitionIndex = 78741;
+
 	class OraclePuzzlePanel___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

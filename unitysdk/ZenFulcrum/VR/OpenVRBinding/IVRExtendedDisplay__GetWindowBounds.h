@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRExtendedDisplay__GetWindowBounds_TypeDefinitionIndex = 38936;
+
 	class IVRExtendedDisplay__GetWindowBounds : public ::System::MulticastDelegate
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define MPIMMHDEAGO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAB9760)
 #define MPIMMHDEAGO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAB97C0)
 
+inline static constexpr unsigned int MPIMMHDEAGO_TypeDefinitionIndex = 31123;
+
 	class MPIMMHDEAGO : public ::System::Object
 	{
 	public:

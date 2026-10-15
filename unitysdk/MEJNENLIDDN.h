@@ -31,6 +31,8 @@ namespace UnityEngine { class RectTransform; }
 #define MEJNENLIDDN__ONBIND_OFFSET UNITYSDK_OFFSET(0xB8DAD50)
 #define MEJNENLIDDN__ONTICK_OFFSET UNITYSDK_OFFSET(0xB8DB490)
 
+inline static constexpr unsigned int MEJNENLIDDN_TypeDefinitionIndex = 71457;
+
 	class MEJNENLIDDN : public ::FMPCODLIOLG
 	{
 	public:

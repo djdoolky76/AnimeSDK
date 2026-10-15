@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TriggerHitTarget; }
 #define FNGLHFPADGA_NICNFGOAOHI_OFFSET UNITYSDK_OFFSET(0x15870A50)
 #define FNGLHFPADGA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15870A00)
 
+inline static constexpr unsigned int FNGLHFPADGA_TypeDefinitionIndex = 58789;
+
 	class FNGLHFPADGA
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeRewindRecordTrigger_TypeDefinitionIndex = 68862;
+
 	class TimeRewindRecordTrigger : public ::UnityEngine::MonoBehaviour
 	{
 	public:

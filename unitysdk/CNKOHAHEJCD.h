@@ -9,6 +9,8 @@ namespace System { class Action; }
 #define CNKOHAHEJCD_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xDA58110)
 #define CNKOHAHEJCD_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xDA58090)
 
+inline static constexpr unsigned int CNKOHAHEJCD_TypeDefinitionIndex = 78162;
+
 	class CNKOHAHEJCD : public ::AJHHFMBOCEN
 	{
 	public:

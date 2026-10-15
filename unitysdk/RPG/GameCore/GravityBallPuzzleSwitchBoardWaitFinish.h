@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GravityBallPuzzleSwitchBoardWaitFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GravityBallPuzzleSwitchBoardWaitFinish_TypeDefinitionIndex = 20379;
+
 	class GravityBallPuzzleSwitchBoardWaitFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

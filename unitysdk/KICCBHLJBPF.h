@@ -8,6 +8,8 @@ class KKGMHJNMOID;
 #define KICCBHLJBPF_CTOR_OFFSET UNITYSDK_OFFSET(0xB419970)
 #define KICCBHLJBPF_LNFHELMBBHB_OFFSET UNITYSDK_OFFSET(0xB419980)
 
+inline static constexpr unsigned int KICCBHLJBPF_TypeDefinitionIndex = 80098;
+
 	class KICCBHLJBPF : public ::System::Object
 	{
 	public:

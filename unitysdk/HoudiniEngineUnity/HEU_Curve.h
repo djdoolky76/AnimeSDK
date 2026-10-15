@@ -92,6 +92,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_Curve_TypeDefinitionIndex = 40380;
+
 	class HEU_Curve : public ::UnityEngine::ScriptableObject
 	{
 	public:

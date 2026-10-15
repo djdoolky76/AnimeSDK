@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define ADAMIEPFBJK__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xB133BD0)
 #define ADAMIEPFBJK__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xB133C70)
 
+inline static constexpr unsigned int ADAMIEPFBJK_TypeDefinitionIndex = 58922;
+
 	class ADAMIEPFBJK
 	{
 	public:

@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_FiveDimPropScreenSpaceGPUParticleMonoPlugin_TypeDefinitionIndex = 70473;
+
 	class Effect_FiveDimPropScreenSpaceGPUParticleMonoPlugin
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KNOGAGKIKHH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8A86B0)
 #define KNOGAGKIKHH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8A8710)
 
+inline static constexpr unsigned int KNOGAGKIKHH_TypeDefinitionIndex = 26892;
+
 	class KNOGAGKIKHH : public ::System::Object
 	{
 	public:

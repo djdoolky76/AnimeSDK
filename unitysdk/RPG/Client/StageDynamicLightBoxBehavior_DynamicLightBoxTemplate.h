@@ -14,6 +14,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageDynamicLightBoxBehavior_DynamicLightBoxTemplate_TypeDefinitionIndex = 70957;
+
 	class StageDynamicLightBoxBehavior_DynamicLightBoxTemplate : public ::System::Object
 	{
 	public:

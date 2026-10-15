@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitNewDecalDialogExit; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitNewDecalDialogExit_TypeDefinitionIndex = 21682;
+
 	class WaitNewDecalDialogExit : public ::RPG::GameCore::TaskConfig
 	{
 	public:

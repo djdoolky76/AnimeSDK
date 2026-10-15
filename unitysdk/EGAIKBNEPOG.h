@@ -11,6 +11,8 @@ namespace System { class String; }
 #define EGAIKBNEPOG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD7A7D0)
 #define EGAIKBNEPOG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD7A730)
 
+inline static constexpr unsigned int EGAIKBNEPOG_TypeDefinitionIndex = 23121;
+
 	class EGAIKBNEPOG : public ::RPG::GameCore::TaskConfig
 	{
 	public:

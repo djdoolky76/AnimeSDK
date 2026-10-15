@@ -13,6 +13,8 @@ class AkTaskContext;
 #define AKTASKCONTEXT_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1F60F350)
 #define AKTASKCONTEXT_SET_UIDXTHREAD_OFFSET UNITYSDK_OFFSET(0x1F60F780)
 
+inline static constexpr unsigned int AkTaskContext_TypeDefinitionIndex = 44792;
+
 	class AkTaskContext : public ::System::Object
 	{
 	public:

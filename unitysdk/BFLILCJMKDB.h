@@ -4,6 +4,8 @@
 
 #define BFLILCJMKDB_CTOR_OFFSET UNITYSDK_OFFSET(0xB173230)
 
+inline static constexpr unsigned int BFLILCJMKDB_TypeDefinitionIndex = 62039;
+
 	class BFLILCJMKDB : public ::System::Object
 	{
 	public:

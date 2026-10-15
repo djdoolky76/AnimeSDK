@@ -11,6 +11,8 @@ class PNOIMIPEOFA;
 #define GBJLCLBJEKP__CREATE_G__ADDENPCF07ID_2_1_OFFSET UNITYSDK_OFFSET(0x15951B00)
 #define GBJLCLBJEKP__CREATE_G__ISTARGET_2_0_OFFSET UNITYSDK_OFFSET(0x15951AF0)
 
+inline static constexpr unsigned int GBJLCLBJEKP_TypeDefinitionIndex = 62627;
+
 	class GBJLCLBJEKP : public ::System::Object
 	{
 	public:

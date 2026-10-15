@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TrainPartyGridMove; }
 #define ICDFCHFKKLI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15E4D390)
 #define ICDFCHFKKLI_TICK_OFFSET UNITYSDK_OFFSET(0x15E4D3E0)
 
+inline static constexpr unsigned int ICDFCHFKKLI_TypeDefinitionIndex = 53426;
+
 	class ICDFCHFKKLI : public ::GELIALJDFBL
 	{
 	public:

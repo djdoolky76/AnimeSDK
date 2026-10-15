@@ -4,6 +4,8 @@
 
 #define GKPDKBNFDGM_CTOR_OFFSET UNITYSDK_OFFSET(0x15AA8D10)
 
+inline static constexpr unsigned int GKPDKBNFDGM_TypeDefinitionIndex = 61932;
+
 	class GKPDKBNFDGM : public ::System::Object
 	{
 	public:

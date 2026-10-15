@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Scripting
 {
+	inline static constexpr unsigned int ScriptingStringHelper_TypeDefinitionIndex = 4505;
+
 	class ScriptingStringHelper : public ::System::Object
 	{
 	public:

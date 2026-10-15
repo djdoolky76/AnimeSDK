@@ -6,6 +6,8 @@
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int AsymmetricKeyExchangeFormatter_TypeDefinitionIndex = 1001;
+
 	class AsymmetricKeyExchangeFormatter : public ::System::Object
 	{
 	public:

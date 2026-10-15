@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TitanAtlasModule_TypeDefinitionIndex = 68144;
+
 	class TitanAtlasModule : public ::RPG::Client::BaseModule
 	{
 	public:

@@ -4,6 +4,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace ZLinq::Linq
 {
+	inline static constexpr unsigned int WhereSelect_3_TypeDefinitionIndex = 6144;
+
 	template <typename T1, typename T2, typename T3>
 	struct alignas(8) WhereSelect_3
 	{

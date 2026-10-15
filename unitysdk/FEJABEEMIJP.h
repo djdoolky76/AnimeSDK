@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FEJABEEMIJP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x157240F0)
 #define FEJABEEMIJP_TICK_OFFSET UNITYSDK_OFFSET(0x15724570)
 
+inline static constexpr unsigned int FEJABEEMIJP_TypeDefinitionIndex = 53213;
+
 	class FEJABEEMIJP : public ::GELIALJDFBL
 	{
 	public:

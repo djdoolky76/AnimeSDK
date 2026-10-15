@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelGraphConfig; }
 #define NBFOJHKNPAH_ELPMPOGCFKJ_OFFSET UNITYSDK_OFFSET(0xBABF5A0)
 #define NBFOJHKNPAH_PFIMFPODNHH_OFFSET UNITYSDK_OFFSET(0xBABF7F0)
 
+inline static constexpr unsigned int NBFOJHKNPAH_TypeDefinitionIndex = 66446;
+
 	class NBFOJHKNPAH : public ::System::Object
 	{
 	public:

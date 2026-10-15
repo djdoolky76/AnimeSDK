@@ -6,6 +6,8 @@ namespace RPG::Client { class CameraModuleConfigBase; }
 #define LIKIAJGIOJH_MCFPEMJCHFJ_CLEAR_OFFSET UNITYSDK_OFFSET(0xB6D6820)
 #define LIKIAJGIOJH_MCFPEMJCHFJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB6D6880)
 
+inline static constexpr unsigned int LIKIAJGIOJH_MCFPEMJCHFJ_TypeDefinitionIndex = 69672;
+
 	class LIKIAJGIOJH_MCFPEMJCHFJ : public ::System::Object
 	{
 	public:

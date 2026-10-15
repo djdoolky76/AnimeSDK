@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EJHBNBEDHJL_KBBJDEPLEAG_OFFSET UNITYSDK_OFFSET(0x154DBC20)
 #define EJHBNBEDHJL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154DB980)
 
+inline static constexpr unsigned int EJHBNBEDHJL_TypeDefinitionIndex = 57871;
+
 	class EJHBNBEDHJL
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightRoleProperty_TypeDefinitionIndex = 65144;
+
 	class GridFightRoleProperty : public ::System::Object
 	{
 	public:

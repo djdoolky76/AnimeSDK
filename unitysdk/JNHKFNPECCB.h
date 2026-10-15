@@ -28,6 +28,8 @@ namespace System { class String; }
 #define JNHKFNPECCB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7977B0)
 #define JNHKFNPECCB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E797810)
 
+inline static constexpr unsigned int JNHKFNPECCB_TypeDefinitionIndex = 30636;
+
 	class JNHKFNPECCB : public ::System::Object
 	{
 	public:

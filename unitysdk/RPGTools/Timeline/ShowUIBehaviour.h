@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ShowUIBehaviour_TypeDefinitionIndex = 48408;
+
 	class ShowUIBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
 	public:

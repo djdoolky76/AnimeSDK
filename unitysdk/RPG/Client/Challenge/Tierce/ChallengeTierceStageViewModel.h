@@ -53,6 +53,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceStageViewModel_TypeDefinitionIndex = 81576;
+
 	class ChallengeTierceStageViewModel : public ::System::Object
 	{
 	public:

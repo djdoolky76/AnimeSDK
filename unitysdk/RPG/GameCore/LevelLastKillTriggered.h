@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelLastKillTriggered_TypeDefinitionIndex = 56841;
+
 	class LevelLastKillTriggered : public ::System::Object
 	{
 	public:

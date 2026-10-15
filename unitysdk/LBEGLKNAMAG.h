@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerDialogueEvent; }
 #define LBEGLKNAMAG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB5F9BB0)
 #define LBEGLKNAMAG_TICK_OFFSET UNITYSDK_OFFSET(0xB5F9C00)
 
+inline static constexpr unsigned int LBEGLKNAMAG_TypeDefinitionIndex = 58777;
+
 	class LBEGLKNAMAG : public ::GELIALJDFBL
 	{
 	public:

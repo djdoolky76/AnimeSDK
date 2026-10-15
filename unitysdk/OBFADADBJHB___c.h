@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define OBFADADBJHB___C__SETIGNOREEXTERNALCOLLISION_B__6_0_OFFSET UNITYSDK_OFFSET(0xBD3D060)
 #define OBFADADBJHB___C__SETIGNOREEXTERNALCOLLISION_B__6_1_OFFSET UNITYSDK_OFFSET(0xBD3D090)
 
+inline static constexpr unsigned int OBFADADBJHB___c_TypeDefinitionIndex = 76886;
+
 	class OBFADADBJHB___c : public ::System::Object
 	{
 	public:

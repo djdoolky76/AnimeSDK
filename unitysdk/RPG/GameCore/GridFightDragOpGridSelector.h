@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GridFightDragOpGridSelector; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightDragOpGridSelector_TypeDefinitionIndex = 19956;
+
 	class GridFightDragOpGridSelector : public ::RPG::GameCore::GridFightDragOpParamBase
 	{
 	public:

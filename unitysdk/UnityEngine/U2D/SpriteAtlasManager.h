@@ -13,6 +13,8 @@ namespace UnityEngine::U2D { class SpriteAtlas; }
 
 namespace UnityEngine::U2D
 {
+	inline static constexpr unsigned int SpriteAtlasManager_TypeDefinitionIndex = 4424;
+
 	class SpriteAtlasManager : public ::System::Object
 	{
 	public:

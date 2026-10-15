@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Google::Protobuf
 {
+	inline static constexpr unsigned int UnknownField_TypeDefinitionIndex = 5413;
+
 	class UnknownField : public ::System::Object
 	{
 	public:

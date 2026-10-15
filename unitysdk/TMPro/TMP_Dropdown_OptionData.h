@@ -15,6 +15,8 @@ namespace UnityEngine { class Sprite; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_Dropdown_OptionData_TypeDefinitionIndex = 44562;
+
 	class TMP_Dropdown_OptionData : public ::System::Object
 	{
 	public:

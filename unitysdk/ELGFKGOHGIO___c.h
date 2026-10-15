@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ELGFKGOHGIO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2D06C0)
 #define ELGFKGOHGIO___C___CCTOR_B__58_0_OFFSET UNITYSDK_OFFSET(0x1E2D06D0)
 
+inline static constexpr unsigned int ELGFKGOHGIO___c_TypeDefinitionIndex = 25391;
+
 	class ELGFKGOHGIO___c : public ::System::Object
 	{
 	public:

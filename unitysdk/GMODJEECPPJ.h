@@ -34,6 +34,8 @@ namespace System { class String; }
 #define GMODJEECPPJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4D71F0)
 #define GMODJEECPPJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4D7250)
 
+inline static constexpr unsigned int GMODJEECPPJ_TypeDefinitionIndex = 31960;
+
 	class GMODJEECPPJ : public ::System::Object
 	{
 	public:

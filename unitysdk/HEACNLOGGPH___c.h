@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HEACNLOGGPH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E556A40)
 #define HEACNLOGGPH___C___CCTOR_B__98_0_OFFSET UNITYSDK_OFFSET(0x1E556A50)
 
+inline static constexpr unsigned int HEACNLOGGPH___c_TypeDefinitionIndex = 34083;
+
 	class HEACNLOGGPH___c : public ::System::Object
 	{
 	public:

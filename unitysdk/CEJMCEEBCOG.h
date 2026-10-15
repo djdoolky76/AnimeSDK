@@ -30,6 +30,8 @@ namespace System { class String; }
 #define CEJMCEEBCOG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E095F80)
 #define CEJMCEEBCOG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E095FE0)
 
+inline static constexpr unsigned int CEJMCEEBCOG_TypeDefinitionIndex = 34304;
+
 	class CEJMCEEBCOG : public ::System::Object
 	{
 	public:

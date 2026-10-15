@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Google::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int EnumValue___c_TypeDefinitionIndex = 5453;
+
 	class EnumValue___c : public ::System::Object
 	{
 	public:

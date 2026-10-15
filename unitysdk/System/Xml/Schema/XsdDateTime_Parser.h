@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XsdDateTime_Parser_TypeDefinitionIndex = 2237;
+
 	struct alignas(8) XsdDateTime_Parser
 	{
 		::System::Xml::Schema::XsdDateTime_DateTimeTypeCode typeCode; // 0x10

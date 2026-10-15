@@ -5,6 +5,8 @@
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int LoopListView2_PredictSnapValue_TypeDefinitionIndex = 47666;
+
 	struct alignas(4) LoopListView2_PredictSnapValue
 	{
 		::System::Single PredictSnapStartTime; // 0x10

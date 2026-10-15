@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define HJGEFIGGFPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAECA20)
 
+inline static constexpr unsigned int HJGEFIGGFPL_TypeDefinitionIndex = 43281;
+
 	class HJGEFIGGFPL : public ::System::Object
 	{
 	public:

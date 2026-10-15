@@ -29,6 +29,8 @@ namespace System { class String; }
 #define IALCLGBDMBL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E608820)
 #define IALCLGBDMBL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E608880)
 
+inline static constexpr unsigned int IALCLGBDMBL_TypeDefinitionIndex = 27661;
+
 	class IALCLGBDMBL : public ::System::Object
 	{
 	public:

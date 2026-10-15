@@ -60,6 +60,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define NCINHOOPPNG_SET_SPECIALSHOWSKILL_OFFSET UNITYSDK_OFFSET(0xBB116E0)
 #define NCINHOOPPNG_SET_TYPE_OFFSET UNITYSDK_OFFSET(0xBB11460)
 
+inline static constexpr unsigned int NCINHOOPPNG_TypeDefinitionIndex = 51978;
+
 	class NCINHOOPPNG : public ::System::Object
 	{
 	public:

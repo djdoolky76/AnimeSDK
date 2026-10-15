@@ -27,6 +27,8 @@ namespace System { class String; }
 #define NIHMFACHENB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB30370)
 #define NIHMFACHENB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB303D0)
 
+inline static constexpr unsigned int NIHMFACHENB_TypeDefinitionIndex = 26254;
+
 	class NIHMFACHENB : public ::System::Object
 	{
 	public:

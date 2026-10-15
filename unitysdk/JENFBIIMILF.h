@@ -6,6 +6,8 @@
 #define JENFBIIMILF_CLEAR_OFFSET UNITYSDK_OFFSET(0x16641BA0)
 #define JENFBIIMILF_CTOR_OFFSET UNITYSDK_OFFSET(0x16641BF0)
 
+inline static constexpr unsigned int JENFBIIMILF_TypeDefinitionIndex = 53734;
+
 	class JENFBIIMILF : public ::System::Object
 	{
 	public:

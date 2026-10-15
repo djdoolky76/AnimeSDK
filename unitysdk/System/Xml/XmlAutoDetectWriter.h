@@ -52,6 +52,8 @@ namespace System::Xml { class XmlWriterSettings; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlAutoDetectWriter_TypeDefinitionIndex = 1833;
+
 	class XmlAutoDetectWriter : public ::System::Xml::XmlRawWriter
 	{
 	public:

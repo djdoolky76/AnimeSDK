@@ -5,6 +5,8 @@
 
 #define EKOJBGEHGDL_CTOR_OFFSET UNITYSDK_OFFSET(0x155181E0)
 
+inline static constexpr unsigned int EKOJBGEHGDL_TypeDefinitionIndex = 78848;
+
 	class EKOJBGEHGDL : public ::System::Object
 	{
 	public:

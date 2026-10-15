@@ -33,6 +33,8 @@ namespace System { class String; }
 #define LFCKLPMBGGI_SET_SUBPACKID_OFFSET UNITYSDK_OFFSET(0x1C4AD7D0)
 #define LFCKLPMBGGI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C4ADBF0)
 
+inline static constexpr unsigned int LFCKLPMBGGI_TypeDefinitionIndex = 41529;
+
 	class LFCKLPMBGGI : public ::System::Object
 	{
 	public:

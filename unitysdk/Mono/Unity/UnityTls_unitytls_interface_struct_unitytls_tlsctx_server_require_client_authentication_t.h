@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace Mono::Unity
 {
+	inline static constexpr unsigned int UnityTls_unitytls_interface_struct_unitytls_tlsctx_server_require_client_authentication_t_TypeDefinitionIndex = 2388;
+
 	class UnityTls_unitytls_interface_struct_unitytls_tlsctx_server_require_client_authentication_t : public ::System::MulticastDelegate
 	{
 	public:

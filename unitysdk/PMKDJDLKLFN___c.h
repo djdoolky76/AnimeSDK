@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define PMKDJDLKLFN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F8DF0)
 #define PMKDJDLKLFN___C___DOSKILLACTION_B__6_0_OFFSET UNITYSDK_OFFSET(0x1C9F8E00)
 
+inline static constexpr unsigned int PMKDJDLKLFN___c_TypeDefinitionIndex = 42306;
+
 	class PMKDJDLKLFN___c : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define DHNKODLKONN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEBEC010)
 #define DHNKODLKONN_TICK_OFFSET UNITYSDK_OFFSET(0xEBEC060)
 
+inline static constexpr unsigned int DHNKODLKONN_TypeDefinitionIndex = 58856;
+
 	class DHNKODLKONN : public ::GELIALJDFBL
 	{
 	public:

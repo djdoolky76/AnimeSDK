@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HeadLookAt_TypeDefinitionIndex = 21680;
+
 	class HeadLookAt : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActPersonaReplaceRoomCardByCompositionTypeC
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActPersonaReplaceRoomCardByCompositionTypeConfig_TypeDefinitionIndex = 19774;
+
 	class RogueActPersonaReplaceRoomCardByCompositionTypeConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

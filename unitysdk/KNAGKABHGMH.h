@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 #define KNAGKABHGMH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB576AC0)
 #define KNAGKABHGMH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB576B20)
 
+inline static constexpr unsigned int KNAGKABHGMH_TypeDefinitionIndex = 58048;
+
 	class KNAGKABHGMH
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Threading { class CancellationTokenSource; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int CancellationTokenDisposable_TypeDefinitionIndex = 45600;
+
 	class CancellationTokenDisposable : public ::System::Object
 	{
 	public:

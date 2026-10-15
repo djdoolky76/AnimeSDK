@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlWellFormedWriter_AttrName_TypeDefinitionIndex = 1878;
+
 	struct alignas(8) XmlWellFormedWriter_AttrName
 	{
 		::System::String* prefix; // 0x10

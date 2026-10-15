@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CONFLICT_CONFLICTMODEL_GET_MAINMISSIONID_OFFSET UNITYSDK_OFFSET(0xDFB1A50)
 #define CONFLICT_CONFLICTMODEL_SET_MAINMISSIONID_OFFSET UNITYSDK_OFFSET(0xDFB1A60)
 
+inline static constexpr unsigned int Conflict_ConflictModel_TypeDefinitionIndex = 47150;
+
 	class Conflict_ConflictModel : public ::System::Object
 	{
 	public:

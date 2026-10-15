@@ -12,6 +12,8 @@ namespace RPG::Client::FateRin::Battle { class FateRinBattleHudFreeCardMoveHandl
 #define MOMIJCEFOAH_LOCANFJBIBP_OFFSET UNITYSDK_OFFSET(0xBA35130)
 #define MOMIJCEFOAH_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0xBA34D40)
 
+inline static constexpr unsigned int MOMIJCEFOAH_TypeDefinitionIndex = 80696;
+
 	class MOMIJCEFOAH : public ::System::Object
 	{
 	public:

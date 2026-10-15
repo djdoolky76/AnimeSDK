@@ -33,6 +33,8 @@ namespace System { class String; }
 #define NAGABJLKFON_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAC0710)
 #define NAGABJLKFON_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAC0770)
 
+inline static constexpr unsigned int NAGABJLKFON_TypeDefinitionIndex = 33678;
+
 	class NAGABJLKFON : public ::System::Object
 	{
 	public:

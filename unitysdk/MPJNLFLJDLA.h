@@ -21,6 +21,8 @@ namespace System { class String; }
 #define MPJNLFLJDLA_ONRETURN_OFFSET UNITYSDK_OFFSET(0xBA3FF80)
 #define MPJNLFLJDLA__ONBIND_OFFSET UNITYSDK_OFFSET(0xBA401F0)
 
+inline static constexpr unsigned int MPJNLFLJDLA_TypeDefinitionIndex = 71610;
+
 	class MPJNLFLJDLA : public ::FMPCODLIOLG
 	{
 	public:

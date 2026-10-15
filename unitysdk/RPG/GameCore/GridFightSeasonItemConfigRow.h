@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightSeasonItemConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightSeasonItemConfigRow_TypeDefinitionIndex = 13459;
+
 	class GridFightSeasonItemConfigRow : public ::System::Object
 	{
 	public:

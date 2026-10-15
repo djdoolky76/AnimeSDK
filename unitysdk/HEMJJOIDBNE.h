@@ -16,6 +16,8 @@ namespace System { class String; }
 #define HEMJJOIDBNE_EHPNGOKGEBI_OFFSET UNITYSDK_OFFSET(0x15C5B340)
 #define HEMJJOIDBNE_OAEAMNGDKCO_OFFSET UNITYSDK_OFFSET(0x15C5B0E0)
 
+inline static constexpr unsigned int HEMJJOIDBNE_TypeDefinitionIndex = 53980;
+
 	class HEMJJOIDBNE : public ::System::Object
 	{
 	public:

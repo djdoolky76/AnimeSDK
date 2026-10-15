@@ -27,6 +27,8 @@ namespace System::Xml::Schema { class XmlValueConverter; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlListConverter_TypeDefinitionIndex = 2232;
+
 	class XmlListConverter : public ::System::Xml::Schema::XmlBaseConverter
 	{
 	public:

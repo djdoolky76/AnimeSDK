@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int GLDAMFHLMPM_UIElementType_TypeDefinitionIndex = 59853;
+
 	enum class GLDAMFHLMPM_UIElementType : ::System::Int32
 	{
 		None = 0,

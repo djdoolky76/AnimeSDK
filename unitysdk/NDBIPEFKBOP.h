@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define NDBIPEFKBOP_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xBB1FF40)
 #define NDBIPEFKBOP_OHONOHHMOMB_OFFSET UNITYSDK_OFFSET(0xBB1F4A0)
 
+inline static constexpr unsigned int NDBIPEFKBOP_TypeDefinitionIndex = 59675;
+
 	class NDBIPEFKBOP : public ::System::Object
 	{
 	public:

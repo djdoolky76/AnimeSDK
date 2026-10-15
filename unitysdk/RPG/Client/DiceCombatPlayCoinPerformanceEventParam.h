@@ -11,6 +11,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DiceCombatPlayCoinPerformanceEventParam_TypeDefinitionIndex = 60335;
+
 	class DiceCombatPlayCoinPerformanceEventParam : public ::System::Object
 	{
 	public:

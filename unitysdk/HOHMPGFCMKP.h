@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HOHMPGFCMKP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15DB8D20)
 #define HOHMPGFCMKP_TICK_OFFSET UNITYSDK_OFFSET(0x15DB8BD0)
 
+inline static constexpr unsigned int HOHMPGFCMKP_TypeDefinitionIndex = 53909;
+
 	class HOHMPGFCMKP : public ::GELIALJDFBL
 	{
 	public:

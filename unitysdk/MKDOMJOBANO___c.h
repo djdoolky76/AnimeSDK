@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MKDOMJOBANO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA551F0)
 #define MKDOMJOBANO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EA55200)
 
+inline static constexpr unsigned int MKDOMJOBANO___c_TypeDefinitionIndex = 32201;
+
 	class MKDOMJOBANO___c : public ::System::Object
 	{
 	public:

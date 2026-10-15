@@ -43,6 +43,8 @@ namespace System { class String; }
 #define LNCAAKDIMBL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9B0D20)
 #define LNCAAKDIMBL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9B0D80)
 
+inline static constexpr unsigned int LNCAAKDIMBL_TypeDefinitionIndex = 28080;
+
 	class LNCAAKDIMBL : public ::System::Object
 	{
 	public:

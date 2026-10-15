@@ -9,6 +9,8 @@ class HCBPOFFBEOH;
 #define HCBPOFFBEOH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE8AE30)
 #define HCBPOFFBEOH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE8ADF0)
 
+inline static constexpr unsigned int HCBPOFFBEOH_TypeDefinitionIndex = 23172;
+
 	class HCBPOFFBEOH : public ::RPG::GameCore::TaskConfig
 	{
 	public:

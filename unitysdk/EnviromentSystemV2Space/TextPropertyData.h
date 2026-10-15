@@ -9,6 +9,8 @@ namespace EnviromentSystemV2Space { class PropertyDataBase; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int TextPropertyData_TypeDefinitionIndex = 49388;
+
 	class TextPropertyData
 	{
 	public:

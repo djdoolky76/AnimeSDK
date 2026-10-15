@@ -14,6 +14,8 @@ namespace System { class String; }
 #define CIGLFKLHBGD_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x3C275E0)
 #define CIGLFKLHBGD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C277F0)
 
+inline static constexpr unsigned int CIGLFKLHBGD_TypeDefinitionIndex = 41521;
+
 	struct alignas(4) CIGLFKLHBGD
 	{
 		::System::UInt32 BDCFLFPLDAN; // 0x10

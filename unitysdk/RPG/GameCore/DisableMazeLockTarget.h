@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DisableMazeLockTarget_TypeDefinitionIndex = 20159;
+
 	class DisableMazeLockTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:

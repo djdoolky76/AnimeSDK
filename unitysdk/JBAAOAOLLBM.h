@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TriggerEffect; }
 #define JBAAOAOLLBM_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1655CA80)
 #define JBAAOAOLLBM_MAFHGBDOKPO_OFFSET UNITYSDK_OFFSET(0x1655CA70)
 
+inline static constexpr unsigned int JBAAOAOLLBM_TypeDefinitionIndex = 57169;
+
 	class JBAAOAOLLBM : public ::System::Object
 	{
 	public:

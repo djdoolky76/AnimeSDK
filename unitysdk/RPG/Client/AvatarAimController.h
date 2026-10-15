@@ -34,6 +34,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarAimController_TypeDefinitionIndex = 68367;
+
 	class AvatarAimController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

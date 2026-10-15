@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EnterFloor; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnterFloor_TypeDefinitionIndex = 21572;
+
 	class EnterFloor : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define HPIPKICGABB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5F9790)
 #define HPIPKICGABB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5F97F0)
 
+inline static constexpr unsigned int HPIPKICGABB_TypeDefinitionIndex = 32880;
+
 	class HPIPKICGABB : public ::System::Object
 	{
 	public:

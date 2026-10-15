@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PEEEEGAPCOK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF15E00)
 #define PEEEEGAPCOK___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1DF15E10)
 
+inline static constexpr unsigned int PEEEEGAPCOK___c_TypeDefinitionIndex = 25893;
+
 	class PEEEEGAPCOK___c : public ::System::Object
 	{
 	public:

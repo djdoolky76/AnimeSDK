@@ -15,6 +15,8 @@ namespace RPG::GameCore { class WolfBroPuzzleGameDataListener; }
 #define JIFOOGNNDAJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB1F0450)
 #define JIFOOGNNDAJ_TICK_OFFSET UNITYSDK_OFFSET(0xB1F0930)
 
+inline static constexpr unsigned int JIFOOGNNDAJ_TypeDefinitionIndex = 58962;
+
 	class JIFOOGNNDAJ : public ::GELIALJDFBL
 	{
 	public:

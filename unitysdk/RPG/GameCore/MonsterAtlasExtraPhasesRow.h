@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonsterAtlasExtraPhasesRow_TypeDefinitionIndex = 14170;
+
 	class MonsterAtlasExtraPhasesRow : public ::System::Object
 	{
 	public:

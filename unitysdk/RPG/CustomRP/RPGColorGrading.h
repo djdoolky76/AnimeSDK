@@ -14,6 +14,8 @@ namespace UnityEngine::Rendering { class TextureParameter; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGColorGrading_TypeDefinitionIndex = 37797;
+
 	class RPGColorGrading : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:

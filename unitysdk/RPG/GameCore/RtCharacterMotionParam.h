@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RtCharacterMotionParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtCharacterMotionParam_TypeDefinitionIndex = 17651;
+
 	class RtCharacterMotionParam : public ::RPG::GameCore::JsonConfig
 	{
 	public:

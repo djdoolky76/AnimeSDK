@@ -27,6 +27,8 @@ namespace System { class String; }
 #define AFPJPEABFKH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E124E30)
 #define AFPJPEABFKH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E124E90)
 
+inline static constexpr unsigned int AFPJPEABFKH_TypeDefinitionIndex = 29584;
+
 	class AFPJPEABFKH : public ::System::Object
 	{
 	public:

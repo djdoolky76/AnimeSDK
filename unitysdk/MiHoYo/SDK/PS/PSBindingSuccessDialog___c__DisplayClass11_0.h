@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PS
 {
+	inline static constexpr unsigned int PSBindingSuccessDialog___c__DisplayClass11_0_TypeDefinitionIndex = 8941;
+
 	class PSBindingSuccessDialog___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

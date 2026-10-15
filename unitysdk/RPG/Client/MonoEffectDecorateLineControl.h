@@ -9,6 +9,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectDecorateLineControl_TypeDefinitionIndex = 70731;
+
 	class MonoEffectDecorateLineControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

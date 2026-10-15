@@ -8,6 +8,8 @@
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative___c__DisplayClass45_1_TypeDefinitionIndex = 39465;
+
 	template <typename T>
 	class BrowserNative___c__DisplayClass45_1 : public ::System::Object
 	{

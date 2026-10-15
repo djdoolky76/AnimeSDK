@@ -6,6 +6,8 @@ namespace UnityEngine { class GameObject; }
 #define ICOIDNJGKPD_CTOR_OFFSET UNITYSDK_OFFSET(0x15E623C0)
 #define ICOIDNJGKPD_GETTYPEID_OFFSET UNITYSDK_OFFSET(0x15E623D0)
 
+inline static constexpr unsigned int ICOIDNJGKPD_TypeDefinitionIndex = 49044;
+
 	class ICOIDNJGKPD : public ::GPFEAEOEGFA
 	{
 	public:

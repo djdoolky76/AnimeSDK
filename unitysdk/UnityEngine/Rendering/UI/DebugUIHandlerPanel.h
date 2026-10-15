@@ -17,6 +17,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace UnityEngine::Rendering::UI
 {
+	inline static constexpr unsigned int DebugUIHandlerPanel_TypeDefinitionIndex = 35691;
+
 	class DebugUIHandlerPanel : public ::UnityEngine::MonoBehaviour
 	{
 	public:

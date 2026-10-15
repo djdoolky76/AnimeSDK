@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DGKOJPFODLC__ONBIND_OFFSET UNITYSDK_OFFSET(0xE84F740)
 #define DGKOJPFODLC__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xE84FA30)
 
+inline static constexpr unsigned int DGKOJPFODLC_TypeDefinitionIndex = 72123;
+
 	class DGKOJPFODLC : public ::FMPCODLIOLG
 	{
 	public:

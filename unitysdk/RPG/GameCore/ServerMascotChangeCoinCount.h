@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ServerMascotChangeCoinCount; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ServerMascotChangeCoinCount_TypeDefinitionIndex = 21268;
+
 	class ServerMascotChangeCoinCount : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int _ThreadPoolWaitCallback_TypeDefinitionIndex = 863;
+
 	class _ThreadPoolWaitCallback : public ::System::Object
 	{
 	public:

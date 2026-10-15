@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::Compliance::Ftc::DirectPurchase
 {
+	inline static constexpr unsigned int FtcDirectPurchaseRepository_TypeDefinitionIndex = 74834;
+
 	class FtcDirectPurchaseRepository : public ::System::Object
 	{
 	public:

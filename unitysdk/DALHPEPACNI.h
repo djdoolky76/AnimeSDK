@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define DALHPEPACNI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA14070)
 
+inline static constexpr unsigned int DALHPEPACNI_TypeDefinitionIndex = 41929;
+
 	class DALHPEPACNI : public ::System::Object
 	{
 	public:

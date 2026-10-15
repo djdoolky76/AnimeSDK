@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PrefabCacheConfig_TypeDefinitionIndex = 24413;
+
 	class PrefabCacheConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

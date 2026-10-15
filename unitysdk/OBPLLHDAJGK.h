@@ -3,6 +3,8 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 namespace System { class String; }
 
+inline static constexpr unsigned int OBPLLHDAJGK_TypeDefinitionIndex = 57745;
+
 	struct alignas(8) OBPLLHDAJGK
 	{
 		::System::String* JNJCCHFBKPB; // 0x10

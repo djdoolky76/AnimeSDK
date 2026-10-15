@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetTargetAlwaysAutoBattle_TypeDefinitionIndex = 22480;
+
 	class SetTargetAlwaysAutoBattle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

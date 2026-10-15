@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ELJDPDFMLPM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2D3F80)
 #define ELJDPDFMLPM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E2D3F90)
 
+inline static constexpr unsigned int ELJDPDFMLPM___c_TypeDefinitionIndex = 33114;
+
 	class ELJDPDFMLPM___c : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ObjectGUIState_TypeDefinitionIndex = 5194;
+
 	class ObjectGUIState : public ::System::Object
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System { class Nullable; }
 #define NIDGAJFDGND_PFPBEFNGAEO_OFFSET UNITYSDK_OFFSET(0x1C967890)
 #define NIDGAJFDGND_PJOJKEDHGHC_OFFSET UNITYSDK_OFFSET(0x1C967930)
 
+inline static constexpr unsigned int NIDGAJFDGND_TypeDefinitionIndex = 42300;
+
 	class NIDGAJFDGND : public ::System::Object
 	{
 	public:

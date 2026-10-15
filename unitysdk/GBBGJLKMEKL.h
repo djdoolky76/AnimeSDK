@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GBBGJLKMEKL_CTOR_OFFSET UNITYSDK_OFFSET(0x159478B0)
 #define GBBGJLKMEKL_EEKEIPKOEKN_OFFSET UNITYSDK_OFFSET(0x159478D0)
 
+inline static constexpr unsigned int GBBGJLKMEKL_TypeDefinitionIndex = 55233;
+
 	class GBBGJLKMEKL : public ::EFJMGDGAGJM
 	{
 	public:

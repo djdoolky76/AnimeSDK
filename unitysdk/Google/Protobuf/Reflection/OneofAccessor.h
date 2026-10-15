@@ -14,6 +14,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int OneofAccessor_TypeDefinitionIndex = 5555;
+
 	class OneofAccessor : public ::System::Object
 	{
 	public:

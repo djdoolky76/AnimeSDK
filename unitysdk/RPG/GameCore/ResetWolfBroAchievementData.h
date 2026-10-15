@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ResetWolfBroAchievementData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResetWolfBroAchievementData_TypeDefinitionIndex = 21992;
+
 	class ResetWolfBroAchievementData : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define ENCGNAJCJME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2E9BC0)
 #define ENCGNAJCJME_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2E9C20)
 
+inline static constexpr unsigned int ENCGNAJCJME_TypeDefinitionIndex = 30204;
+
 	class ENCGNAJCJME : public ::System::Object
 	{
 	public:

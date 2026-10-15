@@ -9,6 +9,8 @@ namespace System { class Nullable; }
 #define NHCIKNHHHOO___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBBBE3D0)
 #define NHCIKNHHHOO___C__DISPLAYCLASS1_0__EVALUATE_B__0_OFFSET UNITYSDK_OFFSET(0xBBBE3E0)
 
+inline static constexpr unsigned int NHCIKNHHHOO___c__DisplayClass1_0_TypeDefinitionIndex = 54544;
+
 	class NHCIKNHHHOO___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

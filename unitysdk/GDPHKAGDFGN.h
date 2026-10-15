@@ -6,6 +6,8 @@ class NFAHODNHEKK;
 #define GDPHKAGDFGN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C63A2F0)
 #define GDPHKAGDFGN_FCKDPOPNLIB_OFFSET UNITYSDK_OFFSET(0x1C63A300)
 
+inline static constexpr unsigned int GDPHKAGDFGN_TypeDefinitionIndex = 36091;
+
 	class GDPHKAGDFGN : public ::HOCBJOJNLLC
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_TriggerLittleGameCustomEvent_TypeDefinitionIndex = 21325;
+
 	class ST_Side_TriggerLittleGameCustomEvent : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

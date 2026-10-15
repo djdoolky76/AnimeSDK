@@ -33,6 +33,8 @@ namespace System { class String; }
 #define LLELJOADLPI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E999C90)
 #define LLELJOADLPI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E999CF0)
 
+inline static constexpr unsigned int LLELJOADLPI_TypeDefinitionIndex = 27459;
+
 	class LLELJOADLPI : public ::System::Object
 	{
 	public:

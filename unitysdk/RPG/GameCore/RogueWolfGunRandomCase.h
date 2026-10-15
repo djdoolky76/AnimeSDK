@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueWolfGunRandomCase_TypeDefinitionIndex = 22313;
+
 	class RogueWolfGunRandomCase : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define ILCEHEIGCBG_GET_AVATARS_OFFSET UNITYSDK_OFFSET(0x164A7A80)
 #define ILCEHEIGCBG_GET_ROUTEID_OFFSET UNITYSDK_OFFSET(0x164A7A70)
 
+inline static constexpr unsigned int ILCEHEIGCBG_TypeDefinitionIndex = 63850;
+
 	class ILCEHEIGCBG : public ::System::Object
 	{
 	public:

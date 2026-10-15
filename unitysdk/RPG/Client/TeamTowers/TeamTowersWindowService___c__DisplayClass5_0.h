@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersWindowService___c__DisplayClass5_0_TypeDefinitionIndex = 79055;
+
 	class TeamTowersWindowService___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

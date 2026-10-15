@@ -10,6 +10,8 @@ namespace System { class String; }
 #define EAEMPNFFBGE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x12675130)
 #define EAEMPNFFBGE_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x126751F0)
 
+inline static constexpr unsigned int EAEMPNFFBGE_TypeDefinitionIndex = 66984;
+
 	class EAEMPNFFBGE : public ::System::Object
 	{
 	public:

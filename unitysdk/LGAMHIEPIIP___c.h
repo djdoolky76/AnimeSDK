@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LGAMHIEPIIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E949630)
 #define LGAMHIEPIIP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E949640)
 
+inline static constexpr unsigned int LGAMHIEPIIP___c_TypeDefinitionIndex = 31214;
+
 	class LGAMHIEPIIP___c : public ::System::Object
 	{
 	public:

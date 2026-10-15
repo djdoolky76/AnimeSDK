@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int RogueDLCRayModule_TypeDefinitionIndex = 78956;
+
 	class RogueDLCRayModule : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PerformanceInfo_TypeDefinitionIndex = 7879;
+
 	class PerformanceInfo : public ::System::Object
 	{
 	public:

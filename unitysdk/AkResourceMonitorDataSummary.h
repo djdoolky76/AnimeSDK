@@ -23,6 +23,8 @@ class AkResourceMonitorDataSummary;
 #define AKRESOURCEMONITORDATASUMMARY_SET_TOTALVOICES_OFFSET UNITYSDK_OFFSET(0x1F5B7610)
 #define AKRESOURCEMONITORDATASUMMARY_SET_VIRTUALVOICES_OFFSET UNITYSDK_OFFSET(0x1F5B74A0)
 
+inline static constexpr unsigned int AkResourceMonitorDataSummary_TypeDefinitionIndex = 44783;
+
 	class AkResourceMonitorDataSummary : public ::System::Object
 	{
 	public:

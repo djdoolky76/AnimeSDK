@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SkillSubTargetType_TypeDefinitionIndex = 18207;
+
 	enum class SkillSubTargetType : ::System::Int32
 	{
 		Unknow = 0,

@@ -3,6 +3,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int PipelineMat_TypeDefinitionIndex = 37860;
+
 	enum class PipelineMat : ::System::Int32
 	{
 		kDepthCopyMat = 0,

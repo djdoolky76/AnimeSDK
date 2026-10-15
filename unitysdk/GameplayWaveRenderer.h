@@ -39,6 +39,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 #define GAMEPLAYWAVERENDERER_UPDATE_OFFSET UNITYSDK_OFFSET(0x15B6AEA0)
 #define GAMEPLAYWAVERENDERER_WORLDTOWAVESPACE_OFFSET UNITYSDK_OFFSET(0x15B6BC30)
 
+inline static constexpr unsigned int GameplayWaveRenderer_TypeDefinitionIndex = 47310;
+
 	class GameplayWaveRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicStageBattleEvent_TypeDefinitionIndex = 22745;
+
 	class SetDynamicStageBattleEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:

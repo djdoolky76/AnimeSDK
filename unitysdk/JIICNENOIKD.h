@@ -5,6 +5,8 @@
 #define JIICNENOIKD_CTOR_OFFSET UNITYSDK_OFFSET(0xB1FB620)
 #define JIICNENOIKD_OGDMAKFJMKA_OFFSET UNITYSDK_OFFSET(0xB1FB5D0)
 
+inline static constexpr unsigned int JIICNENOIKD_TypeDefinitionIndex = 77438;
+
 	class JIICNENOIKD : public ::System::Object
 	{
 	public:

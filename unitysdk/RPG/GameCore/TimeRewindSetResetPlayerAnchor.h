@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TimeRewindSetResetPlayerAnchor; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimeRewindSetResetPlayerAnchor_TypeDefinitionIndex = 20643;
+
 	class TimeRewindSetResetPlayerAnchor : public ::RPG::GameCore::TaskConfig
 	{
 	public:

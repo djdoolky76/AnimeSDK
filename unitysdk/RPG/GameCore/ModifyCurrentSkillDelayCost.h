@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ModifyCurrentSkillDelayCost; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyCurrentSkillDelayCost_TypeDefinitionIndex = 22704;
+
 	class ModifyCurrentSkillDelayCost : public ::RPG::GameCore::TaskConfig
 	{
 	public:

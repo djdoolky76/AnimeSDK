@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChenLingBattleTargetEvaluator_NearestNSoldiers; 
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleTargetEvaluator_NearestNSoldiers_TypeDefinitionIndex = 15766;
+
 	class ChenLingBattleTargetEvaluator_NearestNSoldiers : public ::RPG::GameCore::BaseChenLingBattleTargetEvaluator
 	{
 	public:

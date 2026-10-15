@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 #define STAGEHARMONYTRANSFORMLINKSLOT_NBJFLGNEBED_OFFSET UNITYSDK_OFFSET(0xE996CF0)
 #define STAGEHARMONYTRANSFORMLINKSLOT_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xE996900)
 
+inline static constexpr unsigned int StageHarmonyTransformLinkSlot_TypeDefinitionIndex = 47548;
+
 	class StageHarmonyTransformLinkSlot : public ::StageHarmonyBaseLinkSlot
 	{
 	public:

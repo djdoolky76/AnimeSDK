@@ -6,6 +6,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int ConsoleProduct_TypeDefinitionIndex = 8986;
+
 	struct alignas(8) ConsoleProduct
 	{
 		::System::String* productLabel; // 0x10

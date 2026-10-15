@@ -32,6 +32,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LoopScene_TypeDefinitionIndex = 68866;
+
 	class LoopScene : public ::UnityEngine::MonoBehaviour
 	{
 	public:

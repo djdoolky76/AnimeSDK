@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirPlaneGhost_TypeDefinitionIndex = 79196;
+
 	class PixAirPlaneGhost : public ::RPG::Client::PixAir::PixAirGhostBase
 	{
 	public:

@@ -8,6 +8,8 @@ class FHJKNCMMMON;
 #define EJHONGHJCNB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD90D20)
 #define EJHONGHJCNB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD90B30)
 
+inline static constexpr unsigned int EJHONGHJCNB_TypeDefinitionIndex = 11984;
+
 	class EJHONGHJCNB : public ::System::Object
 	{
 	public:

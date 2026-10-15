@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ColliderTriggerComponentConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ColliderTriggerComponentConfig_TypeDefinitionIndex = 16567;
+
 	class ColliderTriggerComponentConfig : public ::RPG::GameCore::ComponentConfig
 	{
 	public:

@@ -36,6 +36,8 @@ namespace UnityEngine::UI { class Text; }
 #define OBAFGJPCDOL__ONBIND_OFFSET UNITYSDK_OFFSET(0xBD31000)
 #define OBAFGJPCDOL__ONTICK_OFFSET UNITYSDK_OFFSET(0xBD31670)
 
+inline static constexpr unsigned int OBAFGJPCDOL_TypeDefinitionIndex = 71736;
+
 	class OBAFGJPCDOL : public ::FMPCODLIOLG
 	{
 	public:

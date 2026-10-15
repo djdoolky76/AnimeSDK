@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IFCDCCJEJKD_SET_AVATARIDS_OFFSET UNITYSDK_OFFSET(0x15F09760)
 #define IFCDCCJEJKD_SET_EXPIRETIME_OFFSET UNITYSDK_OFFSET(0x15F09780)
 
+inline static constexpr unsigned int IFCDCCJEJKD_TypeDefinitionIndex = 68250;
+
 	class IFCDCCJEJKD : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FiveDimConveyorBakedConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimConveyorBakedConfig_TypeDefinitionIndex = 16657;
+
 	class FiveDimConveyorBakedConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

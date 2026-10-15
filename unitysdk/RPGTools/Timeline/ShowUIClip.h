@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ShowUIClip_TypeDefinitionIndex = 48409;
+
 	class ShowUIClip : public ::RPGTools::Timeline::CustomEventClip
 	{
 	public:

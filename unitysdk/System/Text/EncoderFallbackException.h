@@ -12,6 +12,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Text
 {
+	inline static constexpr unsigned int EncoderFallbackException_TypeDefinitionIndex = 483;
+
 	class EncoderFallbackException : public ::System::ArgumentException
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TrainCollectionMissionPerformancePair; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvSetupTrainCollectionSystem_TypeDefinitionIndex = 21040;
+
 	class AdvSetupTrainCollectionSystem : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define FNFDEHPJGAJ_OFPLCANEGOK_OFFSET UNITYSDK_OFFSET(0x1586E5B0)
 
+inline static constexpr unsigned int FNFDEHPJGAJ_TypeDefinitionIndex = 76770;
+
 	class FNFDEHPJGAJ : public ::System::Object
 	{
 	public:

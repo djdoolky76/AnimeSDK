@@ -7,6 +7,8 @@ namespace UnityEngine { class ComputeBuffer; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int IrradianceCacheGI_TypeDefinitionIndex = 4270;
+
 	class IrradianceCacheGI : public ::System::Object
 	{
 	public:

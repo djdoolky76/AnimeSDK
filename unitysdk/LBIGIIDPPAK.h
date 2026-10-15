@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define LBIGIIDPPAK__GET_SWITCHNEXTCOMMAND_B__21_0_OFFSET UNITYSDK_OFFSET(0xB5FBD00)
 #define LBIGIIDPPAK__GET_SWITCHPREVCOMMAND_B__16_0_OFFSET UNITYSDK_OFFSET(0xB5FBA70)
 
+inline static constexpr unsigned int LBIGIIDPPAK_TypeDefinitionIndex = 79433;
+
 	class LBIGIIDPPAK : public ::System::Object
 	{
 	public:

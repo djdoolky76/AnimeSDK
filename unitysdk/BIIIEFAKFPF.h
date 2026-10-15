@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define BIIIEFAKFPF_GET_REPORTID_OFFSET UNITYSDK_OFFSET(0xB4ACC40)
 #define BIIIEFAKFPF_GET_REQUIREMENTID_OFFSET UNITYSDK_OFFSET(0xB4ACBB0)
 
+inline static constexpr unsigned int BIIIEFAKFPF_TypeDefinitionIndex = 80108;
+
 	class BIIIEFAKFPF : public ::System::Object
 	{
 	public:

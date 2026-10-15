@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropResetGachaMachine_TypeDefinitionIndex = 21971;
+
 	class PropResetGachaMachine : public ::RPG::GameCore::TaskConfig
 	{
 	public:

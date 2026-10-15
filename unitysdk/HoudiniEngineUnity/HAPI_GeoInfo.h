@@ -7,6 +7,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HAPI_GeoInfo_TypeDefinitionIndex = 40504;
+
 	struct alignas(4) HAPI_GeoInfo
 	{
 		::HoudiniEngineUnity::HAPI_GeoType type; // 0x10

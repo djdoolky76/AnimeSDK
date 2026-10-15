@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int LightmapsMode_TypeDefinitionIndex = 4179;
+
 	enum class LightmapsMode : ::System::Int32
 	{
 		NonDirectional = 0,

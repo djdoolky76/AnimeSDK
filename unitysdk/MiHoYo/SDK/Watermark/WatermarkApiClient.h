@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK::Watermark
 {
+	inline static constexpr unsigned int WatermarkApiClient_TypeDefinitionIndex = 8861;
+
 	class WatermarkApiClient : public ::System::Object
 	{
 	public:

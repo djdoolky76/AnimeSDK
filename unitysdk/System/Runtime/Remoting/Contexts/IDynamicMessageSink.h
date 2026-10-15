@@ -3,6 +3,8 @@
 
 namespace System::Runtime::Remoting::Contexts
 {
+	inline static constexpr unsigned int IDynamicMessageSink_TypeDefinitionIndex = 1260;
+
 	class IDynamicMessageSink
 	{
 	public:

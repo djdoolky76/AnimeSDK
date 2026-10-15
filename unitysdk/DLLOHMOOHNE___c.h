@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define DLLOHMOOHNE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xF8B27F0)
 #define DLLOHMOOHNE___C__TRIGGERBODYWAVEEFFECT_B__20_0_OFFSET UNITYSDK_OFFSET(0xF8B2800)
 
+inline static constexpr unsigned int DLLOHMOOHNE___c_TypeDefinitionIndex = 57069;
+
 	class DLLOHMOOHNE___c : public ::System::Object
 	{
 	public:

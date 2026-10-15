@@ -42,6 +42,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int JSONLazyCreator_TypeDefinitionIndex = 8141;
+
 	class JSONLazyCreator : public ::MiHoYo::SDK::JSONNode
 	{
 	public:

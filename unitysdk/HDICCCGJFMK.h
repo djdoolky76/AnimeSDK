@@ -11,6 +11,8 @@ namespace RPG::Client { class MapMappingInfoData; }
 #define HDICCCGJFMK_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15C35100)
 #define HDICCCGJFMK_SET_ICONTYPE_OFFSET UNITYSDK_OFFSET(0x15C350F0)
 
+inline static constexpr unsigned int HDICCCGJFMK_TypeDefinitionIndex = 62935;
+
 	class HDICCCGJFMK : public ::System::Object
 	{
 	public:

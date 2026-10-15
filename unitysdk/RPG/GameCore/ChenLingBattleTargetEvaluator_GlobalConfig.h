@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingBattleTargetEvaluator_GlobalConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleTargetEvaluator_GlobalConfig_TypeDefinitionIndex = 15768;
+
 	class ChenLingBattleTargetEvaluator_GlobalConfig : public ::RPG::GameCore::BaseChenLingBattleTargetEvaluator
 	{
 	public:

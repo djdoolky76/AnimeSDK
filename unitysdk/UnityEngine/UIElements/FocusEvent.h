@@ -7,6 +7,8 @@ namespace UnityEngine::UIElements { class IPanel; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int FocusEvent_TypeDefinitionIndex = 5944;
+
 	class FocusEvent
 	{
 	public:

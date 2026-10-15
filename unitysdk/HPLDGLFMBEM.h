@@ -14,6 +14,8 @@ namespace System { class String; }
 #define HPLDGLFMBEM_PDOBCFNDCNF_OFFSET UNITYSDK_OFFSET(0x15DD1C40)
 #define HPLDGLFMBEM_SET_CONTROLLER_OFFSET UNITYSDK_OFFSET(0x15DD1CA0)
 
+inline static constexpr unsigned int HPLDGLFMBEM_TypeDefinitionIndex = 66666;
+
 	class HPLDGLFMBEM : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

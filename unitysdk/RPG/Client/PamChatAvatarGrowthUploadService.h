@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PamChatAvatarGrowthUploadService_TypeDefinitionIndex = 63273;
+
 	class PamChatAvatarGrowthUploadService : public ::BHPMNMMGLHI
 	{
 	public:

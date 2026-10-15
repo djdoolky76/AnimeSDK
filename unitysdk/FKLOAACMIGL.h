@@ -30,6 +30,8 @@ namespace UnityEngine::UI { class Text; }
 #define FKLOAACMIGL_PFJDLLGFCOD_OFFSET UNITYSDK_OFFSET(0x1580BD90)
 #define FKLOAACMIGL__ONBIND_OFFSET UNITYSDK_OFFSET(0x1580B5E0)
 
+inline static constexpr unsigned int FKLOAACMIGL_TypeDefinitionIndex = 72284;
+
 	class FKLOAACMIGL : public ::FMPCODLIOLG
 	{
 	public:

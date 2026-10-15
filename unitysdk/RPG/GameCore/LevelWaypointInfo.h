@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelWaypointInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelWaypointInfo_TypeDefinitionIndex = 17250;
+
 	class LevelWaypointInfo : public ::RPG::GameCore::LevelObjectInfo
 	{
 	public:

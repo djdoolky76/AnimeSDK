@@ -29,6 +29,8 @@ namespace System { class String; }
 #define JPNGFKCALEK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7DA090)
 #define JPNGFKCALEK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7DA0F0)
 
+inline static constexpr unsigned int JPNGFKCALEK_TypeDefinitionIndex = 34533;
+
 	class JPNGFKCALEK : public ::System::Object
 	{
 	public:

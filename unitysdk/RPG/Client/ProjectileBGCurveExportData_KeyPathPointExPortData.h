@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ProjectileBGCurveExportData_KeyPathPointExPortData_TypeDefinitionIndex = 70142;
+
 	struct alignas(4) ProjectileBGCurveExportData_KeyPathPointExPortData
 	{
 		::UnityEngine::Vector3 PointLocal; // 0x10

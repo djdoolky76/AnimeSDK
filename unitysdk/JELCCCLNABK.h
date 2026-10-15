@@ -19,6 +19,8 @@ namespace UnityEngine { class Animation; }
 #define JELCCCLNABK_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x1663E830)
 #define JELCCCLNABK__ONBIND_OFFSET UNITYSDK_OFFSET(0x1663E6B0)
 
+inline static constexpr unsigned int JELCCCLNABK_TypeDefinitionIndex = 71633;
+
 	class JELCCCLNABK : public ::FMPCODLIOLG
 	{
 	public:

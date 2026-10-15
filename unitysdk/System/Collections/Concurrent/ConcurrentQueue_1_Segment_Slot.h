@@ -3,6 +3,8 @@
 
 namespace System::Collections::Concurrent
 {
+	inline static constexpr unsigned int ConcurrentQueue_1_Segment_Slot_TypeDefinitionIndex = 1521;
+
 	template <typename T>
 	struct alignas(8) ConcurrentQueue_1_Segment_Slot
 	{

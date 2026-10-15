@@ -9,6 +9,8 @@ namespace RPG::GameCore { class VCameraBlend; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CameraDataAndFlags___c__DisplayClass300_0_TypeDefinitionIndex = 69560;
+
 	class CameraDataAndFlags___c__DisplayClass300_0 : public ::System::Object
 	{
 	public:

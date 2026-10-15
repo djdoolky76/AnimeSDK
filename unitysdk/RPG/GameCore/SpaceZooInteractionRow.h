@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SpaceZooInteractionRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SpaceZooInteractionRow_TypeDefinitionIndex = 12384;
+
 	class SpaceZooInteractionRow : public ::System::Object
 	{
 	public:

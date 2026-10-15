@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NIMHLHECACH_RECEIVEMESSAGE_OFFSET UNITYSDK_OFFSET(0xBBFD7D0)
 #define NIMHLHECACH__ONDESTROYED_OFFSET UNITYSDK_OFFSET(0xBBFD9A0)
 
+inline static constexpr unsigned int NIMHLHECACH_TypeDefinitionIndex = 75267;
+
 	class NIMHLHECACH : public ::RPG::Client::BaseGameFlowContext
 	{
 	public:

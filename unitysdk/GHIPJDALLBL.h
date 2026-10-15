@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GHIPJDALLBL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE47EB0)
 #define GHIPJDALLBL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE477D0)
 
+inline static constexpr unsigned int GHIPJDALLBL_TypeDefinitionIndex = 15022;
+
 	class GHIPJDALLBL : public ::System::Object
 	{
 	public:

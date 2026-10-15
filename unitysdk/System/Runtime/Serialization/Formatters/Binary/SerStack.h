@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int SerStack_TypeDefinitionIndex = 1193;
+
 	class SerStack : public ::System::Object
 	{
 	public:

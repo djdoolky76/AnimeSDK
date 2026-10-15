@@ -62,6 +62,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CRPVirtualCamera_TypeDefinitionIndex = 4808;
+
 	class CRPVirtualCamera : public ::UnityEngine::Behaviour
 	{
 	public:

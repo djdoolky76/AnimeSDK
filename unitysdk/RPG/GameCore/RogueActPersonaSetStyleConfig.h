@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActPersonaSetStyleConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActPersonaSetStyleConfig_TypeDefinitionIndex = 19713;
+
 	class RogueActPersonaSetStyleConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

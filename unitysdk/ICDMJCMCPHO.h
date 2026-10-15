@@ -32,6 +32,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define ICDMJCMCPHO_SET_INSTANCEKEY_OFFSET UNITYSDK_OFFSET(0x15E4D4C0)
 #define ICDMJCMCPHO_SET_ISFADINGOUT_OFFSET UNITYSDK_OFFSET(0x15E4D5C0)
 
+inline static constexpr unsigned int ICDMJCMCPHO_TypeDefinitionIndex = 75936;
+
 	class ICDMJCMCPHO : public ::System::Object
 	{
 	public:

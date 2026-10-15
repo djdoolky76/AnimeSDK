@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveNavMeshState_TypeDefinitionIndex = 22231;
+
 	class RemoveNavMeshState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

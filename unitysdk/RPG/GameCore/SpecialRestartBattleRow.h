@@ -9,6 +9,8 @@ namespace RPG::GameCore { class SpecialRestartBattleRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SpecialRestartBattleRow_TypeDefinitionIndex = 15172;
+
 	class SpecialRestartBattleRow : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define ALINMCHDHEF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CCD98C0)
 #define ALINMCHDHEF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CCD91E0)
 
+inline static constexpr unsigned int ALINMCHDHEF_TypeDefinitionIndex = 14439;
+
 	class ALINMCHDHEF : public ::System::Object
 	{
 	public:

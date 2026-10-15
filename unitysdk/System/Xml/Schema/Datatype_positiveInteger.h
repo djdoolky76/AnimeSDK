@@ -11,6 +11,8 @@ namespace System::Xml::Schema { class FacetsChecker; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_positiveInteger_TypeDefinitionIndex = 2145;
+
 	class Datatype_positiveInteger : public ::System::Xml::Schema::Datatype_nonNegativeInteger
 	{
 	public:

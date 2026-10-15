@@ -29,6 +29,8 @@ namespace System { class String; }
 #define NMEKJABIGGH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB72B90)
 #define NMEKJABIGGH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB72BF0)
 
+inline static constexpr unsigned int NMEKJABIGGH_TypeDefinitionIndex = 30087;
+
 	class NMEKJABIGGH : public ::System::Object
 	{
 	public:

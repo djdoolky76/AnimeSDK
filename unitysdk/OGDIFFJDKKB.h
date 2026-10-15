@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_AddCurrentTurnMaxRollCount;
 #define OGDIFFJDKKB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7CE080)
 #define OGDIFFJDKKB_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C7CE090)
 
+inline static constexpr unsigned int OGDIFFJDKKB_TypeDefinitionIndex = 36319;
+
 	class OGDIFFJDKKB : public ::AJBKGPOEBFG
 	{
 	public:

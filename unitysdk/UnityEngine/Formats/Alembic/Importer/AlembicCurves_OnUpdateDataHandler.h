@@ -13,6 +13,8 @@ namespace UnityEngine::Formats::Alembic::Importer { class AlembicCurves; }
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicCurves_OnUpdateDataHandler_TypeDefinitionIndex = 45877;
+
 	class AlembicCurves_OnUpdateDataHandler : public ::System::MulticastDelegate
 	{
 	public:

@@ -13,6 +13,8 @@ class AkMIDIEvent_tChanAftertouch;
 #define AKMIDIEVENT_TCHANAFTERTOUCH_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1F5A02B0)
 #define AKMIDIEVENT_TCHANAFTERTOUCH_SET_BYVALUE_OFFSET UNITYSDK_OFFSET(0x1F5A06E0)
 
+inline static constexpr unsigned int AkMIDIEvent_tChanAftertouch_TypeDefinitionIndex = 44756;
+
 	class AkMIDIEvent_tChanAftertouch : public ::System::Object
 	{
 	public:

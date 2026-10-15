@@ -5,6 +5,8 @@
 
 #define MNGNKCEOKIF_FAIBBDONLAE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD790C0)
 
+inline static constexpr unsigned int MNGNKCEOKIF_FAIBBDONLAE_TypeDefinitionIndex = 6261;
+
 	class MNGNKCEOKIF_FAIBBDONLAE : public ::System::Object
 	{
 	public:

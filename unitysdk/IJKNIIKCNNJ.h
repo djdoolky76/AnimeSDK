@@ -7,6 +7,8 @@
 #define IJKNIIKCNNJ_JNHLNOCBDDK_OFFSET UNITYSDK_OFFSET(0x1646B7A0)
 #define IJKNIIKCNNJ_MMGIJPHEDHG_OFFSET UNITYSDK_OFFSET(0x1646B750)
 
+inline static constexpr unsigned int IJKNIIKCNNJ_TypeDefinitionIndex = 75731;
+
 	class IJKNIIKCNNJ : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ class FCOEMCEDLNL;
 #define CKHENKIDNKP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBAE380)
 #define CKHENKIDNKP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC1EE70)
 
+inline static constexpr unsigned int CKHENKIDNKP_TypeDefinitionIndex = 11561;
+
 	class CKHENKIDNKP : public ::System::Object
 	{
 	public:

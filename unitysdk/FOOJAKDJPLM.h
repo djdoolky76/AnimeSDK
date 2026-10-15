@@ -10,6 +10,8 @@ namespace System { class Type; }
 #define FOOJAKDJPLM_FNAAJGAHIAI_OFFSET UNITYSDK_OFFSET(0x15908F20)
 #define FOOJAKDJPLM_IHPAKOMCHGP_OFFSET UNITYSDK_OFFSET(0x15908FC0)
 
+inline static constexpr unsigned int FOOJAKDJPLM_TypeDefinitionIndex = 62601;
+
 	class FOOJAKDJPLM : public ::System::Object
 	{
 	public:

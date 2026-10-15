@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTask_WaitForEndOfFramePromise___c_TypeDefinitionIndex = 38233;
+
 	class UniTask_WaitForEndOfFramePromise___c : public ::System::Object
 	{
 	public:

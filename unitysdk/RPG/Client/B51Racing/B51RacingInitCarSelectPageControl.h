@@ -38,6 +38,8 @@ namespace RPG::UINavigation { class UINavigationZoneManager; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingInitCarSelectPageControl_TypeDefinitionIndex = 81787;
+
 	class B51RacingInitCarSelectPageControl : public ::Sofa::BaseSofaControl
 	{
 	public:

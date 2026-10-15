@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ResidentFantasticStoryActivityData_TypeDefinitionIndex = 63980;
+
 	class ResidentFantasticStoryActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define FLECMDNBJMM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3B8C20)
 #define FLECMDNBJMM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3B8C80)
 
+inline static constexpr unsigned int FLECMDNBJMM_TypeDefinitionIndex = 26178;
+
 	class FLECMDNBJMM : public ::System::Object
 	{
 	public:

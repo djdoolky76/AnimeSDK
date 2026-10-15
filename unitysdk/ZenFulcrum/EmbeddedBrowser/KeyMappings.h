@@ -11,6 +11,8 @@ namespace UnityEngine { class Event; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int KeyMappings_TypeDefinitionIndex = 39512;
+
 	class KeyMappings : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerCableProceduralEffect_TypeDefinitionIndex = 23634;
+
 	class TriggerCableProceduralEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

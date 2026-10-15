@@ -6,6 +6,8 @@
 
 #define BJFFLMFIKLF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BB020)
 
+inline static constexpr unsigned int BJFFLMFIKLF_TypeDefinitionIndex = 42120;
+
 	class BJFFLMFIKLF : public ::System::Object
 	{
 	public:

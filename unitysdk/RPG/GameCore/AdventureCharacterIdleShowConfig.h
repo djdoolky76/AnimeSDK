@@ -12,6 +12,8 @@ namespace RPG::GameCore { class AdventureCharacterIdleShowShapeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureCharacterIdleShowConfig_TypeDefinitionIndex = 17436;
+
 	class AdventureCharacterIdleShowConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

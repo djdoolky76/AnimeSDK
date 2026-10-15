@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int EnviroWeatherClip_TypeDefinitionIndex = 49581;
+
 	class EnviroWeatherClip : public ::EnviromentSystem::EnviromentClip
 	{
 	public:

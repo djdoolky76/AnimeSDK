@@ -7,6 +7,8 @@ namespace StageBudgetTool { class Room; }
 
 namespace StageBudgetTool
 {
+	inline static constexpr unsigned int RoomBudgetComponentEditorOnly_TypeDefinitionIndex = 47713;
+
 	class RoomBudgetComponentEditorOnly : public ::UnityEngine::MonoBehaviour
 	{
 	public:

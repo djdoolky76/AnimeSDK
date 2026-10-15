@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LPKIKHMONOF_LJAHDMJLMCE_OFFSET UNITYSDK_OFFSET(0xB8229F0)
 #define LPKIKHMONOF_OHHOHMEIKEM_OFFSET UNITYSDK_OFFSET(0xB822B30)
 
+inline static constexpr unsigned int LPKIKHMONOF_TypeDefinitionIndex = 47635;
+
 	class LPKIKHMONOF : public ::System::Object
 	{
 	public:

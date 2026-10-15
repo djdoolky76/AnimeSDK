@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChimeraDuelEntityPredicateBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelEntitiesFilterSelectorConfig_TypeDefinitionIndex = 15917;
+
 	class ChimeraDuelEntitiesFilterSelectorConfig : public ::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig
 	{
 	public:

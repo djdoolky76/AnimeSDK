@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int Utils___c__DisplayClass2_0_TypeDefinitionIndex = 50273;
+
 	class Utils___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

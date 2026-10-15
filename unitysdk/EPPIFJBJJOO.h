@@ -4,6 +4,8 @@
 namespace System { class Nullable; }
 namespace System { class String; }
 
+inline static constexpr unsigned int EPPIFJBJJOO_TypeDefinitionIndex = 55497;
+
 	struct alignas(8) EPPIFJBJJOO
 	{
 		::System::Nullable* CAGCHKJHMPD; // 0x10

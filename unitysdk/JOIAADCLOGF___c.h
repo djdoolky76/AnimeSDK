@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JOIAADCLOGF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A3C60)
 #define JOIAADCLOGF___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E7A3C70)
 
+inline static constexpr unsigned int JOIAADCLOGF___c_TypeDefinitionIndex = 26533;
+
 	class JOIAADCLOGF___c : public ::System::Object
 	{
 	public:

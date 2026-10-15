@@ -13,6 +13,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int A4SkyDomeEffectControlMonoPlugin_TypeDefinitionIndex = 70875;
+
 	class A4SkyDomeEffectControlMonoPlugin
 	{
 	public:

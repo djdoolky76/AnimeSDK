@@ -6,6 +6,8 @@ namespace UnityEngine { class Texture; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonGraphicCustomMaterials_AtlasTextureOverride_TypeDefinitionIndex = 45052;
+
 	struct alignas(8) SkeletonGraphicCustomMaterials_AtlasTextureOverride
 	{
 		::System::Boolean overrideEnabled; // 0x10

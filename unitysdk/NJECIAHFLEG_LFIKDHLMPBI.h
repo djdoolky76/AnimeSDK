@@ -7,6 +7,8 @@ namespace UnityEngine::UI { class Text; }
 
 #define NJECIAHFLEG_LFIKDHLMPBI_CTOR_OFFSET UNITYSDK_OFFSET(0xBC0B440)
 
+inline static constexpr unsigned int NJECIAHFLEG_LFIKDHLMPBI_TypeDefinitionIndex = 72925;
+
 	class NJECIAHFLEG_LFIKDHLMPBI : public ::System::Object
 	{
 	public:

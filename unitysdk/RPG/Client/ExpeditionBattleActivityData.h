@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ExpeditionBattleActivityData_TypeDefinitionIndex = 61615;
+
 	class ExpeditionBattleActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

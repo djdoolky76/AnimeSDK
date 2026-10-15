@@ -30,6 +30,8 @@ namespace System { class String; }
 #define AKINJCDPGIF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3CD270)
 #define AKINJCDPGIF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3CD2D0)
 
+inline static constexpr unsigned int AKINJCDPGIF_TypeDefinitionIndex = 33462;
+
 	class AKINJCDPGIF : public ::System::Object
 	{
 	public:

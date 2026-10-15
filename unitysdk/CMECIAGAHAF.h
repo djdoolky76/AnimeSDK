@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CMECIAGAHAF_CTOR_OFFSET UNITYSDK_OFFSET(0xDA29630)
 #define CMECIAGAHAF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDA29660)
 
+inline static constexpr unsigned int CMECIAGAHAF_TypeDefinitionIndex = 58812;
+
 	class CMECIAGAHAF
 	{
 	public:

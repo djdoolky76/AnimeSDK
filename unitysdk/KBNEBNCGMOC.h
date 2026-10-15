@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 #define KBNEBNCGMOC_ODEBBPOGCMA_OFFSET UNITYSDK_OFFSET(0xB323410)
 #define KBNEBNCGMOC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB323020)
 
+inline static constexpr unsigned int KBNEBNCGMOC_TypeDefinitionIndex = 58349;
+
 	class KBNEBNCGMOC
 	{
 	public:

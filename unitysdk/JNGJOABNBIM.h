@@ -31,6 +31,8 @@ namespace System { class String; }
 #define JNGJOABNBIM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E796AA0)
 #define JNGJOABNBIM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E796B00)
 
+inline static constexpr unsigned int JNGJOABNBIM_TypeDefinitionIndex = 32450;
+
 	class JNGJOABNBIM : public ::System::Object
 	{
 	public:

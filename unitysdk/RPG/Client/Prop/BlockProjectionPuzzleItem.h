@@ -25,6 +25,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int BlockProjectionPuzzleItem_TypeDefinitionIndex = 78213;
+
 	class BlockProjectionPuzzleItem : public ::RPG::Client::Prop::InteractPuzzleItemBase
 	{
 	public:

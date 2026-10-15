@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GuidePC_TypeDefinitionIndex = 24336;
+
 	class GuidePC : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -67,6 +67,8 @@ namespace UnityEngine { class Transform; }
 #define CCAFCCGAFDG_OCGDJAMBLFE_OFFSET UNITYSDK_OFFSET(0xC4BAC00)
 #define CCAFCCGAFDG_SET_FORBIDCACHE_OFFSET UNITYSDK_OFFSET(0xC4BC770)
 
+inline static constexpr unsigned int CCAFCCGAFDG_TypeDefinitionIndex = 59388;
+
 	class CCAFCCGAFDG : public ::System::Object
 	{
 	public:

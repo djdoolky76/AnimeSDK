@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KEPIEGKPFIJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E812310)
 #define KEPIEGKPFIJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E812370)
 
+inline static constexpr unsigned int KEPIEGKPFIJ_TypeDefinitionIndex = 29382;
+
 	class KEPIEGKPFIJ : public ::System::Object
 	{
 	public:

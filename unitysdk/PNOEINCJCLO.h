@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PNOEINCJCLO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFBF8D0)
 #define PNOEINCJCLO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFBF930)
 
+inline static constexpr unsigned int PNOEINCJCLO_TypeDefinitionIndex = 35030;
+
 	class PNOEINCJCLO : public ::System::Object
 	{
 	public:

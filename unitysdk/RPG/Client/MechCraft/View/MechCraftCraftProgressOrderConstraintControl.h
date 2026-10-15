@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftProgressOrderConstraintControl_TypeDefinitionIndex = 79937;
+
 	class MechCraftCraftProgressOrderConstraintControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

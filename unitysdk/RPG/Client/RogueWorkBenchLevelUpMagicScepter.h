@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueWorkBenchLevelUpMagicScepter_TypeDefinitionIndex = 67348;
+
 	class RogueWorkBenchLevelUpMagicScepter : public ::System::Object
 	{
 	public:

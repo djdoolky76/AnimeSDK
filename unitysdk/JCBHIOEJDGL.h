@@ -6,6 +6,8 @@ namespace RPG::GameCore { class ChimeraEvaluationCondition; }
 #define JCBHIOEJDGL_AMPLNFFNNJI_OFFSET UNITYSDK_OFFSET(0x16579B70)
 #define JCBHIOEJDGL_CTOR_OFFSET UNITYSDK_OFFSET(0x16579B60)
 
+inline static constexpr unsigned int JCBHIOEJDGL_TypeDefinitionIndex = 63478;
+
 	class JCBHIOEJDGL : public ::GEJKIKIKHFK
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define NBFAGOOJIOB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EACFE10)
 #define NBFAGOOJIOB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EACFE70)
 
+inline static constexpr unsigned int NBFAGOOJIOB_TypeDefinitionIndex = 33103;
+
 	class NBFAGOOJIOB : public ::System::Object
 	{
 	public:

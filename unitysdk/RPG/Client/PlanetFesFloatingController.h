@@ -51,6 +51,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesFloatingController_TypeDefinitionIndex = 66485;
+
 	class PlanetFesFloatingController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

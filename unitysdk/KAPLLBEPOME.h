@@ -10,6 +10,8 @@ namespace System::Text { class StringBuilder; }
 #define KAPLLBEPOME_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1C4A9940)
 #define KAPLLBEPOME_LEMGFGLHNMN_OFFSET UNITYSDK_OFFSET(0x1C4A9A70)
 
+inline static constexpr unsigned int KAPLLBEPOME_TypeDefinitionIndex = 41374;
+
 	class KAPLLBEPOME : public ::System::Object
 	{
 	public:

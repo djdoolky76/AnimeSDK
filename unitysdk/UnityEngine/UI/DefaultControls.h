@@ -33,6 +33,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int DefaultControls_TypeDefinitionIndex = 6703;
+
 	class DefaultControls : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class ItemConfig; }
 #define NPBNILHKEOD_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF9DD0)
 #define NPBNILHKEOD_HNPPMLBBMEI_OFFSET UNITYSDK_OFFSET(0xBCF9D20)
 
+inline static constexpr unsigned int NPBNILHKEOD_TypeDefinitionIndex = 65704;
+
 	class NPBNILHKEOD : public ::System::Object
 	{
 	public:

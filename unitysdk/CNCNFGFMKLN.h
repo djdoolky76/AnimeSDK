@@ -7,6 +7,8 @@ namespace RPG::GameCore { class LittleGameAbilityConfig; }
 
 #define CNCNFGFMKLN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA133F0)
 
+inline static constexpr unsigned int CNCNFGFMKLN_TypeDefinitionIndex = 42888;
+
 	class CNCNFGFMKLN : public ::System::Object
 	{
 	public:

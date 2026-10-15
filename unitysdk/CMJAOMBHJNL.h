@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CMJAOMBHJNL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E102BF0)
 #define CMJAOMBHJNL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E102C50)
 
+inline static constexpr unsigned int CMJAOMBHJNL_TypeDefinitionIndex = 28859;
+
 	class CMJAOMBHJNL : public ::System::Object
 	{
 	public:

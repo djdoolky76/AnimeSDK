@@ -40,6 +40,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ExpeditionBattleSettleViewModel_TypeDefinitionIndex = 63954;
+
 	class ExpeditionBattleSettleViewModel : public ::System::Object
 	{
 	public:

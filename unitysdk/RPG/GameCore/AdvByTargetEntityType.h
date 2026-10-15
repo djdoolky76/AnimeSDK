@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvByTargetEntityType; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvByTargetEntityType_TypeDefinitionIndex = 20595;
+
 	class AdvByTargetEntityType : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

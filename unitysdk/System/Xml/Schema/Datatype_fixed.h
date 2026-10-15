@@ -13,6 +13,8 @@ namespace System::Xml { class XmlNameTable; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_fixed_TypeDefinitionIndex = 2151;
+
 	class Datatype_fixed : public ::System::Xml::Schema::Datatype_decimal
 	{
 	public:

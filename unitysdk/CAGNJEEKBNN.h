@@ -25,6 +25,8 @@ namespace System { class String; }
 #define CAGNJEEKBNN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E05AAE0)
 #define CAGNJEEKBNN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E05AB40)
 
+inline static constexpr unsigned int CAGNJEEKBNN_TypeDefinitionIndex = 32708;
+
 	class CAGNJEEKBNN : public ::System::Object
 	{
 	public:

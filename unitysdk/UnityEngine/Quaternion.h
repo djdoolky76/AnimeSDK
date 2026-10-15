@@ -77,6 +77,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Quaternion_TypeDefinitionIndex = 4227;
+
 	struct alignas(4) Quaternion
 	{
 		::System::Single x; // 0x10

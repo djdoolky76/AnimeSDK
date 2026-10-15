@@ -20,6 +20,8 @@ namespace System { class Object; }
 #define FCNFFCOPIPB_LLABACALCON_OFFSET UNITYSDK_OFFSET(0x3C383A0)
 #define FCNFFCOPIPB_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1CDD6E50)
 
+inline static constexpr unsigned int FCNFFCOPIPB_TypeDefinitionIndex = 10661;
+
 	struct alignas(8) FCNFFCOPIPB
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

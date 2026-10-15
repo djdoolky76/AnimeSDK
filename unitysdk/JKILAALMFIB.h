@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JKILAALMFIB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E76CB10)
 #define JKILAALMFIB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E76CB70)
 
+inline static constexpr unsigned int JKILAALMFIB_TypeDefinitionIndex = 34192;
+
 	class JKILAALMFIB : public ::System::Object
 	{
 	public:

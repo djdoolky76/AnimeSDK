@@ -31,6 +31,8 @@ namespace System { class String; }
 #define LKFFMLJMGOB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E98E700)
 #define LKFFMLJMGOB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E98E760)
 
+inline static constexpr unsigned int LKFFMLJMGOB_TypeDefinitionIndex = 29870;
+
 	class LKFFMLJMGOB : public ::System::Object
 	{
 	public:

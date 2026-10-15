@@ -16,6 +16,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int SpaceZooBackgroundCmd_TypeDefinitionIndex = 37650;
+
 	class SpaceZooBackgroundCmd : public ::UnityEngine::MonoBehaviour
 	{
 	public:

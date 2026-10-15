@@ -7,6 +7,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_PacketFlag_TypeDefinitionIndex = 46382;
+
 	struct alignas(4) SecurityTunnel_PacketFlag
 	{
 		::System::UInt32 FlagCode; // 0x10

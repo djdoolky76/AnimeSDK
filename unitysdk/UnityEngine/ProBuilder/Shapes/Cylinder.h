@@ -14,6 +14,8 @@ namespace UnityEngine::ProBuilder::Shapes { class Shape; }
 
 namespace UnityEngine::ProBuilder::Shapes
 {
+	inline static constexpr unsigned int Cylinder_TypeDefinitionIndex = 44461;
+
 	class Cylinder : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
 	public:

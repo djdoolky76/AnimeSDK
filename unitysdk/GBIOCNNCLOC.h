@@ -4,6 +4,8 @@
 
 #define GBIOCNNCLOC_CTOR_OFFSET UNITYSDK_OFFSET(0x15951110)
 
+inline static constexpr unsigned int GBIOCNNCLOC_TypeDefinitionIndex = 80540;
+
 	class GBIOCNNCLOC : public ::System::Object
 	{
 	public:

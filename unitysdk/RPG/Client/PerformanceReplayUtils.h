@@ -17,6 +17,8 @@ namespace System::IO { class Stream; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PerformanceReplayUtils_TypeDefinitionIndex = 62211;
+
 	class PerformanceReplayUtils : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ItemUseConditionRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ItemUseConditionRow_TypeDefinitionIndex = 13881;
+
 	class ItemUseConditionRow : public ::System::Object
 	{
 	public:

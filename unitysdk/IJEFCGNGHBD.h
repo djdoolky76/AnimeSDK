@@ -14,6 +14,8 @@ namespace System { class String; }
 #define IJEFCGNGHBD_JPNGAJMIAJP_OFFSET UNITYSDK_OFFSET(0x1645B170)
 #define IJEFCGNGHBD_REMOVE_ONMAYBECHANGED_OFFSET UNITYSDK_OFFSET(0x1645B220)
 
+inline static constexpr unsigned int IJEFCGNGHBD_TypeDefinitionIndex = 60105;
+
 	class IJEFCGNGHBD : public ::System::Object
 	{
 	public:

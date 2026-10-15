@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_MessageFunc_TypeDefinitionIndex = 39372;
+
 	class BrowserNative_MessageFunc : public ::System::MulticastDelegate
 	{
 	public:

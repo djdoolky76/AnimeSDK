@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int Documentation_TypeDefinitionIndex = 35557;
+
 	class Documentation : public ::UnityEngine::Rendering::DocumentationInfo
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class AnimationClip; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoSwordTrainingAnimationIndexer_TypeDefinitionIndex = 72931;
+
 	class MonoSwordTrainingAnimationIndexer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

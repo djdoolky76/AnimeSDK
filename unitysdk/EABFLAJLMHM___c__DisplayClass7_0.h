@@ -7,6 +7,8 @@ class FOMNCOHAGBA;
 #define EABFLAJLMHM___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1266FA60)
 #define EABFLAJLMHM___C__DISPLAYCLASS7_0__EXITSESSION_B__0_OFFSET UNITYSDK_OFFSET(0x1266FB90)
 
+inline static constexpr unsigned int EABFLAJLMHM___c__DisplayClass7_0_TypeDefinitionIndex = 80227;
+
 	class EABFLAJLMHM___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

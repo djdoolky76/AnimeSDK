@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int PathTooLongException_TypeDefinitionIndex = 682;
+
 	class PathTooLongException : public ::System::IO::IOException
 	{
 	public:

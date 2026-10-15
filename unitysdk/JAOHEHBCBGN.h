@@ -31,6 +31,8 @@ namespace System { class Nullable; }
 #define JAOHEHBCBGN_SET_TRANSITINTIME_OFFSET UNITYSDK_OFFSET(0x1655C850)
 #define JAOHEHBCBGN_SET_TRANSITOUTTIME_OFFSET UNITYSDK_OFFSET(0x1655C870)
 
+inline static constexpr unsigned int JAOHEHBCBGN_TypeDefinitionIndex = 69542;
+
 	class JAOHEHBCBGN : public ::System::Object
 	{
 	public:

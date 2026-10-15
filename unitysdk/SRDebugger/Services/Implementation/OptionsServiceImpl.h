@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace SRDebugger::Services::Implementation
 {
+	inline static constexpr unsigned int OptionsServiceImpl_TypeDefinitionIndex = 38081;
+
 	class OptionsServiceImpl : public ::System::Object
 	{
 	public:

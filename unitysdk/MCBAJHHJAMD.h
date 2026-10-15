@@ -9,6 +9,8 @@
 #define MCBAJHHJAMD_NINDHOGICJD_OFFSET UNITYSDK_OFFSET(0xB873620)
 #define MCBAJHHJAMD_PLFJCMLDIKG_OFFSET UNITYSDK_OFFSET(0xB873440)
 
+inline static constexpr unsigned int MCBAJHHJAMD_TypeDefinitionIndex = 52059;
+
 	class MCBAJHHJAMD : public ::System::Object
 	{
 	public:

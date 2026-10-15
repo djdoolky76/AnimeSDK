@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PPDKBLAFDAL_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xC37C7C0)
 #define PPDKBLAFDAL_JOEDLCMMHCD_OFFSET UNITYSDK_OFFSET(0xC37C620)
 
+inline static constexpr unsigned int PPDKBLAFDAL_TypeDefinitionIndex = 49411;
+
 	class PPDKBLAFDAL
 	{
 	public:

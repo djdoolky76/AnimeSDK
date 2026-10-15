@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MiniMapIconRow_TypeDefinitionIndex = 12549;
+
 	class MiniMapIconRow : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StopSound_TypeDefinitionIndex = 20612;
+
 	class StopSound : public ::RPG::GameCore::TaskConfig
 	{
 	public:

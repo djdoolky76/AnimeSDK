@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TriggerReplaceCharacterPresetEffect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerReplaceCharacterPresetEffect_TypeDefinitionIndex = 20267;
+
 	class TriggerReplaceCharacterPresetEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

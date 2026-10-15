@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int LEJBAOJGJGI_TypeDefinitionIndex = 26151;
+
 	enum class LEJBAOJGJGI : ::System::Int32
 	{
 		JCDCNPPCNEO = 0,

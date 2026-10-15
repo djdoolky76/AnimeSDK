@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Assertions
 {
+	inline static constexpr unsigned int AssertionException_TypeDefinitionIndex = 4955;
+
 	class AssertionException : public ::System::Exception
 	{
 	public:

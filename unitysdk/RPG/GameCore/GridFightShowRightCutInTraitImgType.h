@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightShowRightCutInTraitImgType_TypeDefinitionIndex = 24721;
+
 	enum class GridFightShowRightCutInTraitImgType : ::System::Int32
 	{
 		None = 0,

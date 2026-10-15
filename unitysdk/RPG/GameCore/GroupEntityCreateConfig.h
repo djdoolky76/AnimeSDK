@@ -13,6 +13,8 @@ namespace RPG::GameCore { class LevelGraphValueSource; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GroupEntityCreateConfig_TypeDefinitionIndex = 21225;
+
 	class GroupEntityCreateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

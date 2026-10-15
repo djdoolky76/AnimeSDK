@@ -28,6 +28,8 @@ namespace ZLinq { class ValueEnumerable; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournFormulaExcelTable_TypeDefinitionIndex = 15004;
+
 	class RogueTournFormulaExcelTable : public ::System::Object
 	{
 	public:

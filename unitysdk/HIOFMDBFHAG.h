@@ -27,6 +27,8 @@ namespace System { class String; }
 #define HIOFMDBFHAG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E59F590)
 #define HIOFMDBFHAG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E59F5F0)
 
+inline static constexpr unsigned int HIOFMDBFHAG_TypeDefinitionIndex = 34473;
+
 	class HIOFMDBFHAG : public ::System::Object
 	{
 	public:

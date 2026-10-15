@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_TriggerIceEffect; }
 #define KJNBMHIJCAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C714E00)
 #define KJNBMHIJCAM_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C714E10)
 
+inline static constexpr unsigned int KJNBMHIJCAM_TypeDefinitionIndex = 36321;
+
 	class KJNBMHIJCAM : public ::AJBKGPOEBFG
 	{
 	public:

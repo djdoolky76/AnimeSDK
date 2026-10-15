@@ -16,6 +16,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 #define CEFCMPKCMAF_LLDEGEGKJEB_OFFSET UNITYSDK_OFFSET(0xC783840)
 #define CEFCMPKCMAF_SET_OWNER_OFFSET UNITYSDK_OFFSET(0xC783730)
 
+inline static constexpr unsigned int CEFCMPKCMAF_TypeDefinitionIndex = 70623;
+
 	class CEFCMPKCMAF : public ::System::Object
 	{
 	public:

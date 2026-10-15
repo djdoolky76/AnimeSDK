@@ -34,6 +34,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG::Client::ActivityFinalityBattle
 {
+	inline static constexpr unsigned int FinalityBattleHost_TypeDefinitionIndex = 82060;
+
 	class FinalityBattleHost : public ::System::Object
 	{
 	public:

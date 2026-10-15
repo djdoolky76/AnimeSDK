@@ -46,6 +46,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GKDAANCFPGO_PBDNAIDEIPK_OFFSET UNITYSDK_OFFSET(0x1C631CD0)
 #define GKDAANCFPGO_PKIGEGFNMDL_OFFSET UNITYSDK_OFFSET(0x1C644240)
 
+inline static constexpr unsigned int GKDAANCFPGO_TypeDefinitionIndex = 36973;
+
 	class GKDAANCFPGO : public ::System::Object
 	{
 	public:

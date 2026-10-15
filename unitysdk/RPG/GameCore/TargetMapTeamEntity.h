@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetMapTeamEntity_TypeDefinitionIndex = 23944;
+
 	class TargetMapTeamEntity : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:

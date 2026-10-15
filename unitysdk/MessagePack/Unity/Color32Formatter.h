@@ -12,6 +12,8 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Unity
 {
+	inline static constexpr unsigned int Color32Formatter_TypeDefinitionIndex = 10133;
+
 	class Color32Formatter : public ::System::Object
 	{
 	public:

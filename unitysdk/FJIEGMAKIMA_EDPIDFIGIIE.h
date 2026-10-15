@@ -28,6 +28,8 @@ namespace UnityEngine::AI { class NavMeshObstacle; }
 #define FJIEGMAKIMA_EDPIDFIGIIE_OHMHJFANEIF_OFFSET UNITYSDK_OFFSET(0x157C65F0)
 #define FJIEGMAKIMA_EDPIDFIGIIE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x157CD3A0)
 
+inline static constexpr unsigned int FJIEGMAKIMA_EDPIDFIGIIE_TypeDefinitionIndex = 60227;
+
 	class FJIEGMAKIMA_EDPIDFIGIIE : public ::System::Object
 	{
 	public:

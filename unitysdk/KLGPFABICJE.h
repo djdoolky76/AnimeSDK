@@ -8,6 +8,8 @@ namespace RPG::GameCore { class CakeRaceActionChangeWaitTimeByVote; }
 #define KLGPFABICJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C715B00)
 #define KLGPFABICJE_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C715B10)
 
+inline static constexpr unsigned int KLGPFABICJE_TypeDefinitionIndex = 37383;
+
 	class KLGPFABICJE : public ::GPLOFONGBGI
 	{
 	public:

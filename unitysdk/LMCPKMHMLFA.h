@@ -4,6 +4,8 @@
 
 #define LMCPKMHMLFA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9109D0)
 
+inline static constexpr unsigned int LMCPKMHMLFA_TypeDefinitionIndex = 42161;
+
 	class LMCPKMHMLFA : public ::System::Object
 	{
 	public:

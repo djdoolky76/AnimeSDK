@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GIFKCLMJMAO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15A346A0)
 #define GIFKCLMJMAO_TICK_OFFSET UNITYSDK_OFFSET(0x15A346F0)
 
+inline static constexpr unsigned int GIFKCLMJMAO_TypeDefinitionIndex = 52174;
+
 	class GIFKCLMJMAO
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActivityLocalLegendRewardConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityLocalLegendRewardConfigRow_TypeDefinitionIndex = 11845;
+
 	class ActivityLocalLegendRewardConfigRow : public ::System::Object
 	{
 	public:

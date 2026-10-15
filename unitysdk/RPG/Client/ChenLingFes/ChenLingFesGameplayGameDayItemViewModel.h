@@ -15,6 +15,8 @@ class PNMBJHMPELA;
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameplayGameDayItemViewModel_TypeDefinitionIndex = 81380;
+
 	class ChenLingFesGameplayGameDayItemViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

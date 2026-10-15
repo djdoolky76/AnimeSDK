@@ -55,6 +55,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace Spine::Unity::AttachmentTools
 {
+	inline static constexpr unsigned int AtlasUtilities_TypeDefinitionIndex = 45112;
+
 	class AtlasUtilities : public ::System::Object
 	{
 	public:

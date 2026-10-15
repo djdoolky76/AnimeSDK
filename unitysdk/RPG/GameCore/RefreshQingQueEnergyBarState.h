@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RefreshQingQueEnergyBarState_TypeDefinitionIndex = 22739;
+
 	class RefreshQingQueEnergyBarState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

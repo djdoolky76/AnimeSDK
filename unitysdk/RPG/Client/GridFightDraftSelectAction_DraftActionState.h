@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightDraftSelectAction_DraftActionState_TypeDefinitionIndex = 64546;
+
 	enum class GridFightDraftSelectAction_DraftActionState : ::System::Int32
 	{
 		None = 0,

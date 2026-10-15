@@ -3,6 +3,8 @@
 
 #define HOHAIHFFPFH_CTOR_OFFSET UNITYSDK_OFFSET(0x15DB7200)
 
+inline static constexpr unsigned int HOHAIHFFPFH_TypeDefinitionIndex = 74004;
+
 	class HOHAIHFFPFH
 	{
 	public:

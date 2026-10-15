@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NMLGHIFLBNN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB79650)
 #define NMLGHIFLBNN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB796B0)
 
+inline static constexpr unsigned int NMLGHIFLBNN_TypeDefinitionIndex = 26390;
+
 	class NMLGHIFLBNN : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int FieldPacking_TypeDefinitionIndex = 35572;
+
 	enum class FieldPacking : ::System::Int32
 	{
 		NoPacking = 0,

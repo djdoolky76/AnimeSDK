@@ -58,6 +58,8 @@ namespace UnityEngine { class Transform; }
 #define MNIADKMONBH_SET_PEDESTRIANMAXCOUNT_OFFSET UNITYSDK_OFFSET(0xBA0C740)
 #define MNIADKMONBH_SET_STARTCONNECTINTERSECTION_OFFSET UNITYSDK_OFFSET(0xBA0C6F0)
 
+inline static constexpr unsigned int MNIADKMONBH_TypeDefinitionIndex = 69304;
+
 	class MNIADKMONBH : public ::System::Object
 	{
 	public:

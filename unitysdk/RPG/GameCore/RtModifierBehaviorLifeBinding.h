@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtModifierBehaviorLifeBinding_TypeDefinitionIndex = 53777;
+
 	enum class RtModifierBehaviorLifeBinding : ::System::Int32
 	{
 		ModifierStack = 1,

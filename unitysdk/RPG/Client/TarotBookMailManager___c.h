@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TarotBookMailManager___c_TypeDefinitionIndex = 68048;
+
 	class TarotBookMailManager___c : public ::System::Object
 	{
 	public:

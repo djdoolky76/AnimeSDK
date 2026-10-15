@@ -10,6 +10,8 @@ namespace System { class String; }
 #define AKBANKMANAGER_ASYNCBANKHANDLE_DOLOADBANK_OFFSET UNITYSDK_OFFSET(0x1F57C0C0)
 #define AKBANKMANAGER_ASYNCBANKHANDLE_GLOBALBANKCALLBACK_OFFSET UNITYSDK_OFFSET(0x1F57BB20)
 
+inline static constexpr unsigned int AkBankManager_AsyncBankHandle_TypeDefinitionIndex = 44818;
+
 	class AkBankManager_AsyncBankHandle : public ::AkBankManager_BankHandle
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define IDBHBJKEBLK__ITERATE_D__1_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15E68890)
 #define IDBHBJKEBLK__ITERATE_D__1___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x15E688B0)
 
+inline static constexpr unsigned int IDBHBJKEBLK__Iterate_d__1_TypeDefinitionIndex = 61402;
+
 	template <typename T>
 	class IDBHBJKEBLK__Iterate_d__1 : public ::System::Object
 	{

@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveGachaPoolData_TypeDefinitionIndex = 75254;
+
 	class IdleLiveGachaPoolData : public ::System::Object
 	{
 	public:

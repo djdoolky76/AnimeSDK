@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TryRequestEnterRegion; }
 #define PHOJLHEDMEJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC258F30)
 #define PHOJLHEDMEJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC258DF0)
 
+inline static constexpr unsigned int PHOJLHEDMEJ_TypeDefinitionIndex = 58805;
+
 	class PHOJLHEDMEJ
 	{
 	public:

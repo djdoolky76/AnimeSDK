@@ -30,6 +30,8 @@ namespace System { class String; }
 #define ONGCMCCAPOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEC4AE0)
 #define ONGCMCCAPOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEC4B40)
 
+inline static constexpr unsigned int ONGCMCCAPOA_TypeDefinitionIndex = 34517;
+
 	class ONGCMCCAPOA : public ::System::Object
 	{
 	public:

@@ -51,6 +51,8 @@ namespace System::Xml { class XmlWriter; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlEventCache_TypeDefinitionIndex = 1836;
+
 	class XmlEventCache : public ::System::Xml::XmlRawWriter
 	{
 	public:

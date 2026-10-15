@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace System::Linq
 {
+	inline static constexpr unsigned int Lookup_2_Grouping__GetEnumerator_d__7_TypeDefinitionIndex = 3172;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
 	class Lookup_2_Grouping__GetEnumerator_d__7 : public ::System::Object
 	{

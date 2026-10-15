@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CHKPAONIEPN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DC10D00)
 #define CHKPAONIEPN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DC10620)
 
+inline static constexpr unsigned int CHKPAONIEPN_TypeDefinitionIndex = 11987;
+
 	class CHKPAONIEPN : public ::System::Object
 	{
 	public:

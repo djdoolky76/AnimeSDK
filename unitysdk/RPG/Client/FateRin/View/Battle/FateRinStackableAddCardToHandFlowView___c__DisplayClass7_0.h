@@ -10,6 +10,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::FateRin::View::Battle
 {
+	inline static constexpr unsigned int FateRinStackableAddCardToHandFlowView___c__DisplayClass7_0_TypeDefinitionIndex = 80704;
+
 	class FateRinStackableAddCardToHandFlowView___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System
 {
+	inline static constexpr unsigned int TypeSpec_TypeDefinitionIndex = 447;
+
 	class TypeSpec : public ::System::Object
 	{
 	public:

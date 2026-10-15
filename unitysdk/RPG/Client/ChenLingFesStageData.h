@@ -51,6 +51,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChenLingFesStageData_TypeDefinitionIndex = 61465;
+
 	class ChenLingFesStageData : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenArrangeGameState___c_TypeDefinitionIndex = 75512;
+
 	class ActivityHipplenArrangeGameState___c : public ::System::Object
 	{
 	public:

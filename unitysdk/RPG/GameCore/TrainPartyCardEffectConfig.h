@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyCardEffectConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyCardEffectConfig_TypeDefinitionIndex = 18084;
+
 	class TrainPartyCardEffectConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

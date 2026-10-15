@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LFDIMJCMNDJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E93B1E0)
 #define LFDIMJCMNDJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E93B240)
 
+inline static constexpr unsigned int LFDIMJCMNDJ_TypeDefinitionIndex = 29704;
+
 	class LFDIMJCMNDJ : public ::System::Object
 	{
 	public:

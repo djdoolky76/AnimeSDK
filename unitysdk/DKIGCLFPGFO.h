@@ -29,6 +29,8 @@ namespace System { class String; }
 #define DKIGCLFPGFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1D79B0)
 #define DKIGCLFPGFO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1D7A10)
 
+inline static constexpr unsigned int DKIGCLFPGFO_TypeDefinitionIndex = 34806;
+
 	class DKIGCLFPGFO : public ::System::Object
 	{
 	public:

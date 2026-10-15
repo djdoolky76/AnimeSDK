@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int AsyncSelectorEnumerableSorter_2__ComputeKeysAsync_d__6_TypeDefinitionIndex = 45523;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	struct alignas(8) AsyncSelectorEnumerableSorter_2__ComputeKeysAsync_d__6
 	{

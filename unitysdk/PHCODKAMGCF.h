@@ -19,6 +19,8 @@ namespace System { class String; }
 #define PHCODKAMGCF_SAMPLE_OFFSET UNITYSDK_OFFSET(0xC23A6D0)
 #define PHCODKAMGCF_SET_OWNERFMSYSTEM_OFFSET UNITYSDK_OFFSET(0xC23A520)
 
+inline static constexpr unsigned int PHCODKAMGCF_TypeDefinitionIndex = 69170;
+
 	class PHCODKAMGCF : public ::System::Object
 	{
 	public:

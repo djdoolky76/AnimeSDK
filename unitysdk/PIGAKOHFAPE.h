@@ -4,6 +4,8 @@
 
 #define PIGAKOHFAPE_CTOR_OFFSET UNITYSDK_OFFSET(0xC25FCC0)
 
+inline static constexpr unsigned int PIGAKOHFAPE_TypeDefinitionIndex = 49327;
+
 	class PIGAKOHFAPE : public ::System::Attribute
 	{
 	public:

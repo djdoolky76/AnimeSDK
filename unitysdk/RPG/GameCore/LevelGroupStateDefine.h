@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LevelGroupStateDefine; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelGroupStateDefine_TypeDefinitionIndex = 17331;
+
 	class LevelGroupStateDefine : public ::RPG::GameCore::JsonConfig
 	{
 	public:

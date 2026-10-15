@@ -7,6 +7,8 @@ class ALMFLCJCHKP;
 #define CIIKBJFOKHL___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCF85CD0)
 #define CIIKBJFOKHL___C__DISPLAYCLASS13_0___FILTERSOLDIERBYINITPOSITION_B__4_OFFSET UNITYSDK_OFFSET(0xCF8AE60)
 
+inline static constexpr unsigned int CIIKBJFOKHL___c__DisplayClass13_0_TypeDefinitionIndex = 77871;
+
 	class CIIKBJFOKHL___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

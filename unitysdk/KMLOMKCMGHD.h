@@ -29,6 +29,8 @@ namespace System { class String; }
 #define KMLOMKCMGHD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E89D0E0)
 #define KMLOMKCMGHD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E89D140)
 
+inline static constexpr unsigned int KMLOMKCMGHD_TypeDefinitionIndex = 28364;
+
 	class KMLOMKCMGHD : public ::System::Object
 	{
 	public:

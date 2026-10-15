@@ -7,6 +7,8 @@ namespace RPG::Client { class BattleAvatarUltraSkillFlyEffect; }
 #define DOBHGKLLBEA___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x11FDEBE0)
 #define DOBHGKLLBEA___C__DISPLAYCLASS11_0___PLAYEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x11FDF050)
 
+inline static constexpr unsigned int DOBHGKLLBEA___c__DisplayClass11_0_TypeDefinitionIndex = 71479;
+
 	class DOBHGKLLBEA___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

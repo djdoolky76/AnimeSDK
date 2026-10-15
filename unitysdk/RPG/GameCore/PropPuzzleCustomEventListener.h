@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropPuzzleCustomEventListener_TypeDefinitionIndex = 21987;
+
 	class PropPuzzleCustomEventListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

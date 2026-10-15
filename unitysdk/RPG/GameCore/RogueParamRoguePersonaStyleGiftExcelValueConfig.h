@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueParamRoguePersonaStyleGiftExcelValueConfig;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueParamRoguePersonaStyleGiftExcelValueConfig_TypeDefinitionIndex = 19861;
+
 	class RogueParamRoguePersonaStyleGiftExcelValueConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:

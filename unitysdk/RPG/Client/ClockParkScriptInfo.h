@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ClockParkScriptInfo_TypeDefinitionIndex = 61493;
+
 	class ClockParkScriptInfo : public ::System::Object
 	{
 	public:

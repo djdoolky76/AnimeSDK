@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define KDJPODKPDEB_CHAKABNICEL_OFFSET UNITYSDK_OFFSET(0xB365390)
 #define KDJPODKPDEB_CTOR_OFFSET UNITYSDK_OFFSET(0xB365450)
 
+inline static constexpr unsigned int KDJPODKPDEB_TypeDefinitionIndex = 77540;
+
 	class KDJPODKPDEB : public ::System::Object
 	{
 	public:

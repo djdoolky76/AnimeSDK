@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int SceneViewDrawModeSetting_TypeDefinitionIndex = 4821;
+
 	struct alignas(4) SceneViewDrawModeSetting
 	{
 		::System::Int32 DrawMode; // 0x10

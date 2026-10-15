@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AirshipCarDetectAvoidTrigger_TypeDefinitionIndex = 59813;
+
 	class AirshipCarDetectAvoidTrigger : public ::RPG::Client::AirshipCarDetectTrigger
 	{
 	public:

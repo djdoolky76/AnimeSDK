@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueAdvRoomCandyCrashGameProcess; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueAdvRoomCandyCrashGameProcess_TypeDefinitionIndex = 22282;
+
 	class RogueAdvRoomCandyCrashGameProcess : public ::RPG::GameCore::TaskConfig
 	{
 	public:

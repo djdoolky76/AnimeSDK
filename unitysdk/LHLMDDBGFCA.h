@@ -6,6 +6,8 @@
 
 #define LHLMDDBGFCA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90ED30)
 
+inline static constexpr unsigned int LHLMDDBGFCA_TypeDefinitionIndex = 42989;
+
 	class LHLMDDBGFCA : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RspHandler_TypeDefinitionIndex = 59285;
+
 	class RspHandler : public ::System::MulticastDelegate
 	{
 	public:

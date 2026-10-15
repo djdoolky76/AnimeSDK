@@ -17,6 +17,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoUIFocusHelper_TypeDefinitionIndex = 72613;
+
 	class MonoUIFocusHelper : public ::UnityEngine::MonoBehaviour
 	{
 	public:

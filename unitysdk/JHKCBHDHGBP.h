@@ -8,6 +8,8 @@ class KKJMAOMDCAE_ELIIEJCNHLN;
 #define JHKCBHDHGBP_KADJIDHNIEM_OFFSET UNITYSDK_OFFSET(0xB1B97D0)
 #define JHKCBHDHGBP_LMKOKEIGEMK_OFFSET UNITYSDK_OFFSET(0xB1B9770)
 
+inline static constexpr unsigned int JHKCBHDHGBP_TypeDefinitionIndex = 64796;
+
 	class JHKCBHDHGBP : public ::System::Object
 	{
 	public:

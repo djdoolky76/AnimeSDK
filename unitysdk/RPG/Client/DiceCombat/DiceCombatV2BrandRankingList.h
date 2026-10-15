@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2BrandRankingList_TypeDefinitionIndex = 76205;
+
 	class DiceCombatV2BrandRankingList : public ::UnityEngine::MonoBehaviour
 	{
 	public:

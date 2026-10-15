@@ -4,6 +4,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnumMaxValueHelper_1_TypeDefinitionIndex = 53704;
+
 	template <typename T>
 	class EnumMaxValueHelper_1 : public ::System::Object
 	{

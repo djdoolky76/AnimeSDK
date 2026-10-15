@@ -104,6 +104,8 @@ namespace UnityEngine { class CanvasGroup; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyGameInstance_TypeDefinitionIndex = 74361;
+
 	class TrainPartyGameInstance : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define ENJJDBBEOHD_DBPMJEEPDKI_OFFSET UNITYSDK_OFFSET(0x155B0C60)
 #define ENJJDBBEOHD_LODPENDCLPL_OFFSET UNITYSDK_OFFSET(0x155B0D10)
 
+inline static constexpr unsigned int ENJJDBBEOHD_TypeDefinitionIndex = 80136;
+
 	class ENJJDBBEOHD : public ::System::Object
 	{
 	public:

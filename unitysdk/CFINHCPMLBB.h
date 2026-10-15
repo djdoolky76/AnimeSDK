@@ -4,6 +4,8 @@
 
 #define CFINHCPMLBB_CTOR_OFFSET UNITYSDK_OFFSET(0xCC4F2C0)
 
+inline static constexpr unsigned int CFINHCPMLBB_TypeDefinitionIndex = 69677;
+
 	class CFINHCPMLBB : public ::System::Object
 	{
 	public:

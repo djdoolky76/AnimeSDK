@@ -12,6 +12,8 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 #define KDBPIDNMLII_KILLKFDGKIH_OFFSET UNITYSDK_OFFSET(0xB348500)
 #define KDBPIDNMLII_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB348900)
 
+inline static constexpr unsigned int KDBPIDNMLII_TypeDefinitionIndex = 77272;
+
 	class KDBPIDNMLII : public ::System::Object
 	{
 	public:

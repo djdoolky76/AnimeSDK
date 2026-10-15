@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define OLEOIDIBAKC_CTOR_OFFSET UNITYSDK_OFFSET(0xBF03300)
 #define OLEOIDIBAKC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF03330)
 
+inline static constexpr unsigned int OLEOIDIBAKC_TypeDefinitionIndex = 58165;
+
 	class OLEOIDIBAKC
 	{
 	public:

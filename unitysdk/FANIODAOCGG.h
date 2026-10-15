@@ -30,6 +30,8 @@ namespace System { class String; }
 #define FANIODAOCGG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E32A740)
 #define FANIODAOCGG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E32A7A0)
 
+inline static constexpr unsigned int FANIODAOCGG_TypeDefinitionIndex = 27417;
+
 	class FANIODAOCGG : public ::System::Object
 	{
 	public:

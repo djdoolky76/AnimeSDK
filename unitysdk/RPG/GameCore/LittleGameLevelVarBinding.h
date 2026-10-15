@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameLevelVarBinding_TypeDefinitionIndex = 18894;
+
 	class LittleGameLevelVarBinding : public ::RPG::GameCore::JsonConfig
 	{
 	public:

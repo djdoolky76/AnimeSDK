@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define PBPCIBIDMAJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBFF7710)
 #define PBPCIBIDMAJ_TICK_OFFSET UNITYSDK_OFFSET(0xBFF77D0)
 
+inline static constexpr unsigned int PBPCIBIDMAJ_TypeDefinitionIndex = 53318;
+
 	class PBPCIBIDMAJ : public ::GELIALJDFBL
 	{
 	public:

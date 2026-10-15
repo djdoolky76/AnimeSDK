@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KLAPOBNIPFH_SETUPDATA_OFFSET UNITYSDK_OFFSET(0xB4DC340)
 #define KLAPOBNIPFH_TRYFINDNEXTPOINT_OFFSET UNITYSDK_OFFSET(0xB4DD2E0)
 
+inline static constexpr unsigned int KLAPOBNIPFH_TypeDefinitionIndex = 64235;
+
 	class KLAPOBNIPFH : public ::RPG::Client::FloorConnectivityData
 	{
 	public:

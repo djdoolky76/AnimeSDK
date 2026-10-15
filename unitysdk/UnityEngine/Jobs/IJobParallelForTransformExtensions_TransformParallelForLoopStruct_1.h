@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Jobs
 {
+	inline static constexpr unsigned int IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1_TypeDefinitionIndex = 4428;
+
 	template <typename T>
 	struct alignas(4) IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1
 	{

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClearFormationFaceDeltaRecord_TypeDefinitionIndex = 22451;
+
 	class ClearFormationFaceDeltaRecord : public ::RPG::GameCore::TaskConfig
 	{
 	public:

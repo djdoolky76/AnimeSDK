@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerModifierCustomEvent_TypeDefinitionIndex = 22707;
+
 	class TriggerModifierCustomEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:

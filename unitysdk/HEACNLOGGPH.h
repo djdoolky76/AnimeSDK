@@ -57,6 +57,8 @@ namespace System { class String; }
 #define HEACNLOGGPH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E555440)
 #define HEACNLOGGPH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5554A0)
 
+inline static constexpr unsigned int HEACNLOGGPH_TypeDefinitionIndex = 34082;
+
 	class HEACNLOGGPH : public ::System::Object
 	{
 	public:

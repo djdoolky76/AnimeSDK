@@ -17,6 +17,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterDitherBehaviour_TypeDefinitionIndex = 47946;
+
 	class CharacterDitherBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

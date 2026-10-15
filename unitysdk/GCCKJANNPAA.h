@@ -5,6 +5,8 @@ namespace System { class Type; }
 
 #define GCCKJANNPAA_KGBKNGDFABK_OFFSET UNITYSDK_OFFSET(0x15965CA0)
 
+inline static constexpr unsigned int GCCKJANNPAA_TypeDefinitionIndex = 60087;
+
 	class GCCKJANNPAA : public ::System::Object
 	{
 	public:

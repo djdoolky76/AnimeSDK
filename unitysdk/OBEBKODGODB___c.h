@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define OBEBKODGODB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBAD4E0)
 #define OBEBKODGODB___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EBAD4F0)
 
+inline static constexpr unsigned int OBEBKODGODB___c_TypeDefinitionIndex = 31742;
+
 	class OBEBKODGODB___c : public ::System::Object
 	{
 	public:

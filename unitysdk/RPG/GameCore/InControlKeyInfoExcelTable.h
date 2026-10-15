@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InControlKeyInfoExcelTable_TypeDefinitionIndex = 13818;
+
 	class InControlKeyInfoExcelTable : public ::System::Object
 	{
 	public:

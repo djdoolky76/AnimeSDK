@@ -6,6 +6,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int PointerId_TypeDefinitionIndex = 5977;
+
 	class PointerId : public ::System::Object
 	{
 	public:

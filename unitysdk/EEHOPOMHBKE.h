@@ -8,6 +8,8 @@ namespace System::Collections { class IEnumerator; }
 #define EEHOPOMHBKE_NCMDKPIKDOH_OFFSET UNITYSDK_OFFSET(0x13A2DE20)
 #define EEHOPOMHBKE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A2D720)
 
+inline static constexpr unsigned int EEHOPOMHBKE_TypeDefinitionIndex = 56360;
+
 	class EEHOPOMHBKE
 	{
 	public:

@@ -35,6 +35,8 @@ namespace System { class String; }
 #define KOBGMGHMCLF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8ACE70)
 #define KOBGMGHMCLF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8ACED0)
 
+inline static constexpr unsigned int KOBGMGHMCLF_TypeDefinitionIndex = 25160;
+
 	class KOBGMGHMCLF : public ::System::Object
 	{
 	public:

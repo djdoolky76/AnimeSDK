@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LKJGHBEECOF_CTOR_OFFSET UNITYSDK_OFFSET(0xB752310)
 #define LKJGHBEECOF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB7523A0)
 
+inline static constexpr unsigned int LKJGHBEECOF_TypeDefinitionIndex = 59202;
+
 	class LKJGHBEECOF
 	{
 	public:

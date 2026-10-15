@@ -27,6 +27,8 @@ namespace System { class String; }
 #define OMFFCGEINLF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEB3620)
 #define OMFFCGEINLF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEB3680)
 
+inline static constexpr unsigned int OMFFCGEINLF_TypeDefinitionIndex = 27140;
+
 	class OMFFCGEINLF : public ::System::Object
 	{
 	public:

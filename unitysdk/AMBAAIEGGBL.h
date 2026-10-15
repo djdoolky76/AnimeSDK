@@ -5,6 +5,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 #define AMBAAIEGGBL_CDCMJBOMMLC_OFFSET UNITYSDK_OFFSET(0x155747E0)
 
+inline static constexpr unsigned int AMBAAIEGGBL_TypeDefinitionIndex = 56917;
+
 	class AMBAAIEGGBL : public ::System::Object
 	{
 	public:

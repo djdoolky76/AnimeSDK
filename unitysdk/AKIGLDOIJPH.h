@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define AKIGLDOIJPH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C890180)
 
+inline static constexpr unsigned int AKIGLDOIJPH_TypeDefinitionIndex = 43480;
+
 	class AKIGLDOIJPH : public ::System::Object
 	{
 	public:

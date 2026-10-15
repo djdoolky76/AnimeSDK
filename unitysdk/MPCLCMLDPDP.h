@@ -14,6 +14,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define MPCLCMLDPDP_GGHIDBNAJFA_OFFSET UNITYSDK_OFFSET(0xBA3A100)
 #define MPCLCMLDPDP_HABAEAOCJNE_OFFSET UNITYSDK_OFFSET(0xBA3A1B0)
 
+inline static constexpr unsigned int MPCLCMLDPDP_TypeDefinitionIndex = 57990;
+
 	class MPCLCMLDPDP
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonsterResearchSubmit_TypeDefinitionIndex = 21100;
+
 	class MonsterResearchSubmit : public ::RPG::GameCore::TaskConfig
 	{
 	public:

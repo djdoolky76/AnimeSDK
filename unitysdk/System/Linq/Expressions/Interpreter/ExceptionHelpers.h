@@ -7,6 +7,8 @@ namespace System::Reflection { class TargetInvocationException; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int ExceptionHelpers_TypeDefinitionIndex = 3664;
+
 	class ExceptionHelpers : public ::System::Object
 	{
 	public:

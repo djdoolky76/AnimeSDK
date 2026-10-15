@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define LHFKLMFLAME_ECIAEOJIOKI_OFFSET UNITYSDK_OFFSET(0xB6B0F80)
 
+inline static constexpr unsigned int LHFKLMFLAME_TypeDefinitionIndex = 74574;
+
 	class LHFKLMFLAME : public ::System::Object
 	{
 	public:

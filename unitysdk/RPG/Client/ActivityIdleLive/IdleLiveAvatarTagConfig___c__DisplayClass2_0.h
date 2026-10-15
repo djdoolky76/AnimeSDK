@@ -7,6 +7,8 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveAvatarTagConfig___c__DisplayClass2_0_TypeDefinitionIndex = 75083;
+
 	class IdleLiveAvatarTagConfig___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

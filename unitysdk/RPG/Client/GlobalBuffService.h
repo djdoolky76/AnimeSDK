@@ -8,6 +8,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GlobalBuffService_TypeDefinitionIndex = 62762;
+
 	class GlobalBuffService : public ::System::Object
 	{
 	public:

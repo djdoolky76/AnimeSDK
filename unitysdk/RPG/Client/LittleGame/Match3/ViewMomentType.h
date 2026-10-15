@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGame::Match3
 {
+	inline static constexpr unsigned int ViewMomentType_TypeDefinitionIndex = 43021;
+
 	enum class ViewMomentType : ::System::Int32
 	{
 		Dummy = 0,

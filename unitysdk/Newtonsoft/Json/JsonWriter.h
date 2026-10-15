@@ -135,6 +135,8 @@ namespace System::Globalization { class CultureInfo; }
 
 namespace Newtonsoft::Json
 {
+	inline static constexpr unsigned int JsonWriter_TypeDefinitionIndex = 9626;
+
 	class JsonWriter : public ::System::Object
 	{
 	public:

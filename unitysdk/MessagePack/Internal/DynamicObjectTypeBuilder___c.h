@@ -40,6 +40,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c_TypeDefinitionIndex = 7319;
+
 	class DynamicObjectTypeBuilder___c : public ::System::Object
 	{
 	public:

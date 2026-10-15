@@ -22,6 +22,8 @@ namespace System { class Object; }
 #define BPIAOGPMLEI_ONRETURN_OFFSET UNITYSDK_OFFSET(0xC1A58E0)
 #define BPIAOGPMLEI_PAICDHFMCGK_OFFSET UNITYSDK_OFFSET(0xC1A5C50)
 
+inline static constexpr unsigned int BPIAOGPMLEI_TypeDefinitionIndex = 71788;
+
 	class BPIAOGPMLEI : public ::FMPCODLIOLG
 	{
 	public:

@@ -16,6 +16,8 @@ namespace UnityEngine::UI { class Text; }
 #define NPHJFBGENAO_SET_TEXTTITLE_OFFSET UNITYSDK_OFFSET(0xBCFE020)
 #define NPHJFBGENAO_SET_TEXTVALUE_OFFSET UNITYSDK_OFFSET(0xBCFE040)
 
+inline static constexpr unsigned int NPHJFBGENAO_TypeDefinitionIndex = 71184;
+
 	class NPHJFBGENAO : public ::System::Object
 	{
 	public:

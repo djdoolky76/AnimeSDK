@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ClearEntityRelationGroup; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClearEntityRelationGroup_TypeDefinitionIndex = 22827;
+
 	class ClearEntityRelationGroup : public ::RPG::GameCore::TaskConfig
 	{
 	public:

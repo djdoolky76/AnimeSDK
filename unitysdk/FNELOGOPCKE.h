@@ -30,6 +30,8 @@ namespace System { class String; }
 #define FNELOGOPCKE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3EED10)
 #define FNELOGOPCKE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3EED70)
 
+inline static constexpr unsigned int FNELOGOPCKE_TypeDefinitionIndex = 34724;
+
 	class FNELOGOPCKE : public ::System::Object
 	{
 	public:

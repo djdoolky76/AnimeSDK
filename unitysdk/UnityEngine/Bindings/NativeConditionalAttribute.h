@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Bindings
 {
+	inline static constexpr unsigned int NativeConditionalAttribute_TypeDefinitionIndex = 3720;
+
 	class NativeConditionalAttribute : public ::System::Attribute
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirTalentData_TypeDefinitionIndex = 79379;
+
 	class PixAirTalentData : public ::System::Object
 	{
 	public:

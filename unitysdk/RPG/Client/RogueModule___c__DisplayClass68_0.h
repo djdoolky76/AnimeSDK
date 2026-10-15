@@ -8,6 +8,8 @@ namespace RPG::Client { class RogueBuffData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueModule___c__DisplayClass68_0_TypeDefinitionIndex = 67453;
+
 	class RogueModule___c__DisplayClass68_0 : public ::System::Object
 	{
 	public:

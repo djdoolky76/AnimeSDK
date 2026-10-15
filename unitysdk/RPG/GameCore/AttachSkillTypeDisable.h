@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AttachSkillTypeDisable_TypeDefinitionIndex = 23607;
+
 	class AttachSkillTypeDisable : public ::RPG::GameCore::TaskConfig
 	{
 	public:

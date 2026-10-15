@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleSealTalkConfigRow_TypeDefinitionIndex = 11857;
+
 	class MarbleSealTalkConfigRow : public ::System::Object
 	{
 	public:

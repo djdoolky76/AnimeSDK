@@ -6,6 +6,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HAPI_Viewport_TypeDefinitionIndex = 40521;
+
 	struct alignas(8) HAPI_Viewport
 	{
 		::Il2CppArray<::System::Single>* position; // 0x10

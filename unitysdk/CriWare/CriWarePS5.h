@@ -7,6 +7,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriWarePS5_TypeDefinitionIndex = 39924;
+
 	class CriWarePS5 : public ::System::Object
 	{
 	public:

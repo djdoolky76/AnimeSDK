@@ -6,6 +6,8 @@ namespace System { class String; }
 #define MCNEHNAAICP_CTOR_OFFSET UNITYSDK_OFFSET(0xB889090)
 #define MCNEHNAAICP_DFIDFBPLEGF_OFFSET UNITYSDK_OFFSET(0xB889020)
 
+inline static constexpr unsigned int MCNEHNAAICP_TypeDefinitionIndex = 71471;
+
 	class MCNEHNAAICP : public ::System::Object
 	{
 	public:

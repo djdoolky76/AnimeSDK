@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NBIDNGEDEMJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBAC71C0)
 #define NBIDNGEDEMJ_TICK_OFFSET UNITYSDK_OFFSET(0xBAC5A00)
 
+inline static constexpr unsigned int NBIDNGEDEMJ_TypeDefinitionIndex = 57901;
+
 	class NBIDNGEDEMJ : public ::JEKCCAGBHKK
 	{
 	public:

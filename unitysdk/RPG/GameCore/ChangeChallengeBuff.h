@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChangeChallengeBuff; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChangeChallengeBuff_TypeDefinitionIndex = 20476;
+
 	class ChangeChallengeBuff : public ::RPG::GameCore::TaskConfig
 	{
 	public:

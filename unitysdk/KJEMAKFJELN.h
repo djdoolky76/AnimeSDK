@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define KJEMAKFJELN_HCLHNCAMGHL_OFFSET UNITYSDK_OFFSET(0xB448BF0)
 #define KJEMAKFJELN_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xB448D00)
 
+inline static constexpr unsigned int KJEMAKFJELN_TypeDefinitionIndex = 62377;
+
 	class KJEMAKFJELN : public ::System::Object
 	{
 	public:

@@ -36,6 +36,8 @@ namespace System { class String; }
 #define NKNIPLOMJMM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB5BFE0)
 #define NKNIPLOMJMM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB5C040)
 
+inline static constexpr unsigned int NKNIPLOMJMM_TypeDefinitionIndex = 27580;
+
 	class NKNIPLOMJMM : public ::System::Object
 	{
 	public:

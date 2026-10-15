@@ -6,6 +6,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineInputProvider_TypeDefinitionIndex = 39856;
+
 	class CinemachineInputProvider : public ::UnityEngine::MonoBehaviour
 	{
 	public:

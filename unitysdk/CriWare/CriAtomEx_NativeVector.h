@@ -7,6 +7,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomEx_NativeVector_TypeDefinitionIndex = 39979;
+
 	struct alignas(4) CriAtomEx_NativeVector
 	{
 		::System::Single x; // 0x10

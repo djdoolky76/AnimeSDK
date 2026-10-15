@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RemoveHitByTimeRewindListener; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveHitByTimeRewindListener_TypeDefinitionIndex = 20662;
+
 	class RemoveHitByTimeRewindListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

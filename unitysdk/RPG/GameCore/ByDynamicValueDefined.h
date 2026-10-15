@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByDynamicValueDefined_TypeDefinitionIndex = 22900;
+
 	class ByDynamicValueDefined : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

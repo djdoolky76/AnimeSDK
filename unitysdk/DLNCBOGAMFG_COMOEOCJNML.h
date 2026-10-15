@@ -12,6 +12,8 @@ namespace Google::Protobuf::Collections { template <typename T> class RepeatedFi
 #define DLNCBOGAMFG_COMOEOCJNML_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xF8B5D70)
 #define DLNCBOGAMFG_COMOEOCJNML_CTOR_OFFSET UNITYSDK_OFFSET(0xF8B9460)
 
+inline static constexpr unsigned int DLNCBOGAMFG_COMOEOCJNML_TypeDefinitionIndex = 65793;
+
 	class DLNCBOGAMFG_COMOEOCJNML : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client { class IActivityQuestRewardTabInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivitySummonQuestRewardTabInfoFactory_TypeDefinitionIndex = 61925;
+
 	class ActivitySummonQuestRewardTabInfoFactory : public ::System::Object
 	{
 	public:

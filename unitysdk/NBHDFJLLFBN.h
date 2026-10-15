@@ -12,6 +12,8 @@ class NBGAENHBEIF;
 #define NBHDFJLLFBN_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBAC2D60)
 #define NBHDFJLLFBN_CTOR_OFFSET UNITYSDK_OFFSET(0xBAC2CA0)
 
+inline static constexpr unsigned int NBHDFJLLFBN_TypeDefinitionIndex = 62622;
+
 	class NBHDFJLLFBN : public ::System::Object
 	{
 	public:

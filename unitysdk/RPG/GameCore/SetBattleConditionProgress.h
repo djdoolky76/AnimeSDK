@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SetBattleConditionProgress; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetBattleConditionProgress_TypeDefinitionIndex = 23184;
+
 	class SetBattleConditionProgress : public ::RPG::GameCore::TaskConfig
 	{
 	public:

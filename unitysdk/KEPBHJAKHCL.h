@@ -14,6 +14,8 @@ namespace UnityEngine::Rendering { class VolumeProfile; }
 #define KEPBHJAKHCL_KBFDFOGDILL_OFFSET UNITYSDK_OFFSET(0xB383F40)
 #define KEPBHJAKHCL_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB384180)
 
+inline static constexpr unsigned int KEPBHJAKHCL_TypeDefinitionIndex = 49192;
+
 	class KEPBHJAKHCL : public ::DGICFAFGCPA
 	{
 	public:

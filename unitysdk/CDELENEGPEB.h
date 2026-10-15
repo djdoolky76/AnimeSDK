@@ -8,6 +8,8 @@
 #define CDELENEGPEB_GNADABFLEFM_OFFSET UNITYSDK_OFFSET(0xC7636D0)
 #define CDELENEGPEB_JPIJCCHOIBC_OFFSET UNITYSDK_OFFSET(0xC763680)
 
+inline static constexpr unsigned int CDELENEGPEB_TypeDefinitionIndex = 72008;
+
 	class CDELENEGPEB : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CreatePhoneOnCharacter_TypeDefinitionIndex = 20877;
+
 	class CreatePhoneOnCharacter : public ::RPG::GameCore::TaskConfig
 	{
 	public:

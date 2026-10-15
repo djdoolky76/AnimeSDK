@@ -8,6 +8,8 @@ namespace System { class Type; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RequireComponent_TypeDefinitionIndex = 4303;
+
 	class RequireComponent : public ::System::Attribute
 	{
 	public:

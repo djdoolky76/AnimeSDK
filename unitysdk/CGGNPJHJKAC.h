@@ -5,6 +5,8 @@ class NANIIDINPPM;
 class PFGOPNAFOBH;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
+inline static constexpr unsigned int CGGNPJHJKAC_TypeDefinitionIndex = 44052;
+
 	class CGGNPJHJKAC : public ::System::Object
 	{
 	public:

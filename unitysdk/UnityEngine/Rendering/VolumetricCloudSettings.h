@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int VolumetricCloudSettings_TypeDefinitionIndex = 4854;
+
 	struct alignas(4) VolumetricCloudSettings
 	{
 		::System::Boolean Enable; // 0x10

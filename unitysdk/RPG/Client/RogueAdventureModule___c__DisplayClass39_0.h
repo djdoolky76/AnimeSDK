@@ -8,6 +8,8 @@ class DPEGLPPPAJJ;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueAdventureModule___c__DisplayClass39_0_TypeDefinitionIndex = 67363;
+
 	class RogueAdventureModule___c__DisplayClass39_0 : public ::System::Object
 	{
 	public:

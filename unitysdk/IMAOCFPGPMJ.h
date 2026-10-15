@@ -9,6 +9,8 @@ namespace System { class String; }
 #define IMAOCFPGPMJ_NBHEGAMECHE_OFFSET UNITYSDK_OFFSET(0x164CE340)
 #define IMAOCFPGPMJ_OENAMINOLLF_OFFSET UNITYSDK_OFFSET(0x164CE490)
 
+inline static constexpr unsigned int IMAOCFPGPMJ_TypeDefinitionIndex = 69483;
+
 	class IMAOCFPGPMJ : public ::System::Object
 	{
 	public:

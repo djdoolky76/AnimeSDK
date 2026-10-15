@@ -37,6 +37,8 @@ namespace System { class String; }
 #define GLCGPJLPPPD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4BDE20)
 #define GLCGPJLPPPD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4BDE80)
 
+inline static constexpr unsigned int GLCGPJLPPPD_TypeDefinitionIndex = 32088;
+
 	class GLCGPJLPPPD : public ::System::Object
 	{
 	public:

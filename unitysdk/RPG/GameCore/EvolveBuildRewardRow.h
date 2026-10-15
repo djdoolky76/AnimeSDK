@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EvolveBuildRewardRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EvolveBuildRewardRow_TypeDefinitionIndex = 11428;
+
 	class EvolveBuildRewardRow : public ::System::Object
 	{
 	public:

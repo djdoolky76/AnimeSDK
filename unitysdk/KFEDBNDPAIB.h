@@ -15,6 +15,8 @@ namespace UnityEngine { class Animator; }
 #define KFEDBNDPAIB_OIBGGPLEPMM_OFFSET UNITYSDK_OFFSET(0xB396530)
 #define KFEDBNDPAIB__ONBIND_OFFSET UNITYSDK_OFFSET(0xB396250)
 
+inline static constexpr unsigned int KFEDBNDPAIB_TypeDefinitionIndex = 71816;
+
 	class KFEDBNDPAIB : public ::FMPCODLIOLG
 	{
 	public:

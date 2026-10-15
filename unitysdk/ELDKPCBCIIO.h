@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define ELDKPCBCIIO_IOADDIIOBLF_OFFSET UNITYSDK_OFFSET(0x1551DC80)
 #define ELDKPCBCIIO_NHMJAJMFDEE_OFFSET UNITYSDK_OFFSET(0x1551DAE0)
 
+inline static constexpr unsigned int ELDKPCBCIIO_TypeDefinitionIndex = 80617;
+
 	class ELDKPCBCIIO : public ::System::Object
 	{
 	public:

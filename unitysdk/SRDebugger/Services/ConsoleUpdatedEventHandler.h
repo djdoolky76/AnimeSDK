@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace SRDebugger::Services
 {
+	inline static constexpr unsigned int ConsoleUpdatedEventHandler_TypeDefinitionIndex = 38054;
+
 	class ConsoleUpdatedEventHandler : public ::System::MulticastDelegate
 	{
 	public:

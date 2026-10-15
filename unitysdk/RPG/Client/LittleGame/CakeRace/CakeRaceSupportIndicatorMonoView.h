@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceSupportIndicatorMonoView_TypeDefinitionIndex = 78161;
+
 	class CakeRaceSupportIndicatorMonoView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

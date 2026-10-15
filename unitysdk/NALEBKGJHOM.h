@@ -79,6 +79,8 @@ namespace UnityEngine::Rendering { class VolumeProfile; }
 #define NALEBKGJHOM_SET_NAMEEX_OFFSET UNITYSDK_OFFSET(0xBAA4B80)
 #define NALEBKGJHOM_SET_PROFILEPATHEX_OFFSET UNITYSDK_OFFSET(0xBAA4B60)
 
+inline static constexpr unsigned int NALEBKGJHOM_TypeDefinitionIndex = 69803;
+
 	class NALEBKGJHOM : public ::System::Object
 	{
 	public:

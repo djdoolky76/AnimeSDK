@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EAnimatorComparableParameterType_TypeDefinitionIndex = 10495;
+
 	enum class EAnimatorComparableParameterType : ::System::Int32
 	{
 		Float = 0,

@@ -11,6 +11,8 @@ namespace RPG::Client { class GachaTokenData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GachaDrawData_TypeDefinitionIndex = 64297;
+
 	class GachaDrawData : public ::System::Object
 	{
 	public:

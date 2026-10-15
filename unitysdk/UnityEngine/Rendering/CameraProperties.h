@@ -18,6 +18,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CameraProperties_TypeDefinitionIndex = 4741;
+
 	struct alignas(4) CameraProperties
 	{
 		::UnityEngine::Rect screenRect; // 0x10

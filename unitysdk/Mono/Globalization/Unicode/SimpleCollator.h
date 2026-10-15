@@ -65,6 +65,8 @@ namespace System::Globalization { class TextInfo; }
 
 namespace Mono::Globalization::Unicode
 {
+	inline static constexpr unsigned int SimpleCollator_TypeDefinitionIndex = 39;
+
 	class SimpleCollator : public ::System::Object
 	{
 	public:

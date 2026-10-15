@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KNEKPEALNNH_OBFAHCBHFLP_OFFSET UNITYSDK_OFFSET(0xB5821B0)
 #define KNEKPEALNNH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB581D00)
 
+inline static constexpr unsigned int KNEKPEALNNH_TypeDefinitionIndex = 57872;
+
 	class KNEKPEALNNH
 	{
 	public:

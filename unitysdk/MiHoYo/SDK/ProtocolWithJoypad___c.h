@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ProtocolWithJoypad___c_TypeDefinitionIndex = 8029;
+
 	class ProtocolWithJoypad___c : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_OutputAttributesStore_TypeDefinitionIndex = 40430;
+
 	class HEU_OutputAttributesStore : public ::UnityEngine::MonoBehaviour
 	{
 	public:

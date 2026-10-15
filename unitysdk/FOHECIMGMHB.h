@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraEndlessWorkRoundRow; }
 #define FOHECIMGMHB_PDAENODHFCM_OFFSET UNITYSDK_OFFSET(0x158EB8C0)
 #define FOHECIMGMHB_SET_ROUNDID_OFFSET UNITYSDK_OFFSET(0x158EB810)
 
+inline static constexpr unsigned int FOHECIMGMHB_TypeDefinitionIndex = 63422;
+
 	class FOHECIMGMHB : public ::System::Object
 	{
 	public:

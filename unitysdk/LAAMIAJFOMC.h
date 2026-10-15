@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LAAMIAJFOMC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8C5670)
 #define LAAMIAJFOMC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8C56D0)
 
+inline static constexpr unsigned int LAAMIAJFOMC_TypeDefinitionIndex = 29235;
+
 	class LAAMIAJFOMC : public ::System::Object
 	{
 	public:

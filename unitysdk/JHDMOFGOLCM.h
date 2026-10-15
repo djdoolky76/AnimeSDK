@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JHDMOFGOLCM_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0xB1AAD00)
 #define JHDMOFGOLCM_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xB1AB180)
 
+inline static constexpr unsigned int JHDMOFGOLCM_TypeDefinitionIndex = 53738;
+
 	class JHDMOFGOLCM : public ::KIFCLJJAOFJ
 	{
 	public:

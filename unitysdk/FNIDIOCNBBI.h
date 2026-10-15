@@ -6,6 +6,8 @@ namespace RPG::Client { class MatchThreeBoard; }
 #define FNIDIOCNBBI_CLEAR_OFFSET UNITYSDK_OFFSET(0x15871720)
 #define FNIDIOCNBBI_CTOR_OFFSET UNITYSDK_OFFSET(0x15871770)
 
+inline static constexpr unsigned int FNIDIOCNBBI_TypeDefinitionIndex = 65849;
+
 	class FNIDIOCNBBI : public ::MLKDDLHNNHH
 	{
 	public:

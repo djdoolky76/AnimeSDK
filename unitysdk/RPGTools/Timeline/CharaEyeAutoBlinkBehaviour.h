@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharaEyeAutoBlinkBehaviour_TypeDefinitionIndex = 47928;
+
 	class CharaEyeAutoBlinkBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

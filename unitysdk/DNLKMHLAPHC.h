@@ -36,6 +36,8 @@ namespace System { class String; }
 #define DNLKMHLAPHC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1F88A0)
 #define DNLKMHLAPHC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1F8900)
 
+inline static constexpr unsigned int DNLKMHLAPHC_TypeDefinitionIndex = 33073;
+
 	class DNLKMHLAPHC : public ::System::Object
 	{
 	public:

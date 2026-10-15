@@ -8,6 +8,8 @@ class OFEODCOJNKB;
 #define KBMMBFEOFOL_CTOR_OFFSET UNITYSDK_OFFSET(0xB3216F0)
 #define KBMMBFEOFOL_LDEBBDHIMGH_OFFSET UNITYSDK_OFFSET(0xB321700)
 
+inline static constexpr unsigned int KBMMBFEOFOL_TypeDefinitionIndex = 63932;
+
 	class KBMMBFEOFOL : public ::System::Object
 	{
 	public:

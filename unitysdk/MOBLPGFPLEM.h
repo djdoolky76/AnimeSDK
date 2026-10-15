@@ -51,6 +51,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MOBLPGFPLEM_SET_EQUIPMENTMODIFIERSOURCE_OFFSET UNITYSDK_OFFSET(0xBA24B80)
 #define MOBLPGFPLEM_SET_VERSION_OFFSET UNITYSDK_OFFSET(0xBA21E40)
 
+inline static constexpr unsigned int MOBLPGFPLEM_TypeDefinitionIndex = 75246;
+
 	class MOBLPGFPLEM : public ::System::Object
 	{
 	public:

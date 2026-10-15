@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelElationPointChange_TypeDefinitionIndex = 56758;
+
 	class LevelElationPointChange : public ::CMPGEAFHHDC
 	{
 	public:

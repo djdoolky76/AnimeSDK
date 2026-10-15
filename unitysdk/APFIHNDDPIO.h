@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define APFIHNDDPIO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCED190)
 #define APFIHNDDPIO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCED150)
 
+inline static constexpr unsigned int APFIHNDDPIO_TypeDefinitionIndex = 19886;
+
 	class APFIHNDDPIO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

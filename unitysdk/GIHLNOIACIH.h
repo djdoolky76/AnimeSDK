@@ -30,6 +30,8 @@ namespace System { class String; }
 #define GIHLNOIACIH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E498550)
 #define GIHLNOIACIH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4985B0)
 
+inline static constexpr unsigned int GIHLNOIACIH_TypeDefinitionIndex = 34427;
+
 	class GIHLNOIACIH : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 class EGPHLHMHHCN_BHIPGMJHMAO;
 
+inline static constexpr unsigned int EGPHLHMHHCN___O_TypeDefinitionIndex = 55822;
+
 	class EGPHLHMHHCN___O : public ::System::Object
 	{
 	public:

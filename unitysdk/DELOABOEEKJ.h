@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TrainPartySwitchEnvironment; }
 #define DELOABOEEKJ_CTOR_OFFSET UNITYSDK_OFFSET(0xE519A30)
 #define DELOABOEEKJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE519A60)
 
+inline static constexpr unsigned int DELOABOEEKJ_TypeDefinitionIndex = 53430;
+
 	class DELOABOEEKJ
 	{
 	public:

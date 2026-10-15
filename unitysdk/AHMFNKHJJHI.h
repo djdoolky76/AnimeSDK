@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UpdateTreasureChallengeProgress; }
 #define AHMFNKHJJHI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEB882A0)
 #define AHMFNKHJJHI_TICK_OFFSET UNITYSDK_OFFSET(0xEB882F0)
 
+inline static constexpr unsigned int AHMFNKHJJHI_TypeDefinitionIndex = 58844;
+
 	class AHMFNKHJJHI : public ::GELIALJDFBL
 	{
 	public:

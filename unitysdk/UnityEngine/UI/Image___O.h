@@ -6,6 +6,8 @@ namespace UnityEngine::U2D { class SpriteAtlas; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int Image___O_TypeDefinitionIndex = 6737;
+
 	class Image___O : public ::System::Object
 	{
 	public:

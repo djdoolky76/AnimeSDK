@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityFindTrotterConstValueRow_TypeDefinitionIndex = 11613;
+
 	class ActivityFindTrotterConstValueRow : public ::System::Object
 	{
 	public:

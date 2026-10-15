@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetGameplayBGMEmotionState_TypeDefinitionIndex = 20752;
+
 	class SetGameplayBGMEmotionState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

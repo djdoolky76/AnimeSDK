@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define PIHHLBIOOKE_GCBPLGBAOCH_OFFSET UNITYSDK_OFFSET(0xC261A90)
 #define PIHHLBIOOKE_HINPHILFFLB_OFFSET UNITYSDK_OFFSET(0xC261AE0)
 
+inline static constexpr unsigned int PIHHLBIOOKE_TypeDefinitionIndex = 72067;
+
 	class PIHHLBIOOKE : public ::System::Object
 	{
 	public:

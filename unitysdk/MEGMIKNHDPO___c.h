@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MEGMIKNHDPO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA0C0C0)
 #define MEGMIKNHDPO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EA0C0D0)
 
+inline static constexpr unsigned int MEGMIKNHDPO___c_TypeDefinitionIndex = 31597;
+
 	class MEGMIKNHDPO___c : public ::System::Object
 	{
 	public:

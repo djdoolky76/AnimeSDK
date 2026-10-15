@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PetMarbleSetFaceEmotion; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PetMarbleSetFaceEmotion_TypeDefinitionIndex = 16839;
+
 	class PetMarbleSetFaceEmotion : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

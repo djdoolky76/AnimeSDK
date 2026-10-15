@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimEntityVarConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimEntityVarConfig_TypeDefinitionIndex = 18632;
+
 	class FiveDimEntityVarConfig : public ::RPG::GameCore::LittleGameEntityVarConfig
 	{
 	public:

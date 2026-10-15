@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EEKDEIGBAOK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13A31AD0)
 #define EEKDEIGBAOK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A31B10)
 
+inline static constexpr unsigned int EEKDEIGBAOK_TypeDefinitionIndex = 55578;
+
 	class EEKDEIGBAOK
 	{
 	public:

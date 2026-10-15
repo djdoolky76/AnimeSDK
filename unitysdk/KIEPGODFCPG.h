@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KIEPGODFCPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C70F820)
 #define KIEPGODFCPG_MIDKKNAGOFA_OFFSET UNITYSDK_OFFSET(0x1C70F830)
 
+inline static constexpr unsigned int KIEPGODFCPG_TypeDefinitionIndex = 36386;
+
 	class KIEPGODFCPG : public ::IFNMPBPNBIF
 	{
 	public:

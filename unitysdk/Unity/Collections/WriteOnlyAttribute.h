@@ -6,6 +6,8 @@
 
 namespace Unity::Collections
 {
+	inline static constexpr unsigned int WriteOnlyAttribute_TypeDefinitionIndex = 3980;
+
 	class WriteOnlyAttribute : public ::System::Attribute
 	{
 	public:

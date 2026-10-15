@@ -37,6 +37,8 @@ namespace System { class String; }
 #define GDFKJKDLEPM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E447880)
 #define GDFKJKDLEPM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4478E0)
 
+inline static constexpr unsigned int GDFKJKDLEPM_TypeDefinitionIndex = 32481;
+
 	class GDFKJKDLEPM : public ::System::Object
 	{
 	public:

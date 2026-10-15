@@ -7,6 +7,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int VignetteParameter_TypeDefinitionIndex = 48629;
+
 	struct alignas(4) VignetteParameter
 	{
 		::System::Boolean VignetteOverrideState; // 0x10

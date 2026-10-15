@@ -4,6 +4,8 @@
 
 #define OEMBPFKMFNF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D261B20)
 
+inline static constexpr unsigned int OEMBPFKMFNF_TypeDefinitionIndex = 15470;
+
 	class OEMBPFKMFNF : public ::System::Object
 	{
 	public:

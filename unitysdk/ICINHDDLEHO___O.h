@@ -4,6 +4,8 @@
 namespace System { class Action; }
 namespace System { class String; }
 
+inline static constexpr unsigned int ICINHDDLEHO___O_TypeDefinitionIndex = 69425;
+
 	class ICINHDDLEHO___O : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ class PLAJONHLDJN;
 #define LAALMAHICIC_KDHBMHFMHCO_OFFSET UNITYSDK_OFFSET(0x1C71EDF0)
 #define LAALMAHICIC_LNOGPPKLBBC_OFFSET UNITYSDK_OFFSET(0x1C71E5F0)
 
+inline static constexpr unsigned int LAALMAHICIC_TypeDefinitionIndex = 36530;
+
 	class LAALMAHICIC : public ::System::Object
 	{
 	public:

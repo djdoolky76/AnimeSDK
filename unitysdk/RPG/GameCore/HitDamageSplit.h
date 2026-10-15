@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HitDamageSplit_TypeDefinitionIndex = 23574;
+
 	class HitDamageSplit : public ::RPG::GameCore::TaskConfig
 	{
 	public:

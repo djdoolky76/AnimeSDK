@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define EHGAELFJKCD_DOONENTER_OFFSET UNITYSDK_OFFSET(0x154A5880)
 #define EHGAELFJKCD_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x154A5900)
 
+inline static constexpr unsigned int EHGAELFJKCD_TypeDefinitionIndex = 57509;
+
 	class EHGAELFJKCD : public ::EDLDHDMLJDH
 	{
 	public:

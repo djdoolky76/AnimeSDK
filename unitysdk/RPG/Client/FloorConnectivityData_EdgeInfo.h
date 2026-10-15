@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FloorConnectivityData_EdgeInfo_TypeDefinitionIndex = 64230;
+
 	class FloorConnectivityData_EdgeInfo : public ::System::Object
 	{
 	public:

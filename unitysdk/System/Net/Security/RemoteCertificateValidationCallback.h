@@ -15,6 +15,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
 namespace System::Net::Security
 {
+	inline static constexpr unsigned int RemoteCertificateValidationCallback_TypeDefinitionIndex = 2924;
+
 	class RemoteCertificateValidationCallback : public ::System::MulticastDelegate
 	{
 	public:

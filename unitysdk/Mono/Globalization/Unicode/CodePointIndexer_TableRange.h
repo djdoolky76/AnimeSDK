@@ -5,6 +5,8 @@
 
 namespace Mono::Globalization::Unicode
 {
+	inline static constexpr unsigned int CodePointIndexer_TableRange_TypeDefinitionIndex = 30;
+
 	struct alignas(4) CodePointIndexer_TableRange
 	{
 		::System::Int32 Start; // 0x10

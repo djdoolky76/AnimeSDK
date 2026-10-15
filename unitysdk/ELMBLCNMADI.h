@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define ELMBLCNMADI_KBPINNLBCBA_OFFSET UNITYSDK_OFFSET(0x155285A0)
 #define ELMBLCNMADI_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x15528550)
 
+inline static constexpr unsigned int ELMBLCNMADI_TypeDefinitionIndex = 75474;
+
 	class ELMBLCNMADI : public ::System::Object
 	{
 	public:

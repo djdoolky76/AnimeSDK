@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CIGKGOOHGAG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0D2AD0)
 #define CIGKGOOHGAG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0D2B30)
 
+inline static constexpr unsigned int CIGKGOOHGAG_TypeDefinitionIndex = 31600;
+
 	class CIGKGOOHGAG : public ::System::Object
 	{
 	public:

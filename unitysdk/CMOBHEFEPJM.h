@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CMOBHEFEPJM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xDA3FB30)
 #define CMOBHEFEPJM_TICK_OFFSET UNITYSDK_OFFSET(0xDA3FE70)
 
+inline static constexpr unsigned int CMOBHEFEPJM_TypeDefinitionIndex = 54767;
+
 	class CMOBHEFEPJM : public ::BNBOAMEBAOE
 	{
 	public:

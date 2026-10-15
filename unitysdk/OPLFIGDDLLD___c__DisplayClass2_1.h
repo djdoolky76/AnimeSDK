@@ -7,6 +7,8 @@ namespace System { class Object; }
 #define OPLFIGDDLLD___C__DISPLAYCLASS2_1_CTOR_OFFSET UNITYSDK_OFFSET(0xBFB3BB0)
 #define OPLFIGDDLLD___C__DISPLAYCLASS2_1___TRYAPPLY_B__0_OFFSET UNITYSDK_OFFSET(0xBFB3C30)
 
+inline static constexpr unsigned int OPLFIGDDLLD___c__DisplayClass2_1_TypeDefinitionIndex = 77462;
+
 	template <typename T>
 	class OPLFIGDDLLD___c__DisplayClass2_1 : public ::System::Object
 	{

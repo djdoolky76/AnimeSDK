@@ -7,6 +7,8 @@ namespace System { class String; }
 #define DLDNNDPJHJK_CTOR_OFFSET UNITYSDK_OFFSET(0xF899710)
 #define DLDNNDPJHJK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF899770)
 
+inline static constexpr unsigned int DLDNNDPJHJK_TypeDefinitionIndex = 53265;
+
 	class DLDNNDPJHJK
 	{
 	public:

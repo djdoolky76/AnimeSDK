@@ -9,6 +9,8 @@ class GBNMAFLAHED;
 #define GBNMAFLAHED_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE28320)
 #define GBNMAFLAHED_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE282E0)
 
+inline static constexpr unsigned int GBNMAFLAHED_TypeDefinitionIndex = 21564;
+
 	class GBNMAFLAHED : public ::RPG::GameCore::TaskConfig
 	{
 	public:

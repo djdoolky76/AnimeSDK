@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GravityBallCondition; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GravityBallCondition_TypeDefinitionIndex = 20381;
+
 	class GravityBallCondition : public ::RPG::GameCore::JsonConfig
 	{
 	public:

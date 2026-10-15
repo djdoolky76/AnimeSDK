@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ElfEntranceObjects; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfEntranceObjects_TypeDefinitionIndex = 16194;
+
 	class ElfEntranceObjects : public ::RPG::GameCore::JsonConfig
 	{
 	public:

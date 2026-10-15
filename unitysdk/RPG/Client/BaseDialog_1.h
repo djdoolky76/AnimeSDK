@@ -4,6 +4,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BaseDialog_1_TypeDefinitionIndex = 71359;
+
 	template <typename T>
 	class BaseDialog_1 : public ::EBFMLBNIEMK
 	{

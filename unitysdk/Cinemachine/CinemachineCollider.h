@@ -41,6 +41,8 @@ namespace UnityEngine { class SphereCollider; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineCollider_TypeDefinitionIndex = 39727;
+
 	class CinemachineCollider : public ::Cinemachine::CinemachineExtension
 	{
 	public:

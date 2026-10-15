@@ -67,6 +67,8 @@ namespace System { class Object; }
 #define ILJDILDNADJ___BATTLECOLLEGEPLAYFADEIN_B__12_0_OFFSET UNITYSDK_OFFSET(0x164BE100)
 #define ILJDILDNADJ___TREASUREDUNGEONPLAYFADEIN_B__10_0_OFFSET UNITYSDK_OFFSET(0x164BE0D0)
 
+inline static constexpr unsigned int ILJDILDNADJ_TypeDefinitionIndex = 72238;
+
 	class ILJDILDNADJ : public ::FMPCODLIOLG
 	{
 	public:

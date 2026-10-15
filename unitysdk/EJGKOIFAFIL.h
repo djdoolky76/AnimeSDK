@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define EJGKOIFAFIL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD8F050)
 #define EJGKOIFAFIL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD8F500)
 
+inline static constexpr unsigned int EJGKOIFAFIL_TypeDefinitionIndex = 15301;
+
 	class EJGKOIFAFIL : public ::System::Object
 	{
 	public:

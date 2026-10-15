@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int AccountPlatNative_PluginUIArgs_TypeDefinitionIndex = 46087;
+
 	class AccountPlatNative_PluginUIArgs : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define OKOCPOFNODF_CTOR_OFFSET UNITYSDK_OFFSET(0xBEF2E80)
 
+inline static constexpr unsigned int OKOCPOFNODF_TypeDefinitionIndex = 57755;
+
 	class OKOCPOFNODF : public ::System::Object
 	{
 	public:

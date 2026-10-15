@@ -35,6 +35,8 @@ namespace UnityEngine::UI { class Toggle; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int PayDialog_TypeDefinitionIndex = 9556;
+
 	class PayDialog : public ::MiHoYo::SDK::UIElement
 	{
 	public:

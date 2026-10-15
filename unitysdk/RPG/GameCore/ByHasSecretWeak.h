@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByHasSecretWeak_TypeDefinitionIndex = 23028;
+
 	class ByHasSecretWeak : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

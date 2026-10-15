@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AEDKBOCEPOP_CTOR_OFFSET UNITYSDK_OFFSET(0xB14C6D0)
 #define AEDKBOCEPOP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB14C700)
 
+inline static constexpr unsigned int AEDKBOCEPOP_TypeDefinitionIndex = 53215;
+
 	class AEDKBOCEPOP
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client::Challenge { class IChallengeEnvironmentHintViewModel; }
 
 namespace RPG::Client::Challenge
 {
+	inline static constexpr unsigned int ChallengeEnvironmentHintViewModelFactory_TypeDefinitionIndex = 81431;
+
 	class ChallengeEnvironmentHintViewModelFactory : public ::System::Object
 	{
 	public:

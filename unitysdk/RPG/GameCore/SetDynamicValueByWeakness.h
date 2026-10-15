@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByWeakness_TypeDefinitionIndex = 23116;
+
 	class SetDynamicValueByWeakness : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

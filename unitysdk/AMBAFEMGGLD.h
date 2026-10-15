@@ -68,6 +68,8 @@ namespace System { class String; }
 #define AMBAFEMGGLD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E516FD0)
 #define AMBAFEMGGLD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E517030)
 
+inline static constexpr unsigned int AMBAFEMGGLD_TypeDefinitionIndex = 28710;
+
 	class AMBAFEMGGLD : public ::System::Object
 	{
 	public:

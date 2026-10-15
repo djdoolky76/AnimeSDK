@@ -22,6 +22,8 @@ namespace System { class Object; }
 #define DEHNEKNFKBJ_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1CD12190)
 #define DEHNEKNFKBJ_NIDNALKDKEB_OFFSET UNITYSDK_OFFSET(0x3C36730)
 
+inline static constexpr unsigned int DEHNEKNFKBJ_TypeDefinitionIndex = 10671;
+
 	struct alignas(8) DEHNEKNFKBJ
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

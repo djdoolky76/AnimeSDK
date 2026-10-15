@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BJIAFAFAFNE___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB79F710)
 #define BJIAFAFAFNE___C__DISPLAYCLASS24_0__ASYNCRETURNTARGETUI_B__0_OFFSET UNITYSDK_OFFSET(0xB7A0820)
 
+inline static constexpr unsigned int BJIAFAFAFNE___c__DisplayClass24_0_TypeDefinitionIndex = 76457;
+
 	class BJIAFAFAFNE___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:

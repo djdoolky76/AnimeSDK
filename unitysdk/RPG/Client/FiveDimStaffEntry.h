@@ -15,6 +15,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FiveDimStaffEntry_TypeDefinitionIndex = 60398;
+
 	class FiveDimStaffEntry : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

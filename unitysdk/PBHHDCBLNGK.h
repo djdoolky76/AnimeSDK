@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define PBHHDCBLNGK_ABBKNAHINIG_OFFSET UNITYSDK_OFFSET(0xBFEE240)
 #define PBHHDCBLNGK_JMPDCKBCPND_OFFSET UNITYSDK_OFFSET(0xBFEE610)
 
+inline static constexpr unsigned int PBHHDCBLNGK_TypeDefinitionIndex = 54358;
+
 	class PBHHDCBLNGK : public ::System::Object
 	{
 	public:

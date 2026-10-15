@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int FramePassCapturer_ImageCompareCallBack_TypeDefinitionIndex = 37624;
+
 	class FramePassCapturer_ImageCompareCallBack : public ::System::MulticastDelegate
 	{
 	public:

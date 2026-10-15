@@ -18,6 +18,8 @@ namespace RPG::GameCore { class VCameraShakeV2; }
 #define LBCJAFFAKPO_MONODNDCLJI_OFFSET UNITYSDK_OFFSET(0xB5F3E20)
 #define LBCJAFFAKPO_OHMHJFANEIF_OFFSET UNITYSDK_OFFSET(0xB5F3D80)
 
+inline static constexpr unsigned int LBCJAFFAKPO_TypeDefinitionIndex = 60799;
+
 	class LBCJAFFAKPO : public ::System::Object
 	{
 	public:

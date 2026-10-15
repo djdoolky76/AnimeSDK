@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class SectionCondition; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int SectionCondition_TypeDefinitionIndex = 24886;
+
 	class SectionCondition : public ::RPG::GameCore::Match3::Match3ConditionBase
 	{
 	public:

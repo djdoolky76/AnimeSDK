@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelAnchorCameraParameter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelAnchorCameraParameter_TypeDefinitionIndex = 17244;
+
 	class LevelAnchorCameraParameter : public ::RPG::GameCore::LevelAnchorParameter
 	{
 	public:

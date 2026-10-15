@@ -89,6 +89,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define DHAGPJEEPCI_SET_USEENHANCEIMPACT_OFFSET UNITYSDK_OFFSET(0xEBB6700)
 #define DHAGPJEEPCI_SET_USELV3VISUAL_OFFSET UNITYSDK_OFFSET(0xEBB66E0)
 
+inline static constexpr unsigned int DHAGPJEEPCI_TypeDefinitionIndex = 75834;
+
 	class DHAGPJEEPCI
 	{
 	public:

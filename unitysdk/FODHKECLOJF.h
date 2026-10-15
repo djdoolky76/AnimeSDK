@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define FODHKECLOJF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA71B90)
 
+inline static constexpr unsigned int FODHKECLOJF_TypeDefinitionIndex = 41931;
+
 	class FODHKECLOJF : public ::System::Object
 	{
 	public:

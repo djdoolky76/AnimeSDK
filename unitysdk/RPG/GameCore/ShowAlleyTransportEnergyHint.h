@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowAlleyTransportEnergyHint; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowAlleyTransportEnergyHint_TypeDefinitionIndex = 24289;
+
 	class ShowAlleyTransportEnergyHint : public ::RPG::GameCore::TaskConfig
 	{
 	public:

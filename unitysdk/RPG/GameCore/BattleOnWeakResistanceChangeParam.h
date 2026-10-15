@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleOnWeakResistanceChangeParam_TypeDefinitionIndex = 57740;
+
 	class BattleOnWeakResistanceChangeParam : public ::System::Object
 	{
 	public:

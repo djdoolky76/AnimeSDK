@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceActionRoulette_TypeDefinitionIndex = 18347;
+
 	class CakeRaceActionRoulette : public ::RPG::GameCore::CakeRaceActionBase
 	{
 	public:

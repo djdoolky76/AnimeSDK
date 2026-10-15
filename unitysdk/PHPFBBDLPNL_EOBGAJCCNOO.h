@@ -11,6 +11,8 @@ namespace UnityEngine { class Animator; }
 #define PHPFBBDLPNL_EOBGAJCCNOO_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xC2598C0)
 #define PHPFBBDLPNL_EOBGAJCCNOO_INVOKE_OFFSET UNITYSDK_OFFSET(0xC259880)
 
+inline static constexpr unsigned int PHPFBBDLPNL_EOBGAJCCNOO_TypeDefinitionIndex = 57138;
+
 	class PHPFBBDLPNL_EOBGAJCCNOO : public ::System::MulticastDelegate
 	{
 	public:

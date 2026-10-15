@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_PropScreenSpaceGPUParticleBehavior___SpawnCoroutine_d__4_TypeDefinitionIndex = 70542;
+
 	template <typename T1, typename T2, typename T3, typename T4>
 	class Effect_PropScreenSpaceGPUParticleBehavior___SpawnCoroutine_d__4 : public ::System::Object
 	{

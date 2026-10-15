@@ -28,6 +28,8 @@ namespace System { class String; }
 #define AOFKCKOIFCM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E66AB80)
 #define AOFKCKOIFCM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E66ABE0)
 
+inline static constexpr unsigned int AOFKCKOIFCM_TypeDefinitionIndex = 33083;
+
 	class AOFKCKOIFCM : public ::System::Object
 	{
 	public:

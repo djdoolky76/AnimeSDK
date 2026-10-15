@@ -6,6 +6,8 @@ namespace UnityEngine { class Transform; }
 
 #define ROOTPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0xE95EBE0)
 
+inline static constexpr unsigned int RootPoint_TypeDefinitionIndex = 47138;
+
 	class RootPoint : public ::System::Object
 	{
 	public:

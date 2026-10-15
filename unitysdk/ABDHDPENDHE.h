@@ -5,6 +5,8 @@
 #define ABDHDPENDHE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xB0F02F0)
 #define ABDHDPENDHE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xB0F0300)
 
+inline static constexpr unsigned int ABDHDPENDHE_TypeDefinitionIndex = 74013;
+
 	class ABDHDPENDHE
 	{
 	public:

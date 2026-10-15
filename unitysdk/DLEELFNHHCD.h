@@ -8,6 +8,8 @@ namespace System { class Version; }
 #define DLEELFNHHCD_NOOEDJNPFPC_1_OFFSET UNITYSDK_OFFSET(0xF89AB20)
 #define DLEELFNHHCD_NOOEDJNPFPC_OFFSET UNITYSDK_OFFSET(0xF89AA40)
 
+inline static constexpr unsigned int DLEELFNHHCD_TypeDefinitionIndex = 82257;
+
 	class DLEELFNHHCD : public ::System::Object
 	{
 	public:

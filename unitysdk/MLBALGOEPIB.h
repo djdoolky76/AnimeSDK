@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CakeRaceFrontCatNumPredicateConfig; }
 #define MLBALGOEPIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C74F050)
 #define MLBALGOEPIB_ISMATCHIMPL_OFFSET UNITYSDK_OFFSET(0x1C74F070)
 
+inline static constexpr unsigned int MLBALGOEPIB_TypeDefinitionIndex = 37419;
+
 	class MLBALGOEPIB
 	{
 	public:

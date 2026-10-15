@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelEntityStateActionConfig_TypeDefinitionIndex = 16764;
+
 	class FourRotateVoxelEntityStateActionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

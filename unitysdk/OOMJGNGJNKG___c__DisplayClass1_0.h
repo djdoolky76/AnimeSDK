@@ -10,6 +10,8 @@ class GOJNGCCBOGI;
 #define OOMJGNGJNKG___C__DISPLAYCLASS1_0__CLEARALLTOAST_B__1_OFFSET UNITYSDK_OFFSET(0xBF8FD30)
 #define OOMJGNGJNKG___C__DISPLAYCLASS1_0__CLEARALLTOAST_B__2_OFFSET UNITYSDK_OFFSET(0xBF8FD50)
 
+inline static constexpr unsigned int OOMJGNGJNKG___c__DisplayClass1_0_TypeDefinitionIndex = 71556;
+
 	class OOMJGNGJNKG___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

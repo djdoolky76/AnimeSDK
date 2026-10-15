@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FOINGKNPBLJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3FBAC0)
 #define FOINGKNPBLJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3FBB20)
 
+inline static constexpr unsigned int FOINGKNPBLJ_TypeDefinitionIndex = 33258;
+
 	class FOINGKNPBLJ : public ::System::Object
 	{
 	public:

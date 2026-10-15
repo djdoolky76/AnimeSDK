@@ -11,6 +11,8 @@ namespace System::Collections { class IEnumerator; }
 #define CLPEDLAFEEB_CTOR_OFFSET UNITYSDK_OFFSET(0xDA22680)
 #define CLPEDLAFEEB_KGOLGMKEBOI_OFFSET UNITYSDK_OFFSET(0xDA22770)
 
+inline static constexpr unsigned int CLPEDLAFEEB_TypeDefinitionIndex = 80755;
+
 	class CLPEDLAFEEB : public ::System::Object
 	{
 	public:

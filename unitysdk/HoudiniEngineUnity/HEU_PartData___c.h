@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_PartData___c_TypeDefinitionIndex = 40418;
+
 	class HEU_PartData___c : public ::System::Object
 	{
 	public:

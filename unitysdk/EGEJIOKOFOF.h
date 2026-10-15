@@ -22,6 +22,8 @@ namespace System { class String; }
 #define EGEJIOKOFOF_LKBJEICPHKF_OFFSET UNITYSDK_OFFSET(0x1450A840)
 #define EGEJIOKOFOF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1450A370)
 
+inline static constexpr unsigned int EGEJIOKOFOF_TypeDefinitionIndex = 59579;
+
 	class EGEJIOKOFOF : public ::System::Object
 	{
 	public:

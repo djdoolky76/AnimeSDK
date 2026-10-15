@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LevelTriggerInfo; }
 #define CEHOCKFOKCE_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C8DDA60)
 #define CEHOCKFOKCE_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C8DDAF0)
 
+inline static constexpr unsigned int CEHOCKFOKCE_TypeDefinitionIndex = 43520;
+
 	class CEHOCKFOKCE : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddDynamicEntityParam_TypeDefinitionIndex = 22671;
+
 	class AddDynamicEntityParam : public ::RPG::GameCore::TaskConfig
 	{
 	public:

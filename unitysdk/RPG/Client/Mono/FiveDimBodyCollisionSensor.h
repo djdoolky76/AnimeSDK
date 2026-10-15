@@ -14,6 +14,8 @@ namespace UnityEngine { class Collision; }
 
 namespace RPG::Client::Mono
 {
+	inline static constexpr unsigned int FiveDimBodyCollisionSensor_TypeDefinitionIndex = 76020;
+
 	class FiveDimBodyCollisionSensor : public ::UnityEngine::MonoBehaviour
 	{
 	public:

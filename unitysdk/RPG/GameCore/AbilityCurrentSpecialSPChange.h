@@ -18,6 +18,8 @@ namespace RPG::GameCore { class AbilityCurrentSpecialSPChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityCurrentSpecialSPChange_TypeDefinitionIndex = 56566;
+
 	class AbilityCurrentSpecialSPChange : public ::CMPGEAFHHDC
 	{
 	public:

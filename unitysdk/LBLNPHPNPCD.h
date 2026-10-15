@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LBLNPHPNPCD_NGLBIFBAEPE_OFFSET UNITYSDK_OFFSET(0xB60CA80)
 #define LBLNPHPNPCD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB60C160)
 
+inline static constexpr unsigned int LBLNPHPNPCD_TypeDefinitionIndex = 52452;
+
 	class LBLNPHPNPCD
 	{
 	public:

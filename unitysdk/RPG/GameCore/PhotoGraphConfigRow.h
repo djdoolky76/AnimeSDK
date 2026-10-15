@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphConfigRow_TypeDefinitionIndex = 14489;
+
 	class PhotoGraphConfigRow : public ::System::Object
 	{
 	public:

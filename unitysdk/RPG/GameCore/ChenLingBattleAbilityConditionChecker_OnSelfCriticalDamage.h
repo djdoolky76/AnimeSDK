@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingBattleAbilityConditionChecker_OnSelfCrit
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAbilityConditionChecker_OnSelfCriticalDamage_TypeDefinitionIndex = 15725;
+
 	class ChenLingBattleAbilityConditionChecker_OnSelfCriticalDamage : public ::RPG::GameCore::BaseChenLingBattleAbilityConditionChecker
 	{
 	public:

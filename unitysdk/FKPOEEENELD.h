@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define FKPOEEENELD_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x158269E0)
 #define FKPOEEENELD_INVOKE_OFFSET UNITYSDK_OFFSET(0x158269A0)
 
+inline static constexpr unsigned int FKPOEEENELD_TypeDefinitionIndex = 74940;
+
 	class FKPOEEENELD : public ::System::MulticastDelegate
 	{
 	public:

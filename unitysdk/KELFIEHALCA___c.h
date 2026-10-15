@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define KELFIEHALCA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB37D410)
 #define KELFIEHALCA___C___GETDEFAULTCHALLENGEGROUP_B__7_0_OFFSET UNITYSDK_OFFSET(0xB37D420)
 
+inline static constexpr unsigned int KELFIEHALCA___c_TypeDefinitionIndex = 53272;
+
 	class KELFIEHALCA___c : public ::System::Object
 	{
 	public:

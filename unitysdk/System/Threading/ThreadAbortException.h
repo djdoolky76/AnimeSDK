@@ -9,6 +9,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int ThreadAbortException_TypeDefinitionIndex = 852;
+
 	class ThreadAbortException : public ::System::SystemException
 	{
 	public:

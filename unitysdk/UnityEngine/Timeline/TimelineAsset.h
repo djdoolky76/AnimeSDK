@@ -67,6 +67,8 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int TimelineAsset_TypeDefinitionIndex = 38789;
+
 	class TimelineAsset : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int NpcPossessionBehaviour_TypeDefinitionIndex = 48212;
+
 	class NpcPossessionBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MapRotationChargerIconConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MapRotationChargerIconConfig_TypeDefinitionIndex = 17036;
+
 	class MapRotationChargerIconConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

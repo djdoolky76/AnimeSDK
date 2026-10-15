@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GIKFAOJHKOL___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15A40F80)
 #define GIKFAOJHKOL___C__DISPLAYCLASS2_0__SYNCTRIALBUILDTOMAINLINETEAM_B__0_OFFSET UNITYSDK_OFFSET(0x15A41080)
 
+inline static constexpr unsigned int GIKFAOJHKOL___c__DisplayClass2_0_TypeDefinitionIndex = 61896;
+
 	class GIKFAOJHKOL___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

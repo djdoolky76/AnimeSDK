@@ -9,6 +9,8 @@ namespace RPG::Client { class IKHitReaction; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoHitReaction_TypeDefinitionIndex = 68606;
+
 	class MonoHitReaction : public ::UnityEngine::MonoBehaviour
 	{
 	public:

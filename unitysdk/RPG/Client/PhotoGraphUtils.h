@@ -160,6 +160,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhotoGraphUtils_TypeDefinitionIndex = 69460;
+
 	class PhotoGraphUtils : public ::System::Object
 	{
 	public:

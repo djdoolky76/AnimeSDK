@@ -130,6 +130,8 @@ namespace UnityEngine::Formats::Alembic::Sdk { class AlembicExportOptions; }
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int NativeMethods_TypeDefinitionIndex = 45793;
+
 	class NativeMethods : public ::System::Object
 	{
 	public:

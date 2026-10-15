@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionModule_FinishPerformance_TypeDefinitionIndex = 66140;
+
 	struct alignas(4) MissionModule_FinishPerformance
 	{
 		::System::Boolean UseSpecifiedLoading; // 0x10

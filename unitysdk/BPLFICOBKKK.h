@@ -44,6 +44,8 @@ namespace System { class String; }
 #define BPLFICOBKKK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E04BBF0)
 #define BPLFICOBKKK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E04BC50)
 
+inline static constexpr unsigned int BPLFICOBKKK_TypeDefinitionIndex = 28905;
+
 	class BPLFICOBKKK : public ::System::Object
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define BJABKDCINKK_MPHNMOGNEHL_OFFSET UNITYSDK_OFFSET(0x1C531760)
 #define BJABKDCINKK_OHCAPGGOAGE_OFFSET UNITYSDK_OFFSET(0x1C531880)
 
+inline static constexpr unsigned int BJABKDCINKK_TypeDefinitionIndex = 41623;
+
 	class BJABKDCINKK : public ::KLGICPNPKIC
 	{
 	public:

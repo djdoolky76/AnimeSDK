@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 #define MCLJEJNOICM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB887EA0)
 #define MCLJEJNOICM_TICK_OFFSET UNITYSDK_OFFSET(0xB887F30)
 
+inline static constexpr unsigned int MCLJEJNOICM_TypeDefinitionIndex = 52267;
+
 	class MCLJEJNOICM : public ::KHEEFIDGFPC
 	{
 	public:

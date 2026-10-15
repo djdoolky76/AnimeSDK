@@ -27,6 +27,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int QTEMixer_TypeDefinitionIndex = 48264;
+
 	class QTEMixer : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

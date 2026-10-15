@@ -20,6 +20,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define DDLOKHOMAFG_GNLKPJHAKHM_OFFSET UNITYSDK_OFFSET(0xE4E7760)
 #define DDLOKHOMAFG_LEHJAPMONNN_OFFSET UNITYSDK_OFFSET(0xE4E7FF0)
 
+inline static constexpr unsigned int DDLOKHOMAFG_TypeDefinitionIndex = 59712;
+
 	class DDLOKHOMAFG : public ::LJKHPOHKIIF
 	{
 	public:

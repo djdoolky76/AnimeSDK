@@ -53,6 +53,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define POIDGGOOMHO_ODJIHLLIINE_OFFSET UNITYSDK_OFFSET(0xC36A650)
 #define POIDGGOOMHO_OGOGCEFDJEM_OFFSET UNITYSDK_OFFSET(0xC36A7C0)
 
+inline static constexpr unsigned int POIDGGOOMHO_TypeDefinitionIndex = 80234;
+
 	class POIDGGOOMHO : public ::System::Object
 	{
 	public:

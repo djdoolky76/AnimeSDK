@@ -57,6 +57,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AILLIHEBFID_REMOVE_SELFMARBLESELECTEDREQUESTED_OFFSET UNITYSDK_OFFSET(0xEBB2EB0)
 #define AILLIHEBFID_REMOVE_SELFREADYREQUESTED_OFFSET UNITYSDK_OFFSET(0xEBB2E50)
 
+inline static constexpr unsigned int AILLIHEBFID_TypeDefinitionIndex = 74726;
+
 	class AILLIHEBFID : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define OOCCBMLAELL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBF6FB70)
 #define OOCCBMLAELL___C___ONFIRSTTIMESETUPDRAWPILE_B__96_0_OFFSET UNITYSDK_OFFSET(0xBF6FB80)
 
+inline static constexpr unsigned int OOCCBMLAELL___c_TypeDefinitionIndex = 55993;
+
 	class OOCCBMLAELL___c : public ::System::Object
 	{
 	public:

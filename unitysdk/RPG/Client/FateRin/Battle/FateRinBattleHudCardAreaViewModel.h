@@ -159,6 +159,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudCardAreaViewModel_TypeDefinitionIndex = 80885;
+
 	class FateRinBattleHudCardAreaViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

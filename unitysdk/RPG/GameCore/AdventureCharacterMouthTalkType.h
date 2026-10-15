@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureCharacterMouthTalkType_TypeDefinitionIndex = 17431;
+
 	enum class AdventureCharacterMouthTalkType : ::System::Int32
 	{
 		Default = 0,

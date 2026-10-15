@@ -46,6 +46,8 @@ namespace System { class String; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatShopGoodData_TypeDefinitionIndex = 76085;
+
 	class DiceCombatShopGoodData : public ::System::Object
 	{
 	public:

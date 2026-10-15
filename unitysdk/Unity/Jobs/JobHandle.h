@@ -12,6 +12,8 @@
 
 namespace Unity::Jobs
 {
+	inline static constexpr unsigned int JobHandle_TypeDefinitionIndex = 3962;
+
 	struct alignas(4) JobHandle
 	{
 		::System::IntPtr jobGroup; // 0x10

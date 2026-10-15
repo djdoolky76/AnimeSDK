@@ -8,6 +8,8 @@ namespace UnityEngine::Rendering { class BatchAnimationClip; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int BlendBatchAnimSynthesizer_TypeDefinitionIndex = 4793;
+
 	class BlendBatchAnimSynthesizer : public ::System::Object
 	{
 	public:

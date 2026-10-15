@@ -8,6 +8,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int NotEqualInstruction_NotEqualUInt16_TypeDefinitionIndex = 3568;
+
 	class NotEqualInstruction_NotEqualUInt16 : public ::System::Linq::Expressions::Interpreter::NotEqualInstruction
 	{
 	public:

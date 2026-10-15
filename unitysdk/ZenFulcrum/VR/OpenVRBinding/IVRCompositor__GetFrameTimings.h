@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRCompositor__GetFrameTimings_TypeDefinitionIndex = 39024;
+
 	class IVRCompositor__GetFrameTimings : public ::System::MulticastDelegate
 	{
 	public:

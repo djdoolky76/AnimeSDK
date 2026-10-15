@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TransformStateValue_TypeDefinitionIndex = 71012;
+
 	class TransformStateValue : public ::RPG::Client::StateValueEntry
 	{
 	public:

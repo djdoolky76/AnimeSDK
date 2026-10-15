@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueDLCAdventureRoomRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLCAdventureRoomRow_TypeDefinitionIndex = 14779;
+
 	class RogueDLCAdventureRoomRow : public ::System::Object
 	{
 	public:

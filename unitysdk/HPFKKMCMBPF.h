@@ -4,6 +4,8 @@
 
 #define HPFKKMCMBPF_CCTOR_OFFSET UNITYSDK_OFFSET(0x15DC26B0)
 
+inline static constexpr unsigned int HPFKKMCMBPF_TypeDefinitionIndex = 66682;
+
 	class HPFKKMCMBPF : public ::System::Object
 	{
 	public:

@@ -40,6 +40,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int AdjustContainer_ContainerController_TypeDefinitionIndex = 78196;
+
 	class AdjustContainer_ContainerController : public ::System::Object
 	{
 	public:

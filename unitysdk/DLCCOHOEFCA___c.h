@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DLCCOHOEFCA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1DE3B0)
 #define DLCCOHOEFCA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E1DE3C0)
 
+inline static constexpr unsigned int DLCCOHOEFCA___c_TypeDefinitionIndex = 30808;
+
 	class DLCCOHOEFCA___c : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define NOCJMBGJJPC_PBAAENOJJBC_OFFSET UNITYSDK_OFFSET(0xBCE6290)
 #define NOCJMBGJJPC_PGOHKHCKEFG_OFFSET UNITYSDK_OFFSET(0xBCE64F0)
 
+inline static constexpr unsigned int NOCJMBGJJPC_TypeDefinitionIndex = 73258;
+
 	class NOCJMBGJJPC : public ::System::Object
 	{
 	public:

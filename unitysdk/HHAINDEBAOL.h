@@ -14,6 +14,8 @@ namespace System::Text { class StringBuilder; }
 #define HHAINDEBAOL_PRINTMEMBERS_OFFSET UNITYSDK_OFFSET(0x3C527E0)
 #define HHAINDEBAOL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C527D0)
 
+inline static constexpr unsigned int HHAINDEBAOL_TypeDefinitionIndex = 44192;
+
 	struct alignas(4) HHAINDEBAOL
 	{
 		::System::Single IEHPFADHJFD; // 0x10

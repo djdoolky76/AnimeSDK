@@ -11,6 +11,8 @@ namespace System { class Action; }
 
 namespace SRF::UI
 {
+	inline static constexpr unsigned int SRText_TypeDefinitionIndex = 35395;
+
 	class SRText : public ::UnityEngine::UI::Text
 	{
 	public:

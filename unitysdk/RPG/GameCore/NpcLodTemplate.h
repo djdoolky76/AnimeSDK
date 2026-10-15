@@ -10,6 +10,8 @@ namespace RPG::GameCore { class NpcLodTemplate; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NpcLodTemplate_TypeDefinitionIndex = 19110;
+
 	class NpcLodTemplate : public ::RPG::GameCore::LodTemplate
 	{
 	public:

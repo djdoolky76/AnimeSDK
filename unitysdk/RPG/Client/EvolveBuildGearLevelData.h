@@ -26,6 +26,8 @@ namespace RPG::Client { class EvolveBuildGearLevelData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EvolveBuildGearLevelData_TypeDefinitionIndex = 63773;
+
 	class EvolveBuildGearLevelData : public ::System::Object
 	{
 	public:

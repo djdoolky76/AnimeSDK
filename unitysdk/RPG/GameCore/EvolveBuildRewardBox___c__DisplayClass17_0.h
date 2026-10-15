@@ -8,6 +8,8 @@ namespace RPG::Client { class EvolveBuildCollectionGearDisplayData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EvolveBuildRewardBox___c__DisplayClass17_0_TypeDefinitionIndex = 53569;
+
 	class EvolveBuildRewardBox___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

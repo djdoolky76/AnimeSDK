@@ -7,6 +7,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int ChenLingBattleGameFlow___O_TypeDefinitionIndex = 76235;
+
 	class ChenLingBattleGameFlow___O : public ::System::Object
 	{
 	public:

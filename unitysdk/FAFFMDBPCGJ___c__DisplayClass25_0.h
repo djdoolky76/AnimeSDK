@@ -8,6 +8,8 @@ namespace RPG::GameCore { class FourRotateVoxelRevert2DVoxelConfig; }
 #define FAFFMDBPCGJ___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0x156732D0)
 #define FAFFMDBPCGJ___C__DISPLAYCLASS25_0___ADDREVERTALL2DVOXELINTERACTTRIGGER_B__0_OFFSET UNITYSDK_OFFSET(0x15679900)
 
+inline static constexpr unsigned int FAFFMDBPCGJ___c__DisplayClass25_0_TypeDefinitionIndex = 76740;
+
 	class FAFFMDBPCGJ___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:

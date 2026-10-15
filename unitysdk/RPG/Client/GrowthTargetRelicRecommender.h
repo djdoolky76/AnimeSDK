@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GrowthTargetRelicRecommender_TypeDefinitionIndex = 65608;
+
 	class GrowthTargetRelicRecommender : public ::System::Object
 	{
 	public:

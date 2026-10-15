@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GlobalDataType_TypeDefinitionIndex = 16074;
+
 	enum class GlobalDataType : ::System::Int32
 	{
 		SwapAreaDicePointSum = 0,

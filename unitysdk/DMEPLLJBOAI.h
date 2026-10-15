@@ -4,6 +4,8 @@
 
 #define DMEPLLJBOAI_CTOR_OFFSET UNITYSDK_OFFSET(0xFEBDCF0)
 
+inline static constexpr unsigned int DMEPLLJBOAI_TypeDefinitionIndex = 73488;
+
 	class DMEPLLJBOAI : public ::System::Object
 	{
 	public:

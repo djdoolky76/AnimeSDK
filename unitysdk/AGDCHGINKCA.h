@@ -27,6 +27,8 @@ namespace System { class String; }
 #define AGDCHGINKCA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E127D80)
 #define AGDCHGINKCA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E127DE0)
 
+inline static constexpr unsigned int AGDCHGINKCA_TypeDefinitionIndex = 33587;
+
 	class AGDCHGINKCA : public ::System::Object
 	{
 	public:

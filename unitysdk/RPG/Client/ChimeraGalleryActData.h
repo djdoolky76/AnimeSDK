@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraGalleryActData_TypeDefinitionIndex = 63423;
+
 	class ChimeraGalleryActData : public ::System::Object
 	{
 	public:

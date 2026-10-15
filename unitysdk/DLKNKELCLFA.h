@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DLKNKELCLFA_JIGJDOFEJMI_OFFSET UNITYSDK_OFFSET(0xF8AA660)
 #define DLKNKELCLFA_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xF8AA6E0)
 
+inline static constexpr unsigned int DLKNKELCLFA_TypeDefinitionIndex = 59179;
+
 	class DLKNKELCLFA
 	{
 	public:

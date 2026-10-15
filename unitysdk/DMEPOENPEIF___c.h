@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DMEPOENPEIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1EB570)
 #define DMEPOENPEIF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E1EB580)
 
+inline static constexpr unsigned int DMEPOENPEIF___c_TypeDefinitionIndex = 29999;
+
 	class DMEPOENPEIF___c : public ::System::Object
 	{
 	public:

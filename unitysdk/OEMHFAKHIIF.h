@@ -8,6 +8,8 @@ class OEMHFAKHIIF;
 #define OEMHFAKHIIF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2628B0)
 #define OEMHFAKHIIF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D262860)
 
+inline static constexpr unsigned int OEMHFAKHIIF_TypeDefinitionIndex = 19947;
+
 	class OEMHFAKHIIF : public ::RPG::GameCore::TaskConfig
 	{
 	public:

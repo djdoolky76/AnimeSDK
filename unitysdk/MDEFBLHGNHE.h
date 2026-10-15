@@ -7,6 +7,8 @@ namespace RPG::Client::Prop { class ChimeraDuelBubbleEvent; }
 #define MDEFBLHGNHE_CTOR_OFFSET UNITYSDK_OFFSET(0xB8A29B0)
 #define MDEFBLHGNHE_KJHBJNJEHHN_OFFSET UNITYSDK_OFFSET(0xB8A28B0)
 
+inline static constexpr unsigned int MDEFBLHGNHE_TypeDefinitionIndex = 78283;
+
 	class MDEFBLHGNHE : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_NativeCookie; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_editCookie_TypeDefinitionIndex = 39458;
+
 	class BrowserNative_Calltype_zfb_editCookie : public ::System::MulticastDelegate
 	{
 	public:

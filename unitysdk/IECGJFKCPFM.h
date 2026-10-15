@@ -9,6 +9,8 @@ namespace Entitas { class IEntity; }
 #define IECGJFKCPFM_ONREMOVE_OFFSET UNITYSDK_OFFSET(0x15EED060)
 #define IECGJFKCPFM_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x15EECF20)
 
+inline static constexpr unsigned int IECGJFKCPFM_TypeDefinitionIndex = 75952;
+
 	class IECGJFKCPFM
 	{
 	public:

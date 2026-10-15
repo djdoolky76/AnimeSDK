@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelFireBulletManager_HCNJKCKGECD_TypeDefinitionIndex = 78300;
+
 	class ChimeraDuelFireBulletManager_HCNJKCKGECD : public ::System::Object
 	{
 	public:

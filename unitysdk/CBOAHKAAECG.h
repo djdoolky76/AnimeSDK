@@ -12,6 +12,8 @@ class KGMBGMIGHOE;
 #define CBOAHKAAECG_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xC4AFD40)
 #define CBOAHKAAECG_LCKCABJFHEA_OFFSET UNITYSDK_OFFSET(0xC4AFDA0)
 
+inline static constexpr unsigned int CBOAHKAAECG_TypeDefinitionIndex = 75793;
+
 	class CBOAHKAAECG : public ::System::Object
 	{
 	public:

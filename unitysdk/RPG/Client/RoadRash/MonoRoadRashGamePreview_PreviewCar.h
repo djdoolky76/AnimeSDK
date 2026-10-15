@@ -8,6 +8,8 @@ namespace RPG::Client::RoadRash { class MonoRoadRashGameRoad; }
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int MonoRoadRashGamePreview_PreviewCar_TypeDefinitionIndex = 75857;
+
 	class MonoRoadRashGamePreview_PreviewCar : public ::System::Object
 	{
 	public:

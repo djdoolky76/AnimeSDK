@@ -25,6 +25,8 @@ namespace System { class String; }
 #define OOFDADLENDH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DED7BA0)
 #define OOFDADLENDH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DED7C00)
 
+inline static constexpr unsigned int OOFDADLENDH_TypeDefinitionIndex = 34013;
+
 	class OOFDADLENDH : public ::System::Object
 	{
 	public:

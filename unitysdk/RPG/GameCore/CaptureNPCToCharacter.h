@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CaptureNPCToCharacter_TypeDefinitionIndex = 20292;
+
 	class CaptureNPCToCharacter : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -33,6 +33,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_PolluxFlowerSeaBehavior_TypeDefinitionIndex = 70536;
+
 	class Effect_PolluxFlowerSeaBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

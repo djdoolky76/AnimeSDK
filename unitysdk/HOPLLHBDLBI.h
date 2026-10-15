@@ -34,6 +34,8 @@ namespace System { class String; }
 #define HOPLLHBDLBI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5F2E50)
 #define HOPLLHBDLBI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5F2EB0)
 
+inline static constexpr unsigned int HOPLLHBDLBI_TypeDefinitionIndex = 28254;
+
 	class HOPLLHBDLBI : public ::System::Object
 	{
 	public:

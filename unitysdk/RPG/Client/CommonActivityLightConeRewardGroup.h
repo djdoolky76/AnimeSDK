@@ -30,6 +30,8 @@ namespace RPG::Client { class ActivityLightConeQuestCondition; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CommonActivityLightConeRewardGroup_TypeDefinitionIndex = 61681;
+
 	class CommonActivityLightConeRewardGroup : public ::System::Object
 	{
 	public:

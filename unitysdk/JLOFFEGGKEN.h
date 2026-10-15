@@ -16,6 +16,8 @@ namespace System { class Object; }
 #define JLOFFEGGKEN_GGNBOEIMEPM_OFFSET UNITYSDK_OFFSET(0xB252BD0)
 #define JLOFFEGGKEN_GNLKPJHAKHM_OFFSET UNITYSDK_OFFSET(0xB253210)
 
+inline static constexpr unsigned int JLOFFEGGKEN_TypeDefinitionIndex = 59706;
+
 	class JLOFFEGGKEN : public ::LJKHPOHKIIF
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 #define LDPPBELHLEI_BONCILIGGEE_MOFKAJNCKGN_OFFSET UNITYSDK_OFFSET(0xB6481A0)
 #define LDPPBELHLEI_BONCILIGGEE_NGCABGCHICG_OFFSET UNITYSDK_OFFSET(0xB6487B0)
 
+inline static constexpr unsigned int LDPPBELHLEI_BONCILIGGEE_TypeDefinitionIndex = 59705;
+
 	class LDPPBELHLEI_BONCILIGGEE : public ::System::Object
 	{
 	public:

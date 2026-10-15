@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DrinkMakerCheersCancelMakerDrinkAfterPerformance
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DrinkMakerCheersCancelMakerDrinkAfterPerformance_TypeDefinitionIndex = 21952;
+
 	class DrinkMakerCheersCancelMakerDrinkAfterPerformance : public ::RPG::GameCore::TaskConfig
 	{
 	public:

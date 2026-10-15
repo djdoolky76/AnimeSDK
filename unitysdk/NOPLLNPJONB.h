@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TurnBasedGameMode; }
 #define NOPLLNPJONB_SET_SUBMODETYPE_OFFSET UNITYSDK_OFFSET(0xBCF99A0)
 #define NOPLLNPJONB_SET_UPPERGROUPMAP_OFFSET UNITYSDK_OFFSET(0xBCF9980)
 
+inline static constexpr unsigned int NOPLLNPJONB_TypeDefinitionIndex = 56031;
+
 	class NOPLLNPJONB : public ::System::Object
 	{
 	public:

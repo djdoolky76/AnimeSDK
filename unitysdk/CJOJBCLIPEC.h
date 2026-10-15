@@ -10,6 +10,8 @@ namespace System { class String; }
 #define CJOJBCLIPEC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC1C290)
 #define CJOJBCLIPEC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC1C250)
 
+inline static constexpr unsigned int CJOJBCLIPEC_TypeDefinitionIndex = 21495;
+
 	class CJOJBCLIPEC : public ::RPG::GameCore::TaskConfig
 	{
 	public:

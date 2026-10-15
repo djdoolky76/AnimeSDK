@@ -13,6 +13,8 @@ namespace System::Xml { class XmlReader; }
 
 namespace System::Configuration
 {
+	inline static constexpr unsigned int ConfigurationSection_TypeDefinitionIndex = 2335;
+
 	class ConfigurationSection : public ::System::Configuration::ConfigurationElement
 	{
 	public:

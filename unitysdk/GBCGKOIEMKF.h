@@ -8,6 +8,8 @@ class GBCGKOIEMKF;
 #define GBCGKOIEMKF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE22740)
 #define GBCGKOIEMKF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE224A0)
 
+inline static constexpr unsigned int GBCGKOIEMKF_TypeDefinitionIndex = 23336;
+
 	class GBCGKOIEMKF : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -15,6 +15,8 @@ class IJFIHJJPHNA;
 #define NPHBGGCPGFP_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C7C9C20)
 #define NPHBGGCPGFP_JHEMLIMEJDO_OFFSET UNITYSDK_OFFSET(0x1C7CA0D0)
 
+inline static constexpr unsigned int NPHBGGCPGFP_TypeDefinitionIndex = 36525;
+
 	class NPHBGGCPGFP : public ::System::Object
 	{
 	public:

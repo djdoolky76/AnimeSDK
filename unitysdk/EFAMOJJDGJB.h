@@ -41,6 +41,8 @@ namespace UnityEngine { class Transform; }
 #define EFAMOJJDGJB_SET_TARGETPIVOTPOINT_OFFSET UNITYSDK_OFFSET(0x13A430C0)
 #define EFAMOJJDGJB_SET_TARGETRAYPOINT_OFFSET UNITYSDK_OFFSET(0x13A430E0)
 
+inline static constexpr unsigned int EFAMOJJDGJB_TypeDefinitionIndex = 56976;
+
 	class EFAMOJJDGJB : public ::System::Object
 	{
 	public:

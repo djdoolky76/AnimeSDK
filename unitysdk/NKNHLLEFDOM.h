@@ -6,6 +6,8 @@ namespace RPG::Client { class AnniversaryCollectionPanelData; }
 #define NKNHLLEFDOM_CTOR_OFFSET UNITYSDK_OFFSET(0xBC3F520)
 #define NKNHLLEFDOM_MNFDJHCGKNE_OFFSET UNITYSDK_OFFSET(0xBC3F530)
 
+inline static constexpr unsigned int NKNHLLEFDOM_TypeDefinitionIndex = 62393;
+
 	class NKNHLLEFDOM : public ::NADABFJHEHM
 	{
 	public:

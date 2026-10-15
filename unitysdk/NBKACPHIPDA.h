@@ -25,6 +25,8 @@ namespace System { class String; }
 #define NBKACPHIPDA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAD34A0)
 #define NBKACPHIPDA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAD3500)
 
+inline static constexpr unsigned int NBKACPHIPDA_TypeDefinitionIndex = 29845;
+
 	class NBKACPHIPDA : public ::System::Object
 	{
 	public:

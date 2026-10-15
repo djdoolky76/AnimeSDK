@@ -7,6 +7,8 @@ namespace System { class String; }
 #define BHPJFILKGPM_FDIIGGIMENM_OFFSET UNITYSDK_OFFSET(0xB493C70)
 #define BHPJFILKGPM_HOJIJCAPDAJ_OFFSET UNITYSDK_OFFSET(0xB493BD0)
 
+inline static constexpr unsigned int BHPJFILKGPM_TypeDefinitionIndex = 60905;
+
 	class BHPJFILKGPM : public ::System::Object
 	{
 	public:

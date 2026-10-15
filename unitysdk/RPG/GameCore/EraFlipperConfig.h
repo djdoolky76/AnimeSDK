@@ -11,6 +11,8 @@ namespace RPG::GameCore { class EraRegion; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EraFlipperConfig_TypeDefinitionIndex = 16619;
+
 	class EraFlipperConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

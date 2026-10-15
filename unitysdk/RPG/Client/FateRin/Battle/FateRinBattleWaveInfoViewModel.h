@@ -13,6 +13,8 @@ class PNIFMEAJAEB;
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleWaveInfoViewModel_TypeDefinitionIndex = 80956;
+
 	class FateRinBattleWaveInfoViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

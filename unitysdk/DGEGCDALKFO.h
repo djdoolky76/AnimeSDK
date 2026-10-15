@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaitFrameForBattleServer; }
 #define DGEGCDALKFO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE845050)
 #define DGEGCDALKFO_TICK_OFFSET UNITYSDK_OFFSET(0xE845140)
 
+inline static constexpr unsigned int DGEGCDALKFO_TypeDefinitionIndex = 58897;
+
 	class DGEGCDALKFO : public ::GELIALJDFBL
 	{
 	public:

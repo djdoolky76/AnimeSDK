@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerLockTargetComponent_EntityLockInfo_TypeDefinitionIndex = 57657;
+
 	struct alignas(8) PlayerLockTargetComponent_EntityLockInfo
 	{
 		::System::UInt32 runtimeID; // 0x10

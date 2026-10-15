@@ -37,6 +37,8 @@ namespace System { class String; }
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftDiyViewModel_TypeDefinitionIndex = 79625;
+
 	class MechCraftDiyViewModel : public ::System::Object
 	{
 	public:

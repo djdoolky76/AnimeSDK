@@ -6,6 +6,8 @@
 #define MMJEGEJEHHB_DCPOKPGGEMH_OFFSET UNITYSDK_OFFSET(0xB9D3550)
 #define MMJEGEJEHHB_FFCPMPCGEDC_OFFSET UNITYSDK_OFFSET(0xB9D3590)
 
+inline static constexpr unsigned int MMJEGEJEHHB_TypeDefinitionIndex = 61132;
+
 	class MMJEGEJEHHB : public ::System::Object
 	{
 	public:

@@ -59,6 +59,8 @@ namespace System { class String; }
 #define FEEGOKGAJEH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E362A90)
 #define FEEGOKGAJEH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E362AF0)
 
+inline static constexpr unsigned int FEEGOKGAJEH_TypeDefinitionIndex = 25134;
+
 	class FEEGOKGAJEH : public ::System::Object
 	{
 	public:

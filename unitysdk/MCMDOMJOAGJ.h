@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define MCMDOMJOAGJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB888220)
 
+inline static constexpr unsigned int MCMDOMJOAGJ_TypeDefinitionIndex = 80552;
+
 	class MCMDOMJOAGJ : public ::System::Object
 	{
 	public:

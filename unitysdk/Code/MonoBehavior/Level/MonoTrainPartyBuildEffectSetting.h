@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace Code::MonoBehavior::Level
 {
+	inline static constexpr unsigned int MonoTrainPartyBuildEffectSetting_TypeDefinitionIndex = 50051;
+
 	class MonoTrainPartyBuildEffectSetting : public ::UnityEngine::MonoBehaviour
 	{
 	public:

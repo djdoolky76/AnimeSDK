@@ -12,6 +12,8 @@ namespace UnityEngine { class Texture; }
 #define HNFAPJIKBEJ_NJGKMOFAONL_OFFSET UNITYSDK_OFFSET(0x15D92A40)
 #define HNFAPJIKBEJ_PCDLKLNDNKO_OFFSET UNITYSDK_OFFSET(0x15D92880)
 
+inline static constexpr unsigned int HNFAPJIKBEJ_TypeDefinitionIndex = 49495;
+
 	class HNFAPJIKBEJ : public ::IILAKNBLGBD
 	{
 	public:

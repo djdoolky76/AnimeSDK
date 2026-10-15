@@ -13,6 +13,8 @@ namespace RPG::Client { class BattleViewModeDarkInitData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleViewModeDarkInitData_TypeDefinitionIndex = 72092;
+
 	class BattleViewModeDarkInitData : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System { class Nullable; }
 #define HEDEMCGDCMD_REFRESH_OFFSET UNITYSDK_OFFSET(0x15C4C3E0)
 #define HEDEMCGDCMD_RESET_OFFSET UNITYSDK_OFFSET(0x15C4B5D0)
 
+inline static constexpr unsigned int HEDEMCGDCMD_TypeDefinitionIndex = 69593;
+
 	class HEDEMCGDCMD : public ::System::Object
 	{
 	public:

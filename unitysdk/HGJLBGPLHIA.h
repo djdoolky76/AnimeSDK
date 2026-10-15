@@ -6,6 +6,8 @@ namespace RPG::Client::LittleGame { class MovieGameLevelConfig; }
 
 #define HGJLBGPLHIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CACAE40)
 
+inline static constexpr unsigned int HGJLBGPLHIA_TypeDefinitionIndex = 42331;
+
 	class HGJLBGPLHIA : public ::System::Object
 	{
 	public:

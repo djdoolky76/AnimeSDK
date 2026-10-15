@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define LAPOLFIKCCF_CTOR_OFFSET UNITYSDK_OFFSET(0xB5E9C60)
 #define LAPOLFIKCCF_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0xB5E9750)
 
+inline static constexpr unsigned int LAPOLFIKCCF_TypeDefinitionIndex = 62317;
+
 	class LAPOLFIKCCF : public ::System::Object
 	{
 	public:

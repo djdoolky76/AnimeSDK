@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NCJILFFNINI_LCLBHGBDCDM_OFFSET UNITYSDK_OFFSET(0xBB13010)
 #define NCJILFFNINI_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBB13240)
 
+inline static constexpr unsigned int NCJILFFNINI_TypeDefinitionIndex = 54422;
+
 	class NCJILFFNINI : public ::System::Object
 	{
 	public:

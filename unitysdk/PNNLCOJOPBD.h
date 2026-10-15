@@ -9,6 +9,8 @@ namespace UnityEngine { class Texture2D; }
 #define PNNLCOJOPBD_CTOR_OFFSET UNITYSDK_OFFSET(0xC3503F0)
 #define PNNLCOJOPBD_MOKNCFJICIC_OFFSET UNITYSDK_OFFSET(0xC350400)
 
+inline static constexpr unsigned int PNNLCOJOPBD_TypeDefinitionIndex = 62323;
+
 	class PNNLCOJOPBD : public ::System::Object
 	{
 	public:

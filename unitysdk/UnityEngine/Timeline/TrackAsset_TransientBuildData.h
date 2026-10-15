@@ -10,6 +10,8 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int TrackAsset_TransientBuildData_TypeDefinitionIndex = 38799;
+
 	struct alignas(8) TrackAsset_TransientBuildData
 	{
 		::System::Collections::Generic::List_1<::UnityEngine::Timeline::TrackAsset*>* trackList; // 0x10

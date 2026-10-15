@@ -30,6 +30,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleQTEDialog_TypeDefinitionIndex = 72310;
+
 	class BattleQTEDialog : public ::RPG::Client::UIController
 	{
 	public:

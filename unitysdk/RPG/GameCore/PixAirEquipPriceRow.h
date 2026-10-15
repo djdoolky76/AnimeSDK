@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PixAirEquipPriceRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PixAirEquipPriceRow_TypeDefinitionIndex = 12163;
+
 	class PixAirEquipPriceRow : public ::System::Object
 	{
 	public:

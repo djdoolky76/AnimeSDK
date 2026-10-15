@@ -17,6 +17,8 @@ namespace System { class Object; }
 #define MDIHAGAIABG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB8AAE10)
 #define MDIHAGAIABG_TICK_OFFSET UNITYSDK_OFFSET(0xB8AAEC0)
 
+inline static constexpr unsigned int MDIHAGAIABG_TypeDefinitionIndex = 52644;
+
 	class MDIHAGAIABG : public ::GELIALJDFBL
 	{
 	public:

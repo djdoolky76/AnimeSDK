@@ -4,6 +4,8 @@
 
 #define MAPIIGHJKEK_CTOR_OFFSET UNITYSDK_OFFSET(0xB856CC0)
 
+inline static constexpr unsigned int MAPIIGHJKEK_TypeDefinitionIndex = 79202;
+
 	class MAPIIGHJKEK : public ::System::Object
 	{
 	public:

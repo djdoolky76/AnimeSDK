@@ -11,6 +11,8 @@ namespace UnityEngine { class Sprite; }
 
 namespace SRF::UI
 {
+	inline static constexpr unsigned int Style_TypeDefinitionIndex = 35399;
+
 	class Style : public ::System::Object
 	{
 	public:

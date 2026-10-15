@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RelicSetBonusValueRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RelicSetBonusValueRow_TypeDefinitionIndex = 10885;
+
 	class RelicSetBonusValueRow : public ::System::Object
 	{
 	public:

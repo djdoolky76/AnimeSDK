@@ -19,6 +19,8 @@ namespace UnityEngine::UI::CoroutineTween { class FloatTween_FloatTweenCallback;
 
 namespace UnityEngine::UI::CoroutineTween
 {
+	inline static constexpr unsigned int FloatTween_TypeDefinitionIndex = 6899;
+
 	struct alignas(8) FloatTween
 	{
 		::UnityEngine::UI::CoroutineTween::FloatTween_FloatTweenCallback* m_Target; // 0x10

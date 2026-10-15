@@ -6,6 +6,8 @@ class PBBHMJFLBGC;
 #define DNIHJEFNKKO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA2FD30)
 #define DNIHJEFNKKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2FDB0)
 
+inline static constexpr unsigned int DNIHJEFNKKO_TypeDefinitionIndex = 43658;
+
 	class DNIHJEFNKKO : public ::System::Object
 	{
 	public:

@@ -70,6 +70,8 @@ namespace UnityEngine { class Transform; }
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGCurvePoint_TypeDefinitionIndex = 36013;
+
 	class BGCurvePoint : public ::System::Object
 	{
 	public:

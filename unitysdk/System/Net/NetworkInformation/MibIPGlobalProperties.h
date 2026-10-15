@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Net::NetworkInformation
 {
+	inline static constexpr unsigned int MibIPGlobalProperties_TypeDefinitionIndex = 2941;
+
 	class MibIPGlobalProperties : public ::System::Net::NetworkInformation::UnixIPGlobalProperties
 	{
 	public:

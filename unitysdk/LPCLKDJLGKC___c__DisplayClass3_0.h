@@ -6,6 +6,8 @@ namespace System { class Action; }
 #define LPCLKDJLGKC___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB819160)
 #define LPCLKDJLGKC___C__DISPLAYCLASS3_0__FOREACHPETID_B__0_OFFSET UNITYSDK_OFFSET(0xB819350)
 
+inline static constexpr unsigned int LPCLKDJLGKC___c__DisplayClass3_0_TypeDefinitionIndex = 75670;
+
 	class LPCLKDJLGKC___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

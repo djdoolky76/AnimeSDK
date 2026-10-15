@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerPartnerAnimSync; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerPartnerAnimSync_TypeDefinitionIndex = 23448;
+
 	class TriggerPartnerAnimSync : public ::RPG::GameCore::TaskConfig
 	{
 	public:

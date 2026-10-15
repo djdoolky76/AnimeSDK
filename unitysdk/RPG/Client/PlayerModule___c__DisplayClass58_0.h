@@ -8,6 +8,8 @@ class ADODOFNNPEO;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayerModule___c__DisplayClass58_0_TypeDefinitionIndex = 66690;
+
 	class PlayerModule___c__DisplayClass58_0 : public ::System::Object
 	{
 	public:

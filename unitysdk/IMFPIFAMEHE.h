@@ -8,6 +8,8 @@ namespace System { class String; }
 #define IMFPIFAMEHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF22580)
 #define IMFPIFAMEHE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF22310)
 
+inline static constexpr unsigned int IMFPIFAMEHE_TypeDefinitionIndex = 14391;
+
 	class IMFPIFAMEHE : public ::System::Object
 	{
 	public:

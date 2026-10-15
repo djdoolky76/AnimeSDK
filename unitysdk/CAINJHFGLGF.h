@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CAINJHFGLGF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D9FF820)
 #define CAINJHFGLGF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D9FF130)
 
+inline static constexpr unsigned int CAINJHFGLGF_TypeDefinitionIndex = 14602;
+
 	class CAINJHFGLGF : public ::System::Object
 	{
 	public:

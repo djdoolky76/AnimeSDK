@@ -16,6 +16,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::Challenge
 {
+	inline static constexpr unsigned int ChallengeResultRewardListControl_TypeDefinitionIndex = 81418;
+
 	class ChallengeResultRewardListControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

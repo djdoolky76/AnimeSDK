@@ -4,6 +4,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DebugGUIManager_EMOHFLOEAHH_TypeDefinitionIndex = 68335;
+
 	struct alignas(4) DebugGUIManager_EMOHFLOEAHH
 	{
 		::System::Boolean IOBJFEJFLJP; // 0x10

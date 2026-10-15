@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int OnServerConnectedDelegate_TypeDefinitionIndex = 76136;
+
 	class OnServerConnectedDelegate : public ::System::MulticastDelegate
 	{
 	public:

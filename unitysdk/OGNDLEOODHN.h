@@ -9,6 +9,8 @@ namespace System { class String; }
 #define OGNDLEOODHN_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBE5D660)
 #define OGNDLEOODHN_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xBE5D700)
 
+inline static constexpr unsigned int OGNDLEOODHN_TypeDefinitionIndex = 66992;
+
 	class OGNDLEOODHN : public ::System::Object
 	{
 	public:

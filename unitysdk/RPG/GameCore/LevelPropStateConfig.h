@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelPropStateConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPropStateConfig_TypeDefinitionIndex = 17258;
+
 	class LevelPropStateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

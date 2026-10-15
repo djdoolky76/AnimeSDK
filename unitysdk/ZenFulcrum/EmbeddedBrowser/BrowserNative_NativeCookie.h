@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_NativeCookie_TypeDefinitionIndex = 39398;
+
 	class BrowserNative_NativeCookie : public ::System::Object
 	{
 	public:

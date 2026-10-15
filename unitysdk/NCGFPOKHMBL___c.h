@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NCGFPOKHMBL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EADC530)
 #define NCGFPOKHMBL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EADC540)
 
+inline static constexpr unsigned int NCGFPOKHMBL___c_TypeDefinitionIndex = 30692;
+
 	class NCGFPOKHMBL___c : public ::System::Object
 	{
 	public:

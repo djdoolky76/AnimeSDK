@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelGroupSubMissionCompleteCondition; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelGroupSubMissionCompleteCondition_TypeDefinitionIndex = 17213;
+
 	class LevelGroupSubMissionCompleteCondition : public ::RPG::GameCore::LevelGroupAtmosphereLoadCondition
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RefreshChangePhaseUI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RefreshChangePhaseUI_TypeDefinitionIndex = 23208;
+
 	class RefreshChangePhaseUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

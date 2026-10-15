@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int XboxLeaderboardParamExtension_TypeDefinitionIndex = 8673;
+
 	class XboxLeaderboardParamExtension : public ::System::Object
 	{
 	public:

@@ -87,6 +87,8 @@ namespace UnityEngine { class Transform; }
 #define MMHPBKNKBGP__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xB9C62A0)
 #define MMHPBKNKBGP__ONTICK_OFFSET UNITYSDK_OFFSET(0xB9C6300)
 
+inline static constexpr unsigned int MMHPBKNKBGP_TypeDefinitionIndex = 71900;
+
 	class MMHPBKNKBGP : public ::FMPCODLIOLG
 	{
 	public:

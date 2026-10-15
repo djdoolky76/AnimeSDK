@@ -7,6 +7,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoAboveSwitch_TypeDefinitionIndex = 73108;
+
 	class MonoAboveSwitch : public ::UnityEngine::MonoBehaviour
 	{
 	public:

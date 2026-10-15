@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageConfig___O_TypeDefinitionIndex = 19141;
+
 	class StageConfig___O : public ::System::Object
 	{
 	public:

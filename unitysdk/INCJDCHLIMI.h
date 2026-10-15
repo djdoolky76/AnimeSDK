@@ -11,6 +11,8 @@ namespace System { class Nullable; }
 #define INCJDCHLIMI_JGBFDBBNLAF_OFFSET UNITYSDK_OFFSET(0x164E7790)
 #define INCJDCHLIMI_KAJBAPMLIGF_OFFSET UNITYSDK_OFFSET(0x164E7DA0)
 
+inline static constexpr unsigned int INCJDCHLIMI_TypeDefinitionIndex = 74181;
+
 	class INCJDCHLIMI : public ::DAOENPMCFON
 	{
 	public:

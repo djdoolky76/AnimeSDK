@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetMapDummyEntity_TypeDefinitionIndex = 24035;
+
 	class TargetMapDummyEntity : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:

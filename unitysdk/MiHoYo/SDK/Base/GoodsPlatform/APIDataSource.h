@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
+	inline static constexpr unsigned int APIDataSource_TypeDefinitionIndex = 8835;
+
 	class APIDataSource : public ::System::Object
 	{
 	public:

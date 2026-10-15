@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NLABOOBJODO_CTOR_OFFSET UNITYSDK_OFFSET(0xBC4D8D0)
 #define NLABOOBJODO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC4D900)
 
+inline static constexpr unsigned int NLABOOBJODO_TypeDefinitionIndex = 54952;
+
 	class NLABOOBJODO
 	{
 	public:

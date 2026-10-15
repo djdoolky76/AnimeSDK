@@ -34,6 +34,8 @@ namespace UnityEngine { class SkinnedMeshRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharacterShaderPropertyTransition_TypeDefinitionIndex = 68855;
+
 	class CharacterShaderPropertyTransition : public ::RPG::Client::BaseShaderPropertyTransition
 	{
 	public:

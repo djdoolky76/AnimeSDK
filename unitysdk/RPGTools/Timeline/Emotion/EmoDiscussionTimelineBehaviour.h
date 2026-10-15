@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int EmoDiscussionTimelineBehaviour_TypeDefinitionIndex = 48765;
+
 	class EmoDiscussionTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

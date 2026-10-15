@@ -14,6 +14,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define NCCLPHOILBE_IOKFIOPLKDH_BHBHABIGGDI_OFFSET UNITYSDK_OFFSET(0x1F290)
 #define NCCLPHOILBE_IOKFIOPLKDH_IBAMHNHGNCB_OFFSET UNITYSDK_OFFSET(0x1F2F0)
 
+inline static constexpr unsigned int NCCLPHOILBE_IOKFIOPLKDH_TypeDefinitionIndex = 71593;
+
 	struct alignas(8) NCCLPHOILBE_IOKFIOPLKDH
 	{
 		::RPG::GameCore::UIDamageTextType GMPGDEINODK; // 0x10

@@ -8,6 +8,8 @@ class FiveDimRenderingItem;
 #define PROTORYPEOPERATION_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0xC39C4A0)
 #define PROTORYPEOPERATION_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xC39C3F0)
 
+inline static constexpr unsigned int ProtorypeOperation_TypeDefinitionIndex = 47119;
+
 	class ProtorypeOperation : public ::FDRIStateOperation
 	{
 	public:

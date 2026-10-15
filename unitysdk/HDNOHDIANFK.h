@@ -19,6 +19,8 @@ namespace UnityEngine { class Texture; }
 #define HDNOHDIANFK_OINBDMGFFJL_1_OFFSET UNITYSDK_OFFSET(0x15C3F870)
 #define HDNOHDIANFK_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0x15C3ED00)
 
+inline static constexpr unsigned int HDNOHDIANFK_TypeDefinitionIndex = 49494;
+
 	class HDNOHDIANFK
 	{
 	public:

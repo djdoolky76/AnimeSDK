@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int EmptyEnumerator_TypeDefinitionIndex = 1924;
+
 	class EmptyEnumerator : public ::System::Object
 	{
 	public:

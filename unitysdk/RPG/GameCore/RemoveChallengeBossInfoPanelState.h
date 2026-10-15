@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RemoveChallengeBossInfoPanelState; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveChallengeBossInfoPanelState_TypeDefinitionIndex = 23219;
+
 	class RemoveChallengeBossInfoPanelState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

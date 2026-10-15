@@ -29,6 +29,8 @@ namespace System::Text { class StringBuilder; }
 #define FOMDMAGLLNI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x158FA450)
 #define FOMDMAGLLNI__CLONE___OFFSET UNITYSDK_OFFSET(0x158FADF0)
 
+inline static constexpr unsigned int FOMDMAGLLNI_TypeDefinitionIndex = 81459;
+
 	class FOMDMAGLLNI : public ::System::Object
 	{
 	public:

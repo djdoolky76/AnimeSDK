@@ -7,6 +7,8 @@
 
 namespace UnityEngine::GCFreeClosure
 {
+	inline static constexpr unsigned int SValue_WriterInit_TypeDefinitionIndex = 4471;
+
 	class SValue_WriterInit : public ::System::Object
 	{
 	public:

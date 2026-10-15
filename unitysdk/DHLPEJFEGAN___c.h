@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DHLPEJFEGAN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1B80A0)
 #define DHLPEJFEGAN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E1B80B0)
 
+inline static constexpr unsigned int DHLPEJFEGAN___c_TypeDefinitionIndex = 31528;
+
 	class DHLPEJFEGAN___c : public ::System::Object
 	{
 	public:

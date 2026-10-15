@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FHFCJKKKNLP___SENDCOLLECTINCOMEREQ_B__11_0_OFFSET UNITYSDK_OFFSET(0x15779C60)
 #define FHFCJKKKNLP___WAITFORGETDATA_B__12_0_OFFSET UNITYSDK_OFFSET(0x15779D10)
 
+inline static constexpr unsigned int FHFCJKKKNLP_TypeDefinitionIndex = 75389;
+
 	class FHFCJKKKNLP : public ::System::Object
 	{
 	public:

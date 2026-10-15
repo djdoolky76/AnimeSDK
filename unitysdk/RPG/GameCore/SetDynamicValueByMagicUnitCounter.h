@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByMagicUnitCounter_TypeDefinitionIndex = 23106;
+
 	class SetDynamicValueByMagicUnitCounter : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

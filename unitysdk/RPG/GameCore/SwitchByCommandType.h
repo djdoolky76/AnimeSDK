@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchByCommandType_TypeDefinitionIndex = 23670;
+
 	class SwitchByCommandType : public ::RPG::GameCore::TaskConfig
 	{
 	public:

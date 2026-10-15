@@ -8,6 +8,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aiCurvesSampleSummary_TypeDefinitionIndex = 45819;
+
 	struct alignas(4) aiCurvesSampleSummary
 	{
 		::System::Int32 _positionCount_k__BackingField; // 0x10

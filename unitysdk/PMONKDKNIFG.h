@@ -8,6 +8,8 @@ namespace System { class String; }
 #define PMONKDKNIFG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D30CFD0)
 #define PMONKDKNIFG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D30CD90)
 
+inline static constexpr unsigned int PMONKDKNIFG_TypeDefinitionIndex = 11492;
+
 	class PMONKDKNIFG : public ::System::Object
 	{
 	public:

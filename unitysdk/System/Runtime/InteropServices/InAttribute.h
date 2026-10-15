@@ -6,6 +6,8 @@
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int InAttribute_TypeDefinitionIndex = 1416;
+
 	class InAttribute : public ::System::Attribute
 	{
 	public:

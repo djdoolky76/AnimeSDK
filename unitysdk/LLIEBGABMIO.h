@@ -4,6 +4,8 @@
 
 #define LLIEBGABMIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C73FEA0)
 
+inline static constexpr unsigned int LLIEBGABMIO_TypeDefinitionIndex = 37060;
+
 	class LLIEBGABMIO : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{
 	public:

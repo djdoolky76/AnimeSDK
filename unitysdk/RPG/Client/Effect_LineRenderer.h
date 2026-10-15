@@ -13,6 +13,8 @@ namespace UnityEngine { class LineRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_LineRenderer_TypeDefinitionIndex = 70497;
+
 	class Effect_LineRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

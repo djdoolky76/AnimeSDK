@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HOKCDEEABII___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5EAFF0)
 #define HOKCDEEABII___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E5EB000)
 
+inline static constexpr unsigned int HOKCDEEABII___c_TypeDefinitionIndex = 34713;
+
 	class HOKCDEEABII___c : public ::System::Object
 	{
 	public:

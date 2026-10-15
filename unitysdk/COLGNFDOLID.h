@@ -36,6 +36,8 @@ namespace RPG::Client { class VirtualCursor; }
 #define COLGNFDOLID_SET_JOYSTICKINPUT_OFFSET UNITYSDK_OFFSET(0xDCBC410)
 #define COLGNFDOLID_SET_TOUCHINPUT_OFFSET UNITYSDK_OFFSET(0xDCBC440)
 
+inline static constexpr unsigned int COLGNFDOLID_TypeDefinitionIndex = 74118;
+
 	class COLGNFDOLID : public ::System::Object
 	{
 	public:

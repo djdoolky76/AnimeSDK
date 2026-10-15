@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BCIFDHMKADE_KOGELKDGAGK_OFFSET UNITYSDK_OFFSET(0x15EA9000)
 #define BCIFDHMKADE_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x15EA8980)
 
+inline static constexpr unsigned int BCIFDHMKADE_TypeDefinitionIndex = 78637;
+
 	class BCIFDHMKADE : public ::System::Object
 	{
 	public:

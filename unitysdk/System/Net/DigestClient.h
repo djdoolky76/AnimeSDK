@@ -17,6 +17,8 @@ namespace System::Net { class WebRequest; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int DigestClient_TypeDefinitionIndex = 2831;
+
 	class DigestClient : public ::System::Object
 	{
 	public:

@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CurveUndirectedEdge_TypeDefinitionIndex = 68569;
+
 	class CurveUndirectedEdge : public ::System::Object
 	{
 	public:

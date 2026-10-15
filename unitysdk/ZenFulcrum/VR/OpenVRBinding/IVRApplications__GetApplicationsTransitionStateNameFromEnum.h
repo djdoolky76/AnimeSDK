@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRApplications__GetApplicationsTransitionStateNameFromEnum_TypeDefinitionIndex = 38980;
+
 	class IVRApplications__GetApplicationsTransitionStateNameFromEnum : public ::System::MulticastDelegate
 	{
 	public:

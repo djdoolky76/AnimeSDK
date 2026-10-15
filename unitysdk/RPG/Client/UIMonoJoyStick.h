@@ -47,6 +47,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIMonoJoyStick_TypeDefinitionIndex = 72834;
+
 	class UIMonoJoyStick : public ::UnityEngine::MonoBehaviour
 	{
 	public:

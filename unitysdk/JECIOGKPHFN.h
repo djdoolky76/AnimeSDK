@@ -28,6 +28,8 @@ namespace System { class String; }
 #define JECIOGKPHFN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E714710)
 #define JECIOGKPHFN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E714770)
 
+inline static constexpr unsigned int JECIOGKPHFN_TypeDefinitionIndex = 27286;
+
 	class JECIOGKPHFN : public ::System::Object
 	{
 	public:

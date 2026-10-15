@@ -14,6 +14,8 @@ namespace System::Collections { class IDictionary; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int NonGenericInterfaceDictionaryFormatter_TypeDefinitionIndex = 7405;
+
 	class NonGenericInterfaceDictionaryFormatter : public ::System::Object
 	{
 	public:

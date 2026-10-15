@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int ExecutionerXWindowsUnityProfile_TypeDefinitionIndex = 41066;
+
 	class ExecutionerXWindowsUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define OKHCEAMPHAL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBEDB030)
 #define OKHCEAMPHAL_TICK_OFFSET UNITYSDK_OFFSET(0xBEDB080)
 
+inline static constexpr unsigned int OKHCEAMPHAL_TypeDefinitionIndex = 55158;
+
 	class OKHCEAMPHAL : public ::GELIALJDFBL
 	{
 	public:

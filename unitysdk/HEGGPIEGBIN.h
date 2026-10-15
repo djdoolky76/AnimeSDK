@@ -31,6 +31,8 @@ namespace System { class String; }
 #define HEGGPIEGBIN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E559E00)
 #define HEGGPIEGBIN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E559E60)
 
+inline static constexpr unsigned int HEGGPIEGBIN_TypeDefinitionIndex = 35080;
+
 	class HEGGPIEGBIN : public ::System::Object
 	{
 	public:

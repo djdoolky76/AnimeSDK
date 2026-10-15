@@ -10,6 +10,8 @@ class OMNJCDDMLHI;
 #define BECGOPMGJDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1630D4B0)
 #define BECGOPMGJDJ_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1630D4C0)
 
+inline static constexpr unsigned int BECGOPMGJDJ_TypeDefinitionIndex = 77963;
+
 	class BECGOPMGJDJ : public ::System::Object
 	{
 	public:

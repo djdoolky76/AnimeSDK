@@ -4,6 +4,8 @@
 
 #define MFDLKHMCCNN_CTOR_OFFSET UNITYSDK_OFFSET(0xB8F1560)
 
+inline static constexpr unsigned int MFDLKHMCCNN_TypeDefinitionIndex = 63736;
+
 	class MFDLKHMCCNN : public ::System::Object
 	{
 	public:

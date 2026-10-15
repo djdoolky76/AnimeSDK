@@ -27,6 +27,8 @@ namespace System { class String; }
 #define OEPAMDEPFLJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE34130)
 #define OEPAMDEPFLJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE34190)
 
+inline static constexpr unsigned int OEPAMDEPFLJ_TypeDefinitionIndex = 33262;
+
 	class OEPAMDEPFLJ : public ::System::Object
 	{
 	public:

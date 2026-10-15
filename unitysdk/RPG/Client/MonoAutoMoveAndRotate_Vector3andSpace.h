@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoAutoMoveAndRotate_Vector3andSpace_TypeDefinitionIndex = 69847;
+
 	class MonoAutoMoveAndRotate_Vector3andSpace : public ::System::Object
 	{
 	public:

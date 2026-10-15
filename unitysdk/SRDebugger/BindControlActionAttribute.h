@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace SRDebugger
 {
+	inline static constexpr unsigned int BindControlActionAttribute_TypeDefinitionIndex = 37962;
+
 	class BindControlActionAttribute : public ::System::Attribute
 	{
 	public:

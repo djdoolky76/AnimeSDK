@@ -33,6 +33,8 @@ namespace System { class String; }
 #define FCGMKPGGCAC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E346050)
 #define FCGMKPGGCAC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3460B0)
 
+inline static constexpr unsigned int FCGMKPGGCAC_TypeDefinitionIndex = 30867;
+
 	class FCGMKPGGCAC : public ::System::Object
 	{
 	public:

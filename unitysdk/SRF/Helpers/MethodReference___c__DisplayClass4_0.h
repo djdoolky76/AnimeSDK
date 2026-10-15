@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace SRF::Helpers
 {
+	inline static constexpr unsigned int MethodReference___c__DisplayClass4_0_TypeDefinitionIndex = 35425;
+
 	class MethodReference___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

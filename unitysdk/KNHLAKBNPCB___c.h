@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KNHLAKBNPCB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8A4580)
 #define KNHLAKBNPCB___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E8A4590)
 
+inline static constexpr unsigned int KNHLAKBNPCB___c_TypeDefinitionIndex = 34679;
+
 	class KNHLAKBNPCB___c : public ::System::Object
 	{
 	public:

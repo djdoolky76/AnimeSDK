@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EvolveBuildTutorialConfigRow_TypeDefinitionIndex = 11434;
+
 	class EvolveBuildTutorialConfigRow : public ::System::Object
 	{
 	public:

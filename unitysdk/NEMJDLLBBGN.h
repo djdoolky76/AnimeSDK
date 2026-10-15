@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NEMJDLLBBGN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAFE150)
 #define NEMJDLLBBGN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAFE1B0)
 
+inline static constexpr unsigned int NEMJDLLBBGN_TypeDefinitionIndex = 33093;
+
 	class NEMJDLLBBGN : public ::System::Object
 	{
 	public:

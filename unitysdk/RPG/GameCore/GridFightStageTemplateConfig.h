@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightStageTemplateConfig_TypeDefinitionIndex = 18169;
+
 	class GridFightStageTemplateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

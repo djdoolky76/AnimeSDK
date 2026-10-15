@@ -10,6 +10,8 @@ namespace UnityEngine::Formats::Alembic::Util { class ComponentCapturer; }
 
 namespace UnityEngine::Formats::Alembic::Util
 {
+	inline static constexpr unsigned int ComponentCapturer_TypeDefinitionIndex = 45760;
+
 	class ComponentCapturer : public ::System::Object
 	{
 	public:

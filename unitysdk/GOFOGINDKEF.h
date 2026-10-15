@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GOFOGINDKEF_JBJPNCIBBKP_OFFSET UNITYSDK_OFFSET(0x15B2E760)
 #define GOFOGINDKEF_LKLNHGLLCNI_OFFSET UNITYSDK_OFFSET(0x15B2E700)
 
+inline static constexpr unsigned int GOFOGINDKEF_TypeDefinitionIndex = 80138;
+
 	class GOFOGINDKEF : public ::System::Object
 	{
 	public:

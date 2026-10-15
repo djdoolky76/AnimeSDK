@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchPhotoGraphMode_TypeDefinitionIndex = 20522;
+
 	class SwitchPhotoGraphMode : public ::RPG::GameCore::TaskConfig
 	{
 	public:

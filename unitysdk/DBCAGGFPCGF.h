@@ -36,6 +36,8 @@ namespace System { class String; }
 #define DBCAGGFPCGF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1551C0)
 #define DBCAGGFPCGF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E155220)
 
+inline static constexpr unsigned int DBCAGGFPCGF_TypeDefinitionIndex = 29758;
+
 	class DBCAGGFPCGF : public ::System::Object
 	{
 	public:

@@ -35,6 +35,8 @@ namespace System { class String; }
 #define EBGAMBKHDBO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2359F0)
 #define EBGAMBKHDBO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E235A50)
 
+inline static constexpr unsigned int EBGAMBKHDBO_TypeDefinitionIndex = 35069;
+
 	class EBGAMBKHDBO : public ::System::Object
 	{
 	public:

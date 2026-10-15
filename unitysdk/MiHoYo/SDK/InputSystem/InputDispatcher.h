@@ -54,6 +54,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK::InputSystem
 {
+	inline static constexpr unsigned int InputDispatcher_TypeDefinitionIndex = 10100;
+
 	class InputDispatcher : public ::System::Object
 	{
 	public:

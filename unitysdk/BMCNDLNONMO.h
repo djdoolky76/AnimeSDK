@@ -51,6 +51,8 @@ namespace System { class String; }
 #define BMCNDLNONMO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E021470)
 #define BMCNDLNONMO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0214D0)
 
+inline static constexpr unsigned int BMCNDLNONMO_TypeDefinitionIndex = 33604;
+
 	class BMCNDLNONMO : public ::System::Object
 	{
 	public:

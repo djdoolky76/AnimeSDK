@@ -10,6 +10,8 @@ namespace System { class String; }
 #define MHHOMOMKPFF_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB93AE60)
 #define MHHOMOMKPFF_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xB93AE70)
 
+inline static constexpr unsigned int MHHOMOMKPFF_TypeDefinitionIndex = 56158;
+
 	class MHHOMOMKPFF : public ::DBGDNLLDPFI
 	{
 	public:

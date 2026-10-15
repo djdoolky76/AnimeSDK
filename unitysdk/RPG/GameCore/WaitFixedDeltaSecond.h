@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitFixedDeltaSecond; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitFixedDeltaSecond_TypeDefinitionIndex = 23786;
+
 	class WaitFixedDeltaSecond : public ::RPG::GameCore::TaskConfig
 	{
 	public:

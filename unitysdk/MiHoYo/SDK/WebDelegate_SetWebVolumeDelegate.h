@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebDelegate_SetWebVolumeDelegate_TypeDefinitionIndex = 7848;
+
 	class WebDelegate_SetWebVolumeDelegate : public ::System::MulticastDelegate
 	{
 	public:

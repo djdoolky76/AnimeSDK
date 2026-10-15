@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int SignPuzzle_TypeDefinitionIndex = 78863;
+
 	class SignPuzzle : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

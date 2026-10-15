@@ -4,6 +4,8 @@ class FABMDCOFHCG;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 
+inline static constexpr unsigned int KBFDDPLFFLK_TypeDefinitionIndex = 54445;
+
 	struct alignas(8) KBFDDPLFFLK
 	{
 		::RPG::GameCore::GameEntity* JNIEOPGFMAD; // 0x10

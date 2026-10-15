@@ -25,6 +25,8 @@ namespace System { class String; }
 #define AGEPCIIPMEF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E12B0B0)
 #define AGEPCIIPMEF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E12B110)
 
+inline static constexpr unsigned int AGEPCIIPMEF_TypeDefinitionIndex = 27078;
+
 	class AGEPCIIPMEF : public ::System::Object
 	{
 	public:

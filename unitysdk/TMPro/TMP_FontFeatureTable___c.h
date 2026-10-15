@@ -12,6 +12,8 @@ namespace TMPro { class TMP_GlyphPairAdjustmentRecord; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_FontFeatureTable___c_TypeDefinitionIndex = 44587;
+
 	class TMP_FontFeatureTable___c : public ::System::Object
 	{
 	public:

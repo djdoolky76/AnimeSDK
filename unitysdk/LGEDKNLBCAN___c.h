@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LGEDKNLBCAN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E94EAD0)
 #define LGEDKNLBCAN___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1E94EAE0)
 
+inline static constexpr unsigned int LGEDKNLBCAN___c_TypeDefinitionIndex = 27636;
+
 	class LGEDKNLBCAN___c : public ::System::Object
 	{
 	public:

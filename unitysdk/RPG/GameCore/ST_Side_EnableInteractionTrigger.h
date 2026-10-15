@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Side_EnableInteractionTrigger; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_EnableInteractionTrigger_TypeDefinitionIndex = 20140;
+
 	class ST_Side_EnableInteractionTrigger : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

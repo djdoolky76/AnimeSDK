@@ -16,6 +16,8 @@ class OIKDEOMMOAM;
 #define JIKHHIMNPDN_CTOR_OFFSET UNITYSDK_OFFSET(0xB1FC580)
 #define JIKHHIMNPDN_JBFOGGHEPIC_OFFSET UNITYSDK_OFFSET(0xB1FC1E0)
 
+inline static constexpr unsigned int JIKHHIMNPDN_TypeDefinitionIndex = 53996;
+
 	class JIKHHIMNPDN : public ::ODHMHHGKCJP
 	{
 	public:

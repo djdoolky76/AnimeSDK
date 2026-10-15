@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TreasureDungeoActivityQuestConfigExcelTable_TypeDefinitionIndex = 12541;
+
 	class TreasureDungeoActivityQuestConfigExcelTable : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DNLPNMBOBMI_CTOR_OFFSET UNITYSDK_OFFSET(0x11FD82B0)
 #define DNLPNMBOBMI_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11FD8320)
 
+inline static constexpr unsigned int DNLPNMBOBMI_TypeDefinitionIndex = 59092;
+
 	class DNLPNMBOBMI
 	{
 	public:

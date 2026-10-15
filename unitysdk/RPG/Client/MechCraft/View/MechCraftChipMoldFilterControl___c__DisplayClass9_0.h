@@ -9,6 +9,8 @@ class DGKFMEELDNN;
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftChipMoldFilterControl___c__DisplayClass9_0_TypeDefinitionIndex = 79899;
+
 	class MechCraftChipMoldFilterControl___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

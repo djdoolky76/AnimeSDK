@@ -35,6 +35,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int PinballPageProxy_TypeDefinitionIndex = 78765;
+
 	class PinballPageProxy : public ::System::Object
 	{
 	public:

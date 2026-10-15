@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VCameraNoiseChange_TypeDefinitionIndex = 23725;
+
 	class VCameraNoiseChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GridLayout_TypeDefinitionIndex = 5158;
+
 	class GridLayout : public ::UnityEngine::Behaviour
 	{
 	public:

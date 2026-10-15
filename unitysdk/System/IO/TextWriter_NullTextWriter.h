@@ -13,6 +13,8 @@ namespace System::Text { class Encoding; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int TextWriter_NullTextWriter_TypeDefinitionIndex = 702;
+
 	class TextWriter_NullTextWriter : public ::System::IO::TextWriter
 	{
 	public:

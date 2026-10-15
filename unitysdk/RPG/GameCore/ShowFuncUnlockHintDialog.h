@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowFuncUnlockHintDialog; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowFuncUnlockHintDialog_TypeDefinitionIndex = 24285;
+
 	class ShowFuncUnlockHintDialog : public ::RPG::GameCore::TaskConfig
 	{
 	public:

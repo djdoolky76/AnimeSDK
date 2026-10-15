@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetFetchProjectileHitPos_TypeDefinitionIndex = 23921;
+
 	class TargetFetchProjectileHitPos : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:

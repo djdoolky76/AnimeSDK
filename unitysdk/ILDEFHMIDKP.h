@@ -27,6 +27,8 @@ namespace System { class String; }
 #define ILDEFHMIDKP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6AAA90)
 #define ILDEFHMIDKP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6AAAF0)
 
+inline static constexpr unsigned int ILDEFHMIDKP_TypeDefinitionIndex = 29308;
+
 	class ILDEFHMIDKP : public ::System::Object
 	{
 	public:

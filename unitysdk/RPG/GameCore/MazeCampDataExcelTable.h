@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MazeCampDataExcelTable_TypeDefinitionIndex = 14052;
+
 	class MazeCampDataExcelTable : public ::System::Object
 	{
 	public:

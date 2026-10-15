@@ -32,6 +32,8 @@ namespace System { class String; }
 #define CAGELADNAOL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0596A0)
 #define CAGELADNAOL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E059700)
 
+inline static constexpr unsigned int CAGELADNAOL_TypeDefinitionIndex = 32380;
+
 	class CAGELADNAOL : public ::System::Object
 	{
 	public:

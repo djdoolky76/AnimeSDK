@@ -13,6 +13,8 @@ namespace RPG::GameCore { class RewardRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RewardRow_TypeDefinitionIndex = 14658;
+
 	class RewardRow : public ::System::Object
 	{
 	public:

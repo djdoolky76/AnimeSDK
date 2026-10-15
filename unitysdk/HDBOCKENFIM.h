@@ -33,6 +33,8 @@ namespace System { class String; }
 #define HDBOCKENFIM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E547260)
 #define HDBOCKENFIM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5472C0)
 
+inline static constexpr unsigned int HDBOCKENFIM_TypeDefinitionIndex = 33912;
+
 	class HDBOCKENFIM : public ::System::Object
 	{
 	public:

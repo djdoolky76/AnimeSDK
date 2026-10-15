@@ -5,6 +5,8 @@
 #define CKCNLNNFGCN_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3C44D20)
 #define CKCNLNNFGCN_CTOR_OFFSET UNITYSDK_OFFSET(0x3C44D20)
 
+inline static constexpr unsigned int CKCNLNNFGCN_TypeDefinitionIndex = 6291;
+
 	struct alignas(4) CKCNLNNFGCN
 	{
 		::JOHLECDICBB ODKBFFBBPKC; // 0x10

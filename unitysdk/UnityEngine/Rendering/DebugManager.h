@@ -63,6 +63,8 @@ namespace UnityEngine::Rendering::UI { class DebugUIHandlerWidget; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DebugManager_TypeDefinitionIndex = 35516;
+
 	class DebugManager : public ::System::Object
 	{
 	public:

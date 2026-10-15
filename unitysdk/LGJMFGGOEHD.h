@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define LGJMFGGOEHD_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB699E00)
 #define LGJMFGGOEHD_INVOKE_OFFSET UNITYSDK_OFFSET(0xB699D80)
 
+inline static constexpr unsigned int LGJMFGGOEHD_TypeDefinitionIndex = 75724;
+
 	class LGJMFGGOEHD : public ::System::MulticastDelegate
 	{
 	public:

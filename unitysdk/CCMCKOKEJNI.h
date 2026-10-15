@@ -28,6 +28,8 @@ namespace System { class String; }
 #define CCMCKOKEJNI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E079F40)
 #define CCMCKOKEJNI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E079FA0)
 
+inline static constexpr unsigned int CCMCKOKEJNI_TypeDefinitionIndex = 31010;
+
 	class CCMCKOKEJNI : public ::System::Object
 	{
 	public:

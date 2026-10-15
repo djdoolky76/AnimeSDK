@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int RankException_TypeDefinitionIndex = 318;
+
 	class RankException : public ::System::SystemException
 	{
 	public:

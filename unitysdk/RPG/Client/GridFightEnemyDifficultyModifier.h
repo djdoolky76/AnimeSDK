@@ -13,6 +13,8 @@ class NJKFOJJDGGG;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEnemyDifficultyModifier_TypeDefinitionIndex = 65002;
+
 	class GridFightEnemyDifficultyModifier : public ::RPG::Client::GridFightGameModifier
 	{
 	public:

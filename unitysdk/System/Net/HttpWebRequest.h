@@ -140,6 +140,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Certifica
 
 namespace System::Net
 {
+	inline static constexpr unsigned int HttpWebRequest_TypeDefinitionIndex = 2857;
+
 	class HttpWebRequest : public ::System::Net::WebRequest
 	{
 	public:

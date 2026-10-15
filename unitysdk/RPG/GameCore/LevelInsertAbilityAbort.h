@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelInsertAbilityAbort_TypeDefinitionIndex = 56835;
+
 	class LevelInsertAbilityAbort : public ::CMPGEAFHHDC
 	{
 	public:

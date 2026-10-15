@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetMapDynamicEntityParam_TypeDefinitionIndex = 23969;
+
 	class TargetMapDynamicEntityParam : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:

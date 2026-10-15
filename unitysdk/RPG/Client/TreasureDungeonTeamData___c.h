@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TreasureDungeonTeamData___c_TypeDefinitionIndex = 68199;
+
 	class TreasureDungeonTeamData___c : public ::System::Object
 	{
 	public:

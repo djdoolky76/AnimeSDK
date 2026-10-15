@@ -41,6 +41,8 @@ namespace UnityEngine { class Transform; }
 #define IECNEMPGKJL_PFLPLEHIGIA_OFFSET UNITYSDK_OFFSET(0x15EEF190)
 #define IECNEMPGKJL_SET_CURRENTMOVESTATE_OFFSET UNITYSDK_OFFSET(0x15EED2B0)
 
+inline static constexpr unsigned int IECNEMPGKJL_TypeDefinitionIndex = 53612;
+
 	class IECNEMPGKJL : public ::System::Object
 	{
 	public:

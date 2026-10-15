@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LoopExecuteTaskListWithInterval; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoopExecuteTaskListWithInterval_TypeDefinitionIndex = 22473;
+
 	class LoopExecuteTaskListWithInterval : public ::RPG::GameCore::LoopExecuteTaskList
 	{
 	public:

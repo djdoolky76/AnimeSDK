@@ -8,6 +8,8 @@ namespace System { class String; }
 #define LMPEOEHEBGK_DGLPEBIKOJF_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C36280)
 #define LMPEOEHEBGK_DGLPEBIKOJF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C3CB90)
 
+inline static constexpr unsigned int LMPEOEHEBGK_DGLPEBIKOJF_TypeDefinitionIndex = 14345;
+
 	struct alignas(4) LMPEOEHEBGK_DGLPEBIKOJF
 	{
 		::RPG::GameCore::ELevelPerformanceType DNGFHOEACBI; // 0x10

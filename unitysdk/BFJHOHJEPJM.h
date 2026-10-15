@@ -7,6 +7,8 @@ namespace RPG::GameCore { class LittleGameLevelVariable; }
 #define BFJHOHJEPJM_ISVALUEEQUALSTO_OFFSET UNITYSDK_OFFSET(0xB16EFB0)
 #define BFJHOHJEPJM_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB16EEF0)
 
+inline static constexpr unsigned int BFJHOHJEPJM_TypeDefinitionIndex = 76500;
+
 	class BFJHOHJEPJM
 	{
 	public:

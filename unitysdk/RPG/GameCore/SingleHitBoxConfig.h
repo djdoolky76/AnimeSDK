@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SingleHitBoxConfig_TypeDefinitionIndex = 20389;
+
 	class SingleHitBoxConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

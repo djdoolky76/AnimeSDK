@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int PointerUIBase___c_TypeDefinitionIndex = 39483;
+
 	class PointerUIBase___c : public ::System::Object
 	{
 	public:

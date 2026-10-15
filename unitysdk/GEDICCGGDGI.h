@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GEDICCGGDGI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4540C0)
 #define GEDICCGGDGI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E454120)
 
+inline static constexpr unsigned int GEDICCGGDGI_TypeDefinitionIndex = 27761;
+
 	class GEDICCGGDGI : public ::System::Object
 	{
 	public:

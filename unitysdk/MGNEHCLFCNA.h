@@ -8,6 +8,8 @@
 #define MGNEHCLFCNA_LEJILCHMJBK_OFFSET UNITYSDK_OFFSET(0xB928F20)
 #define MGNEHCLFCNA__TRIGGERRADIALBLUREFFECT_B__1_0_OFFSET UNITYSDK_OFFSET(0xB9296E0)
 
+inline static constexpr unsigned int MGNEHCLFCNA_TypeDefinitionIndex = 77816;
+
 	class MGNEHCLFCNA : public ::System::Object
 	{
 	public:

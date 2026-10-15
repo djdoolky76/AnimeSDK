@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int NotImplementedException_TypeDefinitionIndex = 304;
+
 	class NotImplementedException : public ::System::SystemException
 	{
 	public:

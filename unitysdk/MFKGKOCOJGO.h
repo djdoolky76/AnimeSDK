@@ -6,6 +6,8 @@ namespace RPG::GameCore { class WolfBroGunPlayPuzzleModifyEnergy; }
 #define MFKGKOCOJGO_CTOR_OFFSET UNITYSDK_OFFSET(0xB905110)
 #define MFKGKOCOJGO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB905140)
 
+inline static constexpr unsigned int MFKGKOCOJGO_TypeDefinitionIndex = 58956;
+
 	class MFKGKOCOJGO
 	{
 	public:

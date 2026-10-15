@@ -15,6 +15,8 @@ namespace UnityEngine::Networking { class UnityWebRequest; }
 #define MCMJPGLJEAD__WWWREQUESTWITHRETRY_D__0_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xB888FB0)
 #define MCMJPGLJEAD__WWWREQUESTWITHRETRY_D__0_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB8887E0)
 
+inline static constexpr unsigned int MCMJPGLJEAD__WWWRequestWithRetry_d__0_TypeDefinitionIndex = 49669;
+
 	class MCMJPGLJEAD__WWWRequestWithRetry_d__0 : public ::System::Object
 	{
 	public:

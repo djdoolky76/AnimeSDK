@@ -12,6 +12,8 @@ namespace System::Text { class Encoding; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int WebUtility_UrlDecoder_TypeDefinitionIndex = 2774;
+
 	class WebUtility_UrlDecoder : public ::System::Object
 	{
 	public:

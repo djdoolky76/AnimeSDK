@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AdventureSkillMaxMPChangeParam_TypeDefinitionIndex = 68127;
+
 	class AdventureSkillMaxMPChangeParam : public ::System::Object
 	{
 	public:

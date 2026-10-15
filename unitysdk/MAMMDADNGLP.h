@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int MAMMDADNGLP_TypeDefinitionIndex = 31501;
+
 	enum class MAMMDADNGLP : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

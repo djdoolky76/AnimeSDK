@@ -17,6 +17,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_HoudiniAssetRoot_TypeDefinitionIndex = 40401;
+
 	class HEU_HoudiniAssetRoot : public ::UnityEngine::MonoBehaviour
 	{
 	public:

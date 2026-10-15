@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FPJBFKCEENA_CTOR_OFFSET UNITYSDK_OFFSET(0x1591AF80)
 #define FPJBFKCEENA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1591B040)
 
+inline static constexpr unsigned int FPJBFKCEENA_TypeDefinitionIndex = 52192;
+
 	class FPJBFKCEENA
 	{
 	public:

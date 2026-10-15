@@ -11,6 +11,8 @@ namespace RPG::Client { class GridFightGridData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGridPandoraEffect_TypeDefinitionIndex = 64834;
+
 	class GridFightGridPandoraEffect : public ::EBMFAGKJIIM
 	{
 	public:

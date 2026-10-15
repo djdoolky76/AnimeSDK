@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__ApplyTransform_TypeDefinitionIndex = 38907;
+
 	class IVRSystem__ApplyTransform : public ::System::MulticastDelegate
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int NoInterpVector3Parameter_TypeDefinitionIndex = 35648;
+
 	class NoInterpVector3Parameter
 	{
 	public:

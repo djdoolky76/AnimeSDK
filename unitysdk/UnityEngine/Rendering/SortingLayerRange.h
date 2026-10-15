@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int SortingLayerRange_TypeDefinitionIndex = 4771;
+
 	struct alignas(4) SortingLayerRange
 	{
 		::System::Int16 m_LowerBound; // 0x10

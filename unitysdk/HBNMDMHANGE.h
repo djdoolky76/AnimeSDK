@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HBNMDMHANGE_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x15C12370)
 #define HBNMDMHANGE_LGOABJACMMG_OFFSET UNITYSDK_OFFSET(0x15C11B60)
 
+inline static constexpr unsigned int HBNMDMHANGE_TypeDefinitionIndex = 48918;
+
 	class HBNMDMHANGE : public ::System::Object
 	{
 	public:

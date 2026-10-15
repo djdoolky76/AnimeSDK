@@ -10,6 +10,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_AnimSpeed_TypeDefinitionIndex = 70430;
+
 	class Effect_AnimSpeed : public ::UnityEngine::MonoBehaviour
 	{
 	public:

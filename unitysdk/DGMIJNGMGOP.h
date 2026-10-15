@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DGMIJNGMGOP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE856730)
 #define DGMIJNGMGOP_TICK_OFFSET UNITYSDK_OFFSET(0xE8567D0)
 
+inline static constexpr unsigned int DGMIJNGMGOP_TypeDefinitionIndex = 52817;
+
 	class DGMIJNGMGOP : public ::GELIALJDFBL
 	{
 	public:

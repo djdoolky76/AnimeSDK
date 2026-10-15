@@ -6,6 +6,8 @@
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int TupInt_TypeDefinitionIndex = 49166;
+
 	class TupInt : public ::System::Object
 	{
 	public:

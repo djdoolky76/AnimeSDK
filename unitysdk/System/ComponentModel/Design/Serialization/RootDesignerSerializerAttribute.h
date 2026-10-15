@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace System::ComponentModel::Design::Serialization
 {
+	inline static constexpr unsigned int RootDesignerSerializerAttribute_TypeDefinitionIndex = 2662;
+
 	class RootDesignerSerializerAttribute : public ::System::Attribute
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::Client::ActivityFinalityBattle::Activity { class FinalityBattleAc
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FinalityBattleActivityPanelData_TypeDefinitionIndex = 61626;
+
 	class FinalityBattleActivityPanelData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

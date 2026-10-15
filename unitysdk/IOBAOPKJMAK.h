@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int IOBAOPKJMAK_TypeDefinitionIndex = 30990;
+
 	enum class IOBAOPKJMAK : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

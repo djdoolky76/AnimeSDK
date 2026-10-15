@@ -32,6 +32,8 @@ namespace System { class String; }
 #define BGLFLONHKCF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA7C050)
 #define BGLFLONHKCF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA7C0B0)
 
+inline static constexpr unsigned int BGLFLONHKCF_TypeDefinitionIndex = 30505;
+
 	class BGLFLONHKCF : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int IgnoreTimeScalePlayerLoopTimer_TypeDefinitionIndex = 38213;
+
 	class IgnoreTimeScalePlayerLoopTimer : public ::Cysharp::Threading::Tasks::PlayerLoopTimer
 	{
 	public:

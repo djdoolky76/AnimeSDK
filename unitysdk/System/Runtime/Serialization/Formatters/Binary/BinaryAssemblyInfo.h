@@ -10,6 +10,8 @@ namespace System::Reflection { class Assembly; }
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int BinaryAssemblyInfo_TypeDefinitionIndex = 1145;
+
 	class BinaryAssemblyInfo : public ::System::Object
 	{
 	public:

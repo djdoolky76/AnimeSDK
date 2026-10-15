@@ -34,6 +34,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int Module_TypeDefinitionIndex = 610;
+
 	class Module : public ::System::Object
 	{
 	public:

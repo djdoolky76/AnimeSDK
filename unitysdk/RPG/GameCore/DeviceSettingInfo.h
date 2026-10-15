@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GameObjectPoolSetting; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DeviceSettingInfo_TypeDefinitionIndex = 16465;
+
 	class DeviceSettingInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

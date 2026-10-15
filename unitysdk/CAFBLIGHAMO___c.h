@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CAFBLIGHAMO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E058930)
 #define CAFBLIGHAMO___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E058940)
 
+inline static constexpr unsigned int CAFBLIGHAMO___c_TypeDefinitionIndex = 34316;
+
 	class CAFBLIGHAMO___c : public ::System::Object
 	{
 	public:

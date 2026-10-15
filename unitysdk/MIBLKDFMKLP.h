@@ -43,6 +43,8 @@ namespace RPG::GameCore { class BaseLittleGameAbilityEffectConfig; }
 #define MIBLKDFMKLP_PLMPBNAEIGN_OFFSET UNITYSDK_OFFSET(0x1D1AF410)
 #define MIBLKDFMKLP_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1D1AF640)
 
+inline static constexpr unsigned int MIBLKDFMKLP_TypeDefinitionIndex = 21336;
+
 	class MIBLKDFMKLP : public ::System::Object
 	{
 	public:

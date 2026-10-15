@@ -22,6 +22,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournUtils___c_TypeDefinitionIndex = 67815;
+
 	class RogueTournUtils___c : public ::System::Object
 	{
 	public:

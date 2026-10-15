@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int A4SkyDomeEffectControlBehavior_SkyDomeControlData_TypeDefinitionIndex = 70872;
+
 	class A4SkyDomeEffectControlBehavior_SkyDomeControlData : public ::System::Object
 	{
 	public:

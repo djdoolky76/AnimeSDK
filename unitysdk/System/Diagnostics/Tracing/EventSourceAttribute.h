@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int EventSourceAttribute_TypeDefinitionIndex = 1692;
+
 	class EventSourceAttribute : public ::System::Attribute
 	{
 	public:

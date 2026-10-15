@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ABTestModel_TypeDefinitionIndex = 7862;
+
 	class ABTestModel : public ::System::Object
 	{
 	public:

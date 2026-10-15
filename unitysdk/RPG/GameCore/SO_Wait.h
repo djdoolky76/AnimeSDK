@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SO_Wait; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SO_Wait_TypeDefinitionIndex = 20059;
+
 	class SO_Wait : public ::RPG::GameCore::SOTaskConfig
 	{
 	public:

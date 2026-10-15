@@ -14,6 +14,8 @@ namespace RPG::GameCore { class SimpleTalkTargetBehavior; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlaySimpleTalk_TypeDefinitionIndex = 20844;
+
 	class PlaySimpleTalk : public ::RPG::GameCore::SimpleTalkListConfig
 	{
 	public:

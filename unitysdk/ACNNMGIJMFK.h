@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define ACNNMGIJMFK_OAKKCNFGIPO_OFFSET UNITYSDK_OFFSET(0xB1295E0)
 #define ACNNMGIJMFK___FILLCONFLICTSTAGEINDICESTO_B__12_1_OFFSET UNITYSDK_OFFSET(0xB129F40)
 
+inline static constexpr unsigned int ACNNMGIJMFK_TypeDefinitionIndex = 81509;
+
 	class ACNNMGIJMFK : public ::System::Object
 	{
 	public:

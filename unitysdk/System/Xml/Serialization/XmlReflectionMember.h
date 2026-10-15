@@ -15,6 +15,8 @@ namespace System::Xml::Serialization { class XmlAttributes; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlReflectionMember_TypeDefinitionIndex = 2020;
+
 	class XmlReflectionMember : public ::System::Object
 	{
 	public:

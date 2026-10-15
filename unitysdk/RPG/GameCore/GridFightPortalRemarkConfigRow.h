@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightPortalRemarkConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightPortalRemarkConfigRow_TypeDefinitionIndex = 13639;
+
 	class GridFightPortalRemarkConfigRow : public ::System::Object
 	{
 	public:

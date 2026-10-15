@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SetupRotatableRegionAirlock; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetupRotatableRegionAirlock_TypeDefinitionIndex = 21250;
+
 	class SetupRotatableRegionAirlock : public ::RPG::GameCore::TaskConfig
 	{
 	public:

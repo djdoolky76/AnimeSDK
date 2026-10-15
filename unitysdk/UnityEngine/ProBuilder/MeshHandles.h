@@ -27,6 +27,8 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int MeshHandles_TypeDefinitionIndex = 44375;
+
 	class MeshHandles : public ::System::Object
 	{
 	public:

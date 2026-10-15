@@ -11,6 +11,8 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenEffectResultData; 
 #define DBBOAKFKCEJ_CTOR_OFFSET UNITYSDK_OFFSET(0xDFD6C40)
 #define DBBOAKFKCEJ_OLMFDADHOMP_OFFSET UNITYSDK_OFFSET(0xDFD6BF0)
 
+inline static constexpr unsigned int DBBOAKFKCEJ_TypeDefinitionIndex = 75481;
+
 	class DBBOAKFKCEJ : public ::LOKFDBENEKJ
 	{
 	public:

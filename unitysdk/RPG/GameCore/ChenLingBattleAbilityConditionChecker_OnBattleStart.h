@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingBattleAbilityConditionChecker_OnBattleSt
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAbilityConditionChecker_OnBattleStart_TypeDefinitionIndex = 15723;
+
 	class ChenLingBattleAbilityConditionChecker_OnBattleStart : public ::RPG::GameCore::BaseChenLingBattleAbilityConditionChecker
 	{
 	public:

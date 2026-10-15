@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DicePointSameW
 #define GHOIHIGABEP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C63EED0)
 #define GHOIHIGABEP_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C63EEE0)
 
+inline static constexpr unsigned int GHOIHIGABEP_TypeDefinitionIndex = 36217;
+
 	class GHOIHIGABEP : public ::PNECKGBKMEL
 	{
 	public:

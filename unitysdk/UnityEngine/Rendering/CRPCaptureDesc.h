@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CRPCaptureDesc_TypeDefinitionIndex = 4832;
+
 	struct alignas(4) CRPCaptureDesc
 	{
 		::System::Int32 count; // 0x10

@@ -7,6 +7,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int HableCurve_Segment_TypeDefinitionIndex = 35601;
+
 	class HableCurve_Segment : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EKHJPMKEGEO_GICABFLDIPA_OFFSET UNITYSDK_OFFSET(0x15505DF0)
 #define EKHJPMKEGEO_OAGDIHGBBOI_OFFSET UNITYSDK_OFFSET(0x15505D40)
 
+inline static constexpr unsigned int EKHJPMKEGEO_TypeDefinitionIndex = 77474;
+
 	class EKHJPMKEGEO : public ::LDCOFDFFPBD
 	{
 	public:

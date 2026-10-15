@@ -27,6 +27,8 @@ namespace System { class String; }
 #define OLENIPLHIPI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEA5B70)
 #define OLENIPLHIPI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEA5BD0)
 
+inline static constexpr unsigned int OLENIPLHIPI_TypeDefinitionIndex = 31832;
+
 	class OLENIPLHIPI : public ::System::Object
 	{
 	public:

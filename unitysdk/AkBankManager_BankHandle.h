@@ -14,6 +14,8 @@ namespace System { class String; }
 #define AKBANKMANAGER_BANKHANDLE_SET_REFCOUNT_OFFSET UNITYSDK_OFFSET(0x1F57C1E0)
 #define AKBANKMANAGER_BANKHANDLE_UNLOADBANK_OFFSET UNITYSDK_OFFSET(0x1F57C320)
 
+inline static constexpr unsigned int AkBankManager_BankHandle_TypeDefinitionIndex = 44817;
+
 	class AkBankManager_BankHandle : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int AssemblyDelaySignAttribute_TypeDefinitionIndex = 551;
+
 	class AssemblyDelaySignAttribute : public ::System::Attribute
 	{
 	public:

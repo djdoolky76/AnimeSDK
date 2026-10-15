@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MarbleRemoveSkill; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleRemoveSkill_TypeDefinitionIndex = 16863;
+
 	class MarbleRemoveSkill : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

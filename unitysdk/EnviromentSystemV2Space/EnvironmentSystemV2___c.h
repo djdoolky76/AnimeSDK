@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int EnvironmentSystemV2___c_TypeDefinitionIndex = 49471;
+
 	class EnvironmentSystemV2___c : public ::System::Object
 	{
 	public:

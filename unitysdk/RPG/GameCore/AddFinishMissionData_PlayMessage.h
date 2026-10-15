@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AddFinishMissionData_PlayMessage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddFinishMissionData_PlayMessage_TypeDefinitionIndex = 21937;
+
 	class AddFinishMissionData_PlayMessage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

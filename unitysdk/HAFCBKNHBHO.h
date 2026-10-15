@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HAFCBKNHBHO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE7DAD0)
 #define HAFCBKNHBHO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE7D3F0)
 
+inline static constexpr unsigned int HAFCBKNHBHO_TypeDefinitionIndex = 12679;
+
 	class HAFCBKNHBHO : public ::System::Object
 	{
 	public:

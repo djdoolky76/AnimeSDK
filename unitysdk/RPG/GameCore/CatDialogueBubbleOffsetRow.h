@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CatDialogueBubbleOffsetRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CatDialogueBubbleOffsetRow_TypeDefinitionIndex = 12940;
+
 	class CatDialogueBubbleOffsetRow : public ::System::Object
 	{
 	public:

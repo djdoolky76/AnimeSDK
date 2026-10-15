@@ -25,6 +25,8 @@ namespace System { class String; }
 #define KHJMLKBLAMP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E845340)
 #define KHJMLKBLAMP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8453A0)
 
+inline static constexpr unsigned int KHJMLKBLAMP_TypeDefinitionIndex = 33848;
+
 	class KHJMLKBLAMP : public ::System::Object
 	{
 	public:

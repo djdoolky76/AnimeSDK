@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client::CityCarFlow
 {
+	inline static constexpr unsigned int MonoCityCarEmitter_TypeDefinitionIndex = 82225;
+
 	class MonoCityCarEmitter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

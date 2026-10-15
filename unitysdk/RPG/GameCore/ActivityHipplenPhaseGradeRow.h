@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityHipplenPhaseGradeRow_TypeDefinitionIndex = 11635;
+
 	class ActivityHipplenPhaseGradeRow : public ::System::Object
 	{
 	public:

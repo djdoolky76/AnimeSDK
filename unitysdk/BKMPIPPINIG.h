@@ -12,6 +12,8 @@ namespace System { class String; }
 #define BKMPIPPINIG_GET_TRACEID_OFFSET UNITYSDK_OFFSET(0xBA60BF0)
 #define BKMPIPPINIG_NEFFGHJDILF_OFFSET UNITYSDK_OFFSET(0xBA60BB0)
 
+inline static constexpr unsigned int BKMPIPPINIG_TypeDefinitionIndex = 59314;
+
 	class BKMPIPPINIG : public ::FPNCAGDDHPO
 	{
 	public:

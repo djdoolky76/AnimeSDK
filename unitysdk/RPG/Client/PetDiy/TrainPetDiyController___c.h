@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client::PetDiy
 {
+	inline static constexpr unsigned int TrainPetDiyController___c_TypeDefinitionIndex = 74490;
+
 	class TrainPetDiyController___c : public ::System::Object
 	{
 	public:

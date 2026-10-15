@@ -12,6 +12,8 @@ namespace UnityEngine::Rendering { class IntParameter; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGMotionBlur_TypeDefinitionIndex = 37832;
+
 	class RPGMotionBlur : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:

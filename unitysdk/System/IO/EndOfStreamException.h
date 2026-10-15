@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int EndOfStreamException_TypeDefinitionIndex = 668;
+
 	class EndOfStreamException : public ::System::IO::IOException
 	{
 	public:

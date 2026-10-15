@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define OECNOHOLGPP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5780C0)
 #define OECNOHOLGPP___C__LIFTMANY_B__39_0_OFFSET UNITYSDK_OFFSET(0x1C5780D0)
 
+inline static constexpr unsigned int OECNOHOLGPP___c_TypeDefinitionIndex = 41794;
+
 	class OECNOHOLGPP___c : public ::System::Object
 	{
 	public:

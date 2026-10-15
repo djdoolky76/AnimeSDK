@@ -37,6 +37,8 @@ namespace System { class String; }
 #define AAMPBNNKEOK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDC0B90)
 #define AAMPBNNKEOK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDC0BF0)
 
+inline static constexpr unsigned int AAMPBNNKEOK_TypeDefinitionIndex = 30208;
+
 	class AAMPBNNKEOK : public ::System::Object
 	{
 	public:

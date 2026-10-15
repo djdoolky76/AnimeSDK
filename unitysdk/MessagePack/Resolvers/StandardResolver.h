@@ -10,6 +10,8 @@ namespace MessagePack::Resolvers { class StandardResolver; }
 
 namespace MessagePack::Resolvers
 {
+	inline static constexpr unsigned int StandardResolver_TypeDefinitionIndex = 7275;
+
 	class StandardResolver : public ::System::Object
 	{
 	public:

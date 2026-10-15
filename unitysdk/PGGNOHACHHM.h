@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_IsPVE; }
 #define PGGNOHACHHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7ECCF0)
 #define PGGNOHACHHM_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C7ECD10)
 
+inline static constexpr unsigned int PGGNOHACHHM_TypeDefinitionIndex = 36351;
+
 	class PGGNOHACHHM : public ::HHOHBHGLHHF
 	{
 	public:

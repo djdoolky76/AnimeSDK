@@ -30,6 +30,8 @@ namespace System { class String; }
 #define IDBCDHIOKEG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E627F90)
 #define IDBCDHIOKEG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E627FF0)
 
+inline static constexpr unsigned int IDBCDHIOKEG_TypeDefinitionIndex = 34728;
+
 	class IDBCDHIOKEG : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define DCBGEFJPNEB___C___ONRESUMEIMPLEMENT_B__7_0_OFFSET UNITYSDK_OFFSET(0x1EC684C0)
 #define DCBGEFJPNEB___C___ONSTOPREQUESTED_B__4_0_OFFSET UNITYSDK_OFFSET(0x1EC68280)
 
+inline static constexpr unsigned int DCBGEFJPNEB___c_TypeDefinitionIndex = 44198;
+
 	class DCBGEFJPNEB___c : public ::System::Object
 	{
 	public:

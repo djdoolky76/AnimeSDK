@@ -14,6 +14,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPGTools::HoudiniToUnity
 {
+	inline static constexpr unsigned int CurveAttribute___c_TypeDefinitionIndex = 46934;
+
 	class CurveAttribute___c : public ::System::Object
 	{
 	public:

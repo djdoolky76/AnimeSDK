@@ -10,6 +10,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define LIICPMNHBPP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB6D30D0)
 #define LIICPMNHBPP___C___GETORCREATEHIGHSCORERELICDATASBYRELICTYPE_B__13_0_OFFSET UNITYSDK_OFFSET(0xB6D30E0)
 
+inline static constexpr unsigned int LIICPMNHBPP___c_TypeDefinitionIndex = 66899;
+
 	class LIICPMNHBPP___c : public ::System::Object
 	{
 	public:

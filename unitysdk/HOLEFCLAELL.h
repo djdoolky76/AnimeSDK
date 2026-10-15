@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HOLEFCLAELL_CTOR_OFFSET UNITYSDK_OFFSET(0x15DB99F0)
 #define HOLEFCLAELL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15DB9A20)
 
+inline static constexpr unsigned int HOLEFCLAELL_TypeDefinitionIndex = 54494;
+
 	class HOLEFCLAELL
 	{
 	public:

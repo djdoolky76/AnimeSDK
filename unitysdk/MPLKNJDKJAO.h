@@ -9,6 +9,8 @@ namespace System { class String; }
 #define MPLKNJDKJAO_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0xBA41680)
 #define MPLKNJDKJAO_IGBFHCJEHNK_OFFSET UNITYSDK_OFFSET(0xBA41720)
 
+inline static constexpr unsigned int MPLKNJDKJAO_TypeDefinitionIndex = 73294;
+
 	class MPLKNJDKJAO : public ::System::Object
 	{
 	public:

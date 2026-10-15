@@ -8,6 +8,8 @@ namespace RPG::Client { class HeliobusSNSAccountBeforeData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HeliobusSNSAccountBeforeData_TypeDefinitionIndex = 65670;
+
 	class HeliobusSNSAccountBeforeData : public ::System::Object
 	{
 	public:

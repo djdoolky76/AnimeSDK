@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCurrentTurnState_TypeDefinitionIndex = 23542;
+
 	class ByCurrentTurnState : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

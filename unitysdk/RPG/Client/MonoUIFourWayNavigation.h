@@ -8,6 +8,8 @@ namespace UnityEngine::EventSystems { class AxisEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoUIFourWayNavigation_TypeDefinitionIndex = 68978;
+
 	class MonoUIFourWayNavigation : public ::UnityEngine::MonoBehaviour
 	{
 	public:

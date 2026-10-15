@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightShowBattleEventHint_TypeDefinitionIndex = 23232;
+
 	class GridFightShowBattleEventHint : public ::RPG::GameCore::TaskConfig
 	{
 	public:

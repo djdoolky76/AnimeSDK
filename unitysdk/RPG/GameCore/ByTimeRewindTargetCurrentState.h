@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByTimeRewindTargetCurrentState_TypeDefinitionIndex = 20671;
+
 	class ByTimeRewindTargetCurrentState : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

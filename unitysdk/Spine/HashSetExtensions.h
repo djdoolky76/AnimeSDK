@@ -4,6 +4,8 @@
 
 namespace Spine
 {
+	inline static constexpr unsigned int HashSetExtensions_TypeDefinitionIndex = 39637;
+
 	class HashSetExtensions : public ::System::Object
 	{
 	public:

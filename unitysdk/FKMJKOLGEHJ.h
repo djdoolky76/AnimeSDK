@@ -7,6 +7,8 @@ namespace RPG::Client::PixAir { class PixAirEquipInfoViewModel; }
 #define FKMJKOLGEHJ_GET_EQUIPINFOVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x15810BC0)
 #define FKMJKOLGEHJ_SET_EQUIPINFOVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x15810BD0)
 
+inline static constexpr unsigned int FKMJKOLGEHJ_TypeDefinitionIndex = 79203;
+
 	class FKMJKOLGEHJ : public ::System::Object
 	{
 	public:

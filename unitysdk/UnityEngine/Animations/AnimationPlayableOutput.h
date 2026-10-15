@@ -19,6 +19,8 @@ namespace UnityEngine { class Animator; }
 
 namespace UnityEngine::Animations
 {
+	inline static constexpr unsigned int AnimationPlayableOutput_TypeDefinitionIndex = 5755;
+
 	struct alignas(4) AnimationPlayableOutput
 	{
 		::UnityEngine::Playables::PlayableOutputHandle m_Handle; // 0x10

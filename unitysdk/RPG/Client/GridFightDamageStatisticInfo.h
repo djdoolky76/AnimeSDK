@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightDamageStatisticInfo_TypeDefinitionIndex = 64414;
+
 	class GridFightDamageStatisticInfo : public ::System::Object
 	{
 	public:

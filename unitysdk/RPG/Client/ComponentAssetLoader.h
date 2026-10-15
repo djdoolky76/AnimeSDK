@@ -30,6 +30,8 @@ namespace UnityEngine { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ComponentAssetLoader_TypeDefinitionIndex = 68387;
+
 	class ComponentAssetLoader : public ::RPG::Client::ComponentAssetLoaderBase
 	{
 	public:

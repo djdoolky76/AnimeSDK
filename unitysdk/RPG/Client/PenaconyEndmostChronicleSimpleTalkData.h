@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PenaconyEndmostChronicleSimpleTalkData_TypeDefinitionIndex = 66106;
+
 	class PenaconyEndmostChronicleSimpleTalkData : public ::System::Object
 	{
 	public:

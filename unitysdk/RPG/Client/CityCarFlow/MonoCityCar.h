@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::CityCarFlow
 {
+	inline static constexpr unsigned int MonoCityCar_TypeDefinitionIndex = 82218;
+
 	class MonoCityCar : public ::UnityEngine::MonoBehaviour
 	{
 	public:

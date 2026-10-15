@@ -13,6 +13,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEnemyDifficultyLvConfig_TypeDefinitionIndex = 64509;
+
 	class GridFightEnemyDifficultyLvConfig : public ::System::Object
 	{
 	public:

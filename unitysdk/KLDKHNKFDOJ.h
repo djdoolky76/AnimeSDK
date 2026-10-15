@@ -12,6 +12,8 @@ namespace System { class String; }
 #define KLDKHNKFDOJ_SET_ICON_OFFSET UNITYSDK_OFFSET(0xB4EE5E0)
 #define KLDKHNKFDOJ_SET_NAME_OFFSET UNITYSDK_OFFSET(0xB4EE5C0)
 
+inline static constexpr unsigned int KLDKHNKFDOJ_TypeDefinitionIndex = 73429;
+
 	class KLDKHNKFDOJ : public ::System::Object
 	{
 	public:

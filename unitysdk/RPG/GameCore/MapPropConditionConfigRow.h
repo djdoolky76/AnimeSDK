@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MapPropConditionConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MapPropConditionConfigRow_TypeDefinitionIndex = 12576;
+
 	class MapPropConditionConfigRow : public ::System::Object
 	{
 	public:

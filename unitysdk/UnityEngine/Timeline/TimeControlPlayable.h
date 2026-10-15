@@ -17,6 +17,8 @@ namespace UnityEngine::Timeline { class TimeControlPlayable; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int TimeControlPlayable_TypeDefinitionIndex = 38850;
+
 	class TimeControlPlayable : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

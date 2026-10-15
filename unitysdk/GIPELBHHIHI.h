@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GIPELBHHIHI_PMLPLNJMFMO_OFFSET UNITYSDK_OFFSET(0x15A4DCE0)
 #define GIPELBHHIHI_PNDJIKIALNG_OFFSET UNITYSDK_OFFSET(0x15A4F400)
 
+inline static constexpr unsigned int GIPELBHHIHI_TypeDefinitionIndex = 60627;
+
 	class GIPELBHHIHI : public ::NPEBLEKDAGI
 	{
 	public:

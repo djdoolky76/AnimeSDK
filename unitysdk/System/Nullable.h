@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace System
 {
+	inline static constexpr unsigned int Nullable_TypeDefinitionIndex = 412;
+
 	class Nullable : public ::System::Object
 	{
 	public:

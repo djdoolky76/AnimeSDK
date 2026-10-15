@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RedirectActionDelayChange_TypeDefinitionIndex = 23273;
+
 	class RedirectActionDelayChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:

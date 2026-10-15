@@ -9,6 +9,8 @@ namespace System { class Action; }
 #define BCJKLJAAPOM_LJFBNBDBFMG_OFFSET UNITYSDK_OFFSET(0x15EABCA0)
 #define BCJKLJAAPOM_OCJGEGMPLIC_OFFSET UNITYSDK_OFFSET(0x15EABB00)
 
+inline static constexpr unsigned int BCJKLJAAPOM_TypeDefinitionIndex = 68260;
+
 	class BCJKLJAAPOM : public ::System::Object
 	{
 	public:

@@ -41,6 +41,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageHarmonySignalDemodulatorBehavior_TypeDefinitionIndex = 70988;
+
 	class StageHarmonySignalDemodulatorBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

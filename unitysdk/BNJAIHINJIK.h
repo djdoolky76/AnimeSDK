@@ -40,6 +40,8 @@ namespace System { class String; }
 #define BNJAIHINJIK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E034C90)
 #define BNJAIHINJIK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E034CF0)
 
+inline static constexpr unsigned int BNJAIHINJIK_TypeDefinitionIndex = 29835;
+
 	class BNJAIHINJIK : public ::System::Object
 	{
 	public:

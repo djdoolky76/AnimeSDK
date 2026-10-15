@@ -11,6 +11,8 @@ namespace System { template <typename T> class Func_1; }
 #define ODGEOHLNBIP_GET__ISDISPOSED_OFFSET UNITYSDK_OFFSET(0xBD92E30)
 #define ODGEOHLNBIP_SET__ISDISPOSED_OFFSET UNITYSDK_OFFSET(0xBD92E40)
 
+inline static constexpr unsigned int ODGEOHLNBIP_TypeDefinitionIndex = 67502;
+
 	class ODGEOHLNBIP : public ::System::Object
 	{
 	public:

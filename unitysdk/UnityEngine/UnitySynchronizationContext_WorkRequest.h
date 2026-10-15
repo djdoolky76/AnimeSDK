@@ -9,6 +9,8 @@ namespace System::Threading { class SendOrPostCallback; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int UnitySynchronizationContext_WorkRequest_TypeDefinitionIndex = 4365;
+
 	struct alignas(8) UnitySynchronizationContext_WorkRequest
 	{
 		::System::Threading::SendOrPostCallback* m_DelagateCallback; // 0x10

@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MHYSDKC_CrashInfo_TypeDefinitionIndex = 46222;
+
 	class MHYSDKC_CrashInfo : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client::FateRin::Card { class IFateRinSystemCardViewModel; }
 #define EIBDNNIIBBE_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x154BBB20)
 #define EIBDNNIIBBE_CTOR_OFFSET UNITYSDK_OFFSET(0x154BBB10)
 
+inline static constexpr unsigned int EIBDNNIIBBE_TypeDefinitionIndex = 81158;
+
 	class EIBDNNIIBBE : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Net { class CookieCollection; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int CookieCollection_CookieCollectionEnumerator_TypeDefinitionIndex = 2802;
+
 	class CookieCollection_CookieCollectionEnumerator : public ::System::Object
 	{
 	public:

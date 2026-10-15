@@ -10,6 +10,8 @@ namespace System { class String; }
 #define PNMAFFNLEGB_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xC34D8E0)
 #define PNMAFFNLEGB_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xC34D8F0)
 
+inline static constexpr unsigned int PNMAFFNLEGB_TypeDefinitionIndex = 56126;
+
 	class PNMAFFNLEGB : public ::DBGDNLLDPFI
 	{
 	public:

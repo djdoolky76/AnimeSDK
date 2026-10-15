@@ -5,6 +5,8 @@
 
 #define NMPIOOFKEJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C973530)
 
+inline static constexpr unsigned int NMPIOOFKEJP_TypeDefinitionIndex = 42458;
+
 	class NMPIOOFKEJP : public ::System::Object
 	{
 	public:

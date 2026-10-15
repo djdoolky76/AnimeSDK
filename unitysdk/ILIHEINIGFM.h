@@ -9,6 +9,8 @@ namespace System { class String; }
 #define ILIHEINIGFM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF210D0)
 #define ILIHEINIGFM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF20DC0)
 
+inline static constexpr unsigned int ILIHEINIGFM_TypeDefinitionIndex = 11256;
+
 	class ILIHEINIGFM : public ::System::Object
 	{
 	public:

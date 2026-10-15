@@ -38,6 +38,8 @@ namespace System { class String; }
 #define NDMGIMOOFBL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAEC590)
 #define NDMGIMOOFBL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAEC5F0)
 
+inline static constexpr unsigned int NDMGIMOOFBL_TypeDefinitionIndex = 29996;
+
 	class NDMGIMOOFBL : public ::System::Object
 	{
 	public:

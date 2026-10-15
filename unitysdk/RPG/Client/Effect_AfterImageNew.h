@@ -40,6 +40,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_AfterImageNew_TypeDefinitionIndex = 70427;
+
 	class Effect_AfterImageNew : public ::UnityEngine::MonoBehaviour
 	{
 	public:

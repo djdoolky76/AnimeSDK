@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionFocusSelector_MissionMatchPredicate_TypeDefinitionIndex = 66162;
+
 	class MissionFocusSelector_MissionMatchPredicate : public ::System::MulticastDelegate
 	{
 	public:

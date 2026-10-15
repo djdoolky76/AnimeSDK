@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::HttpDns
 {
+	inline static constexpr unsigned int HoYoSDKHttpWebResponse___c__DisplayClass7_0_TypeDefinitionIndex = 46701;
+
 	class HoYoSDKHttpWebResponse___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

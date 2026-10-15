@@ -7,6 +7,8 @@ class AkVertex;
 #define AKVERTEXARRAY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F61ABB0)
 #define AKVERTEXARRAY_GET_STRUCTURESIZE_OFFSET UNITYSDK_OFFSET(0x1F61ABF0)
 
+inline static constexpr unsigned int AkVertexArray_TypeDefinitionIndex = 44856;
+
 	class AkVertexArray
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int Dropdown_OptionDataList_TypeDefinitionIndex = 6710;
+
 	class Dropdown_OptionDataList : public ::System::Object
 	{
 	public:

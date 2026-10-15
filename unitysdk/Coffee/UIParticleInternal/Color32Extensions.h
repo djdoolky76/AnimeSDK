@@ -13,6 +13,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace Coffee::UIParticleInternal
 {
+	inline static constexpr unsigned int Color32Extensions_TypeDefinitionIndex = 45122;
+
 	class Color32Extensions : public ::System::Object
 	{
 	public:

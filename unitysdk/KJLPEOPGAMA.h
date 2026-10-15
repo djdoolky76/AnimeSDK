@@ -25,6 +25,8 @@ namespace System { class String; }
 #define KJLPEOPGAMA_KONHBGNLAOM_OFFSET UNITYSDK_OFFSET(0xB45B410)
 #define KJLPEOPGAMA_MEDOGMGMEME_OFFSET UNITYSDK_OFFSET(0xB45BA10)
 
+inline static constexpr unsigned int KJLPEOPGAMA_TypeDefinitionIndex = 71470;
+
 	class KJLPEOPGAMA : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPG::GameCore::Match3 { class Match3BirdSkillConfig; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int Match3BirdSkillConfig_TypeDefinitionIndex = 24937;
+
 	class Match3BirdSkillConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

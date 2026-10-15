@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SwitchHandShowPuzzleFinishToast; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchHandShowPuzzleFinishToast_TypeDefinitionIndex = 20969;
+
 	class SwitchHandShowPuzzleFinishToast : public ::RPG::GameCore::TaskConfig
 	{
 	public:

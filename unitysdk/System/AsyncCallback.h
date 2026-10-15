@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace System
 {
+	inline static constexpr unsigned int AsyncCallback_TypeDefinitionIndex = 199;
+
 	class AsyncCallback : public ::System::MulticastDelegate
 	{
 	public:

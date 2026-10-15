@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define OPMNMIEBEKI_NODPBIKOJCF_OFFSET UNITYSDK_OFFSET(0xBFB3FC0)
 #define OPMNMIEBEKI__SELECTENTITYIDS_B__4_2_OFFSET UNITYSDK_OFFSET(0xBFB4450)
 
+inline static constexpr unsigned int OPMNMIEBEKI_TypeDefinitionIndex = 77644;
+
 	class OPMNMIEBEKI : public ::OCFMCBFNLND
 	{
 	public:

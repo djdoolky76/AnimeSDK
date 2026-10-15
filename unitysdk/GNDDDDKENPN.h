@@ -116,6 +116,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 #define GNDDDDKENPN_PLEIMJKDKHJ_OFFSET UNITYSDK_OFFSET(0x1EBF1B40)
 #define GNDDDDKENPN_PNLMANBEMLK_OFFSET UNITYSDK_OFFSET(0x1EBF5AC0)
 
+inline static constexpr unsigned int GNDDDDKENPN_TypeDefinitionIndex = 35306;
+
 	class GNDDDDKENPN : public ::System::Object
 	{
 	public:

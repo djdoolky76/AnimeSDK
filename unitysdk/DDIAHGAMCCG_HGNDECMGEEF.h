@@ -5,6 +5,8 @@
 
 #define DDIAHGAMCCG_HGNDECMGEEF_CTOR_OFFSET UNITYSDK_OFFSET(0xF56A0)
 
+inline static constexpr unsigned int DDIAHGAMCCG_HGNDECMGEEF_TypeDefinitionIndex = 68671;
+
 	struct alignas(4) DDIAHGAMCCG_HGNDECMGEEF
 	{
 		::UnityEngine::Vector3 BBFOLEOPPPL; // 0x10

@@ -17,6 +17,8 @@ namespace System { class String; }
 #define KGDLECIAMIL_SAMPLE_OFFSET UNITYSDK_OFFSET(0xB3DD7C0)
 #define KGDLECIAMIL_SET_OWNERFMSYSTEM_OFFSET UNITYSDK_OFFSET(0xB3DD5E0)
 
+inline static constexpr unsigned int KGDLECIAMIL_TypeDefinitionIndex = 60897;
+
 	class KGDLECIAMIL : public ::System::Object
 	{
 	public:

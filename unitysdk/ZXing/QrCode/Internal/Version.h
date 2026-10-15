@@ -19,6 +19,8 @@ namespace ZXing::QrCode::Internal { class Version_ECBlocks; }
 
 namespace ZXing::QrCode::Internal
 {
+	inline static constexpr unsigned int Version_TypeDefinitionIndex = 6993;
+
 	class Version : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AIIGHJEIGHE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E27D8A0)
 #define AIIGHJEIGHE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E27D8B0)
 
+inline static constexpr unsigned int AIIGHJEIGHE___c_TypeDefinitionIndex = 25186;
+
 	class AIIGHJEIGHE___c : public ::System::Object
 	{
 	public:

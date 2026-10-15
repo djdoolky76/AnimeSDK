@@ -34,6 +34,8 @@ namespace UnityEngine { class Transform; }
 #define OMIOIONOFFD_ODGLEFLLDPI_OFFSET UNITYSDK_OFFSET(0xBF2ED90)
 #define OMIOIONOFFD__ONBIND_OFFSET UNITYSDK_OFFSET(0xBF2D0E0)
 
+inline static constexpr unsigned int OMIOIONOFFD_TypeDefinitionIndex = 71888;
+
 	class OMIOIONOFFD : public ::FMPCODLIOLG
 	{
 	public:

@@ -46,6 +46,8 @@ namespace System { class Type; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_SessionData_TypeDefinitionIndex = 40585;
+
 	class HEU_SessionData : public ::System::Object
 	{
 	public:

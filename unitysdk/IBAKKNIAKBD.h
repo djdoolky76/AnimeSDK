@@ -35,6 +35,8 @@ namespace UnityEngine { class Camera; }
 #define IBAKKNIAKBD_PFOBLHKDOON_OFFSET UNITYSDK_OFFSET(0x15E27FD0)
 #define IBAKKNIAKBD_TICK_OFFSET UNITYSDK_OFFSET(0x15E27960)
 
+inline static constexpr unsigned int IBAKKNIAKBD_TypeDefinitionIndex = 60953;
+
 	class IBAKKNIAKBD : public ::System::Object
 	{
 	public:

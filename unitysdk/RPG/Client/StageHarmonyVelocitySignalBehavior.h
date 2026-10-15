@@ -30,6 +30,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageHarmonyVelocitySignalBehavior_TypeDefinitionIndex = 71004;
+
 	class StageHarmonyVelocitySignalBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define HEEGFPMGDNP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CABDF90)
 
+inline static constexpr unsigned int HEEGFPMGDNP_TypeDefinitionIndex = 42109;
+
 	class HEEGFPMGDNP : public ::System::Object
 	{
 	public:

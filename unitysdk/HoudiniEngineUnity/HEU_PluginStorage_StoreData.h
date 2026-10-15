@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_PluginStorage_StoreData_TypeDefinitionIndex = 40442;
+
 	class HEU_PluginStorage_StoreData : public ::System::Object
 	{
 	public:

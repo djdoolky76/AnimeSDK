@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightOrbManager___c__DisplayClass34_0_TypeDefinitionIndex = 64466;
+
 	class GridFightOrbManager___c__DisplayClass34_0 : public ::System::Object
 	{
 	public:

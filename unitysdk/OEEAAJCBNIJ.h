@@ -20,6 +20,8 @@ namespace System { class Object; }
 #define OEEAAJCBNIJ_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1D25C810)
 #define OEEAAJCBNIJ_NKAOCFDEMFF_OFFSET UNITYSDK_OFFSET(0x3C3D730)
 
+inline static constexpr unsigned int OEEAAJCBNIJ_TypeDefinitionIndex = 10656;
+
 	struct alignas(8) OEEAAJCBNIJ
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

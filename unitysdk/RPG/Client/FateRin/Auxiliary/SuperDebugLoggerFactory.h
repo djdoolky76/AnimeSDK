@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::FateRin::Auxiliary
 {
+	inline static constexpr unsigned int SuperDebugLoggerFactory_TypeDefinitionIndex = 81062;
+
 	class SuperDebugLoggerFactory : public ::System::Object
 	{
 	public:

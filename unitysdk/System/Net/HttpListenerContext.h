@@ -23,6 +23,8 @@ namespace System::Security::Principal { class IPrincipal; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int HttpListenerContext_TypeDefinitionIndex = 2851;
+
 	class HttpListenerContext : public ::System::Object
 	{
 	public:

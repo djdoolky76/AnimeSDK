@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CommonSkillPoolList; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CommonSkillPoolList_TypeDefinitionIndex = 18151;
+
 	class CommonSkillPoolList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

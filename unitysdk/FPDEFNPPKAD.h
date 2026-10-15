@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TravelShipHideDockMapIcon; }
 #define FPDEFNPPKAD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15910B00)
 #define FPDEFNPPKAD_TICK_OFFSET UNITYSDK_OFFSET(0x15910730)
 
+inline static constexpr unsigned int FPDEFNPPKAD_TypeDefinitionIndex = 53436;
+
 	class FPDEFNPPKAD : public ::GELIALJDFBL
 	{
 	public:

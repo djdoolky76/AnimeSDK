@@ -8,6 +8,8 @@ namespace RPG::Client { class AdventureAudioManager; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AdventureAudioManager___c__DisplayClass90_0_TypeDefinitionIndex = 60489;
+
 	class AdventureAudioManager___c__DisplayClass90_0 : public ::System::Object
 	{
 	public:

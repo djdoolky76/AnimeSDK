@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int PointFollower_TypeDefinitionIndex = 45018;
+
 	class PointFollower : public ::UnityEngine::MonoBehaviour
 	{
 	public:

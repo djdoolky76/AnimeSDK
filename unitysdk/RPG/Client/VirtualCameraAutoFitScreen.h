@@ -15,6 +15,8 @@ namespace Cinemachine { class CinemachineVirtualCamera; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VirtualCameraAutoFitScreen_TypeDefinitionIndex = 68322;
+
 	class VirtualCameraAutoFitScreen : public ::UnityEngine::MonoBehaviour
 	{
 	public:

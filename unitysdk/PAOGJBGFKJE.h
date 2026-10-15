@@ -28,6 +28,8 @@ namespace System { class String; }
 #define PAOGJBGFKJE_PCLBANCLFJG_OFFSET UNITYSDK_OFFSET(0xBFD9710)
 #define PAOGJBGFKJE_SET_CURRENTPINBALLPLATESTATE_OFFSET UNITYSDK_OFFSET(0xBFDA0A0)
 
+inline static constexpr unsigned int PAOGJBGFKJE_TypeDefinitionIndex = 78763;
+
 	class PAOGJBGFKJE : public ::EFLAJBMKAAH
 	{
 	public:

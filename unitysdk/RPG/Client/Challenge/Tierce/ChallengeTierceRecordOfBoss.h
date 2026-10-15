@@ -8,6 +8,8 @@
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceRecordOfBoss_TypeDefinitionIndex = 81469;
+
 	class ChallengeTierceRecordOfBoss : public ::RPG::Client::Challenge::Tierce::ChallengeTierceRecordBase
 	{
 	public:

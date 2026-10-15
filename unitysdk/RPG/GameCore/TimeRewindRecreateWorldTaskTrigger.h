@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TimeRewindRecreateWorldTaskTrigger; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimeRewindRecreateWorldTaskTrigger_TypeDefinitionIndex = 20665;
+
 	class TimeRewindRecreateWorldTaskTrigger : public ::RPG::GameCore::JsonConfig
 	{
 	public:

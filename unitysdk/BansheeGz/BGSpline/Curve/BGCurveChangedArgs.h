@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGCurveChangedArgs_TypeDefinitionIndex = 36006;
+
 	class BGCurveChangedArgs : public ::System::EventArgs
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define HKNFNDOKEDF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C667990)
 
+inline static constexpr unsigned int HKNFNDOKEDF_TypeDefinitionIndex = 36567;
+
 	class HKNFNDOKEDF : public ::RPG::LittleGameShare::HoyoPhysics::PhysicsCollider2DConfig
 	{
 	public:

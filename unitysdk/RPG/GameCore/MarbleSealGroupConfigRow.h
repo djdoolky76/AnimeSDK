@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MarbleSealGroupConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleSealGroupConfigRow_TypeDefinitionIndex = 11861;
+
 	class MarbleSealGroupConfigRow : public ::System::Object
 	{
 	public:

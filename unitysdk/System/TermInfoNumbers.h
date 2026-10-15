@@ -3,6 +3,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int TermInfoNumbers_TypeDefinitionIndex = 431;
+
 	enum class TermInfoNumbers : ::System::Int32
 	{
 		Columns = 0,

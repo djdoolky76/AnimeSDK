@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OCGAELCDMOE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE12CB0)
 #define OCGAELCDMOE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE12D10)
 
+inline static constexpr unsigned int OCGAELCDMOE_TypeDefinitionIndex = 32483;
+
 	class OCGAELCDMOE : public ::System::Object
 	{
 	public:

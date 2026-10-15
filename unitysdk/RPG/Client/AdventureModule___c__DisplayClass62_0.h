@@ -8,6 +8,8 @@ class NGIPBCJPFPG;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AdventureModule___c__DisplayClass62_0_TypeDefinitionIndex = 62013;
+
 	class AdventureModule___c__DisplayClass62_0 : public ::System::Object
 	{
 	public:

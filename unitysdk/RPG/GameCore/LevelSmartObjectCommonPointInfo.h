@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LevelSmartObjectCommonPointInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelSmartObjectCommonPointInfo_TypeDefinitionIndex = 17371;
+
 	class LevelSmartObjectCommonPointInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

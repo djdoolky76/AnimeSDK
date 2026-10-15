@@ -39,6 +39,8 @@ namespace RPG::GameCore { class LittleGameEvent; }
 #define LDODNIJEDOA__GET__ONPLAYERUPDATEINPUTCLOSURE_B__16_0_OFFSET UNITYSDK_OFFSET(0xB641C60)
 #define LDODNIJEDOA__GET__ONPLAYERUSESKILLCLOSURE_B__20_0_OFFSET UNITYSDK_OFFSET(0xB641C80)
 
+inline static constexpr unsigned int LDODNIJEDOA_TypeDefinitionIndex = 77137;
+
 	class LDODNIJEDOA : public ::System::Object
 	{
 	public:

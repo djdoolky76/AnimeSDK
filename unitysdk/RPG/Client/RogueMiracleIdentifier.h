@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMiracleIdentifier_TypeDefinitionIndex = 67281;
+
 	struct alignas(4) RogueMiracleIdentifier
 	{
 		::System::UInt32 MiracleID; // 0x10

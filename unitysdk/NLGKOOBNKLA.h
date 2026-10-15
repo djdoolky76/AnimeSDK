@@ -11,6 +11,8 @@ namespace Entitas { class IGroup; }
 #define NLGKOOBNKLA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C79C670)
 #define NLGKOOBNKLA_NOHCHOKDGBK_OFFSET UNITYSDK_OFFSET(0x1C79C7D0)
 
+inline static constexpr unsigned int NLGKOOBNKLA_TypeDefinitionIndex = 37443;
+
 	class NLGKOOBNKLA : public ::System::Object
 	{
 	public:

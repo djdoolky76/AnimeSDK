@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattlePauseEnvironmentInfos_TypeDefinitionIndex = 53626;
+
 	class BattlePauseEnvironmentInfos : public ::System::Object
 	{
 	public:

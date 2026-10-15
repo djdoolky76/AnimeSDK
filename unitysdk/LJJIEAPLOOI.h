@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LJJIEAPLOOI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E984B00)
 #define LJJIEAPLOOI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E984B60)
 
+inline static constexpr unsigned int LJJIEAPLOOI_TypeDefinitionIndex = 28936;
+
 	class LJJIEAPLOOI : public ::System::Object
 	{
 	public:

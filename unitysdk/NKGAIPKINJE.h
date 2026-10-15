@@ -30,6 +30,8 @@ namespace System { class String; }
 #define NKGAIPKINJE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB58EB0)
 #define NKGAIPKINJE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB58F10)
 
+inline static constexpr unsigned int NKGAIPKINJE_TypeDefinitionIndex = 28584;
+
 	class NKGAIPKINJE : public ::System::Object
 	{
 	public:

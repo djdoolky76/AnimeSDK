@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierLevelUpBattleGainMagicUnitConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierLevelUpBattleGainMagicUnitConfig_TypeDefinitionIndex = 17729;
+
 	class RogueModifierLevelUpBattleGainMagicUnitConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PFKHILJPABF_SET_SKIPTELEPORT_OFFSET UNITYSDK_OFFSET(0xC214A40)
 #define PFKHILJPABF_SET_TYPE_OFFSET UNITYSDK_OFFSET(0xC214A00)
 
+inline static constexpr unsigned int PFKHILJPABF_TypeDefinitionIndex = 61988;
+
 	class PFKHILJPABF : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define IJLEFNJPFKP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E696CE0)
 #define IJLEFNJPFKP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E696D40)
 
+inline static constexpr unsigned int IJLEFNJPFKP_TypeDefinitionIndex = 25553;
+
 	class IJLEFNJPFKP : public ::System::Object
 	{
 	public:

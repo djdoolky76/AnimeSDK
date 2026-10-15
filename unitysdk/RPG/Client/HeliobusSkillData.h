@@ -15,6 +15,8 @@ namespace RPG::GameCore { class HeliobusSkillRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HeliobusSkillData_TypeDefinitionIndex = 65673;
+
 	class HeliobusSkillData : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvRunStateTree_TypeDefinitionIndex = 20009;
+
 	class AdvRunStateTree : public ::RPG::GameCore::TaskConfig
 	{
 	public:

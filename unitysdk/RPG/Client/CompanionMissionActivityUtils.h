@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CompanionMissionActivityUtils_TypeDefinitionIndex = 63534;
+
 	class CompanionMissionActivityUtils : public ::System::Object
 	{
 	public:

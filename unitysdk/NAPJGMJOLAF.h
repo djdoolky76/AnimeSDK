@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TeleportToRotatableRegion; }
 #define NAPJGMJOLAF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBAB8C10)
 #define NAPJGMJOLAF_TICK_OFFSET UNITYSDK_OFFSET(0xBAB8F10)
 
+inline static constexpr unsigned int NAPJGMJOLAF_TypeDefinitionIndex = 53355;
+
 	class NAPJGMJOLAF : public ::GELIALJDFBL
 	{
 	public:

@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RotationLimitAngle_TypeDefinitionIndex = 47009;
+
 	class RotationLimitAngle : public ::RootMotion::FinalIK::RotationLimit
 	{
 	public:

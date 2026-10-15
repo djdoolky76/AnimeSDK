@@ -27,6 +27,8 @@ namespace ZXing::Common { class BitArray; }
 
 namespace ZXing::Common
 {
+	inline static constexpr unsigned int BitArray_TypeDefinitionIndex = 6980;
+
 	class BitArray : public ::System::Object
 	{
 	public:

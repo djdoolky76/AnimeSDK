@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int SysGenConfig_TypeDefinitionIndex = 50094;
+
 	class SysGenConfig : public ::System::Object
 	{
 	public:

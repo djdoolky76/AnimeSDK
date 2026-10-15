@@ -9,6 +9,8 @@ namespace System::Runtime::Remoting::Messaging { class IMethodReturnMessage; }
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int MethodReturnDictionary_TypeDefinitionIndex = 1326;
+
 	class MethodReturnDictionary : public ::System::Runtime::Remoting::Messaging::MessageDictionary
 	{
 	public:

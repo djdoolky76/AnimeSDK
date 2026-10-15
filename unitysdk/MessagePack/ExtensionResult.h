@@ -9,6 +9,8 @@ namespace System::Buffers { class ReadOnlySequence; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int ExtensionResult_TypeDefinitionIndex = 7161;
+
 	struct alignas(8) ExtensionResult
 	{
 		::System::SByte _TypeCode_k__BackingField; // 0x10

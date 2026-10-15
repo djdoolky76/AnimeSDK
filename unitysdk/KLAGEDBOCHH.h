@@ -31,6 +31,8 @@ namespace System { class String; }
 #define KLAGEDBOCHH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E882330)
 #define KLAGEDBOCHH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E882390)
 
+inline static constexpr unsigned int KLAGEDBOCHH_TypeDefinitionIndex = 34504;
+
 	class KLAGEDBOCHH : public ::System::Object
 	{
 	public:

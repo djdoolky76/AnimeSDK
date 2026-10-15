@@ -10,6 +10,8 @@ namespace System { class String; }
 #define MDPJLLMJGEC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D14D120)
 #define MDPJLLMJGEC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D14CF10)
 
+inline static constexpr unsigned int MDPJLLMJGEC_TypeDefinitionIndex = 15396;
+
 	class MDPJLLMJGEC : public ::System::Object
 	{
 	public:

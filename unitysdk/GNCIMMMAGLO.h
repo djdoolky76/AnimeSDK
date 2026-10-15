@@ -28,6 +28,8 @@ namespace System { class Object; }
 #define GNCIMMMAGLO__TRYFETCHEQUIPTOSELECT_B__8_1_OFFSET UNITYSDK_OFFSET(0x15AFDF30)
 #define GNCIMMMAGLO___REQUESTGETPENDINGEQUIP_B__14_0_OFFSET UNITYSDK_OFFSET(0x15AFDF90)
 
+inline static constexpr unsigned int GNCIMMMAGLO_TypeDefinitionIndex = 75290;
+
 	class GNCIMMMAGLO : public ::RPG::Client::BaseGameFlowContext
 	{
 	public:

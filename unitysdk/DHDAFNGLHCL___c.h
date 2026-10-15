@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define DHDAFNGLHCL___C__HANDLEPOSTPROCESS_B__0_2_OFFSET UNITYSDK_OFFSET(0xEBCC000)
 #define DHDAFNGLHCL___C__HANDLEPOSTPROCESS_B__0_3_OFFSET UNITYSDK_OFFSET(0xEBCC230)
 
+inline static constexpr unsigned int DHDAFNGLHCL___c_TypeDefinitionIndex = 67148;
+
 	class DHDAFNGLHCL___c : public ::System::Object
 	{
 	public:

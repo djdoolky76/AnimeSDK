@@ -7,6 +7,8 @@ class OMNJCDDMLHI;
 #define FOLFFPOMJAB_CTOR_OFFSET UNITYSDK_OFFSET(0x158F74E0)
 #define FOLFFPOMJAB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x158F74F0)
 
+inline static constexpr unsigned int FOLFFPOMJAB_TypeDefinitionIndex = 77968;
+
 	class FOLFFPOMJAB : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 #define AAFEOKPLEGJ___C__INIT_B__1_1_OFFSET UNITYSDK_OFFSET(0xB0C5E00)
 #define AAFEOKPLEGJ___C__INIT_B__1_2_OFFSET UNITYSDK_OFFSET(0xB0C5E10)
 
+inline static constexpr unsigned int AAFEOKPLEGJ___c_TypeDefinitionIndex = 61337;
+
 	class AAFEOKPLEGJ___c : public ::System::Object
 	{
 	public:

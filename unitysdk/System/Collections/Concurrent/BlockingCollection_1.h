@@ -7,6 +7,8 @@ namespace System::Threading { class SemaphoreSlim; }
 
 namespace System::Collections::Concurrent
 {
+	inline static constexpr unsigned int BlockingCollection_1_TypeDefinitionIndex = 3059;
+
 	template <typename T>
 	class BlockingCollection_1 : public ::System::Object
 	{

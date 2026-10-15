@@ -7,6 +7,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BookContentComponent_BookContentData_TypeDefinitionIndex = 72510;
+
 	class BookContentComponent_BookContentData : public ::System::Object
 	{
 	public:

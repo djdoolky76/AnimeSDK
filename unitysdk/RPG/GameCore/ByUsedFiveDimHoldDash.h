@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByUsedFiveDimHoldDash_TypeDefinitionIndex = 21431;
+
 	class ByUsedFiveDimHoldDash : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

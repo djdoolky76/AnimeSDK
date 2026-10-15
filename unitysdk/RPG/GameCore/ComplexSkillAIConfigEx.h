@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ComplexSkillAIFactorGroupWeightEx; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAIConfigEx_TypeDefinitionIndex = 17672;
+
 	class ComplexSkillAIConfigEx : public ::RPG::GameCore::JsonConfig
 	{
 	public:

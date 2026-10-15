@@ -10,6 +10,8 @@ namespace UnityEngine { class Texture; }
 
 namespace EzySlice
 {
+	inline static constexpr unsigned int TextureRegionExtension_TypeDefinitionIndex = 47000;
+
 	class TextureRegionExtension : public ::System::Object
 	{
 	public:

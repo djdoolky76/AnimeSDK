@@ -5,6 +5,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2DistanceJoint_TypeDefinitionIndex = 36658;
+
 	struct alignas(4) B2DistanceJoint
 	{
 		::System::Single length; // 0x10

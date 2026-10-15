@@ -4,6 +4,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarPathChangeScrollRedDot_ItemRedDotData_TypeDefinitionIndex = 71341;
+
 	struct alignas(8) AvatarPathChangeScrollRedDot_ItemRedDotData
 	{
 		::UnityEngine::Transform* Root; // 0x10

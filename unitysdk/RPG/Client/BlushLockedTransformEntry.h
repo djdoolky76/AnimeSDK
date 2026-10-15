@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BlushLockedTransformEntry_TypeDefinitionIndex = 70262;
+
 	class BlushLockedTransformEntry : public ::System::Object
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define FHCPFILAKNC__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x15774890)
 #define FHCPFILAKNC__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0x15774960)
 
+inline static constexpr unsigned int FHCPFILAKNC_TypeDefinitionIndex = 67911;
+
 	class FHCPFILAKNC : public ::RPG::Client::BaseModule
 	{
 	public:

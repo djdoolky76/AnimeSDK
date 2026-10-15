@@ -14,6 +14,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define ADFHCIGDBND_JMKOAHBFANB_OFFSET UNITYSDK_OFFSET(0xB1379C0)
 #define ADFHCIGDBND_MMNELBFMJOF_OFFSET UNITYSDK_OFFSET(0xB11B470)
 
+inline static constexpr unsigned int ADFHCIGDBND_TypeDefinitionIndex = 76536;
+
 	class ADFHCIGDBND : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JMIPELIDOIJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E78D7D0)
 #define JMIPELIDOIJ___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E78D7E0)
 
+inline static constexpr unsigned int JMIPELIDOIJ___c_TypeDefinitionIndex = 30969;
+
 	class JMIPELIDOIJ___c : public ::System::Object
 	{
 	public:

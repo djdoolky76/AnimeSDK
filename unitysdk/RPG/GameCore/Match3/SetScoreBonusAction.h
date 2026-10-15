@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class SetScoreBonusAction; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int SetScoreBonusAction_TypeDefinitionIndex = 24911;
+
 	class SetScoreBonusAction : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:

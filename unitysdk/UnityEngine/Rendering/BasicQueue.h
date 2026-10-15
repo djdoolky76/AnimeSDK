@@ -6,6 +6,8 @@ namespace UnityEngine::Rendering { class QueueData; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int BasicQueue_TypeDefinitionIndex = 35503;
+
 	struct alignas(8) BasicQueue
 	{
 		::UnityEngine::Rendering::QueueData* root; // 0x10

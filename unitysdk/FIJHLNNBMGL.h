@@ -7,6 +7,8 @@ class FIJHLNNBMGL;
 #define FIJHLNNBMGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDF6EB0)
 #define FIJHLNNBMGL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDF6C90)
 
+inline static constexpr unsigned int FIJHLNNBMGL_TypeDefinitionIndex = 13905;
+
 	class FIJHLNNBMGL : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::Client::Promises { class IPromise; }
 #define MIBPJLAGBLD___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__0_OFFSET UNITYSDK_OFFSET(0xB951520)
 #define MIBPJLAGBLD___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__1_OFFSET UNITYSDK_OFFSET(0xB9515C0)
 
+inline static constexpr unsigned int MIBPJLAGBLD___c__DisplayClass7_0_TypeDefinitionIndex = 76463;
+
 	class MIBPJLAGBLD___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

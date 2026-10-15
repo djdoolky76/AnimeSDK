@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IGKAIOPIMII_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x16410170)
 #define IGKAIOPIMII_LNBBIGFDAEH_OFFSET UNITYSDK_OFFSET(0x16410230)
 
+inline static constexpr unsigned int IGKAIOPIMII_TypeDefinitionIndex = 57762;
+
 	class IGKAIOPIMII : public ::System::Object
 	{
 	public:

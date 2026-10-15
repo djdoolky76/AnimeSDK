@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelNPCOverrideBehaviorParameter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelNPCOverrideBehaviorParameter_TypeDefinitionIndex = 17269;
+
 	class LevelNPCOverrideBehaviorParameter : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PACPOIAFPFF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEEB630)
 #define PACPOIAFPFF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DEEB640)
 
+inline static constexpr unsigned int PACPOIAFPFF___c_TypeDefinitionIndex = 29763;
+
 	class PACPOIAFPFF___c : public ::System::Object
 	{
 	public:

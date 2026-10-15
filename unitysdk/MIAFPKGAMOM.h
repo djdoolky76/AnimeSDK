@@ -28,6 +28,8 @@ namespace System { class String; }
 #define MIAFPKGAMOM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA39A60)
 #define MIAFPKGAMOM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA39AC0)
 
+inline static constexpr unsigned int MIAFPKGAMOM_TypeDefinitionIndex = 27451;
+
 	class MIAFPKGAMOM : public ::System::Object
 	{
 	public:

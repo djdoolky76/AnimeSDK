@@ -18,6 +18,8 @@ namespace System::Linq::Expressions { class InvocationExpression; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int InvocationExpression_TypeDefinitionIndex = 3226;
+
 	class InvocationExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int OutlinePostFXBehavior_GICJGOPKKEK_TypeDefinitionIndex = 51718;
+
 	class OutlinePostFXBehavior_GICJGOPKKEK : public ::System::Object
 	{
 	public:

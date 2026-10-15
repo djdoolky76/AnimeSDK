@@ -14,6 +14,8 @@ namespace UnityEngine { class Gradient; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int VolumetricLightBeam_ExportData_TypeDefinitionIndex = 49105;
+
 	class VolumetricLightBeam_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{
 	public:

@@ -59,6 +59,8 @@ namespace System { class String; }
 #define DLDPJEILCDB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1E2890)
 #define DLDPJEILCDB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1E28F0)
 
+inline static constexpr unsigned int DLDPJEILCDB_TypeDefinitionIndex = 27688;
+
 	class DLDPJEILCDB : public ::System::Object
 	{
 	public:

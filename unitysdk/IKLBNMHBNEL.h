@@ -95,6 +95,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IKLBNMHBNEL_PKPAGCEMAOL_OFFSET UNITYSDK_OFFSET(0x1C6E1520)
 #define IKLBNMHBNEL_PMIPELCNDJD_OFFSET UNITYSDK_OFFSET(0x1C6DEBE0)
 
+inline static constexpr unsigned int IKLBNMHBNEL_TypeDefinitionIndex = 37292;
+
 	class IKLBNMHBNEL : public ::System::Object
 	{
 	public:

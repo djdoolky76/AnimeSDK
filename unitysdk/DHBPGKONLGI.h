@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DHBPGKONLGI_GET_ENTITYRUNTIMEID_OFFSET UNITYSDK_OFFSET(0xEBC7C10)
 #define DHBPGKONLGI_GET_RARITYLIST_OFFSET UNITYSDK_OFFSET(0xEBC7C20)
 
+inline static constexpr unsigned int DHBPGKONLGI_TypeDefinitionIndex = 75421;
+
 	class DHBPGKONLGI : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine { class AnimationClip; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NotifyFadeOutAnimation_TypeDefinitionIndex = 72305;
+
 	class NotifyFadeOutAnimation : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -116,6 +116,8 @@ namespace UnityEngine { class Transform; }
 #define HPCKCJDCNFM_PFMBDOPPHLB_OFFSET UNITYSDK_OFFSET(0x1CAF55B0)
 #define HPCKCJDCNFM_POFOOCALOII_OFFSET UNITYSDK_OFFSET(0x1CAF5DF0)
 
+inline static constexpr unsigned int HPCKCJDCNFM_TypeDefinitionIndex = 42626;
+
 	class HPCKCJDCNFM : public ::Entitas::Entity
 	{
 	public:

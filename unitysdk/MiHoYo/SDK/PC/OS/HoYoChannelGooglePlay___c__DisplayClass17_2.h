@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int HoYoChannelGooglePlay___c__DisplayClass17_2_TypeDefinitionIndex = 8583;
+
 	template <typename T1, typename T2>
 	class HoYoChannelGooglePlay___c__DisplayClass17_2 : public ::System::Object
 	{

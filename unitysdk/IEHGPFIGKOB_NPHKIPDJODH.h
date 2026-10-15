@@ -3,6 +3,8 @@
 
 #define IEHGPFIGKOB_NPHKIPDJODH_GIHKIEHLAEG_OFFSET UNITYSDK_OFFSET(0x2E80620)
 
+inline static constexpr unsigned int IEHGPFIGKOB_NPHKIPDJODH_TypeDefinitionIndex = 72088;
+
 	struct alignas(4) IEHGPFIGKOB_NPHKIPDJODH
 	{
 		::System::Single MIMJMNGMICF; // 0x10

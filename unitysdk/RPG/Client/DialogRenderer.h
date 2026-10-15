@@ -19,6 +19,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DialogRenderer_TypeDefinitionIndex = 70281;
+
 	class DialogRenderer
 	{
 	public:

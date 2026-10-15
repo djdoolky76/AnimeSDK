@@ -14,6 +14,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RawInputProxy_TypeDefinitionIndex = 6688;
+
 	class RawInputProxy : public ::System::Object
 	{
 	public:

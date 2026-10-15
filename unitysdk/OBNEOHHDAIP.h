@@ -28,6 +28,8 @@ namespace System { class String; }
 #define OBNEOHHDAIP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EBB3420)
 #define OBNEOHHDAIP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EBB3480)
 
+inline static constexpr unsigned int OBNEOHHDAIP_TypeDefinitionIndex = 33130;
+
 	class OBNEOHHDAIP : public ::System::Object
 	{
 	public:

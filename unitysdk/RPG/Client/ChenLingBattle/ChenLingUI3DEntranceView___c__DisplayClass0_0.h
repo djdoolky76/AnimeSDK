@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int ChenLingUI3DEntranceView___c__DisplayClass0_0_TypeDefinitionIndex = 76217;
+
 	class ChenLingUI3DEntranceView___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

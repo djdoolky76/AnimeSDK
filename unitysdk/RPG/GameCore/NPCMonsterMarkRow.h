@@ -9,6 +9,8 @@ namespace RPG::GameCore { class NPCMonsterMarkRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NPCMonsterMarkRow_TypeDefinitionIndex = 14288;
+
 	class NPCMonsterMarkRow : public ::System::Object
 	{
 	public:

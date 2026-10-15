@@ -19,6 +19,8 @@ namespace RPG::Client { class Int64UserDataTestData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Int64UserDataTestData_TypeDefinitionIndex = 69477;
+
 	class Int64UserDataTestData : public ::System::Object
 	{
 	public:

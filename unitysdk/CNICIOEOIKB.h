@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DynamicString; }
 #define CNICIOEOIKB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DCB56B0)
 #define CNICIOEOIKB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCB5670)
 
+inline static constexpr unsigned int CNICIOEOIKB_TypeDefinitionIndex = 21432;
+
 	class CNICIOEOIKB : public ::RPG::GameCore::TaskConfig
 	{
 	public:

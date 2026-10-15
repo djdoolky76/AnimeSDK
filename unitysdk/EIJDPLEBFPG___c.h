@@ -9,6 +9,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define EIJDPLEBFPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x154CE500)
 #define EIJDPLEBFPG___C__CHOOSESLOT_B__7_0_OFFSET UNITYSDK_OFFSET(0x154CE510)
 
+inline static constexpr unsigned int EIJDPLEBFPG___c_TypeDefinitionIndex = 52417;
+
 	class EIJDPLEBFPG___c : public ::System::Object
 	{
 	public:

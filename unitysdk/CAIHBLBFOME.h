@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CAIHBLBFOME_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC480660)
 #define CAIHBLBFOME_TICK_OFFSET UNITYSDK_OFFSET(0xC4806B0)
 
+inline static constexpr unsigned int CAIHBLBFOME_TypeDefinitionIndex = 58682;
+
 	class CAIHBLBFOME : public ::GELIALJDFBL
 	{
 	public:

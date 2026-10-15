@@ -12,6 +12,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveMessageService; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveMessageService___c__DisplayClass1_0_TypeDefinitionIndex = 75372;
+
 	class IdleLiveMessageService___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace Newtonsoft::Json
 {
+	inline static constexpr unsigned int MetadataPropertyHandling_TypeDefinitionIndex = 9593;
+
 	enum class MetadataPropertyHandling : ::System::Int32
 	{
 		Default = 0,

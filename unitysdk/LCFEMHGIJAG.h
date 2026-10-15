@@ -18,6 +18,8 @@ namespace System { class String; }
 #define LCFEMHGIJAG_SET_OPUID_OFFSET UNITYSDK_OFFSET(0xB613820)
 #define LCFEMHGIJAG_SET_TIMESTAMP_OFFSET UNITYSDK_OFFSET(0xB613880)
 
+inline static constexpr unsigned int LCFEMHGIJAG_TypeDefinitionIndex = 66408;
+
 	class LCFEMHGIJAG : public ::System::Object
 	{
 	public:

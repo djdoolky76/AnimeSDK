@@ -5,6 +5,8 @@ class HADIEBGEOMM;
 
 #define FKMJCOHPKCG_CTOR_OFFSET UNITYSDK_OFFSET(0x15810BA0)
 
+inline static constexpr unsigned int FKMJCOHPKCG_TypeDefinitionIndex = 78189;
+
 	class FKMJCOHPKCG : public ::System::Object
 	{
 	public:

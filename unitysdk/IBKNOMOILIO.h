@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define IBKNOMOILIO_CTOR_OFFSET UNITYSDK_OFFSET(0x15E3CC60)
 #define IBKNOMOILIO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E3CC90)
 
+inline static constexpr unsigned int IBKNOMOILIO_TypeDefinitionIndex = 53826;
+
 	class IBKNOMOILIO
 	{
 	public:

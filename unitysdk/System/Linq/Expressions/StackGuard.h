@@ -7,6 +7,8 @@
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int StackGuard_TypeDefinitionIndex = 3273;
+
 	class StackGuard : public ::System::Object
 	{
 	public:

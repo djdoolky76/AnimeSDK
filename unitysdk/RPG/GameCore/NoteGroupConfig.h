@@ -12,6 +12,8 @@ namespace RPG::GameCore { class NoteGroupConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NoteGroupConfig_TypeDefinitionIndex = 16948;
+
 	class NoteGroupConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

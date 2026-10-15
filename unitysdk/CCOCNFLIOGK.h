@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int CCOCNFLIOGK_TypeDefinitionIndex = 26559;
+
 	enum class CCOCNFLIOGK : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

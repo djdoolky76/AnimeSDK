@@ -6,6 +6,8 @@ namespace System { class Action; }
 #define OFFGIKEAIFM___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBE40E30)
 #define OFFGIKEAIFM___C__DISPLAYCLASS4_0__FOREACHPETID_B__0_OFFSET UNITYSDK_OFFSET(0xBE412F0)
 
+inline static constexpr unsigned int OFFGIKEAIFM___c__DisplayClass4_0_TypeDefinitionIndex = 75726;
+
 	class OFFGIKEAIFM___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

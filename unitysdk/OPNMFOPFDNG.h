@@ -10,6 +10,8 @@ namespace System { class String; }
 #define OPNMFOPFDNG_KIADNFBKOCM_OFFSET UNITYSDK_OFFSET(0xBFB5420)
 #define OPNMFOPFDNG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFB5040)
 
+inline static constexpr unsigned int OPNMFOPFDNG_TypeDefinitionIndex = 55778;
+
 	class OPNMFOPFDNG
 	{
 	public:

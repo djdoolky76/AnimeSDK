@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerOutfitSlotRow_TypeDefinitionIndex = 14513;
+
 	class PlayerOutfitSlotRow : public ::System::Object
 	{
 	public:

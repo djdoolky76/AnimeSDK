@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace Mono::Security
 {
+	inline static constexpr unsigned int PKCS7_183E832926C478BA_ContentInfo_TypeDefinitionIndex = 2261;
+
 	class PKCS7_183E832926C478BA_ContentInfo : public ::System::Object
 	{
 	public:

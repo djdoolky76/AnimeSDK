@@ -33,6 +33,8 @@ namespace System { class String; }
 #define OHDHNDMJFAP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE5EB80)
 #define OHDHNDMJFAP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE5EBE0)
 
+inline static constexpr unsigned int OHDHNDMJFAP_TypeDefinitionIndex = 25618;
+
 	class OHDHNDMJFAP : public ::System::Object
 	{
 	public:

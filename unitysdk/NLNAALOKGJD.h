@@ -16,6 +16,8 @@ namespace System { class String; }
 #define NLNAALOKGJD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC74F00)
 #define NLNAALOKGJD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBC75EF0)
 
+inline static constexpr unsigned int NLNAALOKGJD_TypeDefinitionIndex = 58053;
+
 	class NLNAALOKGJD
 	{
 	public:

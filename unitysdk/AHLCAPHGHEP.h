@@ -10,6 +10,8 @@
 #define AHLCAPHGHEP_OFIJGOIIAHF_OFFSET UNITYSDK_OFFSET(0xEB86130)
 #define AHLCAPHGHEP_OKDNNIMJFJN_OFFSET UNITYSDK_OFFSET(0xEB861E0)
 
+inline static constexpr unsigned int AHLCAPHGHEP_TypeDefinitionIndex = 62513;
+
 	class AHLCAPHGHEP : public ::System::Object
 	{
 	public:

@@ -19,6 +19,8 @@ namespace UnityEngine { class Object; }
 #define MLLBMBEIAAB_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xB9B6E10)
 #define MLLBMBEIAAB_LBPMGNJELMI_OFFSET UNITYSDK_OFFSET(0xB9B7830)
 
+inline static constexpr unsigned int MLLBMBEIAAB_TypeDefinitionIndex = 49172;
+
 	class MLLBMBEIAAB : public ::System::Object
 	{
 	public:

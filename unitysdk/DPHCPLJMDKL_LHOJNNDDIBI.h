@@ -6,6 +6,8 @@ namespace System { class String; }
 #define DPHCPLJMDKL_LHOJNNDDIBI_AJEKEKFKOEI_OFFSET UNITYSDK_OFFSET(0x1263DF50)
 #define DPHCPLJMDKL_LHOJNNDDIBI_CTOR_OFFSET UNITYSDK_OFFSET(0x1263E050)
 
+inline static constexpr unsigned int DPHCPLJMDKL_LHOJNNDDIBI_TypeDefinitionIndex = 60029;
+
 	class DPHCPLJMDKL_LHOJNNDDIBI : public ::System::Object
 	{
 	public:

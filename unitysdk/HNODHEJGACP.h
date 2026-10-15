@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HNODHEJGACP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5E1DC0)
 #define HNODHEJGACP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5E1E20)
 
+inline static constexpr unsigned int HNODHEJGACP_TypeDefinitionIndex = 29795;
+
 	class HNODHEJGACP : public ::System::Object
 	{
 	public:

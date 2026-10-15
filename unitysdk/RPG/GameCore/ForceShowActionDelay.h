@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ForceShowActionDelay; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ForceShowActionDelay_TypeDefinitionIndex = 24319;
+
 	class ForceShowActionDelay : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -54,6 +54,8 @@ namespace System { class String; }
 #define FFKHFDJFAGM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E371F80)
 #define FFKHFDJFAGM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E371FE0)
 
+inline static constexpr unsigned int FFKHFDJFAGM_TypeDefinitionIndex = 31670;
+
 	class FFKHFDJFAGM : public ::System::Object
 	{
 	public:

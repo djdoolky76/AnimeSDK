@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BatchAnimationAttachPointMapping_AttachPoint_TypeDefinitionIndex = 69515;
+
 	class BatchAnimationAttachPointMapping_AttachPoint : public ::System::Object
 	{
 	public:

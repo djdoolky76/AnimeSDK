@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::ChimeraDuel
 {
+	inline static constexpr unsigned int DuelChimeraBattleView_TypeDefinitionIndex = 77706;
+
 	class DuelChimeraBattleView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

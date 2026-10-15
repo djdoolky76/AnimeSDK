@@ -14,6 +14,8 @@ namespace System::Text { class Encoding; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int UnexceptionalStreamWriter_TypeDefinitionIndex = 729;
+
 	class UnexceptionalStreamWriter : public ::System::IO::StreamWriter
 	{
 	public:

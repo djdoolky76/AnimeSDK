@@ -50,6 +50,8 @@ namespace System::Text { class Encoding; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int File_TypeDefinitionIndex = 711;
+
 	class File : public ::System::Object
 	{
 	public:

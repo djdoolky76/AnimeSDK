@@ -7,6 +7,8 @@ namespace CriWare { class CriAtomConfig_Ps4Audio3dConfig_VoicePoolConfig; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomConfig_Ps4Audio3dConfig_TypeDefinitionIndex = 40166;
+
 	class CriAtomConfig_Ps4Audio3dConfig : public ::System::Object
 	{
 	public:

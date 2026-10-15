@@ -64,6 +64,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define BAPFAMNOEGE_SET_TELEMETRYREPORTSERVICE_OFFSET UNITYSDK_OFFSET(0x15E80060)
 #define BAPFAMNOEGE_SET_WINDOWSERVICE_OFFSET UNITYSDK_OFFSET(0x15E7FE80)
 
+inline static constexpr unsigned int BAPFAMNOEGE_TypeDefinitionIndex = 79543;
+
 	class BAPFAMNOEGE : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 #define MAAGKBJFMHI_ALJJDGONFDD_OFFSET UNITYSDK_OFFSET(0xB83D5E0)
 
+inline static constexpr unsigned int MAAGKBJFMHI_TypeDefinitionIndex = 55971;
+
 	struct alignas(8) MAAGKBJFMHI
 	{
 		::RPG::GameCore::GameEntity* MFIEDDGBIPH; // 0x10

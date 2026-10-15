@@ -13,6 +13,8 @@ namespace System { class Action; }
 #define ACMKAPJDEDM_NLEKBHGAGOL_OFFSET UNITYSDK_OFFSET(0xB125F50)
 #define ACMKAPJDEDM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB125260)
 
+inline static constexpr unsigned int ACMKAPJDEDM_TypeDefinitionIndex = 54838;
+
 	class ACMKAPJDEDM
 	{
 	public:

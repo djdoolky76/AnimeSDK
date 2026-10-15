@@ -7,6 +7,8 @@
 #define FPKJDMIBKMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1591E090)
 #define FPKJDMIBKMN_GMKENGMMLKP_OFFSET UNITYSDK_OFFSET(0x1591E080)
 
+inline static constexpr unsigned int FPKJDMIBKMN_TypeDefinitionIndex = 55391;
+
 	class FPKJDMIBKMN : public ::System::Object
 	{
 	public:

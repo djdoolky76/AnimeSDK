@@ -22,6 +22,8 @@ namespace RPG::GameCore { class RogueDLCLayerRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChessRogueAreaLayerDataItem_TypeDefinitionIndex = 66906;
+
 	class ChessRogueAreaLayerDataItem : public ::System::Object
 	{
 	public:

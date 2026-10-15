@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MessagePackSerializationException_TypeDefinitionIndex = 7212;
+
 	class MessagePackSerializationException : public ::System::Exception
 	{
 	public:

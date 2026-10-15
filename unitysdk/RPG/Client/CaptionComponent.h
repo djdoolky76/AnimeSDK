@@ -27,6 +27,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CaptionComponent_TypeDefinitionIndex = 72513;
+
 	class CaptionComponent : public ::UnityEngine::MonoBehaviour
 	{
 	public:

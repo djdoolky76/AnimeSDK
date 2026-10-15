@@ -8,6 +8,8 @@ namespace RPG::Client { class SwordTrainingPowerRankData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SwordTrainingPowerRankInfo___c__DisplayClass10_0_TypeDefinitionIndex = 61966;
+
 	class SwordTrainingPowerRankInfo___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OIEOGPLJNNO_JIGJDOFEJMI_OFFSET UNITYSDK_OFFSET(0xBE7B1A0)
 #define OIEOGPLJNNO_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xBE7AEE0)
 
+inline static constexpr unsigned int OIEOGPLJNNO_TypeDefinitionIndex = 59180;
+
 	class OIEOGPLJNNO
 	{
 	public:

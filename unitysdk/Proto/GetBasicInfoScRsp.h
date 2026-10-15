@@ -48,6 +48,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int GetBasicInfoScRsp_TypeDefinitionIndex = 32038;
+
 	class GetBasicInfoScRsp : public ::System::Object
 	{
 	public:

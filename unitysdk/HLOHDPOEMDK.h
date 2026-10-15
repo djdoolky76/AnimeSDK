@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HLOHDPOEMDK_SET_HANDSLOTLIMIT_OFFSET UNITYSDK_OFFSET(0x15D739C0)
 #define HLOHDPOEMDK_SET_MANA_OFFSET UNITYSDK_OFFSET(0x15D739E0)
 
+inline static constexpr unsigned int HLOHDPOEMDK_TypeDefinitionIndex = 81100;
+
 	class HLOHDPOEMDK : public ::System::Object
 	{
 	public:

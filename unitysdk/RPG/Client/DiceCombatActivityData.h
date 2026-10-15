@@ -18,6 +18,8 @@ namespace RPG::Client { class DiceCombatModule; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DiceCombatActivityData_TypeDefinitionIndex = 61610;
+
 	class DiceCombatActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

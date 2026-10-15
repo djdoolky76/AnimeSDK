@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define CJADIOHCKFH_CTOR_OFFSET UNITYSDK_OFFSET(0xCF91060)
 
+inline static constexpr unsigned int CJADIOHCKFH_TypeDefinitionIndex = 54828;
+
 	class CJADIOHCKFH : public ::System::Object
 	{
 	public:

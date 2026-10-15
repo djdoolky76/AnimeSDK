@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournClassicGameLevelUndeterminedRoomData_TypeDefinitionIndex = 67635;
+
 	class RogueTournClassicGameLevelUndeterminedRoomData : public ::System::Object
 	{
 	public:

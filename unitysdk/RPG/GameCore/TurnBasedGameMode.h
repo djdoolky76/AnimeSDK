@@ -604,6 +604,8 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TurnBasedGameMode_TypeDefinitionIndex = 53601;
+
 	class TurnBasedGameMode : public ::System::Object
 	{
 	public:

@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class Action; }
 
+inline static constexpr unsigned int JDICAPPIHDG_TypeDefinitionIndex = 43385;
+
 	struct alignas(8) JDICAPPIHDG
 	{
 		::System::Int32 DKCGLOIAPAH; // 0x10

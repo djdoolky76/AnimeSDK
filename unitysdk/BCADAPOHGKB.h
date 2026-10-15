@@ -31,6 +31,8 @@ namespace System { class String; }
 #define BCADAPOHGKB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9036B0)
 #define BCADAPOHGKB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E903710)
 
+inline static constexpr unsigned int BCADAPOHGKB_TypeDefinitionIndex = 26783;
+
 	class BCADAPOHGKB : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int NullableAttribute_6548003185950291_TypeDefinitionIndex = 6068;
+
 	class NullableAttribute_6548003185950291 : public ::System::Attribute
 	{
 	public:

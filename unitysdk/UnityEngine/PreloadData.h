@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int PreloadData_TypeDefinitionIndex = 4389;
+
 	class PreloadData : public ::UnityEngine::Object
 	{
 	public:

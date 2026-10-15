@@ -3,6 +3,8 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+inline static constexpr unsigned int JEMDGBKPCDK_TypeDefinitionIndex = 47529;
+
 	struct alignas(4) JEMDGBKPCDK
 	{
 		::UnityEngine::Vector3 NPHAFNPMMDF; // 0x10

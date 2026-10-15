@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PerformanceBgImagePanelContainerConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceBgImagePanelContainerConfig_TypeDefinitionIndex = 19045;
+
 	class PerformanceBgImagePanelContainerConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

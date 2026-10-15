@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournMiracleInfo_TypeDefinitionIndex = 67684;
+
 	class RogueTournMiracleInfo : public ::System::Object
 	{
 	public:

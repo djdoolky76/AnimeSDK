@@ -32,6 +32,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int SourceCodeInfo_Types_Location_TypeDefinitionIndex = 35812;
+
 	class SourceCodeInfo_Types_Location : public ::System::Object
 	{
 	public:

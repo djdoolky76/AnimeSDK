@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DeviceInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGQualitySettingsConsole_TypeDefinitionIndex = 67943;
+
 	class RPGQualitySettingsConsole : public ::System::Object
 	{
 	public:

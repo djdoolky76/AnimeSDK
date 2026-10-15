@@ -14,6 +14,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Net::Http
 {
+	inline static constexpr unsigned int HttpMessageInvoker_TypeDefinitionIndex = 3770;
+
 	class HttpMessageInvoker : public ::System::Object
 	{
 	public:

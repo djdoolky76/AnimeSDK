@@ -54,6 +54,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JDJBPIHCDOB_PNADPBMDOBE_OFFSET UNITYSDK_OFFSET(0x165D20A0)
 #define JDJBPIHCDOB_TICK_OFFSET UNITYSDK_OFFSET(0x165D3020)
 
+inline static constexpr unsigned int JDJBPIHCDOB_TypeDefinitionIndex = 52687;
+
 	class JDJBPIHCDOB : public ::GELIALJDFBL
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LECIKIONPIF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB64D8B0)
 #define LECIKIONPIF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB64D980)
 
+inline static constexpr unsigned int LECIKIONPIF_TypeDefinitionIndex = 53873;
+
 	class LECIKIONPIF
 	{
 	public:

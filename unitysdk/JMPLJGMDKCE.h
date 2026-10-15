@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JMPLJGMDKCE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E791210)
 #define JMPLJGMDKCE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E791270)
 
+inline static constexpr unsigned int JMPLJGMDKCE_TypeDefinitionIndex = 34335;
+
 	class JMPLJGMDKCE : public ::System::Object
 	{
 	public:

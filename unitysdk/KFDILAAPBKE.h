@@ -39,6 +39,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KFDILAAPBKE_PBNJMOCNAGN_OFFSET UNITYSDK_OFFSET(0xB394840)
 #define KFDILAAPBKE_PIHMENNKNGO_OFFSET UNITYSDK_OFFSET(0xB393D90)
 
+inline static constexpr unsigned int KFDILAAPBKE_TypeDefinitionIndex = 73409;
+
 	class KFDILAAPBKE : public ::System::Object
 	{
 	public:

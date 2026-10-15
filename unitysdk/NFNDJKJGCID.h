@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define NFNDJKJGCID_CTOR_OFFSET UNITYSDK_OFFSET(0x1C956530)
 
+inline static constexpr unsigned int NFNDJKJGCID_TypeDefinitionIndex = 42270;
+
 	class NFNDJKJGCID : public ::System::Object
 	{
 	public:

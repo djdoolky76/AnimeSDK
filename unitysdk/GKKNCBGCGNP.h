@@ -8,6 +8,8 @@ class OAFCCICMILM;
 #define GKKNCBGCGNP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB0AB0)
 #define GKKNCBGCGNP_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1CAB0AC0)
 
+inline static constexpr unsigned int GKKNCBGCGNP_TypeDefinitionIndex = 42395;
+
 	class GKKNCBGCGNP : public ::System::Object
 	{
 	public:

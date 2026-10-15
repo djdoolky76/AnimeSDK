@@ -30,6 +30,8 @@ namespace System { class String; }
 #define HPPFADGBOJJ_LDAKELHCLJG_OFFSET UNITYSDK_OFFSET(0x15DDA8E0)
 #define HPPFADGBOJJ_LIDKGFDCKGO_OFFSET UNITYSDK_OFFSET(0x15DD9B20)
 
+inline static constexpr unsigned int HPPFADGBOJJ_TypeDefinitionIndex = 53846;
+
 	class HPPFADGBOJJ : public ::System::Object
 	{
 	public:

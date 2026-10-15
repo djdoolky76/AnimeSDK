@@ -198,6 +198,8 @@ namespace System { class String; }
 #define EFODGECFLLC_PJHLMGJILNC_OFFSET UNITYSDK_OFFSET(0x1CA4B6C0)
 #define EFODGECFLLC_PNDNHBJOIOF_OFFSET UNITYSDK_OFFSET(0x1CA4DD40)
 
+inline static constexpr unsigned int EFODGECFLLC_TypeDefinitionIndex = 42577;
+
 	class EFODGECFLLC
 	{
 	public:

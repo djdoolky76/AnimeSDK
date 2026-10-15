@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FAPGFHAIOAM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CDC7970)
 #define FAPGFHAIOAM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CDC7310)
 
+inline static constexpr unsigned int FAPGFHAIOAM_TypeDefinitionIndex = 12695;
+
 	class FAPGFHAIOAM : public ::System::Object
 	{
 	public:

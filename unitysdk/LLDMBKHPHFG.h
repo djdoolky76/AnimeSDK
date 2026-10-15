@@ -10,6 +10,8 @@ namespace RPG::Client::Promises { class Promise; }
 #define LLDMBKHPHFG_ONEXITBEGIN_OFFSET UNITYSDK_OFFSET(0xB764460)
 #define LLDMBKHPHFG__ONEXITBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xB764620)
 
+inline static constexpr unsigned int LLDMBKHPHFG_TypeDefinitionIndex = 66081;
+
 	class LLDMBKHPHFG : public ::HFACHPPOANI
 	{
 	public:

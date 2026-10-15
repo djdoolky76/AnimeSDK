@@ -95,6 +95,8 @@ namespace UnityEngine::UI { class Image; }
 #define KANKEPCJION__ONBIND_OFFSET UNITYSDK_OFFSET(0xB2E0B20)
 #define KANKEPCJION__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xB2E1F00)
 
+inline static constexpr unsigned int KANKEPCJION_TypeDefinitionIndex = 71895;
+
 	class KANKEPCJION : public ::FMPCODLIOLG
 	{
 	public:

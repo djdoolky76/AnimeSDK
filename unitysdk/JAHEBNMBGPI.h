@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define JAHEBNMBGPI_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C6F0FB0)
 #define JAHEBNMBGPI_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C6F0F20)
 
+inline static constexpr unsigned int JAHEBNMBGPI_TypeDefinitionIndex = 37295;
+
 	class JAHEBNMBGPI : public ::System::MulticastDelegate
 	{
 	public:

@@ -74,6 +74,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayerBoardInfo_TypeDefinitionIndex = 66672;
+
 	class PlayerBoardInfo : public ::System::Object
 	{
 	public:

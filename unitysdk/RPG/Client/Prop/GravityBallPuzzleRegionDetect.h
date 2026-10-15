@@ -9,6 +9,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int GravityBallPuzzleRegionDetect_TypeDefinitionIndex = 78593;
+
 	class GravityBallPuzzleRegionDetect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

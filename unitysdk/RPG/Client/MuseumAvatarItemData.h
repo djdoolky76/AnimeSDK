@@ -28,6 +28,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MuseumAvatarItemData_TypeDefinitionIndex = 66328;
+
 	class MuseumAvatarItemData : public ::System::Object
 	{
 	public:

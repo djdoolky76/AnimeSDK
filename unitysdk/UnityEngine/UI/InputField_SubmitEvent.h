@@ -5,6 +5,8 @@
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int InputField_SubmitEvent_TypeDefinitionIndex = 6745;
+
 	class InputField_SubmitEvent
 	{
 	public:

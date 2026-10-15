@@ -14,6 +14,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int Projection___c_TypeDefinitionIndex = 44414;
+
 	class Projection___c : public ::System::Object
 	{
 	public:

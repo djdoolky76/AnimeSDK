@@ -8,6 +8,8 @@ namespace System { template <typename T> class Func_1; }
 #define ODGEOHLNBIP___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBD92E20)
 #define ODGEOHLNBIP___C__DISPLAYCLASS4_0___WRAPDISPOSEDCHECK_B__0_OFFSET UNITYSDK_OFFSET(0xBD92E60)
 
+inline static constexpr unsigned int ODGEOHLNBIP___c__DisplayClass4_0_TypeDefinitionIndex = 67503;
+
 	class ODGEOHLNBIP___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

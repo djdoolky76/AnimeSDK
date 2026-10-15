@@ -37,6 +37,8 @@ namespace System { class String; }
 #define NDLBFFKAGBN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAE93C0)
 #define NDLBFFKAGBN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAE9420)
 
+inline static constexpr unsigned int NDLBFFKAGBN_TypeDefinitionIndex = 27610;
+
 	class NDLBFFKAGBN : public ::System::Object
 	{
 	public:

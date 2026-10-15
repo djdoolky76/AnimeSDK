@@ -103,6 +103,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoExUICamera_TypeDefinitionIndex = 72978;
+
 	class MonoExUICamera : public ::UnityEngine::MonoBehaviour
 	{
 	public:

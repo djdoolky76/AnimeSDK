@@ -11,6 +11,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveImgDanmuService___c_TypeDefinitionIndex = 75351;
+
 	class IdleLiveImgDanmuService___c : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftBoardTileControlBinder_TypeDefinitionIndex = 79852;
+
 	class MechCraftCraftBoardTileControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

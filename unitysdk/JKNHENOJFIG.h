@@ -64,6 +64,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JKNHENOJFIG_PNGMKPOGDKC_OFFSET UNITYSDK_OFFSET(0xB228040)
 #define JKNHENOJFIG___BUILDTEAMS_G__ADDTEAM_51_0_OFFSET UNITYSDK_OFFSET(0xB2290B0)
 
+inline static constexpr unsigned int JKNHENOJFIG_TypeDefinitionIndex = 81709;
+
 	class JKNHENOJFIG : public ::System::Object
 	{
 	public:

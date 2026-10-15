@@ -9,6 +9,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayerReturnTrialAvatarGroup___c__DisplayClass2_0_TypeDefinitionIndex = 61885;
+
 	class PlayerReturnTrialAvatarGroup___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

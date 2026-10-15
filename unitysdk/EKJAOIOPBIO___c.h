@@ -13,6 +13,8 @@ namespace System { template <typename T> class Func_1; }
 #define EKJAOIOPBIO___C___CTOR_B__476_0_OFFSET UNITYSDK_OFFSET(0x1CA612D0)
 #define EKJAOIOPBIO___C___CTOR_B__476_1_OFFSET UNITYSDK_OFFSET(0x1CA61300)
 
+inline static constexpr unsigned int EKJAOIOPBIO___c_TypeDefinitionIndex = 42599;
+
 	class EKJAOIOPBIO___c : public ::System::Object
 	{
 	public:

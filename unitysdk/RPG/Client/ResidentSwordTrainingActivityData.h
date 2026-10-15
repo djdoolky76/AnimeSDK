@@ -11,6 +11,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ResidentSwordTrainingActivityData_TypeDefinitionIndex = 61766;
+
 	class ResidentSwordTrainingActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

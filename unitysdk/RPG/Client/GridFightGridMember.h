@@ -18,6 +18,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGridMember_TypeDefinitionIndex = 64844;
+
 	class GridFightGridMember : public ::Sofa::Core::ObservableObject
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int RecordEffectTimelineClip_TypeDefinitionIndex = 48475;
+
 	class RecordEffectTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

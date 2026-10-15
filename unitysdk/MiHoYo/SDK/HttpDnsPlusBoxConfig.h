@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HttpDnsPlusBoxConfig_TypeDefinitionIndex = 7919;
+
 	class HttpDnsPlusBoxConfig : public ::System::Object
 	{
 	public:

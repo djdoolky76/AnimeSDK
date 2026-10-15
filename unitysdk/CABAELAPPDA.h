@@ -10,6 +10,8 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
+inline static constexpr unsigned int CABAELAPPDA_TypeDefinitionIndex = 44251;
+
 	struct alignas(8) CABAELAPPDA
 	{
 		::KAILJFHGCFF* _State_k__BackingField; // 0x0

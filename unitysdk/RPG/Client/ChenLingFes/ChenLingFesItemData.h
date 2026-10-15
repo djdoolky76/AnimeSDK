@@ -14,6 +14,8 @@ class IBECKBPHMFH;
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesItemData_TypeDefinitionIndex = 81288;
+
 	class ChenLingFesItemData : public ::Sofa::Core::ObservableObject
 	{
 	public:

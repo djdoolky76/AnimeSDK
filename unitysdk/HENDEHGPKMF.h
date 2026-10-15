@@ -36,6 +36,8 @@ namespace System { class String; }
 #define HENDEHGPKMF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E55C6B0)
 #define HENDEHGPKMF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E55C710)
 
+inline static constexpr unsigned int HENDEHGPKMF_TypeDefinitionIndex = 25354;
+
 	class HENDEHGPKMF : public ::System::Object
 	{
 	public:

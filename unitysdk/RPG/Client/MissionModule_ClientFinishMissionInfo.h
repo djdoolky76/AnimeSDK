@@ -30,6 +30,8 @@ namespace RPG::GameCore { class SetLoadingStratageType; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionModule_ClientFinishMissionInfo_TypeDefinitionIndex = 66142;
+
 	class MissionModule_ClientFinishMissionInfo : public ::System::Object
 	{
 	public:

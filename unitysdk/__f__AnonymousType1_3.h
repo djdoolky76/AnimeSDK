@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+inline static constexpr unsigned int __f__AnonymousType1_3_TypeDefinitionIndex = 47045;
+
 	template <typename T1, typename T2, typename T3>
 	class __f__AnonymousType1_3 : public ::System::Object
 	{

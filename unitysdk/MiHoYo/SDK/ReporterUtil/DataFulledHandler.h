@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::ReporterUtil
 {
+	inline static constexpr unsigned int DataFulledHandler_TypeDefinitionIndex = 46651;
+
 	class DataFulledHandler : public ::System::MulticastDelegate
 	{
 	public:

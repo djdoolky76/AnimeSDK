@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AISwitchCaseDecision_TypeDefinitionIndex = 15484;
+
 	class AISwitchCaseDecision : public ::RPG::GameCore::JsonConfig
 	{
 	public:

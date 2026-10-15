@@ -58,6 +58,8 @@ namespace System { class String; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int MRect_TypeDefinitionIndex = 6390;
+
 	struct alignas(4) MRect
 	{
 		::System::Single m_XMin; // 0x10

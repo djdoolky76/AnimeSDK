@@ -16,6 +16,8 @@ namespace RPG::GameCore { class LevelBeforeTurnStateChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelBeforeTurnStateChange_TypeDefinitionIndex = 56695;
+
 	class LevelBeforeTurnStateChange : public ::CMPGEAFHHDC
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ItemStroyLineRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ItemStroyLineRow_TypeDefinitionIndex = 13894;
+
 	class ItemStroyLineRow : public ::System::Object
 	{
 	public:

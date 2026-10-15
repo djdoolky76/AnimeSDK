@@ -27,6 +27,8 @@ namespace System { class String; }
 #define HCNEFGJCCMB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E544410)
 #define HCNEFGJCCMB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E544470)
 
+inline static constexpr unsigned int HCNEFGJCCMB_TypeDefinitionIndex = 33030;
+
 	class HCNEFGJCCMB : public ::System::Object
 	{
 	public:

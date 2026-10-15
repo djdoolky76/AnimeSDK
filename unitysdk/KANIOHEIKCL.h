@@ -23,6 +23,8 @@ namespace RPG::GameCore { class TriggerWalkingEffect; }
 #define KANIOHEIKCL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB2DF500)
 #define KANIOHEIKCL_TICK_OFFSET UNITYSDK_OFFSET(0xB2DF550)
 
+inline static constexpr unsigned int KANIOHEIKCL_TypeDefinitionIndex = 56480;
+
 	class KANIOHEIKCL : public ::GELIALJDFBL
 	{
 	public:

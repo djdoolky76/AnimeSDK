@@ -18,6 +18,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define PNPGHECNGHN_ONMODELARTUNLOADED_OFFSET UNITYSDK_OFFSET(0xC356750)
 #define PNPGHECNGHN_TICK_OFFSET UNITYSDK_OFFSET(0xC3567C0)
 
+inline static constexpr unsigned int PNPGHECNGHN_TypeDefinitionIndex = 57480;
+
 	class PNPGHECNGHN : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

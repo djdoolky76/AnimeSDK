@@ -29,6 +29,8 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RaycastHit_TypeDefinitionIndex = 5312;
+
 	struct alignas(4) RaycastHit
 	{
 		::UnityEngine::Vector3 m_Point; // 0x10

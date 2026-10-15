@@ -29,6 +29,8 @@ namespace System { class String; }
 #define IMCAMOHNKNK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6B43C0)
 #define IMCAMOHNKNK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6B4420)
 
+inline static constexpr unsigned int IMCAMOHNKNK_TypeDefinitionIndex = 29801;
+
 	class IMCAMOHNKNK : public ::System::Object
 	{
 	public:

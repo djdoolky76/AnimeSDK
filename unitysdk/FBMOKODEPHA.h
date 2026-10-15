@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FBMOKODEPHA_MBLNPEILJEH_OFFSET UNITYSDK_OFFSET(0x2E75370)
 #define FBMOKODEPHA_MJBCGNNLONE_OFFSET UNITYSDK_OFFSET(0x2E752B0)
 
+inline static constexpr unsigned int FBMOKODEPHA_TypeDefinitionIndex = 57683;
+
 	struct alignas(8) FBMOKODEPHA
 	{
 		::System::Collections::Generic::List_1<::RPG::GameCore::FixPoint>* IIHGDFDBFCC; // 0x10

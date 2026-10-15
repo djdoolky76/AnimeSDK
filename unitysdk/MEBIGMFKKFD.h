@@ -29,6 +29,8 @@ namespace System { class String; }
 #define MEBIGMFKKFD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA08330)
 #define MEBIGMFKKFD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA08390)
 
+inline static constexpr unsigned int MEBIGMFKKFD_TypeDefinitionIndex = 30958;
+
 	class MEBIGMFKKFD : public ::System::Object
 	{
 	public:

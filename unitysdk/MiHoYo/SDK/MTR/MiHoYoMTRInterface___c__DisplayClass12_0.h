@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::MTR
 {
+	inline static constexpr unsigned int MiHoYoMTRInterface___c__DisplayClass12_0_TypeDefinitionIndex = 46689;
+
 	class MiHoYoMTRInterface___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

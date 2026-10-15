@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimMoveToNextSplinePointAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimMoveToNextSplinePointAction_TypeDefinitionIndex = 18664;
+
 	class FiveDimMoveToNextSplinePointAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

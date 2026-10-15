@@ -25,6 +25,8 @@ namespace System { class String; }
 #define IMEFDMEGEON_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6B5FB0)
 #define IMEFDMEGEON_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6B6010)
 
+inline static constexpr unsigned int IMEFDMEGEON_TypeDefinitionIndex = 30829;
+
 	class IMEFDMEGEON : public ::System::Object
 	{
 	public:

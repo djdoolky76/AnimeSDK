@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DynamicParam_TypeDefinitionIndex = 18124;
+
 	class DynamicParam : public ::RPG::GameCore::JsonConfig
 	{
 	public:

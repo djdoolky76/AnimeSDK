@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PingPongGridIndex; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PingPongGridIndex_TypeDefinitionIndex = 17002;
+
 	class PingPongGridIndex : public ::RPG::GameCore::JsonConfig
 	{
 	public:

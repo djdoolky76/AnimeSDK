@@ -7,6 +7,8 @@ namespace System { class Action; }
 #define IJLOPPLGLKN___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1646E820)
 #define IJLOPPLGLKN___C__DISPLAYCLASS8_0__SENDPIXAIRPAUSESTAGECSREQWITHCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1646EE50)
 
+inline static constexpr unsigned int IJLOPPLGLKN___c__DisplayClass8_0_TypeDefinitionIndex = 79224;
+
 	class IJLOPPLGLKN___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

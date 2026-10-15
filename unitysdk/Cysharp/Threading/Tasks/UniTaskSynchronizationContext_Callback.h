@@ -8,6 +8,8 @@ namespace System::Threading { class SendOrPostCallback; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTaskSynchronizationContext_Callback_TypeDefinitionIndex = 38447;
+
 	struct alignas(8) UniTaskSynchronizationContext_Callback
 	{
 		::System::Threading::SendOrPostCallback* callback; // 0x10

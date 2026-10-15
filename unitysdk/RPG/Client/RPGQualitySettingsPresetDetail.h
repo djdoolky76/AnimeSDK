@@ -12,6 +12,8 @@ namespace RPG::Client { class CRPShadowSettings; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGQualitySettingsPresetDetail_TypeDefinitionIndex = 67938;
+
 	class RPGQualitySettingsPresetDetail : public ::System::Object
 	{
 	public:

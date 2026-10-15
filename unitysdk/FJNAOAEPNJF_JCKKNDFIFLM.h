@@ -18,6 +18,8 @@ namespace System { class Nullable; }
 #define FJNAOAEPNJF_JCKKNDFIFLM_MFPLEIHIJBI_OFFSET UNITYSDK_OFFSET(0x157DC6E0)
 #define FJNAOAEPNJF_JCKKNDFIFLM_SET_MAINTARGET_OFFSET UNITYSDK_OFFSET(0x157DC6D0)
 
+inline static constexpr unsigned int FJNAOAEPNJF_JCKKNDFIFLM_TypeDefinitionIndex = 57720;
+
 	class FJNAOAEPNJF_JCKKNDFIFLM : public ::System::Object
 	{
 	public:

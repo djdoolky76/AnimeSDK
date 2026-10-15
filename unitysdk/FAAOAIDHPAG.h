@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FAAOAIDHPAG_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CDC24A0)
 #define FAAOAIDHPAG_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CDC1DC0)
 
+inline static constexpr unsigned int FAAOAIDHPAG_TypeDefinitionIndex = 14169;
+
 	class FAAOAIDHPAG : public ::System::Object
 	{
 	public:

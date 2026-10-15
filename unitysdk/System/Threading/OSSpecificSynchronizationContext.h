@@ -19,6 +19,8 @@ namespace System::Threading { class SynchronizationContext; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int OSSpecificSynchronizationContext_TypeDefinitionIndex = 843;
+
 	class OSSpecificSynchronizationContext : public ::System::Threading::SynchronizationContext
 	{
 	public:

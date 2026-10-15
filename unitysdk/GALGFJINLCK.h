@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define GALGFJINLCK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C6293F0)
 #define GALGFJINLCK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C6293A0)
 
+inline static constexpr unsigned int GALGFJINLCK_TypeDefinitionIndex = 36255;
+
 	class GALGFJINLCK : public ::System::MulticastDelegate
 	{
 	public:

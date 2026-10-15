@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define CKAPDOPHKJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC1D200)
 #define CKAPDOPHKJB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC1D100)
 
+inline static constexpr unsigned int CKAPDOPHKJB_TypeDefinitionIndex = 13980;
+
 	class CKAPDOPHKJB : public ::System::Object
 	{
 	public:

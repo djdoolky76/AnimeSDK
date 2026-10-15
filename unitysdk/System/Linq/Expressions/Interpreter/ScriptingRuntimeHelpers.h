@@ -9,6 +9,8 @@ namespace System { class Type; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int ScriptingRuntimeHelpers_TypeDefinitionIndex = 3663;
+
 	class ScriptingRuntimeHelpers : public ::System::Object
 	{
 	public:

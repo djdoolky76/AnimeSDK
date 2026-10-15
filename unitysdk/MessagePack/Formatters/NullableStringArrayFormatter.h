@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int NullableStringArrayFormatter_TypeDefinitionIndex = 7485;
+
 	class NullableStringArrayFormatter : public ::System::Object
 	{
 	public:

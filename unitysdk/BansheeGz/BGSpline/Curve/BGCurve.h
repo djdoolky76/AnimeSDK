@@ -145,6 +145,8 @@ namespace UnityEngine { class Object; }
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGCurve_TypeDefinitionIndex = 35986;
+
 	class BGCurve : public ::UnityEngine::MonoBehaviour
 	{
 	public:

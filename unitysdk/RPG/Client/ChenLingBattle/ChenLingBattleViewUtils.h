@@ -10,6 +10,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int ChenLingBattleViewUtils_TypeDefinitionIndex = 76399;
+
 	class ChenLingBattleViewUtils : public ::System::Object
 	{
 	public:

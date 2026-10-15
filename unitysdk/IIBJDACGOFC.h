@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 #define IIBJDACGOFC_LFIHLIIJADO_OFFSET UNITYSDK_OFFSET(0x16436FD0)
 #define IIBJDACGOFC_LLMDNCAOCDN_OFFSET UNITYSDK_OFFSET(0x16436140)
 
+inline static constexpr unsigned int IIBJDACGOFC_TypeDefinitionIndex = 57200;
+
 	class IIBJDACGOFC : public ::System::Object
 	{
 	public:

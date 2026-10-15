@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MarbleAIDegrade; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleAIDegrade_TypeDefinitionIndex = 16866;
+
 	class MarbleAIDegrade : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OFFMDBMMNFM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE434E0)
 #define OFFMDBMMNFM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE43540)
 
+inline static constexpr unsigned int OFFMDBMMNFM_TypeDefinitionIndex = 29055;
+
 	class OFFMDBMMNFM : public ::System::Object
 	{
 	public:

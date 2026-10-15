@@ -7,6 +7,8 @@
 
 namespace Entitas::CodeGeneration::Attributes
 {
+	inline static constexpr unsigned int AbstractEntityIndexAttribute_TypeDefinitionIndex = 10077;
+
 	class AbstractEntityIndexAttribute : public ::System::Attribute
 	{
 	public:

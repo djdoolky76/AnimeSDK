@@ -29,6 +29,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ImageSmoothMask_TypeDefinitionIndex = 72546;
+
 	class ImageSmoothMask : public ::UnityEngine::MonoBehaviour
 	{
 	public:

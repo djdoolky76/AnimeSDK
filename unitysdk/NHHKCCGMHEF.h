@@ -42,6 +42,8 @@ namespace System { class String; }
 #define NHHKCCGMHEF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB1D0C0)
 #define NHHKCCGMHEF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB1D120)
 
+inline static constexpr unsigned int NHHKCCGMHEF_TypeDefinitionIndex = 27252;
+
 	class NHHKCCGMHEF : public ::System::Object
 	{
 	public:

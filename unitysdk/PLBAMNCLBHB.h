@@ -35,6 +35,8 @@ namespace System { class String; }
 #define PLBAMNCLBHB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF9D580)
 #define PLBAMNCLBHB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF9D5E0)
 
+inline static constexpr unsigned int PLBAMNCLBHB_TypeDefinitionIndex = 33487;
+
 	class PLBAMNCLBHB : public ::System::Object
 	{
 	public:

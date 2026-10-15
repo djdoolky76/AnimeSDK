@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KOFIMLBOMIG_SET_ELATIONABILITYCHANGEPARAMLIST_OFFSET UNITYSDK_OFFSET(0xB594ED0)
 #define KOFIMLBOMIG_SET_ELATIONPOWER_OFFSET UNITYSDK_OFFSET(0xB594EF0)
 
+inline static constexpr unsigned int KOFIMLBOMIG_TypeDefinitionIndex = 55955;
+
 	class KOFIMLBOMIG : public ::LHHEGNEBMLN
 	{
 	public:

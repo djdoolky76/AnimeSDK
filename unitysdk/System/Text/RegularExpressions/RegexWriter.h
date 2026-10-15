@@ -28,6 +28,8 @@ namespace System::Text::RegularExpressions { class RegexTree; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int RegexWriter_TypeDefinitionIndex = 2530;
+
 	class RegexWriter : public ::System::Object
 	{
 	public:

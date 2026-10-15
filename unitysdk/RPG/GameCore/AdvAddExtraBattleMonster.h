@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvAddExtraBattleMonster_TypeDefinitionIndex = 21811;
+
 	class AdvAddExtraBattleMonster : public ::RPG::GameCore::TaskConfig
 	{
 	public:

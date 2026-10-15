@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MFNBLLIDEON_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D162610)
 #define MFNBLLIDEON_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D161F30)
 
+inline static constexpr unsigned int MFNBLLIDEON_TypeDefinitionIndex = 13430;
+
 	class MFNBLLIDEON : public ::System::Object
 	{
 	public:

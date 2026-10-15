@@ -31,6 +31,8 @@ namespace UnityEngine { class Transform; }
 #define OBOCABOPCON_REMOVE_DRAGEXITPANEL_OFFSET UNITYSDK_OFFSET(0xBD4CD70)
 #define OBOCABOPCON_REMOVE_DRAGSTARTED_OFFSET UNITYSDK_OFFSET(0xBD4CA70)
 
+inline static constexpr unsigned int OBOCABOPCON_TypeDefinitionIndex = 81257;
+
 	class OBOCABOPCON : public ::System::Object
 	{
 	public:

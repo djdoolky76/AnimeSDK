@@ -7,6 +7,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_WingInstanceManagerMonoPlugin_TypeDefinitionIndex = 70534;
+
 	class Effect_WingInstanceManagerMonoPlugin
 	{
 	public:

@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsIssueHintPopupWindows_TypeDefinitionIndex = 80371;
+
 	class LimaoNewsIssueHintPopupWindows : public ::Sofa::BaseSofaWindow
 	{
 	public:

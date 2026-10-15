@@ -203,6 +203,8 @@ namespace RPG::GameCore { class RogueActionConfigBase; }
 #define DNNEEMPBFBI_PMCGMLLCBLF_OFFSET UNITYSDK_OFFSET(0x1CD4E0A0)
 #define DNNEEMPBFBI_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1CD4D6A0)
 
+inline static constexpr unsigned int DNNEEMPBFBI_TypeDefinitionIndex = 19581;
+
 	class DNNEEMPBFBI : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AudienceIdentityData_TypeDefinitionIndex = 69122;
+
 	class AudienceIdentityData : public ::System::Object
 	{
 	public:

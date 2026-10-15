@@ -11,6 +11,8 @@ namespace UnityEngine { class Light; }
 #define STAGEHARMONYLIGHTLINKSLOT_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xE9926F0)
 #define STAGEHARMONYLIGHTLINKSLOT_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xE9927D0)
 
+inline static constexpr unsigned int StageHarmonyLightLinkSlot_TypeDefinitionIndex = 47546;
+
 	class StageHarmonyLightLinkSlot : public ::StageHarmonyBaseLinkSlot
 	{
 	public:

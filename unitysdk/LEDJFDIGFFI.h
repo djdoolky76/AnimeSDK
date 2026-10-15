@@ -11,6 +11,8 @@ namespace System { class Action; }
 #define LEDJFDIGFFI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB64E5B0)
 #define LEDJFDIGFFI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB64E560)
 
+inline static constexpr unsigned int LEDJFDIGFFI_TypeDefinitionIndex = 55664;
+
 	class LEDJFDIGFFI
 	{
 	public:

@@ -35,6 +35,8 @@ namespace UnityEngine::UI { class Toggle; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int LoginByQRCode_TypeDefinitionIndex = 9535;
+
 	class LoginByQRCode : public ::MiHoYo::SDK::UIElement
 	{
 	public:

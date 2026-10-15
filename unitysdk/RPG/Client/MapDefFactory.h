@@ -58,6 +58,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MapDefFactory_TypeDefinitionIndex = 62097;
+
 	class MapDefFactory : public ::System::Object
 	{
 	public:

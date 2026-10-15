@@ -13,6 +13,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVROverlay__GetKeyboardText_TypeDefinitionIndex = 39132;
+
 	class IVROverlay__GetKeyboardText : public ::System::MulticastDelegate
 	{
 	public:

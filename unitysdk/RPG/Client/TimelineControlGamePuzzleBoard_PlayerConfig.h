@@ -6,6 +6,8 @@ namespace RPG::Client { class TimelineControlGamePlayerConfigAsset; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimelineControlGamePuzzleBoard_PlayerConfig_TypeDefinitionIndex = 60452;
+
 	struct alignas(8) TimelineControlGamePuzzleBoard_PlayerConfig
 	{
 		::UnityEngine::Vector3Int initPos; // 0x10

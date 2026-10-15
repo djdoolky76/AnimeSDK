@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MAEFAIFDAEF_CTOR_OFFSET UNITYSDK_OFFSET(0xB84C120)
 #define MAEFAIFDAEF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB84C150)
 
+inline static constexpr unsigned int MAEFAIFDAEF_TypeDefinitionIndex = 53887;
+
 	class MAEFAIFDAEF
 	{
 	public:

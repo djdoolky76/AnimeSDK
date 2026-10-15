@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int UIDefine_TypeDefinitionIndex = 8213;
+
 	class UIDefine : public ::System::Object
 	{
 	public:

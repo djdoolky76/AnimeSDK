@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int UninterpretedOption___c_TypeDefinitionIndex = 35809;
+
 	class UninterpretedOption___c : public ::System::Object
 	{
 	public:

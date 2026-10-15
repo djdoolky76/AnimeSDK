@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JIDMMPAOELM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E749C80)
 #define JIDMMPAOELM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E749C90)
 
+inline static constexpr unsigned int JIDMMPAOELM___c_TypeDefinitionIndex = 34218;
+
 	class JIDMMPAOELM___c : public ::System::Object
 	{
 	public:

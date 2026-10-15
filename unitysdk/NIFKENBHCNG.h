@@ -5,6 +5,8 @@
 #define NIFKENBHCNG_EXECUTE_OFFSET UNITYSDK_OFFSET(0x214E0)
 #define NIFKENBHCNG_HFPJMFFFAFH_OFFSET UNITYSDK_OFFSET(0x214C0)
 
+inline static constexpr unsigned int NIFKENBHCNG_TypeDefinitionIndex = 71071;
+
 	struct alignas(4) NIFKENBHCNG
 	{
 		::System::Void HFPJMFFFAFH()

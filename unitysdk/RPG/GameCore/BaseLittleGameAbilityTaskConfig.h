@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BaseLittleGameAbilityTaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaseLittleGameAbilityTaskConfig_TypeDefinitionIndex = 21392;
+
 	class BaseLittleGameAbilityTaskConfig : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -44,6 +44,8 @@ namespace System { class String; }
 #define JDFNPICGCGI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E709E60)
 #define JDFNPICGCGI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E709EC0)
 
+inline static constexpr unsigned int JDFNPICGCGI_TypeDefinitionIndex = 33123;
+
 	class JDFNPICGCGI : public ::System::Object
 	{
 	public:

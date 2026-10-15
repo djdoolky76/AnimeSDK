@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SOTaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelSmartObjectPointInfo_TypeDefinitionIndex = 17368;
+
 	class LevelSmartObjectPointInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

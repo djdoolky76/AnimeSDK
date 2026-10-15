@@ -32,6 +32,8 @@ namespace System { class String; }
 #define GNFDPONFLJD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4DD870)
 #define GNFDPONFLJD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4DD8D0)
 
+inline static constexpr unsigned int GNFDPONFLJD_TypeDefinitionIndex = 33323;
+
 	class GNFDPONFLJD : public ::System::Object
 	{
 	public:

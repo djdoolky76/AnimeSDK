@@ -15,6 +15,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKUploader___c_TypeDefinitionIndex = 46465;
+
 	class MiHoYoSDKUploader___c : public ::System::Object
 	{
 	public:

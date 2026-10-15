@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimeRewindCameraShakeConfig_TypeDefinitionIndex = 16606;
+
 	class TimeRewindCameraShakeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

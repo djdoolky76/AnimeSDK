@@ -12,6 +12,8 @@ namespace RPG::GameCore { class MarbleMatchTitleRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleMatchTitleRow_TypeDefinitionIndex = 11878;
+
 	class MarbleMatchTitleRow : public ::System::Object
 	{
 	public:

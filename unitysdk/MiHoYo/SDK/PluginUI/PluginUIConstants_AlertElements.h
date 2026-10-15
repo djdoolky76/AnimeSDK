@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int PluginUIConstants_AlertElements_TypeDefinitionIndex = 9174;
+
 	class PluginUIConstants_AlertElements : public ::System::Object
 	{
 	public:

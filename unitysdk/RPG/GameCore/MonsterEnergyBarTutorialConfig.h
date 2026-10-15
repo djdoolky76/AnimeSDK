@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MonsterEnergyBarTutorialConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonsterEnergyBarTutorialConfig_TypeDefinitionIndex = 23653;
+
 	class MonsterEnergyBarTutorialConfig : public ::RPG::GameCore::MonsterEnergyBarBaseClickConfig
 	{
 	public:

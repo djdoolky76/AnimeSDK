@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int NexusPlayerWindowsUnityProfile_TypeDefinitionIndex = 41085;
+
 	class NexusPlayerWindowsUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

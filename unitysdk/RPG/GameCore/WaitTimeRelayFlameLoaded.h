@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitTimeRelayFlameLoaded; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitTimeRelayFlameLoaded_TypeDefinitionIndex = 22039;
+
 	class WaitTimeRelayFlameLoaded : public ::RPG::GameCore::TaskConfig
 	{
 	public:

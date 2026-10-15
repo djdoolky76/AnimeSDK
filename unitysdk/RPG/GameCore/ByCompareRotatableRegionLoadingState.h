@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareRotatableRegionLoadingState_TypeDefinitionIndex = 20914;
+
 	class ByCompareRotatableRegionLoadingState : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

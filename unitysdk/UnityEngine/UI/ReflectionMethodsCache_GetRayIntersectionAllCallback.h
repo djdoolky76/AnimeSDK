@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int ReflectionMethodsCache_GetRayIntersectionAllCallback_TypeDefinitionIndex = 6884;
+
 	class ReflectionMethodsCache_GetRayIntersectionAllCallback : public ::System::MulticastDelegate
 	{
 	public:

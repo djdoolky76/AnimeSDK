@@ -5,6 +5,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int AxisBase_TypeDefinitionIndex = 39817;
+
 	struct alignas(4) AxisBase
 	{
 		::System::Single m_Value; // 0x10

@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HPLHOPDDJCM__GETPREDOWNLOADNEEDCLEARFILES_D__3_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15DD2240)
 #define HPLHOPDDJCM__GETPREDOWNLOADNEEDCLEARFILES_D__3___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x15DD2280)
 
+inline static constexpr unsigned int HPLHOPDDJCM__GetPreDownloadNeedClearFiles_d__3_TypeDefinitionIndex = 59490;
+
 	template <typename T1, typename T2, typename T3>
 	class HPLHOPDDJCM__GetPreDownloadNeedClearFiles_d__3 : public ::System::Object
 	{

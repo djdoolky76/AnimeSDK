@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int JSONNode_LinqEnumerator_TypeDefinitionIndex = 8129;
+
 	class JSONNode_LinqEnumerator : public ::System::Object
 	{
 	public:

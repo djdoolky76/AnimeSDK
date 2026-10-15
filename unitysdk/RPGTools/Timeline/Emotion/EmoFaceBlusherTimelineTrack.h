@@ -13,6 +13,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int EmoFaceBlusherTimelineTrack_TypeDefinitionIndex = 48778;
+
 	class EmoFaceBlusherTimelineTrack : public ::RPGTools::Timeline::Emotion::BaseEmoTrack
 	{
 	public:

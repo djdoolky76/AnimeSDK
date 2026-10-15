@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIVirtualCameraController_TypeDefinitionIndex = 69119;
+
 	class UIVirtualCameraController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -12,6 +12,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingFesPredicateItemCondition_TypeDefinitionIndex = 21507;
+
 	class ChenLingFesPredicateItemCondition : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraEntranceRoundConfig_TypeDefinitionIndex = 78487;
+
 	class ChimeraEntranceRoundConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:

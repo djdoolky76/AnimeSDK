@@ -27,6 +27,8 @@ namespace System { class String; }
 #define IANCKAHGKMI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E609910)
 #define IANCKAHGKMI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E609970)
 
+inline static constexpr unsigned int IANCKAHGKMI_TypeDefinitionIndex = 34162;
+
 	class IANCKAHGKMI : public ::System::Object
 	{
 	public:

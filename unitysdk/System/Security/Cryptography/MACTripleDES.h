@@ -14,6 +14,8 @@ namespace System::Security::Cryptography { class TripleDES; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int MACTripleDES_TypeDefinitionIndex = 1033;
+
 	class MACTripleDES : public ::System::Security::Cryptography::KeyedHashAlgorithm
 	{
 	public:

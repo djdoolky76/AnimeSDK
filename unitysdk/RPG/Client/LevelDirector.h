@@ -25,6 +25,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LevelDirector_TypeDefinitionIndex = 59303;
+
 	class LevelDirector : public ::System::Object
 	{
 	public:

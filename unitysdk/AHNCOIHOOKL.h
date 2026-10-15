@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define AHNCOIHOOKL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CCC8410)
 #define AHNCOIHOOKL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CCC7D70)
 
+inline static constexpr unsigned int AHNCOIHOOKL_TypeDefinitionIndex = 11734;
+
 	class AHNCOIHOOKL : public ::System::Object
 	{
 	public:

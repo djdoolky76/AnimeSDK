@@ -10,6 +10,8 @@ namespace System { class String; }
 #define HHFAMBHDEMK_SET_LV3TOGGLENAME_OFFSET UNITYSDK_OFFSET(0x15CCA3C0)
 #define HHFAMBHDEMK_SET_REQUIREDCASTTIME_OFFSET UNITYSDK_OFFSET(0x15CCA3A0)
 
+inline static constexpr unsigned int HHFAMBHDEMK_TypeDefinitionIndex = 75837;
+
 	class HHFAMBHDEMK
 	{
 	public:

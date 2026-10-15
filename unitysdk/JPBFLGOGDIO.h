@@ -22,6 +22,8 @@ namespace UnityEngine { class GameObject; }
 #define JPBFLGOGDIO_SET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xB2AF6C0)
 #define JPBFLGOGDIO_USELIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0xB2AF9C0)
 
+inline static constexpr unsigned int JPBFLGOGDIO_TypeDefinitionIndex = 59380;
+
 	class JPBFLGOGDIO : public ::System::Object
 	{
 	public:

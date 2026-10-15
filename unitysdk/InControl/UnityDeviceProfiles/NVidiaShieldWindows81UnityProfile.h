@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int NVidiaShieldWindows81UnityProfile_TypeDefinitionIndex = 41082;
+
 	class NVidiaShieldWindows81UnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

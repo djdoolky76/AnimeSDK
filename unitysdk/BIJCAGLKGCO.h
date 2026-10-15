@@ -39,6 +39,8 @@ namespace System::IO { class StreamReader; }
 #define BIJCAGLKGCO_NNHOIAJNHNI_OFFSET UNITYSDK_OFFSET(0x1EBF3D40)
 #define BIJCAGLKGCO_PHAGGEDFNOK_OFFSET UNITYSDK_OFFSET(0x1EBF4730)
 
+inline static constexpr unsigned int BIJCAGLKGCO_TypeDefinitionIndex = 35280;
+
 	class BIJCAGLKGCO : public ::System::Object
 	{
 	public:

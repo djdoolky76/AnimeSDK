@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropStateIcon_TypeDefinitionIndex = 12546;
+
 	class PropStateIcon : public ::System::Object
 	{
 	public:

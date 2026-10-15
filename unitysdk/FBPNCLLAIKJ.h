@@ -19,6 +19,8 @@ namespace RPG::GameCore { class GameWorld; }
 #define FBPNCLLAIKJ_LMKPLMOHAMC_OFFSET UNITYSDK_OFFSET(0x156AE940)
 #define FBPNCLLAIKJ_TICK_OFFSET UNITYSDK_OFFSET(0x156AE6A0)
 
+inline static constexpr unsigned int FBPNCLLAIKJ_TypeDefinitionIndex = 61208;
+
 	class FBPNCLLAIKJ : public ::System::Object
 	{
 	public:

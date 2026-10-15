@@ -10,6 +10,8 @@ namespace RPG::GameCore { class HoYoGroupStreamingBlackListItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HoYoGroupStreamingBlackList_TypeDefinitionIndex = 17352;
+
 	class HoYoGroupStreamingBlackList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

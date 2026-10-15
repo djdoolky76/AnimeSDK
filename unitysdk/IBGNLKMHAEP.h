@@ -32,6 +32,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define IBGNLKMHAEP_POBDIHFFIJE_OFFSET UNITYSDK_OFFSET(0x15E34E60)
 #define IBGNLKMHAEP_TICK_OFFSET UNITYSDK_OFFSET(0x15E347F0)
 
+inline static constexpr unsigned int IBGNLKMHAEP_TypeDefinitionIndex = 52407;
+
 	class IBGNLKMHAEP : public ::GELIALJDFBL
 	{
 	public:

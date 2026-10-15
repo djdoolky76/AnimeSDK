@@ -12,6 +12,8 @@ namespace RPG::CustomRP { class CRPProbe; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPProbeBlendGroup_TypeDefinitionIndex = 37684;
+
 	class CRPProbeBlendGroup : public ::UnityEngine::MonoBehaviour
 	{
 	public:

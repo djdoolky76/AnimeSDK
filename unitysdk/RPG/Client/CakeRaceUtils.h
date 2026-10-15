@@ -25,6 +25,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeRaceUtils_TypeDefinitionIndex = 60309;
+
 	class CakeRaceUtils : public ::System::Object
 	{
 	public:

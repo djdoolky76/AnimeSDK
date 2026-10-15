@@ -24,6 +24,8 @@ namespace System { class String; }
 #define ENPCDINJDDM_ONIPLEMHAME_OFFSET UNITYSDK_OFFSET(0x1C6069D0)
 #define ENPCDINJDDM_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1C6068E0)
 
+inline static constexpr unsigned int ENPCDINJDDM_TypeDefinitionIndex = 37198;
+
 	class ENPCDINJDDM : public ::System::Object
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMagicStoryArchiveCollection_TypeDefinitionIndex = 67435;
+
 	class RogueMagicStoryArchiveCollection : public ::System::Object
 	{
 	public:

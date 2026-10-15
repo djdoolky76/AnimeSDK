@@ -15,6 +15,8 @@ namespace UnityEngine::UIElements { class IPanel; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int PointerDeviceState_TypeDefinitionIndex = 5974;
+
 	class PointerDeviceState : public ::System::Object
 	{
 	public:

@@ -38,6 +38,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int FloorCustomValueSnapshot_TypeDefinitionIndex = 25817;
+
 	class FloorCustomValueSnapshot : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ namespace RPG::GameCore { class FourRotateVoxelChestHintConfig; }
 
 #define BKLDFCJFICG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BC3D0)
 
+inline static constexpr unsigned int BKLDFCJFICG_TypeDefinitionIndex = 43242;
+
 	class BKLDFCJFICG : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ class PMMOFOBCINL;
 #define GFNAHGHNICL___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x159FD710)
 #define GFNAHGHNICL___C__DISPLAYCLASS11_0__SYNC_B__0_OFFSET UNITYSDK_OFFSET(0x159FE8D0)
 
+inline static constexpr unsigned int GFNAHGHNICL___c__DisplayClass11_0_TypeDefinitionIndex = 81480;
+
 	class GFNAHGHNICL___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

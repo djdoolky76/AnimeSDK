@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightProjectionUnlockType_TypeDefinitionIndex = 13494;
+
 	enum class GridFightProjectionUnlockType : ::System::Int32
 	{
 		TraitUnlock = 0,

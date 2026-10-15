@@ -6,6 +6,8 @@
 #define EEBPOKCBPAO_CTOR_OFFSET UNITYSDK_OFFSET(0x1334E990)
 #define EEBPOKCBPAO_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0x1334E980)
 
+inline static constexpr unsigned int EEBPOKCBPAO_TypeDefinitionIndex = 76988;
+
 	class EEBPOKCBPAO : public ::MNCOAAIIANF
 	{
 	public:

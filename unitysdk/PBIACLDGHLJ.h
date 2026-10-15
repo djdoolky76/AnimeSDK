@@ -30,6 +30,8 @@ namespace System { class String; }
 #define PBIACLDGHLJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEF6230)
 #define PBIACLDGHLJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEF6290)
 
+inline static constexpr unsigned int PBIACLDGHLJ_TypeDefinitionIndex = 35016;
+
 	class PBIACLDGHLJ : public ::System::Object
 	{
 	public:

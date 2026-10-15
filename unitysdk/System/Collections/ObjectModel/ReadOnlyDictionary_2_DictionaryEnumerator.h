@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace System::Collections::ObjectModel
 {
+	inline static constexpr unsigned int ReadOnlyDictionary_2_DictionaryEnumerator_TypeDefinitionIndex = 1509;
+
 	template <typename T1, typename T2>
 	struct alignas(8) ReadOnlyDictionary_2_DictionaryEnumerator
 	{

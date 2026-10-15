@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int ClippingAttachment_TypeDefinitionIndex = 39654;
+
 	class ClippingAttachment : public ::Spine::VertexAttachment
 	{
 	public:

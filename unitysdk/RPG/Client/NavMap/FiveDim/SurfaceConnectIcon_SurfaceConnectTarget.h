@@ -6,6 +6,8 @@
 
 namespace RPG::Client::NavMap::FiveDim
 {
+	inline static constexpr unsigned int SurfaceConnectIcon_SurfaceConnectTarget_TypeDefinitionIndex = 74680;
+
 	class SurfaceConnectIcon_SurfaceConnectTarget : public ::System::Object
 	{
 	public:

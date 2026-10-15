@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JABLLPHOHLH_HNMMLJPADGI_RENT_OFFSET UNITYSDK_OFFSET(0x1653C6C0)
 #define JABLLPHOHLH_HNMMLJPADGI_RETURN_OFFSET UNITYSDK_OFFSET(0x1653C890)
 
+inline static constexpr unsigned int JABLLPHOHLH_HNMMLJPADGI_TypeDefinitionIndex = 61221;
+
 	class JABLLPHOHLH_HNMMLJPADGI : public ::System::Object
 	{
 	public:

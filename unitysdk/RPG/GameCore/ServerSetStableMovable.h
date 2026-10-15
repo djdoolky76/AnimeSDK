@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ServerSetStableMovable; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ServerSetStableMovable_TypeDefinitionIndex = 21070;
+
 	class ServerSetStableMovable : public ::RPG::GameCore::TaskConfig
 	{
 	public:

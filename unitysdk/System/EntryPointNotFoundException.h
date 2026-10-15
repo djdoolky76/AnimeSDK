@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int EntryPointNotFoundException_TypeDefinitionIndex = 236;
+
 	class EntryPointNotFoundException : public ::System::TypeLoadException
 	{
 	public:

@@ -44,6 +44,8 @@ namespace System { class Type; }
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int Call_TypeDefinitionIndex = 7134;
+
 	struct alignas(8) Call
 	{
 		::PVOID argumentBase; // 0x10

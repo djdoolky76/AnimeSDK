@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 #define EKOEJPIEIML_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x155146C0)
 #define EKOEJPIEIML_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15514650)
 
+inline static constexpr unsigned int EKOEJPIEIML_TypeDefinitionIndex = 56601;
+
 	class EKOEJPIEIML : public ::CMPGEAFHHDC
 	{
 	public:

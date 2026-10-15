@@ -16,6 +16,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Certifica
 
 namespace Mono::Unity
 {
+	inline static constexpr unsigned int UnityTlsStream_TypeDefinitionIndex = 2404;
+
 	class UnityTlsStream : public ::Mono::Net::Security::MobileAuthenticatedStream
 	{
 	public:

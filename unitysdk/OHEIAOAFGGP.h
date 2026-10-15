@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OHEIAOAFGGP_CTOR_OFFSET UNITYSDK_OFFSET(0xBE62D10)
 #define OHEIAOAFGGP_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBE62D60)
 
+inline static constexpr unsigned int OHEIAOAFGGP_TypeDefinitionIndex = 59211;
+
 	class OHEIAOAFGGP
 	{
 	public:

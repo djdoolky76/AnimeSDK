@@ -11,6 +11,8 @@ namespace UnityEngine { class Animator; }
 #define JUMPSTATECONTROLLER_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xB2CF7B0)
 #define JUMPSTATECONTROLLER_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xB2CFAF0)
 
+inline static constexpr unsigned int JumpStateController_TypeDefinitionIndex = 47272;
+
 	class JumpStateController : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:

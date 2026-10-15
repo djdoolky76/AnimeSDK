@@ -59,6 +59,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FDIOCFOAMLD_PANDNKHCBDF_OFFSET UNITYSDK_OFFSET(0x156DC130)
 #define FDIOCFOAMLD_PCOINPOKPNK_OFFSET UNITYSDK_OFFSET(0x156DC7F0)
 
+inline static constexpr unsigned int FDIOCFOAMLD_TypeDefinitionIndex = 74616;
+
 	class FDIOCFOAMLD : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KBGIPLCCOCI_CTOR_OFFSET UNITYSDK_OFFSET(0xB2FD310)
 #define KBGIPLCCOCI_GOLDLOOIIGF_OFFSET UNITYSDK_OFFSET(0xB2FD0B0)
 
+inline static constexpr unsigned int KBGIPLCCOCI_TypeDefinitionIndex = 75354;
+
 	class KBGIPLCCOCI : public ::System::Object
 	{
 	public:

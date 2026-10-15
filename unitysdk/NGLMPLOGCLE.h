@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define NGLMPLOGCLE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBBAF360)
 #define NGLMPLOGCLE_TICK_OFFSET UNITYSDK_OFFSET(0xBBAF240)
 
+inline static constexpr unsigned int NGLMPLOGCLE_TypeDefinitionIndex = 58456;
+
 	class NGLMPLOGCLE : public ::GELIALJDFBL
 	{
 	public:

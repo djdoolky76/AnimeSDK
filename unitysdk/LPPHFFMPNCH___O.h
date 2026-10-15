@@ -4,6 +4,8 @@
 class BOCEFFDMFPM;
 namespace System { template <typename T> class Comparison_1; }
 
+inline static constexpr unsigned int LPPHFFMPNCH___O_TypeDefinitionIndex = 41581;
+
 	class LPPHFFMPNCH___O : public ::System::Object
 	{
 	public:

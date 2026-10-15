@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowExpandElationItem_TypeDefinitionIndex = 23366;
+
 	class ShowExpandElationItem : public ::RPG::GameCore::TaskConfig
 	{
 	public:

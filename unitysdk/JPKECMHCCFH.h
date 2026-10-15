@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JPKECMHCCFH_PMOHEADFDOH_OFFSET UNITYSDK_OFFSET(0xB2C5D10)
 #define JPKECMHCCFH__ONBIND_OFFSET UNITYSDK_OFFSET(0xB2C59A0)
 
+inline static constexpr unsigned int JPKECMHCCFH_TypeDefinitionIndex = 72136;
+
 	class JPKECMHCCFH : public ::FMPCODLIOLG
 	{
 	public:

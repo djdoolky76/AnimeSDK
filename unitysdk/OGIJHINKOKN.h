@@ -27,6 +27,8 @@ namespace System { class String; }
 #define OGIJHINKOKN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE57800)
 #define OGIJHINKOKN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE57860)
 
+inline static constexpr unsigned int OGIJHINKOKN_TypeDefinitionIndex = 32100;
+
 	class OGIJHINKOKN : public ::System::Object
 	{
 	public:

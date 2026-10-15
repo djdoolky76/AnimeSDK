@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonopolyMapCellLayer_TypeDefinitionIndex = 16237;
+
 	class MonopolyMapCellLayer : public ::RPG::GameCore::JsonConfig
 	{
 	public:

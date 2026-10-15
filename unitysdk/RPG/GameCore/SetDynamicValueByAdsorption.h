@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByAdsorption_TypeDefinitionIndex = 23836;
+
 	class SetDynamicValueByAdsorption : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TileMaskZone_TypeDefinitionIndex = 70927;
+
 	class TileMaskZone : public ::System::Object
 	{
 	public:

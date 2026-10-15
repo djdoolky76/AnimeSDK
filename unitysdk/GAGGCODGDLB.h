@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GAGGCODGDLB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E41B930)
 #define GAGGCODGDLB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E41B990)
 
+inline static constexpr unsigned int GAGGCODGDLB_TypeDefinitionIndex = 34734;
+
 	class GAGGCODGDLB : public ::System::Object
 	{
 	public:

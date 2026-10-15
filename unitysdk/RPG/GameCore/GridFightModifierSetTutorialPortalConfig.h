@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierSetTutorialPortalConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierSetTutorialPortalConfig_TypeDefinitionIndex = 19442;
+
 	class GridFightModifierSetTutorialPortalConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

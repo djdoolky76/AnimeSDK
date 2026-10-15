@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BFGNNODONFI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA6D120)
 #define BFGNNODONFI___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1EA6D130)
 
+inline static constexpr unsigned int BFGNNODONFI___c_TypeDefinitionIndex = 27200;
+
 	class BFGNNODONFI___c : public ::System::Object
 	{
 	public:

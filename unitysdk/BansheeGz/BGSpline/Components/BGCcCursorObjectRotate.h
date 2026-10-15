@@ -50,6 +50,8 @@ namespace System { class String; }
 
 namespace BansheeGz::BGSpline::Components
 {
+	inline static constexpr unsigned int BGCcCursorObjectRotate_TypeDefinitionIndex = 36037;
+
 	class BGCcCursorObjectRotate : public ::BansheeGz::BGSpline::Components::BGCcWithCursorObject
 	{
 	public:

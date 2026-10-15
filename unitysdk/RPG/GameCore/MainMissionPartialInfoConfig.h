@@ -12,6 +12,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MainMissionPartialInfoConfig_TypeDefinitionIndex = 19022;
+
 	class MainMissionPartialInfoConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

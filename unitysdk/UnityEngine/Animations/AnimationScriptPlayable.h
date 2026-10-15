@@ -9,6 +9,8 @@
 
 namespace UnityEngine::Animations
 {
+	inline static constexpr unsigned int AnimationScriptPlayable_TypeDefinitionIndex = 5758;
+
 	struct alignas(4) AnimationScriptPlayable
 	{
 		::UnityEngine::Playables::PlayableHandle m_Handle; // 0x10

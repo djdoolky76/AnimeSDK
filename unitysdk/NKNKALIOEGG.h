@@ -8,6 +8,8 @@ class NKNKALIOEGG;
 #define NKNKALIOEGG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D230AB0)
 #define NKNKALIOEGG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2308C0)
 
+inline static constexpr unsigned int NKNKALIOEGG_TypeDefinitionIndex = 11559;
+
 	class NKNKALIOEGG : public ::System::Object
 	{
 	public:

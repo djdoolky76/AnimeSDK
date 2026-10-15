@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InsertAbilityState_TypeDefinitionIndex = 56227;
+
 	enum class InsertAbilityState : ::System::Byte
 	{
 		WaitUse = 1,

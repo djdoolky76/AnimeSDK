@@ -7,6 +7,8 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int PhantomPlayerFrameQuaternionData_TypeDefinitionIndex = 43589;
+
 	class PhantomPlayerFrameQuaternionData
 	{
 	public:

@@ -16,6 +16,8 @@
 
 namespace XInputDotNetPure
 {
+	inline static constexpr unsigned int GamePadButtons_TypeDefinitionIndex = 40781;
+
 	struct alignas(4) GamePadButtons
 	{
 		::XInputDotNetPure::ButtonState start; // 0x10

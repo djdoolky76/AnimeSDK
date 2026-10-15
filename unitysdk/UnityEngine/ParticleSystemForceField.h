@@ -66,6 +66,8 @@ namespace UnityEngine { class Texture3D; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystemForceField_TypeDefinitionIndex = 5291;
+
 	class ParticleSystemForceField : public ::UnityEngine::Component
 	{
 	public:

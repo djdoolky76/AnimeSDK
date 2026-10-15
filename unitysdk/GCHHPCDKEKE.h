@@ -70,6 +70,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define GCHHPCDKEKE_OODIEBHJDFM_OFFSET UNITYSDK_OFFSET(0x1CA807D0)
 #define GCHHPCDKEKE_PCFHGJNMAFP_OFFSET UNITYSDK_OFFSET(0x1CA80F90)
 
+inline static constexpr unsigned int GCHHPCDKEKE_TypeDefinitionIndex = 42830;
+
 	class GCHHPCDKEKE : public ::System::Object
 	{
 	public:

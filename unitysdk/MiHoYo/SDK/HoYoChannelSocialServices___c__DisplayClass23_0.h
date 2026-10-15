@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HoYoChannelSocialServices___c__DisplayClass23_0_TypeDefinitionIndex = 46554;
+
 	class HoYoChannelSocialServices___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:

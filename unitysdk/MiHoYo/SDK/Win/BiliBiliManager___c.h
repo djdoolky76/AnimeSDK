@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int BiliBiliManager___c_TypeDefinitionIndex = 9323;
+
 	class BiliBiliManager___c : public ::System::Object
 	{
 	public:

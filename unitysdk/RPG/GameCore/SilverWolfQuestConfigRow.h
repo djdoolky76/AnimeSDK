@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SilverWolfQuestConfigRow_TypeDefinitionIndex = 12353;
+
 	class SilverWolfQuestConfigRow : public ::System::Object
 	{
 	public:

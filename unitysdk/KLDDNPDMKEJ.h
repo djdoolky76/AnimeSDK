@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define KLDDNPDMKEJ__ISDATAREADYIMPL_OFFSET UNITYSDK_OFFSET(0xB4ED480)
 #define KLDDNPDMKEJ__PREPAREDATAIMPL_OFFSET UNITYSDK_OFFSET(0xB4ED4F0)
 
+inline static constexpr unsigned int KLDDNPDMKEJ_TypeDefinitionIndex = 59890;
+
 	class KLDDNPDMKEJ : public ::RPG::Client::AsyncCheckItemBase
 	{
 	public:

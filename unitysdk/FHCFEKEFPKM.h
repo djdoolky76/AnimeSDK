@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 #define FHCFEKEFPKM_HAGHLMJJPKI_OFFSET UNITYSDK_OFFSET(0x15772B70)
 #define FHCFEKEFPKM__ONBIND_OFFSET UNITYSDK_OFFSET(0x15772520)
 
+inline static constexpr unsigned int FHCFEKEFPKM_TypeDefinitionIndex = 71822;
+
 	class FHCFEKEFPKM : public ::FMPCODLIOLG
 	{
 	public:

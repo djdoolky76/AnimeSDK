@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int RotatePillarPuzzlePillar_TypeDefinitionIndex = 78810;
+
 	class RotatePillarPuzzlePillar : public ::UnityEngine::MonoBehaviour
 	{
 	public:

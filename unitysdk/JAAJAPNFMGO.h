@@ -28,6 +28,8 @@ namespace System { class String; }
 #define JAAJAPNFMGO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6E8330)
 #define JAAJAPNFMGO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6E8390)
 
+inline static constexpr unsigned int JAAJAPNFMGO_TypeDefinitionIndex = 27194;
+
 	class JAAJAPNFMGO : public ::System::Object
 	{
 	public:

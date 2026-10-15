@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HFKKEDPMKKF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E56E350)
 #define HFKKEDPMKKF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E56E360)
 
+inline static constexpr unsigned int HFKKEDPMKKF___c_TypeDefinitionIndex = 34371;
+
 	class HFKKEDPMKKF___c : public ::System::Object
 	{
 	public:

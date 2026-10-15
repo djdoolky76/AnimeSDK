@@ -16,6 +16,8 @@ namespace System { class String; }
 #define DEJDBBDDNEH_PIEONCFHBFI_OFFSET UNITYSDK_OFFSET(0xE50EEF0)
 #define DEJDBBDDNEH_TOSTRING_OFFSET UNITYSDK_OFFSET(0xE50E7F0)
 
+inline static constexpr unsigned int DEJDBBDDNEH_TypeDefinitionIndex = 57815;
+
 	class DEJDBBDDNEH : public ::JHFCIOJIONP
 	{
 	public:

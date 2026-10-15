@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CICBMNILEBG_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DC14960)
 #define CICBMNILEBG_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DC142C0)
 
+inline static constexpr unsigned int CICBMNILEBG_TypeDefinitionIndex = 12675;
+
 	class CICBMNILEBG : public ::System::Object
 	{
 	public:

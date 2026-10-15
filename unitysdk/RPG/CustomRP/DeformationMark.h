@@ -10,6 +10,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int DeformationMark_TypeDefinitionIndex = 37715;
+
 	class DeformationMark : public ::UnityEngine::MonoBehaviour
 	{
 	public:

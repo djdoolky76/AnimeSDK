@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PamChatQuickFunctionMessage_TypeDefinitionIndex = 63287;
+
 	class PamChatQuickFunctionMessage : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MessagePackCode_TypeDefinitionIndex = 7166;
+
 	class MessagePackCode : public ::System::Object
 	{
 	public:

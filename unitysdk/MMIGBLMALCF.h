@@ -8,6 +8,8 @@ class MMIGBLMALCF;
 #define MMIGBLMALCF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1D1C70)
 #define MMIGBLMALCF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1D1B20)
 
+inline static constexpr unsigned int MMIGBLMALCF_TypeDefinitionIndex = 13503;
+
 	class MMIGBLMALCF : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 #include "unitysdk/RPG/MVector3.h"
 namespace System { class String; }
 
+inline static constexpr unsigned int KCNLLMOFJNM_TypeDefinitionIndex = 57742;
+
 	struct alignas(8) KCNLLMOFJNM
 	{
 		::System::Int32 BJIOBCHFCAA; // 0x10

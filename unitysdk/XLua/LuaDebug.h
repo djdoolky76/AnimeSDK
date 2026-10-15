@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int LuaDebug_TypeDefinitionIndex = 50251;
+
 	class LuaDebug : public ::System::Object
 	{
 	public:

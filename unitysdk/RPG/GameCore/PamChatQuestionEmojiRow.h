@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PamChatQuestionEmojiRow_TypeDefinitionIndex = 14317;
+
 	class PamChatQuestionEmojiRow : public ::System::Object
 	{
 	public:

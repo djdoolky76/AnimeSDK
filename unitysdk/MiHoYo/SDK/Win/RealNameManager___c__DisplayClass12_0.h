@@ -11,6 +11,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int RealNameManager___c__DisplayClass12_0_TypeDefinitionIndex = 9349;
+
 	class RealNameManager___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

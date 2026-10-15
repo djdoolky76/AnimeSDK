@@ -6,6 +6,8 @@
 #define BODAHCIJODK_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xC18E070)
 #define BODAHCIJODK_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xC18E080)
 
+inline static constexpr unsigned int BODAHCIJODK_TypeDefinitionIndex = 74016;
+
 	class BODAHCIJODK : public ::HPGKMODCGOD
 	{
 	public:

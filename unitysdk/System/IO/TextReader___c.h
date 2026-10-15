@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int TextReader___c_TypeDefinitionIndex = 700;
+
 	class TextReader___c : public ::System::Object
 	{
 	public:

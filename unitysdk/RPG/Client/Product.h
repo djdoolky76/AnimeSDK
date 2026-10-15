@@ -51,6 +51,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Product_TypeDefinitionIndex = 66442;
+
 	class Product : public ::System::Object
 	{
 	public:

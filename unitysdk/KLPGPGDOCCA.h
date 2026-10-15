@@ -26,6 +26,8 @@ namespace UnityEngine { class ComputeBuffer; }
 #define KLPGPGDOCCA_PNIEFOONFOP_OFFSET UNITYSDK_OFFSET(0xB5368E0)
 #define KLPGPGDOCCA_TICK_OFFSET UNITYSDK_OFFSET(0xB536F20)
 
+inline static constexpr unsigned int KLPGPGDOCCA_TypeDefinitionIndex = 70317;
+
 	class KLPGPGDOCCA : public ::RPG::Client::TABehaviorBase
 	{
 	public:

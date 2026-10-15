@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HDHPAHIFEPM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E54C8C0)
 #define HDHPAHIFEPM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E54C920)
 
+inline static constexpr unsigned int HDHPAHIFEPM_TypeDefinitionIndex = 28683;
+
 	class HDHPAHIFEPM : public ::System::Object
 	{
 	public:

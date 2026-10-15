@@ -15,6 +15,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyActivityData_TypeDefinitionIndex = 61641;
+
 	class MonopolyActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

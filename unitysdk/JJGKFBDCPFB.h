@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define JJGKFBDCPFB_LLCOJMAGPAL_OFFSET UNITYSDK_OFFSET(0x1C6FFCD0)
 #define JJGKFBDCPFB_LLLKMJCJNFN_OFFSET UNITYSDK_OFFSET(0x1C6FFDB0)
 
+inline static constexpr unsigned int JJGKFBDCPFB_TypeDefinitionIndex = 36873;
+
 	class JJGKFBDCPFB : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournBuildRefTeamRecomResult_TypeDefinitionIndex = 67542;
+
 	class RogueTournBuildRefTeamRecomResult : public ::System::Object
 	{
 	public:

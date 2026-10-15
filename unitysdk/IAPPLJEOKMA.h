@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define IAPPLJEOKMA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15E275B0)
 #define IAPPLJEOKMA_TICK_OFFSET UNITYSDK_OFFSET(0x15E27500)
 
+inline static constexpr unsigned int IAPPLJEOKMA_TypeDefinitionIndex = 58474;
+
 	class IAPPLJEOKMA : public ::GELIALJDFBL
 	{
 	public:

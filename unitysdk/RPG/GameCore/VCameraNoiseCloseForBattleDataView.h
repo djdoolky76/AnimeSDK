@@ -10,6 +10,8 @@ namespace RPG::GameCore { class VCameraNoiseCloseForBattleDataView; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VCameraNoiseCloseForBattleDataView_TypeDefinitionIndex = 23390;
+
 	class VCameraNoiseCloseForBattleDataView : public ::RPG::GameCore::TaskConfig
 	{
 	public:

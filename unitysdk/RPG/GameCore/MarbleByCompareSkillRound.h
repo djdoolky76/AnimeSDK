@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleByCompareSkillRound_TypeDefinitionIndex = 16885;
+
 	class MarbleByCompareSkillRound : public ::RPG::GameCore::MarblePredicateConfig
 	{
 	public:

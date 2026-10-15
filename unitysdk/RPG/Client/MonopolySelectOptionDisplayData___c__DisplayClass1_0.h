@@ -8,6 +8,8 @@ class BLKEPPAFKNF;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolySelectOptionDisplayData___c__DisplayClass1_0_TypeDefinitionIndex = 66291;
+
 	class MonopolySelectOptionDisplayData___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

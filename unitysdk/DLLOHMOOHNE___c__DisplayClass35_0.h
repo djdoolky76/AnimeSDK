@@ -8,6 +8,8 @@ class LKKHHKCMLDN;
 #define DLLOHMOOHNE___C__DISPLAYCLASS35_0_CTOR_OFFSET UNITYSDK_OFFSET(0xF8B23C0)
 #define DLLOHMOOHNE___C__DISPLAYCLASS35_0___PLAYNPCTRIGGERSOUND_B__0_OFFSET UNITYSDK_OFFSET(0xF8B2920)
 
+inline static constexpr unsigned int DLLOHMOOHNE___c__DisplayClass35_0_TypeDefinitionIndex = 57070;
+
 	class DLLOHMOOHNE___c__DisplayClass35_0 : public ::System::Object
 	{
 	public:

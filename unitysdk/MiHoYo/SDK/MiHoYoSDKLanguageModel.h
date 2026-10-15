@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKLanguageModel_TypeDefinitionIndex = 46348;
+
 	class MiHoYoSDKLanguageModel : public ::System::Object
 	{
 	public:

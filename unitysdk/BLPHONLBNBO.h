@@ -29,6 +29,8 @@ namespace System { class String; }
 #define BLPHONLBNBO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF67830)
 #define BLPHONLBNBO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF67890)
 
+inline static constexpr unsigned int BLPHONLBNBO_TypeDefinitionIndex = 32316;
+
 	class BLPHONLBNBO : public ::System::Object
 	{
 	public:

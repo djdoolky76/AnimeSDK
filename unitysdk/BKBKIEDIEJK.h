@@ -8,6 +8,8 @@ class EKFKFEBANDA;
 #define BKBKIEDIEJK_BCGJEJCFCCN_OFFSET UNITYSDK_OFFSET(0xB7ACBE0)
 #define BKBKIEDIEJK_CTOR_OFFSET UNITYSDK_OFFSET(0xB7ACBD0)
 
+inline static constexpr unsigned int BKBKIEDIEJK_TypeDefinitionIndex = 80105;
+
 	class BKBKIEDIEJK : public ::System::Object
 	{
 	public:

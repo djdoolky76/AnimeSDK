@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AudioManager___c__DisplayClass247_0_TypeDefinitionIndex = 59732;
+
 	class AudioManager___c__DisplayClass247_0 : public ::System::Object
 	{
 	public:

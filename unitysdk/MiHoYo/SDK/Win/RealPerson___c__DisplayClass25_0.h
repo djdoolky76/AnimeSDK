@@ -9,6 +9,8 @@ namespace MiHoYo::SDK::Win { class RealPerson; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int RealPerson___c__DisplayClass25_0_TypeDefinitionIndex = 9491;
+
 	class RealPerson___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetViewModeServantFollow_TypeDefinitionIndex = 22916;
+
 	class SetViewModeServantFollow : public ::RPG::GameCore::TaskConfig
 	{
 	public:

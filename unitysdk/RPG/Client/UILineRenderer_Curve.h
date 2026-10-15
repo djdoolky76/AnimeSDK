@@ -4,6 +4,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UILineRenderer_Curve_TypeDefinitionIndex = 72695;
+
 	struct alignas(4) UILineRenderer_Curve
 	{
 		::UnityEngine::Vector2 startPoint; // 0x10

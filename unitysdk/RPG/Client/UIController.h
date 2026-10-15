@@ -314,6 +314,8 @@ namespace UnityEngine::UI { class SmoothMask; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIController_TypeDefinitionIndex = 73035;
+
 	class UIController : public ::System::Object
 	{
 	public:

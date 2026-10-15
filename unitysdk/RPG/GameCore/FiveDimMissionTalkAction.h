@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SimpleTalkListConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimMissionTalkAction_TypeDefinitionIndex = 18759;
+
 	class FiveDimMissionTalkAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define ONBINEIJCEG_CTOR_OFFSET UNITYSDK_OFFSET(0xBF4A2A0)
 
+inline static constexpr unsigned int ONBINEIJCEG_TypeDefinitionIndex = 54316;
+
 	class ONBINEIJCEG : public ::System::Object
 	{
 	public:

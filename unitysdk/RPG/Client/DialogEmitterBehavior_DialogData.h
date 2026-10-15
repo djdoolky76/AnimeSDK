@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DialogEmitterBehavior_DialogData_TypeDefinitionIndex = 70885;
+
 	class DialogEmitterBehavior_DialogData : public ::System::Object
 	{
 	public:

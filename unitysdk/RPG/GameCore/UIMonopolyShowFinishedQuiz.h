@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UIMonopolyShowFinishedQuiz; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UIMonopolyShowFinishedQuiz_TypeDefinitionIndex = 21729;
+
 	class UIMonopolyShowFinishedQuiz : public ::RPG::GameCore::TaskConfig
 	{
 	public:

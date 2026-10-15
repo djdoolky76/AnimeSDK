@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class Match3EnvConfig; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int Match3EnvConfig_TypeDefinitionIndex = 24927;
+
 	class Match3EnvConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

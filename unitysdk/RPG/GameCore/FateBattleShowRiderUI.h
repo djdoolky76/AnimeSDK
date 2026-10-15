@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateBattleShowRiderUI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateBattleShowRiderUI_TypeDefinitionIndex = 23291;
+
 	class FateBattleShowRiderUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

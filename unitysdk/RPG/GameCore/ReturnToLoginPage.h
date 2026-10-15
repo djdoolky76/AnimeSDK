@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ReturnToLoginPage_TypeDefinitionIndex = 21091;
+
 	class ReturnToLoginPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define ELFHABPLJJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1551F840)
 #define ELFHABPLJJE_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x1551F9A0)
 
+inline static constexpr unsigned int ELFHABPLJJE_TypeDefinitionIndex = 61719;
+
 	class ELFHABPLJJE : public ::System::Object
 	{
 	public:

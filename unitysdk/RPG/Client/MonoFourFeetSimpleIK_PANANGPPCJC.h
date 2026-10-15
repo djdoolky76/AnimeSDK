@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoFourFeetSimpleIK_PANANGPPCJC_TypeDefinitionIndex = 68594;
+
 	class MonoFourFeetSimpleIK_PANANGPPCJC : public ::System::Object
 	{
 	public:

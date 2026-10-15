@@ -11,6 +11,8 @@ namespace RPG::GameCore { class AdventureAttackDetectBoxConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureAttackDetectBoxConfig_TypeDefinitionIndex = 16274;
+
 	class AdventureAttackDetectBoxConfig : public ::RPG::GameCore::AdventureAttackDetectShapeConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int MatchSparse_TypeDefinitionIndex = 2519;
+
 	class MatchSparse : public ::System::Text::RegularExpressions::Match
 	{
 	public:

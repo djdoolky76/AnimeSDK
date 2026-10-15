@@ -5,6 +5,8 @@ class BDKNHKCLPIC;
 
 #define HPDGCJJCBIH_CTOR_OFFSET UNITYSDK_OFFSET(0x15DC22C0)
 
+inline static constexpr unsigned int HPDGCJJCBIH_TypeDefinitionIndex = 63924;
+
 	class HPDGCJJCBIH : public ::System::Object
 	{
 	public:

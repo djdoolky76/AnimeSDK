@@ -8,6 +8,8 @@ namespace RPG::Client { class GridFightConsumableItemData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTutorialManager___c__DisplayClass5_0_TypeDefinitionIndex = 65511;
+
 	class GridFightTutorialManager___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

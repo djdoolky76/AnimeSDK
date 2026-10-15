@@ -6,6 +6,8 @@
 #define JEBKDABMPDA_BPMGPFLHPLC_OFFSET UNITYSDK_OFFSET(0x166195C0)
 #define JEBKDABMPDA_CTOR_OFFSET UNITYSDK_OFFSET(0x16619610)
 
+inline static constexpr unsigned int JEBKDABMPDA_TypeDefinitionIndex = 77034;
+
 	class JEBKDABMPDA : public ::EGFGCOMABKB
 	{
 	public:

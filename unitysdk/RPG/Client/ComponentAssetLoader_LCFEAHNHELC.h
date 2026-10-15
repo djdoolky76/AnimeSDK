@@ -12,6 +12,8 @@ namespace System { class Type; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ComponentAssetLoader_LCFEAHNHELC_TypeDefinitionIndex = 68393;
+
 	class ComponentAssetLoader_LCFEAHNHELC : public ::System::Object
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OHOLPLFAOLF_SET_COMMANDS_OFFSET UNITYSDK_OFFSET(0xBE75700)
 #define OHOLPLFAOLF_TICK_OFFSET UNITYSDK_OFFSET(0xBE75C80)
 
+inline static constexpr unsigned int OHOLPLFAOLF_TypeDefinitionIndex = 77647;
+
 	class OHOLPLFAOLF : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int TypeRegistry_TypeDefinitionIndex = 35857;
+
 	class TypeRegistry : public ::System::Object
 	{
 	public:

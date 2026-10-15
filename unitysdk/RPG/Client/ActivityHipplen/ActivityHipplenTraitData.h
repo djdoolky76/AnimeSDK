@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenTraitData_TypeDefinitionIndex = 75505;
+
 	class ActivityHipplenTraitData : public ::System::Object
 	{
 	public:

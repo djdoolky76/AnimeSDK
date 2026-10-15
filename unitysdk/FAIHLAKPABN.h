@@ -40,6 +40,8 @@ namespace System { class String; }
 #define FAIHLAKPABN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E325F20)
 #define FAIHLAKPABN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E325F80)
 
+inline static constexpr unsigned int FAIHLAKPABN_TypeDefinitionIndex = 29690;
+
 	class FAIHLAKPABN : public ::System::Object
 	{
 	public:

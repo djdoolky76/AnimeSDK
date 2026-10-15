@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightEnemyDifficultyLvConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightEnemyDifficultyLvConfigRow_TypeDefinitionIndex = 13641;
+
 	class GridFightEnemyDifficultyLvConfigRow : public ::System::Object
 	{
 	public:

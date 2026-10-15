@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarPrototypeHelper_TypeDefinitionIndex = 62641;
+
 	class AvatarPrototypeHelper : public ::System::Object
 	{
 	public:

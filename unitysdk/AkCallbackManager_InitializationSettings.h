@@ -5,6 +5,8 @@
 #define AKCALLBACKMANAGER_INITIALIZATIONSETTINGS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F581D00)
 #define AKCALLBACKMANAGER_INITIALIZATIONSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F57D560)
 
+inline static constexpr unsigned int AkCallbackManager_InitializationSettings_TypeDefinitionIndex = 44830;
+
 	class AkCallbackManager_InitializationSettings : public ::System::Object
 	{
 	public:

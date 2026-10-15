@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MazeBuffData; }
 
 namespace RPG::Client::FateRin::Challenge
 {
+	inline static constexpr unsigned int FateRinBattlePauseChallengeViewModel___c__DisplayClass1_0_TypeDefinitionIndex = 81029;
+
 	class FateRinBattlePauseChallengeViewModel___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

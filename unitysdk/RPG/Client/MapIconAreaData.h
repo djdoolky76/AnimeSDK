@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MapIconAreaData_TypeDefinitionIndex = 62902;
+
 	class MapIconAreaData : public ::System::Object
 	{
 	public:

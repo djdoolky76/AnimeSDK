@@ -13,6 +13,8 @@ namespace UnityEngine::ProBuilder { class FaceRebuildData; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int ExtrudeElements___c_TypeDefinitionIndex = 44498;
+
 	class ExtrudeElements___c : public ::System::Object
 	{
 	public:

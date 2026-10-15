@@ -11,6 +11,8 @@ namespace RPG::GameCore { class AdvHideMazeBtn; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvHideMazeBtn_TypeDefinitionIndex = 23842;
+
 	class AdvHideMazeBtn : public ::RPG::GameCore::TaskConfig
 	{
 	public:

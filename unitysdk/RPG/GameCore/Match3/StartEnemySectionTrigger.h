@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class StartEnemySectionTrigger; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int StartEnemySectionTrigger_TypeDefinitionIndex = 24880;
+
 	class StartEnemySectionTrigger : public ::RPG::GameCore::Match3::Match3TriggerBase
 	{
 	public:

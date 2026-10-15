@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int HebrewNumber_TypeDefinitionIndex = 755;
+
 	class HebrewNumber : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace RPG::GameCore { class ChenLingBattleEffectConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAbility_Split_TypeDefinitionIndex = 15746;
+
 	class ChenLingBattleAbility_Split : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
+	inline static constexpr unsigned int BindingWelcomeDialog_TypeDefinitionIndex = 8422;
+
 	class BindingWelcomeDialog : public ::System::Object
 	{
 	public:

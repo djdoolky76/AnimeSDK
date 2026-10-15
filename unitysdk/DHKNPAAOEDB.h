@@ -7,6 +7,8 @@
 #define DHKNPAAOEDB_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0xEBE74B0)
 #define DHKNPAAOEDB_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0xEBE7600)
 
+inline static constexpr unsigned int DHKNPAAOEDB_TypeDefinitionIndex = 77100;
+
 	class DHKNPAAOEDB : public ::GJOFNOCMMKL
 	{
 	public:

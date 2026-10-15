@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NFCAGHNKJOA___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C793390)
 #define NFCAGHNKJOA___C__DISPLAYCLASS1_0__ENTERIMPL_B__0_OFFSET UNITYSDK_OFFSET(0x1C793610)
 
+inline static constexpr unsigned int NFCAGHNKJOA___c__DisplayClass1_0_TypeDefinitionIndex = 37350;
+
 	class NFCAGHNKJOA___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

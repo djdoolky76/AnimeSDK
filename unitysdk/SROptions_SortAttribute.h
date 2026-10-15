@@ -4,6 +4,8 @@
 
 #define SROPTIONS_SORTATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0xB0BF0A0)
 
+inline static constexpr unsigned int SROptions_SortAttribute_TypeDefinitionIndex = 45926;
+
 	class SROptions_SortAttribute : public ::SRDebugger::SortAttribute
 	{
 	public:

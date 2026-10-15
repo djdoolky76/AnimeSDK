@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define AENNHDIEKOE_LHGEJDDHCAL_OFFSET UNITYSDK_OFFSET(0xCF03950)
 #define AENNHDIEKOE_SET_STARTCELLID_OFFSET UNITYSDK_OFFSET(0xCF03940)
 
+inline static constexpr unsigned int AENNHDIEKOE_TypeDefinitionIndex = 75809;
+
 	class AENNHDIEKOE : public ::System::Object
 	{
 	public:

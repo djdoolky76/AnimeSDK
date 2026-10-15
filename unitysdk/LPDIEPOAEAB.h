@@ -16,6 +16,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LPDIEPOAEAB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB81E0C0)
 #define LPDIEPOAEAB_TICK_OFFSET UNITYSDK_OFFSET(0xB81E590)
 
+inline static constexpr unsigned int LPDIEPOAEAB_TypeDefinitionIndex = 53346;
+
 	class LPDIEPOAEAB : public ::GDBHHBCMEFL
 	{
 	public:

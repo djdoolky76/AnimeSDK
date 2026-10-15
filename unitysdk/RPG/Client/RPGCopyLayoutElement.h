@@ -20,6 +20,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGCopyLayoutElement_TypeDefinitionIndex = 72637;
+
 	class RPGCopyLayoutElement : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

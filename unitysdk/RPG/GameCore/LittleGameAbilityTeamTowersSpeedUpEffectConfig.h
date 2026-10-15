@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAbilityTeamTowersSpeedUpEffectConfig; 
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityTeamTowersSpeedUpEffectConfig_TypeDefinitionIndex = 21412;
+
 	class LittleGameAbilityTeamTowersSpeedUpEffectConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:

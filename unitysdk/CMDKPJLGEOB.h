@@ -10,6 +10,8 @@ namespace System { class String; }
 #define CMDKPJLGEOB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCAF9D0)
 #define CMDKPJLGEOB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCAF1A0)
 
+inline static constexpr unsigned int CMDKPJLGEOB_TypeDefinitionIndex = 11578;
+
 	class CMDKPJLGEOB : public ::System::Object
 	{
 	public:

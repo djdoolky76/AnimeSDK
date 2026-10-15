@@ -4,6 +4,8 @@
 
 #define HPDMDPFCDKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x202EFC0)
 
+inline static constexpr unsigned int HPDMDPFCDKJ_TypeDefinitionIndex = 57791;
+
 	struct alignas(4) HPDMDPFCDKJ
 	{
 		::UnityEngine::Vector3 IKINMNCCKJI; // 0x10

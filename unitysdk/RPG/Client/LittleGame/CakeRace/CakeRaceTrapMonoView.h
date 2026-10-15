@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceTrapMonoView_TypeDefinitionIndex = 78159;
+
 	class CakeRaceTrapMonoView : public ::RPG::Client::LittleGame::CakeRace::CakeRaceCellMonoView
 	{
 	public:

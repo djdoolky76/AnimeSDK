@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::SwordTraining
 {
+	inline static constexpr unsigned int SwordTrainingRandomEventData_TypeDefinitionIndex = 75042;
+
 	class SwordTrainingRandomEventData : public ::System::Object
 	{
 	public:

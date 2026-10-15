@@ -68,6 +68,8 @@ namespace UnityEngine { class GameObject; }
 #define KBKJEDAFBDO_PCDGOCDNBPN_OFFSET UNITYSDK_OFFSET(0xB30DF50)
 #define KBKJEDAFBDO_PCLJBCCDOIB_OFFSET UNITYSDK_OFFSET(0xB30CE70)
 
+inline static constexpr unsigned int KBKJEDAFBDO_TypeDefinitionIndex = 60521;
+
 	class KBKJEDAFBDO : public ::System::Object
 	{
 	public:

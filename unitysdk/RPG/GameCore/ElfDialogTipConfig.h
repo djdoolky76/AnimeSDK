@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfDialogTipConfig_TypeDefinitionIndex = 18468;
+
 	class ElfDialogTipConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

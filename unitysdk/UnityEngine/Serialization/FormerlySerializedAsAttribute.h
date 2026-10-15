@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Serialization
 {
+	inline static constexpr unsigned int FormerlySerializedAsAttribute_TypeDefinitionIndex = 4501;
+
 	class FormerlySerializedAsAttribute : public ::System::Attribute
 	{
 	public:

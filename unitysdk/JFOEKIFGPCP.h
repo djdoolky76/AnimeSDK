@@ -31,6 +31,8 @@ namespace System { class String; }
 #define JFOEKIFGPCP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7323F0)
 #define JFOEKIFGPCP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E732450)
 
+inline static constexpr unsigned int JFOEKIFGPCP_TypeDefinitionIndex = 30170;
+
 	class JFOEKIFGPCP : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ExpeditionBattleSwitchBranchNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ExpeditionBattleSwitchBranchNode_TypeDefinitionIndex = 16200;
+
 	class ExpeditionBattleSwitchBranchNode : public ::RPG::GameCore::BaseExpeditionBattleNode
 	{
 	public:

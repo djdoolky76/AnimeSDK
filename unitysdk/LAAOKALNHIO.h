@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define LAAOKALNHIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C71F320)
 
+inline static constexpr unsigned int LAAOKALNHIO_TypeDefinitionIndex = 36914;
+
 	class LAAOKALNHIO : public ::System::Object
 	{
 	public:

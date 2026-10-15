@@ -8,6 +8,8 @@ namespace RPG::Client::Promises { class Promise; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SDKLoginPhase___c__DisplayClass9_0_TypeDefinitionIndex = 61161;
+
 	class SDKLoginPhase___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

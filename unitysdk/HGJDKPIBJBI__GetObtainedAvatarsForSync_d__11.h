@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define HGJDKPIBJBI__GETOBTAINEDAVATARSFORSYNC_D__11_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15CA37A0)
 #define HGJDKPIBJBI__GETOBTAINEDAVATARSFORSYNC_D__11___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x15CA37B0)
 
+inline static constexpr unsigned int HGJDKPIBJBI__GetObtainedAvatarsForSync_d__11_TypeDefinitionIndex = 62671;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11>
 	class HGJDKPIBJBI__GetObtainedAvatarsForSync_d__11 : public ::System::Object
 	{

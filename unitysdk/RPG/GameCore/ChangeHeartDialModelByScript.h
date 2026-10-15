@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChangeHeartDialModelByScript_TypeDefinitionIndex = 21897;
+
 	class ChangeHeartDialModelByScript : public ::RPG::GameCore::TaskConfig
 	{
 	public:

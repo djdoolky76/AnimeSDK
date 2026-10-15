@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ClockParkTalkTextRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClockParkTalkTextRow_TypeDefinitionIndex = 11194;
+
 	class ClockParkTalkTextRow : public ::System::Object
 	{
 	public:

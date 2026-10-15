@@ -8,6 +8,8 @@ namespace RPG::Client::B51Racing { class B51RacingCarDevelopPartTabViewModel; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingCarDevelopPageViewModel_TypeDefinitionIndex = 82014;
+
 	class B51RacingCarDevelopPageViewModel : public ::System::Object
 	{
 	public:

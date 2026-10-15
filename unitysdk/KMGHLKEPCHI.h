@@ -6,6 +6,8 @@ class INHCJHBALFC;
 #define KMGHLKEPCHI_CTOR_OFFSET UNITYSDK_OFFSET(0xB554FB0)
 #define KMGHLKEPCHI_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB554F10)
 
+inline static constexpr unsigned int KMGHLKEPCHI_TypeDefinitionIndex = 54264;
+
 	class KMGHLKEPCHI : public ::BHDAFDOMINP
 	{
 	public:

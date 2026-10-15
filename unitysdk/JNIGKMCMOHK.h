@@ -7,6 +7,8 @@
 #define JNIGKMCMOHK_KDMFMIFMBFI_OFFSET UNITYSDK_OFFSET(0xB282B00)
 #define JNIGKMCMOHK_LLKPNINALOJ_OFFSET UNITYSDK_OFFSET(0xB282B90)
 
+inline static constexpr unsigned int JNIGKMCMOHK_TypeDefinitionIndex = 62169;
+
 	class JNIGKMCMOHK : public ::System::Object
 	{
 	public:

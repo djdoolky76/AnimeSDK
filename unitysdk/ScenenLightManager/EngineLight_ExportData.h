@@ -27,6 +27,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int EngineLight_ExportData_TypeDefinitionIndex = 49099;
+
 	class EngineLight_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{
 	public:

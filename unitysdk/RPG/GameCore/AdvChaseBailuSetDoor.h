@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvChaseBailuSetDoor; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvChaseBailuSetDoor_TypeDefinitionIndex = 22229;
+
 	class AdvChaseBailuSetDoor : public ::RPG::GameCore::TaskConfig
 	{
 	public:

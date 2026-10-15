@@ -7,6 +7,8 @@ class OAMEEKBFMHL;
 #define OAMEEKBFMHL___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBD2DC80)
 #define OAMEEKBFMHL___C__DISPLAYCLASS13_0__STARTDOWNLOADPATCH_B__0_OFFSET UNITYSDK_OFFSET(0xBD2E980)
 
+inline static constexpr unsigned int OAMEEKBFMHL___c__DisplayClass13_0_TypeDefinitionIndex = 75624;
+
 	class OAMEEKBFMHL___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

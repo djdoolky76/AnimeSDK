@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int DADCLCMLNNF_PlayState_TypeDefinitionIndex = 71349;
+
 	enum class DADCLCMLNNF_PlayState : ::System::Int32
 	{
 		NotPlay = 0,

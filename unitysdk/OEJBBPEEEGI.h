@@ -28,6 +28,8 @@ namespace System { class String; }
 #define OEJBBPEEEGI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE2D230)
 #define OEJBBPEEEGI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE2D290)
 
+inline static constexpr unsigned int OEJBBPEEEGI_TypeDefinitionIndex = 26404;
+
 	class OEJBBPEEEGI : public ::System::Object
 	{
 	public:

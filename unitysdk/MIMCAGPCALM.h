@@ -67,6 +67,8 @@ namespace System { class Action; }
 #define MIMCAGPCALM_REMOVE_ONVOTERESULT_OFFSET UNITYSDK_OFFSET(0xB95C5C0)
 #define MIMCAGPCALM_REMOVE_ONVOTERSP_OFFSET UNITYSDK_OFFSET(0xB95C420)
 
+inline static constexpr unsigned int MIMCAGPCALM_TypeDefinitionIndex = 78112;
+
 	class MIMCAGPCALM : public ::System::Object
 	{
 	public:

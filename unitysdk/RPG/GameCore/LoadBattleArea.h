@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LoadBattleArea; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoadBattleArea_TypeDefinitionIndex = 23320;
+
 	class LoadBattleArea : public ::RPG::GameCore::TaskConfig
 	{
 	public:

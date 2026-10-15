@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterOverrideConfig_TypeDefinitionIndex = 16518;
+
 	class CharacterOverrideConfig : public ::RPG::GameCore::CharacterConfig
 	{
 	public:

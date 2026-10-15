@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PPDGBIFKBAC_LJHEKDELELC_OFFSET UNITYSDK_OFFSET(0xC37C5A0)
 #define PPDGBIFKBAC_MEGKDGHHCFM_OFFSET UNITYSDK_OFFSET(0xC37C2A0)
 
+inline static constexpr unsigned int PPDGBIFKBAC_TypeDefinitionIndex = 63900;
+
 	class PPDGBIFKBAC : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatOptionTalkInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatOptionTalkInfo_TypeDefinitionIndex = 20848;
+
 	class DiceCombatOptionTalkInfo : public ::RPG::GameCore::OptionTalkInfo
 	{
 	public:

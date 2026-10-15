@@ -12,6 +12,8 @@ namespace RPG::Client { class CameraFightStateCommonConfig; }
 #define PFDDKOMMFJC_REFRESH_OFFSET UNITYSDK_OFFSET(0xC207780)
 #define PFDDKOMMFJC_RESET_OFFSET UNITYSDK_OFFSET(0xC2077C0)
 
+inline static constexpr unsigned int PFDDKOMMFJC_TypeDefinitionIndex = 69590;
+
 	class PFDDKOMMFJC : public ::System::Object
 	{
 	public:

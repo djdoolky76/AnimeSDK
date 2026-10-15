@@ -6,6 +6,8 @@
 
 namespace BansheeGz::BGSpline::Components
 {
+	inline static constexpr unsigned int BGCcMath_MathChangedEvent_TypeDefinitionIndex = 36046;
+
 	class BGCcMath_MathChangedEvent : public ::UnityEngine::Events::UnityEvent
 	{
 	public:

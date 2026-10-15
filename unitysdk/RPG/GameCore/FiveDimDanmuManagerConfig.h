@@ -12,6 +12,8 @@ namespace RPG::GameCore { class FiveDimDanmuTrackGroup; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimDanmuManagerConfig_TypeDefinitionIndex = 18826;
+
 	class FiveDimDanmuManagerConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

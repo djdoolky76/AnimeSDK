@@ -27,6 +27,8 @@ namespace System { class String; }
 #define IABBGPLBLML_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E602570)
 #define IABBGPLBLML_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6025D0)
 
+inline static constexpr unsigned int IABBGPLBLML_TypeDefinitionIndex = 29982;
+
 	class IABBGPLBLML : public ::System::Object
 	{
 	public:

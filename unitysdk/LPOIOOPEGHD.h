@@ -7,6 +7,8 @@ class LPOIOOPEGHD;
 #define LPOIOOPEGHD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D12CBB0)
 #define LPOIOOPEGHD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D12CA70)
 
+inline static constexpr unsigned int LPOIOOPEGHD_TypeDefinitionIndex = 14729;
+
 	class LPOIOOPEGHD : public ::System::Object
 	{
 	public:

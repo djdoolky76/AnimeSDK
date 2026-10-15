@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingBattleAbilityConditionChecker_EnemyWithi
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAbilityConditionChecker_EnemyWithinRadius_TypeDefinitionIndex = 15720;
+
 	class ChenLingBattleAbilityConditionChecker_EnemyWithinRadius : public ::RPG::GameCore::BaseChenLingBattleAbilityConditionChecker
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GOCHIGFLNID_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE710E0)
 #define GOCHIGFLNID_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE709C0)
 
+inline static constexpr unsigned int GOCHIGFLNID_TypeDefinitionIndex = 13966;
+
 	class GOCHIGFLNID : public ::System::Object
 	{
 	public:

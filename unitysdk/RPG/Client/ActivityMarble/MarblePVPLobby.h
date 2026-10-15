@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarblePVPLobby_TypeDefinitionIndex = 76005;
+
 	class MarblePVPLobby : public ::RPG::Client::BaseLobby
 	{
 	public:

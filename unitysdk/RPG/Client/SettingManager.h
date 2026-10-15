@@ -30,6 +30,8 @@ namespace RPG::Client { class SettingManager; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SettingManager_TypeDefinitionIndex = 68307;
+
 	class SettingManager : public ::System::Object
 	{
 	public:

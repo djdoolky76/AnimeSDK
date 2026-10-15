@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowActionCountDownIcon; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowActionCountDownIcon_TypeDefinitionIndex = 23696;
+
 	class ShowActionCountDownIcon : public ::RPG::GameCore::TaskConfig
 	{
 	public:

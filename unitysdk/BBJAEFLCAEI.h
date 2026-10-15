@@ -6,6 +6,8 @@
 #define BBJAEFLCAEI_CTOR_OFFSET UNITYSDK_OFFSET(0x15E8E2F0)
 #define BBJAEFLCAEI_NJJIFIKEPGM_OFFSET UNITYSDK_OFFSET(0x15E8E270)
 
+inline static constexpr unsigned int BBJAEFLCAEI_TypeDefinitionIndex = 73749;
+
 	class BBJAEFLCAEI : public ::System::Object
 	{
 	public:

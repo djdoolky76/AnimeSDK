@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Console::UI::OS
 {
+	inline static constexpr unsigned int ConsoleAgeGateParentalConsentRequiredDialog___ClosePressed_g__OnClosePressedRoutine_40_0_d_TypeDefinitionIndex = 9043;
+
 	class ConsoleAgeGateParentalConsentRequiredDialog___ClosePressed_g__OnClosePressedRoutine_40_0_d : public ::System::Object
 	{
 	public:

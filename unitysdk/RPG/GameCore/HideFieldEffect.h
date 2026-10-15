@@ -11,6 +11,8 @@ namespace RPG::GameCore { class HideFieldEffect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HideFieldEffect_TypeDefinitionIndex = 22708;
+
 	class HideFieldEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

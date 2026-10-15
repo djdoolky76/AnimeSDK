@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define JHECDIHOLFH_REPLAY_OFFSET UNITYSDK_OFFSET(0xB1AC3C0)
 #define JHECDIHOLFH_TRYSKIP_OFFSET UNITYSDK_OFFSET(0xB1AC550)
 
+inline static constexpr unsigned int JHECDIHOLFH_TypeDefinitionIndex = 72419;
+
 	class JHECDIHOLFH : public ::BLOFHFCGJHA
 	{
 	public:

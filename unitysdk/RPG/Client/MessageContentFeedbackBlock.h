@@ -17,6 +17,8 @@ namespace RPG::Client { class MessageContentBlock; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MessageContentFeedbackBlock_TypeDefinitionIndex = 63269;
+
 	class MessageContentFeedbackBlock : public ::RPG::Client::MessageContentBlock
 	{
 	public:

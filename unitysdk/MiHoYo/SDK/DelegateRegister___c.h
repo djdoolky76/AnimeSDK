@@ -151,6 +151,8 @@ namespace UnityEngine::UI { class InputField; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int DelegateRegister___c_TypeDefinitionIndex = 46275;
+
 	class DelegateRegister___c : public ::System::Object
 	{
 	public:

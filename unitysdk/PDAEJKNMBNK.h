@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PDAEJKNMBNK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF0CA60)
 #define PDAEJKNMBNK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF0CAC0)
 
+inline static constexpr unsigned int PDAEJKNMBNK_TypeDefinitionIndex = 31077;
+
 	class PDAEJKNMBNK : public ::System::Object
 	{
 	public:

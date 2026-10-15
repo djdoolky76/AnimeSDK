@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriWareDecrypter_CallbackFromNativeDelegate_TypeDefinitionIndex = 40141;
+
 	class CriWareDecrypter_CallbackFromNativeDelegate : public ::System::MulticastDelegate
 	{
 	public:

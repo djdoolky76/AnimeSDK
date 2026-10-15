@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTask_WhenAllPromise_2___c_TypeDefinitionIndex = 38267;
+
 	template <typename T1, typename T2>
 	class UniTask_WhenAllPromise_2___c : public ::System::Object
 	{

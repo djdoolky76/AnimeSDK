@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define KLGICPNPKIC__CHILDNODES_D__8_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1C53A040)
 #define KLGICPNPKIC__CHILDNODES_D__8_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C539D70)
 
+inline static constexpr unsigned int KLGICPNPKIC__ChildNodes_d__8_TypeDefinitionIndex = 41626;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
 	class KLGICPNPKIC__ChildNodes_d__8 : public ::System::Object
 	{

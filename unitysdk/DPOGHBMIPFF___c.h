@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define DPOGHBMIPFF___C__INITIALIZE_B__2_1_OFFSET UNITYSDK_OFFSET(0x12661870)
 #define DPOGHBMIPFF___C___INITTIMESCALEENTITY_B__5_0_OFFSET UNITYSDK_OFFSET(0x126618D0)
 
+inline static constexpr unsigned int DPOGHBMIPFF___c_TypeDefinitionIndex = 77167;
+
 	class DPOGHBMIPFF___c : public ::System::Object
 	{
 	public:

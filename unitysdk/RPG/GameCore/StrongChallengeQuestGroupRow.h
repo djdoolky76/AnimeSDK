@@ -10,6 +10,8 @@ namespace RPG::GameCore { class StrongChallengeQuestGroupRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StrongChallengeQuestGroupRow_TypeDefinitionIndex = 12399;
+
 	class StrongChallengeQuestGroupRow : public ::System::Object
 	{
 	public:

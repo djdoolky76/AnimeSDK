@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int ChromaticAberrationTimelineBehaviour_TypeDefinitionIndex = 48554;
+
 	class ChromaticAberrationTimelineBehaviour
 	{
 	public:

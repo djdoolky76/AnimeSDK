@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ShowBossInfoParam_TypeDefinitionIndex = 72105;
+
 	class ShowBossInfoParam : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RefreshWeaknessUI_TypeDefinitionIndex = 22635;
+
 	class RefreshWeaknessUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

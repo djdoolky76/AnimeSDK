@@ -19,6 +19,8 @@ namespace System { class Type; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int GeneratedClrTypeInfo_TypeDefinitionIndex = 35834;
+
 	class GeneratedClrTypeInfo : public ::System::Object
 	{
 	public:

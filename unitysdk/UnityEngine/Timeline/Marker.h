@@ -15,6 +15,8 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int Marker_TypeDefinitionIndex = 38828;
+
 	class Marker : public ::UnityEngine::ScriptableObject
 	{
 	public:

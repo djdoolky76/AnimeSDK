@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCheckModifierCallBackBehaviorFlag_TypeDefinitionIndex = 23496;
+
 	class ByCheckModifierCallBackBehaviorFlag : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

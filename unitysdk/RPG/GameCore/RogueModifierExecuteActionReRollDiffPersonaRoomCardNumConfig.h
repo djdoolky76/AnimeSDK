@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionReRollDiffPersonaRoomC
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionReRollDiffPersonaRoomCardNumConfig_TypeDefinitionIndex = 17820;
+
 	class RogueModifierExecuteActionReRollDiffPersonaRoomCardNumConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

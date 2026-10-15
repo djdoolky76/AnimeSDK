@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ConsoleVariableBoolProperty_TypeDefinitionIndex = 4056;
+
 	struct alignas(4) ConsoleVariableBoolProperty
 	{
 		::UnityEngine::ConsoleVariableProperty property; // 0x10

@@ -12,6 +12,8 @@ namespace System { class Action; }
 #define OFIILELJGIE___C__DISPLAYCLASS32_0__INIT_B__2_OFFSET UNITYSDK_OFFSET(0x1C579700)
 #define OFIILELJGIE___C__DISPLAYCLASS32_0__INIT_B__3_OFFSET UNITYSDK_OFFSET(0x1C5797D0)
 
+inline static constexpr unsigned int OFIILELJGIE___c__DisplayClass32_0_TypeDefinitionIndex = 41826;
+
 	class OFIILELJGIE___c__DisplayClass32_0 : public ::System::Object
 	{
 	public:

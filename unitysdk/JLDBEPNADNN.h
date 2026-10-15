@@ -15,6 +15,8 @@ namespace RPG::GameCore { class FloatCurve; }
 #define JLDBEPNADNN_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB23A400)
 #define JLDBEPNADNN_MBGHIIAJMGD_OFFSET UNITYSDK_OFFSET(0xB23AC60)
 
+inline static constexpr unsigned int JLDBEPNADNN_TypeDefinitionIndex = 77006;
+
 	class JLDBEPNADNN : public ::HOAAFFGNCPK
 	{
 	public:

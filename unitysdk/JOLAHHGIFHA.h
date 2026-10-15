@@ -42,6 +42,8 @@ namespace System { class String; }
 #define JOLAHHGIFHA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7A5610)
 #define JOLAHHGIFHA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7A5670)
 
+inline static constexpr unsigned int JOLAHHGIFHA_TypeDefinitionIndex = 25888;
+
 	class JOLAHHGIFHA : public ::System::Object
 	{
 	public:

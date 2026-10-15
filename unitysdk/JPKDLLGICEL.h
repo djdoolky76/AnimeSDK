@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define JPKDLLGICEL_CTOR_OFFSET UNITYSDK_OFFSET(0xB2C4EA0)
 #define JPKDLLGICEL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2C5520)
 
+inline static constexpr unsigned int JPKDLLGICEL_TypeDefinitionIndex = 52469;
+
 	class JPKDLLGICEL
 	{
 	public:

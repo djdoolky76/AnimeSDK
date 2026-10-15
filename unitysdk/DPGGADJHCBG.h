@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DPGGADJHCBG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E20E990)
 #define DPGGADJHCBG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E20E9F0)
 
+inline static constexpr unsigned int DPGGADJHCBG_TypeDefinitionIndex = 29893;
+
 	class DPGGADJHCBG : public ::System::Object
 	{
 	public:

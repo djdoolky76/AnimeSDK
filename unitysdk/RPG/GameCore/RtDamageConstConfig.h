@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RtDamageConstConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtDamageConstConfig_TypeDefinitionIndex = 17644;
+
 	class RtDamageConstConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

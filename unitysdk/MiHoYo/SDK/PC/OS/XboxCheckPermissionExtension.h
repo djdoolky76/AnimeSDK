@@ -7,6 +7,8 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelPermissionEntry; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int XboxCheckPermissionExtension_TypeDefinitionIndex = 8692;
+
 	class XboxCheckPermissionExtension : public ::System::Object
 	{
 	public:

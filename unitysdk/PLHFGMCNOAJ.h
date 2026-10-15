@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PLHFGMCNOAJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFA0640)
 #define PLHFGMCNOAJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFA06A0)
 
+inline static constexpr unsigned int PLHFGMCNOAJ_TypeDefinitionIndex = 32074;
+
 	class PLHFGMCNOAJ : public ::System::Object
 	{
 	public:

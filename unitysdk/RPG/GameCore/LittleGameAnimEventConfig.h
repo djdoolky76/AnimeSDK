@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAnimEventConfig_TypeDefinitionIndex = 18844;
+
 	class LittleGameAnimEventConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

@@ -59,6 +59,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Matrix4x4_TypeDefinitionIndex = 4225;
+
 	struct alignas(4) Matrix4x4
 	{
 		::System::Single m00; // 0x10

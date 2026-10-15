@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftDiySubscription_TypeDefinitionIndex = 79623;
+
 	class MechCraftDiySubscription : public ::System::Object
 	{
 	public:

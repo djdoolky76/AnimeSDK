@@ -6,6 +6,8 @@ class OJMPKMNINGK;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
+inline static constexpr unsigned int FKOEECADKFF___O_TypeDefinitionIndex = 58991;
+
 	class FKOEECADKFF___O : public ::System::Object
 	{
 	public:

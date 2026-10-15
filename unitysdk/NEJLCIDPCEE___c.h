@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NEJLCIDPCEE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAF7760)
 #define NEJLCIDPCEE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EAF7770)
 
+inline static constexpr unsigned int NEJLCIDPCEE___c_TypeDefinitionIndex = 34575;
+
 	class NEJLCIDPCEE___c : public ::System::Object
 	{
 	public:

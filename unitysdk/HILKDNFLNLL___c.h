@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HILKDNFLNLL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E59B220)
 #define HILKDNFLNLL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E59B230)
 
+inline static constexpr unsigned int HILKDNFLNLL___c_TypeDefinitionIndex = 34753;
+
 	class HILKDNFLNLL___c : public ::System::Object
 	{
 	public:

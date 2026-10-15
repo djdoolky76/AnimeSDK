@@ -9,6 +9,8 @@ namespace RPG::GameCore { class StageMonsterRewardItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageMonsterRewardItem_TypeDefinitionIndex = 15144;
+
 	class StageMonsterRewardItem : public ::System::Object
 	{
 	public:

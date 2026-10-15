@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueDLCJoyHelpRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLCJoyHelpRow_TypeDefinitionIndex = 14751;
+
 	class RogueDLCJoyHelpRow : public ::System::Object
 	{
 	public:

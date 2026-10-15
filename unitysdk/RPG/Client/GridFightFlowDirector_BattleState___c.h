@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightFlowDirector_BattleState___c_TypeDefinitionIndex = 64599;
+
 	class GridFightFlowDirector_BattleState___c : public ::System::Object
 	{
 	public:

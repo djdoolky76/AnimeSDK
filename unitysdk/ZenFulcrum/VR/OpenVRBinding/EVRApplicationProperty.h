@@ -3,6 +3,8 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int EVRApplicationProperty_TypeDefinitionIndex = 39243;
+
 	enum class EVRApplicationProperty : ::System::Int32
 	{
 		Name_String = 0,

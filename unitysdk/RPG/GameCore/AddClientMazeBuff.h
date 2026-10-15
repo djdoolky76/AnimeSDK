@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AddClientMazeBuff; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddClientMazeBuff_TypeDefinitionIndex = 21753;
+
 	class AddClientMazeBuff : public ::RPG::GameCore::AddMazeBuff
 	{
 	public:

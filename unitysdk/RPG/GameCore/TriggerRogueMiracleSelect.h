@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerRogueMiracleSelect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerRogueMiracleSelect_TypeDefinitionIndex = 20480;
+
 	class TriggerRogueMiracleSelect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

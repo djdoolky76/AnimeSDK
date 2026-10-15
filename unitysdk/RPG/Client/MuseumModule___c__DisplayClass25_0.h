@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MuseumModule___c__DisplayClass25_0_TypeDefinitionIndex = 66339;
+
 	class MuseumModule___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:

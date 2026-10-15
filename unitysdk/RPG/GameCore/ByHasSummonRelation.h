@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByHasSummonRelation_TypeDefinitionIndex = 22555;
+
 	class ByHasSummonRelation : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

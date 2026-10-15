@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AKBLFOJIDKL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x12CC9FA0)
 #define AKBLFOJIDKL_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0x12CCA030)
 
+inline static constexpr unsigned int AKBLFOJIDKL_TypeDefinitionIndex = 71092;
+
 	class AKBLFOJIDKL
 	{
 	public:

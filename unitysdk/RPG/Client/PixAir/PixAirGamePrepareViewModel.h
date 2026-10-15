@@ -16,6 +16,8 @@ namespace Sofa::Core { class SimpleCommand; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirGamePrepareViewModel_TypeDefinitionIndex = 79256;
+
 	class PixAirGamePrepareViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

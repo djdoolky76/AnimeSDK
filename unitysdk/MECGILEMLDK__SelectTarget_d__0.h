@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define MECGILEMLDK__SELECTTARGET_D__0_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB8BB250)
 #define MECGILEMLDK__SELECTTARGET_D__0___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xB8BB2A0)
 
+inline static constexpr unsigned int MECGILEMLDK__SelectTarget_d__0_TypeDefinitionIndex = 77513;
+
 	class MECGILEMLDK__SelectTarget_d__0 : public ::System::Object
 	{
 	public:

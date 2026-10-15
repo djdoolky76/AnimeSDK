@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhoneThemeExcelTable_TypeDefinitionIndex = 14488;
+
 	class PhoneThemeExcelTable : public ::System::Object
 	{
 	public:

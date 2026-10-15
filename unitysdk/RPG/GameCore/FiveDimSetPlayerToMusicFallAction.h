@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimSetPlayerToMusicFallAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetPlayerToMusicFallAction_TypeDefinitionIndex = 18757;
+
 	class FiveDimSetPlayerToMusicFallAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

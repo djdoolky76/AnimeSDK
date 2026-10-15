@@ -125,6 +125,8 @@ namespace UnityEngine { class RuntimeAnimatorController; }
 #define PAADPKGPFMJ_SET_FREESTYLECHARACTERCONFIGPATH_OFFSET UNITYSDK_OFFSET(0xBFC41D0)
 #define PAADPKGPFMJ_SET_FREESTYLECHARACTERID_OFFSET UNITYSDK_OFFSET(0xBFC41B0)
 
+inline static constexpr unsigned int PAADPKGPFMJ_TypeDefinitionIndex = 57285;
+
 	class PAADPKGPFMJ : public ::System::Object
 	{
 	public:

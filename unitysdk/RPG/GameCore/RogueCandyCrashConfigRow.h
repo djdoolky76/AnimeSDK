@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueCandyCrashConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueCandyCrashConfigRow_TypeDefinitionIndex = 14678;
+
 	class RogueCandyCrashConfigRow : public ::System::Object
 	{
 	public:

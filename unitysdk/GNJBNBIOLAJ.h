@@ -9,6 +9,8 @@ namespace System { class String; }
 #define GNJBNBIOLAJ_GET_NAME_OFFSET UNITYSDK_OFFSET(0x15B12810)
 #define GNJBNBIOLAJ_MNLDMBGAJIF_OFFSET UNITYSDK_OFFSET(0x15B12820)
 
+inline static constexpr unsigned int GNJBNBIOLAJ_TypeDefinitionIndex = 62092;
+
 	class GNJBNBIOLAJ : public ::System::Object
 	{
 	public:

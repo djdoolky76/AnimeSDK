@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ST_Parkour_ByCompareLapCount_TypeDefinitionIndex = 10263;
+
 	class ST_Parkour_ByCompareLapCount : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

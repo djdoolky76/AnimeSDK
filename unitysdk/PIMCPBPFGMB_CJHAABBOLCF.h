@@ -11,6 +11,8 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceResultBadgeNotic
 #define PIMCPBPFGMB_CJHAABBOLCF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC270370)
 #define PIMCPBPFGMB_CJHAABBOLCF_CTOR_OFFSET UNITYSDK_OFFSET(0xC270350)
 
+inline static constexpr unsigned int PIMCPBPFGMB_CJHAABBOLCF_TypeDefinitionIndex = 81612;
+
 	class PIMCPBPFGMB_CJHAABBOLCF : public ::System::Object
 	{
 	public:

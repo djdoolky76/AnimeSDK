@@ -7,6 +7,8 @@ class OEGDBPLMIAE;
 
 #define HAFCMNPMFGO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C64CEE0)
 
+inline static constexpr unsigned int HAFCMNPMFGO_TypeDefinitionIndex = 36267;
+
 	class HAFCMNPMFGO : public ::System::Object
 	{
 	public:

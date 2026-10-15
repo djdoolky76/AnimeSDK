@@ -7,6 +7,8 @@ namespace UnityEngine { class Camera; }
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int ECamera_TypeDefinitionIndex = 40285;
+
 	class ECamera : public ::System::Object
 	{
 	public:

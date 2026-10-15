@@ -26,6 +26,8 @@ namespace ZLinq { class ValueEnumerable; }
 #define HIMIEHILFLI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CEB0B50)
 #define HIMIEHILFLI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CEB03F0)
 
+inline static constexpr unsigned int HIMIEHILFLI_TypeDefinitionIndex = 14986;
+
 	class HIMIEHILFLI : public ::System::Object
 	{
 	public:

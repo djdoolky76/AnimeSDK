@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int ThreadStackInfo_TypeDefinitionIndex = 7132;
+
 	class ThreadStackInfo : public ::System::Object
 	{
 	public:

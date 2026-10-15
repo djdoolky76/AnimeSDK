@@ -31,6 +31,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int Condition_TypeDefinitionIndex = 76347;
+
 	class Condition : public ::System::Object
 	{
 	public:

@@ -55,6 +55,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsPostData_TypeDefinitionIndex = 80298;
+
 	class LimaoNewsPostData : public ::System::Object
 	{
 	public:

@@ -48,6 +48,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
+	inline static constexpr unsigned int FourRotateVoxelGameStartCurve_TypeDefinitionIndex = 76838;
+
 	class FourRotateVoxelGameStartCurve : public ::RPG::Client::LittleGame::FourRotateVoxel::FouRotateVoxelSimpleCameraCurveBase
 	{
 	public:

@@ -9,6 +9,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aiXform_TypeDefinitionIndex = 45827;
+
 	struct alignas(4) aiXform
 	{
 		::System::IntPtr self; // 0x10

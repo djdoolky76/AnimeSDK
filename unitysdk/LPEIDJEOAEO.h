@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LPEIDJEOAEO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D129D30)
 #define LPEIDJEOAEO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D129610)
 
+inline static constexpr unsigned int LPEIDJEOAEO_TypeDefinitionIndex = 13642;
+
 	class LPEIDJEOAEO : public ::System::Object
 	{
 	public:

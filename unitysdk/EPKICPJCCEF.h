@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MappingInfoRow; }
 #define EPKICPJCCEF_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0x155D7130)
 #define EPKICPJCCEF_PNLLINHJDJF_OFFSET UNITYSDK_OFFSET(0x155D7250)
 
+inline static constexpr unsigned int EPKICPJCCEF_TypeDefinitionIndex = 62927;
+
 	class EPKICPJCCEF : public ::System::Object
 	{
 	public:

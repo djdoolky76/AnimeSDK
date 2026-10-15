@@ -11,6 +11,8 @@ namespace UnityEngine { class Component; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LongText___c_TypeDefinitionIndex = 72571;
+
 	class LongText___c : public ::System::Object
 	{
 	public:

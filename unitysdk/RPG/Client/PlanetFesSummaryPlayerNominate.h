@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesSummaryPlayerNominate_TypeDefinitionIndex = 66643;
+
 	class PlanetFesSummaryPlayerNominate : public ::System::Object
 	{
 	public:

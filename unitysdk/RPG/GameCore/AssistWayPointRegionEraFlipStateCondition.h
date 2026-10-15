@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AssistWayPointRegionEraFlipStateCondition_TypeDefinitionIndex = 18999;
+
 	class AssistWayPointRegionEraFlipStateCondition : public ::RPG::GameCore::AssistWayPointCondition
 	{
 	public:

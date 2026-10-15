@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetBattleUIPauseEnvironmentInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetBattleUIPauseEnvironmentInfo_TypeDefinitionIndex = 22800;
+
 	class SetBattleUIPauseEnvironmentInfo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine::Events { class UnityEvent; }
 #define KKHHLADOHDJ_ILEMLGEGLCC_OFFSET UNITYSDK_OFFSET(0x1EC7BD20)
 #define KKHHLADOHDJ_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0x1EC7BB60)
 
+inline static constexpr unsigned int KKHHLADOHDJ_TypeDefinitionIndex = 44068;
+
 	class KKHHLADOHDJ
 	{
 	public:

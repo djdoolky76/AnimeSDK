@@ -6,6 +6,8 @@
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirPrepareContentControl_TypeDefinitionIndex = 79236;
+
 	class PixAirPrepareContentControl : public ::Sofa::BaseSofaControl
 	{
 	public:

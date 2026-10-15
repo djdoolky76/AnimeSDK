@@ -11,6 +11,8 @@ class JANDIGIAGOJ;
 #define HOCAFJLGBDK_IKICPEIDOHB_OFFSET UNITYSDK_OFFSET(0x15DAFEF0)
 #define HOCAFJLGBDK_INHBJHGKPGP_OFFSET UNITYSDK_OFFSET(0x15DAFA90)
 
+inline static constexpr unsigned int HOCAFJLGBDK_TypeDefinitionIndex = 73274;
+
 	class HOCAFJLGBDK : public ::System::Object
 	{
 	public:

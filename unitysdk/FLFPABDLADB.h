@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define FLFPABDLADB_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC6B3F0)
 #define FLFPABDLADB_KEBEIGGJIPA_OFFSET UNITYSDK_OFFSET(0x1EC6B400)
 
+inline static constexpr unsigned int FLFPABDLADB_TypeDefinitionIndex = 44315;
+
 	class FLFPABDLADB : public ::System::Object
 	{
 	public:

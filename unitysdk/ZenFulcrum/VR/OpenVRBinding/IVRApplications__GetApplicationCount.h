@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRApplications__GetApplicationCount_TypeDefinitionIndex = 38956;
+
 	class IVRApplications__GetApplicationCount : public ::System::MulticastDelegate
 	{
 	public:

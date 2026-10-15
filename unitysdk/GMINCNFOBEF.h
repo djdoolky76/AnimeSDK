@@ -6,6 +6,8 @@ namespace RPG::GameCore { class FiveDimPropMoveConfig; }
 
 #define GMINCNFOBEF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB1CF0)
 
+inline static constexpr unsigned int GMINCNFOBEF_TypeDefinitionIndex = 43522;
+
 	class GMINCNFOBEF : public ::System::Object
 	{
 	public:

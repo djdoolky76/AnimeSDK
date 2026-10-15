@@ -13,6 +13,8 @@ namespace RPG::Client { class PlanetFesAvatarData; }
 #define AIMPOPMOLFL_ISTRIGGERED_OFFSET UNITYSDK_OFFSET(0x12CA8AB0)
 #define AIMPOPMOLFL__ONINITPARAM_OFFSET UNITYSDK_OFFSET(0x12CA8A00)
 
+inline static constexpr unsigned int AIMPOPMOLFL_TypeDefinitionIndex = 66540;
+
 	class AIMPOPMOLFL : public ::RPG::Client::BasePlanetFesBuff
 	{
 	public:

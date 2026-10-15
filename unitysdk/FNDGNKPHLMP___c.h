@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FNDGNKPHLMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3ED7E0)
 #define FNDGNKPHLMP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E3ED7F0)
 
+inline static constexpr unsigned int FNDGNKPHLMP___c_TypeDefinitionIndex = 25510;
+
 	class FNDGNKPHLMP___c : public ::System::Object
 	{
 	public:

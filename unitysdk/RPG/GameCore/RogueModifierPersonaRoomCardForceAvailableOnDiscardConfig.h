@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierPersonaRoomCardForceAvailableOnDisc
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierPersonaRoomCardForceAvailableOnDiscardConfig_TypeDefinitionIndex = 17810;
+
 	class RogueModifierPersonaRoomCardForceAvailableOnDiscardConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

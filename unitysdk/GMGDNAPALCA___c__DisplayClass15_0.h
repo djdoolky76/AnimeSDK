@@ -7,6 +7,8 @@ namespace RPG::Client::ActivityMarble { class MarblePVPMatchContext; }
 #define GMGDNAPALCA___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15AD1210)
 #define GMGDNAPALCA___C__DISPLAYCLASS15_0__OPENMATCHPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x15AD1220)
 
+inline static constexpr unsigned int GMGDNAPALCA___c__DisplayClass15_0_TypeDefinitionIndex = 75997;
+
 	class GMGDNAPALCA___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

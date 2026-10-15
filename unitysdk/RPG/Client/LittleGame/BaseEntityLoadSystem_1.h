@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int BaseEntityLoadSystem_1_TypeDefinitionIndex = 42081;
+
 	template <typename T>
 	class BaseEntityLoadSystem_1 : public ::System::Object
 	{

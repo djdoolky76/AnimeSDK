@@ -11,6 +11,8 @@ class HKAJMEMCBLC;
 
 namespace RPG::Client::FateRin::Card
 {
+	inline static constexpr unsigned int FateRinCardDeckViewModel___c__DisplayClass1_0_TypeDefinitionIndex = 81135;
+
 	class FateRinCardDeckViewModel___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

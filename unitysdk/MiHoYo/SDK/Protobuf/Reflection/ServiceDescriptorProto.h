@@ -35,6 +35,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int ServiceDescriptorProto_TypeDefinitionIndex = 35780;
+
 	class ServiceDescriptorProto : public ::System::Object
 	{
 	public:

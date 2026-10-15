@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KNHJDIODJCI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D0BB7E0)
 #define KNHJDIODJCI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0BB140)
 
+inline static constexpr unsigned int KNHJDIODJCI_TypeDefinitionIndex = 11462;
+
 	class KNHJDIODJCI : public ::System::Object
 	{
 	public:

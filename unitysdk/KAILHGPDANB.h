@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define KAILHGPDANB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C70A110)
 
+inline static constexpr unsigned int KAILHGPDANB_TypeDefinitionIndex = 37053;
+
 	class KAILHGPDANB : public ::System::Object
 	{
 	public:

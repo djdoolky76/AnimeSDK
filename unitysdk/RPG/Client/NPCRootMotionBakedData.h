@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NPCRootMotionBakedData_TypeDefinitionIndex = 60059;
+
 	class NPCRootMotionBakedData : public ::RPG::Client::CharacterRootMotionBakedData
 	{
 	public:

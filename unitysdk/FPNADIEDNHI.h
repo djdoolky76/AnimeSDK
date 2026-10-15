@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 #define FPNADIEDNHI_REVERSE_OFFSET UNITYSDK_OFFSET(0x15920D50)
 #define FPNADIEDNHI_STARTWITHTARGET_OFFSET UNITYSDK_OFFSET(0x15920B80)
 
+inline static constexpr unsigned int FPNADIEDNHI_TypeDefinitionIndex = 73521;
+
 	class FPNADIEDNHI : public ::OCCJKPBJPMH
 	{
 	public:

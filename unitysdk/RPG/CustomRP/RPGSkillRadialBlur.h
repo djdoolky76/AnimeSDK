@@ -9,6 +9,8 @@ namespace UnityEngine::Rendering { class Vector2Parameter; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGSkillRadialBlur_TypeDefinitionIndex = 37841;
+
 	class RPGSkillRadialBlur : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:

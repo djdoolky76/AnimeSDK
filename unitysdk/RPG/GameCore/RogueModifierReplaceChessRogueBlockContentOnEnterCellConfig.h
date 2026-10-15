@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierReplaceChessRogueBlockContentOnEnte
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierReplaceChessRogueBlockContentOnEnterCellConfig_TypeDefinitionIndex = 17975;
+
 	class RogueModifierReplaceChessRogueBlockContentOnEnterCellConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

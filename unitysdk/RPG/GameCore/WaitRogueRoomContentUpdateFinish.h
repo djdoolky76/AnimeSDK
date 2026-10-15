@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitRogueRoomContentUpdateFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitRogueRoomContentUpdateFinish_TypeDefinitionIndex = 20815;
+
 	class WaitRogueRoomContentUpdateFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

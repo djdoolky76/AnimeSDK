@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MapRotationMonsterEffectConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MapRotationMonsterEffectConfig_TypeDefinitionIndex = 17030;
+
 	class MapRotationMonsterEffectConfig : public ::RPG::GameCore::MapRotationEntityEffectConfig
 	{
 	public:

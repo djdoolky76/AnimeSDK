@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JOAKJOLODCH_CTOR_OFFSET UNITYSDK_OFFSET(0xB29CF90)
 #define JOAKJOLODCH_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB29CFB0)
 
+inline static constexpr unsigned int JOAKJOLODCH_TypeDefinitionIndex = 59198;
+
 	class JOAKJOLODCH
 	{
 	public:

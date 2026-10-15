@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TutorialSetMonopolyToastPauseState; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TutorialSetMonopolyToastPauseState_TypeDefinitionIndex = 24365;
+
 	class TutorialSetMonopolyToastPauseState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -34,6 +34,8 @@ namespace UnityEngine { class RenderTexture; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int FrameCapture_TypeDefinitionIndex = 37611;
+
 	class FrameCapture : public ::System::Object
 	{
 	public:

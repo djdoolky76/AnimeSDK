@@ -45,6 +45,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournHandbookData_TypeDefinitionIndex = 67652;
+
 	class RogueTournHandbookData : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DitherModuleConfig_TypeDefinitionIndex = 69673;
+
 	class DitherModuleConfig : public ::RPG::Client::CameraModuleConfigBase
 	{
 	public:

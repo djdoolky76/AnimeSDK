@@ -205,6 +205,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NLACAMFAEDK_PILEILPFJKO_OFFSET UNITYSDK_OFFSET(0xBC55E10)
 #define NLACAMFAEDK_PJEHGLHLOLM_OFFSET UNITYSDK_OFFSET(0xBC55810)
 
+inline static constexpr unsigned int NLACAMFAEDK_TypeDefinitionIndex = 55946;
+
 	class NLACAMFAEDK : public ::System::Object
 	{
 	public:

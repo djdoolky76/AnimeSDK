@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int DeserializationEventHandler_TypeDefinitionIndex = 1094;
+
 	class DeserializationEventHandler : public ::System::MulticastDelegate
 	{
 	public:

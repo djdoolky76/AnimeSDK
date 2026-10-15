@@ -10,6 +10,8 @@ namespace System { class String; }
 #define FIIDICLONBI_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x157A9540)
 #define FIIDICLONBI_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x157A9550)
 
+inline static constexpr unsigned int FIIDICLONBI_TypeDefinitionIndex = 56122;
+
 	class FIIDICLONBI : public ::DBGDNLLDPFI
 	{
 	public:

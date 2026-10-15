@@ -14,6 +14,8 @@ namespace System::Reflection { class MethodBase; }
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int LateBoundReflectionDelegateFactory_TypeDefinitionIndex = 9636;
+
 	class LateBoundReflectionDelegateFactory : public ::Newtonsoft::Json::Utilities::ReflectionDelegateFactory
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int LaserTurnablePuzzleInputObj_TypeDefinitionIndex = 78667;
+
 	class LaserTurnablePuzzleInputObj : public ::UnityEngine::MonoBehaviour
 	{
 	public:

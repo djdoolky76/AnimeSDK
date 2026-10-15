@@ -30,6 +30,8 @@ namespace System { class String; }
 #define LJBOELCMGFK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E976620)
 #define LJBOELCMGFK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E976680)
 
+inline static constexpr unsigned int LJBOELCMGFK_TypeDefinitionIndex = 27063;
+
 	class LJBOELCMGFK : public ::System::Object
 	{
 	public:

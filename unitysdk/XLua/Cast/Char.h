@@ -5,6 +5,8 @@
 
 namespace XLua::Cast
 {
+	inline static constexpr unsigned int Char_TypeDefinitionIndex = 50294;
+
 	class Char
 	{
 	public:

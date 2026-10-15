@@ -42,6 +42,8 @@ namespace UnityEngine { class Texture; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int SmoothMaskMaterial_Params_TypeDefinitionIndex = 6856;
+
 	struct alignas(8) SmoothMaskMaterial_Params
 	{
 		::UnityEngine::UI::SmoothMask_Type _type; // 0x10

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define NEIMLKNMDBM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAF5860)
 #define NEIMLKNMDBM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAF58C0)
 
+inline static constexpr unsigned int NEIMLKNMDBM_TypeDefinitionIndex = 29083;
+
 	class NEIMLKNMDBM : public ::System::Object
 	{
 	public:

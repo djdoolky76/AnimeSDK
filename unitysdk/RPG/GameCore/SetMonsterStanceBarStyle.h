@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetMonsterStanceBarStyle_TypeDefinitionIndex = 22940;
+
 	class SetMonsterStanceBarStyle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

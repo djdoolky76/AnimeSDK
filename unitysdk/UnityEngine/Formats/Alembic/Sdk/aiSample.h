@@ -9,6 +9,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aiSample_TypeDefinitionIndex = 45833;
+
 	struct alignas(4) aiSample
 	{
 		::System::IntPtr self; // 0x10

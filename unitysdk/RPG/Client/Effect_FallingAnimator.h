@@ -29,6 +29,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_FallingAnimator_TypeDefinitionIndex = 70467;
+
 	class Effect_FallingAnimator : public ::UnityEngine::MonoBehaviour
 	{
 	public:

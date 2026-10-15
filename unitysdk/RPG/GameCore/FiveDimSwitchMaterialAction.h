@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimSwitchMaterialAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSwitchMaterialAction_TypeDefinitionIndex = 18762;
+
 	class FiveDimSwitchMaterialAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

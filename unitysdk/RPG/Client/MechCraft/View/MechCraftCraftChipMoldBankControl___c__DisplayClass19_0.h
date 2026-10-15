@@ -13,6 +13,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftChipMoldBankControl___c__DisplayClass19_0_TypeDefinitionIndex = 79855;
+
 	class MechCraftCraftChipMoldBankControl___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:

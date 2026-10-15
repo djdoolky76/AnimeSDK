@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PreAvatarLevelingTemplateDataRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PreAvatarLevelingTemplateDataRow_TypeDefinitionIndex = 14557;
+
 	class PreAvatarLevelingTemplateDataRow : public ::System::Object
 	{
 	public:

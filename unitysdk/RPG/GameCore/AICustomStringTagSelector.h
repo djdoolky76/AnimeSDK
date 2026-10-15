@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AICustomStringTagSelector_TypeDefinitionIndex = 15595;
+
 	class AICustomStringTagSelector : public ::RPG::GameCore::AISelector
 	{
 	public:

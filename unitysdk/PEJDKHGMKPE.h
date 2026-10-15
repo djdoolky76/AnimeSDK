@@ -12,6 +12,8 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
+inline static constexpr unsigned int PEJDKHGMKPE_TypeDefinitionIndex = 50017;
+
 	class PEJDKHGMKPE : public ::System::Object
 	{
 	public:

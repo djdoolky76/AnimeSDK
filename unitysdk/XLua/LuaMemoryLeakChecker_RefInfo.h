@@ -4,6 +4,8 @@ namespace System { class String; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int LuaMemoryLeakChecker_RefInfo_TypeDefinitionIndex = 50061;
+
 	struct alignas(8) LuaMemoryLeakChecker_RefInfo
 	{
 		::System::String* Key; // 0x10

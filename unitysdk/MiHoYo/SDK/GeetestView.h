@@ -27,6 +27,8 @@ namespace UnityEngine::UI { class Button; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int GeetestView_TypeDefinitionIndex = 8253;
+
 	class GeetestView : public ::MiHoYo::SDK::UIElement
 	{
 	public:

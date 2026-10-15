@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceFightStateType_TypeDefinitionIndex = 18357;
+
 	enum class CakeRaceFightStateType : ::System::Int32
 	{
 		None = 0,

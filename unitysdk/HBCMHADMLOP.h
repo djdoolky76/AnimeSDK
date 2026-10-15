@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define HBCMHADMLOP_ONUNINIT_OFFSET UNITYSDK_OFFSET(0x15BE6DC0)
 #define HBCMHADMLOP_TICK_OFFSET UNITYSDK_OFFSET(0x15BE6E00)
 
+inline static constexpr unsigned int HBCMHADMLOP_TypeDefinitionIndex = 57816;
+
 	class HBCMHADMLOP : public ::System::Object
 	{
 	public:

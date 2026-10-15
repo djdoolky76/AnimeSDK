@@ -36,6 +36,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineComponentBase_TypeDefinitionIndex = 39809;
+
 	class CinemachineComponentBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

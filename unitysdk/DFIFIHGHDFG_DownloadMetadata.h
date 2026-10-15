@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
+inline static constexpr unsigned int DFIFIHGHDFG_DownloadMetadata_TypeDefinitionIndex = 47412;
+
 	struct alignas(8) DFIFIHGHDFG_DownloadMetadata
 	{
 		::System::UInt32 version; // 0x10

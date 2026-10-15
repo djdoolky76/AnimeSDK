@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ClockBoyEmotionBehaviour_TypeDefinitionIndex = 48032;
+
 	class ClockBoyEmotionBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

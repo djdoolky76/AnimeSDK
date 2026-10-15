@@ -58,6 +58,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int MapConnectivityModule_TypeDefinitionIndex = 74560;
+
 	class MapConnectivityModule : public ::RPG::Client::BaseModule
 	{
 	public:

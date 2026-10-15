@@ -9,6 +9,8 @@ namespace MiHoYo::SDK { class SecurityTunnel_ResponseCallbackAction; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_DataWrapper_TypeDefinitionIndex = 46388;
+
 	class SecurityTunnel_DataWrapper : public ::System::Object
 	{
 	public:

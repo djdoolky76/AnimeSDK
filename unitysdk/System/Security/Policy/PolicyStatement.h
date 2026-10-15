@@ -6,6 +6,8 @@ namespace System::Security { class PermissionSet; }
 
 namespace System::Security::Policy
 {
+	inline static constexpr unsigned int PolicyStatement_TypeDefinitionIndex = 961;
+
 	class PolicyStatement : public ::System::Object
 	{
 	public:

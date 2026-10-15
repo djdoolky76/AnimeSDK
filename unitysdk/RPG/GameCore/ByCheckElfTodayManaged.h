@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCheckElfTodayManaged_TypeDefinitionIndex = 21736;
+
 	class ByCheckElfTodayManaged : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

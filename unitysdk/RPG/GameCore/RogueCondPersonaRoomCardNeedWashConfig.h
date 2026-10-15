@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueCondPersonaRoomCardNeedWashConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueCondPersonaRoomCardNeedWashConfig_TypeDefinitionIndex = 19807;
+
 	class RogueCondPersonaRoomCardNeedWashConfig : public ::RPG::GameCore::RogueConditionConfigBase
 	{
 	public:

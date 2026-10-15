@@ -6,6 +6,8 @@
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirPrepareContentViewModel_TypeDefinitionIndex = 79259;
+
 	class PixAirPrepareContentViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPGCamera
 {
+	inline static constexpr unsigned int CameraStateBlenderConfig_PoleType_TypeDefinitionIndex = 45938;
+
 	enum class CameraStateBlenderConfig_PoleType : ::System::Int32
 	{
 		TARGET_BACK = 0,

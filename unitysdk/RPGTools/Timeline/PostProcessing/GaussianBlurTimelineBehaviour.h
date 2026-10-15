@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int GaussianBlurTimelineBehaviour_TypeDefinitionIndex = 48573;
+
 	class GaussianBlurTimelineBehaviour
 	{
 	public:

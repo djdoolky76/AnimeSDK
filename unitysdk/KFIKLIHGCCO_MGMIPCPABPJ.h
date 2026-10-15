@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+inline static constexpr unsigned int KFIKLIHGCCO_MGMIPCPABPJ_TypeDefinitionIndex = 51766;
+
 	struct alignas(4) KFIKLIHGCCO_MGMIPCPABPJ
 	{
 		::UnityEngine::Vector3 FILFKDALEPE; // 0x10

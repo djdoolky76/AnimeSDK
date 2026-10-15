@@ -27,6 +27,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Net::Http
 {
+	inline static constexpr unsigned int HttpContent_TypeDefinitionIndex = 3765;
+
 	class HttpContent : public ::System::Object
 	{
 	public:

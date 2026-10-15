@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAttachPointConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAttachPointComponentConfig_TypeDefinitionIndex = 18856;
+
 	class LittleGameAttachPointComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

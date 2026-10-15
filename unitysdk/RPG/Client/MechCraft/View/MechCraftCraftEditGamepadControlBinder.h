@@ -22,6 +22,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftEditGamepadControlBinder_TypeDefinitionIndex = 79883;
+
 	class MechCraftCraftEditGamepadControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

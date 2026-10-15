@@ -12,6 +12,8 @@ namespace UnityEngine { class Collider; }
 #define KBNCPECIGIP___C___INITDESTRUCTIBLEPROP_B__4_0_OFFSET UNITYSDK_OFFSET(0xB322F90)
 #define KBNCPECIGIP___C___INITDESTRUCTIBLEPROP_B__4_1_OFFSET UNITYSDK_OFFSET(0xB322FC0)
 
+inline static constexpr unsigned int KBNCPECIGIP___c_TypeDefinitionIndex = 77083;
+
 	class KBNCPECIGIP___c : public ::System::Object
 	{
 	public:

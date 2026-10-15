@@ -43,6 +43,8 @@ namespace UnityEngine { class Sprite; }
 #define FFNOMKOBGGL_ONGUI_OFFSET UNITYSDK_OFFSET(0x15747CA0)
 #define FFNOMKOBGGL_PDDADMOMFEC_OFFSET UNITYSDK_OFFSET(0x1574AB90)
 
+inline static constexpr unsigned int FFNOMKOBGGL_TypeDefinitionIndex = 73276;
+
 	class FFNOMKOBGGL : public ::CLKDGILIGID
 	{
 	public:

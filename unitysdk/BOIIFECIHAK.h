@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define BOIIFECIHAK_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0xC191850)
 #define BOIIFECIHAK_NFINIHKKLPK_OFFSET UNITYSDK_OFFSET(0xC191950)
 
+inline static constexpr unsigned int BOIIFECIHAK_TypeDefinitionIndex = 80089;
+
 	class BOIIFECIHAK : public ::System::Object
 	{
 	public:

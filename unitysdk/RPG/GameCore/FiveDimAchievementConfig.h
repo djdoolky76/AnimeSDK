@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FiveDimAchievementConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimAchievementConfig_TypeDefinitionIndex = 16669;
+
 	class FiveDimAchievementConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

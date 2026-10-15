@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int HoYoSDKAlertWithTitle_AlertWithTitleElements_TypeDefinitionIndex = 46744;
+
 	class HoYoSDKAlertWithTitle_AlertWithTitleElements : public ::System::Object
 	{
 	public:

@@ -37,6 +37,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int StreamWriter_TypeDefinitionIndex = 694;
+
 	class StreamWriter : public ::System::IO::TextWriter
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System::Xml::Linq { template <typename T> class XHashtable_1; }
 
 namespace System::Xml::Linq
 {
+	inline static constexpr unsigned int XNamespace_TypeDefinitionIndex = 3877;
+
 	class XNamespace : public ::System::Object
 	{
 	public:

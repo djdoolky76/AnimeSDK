@@ -12,6 +12,8 @@ namespace RPG::Client { class MessageContentBlock; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MessageContentSelectGrowthTargetBlock_TypeDefinitionIndex = 63257;
+
 	class MessageContentSelectGrowthTargetBlock : public ::RPG::Client::MessageContentBlock
 	{
 	public:

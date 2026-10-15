@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ProcessStoredDamage_TypeDefinitionIndex = 22759;
+
 	class ProcessStoredDamage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

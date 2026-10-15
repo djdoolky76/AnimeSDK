@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace R3
 {
+	inline static constexpr unsigned int Unit_TypeDefinitionIndex = 35974;
+
 	struct alignas(4) Unit
 	{
 		static ::System::Object** StaticGet_Box()

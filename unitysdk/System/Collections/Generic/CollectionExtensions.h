@@ -4,6 +4,8 @@
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int CollectionExtensions_TypeDefinitionIndex = 1528;
+
 	class CollectionExtensions : public ::System::Object
 	{
 	public:

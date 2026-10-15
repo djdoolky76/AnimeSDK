@@ -20,6 +20,8 @@ namespace System { class Nullable; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Max_TypeDefinitionIndex = 45420;
+
 	class Max : public ::System::Object
 	{
 	public:

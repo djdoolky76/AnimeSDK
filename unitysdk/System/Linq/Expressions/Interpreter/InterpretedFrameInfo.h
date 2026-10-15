@@ -8,6 +8,8 @@ namespace System::Linq::Expressions::Interpreter { class DebugInfo; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int InterpretedFrameInfo_TypeDefinitionIndex = 3484;
+
 	struct alignas(8) InterpretedFrameInfo
 	{
 		::System::String* _methodName; // 0x10

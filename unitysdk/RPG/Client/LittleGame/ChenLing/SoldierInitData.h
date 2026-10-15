@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::ChenLing
 {
+	inline static constexpr unsigned int SoldierInitData_TypeDefinitionIndex = 77829;
+
 	class SoldierInitData : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GHPKEOKHHIN_CTOR_OFFSET UNITYSDK_OFFSET(0x15A2DE90)
 #define GHPKEOKHHIN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15A2DEC0)
 
+inline static constexpr unsigned int GHPKEOKHHIN_TypeDefinitionIndex = 54492;
+
 	class GHPKEOKHHIN
 	{
 	public:

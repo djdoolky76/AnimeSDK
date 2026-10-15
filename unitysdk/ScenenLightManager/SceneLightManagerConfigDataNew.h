@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int SceneLightManagerConfigDataNew_TypeDefinitionIndex = 49130;
+
 	class SceneLightManagerConfigDataNew : public ::UnityEngine::ScriptableObject
 	{
 	public:

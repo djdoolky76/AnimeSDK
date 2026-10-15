@@ -8,6 +8,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int PostProcessTimelineTrack_TypeDefinitionIndex = 48597;
+
 	class PostProcessTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

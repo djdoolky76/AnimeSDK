@@ -16,6 +16,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MusicVisualization_CueEvent_TypeDefinitionIndex = 70805;
+
 	class MusicVisualization_CueEvent : public ::System::Object
 	{
 	public:

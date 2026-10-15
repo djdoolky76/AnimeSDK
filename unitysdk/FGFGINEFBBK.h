@@ -37,6 +37,8 @@ namespace System { class String; }
 #define FGFGINEFBBK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E37B800)
 #define FGFGINEFBBK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E37B860)
 
+inline static constexpr unsigned int FGFGINEFBBK_TypeDefinitionIndex = 32298;
+
 	class FGFGINEFBBK : public ::System::Object
 	{
 	public:

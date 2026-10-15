@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ObserveMaterialSubmission_TypeDefinitionIndex = 21249;
+
 	class ObserveMaterialSubmission : public ::RPG::GameCore::TaskConfig
 	{
 	public:

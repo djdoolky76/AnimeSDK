@@ -5,6 +5,8 @@
 #include "unitysdk/RPG/Client/FiveDimScreenTransferType.h"
 namespace System { class Action; }
 
+inline static constexpr unsigned int IHJCOALACON_TypeDefinitionIndex = 60545;
+
 	struct alignas(8) IHJCOALACON
 	{
 		::System::Boolean KBFGMAOBANF; // 0x10

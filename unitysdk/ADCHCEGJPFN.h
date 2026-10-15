@@ -4,6 +4,8 @@
 
 #define ADCHCEGJPFN_CTOR_OFFSET UNITYSDK_OFFSET(0xB135340)
 
+inline static constexpr unsigned int ADCHCEGJPFN_TypeDefinitionIndex = 54283;
+
 	class ADCHCEGJPFN : public ::System::Object
 	{
 	public:

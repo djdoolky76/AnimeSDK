@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int TimeoutException_TypeDefinitionIndex = 340;
+
 	class TimeoutException : public ::System::SystemException
 	{
 	public:

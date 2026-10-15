@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightCombinationBonusConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightCombinationBonusConfigRow_TypeDefinitionIndex = 13418;
+
 	class GridFightCombinationBonusConfigRow : public ::System::Object
 	{
 	public:

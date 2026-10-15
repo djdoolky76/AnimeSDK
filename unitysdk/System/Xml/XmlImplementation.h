@@ -11,6 +11,8 @@ namespace System::Xml { class XmlNameTable; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlImplementation_TypeDefinitionIndex = 1906;
+
 	class XmlImplementation : public ::System::Object
 	{
 	public:

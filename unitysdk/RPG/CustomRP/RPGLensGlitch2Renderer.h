@@ -17,6 +17,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGLensGlitch2Renderer_TypeDefinitionIndex = 37827;
+
 	class RPGLensGlitch2Renderer : public ::RPG::CustomRP::CRPPostprocessSubPass2
 	{
 	public:

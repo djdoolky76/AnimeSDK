@@ -7,6 +7,8 @@
 
 #define DCDFGKMIOOM_CTOR_OFFSET UNITYSDK_OFFSET(0xE2409B0)
 
+inline static constexpr unsigned int DCDFGKMIOOM_TypeDefinitionIndex = 56330;
+
 	class DCDFGKMIOOM : public ::GNEBNHLMFAF
 	{
 	public:

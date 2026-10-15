@@ -30,6 +30,8 @@ namespace System { class String; }
 #define BONOIPBEEAP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E03E060)
 #define BONOIPBEEAP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E03E0C0)
 
+inline static constexpr unsigned int BONOIPBEEAP_TypeDefinitionIndex = 30122;
+
 	class BONOIPBEEAP : public ::System::Object
 	{
 	public:

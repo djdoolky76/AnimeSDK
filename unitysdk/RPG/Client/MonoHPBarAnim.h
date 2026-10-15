@@ -15,6 +15,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoHPBarAnim_TypeDefinitionIndex = 72580;
+
 	class MonoHPBarAnim : public ::UnityEngine::MonoBehaviour
 	{
 	public:

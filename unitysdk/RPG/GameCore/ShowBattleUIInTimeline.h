@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ShowBattleUIInTimeline; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowBattleUIInTimeline_TypeDefinitionIndex = 22928;
+
 	class ShowBattleUIInTimeline : public ::RPG::GameCore::TaskConfig
 	{
 	public:

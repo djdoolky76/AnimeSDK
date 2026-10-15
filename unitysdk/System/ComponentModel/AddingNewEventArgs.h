@@ -6,6 +6,8 @@
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int AddingNewEventArgs_TypeDefinitionIndex = 9569;
+
 	class AddingNewEventArgs : public ::System::Object
 	{
 	public:

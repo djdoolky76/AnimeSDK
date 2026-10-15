@@ -11,6 +11,8 @@ namespace System::Runtime::Remoting { class ProviderData; }
 
 namespace System::Runtime::Remoting
 {
+	inline static constexpr unsigned int ProviderData_TypeDefinitionIndex = 1215;
+
 	class ProviderData : public ::System::Object
 	{
 	public:

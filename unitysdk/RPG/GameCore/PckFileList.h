@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PckFileList_TypeDefinitionIndex = 16394;
+
 	class PckFileList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

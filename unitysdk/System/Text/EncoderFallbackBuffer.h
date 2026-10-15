@@ -14,6 +14,8 @@ namespace System::Text { class EncoderNLS; }
 
 namespace System::Text
 {
+	inline static constexpr unsigned int EncoderFallbackBuffer_TypeDefinitionIndex = 485;
+
 	class EncoderFallbackBuffer : public ::System::Object
 	{
 	public:

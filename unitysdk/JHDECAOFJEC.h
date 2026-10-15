@@ -8,6 +8,8 @@
 #define JHDECAOFJEC_KPAOCJEJCNA_OFFSET UNITYSDK_OFFSET(0xB1AA3A0)
 #define JHDECAOFJEC_NPOFEKBLAIH_OFFSET UNITYSDK_OFFSET(0xB1AA250)
 
+inline static constexpr unsigned int JHDECAOFJEC_TypeDefinitionIndex = 72433;
+
 	class JHDECAOFJEC : public ::JPNPHHIBPEK
 	{
 	public:

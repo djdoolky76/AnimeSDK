@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAbilityValueGetterConstantConfig; }
 #define GNCADNFEHAC_FIJOLNFHKAL_OFFSET UNITYSDK_OFFSET(0x15AFD0E0)
 #define GNCADNFEHAC_GETVALUE_OFFSET UNITYSDK_OFFSET(0x15AFD050)
 
+inline static constexpr unsigned int GNCADNFEHAC_TypeDefinitionIndex = 77395;
+
 	class GNCADNFEHAC : public ::System::Object
 	{
 	public:

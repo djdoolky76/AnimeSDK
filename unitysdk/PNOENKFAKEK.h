@@ -30,6 +30,8 @@ namespace System { class String; }
 #define PNOENKFAKEK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFC0290)
 #define PNOENKFAKEK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFC02F0)
 
+inline static constexpr unsigned int PNOENKFAKEK_TypeDefinitionIndex = 28032;
+
 	class PNOENKFAKEK : public ::System::Object
 	{
 	public:

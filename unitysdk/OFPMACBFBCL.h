@@ -5,6 +5,8 @@
 #define OFPMACBFBCL_CTOR_OFFSET UNITYSDK_OFFSET(0xBE4D9D0)
 #define OFPMACBFBCL_GAOBNIHOCLL_OFFSET UNITYSDK_OFFSET(0xBE4D920)
 
+inline static constexpr unsigned int OFPMACBFBCL_TypeDefinitionIndex = 67324;
+
 	class OFPMACBFBCL : public ::System::Object
 	{
 	public:

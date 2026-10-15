@@ -3,6 +3,8 @@
 
 namespace System::Net
 {
+	inline static constexpr unsigned int IWebConnectionState_TypeDefinitionIndex = 2864;
+
 	class IWebConnectionState
 	{
 	public:

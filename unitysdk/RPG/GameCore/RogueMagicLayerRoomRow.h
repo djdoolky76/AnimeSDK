@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueMagicLayerRoomRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueMagicLayerRoomRow_TypeDefinitionIndex = 14856;
+
 	class RogueMagicLayerRoomRow : public ::System::Object
 	{
 	public:

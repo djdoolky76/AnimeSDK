@@ -31,6 +31,8 @@ namespace System { class String; }
 #define FIAHFIBLDLP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3946F0)
 #define FIAHFIBLDLP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E394750)
 
+inline static constexpr unsigned int FIAHFIBLDLP_TypeDefinitionIndex = 34007;
+
 	class FIAHFIBLDLP : public ::System::Object
 	{
 	public:

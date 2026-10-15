@@ -27,6 +27,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int EmptyReadOnlyDictionaryInternal_TypeDefinitionIndex = 1470;
+
 	class EmptyReadOnlyDictionaryInternal : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattlePassRewardDisplayRow_TypeDefinitionIndex = 12873;
+
 	class BattlePassRewardDisplayRow : public ::System::Object
 	{
 	public:

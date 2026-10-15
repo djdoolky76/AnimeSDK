@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MHYSDKC_Login_TypeDefinitionIndex = 46142;
+
 	class MHYSDKC_Login : public ::System::Object
 	{
 	public:

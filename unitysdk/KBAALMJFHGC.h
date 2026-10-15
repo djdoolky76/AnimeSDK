@@ -26,6 +26,8 @@ namespace System { class String; }
 #define KBAALMJFHGC_ONIFHAIEGFK_OFFSET UNITYSDK_OFFSET(0x12CF0)
 #define KBAALMJFHGC_PPDKMFJCCBC_OFFSET UNITYSDK_OFFSET(0x12E50)
 
+inline static constexpr unsigned int KBAALMJFHGC_TypeDefinitionIndex = 59070;
+
 	struct alignas(8) KBAALMJFHGC
 	{
 		::KHMLAOFIOJD CGAEAJJBFCB; // 0x10

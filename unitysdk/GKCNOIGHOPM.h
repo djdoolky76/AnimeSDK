@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GKCNOIGHOPM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4B00A0)
 #define GKCNOIGHOPM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4B0100)
 
+inline static constexpr unsigned int GKCNOIGHOPM_TypeDefinitionIndex = 26759;
+
 	class GKCNOIGHOPM : public ::System::Object
 	{
 	public:

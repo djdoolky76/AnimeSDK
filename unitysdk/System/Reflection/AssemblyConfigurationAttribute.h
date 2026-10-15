@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int AssemblyConfigurationAttribute_TypeDefinitionIndex = 546;
+
 	class AssemblyConfigurationAttribute : public ::System::Attribute
 	{
 	public:

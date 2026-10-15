@@ -33,6 +33,8 @@ namespace System { class String; }
 #define LGGGHFDBCFN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9523A0)
 #define LGGGHFDBCFN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E952400)
 
+inline static constexpr unsigned int LGGGHFDBCFN_TypeDefinitionIndex = 30275;
+
 	class LGGGHFDBCFN : public ::System::Object
 	{
 	public:

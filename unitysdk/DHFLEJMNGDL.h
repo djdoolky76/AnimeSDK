@@ -41,6 +41,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define DHFLEJMNGDL_SET_SHAPE_OFFSET UNITYSDK_OFFSET(0x1CA2A6E0)
 #define DHFLEJMNGDL_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x1CA2A700)
 
+inline static constexpr unsigned int DHFLEJMNGDL_TypeDefinitionIndex = 43087;
+
 	class DHFLEJMNGDL : public ::System::Object
 	{
 	public:

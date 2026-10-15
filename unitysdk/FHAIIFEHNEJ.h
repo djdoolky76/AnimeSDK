@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 #define FHAIIFEHNEJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15770D80)
 #define FHAIIFEHNEJ_KAOPDJDKIMF_OFFSET UNITYSDK_OFFSET(0x15770EA0)
 
+inline static constexpr unsigned int FHAIIFEHNEJ_TypeDefinitionIndex = 76876;
+
 	class FHAIIFEHNEJ : public ::System::Object
 	{
 	public:

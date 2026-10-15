@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define BNNMFFOFCON_MDNMDGJEHGL_OFFSET UNITYSDK_OFFSET(0xBDE4430)
 #define BNNMFFOFCON_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xBDE3100)
 
+inline static constexpr unsigned int BNNMFFOFCON_TypeDefinitionIndex = 76945;
+
 	class BNNMFFOFCON : public ::System::Object
 	{
 	public:

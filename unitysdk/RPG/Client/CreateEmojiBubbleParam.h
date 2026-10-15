@@ -30,6 +30,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CreateEmojiBubbleParam_TypeDefinitionIndex = 62942;
+
 	class CreateEmojiBubbleParam : public ::System::Object
 	{
 	public:

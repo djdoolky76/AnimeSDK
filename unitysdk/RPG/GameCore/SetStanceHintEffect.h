@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetStanceHintEffect_TypeDefinitionIndex = 23657;
+
 	class SetStanceHintEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

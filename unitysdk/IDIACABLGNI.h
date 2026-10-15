@@ -54,6 +54,8 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftSettleViewModel_Fac
 #define IDIACABLGNI_OCIBGNCOELE_OFFSET UNITYSDK_OFFSET(0x15ED4B70)
 #define IDIACABLGNI_OHCGAIEGIIC_OFFSET UNITYSDK_OFFSET(0x15ED4D00)
 
+inline static constexpr unsigned int IDIACABLGNI_TypeDefinitionIndex = 79732;
+
 	class IDIACABLGNI : public ::System::Object
 	{
 	public:

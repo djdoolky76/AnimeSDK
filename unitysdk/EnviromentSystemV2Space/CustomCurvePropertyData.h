@@ -7,6 +7,8 @@
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int CustomCurvePropertyData_TypeDefinitionIndex = 49398;
+
 	class CustomCurvePropertyData : public ::EnviromentSystemV2Space::PropertyDataBase
 	{
 	public:

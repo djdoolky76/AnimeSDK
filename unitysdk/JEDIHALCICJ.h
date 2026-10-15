@@ -10,6 +10,8 @@ namespace RPG::Client::LittleGameShare { class ST_Main_CakeRacePlayEmoji; }
 #define JEDIHALCICJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C6F4700)
 #define JEDIHALCICJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1C6F49E0)
 
+inline static constexpr unsigned int JEDIHALCICJ_TypeDefinitionIndex = 36988;
+
 	class JEDIHALCICJ
 	{
 	public:

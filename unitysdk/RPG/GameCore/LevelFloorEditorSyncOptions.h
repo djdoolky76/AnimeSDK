@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LevelFloorEditorSyncOptions; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelFloorEditorSyncOptions_TypeDefinitionIndex = 17416;
+
 	class LevelFloorEditorSyncOptions : public ::RPG::GameCore::JsonConfig
 	{
 	public:

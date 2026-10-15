@@ -6,6 +6,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftEditTutorialDragTargetControl___O_TypeDefinitionIndex = 79885;
+
 	class MechCraftCraftEditTutorialDragTargetControl___O : public ::System::Object
 	{
 	public:

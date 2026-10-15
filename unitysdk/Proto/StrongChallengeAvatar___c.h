@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int StrongChallengeAvatar___c_TypeDefinitionIndex = 34295;
+
 	class StrongChallengeAvatar___c : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ class OBGPJKCJIEC;
 
 #define HEOGGJHDOMP_CTOR_OFFSET UNITYSDK_OFFSET(0x15C63740)
 
+inline static constexpr unsigned int HEOGGJHDOMP_TypeDefinitionIndex = 71557;
+
 	class HEOGGJHDOMP : public ::System::Object
 	{
 	public:

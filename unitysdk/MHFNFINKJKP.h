@@ -35,6 +35,8 @@ namespace System { class String; }
 #define MHFNFINKJKP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA2E910)
 #define MHFNFINKJKP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA2E970)
 
+inline static constexpr unsigned int MHFNFINKJKP_TypeDefinitionIndex = 25518;
+
 	class MHFNFINKJKP : public ::System::Object
 	{
 	public:

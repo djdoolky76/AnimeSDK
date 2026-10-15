@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int DefaultContractResolverState_TypeDefinitionIndex = 9704;
+
 	class DefaultContractResolverState : public ::System::Object
 	{
 	public:

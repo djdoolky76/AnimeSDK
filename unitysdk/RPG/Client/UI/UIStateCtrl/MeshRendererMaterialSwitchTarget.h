@@ -19,6 +19,8 @@ namespace UnityEngine { class MeshRenderer; }
 
 namespace RPG::Client::UI::UIStateCtrl
 {
+	inline static constexpr unsigned int MeshRendererMaterialSwitchTarget_TypeDefinitionIndex = 74075;
+
 	class MeshRendererMaterialSwitchTarget : public ::RPG::Client::UI::UIStateCtrl::MaterialSwitchTarget
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Xml::Schema { class SymbolsDictionary; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int NfaContentValidator_TypeDefinitionIndex = 2082;
+
 	class NfaContentValidator : public ::System::Xml::Schema::ContentValidator
 	{
 	public:

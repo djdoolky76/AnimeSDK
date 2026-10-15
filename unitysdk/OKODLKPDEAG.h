@@ -6,6 +6,8 @@ class JLNOLMNPIGN;
 
 #define OKODLKPDEAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7D6C60)
 
+inline static constexpr unsigned int OKODLKPDEAG_TypeDefinitionIndex = 36273;
+
 	class OKODLKPDEAG : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MRMusicCompositionMode_TypeDefinitionIndex = 60486;
+
 	enum class MRMusicCompositionMode : ::System::Int32
 	{
 		Stage = 0,

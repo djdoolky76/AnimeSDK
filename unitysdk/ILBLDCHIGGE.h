@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_StartCardCutin; }
 #define ILBLDCHIGGE_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1C6E1AF0)
 #define ILBLDCHIGGE_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C6E19D0)
 
+inline static constexpr unsigned int ILBLDCHIGGE_TypeDefinitionIndex = 36311;
+
 	class ILBLDCHIGGE : public ::AJBKGPOEBFG
 	{
 	public:

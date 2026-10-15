@@ -9,6 +9,8 @@ class CFGKDALDABC;
 #define EINCJAFKGFH_CTOR_OFFSET UNITYSDK_OFFSET(0x154D32C0)
 #define EINCJAFKGFH_RESETSIMULATIONSTATE_OFFSET UNITYSDK_OFFSET(0x154D2CF0)
 
+inline static constexpr unsigned int EINCJAFKGFH_TypeDefinitionIndex = 73690;
+
 	class EINCJAFKGFH : public ::UnityEngine::AstraFXRendererDelegate
 	{
 	public:

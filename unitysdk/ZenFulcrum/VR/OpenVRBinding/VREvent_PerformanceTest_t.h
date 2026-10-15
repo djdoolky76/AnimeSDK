@@ -3,6 +3,8 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int VREvent_PerformanceTest_t_TypeDefinitionIndex = 39294;
+
 	struct alignas(4) VREvent_PerformanceTest_t
 	{
 		::System::UInt32 m_nFidelityLevel; // 0x10

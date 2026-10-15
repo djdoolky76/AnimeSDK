@@ -7,6 +7,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int BlinkSpeedLineParameter_TypeDefinitionIndex = 48536;
+
 	struct alignas(4) BlinkSpeedLineParameter
 	{
 		::System::Single Duration; // 0x10

@@ -12,6 +12,8 @@ namespace System::Security::Cryptography { class KeySizes; }
 
 namespace Mono::Security::Cryptography
 {
+	inline static constexpr unsigned int RC4_TypeDefinitionIndex = 75;
+
 	class RC4 : public ::System::Security::Cryptography::SymmetricAlgorithm
 	{
 	public:

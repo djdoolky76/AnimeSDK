@@ -15,6 +15,8 @@ namespace RPGTools::Timeline { class SetAudienceGroupVisibleClipConfig; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SetAudienceGroupVisibleBehaviour_TypeDefinitionIndex = 48273;
+
 	class SetAudienceGroupVisibleBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

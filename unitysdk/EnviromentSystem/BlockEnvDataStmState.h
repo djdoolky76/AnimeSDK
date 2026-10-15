@@ -3,6 +3,8 @@
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int BlockEnvDataStmState_TypeDefinitionIndex = 49568;
+
 	enum class BlockEnvDataStmState : ::System::Int32
 	{
 		Released = 0,

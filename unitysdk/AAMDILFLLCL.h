@@ -27,6 +27,8 @@ namespace System { class String; }
 #define AAMDILFLLCL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDBF780)
 #define AAMDILFLLCL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDBF7E0)
 
+inline static constexpr unsigned int AAMDILFLLCL_TypeDefinitionIndex = 30150;
+
 	class AAMDILFLLCL : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2SensorTaskContext_TypeDefinitionIndex = 36754;
+
 	class B2SensorTaskContext : public ::System::Object
 	{
 	public:

@@ -36,6 +36,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Certifica
 
 namespace System::Net
 {
+	inline static constexpr unsigned int EndPointListener_TypeDefinitionIndex = 2835;
+
 	class EndPointListener : public ::System::Object
 	{
 	public:

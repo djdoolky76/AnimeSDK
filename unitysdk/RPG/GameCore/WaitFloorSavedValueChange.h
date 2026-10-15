@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitFloorSavedValueChange_TypeDefinitionIndex = 20708;
+
 	class WaitFloorSavedValueChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:

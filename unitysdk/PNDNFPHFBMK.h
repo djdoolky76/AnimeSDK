@@ -11,6 +11,8 @@ class PNDNFPHFBMK;
 #define PNDNFPHFBMK_SET_BLACKBOARD_OFFSET UNITYSDK_OFFSET(0xC334700)
 #define PNDNFPHFBMK_SET_GLOBALBLACKBOARD_OFFSET UNITYSDK_OFFSET(0xC334720)
 
+inline static constexpr unsigned int PNDNFPHFBMK_TypeDefinitionIndex = 67172;
+
 	class PNDNFPHFBMK : public ::System::Object
 	{
 	public:

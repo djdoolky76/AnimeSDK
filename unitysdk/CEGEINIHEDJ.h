@@ -26,6 +26,8 @@ namespace RPG::Client { class CoastinfoWaveMonoPlugin; }
 #define CEGEINIHEDJ_PICEOHJHJMG_OFFSET UNITYSDK_OFFSET(0xC9D5B70)
 #define CEGEINIHEDJ_PKMKLFIHOKK_OFFSET UNITYSDK_OFFSET(0xC9D79D0)
 
+inline static constexpr unsigned int CEGEINIHEDJ_TypeDefinitionIndex = 70933;
+
 	class CEGEINIHEDJ : public ::System::Object
 	{
 	public:

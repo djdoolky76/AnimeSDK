@@ -30,6 +30,8 @@ namespace System { class String; }
 #define DIKBPKAKENO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1C1650)
 #define DIKBPKAKENO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1C16B0)
 
+inline static constexpr unsigned int DIKBPKAKENO_TypeDefinitionIndex = 33374;
+
 	class DIKBPKAKENO : public ::System::Object
 	{
 	public:

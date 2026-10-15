@@ -13,6 +13,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_ReadyFunc; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_setReadyCallback_TypeDefinitionIndex = 39422;
+
 	class BrowserNative_Calltype_zfb_setReadyCallback : public ::System::MulticastDelegate
 	{
 	public:

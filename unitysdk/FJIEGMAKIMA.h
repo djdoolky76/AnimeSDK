@@ -43,6 +43,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FJIEGMAKIMA_PFLGKAEFPAK_1_OFFSET UNITYSDK_OFFSET(0x157CA1A0)
 #define FJIEGMAKIMA_PFLGKAEFPAK_OFFSET UNITYSDK_OFFSET(0x157CA070)
 
+inline static constexpr unsigned int FJIEGMAKIMA_TypeDefinitionIndex = 60226;
+
 	class FJIEGMAKIMA : public ::System::Object
 	{
 	public:

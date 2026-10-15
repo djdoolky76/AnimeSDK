@@ -12,6 +12,8 @@ namespace RPG::GameCore { class FiveDimSetPlayerResetModeAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetPlayerResetModeAction_TypeDefinitionIndex = 18734;
+
 	class FiveDimSetPlayerResetModeAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define HCMFPHICBOI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E543070)
 #define HCMFPHICBOI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5430D0)
 
+inline static constexpr unsigned int HCMFPHICBOI_TypeDefinitionIndex = 33688;
+
 	class HCMFPHICBOI : public ::System::Object
 	{
 	public:

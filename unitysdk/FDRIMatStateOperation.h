@@ -7,6 +7,8 @@
 #define FDRIMATSTATEOPERATION_CTOR_OFFSET UNITYSDK_OFFSET(0x156E4490)
 #define FDRIMATSTATEOPERATION_IJCPIKBPLOP_OFFSET UNITYSDK_OFFSET(0x156E4410)
 
+inline static constexpr unsigned int FDRIMatStateOperation_TypeDefinitionIndex = 47113;
+
 	class FDRIMatStateOperation : public ::FDRIStateOperation
 	{
 	public:

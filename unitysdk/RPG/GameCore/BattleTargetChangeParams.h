@@ -6,6 +6,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleTargetChangeParams_TypeDefinitionIndex = 58527;
+
 	class BattleTargetChangeParams : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionOnRogueMagicPostStartC
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionOnRogueMagicPostStartConfig_TypeDefinitionIndex = 17733;
+
 	class RogueModifierExecuteActionOnRogueMagicPostStartConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SceneQuadDeformData_TypeDefinitionIndex = 70849;
+
 	struct alignas(4) SceneQuadDeformData
 	{
 		::UnityEngine::Vector3 ModuleSize; // 0x10

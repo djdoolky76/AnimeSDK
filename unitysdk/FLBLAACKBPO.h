@@ -25,6 +25,8 @@ namespace System { class String; }
 #define FLBLAACKBPO_ODKIPLLELCO_OFFSET UNITYSDK_OFFSET(0x3C48040)
 #define FLBLAACKBPO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C481E0)
 
+inline static constexpr unsigned int FLBLAACKBPO_TypeDefinitionIndex = 6387;
+
 	struct alignas(4) FLBLAACKBPO
 	{
 		::RPG::MVector3 BNAEGKCODPA; // 0x10

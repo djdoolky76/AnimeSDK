@@ -15,6 +15,8 @@ namespace System { class String; }
 #define FKLOOILBAAL_IFCKJHEDDKJ_OFFSET UNITYSDK_OFFSET(0x1EC08DE0)
 #define FKLOOILBAAL_MOBPHKBIILO_OFFSET UNITYSDK_OFFSET(0x1EC08370)
 
+inline static constexpr unsigned int FKLOOILBAAL_TypeDefinitionIndex = 35292;
+
 	class FKLOOILBAAL : public ::System::Object
 	{
 	public:

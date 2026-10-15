@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define LIDHGFLAJMF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90EF70)
 
+inline static constexpr unsigned int LIDHGFLAJMF_TypeDefinitionIndex = 43226;
+
 	class LIDHGFLAJMF : public ::System::Object
 	{
 	public:

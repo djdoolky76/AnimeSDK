@@ -54,6 +54,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client::TAUtils
 {
+	inline static constexpr unsigned int ComputeMaterial_TypeDefinitionIndex = 73610;
+
 	class ComputeMaterial : public ::UnityEngine::ScriptableObject
 	{
 	public:

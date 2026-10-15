@@ -15,6 +15,8 @@ namespace UnityEngine { class RenderTexture; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncRenderImageTrigger_TypeDefinitionIndex = 38589;
+
 	class AsyncRenderImageTrigger
 	{
 	public:

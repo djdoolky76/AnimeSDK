@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelBattleAreaInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DynamicLoadBattleAreaConfig_TypeDefinitionIndex = 19163;
+
 	class DynamicLoadBattleAreaConfig : public ::RPG::GameCore::DynamicLoadBlockDataList
 	{
 	public:

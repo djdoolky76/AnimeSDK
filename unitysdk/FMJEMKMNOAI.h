@@ -8,6 +8,8 @@ namespace System { class String; }
 #define FMJEMKMNOAI_JIBEPLDAABO_OFFSET UNITYSDK_OFFSET(0x2E77C70)
 #define FMJEMKMNOAI_NOBDGNEMKLO_OFFSET UNITYSDK_OFFSET(0x2E77D80)
 
+inline static constexpr unsigned int FMJEMKMNOAI_TypeDefinitionIndex = 57164;
+
 	struct alignas(4) FMJEMKMNOAI
 	{
 		::System::Int32 OJDMPJIOBMJ; // 0x10

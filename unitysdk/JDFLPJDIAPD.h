@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 #define JDFLPJDIAPD_KAGICIAJEEA_OFFSET UNITYSDK_OFFSET(0x165C33F0)
 #define JDFLPJDIAPD_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x165C2FB0)
 
+inline static constexpr unsigned int JDFLPJDIAPD_TypeDefinitionIndex = 79091;
+
 	class JDFLPJDIAPD : public ::System::Object
 	{
 	public:

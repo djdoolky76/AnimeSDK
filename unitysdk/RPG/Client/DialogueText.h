@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DialogueText_TypeDefinitionIndex = 72524;
+
 	class DialogueText : public ::UnityEngine::UI::Text
 	{
 	public:

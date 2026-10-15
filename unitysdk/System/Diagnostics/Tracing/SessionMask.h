@@ -14,6 +14,8 @@
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int SessionMask_TypeDefinitionIndex = 1703;
+
 	struct alignas(4) SessionMask
 	{
 		::System::UInt32 m_mask; // 0x10

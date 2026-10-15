@@ -10,6 +10,8 @@ namespace Entitas { class IGroup; }
 #define GEHNPNIEOJG_CTOR_OFFSET UNITYSDK_OFFSET(0x159D9770)
 #define GEHNPNIEOJG_LATEEXECUTE_OFFSET UNITYSDK_OFFSET(0x159D9810)
 
+inline static constexpr unsigned int GEHNPNIEOJG_TypeDefinitionIndex = 76922;
+
 	class GEHNPNIEOJG : public ::System::Object
 	{
 	public:

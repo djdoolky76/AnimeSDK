@@ -17,6 +17,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace MiHoYo::SDK::Protobuf
 {
+	inline static constexpr unsigned int FieldCodec___c_TypeDefinitionIndex = 35715;
+
 	class FieldCodec___c : public ::System::Object
 	{
 	public:

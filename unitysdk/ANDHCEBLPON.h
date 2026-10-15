@@ -4,6 +4,8 @@
 
 #define ANDHCEBLPON_CTOR_OFFSET UNITYSDK_OFFSET(0x15592B90)
 
+inline static constexpr unsigned int ANDHCEBLPON_TypeDefinitionIndex = 73998;
+
 	class ANDHCEBLPON : public ::FECDLDCCHPN
 	{
 	public:

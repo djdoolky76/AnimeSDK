@@ -20,6 +20,8 @@ namespace System::Text { class StringBuilder; }
 #define GPKMKOEJPNE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15B5C8C0)
 #define GPKMKOEJPNE__CLONE___OFFSET UNITYSDK_OFFSET(0x15B5D500)
 
+inline static constexpr unsigned int GPKMKOEJPNE_TypeDefinitionIndex = 49711;
+
 	class GPKMKOEJPNE : public ::System::Object
 	{
 	public:

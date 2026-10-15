@@ -10,6 +10,8 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2ContactSim; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2ContactSim_TypeDefinitionIndex = 36630;
+
 	class B2ContactSim : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int IPluginUIService___c__DisplayClass6_0_TypeDefinitionIndex = 9153;
+
 	class IPluginUIService___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

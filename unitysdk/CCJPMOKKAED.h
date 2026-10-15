@@ -43,6 +43,8 @@ namespace UnityEngine { class MeshRenderer; }
 #define CCJPMOKKAED__ONVIDEOBEGIN_B__46_1_OFFSET UNITYSDK_OFFSET(0xC749AD0)
 #define CCJPMOKKAED__WAITRESTARTPLAYVIDEO_B__37_0_OFFSET UNITYSDK_OFFSET(0xC749AA0)
 
+inline static constexpr unsigned int CCJPMOKKAED_TypeDefinitionIndex = 73216;
+
 	class CCJPMOKKAED : public ::System::Object
 	{
 	public:

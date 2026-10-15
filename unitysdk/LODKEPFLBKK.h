@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LODKEPFLBKK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9BA470)
 #define LODKEPFLBKK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9BA4D0)
 
+inline static constexpr unsigned int LODKEPFLBKK_TypeDefinitionIndex = 32253;
+
 	class LODKEPFLBKK : public ::System::Object
 	{
 	public:

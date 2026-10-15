@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define LAALMAHICIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C71F2F0)
 #define LAALMAHICIC___C___TRIGGERNEWWEATHEREFFECT_B__9_0_OFFSET UNITYSDK_OFFSET(0x1C71F300)
 
+inline static constexpr unsigned int LAALMAHICIC___c_TypeDefinitionIndex = 36531;
+
 	class LAALMAHICIC___c : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NHINBOEKLED_CTOR_OFFSET UNITYSDK_OFFSET(0x1C965D10)
 #define NHINBOEKLED_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1C965EC0)
 
+inline static constexpr unsigned int NHINBOEKLED_TypeDefinitionIndex = 43136;
+
 	class NHINBOEKLED : public ::LHJPMDPJPEC
 	{
 	public:

@@ -50,6 +50,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveGiftDanmu_TypeDefinitionIndex = 75179;
+
 	class IdleLiveGiftDanmu : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -20,6 +20,8 @@
 
 namespace InControl
 {
+	inline static constexpr unsigned int InControlManager_TypeDefinitionIndex = 40815;
+
 	class InControlManager
 	{
 	public:

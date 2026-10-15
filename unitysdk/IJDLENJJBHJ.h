@@ -35,6 +35,8 @@ namespace System { class String; }
 #define IJDLENJJBHJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6919C0)
 #define IJDLENJJBHJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E691A20)
 
+inline static constexpr unsigned int IJDLENJJBHJ_TypeDefinitionIndex = 29174;
+
 	class IJDLENJJBHJ : public ::System::Object
 	{
 	public:

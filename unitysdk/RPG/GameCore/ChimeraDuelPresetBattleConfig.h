@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraDuelPresetTeamConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelPresetBattleConfig_TypeDefinitionIndex = 16028;
+
 	class ChimeraDuelPresetBattleConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

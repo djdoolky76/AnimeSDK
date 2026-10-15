@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GuessTheSilhouetteResult; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GuessTheSilhouetteResult_TypeDefinitionIndex = 21175;
+
 	class GuessTheSilhouetteResult : public ::RPG::GameCore::TaskConfig
 	{
 	public:

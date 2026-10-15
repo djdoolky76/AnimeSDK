@@ -24,6 +24,8 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PetPartyTestMono_TypeDefinitionIndex = 60209;
+
 	class PetPartyTestMono : public ::UnityEngine::MonoBehaviour
 	{
 	public:

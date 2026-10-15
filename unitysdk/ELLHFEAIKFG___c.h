@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ELLHFEAIKFG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2D6350)
 #define ELLHFEAIKFG___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E2D6360)
 
+inline static constexpr unsigned int ELLHFEAIKFG___c_TypeDefinitionIndex = 25389;
+
 	class ELLHFEAIKFG___c : public ::System::Object
 	{
 	public:

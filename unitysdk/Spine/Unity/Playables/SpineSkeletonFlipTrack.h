@@ -13,6 +13,8 @@ namespace UnityEngine::Timeline { class IPropertyCollector; }
 
 namespace Spine::Unity::Playables
 {
+	inline static constexpr unsigned int SpineSkeletonFlipTrack_TypeDefinitionIndex = 45913;
+
 	class SpineSkeletonFlipTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

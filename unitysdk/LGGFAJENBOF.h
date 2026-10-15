@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LGGFAJENBOF_CABKEIBGPLJ_OFFSET UNITYSDK_OFFSET(0xB695950)
 #define LGGFAJENBOF_CTOR_OFFSET UNITYSDK_OFFSET(0xB695A30)
 
+inline static constexpr unsigned int LGGFAJENBOF_TypeDefinitionIndex = 82244;
+
 	class LGGFAJENBOF : public ::System::Object
 	{
 	public:

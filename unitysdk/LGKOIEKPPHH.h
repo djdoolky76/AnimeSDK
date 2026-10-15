@@ -9,6 +9,8 @@ namespace System { class String; }
 #define LGKOIEKPPHH_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0xB69AC30)
 #define LGKOIEKPPHH_IGBFHCJEHNK_OFFSET UNITYSDK_OFFSET(0xB69ACD0)
 
+inline static constexpr unsigned int LGKOIEKPPHH_TypeDefinitionIndex = 73292;
+
 	class LGKOIEKPPHH : public ::System::Object
 	{
 	public:

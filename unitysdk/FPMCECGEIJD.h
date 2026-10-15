@@ -33,6 +33,8 @@ namespace System { class String; }
 #define FPMCECGEIJD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E40C7E0)
 #define FPMCECGEIJD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E40C840)
 
+inline static constexpr unsigned int FPMCECGEIJD_TypeDefinitionIndex = 30869;
+
 	class FPMCECGEIJD : public ::System::Object
 	{
 	public:

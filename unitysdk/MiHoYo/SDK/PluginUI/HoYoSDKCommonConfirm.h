@@ -13,6 +13,8 @@ namespace MiHoYo::SDK::PluginUI { class HoYoSDKCommonConfirm; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int HoYoSDKCommonConfirm_TypeDefinitionIndex = 46746;
+
 	class HoYoSDKCommonConfirm : public ::MiHoYo::SDK::PluginUI::MiHoYoSDKUIContainer
 	{
 	public:

@@ -16,6 +16,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvByCompareInvasionLevel_TypeDefinitionIndex = 20257;
+
 	class AdvByCompareInvasionLevel : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EnvSolarDebugObject_TypeDefinitionIndex = 69788;
+
 	class EnvSolarDebugObject : public ::UnityEngine::MonoBehaviour
 	{
 	public:

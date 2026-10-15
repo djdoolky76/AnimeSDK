@@ -34,6 +34,8 @@ namespace System { class String; }
 #define GBPAJNPKPOB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4345C0)
 #define GBPAJNPKPOB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E434620)
 
+inline static constexpr unsigned int GBPAJNPKPOB_TypeDefinitionIndex = 31861;
+
 	class GBPAJNPKPOB : public ::System::Object
 	{
 	public:

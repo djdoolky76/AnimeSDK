@@ -4,6 +4,8 @@
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int Engine_TypeDefinitionIndex = 74132;
+
 	struct alignas(8) Engine
 	{
 		::System::Single Mass; // 0x10

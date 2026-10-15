@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HanuBarNotifyConfig_TypeDefinitionIndex = 16969;
+
 	class HanuBarNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define BMJDDOLALFI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0284E0)
 #define BMJDDOLALFI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E028540)
 
+inline static constexpr unsigned int BMJDDOLALFI_TypeDefinitionIndex = 28001;
+
 	class BMJDDOLALFI : public ::System::Object
 	{
 	public:

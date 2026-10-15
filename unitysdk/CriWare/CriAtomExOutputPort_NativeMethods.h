@@ -14,6 +14,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExOutputPort_NativeMethods_TypeDefinitionIndex = 40052;
+
 	class CriAtomExOutputPort_NativeMethods : public ::System::Object
 	{
 	public:

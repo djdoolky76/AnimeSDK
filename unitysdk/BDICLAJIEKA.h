@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BDICLAJIEKA_MLAJEHANLNL_OFFSET UNITYSDK_OFFSET(0x162FB510)
 #define BDICLAJIEKA_NKFLPDLCLCM_OFFSET UNITYSDK_OFFSET(0x162FB310)
 
+inline static constexpr unsigned int BDICLAJIEKA_TypeDefinitionIndex = 62697;
+
 	class BDICLAJIEKA : public ::System::Object
 	{
 	public:

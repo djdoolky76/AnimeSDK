@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirTrailPointPositioner___c__DisplayClass10_0_TypeDefinitionIndex = 79394;
+
 	class PixAirTrailPointPositioner___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

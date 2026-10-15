@@ -11,6 +11,8 @@ namespace RPG::GameCore { class VCameraModeChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VCameraModeChange_TypeDefinitionIndex = 22459;
+
 	class VCameraModeChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:

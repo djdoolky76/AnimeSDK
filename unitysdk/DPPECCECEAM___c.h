@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define DPPECCECEAM___C__GET__FIXEDUPDATEACTION_B__30_0_OFFSET UNITYSDK_OFFSET(0x12665BB0)
 #define DPPECCECEAM___C__GET__LATEFIXEDUPDATEACTION_B__32_0_OFFSET UNITYSDK_OFFSET(0x12665BD0)
 
+inline static constexpr unsigned int DPPECCECEAM___c_TypeDefinitionIndex = 77011;
+
 	class DPPECCECEAM___c : public ::System::Object
 	{
 	public:

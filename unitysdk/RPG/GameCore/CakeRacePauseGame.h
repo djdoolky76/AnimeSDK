@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRacePauseGame; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRacePauseGame_TypeDefinitionIndex = 24296;
+
 	class CakeRacePauseGame : public ::RPG::GameCore::TaskConfig
 	{
 	public:

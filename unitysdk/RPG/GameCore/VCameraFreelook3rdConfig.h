@@ -13,6 +13,8 @@ namespace RPG::GameCore { class VCameraVector3ChangeParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VCameraFreelook3rdConfig_TypeDefinitionIndex = 16411;
+
 	class VCameraFreelook3rdConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System { class String; }
 #define JONAOEKOCEI_IPDHLMJJDND_SET_ISREACH_OFFSET UNITYSDK_OFFSET(0xB2ACAC0)
 #define JONAOEKOCEI_IPDHLMJJDND_SET_TARGETNAME_OFFSET UNITYSDK_OFFSET(0xB2ACB00)
 
+inline static constexpr unsigned int JONAOEKOCEI_IPDHLMJJDND_TypeDefinitionIndex = 60183;
+
 	class JONAOEKOCEI_IPDHLMJJDND : public ::System::Object
 	{
 	public:

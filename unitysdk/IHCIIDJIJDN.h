@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define IHCIIDJIJDN_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC75BA0)
 #define IHCIIDJIJDN_KEBEIGGJIPA_OFFSET UNITYSDK_OFFSET(0x1EC75BB0)
 
+inline static constexpr unsigned int IHCIIDJIJDN_TypeDefinitionIndex = 44314;
+
 	class IHCIIDJIJDN : public ::System::Object
 	{
 	public:

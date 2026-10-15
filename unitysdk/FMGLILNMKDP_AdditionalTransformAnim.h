@@ -11,6 +11,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define FMGLILNMKDP_ADDITIONALTRANSFORMANIM_CTOR_OFFSET UNITYSDK_OFFSET(0x158560B0)
 #define FMGLILNMKDP_ADDITIONALTRANSFORMANIM_HNEADNPJHEB_OFFSET UNITYSDK_OFFSET(0x15855BE0)
 
+inline static constexpr unsigned int FMGLILNMKDP_AdditionalTransformAnim_TypeDefinitionIndex = 70334;
+
 	class FMGLILNMKDP_AdditionalTransformAnim : public ::System::Object
 	{
 	public:

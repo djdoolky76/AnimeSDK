@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CEAFINHNEBL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E08DA80)
 #define CEAFINHNEBL___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E08DA90)
 
+inline static constexpr unsigned int CEAFINHNEBL___c_TypeDefinitionIndex = 32224;
+
 	class CEAFINHNEBL___c : public ::System::Object
 	{
 	public:

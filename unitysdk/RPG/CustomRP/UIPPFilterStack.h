@@ -26,6 +26,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int UIPPFilterStack_TypeDefinitionIndex = 51865;
+
 	class UIPPFilterStack : public ::UnityEngine::MonoBehaviour
 	{
 	public:

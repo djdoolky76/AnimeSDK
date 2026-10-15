@@ -20,6 +20,8 @@ namespace RPG::Client { class MuseumTarget; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MuseumTargetData_TypeDefinitionIndex = 66351;
+
 	class MuseumTargetData : public ::System::Object
 	{
 	public:

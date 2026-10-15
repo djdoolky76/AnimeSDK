@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetMunicipalStreamCenter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetMunicipalStreamCenter_TypeDefinitionIndex = 22260;
+
 	class SetMunicipalStreamCenter : public ::RPG::GameCore::TaskConfig
 	{
 	public:

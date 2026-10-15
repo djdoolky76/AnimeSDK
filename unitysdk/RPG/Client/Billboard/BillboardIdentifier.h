@@ -28,6 +28,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Billboard
 {
+	inline static constexpr unsigned int BillboardIdentifier_TypeDefinitionIndex = 74977;
+
 	class BillboardIdentifier : public ::System::Object
 	{
 	public:

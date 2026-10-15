@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TravelShipHideUI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TravelShipHideUI_TypeDefinitionIndex = 20979;
+
 	class TravelShipHideUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

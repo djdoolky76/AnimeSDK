@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityLightConeMissionCondition_TypeDefinitionIndex = 61675;
+
 	class ActivityLightConeMissionCondition : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::ActivityFinalityBattle
 {
+	inline static constexpr unsigned int FinalityBattleHost___c_TypeDefinitionIndex = 82061;
+
 	class FinalityBattleHost___c : public ::System::Object
 	{
 	public:

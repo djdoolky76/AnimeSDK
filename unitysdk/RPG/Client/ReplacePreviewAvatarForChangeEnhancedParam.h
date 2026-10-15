@@ -13,6 +13,8 @@ namespace RPG::Client { class ReplacePreviewAvatarForChangeEnhancedParam; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ReplacePreviewAvatarForChangeEnhancedParam_TypeDefinitionIndex = 62570;
+
 	class ReplacePreviewAvatarForChangeEnhancedParam : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int UnsafeNclNativeMethods_HttpApi_HTTP_REQUEST_HEADER_ID_TypeDefinitionIndex = 2817;
+
 	class UnsafeNclNativeMethods_HttpApi_HTTP_REQUEST_HEADER_ID : public ::System::Object
 	{
 	public:

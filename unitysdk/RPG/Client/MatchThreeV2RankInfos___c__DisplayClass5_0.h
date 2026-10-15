@@ -8,6 +8,8 @@ namespace RPG::Client { class MatchThreeV2RankData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeV2RankInfos___c__DisplayClass5_0_TypeDefinitionIndex = 66024;
+
 	class MatchThreeV2RankInfos___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

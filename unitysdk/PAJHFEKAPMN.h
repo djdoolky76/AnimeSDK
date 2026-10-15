@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PAJHFEKAPMN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEEF6A0)
 #define PAJHFEKAPMN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEEF700)
 
+inline static constexpr unsigned int PAJHFEKAPMN_TypeDefinitionIndex = 29562;
+
 	class PAJHFEKAPMN : public ::System::Object
 	{
 	public:

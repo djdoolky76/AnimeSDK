@@ -30,6 +30,8 @@ namespace System { class String; }
 #define NPEHFAHLDNM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB96D90)
 #define NPEHFAHLDNM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB96DF0)
 
+inline static constexpr unsigned int NPEHFAHLDNM_TypeDefinitionIndex = 27804;
+
 	class NPEHFAHLDNM : public ::System::Object
 	{
 	public:

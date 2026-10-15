@@ -30,6 +30,8 @@ namespace System { class String; }
 #define CHBNOHMCMGC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0BBB10)
 #define CHBNOHMCMGC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0BBB70)
 
+inline static constexpr unsigned int CHBNOHMCMGC_TypeDefinitionIndex = 28955;
+
 	class CHBNOHMCMGC : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class SmoothMask; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ProgressBar_TypeDefinitionIndex = 72633;
+
 	class ProgressBar : public ::UnityEngine::MonoBehaviour
 	{
 	public:

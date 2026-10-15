@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MELNFDAIHIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA112A0)
 #define MELNFDAIHIL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EA112B0)
 
+inline static constexpr unsigned int MELNFDAIHIL___c_TypeDefinitionIndex = 34839;
+
 	class MELNFDAIHIL___c : public ::System::Object
 	{
 	public:

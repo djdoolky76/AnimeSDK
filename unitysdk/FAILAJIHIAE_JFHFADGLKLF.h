@@ -5,6 +5,8 @@ class KOAOAKKCCPK;
 
 #define FAILAJIHIAE_JFHFADGLKLF_CTOR_OFFSET UNITYSDK_OFFSET(0x1567E780)
 
+inline static constexpr unsigned int FAILAJIHIAE_JFHFADGLKLF_TypeDefinitionIndex = 72296;
+
 	class FAILAJIHIAE_JFHFADGLKLF : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChessRogueBoardCellDecayData_TypeDefinitionIndex = 66921;
+
 	class ChessRogueBoardCellDecayData : public ::GNFLPMACOFA
 	{
 	public:

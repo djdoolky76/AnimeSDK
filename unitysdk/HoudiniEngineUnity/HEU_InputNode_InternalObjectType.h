@@ -3,6 +3,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_InputNode_InternalObjectType_TypeDefinitionIndex = 40405;
+
 	enum class HEU_InputNode_InternalObjectType : ::System::Int32
 	{
 		UNKNOWN = 0,

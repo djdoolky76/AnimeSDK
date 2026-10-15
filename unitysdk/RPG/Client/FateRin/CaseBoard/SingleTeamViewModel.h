@@ -16,6 +16,8 @@ namespace RPG::GameCore { class FateRinCaseBoardSingleTeamInfo; }
 
 namespace RPG::Client::FateRin::CaseBoard
 {
+	inline static constexpr unsigned int SingleTeamViewModel_TypeDefinitionIndex = 80813;
+
 	class SingleTeamViewModel : public ::RPG::Client::FateRin::CaseBoard::TeamViewModel
 	{
 	public:

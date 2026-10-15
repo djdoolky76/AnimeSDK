@@ -77,6 +77,8 @@ namespace UnityEngine { class Mesh; }
 #define DHGOEMIJPCI_PDICBPKMHAD_OFFSET UNITYSDK_OFFSET(0xEBD5110)
 #define DHGOEMIJPCI_PMLLOFFOEIK_OFFSET UNITYSDK_OFFSET(0xEBD6900)
 
+inline static constexpr unsigned int DHGOEMIJPCI_TypeDefinitionIndex = 73271;
+
 	class DHGOEMIJPCI : public ::JHIDGDHOJEF
 	{
 	public:

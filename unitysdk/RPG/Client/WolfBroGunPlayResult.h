@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayResult_TypeDefinitionIndex = 68741;
+
 	struct alignas(4) WolfBroGunPlayResult
 	{
 		::System::Int32 SpawnTargetCount; // 0x10

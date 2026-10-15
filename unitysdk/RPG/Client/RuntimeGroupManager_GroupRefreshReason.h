@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RuntimeGroupManager_GroupRefreshReason_TypeDefinitionIndex = 62057;
+
 	enum class RuntimeGroupManager_GroupRefreshReason : ::System::Int32
 	{
 		Full = 0,

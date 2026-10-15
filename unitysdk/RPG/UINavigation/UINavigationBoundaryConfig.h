@@ -8,6 +8,8 @@ namespace RPG::UINavigation { class UINavigation; }
 
 namespace RPG::UINavigation
 {
+	inline static constexpr unsigned int UINavigationBoundaryConfig_TypeDefinitionIndex = 51735;
+
 	class UINavigationBoundaryConfig : public ::System::Object
 	{
 	public:

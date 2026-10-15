@@ -33,6 +33,8 @@ namespace System { class String; }
 #define NLBAOLFBEGB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB62080)
 #define NLBAOLFBEGB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB620E0)
 
+inline static constexpr unsigned int NLBAOLFBEGB_TypeDefinitionIndex = 26680;
+
 	class NLBAOLFBEGB : public ::System::Object
 	{
 	public:

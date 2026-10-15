@@ -24,6 +24,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UI3DAnimControllerComponent_TypeDefinitionIndex = 57535;
+
 	class UI3DAnimControllerComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

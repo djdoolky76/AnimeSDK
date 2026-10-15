@@ -5,6 +5,8 @@
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int WindTriggerBufferData_TypeDefinitionIndex = 49631;
+
 	struct alignas(4) WindTriggerBufferData
 	{
 		::UnityEngine::Matrix4x4 WorldToLocalMatrix; // 0x10

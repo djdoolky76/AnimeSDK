@@ -78,6 +78,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GFFNGOOMMKL___STARTWAITINGSHOWSPECIALRULE_B__64_0_OFFSET UNITYSDK_OFFSET(0x159F6FB0)
 #define GFFNGOOMMKL___STARTWAITINGSKIPTUTORIAL_B__63_0_OFFSET UNITYSDK_OFFSET(0x159F6FA0)
 
+inline static constexpr unsigned int GFFNGOOMMKL_TypeDefinitionIndex = 76588;
+
 	class GFFNGOOMMKL : public ::System::Object
 	{
 	public:

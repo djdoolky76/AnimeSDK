@@ -49,6 +49,8 @@ namespace UnityEngine::Timeline { class IPropertyCollector; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int ControlPlayableAsset_TypeDefinitionIndex = 38813;
+
 	class ControlPlayableAsset : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

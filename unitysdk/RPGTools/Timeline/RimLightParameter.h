@@ -5,6 +5,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int RimLightParameter_TypeDefinitionIndex = 48440;
+
 	struct alignas(4) RimLightParameter
 	{
 		::UnityEngine::Vector2 RimLightOffset; // 0x10

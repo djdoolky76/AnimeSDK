@@ -22,6 +22,8 @@ namespace System { class Object; }
 #define OHENNKMBFND___STARTLOCALASSETVERSIONUPDATE_B__5_0_OFFSET UNITYSDK_OFFSET(0xBE653B0)
 #define OHENNKMBFND___STARTLOCALASSETVERSIONUPDATE_B__5_1_OFFSET UNITYSDK_OFFSET(0xBE653C0)
 
+inline static constexpr unsigned int OHENNKMBFND_TypeDefinitionIndex = 61233;
+
 	class OHENNKMBFND : public ::System::Object
 	{
 	public:

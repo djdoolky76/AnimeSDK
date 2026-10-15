@@ -56,6 +56,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define BFMHFBHIAAL_PCKNJENJALI_OFFSET UNITYSDK_OFFSET(0x1C8B9130)
 #define BFMHFBHIAAL_PPHCIGAKEPK_OFFSET UNITYSDK_OFFSET(0x1C8B90B0)
 
+inline static constexpr unsigned int BFMHFBHIAAL_TypeDefinitionIndex = 42571;
+
 	class BFMHFBHIAAL
 	{
 	public:

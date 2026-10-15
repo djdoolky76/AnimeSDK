@@ -29,6 +29,8 @@ namespace System { class String; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int WaitForSpineEvent_TypeDefinitionIndex = 45109;
+
 	class WaitForSpineEvent : public ::System::Object
 	{
 	public:

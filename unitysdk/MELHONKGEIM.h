@@ -30,6 +30,8 @@ namespace System { class String; }
 #define MELHONKGEIM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA0FFF0)
 #define MELHONKGEIM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA10050)
 
+inline static constexpr unsigned int MELHONKGEIM_TypeDefinitionIndex = 34353;
+
 	class MELHONKGEIM : public ::System::Object
 	{
 	public:

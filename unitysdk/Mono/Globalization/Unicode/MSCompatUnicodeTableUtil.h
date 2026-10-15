@@ -7,6 +7,8 @@ namespace Mono::Globalization::Unicode { class CodePointIndexer; }
 
 namespace Mono::Globalization::Unicode
 {
+	inline static constexpr unsigned int MSCompatUnicodeTableUtil_TypeDefinitionIndex = 37;
+
 	class MSCompatUnicodeTableUtil : public ::System::Object
 	{
 	public:

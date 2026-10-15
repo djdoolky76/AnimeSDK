@@ -6,6 +6,8 @@
 
 namespace XLua
 {
+	inline static constexpr unsigned int AdditionalPropertiesAttribute_TypeDefinitionIndex = 5611;
+
 	class AdditionalPropertiesAttribute : public ::System::Attribute
 	{
 	public:

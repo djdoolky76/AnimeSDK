@@ -43,6 +43,8 @@ namespace System { class String; }
 #define IHBMPCIIGJD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E657A50)
 #define IHBMPCIIGJD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E657AB0)
 
+inline static constexpr unsigned int IHBMPCIIGJD_TypeDefinitionIndex = 34996;
+
 	class IHBMPCIIGJD : public ::System::Object
 	{
 	public:

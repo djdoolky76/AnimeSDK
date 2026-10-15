@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KBMDCFONPMP_NPANABFMPME_OFFSET UNITYSDK_OFFSET(0xB320E50)
 #define KBMDCFONPMP___ASYNCREQUESTGETMOSTPARTICIPATEDAVATARS_B__8_0_OFFSET UNITYSDK_OFFSET(0xB321090)
 
+inline static constexpr unsigned int KBMDCFONPMP_TypeDefinitionIndex = 75320;
+
 	class KBMDCFONPMP : public ::System::Object
 	{
 	public:

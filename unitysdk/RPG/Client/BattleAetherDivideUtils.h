@@ -18,6 +18,8 @@ namespace RPG::GameCore { class TurnBasedGameMode; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleAetherDivideUtils_TypeDefinitionIndex = 71398;
+
 	class BattleAetherDivideUtils : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnMouseUpHandler; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncMouseUpTrigger_TypeDefinitionIndex = 38567;
+
 	class AsyncMouseUpTrigger
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveEntityFromRelationGroup_TypeDefinitionIndex = 22829;
+
 	class RemoveEntityFromRelationGroup : public ::RPG::GameCore::TaskConfig
 	{
 	public:

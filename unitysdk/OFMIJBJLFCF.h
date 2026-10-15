@@ -11,6 +11,8 @@ namespace RPG::Client { class MusicAlbumItemData; }
 #define OFMIJBJLFCF_SET_ISPAUSED_OFFSET UNITYSDK_OFFSET(0xBE490B0)
 #define OFMIJBJLFCF_SET_RELATEDMUSICITEMDATA_OFFSET UNITYSDK_OFFSET(0xBE49090)
 
+inline static constexpr unsigned int OFMIJBJLFCF_TypeDefinitionIndex = 66362;
+
 	class OFMIJBJLFCF : public ::System::Object
 	{
 	public:

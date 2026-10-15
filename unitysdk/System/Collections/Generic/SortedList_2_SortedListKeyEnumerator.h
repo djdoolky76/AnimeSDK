@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int SortedList_2_SortedListKeyEnumerator_TypeDefinitionIndex = 3036;
+
 	template <typename T1, typename T2>
 	class SortedList_2_SortedListKeyEnumerator : public ::System::Object
 	{

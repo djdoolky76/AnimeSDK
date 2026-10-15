@@ -25,6 +25,8 @@ namespace System { class String; }
 #define ALEEDHCDIAL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3D8D70)
 #define ALEEDHCDIAL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3D8DD0)
 
+inline static constexpr unsigned int ALEEDHCDIAL_TypeDefinitionIndex = 28021;
+
 	class ALEEDHCDIAL : public ::System::Object
 	{
 	public:

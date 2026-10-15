@@ -9,6 +9,8 @@ namespace RPG::GameCore { class StageLightData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageLightData_TypeDefinitionIndex = 19173;
+
 	class StageLightData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CurveEdgeConnectionTriggerSetting_TypeDefinitionIndex = 68555;
+
 	class CurveEdgeConnectionTriggerSetting : public ::System::Object
 	{
 	public:

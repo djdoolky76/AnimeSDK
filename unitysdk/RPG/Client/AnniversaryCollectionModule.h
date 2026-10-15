@@ -43,6 +43,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AnniversaryCollectionModule_TypeDefinitionIndex = 62396;
+
 	class AnniversaryCollectionModule : public ::RPG::Client::BaseModule
 	{
 	public:

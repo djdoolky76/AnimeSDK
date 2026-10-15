@@ -77,6 +77,8 @@ namespace UnityEngine { class Transform; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_AttributesStore_TypeDefinitionIndex = 40425;
+
 	class HEU_AttributesStore : public ::UnityEngine::ScriptableObject
 	{
 	public:

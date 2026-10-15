@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelCurveInstance_TypeDefinitionIndex = 57843;
+
 	class LevelCurveInstance : public ::System::Object
 	{
 	public:

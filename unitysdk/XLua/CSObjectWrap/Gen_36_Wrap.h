@@ -2419,6 +2419,8 @@
 
 namespace XLua::CSObjectWrap
 {
+	inline static constexpr unsigned int Gen_36_Wrap_TypeDefinitionIndex = 50610;
+
 	class Gen_36_Wrap : public ::System::Object
 	{
 	public:

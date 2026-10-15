@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace RPG::Client::SocialPlay
 {
+	inline static constexpr unsigned int SocialPlayMapInfo_TypeDefinitionIndex = 74494;
+
 	class SocialPlayMapInfo : public ::System::Object
 	{
 	public:

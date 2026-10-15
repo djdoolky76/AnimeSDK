@@ -8,6 +8,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace Coffee::UIParticleInternal
 {
+	inline static constexpr unsigned int SpriteExtensions_TypeDefinitionIndex = 45124;
+
 	class SpriteExtensions : public ::System::Object
 	{
 	public:

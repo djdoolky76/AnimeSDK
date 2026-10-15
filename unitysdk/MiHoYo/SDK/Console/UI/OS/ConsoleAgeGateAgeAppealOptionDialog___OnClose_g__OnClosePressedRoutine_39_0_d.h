@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Console::UI::OS
 {
+	inline static constexpr unsigned int ConsoleAgeGateAgeAppealOptionDialog___OnClose_g__OnClosePressedRoutine_39_0_d_TypeDefinitionIndex = 9030;
+
 	class ConsoleAgeGateAgeAppealOptionDialog___OnClose_g__OnClosePressedRoutine_39_0_d : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ class JBAMLLPFKFF;
 #define LCOMAHJNPGI_MNBFBOHJIDB_OFFSET UNITYSDK_OFFSET(0xB619FF0)
 #define LCOMAHJNPGI_PPDKMFJCCBC_OFFSET UNITYSDK_OFFSET(0xB61A040)
 
+inline static constexpr unsigned int LCOMAHJNPGI_TypeDefinitionIndex = 59069;
+
 	class LCOMAHJNPGI : public ::System::Object
 	{
 	public:

@@ -33,6 +33,8 @@ namespace UnityEngine::Rendering { template <typename T> class ObservableList_1;
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DebugUI_Panel_TypeDefinitionIndex = 35543;
+
 	class DebugUI_Panel : public ::System::Object
 	{
 	public:

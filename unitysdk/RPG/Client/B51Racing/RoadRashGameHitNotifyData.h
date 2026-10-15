@@ -9,6 +9,8 @@
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int RoadRashGameHitNotifyData_TypeDefinitionIndex = 81681;
+
 	class RoadRashGameHitNotifyData : public ::System::Object
 	{
 	public:

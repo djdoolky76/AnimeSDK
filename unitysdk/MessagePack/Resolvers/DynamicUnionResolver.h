@@ -25,6 +25,8 @@ namespace System::Reflection::Emit { class MethodBuilder; }
 
 namespace MessagePack::Resolvers
 {
+	inline static constexpr unsigned int DynamicUnionResolver_TypeDefinitionIndex = 7261;
+
 	class DynamicUnionResolver : public ::System::Object
 	{
 	public:

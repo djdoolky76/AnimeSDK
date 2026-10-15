@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace MiHoYo::SDK::HoYoUI
 {
+	inline static constexpr unsigned int HoYoLocalSkinLoader_TypeDefinitionIndex = 46725;
+
 	class HoYoLocalSkinLoader : public ::UnityEngine::MonoBehaviour
 	{
 	public:

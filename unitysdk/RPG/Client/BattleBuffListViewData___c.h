@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleBuffListViewData___c_TypeDefinitionIndex = 71516;
+
 	class BattleBuffListViewData___c : public ::System::Object
 	{
 	public:

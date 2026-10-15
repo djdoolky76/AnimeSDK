@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PixAirEquipmentPresetConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PixAirEquipmentPresetConfig_TypeDefinitionIndex = 16246;
+
 	class PixAirEquipmentPresetConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

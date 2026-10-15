@@ -30,6 +30,8 @@ namespace System { class String; }
 #define KOCPKKFLHBJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8AE910)
 #define KOCPKKFLHBJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8AE970)
 
+inline static constexpr unsigned int KOCPKKFLHBJ_TypeDefinitionIndex = 30249;
+
 	class KOCPKKFLHBJ : public ::System::Object
 	{
 	public:

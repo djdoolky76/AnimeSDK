@@ -23,6 +23,8 @@ namespace System::Text { class StringBuilder; }
 #define IINBIFNOCKB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x16451A40)
 #define IINBIFNOCKB__CLONE___OFFSET UNITYSDK_OFFSET(0x164523E0)
 
+inline static constexpr unsigned int IINBIFNOCKB_TypeDefinitionIndex = 82067;
+
 	class IINBIFNOCKB : public ::System::Object
 	{
 	public:

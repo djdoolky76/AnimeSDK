@@ -10,6 +10,8 @@ namespace RPG::Client::Promises { class Promise; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveRewardFlyService___c__DisplayClass62_0_TypeDefinitionIndex = 75314;
+
 	class IdleLiveRewardFlyService___c__DisplayClass62_0 : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TalkBackgroundCGTrack_TypeDefinitionIndex = 48377;
+
 	class TalkBackgroundCGTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

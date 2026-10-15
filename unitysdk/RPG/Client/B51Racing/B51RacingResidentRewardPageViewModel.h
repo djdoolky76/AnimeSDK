@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingResidentRewardPageViewModel_TypeDefinitionIndex = 82051;
+
 	class B51RacingResidentRewardPageViewModel : public ::System::Object
 	{
 	public:

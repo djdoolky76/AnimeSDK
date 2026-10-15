@@ -12,6 +12,8 @@ class GCBMADADMDJ;
 #define MBLNBLHNFIF_KIPBHEJCBCJ_OFFSET UNITYSDK_OFFSET(0xB8648B0)
 #define MBLNBLHNFIF_MEIFDMDGNKE_OFFSET UNITYSDK_OFFSET(0xB864780)
 
+inline static constexpr unsigned int MBLNBLHNFIF_TypeDefinitionIndex = 52258;
+
 	class MBLNBLHNFIF : public ::System::Object
 	{
 	public:

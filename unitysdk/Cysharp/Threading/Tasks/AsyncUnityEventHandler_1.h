@@ -11,6 +11,8 @@ namespace UnityEngine::Events { class UnityEvent; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int AsyncUnityEventHandler_1_TypeDefinitionIndex = 38482;
+
 	template <typename T>
 	class AsyncUnityEventHandler_1 : public ::System::Object
 	{

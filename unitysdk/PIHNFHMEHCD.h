@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PIHNFHMEHCD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF688F0)
 #define PIHNFHMEHCD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF68950)
 
+inline static constexpr unsigned int PIHNFHMEHCD_TypeDefinitionIndex = 32581;
+
 	class PIHNFHMEHCD : public ::System::Object
 	{
 	public:

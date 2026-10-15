@@ -10,6 +10,8 @@ namespace MiHoYo::SDK { class Web; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ProtocolManager___c__DisplayClass52_0_TypeDefinitionIndex = 8053;
+
 	class ProtocolManager___c__DisplayClass52_0 : public ::System::Object
 	{
 	public:

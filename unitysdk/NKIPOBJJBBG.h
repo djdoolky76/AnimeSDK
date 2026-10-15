@@ -8,6 +8,8 @@ class EMJGLIBIILC;
 #define NKIPOBJJBBG_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0xBC38950)
 #define NKIPOBJJBBG_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0xBC38960)
 
+inline static constexpr unsigned int NKIPOBJJBBG_TypeDefinitionIndex = 77414;
+
 	class NKIPOBJJBBG : public ::IAJLHKIHBFB
 	{
 	public:

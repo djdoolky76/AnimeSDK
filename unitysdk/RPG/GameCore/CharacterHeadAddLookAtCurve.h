@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterHeadAddLookAtCurve_TypeDefinitionIndex = 21914;
+
 	class CharacterHeadAddLookAtCurve : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonRootMotionBase___c__DisplayClass78_0_TypeDefinitionIndex = 45025;
+
 	class SkeletonRootMotionBase___c__DisplayClass78_0 : public ::System::Object
 	{
 	public:

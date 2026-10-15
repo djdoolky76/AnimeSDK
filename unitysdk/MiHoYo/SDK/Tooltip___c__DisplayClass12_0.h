@@ -10,6 +10,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Tooltip___c__DisplayClass12_0_TypeDefinitionIndex = 8018;
+
 	class Tooltip___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

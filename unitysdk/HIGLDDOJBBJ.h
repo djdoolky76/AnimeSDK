@@ -20,6 +20,8 @@ namespace System { class Object; }
 #define HIGLDDOJBBJ_NEEFLPBIKMH_OFFSET UNITYSDK_OFFSET(0x15CE5060)
 #define HIGLDDOJBBJ__ONBIND_OFFSET UNITYSDK_OFFSET(0x15CE4DA0)
 
+inline static constexpr unsigned int HIGLDDOJBBJ_TypeDefinitionIndex = 71613;
+
 	class HIGLDDOJBBJ : public ::FMPCODLIOLG
 	{
 	public:

@@ -9,6 +9,8 @@ class POKKCEHMFMJ;
 #define NAJKJIGFPHI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBAA1B30)
 #define NAJKJIGFPHI_CTOR_OFFSET UNITYSDK_OFFSET(0xBAA1AA0)
 
+inline static constexpr unsigned int NAJKJIGFPHI_TypeDefinitionIndex = 62620;
+
 	class NAJKJIGFPHI : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace UnityEngine::UI { class Text; }
 #define LOBFGPKEKOB_PDJEELONEOI_OFFSET UNITYSDK_OFFSET(0xB7F2E10)
 #define LOBFGPKEKOB__ONBIND_OFFSET UNITYSDK_OFFSET(0xB7F27D0)
 
+inline static constexpr unsigned int LOBFGPKEKOB_TypeDefinitionIndex = 71751;
+
 	class LOBFGPKEKOB : public ::GPMFOHDCMFF
 	{
 	public:

@@ -33,6 +33,8 @@ namespace RPG::GameCore { class EvolveBuildRewardBoxGear; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EvolveBuildRewardBoxGear_TypeDefinitionIndex = 53570;
+
 	class EvolveBuildRewardBoxGear : public ::System::Object
 	{
 	public:

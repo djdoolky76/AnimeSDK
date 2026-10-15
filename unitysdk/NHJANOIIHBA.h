@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NHJANOIIHBA_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C966010)
 #define NHJANOIIHBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C966090)
 
+inline static constexpr unsigned int NHJANOIIHBA_TypeDefinitionIndex = 42100;
+
 	class NHJANOIIHBA : public ::System::Object
 	{
 	public:

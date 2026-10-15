@@ -22,6 +22,8 @@ namespace RPG::Client::LittleGame::ElfRestaurant { class ElfRestaurantAIService;
 #define BNLHGENFEHG_OEDBBOKNADE_OFFSET UNITYSDK_OFFSET(0xBDDE6B0)
 #define BNLHGENFEHG_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0xBDDE3F0)
 
+inline static constexpr unsigned int BNLHGENFEHG_TypeDefinitionIndex = 76537;
+
 	class BNLHGENFEHG
 	{
 	public:

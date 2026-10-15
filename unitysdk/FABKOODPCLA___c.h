@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FABKOODPCLA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E31BFA0)
 #define FABKOODPCLA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E31BFB0)
 
+inline static constexpr unsigned int FABKOODPCLA___c_TypeDefinitionIndex = 32612;
+
 	class FABKOODPCLA___c : public ::System::Object
 	{
 	public:

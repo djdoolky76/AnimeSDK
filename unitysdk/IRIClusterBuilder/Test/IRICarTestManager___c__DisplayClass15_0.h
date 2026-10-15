@@ -8,6 +8,8 @@ namespace IRIClusterBuilder::Test { class IRICarTestManager; }
 
 namespace IRIClusterBuilder::Test
 {
+	inline static constexpr unsigned int IRICarTestManager___c__DisplayClass15_0_TypeDefinitionIndex = 47764;
+
 	class IRICarTestManager___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

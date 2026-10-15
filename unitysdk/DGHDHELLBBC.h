@@ -10,6 +10,8 @@ class CHGHIALKMFM;
 #define DGHDHELLBBC_SET_MOLD_OFFSET UNITYSDK_OFFSET(0xE84A990)
 #define DGHDHELLBBC_SET_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xE84A9C0)
 
+inline static constexpr unsigned int DGHDHELLBBC_TypeDefinitionIndex = 79487;
+
 	class DGHDHELLBBC : public ::System::Object
 	{
 	public:

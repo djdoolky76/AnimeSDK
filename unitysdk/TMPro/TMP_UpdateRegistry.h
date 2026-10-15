@@ -20,6 +20,8 @@ namespace UnityEngine::UI { class ICanvasElement; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_UpdateRegistry_TypeDefinitionIndex = 44674;
+
 	class TMP_UpdateRegistry : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define HPPIAJEAEOL_CTOR_OFFSET UNITYSDK_OFFSET(0x15DDB350)
 
+inline static constexpr unsigned int HPPIAJEAEOL_TypeDefinitionIndex = 64329;
+
 	class HPPIAJEAEOL : public ::System::Object
 	{
 	public:

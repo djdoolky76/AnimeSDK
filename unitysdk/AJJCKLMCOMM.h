@@ -34,6 +34,8 @@ namespace UnityEngine { class Collider; }
 #define AJJCKLMCOMM__REMOVEEVENTEMITTER_OFFSET UNITYSDK_OFFSET(0x12CC0A80)
 #define AJJCKLMCOMM__TEARDOWN_OFFSET UNITYSDK_OFFSET(0x12CBFCD0)
 
+inline static constexpr unsigned int AJJCKLMCOMM_TypeDefinitionIndex = 77090;
+
 	class AJJCKLMCOMM
 	{
 	public:

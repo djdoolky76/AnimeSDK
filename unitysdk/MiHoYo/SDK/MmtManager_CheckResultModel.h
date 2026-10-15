@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MmtManager_CheckResultModel_TypeDefinitionIndex = 8035;
+
 	class MmtManager_CheckResultModel : public ::System::Object
 	{
 	public:

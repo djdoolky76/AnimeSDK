@@ -6,6 +6,8 @@ class CIIKBJFOKHL;
 #define CFNEDBDHHNG_CTOR_OFFSET UNITYSDK_OFFSET(0xCC59150)
 #define CFNEDBDHHNG_HKCONCPENCG_OFFSET UNITYSDK_OFFSET(0xCC59180)
 
+inline static constexpr unsigned int CFNEDBDHHNG_TypeDefinitionIndex = 77924;
+
 	class CFNEDBDHHNG : public ::BAMPJJAPJJG
 	{
 	public:

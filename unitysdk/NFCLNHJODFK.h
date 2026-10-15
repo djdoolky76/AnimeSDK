@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NFCLNHJODFK_PINOKCNDANM_OFFSET UNITYSDK_OFFSET(0xBB79670)
 #define NFCLNHJODFK_PPDAGPPKEJD_OFFSET UNITYSDK_OFFSET(0xBB797E0)
 
+inline static constexpr unsigned int NFCLNHJODFK_TypeDefinitionIndex = 72223;
+
 	class NFCLNHJODFK : public ::System::Object
 	{
 	public:

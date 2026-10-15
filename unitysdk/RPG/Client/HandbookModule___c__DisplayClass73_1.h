@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ItemConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HandbookModule___c__DisplayClass73_1_TypeDefinitionIndex = 65639;
+
 	template <typename T>
 	class HandbookModule___c__DisplayClass73_1 : public ::System::Object
 	{

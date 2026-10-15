@@ -44,6 +44,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyPreviewInfo_TypeDefinitionIndex = 74364;
+
 	class TrainPartyPreviewInfo : public ::System::Object
 	{
 	public:

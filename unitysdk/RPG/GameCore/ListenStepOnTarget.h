@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ListenStepOnTarget_TypeDefinitionIndex = 20645;
+
 	class ListenStepOnTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:

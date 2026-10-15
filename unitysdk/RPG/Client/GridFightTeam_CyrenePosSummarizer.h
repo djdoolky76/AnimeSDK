@@ -11,6 +11,8 @@ namespace RPG::Client { class GridFightRole; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTeam_CyrenePosSummarizer_TypeDefinitionIndex = 65155;
+
 	class GridFightTeam_CyrenePosSummarizer : public ::AMCOEFHHBPO
 	{
 	public:

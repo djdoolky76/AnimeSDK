@@ -7,6 +7,8 @@ namespace XLua { class LuaEnv; }
 
 namespace XLua::CSObjectWrap
 {
+	inline static constexpr unsigned int XLua_Gen_Initer_Register_____O_TypeDefinitionIndex = 51703;
+
 	class XLua_Gen_Initer_Register_____O : public ::System::Object
 	{
 	public:

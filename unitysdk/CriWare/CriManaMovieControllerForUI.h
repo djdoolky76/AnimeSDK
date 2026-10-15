@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class Graphic; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriManaMovieControllerForUI_TypeDefinitionIndex = 40128;
+
 	class CriManaMovieControllerForUI : public ::CriWare::CriManaMovieMaterial
 	{
 	public:

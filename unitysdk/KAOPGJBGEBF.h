@@ -31,6 +31,8 @@ namespace System { class String; }
 #define KAOPGJBGEBF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7E85E0)
 #define KAOPGJBGEBF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7E8640)
 
+inline static constexpr unsigned int KAOPGJBGEBF_TypeDefinitionIndex = 28293;
+
 	class KAOPGJBGEBF : public ::System::Object
 	{
 	public:

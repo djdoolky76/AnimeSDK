@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CELILNMLNMP_CTOR_OFFSET UNITYSDK_OFFSET(0xC9E4900)
 #define CELILNMLNMP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC9E4930)
 
+inline static constexpr unsigned int CELILNMLNMP_TypeDefinitionIndex = 57875;
+
 	class CELILNMLNMP
 	{
 	public:

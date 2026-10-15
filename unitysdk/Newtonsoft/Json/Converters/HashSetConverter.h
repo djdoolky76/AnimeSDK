@@ -15,6 +15,8 @@ namespace System { class Type; }
 
 namespace Newtonsoft::Json::Converters
 {
+	inline static constexpr unsigned int HashSetConverter_TypeDefinitionIndex = 9816;
+
 	class HashSetConverter : public ::Newtonsoft::Json::JsonConverter
 	{
 	public:

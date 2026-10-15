@@ -11,6 +11,8 @@ namespace System { class String; }
 #define LDPPBELHLEI_PKPKEDEPDKF_FEIIDFFOICL_OFFSET UNITYSDK_OFFSET(0xB6495A0)
 #define LDPPBELHLEI_PKPKEDEPDKF_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x187E0)
 
+inline static constexpr unsigned int LDPPBELHLEI_PKPKEDEPDKF_TypeDefinitionIndex = 59704;
+
 	struct alignas(8) LDPPBELHLEI_PKPKEDEPDKF
 	{
 		::RPG::GameCore::EntityType GMPGDEINODK; // 0x10

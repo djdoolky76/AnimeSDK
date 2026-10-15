@@ -59,6 +59,8 @@ namespace System { class String; }
 #define MBDOBECHOJA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9E2DD0)
 #define MBDOBECHOJA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9E2E30)
 
+inline static constexpr unsigned int MBDOBECHOJA_TypeDefinitionIndex = 28712;
+
 	class MBDOBECHOJA : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnApplicationFocusHa
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncApplicationFocusTrigger_TypeDefinitionIndex = 38513;
+
 	class AsyncApplicationFocusTrigger
 	{
 	public:

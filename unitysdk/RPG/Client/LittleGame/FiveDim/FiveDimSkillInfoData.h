@@ -29,6 +29,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimSkillInfoData_TypeDefinitionIndex = 77242;
+
 	class FiveDimSkillInfoData : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RogueTournDivisionEffectRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournDivisionEffectRow_TypeDefinitionIndex = 14950;
+
 	class RogueTournDivisionEffectRow : public ::System::Object
 	{
 	public:

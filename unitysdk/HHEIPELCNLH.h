@@ -14,6 +14,8 @@ namespace System { class String; }
 #define HHEIPELCNLH_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15CC9C10)
 #define HHEIPELCNLH_OACBGCFADMP_OFFSET UNITYSDK_OFFSET(0x15CC9C70)
 
+inline static constexpr unsigned int HHEIPELCNLH_TypeDefinitionIndex = 81202;
+
 	class HHEIPELCNLH : public ::System::Object
 	{
 	public:

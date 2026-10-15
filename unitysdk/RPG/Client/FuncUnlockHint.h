@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FuncUnlockHint_TypeDefinitionIndex = 68016;
+
 	class FuncUnlockHint : public ::System::Object
 	{
 	public:

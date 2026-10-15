@@ -20,6 +20,8 @@ namespace System { class String; }
 #define LBDOPJFLJDE_MNDLOBLBJGI_OFFSET UNITYSDK_OFFSET(0xB5F91A0)
 #define LBDOPJFLJDE_OIKNFBDBCKO_OFFSET UNITYSDK_OFFSET(0xB5F95C0)
 
+inline static constexpr unsigned int LBDOPJFLJDE_TypeDefinitionIndex = 60000;
+
 	class LBDOPJFLJDE : public ::System::Object
 	{
 	public:

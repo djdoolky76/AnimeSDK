@@ -15,6 +15,8 @@ namespace System::Reflection { class Assembly; }
 
 namespace Microsoft::Reflection
 {
+	inline static constexpr unsigned int ReflectionExtensions_TypeDefinitionIndex = 90;
+
 	class ReflectionExtensions : public ::System::Object
 	{
 	public:

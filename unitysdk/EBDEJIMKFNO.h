@@ -4,6 +4,8 @@
 
 #define EBDEJIMKFNO_CTOR_OFFSET UNITYSDK_OFFSET(0x12CECE90)
 
+inline static constexpr unsigned int EBDEJIMKFNO_TypeDefinitionIndex = 47864;
+
 	class EBDEJIMKFNO : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

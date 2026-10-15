@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMagicTalentInfo___c_TypeDefinitionIndex = 67441;
+
 	class RogueMagicTalentInfo___c : public ::System::Object
 	{
 	public:

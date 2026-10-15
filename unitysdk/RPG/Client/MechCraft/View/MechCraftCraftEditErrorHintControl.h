@@ -20,6 +20,8 @@ namespace UnityEngine { class Animation; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftEditErrorHintControl_TypeDefinitionIndex = 79878;
+
 	class MechCraftCraftEditErrorHintControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

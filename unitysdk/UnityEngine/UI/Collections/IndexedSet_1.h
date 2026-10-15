@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace UnityEngine::UI::Collections
 {
+	inline static constexpr unsigned int IndexedSet_1_TypeDefinitionIndex = 6894;
+
 	template <typename T>
 	class IndexedSet_1 : public ::System::Object
 	{

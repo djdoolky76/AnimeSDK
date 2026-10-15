@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int PluginUIConstants_ModifyRealNameElements_TypeDefinitionIndex = 9209;
+
 	class PluginUIConstants_ModifyRealNameElements : public ::System::Object
 	{
 	public:

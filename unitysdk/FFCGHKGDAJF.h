@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FFCGHKGDAJF_SET_VERTEXMANAGER_OFFSET UNITYSDK_OFFSET(0x15731140)
 #define FFCGHKGDAJF_TRYGETNEIGHBOUREDGES_OFFSET UNITYSDK_OFFSET(0x15731170)
 
+inline static constexpr unsigned int FFCGHKGDAJF_TypeDefinitionIndex = 74611;
+
 	class FFCGHKGDAJF : public ::System::Object
 	{
 	public:

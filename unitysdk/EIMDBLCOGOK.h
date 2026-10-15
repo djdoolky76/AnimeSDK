@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define EIMDBLCOGOK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD8AC60)
 #define EIMDBLCOGOK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD8A540)
 
+inline static constexpr unsigned int EIMDBLCOGOK_TypeDefinitionIndex = 12839;
+
 	class EIMDBLCOGOK : public ::System::Object
 	{
 	public:

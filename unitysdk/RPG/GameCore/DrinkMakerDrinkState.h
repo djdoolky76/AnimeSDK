@@ -51,6 +51,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DrinkMakerDrinkState_TypeDefinitionIndex = 52737;
+
 	class DrinkMakerDrinkState : public ::System::Object
 	{
 	public:

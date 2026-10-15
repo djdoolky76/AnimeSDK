@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvByCompareDynamicValue_TypeDefinitionIndex = 20250;
+
 	class AdvByCompareDynamicValue : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

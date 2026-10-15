@@ -28,6 +28,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StoryExcelTableExt_TypeDefinitionIndex = 56500;
+
 	class StoryExcelTableExt : public ::System::Object
 	{
 	public:

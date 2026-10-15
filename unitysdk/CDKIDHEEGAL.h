@@ -10,6 +10,8 @@ namespace System { class String; }
 #define CDKIDHEEGAL_HIMJHKLMOFO_OFFSET UNITYSDK_OFFSET(0xC76C8E0)
 #define CDKIDHEEGAL_KHPGDMBFIHA_OFFSET UNITYSDK_OFFSET(0xC76C930)
 
+inline static constexpr unsigned int CDKIDHEEGAL_TypeDefinitionIndex = 67294;
+
 	class CDKIDHEEGAL : public ::System::Object
 	{
 	public:

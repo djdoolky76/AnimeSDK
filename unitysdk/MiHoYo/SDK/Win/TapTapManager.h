@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int TapTapManager_TypeDefinitionIndex = 9370;
+
 	class TapTapManager : public ::System::Object
 	{
 	public:

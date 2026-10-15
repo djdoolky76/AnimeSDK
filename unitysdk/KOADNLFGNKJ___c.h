@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define KOADNLFGNKJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB58CBC0)
 #define KOADNLFGNKJ___C___ONQUERYSERVERINFO_B__9_0_OFFSET UNITYSDK_OFFSET(0xB58CBD0)
 
+inline static constexpr unsigned int KOADNLFGNKJ___c_TypeDefinitionIndex = 80232;
+
 	class KOADNLFGNKJ___c : public ::System::Object
 	{
 	public:

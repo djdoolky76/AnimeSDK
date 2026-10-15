@@ -16,6 +16,8 @@ namespace System { class Action; }
 #define OMMDKIBILJE_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0xBF324A0)
 #define OMMDKIBILJE_NIFIPONFFJE_OFFSET UNITYSDK_OFFSET(0xBF326C0)
 
+inline static constexpr unsigned int OMMDKIBILJE_TypeDefinitionIndex = 53545;
+
 	class OMMDKIBILJE : public ::System::Object
 	{
 	public:

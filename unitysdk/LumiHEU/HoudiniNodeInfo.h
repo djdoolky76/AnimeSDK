@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace LumiHEU
 {
+	inline static constexpr unsigned int HoudiniNodeInfo_TypeDefinitionIndex = 46915;
+
 	class HoudiniNodeInfo : public ::UnityEngine::MonoBehaviour
 	{
 	public:

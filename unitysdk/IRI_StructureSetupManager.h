@@ -4,6 +4,8 @@
 
 #define IRI_STRUCTURESETUPMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x165379C0)
 
+inline static constexpr unsigned int IRI_StructureSetupManager_TypeDefinitionIndex = 47557;
+
 	class IRI_StructureSetupManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

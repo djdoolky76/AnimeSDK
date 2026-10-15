@@ -17,6 +17,8 @@ namespace RPG::Client::FateRin::Logging { class ILoggerFactory; }
 #define HOGAEEICBCL_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0x15DB39D0)
 #define HOGAEEICBCL_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x15DB3F10)
 
+inline static constexpr unsigned int HOGAEEICBCL_TypeDefinitionIndex = 81224;
+
 	class HOGAEEICBCL : public ::System::Object
 	{
 	public:

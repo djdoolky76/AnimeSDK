@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RaidTagType_TypeDefinitionIndex = 14589;
+
 	enum class RaidTagType : ::System::Int32
 	{
 		None = 0,

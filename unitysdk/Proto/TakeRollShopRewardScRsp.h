@@ -36,6 +36,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int TakeRollShopRewardScRsp_TypeDefinitionIndex = 33879;
+
 	class TakeRollShopRewardScRsp : public ::System::Object
 	{
 	public:

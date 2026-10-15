@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::CaseBoard
 {
+	inline static constexpr unsigned int HouguViewModel_TypeDefinitionIndex = 80801;
+
 	class HouguViewModel : public ::System::Object
 	{
 	public:

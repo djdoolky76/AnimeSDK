@@ -26,6 +26,8 @@ namespace UnityEngine { class Transform; }
 #define IDNCOAGMGGG_PHLIIPCKNII_OFFSET UNITYSDK_OFFSET(0x15EDE760)
 #define IDNCOAGMGGG__ONBIND_OFFSET UNITYSDK_OFFSET(0x15EDDAA0)
 
+inline static constexpr unsigned int IDNCOAGMGGG_TypeDefinitionIndex = 72248;
+
 	class IDNCOAGMGGG : public ::FMPCODLIOLG
 	{
 	public:

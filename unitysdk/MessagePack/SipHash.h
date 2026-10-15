@@ -8,6 +8,8 @@
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int SipHash_TypeDefinitionIndex = 7244;
+
 	class SipHash : public ::System::Object
 	{
 	public:

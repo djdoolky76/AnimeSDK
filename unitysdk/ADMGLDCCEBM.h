@@ -14,6 +14,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define ADMGLDCCEBM_LHIODOLCPFC_OFFSET UNITYSDK_OFFSET(0x1C877FE0)
 #define ADMGLDCCEBM_ODBGPJMLIMI_OFFSET UNITYSDK_OFFSET(0x1C877F80)
 
+inline static constexpr unsigned int ADMGLDCCEBM_TypeDefinitionIndex = 42635;
+
 	class ADMGLDCCEBM : public ::System::Object
 	{
 	public:

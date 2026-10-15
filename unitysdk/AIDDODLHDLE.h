@@ -27,6 +27,8 @@ namespace System { class String; }
 #define AIDDODLHDLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E279E90)
 #define AIDDODLHDLE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E279EF0)
 
+inline static constexpr unsigned int AIDDODLHDLE_TypeDefinitionIndex = 29615;
+
 	class AIDDODLHDLE : public ::System::Object
 	{
 	public:

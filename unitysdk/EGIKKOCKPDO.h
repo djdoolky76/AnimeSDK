@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EGIKKOCKPDO_CTOR_OFFSET UNITYSDK_OFFSET(0x14519EC0)
 #define EGIKKOCKPDO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14519EF0)
 
+inline static constexpr unsigned int EGIKKOCKPDO_TypeDefinitionIndex = 55284;
+
 	class EGIKKOCKPDO
 	{
 	public:

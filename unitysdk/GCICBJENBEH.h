@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define GCICBJENBEH_CTOR_OFFSET UNITYSDK_OFFSET(0x1597B3D0)
 
+inline static constexpr unsigned int GCICBJENBEH_TypeDefinitionIndex = 47155;
+
 	class GCICBJENBEH : public ::System::Object
 	{
 	public:

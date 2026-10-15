@@ -7,6 +7,8 @@
 #define JOHPAGNNHBG_CTOR_OFFSET UNITYSDK_OFFSET(0xB2A0B70)
 #define JOHPAGNNHBG_NMOCNLLMIDH_OFFSET UNITYSDK_OFFSET(0xB2A0B30)
 
+inline static constexpr unsigned int JOHPAGNNHBG_TypeDefinitionIndex = 62021;
+
 	class JOHPAGNNHBG : public ::GDEJLBOEHMG
 	{
 	public:

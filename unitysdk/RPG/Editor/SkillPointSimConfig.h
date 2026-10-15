@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int SkillPointSimConfig_TypeDefinitionIndex = 52044;
+
 	class SkillPointSimConfig : public ::System::Object
 	{
 	public:

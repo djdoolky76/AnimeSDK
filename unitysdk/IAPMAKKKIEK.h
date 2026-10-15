@@ -25,6 +25,8 @@ namespace UnityEngine { class SkinnedMeshRenderer; }
 #define IAPMAKKKIEK_LJKJLNDLAEL_OFFSET UNITYSDK_OFFSET(0x15E25640)
 #define IAPMAKKKIEK_MONBMAIMOKD_OFFSET UNITYSDK_OFFSET(0x15E26090)
 
+inline static constexpr unsigned int IAPMAKKKIEK_TypeDefinitionIndex = 57325;
+
 	class IAPMAKKKIEK : public ::System::Object
 	{
 	public:

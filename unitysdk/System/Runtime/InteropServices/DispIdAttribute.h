@@ -6,6 +6,8 @@
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int DispIdAttribute_TypeDefinitionIndex = 1404;
+
 	class DispIdAttribute : public ::System::Attribute
 	{
 	public:

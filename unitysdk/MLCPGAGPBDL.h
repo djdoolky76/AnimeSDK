@@ -35,6 +35,8 @@ namespace System { class String; }
 #define MLCPGAGPBDL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA80E50)
 #define MLCPGAGPBDL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA80EB0)
 
+inline static constexpr unsigned int MLCPGAGPBDL_TypeDefinitionIndex = 28881;
+
 	class MLCPGAGPBDL : public ::System::Object
 	{
 	public:

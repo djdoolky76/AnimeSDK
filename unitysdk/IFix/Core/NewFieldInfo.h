@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int NewFieldInfo_TypeDefinitionIndex = 7141;
+
 	class NewFieldInfo : public ::System::Object
 	{
 	public:

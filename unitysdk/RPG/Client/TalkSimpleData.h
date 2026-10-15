@@ -9,6 +9,8 @@ namespace RPG::Client { class TalkSimpleData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TalkSimpleData_TypeDefinitionIndex = 68043;
+
 	class TalkSimpleData : public ::System::Object
 	{
 	public:

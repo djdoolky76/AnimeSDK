@@ -8,6 +8,8 @@ namespace UnityEngine::Events { class UnityEvent; }
 
 #define AGEJMDMLAKO_PLNDEPCFOFE_OFFSET UNITYSDK_OFFSET(0xCF27CA0)
 
+inline static constexpr unsigned int AGEJMDMLAKO_TypeDefinitionIndex = 49983;
+
 	class AGEJMDMLAKO : public ::System::Object
 	{
 	public:

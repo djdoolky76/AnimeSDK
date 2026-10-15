@@ -18,6 +18,8 @@ namespace System { class String; }
 #define FGAAFLAALBF_SET_STARTTALK_OFFSET UNITYSDK_OFFSET(0x1574E980)
 #define FGAAFLAALBF_SET_VICTORYTALK_OFFSET UNITYSDK_OFFSET(0x1574E940)
 
+inline static constexpr unsigned int FGAAFLAALBF_TypeDefinitionIndex = 63840;
+
 	class FGAAFLAALBF : public ::System::Object
 	{
 	public:

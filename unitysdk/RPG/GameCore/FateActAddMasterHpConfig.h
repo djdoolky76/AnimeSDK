@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateActAddMasterHpConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateActAddMasterHpConfig_TypeDefinitionIndex = 19228;
+
 	class FateActAddMasterHpConfig : public ::RPG::GameCore::FateActionConfigBase
 	{
 	public:

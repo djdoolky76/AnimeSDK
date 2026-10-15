@@ -28,6 +28,8 @@ namespace System { class String; }
 #define CJAFLDKHDAF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0D9680)
 #define CJAFLDKHDAF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0D96E0)
 
+inline static constexpr unsigned int CJAFLDKHDAF_TypeDefinitionIndex = 33026;
+
 	class CJAFLDKHDAF : public ::System::Object
 	{
 	public:

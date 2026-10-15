@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoseHP_TypeDefinitionIndex = 22698;
+
 	class LoseHP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

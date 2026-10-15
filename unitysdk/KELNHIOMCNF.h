@@ -25,6 +25,8 @@ namespace System { class String; }
 #define KELNHIOMCNF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E80FAC0)
 #define KELNHIOMCNF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E80FB20)
 
+inline static constexpr unsigned int KELNHIOMCNF_TypeDefinitionIndex = 30312;
+
 	class KELNHIOMCNF : public ::System::Object
 	{
 	public:

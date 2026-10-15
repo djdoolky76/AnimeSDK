@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueBySkillStanceValue_TypeDefinitionIndex = 22774;
+
 	class SetDynamicValueBySkillStanceValue : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

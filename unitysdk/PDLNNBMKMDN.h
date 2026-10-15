@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define PDLNNBMKMDN_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xC01F4D0)
 #define PDLNNBMKMDN_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xC01F480)
 
+inline static constexpr unsigned int PDLNNBMKMDN_TypeDefinitionIndex = 56667;
+
 	class PDLNNBMKMDN : public ::System::Object
 	{
 	public:

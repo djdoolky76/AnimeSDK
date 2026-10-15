@@ -8,6 +8,8 @@
 
 namespace SWRT
 {
+	inline static constexpr unsigned int BVH2_AABBComparer_TypeDefinitionIndex = 37497;
+
 	class BVH2_AABBComparer : public ::System::Object
 	{
 	public:

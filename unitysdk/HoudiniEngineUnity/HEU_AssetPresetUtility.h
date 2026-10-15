@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_AssetPresetUtility_TypeDefinitionIndex = 40372;
+
 	class HEU_AssetPresetUtility : public ::System::Object
 	{
 	public:

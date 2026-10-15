@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int LJGCILDAOEP_TypeDefinitionIndex = 12020;
+
 	enum class LJGCILDAOEP : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

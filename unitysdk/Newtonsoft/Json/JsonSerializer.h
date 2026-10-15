@@ -90,6 +90,8 @@ namespace System::Runtime::Serialization { class SerializationBinder; }
 
 namespace Newtonsoft::Json
 {
+	inline static constexpr unsigned int JsonSerializer_TypeDefinitionIndex = 9620;
+
 	class JsonSerializer : public ::System::Object
 	{
 	public:

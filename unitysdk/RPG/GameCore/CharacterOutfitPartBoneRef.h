@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterOutfitPartBoneRef_TypeDefinitionIndex = 17481;
+
 	class CharacterOutfitPartBoneRef : public ::RPG::GameCore::JsonConfig
 	{
 	public:

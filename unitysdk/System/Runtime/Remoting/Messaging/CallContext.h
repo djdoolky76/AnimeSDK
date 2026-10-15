@@ -13,6 +13,8 @@ namespace System::Runtime::Remoting::Messaging { class LogicalCallContext; }
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int CallContext_TypeDefinitionIndex = 1290;
+
 	class CallContext : public ::System::Object
 	{
 	public:

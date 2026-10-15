@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PCINGGOAJCH_CTOR_OFFSET UNITYSDK_OFFSET(0xC001070)
 #define PCINGGOAJCH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC0010A0)
 
+inline static constexpr unsigned int PCINGGOAJCH_TypeDefinitionIndex = 53156;
+
 	class PCINGGOAJCH
 	{
 	public:

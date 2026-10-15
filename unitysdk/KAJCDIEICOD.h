@@ -10,6 +10,8 @@ namespace RPG::Client { class MatchThreeBoard; }
 #define KAJCDIEICOD_LGAOOKPFIMF_OFFSET UNITYSDK_OFFSET(0xB2DAC10)
 #define KAJCDIEICOD_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB2DAB50)
 
+inline static constexpr unsigned int KAJCDIEICOD_TypeDefinitionIndex = 65893;
+
 	class KAJCDIEICOD : public ::FNIDIOCNBBI
 	{
 	public:

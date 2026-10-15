@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define DNABADHBFHD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD49560)
 #define DNABADHBFHD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD49520)
 
+inline static constexpr unsigned int DNABADHBFHD_TypeDefinitionIndex = 10187;
+
 	class DNABADHBFHD : public ::RPG::GameCore::TaskConfig
 	{
 	public:

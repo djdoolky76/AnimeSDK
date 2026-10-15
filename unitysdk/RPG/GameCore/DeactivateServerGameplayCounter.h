@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DeactivateServerGameplayCounter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DeactivateServerGameplayCounter_TypeDefinitionIndex = 20555;
+
 	class DeactivateServerGameplayCounter : public ::RPG::GameCore::TaskConfig
 	{
 	public:

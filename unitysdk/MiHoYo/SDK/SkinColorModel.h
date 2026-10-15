@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SkinColorModel_TypeDefinitionIndex = 7887;
+
 	class SkinColorModel : public ::System::Object
 	{
 	public:

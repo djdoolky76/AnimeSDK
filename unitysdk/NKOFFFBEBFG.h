@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 #define NKOFFFBEBFG_PHJILFCMIBF_OFFSET UNITYSDK_OFFSET(0xBC4BEA0)
 #define NKOFFFBEBFG_PJFHOOJJBPN_OFFSET UNITYSDK_OFFSET(0xBC4C180)
 
+inline static constexpr unsigned int NKOFFFBEBFG_TypeDefinitionIndex = 69991;
+
 	class NKOFFFBEBFG : public ::System::Object
 	{
 	public:

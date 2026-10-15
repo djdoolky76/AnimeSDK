@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LACOKEAMINE_CTOR_OFFSET UNITYSDK_OFFSET(0xB5DAE40)
 #define LACOKEAMINE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5DAE70)
 
+inline static constexpr unsigned int LACOKEAMINE_TypeDefinitionIndex = 54839;
+
 	class LACOKEAMINE
 	{
 	public:

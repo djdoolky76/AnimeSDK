@@ -11,6 +11,8 @@ namespace System::Linq::Expressions { class Expression; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int NewArrayBoundsExpression_TypeDefinitionIndex = 3266;
+
 	class NewArrayBoundsExpression : public ::System::Linq::Expressions::NewArrayExpression
 	{
 	public:

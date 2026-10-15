@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int MGJDNGHDIKG_TypeDefinitionIndex = 32810;
+
 	enum class MGJDNGHDIKG : ::System::Int32
 	{
 		ANBKDJKHCBI = 0,

@@ -13,6 +13,8 @@ class OIEEAAFAOON;
 #define MBOMLCPPEEO_LAAPNLAHCPJ_OFFSET UNITYSDK_OFFSET(0xB870BE0)
 #define MBOMLCPPEEO_PKLFLANJCDG_OFFSET UNITYSDK_OFFSET(0xB870AE0)
 
+inline static constexpr unsigned int MBOMLCPPEEO_TypeDefinitionIndex = 81446;
+
 	class MBOMLCPPEEO : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PointGeneratorMergeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PointGeneratorMergeConfig_TypeDefinitionIndex = 15628;
+
 	class PointGeneratorMergeConfig : public ::RPG::GameCore::PointGeneratorConfig
 	{
 	public:

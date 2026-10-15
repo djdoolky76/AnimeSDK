@@ -10,6 +10,8 @@ namespace System::Text::RegularExpressions { class RegexNode; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int RegexTree_TypeDefinitionIndex = 2529;
+
 	class RegexTree : public ::System::Object
 	{
 	public:

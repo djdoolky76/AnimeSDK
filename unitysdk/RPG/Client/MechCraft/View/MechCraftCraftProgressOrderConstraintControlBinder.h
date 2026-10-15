@@ -10,6 +10,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftConditionDescControl; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftProgressOrderConstraintControlBinder_TypeDefinitionIndex = 79938;
+
 	class MechCraftCraftProgressOrderConstraintControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DHNEJFBIIDB_LEPPAIMAIEI_OFFSET UNITYSDK_OFFSET(0xEBEB930)
 #define DHNEJFBIIDB_TOSTRING_OFFSET UNITYSDK_OFFSET(0xEBEB890)
 
+inline static constexpr unsigned int DHNEJFBIIDB_TypeDefinitionIndex = 48521;
+
 	class DHNEJFBIIDB : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int PosVisibleTool_TypeDefinitionIndex = 47637;
+
 	class PosVisibleTool : public ::System::Object
 	{
 	public:

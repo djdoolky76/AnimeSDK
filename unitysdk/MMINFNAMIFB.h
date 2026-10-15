@@ -32,6 +32,8 @@ namespace System { class Action; }
 #define MMINFNAMIFB_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xB9D2240)
 #define MMINFNAMIFB_NILKOAOEOHL_OFFSET UNITYSDK_OFFSET(0xB9D3230)
 
+inline static constexpr unsigned int MMINFNAMIFB_TypeDefinitionIndex = 54217;
+
 	class MMINFNAMIFB : public ::OJMONJELOAF
 	{
 	public:

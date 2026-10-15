@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueDLCMarkType; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLCMarkType_TypeDefinitionIndex = 17912;
+
 	class RogueDLCMarkType : public ::RPG::GameCore::JsonConfig
 	{
 	public:

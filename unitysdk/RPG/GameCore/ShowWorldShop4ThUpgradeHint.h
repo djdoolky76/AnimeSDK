@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowWorldShop4ThUpgradeHint; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowWorldShop4ThUpgradeHint_TypeDefinitionIndex = 21942;
+
 	class ShowWorldShop4ThUpgradeHint : public ::RPG::GameCore::TaskConfig
 	{
 	public:

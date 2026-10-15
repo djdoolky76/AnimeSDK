@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PeriodConfig_TypeDefinitionIndex = 72746;
+
 	class PeriodConfig : public ::System::Object
 	{
 	public:

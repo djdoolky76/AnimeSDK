@@ -25,6 +25,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int DescriptorPool_TypeDefinitionIndex = 35821;
+
 	class DescriptorPool : public ::System::Object
 	{
 	public:

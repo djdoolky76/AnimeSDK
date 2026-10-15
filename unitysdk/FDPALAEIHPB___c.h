@@ -9,6 +9,8 @@ namespace System::Reflection { class MethodInfo; }
 #define FDPALAEIHPB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA6C8D0)
 #define FDPALAEIHPB___C___CTOR_B__103_0_OFFSET UNITYSDK_OFFSET(0x1CA6C8E0)
 
+inline static constexpr unsigned int FDPALAEIHPB___c_TypeDefinitionIndex = 42095;
+
 	class FDPALAEIHPB___c : public ::System::Object
 	{
 	public:

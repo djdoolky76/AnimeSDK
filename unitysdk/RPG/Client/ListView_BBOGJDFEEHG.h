@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ListView_BBOGJDFEEHG_TypeDefinitionIndex = 72558;
+
 	class ListView_BBOGJDFEEHG : public ::System::Object
 	{
 	public:

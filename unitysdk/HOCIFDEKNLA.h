@@ -11,6 +11,8 @@ namespace TMPro { class TMP_FontAsset; }
 #define HOCIFDEKNLA_MGOGMCPGDIO_OFFSET UNITYSDK_OFFSET(0x15DB0490)
 #define HOCIFDEKNLA_OAFEGLNIEBO_OFFSET UNITYSDK_OFFSET(0x15DB07E0)
 
+inline static constexpr unsigned int HOCIFDEKNLA_TypeDefinitionIndex = 72949;
+
 	class HOCIFDEKNLA : public ::System::Object
 	{
 	public:

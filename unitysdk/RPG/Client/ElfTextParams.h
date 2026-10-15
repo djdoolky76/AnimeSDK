@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfTextParams_TypeDefinitionIndex = 63752;
+
 	class ElfTextParams : public ::System::Object
 	{
 	public:

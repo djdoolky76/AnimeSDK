@@ -15,6 +15,8 @@ namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryWri
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int MemberPrimitiveUnTyped_TypeDefinitionIndex = 1159;
+
 	class MemberPrimitiveUnTyped : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ class ODCELNBAEIB;
 #define OJBKJKMEJLB_KBDFMOPDIPD_OFFSET UNITYSDK_OFFSET(0xBEAA800)
 #define OJBKJKMEJLB_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xBEAA5A0)
 
+inline static constexpr unsigned int OJBKJKMEJLB_TypeDefinitionIndex = 79097;
+
 	class OJBKJKMEJLB : public ::System::Object
 	{
 	public:

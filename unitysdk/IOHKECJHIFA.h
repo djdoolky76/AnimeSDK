@@ -5,6 +5,8 @@
 #define IOHKECJHIFA_CTOR_OFFSET UNITYSDK_OFFSET(0x16502C90)
 #define IOHKECJHIFA_GET_LOADINGTRANSITION_OFFSET UNITYSDK_OFFSET(0x16502C80)
 
+inline static constexpr unsigned int IOHKECJHIFA_TypeDefinitionIndex = 76060;
+
 	class IOHKECJHIFA : public ::System::Object
 	{
 	public:

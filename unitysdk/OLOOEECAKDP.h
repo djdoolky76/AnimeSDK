@@ -4,6 +4,8 @@
 
 #define OLOOEECAKDP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C99DC00)
 
+inline static constexpr unsigned int OLOOEECAKDP_TypeDefinitionIndex = 42074;
+
 	class OLOOEECAKDP : public ::System::Object
 	{
 	public:

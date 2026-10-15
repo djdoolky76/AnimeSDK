@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ColorGradingMaskManager_TypeDefinitionIndex = 37767;
+
 	class ColorGradingMaskManager : public ::System::Object
 	{
 	public:

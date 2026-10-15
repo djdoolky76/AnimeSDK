@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ELNCIJGALNP_SET_CURRENTBUFF_OFFSET UNITYSDK_OFFSET(0x15529BB0)
 #define ELNCIJGALNP_SET_LEADERAVATAR_OFFSET UNITYSDK_OFFSET(0x15529A40)
 
+inline static constexpr unsigned int ELNCIJGALNP_TypeDefinitionIndex = 82090;
+
 	class ELNCIJGALNP : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

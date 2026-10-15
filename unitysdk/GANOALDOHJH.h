@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GANOALDOHJH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x159433A0)
 #define GANOALDOHJH_TICK_OFFSET UNITYSDK_OFFSET(0x159433F0)
 
+inline static constexpr unsigned int GANOALDOHJH_TypeDefinitionIndex = 58120;
+
 	class GANOALDOHJH : public ::GELIALJDFBL
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SimpleTextManagerMono___O_TypeDefinitionIndex = 72652;
+
 	class SimpleTextManagerMono___O : public ::System::Object
 	{
 	public:

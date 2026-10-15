@@ -9,6 +9,8 @@ namespace RPG::Client { class IActivityQuestRewardData; }
 #define IAKOBPGILAG_CTOR_OFFSET UNITYSDK_OFFSET(0x15E18020)
 #define IAKOBPGILAG_NKNDHAMHLMJ_OFFSET UNITYSDK_OFFSET(0x15E18340)
 
+inline static constexpr unsigned int IAKOBPGILAG_TypeDefinitionIndex = 82082;
+
 	class IAKOBPGILAG : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ValuePostProcessConfig_TypeDefinitionIndex = 24036;
+
 	class ValuePostProcessConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

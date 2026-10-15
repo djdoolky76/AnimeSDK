@@ -20,6 +20,8 @@ namespace System { class String; }
 #define HOEBFMGBMIA_POPNLNOJCJL_OFFSET UNITYSDK_OFFSET(0x15DB1D50)
 #define HOEBFMGBMIA_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x15DB0FA0)
 
+inline static constexpr unsigned int HOEBFMGBMIA_TypeDefinitionIndex = 75937;
+
 	class HOEBFMGBMIA : public ::System::Object
 	{
 	public:

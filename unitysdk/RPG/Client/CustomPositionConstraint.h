@@ -13,6 +13,8 @@ namespace UnityChan { class SpringManager; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CustomPositionConstraint_TypeDefinitionIndex = 70244;
+
 	class CustomPositionConstraint : public ::UnityEngine::MonoBehaviour
 	{
 	public:

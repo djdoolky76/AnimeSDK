@@ -11,6 +11,8 @@ namespace RPG::Client { class GridFightEquipItemConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightForgeEquipAwardData_TypeDefinitionIndex = 64988;
+
 	class GridFightForgeEquipAwardData : public ::RPG::Client::GridFightForgeAwardData
 	{
 	public:

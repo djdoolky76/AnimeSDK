@@ -7,6 +7,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineCore_UpdateStatus_TypeDefinitionIndex = 39814;
+
 	class CinemachineCore_UpdateStatus : public ::System::Object
 	{
 	public:

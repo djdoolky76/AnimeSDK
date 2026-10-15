@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace System::Resources
 {
+	inline static constexpr unsigned int NeutralResourcesLanguageAttribute_TypeDefinitionIndex = 523;
+
 	class NeutralResourcesLanguageAttribute : public ::System::Attribute
 	{
 	public:

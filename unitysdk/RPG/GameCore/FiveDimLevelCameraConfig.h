@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelTriggerInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimLevelCameraConfig_TypeDefinitionIndex = 18625;
+
 	class FiveDimLevelCameraConfig : public ::RPG::GameCore::FiveDimBaseCameraConfig
 	{
 	public:

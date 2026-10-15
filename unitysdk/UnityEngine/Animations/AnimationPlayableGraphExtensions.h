@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Animations
 {
+	inline static constexpr unsigned int AnimationPlayableGraphExtensions_TypeDefinitionIndex = 5754;
+
 	class AnimationPlayableGraphExtensions : public ::System::Object
 	{
 	public:

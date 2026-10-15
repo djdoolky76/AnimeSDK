@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MonopolyPlayerTalkConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonopolyPlayerTalkConfigRow_TypeDefinitionIndex = 12083;
+
 	class MonopolyPlayerTalkConfigRow : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ClockBoyEmotionClip_TypeDefinitionIndex = 48031;
+
 	class ClockBoyEmotionClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

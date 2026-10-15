@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConfigManager_BundleConfigs_TypeDefinitionIndex = 8202;
+
 	class ConfigManager_BundleConfigs : public ::System::Object
 	{
 	public:

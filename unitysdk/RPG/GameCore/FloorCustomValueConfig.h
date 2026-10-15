@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FloorCustomValueConfig_TypeDefinitionIndex = 18281;
+
 	class FloorCustomValueConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

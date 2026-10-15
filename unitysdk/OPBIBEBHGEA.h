@@ -6,6 +6,8 @@
 #define OPBIBEBHGEA_FDEELCKPEKM_OFFSET UNITYSDK_OFFSET(0xBF9FEB0)
 #define OPBIBEBHGEA_MIFJNPKACOB_OFFSET UNITYSDK_OFFSET(0xBF9FE10)
 
+inline static constexpr unsigned int OPBIBEBHGEA_TypeDefinitionIndex = 72937;
+
 	class OPBIBEBHGEA : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int QuickBase_GameObjectType_TypeDefinitionIndex = 40251;
+
 	enum class QuickBase_GameObjectType : ::System::Int32
 	{
 		Auto = 0,

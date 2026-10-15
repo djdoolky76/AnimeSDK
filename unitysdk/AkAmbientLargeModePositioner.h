@@ -8,6 +8,8 @@
 #define AKAMBIENTLARGEMODEPOSITIONER_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x1F571F00)
 #define AKAMBIENTLARGEMODEPOSITIONER_GET_UP_OFFSET UNITYSDK_OFFSET(0x1F572160)
 
+inline static constexpr unsigned int AkAmbientLargeModePositioner_TypeDefinitionIndex = 44910;
+
 	class AkAmbientLargeModePositioner : public ::UnityEngine::MonoBehaviour
 	{
 	public:

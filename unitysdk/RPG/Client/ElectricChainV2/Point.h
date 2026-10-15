@@ -9,6 +9,8 @@
 
 namespace RPG::Client::ElectricChainV2
 {
+	inline static constexpr unsigned int Point_TypeDefinitionIndex = 73595;
+
 	class Point : public ::RPG::Client::ElectricChainV2::Shape
 	{
 	public:

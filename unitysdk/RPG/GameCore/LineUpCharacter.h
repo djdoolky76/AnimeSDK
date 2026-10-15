@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LineUpCharacter_TypeDefinitionIndex = 56331;
+
 	class LineUpCharacter : public ::System::Object
 	{
 	public:

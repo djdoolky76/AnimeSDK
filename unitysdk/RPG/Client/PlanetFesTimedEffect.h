@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesTimedEffect_TypeDefinitionIndex = 66503;
+
 	class PlanetFesTimedEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

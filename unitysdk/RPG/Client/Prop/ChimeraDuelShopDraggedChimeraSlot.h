@@ -27,6 +27,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelShopDraggedChimeraSlot_TypeDefinitionIndex = 78357;
+
 	class ChimeraDuelShopDraggedChimeraSlot : public ::System::Object
 	{
 	public:

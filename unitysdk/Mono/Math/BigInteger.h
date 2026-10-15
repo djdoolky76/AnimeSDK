@@ -59,6 +59,8 @@ namespace System::Security::Cryptography { class RandomNumberGenerator; }
 
 namespace Mono::Math
 {
+	inline static constexpr unsigned int BigInteger_TypeDefinitionIndex = 81;
+
 	class BigInteger : public ::System::Object
 	{
 	public:

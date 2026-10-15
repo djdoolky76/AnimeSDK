@@ -9,6 +9,8 @@ namespace System { class String; }
 #define CNLNGOAONAC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DCB67D0)
 #define CNLNGOAONAC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCB6770)
 
+inline static constexpr unsigned int CNLNGOAONAC_TypeDefinitionIndex = 21061;
+
 	class CNLNGOAONAC : public ::BMNBIGCFJJB
 	{
 	public:

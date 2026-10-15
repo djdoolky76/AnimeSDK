@@ -30,6 +30,8 @@ namespace System { class String; }
 #define EOKICOIMEPH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2FDFB0)
 #define EOKICOIMEPH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2FE010)
 
+inline static constexpr unsigned int EOKICOIMEPH_TypeDefinitionIndex = 33300;
+
 	class EOKICOIMEPH : public ::System::Object
 	{
 	public:

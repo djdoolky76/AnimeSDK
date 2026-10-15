@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VCameraBlend_TypeDefinitionIndex = 16419;
+
 	class VCameraBlend : public ::RPG::GameCore::JsonConfig
 	{
 	public:

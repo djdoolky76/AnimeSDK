@@ -33,6 +33,8 @@ namespace System { class String; }
 #define AMKBFMCOIHK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E525310)
 #define AMKBFMCOIHK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E525370)
 
+inline static constexpr unsigned int AMKBFMCOIHK_TypeDefinitionIndex = 30859;
+
 	class AMKBFMCOIHK : public ::System::Object
 	{
 	public:

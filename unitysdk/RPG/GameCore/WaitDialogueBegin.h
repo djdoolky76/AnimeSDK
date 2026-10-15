@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitDialogueBegin; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitDialogueBegin_TypeDefinitionIndex = 20151;
+
 	class WaitDialogueBegin : public ::RPG::GameCore::TaskConfig
 	{
 	public:

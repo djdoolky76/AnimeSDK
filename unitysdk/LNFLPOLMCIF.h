@@ -22,6 +22,8 @@ namespace System { class Random; }
 #define LNFLPOLMCIF_OHNIGCLLONB_OFFSET UNITYSDK_OFFSET(0x1C91DF30)
 #define LNFLPOLMCIF_ONDHMHPEIFK_OFFSET UNITYSDK_OFFSET(0x1C91C700)
 
+inline static constexpr unsigned int LNFLPOLMCIF_TypeDefinitionIndex = 42380;
+
 	class LNFLPOLMCIF : public ::HLFHMKMJNPK
 	{
 	public:

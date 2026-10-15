@@ -9,6 +9,8 @@
 
 namespace RPG::Client::Pet
 {
+	inline static constexpr unsigned int PetLineupShapeExtensions_TypeDefinitionIndex = 75689;
+
 	class PetLineupShapeExtensions : public ::System::Object
 	{
 	public:

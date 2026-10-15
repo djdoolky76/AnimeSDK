@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitBattleWinWithScore; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitBattleWinWithScore_TypeDefinitionIndex = 21266;
+
 	class WaitBattleWinWithScore : public ::RPG::GameCore::TaskConfig
 	{
 	public:

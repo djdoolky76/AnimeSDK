@@ -29,6 +29,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace RPG::Client::BAT
 {
+	inline static constexpr unsigned int BATControllerBase_TypeDefinitionIndex = 73666;
+
 	class BATControllerBase : public ::System::Object
 	{
 	public:

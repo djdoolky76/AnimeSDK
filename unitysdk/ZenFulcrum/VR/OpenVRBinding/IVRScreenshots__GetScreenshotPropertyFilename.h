@@ -15,6 +15,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRScreenshots__GetScreenshotPropertyFilename_TypeDefinitionIndex = 39179;
+
 	class IVRScreenshots__GetScreenshotPropertyFilename : public ::System::MulticastDelegate
 	{
 	public:

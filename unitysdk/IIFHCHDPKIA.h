@@ -54,6 +54,8 @@ namespace System { class String; }
 #define IIFHCHDPKIA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E687430)
 #define IIFHCHDPKIA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E687490)
 
+inline static constexpr unsigned int IIFHCHDPKIA_TypeDefinitionIndex = 31673;
+
 	class IIFHCHDPKIA : public ::System::Object
 	{
 	public:

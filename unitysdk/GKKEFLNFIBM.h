@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GKKEFLNFIBM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE5E850)
 #define GKKEFLNFIBM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE5E1B0)
 
+inline static constexpr unsigned int GKKEFLNFIBM_TypeDefinitionIndex = 14112;
+
 	class GKKEFLNFIBM : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace Spine::Unity { class SkeletonAnimation; }
 
 namespace Spine::Unity::Playables
 {
+	inline static constexpr unsigned int SkeletonAnimationPlayableHandle_TypeDefinitionIndex = 45903;
+
 	class SkeletonAnimationPlayableHandle : public ::Spine::Unity::Playables::SpinePlayableHandleBase
 	{
 	public:

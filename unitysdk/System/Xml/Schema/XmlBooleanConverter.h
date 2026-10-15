@@ -20,6 +20,8 @@ namespace System::Xml::Schema { class XmlValueConverter; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlBooleanConverter_TypeDefinitionIndex = 2226;
+
 	class XmlBooleanConverter : public ::System::Xml::Schema::XmlBaseConverter
 	{
 	public:

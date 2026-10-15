@@ -19,6 +19,8 @@ namespace System::Threading { class Timer_Scheduler; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int Timer_TypeDefinitionIndex = 879;
+
 	class Timer : public ::System::MarshalByRefObject
 	{
 	public:

@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UINPCWarningTipsContainer_WaypointPool_TypeDefinitionIndex = 69106;
+
 	class UINPCWarningTipsContainer_WaypointPool : public ::System::Object
 	{
 	public:

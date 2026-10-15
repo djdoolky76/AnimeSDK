@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropReqInteract_TypeDefinitionIndex = 22326;
+
 	class PropReqInteract : public ::RPG::GameCore::TaskConfig
 	{
 	public:

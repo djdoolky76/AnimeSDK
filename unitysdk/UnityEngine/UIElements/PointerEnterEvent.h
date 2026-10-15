@@ -7,6 +7,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int PointerEnterEvent_TypeDefinitionIndex = 5985;
+
 	class PointerEnterEvent
 	{
 	public:

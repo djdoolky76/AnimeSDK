@@ -13,6 +13,8 @@ class AirshipEngineBehaviorMode;
 #define COMMONSHIPENGINECONTROLLER_GALCAGLCDOA_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0xF1160)
 #define COMMONSHIPENGINECONTROLLER_GALCAGLCDOA_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xF12D0)
 
+inline static constexpr unsigned int CommonShipEngineController_GALCAGLCDOA_TypeDefinitionIndex = 47087;
+
 	struct alignas(8) CommonShipEngineController_GALCAGLCDOA
 	{
 		::CommonShipEngineController_LEHCLLKCJJG JPDBDLEEHGK; // 0x10

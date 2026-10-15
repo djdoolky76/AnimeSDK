@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeV2PlayerPveCareer_TypeDefinitionIndex = 66010;
+
 	class MatchThreeV2PlayerPveCareer : public ::System::Object
 	{
 	public:

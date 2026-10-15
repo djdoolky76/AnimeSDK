@@ -57,6 +57,8 @@ namespace System { class Uri; }
 
 namespace Newtonsoft::Json::Linq
 {
+	inline static constexpr unsigned int JTokenWriter_TypeDefinitionIndex = 9779;
+
 	class JTokenWriter : public ::Newtonsoft::Json::JsonWriter
 	{
 	public:

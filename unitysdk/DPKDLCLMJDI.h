@@ -51,6 +51,8 @@
 #define DPKDLCLMJDI_SET_SPEEDADD_OFFSET UNITYSDK_OFFSET(0x202EAE0)
 #define DPKDLCLMJDI_SET_SPEEDBASE_OFFSET UNITYSDK_OFFSET(0xAD40)
 
+inline static constexpr unsigned int DPKDLCLMJDI_TypeDefinitionIndex = 51964;
+
 	struct alignas(4) DPKDLCLMJDI
 	{
 		::RPG::GameCore::FixPoint _AttackBase_k__BackingField; // 0x10

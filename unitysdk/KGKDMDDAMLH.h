@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 
 #define KGKDMDDAMLH_CTOR_OFFSET UNITYSDK_OFFSET(0xB3EF6E0)
 
+inline static constexpr unsigned int KGKDMDDAMLH_TypeDefinitionIndex = 68458;
+
 	class KGKDMDDAMLH : public ::System::Object
 	{
 	public:

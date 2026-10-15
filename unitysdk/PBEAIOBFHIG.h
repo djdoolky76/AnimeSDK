@@ -7,6 +7,8 @@ class PBEAIOBFHIG;
 #define PBEAIOBFHIG_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0xBFEA470)
 #define PBEAIOBFHIG_JJBGNJFCHPL_OFFSET UNITYSDK_OFFSET(0xBFEA4F0)
 
+inline static constexpr unsigned int PBEAIOBFHIG_TypeDefinitionIndex = 71821;
+
 	class PBEAIOBFHIG : public ::System::Object
 	{
 	public:

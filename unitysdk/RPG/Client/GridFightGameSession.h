@@ -143,6 +143,8 @@ namespace RPG::Client { class GridFightTutorialManager; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameSession_TypeDefinitionIndex = 64861;
+
 	class GridFightGameSession : public ::System::Object
 	{
 	public:

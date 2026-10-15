@@ -5,6 +5,8 @@
 
 #define HLFEDPHBLBE_CTOR_OFFSET UNITYSDK_OFFSET(0x15D5E920)
 
+inline static constexpr unsigned int HLFEDPHBLBE_TypeDefinitionIndex = 55354;
+
 	class HLFEDPHBLBE : public ::System::Object
 	{
 	public:

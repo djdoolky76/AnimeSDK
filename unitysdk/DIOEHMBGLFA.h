@@ -6,6 +6,8 @@ namespace RPG::GameCore { class IAvatarSkillCommonRowWrap; }
 
 #define DIOEHMBGLFA_KMAKLLEGBHI_OFFSET UNITYSDK_OFFSET(0xF225490)
 
+inline static constexpr unsigned int DIOEHMBGLFA_TypeDefinitionIndex = 62645;
+
 	class DIOEHMBGLFA : public ::System::Object
 	{
 	public:

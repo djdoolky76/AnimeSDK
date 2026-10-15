@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class PropAttachToAdvPropClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int PropAttachToAdvPropBehaviour_TypeDefinitionIndex = 48238;
+
 	class PropAttachToAdvPropBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

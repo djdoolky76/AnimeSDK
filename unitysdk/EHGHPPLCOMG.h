@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define EHGHPPLCOMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FF2B0)
 #define EHGHPPLCOMG_IMBNGHDBDLJ_OFFSET UNITYSDK_OFFSET(0x1C5FF2E0)
 
+inline static constexpr unsigned int EHGHPPLCOMG_TypeDefinitionIndex = 37423;
+
 	class EHGHPPLCOMG
 	{
 	public:

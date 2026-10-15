@@ -20,6 +20,8 @@ namespace UnityEngine { class AnimationState; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIAnimationUtils_TypeDefinitionIndex = 73167;
+
 	class UIAnimationUtils : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KILGONODPIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E863D30)
 #define KILGONODPIC___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E863D40)
 
+inline static constexpr unsigned int KILGONODPIC___c_TypeDefinitionIndex = 33809;
+
 	class KILGONODPIC___c : public ::System::Object
 	{
 	public:

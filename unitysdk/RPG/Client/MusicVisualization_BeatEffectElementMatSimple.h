@@ -24,6 +24,8 @@ namespace UnityEngine { class Random; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MusicVisualization_BeatEffectElementMatSimple_TypeDefinitionIndex = 70816;
+
 	class MusicVisualization_BeatEffectElementMatSimple : public ::RPG::Client::MusicVisualization_BeatEffectElementVisualBase
 	{
 	public:

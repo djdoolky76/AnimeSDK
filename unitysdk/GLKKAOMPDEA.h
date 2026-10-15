@@ -7,6 +7,8 @@ class NJKFOJJDGGG;
 #define GLKKAOMPDEA_GBIKMEMOECC_OFFSET UNITYSDK_OFFSET(0x15ABBB90)
 #define GLKKAOMPDEA_UPDATE_OFFSET UNITYSDK_OFFSET(0x15ABBC30)
 
+inline static constexpr unsigned int GLKKAOMPDEA_TypeDefinitionIndex = 65020;
+
 	class GLKKAOMPDEA : public ::RPG::Client::GridFightGameModifier
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client::ActivityFinalityBattle::Entrance
 {
+	inline static constexpr unsigned int FinalityBattleEntranceViewModel__LevelRank_TypeDefinitionIndex = 82081;
+
 	enum class FinalityBattleEntranceViewModel__LevelRank : ::System::Int32
 	{
 		EasyNotPassed = 0,

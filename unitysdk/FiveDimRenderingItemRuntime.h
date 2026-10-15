@@ -6,6 +6,8 @@
 #define FIVEDIMRENDERINGITEMRUNTIME__ONDISABLE_OFFSET UNITYSDK_OFFSET(0x15927AF0)
 #define FIVEDIMRENDERINGITEMRUNTIME__ONENABLE_OFFSET UNITYSDK_OFFSET(0x15927B30)
 
+inline static constexpr unsigned int FiveDimRenderingItemRuntime_TypeDefinitionIndex = 47108;
+
 	class FiveDimRenderingItemRuntime : public ::FiveDimRenderingItem
 	{
 	public:

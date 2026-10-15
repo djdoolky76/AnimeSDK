@@ -6,6 +6,8 @@
 
 namespace SWRT
 {
+	inline static constexpr unsigned int BVH2_FNode_TypeDefinitionIndex = 37495;
+
 	struct alignas(4) BVH2_FNode
 	{
 		::UnityEngine::Vector3 AABBMin; // 0x10

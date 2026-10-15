@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierReplaceSupplyMaxEquipNumConfig;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierReplaceSupplyMaxEquipNumConfig_TypeDefinitionIndex = 19436;
+
 	class GridFightModifierReplaceSupplyMaxEquipNumConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

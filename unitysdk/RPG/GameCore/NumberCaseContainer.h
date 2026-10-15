@@ -11,6 +11,8 @@ namespace RPG::GameCore { class NumberCaseContainer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NumberCaseContainer_TypeDefinitionIndex = 17533;
+
 	class NumberCaseContainer : public ::RPG::GameCore::CaseContainerBase
 	{
 	public:

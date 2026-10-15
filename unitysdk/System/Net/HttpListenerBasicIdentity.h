@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int HttpListenerBasicIdentity_TypeDefinitionIndex = 2850;
+
 	class HttpListenerBasicIdentity : public ::System::Security::Principal::GenericIdentity
 	{
 	public:

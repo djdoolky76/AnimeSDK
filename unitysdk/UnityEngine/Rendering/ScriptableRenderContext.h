@@ -22,6 +22,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int ScriptableRenderContext_TypeDefinitionIndex = 4768;
+
 	struct alignas(4) ScriptableRenderContext
 	{
 		::System::IntPtr m_Ptr; // 0x10

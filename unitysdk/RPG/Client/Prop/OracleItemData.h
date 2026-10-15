@@ -7,6 +7,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int OracleItemData_TypeDefinitionIndex = 78731;
+
 	class OracleItemData : public ::System::Object
 	{
 	public:

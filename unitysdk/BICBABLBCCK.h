@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TurnBasedGameMode; }
 #define BICBABLBCCK_INMAMAEFECM_OFFSET UNITYSDK_OFFSET(0xB495170)
 #define BICBABLBCCK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB495110)
 
+inline static constexpr unsigned int BICBABLBCCK_TypeDefinitionIndex = 55011;
+
 	class BICBABLBCCK
 	{
 	public:

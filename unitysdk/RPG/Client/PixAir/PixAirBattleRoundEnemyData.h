@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirBattleRoundEnemyData_TypeDefinitionIndex = 79317;
+
 	class PixAirBattleRoundEnemyData : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace SRF::UI::Layout
 {
+	inline static constexpr unsigned int VirtualVerticalLayoutGroup_Row_TypeDefinitionIndex = 35406;
+
 	class VirtualVerticalLayoutGroup_Row : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client::LimaoNews { class LimaoNewsEntityTrackService; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsEntityTrackService___c__DisplayClass11_0_TypeDefinitionIndex = 80319;
+
 	class LimaoNewsEntityTrackService___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

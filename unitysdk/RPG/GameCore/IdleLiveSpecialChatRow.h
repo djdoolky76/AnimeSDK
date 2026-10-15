@@ -9,6 +9,8 @@ namespace RPG::GameCore { class IdleLiveSpecialChatRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveSpecialChatRow_TypeDefinitionIndex = 11784;
+
 	class IdleLiveSpecialChatRow : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace UnityEngine::UI { class Button_ButtonClickedEvent; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UILongHoverButton_TypeDefinitionIndex = 72742;
+
 	class UILongHoverButton : public ::UnityEngine::UI::Button
 	{
 	public:

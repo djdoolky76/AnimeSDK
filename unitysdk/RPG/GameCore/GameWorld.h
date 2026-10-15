@@ -123,6 +123,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameWorld_TypeDefinitionIndex = 57810;
+
 	class GameWorld : public ::System::Object
 	{
 	public:

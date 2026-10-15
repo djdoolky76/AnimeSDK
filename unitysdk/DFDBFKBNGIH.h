@@ -71,6 +71,8 @@ namespace System { class String; }
 #define DFDBFKBNGIH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E19B170)
 #define DFDBFKBNGIH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E19B1D0)
 
+inline static constexpr unsigned int DFDBFKBNGIH_TypeDefinitionIndex = 25146;
+
 	class DFDBFKBNGIH : public ::System::Object
 	{
 	public:

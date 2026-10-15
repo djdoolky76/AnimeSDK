@@ -8,6 +8,8 @@ class JLOEANPJEHC;
 #define DCAJGFPPCDM_CTOR_OFFSET UNITYSDK_OFFSET(0xE238120)
 #define DCAJGFPPCDM_HOGHJIFBAND_OFFSET UNITYSDK_OFFSET(0xE238130)
 
+inline static constexpr unsigned int DCAJGFPPCDM_TypeDefinitionIndex = 79799;
+
 	class DCAJGFPPCDM : public ::System::Object
 	{
 	public:

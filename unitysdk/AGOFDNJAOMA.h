@@ -7,6 +7,8 @@ namespace System { class Nullable; }
 #define AGOFDNJAOMA_CLEAR_OFFSET UNITYSDK_OFFSET(0xCF46350)
 #define AGOFDNJAOMA_CTOR_OFFSET UNITYSDK_OFFSET(0xCF463A0)
 
+inline static constexpr unsigned int AGOFDNJAOMA_TypeDefinitionIndex = 54386;
+
 	class AGOFDNJAOMA : public ::System::Object
 	{
 	public:

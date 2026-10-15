@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightFlowDirector_BattleStartEvent_TypeDefinitionIndex = 64581;
+
 	class GridFightFlowDirector_BattleStartEvent
 	{
 	public:

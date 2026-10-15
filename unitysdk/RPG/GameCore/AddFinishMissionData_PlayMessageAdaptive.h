@@ -11,6 +11,8 @@ namespace RPG::GameCore { class AddFinishMissionData_PlayMessageAdaptive; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddFinishMissionData_PlayMessageAdaptive_TypeDefinitionIndex = 21938;
+
 	class AddFinishMissionData_PlayMessageAdaptive : public ::RPG::GameCore::TaskConfig
 	{
 	public:

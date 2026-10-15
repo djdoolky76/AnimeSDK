@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EEGDINIPPBN_CTOR_OFFSET UNITYSDK_OFFSET(0x13A2C720)
 #define EEGDINIPPBN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A2C750)
 
+inline static constexpr unsigned int EEGDINIPPBN_TypeDefinitionIndex = 55090;
+
 	class EEGDINIPPBN
 	{
 	public:

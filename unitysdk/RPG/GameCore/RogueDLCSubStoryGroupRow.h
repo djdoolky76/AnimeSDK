@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueDLCSubStoryGroupRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLCSubStoryGroupRow_TypeDefinitionIndex = 14797;
+
 	class RogueDLCSubStoryGroupRow : public ::System::Object
 	{
 	public:

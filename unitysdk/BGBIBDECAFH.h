@@ -35,6 +35,8 @@ namespace System { class String; }
 #define BGBIBDECAFH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA701C0)
 #define BGBIBDECAFH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA70220)
 
+inline static constexpr unsigned int BGBIBDECAFH_TypeDefinitionIndex = 28839;
+
 	class BGBIBDECAFH : public ::System::Object
 	{
 	public:

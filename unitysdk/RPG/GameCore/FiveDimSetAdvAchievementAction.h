@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimSetAdvAchievementAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetAdvAchievementAction_TypeDefinitionIndex = 18792;
+
 	class FiveDimSetAdvAchievementAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

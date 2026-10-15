@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraPhaseConditionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraPhaseConditionConfig_TypeDefinitionIndex = 15887;
+
 	class ChimeraPhaseConditionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

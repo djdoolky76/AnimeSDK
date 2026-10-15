@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_VolumeScatterTrees_TypeDefinitionIndex = 40771;
+
 	class HEU_VolumeScatterTrees : public ::System::Object
 	{
 	public:

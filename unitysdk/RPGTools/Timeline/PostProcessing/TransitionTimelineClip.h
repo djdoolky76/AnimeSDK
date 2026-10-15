@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int TransitionTimelineClip_TypeDefinitionIndex = 48627;
+
 	class TransitionTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

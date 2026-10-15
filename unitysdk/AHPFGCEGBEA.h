@@ -7,6 +7,8 @@ class GGDIMKDOIGA;
 #define AHPFGCEGBEA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C58B180)
 #define AHPFGCEGBEA_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C58B190)
 
+inline static constexpr unsigned int AHPFGCEGBEA_TypeDefinitionIndex = 36523;
+
 	class AHPFGCEGBEA : public ::LOEONJJICDK
 	{
 	public:

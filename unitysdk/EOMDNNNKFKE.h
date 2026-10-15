@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define EOMDNNNKFKE_OLODBNGIJII_OFFSET UNITYSDK_OFFSET(0x155C8290)
 #define EOMDNNNKFKE_PNPALALADPE_OFFSET UNITYSDK_OFFSET(0x155C7D70)
 
+inline static constexpr unsigned int EOMDNNNKFKE_TypeDefinitionIndex = 60411;
+
 	class EOMDNNNKFKE : public ::System::Object
 	{
 	public:

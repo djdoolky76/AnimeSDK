@@ -13,6 +13,8 @@ namespace UnityEngine { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UnityAsyncExtensions_AssetBundleRequestAwaiter_TypeDefinitionIndex = 38462;
+
 	struct alignas(8) UnityAsyncExtensions_AssetBundleRequestAwaiter
 	{
 		::UnityEngine::AssetBundleRequest* asyncOperation; // 0x10

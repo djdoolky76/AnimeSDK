@@ -4,6 +4,8 @@
 
 #define JKCGIKHLGEM_OHKNLDMIKCE_OFFSET UNITYSDK_OFFSET(0xB214660)
 
+inline static constexpr unsigned int JKCGIKHLGEM_TypeDefinitionIndex = 69397;
+
 	class JKCGIKHLGEM : public ::System::Object
 	{
 	public:

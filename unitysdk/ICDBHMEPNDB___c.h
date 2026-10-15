@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ICDBHMEPNDB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E620670)
 #define ICDBHMEPNDB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E620680)
 
+inline static constexpr unsigned int ICDBHMEPNDB___c_TypeDefinitionIndex = 26741;
+
 	class ICDBHMEPNDB___c : public ::System::Object
 	{
 	public:

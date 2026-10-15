@@ -9,6 +9,8 @@ class GHFDKAAGDJJ;
 #define GHFDKAAGDJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE46590)
 #define GHFDKAAGDJJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE46440)
 
+inline static constexpr unsigned int GHFDKAAGDJJ_TypeDefinitionIndex = 13885;
+
 	class GHFDKAAGDJJ : public ::System::Object
 	{
 	public:

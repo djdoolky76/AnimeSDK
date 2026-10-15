@@ -13,6 +13,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityLocalLegendUtils___c_TypeDefinitionIndex = 61572;
+
 	class ActivityLocalLegendUtils___c : public ::System::Object
 	{
 	public:

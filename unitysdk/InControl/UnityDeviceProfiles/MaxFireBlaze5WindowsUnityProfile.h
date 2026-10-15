@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int MaxFireBlaze5WindowsUnityProfile_TypeDefinitionIndex = 41079;
+
 	class MaxFireBlaze5WindowsUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

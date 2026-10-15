@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int UvUnwrapping_UVTransform_TypeDefinitionIndex = 44447;
+
 	struct alignas(4) UvUnwrapping_UVTransform
 	{
 		::UnityEngine::Vector2 translation; // 0x10

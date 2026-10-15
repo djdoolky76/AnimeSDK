@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftProgressOverlapControlBinder_TypeDefinitionIndex = 79943;
+
 	class MechCraftCraftProgressOverlapControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

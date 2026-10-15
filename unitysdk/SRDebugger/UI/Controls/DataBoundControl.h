@@ -23,6 +23,8 @@ namespace System { class Type; }
 
 namespace SRDebugger::UI::Controls
 {
+	inline static constexpr unsigned int DataBoundControl_TypeDefinitionIndex = 38023;
+
 	class DataBoundControl : public ::SRDebugger::UI::Controls::OptionsControlBase
 	{
 	public:

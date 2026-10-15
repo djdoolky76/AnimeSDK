@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int UniverseData_SameFloorSubNavMapBuildNode_TypeDefinitionIndex = 74638;
+
 	class UniverseData_SameFloorSubNavMapBuildNode : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::TrainParty::Mapping
 {
+	inline static constexpr unsigned int SlotBtnMapping_TypeDefinitionIndex = 74375;
+
 	class SlotBtnMapping : public ::UnityEngine::MonoBehaviour
 	{
 	public:

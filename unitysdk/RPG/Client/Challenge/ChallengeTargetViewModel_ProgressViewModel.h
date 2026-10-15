@@ -8,6 +8,8 @@
 
 namespace RPG::Client::Challenge
 {
+	inline static constexpr unsigned int ChallengeTargetViewModel_ProgressViewModel_TypeDefinitionIndex = 81428;
+
 	class ChallengeTargetViewModel_ProgressViewModel : public ::System::Object
 	{
 	public:

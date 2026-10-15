@@ -8,6 +8,8 @@ class IIFNOMLIFPK;
 #define IIFNOMLIFPK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CF12B10)
 #define IIFNOMLIFPK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF12AD0)
 
+inline static constexpr unsigned int IIFNOMLIFPK_TypeDefinitionIndex = 24307;
+
 	class IIFNOMLIFPK : public ::RPG::GameCore::TaskConfig
 	{
 	public:

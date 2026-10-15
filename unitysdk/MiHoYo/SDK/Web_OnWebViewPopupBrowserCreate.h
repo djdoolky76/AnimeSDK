@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Web_OnWebViewPopupBrowserCreate_TypeDefinitionIndex = 8223;
+
 	class Web_OnWebViewPopupBrowserCreate : public ::System::MulticastDelegate
 	{
 	public:

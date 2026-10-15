@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace System::Configuration
 {
+	inline static constexpr unsigned int ConfigurationCollectionAttribute_TypeDefinitionIndex = 2340;
+
 	class ConfigurationCollectionAttribute : public ::System::Attribute
 	{
 	public:

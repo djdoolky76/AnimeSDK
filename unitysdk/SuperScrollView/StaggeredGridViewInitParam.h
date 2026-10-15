@@ -8,6 +8,8 @@ namespace SuperScrollView { class StaggeredGridViewInitParam; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int StaggeredGridViewInitParam_TypeDefinitionIndex = 47674;
+
 	class StaggeredGridViewInitParam : public ::System::Object
 	{
 	public:

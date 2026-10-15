@@ -5,6 +5,8 @@
 
 #define JIDKACGCHMA_CTOR_OFFSET UNITYSDK_OFFSET(0xB1EEB60)
 
+inline static constexpr unsigned int JIDKACGCHMA_TypeDefinitionIndex = 69676;
+
 	class JIDKACGCHMA : public ::System::Object
 	{
 	public:

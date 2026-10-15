@@ -3,6 +3,8 @@
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int SortedSet_1_ElementCount_TypeDefinitionIndex = 3045;
+
 	template <typename T>
 	struct alignas(4) SortedSet_1_ElementCount
 	{

@@ -32,6 +32,8 @@ namespace System { class String; }
 #define LGALPBAPICA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9487E0)
 #define LGALPBAPICA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E948840)
 
+inline static constexpr unsigned int LGALPBAPICA_TypeDefinitionIndex = 30519;
+
 	class LGALPBAPICA : public ::System::Object
 	{
 	public:

@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GKEEBJNJDMP_OPKJHFDIAOD_OFFSET UNITYSDK_OFFSET(0x15A94F40)
 #define GKEEBJNJDMP_SET_CURRENTCITYTYPE_OFFSET UNITYSDK_OFFSET(0x15A94EE0)
 
+inline static constexpr unsigned int GKEEBJNJDMP_TypeDefinitionIndex = 80323;
+
 	class GKEEBJNJDMP : public ::System::Object
 	{
 	public:

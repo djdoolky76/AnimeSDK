@@ -7,6 +7,8 @@ class GKHJOLOFPJF;
 #define GKHJOLOFPJF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE5E1A0)
 #define GKHJOLOFPJF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE5E020)
 
+inline static constexpr unsigned int GKHJOLOFPJF_TypeDefinitionIndex = 11513;
+
 	class GKHJOLOFPJF : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@
 
 namespace Newtonsoft::Json
 {
+	inline static constexpr unsigned int JsonExtensionDataAttribute_TypeDefinitionIndex = 9589;
+
 	class JsonExtensionDataAttribute : public ::System::Attribute
 	{
 	public:

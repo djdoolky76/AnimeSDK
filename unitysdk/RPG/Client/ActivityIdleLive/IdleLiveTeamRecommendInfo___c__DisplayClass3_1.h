@@ -8,6 +8,8 @@ namespace RPG::Client::ActivityIdleLive { class IIdleLiveAvatarData; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveTeamRecommendInfo___c__DisplayClass3_1_TypeDefinitionIndex = 75089;
+
 	template <typename T>
 	class IdleLiveTeamRecommendInfo___c__DisplayClass3_1 : public ::System::Object
 	{

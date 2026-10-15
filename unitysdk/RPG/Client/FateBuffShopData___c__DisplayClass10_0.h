@@ -8,6 +8,8 @@ namespace RPG::Client { class FateBuffShopGoodsItem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateBuffShopData___c__DisplayClass10_0_TypeDefinitionIndex = 64123;
+
 	class FateBuffShopData___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

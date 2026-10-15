@@ -45,6 +45,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ZatzkaLookAtIK_TypeDefinitionIndex = 68501;
+
 	class ZatzkaLookAtIK : public ::UnityEngine::MonoBehaviour
 	{
 	public:

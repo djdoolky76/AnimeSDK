@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtTargetMapGridOwner_TypeDefinitionIndex = 24256;
+
 	class RtTargetMapGridOwner : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:

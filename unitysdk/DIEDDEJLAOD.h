@@ -32,6 +32,8 @@ namespace UnityEngine::UI { class Text; }
 #define DIEDDEJLAOD_PEGNJCBFPFB_OFFSET UNITYSDK_OFFSET(0xEBF1B70)
 #define DIEDDEJLAOD__ONBIND_OFFSET UNITYSDK_OFFSET(0xEBF14B0)
 
+inline static constexpr unsigned int DIEDDEJLAOD_TypeDefinitionIndex = 71282;
+
 	class DIEDDEJLAOD : public ::CAOEEDDAPIK
 	{
 	public:

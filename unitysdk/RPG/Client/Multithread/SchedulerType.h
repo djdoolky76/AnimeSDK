@@ -3,6 +3,8 @@
 
 namespace RPG::Client::Multithread
 {
+	inline static constexpr unsigned int SchedulerType_TypeDefinitionIndex = 43827;
+
 	enum class SchedulerType : ::System::Int32
 	{
 		PRETICK_ENTRY_FLUSH = 0,

@@ -8,6 +8,8 @@ namespace System::Xml { class XmlRawWriter; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlRawWriterBase64Encoder_TypeDefinitionIndex = 1788;
+
 	class XmlRawWriterBase64Encoder : public ::System::Xml::Base64Encoder
 	{
 	public:

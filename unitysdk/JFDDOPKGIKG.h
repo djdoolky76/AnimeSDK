@@ -29,6 +29,8 @@ namespace System { class String; }
 #define JFDDOPKGIKG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E727500)
 #define JFDDOPKGIKG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E727560)
 
+inline static constexpr unsigned int JFDDOPKGIKG_TypeDefinitionIndex = 30986;
+
 	class JFDDOPKGIKG : public ::System::Object
 	{
 	public:

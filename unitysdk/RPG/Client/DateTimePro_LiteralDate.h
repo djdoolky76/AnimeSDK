@@ -30,6 +30,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DateTimePro_LiteralDate_TypeDefinitionIndex = 35261;
+
 	struct alignas(4) DateTimePro_LiteralDate
 	{
 		::RPG::Client::DateTimePro_LiteralDate_Kind _DateKind_k__BackingField; // 0x10

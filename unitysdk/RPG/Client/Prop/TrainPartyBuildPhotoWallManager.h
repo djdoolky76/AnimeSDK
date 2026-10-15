@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int TrainPartyBuildPhotoWallManager_TypeDefinitionIndex = 78184;
+
 	class TrainPartyBuildPhotoWallManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

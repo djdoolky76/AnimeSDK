@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define EMGAGCLHCNL__ONENUMBLOCKITEMS_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x15536AB0)
 #define EMGAGCLHCNL__ONENUMBLOCKITEMS_D__19_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15536370)
 
+inline static constexpr unsigned int EMGAGCLHCNL__OnEnumBlockItems_d__19_TypeDefinitionIndex = 59472;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19>
 	class EMGAGCLHCNL__OnEnumBlockItems_d__19 : public ::System::Object
 	{

@@ -11,6 +11,8 @@ class CFIDFBEPAFN;
 #define NBIOOMEPCFJ__ONTICK_OFFSET UNITYSDK_OFFSET(0xBAC7CD0)
 #define NBIOOMEPCFJ__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xBAC7B30)
 
+inline static constexpr unsigned int NBIOOMEPCFJ_TypeDefinitionIndex = 72485;
+
 	class NBIOOMEPCFJ : public ::RPG::Client::UIController
 	{
 	public:

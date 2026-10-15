@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SO_PlayFreeStyle_TypeDefinitionIndex = 20060;
+
 	class SO_PlayFreeStyle : public ::RPG::GameCore::SOTaskConfig
 	{
 	public:

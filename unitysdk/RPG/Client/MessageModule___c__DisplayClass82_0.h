@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MessageModule___c__DisplayClass82_0_TypeDefinitionIndex = 66075;
+
 	class MessageModule___c__DisplayClass82_0 : public ::System::Object
 	{
 	public:

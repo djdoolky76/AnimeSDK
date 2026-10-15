@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GCINPDAAELN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E43E430)
 #define GCINPDAAELN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E43E440)
 
+inline static constexpr unsigned int GCINPDAAELN___c_TypeDefinitionIndex = 31622;
+
 	class GCINPDAAELN___c : public ::System::Object
 	{
 	public:

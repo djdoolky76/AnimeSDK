@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PSDelegate_OpenURLDelegate_TypeDefinitionIndex = 7724;
+
 	class PSDelegate_OpenURLDelegate : public ::System::MulticastDelegate
 	{
 	public:

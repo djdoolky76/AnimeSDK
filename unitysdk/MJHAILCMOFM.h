@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MJHAILCMOFM_CTOR_OFFSET UNITYSDK_OFFSET(0xB96CD80)
 #define MJHAILCMOFM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB96CDD0)
 
+inline static constexpr unsigned int MJHAILCMOFM_TypeDefinitionIndex = 59218;
+
 	class MJHAILCMOFM
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SwitchBaseConfig_TypeDefinitionIndex = 7926;
+
 	class SwitchBaseConfig : public ::System::Object
 	{
 	public:

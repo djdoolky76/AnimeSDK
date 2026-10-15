@@ -23,6 +23,8 @@ namespace System { class String; }
 #define GIOCDNCMJPD_PEECNCABGFD_OFFSET UNITYSDK_OFFSET(0x1C47A0C0)
 #define GIOCDNCMJPD_PODLKOGHGMA_OFFSET UNITYSDK_OFFSET(0x1C47A080)
 
+inline static constexpr unsigned int GIOCDNCMJPD_TypeDefinitionIndex = 41416;
+
 	class GIOCDNCMJPD : public ::System::Object
 	{
 	public:

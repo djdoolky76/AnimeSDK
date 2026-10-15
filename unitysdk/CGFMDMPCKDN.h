@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CGFMDMPCKDN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0AE760)
 #define CGFMDMPCKDN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0AE7C0)
 
+inline static constexpr unsigned int CGFMDMPCKDN_TypeDefinitionIndex = 34258;
+
 	class CGFMDMPCKDN : public ::System::Object
 	{
 	public:

@@ -30,6 +30,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ComicDialogEmitterMonoPlugin_TypeDefinitionIndex = 70882;
+
 	class ComicDialogEmitterMonoPlugin
 	{
 	public:

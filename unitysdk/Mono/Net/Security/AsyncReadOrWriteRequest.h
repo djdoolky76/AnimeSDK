@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace Mono::Net::Security
 {
+	inline static constexpr unsigned int AsyncReadOrWriteRequest_TypeDefinitionIndex = 2431;
+
 	class AsyncReadOrWriteRequest : public ::Mono::Net::Security::AsyncProtocolRequest
 	{
 	public:

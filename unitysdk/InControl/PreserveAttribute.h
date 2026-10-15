@@ -6,6 +6,8 @@
 
 namespace InControl
 {
+	inline static constexpr unsigned int PreserveAttribute_TypeDefinitionIndex = 40912;
+
 	class PreserveAttribute : public ::System::Attribute
 	{
 	public:

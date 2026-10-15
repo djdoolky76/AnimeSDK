@@ -14,6 +14,8 @@ namespace System { template <typename T> class Func_1; }
 #define CJGNCPIDGNH___C__DISPLAYCLASS4_0__JOINLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xD2117E0)
 #define CJGNCPIDGNH___C__DISPLAYCLASS4_0__JOINLOBBY_B__1_OFFSET UNITYSDK_OFFSET(0xD211920)
 
+inline static constexpr unsigned int CJGNCPIDGNH___c__DisplayClass4_0_TypeDefinitionIndex = 80273;
+
 	class CJGNCPIDGNH___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

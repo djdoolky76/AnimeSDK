@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NMBMHCNGCFG_SET_BATTLERELICINFOS_OFFSET UNITYSDK_OFFSET(0xBC7D610)
 #define NMBMHCNGCFG_SET_SPECIALRELICDATA_OFFSET UNITYSDK_OFFSET(0xBC7D630)
 
+inline static constexpr unsigned int NMBMHCNGCFG_TypeDefinitionIndex = 56322;
+
 	class NMBMHCNGCFG : public ::System::Object
 	{
 	public:

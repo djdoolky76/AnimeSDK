@@ -8,6 +8,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace Entitas
 {
+	inline static constexpr unsigned int AbstractEntityIndex_2_TypeDefinitionIndex = 10018;
+
 	template <typename T1, typename T2>
 	class AbstractEntityIndex_2 : public ::System::Object
 	{

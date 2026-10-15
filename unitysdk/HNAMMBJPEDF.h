@@ -7,6 +7,8 @@ class HNAMMBJPEDF;
 #define HNAMMBJPEDF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CECA6D0)
 #define HNAMMBJPEDF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CECA5B0)
 
+inline static constexpr unsigned int HNAMMBJPEDF_TypeDefinitionIndex = 11813;
+
 	class HNAMMBJPEDF : public ::System::Object
 	{
 	public:

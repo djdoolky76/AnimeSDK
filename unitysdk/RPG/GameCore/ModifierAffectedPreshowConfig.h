@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifierAffectedPreshowConfig_TypeDefinitionIndex = 18181;
+
 	class ModifierAffectedPreshowConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

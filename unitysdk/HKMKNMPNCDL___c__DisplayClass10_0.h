@@ -7,6 +7,8 @@ class HKMKNMPNCDL;
 #define HKMKNMPNCDL___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15D4F2D0)
 #define HKMKNMPNCDL___C__DISPLAYCLASS10_0__ONDETAILCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x15D50050)
 
+inline static constexpr unsigned int HKMKNMPNCDL___c__DisplayClass10_0_TypeDefinitionIndex = 71286;
+
 	class HKMKNMPNCDL___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

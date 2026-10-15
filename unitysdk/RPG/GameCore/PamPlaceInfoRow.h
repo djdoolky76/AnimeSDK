@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PamPlaceInfoRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PamPlaceInfoRow_TypeDefinitionIndex = 14304;
+
 	class PamPlaceInfoRow : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int PPFilterStack_TypeDefinitionIndex = 51853;
+
 	class PPFilterStack : public ::UnityEngine::ScriptableObject
 	{
 	public:

@@ -20,6 +20,8 @@ namespace UnityEngine::UI { class TextScanner; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int CaculateNodeRebuild_TypeDefinitionIndex = 6756;
+
 	class CaculateNodeRebuild : public ::System::Object
 	{
 	public:

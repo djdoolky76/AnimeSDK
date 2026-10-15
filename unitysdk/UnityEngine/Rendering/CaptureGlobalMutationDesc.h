@@ -8,6 +8,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CaptureGlobalMutationDesc_TypeDefinitionIndex = 4836;
+
 	struct alignas(4) CaptureGlobalMutationDesc
 	{
 		::UnityEngine::Rendering::CRPCaptureDesc desc; // 0x10

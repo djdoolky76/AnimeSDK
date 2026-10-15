@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LNOPPNDPFGM_LCKDCEPKGMG_OFFSET UNITYSDK_OFFSET(0xB7EAAA0)
 #define LNOPPNDPFGM_MOLIEAOEFNC_OFFSET UNITYSDK_OFFSET(0xB7ECB00)
 
+inline static constexpr unsigned int LNOPPNDPFGM_TypeDefinitionIndex = 67245;
+
 	class LNOPPNDPFGM : public ::System::Object
 	{
 	public:

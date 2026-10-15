@@ -9,6 +9,8 @@ namespace Entitas { class IEntity; }
 #define IKPFHPBMOCJ_ONREMOVE_OFFSET UNITYSDK_OFFSET(0x1649FF40)
 #define IKPFHPBMOCJ_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1649FD10)
 
+inline static constexpr unsigned int IKPFHPBMOCJ_TypeDefinitionIndex = 76481;
+
 	class IKPFHPBMOCJ
 	{
 	public:

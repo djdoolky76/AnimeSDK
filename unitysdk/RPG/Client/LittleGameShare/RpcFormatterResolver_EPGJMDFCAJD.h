@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int RpcFormatterResolver_EPGJMDFCAJD_TypeDefinitionIndex = 37063;
+
 	class RpcFormatterResolver_EPGJMDFCAJD : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client { class RogueTournPersonaTalentGroupData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaTalentInfo___c__DisplayClass5_0_TypeDefinitionIndex = 67763;
+
 	class RogueTournPersonaTalentInfo___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

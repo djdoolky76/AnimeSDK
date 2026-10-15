@@ -6,6 +6,8 @@
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int BGCurvePCG_BezierCurveGenerator_CurveGenerateSetting_TypeDefinitionIndex = 52019;
+
 	struct alignas(4) BGCurvePCG_BezierCurveGenerator_CurveGenerateSetting
 	{
 		::UnityEngine::Vector2 Range; // 0x10

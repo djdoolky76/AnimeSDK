@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareGraphDynamicFloat_TypeDefinitionIndex = 20712;
+
 	class ByCompareGraphDynamicFloat : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

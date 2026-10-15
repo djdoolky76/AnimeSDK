@@ -14,6 +14,8 @@ namespace System { class String; }
 #define FGCNJOMDMOD_LLMHKCANOAI_OFFSET UNITYSDK_OFFSET(0x15753500)
 #define FGCNJOMDMOD_PLNCKLJOJME_OFFSET UNITYSDK_OFFSET(0x15753900)
 
+inline static constexpr unsigned int FGCNJOMDMOD_TypeDefinitionIndex = 64371;
+
 	class FGCNJOMDMOD : public ::System::Object
 	{
 	public:

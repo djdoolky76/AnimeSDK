@@ -12,6 +12,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_AddCurrentTurnMaxRollCount_TypeDefinitionIndex = 16092;
+
 	class DiceCombatTaskConfig_AddCurrentTurnMaxRollCount : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

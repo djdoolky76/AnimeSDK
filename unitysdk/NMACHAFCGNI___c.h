@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NMACHAFCGNI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB6A9F0)
 #define NMACHAFCGNI___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1EB6AA00)
 
+inline static constexpr unsigned int NMACHAFCGNI___c_TypeDefinitionIndex = 31610;
+
 	class NMACHAFCGNI___c : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline::EnvironmentSyetem
 {
+	inline static constexpr unsigned int EnviroSysFogTrack_TypeDefinitionIndex = 48640;
+
 	class EnviroSysFogTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

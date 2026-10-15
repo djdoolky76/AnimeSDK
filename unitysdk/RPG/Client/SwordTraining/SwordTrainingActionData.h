@@ -21,6 +21,8 @@ namespace RPG::GameCore { class SwordTrainingActionRow; }
 
 namespace RPG::Client::SwordTraining
 {
+	inline static constexpr unsigned int SwordTrainingActionData_TypeDefinitionIndex = 75059;
+
 	class SwordTrainingActionData : public ::System::Object
 	{
 	public:

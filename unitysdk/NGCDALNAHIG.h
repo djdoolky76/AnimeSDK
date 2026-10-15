@@ -25,6 +25,8 @@ namespace System { class String; }
 #define NGCDALNAHIG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB0BBF0)
 #define NGCDALNAHIG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB0BC50)
 
+inline static constexpr unsigned int NGCDALNAHIG_TypeDefinitionIndex = 27011;
+
 	class NGCDALNAHIG : public ::System::Object
 	{
 	public:

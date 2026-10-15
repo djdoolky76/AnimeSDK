@@ -23,6 +23,8 @@ namespace System::Security::Cryptography { class HashAlgorithm; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int HashAlgorithm_TypeDefinitionIndex = 1023;
+
 	class HashAlgorithm : public ::System::Object
 	{
 	public:

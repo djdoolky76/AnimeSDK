@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::UI::External::OS
 {
+	inline static constexpr unsigned int AlertPluginUI_TypeDefinitionIndex = 8406;
+
 	class AlertPluginUI : public ::System::Object
 	{
 	public:

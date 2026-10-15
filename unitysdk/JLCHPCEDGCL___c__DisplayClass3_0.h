@@ -7,6 +7,8 @@ namespace System { class Action; }
 #define JLCHPCEDGCL___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB238E90)
 #define JLCHPCEDGCL___C__DISPLAYCLASS3_0__CREATEANDSTARTLG_B__0_OFFSET UNITYSDK_OFFSET(0xB239300)
 
+inline static constexpr unsigned int JLCHPCEDGCL___c__DisplayClass3_0_TypeDefinitionIndex = 75479;
+
 	class JLCHPCEDGCL___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

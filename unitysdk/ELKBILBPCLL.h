@@ -5,6 +5,8 @@
 
 #define ELKBILBPCLL_CTOR_OFFSET UNITYSDK_OFFSET(0x15526510)
 
+inline static constexpr unsigned int ELKBILBPCLL_TypeDefinitionIndex = 61374;
+
 	class ELKBILBPCLL : public ::System::Object
 	{
 	public:

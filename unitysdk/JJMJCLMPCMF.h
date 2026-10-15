@@ -30,6 +30,8 @@ namespace System { class String; }
 #define JJMJCLMPCMF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E761620)
 #define JJMJCLMPCMF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E761680)
 
+inline static constexpr unsigned int JJMJCLMPCMF_TypeDefinitionIndex = 34240;
+
 	class JJMJCLMPCMF : public ::System::Object
 	{
 	public:

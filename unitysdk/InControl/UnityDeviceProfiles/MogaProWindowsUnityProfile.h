@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int MogaProWindowsUnityProfile_TypeDefinitionIndex = 41080;
+
 	class MogaProWindowsUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

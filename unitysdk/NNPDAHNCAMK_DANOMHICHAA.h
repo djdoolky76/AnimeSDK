@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 #define NNPDAHNCAMK_DANOMHICHAA_CTOR_OFFSET UNITYSDK_OFFSET(0xBCDEFD0)
 
+inline static constexpr unsigned int NNPDAHNCAMK_DANOMHICHAA_TypeDefinitionIndex = 59416;
+
 	class NNPDAHNCAMK_DANOMHICHAA : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExCategory_ReactFadeParameter_TypeDefinitionIndex = 39986;
+
 	struct alignas(4) CriAtomExCategory_ReactFadeParameter
 	{
 		::CriWare::CriAtomEx_CurveType curveType; // 0x10

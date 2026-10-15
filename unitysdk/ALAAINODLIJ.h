@@ -25,6 +25,8 @@ namespace System { class String; }
 #define ALAAINODLIJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3D16A0)
 #define ALAAINODLIJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3D1700)
 
+inline static constexpr unsigned int ALAAINODLIJ_TypeDefinitionIndex = 33499;
+
 	class ALAAINODLIJ : public ::System::Object
 	{
 	public:

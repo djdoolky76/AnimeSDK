@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define EOHIFAAHOOL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CDB33B0)
 #define EOHIFAAHOOL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CDB2CD0)
 
+inline static constexpr unsigned int EOHIFAAHOOL_TypeDefinitionIndex = 11977;
+
 	class EOHIFAAHOOL : public ::System::Object
 	{
 	public:

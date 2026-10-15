@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define BJMJPNGEAMA_CTOR_OFFSET UNITYSDK_OFFSET(0xB7A9420)
 
+inline static constexpr unsigned int BJMJPNGEAMA_TypeDefinitionIndex = 64789;
+
 	class BJMJPNGEAMA : public ::System::Object
 	{
 	public:

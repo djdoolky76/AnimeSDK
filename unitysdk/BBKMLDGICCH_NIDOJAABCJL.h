@@ -11,6 +11,8 @@ namespace System { class Type; }
 #define BBKMLDGICCH_NIDOJAABCJL_GET_ID_OFFSET UNITYSDK_OFFSET(0x1D40)
 #define BBKMLDGICCH_NIDOJAABCJL_GET_VIEWMODELTYPE_OFFSET UNITYSDK_OFFSET(0x1D30)
 
+inline static constexpr unsigned int BBKMLDGICCH_NIDOJAABCJL_TypeDefinitionIndex = 80518;
+
 	struct alignas(8) BBKMLDGICCH_NIDOJAABCJL
 	{
 		::System::Type* _ViewModelType_k__BackingField; // 0x10

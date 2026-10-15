@@ -9,6 +9,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define EMBREEDEBUGTOOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xAF1DFE0)
 #define EMBREEDEBUGTOOL___C__CASTRAYGRID_B__19_0_OFFSET UNITYSDK_OFFSET(0xAF1DFF0)
 
+inline static constexpr unsigned int EmbreeDebugTool___c_TypeDefinitionIndex = 45919;
+
 	class EmbreeDebugTool___c : public ::System::Object
 	{
 	public:

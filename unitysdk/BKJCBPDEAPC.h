@@ -8,6 +8,8 @@ namespace RPG::GameCore { class ChimeraBattleShowNPCTalkBubble; }
 #define BKJCBPDEAPC_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xBA59680)
 #define BKJCBPDEAPC_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xBA59540)
 
+inline static constexpr unsigned int BKJCBPDEAPC_TypeDefinitionIndex = 78409;
+
 	class BKJCBPDEAPC : public ::System::Object
 	{
 	public:

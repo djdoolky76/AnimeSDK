@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NGGKLPDFGDC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB0DE80)
 #define NGGKLPDFGDC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB0DEE0)
 
+inline static constexpr unsigned int NGGKLPDFGDC_TypeDefinitionIndex = 27017;
+
 	class NGGKLPDFGDC : public ::System::Object
 	{
 	public:

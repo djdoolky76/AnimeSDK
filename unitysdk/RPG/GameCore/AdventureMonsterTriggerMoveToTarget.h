@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureMonsterTriggerMoveToTarget_TypeDefinitionIndex = 20189;
+
 	class AdventureMonsterTriggerMoveToTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:

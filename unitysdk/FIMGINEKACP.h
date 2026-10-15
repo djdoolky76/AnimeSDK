@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FIMGINEKACP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E39BD00)
 #define FIMGINEKACP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E39BD60)
 
+inline static constexpr unsigned int FIMGINEKACP_TypeDefinitionIndex = 33565;
+
 	class FIMGINEKACP : public ::System::Object
 	{
 	public:

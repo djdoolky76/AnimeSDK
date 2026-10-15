@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DebugRPGDemoGameCore_TypeDefinitionIndex = 60430;
+
 	class DebugRPGDemoGameCore : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int GCFreeLazy_1_TypeDefinitionIndex = 6367;
+
 	template <typename T>
 	class GCFreeLazy_1 : public ::System::Object
 	{

@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMagicLayerEffectInfo_TypeDefinitionIndex = 67396;
+
 	class RogueMagicLayerEffectInfo : public ::System::Object
 	{
 	public:

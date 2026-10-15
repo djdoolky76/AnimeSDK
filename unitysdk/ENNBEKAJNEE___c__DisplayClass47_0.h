@@ -7,6 +7,8 @@ namespace System { class String; }
 #define ENNBEKAJNEE___C__DISPLAYCLASS47_0_CTOR_OFFSET UNITYSDK_OFFSET(0x155B41D0)
 #define ENNBEKAJNEE___C__DISPLAYCLASS47_0__GETEFFECTPARAMS_B__0_OFFSET UNITYSDK_OFFSET(0x155B41E0)
 
+inline static constexpr unsigned int ENNBEKAJNEE___c__DisplayClass47_0_TypeDefinitionIndex = 80118;
+
 	class ENNBEKAJNEE___c__DisplayClass47_0 : public ::System::Object
 	{
 	public:

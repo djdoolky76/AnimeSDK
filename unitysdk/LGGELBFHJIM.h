@@ -65,6 +65,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LGGELBFHJIM_SET_PVPMODEDATA_OFFSET UNITYSDK_OFFSET(0xB695450)
 #define LGGELBFHJIM_SET_TUTORIALSTAGEID_OFFSET UNITYSDK_OFFSET(0xB695390)
 
+inline static constexpr unsigned int LGGELBFHJIM_TypeDefinitionIndex = 79035;
+
 	class LGGELBFHJIM : public ::System::Object
 	{
 	public:

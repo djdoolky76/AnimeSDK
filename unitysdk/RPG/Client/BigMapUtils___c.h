@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BigMapUtils___c_TypeDefinitionIndex = 62905;
+
 	class BigMapUtils___c : public ::System::Object
 	{
 	public:

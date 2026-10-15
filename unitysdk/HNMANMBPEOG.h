@@ -30,6 +30,8 @@ namespace System { class String; }
 #define HNMANMBPEOG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5E0A10)
 #define HNMANMBPEOG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5E0A70)
 
+inline static constexpr unsigned int HNMANMBPEOG_TypeDefinitionIndex = 33700;
+
 	class HNMANMBPEOG : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ArchiveCamera_TypeDefinitionIndex = 48502;
+
 	class ArchiveCamera : public ::RPGTools::Timeline::ArchiveAsset
 	{
 	public:

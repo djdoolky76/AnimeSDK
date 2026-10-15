@@ -60,6 +60,8 @@ namespace System { class String; }
 #define NJMOBNILIHI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB511F0)
 #define NJMOBNILIHI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB51250)
 
+inline static constexpr unsigned int NJMOBNILIHI_TypeDefinitionIndex = 28940;
+
 	class NJMOBNILIHI : public ::System::Object
 	{
 	public:

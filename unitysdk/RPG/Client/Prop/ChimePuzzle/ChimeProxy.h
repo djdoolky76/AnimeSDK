@@ -4,6 +4,8 @@
 
 namespace RPG::Client::Prop::ChimePuzzle
 {
+	inline static constexpr unsigned int ChimeProxy_TypeDefinitionIndex = 78982;
+
 	struct alignas(8) ChimeProxy
 	{
 		::System::UInt32 ID; // 0x10

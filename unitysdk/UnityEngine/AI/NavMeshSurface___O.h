@@ -5,6 +5,8 @@ namespace UnityEngine::AI { class NavMesh_OnNavMeshPreUpdate; }
 
 namespace UnityEngine::AI
 {
+	inline static constexpr unsigned int NavMeshSurface___O_TypeDefinitionIndex = 41354;
+
 	class NavMeshSurface___O : public ::System::Object
 	{
 	public:

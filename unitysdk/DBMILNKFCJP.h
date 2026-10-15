@@ -34,6 +34,8 @@ namespace System { class String; }
 #define DBMILNKFCJP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1615D0)
 #define DBMILNKFCJP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E161630)
 
+inline static constexpr unsigned int DBMILNKFCJP_TypeDefinitionIndex = 30404;
+
 	class DBMILNKFCJP : public ::System::Object
 	{
 	public:

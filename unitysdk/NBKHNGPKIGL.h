@@ -49,6 +49,8 @@ namespace UnityEngine { class Animation; }
 #define NBKHNGPKIGL__ONBIND_OFFSET UNITYSDK_OFFSET(0xBAD9350)
 #define NBKHNGPKIGL__ONTICK_OFFSET UNITYSDK_OFFSET(0xBAD9FC0)
 
+inline static constexpr unsigned int NBKHNGPKIGL_TypeDefinitionIndex = 71780;
+
 	class NBKHNGPKIGL : public ::FMPCODLIOLG
 	{
 	public:

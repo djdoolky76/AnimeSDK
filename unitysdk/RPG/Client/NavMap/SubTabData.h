@@ -73,6 +73,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int SubTabData_TypeDefinitionIndex = 74633;
+
 	class SubTabData : public ::System::Object
 	{
 	public:

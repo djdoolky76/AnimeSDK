@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define AEDHLLMGANN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CCAFF50)
 #define AEDHLLMGANN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CCAF4C0)
 
+inline static constexpr unsigned int AEDHLLMGANN_TypeDefinitionIndex = 14356;
+
 	class AEDHLLMGANN : public ::System::Object
 	{
 	public:

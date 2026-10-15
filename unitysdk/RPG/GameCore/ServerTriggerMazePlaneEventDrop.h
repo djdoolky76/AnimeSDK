@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ServerTriggerMazePlaneEventDrop; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ServerTriggerMazePlaneEventDrop_TypeDefinitionIndex = 22315;
+
 	class ServerTriggerMazePlaneEventDrop : public ::RPG::GameCore::TaskConfig
 	{
 	public:

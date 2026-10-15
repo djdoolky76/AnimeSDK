@@ -12,6 +12,8 @@ class LMJPODEEGKK;
 #define OMKCHHDANDK_OCOHIPAMJOP_OFFSET UNITYSDK_OFFSET(0xBF30810)
 #define OMKCHHDANDK_PKOOKGMELGG_OFFSET UNITYSDK_OFFSET(0xBF302A0)
 
+inline static constexpr unsigned int OMKCHHDANDK_TypeDefinitionIndex = 77417;
+
 	class OMKCHHDANDK : public ::System::Object
 	{
 	public:

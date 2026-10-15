@@ -14,6 +14,8 @@ namespace System { class String; }
 #define CDFNHAKFMIA_GGGFIFKDHDA_OFFSET UNITYSDK_OFFSET(0xC766CC0)
 #define CDFNHAKFMIA_MAPOJCHIIAG_OFFSET UNITYSDK_OFFSET(0xC766BB0)
 
+inline static constexpr unsigned int CDFNHAKFMIA_TypeDefinitionIndex = 62738;
+
 	class CDFNHAKFMIA : public ::System::Object
 	{
 	public:

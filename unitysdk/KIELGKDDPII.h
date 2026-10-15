@@ -7,6 +7,8 @@ class NGLFOJKOKBH;
 
 #define KIELGKDDPII_CTOR_OFFSET UNITYSDK_OFFSET(0x14A50)
 
+inline static constexpr unsigned int KIELGKDDPII_TypeDefinitionIndex = 48891;
+
 	struct alignas(4) KIELGKDDPII
 	{
 		::UnityEngine::Vector3 AIBGEDIGEOO; // 0x10

@@ -20,6 +20,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HandbookModule___c_TypeDefinitionIndex = 65630;
+
 	class HandbookModule___c : public ::System::Object
 	{
 	public:

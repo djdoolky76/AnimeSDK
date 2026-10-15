@@ -4,6 +4,8 @@
 
 namespace RVO
 {
+	inline static constexpr unsigned int AsyncAgentParam_TypeDefinitionIndex = 46037;
+
 	struct alignas(4) AsyncAgentParam
 	{
 		::UnityEngine::Vector3 Position; // 0x10

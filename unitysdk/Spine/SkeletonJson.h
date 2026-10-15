@@ -41,6 +41,8 @@ namespace System::IO { class TextReader; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int SkeletonJson_TypeDefinitionIndex = 39693;
+
 	class SkeletonJson : public ::Spine::SkeletonLoader
 	{
 	public:

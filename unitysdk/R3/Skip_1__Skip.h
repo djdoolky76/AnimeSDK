@@ -4,6 +4,8 @@ namespace R3 { template <typename T> class Observer_1; }
 
 namespace R3
 {
+	inline static constexpr unsigned int Skip_1__Skip_TypeDefinitionIndex = 35952;
+
 	template <typename T>
 	class Skip_1__Skip
 	{

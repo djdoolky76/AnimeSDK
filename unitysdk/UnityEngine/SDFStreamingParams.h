@@ -5,6 +5,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int SDFStreamingParams_TypeDefinitionIndex = 4264;
+
 	class SDFStreamingParams : public ::System::Object
 	{
 	public:

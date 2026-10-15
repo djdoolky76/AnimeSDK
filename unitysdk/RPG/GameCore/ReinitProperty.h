@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ReinitProperty_TypeDefinitionIndex = 23562;
+
 	class ReinitProperty : public ::RPG::GameCore::TaskConfig
 	{
 	public:

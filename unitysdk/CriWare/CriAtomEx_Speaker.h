@@ -3,6 +3,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomEx_Speaker_TypeDefinitionIndex = 39957;
+
 	enum class CriAtomEx_Speaker : ::System::Int32
 	{
 		FrontLeft = 0,

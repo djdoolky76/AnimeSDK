@@ -7,6 +7,8 @@
 #define BIIEODNJIGC_CTOR_OFFSET UNITYSDK_OFFSET(0xB4ACB80)
 #define BIIEODNJIGC_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB4AC9C0)
 
+inline static constexpr unsigned int BIIEODNJIGC_TypeDefinitionIndex = 72656;
+
 	class BIIEODNJIGC : public ::ECLKHDGJJIM
 	{
 	public:

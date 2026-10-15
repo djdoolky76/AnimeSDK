@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SubObjectRotateController_TypeDefinitionIndex = 68859;
+
 	class SubObjectRotateController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

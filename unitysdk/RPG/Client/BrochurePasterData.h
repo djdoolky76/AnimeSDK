@@ -45,6 +45,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BrochurePasterData_TypeDefinitionIndex = 68180;
+
 	class BrochurePasterData : public ::System::Object
 	{
 	public:

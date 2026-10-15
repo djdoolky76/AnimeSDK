@@ -7,6 +7,8 @@
 
 #define EIPBIOGPAJK_CTOR_OFFSET UNITYSDK_OFFSET(0x154D56D0)
 
+inline static constexpr unsigned int EIPBIOGPAJK_TypeDefinitionIndex = 57391;
+
 	class EIPBIOGPAJK : public ::System::Object
 	{
 	public:

@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeCopyPieceEffect_TypeDefinitionIndex = 65929;
+
 	class MatchThreeCopyPieceEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

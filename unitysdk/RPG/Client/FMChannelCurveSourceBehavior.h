@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FMChannelCurveSourceBehavior_TypeDefinitionIndex = 70288;
+
 	class FMChannelCurveSourceBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

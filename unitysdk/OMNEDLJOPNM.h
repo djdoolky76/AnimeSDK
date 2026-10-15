@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OMNEDLJOPNM_SET_ISFORCAT_OFFSET UNITYSDK_OFFSET(0x1C7D8DD0)
 #define OMNEDLJOPNM_SET_JUMPCNTSAFTERCACHE_OFFSET UNITYSDK_OFFSET(0x1C7D8DB0)
 
+inline static constexpr unsigned int OMNEDLJOPNM_TypeDefinitionIndex = 37237;
+
 	class OMNEDLJOPNM : public ::System::Object
 	{
 	public:

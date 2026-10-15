@@ -4,6 +4,8 @@
 
 #define CEIOFKBDNAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C41EAA0)
 
+inline static constexpr unsigned int CEIOFKBDNAL_TypeDefinitionIndex = 5078;
+
 	class CEIOFKBDNAL : public ::System::Attribute
 	{
 	public:

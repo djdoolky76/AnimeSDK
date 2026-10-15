@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MINGMOMGNEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA3F070)
 #define MINGMOMGNEL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EA3F080)
 
+inline static constexpr unsigned int MINGMOMGNEL___c_TypeDefinitionIndex = 29784;
+
 	class MINGMOMGNEL___c : public ::System::Object
 	{
 	public:

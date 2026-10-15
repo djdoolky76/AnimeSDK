@@ -4,6 +4,8 @@
 
 #define JJCPEDEHLON_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA1370)
 
+inline static constexpr unsigned int JJCPEDEHLON_TypeDefinitionIndex = 42951;
+
 	class JJCPEDEHLON : public ::System::Object
 	{
 	public:

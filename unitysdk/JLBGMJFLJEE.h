@@ -35,6 +35,8 @@ namespace System { class String; }
 #define JLBGMJFLJEE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E774590)
 #define JLBGMJFLJEE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7745F0)
 
+inline static constexpr unsigned int JLBGMJFLJEE_TypeDefinitionIndex = 27003;
+
 	class JLBGMJFLJEE : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenIncidentSettlementParam_TypeDefinitionIndex = 75543;
+
 	class ActivityHipplenIncidentSettlementParam : public ::System::Object
 	{
 	public:

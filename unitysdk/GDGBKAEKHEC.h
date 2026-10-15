@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define GDGBKAEKHEC_PEAHIFLMDPI_1_OFFSET UNITYSDK_OFFSET(0x1DD5AAF0)
 #define GDGBKAEKHEC_PEAHIFLMDPI_OFFSET UNITYSDK_OFFSET(0x1DD5A6D0)
 
+inline static constexpr unsigned int GDGBKAEKHEC_TypeDefinitionIndex = 6271;
+
 	class GDGBKAEKHEC : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEntityRecordUseSkill_TypeDefinitionIndex = 56747;
+
 	class LevelEntityRecordUseSkill : public ::CMPGEAFHHDC
 	{
 	public:

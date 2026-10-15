@@ -4,6 +4,8 @@ namespace System { class IDisposable; }
 
 namespace R3
 {
+	inline static constexpr unsigned int ConnectedReactiveProperty_1_TypeDefinitionIndex = 35964;
+
 	template <typename T>
 	class ConnectedReactiveProperty_1
 	{

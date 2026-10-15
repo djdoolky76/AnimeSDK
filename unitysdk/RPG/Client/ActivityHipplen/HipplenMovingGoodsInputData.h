@@ -12,6 +12,8 @@
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int HipplenMovingGoodsInputData_TypeDefinitionIndex = 75589;
+
 	class HipplenMovingGoodsInputData : public ::System::Object
 	{
 	public:

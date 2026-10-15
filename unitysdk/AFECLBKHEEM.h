@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int AFECLBKHEEM_TypeDefinitionIndex = 72945;
+
 	struct alignas(4) AFECLBKHEEM
 	{
 		::System::Int32 JKBOHHNAKBA; // 0x10

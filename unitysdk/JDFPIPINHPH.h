@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JDFPIPINHPH_OKFAFKLGBPH_OFFSET UNITYSDK_OFFSET(0x165C5260)
 #define JDFPIPINHPH_PAECHCOJKAF_OFFSET UNITYSDK_OFFSET(0x165C4AD0)
 
+inline static constexpr unsigned int JDFPIPINHPH_TypeDefinitionIndex = 72795;
+
 	class JDFPIPINHPH : public ::System::Object
 	{
 	public:

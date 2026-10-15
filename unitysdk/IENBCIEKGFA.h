@@ -13,6 +13,8 @@ namespace System { class String; }
 #define IENBCIEKGFA_KGJGHKHLIHA_OFFSET UNITYSDK_OFFSET(0x15F05BF0)
 #define IENBCIEKGFA_NDMBDGKAJEK_OFFSET UNITYSDK_OFFSET(0x15F058C0)
 
+inline static constexpr unsigned int IENBCIEKGFA_TypeDefinitionIndex = 65290;
+
 	class IENBCIEKGFA : public ::HEOLKMLMPML
 	{
 	public:

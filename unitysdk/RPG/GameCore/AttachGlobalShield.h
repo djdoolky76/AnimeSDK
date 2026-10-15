@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AttachGlobalShield_TypeDefinitionIndex = 23599;
+
 	class AttachGlobalShield : public ::RPG::GameCore::TaskConfig
 	{
 	public:

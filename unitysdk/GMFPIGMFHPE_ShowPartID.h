@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int GMFPIGMFHPE_ShowPartID_TypeDefinitionIndex = 71137;
+
 	enum class GMFPIGMFHPE_ShowPartID : ::System::Int32
 	{
 		None = 0,

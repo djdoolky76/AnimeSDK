@@ -4,6 +4,8 @@ class AAFIACIMMHE;
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftAttributeRadarControl___c__DisplayClass19_0_TypeDefinitionIndex = 79805;
+
 	struct alignas(8) MechCraftAttributeRadarControl___c__DisplayClass19_0
 	{
 		::AAFIACIMMHE* levelUpRule; // 0x10

@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ScriptingUtility_TypeDefinitionIndex = 4340;
+
 	class ScriptingUtility : public ::System::Object
 	{
 	public:

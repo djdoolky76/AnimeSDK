@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MOGMILMECFN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBA2C310)
 #define MOGMILMECFN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA2BE80)
 
+inline static constexpr unsigned int MOGMILMECFN_TypeDefinitionIndex = 52665;
+
 	class MOGMILMECFN
 	{
 	public:

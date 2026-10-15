@@ -6,6 +6,8 @@
 #define OKEBJKOBBEK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C995260)
 #define OKEBJKOBBEK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9952B0)
 
+inline static constexpr unsigned int OKEBJKOBBEK_TypeDefinitionIndex = 43008;
+
 	class OKEBJKOBBEK : public ::System::Object
 	{
 	public:

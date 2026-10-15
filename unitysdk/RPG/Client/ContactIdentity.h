@@ -25,6 +25,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ContactIdentity_TypeDefinitionIndex = 63228;
+
 	class ContactIdentity : public ::System::Object
 	{
 	public:

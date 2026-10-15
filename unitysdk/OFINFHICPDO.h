@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UniversalHotFixTaskC; }
 #define OFINFHICPDO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBE430C0)
 #define OFINFHICPDO_TICK_OFFSET UNITYSDK_OFFSET(0xBE43060)
 
+inline static constexpr unsigned int OFINFHICPDO_TypeDefinitionIndex = 55789;
+
 	class OFINFHICPDO : public ::HCKEGEPFOPO
 	{
 	public:

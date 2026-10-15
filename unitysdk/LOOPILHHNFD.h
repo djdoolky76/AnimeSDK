@@ -35,6 +35,8 @@ namespace System { class String; }
 #define LOOPILHHNFD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9C6B20)
 #define LOOPILHHNFD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9C6B80)
 
+inline static constexpr unsigned int LOOPILHHNFD_TypeDefinitionIndex = 28094;
+
 	class LOOPILHHNFD : public ::System::Object
 	{
 	public:

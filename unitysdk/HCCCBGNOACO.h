@@ -12,6 +12,8 @@ namespace UnityEngine { class MeshRenderer; }
 #define HCCCBGNOACO_HOIDHCGFJCJ_OFFSET UNITYSDK_OFFSET(0x15C172A0)
 #define HCCCBGNOACO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15C17160)
 
+inline static constexpr unsigned int HCCCBGNOACO_TypeDefinitionIndex = 48675;
+
 	class HCCCBGNOACO : public ::OGBPMPBLDNK
 	{
 	public:

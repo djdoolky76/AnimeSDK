@@ -13,6 +13,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftTalentedPartnerHeadContr
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftPartnersControlBinder_TypeDefinitionIndex = 79910;
+
 	class MechCraftCraftPartnersControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

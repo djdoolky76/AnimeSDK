@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleGamePageContext___c_TypeDefinitionIndex = 71653;
+
 	class BattleGamePageContext___c : public ::System::Object
 	{
 	public:

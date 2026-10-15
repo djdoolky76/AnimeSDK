@@ -11,6 +11,8 @@ class IDEJGLMNJAC;
 #define IDEJGLMNJAC_HMAONENFGHD_OFFSET UNITYSDK_OFFSET(0x15EC4450)
 #define IDEJGLMNJAC_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15EC4470)
 
+inline static constexpr unsigned int IDEJGLMNJAC_TypeDefinitionIndex = 53695;
+
 	class IDEJGLMNJAC : public ::System::Object
 	{
 	public:

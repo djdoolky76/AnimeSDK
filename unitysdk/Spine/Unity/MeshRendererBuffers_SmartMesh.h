@@ -10,6 +10,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int MeshRendererBuffers_SmartMesh_TypeDefinitionIndex = 45084;
+
 	class MeshRendererBuffers_SmartMesh : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class String; }
 #define JLCHPCEDGCL_OJNDJCPENBM_OFFSET UNITYSDK_OFFSET(0xB238EA0)
 #define JLCHPCEDGCL_PNIPHOJJLFP_OFFSET UNITYSDK_OFFSET(0xB239110)
 
+inline static constexpr unsigned int JLCHPCEDGCL_TypeDefinitionIndex = 75478;
+
 	class JLCHPCEDGCL : public ::System::Object
 	{
 	public:

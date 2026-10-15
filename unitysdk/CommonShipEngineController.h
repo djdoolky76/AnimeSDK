@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 #define COMMONSHIPENGINECONTROLLER_TICK_OFFSET UNITYSDK_OFFSET(0xDFA08B0)
 #define COMMONSHIPENGINECONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0xDFA0860)
 
+inline static constexpr unsigned int CommonShipEngineController_TypeDefinitionIndex = 47085;
+
 	class CommonShipEngineController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

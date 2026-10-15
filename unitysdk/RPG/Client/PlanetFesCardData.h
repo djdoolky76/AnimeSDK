@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesCardData_TypeDefinitionIndex = 66566;
+
 	class PlanetFesCardData : public ::System::Object
 	{
 	public:

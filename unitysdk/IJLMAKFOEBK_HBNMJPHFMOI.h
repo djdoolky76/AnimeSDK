@@ -6,6 +6,8 @@ namespace System { class Action; }
 
 #define IJLMAKFOEBK_HBNMJPHFMOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1646C9A0)
 
+inline static constexpr unsigned int IJLMAKFOEBK_HBNMJPHFMOI_TypeDefinitionIndex = 72256;
+
 	class IJLMAKFOEBK_HBNMJPHFMOI : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define HHPKNCPMPOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15CD6230)
 
+inline static constexpr unsigned int HHPKNCPMPOJ_TypeDefinitionIndex = 78700;
+
 	class HHPKNCPMPOJ : public ::System::Object
 	{
 	public:

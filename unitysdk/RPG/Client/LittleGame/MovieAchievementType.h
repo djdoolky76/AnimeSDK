@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int MovieAchievementType_TypeDefinitionIndex = 42381;
+
 	enum class MovieAchievementType : ::System::Int32
 	{
 		FinishGameWithoutMiss = 0,

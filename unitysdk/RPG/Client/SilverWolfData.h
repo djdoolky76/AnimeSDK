@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SilverWolfData_TypeDefinitionIndex = 67955;
+
 	class SilverWolfData : public ::System::Object
 	{
 	public:

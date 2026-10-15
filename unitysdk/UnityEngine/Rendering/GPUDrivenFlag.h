@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int GPUDrivenFlag_TypeDefinitionIndex = 37521;
+
 	enum class GPUDrivenFlag : ::System::Int32
 	{
 		DisableInstancedItemGraphicsJob = 1,

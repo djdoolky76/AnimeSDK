@@ -56,6 +56,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StoryLineModule_TypeDefinitionIndex = 67992;
+
 	class StoryLineModule : public ::RPG::Client::BaseModule
 	{
 	public:
