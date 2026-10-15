@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DGHDAGGIMPF_GICABFLDIPA_OFFSET UNITYSDK_OFFSET(0xE84A2C0)
 #define DGHDAGGIMPF_JKAJCDHLOPO_OFFSET UNITYSDK_OFFSET(0xE84A270)
 
+inline static constexpr unsigned int DGHDAGGIMPF_TypeDefinitionIndex = 77464;
+
 	class DGHDAGGIMPF : public ::FJNNEOKOCJD
 	{
 	public:

@@ -7,6 +7,8 @@ class OKFEPBKGBGO;
 #define OKFEPBKGBGO___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBED6F20)
 #define OKFEPBKGBGO___C__DISPLAYCLASS9_0__ONDETAILCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0xBED7AD0)
 
+inline static constexpr unsigned int OKFEPBKGBGO___c__DisplayClass9_0_TypeDefinitionIndex = 71267;
+
 	class OKFEPBKGBGO___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int PerformerEventTimelineTrack_TypeDefinitionIndex = 48454;
+
 	class PerformerEventTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

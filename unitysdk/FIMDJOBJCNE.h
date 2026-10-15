@@ -18,6 +18,8 @@ namespace RPG::GameCore { class AdventureCharacterController; }
 #define FIMDJOBJCNE_OPPKPPIPFFO_OFFSET UNITYSDK_OFFSET(0x157ADCA0)
 #define FIMDJOBJCNE_PPJPCGIMICH_OFFSET UNITYSDK_OFFSET(0x157ADC50)
 
+inline static constexpr unsigned int FIMDJOBJCNE_TypeDefinitionIndex = 60298;
+
 	class FIMDJOBJCNE : public ::System::Object
 	{
 	public:

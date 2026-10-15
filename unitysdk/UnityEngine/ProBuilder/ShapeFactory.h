@@ -11,6 +11,8 @@ namespace UnityEngine::ProBuilder::Shapes { class Shape; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int ShapeFactory_TypeDefinitionIndex = 44430;
+
 	class ShapeFactory : public ::System::Object
 	{
 	public:

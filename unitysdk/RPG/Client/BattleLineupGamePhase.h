@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleLineupGamePhase_TypeDefinitionIndex = 60985;
+
 	class BattleLineupGamePhase : public ::System::Object
 	{
 	public:

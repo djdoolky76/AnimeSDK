@@ -39,6 +39,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop::CoilPuzzle
 {
+	inline static constexpr unsigned int RigCoilPuzzleBoard_TypeDefinitionIndex = 78976;
+
 	class RigCoilPuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

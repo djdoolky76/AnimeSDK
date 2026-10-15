@@ -11,6 +11,8 @@ namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; 
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int GroupByAwait_3__GroupByAwait_TypeDefinitionIndex = 45379;
+
 	template <typename T1, typename T2, typename T3>
 	class GroupByAwait_3__GroupByAwait : public ::Cysharp::Threading::Tasks::MoveNextSource
 	{

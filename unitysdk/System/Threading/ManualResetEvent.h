@@ -6,6 +6,8 @@
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int ManualResetEvent_TypeDefinitionIndex = 836;
+
 	class ManualResetEvent : public ::System::Threading::EventWaitHandle
 	{
 	public:

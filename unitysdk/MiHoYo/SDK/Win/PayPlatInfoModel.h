@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int PayPlatInfoModel_TypeDefinitionIndex = 9261;
+
 	class PayPlatInfoModel : public ::System::Object
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define MDELKPPJIGF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA010C0)
 #define MDELKPPJIGF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA01120)
 
+inline static constexpr unsigned int MDELKPPJIGF_TypeDefinitionIndex = 27365;
+
 	class MDELKPPJIGF : public ::System::Object
 	{
 	public:

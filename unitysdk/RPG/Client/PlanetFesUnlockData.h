@@ -25,6 +25,8 @@ namespace RPG::GameCore { class FinishWayRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesUnlockData_TypeDefinitionIndex = 66644;
+
 	class PlanetFesUnlockData : public ::System::Object
 	{
 	public:

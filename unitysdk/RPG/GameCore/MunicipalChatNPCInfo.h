@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MunicipalChatNPCInfo_TypeDefinitionIndex = 16933;
+
 	class MunicipalChatNPCInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

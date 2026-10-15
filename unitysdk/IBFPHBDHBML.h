@@ -21,6 +21,8 @@ namespace System { class String; }
 #define IBFPHBDHBML_PDLIIKKGLMD_OFFSET UNITYSDK_OFFSET(0x15E31880)
 #define IBFPHBDHBML_PPDPBIBMPBH_OFFSET UNITYSDK_OFFSET(0x15E319C0)
 
+inline static constexpr unsigned int IBFPHBDHBML_TypeDefinitionIndex = 81207;
+
 	class IBFPHBDHBML : public ::System::Object
 	{
 	public:

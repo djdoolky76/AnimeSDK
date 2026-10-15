@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int EmoBlendShapeMouthBehaviourMixer_TypeDefinitionIndex = 48749;
+
 	class EmoBlendShapeMouthBehaviourMixer : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

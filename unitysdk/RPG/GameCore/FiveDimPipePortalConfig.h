@@ -16,6 +16,8 @@ namespace RPG::GameCore { class LittleGameEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimPipePortalConfig_TypeDefinitionIndex = 18574;
+
 	class FiveDimPipePortalConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

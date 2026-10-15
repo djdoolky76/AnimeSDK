@@ -8,6 +8,8 @@ namespace RPG::GameCore { class ChenLingBattleTargetEvaluator_RandomNSoldiers; }
 #define CIIKBJFOKHL___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCF86620)
 #define CIIKBJFOKHL___C__DISPLAYCLASS16_0___EVALUATERANDOMNSOLDIERS_B__0_OFFSET UNITYSDK_OFFSET(0xCF8AEE0)
 
+inline static constexpr unsigned int CIIKBJFOKHL___c__DisplayClass16_0_TypeDefinitionIndex = 77873;
+
 	class CIIKBJFOKHL___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:

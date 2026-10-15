@@ -8,6 +8,8 @@
 #define CAMCBEODKFO_DLCJDMAKOIK_OFFSET UNITYSDK_OFFSET(0xC48C840)
 #define CAMCBEODKFO_HMAONENFGHD_OFFSET UNITYSDK_OFFSET(0xC48C830)
 
+inline static constexpr unsigned int CAMCBEODKFO_TypeDefinitionIndex = 53693;
+
 	class CAMCBEODKFO : public ::System::Object
 	{
 	public:

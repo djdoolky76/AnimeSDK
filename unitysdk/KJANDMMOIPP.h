@@ -29,6 +29,8 @@ namespace System { class String; }
 #define KJANDMMOIPP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E868250)
 #define KJANDMMOIPP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8682B0)
 
+inline static constexpr unsigned int KJANDMMOIPP_TypeDefinitionIndex = 32190;
+
 	class KJANDMMOIPP : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define AKOHMMLBOOM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCD66F0)
 #define AKOHMMLBOOM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCD66B0)
 
+inline static constexpr unsigned int AKOHMMLBOOM_TypeDefinitionIndex = 24195;
+
 	class AKOHMMLBOOM : public ::RPG::GameCore::TaskConfig
 	{
 	public:

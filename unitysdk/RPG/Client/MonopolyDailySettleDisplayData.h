@@ -21,6 +21,8 @@ namespace RPG::Client { class MonopolyDailySettleDisplayData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyDailySettleDisplayData_TypeDefinitionIndex = 66283;
+
 	class MonopolyDailySettleDisplayData : public ::System::Object
 	{
 	public:

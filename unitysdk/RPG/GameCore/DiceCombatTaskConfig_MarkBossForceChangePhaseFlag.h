@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_MarkBossForceChangePhaseFla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_MarkBossForceChangePhaseFlag_TypeDefinitionIndex = 16079;
+
 	class DiceCombatTaskConfig_MarkBossForceChangePhaseFlag : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

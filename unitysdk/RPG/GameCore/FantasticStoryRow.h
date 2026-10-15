@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FantasticStoryRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FantasticStoryRow_TypeDefinitionIndex = 11461;
+
 	class FantasticStoryRow : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client::FateRin::View::Battle
 {
+	inline static constexpr unsigned int FateRinAddCardToHandFlowView___c__DisplayClass8_0_TypeDefinitionIndex = 80654;
+
 	class FateRinAddCardToHandFlowView___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

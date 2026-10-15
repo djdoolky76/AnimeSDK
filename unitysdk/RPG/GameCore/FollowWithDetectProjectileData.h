@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FollowWithDetectProjectileData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FollowWithDetectProjectileData_TypeDefinitionIndex = 15665;
+
 	class FollowWithDetectProjectileData : public ::RPG::GameCore::NewProjectileConfig
 	{
 	public:

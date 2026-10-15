@@ -5,6 +5,8 @@ class OOCCBMLAELL;
 
 #define GLKIFLPIBCC_CTOR_OFFSET UNITYSDK_OFFSET(0x15ABBB70)
 
+inline static constexpr unsigned int GLKIFLPIBCC_TypeDefinitionIndex = 80572;
+
 	class GLKIFLPIBCC : public ::System::Object
 	{
 	public:

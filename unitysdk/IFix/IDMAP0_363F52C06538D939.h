@@ -3,6 +3,8 @@
 
 namespace IFix
 {
+	inline static constexpr unsigned int IDMAP0_363F52C06538D939_TypeDefinitionIndex = 41919;
+
 	enum class IDMAP0_363F52C06538D939 : ::System::Int32
 	{
 		CPNHCAKCFIC_HIDEJDELEEB0 = 0,

@@ -42,6 +42,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int BiliBiliManager_TypeDefinitionIndex = 9321;
+
 	class BiliBiliManager : public ::System::Object
 	{
 	public:

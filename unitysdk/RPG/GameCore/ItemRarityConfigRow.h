@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ItemRarityConfigRow_TypeDefinitionIndex = 13857;
+
 	class ItemRarityConfigRow : public ::System::Object
 	{
 	public:

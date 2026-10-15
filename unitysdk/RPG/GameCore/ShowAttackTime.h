@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowAttackTime_TypeDefinitionIndex = 22930;
+
 	class ShowAttackTime : public ::RPG::GameCore::TaskConfig
 	{
 	public:

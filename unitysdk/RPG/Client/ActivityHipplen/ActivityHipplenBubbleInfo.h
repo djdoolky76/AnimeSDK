@@ -34,6 +34,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenBubbleInfo_TypeDefinitionIndex = 75466;
+
 	class ActivityHipplenBubbleInfo : public ::System::Object
 	{
 	public:

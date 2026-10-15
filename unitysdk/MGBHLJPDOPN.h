@@ -10,6 +10,8 @@
 #define MGBHLJPDOPN_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB914930)
 #define MGBHLJPDOPN_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xB914940)
 
+inline static constexpr unsigned int MGBHLJPDOPN_TypeDefinitionIndex = 56153;
+
 	class MGBHLJPDOPN : public ::DBGDNLLDPFI
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TreasureDungeonGridBuffConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TreasureDungeonGridBuffConfigRow_TypeDefinitionIndex = 12530;
+
 	class TreasureDungeonGridBuffConfigRow : public ::System::Object
 	{
 	public:

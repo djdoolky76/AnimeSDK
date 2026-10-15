@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int VolumeConfig_TypeDefinitionIndex = 7578;
+
 	class VolumeConfig : public ::System::Object
 	{
 	public:

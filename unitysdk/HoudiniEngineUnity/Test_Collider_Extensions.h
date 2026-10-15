@@ -11,6 +11,8 @@ namespace UnityEngine { class Collider; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int Test_Collider_Extensions_TypeDefinitionIndex = 40720;
+
 	class Test_Collider_Extensions : public ::System::Object
 	{
 	public:

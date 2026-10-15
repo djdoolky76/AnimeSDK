@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NICILMLHFMN_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0xBBDEA70)
 #define NICILMLHFMN_CCTOR_OFFSET UNITYSDK_OFFSET(0xBBDECF0)
 
+inline static constexpr unsigned int NICILMLHFMN_TypeDefinitionIndex = 82139;
+
 	class NICILMLHFMN : public ::System::Object
 	{
 	public:

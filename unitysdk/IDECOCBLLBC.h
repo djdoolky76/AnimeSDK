@@ -58,6 +58,8 @@ namespace UnityEngine { class ShaderVariantCollection; }
 #define IDECOCBLLBC_PIANIDLAEBD_OFFSET UNITYSDK_OFFSET(0x15EBA3D0)
 #define IDECOCBLLBC_SET_STARTREASON_OFFSET UNITYSDK_OFFSET(0x15EB9320)
 
+inline static constexpr unsigned int IDECOCBLLBC_TypeDefinitionIndex = 47434;
+
 	class IDECOCBLLBC : public ::System::Object
 	{
 	public:

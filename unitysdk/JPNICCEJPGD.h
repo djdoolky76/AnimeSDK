@@ -25,6 +25,8 @@ namespace System { class String; }
 #define JPNICCEJPGD_PEECNCABGFD_OFFSET UNITYSDK_OFFSET(0x1C4A8BD0)
 #define JPNICCEJPGD_PODLKOGHGMA_OFFSET UNITYSDK_OFFSET(0x1C4A8DA0)
 
+inline static constexpr unsigned int JPNICCEJPGD_TypeDefinitionIndex = 41417;
+
 	class JPNICCEJPGD : public ::System::Object
 	{
 	public:

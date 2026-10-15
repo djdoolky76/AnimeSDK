@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OOBGDAPPONK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2A7F80)
 #define OOBGDAPPONK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D2A78A0)
 
+inline static constexpr unsigned int OOBGDAPPONK_TypeDefinitionIndex = 13464;
+
 	class OOBGDAPPONK : public ::System::Object
 	{
 	public:

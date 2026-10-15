@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::QA::ProfilePipeline::RPGLuaProfiler
 {
+	inline static constexpr unsigned int ResultPackage_TypeDefinitionIndex = 51823;
+
 	class ResultPackage : public ::System::Object
 	{
 	public:

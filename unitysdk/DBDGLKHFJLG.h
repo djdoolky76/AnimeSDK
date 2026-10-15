@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DBDGLKHFJLG_LKFBHLBHPDI_OFFSET UNITYSDK_OFFSET(0xDFDCC30)
 #define DBDGLKHFJLG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDFDCB40)
 
+inline static constexpr unsigned int DBDGLKHFJLG_TypeDefinitionIndex = 52746;
+
 	class DBDGLKHFJLG
 	{
 	public:

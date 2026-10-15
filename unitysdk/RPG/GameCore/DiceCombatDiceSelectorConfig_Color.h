@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DiceCombatDiceSelectorConfig_Color; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatDiceSelectorConfig_Color_TypeDefinitionIndex = 16147;
+
 	class DiceCombatDiceSelectorConfig_Color : public ::RPG::GameCore::DiceCombatDiceSelectorConfig
 	{
 	public:

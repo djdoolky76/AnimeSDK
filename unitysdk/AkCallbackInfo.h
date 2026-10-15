@@ -13,6 +13,8 @@ class AkCallbackInfo;
 #define AKCALLBACKINFO_GET_PCOOKIE_OFFSET UNITYSDK_OFFSET(0x1F57DC10)
 #define AKCALLBACKINFO_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1F57D7E0)
 
+inline static constexpr unsigned int AkCallbackInfo_TypeDefinitionIndex = 44723;
+
 	class AkCallbackInfo : public ::System::Object
 	{
 	public:

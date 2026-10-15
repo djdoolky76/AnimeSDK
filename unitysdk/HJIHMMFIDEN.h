@@ -21,6 +21,8 @@ namespace RPG::GameCore { class LittleGameProxyEntityConfig; }
 #define HJIHMMFIDEN_SET_LITTLEGAMEENTITY_OFFSET UNITYSDK_OFFSET(0x15D24CC0)
 #define HJIHMMFIDEN_SET_LITTLEGAMEINSTANCE_OFFSET UNITYSDK_OFFSET(0x15D24C60)
 
+inline static constexpr unsigned int HJIHMMFIDEN_TypeDefinitionIndex = 57303;
+
 	class HJIHMMFIDEN : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

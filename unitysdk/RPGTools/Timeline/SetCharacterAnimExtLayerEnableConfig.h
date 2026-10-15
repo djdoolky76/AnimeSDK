@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SetCharacterAnimExtLayerEnableConfig_TypeDefinitionIndex = 47932;
+
 	class SetCharacterAnimExtLayerEnableConfig : public ::System::Object
 	{
 	public:

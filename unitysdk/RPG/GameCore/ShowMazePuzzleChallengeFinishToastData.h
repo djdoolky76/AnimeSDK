@@ -6,6 +6,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowMazePuzzleChallengeFinishToastData_TypeDefinitionIndex = 53277;
+
 	class ShowMazePuzzleChallengeFinishToastData : public ::System::Object
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System::Security { class IPermission; }
 
 namespace System::Security
 {
+	inline static constexpr unsigned int SecurityException_TypeDefinitionIndex = 952;
+
 	class SecurityException : public ::System::SystemException
 	{
 	public:

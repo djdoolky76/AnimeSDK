@@ -3,6 +3,8 @@
 
 #define HBPBAMFGAJH_CTOR_OFFSET UNITYSDK_OFFSET(0x15C13AF0)
 
+inline static constexpr unsigned int HBPBAMFGAJH_TypeDefinitionIndex = 75832;
+
 	class HBPBAMFGAJH
 	{
 	public:

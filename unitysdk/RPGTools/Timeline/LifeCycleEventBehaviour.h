@@ -18,6 +18,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int LifeCycleEventBehaviour_TypeDefinitionIndex = 48149;
+
 	class LifeCycleEventBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

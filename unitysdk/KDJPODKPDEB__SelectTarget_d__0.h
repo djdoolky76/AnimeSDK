@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define KDJPODKPDEB__SELECTTARGET_D__0_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xB3654A0)
 #define KDJPODKPDEB__SELECTTARGET_D__0_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB365460)
 
+inline static constexpr unsigned int KDJPODKPDEB__SelectTarget_d__0_TypeDefinitionIndex = 77541;
+
 	class KDJPODKPDEB__SelectTarget_d__0 : public ::System::Object
 	{
 	public:

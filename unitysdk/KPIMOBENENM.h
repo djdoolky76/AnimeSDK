@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KPIMOBENENM_CTOR_OFFSET UNITYSDK_OFFSET(0xB5C00A0)
 #define KPIMOBENENM_MJLLHMGLOHL_OFFSET UNITYSDK_OFFSET(0xB5C0380)
 
+inline static constexpr unsigned int KPIMOBENENM_TypeDefinitionIndex = 62050;
+
 	class KPIMOBENENM : public ::System::Object
 	{
 	public:

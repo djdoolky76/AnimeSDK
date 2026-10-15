@@ -9,6 +9,8 @@ class HNFFJNEKJHA;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleUIUtils___c__DisplayClass32_0_TypeDefinitionIndex = 72083;
+
 	class BattleUIUtils___c__DisplayClass32_0 : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ItemConfig; }
 #define HNGODOCOCCF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CECCCD0)
 #define HNGODOCOCCF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CECC7E0)
 
+inline static constexpr unsigned int HNGODOCOCCF_TypeDefinitionIndex = 12971;
+
 	class HNGODOCOCCF : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LoopWaitServerGroupStateChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoopWaitServerGroupStateChange_TypeDefinitionIndex = 21180;
+
 	class LoopWaitServerGroupStateChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:

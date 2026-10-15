@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OpenRaid_TypeDefinitionIndex = 21614;
+
 	class OpenRaid : public ::RPG::GameCore::TaskConfig
 	{
 	public:

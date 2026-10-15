@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResetBillboardInfo_TypeDefinitionIndex = 20461;
+
 	class ResetBillboardInfo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

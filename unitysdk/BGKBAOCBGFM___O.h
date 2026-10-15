@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 class BGKBAOCBGFM_JGKFDNKDLFD;
 
+inline static constexpr unsigned int BGKBAOCBGFM___O_TypeDefinitionIndex = 73163;
+
 	class BGKBAOCBGFM___O : public ::System::Object
 	{
 	public:

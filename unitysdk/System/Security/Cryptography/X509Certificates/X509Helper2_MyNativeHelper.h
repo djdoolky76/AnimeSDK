@@ -9,6 +9,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Certifica
 
 namespace System::Security::Cryptography::X509Certificates
 {
+	inline static constexpr unsigned int X509Helper2_MyNativeHelper_TypeDefinitionIndex = 2710;
+
 	class X509Helper2_MyNativeHelper : public ::System::Object
 	{
 	public:

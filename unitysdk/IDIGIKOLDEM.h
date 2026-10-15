@@ -30,6 +30,8 @@ namespace System { class String; }
 #define IDIGIKOLDEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E62C400)
 #define IDIGIKOLDEM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E62C460)
 
+inline static constexpr unsigned int IDIGIKOLDEM_TypeDefinitionIndex = 29750;
+
 	class IDIGIKOLDEM : public ::System::Object
 	{
 	public:

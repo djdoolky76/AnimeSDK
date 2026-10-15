@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueAdventureWolfGunSpecialTargetMiracleConfig;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueAdventureWolfGunSpecialTargetMiracleConfig_TypeDefinitionIndex = 17898;
+
 	class RogueAdventureWolfGunSpecialTargetMiracleConfig : public ::RPG::GameCore::RogueAdventureWolfGunSpecialTargetConfigBase
 	{
 	public:

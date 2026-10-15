@@ -6,6 +6,8 @@ class LCJPDOOLBEC;
 class NEPOAOEADBE;
 namespace RPG::GameCore { class GameEntity; }
 
+inline static constexpr unsigned int IOKPMIHIPGM_TypeDefinitionIndex = 55613;
+
 	struct alignas(8) IOKPMIHIPGM
 	{
 		::System::Boolean GNDCCBNILML; // 0x10

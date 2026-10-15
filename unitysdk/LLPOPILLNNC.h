@@ -6,6 +6,8 @@ namespace System { class String; }
 #define LLPOPILLNNC_CTOR_OFFSET UNITYSDK_OFFSET(0xB779420)
 #define LLPOPILLNNC_GET_CMDID_OFFSET UNITYSDK_OFFSET(0xB779410)
 
+inline static constexpr unsigned int LLPOPILLNNC_TypeDefinitionIndex = 69402;
+
 	class LLPOPILLNNC : public ::System::Exception
 	{
 	public:

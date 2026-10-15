@@ -44,6 +44,8 @@ namespace UnityEngine { class GameObject; }
 #define CPMPDLEPIKP_OLIPOHKGJDA_OFFSET UNITYSDK_OFFSET(0xDCDB1D0)
 #define CPMPDLEPIKP_OPKNAACFHPP_OFFSET UNITYSDK_OFFSET(0xDCDBDB0)
 
+inline static constexpr unsigned int CPMPDLEPIKP_TypeDefinitionIndex = 78085;
+
 	class CPMPDLEPIKP : public ::System::Object
 	{
 	public:

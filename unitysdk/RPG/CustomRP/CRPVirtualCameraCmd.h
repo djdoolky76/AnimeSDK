@@ -11,6 +11,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPVirtualCameraCmd_TypeDefinitionIndex = 37686;
+
 	class CRPVirtualCameraCmd : public ::UnityEngine::MonoBehaviour
 	{
 	public:

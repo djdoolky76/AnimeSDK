@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FJDDMMEHBLE_CTOR_OFFSET UNITYSDK_OFFSET(0x157C2F00)
 #define FJDDMMEHBLE_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x157C2ED0)
 
+inline static constexpr unsigned int FJDDMMEHBLE_TypeDefinitionIndex = 57270;
+
 	class FJDDMMEHBLE : public ::System::Object
 	{
 	public:

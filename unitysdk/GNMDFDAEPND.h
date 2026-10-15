@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GNMDFDAEPND_CTOR_OFFSET UNITYSDK_OFFSET(0x15B198A0)
 #define GNMDFDAEPND_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15B198D0)
 
+inline static constexpr unsigned int GNMDFDAEPND_TypeDefinitionIndex = 54725;
+
 	class GNMDFDAEPND
 	{
 	public:

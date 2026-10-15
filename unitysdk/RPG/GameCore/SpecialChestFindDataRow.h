@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SpecialChestFindDataRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SpecialChestFindDataRow_TypeDefinitionIndex = 13296;
+
 	class SpecialChestFindDataRow : public ::System::Object
 	{
 	public:

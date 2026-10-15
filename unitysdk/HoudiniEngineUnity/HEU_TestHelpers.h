@@ -15,6 +15,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_TestHelpers_TypeDefinitionIndex = 40691;
+
 	class HEU_TestHelpers : public ::System::Object
 	{
 	public:

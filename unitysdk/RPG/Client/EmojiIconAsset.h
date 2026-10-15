@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EmojiIconAsset_TypeDefinitionIndex = 60039;
+
 	class EmojiIconAsset : public ::UnityEngine::ScriptableObject
 	{
 	public:

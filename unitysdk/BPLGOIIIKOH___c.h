@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define BPLGOIIIKOH___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC1AA820)
 #define BPLGOIIIKOH___C__UPDATEROLE_B__2_0_OFFSET UNITYSDK_OFFSET(0xC1AA830)
 
+inline static constexpr unsigned int BPLGOIIIKOH___c_TypeDefinitionIndex = 64957;
+
 	class BPLGOIIIKOH___c : public ::System::Object
 	{
 	public:

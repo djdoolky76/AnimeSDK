@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ACBMLKEJELG_CTOR_OFFSET UNITYSDK_OFFSET(0xB116960)
 #define ACBMLKEJELG_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB116A10)
 
+inline static constexpr unsigned int ACBMLKEJELG_TypeDefinitionIndex = 75929;
+
 	class ACBMLKEJELG : public ::System::Object
 	{
 	public:

@@ -52,6 +52,8 @@ namespace System { class String; }
 
 namespace RPG::Client::NavMap::FiveDim
 {
+	inline static constexpr unsigned int EntityIcon_TypeDefinitionIndex = 74652;
+
 	class EntityIcon : public ::System::Object
 	{
 	public:

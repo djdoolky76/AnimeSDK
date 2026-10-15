@@ -38,6 +38,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int TimeSpanParse_TypeDefinitionIndex = 771;
+
 	class TimeSpanParse : public ::System::Object
 	{
 	public:

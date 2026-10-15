@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::FateRin::Avatar
 {
+	inline static constexpr unsigned int FateRinBattleAvatarUltraDetailOpenParam_TypeDefinitionIndex = 81235;
+
 	class FateRinBattleAvatarUltraDetailOpenParam : public ::System::Object
 	{
 	public:

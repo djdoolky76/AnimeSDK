@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FloorSyncTemplateConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FloorSyncTemplateConfig_TypeDefinitionIndex = 17412;
+
 	class FloorSyncTemplateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceNodeVariantListControl_HFPNHKBKHDM_GFNIIPJFIFE_TypeDefinitionIndex = 81530;
+
 	class ChallengeTierceNodeVariantListControl_HFPNHKBKHDM_GFNIIPJFIFE : public ::System::MulticastDelegate
 	{
 	public:

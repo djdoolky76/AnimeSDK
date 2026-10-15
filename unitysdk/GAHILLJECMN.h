@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GAHILLJECMN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E41C350)
 #define GAHILLJECMN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E41C3B0)
 
+inline static constexpr unsigned int GAHILLJECMN_TypeDefinitionIndex = 28042;
+
 	class GAHILLJECMN : public ::System::Object
 	{
 	public:

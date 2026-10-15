@@ -14,6 +14,8 @@ namespace System { class String; }
 #define FMCDNOGEEEO_NPIAFDJCIJH_OFFSET UNITYSDK_OFFSET(0x1584DED0)
 #define FMCDNOGEEEO_OOGEFEGLPAI_OFFSET UNITYSDK_OFFSET(0x1584DF20)
 
+inline static constexpr unsigned int FMCDNOGEEEO_TypeDefinitionIndex = 78764;
+
 	class FMCDNOGEEEO : public ::EFLAJBMKAAH
 	{
 	public:

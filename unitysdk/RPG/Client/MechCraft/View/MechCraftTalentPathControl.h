@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftTalentPathControl_TypeDefinitionIndex = 80069;
+
 	class MechCraftTalentPathControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

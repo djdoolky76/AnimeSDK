@@ -43,6 +43,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define KFJIPJHCHJA_NGOCIDIPOEO_OFFSET UNITYSDK_OFFSET(0xB3B8570)
 #define KFJIPJHCHJA_NOLAAPOJJLI_OFFSET UNITYSDK_OFFSET(0xB3B98A0)
 
+inline static constexpr unsigned int KFJIPJHCHJA_TypeDefinitionIndex = 69253;
+
 	class KFJIPJHCHJA : public ::LAJCPEFEOPN
 	{
 	public:

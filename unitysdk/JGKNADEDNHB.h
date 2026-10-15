@@ -38,6 +38,8 @@ namespace System { class String; }
 #define JGKNADEDNHB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E73BCB0)
 #define JGKNADEDNHB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E73BD10)
 
+inline static constexpr unsigned int JGKNADEDNHB_TypeDefinitionIndex = 31143;
+
 	class JGKNADEDNHB : public ::System::Object
 	{
 	public:

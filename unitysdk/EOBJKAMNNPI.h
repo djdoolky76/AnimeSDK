@@ -36,6 +36,8 @@ namespace System { class String; }
 #define EOBJKAMNNPI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2F73E0)
 #define EOBJKAMNNPI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2F7440)
 
+inline static constexpr unsigned int EOBJKAMNNPI_TypeDefinitionIndex = 30236;
+
 	class EOBJKAMNNPI : public ::System::Object
 	{
 	public:

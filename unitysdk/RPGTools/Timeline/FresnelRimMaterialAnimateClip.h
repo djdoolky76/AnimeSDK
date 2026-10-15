@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int FresnelRimMaterialAnimateClip_TypeDefinitionIndex = 48072;
+
 	class FresnelRimMaterialAnimateClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

@@ -5,6 +5,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int SpeedLineTimelineClip_TypeDefinitionIndex = 48617;
+
 	class SpeedLineTimelineClip
 	{
 	public:

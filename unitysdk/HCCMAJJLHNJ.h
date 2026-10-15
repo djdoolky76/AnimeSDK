@@ -14,6 +14,8 @@ namespace System { class String; }
 #define HCCMAJJLHNJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE8AFA0)
 #define HCCMAJJLHNJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE8AF50)
 
+inline static constexpr unsigned int HCCMAJJLHNJ_TypeDefinitionIndex = 21509;
+
 	class HCCMAJJLHNJ : public ::RPG::GameCore::TaskConfig
 	{
 	public:

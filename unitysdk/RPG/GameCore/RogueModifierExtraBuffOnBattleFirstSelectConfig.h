@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExtraBuffOnBattleFirstSelectConfig;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExtraBuffOnBattleFirstSelectConfig_TypeDefinitionIndex = 17978;
+
 	class RogueModifierExtraBuffOnBattleFirstSelectConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

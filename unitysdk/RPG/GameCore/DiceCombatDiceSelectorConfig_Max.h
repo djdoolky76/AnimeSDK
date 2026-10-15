@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatDiceSelectorConfig_Max; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatDiceSelectorConfig_Max_TypeDefinitionIndex = 16148;
+
 	class DiceCombatDiceSelectorConfig_Max : public ::RPG::GameCore::DiceCombatDiceSelectorConfig
 	{
 	public:

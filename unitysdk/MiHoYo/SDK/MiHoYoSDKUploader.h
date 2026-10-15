@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKUploader_TypeDefinitionIndex = 46464;
+
 	class MiHoYoSDKUploader : public ::UnityEngine::MonoBehaviour
 	{
 	public:

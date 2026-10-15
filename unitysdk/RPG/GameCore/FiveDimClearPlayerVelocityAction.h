@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimClearPlayerVelocityAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimClearPlayerVelocityAction_TypeDefinitionIndex = 18766;
+
 	class FiveDimClearPlayerVelocityAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

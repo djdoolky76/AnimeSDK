@@ -17,6 +17,8 @@ namespace System { class Type; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int SerializationInfoEnumerator_TypeDefinitionIndex = 1132;
+
 	class SerializationInfoEnumerator : public ::System::Object
 	{
 	public:

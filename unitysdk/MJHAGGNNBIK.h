@@ -8,6 +8,8 @@ class MJHAGGNNBIK;
 #define MJHAGGNNBIK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1B53C0)
 #define MJHAGGNNBIK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1B5370)
 
+inline static constexpr unsigned int MJHAGGNNBIK_TypeDefinitionIndex = 22727;
+
 	class MJHAGGNNBIK : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitHipplenGameExit; }
 #define GNBCHJONFOM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15AF63C0)
 #define GNBCHJONFOM_TICK_OFFSET UNITYSDK_OFFSET(0x15AF62D0)
 
+inline static constexpr unsigned int GNBCHJONFOM_TypeDefinitionIndex = 52299;
+
 	class GNBCHJONFOM : public ::GELIALJDFBL
 	{
 	public:

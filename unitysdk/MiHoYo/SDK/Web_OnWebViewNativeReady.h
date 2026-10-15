@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Web_OnWebViewNativeReady_TypeDefinitionIndex = 8220;
+
 	class Web_OnWebViewNativeReady : public ::System::MulticastDelegate
 	{
 	public:

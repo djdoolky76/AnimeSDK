@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AuthKeyData_TypeDefinitionIndex = 66416;
+
 	class AuthKeyData : public ::System::Object
 	{
 	public:

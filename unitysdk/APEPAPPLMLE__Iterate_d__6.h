@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define APEPAPPLMLE__ITERATE_D__6_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1C5406B0)
 #define APEPAPPLMLE__ITERATE_D__6_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C5405A0)
 
+inline static constexpr unsigned int APEPAPPLMLE__Iterate_d__6_TypeDefinitionIndex = 41649;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	class APEPAPPLMLE__Iterate_d__6 : public ::System::Object
 	{

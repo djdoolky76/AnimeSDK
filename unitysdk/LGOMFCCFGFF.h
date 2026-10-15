@@ -6,6 +6,8 @@ class BCFAKEGJPKN;
 #define LGOMFCCFGFF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB69D9D0)
 #define LGOMFCCFGFF_CTOR_OFFSET UNITYSDK_OFFSET(0xB69DA90)
 
+inline static constexpr unsigned int LGOMFCCFGFF_TypeDefinitionIndex = 80084;
+
 	class LGOMFCCFGFF : public ::System::Object
 	{
 	public:

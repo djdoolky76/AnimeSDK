@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PEJEHNAMIIE_CTOR_OFFSET UNITYSDK_OFFSET(0xC03E420)
 #define PEJEHNAMIIE_EXECUTE_OFFSET UNITYSDK_OFFSET(0xC03E020)
 
+inline static constexpr unsigned int PEJEHNAMIIE_TypeDefinitionIndex = 77358;
+
 	class PEJEHNAMIIE : public ::System::Object
 	{
 	public:

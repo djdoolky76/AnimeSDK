@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CRPShadowSettings_TypeDefinitionIndex = 67927;
+
 	class CRPShadowSettings : public ::System::Object
 	{
 	public:

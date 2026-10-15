@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameNavInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameNavInfo_TypeDefinitionIndex = 17339;
+
 	class LittleGameNavInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

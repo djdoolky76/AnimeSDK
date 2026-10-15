@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MusicRhythmGroupRow; }
 #define PKHCAEKOKLE_SET_ID_OFFSET UNITYSDK_OFFSET(0xC2BAD80)
 #define PKHCAEKOKLE_SET_ROW_OFFSET UNITYSDK_OFFSET(0xC2BADA0)
 
+inline static constexpr unsigned int PKHCAEKOKLE_TypeDefinitionIndex = 60180;
+
 	class PKHCAEKOKLE : public ::System::Object
 	{
 	public:

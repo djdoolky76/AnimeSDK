@@ -19,6 +19,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CaptureScene_TypeDefinitionIndex = 37599;
+
 	class CaptureScene : public ::UnityEngine::MonoBehaviour
 	{
 	public:

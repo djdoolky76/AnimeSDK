@@ -12,6 +12,8 @@ namespace UnityEngine { class Animator; }
 #define AICNAEHKIDD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEBA0DB0)
 #define AICNAEHKIDD_TICK_OFFSET UNITYSDK_OFFSET(0xEBA0E00)
 
+inline static constexpr unsigned int AICNAEHKIDD_TypeDefinitionIndex = 52628;
+
 	class AICNAEHKIDD : public ::GELIALJDFBL
 	{
 	public:

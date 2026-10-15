@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TriggerRogueOpenChest; }
 #define PKECCFBEMAP_TICK_OFFSET UNITYSDK_OFFSET(0xC2B34D0)
 #define PKECCFBEMAP__ONTASKBEGIN_B__3_0_OFFSET UNITYSDK_OFFSET(0xC2B37C0)
 
+inline static constexpr unsigned int PKECCFBEMAP_TypeDefinitionIndex = 58798;
+
 	class PKECCFBEMAP : public ::GELIALJDFBL
 	{
 	public:

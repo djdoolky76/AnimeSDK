@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimSurfaceCameraConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSurfaceCameraConfig_TypeDefinitionIndex = 18626;
+
 	class FiveDimSurfaceCameraConfig : public ::RPG::GameCore::FiveDimBaseCameraConfig
 	{
 	public:

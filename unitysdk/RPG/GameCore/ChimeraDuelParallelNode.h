@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelParallelNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelParallelNode_TypeDefinitionIndex = 15984;
+
 	class ChimeraDuelParallelNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
 	public:

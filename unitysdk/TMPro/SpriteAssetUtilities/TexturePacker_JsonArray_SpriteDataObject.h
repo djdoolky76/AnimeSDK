@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace TMPro::SpriteAssetUtilities
 {
+	inline static constexpr unsigned int TexturePacker_JsonArray_SpriteDataObject_TypeDefinitionIndex = 44703;
+
 	class TexturePacker_JsonArray_SpriteDataObject : public ::System::Object
 	{
 	public:

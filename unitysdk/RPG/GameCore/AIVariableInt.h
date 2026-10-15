@@ -18,6 +18,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AIVariableInt_TypeDefinitionIndex = 15607;
+
 	class AIVariableInt : public ::RPG::GameCore::AIVariable
 	{
 	public:

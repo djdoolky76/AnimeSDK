@@ -7,6 +7,8 @@ namespace System { class Action; }
 #define JEBPFBNCALB___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C563D80)
 #define JEBPFBNCALB___C__DISPLAYCLASS7_0__SUBSCRIBE_B__0_OFFSET UNITYSDK_OFFSET(0x1C563D90)
 
+inline static constexpr unsigned int JEBPFBNCALB___c__DisplayClass7_0_TypeDefinitionIndex = 41841;
+
 	class JEBPFBNCALB___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

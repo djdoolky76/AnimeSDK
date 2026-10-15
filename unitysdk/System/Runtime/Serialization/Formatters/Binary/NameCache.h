@@ -12,6 +12,8 @@ namespace System::Collections::Concurrent { template <typename T1, typename T2> 
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int NameCache_TypeDefinitionIndex = 1196;
+
 	class NameCache : public ::System::Object
 	{
 	public:

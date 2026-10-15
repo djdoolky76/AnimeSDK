@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int PMDFMAIHPGL_TypeDefinitionIndex = 27876;
+
 	enum class PMDFMAIHPGL : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

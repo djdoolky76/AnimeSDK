@@ -11,6 +11,8 @@ namespace RPG::GameCore { class AdventurePlayVO; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventurePlayVO_TypeDefinitionIndex = 20749;
+
 	class AdventurePlayVO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -16,6 +16,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::BattlePerform
 {
+	inline static constexpr unsigned int BPCharacterSwitchAnchorClip_TypeDefinitionIndex = 48822;
+
 	class BPCharacterSwitchAnchorClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

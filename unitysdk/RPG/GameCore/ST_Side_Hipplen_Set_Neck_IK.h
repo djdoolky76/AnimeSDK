@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_Hipplen_Set_Neck_IK_TypeDefinitionIndex = 21315;
+
 	class ST_Side_Hipplen_Set_Neck_IK : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

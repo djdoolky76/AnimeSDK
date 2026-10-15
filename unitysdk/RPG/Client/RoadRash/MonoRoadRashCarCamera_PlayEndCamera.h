@@ -5,6 +5,8 @@ namespace RPG::Client { class CameraBlendCurve; }
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int MonoRoadRashCarCamera_PlayEndCamera_TypeDefinitionIndex = 75847;
+
 	struct alignas(8) MonoRoadRashCarCamera_PlayEndCamera
 	{
 		::Cinemachine::CinemachineVirtualCamera* Camera; // 0x10

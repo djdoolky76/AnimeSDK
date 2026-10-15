@@ -23,6 +23,8 @@ namespace UnityEngine { class Texture; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int RenderTargetIdentifier_TypeDefinitionIndex = 4712;
+
 	struct alignas(4) RenderTargetIdentifier
 	{
 		::UnityEngine::Rendering::BuiltinRenderTextureType m_Type; // 0x10

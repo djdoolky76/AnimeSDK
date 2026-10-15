@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropSetSceneTVMenu_TypeDefinitionIndex = 21974;
+
 	class PropSetSceneTVMenu : public ::RPG::GameCore::TaskConfig
 	{
 	public:

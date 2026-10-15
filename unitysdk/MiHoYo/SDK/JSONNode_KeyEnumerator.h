@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int JSONNode_KeyEnumerator_TypeDefinitionIndex = 8128;
+
 	struct alignas(4) JSONNode_KeyEnumerator
 	{
 		::MiHoYo::SDK::JSONNode_Enumerator m_Enumerator; // 0x10

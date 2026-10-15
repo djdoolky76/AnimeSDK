@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityRaidCollectionInfoRow_TypeDefinitionIndex = 12318;
+
 	class ActivityRaidCollectionInfoRow : public ::System::Object
 	{
 	public:

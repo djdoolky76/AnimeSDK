@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitFor; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitFor_TypeDefinitionIndex = 23792;
+
 	class WaitFor : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BookSeriesConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BookSeriesConfigRow_TypeDefinitionIndex = 12905;
+
 	class BookSeriesConfigRow : public ::System::Object
 	{
 	public:

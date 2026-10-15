@@ -34,6 +34,8 @@ namespace System { class String; }
 #define EBLHIMCKJIJ_OALLKLMEOJC_OFFSET UNITYSDK_OFFSET(0x12D01820)
 #define EBLHIMCKJIJ_OHMHJFANEIF_OFFSET UNITYSDK_OFFSET(0x12D01880)
 
+inline static constexpr unsigned int EBLHIMCKJIJ_TypeDefinitionIndex = 57395;
+
 	class EBLHIMCKJIJ : public ::System::Object
 	{
 	public:

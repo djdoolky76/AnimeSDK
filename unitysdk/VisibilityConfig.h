@@ -4,6 +4,8 @@
 
 #define VISIBILITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE9F77F0)
 
+inline static constexpr unsigned int VisibilityConfig_TypeDefinitionIndex = 47307;
+
 	class VisibilityConfig : public ::System::Object
 	{
 	public:

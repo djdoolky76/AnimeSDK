@@ -20,6 +20,8 @@ namespace RPG::GameCore { class LevelTurnUltraSkillPrepare; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelTurnUltraSkillPrepare_TypeDefinitionIndex = 56719;
+
 	class LevelTurnUltraSkillPrepare : public ::CMPGEAFHHDC
 	{
 	public:

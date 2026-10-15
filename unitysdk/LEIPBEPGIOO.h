@@ -18,6 +18,8 @@ namespace System { class String; }
 #define LEIPBEPGIOO_NPIAFDJCIJH_OFFSET UNITYSDK_OFFSET(0xB657240)
 #define LEIPBEPGIOO_OOGEFEGLPAI_OFFSET UNITYSDK_OFFSET(0xB657280)
 
+inline static constexpr unsigned int LEIPBEPGIOO_TypeDefinitionIndex = 78762;
+
 	class LEIPBEPGIOO : public ::EFLAJBMKAAH
 	{
 	public:

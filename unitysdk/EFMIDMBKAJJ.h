@@ -8,6 +8,8 @@ namespace RPG::Client { class PipelineCameraGlobalConfig; }
 
 #define EFMIDMBKAJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x13A5D380)
 
+inline static constexpr unsigned int EFMIDMBKAJJ_TypeDefinitionIndex = 69743;
+
 	class EFMIDMBKAJJ : public ::ELALAHMNKGK
 	{
 	public:

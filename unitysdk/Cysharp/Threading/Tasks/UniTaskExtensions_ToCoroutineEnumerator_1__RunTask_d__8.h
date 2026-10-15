@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTaskExtensions_ToCoroutineEnumerator_1__RunTask_d__8_TypeDefinitionIndex = 38409;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
 	struct alignas(8) UniTaskExtensions_ToCoroutineEnumerator_1__RunTask_d__8
 	{

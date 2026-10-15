@@ -14,6 +14,8 @@ namespace RPG::GameCore { class PerformanceSubMissionLinkRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceSubMissionLinkRow_TypeDefinitionIndex = 14349;
+
 	class PerformanceSubMissionLinkRow : public ::System::Object
 	{
 	public:

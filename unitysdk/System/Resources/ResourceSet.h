@@ -25,6 +25,8 @@ namespace System::Resources { class IResourceReader; }
 
 namespace System::Resources
 {
+	inline static constexpr unsigned int ResourceSet_TypeDefinitionIndex = 532;
+
 	class ResourceSet : public ::System::Object
 	{
 	public:

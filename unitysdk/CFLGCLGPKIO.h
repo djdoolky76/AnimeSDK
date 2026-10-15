@@ -9,6 +9,8 @@ namespace RPG::Client { class MapMappingInfoData; }
 #define CFLGCLGPKIO_GET_ICONTYPE_OFFSET UNITYSDK_OFFSET(0xCC51A60)
 #define CFLGCLGPKIO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xCC51940)
 
+inline static constexpr unsigned int CFLGCLGPKIO_TypeDefinitionIndex = 62928;
+
 	class CFLGCLGPKIO : public ::System::Object
 	{
 	public:

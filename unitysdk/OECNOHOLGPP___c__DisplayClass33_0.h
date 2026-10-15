@@ -7,6 +7,8 @@
 #define OECNOHOLGPP___C__DISPLAYCLASS33_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5751D0)
 #define OECNOHOLGPP___C__DISPLAYCLASS33_0__PLACE_B__0_OFFSET UNITYSDK_OFFSET(0x1C5781C0)
 
+inline static constexpr unsigned int OECNOHOLGPP___c__DisplayClass33_0_TypeDefinitionIndex = 41795;
+
 	class OECNOHOLGPP___c__DisplayClass33_0 : public ::System::Object
 	{
 	public:

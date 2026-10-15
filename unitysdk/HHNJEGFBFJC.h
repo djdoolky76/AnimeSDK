@@ -8,6 +8,8 @@ class IIAJFCNCMEB;
 #define HHNJEGFBFJC_MHJJGFCNJNI_OFFSET UNITYSDK_OFFSET(0x15CD47C0)
 #define HHNJEGFBFJC_OIIFDHJOJJC_OFFSET UNITYSDK_OFFSET(0x15CD4C40)
 
+inline static constexpr unsigned int HHNJEGFBFJC_TypeDefinitionIndex = 81016;
+
 	class HHNJEGFBFJC : public ::System::Object
 	{
 	public:

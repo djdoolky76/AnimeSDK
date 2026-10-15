@@ -28,6 +28,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageHarmonyTrafficLightBehavior_TypeDefinitionIndex = 70999;
+
 	class StageHarmonyTrafficLightBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

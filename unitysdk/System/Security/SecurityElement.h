@@ -34,6 +34,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System::Security
 {
+	inline static constexpr unsigned int SecurityElement_TypeDefinitionIndex = 950;
+
 	class SecurityElement : public ::System::Object
 	{
 	public:

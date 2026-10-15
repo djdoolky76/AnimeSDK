@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionOnKillMonsterConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionOnKillMonsterConfig_TypeDefinitionIndex = 17846;
+
 	class RogueModifierExecuteActionOnKillMonsterConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

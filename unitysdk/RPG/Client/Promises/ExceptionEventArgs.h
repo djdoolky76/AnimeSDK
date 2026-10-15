@@ -9,6 +9,8 @@ namespace System { class Exception; }
 
 namespace RPG::Client::Promises
 {
+	inline static constexpr unsigned int ExceptionEventArgs_TypeDefinitionIndex = 9910;
+
 	class ExceptionEventArgs : public ::System::EventArgs
 	{
 	public:

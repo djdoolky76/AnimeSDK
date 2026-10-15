@@ -34,6 +34,8 @@ namespace System { class String; }
 #define DOELBKLNLIM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1FEBB0)
 #define DOELBKLNLIM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1FEC10)
 
+inline static constexpr unsigned int DOELBKLNLIM_TypeDefinitionIndex = 28963;
+
 	class DOELBKLNLIM : public ::System::Object
 	{
 	public:

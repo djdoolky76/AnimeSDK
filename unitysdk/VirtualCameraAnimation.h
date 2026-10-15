@@ -13,6 +13,8 @@ namespace UnityEngine::Rendering { class CRPVirtualCamera; }
 #define VIRTUALCAMERAANIMATION_MPNPPPLPLOA_OFFSET UNITYSDK_OFFSET(0xE9F7750)
 #define VIRTUALCAMERAANIMATION_UPDATE_OFFSET UNITYSDK_OFFSET(0xE9F73B0)
 
+inline static constexpr unsigned int VirtualCameraAnimation_TypeDefinitionIndex = 47597;
+
 	class VirtualCameraAnimation : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System { class String; }
 #define CEJMDKPGPGP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E096B60)
 #define CEJMDKPGPGP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E096BC0)
 
+inline static constexpr unsigned int CEJMDKPGPGP_TypeDefinitionIndex = 27945;
+
 	class CEJMDKPGPGP : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int LoadStaticFieldInstruction_TypeDefinitionIndex = 3397;
+
 	class LoadStaticFieldInstruction : public ::System::Linq::Expressions::Interpreter::FieldInstruction
 	{
 	public:

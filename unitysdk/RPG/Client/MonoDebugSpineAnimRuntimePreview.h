@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoDebugSpineAnimRuntimePreview_TypeDefinitionIndex = 69024;
+
 	class MonoDebugSpineAnimRuntimePreview : public ::UnityEngine::MonoBehaviour
 	{
 	public:

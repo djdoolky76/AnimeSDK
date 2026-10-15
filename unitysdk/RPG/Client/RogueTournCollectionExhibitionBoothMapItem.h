@@ -8,6 +8,8 @@ namespace RPG::Client { class RogueTournCollectionExhibitionBoothMapItem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournCollectionExhibitionBoothMapItem_TypeDefinitionIndex = 69012;
+
 	class RogueTournCollectionExhibitionBoothMapItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -17,6 +17,8 @@ namespace RPG::Client::FateRin::Logging { class ILoggerFactory; }
 #define LJMKNOKMPKC_MCHNGFNHKHE_OFFSET UNITYSDK_OFFSET(0xB722400)
 #define LJMKNOKMPKC_OKEGJOFJEHL_OFFSET UNITYSDK_OFFSET(0xB7227E0)
 
+inline static constexpr unsigned int LJMKNOKMPKC_TypeDefinitionIndex = 80774;
+
 	class LJMKNOKMPKC : public ::System::Object
 	{
 	public:

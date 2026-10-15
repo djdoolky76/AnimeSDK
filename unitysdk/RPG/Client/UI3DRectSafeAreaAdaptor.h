@@ -9,6 +9,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UI3DRectSafeAreaAdaptor_TypeDefinitionIndex = 69050;
+
 	class UI3DRectSafeAreaAdaptor : public ::UnityEngine::MonoBehaviour
 	{
 	public:

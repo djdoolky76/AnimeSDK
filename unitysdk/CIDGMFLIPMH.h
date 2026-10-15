@@ -7,6 +7,8 @@ class DEOOCBMMENB;
 #define CIDGMFLIPMH_CTOR_OFFSET UNITYSDK_OFFSET(0xCF66190)
 #define CIDGMFLIPMH_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0xCF65E70)
 
+inline static constexpr unsigned int CIDGMFLIPMH_TypeDefinitionIndex = 62045;
+
 	class CIDGMFLIPMH : public ::BFLILCJMKDB
 	{
 	public:

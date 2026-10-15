@@ -11,6 +11,8 @@ namespace System::Reflection { class MemberInfo; }
 #define NAKENCHKLAJ___C___GETMEMBERSTOPARSE_B__1_1_OFFSET UNITYSDK_OFFSET(0xBAA3600)
 #define NAKENCHKLAJ___C___GETMEMBERSTOPARSE_B__1_2_OFFSET UNITYSDK_OFFSET(0xBAA3630)
 
+inline static constexpr unsigned int NAKENCHKLAJ___c_TypeDefinitionIndex = 67244;
+
 	class NAKENCHKLAJ___c : public ::System::Object
 	{
 	public:

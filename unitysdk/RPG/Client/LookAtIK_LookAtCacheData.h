@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LookAtIK_LookAtCacheData_TypeDefinitionIndex = 68469;
+
 	class LookAtIK_LookAtCacheData : public ::System::Object
 	{
 	public:

@@ -77,6 +77,8 @@ namespace UnityEngine::Rendering { class GrowableBuffer; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CommandBufferExt_TypeDefinitionIndex = 35559;
+
 	class CommandBufferExt : public ::System::Object
 	{
 	public:

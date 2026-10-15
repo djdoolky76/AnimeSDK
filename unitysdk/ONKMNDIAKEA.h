@@ -8,6 +8,8 @@ namespace System { class String; }
 #define ONKMNDIAKEA_GET_ISOPTIONAL_OFFSET UNITYSDK_OFFSET(0x1DD87100)
 #define ONKMNDIAKEA_SET_ISOPTIONAL_OFFSET UNITYSDK_OFFSET(0x1DD87110)
 
+inline static constexpr unsigned int ONKMNDIAKEA_TypeDefinitionIndex = 6312;
+
 	class ONKMNDIAKEA : public ::System::Attribute
 	{
 	public:

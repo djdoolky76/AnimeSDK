@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define ONFCNPGLDFF_CPKOCHPCJMI_OFFSET UNITYSDK_OFFSET(0xBF51600)
 
+inline static constexpr unsigned int ONFCNPGLDFF_TypeDefinitionIndex = 70932;
+
 	class ONFCNPGLDFF : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SFXConfigRow_TypeDefinitionIndex = 15085;
+
 	class SFXConfigRow : public ::System::Object
 	{
 	public:

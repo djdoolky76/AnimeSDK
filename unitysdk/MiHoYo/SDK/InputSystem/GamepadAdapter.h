@@ -15,6 +15,8 @@ namespace MiHoYo::SDK::InputSystem { class IGamepadService; }
 
 namespace MiHoYo::SDK::InputSystem
 {
+	inline static constexpr unsigned int GamepadAdapter_TypeDefinitionIndex = 10094;
+
 	class GamepadAdapter : public ::System::Object
 	{
 	public:

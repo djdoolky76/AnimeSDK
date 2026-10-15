@@ -16,6 +16,8 @@ namespace RPG::Client { class IGamePhase; }
 #define DDEPGOLAMGL_NIGCGNLDPND_OFFSET UNITYSDK_OFFSET(0xE261A30)
 #define DDEPGOLAMGL_NPJGONHMEOD_OFFSET UNITYSDK_OFFSET(0xE260970)
 
+inline static constexpr unsigned int DDEPGOLAMGL_TypeDefinitionIndex = 61183;
+
 	class DDEPGOLAMGL : public ::HDJIGMBHENE
 	{
 	public:

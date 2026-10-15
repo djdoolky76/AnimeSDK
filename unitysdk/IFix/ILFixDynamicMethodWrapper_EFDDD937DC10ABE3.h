@@ -47,6 +47,8 @@ namespace System { class Object; }
 
 namespace IFix
 {
+	inline static constexpr unsigned int ILFixDynamicMethodWrapper_EFDDD937DC10ABE3_TypeDefinitionIndex = 41628;
+
 	class ILFixDynamicMethodWrapper_EFDDD937DC10ABE3 : public ::System::Object
 	{
 	public:

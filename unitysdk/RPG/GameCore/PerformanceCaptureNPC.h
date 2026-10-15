@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceCaptureNPC_TypeDefinitionIndex = 21855;
+
 	class PerformanceCaptureNPC : public ::RPG::GameCore::JsonConfig
 	{
 	public:

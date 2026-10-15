@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DrinkMakerFormulaRow_TypeDefinitionIndex = 13187;
+
 	class DrinkMakerFormulaRow : public ::System::Object
 	{
 	public:

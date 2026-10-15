@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HJLECIIEKGI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5AB3F0)
 #define HJLECIIEKGI___C___CCTOR_B__41_0_OFFSET UNITYSDK_OFFSET(0x1E5AB400)
 
+inline static constexpr unsigned int HJLECIIEKGI___c_TypeDefinitionIndex = 34785;
+
 	class HJLECIIEKGI___c : public ::System::Object
 	{
 	public:

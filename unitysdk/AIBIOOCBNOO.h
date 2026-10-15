@@ -5,6 +5,8 @@ class ILPPBGLJABD;
 
 #define AIBIOOCBNOO_CTOR_OFFSET UNITYSDK_OFFSET(0xEB940C0)
 
+inline static constexpr unsigned int AIBIOOCBNOO_TypeDefinitionIndex = 62308;
+
 	class AIBIOOCBNOO : public ::HNBBDOGAMJG
 	{
 	public:

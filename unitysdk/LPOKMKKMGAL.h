@@ -11,6 +11,8 @@ class IPFNLCFACJH;
 #define LPOKMKKMGAL_CTOR_OFFSET UNITYSDK_OFFSET(0xB835B80)
 #define LPOKMKKMGAL_LEAFDECAGPG_OFFSET UNITYSDK_OFFSET(0xB835BD0)
 
+inline static constexpr unsigned int LPOKMKKMGAL_TypeDefinitionIndex = 62772;
+
 	class LPOKMKKMGAL : public ::System::Object
 	{
 	public:

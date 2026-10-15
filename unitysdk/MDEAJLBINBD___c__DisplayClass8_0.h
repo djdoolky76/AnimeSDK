@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define MDEAJLBINBD___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB8A2510)
 #define MDEAJLBINBD___C__DISPLAYCLASS8_0___SETBOX_B__0_OFFSET UNITYSDK_OFFSET(0xB8A2880)
 
+inline static constexpr unsigned int MDEAJLBINBD___c__DisplayClass8_0_TypeDefinitionIndex = 60212;
+
 	class MDEAJLBINBD___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

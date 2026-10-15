@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfProgressAttributeData_TypeDefinitionIndex = 63718;
+
 	class ElfProgressAttributeData : public ::System::Object
 	{
 	public:

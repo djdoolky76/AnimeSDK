@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int IsometricViewPuzzleEditorHelper_TypeDefinitionIndex = 78643;
+
 	class IsometricViewPuzzleEditorHelper : public ::UnityEngine::MonoBehaviour
 	{
 	public:

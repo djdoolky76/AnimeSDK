@@ -11,6 +11,8 @@ namespace UnityEngine::NVIDIA { template <typename T> class NativeData_1; }
 
 namespace UnityEngine::NVIDIA
 {
+	inline static constexpr unsigned int InitDeviceContext_TypeDefinitionIndex = 5031;
+
 	class InitDeviceContext : public ::System::Object
 	{
 	public:

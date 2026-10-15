@@ -43,6 +43,8 @@ namespace UnityEngine { class Transform; }
 #define CAJEEMNJKPB_PFKDDJCDBGB_OFFSET UNITYSDK_OFFSET(0xC483CE0)
 #define CAJEEMNJKPB__ONBIND_OFFSET UNITYSDK_OFFSET(0xC483080)
 
+inline static constexpr unsigned int CAJEEMNJKPB_TypeDefinitionIndex = 72176;
+
 	class CAJEEMNJKPB : public ::FMPCODLIOLG
 	{
 	public:

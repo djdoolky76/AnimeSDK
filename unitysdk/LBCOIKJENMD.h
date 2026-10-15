@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LBCOIKJENMD_NDBAJHIEGNO_OFFSET UNITYSDK_OFFSET(0xB5F54A0)
 #define LBCOIKJENMD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5F4EF0)
 
+inline static constexpr unsigned int LBCOIKJENMD_TypeDefinitionIndex = 53331;
+
 	class LBCOIKJENMD
 	{
 	public:

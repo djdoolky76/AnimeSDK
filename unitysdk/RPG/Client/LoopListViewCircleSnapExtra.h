@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LoopListViewCircleSnapExtra_TypeDefinitionIndex = 69017;
+
 	class LoopListViewCircleSnapExtra : public ::UnityEngine::MonoBehaviour
 	{
 	public:

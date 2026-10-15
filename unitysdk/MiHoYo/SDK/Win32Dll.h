@@ -14,6 +14,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Win32Dll_TypeDefinitionIndex = 7943;
+
 	class Win32Dll : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MapRotationGlobalTagConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MapRotationGlobalTagConfig_TypeDefinitionIndex = 17041;
+
 	class MapRotationGlobalTagConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

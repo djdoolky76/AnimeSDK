@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NBCKPEELCFO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBABD8F0)
 #define NBCKPEELCFO_MJEGFOMAOFH_OFFSET UNITYSDK_OFFSET(0xBABDD10)
 
+inline static constexpr unsigned int NBCKPEELCFO_TypeDefinitionIndex = 62273;
+
 	class NBCKPEELCFO : public ::System::Object
 	{
 	public:

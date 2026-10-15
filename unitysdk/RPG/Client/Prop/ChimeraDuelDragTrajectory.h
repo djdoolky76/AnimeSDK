@@ -30,6 +30,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelDragTrajectory_TypeDefinitionIndex = 78338;
+
 	class ChimeraDuelDragTrajectory : public ::UnityEngine::MonoBehaviour
 	{
 	public:

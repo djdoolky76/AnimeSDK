@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityGuessSilhouetteRow_TypeDefinitionIndex = 11617;
+
 	class ActivityGuessSilhouetteRow : public ::System::Object
 	{
 	public:

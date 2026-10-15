@@ -14,6 +14,8 @@ namespace System { template <typename T> class Func_1; }
 #define BLMGKNOOOJD_KOMLALPHLKE_FFDHICFFNPJ_OFFSET UNITYSDK_OFFSET(0xBA7A290)
 #define BLMGKNOOOJD_KOMLALPHLKE_MIIJKHPLOAF_OFFSET UNITYSDK_OFFSET(0xBA7A970)
 
+inline static constexpr unsigned int BLMGKNOOOJD_KOMLALPHLKE_TypeDefinitionIndex = 53377;
+
 	class BLMGKNOOOJD_KOMLALPHLKE : public ::System::Object
 	{
 	public:

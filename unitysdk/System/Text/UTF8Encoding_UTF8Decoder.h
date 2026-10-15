@@ -13,6 +13,8 @@ namespace System::Text { class UTF8Encoding; }
 
 namespace System::Text
 {
+	inline static constexpr unsigned int UTF8Encoding_UTF8Decoder_TypeDefinitionIndex = 511;
+
 	class UTF8Encoding_UTF8Decoder : public ::System::Text::DecoderNLS
 	{
 	public:

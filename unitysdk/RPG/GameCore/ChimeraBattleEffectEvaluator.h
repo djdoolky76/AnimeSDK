@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraBattleEffectEvaluator_TypeDefinitionIndex = 15834;
+
 	class ChimeraBattleEffectEvaluator : public ::RPG::GameCore::ChimeraBattleBaseEvaluator
 	{
 	public:

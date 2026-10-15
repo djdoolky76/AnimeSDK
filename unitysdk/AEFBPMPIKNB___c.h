@@ -10,6 +10,8 @@ namespace System { class String; }
 #define AEFBPMPIKNB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB14F570)
 #define AEFBPMPIKNB___C___LISTENLEVELVAR_B__9_0_OFFSET UNITYSDK_OFFSET(0xB14F580)
 
+inline static constexpr unsigned int AEFBPMPIKNB___c_TypeDefinitionIndex = 77075;
+
 	class AEFBPMPIKNB___c : public ::System::Object
 	{
 	public:

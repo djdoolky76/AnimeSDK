@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int VertexAttributeDescriptor_TypeDefinitionIndex = 4711;
+
 	struct alignas(4) VertexAttributeDescriptor
 	{
 		::UnityEngine::Rendering::VertexAttribute _attribute_k__BackingField; // 0x10

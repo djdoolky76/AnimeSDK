@@ -11,6 +11,8 @@ namespace RPG::GameCore { class StageBattleEventConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetStageBattleEvents_TypeDefinitionIndex = 23458;
+
 	class SetStageBattleEvents : public ::RPG::GameCore::TaskConfig
 	{
 	public:

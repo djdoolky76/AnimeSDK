@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DAMDBCLEPHL_ONSKIP_OFFSET UNITYSDK_OFFSET(0xDFC5320)
 #define DAMDBCLEPHL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDFC5290)
 
+inline static constexpr unsigned int DAMDBCLEPHL_TypeDefinitionIndex = 58569;
+
 	class DAMDBCLEPHL
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 #define DKGMHFOKNOJ_DGCBAFHIIPO_OFFSET UNITYSDK_OFFSET(0xF87B730)
 #define DKGMHFOKNOJ_FMEDGNOKIEC_OFFSET UNITYSDK_OFFSET(0xF87B860)
 
+inline static constexpr unsigned int DKGMHFOKNOJ_TypeDefinitionIndex = 59263;
+
 	class DKGMHFOKNOJ : public ::System::Object
 	{
 	public:

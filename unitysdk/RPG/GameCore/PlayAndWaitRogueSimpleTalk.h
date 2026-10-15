@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RogueTalkInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayAndWaitRogueSimpleTalk_TypeDefinitionIndex = 21114;
+
 	class PlayAndWaitRogueSimpleTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

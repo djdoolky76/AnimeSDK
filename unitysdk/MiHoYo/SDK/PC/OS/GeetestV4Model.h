@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int GeetestV4Model_TypeDefinitionIndex = 8492;
+
 	class GeetestV4Model : public ::System::Object
 	{
 	public:

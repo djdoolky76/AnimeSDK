@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CPGHDGPPBJH_SET_UIINDEX_OFFSET UNITYSDK_OFFSET(0xDCD45B0)
 #define CPGHDGPPBJH_SET_UIMINIEFFECTPATH_OFFSET UNITYSDK_OFFSET(0xDCD4570)
 
+inline static constexpr unsigned int CPGHDGPPBJH_TypeDefinitionIndex = 81011;
+
 	class CPGHDGPPBJH : public ::System::Object
 	{
 	public:

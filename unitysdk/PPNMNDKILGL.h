@@ -66,6 +66,8 @@ namespace System { class String; }
 #define PPNMNDKILGL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFE0420)
 #define PPNMNDKILGL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFE0480)
 
+inline static constexpr unsigned int PPNMNDKILGL_TypeDefinitionIndex = 26509;
+
 	class PPNMNDKILGL : public ::System::Object
 	{
 	public:

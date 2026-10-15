@@ -9,6 +9,8 @@ class MHLFFIDFHLA;
 #define OGDCBDFEKEP_GGFPKCJHKLF_OFFSET UNITYSDK_OFFSET(0xBE54700)
 #define OGDCBDFEKEP_MBCIEONJPAK_OFFSET UNITYSDK_OFFSET(0xBE53AE0)
 
+inline static constexpr unsigned int OGDCBDFEKEP_TypeDefinitionIndex = 54072;
+
 	class OGDCBDFEKEP : public ::System::Object
 	{
 	public:

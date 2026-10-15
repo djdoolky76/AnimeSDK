@@ -41,6 +41,8 @@ namespace UnityEngine { class Animation; }
 #define AAJLLHNKBDE_ONRETURN_OFFSET UNITYSDK_OFFSET(0xB0C7BC0)
 #define AAJLLHNKBDE__ONBIND_OFFSET UNITYSDK_OFFSET(0xB0C77F0)
 
+inline static constexpr unsigned int AAJLLHNKBDE_TypeDefinitionIndex = 71400;
+
 	class AAJLLHNKBDE : public ::FMPCODLIOLG
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define AKSHOWONLYATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5C12B0)
 
+inline static constexpr unsigned int AkShowOnlyAttribute_TypeDefinitionIndex = 44851;
+
 	class AkShowOnlyAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:

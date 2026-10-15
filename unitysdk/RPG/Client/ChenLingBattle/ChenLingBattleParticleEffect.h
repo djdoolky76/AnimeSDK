@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int ChenLingBattleParticleEffect_TypeDefinitionIndex = 76405;
+
 	class ChenLingBattleParticleEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

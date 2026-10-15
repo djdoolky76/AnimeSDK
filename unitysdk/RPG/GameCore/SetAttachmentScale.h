@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetAttachmentScale_TypeDefinitionIndex = 22377;
+
 	class SetAttachmentScale : public ::RPG::GameCore::TaskConfig
 	{
 	public:

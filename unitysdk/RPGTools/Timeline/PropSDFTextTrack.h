@@ -13,6 +13,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int PropSDFTextTrack_TypeDefinitionIndex = 48247;
+
 	class PropSDFTextTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:

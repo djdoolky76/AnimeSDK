@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WolfBroGunFire_TypeDefinitionIndex = 20175;
+
 	class WolfBroGunFire : public ::RPG::GameCore::TaskConfig
 	{
 	public:

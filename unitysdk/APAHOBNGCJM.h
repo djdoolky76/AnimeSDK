@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChenLingBattleAbility_WaitTime; }
 #define APAHOBNGCJM_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x158C89F0)
 #define APAHOBNGCJM_NBBBMBCHLGH_OFFSET UNITYSDK_OFFSET(0x158C8950)
 
+inline static constexpr unsigned int APAHOBNGCJM_TypeDefinitionIndex = 77918;
+
 	class APAHOBNGCJM : public ::JNALBIEDNLH
 	{
 	public:

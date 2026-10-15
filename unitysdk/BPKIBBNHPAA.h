@@ -37,6 +37,8 @@ namespace System { class String; }
 #define BPKIBBNHPAA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E04A7F0)
 #define BPKIBBNHPAA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E04A850)
 
+inline static constexpr unsigned int BPKIBBNHPAA_TypeDefinitionIndex = 32138;
+
 	class BPKIBBNHPAA : public ::System::Object
 	{
 	public:

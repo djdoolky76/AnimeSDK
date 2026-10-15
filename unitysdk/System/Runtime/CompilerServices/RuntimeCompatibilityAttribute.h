@@ -7,6 +7,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int RuntimeCompatibilityAttribute_TypeDefinitionIndex = 1366;
+
 	class RuntimeCompatibilityAttribute : public ::System::Attribute
 	{
 	public:

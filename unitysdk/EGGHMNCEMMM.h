@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class Text; }
 #define EGGHMNCEMMM_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x14518540)
 #define EGGHMNCEMMM__ONBIND_OFFSET UNITYSDK_OFFSET(0x145184A0)
 
+inline static constexpr unsigned int EGGHMNCEMMM_TypeDefinitionIndex = 72318;
+
 	class EGGHMNCEMMM : public ::FMPCODLIOLG
 	{
 	public:

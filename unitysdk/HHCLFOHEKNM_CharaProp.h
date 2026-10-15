@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int HHCLFOHEKNM_CharaProp_TypeDefinitionIndex = 69966;
+
 	enum class HHCLFOHEKNM_CharaProp : ::System::Int32
 	{
 		Maps = 2,

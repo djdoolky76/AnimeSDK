@@ -4,6 +4,8 @@
 
 #define MHDGPIKDOBB_DJDICILNBEF_OFFSET UNITYSDK_OFFSET(0x1DD72240)
 
+inline static constexpr unsigned int MHDGPIKDOBB_TypeDefinitionIndex = 6411;
+
 	class MHDGPIKDOBB : public ::System::Object
 	{
 	public:

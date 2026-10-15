@@ -13,6 +13,8 @@ namespace System { template <typename T> class Func_1; }
 #define JANKDPCJDKH__PROCESSALLTABLE_D__7_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1D011480)
 #define JANKDPCJDKH__PROCESSALLTABLE_D__7_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1CFD6E90)
 
+inline static constexpr unsigned int JANKDPCJDKH__ProcessAllTable_d__7_TypeDefinitionIndex = 13253;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
 	class JANKDPCJDKH__ProcessAllTable_d__7 : public ::System::Object
 	{

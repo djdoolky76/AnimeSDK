@@ -3,6 +3,8 @@
 
 namespace Entitas
 {
+	inline static constexpr unsigned int ICompoundMatcher_1_TypeDefinitionIndex = 10040;
+
 	template <typename T>
 	class ICompoundMatcher_1
 	{

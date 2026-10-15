@@ -45,6 +45,8 @@ namespace UnityEngine { class AnimatorOverrideController; }
 #define HECPPNNADJE_SET_LAYERINDEX_OFFSET UNITYSDK_OFFSET(0x15C486F0)
 #define HECPPNNADJE_SET_PRELOADFREESTYLEMOTIONID_OFFSET UNITYSDK_OFFSET(0x15C486A0)
 
+inline static constexpr unsigned int HECPPNNADJE_TypeDefinitionIndex = 57292;
+
 	class HECPPNNADJE : public ::System::Object
 	{
 	public:

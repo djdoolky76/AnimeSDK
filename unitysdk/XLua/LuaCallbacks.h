@@ -7,6 +7,8 @@
 
 namespace XLua
 {
+	inline static constexpr unsigned int LuaCallbacks_TypeDefinitionIndex = 50258;
+
 	class LuaCallbacks : public ::System::Object
 	{
 	public:

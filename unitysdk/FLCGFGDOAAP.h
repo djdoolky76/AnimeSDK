@@ -28,6 +28,8 @@ namespace UnityEngine { class Transform; }
 #define FLCGFGDOAAP_NBDCEHAOGLM_OFFSET UNITYSDK_OFFSET(0x1582AFE0)
 #define FLCGFGDOAAP_SET_LOADPERCENT_OFFSET UNITYSDK_OFFSET(0x1582B7F0)
 
+inline static constexpr unsigned int FLCGFGDOAAP_TypeDefinitionIndex = 69135;
+
 	class FLCGFGDOAAP : public ::System::Object
 	{
 	public:

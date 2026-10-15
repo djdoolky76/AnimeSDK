@@ -14,6 +14,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_TriggerIceEffect_TypeDefinitionIndex = 16095;
+
 	class DiceCombatTaskConfig_TriggerIceEffect : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

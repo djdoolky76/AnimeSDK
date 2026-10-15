@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::GCFreeClosure
 {
+	inline static constexpr unsigned int SValue_Writer_1___c_TypeDefinitionIndex = 4476;
+
 	template <typename T>
 	class SValue_Writer_1___c : public ::System::Object
 	{

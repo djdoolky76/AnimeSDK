@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define IHCBCCNGOBL_OEMEMGAJAGB_OFFSET UNITYSDK_OFFSET(0x164193D0)
 #define IHCBCCNGOBL_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0x164195E0)
 
+inline static constexpr unsigned int IHCBCCNGOBL_TypeDefinitionIndex = 80219;
+
 	class IHCBCCNGOBL : public ::System::Object
 	{
 	public:

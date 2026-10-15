@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightTraitSPBattleAreaRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightTraitSPBattleAreaRow_TypeDefinitionIndex = 13682;
+
 	class GridFightTraitSPBattleAreaRow : public ::System::Object
 	{
 	public:

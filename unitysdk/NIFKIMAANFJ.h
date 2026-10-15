@@ -27,6 +27,8 @@ namespace System { class String; }
 #define NIFKIMAANFJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB2CDA0)
 #define NIFKIMAANFJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB2CE00)
 
+inline static constexpr unsigned int NIFKIMAANFJ_TypeDefinitionIndex = 31024;
+
 	class NIFKIMAANFJ : public ::System::Object
 	{
 	public:

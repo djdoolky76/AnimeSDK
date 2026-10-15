@@ -34,6 +34,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int MatchThreeFighter_TypeDefinitionIndex = 76554;
+
 	class MatchThreeFighter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

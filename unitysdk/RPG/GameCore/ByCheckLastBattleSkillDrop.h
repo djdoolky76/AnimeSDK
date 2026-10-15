@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCheckLastBattleSkillDrop_TypeDefinitionIndex = 21764;
+
 	class ByCheckLastBattleSkillDrop : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

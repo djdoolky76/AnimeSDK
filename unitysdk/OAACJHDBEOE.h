@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 #define OAACJHDBEOE_GLELOFCFBCO_OFFSET UNITYSDK_OFFSET(0x1C4C88E0)
 
+inline static constexpr unsigned int OAACJHDBEOE_TypeDefinitionIndex = 41492;
+
 	class OAACJHDBEOE : public ::System::Object
 	{
 	public:

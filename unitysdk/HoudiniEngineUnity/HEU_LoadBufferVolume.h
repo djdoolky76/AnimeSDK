@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_LoadBufferVolume_TypeDefinitionIndex = 40609;
+
 	class HEU_LoadBufferVolume : public ::HoudiniEngineUnity::HEU_LoadBufferBase
 	{
 	public:

@@ -12,6 +12,8 @@ class HFJKOCDOAEH;
 #define BABDIOODJOE_SET_MAXFREEGOODSNUM_OFFSET UNITYSDK_OFFSET(0x15BCCAC0)
 #define BABDIOODJOE_UPDATE_OFFSET UNITYSDK_OFFSET(0x15BCCA30)
 
+inline static constexpr unsigned int BABDIOODJOE_TypeDefinitionIndex = 67704;
+
 	class BABDIOODJOE : public ::System::Object
 	{
 	public:

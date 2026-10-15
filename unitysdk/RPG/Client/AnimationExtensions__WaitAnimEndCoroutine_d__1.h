@@ -14,6 +14,8 @@ namespace UnityEngine { class Animation; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AnimationExtensions__WaitAnimEndCoroutine_d__1_TypeDefinitionIndex = 72768;
+
 	template <typename T>
 	class AnimationExtensions__WaitAnimEndCoroutine_d__1 : public ::System::Object
 	{

@@ -10,6 +10,8 @@ namespace System { class Nullable; }
 
 namespace RPG::Client::FateRin::HouguMap
 {
+	inline static constexpr unsigned int FateRinHouguMapViewModel___c__DisplayClass1_0_TypeDefinitionIndex = 80767;
+
 	class FateRinHouguMapViewModel___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

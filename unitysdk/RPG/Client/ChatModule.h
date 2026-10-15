@@ -112,6 +112,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChatModule_TypeDefinitionIndex = 63224;
+
 	class ChatModule : public ::RPG::Client::BaseModule
 	{
 	public:

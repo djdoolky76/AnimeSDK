@@ -27,6 +27,8 @@ namespace System { class String; }
 #define HCLAEGGMCFK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E542460)
 #define HCLAEGGMCFK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5424C0)
 
+inline static constexpr unsigned int HCLAEGGMCFK_TypeDefinitionIndex = 25785;
+
 	class HCLAEGGMCFK : public ::System::Object
 	{
 	public:

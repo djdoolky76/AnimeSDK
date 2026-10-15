@@ -9,6 +9,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int CompilationRelaxationsAttribute_TypeDefinitionIndex = 1380;
+
 	class CompilationRelaxationsAttribute : public ::System::Attribute
 	{
 	public:

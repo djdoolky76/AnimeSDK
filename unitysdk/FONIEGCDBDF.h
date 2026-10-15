@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FONIEGCDBDF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4001B0)
 #define FONIEGCDBDF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E400210)
 
+inline static constexpr unsigned int FONIEGCDBDF_TypeDefinitionIndex = 26674;
+
 	class FONIEGCDBDF : public ::System::Object
 	{
 	public:

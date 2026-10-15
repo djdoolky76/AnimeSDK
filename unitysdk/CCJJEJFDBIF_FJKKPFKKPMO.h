@@ -12,6 +12,8 @@ namespace UnityEngine { class Material; }
 #define CCJJEJFDBIF_FJKKPFKKPMO_NECEALBHFAB_OFFSET UNITYSDK_OFFSET(0xC7477C0)
 #define CCJJEJFDBIF_FJKKPFKKPMO_NHPDCPKMNAM_OFFSET UNITYSDK_OFFSET(0xC745A80)
 
+inline static constexpr unsigned int CCJJEJFDBIF_FJKKPFKKPMO_TypeDefinitionIndex = 60300;
+
 	class CCJJEJFDBIF_FJKKPFKKPMO : public ::System::Object
 	{
 	public:

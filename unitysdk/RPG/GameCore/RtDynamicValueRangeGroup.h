@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtDynamicValueRangeGroup_TypeDefinitionIndex = 17660;
+
 	class RtDynamicValueRangeGroup : public ::RPG::GameCore::JsonConfig
 	{
 	public:

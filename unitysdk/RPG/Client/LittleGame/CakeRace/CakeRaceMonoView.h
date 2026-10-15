@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceMonoView_TypeDefinitionIndex = 78156;
+
 	class CakeRaceMonoView : public ::RPG::Client::LittleGame::BaseMonoGenericView
 	{
 	public:

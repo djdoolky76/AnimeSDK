@@ -28,6 +28,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConfirmWithJoypad_TypeDefinitionIndex = 7997;
+
 	class ConfirmWithJoypad : public ::MiHoYo::SDK::UIElement
 	{
 	public:

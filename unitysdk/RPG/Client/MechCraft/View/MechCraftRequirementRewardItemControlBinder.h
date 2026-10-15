@@ -13,6 +13,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftRequirementRewardItemControlBinder_TypeDefinitionIndex = 80001;
+
 	class MechCraftRequirementRewardItemControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MKHPAECGJBE_SET_ADDSTATVALUEMAP_OFFSET UNITYSDK_OFFSET(0xB998060)
 #define MKHPAECGJBE_SET_NAME_OFFSET UNITYSDK_OFFSET(0xB998040)
 
+inline static constexpr unsigned int MKHPAECGJBE_TypeDefinitionIndex = 81667;
+
 	class MKHPAECGJBE : public ::System::Object
 	{
 	public:

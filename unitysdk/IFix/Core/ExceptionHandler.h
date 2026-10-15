@@ -8,6 +8,8 @@ namespace System { class Type; }
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int ExceptionHandler_TypeDefinitionIndex = 7113;
+
 	class ExceptionHandler : public ::System::Object
 	{
 	public:

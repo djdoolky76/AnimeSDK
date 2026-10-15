@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JEBJNMEDNEJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16619440)
 #define JEBJNMEDNEJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x166191D0)
 
+inline static constexpr unsigned int JEBJNMEDNEJ_TypeDefinitionIndex = 54861;
+
 	class JEBJNMEDNEJ
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 #define AELMAJAHPCP_OEJMLOPMIBP_OFFSET UNITYSDK_OFFSET(0xCF02A30)
 #define AELMAJAHPCP_PBFGIFDIAHM_OFFSET UNITYSDK_OFFSET(0xCF028F0)
 
+inline static constexpr unsigned int AELMAJAHPCP_TypeDefinitionIndex = 56185;
+
 	class AELMAJAHPCP : public ::System::Object
 	{
 	public:

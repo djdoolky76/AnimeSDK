@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MANBEICMCFK_CTOR_OFFSET UNITYSDK_OFFSET(0xB854EA0)
 #define MANBEICMCFK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB854ED0)
 
+inline static constexpr unsigned int MANBEICMCFK_TypeDefinitionIndex = 55363;
+
 	class MANBEICMCFK
 	{
 	public:

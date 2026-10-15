@@ -8,6 +8,8 @@ namespace RPG::GameCore { class SkillData; }
 #define MNKKKNJBIFL___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBA106A0)
 #define MNKKKNJBIFL___C__DISPLAYCLASS8_0__SETUPSKILL_B__0_OFFSET UNITYSDK_OFFSET(0xBA10F80)
 
+inline static constexpr unsigned int MNKKKNJBIFL___c__DisplayClass8_0_TypeDefinitionIndex = 71929;
+
 	class MNKKKNJBIFL___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

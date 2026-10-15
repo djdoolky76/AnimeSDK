@@ -12,6 +12,8 @@ namespace System::Security::Cryptography { class SHA1Internal; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int SHA1CryptoServiceProvider_TypeDefinitionIndex = 1083;
+
 	class SHA1CryptoServiceProvider : public ::System::Security::Cryptography::SHA1
 	{
 	public:

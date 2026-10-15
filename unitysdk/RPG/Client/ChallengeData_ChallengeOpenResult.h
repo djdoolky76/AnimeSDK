@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengeData_ChallengeOpenResult_TypeDefinitionIndex = 63086;
+
 	struct alignas(8) ChallengeData_ChallengeOpenResult
 	{
 		::System::Boolean IsOpen; // 0x10

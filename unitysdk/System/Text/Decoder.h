@@ -20,6 +20,8 @@ namespace System::Text { class DecoderFallbackBuffer; }
 
 namespace System::Text
 {
+	inline static constexpr unsigned int Decoder_TypeDefinitionIndex = 467;
+
 	class Decoder : public ::System::Object
 	{
 	public:

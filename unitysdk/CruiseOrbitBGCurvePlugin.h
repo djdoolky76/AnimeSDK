@@ -46,6 +46,8 @@ namespace UnityEngine { class Transform; }
 #define CRUISEORBITBGCURVEPLUGIN_TRANSFERROTATIONNODESTATE_OFFSET UNITYSDK_OFFSET(0xDFB8680)
 #define CRUISEORBITBGCURVEPLUGIN__FINDNEXTNONDEATHSECTIONSTARTDISTANCE_OFFSET UNITYSDK_OFFSET(0xDFB6380)
 
+inline static constexpr unsigned int CruiseOrbitBGCurvePlugin_TypeDefinitionIndex = 47333;
+
 	class CruiseOrbitBGCurvePlugin : public ::UnityEngine::MonoBehaviour
 	{
 	public:

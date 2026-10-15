@@ -10,6 +10,8 @@ namespace System::ComponentModel { class PropertyChangedEventArgs; }
 #define OOCDFIHJMOG_LNEPAFGAPJH_OFFSET UNITYSDK_OFFSET(0xBF6FE50)
 #define OOCDFIHJMOG_NGEJHKGHOEK_OFFSET UNITYSDK_OFFSET(0xBF6FCD0)
 
+inline static constexpr unsigned int OOCDFIHJMOG_TypeDefinitionIndex = 65135;
+
 	class OOCDFIHJMOG : public ::KKPPDDOFADO
 	{
 	public:

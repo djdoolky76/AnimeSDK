@@ -4,6 +4,8 @@
 
 #define NONOFPLPIFB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D243B60)
 
+inline static constexpr unsigned int NONOFPLPIFB_TypeDefinitionIndex = 25011;
+
 	class NONOFPLPIFB : public ::IEAMIIFFDKL
 	{
 	public:

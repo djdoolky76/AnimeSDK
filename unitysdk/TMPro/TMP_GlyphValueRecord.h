@@ -18,6 +18,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_GlyphValueRecord_TypeDefinitionIndex = 44589;
+
 	struct alignas(4) TMP_GlyphValueRecord
 	{
 		::System::Single m_XPlacement; // 0x10

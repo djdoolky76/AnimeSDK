@@ -39,6 +39,8 @@ namespace UnityEngine::UI::Collections { template <typename T> class IndexedSet_
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int GraphicRaycaster_TypeDefinitionIndex = 6719;
+
 	class GraphicRaycaster : public ::UnityEngine::EventSystems::BaseRaycaster
 	{
 	public:

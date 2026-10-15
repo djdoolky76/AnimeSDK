@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int SwitchProControllerMFiNativeProfile_TypeDefinitionIndex = 41250;
+
 	class SwitchProControllerMFiNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

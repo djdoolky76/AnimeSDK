@@ -23,6 +23,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int ConsoleWelcomeDialog_TypeDefinitionIndex = 9014;
+
 	class ConsoleWelcomeDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:

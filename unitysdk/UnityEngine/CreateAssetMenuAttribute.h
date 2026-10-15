@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int CreateAssetMenuAttribute_TypeDefinitionIndex = 4305;
+
 	class CreateAssetMenuAttribute : public ::System::Attribute
 	{
 	public:

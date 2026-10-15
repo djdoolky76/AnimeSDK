@@ -10,6 +10,8 @@ namespace System { class String; }
 #define IPJNOKFHMHD_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C6E5AE0)
 #define IPJNOKFHMHD_JAFKLIEFNFJ_OFFSET UNITYSDK_OFFSET(0x1C6E5BD0)
 
+inline static constexpr unsigned int IPJNOKFHMHD_TypeDefinitionIndex = 36857;
+
 	class IPJNOKFHMHD : public ::System::Object
 	{
 	public:

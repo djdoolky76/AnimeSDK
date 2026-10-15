@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimPlayShootArrowAnimAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimPlayShootArrowAnimAction_TypeDefinitionIndex = 18727;
+
 	class FiveDimPlayShootArrowAnimAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

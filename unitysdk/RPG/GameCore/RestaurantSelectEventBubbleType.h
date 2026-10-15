@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RestaurantSelectEventBubbleType_TypeDefinitionIndex = 11327;
+
 	enum class RestaurantSelectEventBubbleType : ::System::Int32
 	{
 		Unknown = 0,

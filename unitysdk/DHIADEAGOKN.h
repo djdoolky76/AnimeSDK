@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DHIADEAGOKN_CTOR_OFFSET UNITYSDK_OFFSET(0xEBDC930)
 #define DHIADEAGOKN_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xEBDC840)
 
+inline static constexpr unsigned int DHIADEAGOKN_TypeDefinitionIndex = 62278;
+
 	class DHIADEAGOKN : public ::System::Object
 	{
 	public:

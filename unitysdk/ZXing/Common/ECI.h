@@ -7,6 +7,8 @@
 
 namespace ZXing::Common
 {
+	inline static constexpr unsigned int ECI_TypeDefinitionIndex = 6968;
+
 	class ECI : public ::System::Object
 	{
 	public:

@@ -20,6 +20,8 @@ namespace UnityEngine::UI { class Text; }
 #define GKNJNGAHDDM_PPNLGMDOEHF_OFFSET UNITYSDK_OFFSET(0x15AA5360)
 #define GKNJNGAHDDM__ONBIND_OFFSET UNITYSDK_OFFSET(0x15AA4820)
 
+inline static constexpr unsigned int GKNJNGAHDDM_TypeDefinitionIndex = 71992;
+
 	class GKNJNGAHDDM : public ::FMPCODLIOLG
 	{
 	public:

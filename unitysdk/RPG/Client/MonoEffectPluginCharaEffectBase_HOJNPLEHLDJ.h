@@ -14,6 +14,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginCharaEffectBase_HOJNPLEHLDJ_TypeDefinitionIndex = 69941;
+
 	class MonoEffectPluginCharaEffectBase_HOJNPLEHLDJ : public ::System::Object
 	{
 	public:

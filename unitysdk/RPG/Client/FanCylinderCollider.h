@@ -10,6 +10,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FanCylinderCollider_TypeDefinitionIndex = 68902;
+
 	class FanCylinderCollider : public ::RPG::Client::BaseCustomCollider
 	{
 	public:

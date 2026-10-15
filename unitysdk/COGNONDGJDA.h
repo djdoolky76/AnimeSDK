@@ -27,6 +27,8 @@ namespace System { class String; }
 #define COGNONDGJDA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E133B60)
 #define COGNONDGJDA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E133BC0)
 
+inline static constexpr unsigned int COGNONDGJDA_TypeDefinitionIndex = 34262;
+
 	class COGNONDGJDA : public ::System::Object
 	{
 	public:

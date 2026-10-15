@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ItemUseBuffDataRow_TypeDefinitionIndex = 13877;
+
 	class ItemUseBuffDataRow : public ::System::Object
 	{
 	public:

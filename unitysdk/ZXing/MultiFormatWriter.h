@@ -31,6 +31,8 @@ namespace ZXing::Common { class BitMatrix; }
 
 namespace ZXing
 {
+	inline static constexpr unsigned int MultiFormatWriter_TypeDefinitionIndex = 6964;
+
 	class MultiFormatWriter : public ::System::Object
 	{
 	public:

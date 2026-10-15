@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageHarmonyTrafficLightMonoPlugin_IntersectionPhase_PhaseValueActionPair_TypeDefinitionIndex = 71002;
+
 	class StageHarmonyTrafficLightMonoPlugin_IntersectionPhase_PhaseValueActionPair : public ::System::Object
 	{
 	public:

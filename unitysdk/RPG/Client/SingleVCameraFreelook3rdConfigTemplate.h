@@ -8,6 +8,8 @@ namespace RPG::GameCore { class VCameraFreelook3rdConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SingleVCameraFreelook3rdConfigTemplate_TypeDefinitionIndex = 69753;
+
 	class SingleVCameraFreelook3rdConfigTemplate : public ::System::Object
 	{
 	public:

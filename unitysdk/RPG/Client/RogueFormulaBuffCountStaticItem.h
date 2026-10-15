@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueFormulaBuffCountStaticItem_TypeDefinitionIndex = 67212;
+
 	class RogueFormulaBuffCountStaticItem : public ::RPG::Client::RogueFormulaBuffCountItemBase
 	{
 	public:

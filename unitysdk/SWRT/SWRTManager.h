@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace SWRT
 {
+	inline static constexpr unsigned int SWRTManager_TypeDefinitionIndex = 37512;
+
 	class SWRTManager : public ::System::Object
 	{
 	public:

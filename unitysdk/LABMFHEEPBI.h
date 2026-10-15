@@ -39,6 +39,8 @@ namespace System { class String; }
 #define LABMFHEEPBI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8C6F70)
 #define LABMFHEEPBI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8C6FD0)
 
+inline static constexpr unsigned int LABMFHEEPBI_TypeDefinitionIndex = 28003;
+
 	class LABMFHEEPBI : public ::System::Object
 	{
 	public:

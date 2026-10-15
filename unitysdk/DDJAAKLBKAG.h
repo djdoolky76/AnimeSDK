@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define DDJAAKLBKAG_GET_TRAITSTEXT_OFFSET UNITYSDK_OFFSET(0xE4DF0B0)
 #define DDJAAKLBKAG_HLNPCKOBGBA_OFFSET UNITYSDK_OFFSET(0xE4DF9E0)
 
+inline static constexpr unsigned int DDJAAKLBKAG_TypeDefinitionIndex = 79595;
+
 	class DDJAAKLBKAG : public ::System::Object
 	{
 	public:

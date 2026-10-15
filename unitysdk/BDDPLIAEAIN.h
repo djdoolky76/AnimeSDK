@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicString; }
 #define BDDPLIAEAIN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCFC9D0)
 #define BDDPLIAEAIN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCFC960)
 
+inline static constexpr unsigned int BDDPLIAEAIN_TypeDefinitionIndex = 22679;
+
 	class BDDPLIAEAIN : public ::RPG::GameCore::TaskConfig
 	{
 	public:

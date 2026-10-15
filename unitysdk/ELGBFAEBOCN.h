@@ -34,6 +34,8 @@ namespace System { class String; }
 #define ELGBFAEBOCN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2CF160)
 #define ELGBFAEBOCN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2CF1C0)
 
+inline static constexpr unsigned int ELGBFAEBOCN_TypeDefinitionIndex = 34289;
+
 	class ELGBFAEBOCN : public ::System::Object
 	{
 	public:

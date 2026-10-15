@@ -29,6 +29,8 @@ namespace System { class String; }
 #define EAHLPCJGLPD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E22A6A0)
 #define EAHLPCJGLPD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E22A700)
 
+inline static constexpr unsigned int EAHLPCJGLPD_TypeDefinitionIndex = 31059;
+
 	class EAHLPCJGLPD : public ::System::Object
 	{
 	public:

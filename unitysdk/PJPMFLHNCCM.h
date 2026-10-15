@@ -18,6 +18,8 @@ namespace Entitas { class IGroup; }
 #define PJPMFLHNCCM_PJDJLFFOFDH_OFFSET UNITYSDK_OFFSET(0xC29F6D0)
 #define PJPMFLHNCCM_PPBCKOFNNCE_OFFSET UNITYSDK_OFFSET(0xC29F9D0)
 
+inline static constexpr unsigned int PJPMFLHNCCM_TypeDefinitionIndex = 76661;
+
 	class PJPMFLHNCCM : public ::System::Object
 	{
 	public:

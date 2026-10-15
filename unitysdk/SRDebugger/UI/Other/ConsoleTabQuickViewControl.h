@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace SRDebugger::UI::Other
 {
+	inline static constexpr unsigned int ConsoleTabQuickViewControl_TypeDefinitionIndex = 38001;
+
 	class ConsoleTabQuickViewControl : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

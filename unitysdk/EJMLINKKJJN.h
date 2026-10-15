@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EJMLINKKJJN_SET_ISINCHUNK_OFFSET UNITYSDK_OFFSET(0x154EF3D0)
 #define EJMLINKKJJN_SET_TARGETTEAM_OFFSET UNITYSDK_OFFSET(0x154EF3B0)
 
+inline static constexpr unsigned int EJMLINKKJJN_TypeDefinitionIndex = 57733;
+
 	class EJMLINKKJJN : public ::System::Object
 	{
 	public:

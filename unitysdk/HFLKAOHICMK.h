@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HFLKAOHICMK_POHEIGDPBBO_1_OFFSET UNITYSDK_OFFSET(0x15C8AE10)
 #define HFLKAOHICMK_POHEIGDPBBO_OFFSET UNITYSDK_OFFSET(0x15C8AE80)
 
+inline static constexpr unsigned int HFLKAOHICMK_TypeDefinitionIndex = 76622;
+
 	class HFLKAOHICMK : public ::System::Object
 	{
 	public:

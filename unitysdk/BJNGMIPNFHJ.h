@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define BJNGMIPNFHJ_PEAHIFLMDPI_OFFSET UNITYSDK_OFFSET(0x1DD0E990)
 #define BJNGMIPNFHJ_PHLCEMNKOOD_OFFSET UNITYSDK_OFFSET(0x1DD0F460)
 
+inline static constexpr unsigned int BJNGMIPNFHJ_TypeDefinitionIndex = 6182;
+
 	class BJNGMIPNFHJ : public ::System::Object
 	{
 	public:

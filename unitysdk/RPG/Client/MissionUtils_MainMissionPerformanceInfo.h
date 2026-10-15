@@ -7,6 +7,8 @@ namespace RPG::GameCore { class PerformanceSortedItem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionUtils_MainMissionPerformanceInfo_TypeDefinitionIndex = 66192;
+
 	class MissionUtils_MainMissionPerformanceInfo : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsInCustomTeamFormation_TypeDefinitionIndex = 22641;
+
 	class ByIsInCustomTeamFormation : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

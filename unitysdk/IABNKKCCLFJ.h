@@ -11,6 +11,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define IABNKKCCLFJ_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x15DFE120)
 #define IABNKKCCLFJ_MFCOINKALKA_OFFSET UNITYSDK_OFFSET(0x15DFE0D0)
 
+inline static constexpr unsigned int IABNKKCCLFJ_TypeDefinitionIndex = 70161;
+
 	class IABNKKCCLFJ : public ::BEAIJJCDJHO
 	{
 	public:

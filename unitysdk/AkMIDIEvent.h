@@ -58,6 +58,8 @@ class AkMIDIEvent_tProgramChange;
 #define AKMIDIEVENT_SET_PITCHBEND_OFFSET UNITYSDK_OFFSET(0x1F59E0F0)
 #define AKMIDIEVENT_SET_PROGRAMCHANGE_OFFSET UNITYSDK_OFFSET(0x1F59E790)
 
+inline static constexpr unsigned int AkMIDIEvent_TypeDefinitionIndex = 44750;
+
 	class AkMIDIEvent : public ::System::Object
 	{
 	public:

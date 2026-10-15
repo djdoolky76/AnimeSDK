@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define DAHHFHFHLJK_START_OFFSET UNITYSDK_OFFSET(0xDFC2E80)
 #define DAHHFHFHLJK_STOP_OFFSET UNITYSDK_OFFSET(0xDFC2F70)
 
+inline static constexpr unsigned int DAHHFHFHLJK_TypeDefinitionIndex = 62797;
+
 	class DAHHFHFHLJK : public ::BHPMNMMGLHI
 	{
 	public:

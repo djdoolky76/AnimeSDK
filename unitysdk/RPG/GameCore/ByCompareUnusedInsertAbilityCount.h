@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareUnusedInsertAbilityCount_TypeDefinitionIndex = 23051;
+
 	class ByCompareUnusedInsertAbilityCount : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

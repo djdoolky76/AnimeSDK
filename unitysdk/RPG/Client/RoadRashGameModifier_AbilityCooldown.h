@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoadRashGameModifier_AbilityCooldown_TypeDefinitionIndex = 10301;
+
 	class RoadRashGameModifier_AbilityCooldown : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:

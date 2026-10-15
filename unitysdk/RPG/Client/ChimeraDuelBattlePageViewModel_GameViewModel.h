@@ -38,6 +38,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelBattlePageViewModel_GameViewModel_TypeDefinitionIndex = 63397;
+
 	class ChimeraDuelBattlePageViewModel_GameViewModel : public ::System::Object
 	{
 	public:

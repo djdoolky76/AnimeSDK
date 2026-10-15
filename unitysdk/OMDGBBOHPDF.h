@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OMDGBBOHPDF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEB1740)
 #define OMDGBBOHPDF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEB17A0)
 
+inline static constexpr unsigned int OMDGBBOHPDF_TypeDefinitionIndex = 26582;
+
 	class OMDGBBOHPDF : public ::System::Object
 	{
 	public:

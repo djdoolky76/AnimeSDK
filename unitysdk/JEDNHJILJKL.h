@@ -7,6 +7,8 @@ namespace RPG::Client { class ActivityRewardCountData; }
 #define JEDNHJILJKL_CTOR_OFFSET UNITYSDK_OFFSET(0x1661DF00)
 #define JEDNHJILJKL_HBGAMHIEDJC_OFFSET UNITYSDK_OFFSET(0x1661DF50)
 
+inline static constexpr unsigned int JEDNHJILJKL_TypeDefinitionIndex = 61788;
+
 	class JEDNHJILJKL : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ class MLINDDMKFFA;
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftExamDetailControl___c__DisplayClass9_0_TypeDefinitionIndex = 79959;
+
 	class MechCraftExamDetailControl___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

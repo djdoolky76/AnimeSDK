@@ -17,6 +17,8 @@ namespace UnityEngine { class ShaderVariantCollection; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ShaderVariantCollection_TypeDefinitionIndex = 4386;
+
 	class ShaderVariantCollection : public ::UnityEngine::Object
 	{
 	public:

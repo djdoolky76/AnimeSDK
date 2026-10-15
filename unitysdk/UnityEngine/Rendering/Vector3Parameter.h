@@ -7,6 +7,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int Vector3Parameter_TypeDefinitionIndex = 35647;
+
 	class Vector3Parameter
 	{
 	public:

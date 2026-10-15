@@ -17,6 +17,8 @@ namespace System { class String; }
 #define IMABGHCOMFF_NJEIKCMMJPG_OFFSET UNITYSDK_OFFSET(0x1C4A2580)
 #define IMABGHCOMFF_OCNMECOOLON_OFFSET UNITYSDK_OFFSET(0x1C4A2480)
 
+inline static constexpr unsigned int IMABGHCOMFF_TypeDefinitionIndex = 41517;
+
 	class IMABGHCOMFF : public ::System::Object
 	{
 	public:

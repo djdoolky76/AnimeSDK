@@ -11,6 +11,8 @@ namespace System { class String; }
 #define NKPKLBAACHC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D230FA0)
 #define NKPKLBAACHC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D230AC0)
 
+inline static constexpr unsigned int NKPKLBAACHC_TypeDefinitionIndex = 12491;
+
 	class NKPKLBAACHC : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Threading { class CancellationTokenSource; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int CancellationTokenExtensions__ToCancellationTokenCore_d__6_TypeDefinitionIndex = 38135;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	struct alignas(8) CancellationTokenExtensions__ToCancellationTokenCore_d__6
 	{

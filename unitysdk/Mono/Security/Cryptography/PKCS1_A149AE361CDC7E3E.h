@@ -9,6 +9,8 @@ namespace System::Security::Cryptography { class HashAlgorithm; }
 
 namespace Mono::Security::Cryptography
 {
+	inline static constexpr unsigned int PKCS1_A149AE361CDC7E3E_TypeDefinitionIndex = 2306;
+
 	class PKCS1_A149AE361CDC7E3E : public ::System::Object
 	{
 	public:

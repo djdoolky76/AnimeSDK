@@ -8,6 +8,8 @@ namespace System { class String; }
 #define INHFIAFLODC_CLDGGINEOFD_OFFSET UNITYSDK_OFFSET(0x1CC85B40)
 #define INHFIAFLODC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC8D460)
 
+inline static constexpr unsigned int INHFIAFLODC_TypeDefinitionIndex = 43839;
+
 	class INHFIAFLODC : public ::DCMGMHEFMNH
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarkTargetForFutureReviveAbility_TypeDefinitionIndex = 23716;
+
 	class MarkTargetForFutureReviveAbility : public ::RPG::GameCore::TaskConfig
 	{
 	public:

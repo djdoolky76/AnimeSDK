@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowBillboardInStoryMode_TypeDefinitionIndex = 20467;
+
 	class ShowBillboardInStoryMode : public ::RPG::GameCore::TaskConfig
 	{
 	public:

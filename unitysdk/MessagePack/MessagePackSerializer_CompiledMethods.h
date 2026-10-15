@@ -26,6 +26,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MessagePackSerializer_CompiledMethods_TypeDefinitionIndex = 7216;
+
 	class MessagePackSerializer_CompiledMethods : public ::System::Object
 	{
 	public:

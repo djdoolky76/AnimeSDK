@@ -13,6 +13,8 @@ namespace RPG::GameCore { class AvatarPathItemTransferRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MultiPathAvatarUnlockItemTransfer_TypeDefinitionIndex = 66305;
+
 	class MultiPathAvatarUnlockItemTransfer : public ::System::Object
 	{
 	public:

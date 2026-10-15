@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int MessageOptions___c_TypeDefinitionIndex = 5493;
+
 	class MessageOptions___c : public ::System::Object
 	{
 	public:

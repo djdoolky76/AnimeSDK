@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Prop::PillarPuzzle
 {
+	inline static constexpr unsigned int PillarPuzzleBoardReverseNeighbour_TypeDefinitionIndex = 78968;
+
 	class PillarPuzzleBoardReverseNeighbour : public ::RPG::Client::Prop::PillarPuzzle::PillarPuzzleBoard
 	{
 	public:

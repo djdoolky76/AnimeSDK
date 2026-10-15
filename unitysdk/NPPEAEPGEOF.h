@@ -35,6 +35,8 @@ namespace System { class String; }
 #define NPPEAEPGEOF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EBA1BD0)
 #define NPPEAEPGEOF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EBA1C30)
 
+inline static constexpr unsigned int NPPEAEPGEOF_TypeDefinitionIndex = 30657;
+
 	class NPPEAEPGEOF : public ::System::Object
 	{
 	public:

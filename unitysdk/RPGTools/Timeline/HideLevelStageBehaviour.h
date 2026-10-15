@@ -9,6 +9,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int HideLevelStageBehaviour_TypeDefinitionIndex = 48436;
+
 	class HideLevelStageBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

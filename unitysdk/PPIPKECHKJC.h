@@ -20,6 +20,8 @@ namespace RPG::Client::ParkourGame { class MonoParkourRoad_RoadTrigger; }
 #define PPIPKECHKJC_MPLPCDODCKA_OFFSET UNITYSDK_OFFSET(0xC38AB90)
 #define PPIPKECHKJC_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xC38A1E0)
 
+inline static constexpr unsigned int PPIPKECHKJC_TypeDefinitionIndex = 74225;
+
 	class PPIPKECHKJC : public ::System::Object
 	{
 	public:

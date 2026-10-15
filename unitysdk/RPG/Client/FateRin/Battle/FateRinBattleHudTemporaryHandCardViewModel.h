@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudTemporaryHandCardViewModel_TypeDefinitionIndex = 80925;
+
 	class FateRinBattleHudTemporaryHandCardViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

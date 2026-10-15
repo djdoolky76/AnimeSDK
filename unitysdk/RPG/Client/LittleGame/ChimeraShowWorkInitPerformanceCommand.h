@@ -11,6 +11,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int ChimeraShowWorkInitPerformanceCommand_TypeDefinitionIndex = 76647;
+
 	class ChimeraShowWorkInitPerformanceCommand : public ::System::Object
 	{
 	public:

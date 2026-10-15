@@ -16,6 +16,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_GlyphPairAdjustmentRecord_TypeDefinitionIndex = 44591;
+
 	class TMP_GlyphPairAdjustmentRecord : public ::System::Object
 	{
 	public:

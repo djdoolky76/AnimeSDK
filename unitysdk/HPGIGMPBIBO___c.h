@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HPGIGMPBIBO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5F5DD0)
 #define HPGIGMPBIBO___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E5F5DE0)
 
+inline static constexpr unsigned int HPGIGMPBIBO___c_TypeDefinitionIndex = 31261;
+
 	class HPGIGMPBIBO___c : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace MessagePack::Formatters { class IMessagePackFormatter; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int QuaternionFormatter_TypeDefinitionIndex = 7500;
+
 	class QuaternionFormatter : public ::System::Object
 	{
 	public:

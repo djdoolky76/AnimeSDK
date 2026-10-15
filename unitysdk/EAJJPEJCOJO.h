@@ -42,6 +42,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EAJJPEJCOJO_PKFIOFAAMGC_OFFSET UNITYSDK_OFFSET(0x1267CE30)
 #define EAJJPEJCOJO___ISHASSAMECONNECTPOINTKEYINREVERSETRANSINFOS_B__26_0_OFFSET UNITYSDK_OFFSET(0x12680B90)
 
+inline static constexpr unsigned int EAJJPEJCOJO_TypeDefinitionIndex = 74562;
+
 	class EAJJPEJCOJO : public ::System::Object
 	{
 	public:

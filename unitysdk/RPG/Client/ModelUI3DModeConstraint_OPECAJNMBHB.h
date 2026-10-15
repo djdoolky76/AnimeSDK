@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ModelUI3DModeConstraint_OPECAJNMBHB_TypeDefinitionIndex = 68512;
+
 	class ModelUI3DModeConstraint_OPECAJNMBHB : public ::System::Object
 	{
 	public:

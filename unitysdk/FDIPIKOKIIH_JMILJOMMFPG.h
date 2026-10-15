@@ -11,6 +11,8 @@ namespace System::Collections { class IEnumerable; }
 #define FDIPIKOKIIH_JMILJOMMFPG_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C4739B0)
 #define FDIPIKOKIIH_JMILJOMMFPG_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C473970)
 
+inline static constexpr unsigned int FDIPIKOKIIH_JMILJOMMFPG_TypeDefinitionIndex = 41440;
+
 	class FDIPIKOKIIH_JMILJOMMFPG : public ::System::MulticastDelegate
 	{
 	public:

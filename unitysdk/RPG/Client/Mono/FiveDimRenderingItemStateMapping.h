@@ -7,6 +7,8 @@ namespace RPG::Client::Mono { class FiveDimRenderingItemStateMappingValue; }
 
 namespace RPG::Client::Mono
 {
+	inline static constexpr unsigned int FiveDimRenderingItemStateMapping_TypeDefinitionIndex = 76025;
+
 	class FiveDimRenderingItemStateMapping : public ::UnityEngine::MonoBehaviour
 	{
 	public:

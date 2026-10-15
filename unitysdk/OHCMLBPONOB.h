@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int OHCMLBPONOB_TypeDefinitionIndex = 33868;
+
 	enum class OHCMLBPONOB : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

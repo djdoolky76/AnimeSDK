@@ -8,6 +8,8 @@ namespace System { class String; }
 #define AGLKOAMDEFB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCBF6F0)
 #define AGLKOAMDEFB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCBF3E0)
 
+inline static constexpr unsigned int AGLKOAMDEFB_TypeDefinitionIndex = 14415;
+
 	class AGLKOAMDEFB : public ::System::Object
 	{
 	public:

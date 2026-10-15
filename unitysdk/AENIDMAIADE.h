@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AENIDMAIADE_CTOR_OFFSET UNITYSDK_OFFSET(0xCF03640)
 #define AENIDMAIADE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCF03670)
 
+inline static constexpr unsigned int AENIDMAIADE_TypeDefinitionIndex = 54574;
+
 	class AENIDMAIADE
 	{
 	public:

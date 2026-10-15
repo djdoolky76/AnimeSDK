@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LocalizationManager_OnUITextLanguageChange_TypeDefinitionIndex = 61351;
+
 	class LocalizationManager_OnUITextLanguageChange : public ::System::MulticastDelegate
 	{
 	public:

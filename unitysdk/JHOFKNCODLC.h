@@ -25,6 +25,8 @@ namespace System { class String; }
 #define JHOFKNCODLC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7482B0)
 #define JHOFKNCODLC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E748310)
 
+inline static constexpr unsigned int JHOFKNCODLC_TypeDefinitionIndex = 28408;
+
 	class JHOFKNCODLC : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAISourceDynamicValue_TypeDefinitionIndex = 15543;
+
 	class ComplexSkillAISourceDynamicValue : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:

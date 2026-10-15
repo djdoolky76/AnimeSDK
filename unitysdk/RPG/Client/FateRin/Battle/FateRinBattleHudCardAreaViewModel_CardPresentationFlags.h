@@ -27,6 +27,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudCardAreaViewModel_CardPresentationFlags_TypeDefinitionIndex = 80889;
+
 	struct alignas(4) FateRinBattleHudCardAreaViewModel_CardPresentationFlags
 	{
 		::System::Boolean _MarkPendingFlyIn_k__BackingField; // 0x10

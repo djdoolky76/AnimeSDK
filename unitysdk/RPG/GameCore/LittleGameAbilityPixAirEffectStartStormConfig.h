@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameAbilityPixAirEffectStartStormConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityPixAirEffectStartStormConfig_TypeDefinitionIndex = 21364;
+
 	class LittleGameAbilityPixAirEffectStartStormConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:

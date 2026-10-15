@@ -4,6 +4,8 @@
 
 #define JPNPFNPCONL_CTOR_OFFSET UNITYSDK_OFFSET(0xB2CE5E0)
 
+inline static constexpr unsigned int JPNPFNPCONL_TypeDefinitionIndex = 78504;
+
 	class JPNPFNPCONL : public ::CLJGGIMAGGA
 	{
 	public:

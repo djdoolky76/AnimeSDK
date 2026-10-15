@@ -12,6 +12,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int SkillGridConfig_TypeDefinitionIndex = 52041;
+
 	class SkillGridConfig : public ::System::Object
 	{
 	public:

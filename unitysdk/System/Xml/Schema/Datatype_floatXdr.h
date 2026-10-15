@@ -11,6 +11,8 @@ namespace System::Xml { class XmlNameTable; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_floatXdr_TypeDefinitionIndex = 2147;
+
 	class Datatype_floatXdr : public ::System::Xml::Schema::Datatype_float
 	{
 	public:

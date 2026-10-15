@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_LoadBufferBase_TypeDefinitionIndex = 40607;
+
 	class HEU_LoadBufferBase : public ::System::Object
 	{
 	public:

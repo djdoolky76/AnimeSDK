@@ -26,6 +26,8 @@ namespace System { class Object; }
 #define DCCDKNMNNMC___INITCONTROLLERCALLBACK_B__8_0_OFFSET UNITYSDK_OFFSET(0xE23AB10)
 #define DCCDKNMNNMC___INITCONTROLLERCALLBACK_B__8_1_OFFSET UNITYSDK_OFFSET(0xE23ABD0)
 
+inline static constexpr unsigned int DCCDKNMNNMC_TypeDefinitionIndex = 58662;
+
 	class DCCDKNMNNMC : public ::GELIALJDFBL
 	{
 	public:

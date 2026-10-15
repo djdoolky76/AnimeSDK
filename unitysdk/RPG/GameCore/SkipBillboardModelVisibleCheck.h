@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SkipBillboardModelVisibleCheck_TypeDefinitionIndex = 20463;
+
 	class SkipBillboardModelVisibleCheck : public ::RPG::GameCore::TaskConfig
 	{
 	public:

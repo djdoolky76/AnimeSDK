@@ -3,6 +3,8 @@
 
 namespace Newtonsoft::Json
 {
+	inline static constexpr unsigned int FloatFormatHandling_TypeDefinitionIndex = 9582;
+
 	enum class FloatFormatHandling : ::System::Int32
 	{
 		String = 0,

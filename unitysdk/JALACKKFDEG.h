@@ -45,6 +45,8 @@ namespace System { class String; }
 #define JALACKKFDEG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6EFE50)
 #define JALACKKFDEG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6EFEB0)
 
+inline static constexpr unsigned int JALACKKFDEG_TypeDefinitionIndex = 27943;
+
 	class JALACKKFDEG : public ::System::Object
 	{
 	public:

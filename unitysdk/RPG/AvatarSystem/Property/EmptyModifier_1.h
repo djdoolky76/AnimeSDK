@@ -5,6 +5,8 @@ namespace RPG::AvatarSystem::Property { template <typename T> class EmptyModifie
 
 namespace RPG::AvatarSystem::Property
 {
+	inline static constexpr unsigned int EmptyModifier_1_TypeDefinitionIndex = 52003;
+
 	template <typename T>
 	class EmptyModifier_1 : public ::System::Object
 	{

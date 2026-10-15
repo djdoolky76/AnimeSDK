@@ -12,6 +12,8 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Unity
 {
+	inline static constexpr unsigned int BoundsFormatter_TypeDefinitionIndex = 10123;
+
 	class BoundsFormatter : public ::System::Object
 	{
 	public:

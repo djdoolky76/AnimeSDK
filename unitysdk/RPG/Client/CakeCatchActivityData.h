@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeCatchActivityData_TypeDefinitionIndex = 61598;
+
 	class CakeCatchActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

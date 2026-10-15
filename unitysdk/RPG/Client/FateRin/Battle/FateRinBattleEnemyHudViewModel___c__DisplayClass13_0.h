@@ -9,6 +9,8 @@ namespace RPG::Client::FateRin::Battle { class FateRinBattleEnemyHudSingleViewMo
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleEnemyHudViewModel___c__DisplayClass13_0_TypeDefinitionIndex = 80868;
+
 	class FateRinBattleEnemyHudViewModel___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

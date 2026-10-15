@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AMFDADDOJIE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1557C8E0)
 #define AMFDADDOJIE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1557C920)
 
+inline static constexpr unsigned int AMFDADDOJIE_TypeDefinitionIndex = 55374;
+
 	class AMFDADDOJIE
 	{
 	public:

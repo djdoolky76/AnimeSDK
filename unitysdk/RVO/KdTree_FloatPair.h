@@ -9,6 +9,8 @@
 
 namespace RVO
 {
+	inline static constexpr unsigned int KdTree_FloatPair_TypeDefinitionIndex = 46029;
+
 	struct alignas(4) KdTree_FloatPair
 	{
 		::System::Single a_; // 0x10

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropInteractionTrigger_ButtonParam_TypeDefinitionIndex = 57523;
+
 	class PropInteractionTrigger_ButtonParam : public ::System::Object
 	{
 	public:

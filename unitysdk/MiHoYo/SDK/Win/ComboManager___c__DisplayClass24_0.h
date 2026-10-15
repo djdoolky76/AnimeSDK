@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int ComboManager___c__DisplayClass24_0_TypeDefinitionIndex = 9422;
+
 	class ComboManager___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:

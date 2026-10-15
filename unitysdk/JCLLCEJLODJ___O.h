@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class NotifyHandler; }
 
+inline static constexpr unsigned int JCLLCEJLODJ___O_TypeDefinitionIndex = 62199;
+
 	class JCLLCEJLODJ___O : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System::Text { class StringBuilder; }
 #define IEOOKKEPHFL_PRINTMEMBERS_OFFSET UNITYSDK_OFFSET(0x3C52A10)
 #define IEOOKKEPHFL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C52A00)
 
+inline static constexpr unsigned int IEOOKKEPHFL_TypeDefinitionIndex = 44201;
+
 	struct alignas(8) IEOOKKEPHFL
 	{
 		::Il2CppArray<::DEIPGFGBEMG*>* ACJMMAMOOLF; // 0x10

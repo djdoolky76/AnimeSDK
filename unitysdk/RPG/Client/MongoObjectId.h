@@ -61,6 +61,8 @@ namespace System { class Type; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MongoObjectId_TypeDefinitionIndex = 35291;
+
 	struct alignas(4) MongoObjectId
 	{
 		::System::UInt32 _LoPart; // 0x10

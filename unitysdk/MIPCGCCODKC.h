@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MIPCGCCODKC_PPJPJNMHINL_OFFSET UNITYSDK_OFFSET(0xB962440)
 #define MIPCGCCODKC_TICK_OFFSET UNITYSDK_OFFSET(0xB962310)
 
+inline static constexpr unsigned int MIPCGCCODKC_TypeDefinitionIndex = 52128;
+
 	class MIPCGCCODKC
 	{
 	public:

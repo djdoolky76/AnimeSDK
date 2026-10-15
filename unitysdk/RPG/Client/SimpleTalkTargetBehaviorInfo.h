@@ -7,6 +7,8 @@ namespace RPG::GameCore { class SimpleTalkTargetBehavior; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SimpleTalkTargetBehaviorInfo_TypeDefinitionIndex = 60756;
+
 	class SimpleTalkTargetBehaviorInfo : public ::System::Object
 	{
 	public:

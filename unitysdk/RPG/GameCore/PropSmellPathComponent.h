@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropSmellPathComponent_TypeDefinitionIndex = 17579;
+
 	class PropSmellPathComponent : public ::RPG::GameCore::PropTagComponent
 	{
 	public:

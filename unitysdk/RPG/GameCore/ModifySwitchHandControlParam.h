@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ModifySwitchHandControlParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifySwitchHandControlParam_TypeDefinitionIndex = 20961;
+
 	class ModifySwitchHandControlParam : public ::RPG::GameCore::TaskConfig
 	{
 	public:

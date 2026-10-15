@@ -5,6 +5,8 @@ class ECNEEKNHIOE;
 
 #define DCCNEKPBIDA_CTOR_OFFSET UNITYSDK_OFFSET(0xE240420)
 
+inline static constexpr unsigned int DCCNEKPBIDA_TypeDefinitionIndex = 80565;
+
 	class DCCNEKPBIDA : public ::System::Object
 	{
 	public:

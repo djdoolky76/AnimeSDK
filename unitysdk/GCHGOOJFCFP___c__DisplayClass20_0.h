@@ -8,6 +8,8 @@ namespace RPG::Client::LittleGame::CakeRace { class CakeRaceCellWrapperMonoView;
 #define GCHGOOJFCFP___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1596F890)
 #define GCHGOOJFCFP___C__DISPLAYCLASS20_0___PLAYCELLAPPEARANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x1596F8A0)
 
+inline static constexpr unsigned int GCHGOOJFCFP___c__DisplayClass20_0_TypeDefinitionIndex = 78090;
+
 	class GCHGOOJFCFP___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

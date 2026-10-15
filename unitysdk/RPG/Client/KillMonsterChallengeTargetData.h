@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int KillMonsterChallengeTargetData_TypeDefinitionIndex = 63114;
+
 	class KillMonsterChallengeTargetData : public ::RPG::Client::BaseChallengeTargetData
 	{
 	public:

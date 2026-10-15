@@ -11,6 +11,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace RPGTools::Octree::Generation
 {
+	inline static constexpr unsigned int OctreeNodeNativeChildren_TypeDefinitionIndex = 48879;
+
 	struct alignas(4) OctreeNodeNativeChildren
 	{
 		::System::Int32 Child0; // 0x10

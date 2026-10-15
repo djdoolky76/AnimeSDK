@@ -8,6 +8,8 @@ class NGGIGGMKJPC;
 #define NGGIGGMKJPC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D206B80)
 #define NGGIGGMKJPC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D206B40)
 
+inline static constexpr unsigned int NGGIGGMKJPC_TypeDefinitionIndex = 21476;
+
 	class NGGIGGMKJPC : public ::RPG::GameCore::TaskConfig
 	{
 	public:

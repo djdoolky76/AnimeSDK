@@ -4,6 +4,8 @@
 
 #define LBDPOFAICGB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8FBF90)
 
+inline static constexpr unsigned int LBDPOFAICGB_TypeDefinitionIndex = 42146;
+
 	class LBDPOFAICGB : public ::System::Object
 	{
 	public:

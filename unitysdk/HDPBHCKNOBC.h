@@ -31,6 +31,8 @@ namespace System { class String; }
 #define HDPBHCKNOBC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E553FD0)
 #define HDPBHCKNOBC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E554030)
 
+inline static constexpr unsigned int HDPBHCKNOBC_TypeDefinitionIndex = 28058;
+
 	class HDPBHCKNOBC : public ::System::Object
 	{
 	public:

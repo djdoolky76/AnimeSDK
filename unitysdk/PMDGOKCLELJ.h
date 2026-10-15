@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PMDGOKCLELJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFA9440)
 #define PMDGOKCLELJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFA94A0)
 
+inline static constexpr unsigned int PMDGOKCLELJ_TypeDefinitionIndex = 30799;
+
 	class PMDGOKCLELJ : public ::System::Object
 	{
 	public:

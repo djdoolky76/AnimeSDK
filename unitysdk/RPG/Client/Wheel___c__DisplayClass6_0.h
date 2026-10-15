@@ -11,6 +11,8 @@ namespace UnityEngine { class MeshRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Wheel___c__DisplayClass6_0_TypeDefinitionIndex = 70763;
+
 	class Wheel___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

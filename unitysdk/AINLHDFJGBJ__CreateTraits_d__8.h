@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define AINLHDFJGBJ__CREATETRAITS_D__8___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x12CAD810)
 #define AINLHDFJGBJ__CREATETRAITS_D__8___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0x12CAD820)
 
+inline static constexpr unsigned int AINLHDFJGBJ__CreateTraits_d__8_TypeDefinitionIndex = 65110;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
 	class AINLHDFJGBJ__CreateTraits_d__8 : public ::System::Object
 	{

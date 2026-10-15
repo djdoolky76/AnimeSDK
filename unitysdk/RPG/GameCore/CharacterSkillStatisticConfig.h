@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterSkillStatisticConfig_TypeDefinitionIndex = 16531;
+
 	class CharacterSkillStatisticConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

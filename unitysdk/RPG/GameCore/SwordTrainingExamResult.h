@@ -9,6 +9,8 @@ namespace RPG::GameCore { class SwordTrainingExamResult; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwordTrainingExamResult_TypeDefinitionIndex = 12423;
+
 	class SwordTrainingExamResult : public ::System::Object
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int ACJNPGBJEFE_TypeDefinitionIndex = 24742;
+
 	enum class ACJNPGBJEFE : ::System::Int32
 	{
 		HGLIFJGHADE = 0,

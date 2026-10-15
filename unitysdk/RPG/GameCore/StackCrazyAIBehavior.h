@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StackCrazyAIBehavior_TypeDefinitionIndex = 23639;
+
 	class StackCrazyAIBehavior : public ::RPG::GameCore::TaskConfig
 	{
 	public:

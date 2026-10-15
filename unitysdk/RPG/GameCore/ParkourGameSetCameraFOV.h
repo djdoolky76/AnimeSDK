@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ParkourGameSetCameraFOV; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ParkourGameSetCameraFOV_TypeDefinitionIndex = 20981;
+
 	class ParkourGameSetCameraFOV : public ::RPG::GameCore::TaskConfig
 	{
 	public:

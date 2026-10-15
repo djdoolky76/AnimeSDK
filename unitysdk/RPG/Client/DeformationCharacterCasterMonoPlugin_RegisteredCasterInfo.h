@@ -8,6 +8,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DeformationCharacterCasterMonoPlugin_RegisteredCasterInfo_TypeDefinitionIndex = 70272;
+
 	class DeformationCharacterCasterMonoPlugin_RegisteredCasterInfo : public ::System::Object
 	{
 	public:

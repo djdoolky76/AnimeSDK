@@ -12,6 +12,8 @@ namespace System { class String; }
 #define AKILPHPMMBF_GMFJFBJFMFH_OFFSET UNITYSDK_OFFSET(0x12CD43C0)
 #define AKILPHPMMBF_NDMBDGKAJEK_OFFSET UNITYSDK_OFFSET(0x12CD40E0)
 
+inline static constexpr unsigned int AKILPHPMMBF_TypeDefinitionIndex = 65294;
+
 	class AKILPHPMMBF : public ::HEOLKMLMPML
 	{
 	public:

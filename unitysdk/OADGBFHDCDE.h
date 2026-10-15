@@ -49,6 +49,8 @@ namespace System { class String; }
 #define OADGBFHDCDE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EBA5940)
 #define OADGBFHDCDE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EBA59A0)
 
+inline static constexpr unsigned int OADGBFHDCDE_TypeDefinitionIndex = 26434;
+
 	class OADGBFHDCDE : public ::System::Object
 	{
 	public:

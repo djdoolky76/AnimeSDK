@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCoinIconControl_TypeDefinitionIndex = 79811;
+
 	class MechCraftCoinIconControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

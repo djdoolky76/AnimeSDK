@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ANECGBMKMBC_NODEDJMPKMP_OFFSET UNITYSDK_OFFSET(0x15593FC0)
 #define ANECGBMKMBC_TICK_OFFSET UNITYSDK_OFFSET(0x15593970)
 
+inline static constexpr unsigned int ANECGBMKMBC_TypeDefinitionIndex = 60754;
+
 	class ANECGBMKMBC : public ::System::Object
 	{
 	public:

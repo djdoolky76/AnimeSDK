@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExtraBuffSelectReduceNumberConfig; 
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExtraBuffSelectReduceNumberConfig_TypeDefinitionIndex = 17974;
+
 	class RogueModifierExtraBuffSelectReduceNumberConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

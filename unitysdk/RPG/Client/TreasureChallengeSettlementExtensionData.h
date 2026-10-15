@@ -18,6 +18,8 @@ namespace RPG::GameCore { class RaidConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TreasureChallengeSettlementExtensionData_TypeDefinitionIndex = 66787;
+
 	class TreasureChallengeSettlementExtensionData : public ::System::Object
 	{
 	public:

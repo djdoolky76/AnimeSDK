@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DisposeUnManagerResCb_TypeDefinitionIndex = 35563;
+
 	class DisposeUnManagerResCb : public ::System::MulticastDelegate
 	{
 	public:

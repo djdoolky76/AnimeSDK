@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define OOGKJMFLNPO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBF7CAA0)
 #define OOGKJMFLNPO_TICK_OFFSET UNITYSDK_OFFSET(0xBF7CAF0)
 
+inline static constexpr unsigned int OOGKJMFLNPO_TypeDefinitionIndex = 52939;
+
 	class OOGKJMFLNPO
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResourceOverallRow_TypeDefinitionIndex = 14654;
+
 	class ResourceOverallRow : public ::System::Object
 	{
 	public:

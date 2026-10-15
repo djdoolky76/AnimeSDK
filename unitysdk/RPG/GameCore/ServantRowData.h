@@ -91,6 +91,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ServantRowData_TypeDefinitionIndex = 56937;
+
 	class ServantRowData : public ::System::Object
 	{
 	public:

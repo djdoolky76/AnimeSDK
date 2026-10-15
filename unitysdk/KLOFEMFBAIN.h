@@ -12,6 +12,8 @@ class GHMGGIHEHJE;
 #define KLOFEMFBAIN_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0xB536350)
 #define KLOFEMFBAIN_SET_SERVICES_OFFSET UNITYSDK_OFFSET(0xB536460)
 
+inline static constexpr unsigned int KLOFEMFBAIN_TypeDefinitionIndex = 75817;
+
 	class KLOFEMFBAIN : public ::System::Object
 	{
 	public:

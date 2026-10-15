@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitWolfBroPuzzleStartup; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitWolfBroPuzzleStartup_TypeDefinitionIndex = 21994;
+
 	class WaitWolfBroPuzzleStartup : public ::RPG::GameCore::TaskConfig
 	{
 	public:

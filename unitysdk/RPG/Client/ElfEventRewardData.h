@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfEventRewardData_TypeDefinitionIndex = 63668;
+
 	class ElfEventRewardData : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_File_Range_TypeDefinitionIndex = 46379;
+
 	class SecurityTunnel_File_Range : public ::System::Object
 	{
 	public:

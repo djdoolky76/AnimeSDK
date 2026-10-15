@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMagicTalentNodeData_TypeDefinitionIndex = 67442;
+
 	class RogueMagicTalentNodeData : public ::System::Object
 	{
 	public:

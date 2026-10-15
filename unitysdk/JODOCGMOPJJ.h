@@ -6,6 +6,8 @@ class HHAKEEKGKIJ;
 
 #define JODOCGMOPJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA7750)
 
+inline static constexpr unsigned int JODOCGMOPJJ_TypeDefinitionIndex = 42230;
+
 	class JODOCGMOPJJ : public ::System::Object
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LNLAOECCCDM_SET_LEVELSTATE_OFFSET UNITYSDK_OFFSET(0xB7E5CA0)
 #define LNLAOECCCDM_SET_SECTIONS_OFFSET UNITYSDK_OFFSET(0xB7E5CE0)
 
+inline static constexpr unsigned int LNLAOECCCDM_TypeDefinitionIndex = 78109;
+
 	class LNLAOECCCDM : public ::System::Object
 	{
 	public:

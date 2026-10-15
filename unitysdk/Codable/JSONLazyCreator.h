@@ -41,6 +41,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace Codable
 {
+	inline static constexpr unsigned int JSONLazyCreator_TypeDefinitionIndex = 46084;
+
 	class JSONLazyCreator : public ::Codable::JSONNode
 	{
 	public:

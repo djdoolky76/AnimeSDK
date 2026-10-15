@@ -4,6 +4,8 @@
 class ODGPPIHLOFF;
 namespace System { class String; }
 
+inline static constexpr unsigned int OILJNBBECDA_TypeDefinitionIndex = 49533;
+
 	class OILJNBBECDA
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierDisableAttributeAppendByCategoryCon
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierDisableAttributeAppendByCategoryConfig_TypeDefinitionIndex = 17844;
+
 	class RogueModifierDisableAttributeAppendByCategoryConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

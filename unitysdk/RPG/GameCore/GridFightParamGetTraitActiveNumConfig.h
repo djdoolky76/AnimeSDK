@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamGetTraitActiveNumConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamGetTraitActiveNumConfig_TypeDefinitionIndex = 19508;
+
 	class GridFightParamGetTraitActiveNumConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

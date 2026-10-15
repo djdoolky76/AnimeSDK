@@ -9,6 +9,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int NullConsoleDriver_TypeDefinitionIndex = 411;
+
 	class NullConsoleDriver : public ::System::Object
 	{
 	public:

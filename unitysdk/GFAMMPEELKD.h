@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GFAMMPEELKD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E45F980)
 #define GFAMMPEELKD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E45F9E0)
 
+inline static constexpr unsigned int GFAMMPEELKD_TypeDefinitionIndex = 33768;
+
 	class GFAMMPEELKD : public ::System::Object
 	{
 	public:

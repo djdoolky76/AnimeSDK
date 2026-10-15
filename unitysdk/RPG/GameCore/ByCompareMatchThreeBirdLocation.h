@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareMatchThreeBirdLocation_TypeDefinitionIndex = 20983;
+
 	class ByCompareMatchThreeBirdLocation : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyShopPricePartiallyOnGenConfig
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyShopPricePartiallyOnGenConfig_TypeDefinitionIndex = 17745;
+
 	class RogueModifierModifyShopPricePartiallyOnGenConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

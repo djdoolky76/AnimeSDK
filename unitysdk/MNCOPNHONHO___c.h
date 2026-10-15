@@ -14,6 +14,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define MNCOPNHONHO___C__CREATECAMERAVIEW_B__126_0_OFFSET UNITYSDK_OFFSET(0xBA03740)
 #define MNCOPNHONHO___C__REPORTGAMEEND_B__326_0_OFFSET UNITYSDK_OFFSET(0xBA03760)
 
+inline static constexpr unsigned int MNCOPNHONHO___c_TypeDefinitionIndex = 76689;
+
 	class MNCOPNHONHO___c : public ::System::Object
 	{
 	public:

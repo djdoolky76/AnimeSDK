@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceStageViewModel_Factory__CreateAll_d__4_TypeDefinitionIndex = 81578;
+
 	template <typename T1, typename T2, typename T3, typename T4>
 	class ChallengeTierceStageViewModel_Factory__CreateAll_d__4 : public ::System::Object
 	{

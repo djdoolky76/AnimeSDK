@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MainMissionPerformanceIndexConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MainMissionPerformanceIndexConfig_TypeDefinitionIndex = 19030;
+
 	class MainMissionPerformanceIndexConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

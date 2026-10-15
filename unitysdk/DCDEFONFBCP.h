@@ -17,6 +17,8 @@ namespace UnityEngine { class Animation; }
 #define DCDEFONFBCP_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xE240680)
 #define DCDEFONFBCP__ONBIND_OFFSET UNITYSDK_OFFSET(0xE2404C0)
 
+inline static constexpr unsigned int DCDEFONFBCP_TypeDefinitionIndex = 71454;
+
 	class DCDEFONFBCP : public ::FMPCODLIOLG
 	{
 	public:

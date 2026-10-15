@@ -11,6 +11,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterSetSkirtIKBehaviour_TypeDefinitionIndex = 47983;
+
 	class CharacterSetSkirtIKBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
 	public:

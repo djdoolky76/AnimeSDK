@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetDynamicValueByRogueBattleWinTime; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByRogueBattleWinTime_TypeDefinitionIndex = 21782;
+
 	class SetDynamicValueByRogueBattleWinTime : public ::RPG::GameCore::TaskConfig
 	{
 	public:

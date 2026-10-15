@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int StringBuffer_TypeDefinitionIndex = 9674;
+
 	struct alignas(8) StringBuffer
 	{
 		::Il2CppArray<::System::Char>* _buffer; // 0x10

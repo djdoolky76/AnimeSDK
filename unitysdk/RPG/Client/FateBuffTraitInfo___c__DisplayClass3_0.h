@@ -9,6 +9,8 @@ namespace RPG::Client { class FateBuffData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateBuffTraitInfo___c__DisplayClass3_0_TypeDefinitionIndex = 64002;
+
 	class FateBuffTraitInfo___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

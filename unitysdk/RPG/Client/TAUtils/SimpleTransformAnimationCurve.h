@@ -10,6 +10,8 @@ namespace RPG::Client::TAUtils { class Vector3AnimationCurve; }
 
 namespace RPG::Client::TAUtils
 {
+	inline static constexpr unsigned int SimpleTransformAnimationCurve_TypeDefinitionIndex = 73646;
+
 	class SimpleTransformAnimationCurve : public ::System::Object
 	{
 	public:

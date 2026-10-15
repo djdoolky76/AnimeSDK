@@ -9,6 +9,8 @@ namespace System::Text { class UTF32Encoding; }
 
 namespace System::Text
 {
+	inline static constexpr unsigned int UTF32Encoding_UTF32Decoder_TypeDefinitionIndex = 503;
+
 	class UTF32Encoding_UTF32Decoder : public ::System::Text::DecoderNLS
 	{
 	public:

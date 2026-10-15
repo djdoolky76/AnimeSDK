@@ -10,6 +10,8 @@ namespace RPG::Client { class IGamePhase; }
 #define APINEMNOKGD_HILHCKLBJOM_OFFSET UNITYSDK_OFFSET(0x15BABC50)
 #define APINEMNOKGD_NPJGONHMEOD_OFFSET UNITYSDK_OFFSET(0x15BAB9D0)
 
+inline static constexpr unsigned int APINEMNOKGD_TypeDefinitionIndex = 61191;
+
 	class APINEMNOKGD : public ::HDJIGMBHENE
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelAreSelectionsEqualPredicate; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelAreSelectionsEqualPredicate_TypeDefinitionIndex = 15977;
+
 	class ChimeraDuelAreSelectionsEqualPredicate : public ::RPG::GameCore::ChimeraDuelPredicateBase
 	{
 	public:

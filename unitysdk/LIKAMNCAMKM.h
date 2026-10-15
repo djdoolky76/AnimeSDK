@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LIKAMNCAMKM_NGGCPEFIKPH_OFFSET UNITYSDK_OFFSET(0xB6D4BF0)
 #define LIKAMNCAMKM_PGJFEMNEIBM_OFFSET UNITYSDK_OFFSET(0xB6D4D10)
 
+inline static constexpr unsigned int LIKAMNCAMKM_TypeDefinitionIndex = 49052;
+
 	class LIKAMNCAMKM : public ::System::Object
 	{
 	public:

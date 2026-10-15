@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_IsDefender; }
 #define KILHECEIOGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C711240)
 #define KILHECEIOGE_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C711260)
 
+inline static constexpr unsigned int KILHECEIOGE_TypeDefinitionIndex = 36353;
+
 	class KILHECEIOGE : public ::HHOHBHGLHHF
 	{
 	public:

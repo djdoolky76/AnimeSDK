@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Display_DisplaysUpdatedDelegate_TypeDefinitionIndex = 4113;
+
 	class Display_DisplaysUpdatedDelegate : public ::System::MulticastDelegate
 	{
 	public:

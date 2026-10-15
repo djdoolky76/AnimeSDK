@@ -6,6 +6,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineOrbitalTransposer_Heading_TypeDefinitionIndex = 39782;
+
 	struct alignas(4) CinemachineOrbitalTransposer_Heading
 	{
 		::Cinemachine::CinemachineOrbitalTransposer_Heading_HeadingDefinition m_Definition; // 0x10

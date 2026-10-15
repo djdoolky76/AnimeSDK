@@ -9,6 +9,8 @@ namespace System::Xml::Schema { class BitSet; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int QmarkNode_TypeDefinitionIndex = 2076;
+
 	class QmarkNode : public ::System::Xml::Schema::InteriorNode
 	{
 	public:

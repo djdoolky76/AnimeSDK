@@ -7,6 +7,8 @@ namespace System { class Action; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
+inline static constexpr unsigned int NBLMNKPFIBJ_TypeDefinitionIndex = 49870;
+
 	class NBLMNKPFIBJ : public ::System::Object
 	{
 	public:

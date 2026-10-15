@@ -20,6 +20,8 @@ namespace UnityEngine::UI { class Image; }
 #define GKJLNAFFAKO__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x15A9D8A0)
 #define GKJLNAFFAKO__UNBINDVIEW_OFFSET UNITYSDK_OFFSET(0x15A9D860)
 
+inline static constexpr unsigned int GKJLNAFFAKO_TypeDefinitionIndex = 71711;
+
 	class GKJLNAFFAKO : public ::RPG::Client::UIController
 	{
 	public:

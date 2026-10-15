@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define MDJICBJCOGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D14A640)
 #define MDJICBJCOGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D14A600)
 
+inline static constexpr unsigned int MDJICBJCOGE_TypeDefinitionIndex = 21436;
+
 	class MDJICBJCOGE : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -19,6 +19,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeSpaceCrisscrossGroupBehavior___c_TypeDefinitionIndex = 70203;
+
 	class TimeSpaceCrisscrossGroupBehavior___c : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine::Experimental::Animations { class IAnimationWindowPreview;
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int AnimationPreviewUpdateCallback_TypeDefinitionIndex = 38775;
+
 	class AnimationPreviewUpdateCallback : public ::System::Object
 	{
 	public:

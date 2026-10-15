@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define FCLMKLLIDPG_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0x1EC69CF0)
 #define FCLMKLLIDPG_PPCHOKBEHJJ_OFFSET UNITYSDK_OFFSET(0x1EC69DA0)
 
+inline static constexpr unsigned int FCLMKLLIDPG_TypeDefinitionIndex = 44309;
+
 	class FCLMKLLIDPG : public ::System::Object
 	{
 	public:

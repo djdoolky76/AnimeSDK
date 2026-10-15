@@ -11,6 +11,8 @@ namespace System::Net { class KnownHttpVerb; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int KnownHttpVerb_TypeDefinitionIndex = 2753;
+
 	class KnownHttpVerb : public ::System::Object
 	{
 	public:

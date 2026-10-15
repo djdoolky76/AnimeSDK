@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OLADPINOPKM__REPLACEPARTASYNC_B__2_0_OFFSET UNITYSDK_OFFSET(0xBEFF0D0)
 #define OLADPINOPKM__SETLIVERYASYNC_B__1_0_OFFSET UNITYSDK_OFFSET(0xBEFF0B0)
 
+inline static constexpr unsigned int OLADPINOPKM_TypeDefinitionIndex = 81767;
+
 	class OLADPINOPKM : public ::System::Object
 	{
 	public:

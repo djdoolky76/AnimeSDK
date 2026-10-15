@@ -10,6 +10,8 @@ class OCKFDCAINLB;
 #define LALNKCACGOE_PGCLIMDKKBF_OFFSET UNITYSDK_OFFSET(0xB5E70E0)
 #define LALNKCACGOE_POMFIOCOCEG_OFFSET UNITYSDK_OFFSET(0xB5E71A0)
 
+inline static constexpr unsigned int LALNKCACGOE_TypeDefinitionIndex = 80128;
+
 	class LALNKCACGOE : public ::System::Object
 	{
 	public:

@@ -34,6 +34,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingChallengeMatchPageControl_TypeDefinitionIndex = 81830;
+
 	class B51RacingChallengeMatchPageControl : public ::Sofa::BaseSofaControl
 	{
 	public:

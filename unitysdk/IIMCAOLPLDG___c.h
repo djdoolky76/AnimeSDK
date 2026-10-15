@@ -10,6 +10,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define IIMCAOLPLDG___C__GETEQUIPMENTPROPERTYLIST_B__11_0_OFFSET UNITYSDK_OFFSET(0x1644DB80)
 #define IIMCAOLPLDG___C___TOPROPERTYMODIFYDATA_B__10_0_OFFSET UNITYSDK_OFFSET(0x1644DB00)
 
+inline static constexpr unsigned int IIMCAOLPLDG___c_TypeDefinitionIndex = 73268;
+
 	class IIMCAOLPLDG___c : public ::System::Object
 	{
 	public:

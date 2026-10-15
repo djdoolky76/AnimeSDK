@@ -15,6 +15,8 @@ namespace System { class String; }
 #define LINCNNLGGMB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0FD2C0)
 #define LINCNNLGGMB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0FD210)
 
+inline static constexpr unsigned int LINCNNLGGMB_TypeDefinitionIndex = 24221;
+
 	class LINCNNLGGMB : public ::RPG::GameCore::TaskConfig
 	{
 	public:

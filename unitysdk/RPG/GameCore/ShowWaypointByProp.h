@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowWaypointByProp_TypeDefinitionIndex = 20874;
+
 	class ShowWaypointByProp : public ::RPG::GameCore::TaskConfig
 	{
 	public:

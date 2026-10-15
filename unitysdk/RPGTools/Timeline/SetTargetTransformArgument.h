@@ -7,6 +7,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SetTargetTransformArgument_TypeDefinitionIndex = 48426;
+
 	class SetTargetTransformArgument : public ::System::Object
 	{
 	public:

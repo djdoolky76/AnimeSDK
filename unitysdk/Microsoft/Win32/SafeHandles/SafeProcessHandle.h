@@ -10,6 +10,8 @@ namespace Microsoft::Win32::SafeHandles { class SafeProcessHandle; }
 
 namespace Microsoft::Win32::SafeHandles
 {
+	inline static constexpr unsigned int SafeProcessHandle_TypeDefinitionIndex = 2456;
+
 	class SafeProcessHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid
 	{
 	public:

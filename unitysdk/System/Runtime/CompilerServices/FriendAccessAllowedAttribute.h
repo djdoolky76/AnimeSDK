@@ -6,6 +6,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int FriendAccessAllowedAttribute_TypeDefinitionIndex = 1388;
+
 	class FriendAccessAllowedAttribute : public ::System::Attribute
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define AKCOMMONUSERSETTINGS_SPATIALAUDIOSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F589A10)
 
+inline static constexpr unsigned int AkCommonUserSettings_SpatialAudioSettings_TypeDefinitionIndex = 44838;
+
 	class AkCommonUserSettings_SpatialAudioSettings : public ::System::Object
 	{
 	public:

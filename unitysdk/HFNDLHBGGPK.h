@@ -8,6 +8,8 @@ class HNLKNLJBHDD;
 #define HFNDLHBGGPK_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x1C6652B0)
 #define HFNDLHBGGPK_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x1C664F00)
 
+inline static constexpr unsigned int HFNDLHBGGPK_TypeDefinitionIndex = 37139;
+
 	class HFNDLHBGGPK : public ::System::Object
 	{
 	public:

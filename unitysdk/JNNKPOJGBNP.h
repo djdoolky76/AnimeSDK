@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JNNKPOJGBNP_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB28EEE0)
 #define JNNKPOJGBNP_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xB28F130)
 
+inline static constexpr unsigned int JNNKPOJGBNP_TypeDefinitionIndex = 82274;
+
 	class JNNKPOJGBNP : public ::KAANKGHDHCB
 	{
 	public:

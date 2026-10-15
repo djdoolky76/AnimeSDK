@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int MovieGamePlacement_TypeDefinitionIndex = 76612;
+
 	class MovieGamePlacement : public ::RPG::Client::LittleGame::BaseMonoView
 	{
 	public:

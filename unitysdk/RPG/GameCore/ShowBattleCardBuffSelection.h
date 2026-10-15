@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ShowBattleCardBuffSelection; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowBattleCardBuffSelection_TypeDefinitionIndex = 22544;
+
 	class ShowBattleCardBuffSelection : public ::RPG::GameCore::TaskConfig
 	{
 	public:

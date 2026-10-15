@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ElfBehaviorStateConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfBehaviorStateConfig_TypeDefinitionIndex = 18500;
+
 	class ElfBehaviorStateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

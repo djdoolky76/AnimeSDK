@@ -165,6 +165,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HNLKNLJBHDD_PGMDHIOEBHA_OFFSET UNITYSDK_OFFSET(0x1C67EF10)
 #define HNLKNLJBHDD_PMEJOMNJIDE_OFFSET UNITYSDK_OFFSET(0x1C6792C0)
 
+inline static constexpr unsigned int HNLKNLJBHDD_TypeDefinitionIndex = 37021;
+
 	class HNLKNLJBHDD : public ::Entitas::Entity
 	{
 	public:

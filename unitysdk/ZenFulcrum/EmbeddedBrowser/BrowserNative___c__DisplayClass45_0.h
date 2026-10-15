@@ -10,6 +10,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class FileLocations_CEFDirs; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative___c__DisplayClass45_0_TypeDefinitionIndex = 39464;
+
 	class BrowserNative___c__DisplayClass45_0 : public ::System::Object
 	{
 	public:

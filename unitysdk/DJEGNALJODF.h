@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DJEGNALJODF_PENLOOKMGKI_OFFSET UNITYSDK_OFFSET(0xF22F960)
 #define DJEGNALJODF_PPGMAACEAPL_OFFSET UNITYSDK_OFFSET(0xF22FF50)
 
+inline static constexpr unsigned int DJEGNALJODF_TypeDefinitionIndex = 65583;
+
 	class DJEGNALJODF : public ::System::Object
 	{
 	public:

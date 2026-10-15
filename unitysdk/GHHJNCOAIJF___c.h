@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define GHHJNCOAIJF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15A20AA0)
 #define GHHJNCOAIJF___C__SEND_B__6_0_OFFSET UNITYSDK_OFFSET(0x15A20AB0)
 
+inline static constexpr unsigned int GHHJNCOAIJF___c_TypeDefinitionIndex = 69355;
+
 	class GHHJNCOAIJF___c : public ::System::Object
 	{
 	public:

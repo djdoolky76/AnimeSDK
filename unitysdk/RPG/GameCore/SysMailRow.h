@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SysMailRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SysMailRow_TypeDefinitionIndex = 15209;
+
 	class SysMailRow : public ::System::Object
 	{
 	public:

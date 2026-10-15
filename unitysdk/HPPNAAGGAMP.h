@@ -65,6 +65,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 #define HPPNAAGGAMP_PBODNKNHCKL_OFFSET UNITYSDK_OFFSET(0x15DDFB70)
 #define HPPNAAGGAMP_PMCDEPDPEBO_OFFSET UNITYSDK_OFFSET(0x15DE13A0)
 
+inline static constexpr unsigned int HPPNAAGGAMP_TypeDefinitionIndex = 48479;
+
 	class HPPNAAGGAMP : public ::System::Object
 	{
 	public:

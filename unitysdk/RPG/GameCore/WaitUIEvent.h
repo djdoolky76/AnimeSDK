@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitUIEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitUIEvent_TypeDefinitionIndex = 21705;
+
 	class WaitUIEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:

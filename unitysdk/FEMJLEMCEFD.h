@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FEMJLEMCEFD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E368B80)
 #define FEMJLEMCEFD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E368BE0)
 
+inline static constexpr unsigned int FEMJLEMCEFD_TypeDefinitionIndex = 28494;
+
 	class FEMJLEMCEFD : public ::System::Object
 	{
 	public:

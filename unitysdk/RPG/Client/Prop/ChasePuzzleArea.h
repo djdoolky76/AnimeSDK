@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChasePuzzleArea_TypeDefinitionIndex = 78221;
+
 	class ChasePuzzleArea : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int ShaderIDs_TypeDefinitionIndex = 6859;
+
 	class ShaderIDs : public ::System::Object
 	{
 	public:

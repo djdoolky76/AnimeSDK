@@ -8,6 +8,8 @@ namespace RPG::Client::Promises { class IPromise; }
 #define NLHACPDMPIC___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBC68FC0)
 #define NLHACPDMPIC___C__DISPLAYCLASS21_0__HANDLESHOWSHOPPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xBC6B620)
 
+inline static constexpr unsigned int NLHACPDMPIC___c__DisplayClass21_0_TypeDefinitionIndex = 76187;
+
 	class NLHACPDMPIC___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

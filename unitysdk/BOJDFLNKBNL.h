@@ -12,6 +12,8 @@ namespace RPG::Client { class MonoExUICamera_CameraOutInfo; }
 #define BOJDFLNKBNL_PEDFLCNLIOC_OFFSET UNITYSDK_OFFSET(0xC193A90)
 #define BOJDFLNKBNL_POAACIDJOKM_OFFSET UNITYSDK_OFFSET(0xC193A30)
 
+inline static constexpr unsigned int BOJDFLNKBNL_TypeDefinitionIndex = 72957;
+
 	class BOJDFLNKBNL : public ::GNGPLDGOEAI
 	{
 	public:

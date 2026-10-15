@@ -9,6 +9,8 @@
 #define HEGOGKKMBJD_KKHOFLGAOBN_OFFSET UNITYSDK_OFFSET(0x15C51D60)
 #define HEGOGKKMBJD_NOKHDPMPJCH_OFFSET UNITYSDK_OFFSET(0x15C51CE0)
 
+inline static constexpr unsigned int HEGOGKKMBJD_TypeDefinitionIndex = 59641;
+
 	class HEGOGKKMBJD : public ::System::Object
 	{
 	public:

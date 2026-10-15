@@ -32,6 +32,8 @@ namespace System { class String; }
 #define MIKGMGBHLEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA3D5D0)
 #define MIKGMGBHLEN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA3D630)
 
+inline static constexpr unsigned int MIKGMGBHLEN_TypeDefinitionIndex = 25896;
+
 	class MIKGMGBHLEN : public ::System::Object
 	{
 	public:

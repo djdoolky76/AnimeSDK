@@ -12,6 +12,8 @@ namespace RPG::GameCore { class UIMonopolyShowFinishedQuiz; }
 #define OADLGIEKLDK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBD1CD30)
 #define OADLGIEKLDK_TICK_OFFSET UNITYSDK_OFFSET(0xBD1CCD0)
 
+inline static constexpr unsigned int OADLGIEKLDK_TypeDefinitionIndex = 58834;
+
 	class OADLGIEKLDK : public ::GELIALJDFBL
 	{
 	public:

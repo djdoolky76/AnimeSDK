@@ -21,6 +21,8 @@ namespace UnityEngine { class Sprite; }
 
 namespace SRDebugger::UI::Other
 {
+	inline static constexpr unsigned int SRTab_TypeDefinitionIndex = 38011;
+
 	class SRTab : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

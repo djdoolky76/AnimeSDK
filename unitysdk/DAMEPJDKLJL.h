@@ -33,6 +33,8 @@ namespace System { class String; }
 #define DAMEPJDKLJL_OONGGAFCBCD_OFFSET UNITYSDK_OFFSET(0x1C4569F0)
 #define DAMEPJDKLJL_OPKLJKDABFL_OFFSET UNITYSDK_OFFSET(0x1C456E50)
 
+inline static constexpr unsigned int DAMEPJDKLJL_TypeDefinitionIndex = 41472;
+
 	class DAMEPJDKLJL : public ::System::Object
 	{
 	public:

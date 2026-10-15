@@ -59,6 +59,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int ExpressionStringBuilder_TypeDefinitionIndex = 3218;
+
 	class ExpressionStringBuilder : public ::System::Linq::Expressions::ExpressionVisitor
 	{
 	public:

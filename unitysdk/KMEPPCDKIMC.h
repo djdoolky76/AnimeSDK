@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define KMEPPCDKIMC_CCTOR_OFFSET UNITYSDK_OFFSET(0xB551CF0)
 
+inline static constexpr unsigned int KMEPPCDKIMC_TypeDefinitionIndex = 59065;
+
 	class KMEPPCDKIMC : public ::System::Object
 	{
 	public:

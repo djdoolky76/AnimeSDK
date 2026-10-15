@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OEAKPLCANOI___C__DISPLAYCLASS55_0___BUILDENTITIES_B__3_OFFSET UNITYSDK_OFFSET(0xBDFE5F0)
 #define OEAKPLCANOI___C__DISPLAYCLASS55_0___BUILDENTITIES_G__GETHIERARCHYDEPTH_0_OFFSET UNITYSDK_OFFSET(0xBDFE620)
 
+inline static constexpr unsigned int OEAKPLCANOI___c__DisplayClass55_0_TypeDefinitionIndex = 60404;
+
 	class OEAKPLCANOI___c__DisplayClass55_0 : public ::System::Object
 	{
 	public:

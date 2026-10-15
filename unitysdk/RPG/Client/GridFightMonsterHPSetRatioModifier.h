@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightMonsterHPSetRatioModifier_TypeDefinitionIndex = 65023;
+
 	class GridFightMonsterHPSetRatioModifier : public ::RPG::Client::GridFightGameModifier
 	{
 	public:

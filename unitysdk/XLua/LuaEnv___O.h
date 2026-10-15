@@ -5,6 +5,8 @@ namespace XLua::LuaDLL { class lua_CSFunction; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int LuaEnv___O_TypeDefinitionIndex = 50208;
+
 	class LuaEnv___O : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TiltCommonConfig_TypeDefinitionIndex = 60064;
+
 	class TiltCommonConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

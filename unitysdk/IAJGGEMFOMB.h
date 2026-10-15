@@ -73,6 +73,8 @@ namespace System::Collections::Immutable { template <typename T> class IImmutabl
 #define IAJGGEMFOMB___CTOR_B__57_9_OFFSET UNITYSDK_OFFSET(0x15E13170)
 #define IAJGGEMFOMB___GETBUFFAFFECTINGCELLS_B__63_2_OFFSET UNITYSDK_OFFSET(0x15E13400)
 
+inline static constexpr unsigned int IAJGGEMFOMB_TypeDefinitionIndex = 79480;
+
 	class IAJGGEMFOMB : public ::System::Object
 	{
 	public:

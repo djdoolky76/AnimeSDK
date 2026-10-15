@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define FIFPADNLPLB_CTOR_OFFSET UNITYSDK_OFFSET(0x157A5A00)
 
+inline static constexpr unsigned int FIFPADNLPLB_TypeDefinitionIndex = 47606;
+
 	class FIFPADNLPLB : public ::System::Object
 	{
 	public:

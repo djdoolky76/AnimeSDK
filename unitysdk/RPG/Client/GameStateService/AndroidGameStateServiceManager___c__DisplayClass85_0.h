@@ -11,6 +11,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace RPG::Client::GameStateService
 {
+	inline static constexpr unsigned int AndroidGameStateServiceManager___c__DisplayClass85_0_TypeDefinitionIndex = 75630;
+
 	class AndroidGameStateServiceManager___c__DisplayClass85_0 : public ::System::Object
 	{
 	public:

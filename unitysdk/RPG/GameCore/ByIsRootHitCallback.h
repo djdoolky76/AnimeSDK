@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsRootHitCallback_TypeDefinitionIndex = 23499;
+
 	class ByIsRootHitCallback : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

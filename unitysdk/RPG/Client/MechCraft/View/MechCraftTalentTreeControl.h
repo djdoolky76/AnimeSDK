@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftTalentTreeControl_TypeDefinitionIndex = 80054;
+
 	class MechCraftTalentTreeControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

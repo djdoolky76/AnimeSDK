@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CRPRenderObjectFlag_TypeDefinitionIndex = 37516;
+
 	enum class CRPRenderObjectFlag : ::System::Int32
 	{
 		kRONone = 0,

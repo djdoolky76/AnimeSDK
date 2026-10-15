@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEntityUseInsertAbility_TypeDefinitionIndex = 56754;
+
 	class LevelEntityUseInsertAbility : public ::CMPGEAFHHDC
 	{
 	public:

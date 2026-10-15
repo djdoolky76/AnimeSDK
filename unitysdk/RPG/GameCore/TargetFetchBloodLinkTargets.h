@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetFetchBloodLinkTargets_TypeDefinitionIndex = 23935;
+
 	class TargetFetchBloodLinkTargets : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:

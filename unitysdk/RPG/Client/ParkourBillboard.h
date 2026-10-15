@@ -9,6 +9,8 @@ namespace UnityEngine { class CanvasGroup; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ParkourBillboard_TypeDefinitionIndex = 61832;
+
 	class ParkourBillboard : public ::UnityEngine::MonoBehaviour
 	{
 	public:

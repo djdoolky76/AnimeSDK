@@ -10,6 +10,8 @@ namespace RPG::GameCore { class NpcLodDetail; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NpcLodDetail_TypeDefinitionIndex = 19109;
+
 	class NpcLodDetail : public ::RPG::GameCore::LodDetail
 	{
 	public:

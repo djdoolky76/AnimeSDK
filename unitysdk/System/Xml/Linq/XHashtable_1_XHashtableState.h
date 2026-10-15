@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace System::Xml::Linq
 {
+	inline static constexpr unsigned int XHashtable_1_XHashtableState_TypeDefinitionIndex = 3880;
+
 	template <typename T>
 	class XHashtable_1_XHashtableState : public ::System::Object
 	{

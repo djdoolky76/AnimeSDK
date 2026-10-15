@@ -13,6 +13,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aiSubmeshSummary_TypeDefinitionIndex = 45811;
+
 	struct alignas(4) aiSubmeshSummary
 	{
 		::System::Int32 _splitIndex_k__BackingField; // 0x10

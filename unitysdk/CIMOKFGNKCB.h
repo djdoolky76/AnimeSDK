@@ -15,6 +15,8 @@ namespace RPG::Client::ActivityAlley { class AlleyPackGoodData; }
 #define CIMOKFGNKCB_MJNMFMEDJJM_OFFSET UNITYSDK_OFFSET(0xCF8E620)
 #define CIMOKFGNKCB_PPMCDLBNPCM_OFFSET UNITYSDK_OFFSET(0xCF8E590)
 
+inline static constexpr unsigned int CIMOKFGNKCB_TypeDefinitionIndex = 74101;
+
 	class CIMOKFGNKCB : public ::IBNAFGFFJLJ
 	{
 	public:

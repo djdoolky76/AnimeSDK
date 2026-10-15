@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 #define DPCFKFGNBKL_LMCEDCHJKFF_OFFSET UNITYSDK_OFFSET(0x11FF9BE0)
 #define DPCFKFGNBKL_LPIOFIGIJLI_OFFSET UNITYSDK_OFFSET(0x11FFA3B0)
 
+inline static constexpr unsigned int DPCFKFGNBKL_TypeDefinitionIndex = 56965;
+
 	class DPCFKFGNBKL : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

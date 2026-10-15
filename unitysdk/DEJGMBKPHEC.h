@@ -41,6 +41,8 @@ namespace System { class String; }
 #define DEJGMBKPHEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E196390)
 #define DEJGMBKPHEC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1963F0)
 
+inline static constexpr unsigned int DEJGMBKPHEC_TypeDefinitionIndex = 27508;
+
 	class DEJGMBKPHEC : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MissionStoryEventExcelTable_TypeDefinitionIndex = 14146;
+
 	class MissionStoryEventExcelTable : public ::System::Object
 	{
 	public:

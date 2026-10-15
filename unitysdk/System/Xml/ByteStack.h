@@ -8,6 +8,8 @@
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int ByteStack_TypeDefinitionIndex = 1794;
+
 	class ByteStack : public ::System::Object
 	{
 	public:

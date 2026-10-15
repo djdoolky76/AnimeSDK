@@ -13,6 +13,8 @@ namespace RPG::GameCore { class CakeRacePropertyModifier; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceActionPropertyModifier_TypeDefinitionIndex = 18333;
+
 	class CakeRaceActionPropertyModifier : public ::RPG::GameCore::CakeRaceActionBase
 	{
 	public:

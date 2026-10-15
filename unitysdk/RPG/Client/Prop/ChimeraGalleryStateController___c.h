@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraGalleryStateController___c_TypeDefinitionIndex = 78496;
+
 	class ChimeraGalleryStateController___c : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define ONNIDPKMOPB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DED1A80)
 #define ONNIDPKMOPB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DED1AE0)
 
+inline static constexpr unsigned int ONNIDPKMOPB_TypeDefinitionIndex = 32262;
+
 	class ONNIDPKMOPB : public ::System::Object
 	{
 	public:

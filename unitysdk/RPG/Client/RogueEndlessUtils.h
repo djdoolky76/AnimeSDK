@@ -10,6 +10,8 @@ namespace System { class Nullable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueEndlessUtils_TypeDefinitionIndex = 67449;
+
 	class RogueEndlessUtils : public ::System::Object
 	{
 	public:

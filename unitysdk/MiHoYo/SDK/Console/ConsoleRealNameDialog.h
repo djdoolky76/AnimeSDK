@@ -24,6 +24,8 @@ namespace UnityEngine::UI { class InputField; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int ConsoleRealNameDialog_TypeDefinitionIndex = 9008;
+
 	class ConsoleRealNameDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:

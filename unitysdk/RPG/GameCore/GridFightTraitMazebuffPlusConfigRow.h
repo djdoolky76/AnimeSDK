@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightTraitMazebuffPlusConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightTraitMazebuffPlusConfigRow_TypeDefinitionIndex = 13672;
+
 	class GridFightTraitMazebuffPlusConfigRow : public ::System::Object
 	{
 	public:

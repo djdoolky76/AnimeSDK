@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define NFJKFNPHBPH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBB98960)
 #define NFJKFNPHBPH_TICK_OFFSET UNITYSDK_OFFSET(0xBB98D20)
 
+inline static constexpr unsigned int NFJKFNPHBPH_TypeDefinitionIndex = 53442;
+
 	class NFJKFNPHBPH : public ::GELIALJDFBL
 	{
 	public:

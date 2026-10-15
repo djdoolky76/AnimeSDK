@@ -4,6 +4,8 @@
 
 #define PCEHFACKCOM_CTOR_OFFSET UNITYSDK_OFFSET(0xBFFE260)
 
+inline static constexpr unsigned int PCEHFACKCOM_TypeDefinitionIndex = 72399;
+
 	class PCEHFACKCOM : public ::System::Object
 	{
 	public:

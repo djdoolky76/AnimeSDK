@@ -7,6 +7,8 @@ class OFMDPNPMFCE;
 #define AEKGAOHNOIA_GET_VALIDITYTRACKER_OFFSET UNITYSDK_OFFSET(0x1C53C1B0)
 #define AEKGAOHNOIA_GNJHPPMMLKO_OFFSET UNITYSDK_OFFSET(0x1C53C1C0)
 
+inline static constexpr unsigned int AEKGAOHNOIA_TypeDefinitionIndex = 41839;
+
 	class AEKGAOHNOIA : public ::System::Object
 	{
 	public:

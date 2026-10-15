@@ -9,6 +9,8 @@ namespace RPG::Client::ActivityIdleLive { class SpineControlService; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int SpineControlService___c__DisplayClass20_0_TypeDefinitionIndex = 75392;
+
 	class SpineControlService___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

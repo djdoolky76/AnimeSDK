@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ACAGDHFHKCG_SET_DISABLETITANBLESS_OFFSET UNITYSDK_OFFSET(0xB110D80)
 #define ACAGDHFHKCG_SET_TITANFLOORTYPE_OFFSET UNITYSDK_OFFSET(0xB110D60)
 
+inline static constexpr unsigned int ACAGDHFHKCG_TypeDefinitionIndex = 56017;
+
 	class ACAGDHFHKCG : public ::LHHEGNEBMLN
 	{
 	public:

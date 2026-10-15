@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SwordTrainingConditionDisplayData_TypeDefinitionIndex = 61933;
+
 	class SwordTrainingConditionDisplayData : public ::System::Object
 	{
 	public:

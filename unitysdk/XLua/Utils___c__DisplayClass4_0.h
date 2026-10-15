@@ -10,6 +10,8 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int Utils___c__DisplayClass4_0_TypeDefinitionIndex = 50275;
+
 	class Utils___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

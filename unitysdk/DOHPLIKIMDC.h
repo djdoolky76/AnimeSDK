@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DOHPLIKIMDC_LAAIMCOJJJK_1_OFFSET UNITYSDK_OFFSET(0x11FE9720)
 #define DOHPLIKIMDC_LAAIMCOJJJK_OFFSET UNITYSDK_OFFSET(0x11FE96A0)
 
+inline static constexpr unsigned int DOHPLIKIMDC_TypeDefinitionIndex = 73866;
+
 	class DOHPLIKIMDC : public ::System::Object
 	{
 	public:

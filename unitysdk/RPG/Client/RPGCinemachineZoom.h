@@ -53,6 +53,8 @@ namespace System { class Nullable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGCinemachineZoom_TypeDefinitionIndex = 69709;
+
 	class RPGCinemachineZoom : public ::Cinemachine::CinemachineExtension
 	{
 	public:

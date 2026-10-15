@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelAfterStackModifier_TypeDefinitionIndex = 56775;
+
 	class LevelAfterStackModifier : public ::CMPGEAFHHDC
 	{
 	public:

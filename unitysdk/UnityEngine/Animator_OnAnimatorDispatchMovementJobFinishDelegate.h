@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Animator_OnAnimatorDispatchMovementJobFinishDelegate_TypeDefinitionIndex = 5711;
+
 	class Animator_OnAnimatorDispatchMovementJobFinishDelegate : public ::System::MulticastDelegate
 	{
 	public:

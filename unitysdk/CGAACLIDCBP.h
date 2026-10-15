@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CGAACLIDCBP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0A94E0)
 #define CGAACLIDCBP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0A9540)
 
+inline static constexpr unsigned int CGAACLIDCBP_TypeDefinitionIndex = 34467;
+
 	class CGAACLIDCBP : public ::System::Object
 	{
 	public:

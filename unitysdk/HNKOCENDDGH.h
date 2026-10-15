@@ -9,6 +9,8 @@ class NIMHLHECACH;
 #define HNKOCENDDGH_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x15D9EDE0)
 #define HNKOCENDDGH_MBABPIHGAJN_OFFSET UNITYSDK_OFFSET(0x15D9EE70)
 
+inline static constexpr unsigned int HNKOCENDDGH_TypeDefinitionIndex = 75271;
+
 	class HNKOCENDDGH : public ::System::Object
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int KDIJJFMOHEC_InnerState_TypeDefinitionIndex = 75568;
+
 	enum class KDIJJFMOHEC_InnerState : ::System::Int32
 	{
 		Waiting = 0,

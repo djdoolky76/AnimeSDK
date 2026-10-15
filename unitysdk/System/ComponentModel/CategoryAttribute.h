@@ -16,6 +16,8 @@ namespace System::ComponentModel { class CategoryAttribute; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int CategoryAttribute_TypeDefinitionIndex = 2567;
+
 	class CategoryAttribute : public ::System::Attribute
 	{
 	public:

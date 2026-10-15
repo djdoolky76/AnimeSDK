@@ -38,6 +38,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define JDGIIPJCPID___C__TOPROTO_B__12_9_OFFSET UNITYSDK_OFFSET(0x165CB810)
 #define JDGIIPJCPID___C___CTOR_B__1_0_OFFSET UNITYSDK_OFFSET(0x165CB620)
 
+inline static constexpr unsigned int JDGIIPJCPID___c_TypeDefinitionIndex = 59011;
+
 	class JDGIIPJCPID___c : public ::System::Object
 	{
 	public:

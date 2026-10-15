@@ -44,6 +44,8 @@ namespace RPG::GameCore { class FiveDimSplineMoveConfig; }
 #define CMFAIIHOFPL_PJIGFGDAALO_OFFSET UNITYSDK_OFFSET(0xDA2DAD0)
 #define CMFAIIHOFPL_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xDA2C750)
 
+inline static constexpr unsigned int CMFAIIHOFPL_TypeDefinitionIndex = 77162;
+
 	class CMFAIIHOFPL : public ::System::Object
 	{
 	public:

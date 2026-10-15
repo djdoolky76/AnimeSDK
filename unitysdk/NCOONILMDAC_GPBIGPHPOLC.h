@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int NCOONILMDAC_GPBIGPHPOLC_TypeDefinitionIndex = 59740;
+
 	struct alignas(4) NCOONILMDAC_GPBIGPHPOLC
 	{
 		::System::UInt32 NIJCIDIGKHG; // 0x10

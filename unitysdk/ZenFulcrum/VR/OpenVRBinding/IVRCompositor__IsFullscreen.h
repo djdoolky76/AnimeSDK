@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRCompositor__IsFullscreen_TypeDefinitionIndex = 39036;
+
 	class IVRCompositor__IsFullscreen : public ::System::MulticastDelegate
 	{
 	public:

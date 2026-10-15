@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EHNJEBMGBEN_PMHIAKGODPI_OFFSET UNITYSDK_OFFSET(0x154B93B0)
 #define EHNJEBMGBEN_SET_GAMECONFIG_OFFSET UNITYSDK_OFFSET(0x154B9340)
 
+inline static constexpr unsigned int EHNJEBMGBEN_TypeDefinitionIndex = 76654;
+
 	class EHNJEBMGBEN : public ::System::Object
 	{
 	public:

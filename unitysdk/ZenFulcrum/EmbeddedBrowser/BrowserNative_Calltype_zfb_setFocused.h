@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_setFocused_TypeDefinitionIndex = 39439;
+
 	class BrowserNative_Calltype_zfb_setFocused : public ::System::MulticastDelegate
 	{
 	public:

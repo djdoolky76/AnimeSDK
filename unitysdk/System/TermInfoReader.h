@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int TermInfoReader_TypeDefinitionIndex = 432;
+
 	class TermInfoReader : public ::System::Object
 	{
 	public:

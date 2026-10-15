@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace CriWare::CriMana
 {
+	inline static constexpr unsigned int Player_StatusChangeCallback_TypeDefinitionIndex = 40221;
+
 	class Player_StatusChangeCallback : public ::System::MulticastDelegate
 	{
 	public:

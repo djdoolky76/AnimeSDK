@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelStartSequeceConfig_TypeDefinitionIndex = 18300;
+
 	class LevelStartSequeceConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

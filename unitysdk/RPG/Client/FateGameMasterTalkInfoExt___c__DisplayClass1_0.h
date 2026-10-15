@@ -8,6 +8,8 @@ namespace System { class Random; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateGameMasterTalkInfoExt___c__DisplayClass1_0_TypeDefinitionIndex = 64107;
+
 	class FateGameMasterTalkInfoExt___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

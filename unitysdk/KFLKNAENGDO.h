@@ -46,6 +46,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KFLKNAENGDO_PMOBKGBBLIL_OFFSET UNITYSDK_OFFSET(0xB3C1610)
 #define KFLKNAENGDO_SET_ISBOSSPANEL_OFFSET UNITYSDK_OFFSET(0xB3C1D20)
 
+inline static constexpr unsigned int KFLKNAENGDO_TypeDefinitionIndex = 71781;
+
 	class KFLKNAENGDO : public ::System::Object
 	{
 	public:

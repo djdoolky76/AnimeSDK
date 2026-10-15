@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define IMEFDMEGEON___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6B6240)
 #define IMEFDMEGEON___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E6B6250)
 
+inline static constexpr unsigned int IMEFDMEGEON___c_TypeDefinitionIndex = 30830;
+
 	class IMEFDMEGEON___c : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define HHGHOEPAFCD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CACC0B0)
 
+inline static constexpr unsigned int HHGHOEPAFCD_TypeDefinitionIndex = 42369;
+
 	class HHGHOEPAFCD : public ::System::Object
 	{
 	public:

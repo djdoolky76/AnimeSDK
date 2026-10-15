@@ -7,6 +7,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client::TAUtils
 {
+	inline static constexpr unsigned int MaterialPropertiesCollection_BufferProperty_TypeDefinitionIndex = 73623;
+
 	class MaterialPropertiesCollection_BufferProperty
 	{
 	public:

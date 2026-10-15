@@ -9,6 +9,8 @@ namespace System::Reflection { class FieldInfo; }
 #define BMIHCODJHAL_CCTOR_OFFSET UNITYSDK_OFFSET(0xBDAF780)
 #define BMIHCODJHAL_HCFJNBHPACH_OFFSET UNITYSDK_OFFSET(0xBDAF4A0)
 
+inline static constexpr unsigned int BMIHCODJHAL_TypeDefinitionIndex = 50026;
+
 	class BMIHCODJHAL : public ::System::Object
 	{
 	public:

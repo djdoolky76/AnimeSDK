@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define DGGBPCHPIPG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE846320)
 #define DGGBPCHPIPG_LGIOFKKGMCN_OFFSET UNITYSDK_OFFSET(0xE846680)
 
+inline static constexpr unsigned int DGGBPCHPIPG_TypeDefinitionIndex = 69442;
+
 	class DGGBPCHPIPG : public ::PMAPCLKFJGK
 	{
 	public:

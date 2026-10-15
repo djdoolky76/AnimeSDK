@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define MKOGNAEBDHO_CTOR_OFFSET UNITYSDK_OFFSET(0xB9A1680)
 #define MKOGNAEBDHO_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xB9A1C80)
 
+inline static constexpr unsigned int MKOGNAEBDHO_TypeDefinitionIndex = 68220;
+
 	class MKOGNAEBDHO : public ::System::Object
 	{
 	public:

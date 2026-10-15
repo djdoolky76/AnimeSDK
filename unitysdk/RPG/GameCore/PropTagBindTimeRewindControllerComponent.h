@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PropTagBindTimeRewindControllerComponent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropTagBindTimeRewindControllerComponent_TypeDefinitionIndex = 17565;
+
 	class PropTagBindTimeRewindControllerComponent : public ::RPG::GameCore::PropTagComponent
 	{
 	public:

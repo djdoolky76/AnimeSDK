@@ -31,6 +31,8 @@ namespace System { class String; }
 #define DMGDLEHEDFB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1ED020)
 #define DMGDLEHEDFB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1ED080)
 
+inline static constexpr unsigned int DMGDLEHEDFB_TypeDefinitionIndex = 26097;
+
 	class DMGDLEHEDFB : public ::System::Object
 	{
 	public:

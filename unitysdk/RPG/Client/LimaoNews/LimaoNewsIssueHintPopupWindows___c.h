@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsIssueHintPopupWindows___c_TypeDefinitionIndex = 80372;
+
 	class LimaoNewsIssueHintPopupWindows___c : public ::System::Object
 	{
 	public:

@@ -64,6 +64,8 @@ namespace System::Security::Policy { class Evidence; }
 
 namespace System
 {
+	inline static constexpr unsigned int AppDomain_TypeDefinitionIndex = 368;
+
 	class AppDomain : public ::System::MarshalByRefObject
 	{
 	public:

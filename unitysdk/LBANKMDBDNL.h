@@ -18,6 +18,8 @@ namespace System { class String; }
 #define LBANKMDBDNL_KNNCCLDKFGO_OFFSET UNITYSDK_OFFSET(0xB5ED220)
 #define LBANKMDBDNL_PEKDEJEEOLG_OFFSET UNITYSDK_OFFSET(0xB5ED060)
 
+inline static constexpr unsigned int LBANKMDBDNL_TypeDefinitionIndex = 56499;
+
 	class LBANKMDBDNL : public ::System::Object
 	{
 	public:

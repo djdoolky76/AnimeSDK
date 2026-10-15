@@ -3,6 +3,8 @@
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int HashSet_1_Slot_TypeDefinitionIndex = 3698;
+
 	template <typename T>
 	struct alignas(8) HashSet_1_Slot
 	{

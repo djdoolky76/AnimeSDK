@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CoreCameraValues_TypeDefinitionIndex = 4740;
+
 	struct alignas(4) CoreCameraValues
 	{
 		::System::Int32 filterMode; // 0x10

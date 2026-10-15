@@ -45,6 +45,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingGamePlayHUDMap_TypeDefinitionIndex = 81888;
+
 	class B51RacingGamePlayHUDMap : public ::Sofa::BaseSofaControl
 	{
 	public:

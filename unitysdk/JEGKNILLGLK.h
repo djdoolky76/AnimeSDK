@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JEGKNILLGLK_NNIBPFEKKMK_OFFSET UNITYSDK_OFFSET(0x16620750)
 #define JEGKNILLGLK_OFEGOGFAMIK_OFFSET UNITYSDK_OFFSET(0x16620EE0)
 
+inline static constexpr unsigned int JEGKNILLGLK_TypeDefinitionIndex = 54259;
+
 	class JEGKNILLGLK : public ::System::Object
 	{
 	public:

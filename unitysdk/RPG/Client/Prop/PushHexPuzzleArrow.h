@@ -10,6 +10,8 @@ namespace RPG::Client::Prop { class PuzzleBoardBase; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int PushHexPuzzleArrow_TypeDefinitionIndex = 78617;
+
 	class PushHexPuzzleArrow : public ::RPG::Client::Prop::HexPuzzleItemBase
 	{
 	public:

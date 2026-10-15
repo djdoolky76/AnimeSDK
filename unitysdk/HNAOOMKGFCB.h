@@ -32,6 +32,8 @@ namespace System { class String; }
 #define HNAOOMKGFCB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5D7DB0)
 #define HNAOOMKGFCB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5D7E10)
 
+inline static constexpr unsigned int HNAOOMKGFCB_TypeDefinitionIndex = 27549;
+
 	class HNAOOMKGFCB : public ::System::Object
 	{
 	public:

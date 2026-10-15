@@ -18,6 +18,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int FilteringSettings_TypeDefinitionIndex = 4756;
+
 	struct alignas(4) FilteringSettings
 	{
 		::UnityEngine::Rendering::RenderQueueRange m_RenderQueueRange; // 0x10

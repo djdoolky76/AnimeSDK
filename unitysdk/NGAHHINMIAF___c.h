@@ -10,6 +10,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define NGAHHINMIAF___C__PROGRESSFINISH_B__18_0_OFFSET UNITYSDK_OFFSET(0xBBA0770)
 #define NGAHHINMIAF___C__PROGRESSSTART_B__17_1_OFFSET UNITYSDK_OFFSET(0xBBA0720)
 
+inline static constexpr unsigned int NGAHHINMIAF___c_TypeDefinitionIndex = 59627;
+
 	class NGAHHINMIAF___c : public ::System::Object
 	{
 	public:

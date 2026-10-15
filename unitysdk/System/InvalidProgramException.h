@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int InvalidProgramException_TypeDefinitionIndex = 289;
+
 	class InvalidProgramException : public ::System::SystemException
 	{
 	public:

@@ -45,6 +45,8 @@ namespace System { class String; }
 #define LJAPBLLGAJN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E974AF0)
 #define LJAPBLLGAJN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E974B50)
 
+inline static constexpr unsigned int LJAPBLLGAJN_TypeDefinitionIndex = 25447;
+
 	class LJAPBLLGAJN : public ::System::Object
 	{
 	public:

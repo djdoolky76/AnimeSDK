@@ -9,6 +9,8 @@ namespace RPG::Client { class PlanetFesAvatarEffectController; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesAvatarEffectController___c__DisplayClass4_0_TypeDefinitionIndex = 66477;
+
 	class PlanetFesAvatarEffectController___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

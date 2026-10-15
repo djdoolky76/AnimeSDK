@@ -6,6 +6,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 #define HGANMGEOOCC_CTOR_OFFSET UNITYSDK_OFFSET(0x15C8F2D0)
 
+inline static constexpr unsigned int HGANMGEOOCC_TypeDefinitionIndex = 57622;
+
 	class HGANMGEOOCC : public ::System::Object
 	{
 	public:

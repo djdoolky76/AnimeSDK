@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HeadFrameConfigRow_TypeDefinitionIndex = 12988;
+
 	class HeadFrameConfigRow : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ class FDPOCBGDLGA;
 #define BOFBMGNNCMA_SET_SPEAKERPOLICY_OFFSET UNITYSDK_OFFSET(0xC18F990)
 #define BOFBMGNNCMA_SET_VALIDAREAS_OFFSET UNITYSDK_OFFSET(0xC18F970)
 
+inline static constexpr unsigned int BOFBMGNNCMA_TypeDefinitionIndex = 62994;
+
 	class BOFBMGNNCMA : public ::System::Object
 	{
 	public:

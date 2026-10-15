@@ -15,6 +15,8 @@ namespace RPG::Client { class IRogueTournGameScoreSettleResult; }
 #define LACOBCDLLNE_BPLPBPMEODA_4_OFFSET UNITYSDK_OFFSET(0xB5DAC60)
 #define LACOBCDLLNE_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB5DA940)
 
+inline static constexpr unsigned int LACOBCDLLNE_TypeDefinitionIndex = 67847;
+
 	class LACOBCDLLNE : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::CatGod
 {
+	inline static constexpr unsigned int CatGodGetShelfWindow___c_TypeDefinitionIndex = 81655;
+
 	class CatGodGetShelfWindow___c : public ::System::Object
 	{
 	public:

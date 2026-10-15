@@ -17,6 +17,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int PorterTarget_TypeDefinitionIndex = 78775;
+
 	class PorterTarget : public ::System::Object
 	{
 	public:

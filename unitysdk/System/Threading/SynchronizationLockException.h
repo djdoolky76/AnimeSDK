@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int SynchronizationLockException_TypeDefinitionIndex = 848;
+
 	class SynchronizationLockException : public ::System::SystemException
 	{
 	public:

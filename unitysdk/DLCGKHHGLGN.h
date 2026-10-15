@@ -10,6 +10,8 @@ namespace System { class Exception; }
 #define DLCGKHHGLGN_KGDLMPEABGG_OFFSET UNITYSDK_OFFSET(0xF895E30)
 #define DLCGKHHGLGN__PLAYTRANSITION_B__1_0_OFFSET UNITYSDK_OFFSET(0xF8960C0)
 
+inline static constexpr unsigned int DLCGKHHGLGN_TypeDefinitionIndex = 73110;
+
 	class DLCGKHHGLGN : public ::KNAKIBHJLFN
 	{
 	public:

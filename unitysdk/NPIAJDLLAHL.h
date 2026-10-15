@@ -34,6 +34,8 @@ namespace System { class String; }
 #define NPIAJDLLAHL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB9C830)
 #define NPIAJDLLAHL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB9C890)
 
+inline static constexpr unsigned int NPIAJDLLAHL_TypeDefinitionIndex = 30136;
+
 	class NPIAJDLLAHL : public ::System::Object
 	{
 	public:

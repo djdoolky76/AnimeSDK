@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FKMBGNOKAFF_IKACEFAFAJG_OFFSET UNITYSDK_OFFSET(0x1580DCF0)
 #define FKMBGNOKAFF_LCJMKJPECAP_OFFSET UNITYSDK_OFFSET(0x1580DDC0)
 
+inline static constexpr unsigned int FKMBGNOKAFF_TypeDefinitionIndex = 57266;
+
 	class FKMBGNOKAFF : public ::System::Object
 	{
 	public:

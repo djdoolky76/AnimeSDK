@@ -8,6 +8,8 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2World; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2SensorQueryContext_TypeDefinitionIndex = 36753;
+
 	struct alignas(8) B2SensorQueryContext
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* world; // 0x10

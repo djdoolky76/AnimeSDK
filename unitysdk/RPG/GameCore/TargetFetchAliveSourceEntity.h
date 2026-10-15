@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetFetchAliveSourceEntity_TypeDefinitionIndex = 23966;
+
 	class TargetFetchAliveSourceEntity : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:

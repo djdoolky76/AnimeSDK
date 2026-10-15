@@ -6,6 +6,8 @@
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftEditErrorHintControlBinder_TypeDefinitionIndex = 79879;
+
 	class MechCraftCraftEditErrorHintControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

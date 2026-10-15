@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GeneralAudioItem_TypeDefinitionIndex = 68429;
+
 	class GeneralAudioItem : public ::System::Object
 	{
 	public:

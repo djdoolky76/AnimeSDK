@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define FDDKIMGDJEG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C615660)
 #define FDDKIMGDJEG_IMBNGHDBDLJ_OFFSET UNITYSDK_OFFSET(0x1C615690)
 
+inline static constexpr unsigned int FDDKIMGDJEG_TypeDefinitionIndex = 37424;
+
 	class FDDKIMGDJEG
 	{
 	public:

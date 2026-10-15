@@ -13,6 +13,8 @@ namespace UnityEngine { class RPGDensityMapGrassBlockData; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RPGDensityMapGrassBlock_TypeDefinitionIndex = 4283;
+
 	class RPGDensityMapGrassBlock : public ::UnityEngine::Behaviour
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define LPEHILMMINA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9CA350)
 #define LPEHILMMINA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9CA3B0)
 
+inline static constexpr unsigned int LPEHILMMINA_TypeDefinitionIndex = 25112;
+
 	class LPEHILMMINA : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineFollowZoom_TypeDefinitionIndex = 39736;
+
 	class CinemachineFollowZoom : public ::Cinemachine::CinemachineExtension
 	{
 	public:

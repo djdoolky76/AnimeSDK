@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AEDIDMLGBGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C581890)
 #define AEDIDMLGBGE_ISMATCHIMPL_OFFSET UNITYSDK_OFFSET(0x1C581910)
 
+inline static constexpr unsigned int AEDIDMLGBGE_TypeDefinitionIndex = 37411;
+
 	class AEDIDMLGBGE
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define CNDFNIHMPKC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E107990)
 #define CNDFNIHMPKC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1079F0)
 
+inline static constexpr unsigned int CNDFNIHMPKC_TypeDefinitionIndex = 29027;
+
 	class CNDFNIHMPKC : public ::System::Object
 	{
 	public:

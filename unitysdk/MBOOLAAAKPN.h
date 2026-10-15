@@ -26,6 +26,8 @@ namespace RPG::GameCore { class TimeScaleStack; }
 #define MBOOLAAAKPN_SET_DELTATIME_OFFSET UNITYSDK_OFFSET(0xB871080)
 #define MBOOLAAAKPN_SET_TIMESCALE_OFFSET UNITYSDK_OFFSET(0xB871060)
 
+inline static constexpr unsigned int MBOOLAAAKPN_TypeDefinitionIndex = 77821;
+
 	class MBOOLAAAKPN : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class AnimWeighted; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AnimTriggerRandomPlay_TypeDefinitionIndex = 22403;
+
 	class AnimTriggerRandomPlay : public ::RPG::GameCore::TaskConfig
 	{
 	public:

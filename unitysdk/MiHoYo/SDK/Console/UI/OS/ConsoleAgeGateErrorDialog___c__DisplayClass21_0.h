@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Console::UI::OS
 {
+	inline static constexpr unsigned int ConsoleAgeGateErrorDialog___c__DisplayClass21_0_TypeDefinitionIndex = 9032;
+
 	class ConsoleAgeGateErrorDialog___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

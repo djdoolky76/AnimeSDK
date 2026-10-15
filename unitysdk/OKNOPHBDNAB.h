@@ -5,6 +5,8 @@
 #define OKNOPHBDNAB_AMIOJKLDALI_OFFSET UNITYSDK_OFFSET(0xBEF0D90)
 #define OKNOPHBDNAB_FPPOHEPFLPC_OFFSET UNITYSDK_OFFSET(0xBEF0D30)
 
+inline static constexpr unsigned int OKNOPHBDNAB_TypeDefinitionIndex = 54985;
+
 	class OKNOPHBDNAB : public ::System::Object
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SuitRecommendAvatarData_TypeDefinitionIndex = 66894;
+
 	class SuitRecommendAvatarData : public ::System::Object
 	{
 	public:

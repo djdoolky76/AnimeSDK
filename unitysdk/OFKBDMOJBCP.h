@@ -25,6 +25,8 @@ namespace System { class String; }
 #define OFKBDMOJBCP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE48D50)
 #define OFKBDMOJBCP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE48DB0)
 
+inline static constexpr unsigned int OFKBDMOJBCP_TypeDefinitionIndex = 31514;
+
 	class OFKBDMOJBCP : public ::System::Object
 	{
 	public:

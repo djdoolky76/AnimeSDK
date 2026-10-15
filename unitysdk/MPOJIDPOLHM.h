@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MPOJIDPOLHM_CTOR_OFFSET UNITYSDK_OFFSET(0xBA44B80)
 #define MPOJIDPOLHM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA44BB0)
 
+inline static constexpr unsigned int MPOJIDPOLHM_TypeDefinitionIndex = 54658;
+
 	class MPOJIDPOLHM
 	{
 	public:

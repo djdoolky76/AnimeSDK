@@ -141,6 +141,8 @@ namespace UnityEngine { class GameObject; }
 #define DDNEPPOHKJN_VISIBLEPCONLYBLOCK_OFFSET UNITYSDK_OFFSET(0xE4EDB10)
 #define DDNEPPOHKJN__UPDATEAFTEROPENWORLDUPDATE_OFFSET UNITYSDK_OFFSET(0xE4E9980)
 
+inline static constexpr unsigned int DDNEPPOHKJN_TypeDefinitionIndex = 69498;
+
 	class DDNEPPOHKJN : public ::RPG::Client::Stage
 	{
 	public:

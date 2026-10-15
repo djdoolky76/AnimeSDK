@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
+inline static constexpr unsigned int DMKNKKKMMHK_ILACGAPINOE_TypeDefinitionIndex = 49450;
+
 	class DMKNKKKMMHK_ILACGAPINOE : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { template <typename T> class Func_1; }
 #define LLPNJOHJIPN_ADCKFGEMBDH_CLEAR_OFFSET UNITYSDK_OFFSET(0xB7792E0)
 #define LLPNJOHJIPN_ADCKFGEMBDH_CTOR_OFFSET UNITYSDK_OFFSET(0xB779350)
 
+inline static constexpr unsigned int LLPNJOHJIPN_ADCKFGEMBDH_TypeDefinitionIndex = 60772;
+
 	class LLPNJOHJIPN_ADCKFGEMBDH : public ::System::Object
 	{
 	public:

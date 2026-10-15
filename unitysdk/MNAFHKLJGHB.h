@@ -7,6 +7,8 @@ class DEOOCBMMENB;
 #define MNAFHKLJGHB_CTOR_OFFSET UNITYSDK_OFFSET(0xB9E22A0)
 #define MNAFHKLJGHB_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0xB9E1D80)
 
+inline static constexpr unsigned int MNAFHKLJGHB_TypeDefinitionIndex = 62048;
+
 	class MNAFHKLJGHB : public ::BFLILCJMKDB
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Linq::Expressions::Interpreter { class LightCompiler; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int LabelInfo_TypeDefinitionIndex = 3440;
+
 	class LabelInfo : public ::System::Object
 	{
 	public:

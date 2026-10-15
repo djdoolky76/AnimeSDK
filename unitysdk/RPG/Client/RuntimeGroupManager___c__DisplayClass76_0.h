@@ -9,6 +9,8 @@ namespace RPG::Client { class RuntimeGroupManager; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RuntimeGroupManager___c__DisplayClass76_0_TypeDefinitionIndex = 62073;
+
 	class RuntimeGroupManager___c__DisplayClass76_0 : public ::System::Object
 	{
 	public:

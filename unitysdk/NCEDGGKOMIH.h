@@ -61,6 +61,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 #define NCEDGGKOMIH_OGBMIKKKCDP_OFFSET UNITYSDK_OFFSET(0xBB09700)
 #define NCEDGGKOMIH_PJLNGEKJBDP_OFFSET UNITYSDK_OFFSET(0xBB08870)
 
+inline static constexpr unsigned int NCEDGGKOMIH_TypeDefinitionIndex = 48494;
+
 	class NCEDGGKOMIH : public ::System::Object
 	{
 	public:

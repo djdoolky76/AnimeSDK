@@ -20,6 +20,8 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int EdgeUtility_TypeDefinitionIndex = 44354;
+
 	class EdgeUtility : public ::System::Object
 	{
 	public:

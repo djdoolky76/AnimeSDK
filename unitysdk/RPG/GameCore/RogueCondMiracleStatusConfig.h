@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueCondMiracleStatusConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueCondMiracleStatusConfig_TypeDefinitionIndex = 19811;
+
 	class RogueCondMiracleStatusConfig : public ::RPG::GameCore::RogueConditionConfigBase
 	{
 	public:

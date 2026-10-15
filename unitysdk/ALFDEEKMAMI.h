@@ -7,6 +7,8 @@ namespace RPG::Client::ParkourGame { class ParkourSkillConfig_SuperStar; }
 #define ALFDEEKMAMI_FMHKLHAKMKO_OFFSET UNITYSDK_OFFSET(0x155666F0)
 #define ALFDEEKMAMI_JGBFDBBNLAF_OFFSET UNITYSDK_OFFSET(0x15566570)
 
+inline static constexpr unsigned int ALFDEEKMAMI_TypeDefinitionIndex = 74182;
+
 	class ALFDEEKMAMI : public ::DAOENPMCFON
 	{
 	public:

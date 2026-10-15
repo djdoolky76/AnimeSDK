@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddRegardAsAttackType_TypeDefinitionIndex = 23209;
+
 	class AddRegardAsAttackType : public ::RPG::GameCore::TaskConfig
 	{
 	public:

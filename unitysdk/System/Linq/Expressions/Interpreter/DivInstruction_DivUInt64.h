@@ -8,6 +8,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int DivInstruction_DivUInt64_TypeDefinitionIndex = 3357;
+
 	class DivInstruction_DivUInt64 : public ::System::Linq::Expressions::Interpreter::DivInstruction
 	{
 	public:

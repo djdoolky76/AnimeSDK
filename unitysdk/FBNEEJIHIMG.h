@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define FBNEEJIHIMG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDCD490)
 #define FBNEEJIHIMG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDCD450)
 
+inline static constexpr unsigned int FBNEEJIHIMG_TypeDefinitionIndex = 10201;
+
 	class FBNEEJIHIMG : public ::RPG::GameCore::TaskConfig
 	{
 	public:

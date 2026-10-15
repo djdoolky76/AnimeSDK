@@ -9,6 +9,8 @@
 #define EAOMJAJKHEI_ONTRIGGER_OFFSET UNITYSDK_OFFSET(0x12CE47E0)
 #define EAOMJAJKHEI_SHOULDTRIGGER_OFFSET UNITYSDK_OFFSET(0x12CE4680)
 
+inline static constexpr unsigned int EAOMJAJKHEI_TypeDefinitionIndex = 75387;
+
 	class EAOMJAJKHEI : public ::System::Object
 	{
 	public:

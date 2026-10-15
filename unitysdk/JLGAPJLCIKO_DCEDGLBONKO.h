@@ -4,6 +4,8 @@
 
 #define JLGAPJLCIKO_DCEDGLBONKO_CTOR_OFFSET UNITYSDK_OFFSET(0x15A0)
 
+inline static constexpr unsigned int JLGAPJLCIKO_DCEDGLBONKO_TypeDefinitionIndex = 70680;
+
 	struct alignas(4) JLGAPJLCIKO_DCEDGLBONKO
 	{
 		::UnityEngine::Vector3 JJCBICIJEIM; // 0x10

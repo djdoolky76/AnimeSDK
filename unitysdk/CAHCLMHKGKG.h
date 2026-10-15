@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimSetBillboardInfo; }
 #define CAHCLMHKGKG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9FF020)
 #define CAHCLMHKGKG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9FEFE0)
 
+inline static constexpr unsigned int CAHCLMHKGKG_TypeDefinitionIndex = 21478;
+
 	class CAHCLMHKGKG : public ::RPG::GameCore::TaskConfig
 	{
 	public:

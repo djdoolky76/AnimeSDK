@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MainMissionExcelTable_TypeDefinitionIndex = 14143;
+
 	class MainMissionExcelTable : public ::System::Object
 	{
 	public:

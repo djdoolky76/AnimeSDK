@@ -10,6 +10,8 @@ namespace MiHoYo::SDK::UI::OS { class IAgeGateParentalConsentDialog; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass40_0_TypeDefinitionIndex = 8729;
+
 	class AgeGateManager___c__DisplayClass40_0 : public ::System::Object
 	{
 	public:

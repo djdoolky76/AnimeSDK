@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaHexEquipmentMessage_TypeDefinitionIndex = 72898;
+
 	enum class RogueTournPersonaHexEquipmentMessage : ::System::Int32
 	{
 		None = 0,

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int StoryAdvEffectFollowOverride_TypeDefinitionIndex = 48320;
+
 	class StoryAdvEffectFollowOverride : public ::System::Object
 	{
 	public:

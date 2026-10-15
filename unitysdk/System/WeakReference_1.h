@@ -5,6 +5,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int WeakReference_1_TypeDefinitionIndex = 456;
+
 	template <typename T>
 	class WeakReference_1 : public ::System::Object
 	{

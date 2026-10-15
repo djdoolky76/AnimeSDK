@@ -6,6 +6,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DiceCombatModule___O_TypeDefinitionIndex = 63557;
+
 	class DiceCombatModule___O : public ::System::Object
 	{
 	public:

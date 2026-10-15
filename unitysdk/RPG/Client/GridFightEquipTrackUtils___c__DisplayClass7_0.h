@@ -9,6 +9,8 @@ namespace RPG::Client { class GridFightEquipItemData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEquipTrackUtils___c__DisplayClass7_0_TypeDefinitionIndex = 65350;
+
 	class GridFightEquipTrackUtils___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

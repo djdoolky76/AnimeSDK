@@ -5,6 +5,8 @@ namespace MessagePack::Formatters { class IMessagePackFormatter; }
 
 namespace MessagePack::Unity
 {
+	inline static constexpr unsigned int UnityResolver_WithStandardResolver_FormatterCache_1_TypeDefinitionIndex = 10145;
+
 	template <typename T>
 	class UnityResolver_WithStandardResolver_FormatterCache_1 : public ::System::Object
 	{

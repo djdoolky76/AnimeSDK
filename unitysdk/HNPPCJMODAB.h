@@ -25,6 +25,8 @@ namespace System { class String; }
 #define HNPPCJMODAB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5E5C20)
 #define HNPPCJMODAB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5E5C80)
 
+inline static constexpr unsigned int HNPPCJMODAB_TypeDefinitionIndex = 30962;
+
 	class HNPPCJMODAB : public ::System::Object
 	{
 	public:

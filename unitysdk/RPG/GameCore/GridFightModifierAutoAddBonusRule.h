@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightModifierAutoAddBonusRule; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierAutoAddBonusRule_TypeDefinitionIndex = 19393;
+
 	class GridFightModifierAutoAddBonusRule : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace ScenenLightManager { class EngineReflectionProbe_ExportData; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int EngineReflectionProbe_SceneLightExportData_TypeDefinitionIndex = 49057;
+
 	class EngineReflectionProbe_SceneLightExportData : public ::ScenenLightManager::BaseSceneLightExportData
 	{
 	public:

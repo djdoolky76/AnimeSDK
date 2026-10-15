@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define OIDOOKMAEKE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE6A9D0)
 #define OIDOOKMAEKE___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1DE6A9E0)
 
+inline static constexpr unsigned int OIDOOKMAEKE___c_TypeDefinitionIndex = 26292;
+
 	class OIDOOKMAEKE___c : public ::System::Object
 	{
 	public:

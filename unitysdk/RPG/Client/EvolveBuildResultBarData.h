@@ -7,6 +7,8 @@ namespace RPG::Client { class EvolveBuildCollectionGear; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EvolveBuildResultBarData_TypeDefinitionIndex = 63799;
+
 	class EvolveBuildResultBarData : public ::System::Object
 	{
 	public:

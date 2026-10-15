@@ -23,6 +23,8 @@ namespace System { class String; }
 #define IJDKNKEGGMH_JJIPEOOFHDN_OFFSET UNITYSDK_OFFSET(0x16459DE0)
 #define IJDKNKEGGMH_MNLPJLBAJKJ_OFFSET UNITYSDK_OFFSET(0x16459E30)
 
+inline static constexpr unsigned int IJDKNKEGGMH_TypeDefinitionIndex = 71583;
+
 	class IJDKNKEGGMH : public ::System::Object
 	{
 	public:

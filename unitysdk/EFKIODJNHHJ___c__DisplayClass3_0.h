@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 #define EFKIODJNHHJ___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x13A56480)
 #define EFKIODJNHHJ___C__DISPLAYCLASS3_0__FILTERMODIFIERTOINFECT_B__0_OFFSET UNITYSDK_OFFSET(0x13A56560)
 
+inline static constexpr unsigned int EFKIODJNHHJ___c__DisplayClass3_0_TypeDefinitionIndex = 55110;
+
 	class EFKIODJNHHJ___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierSetCountByOpenRogueChestConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierSetCountByOpenRogueChestConfig_TypeDefinitionIndex = 17719;
+
 	class RogueModifierSetCountByOpenRogueChestConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

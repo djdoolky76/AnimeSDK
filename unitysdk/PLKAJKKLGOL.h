@@ -12,6 +12,8 @@ class DBELNCKIDFH;
 #define PLKAJKKLGOL_KMGPABAGLJK_OFFSET UNITYSDK_OFFSET(0x1C9F6940)
 #define PLKAJKKLGOL_MJGKNFEILLI_OFFSET UNITYSDK_OFFSET(0x1C9F6640)
 
+inline static constexpr unsigned int PLKAJKKLGOL_TypeDefinitionIndex = 42287;
+
 	class PLKAJKKLGOL : public ::System::Object
 	{
 	public:

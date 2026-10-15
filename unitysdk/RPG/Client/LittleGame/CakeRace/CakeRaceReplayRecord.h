@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceReplayRecord_TypeDefinitionIndex = 78092;
+
 	class CakeRaceReplayRecord : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AlleyShopGridItemData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AlleyShopGridItemData_TypeDefinitionIndex = 15676;
+
 	class AlleyShopGridItemData : public ::RPG::GameCore::AlleyBaseGridItemData
 	{
 	public:

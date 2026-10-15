@@ -8,6 +8,8 @@ class JKMJGCFCMMC;
 #define JKMJGCFCMMC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D044CD0)
 #define JKMJGCFCMMC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D044AF0)
 
+inline static constexpr unsigned int JKMJGCFCMMC_TypeDefinitionIndex = 22657;
+
 	class JKMJGCFCMMC : public ::RPG::GameCore::JsonConfig
 	{
 	public:

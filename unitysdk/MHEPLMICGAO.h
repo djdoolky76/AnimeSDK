@@ -17,6 +17,8 @@ namespace RPG::GameCore { class AdventureCharacterDataComponent; }
 #define MHEPLMICGAO_SET_TARGETDATA_OFFSET UNITYSDK_OFFSET(0xB934160)
 #define MHEPLMICGAO_SET_TARGETWPOS_OFFSET UNITYSDK_OFFSET(0xB9341B0)
 
+inline static constexpr unsigned int MHEPLMICGAO_TypeDefinitionIndex = 56972;
+
 	class MHEPLMICGAO : public ::System::Object
 	{
 	public:

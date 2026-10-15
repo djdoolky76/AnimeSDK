@@ -13,6 +13,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeV2ChallengerInfos___c_TypeDefinitionIndex = 66000;
+
 	class MatchThreeV2ChallengerInfos___c : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define LBAHPOFBBAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB5EAD80)
 
+inline static constexpr unsigned int LBAHPOFBBAJ_TypeDefinitionIndex = 72397;
+
 	class LBAHPOFBBAJ : public ::System::Object
 	{
 	public:

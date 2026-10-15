@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RogueTournSetCollectionBoothPrefab; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournSetCollectionBoothPrefab_TypeDefinitionIndex = 22112;
+
 	class RogueTournSetCollectionBoothPrefab : public ::RPG::GameCore::TaskConfig
 	{
 	public:

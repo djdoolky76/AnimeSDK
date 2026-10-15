@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GBMAHPJPGLM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E431000)
 #define GBMAHPJPGLM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E431010)
 
+inline static constexpr unsigned int GBMAHPJPGLM___c_TypeDefinitionIndex = 31717;
+
 	class GBMAHPJPGLM___c : public ::System::Object
 	{
 	public:

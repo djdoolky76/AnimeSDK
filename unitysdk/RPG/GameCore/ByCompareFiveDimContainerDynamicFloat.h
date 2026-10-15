@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareFiveDimContainerDynamicFloat_TypeDefinitionIndex = 21439;
+
 	class ByCompareFiveDimContainerDynamicFloat : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

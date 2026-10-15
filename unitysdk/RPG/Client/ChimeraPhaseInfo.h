@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraPhaseInfo_TypeDefinitionIndex = 63433;
+
 	class ChimeraPhaseInfo : public ::System::Object
 	{
 	public:

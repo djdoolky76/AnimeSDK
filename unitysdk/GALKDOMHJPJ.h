@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define GALKDOMHJPJ_CCLOABELDPG_OFFSET UNITYSDK_OFFSET(0x1C629570)
 #define GALKDOMHJPJ_IOJMJBCAADB_OFFSET UNITYSDK_OFFSET(0x1C629620)
 
+inline static constexpr unsigned int GALKDOMHJPJ_TypeDefinitionIndex = 37010;
+
 	class GALKDOMHJPJ : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebDelegate_SetWebFeatureDelegate_TypeDefinitionIndex = 7854;
+
 	class WebDelegate_SetWebFeatureDelegate : public ::System::MulticastDelegate
 	{
 	public:

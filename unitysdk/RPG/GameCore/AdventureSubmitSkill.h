@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureSubmitSkill_TypeDefinitionIndex = 20219;
+
 	class AdventureSubmitSkill : public ::RPG::GameCore::TaskConfig
 	{
 	public:

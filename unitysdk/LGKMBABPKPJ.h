@@ -31,6 +31,8 @@ namespace System { class String; }
 #define LGKMBABPKPJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9559C0)
 #define LGKMBABPKPJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E955A20)
 
+inline static constexpr unsigned int LGKMBABPKPJ_TypeDefinitionIndex = 34345;
+
 	class LGKMBABPKPJ : public ::System::Object
 	{
 	public:

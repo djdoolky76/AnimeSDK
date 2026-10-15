@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define AHKCAMKGJMA_MNKDMDIPPPO_OFFSET UNITYSDK_OFFSET(0xEB85540)
 #define AHKCAMKGJMA_PLCGLGKMLMA_OFFSET UNITYSDK_OFFSET(0xEB855A0)
 
+inline static constexpr unsigned int AHKCAMKGJMA_TypeDefinitionIndex = 82102;
+
 	class AHKCAMKGJMA : public ::System::Object
 	{
 	public:

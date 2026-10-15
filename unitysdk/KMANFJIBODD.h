@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class RawImage; }
 #define KMANFJIBODD_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB53B240)
 #define KMANFJIBODD_PBJAENMIKEJ_OFFSET UNITYSDK_OFFSET(0xB53B3F0)
 
+inline static constexpr unsigned int KMANFJIBODD_TypeDefinitionIndex = 72792;
+
 	class KMANFJIBODD : public ::System::Object
 	{
 	public:

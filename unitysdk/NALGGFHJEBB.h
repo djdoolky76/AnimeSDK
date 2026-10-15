@@ -8,6 +8,8 @@ namespace System { class String; }
 #define NALGGFHJEBB_NOIBFOCJMDB_OFFSET UNITYSDK_OFFSET(0x1C4BA3E0)
 #define NALGGFHJEBB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C4C6620)
 
+inline static constexpr unsigned int NALGGFHJEBB_TypeDefinitionIndex = 41559;
+
 	class NALGGFHJEBB : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class IDisposable; }
 
 namespace R3
 {
+	inline static constexpr unsigned int ReturnBoolean_TypeDefinitionIndex = 35918;
+
 	class ReturnBoolean
 	{
 	public:

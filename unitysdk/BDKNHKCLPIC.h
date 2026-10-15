@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BDKNHKCLPIC_SET_MAPID_OFFSET UNITYSDK_OFFSET(0x162FD550)
 #define BDKNHKCLPIC_SET_SOURCETYPE_OFFSET UNITYSDK_OFFSET(0x162FD570)
 
+inline static constexpr unsigned int BDKNHKCLPIC_TypeDefinitionIndex = 63837;
+
 	class BDKNHKCLPIC : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveAvatarInfo; }
 #define GIHFFKJOJGP_BUILD_OFFSET UNITYSDK_OFFSET(0x15A37A00)
 #define GIHFFKJOJGP_CTOR_OFFSET UNITYSDK_OFFSET(0x15A379E0)
 
+inline static constexpr unsigned int GIHFFKJOJGP_TypeDefinitionIndex = 75135;
+
 	class GIHFFKJOJGP
 	{
 	public:

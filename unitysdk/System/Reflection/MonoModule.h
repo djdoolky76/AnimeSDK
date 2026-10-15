@@ -23,6 +23,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int MonoModule_TypeDefinitionIndex = 626;
+
 	class MonoModule : public ::System::Reflection::RuntimeModule
 	{
 	public:

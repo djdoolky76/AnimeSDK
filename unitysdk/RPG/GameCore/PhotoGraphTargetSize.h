@@ -11,6 +11,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphTargetSize_TypeDefinitionIndex = 21650;
+
 	class PhotoGraphTargetSize : public ::RPG::GameCore::JsonConfig
 	{
 	public:

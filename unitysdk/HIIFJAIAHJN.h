@@ -46,6 +46,8 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 #define HIIFJAIAHJN__PRELOAD_B__4_0_OFFSET UNITYSDK_OFFSET(0x15CE8FD0)
 #define HIIFJAIAHJN__PRELOAD_B__4_1_OFFSET UNITYSDK_OFFSET(0x15CE90F0)
 
+inline static constexpr unsigned int HIIFJAIAHJN_TypeDefinitionIndex = 59679;
+
 	class HIIFJAIAHJN : public ::System::Object
 	{
 	public:

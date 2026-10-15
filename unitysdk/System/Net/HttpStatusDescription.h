@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int HttpStatusDescription_TypeDefinitionIndex = 2723;
+
 	class HttpStatusDescription : public ::System::Object
 	{
 	public:

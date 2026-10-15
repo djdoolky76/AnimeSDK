@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UI3DControllerBase___c__DisplayClass48_0_TypeDefinitionIndex = 73001;
+
 	class UI3DControllerBase___c__DisplayClass48_0 : public ::System::Object
 	{
 	public:

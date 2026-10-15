@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChimeraDuelNpcFireEffectNode; }
 #define MHDDKNOJJOM_CTOR_OFFSET UNITYSDK_OFFSET(0xB932700)
 #define MHDDKNOJJOM_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xB932620)
 
+inline static constexpr unsigned int MHDDKNOJJOM_TypeDefinitionIndex = 77689;
+
 	class MHDDKNOJJOM : public ::HBLDGJCDJPF
 	{
 	public:

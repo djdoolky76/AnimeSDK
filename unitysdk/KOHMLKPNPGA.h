@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KOHMLKPNPGA_CTOR_OFFSET UNITYSDK_OFFSET(0xB597280)
 #define KOHMLKPNPGA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB5972B0)
 
+inline static constexpr unsigned int KOHMLKPNPGA_TypeDefinitionIndex = 54527;
+
 	class KOHMLKPNPGA
 	{
 	public:

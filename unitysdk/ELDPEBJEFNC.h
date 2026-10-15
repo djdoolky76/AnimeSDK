@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DynamicString; }
 #define ELDPEBJEFNC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD99EE0)
 #define ELDPEBJEFNC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD99EA0)
 
+inline static constexpr unsigned int ELDPEBJEFNC_TypeDefinitionIndex = 21452;
+
 	class ELDPEBJEFNC : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections { class IEqualityComparer; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int WeakHashtable_TypeDefinitionIndex = 2653;
+
 	class WeakHashtable : public ::System::Collections::Hashtable
 	{
 	public:

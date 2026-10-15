@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitSilverWolfCompanionToastExit; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitSilverWolfCompanionToastExit_TypeDefinitionIndex = 21704;
+
 	class WaitSilverWolfCompanionToastExit : public ::RPG::GameCore::TaskConfig
 	{
 	public:

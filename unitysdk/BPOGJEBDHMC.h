@@ -13,6 +13,8 @@ namespace RPGTools::Timeline { class CharacterStoryMoveSequenceData; }
 #define BPOGJEBDHMC_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0xC1AD380)
 #define BPOGJEBDHMC_PREPAREFRAME_OFFSET UNITYSDK_OFFSET(0xC1AD4A0)
 
+inline static constexpr unsigned int BPOGJEBDHMC_TypeDefinitionIndex = 48008;
+
 	class BPOGJEBDHMC : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DDLEEJAAMGH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E180DC0)
 #define DDLEEJAAMGH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E180E20)
 
+inline static constexpr unsigned int DDLEEJAAMGH_TypeDefinitionIndex = 33567;
+
 	class DDLEEJAAMGH : public ::System::Object
 	{
 	public:

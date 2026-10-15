@@ -10,6 +10,8 @@ namespace System { class String; }
 #define GNMHAEFBMPC__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x15B1A900)
 #define GNMHAEFBMPC__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x15B1AB80)
 
+inline static constexpr unsigned int GNMHAEFBMPC_TypeDefinitionIndex = 53474;
+
 	class GNMHAEFBMPC
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LocalFogSphereAnimationControllerMonoPlugin_TypeDefinitionIndex = 70647;
+
 	class LocalFogSphereAnimationControllerMonoPlugin
 	{
 	public:

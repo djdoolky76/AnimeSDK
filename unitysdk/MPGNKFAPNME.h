@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MPGNKFAPNME_EGNOMFBOLKG_OFFSET UNITYSDK_OFFSET(0xBA3E050)
 #define MPGNKFAPNME_FNFHICICHND_OFFSET UNITYSDK_OFFSET(0xBA3E170)
 
+inline static constexpr unsigned int MPGNKFAPNME_TypeDefinitionIndex = 55644;
+
 	class MPGNKFAPNME : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::GameCore { class ShowBattleCardBuffSelection; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleCardBuffSelectionDialogInitParam_TypeDefinitionIndex = 58607;
+
 	class BattleCardBuffSelectionDialogInitParam : public ::System::Object
 	{
 	public:

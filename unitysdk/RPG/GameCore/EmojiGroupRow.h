@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EmojiGroupRow_TypeDefinitionIndex = 13222;
+
 	class EmojiGroupRow : public ::System::Object
 	{
 	public:

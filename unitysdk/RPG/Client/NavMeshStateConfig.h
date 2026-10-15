@@ -22,6 +22,8 @@ namespace UnityEngine::AI { class NavMeshSurface; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NavMeshStateConfig_TypeDefinitionIndex = 68641;
+
 	class NavMeshStateConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:

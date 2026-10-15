@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SyncWait_TypeDefinitionIndex = 20436;
+
 	class SyncWait : public ::RPG::GameCore::TaskConfig
 	{
 	public:

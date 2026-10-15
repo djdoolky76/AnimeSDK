@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleAssetPreload_MonsterAssetPreloadGroupCreateParam_TypeDefinitionIndex = 59652;
+
 	class BattleAssetPreload_MonsterAssetPreloadGroupCreateParam : public ::RPG::Client::BattleAssetPreload_AssetPreloadGroupCreateParam
 	{
 	public:

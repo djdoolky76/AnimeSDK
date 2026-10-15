@@ -14,6 +14,8 @@ namespace RPG::Client::RoadRash { class MonoRoadRashGameSettings; }
 #define HHDFHOBABCB_NLGNOELNBJM_OFFSET UNITYSDK_OFFSET(0x15CBBF00)
 #define HHDFHOBABCB_OALFGPELIFF_OFFSET UNITYSDK_OFFSET(0x15CBD710)
 
+inline static constexpr unsigned int HHDFHOBABCB_TypeDefinitionIndex = 75923;
+
 	class HHDFHOBABCB : public ::System::Object
 	{
 	public:

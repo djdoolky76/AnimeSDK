@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int IpegaPG9025AndroidUnityProfile_TypeDefinitionIndex = 40964;
+
 	class IpegaPG9025AndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

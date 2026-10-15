@@ -30,6 +30,8 @@ namespace System { class String; }
 #define FCEEHNOJAAN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3438B0)
 #define FCEEHNOJAAN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E343910)
 
+inline static constexpr unsigned int FCEEHNOJAAN_TypeDefinitionIndex = 28062;
+
 	class FCEEHNOJAAN : public ::System::Object
 	{
 	public:

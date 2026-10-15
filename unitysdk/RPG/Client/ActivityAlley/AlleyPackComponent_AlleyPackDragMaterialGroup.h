@@ -8,6 +8,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client::ActivityAlley
 {
+	inline static constexpr unsigned int AlleyPackComponent_AlleyPackDragMaterialGroup_TypeDefinitionIndex = 74089;
+
 	class AlleyPackComponent_AlleyPackDragMaterialGroup : public ::System::Object
 	{
 	public:

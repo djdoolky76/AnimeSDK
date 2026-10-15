@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define KAOOBMIAAFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB0E40)
 
+inline static constexpr unsigned int KAOOBMIAAFL_TypeDefinitionIndex = 43804;
+
 	class KAOOBMIAAFL : public ::System::Object
 	{
 	public:

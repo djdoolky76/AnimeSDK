@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int Obsolete_TypeDefinitionIndex = 23766;
+
 	class Obsolete : public ::RPG::GameCore::TaskConfig
 	{
 	public:

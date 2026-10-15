@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int HBJGBGJENBJ_ButtonState_TypeDefinitionIndex = 71632;
+
 	enum class HBJGBGJENBJ_ButtonState : ::System::Int32
 	{
 		None = 0,

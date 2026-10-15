@@ -26,6 +26,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightShopProjection_TypeDefinitionIndex = 65241;
+
 	class GridFightShopProjection : public ::RPG::Client::GridFightShopGood
 	{
 	public:

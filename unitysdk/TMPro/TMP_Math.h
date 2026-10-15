@@ -9,6 +9,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_Math_TypeDefinitionIndex = 44679;
+
 	class TMP_Math : public ::System::Object
 	{
 	public:

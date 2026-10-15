@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamGetCurCampIdConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamGetCurCampIdConfig_TypeDefinitionIndex = 19539;
+
 	class GridFightParamGetCurCampIdConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

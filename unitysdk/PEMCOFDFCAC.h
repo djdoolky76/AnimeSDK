@@ -28,6 +28,8 @@ namespace System { class String; }
 #define PEMCOFDFCAC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF1D220)
 #define PEMCOFDFCAC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF1D280)
 
+inline static constexpr unsigned int PEMCOFDFCAC_TypeDefinitionIndex = 31806;
+
 	class PEMCOFDFCAC : public ::System::Object
 	{
 	public:

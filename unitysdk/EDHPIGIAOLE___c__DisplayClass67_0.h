@@ -7,6 +7,8 @@ namespace System { class String; }
 #define EDHPIGIAOLE___C__DISPLAYCLASS67_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1331E260)
 #define EDHPIGIAOLE___C__DISPLAYCLASS67_0___STARTMOVEIMPV2_B__0_OFFSET UNITYSDK_OFFSET(0x1331E880)
 
+inline static constexpr unsigned int EDHPIGIAOLE___c__DisplayClass67_0_TypeDefinitionIndex = 57412;
+
 	class EDHPIGIAOLE___c__DisplayClass67_0 : public ::System::Object
 	{
 	public:

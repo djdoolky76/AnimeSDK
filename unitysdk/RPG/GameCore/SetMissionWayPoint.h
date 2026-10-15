@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetMissionWayPoint; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetMissionWayPoint_TypeDefinitionIndex = 20761;
+
 	class SetMissionWayPoint : public ::RPG::GameCore::TaskConfig
 	{
 	public:

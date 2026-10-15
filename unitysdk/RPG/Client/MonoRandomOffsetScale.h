@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoRandomOffsetScale_TypeDefinitionIndex = 68617;
+
 	class MonoRandomOffsetScale : public ::UnityEngine::MonoBehaviour
 	{
 	public:

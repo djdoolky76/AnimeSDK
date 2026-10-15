@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+inline static constexpr unsigned int IFGKFFOPBGJ_TypeDefinitionIndex = 10811;
+
 	class IFGKFFOPBGJ : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueChestEffectListConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueChestEffectListConfig_TypeDefinitionIndex = 17906;
+
 	class RogueChestEffectListConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -10,6 +10,8 @@
 #define JKLPFLJEPCH_MLLFHCJLHOJ_OFFSET UNITYSDK_OFFSET(0x111A0)
 #define JKLPFLJEPCH_PHJFEOMPDLB_OFFSET UNITYSDK_OFFSET(0x11150)
 
+inline static constexpr unsigned int JKLPFLJEPCH_TypeDefinitionIndex = 57804;
+
 	struct alignas(4) JKLPFLJEPCH
 	{
 		::UnityEngine::Vector3 ACNFNHFMOOD; // 0x10

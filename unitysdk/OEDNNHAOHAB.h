@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OEDNNHAOHAB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE291A0)
 #define OEDNNHAOHAB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE29200)
 
+inline static constexpr unsigned int OEDNNHAOHAB_TypeDefinitionIndex = 32650;
+
 	class OEDNNHAOHAB : public ::System::Object
 	{
 	public:

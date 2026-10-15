@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaitRandomSecond; }
 #define JOOANBMLDMO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB2AE860)
 #define JOOANBMLDMO_TICK_OFFSET UNITYSDK_OFFSET(0xB2AE8B0)
 
+inline static constexpr unsigned int JOOANBMLDMO_TypeDefinitionIndex = 58919;
+
 	class JOOANBMLDMO : public ::GELIALJDFBL
 	{
 	public:

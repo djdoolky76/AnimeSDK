@@ -11,6 +11,8 @@ namespace SimpleJSON { class JSONNode; }
 #define EGLGEOOKCNM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD7E5A0)
 #define EGLGEOOKCNM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD7E560)
 
+inline static constexpr unsigned int EGLGEOOKCNM_TypeDefinitionIndex = 21514;
+
 	class EGLGEOOKCNM : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

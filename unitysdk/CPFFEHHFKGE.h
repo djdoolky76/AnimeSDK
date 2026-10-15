@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define CPFFEHHFKGE_CTOR_OFFSET UNITYSDK_OFFSET(0xDCD2E20)
 
+inline static constexpr unsigned int CPFFEHHFKGE_TypeDefinitionIndex = 53062;
+
 	class CPFFEHHFKGE : public ::System::Object
 	{
 	public:

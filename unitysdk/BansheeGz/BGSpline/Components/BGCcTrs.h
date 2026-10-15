@@ -64,6 +64,8 @@ namespace UnityEngine { class Transform; }
 
 namespace BansheeGz::BGSpline::Components
 {
+	inline static constexpr unsigned int BGCcTrs_TypeDefinitionIndex = 36055;
+
 	class BGCcTrs : public ::BansheeGz::BGSpline::Components::BGCcCursor
 	{
 	public:

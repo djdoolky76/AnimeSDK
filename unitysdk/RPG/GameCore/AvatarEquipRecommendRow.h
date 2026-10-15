@@ -9,6 +9,8 @@ namespace RPG::GameCore { class AvatarEquipRecommendRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarEquipRecommendRow_TypeDefinitionIndex = 12763;
+
 	class AvatarEquipRecommendRow : public ::System::Object
 	{
 	public:

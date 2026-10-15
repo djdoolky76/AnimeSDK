@@ -40,6 +40,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NCNPCENKKGN_PCJPLIOJFJE_OFFSET UNITYSDK_OFFSET(0xBB1A270)
 #define NCNPCENKKGN_PHDANIIPEIJ_OFFSET UNITYSDK_OFFSET(0xBB1A300)
 
+inline static constexpr unsigned int NCNPCENKKGN_TypeDefinitionIndex = 73775;
+
 	class NCNPCENKKGN : public ::System::Object
 	{
 	public:

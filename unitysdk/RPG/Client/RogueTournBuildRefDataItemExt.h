@@ -14,6 +14,8 @@ namespace RPG::Client { class RogueTournBuildRefShareCodeDataItem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournBuildRefDataItemExt_TypeDefinitionIndex = 67524;
+
 	class RogueTournBuildRefDataItemExt : public ::System::Object
 	{
 	public:

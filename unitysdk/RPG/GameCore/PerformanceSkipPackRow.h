@@ -14,6 +14,8 @@ namespace RPG::GameCore { class PerformanceSkipPackRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceSkipPackRow_TypeDefinitionIndex = 14368;
+
 	class PerformanceSkipPackRow : public ::System::Object
 	{
 	public:

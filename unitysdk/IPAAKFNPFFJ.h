@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define IPAAKFNPFFJ_GMBOECMOMNA_OFFSET UNITYSDK_OFFSET(0x1651C0A0)
 #define IPAAKFNPFFJ_NGMGCMKLALC_OFFSET UNITYSDK_OFFSET(0x1651C260)
 
+inline static constexpr unsigned int IPAAKFNPFFJ_TypeDefinitionIndex = 77439;
+
 	class IPAAKFNPFFJ : public ::System::Object
 	{
 	public:

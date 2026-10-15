@@ -15,6 +15,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
+	inline static constexpr unsigned int RenderGraphObjectPool_TypeDefinitionIndex = 35457;
+
 	class RenderGraphObjectPool : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class OverrideEndTransferColor; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OverrideEndTransferColor_TypeDefinitionIndex = 21920;
+
 	class OverrideEndTransferColor : public ::RPG::GameCore::TaskConfig
 	{
 	public:

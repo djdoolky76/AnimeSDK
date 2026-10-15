@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LEKLEHPFHMA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E935CA0)
 #define LEKLEHPFHMA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E935D00)
 
+inline static constexpr unsigned int LEKLEHPFHMA_TypeDefinitionIndex = 32752;
+
 	class LEKLEHPFHMA : public ::System::Object
 	{
 	public:

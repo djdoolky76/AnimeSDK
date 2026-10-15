@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 #define NFFLLHFECCP_PRELOAD_OFFSET UNITYSDK_OFFSET(0xBB7E390)
 #define NFFLLHFECCP_RETURN_OFFSET UNITYSDK_OFFSET(0xBB7E600)
 
+inline static constexpr unsigned int NFFLLHFECCP_TypeDefinitionIndex = 62296;
+
 	class NFFLLHFECCP : public ::System::Object
 	{
 	public:

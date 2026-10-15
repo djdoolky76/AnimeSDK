@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SilverWolfModule___c_TypeDefinitionIndex = 67965;
+
 	class SilverWolfModule___c : public ::System::Object
 	{
 	public:

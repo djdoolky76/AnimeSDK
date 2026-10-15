@@ -5,6 +5,8 @@
 #define DCAENBJNKHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA1A6C0)
 #define DCAENBJNKHO_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1CA1A6D0)
 
+inline static constexpr unsigned int DCAENBJNKHO_TypeDefinitionIndex = 43061;
+
 	class DCAENBJNKHO : public ::IKNAEDLKKKE
 	{
 	public:

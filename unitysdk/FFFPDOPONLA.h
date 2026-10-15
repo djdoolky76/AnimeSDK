@@ -8,6 +8,8 @@ class FFFPDOPONLA;
 #define FFFPDOPONLA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDE6870)
 #define FFFPDOPONLA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDE6830)
 
+inline static constexpr unsigned int FFFPDOPONLA_TypeDefinitionIndex = 22372;
+
 	class FFFPDOPONLA : public ::RPG::GameCore::TaskConfig
 	{
 	public:

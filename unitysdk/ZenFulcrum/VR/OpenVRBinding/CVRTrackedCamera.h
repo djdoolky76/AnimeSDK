@@ -26,6 +26,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int CVRTrackedCamera_TypeDefinitionIndex = 39197;
+
 	class CVRTrackedCamera : public ::System::Object
 	{
 	public:

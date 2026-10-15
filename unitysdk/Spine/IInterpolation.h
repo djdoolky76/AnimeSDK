@@ -9,6 +9,8 @@ namespace Spine { class IInterpolation; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int IInterpolation_TypeDefinitionIndex = 39677;
+
 	class IInterpolation : public ::System::Object
 	{
 	public:

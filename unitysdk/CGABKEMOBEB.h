@@ -28,6 +28,8 @@ namespace System { class String; }
 #define CGABKEMOBEB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0A9FB0)
 #define CGABKEMOBEB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0AA010)
 
+inline static constexpr unsigned int CGABKEMOBEB_TypeDefinitionIndex = 31016;
+
 	class CGABKEMOBEB : public ::System::Object
 	{
 	public:

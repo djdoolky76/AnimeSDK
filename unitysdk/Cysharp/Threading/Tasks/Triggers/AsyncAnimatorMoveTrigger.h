@@ -13,6 +13,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnAnimatorMoveHandle
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncAnimatorMoveTrigger_TypeDefinitionIndex = 38511;
+
 	class AsyncAnimatorMoveTrigger
 	{
 	public:

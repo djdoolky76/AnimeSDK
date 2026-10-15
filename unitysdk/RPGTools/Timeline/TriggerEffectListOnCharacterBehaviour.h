@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerEffectListOnCharacter; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TriggerEffectListOnCharacterBehaviour_TypeDefinitionIndex = 48333;
+
 	class TriggerEffectListOnCharacterBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

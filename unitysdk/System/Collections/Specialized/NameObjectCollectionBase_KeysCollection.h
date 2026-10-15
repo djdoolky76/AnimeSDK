@@ -16,6 +16,8 @@ namespace System::Collections::Specialized { class NameObjectCollectionBase; }
 
 namespace System::Collections::Specialized
 {
+	inline static constexpr unsigned int NameObjectCollectionBase_KeysCollection_TypeDefinitionIndex = 2997;
+
 	class NameObjectCollectionBase_KeysCollection : public ::System::Object
 	{
 	public:

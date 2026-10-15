@@ -12,6 +12,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftChipImageControl; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftSettleRewardItemControlBinder_TypeDefinitionIndex = 80032;
+
 	class MechCraftSettleRewardItemControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Playables
 {
+	inline static constexpr unsigned int FrameData_Flags_TypeDefinitionIndex = 4903;
+
 	enum class FrameData_Flags : ::System::Int32
 	{
 		Evaluate = 1,

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterReplaceOriginMaterial_TypeDefinitionIndex = 23844;
+
 	class CharacterReplaceOriginMaterial : public ::RPG::GameCore::TaskConfig
 	{
 	public:

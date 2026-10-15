@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HDDNLIKIDPK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE93B30)
 #define HDDNLIKIDPK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE93450)
 
+inline static constexpr unsigned int HDDNLIKIDPK_TypeDefinitionIndex = 13200;
+
 	class HDDNLIKIDPK : public ::System::Object
 	{
 	public:

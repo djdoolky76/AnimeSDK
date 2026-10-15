@@ -20,6 +20,8 @@ namespace System { class Nullable; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Sum_TypeDefinitionIndex = 45609;
+
 	class Sum : public ::System::Object
 	{
 	public:

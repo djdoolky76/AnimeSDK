@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierPersonaChangeStyleGiftSelectCandida
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierPersonaChangeStyleGiftSelectCandidateNumConfig_TypeDefinitionIndex = 17833;
+
 	class RogueModifierPersonaChangeStyleGiftSelectCandidateNumConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

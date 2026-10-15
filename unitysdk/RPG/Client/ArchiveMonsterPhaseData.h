@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ArchiveMonsterPhaseData_TypeDefinitionIndex = 62416;
+
 	class ArchiveMonsterPhaseData : public ::System::Object
 	{
 	public:

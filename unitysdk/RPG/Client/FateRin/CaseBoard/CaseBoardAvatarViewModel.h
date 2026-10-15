@@ -25,6 +25,8 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::CaseBoard
 {
+	inline static constexpr unsigned int CaseBoardAvatarViewModel_TypeDefinitionIndex = 80786;
+
 	class CaseBoardAvatarViewModel : public ::System::Object
 	{
 	public:

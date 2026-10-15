@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureByMazeSkillUseCheck_TypeDefinitionIndex = 20038;
+
 	class AdventureByMazeSkillUseCheck : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -21,6 +21,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define AAMNMKFFMBO_KLMLOPLHAIP_OFFSET UNITYSDK_OFFSET(0xB0D21F0)
 #define AAMNMKFFMBO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB0D0090)
 
+inline static constexpr unsigned int AAMNMKFFMBO_TypeDefinitionIndex = 70364;
+
 	class AAMNMKFFMBO : public ::RPG::Client::BehaviorBase
 	{
 	public:

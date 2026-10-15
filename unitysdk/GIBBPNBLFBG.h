@@ -4,6 +4,8 @@
 
 #define GIBBPNBLFBG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE4D220)
 
+inline static constexpr unsigned int GIBBPNBLFBG_TypeDefinitionIndex = 25035;
+
 	class GIBBPNBLFBG : public ::System::Attribute
 	{
 	public:

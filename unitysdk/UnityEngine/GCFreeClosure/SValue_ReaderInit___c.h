@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace UnityEngine::GCFreeClosure
 {
+	inline static constexpr unsigned int SValue_ReaderInit___c_TypeDefinitionIndex = 4470;
+
 	class SValue_ReaderInit___c : public ::System::Object
 	{
 	public:

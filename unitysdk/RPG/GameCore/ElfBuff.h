@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfBuff_TypeDefinitionIndex = 18485;
+
 	class ElfBuff : public ::RPG::GameCore::JsonConfig
 	{
 	public:

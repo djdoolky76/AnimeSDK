@@ -17,6 +17,8 @@ namespace RPG::GameCore { class PamChatGreetingRow; }
 #define KJIOGEFIOCD_JCGJHKAGMBH_OFFSET UNITYSDK_OFFSET(0xB459DB0)
 #define KJIOGEFIOCD_NKMJLOIKMGL_OFFSET UNITYSDK_OFFSET(0xB459D30)
 
+inline static constexpr unsigned int KJIOGEFIOCD_TypeDefinitionIndex = 63282;
+
 	class KJIOGEFIOCD : public ::System::Object
 	{
 	public:

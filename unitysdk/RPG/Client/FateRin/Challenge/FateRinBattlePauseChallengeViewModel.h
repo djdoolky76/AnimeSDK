@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::FateRin::Challenge
 {
+	inline static constexpr unsigned int FateRinBattlePauseChallengeViewModel_TypeDefinitionIndex = 81027;
+
 	class FateRinBattlePauseChallengeViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

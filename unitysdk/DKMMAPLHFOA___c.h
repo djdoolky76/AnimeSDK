@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DKMMAPLHFOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1DA3F0)
 #define DKMMAPLHFOA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E1DA400)
 
+inline static constexpr unsigned int DKMMAPLHFOA___c_TypeDefinitionIndex = 34916;
+
 	class DKMMAPLHFOA___c : public ::System::Object
 	{
 	public:

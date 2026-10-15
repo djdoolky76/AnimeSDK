@@ -24,6 +24,8 @@ namespace UnityEngine { class GameObject; }
 #define AKAUDIOINPUTMANAGER_POSTAUDIOINPUTEVENT_OFFSET UNITYSDK_OFFSET(0x1F5740A0)
 #define AKAUDIOINPUTMANAGER_TRYINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1F574200)
 
+inline static constexpr unsigned int AkAudioInputManager_TypeDefinitionIndex = 44810;
+
 	class AkAudioInputManager : public ::System::Object
 	{
 	public:

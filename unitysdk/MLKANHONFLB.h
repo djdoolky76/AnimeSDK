@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MLKANHONFLB_OCKFDBBHOPD_OFFSET UNITYSDK_OFFSET(0xB9B2BD0)
 #define MLKANHONFLB_PKAHGMOCKAB_OFFSET UNITYSDK_OFFSET(0xB9B31E0)
 
+inline static constexpr unsigned int MLKANHONFLB_TypeDefinitionIndex = 73842;
+
 	class MLKANHONFLB : public ::System::Object
 	{
 	public:

@@ -38,6 +38,8 @@ namespace RPG::GameCore { class FightFestScoreRaceRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FightFestRaceData_TypeDefinitionIndex = 64180;
+
 	class FightFestRaceData : public ::System::Object
 	{
 	public:

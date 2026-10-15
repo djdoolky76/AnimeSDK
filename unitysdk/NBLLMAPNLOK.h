@@ -8,6 +8,8 @@ class NBLLMAPNLOK;
 #define NBLLMAPNLOK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1F0D20)
 #define NBLLMAPNLOK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1F0AF0)
 
+inline static constexpr unsigned int NBLLMAPNLOK_TypeDefinitionIndex = 13943;
+
 	class NBLLMAPNLOK : public ::System::Object
 	{
 	public:

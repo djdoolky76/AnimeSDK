@@ -13,6 +13,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int EmojiBubbleTrack_TypeDefinitionIndex = 48098;
+
 	class EmojiBubbleTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:

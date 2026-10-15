@@ -43,6 +43,8 @@ namespace System { class String; }
 #define FHEGNOPNICH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E38A550)
 #define FHEGNOPNICH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E38A5B0)
 
+inline static constexpr unsigned int FHEGNOPNICH_TypeDefinitionIndex = 32330;
+
 	class FHEGNOPNICH : public ::System::Object
 	{
 	public:

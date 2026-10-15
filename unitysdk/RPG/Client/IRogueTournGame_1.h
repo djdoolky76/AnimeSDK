@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int IRogueTournGame_1_TypeDefinitionIndex = 67599;
+
 	template <typename T>
 	class IRogueTournGame_1
 	{

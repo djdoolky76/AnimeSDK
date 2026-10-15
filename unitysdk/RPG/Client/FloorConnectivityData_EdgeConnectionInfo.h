@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FloorConnectivityData_EdgeConnectionInfo_TypeDefinitionIndex = 64231;
+
 	class FloorConnectivityData_EdgeConnectionInfo : public ::System::Object
 	{
 	public:

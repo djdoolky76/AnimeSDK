@@ -23,6 +23,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimCleanerBotPhysicsProxyView_TypeDefinitionIndex = 77196;
+
 	class FiveDimCleanerBotPhysicsProxyView : public ::RPG::Client::LittleGame::FiveDim::FiveDimPropPhysicsProxyView
 	{
 	public:

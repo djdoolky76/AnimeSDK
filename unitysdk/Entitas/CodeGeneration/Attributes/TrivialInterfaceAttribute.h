@@ -6,6 +6,8 @@
 
 namespace Entitas::CodeGeneration::Attributes
 {
+	inline static constexpr unsigned int TrivialInterfaceAttribute_TypeDefinitionIndex = 10088;
+
 	class TrivialInterfaceAttribute : public ::System::Attribute
 	{
 	public:

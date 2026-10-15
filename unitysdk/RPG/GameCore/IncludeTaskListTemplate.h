@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IncludeTaskListTemplate_TypeDefinitionIndex = 23830;
+
 	class IncludeTaskListTemplate : public ::RPG::GameCore::TaskConfig
 	{
 	public:

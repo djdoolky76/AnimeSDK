@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ToastManagerExcelTable_TypeDefinitionIndex = 15306;
+
 	class ToastManagerExcelTable : public ::System::Object
 	{
 	public:

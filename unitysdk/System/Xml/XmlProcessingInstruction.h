@@ -22,6 +22,8 @@ namespace System::Xml { class XmlWriter; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlProcessingInstruction_TypeDefinitionIndex = 1919;
+
 	class XmlProcessingInstruction : public ::System::Xml::XmlLinkedNode
 	{
 	public:

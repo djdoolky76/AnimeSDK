@@ -11,6 +11,8 @@ namespace System { class String; }
 #define IELMGLNMLFN_OIPJKMBIFAL_OFFSET UNITYSDK_OFFSET(0x2E80770)
 #define IELMGLNMLFN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2E80700)
 
+inline static constexpr unsigned int IELMGLNMLFN_TypeDefinitionIndex = 73370;
+
 	struct alignas(4) IELMGLNMLFN
 	{
 		::RPG::Client::TextID DIDPADKMCAL; // 0x10

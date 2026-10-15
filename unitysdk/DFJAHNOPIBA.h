@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DFJAHNOPIBA_CTOR_OFFSET UNITYSDK_OFFSET(0xE82ED90)
 #define DFJAHNOPIBA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE82EDC0)
 
+inline static constexpr unsigned int DFJAHNOPIBA_TypeDefinitionIndex = 55143;
+
 	class DFJAHNOPIBA
 	{
 	public:

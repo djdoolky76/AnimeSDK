@@ -33,6 +33,8 @@ namespace System { class String; }
 #define EGELHCKMLNK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E293410)
 #define EGELHCKMLNK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E293470)
 
+inline static constexpr unsigned int EGELHCKMLNK_TypeDefinitionIndex = 32502;
+
 	class EGELHCKMLNK : public ::System::Object
 	{
 	public:

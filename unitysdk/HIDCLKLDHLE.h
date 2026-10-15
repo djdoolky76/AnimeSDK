@@ -35,6 +35,8 @@ namespace System { class String; }
 #define HIDCLKLDHLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E58F1F0)
 #define HIDCLKLDHLE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E58F250)
 
+inline static constexpr unsigned int HIDCLKLDHLE_TypeDefinitionIndex = 29942;
+
 	class HIDCLKLDHLE : public ::System::Object
 	{
 	public:

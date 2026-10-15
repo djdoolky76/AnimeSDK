@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StatusResistanceTypeRow_TypeDefinitionIndex = 14191;
+
 	class StatusResistanceTypeRow : public ::System::Object
 	{
 	public:

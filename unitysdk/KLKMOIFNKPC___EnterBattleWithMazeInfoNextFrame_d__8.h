@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define KLKMOIFNKPC___ENTERBATTLEWITHMAZEINFONEXTFRAME_D__8_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xB52DE30)
 #define KLKMOIFNKPC___ENTERBATTLEWITHMAZEINFONEXTFRAME_D__8_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB52D5E0)
 
+inline static constexpr unsigned int KLKMOIFNKPC___EnterBattleWithMazeInfoNextFrame_d__8_TypeDefinitionIndex = 61202;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
 	class KLKMOIFNKPC___EnterBattleWithMazeInfoNextFrame_d__8 : public ::System::Object
 	{

@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int JSONNode_LinqEnumerator_TypeDefinitionIndex = 40673;
+
 	class JSONNode_LinqEnumerator : public ::System::Object
 	{
 	public:

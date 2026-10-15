@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define EPDGBMGOPHM_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0x155D1150)
 #define EPDGBMGOPHM_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0x155D11A0)
 
+inline static constexpr unsigned int EPDGBMGOPHM_TypeDefinitionIndex = 57822;
+
 	class EPDGBMGOPHM : public ::System::Object
 	{
 	public:

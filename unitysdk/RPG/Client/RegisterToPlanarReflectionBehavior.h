@@ -35,6 +35,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RegisterToPlanarReflectionBehavior_TypeDefinitionIndex = 70708;
+
 	class RegisterToPlanarReflectionBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

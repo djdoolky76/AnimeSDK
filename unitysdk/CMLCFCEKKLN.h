@@ -7,6 +7,8 @@ namespace RPG::GameCore { class FiveDimLeverSwitchConfig; }
 #define CMLCFCEKKLN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA13190)
 #define CMLCFCEKKLN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA13210)
 
+inline static constexpr unsigned int CMLCFCEKKLN_TypeDefinitionIndex = 43462;
+
 	class CMLCFCEKKLN : public ::System::Object
 	{
 	public:

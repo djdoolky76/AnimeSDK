@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WorldLevelStageUnlockConfigRow_TypeDefinitionIndex = 12567;
+
 	class WorldLevelStageUnlockConfigRow : public ::System::Object
 	{
 	public:

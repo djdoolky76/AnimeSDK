@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define IJDFKDEICBM_MNONPFEGMPH_OFFSET UNITYSDK_OFFSET(0x16459B90)
 #define IJDFKDEICBM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16459850)
 
+inline static constexpr unsigned int IJDFKDEICBM_TypeDefinitionIndex = 58193;
+
 	class IJDFKDEICBM
 	{
 	public:

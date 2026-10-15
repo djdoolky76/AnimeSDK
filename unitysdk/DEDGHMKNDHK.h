@@ -11,6 +11,8 @@ namespace System { class String; }
 #define DEDGHMKNDHK_CTOR_OFFSET UNITYSDK_OFFSET(0xE5046C0)
 #define DEDGHMKNDHK_NDINLCMBHMG_OFFSET UNITYSDK_OFFSET(0xE504700)
 
+inline static constexpr unsigned int DEDGHMKNDHK_TypeDefinitionIndex = 49479;
+
 	class DEDGHMKNDHK
 	{
 	public:

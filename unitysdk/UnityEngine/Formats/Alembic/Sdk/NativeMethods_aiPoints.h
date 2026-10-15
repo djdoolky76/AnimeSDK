@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int NativeMethods_aiPoints_TypeDefinitionIndex = 45798;
+
 	struct alignas(4) NativeMethods_aiPoints
 	{
 		static ::UnityEngine::Formats::Alembic::Sdk::aiPointsSample aiSchemaGetSample(::System::IntPtr a1)

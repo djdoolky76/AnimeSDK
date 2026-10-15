@@ -7,6 +7,8 @@ namespace RPG::Client { class IRogueTournPersonaRoomCard; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaRoomCardExt_TypeDefinitionIndex = 67742;
+
 	class RogueTournPersonaRoomCardExt : public ::System::Object
 	{
 	public:

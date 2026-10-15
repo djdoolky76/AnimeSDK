@@ -17,6 +17,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginPlanarReflection_TypeDefinitionIndex = 70012;
+
 	class MonoEffectPluginPlanarReflection : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 #define NGGLPLKJKMM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D207080)
 #define NGGLPLKJKMM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D206C80)
 
+inline static constexpr unsigned int NGGLPLKJKMM_TypeDefinitionIndex = 18156;
+
 	class NGGLPLKJKMM : public ::RPG::GameCore::JsonConfig
 	{
 	public:

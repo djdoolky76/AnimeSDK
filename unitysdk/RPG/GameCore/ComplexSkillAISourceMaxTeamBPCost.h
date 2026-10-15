@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ComplexSkillAISourceMaxTeamBPCost; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAISourceMaxTeamBPCost_TypeDefinitionIndex = 15536;
+
 	class ComplexSkillAISourceMaxTeamBPCost : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:

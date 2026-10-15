@@ -10,6 +10,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DynamicValue___c_TypeDefinitionIndex = 10842;
+
 	class DynamicValue___c : public ::System::Object
 	{
 	public:

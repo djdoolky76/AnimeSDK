@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CANHNOJACGI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E05EEF0)
 #define CANHNOJACGI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E05EF50)
 
+inline static constexpr unsigned int CANHNOJACGI_TypeDefinitionIndex = 33736;
+
 	class CANHNOJACGI : public ::System::Object
 	{
 	public:

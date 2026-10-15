@@ -7,6 +7,8 @@ namespace System { class String; }
 #define CAOOFGCHFDI_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE0530)
 #define CAOOFGCHFDI_TOSTRING_OFFSET UNITYSDK_OFFSET(0xE04B0)
 
+inline static constexpr unsigned int CAOOFGCHFDI_TypeDefinitionIndex = 65654;
+
 	struct alignas(4) CAOOFGCHFDI
 	{
 		::System::UInt32 FIMNPJLNLEE; // 0x10

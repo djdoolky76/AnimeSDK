@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ILCNJNKDJDE_ONUNINIT_OFFSET UNITYSDK_OFFSET(0x164A8560)
 #define ILCNJNKDJDE_TICK_OFFSET UNITYSDK_OFFSET(0x164A8740)
 
+inline static constexpr unsigned int ILCNJNKDJDE_TypeDefinitionIndex = 60278;
+
 	class ILCNJNKDJDE : public ::HBCMHADMLOP
 	{
 	public:

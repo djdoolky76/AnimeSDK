@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace ZXing
 {
+	inline static constexpr unsigned int SupportClass_TypeDefinitionIndex = 6981;
+
 	class SupportClass : public ::System::Object
 	{
 	public:

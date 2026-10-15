@@ -18,6 +18,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int rdtSerializerSlider_TypeDefinitionIndex = 46970;
+
 	class rdtSerializerSlider : public ::System::Object
 	{
 	public:

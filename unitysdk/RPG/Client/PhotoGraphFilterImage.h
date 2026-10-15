@@ -21,6 +21,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhotoGraphFilterImage_TypeDefinitionIndex = 69448;
+
 	class PhotoGraphFilterImage : public ::UnityEngine::UI::RawImage
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 #define JEKHNAAKLPB_PJPFIHFAHGO_1_OFFSET UNITYSDK_OFFSET(0x1663DBA0)
 #define JEKHNAAKLPB_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1663DB60)
 
+inline static constexpr unsigned int JEKHNAAKLPB_TypeDefinitionIndex = 49168;
+
 	class JEKHNAAKLPB : public ::System::Object
 	{
 	public:

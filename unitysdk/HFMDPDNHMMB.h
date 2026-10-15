@@ -5,6 +5,8 @@ class JNHEPGLMAFE;
 
 #define HFMDPDNHMMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C664D90)
 
+inline static constexpr unsigned int HFMDPDNHMMB_TypeDefinitionIndex = 37194;
+
 	class HFMDPDNHMMB : public ::Entitas::Systems
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoUIControllerGetter_TypeDefinitionIndex = 71343;
+
 	class MonoUIControllerGetter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

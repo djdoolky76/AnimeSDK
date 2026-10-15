@@ -8,6 +8,8 @@ namespace MessagePack::Resolvers { class DynamicGenericResolver; }
 
 namespace MessagePack::Resolvers
 {
+	inline static constexpr unsigned int DynamicGenericResolver_TypeDefinitionIndex = 7256;
+
 	class DynamicGenericResolver : public ::System::Object
 	{
 	public:

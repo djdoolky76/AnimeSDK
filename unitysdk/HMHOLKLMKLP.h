@@ -5,6 +5,8 @@
 #define HMHOLKLMKLP_CTOR_OFFSET UNITYSDK_OFFSET(0x15D82B20)
 #define HMHOLKLMKLP_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x15D82AD0)
 
+inline static constexpr unsigned int HMHOLKLMKLP_TypeDefinitionIndex = 52736;
+
 	class HMHOLKLMKLP : public ::System::Object
 	{
 	public:

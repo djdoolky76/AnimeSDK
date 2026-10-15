@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define HEMNKMPMIAB_DAMDMJJKLON_OFFSET UNITYSDK_OFFSET(0x15C5B910)
 #define HEMNKMPMIAB_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0x15C5B950)
 
+inline static constexpr unsigned int HEMNKMPMIAB_TypeDefinitionIndex = 53752;
+
 	class HEMNKMPMIAB : public ::GJPFGOGOLBI
 	{
 	public:

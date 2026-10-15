@@ -9,6 +9,8 @@ namespace System::IO { class SearchResult; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int StringResultHandler_TypeDefinitionIndex = 676;
+
 	class StringResultHandler
 	{
 	public:

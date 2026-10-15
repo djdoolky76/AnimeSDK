@@ -10,6 +10,8 @@ namespace RPG::Client::LittleGameShare { class ST_Main_CakeRacePlayMessage; }
 #define AMJEICCFLDN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C594150)
 #define AMJEICCFLDN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1C5944B0)
 
+inline static constexpr unsigned int AMJEICCFLDN_TypeDefinitionIndex = 36989;
+
 	class AMJEICCFLDN
 	{
 	public:

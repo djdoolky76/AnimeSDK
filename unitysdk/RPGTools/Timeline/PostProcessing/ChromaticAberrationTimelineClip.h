@@ -5,6 +5,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int ChromaticAberrationTimelineClip_TypeDefinitionIndex = 48555;
+
 	class ChromaticAberrationTimelineClip
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MIHNHJJBFJP_SET_LEVELENDMAP_OFFSET UNITYSDK_OFFSET(0xB9598D0)
 #define MIHNHJJBFJP_SET_MAPID_OFFSET UNITYSDK_OFFSET(0xB9598B0)
 
+inline static constexpr unsigned int MIHNHJJBFJP_TypeDefinitionIndex = 63878;
+
 	class MIHNHJJBFJP : public ::System::Object
 	{
 	public:

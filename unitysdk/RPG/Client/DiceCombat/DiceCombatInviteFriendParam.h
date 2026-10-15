@@ -10,6 +10,8 @@ namespace RPG::Client::DiceCombat { class DiceCombatInviteFriendParam; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatInviteFriendParam_TypeDefinitionIndex = 76124;
+
 	class DiceCombatInviteFriendParam : public ::System::Object
 	{
 	public:

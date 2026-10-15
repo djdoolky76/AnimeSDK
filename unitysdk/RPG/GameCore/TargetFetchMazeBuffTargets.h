@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetFetchMazeBuffTargets_TypeDefinitionIndex = 23934;
+
 	class TargetFetchMazeBuffTargets : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:

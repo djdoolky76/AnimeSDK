@@ -107,6 +107,8 @@ namespace UnityEngine::AI { class NavMeshPath; }
 #define KIHPGEJOMHC_PNMEFDMIAHF_OFFSET UNITYSDK_OFFSET(0xB42B4E0)
 #define KIHPGEJOMHC_TICK_OFFSET UNITYSDK_OFFSET(0xB427270)
 
+inline static constexpr unsigned int KIHPGEJOMHC_TypeDefinitionIndex = 53083;
+
 	class KIHPGEJOMHC : public ::GELIALJDFBL
 	{
 	public:

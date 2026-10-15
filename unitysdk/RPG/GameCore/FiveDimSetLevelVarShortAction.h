@@ -12,6 +12,8 @@ namespace RPG::GameCore { class LittleGameDynamicVar; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetLevelVarShortAction_TypeDefinitionIndex = 18653;
+
 	class FiveDimSetLevelVarShortAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

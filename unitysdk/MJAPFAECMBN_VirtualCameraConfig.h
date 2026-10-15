@@ -8,6 +8,8 @@ namespace RPG::Client { class CameraBlendCurve; }
 #define MJAPFAECMBN_VIRTUALCAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xB962F90)
 #define MJAPFAECMBN_VIRTUALCAMERACONFIG_GET_PREFERREDVIRTUALCAMERA_OFFSET UNITYSDK_OFFSET(0xB962B70)
 
+inline static constexpr unsigned int MJAPFAECMBN_VirtualCameraConfig_TypeDefinitionIndex = 78476;
+
 	class MJAPFAECMBN_VirtualCameraConfig : public ::System::Object
 	{
 	public:

@@ -22,6 +22,8 @@ namespace RPG::Client { class FiveDimSkillDisplayInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FiveDimSkillDisplayInfo_TypeDefinitionIndex = 64224;
+
 	class FiveDimSkillDisplayInfo : public ::System::Object
 	{
 	public:

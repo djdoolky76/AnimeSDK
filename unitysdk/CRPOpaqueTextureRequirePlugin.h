@@ -8,6 +8,8 @@
 #define CRPOPAQUETEXTUREREQUIREPLUGIN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xDCDEA40)
 #define CRPOPAQUETEXTUREREQUIREPLUGIN_ONENABLE_OFFSET UNITYSDK_OFFSET(0xDCDE7A0)
 
+inline static constexpr unsigned int CRPOpaqueTextureRequirePlugin_TypeDefinitionIndex = 47324;
+
 	class CRPOpaqueTextureRequirePlugin : public ::UnityEngine::MonoBehaviour
 	{
 	public:

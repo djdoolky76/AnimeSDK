@@ -13,6 +13,8 @@ namespace RPG::GameCore { class SpecialBpFeature; }
 #define IEIGLAPKDNK_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0x15EFD510)
 #define IEIGLAPKDNK_SET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x15EFD530)
 
+inline static constexpr unsigned int IEIGLAPKDNK_TypeDefinitionIndex = 56897;
+
 	class IEIGLAPKDNK : public ::System::Object
 	{
 	public:

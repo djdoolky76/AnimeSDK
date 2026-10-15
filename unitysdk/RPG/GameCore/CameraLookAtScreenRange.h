@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CameraLookAtScreenRange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CameraLookAtScreenRange_TypeDefinitionIndex = 20506;
+
 	class CameraLookAtScreenRange : public ::RPG::GameCore::JsonConfig
 	{
 	public:

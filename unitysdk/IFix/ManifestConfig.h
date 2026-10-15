@@ -31,6 +31,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 
 namespace IFix
 {
+	inline static constexpr unsigned int ManifestConfig_TypeDefinitionIndex = 7109;
+
 	class ManifestConfig : public ::System::Object
 	{
 	public:

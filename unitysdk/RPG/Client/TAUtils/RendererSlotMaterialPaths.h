@@ -17,6 +17,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client::TAUtils
 {
+	inline static constexpr unsigned int RendererSlotMaterialPaths_TypeDefinitionIndex = 73651;
+
 	class RendererSlotMaterialPaths : public ::System::Object
 	{
 	public:

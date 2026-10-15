@@ -26,6 +26,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoFourFeetSimpleIK_TypeDefinitionIndex = 68591;
+
 	class MonoFourFeetSimpleIK : public ::UnityEngine::MonoBehaviour
 	{
 	public:

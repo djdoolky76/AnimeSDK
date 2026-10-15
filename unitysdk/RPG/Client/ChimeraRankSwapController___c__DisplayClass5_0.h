@@ -8,6 +8,8 @@ namespace RPG::Client { class VirtualRankChimeraTeam; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraRankSwapController___c__DisplayClass5_0_TypeDefinitionIndex = 72479;
+
 	class ChimeraRankSwapController___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

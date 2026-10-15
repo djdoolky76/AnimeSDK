@@ -43,6 +43,8 @@ namespace System { class String; }
 #define LEOEMHHIANI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E938DC0)
 #define LEOEMHHIANI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E938E20)
 
+inline static constexpr unsigned int LEOEMHHIANI_TypeDefinitionIndex = 27530;
+
 	class LEOEMHHIANI : public ::System::Object
 	{
 	public:

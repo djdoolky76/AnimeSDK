@@ -11,6 +11,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RPGGrassSettingUtil_TypeDefinitionIndex = 4287;
+
 	class RPGGrassSettingUtil : public ::System::Object
 	{
 	public:

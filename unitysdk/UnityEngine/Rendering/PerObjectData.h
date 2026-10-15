@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int PerObjectData_TypeDefinitionIndex = 4758;
+
 	enum class PerObjectData : ::System::Int32
 	{
 		None = 0,

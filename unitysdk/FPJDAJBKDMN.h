@@ -15,6 +15,8 @@
 #define FPJDAJBKDMN_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0xACE0)
 #define FPJDAJBKDMN_MIONMHGKICO_OFFSET UNITYSDK_OFFSET(0x1591D430)
 
+inline static constexpr unsigned int FPJDAJBKDMN_TypeDefinitionIndex = 62164;
+
 	struct alignas(4) FPJDAJBKDMN
 	{
 		::RPG::Client::ResolvedIntentKind _Kind_k__BackingField; // 0x10

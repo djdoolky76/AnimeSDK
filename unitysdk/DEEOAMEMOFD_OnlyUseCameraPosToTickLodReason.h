@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int DEEOAMEMOFD_OnlyUseCameraPosToTickLodReason_TypeDefinitionIndex = 57790;
+
 	enum class DEEOAMEMOFD_OnlyUseCameraPosToTickLodReason : ::System::Int32
 	{
 		FiveDim = 1,

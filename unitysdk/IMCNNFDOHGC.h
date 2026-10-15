@@ -4,6 +4,8 @@
 
 #define IMCNNFDOHGC_CTOR_OFFSET UNITYSDK_OFFSET(0x164D14A0)
 
+inline static constexpr unsigned int IMCNNFDOHGC_TypeDefinitionIndex = 48729;
+
 	class IMCNNFDOHGC : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

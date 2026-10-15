@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGQualitySettingsForDefaultLevel_TypeDefinitionIndex = 67940;
+
 	class RPGQualitySettingsForDefaultLevel : public ::System::Object
 	{
 	public:

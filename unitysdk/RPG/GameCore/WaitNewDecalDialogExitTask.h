@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitNewDecalDialogExitTask_TypeDefinitionIndex = 58905;
+
 	class WaitNewDecalDialogExitTask : public ::GELIALJDFBL
 	{
 	public:

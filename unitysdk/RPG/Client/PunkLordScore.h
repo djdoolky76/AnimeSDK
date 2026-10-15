@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PunkLordScore_TypeDefinitionIndex = 66759;
+
 	class PunkLordScore : public ::System::Object
 	{
 	public:

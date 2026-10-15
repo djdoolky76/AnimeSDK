@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NHKPEEBGNJJ___GETALLWEAPONLIST_B__1_0_OFFSET UNITYSDK_OFFSET(0xBBD3CB0)
 #define NHKPEEBGNJJ___GETALLWEAPONLIST_B__1_1_OFFSET UNITYSDK_OFFSET(0xBBD3DD0)
 
+inline static constexpr unsigned int NHKPEEBGNJJ_TypeDefinitionIndex = 53577;
+
 	class NHKPEEBGNJJ : public ::System::Object
 	{
 	public:

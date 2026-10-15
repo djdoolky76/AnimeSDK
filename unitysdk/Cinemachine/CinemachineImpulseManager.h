@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineImpulseManager_TypeDefinitionIndex = 39872;
+
 	class CinemachineImpulseManager : public ::System::Object
 	{
 	public:

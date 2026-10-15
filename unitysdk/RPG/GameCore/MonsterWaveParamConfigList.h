@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MonsterWaveParamConfigList; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonsterWaveParamConfigList_TypeDefinitionIndex = 18171;
+
 	class MonsterWaveParamConfigList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GNELPKKAEBC_PCAGBGGPLDO_OFFSET UNITYSDK_OFFSET(0x15B00920)
 #define GNELPKKAEBC_PHFKFBLIBKG_OFFSET UNITYSDK_OFFSET(0x15B002E0)
 
+inline static constexpr unsigned int GNELPKKAEBC_TypeDefinitionIndex = 78987;
+
 	class GNELPKKAEBC : public ::System::Object
 	{
 	public:

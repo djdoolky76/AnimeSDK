@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharacterHeadPullBackIK_TypeDefinitionIndex = 68382;
+
 	class CharacterHeadPullBackIK : public ::RPG::Client::FABRIK
 	{
 	public:

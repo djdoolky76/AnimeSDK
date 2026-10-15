@@ -28,6 +28,8 @@ namespace System { class String; }
 #define OELHDNEGGBB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE2E580)
 #define OELHDNEGGBB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE2E5E0)
 
+inline static constexpr unsigned int OELHDNEGGBB_TypeDefinitionIndex = 31233;
+
 	class OELHDNEGGBB : public ::System::Object
 	{
 	public:

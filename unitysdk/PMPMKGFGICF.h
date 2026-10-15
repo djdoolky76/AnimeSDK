@@ -103,6 +103,8 @@ namespace UnityEngine { class Transform; }
 #define PMPMKGFGICF__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xC32C8E0)
 #define PMPMKGFGICF__ONTICK_OFFSET UNITYSDK_OFFSET(0xC32C770)
 
+inline static constexpr unsigned int PMPMKGFGICF_TypeDefinitionIndex = 71482;
+
 	class PMPMKGFGICF : public ::FMPCODLIOLG
 	{
 	public:

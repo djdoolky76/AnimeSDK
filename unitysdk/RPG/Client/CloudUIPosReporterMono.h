@@ -20,6 +20,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CloudUIPosReporterMono_TypeDefinitionIndex = 59859;
+
 	class CloudUIPosReporterMono : public ::UnityEngine::MonoBehaviour
 	{
 	public:

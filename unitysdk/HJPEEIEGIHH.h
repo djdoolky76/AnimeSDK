@@ -6,6 +6,8 @@ namespace RPG::GameCore { class GameEntityList; }
 #define HJPEEIEGIHH_CLEAR_OFFSET UNITYSDK_OFFSET(0x15D368B0)
 #define HJPEEIEGIHH_CTOR_OFFSET UNITYSDK_OFFSET(0x15D36900)
 
+inline static constexpr unsigned int HJPEEIEGIHH_TypeDefinitionIndex = 56427;
+
 	class HJPEEIEGIHH : public ::System::Object
 	{
 	public:

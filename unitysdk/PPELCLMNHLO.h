@@ -16,6 +16,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define PPELCLMNHLO_SET_OWNER_OFFSET UNITYSDK_OFFSET(0xC381640)
 #define PPELCLMNHLO_SET_PREV_OFFSET UNITYSDK_OFFSET(0xC3815F0)
 
+inline static constexpr unsigned int PPELCLMNHLO_TypeDefinitionIndex = 56220;
+
 	class PPELCLMNHLO
 	{
 	public:

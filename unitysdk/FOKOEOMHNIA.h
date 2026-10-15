@@ -10,6 +10,8 @@ class JBFGHNLMEDI;
 #define FOKOEOMHNIA_CTOR_OFFSET UNITYSDK_OFFSET(0x158F6CC0)
 #define FOKOEOMHNIA_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0x158F6CD0)
 
+inline static constexpr unsigned int FOKOEOMHNIA_TypeDefinitionIndex = 76422;
+
 	class FOKOEOMHNIA : public ::HALHKJLBIKJ
 	{
 	public:

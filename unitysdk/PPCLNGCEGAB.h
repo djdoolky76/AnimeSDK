@@ -15,6 +15,8 @@ namespace RPG::GameCore { class ChenLingBattleEffectConfig; }
 #define PPCLNGCEGAB_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xC37B590)
 #define PPCLNGCEGAB_PLOCMANNCPB_OFFSET UNITYSDK_OFFSET(0xC37ADB0)
 
+inline static constexpr unsigned int PPCLNGCEGAB_TypeDefinitionIndex = 77907;
+
 	class PPCLNGCEGAB : public ::JNALBIEDNLH
 	{
 	public:

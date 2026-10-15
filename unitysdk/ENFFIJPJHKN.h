@@ -13,6 +13,8 @@ namespace System { class String; }
 #define ENFFIJPJHKN_CTOR_OFFSET UNITYSDK_OFFSET(0x155AA890)
 #define ENFFIJPJHKN_EHECHGPMPHM_OFFSET UNITYSDK_OFFSET(0x155AB0C0)
 
+inline static constexpr unsigned int ENFFIJPJHKN_TypeDefinitionIndex = 74910;
+
 	class ENFFIJPJHKN : public ::System::Object
 	{
 	public:

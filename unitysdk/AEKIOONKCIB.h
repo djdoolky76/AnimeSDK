@@ -60,6 +60,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AEKIOONKCIB_SET_ISWAITCLEAN_OFFSET UNITYSDK_OFFSET(0x1C581B30)
 #define AEKIOONKCIB_SET_LEAVEPLAYERUIDLIST_OFFSET UNITYSDK_OFFSET(0x1C581B70)
 
+inline static constexpr unsigned int AEKIOONKCIB_TypeDefinitionIndex = 36872;
+
 	class AEKIOONKCIB : public ::NNGOGBHIAFI
 	{
 	public:

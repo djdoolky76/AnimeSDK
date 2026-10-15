@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FAKMBJPPIIB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E328380)
 #define FAKMBJPPIIB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3283E0)
 
+inline static constexpr unsigned int FAKMBJPPIIB_TypeDefinitionIndex = 27463;
+
 	class FAKMBJPPIIB : public ::System::Object
 	{
 	public:

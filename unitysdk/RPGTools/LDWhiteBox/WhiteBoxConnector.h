@@ -28,6 +28,8 @@ namespace System { class String; }
 
 namespace RPGTools::LDWhiteBox
 {
+	inline static constexpr unsigned int WhiteBoxConnector_TypeDefinitionIndex = 48952;
+
 	class WhiteBoxConnector : public ::UnityEngine::MonoBehaviour
 	{
 	public:

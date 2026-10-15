@@ -8,6 +8,8 @@ namespace System::IO { class TextReader; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int Json_TypeDefinitionIndex = 39675;
+
 	class Json : public ::System::Object
 	{
 	public:

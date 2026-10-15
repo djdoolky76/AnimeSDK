@@ -11,6 +11,8 @@
 
 namespace UnityEngine::NVIDIA
 {
+	inline static constexpr unsigned int OptimalDLSSSettingsData_TypeDefinitionIndex = 5028;
+
 	struct alignas(4) OptimalDLSSSettingsData
 	{
 		::System::UInt32 m_OutRenderWidth; // 0x10

@@ -6,6 +6,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace System::Linq
 {
+	inline static constexpr unsigned int Enumerable__OfTypeIterator_d__97_1_TypeDefinitionIndex = 3160;
+
 	template <typename T>
 	class Enumerable__OfTypeIterator_d__97_1 : public ::System::Object
 	{

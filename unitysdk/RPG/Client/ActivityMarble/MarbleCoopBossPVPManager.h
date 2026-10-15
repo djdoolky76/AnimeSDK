@@ -50,6 +50,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarbleCoopBossPVPManager_TypeDefinitionIndex = 75998;
+
 	class MarbleCoopBossPVPManager : public ::RPG::Client::ActivityMarble::MarblePVPManagerBase
 	{
 	public:

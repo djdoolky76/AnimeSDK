@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 #define EMJGLIBIILC_CTOR_OFFSET UNITYSDK_OFFSET(0x155460A0)
 
+inline static constexpr unsigned int EMJGLIBIILC_TypeDefinitionIndex = 77413;
+
 	class EMJGLIBIILC : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftExamDetailControl; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftExamDetailWindow_TypeDefinitionIndex = 79961;
+
 	class MechCraftExamDetailWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:

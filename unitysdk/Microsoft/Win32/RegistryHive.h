@@ -3,6 +3,8 @@
 
 namespace Microsoft::Win32
 {
+	inline static constexpr unsigned int RegistryHive_TypeDefinitionIndex = 103;
+
 	enum class RegistryHive : ::System::Int32
 	{
 		ClassesRoot = -2147483648,

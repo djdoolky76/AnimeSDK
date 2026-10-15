@@ -27,6 +27,8 @@ namespace System { class String; }
 #define OAOONIMHKLA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EBAA0F0)
 #define OAOONIMHKLA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EBAA150)
 
+inline static constexpr unsigned int OAOONIMHKLA_TypeDefinitionIndex = 26621;
+
 	class OAOONIMHKLA : public ::System::Object
 	{
 	public:

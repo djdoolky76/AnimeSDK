@@ -5,6 +5,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int BloomAnimateTimelineClip_TypeDefinitionIndex = 48548;
+
 	class BloomAnimateTimelineClip
 	{
 	public:

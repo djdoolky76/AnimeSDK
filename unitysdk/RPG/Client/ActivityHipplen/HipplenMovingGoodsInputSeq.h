@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int HipplenMovingGoodsInputSeq_TypeDefinitionIndex = 75590;
+
 	class HipplenMovingGoodsInputSeq : public ::System::Object
 	{
 	public:

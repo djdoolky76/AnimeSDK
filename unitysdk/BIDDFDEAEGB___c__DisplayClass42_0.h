@@ -6,6 +6,8 @@ namespace RPG::Client { class MapPropDef; }
 #define BIDDFDEAEGB___C__DISPLAYCLASS42_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB49FBF0)
 #define BIDDFDEAEGB___C__DISPLAYCLASS42_0___UPDATEPROP_B__0_OFFSET UNITYSDK_OFFSET(0xB4A2090)
 
+inline static constexpr unsigned int BIDDFDEAEGB___c__DisplayClass42_0_TypeDefinitionIndex = 62117;
+
 	class BIDDFDEAEGB___c__DisplayClass42_0 : public ::System::Object
 	{
 	public:

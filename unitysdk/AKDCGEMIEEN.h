@@ -4,6 +4,8 @@
 
 #define AKDCGEMIEEN_CTOR_OFFSET UNITYSDK_OFFSET(0x12CCC600)
 
+inline static constexpr unsigned int AKDCGEMIEEN_TypeDefinitionIndex = 49658;
+
 	class AKDCGEMIEEN : public ::BHJEGBMIKEJ
 	{
 	public:

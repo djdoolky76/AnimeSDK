@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetCharacterEnhancedState_TypeDefinitionIndex = 23198;
+
 	class SetCharacterEnhancedState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

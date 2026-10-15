@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EOHDKCHDCAI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x155C07F0)
 #define EOHDKCHDCAI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155C0830)
 
+inline static constexpr unsigned int EOHDKCHDCAI_TypeDefinitionIndex = 53893;
+
 	class EOHDKCHDCAI
 	{
 	public:

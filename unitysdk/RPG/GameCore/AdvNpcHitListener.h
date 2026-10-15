@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvNpcHitListener_TypeDefinitionIndex = 22022;
+
 	class AdvNpcHitListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

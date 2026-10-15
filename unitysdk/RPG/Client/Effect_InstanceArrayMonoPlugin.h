@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_InstanceArrayMonoPlugin_TypeDefinitionIndex = 70618;
+
 	class Effect_InstanceArrayMonoPlugin
 	{
 	public:

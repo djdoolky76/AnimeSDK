@@ -5,6 +5,8 @@
 
 #define ILFDOJEAIFK_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x164B0270)
 
+inline static constexpr unsigned int ILFDOJEAIFK_TypeDefinitionIndex = 53951;
+
 	class ILFDOJEAIFK : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define IJGHPCECLIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6939C0)
 #define IJGHPCECLIF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E6939D0)
 
+inline static constexpr unsigned int IJGHPCECLIF___c_TypeDefinitionIndex = 27006;
+
 	class IJGHPCECLIF___c : public ::System::Object
 	{
 	public:

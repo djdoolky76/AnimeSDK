@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TurnBasedGameMode; }
 #define GCKIIDEGLHC_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0x159818F0)
 #define GCKIIDEGLHC_TICK_OFFSET UNITYSDK_OFFSET(0x15982290)
 
+inline static constexpr unsigned int GCKIIDEGLHC_TypeDefinitionIndex = 56263;
+
 	class GCKIIDEGLHC : public ::HBPNHCICJGF
 	{
 	public:

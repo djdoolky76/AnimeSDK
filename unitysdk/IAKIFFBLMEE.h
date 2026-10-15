@@ -17,6 +17,8 @@ namespace System { class String; }
 #define IAKIFFBLMEE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15E173A0)
 #define IAKIFFBLMEE_TICK_OFFSET UNITYSDK_OFFSET(0x15E173F0)
 
+inline static constexpr unsigned int IAKIFFBLMEE_TypeDefinitionIndex = 55764;
+
 	class IAKIFFBLMEE : public ::GELIALJDFBL
 	{
 	public:

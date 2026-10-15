@@ -14,6 +14,8 @@ namespace UnityEngine::Rendering { class Volume; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VolumeColorGradingProxy_TypeDefinitionIndex = 73018;
+
 	class VolumeColorGradingProxy : public ::UnityEngine::MonoBehaviour
 	{
 	public:

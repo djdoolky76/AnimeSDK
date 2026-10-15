@@ -40,6 +40,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int BoxmanPuzzleItem_TypeDefinitionIndex = 78849;
+
 	class BoxmanPuzzleItem : public ::RPG::Client::Prop::ScenePuzzleItemBase
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingBattleAbility_WaitTime; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAbility_WaitTime_TypeDefinitionIndex = 15739;
+
 	class ChenLingBattleAbility_WaitTime : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
 	public:

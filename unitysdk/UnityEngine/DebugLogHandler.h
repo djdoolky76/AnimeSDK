@@ -17,6 +17,8 @@ namespace UnityEngine { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int DebugLogHandler_TypeDefinitionIndex = 4069;
+
 	class DebugLogHandler : public ::System::Object
 	{
 	public:

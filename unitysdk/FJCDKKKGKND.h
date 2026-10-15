@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 #define FJCDKKKGKND_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x157BCFA0)
 #define FJCDKKKGKND_SET_SOURCEOBJECT_OFFSET UNITYSDK_OFFSET(0x157BCF90)
 
+inline static constexpr unsigned int FJCDKKKGKND_TypeDefinitionIndex = 48840;
+
 	class FJCDKKKGKND : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

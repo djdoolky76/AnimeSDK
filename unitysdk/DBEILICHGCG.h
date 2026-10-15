@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DBEILICHGCG_NLMEOBGFJBM_OFFSET UNITYSDK_OFFSET(0xDFDD660)
 #define DBEILICHGCG_OCFMLLAMLJE_OFFSET UNITYSDK_OFFSET(0xDFDDBC0)
 
+inline static constexpr unsigned int DBEILICHGCG_TypeDefinitionIndex = 78047;
+
 	class DBEILICHGCG : public ::System::Object
 	{
 	public:

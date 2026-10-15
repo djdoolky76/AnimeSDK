@@ -5,6 +5,8 @@ class KGIBAGMFENA;
 
 #define IOILEFGGBMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8A420)
 
+inline static constexpr unsigned int IOILEFGGBMN_TypeDefinitionIndex = 43202;
+
 	class IOILEFGGBMN : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ class AGCPAMNLCGN;
 #define BLLEONBDOMJ_SET_ENDTIMEMS_OFFSET UNITYSDK_OFFSET(0xBA78D20)
 #define BLLEONBDOMJ_SET_STARTTIMEMS_OFFSET UNITYSDK_OFFSET(0xBA78D00)
 
+inline static constexpr unsigned int BLLEONBDOMJ_TypeDefinitionIndex = 77985;
+
 	class BLLEONBDOMJ : public ::System::Object
 	{
 	public:

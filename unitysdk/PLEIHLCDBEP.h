@@ -13,6 +13,8 @@ namespace System { class String; }
 #define PLEIHLCDBEP_NPFFPEPPHEK_OFFSET UNITYSDK_OFFSET(0xC2EFDD0)
 #define PLEIHLCDBEP_OCGHACHIHHD_OFFSET UNITYSDK_OFFSET(0xC2EFFD0)
 
+inline static constexpr unsigned int PLEIHLCDBEP_TypeDefinitionIndex = 59361;
+
 	class PLEIHLCDBEP : public ::RPG::Client::PrefGroup
 	{
 	public:

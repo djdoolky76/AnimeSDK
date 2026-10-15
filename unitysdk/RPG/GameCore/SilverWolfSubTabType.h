@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SilverWolfSubTabType_TypeDefinitionIndex = 12345;
+
 	enum class SilverWolfSubTabType : ::System::Int32
 	{
 		None = 0,

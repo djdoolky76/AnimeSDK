@@ -6,6 +6,8 @@
 
 #define LEJBLBEAPAH_CJDNCBHLOGD_OFFSET UNITYSDK_OFFSET(0xB6578B0)
 
+inline static constexpr unsigned int LEJBLBEAPAH_TypeDefinitionIndex = 77365;
+
 	class LEJBLBEAPAH : public ::System::Object
 	{
 	public:

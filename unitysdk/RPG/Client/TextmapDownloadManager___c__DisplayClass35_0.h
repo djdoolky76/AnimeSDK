@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TextmapDownloadManager___c__DisplayClass35_0_TypeDefinitionIndex = 61247;
+
 	class TextmapDownloadManager___c__DisplayClass35_0 : public ::System::Object
 	{
 	public:

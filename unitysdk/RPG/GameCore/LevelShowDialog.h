@@ -6,6 +6,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelShowDialog_TypeDefinitionIndex = 58186;
+
 	class LevelShowDialog : public ::RPG::GameCore::TaskConfig
 	{
 	public:

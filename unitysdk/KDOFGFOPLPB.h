@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KDOFGFOPLPB_TICK_OFFSET UNITYSDK_OFFSET(0xB3691E0)
 #define KDOFGFOPLPB__ONTASKBEGIN_B__2_0_OFFSET UNITYSDK_OFFSET(0xB369240)
 
+inline static constexpr unsigned int KDOFGFOPLPB_TypeDefinitionIndex = 58724;
+
 	class KDOFGFOPLPB : public ::GELIALJDFBL
 	{
 	public:

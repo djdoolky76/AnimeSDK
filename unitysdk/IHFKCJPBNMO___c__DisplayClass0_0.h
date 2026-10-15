@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IHFKCJPBNMO___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1641D820)
 #define IHFKCJPBNMO___C__DISPLAYCLASS0_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x1641E060)
 
+inline static constexpr unsigned int IHFKCJPBNMO___c__DisplayClass0_0_TypeDefinitionIndex = 67160;
+
 	class IHFKCJPBNMO___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

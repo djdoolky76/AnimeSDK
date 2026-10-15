@@ -11,6 +11,8 @@ namespace System::Security::Cryptography { class RSA; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int RSAOAEPKeyExchangeFormatter_TypeDefinitionIndex = 1052;
+
 	class RSAOAEPKeyExchangeFormatter : public ::System::Security::Cryptography::AsymmetricKeyExchangeFormatter
 	{
 	public:

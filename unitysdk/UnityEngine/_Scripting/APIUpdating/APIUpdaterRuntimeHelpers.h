@@ -9,6 +9,8 @@ namespace System { class Type; }
 
 namespace UnityEngine::_Scripting::APIUpdating
 {
+	inline static constexpr unsigned int APIUpdaterRuntimeHelpers_TypeDefinitionIndex = 4421;
+
 	class APIUpdaterRuntimeHelpers : public ::System::Object
 	{
 	public:

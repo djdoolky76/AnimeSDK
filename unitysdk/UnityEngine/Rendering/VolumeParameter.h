@@ -13,6 +13,8 @@ namespace System { class Type; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int VolumeParameter_TypeDefinitionIndex = 35621;
+
 	class VolumeParameter : public ::System::Object
 	{
 	public:

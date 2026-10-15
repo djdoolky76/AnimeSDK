@@ -15,6 +15,8 @@ namespace RPG::Client::FateRin { class FateRinSupportModule; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateRinAvatarRewardActivityData_TypeDefinitionIndex = 61621;
+
 	class FateRinAvatarRewardActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

@@ -37,6 +37,8 @@ namespace System { class String; }
 #define ONGCOFFLIAE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEC5450)
 #define ONGCOFFLIAE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEC54B0)
 
+inline static constexpr unsigned int ONGCOFFLIAE_TypeDefinitionIndex = 27114;
+
 	class ONGCOFFLIAE : public ::System::Object
 	{
 	public:

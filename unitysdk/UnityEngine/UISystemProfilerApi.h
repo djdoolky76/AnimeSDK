@@ -11,6 +11,8 @@ namespace UnityEngine { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int UISystemProfilerApi_TypeDefinitionIndex = 6028;
+
 	class UISystemProfilerApi : public ::System::Object
 	{
 	public:

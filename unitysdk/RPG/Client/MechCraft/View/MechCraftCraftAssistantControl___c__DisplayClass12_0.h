@@ -8,6 +8,8 @@ class IFOEBJMEFKG;
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftAssistantControl___c__DisplayClass12_0_TypeDefinitionIndex = 79839;
+
 	class MechCraftCraftAssistantControl___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

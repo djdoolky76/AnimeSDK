@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int MemoryTraceWriter_TypeDefinitionIndex = 9692;
+
 	class MemoryTraceWriter : public ::System::Object
 	{
 	public:

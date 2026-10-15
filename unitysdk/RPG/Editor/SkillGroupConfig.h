@@ -7,6 +7,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int SkillGroupConfig_TypeDefinitionIndex = 52042;
+
 	class SkillGroupConfig : public ::System::Object
 	{
 	public:

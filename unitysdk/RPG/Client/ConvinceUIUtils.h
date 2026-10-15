@@ -16,6 +16,8 @@ namespace System { class Tuple; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ConvinceUIUtils_TypeDefinitionIndex = 60686;
+
 	class ConvinceUIUtils : public ::System::Object
 	{
 	public:

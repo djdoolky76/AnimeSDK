@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HideEntityForCurrentCamera_TypeDefinitionIndex = 23729;
+
 	class HideEntityForCurrentCamera : public ::RPG::GameCore::TaskConfig
 	{
 	public:

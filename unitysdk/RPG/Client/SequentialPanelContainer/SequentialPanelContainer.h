@@ -30,6 +30,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::SequentialPanelContainer
 {
+	inline static constexpr unsigned int SequentialPanelContainer_TypeDefinitionIndex = 74752;
+
 	class SequentialPanelContainer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

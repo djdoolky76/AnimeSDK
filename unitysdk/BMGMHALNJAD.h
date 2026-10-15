@@ -34,6 +34,8 @@ namespace System { class String; }
 #define BMGMHALNJAD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E026EE0)
 #define BMGMHALNJAD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E026F40)
 
+inline static constexpr unsigned int BMGMHALNJAD_TypeDefinitionIndex = 26876;
+
 	class BMGMHALNJAD : public ::System::Object
 	{
 	public:

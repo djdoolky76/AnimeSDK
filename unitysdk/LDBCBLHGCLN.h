@@ -11,6 +11,8 @@ namespace System::Reflection { class ConstructorInfo; }
 #define LDBCBLHGCLN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC85AB0)
 #define LDBCBLHGCLN_KCAMCLANHCC_OFFSET UNITYSDK_OFFSET(0x1EC855C0)
 
+inline static constexpr unsigned int LDBCBLHGCLN_TypeDefinitionIndex = 44219;
+
 	class LDBCBLHGCLN : public ::System::Object
 	{
 	public:

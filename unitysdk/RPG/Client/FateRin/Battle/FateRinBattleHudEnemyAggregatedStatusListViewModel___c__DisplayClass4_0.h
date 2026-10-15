@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudEnemyAggregatedStatusListViewModel___c__DisplayClass4_0_TypeDefinitionIndex = 80907;
+
 	struct alignas(8) FateRinBattleHudEnemyAggregatedStatusListViewModel___c__DisplayClass4_0
 	{
 		::RPG::Client::FateRin::Battle::FateRinBattleHudEnemyAggregatedStatusListViewModel* __4__this; // 0x10

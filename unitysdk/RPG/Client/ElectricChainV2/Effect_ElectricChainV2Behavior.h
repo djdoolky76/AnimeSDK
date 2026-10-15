@@ -44,6 +44,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ElectricChainV2
 {
+	inline static constexpr unsigned int Effect_ElectricChainV2Behavior_TypeDefinitionIndex = 73581;
+
 	class Effect_ElectricChainV2Behavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

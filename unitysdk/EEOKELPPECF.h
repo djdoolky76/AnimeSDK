@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define EEOKELPPECF_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0x1DD32FE0)
 #define EEOKELPPECF_OOCHBIFMPJM_OFFSET UNITYSDK_OFFSET(0x1DD32F80)
 
+inline static constexpr unsigned int EEOKELPPECF_TypeDefinitionIndex = 6562;
+
 	class EEOKELPPECF : public ::System::Object
 	{
 	public:

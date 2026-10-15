@@ -62,6 +62,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleResultProcess_TypeDefinitionIndex = 60995;
+
 	class BattleResultProcess : public ::System::Object
 	{
 	public:

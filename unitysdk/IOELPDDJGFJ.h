@@ -113,6 +113,8 @@ namespace System { class String; }
 #define IOELPDDJGFJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6CEEE0)
 #define IOELPDDJGFJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6CEF40)
 
+inline static constexpr unsigned int IOELPDDJGFJ_TypeDefinitionIndex = 27161;
+
 	class IOELPDDJGFJ : public ::System::Object
 	{
 	public:

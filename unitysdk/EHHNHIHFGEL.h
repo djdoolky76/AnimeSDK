@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define EHHNHIHFGEL_GET_MINEXP_OFFSET UNITYSDK_OFFSET(0x154A8790)
 #define EHHNHIHFGEL_GET_UNLOCKCHIPIDLIST_OFFSET UNITYSDK_OFFSET(0x154A87A0)
 
+inline static constexpr unsigned int EHHNHIHFGEL_TypeDefinitionIndex = 80103;
+
 	class EHHNHIHFGEL : public ::System::Object
 	{
 	public:

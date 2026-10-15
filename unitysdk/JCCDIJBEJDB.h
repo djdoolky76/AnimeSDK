@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JCCDIJBEJDB_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D0160E0)
 #define JCCDIJBEJDB_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D015CC0)
 
+inline static constexpr unsigned int JCCDIJBEJDB_TypeDefinitionIndex = 14023;
+
 	class JCCDIJBEJDB : public ::System::Object
 	{
 	public:

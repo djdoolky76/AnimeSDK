@@ -8,6 +8,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftCraftProgressExamConstra
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftProgressExamConstraintsControlBinder_TypeDefinitionIndex = 79935;
+
 	class MechCraftCraftProgressExamConstraintsControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

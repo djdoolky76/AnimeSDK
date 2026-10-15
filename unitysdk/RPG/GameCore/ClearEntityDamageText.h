@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClearEntityDamageText_TypeDefinitionIndex = 23213;
+
 	class ClearEntityDamageText : public ::RPG::GameCore::TaskConfig
 	{
 	public:

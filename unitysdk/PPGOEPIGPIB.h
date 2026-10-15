@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PPGOEPIGPIB_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D31A360)
 #define PPGOEPIGPIB_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D319C80)
 
+inline static constexpr unsigned int PPGOEPIGPIB_TypeDefinitionIndex = 15042;
+
 	class PPGOEPIGPIB : public ::System::Object
 	{
 	public:

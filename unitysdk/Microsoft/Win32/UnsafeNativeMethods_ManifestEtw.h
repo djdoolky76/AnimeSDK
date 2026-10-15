@@ -18,6 +18,8 @@ namespace Microsoft::Win32 { class UnsafeNativeMethods_ManifestEtw_EtwEnableCall
 
 namespace Microsoft::Win32
 {
+	inline static constexpr unsigned int UnsafeNativeMethods_ManifestEtw_TypeDefinitionIndex = 92;
+
 	class UnsafeNativeMethods_ManifestEtw : public ::System::Object
 	{
 	public:

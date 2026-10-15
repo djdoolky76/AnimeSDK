@@ -17,6 +17,8 @@ namespace System { class Object; }
 #define DGGGANEOKLM_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0x1DD2E350)
 #define DGGGANEOKLM_MPDLGBHIFHF_OFFSET UNITYSDK_OFFSET(0x1DD2E3E0)
 
+inline static constexpr unsigned int DGGGANEOKLM_TypeDefinitionIndex = 6563;
+
 	class DGGGANEOKLM : public ::System::Object
 	{
 	public:

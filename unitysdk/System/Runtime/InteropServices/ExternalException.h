@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int ExternalException_TypeDefinitionIndex = 1429;
+
 	class ExternalException : public ::System::SystemException
 	{
 	public:

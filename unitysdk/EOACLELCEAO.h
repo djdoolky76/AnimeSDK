@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define EOACLELCEAO_CTOR_OFFSET UNITYSDK_OFFSET(0x155B7AA0)
 #define EOACLELCEAO_MBOIPCKGKPE_OFFSET UNITYSDK_OFFSET(0x155B7A00)
 
+inline static constexpr unsigned int EOACLELCEAO_TypeDefinitionIndex = 82265;
+
 	class EOACLELCEAO : public ::NMBPFIMKHLA
 	{
 	public:

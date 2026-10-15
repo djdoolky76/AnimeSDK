@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdventureForbidAttackTriggerBattle; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureForbidAttackTriggerBattle_TypeDefinitionIndex = 21664;
+
 	class AdventureForbidAttackTriggerBattle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

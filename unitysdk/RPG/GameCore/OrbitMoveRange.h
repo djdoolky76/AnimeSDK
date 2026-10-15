@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OrbitMoveRange_TypeDefinitionIndex = 22861;
+
 	class OrbitMoveRange : public ::RPG::GameCore::JsonConfig
 	{
 	public:

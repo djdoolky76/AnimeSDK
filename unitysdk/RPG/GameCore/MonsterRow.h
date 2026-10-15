@@ -30,6 +30,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonsterRow_TypeDefinitionIndex = 14179;
+
 	class MonsterRow : public ::System::Object
 	{
 	public:

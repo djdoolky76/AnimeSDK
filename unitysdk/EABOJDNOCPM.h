@@ -22,6 +22,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EABOJDNOCPM_SETNEXTTASK_OFFSET UNITYSDK_OFFSET(0x1266FDA0)
 #define EABOJDNOCPM_TICK_OFFSET UNITYSDK_OFFSET(0x126708B0)
 
+inline static constexpr unsigned int EABOJDNOCPM_TypeDefinitionIndex = 53073;
+
 	class EABOJDNOCPM : public ::GELIALJDFBL
 	{
 	public:

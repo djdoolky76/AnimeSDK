@@ -89,6 +89,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AetherMonsterAvatarData_TypeDefinitionIndex = 62223;
+
 	class AetherMonsterAvatarData : public ::System::Object
 	{
 	public:

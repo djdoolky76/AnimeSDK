@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int XTR55_G2_WindowsNativeProfile_TypeDefinitionIndex = 41324;
+
 	class XTR55_G2_WindowsNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

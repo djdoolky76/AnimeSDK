@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AJHEPIMIGBG_HJLENPKNLAM_OFFSET UNITYSDK_OFFSET(0x12CBD400)
 #define AJHEPIMIGBG__PERSISTDATA_G___PERSISTDYNAMICFLOAT_3_0_OFFSET UNITYSDK_OFFSET(0x12CBE120)
 
+inline static constexpr unsigned int AJHEPIMIGBG_TypeDefinitionIndex = 54980;
+
 	class AJHEPIMIGBG : public ::System::Object
 	{
 	public:

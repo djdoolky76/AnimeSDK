@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Bindings
 {
+	inline static constexpr unsigned int TargetType_TypeDefinitionIndex = 3725;
+
 	enum class TargetType : ::System::Int32
 	{
 		Function = 0,

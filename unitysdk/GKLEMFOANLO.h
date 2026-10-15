@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerPamOnlineFirst; }
 #define GKLEMFOANLO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15AA13E0)
 #define GKLEMFOANLO_TICK_OFFSET UNITYSDK_OFFSET(0x15AA1430)
 
+inline static constexpr unsigned int GKLEMFOANLO_TypeDefinitionIndex = 58985;
+
 	class GKLEMFOANLO : public ::GELIALJDFBL
 	{
 	public:

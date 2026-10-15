@@ -25,6 +25,8 @@ namespace System { class String; }
 #define IDFEIJGOFBL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E62A320)
 #define IDFEIJGOFBL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E62A380)
 
+inline static constexpr unsigned int IDFEIJGOFBL_TypeDefinitionIndex = 32249;
+
 	class IDFEIJGOFBL : public ::System::Object
 	{
 	public:

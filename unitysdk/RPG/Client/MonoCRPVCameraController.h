@@ -18,6 +18,8 @@ namespace UnityEngine::Rendering { class CRPVirtualCamera; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoCRPVCameraController_TypeDefinitionIndex = 68960;
+
 	class MonoCRPVCameraController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

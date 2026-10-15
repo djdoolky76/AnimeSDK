@@ -37,6 +37,8 @@ namespace System { class String; }
 #define PFMAAAJFLOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF278C0)
 #define PFMAAAJFLOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF27920)
 
+inline static constexpr unsigned int PFMAAAJFLOA_TypeDefinitionIndex = 28591;
+
 	class PFMAAAJFLOA : public ::System::Object
 	{
 	public:

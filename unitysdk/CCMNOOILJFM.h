@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define CCMNOOILJFM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA0E280)
 #define CCMNOOILJFM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA0E240)
 
+inline static constexpr unsigned int CCMNOOILJFM_TypeDefinitionIndex = 10219;
+
 	class CCMNOOILJFM : public ::RPG::GameCore::TaskConfig
 	{
 	public:

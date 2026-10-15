@@ -33,6 +33,8 @@ namespace UnityEngine::Timeline { template <typename T> class IntervalTree_1; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int TimelinePlayable_TypeDefinitionIndex = 38871;
+
 	class TimelinePlayable : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

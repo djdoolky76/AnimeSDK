@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueParamActiveFormulaCategoryCountConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueParamActiveFormulaCategoryCountConfig_TypeDefinitionIndex = 19823;
+
 	class RogueParamActiveFormulaCategoryCountConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:

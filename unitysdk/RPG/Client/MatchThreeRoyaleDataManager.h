@@ -16,6 +16,8 @@ namespace RPG::Client { class MatchThreeRoyalePvpManager; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeRoyaleDataManager_TypeDefinitionIndex = 66064;
+
 	class MatchThreeRoyaleDataManager : public ::System::Object
 	{
 	public:

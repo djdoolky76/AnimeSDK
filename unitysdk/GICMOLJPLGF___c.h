@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GICMOLJPLGF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E493550)
 #define GICMOLJPLGF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E493560)
 
+inline static constexpr unsigned int GICMOLJPLGF___c_TypeDefinitionIndex = 27169;
+
 	class GICMOLJPLGF___c : public ::System::Object
 	{
 	public:

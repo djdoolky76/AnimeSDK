@@ -8,6 +8,8 @@ namespace RPG::Client::Promises { class Promise; }
 #define BIOAHMPNJCH___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB794860)
 #define BIOAHMPNJCH___C__DISPLAYCLASS4_0__OPENENTRANCEWINDOWPROMISED_B__0_OFFSET UNITYSDK_OFFSET(0xB7954F0)
 
+inline static constexpr unsigned int BIOAHMPNJCH___c__DisplayClass4_0_TypeDefinitionIndex = 82075;
+
 	class BIOAHMPNJCH___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

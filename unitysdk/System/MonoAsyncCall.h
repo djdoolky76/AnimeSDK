@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace System
 {
+	inline static constexpr unsigned int MonoAsyncCall_TypeDefinitionIndex = 405;
+
 	class MonoAsyncCall : public ::System::Object
 	{
 	public:

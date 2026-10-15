@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameAbilityTeamTowersDestroyBrickEffectCon
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityTeamTowersDestroyBrickEffectConfig_TypeDefinitionIndex = 21414;
+
 	class LittleGameAbilityTeamTowersDestroyBrickEffectConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:

@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+inline static constexpr unsigned int MOKNEGNIBGI_TypeDefinitionIndex = 59768;
+
 	struct alignas(4) MOKNEGNIBGI
 	{
 		::UnityEngine::Vector3 BBFOLEOPPPL; // 0x10

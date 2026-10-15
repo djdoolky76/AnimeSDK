@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StagePVSOfflineVolumeResult_TypeDefinitionIndex = 19186;
+
 	class StagePVSOfflineVolumeResult : public ::RPG::GameCore::JsonConfig
 	{
 	public:

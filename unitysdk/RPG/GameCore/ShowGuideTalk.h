@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowGuideTalk_TypeDefinitionIndex = 24338;
+
 	class ShowGuideTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -43,6 +43,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OIHCPGBPDNI_PPIOBFKMFIH_OFFSET UNITYSDK_OFFSET(0xBE945F0)
 #define OIHCPGBPDNI_TICK_OFFSET UNITYSDK_OFFSET(0xBE91B10)
 
+inline static constexpr unsigned int OIHCPGBPDNI_TypeDefinitionIndex = 58729;
+
 	class OIHCPGBPDNI : public ::GELIALJDFBL
 	{
 	public:

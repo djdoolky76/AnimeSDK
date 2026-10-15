@@ -8,6 +8,8 @@ class GCBOEGEPENO;
 #define GCBOEGEPENO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE2B9B0)
 #define GCBOEGEPENO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE2B960)
 
+inline static constexpr unsigned int GCBOEGEPENO_TypeDefinitionIndex = 24387;
+
 	class GCBOEGEPENO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

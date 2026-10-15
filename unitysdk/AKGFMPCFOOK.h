@@ -30,6 +30,8 @@ namespace System { class String; }
 #define AKGFMPCFOOK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3CAD80)
 #define AKGFMPCFOOK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3CADE0)
 
+inline static constexpr unsigned int AKGFMPCFOOK_TypeDefinitionIndex = 34950;
+
 	class AKGFMPCFOOK : public ::System::Object
 	{
 	public:

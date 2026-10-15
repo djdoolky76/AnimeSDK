@@ -9,6 +9,8 @@ namespace RPG::Client::TrainParty { class TrainPartyBuildSlotInfo; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyBuildManager___c__DisplayClass59_0_TypeDefinitionIndex = 74304;
+
 	class TrainPartyBuildManager___c__DisplayClass59_0 : public ::System::Object
 	{
 	public:

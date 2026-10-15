@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BGCurveWithDetectProjectileData_TypeDefinitionIndex = 15671;
+
 	class BGCurveWithDetectProjectileData : public ::RPG::GameCore::NewProjectileConfig
 	{
 	public:

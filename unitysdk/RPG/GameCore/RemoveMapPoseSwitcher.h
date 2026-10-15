@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveMapPoseSwitcher_TypeDefinitionIndex = 20942;
+
 	class RemoveMapPoseSwitcher : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldReactivateDialog; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int HandheldReactivateDialog___c__DisplayClass9_0_TypeDefinitionIndex = 8814;
+
 	class HandheldReactivateDialog___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

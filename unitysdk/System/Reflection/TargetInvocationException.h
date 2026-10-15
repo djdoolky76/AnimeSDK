@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int TargetInvocationException_TypeDefinitionIndex = 588;
+
 	class TargetInvocationException : public ::System::ApplicationException
 	{
 	public:

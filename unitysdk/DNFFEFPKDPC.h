@@ -15,6 +15,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define DNFFEFPKDPC_KJGMCDBJPLM_OFFSET UNITYSDK_OFFSET(0x1CA2F6C0)
 #define DNFFEFPKDPC_MKGCOBMBCFL_OFFSET UNITYSDK_OFFSET(0x1CA2FA80)
 
+inline static constexpr unsigned int DNFFEFPKDPC_TypeDefinitionIndex = 43178;
+
 	class DNFFEFPKDPC : public ::DFJHNEJLDPG
 	{
 	public:

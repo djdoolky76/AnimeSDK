@@ -101,6 +101,8 @@ namespace UnityEngine { class Transform; }
 #define PEBBBNOOCFO_POKLCLFHADP_OFFSET UNITYSDK_OFFSET(0xC02CBF0)
 #define PEBBBNOOCFO_PPCKMEFMCOA_OFFSET UNITYSDK_OFFSET(0xC028640)
 
+inline static constexpr unsigned int PEBBBNOOCFO_TypeDefinitionIndex = 60601;
+
 	class PEBBBNOOCFO : public ::NPEBLEKDAGI
 	{
 	public:

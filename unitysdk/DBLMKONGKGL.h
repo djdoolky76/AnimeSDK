@@ -6,6 +6,8 @@ namespace RPG::Client { class CameraBlendCurve; }
 
 #define DBLMKONGKGL_CTOR_OFFSET UNITYSDK_OFFSET(0xE230030)
 
+inline static constexpr unsigned int DBLMKONGKGL_TypeDefinitionIndex = 69643;
+
 	class DBLMKONGKGL : public ::System::Object
 	{
 	public:

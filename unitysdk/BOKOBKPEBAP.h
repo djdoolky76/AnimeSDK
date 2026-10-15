@@ -6,6 +6,8 @@ namespace System { class String; }
 #define BOKOBKPEBAP_CTOR_OFFSET UNITYSDK_OFFSET(0xC195060)
 #define BOKOBKPEBAP_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xC194E40)
 
+inline static constexpr unsigned int BOKOBKPEBAP_TypeDefinitionIndex = 63996;
+
 	class BOKOBKPEBAP
 	{
 	public:

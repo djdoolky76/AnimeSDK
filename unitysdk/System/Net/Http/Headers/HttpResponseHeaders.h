@@ -6,6 +6,8 @@
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int HttpResponseHeaders_TypeDefinitionIndex = 3799;
+
 	class HttpResponseHeaders : public ::System::Net::Http::Headers::HttpHeaders
 	{
 	public:

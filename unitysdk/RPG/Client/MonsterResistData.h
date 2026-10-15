@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonsterResistData_TypeDefinitionIndex = 71775;
+
 	class MonsterResistData : public ::System::Object
 	{
 	public:

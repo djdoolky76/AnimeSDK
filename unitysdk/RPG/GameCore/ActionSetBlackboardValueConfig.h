@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActionSetBlackboardValueConfig_TypeDefinitionIndex = 17053;
+
 	class ActionSetBlackboardValueConfig : public ::RPG::GameCore::MiActionConfigBase
 	{
 	public:

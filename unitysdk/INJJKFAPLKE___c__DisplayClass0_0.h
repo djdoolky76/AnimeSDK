@@ -12,6 +12,8 @@ namespace RPG::Client::NavMap { class MappingInfoNode; }
 #define INJJKFAPLKE___C__DISPLAYCLASS0_0__CHECKUSELEGACYMETHOD_B__4_OFFSET UNITYSDK_OFFSET(0x164F3D90)
 #define INJJKFAPLKE___C__DISPLAYCLASS0_0__CHECKUSELEGACYMETHOD_B__5_OFFSET UNITYSDK_OFFSET(0x164F3DB0)
 
+inline static constexpr unsigned int INJJKFAPLKE___c__DisplayClass0_0_TypeDefinitionIndex = 66188;
+
 	class INJJKFAPLKE___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

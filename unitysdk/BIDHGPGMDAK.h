@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BIDHGPGMDAK_GET_FACTORY_OFFSET UNITYSDK_OFFSET(0xB4A2450)
 #define BIDHGPGMDAK_SET_FACTORY_OFFSET UNITYSDK_OFFSET(0xB4A2460)
 
+inline static constexpr unsigned int BIDHGPGMDAK_TypeDefinitionIndex = 62747;
+
 	class BIDHGPGMDAK : public ::System::Object
 	{
 	public:

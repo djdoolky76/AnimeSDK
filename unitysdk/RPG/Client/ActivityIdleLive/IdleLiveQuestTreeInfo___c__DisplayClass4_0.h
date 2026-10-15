@@ -8,6 +8,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveQuestTreeTabData; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveQuestTreeInfo___c__DisplayClass4_0_TypeDefinitionIndex = 75375;
+
 	class IdleLiveQuestTreeInfo___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

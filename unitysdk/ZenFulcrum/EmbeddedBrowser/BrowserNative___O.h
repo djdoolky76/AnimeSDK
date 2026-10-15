@@ -6,6 +6,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_NewRequestFunc; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative___O_TypeDefinitionIndex = 39461;
+
 	class BrowserNative___O : public ::System::Object
 	{
 	public:

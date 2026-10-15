@@ -7,6 +7,8 @@
 #define JCLBPHELEOC_APHNNGCLBDP_OFFSET UNITYSDK_OFFSET(0x1CB8F1D0)
 #define JCLBPHELEOC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8F210)
 
+inline static constexpr unsigned int JCLBPHELEOC_TypeDefinitionIndex = 42226;
+
 	class JCLBPHELEOC : public ::System::Object
 	{
 	public:

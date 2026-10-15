@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraAbilityPassive_TypeDefinitionIndex = 15842;
+
 	class ChimeraAbilityPassive : public ::RPG::GameCore::ChimeraAbilityBase
 	{
 	public:

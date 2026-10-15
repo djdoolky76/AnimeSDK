@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CeilingCharacterInfoRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CeilingCharacterInfoRow_TypeDefinitionIndex = 13356;
+
 	class CeilingCharacterInfoRow : public ::System::Object
 	{
 	public:

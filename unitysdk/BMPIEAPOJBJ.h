@@ -9,6 +9,8 @@ namespace System { class String; }
 #define BMPIEAPOJBJ_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBDC4780)
 #define BMPIEAPOJBJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBDC48B0)
 
+inline static constexpr unsigned int BMPIEAPOJBJ_TypeDefinitionIndex = 61055;
+
 	class BMPIEAPOJBJ : public ::BNDBPCIHPGL
 	{
 	public:

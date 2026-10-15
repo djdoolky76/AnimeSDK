@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int EmoDiscussionMouthTrack_TypeDefinitionIndex = 48762;
+
 	class EmoDiscussionMouthTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:

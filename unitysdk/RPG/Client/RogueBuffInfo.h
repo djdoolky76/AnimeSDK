@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueBuffInfo_TypeDefinitionIndex = 67197;
+
 	class RogueBuffInfo : public ::System::Object
 	{
 	public:

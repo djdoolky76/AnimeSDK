@@ -27,6 +27,8 @@ namespace System { class String; }
 #define OCJPKEMHEFF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE15FC0)
 #define OCJPKEMHEFF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE16020)
 
+inline static constexpr unsigned int OCJPKEMHEFF_TypeDefinitionIndex = 33617;
+
 	class OCJPKEMHEFF : public ::System::Object
 	{
 	public:

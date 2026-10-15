@@ -13,6 +13,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define CCEIJBFAOAI___C__INITPROGRESS_B__35_0_OFFSET UNITYSDK_OFFSET(0x1C549700)
 #define CCEIJBFAOAI___C__INITPROGRESS_B__35_1_OFFSET UNITYSDK_OFFSET(0x1C549730)
 
+inline static constexpr unsigned int CCEIJBFAOAI___c_TypeDefinitionIndex = 41791;
+
 	class CCEIJBFAOAI___c : public ::System::Object
 	{
 	public:

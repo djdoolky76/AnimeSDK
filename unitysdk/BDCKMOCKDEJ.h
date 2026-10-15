@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TriggerEffectListOnCharacter; }
 #define BDCKMOCKDEJ_CTOR_OFFSET UNITYSDK_OFFSET(0x162ECE10)
 #define BDCKMOCKDEJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x162ECE40)
 
+inline static constexpr unsigned int BDCKMOCKDEJ_TypeDefinitionIndex = 58781;
+
 	class BDCKMOCKDEJ
 	{
 	public:

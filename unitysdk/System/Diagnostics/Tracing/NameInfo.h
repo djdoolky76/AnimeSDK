@@ -14,6 +14,8 @@ namespace System::Diagnostics::Tracing { class NameInfo; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int NameInfo_TypeDefinitionIndex = 1607;
+
 	class NameInfo
 	{
 	public:

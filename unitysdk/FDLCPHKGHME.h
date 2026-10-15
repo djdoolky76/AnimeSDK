@@ -6,6 +6,8 @@
 
 #define FDLCPHKGHME_CTOR_OFFSET UNITYSDK_OFFSET(0x156DE140)
 
+inline static constexpr unsigned int FDLCPHKGHME_TypeDefinitionIndex = 72004;
+
 	class FDLCPHKGHME : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AttachmentBone_TypeDefinitionIndex = 68440;
+
 	class AttachmentBone : public ::System::Object
 	{
 	public:

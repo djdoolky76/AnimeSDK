@@ -59,6 +59,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveBaseTeamInfo_TypeDefinitionIndex = 75092;
+
 	class IdleLiveBaseTeamInfo : public ::System::Object
 	{
 	public:

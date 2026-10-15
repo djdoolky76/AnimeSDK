@@ -7,6 +7,8 @@ namespace UnityEngine { class Material; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_MaterialManager_MaskingMaterial_TypeDefinitionIndex = 44614;
+
 	class TMP_MaterialManager_MaskingMaterial : public ::System::Object
 	{
 	public:

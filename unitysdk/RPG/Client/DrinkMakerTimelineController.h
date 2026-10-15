@@ -13,6 +13,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DrinkMakerTimelineController_TypeDefinitionIndex = 72763;
+
 	class DrinkMakerTimelineController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

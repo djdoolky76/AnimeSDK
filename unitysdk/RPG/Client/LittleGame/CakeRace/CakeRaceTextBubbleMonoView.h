@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceTextBubbleMonoView_TypeDefinitionIndex = 78144;
+
 	class CakeRaceTextBubbleMonoView : public ::RPG::Client::LittleGame::CakeRace::CakeRaceBaseBubbleMonoView
 	{
 	public:

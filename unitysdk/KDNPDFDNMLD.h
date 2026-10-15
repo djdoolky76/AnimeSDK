@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KDNPDFDNMLD_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D0854F0)
 #define KDNPDFDNMLD_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D084E50)
 
+inline static constexpr unsigned int KDNPDFDNMLD_TypeDefinitionIndex = 11560;
+
 	class KDNPDFDNMLD : public ::System::Object
 	{
 	public:

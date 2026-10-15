@@ -9,6 +9,8 @@ class NIMHLHECACH;
 #define JMPGEFGAGOL_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0xB2741D0)
 #define JMPGEFGAGOL_MBABPIHGAJN_OFFSET UNITYSDK_OFFSET(0xB274260)
 
+inline static constexpr unsigned int JMPGEFGAGOL_TypeDefinitionIndex = 75276;
+
 	class JMPGEFGAGOL : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Type; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int GeneratedAssemblyMessagePackResolverAttribute_TypeDefinitionIndex = 7293;
+
 	class GeneratedAssemblyMessagePackResolverAttribute : public ::System::Attribute
 	{
 	public:

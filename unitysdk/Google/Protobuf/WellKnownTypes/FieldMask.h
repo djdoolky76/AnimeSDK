@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace Google::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int FieldMask_TypeDefinitionIndex = 5424;
+
 	class FieldMask : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 #define CBPHAOJJAMH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC4BA0F0)
 #define CBPHAOJJAMH__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0xC4BA040)
 
+inline static constexpr unsigned int CBPHAOJJAMH_TypeDefinitionIndex = 54030;
+
 	class CBPHAOJJAMH
 	{
 	public:

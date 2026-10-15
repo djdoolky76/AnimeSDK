@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define OKNNEKPFDAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBEF0D20)
 
+inline static constexpr unsigned int OKNNEKPFDAJ_TypeDefinitionIndex = 75948;
+
 	class OKNNEKPFDAJ : public ::ILEDHBPJGFC
 	{
 	public:

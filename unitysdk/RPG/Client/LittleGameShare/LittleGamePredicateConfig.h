@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int LittleGamePredicateConfig_TypeDefinitionIndex = 10355;
+
 	class LittleGamePredicateConfig : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

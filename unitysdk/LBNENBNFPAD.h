@@ -10,6 +10,8 @@ class BALLHPKKDDH;
 #define LBNENBNFPAD_SET_AVATARROWDATAPROVIDER_OFFSET UNITYSDK_OFFSET(0xB60D5C0)
 #define LBNENBNFPAD_SET_PROTOTYPE_OFFSET UNITYSDK_OFFSET(0xB60D5A0)
 
+inline static constexpr unsigned int LBNENBNFPAD_TypeDefinitionIndex = 51924;
+
 	class LBNENBNFPAD : public ::System::Object
 	{
 	public:

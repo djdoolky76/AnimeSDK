@@ -3,6 +3,8 @@
 
 #define GNEEDEDGCOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDC0)
 
+inline static constexpr unsigned int GNEEDEDGCOI_TypeDefinitionIndex = 82056;
+
 	struct alignas(4) GNEEDEDGCOI
 	{
 		::System::UInt32 IDBDBICPBBG; // 0x10

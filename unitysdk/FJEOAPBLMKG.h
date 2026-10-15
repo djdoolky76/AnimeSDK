@@ -12,6 +12,8 @@ namespace RPG::GameCore { class PlayerOutfitDetailRow; }
 #define FJEOAPBLMKG_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0x157C32D0)
 #define FJEOAPBLMKG_GET_ID_OFFSET UNITYSDK_OFFSET(0x157C32C0)
 
+inline static constexpr unsigned int FJEOAPBLMKG_TypeDefinitionIndex = 62500;
+
 	class FJEOAPBLMKG : public ::System::Object
 	{
 	public:

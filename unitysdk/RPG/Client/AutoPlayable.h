@@ -9,6 +9,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AutoPlayable_TypeDefinitionIndex = 72504;
+
 	class AutoPlayable : public ::UnityEngine::MonoBehaviour
 	{
 	public:

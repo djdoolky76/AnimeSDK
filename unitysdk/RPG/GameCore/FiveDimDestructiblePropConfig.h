@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimDestructiblePropConfig_TypeDefinitionIndex = 18547;
+
 	class FiveDimDestructiblePropConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define JCLDKJDFGEI_GET_PAINTCOLORS_OFFSET UNITYSDK_OFFSET(0x165A6030)
 #define JCLDKJDFGEI_GET_POSES_OFFSET UNITYSDK_OFFSET(0x165A6020)
 
+inline static constexpr unsigned int JCLDKJDFGEI_TypeDefinitionIndex = 80221;
+
 	class JCLDKJDFGEI : public ::System::Object
 	{
 	public:

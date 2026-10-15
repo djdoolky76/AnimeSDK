@@ -3,6 +3,8 @@
 
 namespace Mono::Unity
 {
+	inline static constexpr unsigned int UnityTls_unitytls_ciphersuite_TypeDefinitionIndex = 2361;
+
 	enum class UnityTls_unitytls_ciphersuite : ::System::UInt32
 	{
 		UNITYTLS_CIPHERSUITE_INVALID = 16777215,

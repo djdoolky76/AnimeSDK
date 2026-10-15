@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define OCGAELCDMOE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE132F0)
 #define OCGAELCDMOE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DE13300)
 
+inline static constexpr unsigned int OCGAELCDMOE___c_TypeDefinitionIndex = 32484;
+
 	class OCGAELCDMOE___c : public ::System::Object
 	{
 	public:

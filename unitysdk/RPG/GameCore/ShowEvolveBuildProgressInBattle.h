@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowEvolveBuildProgressInBattle; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowEvolveBuildProgressInBattle_TypeDefinitionIndex = 22516;
+
 	class ShowEvolveBuildProgressInBattle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

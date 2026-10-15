@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 #define MIGNJKKCDBA_IHJNKAGADCG_1_OFFSET UNITYSDK_OFFSET(0xB958450)
 #define MIGNJKKCDBA_IHJNKAGADCG_OFFSET UNITYSDK_OFFSET(0xB958AF0)
 
+inline static constexpr unsigned int MIGNJKKCDBA_TypeDefinitionIndex = 47247;
+
 	class MIGNJKKCDBA : public ::System::Object
 	{
 	public:

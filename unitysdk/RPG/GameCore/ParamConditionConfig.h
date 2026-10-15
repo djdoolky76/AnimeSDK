@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ParamConditionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ParamConditionConfig_TypeDefinitionIndex = 17091;
+
 	class ParamConditionConfig : public ::RPG::GameCore::MiParameterConfigBase
 	{
 	public:

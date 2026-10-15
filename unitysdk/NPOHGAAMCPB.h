@@ -7,6 +7,8 @@
 #define NPOHGAAMCPB_AACLJANIILC_OFFSET UNITYSDK_OFFSET(0xBD12660)
 #define NPOHGAAMCPB_CTOR_OFFSET UNITYSDK_OFFSET(0xBD126E0)
 
+inline static constexpr unsigned int NPOHGAAMCPB_TypeDefinitionIndex = 74762;
+
 	class NPOHGAAMCPB : public ::HKHAKEGOLDK
 	{
 	public:

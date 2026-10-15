@@ -5,6 +5,8 @@ namespace System { class Type; }
 
 #define AOJGGMJAIPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCEA6E0)
 
+inline static constexpr unsigned int AOJGGMJAIPG_TypeDefinitionIndex = 24993;
+
 	class AOJGGMJAIPG : public ::System::Attribute
 	{
 	public:

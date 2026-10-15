@@ -63,6 +63,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KPGICHGAMPJ_SET_WORKFINISH_OFFSET UNITYSDK_OFFSET(0xB5BBC60)
 #define KPGICHGAMPJ_TICK_OFFSET UNITYSDK_OFFSET(0xB5B7830)
 
+inline static constexpr unsigned int KPGICHGAMPJ_TypeDefinitionIndex = 57350;
+
 	class KPGICHGAMPJ : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

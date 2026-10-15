@@ -3,6 +3,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_InputNode_InputActions_TypeDefinitionIndex = 40406;
+
 	enum class HEU_InputNode_InputActions : ::System::Int32
 	{
 		ACTION = 0,

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::LittleGameShare::HoyoPhysics
 {
+	inline static constexpr unsigned int Physics2DService_1_TypeDefinitionIndex = 37200;
+
 	template <typename T>
 	class Physics2DService_1 : public ::System::Object
 	{

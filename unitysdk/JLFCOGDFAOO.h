@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JLFCOGDFAOO_CCTOR_OFFSET UNITYSDK_OFFSET(0xB23F2E0)
 #define JLFCOGDFAOO_FOCBHOFDOIM_OFFSET UNITYSDK_OFFSET(0xB23F020)
 
+inline static constexpr unsigned int JLFCOGDFAOO_TypeDefinitionIndex = 68262;
+
 	class JLFCOGDFAOO : public ::System::Object
 	{
 	public:

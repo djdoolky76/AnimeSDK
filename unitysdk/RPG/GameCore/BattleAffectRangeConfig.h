@@ -9,6 +9,8 @@ namespace RPG::GameCore { class BattleAffectRangeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleAffectRangeConfig_TypeDefinitionIndex = 17618;
+
 	class BattleAffectRangeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

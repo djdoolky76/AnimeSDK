@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class NotifyHandler; }
 
+inline static constexpr unsigned int LOADPICBEPE___O_TypeDefinitionIndex = 74208;
+
 	class LOADPICBEPE___O : public ::System::Object
 	{
 	public:

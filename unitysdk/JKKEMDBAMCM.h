@@ -9,6 +9,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 #define JKKEMDBAMCM_SETPROPERTY_1_OFFSET UNITYSDK_OFFSET(0xB21F4B0)
 #define JKKEMDBAMCM_SETPROPERTY_OFFSET UNITYSDK_OFFSET(0xB21F420)
 
+inline static constexpr unsigned int JKKEMDBAMCM_TypeDefinitionIndex = 69821;
+
 	class JKKEMDBAMCM : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace RPG::Client::ElectricChainV2
 {
+	inline static constexpr unsigned int SmoothInterruptUpdater_TypeDefinitionIndex = 73590;
+
 	class SmoothInterruptUpdater : public ::RPG::Client::ElectricChainV2::SmoothUpdater
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define OHEIMIKGNPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBE635D0)
 #define OHEIMIKGNPA___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xBE635E0)
 
+inline static constexpr unsigned int OHEIMIKGNPA___c_TypeDefinitionIndex = 52832;
+
 	class OHEIMIKGNPA___c : public ::System::Object
 	{
 	public:

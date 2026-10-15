@@ -27,6 +27,8 @@ namespace System { class String; }
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersGameBossSkillProgressChangedMessage_TypeDefinitionIndex = 79012;
+
 	class TeamTowersGameBossSkillProgressChangedMessage : public ::System::Object
 	{
 	public:

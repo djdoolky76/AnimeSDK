@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InfiniteBattleData_TypeDefinitionIndex = 57588;
+
 	class InfiniteBattleData : public ::System::Object
 	{
 	public:

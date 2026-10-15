@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int ConsoleBindingSuccessDialog___c__DisplayClass11_0_TypeDefinitionIndex = 9001;
+
 	class ConsoleBindingSuccessDialog___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

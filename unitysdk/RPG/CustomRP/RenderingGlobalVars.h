@@ -78,6 +78,8 @@ namespace UnityEngine::Rendering { class IRPData; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RenderingGlobalVars_TypeDefinitionIndex = 37643;
+
 	class RenderingGlobalVars : public ::System::Object
 	{
 	public:

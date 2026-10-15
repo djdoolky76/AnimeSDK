@@ -9,6 +9,8 @@ namespace System::Xml::Schema { class BitSet; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int StarNode_TypeDefinitionIndex = 2077;
+
 	class StarNode : public ::System::Xml::Schema::InteriorNode
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ConvinceHpChangeTrack_TypeDefinitionIndex = 48045;
+
 	class ConvinceHpChangeTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

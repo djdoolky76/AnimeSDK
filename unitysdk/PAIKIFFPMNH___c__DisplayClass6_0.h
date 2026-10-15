@@ -7,6 +7,8 @@ class OLLGLJCHNDI;
 #define PAIKIFFPMNH___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBFCA9A0)
 #define PAIKIFFPMNH___C__DISPLAYCLASS6_0__REGISTEREVENT_B__0_OFFSET UNITYSDK_OFFSET(0xBFCB390)
 
+inline static constexpr unsigned int PAIKIFFPMNH___c__DisplayClass6_0_TypeDefinitionIndex = 78038;
+
 	class PAIKIFFPMNH___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

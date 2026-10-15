@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitServerFuncUnlock; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitServerFuncUnlock_TypeDefinitionIndex = 20494;
+
 	class WaitServerFuncUnlock : public ::RPG::GameCore::TaskConfig
 	{
 	public:

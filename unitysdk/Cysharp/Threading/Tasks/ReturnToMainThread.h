@@ -9,6 +9,8 @@
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int ReturnToMainThread_TypeDefinitionIndex = 38365;
+
 	struct alignas(4) ReturnToMainThread
 	{
 		::Cysharp::Threading::Tasks::PlayerLoopTiming playerLoopTiming; // 0x10

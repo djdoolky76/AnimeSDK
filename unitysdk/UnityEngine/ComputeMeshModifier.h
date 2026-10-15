@@ -7,6 +7,8 @@ namespace UnityEngine { class ComputeMeshModifierAsset; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ComputeMeshModifier_TypeDefinitionIndex = 4109;
+
 	class ComputeMeshModifier : public ::UnityEngine::Behaviour
 	{
 	public:

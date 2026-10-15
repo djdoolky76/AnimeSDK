@@ -16,6 +16,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareAngleBetweenVCameraAndDir_TypeDefinitionIndex = 23326;
+
 	class ByCompareAngleBetweenVCameraAndDir : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

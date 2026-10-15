@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_ByHasAdvBehaviorFlag_TypeDefinitionIndex = 20083;
+
 	class ST_ByHasAdvBehaviorFlag : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

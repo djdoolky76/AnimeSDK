@@ -3,6 +3,8 @@
 
 namespace UnityEngine::EventSystems
 {
+	inline static constexpr unsigned int ISelectHandler_TypeDefinitionIndex = 6923;
+
 	class ISelectHandler
 	{
 	public:

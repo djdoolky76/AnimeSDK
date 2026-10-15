@@ -9,6 +9,8 @@ namespace System { class String; }
 #define HLLOGIGNGAH_EFMKONMGMNA_OFFSET UNITYSDK_OFFSET(0x1C489300)
 #define HLLOGIGNGAH_ELIHJFOJHBK_OFFSET UNITYSDK_OFFSET(0x1C489260)
 
+inline static constexpr unsigned int HLLOGIGNGAH_TypeDefinitionIndex = 41433;
+
 	class HLLOGIGNGAH : public ::OBPJIBCAKEK
 	{
 	public:

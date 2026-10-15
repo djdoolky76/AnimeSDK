@@ -28,6 +28,8 @@ namespace System { class String; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int previewPPFS_TypeDefinitionIndex = 51867;
+
 	class previewPPFS : public ::UnityEngine::MonoBehaviour
 	{
 	public:

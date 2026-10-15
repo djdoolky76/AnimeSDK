@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define GJPBCNIIEOB_DAANLMPPDMD_CTOR_OFFSET UNITYSDK_OFFSET(0x15A7FDC0)
 
+inline static constexpr unsigned int GJPBCNIIEOB_DAANLMPPDMD_TypeDefinitionIndex = 71264;
+
 	class GJPBCNIIEOB_DAANLMPPDMD : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int BaseComponentExportData_TypeDefinitionIndex = 49142;
+
 	class BaseComponentExportData : public ::System::Object
 	{
 	public:

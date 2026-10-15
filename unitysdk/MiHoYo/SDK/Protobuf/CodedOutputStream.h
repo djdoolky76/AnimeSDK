@@ -43,6 +43,8 @@ namespace System::Text { class Encoding; }
 
 namespace MiHoYo::SDK::Protobuf
 {
+	inline static constexpr unsigned int CodedOutputStream_TypeDefinitionIndex = 35712;
+
 	class CodedOutputStream : public ::System::Object
 	{
 	public:

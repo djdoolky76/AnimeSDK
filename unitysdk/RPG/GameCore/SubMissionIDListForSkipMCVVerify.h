@@ -9,6 +9,8 @@ namespace RPG::GameCore { class SubMissionIDListForSkipMCVVerify; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SubMissionIDListForSkipMCVVerify_TypeDefinitionIndex = 19025;
+
 	class SubMissionIDListForSkipMCVVerify : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShopConfigRow_TypeDefinitionIndex = 15100;
+
 	class ShopConfigRow : public ::System::Object
 	{
 	public:

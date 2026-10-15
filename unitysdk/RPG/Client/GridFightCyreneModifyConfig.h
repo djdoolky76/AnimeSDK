@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightCyreneModifyConfig_TypeDefinitionIndex = 65128;
+
 	class GridFightCyreneModifyConfig : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceDiffCount;
 #define AGOIBGKLLEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C587C30)
 #define AGOIBGKLLEO_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C587C40)
 
+inline static constexpr unsigned int AGOIBGKLLEO_TypeDefinitionIndex = 36216;
+
 	class AGOIBGKLLEO : public ::PNECKGBKMEL
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 #define OPBLGCPAKKI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2BB700)
 #define OPBLGCPAKKI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2BB660)
 
+inline static constexpr unsigned int OPBLGCPAKKI_TypeDefinitionIndex = 23196;
+
 	class OPBLGCPAKKI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

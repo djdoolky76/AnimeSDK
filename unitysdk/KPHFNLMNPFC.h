@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraEvaluationGroupRow; }
 #define KPHFNLMNPFC_PDAENODHFCM_OFFSET UNITYSDK_OFFSET(0xB5BDCE0)
 #define KPHFNLMNPFC_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0xB5BDC30)
 
+inline static constexpr unsigned int KPHFNLMNPFC_TypeDefinitionIndex = 63489;
+
 	class KPHFNLMNPFC : public ::System::Object
 	{
 	public:

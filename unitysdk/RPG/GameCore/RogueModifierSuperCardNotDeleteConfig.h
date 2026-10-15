@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierSuperCardNotDeleteConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierSuperCardNotDeleteConfig_TypeDefinitionIndex = 17837;
+
 	class RogueModifierSuperCardNotDeleteConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

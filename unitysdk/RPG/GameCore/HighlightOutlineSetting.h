@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HighlightOutlineSetting_TypeDefinitionIndex = 17147;
+
 	class HighlightOutlineSetting : public ::RPG::GameCore::JsonConfig
 	{
 	public:

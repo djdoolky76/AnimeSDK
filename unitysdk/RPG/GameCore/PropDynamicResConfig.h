@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropDynamicResConfig_TypeDefinitionIndex = 17587;
+
 	class PropDynamicResConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

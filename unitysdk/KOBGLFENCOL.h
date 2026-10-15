@@ -22,6 +22,8 @@ namespace System { class String; }
 #define KOBGLFENCOL_SET_CASTER_OFFSET UNITYSDK_OFFSET(0xB590410)
 #define KOBGLFENCOL_SET_ELATIONSKILLDATA_OFFSET UNITYSDK_OFFSET(0xB590430)
 
+inline static constexpr unsigned int KOBGLFENCOL_TypeDefinitionIndex = 72154;
+
 	class KOBGLFENCOL : public ::System::Object
 	{
 	public:

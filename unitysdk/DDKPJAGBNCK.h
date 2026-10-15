@@ -30,6 +30,8 @@ namespace RPG::Client { class RPGProfilerMarkerWithIntData; }
 #define DDKPJAGBNCK_SET_OWNERSYSTEM_OFFSET UNITYSDK_OFFSET(0xE4E59B0)
 #define DDKPJAGBNCK_SET_PREVSTATE_OFFSET UNITYSDK_OFFSET(0xE4E47C0)
 
+inline static constexpr unsigned int DDKPJAGBNCK_TypeDefinitionIndex = 76784;
+
 	class DDKPJAGBNCK : public ::HFCPGANBGMI
 	{
 	public:

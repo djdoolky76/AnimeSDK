@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimFollowCamera_TypeDefinitionIndex = 76864;
+
 	class FiveDimFollowCamera : public ::RPG::Client::LittleGame::FiveDim::FiveDimMonoCamera
 	{
 	public:

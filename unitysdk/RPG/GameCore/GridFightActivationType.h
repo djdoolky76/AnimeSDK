@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightActivationType_TypeDefinitionIndex = 13655;
+
 	enum class GridFightActivationType : ::System::Int32
 	{
 		GreaterEqualThan = 1,

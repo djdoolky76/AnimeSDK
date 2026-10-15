@@ -22,6 +22,8 @@ namespace UnityEngine { class Coroutine; }
 #define DGIHFLOLMDE_PJGBNODNFBD_OFFSET UNITYSDK_OFFSET(0xE84AC20)
 #define DGIHFLOLMDE_SET_ISINSWITCHANCHOR_OFFSET UNITYSDK_OFFSET(0xE84B400)
 
+inline static constexpr unsigned int DGIHFLOLMDE_TypeDefinitionIndex = 60779;
+
 	class DGIHFLOLMDE : public ::System::Object
 	{
 	public:

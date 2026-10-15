@@ -4,6 +4,8 @@
 
 #define MBLCCFAFPFD_MPPAFMHFEEA_CTOR_OFFSET UNITYSDK_OFFSET(0xB860750)
 
+inline static constexpr unsigned int MBLCCFAFPFD_MPPAFMHFEEA_TypeDefinitionIndex = 60526;
+
 	class MBLCCFAFPFD_MPPAFMHFEEA : public ::System::Object
 	{
 	public:

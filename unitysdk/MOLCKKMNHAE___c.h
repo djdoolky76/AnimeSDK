@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MOLCKKMNHAE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAAEBD0)
 #define MOLCKKMNHAE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EAAEBE0)
 
+inline static constexpr unsigned int MOLCKKMNHAE___c_TypeDefinitionIndex = 32695;
+
 	class MOLCKKMNHAE___c : public ::System::Object
 	{
 	public:

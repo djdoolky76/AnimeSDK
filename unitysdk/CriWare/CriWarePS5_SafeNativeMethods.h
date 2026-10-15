@@ -6,6 +6,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriWarePS5_SafeNativeMethods_TypeDefinitionIndex = 39928;
+
 	class CriWarePS5_SafeNativeMethods : public ::System::Object
 	{
 	public:

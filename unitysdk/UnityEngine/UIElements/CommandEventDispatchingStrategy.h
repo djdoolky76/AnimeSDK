@@ -10,6 +10,8 @@ namespace UnityEngine::UIElements { class IPanel; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int CommandEventDispatchingStrategy_TypeDefinitionIndex = 5916;
+
 	class CommandEventDispatchingStrategy : public ::System::Object
 	{
 	public:

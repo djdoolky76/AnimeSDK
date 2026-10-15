@@ -7,6 +7,8 @@
 
 #define ILFGEKKBEHI_CTOR_OFFSET UNITYSDK_OFFSET(0x164B02C0)
 
+inline static constexpr unsigned int ILFGEKKBEHI_TypeDefinitionIndex = 78942;
+
 	class ILFGEKKBEHI : public ::ENLNFBCDEIO
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EJAGPIKHDPN_CTOR_OFFSET UNITYSDK_OFFSET(0x154D57D0)
 #define EJAGPIKHDPN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154D5800)
 
+inline static constexpr unsigned int EJAGPIKHDPN_TypeDefinitionIndex = 58730;
+
 	class EJAGPIKHDPN
 	{
 	public:

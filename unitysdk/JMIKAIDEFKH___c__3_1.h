@@ -5,6 +5,8 @@ namespace RPG::Client { class UIDropTarget; }
 namespace System { class Action; }
 namespace System { class Object; }
 
+inline static constexpr unsigned int JMIKAIDEFKH___c__3_1_TypeDefinitionIndex = 49863;
+
 	template <typename T>
 	class JMIKAIDEFKH___c__3_1 : public ::System::Object
 	{

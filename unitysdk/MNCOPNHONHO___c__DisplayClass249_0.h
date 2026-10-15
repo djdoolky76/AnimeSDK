@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FiveDimTriggerEventEmitterConfig; }
 #define MNCOPNHONHO___C__DISPLAYCLASS249_0___CREATETRIGGEREVENTEMITTERTRIGGER_B__0_OFFSET UNITYSDK_OFFSET(0xBA04920)
 #define MNCOPNHONHO___C__DISPLAYCLASS249_0___CREATETRIGGEREVENTEMITTERTRIGGER_B__1_OFFSET UNITYSDK_OFFSET(0xBA049A0)
 
+inline static constexpr unsigned int MNCOPNHONHO___c__DisplayClass249_0_TypeDefinitionIndex = 76698;
+
 	class MNCOPNHONHO___c__DisplayClass249_0 : public ::System::Object
 	{
 	public:

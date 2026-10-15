@@ -34,6 +34,8 @@ namespace UnityEngine { class Transform; }
 #define AIBBDJBNBFP_PKPLHGDGOEI_OFFSET UNITYSDK_OFFSET(0xEB92DB0)
 #define AIBBDJBNBFP_POPNLPIAOCM_OFFSET UNITYSDK_OFFSET(0xEB922B0)
 
+inline static constexpr unsigned int AIBBDJBNBFP_TypeDefinitionIndex = 69884;
+
 	class AIBBDJBNBFP : public ::RPG::Client::BehaviorBase
 	{
 	public:

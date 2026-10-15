@@ -4,6 +4,8 @@
 
 namespace Google::Protobuf
 {
+	inline static constexpr unsigned int ProtoPreconditions_TypeDefinitionIndex = 5412;
+
 	class ProtoPreconditions : public ::System::Object
 	{
 	public:

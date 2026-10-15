@@ -4,6 +4,8 @@
 class KALMGBPCLIG;
 namespace System { class IDisposable; }
 
+inline static constexpr unsigned int KALMGBPCLIG_LMPABPCJBKK_TypeDefinitionIndex = 44183;
+
 	class KALMGBPCLIG_LMPABPCJBKK : public ::System::Object
 	{
 	public:

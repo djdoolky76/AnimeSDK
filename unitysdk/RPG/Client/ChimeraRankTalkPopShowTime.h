@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraRankTalkPopShowTime_TypeDefinitionIndex = 72482;
+
 	class ChimeraRankTalkPopShowTime : public ::UnityEngine::MonoBehaviour
 	{
 	public:

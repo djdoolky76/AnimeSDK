@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define AOGEACLGGNJ__ISDATAREADYIMPL_OFFSET UNITYSDK_OFFSET(0x158AA8A0)
 #define AOGEACLGGNJ__PREPAREDATAIMPL_OFFSET UNITYSDK_OFFSET(0x158AA9B0)
 
+inline static constexpr unsigned int AOGEACLGGNJ_TypeDefinitionIndex = 59891;
+
 	class AOGEACLGGNJ : public ::RPG::Client::AsyncCheckItemBase
 	{
 	public:

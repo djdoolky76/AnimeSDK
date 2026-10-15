@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierAddMonsterDropByProbabilityConf
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierAddMonsterDropByProbabilityConfig_TypeDefinitionIndex = 19390;
+
 	class GridFightModifierAddMonsterDropByProbabilityConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

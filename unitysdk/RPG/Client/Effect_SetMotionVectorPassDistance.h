@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_SetMotionVectorPassDistance_TypeDefinitionIndex = 70552;
+
 	class Effect_SetMotionVectorPassDistance : public ::UnityEngine::MonoBehaviour
 	{
 	public:

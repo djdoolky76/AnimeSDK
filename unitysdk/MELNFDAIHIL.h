@@ -33,6 +33,8 @@ namespace System { class String; }
 #define MELNFDAIHIL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA10A70)
 #define MELNFDAIHIL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA10AD0)
 
+inline static constexpr unsigned int MELNFDAIHIL_TypeDefinitionIndex = 34838;
+
 	class MELNFDAIHIL : public ::System::Object
 	{
 	public:

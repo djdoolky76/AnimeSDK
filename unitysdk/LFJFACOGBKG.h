@@ -294,6 +294,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LFJFACOGBKG__DOACTION_OFFSET UNITYSDK_OFFSET(0xB66F770)
 #define LFJFACOGBKG__LOGERROR_OFFSET UNITYSDK_OFFSET(0xB66F710)
 
+inline static constexpr unsigned int LFJFACOGBKG_TypeDefinitionIndex = 76883;
+
 	class LFJFACOGBKG
 	{
 	public:

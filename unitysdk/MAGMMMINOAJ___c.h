@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MAGMMMINOAJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9D9AC0)
 #define MAGMMMINOAJ___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E9D9AD0)
 
+inline static constexpr unsigned int MAGMMMINOAJ___c_TypeDefinitionIndex = 30296;
+
 	class MAGMMMINOAJ___c : public ::System::Object
 	{
 	public:

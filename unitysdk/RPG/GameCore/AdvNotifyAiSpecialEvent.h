@@ -12,6 +12,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvNotifyAiSpecialEvent_TypeDefinitionIndex = 20235;
+
 	class AdvNotifyAiSpecialEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:

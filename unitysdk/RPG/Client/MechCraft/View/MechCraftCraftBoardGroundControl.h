@@ -53,6 +53,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftBoardGroundControl_TypeDefinitionIndex = 79844;
+
 	class MechCraftCraftBoardGroundControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define DKPKHBMGGNI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD3D360)
 
+inline static constexpr unsigned int DKPKHBMGGNI_TypeDefinitionIndex = 25002;
+
 	class DKPKHBMGGNI : public ::System::Attribute
 	{
 	public:

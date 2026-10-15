@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define CANBAEOKAJD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA00300)
 #define CANBAEOKAJD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA00260)
 
+inline static constexpr unsigned int CANBAEOKAJD_TypeDefinitionIndex = 23170;
+
 	class CANBAEOKAJD : public ::RPG::GameCore::TaskConfig
 	{
 	public:

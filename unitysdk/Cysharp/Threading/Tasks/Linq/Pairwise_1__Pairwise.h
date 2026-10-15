@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Pairwise_1__Pairwise_TypeDefinitionIndex = 45533;
+
 	template <typename T>
 	class Pairwise_1__Pairwise : public ::Cysharp::Threading::Tasks::MoveNextSource
 	{

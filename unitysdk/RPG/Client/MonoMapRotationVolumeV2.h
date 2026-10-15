@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoMapRotationVolumeV2_TypeDefinitionIndex = 68610;
+
 	class MonoMapRotationVolumeV2 : public ::UnityEngine::MonoBehaviour
 	{
 	public:

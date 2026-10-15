@@ -8,6 +8,8 @@ class FFHLAHIGGEB;
 #define FFHLAHIGGEB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDE6A80)
 #define FFHLAHIGGEB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDE69B0)
 
+inline static constexpr unsigned int FFHLAHIGGEB_TypeDefinitionIndex = 19896;
+
 	class FFHLAHIGGEB : public ::RPG::GameCore::TaskConfig
 	{
 	public:

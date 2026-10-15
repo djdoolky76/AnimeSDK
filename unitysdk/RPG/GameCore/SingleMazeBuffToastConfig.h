@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SingleMazeBuffToastConfig_TypeDefinitionIndex = 17634;
+
 	class SingleMazeBuffToastConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

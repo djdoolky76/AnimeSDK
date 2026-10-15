@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleRemoveBuff_TypeDefinitionIndex = 16832;
+
 	class MarbleRemoveBuff : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

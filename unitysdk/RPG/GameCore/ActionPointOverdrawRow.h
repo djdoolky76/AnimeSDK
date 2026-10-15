@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ActionPointOverdrawRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActionPointOverdrawRow_TypeDefinitionIndex = 14789;
+
 	class ActionPointOverdrawRow : public ::System::Object
 	{
 	public:

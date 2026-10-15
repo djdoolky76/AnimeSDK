@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 #define CAJDFCLGGNG_FMIBPJNANFH_OFFSET UNITYSDK_OFFSET(0xC482E40)
 #define CAJDFCLGGNG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC482830)
 
+inline static constexpr unsigned int CAJDFCLGGNG_TypeDefinitionIndex = 55650;
+
 	class CAJDFCLGGNG
 	{
 	public:

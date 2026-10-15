@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirLevelProgressView_TypeDefinitionIndex = 79388;
+
 	class PixAirLevelProgressView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

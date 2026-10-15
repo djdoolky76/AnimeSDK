@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimMapFaceConfig_TypeDefinitionIndex = 18523;
+
 	class FiveDimMapFaceConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

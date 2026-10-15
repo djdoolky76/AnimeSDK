@@ -32,6 +32,8 @@ namespace System { class String; }
 #define PDJFHJFADOI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF0FA70)
 #define PDJFHJFADOI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF0FAD0)
 
+inline static constexpr unsigned int PDJFHJFADOI_TypeDefinitionIndex = 30380;
+
 	class PDJFHJFADOI : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchRefGraphDynamicString_TypeDefinitionIndex = 17521;
+
 	class SwitchRefGraphDynamicString : public ::RPG::GameCore::SwitchRefBase
 	{
 	public:

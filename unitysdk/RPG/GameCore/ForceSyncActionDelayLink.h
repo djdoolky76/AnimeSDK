@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ForceSyncActionDelayLink_TypeDefinitionIndex = 23272;
+
 	class ForceSyncActionDelayLink : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define BKFONOGNIMJ_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0xB7B3BD0)
 #define BKFONOGNIMJ_OPCKNBHNBOA_OFFSET UNITYSDK_OFFSET(0xB7B3C20)
 
+inline static constexpr unsigned int BKFONOGNIMJ_TypeDefinitionIndex = 55928;
+
 	class BKFONOGNIMJ : public ::JJANGHIBICJ
 	{
 	public:

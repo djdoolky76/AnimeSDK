@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvClientChangePropState_TypeDefinitionIndex = 20457;
+
 	class AdvClientChangePropState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

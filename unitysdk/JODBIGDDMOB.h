@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitTimeline; }
 #define JODBIGDDMOB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB29F860)
 #define JODBIGDDMOB_TICK_OFFSET UNITYSDK_OFFSET(0xB29F8B0)
 
+inline static constexpr unsigned int JODBIGDDMOB_TypeDefinitionIndex = 56483;
+
 	class JODBIGDDMOB : public ::GELIALJDFBL
 	{
 	public:

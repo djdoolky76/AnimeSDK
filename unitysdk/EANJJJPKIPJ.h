@@ -31,6 +31,8 @@ namespace System { class String; }
 #define EANJJJPKIPJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E22EDB0)
 #define EANJJJPKIPJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E22EE10)
 
+inline static constexpr unsigned int EANJJJPKIPJ_TypeDefinitionIndex = 25578;
+
 	class EANJJJPKIPJ : public ::System::Object
 	{
 	public:

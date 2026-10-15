@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MoveStageOnTargetForward_TypeDefinitionIndex = 22460;
+
 	class MoveStageOnTargetForward : public ::RPG::GameCore::TaskConfig
 	{
 	public:

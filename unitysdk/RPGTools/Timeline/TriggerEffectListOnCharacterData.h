@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TriggerEffectListOnCharacterData_TypeDefinitionIndex = 48335;
+
 	class TriggerEffectListOnCharacterData : public ::System::Object
 	{
 	public:

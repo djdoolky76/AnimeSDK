@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define PLJNHHAFBMB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC308980)
 #define PLJNHHAFBMB___C__GETPLAYERUIDS_B__15_0_OFFSET UNITYSDK_OFFSET(0xC308990)
 
+inline static constexpr unsigned int PLJNHHAFBMB___c_TypeDefinitionIndex = 69361;
+
 	class PLJNHHAFBMB___c : public ::System::Object
 	{
 	public:

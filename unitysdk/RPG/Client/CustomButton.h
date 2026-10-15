@@ -29,6 +29,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CustomButton_TypeDefinitionIndex = 72519;
+
 	class CustomButton : public ::UnityEngine::UI::Button
 	{
 	public:

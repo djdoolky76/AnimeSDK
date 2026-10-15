@@ -9,6 +9,8 @@ namespace System { class String; }
 #define GGJJIAJMFOM_CTOR_OFFSET UNITYSDK_OFFSET(0x15A0D900)
 #define GGJJIAJMFOM_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x15A0D8A0)
 
+inline static constexpr unsigned int GGJJIAJMFOM_TypeDefinitionIndex = 65895;
+
 	class GGJJIAJMFOM : public ::MLKDDLHNNHH
 	{
 	public:

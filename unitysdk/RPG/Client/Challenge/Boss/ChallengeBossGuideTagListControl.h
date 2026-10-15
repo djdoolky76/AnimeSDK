@@ -24,6 +24,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::Challenge::Boss
 {
+	inline static constexpr unsigned int ChallengeBossGuideTagListControl_TypeDefinitionIndex = 81642;
+
 	class ChallengeBossGuideTagListControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

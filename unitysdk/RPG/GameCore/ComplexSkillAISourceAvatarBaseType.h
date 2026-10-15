@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ComplexSkillAISourceAvatarBaseType; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAISourceAvatarBaseType_TypeDefinitionIndex = 15547;
+
 	class ComplexSkillAISourceAvatarBaseType : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:

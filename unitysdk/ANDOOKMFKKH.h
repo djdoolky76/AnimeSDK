@@ -6,6 +6,8 @@ class LBMMPJAJFBH;
 #define ANDOOKMFKKH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C89E440)
 #define ANDOOKMFKKH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C89E4A0)
 
+inline static constexpr unsigned int ANDOOKMFKKH_TypeDefinitionIndex = 43265;
+
 	class ANDOOKMFKKH : public ::System::Object
 	{
 	public:

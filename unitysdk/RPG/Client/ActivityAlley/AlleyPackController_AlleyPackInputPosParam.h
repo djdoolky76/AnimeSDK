@@ -3,6 +3,8 @@
 
 namespace RPG::Client::ActivityAlley
 {
+	inline static constexpr unsigned int AlleyPackController_AlleyPackInputPosParam_TypeDefinitionIndex = 74078;
+
 	struct alignas(4) AlleyPackController_AlleyPackInputPosParam
 	{
 		::System::Boolean IsValid; // 0x10

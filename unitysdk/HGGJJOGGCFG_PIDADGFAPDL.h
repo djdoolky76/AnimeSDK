@@ -5,6 +5,8 @@ class LAJCPEFEOPN;
 
 #define HGGJJOGGCFG_PIDADGFAPDL_CTOR_OFFSET UNITYSDK_OFFSET(0x15C9EBE0)
 
+inline static constexpr unsigned int HGGJJOGGCFG_PIDADGFAPDL_TypeDefinitionIndex = 69338;
+
 	class HGGJJOGGCFG_PIDADGFAPDL : public ::System::Object
 	{
 	public:

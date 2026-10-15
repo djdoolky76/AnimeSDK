@@ -284,6 +284,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExPlayer_TypeDefinitionIndex = 40056;
+
 	class CriAtomExPlayer : public ::CriWare::CriDisposable
 	{
 	public:

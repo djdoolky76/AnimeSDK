@@ -8,6 +8,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ProjectileCurve_TypeDefinitionIndex = 54750;
+
 	class ProjectileCurve : public ::System::Object
 	{
 	public:

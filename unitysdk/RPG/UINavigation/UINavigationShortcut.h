@@ -21,6 +21,8 @@ namespace UnityEngine::UI { class Selectable; }
 
 namespace RPG::UINavigation
 {
+	inline static constexpr unsigned int UINavigationShortcut_TypeDefinitionIndex = 51741;
+
 	class UINavigationShortcut : public ::RPG::UINavigation::UINavigationInControlAction
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Text { class StringBuilder; }
 #define IOJNKNFOCLB_PMPOIFNCICJ_DDCENCNBHDN_OFFSET UNITYSDK_OFFSET(0x1CC858A0)
 #define IOJNKNFOCLB_PMPOIFNCICJ_KOFEIMGPOKF_OFFSET UNITYSDK_OFFSET(0x1CC8D540)
 
+inline static constexpr unsigned int IOJNKNFOCLB_PMPOIFNCICJ_TypeDefinitionIndex = 43852;
+
 	class IOJNKNFOCLB_PMPOIFNCICJ : public ::System::Object
 	{
 	public:

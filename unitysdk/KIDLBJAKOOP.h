@@ -6,6 +6,8 @@ namespace RPG::GameCore { class GameEntityList; }
 
 #define KIDLBJAKOOP_CTOR_OFFSET UNITYSDK_OFFSET(0xB41C510)
 
+inline static constexpr unsigned int KIDLBJAKOOP_TypeDefinitionIndex = 54423;
+
 	class KIDLBJAKOOP : public ::System::Object
 	{
 	public:

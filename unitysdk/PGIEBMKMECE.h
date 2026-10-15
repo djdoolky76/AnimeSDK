@@ -37,6 +37,8 @@ namespace System { class String; }
 #define PGIEBMKMECE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF31450)
 #define PGIEBMKMECE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF314B0)
 
+inline static constexpr unsigned int PGIEBMKMECE_TypeDefinitionIndex = 27212;
+
 	class PGIEBMKMECE : public ::System::Object
 	{
 	public:

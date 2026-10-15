@@ -20,6 +20,8 @@ namespace Spine { class TranslateYTimeline; }
 
 namespace Spine::Unity::AnimationTools
 {
+	inline static constexpr unsigned int TimelineExtensions_TypeDefinitionIndex = 45111;
+
 	class TimelineExtensions : public ::System::Object
 	{
 	public:

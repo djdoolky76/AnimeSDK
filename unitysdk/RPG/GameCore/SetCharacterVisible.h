@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetCharacterVisible_TypeDefinitionIndex = 20605;
+
 	class SetCharacterVisible : public ::RPG::GameCore::TaskConfig
 	{
 	public:

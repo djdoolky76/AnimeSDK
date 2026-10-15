@@ -31,6 +31,8 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int UvUnwrapping_TypeDefinitionIndex = 44446;
+
 	class UvUnwrapping : public ::System::Object
 	{
 	public:

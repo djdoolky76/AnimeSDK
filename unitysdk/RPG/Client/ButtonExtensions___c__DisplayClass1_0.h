@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class Button; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ButtonExtensions___c__DisplayClass1_0_TypeDefinitionIndex = 72770;
+
 	class ButtonExtensions___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

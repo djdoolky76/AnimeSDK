@@ -7,6 +7,8 @@ namespace RPG::Client::ActivityIdleLive { class SpecialEquip; }
 #define NJHJJCFEHPK_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0xBC0FF70)
 #define NJHJJCFEHPK_GET_SPEQUIP_OFFSET UNITYSDK_OFFSET(0xBC0FF80)
 
+inline static constexpr unsigned int NJHJJCFEHPK_TypeDefinitionIndex = 75224;
+
 	class NJHJJCFEHPK : public ::System::Object
 	{
 	public:

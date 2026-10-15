@@ -9,6 +9,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelTurnBattleStart_TypeDefinitionIndex = 56745;
+
 	class LevelTurnBattleStart : public ::System::Object
 	{
 	public:

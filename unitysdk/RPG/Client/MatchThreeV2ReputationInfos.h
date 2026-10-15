@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeV2ReputationInfos_TypeDefinitionIndex = 66026;
+
 	class MatchThreeV2ReputationInfos : public ::System::Object
 	{
 	public:

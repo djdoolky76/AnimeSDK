@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TransferExtraInfo_TypeDefinitionIndex = 68175;
+
 	class TransferExtraInfo : public ::System::Object
 	{
 	public:

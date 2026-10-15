@@ -15,6 +15,8 @@ namespace UnityEngine::UI { class RawImage; }
 #define HDEPIHNOOHF_IECGFFIHLMC_OFFSET UNITYSDK_OFFSET(0x15C328B0)
 #define HDEPIHNOOHF_SET_CAPTURETEXTURE_OFFSET UNITYSDK_OFFSET(0x15C329B0)
 
+inline static constexpr unsigned int HDEPIHNOOHF_TypeDefinitionIndex = 72793;
+
 	class HDEPIHNOOHF : public ::System::Object
 	{
 	public:

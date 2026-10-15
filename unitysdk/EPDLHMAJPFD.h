@@ -11,6 +11,8 @@ namespace System::Collections::Concurrent { template <typename T1, typename T2> 
 #define EPDLHMAJPFD_HHFNCDMNHAC_OFFSET UNITYSDK_OFFSET(0x155D1D00)
 #define EPDLHMAJPFD_JBEAGPLPBAH_OFFSET UNITYSDK_OFFSET(0x155D1C50)
 
+inline static constexpr unsigned int EPDLHMAJPFD_TypeDefinitionIndex = 47693;
+
 	class EPDLHMAJPFD : public ::System::Object
 	{
 	public:

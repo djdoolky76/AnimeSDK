@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftUnlockConditionControl_TypeDefinitionIndex = 80067;
+
 	class MechCraftUnlockConditionControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

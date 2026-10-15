@@ -29,6 +29,8 @@ namespace System { class Object; }
 #define CMHJCEHKBOP_NFINIHKKLPK_OFFSET UNITYSDK_OFFSET(0xDA34EB0)
 #define CMHJCEHKBOP_NGEKEENAGNO_OFFSET UNITYSDK_OFFSET(0xDA34F90)
 
+inline static constexpr unsigned int CMHJCEHKBOP_TypeDefinitionIndex = 62727;
+
 	class CMHJCEHKBOP : public ::System::Object
 	{
 	public:

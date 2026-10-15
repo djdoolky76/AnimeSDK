@@ -12,6 +12,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define KKBKKOEIEEG__ONBIND_OFFSET UNITYSDK_OFFSET(0xB4B4CD0)
 #define KKBKKOEIEEG__ONTICK_OFFSET UNITYSDK_OFFSET(0xB4B4F40)
 
+inline static constexpr unsigned int KKBKKOEIEEG_TypeDefinitionIndex = 71480;
+
 	class KKBKKOEIEEG : public ::FMPCODLIOLG
 	{
 	public:

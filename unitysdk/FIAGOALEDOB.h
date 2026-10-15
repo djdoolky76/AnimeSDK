@@ -30,6 +30,8 @@ namespace UnityEngine::UI { class Text; }
 #define FIAGOALEDOB__ONBIND_OFFSET UNITYSDK_OFFSET(0x157957F0)
 #define FIAGOALEDOB__ONTICK_OFFSET UNITYSDK_OFFSET(0x157961A0)
 
+inline static constexpr unsigned int FIAGOALEDOB_TypeDefinitionIndex = 71369;
+
 	class FIAGOALEDOB : public ::FMPCODLIOLG
 	{
 	public:

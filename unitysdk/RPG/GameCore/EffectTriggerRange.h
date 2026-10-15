@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EffectTriggerRange_TypeDefinitionIndex = 22886;
+
 	class EffectTriggerRange : public ::RPG::GameCore::JsonConfig
 	{
 	public:

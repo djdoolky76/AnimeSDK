@@ -32,6 +32,8 @@ namespace System { class String; }
 #define HOJLMOCMFNK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5E9A40)
 #define HOJLMOCMFNK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5E9AA0)
 
+inline static constexpr unsigned int HOJLMOCMFNK_TypeDefinitionIndex = 29746;
+
 	class HOJLMOCMFNK : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_HasSelectDicePointComp
 #define IFFMJJGONOD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C69A060)
 #define IFFMJJGONOD_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C69A080)
 
+inline static constexpr unsigned int IFFMJJGONOD_TypeDefinitionIndex = 36356;
+
 	class IFFMJJGONOD : public ::HHOHBHGLHHF
 	{
 	public:

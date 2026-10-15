@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterLodMaterialProperty_TypeDefinitionIndex = 19100;
+
 	class CharacterLodMaterialProperty : public ::RPG::GameCore::JsonConfig
 	{
 	public:

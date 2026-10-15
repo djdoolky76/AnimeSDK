@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::ChenLing
 {
+	inline static constexpr unsigned int ChenLingJumpTextView_HPChangeFormatTypePair_TypeDefinitionIndex = 77974;
+
 	class ChenLingJumpTextView_HPChangeFormatTypePair : public ::System::Object
 	{
 	public:

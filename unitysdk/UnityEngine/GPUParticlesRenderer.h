@@ -21,6 +21,8 @@ namespace UnityEngine { class SkinnedMeshRenderer; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GPUParticlesRenderer_TypeDefinitionIndex = 4186;
+
 	class GPUParticlesRenderer : public ::UnityEngine::Renderer
 	{
 	public:

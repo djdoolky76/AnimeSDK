@@ -9,6 +9,8 @@ namespace RPG::Client::FateRin::Battle { class FateRinBattleHudEndActionButtonVi
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudEndActionButtonViewModel___c__DisplayClass6_0_TypeDefinitionIndex = 80905;
+
 	class FateRinBattleHudEndActionButtonViewModel___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

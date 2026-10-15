@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define FAMDOJFIPDO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDC7300)
 
+inline static constexpr unsigned int FAMDOJFIPDO_TypeDefinitionIndex = 25020;
+
 	class FAMDOJFIPDO : public ::System::Attribute
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class HideEffectByCharacterType; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HideEffectByCharacterType_TypeDefinitionIndex = 22458;
+
 	class HideEffectByCharacterType : public ::RPG::GameCore::TaskConfig
 	{
 	public:

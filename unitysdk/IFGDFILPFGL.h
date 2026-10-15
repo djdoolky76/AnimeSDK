@@ -9,6 +9,8 @@ class IFGDFILPFGL;
 #define IFGDFILPFGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEEF6D0)
 #define IFGDFILPFGL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEEF4F0)
 
+inline static constexpr unsigned int IFGDFILPFGL_TypeDefinitionIndex = 13975;
+
 	class IFGDFILPFGL : public ::System::Object
 	{
 	public:

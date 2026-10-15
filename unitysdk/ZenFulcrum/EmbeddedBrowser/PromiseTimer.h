@@ -15,6 +15,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class PredicateWait; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int PromiseTimer_TypeDefinitionIndex = 39537;
+
 	class PromiseTimer : public ::System::Object
 	{
 	public:

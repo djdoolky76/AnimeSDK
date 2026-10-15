@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::UI::UIStateCtrl
 {
+	inline static constexpr unsigned int StateData_TypeDefinitionIndex = 74070;
+
 	class StateData : public ::System::Object
 	{
 	public:

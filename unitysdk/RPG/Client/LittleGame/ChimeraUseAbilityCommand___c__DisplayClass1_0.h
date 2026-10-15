@@ -12,6 +12,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int ChimeraUseAbilityCommand___c__DisplayClass1_0_TypeDefinitionIndex = 76628;
+
 	class ChimeraUseAbilityCommand___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

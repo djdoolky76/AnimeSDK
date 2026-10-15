@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int MeshLineData_TypeDefinitionIndex = 37934;
+
 	class MeshLineData : public ::System::Object
 	{
 	public:

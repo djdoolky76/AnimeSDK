@@ -131,6 +131,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DrinkMakerCheersBarExtend_TypeDefinitionIndex = 63612;
+
 	class DrinkMakerCheersBarExtend : public ::System::Object
 	{
 	public:

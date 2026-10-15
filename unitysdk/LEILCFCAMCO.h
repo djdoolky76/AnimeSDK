@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define LEILCFCAMCO_SET_ISRUNNING_OFFSET UNITYSDK_OFFSET(0xB654600)
 #define LEILCFCAMCO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB655830)
 
+inline static constexpr unsigned int LEILCFCAMCO_TypeDefinitionIndex = 82268;
+
 	class LEILCFCAMCO : public ::System::Object
 	{
 	public:

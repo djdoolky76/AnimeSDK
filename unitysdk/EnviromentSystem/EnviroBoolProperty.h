@@ -17,6 +17,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int EnviroBoolProperty_TypeDefinitionIndex = 49595;
+
 	class EnviroBoolProperty : public ::EnviromentSystem::EnviroProperty
 	{
 	public:

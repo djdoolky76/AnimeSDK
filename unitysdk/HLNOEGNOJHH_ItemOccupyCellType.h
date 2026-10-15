@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int HLNOEGNOJHH_ItemOccupyCellType_TypeDefinitionIndex = 77759;
+
 	enum class HLNOEGNOJHH_ItemOccupyCellType : ::System::Int32
 	{
 		_1x1 = 0,

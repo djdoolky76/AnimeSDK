@@ -33,6 +33,8 @@ namespace System { class String; }
 #define OPABCPDGGAA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEDC370)
 #define OPABCPDGGAA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEDC3D0)
 
+inline static constexpr unsigned int OPABCPDGGAA_TypeDefinitionIndex = 28402;
+
 	class OPABCPDGGAA : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonsterEffectsPreloadItem_TypeDefinitionIndex = 16364;
+
 	class MonsterEffectsPreloadItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

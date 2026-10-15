@@ -23,6 +23,8 @@ namespace UnityEngine { class Transform; }
 #define BHPGOFDFMMI_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xB4930F0)
 #define BHPGOFDFMMI__ONBIND_OFFSET UNITYSDK_OFFSET(0xB492DB0)
 
+inline static constexpr unsigned int BHPGOFDFMMI_TypeDefinitionIndex = 71396;
+
 	class BHPGOFDFMMI : public ::FMPCODLIOLG
 	{
 	public:

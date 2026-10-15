@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ST_Side_SetAlertLevel; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_SetAlertLevel_TypeDefinitionIndex = 20108;
+
 	class ST_Side_SetAlertLevel : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

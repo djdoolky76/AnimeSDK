@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define CHDPAOEGGEI_SET_INCREASEDOVERLAPMAXCOUNT_OFFSET UNITYSDK_OFFSET(0xCC92FC0)
 #define CHDPAOEGGEI_SET_MODE_OFFSET UNITYSDK_OFFSET(0xCC92F10)
 
+inline static constexpr unsigned int CHDPAOEGGEI_TypeDefinitionIndex = 79545;
+
 	class CHDPAOEGGEI : public ::System::Object
 	{
 	public:

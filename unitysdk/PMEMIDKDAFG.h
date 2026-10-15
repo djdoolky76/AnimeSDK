@@ -31,6 +31,8 @@ namespace System { class String; }
 #define PMEMIDKDAFG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFAAE60)
 #define PMEMIDKDAFG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFAAEC0)
 
+inline static constexpr unsigned int PMEMIDKDAFG_TypeDefinitionIndex = 26416;
+
 	class PMEMIDKDAFG : public ::System::Object
 	{
 	public:

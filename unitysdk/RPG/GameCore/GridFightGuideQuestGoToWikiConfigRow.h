@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightGuideQuestGoToWikiConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightGuideQuestGoToWikiConfigRow_TypeDefinitionIndex = 13592;
+
 	class GridFightGuideQuestGoToWikiConfigRow : public ::System::Object
 	{
 	public:

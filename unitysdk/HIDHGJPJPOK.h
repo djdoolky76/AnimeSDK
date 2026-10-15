@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HIDHGJPJPOK_CTOR_OFFSET UNITYSDK_OFFSET(0x15CE17C0)
 #define HIDHGJPJPOK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CE17F0)
 
+inline static constexpr unsigned int HIDHGJPJPOK_TypeDefinitionIndex = 52482;
+
 	class HIDHGJPJPOK
 	{
 	public:

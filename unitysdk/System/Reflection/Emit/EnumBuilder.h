@@ -59,6 +59,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace System::Reflection::Emit
 {
+	inline static constexpr unsigned int EnumBuilder_TypeDefinitionIndex = 643;
+
 	class EnumBuilder : public ::System::Reflection::TypeInfo
 	{
 	public:

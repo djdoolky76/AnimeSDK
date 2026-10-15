@@ -11,6 +11,8 @@ namespace UnityEngine { class GUIStyle; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GUIScrollGroup_TypeDefinitionIndex = 5193;
+
 	class GUIScrollGroup : public ::UnityEngine::GUILayoutGroup
 	{
 	public:

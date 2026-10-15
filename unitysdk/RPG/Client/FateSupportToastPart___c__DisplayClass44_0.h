@@ -8,6 +8,8 @@ namespace RPG::Client { class FateSupportToastPart; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateSupportToastPart___c__DisplayClass44_0_TypeDefinitionIndex = 64166;
+
 	class FateSupportToastPart___c__DisplayClass44_0 : public ::System::Object
 	{
 	public:

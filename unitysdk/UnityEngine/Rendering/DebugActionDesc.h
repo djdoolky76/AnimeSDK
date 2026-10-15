@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DebugActionDesc_TypeDefinitionIndex = 35518;
+
 	class DebugActionDesc : public ::System::Object
 	{
 	public:

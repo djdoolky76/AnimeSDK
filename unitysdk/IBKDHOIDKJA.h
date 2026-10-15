@@ -68,6 +68,8 @@ namespace System { class String; }
 #define IBKDHOIDKJA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E618760)
 #define IBKDHOIDKJA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6187C0)
 
+inline static constexpr unsigned int IBKDHOIDKJA_TypeDefinitionIndex = 32231;
+
 	class IBKDHOIDKJA : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtBattleRecordCameraRootPos_TypeDefinitionIndex = 24097;
+
 	class RtBattleRecordCameraRootPos : public ::RPG::GameCore::TaskConfig
 	{
 	public:

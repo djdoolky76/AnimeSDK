@@ -13,6 +13,8 @@ namespace System::Threading { class CancellationTokenSource; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncDestroyTrigger_TypeDefinitionIndex = 38495;
+
 	class AsyncDestroyTrigger : public ::UnityEngine::MonoBehaviour
 	{
 	public:

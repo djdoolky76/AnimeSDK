@@ -31,6 +31,8 @@ namespace System { class String; }
 #define LEILCBFJFFD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E932EE0)
 #define LEILCBFJFFD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E932F40)
 
+inline static constexpr unsigned int LEILCBFJFFD_TypeDefinitionIndex = 29855;
+
 	class LEILCBFJFFD : public ::System::Object
 	{
 	public:

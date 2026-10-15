@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MuteMonsterLastKill_TypeDefinitionIndex = 23477;
+
 	class MuteMonsterLastKill : public ::RPG::GameCore::TaskConfig
 	{
 	public:

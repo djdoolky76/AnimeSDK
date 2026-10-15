@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int UnityInputDevice_TypeDefinitionIndex = 40897;
+
 	class UnityInputDevice : public ::InControl::InputDevice
 	{
 	public:

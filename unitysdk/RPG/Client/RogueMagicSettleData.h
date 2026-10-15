@@ -50,6 +50,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMagicSettleData_TypeDefinitionIndex = 67397;
+
 	class RogueMagicSettleData : public ::System::Object
 	{
 	public:

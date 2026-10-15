@@ -17,6 +17,8 @@ namespace System { class String; }
 #define GNEKFLLFOMO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15AFFBA0)
 #define GNEKFLLFOMO_TICK_OFFSET UNITYSDK_OFFSET(0x15AFF430)
 
+inline static constexpr unsigned int GNEKFLLFOMO_TypeDefinitionIndex = 53433;
+
 	class GNEKFLLFOMO : public ::GELIALJDFBL
 	{
 	public:

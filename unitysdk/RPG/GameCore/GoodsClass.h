@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GoodsClass; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GoodsClass_TypeDefinitionIndex = 12620;
+
 	class GoodsClass : public ::System::Object
 	{
 	public:

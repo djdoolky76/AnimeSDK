@@ -13,6 +13,8 @@ namespace System { class String; }
 #define NGCGPIAHAMJ_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0xBBA27C0)
 #define NGCGPIAHAMJ_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0xBBA2810)
 
+inline static constexpr unsigned int NGCGPIAHAMJ_TypeDefinitionIndex = 80086;
+
 	class NGCGPIAHAMJ : public ::System::Object
 	{
 	public:

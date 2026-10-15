@@ -28,6 +28,8 @@ namespace System { class String; }
 #define PFMGFPOKINH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF28840)
 #define PFMGFPOKINH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF288A0)
 
+inline static constexpr unsigned int PFMGFPOKINH_TypeDefinitionIndex = 33978;
+
 	class PFMGFPOKINH : public ::System::Object
 	{
 	public:

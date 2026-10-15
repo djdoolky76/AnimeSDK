@@ -12,6 +12,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int DanmuAddSequenceBehaviour_TypeDefinitionIndex = 48062;
+
 	class DanmuAddSequenceBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int WebResources_ResponsePreamble_TypeDefinitionIndex = 39573;
+
 	class WebResources_ResponsePreamble : public ::System::Object
 	{
 	public:

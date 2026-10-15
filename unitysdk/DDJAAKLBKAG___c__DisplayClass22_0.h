@@ -8,6 +8,8 @@ namespace System { class Action; }
 #define DDJAAKLBKAG___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE4DF9D0)
 #define DDJAAKLBKAG___C__DISPLAYCLASS22_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xE4E06F0)
 
+inline static constexpr unsigned int DDJAAKLBKAG___c__DisplayClass22_0_TypeDefinitionIndex = 79597;
+
 	class DDJAAKLBKAG___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:

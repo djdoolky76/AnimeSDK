@@ -6,6 +6,8 @@ namespace RPG::Client { class RogueFormulaInfo; }
 
 #define KJNJKIMNDMH_CTOR_OFFSET UNITYSDK_OFFSET(0xB45E240)
 
+inline static constexpr unsigned int KJNJKIMNDMH_TypeDefinitionIndex = 67076;
+
 	class KJNJKIMNDMH : public ::EBIMENNAEIE
 	{
 	public:

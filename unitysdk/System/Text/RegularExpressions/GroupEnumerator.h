@@ -13,6 +13,8 @@ namespace System::Text::RegularExpressions { class GroupCollection; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int GroupEnumerator_TypeDefinitionIndex = 2516;
+
 	class GroupEnumerator : public ::System::Object
 	{
 	public:

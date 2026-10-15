@@ -32,6 +32,8 @@ namespace System { class String; }
 #define HFAAFFDPBIL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E55F840)
 #define HFAAFFDPBIL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E55F8A0)
 
+inline static constexpr unsigned int HFAAFFDPBIL_TypeDefinitionIndex = 25791;
+
 	class HFAAFFDPBIL : public ::System::Object
 	{
 	public:

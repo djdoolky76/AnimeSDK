@@ -10,6 +10,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int MouthInfo_TypeDefinitionIndex = 48225;
+
 	class MouthInfo : public ::System::Object
 	{
 	public:

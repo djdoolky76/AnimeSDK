@@ -43,6 +43,8 @@ namespace System { class String; }
 #define DOPHNDHILPA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E206E90)
 #define DOPHNDHILPA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E206EF0)
 
+inline static constexpr unsigned int DOPHNDHILPA_TypeDefinitionIndex = 26969;
+
 	class DOPHNDHILPA : public ::System::Object
 	{
 	public:

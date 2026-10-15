@@ -4,6 +4,8 @@
 
 #define AFFBOKMMIGK_CTOR_OFFSET UNITYSDK_OFFSET(0xCF09080)
 
+inline static constexpr unsigned int AFFBOKMMIGK_TypeDefinitionIndex = 48136;
+
 	class AFFBOKMMIGK : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

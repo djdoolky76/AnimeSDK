@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class VerticalLayoutGroup; }
 #define JCBJKCFIDNE_IOKAOGFPCJD_OFFSET UNITYSDK_OFFSET(0x16579F60)
 #define JCBJKCFIDNE_OLACLDCGBIF_OFFSET UNITYSDK_OFFSET(0x1657A0E0)
 
+inline static constexpr unsigned int JCBJKCFIDNE_TypeDefinitionIndex = 72665;
+
 	class JCBJKCFIDNE : public ::System::Object
 	{
 	public:

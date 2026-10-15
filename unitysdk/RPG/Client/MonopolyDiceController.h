@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyDiceController_TypeDefinitionIndex = 72842;
+
 	class MonopolyDiceController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

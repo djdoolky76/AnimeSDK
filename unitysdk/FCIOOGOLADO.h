@@ -45,6 +45,8 @@ namespace UnityEngine { class Transform; }
 #define FCIOOGOLADO_RESET_OFFSET UNITYSDK_OFFSET(0x156C36E0)
 #define FCIOOGOLADO_SET_MARKDISABLE_OFFSET UNITYSDK_OFFSET(0x156C32C0)
 
+inline static constexpr unsigned int FCIOOGOLADO_TypeDefinitionIndex = 69600;
+
 	class FCIOOGOLADO : public ::System::Object
 	{
 	public:

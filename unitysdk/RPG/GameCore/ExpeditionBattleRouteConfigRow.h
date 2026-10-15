@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ExpeditionBattleRouteConfigRow_TypeDefinitionIndex = 11444;
+
 	class ExpeditionBattleRouteConfigRow : public ::System::Object
 	{
 	public:

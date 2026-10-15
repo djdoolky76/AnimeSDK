@@ -196,6 +196,8 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystem_MainModule_TypeDefinitionIndex = 5208;
+
 	struct alignas(8) ParticleSystem_MainModule
 	{
 		::UnityEngine::ParticleSystem* m_ParticleSystem; // 0x10

@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int DeviceFPManager_TypeDefinitionIndex = 46286;
+
 	class DeviceFPManager : public ::System::Object
 	{
 	public:

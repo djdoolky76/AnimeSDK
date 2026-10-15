@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DisableHeadLookAtOverride_TypeDefinitionIndex = 23478;
+
 	class DisableHeadLookAtOverride : public ::RPG::GameCore::TaskConfig
 	{
 	public:

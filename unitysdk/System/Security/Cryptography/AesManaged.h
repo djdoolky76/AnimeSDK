@@ -28,6 +28,8 @@ namespace System::Security::Cryptography { class RijndaelManaged; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int AesManaged_TypeDefinitionIndex = 3129;
+
 	class AesManaged : public ::System::Security::Cryptography::Aes
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRScreenshots__UpdateScreenshotProgress_TypeDefinitionIndex = 39180;
+
 	class IVRScreenshots__UpdateScreenshotProgress : public ::System::MulticastDelegate
 	{
 	public:

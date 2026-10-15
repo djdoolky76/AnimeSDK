@@ -35,6 +35,8 @@ namespace System { class String; }
 #define OHKDPNBGPOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE64850)
 #define OHKDPNBGPOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE648B0)
 
+inline static constexpr unsigned int OHKDPNBGPOA_TypeDefinitionIndex = 28891;
+
 	class OHKDPNBGPOA : public ::System::Object
 	{
 	public:

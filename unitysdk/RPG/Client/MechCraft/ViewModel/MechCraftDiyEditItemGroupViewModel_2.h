@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftDiyEditItemGroupViewModel_2_TypeDefinitionIndex = 79606;
+
 	template <typename T1, typename T2>
 	class MechCraftDiyEditItemGroupViewModel_2 : public ::System::Object
 	{

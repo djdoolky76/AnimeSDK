@@ -24,6 +24,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UITMPAnimateAttribute_TypeDefinitionIndex = 70714;
+
 	class UITMPAnimateAttribute : public ::UnityEngine::MonoBehaviour
 	{
 	public:

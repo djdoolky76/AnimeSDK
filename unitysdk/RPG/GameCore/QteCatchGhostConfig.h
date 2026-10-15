@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int QteCatchGhostConfig_TypeDefinitionIndex = 17588;
+
 	class QteCatchGhostConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

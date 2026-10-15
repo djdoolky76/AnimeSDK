@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BookAudioData_TypeDefinitionIndex = 66373;
+
 	class BookAudioData : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace RPG::Client { class IChimeraDuelChimeraLevelData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelChimeraLevelInfo_TypeDefinitionIndex = 63349;
+
 	class ChimeraDuelChimeraLevelInfo : public ::System::Object
 	{
 	public:

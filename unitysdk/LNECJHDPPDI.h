@@ -4,6 +4,8 @@
 
 #define LNECJHDPPDI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C91C0A0)
 
+inline static constexpr unsigned int LNECJHDPPDI_TypeDefinitionIndex = 42558;
+
 	class LNECJHDPPDI : public ::System::Object
 	{
 	public:

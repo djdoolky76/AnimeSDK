@@ -372,6 +372,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterModelComponent_TypeDefinitionIndex = 57181;
+
 	class CharacterModelComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

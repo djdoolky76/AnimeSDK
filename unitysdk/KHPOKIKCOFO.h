@@ -638,6 +638,8 @@ namespace UnityEngine::AI { class RVOAgent; }
 #define KHPOKIKCOFO_REPLACESMARTOBJECT_OFFSET UNITYSDK_OFFSET(0x1C8E9180)
 #define KHPOKIKCOFO_REPLACETRANSFORM_OFFSET UNITYSDK_OFFSET(0x1C8E8740)
 
+inline static constexpr unsigned int KHPOKIKCOFO_TypeDefinitionIndex = 42145;
+
 	class KHPOKIKCOFO : public ::Entitas::Entity
 	{
 	public:

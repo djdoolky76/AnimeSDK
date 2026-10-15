@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierAddSameRoleUntilEndConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierAddSameRoleUntilEndConfig_TypeDefinitionIndex = 19404;
+
 	class GridFightModifierAddSameRoleUntilEndConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

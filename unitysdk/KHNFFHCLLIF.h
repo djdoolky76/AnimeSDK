@@ -61,6 +61,8 @@ namespace System { class String; }
 #define KHNFFHCLLIF_SET_SPNEED_OFFSET UNITYSDK_OFFSET(0xB40CE60)
 #define KHNFFHCLLIF_SET_STANCEDAMAGETYPE_OFFSET UNITYSDK_OFFSET(0xB40CF40)
 
+inline static constexpr unsigned int KHNFFHCLLIF_TypeDefinitionIndex = 51938;
+
 	class KHNFFHCLLIF : public ::System::Object
 	{
 	public:

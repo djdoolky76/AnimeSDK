@@ -10,6 +10,8 @@ namespace System { class String; }
 #define INPJLPAFHAK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x164F9FF0)
 #define INPJLPAFHAK_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x164FA000)
 
+inline static constexpr unsigned int INPJLPAFHAK_TypeDefinitionIndex = 56163;
+
 	class INPJLPAFHAK : public ::DBGDNLLDPFI
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MPKNOBCKIBL_BDBNOPCMNOO_OFFSET UNITYSDK_OFFSET(0xBA40E00)
 #define MPKNOBCKIBL_CTOR_OFFSET UNITYSDK_OFFSET(0xBA40BF0)
 
+inline static constexpr unsigned int MPKNOBCKIBL_TypeDefinitionIndex = 78943;
+
 	class MPKNOBCKIBL : public ::ENLNFBCDEIO
 	{
 	public:

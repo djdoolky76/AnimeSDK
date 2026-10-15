@@ -7,6 +7,8 @@ namespace System::Net { class WebProxy; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int WebRequest_WebProxyWrapper_TypeDefinitionIndex = 2769;
+
 	class WebRequest_WebProxyWrapper : public ::System::Net::WebRequest_WebProxyWrapperOpaque
 	{
 	public:

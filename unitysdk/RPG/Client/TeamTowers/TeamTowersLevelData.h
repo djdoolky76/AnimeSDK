@@ -17,6 +17,8 @@
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersLevelData_TypeDefinitionIndex = 79032;
+
 	class TeamTowersLevelData : public ::System::Object
 	{
 	public:

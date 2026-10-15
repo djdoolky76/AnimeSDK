@@ -5,6 +5,8 @@
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTaskVoid_TypeDefinitionIndex = 38448;
+
 	struct alignas(4) UniTaskVoid
 	{
 		::System::Void Forget()

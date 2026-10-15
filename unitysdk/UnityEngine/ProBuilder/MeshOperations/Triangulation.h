@@ -18,6 +18,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri { class TriangulationContext; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int Triangulation_TypeDefinitionIndex = 44516;
+
 	class Triangulation : public ::System::Object
 	{
 	public:

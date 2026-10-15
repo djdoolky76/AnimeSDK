@@ -11,6 +11,8 @@ namespace RPG::GameCore { class AddChallengeBossInfoPanelState; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddChallengeBossInfoPanelState_TypeDefinitionIndex = 23218;
+
 	class AddChallengeBossInfoPanelState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

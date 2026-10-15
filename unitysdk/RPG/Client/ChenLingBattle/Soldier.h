@@ -69,6 +69,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int Soldier_TypeDefinitionIndex = 76372;
+
 	class Soldier : public ::System::Object
 	{
 	public:

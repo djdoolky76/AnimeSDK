@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BECJPAKGDMA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1630FEF0)
 #define BECJPAKGDMA___C__ONTASKBEGIN_B__6_0_OFFSET UNITYSDK_OFFSET(0x1630FF00)
 
+inline static constexpr unsigned int BECJPAKGDMA___c_TypeDefinitionIndex = 58160;
+
 	class BECJPAKGDMA___c : public ::System::Object
 	{
 	public:

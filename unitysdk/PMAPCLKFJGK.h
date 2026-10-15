@@ -6,6 +6,8 @@
 #define PMAPCLKFJGK_FAHFGDHGFLG_OFFSET UNITYSDK_OFFSET(0xC313630)
 #define PMAPCLKFJGK_HFNAOBEBGDE_OFFSET UNITYSDK_OFFSET(0xC313730)
 
+inline static constexpr unsigned int PMAPCLKFJGK_TypeDefinitionIndex = 69439;
+
 	class PMAPCLKFJGK : public ::BBHJHADOEID
 	{
 	public:

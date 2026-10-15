@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAbilityPixAirEffectBoostBurnConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityPixAirEffectBoostBurnConfig_TypeDefinitionIndex = 21352;
+
 	class LittleGameAbilityPixAirEffectBoostBurnConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:

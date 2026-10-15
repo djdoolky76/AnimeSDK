@@ -11,6 +11,8 @@ namespace System::Linq::Expressions { class TypeBinaryExpression; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int ConstantCheck_TypeDefinitionIndex = 3208;
+
 	class ConstantCheck : public ::System::Object
 	{
 	public:

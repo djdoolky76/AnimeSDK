@@ -29,6 +29,8 @@ namespace System { class String; }
 #define IKAHKMNCFDN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E69B500)
 #define IKAHKMNCFDN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E69B560)
 
+inline static constexpr unsigned int IKAHKMNCFDN_TypeDefinitionIndex = 25874;
+
 	class IKAHKMNCFDN : public ::System::Object
 	{
 	public:

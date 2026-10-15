@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int FontUpdateTracker_TypeDefinitionIndex = 6715;
+
 	class FontUpdateTracker : public ::System::Object
 	{
 	public:

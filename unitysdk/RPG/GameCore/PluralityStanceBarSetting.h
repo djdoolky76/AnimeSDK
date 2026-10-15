@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PluralityStanceBarSetting_TypeDefinitionIndex = 17150;
+
 	class PluralityStanceBarSetting : public ::RPG::GameCore::JsonConfig
 	{
 	public:

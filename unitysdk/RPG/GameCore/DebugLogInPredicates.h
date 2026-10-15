@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DebugLogInPredicates_TypeDefinitionIndex = 23804;
+
 	class DebugLogInPredicates : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

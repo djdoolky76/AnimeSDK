@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IANENHOGHBH_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0x15E1F920)
 #define IANENHOGHBH_OHPCLEHGCKK_OFFSET UNITYSDK_OFFSET(0x15E21910)
 
+inline static constexpr unsigned int IANENHOGHBH_TypeDefinitionIndex = 62052;
+
 	class IANENHOGHBH : public ::BFLILCJMKDB
 	{
 	public:

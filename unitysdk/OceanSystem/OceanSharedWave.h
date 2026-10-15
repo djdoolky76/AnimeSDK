@@ -15,6 +15,8 @@ namespace UnityEngine { class Shader; }
 
 namespace OceanSystem
 {
+	inline static constexpr unsigned int OceanSharedWave_TypeDefinitionIndex = 48979;
+
 	class OceanSharedWave : public ::UnityEngine::MonoBehaviour
 	{
 	public:

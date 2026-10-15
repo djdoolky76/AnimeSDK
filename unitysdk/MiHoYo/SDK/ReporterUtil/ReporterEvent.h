@@ -41,6 +41,8 @@ namespace System::Timers { class ElapsedEventArgs; }
 
 namespace MiHoYo::SDK::ReporterUtil
 {
+	inline static constexpr unsigned int ReporterEvent_TypeDefinitionIndex = 46652;
+
 	class ReporterEvent : public ::System::Object
 	{
 	public:

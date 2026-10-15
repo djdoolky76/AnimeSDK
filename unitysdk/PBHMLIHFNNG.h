@@ -12,6 +12,8 @@ namespace UnityEngine::UI { class Text; }
 #define PBHMLIHFNNG_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xBFEECF0)
 #define PBHMLIHFNNG_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xBFEED40)
 
+inline static constexpr unsigned int PBHMLIHFNNG_TypeDefinitionIndex = 72736;
+
 	class PBHMLIHFNNG : public ::LBAMBIMMJKB
 	{
 	public:

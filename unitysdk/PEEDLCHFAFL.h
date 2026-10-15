@@ -609,6 +609,8 @@ namespace UnityEngine { class Transform; }
 #define PEEDLCHFAFL_TRYSETRENDERINGITEMSTATE_OFFSET UNITYSDK_OFFSET(0x1C9B28E0)
 #define PEEDLCHFAFL__GET_BORDERPLATFILTER_B__337_0_OFFSET UNITYSDK_OFFSET(0x1C9E6E20)
 
+inline static constexpr unsigned int PEEDLCHFAFL_TypeDefinitionIndex = 43593;
+
 	class PEEDLCHFAFL
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenGameCycleData___c_TypeDefinitionIndex = 75503;
+
 	class ActivityHipplenGameCycleData___c : public ::System::Object
 	{
 	public:

@@ -26,6 +26,8 @@ namespace UnityEngine { class GameObject; }
 #define DIFMKJMFKOK_POOAEGHOGPH_OFFSET UNITYSDK_OFFSET(0xEBF5940)
 #define DIFMKJMFKOK_SET_TRANSFORMDIRTY_OFFSET UNITYSDK_OFFSET(0xEBF60A0)
 
+inline static constexpr unsigned int DIFMKJMFKOK_TypeDefinitionIndex = 73784;
+
 	class DIFMKJMFKOK : public ::RPG::Client::OpenWorld::StreamingItemData
 	{
 	public:

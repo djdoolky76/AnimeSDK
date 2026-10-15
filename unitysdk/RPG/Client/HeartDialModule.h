@@ -76,6 +76,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HeartDialModule_TypeDefinitionIndex = 65655;
+
 	class HeartDialModule : public ::RPG::Client::BaseModule
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define DBEMDBEGDLA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E158930)
 #define DBEMDBEGDLA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E158990)
 
+inline static constexpr unsigned int DBEMDBEGDLA_TypeDefinitionIndex = 30156;
+
 	class DBEMDBEGDLA : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HAHEOGIBNHL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E504480)
 #define HAHEOGIBNHL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5044E0)
 
+inline static constexpr unsigned int HAHEOGIBNHL_TypeDefinitionIndex = 26643;
+
 	class HAHEOGIBNHL : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define HIEJMKLPBFC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CACC1F0)
 
+inline static constexpr unsigned int HIEJMKLPBFC_TypeDefinitionIndex = 42897;
+
 	class HIEJMKLPBFC : public ::System::Object
 	{
 	public:

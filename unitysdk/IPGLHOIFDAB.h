@@ -37,6 +37,8 @@ namespace System { class String; }
 #define IPGLHOIFDAB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6E2970)
 #define IPGLHOIFDAB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6E29D0)
 
+inline static constexpr unsigned int IPGLHOIFDAB_TypeDefinitionIndex = 27887;
+
 	class IPGLHOIFDAB : public ::System::Object
 	{
 	public:

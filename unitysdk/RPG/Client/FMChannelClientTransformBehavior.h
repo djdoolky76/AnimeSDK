@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FMChannelClientTransformBehavior_TypeDefinitionIndex = 70285;
+
 	class FMChannelClientTransformBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

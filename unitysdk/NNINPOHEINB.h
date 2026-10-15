@@ -15,6 +15,8 @@ namespace System { class String; }
 #define NNINPOHEINB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBCAF9C0)
 #define NNINPOHEINB_TICK_OFFSET UNITYSDK_OFFSET(0xBCAFEB0)
 
+inline static constexpr unsigned int NNINPOHEINB_TypeDefinitionIndex = 58359;
+
 	class NNINPOHEINB : public ::GELIALJDFBL
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::Client { class EmoEyeCtrl; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEmoNpcEyeController_KBDBCBBLKCB_TypeDefinitionIndex = 71153;
+
 	class MonoEmoNpcEyeController_KBDBCBBLKCB : public ::System::Object
 	{
 	public:

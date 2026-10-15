@@ -23,6 +23,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPPostprocessSubPass2_TypeDefinitionIndex = 37777;
+
 	class CRPPostprocessSubPass2 : public ::System::Object
 	{
 	public:

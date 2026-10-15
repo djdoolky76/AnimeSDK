@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelPedestrianV2MemberExtendFreeStyleConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPedestrianV2MemberExtendFreeStyleConfig_TypeDefinitionIndex = 17317;
+
 	class LevelPedestrianV2MemberExtendFreeStyleConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

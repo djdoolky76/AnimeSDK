@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::PS
 {
+	inline static constexpr unsigned int PSWelcomeDialog___c_TypeDefinitionIndex = 8945;
+
 	class PSWelcomeDialog___c : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NIKKFEINEFD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB34CB0)
 #define NIKKFEINEFD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB34D10)
 
+inline static constexpr unsigned int NIKKFEINEFD_TypeDefinitionIndex = 26695;
+
 	class NIKKFEINEFD : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define HBJFFEDGIFK_CTOR_OFFSET UNITYSDK_OFFSET(0x15C0AD30)
 
+inline static constexpr unsigned int HBJFFEDGIFK_TypeDefinitionIndex = 47878;
+
 	class HBJFFEDGIFK : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

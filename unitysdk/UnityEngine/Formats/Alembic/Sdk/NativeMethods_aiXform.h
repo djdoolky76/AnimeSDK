@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int NativeMethods_aiXform_TypeDefinitionIndex = 45794;
+
 	struct alignas(4) NativeMethods_aiXform
 	{
 		static ::UnityEngine::Formats::Alembic::Sdk::aiXformSample aiSchemaGetSample(::System::IntPtr a1)

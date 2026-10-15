@@ -10,6 +10,8 @@ namespace RPG::Client { class RelicPresetPlanData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RelicPresetApplyDetailViewModel___c__DisplayClass12_0_TypeDefinitionIndex = 66857;
+
 	class RelicPresetApplyDetailViewModel___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

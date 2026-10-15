@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int PrefabCurvePropertyData_TypeDefinitionIndex = 49399;
+
 	class PrefabCurvePropertyData : public ::EnviromentSystemV2Space::PrefabPropertyData
 	{
 	public:

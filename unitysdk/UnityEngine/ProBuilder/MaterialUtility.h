@@ -11,6 +11,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int MaterialUtility_TypeDefinitionIndex = 44372;
+
 	class MaterialUtility : public ::System::Object
 	{
 	public:

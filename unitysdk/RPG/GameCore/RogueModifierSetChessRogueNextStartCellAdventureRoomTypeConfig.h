@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierSetChessRogueNextStartCellAdventure
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierSetChessRogueNextStartCellAdventureRoomTypeConfig_TypeDefinitionIndex = 17976;
+
 	class RogueModifierSetChessRogueNextStartCellAdventureRoomTypeConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

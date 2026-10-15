@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FNOOHEIIKLF_CTOR_OFFSET UNITYSDK_OFFSET(0x158D5E00)
 #define FNOOHEIIKLF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x158D5E30)
 
+inline static constexpr unsigned int FNOOHEIIKLF_TypeDefinitionIndex = 54498;
+
 	class FNOOHEIIKLF
 	{
 	public:

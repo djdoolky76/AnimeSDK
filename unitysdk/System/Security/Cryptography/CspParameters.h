@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int CspParameters_TypeDefinitionIndex = 1010;
+
 	class CspParameters : public ::System::Object
 	{
 	public:

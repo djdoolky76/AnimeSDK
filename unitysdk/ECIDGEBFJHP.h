@@ -28,6 +28,8 @@ namespace System { class String; }
 #define ECIDGEBFJHP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E24FB50)
 #define ECIDGEBFJHP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E24FBB0)
 
+inline static constexpr unsigned int ECIDGEBFJHP_TypeDefinitionIndex = 31802;
+
 	class ECIDGEBFJHP : public ::System::Object
 	{
 	public:

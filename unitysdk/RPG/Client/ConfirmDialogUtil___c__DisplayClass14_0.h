@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ConfirmDialogUtil___c__DisplayClass14_0_TypeDefinitionIndex = 72718;
+
 	class ConfirmDialogUtil___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:

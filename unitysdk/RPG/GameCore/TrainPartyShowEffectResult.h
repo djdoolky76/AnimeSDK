@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyShowEffectResult; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyShowEffectResult_TypeDefinitionIndex = 22364;
+
 	class TrainPartyShowEffectResult : public ::RPG::GameCore::TaskConfig
 	{
 	public:

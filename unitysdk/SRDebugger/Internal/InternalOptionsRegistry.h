@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace SRDebugger::Internal
 {
+	inline static constexpr unsigned int InternalOptionsRegistry_TypeDefinitionIndex = 38102;
+
 	class InternalOptionsRegistry : public ::System::Object
 	{
 	public:

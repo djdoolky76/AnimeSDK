@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace System
 {
+	inline static constexpr unsigned int LazyHelpers_TypeDefinitionIndex = 157;
+
 	class LazyHelpers : public ::System::Object
 	{
 	public:

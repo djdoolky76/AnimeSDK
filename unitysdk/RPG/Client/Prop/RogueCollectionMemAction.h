@@ -27,6 +27,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int RogueCollectionMemAction_TypeDefinitionIndex = 78948;
+
 	class RogueCollectionMemAction : public ::UnityEngine::MonoBehaviour
 	{
 	public:

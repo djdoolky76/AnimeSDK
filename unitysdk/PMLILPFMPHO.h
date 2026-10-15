@@ -36,6 +36,8 @@ class MONJFDPKFBA;
 #define PMLILPFMPHO_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xC324870)
 #define PMLILPFMPHO_PGGKKFDNKKL_OFFSET UNITYSDK_OFFSET(0xC324520)
 
+inline static constexpr unsigned int PMLILPFMPHO_TypeDefinitionIndex = 75922;
+
 	class PMLILPFMPHO : public ::System::Object
 	{
 	public:

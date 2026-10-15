@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define IFLLMNPBGLC_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x15F23210)
 #define IFLLMNPBGLC_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x15F23370)
 
+inline static constexpr unsigned int IFLLMNPBGLC_TypeDefinitionIndex = 47883;
+
 	class IFLLMNPBGLC : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

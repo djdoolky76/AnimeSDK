@@ -27,6 +27,8 @@ namespace System { class String; }
 #define ECJCIAPBFDJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E253130)
 #define ECJCIAPBFDJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E253190)
 
+inline static constexpr unsigned int ECJCIAPBFDJ_TypeDefinitionIndex = 31826;
+
 	class ECJCIAPBFDJ : public ::System::Object
 	{
 	public:

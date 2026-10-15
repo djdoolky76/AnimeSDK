@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIAdventureMinimap_TrackEffectType_TypeDefinitionIndex = 69069;
+
 	enum class UIAdventureMinimap_TrackEffectType : ::System::Int32
 	{
 		None = 0,

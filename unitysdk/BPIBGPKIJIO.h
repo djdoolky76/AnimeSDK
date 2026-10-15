@@ -7,6 +7,8 @@ namespace Proto { class MonopolyActionResult; }
 #define BPIBGPKIJIO_CTOR_OFFSET UNITYSDK_OFFSET(0xC1A6070)
 #define BPIBGPKIJIO_TRIGGER_OFFSET UNITYSDK_OFFSET(0xC1A60F0)
 
+inline static constexpr unsigned int BPIBGPKIJIO_TypeDefinitionIndex = 66235;
+
 	class BPIBGPKIJIO : public ::System::Object
 	{
 	public:

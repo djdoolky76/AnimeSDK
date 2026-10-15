@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RtSkillFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtSkillFinish_TypeDefinitionIndex = 24215;
+
 	class RtSkillFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

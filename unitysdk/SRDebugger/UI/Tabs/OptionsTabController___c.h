@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace SRDebugger::UI::Tabs
 {
+	inline static constexpr unsigned int OptionsTabController___c_TypeDefinitionIndex = 37992;
+
 	class OptionsTabController___c : public ::System::Object
 	{
 	public:

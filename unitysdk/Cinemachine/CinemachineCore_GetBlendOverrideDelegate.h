@@ -15,6 +15,8 @@ namespace UnityEngine { class MonoBehaviour; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineCore_GetBlendOverrideDelegate_TypeDefinitionIndex = 39813;
+
 	class CinemachineCore_GetBlendOverrideDelegate : public ::System::MulticastDelegate
 	{
 	public:

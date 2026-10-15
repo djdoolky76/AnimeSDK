@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ExpeditionBattleNewLevelStartAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ExpeditionBattleNewLevelStartAction_TypeDefinitionIndex = 16210;
+
 	class ExpeditionBattleNewLevelStartAction : public ::RPG::GameCore::BaseExpeditionBattleAction
 	{
 	public:

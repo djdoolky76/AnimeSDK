@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define ICHDMONJOBO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CEE2D90)
 #define ICHDMONJOBO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CEE26F0)
 
+inline static constexpr unsigned int ICHDMONJOBO_TypeDefinitionIndex = 11352;
+
 	class ICHDMONJOBO : public ::System::Object
 	{
 	public:

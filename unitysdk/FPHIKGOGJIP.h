@@ -31,6 +31,8 @@ namespace System { class String; }
 #define FPHIKGOGJIP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E409520)
 #define FPHIKGOGJIP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E409580)
 
+inline static constexpr unsigned int FPHIKGOGJIP_TypeDefinitionIndex = 32378;
+
 	class FPHIKGOGJIP : public ::System::Object
 	{
 	public:

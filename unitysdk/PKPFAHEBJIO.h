@@ -37,6 +37,8 @@ namespace System { class String; }
 #define PKPFAHEBJIO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF96380)
 #define PKPFAHEBJIO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF963E0)
 
+inline static constexpr unsigned int PKPFAHEBJIO_TypeDefinitionIndex = 25586;
+
 	class PKPFAHEBJIO : public ::System::Object
 	{
 	public:

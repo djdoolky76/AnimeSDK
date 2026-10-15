@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnableAdvEntityDitherWithPlayer_TypeDefinitionIndex = 20569;
+
 	class EnableAdvEntityDitherWithPlayer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

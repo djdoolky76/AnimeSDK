@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MultiFloorConflictModule_PamOccupyDetail_TypeDefinitionIndex = 66302;
+
 	class MultiFloorConflictModule_PamOccupyDetail : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIMusicVisualization_MusicMixingBehavior_TypeDefinitionIndex = 70830;
+
 	class UIMusicVisualization_MusicMixingBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

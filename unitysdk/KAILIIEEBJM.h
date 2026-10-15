@@ -66,6 +66,8 @@ namespace System { class String; }
 #define KAILIIEEBJM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7E1AE0)
 #define KAILIIEEBJM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7E1B40)
 
+inline static constexpr unsigned int KAILIIEEBJM_TypeDefinitionIndex = 30026;
+
 	class KAILIIEEBJM : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System { class String; }
 #define DAJGBMBBLAF_NPPKPKFIJFJ_OFFSET UNITYSDK_OFFSET(0xDFC4BF0)
 #define DAJGBMBBLAF_SETVALUE_OFFSET UNITYSDK_OFFSET(0xDFC4B40)
 
+inline static constexpr unsigned int DAJGBMBBLAF_TypeDefinitionIndex = 76498;
+
 	class DAJGBMBBLAF
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DHAFGMHPMHG___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEBB60D0)
 #define DHAFGMHPMHG___C__DISPLAYCLASS8_0___ONITEMSTARTBYTHREAD_B__0_OFFSET UNITYSDK_OFFSET(0xEBB60E0)
 
+inline static constexpr unsigned int DHAFGMHPMHG___c__DisplayClass8_0_TypeDefinitionIndex = 59588;
+
 	class DHAFGMHPMHG___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

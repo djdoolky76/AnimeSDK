@@ -25,6 +25,8 @@ namespace System { class String; }
 #define EEPHEHAEFOF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E28AEC0)
 #define EEPHEHAEFOF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E28AF20)
 
+inline static constexpr unsigned int EEPHEHAEFOF_TypeDefinitionIndex = 28637;
+
 	class EEPHEHAEFOF : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int InputControlSource_TypeDefinitionIndex = 40823;
+
 	struct alignas(4) InputControlSource
 	{
 		::InControl::InputControlSourceType sourceType; // 0x10

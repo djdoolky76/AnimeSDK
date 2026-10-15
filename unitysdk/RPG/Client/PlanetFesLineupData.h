@@ -12,6 +12,8 @@ namespace RPG::GameCore { class PlanetFesRecommendTeamRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesLineupData_TypeDefinitionIndex = 66528;
+
 	class PlanetFesLineupData : public ::System::Object
 	{
 	public:

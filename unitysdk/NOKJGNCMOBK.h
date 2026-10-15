@@ -32,6 +32,8 @@ namespace System { class String; }
 #define NOKJGNCMOBK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB8D730)
 #define NOKJGNCMOBK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB8D790)
 
+inline static constexpr unsigned int NOKJGNCMOBK_TypeDefinitionIndex = 32398;
+
 	class NOKJGNCMOBK : public ::System::Object
 	{
 	public:

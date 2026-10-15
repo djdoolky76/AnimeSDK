@@ -19,6 +19,8 @@ namespace UnityEngine { class GameObject; }
 #define HGEAGNCENFG_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x15C946C0)
 #define HGEAGNCENFG_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x15C94550)
 
+inline static constexpr unsigned int HGEAGNCENFG_TypeDefinitionIndex = 47734;
+
 	class HGEAGNCENFG : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

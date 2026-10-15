@@ -25,6 +25,8 @@ namespace UnityEngine::UI { class Slider; }
 #define FGBIGOJDDEE__ONBIND_OFFSET UNITYSDK_OFFSET(0x15751680)
 #define FGBIGOJDDEE__ONTICK_OFFSET UNITYSDK_OFFSET(0x15751DF0)
 
+inline static constexpr unsigned int FGBIGOJDDEE_TypeDefinitionIndex = 72202;
+
 	class FGBIGOJDDEE : public ::FMPCODLIOLG
 	{
 	public:

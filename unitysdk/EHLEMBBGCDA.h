@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define EHLEMBBGCDA_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x154AF440)
 #define EHLEMBBGCDA_PKKADDCLLGK_OFFSET UNITYSDK_OFFSET(0x154AEAD0)
 
+inline static constexpr unsigned int EHLEMBBGCDA_TypeDefinitionIndex = 79174;
+
 	class EHLEMBBGCDA : public ::System::Object
 	{
 	public:

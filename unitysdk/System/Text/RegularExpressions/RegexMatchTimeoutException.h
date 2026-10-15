@@ -15,6 +15,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int RegexMatchTimeoutException_TypeDefinitionIndex = 2522;
+
 	class RegexMatchTimeoutException : public ::System::TimeoutException
 	{
 	public:

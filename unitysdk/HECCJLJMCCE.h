@@ -9,6 +9,8 @@ class HECCJLJMCCE;
 #define HECCJLJMCCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE996C0)
 #define HECCJLJMCCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE99360)
 
+inline static constexpr unsigned int HECCJLJMCCE_TypeDefinitionIndex = 11503;
+
 	class HECCJLJMCCE : public ::System::Object
 	{
 	public:

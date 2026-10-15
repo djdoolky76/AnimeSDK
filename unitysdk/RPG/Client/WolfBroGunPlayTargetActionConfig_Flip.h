@@ -8,6 +8,8 @@ class JNKPPLPLFOM;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_Flip_TypeDefinitionIndex = 68710;
+
 	class WolfBroGunPlayTargetActionConfig_Flip : public ::RPG::Client::WolfBroGunPlayTargetActionConfig
 	{
 	public:

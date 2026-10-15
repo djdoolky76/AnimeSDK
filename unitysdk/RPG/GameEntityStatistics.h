@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int GameEntityStatistics_TypeDefinitionIndex = 51711;
+
 	class GameEntityStatistics : public ::System::Object
 	{
 	public:

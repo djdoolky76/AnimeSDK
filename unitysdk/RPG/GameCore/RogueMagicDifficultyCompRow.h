@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RogueMagicDifficultyCompRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueMagicDifficultyCompRow_TypeDefinitionIndex = 14866;
+
 	class RogueMagicDifficultyCompRow : public ::System::Object
 	{
 	public:

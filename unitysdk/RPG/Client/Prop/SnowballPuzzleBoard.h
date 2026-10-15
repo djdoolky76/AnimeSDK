@@ -28,6 +28,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int SnowballPuzzleBoard_TypeDefinitionIndex = 78866;
+
 	class SnowballPuzzleBoard : public ::RPG::Client::Prop::BlockPuzzleBase
 	{
 	public:

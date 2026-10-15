@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class AnimatorButton; }
 
+inline static constexpr unsigned int JMPCGMHMNLB_TypeDefinitionIndex = 49813;
+
 	class JMPCGMHMNLB : public ::System::Object
 	{
 	public:

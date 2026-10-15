@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnterGameFlow_TypeDefinitionIndex = 24061;
+
 	class EnterGameFlow : public ::RPG::GameCore::TaskConfig
 	{
 	public:

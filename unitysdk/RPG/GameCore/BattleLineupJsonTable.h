@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleLineupJsonTable_TypeDefinitionIndex = 56487;
+
 	class BattleLineupJsonTable : public ::System::Object
 	{
 	public:

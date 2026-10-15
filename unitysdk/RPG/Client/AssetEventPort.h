@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AssetEventPort_TypeDefinitionIndex = 41395;
+
 	enum class AssetEventPort : ::System::Int32
 	{
 		Done = 0,

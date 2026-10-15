@@ -10,6 +10,8 @@ class NJKFOJJDGGG;
 #define PJDOLCFHBBN_SET_SRCROLEID_OFFSET UNITYSDK_OFFSET(0xC283BF0)
 #define PJDOLCFHBBN_UPDATE_OFFSET UNITYSDK_OFFSET(0xC283B10)
 
+inline static constexpr unsigned int PJDOLCFHBBN_TypeDefinitionIndex = 65027;
+
 	class PJDOLCFHBBN : public ::RPG::Client::GridFightGameModifier
 	{
 	public:

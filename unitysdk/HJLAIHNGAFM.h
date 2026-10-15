@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define HJLAIHNGAFM__CHECKNEEDREBUILD_OFFSET UNITYSDK_OFFSET(0x15D2D2C0)
 #define HJLAIHNGAFM__REBUILD_OFFSET UNITYSDK_OFFSET(0x15D2C200)
 
+inline static constexpr unsigned int HJLAIHNGAFM_TypeDefinitionIndex = 75122;
+
 	class HJLAIHNGAFM
 	{
 	public:

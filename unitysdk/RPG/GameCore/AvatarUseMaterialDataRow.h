@@ -9,6 +9,8 @@ namespace RPG::GameCore { class AvatarUseMaterialDataRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarUseMaterialDataRow_TypeDefinitionIndex = 12767;
+
 	class AvatarUseMaterialDataRow : public ::System::Object
 	{
 	public:

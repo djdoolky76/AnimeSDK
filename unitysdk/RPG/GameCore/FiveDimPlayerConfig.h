@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimPlayerConfig_TypeDefinitionIndex = 16667;
+
 	class FiveDimPlayerConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

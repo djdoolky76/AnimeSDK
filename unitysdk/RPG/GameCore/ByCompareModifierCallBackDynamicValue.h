@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareModifierCallBackDynamicValue_TypeDefinitionIndex = 23004;
+
 	class ByCompareModifierCallBackDynamicValue : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

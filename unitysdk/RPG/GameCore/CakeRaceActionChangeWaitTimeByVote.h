@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceActionChangeWaitTimeByVote; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceActionChangeWaitTimeByVote_TypeDefinitionIndex = 18337;
+
 	class CakeRaceActionChangeWaitTimeByVote : public ::RPG::GameCore::CakeRaceActionBase
 	{
 	public:

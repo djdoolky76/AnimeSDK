@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class IComparer_1
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarComparerExtensions___c__DisplayClass2_0_TypeDefinitionIndex = 62807;
+
 	class AvatarComparerExtensions___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

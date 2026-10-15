@@ -9,6 +9,8 @@ namespace RPG::Client::Prop { class InsertionPuzzleBoard; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int InsertionPuzzleBoard___c__DisplayClass35_0_TypeDefinitionIndex = 78629;
+
 	class InsertionPuzzleBoard___c__DisplayClass35_0 : public ::System::Object
 	{
 	public:

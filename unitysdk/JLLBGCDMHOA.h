@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TriggerCustomStringList; }
 #define JLLBGCDMHOA_CTOR_OFFSET UNITYSDK_OFFSET(0xB24F970)
 #define JLLBGCDMHOA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB24F9A0)
 
+inline static constexpr unsigned int JLLBGCDMHOA_TypeDefinitionIndex = 58774;
+
 	class JLLBGCDMHOA
 	{
 	public:

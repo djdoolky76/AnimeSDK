@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int VFXTearBehaviour_GOHHEPNCHLM_TypeDefinitionIndex = 48080;
+
 	class VFXTearBehaviour_GOHHEPNCHLM : public ::OGBPMPBLDNK
 	{
 	public:

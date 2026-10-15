@@ -8,6 +8,8 @@ namespace System { class String; }
 #define MNAMIKAHFDM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1D3ED0)
 #define MNAMIKAHFDM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1D3DA0)
 
+inline static constexpr unsigned int MNAMIKAHFDM_TypeDefinitionIndex = 12487;
+
 	class MNAMIKAHFDM : public ::System::Object
 	{
 	public:

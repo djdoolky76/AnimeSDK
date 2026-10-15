@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BADOONPCDLO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B1130)
 #define BADOONPCDLO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E7B1140)
 
+inline static constexpr unsigned int BADOONPCDLO___c_TypeDefinitionIndex = 31472;
+
 	class BADOONPCDLO___c : public ::System::Object
 	{
 	public:

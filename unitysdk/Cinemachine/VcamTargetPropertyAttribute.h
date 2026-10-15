@@ -6,6 +6,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int VcamTargetPropertyAttribute_TypeDefinitionIndex = 39825;
+
 	class VcamTargetPropertyAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:

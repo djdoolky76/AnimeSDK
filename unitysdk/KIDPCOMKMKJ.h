@@ -13,6 +13,8 @@ class PEMFMPIPNJN;
 #define KIDPCOMKMKJ_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1C900D90)
 #define KIDPCOMKMKJ_PIIBNJGPLLO_OFFSET UNITYSDK_OFFSET(0x1C900E10)
 
+inline static constexpr unsigned int KIDPCOMKMKJ_TypeDefinitionIndex = 42467;
+
 	class KIDPCOMKMKJ : public ::System::Object
 	{
 	public:

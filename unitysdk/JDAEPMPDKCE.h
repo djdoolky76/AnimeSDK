@@ -12,6 +12,8 @@ namespace UnityEngine { class Animator; }
 #define JDAEPMPDKCE_ONSTART_OFFSET UNITYSDK_OFFSET(0x165BD680)
 #define JDAEPMPDKCE_ONSTOP_OFFSET UNITYSDK_OFFSET(0x165BD700)
 
+inline static constexpr unsigned int JDAEPMPDKCE_TypeDefinitionIndex = 54186;
+
 	class JDAEPMPDKCE
 	{
 	public:

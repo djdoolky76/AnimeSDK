@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournTutorialHelper_TypeDefinitionIndex = 67811;
+
 	class RogueTournTutorialHelper : public ::System::Object
 	{
 	public:

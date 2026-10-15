@@ -25,6 +25,8 @@ namespace System { class String; }
 #define DPHPAKFLNOD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E20FE00)
 #define DPHPAKFLNOD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E20FE60)
 
+inline static constexpr unsigned int DPHPAKFLNOD_TypeDefinitionIndex = 29480;
+
 	class DPHPAKFLNOD : public ::System::Object
 	{
 	public:

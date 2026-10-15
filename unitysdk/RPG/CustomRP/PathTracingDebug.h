@@ -23,6 +23,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int PathTracingDebug_TypeDefinitionIndex = 51841;
+
 	class PathTracingDebug : public ::UnityEngine::MonoBehaviour
 	{
 	public:

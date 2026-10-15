@@ -17,6 +17,8 @@ namespace System::Xml { class XmlWriter; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlComment_TypeDefinitionIndex = 1897;
+
 	class XmlComment : public ::System::Xml::XmlCharacterData
 	{
 	public:

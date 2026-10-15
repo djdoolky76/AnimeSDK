@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int SplineMoveState_TypeDefinitionIndex = 43548;
+
 	enum class SplineMoveState : ::System::Int32
 	{
 		Stop = 0,

@@ -42,6 +42,8 @@ namespace System { class String; }
 #define HIDPFIAALLB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E590020)
 #define HIDPFIAALLB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E590080)
 
+inline static constexpr unsigned int HIDPFIAALLB_TypeDefinitionIndex = 28706;
+
 	class HIDPFIAALLB : public ::System::Object
 	{
 	public:

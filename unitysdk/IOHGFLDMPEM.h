@@ -27,6 +27,8 @@ namespace System { class String; }
 #define IOHGFLDMPEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6D53F0)
 #define IOHGFLDMPEM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6D5450)
 
+inline static constexpr unsigned int IOHGFLDMPEM_TypeDefinitionIndex = 30190;
+
 	class IOHGFLDMPEM : public ::System::Object
 	{
 	public:

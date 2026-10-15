@@ -16,6 +16,8 @@ namespace System { class StringComparer; }
 
 namespace System
 {
+	inline static constexpr unsigned int StringComparer_TypeDefinitionIndex = 332;
+
 	class StringComparer : public ::System::Object
 	{
 	public:

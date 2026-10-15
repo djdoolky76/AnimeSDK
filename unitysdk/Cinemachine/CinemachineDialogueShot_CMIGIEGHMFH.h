@@ -4,6 +4,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineDialogueShot_CMIGIEGHMFH_TypeDefinitionIndex = 49642;
+
 	struct alignas(4) CinemachineDialogueShot_CMIGIEGHMFH
 	{
 		::System::Double OPLGFDPFDCH; // 0x10

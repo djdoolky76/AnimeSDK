@@ -6,6 +6,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExAcfDebug_SelectorLabelInfoForMarshaling_TypeDefinitionIndex = 40190;
+
 	struct alignas(4) CriAtomExAcfDebug_SelectorLabelInfoForMarshaling
 	{
 		::System::IntPtr selectorNamePtr; // 0x10

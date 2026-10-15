@@ -15,6 +15,8 @@ namespace UnityEngine { class RequireComponent; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AttributeHelperEngine_TypeDefinitionIndex = 4301;
+
 	class AttributeHelperEngine : public ::System::Object
 	{
 	public:

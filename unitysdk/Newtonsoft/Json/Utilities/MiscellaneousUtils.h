@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int MiscellaneousUtils_TypeDefinitionIndex = 9678;
+
 	class MiscellaneousUtils : public ::System::Object
 	{
 	public:

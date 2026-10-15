@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RewardGroupDisplayDataCollection_TypeDefinitionIndex = 65714;
+
 	class RewardGroupDisplayDataCollection : public ::System::Object
 	{
 	public:

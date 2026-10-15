@@ -9,6 +9,8 @@ namespace UnityEngine::Rendering { class Vector2Parameter; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGLensGlitch2_TypeDefinitionIndex = 37826;
+
 	class RPGLensGlitch2 : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client { class MatchThreeEnergyFadeEffect; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeBoard___c__DisplayClass41_0_TypeDefinitionIndex = 65920;
+
 	class MatchThreeBoard___c__DisplayClass41_0 : public ::System::Object
 	{
 	public:

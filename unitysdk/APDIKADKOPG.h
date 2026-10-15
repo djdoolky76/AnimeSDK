@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define APDIKADKOPG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15BA6AE0)
 #define APDIKADKOPG_TICK_OFFSET UNITYSDK_OFFSET(0x15BA6C10)
 
+inline static constexpr unsigned int APDIKADKOPG_TypeDefinitionIndex = 53266;
+
 	class APDIKADKOPG : public ::GELIALJDFBL
 	{
 	public:

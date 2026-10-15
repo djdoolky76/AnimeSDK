@@ -9,6 +9,8 @@ class DDANMPNPJKG;
 #define DDANMPNPJKG_CTOR_OFFSET UNITYSDK_OFFSET(0xE257630)
 #define DDANMPNPJKG_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xE2573B0)
 
+inline static constexpr unsigned int DDANMPNPJKG_TypeDefinitionIndex = 65878;
+
 	class DDANMPNPJKG : public ::MLKDDLHNNHH
 	{
 	public:

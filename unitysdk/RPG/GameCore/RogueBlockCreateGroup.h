@@ -12,6 +12,8 @@ namespace RPG::GameCore { class RogueDLCMarkType; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueBlockCreateGroup_TypeDefinitionIndex = 17913;
+
 	class RogueBlockCreateGroup : public ::RPG::GameCore::JsonConfig
 	{
 	public:

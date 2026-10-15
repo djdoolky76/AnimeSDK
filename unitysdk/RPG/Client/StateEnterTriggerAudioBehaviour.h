@@ -15,6 +15,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StateEnterTriggerAudioBehaviour_TypeDefinitionIndex = 69030;
+
 	class StateEnterTriggerAudioBehaviour : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:

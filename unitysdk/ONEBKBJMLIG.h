@@ -25,6 +25,8 @@ namespace System { class String; }
 #define ONEBKBJMLIG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEC3610)
 #define ONEBKBJMLIG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEC3670)
 
+inline static constexpr unsigned int ONEBKBJMLIG_TypeDefinitionIndex = 30544;
+
 	class ONEBKBJMLIG : public ::System::Object
 	{
 	public:

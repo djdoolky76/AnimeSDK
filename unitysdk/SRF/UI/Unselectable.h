@@ -9,6 +9,8 @@ namespace UnityEngine::EventSystems { class BaseEventData; }
 
 namespace SRF::UI
 {
+	inline static constexpr unsigned int Unselectable_TypeDefinitionIndex = 35401;
+
 	class Unselectable : public ::SRF::SRMonoBehaviour
 	{
 	public:

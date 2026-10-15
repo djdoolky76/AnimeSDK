@@ -27,6 +27,8 @@ namespace System { class String; }
 #define IBAAHKDOHDB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E60E860)
 #define IBAAHKDOHDB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E60E8C0)
 
+inline static constexpr unsigned int IBAAHKDOHDB_TypeDefinitionIndex = 28837;
+
 	class IBAAHKDOHDB : public ::System::Object
 	{
 	public:

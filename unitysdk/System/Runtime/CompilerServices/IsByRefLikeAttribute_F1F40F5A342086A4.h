@@ -6,6 +6,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int IsByRefLikeAttribute_F1F40F5A342086A4_TypeDefinitionIndex = 6176;
+
 	class IsByRefLikeAttribute_F1F40F5A342086A4 : public ::System::Attribute
 	{
 	public:

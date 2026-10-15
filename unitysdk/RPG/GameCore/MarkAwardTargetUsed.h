@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MarkAwardTargetUsed; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarkAwardTargetUsed_TypeDefinitionIndex = 20160;
+
 	class MarkAwardTargetUsed : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 #define JKOKCNGJHDG_LICIJLKPAFG_OFFSET UNITYSDK_OFFSET(0xB22DDE0)
 #define JKOKCNGJHDG_LKGMKFJEFGM_OFFSET UNITYSDK_OFFSET(0xB22DE60)
 
+inline static constexpr unsigned int JKOKCNGJHDG_TypeDefinitionIndex = 73187;
+
 	class JKOKCNGJHDG : public ::System::Object
 	{
 	public:

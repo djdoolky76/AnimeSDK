@@ -8,6 +8,8 @@ namespace System { class String; }
 #define LMKFIMPGFFK_FKDFBDLNOEK_OFFSET UNITYSDK_OFFSET(0xB7CE440)
 #define LMKFIMPGFFK__ONBIND_OFFSET UNITYSDK_OFFSET(0xB7CE120)
 
+inline static constexpr unsigned int LMKFIMPGFFK_TypeDefinitionIndex = 71494;
+
 	class LMKFIMPGFFK : public ::BCFDAHOHJEA
 	{
 	public:

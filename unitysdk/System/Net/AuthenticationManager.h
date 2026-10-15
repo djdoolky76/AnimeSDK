@@ -17,6 +17,8 @@ namespace System::Net { class WebRequest; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int AuthenticationManager_TypeDefinitionIndex = 2822;
+
 	class AuthenticationManager : public ::System::Object
 	{
 	public:

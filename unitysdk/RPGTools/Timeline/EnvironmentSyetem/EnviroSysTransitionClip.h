@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::EnvironmentSyetem
 {
+	inline static constexpr unsigned int EnviroSysTransitionClip_TypeDefinitionIndex = 48645;
+
 	class EnviroSysTransitionClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

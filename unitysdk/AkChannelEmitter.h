@@ -15,6 +15,8 @@ class AkTransform;
 #define AKCHANNELEMITTER_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x1F583B30)
 #define AKCHANNELEMITTER_SET_UINPUTCHANNELS_OFFSET UNITYSDK_OFFSET(0x1F583D60)
 
+inline static constexpr unsigned int AkChannelEmitter_TypeDefinitionIndex = 44728;
+
 	class AkChannelEmitter : public ::System::Object
 	{
 	public:

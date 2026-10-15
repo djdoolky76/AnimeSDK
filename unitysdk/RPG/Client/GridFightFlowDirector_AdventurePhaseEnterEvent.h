@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightFlowDirector_AdventurePhaseEnterEvent_TypeDefinitionIndex = 64585;
+
 	class GridFightFlowDirector_AdventurePhaseEnterEvent
 	{
 	public:

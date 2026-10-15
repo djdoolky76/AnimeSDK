@@ -9,6 +9,8 @@
 
 namespace RPG::Client::ElectricChainV2
 {
+	inline static constexpr unsigned int UniformSampler_TypeDefinitionIndex = 73592;
+
 	class UniformSampler : public ::RPG::Client::ElectricChainV2::Sampler
 	{
 	public:

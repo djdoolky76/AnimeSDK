@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FPPDAOGBINN_JONMGNFBJLE_OFFSET UNITYSDK_OFFSET(0x15922E20)
 #define FPPDAOGBINN_LFGFOBFEJFD_OFFSET UNITYSDK_OFFSET(0x15922D90)
 
+inline static constexpr unsigned int FPPDAOGBINN_TypeDefinitionIndex = 54716;
+
 	class FPPDAOGBINN
 	{
 	public:

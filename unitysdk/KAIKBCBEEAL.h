@@ -4,6 +4,8 @@
 
 #define KAIKBCBEEAL_CTOR_OFFSET UNITYSDK_OFFSET(0xB2DA610)
 
+inline static constexpr unsigned int KAIKBCBEEAL_TypeDefinitionIndex = 55563;
+
 	class KAIKBCBEEAL : public ::System::Object
 	{
 	public:

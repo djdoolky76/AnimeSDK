@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ShiftLocalPlayerByAnchor; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShiftLocalPlayerByAnchor_TypeDefinitionIndex = 21211;
+
 	class ShiftLocalPlayerByAnchor : public ::RPG::GameCore::TaskConfig
 	{
 	public:

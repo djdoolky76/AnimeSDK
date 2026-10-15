@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionOnPersonaAttributeBatc
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionOnPersonaAttributeBatchChangeConfig_TypeDefinitionIndex = 17852;
+
 	class RogueModifierExecuteActionOnPersonaAttributeBatchChangeConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

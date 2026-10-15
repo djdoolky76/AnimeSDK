@@ -13,6 +13,8 @@ namespace System { template <typename T> class Func_1; }
 #define NMOHJEPBDID___C___CTOR_B__9_0_OFFSET UNITYSDK_OFFSET(0x1C973450)
 #define NMOHJEPBDID___C___CTOR_B__9_1_OFFSET UNITYSDK_OFFSET(0x1C973480)
 
+inline static constexpr unsigned int NMOHJEPBDID___c_TypeDefinitionIndex = 42641;
+
 	class NMOHJEPBDID___c : public ::System::Object
 	{
 	public:

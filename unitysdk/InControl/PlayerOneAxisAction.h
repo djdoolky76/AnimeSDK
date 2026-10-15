@@ -20,6 +20,8 @@ namespace System { class Object; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int PlayerOneAxisAction_TypeDefinitionIndex = 40808;
+
 	class PlayerOneAxisAction : public ::InControl::OneAxisInputControl
 	{
 	public:

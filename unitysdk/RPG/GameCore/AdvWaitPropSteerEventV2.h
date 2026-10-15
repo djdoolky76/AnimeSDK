@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvWaitPropSteerEventV2_TypeDefinitionIndex = 22053;
+
 	class AdvWaitPropSteerEventV2 : public ::RPG::GameCore::TaskConfig
 	{
 	public:

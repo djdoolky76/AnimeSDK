@@ -17,6 +17,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LookAtTiltData_TypeDefinitionIndex = 68474;
+
 	struct alignas(8) LookAtTiltData
 	{
 		::System::Single _CurrentTilt_k__BackingField; // 0x10

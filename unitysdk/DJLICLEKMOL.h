@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define DJLICLEKMOL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA2B8E0)
 
+inline static constexpr unsigned int DJLICLEKMOL_TypeDefinitionIndex = 42796;
+
 	class DJLICLEKMOL : public ::System::Object
 	{
 	public:

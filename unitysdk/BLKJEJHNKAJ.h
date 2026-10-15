@@ -11,6 +11,8 @@ class BDPDNAECJII;
 #define BLKJEJHNKAJ_MNLKLIAIMMI_OFFSET UNITYSDK_OFFSET(0x1C5C01C0)
 #define BLKJEJHNKAJ_PEGIMBMFBBH_OFFSET UNITYSDK_OFFSET(0x1C5C02C0)
 
+inline static constexpr unsigned int BLKJEJHNKAJ_TypeDefinitionIndex = 37106;
+
 	class BLKJEJHNKAJ : public ::System::Object
 	{
 	public:

@@ -407,6 +407,8 @@ namespace UnityEngine { class Transform; }
 #define OCPOIDCNJDA_REPLACEGENERICVIEWLOADCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C9812A0)
 #define OCPOIDCNJDA_REPLACEGENERICVIEWUNLOADCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C981580)
 
+inline static constexpr unsigned int OCPOIDCNJDA_TypeDefinitionIndex = 42610;
+
 	class OCPOIDCNJDA : public ::Entitas::Entity
 	{
 	public:

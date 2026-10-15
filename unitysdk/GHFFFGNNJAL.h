@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TravelShipNavigateTo; }
 #define GHFFFGNNJAL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15A19BB0)
 #define GHFFFGNNJAL_TICK_OFFSET UNITYSDK_OFFSET(0x15A19770)
 
+inline static constexpr unsigned int GHFFFGNNJAL_TypeDefinitionIndex = 53439;
+
 	class GHFFFGNNJAL : public ::GELIALJDFBL
 	{
 	public:

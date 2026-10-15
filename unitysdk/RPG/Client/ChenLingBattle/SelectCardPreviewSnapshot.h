@@ -11,6 +11,8 @@ namespace RPG::Client::ChenLingBattle { class SelectCardPreviewSnapshot; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int SelectCardPreviewSnapshot_TypeDefinitionIndex = 76295;
+
 	class SelectCardPreviewSnapshot : public ::RPG::Client::ChenLingBattle::PreviewSnapshot
 	{
 	public:

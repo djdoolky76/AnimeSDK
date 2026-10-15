@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MazeWaypointTarget_TypeDefinitionIndex = 69073;
+
 	class MazeWaypointTarget : public ::System::Object
 	{
 	public:

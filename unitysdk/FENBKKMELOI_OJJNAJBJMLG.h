@@ -9,6 +9,8 @@ namespace RPG::GameCore { class SkillData; }
 
 #define FENBKKMELOI_OJJNAJBJMLG_CTOR_OFFSET UNITYSDK_OFFSET(0x15728550)
 
+inline static constexpr unsigned int FENBKKMELOI_OJJNAJBJMLG_TypeDefinitionIndex = 71876;
+
 	class FENBKKMELOI_OJJNAJBJMLG : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnApplicationQuitHan
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncApplicationQuitTrigger_TypeDefinitionIndex = 38517;
+
 	class AsyncApplicationQuitTrigger
 	{
 	public:

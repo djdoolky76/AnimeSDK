@@ -22,6 +22,8 @@ namespace RPG::Client::LittleGameShare::HoyoPhysics { template <typename T> clas
 #define PLMODIOCPAF_SET_PHYSICS2DSERVICE_OFFSET UNITYSDK_OFFSET(0x1C7F5100)
 #define PLMODIOCPAF_SET_RANDSERVICE_OFFSET UNITYSDK_OFFSET(0x1C7F50E0)
 
+inline static constexpr unsigned int PLMODIOCPAF_TypeDefinitionIndex = 37119;
+
 	class PLMODIOCPAF
 	{
 	public:

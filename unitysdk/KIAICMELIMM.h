@@ -33,6 +33,8 @@ namespace System { class String; }
 #define KIAICMELIMM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E851F90)
 #define KIAICMELIMM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E851FF0)
 
+inline static constexpr unsigned int KIAICMELIMM_TypeDefinitionIndex = 25421;
+
 	class KIAICMELIMM : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RelicExpTypeRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RelicExpTypeRow_TypeDefinitionIndex = 14642;
+
 	class RelicExpTypeRow : public ::System::Object
 	{
 	public:

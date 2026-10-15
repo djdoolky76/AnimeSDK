@@ -4,6 +4,8 @@
 
 #define DOFJEBICGJI_CTOR_OFFSET UNITYSDK_OFFSET(0x11FE6CF0)
 
+inline static constexpr unsigned int DOFJEBICGJI_TypeDefinitionIndex = 81274;
+
 	class DOFJEBICGJI : public ::System::Object
 	{
 	public:

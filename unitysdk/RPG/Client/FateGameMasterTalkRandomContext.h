@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateGameMasterTalkRandomContext_TypeDefinitionIndex = 64103;
+
 	struct alignas(4) FateGameMasterTalkRandomContext
 	{
 		::RPG::Client::FateGameMasterTalkUIType UIType; // 0x10

@@ -50,6 +50,8 @@ namespace System::Diagnostics { class BooleanSwitch; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int TypeDescriptor_TypeDefinitionIndex = 2637;
+
 	class TypeDescriptor : public ::System::Object
 	{
 	public:

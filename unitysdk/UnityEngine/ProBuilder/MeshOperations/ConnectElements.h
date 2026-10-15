@@ -28,6 +28,8 @@ namespace UnityEngine::ProBuilder::MeshOperations { class ConnectFaceRebuildData
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int ConnectElements_TypeDefinitionIndex = 44485;
+
 	class ConnectElements : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueValueChangeInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueValueChangeInfo_TypeDefinitionIndex = 10594;
+
 	class RogueValueChangeInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

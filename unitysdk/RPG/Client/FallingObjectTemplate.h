@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FallingObjectTemplate_TypeDefinitionIndex = 70934;
+
 	class FallingObjectTemplate : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace ZXing::OneD
 {
+	inline static constexpr unsigned int Code93Reader_TypeDefinitionIndex = 6976;
+
 	class Code93Reader : public ::ZXing::OneD::OneDReader
 	{
 	public:

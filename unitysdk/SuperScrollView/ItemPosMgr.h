@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int ItemPosMgr_TypeDefinitionIndex = 47639;
+
 	class ItemPosMgr : public ::System::Object
 	{
 	public:

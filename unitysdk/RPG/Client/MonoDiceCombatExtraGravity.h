@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoDiceCombatExtraGravity_TypeDefinitionIndex = 63567;
+
 	class MonoDiceCombatExtraGravity : public ::UnityEngine::MonoBehaviour
 	{
 	public:

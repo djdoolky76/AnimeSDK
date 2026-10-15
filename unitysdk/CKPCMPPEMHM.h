@@ -16,6 +16,8 @@ class ENFDMFGIJDC;
 #define CKPCMPPEMHM_SET_STARTPOS_OFFSET UNITYSDK_OFFSET(0xD76CD20)
 #define CKPCMPPEMHM_SET_VY_OFFSET UNITYSDK_OFFSET(0xD76CD70)
 
+inline static constexpr unsigned int CKPCMPPEMHM_TypeDefinitionIndex = 77988;
+
 	class CKPCMPPEMHM : public ::BLLEONBDOMJ
 	{
 	public:

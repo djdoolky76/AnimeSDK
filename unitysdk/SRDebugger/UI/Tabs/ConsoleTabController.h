@@ -46,6 +46,8 @@ namespace UnityEngine::UI { class Toggle; }
 
 namespace SRDebugger::UI::Tabs
 {
+	inline static constexpr unsigned int ConsoleTabController_TypeDefinitionIndex = 37986;
+
 	class ConsoleTabController : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

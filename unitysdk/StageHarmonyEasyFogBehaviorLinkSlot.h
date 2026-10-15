@@ -15,6 +15,8 @@ namespace RPG::Client { class EasyFog; }
 #define STAGEHARMONYEASYFOGBEHAVIORLINKSLOT_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xE98E5E0)
 #define STAGEHARMONYEASYFOGBEHAVIORLINKSLOT_PKDEMCONMDA_OFFSET UNITYSDK_OFFSET(0xE98DAA0)
 
+inline static constexpr unsigned int StageHarmonyEasyFogBehaviorLinkSlot_TypeDefinitionIndex = 47364;
+
 	class StageHarmonyEasyFogBehaviorLinkSlot : public ::StageHarmonyLightModLinkSlot
 	{
 	public:

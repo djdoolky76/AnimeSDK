@@ -131,6 +131,8 @@ namespace UnityEngine { class Transform; }
 #define CFALFIPEHJH_SET_PROJECTILEHITCOUNT_OFFSET UNITYSDK_OFFSET(0xCA03CB0)
 #define CFALFIPEHJH__ACCELERATION_B__33_0_OFFSET UNITYSDK_OFFSET(0xCA03E50)
 
+inline static constexpr unsigned int CFALFIPEHJH_TypeDefinitionIndex = 74186;
+
 	class CFALFIPEHJH : public ::ABDOMMLHNBC
 	{
 	public:

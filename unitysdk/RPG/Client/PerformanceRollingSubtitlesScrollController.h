@@ -14,6 +14,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PerformanceRollingSubtitlesScrollController_TypeDefinitionIndex = 72854;
+
 	class PerformanceRollingSubtitlesScrollController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

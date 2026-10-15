@@ -35,6 +35,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DynamicTrailModule_TypeDefinitionIndex = 70441;
+
 	class DynamicTrailModule : public ::System::Object
 	{
 	public:

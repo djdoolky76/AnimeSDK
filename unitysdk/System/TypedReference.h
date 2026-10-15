@@ -15,6 +15,8 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int TypedReference_TypeDefinitionIndex = 353;
+
 	struct alignas(4) TypedReference
 	{
 		::System::RuntimeTypeHandle type; // 0x10

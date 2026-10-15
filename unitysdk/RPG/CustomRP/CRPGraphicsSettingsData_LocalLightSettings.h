@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPGraphicsSettingsData_LocalLightSettings_TypeDefinitionIndex = 37660;
+
 	class CRPGraphicsSettingsData_LocalLightSettings : public ::System::Object
 	{
 	public:

@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceTargetsViewModel_TypeDefinitionIndex = 81582;
+
 	class ChallengeTierceTargetsViewModel : public ::System::Object
 	{
 	public:

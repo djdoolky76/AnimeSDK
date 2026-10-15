@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define PBEKLCMIPAL___SENDUNITYHTTPREQ_D__6_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xBFEC040)
 #define PBEKLCMIPAL___SENDUNITYHTTPREQ_D__6_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBFEBAE0)
 
+inline static constexpr unsigned int PBEKLCMIPAL___SendUnityHTTPReq_d__6_TypeDefinitionIndex = 51710;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	class PBEKLCMIPAL___SendUnityHTTPReq_d__6 : public ::System::Object
 	{

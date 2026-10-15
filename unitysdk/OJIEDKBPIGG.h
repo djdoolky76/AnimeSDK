@@ -8,6 +8,8 @@ class MOMODPMFIKE;
 #define OJIEDKBPIGG_HKDOBJEOIJD_OFFSET UNITYSDK_OFFSET(0xBEBA350)
 #define OJIEDKBPIGG_JEAFEADEIBL_OFFSET UNITYSDK_OFFSET(0xBEBA240)
 
+inline static constexpr unsigned int OJIEDKBPIGG_TypeDefinitionIndex = 54026;
+
 	class OJIEDKBPIGG : public ::System::Object
 	{
 	public:

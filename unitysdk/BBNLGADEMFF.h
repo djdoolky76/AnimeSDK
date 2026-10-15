@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int BBNLGADEMFF_TypeDefinitionIndex = 32173;
+
 	enum class BBNLGADEMFF : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

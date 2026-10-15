@@ -34,6 +34,8 @@ namespace System { class String; }
 #define PBMDEBCGNMD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEF9990)
 #define PBMDEBCGNMD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEF99F0)
 
+inline static constexpr unsigned int PBMDEBCGNMD_TypeDefinitionIndex = 25884;
+
 	class PBMDEBCGNMD : public ::System::Object
 	{
 	public:

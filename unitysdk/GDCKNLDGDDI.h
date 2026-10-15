@@ -4,6 +4,8 @@
 
 #define GDCKNLDGDDI_CTOR_OFFSET UNITYSDK_OFFSET(0x15996020)
 
+inline static constexpr unsigned int GDCKNLDGDDI_TypeDefinitionIndex = 48721;
+
 	class GDCKNLDGDDI : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

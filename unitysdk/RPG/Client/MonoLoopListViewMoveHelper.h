@@ -15,6 +15,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoLoopListViewMoveHelper_TypeDefinitionIndex = 72584;
+
 	class MonoLoopListViewMoveHelper : public ::UnityEngine::MonoBehaviour
 	{
 	public:

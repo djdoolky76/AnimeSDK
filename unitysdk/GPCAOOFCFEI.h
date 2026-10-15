@@ -14,6 +14,8 @@ namespace RPG::GameCore { class RandomTraceProjectileData; }
 #define GPCAOOFCFEI_NNALPNDFFIJ_OFFSET UNITYSDK_OFFSET(0x15B3DFD0)
 #define GPCAOOFCFEI_PGKPGNJJMMB_OFFSET UNITYSDK_OFFSET(0x15B3E9E0)
 
+inline static constexpr unsigned int GPCAOOFCFEI_TypeDefinitionIndex = 54759;
+
 	class GPCAOOFCFEI : public ::GGJEMEHMBNL
 	{
 	public:

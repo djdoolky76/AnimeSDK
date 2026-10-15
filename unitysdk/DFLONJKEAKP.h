@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define DFLONJKEAKP_OOBADKHILIH_OFFSET UNITYSDK_OFFSET(0xE832F80)
 #define DFLONJKEAKP_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xE832DB0)
 
+inline static constexpr unsigned int DFLONJKEAKP_TypeDefinitionIndex = 67188;
+
 	class DFLONJKEAKP : public ::System::Object
 	{
 	public:

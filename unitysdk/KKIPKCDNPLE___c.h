@@ -12,6 +12,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define KKIPKCDNPLE___C___CLONEANDUPDATEPOSITIONING_B__15_1_OFFSET UNITYSDK_OFFSET(0xB4CE540)
 #define KKIPKCDNPLE___C___CLONEANDUPDATEPOSITIONING_B__15_2_OFFSET UNITYSDK_OFFSET(0xB4CE570)
 
+inline static constexpr unsigned int KKIPKCDNPLE___c_TypeDefinitionIndex = 63313;
+
 	class KKIPKCDNPLE___c : public ::System::Object
 	{
 	public:

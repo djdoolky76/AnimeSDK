@@ -15,6 +15,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PrefabCache_TypeDefinitionIndex = 72632;
+
 	class PrefabCache : public ::UnityEngine::MonoBehaviour
 	{
 	public:

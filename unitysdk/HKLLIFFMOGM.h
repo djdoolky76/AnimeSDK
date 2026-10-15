@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HKLLIFFMOGM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15D4B850)
 #define HKLLIFFMOGM_TICK_OFFSET UNITYSDK_OFFSET(0x15D4B8A0)
 
+inline static constexpr unsigned int HKLLIFFMOGM_TypeDefinitionIndex = 52871;
+
 	class HKLLIFFMOGM
 	{
 	public:

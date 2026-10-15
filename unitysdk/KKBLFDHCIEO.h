@@ -6,6 +6,8 @@ class HDJIGMBHENE;
 #define KKBLFDHCIEO_CTOR_OFFSET UNITYSDK_OFFSET(0xB4B5120)
 #define KKBLFDHCIEO_DEGFEAHKFCG_OFFSET UNITYSDK_OFFSET(0xB4B5020)
 
+inline static constexpr unsigned int KKBLFDHCIEO_TypeDefinitionIndex = 61168;
+
 	class KKBLFDHCIEO : public ::System::Object
 	{
 	public:

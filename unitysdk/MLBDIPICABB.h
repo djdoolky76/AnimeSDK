@@ -30,6 +30,8 @@ namespace System { class String; }
 #define MLBDIPICABB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA7F340)
 #define MLBDIPICABB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA7F3A0)
 
+inline static constexpr unsigned int MLBDIPICABB_TypeDefinitionIndex = 29984;
+
 	class MLBDIPICABB : public ::System::Object
 	{
 	public:

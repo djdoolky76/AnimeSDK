@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NPGCEFKJOIN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB98450)
 #define NPGCEFKJOIN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EB98460)
 
+inline static constexpr unsigned int NPGCEFKJOIN___c_TypeDefinitionIndex = 28723;
+
 	class NPGCEFKJOIN___c : public ::System::Object
 	{
 	public:

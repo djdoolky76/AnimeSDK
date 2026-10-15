@@ -31,6 +31,8 @@ namespace System { class String; }
 #define ANMDOACPHMN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6638C0)
 #define ANMDOACPHMN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E663920)
 
+inline static constexpr unsigned int ANMDOACPHMN_TypeDefinitionIndex = 32937;
+
 	class ANMDOACPHMN : public ::System::Object
 	{
 	public:

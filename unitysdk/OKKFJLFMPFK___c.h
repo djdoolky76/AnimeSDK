@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define OKKFJLFMPFK___C___CUTSCENEAUDIOBEGIN_B__30_0_OFFSET UNITYSDK_OFFSET(0xBEE8CE0)
 #define OKKFJLFMPFK___C___INITCUTSCENEINFO_B__51_0_OFFSET UNITYSDK_OFFSET(0xBEE8CF0)
 
+inline static constexpr unsigned int OKKFJLFMPFK___c_TypeDefinitionIndex = 56370;
+
 	class OKKFJLFMPFK___c : public ::System::Object
 	{
 	public:

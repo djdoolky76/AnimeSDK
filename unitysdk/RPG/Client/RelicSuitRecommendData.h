@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RelicSuitRecommendData_TypeDefinitionIndex = 66895;
+
 	class RelicSuitRecommendData : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MLBAKKMGDLG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA7E580)
 #define MLBAKKMGDLG___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EA7E590)
 
+inline static constexpr unsigned int MLBAKKMGDLG___c_TypeDefinitionIndex = 28998;
+
 	class MLBAKKMGDLG___c : public ::System::Object
 	{
 	public:

@@ -50,6 +50,8 @@ namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Component_TypeDefinitionIndex = 4320;
+
 	class Component : public ::UnityEngine::Object
 	{
 	public:

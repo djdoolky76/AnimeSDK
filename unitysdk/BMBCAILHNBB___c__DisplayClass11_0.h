@@ -6,6 +6,8 @@ namespace RPG::GameCore { class EvolveBuildGearEquipInfo; }
 #define BMBCAILHNBB___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBA898E0)
 #define BMBCAILHNBB___C__DISPLAYCLASS11_0___GETRESONANCEINDEX_B__0_OFFSET UNITYSDK_OFFSET(0xBA89CB0)
 
+inline static constexpr unsigned int BMBCAILHNBB___c__DisplayClass11_0_TypeDefinitionIndex = 53580;
+
 	class BMBCAILHNBB___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class FiveDimDestructiblePropConfig; }
 #define ALODFAGDOLL_IPMMKKCFPJP_OFFSET UNITYSDK_OFFSET(0x1C89D950)
 #define ALODFAGDOLL_LPHKBJGFKMD_OFFSET UNITYSDK_OFFSET(0x1C89DBB0)
 
+inline static constexpr unsigned int ALODFAGDOLL_TypeDefinitionIndex = 42755;
+
 	class ALODFAGDOLL : public ::System::Object
 	{
 	public:

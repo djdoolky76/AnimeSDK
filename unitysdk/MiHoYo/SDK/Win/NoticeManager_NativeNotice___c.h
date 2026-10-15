@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int NoticeManager_NativeNotice___c_TypeDefinitionIndex = 9397;
+
 	class NoticeManager_NativeNotice___c : public ::System::Object
 	{
 	public:

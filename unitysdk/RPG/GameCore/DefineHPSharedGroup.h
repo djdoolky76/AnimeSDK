@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DefineHPSharedGroup_TypeDefinitionIndex = 22824;
+
 	class DefineHPSharedGroup : public ::RPG::GameCore::TaskConfig
 	{
 	public:

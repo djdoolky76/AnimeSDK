@@ -8,6 +8,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define PDMBLCALNPD___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC0213C0)
 #define PDMBLCALNPD___C___CTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0xC0213D0)
 
+inline static constexpr unsigned int PDMBLCALNPD___c_TypeDefinitionIndex = 79577;
+
 	class PDMBLCALNPD___c : public ::System::Object
 	{
 	public:

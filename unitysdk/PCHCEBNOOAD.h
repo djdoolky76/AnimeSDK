@@ -26,6 +26,8 @@ namespace ZLinq { class ValueEnumerable; }
 #define PCHCEBNOOAD_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2CAE60)
 #define PCHCEBNOOAD_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D2CA7A0)
 
+inline static constexpr unsigned int PCHCEBNOOAD_TypeDefinitionIndex = 11547;
+
 	class PCHCEBNOOAD : public ::System::Object
 	{
 	public:

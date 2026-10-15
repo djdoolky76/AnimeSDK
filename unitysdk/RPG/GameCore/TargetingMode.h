@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetingMode_TypeDefinitionIndex = 57462;
+
 	enum class TargetingMode : ::System::Int32
 	{
 		MonsterTargetPlayer = 0,

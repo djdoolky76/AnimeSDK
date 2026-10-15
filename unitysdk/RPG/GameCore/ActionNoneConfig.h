@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActionNoneConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActionNoneConfig_TypeDefinitionIndex = 17048;
+
 	class ActionNoneConfig : public ::RPG::GameCore::MiActionConfigBase
 	{
 	public:

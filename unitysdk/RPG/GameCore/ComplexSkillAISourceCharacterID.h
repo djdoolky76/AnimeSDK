@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAISourceCharacterID_TypeDefinitionIndex = 15548;
+
 	class ComplexSkillAISourceCharacterID : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:

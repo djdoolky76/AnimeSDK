@@ -5,6 +5,8 @@
 
 #define AOHCPPHPOLK_CTOR_OFFSET UNITYSDK_OFFSET(0x158ACBC0)
 
+inline static constexpr unsigned int AOHCPPHPOLK_TypeDefinitionIndex = 63226;
+
 	class AOHCPPHPOLK : public ::System::Object
 	{
 	public:

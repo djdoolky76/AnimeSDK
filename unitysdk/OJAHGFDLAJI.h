@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define OJAHGFDLAJI_CTOR_OFFSET UNITYSDK_OFFSET(0xBEA9E00)
 #define OJAHGFDLAJI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEA9E30)
 
+inline static constexpr unsigned int OJAHGFDLAJI_TypeDefinitionIndex = 53200;
+
 	class OJAHGFDLAJI
 	{
 	public:

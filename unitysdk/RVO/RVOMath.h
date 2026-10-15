@@ -14,6 +14,8 @@
 
 namespace RVO
 {
+	inline static constexpr unsigned int RVOMath_TypeDefinitionIndex = 46039;
+
 	struct alignas(4) RVOMath
 	{
 		// static const ::System::Object RVO_EPSILON; // 0x0

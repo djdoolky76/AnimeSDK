@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActivityDiceCombatStageRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityDiceCombatStageRow_TypeDefinitionIndex = 11260;
+
 	class ActivityDiceCombatStageRow : public ::System::Object
 	{
 	public:

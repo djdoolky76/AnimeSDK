@@ -5,6 +5,8 @@ class PCOMPBCHHKC;
 
 #define MAIBPGFPLOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C747640)
 
+inline static constexpr unsigned int MAIBPGFPLOJ_TypeDefinitionIndex = 36936;
+
 	class MAIBPGFPLOJ : public ::System::Object
 	{
 	public:

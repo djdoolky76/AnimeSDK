@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define GNLKKMMEANC_CHGAODBJPBE_OFFSET UNITYSDK_OFFSET(0x15B16340)
 
+inline static constexpr unsigned int GNLKKMMEANC_TypeDefinitionIndex = 63468;
+
 	class GNLKKMMEANC : public ::System::Object
 	{
 	public:

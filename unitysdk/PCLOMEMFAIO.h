@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PCLOMEMFAIO_MIDKKNAGOFA_OFFSET UNITYSDK_OFFSET(0xC0045C0)
 #define PCLOMEMFAIO_NPJKDPNPLAN_OFFSET UNITYSDK_OFFSET(0xC004E00)
 
+inline static constexpr unsigned int PCLOMEMFAIO_TypeDefinitionIndex = 54338;
+
 	class PCLOMEMFAIO : public ::System::Object
 	{
 	public:

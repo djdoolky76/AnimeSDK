@@ -8,6 +8,8 @@ class MANIJAAODMF;
 #define MANIJAAODMF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1325A0)
 #define MANIJAAODMF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1322F0)
 
+inline static constexpr unsigned int MANIJAAODMF_TypeDefinitionIndex = 13936;
+
 	class MANIJAAODMF : public ::System::Object
 	{
 	public:

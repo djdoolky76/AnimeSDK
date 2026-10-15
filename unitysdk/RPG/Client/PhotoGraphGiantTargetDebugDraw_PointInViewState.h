@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhotoGraphGiantTargetDebugDraw_PointInViewState_TypeDefinitionIndex = 60916;
+
 	enum class PhotoGraphGiantTargetDebugDraw_PointInViewState : ::System::Int32
 	{
 		Right = 0,

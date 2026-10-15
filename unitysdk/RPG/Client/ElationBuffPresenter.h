@@ -22,6 +22,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElationBuffPresenter_TypeDefinitionIndex = 71191;
+
 	class ElationBuffPresenter : public ::System::Object
 	{
 	public:

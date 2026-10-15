@@ -4,6 +4,8 @@
 
 #define GJBPNAHFLMN_CTOR_OFFSET UNITYSDK_OFFSET(0x15A5A7F0)
 
+inline static constexpr unsigned int GJBPNAHFLMN_TypeDefinitionIndex = 55936;
+
 	class GJBPNAHFLMN : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AssetFileNameExtensionAttribute_TypeDefinitionIndex = 3712;
+
 	class AssetFileNameExtensionAttribute : public ::System::Attribute
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::Client { class CameraFightStateOrbitCruiseConfigData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CameraFightStateOrbitCruiseConfig_TypeDefinitionIndex = 69581;
+
 	class CameraFightStateOrbitCruiseConfig : public ::RPG::Client::CameraFightStateCommonConfig
 	{
 	public:

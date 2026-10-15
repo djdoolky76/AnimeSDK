@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerParallelTaskListTemplate_TypeDefinitionIndex = 23309;
+
 	class TriggerParallelTaskListTemplate : public ::RPG::GameCore::TaskConfig
 	{
 	public:

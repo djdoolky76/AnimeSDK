@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JDAALEACPKL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7060D0)
 #define JDAALEACPKL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E706130)
 
+inline static constexpr unsigned int JDAALEACPKL_TypeDefinitionIndex = 30837;
+
 	class JDAALEACPKL : public ::System::Object
 	{
 	public:

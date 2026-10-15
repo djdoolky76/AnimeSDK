@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define OMBOPIEDEJG_MLAKMOIJFEP_OFFSET UNITYSDK_OFFSET(0xBF1D450)
 #define OMBOPIEDEJG_OHIICOMPKBF_OFFSET UNITYSDK_OFFSET(0xBF1E070)
 
+inline static constexpr unsigned int OMBOPIEDEJG_TypeDefinitionIndex = 82087;
+
 	class OMBOPIEDEJG : public ::System::Object
 	{
 	public:

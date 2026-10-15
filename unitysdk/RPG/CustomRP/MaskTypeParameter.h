@@ -5,6 +5,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int MaskTypeParameter_TypeDefinitionIndex = 37818;
+
 	class MaskTypeParameter
 	{
 	public:

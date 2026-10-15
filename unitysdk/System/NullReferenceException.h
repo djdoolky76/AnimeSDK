@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int NullReferenceException_TypeDefinitionIndex = 306;
+
 	class NullReferenceException : public ::System::SystemException
 	{
 	public:

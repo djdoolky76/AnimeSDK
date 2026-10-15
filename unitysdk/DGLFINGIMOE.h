@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DGLFINGIMOE_FILTER_OFFSET UNITYSDK_OFFSET(0x1CA29120)
 #define DGLFINGIMOE_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1CA29000)
 
+inline static constexpr unsigned int DGLFINGIMOE_TypeDefinitionIndex = 42863;
+
 	class DGLFINGIMOE
 	{
 	public:

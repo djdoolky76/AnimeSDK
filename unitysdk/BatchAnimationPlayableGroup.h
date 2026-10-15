@@ -9,6 +9,8 @@ namespace UnityEngine::Rendering { class BatchAnimation; }
 #define BATCHANIMATIONPLAYABLEGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBE78F0)
 #define BATCHANIMATIONPLAYABLEGROUP_SETUPANIMGROUP_OFFSET UNITYSDK_OFFSET(0x1CBE7840)
 
+inline static constexpr unsigned int BatchAnimationPlayableGroup_TypeDefinitionIndex = 37470;
+
 	class BatchAnimationPlayableGroup : public ::System::Object
 	{
 	public:

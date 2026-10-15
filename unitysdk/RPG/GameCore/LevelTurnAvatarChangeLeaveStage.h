@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelTurnAvatarChangeLeaveStage_TypeDefinitionIndex = 56715;
+
 	class LevelTurnAvatarChangeLeaveStage : public ::System::Object
 	{
 	public:

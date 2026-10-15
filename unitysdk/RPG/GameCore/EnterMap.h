@@ -11,6 +11,8 @@ namespace RPG::GameCore { class EnterMap; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnterMap_TypeDefinitionIndex = 21570;
+
 	class EnterMap : public ::RPG::GameCore::TaskConfig
 	{
 	public:

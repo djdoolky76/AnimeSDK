@@ -8,6 +8,8 @@
 #define JMDAIKOHCAE_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xB25E930)
 #define JMDAIKOHCAE_SET_POSITION_OFFSET UNITYSDK_OFFSET(0xB25E950)
 
+inline static constexpr unsigned int JMDAIKOHCAE_TypeDefinitionIndex = 73341;
+
 	class JMDAIKOHCAE : public ::System::Object
 	{
 	public:

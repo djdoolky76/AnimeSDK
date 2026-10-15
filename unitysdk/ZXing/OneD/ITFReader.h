@@ -6,6 +6,8 @@
 
 namespace ZXing::OneD
 {
+	inline static constexpr unsigned int ITFReader_TypeDefinitionIndex = 6973;
+
 	class ITFReader : public ::ZXing::OneD::OneDReader
 	{
 	public:

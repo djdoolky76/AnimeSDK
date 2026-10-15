@@ -20,6 +20,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace SRF::UI::Layout
 {
+	inline static constexpr unsigned int FlowLayoutGroup_TypeDefinitionIndex = 35402;
+
 	class FlowLayoutGroup : public ::UnityEngine::UI::LayoutGroup
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define IANPCCLEEOP_CTOR_OFFSET UNITYSDK_OFFSET(0x15E220D0)
 
+inline static constexpr unsigned int IANPCCLEEOP_TypeDefinitionIndex = 57589;
+
 	class IANPCCLEEOP : public ::System::Object
 	{
 	public:

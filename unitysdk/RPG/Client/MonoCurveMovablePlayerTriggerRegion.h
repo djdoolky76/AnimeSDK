@@ -12,6 +12,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoCurveMovablePlayerTriggerRegion_TypeDefinitionIndex = 68542;
+
 	class MonoCurveMovablePlayerTriggerRegion : public ::UnityEngine::MonoBehaviour
 	{
 	public:

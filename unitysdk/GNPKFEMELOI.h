@@ -8,6 +8,8 @@ namespace System { class String; }
 #define GNPKFEMELOI_CTOR_OFFSET UNITYSDK_OFFSET(0x15B1F920)
 #define GNPKFEMELOI_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x15B1F870)
 
+inline static constexpr unsigned int GNPKFEMELOI_TypeDefinitionIndex = 69539;
+
 	class GNPKFEMELOI : public ::System::Object
 	{
 	public:

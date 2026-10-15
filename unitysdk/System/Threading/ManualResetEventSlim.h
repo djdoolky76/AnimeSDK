@@ -34,6 +34,8 @@ namespace System::Threading { class WaitHandle; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int ManualResetEventSlim_TypeDefinitionIndex = 808;
+
 	class ManualResetEventSlim : public ::System::Object
 	{
 	public:

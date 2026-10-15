@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CheckSkillBPAxis_TypeDefinitionIndex = 15506;
+
 	class CheckSkillBPAxis : public ::RPG::GameCore::ConsiderationAxisConfig
 	{
 	public:

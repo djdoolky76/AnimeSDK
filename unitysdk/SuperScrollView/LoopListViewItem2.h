@@ -95,6 +95,8 @@ namespace UnityEngine::UI { class Selectable; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int LoopListViewItem2_TypeDefinitionIndex = 47671;
+
 	class LoopListViewItem2 : public ::UnityEngine::MonoBehaviour
 	{
 	public:

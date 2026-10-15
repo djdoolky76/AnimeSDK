@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimCleanerBotView_TypeDefinitionIndex = 77172;
+
 	class FiveDimCleanerBotView : public ::RPG::Client::LittleGame::FiveDim::FiveDimView
 	{
 	public:

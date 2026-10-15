@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimStartChenLingGameBoyCountDownAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimStartChenLingGameBoyCountDownAction_TypeDefinitionIndex = 18675;
+
 	class FiveDimStartChenLingGameBoyCountDownAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

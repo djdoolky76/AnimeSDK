@@ -42,6 +42,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int GrowableBuffer_TypeDefinitionIndex = 35565;
+
 	class GrowableBuffer : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ComplianceScene_TypeDefinitionIndex = 7898;
+
 	class ComplianceScene : public ::System::Object
 	{
 	public:

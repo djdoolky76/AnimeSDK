@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FLHIDBDFFKG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3BC4E0)
 #define FLHIDBDFFKG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3BC540)
 
+inline static constexpr unsigned int FLHIDBDFFKG_TypeDefinitionIndex = 29580;
+
 	class FLHIDBDFFKG : public ::System::Object
 	{
 	public:

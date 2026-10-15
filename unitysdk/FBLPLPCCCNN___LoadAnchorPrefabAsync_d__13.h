@@ -13,6 +13,8 @@ namespace System { class String; }
 #define FBLPLPCCCNN___LOADANCHORPREFABASYNC_D__13_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x156A5270)
 #define FBLPLPCCCNN___LOADANCHORPREFABASYNC_D__13_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x156A5110)
 
+inline static constexpr unsigned int FBLPLPCCCNN___LoadAnchorPrefabAsync_d__13_TypeDefinitionIndex = 60595;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13>
 	class FBLPLPCCCNN___LoadAnchorPrefabAsync_d__13 : public ::System::Object
 	{

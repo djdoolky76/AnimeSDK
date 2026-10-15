@@ -12,6 +12,8 @@ namespace RPG::GameCore { class FarmElementConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FarmElementConfigRow_TypeDefinitionIndex = 12569;
+
 	class FarmElementConfigRow : public ::System::Object
 	{
 	public:

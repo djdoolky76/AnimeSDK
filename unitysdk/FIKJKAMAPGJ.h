@@ -23,6 +23,8 @@ namespace RPG::GameCore { class RuntimeGroupInfo; }
 #define FIKJKAMAPGJ_OHBELIHPNOA_OFFSET UNITYSDK_OFFSET(0x157AC780)
 #define FIKJKAMAPGJ_OPFNFFLOIIH_OFFSET UNITYSDK_OFFSET(0x157AC920)
 
+inline static constexpr unsigned int FIKJKAMAPGJ_TypeDefinitionIndex = 62130;
+
 	class FIKJKAMAPGJ : public ::FDKKDPIHFKL
 	{
 	public:

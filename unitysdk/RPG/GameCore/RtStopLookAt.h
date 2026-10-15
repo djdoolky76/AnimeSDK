@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtStopLookAt_TypeDefinitionIndex = 24135;
+
 	class RtStopLookAt : public ::RPG::GameCore::TaskConfig
 	{
 	public:

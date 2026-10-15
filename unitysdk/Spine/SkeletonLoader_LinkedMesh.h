@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int SkeletonLoader_LinkedMesh_TypeDefinitionIndex = 39695;
+
 	class SkeletonLoader_LinkedMesh : public ::System::Object
 	{
 	public:

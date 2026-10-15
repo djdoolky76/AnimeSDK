@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitRoguePickAvatar; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitRoguePickAvatar_TypeDefinitionIndex = 20488;
+
 	class WaitRoguePickAvatar : public ::RPG::GameCore::TaskConfig
 	{
 	public:

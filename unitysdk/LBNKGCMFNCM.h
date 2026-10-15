@@ -33,6 +33,8 @@ namespace System { class String; }
 #define LBNKGCMFNCM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8DFD60)
 #define LBNKGCMFNCM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8DFDC0)
 
+inline static constexpr unsigned int LBNKGCMFNCM_TypeDefinitionIndex = 28398;
+
 	class LBNKGCMFNCM : public ::System::Object
 	{
 	public:

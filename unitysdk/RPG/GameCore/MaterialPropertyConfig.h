@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MaterialPropertyConfig_TypeDefinitionIndex = 16509;
+
 	class MaterialPropertyConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

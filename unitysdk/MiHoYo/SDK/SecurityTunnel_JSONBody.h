@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_JSONBody_TypeDefinitionIndex = 46381;
+
 	class SecurityTunnel_JSONBody : public ::System::Object
 	{
 	public:

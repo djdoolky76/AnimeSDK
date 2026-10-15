@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client::RedDot
 {
+	inline static constexpr unsigned int RedDotChecker_1_TypeDefinitionIndex = 79157;
+
 	template <typename T>
 	class RedDotChecker_1 : public ::System::Object
 	{

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LHNCMINFONJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E968120)
 #define LHNCMINFONJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E968180)
 
+inline static constexpr unsigned int LHNCMINFONJ_TypeDefinitionIndex = 29203;
+
 	class LHNCMINFONJ : public ::System::Object
 	{
 	public:

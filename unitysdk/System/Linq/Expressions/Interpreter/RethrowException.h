@@ -6,6 +6,8 @@
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int RethrowException_TypeDefinitionIndex = 3481;
+
 	class RethrowException : public ::System::Exception
 	{
 	public:

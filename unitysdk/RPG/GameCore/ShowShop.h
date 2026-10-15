@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowShop; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowShop_TypeDefinitionIndex = 20897;
+
 	class ShowShop : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -19,6 +19,8 @@ namespace UnityEngine { class Component; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftBinderBase_ComponentEntry___GetNodeComponents_d__3_TypeDefinitionIndex = 79979;
+
 	template <typename T1, typename T2, typename T3>
 	class MechCraftBinderBase_ComponentEntry___GetNodeComponents_d__3 : public ::System::Object
 	{

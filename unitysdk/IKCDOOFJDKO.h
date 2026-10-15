@@ -38,6 +38,8 @@ namespace System { class String; }
 #define IKCDOOFJDKO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E69CA60)
 #define IKCDOOFJDKO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E69CAC0)
 
+inline static constexpr unsigned int IKCDOOFJDKO_TypeDefinitionIndex = 25928;
+
 	class IKCDOOFJDKO : public ::System::Object
 	{
 	public:

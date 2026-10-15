@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define GADAOKHODDG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA73B40)
 
+inline static constexpr unsigned int GADAOKHODDG_TypeDefinitionIndex = 42798;
+
 	class GADAOKHODDG : public ::System::Object
 	{
 	public:

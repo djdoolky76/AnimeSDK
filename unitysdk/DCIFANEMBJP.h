@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DCIFANEMBJP_MPGFOLKLGJL_OFFSET UNITYSDK_OFFSET(0xE247C20)
 #define DCIFANEMBJP_OLJFDLDCMAK_OFFSET UNITYSDK_OFFSET(0xE247830)
 
+inline static constexpr unsigned int DCIFANEMBJP_TypeDefinitionIndex = 54348;
+
 	class DCIFANEMBJP : public ::System::Object
 	{
 	public:

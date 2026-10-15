@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HLEBBGFAKAK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5BBC50)
 #define HLEBBGFAKAK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E5BBC60)
 
+inline static constexpr unsigned int HLEBBGFAKAK___c_TypeDefinitionIndex = 33430;
+
 	class HLEBBGFAKAK___c : public ::System::Object
 	{
 	public:

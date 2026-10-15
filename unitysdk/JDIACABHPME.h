@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JDIACABHPME_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165CC6A0)
 #define JDIACABHPME_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x165CC880)
 
+inline static constexpr unsigned int JDIACABHPME_TypeDefinitionIndex = 52125;
+
 	class JDIACABHPME
 	{
 	public:

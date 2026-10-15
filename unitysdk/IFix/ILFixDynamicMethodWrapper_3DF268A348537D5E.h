@@ -12461,6 +12461,8 @@ namespace XLua { class LuaTable; }
 
 namespace IFix
 {
+	inline static constexpr unsigned int ILFixDynamicMethodWrapper_3DF268A348537D5E_TypeDefinitionIndex = 82331;
+
 	class ILFixDynamicMethodWrapper_3DF268A348537D5E : public ::System::Object
 	{
 	public:

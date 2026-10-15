@@ -44,6 +44,8 @@ namespace UnityEngine { class Transform; }
 #define OPALLCKGNPE_PFMLKFDELAI_OFFSET UNITYSDK_OFFSET(0xBF9A9D0)
 #define OPALLCKGNPE_PLILHCOKJNL_OFFSET UNITYSDK_OFFSET(0xBF9B2B0)
 
+inline static constexpr unsigned int OPALLCKGNPE_TypeDefinitionIndex = 81910;
+
 	class OPALLCKGNPE : public ::System::Object
 	{
 	public:

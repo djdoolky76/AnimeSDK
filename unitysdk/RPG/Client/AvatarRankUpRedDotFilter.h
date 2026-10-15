@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarRankUpRedDotFilter_TypeDefinitionIndex = 66829;
+
 	class AvatarRankUpRedDotFilter : public ::RPG::Client::BaseRedDotFilter
 	{
 	public:

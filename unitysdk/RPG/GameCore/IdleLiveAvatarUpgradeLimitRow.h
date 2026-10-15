@@ -9,6 +9,8 @@ namespace RPG::GameCore { class IdleLiveAvatarUpgradeLimitRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveAvatarUpgradeLimitRow_TypeDefinitionIndex = 11716;
+
 	class IdleLiveAvatarUpgradeLimitRow : public ::System::Object
 	{
 	public:

@@ -54,6 +54,8 @@ namespace UnityEngine { class Animator; }
 #define FKDOJIKMFLG__ONBIND_OFFSET UNITYSDK_OFFSET(0x157EBD60)
 #define FKDOJIKMFLG___ONBINDHANDLERS_B__6_1_OFFSET UNITYSDK_OFFSET(0x157EE790)
 
+inline static constexpr unsigned int FKDOJIKMFLG_TypeDefinitionIndex = 72351;
+
 	class FKDOJIKMFLG : public ::FMPCODLIOLG
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 #define DNFLPDDLIPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD4A710)
 #define DNFLPDDLIPA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD4A590)
 
+inline static constexpr unsigned int DNFLPDDLIPA_TypeDefinitionIndex = 12021;
+
 	class DNFLPDDLIPA : public ::System::Object
 	{
 	public:

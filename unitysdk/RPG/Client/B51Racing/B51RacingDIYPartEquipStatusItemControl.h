@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingDIYPartEquipStatusItemControl_TypeDefinitionIndex = 81782;
+
 	class B51RacingDIYPartEquipStatusItemControl : public ::Sofa::BaseSofaControl
 	{
 	public:

@@ -27,6 +27,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define BGCURVEEXTENTION_GET_CURBGCURVE_OFFSET UNITYSDK_OFFSET(0xB176E80)
 #define BGCURVEEXTENTION_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0xB1770C0)
 
+inline static constexpr unsigned int BGCurveExtention_TypeDefinitionIndex = 47266;
+
 	class BGCurveExtention : public ::UnityEngine::MonoBehaviour
 	{
 	public:

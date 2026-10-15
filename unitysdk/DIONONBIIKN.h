@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DIONONBIIKN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1C33D0)
 #define DIONONBIIKN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1C3430)
 
+inline static constexpr unsigned int DIONONBIIKN_TypeDefinitionIndex = 27159;
+
 	class DIONONBIIKN : public ::System::Object
 	{
 	public:

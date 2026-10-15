@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FFMDPBBKCEM_PBNOCMEKDDI_OFFSET UNITYSDK_OFFSET(0x15746C50)
 #define FFMDPBBKCEM_TICK_OFFSET UNITYSDK_OFFSET(0x15746880)
 
+inline static constexpr unsigned int FFMDPBBKCEM_TypeDefinitionIndex = 58286;
+
 	class FFMDPBBKCEM : public ::GELIALJDFBL
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DMPGOLGFAOG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFECDDA0)
 #define DMPGOLGFAOG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFECDDE0)
 
+inline static constexpr unsigned int DMPGOLGFAOG_TypeDefinitionIndex = 56404;
+
 	class DMPGOLGFAOG
 	{
 	public:

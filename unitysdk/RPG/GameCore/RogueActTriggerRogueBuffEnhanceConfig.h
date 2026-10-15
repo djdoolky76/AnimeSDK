@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActTriggerRogueBuffEnhanceConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActTriggerRogueBuffEnhanceConfig_TypeDefinitionIndex = 19585;
+
 	class RogueActTriggerRogueBuffEnhanceConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StoryLineModule___c__DisplayClass12_0_TypeDefinitionIndex = 67994;
+
 	class StoryLineModule___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

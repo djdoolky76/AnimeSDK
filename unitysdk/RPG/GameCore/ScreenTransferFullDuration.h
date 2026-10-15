@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ScreenTransferFullDuration; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ScreenTransferFullDuration_TypeDefinitionIndex = 23812;
+
 	class ScreenTransferFullDuration : public ::RPG::GameCore::JsonConfig
 	{
 	public:

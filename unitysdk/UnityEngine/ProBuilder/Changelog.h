@@ -12,6 +12,8 @@ namespace UnityEngine::ProBuilder { class ChangelogEntry; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int Changelog_TypeDefinitionIndex = 44342;
+
 	class Changelog : public ::System::Object
 	{
 	public:

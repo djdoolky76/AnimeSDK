@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimGravityWalkBoardConfig_TypeDefinitionIndex = 18571;
+
 	class FiveDimGravityWalkBoardConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

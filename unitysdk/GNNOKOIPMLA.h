@@ -31,6 +31,8 @@ namespace Proto { class ItemList; }
 #define GNNOKOIPMLA_PNHLFEPLMDE_OFFSET UNITYSDK_OFFSET(0x15B1E710)
 #define GNNOKOIPMLA_PPEFDNGGJNI_OFFSET UNITYSDK_OFFSET(0x15B1E5B0)
 
+inline static constexpr unsigned int GNNOKOIPMLA_TypeDefinitionIndex = 81652;
+
 	class GNNOKOIPMLA : public ::System::Object
 	{
 	public:

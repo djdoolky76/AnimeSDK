@@ -33,6 +33,8 @@ namespace System { class String; }
 #define BHPBJOMBCAD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDFDC30)
 #define BHPBJOMBCAD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDFDC90)
 
+inline static constexpr unsigned int BHPBJOMBCAD_TypeDefinitionIndex = 33443;
+
 	class BHPBJOMBCAD : public ::System::Object
 	{
 	public:

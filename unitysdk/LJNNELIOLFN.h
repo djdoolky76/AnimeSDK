@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LJNNELIOLFN_IHPKBAIFPPH_OFFSET UNITYSDK_OFFSET(0xB723DD0)
 #define LJNNELIOLFN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7238C0)
 
+inline static constexpr unsigned int LJNNELIOLFN_TypeDefinitionIndex = 58262;
+
 	class LJNNELIOLFN : public ::FGPKPKOFGIN
 	{
 	public:

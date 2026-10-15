@@ -30,6 +30,8 @@ namespace System { class String; }
 #define LMAKFCIHCMA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9A16E0)
 #define LMAKFCIHCMA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9A1740)
 
+inline static constexpr unsigned int LMAKFCIHCMA_TypeDefinitionIndex = 34758;
+
 	class LMAKFCIHCMA : public ::System::Object
 	{
 	public:

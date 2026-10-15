@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PIFMLFKCOOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF45310)
 #define PIFMLFKCOOG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF45320)
 
+inline static constexpr unsigned int PIFMLFKCOOG___c_TypeDefinitionIndex = 29333;
+
 	class PIFMLFKCOOG___c : public ::System::Object
 	{
 	public:

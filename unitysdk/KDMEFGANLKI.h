@@ -31,6 +31,8 @@ namespace System { class String; }
 #define KDMEFGANLKI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E803790)
 #define KDMEFGANLKI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8037F0)
 
+inline static constexpr unsigned int KDMEFGANLKI_TypeDefinitionIndex = 25358;
+
 	class KDMEFGANLKI : public ::System::Object
 	{
 	public:

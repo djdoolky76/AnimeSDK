@@ -21,6 +21,8 @@ namespace System { template <typename T> class Func_1; }
 #define PNJCNAJIMFA_JFFBMBHJDID_OFFSET UNITYSDK_OFFSET(0xC33A210)
 #define PNJCNAJIMFA_OCJPMJFFLNF_OFFSET UNITYSDK_OFFSET(0xC33A050)
 
+inline static constexpr unsigned int PNJCNAJIMFA_TypeDefinitionIndex = 82063;
+
 	class PNJCNAJIMFA : public ::System::Object
 	{
 	public:

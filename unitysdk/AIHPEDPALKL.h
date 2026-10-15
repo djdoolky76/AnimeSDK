@@ -9,6 +9,8 @@ namespace System { template <typename T> class Func_1; }
 #define AIHPEDPALKL_JMKLBMEHDCG_OFFSET UNITYSDK_OFFSET(0xEBA5990)
 #define AIHPEDPALKL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xEBA5940)
 
+inline static constexpr unsigned int AIHPEDPALKL_TypeDefinitionIndex = 61049;
+
 	class AIHPEDPALKL : public ::System::Object
 	{
 	public:

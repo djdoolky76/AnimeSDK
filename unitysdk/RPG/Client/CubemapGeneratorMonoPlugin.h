@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CubemapGeneratorMonoPlugin_TypeDefinitionIndex = 71041;
+
 	class CubemapGeneratorMonoPlugin
 	{
 	public:

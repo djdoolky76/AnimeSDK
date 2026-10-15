@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RangeLimitCollider_TypeDefinitionIndex = 68903;
+
 	class RangeLimitCollider : public ::UnityEngine::MonoBehaviour
 	{
 	public:

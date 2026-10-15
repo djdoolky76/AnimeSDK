@@ -7,6 +7,8 @@ namespace RPG::GameCore { class FiveDimLightningConfig; }
 #define ODHPCINKFKK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C98C570)
 #define ODHPCINKFKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C98C5F0)
 
+inline static constexpr unsigned int ODHPCINKFKK_TypeDefinitionIndex = 43519;
+
 	class ODHPCINKFKK : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG { template <typename T> class PoolList_1; }
 #define HOILLAOJDII_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAF3C50)
 #define HOILLAOJDII_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CAF3A10)
 
+inline static constexpr unsigned int HOILLAOJDII_TypeDefinitionIndex = 43535;
+
 	class HOILLAOJDII : public ::NOOHPODHIAA
 	{
 	public:

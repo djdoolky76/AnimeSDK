@@ -5,6 +5,8 @@
 
 #define FLALMMMNNOG_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x2E77770)
 
+inline static constexpr unsigned int FLALMMMNNOG_TypeDefinitionIndex = 69573;
+
 	struct alignas(4) FLALMMMNNOG
 	{
 		::System::Boolean CAGCHKJHMPD; // 0x10

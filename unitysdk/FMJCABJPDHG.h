@@ -32,6 +32,8 @@ namespace System { class String; }
 #define FMJCABJPDHG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3E7540)
 #define FMJCABJPDHG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3E75A0)
 
+inline static constexpr unsigned int FMJCABJPDHG_TypeDefinitionIndex = 29807;
+
 	class FMJCABJPDHG : public ::System::Object
 	{
 	public:

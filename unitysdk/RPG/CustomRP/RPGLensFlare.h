@@ -6,6 +6,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGLensFlare_TypeDefinitionIndex = 37820;
+
 	class RPGLensFlare : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:

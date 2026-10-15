@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define IPJNGMALCEL_CTOR_OFFSET UNITYSDK_OFFSET(0x16524110)
 #define IPJNGMALCEL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16524330)
 
+inline static constexpr unsigned int IPJNGMALCEL_TypeDefinitionIndex = 52189;
+
 	class IPJNGMALCEL
 	{
 	public:

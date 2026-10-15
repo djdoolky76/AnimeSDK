@@ -10,6 +10,8 @@ namespace RPG::Client { class GridFightFormationRole; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameFormationEditor_ExclusiveTraitDressRule_TypeDefinitionIndex = 64633;
+
 	class GridFightGameFormationEditor_ExclusiveTraitDressRule : public ::System::Object
 	{
 	public:

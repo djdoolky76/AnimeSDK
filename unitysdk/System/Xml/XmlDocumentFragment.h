@@ -26,6 +26,8 @@ namespace System::Xml { class XmlWriter; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlDocumentFragment_TypeDefinitionIndex = 1900;
+
 	class XmlDocumentFragment : public ::System::Xml::XmlNode
 	{
 	public:

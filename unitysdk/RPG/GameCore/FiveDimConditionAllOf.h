@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimConditionAllOf; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimConditionAllOf_TypeDefinitionIndex = 18796;
+
 	class FiveDimConditionAllOf : public ::RPG::GameCore::FiveDimBaseEventCondition
 	{
 	public:

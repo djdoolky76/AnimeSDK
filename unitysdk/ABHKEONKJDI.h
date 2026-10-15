@@ -43,6 +43,8 @@ namespace UnityEngine { class Transform; }
 #define ABHKEONKJDI__ONBIND_OFFSET UNITYSDK_OFFSET(0xB0FA750)
 #define ABHKEONKJDI__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xB0F9290)
 
+inline static constexpr unsigned int ABHKEONKJDI_TypeDefinitionIndex = 71921;
+
 	class ABHKEONKJDI : public ::CLAADCBPCHM
 	{
 	public:

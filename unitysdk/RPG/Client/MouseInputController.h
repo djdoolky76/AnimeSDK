@@ -30,6 +30,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MouseInputController_TypeDefinitionIndex = 61328;
+
 	class MouseInputController : public ::System::Object
 	{
 	public:

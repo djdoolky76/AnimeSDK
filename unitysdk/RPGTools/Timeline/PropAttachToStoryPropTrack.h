@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int PropAttachToStoryPropTrack_TypeDefinitionIndex = 48243;
+
 	class PropAttachToStoryPropTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:

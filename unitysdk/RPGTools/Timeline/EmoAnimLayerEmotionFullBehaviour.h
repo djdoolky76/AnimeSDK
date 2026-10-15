@@ -14,6 +14,8 @@ namespace RPGTools::Timeline { class EmoAnimLayerEmotionFullClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int EmoAnimLayerEmotionFullBehaviour_TypeDefinitionIndex = 48091;
+
 	class EmoAnimLayerEmotionFullBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

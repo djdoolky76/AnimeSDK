@@ -14,6 +14,8 @@ namespace RPG::Client::LittleGame { class MovieGameLevelConfig; }
 #define BDLMDFEOJNI_JCDOIHAFJBB_OFFSET UNITYSDK_OFFSET(0x1C8B7F50)
 #define BDLMDFEOJNI_NAKLJNNBJCF_OFFSET UNITYSDK_OFFSET(0x1C8B8370)
 
+inline static constexpr unsigned int BDLMDFEOJNI_TypeDefinitionIndex = 42603;
+
 	class BDLMDFEOJNI : public ::Entitas::Entity
 	{
 	public:

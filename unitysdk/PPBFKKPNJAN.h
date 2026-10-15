@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PPBFKKPNJAN_FNHJAIKFKIA_OFFSET UNITYSDK_OFFSET(0xC37A580)
 #define PPBFKKPNJAN_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0xC37A530)
 
+inline static constexpr unsigned int PPBFKKPNJAN_TypeDefinitionIndex = 53767;
+
 	class PPBFKKPNJAN : public ::GJPFGOGOLBI
 	{
 	public:

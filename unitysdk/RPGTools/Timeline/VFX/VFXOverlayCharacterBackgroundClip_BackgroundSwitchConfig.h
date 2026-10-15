@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int VFXOverlayCharacterBackgroundClip_BackgroundSwitchConfig_TypeDefinitionIndex = 48673;
+
 	class VFXOverlayCharacterBackgroundClip_BackgroundSwitchConfig : public ::System::Object
 	{
 	public:

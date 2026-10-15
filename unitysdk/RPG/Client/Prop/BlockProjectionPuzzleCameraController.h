@@ -24,6 +24,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int BlockProjectionPuzzleCameraController_TypeDefinitionIndex = 78211;
+
 	class BlockProjectionPuzzleCameraController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

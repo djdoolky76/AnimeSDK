@@ -5,6 +5,8 @@
 
 namespace Newtonsoft::Json
 {
+	inline static constexpr unsigned int JsonConverterCollection_TypeDefinitionIndex = 9615;
+
 	class JsonConverterCollection
 	{
 	public:

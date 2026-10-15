@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlayerTeamAppear; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerTeamAppear_TypeDefinitionIndex = 22957;
+
 	class PlayerTeamAppear : public ::RPG::GameCore::TaskConfig
 	{
 	public:

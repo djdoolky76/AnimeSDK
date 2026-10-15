@@ -18,6 +18,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int Win32Exception_TypeDefinitionIndex = 2650;
+
 	class Win32Exception : public ::System::Runtime::InteropServices::ExternalException
 	{
 	public:

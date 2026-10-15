@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JPAIOFMJEPM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7CCFC0)
 #define JPAIOFMJEPM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7CD020)
 
+inline static constexpr unsigned int JPAIOFMJEPM_TypeDefinitionIndex = 25626;
+
 	class JPAIOFMJEPM : public ::System::Object
 	{
 	public:

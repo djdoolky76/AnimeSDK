@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DiceCombatTalkOptionExtData_TypeDefinitionIndex = 68040;
+
 	class DiceCombatTalkOptionExtData : public ::System::Object
 	{
 	public:

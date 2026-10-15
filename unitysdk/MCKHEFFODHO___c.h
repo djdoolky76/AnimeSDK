@@ -13,6 +13,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define MCKHEFFODHO___C__RPG_CLIENT_MECHCRAFT_VIEWMODEL_IMECHCRAFTCRAFTEDITVIEWMODEL_GET_ISTUTORIALGUIDING_B__68_0_OFFSET UNITYSDK_OFFSET(0xB886630)
 #define MCKHEFFODHO___C___REFRESHCANCLEAR_B__157_0_OFFSET UNITYSDK_OFFSET(0xB886640)
 
+inline static constexpr unsigned int MCKHEFFODHO___c_TypeDefinitionIndex = 79502;
+
 	class MCKHEFFODHO___c : public ::System::Object
 	{
 	public:

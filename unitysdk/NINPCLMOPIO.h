@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NINPCLMOPIO_CTOR_OFFSET UNITYSDK_OFFSET(0xBC05600)
 #define NINPCLMOPIO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBC05630)
 
+inline static constexpr unsigned int NINPCLMOPIO_TypeDefinitionIndex = 53368;
+
 	class NINPCLMOPIO
 	{
 	public:

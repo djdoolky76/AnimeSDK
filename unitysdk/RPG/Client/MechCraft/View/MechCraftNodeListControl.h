@@ -27,6 +27,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftNodeListControl_TypeDefinitionIndex = 79821;
+
 	class MechCraftNodeListControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

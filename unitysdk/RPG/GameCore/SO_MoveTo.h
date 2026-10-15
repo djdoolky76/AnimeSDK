@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SO_MoveTo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SO_MoveTo_TypeDefinitionIndex = 20058;
+
 	class SO_MoveTo : public ::RPG::GameCore::SOTaskConfig
 	{
 	public:

@@ -8,6 +8,8 @@ class PFGKPGHEGJM;
 #define PFGKPGHEGJM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2DB090)
 #define PFGKPGHEGJM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2DAE80)
 
+inline static constexpr unsigned int PFGKPGHEGJM_TypeDefinitionIndex = 11300;
+
 	class PFGKPGHEGJM : public ::System::Object
 	{
 	public:

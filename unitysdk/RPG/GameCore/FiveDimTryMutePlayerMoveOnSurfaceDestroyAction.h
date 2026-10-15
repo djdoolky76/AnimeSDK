@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimTryMutePlayerMoveOnSurfaceDestroyAction; 
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimTryMutePlayerMoveOnSurfaceDestroyAction_TypeDefinitionIndex = 18679;
+
 	class FiveDimTryMutePlayerMoveOnSurfaceDestroyAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System { class Object; }
 #define KAHNILHBHEN_PJJPFDECFAG_OFFSET UNITYSDK_OFFSET(0xB2D71B0)
 #define KAHNILHBHEN_TICK_OFFSET UNITYSDK_OFFSET(0xB2D70D0)
 
+inline static constexpr unsigned int KAHNILHBHEN_TypeDefinitionIndex = 58672;
+
 	class KAHNILHBHEN : public ::GELIALJDFBL
 	{
 	public:

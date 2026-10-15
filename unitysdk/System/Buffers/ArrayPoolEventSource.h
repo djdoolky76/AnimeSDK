@@ -12,6 +12,8 @@ namespace System::Buffers { class ArrayPoolEventSource; }
 
 namespace System::Buffers
 {
+	inline static constexpr unsigned int ArrayPoolEventSource_TypeDefinitionIndex = 3749;
+
 	class ArrayPoolEventSource : public ::System::Diagnostics::Tracing::EventSource
 	{
 	public:

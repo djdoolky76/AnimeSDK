@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define NAPODBNFMLM__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xBAB9A80)
 #define NAPODBNFMLM__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xBAB9B60)
 
+inline static constexpr unsigned int NAPODBNFMLM_TypeDefinitionIndex = 52526;
+
 	class NAPODBNFMLM
 	{
 	public:

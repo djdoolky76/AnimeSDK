@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerSoundInAnim_TypeDefinitionIndex = 22380;
+
 	class TriggerSoundInAnim : public ::RPG::GameCore::TaskConfig
 	{
 	public:

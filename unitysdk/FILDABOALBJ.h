@@ -4,6 +4,8 @@
 
 #define FILDABOALBJ_CTOR_OFFSET UNITYSDK_OFFSET(0x157ACF80)
 
+inline static constexpr unsigned int FILDABOALBJ_TypeDefinitionIndex = 81278;
+
 	class FILDABOALBJ : public ::System::Object
 	{
 	public:

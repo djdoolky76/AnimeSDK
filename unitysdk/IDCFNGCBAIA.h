@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IDCFNGCBAIA_OFEGLEDEFIK_OFFSET UNITYSDK_OFFSET(0x15EAE450)
 #define IDCFNGCBAIA__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0x15EAD3E0)
 
+inline static constexpr unsigned int IDCFNGCBAIA_TypeDefinitionIndex = 53983;
+
 	class IDCFNGCBAIA : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

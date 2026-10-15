@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int BlockEnvExportData_TypeDefinitionIndex = 49065;
+
 	class BlockEnvExportData : public ::UnityEngine::ScriptableObject
 	{
 	public:

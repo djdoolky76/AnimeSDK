@@ -6,6 +6,8 @@ namespace System { class String; }
 #define OAPFEGCKDNG_CTOR_OFFSET UNITYSDK_OFFSET(0xBD2F350)
 #define OAPFEGCKDNG_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBD2F2D0)
 
+inline static constexpr unsigned int OAPFEGCKDNG_TypeDefinitionIndex = 59624;
+
 	class OAPFEGCKDNG : public ::System::Object
 	{
 	public:

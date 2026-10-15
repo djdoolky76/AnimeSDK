@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::PetMarble
 {
+	inline static constexpr unsigned int PetMarblePVEMatchContext_TypeDefinitionIndex = 74699;
+
 	class PetMarblePVEMatchContext : public ::RPG::Client::ActivityMarble::MarbleMatchContext
 	{
 	public:

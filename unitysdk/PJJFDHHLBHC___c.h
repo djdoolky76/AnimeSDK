@@ -13,6 +13,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define PJJFDHHLBHC___C___GETINSTANCESFROMGROUP_B__6_1_OFFSET UNITYSDK_OFFSET(0xC28E410)
 #define PJJFDHHLBHC___C___GETINSTANCESFROMGROUP_B__6_2_OFFSET UNITYSDK_OFFSET(0xC28E430)
 
+inline static constexpr unsigned int PJJFDHHLBHC___c_TypeDefinitionIndex = 52347;
+
 	class PJJFDHHLBHC___c : public ::System::Object
 	{
 	public:

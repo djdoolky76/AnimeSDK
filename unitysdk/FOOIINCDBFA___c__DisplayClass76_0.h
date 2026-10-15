@@ -10,6 +10,8 @@ namespace UnityEngine::AI { class NavMeshPathAsyncOperation; }
 #define FOOIINCDBFA___C__DISPLAYCLASS76_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15907440)
 #define FOOIINCDBFA___C__DISPLAYCLASS76_0___STARTPATHQUERY_B__0_OFFSET UNITYSDK_OFFSET(0x15908DB0)
 
+inline static constexpr unsigned int FOOIINCDBFA___c__DisplayClass76_0_TypeDefinitionIndex = 57122;
+
 	class FOOIINCDBFA___c__DisplayClass76_0 : public ::System::Object
 	{
 	public:

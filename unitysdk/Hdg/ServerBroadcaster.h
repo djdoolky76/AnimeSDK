@@ -10,6 +10,8 @@ namespace System::Threading { class Thread; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int ServerBroadcaster_TypeDefinitionIndex = 46945;
+
 	class ServerBroadcaster : public ::System::Object
 	{
 	public:

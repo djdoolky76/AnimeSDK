@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GEKMCGJPEEF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E45BA00)
 #define GEKMCGJPEEF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E45BA60)
 
+inline static constexpr unsigned int GEKMCGJPEEF_TypeDefinitionIndex = 26360;
+
 	class GEKMCGJPEEF : public ::System::Object
 	{
 	public:

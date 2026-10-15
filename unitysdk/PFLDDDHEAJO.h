@@ -19,6 +19,8 @@ namespace RPG::Client { class SubMissionData; }
 #define PFLDDDHEAJO_KKDHBKIFAAL_OFFSET UNITYSDK_OFFSET(0xC215E70)
 #define PFLDDDHEAJO_LLJAIKBFAGI_OFFSET UNITYSDK_OFFSET(0xC216C50)
 
+inline static constexpr unsigned int PFLDDDHEAJO_TypeDefinitionIndex = 80742;
+
 	class PFLDDDHEAJO : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
+	inline static constexpr unsigned int ThirdpartyStore___c_TypeDefinitionIndex = 8854;
+
 	class ThirdpartyStore___c : public ::System::Object
 	{
 	public:

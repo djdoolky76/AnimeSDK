@@ -41,6 +41,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TutorialGuideTextConfigWrapper_TypeDefinitionIndex = 68208;
+
 	class TutorialGuideTextConfigWrapper : public ::RPG::Client::TutorialGuideConfigWrapper
 	{
 	public:

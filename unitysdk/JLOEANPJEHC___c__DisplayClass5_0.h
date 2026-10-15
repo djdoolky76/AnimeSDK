@@ -7,6 +7,8 @@ class JLOEANPJEHC;
 #define JLOEANPJEHC___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB252040)
 #define JLOEANPJEHC___C__DISPLAYCLASS5_0__PERFORM_B__0_OFFSET UNITYSDK_OFFSET(0xB2528E0)
 
+inline static constexpr unsigned int JLOEANPJEHC___c__DisplayClass5_0_TypeDefinitionIndex = 79798;
+
 	class JLOEANPJEHC___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

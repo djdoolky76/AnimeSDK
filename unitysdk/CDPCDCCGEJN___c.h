@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define CDPCDCCGEJN___C__GET_FINISHCOUNT_B__22_0_OFFSET UNITYSDK_OFFSET(0xC778620)
 #define CDPCDCCGEJN___C__GET_SUCCESSCOUNT_B__18_0_OFFSET UNITYSDK_OFFSET(0xC7785E0)
 
+inline static constexpr unsigned int CDPCDCCGEJN___c_TypeDefinitionIndex = 59574;
+
 	class CDPCDCCGEJN___c : public ::System::Object
 	{
 	public:

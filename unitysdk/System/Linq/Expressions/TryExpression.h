@@ -22,6 +22,8 @@ namespace System::Linq::Expressions { class TryExpression; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int TryExpression_TypeDefinitionIndex = 3279;
+
 	class TryExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:

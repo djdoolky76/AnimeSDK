@@ -34,6 +34,8 @@ namespace System { class String; }
 #define CHEOAHFDAOG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0C39F0)
 #define CHEOAHFDAOG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0C3A50)
 
+inline static constexpr unsigned int CHEOAHFDAOG_TypeDefinitionIndex = 33890;
+
 	class CHEOAHFDAOG : public ::System::Object
 	{
 	public:

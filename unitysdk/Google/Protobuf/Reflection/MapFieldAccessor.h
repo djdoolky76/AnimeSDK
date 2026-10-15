@@ -12,6 +12,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int MapFieldAccessor_TypeDefinitionIndex = 5549;
+
 	class MapFieldAccessor : public ::Google::Protobuf::Reflection::FieldAccessorBase
 	{
 	public:

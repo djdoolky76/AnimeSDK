@@ -36,6 +36,8 @@ namespace System { class String; }
 #define FKDLIONEFCI_SET_TALENTID_OFFSET UNITYSDK_OFFSET(0x157EA040)
 #define FKDLIONEFCI_SET_UNLOCKIDLIST_OFFSET UNITYSDK_OFFSET(0x157EA0A0)
 
+inline static constexpr unsigned int FKDLIONEFCI_TypeDefinitionIndex = 67475;
+
 	class FKDLIONEFCI : public ::System::Object
 	{
 	public:

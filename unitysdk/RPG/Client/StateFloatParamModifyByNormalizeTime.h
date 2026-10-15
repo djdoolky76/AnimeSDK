@@ -13,6 +13,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StateFloatParamModifyByNormalizeTime_TypeDefinitionIndex = 68826;
+
 	class StateFloatParamModifyByNormalizeTime : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:

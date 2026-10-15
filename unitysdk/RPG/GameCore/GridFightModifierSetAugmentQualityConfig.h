@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierSetAugmentQualityConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierSetAugmentQualityConfig_TypeDefinitionIndex = 19450;
+
 	class GridFightModifierSetAugmentQualityConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

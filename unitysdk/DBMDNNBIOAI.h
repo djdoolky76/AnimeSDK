@@ -24,6 +24,8 @@ namespace UnityEngine { class Animator; }
 #define DBMDNNBIOAI_NPNJLDACKBJ_OFFSET UNITYSDK_OFFSET(0xE2329E0)
 #define DBMDNNBIOAI_OLGOHKJFGOH_OFFSET UNITYSDK_OFFSET(0xE232240)
 
+inline static constexpr unsigned int DBMDNNBIOAI_TypeDefinitionIndex = 68770;
+
 	class DBMDNNBIOAI : public ::System::Object
 	{
 	public:

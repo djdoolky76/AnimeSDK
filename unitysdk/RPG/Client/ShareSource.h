@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ShareSource_TypeDefinitionIndex = 61092;
+
 	enum class ShareSource : ::System::Int32
 	{
 		Unknown = 0,

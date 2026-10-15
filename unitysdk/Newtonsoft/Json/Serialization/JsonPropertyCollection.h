@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int JsonPropertyCollection_TypeDefinitionIndex = 9730;
+
 	class JsonPropertyCollection
 	{
 	public:

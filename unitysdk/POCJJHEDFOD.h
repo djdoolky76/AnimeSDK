@@ -36,6 +36,8 @@ namespace System::Text { class StringBuilder; }
 #define POCJJHEDFOD_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC358390)
 #define POCJJHEDFOD__CLONE___OFFSET UNITYSDK_OFFSET(0xC359940)
 
+inline static constexpr unsigned int POCJJHEDFOD_TypeDefinitionIndex = 81444;
+
 	class POCJJHEDFOD : public ::System::Object
 	{
 	public:

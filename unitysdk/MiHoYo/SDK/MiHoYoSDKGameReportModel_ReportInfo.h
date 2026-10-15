@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKGameReportModel_ReportInfo_TypeDefinitionIndex = 46345;
+
 	class MiHoYoSDKGameReportModel_ReportInfo : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveGemFly_TypeDefinitionIndex = 75178;
+
 	class IdleLiveGemFly : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PIDJBEDGBLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF44A60)
 #define PIDJBEDGBLE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DF44A70)
 
+inline static constexpr unsigned int PIDJBEDGBLE___c_TypeDefinitionIndex = 26836;
+
 	class PIDJBEDGBLE___c : public ::System::Object
 	{
 	public:

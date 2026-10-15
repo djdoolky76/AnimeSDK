@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerPamMovePhaseTalk; }
 #define PMDLKPGLBDL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC3173A0)
 #define PMDLKPGLBDL_TICK_OFFSET UNITYSDK_OFFSET(0xC3173F0)
 
+inline static constexpr unsigned int PMDLKPGLBDL_TypeDefinitionIndex = 58983;
+
 	class PMDLKPGLBDL : public ::GELIALJDFBL
 	{
 	public:

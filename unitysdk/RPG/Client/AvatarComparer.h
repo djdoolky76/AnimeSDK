@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarComparer_TypeDefinitionIndex = 62810;
+
 	class AvatarComparer : public ::RPG::Client::AvatarComparerBase
 	{
 	public:

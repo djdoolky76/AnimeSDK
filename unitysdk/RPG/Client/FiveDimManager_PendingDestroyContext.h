@@ -16,6 +16,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FiveDimManager_PendingDestroyContext_TypeDefinitionIndex = 60540;
+
 	class FiveDimManager_PendingDestroyContext : public ::System::Object
 	{
 	public:

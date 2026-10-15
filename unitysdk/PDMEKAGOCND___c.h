@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PDMEKAGOCND___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF129D0)
 #define PDMEKAGOCND___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1DF129E0)
 
+inline static constexpr unsigned int PDMEKAGOCND___c_TypeDefinitionIndex = 29959;
+
 	class PDMEKAGOCND___c : public ::System::Object
 	{
 	public:

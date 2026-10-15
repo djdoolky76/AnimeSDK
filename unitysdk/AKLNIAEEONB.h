@@ -11,6 +11,8 @@ namespace System { class String; }
 #define AKLNIAEEONB_HIFOMCOCIDC_OFFSET UNITYSDK_OFFSET(0x12CD69D0)
 #define AKLNIAEEONB_OANFNFOHKCD_OFFSET UNITYSDK_OFFSET(0x12CD7300)
 
+inline static constexpr unsigned int AKLNIAEEONB_TypeDefinitionIndex = 61213;
+
 	class AKLNIAEEONB : public ::System::Object
 	{
 	public:

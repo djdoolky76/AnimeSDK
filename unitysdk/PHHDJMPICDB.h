@@ -17,6 +17,8 @@ namespace UnityEngine { class FogEmissionBakeVolume; }
 #define PHHDJMPICDB_MMPNOMJPIJE_OFFSET UNITYSDK_OFFSET(0xC24BB80)
 #define PHHDJMPICDB_PDFMCHGIPBG_OFFSET UNITYSDK_OFFSET(0xC24BE50)
 
+inline static constexpr unsigned int PHHDJMPICDB_TypeDefinitionIndex = 49081;
+
 	class PHHDJMPICDB : public ::System::Object
 	{
 	public:

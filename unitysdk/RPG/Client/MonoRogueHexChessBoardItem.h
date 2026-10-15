@@ -24,6 +24,8 @@ namespace UnityEngine::EventSystems { class AxisEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoRogueHexChessBoardItem_TypeDefinitionIndex = 68924;
+
 	class MonoRogueHexChessBoardItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

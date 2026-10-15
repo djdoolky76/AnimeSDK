@@ -11,6 +11,8 @@
 #define PHOJHPMLBCJ_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0xC2585C0)
 #define PHOJHPMLBCJ_SET_NAME_OFFSET UNITYSDK_OFFSET(0xC2585E0)
 
+inline static constexpr unsigned int PHOJHPMLBCJ_TypeDefinitionIndex = 80749;
+
 	class PHOJHPMLBCJ : public ::System::Object
 	{
 	public:

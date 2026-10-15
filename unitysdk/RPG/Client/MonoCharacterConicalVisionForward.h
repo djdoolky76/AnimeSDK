@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoCharacterConicalVisionForward_TypeDefinitionIndex = 68534;
+
 	class MonoCharacterConicalVisionForward : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -91,6 +91,8 @@ namespace System { class String; }
 #define DDLHODCINBI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E184410)
 #define DDLHODCINBI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E184470)
 
+inline static constexpr unsigned int DDLHODCINBI_TypeDefinitionIndex = 28310;
+
 	class DDLHODCINBI : public ::System::Object
 	{
 	public:

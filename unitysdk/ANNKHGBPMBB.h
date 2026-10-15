@@ -35,6 +35,8 @@ class LGCICJNMABG;
 #define ANNKHGBPMBB_PNMMIEMLKCA_OFFSET UNITYSDK_OFFSET(0x158A0550)
 #define ANNKHGBPMBB_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x1589CB70)
 
+inline static constexpr unsigned int ANNKHGBPMBB_TypeDefinitionIndex = 76587;
+
 	class ANNKHGBPMBB : public ::System::Object
 	{
 	public:

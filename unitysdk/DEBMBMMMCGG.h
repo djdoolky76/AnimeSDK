@@ -25,6 +25,8 @@ namespace System { class String; }
 #define DEBMBMMMCGG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E18F4E0)
 #define DEBMBMMMCGG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E18F540)
 
+inline static constexpr unsigned int DEBMBMMMCGG_TypeDefinitionIndex = 33782;
+
 	class DEBMBMMMCGG : public ::System::Object
 	{
 	public:

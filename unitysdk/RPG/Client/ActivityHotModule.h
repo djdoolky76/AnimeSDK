@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityHotModule_TypeDefinitionIndex = 61535;
+
 	class ActivityHotModule : public ::RPG::Client::BaseModule
 	{
 	public:

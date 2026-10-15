@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BKJCADFCHAB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF59AF0)
 #define BKJCADFCHAB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF59B50)
 
+inline static constexpr unsigned int BKJCADFCHAB_TypeDefinitionIndex = 27455;
+
 	class BKJCADFCHAB : public ::System::Object
 	{
 	public:

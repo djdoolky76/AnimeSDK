@@ -44,6 +44,8 @@ namespace System { class String; }
 #define CJOCEJLPADK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0E6900)
 #define CJOCEJLPADK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0E6960)
 
+inline static constexpr unsigned int CJOCEJLPADK_TypeDefinitionIndex = 25062;
+
 	class CJOCEJLPADK : public ::System::Object
 	{
 	public:

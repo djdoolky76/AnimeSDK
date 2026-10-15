@@ -55,6 +55,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MapTeleportData_TypeDefinitionIndex = 62922;
+
 	class MapTeleportData : public ::System::Object
 	{
 	public:

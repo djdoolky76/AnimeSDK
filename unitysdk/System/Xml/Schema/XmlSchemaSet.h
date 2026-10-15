@@ -20,6 +20,8 @@ namespace System::Xml::Schema { class XmlSchemaCompilationSettings; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlSchemaSet_TypeDefinitionIndex = 2210;
+
 	class XmlSchemaSet : public ::System::Object
 	{
 	public:

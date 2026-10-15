@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int UniverseData_SubNavMapBuildContext_TypeDefinitionIndex = 74637;
+
 	class UniverseData_SubNavMapBuildContext : public ::System::Object
 	{
 	public:

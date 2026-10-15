@@ -9,6 +9,8 @@ namespace MiHoYo::SDK::Win { class GrantBindPhone; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int GrantBindPhone___c__DisplayClass30_0_TypeDefinitionIndex = 9511;
+
 	class GrantBindPhone___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:

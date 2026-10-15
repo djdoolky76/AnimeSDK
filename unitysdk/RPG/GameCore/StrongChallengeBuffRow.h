@@ -9,6 +9,8 @@ namespace RPG::GameCore { class StrongChallengeBuffRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StrongChallengeBuffRow_TypeDefinitionIndex = 12401;
+
 	class StrongChallengeBuffRow : public ::System::Object
 	{
 	public:

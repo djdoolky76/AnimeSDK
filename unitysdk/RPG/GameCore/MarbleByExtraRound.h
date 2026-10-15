@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MarbleByExtraRound; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleByExtraRound_TypeDefinitionIndex = 16893;
+
 	class MarbleByExtraRound : public ::RPG::GameCore::MarblePredicateConfig
 	{
 	public:

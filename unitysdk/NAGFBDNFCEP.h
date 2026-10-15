@@ -27,6 +27,8 @@ namespace System { class String; }
 #define NAGFBDNFCEP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAC1120)
 #define NAGFBDNFCEP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAC1180)
 
+inline static constexpr unsigned int NAGFBDNFCEP_TypeDefinitionIndex = 25972;
+
 	class NAGFBDNFCEP : public ::System::Object
 	{
 	public:

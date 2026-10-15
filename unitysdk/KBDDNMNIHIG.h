@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MonsterAssetPreloadConfig; }
 #define KBDDNMNIHIG_CTOR_OFFSET UNITYSDK_OFFSET(0xB2F0E30)
 #define KBDDNMNIHIG_DKMDDHAKNLH_OFFSET UNITYSDK_OFFSET(0xB2F0C40)
 
+inline static constexpr unsigned int KBDDNMNIHIG_TypeDefinitionIndex = 68286;
+
 	class KBDDNMNIHIG : public ::System::Object
 	{
 	public:

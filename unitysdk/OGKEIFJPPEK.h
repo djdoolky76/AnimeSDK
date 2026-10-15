@@ -17,6 +17,8 @@ namespace UnityEngine { class Component; }
 #define OGKEIFJPPEK_MMPNOMJPIJE_OFFSET UNITYSDK_OFFSET(0xBE59720)
 #define OGKEIFJPPEK_PDFMCHGIPBG_OFFSET UNITYSDK_OFFSET(0xBE59A00)
 
+inline static constexpr unsigned int OGKEIFJPPEK_TypeDefinitionIndex = 49046;
+
 	class OGKEIFJPPEK : public ::System::Object
 	{
 	public:

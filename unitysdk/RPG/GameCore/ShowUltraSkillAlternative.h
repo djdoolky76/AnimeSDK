@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowUltraSkillAlternative; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowUltraSkillAlternative_TypeDefinitionIndex = 22926;
+
 	class ShowUltraSkillAlternative : public ::RPG::GameCore::TaskConfig
 	{
 	public:

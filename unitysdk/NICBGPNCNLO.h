@@ -5,6 +5,8 @@ class DGKBJOHFPBK;
 class FABMDCOFHCG;
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
+inline static constexpr unsigned int NICBGPNCNLO_TypeDefinitionIndex = 57753;
+
 	struct alignas(8) NICBGPNCNLO
 	{
 		::RPG::GameCore::TurnbasedModifierDelayType JIOGAMNBGPH; // 0x10

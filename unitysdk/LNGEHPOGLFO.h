@@ -7,6 +7,8 @@
 #define LNGEHPOGLFO_AOKLJHMAIOG_OFFSET UNITYSDK_OFFSET(0x1C91E870)
 #define LNGEHPOGLFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C91E880)
 
+inline static constexpr unsigned int LNGEHPOGLFO_TypeDefinitionIndex = 41970;
+
 	class LNGEHPOGLFO : public ::System::Object
 	{
 	public:

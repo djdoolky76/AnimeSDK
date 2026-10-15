@@ -8,6 +8,8 @@ class PPNMNDKILGL;
 #define IBOLNDGHCBB___C__DISPLAYCLASS12_0___ONBATTLEENDSCRSP_B__0_OFFSET UNITYSDK_OFFSET(0x15E478D0)
 #define IBOLNDGHCBB___C__DISPLAYCLASS12_0___ONBATTLEENDSCRSP_B__1_OFFSET UNITYSDK_OFFSET(0x15E47900)
 
+inline static constexpr unsigned int IBOLNDGHCBB___c__DisplayClass12_0_TypeDefinitionIndex = 60993;
+
 	class IBOLNDGHCBB___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

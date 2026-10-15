@@ -10,6 +10,8 @@ namespace RPG::GameCore { class StanceLevelEffectRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StanceLevelEffectRow_TypeDefinitionIndex = 15178;
+
 	class StanceLevelEffectRow : public ::System::Object
 	{
 	public:

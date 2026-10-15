@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ByteHelper_TypeDefinitionIndex = 46124;
+
 	class ByteHelper : public ::System::Object
 	{
 	public:

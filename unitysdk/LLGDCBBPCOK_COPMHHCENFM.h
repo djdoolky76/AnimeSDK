@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define LLGDCBBPCOK_COPMHHCENFM_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB76C570)
 #define LLGDCBBPCOK_COPMHHCENFM_INVOKE_OFFSET UNITYSDK_OFFSET(0xB76C3E0)
 
+inline static constexpr unsigned int LLGDCBBPCOK_COPMHHCENFM_TypeDefinitionIndex = 51806;
+
 	class LLGDCBBPCOK_COPMHHCENFM : public ::System::MulticastDelegate
 	{
 	public:

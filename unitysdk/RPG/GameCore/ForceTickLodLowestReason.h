@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ForceTickLodLowestReason_TypeDefinitionIndex = 57786;
+
 	enum class ForceTickLodLowestReason : ::System::Int32
 	{
 		Default = 0,

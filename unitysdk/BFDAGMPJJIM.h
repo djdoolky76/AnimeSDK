@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BFDAGMPJJIM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB160820)
 #define BFDAGMPJJIM_TICK_OFFSET UNITYSDK_OFFSET(0xB160870)
 
+inline static constexpr unsigned int BFDAGMPJJIM_TypeDefinitionIndex = 52127;
+
 	class BFDAGMPJJIM
 	{
 	public:

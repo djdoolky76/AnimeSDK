@@ -9,6 +9,8 @@ namespace XLua { class MethodWrapsCache; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int MethodWrapsCache___c__DisplayClass7_0_TypeDefinitionIndex = 50218;
+
 	class MethodWrapsCache___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

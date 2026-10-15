@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SwordTrainingMoodData_TypeDefinitionIndex = 61982;
+
 	class SwordTrainingMoodData : public ::System::Object
 	{
 	public:

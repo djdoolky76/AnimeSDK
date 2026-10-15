@@ -17,6 +17,8 @@ namespace UnityEngine::Timeline { class SignalAsset; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int SignalEmitter_TypeDefinitionIndex = 38834;
+
 	class SignalEmitter : public ::UnityEngine::Timeline::Marker
 	{
 	public:

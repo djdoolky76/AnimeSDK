@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByCopying_TypeDefinitionIndex = 23824;
+
 	class SetDynamicValueByCopying : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

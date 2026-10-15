@@ -31,6 +31,8 @@ namespace System::IO { class StreamWriter; }
 #define CIFAECNJBLC_SET_SUBPACKID_OFFSET UNITYSDK_OFFSET(0x1C451010)
 #define CIFAECNJBLC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C4536E0)
 
+inline static constexpr unsigned int CIFAECNJBLC_TypeDefinitionIndex = 41489;
+
 	class CIFAECNJBLC : public ::System::Object
 	{
 	public:

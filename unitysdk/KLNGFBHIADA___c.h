@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KLNGFBHIADA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E892E60)
 #define KLNGFBHIADA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E892E70)
 
+inline static constexpr unsigned int KLNGFBHIADA___c_TypeDefinitionIndex = 34388;
+
 	class KLNGFBHIADA___c : public ::System::Object
 	{
 	public:

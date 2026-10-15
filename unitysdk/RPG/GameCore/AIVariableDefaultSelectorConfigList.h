@@ -11,6 +11,8 @@ namespace RPG::GameCore { class AIVariableDefaultSelectorConfigList; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AIVariableDefaultSelectorConfigList_TypeDefinitionIndex = 15611;
+
 	class AIVariableDefaultSelectorConfigList : public ::RPG::GameCore::AIVariable
 	{
 	public:

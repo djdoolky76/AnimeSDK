@@ -8,6 +8,8 @@ namespace RPG::GameCore { class SubMissionInfoConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionUtils_SubMissionSortItem_TypeDefinitionIndex = 66191;
+
 	class MissionUtils_SubMissionSortItem : public ::System::Object
 	{
 	public:

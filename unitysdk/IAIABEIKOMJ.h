@@ -7,6 +7,8 @@
 #define IAIABEIKOMJ_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x1C68A990)
 #define IAIABEIKOMJ_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x1C68A750)
 
+inline static constexpr unsigned int IAIABEIKOMJ_TypeDefinitionIndex = 37141;
+
 	class IAIABEIKOMJ : public ::System::Object
 	{
 	public:

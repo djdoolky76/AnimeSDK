@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebDelegate_CallJSPublishFunctionDelegate_TypeDefinitionIndex = 7845;
+
 	class WebDelegate_CallJSPublishFunctionDelegate : public ::System::MulticastDelegate
 	{
 	public:

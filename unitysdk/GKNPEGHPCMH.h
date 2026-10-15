@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GKNPEGHPCMH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4BD0F0)
 #define GKNPEGHPCMH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4BD150)
 
+inline static constexpr unsigned int GKNPEGHPCMH_TypeDefinitionIndex = 32998;
+
 	class GKNPEGHPCMH : public ::System::Object
 	{
 	public:

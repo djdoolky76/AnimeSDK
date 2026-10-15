@@ -7,6 +7,8 @@
 
 namespace UnityEngine::Experimental::Playables
 {
+	inline static constexpr unsigned int CameraPlayable_TypeDefinitionIndex = 4933;
+
 	struct alignas(4) CameraPlayable
 	{
 		::UnityEngine::Playables::PlayableHandle m_Handle; // 0x10

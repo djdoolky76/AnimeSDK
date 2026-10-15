@@ -17,6 +17,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define PHPKNKJCKOA_OOGCMLCLMJF_OFFSET UNITYSDK_OFFSET(0xC25A4F0)
 #define PHPKNKJCKOA_TICK_OFFSET UNITYSDK_OFFSET(0xC25A640)
 
+inline static constexpr unsigned int PHPKNKJCKOA_TypeDefinitionIndex = 52120;
+
 	class PHPKNKJCKOA
 	{
 	public:

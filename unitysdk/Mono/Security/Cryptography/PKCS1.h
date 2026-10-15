@@ -26,6 +26,8 @@ namespace System::Security::Cryptography { class RandomNumberGenerator; }
 
 namespace Mono::Security::Cryptography
 {
+	inline static constexpr unsigned int PKCS1_TypeDefinitionIndex = 71;
+
 	class PKCS1 : public ::System::Object
 	{
 	public:

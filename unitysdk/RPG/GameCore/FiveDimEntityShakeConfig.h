@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FiveDimEntityShakeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimEntityShakeConfig_TypeDefinitionIndex = 18749;
+
 	class FiveDimEntityShakeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SomatoWidthRangeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SomatoWidthRangeConfig_TypeDefinitionIndex = 17115;
+
 	class SomatoWidthRangeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

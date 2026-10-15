@@ -8,6 +8,8 @@ namespace System { class Exception; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Subscribe_TypeDefinitionIndex = 45601;
+
 	class Subscribe : public ::System::Object
 	{
 	public:

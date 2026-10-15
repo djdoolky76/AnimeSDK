@@ -58,6 +58,8 @@ namespace System { class String; }
 #define LKACFIKBFAJ_PDPAECHLBON_OFFSET UNITYSDK_OFFSET(0xB7254A0)
 #define LKACFIKBFAJ_PPNIOIFJNBP_OFFSET UNITYSDK_OFFSET(0xB7279A0)
 
+inline static constexpr unsigned int LKACFIKBFAJ_TypeDefinitionIndex = 81883;
+
 	class LKACFIKBFAJ : public ::System::Object
 	{
 	public:

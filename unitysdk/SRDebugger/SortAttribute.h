@@ -6,6 +6,8 @@
 
 namespace SRDebugger
 {
+	inline static constexpr unsigned int SortAttribute_TypeDefinitionIndex = 37961;
+
 	class SortAttribute : public ::System::Attribute
 	{
 	public:

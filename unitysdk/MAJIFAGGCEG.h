@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MAJIFAGGCEG_NFHKKGPKIKH_OFFSET UNITYSDK_OFFSET(0xB850390)
 #define MAJIFAGGCEG_ODJPDDAPNAH_OFFSET UNITYSDK_OFFSET(0xB850560)
 
+inline static constexpr unsigned int MAJIFAGGCEG_TypeDefinitionIndex = 62661;
+
 	class MAJIFAGGCEG : public ::System::Object
 	{
 	public:

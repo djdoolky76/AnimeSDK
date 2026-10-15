@@ -12,6 +12,8 @@ namespace RPG::Client { class QuestData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightDivisionLevelReward_TypeDefinitionIndex = 64539;
+
 	class GridFightDivisionLevelReward : public ::System::Object
 	{
 	public:

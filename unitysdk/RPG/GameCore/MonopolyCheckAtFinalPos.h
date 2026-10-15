@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonopolyCheckAtFinalPos_TypeDefinitionIndex = 20932;
+
 	class MonopolyCheckAtFinalPos : public ::RPG::GameCore::TaskConfig
 	{
 	public:

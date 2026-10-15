@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TarotExperimentSentence_TypeDefinitionIndex = 68060;
+
 	class TarotExperimentSentence : public ::System::Object
 	{
 	public:

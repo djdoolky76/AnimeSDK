@@ -23,6 +23,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NetworkManager___c_TypeDefinitionIndex = 69371;
+
 	class NetworkManager___c : public ::System::Object
 	{
 	public:

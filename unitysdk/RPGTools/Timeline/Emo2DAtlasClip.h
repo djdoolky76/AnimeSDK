@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int Emo2DAtlasClip_TypeDefinitionIndex = 48086;
+
 	class Emo2DAtlasClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

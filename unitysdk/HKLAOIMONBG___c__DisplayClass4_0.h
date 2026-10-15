@@ -10,6 +10,8 @@ namespace System { class Exception; }
 #define HKLAOIMONBG___C__DISPLAYCLASS4_0___DOENTERGAMEFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x15D4B3F0)
 #define HKLAOIMONBG___C__DISPLAYCLASS4_0___DOENTERGAMEFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x15D4B4F0)
 
+inline static constexpr unsigned int HKLAOIMONBG___c__DisplayClass4_0_TypeDefinitionIndex = 58172;
+
 	class HKLAOIMONBG___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

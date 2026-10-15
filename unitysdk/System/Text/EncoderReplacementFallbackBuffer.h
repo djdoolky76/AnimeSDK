@@ -14,6 +14,8 @@ namespace System::Text { class EncoderReplacementFallback; }
 
 namespace System::Text
 {
+	inline static constexpr unsigned int EncoderReplacementFallbackBuffer_TypeDefinitionIndex = 488;
+
 	class EncoderReplacementFallbackBuffer : public ::System::Text::EncoderFallbackBuffer
 	{
 	public:

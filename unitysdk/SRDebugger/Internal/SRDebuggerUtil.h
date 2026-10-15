@@ -26,6 +26,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace SRDebugger::Internal
 {
+	inline static constexpr unsigned int SRDebuggerUtil_TypeDefinitionIndex = 38108;
+
 	class SRDebuggerUtil : public ::System::Object
 	{
 	public:

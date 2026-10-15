@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AKGFMPCFOOK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3CB360)
 #define AKGFMPCFOOK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E3CB370)
 
+inline static constexpr unsigned int AKGFMPCFOOK___c_TypeDefinitionIndex = 34951;
+
 	class AKGFMPCFOOK___c : public ::System::Object
 	{
 	public:

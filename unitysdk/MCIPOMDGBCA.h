@@ -30,6 +30,8 @@ namespace System { class String; }
 #define MCIPOMDGBCA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9F8F60)
 #define MCIPOMDGBCA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9F8FC0)
 
+inline static constexpr unsigned int MCIPOMDGBCA_TypeDefinitionIndex = 29350;
+
 	class MCIPOMDGBCA : public ::System::Object
 	{
 	public:

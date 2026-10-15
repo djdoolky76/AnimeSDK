@@ -12,6 +12,8 @@
 
 namespace Cinemachine::Utility
 {
+	inline static constexpr unsigned int UnityQuaternionExtensions_TypeDefinitionIndex = 39898;
+
 	class UnityQuaternionExtensions : public ::System::Object
 	{
 	public:

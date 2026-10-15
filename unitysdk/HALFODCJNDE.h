@@ -65,6 +65,8 @@ namespace UnityEngine { class Texture2DArray; }
 #define HALFODCJNDE_PNKJAMGMLBJ_OFFSET UNITYSDK_OFFSET(0x15B89A80)
 #define HALFODCJNDE_SET_RESOURCEREVISION_OFFSET UNITYSDK_OFFSET(0x15B86810)
 
+inline static constexpr unsigned int HALFODCJNDE_TypeDefinitionIndex = 51777;
+
 	class HALFODCJNDE : public ::System::Object
 	{
 	public:

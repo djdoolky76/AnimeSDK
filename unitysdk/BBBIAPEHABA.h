@@ -38,6 +38,8 @@ namespace System { class String; }
 #define BBBIAPEHABA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7BD9B0)
 #define BBBIAPEHABA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7BDA10)
 
+inline static constexpr unsigned int BBBIAPEHABA_TypeDefinitionIndex = 25187;
+
 	class BBBIAPEHABA : public ::System::Object
 	{
 	public:

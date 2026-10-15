@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MazePuzzleWolfGunPlayLevelRow_TypeDefinitionIndex = 14085;
+
 	class MazePuzzleWolfGunPlayLevelRow : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyEventFadeInType_TypeDefinitionIndex = 24619;
+
 	enum class TrainPartyEventFadeInType : ::System::Int32
 	{
 		None = 0,

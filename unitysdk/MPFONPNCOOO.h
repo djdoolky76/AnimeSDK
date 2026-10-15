@@ -4,6 +4,8 @@
 
 #define MPFONPNCOOO_CTOR_OFFSET UNITYSDK_OFFSET(0xBA3D740)
 
+inline static constexpr unsigned int MPFONPNCOOO_TypeDefinitionIndex = 47880;
+
 	class MPFONPNCOOO : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

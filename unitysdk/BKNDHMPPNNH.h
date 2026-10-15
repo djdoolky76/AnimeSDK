@@ -12,6 +12,8 @@ namespace System { class String; }
 #define BKNDHMPPNNH_OPGLAKFNMLD_OFFSET UNITYSDK_OFFSET(0xBA60C00)
 #define BKNDHMPPNNH_PIMJNLHCGOL_OFFSET UNITYSDK_OFFSET(0xBA60C40)
 
+inline static constexpr unsigned int BKNDHMPPNNH_TypeDefinitionIndex = 73384;
+
 	class BKNDHMPPNNH : public ::System::Object
 	{
 	public:

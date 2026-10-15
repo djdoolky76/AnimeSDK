@@ -27,6 +27,8 @@ namespace System { class String; }
 #define HPGLOBODDMA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5F6160)
 #define HPGLOBODDMA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5F61C0)
 
+inline static constexpr unsigned int HPGLOBODDMA_TypeDefinitionIndex = 33778;
+
 	class HPGLOBODDMA : public ::System::Object
 	{
 	public:

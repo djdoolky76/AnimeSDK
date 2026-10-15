@@ -35,6 +35,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int NoticeManager_TypeDefinitionIndex = 8980;
+
 	class NoticeManager : public ::System::Object
 	{
 	public:

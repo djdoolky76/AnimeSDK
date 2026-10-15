@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HCHDLMIOOIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E53EF80)
 #define HCHDLMIOOIP___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E53EF90)
 
+inline static constexpr unsigned int HCHDLMIOOIP___c_TypeDefinitionIndex = 25115;
+
 	class HCHDLMIOOIP___c : public ::System::Object
 	{
 	public:

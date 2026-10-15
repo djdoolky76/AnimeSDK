@@ -5,6 +5,8 @@
 
 #define EDIMGPNEGOH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5FB2C0)
 
+inline static constexpr unsigned int EDIMGPNEGOH_TypeDefinitionIndex = 37216;
+
 	class EDIMGPNEGOH : public ::System::Object
 	{
 	public:

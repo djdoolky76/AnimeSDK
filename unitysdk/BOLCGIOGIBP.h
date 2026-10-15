@@ -40,6 +40,8 @@ namespace System { class String; }
 #define BOLCGIOGIBP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E03C7B0)
 #define BOLCGIOGIBP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E03C810)
 
+inline static constexpr unsigned int BOLCGIOGIBP_TypeDefinitionIndex = 26236;
+
 	class BOLCGIOGIBP : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace UnityEngine::Tilemaps
 {
+	inline static constexpr unsigned int Tilemap_TypeDefinitionIndex = 5858;
+
 	class Tilemap : public ::UnityEngine::GridLayout
 	{
 	public:

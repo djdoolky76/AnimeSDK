@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineVirtualCamera___c_TypeDefinitionIndex = 39768;
+
 	class CinemachineVirtualCamera___c : public ::System::Object
 	{
 	public:

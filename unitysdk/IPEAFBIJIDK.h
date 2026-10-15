@@ -10,6 +10,8 @@ namespace System { class Type; }
 #define IPEAFBIJIDK_FNAAJGAHIAI_OFFSET UNITYSDK_OFFSET(0x1651F1F0)
 #define IPEAFBIJIDK_IHPAKOMCHGP_OFFSET UNITYSDK_OFFSET(0x1651F2C0)
 
+inline static constexpr unsigned int IPEAFBIJIDK_TypeDefinitionIndex = 62592;
+
 	class IPEAFBIJIDK : public ::System::Object
 	{
 	public:

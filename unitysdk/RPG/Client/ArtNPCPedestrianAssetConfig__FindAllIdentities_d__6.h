@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ArtNPCPedestrianAssetConfig__FindAllIdentities_d__6_TypeDefinitionIndex = 69233;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	class ArtNPCPedestrianAssetConfig__FindAllIdentities_d__6 : public ::System::Object
 	{

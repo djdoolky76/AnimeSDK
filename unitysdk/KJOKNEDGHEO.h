@@ -25,6 +25,8 @@ namespace System { class String; }
 #define KJOKNEDGHEO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E873380)
 #define KJOKNEDGHEO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8733E0)
 
+inline static constexpr unsigned int KJOKNEDGHEO_TypeDefinitionIndex = 31428;
+
 	class KJOKNEDGHEO : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimResumeMusicAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimResumeMusicAction_TypeDefinitionIndex = 18701;
+
 	class FiveDimResumeMusicAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

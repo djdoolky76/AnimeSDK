@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CLBNCPOFNPB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0F33D0)
 #define CLBNCPOFNPB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0F3430)
 
+inline static constexpr unsigned int CLBNCPOFNPB_TypeDefinitionIndex = 27999;
+
 	class CLBNCPOFNPB : public ::System::Object
 	{
 	public:

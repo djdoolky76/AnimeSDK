@@ -12,6 +12,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamFormationComponent___c_TypeDefinitionIndex = 57710;
+
 	class TeamFormationComponent___c : public ::System::Object
 	{
 	public:

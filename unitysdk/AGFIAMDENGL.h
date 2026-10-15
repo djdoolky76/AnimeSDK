@@ -6,6 +6,8 @@ namespace RPG::GameCore { class WolfBroGunFire; }
 #define AGFIAMDENGL_CTOR_OFFSET UNITYSDK_OFFSET(0xCF29DA0)
 #define AGFIAMDENGL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF29DD0)
 
+inline static constexpr unsigned int AGFIAMDENGL_TypeDefinitionIndex = 58954;
+
 	class AGFIAMDENGL
 	{
 	public:

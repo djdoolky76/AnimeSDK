@@ -75,6 +75,8 @@ namespace UnityEngine::UI { class ScrollRect; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIUtils_TypeDefinitionIndex = 73189;
+
 	class UIUtils : public ::System::Object
 	{
 	public:

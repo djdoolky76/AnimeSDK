@@ -19,6 +19,8 @@ namespace UnityEngine::AI { class NavMeshModifier; }
 
 namespace UnityEngine::AI
 {
+	inline static constexpr unsigned int NavMeshModifier_TypeDefinitionIndex = 41350;
+
 	class NavMeshModifier : public ::UnityEngine::MonoBehaviour
 	{
 	public:

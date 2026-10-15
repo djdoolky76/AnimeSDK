@@ -7,6 +7,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NPCPedestrianGPUAssetConfig_WalkBakedData_TypeDefinitionIndex = 69240;
+
 	class NPCPedestrianGPUAssetConfig_WalkBakedData : public ::System::Object
 	{
 	public:

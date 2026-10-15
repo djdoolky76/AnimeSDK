@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TreasureDungeonFloorConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TreasureDungeonFloorConfigRow_TypeDefinitionIndex = 12524;
+
 	class TreasureDungeonFloorConfigRow : public ::System::Object
 	{
 	public:

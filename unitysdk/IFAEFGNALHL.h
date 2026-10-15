@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define IFAEFGNALHL_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0x15F07D00)
 #define IFAEFGNALHL_UPDATEDONE_OFFSET UNITYSDK_OFFSET(0x15F08500)
 
+inline static constexpr unsigned int IFAEFGNALHL_TypeDefinitionIndex = 64940;
+
 	class IFAEFGNALHL : public ::AMCOEFHHBPO
 	{
 	public:

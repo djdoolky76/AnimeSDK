@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 #define CHOOCCKKKDD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCF63870)
 #define CHOOCCKKKDD_ILEMLGEGLCC_OFFSET UNITYSDK_OFFSET(0xCF63630)
 
+inline static constexpr unsigned int CHOOCCKKKDD_TypeDefinitionIndex = 49848;
+
 	class CHOOCCKKKDD : public ::System::Object
 	{
 	public:

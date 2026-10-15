@@ -6,6 +6,8 @@ class LMFOOOLDECA;
 #define DNMDEIEANLA_CTOR_OFFSET UNITYSDK_OFFSET(0x11FD88C0)
 #define DNMDEIEANLA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x11FD88D0)
 
+inline static constexpr unsigned int DNMDEIEANLA_TypeDefinitionIndex = 77952;
+
 	class DNMDEIEANLA : public ::System::Object
 	{
 	public:

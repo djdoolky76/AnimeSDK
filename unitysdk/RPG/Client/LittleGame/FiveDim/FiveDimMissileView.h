@@ -15,6 +15,8 @@ namespace UnityEngine { class CapsuleCollider; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimMissileView_TypeDefinitionIndex = 77187;
+
 	class FiveDimMissileView : public ::RPG::Client::LittleGame::FiveDim::FiveDimPropView
 	{
 	public:

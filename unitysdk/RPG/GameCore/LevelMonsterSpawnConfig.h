@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelMonsterSpawnConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelMonsterSpawnConfig_TypeDefinitionIndex = 17248;
+
 	class LevelMonsterSpawnConfig : public ::RPG::GameCore::LevelEntitySpawnConfig
 	{
 	public:

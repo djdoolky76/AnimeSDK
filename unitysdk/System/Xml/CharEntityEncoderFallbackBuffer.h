@@ -15,6 +15,8 @@ namespace System::Xml { class CharEntityEncoderFallback; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int CharEntityEncoderFallbackBuffer_TypeDefinitionIndex = 1797;
+
 	class CharEntityEncoderFallbackBuffer : public ::System::Text::EncoderFallbackBuffer
 	{
 	public:

@@ -10,6 +10,8 @@
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int Finger_TypeDefinitionIndex = 40339;
+
 	class Finger : public ::HedgehogTeam::EasyTouch::BaseFinger
 	{
 	public:

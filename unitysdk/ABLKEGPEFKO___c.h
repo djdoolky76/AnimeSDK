@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define ABLKEGPEFKO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB107960)
 #define ABLKEGPEFKO___C__SETTRACKINGSUBMISSION_B__4_0_OFFSET UNITYSDK_OFFSET(0xB107970)
 
+inline static constexpr unsigned int ABLKEGPEFKO___c_TypeDefinitionIndex = 80177;
+
 	class ABLKEGPEFKO___c : public ::System::Object
 	{
 	public:

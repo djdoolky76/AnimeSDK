@@ -6,6 +6,8 @@ namespace RPG::Client::Promises { class Promise; }
 #define OOHFBGJHCMB___C__DISPLAYCLASS60_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBF83B40)
 #define OOHFBGJHCMB___C__DISPLAYCLASS60_0___SHOWCONFIRMFORCESAVENORMALLINEUPDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0xBF84370)
 
+inline static constexpr unsigned int OOHFBGJHCMB___c__DisplayClass60_0_TypeDefinitionIndex = 63166;
+
 	class OOHFBGJHCMB___c__DisplayClass60_0 : public ::System::Object
 	{
 	public:

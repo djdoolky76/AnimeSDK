@@ -4,6 +4,8 @@
 
 #define KMNMPNOPKEC_CTOR_OFFSET UNITYSDK_OFFSET(0xB569830)
 
+inline static constexpr unsigned int KMNMPNOPKEC_TypeDefinitionIndex = 47295;
+
 	class KMNMPNOPKEC : public ::System::Object
 	{
 	public:

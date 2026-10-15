@@ -6,6 +6,8 @@ namespace UnityEngine { class Transform; }
 
 namespace IRI2
 {
+	inline static constexpr unsigned int IRIClusterVolumeInfo_TypeDefinitionIndex = 49666;
+
 	struct alignas(8) IRIClusterVolumeInfo
 	{
 		::UnityEngine::Transform* TransformComp; // 0x10

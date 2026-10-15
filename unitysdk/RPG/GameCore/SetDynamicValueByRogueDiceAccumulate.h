@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetDynamicValueByRogueDiceAccumulate; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByRogueDiceAccumulate_TypeDefinitionIndex = 21793;
+
 	class SetDynamicValueByRogueDiceAccumulate : public ::RPG::GameCore::TaskConfig
 	{
 	public:

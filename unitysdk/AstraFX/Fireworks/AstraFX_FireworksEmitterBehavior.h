@@ -9,6 +9,8 @@ namespace AstraFX::Fireworks { class AstraFX_FireworksEmitter; }
 
 namespace AstraFX::Fireworks
 {
+	inline static constexpr unsigned int AstraFX_FireworksEmitterBehavior_TypeDefinitionIndex = 49028;
+
 	class AstraFX_FireworksEmitterBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

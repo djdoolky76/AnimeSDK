@@ -76,6 +76,8 @@ namespace System::IO { class Stream; }
 
 namespace SimpleJSON
 {
+	inline static constexpr unsigned int JSONNode_TypeDefinitionIndex = 9952;
+
 	class JSONNode : public ::System::Object
 	{
 	public:

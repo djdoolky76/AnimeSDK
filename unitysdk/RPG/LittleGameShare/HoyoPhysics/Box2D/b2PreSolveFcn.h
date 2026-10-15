@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int b2PreSolveFcn_TypeDefinitionIndex = 36648;
+
 	class b2PreSolveFcn : public ::System::MulticastDelegate
 	{
 	public:

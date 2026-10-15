@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimAnimatorStateListenerConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimAnimatorStateListenerConfig_TypeDefinitionIndex = 18641;
+
 	class FiveDimAnimatorStateListenerConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

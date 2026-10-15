@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerWalkingEffect_TypeDefinitionIndex = 22431;
+
 	class TriggerWalkingEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

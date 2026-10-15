@@ -14,6 +14,8 @@ namespace RPGTools::Timeline { class BlusherData; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int BlusherData_TypeDefinitionIndex = 48120;
+
 	class BlusherData : public ::System::Object
 	{
 	public:

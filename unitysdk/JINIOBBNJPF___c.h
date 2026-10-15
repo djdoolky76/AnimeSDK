@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JINIOBBNJPF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E753EF0)
 #define JINIOBBNJPF___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E753F00)
 
+inline static constexpr unsigned int JINIOBBNJPF___c_TypeDefinitionIndex = 32457;
+
 	class JINIOBBNJPF___c : public ::System::Object
 	{
 	public:

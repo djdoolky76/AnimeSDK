@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GGGFPEMNIMN_CTOR_OFFSET UNITYSDK_OFFSET(0x15A03EE0)
 #define GGGFPEMNIMN_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x15A03F00)
 
+inline static constexpr unsigned int GGGFPEMNIMN_TypeDefinitionIndex = 60348;
+
 	class GGGFPEMNIMN : public ::EFNJLACKEDH
 	{
 	public:

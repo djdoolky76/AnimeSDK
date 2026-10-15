@@ -34,6 +34,8 @@ namespace System { class String; }
 #define DIJHCMKKLBJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1C0270)
 #define DIJHCMKKLBJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1C02D0)
 
+inline static constexpr unsigned int DIJHCMKKLBJ_TypeDefinitionIndex = 27868;
+
 	class DIJHCMKKLBJ : public ::System::Object
 	{
 	public:

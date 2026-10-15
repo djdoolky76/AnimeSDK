@@ -13,6 +13,8 @@ namespace RPG::Client { class ServerDispatchData; }
 #define MKOKEBODEGN_JILHHHNCPPL_OFFSET UNITYSDK_OFFSET(0xB9A25E0)
 #define MKOKEBODEGN_LKCEHIJOJMN_OFFSET UNITYSDK_OFFSET(0xB9A22A0)
 
+inline static constexpr unsigned int MKOKEBODEGN_TypeDefinitionIndex = 59633;
+
 	class MKOKEBODEGN : public ::System::Object
 	{
 	public:

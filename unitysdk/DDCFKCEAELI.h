@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DDCFKCEAELI_CTOR_OFFSET UNITYSDK_OFFSET(0xE25D960)
 #define DDCFKCEAELI_FEOIFJONLCH_OFFSET UNITYSDK_OFFSET(0xE25D0A0)
 
+inline static constexpr unsigned int DDCFKCEAELI_TypeDefinitionIndex = 77525;
+
 	class DDCFKCEAELI : public ::System::Object
 	{
 	public:

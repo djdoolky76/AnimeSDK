@@ -6,6 +6,8 @@ namespace RPG::Client { class PlanetFesTradingCardFriendsItem; }
 #define LKHNGFLCKBD_COMPARE_OFFSET UNITYSDK_OFFSET(0xB74E340)
 #define LKHNGFLCKBD_CTOR_OFFSET UNITYSDK_OFFSET(0xB74E710)
 
+inline static constexpr unsigned int LKHNGFLCKBD_TypeDefinitionIndex = 66593;
+
 	class LKHNGFLCKBD : public ::System::Object
 	{
 	public:

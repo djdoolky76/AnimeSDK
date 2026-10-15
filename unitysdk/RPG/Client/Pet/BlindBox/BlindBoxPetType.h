@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Pet::BlindBox
 {
+	inline static constexpr unsigned int BlindBoxPetType_TypeDefinitionIndex = 75736;
+
 	struct alignas(4) BlindBoxPetType
 	{
 		::RPG::Client::Pet::BlindBox::BlindBoxPetKind _Value_k__BackingField; // 0x10

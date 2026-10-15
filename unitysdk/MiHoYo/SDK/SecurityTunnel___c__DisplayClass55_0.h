@@ -11,6 +11,8 @@ namespace System::Timers { class ElapsedEventArgs; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass55_0_TypeDefinitionIndex = 46421;
+
 	class SecurityTunnel___c__DisplayClass55_0 : public ::System::Object
 	{
 	public:

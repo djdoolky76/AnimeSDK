@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TriggerAetherDivideBattle; }
 #define LNOEGFHJMJI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB7E9B80)
 #define LNOEGFHJMJI_TICK_OFFSET UNITYSDK_OFFSET(0xB7EA020)
 
+inline static constexpr unsigned int LNOEGFHJMJI_TypeDefinitionIndex = 58768;
+
 	class LNOEGFHJMJI : public ::GELIALJDFBL
 	{
 	public:

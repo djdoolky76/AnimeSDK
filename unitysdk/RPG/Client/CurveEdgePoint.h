@@ -11,6 +11,8 @@ namespace RPG::Client { class CurveUndirectedEdge; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CurveEdgePoint_TypeDefinitionIndex = 68566;
+
 	struct alignas(8) CurveEdgePoint
 	{
 		::RPG::Client::ECurveEdgePoint point; // 0x10

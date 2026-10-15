@@ -34,6 +34,8 @@ namespace RPG::GameCore { class RogueRoomRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueSiteData_TypeDefinitionIndex = 67462;
+
 	class RogueSiteData : public ::System::Object
 	{
 	public:

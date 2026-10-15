@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define EMGAGCLHCNL_SET_ISENABLE_OFFSET UNITYSDK_OFFSET(0x15534CE0)
 #define EMGAGCLHCNL__LOADINDEXINFO_OFFSET UNITYSDK_OFFSET(0x15534CF0)
 
+inline static constexpr unsigned int EMGAGCLHCNL_TypeDefinitionIndex = 59470;
+
 	class EMGAGCLHCNL
 	{
 	public:

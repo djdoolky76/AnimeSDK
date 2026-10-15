@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace SRDebugger::Services
 {
+	inline static constexpr unsigned int ConsoleEntry_TypeDefinitionIndex = 38056;
+
 	class ConsoleEntry : public ::System::Object
 	{
 	public:

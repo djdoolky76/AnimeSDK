@@ -25,6 +25,8 @@ namespace System { class String; }
 #define LIOGDHEFOGD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E972A50)
 #define LIOGDHEFOGD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E972AB0)
 
+inline static constexpr unsigned int LIOGDHEFOGD_TypeDefinitionIndex = 30809;
+
 	class LIOGDHEFOGD : public ::System::Object
 	{
 	public:

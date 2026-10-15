@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetImmediateAction_TypeDefinitionIndex = 22703;
+
 	class SetImmediateAction : public ::RPG::GameCore::TaskConfig
 	{
 	public:

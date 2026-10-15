@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirGamePrepareWindow___c_TypeDefinitionIndex = 79233;
+
 	class PixAirGamePrepareWindow___c : public ::System::Object
 	{
 	public:

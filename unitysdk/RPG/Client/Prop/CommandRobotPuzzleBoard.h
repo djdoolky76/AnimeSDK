@@ -63,6 +63,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int CommandRobotPuzzleBoard_TypeDefinitionIndex = 78512;
+
 	class CommandRobotPuzzleBoard : public ::RPG::Client::Prop::BlockPuzzleBase
 	{
 	public:

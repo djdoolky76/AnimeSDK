@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LIBBPNHIGAG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E96A3C0)
 #define LIBBPNHIGAG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E96A420)
 
+inline static constexpr unsigned int LIBBPNHIGAG_TypeDefinitionIndex = 28410;
+
 	class LIBBPNHIGAG : public ::System::Object
 	{
 	public:

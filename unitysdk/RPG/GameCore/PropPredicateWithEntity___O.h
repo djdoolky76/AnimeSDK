@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropPredicateWithEntity___O_TypeDefinitionIndex = 22019;
+
 	class PropPredicateWithEntity___O : public ::System::Object
 	{
 	public:

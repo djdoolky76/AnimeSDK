@@ -12,6 +12,8 @@ namespace UnityEngine { class AnimationClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SampleAnimationBehaviour_TypeDefinitionIndex = 47860;
+
 	class SampleAnimationBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

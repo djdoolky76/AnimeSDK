@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int PluginUIBridgeMethodParams_TypeDefinitionIndex = 9170;
+
 	class PluginUIBridgeMethodParams : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCanPlayIdleShow_TypeDefinitionIndex = 21087;
+
 	class ByCanPlayIdleShow : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

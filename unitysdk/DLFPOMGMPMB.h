@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DLFPOMGMPMB_CTOR_OFFSET UNITYSDK_OFFSET(0xF89F180)
 #define DLFPOMGMPMB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF89F1D0)
 
+inline static constexpr unsigned int DLFPOMGMPMB_TypeDefinitionIndex = 59132;
+
 	class DLFPOMGMPMB
 	{
 	public:

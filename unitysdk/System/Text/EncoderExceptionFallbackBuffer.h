@@ -11,6 +11,8 @@
 
 namespace System::Text
 {
+	inline static constexpr unsigned int EncoderExceptionFallbackBuffer_TypeDefinitionIndex = 482;
+
 	class EncoderExceptionFallbackBuffer : public ::System::Text::EncoderFallbackBuffer
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define LDEKBGAOMFJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8F6400)
 #define LDEKBGAOMFJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8F6460)
 
+inline static constexpr unsigned int LDEKBGAOMFJ_TypeDefinitionIndex = 25060;
+
 	class LDEKBGAOMFJ : public ::System::Object
 	{
 	public:

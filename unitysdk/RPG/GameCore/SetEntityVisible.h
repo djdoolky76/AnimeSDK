@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetEntityVisible_TypeDefinitionIndex = 20601;
+
 	class SetEntityVisible : public ::RPG::GameCore::TaskConfig
 	{
 	public:

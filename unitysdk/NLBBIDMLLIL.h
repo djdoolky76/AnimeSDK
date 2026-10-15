@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 
 #define NLBBIDMLLIL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBC603C0)
 
+inline static constexpr unsigned int NLBBIDMLLIL_TypeDefinitionIndex = 68997;
+
 	class NLBBIDMLLIL : public ::System::Object
 	{
 	public:

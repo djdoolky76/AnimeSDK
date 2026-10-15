@@ -5,6 +5,8 @@ namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
 
+inline static constexpr unsigned int MDOCPCEPNBC___c_TypeDefinitionIndex = 49240;
+
 	class MDOCPCEPNBC___c : public ::System::Object
 	{
 	public:

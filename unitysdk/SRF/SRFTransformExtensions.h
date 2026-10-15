@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 
 namespace SRF
 {
+	inline static constexpr unsigned int SRFTransformExtensions_TypeDefinitionIndex = 35372;
+
 	class SRFTransformExtensions : public ::System::Object
 	{
 	public:

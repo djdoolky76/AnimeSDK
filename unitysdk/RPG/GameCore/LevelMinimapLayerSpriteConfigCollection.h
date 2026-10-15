@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelMinimapLayerSpriteConfigCollection; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelMinimapLayerSpriteConfigCollection_TypeDefinitionIndex = 17221;
+
 	class LevelMinimapLayerSpriteConfigCollection : public ::RPG::GameCore::JsonConfig
 	{
 	public:

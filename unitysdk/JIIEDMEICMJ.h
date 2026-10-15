@@ -7,6 +7,8 @@ namespace System { class Action; }
 
 #define JIIEDMEICMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB9E830)
 
+inline static constexpr unsigned int JIIEDMEICMJ_TypeDefinitionIndex = 43690;
+
 	class JIIEDMEICMJ : public ::System::Object
 	{
 	public:

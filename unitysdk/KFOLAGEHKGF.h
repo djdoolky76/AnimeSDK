@@ -6,6 +6,8 @@
 #define KFOLAGEHKGF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CBB8030)
 #define KFOLAGEHKGF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB80B0)
 
+inline static constexpr unsigned int KFOLAGEHKGF_TypeDefinitionIndex = 43409;
+
 	class KFOLAGEHKGF : public ::System::Object
 	{
 	public:

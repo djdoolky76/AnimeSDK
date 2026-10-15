@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftObtainMechatronUI3DViewModel_TypeDefinitionIndex = 79653;
+
 	class MechCraftObtainMechatronUI3DViewModel : public ::System::Object
 	{
 	public:

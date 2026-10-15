@@ -11,6 +11,8 @@ namespace System { class Action; }
 #define JHPIHKLNMPO_NNAGLJCMMGD_OFFSET UNITYSDK_OFFSET(0xB1C9610)
 #define JHPIHKLNMPO_NONJDKKDDLE_OFFSET UNITYSDK_OFFSET(0xB1C94F0)
 
+inline static constexpr unsigned int JHPIHKLNMPO_TypeDefinitionIndex = 60474;
+
 	class JHPIHKLNMPO : public ::System::Object
 	{
 	public:

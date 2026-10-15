@@ -8,6 +8,8 @@ class MPCOPCFENHI;
 #define MPCOPCFENHI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1DDAE0)
 #define MPCOPCFENHI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1DDAA0)
 
+inline static constexpr unsigned int MPCOPCFENHI_TypeDefinitionIndex = 10231;
+
 	class MPCOPCFENHI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

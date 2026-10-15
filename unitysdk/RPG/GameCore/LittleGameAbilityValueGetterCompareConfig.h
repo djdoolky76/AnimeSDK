@@ -12,6 +12,8 @@ namespace RPG::GameCore { class LittleGameAbilityValueGetterCompareConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityValueGetterCompareConfig_TypeDefinitionIndex = 21389;
+
 	class LittleGameAbilityValueGetterCompareConfig : public ::RPG::GameCore::BaseLittleGameAbilityValueGetterConfig
 	{
 	public:

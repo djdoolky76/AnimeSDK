@@ -28,6 +28,8 @@ namespace System { class String; }
 #define EFCCMLAKABO_OOCLHGCIMEP_OFFSET UNITYSDK_OFFSET(0x1C461B70)
 #define EFCCMLAKABO_SET_BATTLESERVERVERSION_OFFSET UNITYSDK_OFFSET(0x1C4628B0)
 
+inline static constexpr unsigned int EFCCMLAKABO_TypeDefinitionIndex = 41391;
+
 	class EFCCMLAKABO : public ::System::Object
 	{
 	public:

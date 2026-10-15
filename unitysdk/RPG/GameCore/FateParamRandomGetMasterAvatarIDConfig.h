@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateParamRandomGetMasterAvatarIDConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateParamRandomGetMasterAvatarIDConfig_TypeDefinitionIndex = 16632;
+
 	class FateParamRandomGetMasterAvatarIDConfig : public ::RPG::GameCore::FateParameterConfigBase
 	{
 	public:

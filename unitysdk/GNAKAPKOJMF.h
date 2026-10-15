@@ -10,6 +10,8 @@ class FPNHGPEICOG;
 #define GNAKAPKOJMF_CTOR_OFFSET UNITYSDK_OFFSET(0x15AF5A10)
 #define GNAKAPKOJMF_ILOHHJDPDBE_OFFSET UNITYSDK_OFFSET(0x15AF35F0)
 
+inline static constexpr unsigned int GNAKAPKOJMF_TypeDefinitionIndex = 53689;
+
 	class GNAKAPKOJMF : public ::System::Object
 	{
 	public:

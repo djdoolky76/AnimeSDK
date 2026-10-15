@@ -93,6 +93,8 @@ namespace UnityEngine { class Material; }
 #define NINPCAHNCBJ__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xBBFF7E0)
 #define NINPCAHNCBJ__ONTICK_OFFSET UNITYSDK_OFFSET(0xBBFF9B0)
 
+inline static constexpr unsigned int NINPCAHNCBJ_TypeDefinitionIndex = 71719;
+
 	class NINPCAHNCBJ : public ::FMPCODLIOLG
 	{
 	public:

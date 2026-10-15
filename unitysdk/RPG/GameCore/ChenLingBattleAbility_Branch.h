@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChenLingBattleAbility_Branch; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAbility_Branch_TypeDefinitionIndex = 15748;
+
 	class ChenLingBattleAbility_Branch : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
 	public:

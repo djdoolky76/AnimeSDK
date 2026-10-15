@@ -3,6 +3,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int DynamicResolutionHeuristicProxy_FrameTimeInfo_TypeDefinitionIndex = 37718;
+
 	struct alignas(4) DynamicResolutionHeuristicProxy_FrameTimeInfo
 	{
 		::System::Single CPUTime; // 0x10

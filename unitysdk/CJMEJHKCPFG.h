@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CJMEJHKCPFG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD4D21C0)
 #define CJMEJHKCPFG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD4D1C40)
 
+inline static constexpr unsigned int CJMEJHKCPFG_TypeDefinitionIndex = 54859;
+
 	class CJMEJHKCPFG
 	{
 	public:

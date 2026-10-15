@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerPamActionPhaseMove; }
 #define AJMKGLAFBGE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12CC7990)
 #define AJMKGLAFBGE_TICK_OFFSET UNITYSDK_OFFSET(0x12CC7A60)
 
+inline static constexpr unsigned int AJMKGLAFBGE_TypeDefinitionIndex = 58980;
+
 	class AJMKGLAFBGE : public ::GELIALJDFBL
 	{
 	public:

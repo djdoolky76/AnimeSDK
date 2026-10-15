@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define FAJOKAOEELI_JGHDBJLBEEG_OFFSET UNITYSDK_OFFSET(0x1C551950)
 #define FAJOKAOEELI_KANMCJHEFJJ_OFFSET UNITYSDK_OFFSET(0x1C551B80)
 
+inline static constexpr unsigned int FAJOKAOEELI_TypeDefinitionIndex = 41842;
+
 	class FAJOKAOEELI : public ::JEBPFBNCALB
 	{
 	public:

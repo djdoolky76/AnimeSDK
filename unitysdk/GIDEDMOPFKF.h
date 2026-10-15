@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GIDEDMOPFKF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4939A0)
 #define GIDEDMOPFKF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E493A00)
 
+inline static constexpr unsigned int GIDEDMOPFKF_TypeDefinitionIndex = 29205;
+
 	class GIDEDMOPFKF : public ::System::Object
 	{
 	public:

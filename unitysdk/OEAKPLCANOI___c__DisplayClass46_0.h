@@ -7,6 +7,8 @@ namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelStruct
 #define OEAKPLCANOI___C__DISPLAYCLASS46_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBDFBB40)
 #define OEAKPLCANOI___C__DISPLAYCLASS46_0___TRYRESTOREDIMENSIONUPGRADESTATE_B__0_OFFSET UNITYSDK_OFFSET(0xBDFE210)
 
+inline static constexpr unsigned int OEAKPLCANOI___c__DisplayClass46_0_TypeDefinitionIndex = 60402;
+
 	class OEAKPLCANOI___c__DisplayClass46_0 : public ::System::Object
 	{
 	public:

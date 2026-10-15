@@ -17,6 +17,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginFrameCapture_TypeDefinitionIndex = 70069;
+
 	class MonoEffectPluginFrameCapture : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

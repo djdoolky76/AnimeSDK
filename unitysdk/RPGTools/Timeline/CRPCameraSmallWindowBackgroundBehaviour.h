@@ -10,6 +10,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CRPCameraSmallWindowBackgroundBehaviour_TypeDefinitionIndex = 47891;
+
 	class CRPCameraSmallWindowBackgroundBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

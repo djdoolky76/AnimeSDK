@@ -4,6 +4,8 @@
 
 #define AKSPATIALAUDIODEBUGDRAW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F607810)
 
+inline static constexpr unsigned int AkSpatialAudioDebugDraw_TypeDefinitionIndex = 44951;
+
 	class AkSpatialAudioDebugDraw : public ::UnityEngine::MonoBehaviour
 	{
 	public:

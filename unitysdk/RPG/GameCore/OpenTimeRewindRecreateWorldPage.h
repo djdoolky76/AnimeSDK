@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TimeRewindRecreateWorldTaskTrigger; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OpenTimeRewindRecreateWorldPage_TypeDefinitionIndex = 20664;
+
 	class OpenTimeRewindRecreateWorldPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

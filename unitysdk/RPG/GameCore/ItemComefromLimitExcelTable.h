@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ItemComefromLimitExcelTable_TypeDefinitionIndex = 13868;
+
 	class ItemComefromLimitExcelTable : public ::System::Object
 	{
 	public:

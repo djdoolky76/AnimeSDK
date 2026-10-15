@@ -48,6 +48,8 @@ namespace System { class String; }
 #define BLIOAJGEJNN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF63C00)
 #define BLIOAJGEJNN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF63C60)
 
+inline static constexpr unsigned int BLIOAJGEJNN_TypeDefinitionIndex = 30406;
+
 	class BLIOAJGEJNN : public ::System::Object
 	{
 	public:

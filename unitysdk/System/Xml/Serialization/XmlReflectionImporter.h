@@ -46,6 +46,8 @@ namespace System::Xml::Serialization { class XmlTypeMapping; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlReflectionImporter_TypeDefinitionIndex = 2018;
+
 	class XmlReflectionImporter : public ::System::Object
 	{
 	public:

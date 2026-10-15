@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetCharacterVisibleInViewMode_TypeDefinitionIndex = 23189;
+
 	class SetCharacterVisibleInViewMode : public ::RPG::GameCore::TaskConfig
 	{
 	public:

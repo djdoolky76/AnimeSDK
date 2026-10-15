@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BMLKCANIDOP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBDBEA70)
 #define BMLKCANIDOP_TICK_OFFSET UNITYSDK_OFFSET(0xBDBEAC0)
 
+inline static constexpr unsigned int BMLKCANIDOP_TypeDefinitionIndex = 55208;
+
 	class BMLKCANIDOP : public ::GELIALJDFBL
 	{
 	public:

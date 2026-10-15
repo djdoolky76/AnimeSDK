@@ -6,6 +6,8 @@
 
 #define BCJBOEIPPDN_CTOR_OFFSET UNITYSDK_OFFSET(0x15EAAAD0)
 
+inline static constexpr unsigned int BCJBOEIPPDN_TypeDefinitionIndex = 81276;
+
 	class BCJBOEIPPDN : public ::System::Object
 	{
 	public:

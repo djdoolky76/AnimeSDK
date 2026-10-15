@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int SimpleViewService_1_AssetAsyncLoadHandle___c_TypeDefinitionIndex = 76530;
+
 	template <typename T>
 	class SimpleViewService_1_AssetAsyncLoadHandle___c : public ::System::Object
 	{

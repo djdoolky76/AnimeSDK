@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_VolumeCachePreset_TypeDefinitionIndex = 40370;
+
 	class HEU_VolumeCachePreset : public ::System::Object
 	{
 	public:

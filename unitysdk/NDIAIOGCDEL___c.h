@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define NDIAIOGCDEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBB49B30)
 #define NDIAIOGCDEL___C___CHECKACTIVE_B__1_0_OFFSET UNITYSDK_OFFSET(0xBB49B40)
 
+inline static constexpr unsigned int NDIAIOGCDEL___c_TypeDefinitionIndex = 65492;
+
 	class NDIAIOGCDEL___c : public ::System::Object
 	{
 	public:

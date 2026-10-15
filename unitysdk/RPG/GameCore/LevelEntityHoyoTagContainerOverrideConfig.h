@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelEntityHoyoTagContainerOverrideConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEntityHoyoTagContainerOverrideConfig_TypeDefinitionIndex = 17205;
+
 	class LevelEntityHoyoTagContainerOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

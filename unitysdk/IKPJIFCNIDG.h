@@ -30,6 +30,8 @@ namespace RPG::GameCore { class JsonEnum; }
 #define IKPJIFCNIDG_PJMPLOFNEOO_OFFSET UNITYSDK_OFFSET(0x164A0880)
 #define IKPJIFCNIDG__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0x1649FFB0)
 
+inline static constexpr unsigned int IKPJIFCNIDG_TypeDefinitionIndex = 53979;
+
 	class IKPJIFCNIDG : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

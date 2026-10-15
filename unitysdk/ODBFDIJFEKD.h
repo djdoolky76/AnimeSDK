@@ -41,6 +41,8 @@ namespace UnityEngine { class Transform; }
 #define ODBFDIJFEKD_PAGPNCFMJIM_OFFSET UNITYSDK_OFFSET(0xBD78290)
 #define ODBFDIJFEKD_PFLPBLBKAHE_OFFSET UNITYSDK_OFFSET(0xBD78300)
 
+inline static constexpr unsigned int ODBFDIJFEKD_TypeDefinitionIndex = 49008;
+
 	class ODBFDIJFEKD : public ::System::Object
 	{
 	public:

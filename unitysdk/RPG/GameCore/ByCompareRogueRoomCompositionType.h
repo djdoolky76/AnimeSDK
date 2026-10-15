@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ByCompareRogueRoomCompositionType; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareRogueRoomCompositionType_TypeDefinitionIndex = 20803;
+
 	class ByCompareRogueRoomCompositionType : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

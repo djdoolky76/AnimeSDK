@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class Image; }
 #define LDBHPHOEIME_NJBDJBHEBAN_OFFSET UNITYSDK_OFFSET(0xB61C570)
 #define LDBHPHOEIME__ONBIND_OFFSET UNITYSDK_OFFSET(0xB61C260)
 
+inline static constexpr unsigned int LDBHPHOEIME_TypeDefinitionIndex = 71387;
+
 	class LDBHPHOEIME : public ::FMPCODLIOLG
 	{
 	public:

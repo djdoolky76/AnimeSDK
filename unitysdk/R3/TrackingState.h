@@ -19,6 +19,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace R3
 {
+	inline static constexpr unsigned int TrackingState_TypeDefinitionIndex = 35928;
+
 	struct alignas(8) TrackingState
 	{
 		::System::Int32 _TrackingId_k__BackingField; // 0x10

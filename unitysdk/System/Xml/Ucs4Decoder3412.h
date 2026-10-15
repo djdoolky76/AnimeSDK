@@ -7,6 +7,8 @@
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int Ucs4Decoder3412_TypeDefinitionIndex = 1961;
+
 	class Ucs4Decoder3412 : public ::System::Xml::Ucs4Decoder
 	{
 	public:

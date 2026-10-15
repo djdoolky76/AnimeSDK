@@ -405,6 +405,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EKJAOIOPBIO_PNMPOPOHLBF_OFFSET UNITYSDK_OFFSET(0x1CA5A700)
 #define EKJAOIOPBIO_PNNJOOEDCML_OFFSET UNITYSDK_OFFSET(0x1CA5F470)
 
+inline static constexpr unsigned int EKJAOIOPBIO_TypeDefinitionIndex = 42598;
+
 	class EKJAOIOPBIO
 	{
 	public:

@@ -10,6 +10,8 @@ class KIDPCOMKMKJ;
 #define NMEDAAEMNNP_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1C972A20)
 #define NMEDAAEMNNP_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1C972B10)
 
+inline static constexpr unsigned int NMEDAAEMNNP_TypeDefinitionIndex = 42468;
+
 	class NMEDAAEMNNP : public ::System::Object
 	{
 	public:

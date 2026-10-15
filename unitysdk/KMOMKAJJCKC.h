@@ -59,6 +59,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define KMOMKAJJCKC_OPFFMPOCPIE_OFFSET UNITYSDK_OFFSET(0xB571350)
 #define KMOMKAJJCKC_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB56F2F0)
 
+inline static constexpr unsigned int KMOMKAJJCKC_TypeDefinitionIndex = 75931;
+
 	class KMOMKAJJCKC : public ::System::Object
 	{
 	public:

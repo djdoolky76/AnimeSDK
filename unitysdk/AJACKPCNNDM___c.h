@@ -9,6 +9,8 @@ namespace UnityEngine { class Renderer; }
 #define AJACKPCNNDM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x12CB0F70)
 #define AJACKPCNNDM___C___COLLECTRENDERERS_B__8_0_OFFSET UNITYSDK_OFFSET(0x12CB0F80)
 
+inline static constexpr unsigned int AJACKPCNNDM___c_TypeDefinitionIndex = 60202;
+
 	class AJACKPCNNDM___c : public ::System::Object
 	{
 	public:

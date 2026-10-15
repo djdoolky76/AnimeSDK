@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::PS
 {
+	inline static constexpr unsigned int PSAccountBindingDialog___c_TypeDefinitionIndex = 8932;
+
 	class PSAccountBindingDialog___c : public ::System::Object
 	{
 	public:

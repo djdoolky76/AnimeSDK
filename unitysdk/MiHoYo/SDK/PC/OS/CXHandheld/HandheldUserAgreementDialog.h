@@ -30,6 +30,8 @@ namespace UnityEngine::UI { class ScrollRect; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int HandheldUserAgreementDialog_TypeDefinitionIndex = 8819;
+
 	class HandheldUserAgreementDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:

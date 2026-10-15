@@ -15,6 +15,8 @@ namespace System::Reflection { class Binder; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int RtFieldInfo_TypeDefinitionIndex = 618;
+
 	class RtFieldInfo : public ::System::Reflection::RuntimeFieldInfo
 	{
 	public:

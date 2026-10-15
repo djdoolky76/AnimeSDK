@@ -8,6 +8,8 @@ namespace System::Security::Cryptography { class RIPEMD160; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int RIPEMD160_TypeDefinitionIndex = 1046;
+
 	class RIPEMD160 : public ::System::Security::Cryptography::HashAlgorithm
 	{
 	public:

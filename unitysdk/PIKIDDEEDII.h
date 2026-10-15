@@ -28,6 +28,8 @@ namespace System { class String; }
 #define PIKIDDEEDII_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF6B3B0)
 #define PIKIDDEEDII_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF6B410)
 
+inline static constexpr unsigned int PIKIDDEEDII_TypeDefinitionIndex = 28319;
+
 	class PIKIDDEEDII : public ::System::Object
 	{
 	public:

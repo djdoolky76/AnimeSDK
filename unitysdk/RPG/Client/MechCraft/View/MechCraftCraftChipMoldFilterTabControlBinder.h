@@ -8,6 +8,8 @@ namespace RPG::Client { class AnimatorButton; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftChipMoldFilterTabControlBinder_TypeDefinitionIndex = 79862;
+
 	class MechCraftCraftChipMoldFilterTabControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

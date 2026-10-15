@@ -10,6 +10,8 @@ namespace SuperScrollView { class LoopListViewItem2; }
 #define NOMGIFNFIJD_EXIT_OFFSET UNITYSDK_OFFSET(0xBCF3AC0)
 #define NOMGIFNFIJD_TICK_OFFSET UNITYSDK_OFFSET(0xBCF39B0)
 
+inline static constexpr unsigned int NOMGIFNFIJD_TypeDefinitionIndex = 64454;
+
 	class NOMGIFNFIJD : public ::System::Object
 	{
 	public:

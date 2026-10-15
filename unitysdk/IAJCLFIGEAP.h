@@ -3,6 +3,8 @@
 #include "unitysdk/RPG/GameCore/AbilityProperty.h"
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 
+inline static constexpr unsigned int IAJCLFIGEAP_TypeDefinitionIndex = 55826;
+
 	struct alignas(8) IAJCLFIGEAP
 	{
 		::RPG::GameCore::AbilityProperty FODBMMCKAEN; // 0x10

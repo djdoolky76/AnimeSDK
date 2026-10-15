@@ -26,6 +26,8 @@ namespace ZLinq { class ValueEnumerable; }
 #define CAFLCJEMBAE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D9FE920)
 #define CAFLCJEMBAE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D9FE180)
 
+inline static constexpr unsigned int CAFLCJEMBAE_TypeDefinitionIndex = 13874;
+
 	class CAFLCJEMBAE : public ::System::Object
 	{
 	public:

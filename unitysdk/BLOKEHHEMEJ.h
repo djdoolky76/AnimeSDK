@@ -25,6 +25,8 @@ namespace UnityEngine { class Transform; }
 #define BLOKEHHEMEJ_PLNCKLJOJME_OFFSET UNITYSDK_OFFSET(0xBA828C0)
 #define BLOKEHHEMEJ_PPAMJNOKPLO_OFFSET UNITYSDK_OFFSET(0xBA82880)
 
+inline static constexpr unsigned int BLOKEHHEMEJ_TypeDefinitionIndex = 59387;
+
 	class BLOKEHHEMEJ : public ::System::Object
 	{
 	public:

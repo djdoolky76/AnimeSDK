@@ -8,6 +8,8 @@ namespace System { class String; }
 #define HEBPNDKHCAH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x15C44050)
 #define HEBPNDKHCAH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x15C44000)
 
+inline static constexpr unsigned int HEBPNDKHCAH_TypeDefinitionIndex = 56634;
+
 	class HEBPNDKHCAH : public ::System::Object
 	{
 	public:

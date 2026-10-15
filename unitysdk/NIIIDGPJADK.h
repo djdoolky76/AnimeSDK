@@ -7,6 +7,8 @@ namespace RPG::Client::Compliance::Ftc::DropLink { class GachaFtcDropLinkFactory
 #define NIIIDGPJADK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBBEC5D0)
 #define NIIIDGPJADK_CTOR_OFFSET UNITYSDK_OFFSET(0xBBEC580)
 
+inline static constexpr unsigned int NIIIDGPJADK_TypeDefinitionIndex = 74819;
+
 	class NIIIDGPJADK : public ::System::Object
 	{
 	public:

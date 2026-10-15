@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyBlackboardByRoomCardLevelChan
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyBlackboardByRoomCardLevelChangeConfig_TypeDefinitionIndex = 17698;
+
 	class RogueModifierModifyBlackboardByRoomCardLevelChangeConfig : public ::RPG::GameCore::RogueModifierModifyBlackboardBaseConfig
 	{
 	public:

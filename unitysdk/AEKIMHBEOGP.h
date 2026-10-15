@@ -32,6 +32,8 @@ namespace System { class String; }
 #define AEKIMHBEOGP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDEDCA0)
 #define AEKIMHBEOGP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDEDD00)
 
+inline static constexpr unsigned int AEKIMHBEOGP_TypeDefinitionIndex = 26734;
+
 	class AEKIMHBEOGP : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define HHKHHGKIMPK_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15CD0820)
 #define HHKHHGKIMPK_PBBEINJGAOE_OFFSET UNITYSDK_OFFSET(0x15CD0880)
 
+inline static constexpr unsigned int HHKHHGKIMPK_TypeDefinitionIndex = 72366;
+
 	class HHKHHGKIMPK : public ::System::Object
 	{
 	public:

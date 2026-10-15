@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MHMFPLEKOIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA36AF0)
 #define MHMFPLEKOIL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EA36B00)
 
+inline static constexpr unsigned int MHMFPLEKOIL___c_TypeDefinitionIndex = 32107;
+
 	class MHMFPLEKOIL___c : public ::System::Object
 	{
 	public:

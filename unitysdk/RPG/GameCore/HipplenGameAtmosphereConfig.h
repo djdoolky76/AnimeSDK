@@ -9,6 +9,8 @@ namespace RPG::GameCore { class HipplenGameAtmosphereConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HipplenGameAtmosphereConfig_TypeDefinitionIndex = 16783;
+
 	class HipplenGameAtmosphereConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

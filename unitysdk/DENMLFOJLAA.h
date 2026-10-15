@@ -4,6 +4,8 @@
 
 #define DENMLFOJLAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA259D0)
 
+inline static constexpr unsigned int DENMLFOJLAA_TypeDefinitionIndex = 42229;
+
 	class DENMLFOJLAA : public ::System::Object
 	{
 	public:

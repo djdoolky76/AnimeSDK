@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int XTR_G2_MacNativeProfile_TypeDefinitionIndex = 41271;
+
 	class XTR_G2_MacNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

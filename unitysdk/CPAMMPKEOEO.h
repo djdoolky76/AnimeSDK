@@ -7,6 +7,8 @@ class MLEHLBPAAKM;
 #define CPAMMPKEOEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5D8060)
 #define CPAMMPKEOEO_LBDKFLBEGIP_OFFSET UNITYSDK_OFFSET(0x1C5D7ED0)
 
+inline static constexpr unsigned int CPAMMPKEOEO_TypeDefinitionIndex = 36514;
+
 	class CPAMMPKEOEO : public ::ICEDIJHDAIA
 	{
 	public:

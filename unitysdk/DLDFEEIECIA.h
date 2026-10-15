@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DLDFEEIECIA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF898B40)
 #define DLDFEEIECIA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF8987D0)
 
+inline static constexpr unsigned int DLDFEEIECIA_TypeDefinitionIndex = 54723;
+
 	class DLDFEEIECIA
 	{
 	public:

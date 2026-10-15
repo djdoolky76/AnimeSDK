@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowHeartDialToastTask_TypeDefinitionIndex = 53273;
+
 	class ShowHeartDialToastTask : public ::GELIALJDFBL
 	{
 	public:

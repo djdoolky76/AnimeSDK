@@ -4,6 +4,8 @@
 
 #define JFFLECMJGLF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB90660)
 
+inline static constexpr unsigned int JFFLECMJGLF_TypeDefinitionIndex = 43788;
+
 	class JFFLECMJGLF : public ::System::Object
 	{
 	public:

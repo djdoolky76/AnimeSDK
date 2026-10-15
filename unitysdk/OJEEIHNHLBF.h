@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define OJEEIHNHLBF_LMBCPILOEEG_1_OFFSET UNITYSDK_OFFSET(0xBEADA80)
 #define OJEEIHNHLBF_LMBCPILOEEG_OFFSET UNITYSDK_OFFSET(0xBEADC20)
 
+inline static constexpr unsigned int OJEEIHNHLBF_TypeDefinitionIndex = 62041;
+
 	class OJEEIHNHLBF : public ::System::Object
 	{
 	public:

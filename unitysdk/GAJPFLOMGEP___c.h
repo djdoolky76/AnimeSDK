@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GAJPFLOMGEP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E41F9F0)
 #define GAJPFLOMGEP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E41FA00)
 
+inline static constexpr unsigned int GAJPFLOMGEP___c_TypeDefinitionIndex = 27482;
+
 	class GAJPFLOMGEP___c : public ::System::Object
 	{
 	public:

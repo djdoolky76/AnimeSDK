@@ -12,6 +12,8 @@ namespace UnityEngine::Experimental::TerrainAPI { class TerrainCallbacks_Texture
 
 namespace UnityEngine::Experimental::TerrainAPI
 {
+	inline static constexpr unsigned int TerrainCallbacks_TypeDefinitionIndex = 5337;
+
 	class TerrainCallbacks : public ::System::Object
 	{
 	public:

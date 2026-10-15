@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CMOGFMFNOBA_CTOR_OFFSET UNITYSDK_OFFSET(0xDA40610)
 #define CMOGFMFNOBA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xDA40680)
 
+inline static constexpr unsigned int CMOGFMFNOBA_TypeDefinitionIndex = 59095;
+
 	class CMOGFMFNOBA
 	{
 	public:

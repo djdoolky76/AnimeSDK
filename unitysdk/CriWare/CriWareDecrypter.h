@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriWareDecrypter_TypeDefinitionIndex = 40139;
+
 	class CriWareDecrypter : public ::System::Object
 	{
 	public:

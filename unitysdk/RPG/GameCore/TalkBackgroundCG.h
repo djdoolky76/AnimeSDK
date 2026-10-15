@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TalkBackgroundCG; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TalkBackgroundCG_TypeDefinitionIndex = 24393;
+
 	class TalkBackgroundCG : public ::RPG::GameCore::JsonConfig
 	{
 	public:

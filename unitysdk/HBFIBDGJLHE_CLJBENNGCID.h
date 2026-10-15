@@ -36,6 +36,8 @@ namespace System { class String; }
 #define HBFIBDGJLHE_CLJBENNGCID_SET_RADIUSSQR_OFFSET UNITYSDK_OFFSET(0x15BFA650)
 #define HBFIBDGJLHE_CLJBENNGCID_SET_ROAD_OFFSET UNITYSDK_OFFSET(0x15BFA600)
 
+inline static constexpr unsigned int HBFIBDGJLHE_CLJBENNGCID_TypeDefinitionIndex = 82187;
+
 	class HBFIBDGJLHE_CLJBENNGCID : public ::System::Object
 	{
 	public:

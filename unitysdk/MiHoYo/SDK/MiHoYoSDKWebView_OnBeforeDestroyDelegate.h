@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKWebView_OnBeforeDestroyDelegate_TypeDefinitionIndex = 46604;
+
 	class MiHoYoSDKWebView_OnBeforeDestroyDelegate : public ::System::MulticastDelegate
 	{
 	public:

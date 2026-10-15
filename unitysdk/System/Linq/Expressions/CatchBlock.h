@@ -17,6 +17,8 @@ namespace System::Linq::Expressions { class ParameterExpression; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int CatchBlock_TypeDefinitionIndex = 3205;
+
 	class CatchBlock : public ::System::Object
 	{
 	public:

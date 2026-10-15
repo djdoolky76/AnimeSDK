@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ButtonListTrigger_RuntimeButton_TypeDefinitionIndex = 57503;
+
 	class ButtonListTrigger_RuntimeButton : public ::System::Object
 	{
 	public:

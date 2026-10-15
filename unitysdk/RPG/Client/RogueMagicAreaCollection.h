@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMagicAreaCollection_TypeDefinitionIndex = 67385;
+
 	class RogueMagicAreaCollection : public ::System::Object
 	{
 	public:

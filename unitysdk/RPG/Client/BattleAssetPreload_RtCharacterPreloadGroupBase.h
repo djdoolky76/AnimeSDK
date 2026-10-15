@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleAssetPreload_RtCharacterPreloadGroupBase_TypeDefinitionIndex = 59662;
+
 	class BattleAssetPreload_RtCharacterPreloadGroupBase : public ::RPG::Client::BattleAssetPreload_AssetPreloadGroup
 	{
 	public:

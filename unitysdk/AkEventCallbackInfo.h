@@ -11,6 +11,8 @@ class AkEventCallbackInfo;
 #define AKEVENTCALLBACKINFO_GET_PLAYINGID_OFFSET UNITYSDK_OFFSET(0x1F574A50)
 #define AKEVENTCALLBACKINFO_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1F58DD30)
 
+inline static constexpr unsigned int AkEventCallbackInfo_TypeDefinitionIndex = 44739;
+
 	class AkEventCallbackInfo : public ::AkCallbackInfo
 	{
 	public:

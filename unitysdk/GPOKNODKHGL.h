@@ -10,6 +10,8 @@ namespace System { class String; }
 #define GPOKNODKHGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE7A740)
 #define GPOKNODKHGL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE7A530)
 
+inline static constexpr unsigned int GPOKNODKHGL_TypeDefinitionIndex = 11313;
+
 	class GPOKNODKHGL : public ::System::Object
 	{
 	public:

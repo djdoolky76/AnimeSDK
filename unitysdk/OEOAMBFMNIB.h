@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define OEOAMBFMNIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C98C910)
 
+inline static constexpr unsigned int OEOAMBFMNIB_TypeDefinitionIndex = 43238;
+
 	class OEOAMBFMNIB : public ::System::Object
 	{
 	public:

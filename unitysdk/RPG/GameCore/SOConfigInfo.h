@@ -9,6 +9,8 @@ namespace RPG::GameCore { class SOConfigInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SOConfigInfo_TypeDefinitionIndex = 17233;
+
 	class SOConfigInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

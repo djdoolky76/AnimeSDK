@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SetLoadingStratageType; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetLoadingStratageType_TypeDefinitionIndex = 21573;
+
 	class SetLoadingStratageType : public ::RPG::GameCore::TaskConfig
 	{
 	public:

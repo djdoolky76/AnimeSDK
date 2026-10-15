@@ -189,6 +189,8 @@ namespace UnityEngine::ProBuilder { class Vertex; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int ProBuilderMesh_TypeDefinitionIndex = 44404;
+
 	class ProBuilderMesh : public ::UnityEngine::MonoBehaviour
 	{
 	public:

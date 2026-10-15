@@ -7,6 +7,8 @@ namespace RPG::Client { class GridFightRole; }
 #define APIFAALKFML_CTOR_OFFSET UNITYSDK_OFFSET(0x15BAB880)
 #define APIFAALKFML_DPJAHBLOBOM_OFFSET UNITYSDK_OFFSET(0x15BAB830)
 
+inline static constexpr unsigned int APIFAALKFML_TypeDefinitionIndex = 65190;
+
 	class APIFAALKFML : public ::DLKIJPKFOFO
 	{
 	public:

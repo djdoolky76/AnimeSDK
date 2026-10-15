@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EBDPKHANCDG_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x12CED710)
 #define EBDPKHANCDG_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x12CEDCC0)
 
+inline static constexpr unsigned int EBDPKHANCDG_TypeDefinitionIndex = 78444;
+
 	class EBDPKHANCDG : public ::System::Object
 	{
 	public:

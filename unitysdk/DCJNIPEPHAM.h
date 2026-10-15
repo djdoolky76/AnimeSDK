@@ -29,6 +29,8 @@ namespace System { class String; }
 #define DCJNIPEPHAM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E172C10)
 #define DCJNIPEPHAM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E172C70)
 
+inline static constexpr unsigned int DCJNIPEPHAM_TypeDefinitionIndex = 34832;
+
 	class DCJNIPEPHAM : public ::System::Object
 	{
 	public:

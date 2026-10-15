@@ -13,6 +13,8 @@ class HIOEAKHGILF;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginFiveDimDashAim_TypeDefinitionIndex = 70023;
+
 	class MonoEffectPluginFiveDimDashAim : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

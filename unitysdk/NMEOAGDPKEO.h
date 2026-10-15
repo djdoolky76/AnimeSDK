@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define NMEOAGDPKEO_SET_ISSTOPPED_OFFSET UNITYSDK_OFFSET(0xBC826B0)
 #define NMEOAGDPKEO__TICK_B__11_0_OFFSET UNITYSDK_OFFSET(0xBC82B40)
 
+inline static constexpr unsigned int NMEOAGDPKEO_TypeDefinitionIndex = 78339;
+
 	class NMEOAGDPKEO : public ::System::Object
 	{
 	public:

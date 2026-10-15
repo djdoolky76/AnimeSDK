@@ -4,6 +4,8 @@ namespace RPG::Client { class CameraBlendCurve; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureTriggerMoveTaskBase_1_TypeDefinitionIndex = 57928;
+
 	template <typename T>
 	class AdventureTriggerMoveTaskBase_1
 	{

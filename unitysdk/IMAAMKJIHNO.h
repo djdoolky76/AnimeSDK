@@ -27,6 +27,8 @@ namespace System { class String; }
 #define IMAAMKJIHNO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6B3230)
 #define IMAAMKJIHNO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6B3290)
 
+inline static constexpr unsigned int IMAAMKJIHNO_TypeDefinitionIndex = 31358;
+
 	class IMAAMKJIHNO : public ::System::Object
 	{
 	public:

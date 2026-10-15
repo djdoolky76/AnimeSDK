@@ -8,6 +8,8 @@ namespace RPG::GameCore { class DeviceSettingConfig; }
 #define EDLEPBPAPDN_FFEDKCEDHIL_OFFSET UNITYSDK_OFFSET(0x1332A900)
 #define EDLEPBPAPDN_ODPAPLIIDDD_OFFSET UNITYSDK_OFFSET(0x1332A660)
 
+inline static constexpr unsigned int EDLEPBPAPDN_TypeDefinitionIndex = 68285;
+
 	class EDLEPBPAPDN : public ::System::Object
 	{
 	public:

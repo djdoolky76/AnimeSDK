@@ -25,6 +25,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::Compliance
 {
+	inline static constexpr unsigned int ComplianceModule_TypeDefinitionIndex = 74810;
+
 	class ComplianceModule : public ::RPG::Client::BaseModule
 	{
 	public:

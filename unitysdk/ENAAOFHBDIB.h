@@ -29,6 +29,8 @@ namespace RPG::Client { class MockAnimator; }
 #define ENAAOFHBDIB_OBIEBFBMNOC_OFFSET UNITYSDK_OFFSET(0x155A6C60)
 #define ENAAOFHBDIB_OPCKNBHNBOA_OFFSET UNITYSDK_OFFSET(0x155A6AC0)
 
+inline static constexpr unsigned int ENAAOFHBDIB_TypeDefinitionIndex = 53977;
+
 	class ENAAOFHBDIB : public ::System::Object
 	{
 	public:

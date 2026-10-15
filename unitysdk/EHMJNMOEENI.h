@@ -24,6 +24,8 @@ namespace System { class Nullable; }
 #define EHMJNMOEENI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x154B6BA0)
 #define EHMJNMOEENI_TICK_OFFSET UNITYSDK_OFFSET(0x154B6C50)
 
+inline static constexpr unsigned int EHMJNMOEENI_TypeDefinitionIndex = 52204;
+
 	class EHMJNMOEENI
 	{
 	public:

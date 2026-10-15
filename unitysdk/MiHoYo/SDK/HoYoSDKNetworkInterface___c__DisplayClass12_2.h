@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HoYoSDKNetworkInterface___c__DisplayClass12_2_TypeDefinitionIndex = 46114;
+
 	template <typename T1, typename T2>
 	class HoYoSDKNetworkInterface___c__DisplayClass12_2 : public ::System::Object
 	{

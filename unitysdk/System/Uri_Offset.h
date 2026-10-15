@@ -3,6 +3,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int Uri_Offset_TypeDefinitionIndex = 2464;
+
 	struct alignas(4) Uri_Offset
 	{
 		::System::UInt16 Scheme; // 0x10

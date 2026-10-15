@@ -10,6 +10,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define JEJIMOEPDIO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1662DF60)
 #define JEJIMOEPDIO___C__SHOULDEMPHASIZEWRONGLYPEAKED_B__0_0_OFFSET UNITYSDK_OFFSET(0x1662DF70)
 
+inline static constexpr unsigned int JEJIMOEPDIO___c_TypeDefinitionIndex = 79416;
+
 	class JEJIMOEPDIO___c : public ::System::Object
 	{
 	public:

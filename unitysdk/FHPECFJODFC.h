@@ -13,6 +13,8 @@ namespace System { class Action; }
 #define FHPECFJODFC_NNAGLJCMMGD_OFFSET UNITYSDK_OFFSET(0x157943B0)
 #define FHPECFJODFC_NONJDKKDDLE_OFFSET UNITYSDK_OFFSET(0x15794280)
 
+inline static constexpr unsigned int FHPECFJODFC_TypeDefinitionIndex = 60472;
+
 	class FHPECFJODFC : public ::System::Object
 	{
 	public:

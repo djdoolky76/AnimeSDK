@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int MethodDescriptorProto___c_TypeDefinitionIndex = 5487;
+
 	class MethodDescriptorProto___c : public ::System::Object
 	{
 	public:

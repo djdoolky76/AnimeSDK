@@ -15,6 +15,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define DIKFIONLKII_JOLOAIGMLEP_OFFSET UNITYSDK_OFFSET(0xF20F0F0)
 #define DIKFIONLKII_NHPDCPKMNAM_OFFSET UNITYSDK_OFFSET(0xF20EBC0)
 
+inline static constexpr unsigned int DIKFIONLKII_TypeDefinitionIndex = 57082;
+
 	class DIKFIONLKII : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

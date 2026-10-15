@@ -9,6 +9,8 @@ namespace System { class String; }
 #define KMKMAFGBNHK__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xB565A00)
 #define KMKMAFGBNHK__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xB565BC0)
 
+inline static constexpr unsigned int KMKMAFGBNHK_TypeDefinitionIndex = 53469;
+
 	class KMKMAFGBNHK
 	{
 	public:

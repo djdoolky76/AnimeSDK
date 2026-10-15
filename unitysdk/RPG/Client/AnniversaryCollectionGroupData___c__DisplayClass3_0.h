@@ -8,6 +8,8 @@ namespace RPG::Client { class AnniversaryCollectionPanelData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AnniversaryCollectionGroupData___c__DisplayClass3_0_TypeDefinitionIndex = 62402;
+
 	class AnniversaryCollectionGroupData___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

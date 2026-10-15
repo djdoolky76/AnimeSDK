@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvIsometricCameraSizeBlend_TypeDefinitionIndex = 22215;
+
 	class AdvIsometricCameraSizeBlend : public ::RPG::GameCore::TaskConfig
 	{
 	public:

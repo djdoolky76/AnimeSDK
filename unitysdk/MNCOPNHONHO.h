@@ -315,6 +315,8 @@ namespace UnityEngine { class Transform; }
 #define MNCOPNHONHO_TRYREMOVERENDERINGITEMSTATE_OFFSET UNITYSDK_OFFSET(0xB9FCF80)
 #define MNCOPNHONHO_TRYSETRENDERINGITEMSTATE_OFFSET UNITYSDK_OFFSET(0xB9FD490)
 
+inline static constexpr unsigned int MNCOPNHONHO_TypeDefinitionIndex = 76684;
+
 	class MNCOPNHONHO
 	{
 	public:

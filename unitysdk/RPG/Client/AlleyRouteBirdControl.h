@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AlleyRouteBirdControl_TypeDefinitionIndex = 62292;
+
 	class AlleyRouteBirdControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightOrbUsedFlyEffect_TypeDefinitionIndex = 64501;
+
 	class GridFightOrbUsedFlyEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

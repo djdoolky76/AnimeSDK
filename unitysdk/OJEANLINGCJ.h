@@ -42,6 +42,8 @@ namespace System { class String; }
 #define OJEANLINGCJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE7F2C0)
 #define OJEANLINGCJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE7F320)
 
+inline static constexpr unsigned int OJEANLINGCJ_TypeDefinitionIndex = 25547;
+
 	class OJEANLINGCJ : public ::System::Object
 	{
 	public:

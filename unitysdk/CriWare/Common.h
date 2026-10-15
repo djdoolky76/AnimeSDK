@@ -24,6 +24,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int Common_TypeDefinitionIndex = 40137;
+
 	class Common : public ::System::Object
 	{
 	public:

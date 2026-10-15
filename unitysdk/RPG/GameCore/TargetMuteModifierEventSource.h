@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetMuteModifierEventSource; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetMuteModifierEventSource_TypeDefinitionIndex = 23472;
+
 	class TargetMuteModifierEventSource : public ::RPG::GameCore::TaskConfig
 	{
 	public:

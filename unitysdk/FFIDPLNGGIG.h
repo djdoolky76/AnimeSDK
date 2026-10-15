@@ -16,6 +16,8 @@ namespace System::IO { class BinaryWriter; }
 #define FFIDPLNGGIG_NLEKLPKJNAF_OFFSET UNITYSDK_OFFSET(0x15740410)
 #define FFIDPLNGGIG_OAJLINPFPAD_OFFSET UNITYSDK_OFFSET(0x15741010)
 
+inline static constexpr unsigned int FFIDPLNGGIG_TypeDefinitionIndex = 64623;
+
 	class FFIDPLNGGIG : public ::System::Object
 	{
 	public:

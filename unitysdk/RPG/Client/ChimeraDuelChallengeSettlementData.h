@@ -20,6 +20,8 @@ namespace RPG::Client { class ChimeraDuelChallengeSettlementData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelChallengeSettlementData_TypeDefinitionIndex = 63297;
+
 	class ChimeraDuelChallengeSettlementData : public ::System::Object
 	{
 	public:

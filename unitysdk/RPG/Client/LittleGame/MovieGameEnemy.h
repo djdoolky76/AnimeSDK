@@ -27,6 +27,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int MovieGameEnemy_TypeDefinitionIndex = 76607;
+
 	class MovieGameEnemy : public ::RPG::Client::LittleGame::BaseMonoView
 	{
 	public:

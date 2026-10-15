@@ -30,6 +30,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int MonoRoadRashGameRoadObstacle_TypeDefinitionIndex = 75868;
+
 	class MonoRoadRashGameRoadObstacle : public ::UnityEngine::MonoBehaviour
 	{
 	public:

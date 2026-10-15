@@ -30,6 +30,8 @@ namespace System { class String; }
 #define MCECLBDBENF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9F4150)
 #define MCECLBDBENF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9F41B0)
 
+inline static constexpr unsigned int MCECLBDBENF_TypeDefinitionIndex = 34421;
+
 	class MCECLBDBENF : public ::System::Object
 	{
 	public:

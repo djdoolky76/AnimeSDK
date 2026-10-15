@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ST_Main_TeleportToPosition; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_TeleportToPosition_TypeDefinitionIndex = 20101;
+
 	class ST_Main_TeleportToPosition : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

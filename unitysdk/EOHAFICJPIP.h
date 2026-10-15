@@ -33,6 +33,8 @@ namespace System { class String; }
 #define EOHAFICJPIP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2FB840)
 #define EOHAFICJPIP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2FB8A0)
 
+inline static constexpr unsigned int EOHAFICJPIP_TypeDefinitionIndex = 31201;
+
 	class EOHAFICJPIP : public ::System::Object
 	{
 	public:

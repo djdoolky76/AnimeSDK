@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define PACFJDLCKGC_CTOR_OFFSET UNITYSDK_OFFSET(0xBFC5F80)
 #define PACFJDLCKGC_LALPGEAJIHF_OFFSET UNITYSDK_OFFSET(0xBFC5E20)
 
+inline static constexpr unsigned int PACFJDLCKGC_TypeDefinitionIndex = 80110;
+
 	class PACFJDLCKGC : public ::System::Object
 	{
 	public:

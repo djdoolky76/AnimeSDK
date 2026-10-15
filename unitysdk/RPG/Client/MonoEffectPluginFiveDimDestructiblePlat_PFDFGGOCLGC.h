@@ -5,6 +5,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginFiveDimDestructiblePlat_PFDFGGOCLGC_TypeDefinitionIndex = 70026;
+
 	struct alignas(8) MonoEffectPluginFiveDimDestructiblePlat_PFDFGGOCLGC
 	{
 		::System::Single IKAEPOBLOGE; // 0x10

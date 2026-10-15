@@ -5,6 +5,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2QueryFilter_TypeDefinitionIndex = 36733;
+
 	struct alignas(4) B2QueryFilter
 	{
 		::System::UInt64 categoryBits; // 0x10

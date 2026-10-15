@@ -60,6 +60,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CAANOKAHGIM_PAOEHPHBMIC_OFFSET UNITYSDK_OFFSET(0xC1BB730)
 #define CAANOKAHGIM_PEBLLIDINBM_OFFSET UNITYSDK_OFFSET(0xC1BB560)
 
+inline static constexpr unsigned int CAANOKAHGIM_TypeDefinitionIndex = 60308;
+
 	class CAANOKAHGIM : public ::System::Object
 	{
 	public:

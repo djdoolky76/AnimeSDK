@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 #define HJDFEBPACJI_REVERSE_OFFSET UNITYSDK_OFFSET(0x15D0A640)
 #define HJDFEBPACJI_STARTWITHTARGET_OFFSET UNITYSDK_OFFSET(0x15D0A4E0)
 
+inline static constexpr unsigned int HJDFEBPACJI_TypeDefinitionIndex = 73507;
+
 	class HJDFEBPACJI : public ::MOGBNBGMIHF
 	{
 	public:

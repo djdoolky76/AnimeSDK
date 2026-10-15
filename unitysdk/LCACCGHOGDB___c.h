@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LCACCGHOGDB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8E2400)
 #define LCACCGHOGDB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E8E2410)
 
+inline static constexpr unsigned int LCACCGHOGDB___c_TypeDefinitionIndex = 27913;
+
 	class LCACCGHOGDB___c : public ::System::Object
 	{
 	public:

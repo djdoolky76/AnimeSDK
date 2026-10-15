@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FateRinCaseBoardSimpleTalkData; }
 #define JFMEJFEGBEC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0275A0)
 #define JFMEJFEGBEC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D027560)
 
+inline static constexpr unsigned int JFMEJFEGBEC_TypeDefinitionIndex = 19933;
+
 	class JFMEJFEGBEC : public ::RPG::GameCore::TaskConfig
 	{
 	public:

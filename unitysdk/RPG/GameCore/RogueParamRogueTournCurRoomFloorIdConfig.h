@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueParamRogueTournCurRoomFloorIdConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueParamRogueTournCurRoomFloorIdConfig_TypeDefinitionIndex = 19846;
+
 	class RogueParamRogueTournCurRoomFloorIdConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:

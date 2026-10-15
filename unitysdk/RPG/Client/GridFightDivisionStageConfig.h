@@ -54,6 +54,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightDivisionStageConfig_TypeDefinitionIndex = 64540;
+
 	class GridFightDivisionStageConfig : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MinimapImage_TypeDefinitionIndex = 72573;
+
 	class MinimapImage : public ::UnityEngine::UI::Image
 	{
 	public:

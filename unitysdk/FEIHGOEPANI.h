@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FEIHGOEPANI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3674D0)
 #define FEIHGOEPANI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E367530)
 
+inline static constexpr unsigned int FEIHGOEPANI_TypeDefinitionIndex = 32211;
+
 	class FEIHGOEPANI : public ::System::Object
 	{
 	public:

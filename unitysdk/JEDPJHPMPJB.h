@@ -8,6 +8,8 @@
 #define JEDPJHPMPJB_GET_ENEMYINDEX_OFFSET UNITYSDK_OFFSET(0x1661E000)
 #define JEDPJHPMPJB_GET_WAITSELECTCARD_OFFSET UNITYSDK_OFFSET(0x1661E010)
 
+inline static constexpr unsigned int JEDPJHPMPJB_TypeDefinitionIndex = 80718;
+
 	class JEDPJHPMPJB : public ::System::Object
 	{
 	public:

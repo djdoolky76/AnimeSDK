@@ -5,6 +5,8 @@ namespace Cysharp::Threading::Tasks::Internal { template <typename T> class Immu
 
 namespace Cysharp::Threading::Tasks::Internal
 {
+	inline static constexpr unsigned int ImmutableList_1_TypeDefinitionIndex = 38701;
+
 	template <typename T>
 	class ImmutableList_1 : public ::System::Object
 	{

@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UISortingOrderController_TypeDefinitionIndex = 73076;
+
 	class UISortingOrderController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

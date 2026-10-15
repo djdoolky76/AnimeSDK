@@ -12,6 +12,8 @@ namespace RPG::GameCore { class IntroDataRow; }
 
 namespace RPG::Client::Introduce
 {
+	inline static constexpr unsigned int IntroduceViewModel_TypeDefinitionIndex = 80481;
+
 	class IntroduceViewModel : public ::System::Object
 	{
 	public:

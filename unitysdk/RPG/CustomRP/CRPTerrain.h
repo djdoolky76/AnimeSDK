@@ -35,6 +35,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPTerrain_TypeDefinitionIndex = 37720;
+
 	class CRPTerrain : public ::UnityEngine::TerrainAdditionalComponent
 	{
 	public:

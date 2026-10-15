@@ -11,6 +11,8 @@ namespace RPG::GameCore { class AbilityBeforeDying; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityBeforeDying_TypeDefinitionIndex = 56582;
+
 	class AbilityBeforeDying : public ::CMPGEAFHHDC
 	{
 	public:

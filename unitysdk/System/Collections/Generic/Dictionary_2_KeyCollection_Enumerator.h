@@ -4,6 +4,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int Dictionary_2_KeyCollection_Enumerator_TypeDefinitionIndex = 1539;
+
 	template <typename T1, typename T2>
 	struct alignas(8) Dictionary_2_KeyCollection_Enumerator
 	{

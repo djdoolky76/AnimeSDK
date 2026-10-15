@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoMap3DTouch_EGALJIEANAO_TypeDefinitionIndex = 69045;
+
 	class MonoMap3DTouch_EGALJIEANAO : public ::System::Object
 	{
 	public:

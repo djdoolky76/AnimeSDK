@@ -18,6 +18,8 @@
 #define CCKHHADGKLP_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x1EBFA550)
 #define CCKHHADGKLP_WRITE_OFFSET UNITYSDK_OFFSET(0x1EBFAC60)
 
+inline static constexpr unsigned int CCKHHADGKLP_TypeDefinitionIndex = 35240;
+
 	class CCKHHADGKLP : public ::System::IO::Stream
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client { class AdventureModule; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AdventureModule___c__DisplayClass258_0_TypeDefinitionIndex = 62012;
+
 	class AdventureModule___c__DisplayClass258_0 : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Security::Principal { class IPrincipal; }
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int CallContextSecurityData_TypeDefinitionIndex = 1294;
+
 	class CallContextSecurityData : public ::System::Object
 	{
 	public:

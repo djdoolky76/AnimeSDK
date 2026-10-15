@@ -40,6 +40,8 @@ namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int VertexHelper_TypeDefinitionIndex = 6886;
+
 	class VertexHelper : public ::System::Object
 	{
 	public:

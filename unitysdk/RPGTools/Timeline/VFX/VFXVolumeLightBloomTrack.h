@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int VFXVolumeLightBloomTrack_TypeDefinitionIndex = 48696;
+
 	class VFXVolumeLightBloomTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

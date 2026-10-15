@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FLOCJFHOOPF_CTOR_OFFSET UNITYSDK_OFFSET(0x158429F0)
 #define FLOCJFHOOPF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15842A20)
 
+inline static constexpr unsigned int FLOCJFHOOPF_TypeDefinitionIndex = 53198;
+
 	class FLOCJFHOOPF
 	{
 	public:

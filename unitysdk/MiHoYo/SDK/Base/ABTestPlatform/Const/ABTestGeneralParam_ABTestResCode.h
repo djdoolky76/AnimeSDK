@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK::Base::ABTestPlatform::Const
 {
+	inline static constexpr unsigned int ABTestGeneralParam_ABTestResCode_TypeDefinitionIndex = 8859;
+
 	class ABTestGeneralParam_ABTestResCode : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 namespace Coffee::UIParticleInternal
 {
+	inline static constexpr unsigned int ObjectRepository_1___c_TypeDefinitionIndex = 45143;
+
 	template <typename T>
 	class ObjectRepository_1___c : public ::System::Object
 	{

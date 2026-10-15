@@ -5,6 +5,8 @@
 #define POBGEFOCLJG_CTOR_OFFSET UNITYSDK_OFFSET(0xC357A50)
 #define POBGEFOCLJG_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xC357A00)
 
+inline static constexpr unsigned int POBGEFOCLJG_TypeDefinitionIndex = 69452;
+
 	class POBGEFOCLJG : public ::System::Object
 	{
 	public:

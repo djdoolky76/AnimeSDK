@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace System::Collections::Immutable
 {
+	inline static constexpr unsigned int ImmutableSortedSet_1_Node_TypeDefinitionIndex = 6656;
+
 	template <typename T>
 	class ImmutableSortedSet_1_Node : public ::System::Object
 	{

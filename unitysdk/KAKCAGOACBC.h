@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KAKCAGOACBC_CTOR_OFFSET UNITYSDK_OFFSET(0xB2DAC70)
 #define KAKCAGOACBC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2DACA0)
 
+inline static constexpr unsigned int KAKCAGOACBC_TypeDefinitionIndex = 53046;
+
 	class KAKCAGOACBC
 	{
 	public:

@@ -25,6 +25,8 @@ namespace UnityEngine::UI { class CanvasScaler; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoExUICamera2D_TypeDefinitionIndex = 72984;
+
 	class MonoExUICamera2D : public ::RPG::Client::MonoExUICamera
 	{
 	public:

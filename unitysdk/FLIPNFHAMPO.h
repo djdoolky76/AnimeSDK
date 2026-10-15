@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FLIPNFHAMPO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3BD910)
 #define FLIPNFHAMPO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3BD970)
 
+inline static constexpr unsigned int FLIPNFHAMPO_TypeDefinitionIndex = 26967;
+
 	class FLIPNFHAMPO : public ::System::Object
 	{
 	public:

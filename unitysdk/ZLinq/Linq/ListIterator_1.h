@@ -4,6 +4,8 @@ namespace ZLinq::Linq { template <typename T> class ListIterator_1; }
 
 namespace ZLinq::Linq
 {
+	inline static constexpr unsigned int ListIterator_1_TypeDefinitionIndex = 6100;
+
 	template <typename T>
 	class ListIterator_1
 	{

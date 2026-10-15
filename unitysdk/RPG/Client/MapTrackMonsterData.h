@@ -55,6 +55,8 @@ namespace RPG::GameCore { class MappingInfoRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MapTrackMonsterData_TypeDefinitionIndex = 62924;
+
 	class MapTrackMonsterData : public ::System::Object
 	{
 	public:

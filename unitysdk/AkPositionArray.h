@@ -11,6 +11,8 @@
 #define AKPOSITIONARRAY_RESET_OFFSET UNITYSDK_OFFSET(0x1F5B1B90)
 #define AKPOSITIONARRAY_SET_COUNT_OFFSET UNITYSDK_OFFSET(0x1F5B1A70)
 
+inline static constexpr unsigned int AkPositionArray_TypeDefinitionIndex = 44870;
+
 	class AkPositionArray : public ::System::Object
 	{
 	public:

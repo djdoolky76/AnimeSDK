@@ -15,6 +15,8 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveStarData_StarInfo_TypeDefinitionIndex = 75334;
+
 	class IdleLiveStarData_StarInfo : public ::System::Object
 	{
 	public:

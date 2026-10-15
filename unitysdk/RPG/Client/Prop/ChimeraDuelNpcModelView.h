@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelNpcModelView_TypeDefinitionIndex = 78336;
+
 	class ChimeraDuelNpcModelView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

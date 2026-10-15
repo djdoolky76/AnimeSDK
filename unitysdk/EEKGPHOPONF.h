@@ -20,6 +20,8 @@ namespace System { class String; }
 #define EEKGPHOPONF__CUSTOMBINDVIEW_OFFSET UNITYSDK_OFFSET(0x13A32240)
 #define EEKGPHOPONF__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x13A32360)
 
+inline static constexpr unsigned int EEKGPHOPONF_TypeDefinitionIndex = 72807;
+
 	class EEKGPHOPONF : public ::RPG::Client::UIController
 	{
 	public:

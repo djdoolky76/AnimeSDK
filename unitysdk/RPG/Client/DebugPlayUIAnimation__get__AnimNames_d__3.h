@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DebugPlayUIAnimation__get__AnimNames_d__3_TypeDefinitionIndex = 68341;
+
 	template <typename T1, typename T2, typename T3>
 	class DebugPlayUIAnimation__get__AnimNames_d__3 : public ::System::Object
 	{

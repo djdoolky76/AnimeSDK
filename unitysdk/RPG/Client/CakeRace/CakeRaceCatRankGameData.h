@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceCatRankGameData_TypeDefinitionIndex = 76432;
+
 	class CakeRaceCatRankGameData : public ::System::Object
 	{
 	public:

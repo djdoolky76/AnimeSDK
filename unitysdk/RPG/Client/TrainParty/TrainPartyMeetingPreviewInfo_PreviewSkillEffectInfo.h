@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TrainPartySkillEffectRow; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyMeetingPreviewInfo_PreviewSkillEffectInfo_TypeDefinitionIndex = 74335;
+
 	struct alignas(8) TrainPartyMeetingPreviewInfo_PreviewSkillEffectInfo
 	{
 		::RPG::GameCore::TrainPartySkillEffectRow* EffectRow; // 0x10

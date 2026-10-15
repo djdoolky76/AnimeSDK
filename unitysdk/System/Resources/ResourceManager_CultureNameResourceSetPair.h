@@ -8,6 +8,8 @@ namespace System::Resources { class ResourceSet; }
 
 namespace System::Resources
 {
+	inline static constexpr unsigned int ResourceManager_CultureNameResourceSetPair_TypeDefinitionIndex = 527;
+
 	class ResourceManager_CultureNameResourceSetPair : public ::System::Object
 	{
 	public:

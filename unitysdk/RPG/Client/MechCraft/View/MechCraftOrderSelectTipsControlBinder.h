@@ -16,6 +16,8 @@ namespace UnityEngine::UI { class Slider; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftOrderSelectTipsControlBinder_TypeDefinitionIndex = 80006;
+
 	class MechCraftOrderSelectTipsControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

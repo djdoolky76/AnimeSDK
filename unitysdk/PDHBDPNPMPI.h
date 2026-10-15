@@ -25,6 +25,8 @@ namespace System { class String; }
 #define PDHBDPNPMPI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF0F4A0)
 #define PDHBDPNPMPI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF0F500)
 
+inline static constexpr unsigned int PDHBDPNPMPI_TypeDefinitionIndex = 34023;
+
 	class PDHBDPNPMPI : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class ExtraEffectRow; }
 #define ODONDKGHHBI_CBHGELFFLKG_OFFSET UNITYSDK_OFFSET(0xBDF2150)
 #define ODONDKGHHBI_CTOR_OFFSET UNITYSDK_OFFSET(0xBDF21C0)
 
+inline static constexpr unsigned int ODONDKGHHBI_TypeDefinitionIndex = 81047;
+
 	class ODONDKGHHBI : public ::System::Object
 	{
 	public:

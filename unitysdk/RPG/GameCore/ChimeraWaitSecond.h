@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraWaitSecond; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraWaitSecond_TypeDefinitionIndex = 15860;
+
 	class ChimeraWaitSecond : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{
 	public:

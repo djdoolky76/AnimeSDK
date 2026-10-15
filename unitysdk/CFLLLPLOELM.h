@@ -18,6 +18,8 @@ namespace System { class String; }
 #define CFLLLPLOELM_OILPNDPEFNG_OFFSET UNITYSDK_OFFSET(0xCC52EF0)
 #define CFLLLPLOELM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC51D70)
 
+inline static constexpr unsigned int CFLLLPLOELM_TypeDefinitionIndex = 58405;
+
 	class CFLLLPLOELM
 	{
 	public:

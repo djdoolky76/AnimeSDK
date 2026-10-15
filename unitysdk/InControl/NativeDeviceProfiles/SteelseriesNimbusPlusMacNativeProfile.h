@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int SteelseriesNimbusPlusMacNativeProfile_TypeDefinitionIndex = 41269;
+
 	class SteelseriesNimbusPlusMacNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

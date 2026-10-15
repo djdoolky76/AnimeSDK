@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 #define PEAOEHAEJPG_REVERSE_OFFSET UNITYSDK_OFFSET(0xC0250B0)
 #define PEAOEHAEJPG_STARTWITHTARGET_OFFSET UNITYSDK_OFFSET(0xC0251D0)
 
+inline static constexpr unsigned int PEAOEHAEJPG_TypeDefinitionIndex = 73518;
+
 	class PEAOEHAEJPG : public ::MOGBNBGMIHF
 	{
 	public:

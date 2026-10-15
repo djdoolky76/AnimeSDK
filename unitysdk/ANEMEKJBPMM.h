@@ -8,6 +8,8 @@
 #define ANEMEKJBPMM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C89E5F0)
 #define ANEMEKJBPMM_GCBAEEAJNGH_OFFSET UNITYSDK_OFFSET(0x1C89E580)
 
+inline static constexpr unsigned int ANEMEKJBPMM_TypeDefinitionIndex = 43250;
+
 	class ANEMEKJBPMM : public ::System::Object
 	{
 	public:

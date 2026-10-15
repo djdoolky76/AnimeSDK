@@ -14,6 +14,8 @@ namespace RPG::GameCore { class FloatCurve; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleVersusClickQTEConfig_TypeDefinitionIndex = 23345;
+
 	class BattleVersusClickQTEConfig : public ::RPG::GameCore::BattleQTEBaseConfig
 	{
 	public:

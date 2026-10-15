@@ -38,6 +38,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JDGIIPJCPID_SET_SNAPSHOTHASHLIST_OFFSET UNITYSDK_OFFSET(0x165CB5D0)
 #define JDGIIPJCPID_SET_SNAPSHOTLIST_OFFSET UNITYSDK_OFFSET(0x165CB5B0)
 
+inline static constexpr unsigned int JDGIIPJCPID_TypeDefinitionIndex = 59010;
+
 	class JDGIIPJCPID : public ::System::Object
 	{
 	public:

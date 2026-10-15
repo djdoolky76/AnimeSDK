@@ -6,6 +6,8 @@ class HJNDPHEDAGM;
 
 #define FPJKIGOKMJC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA72F40)
 
+inline static constexpr unsigned int FPJKIGOKMJC_TypeDefinitionIndex = 42211;
+
 	class FPJKIGOKMJC : public ::DJJKNHPLHDI
 	{
 	public:

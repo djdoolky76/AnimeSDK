@@ -13,6 +13,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define LCEOMEDDGEK_MACOMAHJKIH_OFFSET UNITYSDK_OFFSET(0xB6137C0)
 #define LCEOMEDDGEK_OHEOHGJNBHP_OFFSET UNITYSDK_OFFSET(0xB6136D0)
 
+inline static constexpr unsigned int LCEOMEDDGEK_TypeDefinitionIndex = 71868;
+
 	class LCEOMEDDGEK : public ::System::Object
 	{
 	public:

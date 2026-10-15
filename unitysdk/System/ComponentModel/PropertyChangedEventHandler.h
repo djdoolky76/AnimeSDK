@@ -13,6 +13,8 @@ namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int PropertyChangedEventHandler_TypeDefinitionIndex = 2616;
+
 	class PropertyChangedEventHandler : public ::System::MulticastDelegate
 	{
 	public:

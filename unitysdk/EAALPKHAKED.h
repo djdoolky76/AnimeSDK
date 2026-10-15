@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_AttackerCompareDefende
 #define EAALPKHAKED_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5DF2B0)
 #define EAALPKHAKED_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C5FAA30)
 
+inline static constexpr unsigned int EAALPKHAKED_TypeDefinitionIndex = 36316;
+
 	class EAALPKHAKED : public ::HHOHBHGLHHF
 	{
 	public:

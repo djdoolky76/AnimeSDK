@@ -133,6 +133,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int HoYoPassSDK_TypeDefinitionIndex = 8280;
+
 	class HoYoPassSDK : public ::System::Object
 	{
 	public:

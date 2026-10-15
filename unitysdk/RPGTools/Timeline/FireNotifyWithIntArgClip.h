@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int FireNotifyWithIntArgClip_TypeDefinitionIndex = 48404;
+
 	class FireNotifyWithIntArgClip : public ::RPGTools::Timeline::CustomEventClip
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ConditionalActivator_TypeDefinitionIndex = 72484;
+
 	class ConditionalActivator : public ::UnityEngine::MonoBehaviour
 	{
 	public:

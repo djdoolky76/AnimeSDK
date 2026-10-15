@@ -25,6 +25,8 @@ namespace UnityEngine { class TerrainData; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Terrain_TypeDefinitionIndex = 5327;
+
 	class Terrain : public ::UnityEngine::Behaviour
 	{
 	public:

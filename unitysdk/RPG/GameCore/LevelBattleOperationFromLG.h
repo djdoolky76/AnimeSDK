@@ -10,6 +10,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelBattleOperationFromLG_TypeDefinitionIndex = 56746;
+
 	class LevelBattleOperationFromLG : public ::System::Object
 	{
 	public:

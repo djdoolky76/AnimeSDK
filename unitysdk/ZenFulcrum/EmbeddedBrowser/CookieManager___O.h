@@ -5,6 +5,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_GetCookieFunc; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int CookieManager___O_TypeDefinitionIndex = 39491;
+
 	class CookieManager___O : public ::System::Object
 	{
 	public:

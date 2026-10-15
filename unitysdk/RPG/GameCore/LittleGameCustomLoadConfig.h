@@ -16,6 +16,8 @@ namespace RPG::GameCore { class LittleGameSubMissionCondition; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameCustomLoadConfig_TypeDefinitionIndex = 18869;
+
 	class LittleGameCustomLoadConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

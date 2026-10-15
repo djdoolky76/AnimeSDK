@@ -53,6 +53,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define KICNCKIMCHC_PDJKFBAKKMA_OFFSET UNITYSDK_OFFSET(0x1C8FFEB0)
 #define KICNCKIMCHC_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x1C8FF1D0)
 
+inline static constexpr unsigned int KICNCKIMCHC_TypeDefinitionIndex = 42532;
+
 	class KICNCKIMCHC : public ::System::Object
 	{
 	public:

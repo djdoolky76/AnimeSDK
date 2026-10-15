@@ -35,6 +35,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ToggleButton_TypeDefinitionIndex = 72688;
+
 	class ToggleButton : public ::RPG::Client::CustomButton
 	{
 	public:

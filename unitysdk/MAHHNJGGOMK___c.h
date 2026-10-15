@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define MAHHNJGGOMK___C__SWITCHACTIVEPATH_B__2_0_OFFSET UNITYSDK_OFFSET(0xB84E7E0)
 #define MAHHNJGGOMK___C__UNLOCKAVATARPATH_B__3_1_OFFSET UNITYSDK_OFFSET(0xB84E850)
 
+inline static constexpr unsigned int MAHHNJGGOMK___c_TypeDefinitionIndex = 62770;
+
 	class MAHHNJGGOMK___c : public ::System::Object
 	{
 	public:

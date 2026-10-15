@@ -12,6 +12,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPDisconnect_TypeDefinitionIndex = 37918;
+
 	class RPDisconnect : public ::System::Object
 	{
 	public:

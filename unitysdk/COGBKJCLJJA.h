@@ -6,6 +6,8 @@
 
 #define COGBKJCLJJA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA134A0)
 
+inline static constexpr unsigned int COGBKJCLJJA_TypeDefinitionIndex = 42073;
+
 	class COGBKJCLJJA : public ::System::Object
 	{
 	public:

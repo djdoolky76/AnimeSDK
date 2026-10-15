@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfSelectEventMessageSequence_TypeDefinitionIndex = 63672;
+
 	class ElfSelectEventMessageSequence : public ::System::Object
 	{
 	public:

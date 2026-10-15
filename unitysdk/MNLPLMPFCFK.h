@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MNLPLMPFCFK_PFAKMDPNJCE_OFFSET UNITYSDK_OFFSET(0xBA17680)
 #define MNLPLMPFCFK_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xBA17930)
 
+inline static constexpr unsigned int MNLPLMPFCFK_TypeDefinitionIndex = 51813;
+
 	class MNLPLMPFCFK : public ::KBNONEGEOMC
 	{
 	public:

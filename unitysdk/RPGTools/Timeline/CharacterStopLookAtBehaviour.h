@@ -9,6 +9,8 @@ namespace RPGTools::Timeline { class CharacterStopLookAtData; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterStopLookAtBehaviour_TypeDefinitionIndex = 47989;
+
 	class CharacterStopLookAtBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
 	public:

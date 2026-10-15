@@ -29,6 +29,8 @@ namespace System { class String; }
 #define MONJNCPINKN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAB0450)
 #define MONJNCPINKN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAB04B0)
 
+inline static constexpr unsigned int MONJNCPINKN_TypeDefinitionIndex = 29199;
+
 	class MONJNCPINKN : public ::System::Object
 	{
 	public:

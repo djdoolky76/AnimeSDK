@@ -31,6 +31,8 @@ namespace System { class String; }
 #define COPLCPBANMD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E139730)
 #define COPLCPBANMD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E139790)
 
+inline static constexpr unsigned int COPLCPBANMD_TypeDefinitionIndex = 31550;
+
 	class COPLCPBANMD : public ::System::Object
 	{
 	public:

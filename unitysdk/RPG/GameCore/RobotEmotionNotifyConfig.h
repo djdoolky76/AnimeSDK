@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RobotEmotionNotifyConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RobotEmotionNotifyConfig_TypeDefinitionIndex = 16960;
+
 	class RobotEmotionNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

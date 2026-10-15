@@ -17,6 +17,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_MaterialPropertySetter_TypeDefinitionIndex = 70511;
+
 	class Effect_MaterialPropertySetter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HeliobusSNSQuickPost_TypeDefinitionIndex = 20449;
+
 	class HeliobusSNSQuickPost : public ::RPG::GameCore::TaskConfig
 	{
 	public:

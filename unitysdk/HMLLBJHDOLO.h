@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HMLLBJHDOLO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15D87EF0)
 #define HMLLBJHDOLO_TICK_OFFSET UNITYSDK_OFFSET(0x15D87F40)
 
+inline static constexpr unsigned int HMLLBJHDOLO_TypeDefinitionIndex = 52234;
+
 	class HMLLBJHDOLO
 	{
 	public:

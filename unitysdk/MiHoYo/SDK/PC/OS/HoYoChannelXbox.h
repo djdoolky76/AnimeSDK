@@ -60,6 +60,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int HoYoChannelXbox_TypeDefinitionIndex = 8646;
+
 	class HoYoChannelXbox : public ::MiHoYo::SDK::PC::OS::HoYoChannel
 	{
 	public:

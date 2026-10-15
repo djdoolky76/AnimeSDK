@@ -8,6 +8,8 @@ class IKNPMFDGADK;
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftSubmitControl___c__DisplayClass10_0_TypeDefinitionIndex = 79945;
+
 	class MechCraftCraftSubmitControl___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

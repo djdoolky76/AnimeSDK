@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int VFXTearDestroyClip_TypeDefinitionIndex = 48082;
+
 	class VFXTearDestroyClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

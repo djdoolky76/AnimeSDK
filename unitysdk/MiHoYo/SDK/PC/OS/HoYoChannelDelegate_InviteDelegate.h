@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int HoYoChannelDelegate_InviteDelegate_TypeDefinitionIndex = 8569;
+
 	class HoYoChannelDelegate_InviteDelegate : public ::System::MulticastDelegate
 	{
 	public:

@@ -9,6 +9,8 @@ class HDGLGNMBEKO;
 #define HDGLGNMBEKO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE941D0)
 #define HDGLGNMBEKO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE94180)
 
+inline static constexpr unsigned int HDGLGNMBEKO_TypeDefinitionIndex = 21489;
+
 	class HDGLGNMBEKO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int XboxCheckoutParam_TypeDefinitionIndex = 8658;
+
 	class XboxCheckoutParam : public ::System::Object
 	{
 	public:

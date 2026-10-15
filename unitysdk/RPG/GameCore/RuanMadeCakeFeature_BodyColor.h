@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RuanMadeCakeFeature_BodyColor; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RuanMadeCakeFeature_BodyColor_TypeDefinitionIndex = 17463;
+
 	class RuanMadeCakeFeature_BodyColor : public ::RPG::GameCore::RuanMadeCakeFeatureConfig
 	{
 	public:

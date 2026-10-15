@@ -24,6 +24,8 @@ namespace RPG::Client { class GridFightBonusResultData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightOrbServerData_PresentSummarizer_TypeDefinitionIndex = 64444;
+
 	class GridFightOrbServerData_PresentSummarizer : public ::AMCOEFHHBPO
 	{
 	public:

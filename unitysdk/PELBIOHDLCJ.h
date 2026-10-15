@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 #define PELBIOHDLCJ_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0xC1F2F90)
 #define PELBIOHDLCJ_TICK_OFFSET UNITYSDK_OFFSET(0xC1F3300)
 
+inline static constexpr unsigned int PELBIOHDLCJ_TypeDefinitionIndex = 73572;
+
 	class PELBIOHDLCJ : public ::RPG::Client::TABehaviorBase
 	{
 	public:

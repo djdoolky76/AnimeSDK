@@ -54,6 +54,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Prop::LogisticsRobotPuzzle
 {
+	inline static constexpr unsigned int LogisticsRobotController_TypeDefinitionIndex = 78975;
+
 	class LogisticsRobotController : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

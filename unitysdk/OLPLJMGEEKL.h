@@ -5,6 +5,8 @@ namespace RPG::GameCore { class BattleLineupData; }
 
 #define OLPLJMGEEKL_CTOR_OFFSET UNITYSDK_OFFSET(0xBF17520)
 
+inline static constexpr unsigned int OLPLJMGEEKL_TypeDefinitionIndex = 60984;
+
 	class OLPLJMGEEKL : public ::System::Object
 	{
 	public:

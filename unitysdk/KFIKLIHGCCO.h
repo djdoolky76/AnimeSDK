@@ -68,6 +68,8 @@ namespace UnityEngine { class Transform; }
 #define KFIKLIHGCCO_OMOHLDCEPBC_OFFSET UNITYSDK_OFFSET(0xB3B5910)
 #define KFIKLIHGCCO_PCLNFODDBLL_OFFSET UNITYSDK_OFFSET(0xB3B4E30)
 
+inline static constexpr unsigned int KFIKLIHGCCO_TypeDefinitionIndex = 51763;
+
 	class KFIKLIHGCCO : public ::System::Object
 	{
 	public:

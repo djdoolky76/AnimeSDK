@@ -15,6 +15,8 @@ namespace UnityEngine { class Collider; }
 #define NFELCAIEKEF_NNALPNDFFIJ_OFFSET UNITYSDK_OFFSET(0xBB7D440)
 #define NFELCAIEKEF_PGKPGNJJMMB_OFFSET UNITYSDK_OFFSET(0xBB7D870)
 
+inline static constexpr unsigned int NFELCAIEKEF_TypeDefinitionIndex = 54744;
+
 	class NFELCAIEKEF : public ::GGJEMEHMBNL
 	{
 	public:

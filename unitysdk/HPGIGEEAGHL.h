@@ -27,6 +27,8 @@ namespace System { class String; }
 #define HPGIGEEAGHL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5F4C40)
 #define HPGIGEEAGHL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5F4CA0)
 
+inline static constexpr unsigned int HPGIGEEAGHL_TypeDefinitionIndex = 34960;
+
 	class HPGIGEEAGHL : public ::System::Object
 	{
 	public:

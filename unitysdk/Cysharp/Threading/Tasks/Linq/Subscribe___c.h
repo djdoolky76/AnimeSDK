@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Subscribe___c_TypeDefinitionIndex = 45602;
+
 	class Subscribe___c : public ::System::Object
 	{
 	public:

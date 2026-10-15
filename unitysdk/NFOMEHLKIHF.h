@@ -9,6 +9,8 @@ class NFOMEHLKIHF;
 #define NFOMEHLKIHF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D204800)
 #define NFOMEHLKIHF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2047C0)
 
+inline static constexpr unsigned int NFOMEHLKIHF_TypeDefinitionIndex = 10313;
+
 	class NFOMEHLKIHF : public ::RPG::GameCore::TaskConfig
 	{
 	public:

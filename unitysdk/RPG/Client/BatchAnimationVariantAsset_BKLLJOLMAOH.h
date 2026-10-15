@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BatchAnimationVariantAsset_BKLLJOLMAOH_TypeDefinitionIndex = 69526;
+
 	class BatchAnimationVariantAsset_BKLLJOLMAOH : public ::System::Object
 	{
 	public:

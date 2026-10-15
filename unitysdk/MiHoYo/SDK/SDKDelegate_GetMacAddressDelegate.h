@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKDelegate_GetMacAddressDelegate_TypeDefinitionIndex = 7790;
+
 	class SDKDelegate_GetMacAddressDelegate : public ::System::MulticastDelegate
 	{
 	public:

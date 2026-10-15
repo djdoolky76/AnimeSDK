@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace UnityEngineInternal
 {
+	inline static constexpr unsigned int TypeInferenceRuleAttribute_TypeDefinitionIndex = 3920;
+
 	class TypeInferenceRuleAttribute : public ::System::Attribute
 	{
 	public:

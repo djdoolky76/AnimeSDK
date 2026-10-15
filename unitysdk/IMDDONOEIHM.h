@@ -6,6 +6,8 @@ namespace RPG::Client::Prop { class ChimeraDuelBubbleData; }
 #define IMDDONOEIHM_CTOR_OFFSET UNITYSDK_OFFSET(0x164D2150)
 #define IMDDONOEIHM_KAJDHKHENLI_OFFSET UNITYSDK_OFFSET(0x164D20F0)
 
+inline static constexpr unsigned int IMDDONOEIHM_TypeDefinitionIndex = 78286;
+
 	class IMDDONOEIHM : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightActionClearGlobalSavedValueConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightActionClearGlobalSavedValueConfig_TypeDefinitionIndex = 19320;
+
 	class GridFightActionClearGlobalSavedValueConfig : public ::RPG::GameCore::GridFightActionConfigBase
 	{
 	public:

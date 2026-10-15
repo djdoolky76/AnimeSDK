@@ -16,6 +16,8 @@ namespace System::Runtime::Remoting::Messaging { class MessageDictionary; }
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int MessageDictionary_DictionaryEnumerator_TypeDefinitionIndex = 1324;
+
 	class MessageDictionary_DictionaryEnumerator : public ::System::Object
 	{
 	public:

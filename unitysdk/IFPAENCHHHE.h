@@ -31,6 +31,8 @@ namespace System { class String; }
 #define IFPAENCHHHE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6471A0)
 #define IFPAENCHHHE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E647200)
 
+inline static constexpr unsigned int IFPAENCHHHE_TypeDefinitionIndex = 29023;
+
 	class IFPAENCHHHE : public ::System::Object
 	{
 	public:

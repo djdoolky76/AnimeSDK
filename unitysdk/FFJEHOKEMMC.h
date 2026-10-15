@@ -7,6 +7,8 @@ namespace RPG::GameCore { class ItemDisplaySortNewRow; }
 #define FFJEHOKEMMC_FAPEGNBINEO_OFFSET UNITYSDK_OFFSET(0x157448E0)
 #define FFJEHOKEMMC_GNADABFLEFM_OFFSET UNITYSDK_OFFSET(0x157447E0)
 
+inline static constexpr unsigned int FFJEHOKEMMC_TypeDefinitionIndex = 65738;
+
 	class FFJEHOKEMMC : public ::JFMOKAKOEEJ
 	{
 	public:

@@ -10,6 +10,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int PadsPuzzleObstacle_TypeDefinitionIndex = 78746;
+
 	class PadsPuzzleObstacle : public ::RPG::Client::Prop::PadsPuzzlePadBase
 	{
 	public:

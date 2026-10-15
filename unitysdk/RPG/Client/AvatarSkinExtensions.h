@@ -7,6 +7,8 @@ namespace RPG::AvatarSystem { class AvatarSkin; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarSkinExtensions_TypeDefinitionIndex = 62574;
+
 	class AvatarSkinExtensions : public ::System::Object
 	{
 	public:

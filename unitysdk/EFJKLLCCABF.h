@@ -35,6 +35,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define EFJKLLCCABF_PIABBHBKPBA_OFFSET UNITYSDK_OFFSET(0x13A50BD0)
 #define EFJKLLCCABF_REMOVE_CHOOSEPETSTARTED_OFFSET UNITYSDK_OFFSET(0x13A51590)
 
+inline static constexpr unsigned int EFJKLLCCABF_TypeDefinitionIndex = 60407;
+
 	class EFJKLLCCABF : public ::System::Object
 	{
 	public:

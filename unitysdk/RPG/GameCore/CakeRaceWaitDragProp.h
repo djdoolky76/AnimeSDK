@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceWaitDragProp; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceWaitDragProp_TypeDefinitionIndex = 24298;
+
 	class CakeRaceWaitDragProp : public ::RPG::GameCore::TaskConfig
 	{
 	public:

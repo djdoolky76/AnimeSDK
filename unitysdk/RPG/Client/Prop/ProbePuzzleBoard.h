@@ -33,6 +33,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ProbePuzzleBoard_TypeDefinitionIndex = 78778;
+
 	class ProbePuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

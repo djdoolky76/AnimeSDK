@@ -6,6 +6,8 @@ namespace System { class Object; }
 #define KKJMAOMDCAE_GCBHILPADCJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB4CE9F0)
 #define KKJMAOMDCAE_GCBHILPADCJ_IFNCPHGCFJL_OFFSET UNITYSDK_OFFSET(0xB4CE8A0)
 
+inline static constexpr unsigned int KKJMAOMDCAE_GCBHILPADCJ_TypeDefinitionIndex = 64772;
+
 	class KKJMAOMDCAE_GCBHILPADCJ : public ::System::Object
 	{
 	public:

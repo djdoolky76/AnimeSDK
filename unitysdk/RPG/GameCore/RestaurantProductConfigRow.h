@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RestaurantProductConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RestaurantProductConfigRow_TypeDefinitionIndex = 11377;
+
 	class RestaurantProductConfigRow : public ::System::Object
 	{
 	public:

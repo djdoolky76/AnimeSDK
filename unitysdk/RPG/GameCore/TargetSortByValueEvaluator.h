@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetSortByValueEvaluator_TypeDefinitionIndex = 23979;
+
 	class TargetSortByValueEvaluator : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:

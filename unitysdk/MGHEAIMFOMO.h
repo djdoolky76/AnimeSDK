@@ -25,6 +25,8 @@ namespace System { class String; }
 #define MGHEAIMFOMO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA25940)
 #define MGHEAIMFOMO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA259A0)
 
+inline static constexpr unsigned int MGHEAIMFOMO_TypeDefinitionIndex = 31237;
+
 	class MGHEAIMFOMO : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define PAJBIMMACKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9A4C40)
 
+inline static constexpr unsigned int PAJBIMMACKK_TypeDefinitionIndex = 43192;
+
 	class PAJBIMMACKK : public ::System::Object
 	{
 	public:

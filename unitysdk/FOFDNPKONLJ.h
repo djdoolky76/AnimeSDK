@@ -9,6 +9,8 @@ namespace System { class String; }
 #define FOFDNPKONLJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE12A10)
 #define FOFDNPKONLJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE129D0)
 
+inline static constexpr unsigned int FOFDNPKONLJ_TypeDefinitionIndex = 22416;
+
 	class FOFDNPKONLJ : public ::RPG::GameCore::TaskConfig
 	{
 	public:

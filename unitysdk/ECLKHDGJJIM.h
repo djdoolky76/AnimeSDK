@@ -13,6 +13,8 @@
 #define ECLKHDGJJIM_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x12D13410)
 #define ECLKHDGJJIM_PHGNLEBBCCP_OFFSET UNITYSDK_OFFSET(0x12D13770)
 
+inline static constexpr unsigned int ECLKHDGJJIM_TypeDefinitionIndex = 72655;
+
 	class ECLKHDGJJIM : public ::System::Object
 	{
 	public:

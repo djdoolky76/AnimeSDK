@@ -24,6 +24,8 @@ namespace System::ComponentModel { class AttributeCollection; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int AttributeCollection_TypeDefinitionIndex = 2562;
+
 	class AttributeCollection : public ::System::Object
 	{
 	public:

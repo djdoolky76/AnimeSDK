@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ParamClampConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ParamClampConfig_TypeDefinitionIndex = 17090;
+
 	class ParamClampConfig : public ::RPG::GameCore::MiParameterConfigBase
 	{
 	public:

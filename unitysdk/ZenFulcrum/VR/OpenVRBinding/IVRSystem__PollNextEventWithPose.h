@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__PollNextEventWithPose_TypeDefinitionIndex = 38920;
+
 	class IVRSystem__PollNextEventWithPose : public ::System::MulticastDelegate
 	{
 	public:

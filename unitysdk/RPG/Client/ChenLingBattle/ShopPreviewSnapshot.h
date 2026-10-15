@@ -11,6 +11,8 @@ namespace RPG::Client::ChenLingBattle { class ShopRefreshInfo; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int ShopPreviewSnapshot_TypeDefinitionIndex = 76298;
+
 	class ShopPreviewSnapshot : public ::RPG::Client::ChenLingBattle::PreviewSnapshot
 	{
 	public:

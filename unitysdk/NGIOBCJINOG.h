@@ -37,6 +37,8 @@ namespace System { class String; }
 #define NGIOBCJINOG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB120C0)
 #define NGIOBCJINOG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB12120)
 
+inline static constexpr unsigned int NGIOBCJINOG_TypeDefinitionIndex = 34934;
+
 	class NGIOBCJINOG : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PSDelegate_ProductsCallback_TypeDefinitionIndex = 7732;
+
 	class PSDelegate_ProductsCallback : public ::System::MulticastDelegate
 	{
 	public:

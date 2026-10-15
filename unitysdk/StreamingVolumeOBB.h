@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define STREAMINGVOLUMEOBB_CTOR_OFFSET UNITYSDK_OFFSET(0xE999070)
 #define STREAMINGVOLUMEOBB_UPDATEBITSTATE_OFFSET UNITYSDK_OFFSET(0xE998DE0)
 
+inline static constexpr unsigned int StreamingVolumeOBB_TypeDefinitionIndex = 47288;
+
 	class StreamingVolumeOBB : public ::UnityEngine::MonoBehaviour
 	{
 	public:

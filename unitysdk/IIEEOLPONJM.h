@@ -36,6 +36,8 @@ namespace System { class String; }
 #define IIEEOLPONJM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E684E00)
 #define IIEEOLPONJM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E684E60)
 
+inline static constexpr unsigned int IIEEOLPONJM_TypeDefinitionIndex = 26376;
+
 	class IIEEOLPONJM : public ::System::Object
 	{
 	public:

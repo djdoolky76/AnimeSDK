@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int EmoBlendShapeParam_TypeDefinitionIndex = 48736;
+
 	class EmoBlendShapeParam : public ::System::Object
 	{
 	public:

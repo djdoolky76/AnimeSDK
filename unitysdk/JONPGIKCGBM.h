@@ -9,6 +9,8 @@ namespace System { class String; }
 #define JONPGIKCGBM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D058680)
 #define JONPGIKCGBM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D058640)
 
+inline static constexpr unsigned int JONPGIKCGBM_TypeDefinitionIndex = 22442;
+
 	class JONPGIKCGBM : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

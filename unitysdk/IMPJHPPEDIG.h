@@ -14,6 +14,8 @@ namespace System { class String; }
 #define IMPJHPPEDIG_MEMPHCDHLGK_OFFSET UNITYSDK_OFFSET(0x164E5700)
 #define IMPJHPPEDIG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164E4360)
 
+inline static constexpr unsigned int IMPJHPPEDIG_TypeDefinitionIndex = 55776;
+
 	class IMPJHPPEDIG
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System::Reflection::Emit { class ParameterBuilder; }
 
 namespace System::Reflection::Emit
 {
+	inline static constexpr unsigned int ConstructorBuilder_TypeDefinitionIndex = 641;
+
 	class ConstructorBuilder : public ::System::Reflection::ConstructorInfo
 	{
 	public:

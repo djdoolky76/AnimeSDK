@@ -41,6 +41,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FCDLCHGAHFE_REPORTACTION_OFFSET UNITYSDK_OFFSET(0x156B54D0)
 #define FCDLCHGAHFE_SET_CANREFRESH_OFFSET UNITYSDK_OFFSET(0x156B4BC0)
 
+inline static constexpr unsigned int FCDLCHGAHFE_TypeDefinitionIndex = 63920;
+
 	class FCDLCHGAHFE : public ::System::Object
 	{
 	public:

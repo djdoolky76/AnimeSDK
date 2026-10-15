@@ -15,6 +15,8 @@ namespace System { class String; }
 #define AFJCAGPGAOD_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xCF0D1F0)
 #define AFJCAGPGAOD_LODDCIJMKND_OFFSET UNITYSDK_OFFSET(0xCF0DE40)
 
+inline static constexpr unsigned int AFJCAGPGAOD_TypeDefinitionIndex = 65505;
+
 	class AFJCAGPGAOD : public ::System::Object
 	{
 	public:

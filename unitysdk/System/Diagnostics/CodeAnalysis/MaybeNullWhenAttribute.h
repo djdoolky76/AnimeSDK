@@ -6,6 +6,8 @@
 
 namespace System::Diagnostics::CodeAnalysis
 {
+	inline static constexpr unsigned int MaybeNullWhenAttribute_TypeDefinitionIndex = 6580;
+
 	class MaybeNullWhenAttribute : public ::System::Attribute
 	{
 	public:

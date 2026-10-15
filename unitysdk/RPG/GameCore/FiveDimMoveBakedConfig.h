@@ -18,6 +18,8 @@ namespace RPG::GameCore { class FiveDimWallBakedConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimMoveBakedConfig_TypeDefinitionIndex = 16661;
+
 	class FiveDimMoveBakedConfig : public ::RPG::GameCore::LittleGameEntityMoveBakedConfig
 	{
 	public:

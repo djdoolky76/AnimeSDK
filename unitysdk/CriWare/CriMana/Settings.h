@@ -6,6 +6,8 @@
 
 namespace CriWare::CriMana
 {
+	inline static constexpr unsigned int Settings_TypeDefinitionIndex = 40213;
+
 	class Settings : public ::System::Object
 	{
 	public:

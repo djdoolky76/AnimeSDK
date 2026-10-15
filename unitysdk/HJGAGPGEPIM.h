@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HJGAGPGEPIM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CEB6BF0)
 #define HJGAGPGEPIM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CEB6510)
 
+inline static constexpr unsigned int HJGAGPGEPIM_TypeDefinitionIndex = 11975;
+
 	class HJGAGPGEPIM : public ::System::Object
 	{
 	public:

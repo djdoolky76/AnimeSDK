@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MapAnchorDef_TypeDefinitionIndex = 62077;
+
 	class MapAnchorDef : public ::System::Object
 	{
 	public:

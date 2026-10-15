@@ -58,6 +58,8 @@ namespace RPG::GameCore { class LittleGameBaseEventAction; }
 #define GDDNDJNMONC__SOLVESUBCLASSACTION_OFFSET UNITYSDK_OFFSET(0x15996790)
 #define GDDNDJNMONC___SOLVESUBCLASSACTION_B__3_0_OFFSET UNITYSDK_OFFSET(0x15999D80)
 
+inline static constexpr unsigned int GDDNDJNMONC_TypeDefinitionIndex = 76703;
+
 	class GDDNDJNMONC
 	{
 	public:

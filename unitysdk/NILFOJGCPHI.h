@@ -17,6 +17,8 @@ namespace RPG::Client { class TAComponetPositonPasterMonoPlugin; }
 #define NILFOJGCPHI_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0xBBF8EB0)
 #define NILFOJGCPHI_TICK_OFFSET UNITYSDK_OFFSET(0xBBF9090)
 
+inline static constexpr unsigned int NILFOJGCPHI_TypeDefinitionIndex = 70381;
+
 	class NILFOJGCPHI : public ::RPG::Client::TABehaviorBase
 	{
 	public:

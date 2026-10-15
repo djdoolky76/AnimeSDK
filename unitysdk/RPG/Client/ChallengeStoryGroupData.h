@@ -15,6 +15,8 @@ namespace RPG::GameCore { class ChallengeStoryThemeConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengeStoryGroupData_TypeDefinitionIndex = 63149;
+
 	class ChallengeStoryGroupData : public ::RPG::Client::ChallengeGroupData
 	{
 	public:

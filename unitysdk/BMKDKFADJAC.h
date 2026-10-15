@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BMKDKFADJAC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBDBD950)
 #define BMKDKFADJAC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDBD990)
 
+inline static constexpr unsigned int BMKDKFADJAC_TypeDefinitionIndex = 58090;
+
 	class BMKDKFADJAC
 	{
 	public:

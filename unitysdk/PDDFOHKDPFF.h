@@ -8,6 +8,8 @@ class PDDFOHKDPFF;
 #define PDDFOHKDPFF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2CE5C0)
 #define PDDFOHKDPFF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2CE580)
 
+inline static constexpr unsigned int PDDFOHKDPFF_TypeDefinitionIndex = 19946;
+
 	class PDDFOHKDPFF : public ::RPG::GameCore::TaskConfig
 	{
 	public:

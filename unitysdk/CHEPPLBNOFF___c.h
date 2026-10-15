@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CHEPPLBNOFF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0C4900)
 #define CHEPPLBNOFF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E0C4910)
 
+inline static constexpr unsigned int CHEPPLBNOFF___c_TypeDefinitionIndex = 32901;
+
 	class CHEPPLBNOFF___c : public ::System::Object
 	{
 	public:

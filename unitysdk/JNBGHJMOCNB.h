@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JNBGHJMOCNB_SET_ENTITYRUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB277DC0)
 #define JNBGHJMOCNB_TICK_OFFSET UNITYSDK_OFFSET(0xB277920)
 
+inline static constexpr unsigned int JNBGHJMOCNB_TypeDefinitionIndex = 76546;
+
 	class JNBGHJMOCNB : public ::System::Object
 	{
 	public:

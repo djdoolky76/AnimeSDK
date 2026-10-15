@@ -6,6 +6,8 @@ namespace System { class String; }
 #define HGJNFGFANNK_CTOR_OFFSET UNITYSDK_OFFSET(0x15CA76F0)
 #define HGJNFGFANNK_HKILPOPCDPJ_OFFSET UNITYSDK_OFFSET(0x15CA75F0)
 
+inline static constexpr unsigned int HGJNFGFANNK_TypeDefinitionIndex = 76355;
+
 	class HGJNFGFANNK : public ::ODLJOLJDLNI
 	{
 	public:

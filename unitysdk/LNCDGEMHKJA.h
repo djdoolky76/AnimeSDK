@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PlanetFesOpticalRow; }
 #define LNCDGEMHKJA_CTOR_OFFSET UNITYSDK_OFFSET(0xB7D6620)
 #define LNCDGEMHKJA_NBBMINIOAIP_OFFSET UNITYSDK_OFFSET(0xB7D64F0)
 
+inline static constexpr unsigned int LNCDGEMHKJA_TypeDefinitionIndex = 66604;
+
 	class LNCDGEMHKJA : public ::System::Object
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DMFCABLGEMP_NNBLMEJPJNJ_OFFSET UNITYSDK_OFFSET(0x1C460630)
 #define DMFCABLGEMP_OKPEJGLNLLH_OFFSET UNITYSDK_OFFSET(0x1C45F3B0)
 
+inline static constexpr unsigned int DMFCABLGEMP_TypeDefinitionIndex = 41465;
+
 	class DMFCABLGEMP : public ::System::Object
 	{
 	public:

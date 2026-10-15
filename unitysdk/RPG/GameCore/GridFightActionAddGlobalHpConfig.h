@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightActionAddGlobalHpConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightActionAddGlobalHpConfig_TypeDefinitionIndex = 19295;
+
 	class GridFightActionAddGlobalHpConfig : public ::RPG::GameCore::GridFightActionConfigBase
 	{
 	public:

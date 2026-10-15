@@ -11,6 +11,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int AxisState_Recentering_TypeDefinitionIndex = 39798;
+
 	struct alignas(4) AxisState_Recentering
 	{
 		::System::Boolean m_enabled; // 0x10

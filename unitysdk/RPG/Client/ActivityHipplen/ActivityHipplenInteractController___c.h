@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenInteractController___c_TypeDefinitionIndex = 75575;
+
 	class ActivityHipplenInteractController___c : public ::System::Object
 	{
 	public:

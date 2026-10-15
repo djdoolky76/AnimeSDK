@@ -47,6 +47,8 @@ namespace System::Runtime::Serialization { class DataMemberAttribute; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int ObjectSerializationInfo_EmittableMember_TypeDefinitionIndex = 7333;
+
 	class ObjectSerializationInfo_EmittableMember : public ::System::Object
 	{
 	public:

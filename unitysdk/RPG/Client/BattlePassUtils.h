@@ -11,6 +11,8 @@ namespace RPG::Client { class BattlePassRewardPointData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattlePassUtils_TypeDefinitionIndex = 62897;
+
 	class BattlePassUtils : public ::System::Object
 	{
 	public:

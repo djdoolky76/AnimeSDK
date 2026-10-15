@@ -13,6 +13,8 @@ namespace XLua { class ObjectTranslator_ExtraParameter; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int ObjectTranslator_GetCSObject_TypeDefinitionIndex = 50072;
+
 	class ObjectTranslator_GetCSObject : public ::System::MulticastDelegate
 	{
 	public:

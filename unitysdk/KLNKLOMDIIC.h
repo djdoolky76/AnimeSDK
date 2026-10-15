@@ -51,6 +51,8 @@ namespace System { class Object; }
 #define KLNKLOMDIIC_PCLDEDNAIFO_1_OFFSET UNITYSDK_OFFSET(0x1C718C70)
 #define KLNKLOMDIIC_PCLDEDNAIFO_OFFSET UNITYSDK_OFFSET(0x1C718800)
 
+inline static constexpr unsigned int KLNKLOMDIIC_TypeDefinitionIndex = 36964;
+
 	struct alignas(4) KLNKLOMDIIC
 	{
 		::UnityEngine::Vector3 MIFKHBDOGLN; // 0x10

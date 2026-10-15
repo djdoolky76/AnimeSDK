@@ -8,6 +8,8 @@ namespace Entitas { class ISystem; }
 #define JJHADOIAEOG_CLEANUP_OFFSET UNITYSDK_OFFSET(0xB2057B0)
 #define JJHADOIAEOG_CTOR_OFFSET UNITYSDK_OFFSET(0xB2056C0)
 
+inline static constexpr unsigned int JJHADOIAEOG_TypeDefinitionIndex = 76773;
+
 	class JJHADOIAEOG : public ::System::Object
 	{
 	public:

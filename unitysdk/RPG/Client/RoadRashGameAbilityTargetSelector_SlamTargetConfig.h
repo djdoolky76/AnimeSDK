@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoadRashGameAbilityTargetSelector_SlamTargetConfig_TypeDefinitionIndex = 10295;
+
 	class RoadRashGameAbilityTargetSelector_SlamTargetConfig : public ::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig
 	{
 	public:

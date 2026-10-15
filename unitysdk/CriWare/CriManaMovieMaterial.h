@@ -28,6 +28,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriManaMovieMaterial_TypeDefinitionIndex = 40129;
+
 	class CriManaMovieMaterial : public ::CriWare::CriManaMovieMaterialBase
 	{
 	public:

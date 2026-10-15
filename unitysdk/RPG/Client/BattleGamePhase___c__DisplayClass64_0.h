@@ -9,6 +9,8 @@ namespace RPG::Client::Promises { class Promise; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleGamePhase___c__DisplayClass64_0_TypeDefinitionIndex = 60969;
+
 	class BattleGamePhase___c__DisplayClass64_0 : public ::System::Object
 	{
 	public:

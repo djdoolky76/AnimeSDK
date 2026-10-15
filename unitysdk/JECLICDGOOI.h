@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define JECLICDGOOI_UPDATEITEM_OFFSET UNITYSDK_OFFSET(0x16619FA0)
 #define JECLICDGOOI_UPDATESTART_OFFSET UNITYSDK_OFFSET(0x166197F0)
 
+inline static constexpr unsigned int JECLICDGOOI_TypeDefinitionIndex = 64952;
+
 	class JECLICDGOOI : public ::AMCOEFHHBPO
 	{
 	public:

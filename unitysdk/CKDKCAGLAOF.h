@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CKDKCAGLAOF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD756E10)
 #define CKDKCAGLAOF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD756E50)
 
+inline static constexpr unsigned int CKDKCAGLAOF_TypeDefinitionIndex = 54875;
+
 	class CKDKCAGLAOF
 	{
 	public:

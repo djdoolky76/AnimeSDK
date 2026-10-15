@@ -7,6 +7,8 @@ namespace RPG::Client { class CharacterRootMotionBakedData; }
 #define KLLLADNJBOI_CTOR_OFFSET UNITYSDK_OFFSET(0xB52ED00)
 #define KLLLADNJBOI_KFNNNEBIFLL_OFFSET UNITYSDK_OFFSET(0xB52EB90)
 
+inline static constexpr unsigned int KLLLADNJBOI_TypeDefinitionIndex = 53623;
+
 	class KLLLADNJBOI : public ::LPCLNJFNJCL
 	{
 	public:

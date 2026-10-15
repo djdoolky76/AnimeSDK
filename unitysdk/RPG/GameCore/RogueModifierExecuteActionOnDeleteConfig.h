@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionOnDeleteConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionOnDeleteConfig_TypeDefinitionIndex = 17692;
+
 	class RogueModifierExecuteActionOnDeleteConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

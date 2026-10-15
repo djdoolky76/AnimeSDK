@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 #define MMLNMMOMLPI_ONKHABDIMME_OFFSET UNITYSDK_OFFSET(0xB9D7F10)
 #define MMLNMMOMLPI__ONBIND_OFFSET UNITYSDK_OFFSET(0xB9D7670)
 
+inline static constexpr unsigned int MMLNMMOMLPI_TypeDefinitionIndex = 71666;
+
 	class MMLNMMOMLPI : public ::FMPCODLIOLG
 	{
 	public:

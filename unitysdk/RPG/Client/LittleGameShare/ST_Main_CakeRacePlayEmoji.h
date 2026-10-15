@@ -10,6 +10,8 @@ namespace RPG::Client::LittleGameShare { class ST_Main_CakeRacePlayEmoji; }
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int ST_Main_CakeRacePlayEmoji_TypeDefinitionIndex = 10352;
+
 	class ST_Main_CakeRacePlayEmoji : public ::RPG::Client::LittleGameShare::LittleGameSTTaskConfig
 	{
 	public:

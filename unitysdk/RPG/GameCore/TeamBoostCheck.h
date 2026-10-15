@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TeamBoostCheck; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamBoostCheck_TypeDefinitionIndex = 22968;
+
 	class TeamBoostCheck : public ::RPG::GameCore::TaskConfig
 	{
 	public:

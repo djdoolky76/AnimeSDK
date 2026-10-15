@@ -8,6 +8,8 @@ class GDEDFJOIPFA;
 #define GDEDFJOIPFA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE2DBC0)
 #define GDEDFJOIPFA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE2DB80)
 
+inline static constexpr unsigned int GDEDFJOIPFA_TypeDefinitionIndex = 21450;
+
 	class GDEDFJOIPFA : public ::RPG::GameCore::TaskConfig
 	{
 	public:

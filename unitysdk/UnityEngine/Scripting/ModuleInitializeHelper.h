@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace UnityEngine::Scripting
 {
+	inline static constexpr unsigned int ModuleInitializeHelper_TypeDefinitionIndex = 4503;
+
 	class ModuleInitializeHelper : public ::System::Object
 	{
 	public:

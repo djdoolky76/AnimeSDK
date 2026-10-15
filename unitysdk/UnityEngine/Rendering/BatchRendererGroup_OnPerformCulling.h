@@ -15,6 +15,8 @@ namespace UnityEngine::Rendering { class BatchRendererGroup; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int BatchRendererGroup_OnPerformCulling_TypeDefinitionIndex = 4738;
+
 	class BatchRendererGroup_OnPerformCulling : public ::System::MulticastDelegate
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int CCPLKEJLJIF_THPatchResult_TypeDefinitionIndex = 59611;
+
 	enum class CCPLKEJLJIF_THPatchResult : ::System::Int32
 	{
 		HPATCH_SUCCESS = 0,

@@ -43,6 +43,8 @@ namespace System { class String; }
 #define PMMOFOBCINL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFAE840)
 #define PMMOFOBCINL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFAE8A0)
 
+inline static constexpr unsigned int PMMOFOBCINL_TypeDefinitionIndex = 26976;
+
 	class PMMOFOBCINL : public ::System::Object
 	{
 	public:

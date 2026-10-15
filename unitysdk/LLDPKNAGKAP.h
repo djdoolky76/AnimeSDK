@@ -8,6 +8,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 #define LLDPKNAGKAP_SETPROPERTY_1_OFFSET UNITYSDK_OFFSET(0xB7646D0)
 #define LLDPKNAGKAP_SETPROPERTY_OFFSET UNITYSDK_OFFSET(0xB764650)
 
+inline static constexpr unsigned int LLDPKNAGKAP_TypeDefinitionIndex = 69828;
+
 	class LLDPKNAGKAP : public ::System::Object
 	{
 	public:

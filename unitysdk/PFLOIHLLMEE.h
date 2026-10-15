@@ -43,6 +43,8 @@ namespace System { class String; }
 #define PFLOIHLLMEE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF26610)
 #define PFLOIHLLMEE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF26670)
 
+inline static constexpr unsigned int PFLOIHLLMEE_TypeDefinitionIndex = 33627;
+
 	class PFLOIHLLMEE : public ::System::Object
 	{
 	public:

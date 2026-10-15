@@ -27,6 +27,8 @@ namespace RPG::Client::DiceCombat { class IDiceCombatAvatarInfo; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2BattleResultInfo_TypeDefinitionIndex = 76144;
+
 	class DiceCombatV2BattleResultInfo : public ::System::Object
 	{
 	public:

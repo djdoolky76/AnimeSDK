@@ -10,6 +10,8 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 #define DOCHMPOABII_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C5F9E60)
 #define DOCHMPOABII_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C5F9D90)
 
+inline static constexpr unsigned int DOCHMPOABII_TypeDefinitionIndex = 37206;
+
 	class DOCHMPOABII : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System::Collections { class ListDictionaryInternal; }
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int ListDictionaryInternal_NodeKeyValueCollection_TypeDefinitionIndex = 1492;
+
 	class ListDictionaryInternal_NodeKeyValueCollection : public ::System::Object
 	{
 	public:

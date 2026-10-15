@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ComplexSkillAIBattleGlobalData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAIBattleGlobalData_TypeDefinitionIndex = 15531;
+
 	class ComplexSkillAIBattleGlobalData : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:

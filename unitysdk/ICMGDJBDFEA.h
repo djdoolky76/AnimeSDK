@@ -36,6 +36,8 @@ namespace System { class String; }
 #define ICMGDJBDFEA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E625060)
 #define ICMGDJBDFEA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6250C0)
 
+inline static constexpr unsigned int ICMGDJBDFEA_TypeDefinitionIndex = 28869;
+
 	class ICMGDJBDFEA : public ::System::Object
 	{
 	public:

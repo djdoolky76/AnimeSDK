@@ -24,6 +24,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TerrainVolumeBehavior_TypeDefinitionIndex = 71034;
+
 	class TerrainVolumeBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

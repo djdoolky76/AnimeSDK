@@ -4,6 +4,8 @@
 
 namespace RVO
 {
+	inline static constexpr unsigned int RVOAgentParam_TypeDefinitionIndex = 46035;
+
 	struct alignas(4) RVOAgentParam
 	{
 		::RVO::Vector2 Position; // 0x10

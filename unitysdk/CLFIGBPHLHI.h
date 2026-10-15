@@ -23,6 +23,8 @@ namespace UnityEngine { class Transform; }
 #define CLFIGBPHLHI_STARTWITHTARGET_OFFSET UNITYSDK_OFFSET(0xD77BE10)
 #define CLFIGBPHLHI_STEP_OFFSET UNITYSDK_OFFSET(0xD77BE70)
 
+inline static constexpr unsigned int CLFIGBPHLHI_TypeDefinitionIndex = 73538;
+
 	class CLFIGBPHLHI : public ::System::Object
 	{
 	public:

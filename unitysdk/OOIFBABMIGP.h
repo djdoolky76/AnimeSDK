@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define OOIFBABMIGP_GET_SUMMONUNITID_OFFSET UNITYSDK_OFFSET(0xACE0)
 #define OOIFBABMIGP_MMLKAHGLEEF_OFFSET UNITYSDK_OFFSET(0x25B70)
 
+inline static constexpr unsigned int OOIFBABMIGP_TypeDefinitionIndex = 53516;
+
 	struct alignas(8) OOIFBABMIGP
 	{
 		::RPG::GameCore::GameEntity* _Entity_k__BackingField; // 0x10

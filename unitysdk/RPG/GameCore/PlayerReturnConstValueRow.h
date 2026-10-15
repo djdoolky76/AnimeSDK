@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerReturnConstValueRow_TypeDefinitionIndex = 14525;
+
 	class PlayerReturnConstValueRow : public ::System::Object
 	{
 	public:

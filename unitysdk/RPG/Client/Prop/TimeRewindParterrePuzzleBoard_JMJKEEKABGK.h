@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int TimeRewindParterrePuzzleBoard_JMJKEEKABGK_TypeDefinitionIndex = 78909;
+
 	class TimeRewindParterrePuzzleBoard_JMJKEEKABGK : public ::System::Object
 	{
 	public:

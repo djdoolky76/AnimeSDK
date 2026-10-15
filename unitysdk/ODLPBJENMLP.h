@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ODLPBJENMLP_PIJAFHECHHB_OFFSET UNITYSDK_OFFSET(0xBDED040)
 #define ODLPBJENMLP_SET_REPLACECOUNT_OFFSET UNITYSDK_OFFSET(0xBDED5B0)
 
+inline static constexpr unsigned int ODLPBJENMLP_TypeDefinitionIndex = 68759;
+
 	class ODLPBJENMLP : public ::FICJADOJGMF
 	{
 	public:

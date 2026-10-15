@@ -10,6 +10,8 @@ namespace RPG::GameCore { class KillNPCMonsterInServer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int KillNPCMonsterInServer_TypeDefinitionIndex = 20320;
+
 	class KillNPCMonsterInServer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

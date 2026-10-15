@@ -9,6 +9,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace DefaultNamespace
 {
+	inline static constexpr unsigned int ShowRendererBounds_TypeDefinitionIndex = 47705;
+
 	class ShowRendererBounds : public ::UnityEngine::MonoBehaviour
 	{
 	public:

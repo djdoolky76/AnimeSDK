@@ -14,6 +14,8 @@ namespace RPG::GameCore { class ThreadTaskConfig; }
 #define BKOIMIBEGIE_ONENABLE_OFFSET UNITYSDK_OFFSET(0xBA62700)
 #define BKOIMIBEGIE_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0xBA62790)
 
+inline static constexpr unsigned int BKOIMIBEGIE_TypeDefinitionIndex = 71105;
+
 	class BKOIMIBEGIE
 	{
 	public:

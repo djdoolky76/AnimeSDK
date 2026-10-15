@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int DriveNotFoundException_TypeDefinitionIndex = 667;
+
 	class DriveNotFoundException : public ::System::IO::IOException
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class HeliobusSpecialPostRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HeliobusSpecialPostRow_TypeDefinitionIndex = 13745;
+
 	class HeliobusSpecialPostRow : public ::System::Object
 	{
 	public:

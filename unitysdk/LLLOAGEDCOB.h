@@ -8,6 +8,8 @@ class OMNJCDDMLHI;
 #define LLLOAGEDCOB_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB774840)
 #define LLLOAGEDCOB_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB7747F0)
 
+inline static constexpr unsigned int LLLOAGEDCOB_TypeDefinitionIndex = 77945;
+
 	class LLLOAGEDCOB : public ::System::Object
 	{
 	public:

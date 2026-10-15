@@ -16,6 +16,8 @@ namespace UnityEngine { class Animation; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftChipMoldFilterTabsControlBinder_TypeDefinitionIndex = 79865;
+
 	class MechCraftCraftChipMoldFilterTabsControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

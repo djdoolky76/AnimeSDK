@@ -7,6 +7,8 @@ namespace RPG::Client { class ListView; }
 
 namespace RPG::Client::Ui::Samples
 {
+	inline static constexpr unsigned int BagSampleWindow_TypeDefinitionIndex = 73432;
+
 	class BagSampleWindow
 	{
 	public:

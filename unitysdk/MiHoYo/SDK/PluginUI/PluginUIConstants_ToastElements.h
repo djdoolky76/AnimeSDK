@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int PluginUIConstants_ToastElements_TypeDefinitionIndex = 9177;
+
 	class PluginUIConstants_ToastElements : public ::System::Object
 	{
 	public:

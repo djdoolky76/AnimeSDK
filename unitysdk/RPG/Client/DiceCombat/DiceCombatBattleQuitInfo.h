@@ -12,6 +12,8 @@ namespace RPG::Client::DiceCombat { class DiceCombatBattleQuitInfo; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatBattleQuitInfo_TypeDefinitionIndex = 76049;
+
 	class DiceCombatBattleQuitInfo : public ::System::Object
 	{
 	public:

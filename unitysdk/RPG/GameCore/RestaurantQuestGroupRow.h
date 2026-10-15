@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RestaurantQuestGroupRow_TypeDefinitionIndex = 11392;
+
 	class RestaurantQuestGroupRow : public ::System::Object
 	{
 	public:

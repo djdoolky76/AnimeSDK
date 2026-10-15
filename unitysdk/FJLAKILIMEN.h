@@ -7,6 +7,8 @@ class DEEJKBIMHAA;
 #define FJLAKILIMEN_LMIEIPAKDGC_OFFSET UNITYSDK_OFFSET(0x2E77000)
 #define FJLAKILIMEN_PAKIJFOGOJF_OFFSET UNITYSDK_OFFSET(0x2E77010)
 
+inline static constexpr unsigned int FJLAKILIMEN_TypeDefinitionIndex = 54418;
+
 	struct alignas(4) FJLAKILIMEN
 	{
 		::System::Boolean MOKNCFJICIC; // 0x10

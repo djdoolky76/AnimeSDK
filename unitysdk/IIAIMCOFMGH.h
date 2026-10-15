@@ -29,6 +29,8 @@ namespace System { class String; }
 #define IIAIMCOFMGH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E683F10)
 #define IIAIMCOFMGH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E683F70)
 
+inline static constexpr unsigned int IIAIMCOFMGH_TypeDefinitionIndex = 25948;
+
 	class IIAIMCOFMGH : public ::System::Object
 	{
 	public:

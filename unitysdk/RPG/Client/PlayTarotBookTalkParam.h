@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TarotBookTalkInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayTarotBookTalkParam_TypeDefinitionIndex = 68049;
+
 	class PlayTarotBookTalkParam : public ::System::Object
 	{
 	public:

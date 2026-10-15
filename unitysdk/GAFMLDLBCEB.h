@@ -146,6 +146,8 @@ namespace UnityEngine { class GameObject; }
 #define GAFMLDLBCEB_OPLEEMKOKGB_OFFSET UNITYSDK_OFFSET(0x1CA75470)
 #define GAFMLDLBCEB_POOEBBBCIEI_OFFSET UNITYSDK_OFFSET(0x1CA76460)
 
+inline static constexpr unsigned int GAFMLDLBCEB_TypeDefinitionIndex = 42579;
+
 	class GAFMLDLBCEB
 	{
 	public:

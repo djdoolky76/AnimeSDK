@@ -220,6 +220,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGSDKAccountManager_TypeDefinitionIndex = 61086;
+
 	class RPGSDKAccountManager : public ::System::Object
 	{
 	public:

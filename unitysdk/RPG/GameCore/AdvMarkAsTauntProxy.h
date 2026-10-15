@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvMarkAsTauntProxy_TypeDefinitionIndex = 20562;
+
 	class AdvMarkAsTauntProxy : public ::RPG::GameCore::TaskConfig
 	{
 	public:

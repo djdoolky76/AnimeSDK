@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierEnableDiceReRollFreeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierEnableDiceReRollFreeConfig_TypeDefinitionIndex = 17956;
+
 	class RogueModifierEnableDiceReRollFreeConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

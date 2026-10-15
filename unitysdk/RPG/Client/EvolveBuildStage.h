@@ -66,6 +66,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EvolveBuildStage_TypeDefinitionIndex = 63808;
+
 	class EvolveBuildStage : public ::System::Object
 	{
 	public:

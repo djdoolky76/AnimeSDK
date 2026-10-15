@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterEyeLookAtData_TypeDefinitionIndex = 47974;
+
 	class CharacterEyeLookAtData : public ::System::Object
 	{
 	public:

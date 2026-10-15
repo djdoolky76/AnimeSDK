@@ -97,6 +97,8 @@ namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int TextGenerator_TypeDefinitionIndex = 5042;
+
 	class TextGenerator : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 class KJMMJNJDINO;
 namespace System { class IDisposable; }
 
+inline static constexpr unsigned int KJMMJNJDINO_KMLIAANPLIG_TypeDefinitionIndex = 49970;
+
 	class KJMMJNJDINO_KMLIAANPLIG : public ::System::Object
 	{
 	public:

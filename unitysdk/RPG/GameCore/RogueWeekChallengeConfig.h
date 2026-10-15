@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueWeekChallengeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueWeekChallengeConfig_TypeDefinitionIndex = 18016;
+
 	class RogueWeekChallengeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

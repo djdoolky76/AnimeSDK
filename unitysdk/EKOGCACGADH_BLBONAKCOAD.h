@@ -5,6 +5,8 @@ namespace System { class Type; }
 #define EKOGCACGADH_BLBONAKCOAD_CTOR_OFFSET UNITYSDK_OFFSET(0xE590)
 #define EKOGCACGADH_BLBONAKCOAD_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x2E73440)
 
+inline static constexpr unsigned int EKOGCACGADH_BLBONAKCOAD_TypeDefinitionIndex = 71351;
+
 	struct alignas(8) EKOGCACGADH_BLBONAKCOAD
 	{
 		::System::Int32 JGGDKOCIEGH; // 0x10

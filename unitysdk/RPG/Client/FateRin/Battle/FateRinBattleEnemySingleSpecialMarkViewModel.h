@@ -34,6 +34,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleEnemySingleSpecialMarkViewModel_TypeDefinitionIndex = 80873;
+
 	class FateRinBattleEnemySingleSpecialMarkViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

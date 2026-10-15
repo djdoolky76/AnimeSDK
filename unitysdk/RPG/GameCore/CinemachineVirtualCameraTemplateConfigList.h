@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CinemachineVirtualCameraTemplateConfigList; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CinemachineVirtualCameraTemplateConfigList_TypeDefinitionIndex = 16443;
+
 	class CinemachineVirtualCameraTemplateConfigList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

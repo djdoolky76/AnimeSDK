@@ -7,6 +7,8 @@ namespace System::Linq::Expressions { class Expression; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int MemberAssignment_TypeDefinitionIndex = 3241;
+
 	class MemberAssignment : public ::System::Linq::Expressions::MemberBinding
 	{
 	public:

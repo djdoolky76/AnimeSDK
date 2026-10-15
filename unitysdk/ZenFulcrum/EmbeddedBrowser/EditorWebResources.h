@@ -9,6 +9,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int EditorWebResources_TypeDefinitionIndex = 39500;
+
 	class EditorWebResources : public ::ZenFulcrum::EmbeddedBrowser::WebResources
 	{
 	public:

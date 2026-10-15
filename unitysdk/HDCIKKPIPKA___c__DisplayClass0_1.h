@@ -7,6 +7,8 @@ namespace System { class Object; }
 #define HDCIKKPIPKA___C__DISPLAYCLASS0_1_CTOR_OFFSET UNITYSDK_OFFSET(0x15C307F0)
 #define HDCIKKPIPKA___C__DISPLAYCLASS0_1__TOPUBLICORDERS_B__0_OFFSET UNITYSDK_OFFSET(0x15C309E0)
 
+inline static constexpr unsigned int HDCIKKPIPKA___c__DisplayClass0_1_TypeDefinitionIndex = 74866;
+
 	template <typename T>
 	class HDCIKKPIPKA___c__DisplayClass0_1 : public ::System::Object
 	{

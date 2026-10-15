@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarSkinSpecialActionRow_TypeDefinitionIndex = 12716;
+
 	class AvatarSkinSpecialActionRow : public ::System::Object
 	{
 	public:

@@ -98,6 +98,8 @@ namespace UnityEngine::Events { class UnityAction; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTask_TypeDefinitionIndex = 38227;
+
 	struct alignas(8) UniTask
 	{
 		::Cysharp::Threading::Tasks::IUniTaskSource* source; // 0x10

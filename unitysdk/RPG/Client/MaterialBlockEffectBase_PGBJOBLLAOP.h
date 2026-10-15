@@ -14,6 +14,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MaterialBlockEffectBase_PGBJOBLLAOP_TypeDefinitionIndex = 70650;
+
 	class MaterialBlockEffectBase_PGBJOBLLAOP : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NEOPAHAGBBM_CTOR_OFFSET UNITYSDK_OFFSET(0xBB751B0)
 #define NEOPAHAGBBM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBB751E0)
 
+inline static constexpr unsigned int NEOPAHAGBBM_TypeDefinitionIndex = 54710;
+
 	class NEOPAHAGBBM
 	{
 	public:

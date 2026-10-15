@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MusicRhythmHintGroupInfo_TypeDefinitionIndex = 60169;
+
 	class MusicRhythmHintGroupInfo : public ::System::Object
 	{
 	public:

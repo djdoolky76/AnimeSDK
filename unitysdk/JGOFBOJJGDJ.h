@@ -12,6 +12,8 @@ namespace System { class String; }
 #define JGOFBOJJGDJ_GET_NAME_OFFSET UNITYSDK_OFFSET(0xB1A6110)
 #define JGOFBOJJGDJ_GET_PORTRAITIMAGE_OFFSET UNITYSDK_OFFSET(0xB1A6130)
 
+inline static constexpr unsigned int JGOFBOJJGDJ_TypeDefinitionIndex = 80083;
+
 	class JGOFBOJJGDJ : public ::System::Object
 	{
 	public:

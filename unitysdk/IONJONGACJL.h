@@ -31,6 +31,8 @@ namespace System { class String; }
 #define IONJONGACJL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6DAD00)
 #define IONJONGACJL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6DAD60)
 
+inline static constexpr unsigned int IONJONGACJL_TypeDefinitionIndex = 29035;
+
 	class IONJONGACJL : public ::System::Object
 	{
 	public:

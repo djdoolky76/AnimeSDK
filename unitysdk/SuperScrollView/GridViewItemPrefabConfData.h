@@ -7,6 +7,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int GridViewItemPrefabConfData_TypeDefinitionIndex = 47650;
+
 	class GridViewItemPrefabConfData : public ::System::Object
 	{
 	public:

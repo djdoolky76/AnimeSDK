@@ -16,6 +16,8 @@ namespace UnityEngine::Windows::Speech { class DictationRecognizer_DictationResu
 
 namespace UnityEngine::Windows::Speech
 {
+	inline static constexpr unsigned int DictationRecognizer_TypeDefinitionIndex = 4437;
+
 	class DictationRecognizer : public ::System::Object
 	{
 	public:

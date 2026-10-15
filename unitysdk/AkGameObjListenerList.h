@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AKGAMEOBJLISTENERLIST_REMOVE_OFFSET UNITYSDK_OFFSET(0x1F593FF0)
 #define AKGAMEOBJLISTENERLIST_SETUSEDEFAULTLISTENERS_OFFSET UNITYSDK_OFFSET(0x1F5977B0)
 
+inline static constexpr unsigned int AkGameObjListenerList_TypeDefinitionIndex = 44931;
+
 	class AkGameObjListenerList : public ::AkAudioListener_BaseListenerList
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::ChenLing
 {
+	inline static constexpr unsigned int ChenLingSoldierView___c__DisplayClass22_0_TypeDefinitionIndex = 77979;
+
 	class ChenLingSoldierView___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:

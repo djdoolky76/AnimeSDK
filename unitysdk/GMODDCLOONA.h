@@ -8,6 +8,8 @@ class GMODDCLOONA;
 #define GMODDCLOONA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE6B660)
 #define GMODDCLOONA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE6B590)
 
+inline static constexpr unsigned int GMODDCLOONA_TypeDefinitionIndex = 21156;
+
 	class GMODDCLOONA : public ::RPG::GameCore::TaskConfig
 	{
 	public:

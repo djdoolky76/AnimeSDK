@@ -15,6 +15,8 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 #define ACENOAMLMIO_ODKIKMPCBHG_OFFSET UNITYSDK_OFFSET(0xB11B4F0)
 #define ACENOAMLMIO_OJFCEHEOLPB_OFFSET UNITYSDK_OFFSET(0xB11B9F0)
 
+inline static constexpr unsigned int ACENOAMLMIO_TypeDefinitionIndex = 77269;
+
 	class ACENOAMLMIO : public ::System::Object
 	{
 	public:

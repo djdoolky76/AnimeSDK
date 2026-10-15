@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvByPlayerHide_TypeDefinitionIndex = 20021;
+
 	class AdvByPlayerHide : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

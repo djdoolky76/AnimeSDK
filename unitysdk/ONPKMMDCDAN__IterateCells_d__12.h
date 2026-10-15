@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define ONPKMMDCDAN__ITERATECELLS_D__12_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1C57BD70)
 #define ONPKMMDCDAN__ITERATECELLS_D__12_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C57BC00)
 
+inline static constexpr unsigned int ONPKMMDCDAN__IterateCells_d__12_TypeDefinitionIndex = 41822;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12>
 	class ONPKMMDCDAN__IterateCells_d__12 : public ::System::Object
 	{

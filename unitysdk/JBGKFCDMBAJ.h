@@ -19,6 +19,8 @@ namespace System { class Nullable; }
 #define JBGKFCDMBAJ_LOOKHHBPEPA_OFFSET UNITYSDK_OFFSET(0x1656F360)
 #define JBGKFCDMBAJ_MFFAANJABBI_OFFSET UNITYSDK_OFFSET(0x1656E650)
 
+inline static constexpr unsigned int JBGKFCDMBAJ_TypeDefinitionIndex = 74184;
+
 	class JBGKFCDMBAJ : public ::DAOENPMCFON
 	{
 	public:

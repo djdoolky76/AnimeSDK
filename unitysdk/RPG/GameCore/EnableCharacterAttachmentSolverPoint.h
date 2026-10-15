@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnableCharacterAttachmentSolverPoint_TypeDefinitionIndex = 22429;
+
 	class EnableCharacterAttachmentSolverPoint : public ::RPG::GameCore::TaskConfig
 	{
 	public:

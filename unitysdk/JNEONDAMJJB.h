@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define JNEONDAMJJB_DOONENTER_OFFSET UNITYSDK_OFFSET(0xB27CE80)
 #define JNEONDAMJJB_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xB27CEF0)
 
+inline static constexpr unsigned int JNEONDAMJJB_TypeDefinitionIndex = 57520;
+
 	class JNEONDAMJJB : public ::EDLDHDMLJDH
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define NFGMHBPDABB__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xBB93C40)
 #define NFGMHBPDABB__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xBB93D00)
 
+inline static constexpr unsigned int NFGMHBPDABB_TypeDefinitionIndex = 53005;
+
 	class NFGMHBPDABB
 	{
 	public:

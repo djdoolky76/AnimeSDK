@@ -13,6 +13,8 @@ namespace System { template <typename T1, typename T2> class Converter_2; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int Test_TreeInstance_Extensions___c_TypeDefinitionIndex = 40759;
+
 	class Test_TreeInstance_Extensions___c : public ::System::Object
 	{
 	public:

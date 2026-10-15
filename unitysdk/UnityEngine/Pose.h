@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Pose_TypeDefinitionIndex = 4400;
+
 	struct alignas(4) Pose
 	{
 		::UnityEngine::Vector3 position; // 0x10

@@ -11,6 +11,8 @@ namespace Entitas { class IGroup; }
 #define KMLEFAPALOE_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xB566350)
 #define KMLEFAPALOE_PDMDIGBCCCI_OFFSET UNITYSDK_OFFSET(0xB566470)
 
+inline static constexpr unsigned int KMLEFAPALOE_TypeDefinitionIndex = 77168;
+
 	class KMLEFAPALOE : public ::System::Object
 	{
 	public:

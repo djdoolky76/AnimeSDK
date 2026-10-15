@@ -11,6 +11,8 @@ namespace System { class String; }
 #define KCALGNOKBJH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D065320)
 #define KCALGNOKBJH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D065050)
 
+inline static constexpr unsigned int KCALGNOKBJH_TypeDefinitionIndex = 15059;
+
 	class KCALGNOKBJH : public ::System::Object
 	{
 	public:

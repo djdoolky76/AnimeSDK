@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int UGCInterface_UgcBinaryResponseModel_TypeDefinitionIndex = 46432;
+
 	class UGCInterface_UgcBinaryResponseModel : public ::System::Object
 	{
 	public:

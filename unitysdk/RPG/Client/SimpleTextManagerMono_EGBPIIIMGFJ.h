@@ -12,6 +12,8 @@ namespace UnityEngine { class MeshRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SimpleTextManagerMono_EGBPIIIMGFJ_TypeDefinitionIndex = 72647;
+
 	class SimpleTextManagerMono_EGBPIIIMGFJ : public ::System::Object
 	{
 	public:

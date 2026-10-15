@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimAudioSetStateAction_TypeDefinitionIndex = 18720;
+
 	class FiveDimAudioSetStateAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyActionAddAllStatToTopConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyActionAddAllStatToTopConfig_TypeDefinitionIndex = 18082;
+
 	class TrainPartyActionAddAllStatToTopConfig : public ::RPG::GameCore::TrainPartyActionConfigBase
 	{
 	public:

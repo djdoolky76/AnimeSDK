@@ -29,6 +29,8 @@ namespace System { class String; }
 #define NGLOBFBCGBB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB14A80)
 #define NGLOBFBCGBB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB14AE0)
 
+inline static constexpr unsigned int NGLOBFBCGBB_TypeDefinitionIndex = 31311;
+
 	class NGLOBFBCGBB : public ::System::Object
 	{
 	public:

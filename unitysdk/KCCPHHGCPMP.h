@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KCCPHHGCPMP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7F2A80)
 #define KCCPHHGCPMP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7F2AE0)
 
+inline static constexpr unsigned int KCCPHHGCPMP_TypeDefinitionIndex = 29531;
+
 	class KCCPHHGCPMP : public ::System::Object
 	{
 	public:

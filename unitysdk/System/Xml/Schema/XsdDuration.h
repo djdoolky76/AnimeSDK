@@ -28,6 +28,8 @@ namespace System { class String; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XsdDuration_TypeDefinitionIndex = 2238;
+
 	struct alignas(4) XsdDuration
 	{
 		::System::Int32 years; // 0x10

@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 #define GPPPDGFLHLJ_EYETRANSFORM_CTOR_OFFSET UNITYSDK_OFFSET(0x15B6A0B0)
 #define GPPPDGFLHLJ_EYETRANSFORM_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x15B6A0C0)
 
+inline static constexpr unsigned int GPPPDGFLHLJ_EyeTransform_TypeDefinitionIndex = 60055;
+
 	class GPPPDGFLHLJ_EyeTransform : public ::System::Object
 	{
 	public:

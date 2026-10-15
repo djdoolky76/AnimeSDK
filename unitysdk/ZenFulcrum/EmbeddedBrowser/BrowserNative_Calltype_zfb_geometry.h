@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_geometry_TypeDefinitionIndex = 39424;
+
 	class BrowserNative_Calltype_zfb_geometry : public ::System::MulticastDelegate
 	{
 	public:

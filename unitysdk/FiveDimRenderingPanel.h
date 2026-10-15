@@ -122,6 +122,8 @@ namespace UnityEngine { class Transform; }
 #define FIVEDIMRENDERINGPANEL_UNREGISTERRENDERER_OFFSET UNITYSDK_OFFSET(0x1592FB10)
 #define FIVEDIMRENDERINGPANEL_UPDATEINSTANCEDITEMBOUNDSIFNEEDED_OFFSET UNITYSDK_OFFSET(0x15929BE0)
 
+inline static constexpr unsigned int FiveDimRenderingPanel_TypeDefinitionIndex = 47120;
+
 	class FiveDimRenderingPanel : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define BIIIEFAKFPF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB4ACF20)
 #define BIIIEFAKFPF___C___CTOR_B__39_0_OFFSET UNITYSDK_OFFSET(0xB4ACF30)
 
+inline static constexpr unsigned int BIIIEFAKFPF___c_TypeDefinitionIndex = 80109;
+
 	class BIIIEFAKFPF___c : public ::System::Object
 	{
 	public:

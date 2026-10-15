@@ -11,6 +11,8 @@ namespace System { class String; }
 #define CFECFDJFGCM_CTOR_OFFSET UNITYSDK_OFFSET(0xCA0B160)
 #define CFECFDJFGCM_NDINLCMBHMG_OFFSET UNITYSDK_OFFSET(0xCA0B1C0)
 
+inline static constexpr unsigned int CFECFDJFGCM_TypeDefinitionIndex = 49478;
+
 	class CFECFDJFGCM
 	{
 	public:

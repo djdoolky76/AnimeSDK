@@ -12,6 +12,8 @@ class GLDAMFHLMPM;
 #define NDEBPOONLKC_MICAHEBOINM_OFFSET UNITYSDK_OFFSET(0xBB21B50)
 #define NDEBPOONLKC_POLCALNBNHI_OFFSET UNITYSDK_OFFSET(0xBB21DD0)
 
+inline static constexpr unsigned int NDEBPOONLKC_TypeDefinitionIndex = 59848;
+
 	class NDEBPOONLKC : public ::System::Object
 	{
 	public:

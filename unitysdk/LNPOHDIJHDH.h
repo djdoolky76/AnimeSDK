@@ -10,6 +10,8 @@ namespace System { class String; }
 #define LNPOHDIJHDH_NKAGJPEKFPH_OFFSET UNITYSDK_OFFSET(0xB7ED470)
 #define LNPOHDIJHDH_NKFNJKLOIMA_OFFSET UNITYSDK_OFFSET(0xB7ED420)
 
+inline static constexpr unsigned int LNPOHDIJHDH_TypeDefinitionIndex = 57297;
+
 	class LNPOHDIJHDH : public ::System::Object
 	{
 	public:

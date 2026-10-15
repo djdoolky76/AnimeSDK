@@ -16,6 +16,8 @@ namespace System { class String; }
 #define MDGKKKNOGHA_NOFHFKNDBAO_OFFSET UNITYSDK_OFFSET(0xB8A3E10)
 #define MDGKKKNOGHA_SET_RENDERERNAME_OFFSET UNITYSDK_OFFSET(0xB8A39A0)
 
+inline static constexpr unsigned int MDGKKKNOGHA_TypeDefinitionIndex = 57348;
+
 	class MDGKKKNOGHA : public ::System::Object
 	{
 	public:

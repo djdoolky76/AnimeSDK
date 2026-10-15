@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AFKAIFPGEBK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xCF0F540)
 #define AFKAIFPGEBK_CTOR_OFFSET UNITYSDK_OFFSET(0xCF0F9A0)
 
+inline static constexpr unsigned int AFKAIFPGEBK_TypeDefinitionIndex = 72162;
+
 	class AFKAIFPGEBK : public ::System::Object
 	{
 	public:

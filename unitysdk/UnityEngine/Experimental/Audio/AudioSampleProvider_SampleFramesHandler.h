@@ -13,6 +13,8 @@ namespace UnityEngine::Experimental::Audio { class AudioSampleProvider; }
 
 namespace UnityEngine::Experimental::Audio
 {
+	inline static constexpr unsigned int AudioSampleProvider_SampleFramesHandler_TypeDefinitionIndex = 5156;
+
 	class AudioSampleProvider_SampleFramesHandler : public ::System::MulticastDelegate
 	{
 	public:

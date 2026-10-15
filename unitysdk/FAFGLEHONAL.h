@@ -10,6 +10,8 @@ namespace RPG::Client { class MatchThreeBoard; }
 #define FAFGLEHONAL_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x1567AC10)
 #define FAFGLEHONAL_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1567A6C0)
 
+inline static constexpr unsigned int FAFGLEHONAL_TypeDefinitionIndex = 65896;
+
 	class FAFGLEHONAL : public ::FNIDIOCNBBI
 	{
 	public:

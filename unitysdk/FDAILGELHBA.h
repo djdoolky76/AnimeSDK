@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define FDAILGELHBA_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x156D0FD0)
 #define FDAILGELHBA_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x156D0F80)
 
+inline static constexpr unsigned int FDAILGELHBA_TypeDefinitionIndex = 56663;
+
 	class FDAILGELHBA : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define PREFABREPLACINGTOOL_CTOR_OFFSET UNITYSDK_OFFSET(0xC39BF80)
 
+inline static constexpr unsigned int PrefabReplacingTool_TypeDefinitionIndex = 47559;
+
 	class PrefabReplacingTool : public ::UnityEngine::MonoBehaviour
 	{
 	public:

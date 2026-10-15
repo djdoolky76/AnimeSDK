@@ -10,6 +10,8 @@ namespace UnityEngine::Events { class UnityAction; }
 #define NMEILIFKOFN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBC82620)
 #define NMEILIFKOFN_JJJJGFJDKOJ_OFFSET UNITYSDK_OFFSET(0xBC822B0)
 
+inline static constexpr unsigned int NMEILIFKOFN_TypeDefinitionIndex = 49903;
+
 	class NMEILIFKOFN : public ::System::Object
 	{
 	public:

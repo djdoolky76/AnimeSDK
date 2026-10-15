@@ -22,6 +22,8 @@ namespace System::Security::Cryptography { class RSAEncryptionPadding; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int RSAEncryptionPadding_TypeDefinitionIndex = 996;
+
 	class RSAEncryptionPadding : public ::System::Object
 	{
 	public:

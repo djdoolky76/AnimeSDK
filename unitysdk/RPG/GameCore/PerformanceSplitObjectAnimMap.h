@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceSplitObjectAnimMap_TypeDefinitionIndex = 17577;
+
 	class PerformanceSplitObjectAnimMap : public ::RPG::GameCore::JsonConfig
 	{
 	public:

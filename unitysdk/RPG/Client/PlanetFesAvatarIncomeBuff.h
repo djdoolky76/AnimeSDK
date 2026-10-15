@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesAvatarIncomeBuff_TypeDefinitionIndex = 66535;
+
 	class PlanetFesAvatarIncomeBuff : public ::RPG::Client::BasePlanetFesBuff
 	{
 	public:

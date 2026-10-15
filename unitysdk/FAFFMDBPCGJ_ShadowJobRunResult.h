@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int FAFFMDBPCGJ_ShadowJobRunResult_TypeDefinitionIndex = 76735;
+
 	enum class FAFFMDBPCGJ_ShadowJobRunResult : ::System::Int32
 	{
 		Pending = 0,

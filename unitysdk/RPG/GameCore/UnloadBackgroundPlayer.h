@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UnloadBackgroundPlayer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UnloadBackgroundPlayer_TypeDefinitionIndex = 20221;
+
 	class UnloadBackgroundPlayer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

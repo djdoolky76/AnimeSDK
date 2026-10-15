@@ -11,6 +11,8 @@ namespace System { class String; }
 #define AHPHFHOAFBN_CTOR_OFFSET UNITYSDK_OFFSET(0xEB8C660)
 #define AHPHFHOAFBN_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0xEB8C670)
 
+inline static constexpr unsigned int AHPHFHOAFBN_TypeDefinitionIndex = 67185;
+
 	class AHPHFHOAFBN : public ::System::Object
 	{
 	public:

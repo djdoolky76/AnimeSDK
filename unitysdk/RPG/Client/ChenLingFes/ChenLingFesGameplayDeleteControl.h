@@ -19,6 +19,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameplayDeleteControl_TypeDefinitionIndex = 81308;
+
 	class ChenLingFesGameplayDeleteControl : public ::Sofa::BaseSofaControl
 	{
 	public:

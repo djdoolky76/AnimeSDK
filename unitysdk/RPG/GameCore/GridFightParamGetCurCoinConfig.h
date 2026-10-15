@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamGetCurCoinConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamGetCurCoinConfig_TypeDefinitionIndex = 19512;
+
 	class GridFightParamGetCurCoinConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

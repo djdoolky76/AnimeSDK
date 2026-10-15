@@ -12,6 +12,8 @@ namespace RPG::GameCore { class CakeRacePropertyComparePredicateConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRacePropertyComparePredicateConfig_TypeDefinitionIndex = 18378;
+
 	class CakeRacePropertyComparePredicateConfig : public ::RPG::GameCore::CakeRaceBasePredicateConfig
 	{
 	public:

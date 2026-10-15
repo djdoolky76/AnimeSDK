@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
+inline static constexpr unsigned int IANEMJNCHDN___O_TypeDefinitionIndex = 24109;
+
 	class IANEMJNCHDN___O : public ::System::Object
 	{
 	public:

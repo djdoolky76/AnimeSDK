@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceDiffCount;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatAIEffectEvaluatorConfig_DiceDiffCount_TypeDefinitionIndex = 16172;
+
 	class DiceCombatAIEffectEvaluatorConfig_DiceDiffCount : public ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig
 	{
 	public:

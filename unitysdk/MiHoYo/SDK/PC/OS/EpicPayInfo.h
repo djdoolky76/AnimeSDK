@@ -8,6 +8,8 @@ namespace MiHoYo::SDK::PC::OS { class ProductData; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int EpicPayInfo_TypeDefinitionIndex = 8534;
+
 	class EpicPayInfo : public ::System::Object
 	{
 	public:

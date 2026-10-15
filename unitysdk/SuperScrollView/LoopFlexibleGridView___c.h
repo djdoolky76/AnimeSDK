@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int LoopFlexibleGridView___c_TypeDefinitionIndex = 47645;
+
 	class LoopFlexibleGridView___c : public ::System::Object
 	{
 	public:

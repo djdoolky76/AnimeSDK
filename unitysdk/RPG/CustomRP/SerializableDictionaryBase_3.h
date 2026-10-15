@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int SerializableDictionaryBase_3_TypeDefinitionIndex = 51874;
+
 	template <typename T1, typename T2, typename T3>
 	class SerializableDictionaryBase_3 : public ::RPG::CustomRP::SerializableDictionaryBase
 	{

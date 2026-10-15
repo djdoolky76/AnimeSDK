@@ -28,6 +28,8 @@ namespace System { class String; }
 #define NPEBOLNHFAL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB96130)
 #define NPEBOLNHFAL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB96190)
 
+inline static constexpr unsigned int NPEBOLNHFAL_TypeDefinitionIndex = 34909;
+
 	class NPEBOLNHFAL : public ::System::Object
 	{
 	public:

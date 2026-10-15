@@ -6,6 +6,8 @@ class MODIHPIFAPK;
 #define IIHLCJPAGOK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6D8560)
 #define IIHLCJPAGOK_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C6D8570)
 
+inline static constexpr unsigned int IIHLCJPAGOK_TypeDefinitionIndex = 37195;
+
 	class IIHLCJPAGOK : public ::System::Object
 	{
 	public:

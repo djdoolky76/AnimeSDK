@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ShowBattleTalkBGUI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowBattleTalkBGUI_TypeDefinitionIndex = 23349;
+
 	class ShowBattleTalkBGUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

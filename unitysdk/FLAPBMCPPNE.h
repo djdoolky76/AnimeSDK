@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TeleportToFiveDimGame; }
 #define FLAPBMCPPNE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15827660)
 #define FLAPBMCPPNE_TICK_OFFSET UNITYSDK_OFFSET(0x158276B0)
 
+inline static constexpr unsigned int FLAPBMCPPNE_TypeDefinitionIndex = 52894;
+
 	class FLAPBMCPPNE : public ::GELIALJDFBL
 	{
 	public:

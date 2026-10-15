@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TutorialTriggerParam_TypeDefinitionIndex = 15379;
+
 	class TutorialTriggerParam : public ::System::Object
 	{
 	public:

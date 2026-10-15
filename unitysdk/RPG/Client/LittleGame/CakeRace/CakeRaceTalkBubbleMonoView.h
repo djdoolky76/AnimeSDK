@@ -19,6 +19,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client::LittleGame::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceTalkBubbleMonoView_TypeDefinitionIndex = 78158;
+
 	class CakeRaceTalkBubbleMonoView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

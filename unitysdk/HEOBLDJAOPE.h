@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HEOBLDJAOPE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E55DAF0)
 #define HEOBLDJAOPE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E55DB50)
 
+inline static constexpr unsigned int HEOBLDJAOPE_TypeDefinitionIndex = 33256;
+
 	class HEOBLDJAOPE : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int PluginUIConstants_PhoneLoginActionParam_TypeDefinitionIndex = 9186;
+
 	class PluginUIConstants_PhoneLoginActionParam : public ::System::Object
 	{
 	public:

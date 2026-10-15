@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TAMonoTickLodTemplate_TypeDefinitionIndex = 19200;
+
 	class TAMonoTickLodTemplate : public ::RPG::GameCore::JsonConfig
 	{
 	public:

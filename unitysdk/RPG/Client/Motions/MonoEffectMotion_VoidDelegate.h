@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Motions
 {
+	inline static constexpr unsigned int MonoEffectMotion_VoidDelegate_TypeDefinitionIndex = 73497;
+
 	class MonoEffectMotion_VoidDelegate : public ::System::MulticastDelegate
 	{
 	public:

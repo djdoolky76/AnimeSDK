@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareScreenRatio_TypeDefinitionIndex = 22264;
+
 	class ByCompareScreenRatio : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

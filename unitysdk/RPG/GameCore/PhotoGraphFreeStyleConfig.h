@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PhotoGraphFreeStyleDataConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphFreeStyleConfig_TypeDefinitionIndex = 19049;
+
 	class PhotoGraphFreeStyleConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

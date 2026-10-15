@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::UI
 {
+	inline static constexpr unsigned int AgeGateParentalConsentDenyDialog___c__DisplayClass30_0_TypeDefinitionIndex = 8385;
+
 	class AgeGateParentalConsentDenyDialog___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:

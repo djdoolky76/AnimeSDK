@@ -9,6 +9,8 @@ namespace System { class String; }
 #define GMBNLONCNAF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE67C50)
 #define GMBNLONCNAF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE67C10)
 
+inline static constexpr unsigned int GMBNLONCNAF_TypeDefinitionIndex = 21852;
+
 	class GMBNLONCNAF : public ::RPG::GameCore::TaskConfig
 	{
 	public:

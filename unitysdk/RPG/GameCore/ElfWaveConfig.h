@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfWaveConfig_TypeDefinitionIndex = 18477;
+
 	class ElfWaveConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::GameCore { class DamageTextTeamPoolConfig; }
 #define JBLJIBBMKEJ_JFDIIACPHPL_OFFSET UNITYSDK_OFFSET(0x16572A50)
 #define JBLJIBBMKEJ_KLMEAMADDCJ_OFFSET UNITYSDK_OFFSET(0x165729C0)
 
+inline static constexpr unsigned int JBLJIBBMKEJ_TypeDefinitionIndex = 72127;
+
 	class JBLJIBBMKEJ : public ::System::Object
 	{
 	public:

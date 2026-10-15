@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JCKNEKIMNOB___C__DISPLAYCLASS18_0___ADD2DBRICKINTERACTTRIGGER_B__1_OFFSET UNITYSDK_OFFSET(0x165A4DF0)
 #define JCKNEKIMNOB___C__DISPLAYCLASS18_0___ADD2DBRICKINTERACTTRIGGER_B__2_OFFSET UNITYSDK_OFFSET(0x165A4F60)
 
+inline static constexpr unsigned int JCKNEKIMNOB___c__DisplayClass18_0_TypeDefinitionIndex = 76820;
+
 	class JCKNEKIMNOB___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:

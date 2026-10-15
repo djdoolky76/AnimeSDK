@@ -14,6 +14,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
+	inline static constexpr unsigned int RenderGraphLogger_TypeDefinitionIndex = 35456;
+
 	class RenderGraphLogger : public ::System::Object
 	{
 	public:

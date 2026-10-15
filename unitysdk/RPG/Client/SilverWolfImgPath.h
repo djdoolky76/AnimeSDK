@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SilverWolfImgPath_TypeDefinitionIndex = 67962;
+
 	class SilverWolfImgPath : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace IniParserEx
 {
+	inline static constexpr unsigned int CodeParserException_TypeDefinitionIndex = 3927;
+
 	class CodeParserException : public ::System::Exception
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine { class Collider; }
 #define NNHAHDEBIJB___C___DEPLOYSPIKETRAPTRIGGER_B__9_1_OFFSET UNITYSDK_OFFSET(0xBCAE9E0)
 #define NNHAHDEBIJB___C___LISTENLEVELVAR_B__23_0_OFFSET UNITYSDK_OFFSET(0xBCAEA10)
 
+inline static constexpr unsigned int NNHAHDEBIJB___c_TypeDefinitionIndex = 77154;
+
 	class NNHAHDEBIJB___c : public ::System::Object
 	{
 	public:

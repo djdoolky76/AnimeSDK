@@ -23,6 +23,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int CapsuleCollider_TypeDefinitionIndex = 5318;
+
 	class CapsuleCollider : public ::UnityEngine::Collider
 	{
 	public:

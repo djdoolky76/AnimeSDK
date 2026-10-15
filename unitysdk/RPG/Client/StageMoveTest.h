@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageMoveTest_TypeDefinitionIndex = 68773;
+
 	class StageMoveTest : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarPathChangeToTargetConfig_TypeDefinitionIndex = 24405;
+
 	class AvatarPathChangeToTargetConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

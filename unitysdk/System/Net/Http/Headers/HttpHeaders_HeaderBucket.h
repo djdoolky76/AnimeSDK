@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int HttpHeaders_HeaderBucket_TypeDefinitionIndex = 3795;
+
 	class HttpHeaders_HeaderBucket : public ::System::Object
 	{
 	public:

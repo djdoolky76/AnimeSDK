@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class RoundAndStepCondition; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int RoundAndStepCondition_TypeDefinitionIndex = 24883;
+
 	class RoundAndStepCondition : public ::RPG::GameCore::Match3::Match3ConditionBase
 	{
 	public:

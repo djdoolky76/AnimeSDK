@@ -9,6 +9,8 @@ class HGFLBFIKKJG;
 #define HGFLBFIKKJG_CTOR_OFFSET UNITYSDK_OFFSET(0x15C99210)
 #define HGFLBFIKKJG_KEHEOONBAFJ_OFFSET UNITYSDK_OFFSET(0x15C99360)
 
+inline static constexpr unsigned int HGFLBFIKKJG_TypeDefinitionIndex = 73509;
+
 	class HGFLBFIKKJG : public ::PJNIKOFAFJB
 	{
 	public:

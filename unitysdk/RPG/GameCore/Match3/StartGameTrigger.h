@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class StartGameTrigger; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int StartGameTrigger_TypeDefinitionIndex = 24876;
+
 	class StartGameTrigger : public ::RPG::GameCore::Match3::Match3TriggerBase
 	{
 	public:

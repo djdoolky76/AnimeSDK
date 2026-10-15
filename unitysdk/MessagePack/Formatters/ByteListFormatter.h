@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int ByteListFormatter_TypeDefinitionIndex = 7377;
+
 	class ByteListFormatter : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HighlightEntityActionBar_TypeDefinitionIndex = 23697;
+
 	class HighlightEntityActionBar : public ::RPG::GameCore::TaskConfig
 	{
 	public:

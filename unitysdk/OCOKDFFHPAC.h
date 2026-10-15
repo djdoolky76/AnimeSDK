@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OCOKDFFHPAC_CTOR_OFFSET UNITYSDK_OFFSET(0xBD74C60)
 #define OCOKDFFHPAC_KLNHHICFNMJ_OFFSET UNITYSDK_OFFSET(0xBD74990)
 
+inline static constexpr unsigned int OCOKDFFHPAC_TypeDefinitionIndex = 61717;
+
 	class OCOKDFFHPAC : public ::System::Object
 	{
 	public:

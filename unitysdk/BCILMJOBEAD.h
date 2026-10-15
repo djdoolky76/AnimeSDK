@@ -19,6 +19,8 @@ namespace RPG::Client { class GridFightBonusResultData; }
 #define BCILMJOBEAD_UPDATEORB_OFFSET UNITYSDK_OFFSET(0x15EAA7F0)
 #define BCILMJOBEAD_UPDATESHOP_OFFSET UNITYSDK_OFFSET(0x15EAA970)
 
+inline static constexpr unsigned int BCILMJOBEAD_TypeDefinitionIndex = 64436;
+
 	class BCILMJOBEAD : public ::AMCOEFHHBPO
 	{
 	public:

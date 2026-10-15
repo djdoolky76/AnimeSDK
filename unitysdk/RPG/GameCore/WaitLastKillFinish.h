@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitLastKillFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitLastKillFinish_TypeDefinitionIndex = 23414;
+
 	class WaitLastKillFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

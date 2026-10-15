@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define OPHOAKJPGFE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEE2170)
 #define OPHOAKJPGFE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DEE2180)
 
+inline static constexpr unsigned int OPHOAKJPGFE___c_TypeDefinitionIndex = 31232;
+
 	class OPHOAKJPGFE___c : public ::System::Object
 	{
 	public:

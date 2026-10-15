@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DPLEFGOCNIN_CTOR_OFFSET UNITYSDK_OFFSET(0x12658390)
 #define DPLEFGOCNIN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x126583C0)
 
+inline static constexpr unsigned int DPLEFGOCNIN_TypeDefinitionIndex = 57976;
+
 	class DPLEFGOCNIN
 	{
 	public:

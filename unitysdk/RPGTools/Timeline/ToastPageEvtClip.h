@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ToastPageEvtClip_TypeDefinitionIndex = 48411;
+
 	class ToastPageEvtClip : public ::RPGTools::Timeline::CustomEventClip
 	{
 	public:

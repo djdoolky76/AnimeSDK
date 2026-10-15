@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimChestState_TypeDefinitionIndex = 18555;
+
 	enum class FiveDimChestState : ::System::Int32
 	{
 		Lock = 0,

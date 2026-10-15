@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int InputField_OnValidateInput_TypeDefinitionIndex = 6744;
+
 	class InputField_OnValidateInput : public ::System::MulticastDelegate
 	{
 	public:

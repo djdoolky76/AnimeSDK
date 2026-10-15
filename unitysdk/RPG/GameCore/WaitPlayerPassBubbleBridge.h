@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaitPlayerPassBubbleBridge; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitPlayerPassBubbleBridge_TypeDefinitionIndex = 22307;
+
 	class WaitPlayerPassBubbleBridge : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:

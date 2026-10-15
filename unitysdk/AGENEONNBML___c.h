@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define AGENEONNBML___C__KICKUNCONNECTEDPLAYERS_B__13_0_OFFSET UNITYSDK_OFFSET(0x1C587BD0)
 #define AGENEONNBML___C___INITROBOT_B__8_0_OFFSET UNITYSDK_OFFSET(0x1C587B70)
 
+inline static constexpr unsigned int AGENEONNBML___c_TypeDefinitionIndex = 37214;
+
 	class AGENEONNBML___c : public ::System::Object
 	{
 	public:

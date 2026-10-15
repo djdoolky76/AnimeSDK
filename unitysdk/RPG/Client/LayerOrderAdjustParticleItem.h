@@ -7,6 +7,8 @@ namespace UnityEngine { class ParticleSystemRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LayerOrderAdjustParticleItem_TypeDefinitionIndex = 73074;
+
 	class LayerOrderAdjustParticleItem : public ::System::Object
 	{
 	public:

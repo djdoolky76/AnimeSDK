@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int GetMailScRsp___c_TypeDefinitionIndex = 30487;
+
 	class GetMailScRsp___c : public ::System::Object
 	{
 	public:

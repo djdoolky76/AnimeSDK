@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int ObjectCast_TypeDefinitionIndex = 50231;
+
 	class ObjectCast : public ::System::MulticastDelegate
 	{
 	public:

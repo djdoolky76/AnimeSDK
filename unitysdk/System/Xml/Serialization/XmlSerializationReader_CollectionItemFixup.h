@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlSerializationReader_CollectionItemFixup_TypeDefinitionIndex = 2031;
+
 	class XmlSerializationReader_CollectionItemFixup : public ::System::Object
 	{
 	public:

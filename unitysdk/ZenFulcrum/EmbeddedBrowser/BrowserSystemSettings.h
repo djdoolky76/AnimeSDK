@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserSystemSettings_TypeDefinitionIndex = 39466;
+
 	class BrowserSystemSettings : public ::UnityEngine::MonoBehaviour
 	{
 	public:

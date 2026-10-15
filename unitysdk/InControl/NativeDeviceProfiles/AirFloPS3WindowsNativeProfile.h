@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int AirFloPS3WindowsNativeProfile_TypeDefinitionIndex = 41296;
+
 	class AirFloPS3WindowsNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

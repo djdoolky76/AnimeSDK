@@ -16,6 +16,8 @@ namespace System::IO { class MemoryStream; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_PacketHeader_TypeDefinitionIndex = 46384;
+
 	struct alignas(8) SecurityTunnel_PacketHeader
 	{
 		::System::UInt64 ID; // 0x10

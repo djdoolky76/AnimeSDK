@@ -7,6 +7,8 @@ namespace UnityEngine { class Shader; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CustomPostProcessData_CustomUIShaderResources_TypeDefinitionIndex = 37771;
+
 	class CustomPostProcessData_CustomUIShaderResources : public ::System::Object
 	{
 	public:

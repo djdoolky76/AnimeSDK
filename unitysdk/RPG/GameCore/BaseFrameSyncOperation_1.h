@@ -5,6 +5,8 @@ namespace RPG::GameCore { template <typename T> class IFrameSyncOperationSource_
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaseFrameSyncOperation_1_TypeDefinitionIndex = 53660;
+
 	template <typename T>
 	class BaseFrameSyncOperation_1 : public ::System::Object
 	{

@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsWorkResultData_TypeDefinitionIndex = 80309;
+
 	class LimaoNewsWorkResultData : public ::System::Object
 	{
 	public:

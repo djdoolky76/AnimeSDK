@@ -5,6 +5,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace RPG::Client::BAT
 {
+	inline static constexpr unsigned int BATRendererBehavior___c__DisplayClass22_0_TypeDefinitionIndex = 73677;
+
 	struct alignas(8) BATRendererBehavior___c__DisplayClass22_0
 	{
 		::System::Collections::Generic::List_1<::UnityEngine::MaterialPropertyBlock*>* mpbLists; // 0x10

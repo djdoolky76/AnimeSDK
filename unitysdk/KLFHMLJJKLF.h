@@ -7,6 +7,8 @@ class KLFHMLJJKLF;
 #define KLFHMLJJKLF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0A5F30)
 #define KLFHMLJJKLF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0A5E40)
 
+inline static constexpr unsigned int KLFHMLJJKLF_TypeDefinitionIndex = 11557;
+
 	class KLFHMLJJKLF : public ::System::Object
 	{
 	public:

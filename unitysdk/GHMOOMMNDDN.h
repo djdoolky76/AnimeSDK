@@ -16,6 +16,8 @@ namespace System { class String; }
 #define GHMOOMMNDDN_GET_UISTATE_OFFSET UNITYSDK_OFFSET(0x15A2A450)
 #define GHMOOMMNDDN_SET_UISTATE_OFFSET UNITYSDK_OFFSET(0x15A2A460)
 
+inline static constexpr unsigned int GHMOOMMNDDN_TypeDefinitionIndex = 81084;
+
 	class GHMOOMMNDDN : public ::System::Object
 	{
 	public:

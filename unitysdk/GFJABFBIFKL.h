@@ -3,6 +3,8 @@
 
 #define GFJABFBIFKL_CCTOR_OFFSET UNITYSDK_OFFSET(0x159FA7A0)
 
+inline static constexpr unsigned int GFJABFBIFKL_TypeDefinitionIndex = 80965;
+
 	struct alignas(4) GFJABFBIFKL
 	{
 		::System::Boolean HPGAOBONHOK; // 0x10

@@ -11,6 +11,8 @@ namespace Entitas { class IGroup; }
 #define KBDNDDCAKOO_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xB2F28A0)
 #define KBDNDDCAKOO_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB2F2970)
 
+inline static constexpr unsigned int KBDNDDCAKOO_TypeDefinitionIndex = 77159;
+
 	class KBDNDDCAKOO : public ::System::Object
 	{
 	public:

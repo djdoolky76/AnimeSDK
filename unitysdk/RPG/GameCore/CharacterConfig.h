@@ -45,6 +45,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterConfig_TypeDefinitionIndex = 16517;
+
 	class CharacterConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -12,6 +12,8 @@ namespace ZLinq { class ValueEnumerable; }
 
 namespace ZLinq
 {
+	inline static constexpr unsigned int ValueEnumerable_TypeDefinitionIndex = 6091;
+
 	class ValueEnumerable : public ::System::Object
 	{
 	public:

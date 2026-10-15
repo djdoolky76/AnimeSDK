@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define HBDNJKHNHLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15BECE40)
 #define HBDNJKHNHLE___C__CHECKAUTOBINDCALLBACKPARAMS_B__8_0_OFFSET UNITYSDK_OFFSET(0x15BECE50)
 
+inline static constexpr unsigned int HBDNJKHNHLE___c_TypeDefinitionIndex = 73139;
+
 	class HBDNJKHNHLE___c : public ::System::Object
 	{
 	public:

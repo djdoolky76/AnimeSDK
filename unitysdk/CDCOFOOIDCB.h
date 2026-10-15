@@ -13,6 +13,8 @@ namespace UnityEngine { class Component; }
 #define CDCOFOOIDCB_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xC7626D0)
 #define CDCOFOOIDCB_INVOKE_OFFSET UNITYSDK_OFFSET(0xC762690)
 
+inline static constexpr unsigned int CDCOFOOIDCB_TypeDefinitionIndex = 74074;
+
 	class CDCOFOOIDCB : public ::System::MulticastDelegate
 	{
 	public:

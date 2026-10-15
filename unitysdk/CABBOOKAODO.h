@@ -33,6 +33,8 @@ namespace System { class String; }
 #define CABBOOKAODO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0530A0)
 #define CABBOOKAODO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E053100)
 
+inline static constexpr unsigned int CABBOOKAODO_TypeDefinitionIndex = 32599;
+
 	class CABBOOKAODO : public ::System::Object
 	{
 	public:

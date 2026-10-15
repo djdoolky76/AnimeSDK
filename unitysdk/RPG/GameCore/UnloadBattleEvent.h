@@ -11,6 +11,8 @@ namespace RPG::GameCore { class UnloadBattleEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UnloadBattleEvent_TypeDefinitionIndex = 22977;
+
 	class UnloadBattleEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:

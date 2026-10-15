@@ -36,6 +36,8 @@ namespace System { class String; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int TransformConstraint_TypeDefinitionIndex = 39703;
+
 	class TransformConstraint : public ::System::Object
 	{
 	public:

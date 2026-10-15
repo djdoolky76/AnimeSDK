@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterNatureRow_TypeDefinitionIndex = 12999;
+
 	class CharacterNatureRow : public ::System::Object
 	{
 	public:

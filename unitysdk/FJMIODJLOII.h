@@ -4,6 +4,8 @@
 
 #define FJMIODJLOII_CTOR_OFFSET UNITYSDK_OFFSET(0x157D97A0)
 
+inline static constexpr unsigned int FJMIODJLOII_TypeDefinitionIndex = 73491;
+
 	class FJMIODJLOII : public ::CLFIGBPHLHI
 	{
 	public:

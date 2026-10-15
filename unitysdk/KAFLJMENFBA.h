@@ -28,6 +28,8 @@ namespace System { class String; }
 #define KAFLJMENFBA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7DDD60)
 #define KAFLJMENFBA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7DDDC0)
 
+inline static constexpr unsigned int KAFLJMENFBA_TypeDefinitionIndex = 31448;
+
 	class KAFLJMENFBA : public ::System::Object
 	{
 	public:

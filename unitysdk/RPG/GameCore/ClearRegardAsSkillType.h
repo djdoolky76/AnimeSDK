@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClearRegardAsSkillType_TypeDefinitionIndex = 23669;
+
 	class ClearRegardAsSkillType : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define IDOJADMFGKF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E632710)
 #define IDOJADMFGKF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E632720)
 
+inline static constexpr unsigned int IDOJADMFGKF___c_TypeDefinitionIndex = 29528;
+
 	class IDOJADMFGKF___c : public ::System::Object
 	{
 	public:

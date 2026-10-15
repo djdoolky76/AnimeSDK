@@ -15,6 +15,8 @@ namespace System::Diagnostics::Tracing { class PropertyAnalysis; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int TypeAnalysis_TypeDefinitionIndex = 1673;
+
 	class TypeAnalysis : public ::System::Object
 	{
 	public:

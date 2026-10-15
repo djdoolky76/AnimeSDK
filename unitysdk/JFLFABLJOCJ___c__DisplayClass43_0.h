@@ -8,6 +8,8 @@ namespace RPG::Client { class IAssetOperation; }
 #define JFLFABLJOCJ___C__DISPLAYCLASS43_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16653C20)
 #define JFLFABLJOCJ___C__DISPLAYCLASS43_0__ASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x16655AF0)
 
+inline static constexpr unsigned int JFLFABLJOCJ___c__DisplayClass43_0_TypeDefinitionIndex = 49571;
+
 	class JFLFABLJOCJ___c__DisplayClass43_0 : public ::System::Object
 	{
 	public:

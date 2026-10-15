@@ -16,6 +16,8 @@ class CNOOMJGOLDF;
 #define CNOOMJGOLDF_ONDRAG_OFFSET UNITYSDK_OFFSET(0xDA5CB00)
 #define CNOOMJGOLDF_POOKMBGIADN_OFFSET UNITYSDK_OFFSET(0xDA5CA80)
 
+inline static constexpr unsigned int CNOOMJGOLDF_TypeDefinitionIndex = 78025;
+
 	class CNOOMJGOLDF : public ::EFENAEKOKBI
 	{
 	public:

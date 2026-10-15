@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JEIEGMECGEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E71D4B0)
 #define JEIEGMECGEN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E71D510)
 
+inline static constexpr unsigned int JEIEGMECGEN_TypeDefinitionIndex = 29276;
+
 	class JEIEGMECGEN : public ::System::Object
 	{
 	public:

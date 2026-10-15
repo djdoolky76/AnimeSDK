@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SkirtIKConfig_EditorOnly_TypeDefinitionIndex = 68378;
+
 	class SkirtIKConfig_EditorOnly : public ::UnityEngine::ScriptableObject
 	{
 	public:

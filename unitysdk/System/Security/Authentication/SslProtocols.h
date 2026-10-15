@@ -3,6 +3,8 @@
 
 namespace System::Security::Authentication
 {
+	inline static constexpr unsigned int SslProtocols_TypeDefinitionIndex = 2669;
+
 	enum class SslProtocols : ::System::Int32
 	{
 		None = 0,

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define FOALNJOLMNB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE12890)
 #define FOALNJOLMNB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE127F0)
 
+inline static constexpr unsigned int FOALNJOLMNB_TypeDefinitionIndex = 24193;
+
 	class FOALNJOLMNB : public ::RPG::GameCore::TaskConfig
 	{
 	public:

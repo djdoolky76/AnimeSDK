@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GPOJDMAFJDE_IGAAPBNCJFF_OFFSET UNITYSDK_OFFSET(0x15B657D0)
 #define GPOJDMAFJDE_PHJMOENCBPF_OFFSET UNITYSDK_OFFSET(0x15B656F0)
 
+inline static constexpr unsigned int GPOJDMAFJDE_TypeDefinitionIndex = 63931;
+
 	class GPOJDMAFJDE : public ::System::Object
 	{
 	public:

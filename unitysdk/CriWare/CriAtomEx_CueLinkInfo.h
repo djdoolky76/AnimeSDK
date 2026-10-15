@@ -3,6 +3,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomEx_CueLinkInfo_TypeDefinitionIndex = 39980;
+
 	struct alignas(4) CriAtomEx_CueLinkInfo
 	{
 		::System::IntPtr nativePlayerHn; // 0x10

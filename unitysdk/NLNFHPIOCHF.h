@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NLNFHPIOCHF_CTOR_OFFSET UNITYSDK_OFFSET(0xBC572F0)
 #define NLNFHPIOCHF_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xBC76390)
 
+inline static constexpr unsigned int NLNFHPIOCHF_TypeDefinitionIndex = 59205;
+
 	class NLNFHPIOCHF
 	{
 	public:

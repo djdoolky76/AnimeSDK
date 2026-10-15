@@ -35,6 +35,8 @@ namespace System { class String; }
 #define NMEMDFOCMFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB73590)
 #define NMEMDFOCMFO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB735F0)
 
+inline static constexpr unsigned int NMEMDFOCMFO_TypeDefinitionIndex = 30000;
+
 	class NMEMDFOCMFO : public ::System::Object
 	{
 	public:

@@ -41,6 +41,8 @@ namespace System { class String; }
 #define MAMINBCLDKO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9DBDE0)
 #define MAMINBCLDKO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9DBE40)
 
+inline static constexpr unsigned int MAMINBCLDKO_TypeDefinitionIndex = 30453;
+
 	class MAMINBCLDKO : public ::System::Object
 	{
 	public:

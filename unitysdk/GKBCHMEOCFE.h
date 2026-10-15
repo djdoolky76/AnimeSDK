@@ -6,6 +6,8 @@
 #define GKBCHMEOCFE_CHAJOPCNHKI_OFFSET UNITYSDK_OFFSET(0x1C643320)
 #define GKBCHMEOCFE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C643370)
 
+inline static constexpr unsigned int GKBCHMEOCFE_TypeDefinitionIndex = 37323;
+
 	class GKBCHMEOCFE : public ::System::Object
 	{
 	public:

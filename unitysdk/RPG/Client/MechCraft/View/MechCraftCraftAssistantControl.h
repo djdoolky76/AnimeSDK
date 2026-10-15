@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftAssistantControl_TypeDefinitionIndex = 79838;
+
 	class MechCraftCraftAssistantControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

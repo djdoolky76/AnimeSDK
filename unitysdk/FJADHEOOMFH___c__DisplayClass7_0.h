@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FJADHEOOMFH___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x157B5E70)
 #define FJADHEOOMFH___C__DISPLAYCLASS7_0__FINDNEARPOINTS_B__0_OFFSET UNITYSDK_OFFSET(0x157B6190)
 
+inline static constexpr unsigned int FJADHEOOMFH___c__DisplayClass7_0_TypeDefinitionIndex = 52108;
+
 	class FJADHEOOMFH___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

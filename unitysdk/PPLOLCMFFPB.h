@@ -59,6 +59,8 @@ namespace UnityEngine { class GameObject; }
 #define PPLOLCMFFPB_PEKGIJOIAFI_OFFSET UNITYSDK_OFFSET(0xC38DD30)
 #define PPLOLCMFFPB_SET_PROPENTITYLIST_OFFSET UNITYSDK_OFFSET(0xC391500)
 
+inline static constexpr unsigned int PPLOLCMFFPB_TypeDefinitionIndex = 60768;
+
 	class PPLOLCMFFPB : public ::System::Object
 	{
 	public:

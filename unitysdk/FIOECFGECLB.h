@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define FIOECFGECLB_ONRETURN_OFFSET UNITYSDK_OFFSET(0x157B0AF0)
 #define FIOECFGECLB__ONBIND_OFFSET UNITYSDK_OFFSET(0x157B09D0)
 
+inline static constexpr unsigned int FIOECFGECLB_TypeDefinitionIndex = 71545;
+
 	class FIOECFGECLB : public ::FMPCODLIOLG
 	{
 	public:

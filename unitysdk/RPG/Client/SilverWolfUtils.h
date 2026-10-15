@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SilverWolfUtils_TypeDefinitionIndex = 67967;
+
 	class SilverWolfUtils : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace HoudiniEngineUnity { class HEU_OutputAttribute; }
 #define HEU_EXAMPLEINSTANCECUSTOMATTRIBUTE_INSTANCERCALLBACK_OFFSET UNITYSDK_OFFSET(0x1B8BD5C0)
 #define HEU_EXAMPLEINSTANCECUSTOMATTRIBUTE_LOGATTR_OFFSET UNITYSDK_OFFSET(0x1B8BDBE0)
 
+inline static constexpr unsigned int HEU_ExampleInstanceCustomAttribute_TypeDefinitionIndex = 40349;
+
 	class HEU_ExampleInstanceCustomAttribute : public ::UnityEngine::MonoBehaviour
 	{
 	public:

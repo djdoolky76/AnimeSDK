@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetBattleResultAsWin; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetBattleResultAsWin_TypeDefinitionIndex = 23465;
+
 	class SetBattleResultAsWin : public ::RPG::GameCore::TaskConfig
 	{
 	public:

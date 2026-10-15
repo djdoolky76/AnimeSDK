@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetPropCablelineVisible; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetPropCablelineVisible_TypeDefinitionIndex = 21271;
+
 	class SetPropCablelineVisible : public ::RPG::GameCore::TaskConfig
 	{
 	public:

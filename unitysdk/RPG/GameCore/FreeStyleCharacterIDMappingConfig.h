@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FreeStyleCharacterIDMappingConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FreeStyleCharacterIDMappingConfig_TypeDefinitionIndex = 16312;
+
 	class FreeStyleCharacterIDMappingConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::Reflection::Emit
 {
+	inline static constexpr unsigned int OpCodeNames_TypeDefinitionIndex = 653;
+
 	class OpCodeNames : public ::System::Object
 	{
 	public:

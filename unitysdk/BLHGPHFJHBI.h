@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 #define BLHGPHFJHBI_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xBA73330)
 #define BLHGPHFJHBI__ONEXECUTE_B__1_0_OFFSET UNITYSDK_OFFSET(0xBA734C0)
 
+inline static constexpr unsigned int BLHGPHFJHBI_TypeDefinitionIndex = 74466;
+
 	class BLHGPHFJHBI : public ::MFDDEJCPLON
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetHeadButtonEff_TypeDefinitionIndex = 22743;
+
 	class SetHeadButtonEff : public ::RPG::GameCore::TaskConfig
 	{
 	public:

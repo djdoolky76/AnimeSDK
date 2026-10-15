@@ -28,6 +28,8 @@ namespace System { class String; }
 #define NCHKFJPOHAH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EADEB80)
 #define NCHKFJPOHAH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EADEBE0)
 
+inline static constexpr unsigned int NCHKFJPOHAH_TypeDefinitionIndex = 29663;
+
 	class NCHKFJPOHAH : public ::System::Object
 	{
 	public:

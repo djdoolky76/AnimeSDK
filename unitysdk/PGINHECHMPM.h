@@ -25,6 +25,8 @@ namespace System { class String; }
 #define PGINHECHMPM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF32180)
 #define PGINHECHMPM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF321E0)
 
+inline static constexpr unsigned int PGINHECHMPM_TypeDefinitionIndex = 33333;
+
 	class PGINHECHMPM : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChangeTeamLeader; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChangeTeamLeader_TypeDefinitionIndex = 21607;
+
 	class ChangeTeamLeader : public ::RPG::GameCore::TaskConfig
 	{
 	public:

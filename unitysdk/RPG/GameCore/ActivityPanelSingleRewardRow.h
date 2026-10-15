@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ActivityPanelSingleRewardRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityPanelSingleRewardRow_TypeDefinitionIndex = 11223;
+
 	class ActivityPanelSingleRewardRow : public ::System::Object
 	{
 	public:

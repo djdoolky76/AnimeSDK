@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RA_ByAIStatus___O_TypeDefinitionIndex = 20051;
+
 	class RA_ByAIStatus___O : public ::System::Object
 	{
 	public:

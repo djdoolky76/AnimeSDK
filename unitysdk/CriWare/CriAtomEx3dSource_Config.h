@@ -5,6 +5,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomEx3dSource_Config_TypeDefinitionIndex = 40012;
+
 	struct alignas(4) CriAtomEx3dSource_Config
 	{
 		::System::Boolean enableVoicePriorityDecay; // 0x10

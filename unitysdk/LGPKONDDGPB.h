@@ -20,6 +20,8 @@ namespace System::Reflection { class MethodInfo; }
 #define LGPKONDDGPB_LMAFIOLAGDA_OFFSET UNITYSDK_OFFSET(0xB6A1950)
 #define LGPKONDDGPB_MMLFGEIHPML_OFFSET UNITYSDK_OFFSET(0xB6A1910)
 
+inline static constexpr unsigned int LGPKONDDGPB_TypeDefinitionIndex = 73158;
+
 	class LGPKONDDGPB : public ::System::Object
 	{
 	public:

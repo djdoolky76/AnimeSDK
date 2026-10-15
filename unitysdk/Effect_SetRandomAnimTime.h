@@ -10,6 +10,8 @@ namespace UnityEngine { class Animator; }
 #define EFFECT_SETRANDOMANIMTIME_GET_RANDOMSEED_OFFSET UNITYSDK_OFFSET(0x155E2F30)
 #define EFFECT_SETRANDOMANIMTIME_ONENABLE_OFFSET UNITYSDK_OFFSET(0x155E2ED0)
 
+inline static constexpr unsigned int Effect_SetRandomAnimTime_TypeDefinitionIndex = 47456;
+
 	class Effect_SetRandomAnimTime : public ::UnityEngine::MonoBehaviour
 	{
 	public:

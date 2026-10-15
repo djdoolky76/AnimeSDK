@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActPersonaStatLogConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActPersonaStatLogConfig_TypeDefinitionIndex = 19786;
+
 	class RogueActPersonaStatLogConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

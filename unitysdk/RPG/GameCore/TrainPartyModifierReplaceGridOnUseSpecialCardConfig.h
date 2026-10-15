@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyModifierReplaceGridOnUseSpecialCardCon
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyModifierReplaceGridOnUseSpecialCardConfig_TypeDefinitionIndex = 18102;
+
 	class TrainPartyModifierReplaceGridOnUseSpecialCardConfig : public ::RPG::GameCore::TrainPartyModifierConfigBase
 	{
 	public:

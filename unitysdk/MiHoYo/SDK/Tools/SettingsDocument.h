@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Tools
 {
+	inline static constexpr unsigned int SettingsDocument_TypeDefinitionIndex = 38888;
+
 	class SettingsDocument : public ::System::Object
 	{
 	public:

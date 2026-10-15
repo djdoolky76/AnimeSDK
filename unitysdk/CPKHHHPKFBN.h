@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CPKHHHPKFBN_SET_TITLE_OFFSET UNITYSDK_OFFSET(0x1C54CCF0)
 #define CPKHHHPKFBN_SET_TUTORIALGUIDEID_OFFSET UNITYSDK_OFFSET(0x1C54CDF0)
 
+inline static constexpr unsigned int CPKHHHPKFBN_TypeDefinitionIndex = 41912;
+
 	class CPKHHHPKFBN : public ::System::Object
 	{
 	public:

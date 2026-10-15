@@ -9,6 +9,8 @@ namespace MessagePack { class IFormatterResolver; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int GeneratedMessagePackResolver_TypeDefinitionIndex = 36093;
+
 	class GeneratedMessagePackResolver : public ::System::Object
 	{
 	public:

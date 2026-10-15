@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NKAGIILANBC_HDCCPLOFFKM_OFFSET UNITYSDK_OFFSET(0xBC2D820)
 #define NKAGIILANBC_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0xBC2D220)
 
+inline static constexpr unsigned int NKAGIILANBC_TypeDefinitionIndex = 53747;
+
 	class NKAGIILANBC : public ::GJPFGOGOLBI
 	{
 	public:

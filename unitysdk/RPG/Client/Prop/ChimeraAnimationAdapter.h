@@ -12,6 +12,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraAnimationAdapter_TypeDefinitionIndex = 78393;
+
 	class ChimeraAnimationAdapter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

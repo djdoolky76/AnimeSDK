@@ -12,6 +12,8 @@ namespace UnityEngine::Formats::Alembic::Sdk { template <typename T> class Pinne
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aiCurvesSample_TypeDefinitionIndex = 45838;
+
 	struct alignas(4) aiCurvesSample
 	{
 		::System::IntPtr self; // 0x10

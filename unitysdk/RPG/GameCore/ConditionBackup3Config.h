@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ConditionBackup3Config; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConditionBackup3Config_TypeDefinitionIndex = 17064;
+
 	class ConditionBackup3Config : public ::RPG::GameCore::MiConditionConfigBase
 	{
 	public:

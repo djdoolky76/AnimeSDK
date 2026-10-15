@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ComposeItemCost_TypeDefinitionIndex = 65756;
+
 	class ComposeItemCost : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomRegion_TypeDefinitionIndex = 39939;
+
 	class CriAtomRegion : public ::CriWare::CriMonoBehaviour
 	{
 	public:

@@ -20,6 +20,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftSettleProductStatsControl_TypeDefinitionIndex = 80040;
+
 	class MechCraftSettleProductStatsControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

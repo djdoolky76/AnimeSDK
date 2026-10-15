@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CreateBattleEvent_TypeDefinitionIndex = 22975;
+
 	class CreateBattleEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:

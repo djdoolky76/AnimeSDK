@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 #define HGNKANIPAAN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CACAE50)
 #define HGNKANIPAAN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CACAEC0)
 
+inline static constexpr unsigned int HGNKANIPAAN_TypeDefinitionIndex = 42964;
+
 	class HGNKANIPAAN : public ::System::Object
 	{
 	public:

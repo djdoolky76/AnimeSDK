@@ -7,6 +7,8 @@ namespace UnityEngine { class CapsuleCollider; }
 
 #define EBDJGLDAMEF_CTOR_OFFSET UNITYSDK_OFFSET(0x12CED280)
 
+inline static constexpr unsigned int EBDJGLDAMEF_TypeDefinitionIndex = 69274;
+
 	class EBDJGLDAMEF : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ReflectionProbeUtility_TypeDefinitionIndex = 37576;
+
 	class ReflectionProbeUtility : public ::System::Object
 	{
 	public:

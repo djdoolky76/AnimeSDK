@@ -16,6 +16,8 @@ namespace RPG::Client { class FiveDimTrainModeDisplayInfos; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FiveDimTrainModeDisplayInfos_TypeDefinitionIndex = 64227;
+
 	class FiveDimTrainModeDisplayInfos : public ::System::Object
 	{
 	public:

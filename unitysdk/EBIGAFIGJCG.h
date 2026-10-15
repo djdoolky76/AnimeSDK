@@ -8,6 +8,8 @@ namespace RPG::GameCore { class ItemConfig; }
 #define EBIGAFIGJCG_BMDMAHCKBMI_OFFSET UNITYSDK_OFFSET(0x12CF9160)
 #define EBIGAFIGJCG_CTOR_OFFSET UNITYSDK_OFFSET(0x12CF9700)
 
+inline static constexpr unsigned int EBIGAFIGJCG_TypeDefinitionIndex = 65706;
+
 	class EBIGAFIGJCG : public ::System::Object
 	{
 	public:

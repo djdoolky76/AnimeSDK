@@ -32,6 +32,8 @@ namespace System { class String; }
 #define GFNAPELNFIC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E473BB0)
 #define GFNAPELNFIC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E473C10)
 
+inline static constexpr unsigned int GFNAPELNFIC_TypeDefinitionIndex = 25485;
+
 	class GFNAPELNFIC : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleMakeItemDie; }
 #define OEKDGHABMMP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C98C670)
 #define OEKDGHABMMP_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C98C680)
 
+inline static constexpr unsigned int OEKDGHABMMP_TypeDefinitionIndex = 43122;
+
 	class OEKDGHABMMP : public ::BKABEBEPPJK
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingFesGameConfig_TypeDefinitionIndex = 18427;
+
 	class ChenLingFesGameConfig : public ::RPG::GameCore::LittleGameConstConfig
 	{
 	public:

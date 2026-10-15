@@ -241,6 +241,8 @@ namespace XLua { class LuaTable; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int LoopListView2_TypeDefinitionIndex = 47663;
+
 	class LoopListView2 : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HODPOGNIOOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5E7860)
 #define HODPOGNIOOG___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E5E7870)
 
+inline static constexpr unsigned int HODPOGNIOOG___c_TypeDefinitionIndex = 27348;
+
 	class HODPOGNIOOG___c : public ::System::Object
 	{
 	public:

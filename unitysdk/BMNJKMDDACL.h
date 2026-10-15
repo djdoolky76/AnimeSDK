@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define BMNJKMDDACL_SET_ISENABLE_OFFSET UNITYSDK_OFFSET(0xBDBF380)
 #define BMNJKMDDACL__LOADINDEXINFO_OFFSET UNITYSDK_OFFSET(0xBDBF390)
 
+inline static constexpr unsigned int BMNJKMDDACL_TypeDefinitionIndex = 59473;
+
 	class BMNJKMDDACL
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::PS
 {
+	inline static constexpr unsigned int PSAccountInfoDialog_TypeDefinitionIndex = 8935;
+
 	class PSAccountInfoDialog : public ::MiHoYo::SDK::PS::PSDialogBase
 	{
 	public:

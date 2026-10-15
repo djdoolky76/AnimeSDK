@@ -50,6 +50,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 #define BPDGNJCCOFO_OBLCMLBFHDF_OFFSET UNITYSDK_OFFSET(0x1EBF7320)
 #define BPDGNJCCOFO_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1EBF5F50)
 
+inline static constexpr unsigned int BPDGNJCCOFO_TypeDefinitionIndex = 35276;
+
 	class BPDGNJCCOFO : public ::System::Object
 	{
 	public:

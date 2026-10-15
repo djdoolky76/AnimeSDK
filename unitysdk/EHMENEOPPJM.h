@@ -19,6 +19,8 @@ namespace RPG::GameCore { class MusicRhythmTimelineConfig; }
 #define EHMENEOPPJM_JPFBBLGINKA_OFFSET UNITYSDK_OFFSET(0x154B4610)
 #define EHMENEOPPJM_LKMMFFLGEFI_OFFSET UNITYSDK_OFFSET(0x154B3D80)
 
+inline static constexpr unsigned int EHMENEOPPJM_TypeDefinitionIndex = 60165;
+
 	class EHMENEOPPJM : public ::NEKAOEFLAMO
 	{
 	public:

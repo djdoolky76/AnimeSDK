@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LOHFIAOJHKN___C__DISPLAYCLASS6_0___DOSHOWENTRANCEPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xB803540)
 #define LOHFIAOJHKN___C__DISPLAYCLASS6_0___DOSHOWENTRANCEPAGE_B__1_OFFSET UNITYSDK_OFFSET(0xB803620)
 
+inline static constexpr unsigned int LOHFIAOJHKN___c__DisplayClass6_0_TypeDefinitionIndex = 52937;
+
 	class LOHFIAOJHKN___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

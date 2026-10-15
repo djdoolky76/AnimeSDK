@@ -43,6 +43,8 @@ namespace System { class String; }
 #define GHNMFCHEGGK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E48EE80)
 #define GHNMFCHEGGK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E48EEE0)
 
+inline static constexpr unsigned int GHNMFCHEGGK_TypeDefinitionIndex = 26101;
+
 	class GHNMFCHEGGK : public ::System::Object
 	{
 	public:

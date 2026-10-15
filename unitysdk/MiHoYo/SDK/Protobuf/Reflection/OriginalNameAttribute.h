@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int OriginalNameAttribute_TypeDefinitionIndex = 35845;
+
 	class OriginalNameAttribute : public ::System::Attribute
 	{
 	public:

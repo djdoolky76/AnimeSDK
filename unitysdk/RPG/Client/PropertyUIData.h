@@ -33,6 +33,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PropertyUIData_TypeDefinitionIndex = 73047;
+
 	class PropertyUIData : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Side_Timer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_Timer_TypeDefinitionIndex = 20149;
+
 	class ST_Side_Timer : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

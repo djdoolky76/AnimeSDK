@@ -16,6 +16,8 @@ class FPPNANNOMPF;
 #define PNMBJHMPELA_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC34DC60)
 #define PNMBJHMPELA_SET_GAMEDAYCOUNT_OFFSET UNITYSDK_OFFSET(0xC34DFC0)
 
+inline static constexpr unsigned int PNMBJHMPELA_TypeDefinitionIndex = 77738;
+
 	class PNMBJHMPELA : public ::System::Object
 	{
 	public:

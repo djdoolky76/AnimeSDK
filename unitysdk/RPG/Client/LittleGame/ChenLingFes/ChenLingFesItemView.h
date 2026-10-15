@@ -22,6 +22,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client::LittleGame::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesItemView_TypeDefinitionIndex = 77788;
+
 	class ChenLingFesItemView : public ::RPG::Client::LittleGame::ChenLingFes::ChenLingFesView
 	{
 	public:

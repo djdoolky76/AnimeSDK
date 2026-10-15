@@ -64,6 +64,8 @@ namespace System { class Type; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriManaPlugin_TypeDefinitionIndex = 40125;
+
 	class CriManaPlugin : public ::System::Object
 	{
 	public:

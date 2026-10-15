@@ -12,6 +12,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int DeployPuzzleBoard___c_TypeDefinitionIndex = 78530;
+
 	class DeployPuzzleBoard___c : public ::System::Object
 	{
 	public:

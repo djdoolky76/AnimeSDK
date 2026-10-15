@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RangeInt_TypeDefinitionIndex = 4336;
+
 	struct alignas(4) RangeInt
 	{
 		::System::Int32 start; // 0x10

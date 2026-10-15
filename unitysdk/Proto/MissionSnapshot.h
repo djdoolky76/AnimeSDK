@@ -41,6 +41,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int MissionSnapshot_TypeDefinitionIndex = 25840;
+
 	class MissionSnapshot : public ::System::Object
 	{
 	public:

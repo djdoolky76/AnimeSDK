@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int GFDENAMMEHM_DABHLIADLFA_TypeDefinitionIndex = 33933;
+
 	enum class GFDENAMMEHM_DABHLIADLFA : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

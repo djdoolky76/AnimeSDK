@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DKOAMFCJHNH_PFMKHONHPKG_OFFSET UNITYSDK_OFFSET(0xF88B880)
 #define DKOAMFCJHNH_TOSTRING_OFFSET UNITYSDK_OFFSET(0xF88B360)
 
+inline static constexpr unsigned int DKOAMFCJHNH_TypeDefinitionIndex = 49196;
+
 	class DKOAMFCJHNH : public ::System::Object
 	{
 	public:

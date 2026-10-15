@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class Image; }
 #define PMHNIJDEPKG_KCOKMIEDKGG_OFFSET UNITYSDK_OFFSET(0xC31F160)
 #define PMHNIJDEPKG__ONBIND_OFFSET UNITYSDK_OFFSET(0xC31F270)
 
+inline static constexpr unsigned int PMHNIJDEPKG_TypeDefinitionIndex = 71831;
+
 	class PMHNIJDEPKG : public ::FMPCODLIOLG
 	{
 	public:

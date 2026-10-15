@@ -65,6 +65,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_ObjectNode_TypeDefinitionIndex = 40415;
+
 	class HEU_ObjectNode : public ::UnityEngine::ScriptableObject
 	{
 	public:

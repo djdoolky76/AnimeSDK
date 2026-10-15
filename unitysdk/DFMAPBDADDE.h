@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 #define DFMAPBDADDE_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CA28B00)
 #define DFMAPBDADDE_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x1CA28B40)
 
+inline static constexpr unsigned int DFMAPBDADDE_TypeDefinitionIndex = 42009;
+
 	class DFMAPBDADDE : public ::System::Object
 	{
 	public:

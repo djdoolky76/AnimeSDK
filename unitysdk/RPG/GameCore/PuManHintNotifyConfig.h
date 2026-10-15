@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PuManHintNotifyConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PuManHintNotifyConfig_TypeDefinitionIndex = 16963;
+
 	class PuManHintNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

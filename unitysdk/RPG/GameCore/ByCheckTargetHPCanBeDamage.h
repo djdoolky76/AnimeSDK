@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCheckTargetHPCanBeDamage_TypeDefinitionIndex = 22547;
+
 	class ByCheckTargetHPCanBeDamage : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

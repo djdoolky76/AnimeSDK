@@ -3,6 +3,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExVoicePool_PitchShifterConfig_TypeDefinitionIndex = 40075;
+
 	struct alignas(4) CriAtomExVoicePool_PitchShifterConfig
 	{
 		::System::Int32 mode; // 0x10

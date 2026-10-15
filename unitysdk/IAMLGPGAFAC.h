@@ -27,6 +27,8 @@ namespace System { class String; }
 #define IAMLGPGAFAC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E609120)
 #define IAMLGPGAFAC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E609180)
 
+inline static constexpr unsigned int IAMLGPGAFAC_TypeDefinitionIndex = 34487;
+
 	class IAMLGPGAFAC : public ::System::Object
 	{
 	public:

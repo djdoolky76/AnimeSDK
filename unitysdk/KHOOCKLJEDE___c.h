@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KHOOCKLJEDE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E84F5D0)
 #define KHOOCKLJEDE___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E84F5E0)
 
+inline static constexpr unsigned int KHOOCKLJEDE___c_TypeDefinitionIndex = 26339;
+
 	class KHOOCKLJEDE___c : public ::System::Object
 	{
 	public:

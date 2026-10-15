@@ -33,6 +33,8 @@ namespace System { class String; }
 #define JDAIOFEPGCC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E707180)
 #define JDAIOFEPGCC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7071E0)
 
+inline static constexpr unsigned int JDAIOFEPGCC_TypeDefinitionIndex = 28281;
+
 	class JDAIOFEPGCC : public ::System::Object
 	{
 	public:

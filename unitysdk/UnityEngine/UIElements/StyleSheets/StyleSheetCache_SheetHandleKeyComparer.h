@@ -9,6 +9,8 @@
 
 namespace UnityEngine::UIElements::StyleSheets
 {
+	inline static constexpr unsigned int StyleSheetCache_SheetHandleKeyComparer_TypeDefinitionIndex = 6014;
+
 	class StyleSheetCache_SheetHandleKeyComparer : public ::System::Object
 	{
 	public:

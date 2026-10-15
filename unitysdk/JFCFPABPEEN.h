@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JFCFPABPEEN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D022A60)
 #define JFCFPABPEEN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0223C0)
 
+inline static constexpr unsigned int JFCFPABPEEN_TypeDefinitionIndex = 13941;
+
 	class JFCFPABPEEN : public ::System::Object
 	{
 	public:

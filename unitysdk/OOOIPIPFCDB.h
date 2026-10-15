@@ -17,6 +17,8 @@ namespace RPG::GameCore { class FloatCurve; }
 #define OOOIPIPFCDB_KFIBFFMNKAK_OFFSET UNITYSDK_OFFSET(0xBF94330)
 #define OOOIPIPFCDB_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBF937B0)
 
+inline static constexpr unsigned int OOOIPIPFCDB_TypeDefinitionIndex = 76963;
+
 	class OOOIPIPFCDB : public ::PFALJMOJFCA
 	{
 	public:

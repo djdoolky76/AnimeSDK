@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int Tup_TypeDefinitionIndex = 49164;
+
 	class Tup : public ::System::Object
 	{
 	public:

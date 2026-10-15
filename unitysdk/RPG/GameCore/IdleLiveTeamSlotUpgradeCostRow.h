@@ -10,6 +10,8 @@ namespace RPG::GameCore { class IdleLiveTeamSlotUpgradeCostRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveTeamSlotUpgradeCostRow_TypeDefinitionIndex = 11685;
+
 	class IdleLiveTeamSlotUpgradeCostRow : public ::System::Object
 	{
 	public:

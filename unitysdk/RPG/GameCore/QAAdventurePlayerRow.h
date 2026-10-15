@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int QAAdventurePlayerRow_TypeDefinitionIndex = 19064;
+
 	class QAAdventurePlayerRow : public ::RPG::GameCore::JsonConfig
 	{
 	public:

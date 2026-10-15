@@ -17,6 +17,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtTargetMapPosWithOffset_TypeDefinitionIndex = 24259;
+
 	class RtTargetMapPosWithOffset : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:

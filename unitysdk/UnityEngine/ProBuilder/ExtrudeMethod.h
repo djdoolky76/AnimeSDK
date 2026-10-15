@@ -3,6 +3,8 @@
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int ExtrudeMethod_TypeDefinitionIndex = 44403;
+
 	enum class ExtrudeMethod : ::System::Int32
 	{
 		IndividualFaces = 0,

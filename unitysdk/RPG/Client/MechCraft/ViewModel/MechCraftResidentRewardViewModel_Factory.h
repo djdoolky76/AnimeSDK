@@ -14,6 +14,8 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftResidentRewardViewM
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftResidentRewardViewModel_Factory_TypeDefinitionIndex = 79688;
+
 	class MechCraftResidentRewardViewModel_Factory : public ::System::Object
 	{
 	public:

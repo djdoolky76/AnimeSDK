@@ -29,6 +29,8 @@ namespace System { class String; }
 #define IEAMIJBBOMA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6344B0)
 #define IEAMIJBBOMA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E634510)
 
+inline static constexpr unsigned int IEAMIJBBOMA_TypeDefinitionIndex = 31859;
+
 	class IEAMIJBBOMA : public ::System::Object
 	{
 	public:

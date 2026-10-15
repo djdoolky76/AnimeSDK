@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LimitedGachaPoolData_TypeDefinitionIndex = 64312;
+
 	class LimitedGachaPoolData : public ::RPG::Client::BaseGachaPoolData
 	{
 	public:

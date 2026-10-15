@@ -7,6 +7,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int GlyphValueRecord_Legacy_TypeDefinitionIndex = 44577;
+
 	struct alignas(4) GlyphValueRecord_Legacy
 	{
 		::System::Single xPlacement; // 0x10

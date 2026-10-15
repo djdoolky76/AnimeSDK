@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2GameFlow___c_TypeDefinitionIndex = 76183;
+
 	class DiceCombatV2GameFlow___c : public ::System::Object
 	{
 	public:

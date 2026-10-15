@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LAPOAFHDNCM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8D5360)
 #define LAPOAFHDNCM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8D53C0)
 
+inline static constexpr unsigned int LAPOAFHDNCM_TypeDefinitionIndex = 29503;
+
 	class LAPOAFHDNCM : public ::System::Object
 	{
 	public:

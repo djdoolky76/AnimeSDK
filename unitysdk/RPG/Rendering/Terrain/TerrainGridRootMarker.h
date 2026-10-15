@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Rendering::Terrain
 {
+	inline static constexpr unsigned int TerrainGridRootMarker_TypeDefinitionIndex = 51803;
+
 	class TerrainGridRootMarker : public ::UnityEngine::MonoBehaviour
 	{
 	public:

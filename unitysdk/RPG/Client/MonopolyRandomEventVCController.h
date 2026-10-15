@@ -9,6 +9,8 @@ namespace Cinemachine { class CinemachineVirtualCamera; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyRandomEventVCController_TypeDefinitionIndex = 72847;
+
 	class MonopolyRandomEventVCController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

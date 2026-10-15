@@ -11,6 +11,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineHardLookAt_TypeDefinitionIndex = 39780;
+
 	class CinemachineHardLookAt : public ::Cinemachine::CinemachineComponentBase
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 #define LCLDLFLOOMB_PPJHDCDKFLE_OFFSET UNITYSDK_OFFSET(0xB618330)
 #define LCLDLFLOOMB_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB6184B0)
 
+inline static constexpr unsigned int LCLDLFLOOMB_TypeDefinitionIndex = 62023;
+
 	class LCLDLFLOOMB : public ::MAOPBKPKCEK
 	{
 	public:

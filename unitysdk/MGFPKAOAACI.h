@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MGFPKAOAACI_PBNOCMEKDDI_OFFSET UNITYSDK_OFFSET(0xB91BF40)
 #define MGFPKAOAACI_TICK_OFFSET UNITYSDK_OFFSET(0xB91BA40)
 
+inline static constexpr unsigned int MGFPKAOAACI_TypeDefinitionIndex = 52951;
+
 	class MGFPKAOAACI : public ::GELIALJDFBL
 	{
 	public:

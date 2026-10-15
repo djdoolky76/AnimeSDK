@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define OALJBOBJIJN_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xBD2B3C0)
 #define OALJBOBJIJN_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBD2B350)
 
+inline static constexpr unsigned int OALJBOBJIJN_TypeDefinitionIndex = 55977;
+
 	class OALJBOBJIJN : public ::CMPGEAFHHDC
 	{
 	public:

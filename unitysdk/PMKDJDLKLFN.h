@@ -28,6 +28,8 @@ namespace RPG::GameCore::Match3 { class Match3ActionBase; }
 #define PMKDJDLKLFN_MEBHAOBOBBD_OFFSET UNITYSDK_OFFSET(0x1C9F8A60)
 #define PMKDJDLKLFN_NKLIDFDMIDJ_OFFSET UNITYSDK_OFFSET(0x1C9F8B80)
 
+inline static constexpr unsigned int PMKDJDLKLFN_TypeDefinitionIndex = 42305;
+
 	class PMKDJDLKLFN : public ::System::Object
 	{
 	public:

@@ -39,6 +39,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DJMOOPPAEBM_SET_ELATIONITEMAPPENDDATA_OFFSET UNITYSDK_OFFSET(0xF240F60)
 #define DJMOOPPAEBM_SET_UISTYLE_OFFSET UNITYSDK_OFFSET(0xF240E20)
 
+inline static constexpr unsigned int DJMOOPPAEBM_TypeDefinitionIndex = 72184;
+
 	class DJMOOPPAEBM : public ::System::Object
 	{
 	public:

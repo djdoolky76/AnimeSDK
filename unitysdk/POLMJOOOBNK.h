@@ -31,6 +31,8 @@ namespace System { class String; }
 #define POLMJOOOBNK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFCD780)
 #define POLMJOOOBNK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFCD7E0)
 
+inline static constexpr unsigned int POLMJOOOBNK_TypeDefinitionIndex = 26322;
+
 	class POLMJOOOBNK : public ::System::Object
 	{
 	public:

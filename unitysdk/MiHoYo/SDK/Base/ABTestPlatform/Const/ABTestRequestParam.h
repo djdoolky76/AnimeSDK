@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::Base::ABTestPlatform::Const
 {
+	inline static constexpr unsigned int ABTestRequestParam_TypeDefinitionIndex = 8857;
+
 	class ABTestRequestParam : public ::System::Object
 	{
 	public:

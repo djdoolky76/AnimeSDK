@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SkillTreeGrowthGuide_TypeDefinitionIndex = 65560;
+
 	class SkillTreeGrowthGuide : public ::System::Object
 	{
 	public:

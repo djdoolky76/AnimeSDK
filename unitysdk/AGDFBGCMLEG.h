@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GameEntityList; }
 #define AGDFBGCMLEG_ICANOMDKDEO_OFFSET UNITYSDK_OFFSET(0xE7EB0)
 #define AGDFBGCMLEG_MMJPADDGDDD_OFFSET UNITYSDK_OFFSET(0xE7EC0)
 
+inline static constexpr unsigned int AGDFBGCMLEG_TypeDefinitionIndex = 59055;
+
 	struct alignas(8) AGDFBGCMLEG
 	{
 		::RPG::GameCore::GameEntity* LEGOPIOOCCL; // 0x10

@@ -20,6 +20,8 @@ namespace UnityEngine::TextCore { class Glyph; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_TextElement_TypeDefinitionIndex = 44663;
+
 	class TMP_TextElement : public ::System::Object
 	{
 	public:

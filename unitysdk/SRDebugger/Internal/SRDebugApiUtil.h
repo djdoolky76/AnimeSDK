@@ -13,6 +13,8 @@ namespace System::Net { class WebResponse; }
 
 namespace SRDebugger::Internal
 {
+	inline static constexpr unsigned int SRDebugApiUtil_TypeDefinitionIndex = 38097;
+
 	class SRDebugApiUtil : public ::System::Object
 	{
 	public:

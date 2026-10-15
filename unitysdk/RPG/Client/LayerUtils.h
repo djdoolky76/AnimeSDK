@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LayerUtils_TypeDefinitionIndex = 35289;
+
 	class LayerUtils : public ::System::Object
 	{
 	public:

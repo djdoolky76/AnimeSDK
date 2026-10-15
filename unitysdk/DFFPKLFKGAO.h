@@ -51,6 +51,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DFFPKLFKGAO_OLGACLJFHCF_OFFSET UNITYSDK_OFFSET(0xE82B460)
 #define DFFPKLFKGAO_PHMMIPCOKHC_OFFSET UNITYSDK_OFFSET(0xE82BA70)
 
+inline static constexpr unsigned int DFFPKLFKGAO_TypeDefinitionIndex = 71303;
+
 	class DFFPKLFKGAO : public ::System::Object
 	{
 	public:

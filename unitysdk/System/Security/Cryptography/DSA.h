@@ -11,6 +11,8 @@ namespace System::Security::Cryptography { class DSA; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int DSA_TypeDefinitionIndex = 1020;
+
 	class DSA : public ::System::Security::Cryptography::AsymmetricAlgorithm
 	{
 	public:

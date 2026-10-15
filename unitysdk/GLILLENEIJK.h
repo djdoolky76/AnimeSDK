@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GLILLENEIJK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4C16B0)
 #define GLILLENEIJK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4C1710)
 
+inline static constexpr unsigned int GLILLENEIJK_TypeDefinitionIndex = 28908;
+
 	class GLILLENEIJK : public ::System::Object
 	{
 	public:

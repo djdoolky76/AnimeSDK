@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageBattleEventRow_TypeDefinitionIndex = 15133;
+
 	class StageBattleEventRow : public ::System::Object
 	{
 	public:

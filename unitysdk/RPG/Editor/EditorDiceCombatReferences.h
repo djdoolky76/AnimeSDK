@@ -6,6 +6,8 @@
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int EditorDiceCombatReferences_TypeDefinitionIndex = 52049;
+
 	class EditorDiceCombatReferences : public ::UnityEngine::MonoBehaviour
 	{
 	public:

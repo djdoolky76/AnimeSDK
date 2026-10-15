@@ -13,6 +13,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::AstraFX
 {
+	inline static constexpr unsigned int AstraFX_SkinnedMesh___c_TypeDefinitionIndex = 73695;
+
 	class AstraFX_SkinnedMesh___c : public ::System::Object
 	{
 	public:

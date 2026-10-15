@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRChaperoneSetup__GetLivePhysicalBoundsInfo_TypeDefinitionIndex = 39011;
+
 	class IVRChaperoneSetup__GetLivePhysicalBoundsInfo : public ::System::MulticastDelegate
 	{
 	public:

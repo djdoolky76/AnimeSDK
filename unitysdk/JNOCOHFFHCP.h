@@ -56,6 +56,8 @@ namespace UnityEngine { class Transform; }
 #define JNOCOHFFHCP_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB28F9F0)
 #define JNOCOHFFHCP_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB291790)
 
+inline static constexpr unsigned int JNOCOHFFHCP_TypeDefinitionIndex = 60642;
+
 	class JNOCOHFFHCP : public ::System::Object
 	{
 	public:

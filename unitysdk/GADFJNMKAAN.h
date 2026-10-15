@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GADFJNMKAAN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E417240)
 #define GADFJNMKAAN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4172A0)
 
+inline static constexpr unsigned int GADFJNMKAAN_TypeDefinitionIndex = 30234;
+
 	class GADFJNMKAAN : public ::System::Object
 	{
 	public:

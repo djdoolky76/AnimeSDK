@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HFAAFFDPBIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E55FF40)
 #define HFAAFFDPBIL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E55FF50)
 
+inline static constexpr unsigned int HFAAFFDPBIL___c_TypeDefinitionIndex = 25792;
+
 	class HFAAFFDPBIL___c : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MOJIHBOAKOA_FFKBFPKEPEN_OFFSET UNITYSDK_OFFSET(0x1C750B20)
 #define MOJIHBOAKOA_HHGNECAGCCA_OFFSET UNITYSDK_OFFSET(0x1C750E70)
 
+inline static constexpr unsigned int MOJIHBOAKOA_TypeDefinitionIndex = 37212;
+
 	class MOJIHBOAKOA : public ::FLJEGMGCIOG
 	{
 	public:

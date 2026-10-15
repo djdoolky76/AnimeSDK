@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VoracityInvasionModule_TypeDefinitionIndex = 68253;
+
 	class VoracityInvasionModule : public ::RPG::Client::BaseModule
 	{
 	public:

@@ -30,6 +30,8 @@ namespace RPG::Client { class GridFightRole; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightBonusDropData_TypeDefinitionIndex = 64423;
+
 	class GridFightBonusDropData : public ::System::Object
 	{
 	public:

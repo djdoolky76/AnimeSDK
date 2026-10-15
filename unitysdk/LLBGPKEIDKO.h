@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LLBGPKEIDKO_FILTER_OFFSET UNITYSDK_OFFSET(0x1C910070)
 #define LLBGPKEIDKO_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C90FF50)
 
+inline static constexpr unsigned int LLBGPKEIDKO_TypeDefinitionIndex = 42875;
+
 	class LLBGPKEIDKO
 	{
 	public:

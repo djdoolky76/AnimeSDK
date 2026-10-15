@@ -10,6 +10,8 @@ namespace System::IO { class TextWriter; }
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int Base64Encoder_TypeDefinitionIndex = 9631;
+
 	class Base64Encoder : public ::System::Object
 	{
 	public:

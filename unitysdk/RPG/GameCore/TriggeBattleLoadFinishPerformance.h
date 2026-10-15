@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggeBattleLoadFinishPerformance; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggeBattleLoadFinishPerformance_TypeDefinitionIndex = 23317;
+
 	class TriggeBattleLoadFinishPerformance : public ::RPG::GameCore::TaskConfig
 	{
 	public:

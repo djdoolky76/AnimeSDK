@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MonopolyClickContentConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonopolyClickContentConfigRow_TypeDefinitionIndex = 12035;
+
 	class MonopolyClickContentConfigRow : public ::System::Object
 	{
 	public:

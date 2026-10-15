@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ParamExprConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ParamExprConfig_TypeDefinitionIndex = 17081;
+
 	class ParamExprConfig : public ::RPG::GameCore::MiParameterConfigBase
 	{
 	public:

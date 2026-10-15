@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AJGLEIOGOID___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3C2340)
 #define AJGLEIOGOID___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E3C2350)
 
+inline static constexpr unsigned int AJGLEIOGOID___c_TypeDefinitionIndex = 34589;
+
 	class AJGLEIOGOID___c : public ::System::Object
 	{
 	public:

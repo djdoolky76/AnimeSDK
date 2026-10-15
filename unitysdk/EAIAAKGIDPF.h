@@ -14,6 +14,8 @@ namespace System { class String; }
 #define EAIAAKGIDPF_TICK_OFFSET UNITYSDK_OFFSET(0x1267A950)
 #define EAIAAKGIDPF__ONTASKBEGIN_B__2_0_OFFSET UNITYSDK_OFFSET(0x1267AA00)
 
+inline static constexpr unsigned int EAIAAKGIDPF_TypeDefinitionIndex = 52957;
+
 	class EAIAAKGIDPF : public ::GELIALJDFBL
 	{
 	public:

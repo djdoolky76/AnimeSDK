@@ -4,6 +4,8 @@
 
 #define KJHGBANLEIC___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB44F560)
 
+inline static constexpr unsigned int KJHGBANLEIC___c__DisplayClass21_0_TypeDefinitionIndex = 59593;
+
 	class KJHGBANLEIC___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@
 #define JEGHEKIEBDD_CCTOR_OFFSET UNITYSDK_OFFSET(0x166206C0)
 #define JEGHEKIEBDD_JLPDLBCBJNN_OFFSET UNITYSDK_OFFSET(0x16620350)
 
+inline static constexpr unsigned int JEGHEKIEBDD_TypeDefinitionIndex = 77169;
+
 	class JEGHEKIEBDD : public ::System::Object
 	{
 	public:

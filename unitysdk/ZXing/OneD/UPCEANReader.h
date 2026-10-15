@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace ZXing::OneD
 {
+	inline static constexpr unsigned int UPCEANReader_TypeDefinitionIndex = 6987;
+
 	class UPCEANReader : public ::ZXing::OneD::OneDReader
 	{
 	public:

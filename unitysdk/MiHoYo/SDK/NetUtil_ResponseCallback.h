@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int NetUtil_ResponseCallback_TypeDefinitionIndex = 8183;
+
 	class NetUtil_ResponseCallback : public ::System::MulticastDelegate
 	{
 	public:

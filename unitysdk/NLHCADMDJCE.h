@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NLHCADMDJCE_PFOJGFJCJFA_OFFSET UNITYSDK_OFFSET(0xBC6E4E0)
 #define NLHCADMDJCE_PMCCDJDILCI_OFFSET UNITYSDK_OFFSET(0xBC6CAC0)
 
+inline static constexpr unsigned int NLHCADMDJCE_TypeDefinitionIndex = 59722;
+
 	class NLHCADMDJCE : public ::LJKHPOHKIIF
 	{
 	public:

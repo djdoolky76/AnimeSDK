@@ -35,6 +35,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int LaserTurnablePuzzleSwitch_TypeDefinitionIndex = 78674;
+
 	class LaserTurnablePuzzleSwitch : public ::UnityEngine::MonoBehaviour
 	{
 	public:

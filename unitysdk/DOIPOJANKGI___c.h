@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DOIPOJANKGI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E202AB0)
 #define DOIPOJANKGI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E202AC0)
 
+inline static constexpr unsigned int DOIPOJANKGI___c_TypeDefinitionIndex = 28692;
+
 	class DOIPOJANKGI___c : public ::System::Object
 	{
 	public:

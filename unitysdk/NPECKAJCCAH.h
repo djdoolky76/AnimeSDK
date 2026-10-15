@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NPECKAJCCAH_GCFPICNDPJK_OFFSET UNITYSDK_OFFSET(0xBCFBE10)
 #define NPECKAJCCAH_GETCONTEXT_OFFSET UNITYSDK_OFFSET(0xBCFBB60)
 
+inline static constexpr unsigned int NPECKAJCCAH_TypeDefinitionIndex = 73372;
+
 	class NPECKAJCCAH : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_ShowErrorDialogDelegate_TypeDefinitionIndex = 7643;
+
 	class ConsoleDelegate_ShowErrorDialogDelegate : public ::System::MulticastDelegate
 	{
 	public:

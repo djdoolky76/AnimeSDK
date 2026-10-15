@@ -19,6 +19,8 @@ namespace System { class Object; }
 #define AELFLBAGMBH_PPLICPEAGOH_OFFSET UNITYSDK_OFFSET(0xCF016A0)
 #define AELFLBAGMBH_TICK_OFFSET UNITYSDK_OFFSET(0xCF01590)
 
+inline static constexpr unsigned int AELFLBAGMBH_TypeDefinitionIndex = 55846;
+
 	class AELFLBAGMBH : public ::System::Object
 	{
 	public:

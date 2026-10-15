@@ -8,6 +8,8 @@ namespace Entitas::VisualDebugging::Unity { class ContextObserverBehaviour; }
 
 namespace Entitas::VisualDebugging::Unity
 {
+	inline static constexpr unsigned int ContextObserverExtension_TypeDefinitionIndex = 10058;
+
 	class ContextObserverExtension : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 #define AKBANKMANAGER_DECODABLEBANKHANDLE_DOLOADBANK_OFFSET UNITYSDK_OFFSET(0x1F57C5E0)
 #define AKBANKMANAGER_DECODABLEBANKHANDLE_UNLOADBANK_OFFSET UNITYSDK_OFFSET(0x1F57CAE0)
 
+inline static constexpr unsigned int AkBankManager_DecodableBankHandle_TypeDefinitionIndex = 44820;
+
 	class AkBankManager_DecodableBankHandle : public ::AkBankManager_BankHandle
 	{
 	public:

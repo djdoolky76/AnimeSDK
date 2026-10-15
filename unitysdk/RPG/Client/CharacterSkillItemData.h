@@ -10,6 +10,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharacterSkillItemData_TypeDefinitionIndex = 72753;
+
 	class CharacterSkillItemData : public ::System::Object
 	{
 	public:

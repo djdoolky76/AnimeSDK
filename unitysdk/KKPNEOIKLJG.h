@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define KKPNEOIKLJG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C715AA0)
 
+inline static constexpr unsigned int KKPNEOIKLJG_TypeDefinitionIndex = 36473;
+
 	class KKPNEOIKLJG : public ::System::Object
 	{
 	public:

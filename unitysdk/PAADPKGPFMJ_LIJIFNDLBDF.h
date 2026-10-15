@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define PAADPKGPFMJ_LIJIFNDLBDF_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xBFC4830)
 #define PAADPKGPFMJ_LIJIFNDLBDF_INVOKE_OFFSET UNITYSDK_OFFSET(0xBFC38B0)
 
+inline static constexpr unsigned int PAADPKGPFMJ_LIJIFNDLBDF_TypeDefinitionIndex = 57286;
+
 	class PAADPKGPFMJ_LIJIFNDLBDF : public ::System::MulticastDelegate
 	{
 	public:

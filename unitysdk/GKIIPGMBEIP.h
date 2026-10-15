@@ -10,6 +10,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define GKIIPGMBEIP_CTOR_OFFSET UNITYSDK_OFFSET(0x15A98B80)
 #define GKIIPGMBEIP_DHOCFJDCLLN_OFFSET UNITYSDK_OFFSET(0x15A98C70)
 
+inline static constexpr unsigned int GKIIPGMBEIP_TypeDefinitionIndex = 63137;
+
 	class GKIIPGMBEIP : public ::System::Object
 	{
 	public:

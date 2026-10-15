@@ -6,6 +6,8 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 
 #define CPBBEAKPGGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA13900)
 
+inline static constexpr unsigned int CPBBEAKPGGA_TypeDefinitionIndex = 42118;
+
 	class CPBBEAKPGGA : public ::System::Object
 	{
 	public:

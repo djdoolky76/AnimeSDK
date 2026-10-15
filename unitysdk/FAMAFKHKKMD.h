@@ -23,6 +23,8 @@ namespace Entitas { class IGroup; }
 #define FAMAFKHKKMD_PHPEAEAIDCJ_OFFSET UNITYSDK_OFFSET(0x15685B50)
 #define FAMAFKHKKMD_PJDJLFFOFDH_OFFSET UNITYSDK_OFFSET(0x15685820)
 
+inline static constexpr unsigned int FAMAFKHKKMD_TypeDefinitionIndex = 76667;
+
 	class FAMAFKHKKMD : public ::System::Object
 	{
 	public:

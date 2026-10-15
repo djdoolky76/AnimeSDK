@@ -20,6 +20,8 @@ namespace System::Collections::Concurrent { template <typename T> class Concurre
 
 namespace RootMotion::FinalIK
 {
+	inline static constexpr unsigned int GroundPhysicsHelper_TypeDefinitionIndex = 45987;
+
 	class GroundPhysicsHelper : public ::System::Object
 	{
 	public:

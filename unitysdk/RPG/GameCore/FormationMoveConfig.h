@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FormationPatternConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FormationMoveConfig_TypeDefinitionIndex = 15621;
+
 	class FormationMoveConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

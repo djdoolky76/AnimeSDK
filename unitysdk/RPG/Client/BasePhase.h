@@ -9,6 +9,8 @@ namespace RPG::Client { class BasePhaseContext; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BasePhase_TypeDefinitionIndex = 61127;
+
 	class BasePhase : public ::System::Object
 	{
 	public:

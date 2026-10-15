@@ -11,6 +11,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriMonoBehaviour_TypeDefinitionIndex = 40199;
+
 	class CriMonoBehaviour : public ::UnityEngine::MonoBehaviour
 	{
 	public:

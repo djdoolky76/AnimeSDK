@@ -8,6 +8,8 @@
 
 namespace System::Net::NetworkInformation
 {
+	inline static constexpr unsigned int Win32IPInterfaceProperties2_TypeDefinitionIndex = 2943;
+
 	class Win32IPInterfaceProperties2 : public ::System::Net::NetworkInformation::IPInterfaceProperties
 	{
 	public:

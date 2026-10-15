@@ -8,6 +8,8 @@ namespace System { class Action; }
 #define FIHMMMCPAOI___C__DISPLAYCLASS4_1___PLAYFORMULASTORY_B__1_OFFSET UNITYSDK_OFFSET(0x157A8DF0)
 #define FIHMMMCPAOI___C__DISPLAYCLASS4_1___PLAYFORMULASTORY_B__2_OFFSET UNITYSDK_OFFSET(0x157A8E70)
 
+inline static constexpr unsigned int FIHMMMCPAOI___c__DisplayClass4_1_TypeDefinitionIndex = 67641;
+
 	template <typename T>
 	class FIHMMMCPAOI___c__DisplayClass4_1 : public ::System::Object
 	{

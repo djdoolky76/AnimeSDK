@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PauseTimeRewindTarget_TypeDefinitionIndex = 20659;
+
 	class PauseTimeRewindTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:

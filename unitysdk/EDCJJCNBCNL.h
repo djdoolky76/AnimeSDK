@@ -7,6 +7,8 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 
 #define EDCJJCNBCNL_CTOR_OFFSET UNITYSDK_OFFSET(0x1330F850)
 
+inline static constexpr unsigned int EDCJJCNBCNL_TypeDefinitionIndex = 48519;
+
 	class EDCJJCNBCNL : public ::System::Object
 	{
 	public:

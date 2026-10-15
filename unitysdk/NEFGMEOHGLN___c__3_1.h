@@ -6,6 +6,8 @@ namespace RPG::Client { class LocalizedText; }
 namespace System { class Action; }
 namespace System { class Object; }
 
+inline static constexpr unsigned int NEFGMEOHGLN___c__3_1_TypeDefinitionIndex = 49948;
+
 	template <typename T>
 	class NEFGMEOHGLN___c__3_1 : public ::System::Object
 	{

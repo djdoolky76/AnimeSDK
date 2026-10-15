@@ -31,6 +31,8 @@ namespace System { class String; }
 #define KPMOCBIIMHH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8C0700)
 #define KPMOCBIIMHH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8C0760)
 
+inline static constexpr unsigned int KPMOCBIIMHH_TypeDefinitionIndex = 29296;
+
 	class KPMOCBIIMHH : public ::System::Object
 	{
 	public:

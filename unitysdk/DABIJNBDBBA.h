@@ -35,6 +35,8 @@ namespace System { class String; }
 #define DABIJNBDBBA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E14A2C0)
 #define DABIJNBDBBA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E14A320)
 
+inline static constexpr unsigned int DABIJNBDBBA_TypeDefinitionIndex = 27974;
+
 	class DABIJNBDBBA : public ::System::Object
 	{
 	public:

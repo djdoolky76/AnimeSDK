@@ -14,6 +14,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 #define GCLADELKDJN__INIT_B__0_0_OFFSET UNITYSDK_OFFSET(0x15983400)
 #define GCLADELKDJN__INIT_B__0_1_OFFSET UNITYSDK_OFFSET(0x15983420)
 
+inline static constexpr unsigned int GCLADELKDJN_TypeDefinitionIndex = 49334;
+
 	class GCLADELKDJN : public ::KHAKCLAJLOB
 	{
 	public:

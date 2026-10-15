@@ -32,6 +32,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace Sofa
 {
+	inline static constexpr unsigned int BaseSofaControl_TypeDefinitionIndex = 49681;
+
 	class BaseSofaControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

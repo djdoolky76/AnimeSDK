@@ -4,6 +4,8 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+inline static constexpr unsigned int DBHHLOMCPDO_TypeDefinitionIndex = 43602;
+
 	struct alignas(4) DBHHLOMCPDO
 	{
 		::System::UInt32 ELIKBBICPDP; // 0x10

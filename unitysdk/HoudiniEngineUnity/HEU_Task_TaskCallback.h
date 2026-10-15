@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_Task_TaskCallback_TypeDefinitionIndex = 40602;
+
 	class HEU_Task_TaskCallback : public ::System::MulticastDelegate
 	{
 	public:

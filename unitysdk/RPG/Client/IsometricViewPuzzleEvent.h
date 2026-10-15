@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int IsometricViewPuzzleEvent_TypeDefinitionIndex = 60155;
+
 	enum class IsometricViewPuzzleEvent : ::System::UInt32
 	{
 		EnterAttachRegion = 0,

@@ -13,6 +13,8 @@ namespace System::ComponentModel { class RefreshEventArgs; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int RefreshEventHandler_TypeDefinitionIndex = 2624;
+
 	class RefreshEventHandler : public ::System::MulticastDelegate
 	{
 	public:

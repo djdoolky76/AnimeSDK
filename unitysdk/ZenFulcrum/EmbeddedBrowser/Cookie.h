@@ -20,6 +20,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class CookieManager; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int Cookie_TypeDefinitionIndex = 39487;
+
 	class Cookie : public ::System::Object
 	{
 	public:

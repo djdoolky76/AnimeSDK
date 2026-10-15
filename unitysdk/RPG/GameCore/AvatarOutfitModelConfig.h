@@ -11,6 +11,8 @@ namespace RPG::GameCore { class AvatarOutfitPartConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarOutfitModelConfig_TypeDefinitionIndex = 16588;
+
 	class AvatarOutfitModelConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

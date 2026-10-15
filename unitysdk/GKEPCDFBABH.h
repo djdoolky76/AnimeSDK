@@ -4,6 +4,8 @@
 
 #define GKEPCDFBABH_CTOR_OFFSET UNITYSDK_OFFSET(0x15A962E0)
 
+inline static constexpr unsigned int GKEPCDFBABH_TypeDefinitionIndex = 80499;
+
 	class GKEPCDFBABH : public ::System::Object
 	{
 	public:

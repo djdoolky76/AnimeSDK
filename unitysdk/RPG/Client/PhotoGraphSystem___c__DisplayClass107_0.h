@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhotoGraphSystem___c__DisplayClass107_0_TypeDefinitionIndex = 60919;
+
 	class PhotoGraphSystem___c__DisplayClass107_0 : public ::System::Object
 	{
 	public:

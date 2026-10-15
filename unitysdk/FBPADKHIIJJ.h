@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FBPADKHIIJJ_PFCNAKKHFOA_OFFSET UNITYSDK_OFFSET(0x156AC9C0)
 #define FBPADKHIIJJ___TRYEXITEQUIPGOTDIALOG_B__7_0_OFFSET UNITYSDK_OFFSET(0x156AD9E0)
 
+inline static constexpr unsigned int FBPADKHIIJJ_TypeDefinitionIndex = 75233;
+
 	class FBPADKHIIJJ : public ::System::Object
 	{
 	public:

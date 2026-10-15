@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define IICMODPGIAK_CREATETRAITS_OFFSET UNITYSDK_OFFSET(0x16437DC0)
 #define IICMODPGIAK_CTOR_OFFSET UNITYSDK_OFFSET(0x16437E60)
 
+inline static constexpr unsigned int IICMODPGIAK_TypeDefinitionIndex = 65114;
+
 	class IICMODPGIAK : public ::RPG::Client::GridFightRole_GridFightRoleBuilder
 	{
 	public:

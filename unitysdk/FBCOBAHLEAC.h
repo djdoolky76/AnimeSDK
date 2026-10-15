@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FBCOBAHLEAC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CDCA240)
 #define FBCOBAHLEAC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CDC9BA0)
 
+inline static constexpr unsigned int FBCOBAHLEAC_TypeDefinitionIndex = 13580;
+
 	class FBCOBAHLEAC : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@
 #define MHNGEOGEIIN_HJKIEKODDAL_3_OFFSET UNITYSDK_OFFSET(0xB947A30)
 #define MHNGEOGEIIN_HJKIEKODDAL_OFFSET UNITYSDK_OFFSET(0xB947940)
 
+inline static constexpr unsigned int MHNGEOGEIIN_TypeDefinitionIndex = 69957;
+
 	class MHNGEOGEIIN : public ::System::Object
 	{
 	public:

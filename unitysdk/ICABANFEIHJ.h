@@ -31,6 +31,8 @@ namespace System { class String; }
 #define ICABANFEIHJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E61D340)
 #define ICABANFEIHJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E61D3A0)
 
+inline static constexpr unsigned int ICABANFEIHJ_TypeDefinitionIndex = 28015;
+
 	class ICABANFEIHJ : public ::System::Object
 	{
 	public:

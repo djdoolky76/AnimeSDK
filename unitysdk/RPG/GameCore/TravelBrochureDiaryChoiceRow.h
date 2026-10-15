@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TravelBrochureDiaryChoiceRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TravelBrochureDiaryChoiceRow_TypeDefinitionIndex = 15373;
+
 	class TravelBrochureDiaryChoiceRow : public ::System::Object
 	{
 	public:

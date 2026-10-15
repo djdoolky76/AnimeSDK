@@ -11,6 +11,8 @@ namespace System { class String; }
 #define PPLOLCMFFPB___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC38E420)
 #define PPLOLCMFFPB___C__DISPLAYCLASS7_0__CREATEPROP_B__0_OFFSET UNITYSDK_OFFSET(0xC391750)
 
+inline static constexpr unsigned int PPLOLCMFFPB___c__DisplayClass7_0_TypeDefinitionIndex = 60769;
+
 	class PPLOLCMFFPB___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

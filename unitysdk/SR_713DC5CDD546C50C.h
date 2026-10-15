@@ -9,6 +9,8 @@ namespace System { class String; }
 #define SR_713DC5CDD546C50C_FORMAT_OFFSET UNITYSDK_OFFSET(0x1ED882B0)
 #define SR_713DC5CDD546C50C_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1ED882A0)
 
+inline static constexpr unsigned int SR_713DC5CDD546C50C_TypeDefinitionIndex = 3094;
+
 	class SR_713DC5CDD546C50C : public ::System::Object
 	{
 	public:

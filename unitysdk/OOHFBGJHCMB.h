@@ -85,6 +85,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OOHFBGJHCMB__SAVENORMALLINEUPS_B__31_0_OFFSET UNITYSDK_OFFSET(0xBF83EB0)
 #define OOHFBGJHCMB___HANDLESHOWENTRANCE_B__41_0_OFFSET UNITYSDK_OFFSET(0xBF83F30)
 
+inline static constexpr unsigned int OOHFBGJHCMB_TypeDefinitionIndex = 63162;
+
 	class OOHFBGJHCMB : public ::System::Object
 	{
 	public:

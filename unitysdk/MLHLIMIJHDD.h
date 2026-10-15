@@ -33,6 +33,8 @@ namespace System { class String; }
 #define MLHLIMIJHDD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA81860)
 #define MLHLIMIJHDD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA818C0)
 
+inline static constexpr unsigned int MLHLIMIJHDD_TypeDefinitionIndex = 30598;
+
 	class MLHLIMIJHDD : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine::Formats::Alembic::Util { class AlembicRecorder; }
 
 namespace UnityEngine::Formats::Alembic::Util
 {
+	inline static constexpr unsigned int AlembicRecorder_RootCapturer_TypeDefinitionIndex = 45769;
+
 	class AlembicRecorder_RootCapturer : public ::UnityEngine::Formats::Alembic::Util::ComponentCapturer
 	{
 	public:

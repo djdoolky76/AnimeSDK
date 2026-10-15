@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class SetEmojiReplyPatternAction; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int SetEmojiReplyPatternAction_TypeDefinitionIndex = 24910;
+
 	class SetEmojiReplyPatternAction : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:

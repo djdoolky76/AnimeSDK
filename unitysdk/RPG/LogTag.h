@@ -3,6 +3,8 @@
 
 namespace RPG
 {
+	inline static constexpr unsigned int LogTag_TypeDefinitionIndex = 6406;
+
 	enum class LogTag : ::System::Int32
 	{
 		Default = 0,

@@ -12,6 +12,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoPhotoGraphAimInfo_TypeDefinitionIndex = 68615;
+
 	class MonoPhotoGraphAimInfo : public ::UnityEngine::MonoBehaviour
 	{
 	public:

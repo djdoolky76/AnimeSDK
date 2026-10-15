@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamGetCurGlobalHpConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamGetCurGlobalHpConfig_TypeDefinitionIndex = 19535;
+
 	class GridFightParamGetCurGlobalHpConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

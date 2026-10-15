@@ -32,6 +32,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define JCPBMNHPPJF_NLDKGLOLJIN_OFFSET UNITYSDK_OFFSET(0x1DD65B20)
 #define JCPBMNHPPJF_PNEJCPDCCFA_OFFSET UNITYSDK_OFFSET(0x1DD65AF0)
 
+inline static constexpr unsigned int JCPBMNHPPJF_TypeDefinitionIndex = 6257;
+
 	class JCPBMNHPPJF : public ::System::Object
 	{
 	public:

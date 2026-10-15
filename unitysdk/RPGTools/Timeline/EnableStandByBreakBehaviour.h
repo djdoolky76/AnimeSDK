@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class EnableStandByBreakClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int EnableStandByBreakBehaviour_TypeDefinitionIndex = 48103;
+
 	class EnableStandByBreakBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

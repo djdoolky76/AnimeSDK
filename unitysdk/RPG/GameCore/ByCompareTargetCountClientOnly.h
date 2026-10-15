@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareTargetCountClientOnly_TypeDefinitionIndex = 23530;
+
 	class ByCompareTargetCountClientOnly : public ::RPG::GameCore::ByCompareTargetCount
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Console::OS
 {
+	inline static constexpr unsigned int AgeGateManager___c_TypeDefinitionIndex = 9057;
+
 	class AgeGateManager___c : public ::System::Object
 	{
 	public:

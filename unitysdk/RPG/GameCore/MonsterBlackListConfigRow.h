@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MonsterBlackListConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonsterBlackListConfigRow_TypeDefinitionIndex = 12899;
+
 	class MonsterBlackListConfigRow : public ::System::Object
 	{
 	public:

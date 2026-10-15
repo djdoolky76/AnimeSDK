@@ -43,6 +43,8 @@ namespace UnityEngine { class Collider; }
 #define EGFGCOMABKB_OBAKJOLJJEP_OFFSET UNITYSDK_OFFSET(0x14511CF0)
 #define EGFGCOMABKB_OIDKJGIJHOB_OFFSET UNITYSDK_OFFSET(0x1450FBD0)
 
+inline static constexpr unsigned int EGFGCOMABKB_TypeDefinitionIndex = 77030;
+
 	class EGFGCOMABKB : public ::CBIKMJHGEDE
 	{
 	public:

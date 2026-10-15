@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int InternalStringComparer_TypeDefinitionIndex = 1558;
+
 	class InternalStringComparer
 	{
 	public:

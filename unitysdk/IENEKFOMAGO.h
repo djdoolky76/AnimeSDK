@@ -10,6 +10,8 @@ namespace System { class String; }
 #define IENEKFOMAGO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEED440)
 #define IENEKFOMAGO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEED070)
 
+inline static constexpr unsigned int IENEKFOMAGO_TypeDefinitionIndex = 13912;
+
 	class IENEKFOMAGO : public ::System::Object
 	{
 	public:

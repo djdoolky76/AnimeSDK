@@ -176,6 +176,8 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Renderer_TypeDefinitionIndex = 4137;
+
 	class Renderer : public ::UnityEngine::Component
 	{
 	public:

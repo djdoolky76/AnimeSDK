@@ -13,6 +13,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define OIFLCPEKGBC___C__UNREGISTERTSCIRIRENDERERS_B__155_0_OFFSET UNITYSDK_OFFSET(0xBE8E400)
 #define OIFLCPEKGBC___C__UNREGISTERTSCIRIRENDERERS_B__155_1_OFFSET UNITYSDK_OFFSET(0xBE8E490)
 
+inline static constexpr unsigned int OIFLCPEKGBC___c_TypeDefinitionIndex = 70222;
+
 	class OIFLCPEKGBC___c : public ::System::Object
 	{
 	public:

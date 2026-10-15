@@ -18,6 +18,8 @@ namespace RPG::GameCore { class MazeDragCameraConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGCinemachinePhotoGraphSwipeCamera_TypeDefinitionIndex = 69704;
+
 	class RPGCinemachinePhotoGraphSwipeCamera : public ::Cinemachine::CinemachineExtension
 	{
 	public:

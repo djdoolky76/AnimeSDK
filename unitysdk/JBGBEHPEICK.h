@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JBGBEHPEICK_CTOR_OFFSET UNITYSDK_OFFSET(0x1656DCB0)
 #define JBGBEHPEICK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1656DD90)
 
+inline static constexpr unsigned int JBGBEHPEICK_TypeDefinitionIndex = 54904;
+
 	class JBGBEHPEICK
 	{
 	public:

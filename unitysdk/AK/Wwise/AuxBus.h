@@ -12,6 +12,8 @@ class WwiseObjectReference;
 
 namespace AK::Wwise
 {
+	inline static constexpr unsigned int AuxBus_TypeDefinitionIndex = 44976;
+
 	class AuxBus : public ::AK::Wwise::BaseType
 	{
 	public:

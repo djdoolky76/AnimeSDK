@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PunkLordInstance___c_TypeDefinitionIndex = 66752;
+
 	class PunkLordInstance___c : public ::System::Object
 	{
 	public:

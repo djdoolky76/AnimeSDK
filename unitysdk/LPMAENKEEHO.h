@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int LPMAENKEEHO_TypeDefinitionIndex = 34231;
+
 	enum class LPMAENKEEHO : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define OIGHNLFOKPE__GET_ALLREMOVEDENTITIES_D__11___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xBE908F0)
 #define OIGHNLFOKPE__GET_ALLREMOVEDENTITIES_D__11___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0xBE90900)
 
+inline static constexpr unsigned int OIGHNLFOKPE__get_AllRemovedEntities_d__11_TypeDefinitionIndex = 62140;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11>
 	class OIGHNLFOKPE__get_AllRemovedEntities_d__11 : public ::System::Object
 	{

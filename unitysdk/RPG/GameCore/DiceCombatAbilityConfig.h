@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatAbilityConfig_TypeDefinitionIndex = 16119;
+
 	class DiceCombatAbilityConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client { class PipelineCameraGlobalConfig; }
 
 #define BAMIIPGHNIH_CTOR_OFFSET UNITYSDK_OFFSET(0x15E74620)
 
+inline static constexpr unsigned int BAMIIPGHNIH_TypeDefinitionIndex = 69739;
+
 	class BAMIIPGHNIH : public ::ELALAHMNKGK
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateParamBattleSeriesWinCountConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateParamBattleSeriesWinCountConfig_TypeDefinitionIndex = 16631;
+
 	class FateParamBattleSeriesWinCountConfig : public ::RPG::GameCore::FateParameterConfigBase
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System { class String; }
 #define OEOLGJFLJDO_CTOR_OFFSET UNITYSDK_OFFSET(0xBE38CE0)
 #define OEOLGJFLJDO_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0xBE38AF0)
 
+inline static constexpr unsigned int OEOLGJFLJDO_TypeDefinitionIndex = 53790;
+
 	class OEOLGJFLJDO
 	{
 	public:

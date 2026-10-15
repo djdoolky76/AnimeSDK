@@ -6,6 +6,8 @@ class BKHHFIJCHEP;
 #define ICLJLOADDOE_CTOR_OFFSET UNITYSDK_OFFSET(0x15E52040)
 #define ICLJLOADDOE_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x15E52050)
 
+inline static constexpr unsigned int ICLJLOADDOE_TypeDefinitionIndex = 60341;
+
 	class ICLJLOADDOE : public ::EFNJLACKEDH
 	{
 	public:

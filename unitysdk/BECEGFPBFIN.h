@@ -4,6 +4,8 @@
 
 #define BECEGFPBFIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1630D490)
 
+inline static constexpr unsigned int BECEGFPBFIN_TypeDefinitionIndex = 58516;
+
 	class BECEGFPBFIN : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace SRDebugger::UI::Other
 {
+	inline static constexpr unsigned int TriggerRoot_TypeDefinitionIndex = 38018;
+
 	class TriggerRoot : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

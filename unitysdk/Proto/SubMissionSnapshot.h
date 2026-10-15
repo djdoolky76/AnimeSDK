@@ -29,6 +29,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int SubMissionSnapshot_TypeDefinitionIndex = 25836;
+
 	class SubMissionSnapshot : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class IdleLiveSpineUnlockRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveSpineUnlockRow_TypeDefinitionIndex = 11822;
+
 	class IdleLiveSpineUnlockRow : public ::System::Object
 	{
 	public:

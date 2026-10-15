@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FiveDimDanmuTrackGroup; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimDanmuTrackGroup_TypeDefinitionIndex = 18825;
+
 	class FiveDimDanmuTrackGroup : public ::RPG::GameCore::JsonConfig
 	{
 	public:

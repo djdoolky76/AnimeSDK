@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AudienceGroupInstance_FJBBJCJGFNF_TypeDefinitionIndex = 69143;
+
 	class AudienceGroupInstance_FJBBJCJGFNF : public ::System::Object
 	{
 	public:

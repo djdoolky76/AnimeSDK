@@ -19,6 +19,8 @@ namespace System::Collections { class IList; }
 #define LHBDMLAPLLP_GCFPICNDPJK_OFFSET UNITYSDK_OFFSET(0xB6A4B00)
 #define LHBDMLAPLLP_GETCONTEXT_OFFSET UNITYSDK_OFFSET(0xB6A48B0)
 
+inline static constexpr unsigned int LHBDMLAPLLP_TypeDefinitionIndex = 73371;
+
 	class LHBDMLAPLLP : public ::System::Object
 	{
 	public:

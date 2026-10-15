@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DOIBLFFDHDG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2016A0)
 #define DOIBLFFDHDG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E2016B0)
 
+inline static constexpr unsigned int DOIBLFFDHDG___c_TypeDefinitionIndex = 28526;
+
 	class DOIBLFFDHDG___c : public ::System::Object
 	{
 	public:

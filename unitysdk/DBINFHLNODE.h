@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DBINFHLNODE_PCGCDDDBMFE_OFFSET UNITYSDK_OFFSET(0x1C5DBF70)
 #define DBINFHLNODE_SET_CONDITIONRESULT_OFFSET UNITYSDK_OFFSET(0x1C5DB970)
 
+inline static constexpr unsigned int DBINFHLNODE_TypeDefinitionIndex = 36225;
+
 	class DBINFHLNODE : public ::EGDGOMKKEJI
 	{
 	public:

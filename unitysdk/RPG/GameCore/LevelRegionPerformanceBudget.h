@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LevelRegionPerformanceBudget; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelRegionPerformanceBudget_TypeDefinitionIndex = 17390;
+
 	class LevelRegionPerformanceBudget : public ::RPG::GameCore::JsonConfig
 	{
 	public:

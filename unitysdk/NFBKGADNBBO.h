@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 #define NFBKGADNBBO_FLHHOEAHFPB_OFFSET UNITYSDK_OFFSET(0xBB77EE0)
 #define NFBKGADNBBO_JBEIIFLCADG_OFFSET UNITYSDK_OFFSET(0xBB77FF0)
 
+inline static constexpr unsigned int NFBKGADNBBO_TypeDefinitionIndex = 57668;
+
 	class NFBKGADNBBO : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlanetFesBigInt; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesBigInt_TypeDefinitionIndex = 12179;
+
 	class PlanetFesBigInt : public ::System::Object
 	{
 	public:

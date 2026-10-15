@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int PlayerPrefs_TypeDefinitionIndex = 4236;
+
 	class PlayerPrefs : public ::System::Object
 	{
 	public:

@@ -49,6 +49,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DBBPHCIBIBI_PHFBEDDKDFC_OFFSET UNITYSDK_OFFSET(0x1C5D9750)
 #define DBBPHCIBIBI_SET_CURABILITY_OFFSET UNITYSDK_OFFSET(0x1C5DB240)
 
+inline static constexpr unsigned int DBBPHCIBIBI_TypeDefinitionIndex = 37282;
+
 	class DBBPHCIBIBI : public ::System::Object
 	{
 	public:

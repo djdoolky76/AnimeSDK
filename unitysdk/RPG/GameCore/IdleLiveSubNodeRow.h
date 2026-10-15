@@ -9,6 +9,8 @@ namespace RPG::GameCore { class IdleLiveSubNodeRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveSubNodeRow_TypeDefinitionIndex = 11699;
+
 	class IdleLiveSubNodeRow : public ::System::Object
 	{
 	public:

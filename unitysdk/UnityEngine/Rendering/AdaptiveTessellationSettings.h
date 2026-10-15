@@ -4,6 +4,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int AdaptiveTessellationSettings_TypeDefinitionIndex = 4865;
+
 	struct alignas(4) AdaptiveTessellationSettings
 	{
 		::System::Boolean ForceDisable; // 0x10

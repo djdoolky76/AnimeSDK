@@ -4,6 +4,8 @@
 #define KKKCDPNCOGK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16190)
 #define KKKCDPNCOGK_EXECUTE_OFFSET UNITYSDK_OFFSET(0x16180)
 
+inline static constexpr unsigned int KKKCDPNCOGK_TypeDefinitionIndex = 71087;
+
 	struct alignas(4) KKKCDPNCOGK
 	{
 		::System::UInt32 CEGNBNFCJPP; // 0x10

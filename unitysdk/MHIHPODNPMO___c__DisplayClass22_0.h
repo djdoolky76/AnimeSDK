@@ -6,6 +6,8 @@ class HIECHPAKPFL;
 #define MHIHPODNPMO___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB940CE0)
 #define MHIHPODNPMO___C__DISPLAYCLASS22_0___TRYSTARTFINISHCURVEAFTERREVERT_B__0_OFFSET UNITYSDK_OFFSET(0xB943390)
 
+inline static constexpr unsigned int MHIHPODNPMO___c__DisplayClass22_0_TypeDefinitionIndex = 76780;
+
 	class MHIHPODNPMO___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:

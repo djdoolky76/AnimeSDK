@@ -38,6 +38,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define DGACHEOMECA_PJEOGDGLGMB_OFFSET UNITYSDK_OFFSET(0xE83C3D0)
 #define DGACHEOMECA_TOSTRING_OFFSET UNITYSDK_OFFSET(0xE83DC90)
 
+inline static constexpr unsigned int DGACHEOMECA_TypeDefinitionIndex = 59449;
+
 	class DGACHEOMECA : public ::System::Object
 	{
 	public:

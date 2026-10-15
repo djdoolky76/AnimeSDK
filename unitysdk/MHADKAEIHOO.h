@@ -17,6 +17,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define MHADKAEIHOO_OHAEPJEEAAH_OFFSET UNITYSDK_OFFSET(0xB92EF70)
 #define MHADKAEIHOO_ONMKPFKIAOD_OFFSET UNITYSDK_OFFSET(0xB92F180)
 
+inline static constexpr unsigned int MHADKAEIHOO_TypeDefinitionIndex = 78509;
+
 	class MHADKAEIHOO : public ::System::Object
 	{
 	public:

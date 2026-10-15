@@ -6,6 +6,8 @@ namespace RPG::Client { class MonoExUICamera; }
 #define COIEHCGMKEH_CTOR_OFFSET UNITYSDK_OFFSET(0xDCB7E50)
 #define COIEHCGMKEH_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xDCB7E60)
 
+inline static constexpr unsigned int COIEHCGMKEH_TypeDefinitionIndex = 72966;
+
 	class COIEHCGMKEH : public ::GNGPLDGOEAI
 	{
 	public:

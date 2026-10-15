@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int GroupByAwait_4_TypeDefinitionIndex = 45381;
+
 	template <typename T1, typename T2, typename T3, typename T4>
 	class GroupByAwait_4 : public ::System::Object
 	{

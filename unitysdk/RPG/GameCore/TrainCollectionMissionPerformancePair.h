@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainCollectionMissionPerformancePair; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainCollectionMissionPerformancePair_TypeDefinitionIndex = 21038;
+
 	class TrainCollectionMissionPerformancePair : public ::RPG::GameCore::JsonConfig
 	{
 	public:

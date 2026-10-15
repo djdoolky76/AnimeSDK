@@ -11,6 +11,8 @@ namespace RPG::GameCore { class EntityAnimStateChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntityAnimStateChange_TypeDefinitionIndex = 56679;
+
 	class EntityAnimStateChange : public ::CMPGEAFHHDC
 	{
 	public:

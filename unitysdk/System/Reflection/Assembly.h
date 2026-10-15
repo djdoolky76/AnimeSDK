@@ -83,6 +83,8 @@ namespace System::Security::Policy { class Evidence; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int Assembly_TypeDefinitionIndex = 594;
+
 	class Assembly : public ::System::Object
 	{
 	public:

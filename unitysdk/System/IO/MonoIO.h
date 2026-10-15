@@ -75,6 +75,8 @@ namespace System::Runtime::InteropServices { class SafeHandle; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int MonoIO_TypeDefinitionIndex = 722;
+
 	class MonoIO : public ::System::Object
 	{
 	public:

@@ -68,6 +68,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KLDACPIHCCN_PMANDBLKLED_OFFSET UNITYSDK_OFFSET(0xB4EA4D0)
 #define KLDACPIHCCN___ONLIGHTCHARACTERCREATE_G___CONCATBUILDDATA_27_0_OFFSET UNITYSDK_OFFSET(0xB4E87A0)
 
+inline static constexpr unsigned int KLDACPIHCCN_TypeDefinitionIndex = 56207;
+
 	class KLDACPIHCCN : public ::System::Object
 	{
 	public:

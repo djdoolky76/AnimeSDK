@@ -45,6 +45,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPGTools::LDWhiteBox
 {
+	inline static constexpr unsigned int WhiteBoxPath_TypeDefinitionIndex = 48955;
+
 	class WhiteBoxPath : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -29,6 +29,8 @@ namespace UnityEngine { class Collider; }
 #define KPAAMDOGJFN_PFFPFGNPDPI_OFFSET UNITYSDK_OFFSET(0xB5A5990)
 #define KPAAMDOGJFN_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB5A5620)
 
+inline static constexpr unsigned int KPAAMDOGJFN_TypeDefinitionIndex = 77133;
+
 	class KPAAMDOGJFN : public ::System::Object
 	{
 	public:

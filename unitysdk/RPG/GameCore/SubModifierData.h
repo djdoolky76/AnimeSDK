@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SubModifierData_TypeDefinitionIndex = 18234;
+
 	class SubModifierData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

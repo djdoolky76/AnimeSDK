@@ -11,6 +11,8 @@ namespace RPG::Client { class RoadRashGameAbilityValueModifer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoadRashGameAbilityValueModifer_TypeDefinitionIndex = 10299;
+
 	class RoadRashGameAbilityValueModifer : public ::RPG::GameCore::JsonConfig
 	{
 	public:

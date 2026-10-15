@@ -16,6 +16,8 @@ namespace System::Collections::Immutable { template <typename T> class IImmutabl
 #define NLOGOPPGNMD_INJBFMJGGMN_OFFSET UNITYSDK_OFFSET(0x1C574520)
 #define NLOGOPPGNMD_REMOVE_ONONLYORDERINGCHANGED_OFFSET UNITYSDK_OFFSET(0x1C573C90)
 
+inline static constexpr unsigned int NLOGOPPGNMD_TypeDefinitionIndex = 41814;
+
 	class NLOGOPPGNMD : public ::System::Object
 	{
 	public:

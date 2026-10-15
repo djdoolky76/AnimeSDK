@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NEMAKFJPGDF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAFA030)
 #define NEMAKFJPGDF___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1EAFA040)
 
+inline static constexpr unsigned int NEMAKFJPGDF___c_TypeDefinitionIndex = 29542;
+
 	class NEMAKFJPGDF___c : public ::System::Object
 	{
 	public:

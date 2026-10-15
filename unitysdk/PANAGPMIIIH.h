@@ -28,6 +28,8 @@ namespace System { class String; }
 #define PANAGPMIIIH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEF1540)
 #define PANAGPMIIIH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEF15A0)
 
+inline static constexpr unsigned int PANAGPMIIIH_TypeDefinitionIndex = 28329;
+
 	class PANAGPMIIIH : public ::System::Object
 	{
 	public:

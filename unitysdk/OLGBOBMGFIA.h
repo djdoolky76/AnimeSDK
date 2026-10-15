@@ -11,6 +11,8 @@ namespace System { class String; }
 #define OLGBOBMGFIA_IKMEMLEJMBL_OFFSET UNITYSDK_OFFSET(0xBF087B0)
 #define OLGBOBMGFIA_KBPKENJMPKC_OFFSET UNITYSDK_OFFSET(0xBF08BC0)
 
+inline static constexpr unsigned int OLGBOBMGFIA_TypeDefinitionIndex = 74040;
+
 	class OLGBOBMGFIA : public ::System::Object
 	{
 	public:

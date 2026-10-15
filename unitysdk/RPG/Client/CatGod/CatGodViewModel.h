@@ -12,6 +12,8 @@ namespace Sofa::Core { class SimpleCommand; }
 
 namespace RPG::Client::CatGod
 {
+	inline static constexpr unsigned int CatGodViewModel_TypeDefinitionIndex = 81656;
+
 	class CatGodViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

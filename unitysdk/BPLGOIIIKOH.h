@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BPLGOIIIKOH_UPDATEADDITEM_OFFSET UNITYSDK_OFFSET(0xC1AA390)
 #define BPLGOIIIKOH_UPDATESTART_OFFSET UNITYSDK_OFFSET(0xC1A9A30)
 
+inline static constexpr unsigned int BPLGOIIIKOH_TypeDefinitionIndex = 64956;
+
 	class BPLGOIIIKOH : public ::AMCOEFHHBPO
 	{
 	public:

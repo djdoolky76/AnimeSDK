@@ -4,6 +4,8 @@
 
 #define COPKPNCABFO_MHIHPIPGOIL_CTOR_OFFSET UNITYSDK_OFFSET(0xDCCAAA0)
 
+inline static constexpr unsigned int COPKPNCABFO_MHIHPIPGOIL_TypeDefinitionIndex = 51757;
+
 	class COPKPNCABFO_MHIHPIPGOIL : public ::System::Object
 	{
 	public:

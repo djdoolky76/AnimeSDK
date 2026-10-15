@@ -5,6 +5,8 @@ class ECNEEKNHIOE;
 
 #define PNLFOGCNENP_CTOR_OFFSET UNITYSDK_OFFSET(0xC34D5F0)
 
+inline static constexpr unsigned int PNLFOGCNENP_TypeDefinitionIndex = 80567;
+
 	class PNLFOGCNENP : public ::System::Object
 	{
 	public:

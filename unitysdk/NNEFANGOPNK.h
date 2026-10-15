@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define NNEFANGOPNK_NIFEPGPLKLD_OFFSET UNITYSDK_OFFSET(0x1DD825B0)
 #define NNEFANGOPNK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C4D540)
 
+inline static constexpr unsigned int NNEFANGOPNK_TypeDefinitionIndex = 6289;
+
 	struct alignas(4) NNEFANGOPNK
 	{
 		::RPG::MVector3 EFNAJMADAHM; // 0x10

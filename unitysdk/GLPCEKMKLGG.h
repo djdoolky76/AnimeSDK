@@ -28,6 +28,8 @@ namespace System { class String; }
 #define GLPCEKMKLGG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4C7F20)
 #define GLPCEKMKLGG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4C7F80)
 
+inline static constexpr unsigned int GLPCEKMKLGG_TypeDefinitionIndex = 29368;
+
 	class GLPCEKMKLGG : public ::System::Object
 	{
 	public:

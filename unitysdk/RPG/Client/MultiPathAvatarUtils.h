@@ -16,6 +16,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MultiPathAvatarUtils_TypeDefinitionIndex = 66306;
+
 	class MultiPathAvatarUtils : public ::System::Object
 	{
 	public:

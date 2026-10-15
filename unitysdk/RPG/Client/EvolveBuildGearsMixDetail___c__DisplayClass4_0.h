@@ -9,6 +9,8 @@ namespace RPG::Client { class EvolveBuildTypeGearsDetail; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EvolveBuildGearsMixDetail___c__DisplayClass4_0_TypeDefinitionIndex = 63780;
+
 	class EvolveBuildGearsMixDetail___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

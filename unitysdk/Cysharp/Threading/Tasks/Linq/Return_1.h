@@ -4,6 +4,8 @@
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Return_1_TypeDefinitionIndex = 45546;
+
 	template <typename T>
 	class Return_1 : public ::System::Object
 	{

@@ -32,6 +32,8 @@ namespace System { class String; }
 #define KJIGKPHPELI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E86D580)
 #define KJIGKPHPELI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E86D5E0)
 
+inline static constexpr unsigned int KJIGKPHPELI_TypeDefinitionIndex = 34568;
+
 	class KJIGKPHPELI : public ::System::Object
 	{
 	public:

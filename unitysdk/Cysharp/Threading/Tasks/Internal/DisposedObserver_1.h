@@ -5,6 +5,8 @@ namespace Cysharp::Threading::Tasks::Internal { template <typename T> class Disp
 
 namespace Cysharp::Threading::Tasks::Internal
 {
+	inline static constexpr unsigned int DisposedObserver_1_TypeDefinitionIndex = 38700;
+
 	template <typename T>
 	class DisposedObserver_1 : public ::System::Object
 	{

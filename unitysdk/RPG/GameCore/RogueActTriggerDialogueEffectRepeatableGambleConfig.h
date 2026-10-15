@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActTriggerDialogueEffectRepeatableGambleCon
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActTriggerDialogueEffectRepeatableGambleConfig_TypeDefinitionIndex = 19635;
+
 	class RogueActTriggerDialogueEffectRepeatableGambleConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

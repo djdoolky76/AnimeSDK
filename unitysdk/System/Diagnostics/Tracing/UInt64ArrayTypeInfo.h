@@ -12,6 +12,8 @@ namespace System::Diagnostics::Tracing { class TraceLoggingMetadataCollector; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int UInt64ArrayTypeInfo_TypeDefinitionIndex = 1636;
+
 	class UInt64ArrayTypeInfo
 	{
 	public:

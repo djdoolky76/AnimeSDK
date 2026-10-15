@@ -14,6 +14,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define JFACIDBLAAO_KCKGCBPHGBD_1_OFFSET UNITYSDK_OFFSET(0x1CB901D0)
 #define JFACIDBLAAO_KCKGCBPHGBD_OFFSET UNITYSDK_OFFSET(0x1CB90140)
 
+inline static constexpr unsigned int JFACIDBLAAO_TypeDefinitionIndex = 42604;
+
 	class JFACIDBLAAO : public ::System::Object
 	{
 	public:

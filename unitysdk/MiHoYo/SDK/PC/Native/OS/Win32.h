@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::Native::OS
 {
+	inline static constexpr unsigned int Win32_TypeDefinitionIndex = 8477;
+
 	class Win32 : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 #define DEJOLMFCPPH_COMPARE_OFFSET UNITYSDK_OFFSET(0xE511210)
 #define DEJOLMFCPPH_CTOR_OFFSET UNITYSDK_OFFSET(0xE511720)
 
+inline static constexpr unsigned int DEJOLMFCPPH_TypeDefinitionIndex = 66570;
+
 	class DEJOLMFCPPH : public ::System::Object
 	{
 	public:

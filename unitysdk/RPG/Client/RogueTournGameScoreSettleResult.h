@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournGameScoreSettleResult_TypeDefinitionIndex = 67844;
+
 	class RogueTournGameScoreSettleResult : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HJELNANIFIE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5A7050)
 #define HJELNANIFIE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E5A7060)
 
+inline static constexpr unsigned int HJELNANIFIE___c_TypeDefinitionIndex = 31486;
+
 	class HJELNANIFIE___c : public ::System::Object
 	{
 	public:

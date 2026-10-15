@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Position_TypeDefinitionIndex = 2066;
+
 	struct alignas(8) Position
 	{
 		::System::Int32 symbol; // 0x10

@@ -10,6 +10,8 @@ namespace RPG::Client::BlindBox::Pool { class IPoolContentEntry; }
 
 namespace RPG::Client::BlindBox::Pool::Ui
 {
+	inline static constexpr unsigned int BlindBoxPoolPages_TypeDefinitionIndex = 74963;
+
 	class BlindBoxPoolPages : public ::System::Object
 	{
 	public:

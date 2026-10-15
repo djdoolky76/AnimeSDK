@@ -7,6 +7,8 @@ class HKAJMEMCBLC;
 #define MODJFJKGCFB___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBA28730)
 #define MODJFJKGCFB___C__DISPLAYCLASS6_0__GETACQUIREDBYOWNERTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xBA298A0)
 
+inline static constexpr unsigned int MODJFJKGCFB___c__DisplayClass6_0_TypeDefinitionIndex = 81095;
+
 	class MODJFJKGCFB___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ class BKFDFLNHKIF;
 #define HDFACBNJGPM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C900)
 #define HDFACBNJGPM_JACCIPIIGNO_OFFSET UNITYSDK_OFFSET(0x3C2A210)
 
+inline static constexpr unsigned int HDFACBNJGPM_TypeDefinitionIndex = 36947;
+
 	struct alignas(8) HDFACBNJGPM
 	{
 		::System::UInt64 ONIGBGONALF; // 0x10

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define GFJPHEFGAHJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x159FB060)
 #define GFJPHEFGAHJ__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0x159FAF50)
 
+inline static constexpr unsigned int GFJPHEFGAHJ_TypeDefinitionIndex = 59871;
+
 	class GFJPHEFGAHJ : public ::RPG::Client::SyncCheckItemBase
 	{
 	public:

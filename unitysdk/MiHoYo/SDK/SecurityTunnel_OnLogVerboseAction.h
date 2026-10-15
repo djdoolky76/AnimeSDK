@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_OnLogVerboseAction_TypeDefinitionIndex = 46402;
+
 	class SecurityTunnel_OnLogVerboseAction : public ::System::MulticastDelegate
 	{
 	public:

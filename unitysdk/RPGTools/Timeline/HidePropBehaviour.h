@@ -13,6 +13,8 @@ namespace RPG::GameCore { class PropComponent; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int HidePropBehaviour_TypeDefinitionIndex = 48137;
+
 	class HidePropBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

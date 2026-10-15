@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PoolPropertyScriptableObject_TypeDefinitionIndex = 72625;
+
 	class PoolPropertyScriptableObject : public ::UnityEngine::ScriptableObject
 	{
 	public:

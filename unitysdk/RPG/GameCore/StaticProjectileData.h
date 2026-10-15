@@ -10,6 +10,8 @@ namespace RPG::GameCore { class StaticProjectileData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StaticProjectileData_TypeDefinitionIndex = 15660;
+
 	class StaticProjectileData : public ::RPG::GameCore::NewProjectileConfig
 	{
 	public:

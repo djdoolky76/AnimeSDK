@@ -4,6 +4,8 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class AnimationCurve; }
 
+inline static constexpr unsigned int NGHKLMAIFFB_TypeDefinitionIndex = 68494;
+
 	struct alignas(8) NGHKLMAIFFB
 	{
 		::UnityEngine::Quaternion MDDMGKBIEBG; // 0x10

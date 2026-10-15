@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int PluginUIControlService___c_TypeDefinitionIndex = 9146;
+
 	class PluginUIControlService___c : public ::System::Object
 	{
 	public:

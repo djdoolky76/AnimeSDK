@@ -14,6 +14,8 @@ namespace System::Linq::Expressions { class Expression; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int BlockExpressionList__GetEnumerator_d__18_TypeDefinitionIndex = 3204;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18>
 	class BlockExpressionList__GetEnumerator_d__18 : public ::System::Object
 	{

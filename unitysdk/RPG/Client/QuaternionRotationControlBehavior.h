@@ -17,6 +17,8 @@ namespace RPG::Client { class QuaternionRotationControlMonoPlugin; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int QuaternionRotationControlBehavior_TypeDefinitionIndex = 70755;
+
 	class QuaternionRotationControlBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

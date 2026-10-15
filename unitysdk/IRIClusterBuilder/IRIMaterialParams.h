@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace IRIClusterBuilder
 {
+	inline static constexpr unsigned int IRIMaterialParams_TypeDefinitionIndex = 47744;
+
 	class IRIMaterialParams : public ::UnityEngine::ScriptableObject
 	{
 	public:

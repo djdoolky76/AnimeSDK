@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int HamaBlackForceWindowsUnityProfile_TypeDefinitionIndex = 41070;
+
 	class HamaBlackForceWindowsUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

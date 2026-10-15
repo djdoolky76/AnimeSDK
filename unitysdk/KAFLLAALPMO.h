@@ -5,6 +5,8 @@
 
 #define KAFLLAALPMO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA8810)
 
+inline static constexpr unsigned int KAFLLAALPMO_TypeDefinitionIndex = 42106;
+
 	class KAFLLAALPMO : public ::System::Object
 	{
 	public:

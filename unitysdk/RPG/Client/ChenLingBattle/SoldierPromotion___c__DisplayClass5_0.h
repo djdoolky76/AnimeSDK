@@ -11,6 +11,8 @@ namespace RPG::Client::ChenLingBattle { class Condition; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int SoldierPromotion___c__DisplayClass5_0_TypeDefinitionIndex = 76375;
+
 	class SoldierPromotion___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

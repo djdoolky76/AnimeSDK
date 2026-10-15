@@ -16,6 +16,8 @@ namespace RPG::GameCore { class OnEventCallBack; }
 #define DCGAGALPCLP_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0xE242F00)
 #define DCGAGALPCLP_OBIEBFBMNOC_OFFSET UNITYSDK_OFFSET(0xE242A90)
 
+inline static constexpr unsigned int DCGAGALPCLP_TypeDefinitionIndex = 53962;
+
 	class DCGAGALPCLP : public ::ENAAOFHBDIB
 	{
 	public:

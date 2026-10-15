@@ -9,6 +9,8 @@ class CICNAOMJPGD;
 #define EEIMEKECPFN_CCTOR_OFFSET UNITYSDK_OFFSET(0x13A2F230)
 #define EEIMEKECPFN_CTOR_OFFSET UNITYSDK_OFFSET(0x13A2F220)
 
+inline static constexpr unsigned int EEIMEKECPFN_TypeDefinitionIndex = 60461;
+
 	class EEIMEKECPFN : public ::System::Object
 	{
 	public:

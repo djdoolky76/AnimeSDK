@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int PayErrorHandler___c__DisplayClass17_0_TypeDefinitionIndex = 8721;
+
 	class PayErrorHandler___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define HKOAOCKBBJA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5B7970)
 #define HKOAOCKBBJA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5B79D0)
 
+inline static constexpr unsigned int HKOAOCKBBJA_TypeDefinitionIndex = 29718;
+
 	class HKOAOCKBBJA : public ::System::Object
 	{
 	public:

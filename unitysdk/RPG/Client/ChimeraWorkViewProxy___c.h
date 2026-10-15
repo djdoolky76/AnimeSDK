@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraWorkViewProxy___c_TypeDefinitionIndex = 68653;
+
 	class ChimeraWorkViewProxy___c : public ::System::Object
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int JPDOEEEPCDF_StatisticPieceType_TypeDefinitionIndex = 76584;
+
 	enum class JPDOEEEPCDF_StatisticPieceType : ::System::Int32
 	{
 		Normal = 1,

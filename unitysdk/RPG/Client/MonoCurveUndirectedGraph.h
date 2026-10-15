@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoCurveUndirectedGraph_TypeDefinitionIndex = 68573;
+
 	class MonoCurveUndirectedGraph : public ::UnityEngine::MonoBehaviour
 	{
 	public:

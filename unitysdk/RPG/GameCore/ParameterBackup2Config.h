@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ParameterBackup2Config; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ParameterBackup2Config_TypeDefinitionIndex = 17066;
+
 	class ParameterBackup2Config : public ::RPG::GameCore::MiParameterConfigBase
 	{
 	public:

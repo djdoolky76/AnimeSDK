@@ -4,6 +4,8 @@
 
 #define PVSSTAGEBUDGETHANDLE_CTOR_OFFSET UNITYSDK_OFFSET(0xC39C650)
 
+inline static constexpr unsigned int PvsStageBudgetHandle_TypeDefinitionIndex = 47400;
+
 	class PvsStageBudgetHandle : public ::UnityEngine::MonoBehaviour
 	{
 	public:

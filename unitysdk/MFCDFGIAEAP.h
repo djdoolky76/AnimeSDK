@@ -3,6 +3,8 @@
 class AJJMGKHEBFH;
 class MCKLINCMDKK;
 
+inline static constexpr unsigned int MFCDFGIAEAP_TypeDefinitionIndex = 36862;
+
 	struct alignas(8) MFCDFGIAEAP
 	{
 		::MCKLINCMDKK* OJKCKGJPFDD; // 0x10

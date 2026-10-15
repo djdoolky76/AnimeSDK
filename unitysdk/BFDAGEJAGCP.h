@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BFDAGEJAGCP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D66FBD0)
 #define BFDAGEJAGCP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D66F4B0)
 
+inline static constexpr unsigned int BFDAGEJAGCP_TypeDefinitionIndex = 13683;
+
 	class BFDAGEJAGCP : public ::System::Object
 	{
 	public:

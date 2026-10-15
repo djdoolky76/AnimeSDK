@@ -45,6 +45,8 @@ namespace UnityEngine { class GameObject; }
 #define LJFHKAJPFNE_HLKNDJKCIAB_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xB712CC0)
 #define LJFHKAJPFNE_HLKNDJKCIAB_USELIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0xB713150)
 
+inline static constexpr unsigned int LJFHKAJPFNE_HLKNDJKCIAB_TypeDefinitionIndex = 73857;
+
 	class LJFHKAJPFNE_HLKNDJKCIAB : public ::System::Object
 	{
 	public:

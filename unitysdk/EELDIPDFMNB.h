@@ -21,6 +21,8 @@ namespace UnityEngine { class RectTransform; }
 #define EELDIPDFMNB_ONRETURN_OFFSET UNITYSDK_OFFSET(0x13A340E0)
 #define EELDIPDFMNB__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x13A342F0)
 
+inline static constexpr unsigned int EELDIPDFMNB_TypeDefinitionIndex = 71606;
+
 	class EELDIPDFMNB : public ::FMPCODLIOLG
 	{
 	public:

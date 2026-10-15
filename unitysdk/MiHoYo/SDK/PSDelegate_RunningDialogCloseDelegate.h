@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PSDelegate_RunningDialogCloseDelegate_TypeDefinitionIndex = 7725;
+
 	class PSDelegate_RunningDialogCloseDelegate : public ::System::MulticastDelegate
 	{
 	public:

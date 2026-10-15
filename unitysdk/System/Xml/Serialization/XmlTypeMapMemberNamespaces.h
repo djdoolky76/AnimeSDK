@@ -6,6 +6,8 @@
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlTypeMapMemberNamespaces_TypeDefinitionIndex = 2055;
+
 	class XmlTypeMapMemberNamespaces : public ::System::Xml::Serialization::XmlTypeMapMember
 	{
 	public:

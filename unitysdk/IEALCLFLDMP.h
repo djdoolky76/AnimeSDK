@@ -33,6 +33,8 @@ namespace System { class String; }
 #define IEALCLFLDMP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E633940)
 #define IEALCLFLDMP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6339A0)
 
+inline static constexpr unsigned int IEALCLFLDMP_TypeDefinitionIndex = 34385;
+
 	class IEALCLFLDMP : public ::System::Object
 	{
 	public:

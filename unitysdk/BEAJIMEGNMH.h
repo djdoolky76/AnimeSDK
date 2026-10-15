@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BEAJIMEGNMH_HIDEJDELEEB_OFFSET UNITYSDK_OFFSET(0x16309EA0)
 #define BEAJIMEGNMH_OCFGPFNMLNH_OFFSET UNITYSDK_OFFSET(0x16309EF0)
 
+inline static constexpr unsigned int BEAJIMEGNMH_TypeDefinitionIndex = 59393;
+
 	class BEAJIMEGNMH : public ::System::Object
 	{
 	public:

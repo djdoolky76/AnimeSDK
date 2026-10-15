@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LoopWaitServerGroupPropertyChangeV2; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoopWaitServerGroupPropertyChangeV2_TypeDefinitionIndex = 21184;
+
 	class LoopWaitServerGroupPropertyChangeV2 : public ::RPG::GameCore::TaskConfig
 	{
 	public:

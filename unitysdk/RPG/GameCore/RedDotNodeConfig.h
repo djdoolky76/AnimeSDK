@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RedDotNodeConfig_TypeDefinitionIndex = 17093;
+
 	class RedDotNodeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

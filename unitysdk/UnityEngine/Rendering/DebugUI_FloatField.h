@@ -7,6 +7,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DebugUI_FloatField_TypeDefinitionIndex = 35533;
+
 	class DebugUI_FloatField
 	{
 	public:

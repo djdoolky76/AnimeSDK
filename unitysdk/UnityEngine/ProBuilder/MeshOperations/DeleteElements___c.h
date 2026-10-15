@@ -12,6 +12,8 @@ namespace UnityEngine::ProBuilder { class Face; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int DeleteElements___c_TypeDefinitionIndex = 44490;
+
 	class DeleteElements___c : public ::System::Object
 	{
 	public:

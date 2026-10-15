@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetFetchNextTurnOwnerEntity_TypeDefinitionIndex = 23973;
+
 	class TargetFetchNextTurnOwnerEntity : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:

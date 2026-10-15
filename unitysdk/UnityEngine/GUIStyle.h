@@ -102,6 +102,8 @@ namespace UnityEngine { class RectOffset; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GUIStyle_TypeDefinitionIndex = 5183;
+
 	class GUIStyle : public ::System::Object
 	{
 	public:

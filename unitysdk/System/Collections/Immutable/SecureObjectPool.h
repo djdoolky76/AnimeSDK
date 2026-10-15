@@ -6,6 +6,8 @@
 
 namespace System::Collections::Immutable
 {
+	inline static constexpr unsigned int SecureObjectPool_TypeDefinitionIndex = 6664;
+
 	class SecureObjectPool : public ::System::Object
 	{
 	public:

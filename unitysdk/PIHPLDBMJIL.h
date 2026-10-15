@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PIHPLDBMJIL_HLFIGAFJGEC_OFFSET UNITYSDK_OFFSET(0x1D2F0470)
 #define PIHPLDBMJIL_LKGJFIMPCPD_OFFSET UNITYSDK_OFFSET(0x1D2E9B70)
 
+inline static constexpr unsigned int PIHPLDBMJIL_TypeDefinitionIndex = 10828;
+
 	class PIHPLDBMJIL : public ::System::Object
 	{
 	public:

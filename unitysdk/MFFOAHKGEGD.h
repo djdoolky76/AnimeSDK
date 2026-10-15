@@ -10,6 +10,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define MFFOAHKGEGD_GET_ICON_OFFSET UNITYSDK_OFFSET(0xB8F4850)
 #define MFFOAHKGEGD_GET_LACKEQUIP_OFFSET UNITYSDK_OFFSET(0xB8F4860)
 
+inline static constexpr unsigned int MFFOAHKGEGD_TypeDefinitionIndex = 81423;
+
 	class MFFOAHKGEGD : public ::System::Object
 	{
 	public:

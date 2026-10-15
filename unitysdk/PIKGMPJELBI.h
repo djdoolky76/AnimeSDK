@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PIKGMPJELBI_CTOR_OFFSET UNITYSDK_OFFSET(0xC26DB10)
 #define PIKGMPJELBI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC26DB40)
 
+inline static constexpr unsigned int PIKGMPJELBI_TypeDefinitionIndex = 54157;
+
 	class PIKGMPJELBI
 	{
 	public:

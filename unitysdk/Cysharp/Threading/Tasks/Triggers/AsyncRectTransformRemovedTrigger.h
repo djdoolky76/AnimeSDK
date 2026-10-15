@@ -13,6 +13,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnRectTransformRemov
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncRectTransformRemovedTrigger_TypeDefinitionIndex = 38587;
+
 	class AsyncRectTransformRemovedTrigger
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System { class String; }
 #define BMKBMOMBOBH_CTOR_OFFSET UNITYSDK_OFFSET(0xAF40)
 #define BMKBMOMBOBH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x23BF0)
 
+inline static constexpr unsigned int BMKBMOMBOBH_TypeDefinitionIndex = 67387;
+
 	struct alignas(4) BMKBMOMBOBH
 	{
 		::System::UInt32 BEOFPCAACEP; // 0x10

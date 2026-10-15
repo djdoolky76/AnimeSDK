@@ -6,6 +6,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int ContextBoundObject_TypeDefinitionIndex = 219;
+
 	class ContextBoundObject : public ::System::MarshalByRefObject
 	{
 	public:

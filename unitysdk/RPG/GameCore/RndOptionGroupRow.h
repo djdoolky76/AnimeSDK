@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RndOptionGroupRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RndOptionGroupRow_TypeDefinitionIndex = 14662;
+
 	class RndOptionGroupRow : public ::System::Object
 	{
 	public:

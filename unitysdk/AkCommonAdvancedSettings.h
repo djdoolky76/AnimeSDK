@@ -17,6 +17,8 @@ namespace System { class String; }
 #define AKCOMMONADVANCEDSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F572820)
 #define AKCOMMONADVANCEDSETTINGS_VALIDATE_OFFSET UNITYSDK_OFFSET(0x1F585660)
 
+inline static constexpr unsigned int AkCommonAdvancedSettings_TypeDefinitionIndex = 44840;
+
 	class AkCommonAdvancedSettings : public ::System::Object
 	{
 	public:

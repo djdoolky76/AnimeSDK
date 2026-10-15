@@ -7,6 +7,8 @@ namespace MiHoYo::SDK::PC::OS { class XboxLeaderboardRow; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int XboxLeaderboardExtension_TypeDefinitionIndex = 8684;
+
 	class XboxLeaderboardExtension : public ::System::Object
 	{
 	public:

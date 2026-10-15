@@ -11,6 +11,8 @@ namespace System { class String; }
 #define LIMGBAHNNIK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0FCD10)
 #define LIMGBAHNNIK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0FCCC0)
 
+inline static constexpr unsigned int LIMGBAHNNIK_TypeDefinitionIndex = 22866;
+
 	class LIMGBAHNNIK : public ::RPG::GameCore::TaskConfig
 	{
 	public:

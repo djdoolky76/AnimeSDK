@@ -6,6 +6,8 @@
 
 namespace RPG::Editor::SceneEditor
 {
+	inline static constexpr unsigned int LookDevIRIData_TypeDefinitionIndex = 52081;
+
 	class LookDevIRIData : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimPuzzleChallengeRow_TypeDefinitionIndex = 14111;
+
 	class FiveDimPuzzleChallengeRow : public ::System::Object
 	{
 	public:

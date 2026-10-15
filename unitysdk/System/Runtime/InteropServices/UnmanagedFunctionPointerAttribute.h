@@ -8,6 +8,8 @@
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int UnmanagedFunctionPointerAttribute_TypeDefinitionIndex = 1403;
+
 	class UnmanagedFunctionPointerAttribute : public ::System::Attribute
 	{
 	public:

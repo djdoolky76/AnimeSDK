@@ -27,6 +27,8 @@ namespace System { class String; }
 #define ABJGLPCOMMK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDCD4E0)
 #define ABJGLPCOMMK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDCD540)
 
+inline static constexpr unsigned int ABJGLPCOMMK_TypeDefinitionIndex = 25522;
+
 	class ABJGLPCOMMK : public ::System::Object
 	{
 	public:

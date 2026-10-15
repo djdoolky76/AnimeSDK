@@ -8,6 +8,8 @@ namespace UnityEngine { class Application_LogCallback; }
 
 namespace RPG::QA
 {
+	inline static constexpr unsigned int QAManager___O_TypeDefinitionIndex = 51817;
+
 	class QAManager___O : public ::System::Object
 	{
 	public:

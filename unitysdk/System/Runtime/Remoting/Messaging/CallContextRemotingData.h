@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int CallContextRemotingData_TypeDefinitionIndex = 1295;
+
 	class CallContextRemotingData : public ::System::Object
 	{
 	public:

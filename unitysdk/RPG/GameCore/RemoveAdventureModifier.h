@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveAdventureModifier_TypeDefinitionIndex = 21760;
+
 	class RemoveAdventureModifier : public ::RPG::GameCore::TaskConfig
 	{
 	public:

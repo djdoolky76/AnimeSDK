@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LegacyNullRegionPerformace_TypeDefinitionIndex = 19221;
+
 	class LegacyNullRegionPerformace : public ::RPG::GameCore::JsonConfig
 	{
 	public:

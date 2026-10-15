@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int OnGeneralNotifyDelegate_TypeDefinitionIndex = 76135;
+
 	class OnGeneralNotifyDelegate : public ::System::MulticastDelegate
 	{
 	public:

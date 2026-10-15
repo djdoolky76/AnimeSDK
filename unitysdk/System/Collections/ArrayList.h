@@ -48,6 +48,8 @@ namespace System::Collections { class IList; }
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int ArrayList_TypeDefinitionIndex = 1458;
+
 	class ArrayList : public ::System::Object
 	{
 	public:

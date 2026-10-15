@@ -7,6 +7,8 @@ namespace System { class AggregateException; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int UnobservedTaskExceptionEventArgs_TypeDefinitionIndex = 932;
+
 	class UnobservedTaskExceptionEventArgs : public ::System::EventArgs
 	{
 	public:

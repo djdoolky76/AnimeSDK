@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleGamePhaseInitParams_TypeDefinitionIndex = 60974;
+
 	class BattleGamePhaseInitParams : public ::System::Object
 	{
 	public:

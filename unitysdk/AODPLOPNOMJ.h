@@ -34,6 +34,8 @@ namespace System { class Object; }
 #define AODPLOPNOMJ_PJKOPMMMMNG_OFFSET UNITYSDK_OFFSET(0x158A92B0)
 #define AODPLOPNOMJ__ONBIND_OFFSET UNITYSDK_OFFSET(0x158A80B0)
 
+inline static constexpr unsigned int AODPLOPNOMJ_TypeDefinitionIndex = 72230;
+
 	class AODPLOPNOMJ : public ::FMPCODLIOLG
 	{
 	public:

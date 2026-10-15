@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRApplications__CancelApplicationLaunch_TypeDefinitionIndex = 38963;
+
 	class IVRApplications__CancelApplicationLaunch : public ::System::MulticastDelegate
 	{
 	public:

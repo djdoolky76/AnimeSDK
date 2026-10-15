@@ -7,6 +7,8 @@ namespace RPG::Client { class NetPacket; }
 #define CAJMPACLKFL_CCGNIJOOPPM_OFFSET UNITYSDK_OFFSET(0x1D40)
 #define CAJMPACLKFL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3C4F760)
 
+inline static constexpr unsigned int CAJMPACLKFL_TypeDefinitionIndex = 43929;
+
 	struct alignas(8) CAJMPACLKFL
 	{
 		::HDIHFIHMEIB* KNBOOGCFLBK; // 0x10

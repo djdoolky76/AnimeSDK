@@ -12,6 +12,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define SRDEBUGUTIL_GET_ISFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1ED6FF60)
 #define SRDEBUGUTIL_SET_ISFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1ED6FF70)
 
+inline static constexpr unsigned int SRDebugUtil_TypeDefinitionIndex = 35349;
+
 	class SRDebugUtil : public ::System::Object
 	{
 	public:

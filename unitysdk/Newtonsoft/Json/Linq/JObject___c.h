@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace Newtonsoft::Json::Linq
 {
+	inline static constexpr unsigned int JObject___c_TypeDefinitionIndex = 9775;
+
 	class JObject___c : public ::System::Object
 	{
 	public:

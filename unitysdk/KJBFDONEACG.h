@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 #define KJBFDONEACG_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB43BE60)
 #define KJBFDONEACG__ONEXECUTE_B__1_0_OFFSET UNITYSDK_OFFSET(0xB43C000)
 
+inline static constexpr unsigned int KJBFDONEACG_TypeDefinitionIndex = 74469;
+
 	class KJBFDONEACG : public ::MFDDEJCPLON
 	{
 	public:

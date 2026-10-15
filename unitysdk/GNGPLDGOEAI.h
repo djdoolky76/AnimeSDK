@@ -21,6 +21,8 @@ namespace System { class Object; }
 #define GNGPLDGOEAI_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x15B08A60)
 #define GNGPLDGOEAI_POAACIDJOKM_OFFSET UNITYSDK_OFFSET(0x15B08850)
 
+inline static constexpr unsigned int GNGPLDGOEAI_TypeDefinitionIndex = 72956;
+
 	class GNGPLDGOEAI : public ::System::Object
 	{
 	public:

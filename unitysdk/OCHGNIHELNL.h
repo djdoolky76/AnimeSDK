@@ -5,6 +5,8 @@
 
 #define OCHGNIHELNL_MEBPCCPOMHK_OFFSET UNITYSDK_OFFSET(0x1C7CBE20)
 
+inline static constexpr unsigned int OCHGNIHELNL_TypeDefinitionIndex = 36976;
+
 	class OCHGNIHELNL : public ::System::Object
 	{
 	public:

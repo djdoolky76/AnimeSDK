@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIDraggableManager_AreaInfo_TypeDefinitionIndex = 69090;
+
 	class UIDraggableManager_AreaInfo : public ::System::Object
 	{
 	public:

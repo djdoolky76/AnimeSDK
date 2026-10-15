@@ -20,6 +20,8 @@ class COKICPIHPAC;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoParentTransformDecouple_TypeDefinitionIndex = 68613;
+
 	class MonoParentTransformDecouple : public ::UnityEngine::MonoBehaviour
 	{
 	public:

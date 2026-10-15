@@ -11,6 +11,8 @@ namespace RPG::GameCore { class VisionBaseConfig; }
 #define IKPEHAFKFFG_MJILALHMOJB_OFFSET UNITYSDK_OFFSET(0x1649F630)
 #define IKPEHAFKFFG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1649F7C0)
 
+inline static constexpr unsigned int IKPEHAFKFFG_TypeDefinitionIndex = 52501;
+
 	class IKPEHAFKFFG
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class NPCMonsterWarningConfigClass; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NPCMonsterWarningConfigClass_TypeDefinitionIndex = 17623;
+
 	class NPCMonsterWarningConfigClass : public ::RPG::GameCore::JsonConfig
 	{
 	public:

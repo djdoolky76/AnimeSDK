@@ -12,6 +12,8 @@ namespace UnityEngine { class Component; }
 #define FPNCFGCJNJL___C__LOADPROCESSORS_B__6_1_OFFSET UNITYSDK_OFFSET(0x159217C0)
 #define FPNCFGCJNJL___C__LOADPROCESSORS_B__6_2_OFFSET UNITYSDK_OFFSET(0x15921840)
 
+inline static constexpr unsigned int FPNCFGCJNJL___c_TypeDefinitionIndex = 49085;
+
 	class FPNCFGCJNJL___c : public ::System::Object
 	{
 	public:

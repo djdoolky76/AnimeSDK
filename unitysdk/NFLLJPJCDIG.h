@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 #define NFLLJPJCDIG_REVERSE_OFFSET UNITYSDK_OFFSET(0xBB9A480)
 #define NFLLJPJCDIG_STARTWITHTARGET_OFFSET UNITYSDK_OFFSET(0xBB9A3E0)
 
+inline static constexpr unsigned int NFLLJPJCDIG_TypeDefinitionIndex = 73550;
+
 	class NFLLJPJCDIG : public ::GHJDEAEBHGA
 	{
 	public:

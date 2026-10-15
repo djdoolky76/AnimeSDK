@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FAKIIFNHANG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E327F40)
 #define FAKIIFNHANG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E327F50)
 
+inline static constexpr unsigned int FAKIIFNHANG___c_TypeDefinitionIndex = 33506;
+
 	class FAKIIFNHANG___c : public ::System::Object
 	{
 	public:

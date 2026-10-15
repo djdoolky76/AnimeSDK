@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfSkillData_TypeDefinitionIndex = 63750;
+
 	class ElfSkillData : public ::System::Object
 	{
 	public:

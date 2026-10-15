@@ -17,6 +17,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int AnimatorStaticFrameClip_TypeDefinitionIndex = 47857;
+
 	class AnimatorStaticFrameClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

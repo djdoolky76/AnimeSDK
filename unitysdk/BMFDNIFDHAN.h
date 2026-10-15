@@ -13,6 +13,8 @@ namespace RPG::GameCore { class CakeRaceAbilityConfig; }
 #define BMFDNIFDHAN_EJCDCBDCDBC_OFFSET UNITYSDK_OFFSET(0x1C5C0710)
 #define BMFDNIFDHAN_JDBBDLNMBCA_OFFSET UNITYSDK_OFFSET(0x1C5C08D0)
 
+inline static constexpr unsigned int BMFDNIFDHAN_TypeDefinitionIndex = 37361;
+
 	class BMFDNIFDHAN : public ::KIGLHBEPNOG
 	{
 	public:

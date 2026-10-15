@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelAnchorCoin40Parameter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelAnchorCoin40Parameter_TypeDefinitionIndex = 17245;
+
 	class LevelAnchorCoin40Parameter : public ::RPG::GameCore::LevelAnchorParameter
 	{
 	public:

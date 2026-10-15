@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FourRotateVoxelLevelVarConditionSet; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelLevelVarConditionSet_TypeDefinitionIndex = 16779;
+
 	class FourRotateVoxelLevelVarConditionSet : public ::RPG::GameCore::JsonConfig
 	{
 	public:

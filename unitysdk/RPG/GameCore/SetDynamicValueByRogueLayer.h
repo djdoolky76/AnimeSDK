@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetDynamicValueByRogueLayer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByRogueLayer_TypeDefinitionIndex = 21789;
+
 	class SetDynamicValueByRogueLayer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

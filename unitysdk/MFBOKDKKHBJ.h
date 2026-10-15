@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MFBOKDKKHBJ_GET_EDGES_OFFSET UNITYSDK_OFFSET(0xB8EC860)
 #define MFBOKDKKHBJ_POKBKHGHHIN_OFFSET UNITYSDK_OFFSET(0xB8EC870)
 
+inline static constexpr unsigned int MFBOKDKKHBJ_TypeDefinitionIndex = 74564;
+
 	class MFBOKDKKHBJ : public ::System::Object
 	{
 	public:

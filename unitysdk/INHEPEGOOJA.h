@@ -8,6 +8,8 @@
 #define INHEPEGOOJA_KGPHELNAMNL_OFFSET UNITYSDK_OFFSET(0x164EF020)
 #define INHEPEGOOJA_LCFLBFOHHFE_OFFSET UNITYSDK_OFFSET(0x164EEFA0)
 
+inline static constexpr unsigned int INHEPEGOOJA_TypeDefinitionIndex = 60067;
+
 	class INHEPEGOOJA : public ::System::Object
 	{
 	public:

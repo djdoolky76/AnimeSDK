@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ConsoleManager_TypeDefinitionIndex = 4060;
+
 	class ConsoleManager : public ::System::Object
 	{
 	public:

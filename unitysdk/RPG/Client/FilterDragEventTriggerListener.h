@@ -18,6 +18,8 @@ namespace UnityEngine::UI { class TouchFilter; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FilterDragEventTriggerListener_TypeDefinitionIndex = 72532;
+
 	class FilterDragEventTriggerListener : public ::RPG::Client::EventTriggerListener
 	{
 	public:

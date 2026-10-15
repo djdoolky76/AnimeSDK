@@ -11,6 +11,8 @@ namespace Mono::Math::Prime { class PrimalityTest_9F196201DC469BA4; }
 
 namespace Mono::Math::Prime::Generator
 {
+	inline static constexpr unsigned int PrimeGeneratorBase_FC1326D37A88BDFE_TypeDefinitionIndex = 2321;
+
 	class PrimeGeneratorBase_FC1326D37A88BDFE : public ::System::Object
 	{
 	public:

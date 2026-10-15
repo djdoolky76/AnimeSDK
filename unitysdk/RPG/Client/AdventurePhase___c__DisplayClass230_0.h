@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AdventurePhase___c__DisplayClass230_0_TypeDefinitionIndex = 60122;
+
 	class AdventurePhase___c__DisplayClass230_0 : public ::System::Object
 	{
 	public:

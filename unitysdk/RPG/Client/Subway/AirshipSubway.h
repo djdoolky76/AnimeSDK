@@ -29,6 +29,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Subway
 {
+	inline static constexpr unsigned int AirshipSubway_TypeDefinitionIndex = 82200;
+
 	class AirshipSubway : public ::UnityEngine::MonoBehaviour
 	{
 	public:

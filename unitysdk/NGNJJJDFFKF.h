@@ -13,6 +13,8 @@ namespace UnityEngine { class Texture; }
 #define NGNJJJDFFKF_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBBB1710)
 #define NGNJJJDFFKF_LEHHMJJLLEP_OFFSET UNITYSDK_OFFSET(0xBBB1FE0)
 
+inline static constexpr unsigned int NGNJJJDFFKF_TypeDefinitionIndex = 49537;
+
 	class NGNJJJDFFKF : public ::GNFIJNAMOHD
 	{
 	public:

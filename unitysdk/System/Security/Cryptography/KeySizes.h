@@ -12,6 +12,8 @@ namespace System::Security::Cryptography { class KeySizes; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int KeySizes_TypeDefinitionIndex = 1006;
+
 	class KeySizes : public ::System::Object
 	{
 	public:

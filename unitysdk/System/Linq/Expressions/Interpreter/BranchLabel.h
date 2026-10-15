@@ -17,6 +17,8 @@ namespace System::Linq::Expressions::Interpreter { class InstructionList; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int BranchLabel_TypeDefinitionIndex = 3317;
+
 	class BranchLabel : public ::System::Object
 	{
 	public:

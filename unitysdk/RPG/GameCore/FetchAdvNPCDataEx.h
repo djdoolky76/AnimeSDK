@@ -12,6 +12,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FetchAdvNPCDataEx_TypeDefinitionIndex = 23876;
+
 	class FetchAdvNPCDataEx : public ::RPG::GameCore::JsonConfig
 	{
 	public:

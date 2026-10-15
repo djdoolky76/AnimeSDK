@@ -7,6 +7,8 @@ class CEKGGHILKPC;
 #define MMIEDEIIAND___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB9D0510)
 #define MMIEDEIIAND___C__DISPLAYCLASS5_0___QUERYBYOWNERTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xB9D06F0)
 
+inline static constexpr unsigned int MMIEDEIIAND___c__DisplayClass5_0_TypeDefinitionIndex = 81222;
+
 	class MMIEDEIIAND___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

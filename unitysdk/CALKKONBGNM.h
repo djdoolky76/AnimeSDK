@@ -10,6 +10,8 @@ namespace System { class String; }
 #define CALKKONBGNM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA00080)
 #define CALKKONBGNM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA00040)
 
+inline static constexpr unsigned int CALKKONBGNM_TypeDefinitionIndex = 22448;
+
 	class CALKKONBGNM : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

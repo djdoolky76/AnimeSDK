@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GridFightRankSkillModifyConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightRankSkillModifyConfigRow_TypeDefinitionIndex = 13516;
+
 	class GridFightRankSkillModifyConfigRow : public ::System::Object
 	{
 	public:

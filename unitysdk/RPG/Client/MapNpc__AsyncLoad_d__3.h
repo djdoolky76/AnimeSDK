@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MapNpc__AsyncLoad_d__3_TypeDefinitionIndex = 60881;
+
 	template <typename T1, typename T2, typename T3>
 	class MapNpc__AsyncLoad_d__3 : public ::System::Object
 	{

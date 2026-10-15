@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int RuntimeWrappedException_TypeDefinitionIndex = 1367;
+
 	class RuntimeWrappedException : public ::System::Exception
 	{
 	public:

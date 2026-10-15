@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByInTimelinePerform_TypeDefinitionIndex = 23306;
+
 	class ByInTimelinePerform : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

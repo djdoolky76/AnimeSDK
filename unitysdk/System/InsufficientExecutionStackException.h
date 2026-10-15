@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int InsufficientExecutionStackException_TypeDefinitionIndex = 283;
+
 	class InsufficientExecutionStackException : public ::System::SystemException
 	{
 	public:

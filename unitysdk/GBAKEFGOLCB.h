@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GBAKEFGOLCB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E426F80)
 #define GBAKEFGOLCB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E426FE0)
 
+inline static constexpr unsigned int GBAKEFGOLCB_TypeDefinitionIndex = 25789;
+
 	class GBAKEFGOLCB : public ::System::Object
 	{
 	public:

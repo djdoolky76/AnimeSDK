@@ -42,6 +42,8 @@ namespace System { class String; }
 #define CBFOJHEPNHE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E065F60)
 #define CBFOJHEPNHE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E065FC0)
 
+inline static constexpr unsigned int CBFOJHEPNHE_TypeDefinitionIndex = 34310;
+
 	class CBFOJHEPNHE : public ::System::Object
 	{
 	public:

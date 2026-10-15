@@ -23,6 +23,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEntityTriggerCollision_TypeDefinitionIndex = 68588;
+
 	class MonoEntityTriggerCollision : public ::UnityEngine::MonoBehaviour
 	{
 	public:

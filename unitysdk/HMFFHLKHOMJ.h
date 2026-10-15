@@ -65,6 +65,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HMFFHLKHOMJ_SET_SUCCESS_OFFSET UNITYSDK_OFFSET(0x15D7C090)
 #define HMFFHLKHOMJ_SET_WAVECOUNT_OFFSET UNITYSDK_OFFSET(0x15D7C370)
 
+inline static constexpr unsigned int HMFFHLKHOMJ_TypeDefinitionIndex = 79039;
+
 	class HMFFHLKHOMJ : public ::System::Object
 	{
 	public:

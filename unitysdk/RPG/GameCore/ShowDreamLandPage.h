@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ShowDreamLandPage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowDreamLandPage_TypeDefinitionIndex = 21137;
+
 	class ShowDreamLandPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

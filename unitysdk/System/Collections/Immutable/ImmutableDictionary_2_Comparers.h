@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace System::Collections::Immutable
 {
+	inline static constexpr unsigned int ImmutableDictionary_2_Comparers_TypeDefinitionIndex = 6622;
+
 	template <typename T1, typename T2>
 	class ImmutableDictionary_2_Comparers : public ::System::Object
 	{

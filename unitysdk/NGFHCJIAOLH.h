@@ -209,6 +209,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define NGFHCJIAOLH_REPLACESTATETREE_OFFSET UNITYSDK_OFFSET(0x1C95F060)
 #define NGFHCJIAOLH_REPLACETRANSFORM_OFFSET UNITYSDK_OFFSET(0x1C95ED10)
 
+inline static constexpr unsigned int NGFHCJIAOLH_TypeDefinitionIndex = 42569;
+
 	class NGFHCJIAOLH : public ::Entitas::Entity
 	{
 	public:

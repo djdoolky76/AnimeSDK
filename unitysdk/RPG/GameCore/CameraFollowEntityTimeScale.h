@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CameraFollowEntityTimeScale; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CameraFollowEntityTimeScale_TypeDefinitionIndex = 22676;
+
 	class CameraFollowEntityTimeScale : public ::RPG::GameCore::TaskConfig
 	{
 	public:

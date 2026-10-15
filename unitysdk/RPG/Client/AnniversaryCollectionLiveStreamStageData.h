@@ -16,6 +16,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AnniversaryCollectionLiveStreamStageData_TypeDefinitionIndex = 62404;
+
 	class AnniversaryCollectionLiveStreamStageData : public ::System::Object
 	{
 	public:

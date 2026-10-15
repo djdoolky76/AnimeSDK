@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HOLOFJGPNGL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5EE150)
 #define HOLOFJGPNGL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5EE1B0)
 
+inline static constexpr unsigned int HOLOFJGPNGL_TypeDefinitionIndex = 34121;
+
 	class HOLOFJGPNGL : public ::System::Object
 	{
 	public:

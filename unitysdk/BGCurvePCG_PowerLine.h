@@ -4,6 +4,8 @@
 
 #define BGCURVEPCG_POWERLINE_CTOR_OFFSET UNITYSDK_OFFSET(0xB178FE0)
 
+inline static constexpr unsigned int BGCurvePCG_PowerLine_TypeDefinitionIndex = 47553;
+
 	class BGCurvePCG_PowerLine : public ::UnityEngine::MonoBehaviour
 	{
 	public:

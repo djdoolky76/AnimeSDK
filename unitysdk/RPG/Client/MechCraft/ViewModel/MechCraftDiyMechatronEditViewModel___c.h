@@ -21,6 +21,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftDiyMechatronEditViewModel___c_TypeDefinitionIndex = 79609;
+
 	class MechCraftDiyMechatronEditViewModel___c : public ::System::Object
 	{
 	public:

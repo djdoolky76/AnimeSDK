@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageHarmonyEmotionOperatorBehavior_TransformOperator_TypeDefinitionIndex = 70965;
+
 	class StageHarmonyEmotionOperatorBehavior_TransformOperator : public ::System::Object
 	{
 	public:

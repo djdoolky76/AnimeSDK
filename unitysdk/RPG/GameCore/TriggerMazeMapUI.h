@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerMazeMapUI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerMazeMapUI_TypeDefinitionIndex = 22078;
+
 	class TriggerMazeMapUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

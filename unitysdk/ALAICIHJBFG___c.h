@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define ALAICIHJBFG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x12CE15F0)
 #define ALAICIHJBFG___C___GETFLOORSAVEDVALUEOVERRIDELIST_B__14_0_OFFSET UNITYSDK_OFFSET(0x12CE1600)
 
+inline static constexpr unsigned int ALAICIHJBFG___c_TypeDefinitionIndex = 75292;
+
 	class ALAICIHJBFG___c : public ::System::Object
 	{
 	public:

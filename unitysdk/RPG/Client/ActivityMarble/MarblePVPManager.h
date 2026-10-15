@@ -18,6 +18,8 @@ namespace RPG::Client::ActivityMarble { class MarblePVPRankInfo; }
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarblePVPManager_TypeDefinitionIndex = 76006;
+
 	class MarblePVPManager : public ::RPG::Client::ActivityMarble::MarblePVPManagerBase
 	{
 	public:

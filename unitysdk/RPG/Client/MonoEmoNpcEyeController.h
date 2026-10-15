@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEmoNpcEyeController_TypeDefinitionIndex = 71151;
+
 	class MonoEmoNpcEyeController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

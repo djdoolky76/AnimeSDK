@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ComboConfig_TypeDefinitionIndex = 7912;
+
 	class ComboConfig : public ::System::Object
 	{
 	public:

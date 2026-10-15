@@ -8,6 +8,8 @@ namespace RPG::Client { class MissionModule; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OnlinePlayRoomModule___c__DisplayClass37_0_TypeDefinitionIndex = 66404;
+
 	class OnlinePlayRoomModule___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:

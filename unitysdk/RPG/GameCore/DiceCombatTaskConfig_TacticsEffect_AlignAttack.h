@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_TacticsEffect_AlignAttack; 
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_TacticsEffect_AlignAttack_TypeDefinitionIndex = 16163;
+
 	class DiceCombatTaskConfig_TacticsEffect_AlignAttack : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

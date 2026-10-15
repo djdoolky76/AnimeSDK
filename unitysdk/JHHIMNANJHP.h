@@ -12,6 +12,8 @@ namespace System { class String; }
 #define JHHIMNANJHP_EIFMGPEIJKM_OFFSET UNITYSDK_OFFSET(0x3C33960)
 #define JHHIMNANJHP_OOIAOFDAJKA_OFFSET UNITYSDK_OFFSET(0x3C33980)
 
+inline static constexpr unsigned int JHHIMNANJHP_TypeDefinitionIndex = 43553;
+
 	struct alignas(8) JHHIMNANJHP
 	{
 		::RPG::PoolList_1<::KEHLFNHAMLA>* LJOOHOPBAJJ; // 0x10

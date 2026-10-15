@@ -11,6 +11,8 @@ namespace System { class Type; }
 #define LFDCNMIAOPN_IHPAKOMCHGP_OFFSET UNITYSDK_OFFSET(0xB663D60)
 #define LFDCNMIAOPN_MGPPINJHOBE_OFFSET UNITYSDK_OFFSET(0xB664070)
 
+inline static constexpr unsigned int LFDCNMIAOPN_TypeDefinitionIndex = 62599;
+
 	class LFDCNMIAOPN : public ::System::Object
 	{
 	public:

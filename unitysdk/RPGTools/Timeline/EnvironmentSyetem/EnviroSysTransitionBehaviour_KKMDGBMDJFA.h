@@ -13,6 +13,8 @@
 
 namespace RPGTools::Timeline::EnvironmentSyetem
 {
+	inline static constexpr unsigned int EnviroSysTransitionBehaviour_KKMDGBMDJFA_TypeDefinitionIndex = 48642;
+
 	class EnviroSysTransitionBehaviour_KKMDGBMDJFA : public ::System::Object
 	{
 	public:

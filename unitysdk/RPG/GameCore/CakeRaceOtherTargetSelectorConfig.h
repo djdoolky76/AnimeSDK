@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceOtherTargetSelectorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceOtherTargetSelectorConfig_TypeDefinitionIndex = 18386;
+
 	class CakeRaceOtherTargetSelectorConfig : public ::RPG::GameCore::CakeRaceBaseTargetSelectorConfig
 	{
 	public:

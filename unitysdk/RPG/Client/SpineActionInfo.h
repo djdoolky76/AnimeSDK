@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SpineActionInfo_TypeDefinitionIndex = 69021;
+
 	class SpineActionInfo : public ::System::Object
 	{
 	public:

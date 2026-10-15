@@ -107,6 +107,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int NavMapModule_TypeDefinitionIndex = 74621;
+
 	class NavMapModule : public ::RPG::Client::BaseModule
 	{
 	public:

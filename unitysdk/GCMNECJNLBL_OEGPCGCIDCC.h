@@ -55,6 +55,8 @@ namespace System { class String; }
 #define GCMNECJNLBL_OEGPCGCIDCC__RUNSYNC_B__17_2_OFFSET UNITYSDK_OFFSET(0x1598BA80)
 #define GCMNECJNLBL_OEGPCGCIDCC__RUNSYNC_B__17_3_OFFSET UNITYSDK_OFFSET(0x1598BB00)
 
+inline static constexpr unsigned int GCMNECJNLBL_OEGPCGCIDCC_TypeDefinitionIndex = 49218;
+
 	class GCMNECJNLBL_OEGPCGCIDCC : public ::System::Object
 	{
 	public:

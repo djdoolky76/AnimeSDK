@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimCancelDelayedSequenceAction_TypeDefinitionIndex = 18696;
+
 	class FiveDimCancelDelayedSequenceAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

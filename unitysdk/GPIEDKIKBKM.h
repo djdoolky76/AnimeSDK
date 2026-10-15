@@ -9,6 +9,8 @@ class MBAHJMANGHN;
 #define GPIEDKIKBKM_KHKPDAELGPG_OFFSET UNITYSDK_OFFSET(0x15B5A590)
 #define GPIEDKIKBKM_MAPHFCPFEKE_OFFSET UNITYSDK_OFFSET(0x15B5A990)
 
+inline static constexpr unsigned int GPIEDKIKBKM_TypeDefinitionIndex = 79340;
+
 	class GPIEDKIKBKM : public ::System::Object
 	{
 	public:

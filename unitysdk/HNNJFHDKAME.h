@@ -84,6 +84,8 @@ namespace UnityEngine { class GameObject; }
 #define HNNJFHDKAME_SET_ISDISPOSABLE_OFFSET UNITYSDK_OFFSET(0x15DA6500)
 #define HNNJFHDKAME_SET_LASTACTIVETRIGGERINDEX_OFFSET UNITYSDK_OFFSET(0x15DA64E0)
 
+inline static constexpr unsigned int HNNJFHDKAME_TypeDefinitionIndex = 57319;
+
 	class HNNJFHDKAME : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

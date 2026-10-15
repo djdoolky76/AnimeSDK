@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int FileStream_WriteDelegate_TypeDefinitionIndex = 719;
+
 	class FileStream_WriteDelegate : public ::System::MulticastDelegate
 	{
 	public:

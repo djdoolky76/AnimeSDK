@@ -5,6 +5,8 @@ namespace MiHoYo::SDK::Uploader { class UploadCallbackAction; }
 
 namespace MiHoYo::SDK::Uploader
 {
+	inline static constexpr unsigned int DesktopUploaderWorker___O_TypeDefinitionIndex = 46660;
+
 	class DesktopUploaderWorker___O : public ::System::Object
 	{
 	public:

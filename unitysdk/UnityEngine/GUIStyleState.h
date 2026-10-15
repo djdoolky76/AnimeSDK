@@ -19,6 +19,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GUIStyleState_TypeDefinitionIndex = 5182;
+
 	class GUIStyleState : public ::System::Object
 	{
 	public:

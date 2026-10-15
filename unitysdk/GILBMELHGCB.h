@@ -30,6 +30,8 @@ namespace System { class String; }
 #define GILBMELHGCB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E49EA80)
 #define GILBMELHGCB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E49EAE0)
 
+inline static constexpr unsigned int GILBMELHGCB_TypeDefinitionIndex = 33897;
+
 	class GILBMELHGCB : public ::System::Object
 	{
 	public:

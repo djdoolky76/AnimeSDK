@@ -7,6 +7,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DebugUI_ColorField_TypeDefinitionIndex = 35539;
+
 	class DebugUI_ColorField
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define BCBHFBPADEE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E905770)
 #define BCBHFBPADEE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9057D0)
 
+inline static constexpr unsigned int BCBHFBPADEE_TypeDefinitionIndex = 30801;
+
 	class BCBHFBPADEE : public ::System::Object
 	{
 	public:

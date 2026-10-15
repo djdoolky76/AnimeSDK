@@ -10,6 +10,8 @@ namespace System { class String; }
 #define EDHKOGMNINN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD70CF0)
 #define EDHKOGMNINN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD70C40)
 
+inline static constexpr unsigned int EDHKOGMNINN_TypeDefinitionIndex = 20128;
+
 	class EDHKOGMNINN : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

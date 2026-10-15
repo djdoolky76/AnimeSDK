@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LDMKDJJLOIL_CTOR_OFFSET UNITYSDK_OFFSET(0xB63E150)
 #define LDMKDJJLOIL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB62A2A0)
 
+inline static constexpr unsigned int LDMKDJJLOIL_TypeDefinitionIndex = 57168;
+
 	class LDMKDJJLOIL : public ::System::Object
 	{
 	public:

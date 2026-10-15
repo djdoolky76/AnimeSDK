@@ -6,6 +6,8 @@ class NLFFHLFDCDH;
 #define OJINEGDOPCG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C9951A0)
 #define OJINEGDOPCG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C995200)
 
+inline static constexpr unsigned int OJINEGDOPCG_TypeDefinitionIndex = 43308;
+
 	class OJINEGDOPCG : public ::System::Object
 	{
 	public:

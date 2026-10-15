@@ -10,6 +10,8 @@ namespace RPG::Client::DiceCombat { class IDiceCombatAvatarInfo; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatCollectionCardInfo_TypeDefinitionIndex = 76068;
+
 	class DiceCombatCollectionCardInfo : public ::System::Object
 	{
 	public:

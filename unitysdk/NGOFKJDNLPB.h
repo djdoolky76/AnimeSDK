@@ -29,6 +29,8 @@ namespace System { class String; }
 #define NGOFKJDNLPB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB16BA0)
 #define NGOFKJDNLPB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB16C00)
 
+inline static constexpr unsigned int NGOFKJDNLPB_TypeDefinitionIndex = 26476;
+
 	class NGOFKJDNLPB : public ::System::Object
 	{
 	public:

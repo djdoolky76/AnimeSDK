@@ -15,6 +15,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int Random_TypeDefinitionIndex = 317;
+
 	class Random : public ::System::Object
 	{
 	public:

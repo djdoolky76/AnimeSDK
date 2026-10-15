@@ -30,6 +30,8 @@ namespace System::Collections::Immutable { template <typename T> class IImmutabl
 #define NKIJFPHFJCO_SET_ISLOCKED_OFFSET UNITYSDK_OFFSET(0x1C573480)
 #define NKIJFPHFJCO_SET_MOLD_OFFSET UNITYSDK_OFFSET(0x1C5731E0)
 
+inline static constexpr unsigned int NKIJFPHFJCO_TypeDefinitionIndex = 41813;
+
 	class NKIJFPHFJCO : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace AK::Wwise
 {
+	inline static constexpr unsigned int RTPC_TypeDefinitionIndex = 44982;
+
 	class RTPC : public ::AK::Wwise::BaseType
 	{
 	public:

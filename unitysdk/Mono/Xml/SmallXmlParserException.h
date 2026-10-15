@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace Mono::Xml
 {
+	inline static constexpr unsigned int SmallXmlParserException_TypeDefinitionIndex = 28;
+
 	class SmallXmlParserException : public ::System::SystemException
 	{
 	public:

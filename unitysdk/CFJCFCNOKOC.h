@@ -9,6 +9,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define CFJCFCNOKOC_HPNDIIPEFLJ_OFFSET UNITYSDK_OFFSET(0xCC4F3C0)
 #define CFJCFCNOKOC_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xCC4F2E0)
 
+inline static constexpr unsigned int CFJCFCNOKOC_TypeDefinitionIndex = 69906;
+
 	class CFJCFCNOKOC : public ::RPG::Client::BehaviorBase
 	{
 	public:

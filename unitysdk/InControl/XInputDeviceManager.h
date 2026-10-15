@@ -19,6 +19,8 @@ namespace System::Threading { class Thread; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int XInputDeviceManager_TypeDefinitionIndex = 40920;
+
 	class XInputDeviceManager : public ::InControl::InputDeviceManager
 	{
 	public:

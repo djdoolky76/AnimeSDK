@@ -85,6 +85,8 @@ namespace UnityEngine { class UnityException; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Texture_TypeDefinitionIndex = 4195;
+
 	class Texture : public ::UnityEngine::Object
 	{
 	public:

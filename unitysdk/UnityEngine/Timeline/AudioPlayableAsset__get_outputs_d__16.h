@@ -18,6 +18,8 @@ namespace UnityEngine::Timeline { class AudioPlayableAsset; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int AudioPlayableAsset__get_outputs_d__16_TypeDefinitionIndex = 38808;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16>
 	class AudioPlayableAsset__get_outputs_d__16 : public ::System::Object
 	{

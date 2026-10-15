@@ -6,6 +6,8 @@ namespace System { class String; }
 #define DNKAAIFEKNP_GNKBEOCPBJC_CTOR_OFFSET UNITYSDK_OFFSET(0x11FD2930)
 #define DNKAAIFEKNP_GNKBEOCPBJC_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x11FD28D0)
 
+inline static constexpr unsigned int DNKAAIFEKNP_GNKBEOCPBJC_TypeDefinitionIndex = 59987;
+
 	class DNKAAIFEKNP_GNKBEOCPBJC : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetMapDamageChunkTargetList_TypeDefinitionIndex = 24022;
+
 	class TargetMapDamageChunkTargetList : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraShowJumpText; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraShowJumpText_TypeDefinitionIndex = 15870;
+
 	class ChimeraShowJumpText : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{
 	public:

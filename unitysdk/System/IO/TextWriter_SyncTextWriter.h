@@ -31,6 +31,8 @@ namespace System::Text { class Encoding; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int TextWriter_SyncTextWriter_TypeDefinitionIndex = 703;
+
 	class TextWriter_SyncTextWriter : public ::System::IO::TextWriter
 	{
 	public:

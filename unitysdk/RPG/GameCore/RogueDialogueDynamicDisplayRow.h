@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueDialogueDynamicDisplayRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDialogueDynamicDisplayRow_TypeDefinitionIndex = 14822;
+
 	class RogueDialogueDynamicDisplayRow : public ::System::Object
 	{
 	public:

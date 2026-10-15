@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightRefTraitLayerRoleInput_TypeDefinitionIndex = 64816;
+
 	class GridFightRefTraitLayerRoleInput : public ::System::Object
 	{
 	public:

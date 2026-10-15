@@ -12,6 +12,8 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Unity
 {
+	inline static constexpr unsigned int WrapModeFormatter_TypeDefinitionIndex = 10125;
+
 	class WrapModeFormatter : public ::System::Object
 	{
 	public:

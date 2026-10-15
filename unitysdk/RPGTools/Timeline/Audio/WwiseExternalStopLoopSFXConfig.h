@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline::Audio
 {
+	inline static constexpr unsigned int WwiseExternalStopLoopSFXConfig_TypeDefinitionIndex = 48852;
+
 	class WwiseExternalStopLoopSFXConfig : public ::System::Object
 	{
 	public:

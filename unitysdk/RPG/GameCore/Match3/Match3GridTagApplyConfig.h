@@ -12,6 +12,8 @@ namespace RPG::GameCore::Match3 { class Match3TagApplyPostAction; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int Match3GridTagApplyConfig_TypeDefinitionIndex = 24941;
+
 	class Match3GridTagApplyConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

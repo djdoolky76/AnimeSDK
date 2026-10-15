@@ -4,6 +4,8 @@
 
 namespace FxResources::System::Numerics::Vectors
 {
+	inline static constexpr unsigned int SR_TypeDefinitionIndex = 3853;
+
 	class SR : public ::System::Object
 	{
 	public:

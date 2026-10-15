@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_SetConditionSuccess; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_SetConditionSuccess_TypeDefinitionIndex = 16129;
+
 	class DiceCombatTaskConfig_SetConditionSuccess : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

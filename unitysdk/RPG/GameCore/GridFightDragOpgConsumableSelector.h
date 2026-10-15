@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightDragOpgConsumableSelector; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightDragOpgConsumableSelector_TypeDefinitionIndex = 19959;
+
 	class GridFightDragOpgConsumableSelector : public ::RPG::GameCore::GridFightDragOpParamBase
 	{
 	public:

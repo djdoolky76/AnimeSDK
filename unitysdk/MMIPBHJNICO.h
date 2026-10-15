@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TimeRewindControllerInteract; }
 #define MMIPBHJNICO_CTOR_OFFSET UNITYSDK_OFFSET(0xB9D3430)
 #define MMIPBHJNICO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9D3460)
 
+inline static constexpr unsigned int MMIPBHJNICO_TypeDefinitionIndex = 53398;
+
 	class MMIPBHJNICO
 	{
 	public:

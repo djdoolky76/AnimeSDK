@@ -9,6 +9,8 @@ namespace RPG::GameCore { class AetherDivideOverflowChunkRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AetherDivideOverflowChunkRow_TypeDefinitionIndex = 10920;
+
 	class AetherDivideOverflowChunkRow : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 #define EHGIBDJKDFH_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x154A5D50)
 #define EHGIBDJKDFH_IHJANGBNILI_OFFSET UNITYSDK_OFFSET(0x154A5C30)
 
+inline static constexpr unsigned int EHGIBDJKDFH_TypeDefinitionIndex = 71429;
+
 	class EHGIBDJKDFH : public ::FMPCODLIOLG
 	{
 	public:

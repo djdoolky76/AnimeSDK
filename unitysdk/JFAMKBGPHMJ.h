@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 #define JFAMKBGPHMJ_LAIKHNHMMCL_OFFSET UNITYSDK_OFFSET(0x16643B00)
 #define JFAMKBGPHMJ_PODBDMJEMJP_OFFSET UNITYSDK_OFFSET(0x16643850)
 
+inline static constexpr unsigned int JFAMKBGPHMJ_TypeDefinitionIndex = 59752;
+
 	class JFAMKBGPHMJ : public ::System::Object
 	{
 	public:

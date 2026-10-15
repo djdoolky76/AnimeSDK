@@ -2678,6 +2678,8 @@ namespace System { class Object; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int ObjectTranslator_IniterAdder_Gen___c_TypeDefinitionIndex = 50079;
+
 	class ObjectTranslator_IniterAdder_Gen___c : public ::System::Object
 	{
 	public:

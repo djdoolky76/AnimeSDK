@@ -203,6 +203,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GamePlayStatic_TypeDefinitionIndex = 59013;
+
 	class GamePlayStatic : public ::System::Object
 	{
 	public:

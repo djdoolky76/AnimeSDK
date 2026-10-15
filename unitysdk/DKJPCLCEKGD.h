@@ -26,6 +26,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DKJPCLCEKGD_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0xF889ED0)
 #define DKJPCLCEKGD___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xF889EE0)
 
+inline static constexpr unsigned int DKJPCLCEKGD_TypeDefinitionIndex = 77712;
+
 	class DKJPCLCEKGD : public ::AGIFDHGNHIP
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::Client { class GridFightFormationRole; }
 #define BLOHPFEHNPK___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBA80A20)
 #define BLOHPFEHNPK___C__DISPLAYCLASS22_0__GETROLEBYID_B__0_OFFSET UNITYSDK_OFFSET(0xBA81CE0)
 
+inline static constexpr unsigned int BLOHPFEHNPK___c__DisplayClass22_0_TypeDefinitionIndex = 64686;
+
 	class BLOHPFEHNPK___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::Client::ParkourGame { class MonoParkourRoad_ConnectionInfo; }
 
 #define DMPMGGKKIBH_MJEJFGGAIPL_CTOR_OFFSET UNITYSDK_OFFSET(0x119381A0)
 
+inline static constexpr unsigned int DMPMGGKKIBH_MJEJFGGAIPL_TypeDefinitionIndex = 74222;
+
 	class DMPMGGKKIBH_MJEJFGGAIPL : public ::System::Object
 	{
 	public:

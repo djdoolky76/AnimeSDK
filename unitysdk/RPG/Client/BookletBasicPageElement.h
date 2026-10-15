@@ -27,6 +27,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BookletBasicPageElement_TypeDefinitionIndex = 72385;
+
 	class BookletBasicPageElement
 	{
 	public:

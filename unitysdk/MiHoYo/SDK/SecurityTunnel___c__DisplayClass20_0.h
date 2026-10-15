@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass20_0_TypeDefinitionIndex = 46415;
+
 	class SecurityTunnel___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

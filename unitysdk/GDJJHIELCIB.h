@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GDJJHIELCIB_PCEGNLLKHKF_OFFSET UNITYSDK_OFFSET(0x159A0B70)
 #define GDJJHIELCIB_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0x159A0370)
 
+inline static constexpr unsigned int GDJJHIELCIB_TypeDefinitionIndex = 74428;
+
 	class GDJJHIELCIB : public ::System::Object
 	{
 	public:

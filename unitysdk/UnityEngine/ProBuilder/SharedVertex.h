@@ -39,6 +39,8 @@ namespace UnityEngine::ProBuilder { class SharedVertex; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int SharedVertex_TypeDefinitionIndex = 44433;
+
 	class SharedVertex : public ::System::Object
 	{
 	public:

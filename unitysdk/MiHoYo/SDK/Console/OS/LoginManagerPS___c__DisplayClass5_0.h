@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Console::OS
 {
+	inline static constexpr unsigned int LoginManagerPS___c__DisplayClass5_0_TypeDefinitionIndex = 9086;
+
 	class LoginManagerPS___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

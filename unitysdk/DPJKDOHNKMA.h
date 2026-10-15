@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DPJKDOHNKMA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x126414F0)
 #define DPJKDOHNKMA_TICK_OFFSET UNITYSDK_OFFSET(0x12641150)
 
+inline static constexpr unsigned int DPJKDOHNKMA_TypeDefinitionIndex = 52643;
+
 	class DPJKDOHNKMA : public ::GELIALJDFBL
 	{
 	public:

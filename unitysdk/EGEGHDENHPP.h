@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define EGEGHDENHPP_CTOR_OFFSET UNITYSDK_OFFSET(0x145098C0)
 #define EGEGHDENHPP_FEOIFJONLCH_OFFSET UNITYSDK_OFFSET(0x14509800)
 
+inline static constexpr unsigned int EGEGHDENHPP_TypeDefinitionIndex = 77506;
+
 	class EGEGHDENHPP : public ::System::Object
 	{
 	public:

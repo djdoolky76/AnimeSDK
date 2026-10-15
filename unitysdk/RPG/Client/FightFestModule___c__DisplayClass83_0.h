@@ -8,6 +8,8 @@ namespace RPG::Client { class FightFestPaper; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FightFestModule___c__DisplayClass83_0_TypeDefinitionIndex = 64190;
+
 	class FightFestModule___c__DisplayClass83_0 : public ::System::Object
 	{
 	public:

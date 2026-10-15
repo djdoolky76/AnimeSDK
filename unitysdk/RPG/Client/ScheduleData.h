@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ScheduleData_TypeDefinitionIndex = 67895;
+
 	class ScheduleData : public ::System::Object
 	{
 	public:

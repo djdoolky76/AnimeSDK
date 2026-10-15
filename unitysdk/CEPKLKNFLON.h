@@ -25,6 +25,8 @@ namespace System { class String; }
 #define CEPKLKNFLON_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E09DBE0)
 #define CEPKLKNFLON_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E09DC40)
 
+inline static constexpr unsigned int CEPKLKNFLON_TypeDefinitionIndex = 34429;
+
 	class CEPKLKNFLON : public ::System::Object
 	{
 	public:

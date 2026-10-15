@@ -34,6 +34,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define GHJODDBAHLI_ONBEFOREMODELARTUNLOAD_OFFSET UNITYSDK_OFFSET(0x15A25C90)
 #define GHJODDBAHLI_PLGNLKALBNN_OFFSET UNITYSDK_OFFSET(0x15A270C0)
 
+inline static constexpr unsigned int GHJODDBAHLI_TypeDefinitionIndex = 64243;
+
 	class GHJODDBAHLI : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { template <typename T> class Func_1; }
 #define LBNCOMDENDH___C___CTOR_B__5_0_OFFSET UNITYSDK_OFFSET(0x1C90CD00)
 #define LBNCOMDENDH___C___CTOR_B__5_1_OFFSET UNITYSDK_OFFSET(0x1C90CD30)
 
+inline static constexpr unsigned int LBNCOMDENDH___c_TypeDefinitionIndex = 42633;
+
 	class LBNCOMDENDH___c : public ::System::Object
 	{
 	public:

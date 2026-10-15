@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CCDIK_TypeDefinitionIndex = 68371;
+
 	class CCDIK : public ::UnityEngine::MonoBehaviour
 	{
 	public:

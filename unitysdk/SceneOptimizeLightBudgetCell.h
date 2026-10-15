@@ -10,6 +10,8 @@ namespace UnityEngine { class MeshRenderer; }
 #define SCENEOPTIMIZELIGHTBUDGETCELL_START_OFFSET UNITYSDK_OFFSET(0xE9601C0)
 #define SCENEOPTIMIZELIGHTBUDGETCELL_UPDATE_OFFSET UNITYSDK_OFFSET(0xE960260)
 
+inline static constexpr unsigned int SceneOptimizeLightBudgetCell_TypeDefinitionIndex = 47403;
+
 	class SceneOptimizeLightBudgetCell : public ::UnityEngine::MonoBehaviour
 	{
 	public:

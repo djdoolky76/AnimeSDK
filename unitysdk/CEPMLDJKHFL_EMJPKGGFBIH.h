@@ -5,6 +5,8 @@
 
 #define CEPMLDJKHFL_EMJPKGGFBIH_CTOR_OFFSET UNITYSDK_OFFSET(0xC9F9970)
 
+inline static constexpr unsigned int CEPMLDJKHFL_EMJPKGGFBIH_TypeDefinitionIndex = 47757;
+
 	class CEPMLDJKHFL_EMJPKGGFBIH : public ::System::Object
 	{
 	public:

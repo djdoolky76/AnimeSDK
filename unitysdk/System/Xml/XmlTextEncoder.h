@@ -26,6 +26,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlTextEncoder_TypeDefinitionIndex = 1844;
+
 	class XmlTextEncoder : public ::System::Object
 	{
 	public:

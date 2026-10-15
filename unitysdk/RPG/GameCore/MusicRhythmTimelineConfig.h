@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MusicRhythmTimelineConfig_TypeDefinitionIndex = 16947;
+
 	class MusicRhythmTimelineConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

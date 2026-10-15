@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int HoYoChannelDelegate_RegisterGameOverlayCallbackDelegate_TypeDefinitionIndex = 8550;
+
 	class HoYoChannelDelegate_RegisterGameOverlayCallbackDelegate : public ::System::MulticastDelegate
 	{
 	public:

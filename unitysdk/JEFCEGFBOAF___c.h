@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JEFCEGFBOAF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E718B40)
 #define JEFCEGFBOAF___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E718B50)
 
+inline static constexpr unsigned int JEFCEGFBOAF___c_TypeDefinitionIndex = 26427;
+
 	class JEFCEGFBOAF___c : public ::System::Object
 	{
 	public:

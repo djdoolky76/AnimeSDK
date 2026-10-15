@@ -6,6 +6,8 @@
 #define MDDLEAPOIKM_DAMDMJJKLON_OFFSET UNITYSDK_OFFSET(0xB89FD80)
 #define MDDLEAPOIKM_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB89FE10)
 
+inline static constexpr unsigned int MDDLEAPOIKM_TypeDefinitionIndex = 74200;
+
 	class MDDLEAPOIKM : public ::FFPAFGCOKHK
 	{
 	public:

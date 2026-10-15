@@ -11,6 +11,8 @@ namespace UnityEngine { class Animation; }
 #define LMIHAGABIBB_PNOLNGLHDML_OFFSET UNITYSDK_OFFSET(0xB7C90F0)
 #define LMIHAGABIBB__ONBIND_OFFSET UNITYSDK_OFFSET(0xB7C8F40)
 
+inline static constexpr unsigned int LMIHAGABIBB_TypeDefinitionIndex = 71379;
+
 	class LMIHAGABIBB : public ::FBAJLKHNLHH
 	{
 	public:

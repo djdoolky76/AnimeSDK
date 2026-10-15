@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeBoard___c__DisplayClass62_0_TypeDefinitionIndex = 65923;
+
 	class MatchThreeBoard___c__DisplayClass62_0 : public ::System::Object
 	{
 	public:

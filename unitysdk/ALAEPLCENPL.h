@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GameWorld; }
 #define ALAEPLCENPL_LJFALNMCMOA_OFFSET UNITYSDK_OFFSET(0x12CDFA20)
 #define ALAEPLCENPL_MDGGHPAMKFO_OFFSET UNITYSDK_OFFSET(0x12CDFC30)
 
+inline static constexpr unsigned int ALAEPLCENPL_TypeDefinitionIndex = 57826;
+
 	class ALAEPLCENPL : public ::System::Object
 	{
 	public:

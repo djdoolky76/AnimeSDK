@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 #define DMKNKKKMMHK_JNEKGCGCEAL_ONPPNAEHKCC_COKMDIMBLHN_OFFSET UNITYSDK_OFFSET(0xFEC4CD0)
 #define DMKNKKKMMHK_JNEKGCGCEAL_ONPPNAEHKCC_CTOR_OFFSET UNITYSDK_OFFSET(0xFEC5100)
 
+inline static constexpr unsigned int DMKNKKKMMHK_JNEKGCGCEAL_ONPPNAEHKCC_TypeDefinitionIndex = 49452;
+
 	class DMKNKKKMMHK_JNEKGCGCEAL_ONPPNAEHKCC : public ::System::Object
 	{
 	public:

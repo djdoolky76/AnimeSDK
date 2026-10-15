@@ -37,6 +37,8 @@ namespace UnityEngine { class Coroutine; }
 #define DLCDKACJFKA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF894000)
 #define DLCDKACJFKA_TICK_OFFSET UNITYSDK_OFFSET(0xF8940E0)
 
+inline static constexpr unsigned int DLCDKACJFKA_TypeDefinitionIndex = 52438;
+
 	class DLCDKACJFKA : public ::GELIALJDFBL
 	{
 	public:

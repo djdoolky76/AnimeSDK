@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TutorialGuideUIContextConfig_TypeDefinitionIndex = 24327;
+
 	class TutorialGuideUIContextConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

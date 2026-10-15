@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DHLGJCOBNKH_SET_SKILLTYPE_OFFSET UNITYSDK_OFFSET(0xEBE8600)
 #define DHLGJCOBNKH_SET_ULTRASKILLICONPATH_OFFSET UNITYSDK_OFFSET(0xEBE8670)
 
+inline static constexpr unsigned int DHLGJCOBNKH_TypeDefinitionIndex = 80825;
+
 	class DHLGJCOBNKH : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int AccountManager___c__DisplayClass38_0_TypeDefinitionIndex = 7951;
+
 	class AccountManager___c__DisplayClass38_0 : public ::System::Object
 	{
 	public:

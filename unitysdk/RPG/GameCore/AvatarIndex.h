@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarIndex_TypeDefinitionIndex = 15460;
+
 	struct alignas(4) AvatarIndex
 	{
 		::System::UInt32 AvatarID; // 0x10

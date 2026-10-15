@@ -15,6 +15,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG::Client::Compliance::Ftc::DropLink
 {
+	inline static constexpr unsigned int FtcDropLinkEntry_TypeDefinitionIndex = 74817;
+
 	class FtcDropLinkEntry : public ::System::Object
 	{
 	public:

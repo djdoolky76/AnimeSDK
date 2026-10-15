@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RemoveAssistAvatar; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveAssistAvatar_TypeDefinitionIndex = 20543;
+
 	class RemoveAssistAvatar : public ::RPG::GameCore::TaskConfig
 	{
 	public:

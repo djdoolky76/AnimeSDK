@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::FateRin::Challenge
 {
+	inline static constexpr unsigned int FateRinChallengeEntranceViewModel_TypeDefinitionIndex = 81030;
+
 	class FateRinChallengeEntranceViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

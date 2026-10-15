@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace BansheeGz::BGSpline::Components
 {
+	inline static constexpr unsigned int BGCcWithMath_TypeDefinitionIndex = 36063;
+
 	class BGCcWithMath : public ::BansheeGz::BGSpline::Curve::BGCc
 	{
 	public:

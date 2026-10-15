@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_ShowBossPersistentTipsView;
 #define JMBDLBGKDIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7066C0)
 #define JMBDLBGKDIJ_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C7066D0)
 
+inline static constexpr unsigned int JMBDLBGKDIJ_TypeDefinitionIndex = 36295;
+
 	class JMBDLBGKDIJ : public ::AJBKGPOEBFG
 	{
 	public:

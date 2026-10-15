@@ -14,6 +14,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int JigsawBgEventTriggerListener_TypeDefinitionIndex = 72551;
+
 	class JigsawBgEventTriggerListener : public ::RPG::Client::EventTriggerListener
 	{
 	public:

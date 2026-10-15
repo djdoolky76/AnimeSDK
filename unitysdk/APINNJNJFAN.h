@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class Text; }
 #define APINNJNJFAN_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x15BAC1B0)
 #define APINNJNJFAN_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0x15BAC220)
 
+inline static constexpr unsigned int APINNJNJFAN_TypeDefinitionIndex = 72929;
+
 	class APINNJNJFAN : public ::LBAMBIMMJKB
 	{
 	public:

@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PLDBOMFMMJD_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2FE820)
 #define PLDBOMFMMJD_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D2FE140)
 
+inline static constexpr unsigned int PLDBOMFMMJD_TypeDefinitionIndex = 11380;
+
 	class PLDBOMFMMJD : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client { class IMissionIcon; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionUtils___c__DisplayClass7_0_TypeDefinitionIndex = 66197;
+
 	class MissionUtils___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

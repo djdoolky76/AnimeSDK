@@ -11,6 +11,8 @@
 #define AAEIIPCFEPB_PDEGMJOIPMO_OFFSET UNITYSDK_OFFSET(0xB0C5460)
 #define AAEIIPCFEPB_PHCMMBPPKAC_OFFSET UNITYSDK_OFFSET(0xB0C5320)
 
+inline static constexpr unsigned int AAEIIPCFEPB_TypeDefinitionIndex = 65811;
+
 	class AAEIIPCFEPB : public ::System::Object
 	{
 	public:

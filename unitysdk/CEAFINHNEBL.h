@@ -34,6 +34,8 @@ namespace System { class String; }
 #define CEAFINHNEBL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E08D3B0)
 #define CEAFINHNEBL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E08D410)
 
+inline static constexpr unsigned int CEAFINHNEBL_TypeDefinitionIndex = 32223;
+
 	class CEAFINHNEBL : public ::System::Object
 	{
 	public:

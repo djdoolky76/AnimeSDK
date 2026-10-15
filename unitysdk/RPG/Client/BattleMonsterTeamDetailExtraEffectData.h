@@ -17,6 +17,8 @@ namespace RPG::GameCore { class ExtraEffectRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleMonsterTeamDetailExtraEffectData_TypeDefinitionIndex = 72038;
+
 	class BattleMonsterTeamDetailExtraEffectData : public ::System::Object
 	{
 	public:

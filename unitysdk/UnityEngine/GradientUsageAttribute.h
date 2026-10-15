@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GradientUsageAttribute_TypeDefinitionIndex = 4246;
+
 	class GradientUsageAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionOnDialogueNpcFinishCon
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionOnDialogueNpcFinishConfig_TypeDefinitionIndex = 17787;
+
 	class RogueModifierExecuteActionOnDialogueNpcFinishConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

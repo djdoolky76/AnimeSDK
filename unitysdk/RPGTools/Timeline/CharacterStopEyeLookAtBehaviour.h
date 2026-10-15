@@ -10,6 +10,8 @@ namespace RPGTools::Timeline { class CharacterStopEyeLookAtData; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterStopEyeLookAtBehaviour_TypeDefinitionIndex = 47986;
+
 	class CharacterStopEyeLookAtBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

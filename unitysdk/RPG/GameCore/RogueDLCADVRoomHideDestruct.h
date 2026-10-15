@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueDLCADVRoomHideDestruct; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLCADVRoomHideDestruct_TypeDefinitionIndex = 22279;
+
 	class RogueDLCADVRoomHideDestruct : public ::RPG::GameCore::TaskConfig
 	{
 	public:

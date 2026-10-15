@@ -32,6 +32,8 @@ namespace UnityEngine { class Texture3D; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int VolumetricLight_TypeDefinitionIndex = 4274;
+
 	class VolumetricLight : public ::UnityEngine::Behaviour
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierBackup1Config; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierBackup1Config_TypeDefinitionIndex = 17997;
+
 	class RogueModifierBackup1Config : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

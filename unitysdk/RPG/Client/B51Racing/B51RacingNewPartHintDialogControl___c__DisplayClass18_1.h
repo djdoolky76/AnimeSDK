@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingNewPartHintDialogControl___c__DisplayClass18_1_TypeDefinitionIndex = 81793;
+
 	template <typename T>
 	class B51RacingNewPartHintDialogControl___c__DisplayClass18_1 : public ::System::Object
 	{

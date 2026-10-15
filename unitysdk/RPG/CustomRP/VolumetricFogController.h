@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int VolumetricFogController_TypeDefinitionIndex = 37738;
+
 	class VolumetricFogController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

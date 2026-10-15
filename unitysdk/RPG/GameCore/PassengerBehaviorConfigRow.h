@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PassengerBehaviorConfigRow_TypeDefinitionIndex = 15363;
+
 	class PassengerBehaviorConfigRow : public ::System::Object
 	{
 	public:

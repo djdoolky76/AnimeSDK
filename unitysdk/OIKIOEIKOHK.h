@@ -12,6 +12,8 @@ namespace UnityEngine { class Animation; }
 #define OIKIOEIKOHK_NHPDCPKMNAM_OFFSET UNITYSDK_OFFSET(0xBEA0460)
 #define OIKIOEIKOHK__ONBIND_OFFSET UNITYSDK_OFFSET(0xBEA03B0)
 
+inline static constexpr unsigned int OIKIOEIKOHK_TypeDefinitionIndex = 71568;
+
 	class OIKIOEIKOHK : public ::FMPCODLIOLG
 	{
 	public:

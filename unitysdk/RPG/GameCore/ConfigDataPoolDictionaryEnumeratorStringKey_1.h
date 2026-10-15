@@ -6,6 +6,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConfigDataPoolDictionaryEnumeratorStringKey_1_TypeDefinitionIndex = 10755;
+
 	template <typename T>
 	struct alignas(8) ConfigDataPoolDictionaryEnumeratorStringKey_1
 	{

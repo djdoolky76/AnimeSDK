@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleInfoSimple_TypeDefinitionIndex = 62014;
+
 	class BattleInfoSimple : public ::System::Object
 	{
 	public:

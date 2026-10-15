@@ -22,6 +22,8 @@ namespace System { class String; }
 #define LFPEEBKPEIO_PODLKOGHGMA_1_OFFSET UNITYSDK_OFFSET(0x1C4AE3F0)
 #define LFPEEBKPEIO_PODLKOGHGMA_OFFSET UNITYSDK_OFFSET(0x1C4AE2D0)
 
+inline static constexpr unsigned int LFPEEBKPEIO_TypeDefinitionIndex = 41418;
+
 	class LFPEEBKPEIO : public ::System::Object
 	{
 	public:

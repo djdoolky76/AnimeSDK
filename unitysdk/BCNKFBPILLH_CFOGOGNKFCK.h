@@ -4,6 +4,8 @@
 
 #define BCNKFBPILLH_CFOGOGNKFCK_CTOR_OFFSET UNITYSDK_OFFSET(0x162E9870)
 
+inline static constexpr unsigned int BCNKFBPILLH_CFOGOGNKFCK_TypeDefinitionIndex = 71624;
+
 	class BCNKFBPILLH_CFOGOGNKFCK : public ::System::Object
 	{
 	public:

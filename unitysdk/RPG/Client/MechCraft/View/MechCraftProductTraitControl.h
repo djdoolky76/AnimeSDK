@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftProductTraitControl_TypeDefinitionIndex = 79829;
+
 	class MechCraftProductTraitControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

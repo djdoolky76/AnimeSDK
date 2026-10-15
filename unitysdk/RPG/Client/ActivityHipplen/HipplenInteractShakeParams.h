@@ -7,6 +7,8 @@
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int HipplenInteractShakeParams_TypeDefinitionIndex = 75577;
+
 	class HipplenInteractShakeParams : public ::System::Object
 	{
 	public:

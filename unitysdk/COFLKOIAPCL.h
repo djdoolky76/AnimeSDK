@@ -6,6 +6,8 @@ namespace RPG::GameCore { class FiveDimSuiyangConfig; }
 
 #define COFLKOIAPCL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA13490)
 
+inline static constexpr unsigned int COFLKOIAPCL_TypeDefinitionIndex = 43408;
+
 	class COFLKOIAPCL : public ::System::Object
 	{
 	public:

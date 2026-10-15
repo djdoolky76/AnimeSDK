@@ -7,6 +7,8 @@
 #define GJEGDPICOHD_DNFOCJCHJDP_OFFSET UNITYSDK_OFFSET(0x1CAAFF30)
 #define GJEGDPICOHD_MLMOCBBEOIM_OFFSET UNITYSDK_OFFSET(0x1CAAFF20)
 
+inline static constexpr unsigned int GJEGDPICOHD_TypeDefinitionIndex = 41962;
+
 	class GJEGDPICOHD : public ::System::Object
 	{
 	public:

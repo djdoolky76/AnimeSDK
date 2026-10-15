@@ -8,6 +8,8 @@ class PBHJHNFMFDH;
 #define DFBLBNAPDAE_KMBEGBMJLND_OFFSET UNITYSDK_OFFSET(0xE8242A0)
 #define DFBLBNAPDAE_LKLNNBDFAGH_OFFSET UNITYSDK_OFFSET(0xE8241D0)
 
+inline static constexpr unsigned int DFBLBNAPDAE_TypeDefinitionIndex = 80144;
+
 	class DFBLBNAPDAE : public ::System::Object
 	{
 	public:

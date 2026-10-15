@@ -17,6 +17,8 @@ namespace RPG::Client { class FateHandbookTraitCollection; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateHandbookInfo_TypeDefinitionIndex = 64072;
+
 	class FateHandbookInfo : public ::System::Object
 	{
 	public:

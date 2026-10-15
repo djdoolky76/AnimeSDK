@@ -17,6 +17,8 @@ namespace UnityEngine { class GameObject; }
 #define NCOONILMDAC_OEIIDHFBKHG_OFFSET UNITYSDK_OFFSET(0xBB1CDD0)
 #define NCOONILMDAC_PHAAADAJDAA_OFFSET UNITYSDK_OFFSET(0xBB1CEC0)
 
+inline static constexpr unsigned int NCOONILMDAC_TypeDefinitionIndex = 59739;
+
 	class NCOONILMDAC : public ::System::Object
 	{
 	public:

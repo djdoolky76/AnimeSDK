@@ -19,6 +19,8 @@ namespace UnityEngine::ProBuilder { class ActionResult; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int ActionResult_TypeDefinitionIndex = 44326;
+
 	class ActionResult : public ::System::Object
 	{
 	public:

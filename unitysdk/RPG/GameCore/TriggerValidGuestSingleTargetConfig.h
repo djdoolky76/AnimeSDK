@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerValidGuestSingleTargetConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerValidGuestSingleTargetConfig_TypeDefinitionIndex = 23892;
+
 	class TriggerValidGuestSingleTargetConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

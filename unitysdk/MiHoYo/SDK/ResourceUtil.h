@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ResourceUtil_TypeDefinitionIndex = 8079;
+
 	class ResourceUtil : public ::System::Object
 	{
 	public:

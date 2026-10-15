@@ -42,6 +42,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfRestaurantManageGameplayModel_TypeDefinitionIndex = 63741;
+
 	class ElfRestaurantManageGameplayModel : public ::System::Object
 	{
 	public:

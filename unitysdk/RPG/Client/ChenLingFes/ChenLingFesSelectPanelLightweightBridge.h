@@ -10,6 +10,8 @@ namespace RPG::Client::ChenLingFes { class ChenLingFesGameplaySelectPanelControl
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesSelectPanelLightweightBridge_TypeDefinitionIndex = 81327;
+
 	class ChenLingFesSelectPanelLightweightBridge : public ::UnityEngine::MonoBehaviour
 	{
 	public:

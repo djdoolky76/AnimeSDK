@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define IDJCEFPNPMM_MNIOENIDEDD_OFFSET UNITYSDK_OFFSET(0x1DD63D60)
 #define IDJCEFPNPMM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C4A560)
 
+inline static constexpr unsigned int IDJCEFPNPMM_TypeDefinitionIndex = 6282;
+
 	struct alignas(4) IDJCEFPNPMM
 	{
 		::RPG::MVector2 BHCMCMADHBF; // 0x10

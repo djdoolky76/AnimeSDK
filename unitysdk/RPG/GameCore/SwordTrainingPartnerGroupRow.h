@@ -9,6 +9,8 @@ namespace RPG::GameCore { class SwordTrainingPartnerGroupRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwordTrainingPartnerGroupRow_TypeDefinitionIndex = 12441;
+
 	class SwordTrainingPartnerGroupRow : public ::System::Object
 	{
 	public:

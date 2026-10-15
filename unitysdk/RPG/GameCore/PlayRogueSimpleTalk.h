@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RogueTalkInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayRogueSimpleTalk_TypeDefinitionIndex = 21112;
+
 	class PlayRogueSimpleTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

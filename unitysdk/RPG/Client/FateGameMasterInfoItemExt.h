@@ -19,6 +19,8 @@ namespace RPG::Client { class IFateGameMasterInfoRivalItem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateGameMasterInfoItemExt_TypeDefinitionIndex = 64091;
+
 	class FateGameMasterInfoItemExt : public ::System::Object
 	{
 	public:

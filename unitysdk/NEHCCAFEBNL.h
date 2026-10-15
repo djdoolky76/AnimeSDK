@@ -4,6 +4,8 @@
 #define NEHCCAFEBNL_DADCFBHGLOH_OFFSET UNITYSDK_OFFSET(0x3C3D300)
 #define NEHCCAFEBNL_DJJBNDDBKIH_OFFSET UNITYSDK_OFFSET(0x3C3D350)
 
+inline static constexpr unsigned int NEHCCAFEBNL_TypeDefinitionIndex = 10818;
+
 	struct alignas(4) NEHCCAFEBNL
 	{
 		::System::UInt64 CHFFMMMGDDH; // 0x10

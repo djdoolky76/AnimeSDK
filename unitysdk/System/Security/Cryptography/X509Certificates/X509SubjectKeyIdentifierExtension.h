@@ -24,6 +24,8 @@ namespace System::Security::Cryptography::X509Certificates { class PublicKey; }
 
 namespace System::Security::Cryptography::X509Certificates
 {
+	inline static constexpr unsigned int X509SubjectKeyIdentifierExtension_TypeDefinitionIndex = 2712;
+
 	class X509SubjectKeyIdentifierExtension : public ::System::Security::Cryptography::X509Certificates::X509Extension
 	{
 	public:

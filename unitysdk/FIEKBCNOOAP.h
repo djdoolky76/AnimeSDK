@@ -4,6 +4,8 @@
 
 #define FIEKBCNOOAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA6E650)
 
+inline static constexpr unsigned int FIEKBCNOOAP_TypeDefinitionIndex = 42271;
+
 	class FIEKBCNOOAP : public ::System::Object
 	{
 	public:

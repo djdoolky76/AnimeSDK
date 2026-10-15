@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int InvokeResponseModel_TypeDefinitionIndex = 8067;
+
 	class InvokeResponseModel : public ::System::Object
 	{
 	public:

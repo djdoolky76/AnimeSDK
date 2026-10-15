@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ListenTargetUseSkill_TypeDefinitionIndex = 21745;
+
 	class ListenTargetUseSkill : public ::RPG::GameCore::TaskConfig
 	{
 	public:

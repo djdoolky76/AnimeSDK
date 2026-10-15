@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PIKAFICHPCL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC26A5B0)
 #define PIKAFICHPCL__ONTASKBEGIN_B__2_0_OFFSET UNITYSDK_OFFSET(0xC26AE10)
 
+inline static constexpr unsigned int PIKAFICHPCL_TypeDefinitionIndex = 58392;
+
 	class PIKAFICHPCL
 	{
 	public:

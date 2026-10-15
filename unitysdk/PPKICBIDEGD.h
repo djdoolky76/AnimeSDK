@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int PPKICBIDEGD_TypeDefinitionIndex = 43394;
+
 	struct alignas(4) PPKICBIDEGD
 	{
 		::System::Int32 FOAIMPPILHN; // 0x10

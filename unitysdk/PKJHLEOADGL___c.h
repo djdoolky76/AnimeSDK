@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define PKJHLEOADGL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC2C39A0)
 #define PKJHLEOADGL___C___CTOR_B__29_0_OFFSET UNITYSDK_OFFSET(0xC2C39B0)
 
+inline static constexpr unsigned int PKJHLEOADGL___c_TypeDefinitionIndex = 79471;
+
 	class PKJHLEOADGL___c : public ::System::Object
 	{
 	public:

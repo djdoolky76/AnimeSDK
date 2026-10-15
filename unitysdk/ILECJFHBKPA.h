@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define ILECJFHBKPA_LMLGKLHIDHH_OFFSET UNITYSDK_OFFSET(0x164ACC60)
 #define ILECJFHBKPA_SET_FACTORY_OFFSET UNITYSDK_OFFSET(0x164ACAC0)
 
+inline static constexpr unsigned int ILECJFHBKPA_TypeDefinitionIndex = 62741;
+
 	class ILECJFHBKPA : public ::System::Object
 	{
 	public:

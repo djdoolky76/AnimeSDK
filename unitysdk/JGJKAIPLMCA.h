@@ -32,6 +32,8 @@ namespace System { class String; }
 #define JGJKAIPLMCA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E73B020)
 #define JGJKAIPLMCA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E73B080)
 
+inline static constexpr unsigned int JGJKAIPLMCA_TypeDefinitionIndex = 32473;
+
 	class JGJKAIPLMCA : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client::OpenWorld
 {
+	inline static constexpr unsigned int PVSRuntimeReplaySamplerCheckInfo_TypeDefinitionIndex = 73765;
+
 	class PVSRuntimeReplaySamplerCheckInfo : public ::System::Object
 	{
 	public:

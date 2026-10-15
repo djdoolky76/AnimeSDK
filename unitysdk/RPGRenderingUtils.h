@@ -35,6 +35,8 @@ namespace System { class String; }
 #define RPGRENDERINGUTILS_MAKEVULKANRBACONFIGFILE_OFFSET UNITYSDK_OFFSET(0x1CC7F900)
 #define RPGRENDERINGUTILS_SETINVULKANWHITELIST_OFFSET UNITYSDK_OFFSET(0x1CC7F320)
 
+inline static constexpr unsigned int RPGRenderingUtils_TypeDefinitionIndex = 37480;
+
 	class RPGRenderingUtils : public ::System::Object
 	{
 	public:

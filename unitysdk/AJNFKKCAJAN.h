@@ -5,6 +5,8 @@
 
 #define AJNFKKCAJAN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8900D0)
 
+inline static constexpr unsigned int AJNFKKCAJAN_TypeDefinitionIndex = 42453;
+
 	class AJNFKKCAJAN : public ::System::Object
 	{
 	public:

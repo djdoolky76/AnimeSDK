@@ -62,6 +62,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 #define GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_8_OFFSET UNITYSDK_OFFSET(0x1CA84370)
 #define GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_9_OFFSET UNITYSDK_OFFSET(0x1CA843E0)
 
+inline static constexpr unsigned int GCHHPCDKEKE___c_TypeDefinitionIndex = 42831;
+
 	class GCHHPCDKEKE___c : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int HoYoChannelQueryResult_TypeDefinitionIndex = 8645;
+
 	class HoYoChannelQueryResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{
 	public:

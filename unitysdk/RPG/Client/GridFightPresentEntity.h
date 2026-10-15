@@ -18,6 +18,8 @@ namespace RPG::Client { class GridFightPresentEntity; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightPresentEntity_TypeDefinitionIndex = 64450;
+
 	class GridFightPresentEntity : public ::Sofa::Core::ObservableObject
 	{
 	public:

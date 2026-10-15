@@ -7,6 +7,8 @@
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingCarActiveSkillItemViewModel_TypeDefinitionIndex = 81984;
+
 	class B51RacingCarActiveSkillItemViewModel : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client::Challenge
 {
+	inline static constexpr unsigned int ChallengeGroupExpirationDetectViewModel_TypeDefinitionIndex = 81424;
+
 	class ChallengeGroupExpirationDetectViewModel : public ::System::Object
 	{
 	public:

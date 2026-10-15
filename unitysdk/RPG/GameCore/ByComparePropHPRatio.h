@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByComparePropHPRatio_TypeDefinitionIndex = 22262;
+
 	class ByComparePropHPRatio : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

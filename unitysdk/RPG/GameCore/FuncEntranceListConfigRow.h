@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FuncEntranceListConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FuncEntranceListConfigRow_TypeDefinitionIndex = 13310;
+
 	class FuncEntranceListConfigRow : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GameLevelObjectRefConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameLevelObjectRefConfig_TypeDefinitionIndex = 17417;
+
 	class GameLevelObjectRefConfig : public ::RPG::GameCore::DynamicJsonConfig
 	{
 	public:

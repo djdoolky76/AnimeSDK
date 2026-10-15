@@ -33,6 +33,8 @@ namespace System { class String; }
 #define CNOAPAMNDOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E10DC40)
 #define CNOAPAMNDOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E10DCA0)
 
+inline static constexpr unsigned int CNOAPAMNDOA_TypeDefinitionIndex = 29464;
+
 	class CNOAPAMNDOA : public ::System::Object
 	{
 	public:

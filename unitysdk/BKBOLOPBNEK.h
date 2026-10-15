@@ -6,6 +6,8 @@ namespace RPG::Client::LittleGame::ChenLing { class ChenLingHPMemoryInfo; }
 
 #define BKBOLOPBNEK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BC2E0)
 
+inline static constexpr unsigned int BKBOLOPBNEK_TypeDefinitionIndex = 43747;
+
 	class BKBOLOPBNEK : public ::System::Object
 	{
 	public:

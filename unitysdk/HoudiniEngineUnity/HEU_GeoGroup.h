@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_GeoGroup_TypeDefinitionIndex = 40639;
+
 	class HEU_GeoGroup : public ::System::Object
 	{
 	public:

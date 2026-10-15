@@ -8,6 +8,8 @@ namespace RPG::Client { class CakeRaceParticipantData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeRaceParticipantData___c__DisplayClass3_0_TypeDefinitionIndex = 63060;
+
 	class CakeRaceParticipantData___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

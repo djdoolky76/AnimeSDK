@@ -17,6 +17,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRCompositor__Submit_TypeDefinitionIndex = 39020;
+
 	class IVRCompositor__Submit : public ::System::MulticastDelegate
 	{
 	public:

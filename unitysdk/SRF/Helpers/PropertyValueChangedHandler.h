@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace SRF::Helpers
 {
+	inline static constexpr unsigned int PropertyValueChangedHandler_TypeDefinitionIndex = 35426;
+
 	class PropertyValueChangedHandler : public ::System::MulticastDelegate
 	{
 	public:

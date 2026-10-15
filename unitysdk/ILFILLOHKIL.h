@@ -6,6 +6,8 @@
 
 #define ILFILLOHKIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB78390)
 
+inline static constexpr unsigned int ILFILLOHKIL_TypeDefinitionIndex = 42076;
+
 	class ILFILLOHKIL : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define ILEMEHDHELP_KCHKMMFCPBD_OFFSET UNITYSDK_OFFSET(0x164AFD30)
 #define ILEMEHDHELP_KJAGMKOFOCF_OFFSET UNITYSDK_OFFSET(0x164AFB30)
 
+inline static constexpr unsigned int ILEMEHDHELP_TypeDefinitionIndex = 62511;
+
 	class ILEMEHDHELP : public ::System::Object
 	{
 	public:

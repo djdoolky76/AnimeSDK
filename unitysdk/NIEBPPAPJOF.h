@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int NIEBPPAPJOF_TypeDefinitionIndex = 30543;
+
 	enum class NIEBPPAPJOF : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

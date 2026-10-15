@@ -5,6 +5,8 @@
 
 namespace MiHoYo::SDK::HoYoUI
 {
+	inline static constexpr unsigned int FontSizeValueMap_TypeDefinitionIndex = 46726;
+
 	class FontSizeValueMap
 	{
 	public:

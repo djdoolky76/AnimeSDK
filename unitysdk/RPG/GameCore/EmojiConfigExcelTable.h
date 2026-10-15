@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EmojiConfigExcelTable_TypeDefinitionIndex = 13226;
+
 	class EmojiConfigExcelTable : public ::System::Object
 	{
 	public:

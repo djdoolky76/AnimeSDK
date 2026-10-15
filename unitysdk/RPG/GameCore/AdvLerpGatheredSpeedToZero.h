@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvLerpGatheredSpeedToZero_TypeDefinitionIndex = 20999;
+
 	class AdvLerpGatheredSpeedToZero : public ::RPG::GameCore::TaskConfig
 	{
 	public:

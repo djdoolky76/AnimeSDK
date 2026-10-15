@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define IDEHJPPOIFL_CTOR_OFFSET UNITYSDK_OFFSET(0x15EC4440)
 
+inline static constexpr unsigned int IDEHJPPOIFL_TypeDefinitionIndex = 57629;
+
 	class IDEHJPPOIFL : public ::System::Object
 	{
 	public:

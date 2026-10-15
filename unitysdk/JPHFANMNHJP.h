@@ -31,6 +31,8 @@ namespace System { class String; }
 #define JPHFANMNHJP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7D4D10)
 #define JPHFANMNHJP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7D4D70)
 
+inline static constexpr unsigned int JPHFANMNHJP_TypeDefinitionIndex = 25628;
+
 	class JPHFANMNHJP : public ::System::Object
 	{
 	public:

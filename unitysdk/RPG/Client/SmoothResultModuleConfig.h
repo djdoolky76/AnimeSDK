@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SmoothResultModuleConfig_TypeDefinitionIndex = 69688;
+
 	class SmoothResultModuleConfig : public ::RPG::Client::CameraModuleConfigBase
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ICEDIJHDAIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C691130)
 #define ICEDIJHDAIA_FGLGLHDAEDE_OFFSET UNITYSDK_OFFSET(0x1C6686C0)
 
+inline static constexpr unsigned int ICEDIJHDAIA_TypeDefinitionIndex = 36513;
+
 	class ICEDIJHDAIA : public ::System::Object
 	{
 	public:

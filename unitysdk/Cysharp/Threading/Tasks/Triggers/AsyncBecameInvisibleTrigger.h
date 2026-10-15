@@ -13,6 +13,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnBecameInvisibleHan
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncBecameInvisibleTrigger_TypeDefinitionIndex = 38521;
+
 	class AsyncBecameInvisibleTrigger
 	{
 	public:

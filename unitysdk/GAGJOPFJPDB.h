@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GAGJOPFJPDB_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE20020)
 #define GAGJOPFJPDB_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE1F9C0)
 
+inline static constexpr unsigned int GAGJOPFJPDB_TypeDefinitionIndex = 11387;
+
 	class GAGJOPFJPDB : public ::System::Object
 	{
 	public:

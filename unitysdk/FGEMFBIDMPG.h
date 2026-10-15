@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define FGEMFBIDMPG_CTOR_OFFSET UNITYSDK_OFFSET(0x15759540)
 
+inline static constexpr unsigned int FGEMFBIDMPG_TypeDefinitionIndex = 73660;
+
 	class FGEMFBIDMPG : public ::System::Attribute
 	{
 	public:

@@ -7,6 +7,8 @@ class NGOFKJDNLPB;
 #define JKNHENOJFIG___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB227F00)
 #define JKNHENOJFIG___C__DISPLAYCLASS26_0__SETDRIVER_B__0_OFFSET UNITYSDK_OFFSET(0xB229340)
 
+inline static constexpr unsigned int JKNHENOJFIG___c__DisplayClass26_0_TypeDefinitionIndex = 81711;
+
 	class JKNHENOJFIG___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:

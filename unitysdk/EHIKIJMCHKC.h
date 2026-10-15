@@ -7,6 +7,8 @@ class KBDKJPLJKHE;
 
 #define EHIKIJMCHKC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA50760)
 
+inline static constexpr unsigned int EHIKIJMCHKC_TypeDefinitionIndex = 43724;
+
 	class EHIKIJMCHKC : public ::System::Object
 	{
 	public:

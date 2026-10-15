@@ -8,6 +8,8 @@ namespace Entitas { class IContext; }
 
 namespace Entitas
 {
+	inline static constexpr unsigned int ContextInfoException_TypeDefinitionIndex = 9992;
+
 	class ContextInfoException : public ::Entitas::EntitasException
 	{
 	public:

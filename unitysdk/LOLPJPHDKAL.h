@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LOLPJPHDKAL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB80CD20)
 #define LOLPJPHDKAL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB80D270)
 
+inline static constexpr unsigned int LOLPJPHDKAL_TypeDefinitionIndex = 53585;
+
 	class LOLPJPHDKAL : public ::CMMNJAMJJCN
 	{
 	public:

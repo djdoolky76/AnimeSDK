@@ -4,6 +4,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 #define HMGKNAKEHKO_DCCEKIHMJCK_COMPARETO_OFFSET UNITYSDK_OFFSET(0x2E7F060)
 
+inline static constexpr unsigned int HMGKNAKEHKO_DCCEKIHMJCK_TypeDefinitionIndex = 53938;
+
 	struct alignas(8) HMGKNAKEHKO_DCCEKIHMJCK
 	{
 		::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x10

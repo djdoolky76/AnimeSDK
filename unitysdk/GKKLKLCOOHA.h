@@ -16,6 +16,8 @@ class JANDIGIAGOJ;
 #define GKKLKLCOOHA_INHBJHGKPGP_OFFSET UNITYSDK_OFFSET(0x15A9E3D0)
 #define GKKLKLCOOHA_JIBHKFNFHOD_OFFSET UNITYSDK_OFFSET(0x15A9F990)
 
+inline static constexpr unsigned int GKKLKLCOOHA_TypeDefinitionIndex = 73264;
+
 	class GKKLKLCOOHA : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine { class CullingGroup_StateChanged; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int CullingGroup_TypeDefinitionIndex = 4049;
+
 	class CullingGroup : public ::System::Object
 	{
 	public:

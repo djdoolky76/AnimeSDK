@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define CIAENAKKAAP_LCJMKJPECAP_OFFSET UNITYSDK_OFFSET(0x3C44B20)
 #define CIAENAKKAAP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C44D10)
 
+inline static constexpr unsigned int CIAENAKKAAP_TypeDefinitionIndex = 6281;
+
 	struct alignas(4) CIAENAKKAAP
 	{
 		::RPG::MVector2 BHCMCMADHBF; // 0x10

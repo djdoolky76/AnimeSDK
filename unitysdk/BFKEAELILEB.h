@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TwinkleFlipperLightDevice; }
 #define BFKEAELILEB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB170570)
 #define BFKEAELILEB_TICK_OFFSET UNITYSDK_OFFSET(0xB1705C0)
 
+inline static constexpr unsigned int BFKEAELILEB_TypeDefinitionIndex = 52777;
+
 	class BFKEAELILEB : public ::GELIALJDFBL
 	{
 	public:

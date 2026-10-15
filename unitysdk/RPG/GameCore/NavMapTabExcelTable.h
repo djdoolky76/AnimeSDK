@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NavMapTabExcelTable_TypeDefinitionIndex = 14003;
+
 	class NavMapTabExcelTable : public ::System::Object
 	{
 	public:

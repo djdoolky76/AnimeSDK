@@ -7,6 +7,8 @@ class FCOEMCEDLNL;
 #define ECHHEONGDJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD6A9E0)
 #define ECHHEONGDJB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD6A8A0)
 
+inline static constexpr unsigned int ECHHEONGDJB_TypeDefinitionIndex = 14517;
+
 	class ECHHEONGDJB : public ::System::Object
 	{
 	public:

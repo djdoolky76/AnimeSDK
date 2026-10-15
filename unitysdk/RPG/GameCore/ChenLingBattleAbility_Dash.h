@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChenLingBattleAbility_Dash; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAbility_Dash_TypeDefinitionIndex = 15732;
+
 	class ChenLingBattleAbility_Dash : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
 	public:

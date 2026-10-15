@@ -15,6 +15,8 @@ namespace RPG::GameCore { class ChimeraTalk; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraTalkManager_TypeDefinitionIndex = 63499;
+
 	class ChimeraTalkManager : public ::System::Object
 	{
 	public:

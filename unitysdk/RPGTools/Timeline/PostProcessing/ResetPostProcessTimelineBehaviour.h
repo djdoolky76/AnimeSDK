@@ -8,6 +8,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int ResetPostProcessTimelineBehaviour_TypeDefinitionIndex = 48608;
+
 	class ResetPostProcessTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HLBMABLINDL_CTOR_OFFSET UNITYSDK_OFFSET(0x15D5AB20)
 #define HLBMABLINDL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15D5AB50)
 
+inline static constexpr unsigned int HLBMABLINDL_TypeDefinitionIndex = 54888;
+
 	class HLBMABLINDL
 	{
 	public:

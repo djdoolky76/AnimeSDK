@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define JICLLEHFPKA_PKADDEPKJFN_1_OFFSET UNITYSDK_OFFSET(0xB1ED0A0)
 #define JICLLEHFPKA_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xB1ECC10)
 
+inline static constexpr unsigned int JICLLEHFPKA_TypeDefinitionIndex = 62702;
+
 	class JICLLEHFPKA : public ::System::Object
 	{
 	public:

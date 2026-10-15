@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LPCFIHKFKLM_MMMICMLBBEP_OFFSET UNITYSDK_OFFSET(0x1C742100)
 #define LPCFIHKFKLM_PKLEDGGKHHL_OFFSET UNITYSDK_OFFSET(0x1C7425D0)
 
+inline static constexpr unsigned int LPCFIHKFKLM_TypeDefinitionIndex = 36223;
+
 	class LPCFIHKFKLM : public ::System::Object
 	{
 	public:

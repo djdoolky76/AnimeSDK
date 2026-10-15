@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TempFixDevice; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TempFixDevice_TypeDefinitionIndex = 18274;
+
 	class TempFixDevice : public ::RPG::GameCore::JsonConfig
 	{
 	public:

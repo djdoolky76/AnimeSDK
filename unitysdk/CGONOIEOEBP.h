@@ -40,6 +40,8 @@ namespace System { class String; }
 #define CGONOIEOEBP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0B92D0)
 #define CGONOIEOEBP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0B9330)
 
+inline static constexpr unsigned int CGONOIEOEBP_TypeDefinitionIndex = 29865;
+
 	class CGONOIEOEBP : public ::System::Object
 	{
 	public:

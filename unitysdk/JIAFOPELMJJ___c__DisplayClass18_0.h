@@ -14,6 +14,8 @@ class PNFLEMCDMJD;
 #define JIAFOPELMJJ___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB1D1500)
 #define JIAFOPELMJJ___C__DISPLAYCLASS18_0__STARTFORDOWNLOADSIZE_B__0_OFFSET UNITYSDK_OFFSET(0xB1E6040)
 
+inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass18_0_TypeDefinitionIndex = 59508;
+
 	class JIAFOPELMJJ___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:

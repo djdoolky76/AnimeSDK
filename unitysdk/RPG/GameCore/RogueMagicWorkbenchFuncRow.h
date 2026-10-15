@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueMagicWorkbenchFuncRow_TypeDefinitionIndex = 14872;
+
 	class RogueMagicWorkbenchFuncRow : public ::System::Object
 	{
 	public:

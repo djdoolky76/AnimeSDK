@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define EIFJNMDDNPF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2A9210)
 #define EIFJNMDDNPF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E2A9220)
 
+inline static constexpr unsigned int EIFJNMDDNPF___c_TypeDefinitionIndex = 27125;
+
 	class EIFJNMDDNPF___c : public ::System::Object
 	{
 	public:

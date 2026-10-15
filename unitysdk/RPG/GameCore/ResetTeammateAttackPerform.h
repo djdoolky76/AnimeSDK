@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ResetTeammateAttackPerform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResetTeammateAttackPerform_TypeDefinitionIndex = 22492;
+
 	class ResetTeammateAttackPerform : public ::RPG::GameCore::TaskConfig
 	{
 	public:

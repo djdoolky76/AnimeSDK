@@ -36,6 +36,8 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AnimationState_TypeDefinitionIndex = 5743;
+
 	class AnimationState : public ::UnityEngine::TrackedReference
 	{
 	public:

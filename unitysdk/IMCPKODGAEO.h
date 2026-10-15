@@ -11,6 +11,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 #define IMCPKODGAEO_FHJHGEHOBFG_OFFSET UNITYSDK_OFFSET(0x164D1640)
 #define IMCPKODGAEO_HEAEPCJDABF_OFFSET UNITYSDK_OFFSET(0x164D14B0)
 
+inline static constexpr unsigned int IMCPKODGAEO_TypeDefinitionIndex = 48998;
+
 	class IMCPKODGAEO : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 #define AKIHJMPBMHO_NFMMIGNFNFE_OFFSET UNITYSDK_OFFSET(0x12CD38E0)
 #define AKIHJMPBMHO_OFLDFAAPKHK_OFFSET UNITYSDK_OFFSET(0x12CD3A10)
 
+inline static constexpr unsigned int AKIHJMPBMHO_TypeDefinitionIndex = 61079;
+
 	class AKIHJMPBMHO : public ::PEBDAPFKGKP
 	{
 	public:

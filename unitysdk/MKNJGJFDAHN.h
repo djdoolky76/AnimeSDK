@@ -10,6 +10,8 @@
 #define MKNJGJFDAHN_NCFONLHLEBH_OFFSET UNITYSDK_OFFSET(0xB99E310)
 #define MKNJGJFDAHN_NJNPNBKFBCL_OFFSET UNITYSDK_OFFSET(0xB99E360)
 
+inline static constexpr unsigned int MKNJGJFDAHN_TypeDefinitionIndex = 72384;
+
 	class MKNJGJFDAHN : public ::System::Object
 	{
 	public:

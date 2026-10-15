@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebDelegate_GeetestLoadURLDelegate_TypeDefinitionIndex = 7842;
+
 	class WebDelegate_GeetestLoadURLDelegate : public ::System::MulticastDelegate
 	{
 	public:

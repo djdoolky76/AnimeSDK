@@ -6,6 +6,8 @@
 
 namespace Unity::Collections
 {
+	inline static constexpr unsigned int NativeLeakDetection_TypeDefinitionIndex = 3986;
+
 	class NativeLeakDetection : public ::System::Object
 	{
 	public:

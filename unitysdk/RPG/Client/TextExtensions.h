@@ -32,6 +32,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TextExtensions_TypeDefinitionIndex = 72784;
+
 	class TextExtensions : public ::System::Object
 	{
 	public:

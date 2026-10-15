@@ -3,6 +3,8 @@
 
 namespace System::Linq
 {
+	inline static constexpr unsigned int Buffer_1_TypeDefinitionIndex = 3182;
+
 	template <typename T>
 	struct alignas(8) Buffer_1
 	{

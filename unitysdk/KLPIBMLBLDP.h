@@ -10,6 +10,8 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 #define KLPIBMLBLDP_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C71BA10)
 #define KLPIBMLBLDP_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C71B940)
 
+inline static constexpr unsigned int KLPIBMLBLDP_TypeDefinitionIndex = 37204;
+
 	class KLPIBMLBLDP : public ::System::Object
 	{
 	public:

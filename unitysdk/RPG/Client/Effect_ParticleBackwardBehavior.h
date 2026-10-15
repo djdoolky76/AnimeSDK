@@ -41,6 +41,8 @@ namespace UnityEngine { class ParticleSystemRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_ParticleBackwardBehavior_TypeDefinitionIndex = 70519;
+
 	class Effect_ParticleBackwardBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

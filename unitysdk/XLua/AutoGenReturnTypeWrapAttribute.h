@@ -6,6 +6,8 @@
 
 namespace XLua
 {
+	inline static constexpr unsigned int AutoGenReturnTypeWrapAttribute_TypeDefinitionIndex = 5603;
+
 	class AutoGenReturnTypeWrapAttribute : public ::System::Attribute
 	{
 	public:

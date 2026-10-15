@@ -23,6 +23,8 @@ namespace System::Text { class StringBuilder; }
 #define MEDFLBNBFGD_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB8BC2A0)
 #define MEDFLBNBFGD__CLONE___OFFSET UNITYSDK_OFFSET(0xB8BCA10)
 
+inline static constexpr unsigned int MEDFLBNBFGD_TypeDefinitionIndex = 80609;
+
 	class MEDFLBNBFGD : public ::System::Object
 	{
 	public:

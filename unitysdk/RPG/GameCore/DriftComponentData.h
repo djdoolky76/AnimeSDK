@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DriftComponentData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DriftComponentData_TypeDefinitionIndex = 19188;
+
 	class DriftComponentData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

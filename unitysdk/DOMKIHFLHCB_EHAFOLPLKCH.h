@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 class OAHHCMIKODC;
 
+inline static constexpr unsigned int DOMKIHFLHCB_EHAFOLPLKCH_TypeDefinitionIndex = 75022;
+
 	struct alignas(8) DOMKIHFLHCB_EHAFOLPLKCH
 	{
 		::System::UInt32 JCMHOLDHPPH; // 0x10

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class RollShopConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RollShopConfigRow_TypeDefinitionIndex = 15078;
+
 	class RollShopConfigRow : public ::System::Object
 	{
 	public:

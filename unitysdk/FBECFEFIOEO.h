@@ -10,6 +10,8 @@ namespace System { class String; }
 #define FBECFEFIOEO_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x15697690)
 #define FBECFEFIOEO_HLGPGJCBJJP_OFFSET UNITYSDK_OFFSET(0x15697800)
 
+inline static constexpr unsigned int FBECFEFIOEO_TypeDefinitionIndex = 73117;
+
 	class FBECFEFIOEO : public ::System::Object
 	{
 	public:

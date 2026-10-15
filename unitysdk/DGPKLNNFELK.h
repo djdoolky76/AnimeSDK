@@ -36,6 +36,8 @@ namespace System { class String; }
 #define DGPKLNNFELK_PDNAJIICOMB_OFFSET UNITYSDK_OFFSET(0xE85C150)
 #define DGPKLNNFELK_PGLHAMMBGLG_OFFSET UNITYSDK_OFFSET(0xE85BE20)
 
+inline static constexpr unsigned int DGPKLNNFELK_TypeDefinitionIndex = 73900;
+
 	class DGPKLNNFELK : public ::System::Object
 	{
 	public:

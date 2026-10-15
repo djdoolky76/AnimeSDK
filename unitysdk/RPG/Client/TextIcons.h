@@ -40,6 +40,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TextIcons_TypeDefinitionIndex = 72679;
+
 	class TextIcons : public ::UnityEngine::MonoBehaviour
 	{
 	public:

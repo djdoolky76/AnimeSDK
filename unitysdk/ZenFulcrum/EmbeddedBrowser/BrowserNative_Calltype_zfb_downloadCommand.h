@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_downloadCommand_TypeDefinitionIndex = 39460;
+
 	class BrowserNative_Calltype_zfb_downloadCommand : public ::System::MulticastDelegate
 	{
 	public:

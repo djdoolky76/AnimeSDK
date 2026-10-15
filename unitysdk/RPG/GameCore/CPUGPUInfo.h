@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CPUGPUInfo_TypeDefinitionIndex = 18271;
+
 	class CPUGPUInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

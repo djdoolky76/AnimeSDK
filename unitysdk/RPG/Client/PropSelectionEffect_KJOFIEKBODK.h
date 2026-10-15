@@ -16,6 +16,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PropSelectionEffect_KJOFIEKBODK_TypeDefinitionIndex = 60263;
+
 	class PropSelectionEffect_KJOFIEKBODK : public ::System::Object
 	{
 	public:

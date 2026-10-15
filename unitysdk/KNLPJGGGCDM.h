@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KNLPJGGGCDM_DKHGHEEEOBD_OFFSET UNITYSDK_OFFSET(0xB588A90)
 #define KNLPJGGGCDM_LPHILBLGOFN_OFFSET UNITYSDK_OFFSET(0xB588700)
 
+inline static constexpr unsigned int KNLPJGGGCDM_TypeDefinitionIndex = 57760;
+
 	struct alignas(4) KNLPJGGGCDM
 	{
 		::System::Int32 HPAIEAJFLED; // 0x10

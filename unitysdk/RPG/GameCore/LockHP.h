@@ -12,6 +12,8 @@ namespace RPG::GameCore { class LockHP; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LockHP_TypeDefinitionIndex = 23617;
+
 	class LockHP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int GoogleOAuthServer___c_TypeDefinitionIndex = 9316;
+
 	class GoogleOAuthServer___c : public ::System::Object
 	{
 	public:

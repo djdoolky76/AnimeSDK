@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StaminaExchangeExcelTable_TypeDefinitionIndex = 14505;
+
 	class StaminaExchangeExcelTable : public ::System::Object
 	{
 	public:

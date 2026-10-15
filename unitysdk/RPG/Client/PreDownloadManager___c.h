@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PreDownloadManager___c_TypeDefinitionIndex = 68305;
+
 	class PreDownloadManager___c : public ::System::Object
 	{
 	public:

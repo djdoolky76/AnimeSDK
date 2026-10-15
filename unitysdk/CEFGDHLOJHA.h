@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define CEFGDHLOJHA_PFNDOIILPNL_OFFSET UNITYSDK_OFFSET(0xC7844E0)
 #define CEFGDHLOJHA_PMKHFBJPEGN_OFFSET UNITYSDK_OFFSET(0xC784E60)
 
+inline static constexpr unsigned int CEFGDHLOJHA_TypeDefinitionIndex = 67560;
+
 	class CEFGDHLOJHA : public ::System::Object
 	{
 	public:

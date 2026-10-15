@@ -7,6 +7,8 @@ class LPLHNOPDKHI;
 #define GCHJLBBFGGB_CTOR_OFFSET UNITYSDK_OFFSET(0x159710E0)
 #define GCHJLBBFGGB_EFHOJNKCMDL_OFFSET UNITYSDK_OFFSET(0x159710F0)
 
+inline static constexpr unsigned int GCHJLBBFGGB_TypeDefinitionIndex = 67131;
+
 	class GCHJLBBFGGB : public ::LKLEBOOCADM
 	{
 	public:

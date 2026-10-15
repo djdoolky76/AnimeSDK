@@ -17,6 +17,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace MiniJSON_Min
 {
+	inline static constexpr unsigned int Json_Serializer_TypeDefinitionIndex = 41344;
+
 	class Json_Serializer : public ::System::Object
 	{
 	public:

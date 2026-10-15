@@ -29,6 +29,8 @@ namespace System::Xml { class XmlWriter; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlEntity_TypeDefinitionIndex = 1903;
+
 	class XmlEntity : public ::System::Xml::XmlNode
 	{
 	public:

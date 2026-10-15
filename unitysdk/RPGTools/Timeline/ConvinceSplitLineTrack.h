@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ConvinceSplitLineTrack_TypeDefinitionIndex = 48055;
+
 	class ConvinceSplitLineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

@@ -75,6 +75,8 @@ namespace System::Threading { class Thread; }
 #define BIKNABKBFDH_PDKLDMNAJBO_OFFSET UNITYSDK_OFFSET(0x1DD9DDD0)
 #define BIKNABKBFDH_SET_GATESERVERADDRESS_OFFSET UNITYSDK_OFFSET(0x1DDA0150)
 
+inline static constexpr unsigned int BIKNABKBFDH_TypeDefinitionIndex = 43951;
+
 	class BIKNABKBFDH : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EvolveBuildTreasureType_TypeDefinitionIndex = 24625;
+
 	enum class EvolveBuildTreasureType : ::System::Int32
 	{
 		StageEnd = 0,

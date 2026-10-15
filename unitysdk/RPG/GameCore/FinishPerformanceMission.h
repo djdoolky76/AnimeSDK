@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FinishPerformanceMission_TypeDefinitionIndex = 21099;
+
 	class FinishPerformanceMission : public ::RPG::GameCore::TaskConfig
 	{
 	public:

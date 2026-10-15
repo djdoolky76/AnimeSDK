@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByDamageSourceContainBehaviorFlag___O_TypeDefinitionIndex = 23311;
+
 	class ByDamageSourceContainBehaviorFlag___O : public ::System::Object
 	{
 	public:

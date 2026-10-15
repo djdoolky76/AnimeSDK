@@ -15,6 +15,8 @@ namespace System::Linq::Expressions { class ExpressionVisitor; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int ConstantExpression_TypeDefinitionIndex = 3212;
+
 	class ConstantExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:

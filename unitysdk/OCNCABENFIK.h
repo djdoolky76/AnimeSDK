@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OCNCABENFIK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D251D90)
 #define OCNCABENFIK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D251320)
 
+inline static constexpr unsigned int OCNCABENFIK_TypeDefinitionIndex = 14359;
+
 	class OCNCABENFIK : public ::System::Object
 	{
 	public:

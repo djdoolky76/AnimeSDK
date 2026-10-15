@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SO_PlayInteractOnPoint_TypeDefinitionIndex = 20064;
+
 	class SO_PlayInteractOnPoint : public ::RPG::GameCore::SOTaskConfig
 	{
 	public:

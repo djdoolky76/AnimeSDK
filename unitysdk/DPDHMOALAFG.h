@@ -9,6 +9,8 @@ class KKGMHJNMOID;
 #define DPDHMOALAFG_GET_DISPLAYCONFIG_OFFSET UNITYSDK_OFFSET(0x1C54F3B0)
 #define DPDHMOALAFG_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0x1C54F390)
 
+inline static constexpr unsigned int DPDHMOALAFG_TypeDefinitionIndex = 41745;
+
 	class DPDHMOALAFG : public ::System::Object
 	{
 	public:

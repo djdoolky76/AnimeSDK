@@ -11,6 +11,8 @@ namespace RPG::GameCore { class Freelook3rdVCamConfigChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int Freelook3rdVCamConfigChange_TypeDefinitionIndex = 22138;
+
 	class Freelook3rdVCamConfigChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:

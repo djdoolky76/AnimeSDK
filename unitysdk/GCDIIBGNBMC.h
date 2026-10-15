@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define GCDIIBGNBMC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA7ED80)
 
+inline static constexpr unsigned int GCDIIBGNBMC_TypeDefinitionIndex = 43784;
+
 	class GCDIIBGNBMC : public ::System::Object
 	{
 	public:

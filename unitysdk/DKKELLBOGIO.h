@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DKKELLBOGIO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1D8AD0)
 #define DKKELLBOGIO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1D8B30)
 
+inline static constexpr unsigned int DKKELLBOGIO_TypeDefinitionIndex = 28977;
+
 	class DKKELLBOGIO : public ::System::Object
 	{
 	public:

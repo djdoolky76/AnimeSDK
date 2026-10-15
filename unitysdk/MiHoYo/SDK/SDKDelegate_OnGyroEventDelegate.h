@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKDelegate_OnGyroEventDelegate_TypeDefinitionIndex = 7794;
+
 	class SDKDelegate_OnGyroEventDelegate : public ::System::MulticastDelegate
 	{
 	public:

@@ -8,6 +8,8 @@ class HBFPEEPJOPK;
 #define EJOKHBOJHNA___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0x154F5350)
 #define EJOKHBOJHNA___C__DISPLAYCLASS20_0___HANDLEFINISHEDENDMATCHREADYASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x154F6230)
 
+inline static constexpr unsigned int EJOKHBOJHNA___c__DisplayClass20_0_TypeDefinitionIndex = 81850;
+
 	class EJOKHBOJHNA___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

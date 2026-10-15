@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelDimensionFilterExpression; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelDimensionFilterExpression_TypeDefinitionIndex = 17193;
+
 	class LevelDimensionFilterExpression : public ::RPG::GameCore::JsonConfig
 	{
 	public:

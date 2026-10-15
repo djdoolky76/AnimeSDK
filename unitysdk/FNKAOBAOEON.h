@@ -6,6 +6,8 @@ namespace RPG::Client { class InventoryModule; }
 #define FNKAOBAOEON_CTOR_OFFSET UNITYSDK_OFFSET(0x15875240)
 #define FNKAOBAOEON_EMLGPKHMCAA_OFFSET UNITYSDK_OFFSET(0x15875250)
 
+inline static constexpr unsigned int FNKAOBAOEON_TypeDefinitionIndex = 74945;
+
 	class FNKAOBAOEON : public ::System::Object
 	{
 	public:

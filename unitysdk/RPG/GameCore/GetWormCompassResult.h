@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GetWormCompassResult_TypeDefinitionIndex = 22165;
+
 	class GetWormCompassResult : public ::RPG::GameCore::TaskConfig
 	{
 	public:

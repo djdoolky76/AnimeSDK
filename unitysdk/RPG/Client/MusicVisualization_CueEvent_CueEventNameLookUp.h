@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MusicVisualization_CueEvent_CueEventNameLookUp_TypeDefinitionIndex = 70807;
+
 	class MusicVisualization_CueEvent_CueEventNameLookUp : public ::System::Object
 	{
 	public:

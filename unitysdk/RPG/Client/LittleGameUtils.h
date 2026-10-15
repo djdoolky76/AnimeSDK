@@ -48,6 +48,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LittleGameUtils_TypeDefinitionIndex = 60406;
+
 	class LittleGameUtils : public ::System::Object
 	{
 	public:

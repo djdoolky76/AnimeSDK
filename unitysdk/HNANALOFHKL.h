@@ -25,6 +25,8 @@ namespace System { class String; }
 #define HNANALOFHKL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5D77E0)
 #define HNANALOFHKL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5D7840)
 
+inline static constexpr unsigned int HNANALOFHKL_TypeDefinitionIndex = 34445;
+
 	class HNANALOFHKL : public ::System::Object
 	{
 	public:

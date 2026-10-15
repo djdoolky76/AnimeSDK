@@ -8,6 +8,8 @@ class KGLLENLBNFD;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GamePhase_TypeDefinitionIndex = 61122;
+
 	class GamePhase : public ::RPG::Client::BasePhase
 	{
 	public:

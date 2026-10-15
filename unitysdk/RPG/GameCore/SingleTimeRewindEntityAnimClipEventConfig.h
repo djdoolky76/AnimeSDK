@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SingleTimeRewindEntityAnimClipEventConfig_TypeDefinitionIndex = 16600;
+
 	class SingleTimeRewindEntityAnimClipEventConfig : public ::RPG::GameCore::SingleTimeRewindEntityAnimEventBaseConfig
 	{
 	public:

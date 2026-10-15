@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineVirtualCamera_OnUpdateVirtualCameraDelegate_TypeDefinitionIndex = 39765;
+
 	class CinemachineVirtualCamera_OnUpdateVirtualCameraDelegate : public ::System::MulticastDelegate
 	{
 	public:

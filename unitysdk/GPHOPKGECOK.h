@@ -15,6 +15,8 @@ namespace System::Text { class StringBuilder; }
 #define GPHOPKGECOK_IOJKCPHGDCB_OFFSET UNITYSDK_OFFSET(0x15B5A170)
 #define GPHOPKGECOK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15B5A120)
 
+inline static constexpr unsigned int GPHOPKGECOK_TypeDefinitionIndex = 49152;
+
 	class GPHOPKGECOK : public ::System::Object
 	{
 	public:

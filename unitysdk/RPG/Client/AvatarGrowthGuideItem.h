@@ -8,6 +8,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarGrowthGuideItem_TypeDefinitionIndex = 65546;
+
 	class AvatarGrowthGuideItem : public ::RPG::Client::BaseGrowthGuideItem
 	{
 	public:

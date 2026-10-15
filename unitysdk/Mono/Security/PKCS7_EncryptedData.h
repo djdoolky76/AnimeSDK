@@ -11,6 +11,8 @@ namespace Mono::Security { class PKCS7_ContentInfo; }
 
 namespace Mono::Security
 {
+	inline static constexpr unsigned int PKCS7_EncryptedData_TypeDefinitionIndex = 50;
+
 	class PKCS7_EncryptedData : public ::System::Object
 	{
 	public:

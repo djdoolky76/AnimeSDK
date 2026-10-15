@@ -5,6 +5,8 @@
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int QuickDrag_OnDragEnd_TypeDefinitionIndex = 40257;
+
 	class QuickDrag_OnDragEnd
 	{
 	public:

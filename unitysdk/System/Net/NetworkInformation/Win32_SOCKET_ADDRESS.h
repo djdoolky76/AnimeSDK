@@ -3,6 +3,8 @@
 
 namespace System::Net::NetworkInformation
 {
+	inline static constexpr unsigned int Win32_SOCKET_ADDRESS_TypeDefinitionIndex = 2969;
+
 	struct alignas(4) Win32_SOCKET_ADDRESS
 	{
 		::System::IntPtr Sockaddr; // 0x10

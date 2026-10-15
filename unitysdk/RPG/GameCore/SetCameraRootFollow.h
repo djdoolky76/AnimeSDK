@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetCameraRootFollow_TypeDefinitionIndex = 22890;
+
 	class SetCameraRootFollow : public ::RPG::GameCore::TaskConfig
 	{
 	public:

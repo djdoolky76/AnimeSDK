@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int World3DMapUtils_TypeDefinitionIndex = 68280;
+
 	class World3DMapUtils : public ::System::Object
 	{
 	public:

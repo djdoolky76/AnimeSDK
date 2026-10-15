@@ -5,6 +5,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int NoiseSettings_NoiseParams_TypeDefinitionIndex = 39841;
+
 	struct alignas(4) NoiseSettings_NoiseParams
 	{
 		::System::Single Frequency; // 0x10

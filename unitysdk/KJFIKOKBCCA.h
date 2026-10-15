@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define KJFIKOKBCCA_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x2FA52C0)
 #define KJFIKOKBCCA_MBABPIHGAJN_OFFSET UNITYSDK_OFFSET(0x3C4C0A0)
 
+inline static constexpr unsigned int KJFIKOKBCCA_TypeDefinitionIndex = 6431;
+
 	struct alignas(8) KJFIKOKBCCA
 	{
 		::ICFEIEJDMIB APKCDIIEJLO; // 0x10

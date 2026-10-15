@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChangeFaceDir_TypeDefinitionIndex = 22450;
+
 	class ChangeFaceDir : public ::RPG::GameCore::TaskConfig
 	{
 	public:

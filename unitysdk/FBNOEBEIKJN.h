@@ -8,6 +8,8 @@ namespace RPG::Client { class PipelineCameraGlobalConfig; }
 
 #define FBNOEBEIKJN_CTOR_OFFSET UNITYSDK_OFFSET(0x156A9760)
 
+inline static constexpr unsigned int FBNOEBEIKJN_TypeDefinitionIndex = 69741;
+
 	class FBNOEBEIKJN : public ::ELALAHMNKGK
 	{
 	public:

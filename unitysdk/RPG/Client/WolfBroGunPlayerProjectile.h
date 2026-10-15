@@ -12,6 +12,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayerProjectile_TypeDefinitionIndex = 68763;
+
 	class WolfBroGunPlayerProjectile : public ::RPG::Client::WolfBroGunProjectile
 	{
 	public:

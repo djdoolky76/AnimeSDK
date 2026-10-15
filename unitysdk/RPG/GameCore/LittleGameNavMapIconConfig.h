@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameNavMapIconConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameNavMapIconConfig_TypeDefinitionIndex = 18831;
+
 	class LittleGameNavMapIconConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

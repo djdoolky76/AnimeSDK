@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Map_OnMapObjectsUpdateRequestFinish_TypeDefinitionIndex = 60863;
+
 	class Map_OnMapObjectsUpdateRequestFinish : public ::System::MulticastDelegate
 	{
 	public:

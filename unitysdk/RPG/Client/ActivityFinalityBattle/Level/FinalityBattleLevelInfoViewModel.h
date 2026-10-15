@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityFinalityBattle::Level
 {
+	inline static constexpr unsigned int FinalityBattleLevelInfoViewModel_TypeDefinitionIndex = 82093;
+
 	class FinalityBattleLevelInfoViewModel : public ::System::Object
 	{
 	public:

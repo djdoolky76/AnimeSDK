@@ -15,6 +15,8 @@ namespace RPG::Client { class QuestData; }
 #define LNGHFLMPCFN_MJNALEIJGFM_OFFSET UNITYSDK_OFFSET(0xB7DE190)
 #define LNGHFLMPCFN_PHGCJNJHENI_OFFSET UNITYSDK_OFFSET(0xB7DE500)
 
+inline static constexpr unsigned int LNGHFLMPCFN_TypeDefinitionIndex = 82106;
+
 	class LNGHFLMPCFN : public ::System::Object
 	{
 	public:

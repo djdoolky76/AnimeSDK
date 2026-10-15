@@ -3,6 +3,8 @@
 
 #define HNNHKPKCMJD_LKMPGINCCBI_CTOR_OFFSET UNITYSDK_OFFSET(0x3C2A3F0)
 
+inline static constexpr unsigned int HNNHKPKCMJD_LKMPGINCCBI_TypeDefinitionIndex = 36861;
+
 	struct alignas(4) HNNHKPKCMJD_LKMPGINCCBI
 	{
 		::System::UInt32 KNEFCBAALDF; // 0x10

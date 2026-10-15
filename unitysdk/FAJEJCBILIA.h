@@ -30,6 +30,8 @@ namespace System { class String; }
 #define FAJEJCBILIA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E326DD0)
 #define FAJEJCBILIA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E326E30)
 
+inline static constexpr unsigned int FAJEJCBILIA_TypeDefinitionIndex = 29960;
+
 	class FAJEJCBILIA : public ::System::Object
 	{
 	public:

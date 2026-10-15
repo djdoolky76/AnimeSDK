@@ -24,6 +24,8 @@ namespace System { class Object; }
 #define HGMJGAOAAGP_SETNEXTTASK_OFFSET UNITYSDK_OFFSET(0x15CB1530)
 #define HGMJGAOAAGP_TICK_OFFSET UNITYSDK_OFFSET(0x15CB1E30)
 
+inline static constexpr unsigned int HGMJGAOAAGP_TypeDefinitionIndex = 52617;
+
 	class HGMJGAOAAGP : public ::GELIALJDFBL
 	{
 	public:

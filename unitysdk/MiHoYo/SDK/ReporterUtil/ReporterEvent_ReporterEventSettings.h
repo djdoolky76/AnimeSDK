@@ -10,6 +10,8 @@
 
 namespace MiHoYo::SDK::ReporterUtil
 {
+	inline static constexpr unsigned int ReporterEvent_ReporterEventSettings_TypeDefinitionIndex = 46653;
+
 	class ReporterEvent_ReporterEventSettings : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define LJEFLIPKKHL_CTOR_OFFSET UNITYSDK_OFFSET(0xB6E1D80)
 
+inline static constexpr unsigned int LJEFLIPKKHL_TypeDefinitionIndex = 48315;
+
 	class LJEFLIPKKHL : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

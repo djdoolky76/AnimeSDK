@@ -31,6 +31,8 @@ namespace System { class String; }
 #define MBPDIPLJMKN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9EFA20)
 #define MBPDIPLJMKN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9EFA80)
 
+inline static constexpr unsigned int MBPDIPLJMKN_TypeDefinitionIndex = 29183;
+
 	class MBPDIPLJMKN : public ::System::Object
 	{
 	public:

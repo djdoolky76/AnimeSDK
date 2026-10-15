@@ -9,6 +9,8 @@ class GPLMLPKBGGE;
 #define HPNACKEGJIF_KKMDPIMBCML_1_OFFSET UNITYSDK_OFFSET(0x1C559900)
 #define HPNACKEGJIF_KKMDPIMBCML_OFFSET UNITYSDK_OFFSET(0x1C556020)
 
+inline static constexpr unsigned int HPNACKEGJIF_TypeDefinitionIndex = 41864;
+
 	class HPNACKEGJIF : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine::UI { class DefaultControls_IFactoryControls; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int DefaultControls_DefaultRuntimeFactory_TypeDefinitionIndex = 6705;
+
 	class DefaultControls_DefaultRuntimeFactory : public ::System::Object
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System { class String; }
 #define LGKGKENHNCL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E954BD0)
 #define LGKGKENHNCL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E954C30)
 
+inline static constexpr unsigned int LGKGKENHNCL_TypeDefinitionIndex = 30976;
+
 	class LGKGKENHNCL : public ::System::Object
 	{
 	public:

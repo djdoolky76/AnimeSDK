@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int UIConstants_OverseaThirdPartyOAuthElements_TypeDefinitionIndex = 46872;
+
 	class UIConstants_OverseaThirdPartyOAuthElements : public ::System::Object
 	{
 	public:

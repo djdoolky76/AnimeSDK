@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VolumeData_TypeDefinitionIndex = 70835;
+
 	class VolumeData : public ::System::Object
 	{
 	public:

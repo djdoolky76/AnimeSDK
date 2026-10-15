@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PersonalizeUtils_TypeDefinitionIndex = 66452;
+
 	class PersonalizeUtils : public ::System::Object
 	{
 	public:

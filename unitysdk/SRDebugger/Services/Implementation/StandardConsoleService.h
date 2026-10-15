@@ -36,6 +36,8 @@ namespace UnityEngine { class ILogHandler; }
 
 namespace SRDebugger::Services::Implementation
 {
+	inline static constexpr unsigned int StandardConsoleService_TypeDefinitionIndex = 38088;
+
 	class StandardConsoleService : public ::System::Object
 	{
 	public:

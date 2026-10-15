@@ -32,6 +32,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Console::OS
 {
+	inline static constexpr unsigned int PayManagerPS_TypeDefinitionIndex = 9091;
+
 	class PayManagerPS : public ::MiHoYo::SDK::Console::PayManagerBase
 	{
 	public:

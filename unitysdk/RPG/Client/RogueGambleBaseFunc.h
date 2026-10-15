@@ -59,6 +59,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueGambleBaseFunc_TypeDefinitionIndex = 67231;
+
 	class RogueGambleBaseFunc : public ::System::Object
 	{
 	public:

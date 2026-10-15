@@ -7,6 +7,8 @@
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int LoopGridView_ItemRangeData_TypeDefinitionIndex = 47655;
+
 	class LoopGridView_ItemRangeData : public ::System::Object
 	{
 	public:

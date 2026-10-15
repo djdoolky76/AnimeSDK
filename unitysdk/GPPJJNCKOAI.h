@@ -5,6 +5,8 @@
 
 #define GPPJJNCKOAI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB5700)
 
+inline static constexpr unsigned int GPPJJNCKOAI_TypeDefinitionIndex = 42214;
+
 	class GPPJJNCKOAI : public ::System::Object
 	{
 	public:

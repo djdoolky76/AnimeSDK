@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DOAMKIOFOGD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x11FDCA70)
 #define DOAMKIOFOGD_TICK_OFFSET UNITYSDK_OFFSET(0x11FDCAC0)
 
+inline static constexpr unsigned int DOAMKIOFOGD_TypeDefinitionIndex = 53869;
+
 	class DOAMKIOFOGD : public ::GELIALJDFBL
 	{
 	public:

@@ -8,6 +8,8 @@ class LNLJFDBENMF;
 #define LNLJFDBENMF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D11E6D0)
 #define LNLJFDBENMF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D11E680)
 
+inline static constexpr unsigned int LNLJFDBENMF_TypeDefinitionIndex = 19949;
+
 	class LNLJFDBENMF : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarRowWrapperExtraParam_TypeDefinitionIndex = 56539;
+
 	struct alignas(8) AvatarRowWrapperExtraParam
 	{
 		::RPG::GameCore::AvatarRowWrapperDeriveType WrapperDeriveType; // 0x10

@@ -21,6 +21,8 @@ namespace System::Runtime::Serialization::Formatters::Binary { class ReadObjectI
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int ParseRecord_TypeDefinitionIndex = 1192;
+
 	class ParseRecord : public ::System::Object
 	{
 	public:

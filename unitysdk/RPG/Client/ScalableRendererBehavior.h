@@ -22,6 +22,8 @@ namespace UnityEngine { class ComputeBuffer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ScalableRendererBehavior_TypeDefinitionIndex = 70309;
+
 	class ScalableRendererBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

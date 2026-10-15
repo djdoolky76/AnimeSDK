@@ -6,6 +6,8 @@
 
 namespace RPGTools::Story
 {
+	inline static constexpr unsigned int CameraRegionCheckVisualization_TypeDefinitionIndex = 48972;
+
 	class CameraRegionCheckVisualization : public ::UnityEngine::MonoBehaviour
 	{
 	public:

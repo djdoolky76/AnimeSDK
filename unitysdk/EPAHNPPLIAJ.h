@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MIGPNAOGHEP.h"
 
+inline static constexpr unsigned int EPAHNPPLIAJ_TypeDefinitionIndex = 69394;
+
 	struct alignas(4) EPAHNPPLIAJ
 	{
 		::MIGPNAOGHEP PLPPPCEPBDO; // 0x10

@@ -10,6 +10,8 @@ namespace System::Xml::Schema { class SymbolsDictionary; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int RangeContentValidator_TypeDefinitionIndex = 2083;
+
 	class RangeContentValidator : public ::System::Xml::Schema::ContentValidator
 	{
 	public:

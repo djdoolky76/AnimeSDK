@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define FGKBHGIIBDL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x157668D0)
 
+inline static constexpr unsigned int FGKBHGIIBDL_TypeDefinitionIndex = 76516;
+
 	class FGKBHGIIBDL : public ::System::Object
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsChatMessageItemViewModel_TypeDefinitionIndex = 80434;
+
 	class LimaoNewsChatMessageItemViewModel : public ::RPG::Client::LimaoNews::LimaoNewsMessageItemViewModel
 	{
 	public:

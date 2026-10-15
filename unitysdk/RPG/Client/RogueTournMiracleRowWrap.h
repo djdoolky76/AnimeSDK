@@ -16,6 +16,8 @@ namespace RPG::GameCore { class RogueTournMiracleRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournMiracleRowWrap_TypeDefinitionIndex = 67291;
+
 	class RogueTournMiracleRowWrap : public ::System::Object
 	{
 	public:

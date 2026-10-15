@@ -10,6 +10,8 @@ namespace UnityEngine::Events { class UnityAction; }
 #define JNKGDNBKDEC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB289A00)
 #define JNKGDNBKDEC_JJJJGFJDKOJ_OFFSET UNITYSDK_OFFSET(0xB2897C0)
 
+inline static constexpr unsigned int JNKGDNBKDEC_TypeDefinitionIndex = 49904;
+
 	class JNKGDNBKDEC : public ::System::Object
 	{
 	public:

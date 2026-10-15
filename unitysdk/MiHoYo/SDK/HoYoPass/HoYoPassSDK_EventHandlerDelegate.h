@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int HoYoPassSDK_EventHandlerDelegate_TypeDefinitionIndex = 8295;
+
 	class HoYoPassSDK_EventHandlerDelegate : public ::System::MulticastDelegate
 	{
 	public:

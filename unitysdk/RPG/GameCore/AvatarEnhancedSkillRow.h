@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AvatarEnhancedSkillRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarEnhancedSkillRow_TypeDefinitionIndex = 12787;
+
 	class AvatarEnhancedSkillRow : public ::System::Object
 	{
 	public:

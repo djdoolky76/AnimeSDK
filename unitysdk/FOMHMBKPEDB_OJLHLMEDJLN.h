@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CombatPowerAvatarRarityType.h"
 
+inline static constexpr unsigned int FOMHMBKPEDB_OJLHLMEDJLN_TypeDefinitionIndex = 59042;
+
 	struct alignas(4) FOMHMBKPEDB_OJLHLMEDJLN
 	{
 		::System::UInt32 AAGKEBFHLMC; // 0x10

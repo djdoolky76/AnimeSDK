@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityRankIconRow_TypeDefinitionIndex = 11211;
+
 	class ActivityRankIconRow : public ::System::Object
 	{
 	public:

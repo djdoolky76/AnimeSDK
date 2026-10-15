@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LIONJNJEBBF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E973AC0)
 #define LIONJNJEBBF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E973B20)
 
+inline static constexpr unsigned int LIONJNJEBBF_TypeDefinitionIndex = 34546;
+
 	class LIONJNJEBBF : public ::System::Object
 	{
 	public:

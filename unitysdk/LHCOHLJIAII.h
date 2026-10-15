@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LHCOHLJIAII_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E95D750)
 #define LHCOHLJIAII_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E95D7B0)
 
+inline static constexpr unsigned int LHCOHLJIAII_TypeDefinitionIndex = 29462;
+
 	class LHCOHLJIAII : public ::System::Object
 	{
 	public:

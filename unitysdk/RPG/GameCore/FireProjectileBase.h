@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FireProjectileBase_TypeDefinitionIndex = 22579;
+
 	class FireProjectileBase : public ::RPG::GameCore::TaskConfig
 	{
 	public:

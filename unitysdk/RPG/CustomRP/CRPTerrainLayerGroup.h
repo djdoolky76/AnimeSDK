@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPTerrainLayerGroup_TypeDefinitionIndex = 37723;
+
 	struct alignas(8) CRPTerrainLayerGroup
 	{
 		::System::String* name; // 0x10

@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class SortedSet_1
 #define KHOJFFEPLEO_SET_ANCHORGRIDSETS_OFFSET UNITYSDK_OFFSET(0xB414D50)
 #define KHOJFFEPLEO_SET_GRIDANCHORDATADICT_OFFSET UNITYSDK_OFFSET(0xB414D30)
 
+inline static constexpr unsigned int KHOJFFEPLEO_TypeDefinitionIndex = 74113;
+
 	class KHOJFFEPLEO : public ::System::Object
 	{
 	public:

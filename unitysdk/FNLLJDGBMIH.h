@@ -18,6 +18,8 @@ namespace UnityEngine { class Animation; }
 #define FNLLJDGBMIH_PEGNJCBFPFB_OFFSET UNITYSDK_OFFSET(0x1587F1A0)
 #define FNLLJDGBMIH__ONBIND_OFFSET UNITYSDK_OFFSET(0x1587EF60)
 
+inline static constexpr unsigned int FNLLJDGBMIH_TypeDefinitionIndex = 71259;
+
 	class FNLLJDGBMIH : public ::CAOEEDDAPIK
 	{
 	public:

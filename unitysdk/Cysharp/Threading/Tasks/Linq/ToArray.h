@@ -4,6 +4,8 @@
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int ToArray_TypeDefinitionIndex = 45673;
+
 	class ToArray : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JHHOPDBLDEG_HIDEJDELEEB_OFFSET UNITYSDK_OFFSET(0x1C563DD0)
 #define JHHOPDBLDEG_NCLOMPDLJPB_OFFSET UNITYSDK_OFFSET(0x1C563E10)
 
+inline static constexpr unsigned int JHHOPDBLDEG_TypeDefinitionIndex = 41760;
+
 	class JHHOPDBLDEG : public ::BNMIBEFPHNF
 	{
 	public:

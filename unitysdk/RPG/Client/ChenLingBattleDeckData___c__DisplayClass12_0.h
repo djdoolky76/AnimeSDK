@@ -10,6 +10,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChenLingBattleDeckData___c__DisplayClass12_0_TypeDefinitionIndex = 61427;
+
 	class ChenLingBattleDeckData___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

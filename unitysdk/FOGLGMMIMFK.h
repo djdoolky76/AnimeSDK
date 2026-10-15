@@ -10,6 +10,8 @@ namespace System { class String; }
 #define FOGLGMMIMFK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x158E8FD0)
 #define FOGLGMMIMFK_CTOR_OFFSET UNITYSDK_OFFSET(0x158E93F0)
 
+inline static constexpr unsigned int FOGLGMMIMFK_TypeDefinitionIndex = 65986;
+
 	class FOGLGMMIMFK : public ::System::Object
 	{
 	public:

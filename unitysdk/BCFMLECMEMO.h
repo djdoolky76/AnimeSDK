@@ -7,6 +7,8 @@ class GEMBPMMMGBP;
 
 #define BCFMLECMEMO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15EA6880)
 
+inline static constexpr unsigned int BCFMLECMEMO_TypeDefinitionIndex = 74442;
+
 	class BCFMLECMEMO : public ::System::Object
 	{
 	public:

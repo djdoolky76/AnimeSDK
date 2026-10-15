@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define ILDAHELBCKK_CTOR_OFFSET UNITYSDK_OFFSET(0x164A8D50)
 #define ILDAHELBCKK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x164A8D80)
 
+inline static constexpr unsigned int ILDAHELBCKK_TypeDefinitionIndex = 53160;
+
 	class ILDAHELBCKK
 	{
 	public:

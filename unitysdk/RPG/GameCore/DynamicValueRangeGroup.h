@@ -12,6 +12,8 @@ namespace RPG::GameCore { class DynamicValueRangeGroup; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DynamicValueRangeGroup_TypeDefinitionIndex = 18226;
+
 	class DynamicValueRangeGroup : public ::RPG::GameCore::JsonConfig
 	{
 	public:

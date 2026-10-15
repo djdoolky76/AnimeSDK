@@ -41,6 +41,8 @@ namespace System { class Type; }
 
 namespace System
 {
+	inline static constexpr unsigned int ThrowHelper_FE351DABE2F41DB0_TypeDefinitionIndex = 4985;
+
 	class ThrowHelper_FE351DABE2F41DB0 : public ::System::Object
 	{
 	public:

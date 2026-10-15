@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropReplaceTVTexture_TypeDefinitionIndex = 22072;
+
 	class PropReplaceTVTexture : public ::RPG::GameCore::TaskConfig
 	{
 	public:

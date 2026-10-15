@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonRootMotionBase_RootMotionDelegate_TypeDefinitionIndex = 45023;
+
 	class SkeletonRootMotionBase_RootMotionDelegate : public ::System::MulticastDelegate
 	{
 	public:

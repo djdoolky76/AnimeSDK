@@ -8,6 +8,8 @@ namespace System::Net { class HeaderParser; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int HeaderInfo_TypeDefinitionIndex = 2776;
+
 	class HeaderInfo : public ::System::Object
 	{
 	public:

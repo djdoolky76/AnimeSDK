@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define ACDDONMMNGG_PMCANNHCOCK_OFFSET UNITYSDK_OFFSET(0x1CCA3880)
 #define ACDDONMMNGG_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CCA2CA0)
 
+inline static constexpr unsigned int ACDDONMMNGG_TypeDefinitionIndex = 12794;
+
 	class ACDDONMMNGG : public ::System::Object
 	{
 	public:

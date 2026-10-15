@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TalkEmotionData_TypeDefinitionIndex = 71125;
+
 	class TalkEmotionData : public ::System::Object
 	{
 	public:

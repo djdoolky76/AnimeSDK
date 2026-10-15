@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetAdvLockDistance; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetAdvLockDistance_TypeDefinitionIndex = 20156;
+
 	class SetAdvLockDistance : public ::RPG::GameCore::TaskConfig
 	{
 	public:

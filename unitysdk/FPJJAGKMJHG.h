@@ -11,6 +11,8 @@ namespace Proto { class MonopolyActionResult; }
 #define FPJJAGKMJHG_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0x1591D760)
 #define FPJJAGKMJHG_TRIGGER_OFFSET UNITYSDK_OFFSET(0x1591D630)
 
+inline static constexpr unsigned int FPJJAGKMJHG_TypeDefinitionIndex = 66229;
+
 	class FPJJAGKMJHG : public ::System::Object
 	{
 	public:

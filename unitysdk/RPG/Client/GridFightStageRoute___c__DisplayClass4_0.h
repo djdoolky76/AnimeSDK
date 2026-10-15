@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GridFightStageRouteConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightStageRoute___c__DisplayClass4_0_TypeDefinitionIndex = 65251;
+
 	class GridFightStageRoute___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

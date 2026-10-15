@@ -35,6 +35,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int GetShopListScRsp_TypeDefinitionIndex = 34177;
+
 	class GetShopListScRsp : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int UnassignedReferenceException_TypeDefinitionIndex = 4346;
+
 	class UnassignedReferenceException : public ::System::Exception
 	{
 	public:

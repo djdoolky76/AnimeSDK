@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HGFAKPMMGJP_MNJMKIGEKAF_OFFSET UNITYSDK_OFFSET(0x15C97B50)
 #define HGFAKPMMGJP_NNCNGNEIHGL_OFFSET UNITYSDK_OFFSET(0x15C97E10)
 
+inline static constexpr unsigned int HGFAKPMMGJP_TypeDefinitionIndex = 69458;
+
 	class HGFAKPMMGJP : public ::System::Object
 	{
 	public:

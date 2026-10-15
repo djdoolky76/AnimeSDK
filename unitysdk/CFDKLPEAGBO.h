@@ -5,6 +5,8 @@ namespace RPG::GameCore { class MarbleCoopBossBornPosition; }
 
 #define CFDKLPEAGBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E1320)
 
+inline static constexpr unsigned int CFDKLPEAGBO_TypeDefinitionIndex = 42184;
+
 	class CFDKLPEAGBO : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatPVPStartMatchParam_TypeDefinitionIndex = 76127;
+
 	class DiceCombatPVPStartMatchParam : public ::System::Object
 	{
 	public:

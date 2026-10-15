@@ -19,6 +19,8 @@ namespace RPG::Client::ChenLingFes { class ChenLingFesGameplayFeverViewModel; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameplayFeverViewModel_TypeDefinitionIndex = 81373;
+
 	class ChenLingFesGameplayFeverViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

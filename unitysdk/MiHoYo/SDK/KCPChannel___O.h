@@ -5,6 +5,8 @@ namespace MiHoYo::SDK { class KcpOutput; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int KCPChannel___O_TypeDefinitionIndex = 46128;
+
 	class KCPChannel___O : public ::System::Object
 	{
 	public:

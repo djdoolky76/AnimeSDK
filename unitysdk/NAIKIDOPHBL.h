@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NAIKIDOPHBL_CTOR_OFFSET UNITYSDK_OFFSET(0xBA9D9E0)
 #define NAIKIDOPHBL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA9DAC0)
 
+inline static constexpr unsigned int NAIKIDOPHBL_TypeDefinitionIndex = 55476;
+
 	class NAIKIDOPHBL
 	{
 	public:

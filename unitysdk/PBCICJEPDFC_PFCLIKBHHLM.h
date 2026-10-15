@@ -4,6 +4,8 @@
 
 #define PBCICJEPDFC_PFCLIKBHHLM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7E78B0)
 
+inline static constexpr unsigned int PBCICJEPDFC_PFCLIKBHHLM_TypeDefinitionIndex = 37110;
+
 	class PBCICJEPDFC_PFCLIKBHHLM : public ::System::Object
 	{
 	public:

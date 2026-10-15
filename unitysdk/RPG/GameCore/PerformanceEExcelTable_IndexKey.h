@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceEExcelTable_IndexKey_TypeDefinitionIndex = 14334;
+
 	struct alignas(4) PerformanceEExcelTable_IndexKey
 	{
 		::System::UInt32 PerformanceID; // 0x10

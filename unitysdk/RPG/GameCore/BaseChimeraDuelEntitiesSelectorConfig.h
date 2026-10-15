@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaseChimeraDuelEntitiesSelectorConfig_TypeDefinitionIndex = 15898;
+
 	class BaseChimeraDuelEntitiesSelectorConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

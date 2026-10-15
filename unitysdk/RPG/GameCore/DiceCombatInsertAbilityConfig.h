@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatInsertAbilityConfig_TypeDefinitionIndex = 16121;
+
 	class DiceCombatInsertAbilityConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

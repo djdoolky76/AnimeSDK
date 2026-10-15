@@ -25,6 +25,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::PixAir
 {
+	inline static constexpr unsigned int PixAirLaserView_TypeDefinitionIndex = 77321;
+
 	class PixAirLaserView : public ::RPG::Client::LittleGame::PixAir::BasePixAirView
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Threading { class Timer; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int Task_DelayPromise_TypeDefinitionIndex = 903;
+
 	class Task_DelayPromise
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define PAEKOKFPOIM___C__ENTERCRAFT_B__7_0_OFFSET UNITYSDK_OFFSET(0xBFC6DF0)
 #define PAEKOKFPOIM___C__ENTERCRAFT_B__7_1_OFFSET UNITYSDK_OFFSET(0xBFC6E10)
 
+inline static constexpr unsigned int PAEKOKFPOIM___c_TypeDefinitionIndex = 79693;
+
 	class PAEKOKFPOIM___c : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PreloadStageBattleEventEffects_TypeDefinitionIndex = 23431;
+
 	class PreloadStageBattleEventEffects : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -4,6 +4,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelMasterAnchorConfig_TypeDefinitionIndex = 78382;
+
 	struct alignas(8) ChimeraDuelMasterAnchorConfig
 	{
 		::System::UInt32 ID; // 0x10

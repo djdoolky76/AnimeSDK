@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AIBOLMBGCMO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB957A0)
 #define AIBOLMBGCMO_PCOPJMDHFLN_OFFSET UNITYSDK_OFFSET(0xEB95B60)
 
+inline static constexpr unsigned int AIBOLMBGCMO_TypeDefinitionIndex = 56462;
+
 	class AIBOLMBGCMO
 	{
 	public:

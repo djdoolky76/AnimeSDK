@@ -28,6 +28,8 @@ namespace System { class String; }
 #define IOPAIDKIGAJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6DB9C0)
 #define IOPAIDKIGAJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6DBA20)
 
+inline static constexpr unsigned int IOPAIDKIGAJ_TypeDefinitionIndex = 27094;
+
 	class IOPAIDKIGAJ : public ::System::Object
 	{
 	public:

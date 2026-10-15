@@ -10,6 +10,8 @@ namespace RPG::GameCore { class IronTombNormalModeThresholdConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IronTombNormalModeThresholdConfig_TypeDefinitionIndex = 22803;
+
 	class IronTombNormalModeThresholdConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

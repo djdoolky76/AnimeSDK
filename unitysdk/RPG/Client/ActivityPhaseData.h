@@ -29,6 +29,8 @@ namespace RPG::GameCore { class DocumentaryPhaseQuestPanelRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityPhaseData_TypeDefinitionIndex = 61693;
+
 	class ActivityPhaseData : public ::System::Object
 	{
 	public:

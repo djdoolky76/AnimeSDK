@@ -38,6 +38,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri { class TriangulationPoint; }
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
+	inline static constexpr unsigned int DelaunayTriangle_TypeDefinitionIndex = 38737;
+
 	class DelaunayTriangle : public ::System::Object
 	{
 	public:

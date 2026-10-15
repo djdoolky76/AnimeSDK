@@ -18,6 +18,8 @@ namespace System { class String; }
 #define HEIPEHHNJLK_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0x15C56890)
 #define HEIPEHHNJLK_MMFEEJAHPLJ_OFFSET UNITYSDK_OFFSET(0x15C568F0)
 
+inline static constexpr unsigned int HEIPEHHNJLK_TypeDefinitionIndex = 54213;
+
 	class HEIPEHHNJLK : public ::System::Object
 	{
 	public:

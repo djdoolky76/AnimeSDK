@@ -15,6 +15,8 @@ namespace RPG::GameCore { class CakeRaceAoeConfig; }
 #define IMKHJHEFKLH_ACANCPJOFPK_OFFSET UNITYSDK_OFFSET(0x1C6E2F80)
 #define IMKHJHEFKLH_HLKKADIPDFJ_OFFSET UNITYSDK_OFFSET(0x1C6E3160)
 
+inline static constexpr unsigned int IMKHJHEFKLH_TypeDefinitionIndex = 37211;
+
 	class IMKHJHEFKLH : public ::System::Object
 	{
 	public:

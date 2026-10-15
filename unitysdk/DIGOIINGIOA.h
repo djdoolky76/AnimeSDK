@@ -7,6 +7,8 @@ namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyMod
 #define DIGOIINGIOA_CTOR_OFFSET UNITYSDK_OFFSET(0xEBF6660)
 #define DIGOIINGIOA_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xEBF6670)
 
+inline static constexpr unsigned int DIGOIINGIOA_TypeDefinitionIndex = 62529;
+
 	class DIGOIINGIOA : public ::System::Object
 	{
 	public:

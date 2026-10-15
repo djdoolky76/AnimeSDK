@@ -10,6 +10,8 @@ namespace System { class String; }
 #define EEMGOCKGANE_DEKKHNOCEHA_OFFSET UNITYSDK_OFFSET(0x13A3E4E0)
 #define EEMGOCKGANE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A3DFA0)
 
+inline static constexpr unsigned int EEMGOCKGANE_TypeDefinitionIndex = 58146;
+
 	class EEMGOCKGANE
 	{
 	public:

@@ -38,6 +38,8 @@ namespace System { class String; }
 #define JMKCMFMGBJO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E78E5A0)
 #define JMKCMFMGBJO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E78E600)
 
+inline static constexpr unsigned int JMKCMFMGBJO_TypeDefinitionIndex = 33937;
+
 	class JMKCMFMGBJO : public ::System::Object
 	{
 	public:

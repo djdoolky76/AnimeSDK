@@ -13,6 +13,8 @@ namespace System::ComponentModel { class NotifyParentPropertyAttribute; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int NotifyParentPropertyAttribute_TypeDefinitionIndex = 2652;
+
 	class NotifyParentPropertyAttribute : public ::System::Attribute
 	{
 	public:

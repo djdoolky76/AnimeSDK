@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 #define CLFJDCPHEHA_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xD77C410)
 #define CLFJDCPHEHA__ONBIND_OFFSET UNITYSDK_OFFSET(0xD77C110)
 
+inline static constexpr unsigned int CLFJDCPHEHA_TypeDefinitionIndex = 72337;
+
 	class CLFJDCPHEHA : public ::FMPCODLIOLG
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int SignalSourceAsset_TypeDefinitionIndex = 39845;
+
 	class SignalSourceAsset : public ::UnityEngine::ScriptableObject
 	{
 	public:

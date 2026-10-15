@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define CGIBBGDNJHO_CTOR_OFFSET UNITYSDK_OFFSET(0xCC89110)
 
+inline static constexpr unsigned int CGIBBGDNJHO_TypeDefinitionIndex = 80588;
+
 	class CGIBBGDNJHO : public ::System::Object
 	{
 	public:

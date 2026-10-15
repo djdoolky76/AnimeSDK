@@ -29,6 +29,8 @@ namespace System { class String; }
 #define ANNFOAGBJBP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E664510)
 #define ANNFOAGBJBP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E664570)
 
+inline static constexpr unsigned int ANNFOAGBJBP_TypeDefinitionIndex = 28412;
+
 	class ANNFOAGBJBP : public ::System::Object
 	{
 	public:

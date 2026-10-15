@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int ResetPostProcessTimelineTrack_TypeDefinitionIndex = 48610;
+
 	class ResetPostProcessTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

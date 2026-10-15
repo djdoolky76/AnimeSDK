@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CFJNHKNKPNN_CCTOR_OFFSET UNITYSDK_OFFSET(0xCC4F4A0)
 #define CFJNHKNKPNN_CTOR_OFFSET UNITYSDK_OFFSET(0xCC4F430)
 
+inline static constexpr unsigned int CFJNHKNKPNN_TypeDefinitionIndex = 78939;
+
 	class CFJNHKNKPNN : public ::ENLNFBCDEIO
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define DBIAFBMMBBA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDFE33C0)
 #define DBIAFBMMBBA___C___CREATESNAPSHOT_B__31_1_OFFSET UNITYSDK_OFFSET(0xDFE33D0)
 
+inline static constexpr unsigned int DBIAFBMMBBA___c_TypeDefinitionIndex = 79555;
+
 	class DBIAFBMMBBA___c : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace ZLinq::Linq
 {
+	inline static constexpr unsigned int FromDictionary_2_TypeDefinitionIndex = 6108;
+
 	template <typename T1, typename T2>
 	struct alignas(8) FromDictionary_2
 	{

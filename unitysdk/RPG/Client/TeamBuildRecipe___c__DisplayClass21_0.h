@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class ICollection
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TeamBuildRecipe___c__DisplayClass21_0_TypeDefinitionIndex = 68095;
+
 	class TeamBuildRecipe___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

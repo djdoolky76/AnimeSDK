@@ -16,6 +16,8 @@ namespace RPG::GameCore { class TarotBookReadRewardRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TarotBookReadReward_TypeDefinitionIndex = 68072;
+
 	class TarotBookReadReward : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int OptionalInputDeviceDriverType_TypeDefinitionIndex = 40906;
+
 	struct alignas(4) OptionalInputDeviceDriverType
 	{
 		::System::Boolean hasValue; // 0x10

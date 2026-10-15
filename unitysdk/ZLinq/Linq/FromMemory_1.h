@@ -4,6 +4,8 @@
 
 namespace ZLinq::Linq
 {
+	inline static constexpr unsigned int FromMemory_1_TypeDefinitionIndex = 6106;
+
 	template <typename T>
 	struct alignas(8) FromMemory_1
 	{

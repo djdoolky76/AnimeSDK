@@ -10,6 +10,8 @@ namespace RPG::GameCore { class IdleLiveSuperChatRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveSuperChatRow_TypeDefinitionIndex = 11798;
+
 	class IdleLiveSuperChatRow : public ::System::Object
 	{
 	public:

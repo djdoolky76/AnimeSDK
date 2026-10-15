@@ -13,6 +13,8 @@ namespace System::Security::Cryptography { class RC2; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int RC2_TypeDefinitionIndex = 1039;
+
 	class RC2 : public ::System::Security::Cryptography::SymmetricAlgorithm
 	{
 	public:

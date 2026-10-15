@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int UserCenterManager_UserCenterABTest_TypeDefinitionIndex = 9479;
+
 	class UserCenterManager_UserCenterABTest : public ::System::Object
 	{
 	public:

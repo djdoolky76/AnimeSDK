@@ -29,6 +29,8 @@ namespace System { class String; }
 #define MOHMAHDOBDO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAAAA40)
 #define MOHMAHDOBDO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAAAAA0)
 
+inline static constexpr unsigned int MOHMAHDOBDO_TypeDefinitionIndex = 25431;
+
 	class MOHMAHDOBDO : public ::System::Object
 	{
 	public:

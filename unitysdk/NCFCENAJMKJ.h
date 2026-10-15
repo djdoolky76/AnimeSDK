@@ -16,6 +16,8 @@ namespace System { class Object; }
 #define NCFCENAJMKJ_JOHJHMAFNLA_OFFSET UNITYSDK_OFFSET(0xBB0B0A0)
 #define NCFCENAJMKJ___ADDENDCELLEFFECT_B__5_0_OFFSET UNITYSDK_OFFSET(0xBB0BA80)
 
+inline static constexpr unsigned int NCFCENAJMKJ_TypeDefinitionIndex = 75804;
+
 	class NCFCENAJMKJ : public ::CBOAHKAAECG
 	{
 	public:

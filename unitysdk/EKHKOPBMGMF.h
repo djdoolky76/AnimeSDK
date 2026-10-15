@@ -7,6 +7,8 @@ namespace RPG::GameCore { class StateTreeStateConfig; }
 
 #define EKHKOPBMGMF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C603080)
 
+inline static constexpr unsigned int EKHKOPBMGMF_TypeDefinitionIndex = 36969;
+
 	class EKHKOPBMGMF : public ::GKDAANCFPGO
 	{
 	public:

@@ -160,6 +160,8 @@ namespace System { class Object; }
 #define EMOPIJNJODH_PODPCBFDNNI_OFFSET UNITYSDK_OFFSET(0x155A0BC0)
 #define EMOPIJNJODH_PPEDGKMMNCA_OFFSET UNITYSDK_OFFSET(0x1555CDF0)
 
+inline static constexpr unsigned int EMOPIJNJODH_TypeDefinitionIndex = 80828;
+
 	class EMOPIJNJODH : public ::System::Object
 	{
 	public:

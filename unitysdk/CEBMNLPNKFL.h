@@ -19,6 +19,8 @@ namespace System { class String; }
 #define CEBMNLPNKFL_SET_ANIMATORSTATEHASH_OFFSET UNITYSDK_OFFSET(0xC77C000)
 #define CEBMNLPNKFL_SET_ISFIXEDTRANSITION_OFFSET UNITYSDK_OFFSET(0xC77BFE0)
 
+inline static constexpr unsigned int CEBMNLPNKFL_TypeDefinitionIndex = 55940;
+
 	class CEBMNLPNKFL : public ::System::Object
 	{
 	public:

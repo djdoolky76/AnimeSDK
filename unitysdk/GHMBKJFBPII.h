@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define GHMBKJFBPII_CTOR_OFFSET UNITYSDK_OFFSET(0x15A29990)
 
+inline static constexpr unsigned int GHMBKJFBPII_TypeDefinitionIndex = 48931;
+
 	class GHMBKJFBPII : public ::System::Object
 	{
 	public:

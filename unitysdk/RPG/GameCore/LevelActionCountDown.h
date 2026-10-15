@@ -12,6 +12,8 @@ namespace RPG::GameCore { class LevelActionCountDown; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelActionCountDown_TypeDefinitionIndex = 56817;
+
 	class LevelActionCountDown : public ::CMPGEAFHHDC
 	{
 	public:

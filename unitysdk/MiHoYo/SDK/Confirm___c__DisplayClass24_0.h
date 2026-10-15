@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Confirm___c__DisplayClass24_0_TypeDefinitionIndex = 8238;
+
 	class Confirm___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:

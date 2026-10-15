@@ -8,6 +8,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define LLILONBCMHC___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB771290)
 #define LLILONBCMHC___C__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xB7712A0)
 
+inline static constexpr unsigned int LLILONBCMHC___c_TypeDefinitionIndex = 52648;
+
 	class LLILONBCMHC___c : public ::System::Object
 	{
 	public:

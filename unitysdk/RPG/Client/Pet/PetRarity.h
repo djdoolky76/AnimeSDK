@@ -26,6 +26,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Pet
 {
+	inline static constexpr unsigned int PetRarity_TypeDefinitionIndex = 75703;
+
 	struct alignas(8) PetRarity
 	{
 		::RPG::GameCore::ItemRarity _Value_k__BackingField; // 0x10

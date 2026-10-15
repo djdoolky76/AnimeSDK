@@ -813,6 +813,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CEKOOBJJDMF_PILJPCMKLDP_OFFSET UNITYSDK_OFFSET(0x1DBB15A0)
 #define CEKOOBJJDMF_PNFAEHBIEGM_OFFSET UNITYSDK_OFFSET(0x1DBA3680)
 
+inline static constexpr unsigned int CEKOOBJJDMF_TypeDefinitionIndex = 10856;
+
 	class CEKOOBJJDMF : public ::System::Object
 	{
 	public:

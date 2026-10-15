@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareFloorSavedValue_TypeDefinitionIndex = 20706;
+
 	class ByCompareFloorSavedValue : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

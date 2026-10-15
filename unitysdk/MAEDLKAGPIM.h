@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MAEDLKAGPIM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB84B550)
 #define MAEDLKAGPIM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB84BFA0)
 
+inline static constexpr unsigned int MAEDLKAGPIM_TypeDefinitionIndex = 52167;
+
 	class MAEDLKAGPIM
 	{
 	public:

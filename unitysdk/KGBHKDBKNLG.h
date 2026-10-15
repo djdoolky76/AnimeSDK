@@ -21,6 +21,8 @@ namespace System { class Nullable; }
 #define KGBHKDBKNLG_SET_TARGETCOUNT_OFFSET UNITYSDK_OFFSET(0xB3CDE40)
 #define KGBHKDBKNLG_SET_TRAIT_OFFSET UNITYSDK_OFFSET(0xB3CDCB0)
 
+inline static constexpr unsigned int KGBHKDBKNLG_TypeDefinitionIndex = 79429;
+
 	class KGBHKDBKNLG : public ::System::Object
 	{
 	public:

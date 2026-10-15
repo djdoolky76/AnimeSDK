@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyEntityBoostPoint_TypeDefinitionIndex = 22605;
+
 	class ModifyEntityBoostPoint : public ::RPG::GameCore::TaskConfig
 	{
 	public:

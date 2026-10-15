@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int Missing_TypeDefinitionIndex = 581;
+
 	class Missing : public ::System::Object
 	{
 	public:

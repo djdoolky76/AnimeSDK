@@ -36,6 +36,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int RotatePillarPuzzleBoard_TypeDefinitionIndex = 78803;
+
 	class RotatePillarPuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

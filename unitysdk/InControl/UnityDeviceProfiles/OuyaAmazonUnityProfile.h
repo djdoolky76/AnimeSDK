@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int OuyaAmazonUnityProfile_TypeDefinitionIndex = 40933;
+
 	class OuyaAmazonUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

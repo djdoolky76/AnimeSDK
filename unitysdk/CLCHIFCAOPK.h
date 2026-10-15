@@ -16,6 +16,8 @@ namespace System { class String; }
 #define CLCHIFCAOPK_EHAIPFFJIKK_OFFSET UNITYSDK_OFFSET(0xD779620)
 #define CLCHIFCAOPK_FHMHFKCILOI_OFFSET UNITYSDK_OFFSET(0xD779770)
 
+inline static constexpr unsigned int CLCHIFCAOPK_TypeDefinitionIndex = 76118;
+
 	class CLCHIFCAOPK : public ::System::Object
 	{
 	public:

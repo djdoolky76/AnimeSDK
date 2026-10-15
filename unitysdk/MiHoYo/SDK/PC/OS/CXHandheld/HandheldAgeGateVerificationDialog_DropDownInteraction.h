@@ -7,6 +7,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int HandheldAgeGateVerificationDialog_DropDownInteraction_TypeDefinitionIndex = 8802;
+
 	struct alignas(8) HandheldAgeGateVerificationDialog_DropDownInteraction
 	{
 		::UnityEngine::UI::Dropdown* dropdown; // 0x10

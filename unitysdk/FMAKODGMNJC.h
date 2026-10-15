@@ -13,6 +13,8 @@ namespace System { class String; }
 #define FMAKODGMNJC_MGFCPBINGNJ_OFFSET UNITYSDK_OFFSET(0x15844AD0)
 #define FMAKODGMNJC_SET_CONDITIONPARAM_OFFSET UNITYSDK_OFFSET(0x158448E0)
 
+inline static constexpr unsigned int FMAKODGMNJC_TypeDefinitionIndex = 59905;
+
 	class FMAKODGMNJC : public ::APDMIIEDMLI_CFHOMFLPNNO
 	{
 	public:

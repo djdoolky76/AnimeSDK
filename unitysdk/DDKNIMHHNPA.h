@@ -37,6 +37,8 @@ namespace System { class String; }
 #define DDKNIMHHNPA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E17FFF0)
 #define DDKNIMHHNPA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E180050)
 
+inline static constexpr unsigned int DDKNIMHHNPA_TypeDefinitionIndex = 27924;
+
 	class DDKNIMHHNPA : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int QTEClip_TypeDefinitionIndex = 48259;
+
 	class QTEClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

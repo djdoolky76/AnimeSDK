@@ -73,6 +73,8 @@ namespace System { class String; }
 #define NNPGLCGNICI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB84DB0)
 #define NNPGLCGNICI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB84E10)
 
+inline static constexpr unsigned int NNPGLCGNICI_TypeDefinitionIndex = 27819;
+
 	class NNPGLCGNICI : public ::System::Object
 	{
 	public:

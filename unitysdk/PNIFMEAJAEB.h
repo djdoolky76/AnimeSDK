@@ -8,6 +8,8 @@
 #define PNIFMEAJAEB_SET_CURWAVE_OFFSET UNITYSDK_OFFSET(0xC3394E0)
 #define PNIFMEAJAEB_SET_MAXWAVE_OFFSET UNITYSDK_OFFSET(0xC339500)
 
+inline static constexpr unsigned int PNIFMEAJAEB_TypeDefinitionIndex = 80819;
+
 	class PNIFMEAJAEB : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AstraFXResource_TypeDefinitionIndex = 4086;
+
 	struct alignas(8) AstraFXResource
 	{
 		::UnityEngine::AstraFXResource_Type type; // 0x10

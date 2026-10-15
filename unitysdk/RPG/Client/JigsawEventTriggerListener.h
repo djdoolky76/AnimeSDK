@@ -25,6 +25,8 @@ namespace UnityEngine::UI { class TouchFilter; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int JigsawEventTriggerListener_TypeDefinitionIndex = 72552;
+
 	class JigsawEventTriggerListener : public ::RPG::Client::EventTriggerListener
 	{
 	public:

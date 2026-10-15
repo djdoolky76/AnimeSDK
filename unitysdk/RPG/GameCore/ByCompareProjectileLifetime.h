@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareProjectileLifetime_TypeDefinitionIndex = 20246;
+
 	class ByCompareProjectileLifetime : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

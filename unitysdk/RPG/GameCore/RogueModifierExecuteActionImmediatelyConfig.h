@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionImmediatelyConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionImmediatelyConfig_TypeDefinitionIndex = 17939;
+
 	class RogueModifierExecuteActionImmediatelyConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

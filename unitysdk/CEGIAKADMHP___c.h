@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CEGIAKADMHP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E093210)
 #define CEGIAKADMHP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E093220)
 
+inline static constexpr unsigned int CEGIAKADMHP___c_TypeDefinitionIndex = 29449;
+
 	class CEGIAKADMHP___c : public ::System::Object
 	{
 	public:

@@ -24,6 +24,8 @@ namespace UnityEngine { class GameObject; }
 #define MEACEKBHCPP_PDILJIFEFKB_1_OFFSET UNITYSDK_OFFSET(0xB8B7BF0)
 #define MEACEKBHCPP_PDILJIFEFKB_OFFSET UNITYSDK_OFFSET(0xB8B7870)
 
+inline static constexpr unsigned int MEACEKBHCPP_TypeDefinitionIndex = 71551;
+
 	class MEACEKBHCPP : public ::System::Object
 	{
 	public:

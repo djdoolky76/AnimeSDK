@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FDIOHLGHOFB_CTOR_OFFSET UNITYSDK_OFFSET(0x156DD440)
 #define FDIOHLGHOFB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156DD470)
 
+inline static constexpr unsigned int FDIOHLGHOFB_TypeDefinitionIndex = 53241;
+
 	class FDIOHLGHOFB
 	{
 	public:

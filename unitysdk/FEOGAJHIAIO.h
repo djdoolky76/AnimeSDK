@@ -10,6 +10,8 @@ namespace System { class String; }
 #define FEOGAJHIAIO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDE36F0)
 #define FEOGAJHIAIO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDE36B0)
 
+inline static constexpr unsigned int FEOGAJHIAIO_TypeDefinitionIndex = 21056;
+
 	class FEOGAJHIAIO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

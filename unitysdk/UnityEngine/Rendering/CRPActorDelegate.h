@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CRPActorDelegate_TypeDefinitionIndex = 4872;
+
 	class CRPActorDelegate : public ::UnityEngine::Behaviour
 	{
 	public:

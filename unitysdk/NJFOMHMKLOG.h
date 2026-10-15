@@ -11,6 +11,8 @@ namespace UnityEngine { class Component; }
 #define NJFOMHMKLOG_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBC0FCA0)
 #define NJFOMHMKLOG_REVERSE_OFFSET UNITYSDK_OFFSET(0xBC0FB20)
 
+inline static constexpr unsigned int NJFOMHMKLOG_TypeDefinitionIndex = 73503;
+
 	class NJFOMHMKLOG : public ::LLJAOGKDNFD
 	{
 	public:

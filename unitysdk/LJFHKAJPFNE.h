@@ -499,6 +499,8 @@ namespace UnityEngine::Rendering { class CRPVirtualCamera; }
 #define LJFHKAJPFNE__LOADAREA_B__2_0_OFFSET UNITYSDK_OFFSET(0xB7119D0)
 #define LJFHKAJPFNE__LOADAREA_B__2_1_OFFSET UNITYSDK_OFFSET(0xB711A80)
 
+inline static constexpr unsigned int LJFHKAJPFNE_TypeDefinitionIndex = 73856;
+
 	class LJFHKAJPFNE : public ::System::Object
 	{
 	public:

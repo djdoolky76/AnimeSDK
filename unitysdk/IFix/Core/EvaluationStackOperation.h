@@ -18,6 +18,8 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int EvaluationStackOperation_TypeDefinitionIndex = 7133;
+
 	class EvaluationStackOperation : public ::System::Object
 	{
 	public:

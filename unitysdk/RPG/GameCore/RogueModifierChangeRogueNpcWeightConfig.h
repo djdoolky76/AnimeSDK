@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierChangeRogueNpcWeightConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierChangeRogueNpcWeightConfig_TypeDefinitionIndex = 17934;
+
 	class RogueModifierChangeRogueNpcWeightConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int Stream_NullStream_TypeDefinitionIndex = 687;
+
 	class Stream_NullStream : public ::System::IO::Stream
 	{
 	public:

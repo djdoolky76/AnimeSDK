@@ -45,6 +45,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LKMPMKNPPHB_OVERRIDEDISPLAY_OFFSET UNITYSDK_OFFSET(0xB759E30)
 #define LKMPMKNPPHB_SET_ROW_OFFSET UNITYSDK_OFFSET(0xB7589B0)
 
+inline static constexpr unsigned int LKMPMKNPPHB_TypeDefinitionIndex = 56938;
+
 	class LKMPMKNPPHB : public ::System::Object
 	{
 	public:

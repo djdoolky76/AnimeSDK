@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvPlayerEnterAlertDeviceTrigger_TypeDefinitionIndex = 20333;
+
 	class AdvPlayerEnterAlertDeviceTrigger : public ::RPG::GameCore::TaskConfig
 	{
 	public:

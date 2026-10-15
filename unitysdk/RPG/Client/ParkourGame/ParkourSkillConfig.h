@@ -6,6 +6,8 @@
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int ParkourSkillConfig_TypeDefinitionIndex = 74124;
+
 	class ParkourSkillConfig : public ::System::Object
 	{
 	public:

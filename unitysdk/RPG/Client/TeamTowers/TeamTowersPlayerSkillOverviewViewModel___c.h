@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersPlayerSkillOverviewViewModel___c_TypeDefinitionIndex = 79085;
+
 	class TeamTowersPlayerSkillOverviewViewModel___c : public ::System::Object
 	{
 	public:

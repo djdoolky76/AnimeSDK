@@ -35,6 +35,8 @@ namespace System { class String; }
 #define NILCAHCBKAI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB35800)
 #define NILCAHCBKAI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB35860)
 
+inline static constexpr unsigned int NILCAHCBKAI_TypeDefinitionIndex = 30072;
+
 	class NILCAHCBKAI : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftConditionControlBinder; 
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftConditionControl_TypeDefinitionIndex = 79989;
+
 	class MechCraftConditionControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

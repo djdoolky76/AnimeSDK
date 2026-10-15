@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenOutfitTypeData_TypeDefinitionIndex = 75509;
+
 	class ActivityHipplenOutfitTypeData : public ::System::Object
 	{
 	public:

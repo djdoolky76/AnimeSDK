@@ -12,6 +12,8 @@ namespace RPG::Client { class Airline; }
 #define FPHBDDAACJC_LPJOFJCLGMP_OFFSET UNITYSDK_OFFSET(0x2E78760)
 #define FPHBDDAACJC_OKMDAGAADBA_OFFSET UNITYSDK_OFFSET(0x2E786F0)
 
+inline static constexpr unsigned int FPHBDDAACJC_TypeDefinitionIndex = 59784;
+
 	struct alignas(8) FPHBDDAACJC
 	{
 		::RPG::Client::Airline* BBLOHCHKFKD; // 0x10

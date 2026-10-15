@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtTargetFetchModifierBindSnapshot_TypeDefinitionIndex = 24243;
+
 	class RtTargetFetchModifierBindSnapshot : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:

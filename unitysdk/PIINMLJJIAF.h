@@ -14,6 +14,8 @@ namespace RPG::Client { class TimeSpaceCrisscrossLightsBehavior_LLOPNELAIGC; }
 #define PIINMLJJIAF_SET_X_OFFSET UNITYSDK_OFFSET(0xC269230)
 #define PIINMLJJIAF_SET_Y_OFFSET UNITYSDK_OFFSET(0xC269250)
 
+inline static constexpr unsigned int PIINMLJJIAF_TypeDefinitionIndex = 70233;
+
 	class PIINMLJJIAF : public ::System::Object
 	{
 	public:

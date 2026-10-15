@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitHipplenGameExit; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitHipplenGameExit_TypeDefinitionIndex = 21312;
+
 	class WaitHipplenGameExit : public ::RPG::GameCore::TaskConfig
 	{
 	public:

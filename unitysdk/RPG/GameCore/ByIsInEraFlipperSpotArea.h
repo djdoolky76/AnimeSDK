@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsInEraFlipperSpotArea_TypeDefinitionIndex = 22333;
+
 	class ByIsInEraFlipperSpotArea : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

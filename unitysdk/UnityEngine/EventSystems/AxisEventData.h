@@ -15,6 +15,8 @@ namespace UnityEngine::EventSystems { class EventSystem; }
 
 namespace UnityEngine::EventSystems
 {
+	inline static constexpr unsigned int AxisEventData_TypeDefinitionIndex = 6903;
+
 	class AxisEventData : public ::UnityEngine::EventSystems::BaseEventData
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int TextReader_NullTextReader_TypeDefinitionIndex = 698;
+
 	class TextReader_NullTextReader : public ::System::IO::TextReader
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
+	inline static constexpr unsigned int ThirdpartyStore___c__DisplayClass16_0_TypeDefinitionIndex = 8851;
+
 	class ThirdpartyStore___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:

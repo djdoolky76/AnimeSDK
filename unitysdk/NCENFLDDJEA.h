@@ -30,6 +30,8 @@ namespace System { class String; }
 #define NCENFLDDJEA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAD8B10)
 #define NCENFLDDJEA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAD8B70)
 
+inline static constexpr unsigned int NCENFLDDJEA_TypeDefinitionIndex = 28441;
+
 	class NCENFLDDJEA : public ::System::Object
 	{
 	public:

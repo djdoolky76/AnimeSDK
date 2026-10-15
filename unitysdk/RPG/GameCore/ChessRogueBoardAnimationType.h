@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChessRogueBoardAnimationType_TypeDefinitionIndex = 14755;
+
 	enum class ChessRogueBoardAnimationType : ::System::Int32
 	{
 		Normal = 0,

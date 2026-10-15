@@ -19,6 +19,8 @@ namespace System::Diagnostics::Tracing { class ActivityFilter; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int ActivityFilter__GetFilterAsTuple_d__7_TypeDefinitionIndex = 1697;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
 	class ActivityFilter__GetFilterAsTuple_d__7 : public ::System::Object
 	{

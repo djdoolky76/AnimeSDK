@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowSkillReadyCamera_TypeDefinitionIndex = 22849;
+
 	class ShowSkillReadyCamera : public ::RPG::GameCore::TaskConfig
 	{
 	public:

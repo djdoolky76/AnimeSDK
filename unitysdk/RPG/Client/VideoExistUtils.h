@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VideoExistUtils_TypeDefinitionIndex = 73210;
+
 	class VideoExistUtils : public ::System::Object
 	{
 	public:

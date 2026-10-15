@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 #define IDONOBAPJOI_ONKHPOCEODP_OFFSET UNITYSDK_OFFSET(0x15EE38C0)
 #define IDONOBAPJOI_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x15EE4100)
 
+inline static constexpr unsigned int IDONOBAPJOI_TypeDefinitionIndex = 57085;
+
 	class IDONOBAPJOI : public ::System::Object
 	{
 	public:

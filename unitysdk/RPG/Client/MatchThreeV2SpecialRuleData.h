@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeV2SpecialRuleData_TypeDefinitionIndex = 66004;
+
 	class MatchThreeV2SpecialRuleData : public ::System::Object
 	{
 	public:

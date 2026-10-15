@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace SRDebugger::UI::Other
 {
+	inline static constexpr unsigned int HandleManager_TypeDefinitionIndex = 38006;
+
 	class HandleManager : public ::SRF::SRMonoBehaviour
 	{
 	public:

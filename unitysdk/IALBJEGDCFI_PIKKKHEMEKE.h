@@ -12,6 +12,8 @@ namespace R3 { template <typename T> class ReactiveProperty_1; }
 #define IALBJEGDCFI_PIKKKHEMEKE_OIDLGEHDOOE_OFFSET UNITYSDK_OFFSET(0x15E19460)
 #define IALBJEGDCFI_PIKKKHEMEKE_SET_ROTATION_OFFSET UNITYSDK_OFFSET(0x15E19440)
 
+inline static constexpr unsigned int IALBJEGDCFI_PIKKKHEMEKE_TypeDefinitionIndex = 79496;
+
 	class IALBJEGDCFI_PIKKKHEMEKE : public ::IALBJEGDCFI_HCBKBKPNDKB
 	{
 	public:

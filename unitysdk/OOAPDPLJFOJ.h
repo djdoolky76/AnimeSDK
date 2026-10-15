@@ -21,6 +21,8 @@ namespace System::Net { class IPEndPoint; }
 #define OOAPDPLJFOJ_PICGFLDIJNG_OFFSET UNITYSDK_OFFSET(0xBF629D0)
 #define OOAPDPLJFOJ_PIOMOMLODFB_OFFSET UNITYSDK_OFFSET(0xBF626B0)
 
+inline static constexpr unsigned int OOAPDPLJFOJ_TypeDefinitionIndex = 59602;
+
 	class OOAPDPLJFOJ : public ::System::Object
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System { class Action; }
 #define AGAGNDEHIOI__ONBIND_OFFSET UNITYSDK_OFFSET(0xCF23D50)
 #define AGAGNDEHIOI__SETASLASTSIBLING_B__12_0_OFFSET UNITYSDK_OFFSET(0xCF24F40)
 
+inline static constexpr unsigned int AGAGNDEHIOI_TypeDefinitionIndex = 71434;
+
 	class AGAGNDEHIOI : public ::FMPCODLIOLG
 	{
 	public:

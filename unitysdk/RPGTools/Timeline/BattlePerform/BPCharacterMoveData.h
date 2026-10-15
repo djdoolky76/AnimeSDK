@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::BattlePerform
 {
+	inline static constexpr unsigned int BPCharacterMoveData_TypeDefinitionIndex = 48819;
+
 	class BPCharacterMoveData : public ::System::Object
 	{
 	public:

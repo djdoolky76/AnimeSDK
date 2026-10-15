@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::BattlePerform
 {
+	inline static constexpr unsigned int BPCharacterHeadStopLookAtClip_TypeDefinitionIndex = 48815;
+
 	class BPCharacterHeadStopLookAtClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

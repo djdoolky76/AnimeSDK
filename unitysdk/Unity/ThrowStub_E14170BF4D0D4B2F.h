@@ -6,6 +6,8 @@
 
 namespace Unity
 {
+	inline static constexpr unsigned int ThrowStub_E14170BF4D0D4B2F_TypeDefinitionIndex = 2343;
+
 	class ThrowStub_E14170BF4D0D4B2F : public ::System::ObjectDisposedException
 	{
 	public:

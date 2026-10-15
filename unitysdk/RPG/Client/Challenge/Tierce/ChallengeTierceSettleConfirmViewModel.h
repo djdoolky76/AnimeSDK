@@ -25,6 +25,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceSettleConfirmViewModel_TypeDefinitionIndex = 81618;
+
 	class ChallengeTierceSettleConfirmViewModel : public ::System::Object
 	{
 	public:

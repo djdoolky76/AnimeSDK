@@ -41,6 +41,8 @@ namespace System { class String; }
 #define CLDOIEGCNLD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0F5F90)
 #define CLDOIEGCNLD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0F5FF0)
 
+inline static constexpr unsigned int CLDOIEGCNLD_TypeDefinitionIndex = 25181;
+
 	class CLDOIEGCNLD : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGCurveBaseMath_Config_TypeDefinitionIndex = 36000;
+
 	class BGCurveBaseMath_Config : public ::System::Object
 	{
 	public:

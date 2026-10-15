@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVROverlay__SetOverlayMouseScale_TypeDefinitionIndex = 39108;
+
 	class IVROverlay__SetOverlayMouseScale : public ::System::MulticastDelegate
 	{
 	public:

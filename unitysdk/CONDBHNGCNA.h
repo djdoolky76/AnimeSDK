@@ -5,6 +5,8 @@ namespace System { class String; }
 #define CONDBHNGCNA_CTOR_OFFSET UNITYSDK_OFFSET(0x111F0)
 #define CONDBHNGCNA_TOSTRING_OFFSET UNITYSDK_OFFSET(0xEEC00)
 
+inline static constexpr unsigned int CONDBHNGCNA_TypeDefinitionIndex = 67428;
+
 	struct alignas(4) CONDBHNGCNA
 	{
 		::System::UInt32 PJIEOECDIFN; // 0x10

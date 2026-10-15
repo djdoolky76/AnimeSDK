@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::RelicSmartSuit
 {
+	inline static constexpr unsigned int PlanDataManager_TypeDefinitionIndex = 74414;
+
 	class PlanDataManager : public ::System::Object
 	{
 	public:

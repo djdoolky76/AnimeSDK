@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamFormationComponent___c__DisplayClass169_0_TypeDefinitionIndex = 57711;
+
 	class TeamFormationComponent___c__DisplayClass169_0 : public ::System::Object
 	{
 	public:

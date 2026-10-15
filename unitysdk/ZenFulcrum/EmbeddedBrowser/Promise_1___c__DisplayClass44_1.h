@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int Promise_1___c__DisplayClass44_1_TypeDefinitionIndex = 39530;
+
 	template <typename T>
 	class Promise_1___c__DisplayClass44_1 : public ::System::Object
 	{

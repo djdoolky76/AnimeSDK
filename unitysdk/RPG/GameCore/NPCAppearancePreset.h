@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NPCAppearancePreset_TypeDefinitionIndex = 17459;
+
 	class NPCAppearancePreset : public ::RPG::GameCore::JsonConfig
 	{
 	public:

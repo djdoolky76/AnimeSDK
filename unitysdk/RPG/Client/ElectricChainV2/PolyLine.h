@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ElectricChainV2
 {
+	inline static constexpr unsigned int PolyLine_TypeDefinitionIndex = 73602;
+
 	class PolyLine : public ::RPG::Client::ElectricChainV2::Line
 	{
 	public:

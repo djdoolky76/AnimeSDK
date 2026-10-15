@@ -18,6 +18,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int IncludeAvatarBaseTypeChallengeTargetData_TypeDefinitionIndex = 63112;
+
 	class IncludeAvatarBaseTypeChallengeTargetData : public ::RPG::Client::BaseChallengeTargetData
 	{
 	public:

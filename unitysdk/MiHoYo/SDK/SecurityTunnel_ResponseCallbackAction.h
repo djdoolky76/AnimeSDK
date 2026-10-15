@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_ResponseCallbackAction_TypeDefinitionIndex = 46395;
+
 	class SecurityTunnel_ResponseCallbackAction : public ::System::MulticastDelegate
 	{
 	public:

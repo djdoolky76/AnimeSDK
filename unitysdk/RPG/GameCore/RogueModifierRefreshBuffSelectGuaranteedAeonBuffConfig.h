@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierRefreshBuffSelectGuaranteedAeonBuff
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierRefreshBuffSelectGuaranteedAeonBuffConfig_TypeDefinitionIndex = 17938;
+
 	class RogueModifierRefreshBuffSelectGuaranteedAeonBuffConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

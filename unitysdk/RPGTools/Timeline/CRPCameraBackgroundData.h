@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CRPCameraBackgroundData_TypeDefinitionIndex = 47882;
+
 	struct alignas(8) CRPCameraBackgroundData
 	{
 		::System::Boolean Enable; // 0x10

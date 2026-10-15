@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PJPMBOBAMIC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF84D30)
 #define PJPMBOBAMIC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF84D90)
 
+inline static constexpr unsigned int PJPMBOBAMIC_TypeDefinitionIndex = 30271;
+
 	class PJPMBOBAMIC : public ::System::Object
 	{
 	public:

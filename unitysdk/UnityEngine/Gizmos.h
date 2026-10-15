@@ -39,6 +39,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Gizmos_TypeDefinitionIndex = 4084;
+
 	class Gizmos : public ::System::Object
 	{
 	public:

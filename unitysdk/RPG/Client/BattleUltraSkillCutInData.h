@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleUltraSkillCutInData_TypeDefinitionIndex = 71956;
+
 	class BattleUltraSkillCutInData : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 #define BOJOAPFAGPI_MEGNJCHOGEE_OFFSET UNITYSDK_OFFSET(0xC194170)
 
+inline static constexpr unsigned int BOJOAPFAGPI_TypeDefinitionIndex = 57564;
+
 	class BOJOAPFAGPI : public ::System::Object
 	{
 	public:

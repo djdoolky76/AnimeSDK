@@ -15,6 +15,8 @@ class PPFAMGCOOFP;
 #define KOADNLFGNKJ_FKLBFEJDPIC_OFFSET UNITYSDK_OFFSET(0xB58B8D0)
 #define KOADNLFGNKJ_MGCIGIGPILI_OFFSET UNITYSDK_OFFSET(0xB58B790)
 
+inline static constexpr unsigned int KOADNLFGNKJ_TypeDefinitionIndex = 80231;
+
 	class KOADNLFGNKJ : public ::System::Object
 	{
 	public:

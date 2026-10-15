@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AudioBookDataRow_TypeDefinitionIndex = 12909;
+
 	class AudioBookDataRow : public ::System::Object
 	{
 	public:

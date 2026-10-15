@@ -22,6 +22,8 @@ namespace System { class String; }
 #define EMJDFLPCDBF_NLKNOCEGJJL_OFFSET UNITYSDK_OFFSET(0x15545840)
 #define EMJDFLPCDBF_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x155456E0)
 
+inline static constexpr unsigned int EMJDFLPCDBF_TypeDefinitionIndex = 74319;
+
 	class EMJDFLPCDBF : public ::System::Object
 	{
 	public:

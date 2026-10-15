@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingBattleValueGetter_SpillDamage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleValueGetter_SpillDamage_TypeDefinitionIndex = 15805;
+
 	class ChenLingBattleValueGetter_SpillDamage : public ::RPG::GameCore::BaseChenLingBattleValueGetter
 	{
 	public:

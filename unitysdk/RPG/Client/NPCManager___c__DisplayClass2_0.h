@@ -12,6 +12,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NPCManager___c__DisplayClass2_0_TypeDefinitionIndex = 60662;
+
 	class NPCManager___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

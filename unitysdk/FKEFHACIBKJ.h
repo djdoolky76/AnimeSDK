@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define FKEFHACIBKJ_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x157EE970)
 #define FKEFHACIBKJ_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x157EE8E0)
 
+inline static constexpr unsigned int FKEFHACIBKJ_TypeDefinitionIndex = 78170;
+
 	class FKEFHACIBKJ : public ::AJHHFMBOCEN
 	{
 	public:

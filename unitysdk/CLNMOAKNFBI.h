@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CLNMOAKNFBI_PBNOCMEKDDI_OFFSET UNITYSDK_OFFSET(0xDA1CF00)
 #define CLNMOAKNFBI_TICK_OFFSET UNITYSDK_OFFSET(0xDA1CB30)
 
+inline static constexpr unsigned int CLNMOAKNFBI_TypeDefinitionIndex = 52952;
+
 	class CLNMOAKNFBI : public ::GELIALJDFBL
 	{
 	public:

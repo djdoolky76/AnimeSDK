@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NGCDALNAHIG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB0BE40)
 #define NGCDALNAHIG___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1EB0BE50)
 
+inline static constexpr unsigned int NGCDALNAHIG___c_TypeDefinitionIndex = 27012;
+
 	class NGCDALNAHIG___c : public ::System::Object
 	{
 	public:

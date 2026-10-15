@@ -3,6 +3,8 @@
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+inline static constexpr unsigned int EOOIJAGNMHI_TypeDefinitionIndex = 73992;
+
 	struct alignas(4) EOOIJAGNMHI
 	{
 		::System::Int32 GMDBHJKEAEI; // 0x10

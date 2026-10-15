@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KLHPGILEONH_ONBATTLEINSTANCECREATED_OFFSET UNITYSDK_OFFSET(0xB5283A0)
 #define KLHPGILEONH_PDBGPLJEDFD_OFFSET UNITYSDK_OFFSET(0xB529670)
 
+inline static constexpr unsigned int KLHPGILEONH_TypeDefinitionIndex = 56009;
+
 	class KLHPGILEONH : public ::LHHEGNEBMLN
 	{
 	public:

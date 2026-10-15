@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int CalendarUtils___c_TypeDefinitionIndex = 9287;
+
 	class CalendarUtils___c : public ::System::Object
 	{
 	public:

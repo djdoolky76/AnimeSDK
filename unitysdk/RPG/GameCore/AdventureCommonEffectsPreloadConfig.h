@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PreloadItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureCommonEffectsPreloadConfig_TypeDefinitionIndex = 16368;
+
 	class AdventureCommonEffectsPreloadConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

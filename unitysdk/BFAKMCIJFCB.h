@@ -34,6 +34,8 @@ namespace System { class String; }
 #define BFAKMCIJFCB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA680B0)
 #define BFAKMCIJFCB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA68110)
 
+inline static constexpr unsigned int BFAKMCIJFCB_TypeDefinitionIndex = 25878;
+
 	class BFAKMCIJFCB : public ::System::Object
 	{
 	public:

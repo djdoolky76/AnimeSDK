@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int PayManagerCXHandheld___c__DisplayClass17_0_TypeDefinitionIndex = 8769;
+
 	class PayManagerCXHandheld___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

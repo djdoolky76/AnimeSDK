@@ -15,6 +15,8 @@ namespace UnityEngine::Rendering { class CRPVirtualCamera; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPVirtualCameraVolumn_PostUpdateVCCamera_TypeDefinitionIndex = 37693;
+
 	class CRPVirtualCameraVolumn_PostUpdateVCCamera : public ::System::MulticastDelegate
 	{
 	public:

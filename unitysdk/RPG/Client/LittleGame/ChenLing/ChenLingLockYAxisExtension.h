@@ -10,6 +10,8 @@ namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
 namespace RPG::Client::LittleGame::ChenLing
 {
+	inline static constexpr unsigned int ChenLingLockYAxisExtension_TypeDefinitionIndex = 77975;
+
 	class ChenLingLockYAxisExtension : public ::Cinemachine::CinemachineExtension
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FloatStateValue_TypeDefinitionIndex = 71009;
+
 	class FloatStateValue : public ::RPG::Client::StateValueEntry
 	{
 	public:

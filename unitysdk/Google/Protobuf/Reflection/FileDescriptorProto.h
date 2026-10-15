@@ -57,6 +57,8 @@ namespace System { class String; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int FileDescriptorProto_TypeDefinitionIndex = 5459;
+
 	class FileDescriptorProto : public ::System::Object
 	{
 	public:

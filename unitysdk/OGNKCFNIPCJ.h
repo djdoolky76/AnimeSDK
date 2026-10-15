@@ -116,6 +116,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define OGNKCFNIPCJ_PKHCEFEKGGL_OFFSET UNITYSDK_OFFSET(0x1C98EDF0)
 #define OGNKCFNIPCJ_PPGMNHGHGOG_OFFSET UNITYSDK_OFFSET(0x1C98F660)
 
+inline static constexpr unsigned int OGNKCFNIPCJ_TypeDefinitionIndex = 42611;
+
 	class OGNKCFNIPCJ : public ::System::Object
 	{
 	public:

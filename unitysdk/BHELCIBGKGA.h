@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 #define BHELCIBGKGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D802B20)
 #define BHELCIBGKGA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D802730)
 
+inline static constexpr unsigned int BHELCIBGKGA_TypeDefinitionIndex = 22860;
+
 	class BHELCIBGKGA : public ::RPG::GameCore::JsonConfig
 	{
 	public:

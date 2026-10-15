@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLCLayerRow_TypeDefinitionIndex = 14768;
+
 	class RogueDLCLayerRow : public ::System::Object
 	{
 	public:

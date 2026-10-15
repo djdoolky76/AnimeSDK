@@ -23,6 +23,8 @@ namespace System { class Object; }
 #define HCLLJDKFLCA__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x15C21E70)
 #define HCLLJDKFLCA__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0x15C21FD0)
 
+inline static constexpr unsigned int HCLLJDKFLCA_TypeDefinitionIndex = 63772;
+
 	class HCLLJDKFLCA : public ::RPG::Client::BaseModule
 	{
 	public:

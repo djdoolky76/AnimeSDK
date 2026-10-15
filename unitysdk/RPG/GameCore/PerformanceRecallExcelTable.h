@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceRecallExcelTable_TypeDefinitionIndex = 14336;
+
 	class PerformanceRecallExcelTable : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPG::GameCore { class MonsterConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonsterConfig_TypeDefinitionIndex = 16516;
+
 	class MonsterConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

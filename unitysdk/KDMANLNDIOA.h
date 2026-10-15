@@ -30,6 +30,8 @@ namespace System { class String; }
 #define KDMANLNDIOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E802DD0)
 #define KDMANLNDIOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E802E30)
 
+inline static constexpr unsigned int KDMANLNDIOA_TypeDefinitionIndex = 35113;
+
 	class KDMANLNDIOA : public ::System::Object
 	{
 	public:

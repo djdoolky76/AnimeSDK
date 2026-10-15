@@ -53,6 +53,8 @@ namespace UnityEngine::UI { class Text; }
 #define OIIJADEHJOB__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xBE9B650)
 #define OIIJADEHJOB__ONTICK_OFFSET UNITYSDK_OFFSET(0xBE9B420)
 
+inline static constexpr unsigned int OIIJADEHJOB_TypeDefinitionIndex = 71725;
+
 	class OIIJADEHJOB : public ::FMPCODLIOLG
 	{
 	public:

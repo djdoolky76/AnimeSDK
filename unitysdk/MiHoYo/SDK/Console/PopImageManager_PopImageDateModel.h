@@ -7,6 +7,8 @@
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int PopImageManager_PopImageDateModel_TypeDefinitionIndex = 8988;
+
 	class PopImageManager_PopImageDateModel : public ::System::Object
 	{
 	public:

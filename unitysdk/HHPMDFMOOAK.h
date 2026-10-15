@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int HHPMDFMOOAK_TypeDefinitionIndex = 32629;
+
 	enum class HHPMDFMOOAK : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

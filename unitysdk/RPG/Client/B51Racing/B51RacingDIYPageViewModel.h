@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingDIYPageViewModel_TypeDefinitionIndex = 81999;
+
 	class B51RacingDIYPageViewModel : public ::System::Object
 	{
 	public:

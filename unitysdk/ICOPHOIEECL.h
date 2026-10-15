@@ -29,6 +29,8 @@ namespace System { class String; }
 #define ICOPHOIEECL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E626EF0)
 #define ICOPHOIEECL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E626F50)
 
+inline static constexpr unsigned int ICOPHOIEECL_TypeDefinitionIndex = 34017;
+
 	class ICOPHOIEECL : public ::System::Object
 	{
 	public:

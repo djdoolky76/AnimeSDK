@@ -11,6 +11,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelShopTeamDragAreas_TypeDefinitionIndex = 78340;
+
 	class ChimeraDuelShopTeamDragAreas : public ::UnityEngine::MonoBehaviour
 	{
 	public:

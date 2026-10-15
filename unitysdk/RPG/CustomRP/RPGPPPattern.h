@@ -11,6 +11,8 @@ namespace UnityEngine::Rendering { class Vector4Parameter; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGPPPattern_TypeDefinitionIndex = 37836;
+
 	class RPGPPPattern : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:

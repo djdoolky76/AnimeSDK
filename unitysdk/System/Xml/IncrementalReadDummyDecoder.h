@@ -8,6 +8,8 @@
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int IncrementalReadDummyDecoder_TypeDefinitionIndex = 1818;
+
 	class IncrementalReadDummyDecoder : public ::System::Xml::IncrementalReadDecoder
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::Reflection { class Module; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int MemberInfo_TypeDefinitionIndex = 573;
+
 	class MemberInfo : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ class JCMJBMIKIFO;
 #define CNAIFPCCALI_CTOR_OFFSET UNITYSDK_OFFSET(0xDA47080)
 #define CNAIFPCCALI_LHLALAKKKKJ_OFFSET UNITYSDK_OFFSET(0xDA46FC0)
 
+inline static constexpr unsigned int CNAIFPCCALI_TypeDefinitionIndex = 80093;
+
 	class CNAIFPCCALI : public ::System::Object
 	{
 	public:

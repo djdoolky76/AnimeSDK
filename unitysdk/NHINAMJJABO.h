@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define NHINAMJJABO_IJOONKNIDKI_OFFSET UNITYSDK_OFFSET(0xBBC5C90)
 #define NHINAMJJABO_KADGJPFHBCC_OFFSET UNITYSDK_OFFSET(0xBBC5D30)
 
+inline static constexpr unsigned int NHINAMJJABO_TypeDefinitionIndex = 67250;
+
 	class NHINAMJJABO : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimSetLocalAvatarJumpEnergyAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetLocalAvatarJumpEnergyAction_TypeDefinitionIndex = 18737;
+
 	class FiveDimSetLocalAvatarJumpEnergyAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

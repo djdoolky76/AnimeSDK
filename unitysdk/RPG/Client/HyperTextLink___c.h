@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HyperTextLink___c_TypeDefinitionIndex = 72543;
+
 	class HyperTextLink___c : public ::System::Object
 	{
 	public:

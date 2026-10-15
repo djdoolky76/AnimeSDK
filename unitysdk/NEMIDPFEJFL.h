@@ -57,6 +57,8 @@ namespace System { class String; }
 #define NEMIDPFEJFL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAFB790)
 #define NEMIDPFEJFL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAFB7F0)
 
+inline static constexpr unsigned int NEMIDPFEJFL_TypeDefinitionIndex = 31042;
+
 	class NEMIDPFEJFL : public ::System::Object
 	{
 	public:

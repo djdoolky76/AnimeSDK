@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPGTools::Octree::Generation
 {
+	inline static constexpr unsigned int OctreeData_TypeDefinitionIndex = 48878;
+
 	class OctreeData : public ::System::Object
 	{
 	public:

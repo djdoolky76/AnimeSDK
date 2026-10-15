@@ -9,6 +9,8 @@
 
 namespace System::IO
 {
+	inline static constexpr unsigned int PinnedBufferMemoryStream_TypeDefinitionIndex = 683;
+
 	class PinnedBufferMemoryStream : public ::System::IO::UnmanagedMemoryStream
 	{
 	public:

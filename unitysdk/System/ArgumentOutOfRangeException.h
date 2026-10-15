@@ -17,6 +17,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int ArgumentOutOfRangeException_TypeDefinitionIndex = 194;
+
 	class ArgumentOutOfRangeException : public ::System::ArgumentException
 	{
 	public:

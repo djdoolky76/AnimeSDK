@@ -22,6 +22,8 @@ namespace System::Threading { class CancellationTokenSource; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int TimeoutController_TypeDefinitionIndex = 38223;
+
 	class TimeoutController : public ::System::Object
 	{
 	public:

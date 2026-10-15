@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TrainPartyBuildItemDynamicBindValue_Mission_TypeDefinitionIndex = 68880;
+
 	class TrainPartyBuildItemDynamicBindValue_Mission : public ::RPG::Client::TrainPartyBuildItemDynamicBindValue
 	{
 	public:

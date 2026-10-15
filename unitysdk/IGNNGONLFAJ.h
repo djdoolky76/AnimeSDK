@@ -29,6 +29,8 @@ namespace System { class String; }
 #define IGNNGONLFAJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E653650)
 #define IGNNGONLFAJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6536B0)
 
+inline static constexpr unsigned int IGNNGONLFAJ_TypeDefinitionIndex = 34858;
+
 	class IGNNGONLFAJ : public ::System::Object
 	{
 	public:

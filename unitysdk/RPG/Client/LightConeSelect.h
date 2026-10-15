@@ -45,6 +45,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LightConeSelect_TypeDefinitionIndex = 71045;
+
 	class LightConeSelect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

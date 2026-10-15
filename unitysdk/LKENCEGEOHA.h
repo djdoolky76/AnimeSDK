@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define LKENCEGEOHA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D108140)
 #define LKENCEGEOHA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D108100)
 
+inline static constexpr unsigned int LKENCEGEOHA_TypeDefinitionIndex = 24189;
+
 	class LKENCEGEOHA : public ::RPG::GameCore::TaskConfig
 	{
 	public:

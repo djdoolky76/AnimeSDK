@@ -30,6 +30,8 @@ namespace System { class String; }
 #define MLANPONCIIC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA7D200)
 #define MLANPONCIIC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA7D260)
 
+inline static constexpr unsigned int MLANPONCIIC_TypeDefinitionIndex = 32559;
+
 	class MLANPONCIIC : public ::System::Object
 	{
 	public:

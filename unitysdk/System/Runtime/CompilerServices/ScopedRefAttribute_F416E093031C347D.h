@@ -6,6 +6,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int ScopedRefAttribute_F416E093031C347D_TypeDefinitionIndex = 6179;
+
 	class ScopedRefAttribute_F416E093031C347D : public ::System::Attribute
 	{
 	public:

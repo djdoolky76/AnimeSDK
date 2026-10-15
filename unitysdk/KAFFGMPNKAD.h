@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KAFFGMPNKAD_CTOR_OFFSET UNITYSDK_OFFSET(0xB2D51A0)
 #define KAFFGMPNKAD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB2D5220)
 
+inline static constexpr unsigned int KAFFGMPNKAD_TypeDefinitionIndex = 52668;
+
 	class KAFFGMPNKAD
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int WorldData___c_TypeDefinitionIndex = 74646;
+
 	class WorldData___c : public ::System::Object
 	{
 	public:

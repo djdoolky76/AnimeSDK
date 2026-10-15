@@ -10,6 +10,8 @@ namespace RPG::Client { class AvatarOutfit; }
 #define MMPOBKCOIGH_LAEKOKGBDIG_OFFSET UNITYSDK_OFFSET(0xB9DFE10)
 #define MMPOBKCOIGH_MKHOINGLJDN_OFFSET UNITYSDK_OFFSET(0xB9DFD80)
 
+inline static constexpr unsigned int MMPOBKCOIGH_TypeDefinitionIndex = 62675;
+
 	class MMPOBKCOIGH : public ::System::Object
 	{
 	public:

@@ -39,6 +39,8 @@ namespace System { class String; }
 #define DCMCLHJINBD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E174610)
 #define DCMCLHJINBD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E174670)
 
+inline static constexpr unsigned int DCMCLHJINBD_TypeDefinitionIndex = 35000;
+
 	class DCMCLHJINBD : public ::System::Object
 	{
 	public:

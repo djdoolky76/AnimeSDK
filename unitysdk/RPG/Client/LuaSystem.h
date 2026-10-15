@@ -106,6 +106,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LuaSystem_TypeDefinitionIndex = 59422;
+
 	class LuaSystem : public ::System::Object
 	{
 	public:

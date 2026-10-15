@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FantasticStoryActivityData_TypeDefinitionIndex = 63971;
+
 	class FantasticStoryActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

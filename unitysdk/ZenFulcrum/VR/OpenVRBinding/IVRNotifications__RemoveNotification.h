@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRNotifications__RemoveNotification_TypeDefinitionIndex = 39161;
+
 	class IVRNotifications__RemoveNotification : public ::System::MulticastDelegate
 	{
 	public:

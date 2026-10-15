@@ -13,6 +13,8 @@ namespace UnityEngine::UIElements { class VisualElement; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int VisualElement_Hierarchy_TypeDefinitionIndex = 5903;
+
 	struct alignas(8) VisualElement_Hierarchy
 	{
 		::UnityEngine::UIElements::VisualElement* m_Owner; // 0x10

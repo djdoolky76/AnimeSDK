@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ByCompareRaidStarted; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareRaidStarted_TypeDefinitionIndex = 21233;
+
 	class ByCompareRaidStarted : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

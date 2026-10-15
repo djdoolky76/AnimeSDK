@@ -175,6 +175,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EvolveBuildGearManager_TypeDefinitionIndex = 56058;
+
 	class EvolveBuildGearManager : public ::LHHEGNEBMLN
 	{
 	public:

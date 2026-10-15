@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DIPAOFKGPMG_SET_QUERYAVATARSKINSERVICE_OFFSET UNITYSDK_OFFSET(0xF225690)
 #define DIPAOFKGPMG_SET_QUERYMULTIPLEPATHCONFIGSERVICE_OFFSET UNITYSDK_OFFSET(0xF2256B0)
 
+inline static constexpr unsigned int DIPAOFKGPMG_TypeDefinitionIndex = 62698;
+
 	class DIPAOFKGPMG : public ::System::Object
 	{
 	public:

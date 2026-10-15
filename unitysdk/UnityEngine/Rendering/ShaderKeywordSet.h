@@ -8,6 +8,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int ShaderKeywordSet_TypeDefinitionIndex = 4897;
+
 	struct alignas(4) ShaderKeywordSet
 	{
 		::UnityEngine::Rendering::ShaderKeywordSet__m_Bits_e__FixedBuffer m_Bits; // 0x10

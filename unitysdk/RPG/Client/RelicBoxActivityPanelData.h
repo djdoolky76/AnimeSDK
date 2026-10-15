@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RelicBoxActivityPanelData_TypeDefinitionIndex = 66854;
+
 	class RelicBoxActivityPanelData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

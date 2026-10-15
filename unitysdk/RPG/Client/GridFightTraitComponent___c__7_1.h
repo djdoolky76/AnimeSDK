@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTraitComponent___c__7_1_TypeDefinitionIndex = 65438;
+
 	template <typename T>
 	class GridFightTraitComponent___c__7_1 : public ::System::Object
 	{

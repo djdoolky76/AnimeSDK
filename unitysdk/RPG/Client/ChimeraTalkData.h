@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraTalkData_TypeDefinitionIndex = 63500;
+
 	class ChimeraTalkData : public ::System::Object
 	{
 	public:

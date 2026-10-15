@@ -13,6 +13,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define BELPLOHGILD___C___GETINSTANCESFROMGROUP_B__5_1_OFFSET UNITYSDK_OFFSET(0xB157940)
 #define BELPLOHGILD___C___GETINSTANCESFROMGROUP_B__5_2_OFFSET UNITYSDK_OFFSET(0xB157960)
 
+inline static constexpr unsigned int BELPLOHGILD___c_TypeDefinitionIndex = 52345;
+
 	class BELPLOHGILD___c : public ::System::Object
 	{
 	public:

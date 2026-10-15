@@ -5,6 +5,8 @@
 
 #define ELFJOFJPMJO_CTOR_OFFSET UNITYSDK_OFFSET(0x1551FA80)
 
+inline static constexpr unsigned int ELFJOFJPMJO_TypeDefinitionIndex = 55996;
+
 	class ELFJOFJPMJO : public ::System::Object
 	{
 	public:

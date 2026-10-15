@@ -18,6 +18,8 @@ namespace RPG::Client { class GridFightItemConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightHandBookEquipItemConfig_TypeDefinitionIndex = 64894;
+
 	class GridFightHandBookEquipItemConfig : public ::System::Object
 	{
 	public:

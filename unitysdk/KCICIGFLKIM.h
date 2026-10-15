@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KCICIGFLKIM_CTOR_OFFSET UNITYSDK_OFFSET(0xB3374C0)
 #define KCICIGFLKIM_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0xB337940)
 
+inline static constexpr unsigned int KCICIGFLKIM_TypeDefinitionIndex = 82275;
+
 	class KCICIGFLKIM : public ::KAANKGHDHCB
 	{
 	public:

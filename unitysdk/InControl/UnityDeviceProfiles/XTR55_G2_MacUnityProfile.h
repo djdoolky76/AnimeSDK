@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int XTR55_G2_MacUnityProfile_TypeDefinitionIndex = 41030;
+
 	class XTR55_G2_MacUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

@@ -39,6 +39,8 @@ namespace System { class Object; }
 
 namespace RootMotion::IKJob
 {
+	inline static constexpr unsigned int IKTransformRef_TypeDefinitionIndex = 45985;
+
 	struct alignas(8) IKTransformRef
 	{
 		::System::Int32 _Index; // 0x10

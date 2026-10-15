@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AirlineWay_ETailMode_TypeDefinitionIndex = 59776;
+
 	enum class AirlineWay_ETailMode : ::System::Int32
 	{
 		Cylinder = 0,

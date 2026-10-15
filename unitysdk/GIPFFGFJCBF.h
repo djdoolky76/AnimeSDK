@@ -61,6 +61,8 @@ namespace UnityEngine::UI { class Text; }
 #define GIPFFGFJCBF__ONBIND_OFFSET UNITYSDK_OFFSET(0x15A509D0)
 #define GIPFFGFJCBF___ONBIND_B__1_0_OFFSET UNITYSDK_OFFSET(0x15A531C0)
 
+inline static constexpr unsigned int GIPFFGFJCBF_TypeDefinitionIndex = 71431;
+
 	class GIPFFGFJCBF : public ::FMPCODLIOLG
 	{
 	public:

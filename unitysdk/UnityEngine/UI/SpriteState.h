@@ -14,6 +14,8 @@ namespace UnityEngine { class Sprite; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int SpriteState_TypeDefinitionIndex = 6860;
+
 	struct alignas(8) SpriteState
 	{
 		::UnityEngine::Sprite* m_HighlightedSprite; // 0x10

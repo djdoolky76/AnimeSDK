@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateParamOccupiedBuffSlotNumConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateParamOccupiedBuffSlotNumConfig_TypeDefinitionIndex = 16633;
+
 	class FateParamOccupiedBuffSlotNumConfig : public ::RPG::GameCore::FateParameterConfigBase
 	{
 	public:

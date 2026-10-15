@@ -9,6 +9,8 @@ namespace UnityEngine { class Animator; }
 #define STATEMOVEUP_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xE998310)
 #define STATEMOVEUP_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE9983C0)
 
+inline static constexpr unsigned int StateMoveUp_TypeDefinitionIndex = 47274;
+
 	class StateMoveUp : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:

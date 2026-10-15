@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DistrictAreaSoundTransform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DistrictAreaSoundTransform_TypeDefinitionIndex = 17263;
+
 	class DistrictAreaSoundTransform : public ::RPG::GameCore::JsonConfig
 	{
 	public:

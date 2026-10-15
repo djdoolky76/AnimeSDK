@@ -6,6 +6,8 @@ class KNADGNOONMC;
 #define LNLKODEPCLB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB7E8840)
 #define LNLKODEPCLB_CTOR_OFFSET UNITYSDK_OFFSET(0xB7E8900)
 
+inline static constexpr unsigned int LNLKODEPCLB_TypeDefinitionIndex = 63865;
+
 	class LNLKODEPCLB : public ::System::Object
 	{
 	public:

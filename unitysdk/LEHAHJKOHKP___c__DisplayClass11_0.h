@@ -7,6 +7,8 @@ class KAKADGHNMFK;
 #define LEHAHJKOHKP___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB653270)
 #define LEHAHJKOHKP___C__DISPLAYCLASS11_0___STATISTICCHANGEATTACK_B__0_OFFSET UNITYSDK_OFFSET(0xB653B10)
 
+inline static constexpr unsigned int LEHAHJKOHKP___c__DisplayClass11_0_TypeDefinitionIndex = 77427;
+
 	class LEHAHJKOHKP___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define AFCKCGAINAM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E114640)
 #define AFCKCGAINAM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1146A0)
 
+inline static constexpr unsigned int AFCKCGAINAM_TypeDefinitionIndex = 34127;
+
 	class AFCKCGAINAM : public ::System::Object
 	{
 	public:

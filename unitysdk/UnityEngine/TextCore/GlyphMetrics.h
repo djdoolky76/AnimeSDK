@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::TextCore
 {
+	inline static constexpr unsigned int GlyphMetrics_TypeDefinitionIndex = 5840;
+
 	struct alignas(4) GlyphMetrics
 	{
 		::System::Single m_Width; // 0x10

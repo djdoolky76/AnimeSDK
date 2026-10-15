@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Data
 {
+	inline static constexpr unsigned int DataException_TypeDefinitionIndex = 3755;
+
 	class DataException : public ::System::SystemException
 	{
 	public:

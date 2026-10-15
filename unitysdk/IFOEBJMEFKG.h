@@ -62,6 +62,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define IFOEBJMEFKG___TRYHINTRECOMMEND_G__ISPROGRESSMET_49_0_OFFSET UNITYSDK_OFFSET(0x15F2F0E0)
 #define IFOEBJMEFKG___TRYRECOMMENDMOLDFOREXAM_G__ISPROGRESSMET_51_5_OFFSET UNITYSDK_OFFSET(0x15F2EB90)
 
+inline static constexpr unsigned int IFOEBJMEFKG_TypeDefinitionIndex = 79439;
+
 	class IFOEBJMEFKG : public ::System::Object
 	{
 	public:

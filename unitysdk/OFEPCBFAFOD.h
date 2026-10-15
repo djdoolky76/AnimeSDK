@@ -10,6 +10,8 @@ namespace System { class String; }
 #define OFEPCBFAFOD_OADNJCJGKHD_1_OFFSET UNITYSDK_OFFSET(0xBE3F670)
 #define OFEPCBFAFOD_OADNJCJGKHD_OFFSET UNITYSDK_OFFSET(0xBE3F5F0)
 
+inline static constexpr unsigned int OFEPCBFAFOD_TypeDefinitionIndex = 81060;
+
 	class OFEPCBFAFOD : public ::System::Object
 	{
 	public:

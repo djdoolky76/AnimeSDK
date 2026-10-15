@@ -78,6 +78,8 @@ namespace UnityEngine { class Transform; }
 #define CBIKMJHGEDE_PCFKAIMMOJN_OFFSET UNITYSDK_OFFSET(0xC4ADCE0)
 #define CBIKMJHGEDE_PIIBNJGPLLO_OFFSET UNITYSDK_OFFSET(0xC4AD2F0)
 
+inline static constexpr unsigned int CBIKMJHGEDE_TypeDefinitionIndex = 77019;
+
 	class CBIKMJHGEDE : public ::System::Object
 	{
 	public:

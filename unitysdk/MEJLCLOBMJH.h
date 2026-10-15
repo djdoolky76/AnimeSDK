@@ -11,6 +11,8 @@ namespace RPG::Client::Challenge { class IChallengeEnvironmentHintViewModel; }
 #define MEJLCLOBMJH_KFNLKCOAMAO_OFFSET UNITYSDK_OFFSET(0xB8DA720)
 #define MEJLCLOBMJH_LLEGMLMJIFA_OFFSET UNITYSDK_OFFSET(0xB8DAA10)
 
+inline static constexpr unsigned int MEJLCLOBMJH_TypeDefinitionIndex = 81597;
+
 	class MEJLCLOBMJH : public ::System::Object
 	{
 	public:

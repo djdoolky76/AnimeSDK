@@ -19,6 +19,8 @@ namespace UnityEngine::ProBuilder { class HandleConstraint2D; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int HandleConstraint2D_TypeDefinitionIndex = 44360;
+
 	class HandleConstraint2D : public ::System::Object
 	{
 	public:

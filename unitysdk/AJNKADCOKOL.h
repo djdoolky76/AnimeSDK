@@ -29,6 +29,8 @@ namespace System { class String; }
 #define AJNKADCOKOL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3C5FF0)
 #define AJNKADCOKOL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3C6050)
 
+inline static constexpr unsigned int AJNKADCOKOL_TypeDefinitionIndex = 27750;
+
 	class AJNKADCOKOL : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { class String; }
 #define IGNKFJIPMEN_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBF9ED0)
 #define IGNKFJIPMEN_EOJBCLHBEGA_OFFSET UNITYSDK_OFFSET(0x1EC2F220)
 
+inline static constexpr unsigned int IGNKFJIPMEN_TypeDefinitionIndex = 35273;
+
 	class IGNKFJIPMEN : public ::System::Object
 	{
 	public:

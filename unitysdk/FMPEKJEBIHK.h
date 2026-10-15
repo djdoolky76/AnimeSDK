@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelSmartObjectCommonPointInfo; }
 #define FMPEKJEBIHK_EIOMMLPIAKP_OFFSET UNITYSDK_OFFSET(0x15866970)
 #define FMPEKJEBIHK_HHMFILFAMNA_OFFSET UNITYSDK_OFFSET(0x15866980)
 
+inline static constexpr unsigned int FMPEKJEBIHK_TypeDefinitionIndex = 52111;
+
 	class FMPEKJEBIHK : public ::System::Object
 	{
 	public:

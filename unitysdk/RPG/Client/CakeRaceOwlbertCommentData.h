@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeRaceOwlbertCommentData_TypeDefinitionIndex = 63063;
+
 	class CakeRaceOwlbertCommentData : public ::System::Object
 	{
 	public:

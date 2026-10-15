@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CILKBJMGNGL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0D5920)
 #define CILKBJMGNGL___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E0D5930)
 
+inline static constexpr unsigned int CILKBJMGNGL___c_TypeDefinitionIndex = 33552;
+
 	class CILKBJMGNGL___c : public ::System::Object
 	{
 	public:

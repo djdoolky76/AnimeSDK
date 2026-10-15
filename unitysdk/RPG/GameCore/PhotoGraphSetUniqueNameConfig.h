@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PhotoGraphSetUniqueNameConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphSetUniqueNameConfig_TypeDefinitionIndex = 21627;
+
 	class PhotoGraphSetUniqueNameConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

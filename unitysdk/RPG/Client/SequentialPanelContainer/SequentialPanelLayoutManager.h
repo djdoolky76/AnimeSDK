@@ -19,6 +19,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::SequentialPanelContainer
 {
+	inline static constexpr unsigned int SequentialPanelLayoutManager_TypeDefinitionIndex = 74757;
+
 	class SequentialPanelLayoutManager : public ::System::Object
 	{
 	public:

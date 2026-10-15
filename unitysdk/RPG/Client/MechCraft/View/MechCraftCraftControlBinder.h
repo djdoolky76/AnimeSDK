@@ -36,6 +36,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftControlBinder_TypeDefinitionIndex = 79906;
+
 	class MechCraftCraftControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

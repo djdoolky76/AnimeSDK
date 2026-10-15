@@ -6,6 +6,8 @@
 #define KLKEKKDGBAO_EHHAHMPEADF_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x16510)
 #define KLKEKKDGBAO_EHHAHMPEADF_SET_VAL_OFFSET UNITYSDK_OFFSET(0x14EA0)
 
+inline static constexpr unsigned int KLKEKKDGBAO_EHHAHMPEADF_TypeDefinitionIndex = 56963;
+
 	struct alignas(4) KLKEKKDGBAO_EHHAHMPEADF
 	{
 		::System::Single _Val_k__BackingField; // 0x10

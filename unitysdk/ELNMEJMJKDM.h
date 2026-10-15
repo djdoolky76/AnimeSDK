@@ -9,6 +9,8 @@ namespace System { class String; }
 #define ELNMEJMJKDM_FHHJLPONEGI_OFFSET UNITYSDK_OFFSET(0x1CDA4A60)
 #define ELNMEJMJKDM_PKHKMPPPMLH_OFFSET UNITYSDK_OFFSET(0x1CDA49F0)
 
+inline static constexpr unsigned int ELNMEJMJKDM_TypeDefinitionIndex = 10374;
+
 	class ELNMEJMJKDM : public ::System::Object
 	{
 	public:

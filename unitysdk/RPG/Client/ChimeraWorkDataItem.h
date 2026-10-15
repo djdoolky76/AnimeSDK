@@ -33,6 +33,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraWorkDataItem_TypeDefinitionIndex = 63501;
+
 	class ChimeraWorkDataItem : public ::System::Object
 	{
 	public:

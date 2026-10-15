@@ -28,6 +28,8 @@ namespace System { class String; }
 #define MKAKFIMMBAN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA4FC60)
 #define MKAKFIMMBAN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA4FCC0)
 
+inline static constexpr unsigned int MKAKFIMMBAN_TypeDefinitionIndex = 31426;
+
 	class MKAKFIMMBAN : public ::System::Object
 	{
 	public:

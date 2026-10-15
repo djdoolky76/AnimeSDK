@@ -5,6 +5,8 @@
 #define JDMCHDDALJL_CTOR_OFFSET UNITYSDK_OFFSET(0x165D8190)
 #define JDMCHDDALJL_INTERP_OFFSET UNITYSDK_OFFSET(0x165D8200)
 
+inline static constexpr unsigned int JDMCHDDALJL_TypeDefinitionIndex = 74026;
+
 	class JDMCHDDALJL
 	{
 	public:

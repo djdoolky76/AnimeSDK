@@ -13,6 +13,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraEvaluationPositionController_TypeDefinitionIndex = 72474;
+
 	class ChimeraEvaluationPositionController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace Newtonsoft::Json::Shims
 {
+	inline static constexpr unsigned int PreserveAttribute_TypeDefinitionIndex = 9687;
+
 	class PreserveAttribute : public ::System::Attribute
 	{
 	public:

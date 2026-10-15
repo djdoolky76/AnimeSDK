@@ -3,6 +3,8 @@
 
 #define NNHAHDEBIJB_JMBPJBLKCGD_CTOR_OFFSET UNITYSDK_OFFSET(0xBCAEA40)
 
+inline static constexpr unsigned int NNHAHDEBIJB_JMBPJBLKCGD_TypeDefinitionIndex = 77153;
+
 	class NNHAHDEBIJB_JMBPJBLKCGD
 	{
 	public:

@@ -49,6 +49,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingDIYSubSkillPanelControl_TypeDefinitionIndex = 81784;
+
 	class B51RacingDIYSubSkillPanelControl : public ::Sofa::BaseSofaControl
 	{
 	public:

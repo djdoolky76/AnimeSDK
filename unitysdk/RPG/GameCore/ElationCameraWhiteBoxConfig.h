@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElationCameraWhiteBoxConfig_TypeDefinitionIndex = 16545;
+
 	class ElationCameraWhiteBoxConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

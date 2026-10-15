@@ -163,6 +163,8 @@ namespace UnityEngine { class Component; }
 
 namespace IFix
 {
+	inline static constexpr unsigned int ILFixInterfaceBridge_8297E2A649594ECB_TypeDefinitionIndex = 82333;
+
 	class ILFixInterfaceBridge_8297E2A649594ECB : public ::IFix::Core::AnonymousStorey
 	{
 	public:

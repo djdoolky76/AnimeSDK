@@ -20,6 +20,8 @@ namespace System::Linq::Expressions { class LabelTarget; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int GotoExpression_TypeDefinitionIndex = 3222;
+
 	class GotoExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:

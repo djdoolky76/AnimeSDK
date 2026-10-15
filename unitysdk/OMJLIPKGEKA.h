@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleImmuneAttackBack; }
 #define OMJLIPKGEKA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C99DDD0)
 #define OMJLIPKGEKA_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C99DDE0)
 
+inline static constexpr unsigned int OMJLIPKGEKA_TypeDefinitionIndex = 43132;
+
 	class OMJLIPKGEKA : public ::BKABEBEPPJK
 	{
 	public:

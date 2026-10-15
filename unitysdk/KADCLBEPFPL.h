@@ -10,6 +10,8 @@ namespace System { class String; }
 #define KADCLBEPFPL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D05D5A0)
 #define KADCLBEPFPL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D05D560)
 
+inline static constexpr unsigned int KADCLBEPFPL_TypeDefinitionIndex = 22650;
+
 	class KADCLBEPFPL : public ::RPG::GameCore::TaskConfig
 	{
 	public:

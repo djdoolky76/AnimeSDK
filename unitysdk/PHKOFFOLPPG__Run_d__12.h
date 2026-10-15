@@ -13,6 +13,8 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 #define PHKOFFOLPPG__RUN_D__12_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C52D90)
 #define PHKOFFOLPPG__RUN_D__12_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
 
+inline static constexpr unsigned int PHKOFFOLPPG__Run_d__12_TypeDefinitionIndex = 44172;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12>
 	struct alignas(8) PHKOFFOLPPG__Run_d__12
 	{

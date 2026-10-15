@@ -78,6 +78,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int WormCompassPuzzleBoard_TypeDefinitionIndex = 78926;
+
 	class WormCompassPuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

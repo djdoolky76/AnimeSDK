@@ -34,6 +34,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SwordTrainingStoryData_TypeDefinitionIndex = 61991;
+
 	class SwordTrainingStoryData : public ::System::Object
 	{
 	public:

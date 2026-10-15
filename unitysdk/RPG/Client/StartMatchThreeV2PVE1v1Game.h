@@ -10,6 +10,8 @@ namespace RPG::Client { class StartMatchThreeV2PVE1v1Game; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StartMatchThreeV2PVE1v1Game_TypeDefinitionIndex = 10254;
+
 	class StartMatchThreeV2PVE1v1Game : public ::RPG::GameCore::TaskConfig
 	{
 	public:

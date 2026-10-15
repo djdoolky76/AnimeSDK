@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG
 {
+	inline static constexpr unsigned int ReferencePool_AutoReleaseReferenceObjectCollectorRegistry_TypeDefinitionIndex = 5624;
+
 	class ReferencePool_AutoReleaseReferenceObjectCollectorRegistry : public ::System::Object
 	{
 	public:

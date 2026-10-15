@@ -22,6 +22,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetAlias_TypeDefinitionIndex = 23745;
+
 	class TargetAlias : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:

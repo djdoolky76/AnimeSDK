@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FateRinCaseBoardSimpleTalkData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateRinCaseBoardSimpleTalkData_TypeDefinitionIndex = 19932;
+
 	class FateRinCaseBoardSimpleTalkData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -7,6 +7,8 @@ class KDHICPODIMK;
 #define KDHICPODIMK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D07FAF0)
 #define KDHICPODIMK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D07FA00)
 
+inline static constexpr unsigned int KDHICPODIMK_TypeDefinitionIndex = 13069;
+
 	class KDHICPODIMK : public ::System::Object
 	{
 	public:

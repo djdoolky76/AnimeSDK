@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightPenaltyRuleConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightPenaltyRuleConfigRow_TypeDefinitionIndex = 13617;
+
 	class GridFightPenaltyRuleConfigRow : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define MJAGJLCMBNM_CTOR_OFFSET UNITYSDK_OFFSET(0xB9624A0)
 #define MJAGJLCMBNM_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xB962450)
 
+inline static constexpr unsigned int MJAGJLCMBNM_TypeDefinitionIndex = 56237;
+
 	class MJAGJLCMBNM : public ::System::Object
 	{
 	public:

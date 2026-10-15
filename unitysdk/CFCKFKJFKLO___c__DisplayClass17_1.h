@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define CFCKFKJFKLO___C__DISPLAYCLASS17_1___CTOR_B__2_OFFSET UNITYSDK_OFFSET(0xCA098B0)
 #define CFCKFKJFKLO___C__DISPLAYCLASS17_1___CTOR_B__3_OFFSET UNITYSDK_OFFSET(0xCA09940)
 
+inline static constexpr unsigned int CFCKFKJFKLO___c__DisplayClass17_1_TypeDefinitionIndex = 79568;
+
 	template <typename T>
 	class CFCKFKJFKLO___c__DisplayClass17_1 : public ::System::Object
 	{

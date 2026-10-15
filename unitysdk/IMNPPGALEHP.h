@@ -25,6 +25,8 @@ namespace System { class String; }
 #define IMNPPGALEHP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6B98F0)
 #define IMNPPGALEHP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6B9950)
 
+inline static constexpr unsigned int IMNPPGALEHP_TypeDefinitionIndex = 31254;
+
 	class IMNPPGALEHP : public ::System::Object
 	{
 	public:

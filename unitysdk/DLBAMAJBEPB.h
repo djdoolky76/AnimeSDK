@@ -4,6 +4,8 @@
 
 #define DLBAMAJBEPB_CTOR_OFFSET UNITYSDK_OFFSET(0xF890CD0)
 
+inline static constexpr unsigned int DLBAMAJBEPB_TypeDefinitionIndex = 49777;
+
 	class DLBAMAJBEPB : public ::System::Attribute
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CCPMFNFNMNK_OAMLGEEMPOK_OFFSET UNITYSDK_OFFSET(0xC75D560)
 #define CCPMFNFNMNK_OJAJPDAEOBB_OFFSET UNITYSDK_OFFSET(0xC75CC50)
 
+inline static constexpr unsigned int CCPMFNFNMNK_TypeDefinitionIndex = 74409;
+
 	class CCPMFNFNMNK : public ::System::Object
 	{
 	public:

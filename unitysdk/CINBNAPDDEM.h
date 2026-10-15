@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CINBNAPDDEM_CTOR_OFFSET UNITYSDK_OFFSET(0xCF8ECF0)
 #define CINBNAPDDEM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCF8ED20)
 
+inline static constexpr unsigned int CINBNAPDDEM_TypeDefinitionIndex = 52602;
+
 	class CINBNAPDDEM
 	{
 	public:

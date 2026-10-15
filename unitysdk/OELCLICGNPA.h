@@ -8,6 +8,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define OELCLICGNPA_HFIDHKKOEOA_OFFSET UNITYSDK_OFFSET(0xBE31D00)
 #define OELCLICGNPA_JAGPJGOOALH_OFFSET UNITYSDK_OFFSET(0xBE31BE0)
 
+inline static constexpr unsigned int OELCLICGNPA_TypeDefinitionIndex = 65587;
+
 	class OELCLICGNPA : public ::System::Object
 	{
 	public:

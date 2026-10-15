@@ -30,6 +30,8 @@ namespace System::Text { class StringBuilder; }
 #define PBHPDJNGECA_SET_USINGRULEIDENTIFIER_OFFSET UNITYSDK_OFFSET(0x262C0)
 #define PBHPDJNGECA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x262D0)
 
+inline static constexpr unsigned int PBHPDJNGECA_TypeDefinitionIndex = 62862;
+
 	struct alignas(8) PBHPDJNGECA
 	{
 		::RPG::AvatarSystem::IAvatar* _Origin_k__BackingField; // 0x10

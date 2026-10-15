@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CharacterMaterialTemplate; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterMaterialTemplate_TypeDefinitionIndex = 17446;
+
 	class CharacterMaterialTemplate : public ::RPG::GameCore::JsonConfig
 	{
 	public:

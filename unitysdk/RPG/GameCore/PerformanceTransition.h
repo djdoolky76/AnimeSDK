@@ -21,6 +21,8 @@ namespace RPG::GameCore { class SwitchCharacterAnchor; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceTransition_TypeDefinitionIndex = 21859;
+
 	class PerformanceTransition : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define GDPILPBMEEC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x159C42B0)
 #define GDPILPBMEEC___C__GETAGENDACONFIGS_B__6_0_OFFSET UNITYSDK_OFFSET(0x159C42C0)
 
+inline static constexpr unsigned int GDPILPBMEEC___c_TypeDefinitionIndex = 81737;
+
 	class GDPILPBMEEC___c : public ::System::Object
 	{
 	public:

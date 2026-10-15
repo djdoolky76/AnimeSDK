@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EGCMNMODOMN_CTOR_OFFSET UNITYSDK_OFFSET(0x13A60210)
 #define EGCMNMODOMN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13A60240)
 
+inline static constexpr unsigned int EGCMNMODOMN_TypeDefinitionIndex = 52820;
+
 	class EGCMNMODOMN
 	{
 	public:

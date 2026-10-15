@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WeGameDelegate_GetPlayerIDDelegate_TypeDefinitionIndex = 7716;
+
 	class WeGameDelegate_GetPlayerIDDelegate : public ::System::MulticastDelegate
 	{
 	public:

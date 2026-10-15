@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ABPFEDEHLIA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDD3A20)
 #define ABPFEDEHLIA___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1DDD3A30)
 
+inline static constexpr unsigned int ABPFEDEHLIA___c_TypeDefinitionIndex = 34144;
+
 	class ABPFEDEHLIA___c : public ::System::Object
 	{
 	public:

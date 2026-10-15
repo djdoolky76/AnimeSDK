@@ -4,6 +4,8 @@
 
 #define AKTERMINATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F60F970)
 
+inline static constexpr unsigned int AkTerminator_TypeDefinitionIndex = 44958;
+
 	class AkTerminator : public ::UnityEngine::MonoBehaviour
 	{
 	public:

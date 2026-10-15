@@ -14,6 +14,8 @@ namespace RPG::Client::PetDiy { class PetSlotInfo; }
 
 namespace RPG::Client::PetDiy
 {
+	inline static constexpr unsigned int PetSlotInfo_TypeDefinitionIndex = 74487;
+
 	class PetSlotInfo : public ::System::Object
 	{
 	public:

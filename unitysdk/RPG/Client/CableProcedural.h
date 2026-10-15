@@ -30,6 +30,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CableProcedural_TypeDefinitionIndex = 70388;
+
 	class CableProcedural : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LevelPathwayLinkInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPathwayLinkInfo_TypeDefinitionIndex = 17251;
+
 	class LevelPathwayLinkInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

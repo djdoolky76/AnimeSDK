@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AlleyTransportFocusCamera; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AlleyTransportFocusCamera_TypeDefinitionIndex = 24288;
+
 	class AlleyTransportFocusCamera : public ::RPG::GameCore::TaskConfig
 	{
 	public:

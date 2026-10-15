@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JEFACKHBIKH_CTOR_OFFSET UNITYSDK_OFFSET(0x1661F2C0)
 #define JEFACKHBIKH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1661F2F0)
 
+inline static constexpr unsigned int JEFACKHBIKH_TypeDefinitionIndex = 58505;
+
 	class JEFACKHBIKH
 	{
 	public:

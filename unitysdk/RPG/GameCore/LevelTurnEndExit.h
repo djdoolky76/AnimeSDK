@@ -10,6 +10,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelTurnEndExit_TypeDefinitionIndex = 56711;
+
 	class LevelTurnEndExit : public ::CMPGEAFHHDC
 	{
 	public:

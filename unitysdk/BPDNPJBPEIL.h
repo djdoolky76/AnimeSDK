@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BPDNPJBPEIL_GICABFLDIPA_OFFSET UNITYSDK_OFFSET(0xC1A2F40)
 #define BPDNPJBPEIL_OAGDIHGBBOI_OFFSET UNITYSDK_OFFSET(0xC1A2EF0)
 
+inline static constexpr unsigned int BPDNPJBPEIL_TypeDefinitionIndex = 77473;
+
 	class BPDNPJBPEIL : public ::FJNNEOKOCJD
 	{
 	public:

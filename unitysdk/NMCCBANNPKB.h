@@ -29,6 +29,8 @@ namespace System { class String; }
 #define NMCCBANNPKB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB6DD60)
 #define NMCCBANNPKB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB6DDC0)
 
+inline static constexpr unsigned int NMCCBANNPKB_TypeDefinitionIndex = 32198;
+
 	class NMCCBANNPKB : public ::System::Object
 	{
 	public:

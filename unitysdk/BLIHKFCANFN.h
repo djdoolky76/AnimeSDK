@@ -271,6 +271,8 @@ namespace RPG::GameCore { class RogueModifierConfig; }
 #define BLIHKFCANFN_PMCGMLLCBLF_OFFSET UNITYSDK_OFFSET(0x1D825370)
 #define BLIHKFCANFN_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1D824970)
 
+inline static constexpr unsigned int BLIHKFCANFN_TypeDefinitionIndex = 19085;
+
 	class BLIHKFCANFN : public ::System::Object
 	{
 	public:

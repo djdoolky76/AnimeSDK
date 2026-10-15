@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAbilityPixAirEffectBoostMultiCastConfi
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityPixAirEffectBoostMultiCastConfig_TypeDefinitionIndex = 21354;
+
 	class LittleGameAbilityPixAirEffectBoostMultiCastConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:

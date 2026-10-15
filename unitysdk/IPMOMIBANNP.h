@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IPMOMIBANNP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CF333C0)
 #define IPMOMIBANNP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CF32CD0)
 
+inline static constexpr unsigned int IPMOMIBANNP_TypeDefinitionIndex = 13900;
+
 	class IPMOMIBANNP : public ::System::Object
 	{
 	public:

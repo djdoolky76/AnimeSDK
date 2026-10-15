@@ -6,6 +6,8 @@ namespace RPG::Client { class ActivityData; }
 #define NEGDBAFNLAI_CTOR_OFFSET UNITYSDK_OFFSET(0xBB5D890)
 #define NEGDBAFNLAI_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0xBB5D810)
 
+inline static constexpr unsigned int NEGDBAFNLAI_TypeDefinitionIndex = 61720;
+
 	class NEGDBAFNLAI : public ::System::Object
 	{
 	public:

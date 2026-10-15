@@ -12,6 +12,8 @@
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameplayScoreItemViewModel_TypeDefinitionIndex = 81385;
+
 	class ChenLingFesGameplayScoreItemViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

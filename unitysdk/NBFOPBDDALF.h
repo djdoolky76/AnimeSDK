@@ -17,6 +17,8 @@ namespace UnityEngine { class Collider; }
 #define NBFOPBDDALF_JCMIIJABICI_OFFSET UNITYSDK_OFFSET(0xBABFB20)
 #define NBFOPBDDALF_JFMILGOGGHP_OFFSET UNITYSDK_OFFSET(0xBABFA60)
 
+inline static constexpr unsigned int NBFOPBDDALF_TypeDefinitionIndex = 68668;
+
 	class NBFOPBDDALF : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActiveCommonSkillPool_TypeDefinitionIndex = 23274;
+
 	class ActiveCommonSkillPool : public ::RPG::GameCore::TaskConfig
 	{
 	public:

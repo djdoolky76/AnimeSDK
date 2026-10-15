@@ -28,6 +28,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class JSONNode; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKBrowser_TypeDefinitionIndex = 46461;
+
 	class MiHoYoSDKBrowser : public ::UnityEngine::MonoBehaviour
 	{
 	public:

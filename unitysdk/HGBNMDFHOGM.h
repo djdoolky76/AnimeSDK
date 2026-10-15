@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HGBNMDFHOGM__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x15C8FD10)
 #define HGBNMDFHOGM__UNBINDVIEW_OFFSET UNITYSDK_OFFSET(0x15C8FEA0)
 
+inline static constexpr unsigned int HGBNMDFHOGM_TypeDefinitionIndex = 72871;
+
 	class HGBNMDFHOGM : public ::RPG::Client::UIController
 	{
 	public:

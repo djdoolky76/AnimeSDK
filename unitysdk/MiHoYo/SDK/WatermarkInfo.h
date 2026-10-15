@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WatermarkInfo_TypeDefinitionIndex = 7895;
+
 	class WatermarkInfo : public ::System::Object
 	{
 	public:

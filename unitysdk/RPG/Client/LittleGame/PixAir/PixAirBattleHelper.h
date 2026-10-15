@@ -49,6 +49,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::PixAir
 {
+	inline static constexpr unsigned int PixAirBattleHelper_TypeDefinitionIndex = 77286;
+
 	class PixAirBattleHelper : public ::System::Object
 	{
 	public:

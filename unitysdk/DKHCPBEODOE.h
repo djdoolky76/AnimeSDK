@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DKHCPBEODOE_CTOR_OFFSET UNITYSDK_OFFSET(0xF87C2C0)
 #define DKHCPBEODOE_JDDOLBNGDAO_OFFSET UNITYSDK_OFFSET(0xF87C2D0)
 
+inline static constexpr unsigned int DKHCPBEODOE_TypeDefinitionIndex = 55524;
+
 	class DKHCPBEODOE : public ::System::Object
 	{
 	public:

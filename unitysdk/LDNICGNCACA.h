@@ -14,6 +14,8 @@ namespace UnityEngine { class RectTransform; }
 #define LDNICGNCACA_IOKAOGFPCJD_OFFSET UNITYSDK_OFFSET(0xB63EBB0)
 #define LDNICGNCACA_OLACLDCGBIF_OFFSET UNITYSDK_OFFSET(0xB63ED80)
 
+inline static constexpr unsigned int LDNICGNCACA_TypeDefinitionIndex = 72666;
+
 	class LDNICGNCACA : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class VCameraShotAnimMovementConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VCameraShotAnimMovementConfig_TypeDefinitionIndex = 16412;
+
 	class VCameraShotAnimMovementConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

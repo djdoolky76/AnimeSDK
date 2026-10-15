@@ -6,6 +6,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2MassData_TypeDefinitionIndex = 36707;
+
 	struct alignas(4) B2MassData
 	{
 		::System::Single mass; // 0x10

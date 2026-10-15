@@ -13,6 +13,8 @@ namespace UnityEngine::UIElements::StyleSheets { class VisualElementStylesData; 
 
 namespace UnityEngine::UIElements::StyleSheets
 {
+	inline static constexpr unsigned int VisualElementStylesData_TypeDefinitionIndex = 6017;
+
 	class VisualElementStylesData : public ::System::Object
 	{
 	public:

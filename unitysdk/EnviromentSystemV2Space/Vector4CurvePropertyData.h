@@ -10,6 +10,8 @@ namespace EnviromentSystemV2Space { class PropertyDataBase; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int Vector4CurvePropertyData_TypeDefinitionIndex = 49394;
+
 	class Vector4CurvePropertyData
 	{
 	public:

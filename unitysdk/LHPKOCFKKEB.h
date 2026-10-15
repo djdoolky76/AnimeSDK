@@ -10,6 +10,8 @@ namespace RPG::Client::Billboard { class IBillboardTypeData; }
 #define LHPKOCFKKEB_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xB6C1EC0)
 #define LHPKOCFKKEB_ISVALID_OFFSET UNITYSDK_OFFSET(0xB6C1F00)
 
+inline static constexpr unsigned int LHPKOCFKKEB_TypeDefinitionIndex = 74987;
+
 	class LHPKOCFKKEB : public ::System::Object
 	{
 	public:

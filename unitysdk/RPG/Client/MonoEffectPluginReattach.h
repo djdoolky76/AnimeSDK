@@ -14,6 +14,8 @@ class MABKGECBBGD;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginReattach_TypeDefinitionIndex = 70102;
+
 	class MonoEffectPluginReattach : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyDiceSurfaceWeightByRarityConf
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyDiceSurfaceWeightByRarityConfig_TypeDefinitionIndex = 17937;
+
 	class RogueModifierModifyDiceSurfaceWeightByRarityConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

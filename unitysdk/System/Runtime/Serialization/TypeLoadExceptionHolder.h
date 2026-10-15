@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int TypeLoadExceptionHolder_TypeDefinitionIndex = 1116;
+
 	class TypeLoadExceptionHolder : public ::System::Object
 	{
 	public:

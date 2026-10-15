@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CloseTimeRewindRecreateWorldPage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CloseTimeRewindRecreateWorldPage_TypeDefinitionIndex = 20666;
+
 	class CloseTimeRewindRecreateWorldPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

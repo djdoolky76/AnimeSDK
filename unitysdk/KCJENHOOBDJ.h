@@ -13,6 +13,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_WriteCustomValue_GlobalData
 #define KCJENHOOBDJ_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C70CC80)
 #define KCJENHOOBDJ_OPJFLHPFKAN_OFFSET UNITYSDK_OFFSET(0x1C70D3D0)
 
+inline static constexpr unsigned int KCJENHOOBDJ_TypeDefinitionIndex = 36370;
+
 	class KCJENHOOBDJ : public ::AJBKGPOEBFG
 	{
 	public:

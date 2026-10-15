@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TravelShipFollowTo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TravelShipFollowTo_TypeDefinitionIndex = 20973;
+
 	class TravelShipFollowTo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

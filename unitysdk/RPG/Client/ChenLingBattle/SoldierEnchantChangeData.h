@@ -8,6 +8,8 @@ namespace RPG::Client::ChenLingBattle { class Soldier; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int SoldierEnchantChangeData_TypeDefinitionIndex = 76245;
+
 	class SoldierEnchantChangeData : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeGame___c__DisplayClass44_0_TypeDefinitionIndex = 65941;
+
 	class MatchThreeGame___c__DisplayClass44_0 : public ::System::Object
 	{
 	public:

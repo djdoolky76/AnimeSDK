@@ -7,6 +7,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int DynamicObjectTypeBuilder_CodeGenHelpersTypeInfo_TypeDefinitionIndex = 7315;
+
 	class DynamicObjectTypeBuilder_CodeGenHelpersTypeInfo : public ::System::Object
 	{
 	public:

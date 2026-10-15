@@ -16,6 +16,8 @@ namespace UnityEngine::AI { class NavMeshModifierVolume; }
 
 namespace UnityEngine::AI
 {
+	inline static constexpr unsigned int NavMeshSurface___c_TypeDefinitionIndex = 41355;
+
 	class NavMeshSurface___c : public ::System::Object
 	{
 	public:

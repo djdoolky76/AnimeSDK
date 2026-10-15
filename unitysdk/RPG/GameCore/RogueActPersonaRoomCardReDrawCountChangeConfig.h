@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActPersonaRoomCardReDrawCountChangeConfig; 
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActPersonaRoomCardReDrawCountChangeConfig_TypeDefinitionIndex = 19771;
+
 	class RogueActPersonaRoomCardReDrawCountChangeConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

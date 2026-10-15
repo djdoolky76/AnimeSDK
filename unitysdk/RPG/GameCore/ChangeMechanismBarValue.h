@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChangeMechanismBarValue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChangeMechanismBarValue_TypeDefinitionIndex = 20525;
+
 	class ChangeMechanismBarValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

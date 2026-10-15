@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueBuffDropAction_TypeDefinitionIndex = 66981;
+
 	class RogueBuffDropAction : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace Entitas { class IContext; }
 #define LMJPODEEGKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C914010)
 #define LMJPODEEGKK_GET_ALLCONTEXTS_OFFSET UNITYSDK_OFFSET(0x1C914130)
 
+inline static constexpr unsigned int LMJPODEEGKK_TypeDefinitionIndex = 41926;
+
 	class LMJPODEEGKK : public ::System::Object
 	{
 	public:

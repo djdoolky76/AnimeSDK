@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define DNGDKOGLNFP___WAITMAPROTATION_D__20_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x11952550)
 #define DNGDKOGLNFP___WAITMAPROTATION_D__20_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11952320)
 
+inline static constexpr unsigned int DNGDKOGLNFP___WaitMapRotation_d__20_TypeDefinitionIndex = 60536;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20>
 	class DNGDKOGLNFP___WaitMapRotation_d__20 : public ::System::Object
 	{

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChessRogueDoorInteraction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChessRogueDoorInteraction_TypeDefinitionIndex = 22096;
+
 	class ChessRogueDoorInteraction : public ::RPG::GameCore::TaskConfig
 	{
 	public:

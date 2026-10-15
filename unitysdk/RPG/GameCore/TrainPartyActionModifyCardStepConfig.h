@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyActionModifyCardStepConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyActionModifyCardStepConfig_TypeDefinitionIndex = 18078;
+
 	class TrainPartyActionModifyCardStepConfig : public ::RPG::GameCore::TrainPartyActionConfigBase
 	{
 	public:

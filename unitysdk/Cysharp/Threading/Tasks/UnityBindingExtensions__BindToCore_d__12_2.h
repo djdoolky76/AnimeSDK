@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UnityBindingExtensions__BindToCore_d__12_2_TypeDefinitionIndex = 38488;
+
 	template <typename T1, typename T2>
 	struct alignas(8) UnityBindingExtensions__BindToCore_d__12_2
 	{

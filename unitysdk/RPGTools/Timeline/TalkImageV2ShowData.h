@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TalkImageV2ShowData_TypeDefinitionIndex = 48393;
+
 	class TalkImageV2ShowData : public ::System::Object
 	{
 	public:

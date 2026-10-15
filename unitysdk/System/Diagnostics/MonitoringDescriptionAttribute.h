@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int MonitoringDescriptionAttribute_TypeDefinitionIndex = 2556;
+
 	class MonitoringDescriptionAttribute : public ::System::ComponentModel::DescriptionAttribute
 	{
 	public:

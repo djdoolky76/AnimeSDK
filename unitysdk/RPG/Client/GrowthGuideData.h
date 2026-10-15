@@ -15,6 +15,8 @@ namespace RPG::Client { class SkillTreeGrowthGuide; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GrowthGuideData_TypeDefinitionIndex = 65547;
+
 	class GrowthGuideData : public ::System::Object
 	{
 	public:

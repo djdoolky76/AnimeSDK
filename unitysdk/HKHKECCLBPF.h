@@ -4,6 +4,8 @@
 
 #define HKHKECCLBPF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAECBC0)
 
+inline static constexpr unsigned int HKHKECCLBPF_TypeDefinitionIndex = 43795;
+
 	class HKHKECCLBPF : public ::System::Object
 	{
 	public:

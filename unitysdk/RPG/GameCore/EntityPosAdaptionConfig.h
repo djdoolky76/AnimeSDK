@@ -11,6 +11,8 @@ namespace RPG::GameCore { class EntityPosAdaptionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntityPosAdaptionConfig_TypeDefinitionIndex = 20358;
+
 	class EntityPosAdaptionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

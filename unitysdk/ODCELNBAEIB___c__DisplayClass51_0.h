@@ -8,6 +8,8 @@ class ODCELNBAEIB;
 #define ODCELNBAEIB___C__DISPLAYCLASS51_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBD82590)
 #define ODCELNBAEIB___C__DISPLAYCLASS51_0___ONPLAYSPAWNISLANDPERFORMANCE_B__0_OFFSET UNITYSDK_OFFSET(0xBD86F90)
 
+inline static constexpr unsigned int ODCELNBAEIB___c__DisplayClass51_0_TypeDefinitionIndex = 79103;
+
 	class ODCELNBAEIB___c__DisplayClass51_0 : public ::System::Object
 	{
 	public:

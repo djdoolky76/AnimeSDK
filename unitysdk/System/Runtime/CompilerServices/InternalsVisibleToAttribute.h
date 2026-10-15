@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int InternalsVisibleToAttribute_TypeDefinitionIndex = 1387;
+
 	class InternalsVisibleToAttribute : public ::System::Attribute
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::Ui::Samples
 {
+	inline static constexpr unsigned int FriendChatPageSampleControl___c_TypeDefinitionIndex = 73437;
+
 	class FriendChatPageSampleControl___c : public ::System::Object
 	{
 	public:

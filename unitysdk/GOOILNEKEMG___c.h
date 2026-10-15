@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GOOILNEKEMG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4F4810)
 #define GOOILNEKEMG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E4F4820)
 
+inline static constexpr unsigned int GOOILNEKEMG___c_TypeDefinitionIndex = 33739;
+
 	class GOOILNEKEMG___c : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 #define BFGHIAJEDIO_PEFFNCHBGLP_OFFSET UNITYSDK_OFFSET(0xB1631C0)
 #define BFGHIAJEDIO__ONBIND_OFFSET UNITYSDK_OFFSET(0xB163070)
 
+inline static constexpr unsigned int BFGHIAJEDIO_TypeDefinitionIndex = 71394;
+
 	class BFGHIAJEDIO : public ::FMPCODLIOLG
 	{
 	public:

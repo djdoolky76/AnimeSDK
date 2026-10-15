@@ -4,6 +4,8 @@
 
 #define FNPAPMEMEAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA71B80)
 
+inline static constexpr unsigned int FNPAPMEMEAL_TypeDefinitionIndex = 42994;
+
 	class FNPAPMEMEAL : public ::System::Object
 	{
 	public:

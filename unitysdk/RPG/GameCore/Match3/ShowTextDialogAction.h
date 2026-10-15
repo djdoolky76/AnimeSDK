@@ -11,6 +11,8 @@ namespace RPG::GameCore::Match3 { class ShowTextDialogAction; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int ShowTextDialogAction_TypeDefinitionIndex = 24904;
+
 	class ShowTextDialogAction : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:

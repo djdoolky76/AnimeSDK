@@ -38,6 +38,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace MiHoYo::SDK::Console::OS
 {
+	inline static constexpr unsigned int PS4BindManager_TypeDefinitionIndex = 9105;
+
 	class PS4BindManager : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class DynamicValueRangeCallback; }
 
 #define CLMEOCEIFBI_CTOR_OFFSET UNITYSDK_OFFSET(0xD792680)
 
+inline static constexpr unsigned int CLMEOCEIFBI_TypeDefinitionIndex = 55841;
+
 	class CLMEOCEIFBI : public ::System::Object
 	{
 	public:

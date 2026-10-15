@@ -4,6 +4,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int VolumetricFogSettings_TypeDefinitionIndex = 4855;
+
 	struct alignas(4) VolumetricFogSettings
 	{
 		::System::Single ZScale; // 0x10

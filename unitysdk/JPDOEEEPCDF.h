@@ -53,6 +53,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JPDOEEEPCDF_POMCGINBJAM_OFFSET UNITYSDK_OFFSET(0xB2B4690)
 #define JPDOEEEPCDF_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB2B8720)
 
+inline static constexpr unsigned int JPDOEEEPCDF_TypeDefinitionIndex = 76579;
+
 	class JPDOEEEPCDF : public ::System::Object
 	{
 	public:

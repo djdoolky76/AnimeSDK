@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimGravityFieldRingConfig_TypeDefinitionIndex = 18596;
+
 	class FiveDimGravityFieldRingConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

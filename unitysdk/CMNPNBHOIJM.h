@@ -16,6 +16,8 @@ namespace Entitas { class IGroup; }
 #define CMNPNBHOIJM_NOCPEOHJFOE_OFFSET UNITYSDK_OFFSET(0xDA3D090)
 #define CMNPNBHOIJM_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xDA3E280)
 
+inline static constexpr unsigned int CMNPNBHOIJM_TypeDefinitionIndex = 77158;
+
 	class CMNPNBHOIJM : public ::System::Object
 	{
 	public:

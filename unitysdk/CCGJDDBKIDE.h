@@ -30,6 +30,8 @@ namespace System { class String; }
 #define CCGJDDBKIDE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E073F80)
 #define CCGJDDBKIDE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E073FE0)
 
+inline static constexpr unsigned int CCGJDDBKIDE_TypeDefinitionIndex = 29722;
+
 	class CCGJDDBKIDE : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define EPCOGHIIHCG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x155D1050)
 #define EPCOGHIIHCG_TICK_OFFSET UNITYSDK_OFFSET(0x155D10A0)
 
+inline static constexpr unsigned int EPCOGHIIHCG_TypeDefinitionIndex = 52946;
+
 	class EPCOGHIIHCG : public ::GELIALJDFBL
 	{
 	public:

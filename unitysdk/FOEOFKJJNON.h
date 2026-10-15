@@ -7,6 +7,8 @@ namespace RPG::Client::Promises { class IPromise; }
 #define FOEOFKJJNON_KEOKEELBKHI_OFFSET UNITYSDK_OFFSET(0x158E7410)
 #define FOEOFKJJNON___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x158E7450)
 
+inline static constexpr unsigned int FOEOFKJJNON_TypeDefinitionIndex = 59273;
+
 	class FOEOFKJJNON : public ::System::Object
 	{
 	public:

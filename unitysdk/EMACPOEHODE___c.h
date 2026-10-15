@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define EMACPOEHODE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2DC910)
 #define EMACPOEHODE___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E2DC920)
 
+inline static constexpr unsigned int EMACPOEHODE___c_TypeDefinitionIndex = 30760;
+
 	class EMACPOEHODE___c : public ::System::Object
 	{
 	public:

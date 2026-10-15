@@ -8,6 +8,8 @@ namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyMod
 #define KFDJFELEEGB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB395180)
 #define KFDJFELEEGB_CTOR_OFFSET UNITYSDK_OFFSET(0xB395230)
 
+inline static constexpr unsigned int KFDJFELEEGB_TypeDefinitionIndex = 62618;
+
 	class KFDJFELEEGB : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPGTools::Timeline::Audio { class WwiseExternalStopLoopSFXConfig; }
 #define KBLKOHCBPHL_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB31E830)
 #define KBLKOHCBPHL_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0xB31E820)
 
+inline static constexpr unsigned int KBLKOHCBPHL_TypeDefinitionIndex = 48851;
+
 	class KBLKOHCBPHL : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

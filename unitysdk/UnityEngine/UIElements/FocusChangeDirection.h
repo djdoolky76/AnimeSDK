@@ -12,6 +12,8 @@ namespace UnityEngine::UIElements { class FocusChangeDirection; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int FocusChangeDirection_TypeDefinitionIndex = 5876;
+
 	class FocusChangeDirection : public ::System::Object
 	{
 	public:

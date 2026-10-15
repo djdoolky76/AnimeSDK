@@ -32,6 +32,8 @@ namespace System { class String; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int IkConstraint_TypeDefinitionIndex = 39673;
+
 	class IkConstraint : public ::System::Object
 	{
 	public:

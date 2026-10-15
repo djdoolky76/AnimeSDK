@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtModifierConfig_TypeDefinitionIndex = 17658;
+
 	class RtModifierConfig : public ::RPG::GameCore::ModifierConfig
 	{
 	public:

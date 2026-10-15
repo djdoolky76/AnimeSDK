@@ -21,6 +21,8 @@ namespace RPG::Client::ParkourGame { class ParkourGameLevelConfigAsset; }
 #define LEJFDHMDDKO_MKIIAFAGEMC_OFFSET UNITYSDK_OFFSET(0xB657F10)
 #define LEJFDHMDDKO_NEHNOLFGDEE_OFFSET UNITYSDK_OFFSET(0xB658360)
 
+inline static constexpr unsigned int LEJFDHMDDKO_TypeDefinitionIndex = 74178;
+
 	class LEJFDHMDDKO : public ::System::Object
 	{
 	public:

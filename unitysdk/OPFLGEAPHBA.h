@@ -25,6 +25,8 @@ namespace System { class String; }
 #define OPFLGEAPHBA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEE0150)
 #define OPFLGEAPHBA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEE01B0)
 
+inline static constexpr unsigned int OPFLGEAPHBA_TypeDefinitionIndex = 27007;
+
 	class OPFLGEAPHBA : public ::System::Object
 	{
 	public:

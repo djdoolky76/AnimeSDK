@@ -17,6 +17,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftProgressOrderConstraintsControlBinder_TypeDefinitionIndex = 79940;
+
 	class MechCraftCraftProgressOrderConstraintsControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

@@ -8,6 +8,8 @@ class IPHBKALPNFC;
 #define DOHFONHNBJP_CTOR_OFFSET UNITYSDK_OFFSET(0x11FE89F0)
 #define DOHFONHNBJP_HKCONCPENCG_OFFSET UNITYSDK_OFFSET(0x11FE8A20)
 
+inline static constexpr unsigned int DOHFONHNBJP_TypeDefinitionIndex = 77925;
+
 	class DOHFONHNBJP : public ::BAMPJJAPJJG
 	{
 	public:

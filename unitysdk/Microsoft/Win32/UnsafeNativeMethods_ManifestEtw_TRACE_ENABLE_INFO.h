@@ -3,6 +3,8 @@
 
 namespace Microsoft::Win32
 {
+	inline static constexpr unsigned int UnsafeNativeMethods_ManifestEtw_TRACE_ENABLE_INFO_TypeDefinitionIndex = 100;
+
 	struct alignas(4) UnsafeNativeMethods_ManifestEtw_TRACE_ENABLE_INFO
 	{
 		::System::Int32 IsEnabled; // 0x10

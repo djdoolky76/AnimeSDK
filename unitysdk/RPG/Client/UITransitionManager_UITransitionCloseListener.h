@@ -12,6 +12,8 @@ class AKBKPOFPBAL;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UITransitionManager_UITransitionCloseListener_TypeDefinitionIndex = 73131;
+
 	class UITransitionManager_UITransitionCloseListener : public ::HFACHPPOANI
 	{
 	public:

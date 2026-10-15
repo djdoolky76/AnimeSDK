@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace Newtonsoft::Json::Bson
 {
+	inline static constexpr unsigned int BsonWriter_TypeDefinitionIndex = 9860;
+
 	class BsonWriter : public ::Newtonsoft::Json::JsonWriter
 	{
 	public:

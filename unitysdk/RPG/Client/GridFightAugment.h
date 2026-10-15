@@ -54,6 +54,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightAugment_TypeDefinitionIndex = 64374;
+
 	class GridFightAugment : public ::System::Object
 	{
 	public:

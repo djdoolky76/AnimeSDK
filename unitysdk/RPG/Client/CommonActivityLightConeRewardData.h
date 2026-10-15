@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CommonActivityLightConeRewardData_TypeDefinitionIndex = 61678;
+
 	class CommonActivityLightConeRewardData : public ::System::Object
 	{
 	public:

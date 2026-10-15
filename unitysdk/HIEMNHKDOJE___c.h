@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HIEMNHKDOJE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E593EA0)
 #define HIEMNHKDOJE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E593EB0)
 
+inline static constexpr unsigned int HIEMNHKDOJE___c_TypeDefinitionIndex = 31381;
+
 	class HIEMNHKDOJE___c : public ::System::Object
 	{
 	public:

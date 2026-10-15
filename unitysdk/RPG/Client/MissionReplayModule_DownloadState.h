@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionReplayModule_DownloadState_TypeDefinitionIndex = 66206;
+
 	enum class MissionReplayModule_DownloadState : ::System::Int32
 	{
 		START = 0,

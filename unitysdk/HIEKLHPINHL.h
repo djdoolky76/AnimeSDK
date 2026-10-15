@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HIEKLHPINHL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E592D80)
 #define HIEKLHPINHL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E592DE0)
 
+inline static constexpr unsigned int HIEKLHPINHL_TypeDefinitionIndex = 33948;
+
 	class HIEKLHPINHL : public ::System::Object
 	{
 	public:

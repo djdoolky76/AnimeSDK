@@ -13,6 +13,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SetCharacterAnimExtLayerEnableTrack_TypeDefinitionIndex = 47935;
+
 	class SetCharacterAnimExtLayerEnableTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:

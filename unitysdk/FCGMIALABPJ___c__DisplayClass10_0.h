@@ -7,6 +7,8 @@ namespace RPG::Client { class ElationBattleBuffGroupViewData; }
 #define FCGMIALABPJ___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x156BCA80)
 #define FCGMIALABPJ___C__DISPLAYCLASS10_0__SETUPVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x156BCBB0)
 
+inline static constexpr unsigned int FCGMIALABPJ___c__DisplayClass10_0_TypeDefinitionIndex = 71190;
+
 	class FCGMIALABPJ___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

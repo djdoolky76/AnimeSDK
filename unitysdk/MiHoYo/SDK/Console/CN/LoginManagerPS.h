@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Console::CN
 {
+	inline static constexpr unsigned int LoginManagerPS_TypeDefinitionIndex = 9115;
+
 	class LoginManagerPS : public ::MiHoYo::SDK::Console::CN::LoginManager
 	{
 	public:

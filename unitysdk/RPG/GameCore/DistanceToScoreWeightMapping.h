@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DistanceToScoreWeightMapping; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DistanceToScoreWeightMapping_TypeDefinitionIndex = 15634;
+
 	class DistanceToScoreWeightMapping : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -5,6 +5,8 @@ class GLAKFODMCPH;
 
 #define FHIDMALJNKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA6E5C0)
 
+inline static constexpr unsigned int FHIDMALJNKJ_TypeDefinitionIndex = 42034;
+
 	class FHIDMALJNKJ : public ::System::Object
 	{
 	public:

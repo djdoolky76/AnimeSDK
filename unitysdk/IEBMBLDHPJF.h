@@ -16,6 +16,8 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceRecordOfStory; }
 #define IEBMBLDHPJF_HCPELCFLADG_OFFSET UNITYSDK_OFFSET(0x15EE8060)
 #define IEBMBLDHPJF_PBMLOCMBHPI_OFFSET UNITYSDK_OFFSET(0x15EE7FD0)
 
+inline static constexpr unsigned int IEBMBLDHPJF_TypeDefinitionIndex = 81464;
+
 	class IEBMBLDHPJF : public ::System::Object
 	{
 	public:

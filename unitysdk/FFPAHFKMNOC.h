@@ -6,6 +6,8 @@ namespace RPG::Client { class ExpeditionBattleRoute; }
 #define FFPAHFKMNOC_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1574D890)
 #define FFPAHFKMNOC_CTOR_OFFSET UNITYSDK_OFFSET(0x1574D9D0)
 
+inline static constexpr unsigned int FFPAHFKMNOC_TypeDefinitionIndex = 63868;
+
 	class FFPAHFKMNOC : public ::System::Object
 	{
 	public:

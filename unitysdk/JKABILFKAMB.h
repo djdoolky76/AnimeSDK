@@ -9,6 +9,8 @@ namespace System { class String; }
 #define JKABILFKAMB_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB20C780)
 #define JKABILFKAMB_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB20C730)
 
+inline static constexpr unsigned int JKABILFKAMB_TypeDefinitionIndex = 56671;
+
 	class JKABILFKAMB : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace UnityEngine { class GameObject; }
 
 #define CAR_CTOR_OFFSET UNITYSDK_OFFSET(0xDCDEE80)
 
+inline static constexpr unsigned int Car_TypeDefinitionIndex = 47075;
+
 	class Car : public ::System::Object
 	{
 	public:

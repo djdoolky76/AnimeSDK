@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveAvatarPromotionBaseData_TypeDefinitionIndex = 75111;
+
 	class IdleLiveAvatarPromotionBaseData : public ::System::Object
 	{
 	public:

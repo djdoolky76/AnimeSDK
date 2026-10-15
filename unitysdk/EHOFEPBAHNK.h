@@ -90,6 +90,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EHOFEPBAHNK_PLOPGPGLNIC_OFFSET UNITYSDK_OFFSET(0x1CA51C60)
 #define EHOFEPBAHNK_PODFLHJDPHP_OFFSET UNITYSDK_OFFSET(0x1CA51860)
 
+inline static constexpr unsigned int EHOFEPBAHNK_TypeDefinitionIndex = 42608;
+
 	class EHOFEPBAHNK
 	{
 	public:

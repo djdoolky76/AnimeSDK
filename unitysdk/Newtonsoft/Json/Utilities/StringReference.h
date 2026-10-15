@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int StringReference_TypeDefinitionIndex = 9650;
+
 	struct alignas(8) StringReference
 	{
 		::Il2CppArray<::System::Char>* _chars; // 0x10

@@ -6,6 +6,8 @@
 #define OJALIGLEAGK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C995140)
 #define OJALIGLEAGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C995190)
 
+inline static constexpr unsigned int OJALIGLEAGK_TypeDefinitionIndex = 43283;
+
 	class OJALIGLEAGK : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class Animation; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightRoleChangeEffect_TypeDefinitionIndex = 64502;
+
 	class GridFightRoleChangeEffect : public ::RPG::Client::GridFightMemberEffect
 	{
 	public:

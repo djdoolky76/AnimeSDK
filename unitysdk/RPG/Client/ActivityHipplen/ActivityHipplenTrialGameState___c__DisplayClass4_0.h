@@ -11,6 +11,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenTrialGameState___c__DisplayClass4_0_TypeDefinitionIndex = 75531;
+
 	class ActivityHipplenTrialGameState___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

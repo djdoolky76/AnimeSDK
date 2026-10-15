@@ -4,6 +4,8 @@
 
 #define IPLKLKNNKAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x16525200)
 
+inline static constexpr unsigned int IPLKLKNNKAJ_TypeDefinitionIndex = 55616;
+
 	class IPLKLKNNKAJ : public ::System::Object
 	{
 	public:

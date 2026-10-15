@@ -46,6 +46,8 @@ namespace UnityEngine { class Transform; }
 #define PPOJLJJLJDF__ONBIND_OFFSET UNITYSDK_OFFSET(0xC397500)
 #define PPOJLJJLJDF__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xC397B90)
 
+inline static constexpr unsigned int PPOJLJJLJDF_TypeDefinitionIndex = 71279;
+
 	class PPOJLJJLJDF : public ::CAOEEDDAPIK
 	{
 	public:

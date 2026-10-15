@@ -9,6 +9,8 @@ namespace UnityEngine { class AnimationClip; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CustomTransitionFadeOut_TypeDefinitionIndex = 72831;
+
 	class CustomTransitionFadeOut : public ::System::Object
 	{
 	public:

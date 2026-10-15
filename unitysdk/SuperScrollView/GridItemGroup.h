@@ -20,6 +20,8 @@ namespace SuperScrollView { class LoopGridViewItem; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int GridItemGroup_TypeDefinitionIndex = 47647;
+
 	class GridItemGroup : public ::System::Object
 	{
 	public:

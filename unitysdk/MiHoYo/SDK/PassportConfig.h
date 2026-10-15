@@ -8,6 +8,8 @@ namespace System { class Nullable; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PassportConfig_TypeDefinitionIndex = 7932;
+
 	class PassportConfig : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightDragOpParamBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightDragOpParamBase_TypeDefinitionIndex = 19955;
+
 	class GridFightDragOpParamBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:

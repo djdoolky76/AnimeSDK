@@ -12,6 +12,8 @@ namespace RPG::AvatarSystem { class Avatar; }
 #define DBLIGELPPIA_CTOR_OFFSET UNITYSDK_OFFSET(0xE22FCE0)
 #define DBLIGELPPIA_LGAHHFJDAJD_OFFSET UNITYSDK_OFFSET(0xE22FF00)
 
+inline static constexpr unsigned int DBLIGELPPIA_TypeDefinitionIndex = 62822;
+
 	class DBLIGELPPIA : public ::System::Object
 	{
 	public:

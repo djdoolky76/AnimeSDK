@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChimeraBattleCheckWorkFinish; }
 #define GLPNAINGJHN_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0x15AC24C0)
 #define GLPNAINGJHN_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x15AC2410)
 
+inline static constexpr unsigned int GLPNAINGJHN_TypeDefinitionIndex = 78399;
+
 	class GLPNAINGJHN : public ::System::Object
 	{
 	public:

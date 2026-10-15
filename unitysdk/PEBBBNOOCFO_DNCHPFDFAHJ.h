@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define PEBBBNOOCFO_DNCHPFDFAHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x10480)
 
+inline static constexpr unsigned int PEBBBNOOCFO_DNCHPFDFAHJ_TypeDefinitionIndex = 60602;
+
 	struct alignas(8) PEBBBNOOCFO_DNCHPFDFAHJ
 	{
 		::RPG::GameCore::MapRotationEntityEffect* HPBAMMEFDMK; // 0x10

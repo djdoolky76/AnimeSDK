@@ -9,6 +9,8 @@ namespace System::Xml::Schema { class BitSet; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int PlusNode_TypeDefinitionIndex = 2075;
+
 	class PlusNode : public ::System::Xml::Schema::InteriorNode
 	{
 	public:

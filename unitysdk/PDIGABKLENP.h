@@ -10,6 +10,8 @@ class PDIGABKLENP;
 #define PDIGABKLENP_CTOR_OFFSET UNITYSDK_OFFSET(0xC014040)
 #define PDIGABKLENP_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0xC014050)
 
+inline static constexpr unsigned int PDIGABKLENP_TypeDefinitionIndex = 76418;
+
 	class PDIGABKLENP : public ::HALHKJLBIKJ
 	{
 	public:

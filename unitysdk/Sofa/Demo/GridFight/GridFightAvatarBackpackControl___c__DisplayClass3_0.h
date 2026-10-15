@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Sofa::Demo::GridFight
 {
+	inline static constexpr unsigned int GridFightAvatarBackpackControl___c__DisplayClass3_0_TypeDefinitionIndex = 49703;
+
 	class GridFightAvatarBackpackControl___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

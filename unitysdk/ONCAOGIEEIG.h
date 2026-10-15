@@ -48,6 +48,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ONCAOGIEEIG_OPGMGEDGJIM_OFFSET UNITYSDK_OFFSET(0xBF4E170)
 #define ONCAOGIEEIG_PLDFDLDDACE_OFFSET UNITYSDK_OFFSET(0xBF4D150)
 
+inline static constexpr unsigned int ONCAOGIEEIG_TypeDefinitionIndex = 49440;
+
 	class ONCAOGIEEIG : public ::System::Object
 	{
 	public:

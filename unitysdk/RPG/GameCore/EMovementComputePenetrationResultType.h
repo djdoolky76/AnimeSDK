@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EMovementComputePenetrationResultType_TypeDefinitionIndex = 57098;
+
 	enum class EMovementComputePenetrationResultType : ::System::Int32
 	{
 		None = 0,

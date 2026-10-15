@@ -27,6 +27,8 @@ namespace System::Text { class StringBuilder; }
 #define HIAMBDKHMIJ_OPCMOKJGHEG_OFFSET UNITYSDK_OFFSET(0x15CE0A10)
 #define HIAMBDKHMIJ_PCPBAFEDEJL_OFFSET UNITYSDK_OFFSET(0x15CDFFE0)
 
+inline static constexpr unsigned int HIAMBDKHMIJ_TypeDefinitionIndex = 59609;
+
 	class HIAMBDKHMIJ : public ::System::Exception
 	{
 	public:

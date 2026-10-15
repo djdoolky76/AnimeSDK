@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JMLOMHHEAEJ_DADCFBHGLOH_OFFSET UNITYSDK_OFFSET(0xB2709B0)
 #define JMLOMHHEAEJ_ONMODELARTLOADED_OFFSET UNITYSDK_OFFSET(0xB2719A0)
 
+inline static constexpr unsigned int JMLOMHHEAEJ_TypeDefinitionIndex = 57201;
+
 	class JMLOMHHEAEJ : public ::MDAMCBDNMKL
 	{
 	public:

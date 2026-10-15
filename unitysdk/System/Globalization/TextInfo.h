@@ -47,6 +47,8 @@ namespace System::Globalization { class TextInfo; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int TextInfo_TypeDefinitionIndex = 766;
+
 	class TextInfo : public ::System::Object
 	{
 	public:

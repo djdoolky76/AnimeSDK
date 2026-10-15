@@ -8,6 +8,8 @@ class KOECBKCCIJF;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightPlayer___c__DisplayClass39_0_TypeDefinitionIndex = 65075;
+
 	class GridFightPlayer___c__DisplayClass39_0 : public ::System::Object
 	{
 	public:

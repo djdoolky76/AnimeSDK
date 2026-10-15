@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SDKPlatform___c__DisplayClass5_0_TypeDefinitionIndex = 59972;
+
 	class SDKPlatform___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

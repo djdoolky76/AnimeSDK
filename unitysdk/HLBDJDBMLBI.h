@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define HLBDJDBMLBI_IJOONKNIDKI_OFFSET UNITYSDK_OFFSET(0x15D5A4D0)
 #define HLBDJDBMLBI_OBLLHNNHLAP_OFFSET UNITYSDK_OFFSET(0x15D5A570)
 
+inline static constexpr unsigned int HLBDJDBMLBI_TypeDefinitionIndex = 67254;
+
 	class HLBDJDBMLBI : public ::System::Object
 	{
 	public:

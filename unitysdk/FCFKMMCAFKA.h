@@ -32,6 +32,8 @@ namespace System { class String; }
 #define FCFKMMCAFKA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3455D0)
 #define FCFKMMCAFKA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E345630)
 
+inline static constexpr unsigned int FCFKMMCAFKA_TypeDefinitionIndex = 31460;
+
 	class FCFKMMCAFKA : public ::System::Object
 	{
 	public:

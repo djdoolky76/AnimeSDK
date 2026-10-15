@@ -7,6 +7,8 @@ class FCOEMCEDLNL;
 #define EBDMAALKMGN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD5F2C0)
 #define EBDMAALKMGN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD5F1A0)
 
+inline static constexpr unsigned int EBDMAALKMGN_TypeDefinitionIndex = 12263;
+
 	class EBDMAALKMGN : public ::System::Object
 	{
 	public:

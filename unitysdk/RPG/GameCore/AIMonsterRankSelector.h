@@ -13,6 +13,8 @@ namespace RPG::GameCore { class AIMonsterRankSelector; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AIMonsterRankSelector_TypeDefinitionIndex = 15602;
+
 	class AIMonsterRankSelector : public ::RPG::GameCore::AISelector
 	{
 	public:

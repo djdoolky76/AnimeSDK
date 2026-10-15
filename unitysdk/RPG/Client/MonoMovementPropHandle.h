@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoMovementPropHandle_TypeDefinitionIndex = 68611;
+
 	class MonoMovementPropHandle : public ::UnityEngine::MonoBehaviour
 	{
 	public:

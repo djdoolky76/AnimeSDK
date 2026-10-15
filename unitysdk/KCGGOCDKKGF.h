@@ -8,6 +8,8 @@ namespace System { class String; }
 #define KCGGOCDKKGF_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xB336450)
 #define KCGGOCDKKGF_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB3365A0)
 
+inline static constexpr unsigned int KCGGOCDKKGF_TypeDefinitionIndex = 82146;
+
 	class KCGGOCDKKGF : public ::FAJHHDCPLHD
 	{
 	public:

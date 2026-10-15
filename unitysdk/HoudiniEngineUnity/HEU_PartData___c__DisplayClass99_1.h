@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_PartData___c__DisplayClass99_1_TypeDefinitionIndex = 40421;
+
 	template <typename T>
 	class HEU_PartData___c__DisplayClass99_1 : public ::System::Object
 	{

@@ -19,6 +19,8 @@ namespace UnityEngine { class Animation; }
 #define NDMLNNNPFFF_PMJIGNFAOBJ_OFFSET UNITYSDK_OFFSET(0xBB52620)
 #define NDMLNNNPFFF__ONBIND_OFFSET UNITYSDK_OFFSET(0xBB519B0)
 
+inline static constexpr unsigned int NDMLNNNPFFF_TypeDefinitionIndex = 71567;
+
 	class NDMLNNNPFFF : public ::FMPCODLIOLG
 	{
 	public:

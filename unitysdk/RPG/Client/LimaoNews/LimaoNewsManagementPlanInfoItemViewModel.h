@@ -20,6 +20,8 @@ namespace RPG::Client::LimaoNews { class LimaoNewsManagementPlanInfoItemViewMode
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsManagementPlanInfoItemViewModel_TypeDefinitionIndex = 80425;
+
 	class LimaoNewsManagementPlanInfoItemViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

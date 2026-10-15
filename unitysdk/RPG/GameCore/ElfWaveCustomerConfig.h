@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ElfWaveCustomerConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfWaveCustomerConfig_TypeDefinitionIndex = 18476;
+
 	class ElfWaveCustomerConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

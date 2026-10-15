@@ -10,6 +10,8 @@ namespace RPG::Client::DiceCombat { class DiceCombatV2EnterPVESelectStageParam; 
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2EnterPVESelectStageParam_TypeDefinitionIndex = 76196;
+
 	class DiceCombatV2EnterPVESelectStageParam : public ::System::Object
 	{
 	public:

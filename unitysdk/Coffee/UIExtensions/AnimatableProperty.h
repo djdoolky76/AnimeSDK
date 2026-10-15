@@ -16,6 +16,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace Coffee::UIExtensions
 {
+	inline static constexpr unsigned int AnimatableProperty_TypeDefinitionIndex = 45148;
+
 	class AnimatableProperty : public ::System::Object
 	{
 	public:

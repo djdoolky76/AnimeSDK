@@ -49,6 +49,8 @@ namespace System::Collections::Generic { class KeyNotFoundException; }
 
 namespace System
 {
+	inline static constexpr unsigned int ThrowHelper_TypeDefinitionIndex = 124;
+
 	class ThrowHelper : public ::System::Object
 	{
 	public:

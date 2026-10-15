@@ -12,6 +12,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define MACPKMEBPGE_FOHGCGENOCP_OFFSET UNITYSDK_OFFSET(0xB842910)
 #define MACPKMEBPGE_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xB842410)
 
+inline static constexpr unsigned int MACPKMEBPGE_TypeDefinitionIndex = 60889;
+
 	class MACPKMEBPGE : public ::System::Object
 	{
 	public:

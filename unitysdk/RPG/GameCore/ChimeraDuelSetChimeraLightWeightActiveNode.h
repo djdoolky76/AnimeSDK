@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelSetChimeraLightWeightActiveNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelSetChimeraLightWeightActiveNode_TypeDefinitionIndex = 15970;
+
 	class ChimeraDuelSetChimeraLightWeightActiveNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
 	public:

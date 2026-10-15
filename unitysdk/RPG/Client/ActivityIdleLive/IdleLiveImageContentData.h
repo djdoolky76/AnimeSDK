@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveImageContentData_TypeDefinitionIndex = 75348;
+
 	class IdleLiveImageContentData : public ::RPG::Client::ActivityIdleLive::IdleLiveDanmuContentData
 	{
 	public:

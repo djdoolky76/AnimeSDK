@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace Microsoft::Win32
 {
+	inline static constexpr unsigned int UnixRegistryApi_TypeDefinitionIndex = 110;
+
 	class UnixRegistryApi : public ::System::Object
 	{
 	public:

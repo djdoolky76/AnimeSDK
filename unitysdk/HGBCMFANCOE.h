@@ -60,6 +60,8 @@ namespace UnityEngine { class Transform; }
 #define HGBCMFANCOE_PLLHBPIPIGA_OFFSET UNITYSDK_OFFSET(0x3C32280)
 #define HGBCMFANCOE_PLOLKAIFCAB_OFFSET UNITYSDK_OFFSET(0x3C33060)
 
+inline static constexpr unsigned int HGBCMFANCOE_TypeDefinitionIndex = 43443;
+
 	struct alignas(8) HGBCMFANCOE
 	{
 		::UnityEngine::Vector2 IADBDJCKLEH; // 0x10

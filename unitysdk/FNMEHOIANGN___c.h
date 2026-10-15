@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FNMEHOIANGN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3F41C0)
 #define FNMEHOIANGN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E3F41D0)
 
+inline static constexpr unsigned int FNMEHOIANGN___c_TypeDefinitionIndex = 27834;
+
 	class FNMEHOIANGN___c : public ::System::Object
 	{
 	public:

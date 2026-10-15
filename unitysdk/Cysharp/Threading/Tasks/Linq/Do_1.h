@@ -7,6 +7,8 @@ namespace System { class Exception; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Do_1_TypeDefinitionIndex = 45352;
+
 	template <typename T>
 	class Do_1 : public ::System::Object
 	{

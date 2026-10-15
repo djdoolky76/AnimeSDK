@@ -7,6 +7,8 @@
 #define LBJNPJHPOAG_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB600C00)
 #define LBJNPJHPOAG_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB600C50)
 
+inline static constexpr unsigned int LBJNPJHPOAG_TypeDefinitionIndex = 56630;
+
 	class LBJNPJHPOAG : public ::System::Object
 	{
 	public:

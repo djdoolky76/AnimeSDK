@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define HBIOHKOEMDD_IHPDOPAKDCG_CTOR_OFFSET UNITYSDK_OFFSET(0x15C05C30)
 
+inline static constexpr unsigned int HBIOHKOEMDD_IHPDOPAKDCG_TypeDefinitionIndex = 66730;
+
 	class HBIOHKOEMDD_IHPDOPAKDCG : public ::System::Object
 	{
 	public:

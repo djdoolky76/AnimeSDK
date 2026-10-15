@@ -13,6 +13,8 @@ namespace RPG::Client::LittleGame::FiveDim { class PhantomPlayerFrameAsset; }
 #define CELFBICOPHD_NKOEGEDEKNA_OFFSET UNITYSDK_OFFSET(0xC9E4790)
 #define CELFBICOPHD_OPFNIIGKGMG_OFFSET UNITYSDK_OFFSET(0xC9E4750)
 
+inline static constexpr unsigned int CELFBICOPHD_TypeDefinitionIndex = 76873;
+
 	class CELFBICOPHD : public ::System::Object
 	{
 	public:

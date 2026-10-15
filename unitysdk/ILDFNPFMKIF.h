@@ -16,6 +16,8 @@ namespace System { class Exception; }
 #define ILDFNPFMKIF_ONERRORRESUMECORE_OFFSET UNITYSDK_OFFSET(0x164A9860)
 #define ILDFNPFMKIF_ONNEXTCORE_OFFSET UNITYSDK_OFFSET(0x164A9620)
 
+inline static constexpr unsigned int ILDFNPFMKIF_TypeDefinitionIndex = 49815;
+
 	class ILDFNPFMKIF
 	{
 	public:

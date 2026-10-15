@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int SnapshotSimulationSystem_1_TypeDefinitionIndex = 36942;
+
 	template <typename T>
 	class SnapshotSimulationSystem_1 : public ::System::Object
 	{

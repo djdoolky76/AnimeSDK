@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TakeMission; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TakeMission_TypeDefinitionIndex = 20295;
+
 	class TakeMission : public ::RPG::GameCore::TaskConfig
 	{
 	public:

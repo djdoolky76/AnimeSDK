@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ALEAFADNBPL_MBJLECNOAAB_OFFSET UNITYSDK_OFFSET(0x15563E50)
 #define ALEAFADNBPL_NGINDNLDJAA_OFFSET UNITYSDK_OFFSET(0x15564050)
 
+inline static constexpr unsigned int ALEAFADNBPL_TypeDefinitionIndex = 49207;
+
 	class ALEAFADNBPL : public ::System::Object
 	{
 	public:

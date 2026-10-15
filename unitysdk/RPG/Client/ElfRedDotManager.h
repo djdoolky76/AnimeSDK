@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfRedDotManager_TypeDefinitionIndex = 63728;
+
 	class ElfRedDotManager : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int DefaultConsoleConfigReader_ConditionDetail___c_TypeDefinitionIndex = 4068;
+
 	class DefaultConsoleConfigReader_ConditionDetail___c : public ::System::Object
 	{
 	public:

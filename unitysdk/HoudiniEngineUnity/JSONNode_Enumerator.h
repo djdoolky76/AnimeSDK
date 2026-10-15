@@ -14,6 +14,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int JSONNode_Enumerator_TypeDefinitionIndex = 40669;
+
 	struct alignas(8) JSONNode_Enumerator
 	{
 		::HoudiniEngineUnity::JSONNode_Enumerator_Type type; // 0x10

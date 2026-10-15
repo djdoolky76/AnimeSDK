@@ -12,6 +12,8 @@ namespace RPG::GameCore { class JsonOfflineCullingCellSubData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int JsonOfflineCullingCellSubData_TypeDefinitionIndex = 18277;
+
 	class JsonOfflineCullingCellSubData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

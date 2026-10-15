@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MapPlayerDef_TypeDefinitionIndex = 62134;
+
 	class MapPlayerDef : public ::RPG::Client::MapEntityDef
 	{
 	public:

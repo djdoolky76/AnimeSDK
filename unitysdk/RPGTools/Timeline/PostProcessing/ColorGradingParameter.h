@@ -7,6 +7,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int ColorGradingParameter_TypeDefinitionIndex = 48557;
+
 	struct alignas(4) ColorGradingParameter
 	{
 		::System::Boolean ColorGradingMethodEnable; // 0x10

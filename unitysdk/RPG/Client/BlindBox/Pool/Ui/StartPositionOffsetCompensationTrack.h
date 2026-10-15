@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::BlindBox::Pool::Ui
 {
+	inline static constexpr unsigned int StartPositionOffsetCompensationTrack_TypeDefinitionIndex = 74970;
+
 	class StartPositionOffsetCompensationTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

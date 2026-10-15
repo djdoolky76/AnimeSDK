@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ShowEvolveBuildTreasureInBattle; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowEvolveBuildTreasureInBattle_TypeDefinitionIndex = 22514;
+
 	class ShowEvolveBuildTreasureInBattle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

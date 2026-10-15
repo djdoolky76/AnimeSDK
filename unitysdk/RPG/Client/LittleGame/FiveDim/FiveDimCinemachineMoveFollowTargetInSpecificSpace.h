@@ -15,6 +15,8 @@ namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimCinemachineMoveFollowTargetInSpecificSpace_TypeDefinitionIndex = 76862;
+
 	class FiveDimCinemachineMoveFollowTargetInSpecificSpace : public ::Cinemachine::CinemachineExtension
 	{
 	public:

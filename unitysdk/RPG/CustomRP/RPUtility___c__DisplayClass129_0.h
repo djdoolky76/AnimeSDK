@@ -9,6 +9,8 @@ namespace System { class Type; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPUtility___c__DisplayClass129_0_TypeDefinitionIndex = 37900;
+
 	class RPUtility___c__DisplayClass129_0 : public ::System::Object
 	{
 	public:

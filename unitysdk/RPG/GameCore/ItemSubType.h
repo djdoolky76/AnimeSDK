@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ItemSubType_TypeDefinitionIndex = 13849;
+
 	enum class ItemSubType : ::System::Int32
 	{
 		Unknown = 0,

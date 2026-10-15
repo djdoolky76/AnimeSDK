@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define GPFEAEOEGFA_EXTRAEXPORTDATA_SUBOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0x15B53CF0)
 
+inline static constexpr unsigned int GPFEAEOEGFA_ExtraExportData_SubObject_TypeDefinitionIndex = 49041;
+
 	class GPFEAEOEGFA_ExtraExportData_SubObject : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PSDelegate_GameIntentDestoryDelegate_TypeDefinitionIndex = 7759;
+
 	class PSDelegate_GameIntentDestoryDelegate : public ::System::MulticastDelegate
 	{
 	public:

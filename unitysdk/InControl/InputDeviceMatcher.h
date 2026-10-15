@@ -25,6 +25,8 @@ namespace System { class String; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int InputDeviceMatcher_TypeDefinitionIndex = 40843;
+
 	struct alignas(8) InputDeviceMatcher
 	{
 		::InControl::OptionalUInt16 vendorID; // 0x10

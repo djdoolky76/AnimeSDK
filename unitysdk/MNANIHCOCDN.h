@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MNANIHCOCDN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C74FB90)
 #define MNANIHCOCDN_IMBNGHDBDLJ_OFFSET UNITYSDK_OFFSET(0x1C74FC40)
 
+inline static constexpr unsigned int MNANIHCOCDN_TypeDefinitionIndex = 37434;
+
 	class MNANIHCOCDN
 	{
 	public:

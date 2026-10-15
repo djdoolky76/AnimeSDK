@@ -22,6 +22,8 @@ namespace UnityEngine { class Coroutine; }
 #define HLMIJOKOPBN_SET_PARAM_OFFSET UNITYSDK_OFFSET(0x15D65C00)
 #define HLMIJOKOPBN_SET_UNIQUENAME_OFFSET UNITYSDK_OFFSET(0x15D65C20)
 
+inline static constexpr unsigned int HLMIJOKOPBN_TypeDefinitionIndex = 71698;
+
 	class HLMIJOKOPBN : public ::System::Object
 	{
 	public:

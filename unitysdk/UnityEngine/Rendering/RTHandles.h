@@ -32,6 +32,8 @@ namespace UnityEngine::Rendering { class ScaleFunc; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int RTHandles_TypeDefinitionIndex = 35586;
+
 	class RTHandles : public ::System::Object
 	{
 	public:

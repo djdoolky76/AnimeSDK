@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EBLPAACAJCK_OCABBBNJKLD_1_OFFSET UNITYSDK_OFFSET(0x12D02D30)
 #define EBLPAACAJCK_OCABBBNJKLD_OFFSET UNITYSDK_OFFSET(0x12D02BF0)
 
+inline static constexpr unsigned int EBLPAACAJCK_TypeDefinitionIndex = 77621;
+
 	class EBLPAACAJCK : public ::OCFMCBFNLND
 	{
 	public:

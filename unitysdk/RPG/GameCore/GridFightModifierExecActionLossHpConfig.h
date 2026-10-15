@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierExecActionLossHpConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierExecActionLossHpConfig_TypeDefinitionIndex = 19417;
+
 	class GridFightModifierExecActionLossHpConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

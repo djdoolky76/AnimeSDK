@@ -11,6 +11,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleEnemySpecialMarkViewModel___c__DisplayClass2_0_TypeDefinitionIndex = 80876;
+
 	class FateRinBattleEnemySpecialMarkViewModel___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

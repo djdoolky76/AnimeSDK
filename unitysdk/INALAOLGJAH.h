@@ -10,6 +10,8 @@ namespace System { class String; }
 #define INALAOLGJAH_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x164E58F0)
 #define INALAOLGJAH_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x164E5900)
 
+inline static constexpr unsigned int INALAOLGJAH_TypeDefinitionIndex = 56125;
+
 	class INALAOLGJAH : public ::DBGDNLLDPFI
 	{
 	public:

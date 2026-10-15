@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MarbleWaitBattleInput; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleWaitBattleInput_TypeDefinitionIndex = 24292;
+
 	class MarbleWaitBattleInput : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -6,6 +6,8 @@ namespace Cysharp::Threading::Tasks::Linq { template <typename T> class AsyncEnu
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int AsyncEnumerableSorter_1__SortAsync_d__2_TypeDefinitionIndex = 45519;
+
 	template <typename T1, typename T2>
 	struct alignas(8) AsyncEnumerableSorter_1__SortAsync_d__2
 	{

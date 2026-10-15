@@ -27,6 +27,8 @@ namespace UnityEngine { class YieldInstruction; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriFsRequest_TypeDefinitionIndex = 40105;
+
 	class CriFsRequest : public ::CriWare::CriDisposable
 	{
 	public:

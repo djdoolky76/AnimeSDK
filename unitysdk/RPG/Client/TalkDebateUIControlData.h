@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TalkDebateUIControlData_TypeDefinitionIndex = 60689;
+
 	class TalkDebateUIControlData : public ::System::Object
 	{
 	public:

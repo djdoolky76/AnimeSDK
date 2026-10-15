@@ -8,6 +8,8 @@ namespace RPG::Client { class RogueMagicStoryArchiveDataItem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMagicStoryArchiveCollection___c__DisplayClass5_0_TypeDefinitionIndex = 67436;
+
 	class RogueMagicStoryArchiveCollection___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

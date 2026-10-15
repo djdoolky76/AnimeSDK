@@ -8,6 +8,8 @@ class IJHOJLILAOK;
 #define IJHOJLILAOK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CF18A40)
 #define IJHOJLILAOK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF18970)
 
+inline static constexpr unsigned int IJHOJLILAOK_TypeDefinitionIndex = 10215;
+
 	class IJHOJLILAOK : public ::RPG::GameCore::TaskConfig
 	{
 	public:

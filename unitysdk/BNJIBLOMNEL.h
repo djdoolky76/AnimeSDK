@@ -6,6 +6,8 @@
 #define BNJIBLOMNEL_KLGKGCEDHFD_OFFSET UNITYSDK_OFFSET(0xBDDCAC0)
 #define BNJIBLOMNEL_POPDGIDPFAK_OFFSET UNITYSDK_OFFSET(0xBDDCB50)
 
+inline static constexpr unsigned int BNJIBLOMNEL_TypeDefinitionIndex = 53548;
+
 	class BNJIBLOMNEL : public ::OMMDKIBILJE
 	{
 	public:

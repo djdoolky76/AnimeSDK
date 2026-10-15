@@ -8,6 +8,8 @@ namespace System { class Type; }
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int SwitchLevelAttribute_TypeDefinitionIndex = 2535;
+
 	class SwitchLevelAttribute : public ::System::Attribute
 	{
 	public:

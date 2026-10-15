@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int AJLDFPKOBED_TypeDefinitionIndex = 26688;
+
 	enum class AJLDFPKOBED : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

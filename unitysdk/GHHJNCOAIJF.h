@@ -36,6 +36,8 @@ namespace System::Net::Http { class HttpMethod; }
 #define GHHJNCOAIJF_SET_CONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x15A20870)
 #define GHHJNCOAIJF_SET_RAWBODY_OFFSET UNITYSDK_OFFSET(0x15A20850)
 
+inline static constexpr unsigned int GHHJNCOAIJF_TypeDefinitionIndex = 69349;
+
 	class GHHJNCOAIJF : public ::System::Object
 	{
 	public:

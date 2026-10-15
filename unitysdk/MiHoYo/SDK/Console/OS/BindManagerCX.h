@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Console::OS
 {
+	inline static constexpr unsigned int BindManagerCX_TypeDefinitionIndex = 9073;
+
 	class BindManagerCX : public ::MiHoYo::SDK::Console::OS::BindManager
 	{
 	public:

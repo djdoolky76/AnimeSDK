@@ -56,6 +56,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightOrbManager_TypeDefinitionIndex = 64461;
+
 	class GridFightOrbManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NLPGEOGDHKA_GOLDLOOIIGF_OFFSET UNITYSDK_OFFSET(0xBC79320)
 #define NLPGEOGDHKA_LPPFEMHGCLH_OFFSET UNITYSDK_OFFSET(0xBC79010)
 
+inline static constexpr unsigned int NLPGEOGDHKA_TypeDefinitionIndex = 75322;
+
 	class NLPGEOGDHKA : public ::System::Object
 	{
 	public:

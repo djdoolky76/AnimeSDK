@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define OFAHLLPMOBO_FOINCEBDIPB_NCOHELNNGHF_OFFSET UNITYSDK_OFFSET(0xBE3B5D0)
 #define OFAHLLPMOBO_FOINCEBDIPB_OJHFEAHDAGB_OFFSET UNITYSDK_OFFSET(0xBE3AC50)
 
+inline static constexpr unsigned int OFAHLLPMOBO_FOINCEBDIPB_TypeDefinitionIndex = 60225;
+
 	class OFAHLLPMOBO_FOINCEBDIPB : public ::System::Object
 	{
 	public:

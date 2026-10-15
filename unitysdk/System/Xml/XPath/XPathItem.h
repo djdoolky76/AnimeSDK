@@ -9,6 +9,8 @@ namespace System { class Type; }
 
 namespace System::Xml::XPath
 {
+	inline static constexpr unsigned int XPathItem_TypeDefinitionIndex = 1974;
+
 	class XPathItem : public ::System::Object
 	{
 	public:

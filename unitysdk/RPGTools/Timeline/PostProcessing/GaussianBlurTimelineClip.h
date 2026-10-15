@@ -5,6 +5,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int GaussianBlurTimelineClip_TypeDefinitionIndex = 48574;
+
 	class GaussianBlurTimelineClip
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HEDECANGLCE_NDGDDODNDMP_OFFSET UNITYSDK_OFFSET(0x15C4B120)
 #define HEDECANGLCE_OJJPFMBLLDJ_OFFSET UNITYSDK_OFFSET(0x15C4AA10)
 
+inline static constexpr unsigned int HEDECANGLCE_TypeDefinitionIndex = 73995;
+
 	class HEDECANGLCE : public ::OOINNCPHPNP
 	{
 	public:

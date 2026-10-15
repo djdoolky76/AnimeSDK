@@ -29,6 +29,8 @@ namespace System { class String; }
 #define EGDFPDHNOKO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E292BA0)
 #define EGDFPDHNOKO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E292C00)
 
+inline static constexpr unsigned int EGDFPDHNOKO_TypeDefinitionIndex = 30257;
+
 	class EGDFPDHNOKO : public ::System::Object
 	{
 	public:

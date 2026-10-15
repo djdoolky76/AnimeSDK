@@ -7,6 +7,8 @@
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int PatchManager__LoadManifest_c__AnonStorey3_TypeDefinitionIndex = 7106;
+
 	class PatchManager__LoadManifest_c__AnonStorey3 : public ::System::Object
 	{
 	public:

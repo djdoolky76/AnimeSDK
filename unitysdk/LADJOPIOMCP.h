@@ -7,6 +7,8 @@ class PBGNKMMDBGD;
 #define LADJOPIOMCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C71FB10)
 #define LADJOPIOMCP_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C71FB20)
 
+inline static constexpr unsigned int LADJOPIOMCP_TypeDefinitionIndex = 37397;
+
 	class LADJOPIOMCP : public ::GPLOFONGBGI
 	{
 	public:

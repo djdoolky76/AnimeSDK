@@ -11,6 +11,8 @@
 
 namespace RPG::Client::FullBody
 {
+	inline static constexpr unsigned int IKSolverTrigonometric_TrigonometricBone_TypeDefinitionIndex = 74269;
+
 	class IKSolverTrigonometric_TrigonometricBone : public ::RPG::Client::FullBody::IKSolver_Bone
 	{
 	public:

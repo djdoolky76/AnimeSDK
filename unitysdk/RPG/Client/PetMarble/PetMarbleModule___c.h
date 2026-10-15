@@ -15,6 +15,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::PetMarble
 {
+	inline static constexpr unsigned int PetMarbleModule___c_TypeDefinitionIndex = 74720;
+
 	class PetMarbleModule___c : public ::System::Object
 	{
 	public:

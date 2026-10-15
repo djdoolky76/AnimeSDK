@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::Client::OpenWorld
 {
+	inline static constexpr unsigned int StreamingSourceDebugInfo_TypeDefinitionIndex = 73944;
+
 	class StreamingSourceDebugInfo : public ::UnityEngine::MonoBehaviour
 	{
 	public:

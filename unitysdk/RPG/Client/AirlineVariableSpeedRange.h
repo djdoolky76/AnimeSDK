@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AirlineVariableSpeedRange_TypeDefinitionIndex = 59770;
+
 	class AirlineVariableSpeedRange : public ::System::Object
 	{
 	public:

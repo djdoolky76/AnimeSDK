@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int BlockSetVisibilityTrack_TypeDefinitionIndex = 47875;
+
 	class BlockSetVisibilityTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

@@ -13,6 +13,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnMouseEnterHandler;
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncMouseEnterTrigger_TypeDefinitionIndex = 38561;
+
 	class AsyncMouseEnterTrigger
 	{
 	public:

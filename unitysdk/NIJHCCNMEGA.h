@@ -32,6 +32,8 @@ namespace System { class String; }
 #define NIJHCCNMEGA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB33460)
 #define NIJHCCNMEGA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB334C0)
 
+inline static constexpr unsigned int NIJHCCNMEGA_TypeDefinitionIndex = 27713;
+
 	class NIJHCCNMEGA : public ::System::Object
 	{
 	public:

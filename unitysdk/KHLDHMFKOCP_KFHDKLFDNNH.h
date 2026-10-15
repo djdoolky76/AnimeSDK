@@ -5,6 +5,8 @@ class NAGIOAKDDMJ;
 
 #define KHLDHMFKOCP_KFHDKLFDNNH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E4A90)
 
+inline static constexpr unsigned int KHLDHMFKOCP_KFHDKLFDNNH_TypeDefinitionIndex = 43068;
+
 	class KHLDHMFKOCP_KFHDKLFDNNH : public ::System::Object
 	{
 	public:

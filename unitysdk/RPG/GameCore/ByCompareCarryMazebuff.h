@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareCarryMazebuff_TypeDefinitionIndex = 20039;
+
 	class ByCompareCarryMazebuff : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

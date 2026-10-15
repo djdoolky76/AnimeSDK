@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define CCPEOADPIFE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC753C20)
 #define CCPEOADPIFE___C___GETRANDOMANIMCOMPOSITE_B__3_0_OFFSET UNITYSDK_OFFSET(0xC753C30)
 
+inline static constexpr unsigned int CCPEOADPIFE___c_TypeDefinitionIndex = 58261;
+
 	class CCPEOADPIFE___c : public ::System::Object
 	{
 	public:

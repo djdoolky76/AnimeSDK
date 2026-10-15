@@ -78,6 +78,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoInControlTip_TypeDefinitionIndex = 61345;
+
 	class MonoInControlTip : public ::UnityEngine::MonoBehaviour
 	{
 	public:

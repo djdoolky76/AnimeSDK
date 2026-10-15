@@ -8,6 +8,8 @@ class ANLGLFPLOBC;
 #define ANLGLFPLOBC_GDCPKFEPPOE_OFFSET UNITYSDK_OFFSET(0x1589B8C0)
 #define ANLGLFPLOBC_MIDAGNDGAJC_OFFSET UNITYSDK_OFFSET(0x1589B960)
 
+inline static constexpr unsigned int ANLGLFPLOBC_TypeDefinitionIndex = 57254;
+
 	class ANLGLFPLOBC : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Uploader
 {
+	inline static constexpr unsigned int Task_TypeDefinitionIndex = 46665;
+
 	class Task : public ::System::Object
 	{
 	public:

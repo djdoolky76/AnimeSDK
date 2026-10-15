@@ -18,6 +18,8 @@ namespace RPG::Client { class NetPacket; }
 #define HMJHKIEJNLJ_SET_READPTR_OFFSET UNITYSDK_OFFSET(0x1DDADE00)
 #define HMJHKIEJNLJ_SET_WRITEPTR_OFFSET UNITYSDK_OFFSET(0x1DDADE20)
 
+inline static constexpr unsigned int HMJHKIEJNLJ_TypeDefinitionIndex = 43958;
+
 	class HMJHKIEJNLJ : public ::System::Object
 	{
 	public:

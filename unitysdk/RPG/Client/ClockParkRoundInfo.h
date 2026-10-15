@@ -16,6 +16,8 @@ namespace RPG::GameCore { class ClockParkRoundRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ClockParkRoundInfo_TypeDefinitionIndex = 61492;
+
 	class ClockParkRoundInfo : public ::System::Object
 	{
 	public:

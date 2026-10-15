@@ -14,6 +14,8 @@ namespace System::Buffers { class ReadOnlySequence; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int ByteReadOnlySequenceFormatter_TypeDefinitionIndex = 7375;
+
 	class ByteReadOnlySequenceFormatter : public ::System::Object
 	{
 	public:

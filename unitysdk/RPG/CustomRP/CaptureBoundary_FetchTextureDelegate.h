@@ -13,6 +13,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CaptureBoundary_FetchTextureDelegate_TypeDefinitionIndex = 37597;
+
 	class CaptureBoundary_FetchTextureDelegate : public ::System::MulticastDelegate
 	{
 	public:

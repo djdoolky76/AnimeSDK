@@ -7,6 +7,8 @@ class JNBAPNPIADL;
 #define GIFHCDDPEAI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15A343D0)
 #define GIFHCDDPEAI_CTOR_OFFSET UNITYSDK_OFFSET(0x15A344B0)
 
+inline static constexpr unsigned int GIFHCDDPEAI_TypeDefinitionIndex = 61411;
+
 	class GIFHCDDPEAI : public ::System::Object
 	{
 	public:

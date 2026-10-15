@@ -8,6 +8,8 @@ namespace UnityEngine { class AnimationClip; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CustomTransitionFadeIn_TypeDefinitionIndex = 72830;
+
 	class CustomTransitionFadeIn : public ::System::Object
 	{
 	public:

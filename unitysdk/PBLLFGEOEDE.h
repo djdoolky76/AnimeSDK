@@ -13,6 +13,8 @@ namespace System { class String; }
 #define PBLLFGEOEDE_GETAPPLYSTREAMINGLAYER_OFFSET UNITYSDK_OFFSET(0xBFF2A70)
 #define PBLLFGEOEDE_GETASSETPATH_OFFSET UNITYSDK_OFFSET(0xBFF2910)
 
+inline static constexpr unsigned int PBLLFGEOEDE_TypeDefinitionIndex = 73802;
+
 	class PBLLFGEOEDE : public ::GDKHHPPIFBC
 	{
 	public:

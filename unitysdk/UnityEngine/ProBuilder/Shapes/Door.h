@@ -13,6 +13,8 @@ namespace UnityEngine::ProBuilder::Shapes { class Shape; }
 
 namespace UnityEngine::ProBuilder::Shapes
 {
+	inline static constexpr unsigned int Door_TypeDefinitionIndex = 44462;
+
 	class Door : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
 	public:

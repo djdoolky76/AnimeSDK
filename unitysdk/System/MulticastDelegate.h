@@ -19,6 +19,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int MulticastDelegate_TypeDefinitionIndex = 410;
+
 	class MulticastDelegate : public ::System::Delegate
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class Type; }
 #define ALGCEMGMJNE_PFBOBLJJMBK_OFFSET UNITYSDK_OFFSET(0x15568220)
 #define ALGCEMGMJNE_PNIKHAEHAHF_OFFSET UNITYSDK_OFFSET(0x155687D0)
 
+inline static constexpr unsigned int ALGCEMGMJNE_TypeDefinitionIndex = 49064;
+
 	class ALGCEMGMJNE : public ::System::Object
 	{
 	public:

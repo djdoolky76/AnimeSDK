@@ -8,6 +8,8 @@ namespace RPG::Client { class RogueKeywordInfo; }
 #define PGCPLBKFMCN_CTOR_OFFSET UNITYSDK_OFFSET(0xC21CAC0)
 #define PGCPLBKFMCN_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0xC21CAD0)
 
+inline static constexpr unsigned int PGCPLBKFMCN_TypeDefinitionIndex = 67090;
+
 	class PGCPLBKFMCN : public ::PLDEEFFDJFD
 	{
 	public:

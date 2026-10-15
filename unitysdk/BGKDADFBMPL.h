@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BGKDADFBMPL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA7ADF0)
 #define BGKDADFBMPL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA7AE50)
 
+inline static constexpr unsigned int BGKDADFBMPL_TypeDefinitionIndex = 34331;
+
 	class BGKDADFBMPL : public ::System::Object
 	{
 	public:

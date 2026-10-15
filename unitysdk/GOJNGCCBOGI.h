@@ -18,6 +18,8 @@ namespace System { class String; }
 #define GOJNGCCBOGI_OFAKOAMLFEC_OFFSET UNITYSDK_OFFSET(0x15B38AD0)
 #define GOJNGCCBOGI_SET_MERGEDCOUNT_OFFSET UNITYSDK_OFFSET(0x15B38780)
 
+inline static constexpr unsigned int GOJNGCCBOGI_TypeDefinitionIndex = 71543;
+
 	class GOJNGCCBOGI : public ::System::Object
 	{
 	public:

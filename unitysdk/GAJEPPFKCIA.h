@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define GAJEPPFKCIA_PLOPMBILKCA_OFFSET UNITYSDK_OFFSET(0x1593D800)
 #define GAJEPPFKCIA__GETSELFINSTANCE_OFFSET UNITYSDK_OFFSET(0x1593DAB0)
 
+inline static constexpr unsigned int GAJEPPFKCIA_TypeDefinitionIndex = 53517;
+
 	class GAJEPPFKCIA : public ::RPG::GameCore::TaskContext
 	{
 	public:

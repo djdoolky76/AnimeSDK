@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define ILDNJGBJGPF___C___HANDLESTAGESETTLE_B__34_0_OFFSET UNITYSDK_OFFSET(0x164ACA30)
 #define ILDNJGBJGPF___C___HANDLESTAGESETTLE_B__34_1_OFFSET UNITYSDK_OFFSET(0x164ACA50)
 
+inline static constexpr unsigned int ILDNJGBJGPF___c_TypeDefinitionIndex = 81450;
+
 	class ILDNJGBJGPF___c : public ::System::Object
 	{
 	public:

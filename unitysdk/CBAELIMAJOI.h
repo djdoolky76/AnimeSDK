@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CBAELIMAJOI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DA00790)
 #define CBAELIMAJOI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DA011C0)
 
+inline static constexpr unsigned int CBAELIMAJOI_TypeDefinitionIndex = 15126;
+
 	class CBAELIMAJOI : public ::System::Object
 	{
 	public:

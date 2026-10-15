@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int MDDIKNGBPPL_DCEDAFGAEOE_TypeDefinitionIndex = 27730;
+
 	enum class MDDIKNGBPPL_DCEDAFGAEOE : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

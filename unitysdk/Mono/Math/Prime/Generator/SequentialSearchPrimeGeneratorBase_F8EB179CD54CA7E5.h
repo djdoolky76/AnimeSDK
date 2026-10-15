@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace Mono::Math::Prime::Generator
 {
+	inline static constexpr unsigned int SequentialSearchPrimeGeneratorBase_F8EB179CD54CA7E5_TypeDefinitionIndex = 2322;
+
 	class SequentialSearchPrimeGeneratorBase_F8EB179CD54CA7E5 : public ::Mono::Math::Prime::Generator::PrimeGeneratorBase_FC1326D37A88BDFE
 	{
 	public:

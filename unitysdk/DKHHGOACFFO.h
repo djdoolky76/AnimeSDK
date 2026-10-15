@@ -5,6 +5,8 @@
 #define DKHHGOACFFO_CTOR_OFFSET UNITYSDK_OFFSET(0xF8805B0)
 #define DKHHGOACFFO_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0xF880370)
 
+inline static constexpr unsigned int DKHHGOACFFO_TypeDefinitionIndex = 77111;
+
 	class DKHHGOACFFO : public ::AKGFIFMIGNC
 	{
 	public:

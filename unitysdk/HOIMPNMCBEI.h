@@ -14,6 +14,8 @@ namespace System { class String; }
 #define HOIMPNMCBEI_JGIAAGKKOAN_OFFSET UNITYSDK_OFFSET(0x1DD61C80)
 #define HOIMPNMCBEI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C49B20)
 
+inline static constexpr unsigned int HOIMPNMCBEI_TypeDefinitionIndex = 6547;
+
 	struct alignas(8) HOIMPNMCBEI
 	{
 		::System::Boolean MNDFOPKBHKP; // 0x10

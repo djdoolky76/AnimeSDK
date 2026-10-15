@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HDDIOBOHLLB_CTOR_OFFSET UNITYSDK_OFFSET(0x15C31530)
 #define HDDIOBOHLLB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15C31560)
 
+inline static constexpr unsigned int HDDIOBOHLLB_TypeDefinitionIndex = 54641;
+
 	class HDDIOBOHLLB
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvAIRemeberGobackPosition_TypeDefinitionIndex = 20004;
+
 	class AdvAIRemeberGobackPosition : public ::RPG::GameCore::TaskConfig
 	{
 	public:

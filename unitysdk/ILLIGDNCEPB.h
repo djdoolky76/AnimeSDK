@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ILLIGDNCEPB_OFODEKABIPD_OFFSET UNITYSDK_OFFSET(0x164C5270)
 #define ILLIGDNCEPB_POKADPBNMDC_OFFSET UNITYSDK_OFFSET(0x164C5010)
 
+inline static constexpr unsigned int ILLIGDNCEPB_TypeDefinitionIndex = 66032;
+
 	class ILLIGDNCEPB : public ::System::Object
 	{
 	public:

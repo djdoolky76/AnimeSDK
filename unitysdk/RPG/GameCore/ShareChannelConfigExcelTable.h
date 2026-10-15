@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShareChannelConfigExcelTable_TypeDefinitionIndex = 14494;
+
 	class ShareChannelConfigExcelTable : public ::System::Object
 	{
 	public:

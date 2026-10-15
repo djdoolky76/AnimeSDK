@@ -14,6 +14,8 @@ class FMNKKAMOHEE;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightSeasonTalentTree_TypeDefinitionIndex = 65262;
+
 	class GridFightSeasonTalentTree : public ::RPG::Client::GridFightTalentTree
 	{
 	public:

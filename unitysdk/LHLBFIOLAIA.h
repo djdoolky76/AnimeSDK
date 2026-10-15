@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LHLBFIOLAIA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E965DC0)
 #define LHLBFIOLAIA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E965E20)
 
+inline static constexpr unsigned int LHLBFIOLAIA_TypeDefinitionIndex = 26789;
+
 	class LHLBFIOLAIA : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@
 #define MGPHMNHKHIE_SET_CLOSEFULLSCREEN_OFFSET UNITYSDK_OFFSET(0xB92D220)
 #define MGPHMNHKHIE_SET_CLOSEWINDOW_OFFSET UNITYSDK_OFFSET(0xB92D200)
 
+inline static constexpr unsigned int MGPHMNHKHIE_TypeDefinitionIndex = 80279;
+
 	class MGPHMNHKHIE : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace UnityEngine::Rendering::UI
 {
+	inline static constexpr unsigned int DebugUIHandlerFloatField_TypeDefinitionIndex = 35684;
+
 	class DebugUIHandlerFloatField : public ::UnityEngine::Rendering::UI::DebugUIHandlerWidget
 	{
 	public:

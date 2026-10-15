@@ -21,6 +21,8 @@ namespace System::Runtime::Remoting::Proxies { class RemotingProxy; }
 
 namespace System::Runtime::Remoting::Activation
 {
+	inline static constexpr unsigned int ActivationServices_TypeDefinitionIndex = 1277;
+
 	class ActivationServices : public ::System::Object
 	{
 	public:

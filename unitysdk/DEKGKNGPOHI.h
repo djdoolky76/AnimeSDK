@@ -51,6 +51,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DEKGKNGPOHI_OODNNFMLDCH_OFFSET UNITYSDK_OFFSET(0xE515980)
 #define DEKGKNGPOHI_PMAAMFLFLCL_OFFSET UNITYSDK_OFFSET(0xE516780)
 
+inline static constexpr unsigned int DEKGKNGPOHI_TypeDefinitionIndex = 69222;
+
 	class DEKGKNGPOHI : public ::System::Object
 	{
 	public:

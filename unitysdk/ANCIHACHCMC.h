@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define ANCIHACHCMC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x155924B0)
 #define ANCIHACHCMC_TICK_OFFSET UNITYSDK_OFFSET(0x15592130)
 
+inline static constexpr unsigned int ANCIHACHCMC_TypeDefinitionIndex = 58482;
+
 	class ANCIHACHCMC : public ::GELIALJDFBL
 	{
 	public:

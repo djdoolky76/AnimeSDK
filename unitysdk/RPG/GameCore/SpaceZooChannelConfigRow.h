@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SpaceZooChannelConfigRow_TypeDefinitionIndex = 12362;
+
 	class SpaceZooChannelConfigRow : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LLHILPLLOHO__SENDUPLOADREQUEST_D__8_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xB76E800)
 #define LLHILPLLOHO__SENDUPLOADREQUEST_D__8_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB76E100)
 
+inline static constexpr unsigned int LLHILPLLOHO__SendUploadRequest_d__8_TypeDefinitionIndex = 60960;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
 	class LLHILPLLOHO__SendUploadRequest_d__8 : public ::System::Object
 	{

@@ -17,6 +17,8 @@ class KHKFODPFGEA;
 #define HBFPEEPJOPK_SET_NEXTAGENDADTO_OFFSET UNITYSDK_OFFSET(0x15C02E00)
 #define HBFPEEPJOPK_SET_TRACKID_OFFSET UNITYSDK_OFFSET(0x15C02DA0)
 
+inline static constexpr unsigned int HBFPEEPJOPK_TypeDefinitionIndex = 81936;
+
 	class HBFPEEPJOPK : public ::System::Object
 	{
 	public:

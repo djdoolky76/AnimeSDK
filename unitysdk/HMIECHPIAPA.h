@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HMIECHPIAPA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CEC63D0)
 #define HMIECHPIAPA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CEC5D30)
 
+inline static constexpr unsigned int HMIECHPIAPA_TypeDefinitionIndex = 15016;
+
 	class HMIECHPIAPA : public ::System::Object
 	{
 	public:

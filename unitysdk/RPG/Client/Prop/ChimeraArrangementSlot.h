@@ -27,6 +27,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraArrangementSlot_TypeDefinitionIndex = 78464;
+
 	class ChimeraArrangementSlot : public ::UnityEngine::MonoBehaviour
 	{
 	public:

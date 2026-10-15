@@ -29,6 +29,8 @@ namespace System { class String; }
 #define IEIMIFAEADO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E63AF10)
 #define IEIMIFAEADO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E63AF70)
 
+inline static constexpr unsigned int IEIMIFAEADO_TypeDefinitionIndex = 28999;
+
 	class IEIMIFAEADO : public ::System::Object
 	{
 	public:

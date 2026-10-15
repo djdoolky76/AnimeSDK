@@ -11,6 +11,8 @@ namespace System { class String; }
 #define HFCIKOMDEIM_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x15C70340)
 #define HFCIKOMDEIM_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15C70240)
 
+inline static constexpr unsigned int HFCIKOMDEIM_TypeDefinitionIndex = 59348;
+
 	class HFCIKOMDEIM : public ::System::Object
 	{
 	public:

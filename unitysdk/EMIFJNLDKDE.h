@@ -25,6 +25,8 @@ namespace System { class String; }
 #define EMIFJNLDKDE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2E2CC0)
 #define EMIFJNLDKDE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2E2D20)
 
+inline static constexpr unsigned int EMIFJNLDKDE_TypeDefinitionIndex = 30917;
+
 	class EMIFJNLDKDE : public ::System::Object
 	{
 	public:

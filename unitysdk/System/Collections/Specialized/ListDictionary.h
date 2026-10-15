@@ -30,6 +30,8 @@ namespace System::Collections::Specialized { class ListDictionary_DictionaryNode
 
 namespace System::Collections::Specialized
 {
+	inline static constexpr unsigned int ListDictionary_TypeDefinitionIndex = 2989;
+
 	class ListDictionary : public ::System::Object
 	{
 	public:

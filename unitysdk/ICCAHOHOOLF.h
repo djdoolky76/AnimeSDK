@@ -8,6 +8,8 @@
 #define ICCAHOHOOLF_EXECUTE_OFFSET UNITYSDK_OFFSET(0x2E7FA50)
 #define ICCAHOHOOLF_HFPJMFFFAFH_OFFSET UNITYSDK_OFFSET(0x2E7FA30)
 
+inline static constexpr unsigned int ICCAHOHOOLF_TypeDefinitionIndex = 71079;
+
 	struct alignas(8) ICCAHOHOOLF
 	{
 		::Unity::Collections::NativeArray_1<::CEBBKBDGLLB> CFKLAGBPLHC; // 0x10

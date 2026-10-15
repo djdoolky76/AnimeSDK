@@ -38,6 +38,8 @@ namespace System { class String; }
 
 namespace Google::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int Timestamp_TypeDefinitionIndex = 5439;
+
 	class Timestamp : public ::System::Object
 	{
 	public:

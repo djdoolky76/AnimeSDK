@@ -35,6 +35,8 @@ namespace System { class String; }
 #define KNBIPFELFOG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E89E120)
 #define KNBIPFELFOG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E89E180)
 
+inline static constexpr unsigned int KNBIPFELFOG_TypeDefinitionIndex = 30565;
+
 	class KNBIPFELFOG : public ::System::Object
 	{
 	public:

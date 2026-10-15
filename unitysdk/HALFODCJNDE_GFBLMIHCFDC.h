@@ -7,6 +7,8 @@ namespace UnityEngine { class Texture2D; }
 
 #define HALFODCJNDE_GFBLMIHCFDC_CTOR_OFFSET UNITYSDK_OFFSET(0x15B8C450)
 
+inline static constexpr unsigned int HALFODCJNDE_GFBLMIHCFDC_TypeDefinitionIndex = 51783;
+
 	class HALFODCJNDE_GFBLMIHCFDC : public ::System::Object
 	{
 	public:

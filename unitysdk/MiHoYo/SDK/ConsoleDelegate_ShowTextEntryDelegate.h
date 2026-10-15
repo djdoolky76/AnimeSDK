@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_ShowTextEntryDelegate_TypeDefinitionIndex = 7652;
+
 	class ConsoleDelegate_ShowTextEntryDelegate : public ::System::MulticastDelegate
 	{
 	public:

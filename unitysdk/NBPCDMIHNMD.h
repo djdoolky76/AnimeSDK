@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 #define NBPCDMIHNMD_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBAF4FB0)
 #define NBPCDMIHNMD_LHOFDLKIFBF_OFFSET UNITYSDK_OFFSET(0xBAF4DF0)
 
+inline static constexpr unsigned int NBPCDMIHNMD_TypeDefinitionIndex = 74218;
+
 	class NBPCDMIHNMD : public ::System::Object
 	{
 	public:

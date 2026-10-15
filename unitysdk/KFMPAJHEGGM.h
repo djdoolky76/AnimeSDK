@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKin
 #define KFMPAJHEGGM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C70F360)
 #define KFMPAJHEGGM_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C70F370)
 
+inline static constexpr unsigned int KFMPAJHEGGM_TypeDefinitionIndex = 36213;
+
 	class KFMPAJHEGGM : public ::PNECKGBKMEL
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyAssetInfo_TypeDefinitionIndex = 66216;
+
 	class MonopolyAssetInfo : public ::System::Object
 	{
 	public:

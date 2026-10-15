@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGCurveAdaptiveMath_TypeDefinitionIndex = 35995;
+
 	class BGCurveAdaptiveMath : public ::BansheeGz::BGSpline::Curve::BGCurveBaseMath
 	{
 	public:

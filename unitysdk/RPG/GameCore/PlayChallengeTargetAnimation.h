@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlayChallengeTargetAnimation; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayChallengeTargetAnimation_TypeDefinitionIndex = 21617;
+
 	class PlayChallengeTargetAnimation : public ::RPG::GameCore::TaskConfig
 	{
 	public:

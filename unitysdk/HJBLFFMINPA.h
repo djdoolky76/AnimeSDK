@@ -17,6 +17,8 @@ namespace RPG::GameCore { class MeshBound; }
 #define HJBLFFMINPA_JLPFOJNDOAI_OFFSET UNITYSDK_OFFSET(0x3C39C60)
 #define HJBLFFMINPA_MOOENEIANFA_OFFSET UNITYSDK_OFFSET(0x3C39CB0)
 
+inline static constexpr unsigned int HJBLFFMINPA_TypeDefinitionIndex = 10681;
+
 	struct alignas(8) HJBLFFMINPA
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

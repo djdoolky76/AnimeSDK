@@ -26,6 +26,8 @@ namespace System::Xml::Schema { class XmlValueConverter; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_duration_TypeDefinitionIndex = 2101;
+
 	class Datatype_duration : public ::System::Xml::Schema::Datatype_anySimpleType
 	{
 	public:

@@ -8,6 +8,8 @@ class JNFBANKKLJK;
 #define JNFBANKKLJK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D050080)
 #define JNFBANKKLJK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D04FE40)
 
+inline static constexpr unsigned int JNFBANKKLJK_TypeDefinitionIndex = 21402;
+
 	class JNFBANKKLJK : public ::RPG::GameCore::JsonConfig
 	{
 	public:

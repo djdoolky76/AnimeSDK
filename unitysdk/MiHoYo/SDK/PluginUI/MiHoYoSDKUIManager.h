@@ -39,6 +39,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int MiHoYoSDKUIManager_TypeDefinitionIndex = 46885;
+
 	class MiHoYoSDKUIManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

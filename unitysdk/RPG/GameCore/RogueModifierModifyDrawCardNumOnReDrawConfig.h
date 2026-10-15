@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyDrawCardNumOnReDrawConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyDrawCardNumOnReDrawConfig_TypeDefinitionIndex = 17847;
+
 	class RogueModifierModifyDrawCardNumOnReDrawConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

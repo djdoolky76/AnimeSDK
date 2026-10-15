@@ -12,6 +12,8 @@ namespace UnityEngine { class Object; }
 #define GOBCDIIJIIK_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x15B23640)
 #define GOBCDIIJIIK_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x15B23480)
 
+inline static constexpr unsigned int GOBCDIIJIIK_TypeDefinitionIndex = 70179;
+
 	class GOBCDIIJIIK : public ::System::Object
 	{
 	public:

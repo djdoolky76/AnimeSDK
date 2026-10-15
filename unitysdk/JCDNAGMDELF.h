@@ -31,6 +31,8 @@ namespace System { class String; }
 #define JCDNAGMDELF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6FEE70)
 #define JCDNAGMDELF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6FEED0)
 
+inline static constexpr unsigned int JCDNAGMDELF_TypeDefinitionIndex = 34620;
+
 	class JCDNAGMDELF : public ::System::Object
 	{
 	public:

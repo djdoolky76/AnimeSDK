@@ -15,6 +15,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceStageSelectStoryControl___c_TypeDefinitionIndex = 81555;
+
 	class ChallengeTierceStageSelectStoryControl___c : public ::System::Object
 	{
 	public:

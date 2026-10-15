@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BOPOBHGDIKN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E03FAF0)
 #define BOPOBHGDIKN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E03FB50)
 
+inline static constexpr unsigned int BOPOBHGDIKN_TypeDefinitionIndex = 32421;
+
 	class BOPOBHGDIKN : public ::System::Object
 	{
 	public:

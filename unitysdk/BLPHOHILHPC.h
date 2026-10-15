@@ -19,6 +19,8 @@ namespace UnityEngine { class GameObject; }
 #define BLPHOHILHPC_PPINKBFAIOP_OFFSET UNITYSDK_OFFSET(0xBA84190)
 #define BLPHOHILHPC__SPLITINTOCLUSTERS_B__14_0_OFFSET UNITYSDK_OFFSET(0xBA85300)
 
+inline static constexpr unsigned int BLPHOHILHPC_TypeDefinitionIndex = 77902;
+
 	class BLPHOHILHPC : public ::System::Object
 	{
 	public:

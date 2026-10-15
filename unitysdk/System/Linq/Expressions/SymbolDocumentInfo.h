@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int SymbolDocumentInfo_TypeDefinitionIndex = 3278;
+
 	class SymbolDocumentInfo : public ::System::Object
 	{
 	public:

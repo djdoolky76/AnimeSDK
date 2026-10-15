@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int Triangle_TypeDefinitionIndex = 44443;
+
 	struct alignas(4) Triangle
 	{
 		::System::Int32 m_A; // 0x10

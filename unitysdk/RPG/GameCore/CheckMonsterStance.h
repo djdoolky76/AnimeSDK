@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CheckMonsterStance_TypeDefinitionIndex = 22969;
+
 	class CheckMonsterStance : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -4,6 +4,8 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 namespace RPG::GameCore { class GameEntity; }
 
+inline static constexpr unsigned int GDMOMOEDLLO_TypeDefinitionIndex = 57718;
+
 	struct alignas(8) GDMOMOEDLLO
 	{
 		::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x10

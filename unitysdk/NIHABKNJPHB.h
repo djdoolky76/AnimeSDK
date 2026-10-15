@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NIHABKNJPHB_GMBOECMOMNA_OFFSET UNITYSDK_OFFSET(0xBBEB260)
 #define NIHABKNJPHB_TICK_OFFSET UNITYSDK_OFFSET(0xBBEB1F0)
 
+inline static constexpr unsigned int NIHABKNJPHB_TypeDefinitionIndex = 77669;
+
 	class NIHABKNJPHB : public ::System::Object
 	{
 	public:

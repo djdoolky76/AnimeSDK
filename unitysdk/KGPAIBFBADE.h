@@ -7,6 +7,8 @@ namespace RPG::Client { class GridFightRole; }
 #define KGPAIBFBADE_CTOR_OFFSET UNITYSDK_OFFSET(0xB3F92F0)
 #define KGPAIBFBADE_DPJAHBLOBOM_OFFSET UNITYSDK_OFFSET(0xB3F92A0)
 
+inline static constexpr unsigned int KGPAIBFBADE_TypeDefinitionIndex = 65192;
+
 	class KGPAIBFBADE : public ::System::Object
 	{
 	public:

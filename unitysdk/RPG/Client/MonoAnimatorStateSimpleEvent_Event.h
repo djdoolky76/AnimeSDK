@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoAnimatorStateSimpleEvent_Event_TypeDefinitionIndex = 68522;
+
 	class MonoAnimatorStateSimpleEvent_Event : public ::System::Object
 	{
 	public:

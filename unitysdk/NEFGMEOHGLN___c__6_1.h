@@ -6,6 +6,8 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
 
+inline static constexpr unsigned int NEFGMEOHGLN___c__6_1_TypeDefinitionIndex = 49950;
+
 	template <typename T>
 	class NEFGMEOHGLN___c__6_1 : public ::System::Object
 	{

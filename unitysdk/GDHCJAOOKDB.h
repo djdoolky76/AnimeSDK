@@ -8,6 +8,8 @@ namespace UnityEngine { class Object; }
 #define GDHCJAOOKDB_CTOR_OFFSET UNITYSDK_OFFSET(0x1599C3B0)
 #define GDHCJAOOKDB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1599C350)
 
+inline static constexpr unsigned int GDHCJAOOKDB_TypeDefinitionIndex = 48950;
+
 	class GDHCJAOOKDB : public ::System::Object
 	{
 	public:

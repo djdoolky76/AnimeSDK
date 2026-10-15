@@ -56,6 +56,8 @@ namespace System::IO { class Stream; }
 
 namespace Google::Protobuf
 {
+	inline static constexpr unsigned int CodedInputStream_TypeDefinitionIndex = 5368;
+
 	class CodedInputStream : public ::System::Object
 	{
 	public:

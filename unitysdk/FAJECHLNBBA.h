@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FAJECHLNBBA_CTOR_OFFSET UNITYSDK_OFFSET(0x15681580)
 #define FAJECHLNBBA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x156815D0)
 
+inline static constexpr unsigned int FAJECHLNBBA_TypeDefinitionIndex = 59224;
+
 	class FAJECHLNBBA
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPG::Client { class EquipmentItemData; }
 #define HOOIHKNPALE_MPBNBBOLFBK_OFFSET UNITYSDK_OFFSET(0x15DBE100)
 #define HOOIHKNPALE_ODEBFADAKFA_OFFSET UNITYSDK_OFFSET(0x15DBDF80)
 
+inline static constexpr unsigned int HOOIHKNPALE_TypeDefinitionIndex = 62855;
+
 	class HOOIHKNPALE : public ::System::Object
 	{
 	public:

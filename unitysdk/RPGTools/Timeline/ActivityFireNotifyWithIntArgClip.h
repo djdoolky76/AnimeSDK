@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ActivityFireNotifyWithIntArgClip_TypeDefinitionIndex = 47790;
+
 	class ActivityFireNotifyWithIntArgClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

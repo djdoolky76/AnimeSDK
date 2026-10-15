@@ -28,6 +28,8 @@ namespace System { class String; }
 #define CKPOBLIFMGN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0F1C50)
 #define CKPOBLIFMGN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0F1CB0)
 
+inline static constexpr unsigned int CKPOBLIFMGN_TypeDefinitionIndex = 29639;
+
 	class CKPOBLIFMGN : public ::System::Object
 	{
 	public:

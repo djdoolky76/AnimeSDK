@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RelicPresetAvatarPlans_TypeDefinitionIndex = 66873;
+
 	class RelicPresetAvatarPlans : public ::System::Object
 	{
 	public:

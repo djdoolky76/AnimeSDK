@@ -3,6 +3,8 @@
 #include "unitysdk/RPG/GameCore/PamActionType.h"
 #include "unitysdk/RPG/GameCore/PamPlaceType.h"
 
+inline static constexpr unsigned int AKMDNONDDEL_TypeDefinitionIndex = 66430;
+
 	struct alignas(4) AKMDNONDDEL
 	{
 		::System::Boolean FEMNDNBLNEG; // 0x10

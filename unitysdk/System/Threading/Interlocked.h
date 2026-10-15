@@ -27,6 +27,8 @@ namespace System { class Object; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int Interlocked_TypeDefinitionIndex = 873;
+
 	class Interlocked : public ::System::Object
 	{
 	public:

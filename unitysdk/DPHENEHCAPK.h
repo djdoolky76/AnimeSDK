@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define DPHENEHCAPK_OOJIFECGAGE_OFFSET UNITYSDK_OFFSET(0x1263E590)
 #define DPHENEHCAPK_TICK_OFFSET UNITYSDK_OFFSET(0x1263E250)
 
+inline static constexpr unsigned int DPHENEHCAPK_TypeDefinitionIndex = 53485;
+
 	class DPHENEHCAPK : public ::GELIALJDFBL
 	{
 	public:

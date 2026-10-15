@@ -9,6 +9,8 @@ namespace MessagePack::Internal { class ObjectSerializationInfo_EmittableMemberA
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass14_0_TypeDefinitionIndex = 7321;
+
 	class DynamicObjectTypeBuilder___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:

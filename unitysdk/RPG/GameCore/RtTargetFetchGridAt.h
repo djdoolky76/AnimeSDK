@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtTargetFetchGridAt_TypeDefinitionIndex = 24239;
+
 	class RtTargetFetchGridAt : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:

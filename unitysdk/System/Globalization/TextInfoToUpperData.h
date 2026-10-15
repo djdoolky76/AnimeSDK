@@ -6,6 +6,8 @@
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int TextInfoToUpperData_TypeDefinitionIndex = 788;
+
 	class TextInfoToUpperData : public ::System::Object
 	{
 	public:

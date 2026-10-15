@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define MOCBHBDGKLM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBA24D20)
 #define MOCBHBDGKLM_TICK_OFFSET UNITYSDK_OFFSET(0xBA24DD0)
 
+inline static constexpr unsigned int MOCBHBDGKLM_TypeDefinitionIndex = 53012;
+
 	class MOCBHBDGKLM : public ::GELIALJDFBL
 	{
 	public:

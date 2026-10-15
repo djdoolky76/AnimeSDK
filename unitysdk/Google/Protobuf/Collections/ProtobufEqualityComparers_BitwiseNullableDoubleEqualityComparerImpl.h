@@ -8,6 +8,8 @@ namespace System { class Nullable; }
 
 namespace Google::Protobuf::Collections
 {
+	inline static constexpr unsigned int ProtobufEqualityComparers_BitwiseNullableDoubleEqualityComparerImpl_TypeDefinitionIndex = 5589;
+
 	class ProtobufEqualityComparers_BitwiseNullableDoubleEqualityComparerImpl
 	{
 	public:

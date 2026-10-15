@@ -153,6 +153,8 @@ namespace UnityEngine { class Transform; }
 #define ODCELNBAEIB__ONTICK_OFFSET UNITYSDK_OFFSET(0xBD85290)
 #define ODCELNBAEIB___ONPLAYSWITCHBOSSPERFORMANCE_B__54_0_OFFSET UNITYSDK_OFFSET(0xBD86B30)
 
+inline static constexpr unsigned int ODCELNBAEIB_TypeDefinitionIndex = 79101;
+
 	class ODCELNBAEIB : public ::JPIBDCCABGP
 	{
 	public:

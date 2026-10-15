@@ -31,6 +31,8 @@ namespace System { class String; }
 #define HMOGLECADPG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5D6810)
 #define HMOGLECADPG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5D6870)
 
+inline static constexpr unsigned int HMOGLECADPG_TypeDefinitionIndex = 28983;
+
 	class HMOGLECADPG : public ::System::Object
 	{
 	public:

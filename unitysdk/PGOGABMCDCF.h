@@ -4,6 +4,8 @@
 
 #define PGOGABMCDCF_CTOR_OFFSET UNITYSDK_OFFSET(0x2EDDF70)
 
+inline static constexpr unsigned int PGOGABMCDCF_TypeDefinitionIndex = 36889;
+
 	struct alignas(8) PGOGABMCDCF
 	{
 		::System::ReadOnlyMemory_1<::System::Byte> DKEJNELHLKI; // 0x10

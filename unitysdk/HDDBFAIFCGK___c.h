@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HDDBFAIFCGK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E548460)
 #define HDDBFAIFCGK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E548470)
 
+inline static constexpr unsigned int HDDBFAIFCGK___c_TypeDefinitionIndex = 30274;
+
 	class HDDBFAIFCGK___c : public ::System::Object
 	{
 	public:

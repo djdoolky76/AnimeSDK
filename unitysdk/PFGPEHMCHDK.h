@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PFGPEHMCHDK_CTOR_OFFSET UNITYSDK_OFFSET(0xC20F010)
 #define PFGPEHMCHDK_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xC20EF70)
 
+inline static constexpr unsigned int PFGPEHMCHDK_TypeDefinitionIndex = 54192;
+
 	class PFGPEHMCHDK : public ::System::Object
 	{
 	public:

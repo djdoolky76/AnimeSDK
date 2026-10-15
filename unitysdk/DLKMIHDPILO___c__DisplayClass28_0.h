@@ -7,6 +7,8 @@ class PIJMKBDHLBH;
 #define DLKMIHDPILO___C__DISPLAYCLASS28_0_CTOR_OFFSET UNITYSDK_OFFSET(0xF8AA460)
 #define DLKMIHDPILO___C__DISPLAYCLASS28_0___REVERTALL2D_B__0_OFFSET UNITYSDK_OFFSET(0xF8AA610)
 
+inline static constexpr unsigned int DLKMIHDPILO___c__DisplayClass28_0_TypeDefinitionIndex = 76811;
+
 	class DLKMIHDPILO___c__DisplayClass28_0 : public ::System::Object
 	{
 	public:

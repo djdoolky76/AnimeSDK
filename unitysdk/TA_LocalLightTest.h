@@ -6,6 +6,8 @@
 #define TA_LOCALLIGHTTEST_START_OFFSET UNITYSDK_OFFSET(0xE9E13F0)
 #define TA_LOCALLIGHTTEST_UPDATE_OFFSET UNITYSDK_OFFSET(0xE9E1440)
 
+inline static constexpr unsigned int TA_LocalLightTest_TypeDefinitionIndex = 47438;
+
 	class TA_LocalLightTest : public ::UnityEngine::MonoBehaviour
 	{
 	public:

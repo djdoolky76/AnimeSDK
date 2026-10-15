@@ -12,6 +12,8 @@ namespace RPG::GameCore { class NotifyGameModeParamChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NotifyGameModeParamChange_TypeDefinitionIndex = 23702;
+
 	class NotifyGameModeParamChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:

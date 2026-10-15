@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ShaderPropertySetItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetGlobalShaderProperty_TypeDefinitionIndex = 23849;
+
 	class SetGlobalShaderProperty : public ::RPG::GameCore::TaskConfig
 	{
 	public:

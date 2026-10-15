@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LGFMCMDIOLN_SET_SELECTEDAEONID_OFFSET UNITYSDK_OFFSET(0xB691E70)
 #define LGFMCMDIOLN_SET_UNLOCKAEONENHANCENUM_OFFSET UNITYSDK_OFFSET(0xB691E90)
 
+inline static constexpr unsigned int LGFMCMDIOLN_TypeDefinitionIndex = 67455;
+
 	class LGFMCMDIOLN : public ::System::Object
 	{
 	public:

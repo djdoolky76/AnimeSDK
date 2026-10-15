@@ -4,6 +4,8 @@
 
 namespace ZLinq::Internal
 {
+	inline static constexpr unsigned int SingleSpan_SingleArray_1_TypeDefinitionIndex = 6156;
+
 	template <typename T>
 	class SingleSpan_SingleArray_1 : public ::System::Object
 	{

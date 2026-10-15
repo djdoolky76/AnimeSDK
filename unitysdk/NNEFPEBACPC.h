@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NNEFPEBACPC_NIFJEMJBPOK_OFFSET UNITYSDK_OFFSET(0xBCA0CB0)
 #define NNEFPEBACPC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCA07E0)
 
+inline static constexpr unsigned int NNEFPEBACPC_TypeDefinitionIndex = 58514;
+
 	class NNEFPEBACPC
 	{
 	public:

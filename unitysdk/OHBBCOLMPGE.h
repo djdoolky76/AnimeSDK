@@ -4,6 +4,8 @@
 
 #define OHBBCOLMPGE_CTOR_OFFSET UNITYSDK_OFFSET(0xBE5ED50)
 
+inline static constexpr unsigned int OHBBCOLMPGE_TypeDefinitionIndex = 59673;
+
 	class OHBBCOLMPGE : public ::System::Object
 	{
 	public:

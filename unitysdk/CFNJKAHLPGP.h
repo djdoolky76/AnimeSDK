@@ -7,6 +7,8 @@ class FCOEMCEDLNL;
 #define CFNJKAHLPGP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC0B170)
 #define CFNJKAHLPGP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC0B050)
 
+inline static constexpr unsigned int CFNJKAHLPGP_TypeDefinitionIndex = 15326;
+
 	class CFNJKAHLPGP : public ::System::Object
 	{
 	public:

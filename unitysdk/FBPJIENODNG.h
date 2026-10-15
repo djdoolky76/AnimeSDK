@@ -8,6 +8,8 @@ class HJDNCNIPOKM;
 #define FBPJIENODNG_LMCEDCHJKFF_OFFSET UNITYSDK_OFFSET(0x156ADA50)
 #define FBPJIENODNG_TICK_OFFSET UNITYSDK_OFFSET(0x156ADAF0)
 
+inline static constexpr unsigned int FBPJIENODNG_TypeDefinitionIndex = 57323;
+
 	class FBPJIENODNG : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int AutoTestLoginManager___c__DisplayClass8_1_TypeDefinitionIndex = 9271;
+
 	template <typename T>
 	class AutoTestLoginManager___c__DisplayClass8_1 : public ::System::Object
 	{

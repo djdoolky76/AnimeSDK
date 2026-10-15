@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TeamTowersRaceModeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamTowersLevelSettings_TypeDefinitionIndex = 18955;
+
 	class TeamTowersLevelSettings : public ::RPG::GameCore::LittleGameLevelSettings
 	{
 	public:

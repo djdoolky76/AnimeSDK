@@ -18,6 +18,8 @@ namespace UnityEngine { class Rigidbody; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int GravityBallRotateObstacle_TypeDefinitionIndex = 78595;
+
 	class GravityBallRotateObstacle : public ::RPG::Client::Prop::GravityBallObstacle
 	{
 	public:

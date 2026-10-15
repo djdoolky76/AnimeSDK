@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 #define CIDKEFFIJCL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCF66DB0)
 #define CIDKEFFIJCL_TICK_OFFSET UNITYSDK_OFFSET(0xCF66E00)
 
+inline static constexpr unsigned int CIDKEFFIJCL_TypeDefinitionIndex = 55131;
+
 	class CIDKEFFIJCL : public ::GELIALJDFBL
 	{
 	public:

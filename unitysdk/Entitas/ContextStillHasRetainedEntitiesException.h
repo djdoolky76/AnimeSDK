@@ -8,6 +8,8 @@ namespace Entitas { class IEntity; }
 
 namespace Entitas
 {
+	inline static constexpr unsigned int ContextStillHasRetainedEntitiesException_TypeDefinitionIndex = 9993;
+
 	class ContextStillHasRetainedEntitiesException : public ::Entitas::EntitasException
 	{
 	public:

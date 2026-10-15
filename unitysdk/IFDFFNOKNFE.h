@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define IFDFFNOKNFE_SET_CASTER_OFFSET UNITYSDK_OFFSET(0x15F0AEE0)
 #define IFDFFNOKNFE_SET_SKILLDATALIST_OFFSET UNITYSDK_OFFSET(0x15F0AF00)
 
+inline static constexpr unsigned int IFDFFNOKNFE_TypeDefinitionIndex = 72152;
+
 	class IFDFFNOKNFE : public ::System::Object
 	{
 	public:

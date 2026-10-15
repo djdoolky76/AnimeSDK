@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int TapTapManager_OnLoginDelegate_TypeDefinitionIndex = 9371;
+
 	class TapTapManager_OnLoginDelegate : public ::System::MulticastDelegate
 	{
 	public:

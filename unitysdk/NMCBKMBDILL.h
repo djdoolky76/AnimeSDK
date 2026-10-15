@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int NMCBKMBDILL_TypeDefinitionIndex = 30260;
+
 	enum class NMCBKMBDILL : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

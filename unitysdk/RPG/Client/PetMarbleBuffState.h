@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PetMarbleBuffState_TypeDefinitionIndex = 65814;
+
 	class PetMarbleBuffState : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int WolfBroPuzzleBoard___c__DisplayClass9_0_TypeDefinitionIndex = 78694;
+
 	class WolfBroPuzzleBoard___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FiveDimShareFogGroupConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimShareFogGroupConfig_TypeDefinitionIndex = 18528;
+
 	class FiveDimShareFogGroupConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

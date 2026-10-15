@@ -28,6 +28,8 @@ namespace System { class String; }
 #define MEJFIDEOLBN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA0D970)
 #define MEJFIDEOLBN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA0D9D0)
 
+inline static constexpr unsigned int MEJFIDEOLBN_TypeDefinitionIndex = 34537;
+
 	class MEJFIDEOLBN : public ::System::Object
 	{
 	public:

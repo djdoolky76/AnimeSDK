@@ -30,6 +30,8 @@ namespace System { class String; }
 #define NJGHHOHJGEO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB3DB70)
 #define NJGHHOHJGEO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB3DBD0)
 
+inline static constexpr unsigned int NJGHHOHJGEO_TypeDefinitionIndex = 32429;
+
 	class NJGHHOHJGEO : public ::System::Object
 	{
 	public:

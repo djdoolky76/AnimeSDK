@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 #define BBANINOHKHL_CTOR_OFFSET UNITYSDK_OFFSET(0x15E80EF0)
 
+inline static constexpr unsigned int BBANINOHKHL_TypeDefinitionIndex = 66670;
+
 	class BBANINOHKHL : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleLineupJsonTable___c_TypeDefinitionIndex = 56488;
+
 	class BattleLineupJsonTable___c : public ::System::Object
 	{
 	public:

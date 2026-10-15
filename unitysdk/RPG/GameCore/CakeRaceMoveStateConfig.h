@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceMoveStateConfig_TypeDefinitionIndex = 18413;
+
 	class CakeRaceMoveStateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

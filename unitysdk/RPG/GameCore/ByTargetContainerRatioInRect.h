@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByTargetContainerRatioInRect_TypeDefinitionIndex = 21651;
+
 	class ByTargetContainerRatioInRect : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

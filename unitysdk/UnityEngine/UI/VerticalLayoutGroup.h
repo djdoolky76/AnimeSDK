@@ -10,6 +10,8 @@
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int VerticalLayoutGroup_TypeDefinitionIndex = 6791;
+
 	class VerticalLayoutGroup : public ::UnityEngine::UI::HorizontalOrVerticalLayoutGroup
 	{
 	public:

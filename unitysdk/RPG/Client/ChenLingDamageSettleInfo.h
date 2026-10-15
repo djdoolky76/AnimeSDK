@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChenLingDamageSettleInfo_TypeDefinitionIndex = 61439;
+
 	class ChenLingDamageSettleInfo : public ::System::Object
 	{
 	public:

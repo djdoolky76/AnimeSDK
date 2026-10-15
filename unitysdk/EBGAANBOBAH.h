@@ -30,6 +30,8 @@ namespace System { class String; }
 #define EBGAANBOBAH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2348B0)
 #define EBGAANBOBAH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E234910)
 
+inline static constexpr unsigned int EBGAANBOBAH_TypeDefinitionIndex = 26408;
+
 	class EBGAANBOBAH : public ::System::Object
 	{
 	public:

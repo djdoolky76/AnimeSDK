@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueNousDiceBranchTagRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueNousDiceData___c__DisplayClass5_0_TypeDefinitionIndex = 66953;
+
 	class RogueNousDiceData___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

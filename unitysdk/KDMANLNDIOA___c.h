@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KDMANLNDIOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E803450)
 #define KDMANLNDIOA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E803460)
 
+inline static constexpr unsigned int KDMANLNDIOA___c_TypeDefinitionIndex = 35114;
+
 	class KDMANLNDIOA___c : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OpenMarbleMainPage_TypeDefinitionIndex = 21274;
+
 	class OpenMarbleMainPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -36,6 +36,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::Console::UI::OS
 {
+	inline static constexpr unsigned int ConsoleAgeGateVerificationDialog_TypeDefinitionIndex = 9048;
+
 	class ConsoleAgeGateVerificationDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:

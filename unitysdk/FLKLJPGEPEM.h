@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FLKLJPGEPEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1583D7E0)
 #define FLKLJPGEPEM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1583D810)
 
+inline static constexpr unsigned int FLKLJPGEPEM_TypeDefinitionIndex = 52095;
+
 	class FLKLJPGEPEM
 	{
 	public:

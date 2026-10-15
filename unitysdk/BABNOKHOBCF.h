@@ -66,6 +66,8 @@ namespace UnityEngine { class Mesh; }
 #define BABNOKHOBCF_SET_FOURROTATEVOXELGAME_OFFSET UNITYSDK_OFFSET(0x1C8AE690)
 #define BABNOKHOBCF_SET_GAMECONFIG_OFFSET UNITYSDK_OFFSET(0x1C8AE670)
 
+inline static constexpr unsigned int BABNOKHOBCF_TypeDefinitionIndex = 42133;
+
 	class BABNOKHOBCF : public ::System::Object
 	{
 	public:

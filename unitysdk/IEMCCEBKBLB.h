@@ -9,6 +9,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define IEMCCEBKBLB_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15F048B0)
 #define IEMCCEBKBLB_PLNLPJIFPLJ_OFFSET UNITYSDK_OFFSET(0x15F04940)
 
+inline static constexpr unsigned int IEMCCEBKBLB_TypeDefinitionIndex = 69340;
+
 	class IEMCCEBKBLB : public ::System::Object
 	{
 	public:

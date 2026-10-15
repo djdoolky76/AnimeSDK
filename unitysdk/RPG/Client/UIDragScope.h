@@ -34,6 +34,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIDragScope_TypeDefinitionIndex = 73064;
+
 	class UIDragScope : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -42,6 +42,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimelineControlGamePuzzleBoard_TypeDefinitionIndex = 60451;
+
 	class TimelineControlGamePuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

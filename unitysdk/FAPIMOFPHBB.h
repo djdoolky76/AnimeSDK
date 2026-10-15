@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FAPIMOFPHBB_SET_DIFFICULTY_OFFSET UNITYSDK_OFFSET(0x1568A980)
 #define FAPIMOFPHBB_SET_INSERTMONSTERMAP_OFFSET UNITYSDK_OFFSET(0x1568A9A0)
 
+inline static constexpr unsigned int FAPIMOFPHBB_TypeDefinitionIndex = 56088;
+
 	class FAPIMOFPHBB : public ::System::Object
 	{
 	public:

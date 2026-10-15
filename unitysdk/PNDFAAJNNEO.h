@@ -40,6 +40,8 @@ namespace System { class String; }
 #define PNDFAAJNNEO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFB4870)
 #define PNDFAAJNNEO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFB48D0)
 
+inline static constexpr unsigned int PNDFAAJNNEO_TypeDefinitionIndex = 29847;
+
 	class PNDFAAJNNEO : public ::System::Object
 	{
 	public:

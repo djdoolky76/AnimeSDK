@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FLPBGLOIEHE_ONRETURN_OFFSET UNITYSDK_OFFSET(0x15843C30)
 #define FLPBGLOIEHE__ONBIND_OFFSET UNITYSDK_OFFSET(0x15843610)
 
+inline static constexpr unsigned int FLPBGLOIEHE_TypeDefinitionIndex = 71767;
+
 	class FLPBGLOIEHE : public ::FMPCODLIOLG
 	{
 	public:

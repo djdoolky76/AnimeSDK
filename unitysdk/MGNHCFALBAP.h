@@ -27,6 +27,8 @@ namespace System { class String; }
 #define MGNHCFALBAP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA2A4B0)
 #define MGNHCFALBAP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA2A510)
 
+inline static constexpr unsigned int MGNHCFALBAP_TypeDefinitionIndex = 31462;
+
 	class MGNHCFALBAP : public ::System::Object
 	{
 	public:

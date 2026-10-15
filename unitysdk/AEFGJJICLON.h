@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define AEFGJJICLON_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCB17B0)
 #define AEFGJJICLON_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCB1770)
 
+inline static constexpr unsigned int AEFGJJICLON_TypeDefinitionIndex = 24151;
+
 	class AEFGJJICLON : public ::RPG::GameCore::TaskConfig
 	{
 	public:

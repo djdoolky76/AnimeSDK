@@ -14,6 +14,8 @@ namespace System { class String; }
 #define LDLGIOCMDKP_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0xB63C630)
 #define LDLGIOCMDKP_OPCKNBHNBOA_OFFSET UNITYSDK_OFFSET(0xB63C890)
 
+inline static constexpr unsigned int LDLGIOCMDKP_TypeDefinitionIndex = 55925;
+
 	class LDLGIOCMDKP : public ::JJANGHIBICJ
 	{
 	public:

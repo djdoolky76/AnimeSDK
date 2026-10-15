@@ -16,6 +16,8 @@ class AkPlaylist;
 #define AKPLAYLIST_GETCPTR_OFFSET UNITYSDK_OFFSET(0x1F5AE3A0)
 #define AKPLAYLIST_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1F5AE3F0)
 
+inline static constexpr unsigned int AkPlaylist_TypeDefinitionIndex = 44774;
+
 	class AkPlaylist : public ::AkPlaylistArray
 	{
 	public:

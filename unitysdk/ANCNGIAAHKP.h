@@ -27,6 +27,8 @@ namespace System { class String; }
 #define ANCNGIAAHKP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E529370)
 #define ANCNGIAAHKP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5293D0)
 
+inline static constexpr unsigned int ANCNGIAAHKP_TypeDefinitionIndex = 28186;
+
 	class ANCNGIAAHKP : public ::System::Object
 	{
 	public:

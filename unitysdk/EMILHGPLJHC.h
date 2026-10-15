@@ -76,6 +76,8 @@ namespace System::Collections { class IEnumerable; }
 #define EMILHGPLJHC__ADDPROGRESSLOG_B__90_3_OFFSET UNITYSDK_OFFSET(0x155427C0)
 #define EMILHGPLJHC__ADDPROGRESSLOG_B__90_4_OFFSET UNITYSDK_OFFSET(0x15542B50)
 
+inline static constexpr unsigned int EMILHGPLJHC_TypeDefinitionIndex = 59551;
+
 	class EMILHGPLJHC : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define OMEAEOLPGGM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEB2140)
 #define OMEAEOLPGGM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEB21A0)
 
+inline static constexpr unsigned int OMEAEOLPGGM_TypeDefinitionIndex = 26019;
+
 	class OMEAEOLPGGM : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2AABBs_TypeDefinitionIndex = 36571;
+
 	class B2AABBs : public ::System::Object
 	{
 	public:

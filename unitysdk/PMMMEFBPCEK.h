@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 #define PMMMEFBPCEK_PEGNJCBFPFB_OFFSET UNITYSDK_OFFSET(0xC3280C0)
 #define PMMMEFBPCEK__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xC327D50)
 
+inline static constexpr unsigned int PMMMEFBPCEK_TypeDefinitionIndex = 71239;
+
 	class PMMMEFBPCEK : public ::FMPCODLIOLG
 	{
 	public:

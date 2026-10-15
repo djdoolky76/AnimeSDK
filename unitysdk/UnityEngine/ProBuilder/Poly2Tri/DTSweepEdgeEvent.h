@@ -7,6 +7,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri { class DTSweepConstraint; }
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
+	inline static constexpr unsigned int DTSweepEdgeEvent_TypeDefinitionIndex = 38745;
+
 	class DTSweepEdgeEvent : public ::System::Object
 	{
 	public:

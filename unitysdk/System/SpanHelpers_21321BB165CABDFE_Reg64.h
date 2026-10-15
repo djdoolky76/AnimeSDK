@@ -3,6 +3,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int SpanHelpers_21321BB165CABDFE_Reg64_TypeDefinitionIndex = 4981;
+
 	struct alignas(4) SpanHelpers_21321BB165CABDFE_Reg64
 	{
 	};

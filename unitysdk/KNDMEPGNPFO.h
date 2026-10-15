@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KNDMEPGNPFO__SOLVESETSTATE_OFFSET UNITYSDK_OFFSET(0xB580E00)
 #define KNDMEPGNPFO__TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB5809F0)
 
+inline static constexpr unsigned int KNDMEPGNPFO_TypeDefinitionIndex = 76748;
+
 	class KNDMEPGNPFO
 	{
 	public:

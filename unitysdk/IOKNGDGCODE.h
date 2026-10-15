@@ -4,6 +4,8 @@
 #define IOKNGDGCODE_DEHGFAEJGCO_OFFSET UNITYSDK_OFFSET(0x16508060)
 #define IOKNGDGCODE_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x2E83490)
 
+inline static constexpr unsigned int IOKNGDGCODE_TypeDefinitionIndex = 70148;
+
 	struct alignas(4) IOKNGDGCODE
 	{
 		::System::Int32 JDNDMDHMILA; // 0x10

@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 #define HHJHEDFNHAK_SET_ASSETPATH_OFFSET UNITYSDK_OFFSET(0x15CCEDB0)
 #define HHJHEDFNHAK_SET_PARENT_OFFSET UNITYSDK_OFFSET(0x15CCEDD0)
 
+inline static constexpr unsigned int HHJHEDFNHAK_TypeDefinitionIndex = 68915;
+
 	class HHJHEDFNHAK : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace RPG { template <typename T> class PoolList_1; }
 #define GFACMJOEDGH_PGIAFDBMMIO_OFFSET UNITYSDK_OFFSET(0x1CA89A70)
 #define GFACMJOEDGH_POJALLMFIJJ_OFFSET UNITYSDK_OFFSET(0x1CA8A500)
 
+inline static constexpr unsigned int GFACMJOEDGH_TypeDefinitionIndex = 43287;
+
 	class GFACMJOEDGH : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define DAKDEAJJDJN_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C5D81A0)
 #define DAKDEAJJDJN_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C5D8130)
 
+inline static constexpr unsigned int DAKDEAJJDJN_TypeDefinitionIndex = 36245;
+
 	class DAKDEAJJDJN : public ::System::MulticastDelegate
 	{
 	public:

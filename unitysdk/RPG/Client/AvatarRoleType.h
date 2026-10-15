@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarRoleType_TypeDefinitionIndex = 62474;
+
 	struct alignas(4) AvatarRoleType
 	{
 		::System::UInt32 _RoleID; // 0x10

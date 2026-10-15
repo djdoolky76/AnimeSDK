@@ -7,6 +7,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CameraEventUtils_TypeDefinitionIndex = 4702;
+
 	class CameraEventUtils : public ::System::Object
 	{
 	public:

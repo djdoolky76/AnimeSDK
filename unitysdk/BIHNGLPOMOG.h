@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BIHNGLPOMOG_CTOR_OFFSET UNITYSDK_OFFSET(0xB4A8790)
 #define BIHNGLPOMOG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB4A87C0)
 
+inline static constexpr unsigned int BIHNGLPOMOG_TypeDefinitionIndex = 54579;
+
 	class BIHNGLPOMOG
 	{
 	public:

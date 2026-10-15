@@ -16,6 +16,8 @@ namespace RPG::Client { class MechanicThresholdHPMarkData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MechanicThresholdHPMarkData_TypeDefinitionIndex = 71675;
+
 	class MechanicThresholdHPMarkData : public ::System::Object
 	{
 	public:

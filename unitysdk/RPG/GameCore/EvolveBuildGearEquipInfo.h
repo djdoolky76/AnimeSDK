@@ -7,6 +7,8 @@ namespace RPG::GameCore { class EvolveGearConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EvolveBuildGearEquipInfo_TypeDefinitionIndex = 56077;
+
 	class EvolveBuildGearEquipInfo : public ::System::Object
 	{
 	public:

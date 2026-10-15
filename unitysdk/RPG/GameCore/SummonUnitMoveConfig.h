@@ -17,6 +17,8 @@ namespace RPG::GameCore { class SummonUnitMoveConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SummonUnitMoveConfig_TypeDefinitionIndex = 17594;
+
 	class SummonUnitMoveConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

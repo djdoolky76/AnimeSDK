@@ -21,6 +21,8 @@ namespace System::Text { class StringBuilder; }
 #define MLFCEMNDFDM_SET_INSTANCETYPE_OFFSET UNITYSDK_OFFSET(0xAF40)
 #define MLFCEMNDFDM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E430)
 
+inline static constexpr unsigned int MLFCEMNDFDM_TypeDefinitionIndex = 51894;
+
 	struct alignas(4) MLFCEMNDFDM
 	{
 		::RPG::AvatarSystem::AvatarInstanceType _InstanceType_k__BackingField; // 0x10

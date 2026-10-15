@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlanetFesBtnUnlockRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesBtnUnlockRow_TypeDefinitionIndex = 12275;
+
 	class PlanetFesBtnUnlockRow : public ::System::Object
 	{
 	public:

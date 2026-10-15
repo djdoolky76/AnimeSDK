@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HCFLDDIEHJE_KDJOCCNMOIH_OFFSET UNITYSDK_OFFSET(0x15C1AAD0)
 #define HCFLDDIEHJE_PILBHDLILBC_OFFSET UNITYSDK_OFFSET(0x15C1AA10)
 
+inline static constexpr unsigned int HCFLDDIEHJE_TypeDefinitionIndex = 61042;
+
 	class HCFLDDIEHJE : public ::System::Object
 	{
 	public:

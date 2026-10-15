@@ -5,6 +5,8 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Transform; }
 
+inline static constexpr unsigned int JFLNACPEIFP_TypeDefinitionIndex = 49742;
+
 	class JFLNACPEIFP : public ::System::Object
 	{
 	public:

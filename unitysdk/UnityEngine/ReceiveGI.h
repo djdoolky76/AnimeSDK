@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ReceiveGI_TypeDefinitionIndex = 4161;
+
 	enum class ReceiveGI : ::System::Int32
 	{
 		Lightmaps = 1,

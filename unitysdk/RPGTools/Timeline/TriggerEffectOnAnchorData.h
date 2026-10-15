@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TriggerEffectOnAnchorData_TypeDefinitionIndex = 48338;
+
 	class TriggerEffectOnAnchorData : public ::System::Object
 	{
 	public:

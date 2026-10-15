@@ -6,6 +6,8 @@ namespace System::Linq { template <typename T> class EnumerableSorter_1; }
 
 namespace System::Linq
 {
+	inline static constexpr unsigned int EnumerableSorter_2_TypeDefinitionIndex = 3181;
+
 	template <typename T1, typename T2>
 	class EnumerableSorter_2
 	{

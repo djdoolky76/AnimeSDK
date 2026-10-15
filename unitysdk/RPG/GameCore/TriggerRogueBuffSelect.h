@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerRogueBuffSelect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerRogueBuffSelect_TypeDefinitionIndex = 20479;
+
 	class TriggerRogueBuffSelect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

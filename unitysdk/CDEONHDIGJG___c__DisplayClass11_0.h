@@ -7,6 +7,8 @@ class CDEONHDIGJG;
 #define CDEONHDIGJG___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC765E30)
 #define CDEONHDIGJG___C__DISPLAYCLASS11_0___TRYHIDEEFFECTINSKILLUSE_B__0_OFFSET UNITYSDK_OFFSET(0xC766210)
 
+inline static constexpr unsigned int CDEONHDIGJG___c__DisplayClass11_0_TypeDefinitionIndex = 53742;
+
 	class CDEONHDIGJG___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

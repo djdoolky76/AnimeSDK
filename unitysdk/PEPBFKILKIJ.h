@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PEPBFKILKIJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC1F73C0)
 #define PEPBFKILKIJ_OPDLLNNEBPF_OFFSET UNITYSDK_OFFSET(0xC1F7410)
 
+inline static constexpr unsigned int PEPBFKILKIJ_TypeDefinitionIndex = 57968;
+
 	class PEPBFKILKIJ
 	{
 	public:

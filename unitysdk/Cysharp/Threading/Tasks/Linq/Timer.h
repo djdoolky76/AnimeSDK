@@ -13,6 +13,8 @@ namespace System { class Nullable; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Timer_TypeDefinitionIndex = 45721;
+
 	class Timer : public ::System::Object
 	{
 	public:

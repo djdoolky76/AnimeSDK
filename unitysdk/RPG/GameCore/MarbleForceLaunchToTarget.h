@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MarbleForceLaunchToTarget; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleForceLaunchToTarget_TypeDefinitionIndex = 16837;
+
 	class MarbleForceLaunchToTarget : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

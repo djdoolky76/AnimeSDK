@@ -10,6 +10,8 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class b2FreeFcn; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Buffers_TypeDefinitionIndex = 36602;
+
 	class B2Buffers : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::Client::LittleGame::ElfRestaurant { class FoodDebris; }
 
 namespace RPG::Client::LittleGame::ElfRestaurant
 {
+	inline static constexpr unsigned int ElfRestaurantTableView_TypeDefinitionIndex = 77282;
+
 	class ElfRestaurantTableView : public ::RPG::Client::LittleGame::ElfRestaurant::ElfRestaurantView
 	{
 	public:

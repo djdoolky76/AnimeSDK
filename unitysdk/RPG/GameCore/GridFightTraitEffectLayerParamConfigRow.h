@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GridFightTraitEffectLayerParamConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightTraitEffectLayerParamConfigRow_TypeDefinitionIndex = 13676;
+
 	class GridFightTraitEffectLayerParamConfigRow : public ::System::Object
 	{
 	public:

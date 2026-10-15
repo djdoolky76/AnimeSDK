@@ -36,6 +36,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int MouseBindingSource_TypeDefinitionIndex = 40804;
+
 	class MouseBindingSource : public ::InControl::BindingSource
 	{
 	public:

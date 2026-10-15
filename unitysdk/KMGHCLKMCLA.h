@@ -6,6 +6,8 @@ namespace RPG::GameCore { class FiveDimSpikeConfig; }
 
 #define KMGHCLKMCLA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C908A00)
 
+inline static constexpr unsigned int KMGHCLKMCLA_TypeDefinitionIndex = 43471;
+
 	class KMGHCLKMCLA : public ::System::Object
 	{
 	public:

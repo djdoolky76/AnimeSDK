@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define KDPICNMHDCE_JMHFHECFHBI_OFFSET UNITYSDK_OFFSET(0xB36EE80)
 #define KDPICNMHDCE_LIDKFDENKAP_OFFSET UNITYSDK_OFFSET(0xB36E800)
 
+inline static constexpr unsigned int KDPICNMHDCE_TypeDefinitionIndex = 77938;
+
 	class KDPICNMHDCE : public ::System::Object
 	{
 	public:

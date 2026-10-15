@@ -10,6 +10,8 @@ namespace RPG::Client::Promises { class IPromise; }
 
 namespace RPG::Client::PetMarble
 {
+	inline static constexpr unsigned int PetMarbleMatchController___c__DisplayClass2_0_TypeDefinitionIndex = 74711;
+
 	class PetMarbleMatchController___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

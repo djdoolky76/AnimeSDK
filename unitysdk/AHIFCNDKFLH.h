@@ -6,6 +6,8 @@ namespace System { class String; }
 #define AHIFCNDKFLH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C88D8D0)
 #define AHIFCNDKFLH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88D920)
 
+inline static constexpr unsigned int AHIFCNDKFLH_TypeDefinitionIndex = 43477;
+
 	class AHIFCNDKFLH : public ::System::Object
 	{
 	public:

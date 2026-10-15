@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftDiyMechatronEditTabViewModel_TypeDefinitionIndex = 79614;
+
 	class MechCraftDiyMechatronEditTabViewModel : public ::System::Object
 	{
 	public:

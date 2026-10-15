@@ -6,6 +6,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int NoiseSettingsPropertyAttribute_TypeDefinitionIndex = 39830;
+
 	class NoiseSettingsPropertyAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:

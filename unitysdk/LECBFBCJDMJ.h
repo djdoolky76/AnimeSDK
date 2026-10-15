@@ -19,6 +19,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LECBFBCJDMJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB64C210)
 #define LECBFBCJDMJ_TICK_OFFSET UNITYSDK_OFFSET(0xB64C260)
 
+inline static constexpr unsigned int LECBFBCJDMJ_TypeDefinitionIndex = 52157;
+
 	class LECBFBCJDMJ
 	{
 	public:

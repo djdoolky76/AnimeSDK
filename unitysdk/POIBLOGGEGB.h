@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define POIBLOGGEGB_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0xC367440)
 #define POIBLOGGEGB_OIBBGLOFMPO_OFFSET UNITYSDK_OFFSET(0xC367670)
 
+inline static constexpr unsigned int POIBLOGGEGB_TypeDefinitionIndex = 54378;
+
 	class POIBLOGGEGB : public ::BEMKNPIFMBI
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class StimulusItemConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StimulusItemConfig_TypeDefinitionIndex = 15637;
+
 	class StimulusItemConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

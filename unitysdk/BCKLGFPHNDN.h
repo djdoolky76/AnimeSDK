@@ -7,6 +7,8 @@
 #define BCKLGFPHNDN_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x162E1EE0)
 #define BCKLGFPHNDN_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x162E1E90)
 
+inline static constexpr unsigned int BCKLGFPHNDN_TypeDefinitionIndex = 56632;
+
 	class BCKLGFPHNDN : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::RPGDemo
 {
+	inline static constexpr unsigned int RPGDemoCameraController_Example_TypeDefinitionIndex = 75946;
+
 	class RPGDemoCameraController_Example : public ::UnityEngine::MonoBehaviour
 	{
 	public:

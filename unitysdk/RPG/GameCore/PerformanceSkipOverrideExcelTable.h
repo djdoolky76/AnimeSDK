@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceSkipOverrideExcelTable_TypeDefinitionIndex = 14365;
+
 	class PerformanceSkipOverrideExcelTable : public ::System::Object
 	{
 	public:

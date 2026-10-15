@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftProgressOrderConstraintsControl_TypeDefinitionIndex = 79939;
+
 	class MechCraftCraftProgressOrderConstraintsControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

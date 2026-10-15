@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwordTrainingSetDynamicValueByEnemyRank_TypeDefinitionIndex = 22599;
+
 	class SwordTrainingSetDynamicValueByEnemyRank : public ::RPG::GameCore::TaskConfig
 	{
 	public:

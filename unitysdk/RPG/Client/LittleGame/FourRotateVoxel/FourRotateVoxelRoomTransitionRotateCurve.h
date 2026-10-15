@@ -16,6 +16,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
+	inline static constexpr unsigned int FourRotateVoxelRoomTransitionRotateCurve_TypeDefinitionIndex = 76847;
+
 	class FourRotateVoxelRoomTransitionRotateCurve : public ::RPG::Client::LittleGame::FourRotateVoxel::FouRotateVoxelSimpleCameraCurveBase
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define LDDEOLEIJOI_IHGHLKKBAHI_OFFSET UNITYSDK_OFFSET(0x1C739410)
 #define LDDEOLEIJOI_PMIMAILJLAF_OFFSET UNITYSDK_OFFSET(0x1C739460)
 
+inline static constexpr unsigned int LDDEOLEIJOI_TypeDefinitionIndex = 37363;
+
 	class LDDEOLEIJOI : public ::KIGLHBEPNOG
 	{
 	public:

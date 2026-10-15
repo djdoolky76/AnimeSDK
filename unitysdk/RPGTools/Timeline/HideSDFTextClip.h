@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int HideSDFTextClip_TypeDefinitionIndex = 48245;
+
 	class HideSDFTextClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

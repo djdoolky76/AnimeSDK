@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimTeleportAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimTeleportAction_TypeDefinitionIndex = 18654;
+
 	class FiveDimTeleportAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

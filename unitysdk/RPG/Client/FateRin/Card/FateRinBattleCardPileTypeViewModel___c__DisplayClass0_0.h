@@ -13,6 +13,8 @@ namespace RPG::Client::FateRin::Card { class IFateRinBattleCardPileSectionViewMo
 
 namespace RPG::Client::FateRin::Card
 {
+	inline static constexpr unsigned int FateRinBattleCardPileTypeViewModel___c__DisplayClass0_0_TypeDefinitionIndex = 81122;
+
 	class FateRinBattleCardPileTypeViewModel___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define NDNBAKIOMIC_GET_STRINGPARAMS_OFFSET UNITYSDK_OFFSET(0xBB530F0)
 #define NDNBAKIOMIC_GET_UINTPARAMS_OFFSET UNITYSDK_OFFSET(0xBB530E0)
 
+inline static constexpr unsigned int NDNBAKIOMIC_TypeDefinitionIndex = 64353;
+
 	class NDNBAKIOMIC : public ::System::Object
 	{
 	public:

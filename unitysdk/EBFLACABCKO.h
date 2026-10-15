@@ -29,6 +29,8 @@ namespace System { class String; }
 #define EBFLACABCKO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E234010)
 #define EBFLACABCKO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E234070)
 
+inline static constexpr unsigned int EBFLACABCKO_TypeDefinitionIndex = 29811;
+
 	class EBFLACABCKO : public ::System::Object
 	{
 	public:

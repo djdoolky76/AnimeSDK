@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RtBattleDamageExtraData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtBattleDamageExtraData_TypeDefinitionIndex = 24162;
+
 	class RtBattleDamageExtraData : public ::RPG::GameCore::RtDamageExtraDataBase
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System::Text { class StringBuilder; }
 #define FILMPEEMJED_TOSTRING_OFFSET UNITYSDK_OFFSET(0x157ACFC0)
 #define FILMPEEMJED__CLONE___OFFSET UNITYSDK_OFFSET(0x157AD6A0)
 
+inline static constexpr unsigned int FILMPEEMJED_TypeDefinitionIndex = 49722;
+
 	class FILMPEEMJED : public ::System::Object
 	{
 	public:

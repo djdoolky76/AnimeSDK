@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 #define IKDAKCBKFAB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CF1AD00)
 #define IKDAKCBKFAB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF1ACC0)
 
+inline static constexpr unsigned int IKDAKCBKFAB_TypeDefinitionIndex = 18255;
+
 	class IKDAKCBKFAB : public ::JKMJGCFCMMC
 	{
 	public:

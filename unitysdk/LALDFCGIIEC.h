@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define LALDFCGIIEC_HKEPJLDBGIG_OFFSET UNITYSDK_OFFSET(0x1C4AAB60)
 #define LALDFCGIIEC_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0x1C4AA460)
 
+inline static constexpr unsigned int LALDFCGIIEC_TypeDefinitionIndex = 41524;
+
 	class LALDFCGIIEC : public ::System::Object
 	{
 	public:

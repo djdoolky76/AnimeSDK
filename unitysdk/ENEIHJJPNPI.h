@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define ENEIHJJPNPI_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x1CDACFA0)
 #define ENEIHJJPNPI_SET_ALIASEVALUATOR_OFFSET UNITYSDK_OFFSET(0x1CDABBA0)
 
+inline static constexpr unsigned int ENEIHJJPNPI_TypeDefinitionIndex = 10850;
+
 	class ENEIHJJPNPI : public ::System::Object
 	{
 	public:

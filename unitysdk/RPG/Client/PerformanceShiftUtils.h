@@ -15,6 +15,8 @@ class OBAPBPBNNHP;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PerformanceShiftUtils_TypeDefinitionIndex = 60741;
+
 	class PerformanceShiftUtils : public ::System::Object
 	{
 	public:

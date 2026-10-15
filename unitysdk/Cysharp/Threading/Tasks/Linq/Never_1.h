@@ -5,6 +5,8 @@ namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncE
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Never_1_TypeDefinitionIndex = 45514;
+
 	template <typename T>
 	class Never_1 : public ::System::Object
 	{

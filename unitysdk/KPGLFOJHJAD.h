@@ -26,6 +26,8 @@ namespace UnityEngine { class Transform; }
 #define KPGLFOJHJAD_SET_INDEX_OFFSET UNITYSDK_OFFSET(0xB5BBF70)
 #define KPGLFOJHJAD__ONBIND_OFFSET UNITYSDK_OFFSET(0xB5BBD30)
 
+inline static constexpr unsigned int KPGLFOJHJAD_TypeDefinitionIndex = 71837;
+
 	class KPGLFOJHJAD : public ::FMPCODLIOLG
 	{
 	public:

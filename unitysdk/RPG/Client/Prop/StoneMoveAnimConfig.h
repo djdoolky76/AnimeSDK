@@ -7,6 +7,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int StoneMoveAnimConfig_TypeDefinitionIndex = 78524;
+
 	class StoneMoveAnimConfig : public ::System::Object
 	{
 	public:

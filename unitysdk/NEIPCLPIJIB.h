@@ -6,6 +6,8 @@ class BKFOHAKAJLP;
 
 #define NEIPCLPIJIB_NKCKKFAHKNN_OFFSET UNITYSDK_OFFSET(0xBB5E830)
 
+inline static constexpr unsigned int NEIPCLPIJIB_TypeDefinitionIndex = 78006;
+
 	class NEIPCLPIJIB : public ::System::Object
 	{
 	public:

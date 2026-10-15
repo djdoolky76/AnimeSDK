@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatIgnoreDefendPointType_TypeDefinitionIndex = 16046;
+
 	enum class DiceCombatIgnoreDefendPointType : ::System::Int32
 	{
 		None = 0,

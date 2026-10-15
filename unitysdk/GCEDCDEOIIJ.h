@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleByCompareScore; }
 #define GCEDCDEOIIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA7ED90)
 #define GCEDCDEOIIJ_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1CA7EDB0)
 
+inline static constexpr unsigned int GCEDCDEOIIJ_TypeDefinitionIndex = 43159;
+
 	class GCEDCDEOIIJ : public ::LHJPMDPJPEC
 	{
 	public:

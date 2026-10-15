@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NounArchiveEntry_TypeDefinitionIndex = 62433;
+
 	class NounArchiveEntry : public ::RPG::Client::BaseArchiveEntry
 	{
 	public:

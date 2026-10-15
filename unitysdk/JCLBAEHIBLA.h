@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JCLBAEHIBLA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F43C0)
 #define JCLBAEHIBLA_EMPOAKIKBDI_OFFSET UNITYSDK_OFFSET(0x1C6F4310)
 
+inline static constexpr unsigned int JCLBAEHIBLA_TypeDefinitionIndex = 36269;
+
 	class JCLBAEHIBLA : public ::System::Object
 	{
 	public:

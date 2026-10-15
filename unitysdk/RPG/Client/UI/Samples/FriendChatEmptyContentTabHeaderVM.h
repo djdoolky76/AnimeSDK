@@ -6,6 +6,8 @@
 
 namespace RPG::Client::Ui::Samples
 {
+	inline static constexpr unsigned int FriendChatEmptyContentTabHeaderVM_TypeDefinitionIndex = 73445;
+
 	class FriendChatEmptyContentTabHeaderVM : public ::RPG::Client::Ui::Samples::FriendChatTabViewModel
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CPDBECGBAOA_CTOR_OFFSET UNITYSDK_OFFSET(0xDCD07E0)
 #define CPDBECGBAOA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDCD0860)
 
+inline static constexpr unsigned int CPDBECGBAOA_TypeDefinitionIndex = 52808;
+
 	class CPDBECGBAOA
 	{
 	public:

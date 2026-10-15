@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ComposeItemMaterial_TypeDefinitionIndex = 65757;
+
 	class ComposeItemMaterial : public ::System::Object
 	{
 	public:

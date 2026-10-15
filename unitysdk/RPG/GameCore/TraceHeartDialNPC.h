@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TraceHeartDialNPC; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TraceHeartDialNPC_TypeDefinitionIndex = 21222;
+
 	class TraceHeartDialNPC : public ::RPG::GameCore::TaskConfig
 	{
 	public:

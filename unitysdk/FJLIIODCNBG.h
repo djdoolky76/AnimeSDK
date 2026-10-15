@@ -14,6 +14,8 @@ namespace RPG::GameCore { class WaitStreamingJobFinished; }
 #define FJLIIODCNBG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x157D9220)
 #define FJLIIODCNBG_TICK_OFFSET UNITYSDK_OFFSET(0x157D9270)
 
+inline static constexpr unsigned int FJLIIODCNBG_TypeDefinitionIndex = 58929;
+
 	class FJLIIODCNBG : public ::GELIALJDFBL
 	{
 	public:

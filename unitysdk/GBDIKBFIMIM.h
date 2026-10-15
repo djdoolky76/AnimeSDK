@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define GBDIKBFIMIM_GET_DAY_OFFSET UNITYSDK_OFFSET(0x1594B580)
 #define GBDIKBFIMIM_GET_ENTRIES_OFFSET UNITYSDK_OFFSET(0x1594B590)
 
+inline static constexpr unsigned int GBDIKBFIMIM_TypeDefinitionIndex = 81066;
+
 	class GBDIKBFIMIM : public ::System::Object
 	{
 	public:

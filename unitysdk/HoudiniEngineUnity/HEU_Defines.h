@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_Defines_TypeDefinitionIndex = 40433;
+
 	class HEU_Defines : public ::System::Object
 	{
 	public:

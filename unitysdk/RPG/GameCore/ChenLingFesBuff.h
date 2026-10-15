@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingFesPropertyModifier; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingFesBuff_TypeDefinitionIndex = 18448;
+
 	class ChenLingFesBuff : public ::RPG::GameCore::JsonConfig
 	{
 	public:

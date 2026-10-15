@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HPAGFCCNCHE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5F40B0)
 #define HPAGFCCNCHE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E5F40C0)
 
+inline static constexpr unsigned int HPAGFCCNCHE___c_TypeDefinitionIndex = 34763;
+
 	class HPAGFCCNCHE___c : public ::System::Object
 	{
 	public:

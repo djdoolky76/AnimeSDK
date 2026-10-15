@@ -20,6 +20,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define AHDBAHHNNCD_OOGCMLCLMJF_OFFSET UNITYSDK_OFFSET(0xEB7BE30)
 #define AHDBAHHNNCD_TICK_OFFSET UNITYSDK_OFFSET(0xEB7BD80)
 
+inline static constexpr unsigned int AHDBAHHNNCD_TypeDefinitionIndex = 58007;
+
 	class AHDBAHHNNCD : public ::GELIALJDFBL
 	{
 	public:

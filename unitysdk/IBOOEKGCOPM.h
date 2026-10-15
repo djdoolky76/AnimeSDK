@@ -4,6 +4,8 @@
 
 #define IBOOEKGCOPM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB07230)
 
+inline static constexpr unsigned int IBOOEKGCOPM_TypeDefinitionIndex = 42370;
+
 	class IBOOEKGCOPM : public ::System::Object
 	{
 	public:

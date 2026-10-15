@@ -14,6 +14,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace MiHoYo::SDK::PS
 {
+	inline static constexpr unsigned int ComboManager___c_TypeDefinitionIndex = 8906;
+
 	class ComboManager___c : public ::System::Object
 	{
 	public:

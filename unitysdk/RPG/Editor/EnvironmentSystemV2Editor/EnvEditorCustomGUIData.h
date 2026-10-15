@@ -8,6 +8,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace RPG::Editor::EnvironmentSystemV2Editor
 {
+	inline static constexpr unsigned int EnvEditorCustomGUIData_TypeDefinitionIndex = 52076;
+
 	class EnvEditorCustomGUIData : public ::System::Object
 	{
 	public:

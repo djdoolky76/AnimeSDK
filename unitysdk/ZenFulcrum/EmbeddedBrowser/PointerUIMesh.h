@@ -18,6 +18,8 @@ namespace UnityEngine { class MeshCollider; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int PointerUIMesh_TypeDefinitionIndex = 39486;
+
 	class PointerUIMesh : public ::ZenFulcrum::EmbeddedBrowser::PointerUIBase
 	{
 	public:

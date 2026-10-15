@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlTypeMapMemberAnyElement_TypeDefinitionIndex = 2053;
+
 	class XmlTypeMapMemberAnyElement : public ::System::Xml::Serialization::XmlTypeMapMemberExpandable
 	{
 	public:

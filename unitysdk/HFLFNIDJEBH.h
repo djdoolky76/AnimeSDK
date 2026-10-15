@@ -9,6 +9,8 @@ namespace UnityEngine { class Collider; }
 #define HFLFNIDJEBH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAC84A0)
 #define HFLFNIDJEBH_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CAC8330)
 
+inline static constexpr unsigned int HFLFNIDJEBH_TypeDefinitionIndex = 43532;
+
 	class HFLFNIDJEBH : public ::NOOHPODHIAA
 	{
 	public:

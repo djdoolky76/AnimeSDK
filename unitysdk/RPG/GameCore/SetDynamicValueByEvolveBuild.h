@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByEvolveBuild_TypeDefinitionIndex = 23098;
+
 	class SetDynamicValueByEvolveBuild : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

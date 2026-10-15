@@ -6,6 +6,8 @@
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int EnvProfileDataBase_TypeDefinitionIndex = 49381;
+
 	class EnvProfileDataBase : public ::UnityEngine::ScriptableObject
 	{
 	public:

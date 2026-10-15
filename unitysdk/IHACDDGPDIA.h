@@ -6,6 +6,8 @@
 #define IHACDDGPDIA_GET_CLOSEWINDOW_OFFSET UNITYSDK_OFFSET(0x164169B0)
 #define IHACDDGPDIA_SET_CLOSEWINDOW_OFFSET UNITYSDK_OFFSET(0x164169C0)
 
+inline static constexpr unsigned int IHACDDGPDIA_TypeDefinitionIndex = 79201;
+
 	class IHACDDGPDIA : public ::System::Object
 	{
 	public:

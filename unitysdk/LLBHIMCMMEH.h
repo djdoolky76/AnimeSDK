@@ -28,6 +28,8 @@ namespace System { class String; }
 #define LLBHIMCMMEH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E995CF0)
 #define LLBHIMCMMEH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E995D50)
 
+inline static constexpr unsigned int LLBHIMCMMEH_TypeDefinitionIndex = 27359;
+
 	class LLBHIMCMMEH : public ::System::Object
 	{
 	public:

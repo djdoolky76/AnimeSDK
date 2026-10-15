@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AGNCEPPGLBJ_KHNCMBEFIKI_OFFSET UNITYSDK_OFFSET(0xCF42220)
 #define AGNCEPPGLBJ_LLLDCDEIBIM_OFFSET UNITYSDK_OFFSET(0xCF41CE0)
 
+inline static constexpr unsigned int AGNCEPPGLBJ_TypeDefinitionIndex = 73937;
+
 	class AGNCEPPGLBJ : public ::System::Object
 	{
 	public:

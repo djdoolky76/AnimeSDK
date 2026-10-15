@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRChaperoneSetup__GetWorkingPlayAreaRect_TypeDefinitionIndex = 38997;
+
 	class IVRChaperoneSetup__GetWorkingPlayAreaRect : public ::System::MulticastDelegate
 	{
 	public:

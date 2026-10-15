@@ -52,6 +52,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GCJKKPABMDK_PKCAMAJNJDN_OFFSET UNITYSDK_OFFSET(0x1597E910)
 #define GCJKKPABMDK_PKIFDMOOGAF_OFFSET UNITYSDK_OFFSET(0x159805B0)
 
+inline static constexpr unsigned int GCJKKPABMDK_TypeDefinitionIndex = 81955;
+
 	class GCJKKPABMDK : public ::System::Object
 	{
 	public:

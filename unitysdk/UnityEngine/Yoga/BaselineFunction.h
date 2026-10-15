@@ -13,6 +13,8 @@ namespace UnityEngine::Yoga { class YogaNode; }
 
 namespace UnityEngine::Yoga
 {
+	inline static constexpr unsigned int BaselineFunction_TypeDefinitionIndex = 5864;
+
 	class BaselineFunction : public ::System::MulticastDelegate
 	{
 	public:

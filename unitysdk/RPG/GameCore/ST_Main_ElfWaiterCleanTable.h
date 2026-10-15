@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Main_ElfWaiterCleanTable; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_ElfWaiterCleanTable_TypeDefinitionIndex = 21521;
+
 	class ST_Main_ElfWaiterCleanTable : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

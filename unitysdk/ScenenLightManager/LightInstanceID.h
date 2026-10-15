@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int LightInstanceID_TypeDefinitionIndex = 49148;
+
 	struct alignas(4) LightInstanceID
 	{
 		::System::Int64 hash; // 0x10

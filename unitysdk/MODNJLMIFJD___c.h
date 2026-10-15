@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MODNJLMIFJD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAA65A0)
 #define MODNJLMIFJD___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EAA65B0)
 
+inline static constexpr unsigned int MODNJLMIFJD___c_TypeDefinitionIndex = 25143;
+
 	class MODNJLMIFJD___c : public ::System::Object
 	{
 	public:

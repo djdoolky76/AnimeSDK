@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace IniParserEx
 {
+	inline static constexpr unsigned int BaseParserWithFile_TypeDefinitionIndex = 3930;
+
 	class BaseParserWithFile : public ::IniParserEx::BaseParser
 	{
 	public:

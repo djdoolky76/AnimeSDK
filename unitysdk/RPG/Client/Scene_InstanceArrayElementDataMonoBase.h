@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Scene_InstanceArrayElementDataMonoBase_TypeDefinitionIndex = 70851;
+
 	class Scene_InstanceArrayElementDataMonoBase : public ::RPG::Client::TAMonoBase
 	{
 	public:

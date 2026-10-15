@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowRogueLoadingPage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowRogueLoadingPage_TypeDefinitionIndex = 20809;
+
 	class ShowRogueLoadingPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

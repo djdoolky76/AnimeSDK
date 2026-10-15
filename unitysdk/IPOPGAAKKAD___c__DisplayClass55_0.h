@@ -7,6 +7,8 @@ class IPOPGAAKKAD;
 #define IPOPGAAKKAD___C__DISPLAYCLASS55_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F00E0)
 #define IPOPGAAKKAD___C__DISPLAYCLASS55_0__PREPARESPARKLEOCCUR_B__0_OFFSET UNITYSDK_OFFSET(0x1C6F0A30)
 
+inline static constexpr unsigned int IPOPGAAKKAD___c__DisplayClass55_0_TypeDefinitionIndex = 37309;
+
 	class IPOPGAAKKAD___c__DisplayClass55_0 : public ::System::Object
 	{
 	public:

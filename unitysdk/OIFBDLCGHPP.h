@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define OIFBDLCGHPP_HNABIJCBHNO_OFFSET UNITYSDK_OFFSET(0x1C7CF120)
 
+inline static constexpr unsigned int OIFBDLCGHPP_TypeDefinitionIndex = 37272;
+
 	class OIFBDLCGHPP : public ::System::Object
 	{
 	public:

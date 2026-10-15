@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define NBNLIDCJLHK_SET_ISENABLE_OFFSET UNITYSDK_OFFSET(0xBADCF20)
 #define NBNLIDCJLHK__LOADINDEXINFO_OFFSET UNITYSDK_OFFSET(0xBADD020)
 
+inline static constexpr unsigned int NBNLIDCJLHK_TypeDefinitionIndex = 59468;
+
 	class NBNLIDCJLHK
 	{
 	public:

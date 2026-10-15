@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKDelegate_DeviceFPRefreshDelegate_TypeDefinitionIndex = 7771;
+
 	class SDKDelegate_DeviceFPRefreshDelegate : public ::System::MulticastDelegate
 	{
 	public:

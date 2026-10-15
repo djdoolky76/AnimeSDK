@@ -30,6 +30,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int ClipMask_TypeDefinitionIndex = 47731;
+
 	class ClipMask : public ::UnityEngine::UI::BaseMeshEffect
 	{
 	public:

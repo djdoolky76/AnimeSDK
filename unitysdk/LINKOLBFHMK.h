@@ -6,6 +6,8 @@ class FFJMOFNDDEH;
 #define LINKOLBFHMK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB6DAEF0)
 #define LINKOLBFHMK_CTOR_OFFSET UNITYSDK_OFFSET(0xB6DAFB0)
 
+inline static constexpr unsigned int LINKOLBFHMK_TypeDefinitionIndex = 80155;
+
 	class LINKOLBFHMK : public ::System::Object
 	{
 	public:

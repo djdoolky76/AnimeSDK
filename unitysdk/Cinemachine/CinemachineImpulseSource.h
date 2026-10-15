@@ -13,6 +13,8 @@ namespace Cinemachine { class CinemachineImpulseDefinition; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineImpulseSource_TypeDefinitionIndex = 39877;
+
 	class CinemachineImpulseSource : public ::UnityEngine::MonoBehaviour
 	{
 	public:

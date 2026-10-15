@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeRewindPathRuntime_TypeDefinitionIndex = 63766;
+
 	class TimeRewindPathRuntime : public ::System::Object
 	{
 	public:

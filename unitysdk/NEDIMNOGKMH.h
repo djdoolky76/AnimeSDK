@@ -14,6 +14,8 @@ namespace RPG::Client::NavMap { class IMapDataSource; }
 #define NEDIMNOGKMH_JHMILLPKGKF_OFFSET UNITYSDK_OFFSET(0xBB59680)
 #define NEDIMNOGKMH_NGAABAAOJBB_OFFSET UNITYSDK_OFFSET(0xBB591F0)
 
+inline static constexpr unsigned int NEDIMNOGKMH_TypeDefinitionIndex = 74573;
+
 	class NEDIMNOGKMH : public ::System::Object
 	{
 	public:

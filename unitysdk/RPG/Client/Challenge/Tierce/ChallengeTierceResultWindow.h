@@ -27,6 +27,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceResultWindow_TypeDefinitionIndex = 81540;
+
 	class ChallengeTierceResultWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:

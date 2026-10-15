@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MeshBound; }
 #define BKALIFMAGPM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D811170)
 #define BKALIFMAGPM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D810F30)
 
+inline static constexpr unsigned int BKALIFMAGPM_TypeDefinitionIndex = 16812;
+
 	class BKALIFMAGPM : public ::RPG::GameCore::JsonConfig
 	{
 	public:

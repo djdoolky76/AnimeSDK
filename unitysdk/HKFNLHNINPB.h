@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define HKFNLHNINPB_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x15D432C0)
 #define HKFNLHNINPB_SET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15D43690)
 
+inline static constexpr unsigned int HKFNLHNINPB_TypeDefinitionIndex = 74660;
+
 	class HKFNLHNINPB : public ::System::Object
 	{
 	public:

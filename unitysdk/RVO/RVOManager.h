@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RVO
 {
+	inline static constexpr unsigned int RVOManager_TypeDefinitionIndex = 46033;
+
 	class RVOManager : public ::System::Object
 	{
 	public:

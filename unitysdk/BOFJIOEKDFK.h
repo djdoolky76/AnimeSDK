@@ -36,6 +36,8 @@ namespace System { class String; }
 #define BOFJIOEKDFK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E03A770)
 #define BOFJIOEKDFK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E03A7D0)
 
+inline static constexpr unsigned int BOFJIOEKDFK_TypeDefinitionIndex = 28847;
+
 	class BOFJIOEKDFK : public ::System::Object
 	{
 	public:

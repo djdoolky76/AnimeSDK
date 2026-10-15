@@ -10,6 +10,8 @@ namespace RPG::Client::DiceCombat { class DiceCombatV2PvPTitleData; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2Util___c__DisplayClass23_0_TypeDefinitionIndex = 76180;
+
 	class DiceCombatV2Util___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:

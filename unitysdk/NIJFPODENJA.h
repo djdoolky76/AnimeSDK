@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define NIJFPODENJA_GCCAABJLGIG_OFFSET UNITYSDK_OFFSET(0xBBEDC80)
 #define NIJFPODENJA_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBBEDB20)
 
+inline static constexpr unsigned int NIJFPODENJA_TypeDefinitionIndex = 60179;
+
 	class NIJFPODENJA : public ::System::Object
 	{
 	public:

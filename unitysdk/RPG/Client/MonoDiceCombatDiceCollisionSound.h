@@ -9,6 +9,8 @@ namespace UnityEngine { class Collision; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoDiceCombatDiceCollisionSound_TypeDefinitionIndex = 63566;
+
 	class MonoDiceCombatDiceCollisionSound : public ::UnityEngine::MonoBehaviour
 	{
 	public:

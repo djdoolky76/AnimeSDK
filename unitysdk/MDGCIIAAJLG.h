@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define MDGCIIAAJLG_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C748B60)
 #define MDGCIIAAJLG_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C748AF0)
 
+inline static constexpr unsigned int MDGCIIAAJLG_TypeDefinitionIndex = 36249;
+
 	class MDGCIIAAJLG : public ::System::MulticastDelegate
 	{
 	public:

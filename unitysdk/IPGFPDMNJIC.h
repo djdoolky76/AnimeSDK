@@ -9,6 +9,8 @@ namespace RPG::GameCore { class BaseLittleGameAbilityValueGetterConfig; }
 #define IPGFPDMNJIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1651FD60)
 #define IPGFPDMNJIC_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1651F990)
 
+inline static constexpr unsigned int IPGFPDMNJIC_TypeDefinitionIndex = 77399;
+
 	class IPGFPDMNJIC : public ::System::Object
 	{
 	public:

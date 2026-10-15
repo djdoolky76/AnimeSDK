@@ -54,6 +54,8 @@ namespace UnityEngine::ProBuilder { class Face; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int Face_TypeDefinitionIndex = 44358;
+
 	class Face : public ::System::Object
 	{
 	public:

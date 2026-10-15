@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveImgDanmuService_TypeDefinitionIndex = 75350;
+
 	class IdleLiveImgDanmuService : public ::System::Object
 	{
 	public:

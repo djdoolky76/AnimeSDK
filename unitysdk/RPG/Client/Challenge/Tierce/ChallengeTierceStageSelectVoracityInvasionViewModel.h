@@ -17,6 +17,8 @@ namespace Sofa::Core { class SimpleCommand; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceStageSelectVoracityInvasionViewModel_TypeDefinitionIndex = 81625;
+
 	class ChallengeTierceStageSelectVoracityInvasionViewModel : public ::Sofa::Core::ObservableObject
 	{
 	public:

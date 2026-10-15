@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvEndIsometric; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvEndIsometric_TypeDefinitionIndex = 22209;
+
 	class AdvEndIsometric : public ::RPG::GameCore::TaskConfig
 	{
 	public:

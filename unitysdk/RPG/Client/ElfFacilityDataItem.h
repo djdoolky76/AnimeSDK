@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfFacilityDataItem_TypeDefinitionIndex = 63674;
+
 	class ElfFacilityDataItem : public ::System::Object
 	{
 	public:

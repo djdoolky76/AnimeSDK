@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 #define FHDPKNAAGAF_MNONPFEGMPH_OFFSET UNITYSDK_OFFSET(0x15777C20)
 #define FHDPKNAAGAF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15776650)
 
+inline static constexpr unsigned int FHDPKNAAGAF_TypeDefinitionIndex = 58196;
+
 	class FHDPKNAAGAF
 	{
 	public:

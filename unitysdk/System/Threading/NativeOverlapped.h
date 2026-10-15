@@ -3,6 +3,8 @@
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int NativeOverlapped_TypeDefinitionIndex = 876;
+
 	struct alignas(4) NativeOverlapped
 	{
 		::System::IntPtr InternalLow; // 0x10

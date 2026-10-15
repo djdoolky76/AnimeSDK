@@ -7,6 +7,8 @@ class IODILPDEMAF;
 #define IODILPDEMAF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF28E70)
 #define IODILPDEMAF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF28D50)
 
+inline static constexpr unsigned int IODILPDEMAF_TypeDefinitionIndex = 11570;
+
 	class IODILPDEMAF : public ::System::Object
 	{
 	public:

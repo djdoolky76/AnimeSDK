@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaitFloorTimer; }
 #define DKBOAAPAKGA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF254FC0)
 #define DKBOAAPAKGA_TICK_OFFSET UNITYSDK_OFFSET(0xF255010)
 
+inline static constexpr unsigned int DKBOAAPAKGA_TypeDefinitionIndex = 58890;
+
 	class DKBOAAPAKGA : public ::GELIALJDFBL
 	{
 	public:

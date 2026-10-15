@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PropStartFarmElement; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropStartFarmElement_TypeDefinitionIndex = 22088;
+
 	class PropStartFarmElement : public ::RPG::GameCore::TaskConfig
 	{
 	public:

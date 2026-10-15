@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::TextCore::LowLevel
 {
+	inline static constexpr unsigned int GlyphValueRecord_TypeDefinitionIndex = 5843;
+
 	struct alignas(4) GlyphValueRecord
 	{
 		::System::Single m_XPlacement; // 0x10

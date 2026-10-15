@@ -10,6 +10,8 @@ namespace RPG::Client { class LockTargetConfigList; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LockTargetConfigList_TypeDefinitionIndex = 10183;
+
 	class LockTargetConfigList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

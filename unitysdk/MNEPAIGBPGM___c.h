@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MNEPAIGBPGM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA94E30)
 #define MNEPAIGBPGM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EA94E40)
 
+inline static constexpr unsigned int MNEPAIGBPGM___c_TypeDefinitionIndex = 34016;
+
 	class MNEPAIGBPGM___c : public ::System::Object
 	{
 	public:

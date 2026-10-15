@@ -9,6 +9,8 @@ namespace System { class String; }
 #define CEBEOIBOBPA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0xE2950)
 #define CEBEOIBOBPA_TOSTRING_OFFSET UNITYSDK_OFFSET(0xE2940)
 
+inline static constexpr unsigned int CEBEOIBOBPA_TypeDefinitionIndex = 56169;
+
 	struct alignas(8) CEBEOIBOBPA
 	{
 		::System::String* NKBIJBOPLJD; // 0x10

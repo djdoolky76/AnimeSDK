@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define NAEEAOEHNAM_SET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0xBA95460)
 #define NAEEAOEHNAM_SET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0xBA95440)
 
+inline static constexpr unsigned int NAEEAOEHNAM_TypeDefinitionIndex = 53857;
+
 	class NAEEAOEHNAM : public ::System::Object
 	{
 	public:

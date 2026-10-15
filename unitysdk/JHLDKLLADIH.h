@@ -11,6 +11,8 @@ namespace System { class String; }
 #define JHLDKLLADIH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D031790)
 #define JHLDKLLADIH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D031260)
 
+inline static constexpr unsigned int JHLDKLLADIH_TypeDefinitionIndex = 11530;
+
 	class JHLDKLLADIH : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define PVSSTAGEGRDHANDLE_CTOR_OFFSET UNITYSDK_OFFSET(0xC39C660)
 
+inline static constexpr unsigned int PvsStageGrdHandle_TypeDefinitionIndex = 47401;
+
 	class PvsStageGrdHandle : public ::UnityEngine::MonoBehaviour
 	{
 	public:

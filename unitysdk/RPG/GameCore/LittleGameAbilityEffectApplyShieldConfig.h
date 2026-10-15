@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAbilityEffectApplyShieldConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityEffectApplyShieldConfig_TypeDefinitionIndex = 21340;
+
 	class LittleGameAbilityEffectApplyShieldConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:

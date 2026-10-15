@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriWareErrorHandler_Callback_TypeDefinitionIndex = 40144;
+
 	class CriWareErrorHandler_Callback : public ::System::MulticastDelegate
 	{
 	public:

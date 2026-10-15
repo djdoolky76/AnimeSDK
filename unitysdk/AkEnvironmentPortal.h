@@ -10,6 +10,8 @@ namespace UnityEngine { class BoxCollider; }
 #define AKENVIRONMENTPORTAL_GET_BOXCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1F58F910)
 #define AKENVIRONMENTPORTAL_GET_ENVIRONMENTSSHAREAUXBUS_OFFSET UNITYSDK_OFFSET(0x1F58F9C0)
 
+inline static constexpr unsigned int AkEnvironmentPortal_TypeDefinitionIndex = 44920;
+
 	class AkEnvironmentPortal : public ::UnityEngine::MonoBehaviour
 	{
 	public:

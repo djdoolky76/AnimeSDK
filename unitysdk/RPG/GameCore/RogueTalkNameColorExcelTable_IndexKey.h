@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTalkNameColorExcelTable_IndexKey_TypeDefinitionIndex = 14813;
+
 	struct alignas(4) RogueTalkNameColorExcelTable_IndexKey
 	{
 		::RPG::Client::TextID TextmapID; // 0x10

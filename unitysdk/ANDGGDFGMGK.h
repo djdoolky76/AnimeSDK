@@ -6,6 +6,8 @@ namespace RPG::GameCore { class FourRotateVoxelPortalConfig; }
 
 #define ANDGGDFGMGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C89E430)
 
+inline static constexpr unsigned int ANDGGDFGMGK_TypeDefinitionIndex = 43228;
+
 	class ANDGGDFGMGK : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PICDJHEPJLC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF42130)
 #define PICDJHEPJLC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF42190)
 
+inline static constexpr unsigned int PICDJHEPJLC_TypeDefinitionIndex = 26270;
+
 	class PICDJHEPJLC : public ::System::Object
 	{
 	public:

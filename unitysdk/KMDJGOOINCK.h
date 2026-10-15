@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define KMDJGOOINCK_MPDBEOPOOLL_OFFSET UNITYSDK_OFFSET(0xB544740)
 #define KMDJGOOINCK_NBJHOBAHHME_OFFSET UNITYSDK_OFFSET(0xB544170)
 
+inline static constexpr unsigned int KMDJGOOINCK_TypeDefinitionIndex = 73390;
+
 	class KMDJGOOINCK : public ::System::Object
 	{
 	public:

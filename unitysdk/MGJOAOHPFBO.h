@@ -70,6 +70,8 @@ namespace UnityEngine { class CapsuleCollider; }
 #define MGJOAOHPFBO_SET_NAVIGATESTOPONARRIVEFLAG_OFFSET UNITYSDK_OFFSET(0xB925840)
 #define MGJOAOHPFBO_SET_NAVIGATIONPOINT_OFFSET UNITYSDK_OFFSET(0xB9258A0)
 
+inline static constexpr unsigned int MGJOAOHPFBO_TypeDefinitionIndex = 68790;
+
 	class MGJOAOHPFBO : public ::System::Object
 	{
 	public:

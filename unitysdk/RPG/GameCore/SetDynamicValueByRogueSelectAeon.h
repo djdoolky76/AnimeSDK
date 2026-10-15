@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetDynamicValueByRogueSelectAeon; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByRogueSelectAeon_TypeDefinitionIndex = 21784;
+
 	class SetDynamicValueByRogueSelectAeon : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActReviveAvatarConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActReviveAvatarConfig_TypeDefinitionIndex = 19630;
+
 	class RogueActReviveAvatarConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

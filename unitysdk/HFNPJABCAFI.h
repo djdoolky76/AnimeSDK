@@ -21,6 +21,8 @@ namespace System { class Action; }
 #define HFNPJABCAFI_OOAIEKKHDBM_OFFSET UNITYSDK_OFFSET(0x15C8CDB0)
 #define HFNPJABCAFI_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x15C8CBB0)
 
+inline static constexpr unsigned int HFNPJABCAFI_TypeDefinitionIndex = 75957;
+
 	class HFNPJABCAFI : public ::System::Object
 	{
 	public:

@@ -34,6 +34,8 @@ namespace System { class String; }
 #define NOHKADAPKHE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB8AD80)
 #define NOHKADAPKHE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB8ADE0)
 
+inline static constexpr unsigned int NOHKADAPKHE_TypeDefinitionIndex = 30059;
+
 	class NOHKADAPKHE : public ::System::Object
 	{
 	public:

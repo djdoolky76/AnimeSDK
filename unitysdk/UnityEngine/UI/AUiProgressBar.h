@@ -12,6 +12,8 @@ namespace UnityEngine::UI { class SmoothMask; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int AUiProgressBar_TypeDefinitionIndex = 47729;
+
 	class AUiProgressBar : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

@@ -5,6 +5,8 @@
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int Dropdown_DropdownEvent_TypeDefinitionIndex = 6711;
+
 	class Dropdown_DropdownEvent
 	{
 	public:

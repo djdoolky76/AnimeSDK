@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define PKBDIJBDBOO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2F7380)
 
+inline static constexpr unsigned int PKBDIJBDBOO_TypeDefinitionIndex = 25019;
+
 	class PKBDIJBDBOO : public ::System::Attribute
 	{
 	public:

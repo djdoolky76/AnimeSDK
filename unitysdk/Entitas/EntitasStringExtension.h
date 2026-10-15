@@ -27,6 +27,8 @@ namespace System { class String; }
 
 namespace Entitas
 {
+	inline static constexpr unsigned int EntitasStringExtension_TypeDefinitionIndex = 10025;
+
 	class EntitasStringExtension : public ::System::Object
 	{
 	public:

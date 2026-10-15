@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginBGCurve_TypeDefinitionIndex = 70038;
+
 	class MonoEffectPluginBGCurve : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

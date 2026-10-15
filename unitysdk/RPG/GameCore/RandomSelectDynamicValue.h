@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RandomSelectDynamicValue_TypeDefinitionIndex = 22902;
+
 	class RandomSelectDynamicValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

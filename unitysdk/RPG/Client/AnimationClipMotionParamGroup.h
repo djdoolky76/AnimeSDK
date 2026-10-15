@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AnimationClipMotionParamGroup_TypeDefinitionIndex = 73255;
+
 	struct alignas(8) AnimationClipMotionParamGroup
 	{
 		::Il2CppArray<::RPG::Client::AnimationClipMotionParams>* MotionParams; // 0x10

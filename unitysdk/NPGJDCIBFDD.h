@@ -52,6 +52,8 @@ namespace System { class String; }
 #define NPGJDCIBFDD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB998B0)
 #define NPGJDCIBFDD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB99910)
 
+inline static constexpr unsigned int NPGJDCIBFDD_TypeDefinitionIndex = 34389;
+
 	class NPGJDCIBFDD : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace SRDebugger::Services
 {
+	inline static constexpr unsigned int BugReportProgressCallback_TypeDefinitionIndex = 38052;
+
 	class BugReportProgressCallback : public ::System::MulticastDelegate
 	{
 	public:

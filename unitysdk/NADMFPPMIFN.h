@@ -8,6 +8,8 @@ class NADMFPPMIFN;
 #define NADMFPPMIFN_CTOR_OFFSET UNITYSDK_OFFSET(0xBA56A60)
 #define NADMFPPMIFN_JOHPKPGOGHD_OFFSET UNITYSDK_OFFSET(0xBA569A0)
 
+inline static constexpr unsigned int NADMFPPMIFN_TypeDefinitionIndex = 78058;
+
 	class NADMFPPMIFN
 	{
 	public:

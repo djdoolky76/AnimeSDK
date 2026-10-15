@@ -10,6 +10,8 @@ namespace System::Net::NetworkInformation { class NetworkInterface; }
 
 namespace System::Net::NetworkInformation
 {
+	inline static constexpr unsigned int NetworkInterfaceFactory_LinuxNetworkInterfaceAPI_TypeDefinitionIndex = 2957;
+
 	class NetworkInterfaceFactory_LinuxNetworkInterfaceAPI : public ::System::Net::NetworkInformation::NetworkInterfaceFactory_UnixNetworkInterfaceAPI
 	{
 	public:

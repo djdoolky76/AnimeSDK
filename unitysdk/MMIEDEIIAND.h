@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MMIEDEIIAND_OOCGNGDBNNN_OFFSET UNITYSDK_OFFSET(0xB9CF000)
 #define MMIEDEIIAND_PGCJBDEHIHO_OFFSET UNITYSDK_OFFSET(0xB9D0000)
 
+inline static constexpr unsigned int MMIEDEIIAND_TypeDefinitionIndex = 81217;
+
 	class MMIEDEIIAND : public ::System::Object
 	{
 	public:

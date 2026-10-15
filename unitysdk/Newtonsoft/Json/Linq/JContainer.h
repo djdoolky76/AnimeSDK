@@ -72,6 +72,8 @@ namespace System::ComponentModel { class ListChangedEventHandler; }
 
 namespace Newtonsoft::Json::Linq
 {
+	inline static constexpr unsigned int JContainer_TypeDefinitionIndex = 9771;
+
 	class JContainer : public ::Newtonsoft::Json::Linq::JToken
 	{
 	public:

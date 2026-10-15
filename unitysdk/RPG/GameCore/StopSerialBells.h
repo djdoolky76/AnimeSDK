@@ -10,6 +10,8 @@ namespace RPG::GameCore { class StopSerialBells; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StopSerialBells_TypeDefinitionIndex = 20551;
+
 	class StopSerialBells : public ::RPG::GameCore::TaskConfig
 	{
 	public:

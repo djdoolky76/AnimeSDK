@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebDelegate_SetCookiesDelegate_TypeDefinitionIndex = 7847;
+
 	class WebDelegate_SetCookiesDelegate : public ::System::MulticastDelegate
 	{
 	public:

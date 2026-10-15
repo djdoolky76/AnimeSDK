@@ -28,6 +28,8 @@ namespace System { class String; }
 #define IACEIJKMLLN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E603050)
 #define IACEIJKMLLN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6030B0)
 
+inline static constexpr unsigned int IACEIJKMLLN_TypeDefinitionIndex = 27477;
+
 	class IACEIJKMLLN : public ::System::Object
 	{
 	public:

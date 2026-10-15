@@ -5,6 +5,8 @@
 #define EACFPDHBLNC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA307C0)
 #define EACFPDHBLNC_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1CA30770)
 
+inline static constexpr unsigned int EACFPDHBLNC_TypeDefinitionIndex = 42114;
+
 	class EACFPDHBLNC : public ::System::Object
 	{
 	public:

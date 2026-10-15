@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGCurve_FieldsTree_TypeDefinitionIndex = 35994;
+
 	class BGCurve_FieldsTree : public ::System::Object
 	{
 	public:

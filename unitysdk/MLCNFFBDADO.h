@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define MLCNFFBDADO_HMDEGMNIFGO_OFFSET UNITYSDK_OFFSET(0xB9A6DD0)
 #define MLCNFFBDADO_IICGHDNEBKN_OFFSET UNITYSDK_OFFSET(0xB9A6E80)
 
+inline static constexpr unsigned int MLCNFFBDADO_TypeDefinitionIndex = 60191;
+
 	class MLCNFFBDADO : public ::DGCLAKDAHDB
 	{
 	public:

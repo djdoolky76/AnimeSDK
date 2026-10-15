@@ -3,6 +3,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int JSONNodeType_TypeDefinitionIndex = 40666;
+
 	enum class JSONNodeType : ::System::Int32
 	{
 		Array = 1,

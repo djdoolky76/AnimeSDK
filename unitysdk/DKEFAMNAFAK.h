@@ -62,6 +62,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DKEFAMNAFAK_SET_TEAMTYPE_OFFSET UNITYSDK_OFFSET(0xF879EF0)
 #define DKEFAMNAFAK_SET_UNITPROFILERLIST_OFFSET UNITYSDK_OFFSET(0xF87A140)
 
+inline static constexpr unsigned int DKEFAMNAFAK_TypeDefinitionIndex = 61437;
+
 	class DKEFAMNAFAK : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define JKJAAHPMPIN_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xB21F250)
 #define JKJAAHPMPIN_SET_ID_OFFSET UNITYSDK_OFFSET(0xB21EEF0)
 
+inline static constexpr unsigned int JKJAAHPMPIN_TypeDefinitionIndex = 57012;
+
 	class JKJAAHPMPIN : public ::System::Object
 	{
 	public:

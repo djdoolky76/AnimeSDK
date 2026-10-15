@@ -10,6 +10,8 @@
 #define PEDHHCKCEMN_HFMPHCOPNLJ_OFFSET UNITYSDK_OFFSET(0x1C7ECC30)
 #define PEDHHCKCEMN_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1C7ECC90)
 
+inline static constexpr unsigned int PEDHHCKCEMN_TypeDefinitionIndex = 37248;
+
 	class PEDHHCKCEMN : public ::System::Object
 	{
 	public:

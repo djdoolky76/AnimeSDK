@@ -6,6 +6,8 @@ namespace RPG::Client { class CycleScore; }
 #define GAAJIDNDLPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15934040)
 #define GAAJIDNDLPJ_KNPLBKEBIHP_OFFSET UNITYSDK_OFFSET(0x15933FA0)
 
+inline static constexpr unsigned int GAAJIDNDLPJ_TypeDefinitionIndex = 63546;
+
 	class GAAJIDNDLPJ : public ::System::Object
 	{
 	public:

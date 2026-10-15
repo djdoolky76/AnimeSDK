@@ -7,6 +7,8 @@ namespace RPG::Client { class GridFightGameFormation; }
 #define BNNFEODFCLM_LBIHOLKGMIB_OFFSET UNITYSDK_OFFSET(0xBDDEED0)
 #define BNNFEODFCLM_NJKHGPCDAMI_OFFSET UNITYSDK_OFFSET(0xBDE1610)
 
+inline static constexpr unsigned int BNNFEODFCLM_TypeDefinitionIndex = 64624;
+
 	class BNNFEODFCLM : public ::System::Object
 	{
 	public:

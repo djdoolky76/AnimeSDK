@@ -9,6 +9,8 @@ namespace RPG::Client { class MonoValueEvaluateConfigure_FloatEvaluator; }
 #define JEALAGIGPFB_OBEPHMPPCGI_MLJDHPEOCLE_1_OFFSET UNITYSDK_OFFSET(0x16616AE0)
 #define JEALAGIGPFB_OBEPHMPPCGI_MLJDHPEOCLE_OFFSET UNITYSDK_OFFSET(0x166166A0)
 
+inline static constexpr unsigned int JEALAGIGPFB_OBEPHMPPCGI_TypeDefinitionIndex = 57431;
+
 	class JEALAGIGPFB_OBEPHMPPCGI
 	{
 	public:

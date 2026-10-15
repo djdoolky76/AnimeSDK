@@ -7,6 +7,8 @@ class OCCHJLMKMFL;
 #define LIAIOEBDNEE_EDGJFLBDEBJ_OFFSET UNITYSDK_OFFSET(0x1C73C750)
 #define LIAIOEBDNEE_HCCKBPDFINA_OFFSET UNITYSDK_OFFSET(0x1C73C6F0)
 
+inline static constexpr unsigned int LIAIOEBDNEE_TypeDefinitionIndex = 36948;
+
 	class LIAIOEBDNEE : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EraFlipperCommonConfig_TypeDefinitionIndex = 60504;
+
 	class EraFlipperCommonConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

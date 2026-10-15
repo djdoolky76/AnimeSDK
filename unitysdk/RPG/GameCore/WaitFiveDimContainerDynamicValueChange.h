@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitFiveDimContainerDynamicValueChange_TypeDefinitionIndex = 21438;
+
 	class WaitFiveDimContainerDynamicValueChange : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:

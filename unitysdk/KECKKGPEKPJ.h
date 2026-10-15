@@ -8,6 +8,8 @@ namespace RPG::GameCore { class SkillData; }
 #define KECKKGPEKPJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB3710D0)
 #define KECKKGPEKPJ_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB371010)
 
+inline static constexpr unsigned int KECKKGPEKPJ_TypeDefinitionIndex = 55380;
+
 	class KECKKGPEKPJ : public ::System::Object
 	{
 	public:

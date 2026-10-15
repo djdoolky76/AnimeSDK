@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EffectAdaptionConfig_TypeDefinitionIndex = 16507;
+
 	class EffectAdaptionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

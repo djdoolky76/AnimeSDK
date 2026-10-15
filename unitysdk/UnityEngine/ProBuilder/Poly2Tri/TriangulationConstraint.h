@@ -7,6 +7,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri { class TriangulationPoint; }
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
+	inline static constexpr unsigned int TriangulationConstraint_TypeDefinitionIndex = 38751;
+
 	class TriangulationConstraint : public ::System::Object
 	{
 	public:

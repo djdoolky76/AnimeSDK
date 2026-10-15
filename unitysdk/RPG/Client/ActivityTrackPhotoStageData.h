@@ -47,6 +47,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityTrackPhotoStageData_TypeDefinitionIndex = 62004;
+
 	class ActivityTrackPhotoStageData : public ::System::Object
 	{
 	public:

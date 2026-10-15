@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelGameShopStallLockDto_TypeDefinitionIndex = 63334;
+
 	class ChimeraDuelGameShopStallLockDto : public ::System::Object
 	{
 	public:

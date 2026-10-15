@@ -19,6 +19,8 @@ namespace RPG::Client { class MatchThreeGameProp; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeGameProp_TypeDefinitionIndex = 66030;
+
 	class MatchThreeGameProp : public ::System::Object
 	{
 	public:

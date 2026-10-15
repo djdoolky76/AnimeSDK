@@ -5,6 +5,8 @@
 
 #define OHPOBLOJCPL_CTOR_OFFSET UNITYSDK_OFFSET(0xBE75E00)
 
+inline static constexpr unsigned int OHPOBLOJCPL_TypeDefinitionIndex = 82055;
+
 	class OHPOBLOJCPL : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_LoadBufferVolumeLayer_TypeDefinitionIndex = 40610;
+
 	class HEU_LoadBufferVolumeLayer : public ::System::Object
 	{
 	public:

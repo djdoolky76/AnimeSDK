@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueWorkBenchFuncCollection___c__DisplayClass9_0_TypeDefinitionIndex = 67341;
+
 	class RogueWorkBenchFuncCollection___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

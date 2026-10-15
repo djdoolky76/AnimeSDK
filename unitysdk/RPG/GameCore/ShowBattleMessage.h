@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ShowBattleMessage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowBattleMessage_TypeDefinitionIndex = 22483;
+
 	class ShowBattleMessage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

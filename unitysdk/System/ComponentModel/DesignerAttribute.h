@@ -13,6 +13,8 @@ namespace System { class Type; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int DesignerAttribute_TypeDefinitionIndex = 2582;
+
 	class DesignerAttribute : public ::System::Attribute
 	{
 	public:

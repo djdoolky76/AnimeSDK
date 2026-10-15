@@ -10,6 +10,8 @@ class OBJANKHLNGO;
 #define NIHDBPHIPIM_START_OFFSET UNITYSDK_OFFSET(0xBBEBA90)
 #define NIHDBPHIPIM_STOP_OFFSET UNITYSDK_OFFSET(0xBBEBB20)
 
+inline static constexpr unsigned int NIHDBPHIPIM_TypeDefinitionIndex = 80725;
+
 	class NIHDBPHIPIM : public ::System::Object
 	{
 	public:

@@ -43,6 +43,8 @@ namespace System { class String; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int Slot_TypeDefinitionIndex = 39700;
+
 	class Slot : public ::System::Object
 	{
 	public:

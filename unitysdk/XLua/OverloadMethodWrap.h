@@ -22,6 +22,8 @@ namespace XLua { class ObjectTranslator; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int OverloadMethodWrap_TypeDefinitionIndex = 50214;
+
 	class OverloadMethodWrap : public ::System::Object
 	{
 	public:

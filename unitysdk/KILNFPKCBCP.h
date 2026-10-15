@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define KILNFPKCBCP_CTOR_OFFSET UNITYSDK_OFFSET(0xB435690)
 
+inline static constexpr unsigned int KILNFPKCBCP_TypeDefinitionIndex = 61872;
+
 	class KILNFPKCBCP : public ::System::Object
 	{
 	public:

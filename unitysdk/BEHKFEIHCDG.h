@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicString; }
 #define BEHKFEIHCDG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD011A0)
 #define BEHKFEIHCDG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD00F70)
 
+inline static constexpr unsigned int BEHKFEIHCDG_TypeDefinitionIndex = 22156;
+
 	class BEHKFEIHCDG : public ::RPG::GameCore::TaskConfig
 	{
 	public:

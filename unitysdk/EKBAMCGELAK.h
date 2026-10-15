@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define EKBAMCGELAK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD947C0)
 #define EKBAMCGELAK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD94770)
 
+inline static constexpr unsigned int EKBAMCGELAK_TypeDefinitionIndex = 24137;
+
 	class EKBAMCGELAK : public ::RPG::GameCore::TaskConfig
 	{
 	public:

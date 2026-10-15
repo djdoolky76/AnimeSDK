@@ -43,6 +43,8 @@ namespace System::Xml { class XmlQualifiedName; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int SchemaEntity_TypeDefinitionIndex = 2174;
+
 	class SchemaEntity : public ::System::Object
 	{
 	public:

@@ -46,6 +46,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIContextAssetLoader_TypeDefinitionIndex = 73030;
+
 	class UIContextAssetLoader : public ::System::Object
 	{
 	public:

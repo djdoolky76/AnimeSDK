@@ -29,6 +29,8 @@ namespace System { class String; }
 #define INGKNDHECNF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6C1690)
 #define INGKNDHECNF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6C16F0)
 
+inline static constexpr unsigned int INGKNDHECNF_TypeDefinitionIndex = 31177;
+
 	class INGKNDHECNF : public ::System::Object
 	{
 	public:

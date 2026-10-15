@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OverrideAdventureCharacterTiltConfig_TypeDefinitionIndex = 20521;
+
 	class OverrideAdventureCharacterTiltConfig : public ::RPG::GameCore::TaskConfig
 	{
 	public:

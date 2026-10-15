@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKDelegate_GetNetworkTypeDelegate_TypeDefinitionIndex = 7793;
+
 	class SDKDelegate_GetNetworkTypeDelegate : public ::System::MulticastDelegate
 	{
 	public:

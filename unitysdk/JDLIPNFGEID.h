@@ -29,6 +29,8 @@ namespace System { class String; }
 #define JDLIPNFGEID_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E70D760)
 #define JDLIPNFGEID_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E70D7C0)
 
+inline static constexpr unsigned int JDLIPNFGEID_TypeDefinitionIndex = 34992;
+
 	class JDLIPNFGEID : public ::System::Object
 	{
 	public:

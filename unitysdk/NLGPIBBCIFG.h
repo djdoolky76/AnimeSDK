@@ -7,6 +7,8 @@ class CAHLPKGIABH;
 #define NLGPIBBCIFG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C79CC00)
 #define NLGPIBBCIFG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C79CC50)
 
+inline static constexpr unsigned int NLGPIBBCIFG_TypeDefinitionIndex = 36835;
+
 	class NLGPIBBCIFG : public ::System::Object
 	{
 	public:

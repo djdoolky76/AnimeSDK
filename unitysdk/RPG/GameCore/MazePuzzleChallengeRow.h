@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MazePuzzleChallengeRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MazePuzzleChallengeRow_TypeDefinitionIndex = 14033;
+
 	class MazePuzzleChallengeRow : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client::CityCarFlow
 {
+	inline static constexpr unsigned int MonoCityCarFlowIntersection_Lane_TypeDefinitionIndex = 82228;
+
 	class MonoCityCarFlowIntersection_Lane : public ::System::Object
 	{
 	public:

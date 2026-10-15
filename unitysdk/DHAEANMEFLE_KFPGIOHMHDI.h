@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define DHAEANMEFLE_KFPGIOHMHDI_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xE85D660)
 #define DHAEANMEFLE_KFPGIOHMHDI_INVOKE_OFFSET UNITYSDK_OFFSET(0xE85D620)
 
+inline static constexpr unsigned int DHAEANMEFLE_KFPGIOHMHDI_TypeDefinitionIndex = 60815;
+
 	class DHAEANMEFLE_KFPGIOHMHDI : public ::System::MulticastDelegate
 	{
 	public:

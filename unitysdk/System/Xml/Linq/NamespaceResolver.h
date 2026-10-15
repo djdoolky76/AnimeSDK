@@ -12,6 +12,8 @@ namespace System::Xml::Linq { class XNamespace; }
 
 namespace System::Xml::Linq
 {
+	inline static constexpr unsigned int NamespaceResolver_TypeDefinitionIndex = 3899;
+
 	struct alignas(8) NamespaceResolver
 	{
 		::System::Int32 scope; // 0x10

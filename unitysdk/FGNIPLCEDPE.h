@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FGNIPLCEDPE_SET_MESHCONFIG_OFFSET UNITYSDK_OFFSET(0x94C0)
 #define FGNIPLCEDPE_SET_PARTTYPE_OFFSET UNITYSDK_OFFSET(0xAF40)
 
+inline static constexpr unsigned int FGNIPLCEDPE_TypeDefinitionIndex = 79753;
+
 	struct alignas(8) FGNIPLCEDPE
 	{
 		::RPG::Client::MechCraft::MechCraftPartType _PartType_k__BackingField; // 0x10

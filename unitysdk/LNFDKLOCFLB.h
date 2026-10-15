@@ -6,6 +6,8 @@ namespace UnityEngine { class Camera; }
 
 #define LNFDKLOCFLB_HOGBJMPBIFA_OFFSET UNITYSDK_OFFSET(0xB7DD140)
 
+inline static constexpr unsigned int LNFDKLOCFLB_TypeDefinitionIndex = 69609;
+
 	class LNFDKLOCFLB : public ::System::Object
 	{
 	public:

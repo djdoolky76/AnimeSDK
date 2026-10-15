@@ -7,6 +7,8 @@ class JNJKCEIJENA;
 #define JNJKCEIJENA___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB287A50)
 #define JNJKCEIJENA___C__DISPLAYCLASS9_0___CREATETRIGGER_B__0_OFFSET UNITYSDK_OFFSET(0xB288CC0)
 
+inline static constexpr unsigned int JNJKCEIJENA___c__DisplayClass9_0_TypeDefinitionIndex = 77142;
+
 	class JNJKCEIJENA___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

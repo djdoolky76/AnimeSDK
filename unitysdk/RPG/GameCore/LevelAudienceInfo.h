@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelAudienceMemberInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelAudienceInfo_TypeDefinitionIndex = 17328;
+
 	class LevelAudienceInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{
 	public:

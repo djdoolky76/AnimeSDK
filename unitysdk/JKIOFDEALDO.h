@@ -14,6 +14,8 @@ namespace System { template <typename T> class Func_1; }
 #define JKIOFDEALDO_GOCDJDMPGDJ_OFFSET UNITYSDK_OFFSET(0xB21EBE0)
 #define JKIOFDEALDO_HPKFNNOMCNA_OFFSET UNITYSDK_OFFSET(0xB21E8E0)
 
+inline static constexpr unsigned int JKIOFDEALDO_TypeDefinitionIndex = 78881;
+
 	class JKIOFDEALDO : public ::ALAIBAJCPOO
 	{
 	public:

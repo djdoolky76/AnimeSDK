@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IGJGEAGKDDP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6D54F0)
 #define IGJGEAGKDDP_EEFMMMJEBJG_OFFSET UNITYSDK_OFFSET(0x1C6D53F0)
 
+inline static constexpr unsigned int IGJGEAGKDDP_TypeDefinitionIndex = 37368;
+
 	class IGJGEAGKDDP : public ::System::Object
 	{
 	public:

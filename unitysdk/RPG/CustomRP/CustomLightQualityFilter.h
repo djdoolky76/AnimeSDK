@@ -3,6 +3,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CustomLightQualityFilter_TypeDefinitionIndex = 37704;
+
 	enum class CustomLightQualityFilter : ::System::Int32
 	{
 		Low = 1,

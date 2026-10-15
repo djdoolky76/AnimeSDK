@@ -15,6 +15,8 @@
 
 namespace UnityEngine::AI
 {
+	inline static constexpr unsigned int NavMeshLinkData_TypeDefinitionIndex = 5655;
+
 	struct alignas(4) NavMeshLinkData
 	{
 		::UnityEngine::Vector3 m_StartPosition; // 0x10

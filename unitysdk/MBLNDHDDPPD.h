@@ -58,6 +58,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MBLNDHDDPPD__EVALUATE_COMPLEXSKILLAICONTAINMODIFIERLAYER_G__GETLAYER_17_0_OFFSET UNITYSDK_OFFSET(0xB866D20)
 #define MBLNDHDDPPD__EVALUATE_COMPLEXSKILLAISOURCEMODIFIERVALUE_G__GETMODIFIERVALUE_18_0_OFFSET UNITYSDK_OFFSET(0xB8670C0)
 
+inline static constexpr unsigned int MBLNDHDDPPD_TypeDefinitionIndex = 54353;
+
 	class MBLNDHDDPPD : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 #define MDLLFPAKHBL_FGFILICHKOH_OFFSET UNITYSDK_OFFSET(0xB8AD960)
 #define MDLLFPAKHBL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB8AD8A0)
 
+inline static constexpr unsigned int MDLLFPAKHBL_TypeDefinitionIndex = 66663;
+
 	class MDLLFPAKHBL : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

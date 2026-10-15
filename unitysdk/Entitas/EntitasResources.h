@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace Entitas
 {
+	inline static constexpr unsigned int EntitasResources_TypeDefinitionIndex = 10003;
+
 	class EntitasResources : public ::System::Object
 	{
 	public:

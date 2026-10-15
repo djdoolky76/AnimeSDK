@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define DHGNBCEBBKC___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEBD4110)
 #define DHGNBCEBBKC___C__SYNCMOTIONINFO_B__3_1_OFFSET UNITYSDK_OFFSET(0xEBD4120)
 
+inline static constexpr unsigned int DHGNBCEBBKC___c_TypeDefinitionIndex = 66388;
+
 	class DHGNBCEBBKC___c : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ class NMNGHKMHDOK;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntityRevive_TypeDefinitionIndex = 56681;
+
 	class EntityRevive : public ::System::Object
 	{
 	public:

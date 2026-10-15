@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ReadMessageThread_MsgDispatcher_TypeDefinitionIndex = 37911;
+
 	class ReadMessageThread_MsgDispatcher : public ::System::Object
 	{
 	public:

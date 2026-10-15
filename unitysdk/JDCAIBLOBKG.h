@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define JDCAIBLOBKG_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C6F4600)
 #define JDCAIBLOBKG_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C6F4550)
 
+inline static constexpr unsigned int JDCAIBLOBKG_TypeDefinitionIndex = 36236;
+
 	class JDCAIBLOBKG : public ::System::MulticastDelegate
 	{
 	public:

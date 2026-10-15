@@ -5,6 +5,8 @@
 #define KJDOCHFMDIJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB447240)
 #define KJDOCHFMDIJ_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xB447250)
 
+inline static constexpr unsigned int KJDOCHFMDIJ_TypeDefinitionIndex = 74843;
+
 	class KJDOCHFMDIJ : public ::IAJLELNJPEA
 	{
 	public:

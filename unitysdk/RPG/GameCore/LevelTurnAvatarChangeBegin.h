@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelTurnAvatarChangeBegin_TypeDefinitionIndex = 56714;
+
 	class LevelTurnAvatarChangeBegin : public ::System::Object
 	{
 	public:

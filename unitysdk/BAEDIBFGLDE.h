@@ -34,6 +34,8 @@ namespace System { class String; }
 #define BAEDIBFGLDE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7B1750)
 #define BAEDIBFGLDE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7B17B0)
 
+inline static constexpr unsigned int BAEDIBFGLDE_TypeDefinitionIndex = 28005;
+
 	class BAEDIBFGLDE : public ::System::Object
 	{
 	public:

@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int GameplayWaveRenderer_WaveLayer_TypeDefinitionIndex = 47312;
+
 	struct alignas(4) GameplayWaveRenderer_WaveLayer
 	{
 		::System::Single amplitude; // 0x10

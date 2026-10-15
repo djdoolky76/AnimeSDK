@@ -9,6 +9,8 @@ namespace System::IO { class Stream; }
 
 namespace MiHoYo::SDK::HttpDns
 {
+	inline static constexpr unsigned int HoYoSDKHttpWebResponse___c__DisplayClass4_0_TypeDefinitionIndex = 46700;
+
 	class HoYoSDKHttpWebResponse___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

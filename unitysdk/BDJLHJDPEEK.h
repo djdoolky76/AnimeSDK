@@ -34,6 +34,8 @@ namespace System { class String; }
 #define BDJLHJDPEEK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E918150)
 #define BDJLHJDPEEK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9181B0)
 
+inline static constexpr unsigned int BDJLHJDPEEK_TypeDefinitionIndex = 33036;
+
 	class BDJLHJDPEEK : public ::System::Object
 	{
 	public:

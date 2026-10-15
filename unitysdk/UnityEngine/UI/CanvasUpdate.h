@@ -3,6 +3,8 @@
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int CanvasUpdate_TypeDefinitionIndex = 6694;
+
 	enum class CanvasUpdate : ::System::Int32
 	{
 		Prelayout = 0,

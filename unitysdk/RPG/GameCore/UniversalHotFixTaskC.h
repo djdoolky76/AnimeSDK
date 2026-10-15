@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UniversalHotFixTaskC; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UniversalHotFixTaskC_TypeDefinitionIndex = 23360;
+
 	class UniversalHotFixTaskC : public ::RPG::GameCore::UniversalHotFixBaseTask
 	{
 	public:

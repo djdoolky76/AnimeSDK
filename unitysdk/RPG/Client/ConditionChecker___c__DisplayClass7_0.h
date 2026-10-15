@@ -9,6 +9,8 @@ namespace RPG::Client::Promises { class Promise; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ConditionChecker___c__DisplayClass7_0_TypeDefinitionIndex = 59900;
+
 	class ConditionChecker___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

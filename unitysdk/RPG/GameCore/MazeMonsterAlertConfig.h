@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MazeMonsterAlertConfig_TypeDefinitionIndex = 16399;
+
 	class MazeMonsterAlertConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

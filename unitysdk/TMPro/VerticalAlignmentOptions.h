@@ -3,6 +3,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int VerticalAlignmentOptions_TypeDefinitionIndex = 44646;
+
 	enum class VerticalAlignmentOptions : ::System::Int32
 	{
 		Top = 256,

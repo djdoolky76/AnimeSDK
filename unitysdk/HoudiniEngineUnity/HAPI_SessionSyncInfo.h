@@ -3,6 +3,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HAPI_SessionSyncInfo_TypeDefinitionIndex = 40522;
+
 	struct alignas(4) HAPI_SessionSyncInfo
 	{
 		::System::Boolean cookUsingHoudiniTime; // 0x10

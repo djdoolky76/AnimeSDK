@@ -31,6 +31,8 @@ namespace System { class String; }
 #define PNMLKLLEEFE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFBE900)
 #define PNMLKLLEEFE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFBE960)
 
+inline static constexpr unsigned int PNMLKLLEEFE_TypeDefinitionIndex = 34609;
+
 	class PNMLKLLEEFE : public ::System::Object
 	{
 	public:

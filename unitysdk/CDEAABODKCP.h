@@ -39,6 +39,8 @@ namespace System { class String; }
 #define CDEAABODKCP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0841C0)
 #define CDEAABODKCP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E084220)
 
+inline static constexpr unsigned int CDEAABODKCP_TypeDefinitionIndex = 29135;
+
 	class CDEAABODKCP : public ::System::Object
 	{
 	public:

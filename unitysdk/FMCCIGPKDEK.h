@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FMCCIGPKDEK_PHJELNCJEKL_OFFSET UNITYSDK_OFFSET(0x1584D1B0)
 #define FMCCIGPKDEK_TICK_OFFSET UNITYSDK_OFFSET(0x1584CF90)
 
+inline static constexpr unsigned int FMCCIGPKDEK_TypeDefinitionIndex = 53561;
+
 	class FMCCIGPKDEK : public ::System::Object
 	{
 	public:

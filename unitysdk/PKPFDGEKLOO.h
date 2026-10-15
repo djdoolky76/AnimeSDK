@@ -32,6 +32,8 @@ namespace System { class String; }
 #define PKPFDGEKLOO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF97320)
 #define PKPFDGEKLOO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF97380)
 
+inline static constexpr unsigned int PKPFDGEKLOO_TypeDefinitionIndex = 26699;
+
 	class PKPFDGEKLOO : public ::System::Object
 	{
 	public:

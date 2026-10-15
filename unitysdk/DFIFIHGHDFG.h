@@ -10,6 +10,8 @@ namespace System { class String; }
 #define DFIFIHGHDFG_JGGJOFDPBEC_OFFSET UNITYSDK_OFFSET(0xE82EB80)
 #define DFIFIHGHDFG_PGIBIIAJNKJ_OFFSET UNITYSDK_OFFSET(0xE82E890)
 
+inline static constexpr unsigned int DFIFIHGHDFG_TypeDefinitionIndex = 47411;
+
 	class DFIFIHGHDFG : public ::System::Object
 	{
 	public:

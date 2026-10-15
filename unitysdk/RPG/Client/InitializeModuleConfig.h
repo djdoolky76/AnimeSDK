@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int InitializeModuleConfig_TypeDefinitionIndex = 69681;
+
 	class InitializeModuleConfig : public ::RPG::Client::CameraModuleConfigBase
 	{
 	public:

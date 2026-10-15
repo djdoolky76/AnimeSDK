@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarbleMatchController_MarbleSubSealAnchor_TypeDefinitionIndex = 75970;
+
 	class MarbleMatchController_MarbleSubSealAnchor : public ::System::Object
 	{
 	public:

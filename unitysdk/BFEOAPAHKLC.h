@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BFEOAPAHKLC_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB161D10)
 #define BFEOAPAHKLC_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xB161DA0)
 
+inline static constexpr unsigned int BFEOAPAHKLC_TypeDefinitionIndex = 66979;
+
 	class BFEOAPAHKLC : public ::System::Object
 	{
 	public:

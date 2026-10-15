@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RenderTextureCreationFlags_TypeDefinitionIndex = 4176;
+
 	enum class RenderTextureCreationFlags : ::System::Int32
 	{
 		MipMap = 1,

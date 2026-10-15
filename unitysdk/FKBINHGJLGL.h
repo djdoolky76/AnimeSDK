@@ -28,6 +28,8 @@ namespace System { class String; }
 #define FKBINHGJLGL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3A91F0)
 #define FKBINHGJLGL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3A9250)
 
+inline static constexpr unsigned int FKBINHGJLGL_TypeDefinitionIndex = 32712;
+
 	class FKBINHGJLGL : public ::System::Object
 	{
 	public:

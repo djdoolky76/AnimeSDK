@@ -9,6 +9,8 @@ namespace RPG::GameCore { class NounAtlasChangelnfoRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NounAtlasChangelnfoRow_TypeDefinitionIndex = 12696;
+
 	class NounAtlasChangelnfoRow : public ::System::Object
 	{
 	public:

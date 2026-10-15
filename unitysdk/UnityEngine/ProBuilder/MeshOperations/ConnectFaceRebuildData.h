@@ -8,6 +8,8 @@ namespace UnityEngine::ProBuilder { class FaceRebuildData; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int ConnectFaceRebuildData_TypeDefinitionIndex = 44484;
+
 	class ConnectFaceRebuildData : public ::System::Object
 	{
 	public:

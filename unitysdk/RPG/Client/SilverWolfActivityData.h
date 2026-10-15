@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SilverWolfActivityData_TypeDefinitionIndex = 61662;
+
 	class SilverWolfActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

@@ -19,6 +19,8 @@ namespace RPG::GameCore { class RelicConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayerReturnRelicItemData_TypeDefinitionIndex = 61883;
+
 	class PlayerReturnRelicItemData : public ::RPG::Client::ItemData
 	{
 	public:

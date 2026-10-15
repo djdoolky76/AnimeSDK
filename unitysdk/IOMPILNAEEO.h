@@ -29,6 +29,8 @@ namespace System { class String; }
 #define IOMPILNAEEO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6D9DF0)
 #define IOMPILNAEEO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6D9E50)
 
+inline static constexpr unsigned int IOMPILNAEEO_TypeDefinitionIndex = 25673;
+
 	class IOMPILNAEEO : public ::System::Object
 	{
 	public:

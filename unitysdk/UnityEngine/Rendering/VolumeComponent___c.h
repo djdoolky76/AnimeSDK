@@ -12,6 +12,8 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int VolumeComponent___c_TypeDefinitionIndex = 35618;
+
 	class VolumeComponent___c : public ::System::Object
 	{
 	public:

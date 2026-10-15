@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActivityAvatarDeliverRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityAvatarDeliverRow_TypeDefinitionIndex = 10942;
+
 	class ActivityAvatarDeliverRow : public ::System::Object
 	{
 	public:

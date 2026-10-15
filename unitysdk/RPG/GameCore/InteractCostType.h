@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InteractCostType_TypeDefinitionIndex = 13825;
+
 	enum class InteractCostType : ::System::Int32
 	{
 		None = 0,

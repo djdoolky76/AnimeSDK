@@ -24,6 +24,8 @@ namespace UnityEngine::UI { class CaculateNodeData; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int CaculateNodeData_TypeDefinitionIndex = 6752;
+
 	class CaculateNodeData : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define EJLHBEGHAME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD910E0)
 #define EJLHBEGHAME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD910A0)
 
+inline static constexpr unsigned int EJLHBEGHAME_TypeDefinitionIndex = 22854;
+
 	class EJLHBEGHAME : public ::RPG::GameCore::TaskConfig
 	{
 	public:

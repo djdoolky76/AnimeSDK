@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGamePresetConfigs; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGamePresetConfigs_TypeDefinitionIndex = 18921;
+
 	class LittleGamePresetConfigs : public ::RPG::GameCore::JsonConfig
 	{
 	public:

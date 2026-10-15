@@ -8,6 +8,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define BINHGGDFBJE___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB78BD60)
 #define BINHGGDFBJE___C__DISPLAYCLASS23_0__GETNEEDDOWNLOADSIZEFORWHITELIST_B__2_OFFSET UNITYSDK_OFFSET(0xB793FF0)
 
+inline static constexpr unsigned int BINHGGDFBJE___c__DisplayClass23_0_TypeDefinitionIndex = 59621;
+
 	class BINHGGDFBJE___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:

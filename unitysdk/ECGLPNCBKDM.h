@@ -92,6 +92,8 @@ namespace System { class String; }
 #define ECGLPNCBKDM_PCKEJOJIOOM_OFFSET UNITYSDK_OFFSET(0x3C37460)
 #define ECGLPNCBKDM_PEKPOFCLOIA_OFFSET UNITYSDK_OFFSET(0x3C37B90)
 
+inline static constexpr unsigned int ECGLPNCBKDM_TypeDefinitionIndex = 10691;
+
 	struct alignas(8) ECGLPNCBKDM
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

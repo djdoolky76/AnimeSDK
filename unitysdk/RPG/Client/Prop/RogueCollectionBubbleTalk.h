@@ -15,6 +15,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int RogueCollectionBubbleTalk_TypeDefinitionIndex = 78947;
+
 	class RogueCollectionBubbleTalk : public ::UnityEngine::MonoBehaviour
 	{
 	public:

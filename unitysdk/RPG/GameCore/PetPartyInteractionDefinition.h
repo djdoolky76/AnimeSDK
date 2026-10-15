@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PetPartyInteractionDefinition_TypeDefinitionIndex = 17552;
+
 	class PetPartyInteractionDefinition : public ::RPG::GameCore::JsonConfig
 	{
 	public:

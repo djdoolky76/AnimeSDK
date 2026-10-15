@@ -4,6 +4,8 @@
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int CarControlConfig_1_TypeDefinitionIndex = 75819;
+
 	template <typename T>
 	class CarControlConfig_1 : public ::System::Object
 	{

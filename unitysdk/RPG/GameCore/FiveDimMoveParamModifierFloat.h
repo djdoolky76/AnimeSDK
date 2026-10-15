@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimMoveParamModifierFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimMoveParamModifierFloat_TypeDefinitionIndex = 18551;
+
 	class FiveDimMoveParamModifierFloat : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

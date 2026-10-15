@@ -51,6 +51,8 @@ namespace System::Net { class Comparer; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int Cookie_TypeDefinitionIndex = 2794;
+
 	class Cookie : public ::System::Object
 	{
 	public:

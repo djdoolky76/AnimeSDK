@@ -34,6 +34,8 @@ namespace System { class String; }
 #define NPLMMCGAJDF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB9E020)
 #define NPLMMCGAJDF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB9E080)
 
+inline static constexpr unsigned int NPLMMCGAJDF_TypeDefinitionIndex = 28817;
+
 	class NPLMMCGAJDF : public ::System::Object
 	{
 	public:

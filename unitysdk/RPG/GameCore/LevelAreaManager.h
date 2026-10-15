@@ -69,6 +69,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelAreaManager_TypeDefinitionIndex = 57840;
+
 	class LevelAreaManager : public ::System::Object
 	{
 	public:

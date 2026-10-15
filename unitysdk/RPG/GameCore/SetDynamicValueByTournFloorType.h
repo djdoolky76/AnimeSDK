@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByTournFloorType_TypeDefinitionIndex = 23110;
+
 	class SetDynamicValueByTournFloorType : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

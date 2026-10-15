@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyQueryOptionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyQueryOptionConfig_TypeDefinitionIndex = 17957;
+
 	class RogueModifierModifyQueryOptionConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

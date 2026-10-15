@@ -4,6 +4,8 @@
 
 #define DBINPFBDKFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDA2F90)
 
+inline static constexpr unsigned int DBINPFBDKFL_TypeDefinitionIndex = 43954;
+
 	class DBINPFBDKFL : public ::System::Object
 	{
 	public:

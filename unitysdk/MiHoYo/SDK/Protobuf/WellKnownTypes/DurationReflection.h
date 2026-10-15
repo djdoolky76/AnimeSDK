@@ -8,6 +8,8 @@ namespace MiHoYo::SDK::Protobuf::Reflection { class FileDescriptor; }
 
 namespace MiHoYo::SDK::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int DurationReflection_TypeDefinitionIndex = 35739;
+
 	class DurationReflection : public ::System::Object
 	{
 	public:

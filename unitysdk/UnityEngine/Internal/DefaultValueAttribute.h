@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Internal
 {
+	inline static constexpr unsigned int DefaultValueAttribute_TypeDefinitionIndex = 4685;
+
 	class DefaultValueAttribute : public ::System::Attribute
 	{
 	public:

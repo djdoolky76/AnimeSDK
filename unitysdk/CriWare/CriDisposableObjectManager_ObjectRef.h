@@ -8,6 +8,8 @@ namespace CriWare { class CriDisposable; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriDisposableObjectManager_ObjectRef_TypeDefinitionIndex = 40198;
+
 	struct alignas(8) CriDisposableObjectManager_ObjectRef
 	{
 		::System::Guid guid; // 0x10

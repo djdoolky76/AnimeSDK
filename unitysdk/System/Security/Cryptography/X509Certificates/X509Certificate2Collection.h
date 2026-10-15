@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::Security::Cryptography::X509Certificates
 {
+	inline static constexpr unsigned int X509Certificate2Collection_TypeDefinitionIndex = 2693;
+
 	class X509Certificate2Collection : public ::System::Security::Cryptography::X509Certificates::X509CertificateCollection
 	{
 	public:

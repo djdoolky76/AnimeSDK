@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HHGNCBKMHLC_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x15CCC650)
 #define HHGNCBKMHLC_KLDPIEICGEA_OFFSET UNITYSDK_OFFSET(0x15CCC740)
 
+inline static constexpr unsigned int HHGNCBKMHLC_TypeDefinitionIndex = 62442;
+
 	class HHGNCBKMHLC : public ::System::Object
 	{
 	public:

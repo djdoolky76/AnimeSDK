@@ -29,6 +29,8 @@ namespace System { class String; }
 #define NEBJABOEDND_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAEF7D0)
 #define NEBJABOEDND_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAEF830)
 
+inline static constexpr unsigned int NEBJABOEDND_TypeDefinitionIndex = 27551;
+
 	class NEBJABOEDND : public ::System::Object
 	{
 	public:

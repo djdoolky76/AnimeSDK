@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TutorialSave; }
 #define DBFLEKILPNO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xDFE0C70)
 #define DBFLEKILPNO_TICK_OFFSET UNITYSDK_OFFSET(0xDFE0CC0)
 
+inline static constexpr unsigned int DBFLEKILPNO_TypeDefinitionIndex = 58828;
+
 	class DBFLEKILPNO : public ::GELIALJDFBL
 	{
 	public:

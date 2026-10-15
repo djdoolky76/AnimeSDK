@@ -30,6 +30,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhotoGraphGiantTargetDebugDraw_TypeDefinitionIndex = 60915;
+
 	class PhotoGraphGiantTargetDebugDraw : public ::UnityEngine::MonoBehaviour
 	{
 	public:

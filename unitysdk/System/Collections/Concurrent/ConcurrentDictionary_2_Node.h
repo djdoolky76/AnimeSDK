@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace System::Collections::Concurrent
 {
+	inline static constexpr unsigned int ConcurrentDictionary_2_Node_TypeDefinitionIndex = 1516;
+
 	template <typename T1, typename T2>
 	class ConcurrentDictionary_2_Node : public ::System::Object
 	{

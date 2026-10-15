@@ -5,6 +5,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomEx_SpeakerAngles6ch_TypeDefinitionIndex = 39962;
+
 	struct alignas(4) CriAtomEx_SpeakerAngles6ch
 	{
 		::System::Single frontLeft; // 0x10

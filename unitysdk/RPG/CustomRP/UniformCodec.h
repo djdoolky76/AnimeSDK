@@ -9,6 +9,8 @@ namespace System { class Type; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int UniformCodec_TypeDefinitionIndex = 37755;
+
 	class UniformCodec : public ::System::Object
 	{
 	public:

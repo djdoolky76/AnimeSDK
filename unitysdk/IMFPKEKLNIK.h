@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define IMFPKEKLNIK_PAEHKHNCNNA_OFFSET UNITYSDK_OFFSET(0x164D3B40)
 #define IMFPKEKLNIK_PJCOENMKGLK_OFFSET UNITYSDK_OFFSET(0x164D3AB0)
 
+inline static constexpr unsigned int IMFPKEKLNIK_TypeDefinitionIndex = 60890;
+
 	class IMFPKEKLNIK : public ::System::Object
 	{
 	public:

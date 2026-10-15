@@ -8,6 +8,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 #define FKCDGDPMKMN_CTOR_OFFSET UNITYSDK_OFFSET(0x157E7000)
 #define FKCDGDPMKMN_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x157E6FA0)
 
+inline static constexpr unsigned int FKCDGDPMKMN_TypeDefinitionIndex = 49552;
+
 	class FKCDGDPMKMN : public ::System::Object
 	{
 	public:

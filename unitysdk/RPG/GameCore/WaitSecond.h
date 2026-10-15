@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitSecond; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitSecond_TypeDefinitionIndex = 23785;
+
 	class WaitSecond : public ::RPG::GameCore::TaskConfig
 	{
 	public:

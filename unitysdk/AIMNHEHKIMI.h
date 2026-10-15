@@ -36,6 +36,8 @@ namespace System { class String; }
 #define AIMNHEHKIMI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E27FB60)
 #define AIMNHEHKIMI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E27FBC0)
 
+inline static constexpr unsigned int AIMNHEHKIMI_TypeDefinitionIndex = 31812;
+
 	class AIMNHEHKIMI : public ::System::Object
 	{
 	public:

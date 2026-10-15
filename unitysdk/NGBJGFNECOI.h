@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NGBJGFNECOI_CTOR_OFFSET UNITYSDK_OFFSET(0xBBA1D00)
 #define NGBJGFNECOI_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBBA1D30)
 
+inline static constexpr unsigned int NGBJGFNECOI_TypeDefinitionIndex = 52567;
+
 	class NGBJGFNECOI
 	{
 	public:

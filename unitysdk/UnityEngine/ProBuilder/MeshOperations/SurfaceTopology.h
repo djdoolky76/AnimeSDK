@@ -29,6 +29,8 @@ namespace UnityEngine::ProBuilder { class WingedEdge; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int SurfaceTopology_TypeDefinitionIndex = 44514;
+
 	class SurfaceTopology : public ::System::Object
 	{
 	public:

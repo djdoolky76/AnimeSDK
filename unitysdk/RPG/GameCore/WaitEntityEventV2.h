@@ -13,6 +13,8 @@ namespace RPG::GameCore { class WaitEntityEventV2; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitEntityEventV2_TypeDefinitionIndex = 20722;
+
 	class WaitEntityEventV2 : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:

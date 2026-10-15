@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetTargetAssetPreloadState_TypeDefinitionIndex = 22806;
+
 	class SetTargetAssetPreloadState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

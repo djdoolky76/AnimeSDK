@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ShowRogueShopInfoDialog; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowRogueShopInfoDialog_TypeDefinitionIndex = 20816;
+
 	class ShowRogueShopInfoDialog : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MEPPNFLLMEN_SET_GRAPHDESC_OFFSET UNITYSDK_OFFSET(0xB8E83B0)
 #define MEPPNFLLMEN_SET_WAYPOINTS_OFFSET UNITYSDK_OFFSET(0xB8E8390)
 
+inline static constexpr unsigned int MEPPNFLLMEN_TypeDefinitionIndex = 58969;
+
 	class MEPPNFLLMEN : public ::System::Object
 	{
 	public:

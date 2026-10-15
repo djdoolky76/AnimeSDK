@@ -27,6 +27,8 @@ namespace System { class String; }
 #define HLEBBGFAKAK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5BB810)
 #define HLEBBGFAKAK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5BB870)
 
+inline static constexpr unsigned int HLEBBGFAKAK_TypeDefinitionIndex = 33429;
+
 	class HLEBBGFAKAK : public ::System::Object
 	{
 	public:

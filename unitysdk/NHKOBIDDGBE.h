@@ -22,6 +22,8 @@ namespace RPG::GameCore { class RuntimeGroupInfo; }
 #define NHKOBIDDGBE_OFEEJECDCCA_OFFSET UNITYSDK_OFFSET(0x3260)
 #define NHKOBIDDGBE_PGEHFODBEKE_OFFSET UNITYSDK_OFFSET(0x211F0)
 
+inline static constexpr unsigned int NHKOBIDDGBE_TypeDefinitionIndex = 60533;
+
 	struct alignas(4) NHKOBIDDGBE
 	{
 		::System::Int32 _TargetRegionID_k__BackingField; // 0x10

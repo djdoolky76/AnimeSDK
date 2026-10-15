@@ -9,6 +9,8 @@ namespace RPG::GameCore { class EvolveGearConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EvolveGearConfig_TypeDefinitionIndex = 13073;
+
 	class EvolveGearConfig : public ::System::Object
 	{
 	public:

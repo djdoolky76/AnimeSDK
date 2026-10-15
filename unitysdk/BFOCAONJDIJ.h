@@ -7,6 +7,8 @@
 #define BFOCAONJDIJ_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0xB1748B0)
 #define BFOCAONJDIJ_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0xB1749C0)
 
+inline static constexpr unsigned int BFOCAONJDIJ_TypeDefinitionIndex = 77098;
+
 	class BFOCAONJDIJ : public ::GJOFNOCMMKL
 	{
 	public:

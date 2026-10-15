@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LAHKEHALABO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8CCCD0)
 #define LAHKEHALABO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E8CCCE0)
 
+inline static constexpr unsigned int LAHKEHALABO___c_TypeDefinitionIndex = 34567;
+
 	class LAHKEHALABO___c : public ::System::Object
 	{
 	public:

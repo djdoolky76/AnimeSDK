@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define PODCNGPMMNC_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xC359F30)
 #define PODCNGPMMNC_DOONTICK_OFFSET UNITYSDK_OFFSET(0xC359FC0)
 
+inline static constexpr unsigned int PODCNGPMMNC_TypeDefinitionIndex = 57529;
+
 	class PODCNGPMMNC : public ::EDLDHDMLJDH
 	{
 	public:

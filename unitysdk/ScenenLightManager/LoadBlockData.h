@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int LoadBlockData_TypeDefinitionIndex = 49156;
+
 	class LoadBlockData : public ::System::Object
 	{
 	public:

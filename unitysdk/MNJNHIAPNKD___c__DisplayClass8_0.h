@@ -6,6 +6,8 @@ class MNJNHIAPNKD;
 #define MNJNHIAPNKD___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBA0F170)
 #define MNJNHIAPNKD___C__DISPLAYCLASS8_0___ONBATTLEGAMEPAGEONTURNAVATARCHANGEBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xBA0FB30)
 
+inline static constexpr unsigned int MNJNHIAPNKD___c__DisplayClass8_0_TypeDefinitionIndex = 71953;
+
 	class MNJNHIAPNKD___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageBaseConfig_TypeDefinitionIndex = 19137;
+
 	class StageBaseConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

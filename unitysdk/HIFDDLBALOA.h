@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define HIFDDLBALOA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEAE6D0)
 
+inline static constexpr unsigned int HIFDDLBALOA_TypeDefinitionIndex = 25004;
+
 	class HIFDDLBALOA : public ::System::Attribute
 	{
 	public:

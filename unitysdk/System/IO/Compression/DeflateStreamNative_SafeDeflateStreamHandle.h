@@ -8,6 +8,8 @@
 
 namespace System::IO::Compression
 {
+	inline static constexpr unsigned int DeflateStreamNative_SafeDeflateStreamHandle_TypeDefinitionIndex = 2722;
+
 	class DeflateStreamNative_SafeDeflateStreamHandle : public ::System::Runtime::InteropServices::SafeHandle
 	{
 	public:

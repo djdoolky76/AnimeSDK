@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define LONLABFNMJF_NOOAOPKBDKN_OFFSET UNITYSDK_OFFSET(0xB80E680)
 
+inline static constexpr unsigned int LONLABFNMJF_TypeDefinitionIndex = 75248;
+
 	class LONLABFNMJF : public ::System::Object
 	{
 	public:

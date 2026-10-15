@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimePuzzleLockChime; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimePuzzleLockChime_TypeDefinitionIndex = 21978;
+
 	class ChimePuzzleLockChime : public ::RPG::GameCore::TaskConfig
 	{
 	public:

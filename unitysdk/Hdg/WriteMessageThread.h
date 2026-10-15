@@ -22,6 +22,8 @@ namespace System::Threading { class Thread; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int WriteMessageThread_TypeDefinitionIndex = 46947;
+
 	class WriteMessageThread : public ::System::Object
 	{
 	public:

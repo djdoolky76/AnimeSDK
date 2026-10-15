@@ -8,6 +8,8 @@ namespace UnityEngine::Networking::PlayerConnection { class MessageEventArgs; }
 
 namespace UnityEngine::Networking::PlayerConnection
 {
+	inline static constexpr unsigned int PlayerConnection___c__DisplayClass20_0_TypeDefinitionIndex = 4677;
+
 	class PlayerConnection___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatAvailableDice_TypeDefinitionIndex = 76066;
+
 	struct alignas(4) DiceCombatAvailableDice
 	{
 		::System::UInt32 _DiceID_k__BackingField; // 0x10

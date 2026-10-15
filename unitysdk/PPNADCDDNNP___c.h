@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PPNADCDDNNP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFDF800)
 #define PPNADCDDNNP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DFDF810)
 
+inline static constexpr unsigned int PPNADCDDNNP___c_TypeDefinitionIndex = 31218;
+
 	class PPNADCDDNNP___c : public ::System::Object
 	{
 	public:

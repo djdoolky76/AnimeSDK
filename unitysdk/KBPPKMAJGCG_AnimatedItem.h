@@ -38,6 +38,8 @@ namespace UnityEngine { class Mesh; }
 #define KBPPKMAJGCG_ANIMATEDITEM_SET_MESH_OFFSET UNITYSDK_OFFSET(0xB32E6B0)
 #define KBPPKMAJGCG_ANIMATEDITEM_SET_PERCENTAGEOFLINEBUFFER_OFFSET UNITYSDK_OFFSET(0xB32E750)
 
+inline static constexpr unsigned int KBPPKMAJGCG_AnimatedItem_TypeDefinitionIndex = 70325;
+
 	class KBPPKMAJGCG_AnimatedItem : public ::System::Object
 	{
 	public:

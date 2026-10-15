@@ -12,6 +12,8 @@
 
 namespace Mono::Security::Cryptography
 {
+	inline static constexpr unsigned int MD2Managed_25C7D65443545F54_TypeDefinitionIndex = 2303;
+
 	class MD2Managed_25C7D65443545F54 : public ::Mono::Security::Cryptography::MD2_0A61A9ED600D8A6F
 	{
 	public:

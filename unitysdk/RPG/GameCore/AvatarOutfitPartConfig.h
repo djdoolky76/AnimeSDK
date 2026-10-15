@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarOutfitPartConfig_TypeDefinitionIndex = 16589;
+
 	class AvatarOutfitPartConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

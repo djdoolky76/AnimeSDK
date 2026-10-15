@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IIOLBMOHGDH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16455350)
 #define IIOLBMOHGDH_TICK_OFFSET UNITYSDK_OFFSET(0x164553A0)
 
+inline static constexpr unsigned int IIOLBMOHGDH_TypeDefinitionIndex = 54393;
+
 	class IIOLBMOHGDH : public ::GELIALJDFBL
 	{
 	public:

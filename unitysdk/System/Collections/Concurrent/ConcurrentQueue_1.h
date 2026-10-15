@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace System::Collections::Concurrent
 {
+	inline static constexpr unsigned int ConcurrentQueue_1_TypeDefinitionIndex = 1519;
+
 	template <typename T>
 	class ConcurrentQueue_1 : public ::System::Object
 	{

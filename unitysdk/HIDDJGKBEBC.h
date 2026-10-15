@@ -8,6 +8,8 @@ namespace System { class String; }
 #define HIDDJGKBEBC_GET_DESC_OFFSET UNITYSDK_OFFSET(0x15CE0DA0)
 #define HIDDJGKBEBC_GET_ICON_OFFSET UNITYSDK_OFFSET(0x15CE0D90)
 
+inline static constexpr unsigned int HIDDJGKBEBC_TypeDefinitionIndex = 79592;
+
 	class HIDDJGKBEBC : public ::System::Object
 	{
 	public:

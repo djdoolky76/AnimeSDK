@@ -12,6 +12,8 @@ namespace System { class String; }
 #define FNINILGGBFC_JAJLIBEAMMH_OFFSET UNITYSDK_OFFSET(0x15871A30)
 #define FNINILGGBFC_PHFIBKDEIJB_OFFSET UNITYSDK_OFFSET(0x2E77EE0)
 
+inline static constexpr unsigned int FNINILGGBFC_TypeDefinitionIndex = 71085;
+
 	struct alignas(8) FNINILGGBFC
 	{
 		::Unity::Collections::NativeArray_1<::System::Int32> NDOOAEHJLAL; // 0x10

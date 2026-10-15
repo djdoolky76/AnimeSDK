@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CGBNMMKEGLF_OGCOBLCIINE_OFFSET UNITYSDK_OFFSET(0xCC859B0)
 #define CGBNMMKEGLF_SET__MERGINGSOLIDERS_OFFSET UNITYSDK_OFFSET(0xCC85D70)
 
+inline static constexpr unsigned int CGBNMMKEGLF_TypeDefinitionIndex = 76381;
+
 	class CGBNMMKEGLF : public ::System::Object
 	{
 	public:

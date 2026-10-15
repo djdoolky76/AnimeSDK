@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define LAMOJOPDBDI_BKCLEICKEHF_OFFSET UNITYSDK_OFFSET(0x1C56D7C0)
 #define LAMOJOPDBDI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C56DF80)
 
+inline static constexpr unsigned int LAMOJOPDBDI_TypeDefinitionIndex = 41897;
+
 	class LAMOJOPDBDI : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BENBCNGOIPP_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0xB158410)
 #define BENBCNGOIPP_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0xB158900)
 
+inline static constexpr unsigned int BENBCNGOIPP_TypeDefinitionIndex = 54302;
+
 	class BENBCNGOIPP : public ::System::Object
 	{
 	public:

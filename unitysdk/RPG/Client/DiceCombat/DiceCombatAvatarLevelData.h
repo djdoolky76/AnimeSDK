@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatAvatarLevelData_TypeDefinitionIndex = 76067;
+
 	class DiceCombatAvatarLevelData : public ::System::Object
 	{
 	public:

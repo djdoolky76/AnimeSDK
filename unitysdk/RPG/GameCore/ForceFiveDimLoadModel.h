@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ForceFiveDimLoadModel; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ForceFiveDimLoadModel_TypeDefinitionIndex = 21054;
+
 	class ForceFiveDimLoadModel : public ::RPG::GameCore::TaskConfig
 	{
 	public:

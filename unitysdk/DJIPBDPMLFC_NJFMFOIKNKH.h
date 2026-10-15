@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define DJIPBDPMLFC_NJFMFOIKNKH_CTOR_OFFSET UNITYSDK_OFFSET(0xF235AC0)
 
+inline static constexpr unsigned int DJIPBDPMLFC_NJFMFOIKNKH_TypeDefinitionIndex = 52063;
+
 	class DJIPBDPMLFC_NJFMFOIKNKH : public ::System::Object
 	{
 	public:

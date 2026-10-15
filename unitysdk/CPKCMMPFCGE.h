@@ -33,6 +33,8 @@ namespace System { class String; }
 #define CPKCMMPFCGE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E140560)
 #define CPKCMMPFCGE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1405C0)
 
+inline static constexpr unsigned int CPKCMMPFCGE_TypeDefinitionIndex = 34812;
+
 	class CPKCMMPFCGE : public ::System::Object
 	{
 	public:

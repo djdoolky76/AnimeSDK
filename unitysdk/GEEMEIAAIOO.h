@@ -4,6 +4,8 @@
 
 #define GEEMEIAAIOO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA89430)
 
+inline static constexpr unsigned int GEEMEIAAIOO_TypeDefinitionIndex = 42946;
+
 	class GEEMEIAAIOO : public ::System::Object
 	{
 	public:

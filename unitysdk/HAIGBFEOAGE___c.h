@@ -8,6 +8,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define HAIGBFEOAGE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC1D4C0)
 #define HAIGBFEOAGE___C__ISHEXSTR_B__12_0_OFFSET UNITYSDK_OFFSET(0x1EC1D4D0)
 
+inline static constexpr unsigned int HAIGBFEOAGE___c_TypeDefinitionIndex = 35196;
+
 	class HAIGBFEOAGE___c : public ::System::Object
 	{
 	public:

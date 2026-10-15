@@ -6,6 +6,8 @@ namespace RPG::Client { class PenaconyEndmostChronicleData; }
 #define LKDKHJOKHBH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB72E310)
 #define LKDKHJOKHBH_CTOR_OFFSET UNITYSDK_OFFSET(0xB72E5C0)
 
+inline static constexpr unsigned int LKDKHJOKHBH_TypeDefinitionIndex = 66102;
+
 	class LKDKHJOKHBH : public ::System::Object
 	{
 	public:

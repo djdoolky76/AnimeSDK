@@ -4,6 +4,8 @@
 
 #define MKDGFBCIHCA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD72FA0)
 
+inline static constexpr unsigned int MKDGFBCIHCA_TypeDefinitionIndex = 6320;
+
 	class MKDGFBCIHCA : public ::System::Object
 	{
 	public:

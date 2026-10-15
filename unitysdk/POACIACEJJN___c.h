@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define POACIACEJJN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFC2970)
 #define POACIACEJJN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DFC2980)
 
+inline static constexpr unsigned int POACIACEJJN___c_TypeDefinitionIndex = 27568;
+
 	class POACIACEJJN___c : public ::System::Object
 	{
 	public:

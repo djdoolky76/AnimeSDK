@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BAGAOALHAJI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B4430)
 #define BAGAOALHAJI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E7B4440)
 
+inline static constexpr unsigned int BAGAOALHAJI___c_TypeDefinitionIndex = 31780;
+
 	class BAGAOALHAJI___c : public ::System::Object
 	{
 	public:

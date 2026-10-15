@@ -30,6 +30,8 @@ namespace System { class String; }
 #define KEKEOMIMNFI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E80CB70)
 #define KEKEOMIMNFI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E80CBD0)
 
+inline static constexpr unsigned int KEKEOMIMNFI_TypeDefinitionIndex = 26705;
+
 	class KEKEOMIMNFI : public ::System::Object
 	{
 	public:

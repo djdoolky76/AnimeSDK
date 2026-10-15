@@ -48,6 +48,8 @@ namespace System::Collections::Immutable { template <typename T> class IImmutabl
 #define FCLEMGPEMJJ__GET_OPENEXTRAFILTERCOMMAND_B__27_0_OFFSET UNITYSDK_OFFSET(0x156CD6D0)
 #define FCLEMGPEMJJ___REFRESHMOLDSFULLY_B__46_0_OFFSET UNITYSDK_OFFSET(0x156CD700)
 
+inline static constexpr unsigned int FCLEMGPEMJJ_TypeDefinitionIndex = 79461;
+
 	class FCLEMGPEMJJ : public ::System::Object
 	{
 	public:

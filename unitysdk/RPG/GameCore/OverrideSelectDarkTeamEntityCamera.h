@@ -11,6 +11,8 @@ namespace RPG::GameCore { class OverrideSelectDarkTeamEntityCamera; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OverrideSelectDarkTeamEntityCamera_TypeDefinitionIndex = 22760;
+
 	class OverrideSelectDarkTeamEntityCamera : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define IEJIOGIGFAI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E63B890)
 #define IEJIOGIGFAI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E63B8F0)
 
+inline static constexpr unsigned int IEJIOGIGFAI_TypeDefinitionIndex = 32846;
+
 	class IEJIOGIGFAI : public ::System::Object
 	{
 	public:

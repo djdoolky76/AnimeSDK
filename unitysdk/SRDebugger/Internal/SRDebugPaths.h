@@ -4,6 +4,8 @@
 
 namespace SRDebugger::Internal
 {
+	inline static constexpr unsigned int SRDebugPaths_TypeDefinitionIndex = 38105;
+
 	class SRDebugPaths : public ::System::Object
 	{
 	public:

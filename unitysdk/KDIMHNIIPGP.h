@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KDIMHNIIPGP_NLMILLEOOOI_OFFSET UNITYSDK_OFFSET(0xB363D70)
 #define KDIMHNIIPGP_NNEEKPGDKMF_OFFSET UNITYSDK_OFFSET(0xB363F10)
 
+inline static constexpr unsigned int KDIMHNIIPGP_TypeDefinitionIndex = 73839;
+
 	class KDIMHNIIPGP : public ::System::Object
 	{
 	public:

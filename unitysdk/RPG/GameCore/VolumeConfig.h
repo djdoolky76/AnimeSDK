@@ -11,6 +11,8 @@ namespace RPG::GameCore { class VolumeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VolumeConfig_TypeDefinitionIndex = 19147;
+
 	class VolumeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

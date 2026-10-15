@@ -30,6 +30,8 @@ namespace System { class String; }
 #define BEBNHPCBMPF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E921FD0)
 #define BEBNHPCBMPF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E922030)
 
+inline static constexpr unsigned int BEBNHPCBMPF_TypeDefinitionIndex = 32517;
+
 	class BEBNHPCBMPF : public ::System::Object
 	{
 	public:

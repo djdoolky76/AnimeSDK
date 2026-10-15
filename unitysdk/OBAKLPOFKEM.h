@@ -7,6 +7,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveAvatarPromotionPropertyD
 #define OBAKLPOFKEM_CTOR_OFFSET UNITYSDK_OFFSET(0xBD32390)
 #define OBAKLPOFKEM_EDGLFNBMGPD_OFFSET UNITYSDK_OFFSET(0xBD323A0)
 
+inline static constexpr unsigned int OBAKLPOFKEM_TypeDefinitionIndex = 75116;
+
 	class OBAKLPOFKEM : public ::OLBAIJKEIBM
 	{
 	public:

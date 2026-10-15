@@ -27,6 +27,8 @@ class AkRoomParams;
 #define AKROOMPARAMS_SET_UP_OFFSET UNITYSDK_OFFSET(0x1F5B8A70)
 #define AKROOMPARAMS_SET_WALLOCCLUSION_OFFSET UNITYSDK_OFFSET(0x1F5B8DD0)
 
+inline static constexpr unsigned int AkRoomParams_TypeDefinitionIndex = 44784;
+
 	class AkRoomParams : public ::System::Object
 	{
 	public:

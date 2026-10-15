@@ -9,6 +9,8 @@
 
 namespace XInputDotNetPure
 {
+	inline static constexpr unsigned int GamePadThumbSticks_StickValue_TypeDefinitionIndex = 40784;
+
 	struct alignas(4) GamePadThumbSticks_StickValue
 	{
 		::UnityEngine::Vector2 vector; // 0x10

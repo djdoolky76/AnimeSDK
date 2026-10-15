@@ -9,6 +9,8 @@ namespace UnityEngine::Rendering { class FloatParameter; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGTemporalAntialiasing_TypeDefinitionIndex = 37846;
+
 	class RPGTemporalAntialiasing : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:

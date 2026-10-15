@@ -20,6 +20,8 @@ class AkSourceSettings;
 #define AKSOURCESETTINGS_SET_SOURCEID_OFFSET UNITYSDK_OFFSET(0x1F6063B0)
 #define AKSOURCESETTINGS_SET_UMEDIASIZE_OFFSET UNITYSDK_OFFSET(0x1F606930)
 
+inline static constexpr unsigned int AkSourceSettings_TypeDefinitionIndex = 44788;
+
 	class AkSourceSettings : public ::System::Object
 	{
 	public:

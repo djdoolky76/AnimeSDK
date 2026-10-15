@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define COJILABINLG_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DCB9910)
 #define COJILABINLG_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DCB9210)
 
+inline static constexpr unsigned int COJILABINLG_TypeDefinitionIndex = 13104;
+
 	class COJILABINLG : public ::System::Object
 	{
 	public:

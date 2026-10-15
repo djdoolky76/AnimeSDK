@@ -16,6 +16,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int StateParkourAnimEvent_TypeDefinitionIndex = 74226;
+
 	class StateParkourAnimEvent : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define GDFPOKAIKEE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C479450)
 #define GDFPOKAIKEE___C__LOAD_B__4_0_OFFSET UNITYSDK_OFFSET(0x1C479460)
 
+inline static constexpr unsigned int GDFPOKAIKEE___c_TypeDefinitionIndex = 41539;
+
 	class GDFPOKAIKEE___c : public ::System::Object
 	{
 	public:

@@ -72,6 +72,8 @@ namespace UnityEngine::Events { class UnityEvent; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LongPressEvent_TypeDefinitionIndex = 72567;
+
 	class LongPressEvent : public ::UnityEngine::MonoBehaviour
 	{
 	public:

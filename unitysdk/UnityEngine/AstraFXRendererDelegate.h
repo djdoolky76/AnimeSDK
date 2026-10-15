@@ -16,6 +16,8 @@ namespace UnityEngine { class AstraFXRenderer; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AstraFXRendererDelegate_TypeDefinitionIndex = 4095;
+
 	class AstraFXRendererDelegate : public ::System::Object
 	{
 	public:

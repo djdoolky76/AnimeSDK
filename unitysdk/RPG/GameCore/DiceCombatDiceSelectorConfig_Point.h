@@ -12,6 +12,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatDiceSelectorConfig_Point_TypeDefinitionIndex = 16139;
+
 	class DiceCombatDiceSelectorConfig_Point : public ::RPG::GameCore::DiceCombatDiceSelectorConfig
 	{
 	public:

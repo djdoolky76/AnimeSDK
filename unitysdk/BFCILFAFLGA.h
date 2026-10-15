@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelSpatialIntVec2; }
 #define BFCILFAFLGA_SET_COOKEDGRIDLIST_OFFSET UNITYSDK_OFFSET(0xB15FC60)
 #define BFCILFAFLGA_SET_LOWERUPPERBOUNDS_OFFSET UNITYSDK_OFFSET(0xB15FC80)
 
+inline static constexpr unsigned int BFCILFAFLGA_TypeDefinitionIndex = 62076;
+
 	class BFCILFAFLGA : public ::System::Object
 	{
 	public:

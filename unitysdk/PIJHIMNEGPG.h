@@ -33,6 +33,8 @@ namespace System { class String; }
 #define PIJHIMNEGPG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF6A000)
 #define PIJHIMNEGPG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF6A060)
 
+inline static constexpr unsigned int PIJHIMNEGPG_TypeDefinitionIndex = 25443;
+
 	class PIJHIMNEGPG : public ::System::Object
 	{
 	public:

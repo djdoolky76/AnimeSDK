@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DebateCostChangce; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DebateCostChangce_TypeDefinitionIndex = 21932;
+
 	class DebateCostChangce : public ::RPG::GameCore::TaskConfig
 	{
 	public:

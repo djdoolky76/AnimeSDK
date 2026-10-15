@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleElationStartToastData_TypeDefinitionIndex = 72155;
+
 	class BattleElationStartToastData : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ class BHHPHPGCODJ;
 #define IOJNNBAILBC___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16503590)
 #define IOJNNBAILBC___C__DISPLAYCLASS6_0__SETTARGETUNREACHED_B__0_OFFSET UNITYSDK_OFFSET(0x16503620)
 
+inline static constexpr unsigned int IOJNNBAILBC___c__DisplayClass6_0_TypeDefinitionIndex = 79551;
+
 	class IOJNNBAILBC___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

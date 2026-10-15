@@ -12,6 +12,8 @@ namespace Sofa { class BaseSofaWindow; }
 #define HEFNACCDLCJ_OGBAMIGGMIH_OFFSET UNITYSDK_OFFSET(0x15C4F9B0)
 #define HEFNACCDLCJ_PLPAIPOIMGB_OFFSET UNITYSDK_OFFSET(0x15C4F610)
 
+inline static constexpr unsigned int HEFNACCDLCJ_TypeDefinitionIndex = 79009;
+
 	class HEFNACCDLCJ : public ::System::Object
 	{
 	public:

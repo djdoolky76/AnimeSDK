@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchPropSceneObjClickHintAttachPoint_TypeDefinitionIndex = 22241;
+
 	class SwitchPropSceneObjClickHintAttachPoint : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ReleaseCacheUI_TypeDefinitionIndex = 21703;
+
 	class ReleaseCacheUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

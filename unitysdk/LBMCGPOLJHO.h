@@ -10,6 +10,8 @@ class CHMKEEOCPAB;
 #define LBMCGPOLJHO_GLBFBDCCDIN_OFFSET UNITYSDK_OFFSET(0x1C56E040)
 #define LBMCGPOLJHO_PEGGENCMGJC_OFFSET UNITYSDK_OFFSET(0x1C56E1C0)
 
+inline static constexpr unsigned int LBMCGPOLJHO_TypeDefinitionIndex = 41734;
+
 	class LBMCGPOLJHO : public ::System::Object
 	{
 	public:

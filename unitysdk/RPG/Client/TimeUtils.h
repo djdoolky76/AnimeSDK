@@ -18,6 +18,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeUtils_TypeDefinitionIndex = 35327;
+
 	class TimeUtils : public ::System::Object
 	{
 	public:

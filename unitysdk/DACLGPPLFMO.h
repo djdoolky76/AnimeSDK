@@ -45,6 +45,8 @@ namespace System { class IDisposable; }
 #define DACLGPPLFMO__TRYEXITGAME_B__33_0_OFFSET UNITYSDK_OFFSET(0xDFBE880)
 #define DACLGPPLFMO__TRYEXITGAME_B__33_1_OFFSET UNITYSDK_OFFSET(0xDFBE910)
 
+inline static constexpr unsigned int DACLGPPLFMO_TypeDefinitionIndex = 76452;
+
 	class DACLGPPLFMO : public ::System::Object
 	{
 	public:

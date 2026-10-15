@@ -4,6 +4,8 @@
 
 namespace Collections::Pooled
 {
+	inline static constexpr unsigned int PooledDictionaryConfig_TypeDefinitionIndex = 5109;
+
 	class PooledDictionaryConfig : public ::System::Object
 	{
 	public:

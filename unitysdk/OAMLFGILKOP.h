@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define OAMLFGILKOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C979430)
 
+inline static constexpr unsigned int OAMLFGILKOP_TypeDefinitionIndex = 42235;
+
 	class OAMLFGILKOP : public ::System::Object
 	{
 	public:

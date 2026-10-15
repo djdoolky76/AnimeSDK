@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int GoogleStadiaWindowsNativeProfile_TypeDefinitionIndex = 41305;
+
 	class GoogleStadiaWindowsNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

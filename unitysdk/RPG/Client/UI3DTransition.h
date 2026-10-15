@@ -18,6 +18,8 @@ namespace RPG::Client::Promises { class Promise; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UI3DTransition_TypeDefinitionIndex = 73008;
+
 	class UI3DTransition : public ::System::Object
 	{
 	public:

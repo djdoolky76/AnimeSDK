@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GODEELLFLEN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4EDE20)
 #define GODEELLFLEN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E4EDE30)
 
+inline static constexpr unsigned int GODEELLFLEN___c_TypeDefinitionIndex = 28753;
+
 	class GODEELLFLEN___c : public ::System::Object
 	{
 	public:

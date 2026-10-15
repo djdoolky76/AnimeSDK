@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define CHNIBOLCAKJ_MLPJKDKLOLM_OFFSET UNITYSDK_OFFSET(0xCF60710)
 
+inline static constexpr unsigned int CHNIBOLCAKJ_TypeDefinitionIndex = 67246;
+
 	class CHNIBOLCAKJ : public ::System::Object
 	{
 	public:

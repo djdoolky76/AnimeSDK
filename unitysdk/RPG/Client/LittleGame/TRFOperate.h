@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int TRFOperate_TypeDefinitionIndex = 42428;
+
 	enum class TRFOperate : ::System::Int32
 	{
 		None = 0,

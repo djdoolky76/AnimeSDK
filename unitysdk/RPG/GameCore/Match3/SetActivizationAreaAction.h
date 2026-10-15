@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class SetActivizationAreaAction; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int SetActivizationAreaAction_TypeDefinitionIndex = 24912;
+
 	class SetActivizationAreaAction : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:

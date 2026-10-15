@@ -11,6 +11,8 @@ namespace UnityEngine { class Animation; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Animation_Enumerator_TypeDefinitionIndex = 5742;
+
 	class Animation_Enumerator : public ::System::Object
 	{
 	public:

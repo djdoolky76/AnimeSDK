@@ -9,6 +9,8 @@ class PEEDLCHFAFL;
 #define BBGNOBLIAGL_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x15E89F80)
 #define BBGNOBLIAGL_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x15E89F30)
 
+inline static constexpr unsigned int BBGNOBLIAGL_TypeDefinitionIndex = 76925;
+
 	class BBGNOBLIAGL : public ::System::Object
 	{
 	public:

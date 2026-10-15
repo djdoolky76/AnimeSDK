@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EventManager_TypeDefinitionIndex = 56690;
+
 	class EventManager : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvSetAIMoveTo_TypeDefinitionIndex = 22199;
+
 	class AdvSetAIMoveTo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

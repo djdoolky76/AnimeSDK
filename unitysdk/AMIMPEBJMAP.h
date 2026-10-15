@@ -33,6 +33,8 @@ namespace System { class String; }
 #define AMIMPEBJMAP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E523C90)
 #define AMIMPEBJMAP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E523CF0)
 
+inline static constexpr unsigned int AMIMPEBJMAP_TypeDefinitionIndex = 32153;
+
 	class AMIMPEBJMAP : public ::System::Object
 	{
 	public:

@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int DPHCPLJMDKL_DELMAOJNLDE_TypeDefinitionIndex = 60024;
+
 	struct alignas(4) DPHCPLJMDKL_DELMAOJNLDE
 	{
 		::System::Single PKLECLDMFLJ; // 0x10

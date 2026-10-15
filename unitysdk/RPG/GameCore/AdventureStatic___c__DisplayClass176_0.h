@@ -10,6 +10,8 @@ namespace RPG::Client { class MonoEffect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureStatic___c__DisplayClass176_0_TypeDefinitionIndex = 59027;
+
 	class AdventureStatic___c__DisplayClass176_0 : public ::System::Object
 	{
 	public:

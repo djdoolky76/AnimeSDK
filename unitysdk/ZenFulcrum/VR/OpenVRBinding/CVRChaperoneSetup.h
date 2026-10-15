@@ -33,6 +33,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int CVRChaperoneSetup_TypeDefinitionIndex = 39200;
+
 	class CVRChaperoneSetup : public ::System::Object
 	{
 	public:

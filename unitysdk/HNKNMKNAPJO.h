@@ -10,6 +10,8 @@ class ODGPPIHLOFF;
 #define HNKNMKNAPJO_CCTOR_OFFSET UNITYSDK_OFFSET(0x15D9EDA0)
 #define HNKNMKNAPJO_DFJOEAIABMJ_OFFSET UNITYSDK_OFFSET(0x15D9EB10)
 
+inline static constexpr unsigned int HNKNMKNAPJO_TypeDefinitionIndex = 49202;
+
 	class HNKNMKNAPJO : public ::System::Object
 	{
 	public:

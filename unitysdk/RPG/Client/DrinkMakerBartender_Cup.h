@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DrinkMakerBartender_Cup_TypeDefinitionIndex = 63602;
+
 	class DrinkMakerBartender_Cup : public ::System::Object
 	{
 	public:

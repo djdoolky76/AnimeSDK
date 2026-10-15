@@ -35,6 +35,8 @@ namespace System { class String; }
 #define PGPHEKKPBLD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF36560)
 #define PGPHEKKPBLD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF365C0)
 
+inline static constexpr unsigned int PGPHEKKPBLD_TypeDefinitionIndex = 31918;
+
 	class PGPHEKKPBLD : public ::System::Object
 	{
 	public:

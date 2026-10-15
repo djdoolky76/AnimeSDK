@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 #define AKSTATE_GET_WWISETYPE_OFFSET UNITYSDK_OFFSET(0x1F609C40)
 #define AKSTATE_HANDLEEVENT_OFFSET UNITYSDK_OFFSET(0x1F609E40)
 
+inline static constexpr unsigned int AkState_TypeDefinitionIndex = 44955;
+
 	class AkState : public ::AkDragDropTriggerHandler
 	{
 	public:

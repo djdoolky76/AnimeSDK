@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define GHHJNCOAIJF___C__DISPLAYCLASS7_0__SENDWITHRETRY_B__1_OFFSET UNITYSDK_OFFSET(0x15A20B50)
 #define GHHJNCOAIJF___C__DISPLAYCLASS7_0__SENDWITHRETRY_B__2_OFFSET UNITYSDK_OFFSET(0x15A20C30)
 
+inline static constexpr unsigned int GHHJNCOAIJF___c__DisplayClass7_0_TypeDefinitionIndex = 69356;
+
 	class GHHJNCOAIJF___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

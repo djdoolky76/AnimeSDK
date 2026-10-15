@@ -12,6 +12,8 @@ namespace UnityEngine { class Behaviour; }
 #define PKAOKIGODPE_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xC2AA5D0)
 #define PKAOKIGODPE_REVERSE_OFFSET UNITYSDK_OFFSET(0xC2AA450)
 
+inline static constexpr unsigned int PKAOKIGODPE_TypeDefinitionIndex = 73499;
+
 	class PKAOKIGODPE : public ::LLJAOGKDNFD
 	{
 	public:

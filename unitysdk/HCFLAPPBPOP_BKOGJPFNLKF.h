@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int HCFLAPPBPOP_BKOGJPFNLKF_TypeDefinitionIndex = 28613;
+
 	enum class HCFLAPPBPOP_BKOGJPFNLKF : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

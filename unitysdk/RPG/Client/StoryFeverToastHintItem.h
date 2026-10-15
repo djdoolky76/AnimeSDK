@@ -33,6 +33,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StoryFeverToastHintItem_TypeDefinitionIndex = 72114;
+
 	class StoryFeverToastHintItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

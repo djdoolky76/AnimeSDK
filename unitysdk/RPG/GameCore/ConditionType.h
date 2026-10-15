@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConditionType_TypeDefinitionIndex = 13077;
+
 	enum class ConditionType : ::System::Int32
 	{
 		None = 0,

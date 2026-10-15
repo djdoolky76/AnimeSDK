@@ -24,6 +24,8 @@ namespace System { class Object; }
 #define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_8_OFFSET UNITYSDK_OFFSET(0xBF8BE40)
 #define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_9_OFFSET UNITYSDK_OFFSET(0xBF8BE80)
 
+inline static constexpr unsigned int OOJHKJMGPAN___c_TypeDefinitionIndex = 77368;
+
 	class OOJHKJMGPAN___c : public ::System::Object
 	{
 	public:

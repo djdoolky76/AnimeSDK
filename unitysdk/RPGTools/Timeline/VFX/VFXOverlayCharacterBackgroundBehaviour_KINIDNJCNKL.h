@@ -12,6 +12,8 @@ namespace RPGTools::Timeline::VFX { class VFXOverlayCharacterBackgroundClip; }
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int VFXOverlayCharacterBackgroundBehaviour_KINIDNJCNKL_TypeDefinitionIndex = 48668;
+
 	class VFXOverlayCharacterBackgroundBehaviour_KINIDNJCNKL : public ::OGBPMPBLDNK
 	{
 	public:

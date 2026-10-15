@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_WingInstanceMonoPlugin_TypeDefinitionIndex = 70535;
+
 	class Effect_WingInstanceMonoPlugin
 	{
 	public:

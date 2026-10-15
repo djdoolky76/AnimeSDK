@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace Nerdbank::Streams
 {
+	inline static constexpr unsigned int Requires_TypeDefinitionIndex = 7157;
+
 	class Requires : public ::System::Object
 	{
 	public:

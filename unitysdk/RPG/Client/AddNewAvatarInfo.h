@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AddNewAvatarInfo_TypeDefinitionIndex = 62463;
+
 	class AddNewAvatarInfo : public ::System::Object
 	{
 	public:

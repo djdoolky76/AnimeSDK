@@ -40,6 +40,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int GroupSnapshot_TypeDefinitionIndex = 25826;
+
 	class GroupSnapshot : public ::System::Object
 	{
 	public:

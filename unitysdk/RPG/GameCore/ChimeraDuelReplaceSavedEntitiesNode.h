@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelReplaceSavedEntitiesNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelReplaceSavedEntitiesNode_TypeDefinitionIndex = 15971;
+
 	class ChimeraDuelReplaceSavedEntitiesNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
 	public:

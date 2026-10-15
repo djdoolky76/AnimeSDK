@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PHMBPBAHCIA_CTOR_OFFSET UNITYSDK_OFFSET(0xC255870)
 #define PHMBPBAHCIA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC255A00)
 
+inline static constexpr unsigned int PHMBPBAHCIA_TypeDefinitionIndex = 58536;
+
 	class PHMBPBAHCIA
 	{
 	public:

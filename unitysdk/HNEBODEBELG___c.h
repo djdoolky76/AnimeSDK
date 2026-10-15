@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HNEBODEBELG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5DC620)
 #define HNEBODEBELG___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E5DC630)
 
+inline static constexpr unsigned int HNEBODEBELG___c_TypeDefinitionIndex = 27811;
+
 	class HNEBODEBELG___c : public ::System::Object
 	{
 	public:

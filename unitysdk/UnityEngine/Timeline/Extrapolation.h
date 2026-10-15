@@ -10,6 +10,8 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int Extrapolation_TypeDefinitionIndex = 38872;
+
 	class Extrapolation : public ::System::Object
 	{
 	public:

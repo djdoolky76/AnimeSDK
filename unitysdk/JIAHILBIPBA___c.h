@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define JIAHILBIPBA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBDF5E0)
 #define JIAHILBIPBA___C__COLLECT_B__4_0_OFFSET UNITYSDK_OFFSET(0x1CBDF5F0)
 
+inline static constexpr unsigned int JIAHILBIPBA___c_TypeDefinitionIndex = 43824;
+
 	class JIAHILBIPBA___c : public ::System::Object
 	{
 	public:

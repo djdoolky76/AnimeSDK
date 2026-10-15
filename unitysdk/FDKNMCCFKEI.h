@@ -9,6 +9,8 @@ namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyCon
 #define FDKNMCCFKEI_CALCULATEVALUE_OFFSET UNITYSDK_OFFSET(0x156DE0A0)
 #define FDKNMCCFKEI_CTOR_OFFSET UNITYSDK_OFFSET(0x156DDFE0)
 
+inline static constexpr unsigned int FDKNMCCFKEI_TypeDefinitionIndex = 75129;
+
 	class FDKNMCCFKEI : public ::System::Object
 	{
 	public:

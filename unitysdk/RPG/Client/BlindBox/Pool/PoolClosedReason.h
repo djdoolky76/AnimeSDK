@@ -3,6 +3,8 @@
 
 namespace RPG::Client::BlindBox::Pool
 {
+	inline static constexpr unsigned int PoolClosedReason_TypeDefinitionIndex = 74923;
+
 	enum class PoolClosedReason : ::System::Int32
 	{
 		None = 0,

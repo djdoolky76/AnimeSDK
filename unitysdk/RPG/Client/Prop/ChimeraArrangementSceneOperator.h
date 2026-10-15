@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraArrangementSceneOperator_TypeDefinitionIndex = 78458;
+
 	class ChimeraArrangementSceneOperator : public ::System::Object
 	{
 	public:

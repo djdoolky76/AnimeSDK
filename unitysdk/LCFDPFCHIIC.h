@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LCFDPFCHIIC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8EC3A0)
 #define LCFDPFCHIIC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8EC400)
 
+inline static constexpr unsigned int LCFDPFCHIIC_TypeDefinitionIndex = 26372;
+
 	class LCFDPFCHIIC : public ::System::Object
 	{
 	public:

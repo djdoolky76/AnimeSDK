@@ -8,6 +8,8 @@ class JAODHHPIKGJ;
 #define CMCHFEOFHBC___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDA26EE0)
 #define CMCHFEOFHBC___C__DISPLAYCLASS12_0___FINISHRESET_B__0_OFFSET UNITYSDK_OFFSET(0xDA26FA0)
 
+inline static constexpr unsigned int CMCHFEOFHBC___c__DisplayClass12_0_TypeDefinitionIndex = 76802;
+
 	class CMCHFEOFHBC___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

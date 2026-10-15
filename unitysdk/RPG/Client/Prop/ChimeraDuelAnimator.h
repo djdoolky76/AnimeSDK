@@ -16,6 +16,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelAnimator_TypeDefinitionIndex = 78297;
+
 	class ChimeraDuelAnimator : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PerformanceReplay_SetGroupProperty; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceReplay_SetGroupProperty_TypeDefinitionIndex = 21850;
+
 	class PerformanceReplay_SetGroupProperty : public ::RPG::GameCore::TaskConfig
 	{
 	public:

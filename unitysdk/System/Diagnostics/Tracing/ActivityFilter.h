@@ -27,6 +27,8 @@ namespace System::Diagnostics::Tracing { class EventSource; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int ActivityFilter_TypeDefinitionIndex = 1696;
+
 	class ActivityFilter : public ::System::Object
 	{
 	public:

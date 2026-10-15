@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CCIKCPMLHEI_CTOR_OFFSET UNITYSDK_OFFSET(0xC73DA20)
 #define CCIKCPMLHEI_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC73DA90)
 
+inline static constexpr unsigned int CCIKCPMLHEI_TypeDefinitionIndex = 59090;
+
 	class CCIKCPMLHEI
 	{
 	public:

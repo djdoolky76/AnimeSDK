@@ -9,6 +9,8 @@ namespace System { class Nullable; }
 #define JIFMKEBONHB___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB1EFF50)
 #define JIFMKEBONHB___C__DISPLAYCLASS1_0__EVALUATE_B__0_OFFSET UNITYSDK_OFFSET(0xB1EFF60)
 
+inline static constexpr unsigned int JIFMKEBONHB___c__DisplayClass1_0_TypeDefinitionIndex = 53891;
+
 	class JIFMKEBONHB___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

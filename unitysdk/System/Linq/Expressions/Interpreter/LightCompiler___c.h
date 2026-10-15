@@ -16,6 +16,8 @@ namespace System::Linq::Expressions::Interpreter { class LightCompiler; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int LightCompiler___c_TypeDefinitionIndex = 3487;
+
 	class LightCompiler___c : public ::System::Object
 	{
 	public:

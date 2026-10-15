@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ItemSellType_TypeDefinitionIndex = 13856;
+
 	enum class ItemSellType : ::System::Int32
 	{
 		UnSellable = 0,

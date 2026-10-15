@@ -4,6 +4,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TrainPartyBuildUtils_PhotoRarityData_TypeDefinitionIndex = 68166;
+
 	struct alignas(4) TrainPartyBuildUtils_PhotoRarityData
 	{
 		::System::Int32 RarityID; // 0x10

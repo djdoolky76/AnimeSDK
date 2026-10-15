@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DBHGOLFACFL_NPBCEMBHEBC_OFFSET UNITYSDK_OFFSET(0xDFE12E0)
 #define DBHGOLFACFL__GET_SHOWDETAILCOMMAND_B__6_0_OFFSET UNITYSDK_OFFSET(0xDFE19E0)
 
+inline static constexpr unsigned int DBHGOLFACFL_TypeDefinitionIndex = 79434;
+
 	class DBHGOLFACFL : public ::System::Object
 	{
 	public:

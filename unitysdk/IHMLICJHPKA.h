@@ -24,6 +24,8 @@ namespace System { class Action; }
 #define IHMLICJHPKA_NKNAMNHNKIE_OFFSET UNITYSDK_OFFSET(0x16425F00)
 #define IHMLICJHPKA_OEBJKAGPDAG_OFFSET UNITYSDK_OFFSET(0x16425E70)
 
+inline static constexpr unsigned int IHMLICJHPKA_TypeDefinitionIndex = 76002;
+
 	class IHMLICJHPKA : public ::System::Object
 	{
 	public:

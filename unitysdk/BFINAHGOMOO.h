@@ -117,6 +117,8 @@ namespace UnityEngine::UI { class Text; }
 #define BFINAHGOMOO__ONTICK_OFFSET UNITYSDK_OFFSET(0xB167500)
 #define BFINAHGOMOO___ONBINDHANDLERS_B__46_0_OFFSET UNITYSDK_OFFSET(0xB16CF60)
 
+inline static constexpr unsigned int BFINAHGOMOO_TypeDefinitionIndex = 71215;
+
 	class BFINAHGOMOO : public ::FMPCODLIOLG
 	{
 	public:

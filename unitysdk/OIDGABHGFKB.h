@@ -3,6 +3,8 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 
+inline static constexpr unsigned int OIDGABHGFKB_TypeDefinitionIndex = 73737;
+
 	struct alignas(4) OIDGABHGFKB
 	{
 		::UnityEngine::Vector2Int EKJOPLBOFAG; // 0x10

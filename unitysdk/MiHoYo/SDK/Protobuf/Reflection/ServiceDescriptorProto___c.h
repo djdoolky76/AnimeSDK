@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int ServiceDescriptorProto___c_TypeDefinitionIndex = 35781;
+
 	class ServiceDescriptorProto___c : public ::System::Object
 	{
 	public:

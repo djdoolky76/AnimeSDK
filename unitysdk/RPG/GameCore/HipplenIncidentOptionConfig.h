@@ -10,6 +10,8 @@ namespace RPG::GameCore { class HipplenIncidentOptionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HipplenIncidentOptionConfig_TypeDefinitionIndex = 16809;
+
 	class HipplenIncidentOptionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

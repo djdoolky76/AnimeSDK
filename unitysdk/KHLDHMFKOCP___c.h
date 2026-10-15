@@ -11,6 +11,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define KHLDHMFKOCP___C___NOTIFYCOOPBOSSPVELEVELENDSTAT_B__158_0_OFFSET UNITYSDK_OFFSET(0x1CBDD2E0)
 #define KHLDHMFKOCP___C___REPLACECOOPBOSSWAVEITEMS_B__42_0_OFFSET UNITYSDK_OFFSET(0x1CBDD250)
 
+inline static constexpr unsigned int KHLDHMFKOCP___c_TypeDefinitionIndex = 43072;
+
 	class KHLDHMFKOCP___c : public ::System::Object
 	{
 	public:

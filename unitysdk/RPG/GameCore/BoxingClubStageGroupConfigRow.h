@@ -9,6 +9,8 @@ namespace RPG::GameCore { class BoxingClubStageGroupConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BoxingClubStageGroupConfigRow_TypeDefinitionIndex = 12916;
+
 	class BoxingClubStageGroupConfigRow : public ::System::Object
 	{
 	public:

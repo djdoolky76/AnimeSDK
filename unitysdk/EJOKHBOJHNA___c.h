@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define EJOKHBOJHNA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x154F5FD0)
 #define EJOKHBOJHNA___C___ENDMATCHANDADVANCE_B__19_1_OFFSET UNITYSDK_OFFSET(0x154F5FE0)
 
+inline static constexpr unsigned int EJOKHBOJHNA___c_TypeDefinitionIndex = 81848;
+
 	class EJOKHBOJHNA___c : public ::System::Object
 	{
 	public:

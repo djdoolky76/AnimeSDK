@@ -40,6 +40,8 @@ namespace System { class String; }
 #define NHDGNBKBNDB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB190E0)
 #define NHDGNBKBNDB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB19140)
 
+inline static constexpr unsigned int NHDGNBKBNDB_TypeDefinitionIndex = 27557;
+
 	class NHDGNBKBNDB : public ::System::Object
 	{
 	public:

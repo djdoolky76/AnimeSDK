@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::AstraFX
 {
+	inline static constexpr unsigned int AstraFXDataNode___c_TypeDefinitionIndex = 73686;
+
 	class AstraFXDataNode___c : public ::System::Object
 	{
 	public:

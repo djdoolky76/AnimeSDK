@@ -11,6 +11,8 @@ namespace RPG::Client { class MusicAlbumItemData; }
 #define MIHAAHEDBDH_SET_RELATEDMUSICITEMDATA_OFFSET UNITYSDK_OFFSET(0xB958C20)
 #define MIHAAHEDBDH_SET_VOLUME_OFFSET UNITYSDK_OFFSET(0xB958C40)
 
+inline static constexpr unsigned int MIHAAHEDBDH_TypeDefinitionIndex = 66363;
+
 	class MIHAAHEDBDH : public ::System::Object
 	{
 	public:

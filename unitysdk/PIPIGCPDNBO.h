@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 #define PIPIGCPDNBO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2F1CD0)
 #define PIPIGCPDNBO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2F1C90)
 
+inline static constexpr unsigned int PIPIGCPDNBO_TypeDefinitionIndex = 24204;
+
 	class PIPIGCPDNBO : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

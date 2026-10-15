@@ -8,6 +8,8 @@
 
 namespace Mono::Security::Protocol::Ntlm
 {
+	inline static constexpr unsigned int NtlmSettings_TypeDefinitionIndex = 2277;
+
 	class NtlmSettings : public ::System::Object
 	{
 	public:

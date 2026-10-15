@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ReflectionRenderData_TypeDefinitionIndex = 37567;
+
 	struct alignas(8) ReflectionRenderData
 	{
 		::UnityEngine::Camera* camera; // 0x10

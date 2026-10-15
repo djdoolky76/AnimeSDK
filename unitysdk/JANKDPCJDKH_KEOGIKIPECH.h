@@ -11,6 +11,8 @@ namespace System { class Type; }
 #define JANKDPCJDKH_KEOGIKIPECH_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D011610)
 #define JANKDPCJDKH_KEOGIKIPECH_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D011460)
 
+inline static constexpr unsigned int JANKDPCJDKH_KEOGIKIPECH_TypeDefinitionIndex = 13251;
+
 	class JANKDPCJDKH_KEOGIKIPECH : public ::System::MulticastDelegate
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define HILCBNGIFKL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E599F70)
 #define HILCBNGIFKL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E599FD0)
 
+inline static constexpr unsigned int HILCBNGIFKL_TypeDefinitionIndex = 25305;
+
 	class HILCBNGIFKL : public ::System::Object
 	{
 	public:

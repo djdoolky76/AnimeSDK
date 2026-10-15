@@ -15,6 +15,8 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int FieldByRefUpdater_TypeDefinitionIndex = 3491;
+
 	class FieldByRefUpdater : public ::System::Linq::Expressions::Interpreter::ByRefUpdater
 	{
 	public:

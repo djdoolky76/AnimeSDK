@@ -6,6 +6,8 @@ class EOABGMGNKGA;
 #define JDMKCIJPDHE_CTOR_OFFSET UNITYSDK_OFFSET(0x165D8470)
 #define JDMKCIJPDHE_KEOKEELBKHI_OFFSET UNITYSDK_OFFSET(0x165D8480)
 
+inline static constexpr unsigned int JDMKCIJPDHE_TypeDefinitionIndex = 60892;
+
 	class JDMKCIJPDHE : public ::System::Object
 	{
 	public:

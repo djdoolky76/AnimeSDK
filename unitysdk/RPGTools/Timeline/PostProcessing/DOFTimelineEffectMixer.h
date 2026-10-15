@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int DOFTimelineEffectMixer_TypeDefinitionIndex = 48568;
+
 	class DOFTimelineEffectMixer
 	{
 	public:

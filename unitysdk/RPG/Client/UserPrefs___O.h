@@ -5,6 +5,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UserPrefs___O_TypeDefinitionIndex = 59368;
+
 	class UserPrefs___O : public ::System::Object
 	{
 	public:

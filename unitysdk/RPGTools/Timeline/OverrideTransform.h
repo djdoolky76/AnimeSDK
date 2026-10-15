@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int OverrideTransform_TypeDefinitionIndex = 48525;
+
 	class OverrideTransform : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TemplateMonoBase_TypeDefinitionIndex = 70778;
+
 	class TemplateMonoBase : public ::RPG::Client::TAMonoBase
 	{
 	public:

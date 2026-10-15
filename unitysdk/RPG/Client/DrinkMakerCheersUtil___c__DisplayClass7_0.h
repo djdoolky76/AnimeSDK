@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DrinkMakerCheersUtil___c__DisplayClass7_0_TypeDefinitionIndex = 63629;
+
 	class DrinkMakerCheersUtil___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

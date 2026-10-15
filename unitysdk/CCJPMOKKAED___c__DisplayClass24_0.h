@@ -7,6 +7,8 @@ class CCJPMOKKAED;
 #define CCJPMOKKAED___C__DISPLAYCLASS24_0__GOTONEXTSEQUENCE_B__0_OFFSET UNITYSDK_OFFSET(0xC749AE0)
 #define CCJPMOKKAED___C__DISPLAYCLASS24_0__GOTONEXTSEQUENCE_B__1_OFFSET UNITYSDK_OFFSET(0xC749B10)
 
+inline static constexpr unsigned int CCJPMOKKAED___c__DisplayClass24_0_TypeDefinitionIndex = 73217;
+
 	class CCJPMOKKAED___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:

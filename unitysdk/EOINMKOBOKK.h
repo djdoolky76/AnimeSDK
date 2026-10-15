@@ -7,6 +7,8 @@ namespace System { class String; }
 #define EOINMKOBOKK_CTOR_OFFSET UNITYSDK_OFFSET(0x155C42B0)
 #define EOINMKOBOKK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x155C41E0)
 
+inline static constexpr unsigned int EOINMKOBOKK_TypeDefinitionIndex = 55868;
+
 	class EOINMKOBOKK : public ::System::Object
 	{
 	public:

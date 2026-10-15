@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MonsterEnergyBarBaseClickConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonsterEnergyBarBaseClickConfig_TypeDefinitionIndex = 23652;
+
 	class MonsterEnergyBarBaseClickConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

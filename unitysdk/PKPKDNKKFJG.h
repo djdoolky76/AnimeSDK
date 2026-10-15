@@ -6,6 +6,8 @@ namespace UnityEngine { class Renderer; }
 #define PKPKDNKKFJG_CTOR_OFFSET UNITYSDK_OFFSET(0xC2EC4C0)
 #define PKPKDNKKFJG_DBEFEPBMBAK_OFFSET UNITYSDK_OFFSET(0xC2EC420)
 
+inline static constexpr unsigned int PKPKDNKKFJG_TypeDefinitionIndex = 47447;
+
 	class PKPKDNKKFJG : public ::NKAKKMMLOPA
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine::Networking { class UnityWebRequest; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int WWW_TypeDefinitionIndex = 6034;
+
 	class WWW : public ::UnityEngine::CustomYieldInstruction
 	{
 	public:

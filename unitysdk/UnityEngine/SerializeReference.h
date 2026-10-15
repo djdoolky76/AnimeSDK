@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int SerializeReference_TypeDefinitionIndex = 4374;
+
 	class SerializeReference : public ::System::Attribute
 	{
 	public:

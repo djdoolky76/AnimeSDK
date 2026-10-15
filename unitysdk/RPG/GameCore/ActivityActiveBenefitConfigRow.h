@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ActivityActiveBenefitConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityActiveBenefitConfigRow_TypeDefinitionIndex = 10898;
+
 	class ActivityActiveBenefitConfigRow : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int EmoAnimLayerEmotionFullClip_TypeDefinitionIndex = 48090;
+
 	class EmoAnimLayerEmotionFullClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

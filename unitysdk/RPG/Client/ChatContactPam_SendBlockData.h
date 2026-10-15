@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChatContactPam_SendBlockData_TypeDefinitionIndex = 63217;
+
 	class ChatContactPam_SendBlockData : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTask_WhenAnyPromise_8_TypeDefinitionIndex = 38310;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
 	class UniTask_WhenAnyPromise_8 : public ::System::Object
 	{

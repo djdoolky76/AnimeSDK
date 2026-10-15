@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MessageBoxDialogContext_MessageBoxMode_TypeDefinitionIndex = 72817;
+
 	enum class MessageBoxDialogContext_MessageBoxMode : ::System::Int32
 	{
 		eOkCancel = 0,

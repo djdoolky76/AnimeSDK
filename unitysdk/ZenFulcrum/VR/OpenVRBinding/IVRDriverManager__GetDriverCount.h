@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRDriverManager__GetDriverCount_TypeDefinitionIndex = 39187;
+
 	class IVRDriverManager__GetDriverCount : public ::System::MulticastDelegate
 	{
 	public:

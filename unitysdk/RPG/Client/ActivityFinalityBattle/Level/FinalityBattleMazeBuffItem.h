@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityFinalityBattle::Level
 {
+	inline static constexpr unsigned int FinalityBattleMazeBuffItem_TypeDefinitionIndex = 82091;
+
 	class FinalityBattleMazeBuffItem : public ::System::Object
 	{
 	public:

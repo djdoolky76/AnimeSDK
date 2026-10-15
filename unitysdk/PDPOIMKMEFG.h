@@ -5,6 +5,8 @@ class HBFIBDGJLHE_OCJKOIKBNIN;
 
 #define PDPOIMKMEFG_AFEKGOIEHLE_OFFSET UNITYSDK_OFFSET(0xC023880)
 
+inline static constexpr unsigned int PDPOIMKMEFG_TypeDefinitionIndex = 82192;
+
 	class PDPOIMKMEFG : public ::System::Object
 	{
 	public:

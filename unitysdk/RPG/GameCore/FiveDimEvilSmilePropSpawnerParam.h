@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimEvilSmileStateOverrideConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimEvilSmilePropSpawnerParam_TypeDefinitionIndex = 18585;
+
 	class FiveDimEvilSmilePropSpawnerParam : public ::RPG::GameCore::FiveDimPropSpawnerParam
 	{
 	public:

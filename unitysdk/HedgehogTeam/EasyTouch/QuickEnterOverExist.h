@@ -17,6 +17,8 @@ namespace HedgehogTeam::EasyTouch { class QuickEnterOverExist_OnTouchOver; }
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int QuickEnterOverExist_TypeDefinitionIndex = 40258;
+
 	class QuickEnterOverExist : public ::HedgehogTeam::EasyTouch::QuickBase
 	{
 	public:

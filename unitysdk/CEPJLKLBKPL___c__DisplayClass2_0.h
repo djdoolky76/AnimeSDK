@@ -8,6 +8,8 @@ namespace System { class Action; }
 #define CEPJLKLBKPL___C__DISPLAYCLASS2_0__FOREACHPETIDENTIFIER_B__0_OFFSET UNITYSDK_OFFSET(0xC9F8750)
 #define CEPJLKLBKPL___C__DISPLAYCLASS2_0__FOREACHPETIDENTIFIER_B__1_OFFSET UNITYSDK_OFFSET(0xC9F87E0)
 
+inline static constexpr unsigned int CEPJLKLBKPL___c__DisplayClass2_0_TypeDefinitionIndex = 75676;
+
 	class CEPJLKLBKPL___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

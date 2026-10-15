@@ -10,6 +10,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveChatService; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveChatService___c__DisplayClass17_0_TypeDefinitionIndex = 75283;
+
 	class IdleLiveChatService___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

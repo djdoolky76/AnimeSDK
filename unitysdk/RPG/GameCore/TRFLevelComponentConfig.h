@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TRFStageConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TRFLevelComponentConfig_TypeDefinitionIndex = 18906;
+
 	class TRFLevelComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

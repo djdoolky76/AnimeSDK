@@ -9,6 +9,8 @@ namespace System { class String; }
 #define IMCMDHDALIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF22300)
 #define IMCMDHDALIB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF21FD0)
 
+inline static constexpr unsigned int IMCMDHDALIB_TypeDefinitionIndex = 13963;
+
 	class IMCMDHDALIB : public ::System::Object
 	{
 	public:

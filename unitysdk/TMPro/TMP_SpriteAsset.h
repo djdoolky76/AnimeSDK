@@ -41,6 +41,8 @@ namespace UnityEngine { class Texture; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_SpriteAsset_TypeDefinitionIndex = 44635;
+
 	class TMP_SpriteAsset : public ::TMPro::TMP_Asset
 	{
 	public:

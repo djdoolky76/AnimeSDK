@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SkillRelatedAvatarDataGroup_TypeDefinitionIndex = 62475;
+
 	class SkillRelatedAvatarDataGroup : public ::System::Object
 	{
 	public:

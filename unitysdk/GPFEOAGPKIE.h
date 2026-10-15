@@ -42,6 +42,8 @@ namespace UnityEngine { class GameObject; }
 #define GPFEOAGPKIE_OOCNHBAAHOK_OFFSET UNITYSDK_OFFSET(0x15B55C70)
 #define GPFEOAGPKIE_SET_ISPOSTSMOOTH_OFFSET UNITYSDK_OFFSET(0x15B57E60)
 
+inline static constexpr unsigned int GPFEOAGPKIE_TypeDefinitionIndex = 48904;
+
 	class GPFEOAGPKIE : public ::System::Object
 	{
 	public:

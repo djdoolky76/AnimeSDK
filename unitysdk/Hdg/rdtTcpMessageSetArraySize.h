@@ -11,6 +11,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int rdtTcpMessageSetArraySize_TypeDefinitionIndex = 46987;
+
 	struct alignas(8) rdtTcpMessageSetArraySize
 	{
 		::System::Int32 m_gameObjectInstanceId; // 0x10

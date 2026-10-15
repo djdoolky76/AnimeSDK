@@ -31,6 +31,8 @@ namespace System { class String; }
 #define BHLEHMNFHPJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDF7290)
 #define BHLEHMNFHPJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDF72F0)
 
+inline static constexpr unsigned int BHLEHMNFHPJ_TypeDefinitionIndex = 32716;
+
 	class BHLEHMNFHPJ : public ::System::Object
 	{
 	public:

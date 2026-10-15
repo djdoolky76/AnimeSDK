@@ -11,6 +11,8 @@ namespace System { class Action; }
 
 namespace UnityEngine::UIElements::UIR
 {
+	inline static constexpr unsigned int Utility_TypeDefinitionIndex = 6008;
+
 	class Utility : public ::System::Object
 	{
 	public:

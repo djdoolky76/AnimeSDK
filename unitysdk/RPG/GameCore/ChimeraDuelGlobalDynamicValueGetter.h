@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelGlobalDynamicValueGetter_TypeDefinitionIndex = 15998;
+
 	class ChimeraDuelGlobalDynamicValueGetter : public ::RPG::GameCore::BaseChimeraDuelValueGetter
 	{
 	public:

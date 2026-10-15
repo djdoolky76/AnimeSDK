@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int StopStoryLightControlClip_TypeDefinitionIndex = 48339;
+
 	class StopStoryLightControlClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

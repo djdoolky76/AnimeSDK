@@ -7,6 +7,8 @@ class FHKDJADCDBL;
 #define FHKDJADCDBL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDF1370)
 #define FHKDJADCDBL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDF12D0)
 
+inline static constexpr unsigned int FHKDJADCDBL_TypeDefinitionIndex = 14974;
+
 	class FHKDJADCDBL : public ::System::Object
 	{
 	public:

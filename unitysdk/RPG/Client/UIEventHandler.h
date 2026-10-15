@@ -13,6 +13,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIEventHandler_TypeDefinitionIndex = 69014;
+
 	class UIEventHandler : public ::System::MulticastDelegate
 	{
 	public:

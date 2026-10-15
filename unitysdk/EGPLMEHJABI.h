@@ -16,6 +16,8 @@ namespace System { class Object; }
 #define EGPLMEHJABI_NBMGPMBMKJI_OFFSET UNITYSDK_OFFSET(0x1549CB60)
 #define EGPLMEHJABI_NKNNIDKJKOJ_OFFSET UNITYSDK_OFFSET(0x1549CCA0)
 
+inline static constexpr unsigned int EGPLMEHJABI_TypeDefinitionIndex = 77730;
+
 	class EGPLMEHJABI : public ::System::Object
 	{
 	public:

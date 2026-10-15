@@ -6,6 +6,8 @@
 
 namespace XLua
 {
+	inline static constexpr unsigned int LuaHookEvent_TypeDefinitionIndex = 50250;
+
 	class LuaHookEvent : public ::System::Object
 	{
 	public:

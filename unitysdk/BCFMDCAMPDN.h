@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define BCFMDCAMPDN_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x15EA6850)
 #define BCFMDCAMPDN_INVOKE_OFFSET UNITYSDK_OFFSET(0x15EA6800)
 
+inline static constexpr unsigned int BCFMDCAMPDN_TypeDefinitionIndex = 62204;
+
 	class BCFMDCAMPDN : public ::System::MulticastDelegate
 	{
 	public:

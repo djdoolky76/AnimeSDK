@@ -19,6 +19,8 @@ namespace System { class String; }
 #define BFCMIKLIMIB_NPIJEDDFMMC_OFFSET UNITYSDK_OFFSET(0xB1603A0)
 #define BFCMIKLIMIB_OIENNDOOCCF_OFFSET UNITYSDK_OFFSET(0xB1601D0)
 
+inline static constexpr unsigned int BFCMIKLIMIB_TypeDefinitionIndex = 72118;
+
 	class BFCMIKLIMIB : public ::System::Object
 	{
 	public:

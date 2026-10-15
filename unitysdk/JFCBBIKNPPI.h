@@ -7,6 +7,8 @@
 #define JFCBBIKNPPI_LIMKHPGCOFC_OFFSET UNITYSDK_OFFSET(0x16645F90)
 #define JFCBBIKNPPI_NAJOPNMPHPF_OFFSET UNITYSDK_OFFSET(0x16645E10)
 
+inline static constexpr unsigned int JFCBBIKNPPI_TypeDefinitionIndex = 73092;
+
 	class JFCBBIKNPPI : public ::System::Object
 	{
 	public:

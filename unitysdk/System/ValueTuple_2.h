@@ -3,6 +3,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int ValueTuple_2_TypeDefinitionIndex = 129;
+
 	template <typename T1, typename T2>
 	struct alignas(8) ValueTuple_2
 	{

@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 #define HIMNNOODBEG_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x15CF9150)
 #define HIMNNOODBEG__ONBIND_OFFSET UNITYSDK_OFFSET(0x15CF8FF0)
 
+inline static constexpr unsigned int HIMNNOODBEG_TypeDefinitionIndex = 71846;
+
 	class HIMNNOODBEG : public ::FMPCODLIOLG
 	{
 	public:

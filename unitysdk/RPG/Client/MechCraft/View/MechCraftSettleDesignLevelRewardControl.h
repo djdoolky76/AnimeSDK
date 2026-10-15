@@ -22,6 +22,8 @@ namespace UnityEngine::UI { class Slider; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftSettleDesignLevelRewardControl_TypeDefinitionIndex = 80028;
+
 	class MechCraftSettleDesignLevelRewardControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

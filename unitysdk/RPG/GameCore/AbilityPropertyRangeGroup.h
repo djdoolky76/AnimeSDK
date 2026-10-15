@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicValueRangeCallback; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityPropertyRangeGroup_TypeDefinitionIndex = 18227;
+
 	class AbilityPropertyRangeGroup : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class Action; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightGuideTalkConfig_TypeDefinitionIndex = 53588;
+
 	class GridFightGuideTalkConfig : public ::System::Object
 	{
 	public:

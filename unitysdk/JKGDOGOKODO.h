@@ -26,6 +26,8 @@ namespace ZLinq { class ValueEnumerable; }
 #define JKGDOGOKODO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D041DE0)
 #define JKGDOGOKODO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0416E0)
 
+inline static constexpr unsigned int JKGDOGOKODO_TypeDefinitionIndex = 14996;
+
 	class JKGDOGOKODO : public ::System::Object
 	{
 	public:

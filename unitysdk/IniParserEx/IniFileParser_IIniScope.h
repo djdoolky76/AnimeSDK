@@ -3,6 +3,8 @@
 
 namespace IniParserEx
 {
+	inline static constexpr unsigned int IniFileParser_IIniScope_TypeDefinitionIndex = 3941;
+
 	class IniFileParser_IIniScope
 	{
 	public:

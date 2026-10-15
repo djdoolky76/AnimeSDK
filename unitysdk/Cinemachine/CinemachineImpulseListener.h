@@ -10,6 +10,8 @@ namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineImpulseListener_TypeDefinitionIndex = 39869;
+
 	class CinemachineImpulseListener : public ::Cinemachine::CinemachineExtension
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define EEMHJEMILIA_CTOR_OFFSET UNITYSDK_OFFSET(0x13A3E6D0)
 
+inline static constexpr unsigned int EEMHJEMILIA_TypeDefinitionIndex = 48027;
+
 	class EEMHJEMILIA : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -20,6 +20,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharacterDissolveBehavior_TypeDefinitionIndex = 70265;
+
 	class CharacterDissolveBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

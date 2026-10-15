@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTrainPartyBuildItem_TypeDefinitionIndex = 68872;
+
 	class MonoTrainPartyBuildItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

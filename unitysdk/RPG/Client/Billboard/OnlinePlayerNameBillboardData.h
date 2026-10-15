@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Billboard
 {
+	inline static constexpr unsigned int OnlinePlayerNameBillboardData_TypeDefinitionIndex = 74986;
+
 	class OnlinePlayerNameBillboardData : public ::System::Object
 	{
 	public:

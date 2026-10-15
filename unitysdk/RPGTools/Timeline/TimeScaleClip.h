@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TimeScaleClip_TypeDefinitionIndex = 48516;
+
 	class TimeScaleClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

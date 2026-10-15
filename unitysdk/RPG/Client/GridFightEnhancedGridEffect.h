@@ -11,6 +11,8 @@ namespace RPG::Client { class GridFightGridData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEnhancedGridEffect_TypeDefinitionIndex = 64835;
+
 	class GridFightEnhancedGridEffect : public ::EBMFAGKJIIM
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define HFJCGEMMPKB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E56CAD0)
 #define HFJCGEMMPKB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E56CB30)
 
+inline static constexpr unsigned int HFJCGEMMPKB_TypeDefinitionIndex = 35135;
+
 	class HFJCGEMMPKB : public ::System::Object
 	{
 	public:

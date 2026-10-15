@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GlobalVisibilityControl_TypeDefinitionIndex = 20274;
+
 	class GlobalVisibilityControl : public ::RPG::GameCore::TaskConfig
 	{
 	public:

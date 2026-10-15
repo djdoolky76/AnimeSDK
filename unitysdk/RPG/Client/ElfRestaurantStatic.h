@@ -78,6 +78,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfRestaurantStatic_TypeDefinitionIndex = 63660;
+
 	class ElfRestaurantStatic : public ::System::Object
 	{
 	public:

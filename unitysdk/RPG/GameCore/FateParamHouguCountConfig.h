@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateParamHouguCountConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateParamHouguCountConfig_TypeDefinitionIndex = 16640;
+
 	class FateParamHouguCountConfig : public ::RPG::GameCore::FateParameterConfigBase
 	{
 	public:

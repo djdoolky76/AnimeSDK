@@ -58,6 +58,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityStrongChallengeModule_TypeDefinitionIndex = 61910;
+
 	class ActivityStrongChallengeModule : public ::RPG::Client::BaseModule
 	{
 	public:

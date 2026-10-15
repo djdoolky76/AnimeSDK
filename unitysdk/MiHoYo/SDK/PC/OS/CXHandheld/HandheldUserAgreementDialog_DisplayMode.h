@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int HandheldUserAgreementDialog_DisplayMode_TypeDefinitionIndex = 8820;
+
 	enum class HandheldUserAgreementDialog_DisplayMode : ::System::Int32
 	{
 		DisplayForAccountBinding = 0,

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NOGLDANAKDO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB8A2D0)
 #define NOGLDANAKDO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EB8A2E0)
 
+inline static constexpr unsigned int NOGLDANAKDO___c_TypeDefinitionIndex = 29648;
+
 	class NOGLDANAKDO___c : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System::Xml::Schema { class FacetsChecker; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_byte_TypeDefinitionIndex = 2139;
+
 	class Datatype_byte : public ::System::Xml::Schema::Datatype_short
 	{
 	public:

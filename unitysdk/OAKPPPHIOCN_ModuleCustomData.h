@@ -9,6 +9,8 @@ class OAKPPPHIOCN_ItemData;
 #define OAKPPPHIOCN_MODULECUSTOMDATA_GET_CUSTOMUVTILLING_OFFSET UNITYSDK_OFFSET(0x22A10)
 #define OAKPPPHIOCN_MODULECUSTOMDATA_GET_ITEMDATA_OFFSET UNITYSDK_OFFSET(0x22A80)
 
+inline static constexpr unsigned int OAKPPPHIOCN_ModuleCustomData_TypeDefinitionIndex = 48866;
+
 	struct alignas(4) OAKPPPHIOCN_ModuleCustomData
 	{
 		::System::Boolean IfEnableDeform; // 0x10

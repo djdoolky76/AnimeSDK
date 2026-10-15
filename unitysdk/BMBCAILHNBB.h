@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BMBCAILHNBB_SET_SORTLISTS_OFFSET UNITYSDK_OFFSET(0xBA89AC0)
 #define BMBCAILHNBB__SORTWEAPONLIST_B__1_2_OFFSET UNITYSDK_OFFSET(0xBA89AF0)
 
+inline static constexpr unsigned int BMBCAILHNBB_TypeDefinitionIndex = 53578;
+
 	class BMBCAILHNBB : public ::System::Object
 	{
 	public:

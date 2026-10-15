@@ -28,6 +28,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceNodeVariantListControl_TypeDefinitionIndex = 81526;
+
 	class ChallengeTierceNodeVariantListControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

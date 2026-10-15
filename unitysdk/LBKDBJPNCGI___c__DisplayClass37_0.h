@@ -9,6 +9,8 @@ namespace System { class Exception; }
 #define LBKDBJPNCGI___C__DISPLAYCLASS37_0__STARTPVPMATCH_B__0_OFFSET UNITYSDK_OFFSET(0xB6068A0)
 #define LBKDBJPNCGI___C__DISPLAYCLASS37_0__STARTPVPMATCH_B__1_OFFSET UNITYSDK_OFFSET(0xB6069C0)
 
+inline static constexpr unsigned int LBKDBJPNCGI___c__DisplayClass37_0_TypeDefinitionIndex = 76114;
+
 	class LBKDBJPNCGI___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:

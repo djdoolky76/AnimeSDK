@@ -23,6 +23,8 @@ namespace System::Reflection { class MemberInfo; }
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int TypeExtensions_TypeDefinitionIndex = 9685;
+
 	class TypeExtensions : public ::System::Object
 	{
 	public:

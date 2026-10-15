@@ -40,6 +40,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2Stage_TypeDefinitionIndex = 76172;
+
 	class DiceCombatV2Stage : public ::System::Object
 	{
 	public:

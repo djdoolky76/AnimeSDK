@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LoadBackgroundPlayer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoadBackgroundPlayer_TypeDefinitionIndex = 20222;
+
 	class LoadBackgroundPlayer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

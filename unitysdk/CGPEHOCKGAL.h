@@ -11,6 +11,8 @@ class OMNJCDDMLHI;
 #define CGPEHOCKGAL_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xCC8CEF0)
 #define CGPEHOCKGAL_PBDNAIDEIPK_OFFSET UNITYSDK_OFFSET(0xCC8CF50)
 
+inline static constexpr unsigned int CGPEHOCKGAL_TypeDefinitionIndex = 77958;
+
 	class CGPEHOCKGAL : public ::System::Object
 	{
 	public:

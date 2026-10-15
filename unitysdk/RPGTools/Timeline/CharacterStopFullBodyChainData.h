@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterStopFullBodyChainData_TypeDefinitionIndex = 47968;
+
 	class CharacterStopFullBodyChainData : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RuntimeGroupInfo; }
 #define FDKKDPIHFKL_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x156DDEF0)
 #define FDKKDPIHFKL_SET_RUNTIMEGROUPINFO_OFFSET UNITYSDK_OFFSET(0x156DDF50)
 
+inline static constexpr unsigned int FDKKDPIHFKL_TypeDefinitionIndex = 62129;
+
 	class FDKKDPIHFKL : public ::System::Object
 	{
 	public:

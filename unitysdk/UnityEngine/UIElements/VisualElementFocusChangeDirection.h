@@ -11,6 +11,8 @@ namespace UnityEngine::UIElements { class VisualElementFocusChangeDirection; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int VisualElementFocusChangeDirection_TypeDefinitionIndex = 5905;
+
 	class VisualElementFocusChangeDirection : public ::UnityEngine::UIElements::FocusChangeDirection
 	{
 	public:

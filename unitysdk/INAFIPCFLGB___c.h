@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define INAFIPCFLGB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6BCAC0)
 #define INAFIPCFLGB___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E6BCAD0)
 
+inline static constexpr unsigned int INAFIPCFLGB___c_TypeDefinitionIndex = 30806;
+
 	class INAFIPCFLGB___c : public ::System::Object
 	{
 	public:

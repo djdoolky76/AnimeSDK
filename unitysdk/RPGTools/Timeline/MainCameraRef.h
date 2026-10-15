@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int MainCameraRef_TypeDefinitionIndex = 48444;
+
 	class MainCameraRef : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

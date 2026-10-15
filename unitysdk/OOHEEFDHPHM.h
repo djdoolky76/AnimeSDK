@@ -19,6 +19,8 @@ namespace RPG::Client { class PhotoGraphSystem; }
 #define OOHEEFDHPHM_OBFPCFCNCEL_OFFSET UNITYSDK_OFFSET(0xBF7DB60)
 #define OOHEEFDHPHM_SET_ISRECORDING_OFFSET UNITYSDK_OFFSET(0xBF7DC50)
 
+inline static constexpr unsigned int OOHEEFDHPHM_TypeDefinitionIndex = 60935;
+
 	class OOHEEFDHPHM : public ::System::Object
 	{
 	public:

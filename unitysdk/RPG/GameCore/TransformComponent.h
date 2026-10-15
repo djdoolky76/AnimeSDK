@@ -120,6 +120,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TransformComponent_TypeDefinitionIndex = 57722;
+
 	class TransformComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

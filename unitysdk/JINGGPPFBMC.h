@@ -17,6 +17,8 @@ namespace System { class Object; }
 #define JINGGPPFBMC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB1FE350)
 #define JINGGPPFBMC_TICK_OFFSET UNITYSDK_OFFSET(0xB1FE430)
 
+inline static constexpr unsigned int JINGGPPFBMC_TypeDefinitionIndex = 52700;
+
 	class JINGGPPFBMC : public ::GELIALJDFBL
 	{
 	public:

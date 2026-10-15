@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UniversalHotFixPredicateC_TypeDefinitionIndex = 23363;
+
 	class UniversalHotFixPredicateC : public ::RPG::GameCore::UniversalHotFixBasePredicate
 	{
 	public:

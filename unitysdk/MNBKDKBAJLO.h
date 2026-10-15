@@ -12,6 +12,8 @@ namespace UnityEngine { class RenderTexture; }
 #define MNBKDKBAJLO_CTOR_OFFSET UNITYSDK_OFFSET(0xB9E2DD0)
 #define MNBKDKBAJLO_FIMICOPOBKA_OFFSET UNITYSDK_OFFSET(0xB9E2EB0)
 
+inline static constexpr unsigned int MNBKDKBAJLO_TypeDefinitionIndex = 49555;
+
 	class MNBKDKBAJLO : public ::System::Object
 	{
 	public:

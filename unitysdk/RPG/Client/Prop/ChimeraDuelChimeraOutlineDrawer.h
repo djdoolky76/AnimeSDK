@@ -15,6 +15,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelChimeraOutlineDrawer_TypeDefinitionIndex = 78329;
+
 	class ChimeraDuelChimeraOutlineDrawer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

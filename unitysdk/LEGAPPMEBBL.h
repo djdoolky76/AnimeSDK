@@ -85,6 +85,8 @@ namespace System { class String; }
 #define LEGAPPMEBBL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E92AA20)
 #define LEGAPPMEBBL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E92AA80)
 
+inline static constexpr unsigned int LEGAPPMEBBL_TypeDefinitionIndex = 32010;
+
 	class LEGAPPMEBBL : public ::System::Object
 	{
 	public:

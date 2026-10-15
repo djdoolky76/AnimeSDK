@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleRogueMagicData_MagicUnit_TypeDefinitionIndex = 56317;
+
 	class BattleRogueMagicData_MagicUnit : public ::System::Object
 	{
 	public:

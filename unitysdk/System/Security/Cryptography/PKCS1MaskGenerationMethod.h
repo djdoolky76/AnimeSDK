@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int PKCS1MaskGenerationMethod_TypeDefinitionIndex = 1037;
+
 	class PKCS1MaskGenerationMethod : public ::System::Security::Cryptography::MaskGenerationMethod
 	{
 	public:

@@ -19,6 +19,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define CFALFIPEHJH_LEIONODFFJE_PAPFODNFFND_OFFSET UNITYSDK_OFFSET(0xCA04130)
 #define CFALFIPEHJH_LEIONODFFJE_SET_FORBIDTURNRECOVERONEUPDATE_OFFSET UNITYSDK_OFFSET(0xCA04160)
 
+inline static constexpr unsigned int CFALFIPEHJH_LEIONODFFJE_TypeDefinitionIndex = 74187;
+
 	class CFALFIPEHJH_LEIONODFFJE : public ::System::Object
 	{
 	public:

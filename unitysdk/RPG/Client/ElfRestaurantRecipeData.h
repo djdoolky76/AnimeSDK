@@ -51,6 +51,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfRestaurantRecipeData_TypeDefinitionIndex = 63753;
+
 	class ElfRestaurantRecipeData : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 #define PAOKNKNHCOH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4CFC70)
 #define PAOKNKNHCOH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4CFC60)
 
+inline static constexpr unsigned int PAOKNKNHCOH_TypeDefinitionIndex = 41421;
+
 	class PAOKNKNHCOH : public ::System::Object
 	{
 	public:

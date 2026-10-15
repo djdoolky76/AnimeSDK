@@ -10,6 +10,8 @@ class CEKIFBMPEFH;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AlleyModule___c__DisplayClass36_0_TypeDefinitionIndex = 62252;
+
 	class AlleyModule___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:

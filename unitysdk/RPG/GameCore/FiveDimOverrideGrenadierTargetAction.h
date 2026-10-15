@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimOverrideGrenadierTargetAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimOverrideGrenadierTargetAction_TypeDefinitionIndex = 18791;
+
 	class FiveDimOverrideGrenadierTargetAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

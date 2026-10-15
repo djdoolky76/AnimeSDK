@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MuseumTargetRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MuseumTargetRow_TypeDefinitionIndex = 14240;
+
 	class MuseumTargetRow : public ::System::Object
 	{
 	public:

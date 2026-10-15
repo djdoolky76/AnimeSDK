@@ -20,6 +20,8 @@ namespace System { class Nullable; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceBossEnvironmentHintViewModel_TypeDefinitionIndex = 81596;
+
 	class ChallengeTierceBossEnvironmentHintViewModel : public ::System::Object
 	{
 	public:

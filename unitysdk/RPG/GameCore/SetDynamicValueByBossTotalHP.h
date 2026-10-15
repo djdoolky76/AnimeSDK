@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByBossTotalHP_TypeDefinitionIndex = 22770;
+
 	class SetDynamicValueByBossTotalHP : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

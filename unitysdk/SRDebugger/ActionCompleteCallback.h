@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace SRDebugger
 {
+	inline static constexpr unsigned int ActionCompleteCallback_TypeDefinitionIndex = 37966;
+
 	class ActionCompleteCallback : public ::System::MulticastDelegate
 	{
 	public:

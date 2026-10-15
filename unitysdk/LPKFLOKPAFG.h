@@ -5,6 +5,8 @@
 #define LPKFLOKPAFG_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xB822850)
 #define LPKFLOKPAFG_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xB822860)
 
+inline static constexpr unsigned int LPKFLOKPAFG_TypeDefinitionIndex = 74011;
+
 	class LPKFLOKPAFG
 	{
 	public:

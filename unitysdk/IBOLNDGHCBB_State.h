@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int IBOLNDGHCBB_State_TypeDefinitionIndex = 60992;
+
 	enum class IBOLNDGHCBB_State : ::System::Int32
 	{
 		WaitStart = 0,

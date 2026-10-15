@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FourRotateVoxelCameraConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelCameraConfig_TypeDefinitionIndex = 16738;
+
 	class FourRotateVoxelCameraConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

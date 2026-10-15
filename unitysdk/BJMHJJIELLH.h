@@ -45,6 +45,8 @@ namespace System { class String; }
 #define BJMHJJIELLH_OLNDMANFKGF_OFFSET UNITYSDK_OFFSET(0xB7A7A00)
 #define BJMHJJIELLH_PODPCBFDNNI_OFFSET UNITYSDK_OFFSET(0xB7A86B0)
 
+inline static constexpr unsigned int BJMHJJIELLH_TypeDefinitionIndex = 80830;
+
 	class BJMHJJIELLH : public ::System::Object
 	{
 	public:

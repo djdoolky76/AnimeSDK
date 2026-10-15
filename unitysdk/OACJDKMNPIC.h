@@ -27,6 +27,8 @@ namespace System { class String; }
 #define OACJDKMNPIC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EBA4DC0)
 #define OACJDKMNPIC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EBA4E20)
 
+inline static constexpr unsigned int OACJDKMNPIC_TypeDefinitionIndex = 31069;
+
 	class OACJDKMNPIC : public ::System::Object
 	{
 	public:

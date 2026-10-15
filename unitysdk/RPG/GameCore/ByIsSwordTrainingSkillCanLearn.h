@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsSwordTrainingSkillCanLearn_TypeDefinitionIndex = 24368;
+
 	class ByIsSwordTrainingSkillCanLearn : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

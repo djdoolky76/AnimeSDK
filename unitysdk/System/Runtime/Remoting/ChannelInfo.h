@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace System::Runtime::Remoting
 {
+	inline static constexpr unsigned int ChannelInfo_TypeDefinitionIndex = 1201;
+
 	class ChannelInfo : public ::System::Object
 	{
 	public:

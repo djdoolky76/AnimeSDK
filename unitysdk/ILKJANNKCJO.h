@@ -7,6 +7,8 @@ namespace RPG::GameCore { class AdventureDyingParam; }
 #define ILKJANNKCJO_CLEAR_OFFSET UNITYSDK_OFFSET(0x164C4030)
 #define ILKJANNKCJO_CTOR_OFFSET UNITYSDK_OFFSET(0x164C4080)
 
+inline static constexpr unsigned int ILKJANNKCJO_TypeDefinitionIndex = 57920;
+
 	class ILKJANNKCJO : public ::System::Object
 	{
 	public:

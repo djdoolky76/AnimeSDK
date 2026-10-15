@@ -137,6 +137,8 @@ namespace UnityEngine { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AssetBundle_TypeDefinitionIndex = 5762;
+
 	class AssetBundle : public ::UnityEngine::Object
 	{
 	public:

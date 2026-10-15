@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JMFKIPNGAFF_CTOR_OFFSET UNITYSDK_OFFSET(0xB2628A0)
 #define JMFKIPNGAFF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB2628D0)
 
+inline static constexpr unsigned int JMFKIPNGAFF_TypeDefinitionIndex = 54450;
+
 	class JMFKIPNGAFF
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ByCompareRogueRemainMonsterNum; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareRogueRemainMonsterNum_TypeDefinitionIndex = 20801;
+
 	class ByCompareRogueRemainMonsterNum : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

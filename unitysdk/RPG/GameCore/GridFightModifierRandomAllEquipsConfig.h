@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierRandomAllEquipsConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierRandomAllEquipsConfig_TypeDefinitionIndex = 19431;
+
 	class GridFightModifierRandomAllEquipsConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

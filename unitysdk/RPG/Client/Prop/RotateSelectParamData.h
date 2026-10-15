@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int RotateSelectParamData_TypeDefinitionIndex = 78812;
+
 	class RotateSelectParamData : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RootMotion::FinalIK { class GroundingThread; }
 
 namespace RootMotion::FinalIK
 {
+	inline static constexpr unsigned int GroundingThread_Pelvis_TypeDefinitionIndex = 46002;
+
 	struct alignas(8) GroundingThread_Pelvis
 	{
 		::UnityEngine::Vector3 IKOffset; // 0x10

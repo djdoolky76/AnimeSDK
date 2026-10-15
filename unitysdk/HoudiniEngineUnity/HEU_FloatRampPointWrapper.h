@@ -9,6 +9,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_FloatRampPointWrapper_TypeDefinitionIndex = 40572;
+
 	class HEU_FloatRampPointWrapper : public ::HoudiniEngineUnity::HEU_RampPointWrapper
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DOINPNEOMDK_HBECOCLIENB_OFFSET UNITYSDK_OFFSET(0x11FEAA10)
 #define DOINPNEOMDK_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x11FEA710)
 
+inline static constexpr unsigned int DOINPNEOMDK_TypeDefinitionIndex = 61450;
+
 	class DOINPNEOMDK : public ::System::Object
 	{
 	public:

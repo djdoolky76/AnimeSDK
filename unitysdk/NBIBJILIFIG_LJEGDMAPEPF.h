@@ -12,6 +12,8 @@ namespace System { class String; }
 #define NBIBJILIFIG_LJEGDMAPEPF_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C786450)
 #define NBIBJILIFIG_LJEGDMAPEPF_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C786040)
 
+inline static constexpr unsigned int NBIBJILIFIG_LJEGDMAPEPF_TypeDefinitionIndex = 36955;
+
 	class NBIBJILIFIG_LJEGDMAPEPF : public ::System::MulticastDelegate
 	{
 	public:

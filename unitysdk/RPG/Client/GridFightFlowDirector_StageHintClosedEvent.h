@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightFlowDirector_StageHintClosedEvent_TypeDefinitionIndex = 64579;
+
 	class GridFightFlowDirector_StageHintClosedEvent
 	{
 	public:

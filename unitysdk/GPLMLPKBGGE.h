@@ -18,6 +18,8 @@ namespace System { class Object; }
 #define GPLMLPKBGGE_IJLGPAFEBPH_OFFSET UNITYSDK_OFFSET(0x1C5578C0)
 #define GPLMLPKBGGE_JCMNLDPKAEK_OFFSET UNITYSDK_OFFSET(0x1C5579A0)
 
+inline static constexpr unsigned int GPLMLPKBGGE_TypeDefinitionIndex = 41862;
+
 	class GPLMLPKBGGE : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace IFix
 {
+	inline static constexpr unsigned int IDMAP1_TypeDefinitionIndex = 82336;
+
 	enum class IDMAP1 : ::System::Int32
 	{
 		POPMABHOCDI_HBOLGHNHECG1 = 38590,

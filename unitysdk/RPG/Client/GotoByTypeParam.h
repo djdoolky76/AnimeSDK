@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GotoByTypeParam_TypeDefinitionIndex = 65530;
+
 	class GotoByTypeParam : public ::System::Object
 	{
 	public:

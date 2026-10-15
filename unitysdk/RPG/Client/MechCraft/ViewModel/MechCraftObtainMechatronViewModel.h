@@ -12,6 +12,8 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftObtainMechatronUI3D
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftObtainMechatronViewModel_TypeDefinitionIndex = 79654;
+
 	class MechCraftObtainMechatronViewModel : public ::System::Object
 	{
 	public:

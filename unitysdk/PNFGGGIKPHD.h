@@ -8,6 +8,8 @@ namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 #define PNFGGGIKPHD_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xC3365A0)
 #define PNFGGGIKPHD__ONEXECUTE_B__0_0_OFFSET UNITYSDK_OFFSET(0xC336740)
 
+inline static constexpr unsigned int PNFGGGIKPHD_TypeDefinitionIndex = 76279;
+
 	class PNFGGGIKPHD : public ::MLKDDLHNNHH
 	{
 	public:

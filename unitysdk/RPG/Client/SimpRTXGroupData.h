@@ -8,6 +8,8 @@ namespace RPG::Client { class SimpRTXGroup; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SimpRTXGroupData_TypeDefinitionIndex = 70187;
+
 	struct alignas(4) SimpRTXGroupData
 	{
 		::UnityEngine::Vector3 position; // 0x10

@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RuntimeGroupManager_GroupRefreshExtraInfo_TypeDefinitionIndex = 62058;
+
 	class RuntimeGroupManager_GroupRefreshExtraInfo : public ::System::Object
 	{
 	public:

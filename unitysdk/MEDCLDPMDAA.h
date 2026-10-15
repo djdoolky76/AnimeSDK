@@ -25,6 +25,8 @@ namespace System { class String; }
 #define MEDCLDPMDAA__GET_ONEXITCOMMAND_B__27_0_OFFSET UNITYSDK_OFFSET(0xB8BC190)
 #define MEDCLDPMDAA__GET_ONFAVOURCOMMAND_B__24_0_OFFSET UNITYSDK_OFFSET(0xB8BC070)
 
+inline static constexpr unsigned int MEDCLDPMDAA_TypeDefinitionIndex = 73459;
+
 	class MEDCLDPMDAA : public ::System::Object
 	{
 	public:

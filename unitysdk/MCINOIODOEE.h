@@ -21,6 +21,8 @@ namespace System { class String; }
 #define MCINOIODOEE_MEGMIHOJCAM_OFFSET UNITYSDK_OFFSET(0xB8812E0)
 #define MCINOIODOEE_OPCKNBHNBOA_OFFSET UNITYSDK_OFFSET(0xB881980)
 
+inline static constexpr unsigned int MCINOIODOEE_TypeDefinitionIndex = 55934;
+
 	class MCINOIODOEE : public ::JJANGHIBICJ
 	{
 	public:

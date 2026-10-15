@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AdventureSkillMPRefreshParam_TypeDefinitionIndex = 68126;
+
 	class AdventureSkillMPRefreshParam : public ::System::Object
 	{
 	public:

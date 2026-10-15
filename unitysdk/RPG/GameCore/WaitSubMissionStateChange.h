@@ -13,6 +13,8 @@ namespace RPG::GameCore { class WaitSubMissionStateChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitSubMissionStateChange_TypeDefinitionIndex = 20726;
+
 	class WaitSubMissionStateChange : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:

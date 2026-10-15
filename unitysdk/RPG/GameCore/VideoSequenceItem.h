@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VideoSequenceItem_TypeDefinitionIndex = 17017;
+
 	class VideoSequenceItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

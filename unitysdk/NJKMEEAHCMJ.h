@@ -13,6 +13,8 @@ namespace System { class String; }
 #define NJKMEEAHCMJ_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1C79B3B0)
 #define NJKMEEAHCMJ_PKHFPLBIEOO_OFFSET UNITYSDK_OFFSET(0x1C79B6A0)
 
+inline static constexpr unsigned int NJKMEEAHCMJ_TypeDefinitionIndex = 36975;
+
 	class NJKMEEAHCMJ : public ::System::Object
 	{
 	public:

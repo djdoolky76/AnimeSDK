@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BEKKPBIKINI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA638E0)
 #define BEKKPBIKINI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA63940)
 
+inline static constexpr unsigned int BEKKPBIKINI_TypeDefinitionIndex = 27148;
+
 	class BEKKPBIKINI : public ::System::Object
 	{
 	public:

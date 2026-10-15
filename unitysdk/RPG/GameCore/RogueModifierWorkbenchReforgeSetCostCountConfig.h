@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierWorkbenchReforgeSetCostCountConfig;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierWorkbenchReforgeSetCostCountConfig_TypeDefinitionIndex = 17880;
+
 	class RogueModifierWorkbenchReforgeSetCostCountConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

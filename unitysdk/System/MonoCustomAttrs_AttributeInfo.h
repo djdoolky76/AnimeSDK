@@ -9,6 +9,8 @@ namespace System { class AttributeUsageAttribute; }
 
 namespace System
 {
+	inline static constexpr unsigned int MonoCustomAttrs_AttributeInfo_TypeDefinitionIndex = 407;
+
 	class MonoCustomAttrs_AttributeInfo : public ::System::Object
 	{
 	public:

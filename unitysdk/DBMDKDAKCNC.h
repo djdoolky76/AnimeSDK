@@ -33,6 +33,8 @@ namespace System { class String; }
 #define DBMDKDAKCNC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E160BF0)
 #define DBMDKDAKCNC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E160C50)
 
+inline static constexpr unsigned int DBMDKDAKCNC_TypeDefinitionIndex = 30634;
+
 	class DBMDKDAKCNC : public ::System::Object
 	{
 	public:

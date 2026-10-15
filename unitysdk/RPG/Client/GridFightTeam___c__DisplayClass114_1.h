@@ -9,6 +9,8 @@ namespace RPG::Client { class GridFightRole; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTeam___c__DisplayClass114_1_TypeDefinitionIndex = 65169;
+
 	template <typename T>
 	class GridFightTeam___c__DisplayClass114_1 : public ::System::Object
 	{

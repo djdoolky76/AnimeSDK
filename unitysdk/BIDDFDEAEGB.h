@@ -100,6 +100,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define BIDDFDEAEGB_POIFGAFCOLE_OFFSET UNITYSDK_OFFSET(0xB49F1E0)
 #define BIDDFDEAEGB_SET_RAWGROUPSTATE_OFFSET UNITYSDK_OFFSET(0xB4A1E70)
 
+inline static constexpr unsigned int BIDDFDEAEGB_TypeDefinitionIndex = 62109;
+
 	class BIDDFDEAEGB : public ::FDKKDPIHFKL
 	{
 	public:

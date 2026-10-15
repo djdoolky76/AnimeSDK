@@ -25,6 +25,8 @@ namespace System { class String; }
 #define HHGEPOFOLMB_SET_RARITY_OFFSET UNITYSDK_OFFSET(0x15CCC2F0)
 #define HHGEPOFOLMB_SET_SORTINDEX_OFFSET UNITYSDK_OFFSET(0x15CCC3D0)
 
+inline static constexpr unsigned int HHGEPOFOLMB_TypeDefinitionIndex = 62688;
+
 	class HHGEPOFOLMB : public ::System::Object
 	{
 	public:

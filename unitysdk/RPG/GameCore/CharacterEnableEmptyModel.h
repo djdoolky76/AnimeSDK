@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterEnableEmptyModel_TypeDefinitionIndex = 23204;
+
 	class CharacterEnableEmptyModel : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TriggerSoundHit; }
 #define NLMALFMPJCG_CTOR_OFFSET UNITYSDK_OFFSET(0xBC71CD0)
 #define NLMALFMPJCG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC71D00)
 
+inline static constexpr unsigned int NLMALFMPJCG_TypeDefinitionIndex = 56469;
+
 	class NLMALFMPJCG
 	{
 	public:

@@ -7,6 +7,8 @@ class JEKAHBPEMCH;
 #define JEKAHBPEMCH___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1662F9D0)
 #define JEKAHBPEMCH___C__DISPLAYCLASS12_0__PLAYERLEAVESHADOW_B__0_OFFSET UNITYSDK_OFFSET(0x16637EA0)
 
+inline static constexpr unsigned int JEKAHBPEMCH___c__DisplayClass12_0_TypeDefinitionIndex = 76707;
+
 	class JEKAHBPEMCH___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ class GIHHAHEAIHD;
 #define GIHHAHEAIHD___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15A38C90)
 #define GIHHAHEAIHD___C__DISPLAYCLASS5_0___ONBATTLEGAMEPAGEONTURNAVATARCHANGEBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x15A39220)
 
+inline static constexpr unsigned int GIHHAHEAIHD___c__DisplayClass5_0_TypeDefinitionIndex = 72214;
+
 	class GIHHAHEAIHD___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

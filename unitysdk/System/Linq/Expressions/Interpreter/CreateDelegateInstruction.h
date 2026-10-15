@@ -13,6 +13,8 @@ namespace System::Linq::Expressions::Interpreter { class LightDelegateCreator; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int CreateDelegateInstruction_TypeDefinitionIndex = 3640;
+
 	class CreateDelegateInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:

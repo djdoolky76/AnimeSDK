@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 #define AOCHEBFKDIE_GET_TRANS_OFFSET UNITYSDK_OFFSET(0x158A6740)
 #define AOCHEBFKDIE_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x158A6730)
 
+inline static constexpr unsigned int AOCHEBFKDIE_TypeDefinitionIndex = 72379;
+
 	class AOCHEBFKDIE : public ::FMPCODLIOLG
 	{
 	public:

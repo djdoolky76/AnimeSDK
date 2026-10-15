@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MarbleByCheckSealId; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleByCheckSealId_TypeDefinitionIndex = 16887;
+
 	class MarbleByCheckSealId : public ::RPG::GameCore::MarblePredicateConfig
 	{
 	public:

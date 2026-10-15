@@ -36,6 +36,8 @@ namespace System { class String; }
 #define DFJPGILAAON_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1A2C50)
 #define DFJPGILAAON_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1A2CB0)
 
+inline static constexpr unsigned int DFJPGILAAON_TypeDefinitionIndex = 27929;
+
 	class DFJPGILAAON : public ::System::Object
 	{
 	public:

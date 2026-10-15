@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureAnimationMoveRange_TypeDefinitionIndex = 20182;
+
 	class AdventureAnimationMoveRange : public ::RPG::GameCore::JsonConfig
 	{
 	public:

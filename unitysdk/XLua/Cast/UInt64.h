@@ -5,6 +5,8 @@
 
 namespace XLua::Cast
 {
+	inline static constexpr unsigned int UInt64_TypeDefinitionIndex = 50300;
+
 	class UInt64
 	{
 	public:

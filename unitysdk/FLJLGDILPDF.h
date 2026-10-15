@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FLJLGDILPDF_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x15835E70)
 #define FLJLGDILPDF_SET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15836060)
 
+inline static constexpr unsigned int FLJLGDILPDF_TypeDefinitionIndex = 74659;
+
 	class FLJLGDILPDF : public ::System::Object
 	{
 	public:

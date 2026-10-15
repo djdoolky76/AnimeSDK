@@ -10,6 +10,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraEndlessHintStateController_TypeDefinitionIndex = 78492;
+
 	class ChimeraEndlessHintStateController : public ::RPG::Client::Prop::ChimeraPreparationStateControllerBase
 	{
 	public:

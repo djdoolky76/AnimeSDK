@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ByPlantFesIsInMove_TypeDefinitionIndex = 10283;
+
 	class ByPlantFesIsInMove : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

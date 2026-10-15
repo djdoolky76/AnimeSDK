@@ -19,6 +19,8 @@ namespace UnityEngine { class Texture2D; }
 #define LLFKNCJJAIG_NKEFHMBAHNL_OFFSET UNITYSDK_OFFSET(0xB7699D0)
 #define LLFKNCJJAIG_PBLJHCFPEGL_OFFSET UNITYSDK_OFFSET(0xB769AC0)
 
+inline static constexpr unsigned int LLFKNCJJAIG_TypeDefinitionIndex = 48666;
+
 	class LLFKNCJJAIG : public ::System::Object
 	{
 	public:

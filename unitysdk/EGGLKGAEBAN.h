@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EGGLKGAEBAN_FILTER_OFFSET UNITYSDK_OFFSET(0x14518740)
 #define EGGLKGAEBAN_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x14518670)
 
+inline static constexpr unsigned int EGGLKGAEBAN_TypeDefinitionIndex = 75779;
+
 	class EGGLKGAEBAN
 	{
 	public:

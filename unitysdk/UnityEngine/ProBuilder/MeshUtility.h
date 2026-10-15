@@ -30,6 +30,8 @@ namespace UnityEngine::ProBuilder { class Vertex; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int MeshUtility_TypeDefinitionIndex = 44377;
+
 	class MeshUtility : public ::System::Object
 	{
 	public:

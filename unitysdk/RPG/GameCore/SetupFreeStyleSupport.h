@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetupFreeStyleSupport_TypeDefinitionIndex = 21906;
+
 	class SetupFreeStyleSupport : public ::RPG::GameCore::TaskConfig
 	{
 	public:

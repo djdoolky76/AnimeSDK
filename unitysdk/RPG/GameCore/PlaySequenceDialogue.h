@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlaySequenceDialogue_TypeDefinitionIndex = 21125;
+
 	class PlaySequenceDialogue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

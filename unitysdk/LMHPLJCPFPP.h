@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LMHPLJCPFPP_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xB782720)
 #define LMHPLJCPFPP_OONLHNKBHID_OFFSET UNITYSDK_OFFSET(0xB782AB0)
 
+inline static constexpr unsigned int LMHPLJCPFPP_TypeDefinitionIndex = 71413;
+
 	class LMHPLJCPFPP : public ::FMPCODLIOLG
 	{
 	public:

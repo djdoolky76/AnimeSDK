@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BaseChenLingBattleAbilityConditionChecker; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaseChenLingBattleAbilityConditionChecker_TypeDefinitionIndex = 15719;
+
 	class BaseChenLingBattleAbilityConditionChecker : public ::RPG::GameCore::JsonConfig
 	{
 	public:

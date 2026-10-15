@@ -8,6 +8,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PerStateParamBeat_TypeDefinitionIndex = 70802;
+
 	class PerStateParamBeat : public ::System::Object
 	{
 	public:

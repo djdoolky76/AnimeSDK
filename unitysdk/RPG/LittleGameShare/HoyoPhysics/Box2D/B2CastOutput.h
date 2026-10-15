@@ -4,6 +4,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2CastOutput_TypeDefinitionIndex = 36605;
+
 	struct alignas(4) B2CastOutput
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 normal; // 0x10

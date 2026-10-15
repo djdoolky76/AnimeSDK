@@ -15,6 +15,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 #define DAMGIBPGAGJ_RELEASE_OFFSET UNITYSDK_OFFSET(0xDFC55B0)
 #define DAMGIBPGAGJ_TICK_OFFSET UNITYSDK_OFFSET(0xDFC5500)
 
+inline static constexpr unsigned int DAMGIBPGAGJ_TypeDefinitionIndex = 49308;
+
 	class DAMGIBPGAGJ : public ::IEJMFJKDEHJ
 	{
 	public:

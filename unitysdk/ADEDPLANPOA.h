@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ADEDPLANPOA_CTOR_OFFSET UNITYSDK_OFFSET(0xB135920)
 #define ADEDPLANPOA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB135970)
 
+inline static constexpr unsigned int ADEDPLANPOA_TypeDefinitionIndex = 59188;
+
 	class ADEDPLANPOA
 	{
 	public:

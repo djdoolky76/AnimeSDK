@@ -43,6 +43,8 @@ namespace UnityEngine { class Animator; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonMecanim_MecanimTranslator_TypeDefinitionIndex = 45036;
+
 	class SkeletonMecanim_MecanimTranslator : public ::System::Object
 	{
 	public:

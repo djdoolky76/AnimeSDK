@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Internal
 {
+	inline static constexpr unsigned int ExcludeFromDocsAttribute_TypeDefinitionIndex = 4686;
+
 	class ExcludeFromDocsAttribute : public ::System::Attribute
 	{
 	public:

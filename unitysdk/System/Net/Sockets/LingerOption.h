@@ -8,6 +8,8 @@
 
 namespace System::Net::Sockets
 {
+	inline static constexpr unsigned int LingerOption_TypeDefinitionIndex = 2897;
+
 	class LingerOption : public ::System::Object
 	{
 	public:

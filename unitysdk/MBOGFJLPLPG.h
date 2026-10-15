@@ -25,6 +25,8 @@ namespace System { class String; }
 #define MBOGFJLPLPG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9ED940)
 #define MBOGFJLPLPG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9ED9A0)
 
+inline static constexpr unsigned int MBOGFJLPLPG_TypeDefinitionIndex = 33830;
+
 	class MBOGFJLPLPG : public ::System::Object
 	{
 	public:

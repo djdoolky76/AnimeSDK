@@ -11,6 +11,8 @@ namespace RPG::Client { class RelicFilterPlanIconData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RelicFilterPlanIconData_TypeDefinitionIndex = 66889;
+
 	class RelicFilterPlanIconData : public ::System::Object
 	{
 	public:

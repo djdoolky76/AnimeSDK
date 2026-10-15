@@ -13,6 +13,8 @@ namespace RPG::GameCore { class CharacterInputData; }
 #define OMODPHBHKAG_HHGHIDJKAFG_OFFSET UNITYSDK_OFFSET(0xBF45470)
 #define OMODPHBHKAG_IHLPKLIFAMJ_OFFSET UNITYSDK_OFFSET(0xBF44D30)
 
+inline static constexpr unsigned int OMODPHBHKAG_TypeDefinitionIndex = 66391;
+
 	class OMODPHBHKAG : public ::System::Object
 	{
 	public:

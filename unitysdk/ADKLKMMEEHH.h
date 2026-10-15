@@ -31,6 +31,8 @@ namespace UnityEngine { class Transform; }
 #define ADKLKMMEEHH_ONUNSERIALIZEFINISH_OFFSET UNITYSDK_OFFSET(0xB143DA0)
 #define ADKLKMMEEHH_SETHOSTMANAGEDLIGHT_OFFSET UNITYSDK_OFFSET(0xB143A50)
 
+inline static constexpr unsigned int ADKLKMMEEHH_TypeDefinitionIndex = 49071;
+
 	class ADKLKMMEEHH : public ::RPG::Client::TABehaviorBase
 	{
 	public:

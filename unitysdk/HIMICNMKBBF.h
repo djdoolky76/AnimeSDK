@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define HIMICNMKBBF_GOEAPGOAIEB_OFFSET UNITYSDK_OFFSET(0x1C4886E0)
 #define HIMICNMKBBF_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0x1C488950)
 
+inline static constexpr unsigned int HIMICNMKBBF_TypeDefinitionIndex = 41528;
+
 	class HIMICNMKBBF : public ::System::Object
 	{
 	public:

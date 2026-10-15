@@ -12,6 +12,8 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int Normals_TypeDefinitionIndex = 44380;
+
 	class Normals : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GNHEKLOMECL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4E04A0)
 #define GNHEKLOMECL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E4E04B0)
 
+inline static constexpr unsigned int GNHEKLOMECL___c_TypeDefinitionIndex = 34751;
+
 	class GNHEKLOMECL___c : public ::System::Object
 	{
 	public:

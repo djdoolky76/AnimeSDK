@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LNCHJBMIMAF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9B1CE0)
 #define LNCHJBMIMAF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9B1D40)
 
+inline static constexpr unsigned int LNCHJBMIMAF_TypeDefinitionIndex = 31026;
+
 	class LNCHJBMIMAF : public ::System::Object
 	{
 	public:

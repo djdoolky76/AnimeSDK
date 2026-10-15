@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChallengeBadgeConfigRow_TypeDefinitionIndex = 12956;
+
 	class ChallengeBadgeConfigRow : public ::System::Object
 	{
 	public:

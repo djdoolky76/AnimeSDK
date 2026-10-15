@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BaseChimeraViewProxy_TypeDefinitionIndex = 68649;
+
 	class BaseChimeraViewProxy : public ::System::Object
 	{
 	public:

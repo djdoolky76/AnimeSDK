@@ -190,6 +190,8 @@ namespace System::IO { class Stream; }
 #define FKOEECADKFF_PFJJBODEHIG_OFFSET UNITYSDK_OFFSET(0x158233F0)
 #define FKOEECADKFF_PKLFDADEFMG_OFFSET UNITYSDK_OFFSET(0x15812920)
 
+inline static constexpr unsigned int FKOEECADKFF_TypeDefinitionIndex = 58990;
+
 	class FKOEECADKFF : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define OFHGANNPNIH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE47D60)
 #define OFHGANNPNIH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE47DC0)
 
+inline static constexpr unsigned int OFHGANNPNIH_TypeDefinitionIndex = 26725;
+
 	class OFHGANNPNIH : public ::System::Object
 	{
 	public:

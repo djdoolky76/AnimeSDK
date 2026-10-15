@@ -4,6 +4,8 @@
 
 #define ICOHGAPLAPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEE40C0)
 
+inline static constexpr unsigned int ICOHGAPLAPG_TypeDefinitionIndex = 10812;
+
 	class ICOHGAPLAPG : public ::System::Attribute
 	{
 	public:

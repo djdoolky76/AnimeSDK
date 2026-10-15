@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CBOAKMDEIKP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DA072C0)
 #define CBOAKMDEIKP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DA06C60)
 
+inline static constexpr unsigned int CBOAKMDEIKP_TypeDefinitionIndex = 12136;
+
 	class CBOAKMDEIKP : public ::System::Object
 	{
 	public:

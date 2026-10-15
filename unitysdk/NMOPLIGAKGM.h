@@ -38,6 +38,8 @@ namespace System { class String; }
 #define NMOPLIGAKGM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB7BEB0)
 #define NMOPLIGAKGM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB7BF10)
 
+inline static constexpr unsigned int NMOPLIGAKGM_TypeDefinitionIndex = 28702;
+
 	class NMOPLIGAKGM : public ::System::Object
 	{
 	public:

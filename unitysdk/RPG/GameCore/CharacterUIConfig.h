@@ -14,6 +14,8 @@ namespace RPG::GameCore { class EnergyBarConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterUIConfig_TypeDefinitionIndex = 16547;
+
 	class CharacterUIConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

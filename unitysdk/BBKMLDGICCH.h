@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BBKMLDGICCH_CTOR_OFFSET UNITYSDK_OFFSET(0x15E8E5C0)
 #define BBKMLDGICCH_LJBEPMLNPCB_OFFSET UNITYSDK_OFFSET(0x15E8E940)
 
+inline static constexpr unsigned int BBKMLDGICCH_TypeDefinitionIndex = 80515;
+
 	class BBKMLDGICCH : public ::System::Object
 	{
 	public:

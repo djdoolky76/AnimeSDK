@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ColliderButton_VoidEvent_TypeDefinitionIndex = 72517;
+
 	class ColliderButton_VoidEvent : public ::UnityEngine::Events::UnityEvent
 	{
 	public:

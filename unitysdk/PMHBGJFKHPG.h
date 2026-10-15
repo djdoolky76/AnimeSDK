@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CakeRaceProperty.h"
 
+inline static constexpr unsigned int PMHBGJFKHPG_TypeDefinitionIndex = 78042;
+
 	struct alignas(4) PMHBGJFKHPG
 	{
 		::System::UInt32 DFEJABODPGM; // 0x10

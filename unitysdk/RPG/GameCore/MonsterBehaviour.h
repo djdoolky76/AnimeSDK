@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonsterBehaviour_TypeDefinitionIndex = 24066;
+
 	class MonsterBehaviour : public ::RPG::GameCore::TaskConfig
 	{
 	public:

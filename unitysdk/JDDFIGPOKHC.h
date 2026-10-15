@@ -29,6 +29,8 @@ namespace System { class String; }
 #define JDDFIGPOKHC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E707D00)
 #define JDDFIGPOKHC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E707D60)
 
+inline static constexpr unsigned int JDDFIGPOKHC_TypeDefinitionIndex = 29946;
+
 	class JDDFIGPOKHC : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierExtraVictoryBonusConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierExtraVictoryBonusConfig_TypeDefinitionIndex = 19448;
+
 	class GridFightModifierExtraVictoryBonusConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

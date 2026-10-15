@@ -13,6 +13,8 @@ namespace UnityEngine::ProBuilder { class HSVColor; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int HSVColor_TypeDefinitionIndex = 44347;
+
 	class HSVColor : public ::System::Object
 	{
 	public:

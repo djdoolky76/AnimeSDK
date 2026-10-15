@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TriggerAfterImageEffect; }
 #define PJGGHLMLIJP_CTOR_OFFSET UNITYSDK_OFFSET(0xC285FD0)
 #define PJGGHLMLIJP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC286000)
 
+inline static constexpr unsigned int PJGGHLMLIJP_TypeDefinitionIndex = 56465;
+
 	class PJGGHLMLIJP
 	{
 	public:

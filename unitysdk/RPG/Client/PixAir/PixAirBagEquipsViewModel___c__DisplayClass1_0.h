@@ -8,6 +8,8 @@ namespace RPG::Client::PixAir { class PixAirEquipItemViewModel; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirBagEquipsViewModel___c__DisplayClass1_0_TypeDefinitionIndex = 79250;
+
 	class PixAirBagEquipsViewModel___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

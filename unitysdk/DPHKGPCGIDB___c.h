@@ -9,6 +9,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define DPHKGPCGIDB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1263E7E0)
 #define DPHKGPCGIDB___C__HANDLEPOSTPROCESS_B__0_0_OFFSET UNITYSDK_OFFSET(0x1263E7F0)
 
+inline static constexpr unsigned int DPHKGPCGIDB___c_TypeDefinitionIndex = 67151;
+
 	class DPHKGPCGIDB___c : public ::System::Object
 	{
 	public:

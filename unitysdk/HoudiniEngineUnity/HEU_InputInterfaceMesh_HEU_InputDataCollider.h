@@ -8,6 +8,8 @@ namespace UnityEngine { class Collider; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_InputInterfaceMesh_HEU_InputDataCollider_TypeDefinitionIndex = 40648;
+
 	class HEU_InputInterfaceMesh_HEU_InputDataCollider : public ::System::Object
 	{
 	public:

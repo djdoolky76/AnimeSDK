@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChallengeMazeConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChallengeMazeConfigRow_TypeDefinitionIndex = 12969;
+
 	class ChallengeMazeConfigRow : public ::System::Object
 	{
 	public:

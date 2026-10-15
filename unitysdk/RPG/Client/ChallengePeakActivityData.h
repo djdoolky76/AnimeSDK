@@ -13,6 +13,8 @@ namespace RPG::Client::Promises { class IPromise; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengePeakActivityData_TypeDefinitionIndex = 61602;
+
 	class ChallengePeakActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

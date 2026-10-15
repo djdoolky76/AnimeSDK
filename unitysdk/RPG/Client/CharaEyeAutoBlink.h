@@ -16,6 +16,8 @@ namespace RPG::Client { class CharaEyeLight; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharaEyeAutoBlink_TypeDefinitionIndex = 68373;
+
 	class CharaEyeAutoBlink : public ::UnityEngine::MonoBehaviour
 	{
 	public:

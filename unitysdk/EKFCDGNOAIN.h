@@ -31,6 +31,8 @@ namespace System { class String; }
 #define EKFCDGNOAIN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2C06E0)
 #define EKFCDGNOAIN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2C0740)
 
+inline static constexpr unsigned int EKFCDGNOAIN_TypeDefinitionIndex = 32714;
+
 	class EKFCDGNOAIN : public ::System::Object
 	{
 	public:

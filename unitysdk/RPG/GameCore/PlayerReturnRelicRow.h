@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlayerReturnRelicRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerReturnRelicRow_TypeDefinitionIndex = 14535;
+
 	class PlayerReturnRelicRow : public ::System::Object
 	{
 	public:

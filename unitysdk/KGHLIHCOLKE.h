@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define KGHLIHCOLKE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB80F0)
 
+inline static constexpr unsigned int KGHLIHCOLKE_TypeDefinitionIndex = 43203;
+
 	class KGHLIHCOLKE : public ::System::Object
 	{
 	public:

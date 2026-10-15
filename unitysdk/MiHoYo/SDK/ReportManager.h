@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ReportManager_TypeDefinitionIndex = 8065;
+
 	class ReportManager : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System { class Type; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int JsonContainerContract_TypeDefinitionIndex = 9691;
+
 	class JsonContainerContract : public ::Newtonsoft::Json::Serialization::JsonContract
 	{
 	public:

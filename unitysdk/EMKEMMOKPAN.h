@@ -4,6 +4,8 @@
 
 #define EMKEMMOKPAN_CTOR_OFFSET UNITYSDK_OFFSET(0x15546260)
 
+inline static constexpr unsigned int EMKEMMOKPAN_TypeDefinitionIndex = 53547;
+
 	class EMKEMMOKPAN : public ::OMMDKIBILJE
 	{
 	public:

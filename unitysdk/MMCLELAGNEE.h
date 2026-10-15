@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MMCLELAGNEE_GCHFKGJOFJO_OFFSET UNITYSDK_OFFSET(0xB9C01C0)
 #define MMCLELAGNEE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB9C0030)
 
+inline static constexpr unsigned int MMCLELAGNEE_TypeDefinitionIndex = 62799;
+
 	class MMCLELAGNEE : public ::System::Object
 	{
 	public:

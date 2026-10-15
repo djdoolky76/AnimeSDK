@@ -8,6 +8,8 @@ namespace System::Text::RegularExpressions { class RegexCharClass_SingleRange; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int RegexCharClass_SingleRangeComparer_TypeDefinitionIndex = 2508;
+
 	class RegexCharClass_SingleRangeComparer : public ::System::Object
 	{
 	public:

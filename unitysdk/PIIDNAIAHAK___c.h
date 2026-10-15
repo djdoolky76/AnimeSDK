@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define PIIDNAIAHAK___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC266910)
 #define PIIDNAIAHAK___C__TICK_B__4_0_OFFSET UNITYSDK_OFFSET(0xC266920)
 
+inline static constexpr unsigned int PIIDNAIAHAK___c_TypeDefinitionIndex = 55755;
+
 	class PIIDNAIAHAK___c : public ::System::Object
 	{
 	public:

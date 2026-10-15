@@ -6,6 +6,8 @@ namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace RPG::Client { class TabView; }
 namespace System { class Action; }
 
+inline static constexpr unsigned int AEKBGPMBFMK_TypeDefinitionIndex = 49817;
+
 	class AEKBGPMBFMK
 	{
 	public:

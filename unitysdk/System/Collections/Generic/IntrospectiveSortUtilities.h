@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int IntrospectiveSortUtilities_TypeDefinitionIndex = 1531;
+
 	class IntrospectiveSortUtilities : public ::System::Object
 	{
 	public:

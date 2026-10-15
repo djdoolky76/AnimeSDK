@@ -56,6 +56,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OJHMEHAHDNI__STARTCYCLEASYNC_B__31_1_OFFSET UNITYSDK_OFFSET(0xBEB9DB0)
 #define OJHMEHAHDNI___ONMAPCREATED_B__34_0_OFFSET UNITYSDK_OFFSET(0xBEB9DF0)
 
+inline static constexpr unsigned int OJHMEHAHDNI_TypeDefinitionIndex = 81730;
+
 	class OJHMEHAHDNI : public ::System::Object
 	{
 	public:

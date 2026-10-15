@@ -6,6 +6,8 @@ namespace System { class String; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SpineAttachment_Hierarchy_TypeDefinitionIndex = 45100;
+
 	struct alignas(8) SpineAttachment_Hierarchy
 	{
 		::System::String* skin; // 0x10

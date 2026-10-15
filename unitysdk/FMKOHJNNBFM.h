@@ -11,6 +11,8 @@ namespace System { class String; }
 #define FMKOHJNNBFM_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x158612F0)
 #define FMKOHJNNBFM_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x15861300)
 
+inline static constexpr unsigned int FMKOHJNNBFM_TypeDefinitionIndex = 56131;
+
 	class FMKOHJNNBFM : public ::DBGDNLLDPFI
 	{
 	public:

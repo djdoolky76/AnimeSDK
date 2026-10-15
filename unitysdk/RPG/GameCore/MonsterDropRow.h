@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MonsterDropRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonsterDropRow_TypeDefinitionIndex = 14193;
+
 	class MonsterDropRow : public ::System::Object
 	{
 	public:

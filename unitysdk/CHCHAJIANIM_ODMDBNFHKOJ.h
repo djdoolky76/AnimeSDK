@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int CHCHAJIANIM_ODMDBNFHKOJ_TypeDefinitionIndex = 29501;
+
 	enum class CHCHAJIANIM_ODMDBNFHKOJ : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

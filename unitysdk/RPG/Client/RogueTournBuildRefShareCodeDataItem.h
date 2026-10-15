@@ -40,6 +40,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournBuildRefShareCodeDataItem_TypeDefinitionIndex = 67550;
+
 	class RogueTournBuildRefShareCodeDataItem : public ::System::Object
 	{
 	public:

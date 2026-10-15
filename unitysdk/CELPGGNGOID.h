@@ -20,6 +20,8 @@ namespace System { class String; }
 #define CELPGGNGOID_KFPAIDFGJMO_OFFSET UNITYSDK_OFFSET(0xC9E7450)
 #define CELPGGNGOID_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC9E6910)
 
+inline static constexpr unsigned int CELPGGNGOID_TypeDefinitionIndex = 56470;
+
 	class CELPGGNGOID
 	{
 	public:

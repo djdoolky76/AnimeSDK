@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonsterEnergyBarNumColorSetting_TypeDefinitionIndex = 17151;
+
 	class MonsterEnergyBarNumColorSetting : public ::RPG::GameCore::JsonConfig
 	{
 	public:

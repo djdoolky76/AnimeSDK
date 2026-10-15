@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__GetButtonIdNameFromEnum_TypeDefinitionIndex = 38926;
+
 	class IVRSystem__GetButtonIdNameFromEnum : public ::System::MulticastDelegate
 	{
 	public:

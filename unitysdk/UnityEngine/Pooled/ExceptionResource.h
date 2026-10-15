@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Pooled
 {
+	inline static constexpr unsigned int ExceptionResource_TypeDefinitionIndex = 4538;
+
 	enum class ExceptionResource : ::System::Int32
 	{
 		ArgumentOutOfRange_Index = 0,

@@ -16,6 +16,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveGachaResult___c_TypeDefinitionIndex = 75256;
+
 	class IdleLiveGachaResult___c : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace RPG::GameCore { class ChenLingGameBoyChallengePackRow; }
 
 namespace RPG::Client::ChenLingGameBoy
 {
+	inline static constexpr unsigned int ChenLingGameBoyChallengePackData_TypeDefinitionIndex = 74801;
+
 	class ChenLingGameBoyChallengePackData : public ::System::Object
 	{
 	public:

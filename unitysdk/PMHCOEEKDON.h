@@ -6,6 +6,8 @@ namespace RPG::Client { class ActivityData; }
 #define PMHCOEEKDON_CTOR_OFFSET UNITYSDK_OFFSET(0xC31C9A0)
 #define PMHCOEEKDON_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0xC31C920)
 
+inline static constexpr unsigned int PMHCOEEKDON_TypeDefinitionIndex = 61723;
+
 	class PMHCOEEKDON : public ::System::Object
 	{
 	public:

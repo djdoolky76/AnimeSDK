@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowBossInfoBar_TypeDefinitionIndex = 22937;
+
 	class ShowBossInfoBar : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace System::Dynamic::Utils
 {
+	inline static constexpr unsigned int CacheDict_2_TypeDefinitionIndex = 3683;
+
 	template <typename T1, typename T2>
 	class CacheDict_2 : public ::System::Object
 	{

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace System::Collections::Immutable
 {
+	inline static constexpr unsigned int Requires_TypeDefinitionIndex = 6670;
+
 	class Requires : public ::System::Object
 	{
 	public:

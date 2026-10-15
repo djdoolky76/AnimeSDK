@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace Entitas
 {
+	inline static constexpr unsigned int ContextDoesNotContainEntityException_TypeDefinitionIndex = 9989;
+
 	class ContextDoesNotContainEntityException : public ::Entitas::EntitasException
 	{
 	public:

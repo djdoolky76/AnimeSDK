@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int EasyTouchTrigger___c__DisplayClass52_0_TypeDefinitionIndex = 40249;
+
 	class EasyTouchTrigger___c__DisplayClass52_0 : public ::System::Object
 	{
 	public:

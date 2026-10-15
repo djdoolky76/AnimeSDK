@@ -5,6 +5,8 @@
 #define ABCKINEAAKC_CTOR_OFFSET UNITYSDK_OFFSET(0xB0EDD40)
 #define ABCKINEAAKC_DANKHPIIDOH_OFFSET UNITYSDK_OFFSET(0xB0EDBF0)
 
+inline static constexpr unsigned int ABCKINEAAKC_TypeDefinitionIndex = 66186;
+
 	class ABCKINEAAKC : public ::LCPNALBMKIB
 	{
 	public:

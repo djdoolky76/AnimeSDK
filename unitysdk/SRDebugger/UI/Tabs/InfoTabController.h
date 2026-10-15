@@ -21,6 +21,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace SRDebugger::UI::Tabs
 {
+	inline static constexpr unsigned int InfoTabController_TypeDefinitionIndex = 37989;
+
 	class InfoTabController : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

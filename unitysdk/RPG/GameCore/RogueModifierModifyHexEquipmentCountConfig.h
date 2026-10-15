@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyHexEquipmentCountConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyHexEquipmentCountConfig_TypeDefinitionIndex = 17752;
+
 	class RogueModifierModifyHexEquipmentCountConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

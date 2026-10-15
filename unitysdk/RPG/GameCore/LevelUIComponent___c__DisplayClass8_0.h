@@ -8,6 +8,8 @@ class APKDMEEAPKJ;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelUIComponent___c__DisplayClass8_0_TypeDefinitionIndex = 57300;
+
 	class LevelUIComponent___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

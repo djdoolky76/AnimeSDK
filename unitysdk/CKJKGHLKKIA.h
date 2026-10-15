@@ -16,6 +16,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 #define CKJKGHLKKIA_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0xD75EF10)
 #define CKJKGHLKKIA_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0xD75F040)
 
+inline static constexpr unsigned int CKJKGHLKKIA_TypeDefinitionIndex = 48846;
+
 	class CKJKGHLKKIA : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

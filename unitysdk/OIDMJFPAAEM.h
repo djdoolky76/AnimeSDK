@@ -9,6 +9,8 @@ namespace RPG::Client { class UIController; }
 #define OIDMJFPAAEM_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0xBE7ADB0)
 #define OIDMJFPAAEM_CTOR_OFFSET UNITYSDK_OFFSET(0xBE7ADA0)
 
+inline static constexpr unsigned int OIDMJFPAAEM_TypeDefinitionIndex = 64048;
+
 	class OIDMJFPAAEM : public ::BMPICAPOOFD
 	{
 	public:

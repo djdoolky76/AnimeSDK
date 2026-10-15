@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlayPenaconyEndmostMove; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayPenaconyEndmostMove_TypeDefinitionIndex = 21828;
+
 	class PlayPenaconyEndmostMove : public ::RPG::GameCore::TaskConfig
 	{
 	public:

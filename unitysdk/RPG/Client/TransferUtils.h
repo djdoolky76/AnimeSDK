@@ -7,6 +7,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TransferUtils_TypeDefinitionIndex = 68177;
+
 	class TransferUtils : public ::System::Object
 	{
 	public:

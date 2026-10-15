@@ -93,6 +93,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LoopGenerateBehavior_TypeDefinitionIndex = 70904;
+
 	class LoopGenerateBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

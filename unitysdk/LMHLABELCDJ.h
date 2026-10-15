@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define LMHLABELCDJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1164A0)
 #define LMHLABELCDJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D116460)
 
+inline static constexpr unsigned int LMHLABELCDJ_TypeDefinitionIndex = 23239;
+
 	class LMHLABELCDJ : public ::RPG::GameCore::TaskConfig
 	{
 	public:

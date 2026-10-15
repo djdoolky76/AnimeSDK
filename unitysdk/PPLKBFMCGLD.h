@@ -31,6 +31,8 @@ namespace System { class String; }
 #define PPLKBFMCGLD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFDE7A0)
 #define PPLKBFMCGLD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFDE800)
 
+inline static constexpr unsigned int PPLKBFMCGLD_TypeDefinitionIndex = 34840;
+
 	class PPLKBFMCGLD : public ::System::Object
 	{
 	public:

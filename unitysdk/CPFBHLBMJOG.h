@@ -25,6 +25,8 @@ namespace System { class String; }
 #define CPFBHLBMJOG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E13BC10)
 #define CPFBHLBMJOG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E13BC70)
 
+inline static constexpr unsigned int CPFBHLBMJOG_TypeDefinitionIndex = 26202;
+
 	class CPFBHLBMJOG : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Configuration { class ConfigurationPropertyCollection; }
 
 namespace System::Configuration
 {
+	inline static constexpr unsigned int ConfigurationElement_TypeDefinitionIndex = 2336;
+
 	class ConfigurationElement : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SwitchHandUtils_TypeDefinitionIndex = 68011;
+
 	class SwitchHandUtils : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int RadialBlurTimelineBehaviour_TypeDefinitionIndex = 48600;
+
 	class RadialBlurTimelineBehaviour
 	{
 	public:

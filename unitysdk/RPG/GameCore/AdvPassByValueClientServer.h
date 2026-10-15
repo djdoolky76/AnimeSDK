@@ -14,6 +14,8 @@ namespace RPG::GameCore { class DynamicString; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvPassByValueClientServer_TypeDefinitionIndex = 20530;
+
 	class AdvPassByValueClientServer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

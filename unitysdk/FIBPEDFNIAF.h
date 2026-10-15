@@ -10,6 +10,8 @@ namespace System { class String; }
 #define FIBPEDFNIAF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1579B8C0)
 #define FIBPEDFNIAF_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x1579B960)
 
+inline static constexpr unsigned int FIBPEDFNIAF_TypeDefinitionIndex = 67054;
+
 	class FIBPEDFNIAF : public ::System::Object
 	{
 	public:

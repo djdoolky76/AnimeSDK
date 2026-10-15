@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GOCOPEELCCH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4EC870)
 #define GOCOPEELCCH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4EC8D0)
 
+inline static constexpr unsigned int GOCOPEELCCH_TypeDefinitionIndex = 25667;
+
 	class GOCOPEELCCH : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 #define MOHIECMPFOB_NONJDKKDDLE_OFFSET UNITYSDK_OFFSET(0xBA2C990)
 #define MOHIECMPFOB_OBCCIBDNLML_OFFSET UNITYSDK_OFFSET(0xBA2C940)
 
+inline static constexpr unsigned int MOHIECMPFOB_TypeDefinitionIndex = 60480;
+
 	class MOHIECMPFOB : public ::System::Object
 	{
 	public:

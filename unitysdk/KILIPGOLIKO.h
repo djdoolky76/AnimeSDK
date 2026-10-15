@@ -7,6 +7,8 @@ namespace System { class String; }
 #define KILIPGOLIKO_CTOR_OFFSET UNITYSDK_OFFSET(0xB4341A0)
 #define KILIPGOLIKO__ONBIND_OFFSET UNITYSDK_OFFSET(0xB433E80)
 
+inline static constexpr unsigned int KILIPGOLIKO_TypeDefinitionIndex = 71498;
+
 	class KILIPGOLIKO : public ::BCFDAHOHJEA
 	{
 	public:

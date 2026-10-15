@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 #define GIOEJLBCJIE_SET_CHIMERAID_OFFSET UNITYSDK_OFFSET(0x15A4C730)
 #define GIOEJLBCJIE_SET_UNITYGO_OFFSET UNITYSDK_OFFSET(0x15A4C750)
 
+inline static constexpr unsigned int GIOEJLBCJIE_TypeDefinitionIndex = 78447;
+
 	class GIOEJLBCJIE : public ::System::Object
 	{
 	public:

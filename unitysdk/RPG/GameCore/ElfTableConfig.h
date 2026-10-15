@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ElfTableConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfTableConfig_TypeDefinitionIndex = 18481;
+
 	class ElfTableConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

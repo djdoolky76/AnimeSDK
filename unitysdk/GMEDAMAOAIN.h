@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GMEDAMAOAIN_KGDGIGNOFNA_OFFSET UNITYSDK_OFFSET(0x15ACAC50)
 #define GMEDAMAOAIN_MMGEGIJLJAB_OFFSET UNITYSDK_OFFSET(0x15ACAAF0)
 
+inline static constexpr unsigned int GMEDAMAOAIN_TypeDefinitionIndex = 65316;
+
 	class GMEDAMAOAIN : public ::System::Object
 	{
 	public:

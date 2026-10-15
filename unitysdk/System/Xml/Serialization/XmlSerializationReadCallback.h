@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlSerializationReadCallback_TypeDefinitionIndex = 2026;
+
 	class XmlSerializationReadCallback : public ::System::MulticastDelegate
 	{
 	public:

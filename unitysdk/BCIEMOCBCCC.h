@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class RawImage; }
 #define BCIEMOCBCCC_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x15EA7D80)
 #define BCIEMOCBCCC_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0x15EA7E20)
 
+inline static constexpr unsigned int BCIEMOCBCCC_TypeDefinitionIndex = 72364;
+
 	class BCIEMOCBCCC : public ::LBAMBIMMJKB
 	{
 	public:

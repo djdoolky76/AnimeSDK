@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class Image; }
 #define OIHLKADLOGH_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xBE94A60)
 #define OIHLKADLOGH__ONBIND_OFFSET UNITYSDK_OFFSET(0xBE949C0)
 
+inline static constexpr unsigned int OIHLKADLOGH_TypeDefinitionIndex = 72241;
+
 	class OIHLKADLOGH : public ::FMPCODLIOLG
 	{
 	public:

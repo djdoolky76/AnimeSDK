@@ -27,6 +27,8 @@ namespace System { class String; }
 #define MJEMCKGBIPN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA481F0)
 #define MJEMCKGBIPN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA48250)
 
+inline static constexpr unsigned int MJEMCKGBIPN_TypeDefinitionIndex = 27136;
+
 	class MJEMCKGBIPN : public ::System::Object
 	{
 	public:

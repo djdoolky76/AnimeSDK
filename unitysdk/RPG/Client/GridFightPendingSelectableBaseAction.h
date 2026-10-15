@@ -14,6 +14,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightPendingSelectableBaseAction_TypeDefinitionIndex = 64611;
+
 	class GridFightPendingSelectableBaseAction : public ::System::Object
 	{
 	public:

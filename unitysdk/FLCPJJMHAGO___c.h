@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FLCPJJMHAGO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3B7180)
 #define FLCPJJMHAGO___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E3B7190)
 
+inline static constexpr unsigned int FLCPJJMHAGO___c_TypeDefinitionIndex = 32691;
+
 	class FLCPJJMHAGO___c : public ::System::Object
 	{
 	public:

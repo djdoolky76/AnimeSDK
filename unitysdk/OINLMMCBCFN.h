@@ -7,6 +7,8 @@ class OINLMMCBCFN;
 #define OINLMMCBCFN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2873C0)
 #define OINLMMCBCFN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2872D0)
 
+inline static constexpr unsigned int OINLMMCBCFN_TypeDefinitionIndex = 13076;
+
 	class OINLMMCBCFN : public ::System::Object
 	{
 	public:

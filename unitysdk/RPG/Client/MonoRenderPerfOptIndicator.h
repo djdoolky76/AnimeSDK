@@ -15,6 +15,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoRenderPerfOptIndicator_TypeDefinitionIndex = 68618;
+
 	class MonoRenderPerfOptIndicator : public ::UnityEngine::MonoBehaviour
 	{
 	public:

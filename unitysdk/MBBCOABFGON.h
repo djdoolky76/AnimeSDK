@@ -6,6 +6,8 @@ namespace RPG::GameCore { class WriteCustomValueToStatistic; }
 #define MBBCOABFGON_CTOR_OFFSET UNITYSDK_OFFSET(0xB8593E0)
 #define MBBCOABFGON_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB859410)
 
+inline static constexpr unsigned int MBBCOABFGON_TypeDefinitionIndex = 55816;
+
 	class MBBCOABFGON
 	{
 	public:

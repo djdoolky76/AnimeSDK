@@ -3,6 +3,8 @@
 
 #define BHOMIGDKHEB_CTOR_OFFSET UNITYSDK_OFFSET(0x15D40)
 
+inline static constexpr unsigned int BHOMIGDKHEB_TypeDefinitionIndex = 57584;
+
 	struct alignas(4) BHOMIGDKHEB
 	{
 		::System::Int32 GNNEFOIBAKH; // 0x10

@@ -88,6 +88,8 @@ namespace UnityEngine { class Transform; }
 #define FAFFMDBPCGJ__GETMONOVIEW_OFFSET UNITYSDK_OFFSET(0x1566F220)
 #define FAFFMDBPCGJ__ONRELEASEVIEW_OFFSET UNITYSDK_OFFSET(0x1566E7F0)
 
+inline static constexpr unsigned int FAFFMDBPCGJ_TypeDefinitionIndex = 76723;
+
 	class FAFFMDBPCGJ
 	{
 	public:

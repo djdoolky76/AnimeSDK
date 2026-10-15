@@ -19,6 +19,8 @@ namespace System { class Action; }
 #define JIAFOPELMJJ___C__DISPLAYCLASS6_0__STARTFORMIDPACKPS_B__1_OFFSET UNITYSDK_OFFSET(0xB1E9510)
 #define JIAFOPELMJJ___C__DISPLAYCLASS6_0__STARTFORMIDPACKPS_B__2_OFFSET UNITYSDK_OFFSET(0xB1E9530)
 
+inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass6_0_TypeDefinitionIndex = 59523;
+
 	class JIAFOPELMJJ___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

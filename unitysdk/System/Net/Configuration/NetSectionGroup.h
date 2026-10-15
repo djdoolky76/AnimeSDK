@@ -6,6 +6,8 @@
 
 namespace System::Net::Configuration
 {
+	inline static constexpr unsigned int NetSectionGroup_TypeDefinitionIndex = 3082;
+
 	class NetSectionGroup : public ::System::Configuration::ConfigurationSectionGroup
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::Client::B51Racing { class B51RacingCarTargetPartIconLiteControl; 
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingBuffDetailItemControl_TypeDefinitionIndex = 81796;
+
 	class B51RacingBuffDetailItemControl : public ::Sofa::BaseSofaControl
 	{
 	public:

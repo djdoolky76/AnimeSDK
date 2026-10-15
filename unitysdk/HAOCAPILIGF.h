@@ -88,6 +88,8 @@ namespace UnityEngine { class Transform; }
 #define HAOCAPILIGF__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x15B9A160)
 #define HAOCAPILIGF___ONSETSTANCEHINTEFFECT_B__39_0_OFFSET UNITYSDK_OFFSET(0x15B9D9A0)
 
+inline static constexpr unsigned int HAOCAPILIGF_TypeDefinitionIndex = 71804;
+
 	class HAOCAPILIGF : public ::FMPCODLIOLG
 	{
 	public:

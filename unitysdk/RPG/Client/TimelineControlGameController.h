@@ -18,6 +18,8 @@ class MGCHEABMOLP;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimelineControlGameController_TypeDefinitionIndex = 60450;
+
 	class TimelineControlGameController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -38,6 +38,8 @@ namespace System { class Object; }
 #define BJBDLDCDDJH_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0x1D80C490)
 #define BJBDLDCDDJH_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1D80C030)
 
+inline static constexpr unsigned int BJBDLDCDDJH_TypeDefinitionIndex = 10649;
+
 	class BJBDLDCDDJH : public ::System::Object
 	{
 	public:

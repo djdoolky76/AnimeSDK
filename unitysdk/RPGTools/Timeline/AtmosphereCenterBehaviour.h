@@ -15,6 +15,8 @@ namespace RPGTools::Timeline { class AtmosphereCenterClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int AtmosphereCenterBehaviour_TypeDefinitionIndex = 47862;
+
 	class AtmosphereCenterBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

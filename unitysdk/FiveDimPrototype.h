@@ -6,6 +6,8 @@ namespace UnityEngine { class Mesh; }
 
 #define FIVEDIMPROTOTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x2E78990)
 
+inline static constexpr unsigned int FiveDimPrototype_TypeDefinitionIndex = 47110;
+
 	struct alignas(8) FiveDimPrototype
 	{
 		::UnityEngine::Mesh* mesh; // 0x10

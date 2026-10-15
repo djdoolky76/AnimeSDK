@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SteamDelegate_SetAppIdDelegate_TypeDefinitionIndex = 7697;
+
 	class SteamDelegate_SetAppIdDelegate : public ::System::MulticastDelegate
 	{
 	public:

@@ -18,6 +18,8 @@ class NJMOBNILIHI;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayerDiaryItemData_TypeDefinitionIndex = 64281;
+
 	class PlayerDiaryItemData : public ::System::Object
 	{
 	public:

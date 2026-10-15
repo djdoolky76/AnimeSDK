@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PlayerLevelRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerLevelRow_TypeDefinitionIndex = 14500;
+
 	class PlayerLevelRow : public ::System::Object
 	{
 	public:

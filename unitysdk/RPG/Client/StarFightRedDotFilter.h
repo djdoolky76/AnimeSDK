@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StarFightRedDotFilter_TypeDefinitionIndex = 66852;
+
 	class StarFightRedDotFilter : public ::RPG::Client::BaseRedDotFilter
 	{
 	public:

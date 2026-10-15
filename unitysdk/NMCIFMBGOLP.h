@@ -28,6 +28,8 @@ namespace System { class String; }
 #define NMCIFMBGOLP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB6E910)
 #define NMCIFMBGOLP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB6E970)
 
+inline static constexpr unsigned int NMCIFMBGOLP_TypeDefinitionIndex = 33838;
+
 	class NMCIFMBGOLP : public ::System::Object
 	{
 	public:

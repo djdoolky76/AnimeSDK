@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define NBDKFMMEMGP_NIHPBABLPBP_OFFSET UNITYSDK_OFFSET(0xBABE5C0)
 
+inline static constexpr unsigned int NBDKFMMEMGP_TypeDefinitionIndex = 80664;
+
 	class NBDKFMMEMGP : public ::System::Object
 	{
 	public:

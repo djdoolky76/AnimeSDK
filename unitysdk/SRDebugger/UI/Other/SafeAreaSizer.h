@@ -21,6 +21,8 @@
 
 namespace SRDebugger::UI::Other
 {
+	inline static constexpr unsigned int SafeAreaSizer_TypeDefinitionIndex = 38015;
+
 	class SafeAreaSizer : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

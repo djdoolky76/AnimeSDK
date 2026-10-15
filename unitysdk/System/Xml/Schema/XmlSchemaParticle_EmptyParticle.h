@@ -6,6 +6,8 @@
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlSchemaParticle_EmptyParticle_TypeDefinitionIndex = 2208;
+
 	class XmlSchemaParticle_EmptyParticle : public ::System::Xml::Schema::XmlSchemaParticle
 	{
 	public:

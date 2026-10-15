@@ -8,6 +8,8 @@ namespace IRIClusterBuilder { class IRI2VolumeTemplate; }
 
 namespace SceneIRICluster
 {
+	inline static constexpr unsigned int SceneIRIClusterRenderer_TypeDefinitionIndex = 47727;
+
 	class SceneIRIClusterRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

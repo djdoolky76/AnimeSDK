@@ -32,6 +32,8 @@ namespace System { class String; }
 #define PNLLCBKLBLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFBD2D0)
 #define PNLLCBKLBLE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFBD330)
 
+inline static constexpr unsigned int PNLLCBKLBLE_TypeDefinitionIndex = 34706;
+
 	class PNLLCBKLBLE : public ::System::Object
 	{
 	public:

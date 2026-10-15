@@ -10,6 +10,8 @@ namespace RPG::Client { class EquipmentItemData; }
 #define PMJIDLEMBON_JAGPJGOOALH_OFFSET UNITYSDK_OFFSET(0xC3236D0)
 #define PMJIDLEMBON_JLDCFHKIMIP_OFFSET UNITYSDK_OFFSET(0xC323740)
 
+inline static constexpr unsigned int PMJIDLEMBON_TypeDefinitionIndex = 65570;
+
 	class PMJIDLEMBON : public ::System::Object
 	{
 	public:

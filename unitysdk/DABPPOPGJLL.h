@@ -9,6 +9,8 @@ class FCOEMCEDLNL;
 #define DABPPOPGJLL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DCC5D10)
 #define DABPPOPGJLL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCC5CD0)
 
+inline static constexpr unsigned int DABPPOPGJLL_TypeDefinitionIndex = 24182;
+
 	class DABPPOPGJLL : public ::RPG::GameCore::TaskConfig
 	{
 	public:

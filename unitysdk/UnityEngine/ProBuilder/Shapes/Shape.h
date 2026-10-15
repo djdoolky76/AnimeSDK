@@ -11,6 +11,8 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
 namespace UnityEngine::ProBuilder::Shapes
 {
+	inline static constexpr unsigned int Shape_TypeDefinitionIndex = 44467;
+
 	class Shape : public ::System::Object
 	{
 	public:

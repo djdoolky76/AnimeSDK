@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPGTools::Story
 {
+	inline static constexpr unsigned int CapturePropConfig_TypeDefinitionIndex = 48967;
+
 	class CapturePropConfig : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddWeakByTeamAttackType_TypeDefinitionIndex = 23567;
+
 	class AddWeakByTeamAttackType : public ::RPG::GameCore::TaskConfig
 	{
 	public:

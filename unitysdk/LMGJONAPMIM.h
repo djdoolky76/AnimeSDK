@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LMGJONAPMIM_NJLHJJNMCIH_OFFSET UNITYSDK_OFFSET(0xB781FA0)
 #define LMGJONAPMIM_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB780EB0)
 
+inline static constexpr unsigned int LMGJONAPMIM_TypeDefinitionIndex = 76538;
+
 	class LMGJONAPMIM : public ::System::Object
 	{
 	public:

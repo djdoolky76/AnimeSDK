@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 namespace Cysharp::Threading::Tasks::CompilerServices
 {
+	inline static constexpr unsigned int AsyncUniTask_2_TypeDefinitionIndex = 38714;
+
 	template <typename T1, typename T2>
 	class AsyncUniTask_2 : public ::System::Object
 	{

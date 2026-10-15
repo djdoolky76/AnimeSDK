@@ -36,6 +36,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int MovieGamePlayer_TypeDefinitionIndex = 76613;
+
 	class MovieGamePlayer : public ::RPG::Client::LittleGame::BaseMonoView
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingDevelopValueIconItemViewModel_TypeDefinitionIndex = 82025;
+
 	class B51RacingDevelopValueIconItemViewModel : public ::System::Object
 	{
 	public:

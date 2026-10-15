@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueUnlockConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueUnlockConfigRow_TypeDefinitionIndex = 14717;
+
 	class RogueUnlockConfigRow : public ::System::Object
 	{
 	public:

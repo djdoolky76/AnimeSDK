@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 #define JCPHHMANKBM_CTOR_OFFSET UNITYSDK_OFFSET(0x165AA6B0)
 #define JCPHHMANKBM_FEAKJONHHDL_OFFSET UNITYSDK_OFFSET(0x165A9F60)
 
+inline static constexpr unsigned int JCPHHMANKBM_TypeDefinitionIndex = 73781;
+
 	class JCPHHMANKBM : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__IsDisplayOnDesktop_TypeDefinitionIndex = 38899;
+
 	class IVRSystem__IsDisplayOnDesktop : public ::System::MulticastDelegate
 	{
 	public:

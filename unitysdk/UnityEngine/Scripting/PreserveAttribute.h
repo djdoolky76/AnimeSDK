@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Scripting
 {
+	inline static constexpr unsigned int PreserveAttribute_TypeDefinitionIndex = 4504;
+
 	class PreserveAttribute : public ::System::Attribute
 	{
 	public:

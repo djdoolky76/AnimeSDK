@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define BIKFPBGFCHP_HIEDPDLIHKF_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB4B1370)
 #define BIKFPBGFCHP_HIEDPDLIHKF_INVOKE_OFFSET UNITYSDK_OFFSET(0xB4AF5F0)
 
+inline static constexpr unsigned int BIKFPBGFCHP_HIEDPDLIHKF_TypeDefinitionIndex = 79455;
+
 	class BIKFPBGFCHP_HIEDPDLIHKF : public ::System::MulticastDelegate
 	{
 	public:

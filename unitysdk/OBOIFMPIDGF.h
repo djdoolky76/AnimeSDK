@@ -24,6 +24,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define OBOIFMPIDGF_LFHABILJEIL_OFFSET UNITYSDK_OFFSET(0x1C979CF0)
 #define OBOIFMPIDGF_MCNJPFCMDAB_OFFSET UNITYSDK_OFFSET(0x1C979990)
 
+inline static constexpr unsigned int OBOIFMPIDGF_TypeDefinitionIndex = 42590;
+
 	class OBOIFMPIDGF : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define LDPPBELHLEI_NNKABCNGPAG_FEIIDFFOICL_OFFSET UNITYSDK_OFFSET(0xB648730)
 #define LDPPBELHLEI_NNKABCNGPAG_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18650)
 
+inline static constexpr unsigned int LDPPBELHLEI_NNKABCNGPAG_TypeDefinitionIndex = 59702;
+
 	struct alignas(4) LDPPBELHLEI_NNKABCNGPAG
 	{
 		::RPG::GameCore::EntityType GMPGDEINODK; // 0x10

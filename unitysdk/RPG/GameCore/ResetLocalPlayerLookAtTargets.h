@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ResetLocalPlayerLookAtTargets; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResetLocalPlayerLookAtTargets_TypeDefinitionIndex = 21915;
+
 	class ResetLocalPlayerLookAtTargets : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define HABOIOEBDOA___TOTRACENODES_D__6_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15B71900)
 #define HABOIOEBDOA___TOTRACENODES_D__6___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x15B71940)
 
+inline static constexpr unsigned int HABOIOEBDOA___ToTraceNodes_d__6_TypeDefinitionIndex = 62737;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	class HABOIOEBDOA___ToTraceNodes_d__6 : public ::System::Object
 	{

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAbilityTeamTowersMakeBrickIvyEffectCon
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityTeamTowersMakeBrickIvyEffectConfig_TypeDefinitionIndex = 21409;
+
 	class LittleGameAbilityTeamTowersMakeBrickIvyEffectConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:

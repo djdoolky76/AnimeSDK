@@ -9,6 +9,8 @@ class FCOEMCEDLNL;
 #define AOOPAHPBLHI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCEBE60)
 #define AOOPAHPBLHI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCEBE00)
 
+inline static constexpr unsigned int AOOPAHPBLHI_TypeDefinitionIndex = 16850;
+
 	class AOOPAHPBLHI : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

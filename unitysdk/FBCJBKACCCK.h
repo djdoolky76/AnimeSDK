@@ -10,6 +10,8 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 #define FBCJBKACCCK_CTOR_OFFSET UNITYSDK_OFFSET(0x156966B0)
 #define FBCJBKACCCK_EXECUTE_OFFSET UNITYSDK_OFFSET(0x156966E0)
 
+inline static constexpr unsigned int FBCJBKACCCK_TypeDefinitionIndex = 77275;
+
 	class FBCJBKACCCK : public ::System::Object
 	{
 	public:

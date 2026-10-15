@@ -15,6 +15,8 @@ namespace System::Linq::Expressions::Interpreter { template <typename T1, typena
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int LabelScopeInfo_TypeDefinitionIndex = 3443;
+
 	class LabelScopeInfo : public ::System::Object
 	{
 	public:

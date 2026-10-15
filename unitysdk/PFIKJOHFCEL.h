@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PFIKJOHFCEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC212F90)
 #define PFIKJOHFCEL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC212FC0)
 
+inline static constexpr unsigned int PFIKJOHFCEL_TypeDefinitionIndex = 54728;
+
 	class PFIKJOHFCEL
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int AvatarPhotoItem_TypeDefinitionIndex = 74282;
+
 	class AvatarPhotoItem : public ::RPG::Client::TrainParty::TrainPartyBuildDIYPhotoItem
 	{
 	public:

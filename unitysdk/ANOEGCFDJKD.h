@@ -28,6 +28,8 @@ namespace System { class String; }
 #define ANOEGCFDJKD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6657A0)
 #define ANOEGCFDJKD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E665800)
 
+inline static constexpr unsigned int ANOEGCFDJKD_TypeDefinitionIndex = 32529;
+
 	class ANOEGCFDJKD : public ::System::Object
 	{
 	public:

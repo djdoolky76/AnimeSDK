@@ -10,6 +10,8 @@ namespace MiHoYo::SDK::UI::OS { class IAgeGateVerificationDialog; }
 
 namespace MiHoYo::SDK::Console::OS
 {
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass39_0_TypeDefinitionIndex = 9061;
+
 	class AgeGateManager___c__DisplayClass39_0 : public ::System::Object
 	{
 	public:

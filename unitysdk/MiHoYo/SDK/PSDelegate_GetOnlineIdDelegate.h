@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PSDelegate_GetOnlineIdDelegate_TypeDefinitionIndex = 7726;
+
 	class PSDelegate_GetOnlineIdDelegate : public ::System::MulticastDelegate
 	{
 	public:

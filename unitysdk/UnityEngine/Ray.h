@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Ray_TypeDefinitionIndex = 4079;
+
 	struct alignas(4) Ray
 	{
 		::UnityEngine::Vector3 m_Origin; // 0x10

@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int TextWriter___c_TypeDefinitionIndex = 704;
+
 	class TextWriter___c : public ::System::Object
 	{
 	public:

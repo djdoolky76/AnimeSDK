@@ -75,6 +75,8 @@ namespace RPG::GameCore { class MarbleTaskConfig; }
 #define FOKHGDGLNJM_PMCGMLLCBLF_OFFSET UNITYSDK_OFFSET(0x1CE15D50)
 #define FOKHGDGLNJM_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1CE14FE0)
 
+inline static constexpr unsigned int FOKHGDGLNJM_TypeDefinitionIndex = 19072;
+
 	class FOKHGDGLNJM : public ::System::Object
 	{
 	public:

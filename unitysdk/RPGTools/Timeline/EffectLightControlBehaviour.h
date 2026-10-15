@@ -16,6 +16,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int EffectLightControlBehaviour_TypeDefinitionIndex = 48157;
+
 	class EffectLightControlBehaviour : public ::RPGTools::Timeline::RecoverablePlayableBehaviour
 	{
 	public:

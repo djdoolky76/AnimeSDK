@@ -32,6 +32,8 @@ namespace UnityEngine { class Coroutine; }
 #define KMIDLAEIFEA__ONSTOP_OFFSET UNITYSDK_OFFSET(0xB558550)
 #define KMIDLAEIFEA__ONTICK_OFFSET UNITYSDK_OFFSET(0xB558270)
 
+inline static constexpr unsigned int KMIDLAEIFEA_TypeDefinitionIndex = 60307;
+
 	class KMIDLAEIFEA : public ::HCLPKMIIANI
 	{
 	public:

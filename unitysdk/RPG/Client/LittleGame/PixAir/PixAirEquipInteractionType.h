@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGame::PixAir
 {
+	inline static constexpr unsigned int PixAirEquipInteractionType_TypeDefinitionIndex = 77287;
+
 	enum class PixAirEquipInteractionType : ::System::Int32
 	{
 		Haste = 0,

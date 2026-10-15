@@ -11,6 +11,8 @@ namespace RPG::Client { class GridFightRole; }
 #define BOIKIMJHDHK_HCNEDLIFOOE_OFFSET UNITYSDK_OFFSET(0xC1926A0)
 #define BOIKIMJHDHK_PEOGNBPHNEB_OFFSET UNITYSDK_OFFSET(0xC1922A0)
 
+inline static constexpr unsigned int BOIKIMJHDHK_TypeDefinitionIndex = 64931;
+
 	class BOIKIMJHDHK : public ::System::Object
 	{
 	public:

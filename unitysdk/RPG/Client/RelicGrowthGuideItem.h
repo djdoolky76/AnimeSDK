@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RelicGrowthGuideItem_TypeDefinitionIndex = 65558;
+
 	class RelicGrowthGuideItem : public ::RPG::Client::BaseGrowthGuideItem
 	{
 	public:

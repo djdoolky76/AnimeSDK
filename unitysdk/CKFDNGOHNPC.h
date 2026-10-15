@@ -13,6 +13,8 @@ class HJNDPHEDAGM;
 #define CKFDNGOHNPC_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1CA12700)
 #define CKFDNGOHNPC_PIIBNJGPLLO_OFFSET UNITYSDK_OFFSET(0x1CA12780)
 
+inline static constexpr unsigned int CKFDNGOHNPC_TypeDefinitionIndex = 42195;
+
 	class CKFDNGOHNPC : public ::System::Object
 	{
 	public:

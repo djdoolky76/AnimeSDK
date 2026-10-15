@@ -28,6 +28,8 @@ namespace System { class String; }
 #define PODAILFIECJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFC7C90)
 #define PODAILFIECJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFC7CF0)
 
+inline static constexpr unsigned int PODAILFIECJ_TypeDefinitionIndex = 30560;
+
 	class PODAILFIECJ : public ::System::Object
 	{
 	public:

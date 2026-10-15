@@ -9,6 +9,8 @@ namespace UnityEngine::UI::Collections { template <typename T> class IndexedSet_
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int GraphicRegistry_CanvasGraphicsData_TypeDefinitionIndex = 6723;
+
 	class GraphicRegistry_CanvasGraphicsData : public ::System::Object
 	{
 	public:

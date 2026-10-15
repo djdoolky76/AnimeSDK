@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 #define ALGMPBLKIGI_MOPJLKIHIHP_OFFSET UNITYSDK_OFFSET(0x155691A0)
 #define ALGMPBLKIGI__ONBIND_OFFSET UNITYSDK_OFFSET(0x15569200)
 
+inline static constexpr unsigned int ALGMPBLKIGI_TypeDefinitionIndex = 71877;
+
 	class ALGMPBLKIGI : public ::FMPCODLIOLG
 	{
 	public:

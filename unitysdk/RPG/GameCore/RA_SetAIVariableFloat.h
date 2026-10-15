@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RA_SetAIVariableFloat_TypeDefinitionIndex = 20043;
+
 	class RA_SetAIVariableFloat : public ::RPG::GameCore::ReactionTaskConfig
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define KPNDPCFELMN_BJOLEAFNACH_CTOR_OFFSET UNITYSDK_OFFSET(0xB5C5560)
 
+inline static constexpr unsigned int KPNDPCFELMN_BJOLEAFNACH_TypeDefinitionIndex = 69487;
+
 	class KPNDPCFELMN_BJOLEAFNACH : public ::System::Object
 	{
 	public:

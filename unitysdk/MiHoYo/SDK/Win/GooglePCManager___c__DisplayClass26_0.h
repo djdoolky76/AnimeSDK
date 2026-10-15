@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int GooglePCManager___c__DisplayClass26_0_TypeDefinitionIndex = 9337;
+
 	class GooglePCManager___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:

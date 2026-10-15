@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define OFIAIIJCJMP___C___GETCHIMERAPOOLMAXRARITY_B__14_1_OFFSET UNITYSDK_OFFSET(0xBE426D0)
 #define OFIAIIJCJMP___C___GETITEMPOOLMAXRARITY_B__15_1_OFFSET UNITYSDK_OFFSET(0xBE42730)
 
+inline static constexpr unsigned int OFIAIIJCJMP___c_TypeDefinitionIndex = 63383;
+
 	class OFIAIIJCJMP___c : public ::System::Object
 	{
 	public:

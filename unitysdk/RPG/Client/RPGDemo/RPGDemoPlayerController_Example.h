@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::RPGDemo
 {
+	inline static constexpr unsigned int RPGDemoPlayerController_Example_TypeDefinitionIndex = 75949;
+
 	class RPGDemoPlayerController_Example : public ::UnityEngine::MonoBehaviour
 	{
 	public:

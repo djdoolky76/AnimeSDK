@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CIICMHFLBNF_GET_TEAMS_OFFSET UNITYSDK_OFFSET(0xCF79D00)
 #define CIICMHFLBNF_GKKDODPDBLA_OFFSET UNITYSDK_OFFSET(0xCF79D10)
 
+inline static constexpr unsigned int CIICMHFLBNF_TypeDefinitionIndex = 63930;
+
 	class CIICMHFLBNF : public ::System::Object
 	{
 	public:

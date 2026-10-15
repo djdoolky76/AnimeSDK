@@ -9,6 +9,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelTurnAvatarChangeNewAvatarPrepare_TypeDefinitionIndex = 56716;
+
 	class LevelTurnAvatarChangeNewAvatarPrepare : public ::System::Object
 	{
 	public:

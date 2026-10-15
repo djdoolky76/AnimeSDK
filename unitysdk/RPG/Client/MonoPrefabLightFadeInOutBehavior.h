@@ -11,6 +11,8 @@ namespace UnityEngine { class Light; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoPrefabLightFadeInOutBehavior_TypeDefinitionIndex = 70924;
+
 	class MonoPrefabLightFadeInOutBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

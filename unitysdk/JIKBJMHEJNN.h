@@ -12,6 +12,8 @@ class NPECNJDLMFD;
 #define JIKBJMHEJNN_ICMMEIFDDFL_OFFSET UNITYSDK_OFFSET(0xB1FBF50)
 #define JIKBJMHEJNN_PADACLAMLKO_OFFSET UNITYSDK_OFFSET(0xB1FBF10)
 
+inline static constexpr unsigned int JIKBJMHEJNN_TypeDefinitionIndex = 71965;
+
 	class JIKBJMHEJNN : public ::System::Object
 	{
 	public:

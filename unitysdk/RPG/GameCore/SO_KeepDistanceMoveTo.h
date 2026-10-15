@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SO_KeepDistanceMoveTo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SO_KeepDistanceMoveTo_TypeDefinitionIndex = 20063;
+
 	class SO_KeepDistanceMoveTo : public ::RPG::GameCore::SOTaskConfig
 	{
 	public:

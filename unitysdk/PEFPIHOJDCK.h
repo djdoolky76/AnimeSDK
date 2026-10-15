@@ -7,6 +7,8 @@ class NAMKDCMENML;
 #define PEFPIHOJDCK_CCTOR_OFFSET UNITYSDK_OFFSET(0xC03C710)
 #define PEFPIHOJDCK_EGPHAFNAIGA_OFFSET UNITYSDK_OFFSET(0xC03B320)
 
+inline static constexpr unsigned int PEFPIHOJDCK_TypeDefinitionIndex = 76909;
+
 	class PEFPIHOJDCK : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AttackDamageTypeConfig_TypeDefinitionIndex = 23070;
+
 	class AttackDamageTypeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

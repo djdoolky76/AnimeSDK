@@ -7,6 +7,8 @@ class DEOOCBMMENB;
 #define NLEOLIEBNCD_CTOR_OFFSET UNITYSDK_OFFSET(0xBC657A0)
 #define NLEOLIEBNCD_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0xBC650B0)
 
+inline static constexpr unsigned int NLEOLIEBNCD_TypeDefinitionIndex = 62054;
+
 	class NLEOLIEBNCD : public ::BFLILCJMKDB
 	{
 	public:

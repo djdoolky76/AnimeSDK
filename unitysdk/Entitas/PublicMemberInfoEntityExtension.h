@@ -7,6 +7,8 @@ namespace Entitas { class IEntity; }
 
 namespace Entitas
 {
+	inline static constexpr unsigned int PublicMemberInfoEntityExtension_TypeDefinitionIndex = 10026;
+
 	class PublicMemberInfoEntityExtension : public ::System::Object
 	{
 	public:

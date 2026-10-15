@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OJMPCBPFHHK_CTOR_OFFSET UNITYSDK_OFFSET(0xBECBF40)
 #define OJMPCBPFHHK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBECBE90)
 
+inline static constexpr unsigned int OJMPCBPFHHK_TypeDefinitionIndex = 57337;
+
 	class OJMPCBPFHHK : public ::System::Object
 	{
 	public:

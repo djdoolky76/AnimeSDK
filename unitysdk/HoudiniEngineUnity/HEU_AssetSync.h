@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_AssetSync_TypeDefinitionIndex = 40592;
+
 	class HEU_AssetSync : public ::HoudiniEngineUnity::HEU_BaseSync
 	{
 	public:

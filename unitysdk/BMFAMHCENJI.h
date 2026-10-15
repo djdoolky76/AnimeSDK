@@ -4,6 +4,8 @@
 
 #define BMFAMHCENJI_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1D9E1A20)
 
+inline static constexpr unsigned int BMFAMHCENJI_TypeDefinitionIndex = 10685;
+
 	class BMFAMHCENJI : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FiveDimGameInstance___c__DisplayClass144_0_TypeDefinitionIndex = 60393;
+
 	class FiveDimGameInstance___c__DisplayClass144_0 : public ::System::Object
 	{
 	public:

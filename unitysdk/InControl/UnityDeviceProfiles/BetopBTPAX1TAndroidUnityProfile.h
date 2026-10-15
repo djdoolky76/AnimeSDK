@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int BetopBTPAX1TAndroidUnityProfile_TypeDefinitionIndex = 40941;
+
 	class BetopBTPAX1TAndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

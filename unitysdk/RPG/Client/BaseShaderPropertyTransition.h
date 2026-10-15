@@ -49,6 +49,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BaseShaderPropertyTransition_TypeDefinitionIndex = 68853;
+
 	class BaseShaderPropertyTransition : public ::UnityEngine::MonoBehaviour
 	{
 	public:

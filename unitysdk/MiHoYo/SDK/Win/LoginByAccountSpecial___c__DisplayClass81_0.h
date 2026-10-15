@@ -9,6 +9,8 @@ namespace MiHoYo::SDK::Win { class LoginByAccountSpecial; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int LoginByAccountSpecial___c__DisplayClass81_0_TypeDefinitionIndex = 9543;
+
 	class LoginByAccountSpecial___c__DisplayClass81_0 : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphOverrideModeConfig_TypeDefinitionIndex = 21637;
+
 	class PhotoGraphOverrideModeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

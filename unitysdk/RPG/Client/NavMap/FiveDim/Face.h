@@ -70,6 +70,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::NavMap::FiveDim
 {
+	inline static constexpr unsigned int Face_TypeDefinitionIndex = 74661;
+
 	class Face : public ::System::Object
 	{
 	public:

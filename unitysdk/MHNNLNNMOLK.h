@@ -11,6 +11,8 @@ namespace System { class Action; }
 #define MHNNLNNMOLK_NNAGLJCMMGD_OFFSET UNITYSDK_OFFSET(0xB9483F0)
 #define MHNNLNNMOLK_NONJDKKDDLE_OFFSET UNITYSDK_OFFSET(0xB9482D0)
 
+inline static constexpr unsigned int MHNNLNNMOLK_TypeDefinitionIndex = 60482;
+
 	class MHNNLNNMOLK : public ::System::Object
 	{
 	public:

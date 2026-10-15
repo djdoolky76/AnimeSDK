@@ -36,6 +36,8 @@ namespace System { class String; }
 #define LEBJPFBMOJM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E923EF0)
 #define LEBJPFBMOJM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E923F50)
 
+inline static constexpr unsigned int LEBJPFBMOJM_TypeDefinitionIndex = 25260;
+
 	class LEBJPFBMOJM : public ::System::Object
 	{
 	public:

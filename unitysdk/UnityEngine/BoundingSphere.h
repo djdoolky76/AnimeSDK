@@ -8,6 +8,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int BoundingSphere_TypeDefinitionIndex = 4047;
+
 	struct alignas(4) BoundingSphere
 	{
 		::UnityEngine::Vector3 position; // 0x10

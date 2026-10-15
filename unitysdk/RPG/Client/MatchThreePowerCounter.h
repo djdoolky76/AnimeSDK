@@ -21,6 +21,8 @@ namespace UnityEngine { class Animation; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreePowerCounter_TypeDefinitionIndex = 65961;
+
 	class MatchThreePowerCounter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

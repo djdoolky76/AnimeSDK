@@ -17,6 +17,8 @@ namespace RPG::Client { class DirectDeliveryNoticeToastConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DirectDeliveryNoticeData_TypeDefinitionIndex = 63572;
+
 	class DirectDeliveryNoticeData : public ::System::Object
 	{
 	public:

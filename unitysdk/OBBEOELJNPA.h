@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OBBEOELJNPA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EBAB9C0)
 #define OBBEOELJNPA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EBABA20)
 
+inline static constexpr unsigned int OBBEOELJNPA_TypeDefinitionIndex = 28183;
+
 	class OBBEOELJNPA : public ::System::Object
 	{
 	public:

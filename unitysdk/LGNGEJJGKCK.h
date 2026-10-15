@@ -6,6 +6,8 @@ class GIHIEMMKHIP;
 
 #define LGNGEJJGKCK_OMNMLHEFNIN_OFFSET UNITYSDK_OFFSET(0xB69CE00)
 
+inline static constexpr unsigned int LGNGEJJGKCK_TypeDefinitionIndex = 67415;
+
 	class LGNGEJJGKCK : public ::System::Object
 	{
 	public:

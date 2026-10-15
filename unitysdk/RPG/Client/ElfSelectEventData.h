@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfSelectEventData_TypeDefinitionIndex = 63669;
+
 	class ElfSelectEventData : public ::System::Object
 	{
 	public:

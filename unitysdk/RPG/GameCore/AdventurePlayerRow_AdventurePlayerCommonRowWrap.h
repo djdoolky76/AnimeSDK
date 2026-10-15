@@ -30,6 +30,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventurePlayerRow_AdventurePlayerCommonRowWrap_TypeDefinitionIndex = 56537;
+
 	class AdventurePlayerRow_AdventurePlayerCommonRowWrap : public ::System::Object
 	{
 	public:

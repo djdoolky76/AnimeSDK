@@ -81,6 +81,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MapMappingInfoData_TypeDefinitionIndex = 62918;
+
 	class MapMappingInfoData : public ::System::Object
 	{
 	public:

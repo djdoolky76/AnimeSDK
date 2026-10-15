@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EHMBINMCDGN_PAANCLMIACD_OFFSET UNITYSDK_OFFSET(0x1C6003E0)
 #define EHMBINMCDGN_PCGCDDDBMFE_OFFSET UNITYSDK_OFFSET(0x1C6001A0)
 
+inline static constexpr unsigned int EHMBINMCDGN_TypeDefinitionIndex = 36279;
+
 	class EHMBINMCDGN : public ::EGDGOMKKEJI
 	{
 	public:

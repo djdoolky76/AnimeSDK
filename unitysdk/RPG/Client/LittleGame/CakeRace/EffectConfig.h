@@ -5,6 +5,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::CakeRace
 {
+	inline static constexpr unsigned int EffectConfig_TypeDefinitionIndex = 78149;
+
 	struct alignas(8) EffectConfig
 	{
 		::System::String* EffectName; // 0x10

@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FGDGPEABLMN_NLKDJCHEAGD_OFFSET UNITYSDK_OFFSET(0x157551B0)
 #define FGDGPEABLMN_OKOIENGEOII_OFFSET UNITYSDK_OFFSET(0x15756980)
 
+inline static constexpr unsigned int FGDGPEABLMN_TypeDefinitionIndex = 60204;
+
 	class FGDGPEABLMN : public ::System::Object
 	{
 	public:

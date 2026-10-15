@@ -4,6 +4,8 @@
 
 #define AAOEKMAMMPI_CTOR_OFFSET UNITYSDK_OFFSET(0xB0D8330)
 
+inline static constexpr unsigned int AAOEKMAMMPI_TypeDefinitionIndex = 48191;
+
 	class AAOEKMAMMPI : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

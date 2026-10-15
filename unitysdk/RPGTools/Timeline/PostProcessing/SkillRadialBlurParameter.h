@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int SkillRadialBlurParameter_TypeDefinitionIndex = 48611;
+
 	struct alignas(4) SkillRadialBlurParameter
 	{
 		::System::Boolean SkillRadialBlurMethodOverrideState; // 0x10

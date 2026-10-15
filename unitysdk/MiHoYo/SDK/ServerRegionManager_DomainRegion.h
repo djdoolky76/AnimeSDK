@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ServerRegionManager_DomainRegion_TypeDefinitionIndex = 7964;
+
 	class ServerRegionManager_DomainRegion : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UnBindPropsCablelines; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UnBindPropsCablelines_TypeDefinitionIndex = 21270;
+
 	class UnBindPropsCablelines : public ::RPG::GameCore::TaskConfig
 	{
 	public:

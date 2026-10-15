@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftEntranceCameraUpdater_TypeDefinitionIndex = 79952;
+
 	class MechCraftEntranceCameraUpdater : public ::UnityEngine::MonoBehaviour
 	{
 	public:

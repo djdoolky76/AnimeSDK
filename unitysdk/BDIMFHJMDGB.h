@@ -16,6 +16,8 @@ class JDLBJEFHFPK;
 #define BDIMFHJMDGB_ODBJPBFIHPE_OFFSET UNITYSDK_OFFSET(0x162FC9E0)
 #define BDIMFHJMDGB__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0x162FCD50)
 
+inline static constexpr unsigned int BDIMFHJMDGB_TypeDefinitionIndex = 49312;
+
 	class BDIMFHJMDGB : public ::KHAKCLAJLOB
 	{
 	public:

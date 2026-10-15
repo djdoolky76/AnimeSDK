@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelWaitSummonUnitQueueCountValueGetter; 
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelWaitSummonUnitQueueCountValueGetter_TypeDefinitionIndex = 16002;
+
 	class ChimeraDuelWaitSummonUnitQueueCountValueGetter : public ::RPG::GameCore::BaseChimeraDuelValueGetter
 	{
 	public:

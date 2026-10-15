@@ -10,6 +10,8 @@ class ODGPPIHLOFF;
 #define GNPPNJNBKAI___C__DISPLAYCLASS2_0__UPDATEPROPERTYASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x15B21830)
 #define GNPPNJNBKAI___C__DISPLAYCLASS2_0__UPDATEPROPERTYASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x15B223E0)
 
+inline static constexpr unsigned int GNPPNJNBKAI___c__DisplayClass2_0_TypeDefinitionIndex = 49456;
+
 	class GNPPNJNBKAI___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

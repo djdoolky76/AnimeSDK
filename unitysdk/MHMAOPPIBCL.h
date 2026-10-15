@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int MHMAOPPIBCL_TypeDefinitionIndex = 32508;
+
 	enum class MHMAOPPIBCL : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

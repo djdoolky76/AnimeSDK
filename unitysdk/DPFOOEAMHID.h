@@ -4,6 +4,8 @@
 
 #define DPFOOEAMHID_CTOR_OFFSET UNITYSDK_OFFSET(0x11FFC6B0)
 
+inline static constexpr unsigned int DPFOOEAMHID_TypeDefinitionIndex = 64344;
+
 	class DPFOOEAMHID : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CHIBEKJIAMC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0C6DF0)
 #define CHIBEKJIAMC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0C6E50)
 
+inline static constexpr unsigned int CHIBEKJIAMC_TypeDefinitionIndex = 31368;
+
 	class CHIBEKJIAMC : public ::System::Object
 	{
 	public:

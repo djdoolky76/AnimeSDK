@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChasePuzzleBoard_TypeDefinitionIndex = 78225;
+
 	class ChasePuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

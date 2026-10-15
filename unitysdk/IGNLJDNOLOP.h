@@ -8,6 +8,8 @@ class IGNLJDNOLOP;
 #define IGNLJDNOLOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF0E7F0)
 #define IGNLJDNOLOP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF0E6D0)
 
+inline static constexpr unsigned int IGNLJDNOLOP_TypeDefinitionIndex = 14394;
+
 	class IGNLJDNOLOP : public ::System::Object
 	{
 	public:

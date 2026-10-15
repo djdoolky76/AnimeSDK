@@ -6,6 +6,8 @@ class NOOHPODHIAA;
 
 #define NJNHOPCDNOC_FBOFBLKBHOH_OFFSET UNITYSDK_OFFSET(0xBC26FF0)
 
+inline static constexpr unsigned int NJNHOPCDNOC_TypeDefinitionIndex = 77020;
+
 	class NJNHOPCDNOC : public ::System::Object
 	{
 	public:

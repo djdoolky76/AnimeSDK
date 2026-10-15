@@ -10,6 +10,8 @@ namespace RPG::Client { class RogueTournUtils_RoomCardInGameComparer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaRoomCardPileViewModel_RoomCardWithCandidateComparer_TypeDefinitionIndex = 72882;
+
 	class RogueTournPersonaRoomCardPileViewModel_RoomCardWithCandidateComparer : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 #define MNGLGNFNLHH_SET_DATASOURCESKILLID_OFFSET UNITYSDK_OFFSET(0x1C92DCB0)
 #define MNGLGNFNLHH_SET_OVERRIDECASTERID_OFFSET UNITYSDK_OFFSET(0x1C92DCD0)
 
+inline static constexpr unsigned int MNGLGNFNLHH_TypeDefinitionIndex = 41960;
+
 	class MNGLGNFNLHH : public ::System::Object
 	{
 	public:

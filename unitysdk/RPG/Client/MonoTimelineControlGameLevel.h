@@ -13,6 +13,8 @@ namespace RPG::Client { class MonoTimelineControlGameLevelGroup; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTimelineControlGameLevel_TypeDefinitionIndex = 60435;
+
 	class MonoTimelineControlGameLevel : public ::UnityEngine::MonoBehaviour
 	{
 	public:

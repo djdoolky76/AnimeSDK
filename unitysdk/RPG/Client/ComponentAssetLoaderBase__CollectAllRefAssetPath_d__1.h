@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ComponentAssetLoaderBase__CollectAllRefAssetPath_d__1_TypeDefinitionIndex = 68405;
+
 	template <typename T>
 	class ComponentAssetLoaderBase__CollectAllRefAssetPath_d__1 : public ::System::Object
 	{

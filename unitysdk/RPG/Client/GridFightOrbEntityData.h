@@ -18,6 +18,8 @@ namespace RPG::Client { class GridFightOrbEntityData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightOrbEntityData_TypeDefinitionIndex = 64439;
+
 	class GridFightOrbEntityData : public ::RPG::Client::GridFightOrbData
 	{
 	public:

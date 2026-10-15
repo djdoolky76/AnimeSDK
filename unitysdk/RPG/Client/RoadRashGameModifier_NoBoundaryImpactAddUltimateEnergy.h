@@ -11,6 +11,8 @@ namespace RPG::Client { class RoadRashGameModifier_NoBoundaryImpactAddUltimateEn
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoadRashGameModifier_NoBoundaryImpactAddUltimateEnergy_TypeDefinitionIndex = 10304;
+
 	class RoadRashGameModifier_NoBoundaryImpactAddUltimateEnergy : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:

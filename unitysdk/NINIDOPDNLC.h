@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NINIDOPDNLC_JOFBCHJCLDA_OFFSET UNITYSDK_OFFSET(0xBBFE360)
 #define NINIDOPDNLC_OMFPOKGALDM_OFFSET UNITYSDK_OFFSET(0xBBFE520)
 
+inline static constexpr unsigned int NINIDOPDNLC_TypeDefinitionIndex = 62652;
+
 	class NINIDOPDNLC : public ::System::Object
 	{
 	public:

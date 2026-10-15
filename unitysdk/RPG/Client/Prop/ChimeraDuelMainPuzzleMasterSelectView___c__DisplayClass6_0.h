@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleMasterSelectView___c__DisplayClass6_0_TypeDefinitionIndex = 78381;
+
 	class ChimeraDuelMainPuzzleMasterSelectView___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

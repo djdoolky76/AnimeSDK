@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRApplications__IsQuitUserPromptRequested_TypeDefinitionIndex = 38981;
+
 	class IVRApplications__IsQuitUserPromptRequested : public ::System::MulticastDelegate
 	{
 	public:

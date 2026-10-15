@@ -5,6 +5,8 @@
 
 #define HALFODCJNDE_COHMJPDBLPK_HKLDNDMJCLH_OFFSET UNITYSDK_OFFSET(0x15B8A550)
 
+inline static constexpr unsigned int HALFODCJNDE_COHMJPDBLPK_TypeDefinitionIndex = 51780;
+
 	struct alignas(4) HALFODCJNDE_COHMJPDBLPK
 	{
 		::UnityEngine::Matrix4x4 OECADGDDLDI; // 0x10

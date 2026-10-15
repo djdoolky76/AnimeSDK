@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LMJPFDHIPNB_OCCPLHLNMDH_OFFSET UNITYSDK_OFFSET(0xB7CC170)
 #define LMJPFDHIPNB_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB7CB290)
 
+inline static constexpr unsigned int LMJPFDHIPNB_TypeDefinitionIndex = 77084;
+
 	class LMJPFDHIPNB : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DynamicValue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClientLogConfigRow_TypeDefinitionIndex = 13231;
+
 	class ClientLogConfigRow : public ::System::Object
 	{
 	public:

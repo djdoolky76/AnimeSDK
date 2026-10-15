@@ -3,6 +3,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int MaterialIDLUTFloat_TypeDefinitionIndex = 37883;
+
 	enum class MaterialIDLUTFloat : ::System::Int32
 	{
 		SpecularShininess = 0,

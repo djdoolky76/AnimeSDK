@@ -9,6 +9,8 @@ namespace RPG::Client::TrainParty { class TrainPartyBuildSlotInfo; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_BaseComparer_TypeDefinitionIndex = 74293;
+
 	class TrainPartyBuildDisplayWallContext_BaseComparer : public ::System::Object
 	{
 	public:

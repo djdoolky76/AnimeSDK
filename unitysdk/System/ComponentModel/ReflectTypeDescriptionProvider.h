@@ -32,6 +32,8 @@ namespace System::ComponentModel { class TypeConverter; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int ReflectTypeDescriptionProvider_TypeDefinitionIndex = 2621;
+
 	class ReflectTypeDescriptionProvider : public ::System::ComponentModel::TypeDescriptionProvider
 	{
 	public:

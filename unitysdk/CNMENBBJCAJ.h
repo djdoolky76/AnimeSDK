@@ -4,6 +4,8 @@
 
 #define CNMENBBJCAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xDA59B60)
 
+inline static constexpr unsigned int CNMENBBJCAJ_TypeDefinitionIndex = 79651;
+
 	class CNMENBBJCAJ : public ::System::Object
 	{
 	public:

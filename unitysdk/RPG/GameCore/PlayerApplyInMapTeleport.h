@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlayerApplyInMapTeleport; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerApplyInMapTeleport_TypeDefinitionIndex = 20504;
+
 	class PlayerApplyInMapTeleport : public ::RPG::GameCore::TaskConfig
 	{
 	public:

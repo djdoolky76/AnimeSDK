@@ -64,6 +64,8 @@ namespace UnityEngine { class Transform; }
 #define MFFGCMFIFNA_PADFHNNBNNL_OFFSET UNITYSDK_OFFSET(0xB8F42B0)
 #define MFFGCMFIFNA_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB8F1D50)
 
+inline static constexpr unsigned int MFFGCMFIFNA_TypeDefinitionIndex = 60667;
+
 	class MFFGCMFIFNA : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 class DKNHOGCDNHH;
 namespace System { template <typename T> class Comparison_1; }
 
+inline static constexpr unsigned int KLFNFKJKMLG___O_TypeDefinitionIndex = 41467;
+
 	class KLFNFKJKMLG___O : public ::System::Object
 	{
 	public:

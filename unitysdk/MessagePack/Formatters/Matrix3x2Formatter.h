@@ -14,6 +14,8 @@ namespace MessagePack::Formatters { class IMessagePackFormatter; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int Matrix3x2Formatter_TypeDefinitionIndex = 7501;
+
 	class Matrix3x2Formatter : public ::System::Object
 	{
 	public:

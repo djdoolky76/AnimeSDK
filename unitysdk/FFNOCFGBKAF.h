@@ -12,6 +12,8 @@ namespace System { class String; }
 #define FFNOCFGBKAF_SET_RUNTIMEID_OFFSET UNITYSDK_OFFSET(0x15747390)
 #define FFNOCFGBKAF_SET_TEXTID_OFFSET UNITYSDK_OFFSET(0x157473B0)
 
+inline static constexpr unsigned int FFNOCFGBKAF_TypeDefinitionIndex = 57524;
+
 	class FFNOCFGBKAF : public ::System::Object
 	{
 	public:

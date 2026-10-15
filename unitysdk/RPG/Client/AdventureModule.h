@@ -373,6 +373,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AdventureModule_TypeDefinitionIndex = 62008;
+
 	class AdventureModule : public ::RPG::Client::BaseModule
 	{
 	public:

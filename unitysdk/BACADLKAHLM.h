@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BACADLKAHLM_CTOR_OFFSET UNITYSDK_OFFSET(0x15BD2430)
 #define BACADLKAHLM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15BD2460)
 
+inline static constexpr unsigned int BACADLKAHLM_TypeDefinitionIndex = 54908;
+
 	class BACADLKAHLM
 	{
 	public:

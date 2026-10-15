@@ -12,6 +12,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineIndependentImpulseListener_TypeDefinitionIndex = 39878;
+
 	class CinemachineIndependentImpulseListener : public ::UnityEngine::MonoBehaviour
 	{
 	public:

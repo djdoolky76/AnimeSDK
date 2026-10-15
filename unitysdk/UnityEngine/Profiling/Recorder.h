@@ -19,6 +19,8 @@ namespace UnityEngine::Profiling { class Recorder; }
 
 namespace UnityEngine::Profiling
 {
+	inline static constexpr unsigned int Recorder_TypeDefinitionIndex = 4517;
+
 	class Recorder : public ::System::Object
 	{
 	public:

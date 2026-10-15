@@ -8,6 +8,8 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Reflection { class MethodInfo; }
 
+inline static constexpr unsigned int KALMGBPCLIG_TypeDefinitionIndex = 44179;
+
 	class KALMGBPCLIG : public ::System::Object
 	{
 	public:

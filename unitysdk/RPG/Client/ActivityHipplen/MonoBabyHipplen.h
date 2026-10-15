@@ -32,6 +32,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int MonoBabyHipplen_TypeDefinitionIndex = 75600;
+
 	class MonoBabyHipplen : public ::UnityEngine::MonoBehaviour
 	{
 	public:

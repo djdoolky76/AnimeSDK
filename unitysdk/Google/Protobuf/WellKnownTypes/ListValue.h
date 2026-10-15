@@ -31,6 +31,8 @@ namespace System { class String; }
 
 namespace Google::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int ListValue_TypeDefinitionIndex = 5436;
+
 	class ListValue : public ::System::Object
 	{
 	public:

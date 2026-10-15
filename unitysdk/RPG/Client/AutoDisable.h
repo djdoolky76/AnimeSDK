@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AutoDisable_TypeDefinitionIndex = 68319;
+
 	class AutoDisable : public ::UnityEngine::MonoBehaviour
 	{
 	public:

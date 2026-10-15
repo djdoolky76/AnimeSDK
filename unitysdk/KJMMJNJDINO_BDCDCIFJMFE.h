@@ -4,6 +4,8 @@
 class KJMMJNJDINO;
 namespace System { class Action; }
 
+inline static constexpr unsigned int KJMMJNJDINO_BDCDCIFJMFE_TypeDefinitionIndex = 49969;
+
 	class KJMMJNJDINO_BDCDCIFJMFE : public ::System::Object
 	{
 	public:

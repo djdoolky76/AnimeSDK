@@ -47,6 +47,8 @@ namespace System { class String; }
 #define ONPOFJPEBMJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DED36A0)
 #define ONPOFJPEBMJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DED3700)
 
+inline static constexpr unsigned int ONPOFJPEBMJ_TypeDefinitionIndex = 33642;
+
 	class ONPOFJPEBMJ : public ::System::Object
 	{
 	public:

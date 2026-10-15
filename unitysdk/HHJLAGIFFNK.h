@@ -32,6 +32,8 @@ namespace System { class String; }
 #define HHJLAGIFFNK_PEHIOKPNMPD_OFFSET UNITYSDK_OFFSET(0x15CCFBC0)
 #define HHJLAGIFFNK_PKGDEAEPJHE_OFFSET UNITYSDK_OFFSET(0x15CCF9C0)
 
+inline static constexpr unsigned int HHJLAGIFFNK_TypeDefinitionIndex = 71165;
+
 	class HHJLAGIFFNK : public ::System::Object
 	{
 	public:

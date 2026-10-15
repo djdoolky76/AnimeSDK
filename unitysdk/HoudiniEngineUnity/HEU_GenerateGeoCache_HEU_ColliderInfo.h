@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_GenerateGeoCache_HEU_ColliderInfo_TypeDefinitionIndex = 40635;
+
 	class HEU_GenerateGeoCache_HEU_ColliderInfo : public ::System::Object
 	{
 	public:

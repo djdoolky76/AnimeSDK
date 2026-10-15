@@ -11,6 +11,8 @@ namespace System { class Action; }
 #define IJNIJIMJJDK_SET_ISWIN_OFFSET UNITYSDK_OFFSET(0x16471840)
 #define IJNIJIMJJDK_SET_ONCOMPLETE_OFFSET UNITYSDK_OFFSET(0x16471860)
 
+inline static constexpr unsigned int IJNIJIMJJDK_TypeDefinitionIndex = 79017;
+
 	class IJNIJIMJJDK : public ::System::Object
 	{
 	public:

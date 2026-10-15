@@ -6,6 +6,8 @@ class GIGJKOIHAAC;
 #define FDNAOLMKNIE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA66CA0)
 #define FDNAOLMKNIE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA66D00)
 
+inline static constexpr unsigned int FDNAOLMKNIE_TypeDefinitionIndex = 43342;
+
 	class FDNAOLMKNIE : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace MiHoYo::SDK::UI::OS { class IAgeGateGeneralErrorDialog; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass8_0_TypeDefinitionIndex = 8723;
+
 	class AgeGateManager___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

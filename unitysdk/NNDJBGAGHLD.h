@@ -7,6 +7,8 @@
 #define NNDJBGAGHLD_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C973590)
 #define NNDJBGAGHLD_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C9735D0)
 
+inline static constexpr unsigned int NNDJBGAGHLD_TypeDefinitionIndex = 43545;
+
 	class NNDJBGAGHLD : public ::System::Object
 	{
 	public:

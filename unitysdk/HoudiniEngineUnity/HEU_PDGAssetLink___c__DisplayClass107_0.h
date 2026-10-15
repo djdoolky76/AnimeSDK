@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_PDGAssetLink___c__DisplayClass107_0_TypeDefinitionIndex = 40535;
+
 	class HEU_PDGAssetLink___c__DisplayClass107_0 : public ::System::Object
 	{
 	public:

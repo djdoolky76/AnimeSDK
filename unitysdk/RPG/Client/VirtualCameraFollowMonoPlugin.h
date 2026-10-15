@@ -11,6 +11,8 @@ namespace UnityEngine::Rendering { class CRPVirtualCamera; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VirtualCameraFollowMonoPlugin_TypeDefinitionIndex = 70349;
+
 	class VirtualCameraFollowMonoPlugin
 	{
 	public:

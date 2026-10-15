@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::ElectricChainV2
 {
+	inline static constexpr unsigned int Effect_ElectricChainV2Behavior___c_TypeDefinitionIndex = 73586;
+
 	class Effect_ElectricChainV2Behavior___c : public ::System::Object
 	{
 	public:

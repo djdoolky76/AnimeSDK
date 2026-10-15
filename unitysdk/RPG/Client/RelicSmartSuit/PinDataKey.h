@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client::RelicSmartSuit
 {
+	inline static constexpr unsigned int PinDataKey_TypeDefinitionIndex = 74411;
+
 	class PinDataKey : public ::System::Object
 	{
 	public:

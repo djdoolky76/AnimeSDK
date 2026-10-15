@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define IDEGKDIFDIO__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x15EC3990)
 #define IDEGKDIFDIO__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x15EC3A50)
 
+inline static constexpr unsigned int IDEGKDIFDIO_TypeDefinitionIndex = 58886;
+
 	class IDEGKDIFDIO
 	{
 	public:

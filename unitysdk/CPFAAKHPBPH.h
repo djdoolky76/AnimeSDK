@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CPFAAKHPBPH_KJPKEHHHIPI_OFFSET UNITYSDK_OFFSET(0xDCD13E0)
 #define CPFAAKHPBPH_LKMMFFLGEFI_OFFSET UNITYSDK_OFFSET(0xDCD2870)
 
+inline static constexpr unsigned int CPFAAKHPBPH_TypeDefinitionIndex = 60164;
+
 	class CPFAAKHPBPH : public ::NEKAOEFLAMO
 	{
 	public:

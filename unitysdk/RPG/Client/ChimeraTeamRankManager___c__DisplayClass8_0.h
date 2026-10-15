@@ -8,6 +8,8 @@ namespace RPG::Client { class ChimeraTeamRowWrapper; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraTeamRankManager___c__DisplayClass8_0_TypeDefinitionIndex = 63444;
+
 	class ChimeraTeamRankManager___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

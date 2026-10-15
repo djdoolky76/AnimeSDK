@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SimpRTXGroupComponent_TypeDefinitionIndex = 70189;
+
 	class SimpRTXGroupComponent : public ::UnityEngine::MonoBehaviour
 	{
 	public:

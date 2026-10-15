@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 #define BLFCELFLAHN_AEDNDFHMPBF_GLDLJMHAJJM_OFFSET UNITYSDK_OFFSET(0xBA6C360)
 #define BLFCELFLAHN_AEDNDFHMPBF_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xBA6C1A0)
 
+inline static constexpr unsigned int BLFCELFLAHN_AEDNDFHMPBF_TypeDefinitionIndex = 52295;
+
 	class BLFCELFLAHN_AEDNDFHMPBF : public ::System::Object
 	{
 	public:

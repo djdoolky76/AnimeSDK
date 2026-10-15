@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LogicAnimEventTimelineTrack; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LogicAnimEventTimelineTrack_TypeDefinitionIndex = 16296;
+
 	class LogicAnimEventTimelineTrack : public ::RPG::GameCore::JsonConfig
 	{
 	public:

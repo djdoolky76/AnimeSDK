@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GDEKLGACBCM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E446100)
 #define GDEKLGACBCM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E446160)
 
+inline static constexpr unsigned int GDEKLGACBCM_TypeDefinitionIndex = 31466;
+
 	class GDEKLGACBCM : public ::System::Object
 	{
 	public:

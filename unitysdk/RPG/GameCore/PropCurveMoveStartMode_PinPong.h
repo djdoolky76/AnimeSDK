@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PropCurveMoveStartMode_PinPong; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropCurveMoveStartMode_PinPong_TypeDefinitionIndex = 21007;
+
 	class PropCurveMoveStartMode_PinPong : public ::RPG::GameCore::PropCurveMoveStartMode
 	{
 	public:

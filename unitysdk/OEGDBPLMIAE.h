@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OEGDBPLMIAE_MMNFCKLBEFB_OFFSET UNITYSDK_OFFSET(0x1C7CC5B0)
 #define OEGDBPLMIAE_OAKCJCGJAPI_OFFSET UNITYSDK_OFFSET(0x1C7CCEE0)
 
+inline static constexpr unsigned int OEGDBPLMIAE_TypeDefinitionIndex = 36196;
+
 	class OEGDBPLMIAE : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define OGNKOHNNFFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C992CA0)
 
+inline static constexpr unsigned int OGNKOHNNFFH_TypeDefinitionIndex = 42135;
+
 	class OGNKOHNNFFH : public ::System::Object
 	{
 	public:

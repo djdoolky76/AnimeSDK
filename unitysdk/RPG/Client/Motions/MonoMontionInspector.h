@@ -7,6 +7,8 @@ class CLFIGBPHLHI;
 
 namespace RPG::Client::Motions
 {
+	inline static constexpr unsigned int MonoMontionInspector_TypeDefinitionIndex = 73492;
+
 	class MonoMontionInspector : public ::UnityEngine::MonoBehaviour
 	{
 	public:

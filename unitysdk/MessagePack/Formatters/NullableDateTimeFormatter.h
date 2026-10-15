@@ -15,6 +15,8 @@ namespace System { class Nullable; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int NullableDateTimeFormatter_TypeDefinitionIndex = 7480;
+
 	class NullableDateTimeFormatter : public ::System::Object
 	{
 	public:

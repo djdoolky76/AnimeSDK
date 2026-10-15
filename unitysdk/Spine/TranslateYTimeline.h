@@ -13,6 +13,8 @@ namespace Spine { template <typename T> class ExposedList_1; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int TranslateYTimeline_TypeDefinitionIndex = 39606;
+
 	class TranslateYTimeline : public ::Spine::CurveTimeline1
 	{
 	public:

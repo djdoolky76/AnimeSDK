@@ -23,6 +23,8 @@ namespace System { class String; }
 #define NNJOIHFDHML_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xBCB5F10)
 #define NNJOIHFDHML_SET_OWNERFMSYSTEM_OFFSET UNITYSDK_OFFSET(0xBCB62D0)
 
+inline static constexpr unsigned int NNJOIHFDHML_TypeDefinitionIndex = 74044;
+
 	class NNJOIHFDHML : public ::System::Object
 	{
 	public:

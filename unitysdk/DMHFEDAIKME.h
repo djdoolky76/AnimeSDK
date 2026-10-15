@@ -23,6 +23,8 @@ namespace System { class String; }
 #define DMHFEDAIKME_KNFKDIDNFME_OFFSET UNITYSDK_OFFSET(0xFEC0C50)
 #define DMHFEDAIKME_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xFEC0560)
 
+inline static constexpr unsigned int DMHFEDAIKME_TypeDefinitionIndex = 74172;
+
 	class DMHFEDAIKME : public ::CFALFIPEHJH
 	{
 	public:

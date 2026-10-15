@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int NumberBuffer_TypeDefinitionIndex = 4973;
+
 	struct alignas(4) NumberBuffer
 	{
 		::System::Int32 Scale; // 0x10

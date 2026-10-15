@@ -8,6 +8,8 @@ namespace UnityEngine::Rendering { class BatchAnimationClip; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int BatchAnimationClip_TypeDefinitionIndex = 4791;
+
 	class BatchAnimationClip : public ::UnityEngine::Object
 	{
 	public:

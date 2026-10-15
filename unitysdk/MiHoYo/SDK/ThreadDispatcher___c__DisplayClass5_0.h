@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ThreadDispatcher___c__DisplayClass5_0_TypeDefinitionIndex = 8032;
+
 	class ThreadDispatcher___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

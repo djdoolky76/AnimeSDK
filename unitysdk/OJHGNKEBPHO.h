@@ -14,6 +14,8 @@ namespace UnityEngine { class Texture; }
 #define OJHGNKEBPHO_IALLMNNHOJA_OFFSET UNITYSDK_OFFSET(0xBEB72A0)
 #define OJHGNKEBPHO_PAGJNLMPDJI_OFFSET UNITYSDK_OFFSET(0xBEB7610)
 
+inline static constexpr unsigned int OJHGNKEBPHO_TypeDefinitionIndex = 51804;
+
 	class OJHGNKEBPHO : public ::System::Object
 	{
 	public:

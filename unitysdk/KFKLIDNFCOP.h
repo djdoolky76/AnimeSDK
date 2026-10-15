@@ -30,6 +30,8 @@ namespace System { class String; }
 #define KFKLIDNFCOP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E81C660)
 #define KFKLIDNFCOP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E81C6C0)
 
+inline static constexpr unsigned int KFKLIDNFCOP_TypeDefinitionIndex = 31898;
+
 	class KFKLIDNFCOP : public ::System::Object
 	{
 	public:

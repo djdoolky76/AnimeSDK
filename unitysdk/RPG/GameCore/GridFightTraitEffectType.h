@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightTraitEffectType_TypeDefinitionIndex = 13658;
+
 	enum class GridFightTraitEffectType : ::System::Int32
 	{
 		None = 0,

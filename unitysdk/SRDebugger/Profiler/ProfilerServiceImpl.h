@@ -22,6 +22,8 @@ namespace UnityEngine { class Camera; }
 
 namespace SRDebugger::Profiler
 {
+	inline static constexpr unsigned int ProfilerServiceImpl_TypeDefinitionIndex = 38093;
+
 	class ProfilerServiceImpl
 	{
 	public:

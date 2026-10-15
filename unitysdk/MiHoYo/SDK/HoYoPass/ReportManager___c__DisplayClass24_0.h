@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int ReportManager___c__DisplayClass24_0_TypeDefinitionIndex = 8354;
+
 	class ReportManager___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:

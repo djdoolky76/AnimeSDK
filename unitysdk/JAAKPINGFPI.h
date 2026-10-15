@@ -9,6 +9,8 @@ namespace System { class Exception; }
 #define JAAKPINGFPI__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0x1653A090)
 #define JAAKPINGFPI__ONTASKBEGIN_B__1_1_OFFSET UNITYSDK_OFFSET(0x1653A0A0)
 
+inline static constexpr unsigned int JAAKPINGFPI_TypeDefinitionIndex = 52795;
+
 	class JAAKPINGFPI
 	{
 	public:

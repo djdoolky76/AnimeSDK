@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicString; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterModelComponentConfig_TypeDefinitionIndex = 16561;
+
 	class CharacterModelComponentConfig : public ::RPG::GameCore::ComponentConfig
 	{
 	public:

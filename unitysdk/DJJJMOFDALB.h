@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DJJJMOFDALB_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xF239050)
 #define DJJJMOFDALB_REMOVE_ONCHANGED_OFFSET UNITYSDK_OFFSET(0xF238CB0)
 
+inline static constexpr unsigned int DJJJMOFDALB_TypeDefinitionIndex = 55962;
+
 	class DJJJMOFDALB : public ::System::Object
 	{
 	public:

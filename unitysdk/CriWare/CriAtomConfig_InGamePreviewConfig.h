@@ -6,6 +6,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomConfig_InGamePreviewConfig_TypeDefinitionIndex = 40156;
+
 	class CriAtomConfig_InGamePreviewConfig : public ::System::Object
 	{
 	public:

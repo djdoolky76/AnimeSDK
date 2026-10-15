@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define GNKHIPBNELK_CTOR_OFFSET UNITYSDK_OFFSET(0x15B150E0)
 
+inline static constexpr unsigned int GNKHIPBNELK_TypeDefinitionIndex = 82243;
+
 	class GNKHIPBNELK : public ::NPEJPBFILIP
 	{
 	public:

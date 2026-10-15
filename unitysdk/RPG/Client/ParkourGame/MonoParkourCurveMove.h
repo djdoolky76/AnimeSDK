@@ -10,6 +10,8 @@ namespace RPG::Client::ParkourGame { class MonoParkourCurveMoveItem; }
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int MonoParkourCurveMove_TypeDefinitionIndex = 74135;
+
 	class MonoParkourCurveMove : public ::UnityEngine::MonoBehaviour
 	{
 	public:

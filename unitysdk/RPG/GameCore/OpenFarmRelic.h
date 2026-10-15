@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OpenFarmRelic_TypeDefinitionIndex = 22093;
+
 	class OpenFarmRelic : public ::RPG::GameCore::TaskConfig
 	{
 	public:

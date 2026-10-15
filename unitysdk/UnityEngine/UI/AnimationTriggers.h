@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int AnimationTriggers_TypeDefinitionIndex = 6690;
+
 	class AnimationTriggers : public ::System::Object
 	{
 	public:

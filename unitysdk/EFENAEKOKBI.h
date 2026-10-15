@@ -23,6 +23,8 @@ namespace RPG::Client::LittleGame::CakeRace { class CakeRaceFieldMonoView; }
 #define EFENAEKOKBI_OFAPGKBINBG_OFFSET UNITYSDK_OFFSET(0x13A4A710)
 #define EFENAEKOKBI_TICK_OFFSET UNITYSDK_OFFSET(0x13A4A640)
 
+inline static constexpr unsigned int EFENAEKOKBI_TypeDefinitionIndex = 78013;
+
 	class EFENAEKOKBI : public ::System::Object
 	{
 	public:

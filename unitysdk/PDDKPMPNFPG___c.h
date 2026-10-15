@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define PDDKPMPNFPG___C__TRYCREATEWITHEFFECT_B__2_0_OFFSET UNITYSDK_OFFSET(0xC010D20)
 #define PDDKPMPNFPG___C___TRYCREATEEFFECT_B__6_1_OFFSET UNITYSDK_OFFSET(0xC010D30)
 
+inline static constexpr unsigned int PDDKPMPNFPG___c_TypeDefinitionIndex = 78347;
+
 	class PDDKPMPNFPG___c : public ::System::Object
 	{
 	public:

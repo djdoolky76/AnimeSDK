@@ -8,6 +8,8 @@
 #define DHAOLPGKOAP_SET_MATCHID_OFFSET UNITYSDK_OFFSET(0xEBB69D0)
 #define DHAOLPGKOAP_SET_TRACKID_OFFSET UNITYSDK_OFFSET(0xEBB69F0)
 
+inline static constexpr unsigned int DHAOLPGKOAP_TypeDefinitionIndex = 81664;
+
 	class DHAOLPGKOAP : public ::System::Object
 	{
 	public:

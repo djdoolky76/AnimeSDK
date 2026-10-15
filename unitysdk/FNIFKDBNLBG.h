@@ -30,6 +30,8 @@ namespace System { class String; }
 #define FNIFKDBNLBG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3F1180)
 #define FNIFKDBNLBG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3F11E0)
 
+inline static constexpr unsigned int FNIFKDBNLBG_TypeDefinitionIndex = 28179;
+
 	class FNIFKDBNLBG : public ::System::Object
 	{
 	public:

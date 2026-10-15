@@ -9,6 +9,8 @@
 
 namespace UnityEngine::Pooled
 {
+	inline static constexpr unsigned int MathHelper_TypeDefinitionIndex = 4528;
+
 	class MathHelper : public ::System::Object
 	{
 	public:

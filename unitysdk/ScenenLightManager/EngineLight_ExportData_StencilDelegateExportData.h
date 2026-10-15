@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int EngineLight_ExportData_StencilDelegateExportData_TypeDefinitionIndex = 49100;
+
 	class EngineLight_ExportData_StencilDelegateExportData : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine { class SphereCollider; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureMovementManager_BMDJOOCGICM_TypeDefinitionIndex = 57096;
+
 	class AdventureMovementManager_BMDJOOCGICM : public ::RPG::GameCore::AdventureMovementManager_LOMFOEEBPJO
 	{
 	public:

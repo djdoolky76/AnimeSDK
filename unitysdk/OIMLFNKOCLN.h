@@ -25,6 +25,8 @@ namespace System { class String; }
 #define OIMLFNKOCLN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE744B0)
 #define OIMLFNKOCLN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE74510)
 
+inline static constexpr unsigned int OIMLFNKOCLN_TypeDefinitionIndex = 34086;
+
 	class OIMLFNKOCLN : public ::System::Object
 	{
 	public:

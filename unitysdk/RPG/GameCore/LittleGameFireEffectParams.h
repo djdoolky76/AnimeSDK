@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameFireEffectParams_TypeDefinitionIndex = 18889;
+
 	class LittleGameFireEffectParams : public ::RPG::GameCore::JsonConfig
 	{
 	public:

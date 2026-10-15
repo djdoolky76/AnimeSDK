@@ -3,6 +3,8 @@
 
 namespace UnityEngine::GCFreeClosure
 {
+	inline static constexpr unsigned int IDebug_TypeDefinitionIndex = 4459;
+
 	class IDebug
 	{
 	public:

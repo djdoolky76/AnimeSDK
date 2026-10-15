@@ -21,6 +21,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int EmoTimelineBehaviour_TypeDefinitionIndex = 48738;
+
 	class EmoTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

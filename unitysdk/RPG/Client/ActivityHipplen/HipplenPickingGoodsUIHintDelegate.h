@@ -15,6 +15,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int HipplenPickingGoodsUIHintDelegate_TypeDefinitionIndex = 75596;
+
 	class HipplenPickingGoodsUIHintDelegate : public ::System::Object
 	{
 	public:

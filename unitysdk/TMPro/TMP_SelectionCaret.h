@@ -9,6 +9,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_SelectionCaret_TypeDefinitionIndex = 44628;
+
 	class TMP_SelectionCaret : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:

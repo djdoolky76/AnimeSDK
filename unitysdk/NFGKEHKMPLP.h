@@ -9,6 +9,8 @@ namespace Entitas { class IEntity; }
 #define NFGKEHKMPLP_ONREMOVE_OFFSET UNITYSDK_OFFSET(0xBB93950)
 #define NFGKEHKMPLP_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xBB938F0)
 
+inline static constexpr unsigned int NFGKEHKMPLP_TypeDefinitionIndex = 75953;
+
 	class NFGKEHKMPLP
 	{
 	public:

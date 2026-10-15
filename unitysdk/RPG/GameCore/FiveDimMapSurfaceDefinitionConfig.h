@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FiveDimMapSurfaceDefinitionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimMapSurfaceDefinitionConfig_TypeDefinitionIndex = 18522;
+
 	class FiveDimMapSurfaceDefinitionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

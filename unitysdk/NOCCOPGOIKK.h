@@ -11,6 +11,8 @@ namespace RPG::GameCore { class StageVoxelDataIndex; }
 #define NOCCOPGOIKK_LLFGOHPOOIK_OFFSET UNITYSDK_OFFSET(0xBCE6150)
 #define NOCCOPGOIKK_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBCE5FE0)
 
+inline static constexpr unsigned int NOCCOPGOIKK_TypeDefinitionIndex = 73981;
+
 	class NOCCOPGOIKK : public ::PAOIIOIGCOJ
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define FPONDLFPJHM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE1DC40)
 #define FPONDLFPJHM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE1DC00)
 
+inline static constexpr unsigned int FPONDLFPJHM_TypeDefinitionIndex = 21247;
+
 	class FPONDLFPJHM : public ::RPG::GameCore::TaskConfig
 	{
 	public:

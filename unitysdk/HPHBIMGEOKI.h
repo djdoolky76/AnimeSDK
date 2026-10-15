@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define HPHBIMGEOKI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15DC79C0)
 #define HPHBIMGEOKI_TICK_OFFSET UNITYSDK_OFFSET(0x15DC7A10)
 
+inline static constexpr unsigned int HPHBIMGEOKI_TypeDefinitionIndex = 58891;
+
 	class HPHBIMGEOKI : public ::GELIALJDFBL
 	{
 	public:

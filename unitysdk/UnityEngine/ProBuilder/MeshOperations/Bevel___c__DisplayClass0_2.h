@@ -9,6 +9,8 @@ namespace UnityEngine::ProBuilder { class WingedEdge; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int Bevel___c__DisplayClass0_2_TypeDefinitionIndex = 44481;
+
 	template <typename T1, typename T2>
 	class Bevel___c__DisplayClass0_2 : public ::System::Object
 	{

@@ -64,6 +64,8 @@ namespace System { class String; }
 #define BBHANDBNKEJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7C4170)
 #define BBHANDBNKEJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7C41D0)
 
+inline static constexpr unsigned int BBHANDBNKEJ_TypeDefinitionIndex = 27514;
+
 	class BBHANDBNKEJ : public ::System::Object
 	{
 	public:

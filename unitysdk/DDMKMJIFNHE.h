@@ -14,6 +14,8 @@ namespace RPG::GameCore { class VerifyInteractingEntity; }
 #define DDMKMJIFNHE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE4E8750)
 #define DDMKMJIFNHE_TICK_OFFSET UNITYSDK_OFFSET(0xE4E87A0)
 
+inline static constexpr unsigned int DDMKMJIFNHE_TypeDefinitionIndex = 58846;
+
 	class DDMKMJIFNHE : public ::GELIALJDFBL
 	{
 	public:

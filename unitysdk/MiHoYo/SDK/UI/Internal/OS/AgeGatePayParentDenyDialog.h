@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
+	inline static constexpr unsigned int AgeGatePayParentDenyDialog_TypeDefinitionIndex = 8416;
+
 	class AgeGatePayParentDenyDialog : public ::System::Object
 	{
 	public:

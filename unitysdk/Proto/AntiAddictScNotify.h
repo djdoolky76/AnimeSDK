@@ -33,6 +33,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int AntiAddictScNotify_TypeDefinitionIndex = 32050;
+
 	class AntiAddictScNotify : public ::System::Object
 	{
 	public:

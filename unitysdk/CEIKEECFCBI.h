@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CEIKEECFCBI_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0xC9DEAD0)
 #define CEIKEECFCBI_SET_ITEMS_OFFSET UNITYSDK_OFFSET(0xC9DEAE0)
 
+inline static constexpr unsigned int CEIKEECFCBI_TypeDefinitionIndex = 73431;
+
 	class CEIKEECFCBI : public ::System::Object
 	{
 	public:

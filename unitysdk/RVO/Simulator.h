@@ -63,6 +63,8 @@ namespace System::Threading { class ManualResetEvent; }
 
 namespace RVO
 {
+	inline static constexpr unsigned int Simulator_TypeDefinitionIndex = 46040;
+
 	class Simulator : public ::System::Object
 	{
 	public:

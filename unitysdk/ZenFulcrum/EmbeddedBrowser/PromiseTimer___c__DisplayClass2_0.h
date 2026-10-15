@@ -8,6 +8,8 @@
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int PromiseTimer___c__DisplayClass2_0_TypeDefinitionIndex = 39538;
+
 	class PromiseTimer___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

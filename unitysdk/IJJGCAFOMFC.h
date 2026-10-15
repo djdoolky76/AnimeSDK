@@ -7,6 +7,8 @@
 #define IJJGCAFOMFC_ABCEJOHMKMN_OFFSET UNITYSDK_OFFSET(0x1646A970)
 #define IJJGCAFOMFC_KLPLMBPHIEC_OFFSET UNITYSDK_OFFSET(0x1646A9B0)
 
+inline static constexpr unsigned int IJJGCAFOMFC_TypeDefinitionIndex = 62577;
+
 	class IJJGCAFOMFC : public ::System::Object
 	{
 	public:

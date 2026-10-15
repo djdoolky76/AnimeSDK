@@ -33,6 +33,8 @@ namespace System { class String; }
 
 namespace Google::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int Option_TypeDefinitionIndex = 5454;
+
 	class Option : public ::System::Object
 	{
 	public:

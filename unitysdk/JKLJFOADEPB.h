@@ -11,6 +11,8 @@ namespace System { class String; }
 #define JKLJFOADEPB_SET_DATASOURCESKILLID_OFFSET UNITYSDK_OFFSET(0x1CBA2F80)
 #define JKLJFOADEPB_SET_OVERRIDECASTERID_OFFSET UNITYSDK_OFFSET(0x1CBA2FA0)
 
+inline static constexpr unsigned int JKLJFOADEPB_TypeDefinitionIndex = 41961;
+
 	class JKLJFOADEPB : public ::System::Object
 	{
 	public:

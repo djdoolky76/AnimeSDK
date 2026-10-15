@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PSDelegate_TryGetAuthCodeDelegate_TypeDefinitionIndex = 7723;
+
 	class PSDelegate_TryGetAuthCodeDelegate : public ::System::MulticastDelegate
 	{
 	public:

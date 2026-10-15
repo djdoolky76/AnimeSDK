@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PlayerReturnExtraHcoinRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerReturnExtraHcoinRow_TypeDefinitionIndex = 14520;
+
 	class PlayerReturnExtraHcoinRow : public ::System::Object
 	{
 	public:

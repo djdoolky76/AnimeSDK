@@ -9,6 +9,8 @@ namespace System::IO { class Stream; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_SafeStreamAccessor_TypeDefinitionIndex = 46410;
+
 	class SecurityTunnel_SafeStreamAccessor : public ::System::Object
 	{
 	public:

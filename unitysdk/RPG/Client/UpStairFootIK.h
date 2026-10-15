@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UpStairFootIK_TypeDefinitionIndex = 68499;
+
 	class UpStairFootIK : public ::UnityEngine::MonoBehaviour
 	{
 	public:

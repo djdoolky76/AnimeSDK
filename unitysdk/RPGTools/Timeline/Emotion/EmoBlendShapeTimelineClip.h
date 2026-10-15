@@ -18,6 +18,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int EmoBlendShapeTimelineClip_TypeDefinitionIndex = 48737;
+
 	class EmoBlendShapeTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

@@ -7,6 +7,8 @@
 #define EKKLBCNOBIA_DBOBDPMCMAC_OFFSET UNITYSDK_OFFSET(0x1550CDB0)
 #define EKKLBCNOBIA_GINNCHCMANI_OFFSET UNITYSDK_OFFSET(0x1550CD60)
 
+inline static constexpr unsigned int EKKLBCNOBIA_TypeDefinitionIndex = 74909;
+
 	class EKKLBCNOBIA : public ::System::Object
 	{
 	public:

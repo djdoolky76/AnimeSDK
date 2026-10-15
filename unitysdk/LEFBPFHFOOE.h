@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LEFBPFHFOOE_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0xB64F2D0)
 #define LEFBPFHFOOE_CCTOR_OFFSET UNITYSDK_OFFSET(0xB64F550)
 
+inline static constexpr unsigned int LEFBPFHFOOE_TypeDefinitionIndex = 82155;
+
 	class LEFBPFHFOOE : public ::System::Object
 	{
 	public:

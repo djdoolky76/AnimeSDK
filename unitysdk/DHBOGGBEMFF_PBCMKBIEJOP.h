@@ -10,6 +10,8 @@ namespace System { class String; }
 #define DHBOGGBEMFF_PBCMKBIEJOP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xEBC78F0)
 #define DHBOGGBEMFF_PBCMKBIEJOP_TOSTRING_OFFSET UNITYSDK_OFFSET(0xEBC7A30)
 
+inline static constexpr unsigned int DHBOGGBEMFF_PBCMKBIEJOP_TypeDefinitionIndex = 49125;
+
 	class DHBOGGBEMFF_PBCMKBIEJOP : public ::System::Object
 	{
 	public:

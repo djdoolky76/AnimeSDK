@@ -15,6 +15,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::FateRin::HouguMap
 {
+	inline static constexpr unsigned int FateRinHouguMapViewModel___c_TypeDefinitionIndex = 80766;
+
 	class FateRinHouguMapViewModel___c : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace UnityEngine::ProBuilder::Shapes { class Shape; }
 
 namespace UnityEngine::ProBuilder::Shapes
 {
+	inline static constexpr unsigned int Sphere_TypeDefinitionIndex = 44469;
+
 	class Sphere : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
 	public:

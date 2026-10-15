@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define KCGJKAMGLHC_JEBDAFCDCIO_OFFSET UNITYSDK_OFFSET(0xB3367A0)
 #define KCGJKAMGLHC_KJENODBPBDI_OFFSET UNITYSDK_OFFSET(0xB3366F0)
 
+inline static constexpr unsigned int KCGJKAMGLHC_TypeDefinitionIndex = 75450;
+
 	class KCGJKAMGLHC : public ::System::Object
 	{
 	public:

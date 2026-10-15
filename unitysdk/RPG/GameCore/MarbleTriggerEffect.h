@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MarbleTriggerEffect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleTriggerEffect_TypeDefinitionIndex = 16838;
+
 	class MarbleTriggerEffect : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

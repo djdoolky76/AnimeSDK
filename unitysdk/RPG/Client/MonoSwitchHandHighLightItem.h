@@ -28,6 +28,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoSwitchHandHighLightItem_TypeDefinitionIndex = 68782;
+
 	class MonoSwitchHandHighLightItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

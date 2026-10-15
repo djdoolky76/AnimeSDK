@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Main_LittleGame_DoNothing; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_LittleGame_DoNothing_TypeDefinitionIndex = 21326;
+
 	class ST_Main_LittleGame_DoNothing : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

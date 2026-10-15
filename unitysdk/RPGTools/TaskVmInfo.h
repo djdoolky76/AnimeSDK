@@ -3,6 +3,8 @@
 
 namespace RPGTools
 {
+	inline static constexpr unsigned int TaskVmInfo_TypeDefinitionIndex = 46928;
+
 	struct alignas(4) TaskVmInfo
 	{
 		::System::UInt64 virtual_size; // 0x10

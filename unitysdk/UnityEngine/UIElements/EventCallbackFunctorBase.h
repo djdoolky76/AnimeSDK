@@ -7,6 +7,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int EventCallbackFunctorBase_TypeDefinitionIndex = 5933;
+
 	class EventCallbackFunctorBase : public ::System::Object
 	{
 	public:

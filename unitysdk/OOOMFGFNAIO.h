@@ -9,6 +9,8 @@ class OAFCCICMILM;
 #define OOOMFGFNAIO_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xBF944F0)
 #define OOOMFGFNAIO_ONHIT_OFFSET UNITYSDK_OFFSET(0xBF94BA0)
 
+inline static constexpr unsigned int OOOMFGFNAIO_TypeDefinitionIndex = 76605;
+
 	class OOOMFGFNAIO : public ::System::Object
 	{
 	public:

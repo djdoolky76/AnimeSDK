@@ -170,6 +170,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define OKGPIODMLIN_PNDDIKIDJBN_OFFSET UNITYSDK_OFFSET(0x1C99A150)
 #define OKGPIODMLIN_POBOILBBGMD_OFFSET UNITYSDK_OFFSET(0x1C998E60)
 
+inline static constexpr unsigned int OKGPIODMLIN_TypeDefinitionIndex = 42600;
+
 	class OKGPIODMLIN : public ::System::Object
 	{
 	public:

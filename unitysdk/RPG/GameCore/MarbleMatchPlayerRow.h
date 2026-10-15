@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleMatchPlayerRow_TypeDefinitionIndex = 11873;
+
 	class MarbleMatchPlayerRow : public ::System::Object
 	{
 	public:

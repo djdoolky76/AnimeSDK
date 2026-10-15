@@ -4,6 +4,8 @@
 
 #define FDEEAPALFKE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDDB7F0)
 
+inline static constexpr unsigned int FDEEAPALFKE_TypeDefinitionIndex = 25017;
+
 	class FDEEAPALFKE : public ::MABHMGJMHFC
 	{
 	public:

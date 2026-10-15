@@ -10,6 +10,8 @@ namespace RPG::Client { class LimaoNewsDutyCheckOptionTalkInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LimaoNewsDutyCheckOptionTalkInfo_TypeDefinitionIndex = 10242;
+
 	class LimaoNewsDutyCheckOptionTalkInfo : public ::RPG::GameCore::OptionTalkInfo
 	{
 	public:

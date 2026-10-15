@@ -25,6 +25,8 @@ namespace System { class String; }
 #define JLKHCGGLIMF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E77F980)
 #define JLKHCGGLIMF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E77F9E0)
 
+inline static constexpr unsigned int JLKHCGGLIMF_TypeDefinitionIndex = 25944;
+
 	class JLKHCGGLIMF : public ::System::Object
 	{
 	public:

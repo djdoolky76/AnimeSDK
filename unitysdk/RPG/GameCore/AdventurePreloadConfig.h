@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventurePreloadConfig_TypeDefinitionIndex = 16369;
+
 	class AdventurePreloadConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

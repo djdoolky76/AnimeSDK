@@ -30,6 +30,8 @@ class OKDDAPEKFJH;
 #define DLGOFLDEIOF_NBOINJNBNCN_OFFSET UNITYSDK_OFFSET(0xF89F830)
 #define DLGOFLDEIOF_OHCAEENFHJA_OFFSET UNITYSDK_OFFSET(0xF89FCA0)
 
+inline static constexpr unsigned int DLGOFLDEIOF_TypeDefinitionIndex = 49412;
+
 	class DLGOFLDEIOF : public ::System::Object
 	{
 	public:

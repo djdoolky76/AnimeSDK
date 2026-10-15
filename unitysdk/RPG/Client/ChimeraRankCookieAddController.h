@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraRankCookieAddController_TypeDefinitionIndex = 72475;
+
 	class ChimeraRankCookieAddController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

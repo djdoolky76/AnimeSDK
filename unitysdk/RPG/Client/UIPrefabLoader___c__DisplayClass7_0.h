@@ -15,6 +15,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIPrefabLoader___c__DisplayClass7_0_TypeDefinitionIndex = 73101;
+
 	class UIPrefabLoader___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

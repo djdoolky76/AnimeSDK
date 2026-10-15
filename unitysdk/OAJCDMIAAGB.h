@@ -10,6 +10,8 @@ namespace System { class String; }
 #define OAJCDMIAAGB__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xBD276D0)
 #define OAJCDMIAAGB__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xBD277B0)
 
+inline static constexpr unsigned int OAJCDMIAAGB_TypeDefinitionIndex = 53466;
+
 	class OAJCDMIAAGB
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 #define GACEPNEKIAI_KMMKJCOMPKJ_OFFSET UNITYSDK_OFFSET(0x3C31DA0)
 #define GACEPNEKIAI_NNLIEBLEANC_OFFSET UNITYSDK_OFFSET(0x3C31D30)
 
+inline static constexpr unsigned int GACEPNEKIAI_TypeDefinitionIndex = 43470;
+
 	struct alignas(8) GACEPNEKIAI
 	{
 		::System::String* LOPPEGGELBJ; // 0x10

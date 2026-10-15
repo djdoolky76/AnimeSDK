@@ -3,6 +3,8 @@
 
 namespace System::IO
 {
+	inline static constexpr unsigned int FileOptions_TypeDefinitionIndex = 715;
+
 	enum class FileOptions : ::System::Int32
 	{
 		None = 0,

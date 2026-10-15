@@ -4,6 +4,8 @@
 
 #define PARTICLESYSTEMPANEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC39ADC0)
 
+inline static constexpr unsigned int ParticleSystemPanel_TypeDefinitionIndex = 47277;
+
 	class ParticleSystemPanel : public ::UnityEngine::MonoBehaviour
 	{
 	public:

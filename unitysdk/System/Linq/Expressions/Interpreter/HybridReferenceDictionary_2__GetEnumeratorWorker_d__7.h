@@ -6,6 +6,8 @@ namespace System::Linq::Expressions::Interpreter { template <typename T1, typena
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int HybridReferenceDictionary_2__GetEnumeratorWorker_d__7_TypeDefinitionIndex = 3666;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
 	class HybridReferenceDictionary_2__GetEnumeratorWorker_d__7 : public ::System::Object
 	{

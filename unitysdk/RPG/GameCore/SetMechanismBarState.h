@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetMechanismBarState; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetMechanismBarState_TypeDefinitionIndex = 20523;
+
 	class SetMechanismBarState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

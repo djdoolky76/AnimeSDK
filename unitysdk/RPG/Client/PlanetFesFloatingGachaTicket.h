@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesFloatingGachaTicket_TypeDefinitionIndex = 66497;
+
 	class PlanetFesFloatingGachaTicket : public ::UnityEngine::MonoBehaviour
 	{
 	public:

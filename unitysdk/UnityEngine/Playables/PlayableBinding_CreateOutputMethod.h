@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Playables
 {
+	inline static constexpr unsigned int PlayableBinding_CreateOutputMethod_TypeDefinitionIndex = 4916;
+
 	class PlayableBinding_CreateOutputMethod : public ::System::MulticastDelegate
 	{
 	public:

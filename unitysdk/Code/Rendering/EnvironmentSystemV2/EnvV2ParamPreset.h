@@ -6,6 +6,8 @@
 
 namespace Code::Rendering::EnvironmentSystemV2
 {
+	inline static constexpr unsigned int EnvV2ParamPreset_TypeDefinitionIndex = 50049;
+
 	class EnvV2ParamPreset : public ::UnityEngine::ScriptableObject
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System::Xml { class XmlWriter; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlWellFormedWriter_AttributeValueCache_TypeDefinitionIndex = 1880;
+
 	class XmlWellFormedWriter_AttributeValueCache : public ::System::Object
 	{
 	public:

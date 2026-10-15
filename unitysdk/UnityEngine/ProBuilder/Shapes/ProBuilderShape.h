@@ -37,6 +37,8 @@ namespace UnityEngine::ProBuilder::Shapes { class Shape; }
 
 namespace UnityEngine::ProBuilder::Shapes
 {
+	inline static constexpr unsigned int ProBuilderShape_TypeDefinitionIndex = 44466;
+
 	class ProBuilderShape : public ::UnityEngine::MonoBehaviour
 	{
 	public:

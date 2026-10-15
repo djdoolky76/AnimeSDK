@@ -10,6 +10,8 @@ namespace UnityEngine::Events { class UnityAction; }
 #define AGEJMDMLAKO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCF27F80)
 #define AGEJMDMLAKO___C__ASOBSERVABLE_B__0_0_OFFSET UNITYSDK_OFFSET(0xCF27F90)
 
+inline static constexpr unsigned int AGEJMDMLAKO___c_TypeDefinitionIndex = 49984;
+
 	class AGEJMDMLAKO___c : public ::System::Object
 	{
 	public:

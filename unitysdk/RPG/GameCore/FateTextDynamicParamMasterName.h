@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MiParameterConfigBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateTextDynamicParamMasterName_TypeDefinitionIndex = 16647;
+
 	class FateTextDynamicParamMasterName : public ::RPG::GameCore::TextDynamicParamBase
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int PinballPuzzleItemConfig_TypeDefinitionIndex = 78771;
+
 	struct alignas(8) PinballPuzzleItemConfig
 	{
 		::UnityEngine::Vector2Int Pos; // 0x10

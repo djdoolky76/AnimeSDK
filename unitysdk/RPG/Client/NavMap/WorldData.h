@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int WorldData_TypeDefinitionIndex = 74645;
+
 	class WorldData : public ::System::Object
 	{
 	public:

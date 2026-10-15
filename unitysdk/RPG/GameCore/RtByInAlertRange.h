@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtByInAlertRange_TypeDefinitionIndex = 24228;
+
 	class RtByInAlertRange : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

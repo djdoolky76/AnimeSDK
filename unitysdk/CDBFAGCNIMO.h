@@ -5,6 +5,8 @@
 
 #define CDBFAGCNIMO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DD4D0)
 
+inline static constexpr unsigned int CDBFAGCNIMO_TypeDefinitionIndex = 42986;
+
 	class CDBFAGCNIMO : public ::System::Object
 	{
 	public:

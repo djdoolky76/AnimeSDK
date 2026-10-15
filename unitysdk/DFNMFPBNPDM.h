@@ -32,6 +32,8 @@ namespace System { class String; }
 #define DFNMFPBNPDM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1A9430)
 #define DFNMFPBNPDM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1A9490)
 
+inline static constexpr unsigned int DFNMFPBNPDM_TypeDefinitionIndex = 29097;
+
 	class DFNMFPBNPDM : public ::System::Object
 	{
 	public:

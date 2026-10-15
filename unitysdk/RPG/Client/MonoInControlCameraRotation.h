@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoInControlCameraRotation_TypeDefinitionIndex = 61341;
+
 	class MonoInControlCameraRotation : public ::UnityEngine::MonoBehaviour
 	{
 	public:

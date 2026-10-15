@@ -8,6 +8,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define HGLIFHHGLAD___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15CB0CE0)
 #define HGLIFHHGLAD___C__DISPLAYCLASS6_0__GETMULTSEQUENCE_B__0_OFFSET UNITYSDK_OFFSET(0x15CB0EA0)
 
+inline static constexpr unsigned int HGLIFHHGLAD___c__DisplayClass6_0_TypeDefinitionIndex = 76387;
+
 	class HGLIFHHGLAD___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

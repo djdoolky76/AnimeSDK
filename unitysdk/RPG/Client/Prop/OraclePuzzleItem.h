@@ -40,6 +40,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int OraclePuzzleItem_TypeDefinitionIndex = 78732;
+
 	class OraclePuzzleItem : public ::RPG::Client::Prop::InteractPuzzleItemBase
 	{
 	public:

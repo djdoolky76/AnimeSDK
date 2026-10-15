@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int PolaroidParameter_TypeDefinitionIndex = 48593;
+
 	struct alignas(4) PolaroidParameter
 	{
 		::System::Boolean PolaroidOverrideState; // 0x10

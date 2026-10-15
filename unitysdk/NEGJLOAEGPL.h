@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NEGJLOAEGPL_SET_EVENTCASTERRUNTIMEID_OFFSET UNITYSDK_OFFSET(0xBB5D910)
 #define NEGJLOAEGPL_SET_RUNTIMEVALUES_OFFSET UNITYSDK_OFFSET(0xBB5D8F0)
 
+inline static constexpr unsigned int NEGJLOAEGPL_TypeDefinitionIndex = 77301;
+
 	class NEGJLOAEGPL : public ::System::Object
 	{
 	public:

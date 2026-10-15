@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionOnRoomFinishConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionOnRoomFinishConfig_TypeDefinitionIndex = 17689;
+
 	class RogueModifierExecuteActionOnRoomFinishConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

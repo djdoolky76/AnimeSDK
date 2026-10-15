@@ -16,6 +16,8 @@ namespace System { class String; }
 #define IHGMNMJJLLA_PDFBFNFBMLF_OFFSET UNITYSDK_OFFSET(0x1641E850)
 #define IHGMNMJJLLA_TICK_OFFSET UNITYSDK_OFFSET(0x1641EBE0)
 
+inline static constexpr unsigned int IHGMNMJJLLA_TypeDefinitionIndex = 52715;
+
 	class IHGMNMJJLLA : public ::GELIALJDFBL
 	{
 	public:

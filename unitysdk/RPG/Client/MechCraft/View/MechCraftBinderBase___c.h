@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftBinderBase___c_TypeDefinitionIndex = 79980;
+
 	class MechCraftBinderBase___c : public ::System::Object
 	{
 	public:

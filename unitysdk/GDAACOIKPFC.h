@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GDAACOIKPFC_CTOR_OFFSET UNITYSDK_OFFSET(0x15990770)
 #define GDAACOIKPFC_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0x159906F0)
 
+inline static constexpr unsigned int GDAACOIKPFC_TypeDefinitionIndex = 78356;
+
 	class GDAACOIKPFC : public ::HBLDGJCDJPF
 	{
 	public:

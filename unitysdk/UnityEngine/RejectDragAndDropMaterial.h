@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RejectDragAndDropMaterial_TypeDefinitionIndex = 3715;
+
 	class RejectDragAndDropMaterial : public ::System::Attribute
 	{
 	public:

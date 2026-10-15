@@ -15,6 +15,8 @@ namespace MiHoYo::SDK::Win { class OverseaPayManager; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int OverseaPayManager___c__DisplayClass39_0_TypeDefinitionIndex = 9341;
+
 	class OverseaPayManager___c__DisplayClass39_0 : public ::System::Object
 	{
 	public:

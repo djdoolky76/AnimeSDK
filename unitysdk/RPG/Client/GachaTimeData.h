@@ -13,6 +13,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GachaTimeData_TypeDefinitionIndex = 64323;
+
 	class GachaTimeData : public ::System::Object
 	{
 	public:

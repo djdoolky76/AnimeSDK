@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MFCCHLKCMPE_NHBLDMIHFDM_OFFSET UNITYSDK_OFFSET(0xB8ECE30)
 #define MFCCHLKCMPE_OIOKFHDLKNB_OFFSET UNITYSDK_OFFSET(0xB8EDA80)
 
+inline static constexpr unsigned int MFCCHLKCMPE_TypeDefinitionIndex = 73759;
+
 	class MFCCHLKCMPE : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 #define FPEICPLLKIP___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0x159148C0)
 #define FPEICPLLKIP___C__DISPLAYCLASS23_0__LOCKCELL_B__0_OFFSET UNITYSDK_OFFSET(0x15917C40)
 
+inline static constexpr unsigned int FPEICPLLKIP___c__DisplayClass23_0_TypeDefinitionIndex = 77766;
+
 	class FPEICPLLKIP___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:

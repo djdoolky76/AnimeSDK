@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define OLMIIBDJCOH_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC3BCD0)
 
+inline static constexpr unsigned int OLMIIBDJCOH_TypeDefinitionIndex = 35205;
+
 	class OLMIIBDJCOH : public ::System::Object
 	{
 	public:

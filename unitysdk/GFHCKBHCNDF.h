@@ -69,6 +69,8 @@ namespace System { class String; }
 #define GFHCKBHCNDF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E46CE10)
 #define GFHCKBHCNDF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E46CE70)
 
+inline static constexpr unsigned int GFHCKBHCNDF_TypeDefinitionIndex = 28698;
+
 	class GFHCKBHCNDF : public ::System::Object
 	{
 	public:

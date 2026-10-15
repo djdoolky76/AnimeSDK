@@ -15,6 +15,8 @@ namespace System { class Type; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int FormatterConverter_TypeDefinitionIndex = 1096;
+
 	class FormatterConverter : public ::System::Object
 	{
 	public:

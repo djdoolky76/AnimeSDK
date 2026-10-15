@@ -4,6 +4,8 @@
 
 #define GJIKILKPHJP_CTOR_OFFSET UNITYSDK_OFFSET(0x15A6A030)
 
+inline static constexpr unsigned int GJIKILKPHJP_TypeDefinitionIndex = 49509;
+
 	class GJIKILKPHJP : public ::CDIAEAMFDIB
 	{
 	public:

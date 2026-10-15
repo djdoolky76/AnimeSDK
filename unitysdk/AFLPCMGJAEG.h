@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define AFLPCMGJAEG_ELBIEIKKLBD_OFFSET UNITYSDK_OFFSET(0x1C53CAE0)
 #define AFLPCMGJAEG_OMKNCCKHIMB_OFFSET UNITYSDK_OFFSET(0x1C53CC20)
 
+inline static constexpr unsigned int AFLPCMGJAEG_TypeDefinitionIndex = 41738;
+
 	class AFLPCMGJAEG : public ::System::Object
 	{
 	public:

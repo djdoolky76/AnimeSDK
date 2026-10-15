@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ChenLingBattleTargetEvaluator_RandomNSoldiers; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleTargetEvaluator_RandomNSoldiers_TypeDefinitionIndex = 15767;
+
 	class ChenLingBattleTargetEvaluator_RandomNSoldiers : public ::RPG::GameCore::BaseChenLingBattleTargetEvaluator
 	{
 	public:

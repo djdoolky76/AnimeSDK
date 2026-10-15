@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int JGJLEKLGPIL_TypeDefinitionIndex = 33626;
+
 	enum class JGJLEKLGPIL : ::System::Int32
 	{
 		DDCDLGBIILL = 0,

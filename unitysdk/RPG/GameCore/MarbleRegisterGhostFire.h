@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleRegisterGhostFire_TypeDefinitionIndex = 16855;
+
 	class MarbleRegisterGhostFire : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::IO { class Stream; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ManagedStreamHelpers_TypeDefinitionIndex = 4331;
+
 	class ManagedStreamHelpers : public ::System::Object
 	{
 	public:

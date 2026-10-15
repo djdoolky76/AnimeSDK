@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GachaDecideDataAvatar_TypeDefinitionIndex = 64295;
+
 	class GachaDecideDataAvatar : public ::RPG::Client::BaseGachaDecideData
 	{
 	public:

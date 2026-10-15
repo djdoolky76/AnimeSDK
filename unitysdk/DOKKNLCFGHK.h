@@ -14,6 +14,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 #define DOKKNLCFGHK_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0x11FEEB20)
 #define DOKKNLCFGHK_NOPOPGMPMGL_OFFSET UNITYSDK_OFFSET(0x11FEF320)
 
+inline static constexpr unsigned int DOKKNLCFGHK_TypeDefinitionIndex = 73393;
+
 	class DOKKNLCFGHK : public ::System::Object
 	{
 	public:

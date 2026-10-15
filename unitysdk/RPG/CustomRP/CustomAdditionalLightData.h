@@ -64,6 +64,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CustomAdditionalLightData_TypeDefinitionIndex = 37708;
+
 	class CustomAdditionalLightData : public ::UnityEngine::MonoBehaviour
 	{
 	public:

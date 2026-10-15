@@ -217,6 +217,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FiveDimModule_TypeDefinitionIndex = 64208;
+
 	class FiveDimModule : public ::RPG::Client::BaseModule
 	{
 	public:

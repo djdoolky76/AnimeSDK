@@ -17,6 +17,8 @@ namespace UnityEngine::UI { class Toggle; }
 
 namespace UnityEngine::Rendering::UI
 {
+	inline static constexpr unsigned int DebugUIHandlerIndirectToggle_TypeDefinitionIndex = 35689;
+
 	class DebugUIHandlerIndirectToggle : public ::UnityEngine::Rendering::UI::DebugUIHandlerWidget
 	{
 	public:

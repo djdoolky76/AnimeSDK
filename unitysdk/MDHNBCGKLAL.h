@@ -9,6 +9,8 @@ namespace RPG::Client { class UIController; }
 #define MDHNBCGKLAL_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0xB8AA3D0)
 #define MDHNBCGKLAL_CTOR_OFFSET UNITYSDK_OFFSET(0xB8AA3C0)
 
+inline static constexpr unsigned int MDHNBCGKLAL_TypeDefinitionIndex = 64050;
+
 	class MDHNBCGKLAL : public ::BMPICAPOOFD
 	{
 	public:

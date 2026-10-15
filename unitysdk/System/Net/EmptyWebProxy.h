@@ -11,6 +11,8 @@ namespace System::Net { class ICredentials; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int EmptyWebProxy_TypeDefinitionIndex = 2792;
+
 	class EmptyWebProxy : public ::System::Object
 	{
 	public:

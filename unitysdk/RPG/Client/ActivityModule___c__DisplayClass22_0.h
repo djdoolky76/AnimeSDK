@@ -8,6 +8,8 @@ namespace RPG::Client { class ActivityLoginData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityModule___c__DisplayClass22_0_TypeDefinitionIndex = 61690;
+
 	class ActivityModule___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:

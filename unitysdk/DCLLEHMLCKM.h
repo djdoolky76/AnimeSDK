@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define DCLLEHMLCKM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE250600)
 #define DCLLEHMLCKM_TICK_OFFSET UNITYSDK_OFFSET(0xE250650)
 
+inline static constexpr unsigned int DCLLEHMLCKM_TypeDefinitionIndex = 58464;
+
 	class DCLLEHMLCKM : public ::GELIALJDFBL
 	{
 	public:

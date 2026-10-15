@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVROverlay__SetDashboardOverlaySceneProcess_TypeDefinitionIndex = 39126;
+
 	class IVROverlay__SetDashboardOverlaySceneProcess : public ::System::MulticastDelegate
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int CurveService_1_TypeDefinitionIndex = 76479;
+
 	template <typename T>
 	class CurveService_1 : public ::System::Object
 	{

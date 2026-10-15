@@ -6,6 +6,8 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace UnityEngine::Events { class UnityAction; }
 
+inline static constexpr unsigned int JHGEIEHKPNG___c__12_1_TypeDefinitionIndex = 49882;
+
 	template <typename T>
 	class JHGEIEHKPNG___c__12_1 : public ::System::Object
 	{

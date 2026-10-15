@@ -4,6 +4,8 @@
 
 #define PBKHHIMACFL_CTOR_OFFSET UNITYSDK_OFFSET(0xBFF1F00)
 
+inline static constexpr unsigned int PBKHHIMACFL_TypeDefinitionIndex = 48997;
+
 	class PBKHHIMACFL : public ::UnityEngine::PropertyAttribute
 	{
 	public:

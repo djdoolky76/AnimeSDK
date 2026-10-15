@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CheckTeamEntityNumberAxis; }
 #define CABPNOGEABI_KGFBNBLEDHJ_OFFSET UNITYSDK_OFFSET(0xC1BD0F0)
 #define CABPNOGEABI_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0xC1BD080)
 
+inline static constexpr unsigned int CABPNOGEABI_TypeDefinitionIndex = 54375;
+
 	class CABPNOGEABI : public ::BEMKNPIFMBI
 	{
 	public:

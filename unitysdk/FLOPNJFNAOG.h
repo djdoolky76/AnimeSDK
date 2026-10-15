@@ -30,6 +30,8 @@ namespace System { class String; }
 #define FLOPNJFNAOG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3DCFB0)
 #define FLOPNJFNAOG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3DD010)
 
+inline static constexpr unsigned int FLOPNJFNAOG_TypeDefinitionIndex = 27632;
+
 	class FLOPNJFNAOG : public ::System::Object
 	{
 	public:

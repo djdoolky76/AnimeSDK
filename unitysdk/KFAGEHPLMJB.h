@@ -4,6 +4,8 @@
 
 #define KFAGEHPLMJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C70ECA0)
 
+inline static constexpr unsigned int KFAGEHPLMJB_TypeDefinitionIndex = 36405;
+
 	class KFAGEHPLMJB : public ::System::Object
 	{
 	public:

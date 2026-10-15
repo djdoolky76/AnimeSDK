@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PILDOAAEBNK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2F1640)
 #define PILDOAAEBNK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D2F0F60)
 
+inline static constexpr unsigned int PILDOAAEBNK_TypeDefinitionIndex = 13550;
+
 	class PILDOAAEBNK : public ::System::Object
 	{
 	public:

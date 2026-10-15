@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_InitExtraColorDice; }
 #define JIAJJCCGNIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F51C0)
 #define JIAJJCCGNIN_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C6F51D0)
 
+inline static constexpr unsigned int JIAJJCCGNIN_TypeDefinitionIndex = 36327;
+
 	class JIAJJCCGNIN : public ::AJBKGPOEBFG
 	{
 	public:

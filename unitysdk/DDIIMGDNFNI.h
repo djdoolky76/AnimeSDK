@@ -12,6 +12,8 @@ namespace RPG::Client::TrainParty { class TrainPartyPassengerManager; }
 #define DDIIMGDNFNI_HMEPDEMFCOH_OFFSET UNITYSDK_OFFSET(0xE4DEF50)
 #define DDIIMGDNFNI_SET_PASSENGERDATA_OFFSET UNITYSDK_OFFSET(0xE4DEFF0)
 
+inline static constexpr unsigned int DDIIMGDNFNI_TypeDefinitionIndex = 74350;
+
 	class DDIIMGDNFNI : public ::System::Object
 	{
 	public:

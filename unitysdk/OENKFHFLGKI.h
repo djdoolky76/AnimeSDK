@@ -18,6 +18,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define OENKFHFLGKI_SET_USEFORVISION_OFFSET UNITYSDK_OFFSET(0xBE33FC0)
 #define OENKFHFLGKI_SET_VISIONTAG_OFFSET UNITYSDK_OFFSET(0xBE33FA0)
 
+inline static constexpr unsigned int OENKFHFLGKI_TypeDefinitionIndex = 53549;
+
 	class OENKFHFLGKI : public ::JNPJMKLDDJA
 	{
 	public:

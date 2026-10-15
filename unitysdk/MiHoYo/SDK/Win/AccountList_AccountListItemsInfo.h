@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int AccountList_AccountListItemsInfo_TypeDefinitionIndex = 9294;
+
 	class AccountList_AccountListItemsInfo : public ::System::Object
 	{
 	public:

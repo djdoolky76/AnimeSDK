@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HoYoSDKHttpDnsService_HttpDnsPersistentObject_TypeDefinitionIndex = 46100;
+
 	class HoYoSDKHttpDnsService_HttpDnsPersistentObject : public ::System::Object
 	{
 	public:

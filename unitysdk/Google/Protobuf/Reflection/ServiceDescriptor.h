@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int ServiceDescriptor_TypeDefinitionIndex = 5572;
+
 	class ServiceDescriptor : public ::Google::Protobuf::Reflection::DescriptorBase
 	{
 	public:

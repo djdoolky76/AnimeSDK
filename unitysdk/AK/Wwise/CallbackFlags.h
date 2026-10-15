@@ -6,6 +6,8 @@
 
 namespace AK::Wwise
 {
+	inline static constexpr unsigned int CallbackFlags_TypeDefinitionIndex = 44980;
+
 	class CallbackFlags : public ::System::Object
 	{
 	public:

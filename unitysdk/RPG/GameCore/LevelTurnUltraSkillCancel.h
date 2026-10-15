@@ -16,6 +16,8 @@ namespace RPG::GameCore { class LevelTurnUltraSkillCancel; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelTurnUltraSkillCancel_TypeDefinitionIndex = 56723;
+
 	class LevelTurnUltraSkillCancel : public ::CMPGEAFHHDC
 	{
 	public:

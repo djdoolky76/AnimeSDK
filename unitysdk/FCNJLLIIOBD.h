@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define FCNJLLIIOBD__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x156CEE60)
 #define FCNJLLIIOBD__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0x156CED80)
 
+inline static constexpr unsigned int FCNJLLIIOBD_TypeDefinitionIndex = 63531;
+
 	class FCNJLLIIOBD : public ::RPG::Client::BaseModule
 	{
 	public:

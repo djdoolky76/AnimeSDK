@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define OBCPOJCNNAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C979440)
 
+inline static constexpr unsigned int OBCPOJCNNAA_TypeDefinitionIndex = 41942;
+
 	class OBCPOJCNNAA : public ::System::Object
 	{
 	public:

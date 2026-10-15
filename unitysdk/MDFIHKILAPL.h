@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntityList; }
 
 #define MDFIHKILAPL_CTOR_OFFSET UNITYSDK_OFFSET(0xB8A33B0)
 
+inline static constexpr unsigned int MDFIHKILAPL_TypeDefinitionIndex = 58140;
+
 	class MDFIHKILAPL : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PixAirMissleConfig_TypeDefinitionIndex = 21397;
+
 	class PixAirMissleConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

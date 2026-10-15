@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define KAINFBAJFMB_JIPBBMPODME_OFFSET UNITYSDK_OFFSET(0xB2DA710)
 #define KAINFBAJFMB_NGDAGBJIOFE_OFFSET UNITYSDK_OFFSET(0xB2DA9A0)
 
+inline static constexpr unsigned int KAINFBAJFMB_TypeDefinitionIndex = 79710;
+
 	class KAINFBAJFMB : public ::System::Object
 	{
 	public:

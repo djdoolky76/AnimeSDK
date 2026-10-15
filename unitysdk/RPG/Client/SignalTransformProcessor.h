@@ -18,6 +18,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SignalTransformProcessor_TypeDefinitionIndex = 70986;
+
 	class SignalTransformProcessor : public ::System::Object
 	{
 	public:

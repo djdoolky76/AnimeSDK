@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int NavMapModule___c_TypeDefinitionIndex = 74622;
+
 	class NavMapModule___c : public ::System::Object
 	{
 	public:

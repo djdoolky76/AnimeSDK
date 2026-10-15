@@ -176,6 +176,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define CJNCFNHJMEP_PLMNOOJBJGJ_OFFSET UNITYSDK_OFFSET(0x1CA09C10)
 #define CJNCFNHJMEP_POJLBJNPDNA_OFFSET UNITYSDK_OFFSET(0x1CA0F3D0)
 
+inline static constexpr unsigned int CJNCFNHJMEP_TypeDefinitionIndex = 42593;
+
 	class CJNCFNHJMEP : public ::System::Object
 	{
 	public:

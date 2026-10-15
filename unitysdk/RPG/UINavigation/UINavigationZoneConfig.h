@@ -7,6 +7,8 @@ namespace RPG::Client { class MonoInControlButton; }
 
 namespace RPG::UINavigation
 {
+	inline static constexpr unsigned int UINavigationZoneConfig_TypeDefinitionIndex = 51737;
+
 	class UINavigationZoneConfig : public ::System::Object
 	{
 	public:

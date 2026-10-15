@@ -48,6 +48,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DialogEmitterBehavior_TypeDefinitionIndex = 70884;
+
 	class DialogEmitterBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

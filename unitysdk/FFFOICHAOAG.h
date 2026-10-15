@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FFFOICHAOAG_PBNOCMEKDDI_OFFSET UNITYSDK_OFFSET(0x15736050)
 #define FFFOICHAOAG_TICK_OFFSET UNITYSDK_OFFSET(0x15735B50)
 
+inline static constexpr unsigned int FFFOICHAOAG_TypeDefinitionIndex = 58278;
+
 	class FFFOICHAOAG : public ::GELIALJDFBL
 	{
 	public:

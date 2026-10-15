@@ -37,6 +37,8 @@ namespace System { class String; }
 #define HAJJKFAIJBD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5064A0)
 #define HAJJKFAIJBD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E506500)
 
+inline static constexpr unsigned int HAJJKFAIJBD_TypeDefinitionIndex = 28586;
+
 	class HAJJKFAIJBD : public ::System::Object
 	{
 	public:

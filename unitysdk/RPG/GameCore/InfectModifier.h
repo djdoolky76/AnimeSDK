@@ -16,6 +16,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InfectModifier_TypeDefinitionIndex = 23068;
+
 	class InfectModifier : public ::RPG::GameCore::TaskConfig
 	{
 	public:

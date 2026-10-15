@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_InstanceArrayBehavior_AnimationPropertyVector_TypeDefinitionIndex = 70617;
+
 	class Effect_InstanceArrayBehavior_AnimationPropertyVector : public ::System::Object
 	{
 	public:

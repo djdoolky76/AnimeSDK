@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimBillboardConfigRow_TypeDefinitionIndex = 12553;
+
 	class FiveDimBillboardConfigRow : public ::System::Object
 	{
 	public:

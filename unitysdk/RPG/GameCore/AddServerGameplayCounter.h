@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AddServerGameplayCounter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddServerGameplayCounter_TypeDefinitionIndex = 20556;
+
 	class AddServerGameplayCounter : public ::RPG::GameCore::TaskConfig
 	{
 	public:

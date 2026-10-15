@@ -9,6 +9,8 @@ namespace System { class String; }
 #define BLFLMBHILEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D824360)
 #define BLFLMBHILEO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D824220)
 
+inline static constexpr unsigned int BLFLMBHILEO_TypeDefinitionIndex = 11937;
+
 	class BLFLMBHILEO : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DPNOBEHCGAD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1265E060)
 #define DPNOBEHCGAD_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1265DE60)
 
+inline static constexpr unsigned int DPNOBEHCGAD_TypeDefinitionIndex = 59199;
+
 	class DPNOBEHCGAD
 	{
 	public:

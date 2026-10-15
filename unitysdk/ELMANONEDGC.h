@@ -19,6 +19,8 @@ namespace System { class String; }
 #define ELMANONEDGC___ONUIEXIT_B__6_0_OFFSET UNITYSDK_OFFSET(0x15528130)
 #define ELMANONEDGC___SHOWUI_B__3_0_OFFSET UNITYSDK_OFFSET(0x155280A0)
 
+inline static constexpr unsigned int ELMANONEDGC_TypeDefinitionIndex = 58098;
+
 	class ELMANONEDGC : public ::GELIALJDFBL
 	{
 	public:

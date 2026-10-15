@@ -13,6 +13,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::Audio
 {
+	inline static constexpr unsigned int WwiseExternalAudioTrack_TypeDefinitionIndex = 48850;
+
 	class WwiseExternalAudioTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

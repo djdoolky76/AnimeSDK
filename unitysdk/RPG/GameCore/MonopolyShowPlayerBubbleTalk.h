@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonopolyShowPlayerBubbleTalk_TypeDefinitionIndex = 20929;
+
 	class MonopolyShowPlayerBubbleTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournBuildRefUnionIndex_TypeDefinitionIndex = 67545;
+
 	struct alignas(4) RogueTournBuildRefUnionIndex
 	{
 		::RPG::Client::RogueTournBuildRefUnionIndex_UnionKind Kind; // 0x10

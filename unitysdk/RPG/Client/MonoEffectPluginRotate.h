@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginRotate_TypeDefinitionIndex = 70105;
+
 	class MonoEffectPluginRotate : public ::UnityEngine::MonoBehaviour
 	{
 	public:

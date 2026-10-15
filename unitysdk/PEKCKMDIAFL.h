@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PEKCKMDIAFL_MHDNLFCBJNL_OFFSET UNITYSDK_OFFSET(0xC1F2660)
 #define PEKCKMDIAFL_NBDLMJNCBHB_OFFSET UNITYSDK_OFFSET(0xC1F2000)
 
+inline static constexpr unsigned int PEKCKMDIAFL_TypeDefinitionIndex = 69794;
+
 	class PEKCKMDIAFL : public ::System::Object
 	{
 	public:

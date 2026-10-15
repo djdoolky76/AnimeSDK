@@ -111,6 +111,8 @@ namespace UnityEngine { class Transform; }
 #define FAAIANKBNBE_PKAABJFNMAG_OFFSET UNITYSDK_OFFSET(0x156618E0)
 #define FAAIANKBNBE_SET_TIMESCALESTACK_OFFSET UNITYSDK_OFFSET(0x15662490)
 
+inline static constexpr unsigned int FAAIANKBNBE_TypeDefinitionIndex = 69203;
+
 	class FAAIANKBNBE : public ::System::Object
 	{
 	public:

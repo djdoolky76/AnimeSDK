@@ -9,6 +9,8 @@ namespace RPG::GameCore { class AreaTitanBlessWeightModifyConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AreaTitanBlessWeightModifyConfig_TypeDefinitionIndex = 18013;
+
 	class AreaTitanBlessWeightModifyConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

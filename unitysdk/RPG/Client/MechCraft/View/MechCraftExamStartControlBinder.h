@@ -18,6 +18,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftExamStartControlBinder_TypeDefinitionIndex = 79966;
+
 	class MechCraftExamStartControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

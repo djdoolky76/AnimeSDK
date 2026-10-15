@@ -10,6 +10,8 @@ namespace System { class String; }
 #define JEALAGIGPFB_BJKAAHGKONJ_SET_OWNERREF_OFFSET UNITYSDK_OFFSET(0x16614C80)
 #define JEALAGIGPFB_BJKAAHGKONJ_SET_UNIQUENAME_OFFSET UNITYSDK_OFFSET(0x16614CA0)
 
+inline static constexpr unsigned int JEALAGIGPFB_BJKAAHGKONJ_TypeDefinitionIndex = 57436;
+
 	class JEALAGIGPFB_BJKAAHGKONJ : public ::System::Object
 	{
 	public:

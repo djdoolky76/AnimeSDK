@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Converter_2; }
 #define FBKGNHKJOPJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x156A2AE0)
 #define FBKGNHKJOPJ___C___SHOWLAST_B__9_0_OFFSET UNITYSDK_OFFSET(0x156A2AF0)
 
+inline static constexpr unsigned int FBKGNHKJOPJ___c_TypeDefinitionIndex = 73044;
+
 	class FBKGNHKJOPJ___c : public ::System::Object
 	{
 	public:

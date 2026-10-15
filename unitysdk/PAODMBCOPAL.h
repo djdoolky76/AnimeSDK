@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PAODMBCOPAL_CTOR_OFFSET UNITYSDK_OFFSET(0xBFD8D70)
 #define PAODMBCOPAL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBFD8DA0)
 
+inline static constexpr unsigned int PAODMBCOPAL_TypeDefinitionIndex = 53126;
+
 	class PAODMBCOPAL
 	{
 	public:

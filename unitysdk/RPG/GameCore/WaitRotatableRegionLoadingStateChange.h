@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitRotatableRegionLoadingStateChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitRotatableRegionLoadingStateChange_TypeDefinitionIndex = 20915;
+
 	class WaitRotatableRegionLoadingStateChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:

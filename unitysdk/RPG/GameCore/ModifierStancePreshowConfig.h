@@ -14,6 +14,8 @@ namespace RPG::GameCore { class PredicateConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifierStancePreshowConfig_TypeDefinitionIndex = 18184;
+
 	class ModifierStancePreshowConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

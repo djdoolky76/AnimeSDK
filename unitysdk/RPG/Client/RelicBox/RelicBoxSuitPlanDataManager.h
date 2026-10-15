@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::RelicBox
 {
+	inline static constexpr unsigned int RelicBoxSuitPlanDataManager_TypeDefinitionIndex = 74455;
+
 	class RelicBoxSuitPlanDataManager : public ::System::Object
 	{
 	public:

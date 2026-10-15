@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int AudioClipProperties_TypeDefinitionIndex = 38805;
+
 	class AudioClipProperties : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

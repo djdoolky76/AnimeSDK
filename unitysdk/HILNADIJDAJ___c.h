@@ -10,6 +10,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define HILNADIJDAJ___C__TRYTRIGGERPAMCHATGREETING_B__2_0_OFFSET UNITYSDK_OFFSET(0x15CF8630)
 #define HILNADIJDAJ___C__TRYTRIGGERPAMCHATHUDBUBBLE_B__1_0_OFFSET UNITYSDK_OFFSET(0x15CF8610)
 
+inline static constexpr unsigned int HILNADIJDAJ___c_TypeDefinitionIndex = 63284;
+
 	class HILNADIJDAJ___c : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityHipplenWorkRow_TypeDefinitionIndex = 11637;
+
 	class ActivityHipplenWorkRow : public ::System::Object
 	{
 	public:

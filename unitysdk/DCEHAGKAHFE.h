@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 #define DCEHAGKAHFE_CTOR_OFFSET UNITYSDK_OFFSET(0xE2409C0)
 
+inline static constexpr unsigned int DCEHAGKAHFE_TypeDefinitionIndex = 71619;
+
 	class DCEHAGKAHFE : public ::System::Object
 	{
 	public:

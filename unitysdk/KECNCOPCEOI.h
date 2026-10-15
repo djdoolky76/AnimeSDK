@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 #define KECNCOPCEOI_CTOR_OFFSET UNITYSDK_OFFSET(0xB3710E0)
 
+inline static constexpr unsigned int KECNCOPCEOI_TypeDefinitionIndex = 55887;
+
 	class KECNCOPCEOI : public ::NGGKJBIIFLO
 	{
 	public:

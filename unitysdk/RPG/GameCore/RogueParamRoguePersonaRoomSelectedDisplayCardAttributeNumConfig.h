@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueParamRoguePersonaRoomSelectedDisplayCardAtt
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueParamRoguePersonaRoomSelectedDisplayCardAttributeNumConfig_TypeDefinitionIndex = 19859;
+
 	class RogueParamRoguePersonaRoomSelectedDisplayCardAttributeNumConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:

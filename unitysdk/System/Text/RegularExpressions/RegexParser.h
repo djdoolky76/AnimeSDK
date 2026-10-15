@@ -93,6 +93,8 @@ namespace System::Text::RegularExpressions { class RegexTree; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int RegexParser_TypeDefinitionIndex = 2525;
+
 	class RegexParser : public ::System::Object
 	{
 	public:

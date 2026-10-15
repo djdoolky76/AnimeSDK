@@ -4,6 +4,8 @@
 
 #define CMFPDCFGOHG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA13130)
 
+inline static constexpr unsigned int CMFPDCFGOHG_TypeDefinitionIndex = 42275;
+
 	class CMFPDCFGOHG : public ::System::Object
 	{
 	public:

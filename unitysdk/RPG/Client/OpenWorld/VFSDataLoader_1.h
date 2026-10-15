@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::OpenWorld
 {
+	inline static constexpr unsigned int VFSDataLoader_1_TypeDefinitionIndex = 73979;
+
 	template <typename T>
 	class VFSDataLoader_1 : public ::System::Object
 	{

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameSpeedLineEffect_TypeDefinitionIndex = 21492;
+
 	class LittleGameSpeedLineEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

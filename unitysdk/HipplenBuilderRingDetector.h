@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 #define HIPPLENBUILDERRINGDETECTOR_PREDICTFUTUREPOSITIONS_OFFSET UNITYSDK_OFFSET(0x15DEFAC0)
 #define HIPPLENBUILDERRINGDETECTOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x15DEF370)
 
+inline static constexpr unsigned int HipplenBuilderRingDetector_TypeDefinitionIndex = 47206;
+
 	class HipplenBuilderRingDetector : public ::UnityEngine::MonoBehaviour
 	{
 	public:

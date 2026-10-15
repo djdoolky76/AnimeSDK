@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HGLIFHHGLAD_PAMKOLICNOL_OFFSET UNITYSDK_OFFSET(0x15CAE700)
 #define HGLIFHHGLAD_PLDKCHKGPIH_OFFSET UNITYSDK_OFFSET(0x15CB07A0)
 
+inline static constexpr unsigned int HGLIFHHGLAD_TypeDefinitionIndex = 76385;
+
 	class HGLIFHHGLAD : public ::System::Object
 	{
 	public:

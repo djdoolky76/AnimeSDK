@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightBonusServerData_OuterBonusSummerizer_TypeDefinitionIndex = 64434;
+
 	class GridFightBonusServerData_OuterBonusSummerizer : public ::AMCOEFHHBPO
 	{
 	public:

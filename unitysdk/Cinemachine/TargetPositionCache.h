@@ -32,6 +32,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int TargetPositionCache_TypeDefinitionIndex = 39846;
+
 	class TargetPositionCache : public ::System::Object
 	{
 	public:

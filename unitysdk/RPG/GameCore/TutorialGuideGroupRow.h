@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TutorialTriggerParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TutorialGuideGroupRow_TypeDefinitionIndex = 15381;
+
 	class TutorialGuideGroupRow : public ::System::Object
 	{
 	public:

@@ -33,6 +33,8 @@ namespace VLB { class VolumetricLightBeam; }
 #define NFHMCNOBCMC_UNSERIALIZEASYNC_OFFSET UNITYSDK_OFFSET(0xBB93FB0)
 #define NFHMCNOBCMC__UNSERIALIZEASYNC_B__3_0_OFFSET UNITYSDK_OFFSET(0xBB94DF0)
 
+inline static constexpr unsigned int NFHMCNOBCMC_TypeDefinitionIndex = 49015;
+
 	class NFHMCNOBCMC : public ::ADKLKMMEEHH
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ShiftCameraLookAtTrack_TypeDefinitionIndex = 47824;
+
 	class ShiftCameraLookAtTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

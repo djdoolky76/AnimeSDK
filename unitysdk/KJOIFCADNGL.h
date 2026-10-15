@@ -38,6 +38,8 @@ namespace System { class String; }
 #define KJOIFCADNGL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E872810)
 #define KJOIFCADNGL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E872870)
 
+inline static constexpr unsigned int KJOIFCADNGL_TypeDefinitionIndex = 33826;
+
 	class KJOIFCADNGL : public ::System::Object
 	{
 	public:

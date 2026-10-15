@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaitRogueTournCollectionBoothPreviewUpdate; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitRogueTournCollectionBoothPreviewUpdate_TypeDefinitionIndex = 22111;
+
 	class WaitRogueTournCollectionBoothPreviewUpdate : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LKPJIAAHLBG_DLGFMPNEHGO_OFFSET UNITYSDK_OFFSET(0xB75C7B0)
 #define LKPJIAAHLBG_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xB75C170)
 
+inline static constexpr unsigned int LKPJIAAHLBG_TypeDefinitionIndex = 77594;
+
 	class LKPJIAAHLBG : public ::System::Object
 	{
 	public:

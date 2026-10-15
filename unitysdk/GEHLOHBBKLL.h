@@ -56,6 +56,8 @@ namespace UnityEngine::UI { class Text; }
 #define GEHLOHBBKLL__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x159D80E0)
 #define GEHLOHBBKLL__ONTICK_OFFSET UNITYSDK_OFFSET(0x159D7EB0)
 
+inline static constexpr unsigned int GEHLOHBBKLL_TypeDefinitionIndex = 71825;
+
 	class GEHLOHBBKLL : public ::FMPCODLIOLG
 	{
 	public:

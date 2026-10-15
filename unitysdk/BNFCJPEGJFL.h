@@ -33,6 +33,8 @@ namespace System { class String; }
 #define BNFCJPEGJFL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E031A90)
 #define BNFCJPEGJFL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E031AF0)
 
+inline static constexpr unsigned int BNFCJPEGJFL_TypeDefinitionIndex = 28155;
+
 	class BNFCJPEGJFL : public ::System::Object
 	{
 	public:

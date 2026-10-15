@@ -7,6 +7,8 @@ namespace System { class String; }
 #define GMAHIIGLGPE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x15AC98D0)
 #define GMAHIIGLGPE_CTOR_OFFSET UNITYSDK_OFFSET(0x15AC9870)
 
+inline static constexpr unsigned int GMAHIIGLGPE_TypeDefinitionIndex = 67504;
+
 	class GMAHIIGLGPE : public ::System::Exception
 	{
 	public:

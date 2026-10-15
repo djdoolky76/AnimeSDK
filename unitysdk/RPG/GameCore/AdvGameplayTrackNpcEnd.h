@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvGameplayTrackNpcEnd; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvGameplayTrackNpcEnd_TypeDefinitionIndex = 22188;
+
 	class AdvGameplayTrackNpcEnd : public ::RPG::GameCore::TaskConfig
 	{
 	public:

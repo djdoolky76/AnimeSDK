@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EHIEFPKGLAN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA506A0)
 #define EHIEFPKGLAN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA50750)
 
+inline static constexpr unsigned int EHIEFPKGLAN_TypeDefinitionIndex = 41985;
+
 	class EHIEFPKGLAN : public ::System::Object
 	{
 	public:

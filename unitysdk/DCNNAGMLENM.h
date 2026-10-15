@@ -18,6 +18,8 @@ namespace System { class String; }
 #define DCNNAGMLENM_SET_SESSIONID_OFFSET UNITYSDK_OFFSET(0xE252790)
 #define DCNNAGMLENM_SET_TRACKCONFIGID_OFFSET UNITYSDK_OFFSET(0xE2527B0)
 
+inline static constexpr unsigned int DCNNAGMLENM_TypeDefinitionIndex = 81683;
+
 	class DCNNAGMLENM : public ::System::Object
 	{
 	public:

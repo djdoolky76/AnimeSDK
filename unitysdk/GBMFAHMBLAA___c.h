@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GBMFAHMBLAA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4319D0)
 #define GBMFAHMBLAA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E4319E0)
 
+inline static constexpr unsigned int GBMFAHMBLAA___c_TypeDefinitionIndex = 34006;
+
 	class GBMFAHMBLAA___c : public ::System::Object
 	{
 	public:

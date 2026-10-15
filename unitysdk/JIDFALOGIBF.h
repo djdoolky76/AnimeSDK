@@ -6,6 +6,8 @@
 #define JIDFALOGIBF_CJDNCBHLOGD_OFFSET UNITYSDK_OFFSET(0xB1EEAB0)
 #define JIDFALOGIBF_CTOR_OFFSET UNITYSDK_OFFSET(0xB1EEB50)
 
+inline static constexpr unsigned int JIDFALOGIBF_TypeDefinitionIndex = 64937;
+
 	class JIDFALOGIBF : public ::BOIKIMJHDHK
 	{
 	public:

@@ -13,6 +13,8 @@ namespace MessagePack::Formatters { class SByteArrayFormatter; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int SByteArrayFormatter_TypeDefinitionIndex = 7475;
+
 	class SByteArrayFormatter : public ::System::Object
 	{
 	public:

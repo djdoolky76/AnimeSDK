@@ -8,6 +8,8 @@
 
 namespace MiHoYo::SDK::Protobuf
 {
+	inline static constexpr unsigned int WireFormat_TypeDefinitionIndex = 35734;
+
 	class WireFormat : public ::System::Object
 	{
 	public:

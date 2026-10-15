@@ -5,6 +5,8 @@
 
 #define GCNNPCDLELH_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0x2E7A180)
 
+inline static constexpr unsigned int GCNNPCDLELH_TypeDefinitionIndex = 57119;
+
 	struct alignas(4) GCNNPCDLELH
 	{
 		::System::Int32 FCLEEPHAKFH; // 0x10

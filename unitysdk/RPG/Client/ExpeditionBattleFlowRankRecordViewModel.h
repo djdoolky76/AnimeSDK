@@ -14,6 +14,8 @@ namespace RPG::Client { class ExpeditionBattleRankViewModel; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ExpeditionBattleFlowRankRecordViewModel_TypeDefinitionIndex = 63914;
+
 	class ExpeditionBattleFlowRankRecordViewModel : public ::System::Object
 	{
 	public:

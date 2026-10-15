@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::ElfRestaurant
 {
+	inline static constexpr unsigned int ElfRestaurantEventParams_TypeDefinitionIndex = 77257;
+
 	class ElfRestaurantEventParams : public ::System::Object
 	{
 	public:

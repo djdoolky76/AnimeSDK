@@ -8,6 +8,8 @@
 
 namespace RPG::Client::LittleGame::FiveDim::MiniGameNotify
 {
+	inline static constexpr unsigned int AddScoreToast_TypeDefinitionIndex = 77246;
+
 	class AddScoreToast : public ::System::Object
 	{
 	public:

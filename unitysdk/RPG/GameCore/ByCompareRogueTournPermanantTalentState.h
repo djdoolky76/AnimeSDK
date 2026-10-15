@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ByCompareRogueTournPermanantTalentState; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareRogueTournPermanantTalentState_TypeDefinitionIndex = 21234;
+
 	class ByCompareRogueTournPermanantTalentState : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

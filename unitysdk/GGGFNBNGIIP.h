@@ -32,6 +32,8 @@ namespace System { class String; }
 #define GGGFNBNGIIP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E47B150)
 #define GGGFNBNGIIP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E47B1B0)
 
+inline static constexpr unsigned int GGGFNBNGIIP_TypeDefinitionIndex = 27491;
+
 	class GGGFNBNGIIP : public ::System::Object
 	{
 	public:

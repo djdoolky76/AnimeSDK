@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ClockParkEffectRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClockParkEffectRow_TypeDefinitionIndex = 11180;
+
 	class ClockParkEffectRow : public ::System::Object
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define OCHPFJEKNGM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE14B20)
 #define OCHPFJEKNGM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE14B80)
 
+inline static constexpr unsigned int OCHPFJEKNGM_TypeDefinitionIndex = 34021;
+
 	class OCHPFJEKNGM : public ::System::Object
 	{
 	public:

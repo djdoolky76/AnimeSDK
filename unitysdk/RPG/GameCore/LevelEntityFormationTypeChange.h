@@ -14,6 +14,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEntityFormationTypeChange_TypeDefinitionIndex = 56796;
+
 	class LevelEntityFormationTypeChange : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::IO { class StreamWriter; }
 #define FAFEHMOPNBB_ALBBMEPBJMF__RUN_D__11___M__FINALLY3_OFFSET UNITYSDK_OFFSET(0x1566B5F0)
 #define FAFEHMOPNBB_ALBBMEPBJMF__RUN_D__11___M__FINALLY4_OFFSET UNITYSDK_OFFSET(0x1566B4F0)
 
+inline static constexpr unsigned int FAFEHMOPNBB_ALBBMEPBJMF__Run_d__11_TypeDefinitionIndex = 72756;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11>
 	class FAFEHMOPNBB_ALBBMEPBJMF__Run_d__11 : public ::System::Object
 	{

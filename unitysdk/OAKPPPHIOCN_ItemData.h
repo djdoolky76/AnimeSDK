@@ -8,6 +8,8 @@
 
 #define OAKPPPHIOCN_ITEMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xBD29E10)
 
+inline static constexpr unsigned int OAKPPPHIOCN_ItemData_TypeDefinitionIndex = 48868;
+
 	class OAKPPPHIOCN_ItemData : public ::System::Object
 	{
 	public:

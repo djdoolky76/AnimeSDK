@@ -33,6 +33,8 @@ namespace System { class String; }
 #define JABAHAPIBBO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6EA770)
 #define JABAHAPIBBO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6EA7D0)
 
+inline static constexpr unsigned int JABAHAPIBBO_TypeDefinitionIndex = 29346;
+
 	class JABAHAPIBBO : public ::System::Object
 	{
 	public:

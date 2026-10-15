@@ -7,6 +7,8 @@ namespace Cinemachine { class ICinemachineCamera; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CameraResultData_TypeDefinitionIndex = 69564;
+
 	struct alignas(8) CameraResultData
 	{
 		::UnityEngine::Vector3 AnchorPosition; // 0x10

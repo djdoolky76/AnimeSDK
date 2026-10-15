@@ -33,6 +33,8 @@ namespace System { class String; }
 #define DKBDECKEION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1D3E70)
 #define DKBDECKEION_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1D3ED0)
 
+inline static constexpr unsigned int DKBDECKEION_TypeDefinitionIndex = 34047;
+
 	class DKBDECKEION : public ::System::Object
 	{
 	public:

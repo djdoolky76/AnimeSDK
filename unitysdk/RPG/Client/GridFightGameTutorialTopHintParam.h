@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameTutorialTopHintParam_TypeDefinitionIndex = 65512;
+
 	class GridFightGameTutorialTopHintParam : public ::System::Object
 	{
 	public:

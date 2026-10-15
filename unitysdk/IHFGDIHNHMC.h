@@ -40,6 +40,8 @@ namespace System { class String; }
 #define IHFGDIHNHMC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E65BB60)
 #define IHFGDIHNHMC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E65BBC0)
 
+inline static constexpr unsigned int IHFGDIHNHMC_TypeDefinitionIndex = 31516;
+
 	class IHFGDIHNHMC : public ::System::Object
 	{
 	public:

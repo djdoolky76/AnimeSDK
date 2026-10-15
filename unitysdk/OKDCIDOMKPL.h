@@ -8,6 +8,8 @@
 #define OKDCIDOMKPL_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xBED3740)
 #define OKDCIDOMKPL_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xBED36F0)
 
+inline static constexpr unsigned int OKDCIDOMKPL_TypeDefinitionIndex = 56631;
+
 	class OKDCIDOMKPL : public ::System::Object
 	{
 	public:

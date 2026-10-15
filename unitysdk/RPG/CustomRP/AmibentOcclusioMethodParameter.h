@@ -5,6 +5,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int AmibentOcclusioMethodParameter_TypeDefinitionIndex = 37784;
+
 	class AmibentOcclusioMethodParameter
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtTriggerAbility_TypeDefinitionIndex = 24079;
+
 	class RtTriggerAbility : public ::RPG::GameCore::TaskConfig
 	{
 	public:

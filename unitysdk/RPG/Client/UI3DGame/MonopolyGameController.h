@@ -76,6 +76,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::UI3DGame
 {
+	inline static constexpr unsigned int MonopolyGameController_TypeDefinitionIndex = 75789;
+
 	class MonopolyGameController : public ::HJNJHAECJHP
 	{
 	public:

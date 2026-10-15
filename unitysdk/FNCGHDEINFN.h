@@ -4,6 +4,8 @@
 
 #define FNCGHDEINFN_CTOR_OFFSET UNITYSDK_OFFSET(0x1586A760)
 
+inline static constexpr unsigned int FNCGHDEINFN_TypeDefinitionIndex = 48240;
+
 	class FNCGHDEINFN : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

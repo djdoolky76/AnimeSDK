@@ -9,6 +9,8 @@ namespace RPG::GameCore { class NPCMonstersVisibleInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NPCMonstersVisibleInfo_TypeDefinitionIndex = 20321;
+
 	class NPCMonstersVisibleInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define ILHNANNMPPJ_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x164B4850)
 #define ILHNANNMPPJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x164B4C90)
 
+inline static constexpr unsigned int ILHNANNMPPJ_TypeDefinitionIndex = 49410;
+
 	class ILHNANNMPPJ : public ::System::Object
 	{
 	public:

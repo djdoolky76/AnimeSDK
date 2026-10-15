@@ -22,6 +22,8 @@ namespace UnityEngine { class Texture; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GUIContent_TypeDefinitionIndex = 5170;
+
 	class GUIContent : public ::System::Object
 	{
 	public:

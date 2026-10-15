@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AetherDivideChallengeData_TypeDefinitionIndex = 62216;
+
 	class AetherDivideChallengeData : public ::System::Object
 	{
 	public:

@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class ICollection
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ParkourLevel_TypeDefinitionIndex = 61853;
+
 	class ParkourLevel : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OABLCMFIHIC_OCJBOIHDLDM_OFFSET UNITYSDK_OFFSET(0xBD19C30)
 #define OABLCMFIHIC_SET_MAPID_OFFSET UNITYSDK_OFFSET(0xBD195F0)
 
+inline static constexpr unsigned int OABLCMFIHIC_TypeDefinitionIndex = 62351;
+
 	class OABLCMFIHIC : public ::System::Object
 	{
 	public:

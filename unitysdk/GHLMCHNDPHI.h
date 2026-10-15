@@ -24,6 +24,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 #define GHLMCHNDPHI__ONEXECUTE_B__12_0_OFFSET UNITYSDK_OFFSET(0x15A29790)
 #define GHLMCHNDPHI___GETSTATICCELLLOOKATPOSITION_B__16_0_OFFSET UNITYSDK_OFFSET(0x15A29800)
 
+inline static constexpr unsigned int GHLMCHNDPHI_TypeDefinitionIndex = 78175;
+
 	class GHLMCHNDPHI : public ::AJHHFMBOCEN
 	{
 	public:

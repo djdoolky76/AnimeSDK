@@ -11,6 +11,8 @@ namespace RPG::GameCore { class BoomerangProjectileData; }
 #define OBAMPFIJAPK_LHDIJEEEKEJ_OFFSET UNITYSDK_OFFSET(0xBD32620)
 #define OBAMPFIJAPK_PGKPGNJJMMB_OFFSET UNITYSDK_OFFSET(0xBD32800)
 
+inline static constexpr unsigned int OBAMPFIJAPK_TypeDefinitionIndex = 54736;
+
 	class OBAMPFIJAPK : public ::GGJEMEHMBNL
 	{
 	public:

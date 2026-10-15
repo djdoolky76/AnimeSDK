@@ -31,6 +31,8 @@ namespace System { class String; }
 #define BIFNKEPOOPA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE013E0)
 #define BIFNKEPOOPA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE01440)
 
+inline static constexpr unsigned int BIFNKEPOOPA_TypeDefinitionIndex = 27939;
+
 	class BIFNKEPOOPA : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_TryGetAuthCodeDelegate_TypeDefinitionIndex = 7645;
+
 	class ConsoleDelegate_TryGetAuthCodeDelegate : public ::System::MulticastDelegate
 	{
 	public:

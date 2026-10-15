@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int HideLevelStageClip_TypeDefinitionIndex = 48437;
+
 	class HideLevelStageClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

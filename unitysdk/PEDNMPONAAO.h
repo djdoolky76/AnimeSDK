@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PEDNMPONAAO_SET_UNLOCKCONDITIONS_OFFSET UNITYSDK_OFFSET(0xC0343A0)
 #define PEDNMPONAAO_SET_UNLOCKTOAST_OFFSET UNITYSDK_OFFSET(0xC034420)
 
+inline static constexpr unsigned int PEDNMPONAAO_TypeDefinitionIndex = 51984;
+
 	class PEDNMPONAAO : public ::System::Object
 	{
 	public:

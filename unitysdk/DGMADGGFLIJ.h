@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DGMADGGFLIJ__ONBIND_OFFSET UNITYSDK_OFFSET(0xE851ED0)
 #define DGMADGGFLIJ__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xE8521F0)
 
+inline static constexpr unsigned int DGMADGGFLIJ_TypeDefinitionIndex = 71275;
+
 	class DGMADGGFLIJ : public ::FMPCODLIOLG
 	{
 	public:

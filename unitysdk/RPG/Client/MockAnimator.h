@@ -261,6 +261,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MockAnimator_TypeDefinitionIndex = 73326;
+
 	class MockAnimator : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvSetAIFollow_TypeDefinitionIndex = 22201;
+
 	class AdvSetAIFollow : public ::RPG::GameCore::TaskConfig
 	{
 	public:

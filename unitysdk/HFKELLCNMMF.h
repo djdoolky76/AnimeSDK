@@ -14,6 +14,8 @@ namespace System { class String; }
 #define HFKELLCNMMF_KALGMIMLDBA_OFFSET UNITYSDK_OFFSET(0x15C87A20)
 #define HFKELLCNMMF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C87830)
 
+inline static constexpr unsigned int HFKELLCNMMF_TypeDefinitionIndex = 56472;
+
 	class HFKELLCNMMF
 	{
 	public:

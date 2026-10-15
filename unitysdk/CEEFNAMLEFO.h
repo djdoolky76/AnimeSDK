@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CEEFNAMLEFO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC77FC90)
 #define CEEFNAMLEFO_TICK_OFFSET UNITYSDK_OFFSET(0xC77FD20)
 
+inline static constexpr unsigned int CEEFNAMLEFO_TypeDefinitionIndex = 52902;
+
 	class CEEFNAMLEFO : public ::GELIALJDFBL
 	{
 	public:

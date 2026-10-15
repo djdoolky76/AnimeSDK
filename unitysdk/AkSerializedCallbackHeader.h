@@ -16,6 +16,8 @@ class AkSerializedCallbackHeader;
 #define AKSERIALIZEDCALLBACKHEADER_GET_PPACKAGE_OFFSET UNITYSDK_OFFSET(0x1F5C0F10)
 #define AKSERIALIZEDCALLBACKHEADER_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1F5C0AE0)
 
+inline static constexpr unsigned int AkSerializedCallbackHeader_TypeDefinitionIndex = 44786;
+
 	class AkSerializedCallbackHeader : public ::System::Object
 	{
 	public:

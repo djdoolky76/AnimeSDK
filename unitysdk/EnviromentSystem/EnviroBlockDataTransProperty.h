@@ -44,6 +44,8 @@ namespace UnityEngine { class Light; }
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int EnviroBlockDataTransProperty_TypeDefinitionIndex = 49592;
+
 	class EnviroBlockDataTransProperty : public ::EnviromentSystem::EnviroProperty
 	{
 	public:

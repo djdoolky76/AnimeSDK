@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FMNPJNPAMOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3EA100)
 #define FMNPJNPAMOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3EA160)
 
+inline static constexpr unsigned int FMNPJNPAMOA_TypeDefinitionIndex = 25596;
+
 	class FMNPJNPAMOA : public ::System::Object
 	{
 	public:

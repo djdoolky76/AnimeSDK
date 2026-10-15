@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RuntimeGroupInfo; }
 #define DIBALNFGJEO_RESETTODEFAULT_OFFSET UNITYSDK_OFFSET(0xEBEFB40)
 #define DIBALNFGJEO_SET_GROUPINFO_OFFSET UNITYSDK_OFFSET(0xEBEFB30)
 
+inline static constexpr unsigned int DIBALNFGJEO_TypeDefinitionIndex = 57079;
+
 	class DIBALNFGJEO : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define AIPNFBBDNEO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E283420)
 #define AIPNFBBDNEO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E283480)
 
+inline static constexpr unsigned int AIPNFBBDNEO_TypeDefinitionIndex = 30689;
+
 	class AIPNFBBDNEO : public ::System::Object
 	{
 	public:

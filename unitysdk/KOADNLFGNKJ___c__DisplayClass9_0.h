@@ -7,6 +7,8 @@ class PPFAMGCOOFP;
 #define KOADNLFGNKJ___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB58CB80)
 #define KOADNLFGNKJ___C__DISPLAYCLASS9_0___ONQUERYSERVERINFO_B__1_OFFSET UNITYSDK_OFFSET(0xB58CC70)
 
+inline static constexpr unsigned int KOADNLFGNKJ___c__DisplayClass9_0_TypeDefinitionIndex = 80233;
+
 	class KOADNLFGNKJ___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

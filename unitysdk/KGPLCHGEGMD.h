@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KGPLCHGEGMD_MGMCDFAEIDI_OFFSET UNITYSDK_OFFSET(0xB3FADF0)
 #define KGPLCHGEGMD_NEPOMMFDADN_OFFSET UNITYSDK_OFFSET(0xB3FAC00)
 
+inline static constexpr unsigned int KGPLCHGEGMD_TypeDefinitionIndex = 73753;
+
 	class KGPLCHGEGMD : public ::System::Object
 	{
 	public:

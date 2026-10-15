@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KOBALACAPKF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8AC940)
 #define KOBALACAPKF___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E8AC950)
 
+inline static constexpr unsigned int KOBALACAPKF___c_TypeDefinitionIndex = 26985;
+
 	class KOBALACAPKF___c : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine::Windows::Speech { class PhraseRecognizer_PhraseRecognized
 
 namespace UnityEngine::Windows::Speech
 {
+	inline static constexpr unsigned int PhraseRecognizer_TypeDefinitionIndex = 4435;
+
 	class PhraseRecognizer : public ::System::Object
 	{
 	public:

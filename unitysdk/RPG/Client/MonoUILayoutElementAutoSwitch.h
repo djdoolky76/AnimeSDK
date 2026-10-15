@@ -9,6 +9,8 @@ namespace RPG::Client { class MonoUILayoutElementAutoSwitch_LayoutElementPropert
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoUILayoutElementAutoSwitch_TypeDefinitionIndex = 72614;
+
 	class MonoUILayoutElementAutoSwitch : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

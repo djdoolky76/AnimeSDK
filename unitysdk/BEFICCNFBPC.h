@@ -9,6 +9,8 @@ class OFAKEFLLHNP;
 #define BEFICCNFBPC_MEDLNGKACMG_OFFSET UNITYSDK_OFFSET(0x163134A0)
 #define BEFICCNFBPC_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x16313450)
 
+inline static constexpr unsigned int BEFICCNFBPC_TypeDefinitionIndex = 62530;
+
 	class BEFICCNFBPC : public ::System::Object
 	{
 	public:

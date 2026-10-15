@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResetVirtualCameraPosByPlayerTalk_TypeDefinitionIndex = 23736;
+
 	class ResetVirtualCameraPosByPlayerTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

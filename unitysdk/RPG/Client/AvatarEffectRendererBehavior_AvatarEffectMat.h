@@ -10,6 +10,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarEffectRendererBehavior_AvatarEffectMat_TypeDefinitionIndex = 70248;
+
 	class AvatarEffectRendererBehavior_AvatarEffectMat : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SysMailExcelTable_TypeDefinitionIndex = 15211;
+
 	class SysMailExcelTable : public ::System::Object
 	{
 	public:

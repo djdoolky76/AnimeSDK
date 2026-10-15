@@ -12,6 +12,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoUIAnimatorStateSync_TypeDefinitionIndex = 68972;
+
 	class MonoUIAnimatorStateSync : public ::UnityEngine::MonoBehaviour
 	{
 	public:

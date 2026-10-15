@@ -16,6 +16,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MissionWaypointDataPack_TypeDefinitionIndex = 19012;
+
 	class MissionWaypointDataPack : public ::RPG::GameCore::JsonConfig
 	{
 	public:

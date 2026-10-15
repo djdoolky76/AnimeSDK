@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int HHCLFOHEKNM_FaceProp_TypeDefinitionIndex = 69967;
+
 	enum class HHCLFOHEKNM_FaceProp : ::System::Int32
 	{
 		Diffuse = 2,

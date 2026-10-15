@@ -10,6 +10,8 @@ namespace R3 { template <typename T> class ReadOnlyReactiveProperty_1; }
 #define PLHOHFBLKJO_GET_COUNTER_OFFSET UNITYSDK_OFFSET(0x1C57DE40)
 #define PLHOHFBLKJO_PCHKEMNEBCP_OFFSET UNITYSDK_OFFSET(0x1C56FAA0)
 
+inline static constexpr unsigned int PLHOHFBLKJO_TypeDefinitionIndex = 41802;
+
 	class PLHOHFBLKJO : public ::System::Object
 	{
 	public:

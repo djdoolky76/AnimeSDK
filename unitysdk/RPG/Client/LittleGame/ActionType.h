@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int ActionType_TypeDefinitionIndex = 42311;
+
 	enum class ActionType : ::System::Int32
 	{
 		Flip = 0,

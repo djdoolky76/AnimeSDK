@@ -13,6 +13,8 @@ namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; 
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightHandbookRole___c_TypeDefinitionIndex = 64899;
+
 	class GridFightHandbookRole___c : public ::System::Object
 	{
 	public:

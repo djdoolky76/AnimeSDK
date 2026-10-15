@@ -5,6 +5,8 @@ class KOAOAKKCCPK;
 
 #define AIFAHLNOMGK_ALCAAMGHIJD_CTOR_OFFSET UNITYSDK_OFFSET(0xEBA3020)
 
+inline static constexpr unsigned int AIFAHLNOMGK_ALCAAMGHIJD_TypeDefinitionIndex = 72181;
+
 	class AIFAHLNOMGK_ALCAAMGHIJD : public ::System::Object
 	{
 	public:

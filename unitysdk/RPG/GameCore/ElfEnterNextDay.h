@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ElfEnterNextDay; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfEnterNextDay_TypeDefinitionIndex = 21734;
+
 	class ElfEnterNextDay : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MissionCondition; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MissionCondition_TypeDefinitionIndex = 14135;
+
 	class MissionCondition : public ::System::Object
 	{
 	public:

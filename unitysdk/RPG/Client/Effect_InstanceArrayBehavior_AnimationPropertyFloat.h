@@ -9,6 +9,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_InstanceArrayBehavior_AnimationPropertyFloat_TypeDefinitionIndex = 70616;
+
 	class Effect_InstanceArrayBehavior_AnimationPropertyFloat : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define JPLNNOBMLLE_MONODNDCLJI_OFFSET UNITYSDK_OFFSET(0xB2C9B10)
 #define JPLNNOBMLLE_OHMHJFANEIF_OFFSET UNITYSDK_OFFSET(0xB2C9AD0)
 
+inline static constexpr unsigned int JPLNNOBMLLE_TypeDefinitionIndex = 60805;
+
 	class JPLNNOBMLLE : public ::System::Object
 	{
 	public:

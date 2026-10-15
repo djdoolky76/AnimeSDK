@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int ONNDCODLMGD_TypeDefinitionIndex = 32420;
+
 	enum class ONNDCODLMGD : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

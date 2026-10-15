@@ -14,6 +14,8 @@ namespace System::Diagnostics { class Stopwatch; }
 #define ALEJPKNHLCN_IODAJBGLBNL_OFFSET UNITYSDK_OFFSET(0x15565B00)
 #define ALEJPKNHLCN_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x15565900)
 
+inline static constexpr unsigned int ALEJPKNHLCN_TypeDefinitionIndex = 50046;
+
 	class ALEJPKNHLCN : public ::System::Object
 	{
 	public:

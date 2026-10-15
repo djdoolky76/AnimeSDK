@@ -30,6 +30,8 @@ namespace System { class String; }
 #define ICGOLPHCKIL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E620C70)
 #define ICGOLPHCKIL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E620CD0)
 
+inline static constexpr unsigned int ICGOLPHCKIL_TypeDefinitionIndex = 26564;
+
 	class ICGOLPHCKIL : public ::System::Object
 	{
 	public:

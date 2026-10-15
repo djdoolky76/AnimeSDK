@@ -22,6 +22,8 @@ namespace System { class String; }
 #define PPMNNDCCGIP_ONTRIGGEREDLOGICFINISH_OFFSET UNITYSDK_OFFSET(0xC394BA0)
 #define PPMNNDCCGIP__TICKCD_OFFSET UNITYSDK_OFFSET(0xC394BE0)
 
+inline static constexpr unsigned int PPMNNDCCGIP_TypeDefinitionIndex = 57525;
+
 	class PPMNNDCCGIP : public ::RPG::GameCore::PropInteractionTrigger
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::Client::Pet { class PetModule; }
 #define MLPPCBFKEMK_JJELHPOFJIH_OFFSET UNITYSDK_OFFSET(0xB9BCC50)
 #define MLPPCBFKEMK_NIPDCHOJNHJ_OFFSET UNITYSDK_OFFSET(0xB9BCE00)
 
+inline static constexpr unsigned int MLPPCBFKEMK_TypeDefinitionIndex = 75717;
+
 	class MLPPCBFKEMK : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ActivityFeverTimeUnderlineRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityFeverTimeUnderlineRow_TypeDefinitionIndex = 11593;
+
 	class ActivityFeverTimeUnderlineRow : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActGetScoinByChessMainStoryConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActGetScoinByChessMainStoryConfig_TypeDefinitionIndex = 19651;
+
 	class RogueActGetScoinByChessMainStoryConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

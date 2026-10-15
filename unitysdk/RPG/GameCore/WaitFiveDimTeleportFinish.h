@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitFiveDimTeleportFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitFiveDimTeleportFinish_TypeDefinitionIndex = 21283;
+
 	class WaitFiveDimTeleportFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

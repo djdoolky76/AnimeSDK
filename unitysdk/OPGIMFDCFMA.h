@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 #define OPGIMFDCFMA_JEEGIKIJOMC_OFFSET UNITYSDK_OFFSET(0xBFAA570)
 #define OPGIMFDCFMA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFAA460)
 
+inline static constexpr unsigned int OPGIMFDCFMA_TypeDefinitionIndex = 58709;
+
 	class OPGIMFDCFMA
 	{
 	public:

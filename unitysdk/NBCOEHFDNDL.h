@@ -27,6 +27,8 @@ namespace System { class String; }
 #define NBCOEHFDNDL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EACD4F0)
 #define NBCOEHFDNDL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EACD550)
 
+inline static constexpr unsigned int NBCOEHFDNDL_TypeDefinitionIndex = 31890;
+
 	class NBCOEHFDNDL : public ::System::Object
 	{
 	public:

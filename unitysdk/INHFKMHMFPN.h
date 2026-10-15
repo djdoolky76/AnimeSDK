@@ -11,6 +11,8 @@ namespace RPG::Client::LittleGame::CakeRace { class CakeRaceMonoView; }
 #define INHFKMHMFPN_LGAOOKPFIMF_OFFSET UNITYSDK_OFFSET(0x164EF880)
 #define INHFKMHMFPN_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x164EF640)
 
+inline static constexpr unsigned int INHFKMHMFPN_TypeDefinitionIndex = 78168;
+
 	class INHFKMHMFPN : public ::AJHHFMBOCEN
 	{
 	public:

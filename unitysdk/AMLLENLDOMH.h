@@ -7,6 +7,8 @@ namespace RPG::Client { class CharacterRootMotionBakedData; }
 #define AMLLENLDOMH_CTOR_OFFSET UNITYSDK_OFFSET(0x15585040)
 #define AMLLENLDOMH_KFNNNEBIFLL_OFFSET UNITYSDK_OFFSET(0x15584ED0)
 
+inline static constexpr unsigned int AMLLENLDOMH_TypeDefinitionIndex = 53622;
+
 	class AMLLENLDOMH : public ::LPCLNJFNJCL
 	{
 	public:

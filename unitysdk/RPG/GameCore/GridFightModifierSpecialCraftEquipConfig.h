@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierSpecialCraftEquipConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierSpecialCraftEquipConfig_TypeDefinitionIndex = 19396;
+
 	class GridFightModifierSpecialCraftEquipConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

@@ -55,6 +55,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GIKLPPDFENE_PNPFJLBDCGO_OFFSET UNITYSDK_OFFSET(0x15A440C0)
 #define GIKLPPDFENE_TICK_OFFSET UNITYSDK_OFFSET(0x15A429C0)
 
+inline static constexpr unsigned int GIKLPPDFENE_TypeDefinitionIndex = 54323;
+
 	class GIKLPPDFENE : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 #define FGEKJENHIIJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x157592E0)
 #define FGEKJENHIIJ_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x15759380)
 
+inline static constexpr unsigned int FGEKJENHIIJ_TypeDefinitionIndex = 67047;
+
 	class FGEKJENHIIJ : public ::System::Object
 	{
 	public:

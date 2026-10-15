@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define POJNGHHJCNC_SET_TALENTEFFECT_OFFSET UNITYSDK_OFFSET(0xC36DCE0)
 #define POJNGHHJCNC_SET_UNLOCKMECHIDS_OFFSET UNITYSDK_OFFSET(0xC36DD60)
 
+inline static constexpr unsigned int POJNGHHJCNC_TypeDefinitionIndex = 80181;
+
 	class POJNGHHJCNC : public ::System::Object
 	{
 	public:

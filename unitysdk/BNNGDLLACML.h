@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define BNNGDLLACML_SET_PASSEDLEVEL_OFFSET UNITYSDK_OFFSET(0xBDE2970)
 #define BNNGDLLACML_SET_STAGEID_OFFSET UNITYSDK_OFFSET(0xBDE28B0)
 
+inline static constexpr unsigned int BNNGDLLACML_TypeDefinitionIndex = 81019;
+
 	class BNNGDLLACML : public ::System::Object
 	{
 	public:

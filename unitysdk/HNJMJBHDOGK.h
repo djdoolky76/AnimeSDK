@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_WriteCustomValue_EntityData
 #define HNJMJBHDOGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C677210)
 #define HNJMJBHDOGK_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C677220)
 
+inline static constexpr unsigned int HNJMJBHDOGK_TypeDefinitionIndex = 36368;
+
 	class HNJMJBHDOGK : public ::AJBKGPOEBFG
 	{
 	public:

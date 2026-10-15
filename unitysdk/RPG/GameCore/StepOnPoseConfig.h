@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StepOnPoseConfig_TypeDefinitionIndex = 16404;
+
 	class StepOnPoseConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

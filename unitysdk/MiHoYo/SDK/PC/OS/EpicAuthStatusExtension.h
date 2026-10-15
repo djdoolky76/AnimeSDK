@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int EpicAuthStatusExtension_TypeDefinitionIndex = 8531;
+
 	class EpicAuthStatusExtension : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define KGCNIONFKOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB80D0)
 
+inline static constexpr unsigned int KGCNIONFKOM_TypeDefinitionIndex = 42984;
+
 	class KGCNIONFKOM : public ::System::Object
 	{
 	public:

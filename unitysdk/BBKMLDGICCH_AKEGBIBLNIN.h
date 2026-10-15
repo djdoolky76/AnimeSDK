@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define BBKMLDGICCH_AKEGBIBLNIN_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x15E8FE90)
 #define BBKMLDGICCH_AKEGBIBLNIN_INVOKE_OFFSET UNITYSDK_OFFSET(0x15E8E930)
 
+inline static constexpr unsigned int BBKMLDGICCH_AKEGBIBLNIN_TypeDefinitionIndex = 80516;
+
 	class BBKMLDGICCH_AKEGBIBLNIN : public ::System::MulticastDelegate
 	{
 	public:

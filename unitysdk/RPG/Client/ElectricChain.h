@@ -28,6 +28,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElectricChain_TypeDefinitionIndex = 70458;
+
 	class ElectricChain : public ::System::Object
 	{
 	public:

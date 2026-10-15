@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LogSamplerTypeDefineList; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LogSamplerTypeDefineList_TypeDefinitionIndex = 18161;
+
 	class LogSamplerTypeDefineList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class HidePropForStoryClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int HidePropForStoryBehaviour_TypeDefinitionIndex = 48142;
+
 	class HidePropForStoryBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

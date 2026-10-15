@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CollectionStopBubbleTalk_TypeDefinitionIndex = 20411;
+
 	class CollectionStopBubbleTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

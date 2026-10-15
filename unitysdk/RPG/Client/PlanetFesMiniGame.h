@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesMiniGame_TypeDefinitionIndex = 66605;
+
 	class PlanetFesMiniGame : public ::System::Object
 	{
 	public:

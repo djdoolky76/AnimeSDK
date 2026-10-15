@@ -9,6 +9,8 @@ namespace System { class String; }
 #define EBHOMMNKHFK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CF8CD0)
 #define EBHOMMNKHFK_PIDNBEOPJGJ_OFFSET UNITYSDK_OFFSET(0x12CF8E60)
 
+inline static constexpr unsigned int EBHOMMNKHFK_TypeDefinitionIndex = 58253;
+
 	class EBHOMMNKHFK
 	{
 	public:

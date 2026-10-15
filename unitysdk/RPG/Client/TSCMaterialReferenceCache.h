@@ -12,6 +12,8 @@ namespace UnityEngine { class MeshRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TSCMaterialReferenceCache_TypeDefinitionIndex = 70209;
+
 	class TSCMaterialReferenceCache : public ::System::Object
 	{
 	public:

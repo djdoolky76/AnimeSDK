@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleTargetEvaluator_SavedTargets_TypeDefinitionIndex = 15777;
+
 	class ChenLingBattleTargetEvaluator_SavedTargets : public ::RPG::GameCore::BaseChenLingBattleTargetEvaluator
 	{
 	public:

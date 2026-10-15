@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PVSGameObjectFilter_TypeDefinitionIndex = 19176;
+
 	class PVSGameObjectFilter : public ::RPG::GameCore::JsonConfig
 	{
 	public:

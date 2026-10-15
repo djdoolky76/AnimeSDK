@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int JukeBoxMusicTimesConfig_TypeDefinitionIndex = 16401;
+
 	class JukeBoxMusicTimesConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

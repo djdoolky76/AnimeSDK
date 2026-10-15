@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ColliderConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureCharacterIdleShowShapeConfig_TypeDefinitionIndex = 17437;
+
 	class AdventureCharacterIdleShowShapeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define GLIBGKGGEJL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4C04A0)
 #define GLIBGKGGEJL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4C0500)
 
+inline static constexpr unsigned int GLIBGKGGEJL_TypeDefinitionIndex = 25669;
+
 	class GLIBGKGGEJL : public ::System::Object
 	{
 	public:

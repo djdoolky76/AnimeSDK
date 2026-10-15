@@ -9,6 +9,8 @@ namespace SuperScrollView { class GridViewLayoutParam; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int GridViewLayoutParam_TypeDefinitionIndex = 47676;
+
 	class GridViewLayoutParam : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ToastPileIgnore; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ToastPileIgnore_TypeDefinitionIndex = 20304;
+
 	class ToastPileIgnore : public ::RPG::GameCore::TaskConfig
 	{
 	public:

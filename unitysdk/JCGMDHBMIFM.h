@@ -6,6 +6,8 @@ class OFBJPFPNFBP;
 
 #define JCGMDHBMIFM_CKFLDHJAAOM_OFFSET UNITYSDK_OFFSET(0x16588CE0)
 
+inline static constexpr unsigned int JCGMDHBMIFM_TypeDefinitionIndex = 48909;
+
 	class JCGMDHBMIFM : public ::System::Object
 	{
 	public:

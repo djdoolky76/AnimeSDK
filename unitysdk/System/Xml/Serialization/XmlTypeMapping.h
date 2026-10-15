@@ -31,6 +31,8 @@ namespace System::Xml::Serialization { class XmlTypeMapping; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlTypeMapping_TypeDefinitionIndex = 2056;
+
 	class XmlTypeMapping : public ::System::Xml::Serialization::XmlMapping
 	{
 	public:

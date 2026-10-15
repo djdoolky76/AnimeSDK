@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SilverWolfGroupData_TypeDefinitionIndex = 67957;
+
 	class SilverWolfGroupData : public ::System::Object
 	{
 	public:

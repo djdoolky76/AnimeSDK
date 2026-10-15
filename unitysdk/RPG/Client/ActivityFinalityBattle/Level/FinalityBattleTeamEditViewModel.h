@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::ActivityFinalityBattle::Level
 {
+	inline static constexpr unsigned int FinalityBattleTeamEditViewModel_TypeDefinitionIndex = 82098;
+
 	class FinalityBattleTeamEditViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

@@ -5,6 +5,8 @@ class EOKOEJKEFMN;
 
 #define JOCGLOLCKBD_CTOR_OFFSET UNITYSDK_OFFSET(0xB29EF00)
 
+inline static constexpr unsigned int JOCGLOLCKBD_TypeDefinitionIndex = 81106;
+
 	class JOCGLOLCKBD : public ::System::Object
 	{
 	public:

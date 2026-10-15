@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FDPNKOKGEAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E35F160)
 #define FDPNKOKGEAP___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E35F170)
 
+inline static constexpr unsigned int FDPNKOKGEAP___c_TypeDefinitionIndex = 27428;
+
 	class FDPNKOKGEAP___c : public ::System::Object
 	{
 	public:

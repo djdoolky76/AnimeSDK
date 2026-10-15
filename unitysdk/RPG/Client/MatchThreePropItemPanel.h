@@ -19,6 +19,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreePropItemPanel_TypeDefinitionIndex = 65968;
+
 	class MatchThreePropItemPanel : public ::UnityEngine::MonoBehaviour
 	{
 	public:

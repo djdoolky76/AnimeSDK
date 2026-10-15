@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetAdvEffectTowardAnchor_TypeDefinitionIndex = 22319;
+
 	class SetAdvEffectTowardAnchor : public ::RPG::GameCore::TaskConfig
 	{
 	public:

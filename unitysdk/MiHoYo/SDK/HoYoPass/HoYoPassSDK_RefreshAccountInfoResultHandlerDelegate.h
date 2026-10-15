@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int HoYoPassSDK_RefreshAccountInfoResultHandlerDelegate_TypeDefinitionIndex = 8299;
+
 	class HoYoPassSDK_RefreshAccountInfoResultHandlerDelegate : public ::System::MulticastDelegate
 	{
 	public:

@@ -5,6 +5,8 @@ namespace RPG::GameCore { class JsonEnum; }
 
 #define NJMBLOEMHAF_CCTOR_OFFSET UNITYSDK_OFFSET(0xBC1B040)
 
+inline static constexpr unsigned int NJMBLOEMHAF_TypeDefinitionIndex = 54063;
+
 	class NJMBLOEMHAF : public ::System::Object
 	{
 	public:

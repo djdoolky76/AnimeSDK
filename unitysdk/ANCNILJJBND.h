@@ -25,6 +25,8 @@ namespace System { class String; }
 #define ANCNILJJBND_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E529AF0)
 #define ANCNILJJBND_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E529B50)
 
+inline static constexpr unsigned int ANCNILJJBND_TypeDefinitionIndex = 32126;
+
 	class ANCNILJJBND : public ::System::Object
 	{
 	public:

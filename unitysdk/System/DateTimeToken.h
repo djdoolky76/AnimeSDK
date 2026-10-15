@@ -5,6 +5,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int DateTimeToken_TypeDefinitionIndex = 260;
+
 	struct alignas(4) DateTimeToken
 	{
 		::System::DateTimeParse_DTT dtt; // 0x10

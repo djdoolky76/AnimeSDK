@@ -27,6 +27,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define CEOJKPJCJCL___C___COMPAREREPEATEDGRIDFIGHTROLEINFO_B__38_0_OFFSET UNITYSDK_OFFSET(0xC9F61C0)
 #define CEOJKPJCJCL___C___COMPAREREPEATEDGRIDFIGHTTRAITINFO_B__36_0_OFFSET UNITYSDK_OFFSET(0xC9F6180)
 
+inline static constexpr unsigned int CEOJKPJCJCL___c_TypeDefinitionIndex = 57613;
+
 	class CEOJKPJCJCL___c : public ::System::Object
 	{
 	public:

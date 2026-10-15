@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PIGBCIDLGCA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF456B0)
 #define PIGBCIDLGCA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF45710)
 
+inline static constexpr unsigned int PIGBCIDLGCA_TypeDefinitionIndex = 25980;
+
 	class PIGBCIDLGCA : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int LoadCachedObjectInstruction_TypeDefinitionIndex = 3621;
+
 	class LoadCachedObjectInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:

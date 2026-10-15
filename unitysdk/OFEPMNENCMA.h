@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleByIsAttacker; }
 #define OFEPMNENCMA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C98CD10)
 #define OFEPMNENCMA_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1C98CD20)
 
+inline static constexpr unsigned int OFEPMNENCMA_TypeDefinitionIndex = 43137;
+
 	class OFEPMNENCMA : public ::LHJPMDPJPEC
 	{
 	public:

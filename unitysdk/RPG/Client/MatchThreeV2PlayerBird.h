@@ -21,6 +21,8 @@ namespace RPG::Client { class MatchThreeV2PlayerBird; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeV2PlayerBird_TypeDefinitionIndex = 66007;
+
 	class MatchThreeV2PlayerBird : public ::System::Object
 	{
 	public:

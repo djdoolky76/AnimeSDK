@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebDelegate_SetAdjustDPIEnableDelegate_TypeDefinitionIndex = 7852;
+
 	class WebDelegate_SetAdjustDPIEnableDelegate : public ::System::MulticastDelegate
 	{
 	public:

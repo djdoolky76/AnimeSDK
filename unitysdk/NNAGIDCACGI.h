@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NNAGIDCACGI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB7D540)
 #define NNAGIDCACGI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB7D5A0)
 
+inline static constexpr unsigned int NNAGIDCACGI_TypeDefinitionIndex = 27437;
+
 	class NNAGIDCACGI : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define ILLBJPOBLLK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6B0410)
 #define ILLBJPOBLLK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6B0470)
 
+inline static constexpr unsigned int ILLBJPOBLLK_TypeDefinitionIndex = 28306;
+
 	class ILLBJPOBLLK : public ::System::Object
 	{
 	public:

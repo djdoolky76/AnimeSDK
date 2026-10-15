@@ -6,6 +6,8 @@ class BKHHFIJCHEP;
 #define IEMPLFJPGLA_CTOR_OFFSET UNITYSDK_OFFSET(0x15F05850)
 #define IEMPLFJPGLA_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x15F05860)
 
+inline static constexpr unsigned int IEMPLFJPGLA_TypeDefinitionIndex = 60374;
+
 	class IEMPLFJPGLA : public ::EFNJLACKEDH
 	{
 	public:

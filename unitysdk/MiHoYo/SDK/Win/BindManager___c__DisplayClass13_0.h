@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int BindManager___c__DisplayClass13_0_TypeDefinitionIndex = 9376;
+
 	class BindManager___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

@@ -64,6 +64,8 @@ namespace System::ComponentModel { class PropertyChangedEventArgs; }
 #define HBDIGCKCAEB___ONCONFIRM_B__59_0_OFFSET UNITYSDK_OFFSET(0x15BE8650)
 #define HBDIGCKCAEB___ONCONFIRM_G__ENTERCRAFT_59_1_OFFSET UNITYSDK_OFFSET(0x15BE7C20)
 
+inline static constexpr unsigned int HBDIGCKCAEB_TypeDefinitionIndex = 79669;
+
 	class HBDIGCKCAEB : public ::System::Object
 	{
 	public:

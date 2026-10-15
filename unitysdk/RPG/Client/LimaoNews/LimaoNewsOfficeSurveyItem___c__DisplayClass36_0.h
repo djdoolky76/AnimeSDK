@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsOfficeSurveyItem___c__DisplayClass36_0_TypeDefinitionIndex = 80295;
+
 	class LimaoNewsOfficeSurveyItem___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:

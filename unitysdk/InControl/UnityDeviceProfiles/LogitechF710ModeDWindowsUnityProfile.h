@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int LogitechF710ModeDWindowsUnityProfile_TypeDefinitionIndex = 41076;
+
 	class LogitechF710ModeDWindowsUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

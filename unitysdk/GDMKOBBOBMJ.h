@@ -27,6 +27,8 @@ namespace UnityEngine { class Transform; }
 #define GDMKOBBOBMJ_MAONAMKFPNE_OFFSET UNITYSDK_OFFSET(0x1EBBDA10)
 #define GDMKOBBOBMJ_MBNJAMOAPCK_OFFSET UNITYSDK_OFFSET(0x1EBBDCD0)
 
+inline static constexpr unsigned int GDMKOBBOBMJ_TypeDefinitionIndex = 44014;
+
 	class GDMKOBBOBMJ : public ::System::Object
 	{
 	public:

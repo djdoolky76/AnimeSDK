@@ -9,6 +9,8 @@ namespace System { class String; }
 #define DPGJKPEOAEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x11FFC760)
 #define DPGJKPEOAEL_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x11FFC800)
 
+inline static constexpr unsigned int DPGJKPEOAEL_TypeDefinitionIndex = 66996;
+
 	class DPGJKPEOAEL : public ::System::Object
 	{
 	public:

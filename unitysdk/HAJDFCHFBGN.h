@@ -58,6 +58,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 #define HAJDFCHFBGN___CTOR_B__22_0_OFFSET UNITYSDK_OFFSET(0x15B7A860)
 #define HAJDFCHFBGN___CTOR_B__22_1_OFFSET UNITYSDK_OFFSET(0x15B7A870)
 
+inline static constexpr unsigned int HAJDFCHFBGN_TypeDefinitionIndex = 77429;
+
 	class HAJDFCHFBGN : public ::System::Object
 	{
 	public:

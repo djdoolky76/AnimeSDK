@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicCustomData_TypeDefinitionIndex = 45881;
+
 	class AlembicCustomData : public ::UnityEngine::MonoBehaviour
 	{
 	public:

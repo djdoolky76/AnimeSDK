@@ -19,6 +19,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterFullBodyClip_TypeDefinitionIndex = 47960;
+
 	class CharacterFullBodyClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

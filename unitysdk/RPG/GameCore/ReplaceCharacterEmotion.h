@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ReplaceCharacterEmotion_TypeDefinitionIndex = 22413;
+
 	class ReplaceCharacterEmotion : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -21,6 +21,8 @@ namespace RPG::Client { class ChessRogueRedDotFilter; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChessRogueActivityData_TypeDefinitionIndex = 61604;
+
 	class ChessRogueActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

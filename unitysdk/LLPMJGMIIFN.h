@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define LLPMJGMIIFN_IFECIGGPKOP_OFFSET UNITYSDK_OFFSET(0x1A590)
 #define LLPMJGMIIFN_NEMPMIMIOGL_OFFSET UNITYSDK_OFFSET(0x1A570)
 
+inline static constexpr unsigned int LLPMJGMIIFN_TypeDefinitionIndex = 71073;
+
 	struct alignas(8) LLPMJGMIIFN
 	{
 		::Unity::Collections::NativeArray_1<::System::Object*> MOEJEDHCMEO; // 0x10

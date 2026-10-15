@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SpecialNPCEffectConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SpecialNPCEffectConfig_TypeDefinitionIndex = 17031;
+
 	class SpecialNPCEffectConfig : public ::RPG::GameCore::MapRotationEntityEffectConfig
 	{
 	public:

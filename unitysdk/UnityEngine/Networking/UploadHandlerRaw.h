@@ -10,6 +10,8 @@ namespace UnityEngine::Networking { class UploadHandlerRaw; }
 
 namespace UnityEngine::Networking
 {
+	inline static constexpr unsigned int UploadHandlerRaw_TypeDefinitionIndex = 5364;
+
 	class UploadHandlerRaw : public ::UnityEngine::Networking::UploadHandler
 	{
 	public:

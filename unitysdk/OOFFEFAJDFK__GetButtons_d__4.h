@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define OOFFEFAJDFK__GETBUTTONS_D__4_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xBF7C380)
 #define OOFFEFAJDFK__GETBUTTONS_D__4_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBF7C280)
 
+inline static constexpr unsigned int OOFFEFAJDFK__GetButtons_d__4_TypeDefinitionIndex = 71977;
+
 	template <typename T1, typename T2, typename T3, typename T4>
 	class OOFFEFAJDFK__GetButtons_d__4 : public ::System::Object
 	{

@@ -17,6 +17,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomEx_Randomize3dConfig_TypeDefinitionIndex = 39968;
+
 	struct alignas(8) CriAtomEx_Randomize3dConfig
 	{
 		::System::Boolean followsOriginalSource; // 0x10

@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define DNGDKOGLNFP___WAITSTREAMING_D__13_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x119527B0)
 #define DNGDKOGLNFP___WAITSTREAMING_D__13_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x119525B0)
 
+inline static constexpr unsigned int DNGDKOGLNFP___WaitStreaming_d__13_TypeDefinitionIndex = 60537;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13>
 	class DNGDKOGLNFP___WaitStreaming_d__13 : public ::System::Object
 	{

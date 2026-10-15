@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NPCPedestrianGPUAssetConfig_Asset_TypeDefinitionIndex = 69239;
+
 	class NPCPedestrianGPUAssetConfig_Asset : public ::System::Object
 	{
 	public:

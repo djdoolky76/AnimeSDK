@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerEnergyConfig_TypeDefinitionIndex = 17032;
+
 	class PlayerEnergyConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

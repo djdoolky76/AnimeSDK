@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OBHDDGIHAPD_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xBD45EA0)
 #define OBHDDGIHAPD_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBD45EE0)
 
+inline static constexpr unsigned int OBHDDGIHAPD_TypeDefinitionIndex = 82279;
+
 	class OBHDDGIHAPD : public ::KAANKGHDHCB
 	{
 	public:

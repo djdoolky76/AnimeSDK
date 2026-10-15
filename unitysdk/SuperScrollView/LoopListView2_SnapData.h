@@ -9,6 +9,8 @@
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int LoopListView2_SnapData_TypeDefinitionIndex = 47664;
+
 	class LoopListView2_SnapData : public ::System::Object
 	{
 	public:

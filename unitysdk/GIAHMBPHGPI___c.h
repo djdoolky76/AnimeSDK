@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GIAHMBPHGPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E491CB0)
 #define GIAHMBPHGPI___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E491CC0)
 
+inline static constexpr unsigned int GIAHMBPHGPI___c_TypeDefinitionIndex = 30574;
+
 	class GIAHMBPHGPI___c : public ::System::Object
 	{
 	public:

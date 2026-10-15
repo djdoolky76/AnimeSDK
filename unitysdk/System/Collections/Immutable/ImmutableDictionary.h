@@ -4,6 +4,8 @@
 
 namespace System::Collections::Immutable
 {
+	inline static constexpr unsigned int ImmutableDictionary_TypeDefinitionIndex = 6617;
+
 	class ImmutableDictionary : public ::System::Object
 	{
 	public:

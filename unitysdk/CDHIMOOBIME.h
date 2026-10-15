@@ -25,6 +25,8 @@ namespace System { class String; }
 #define CDHIMOOBIME_PHFPEIAMPCJ_OFFSET UNITYSDK_OFFSET(0xC7680E0)
 #define CDHIMOOBIME_PHIEOAADLKP_OFFSET UNITYSDK_OFFSET(0xC7681A0)
 
+inline static constexpr unsigned int CDHIMOOBIME_TypeDefinitionIndex = 81296;
+
 	class CDHIMOOBIME : public ::System::Object
 	{
 	public:

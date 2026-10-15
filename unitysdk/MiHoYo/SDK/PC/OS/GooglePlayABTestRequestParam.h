@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int GooglePlayABTestRequestParam_TypeDefinitionIndex = 8714;
+
 	class GooglePlayABTestRequestParam : public ::System::Object
 	{
 	public:

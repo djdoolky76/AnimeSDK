@@ -7,6 +7,8 @@ namespace System { class String; }
 #define FFIONHCALGN_FHAPPCADGCE_OFFSET UNITYSDK_OFFSET(0x15744730)
 #define FFIONHCALGN_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x15744670)
 
+inline static constexpr unsigned int FFIONHCALGN_TypeDefinitionIndex = 53631;
+
 	class FFIONHCALGN : public ::MGIKEJFECDM
 	{
 	public:

@@ -6,6 +6,8 @@ class PEEDLCHFAFL;
 
 #define PJKFGLFCKCD_OHONOJAFMPM_OFFSET UNITYSDK_OFFSET(0xC297BB0)
 
+inline static constexpr unsigned int PJKFGLFCKCD_TypeDefinitionIndex = 77062;
+
 	class PJKFGLFCKCD : public ::System::Object
 	{
 	public:

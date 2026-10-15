@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ACBDGIHICCD_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0xB110DA0)
 #define ACBDGIHICCD_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0xB111040)
 
+inline static constexpr unsigned int ACBDGIHICCD_TypeDefinitionIndex = 54115;
+
 	class ACBDGIHICCD : public ::System::Object
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define DLFGNLPOGJH_PEGIMBMFBBH_OFFSET UNITYSDK_OFFSET(0xF89E620)
 #define DLFGNLPOGJH_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xF89D1C0)
 
+inline static constexpr unsigned int DLFGNLPOGJH_TypeDefinitionIndex = 79106;
+
 	class DLFGNLPOGJH : public ::System::Object
 	{
 	public:

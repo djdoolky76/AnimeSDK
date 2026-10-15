@@ -16,6 +16,8 @@ namespace RPG::Client::Prop { class ChimeraDuelPuzzleVirtualCameraConfig; }
 #define COBPCKBMOCM_MABIFDMOCPK_OFFSET UNITYSDK_OFFSET(0xDCB2630)
 #define COBPCKBMOCM_PHJDMIHDBKO_OFFSET UNITYSDK_OFFSET(0xDCB2B80)
 
+inline static constexpr unsigned int COBPCKBMOCM_TypeDefinitionIndex = 78318;
+
 	class COBPCKBMOCM : public ::System::Object
 	{
 	public:

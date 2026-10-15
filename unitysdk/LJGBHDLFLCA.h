@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LJGBHDLFLCA_KFJEGIEJPBM_OFFSET UNITYSDK_OFFSET(0xB717E20)
 #define LJGBHDLFLCA_NICPOPJIFKC_OFFSET UNITYSDK_OFFSET(0xB717DD0)
 
+inline static constexpr unsigned int LJGBHDLFLCA_TypeDefinitionIndex = 62829;
+
 	class LJGBHDLFLCA : public ::System::Object
 	{
 	public:

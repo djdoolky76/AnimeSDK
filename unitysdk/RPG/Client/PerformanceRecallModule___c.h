@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PerformanceRecallModule___c_TypeDefinitionIndex = 66445;
+
 	class PerformanceRecallModule___c : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int InvalidDataException_TypeDefinitionIndex = 2713;
+
 	class InvalidDataException : public ::System::SystemException
 	{
 	public:

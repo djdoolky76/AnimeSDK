@@ -5,6 +5,8 @@
 #define OHEJGOBGBHA_CTOR_OFFSET UNITYSDK_OFFSET(0xBE64410)
 #define OHEJGOBGBHA_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0xBE64170)
 
+inline static constexpr unsigned int OHEJGOBGBHA_TypeDefinitionIndex = 77113;
+
 	class OHEJGOBGBHA : public ::AKGFIFMIGNC
 	{
 	public:

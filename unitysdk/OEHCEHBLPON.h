@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define OEHCEHBLPON_HFLKJGJOAIK_OFFSET UNITYSDK_OFFSET(0xBE2D650)
 #define OEHCEHBLPON_KIHMEBLNKBI_OFFSET UNITYSDK_OFFSET(0xBE2CF50)
 
+inline static constexpr unsigned int OEHCEHBLPON_TypeDefinitionIndex = 48913;
+
 	class OEHCEHBLPON : public ::AGJHAIDADBA
 	{
 	public:

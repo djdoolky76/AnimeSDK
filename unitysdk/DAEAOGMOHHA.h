@@ -7,6 +7,8 @@ class BLPBNHJNGID;
 #define DAEAOGMOHHA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xDFC1870)
 #define DAEAOGMOHHA_CTOR_OFFSET UNITYSDK_OFFSET(0xDFC1950)
 
+inline static constexpr unsigned int DAEAOGMOHHA_TypeDefinitionIndex = 62630;
+
 	class DAEAOGMOHHA : public ::System::Object
 	{
 	public:

@@ -38,6 +38,8 @@ namespace System { class String; }
 #define BOINNCFONAE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E03B950)
 #define BOINNCFONAE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E03B9B0)
 
+inline static constexpr unsigned int BOINNCFONAE_TypeDefinitionIndex = 28814;
+
 	class BOINNCFONAE : public ::System::Object
 	{
 	public:

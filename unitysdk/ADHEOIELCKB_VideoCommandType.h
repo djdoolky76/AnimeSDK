@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int ADHEOIELCKB_VideoCommandType_TypeDefinitionIndex = 73222;
+
 	enum class ADHEOIELCKB_VideoCommandType : ::System::Int32
 	{
 		None = 0,

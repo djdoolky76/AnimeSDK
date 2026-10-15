@@ -9,6 +9,8 @@ namespace miHoYoEmotion { class SequenceBakeData_BakeData; }
 
 namespace miHoYoEmotion
 {
+	inline static constexpr unsigned int SubSequenceBakeData_TypeDefinitionIndex = 45968;
+
 	class SubSequenceBakeData : public ::UnityEngine::ScriptableObject
 	{
 	public:

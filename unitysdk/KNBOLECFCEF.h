@@ -5,6 +5,8 @@
 
 #define KNBOLECFCEF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C909820)
 
+inline static constexpr unsigned int KNBOLECFCEF_TypeDefinitionIndex = 43739;
+
 	class KNBOLECFCEF : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define BABFMGPNOIG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7AE550)
 #define BABFMGPNOIG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7AE5B0)
 
+inline static constexpr unsigned int BABFMGPNOIG_TypeDefinitionIndex = 29962;
+
 	class BABFMGPNOIG : public ::System::Object
 	{
 	public:

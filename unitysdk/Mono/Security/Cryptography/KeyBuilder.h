@@ -9,6 +9,8 @@ namespace System::Security::Cryptography { class RandomNumberGenerator; }
 
 namespace Mono::Security::Cryptography
 {
+	inline static constexpr unsigned int KeyBuilder_TypeDefinitionIndex = 65;
+
 	class KeyBuilder : public ::System::Object
 	{
 	public:

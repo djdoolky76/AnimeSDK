@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPLightDebug_TypeDefinitionIndex = 37569;
+
 	struct alignas(8) CRPLightDebug
 	{
 		::System::Int32 frame; // 0x10

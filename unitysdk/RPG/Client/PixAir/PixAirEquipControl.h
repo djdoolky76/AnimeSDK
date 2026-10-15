@@ -20,6 +20,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirEquipControl_TypeDefinitionIndex = 79242;
+
 	class PixAirEquipControl : public ::Sofa::BaseSofaControl
 	{
 	public:

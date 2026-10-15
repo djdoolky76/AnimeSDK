@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameBuffRewardWindow___c_TypeDefinitionIndex = 81344;
+
 	class ChenLingFesGameBuffRewardWindow___c : public ::System::Object
 	{
 	public:

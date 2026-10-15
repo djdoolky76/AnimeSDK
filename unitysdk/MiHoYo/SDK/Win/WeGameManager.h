@@ -39,6 +39,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int WeGameManager_TypeDefinitionIndex = 9482;
+
 	class WeGameManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

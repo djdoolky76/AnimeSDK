@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int CaptainData_TypeDefinitionIndex = 75137;
+
 	class CaptainData : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int IA_TransformAnim_HoverBehavior_KDJIBNAPKHK_TypeDefinitionIndex = 70842;
+
 	class IA_TransformAnim_HoverBehavior_KDJIBNAPKHK : public ::System::Object
 	{
 	public:

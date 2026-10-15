@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EAKMBCLOFJH_CTOR_OFFSET UNITYSDK_OFFSET(0x12682890)
 #define EAKMBCLOFJH_EXECUTE_OFFSET UNITYSDK_OFFSET(0x12682480)
 
+inline static constexpr unsigned int EAKMBCLOFJH_TypeDefinitionIndex = 77351;
+
 	class EAKMBCLOFJH : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define AEANOGAFBGK_SET_DRIVERID_OFFSET UNITYSDK_OFFSET(0xB14A520)
 #define AEANOGAFBGK_SET_NAME_OFFSET UNITYSDK_OFFSET(0xB14A540)
 
+inline static constexpr unsigned int AEANOGAFBGK_TypeDefinitionIndex = 81719;
+
 	class AEANOGAFBGK : public ::System::Object
 	{
 	public:

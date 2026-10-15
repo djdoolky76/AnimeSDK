@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetupPropAnchorInRadius_TypeDefinitionIndex = 20347;
+
 	class SetupPropAnchorInRadius : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int Lexer_TypeDefinitionIndex = 3802;
+
 	class Lexer : public ::System::Object
 	{
 	public:

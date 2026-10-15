@@ -17,6 +17,8 @@ namespace UnityEngine { class Collider; }
 #define OBIHLELOFCO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBD477D0)
 #define OBIHLELOFCO_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBD49D10)
 
+inline static constexpr unsigned int OBIHLELOFCO_TypeDefinitionIndex = 77054;
+
 	class OBIHLELOFCO : public ::PKNMDKNGDNH
 	{
 	public:

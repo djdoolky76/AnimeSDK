@@ -8,6 +8,8 @@ class OEPIHJOHLKM;
 #define IGFFFHBLFCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1640B6A0)
 #define IGFFFHBLFCP_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x1640B6C0)
 
+inline static constexpr unsigned int IGFFFHBLFCP_TypeDefinitionIndex = 67120;
+
 	class IGFFFHBLFCP : public ::EBIMENNAEIE
 	{
 	public:

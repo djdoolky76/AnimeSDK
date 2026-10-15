@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class Nullable; }
 
+inline static constexpr unsigned int JCDLILGOODD_TypeDefinitionIndex = 36859;
+
 	struct alignas(8) JCDLILGOODD
 	{
 		::System::UInt32 FPLLHOALFLE; // 0x10

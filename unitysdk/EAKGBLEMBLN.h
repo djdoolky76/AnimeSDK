@@ -22,6 +22,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define EAKGBLEMBLN_PGGCHKDEEAL_OFFSET UNITYSDK_OFFSET(0x12681720)
 #define EAKGBLEMBLN_TICK_OFFSET UNITYSDK_OFFSET(0x12681040)
 
+inline static constexpr unsigned int EAKGBLEMBLN_TypeDefinitionIndex = 56909;
+
 	class EAKGBLEMBLN : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

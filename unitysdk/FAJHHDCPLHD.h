@@ -8,6 +8,8 @@ class MCDOIAPPMBF;
 #define FAJHHDCPLHD_GET__OPERAND_OFFSET UNITYSDK_OFFSET(0x15682190)
 #define FAJHHDCPLHD_GIGJMNCIFMJ_OFFSET UNITYSDK_OFFSET(0x15681F60)
 
+inline static constexpr unsigned int FAJHHDCPLHD_TypeDefinitionIndex = 82164;
+
 	class FAJHHDCPLHD : public ::System::Object
 	{
 	public:

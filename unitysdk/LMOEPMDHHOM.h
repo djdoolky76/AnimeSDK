@@ -6,6 +6,8 @@ namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
 #define LMOEPMDHHOM_GCBIIHKKBBA_OFFSET UNITYSDK_OFFSET(0xB7D2380)
 
+inline static constexpr unsigned int LMOEPMDHHOM_TypeDefinitionIndex = 47284;
+
 	class LMOEPMDHHOM : public ::System::Object
 	{
 	public:

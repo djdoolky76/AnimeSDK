@@ -31,6 +31,8 @@ namespace System { class String; }
 #define DLCCOHOEFCA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1DDD30)
 #define DLCCOHOEFCA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1DDD90)
 
+inline static constexpr unsigned int DLCCOHOEFCA_TypeDefinitionIndex = 30807;
+
 	class DLCCOHOEFCA : public ::System::Object
 	{
 	public:

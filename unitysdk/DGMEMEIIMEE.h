@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DGMEMEIIMEE_EDCECJADAHE_OFFSET UNITYSDK_OFFSET(0xE854290)
 #define DGMEMEIIMEE_FODBNKINJEC_OFFSET UNITYSDK_OFFSET(0xE853C10)
 
+inline static constexpr unsigned int DGMEMEIIMEE_TypeDefinitionIndex = 60113;
+
 	class DGMEMEIIMEE : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define BFKMICADGPH_CTOR_OFFSET UNITYSDK_OFFSET(0xB173220)
 
+inline static constexpr unsigned int BFKMICADGPH_TypeDefinitionIndex = 48210;
+
 	class BFKMICADGPH : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

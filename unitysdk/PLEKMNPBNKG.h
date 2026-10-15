@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PLEKMNPBNKG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF9EC40)
 #define PLEKMNPBNKG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF9ECA0)
 
+inline static constexpr unsigned int PLEKMNPBNKG_TypeDefinitionIndex = 26354;
+
 	class PLEKMNPBNKG : public ::System::Object
 	{
 	public:

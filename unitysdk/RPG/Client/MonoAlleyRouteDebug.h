@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoAlleyRouteDebug_TypeDefinitionIndex = 62318;
+
 	class MonoAlleyRouteDebug : public ::UnityEngine::MonoBehaviour
 	{
 	public:

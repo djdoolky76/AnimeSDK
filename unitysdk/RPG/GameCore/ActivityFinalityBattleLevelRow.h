@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActivityFinalityBattleLevelRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityFinalityBattleLevelRow_TypeDefinitionIndex = 11609;
+
 	class ActivityFinalityBattleLevelRow : public ::System::Object
 	{
 	public:

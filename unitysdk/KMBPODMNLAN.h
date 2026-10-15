@@ -13,6 +13,8 @@ namespace RPG::Client::FateRin::Battle { class IFateRinCardHitTestService; }
 #define KMBPODMNLAN_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB53CB30)
 #define KMBPODMNLAN_CTOR_OFFSET UNITYSDK_OFFSET(0xB53CA60)
 
+inline static constexpr unsigned int KMBPODMNLAN_TypeDefinitionIndex = 80928;
+
 	class KMBPODMNLAN : public ::System::Object
 	{
 	public:

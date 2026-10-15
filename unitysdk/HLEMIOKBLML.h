@@ -17,6 +17,8 @@ namespace UnityEngine { class RectTransform; }
 #define HLEMIOKBLML_PJADGFFBJJC_OFFSET UNITYSDK_OFFSET(0x15D5DC80)
 #define HLEMIOKBLML__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x15D5DAB0)
 
+inline static constexpr unsigned int HLEMIOKBLML_TypeDefinitionIndex = 71827;
+
 	class HLEMIOKBLML : public ::FMPCODLIOLG
 	{
 	public:

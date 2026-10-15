@@ -5,6 +5,8 @@
 
 #define EFBFKAKOBEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA33A20)
 
+inline static constexpr unsigned int EFBFKAKOBEM_TypeDefinitionIndex = 43754;
+
 	class EFBFKAKOBEM : public ::System::Object
 	{
 	public:

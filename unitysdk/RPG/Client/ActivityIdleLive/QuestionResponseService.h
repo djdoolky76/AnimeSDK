@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int QuestionResponseService_TypeDefinitionIndex = 75356;
+
 	class QuestionResponseService : public ::System::Object
 	{
 	public:

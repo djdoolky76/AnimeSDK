@@ -6,6 +6,8 @@
 #define BDPNIDCKBON_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0x16307480)
 #define BDPNIDCKBON_CTOR_OFFSET UNITYSDK_OFFSET(0x163076E0)
 
+inline static constexpr unsigned int BDPNIDCKBON_TypeDefinitionIndex = 77039;
+
 	class BDPNIDCKBON : public ::KKHEJKOOOKG
 	{
 	public:

@@ -28,6 +28,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define NEOCEOCDEAF_PLFDCONMOKD_OFFSET UNITYSDK_OFFSET(0x1EC39FC0)
 #define NEOCEOCDEAF_SET_ISFINISH_OFFSET UNITYSDK_OFFSET(0x1EC3A790)
 
+inline static constexpr unsigned int NEOCEOCDEAF_TypeDefinitionIndex = 35329;
+
 	class NEOCEOCDEAF : public ::System::Object
 	{
 	public:

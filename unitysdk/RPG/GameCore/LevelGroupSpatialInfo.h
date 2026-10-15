@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LevelGroupSpatialInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelGroupSpatialInfo_TypeDefinitionIndex = 17206;
+
 	class LevelGroupSpatialInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace Entitas { class IGroup; }
 #define BGOMMMOBAHM_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xB46C100)
 #define BGOMMMOBAHM_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB46C900)
 
+inline static constexpr unsigned int BGOMMMOBAHM_TypeDefinitionIndex = 77122;
+
 	class BGOMMMOBAHM : public ::System::Object
 	{
 	public:

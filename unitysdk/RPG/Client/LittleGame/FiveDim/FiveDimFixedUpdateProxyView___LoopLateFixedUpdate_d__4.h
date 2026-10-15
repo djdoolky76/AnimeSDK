@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimFixedUpdateProxyView___LoopLateFixedUpdate_d__4_TypeDefinitionIndex = 77176;
+
 	template <typename T1, typename T2, typename T3, typename T4>
 	class FiveDimFixedUpdateProxyView___LoopLateFixedUpdate_d__4 : public ::System::Object
 	{

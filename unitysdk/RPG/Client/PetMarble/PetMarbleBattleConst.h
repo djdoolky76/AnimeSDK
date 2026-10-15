@@ -13,6 +13,8 @@ namespace RPG::GameCore { class DynamicValue; }
 
 namespace RPG::Client::PetMarble
 {
+	inline static constexpr unsigned int PetMarbleBattleConst_TypeDefinitionIndex = 74692;
+
 	class PetMarbleBattleConst : public ::System::Object
 	{
 	public:

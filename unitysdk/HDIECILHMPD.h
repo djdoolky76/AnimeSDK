@@ -34,6 +34,8 @@ namespace System { class String; }
 #define HDIECILHMPD_OMIHAEFMNGN_OFFSET UNITYSDK_OFFSET(0x15C371E0)
 #define HDIECILHMPD__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0x15C362D0)
 
+inline static constexpr unsigned int HDIECILHMPD_TypeDefinitionIndex = 54031;
+
 	class HDIECILHMPD : public ::RPG::GameCore::CharacterDataComponent
 	{
 	public:

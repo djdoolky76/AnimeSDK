@@ -9,6 +9,8 @@ namespace System { class Type; }
 
 namespace SRF::Service
 {
+	inline static constexpr unsigned int ServiceAttribute_TypeDefinitionIndex = 35407;
+
 	class ServiceAttribute : public ::UnityEngine::Scripting::PreserveAttribute
 	{
 	public:

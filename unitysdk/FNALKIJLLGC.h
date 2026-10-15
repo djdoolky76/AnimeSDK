@@ -8,6 +8,8 @@ namespace System { class String; }
 #define FNALKIJLLGC_CTOR_OFFSET UNITYSDK_OFFSET(0x15868FD0)
 #define FNALKIJLLGC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15869000)
 
+inline static constexpr unsigned int FNALKIJLLGC_TypeDefinitionIndex = 53348;
+
 	class FNALKIJLLGC
 	{
 	public:

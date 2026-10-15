@@ -6,6 +6,8 @@ class MKENKALADDC;
 
 #define CLKBNDOJEHF_ABFDIFLKGDF_OFFSET UNITYSDK_OFFSET(0xD78FBB0)
 
+inline static constexpr unsigned int CLKBNDOJEHF_TypeDefinitionIndex = 62421;
+
 	class CLKBNDOJEHF : public ::System::Object
 	{
 	public:

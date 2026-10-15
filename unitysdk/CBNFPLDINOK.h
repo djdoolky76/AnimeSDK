@@ -5,6 +5,8 @@ namespace RPG::GameCore { class MiniGameHundredFloorBlockConfig; }
 
 #define CBNFPLDINOK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DCD30)
 
+inline static constexpr unsigned int CBNFPLDINOK_TypeDefinitionIndex = 43393;
+
 	class CBNFPLDINOK : public ::System::Object
 	{
 	public:

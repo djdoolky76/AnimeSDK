@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftBoardGroundControl___c__DisplayClass22_0_TypeDefinitionIndex = 79847;
+
 	class MechCraftCraftBoardGroundControl___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:

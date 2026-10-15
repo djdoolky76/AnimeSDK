@@ -13,6 +13,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRChaperoneSetup__ExportLiveToBuffer_TypeDefinitionIndex = 39012;
+
 	class IVRChaperoneSetup__ExportLiveToBuffer : public ::System::MulticastDelegate
 	{
 	public:

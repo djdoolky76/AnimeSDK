@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMiracleShopData_TypeDefinitionIndex = 67333;
+
 	class RogueMiracleShopData : public ::System::Object
 	{
 	public:

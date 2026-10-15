@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ExpeditionBattleFunTitleConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ExpeditionBattleFunTitleConfigRow_TypeDefinitionIndex = 11452;
+
 	class ExpeditionBattleFunTitleConfigRow : public ::System::Object
 	{
 	public:

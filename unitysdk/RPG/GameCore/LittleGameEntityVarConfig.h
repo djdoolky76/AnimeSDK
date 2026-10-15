@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameEntityVarConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameEntityVarConfig_TypeDefinitionIndex = 18871;
+
 	class LittleGameEntityVarConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

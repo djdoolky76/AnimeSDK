@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BoxingClubFailInfo_TypeDefinitionIndex = 62958;
+
 	class BoxingClubFailInfo : public ::System::Object
 	{
 	public:

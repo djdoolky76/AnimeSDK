@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Web_WebViewNativeResultPayload_TypeDefinitionIndex = 8224;
+
 	class Web_WebViewNativeResultPayload : public ::System::Object
 	{
 	public:

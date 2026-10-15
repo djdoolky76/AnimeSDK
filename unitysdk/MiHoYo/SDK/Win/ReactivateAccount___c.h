@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int ReactivateAccount___c_TypeDefinitionIndex = 9547;
+
 	class ReactivateAccount___c : public ::System::Object
 	{
 	public:

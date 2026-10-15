@@ -33,6 +33,8 @@ namespace System { class String; }
 #define KPPBBOJOMDB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8C2FC0)
 #define KPPBBOJOMDB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8C3020)
 
+inline static constexpr unsigned int KPPBBOJOMDB_TypeDefinitionIndex = 33812;
+
 	class KPPBBOJOMDB : public ::System::Object
 	{
 	public:

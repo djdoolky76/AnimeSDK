@@ -33,6 +33,8 @@ namespace System::Security::Cryptography { class SymmetricAlgorithm; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int SymmetricAlgorithm_TypeDefinitionIndex = 1070;
+
 	class SymmetricAlgorithm : public ::System::Object
 	{
 	public:

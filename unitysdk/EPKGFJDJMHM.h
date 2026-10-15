@@ -105,6 +105,8 @@ namespace System { class String; }
 #define EPKGFJDJMHM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E311DD0)
 #define EPKGFJDJMHM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E311E30)
 
+inline static constexpr unsigned int EPKGFJDJMHM_TypeDefinitionIndex = 31785;
+
 	class EPKGFJDJMHM : public ::System::Object
 	{
 	public:

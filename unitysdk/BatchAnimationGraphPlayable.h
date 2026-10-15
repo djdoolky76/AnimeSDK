@@ -5,6 +5,8 @@
 
 #define BATCHANIMATIONGRAPHPLAYABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBE7770)
 
+inline static constexpr unsigned int BatchAnimationGraphPlayable_TypeDefinitionIndex = 37460;
+
 	class BatchAnimationGraphPlayable : public ::System::Object
 	{
 	public:

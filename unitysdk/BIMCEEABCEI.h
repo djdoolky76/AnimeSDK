@@ -24,6 +24,8 @@ namespace System { class String; }
 #define BIMCEEABCEI_SET_TOTALLAP_OFFSET UNITYSDK_OFFSET(0xB7862A0)
 #define BIMCEEABCEI_SET_TRACKID_OFFSET UNITYSDK_OFFSET(0xB786200)
 
+inline static constexpr unsigned int BIMCEEABCEI_TypeDefinitionIndex = 81671;
+
 	class BIMCEEABCEI : public ::System::Object
 	{
 	public:

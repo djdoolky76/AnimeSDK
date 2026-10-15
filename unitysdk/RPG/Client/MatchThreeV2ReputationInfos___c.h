@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeV2ReputationInfos___c_TypeDefinitionIndex = 66027;
+
 	class MatchThreeV2ReputationInfos___c : public ::System::Object
 	{
 	public:

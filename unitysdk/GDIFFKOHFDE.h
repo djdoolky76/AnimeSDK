@@ -59,6 +59,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GDIFFKOHFDE_PJLEOJKPGAJ_OFFSET UNITYSDK_OFFSET(0x1C6339F0)
 #define GDIFFKOHFDE_PNJODACLLPH_OFFSET UNITYSDK_OFFSET(0x1C633480)
 
+inline static constexpr unsigned int GDIFFKOHFDE_TypeDefinitionIndex = 37087;
+
 	class GDIFFKOHFDE : public ::System::Object
 	{
 	public:

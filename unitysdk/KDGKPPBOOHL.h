@@ -30,6 +30,8 @@ namespace System { class String; }
 #define KDGKPPBOOHL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7FF140)
 #define KDGKPPBOOHL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7FF1A0)
 
+inline static constexpr unsigned int KDGKPPBOOHL_TypeDefinitionIndex = 31570;
+
 	class KDGKPPBOOHL : public ::System::Object
 	{
 	public:

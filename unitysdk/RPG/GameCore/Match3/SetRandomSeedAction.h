@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class SetRandomSeedAction; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int SetRandomSeedAction_TypeDefinitionIndex = 24907;
+
 	class SetRandomSeedAction : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:

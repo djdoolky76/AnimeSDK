@@ -51,6 +51,8 @@ namespace System { class String; }
 #define LGOKJFKMCBE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E959D20)
 #define LGOKJFKMCBE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E959D80)
 
+inline static constexpr unsigned int LGOKJFKMCBE_TypeDefinitionIndex = 25610;
+
 	class LGOKJFKMCBE : public ::System::Object
 	{
 	public:

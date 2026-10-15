@@ -12,6 +12,8 @@ namespace System { class Action; }
 #define POLGKBLMEBP_LADMGDAOLOD_1_OFFSET UNITYSDK_OFFSET(0xC370E20)
 #define POLGKBLMEBP_LADMGDAOLOD_OFFSET UNITYSDK_OFFSET(0xC370AA0)
 
+inline static constexpr unsigned int POLGKBLMEBP_TypeDefinitionIndex = 49197;
+
 	class POLGKBLMEBP : public ::DKOAMFCJHNH
 	{
 	public:

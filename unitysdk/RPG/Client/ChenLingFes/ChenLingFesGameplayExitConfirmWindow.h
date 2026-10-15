@@ -17,6 +17,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameplayExitConfirmWindow_TypeDefinitionIndex = 81310;
+
 	class ChenLingFesGameplayExitConfirmWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:

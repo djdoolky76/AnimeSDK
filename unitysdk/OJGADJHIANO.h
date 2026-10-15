@@ -30,6 +30,8 @@ namespace System { class String; }
 #define OJGADJHIANO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE81B30)
 #define OJGADJHIANO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE81B90)
 
+inline static constexpr unsigned int OJGADJHIANO_TypeDefinitionIndex = 30527;
+
 	class OJGADJHIANO : public ::System::Object
 	{
 	public:

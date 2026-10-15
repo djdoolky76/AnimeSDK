@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BattleEntitySkillLevelWhiteBoxData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleEntitySkillLevelWhiteBoxData_TypeDefinitionIndex = 22750;
+
 	class BattleEntitySkillLevelWhiteBoxData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

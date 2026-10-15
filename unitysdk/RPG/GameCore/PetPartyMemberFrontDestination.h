@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PetPartyMemberFrontDestination_TypeDefinitionIndex = 21084;
+
 	class PetPartyMemberFrontDestination : public ::RPG::GameCore::PetPartyNavigateDestination
 	{
 	public:

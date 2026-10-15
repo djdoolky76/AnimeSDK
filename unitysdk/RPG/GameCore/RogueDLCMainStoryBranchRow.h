@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueDLCMainStoryBranchRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLCMainStoryBranchRow_TypeDefinitionIndex = 14793;
+
 	class RogueDLCMainStoryBranchRow : public ::System::Object
 	{
 	public:

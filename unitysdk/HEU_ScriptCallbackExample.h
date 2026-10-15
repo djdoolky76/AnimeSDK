@@ -7,6 +7,8 @@ namespace System { class String; }
 #define HEU_SCRIPTCALLBACKEXAMPLE_ASSETCALLBACKWITHMSG_OFFSET UNITYSDK_OFFSET(0x1B8BDDA0)
 #define HEU_SCRIPTCALLBACKEXAMPLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8BDF00)
 
+inline static constexpr unsigned int HEU_ScriptCallbackExample_TypeDefinitionIndex = 40350;
+
 	class HEU_ScriptCallbackExample : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -128,6 +128,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystem_NoiseModule_TypeDefinitionIndex = 5243;
+
 	struct alignas(8) ParticleSystem_NoiseModule
 	{
 		::UnityEngine::ParticleSystem* m_ParticleSystem; // 0x10

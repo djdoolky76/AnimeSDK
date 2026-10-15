@@ -5,6 +5,8 @@
 
 #define LIFDICCJGMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0F7770)
 
+inline static constexpr unsigned int LIFDICCJGMJ_TypeDefinitionIndex = 25041;
+
 	class LIFDICCJGMJ : public ::System::Attribute
 	{
 	public:

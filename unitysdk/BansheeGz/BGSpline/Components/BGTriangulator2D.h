@@ -22,6 +22,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace BansheeGz::BGSpline::Components
 {
+	inline static constexpr unsigned int BGTriangulator2D_TypeDefinitionIndex = 36071;
+
 	class BGTriangulator2D : public ::System::Object
 	{
 	public:

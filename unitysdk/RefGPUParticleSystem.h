@@ -171,6 +171,8 @@ namespace UnityEngine { class Transform; }
 #define REFGPUPARTICLESYSTEM_UPDATEWORLDSPACEBOUNDINGBOX_OFFSET UNITYSDK_OFFSET(0x1EBE1E90)
 #define REFGPUPARTICLESYSTEM_UPDATE_OFFSET UNITYSDK_OFFSET(0x1EBDE400)
 
+inline static constexpr unsigned int RefGPUParticleSystem_TypeDefinitionIndex = 43996;
+
 	class RefGPUParticleSystem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

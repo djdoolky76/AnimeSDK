@@ -7,6 +7,8 @@
 #define HPMILNIDDGB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x2E7F530)
 #define HPMILNIDDGB_HFPJMFFFAFH_OFFSET UNITYSDK_OFFSET(0x2E7F510)
 
+inline static constexpr unsigned int HPMILNIDDGB_TypeDefinitionIndex = 71077;
+
 	struct alignas(8) HPMILNIDDGB
 	{
 		::Unity::Collections::NativeArray_1<::JJEABHDCGLE> KJEDBIIJEDI; // 0x10

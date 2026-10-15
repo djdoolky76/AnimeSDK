@@ -21,6 +21,8 @@ namespace System { class Action; }
 #define FCNLPLHOACB_PBJHMJEGELA_OFFSET UNITYSDK_OFFSET(0x1C552480)
 #define FCNLPLHOACB_PGCFAFDDOOK_OFFSET UNITYSDK_OFFSET(0x1C552430)
 
+inline static constexpr unsigned int FCNLPLHOACB_TypeDefinitionIndex = 41832;
+
 	class FCNLPLHOACB : public ::System::Object
 	{
 	public:

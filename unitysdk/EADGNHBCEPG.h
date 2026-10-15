@@ -31,6 +31,8 @@ namespace System { class String; }
 #define EADGNHBCEPG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2235B0)
 #define EADGNHBCEPG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E223610)
 
+inline static constexpr unsigned int EADGNHBCEPG_TypeDefinitionIndex = 34317;
+
 	class EADGNHBCEPG : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int EnviroGpuParticleProperty___c_TypeDefinitionIndex = 49603;
+
 	class EnviroGpuParticleProperty___c : public ::System::Object
 	{
 	public:

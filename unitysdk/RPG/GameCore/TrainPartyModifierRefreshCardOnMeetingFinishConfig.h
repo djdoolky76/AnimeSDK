@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyModifierRefreshCardOnMeetingFinishConf
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyModifierRefreshCardOnMeetingFinishConfig_TypeDefinitionIndex = 18117;
+
 	class TrainPartyModifierRefreshCardOnMeetingFinishConfig : public ::RPG::GameCore::TrainPartyModifierConfigBase
 	{
 	public:

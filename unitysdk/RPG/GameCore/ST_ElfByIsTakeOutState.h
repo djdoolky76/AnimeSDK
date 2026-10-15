@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_ElfByIsTakeOutState_TypeDefinitionIndex = 21545;
+
 	class ST_ElfByIsTakeOutState : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

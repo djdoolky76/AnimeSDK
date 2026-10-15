@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace System
 {
+	inline static constexpr unsigned int UnhandledExceptionEventArgs_TypeDefinitionIndex = 360;
+
 	class UnhandledExceptionEventArgs : public ::System::EventArgs
 	{
 	public:

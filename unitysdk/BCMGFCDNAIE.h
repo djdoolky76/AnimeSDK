@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BCMGFCDNAIE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E90B000)
 #define BCMGFCDNAIE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E90B060)
 
+inline static constexpr unsigned int BCMGFCDNAIE_TypeDefinitionIndex = 28788;
+
 	class BCMGFCDNAIE : public ::System::Object
 	{
 	public:

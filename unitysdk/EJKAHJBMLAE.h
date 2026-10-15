@@ -4,6 +4,8 @@
 
 #define EJKAHJBMLAE_CTOR_OFFSET UNITYSDK_OFFSET(0x154E0E00)
 
+inline static constexpr unsigned int EJKAHJBMLAE_TypeDefinitionIndex = 64223;
+
 	class EJKAHJBMLAE : public ::System::Object
 	{
 	public:

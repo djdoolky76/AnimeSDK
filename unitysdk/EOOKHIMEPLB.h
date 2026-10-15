@@ -20,6 +20,8 @@ namespace System { class String; }
 #define EOOKHIMEPLB_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x155CC880)
 #define EOOKHIMEPLB_SET_UIPATH_OFFSET UNITYSDK_OFFSET(0x155CC860)
 
+inline static constexpr unsigned int EOOKHIMEPLB_TypeDefinitionIndex = 58610;
+
 	class EOOKHIMEPLB : public ::System::Object
 	{
 	public:

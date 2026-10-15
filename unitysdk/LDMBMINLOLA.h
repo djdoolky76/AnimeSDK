@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LDMBMINLOLA_ONENABLE_OFFSET UNITYSDK_OFFSET(0xB63D280)
 #define LDMBMINLOLA_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0xB63D360)
 
+inline static constexpr unsigned int LDMBMINLOLA_TypeDefinitionIndex = 71086;
+
 	class LDMBMINLOLA
 	{
 	public:

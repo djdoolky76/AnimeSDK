@@ -7,6 +7,8 @@ namespace System { class String; }
 #define EBFJEIAHBHK_INIIDBHNMHB_OFFSET UNITYSDK_OFFSET(0x1CD5F2D0)
 #define EBFJEIAHBHK_PEECNCABGFD_OFFSET UNITYSDK_OFFSET(0x1CD5F2E0)
 
+inline static constexpr unsigned int EBFJEIAHBHK_TypeDefinitionIndex = 10748;
+
 	class EBFJEIAHBHK : public ::System::Object
 	{
 	public:

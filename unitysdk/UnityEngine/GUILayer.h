@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GUILayer_TypeDefinitionIndex = 6683;
+
 	class GUILayer : public ::System::Object
 	{
 	public:

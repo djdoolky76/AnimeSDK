@@ -53,6 +53,8 @@ namespace UnityEngine::Formats::Alembic::Importer { class IStreamDescriptor; }
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicStreamPlayer_TypeDefinitionIndex = 45870;
+
 	class AlembicStreamPlayer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

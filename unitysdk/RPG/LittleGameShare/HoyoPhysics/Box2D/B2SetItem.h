@@ -5,6 +5,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2SetItem_TypeDefinitionIndex = 36759;
+
 	struct alignas(4) B2SetItem
 	{
 		::System::UInt64 key; // 0x10

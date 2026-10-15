@@ -30,6 +30,8 @@ namespace System { class String; }
 #define EGMPLFGHOEJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E29A610)
 #define EGMPLFGHOEJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E29A670)
 
+inline static constexpr unsigned int EGMPLFGHOEJ_TypeDefinitionIndex = 30496;
+
 	class EGMPLFGHOEJ : public ::System::Object
 	{
 	public:

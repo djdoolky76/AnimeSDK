@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MONJFDPKFBA_SET_STATVALUES_OFFSET UNITYSDK_OFFSET(0xBA35540)
 #define MONJFDPKFBA_SET_TARGETSTATTIERS_OFFSET UNITYSDK_OFFSET(0xBA35560)
 
+inline static constexpr unsigned int MONJFDPKFBA_TypeDefinitionIndex = 81688;
+
 	class MONJFDPKFBA : public ::System::Object
 	{
 	public:

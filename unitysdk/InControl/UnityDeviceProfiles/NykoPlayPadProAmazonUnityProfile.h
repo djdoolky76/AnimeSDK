@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int NykoPlayPadProAmazonUnityProfile_TypeDefinitionIndex = 40932;
+
 	class NykoPlayPadProAmazonUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

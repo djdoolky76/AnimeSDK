@@ -223,6 +223,8 @@ namespace UnityEngine { class Transform; }
 #define OEAMAMLDKFC_POEHBHKMHNH_OFFSET UNITYSDK_OFFSET(0xBE09B00)
 #define OEAMAMLDKFC_PPMFNODAGHH_OFFSET UNITYSDK_OFFSET(0xBE22BD0)
 
+inline static constexpr unsigned int OEAMAMLDKFC_TypeDefinitionIndex = 76960;
+
 	class OEAMAMLDKFC : public ::IBDBGGMIBEE
 	{
 	public:

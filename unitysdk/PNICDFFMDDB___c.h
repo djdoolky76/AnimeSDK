@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PNICDFFMDDB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFBB870)
 #define PNICDFFMDDB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DFBB880)
 
+inline static constexpr unsigned int PNICDFFMDDB___c_TypeDefinitionIndex = 34642;
+
 	class PNICDFFMDDB___c : public ::System::Object
 	{
 	public:

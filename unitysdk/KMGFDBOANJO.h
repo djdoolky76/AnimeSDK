@@ -19,6 +19,8 @@ namespace System { class Object; }
 #define KMGFDBOANJO_SET_ISDISPLAYED_OFFSET UNITYSDK_OFFSET(0xB554D30)
 #define KMGFDBOANJO_SET_NAME_OFFSET UNITYSDK_OFFSET(0xB554CF0)
 
+inline static constexpr unsigned int KMGFDBOANJO_TypeDefinitionIndex = 81082;
+
 	class KMGFDBOANJO : public ::System::Object
 	{
 	public:

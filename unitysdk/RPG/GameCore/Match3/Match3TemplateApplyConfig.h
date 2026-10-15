@@ -11,6 +11,8 @@ namespace RPG::GameCore::Match3 { class Match3TemplateApplyConfig; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int Match3TemplateApplyConfig_TypeDefinitionIndex = 24942;
+
 	class Match3TemplateApplyConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

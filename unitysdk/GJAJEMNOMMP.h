@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define GJAJEMNOMMP_DOONENTER_OFFSET UNITYSDK_OFFSET(0x15A557D0)
 #define GJAJEMNOMMP_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x15A55860)
 
+inline static constexpr unsigned int GJAJEMNOMMP_TypeDefinitionIndex = 57528;
+
 	class GJAJEMNOMMP : public ::EDLDHDMLJDH
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define NOLCFJNOKPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7C9C00)
 
+inline static constexpr unsigned int NOLCFJNOKPC_TypeDefinitionIndex = 37337;
+
 	class NOLCFJNOKPC : public ::System::Object
 	{
 	public:

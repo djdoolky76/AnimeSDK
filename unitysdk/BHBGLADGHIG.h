@@ -6,6 +6,8 @@ namespace System { class Object; }
 #define BHBGLADGHIG_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C51F30)
 #define BHBGLADGHIG_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C51FA0)
 
+inline static constexpr unsigned int BHBGLADGHIG_TypeDefinitionIndex = 44278;
+
 	struct alignas(4) BHBGLADGHIG
 	{
 		/*

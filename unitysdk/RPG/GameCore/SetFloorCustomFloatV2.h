@@ -13,6 +13,8 @@ namespace RPG::GameCore { class SetFloorCustomValueExtraInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetFloorCustomFloatV2_TypeDefinitionIndex = 20697;
+
 	class SetFloorCustomFloatV2 : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -43,6 +43,8 @@ namespace UnityEngine { class Object; }
 #define CFBNMFHFLAO__LOAD_B__9_1_OFFSET UNITYSDK_OFFSET(0xCA062B0)
 #define CFBNMFHFLAO__LOAD_B__9_2_OFFSET UNITYSDK_OFFSET(0xCA06450)
 
+inline static constexpr unsigned int CFBNMFHFLAO_TypeDefinitionIndex = 49500;
+
 	class CFBNMFHFLAO : public ::NLBIEMILEDE
 	{
 	public:

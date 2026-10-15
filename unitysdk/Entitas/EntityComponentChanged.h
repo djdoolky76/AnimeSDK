@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace Entitas
 {
+	inline static constexpr unsigned int EntityComponentChanged_TypeDefinitionIndex = 10012;
+
 	class EntityComponentChanged : public ::System::MulticastDelegate
 	{
 	public:

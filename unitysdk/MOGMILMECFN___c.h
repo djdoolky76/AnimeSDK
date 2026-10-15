@@ -8,6 +8,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define MOGMILMECFN___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBA2C3A0)
 #define MOGMILMECFN___C__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xBA2C3B0)
 
+inline static constexpr unsigned int MOGMILMECFN___c_TypeDefinitionIndex = 52666;
+
 	class MOGMILMECFN___c : public ::System::Object
 	{
 	public:

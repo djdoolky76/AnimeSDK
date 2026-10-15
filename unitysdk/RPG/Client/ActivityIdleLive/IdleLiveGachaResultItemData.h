@@ -19,6 +19,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveGachaResultItemData; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveGachaResultItemData_TypeDefinitionIndex = 75260;
+
 	class IdleLiveGachaResultItemData : public ::System::Object
 	{
 	public:

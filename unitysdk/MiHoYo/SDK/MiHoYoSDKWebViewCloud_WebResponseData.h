@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKWebViewCloud_WebResponseData_TypeDefinitionIndex = 46586;
+
 	class MiHoYoSDKWebViewCloud_WebResponseData : public ::System::Object
 	{
 	public:

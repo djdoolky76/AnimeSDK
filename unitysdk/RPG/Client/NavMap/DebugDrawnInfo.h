@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int DebugDrawnInfo_TypeDefinitionIndex = 74544;
+
 	class DebugDrawnInfo : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveTeamSlotData; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveTeamInfo___c__DisplayClass15_0_TypeDefinitionIndex = 75103;
+
 	class IdleLiveTeamInfo___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

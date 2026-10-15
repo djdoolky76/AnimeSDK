@@ -25,6 +25,8 @@ namespace UnityEngine { class Texture2D; }
 #define NLPLDFJCMFK_KEFJFBPBGOI_OFFSET UNITYSDK_OFFSET(0xBC7ADB0)
 #define NLPLDFJCMFK_OKHEEBIJIAO_OFFSET UNITYSDK_OFFSET(0xBC7A690)
 
+inline static constexpr unsigned int NLPLDFJCMFK_TypeDefinitionIndex = 49543;
+
 	class NLPLDFJCMFK : public ::System::Object
 	{
 	public:

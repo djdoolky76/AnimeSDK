@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NEOLEBDHNPG_OLKMFEJGBBF_OFFSET UNITYSDK_OFFSET(0x1C78B830)
 #define NEOLEBDHNPG_PGGGDOKKOMK_OFFSET UNITYSDK_OFFSET(0x1C78AC00)
 
+inline static constexpr unsigned int NEOLEBDHNPG_TypeDefinitionIndex = 36543;
+
 	class NEOLEBDHNPG : public ::System::Object
 	{
 	public:

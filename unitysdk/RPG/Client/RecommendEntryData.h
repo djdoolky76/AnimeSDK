@@ -35,6 +35,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RecommendEntryData_TypeDefinitionIndex = 66804;
+
 	class RecommendEntryData : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ class MMFMAIKPPDO;
 #define MMFMAIKPPDO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1D1A60)
 #define MMFMAIKPPDO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1D1990)
 
+inline static constexpr unsigned int MMFMAIKPPDO_TypeDefinitionIndex = 19900;
+
 	class MMFMAIKPPDO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define KIECDNIFEBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C901030)
 
+inline static constexpr unsigned int KIECDNIFEBO_TypeDefinitionIndex = 42833;
+
 	class KIECDNIFEBO : public ::System::Object
 	{
 	public:

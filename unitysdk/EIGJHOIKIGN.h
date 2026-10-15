@@ -21,6 +21,8 @@ namespace System { class Nullable; }
 #define EIGJHOIKIGN_MOCPCLHLAHK_OFFSET UNITYSDK_OFFSET(0x154C5410)
 #define EIGJHOIKIGN_OALBJEMILBF_OFFSET UNITYSDK_OFFSET(0x154C6210)
 
+inline static constexpr unsigned int EIGJHOIKIGN_TypeDefinitionIndex = 68797;
+
 	class EIGJHOIKIGN : public ::GPGDJDKKHNE
 	{
 	public:

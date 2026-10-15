@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetPhainonChargePointPreshow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetPhainonChargePointPreshow_TypeDefinitionIndex = 23156;
+
 	class SetPhainonChargePointPreshow : public ::RPG::GameCore::TaskConfig
 	{
 	public:

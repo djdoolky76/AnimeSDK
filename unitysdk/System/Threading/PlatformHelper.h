@@ -7,6 +7,8 @@
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int PlatformHelper_TypeDefinitionIndex = 814;
+
 	class PlatformHelper : public ::System::Object
 	{
 	public:

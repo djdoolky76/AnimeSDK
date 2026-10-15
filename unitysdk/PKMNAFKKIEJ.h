@@ -9,6 +9,8 @@ class PKMNAFKKIEJ;
 #define PKMNAFKKIEJ_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0xC2E7530)
 #define PKMNAFKKIEJ_MBABPIHGAJN_OFFSET UNITYSDK_OFFSET(0xC2E75C0)
 
+inline static constexpr unsigned int PKMNAFKKIEJ_TypeDefinitionIndex = 75274;
+
 	class PKMNAFKKIEJ : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OFGBOCFGHEE_EPNEGKHHBJO_OFFSET UNITYSDK_OFFSET(0xBE41350)
 #define OFGBOCFGHEE_PDAAPIILFOP_OFFSET UNITYSDK_OFFSET(0xBE414C0)
 
+inline static constexpr unsigned int OFGBOCFGHEE_TypeDefinitionIndex = 76573;
+
 	class OFGBOCFGHEE : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetCharacterAnimFollow_TypeDefinitionIndex = 22649;
+
 	class SetCharacterAnimFollow : public ::RPG::GameCore::TaskConfig
 	{
 	public:

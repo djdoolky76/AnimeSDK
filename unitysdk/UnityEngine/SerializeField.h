@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int SerializeField_TypeDefinitionIndex = 4373;
+
 	class SerializeField : public ::System::Attribute
 	{
 	public:

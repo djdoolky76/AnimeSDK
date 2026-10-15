@@ -8,6 +8,8 @@
 #define AJBKGPOEBFG_FAPNDMMBKLN_OFFSET UNITYSDK_OFFSET(0x1C58B8F0)
 #define AJBKGPOEBFG_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1C58B940)
 
+inline static constexpr unsigned int AJBKGPOEBFG_TypeDefinitionIndex = 36336;
+
 	class AJBKGPOEBFG : public ::System::Object
 	{
 	public:

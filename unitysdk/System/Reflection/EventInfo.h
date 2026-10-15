@@ -21,6 +21,8 @@ namespace System::Reflection { class EventInfo_AddEventAdapter; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int EventInfo_TypeDefinitionIndex = 604;
+
 	class EventInfo : public ::System::Reflection::MemberInfo
 	{
 	public:

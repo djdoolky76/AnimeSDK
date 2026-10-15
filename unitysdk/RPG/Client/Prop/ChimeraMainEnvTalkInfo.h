@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraMainEnvTalkInfo_TypeDefinitionIndex = 78483;
+
 	class ChimeraMainEnvTalkInfo : public ::System::Object
 	{
 	public:

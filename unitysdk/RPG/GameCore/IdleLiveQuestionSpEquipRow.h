@@ -9,6 +9,8 @@ namespace RPG::GameCore { class IdleLiveQuestionSpEquipRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveQuestionSpEquipRow_TypeDefinitionIndex = 11833;
+
 	class IdleLiveQuestionSpEquipRow : public ::System::Object
 	{
 	public:

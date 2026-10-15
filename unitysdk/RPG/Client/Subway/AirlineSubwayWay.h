@@ -18,6 +18,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::Subway
 {
+	inline static constexpr unsigned int AirlineSubwayWay_TypeDefinitionIndex = 82193;
+
 	class AirlineSubwayWay : public ::RPG::Client::Airline
 	{
 	public:

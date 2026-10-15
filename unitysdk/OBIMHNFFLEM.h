@@ -33,6 +33,8 @@ namespace System { class String; }
 #define OBIMHNFFLEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EBAFCC0)
 #define OBIMHNFFLEM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EBAFD20)
 
+inline static constexpr unsigned int OBIMHNFFLEM_TypeDefinitionIndex = 25631;
+
 	class OBIMHNFFLEM : public ::System::Object
 	{
 	public:

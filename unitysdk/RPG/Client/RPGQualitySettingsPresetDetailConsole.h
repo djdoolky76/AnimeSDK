@@ -12,6 +12,8 @@ namespace RPG::Client { class CRPShadowSettings; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGQualitySettingsPresetDetailConsole_TypeDefinitionIndex = 67942;
+
 	class RPGQualitySettingsPresetDetailConsole : public ::System::Object
 	{
 	public:

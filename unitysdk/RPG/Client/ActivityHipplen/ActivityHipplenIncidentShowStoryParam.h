@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenIncidentShowStoryParam_TypeDefinitionIndex = 75557;
+
 	class ActivityHipplenIncidentShowStoryParam : public ::System::Object
 	{
 	public:

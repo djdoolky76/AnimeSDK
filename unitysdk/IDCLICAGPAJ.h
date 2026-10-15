@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define IDCLICAGPAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15EAE640)
 #define IDCLICAGPAJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15EAE670)
 
+inline static constexpr unsigned int IDCLICAGPAJ_TypeDefinitionIndex = 52587;
+
 	class IDCLICAGPAJ
 	{
 	public:

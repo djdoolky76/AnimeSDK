@@ -39,6 +39,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IJOJFKGLIKA_PIJOFBIDOAJ_1_OFFSET UNITYSDK_OFFSET(0x1EC4C6F0)
 #define IJOJFKGLIKA_PIJOFBIDOAJ_OFFSET UNITYSDK_OFFSET(0x1EC4C5E0)
 
+inline static constexpr unsigned int IJOJFKGLIKA_TypeDefinitionIndex = 44020;
+
 	class IJOJFKGLIKA : public ::System::Object
 	{
 	public:

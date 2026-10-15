@@ -13,6 +13,8 @@ class DMDPOFBLBIE;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BookletDecorativeContainer_TypeDefinitionIndex = 72387;
+
 	class BookletDecorativeContainer
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int LuaEnv_CustomLoader_TypeDefinitionIndex = 50207;
+
 	class LuaEnv_CustomLoader : public ::System::MulticastDelegate
 	{
 	public:

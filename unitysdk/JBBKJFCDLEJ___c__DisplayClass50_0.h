@@ -6,6 +6,8 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 #define JBBKJFCDLEJ___C__DISPLAYCLASS50_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16566140)
 #define JBBKJFCDLEJ___C__DISPLAYCLASS50_0__ONNORMALEVENTDONE_B__0_OFFSET UNITYSDK_OFFSET(0x165666F0)
 
+inline static constexpr unsigned int JBBKJFCDLEJ___c__DisplayClass50_0_TypeDefinitionIndex = 60388;
+
 	class JBBKJFCDLEJ___c__DisplayClass50_0 : public ::System::Object
 	{
 	public:

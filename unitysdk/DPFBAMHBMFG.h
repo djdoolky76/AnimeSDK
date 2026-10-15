@@ -4,6 +4,8 @@
 
 #define DPFBAMHBMFG_CTOR_OFFSET UNITYSDK_OFFSET(0x11FFB5D0)
 
+inline static constexpr unsigned int DPFBAMHBMFG_TypeDefinitionIndex = 80192;
+
 	class DPFBAMHBMFG : public ::System::Object
 	{
 	public:

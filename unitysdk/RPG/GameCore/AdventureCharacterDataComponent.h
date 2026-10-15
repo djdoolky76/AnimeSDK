@@ -39,6 +39,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureCharacterDataComponent_TypeDefinitionIndex = 56914;
+
 	class AdventureCharacterDataComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

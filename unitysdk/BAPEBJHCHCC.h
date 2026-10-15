@@ -11,6 +11,8 @@ class OIKDEOMMOAM;
 #define BAPEBJHCHCC_OCFMAIFBGMF_OFFSET UNITYSDK_OFFSET(0x15E7FC50)
 #define BAPEBJHCHCC_OFBGILCPEOB_OFFSET UNITYSDK_OFFSET(0x15E7FBB0)
 
+inline static constexpr unsigned int BAPEBJHCHCC_TypeDefinitionIndex = 54119;
+
 	class BAPEBJHCHCC : public ::System::Object
 	{
 	public:

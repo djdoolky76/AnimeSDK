@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyFormulaActivateConditionConfi
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyFormulaActivateConditionConfig_TypeDefinitionIndex = 17744;
+
 	class RogueModifierModifyFormulaActivateConditionConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

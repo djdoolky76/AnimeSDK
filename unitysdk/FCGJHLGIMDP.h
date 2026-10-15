@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 #define FCGJHLGIMDP_NIJJPBOIGBI_OFFSET UNITYSDK_OFFSET(0x156BB480)
 #define FCGJHLGIMDP_PDAMBKEDBFC_OFFSET UNITYSDK_OFFSET(0x156BB4E0)
 
+inline static constexpr unsigned int FCGJHLGIMDP_TypeDefinitionIndex = 71576;
+
 	class FCGJHLGIMDP : public ::FMPCODLIOLG
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerceiveValueTriggerType_TypeDefinitionIndex = 24606;
+
 	enum class PerceiveValueTriggerType : ::System::Int32
 	{
 		GreaterThan = 0,

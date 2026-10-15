@@ -6,6 +6,8 @@
 
 namespace ZXing
 {
+	inline static constexpr unsigned int ReaderException_TypeDefinitionIndex = 6997;
+
 	class ReaderException : public ::System::Exception
 	{
 	public:

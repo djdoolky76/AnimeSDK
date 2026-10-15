@@ -11,6 +11,8 @@ class EKFMIDBJDIA;
 #define DGCNFOOAFPO_INVOKE_OFFSET UNITYSDK_OFFSET(0xE844000)
 #define DGCNFOOAFPO_SET_MUTED_OFFSET UNITYSDK_OFFSET(0xE843FD0)
 
+inline static constexpr unsigned int DGCNFOOAFPO_TypeDefinitionIndex = 73144;
+
 	class DGCNFOOAFPO : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int LoginManager___c__DisplayClass87_1_TypeDefinitionIndex = 9460;
+
 	template <typename T>
 	class LoginManager___c__DisplayClass87_1 : public ::System::Object
 	{

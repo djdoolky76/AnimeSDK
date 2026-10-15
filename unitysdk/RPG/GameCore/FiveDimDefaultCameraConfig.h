@@ -14,6 +14,8 @@ namespace RPG::GameCore { class FiveDimVCameraBlendConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimDefaultCameraConfig_TypeDefinitionIndex = 16671;
+
 	class FiveDimDefaultCameraConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

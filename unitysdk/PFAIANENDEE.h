@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PFAIANENDEE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF212F0)
 #define PFAIANENDEE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF21350)
 
+inline static constexpr unsigned int PFAIANENDEE_TypeDefinitionIndex = 34800;
+
 	class PFAIANENDEE : public ::System::Object
 	{
 	public:

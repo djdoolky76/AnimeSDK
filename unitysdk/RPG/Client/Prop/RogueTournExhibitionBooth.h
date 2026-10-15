@@ -14,6 +14,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int RogueTournExhibitionBooth_TypeDefinitionIndex = 78958;
+
 	class RogueTournExhibitionBooth : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BadgeConfigRow_TypeDefinitionIndex = 12828;
+
 	class BadgeConfigRow : public ::System::Object
 	{
 	public:

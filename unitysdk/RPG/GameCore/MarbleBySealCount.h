@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MarbleBySealCount; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleBySealCount_TypeDefinitionIndex = 16888;
+
 	class MarbleBySealCount : public ::RPG::GameCore::MarblePredicateConfig
 	{
 	public:

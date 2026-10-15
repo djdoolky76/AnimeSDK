@@ -11,6 +11,8 @@ class PNFLEMCDMJD;
 #define JIAFOPELMJJ___C__DISPLAYCLASS75_0__ONHPATCHFINISH_B__2_OFFSET UNITYSDK_OFFSET(0xB1E9A40)
 #define JIAFOPELMJJ___C__DISPLAYCLASS75_0__ONHPATCHFINISH_B__4_OFFSET UNITYSDK_OFFSET(0xB1E9A60)
 
+inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass75_0_TypeDefinitionIndex = 59527;
+
 	class JIAFOPELMJJ___c__DisplayClass75_0 : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HMLFGDFLIBP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5D1C60)
 #define HMLFGDFLIBP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5D1CC0)
 
+inline static constexpr unsigned int HMLFGDFLIBP_TypeDefinitionIndex = 30725;
+
 	class HMLFGDFLIBP : public ::System::Object
 	{
 	public:

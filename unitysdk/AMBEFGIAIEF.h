@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define AMBEFGIAIEF_NPONPKJEJAO_OFFSET UNITYSDK_OFFSET(0x15575A50)
 #define AMBEFGIAIEF_ONENTITYCREATED_OFFSET UNITYSDK_OFFSET(0x15574B80)
 
+inline static constexpr unsigned int AMBEFGIAIEF_TypeDefinitionIndex = 76868;
+
 	class AMBEFGIAIEF : public ::Entitas::VisualDebugging::Unity::ContextObserver
 	{
 	public:

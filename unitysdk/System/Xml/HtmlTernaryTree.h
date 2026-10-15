@@ -6,6 +6,8 @@
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int HtmlTernaryTree_TypeDefinitionIndex = 1803;
+
 	class HtmlTernaryTree : public ::System::Object
 	{
 	public:

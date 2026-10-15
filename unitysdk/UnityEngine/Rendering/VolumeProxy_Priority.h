@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int VolumeProxy_Priority_TypeDefinitionIndex = 35663;
+
 	enum class VolumeProxy_Priority : ::System::Int32
 	{
 		None = 0,

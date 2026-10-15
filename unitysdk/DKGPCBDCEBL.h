@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DKGPCBDCEBL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF87BC80)
 #define DKGPCBDCEBL_TICK_OFFSET UNITYSDK_OFFSET(0xF87BCD0)
 
+inline static constexpr unsigned int DKGPCBDCEBL_TypeDefinitionIndex = 58157;
+
 	class DKGPCBDCEBL : public ::GELIALJDFBL
 	{
 	public:

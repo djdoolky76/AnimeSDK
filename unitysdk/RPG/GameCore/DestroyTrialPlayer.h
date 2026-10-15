@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DestroyTrialPlayer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DestroyTrialPlayer_TypeDefinitionIndex = 21608;
+
 	class DestroyTrialPlayer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

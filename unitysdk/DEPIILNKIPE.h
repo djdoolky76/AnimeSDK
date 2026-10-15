@@ -44,6 +44,8 @@ namespace System { class String; }
 #define DEPIILNKIPE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1981B0)
 #define DEPIILNKIPE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E198210)
 
+inline static constexpr unsigned int DEPIILNKIPE_TypeDefinitionIndex = 26216;
+
 	class DEPIILNKIPE : public ::System::Object
 	{
 	public:

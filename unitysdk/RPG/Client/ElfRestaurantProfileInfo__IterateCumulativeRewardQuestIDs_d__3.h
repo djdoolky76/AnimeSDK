@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfRestaurantProfileInfo__IterateCumulativeRewardQuestIDs_d__3_TypeDefinitionIndex = 63715;
+
 	template <typename T1, typename T2, typename T3>
 	class ElfRestaurantProfileInfo__IterateCumulativeRewardQuestIDs_d__3 : public ::System::Object
 	{

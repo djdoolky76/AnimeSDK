@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_ThreadUtil___c__DisplayClass3_1_TypeDefinitionIndex = 46414;
+
 	template <typename T>
 	class SecurityTunnel_ThreadUtil___c__DisplayClass3_1 : public ::System::Object
 	{

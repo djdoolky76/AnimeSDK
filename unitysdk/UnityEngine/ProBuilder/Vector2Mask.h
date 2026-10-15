@@ -17,6 +17,8 @@
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int Vector2Mask_TypeDefinitionIndex = 44450;
+
 	struct alignas(4) Vector2Mask
 	{
 		::System::Byte m_Mask; // 0x10

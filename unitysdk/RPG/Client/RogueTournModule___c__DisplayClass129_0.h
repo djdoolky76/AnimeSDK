@@ -9,6 +9,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournModule___c__DisplayClass129_0_TypeDefinitionIndex = 67798;
+
 	class RogueTournModule___c__DisplayClass129_0 : public ::System::Object
 	{
 	public:

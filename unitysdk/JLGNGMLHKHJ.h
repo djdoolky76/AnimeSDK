@@ -9,6 +9,8 @@ class JLGNGMLHKHJ;
 #define JLGNGMLHKHJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D046060)
 #define JLGNGMLHKHJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D046020)
 
+inline static constexpr unsigned int JLGNGMLHKHJ_TypeDefinitionIndex = 10252;
+
 	class JLGNGMLHKHJ : public ::RPG::GameCore::TaskConfig
 	{
 	public:

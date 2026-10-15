@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TrackPhotoActivityData_TypeDefinitionIndex = 61670;
+
 	class TrackPhotoActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KJKBPJMOEJD_SET_GROUPINDEX_OFFSET UNITYSDK_OFFSET(0xB45A780)
 #define KJKBPJMOEJD_SET_SORTFILTERITEMS_OFFSET UNITYSDK_OFFSET(0xB45A7A0)
 
+inline static constexpr unsigned int KJKBPJMOEJD_TypeDefinitionIndex = 65741;
+
 	class KJKBPJMOEJD : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int Pointer_TypeDefinitionIndex = 584;
+
 	class Pointer : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System { class Object; }
 #define AOHCOJBNAHP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x158AC9A0)
 #define AOHCOJBNAHP_TICK_OFFSET UNITYSDK_OFFSET(0x158AC3C0)
 
+inline static constexpr unsigned int AOHCOJBNAHP_TypeDefinitionIndex = 58469;
+
 	class AOHCOJBNAHP : public ::GELIALJDFBL
 	{
 	public:

@@ -6,6 +6,8 @@
 #define EAKGBLEMBLN_FHPHLDFMKDJ_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x202EF00)
 #define EAKGBLEMBLN_FHPHLDFMKDJ_SET_VAL_OFFSET UNITYSDK_OFFSET(0x14EA0)
 
+inline static constexpr unsigned int EAKGBLEMBLN_FHPHLDFMKDJ_TypeDefinitionIndex = 56912;
+
 	struct alignas(4) EAKGBLEMBLN_FHPHLDFMKDJ
 	{
 		::System::Single _Val_k__BackingField; // 0x10

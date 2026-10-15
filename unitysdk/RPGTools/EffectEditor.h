@@ -6,6 +6,8 @@
 
 namespace RPGTools
 {
+	inline static constexpr unsigned int EffectEditor_TypeDefinitionIndex = 47776;
+
 	class EffectEditor : public ::UnityEngine::MonoBehaviour
 	{
 	public:

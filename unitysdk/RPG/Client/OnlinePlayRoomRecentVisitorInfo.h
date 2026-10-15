@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OnlinePlayRoomRecentVisitorInfo_TypeDefinitionIndex = 66412;
+
 	class OnlinePlayRoomRecentVisitorInfo : public ::System::Object
 	{
 	public:

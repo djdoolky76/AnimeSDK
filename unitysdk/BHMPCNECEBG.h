@@ -29,6 +29,8 @@ namespace System { class String; }
 #define BHMPCNECEBG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDFC540)
 #define BHMPCNECEBG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDFC5A0)
 
+inline static constexpr unsigned int BHMPCNECEBG_TypeDefinitionIndex = 28615;
+
 	class BHMPCNECEBG : public ::System::Object
 	{
 	public:

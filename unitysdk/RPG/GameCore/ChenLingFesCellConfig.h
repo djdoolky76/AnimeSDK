@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingFesCellConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingFesCellConfig_TypeDefinitionIndex = 18441;
+
 	class ChenLingFesCellConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GALCNKIAHNN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E421950)
 #define GALCNKIAHNN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E421960)
 
+inline static constexpr unsigned int GALCNKIAHNN___c_TypeDefinitionIndex = 31041;
+
 	class GALCNKIAHNN___c : public ::System::Object
 	{
 	public:

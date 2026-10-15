@@ -28,6 +28,8 @@ namespace System { class String; }
 #define NKKADHADOLO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB5A840)
 #define NKKADHADOLO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB5A8A0)
 
+inline static constexpr unsigned int NKKADHADOLO_TypeDefinitionIndex = 25576;
+
 	class NKKADHADOLO : public ::System::Object
 	{
 	public:

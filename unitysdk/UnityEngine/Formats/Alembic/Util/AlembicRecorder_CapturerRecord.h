@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace UnityEngine::Formats::Alembic::Util
 {
+	inline static constexpr unsigned int AlembicRecorder_CapturerRecord_TypeDefinitionIndex = 45776;
+
 	class AlembicRecorder_CapturerRecord : public ::System::Object
 	{
 	public:

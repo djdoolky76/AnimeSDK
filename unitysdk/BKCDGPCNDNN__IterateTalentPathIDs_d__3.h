@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define BKCDGPCNDNN__ITERATETALENTPATHIDS_D__3_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB7AD010)
 #define BKCDGPCNDNN__ITERATETALENTPATHIDS_D__3___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xB7AD030)
 
+inline static constexpr unsigned int BKCDGPCNDNN__IterateTalentPathIDs_d__3_TypeDefinitionIndex = 80152;
+
 	template <typename T1, typename T2, typename T3>
 	class BKCDGPCNDNN__IterateTalentPathIDs_d__3 : public ::System::Object
 	{

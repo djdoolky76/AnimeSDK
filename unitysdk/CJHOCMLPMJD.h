@@ -28,6 +28,8 @@ namespace System { class String; }
 #define CJHOCMLPMJD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0DD640)
 #define CJHOCMLPMJD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0DD6A0)
 
+inline static constexpr unsigned int CJHOCMLPMJD_TypeDefinitionIndex = 27630;
+
 	class CJHOCMLPMJD : public ::System::Object
 	{
 	public:

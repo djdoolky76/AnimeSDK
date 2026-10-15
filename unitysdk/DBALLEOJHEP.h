@@ -9,6 +9,8 @@ namespace System { class String; }
 #define DBALLEOJHEP_CTOR_OFFSET UNITYSDK_OFFSET(0xDFD4EE0)
 #define DBALLEOJHEP_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xDFD4EF0)
 
+inline static constexpr unsigned int DBALLEOJHEP_TypeDefinitionIndex = 79700;
+
 	class DBALLEOJHEP : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define PKMAGNAPJFK_FILLRSPCMDIDSTO_OFFSET UNITYSDK_OFFSET(0xC2E63B0)
 #define PKMAGNAPJFK__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0xC2E6430)
 
+inline static constexpr unsigned int PKMAGNAPJFK_TypeDefinitionIndex = 59892;
+
 	class PKMAGNAPJFK : public ::RPG::Client::SyncCheckItemBase
 	{
 	public:

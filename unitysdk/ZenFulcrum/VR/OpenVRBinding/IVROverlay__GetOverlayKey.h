@@ -14,6 +14,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVROverlay__GetOverlayKey_TypeDefinitionIndex = 39064;
+
 	class IVROverlay__GetOverlayKey : public ::System::MulticastDelegate
 	{
 	public:

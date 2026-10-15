@@ -78,6 +78,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JAIEIHLGJDM_PJANEIDEHHA_OFFSET UNITYSDK_OFFSET(0x1654EC80)
 #define JAIEIHLGJDM_SET_CURRENTPEAKGROUPID_OFFSET UNITYSDK_OFFSET(0x1654C600)
 
+inline static constexpr unsigned int JAIEIHLGJDM_TypeDefinitionIndex = 63186;
+
 	class JAIEIHLGJDM : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleImeInfo_TypeDefinitionIndex = 7870;
+
 	class ConsoleImeInfo : public ::System::Object
 	{
 	public:

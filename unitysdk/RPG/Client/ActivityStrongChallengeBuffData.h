@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityStrongChallengeBuffData_TypeDefinitionIndex = 61908;
+
 	class ActivityStrongChallengeBuffData : public ::System::Object
 	{
 	public:

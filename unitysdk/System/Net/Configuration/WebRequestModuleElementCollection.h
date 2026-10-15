@@ -6,6 +6,8 @@
 
 namespace System::Net::Configuration
 {
+	inline static constexpr unsigned int WebRequestModuleElementCollection_TypeDefinitionIndex = 3089;
+
 	class WebRequestModuleElementCollection : public ::System::Configuration::ConfigurationElementCollection
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SharedStringList_TypeDefinitionIndex = 18308;
+
 	class SharedStringList : public ::RPG::GameCore::SharedValue
 	{
 	public:

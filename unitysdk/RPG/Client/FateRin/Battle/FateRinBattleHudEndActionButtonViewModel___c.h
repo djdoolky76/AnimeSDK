@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudEndActionButtonViewModel___c_TypeDefinitionIndex = 80904;
+
 	class FateRinBattleHudEndActionButtonViewModel___c : public ::System::Object
 	{
 	public:

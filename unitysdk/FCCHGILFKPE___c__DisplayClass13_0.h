@@ -7,6 +7,8 @@ namespace System { class String; }
 #define FCCHGILFKPE___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0x156B10A0)
 #define FCCHGILFKPE___C__DISPLAYCLASS13_0__RECORDSTAGE_B__0_OFFSET UNITYSDK_OFFSET(0x156B1260)
 
+inline static constexpr unsigned int FCCHGILFKPE___c__DisplayClass13_0_TypeDefinitionIndex = 73771;
+
 	class FCCHGILFKPE___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

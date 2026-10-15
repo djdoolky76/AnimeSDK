@@ -17,6 +17,8 @@ namespace UnityEngine::Rendering { class BatchAnimation; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int BAGraphLayerTemplate_TypeDefinitionIndex = 4803;
+
 	class BAGraphLayerTemplate : public ::UnityEngine::Object
 	{
 	public:

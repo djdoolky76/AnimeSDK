@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CheckSkillDependencyAxis; }
 #define OEBPIMHPPPL_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0xBE26030)
 #define OEBPIMHPPPL_NMGFAFGOLEA_OFFSET UNITYSDK_OFFSET(0xBE260A0)
 
+inline static constexpr unsigned int OEBPIMHPPPL_TypeDefinitionIndex = 54371;
+
 	class OEBPIMHPPPL : public ::BEMKNPIFMBI
 	{
 	public:

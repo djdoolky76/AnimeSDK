@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MHYSDKC_VOX_TypeDefinitionIndex = 46240;
+
 	class MHYSDKC_VOX : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightTraitVideoConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightTraitVideoConfigRow_TypeDefinitionIndex = 13701;
+
 	class GridFightTraitVideoConfigRow : public ::System::Object
 	{
 	public:

@@ -38,6 +38,8 @@ namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int BatchAnimation_TypeDefinitionIndex = 4782;
+
 	class BatchAnimation : public ::UnityEngine::Behaviour
 	{
 	public:

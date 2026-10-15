@@ -8,6 +8,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MaterialPropertyAnimBehavior_MaterialPropertyContent_TypeDefinitionIndex = 70721;
+
 	class MaterialPropertyAnimBehavior_MaterialPropertyContent : public ::System::Object
 	{
 	public:

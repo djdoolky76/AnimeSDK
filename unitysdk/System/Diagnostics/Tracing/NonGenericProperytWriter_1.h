@@ -5,6 +5,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int NonGenericProperytWriter_1_TypeDefinitionIndex = 1609;
+
 	template <typename T>
 	class NonGenericProperytWriter_1
 	{

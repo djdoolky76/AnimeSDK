@@ -12,6 +12,8 @@ namespace System { class String; }
 #define JEALAGIGPFB_EVALUATOR_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x166156C0)
 #define JEALAGIGPFB_EVALUATOR_SET_ISPAUSED_OFFSET UNITYSDK_OFFSET(0x166156A0)
 
+inline static constexpr unsigned int JEALAGIGPFB_Evaluator_TypeDefinitionIndex = 57433;
+
 	class JEALAGIGPFB_Evaluator : public ::System::Object
 	{
 	public:

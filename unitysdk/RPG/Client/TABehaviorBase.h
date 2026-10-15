@@ -38,6 +38,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TABehaviorBase_TypeDefinitionIndex = 70767;
+
 	class TABehaviorBase : public ::RPG::Client::BehaviorBase
 	{
 	public:

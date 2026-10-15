@@ -36,6 +36,8 @@ namespace System { class String; }
 #define EFBNNINLDMM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E28C5D0)
 #define EFBNNINLDMM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E28C630)
 
+inline static constexpr unsigned int EFBNNINLDMM_TypeDefinitionIndex = 25096;
+
 	class EFBNNINLDMM : public ::System::Object
 	{
 	public:

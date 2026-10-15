@@ -8,6 +8,8 @@ class JNEDMEACFJF;
 #define JNEDMEACFJF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D04FD40)
 #define JNEDMEACFJF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D04FD00)
 
+inline static constexpr unsigned int JNEDMEACFJF_TypeDefinitionIndex = 21151;
+
 	class JNEDMEACFJF : public ::RPG::GameCore::TaskConfig
 	{
 	public:

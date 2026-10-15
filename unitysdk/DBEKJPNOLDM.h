@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DBEKJPNOLDM_MGGGFCLPIOD_OFFSET UNITYSDK_OFFSET(0xDFDFF40)
 #define DBEKJPNOLDM_OBJJPNFDLNM_OFFSET UNITYSDK_OFFSET(0xDFDF480)
 
+inline static constexpr unsigned int DBEKJPNOLDM_TypeDefinitionIndex = 77919;
+
 	class DBEKJPNOLDM : public ::JNALBIEDNLH
 	{
 	public:

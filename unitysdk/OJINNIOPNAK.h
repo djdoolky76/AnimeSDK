@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OJINNIOPNAK_HEAFEHKDDFM_OFFSET UNITYSDK_OFFSET(0xBEBBB40)
 #define OJINNIOPNAK_OHCBNANFLFK_OFFSET UNITYSDK_OFFSET(0xBEBAA20)
 
+inline static constexpr unsigned int OJINNIOPNAK_TypeDefinitionIndex = 74582;
+
 	class OJINNIOPNAK : public ::System::Object
 	{
 	public:

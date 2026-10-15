@@ -8,6 +8,8 @@ class NBMCOICMHBC;
 #define NBMCOICMHBC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1F0D80)
 #define NBMCOICMHBC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1F0D40)
 
+inline static constexpr unsigned int NBMCOICMHBC_TypeDefinitionIndex = 19977;
+
 	class NBMCOICMHBC : public ::RPG::GameCore::TaskConfig
 	{
 	public:

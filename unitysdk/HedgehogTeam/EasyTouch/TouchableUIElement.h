@@ -6,6 +6,8 @@
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int TouchableUIElement_TypeDefinitionIndex = 40342;
+
 	class TouchableUIElement : public ::UnityEngine::MonoBehaviour
 	{
 	public:

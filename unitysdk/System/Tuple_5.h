@@ -4,6 +4,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int Tuple_5_TypeDefinitionIndex = 147;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5>
 	class Tuple_5 : public ::System::Object
 	{

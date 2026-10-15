@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvSetAIStop_TypeDefinitionIndex = 22203;
+
 	class AdvSetAIStop : public ::RPG::GameCore::TaskConfig
 	{
 	public:

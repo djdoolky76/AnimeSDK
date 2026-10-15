@@ -10,6 +10,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int TextFormatStateHandle_TypeDefinitionIndex = 5059;
+
 	class TextFormatStateHandle : public ::System::Object
 	{
 	public:

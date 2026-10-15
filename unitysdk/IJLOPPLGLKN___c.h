@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define IJLOPPLGLKN___C__SENDPIXAIRGETDATACSREQ_B__5_0_OFFSET UNITYSDK_OFFSET(0x1646EE30)
 #define IJLOPPLGLKN___C__SENDPIXAIRQUITSTAGECSREQ_B__9_0_OFFSET UNITYSDK_OFFSET(0x1646EE40)
 
+inline static constexpr unsigned int IJLOPPLGLKN___c_TypeDefinitionIndex = 79223;
+
 	class IJLOPPLGLKN___c : public ::System::Object
 	{
 	public:

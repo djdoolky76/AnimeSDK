@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define PPEFOOCOJED___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC37DF10)
 #define PPEFOOCOJED___C___PREPARETIPSDATA_B__4_0_OFFSET UNITYSDK_OFFSET(0xC37DF20)
 
+inline static constexpr unsigned int PPEFOOCOJED___c_TypeDefinitionIndex = 62900;
+
 	class PPEFOOCOJED___c : public ::System::Object
 	{
 	public:

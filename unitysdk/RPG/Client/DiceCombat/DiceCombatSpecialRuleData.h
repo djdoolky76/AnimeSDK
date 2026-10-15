@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatSpecialRuleData_TypeDefinitionIndex = 76087;
+
 	class DiceCombatSpecialRuleData : public ::System::Object
 	{
 	public:

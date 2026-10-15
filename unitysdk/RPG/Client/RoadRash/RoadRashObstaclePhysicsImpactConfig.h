@@ -5,6 +5,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int RoadRashObstaclePhysicsImpactConfig_TypeDefinitionIndex = 75867;
+
 	struct alignas(8) RoadRashObstaclePhysicsImpactConfig
 	{
 		::RPG::Client::RoadRash::EObstaclePhysicsImpactMode Mode; // 0x10

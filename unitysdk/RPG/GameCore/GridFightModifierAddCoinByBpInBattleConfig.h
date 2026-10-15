@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierAddCoinByBpInBattleConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierAddCoinByBpInBattleConfig_TypeDefinitionIndex = 19463;
+
 	class GridFightModifierAddCoinByBpInBattleConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

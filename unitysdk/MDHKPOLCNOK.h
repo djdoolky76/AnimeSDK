@@ -9,6 +9,8 @@ namespace System { class String; }
 #define MDHKPOLCNOK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1491D0)
 #define MDHKPOLCNOK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D149180)
 
+inline static constexpr unsigned int MDHKPOLCNOK_TypeDefinitionIndex = 21954;
+
 	class MDHKPOLCNOK : public ::RPG::GameCore::TaskConfig
 	{
 	public:

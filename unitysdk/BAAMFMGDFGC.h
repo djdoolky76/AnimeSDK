@@ -9,6 +9,8 @@ namespace RPG::Client { class GridFightRoleSkillDetail; }
 #define BAAMFMGDFGC_AAKNNKHCLMA_OFFSET UNITYSDK_OFFSET(0x15BCC6B0)
 #define BAAMFMGDFGC_CTOR_OFFSET UNITYSDK_OFFSET(0x15BCC6A0)
 
+inline static constexpr unsigned int BAAMFMGDFGC_TypeDefinitionIndex = 65289;
+
 	class BAAMFMGDFGC : public ::System::Object
 	{
 	public:

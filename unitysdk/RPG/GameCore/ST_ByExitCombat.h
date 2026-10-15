@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_ByExitCombat_TypeDefinitionIndex = 20093;
+
 	class ST_ByExitCombat : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

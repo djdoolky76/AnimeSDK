@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageHarmonyTrafficLightMonoPlugin_IntersectionPhase_TypeDefinitionIndex = 71001;
+
 	class StageHarmonyTrafficLightMonoPlugin_IntersectionPhase : public ::System::Object
 	{
 	public:

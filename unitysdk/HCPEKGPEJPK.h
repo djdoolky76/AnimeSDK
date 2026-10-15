@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HCPEKGPEJPK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE901A0)
 #define HCPEKGPEJPK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE8F7B0)
 
+inline static constexpr unsigned int HCPEKGPEJPK_TypeDefinitionIndex = 14369;
+
 	class HCPEKGPEJPK : public ::System::Object
 	{
 	public:

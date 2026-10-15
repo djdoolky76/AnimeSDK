@@ -19,6 +19,8 @@ namespace System { class Type; }
 
 namespace System
 {
+	inline static constexpr unsigned int Object_TypeDefinitionIndex = 416;
+
 	class Object
 	{
 	public:

@@ -30,6 +30,8 @@ class AkThreadProperties;
 #define AKPLATFORMINITSETTINGS_SET_UNUMREFILLSINVOICE_OFFSET UNITYSDK_OFFSET(0x1F5ADBD0)
 #define AKPLATFORMINITSETTINGS_SET_USAMPLERATE_OFFSET UNITYSDK_OFFSET(0x1F5ADD40)
 
+inline static constexpr unsigned int AkPlatformInitSettings_TypeDefinitionIndex = 44798;
+
 	class AkPlatformInitSettings : public ::System::Object
 	{
 	public:

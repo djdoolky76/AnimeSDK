@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class Selectable; }
 #define FHENBGFPCCB_FJDINLJFEMO_OFFSET UNITYSDK_OFFSET(0x15778800)
 #define FHENBGFPCCB_OILKGMEPLAE_OFFSET UNITYSDK_OFFSET(0x15778880)
 
+inline static constexpr unsigned int FHENBGFPCCB_TypeDefinitionIndex = 51744;
+
 	class FHENBGFPCCB : public ::System::Object
 	{
 	public:

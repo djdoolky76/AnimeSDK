@@ -5,6 +5,8 @@ class JDBJBNPMLNH;
 
 #define ICDMMENPNCK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB07510)
 
+inline static constexpr unsigned int ICDMMENPNCK_TypeDefinitionIndex = 43187;
+
 	class ICDMMENPNCK : public ::System::Object
 	{
 	public:

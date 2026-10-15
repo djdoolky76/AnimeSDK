@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DailyActiveConfigExcelTable_TypeDefinitionIndex = 13114;
+
 	class DailyActiveConfigExcelTable : public ::System::Object
 	{
 	public:

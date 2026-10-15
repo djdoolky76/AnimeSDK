@@ -21,6 +21,8 @@ namespace Entitas { class IGroup; }
 #define HEMNNENGPLJ_ONPEKJFGCBD_OFFSET UNITYSDK_OFFSET(0x15C5CD30)
 #define HEMNNENGPLJ_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x15C5BBC0)
 
+inline static constexpr unsigned int HEMNNENGPLJ_TypeDefinitionIndex = 76954;
+
 	class HEMNNENGPLJ : public ::System::Object
 	{
 	public:

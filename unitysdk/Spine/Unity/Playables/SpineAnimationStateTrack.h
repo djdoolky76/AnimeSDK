@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace Spine::Unity::Playables
 {
+	inline static constexpr unsigned int SpineAnimationStateTrack_TypeDefinitionIndex = 45911;
+
 	class SpineAnimationStateTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

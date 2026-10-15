@@ -11,6 +11,8 @@ namespace RPG::GameCore { class IdleLiveEquipPropertyRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveEquipPropertyRow_TypeDefinitionIndex = 11757;
+
 	class IdleLiveEquipPropertyRow : public ::System::Object
 	{
 	public:

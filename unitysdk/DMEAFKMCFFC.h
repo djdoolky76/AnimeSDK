@@ -20,6 +20,8 @@ namespace UnityEngine { class GameObject; }
 #define DMEAFKMCFFC_NGNMBJELPJK_OFFSET UNITYSDK_OFFSET(0xFEB9ED0)
 #define DMEAFKMCFFC_NNNGFJMFLON_OFFSET UNITYSDK_OFFSET(0xFEB96E0)
 
+inline static constexpr unsigned int DMEAFKMCFFC_TypeDefinitionIndex = 57378;
+
 	class DMEAFKMCFFC : public ::HDHODAPAOMM
 	{
 	public:

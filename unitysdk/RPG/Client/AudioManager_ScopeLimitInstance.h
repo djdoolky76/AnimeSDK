@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AudioManager_ScopeLimitInstance_TypeDefinitionIndex = 59728;
+
 	class AudioManager_ScopeLimitInstance : public ::System::Object
 	{
 	public:

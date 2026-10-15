@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int PrepareEditPhase_TypeDefinitionIndex = 76304;
+
 	class PrepareEditPhase : public ::RPG::Client::ChenLingBattle::GamePhase
 	{
 	public:

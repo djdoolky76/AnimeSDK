@@ -10,6 +10,8 @@ namespace RPG::GameCore::Booklet { class SentenceElementConfig; }
 
 namespace RPG::GameCore::Booklet
 {
+	inline static constexpr unsigned int SentenceElementConfig_TypeDefinitionIndex = 24973;
+
 	class SentenceElementConfig : public ::RPG::GameCore::Booklet::FadeInElementConfig
 	{
 	public:

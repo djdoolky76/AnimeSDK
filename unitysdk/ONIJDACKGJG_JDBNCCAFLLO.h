@@ -4,6 +4,8 @@
 
 #define ONIJDACKGJG_JDBNCCAFLLO_CTOR_OFFSET UNITYSDK_OFFSET(0x3C2BC80)
 
+inline static constexpr unsigned int ONIJDACKGJG_JDBNCCAFLLO_TypeDefinitionIndex = 37228;
+
 	struct alignas(4) ONIJDACKGJG_JDBNCCAFLLO
 	{
 		::System::Int32 IDGNLJPNCFD; // 0x10

@@ -7,6 +7,8 @@ class LKFPICOFNDF;
 #define MGOOJPHKFMF___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB92CD10)
 #define MGOOJPHKFMF___C__DISPLAYCLASS7_0__HASBUFF_B__0_OFFSET UNITYSDK_OFFSET(0xB92CFB0)
 
+inline static constexpr unsigned int MGOOJPHKFMF___c__DisplayClass7_0_TypeDefinitionIndex = 77806;
+
 	class MGOOJPHKFMF___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

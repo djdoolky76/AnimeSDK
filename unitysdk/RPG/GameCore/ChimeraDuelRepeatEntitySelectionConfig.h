@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChimeraDuelRepeatEntitySelectionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelRepeatEntitySelectionConfig_TypeDefinitionIndex = 15901;
+
 	class ChimeraDuelRepeatEntitySelectionConfig : public ::RPG::GameCore::BaseChimeraDuelSaveEntitySelectionConfig
 	{
 	public:

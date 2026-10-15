@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define ADADGGGFBKP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCAC0D0)
 #define ADADGGGFBKP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCAC090)
 
+inline static constexpr unsigned int ADADGGGFBKP_TypeDefinitionIndex = 10228;
+
 	class ADADGGGFBKP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

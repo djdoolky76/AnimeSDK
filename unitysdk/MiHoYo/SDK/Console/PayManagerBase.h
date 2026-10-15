@@ -35,6 +35,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int PayManagerBase_TypeDefinitionIndex = 8984;
+
 	class PayManagerBase : public ::System::Object
 	{
 	public:

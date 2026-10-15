@@ -24,6 +24,8 @@ namespace System { class Action; }
 #define CLMMHNKLEKP_MLNKOLLCEEG_OFFSET UNITYSDK_OFFSET(0xD792B10)
 #define CLMMHNKLEKP_OCEKIHINBCO_OFFSET UNITYSDK_OFFSET(0xD792A10)
 
+inline static constexpr unsigned int CLMMHNKLEKP_TypeDefinitionIndex = 72414;
+
 	class CLMMHNKLEKP : public ::BLOFHFCGJHA
 	{
 	public:

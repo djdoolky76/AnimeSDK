@@ -13,6 +13,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnMouseDragHandler; 
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncMouseDragTrigger_TypeDefinitionIndex = 38559;
+
 	class AsyncMouseDragTrigger
 	{
 	public:

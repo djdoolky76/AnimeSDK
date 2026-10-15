@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SteamDelegate_RegisterCallbackDelegate_TypeDefinitionIndex = 7696;
+
 	class SteamDelegate_RegisterCallbackDelegate : public ::System::MulticastDelegate
 	{
 	public:

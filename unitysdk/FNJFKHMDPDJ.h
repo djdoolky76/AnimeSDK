@@ -9,6 +9,8 @@ namespace System { class String; }
 #define FNJFKHMDPDJ_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CA71A10)
 #define FNJFKHMDPDJ_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CA71AB0)
 
+inline static constexpr unsigned int FNJFKHMDPDJ_TypeDefinitionIndex = 43500;
+
 	class FNJFKHMDPDJ : public ::System::Object
 	{
 	public:

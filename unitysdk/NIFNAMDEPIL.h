@@ -43,6 +43,8 @@ namespace System { class String; }
 #define NIFNAMDEPIL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB2D8B0)
 #define NIFNAMDEPIL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB2D910)
 
+inline static constexpr unsigned int NIFNAMDEPIL_TypeDefinitionIndex = 28920;
+
 	class NIFNAMDEPIL : public ::System::Object
 	{
 	public:

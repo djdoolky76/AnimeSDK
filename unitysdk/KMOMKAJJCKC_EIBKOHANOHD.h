@@ -22,6 +22,8 @@ namespace UnityEngine { class Animation; }
 #define KMOMKAJJCKC_EIBKOHANOHD_PDNIBGLPLHP_OFFSET UNITYSDK_OFFSET(0xB574000)
 #define KMOMKAJJCKC_EIBKOHANOHD_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xB5737B0)
 
+inline static constexpr unsigned int KMOMKAJJCKC_EIBKOHANOHD_TypeDefinitionIndex = 75932;
+
 	class KMOMKAJJCKC_EIBKOHANOHD : public ::System::Object
 	{
 	public:

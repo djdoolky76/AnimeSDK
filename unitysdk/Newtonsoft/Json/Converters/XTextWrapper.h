@@ -12,6 +12,8 @@ namespace System::Xml::Linq { class XText; }
 
 namespace Newtonsoft::Json::Converters
 {
+	inline static constexpr unsigned int XTextWrapper_TypeDefinitionIndex = 9838;
+
 	class XTextWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper
 	{
 	public:

@@ -12,6 +12,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Vec2_TypeDefinitionIndex = 36803;
+
 	struct alignas(4) B2Vec2
 	{
 		::System::Single X; // 0x10

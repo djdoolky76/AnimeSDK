@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define FCLEMGPEMJJ_CALHOBNPLPJ_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x156CD960)
 #define FCLEMGPEMJJ_CALHOBNPLPJ_INVOKE_OFFSET UNITYSDK_OFFSET(0x156CD640)
 
+inline static constexpr unsigned int FCLEMGPEMJJ_CALHOBNPLPJ_TypeDefinitionIndex = 79462;
+
 	class FCLEMGPEMJJ_CALHOBNPLPJ : public ::System::MulticastDelegate
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetModifierOverrideNameForStatus_TypeDefinitionIndex = 22634;
+
 	class SetModifierOverrideNameForStatus : public ::RPG::GameCore::TaskConfig
 	{
 	public:

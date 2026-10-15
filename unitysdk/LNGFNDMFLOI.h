@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define LNGFNDMFLOI_CTOR_OFFSET UNITYSDK_OFFSET(0xB7DD350)
 
+inline static constexpr unsigned int LNGFNDMFLOI_TypeDefinitionIndex = 52051;
+
 	class LNGFNDMFLOI : public ::System::Attribute
 	{
 	public:

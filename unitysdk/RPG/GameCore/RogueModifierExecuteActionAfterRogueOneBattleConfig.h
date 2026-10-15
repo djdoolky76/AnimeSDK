@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionAfterRogueOneBattleCon
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionAfterRogueOneBattleConfig_TypeDefinitionIndex = 17942;
+
 	class RogueModifierExecuteActionAfterRogueOneBattleConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightShowFullScreenCutInParam_TypeDefinitionIndex = 58142;
+
 	class GridFightShowFullScreenCutInParam : public ::System::Object
 	{
 	public:

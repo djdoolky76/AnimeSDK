@@ -9,6 +9,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2TaskContext_TypeDefinitionIndex = 36791;
+
 	class B2TaskContext : public ::System::Object
 	{
 	public:

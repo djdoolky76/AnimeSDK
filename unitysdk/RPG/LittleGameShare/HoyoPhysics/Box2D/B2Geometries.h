@@ -53,6 +53,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Geometries_TypeDefinitionIndex = 36681;
+
 	class B2Geometries : public ::System::Object
 	{
 	public:

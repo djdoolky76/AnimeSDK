@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MapSpaceTypeConfigRow_TypeDefinitionIndex = 14010;
+
 	class MapSpaceTypeConfigRow : public ::System::Object
 	{
 	public:

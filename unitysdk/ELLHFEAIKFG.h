@@ -33,6 +33,8 @@ namespace System { class String; }
 #define ELLHFEAIKFG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2D5D20)
 #define ELLHFEAIKFG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2D5D80)
 
+inline static constexpr unsigned int ELLHFEAIKFG_TypeDefinitionIndex = 25388;
+
 	class ELLHFEAIKFG : public ::System::Object
 	{
 	public:

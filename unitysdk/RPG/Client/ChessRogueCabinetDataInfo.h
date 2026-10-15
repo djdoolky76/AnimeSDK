@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChessRogueCabinetDataInfo_TypeDefinitionIndex = 66911;
+
 	class ChessRogueCabinetDataInfo : public ::System::Object
 	{
 	public:

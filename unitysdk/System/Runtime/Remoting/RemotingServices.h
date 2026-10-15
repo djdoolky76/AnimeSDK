@@ -73,6 +73,8 @@ namespace System::Runtime::Serialization::Formatters::Binary { class BinaryForma
 
 namespace System::Runtime::Remoting
 {
+	inline static constexpr unsigned int RemotingServices_TypeDefinitionIndex = 1218;
+
 	class RemotingServices : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 #define GPDBMOHFKDG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE76350)
 #define GPDBMOHFKDG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE760C0)
 
+inline static constexpr unsigned int GPDBMOHFKDG_TypeDefinitionIndex = 15136;
+
 	class GPDBMOHFKDG : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int AndInstruction_AndSByte_TypeDefinitionIndex = 3300;
+
 	class AndInstruction_AndSByte : public ::System::Linq::Expressions::Interpreter::AndInstruction
 	{
 	public:

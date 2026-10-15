@@ -11,6 +11,8 @@ namespace System { class Action; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int CancellationTokenAwaitable_Awaiter_TypeDefinitionIndex = 38137;
+
 	struct alignas(4) CancellationTokenAwaitable_Awaiter
 	{
 		::System::Threading::CancellationToken cancellationToken; // 0x10

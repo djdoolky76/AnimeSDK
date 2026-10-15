@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define PNPBCLAMINI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3150F0)
 #define PNPBCLAMINI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3150B0)
 
+inline static constexpr unsigned int PNPBCLAMINI_TypeDefinitionIndex = 21551;
+
 	class PNPBCLAMINI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

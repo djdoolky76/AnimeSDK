@@ -20,6 +20,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define LLFAMBLMLPC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB7692C0)
 #define LLFAMBLMLPC_TICK_OFFSET UNITYSDK_OFFSET(0xB768700)
 
+inline static constexpr unsigned int LLFAMBLMLPC_TypeDefinitionIndex = 52330;
+
 	class LLFAMBLMLPC : public ::GELIALJDFBL
 	{
 	public:

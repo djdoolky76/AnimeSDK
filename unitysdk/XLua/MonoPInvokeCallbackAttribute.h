@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int MonoPInvokeCallbackAttribute_TypeDefinitionIndex = 50245;
+
 	class MonoPInvokeCallbackAttribute : public ::System::Attribute
 	{
 	public:

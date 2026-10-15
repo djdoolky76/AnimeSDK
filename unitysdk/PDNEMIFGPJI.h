@@ -46,6 +46,8 @@ namespace RPG::GameCore { class AdvWaitingEventBase; }
 #define PDNEMIFGPJI_PLMPBNAEIGN_OFFSET UNITYSDK_OFFSET(0x1D2D17B0)
 #define PDNEMIFGPJI_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1D2D1970)
 
+inline static constexpr unsigned int PDNEMIFGPJI_TypeDefinitionIndex = 20687;
+
 	class PDNEMIFGPJI : public ::System::Object
 	{
 	public:

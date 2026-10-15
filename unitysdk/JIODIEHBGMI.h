@@ -32,6 +32,8 @@ namespace System { class String; }
 #define JIODIEHBGMI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E755070)
 #define JIODIEHBGMI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7550D0)
 
+inline static constexpr unsigned int JIODIEHBGMI_TypeDefinitionIndex = 32605;
+
 	class JIODIEHBGMI : public ::System::Object
 	{
 	public:

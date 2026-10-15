@@ -38,6 +38,8 @@ namespace System { class String; }
 #define PJFEPJKONAA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF77280)
 #define PJFEPJKONAA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF772E0)
 
+inline static constexpr unsigned int PJFEPJKONAA_TypeDefinitionIndex = 27080;
+
 	class PJFEPJKONAA : public ::System::Object
 	{
 	public:

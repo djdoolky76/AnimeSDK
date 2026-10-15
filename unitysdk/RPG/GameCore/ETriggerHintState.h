@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ETriggerHintState_TypeDefinitionIndex = 57386;
+
 	enum class ETriggerHintState : ::System::Byte
 	{
 		None = 0,

@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JPOOKMLLPFL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2CEF90)
 #define JPOOKMLLPFL_SETNEXTTASK_OFFSET UNITYSDK_OFFSET(0xB2CF180)
 
+inline static constexpr unsigned int JPOOKMLLPFL_TypeDefinitionIndex = 52706;
+
 	class JPOOKMLLPFL
 	{
 	public:

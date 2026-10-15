@@ -6,6 +6,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ConnectionInfo_TypeDefinitionIndex = 78521;
+
 	class ConnectionInfo : public ::System::Object
 	{
 	public:

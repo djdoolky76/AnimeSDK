@@ -34,6 +34,8 @@ namespace System { class String; }
 #define CPHCFHCEGOG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E13E530)
 #define CPHCFHCEGOG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E13E590)
 
+inline static constexpr unsigned int CPHCFHCEGOG_TypeDefinitionIndex = 28533;
+
 	class CPHCFHCEGOG : public ::System::Object
 	{
 	public:

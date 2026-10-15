@@ -30,6 +30,8 @@ namespace System { class String; }
 #define PACPOIAFPFF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEEB070)
 #define PACPOIAFPFF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEEB0D0)
 
+inline static constexpr unsigned int PACPOIAFPFF_TypeDefinitionIndex = 29762;
+
 	class PACPOIAFPFF : public ::System::Object
 	{
 	public:

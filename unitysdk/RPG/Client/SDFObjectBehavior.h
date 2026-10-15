@@ -32,6 +32,8 @@ namespace RPG::Client { class SDFObjectMonoPlugin; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SDFObjectBehavior_TypeDefinitionIndex = 70947;
+
 	class SDFObjectBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

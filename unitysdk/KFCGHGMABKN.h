@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KFCGHGMABKN_SET_ITEMIDS_OFFSET UNITYSDK_OFFSET(0xB38F300)
 #define KFCGHGMABKN_UPDATE_OFFSET UNITYSDK_OFFSET(0xB38F1A0)
 
+inline static constexpr unsigned int KFCGHGMABKN_TypeDefinitionIndex = 65006;
+
 	class KFCGHGMABKN : public ::RPG::Client::GridFightGameModifier
 	{
 	public:

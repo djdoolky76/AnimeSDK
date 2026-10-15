@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UIPageBGMRow_TypeDefinitionIndex = 15400;
+
 	class UIPageBGMRow : public ::System::Object
 	{
 	public:

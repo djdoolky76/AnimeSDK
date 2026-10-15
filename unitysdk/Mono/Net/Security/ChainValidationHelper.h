@@ -31,6 +31,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
 namespace Mono::Net::Security
 {
+	inline static constexpr unsigned int ChainValidationHelper_TypeDefinitionIndex = 2435;
+
 	class ChainValidationHelper : public ::System::Object
 	{
 	public:

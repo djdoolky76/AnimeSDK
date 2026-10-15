@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetClockBoyEmotion_TypeDefinitionIndex = 21894;
+
 	class SetClockBoyEmotion : public ::RPG::GameCore::TaskConfig
 	{
 	public:

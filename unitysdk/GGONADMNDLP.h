@@ -7,6 +7,8 @@ class GGONADMNDLP;
 #define GGONADMNDLP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE43B90)
 #define GGONADMNDLP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE43A50)
 
+inline static constexpr unsigned int GGONADMNDLP_TypeDefinitionIndex = 14762;
+
 	class GGONADMNDLP : public ::System::Object
 	{
 	public:

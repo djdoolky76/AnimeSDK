@@ -11,6 +11,8 @@ namespace System { class String; }
 #define COEKKNLDOCF_TOSTRING_OFFSET UNITYSDK_OFFSET(0xDCB34D0)
 #define COEKKNLDOCF_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xDCB3650)
 
+inline static constexpr unsigned int COEKKNLDOCF_TypeDefinitionIndex = 67019;
+
 	class COEKKNLDOCF : public ::System::Object
 	{
 	public:

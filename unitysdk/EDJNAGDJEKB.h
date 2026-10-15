@@ -51,6 +51,8 @@ namespace UnityEngine { class Transform; }
 #define EDJNAGDJEKB_PJHKGEOENAE_OFFSET UNITYSDK_OFFSET(0x13323B40)
 #define EDJNAGDJEKB_PJKKJBKNIBH_OFFSET UNITYSDK_OFFSET(0x13324F00)
 
+inline static constexpr unsigned int EDJNAGDJEKB_TypeDefinitionIndex = 57075;
+
 	class EDJNAGDJEKB : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

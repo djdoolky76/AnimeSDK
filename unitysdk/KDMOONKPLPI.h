@@ -29,6 +29,8 @@ namespace System { class String; }
 #define KDMOONKPLPI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E805750)
 #define KDMOONKPLPI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8057B0)
 
+inline static constexpr unsigned int KDMOONKPLPI_TypeDefinitionIndex = 28471;
+
 	class KDMOONKPLPI : public ::System::Object
 	{
 	public:

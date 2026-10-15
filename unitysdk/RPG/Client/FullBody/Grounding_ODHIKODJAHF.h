@@ -42,6 +42,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::FullBody
 {
+	inline static constexpr unsigned int Grounding_ODHIKODJAHF_TypeDefinitionIndex = 74244;
+
 	class Grounding_ODHIKODJAHF : public ::System::Object
 	{
 	public:

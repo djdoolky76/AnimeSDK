@@ -39,6 +39,8 @@ namespace System { class String; }
 #define AJNOEKPLPCL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3C6910)
 #define AJNOEKPLPCL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3C6970)
 
+inline static constexpr unsigned int AJNOEKPLPCL_TypeDefinitionIndex = 33450;
+
 	class AJNOEKPLPCL : public ::System::Object
 	{
 	public:

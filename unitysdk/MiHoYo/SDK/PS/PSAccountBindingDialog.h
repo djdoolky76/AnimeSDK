@@ -40,6 +40,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace MiHoYo::SDK::PS
 {
+	inline static constexpr unsigned int PSAccountBindingDialog_TypeDefinitionIndex = 8931;
+
 	class PSAccountBindingDialog : public ::MiHoYo::SDK::PS::PSDialogBase
 	{
 	public:

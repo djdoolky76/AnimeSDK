@@ -10,6 +10,8 @@ namespace RPG::GameCore { class IdleLiveTaskRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveTaskRow_TypeDefinitionIndex = 11726;
+
 	class IdleLiveTaskRow : public ::System::Object
 	{
 	public:

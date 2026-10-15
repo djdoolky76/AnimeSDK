@@ -5,6 +5,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AstraFXResource_TextureInfo_TypeDefinitionIndex = 4090;
+
 	struct alignas(4) AstraFXResource_TextureInfo
 	{
 		::UnityEngine::Rendering::TextureDimension dim; // 0x10

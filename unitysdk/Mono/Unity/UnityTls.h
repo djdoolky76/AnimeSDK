@@ -9,6 +9,8 @@ namespace Mono::Unity { class UnityTls_unitytls_interface_struct; }
 
 namespace Mono::Unity
 {
+	inline static constexpr unsigned int UnityTls_TypeDefinitionIndex = 2349;
+
 	class UnityTls : public ::System::Object
 	{
 	public:

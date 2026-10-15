@@ -32,6 +32,8 @@ namespace System { class String; }
 #define NOLLHKIMDOC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB8E2F0)
 #define NOLLHKIMDOC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB8E350)
 
+inline static constexpr unsigned int NOLLHKIMDOC_TypeDefinitionIndex = 31783;
+
 	class NOLLHKIMDOC : public ::System::Object
 	{
 	public:

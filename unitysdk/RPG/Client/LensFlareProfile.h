@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LensFlareProfile_TypeDefinitionIndex = 70168;
+
 	class LensFlareProfile : public ::UnityEngine::ScriptableObject
 	{
 	public:

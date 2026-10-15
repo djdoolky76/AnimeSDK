@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TeamBoostCheck; }
 #define DKODGNPOGNC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF88C500)
 #define DKODGNPOGNC_TICK_OFFSET UNITYSDK_OFFSET(0xF88C550)
 
+inline static constexpr unsigned int DKODGNPOGNC_TypeDefinitionIndex = 58764;
+
 	class DKODGNPOGNC : public ::GELIALJDFBL
 	{
 	public:

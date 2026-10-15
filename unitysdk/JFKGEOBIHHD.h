@@ -42,6 +42,8 @@ namespace System { class String; }
 #define JFKGEOBIHHD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E72F160)
 #define JFKGEOBIHHD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E72F1C0)
 
+inline static constexpr unsigned int JFKGEOBIHHD_TypeDefinitionIndex = 27353;
+
 	class JFKGEOBIHHD : public ::System::Object
 	{
 	public:

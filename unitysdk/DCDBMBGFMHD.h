@@ -141,6 +141,8 @@ namespace RPG::GameCore { class MiParameterConfigBase; }
 #define DCDBMBGFMHD_PMCGMLLCBLF_OFFSET UNITYSDK_OFFSET(0x1DCD3E20)
 #define DCDBMBGFMHD_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1DCD3420)
 
+inline static constexpr unsigned int DCDBMBGFMHD_TypeDefinitionIndex = 19077;
+
 	class DCDBMBGFMHD : public ::System::Object
 	{
 	public:

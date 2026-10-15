@@ -11,6 +11,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharaEyeBlinkStateVoiceLoudness_TypeDefinitionIndex = 68377;
+
 	class CharaEyeBlinkStateVoiceLoudness : public ::System::Object
 	{
 	public:

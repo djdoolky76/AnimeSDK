@@ -137,6 +137,8 @@ namespace System { class Type; }
 
 namespace System
 {
+	inline static constexpr unsigned int Decimal_TypeDefinitionIndex = 228;
+
 	struct alignas(4) Decimal
 	{
 		::System::Int32 flags; // 0x10

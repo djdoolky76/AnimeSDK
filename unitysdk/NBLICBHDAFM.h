@@ -11,6 +11,8 @@ namespace System { class String; }
 #define NBLICBHDAFM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1F0910)
 #define NBLICBHDAFM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1F08D0)
 
+inline static constexpr unsigned int NBLICBHDAFM_TypeDefinitionIndex = 19910;
+
 	class NBLICBHDAFM : public ::RPG::GameCore::TaskConfig
 	{
 	public:

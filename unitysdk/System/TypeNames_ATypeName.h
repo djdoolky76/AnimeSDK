@@ -11,6 +11,8 @@ namespace System { class TypeName; }
 
 namespace System
 {
+	inline static constexpr unsigned int TypeNames_ATypeName_TypeDefinitionIndex = 441;
+
 	class TypeNames_ATypeName : public ::System::Object
 	{
 	public:

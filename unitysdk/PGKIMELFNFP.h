@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TriggerUINotifyWithTarget; }
 #define PGKIMELFNFP_CTOR_OFFSET UNITYSDK_OFFSET(0xC223EC0)
 #define PGKIMELFNFP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC223EF0)
 
+inline static constexpr unsigned int PGKIMELFNFP_TypeDefinitionIndex = 56479;
+
 	class PGKIMELFNFP
 	{
 	public:

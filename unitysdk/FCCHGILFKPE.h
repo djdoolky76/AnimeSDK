@@ -18,6 +18,8 @@ namespace System { class String; }
 #define FCCHGILFKPE_SET_ACTIVECASE_OFFSET UNITYSDK_OFFSET(0x156B0960)
 #define FCCHGILFKPE_SET_ACTIVERESULT_OFFSET UNITYSDK_OFFSET(0x156B0980)
 
+inline static constexpr unsigned int FCCHGILFKPE_TypeDefinitionIndex = 73770;
+
 	class FCCHGILFKPE : public ::System::Object
 	{
 	public:

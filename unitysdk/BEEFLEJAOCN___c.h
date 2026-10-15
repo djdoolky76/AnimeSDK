@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BEEFLEJAOCN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA61110)
 #define BEEFLEJAOCN___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1EA61120)
 
+inline static constexpr unsigned int BEEFLEJAOCN___c_TypeDefinitionIndex = 29238;
+
 	class BEEFLEJAOCN___c : public ::System::Object
 	{
 	public:

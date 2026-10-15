@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ShaderIDNameAttribute_TypeDefinitionIndex = 4385;
+
 	class ShaderIDNameAttribute : public ::System::Attribute
 	{
 	public:

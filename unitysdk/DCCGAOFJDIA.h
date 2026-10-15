@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DCCGAOFJDIA_KBOAICJNMHG_OFFSET UNITYSDK_OFFSET(0xE23FD40)
 #define DCCGAOFJDIA_MFCFABPGFGB_OFFSET UNITYSDK_OFFSET(0xE23DA50)
 
+inline static constexpr unsigned int DCCGAOFJDIA_TypeDefinitionIndex = 49590;
+
 	class DCCGAOFJDIA : public ::System::Object
 	{
 	public:

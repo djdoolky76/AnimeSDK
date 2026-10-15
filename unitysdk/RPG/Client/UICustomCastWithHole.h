@@ -11,6 +11,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UICustomCastWithHole_TypeDefinitionIndex = 69083;
+
 	class UICustomCastWithHole : public ::UnityEngine::MonoBehaviour
 	{
 	public:

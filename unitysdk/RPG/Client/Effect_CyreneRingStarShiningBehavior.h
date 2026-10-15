@@ -19,6 +19,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_CyreneRingStarShiningBehavior_TypeDefinitionIndex = 70439;
+
 	class Effect_CyreneRingStarShiningBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

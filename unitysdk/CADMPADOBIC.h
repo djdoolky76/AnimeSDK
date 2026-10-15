@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CADMPADOBIC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC1BE2A0)
 #define CADMPADOBIC_TICK_OFFSET UNITYSDK_OFFSET(0xC1BE2F0)
 
+inline static constexpr unsigned int CADMPADOBIC_TypeDefinitionIndex = 52800;
+
 	class CADMPADOBIC : public ::GELIALJDFBL
 	{
 	public:

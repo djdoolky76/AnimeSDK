@@ -11,6 +11,8 @@ class MLNIAHKIEJH;
 #define GBDFBAFGGJD_AGNHJBPONJM_OFFSET UNITYSDK_OFFSET(0x1594B280)
 #define GBDFBAFGGJD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1594B420)
 
+inline static constexpr unsigned int GBDFBAFGGJD_TypeDefinitionIndex = 68987;
+
 	class GBDFBAFGGJD : public ::System::Object
 	{
 	public:

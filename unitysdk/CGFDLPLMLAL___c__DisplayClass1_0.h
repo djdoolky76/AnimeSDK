@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define CGFDLPLMLAL___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCC882E0)
 #define CGFDLPLMLAL___C__DISPLAYCLASS1_0___SELECTTARGET_B__0_OFFSET UNITYSDK_OFFSET(0xCC88300)
 
+inline static constexpr unsigned int CGFDLPLMLAL___c__DisplayClass1_0_TypeDefinitionIndex = 77522;
+
 	class CGFDLPLMLAL___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

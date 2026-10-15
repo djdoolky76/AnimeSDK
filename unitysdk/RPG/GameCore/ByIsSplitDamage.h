@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsSplitDamage_TypeDefinitionIndex = 23008;
+
 	class ByIsSplitDamage : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

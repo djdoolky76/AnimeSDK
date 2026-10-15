@@ -10,6 +10,8 @@ namespace System::Numerics { class Vector; }
 
 namespace System::Numerics
 {
+	inline static constexpr unsigned int Vector_TypeDefinitionIndex = 3863;
+
 	class Vector : public ::System::Object
 	{
 	public:

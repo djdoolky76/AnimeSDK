@@ -17,6 +17,8 @@ namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftTalentPointPhaseControl_TypeDefinitionIndex = 80060;
+
 	class MechCraftTalentPointPhaseControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

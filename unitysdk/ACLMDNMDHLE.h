@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define ACLMDNMDHLE_HMPDCLHIPHI_OFFSET UNITYSDK_OFFSET(0xB1245A0)
 #define ACLMDNMDHLE_KMJNGGGPJPF_OFFSET UNITYSDK_OFFSET(0xB124190)
 
+inline static constexpr unsigned int ACLMDNMDHLE_TypeDefinitionIndex = 56089;
+
 	class ACLMDNMDHLE : public ::System::Object
 	{
 	public:

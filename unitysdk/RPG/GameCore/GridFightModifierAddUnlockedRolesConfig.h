@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierAddUnlockedRolesConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierAddUnlockedRolesConfig_TypeDefinitionIndex = 19455;
+
 	class GridFightModifierAddUnlockedRolesConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

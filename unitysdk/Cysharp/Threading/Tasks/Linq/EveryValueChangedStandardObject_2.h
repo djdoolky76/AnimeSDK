@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int EveryValueChangedStandardObject_2_TypeDefinitionIndex = 45718;
+
 	template <typename T1, typename T2>
 	class EveryValueChangedStandardObject_2 : public ::System::Object
 	{

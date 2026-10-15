@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityPlayerReturnGachaRecommendData_TypeDefinitionIndex = 61878;
+
 	class ActivityPlayerReturnGachaRecommendData : public ::RPG::Client::ActivityPlayerReturnRecommendData
 	{
 	public:

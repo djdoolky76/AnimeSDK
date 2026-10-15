@@ -4,6 +4,8 @@
 
 #define EOKPMOBCPAC_CTOR_OFFSET UNITYSDK_OFFSET(0x155C4AA0)
 
+inline static constexpr unsigned int EOKPMOBCPAC_TypeDefinitionIndex = 81272;
+
 	class EOKPMOBCPAC : public ::System::Object
 	{
 	public:

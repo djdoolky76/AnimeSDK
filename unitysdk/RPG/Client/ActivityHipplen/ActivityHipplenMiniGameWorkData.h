@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenMiniGameWorkData_TypeDefinitionIndex = 75612;
+
 	class ActivityHipplenMiniGameWorkData : public ::RPG::Client::ActivityHipplen::ActivityHipplenWorkData
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MemberToMemberEntityDataConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MemberToMemberEntityDataAdapter_TypeDefinitionIndex = 20743;
+
 	class MemberToMemberEntityDataAdapter : public ::RPG::GameCore::TaskConfig
 	{
 	public:

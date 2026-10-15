@@ -4,6 +4,8 @@
 
 #define BHNGBMGOPIA_CTOR_OFFSET UNITYSDK_OFFSET(0xB48F250)
 
+inline static constexpr unsigned int BHNGBMGOPIA_TypeDefinitionIndex = 72629;
+
 	class BHNGBMGOPIA : public ::System::Object
 	{
 	public:

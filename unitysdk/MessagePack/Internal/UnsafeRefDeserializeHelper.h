@@ -6,6 +6,8 @@
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int UnsafeRefDeserializeHelper_TypeDefinitionIndex = 7306;
+
 	class UnsafeRefDeserializeHelper : public ::System::Object
 	{
 	public:

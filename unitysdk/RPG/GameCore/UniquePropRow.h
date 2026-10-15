@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UniquePropRow_TypeDefinitionIndex = 13109;
+
 	class UniquePropRow : public ::System::Object
 	{
 	public:

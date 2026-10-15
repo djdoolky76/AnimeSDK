@@ -6,6 +6,8 @@ class HLJMAECEONM;
 #define OKGHHACDGOF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C9952C0)
 #define OKGHHACDGOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C995340)
 
+inline static constexpr unsigned int OKGHHACDGOF_TypeDefinitionIndex = 43290;
+
 	class OKGHHACDGOF : public ::System::Object
 	{
 	public:

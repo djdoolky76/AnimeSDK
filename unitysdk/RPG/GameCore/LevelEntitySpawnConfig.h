@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelEntitySpawnConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEntitySpawnConfig_TypeDefinitionIndex = 17247;
+
 	class LevelEntitySpawnConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

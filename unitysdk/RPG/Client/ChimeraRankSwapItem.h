@@ -17,6 +17,8 @@ namespace UnityEngine::UI { class Slider; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraRankSwapItem_TypeDefinitionIndex = 72481;
+
 	class ChimeraRankSwapItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

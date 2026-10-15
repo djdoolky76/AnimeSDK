@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::QA::Automata
 {
+	inline static constexpr unsigned int UAutoDebug_TypeDefinitionIndex = 51822;
+
 	class UAutoDebug : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MissionResConfigList; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MissionResConfigList_TypeDefinitionIndex = 19028;
+
 	class MissionResConfigList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

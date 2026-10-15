@@ -6,6 +6,8 @@ namespace RPG::Client { class AvatarVoiceArchiveEntry; }
 #define LJLBLAEMGOA_ABLAOIBJEMM___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB71E8B0)
 #define LJLBLAEMGOA_ABLAOIBJEMM___C__DISPLAYCLASS2_0___TRYFINDUNLOCKEDVOICEARCHIVEENTRY_B__0_OFFSET UNITYSDK_OFFSET(0xB71E910)
 
+inline static constexpr unsigned int LJLBLAEMGOA_ABLAOIBJEMM___c__DisplayClass2_0_TypeDefinitionIndex = 68114;
+
 	class LJLBLAEMGOA_ABLAOIBJEMM___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class CacheLinked
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int CacheLinkedList_1_JNMCPLGKILH_TypeDefinitionIndex = 6309;
+
 	template <typename T>
 	class CacheLinkedList_1_JNMCPLGKILH : public ::System::Object
 	{

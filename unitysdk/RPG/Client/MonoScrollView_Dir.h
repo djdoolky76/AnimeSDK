@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoScrollView_Dir_TypeDefinitionIndex = 72605;
+
 	enum class MonoScrollView_Dir : ::System::Int32
 	{
 		Horizontal = 0,

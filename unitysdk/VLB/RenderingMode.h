@@ -3,6 +3,8 @@
 
 namespace VLB
 {
+	inline static constexpr unsigned int RenderingMode_TypeDefinitionIndex = 48991;
+
 	enum class RenderingMode : ::System::Int32
 	{
 		MultiPass = 0,

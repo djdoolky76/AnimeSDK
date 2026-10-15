@@ -11,6 +11,8 @@ namespace System { class String; }
 
 #define CHMCAGBDPJH_CCTOR_OFFSET UNITYSDK_OFFSET(0xCF5FA70)
 
+inline static constexpr unsigned int CHMCAGBDPJH_TypeDefinitionIndex = 57728;
+
 	struct alignas(8) CHMCAGBDPJH
 	{
 		::System::Boolean OLEAPFHOLBJ; // 0x10

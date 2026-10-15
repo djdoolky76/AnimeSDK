@@ -32,6 +32,8 @@ namespace UnityEngine { class Transform; }
 #define FOLJNGNIAGJ_PDJONCINMGO_OFFSET UNITYSDK_OFFSET(0x158F9AC0)
 #define FOLJNGNIAGJ_PLFFNHPACJP_OFFSET UNITYSDK_OFFSET(0x158F94E0)
 
+inline static constexpr unsigned int FOLJNGNIAGJ_TypeDefinitionIndex = 81931;
+
 	class FOLJNGNIAGJ : public ::System::Object
 	{
 	public:

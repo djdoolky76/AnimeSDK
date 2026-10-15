@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace System
 {
+	inline static constexpr unsigned int ParameterizedStrings_LowLevelStack_TypeDefinitionIndex = 429;
+
 	class ParameterizedStrings_LowLevelStack : public ::System::Object
 	{
 	public:

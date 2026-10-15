@@ -16,6 +16,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace SRF::UI
 {
+	inline static constexpr unsigned int SRSpinner_TypeDefinitionIndex = 35393;
+
 	class SRSpinner : public ::UnityEngine::UI::Selectable
 	{
 	public:

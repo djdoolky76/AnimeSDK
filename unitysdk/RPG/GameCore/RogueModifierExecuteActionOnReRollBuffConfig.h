@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionOnReRollBuffConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionOnReRollBuffConfig_TypeDefinitionIndex = 17948;
+
 	class RogueModifierExecuteActionOnReRollBuffConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

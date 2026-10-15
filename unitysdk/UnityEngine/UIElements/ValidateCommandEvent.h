@@ -5,6 +5,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int ValidateCommandEvent_TypeDefinitionIndex = 5919;
+
 	class ValidateCommandEvent
 	{
 	public:

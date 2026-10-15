@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int QuestFinishType_TypeDefinitionIndex = 10423;
+
 	enum class QuestFinishType : ::System::Int32
 	{
 		Unknown = 0,

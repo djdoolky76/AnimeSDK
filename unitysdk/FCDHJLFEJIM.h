@@ -6,6 +6,8 @@
 #define FCDHJLFEJIM_CTOR_OFFSET UNITYSDK_OFFSET(0x156B4480)
 #define FCDHJLFEJIM_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0x156B4470)
 
+inline static constexpr unsigned int FCDHJLFEJIM_TypeDefinitionIndex = 77007;
+
 	class FCDHJLFEJIM : public ::JLDBEPNADNN
 	{
 	public:

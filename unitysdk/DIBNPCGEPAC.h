@@ -70,6 +70,8 @@ namespace System::Net { class EndPoint; }
 #define DIBNPCGEPAC_SET_ISAUTHORIZED_OFFSET UNITYSDK_OFFSET(0x1DDA8810)
 #define DIBNPCGEPAC_SET_WRITEDELAY_OFFSET UNITYSDK_OFFSET(0x1DDA8830)
 
+inline static constexpr unsigned int DIBNPCGEPAC_TypeDefinitionIndex = 43940;
+
 	class DIBNPCGEPAC : public ::System::Object
 	{
 	public:

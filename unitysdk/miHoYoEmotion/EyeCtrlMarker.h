@@ -7,6 +7,8 @@
 
 namespace miHoYoEmotion
 {
+	inline static constexpr unsigned int EyeCtrlMarker_TypeDefinitionIndex = 45965;
+
 	class EyeCtrlMarker : public ::miHoYoEmotion::BaseMarker
 	{
 	public:

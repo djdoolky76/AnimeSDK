@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JGBPIBNACKP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E737970)
 #define JGBPIBNACKP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E737980)
 
+inline static constexpr unsigned int JGBPIBNACKP___c_TypeDefinitionIndex = 34914;
+
 	class JGBPIBNACKP___c : public ::System::Object
 	{
 	public:

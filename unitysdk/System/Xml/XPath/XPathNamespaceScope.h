@@ -3,6 +3,8 @@
 
 namespace System::Xml::XPath
 {
+	inline static constexpr unsigned int XPathNamespaceScope_TypeDefinitionIndex = 1975;
+
 	enum class XPathNamespaceScope : ::System::Int32
 	{
 		All = 0,

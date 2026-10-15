@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 #define HBMDGCFBING___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15C10250)
 #define HBMDGCFBING___C__DISPLAYCLASS5_0__LOADASSETASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x15C10A70)
 
+inline static constexpr unsigned int HBMDGCFBING___c__DisplayClass5_0_TypeDefinitionIndex = 76495;
+
 	class HBMDGCFBING___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

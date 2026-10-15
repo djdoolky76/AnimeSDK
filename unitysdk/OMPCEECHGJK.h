@@ -28,6 +28,8 @@ namespace RPG::Client { class PingPongModule_PingPongAddPointResultInfo; }
 #define OMPCEECHGJK_PDMCBFDEBMA_OFFSET UNITYSDK_OFFSET(0xBF48010)
 #define OMPCEECHGJK_PIOPGKOHBHC_OFFSET UNITYSDK_OFFSET(0xBF47D10)
 
+inline static constexpr unsigned int OMPCEECHGJK_TypeDefinitionIndex = 76652;
+
 	class OMPCEECHGJK
 	{
 	public:

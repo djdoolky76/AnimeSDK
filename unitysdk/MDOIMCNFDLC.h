@@ -27,6 +27,8 @@ namespace System { class String; }
 #define MDOIMCNFDLC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA06E00)
 #define MDOIMCNFDLC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA06E60)
 
+inline static constexpr unsigned int MDOIMCNFDLC_TypeDefinitionIndex = 34790;
+
 	class MDOIMCNFDLC : public ::System::Object
 	{
 	public:

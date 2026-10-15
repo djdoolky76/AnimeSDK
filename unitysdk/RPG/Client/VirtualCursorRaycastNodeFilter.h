@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VirtualCursorRaycastNodeFilter_TypeDefinitionIndex = 73242;
+
 	class VirtualCursorRaycastNodeFilter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

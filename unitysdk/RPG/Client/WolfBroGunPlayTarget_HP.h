@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayTarget_HP_TypeDefinitionIndex = 68729;
+
 	class WolfBroGunPlayTarget_HP : public ::RPG::Client::WolfBroGunPlayTarget
 	{
 	public:

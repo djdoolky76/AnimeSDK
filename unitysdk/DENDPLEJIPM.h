@@ -42,6 +42,8 @@ namespace UnityEngine { class Texture2D; }
 #define DENDPLEJIPM_PNBJPMENAIH_OFFSET UNITYSDK_OFFSET(0xE51EC10)
 #define DENDPLEJIPM_PPEFHHCAEDB_OFFSET UNITYSDK_OFFSET(0xE51C780)
 
+inline static constexpr unsigned int DENDPLEJIPM_TypeDefinitionIndex = 69512;
+
 	class DENDPLEJIPM : public ::System::Object
 	{
 	public:

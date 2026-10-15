@@ -6,6 +6,8 @@ namespace RPG::GameCore { class FiveDimSwitchPlatformConfig; }
 
 #define OFIPFBKKBPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C98CD90)
 
+inline static constexpr unsigned int OFIPFBKKBPL_TypeDefinitionIndex = 43467;
+
 	class OFIPFBKKBPL : public ::System::Object
 	{
 	public:

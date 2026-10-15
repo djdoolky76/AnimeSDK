@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define FDJMPBMFFOK_CONVERT_OFFSET UNITYSDK_OFFSET(0x1CC92970)
 #define FDJMPBMFFOK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC92BC0)
 
+inline static constexpr unsigned int FDJMPBMFFOK_TypeDefinitionIndex = 43895;
+
 	class FDJMPBMFFOK : public ::System::Object
 	{
 	public:

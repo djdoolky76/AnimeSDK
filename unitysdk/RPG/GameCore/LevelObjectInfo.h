@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelObjectInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelObjectInfo_TypeDefinitionIndex = 17240;
+
 	class LevelObjectInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

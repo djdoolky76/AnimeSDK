@@ -34,6 +34,8 @@ namespace System { class String; }
 #define AIIAOELLFAP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E27C470)
 #define AIIAOELLFAP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E27C4D0)
 
+inline static constexpr unsigned int AIIAOELLFAP_TypeDefinitionIndex = 27953;
+
 	class AIIAOELLFAP : public ::System::Object
 	{
 	public:

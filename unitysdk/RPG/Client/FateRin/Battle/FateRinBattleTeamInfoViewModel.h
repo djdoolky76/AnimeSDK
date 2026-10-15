@@ -32,6 +32,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleTeamInfoViewModel_TypeDefinitionIndex = 80977;
+
 	class FateRinBattleTeamInfoViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

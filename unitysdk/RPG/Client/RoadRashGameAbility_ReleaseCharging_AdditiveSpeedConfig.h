@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoadRashGameAbility_ReleaseCharging_AdditiveSpeedConfig_TypeDefinitionIndex = 10285;
+
 	class RoadRashGameAbility_ReleaseCharging_AdditiveSpeedConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

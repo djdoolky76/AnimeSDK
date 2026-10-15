@@ -32,6 +32,8 @@ namespace System { class String; }
 #define CNNHNLACLCC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E10C980)
 #define CNNHNLACLCC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E10C9E0)
 
+inline static constexpr unsigned int CNNHNLACLCC_TypeDefinitionIndex = 31892;
+
 	class CNNHNLACLCC : public ::System::Object
 	{
 	public:

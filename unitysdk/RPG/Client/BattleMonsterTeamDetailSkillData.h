@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleMonsterTeamDetailSkillData_TypeDefinitionIndex = 72036;
+
 	class BattleMonsterTeamDetailSkillData : public ::System::Object
 	{
 	public:

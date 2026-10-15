@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HEJOBJLPCNL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15C575F0)
 #define HEJOBJLPCNL_TICK_OFFSET UNITYSDK_OFFSET(0x15C57640)
 
+inline static constexpr unsigned int HEJOBJLPCNL_TypeDefinitionIndex = 52165;
+
 	class HEJOBJLPCNL
 	{
 	public:

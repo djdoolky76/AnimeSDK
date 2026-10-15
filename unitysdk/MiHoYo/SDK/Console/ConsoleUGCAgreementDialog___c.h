@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int ConsoleUGCAgreementDialog___c_TypeDefinitionIndex = 8962;
+
 	class ConsoleUGCAgreementDialog___c : public ::System::Object
 	{
 	public:

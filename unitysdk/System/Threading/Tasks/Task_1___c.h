@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int Task_1___c_TypeDefinitionIndex = 890;
+
 	template <typename T>
 	class Task_1___c : public ::System::Object
 	{

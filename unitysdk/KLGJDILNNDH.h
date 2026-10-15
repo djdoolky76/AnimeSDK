@@ -51,6 +51,8 @@ namespace System { class String; }
 #define KLGJDILNNDH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E88AEE0)
 #define KLGJDILNNDH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E88AF40)
 
+inline static constexpr unsigned int KLGJDILNNDH_TypeDefinitionIndex = 28774;
+
 	class KLGJDILNNDH : public ::System::Object
 	{
 	public:

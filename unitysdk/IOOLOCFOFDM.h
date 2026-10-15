@@ -13,6 +13,8 @@ namespace System { class String; }
 #define IOOLOCFOFDM_LKEFCMNJDJI_OFFSET UNITYSDK_OFFSET(0x1C531AA0)
 #define IOOLOCFOFDM_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x1C536DF0)
 
+inline static constexpr unsigned int IOOLOCFOFDM_TypeDefinitionIndex = 41619;
+
 	class IOOLOCFOFDM : public ::EFIDOJDHNGJ
 	{
 	public:

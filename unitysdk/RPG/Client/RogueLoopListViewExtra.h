@@ -31,6 +31,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueLoopListViewExtra_TypeDefinitionIndex = 72875;
+
 	class RogueLoopListViewExtra : public ::UnityEngine::MonoBehaviour
 	{
 	public:

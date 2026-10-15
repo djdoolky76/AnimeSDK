@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NGMAPGPNCAF_CTOR_OFFSET UNITYSDK_OFFSET(0xBBAF460)
 #define NGMAPGPNCAF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBAF490)
 
+inline static constexpr unsigned int NGMAPGPNCAF_TypeDefinitionIndex = 52503;
+
 	class NGMAPGPNCAF
 	{
 	public:

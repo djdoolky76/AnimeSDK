@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int AsyncStateMachineAttribute_TypeDefinitionIndex = 1358;
+
 	class AsyncStateMachineAttribute : public ::System::Runtime::CompilerServices::StateMachineAttribute
 	{
 	public:

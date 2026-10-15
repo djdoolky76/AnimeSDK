@@ -5,6 +5,8 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
+inline static constexpr unsigned int NCJELKLNHMF___c__3_1_TypeDefinitionIndex = 76493;
+
 	template <typename T>
 	class NCJELKLNHMF___c__3_1 : public ::System::Object
 	{

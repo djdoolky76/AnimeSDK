@@ -6,6 +6,8 @@
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int FlagsFieldAttribute_TypeDefinitionIndex = 39329;
+
 	class FlagsFieldAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:

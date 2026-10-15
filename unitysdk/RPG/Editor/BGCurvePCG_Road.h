@@ -30,6 +30,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int BGCurvePCG_Road_TypeDefinitionIndex = 52016;
+
 	class BGCurvePCG_Road : public ::UnityEngine::MonoBehaviour
 	{
 	public:

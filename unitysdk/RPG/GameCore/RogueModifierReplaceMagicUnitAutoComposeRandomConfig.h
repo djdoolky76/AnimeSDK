@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierReplaceMagicUnitAutoComposeRandomCo
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierReplaceMagicUnitAutoComposeRandomConfig_TypeDefinitionIndex = 17734;
+
 	class RogueModifierReplaceMagicUnitAutoComposeRandomConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

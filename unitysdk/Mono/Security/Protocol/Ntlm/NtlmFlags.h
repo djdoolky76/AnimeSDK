@@ -3,6 +3,8 @@
 
 namespace Mono::Security::Protocol::Ntlm
 {
+	inline static constexpr unsigned int NtlmFlags_TypeDefinitionIndex = 2276;
+
 	enum class NtlmFlags : ::System::Int32
 	{
 		NegotiateUnicode = 1,

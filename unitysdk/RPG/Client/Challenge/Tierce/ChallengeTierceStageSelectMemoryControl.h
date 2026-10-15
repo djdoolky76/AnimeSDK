@@ -40,6 +40,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceStageSelectMemoryControl_TypeDefinitionIndex = 81551;
+
 	class ChallengeTierceStageSelectMemoryControl : public ::RPG::Client::Challenge::Tierce::ChallengeTierceStageSelectControlBase
 	{
 	public:

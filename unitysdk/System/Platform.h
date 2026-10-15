@@ -9,6 +9,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int Platform_TypeDefinitionIndex = 2491;
+
 	class Platform : public ::System::Object
 	{
 	public:

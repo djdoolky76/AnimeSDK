@@ -14,6 +14,8 @@ namespace System { class String; }
 #define LDNFONFKMFJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0E3020)
 #define LDNFONFKMFJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0E2FE0)
 
+inline static constexpr unsigned int LDNFONFKMFJ_TypeDefinitionIndex = 22445;
+
 	class LDNFONFKMFJ : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

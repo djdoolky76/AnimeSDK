@@ -14,6 +14,8 @@ namespace UnityEngine { class ControllerColliderHit; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncControllerColliderHitTrigger_TypeDefinitionIndex = 38541;
+
 	class AsyncControllerColliderHitTrigger
 	{
 	public:

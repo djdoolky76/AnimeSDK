@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleTeamBlockDetailPresenter_TypeDefinitionIndex = 71181;
+
 	class BattleTeamBlockDetailPresenter : public ::System::Object
 	{
 	public:

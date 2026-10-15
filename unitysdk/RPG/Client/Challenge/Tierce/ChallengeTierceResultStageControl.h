@@ -19,6 +19,8 @@ namespace UnityEngine { class Animation; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceResultStageControl_TypeDefinitionIndex = 81539;
+
 	class ChallengeTierceResultStageControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

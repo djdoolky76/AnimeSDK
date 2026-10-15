@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayLimaoNewsOptionTalk_TypeDefinitionIndex = 10241;
+
 	class PlayLimaoNewsOptionTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

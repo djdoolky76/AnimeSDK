@@ -4,6 +4,8 @@ namespace System { class String; }
 
 #define OKMPLBFHKED_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C27DC0)
 
+inline static constexpr unsigned int OKMPLBFHKED_TypeDefinitionIndex = 41471;
+
 	struct alignas(4) OKMPLBFHKED
 	{
 		::System::Int32 MFNIHGPPHNJ; // 0x10

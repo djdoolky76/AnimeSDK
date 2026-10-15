@@ -12,6 +12,8 @@ namespace RPG::Client { class RogueTournPersonaRoomAttributeData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaLegendAttributeRow_TypeDefinitionIndex = 72906;
+
 	class RogueTournPersonaLegendAttributeRow : public ::System::Object
 	{
 	public:

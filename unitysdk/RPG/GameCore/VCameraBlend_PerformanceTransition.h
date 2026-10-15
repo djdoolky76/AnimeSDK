@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VCameraBlend_PerformanceTransition_TypeDefinitionIndex = 16420;
+
 	class VCameraBlend_PerformanceTransition : public ::RPG::GameCore::JsonConfig
 	{
 	public:

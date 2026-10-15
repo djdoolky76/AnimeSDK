@@ -33,6 +33,8 @@ namespace System { class String; }
 #define DNNNCIPMPKH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1FA270)
 #define DNNNCIPMPKH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1FA2D0)
 
+inline static constexpr unsigned int DNNNCIPMPKH_TypeDefinitionIndex = 28463;
+
 	class DNNNCIPMPKH : public ::System::Object
 	{
 	public:

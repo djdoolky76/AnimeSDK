@@ -14,6 +14,8 @@ namespace RPG::GameCore { class GridFightPresentConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightPresentConfig_TypeDefinitionIndex = 64449;
+
 	class GridFightPresentConfig : public ::System::Object
 	{
 	public:

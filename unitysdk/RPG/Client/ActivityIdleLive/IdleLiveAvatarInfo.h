@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveAvatarInfo_TypeDefinitionIndex = 75077;
+
 	class IdleLiveAvatarInfo : public ::System::Object
 	{
 	public:

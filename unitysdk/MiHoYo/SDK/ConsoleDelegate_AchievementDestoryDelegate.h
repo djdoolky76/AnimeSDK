@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_AchievementDestoryDelegate_TypeDefinitionIndex = 7639;
+
 	class ConsoleDelegate_AchievementDestoryDelegate : public ::System::MulticastDelegate
 	{
 	public:

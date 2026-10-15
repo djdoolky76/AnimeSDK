@@ -30,6 +30,8 @@ namespace System { class String; }
 #define FNDNOHGCGIE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3EDD30)
 #define FNDNOHGCGIE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3EDD90)
 
+inline static constexpr unsigned int FNDNOHGCGIE_TypeDefinitionIndex = 30362;
+
 	class FNDNOHGCGIE : public ::System::Object
 	{
 	public:

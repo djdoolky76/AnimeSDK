@@ -11,6 +11,8 @@ class IDEJGLMNJAC;
 #define BMFBJNAJGIJ_ILLFHEIFKNA_OFFSET UNITYSDK_OFFSET(0xBDA3B70)
 #define BMFBJNAJGIJ_ILOHHJDPDBE_OFFSET UNITYSDK_OFFSET(0xBDA3490)
 
+inline static constexpr unsigned int BMFBJNAJGIJ_TypeDefinitionIndex = 53688;
+
 	class BMFBJNAJGIJ : public ::System::Object
 	{
 	public:

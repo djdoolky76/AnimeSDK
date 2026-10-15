@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TriggerRogueEnterNextRoom; }
 #define LGOBKEFEAEH_CTOR_OFFSET UNITYSDK_OFFSET(0xB69D370)
 #define LGOBKEFEAEH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB69D3A0)
 
+inline static constexpr unsigned int LGOBKEFEAEH_TypeDefinitionIndex = 58796;
+
 	class LGOBKEFEAEH
 	{
 	public:

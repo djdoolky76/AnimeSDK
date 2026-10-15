@@ -35,6 +35,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StaticListViewItem_TypeDefinitionIndex = 72660;
+
 	class StaticListViewItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

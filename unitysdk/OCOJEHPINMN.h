@@ -31,6 +31,8 @@ namespace System { class String; }
 #define OCOJEHPINMN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE19110)
 #define OCOJEHPINMN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE19170)
 
+inline static constexpr unsigned int OCOJEHPINMN_TypeDefinitionIndex = 26800;
+
 	class OCOJEHPINMN : public ::System::Object
 	{
 	public:

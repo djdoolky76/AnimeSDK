@@ -12,6 +12,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvSetLoopHitFeatureParam_TypeDefinitionIndex = 21815;
+
 	class AdvSetLoopHitFeatureParam : public ::RPG::GameCore::TaskConfig
 	{
 	public:

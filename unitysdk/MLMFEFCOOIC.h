@@ -5,6 +5,8 @@
 
 #define MLMFEFCOOIC_CIJDJDICMMM_OFFSET UNITYSDK_OFFSET(0x1E640)
 
+inline static constexpr unsigned int MLMFEFCOOIC_TypeDefinitionIndex = 68452;
+
 	struct alignas(4) MLMFEFCOOIC
 	{
 		::RootMotion::IKJob::IKTransformRef DHIPFJBEJPI; // 0x10

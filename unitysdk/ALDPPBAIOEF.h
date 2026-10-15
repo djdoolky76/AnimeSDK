@@ -33,6 +33,8 @@ namespace System { class String; }
 #define ALDPPBAIOEF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3D7840)
 #define ALDPPBAIOEF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3D78A0)
 
+inline static constexpr unsigned int ALDPPBAIOEF_TypeDefinitionIndex = 27592;
+
 	class ALDPPBAIOEF : public ::System::Object
 	{
 	public:

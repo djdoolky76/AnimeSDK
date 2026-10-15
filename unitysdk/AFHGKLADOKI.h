@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define AFHGKLADOKI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CCB5810)
 #define AFHGKLADOKI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CCB50F0)
 
+inline static constexpr unsigned int AFHGKLADOKI_TypeDefinitionIndex = 10969;
+
 	class AFHGKLADOKI : public ::System::Object
 	{
 	public:

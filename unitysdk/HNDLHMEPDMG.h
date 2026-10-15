@@ -60,6 +60,8 @@ namespace UnityEngine::UI { class Button; }
 #define HNDLHMEPDMG__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x15D8EFA0)
 #define HNDLHMEPDMG__ONTICK_OFFSET UNITYSDK_OFFSET(0x15D8F410)
 
+inline static constexpr unsigned int HNDLHMEPDMG_TypeDefinitionIndex = 71500;
+
 	class HNDLHMEPDMG : public ::FMPCODLIOLG
 	{
 	public:

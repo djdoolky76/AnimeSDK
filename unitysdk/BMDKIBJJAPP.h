@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define BMDKIBJJAPP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9E18E0)
 #define BMDKIBJJAPP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9E18A0)
 
+inline static constexpr unsigned int BMDKIBJJAPP_TypeDefinitionIndex = 21449;
+
 	class BMDKIBJJAPP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

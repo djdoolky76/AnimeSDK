@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define AEGMKCGMPKA___C__SENDSETLINEUPCSREQ_B__8_1_OFFSET UNITYSDK_OFFSET(0xB150CC0)
 #define AEGMKCGMPKA___C__SENDSTARTCSREQ_B__9_0_OFFSET UNITYSDK_OFFSET(0xB150CD0)
 
+inline static constexpr unsigned int AEGMKCGMPKA___c_TypeDefinitionIndex = 63938;
+
 	class AEGMKCGMPKA___c : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SettingImageQualityRow_TypeDefinitionIndex = 15094;
+
 	class SettingImageQualityRow : public ::System::Object
 	{
 	public:

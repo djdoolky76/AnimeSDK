@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChimeraBattlePlayDestruction; }
 #define NONFMPAEMGN_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xBCF7600)
 #define NONFMPAEMGN_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xBCF71B0)
 
+inline static constexpr unsigned int NONFMPAEMGN_TypeDefinitionIndex = 78401;
+
 	class NONFMPAEMGN : public ::System::Object
 	{
 	public:

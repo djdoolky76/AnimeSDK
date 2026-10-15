@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BatchAnimationNPCRandomCombinationCollection_BatchAnimationNPCRandomCombinationConfig_TypeDefinitionIndex = 60016;
+
 	class BatchAnimationNPCRandomCombinationCollection_BatchAnimationNPCRandomCombinationConfig : public ::System::Object
 	{
 	public:

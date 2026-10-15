@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GNHMFIJAGIP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4E0930)
 #define GNHMFIJAGIP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4E0990)
 
+inline static constexpr unsigned int GNHMFIJAGIP_TypeDefinitionIndex = 31290;
+
 	class GNHMFIJAGIP : public ::System::Object
 	{
 	public:

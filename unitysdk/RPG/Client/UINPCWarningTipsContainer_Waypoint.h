@@ -27,6 +27,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UINPCWarningTipsContainer_Waypoint_TypeDefinitionIndex = 69105;
+
 	class UINPCWarningTipsContainer_Waypoint : public ::System::Object
 	{
 	public:

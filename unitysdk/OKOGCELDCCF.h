@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OKOGCELDCCF_JHLOPJHGJFO_OFFSET UNITYSDK_OFFSET(0xBEF2E90)
 #define OKOGCELDCCF_JOMFMJCNEKJ_OFFSET UNITYSDK_OFFSET(0xBEF3200)
 
+inline static constexpr unsigned int OKOGCELDCCF_TypeDefinitionIndex = 81945;
+
 	class OKOGCELDCCF : public ::System::Object
 	{
 	public:

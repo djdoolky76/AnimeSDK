@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PIEBNMIOOIO_CTOR_OFFSET UNITYSDK_OFFSET(0xC25D630)
 #define PIEBNMIOOIO_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xC25D650)
 
+inline static constexpr unsigned int PIEBNMIOOIO_TypeDefinitionIndex = 59255;
+
 	class PIEBNMIOOIO
 	{
 	public:

@@ -19,6 +19,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define EAIPNIFBLOP_PGANMMFEBCF_OFFSET UNITYSDK_OFFSET(0x1267B730)
 #define EAIPNIFBLOP_POPNLPIAOCM_OFFSET UNITYSDK_OFFSET(0x1267B460)
 
+inline static constexpr unsigned int EAIPNIFBLOP_TypeDefinitionIndex = 69860;
+
 	class EAIPNIFBLOP : public ::RPG::Client::BehaviorBase
 	{
 	public:

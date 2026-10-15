@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define KDNNNPMJINB_LICOGDLBFGE_OFFSET UNITYSDK_OFFSET(0x1C56B5C0)
 #define KDNNNPMJINB_MAPIDKMGMIE_OFFSET UNITYSDK_OFFSET(0x1C56B570)
 
+inline static constexpr unsigned int KDNNNPMJINB_TypeDefinitionIndex = 41779;
+
 	class KDNNNPMJINB : public ::FBKKFMONGAA
 	{
 	public:

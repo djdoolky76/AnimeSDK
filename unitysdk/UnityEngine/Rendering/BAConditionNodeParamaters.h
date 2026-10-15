@@ -10,6 +10,8 @@ namespace UnityEngine::Rendering { class BAGraphAsset; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int BAConditionNodeParamaters_TypeDefinitionIndex = 4799;
+
 	struct alignas(4) BAConditionNodeParamaters
 	{
 		static ::System::Void ResetCondition(::UnityEngine::Rendering::BAGraphAsset* a1, ::UnityEngine::Rendering::BANodeHash a2)

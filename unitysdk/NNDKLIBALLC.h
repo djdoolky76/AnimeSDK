@@ -29,6 +29,8 @@ namespace System { class String; }
 #define NNDKLIBALLC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB803F0)
 #define NNDKLIBALLC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB80450)
 
+inline static constexpr unsigned int NNDKLIBALLC_TypeDefinitionIndex = 31141;
+
 	class NNDKLIBALLC : public ::System::Object
 	{
 	public:

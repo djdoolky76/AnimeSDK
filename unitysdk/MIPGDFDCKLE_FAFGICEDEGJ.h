@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int MIPGDFDCKLE_FAFGICEDEGJ_TypeDefinitionIndex = 33340;
+
 	enum class MIPGDFDCKLE_FAFGICEDEGJ : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

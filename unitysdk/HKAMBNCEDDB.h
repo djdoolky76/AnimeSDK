@@ -27,6 +27,8 @@ namespace System { class String; }
 #define HKAMBNCEDDB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5ADAB0)
 #define HKAMBNCEDDB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5ADB10)
 
+inline static constexpr unsigned int HKAMBNCEDDB_TypeDefinitionIndex = 26845;
+
 	class HKAMBNCEDDB : public ::System::Object
 	{
 	public:

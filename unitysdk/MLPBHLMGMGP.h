@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define MLPBHLMGMGP_EFMKONMGMNA_OFFSET UNITYSDK_OFFSET(0x1C4BC800)
 #define MLPBHLMGMGP_LANIHFLKEHH_OFFSET UNITYSDK_OFFSET(0x1C4BC990)
 
+inline static constexpr unsigned int MLPBHLMGMGP_TypeDefinitionIndex = 41523;
+
 	class MLPBHLMGMGP : public ::System::Object
 	{
 	public:

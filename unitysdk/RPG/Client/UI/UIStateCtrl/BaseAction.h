@@ -15,6 +15,8 @@ namespace RPG::Client { class UIStateCtrl; }
 
 namespace RPG::Client::UI::UIStateCtrl
 {
+	inline static constexpr unsigned int BaseAction_TypeDefinitionIndex = 74066;
+
 	class BaseAction : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ConvinceWaitTrickSkill; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConvinceWaitTrickSkill_TypeDefinitionIndex = 21844;
+
 	class ConvinceWaitTrickSkill : public ::RPG::GameCore::TaskConfig
 	{
 	public:

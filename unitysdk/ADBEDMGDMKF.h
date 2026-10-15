@@ -5,6 +5,8 @@
 
 #define ADBEDMGDMKF_DNPIOGOPBAD_OFFSET UNITYSDK_OFFSET(0x1C877F20)
 
+inline static constexpr unsigned int ADBEDMGDMKF_TypeDefinitionIndex = 43573;
+
 	class ADBEDMGDMKF : public ::System::Object
 	{
 	public:

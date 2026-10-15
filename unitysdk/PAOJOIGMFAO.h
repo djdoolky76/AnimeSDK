@@ -47,6 +47,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PAOJOIGMFAO_NKJLFHLIHHH_OFFSET UNITYSDK_OFFSET(0xBFDBCB0)
 #define PAOJOIGMFAO_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xBFDA1C0)
 
+inline static constexpr unsigned int PAOJOIGMFAO_TypeDefinitionIndex = 77255;
+
 	class PAOJOIGMFAO : public ::System::Object
 	{
 	public:

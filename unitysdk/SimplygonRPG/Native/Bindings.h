@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace SimplygonRPG::Native
 {
+	inline static constexpr unsigned int Bindings_TypeDefinitionIndex = 45973;
+
 	class Bindings : public ::System::Object
 	{
 	public:

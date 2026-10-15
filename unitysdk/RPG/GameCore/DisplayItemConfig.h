@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DisplayItemConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DisplayItemConfig_TypeDefinitionIndex = 10897;
+
 	class DisplayItemConfig : public ::System::Object
 	{
 	public:

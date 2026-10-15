@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define JGLPCDOEHFG_CTOR_OFFSET UNITYSDK_OFFSET(0xB19E9A0)
 
+inline static constexpr unsigned int JGLPCDOEHFG_TypeDefinitionIndex = 63733;
+
 	class JGLPCDOEHFG : public ::System::Object
 	{
 	public:

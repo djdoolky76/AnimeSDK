@@ -16,6 +16,8 @@ namespace System::IO { class BinaryWriter; }
 #define GEDGFBFMEPI_PFNDOIILPNL_OFFSET UNITYSDK_OFFSET(0x159C95F0)
 #define GEDGFBFMEPI_PMKHFBJPEGN_OFFSET UNITYSDK_OFFSET(0x159CA790)
 
+inline static constexpr unsigned int GEDGFBFMEPI_TypeDefinitionIndex = 67564;
+
 	class GEDGFBFMEPI : public ::System::Object
 	{
 	public:

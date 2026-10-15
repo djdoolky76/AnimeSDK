@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace IniParserEx
 {
+	inline static constexpr unsigned int Log_TypeDefinitionIndex = 3945;
+
 	class Log : public ::System::Object
 	{
 	public:

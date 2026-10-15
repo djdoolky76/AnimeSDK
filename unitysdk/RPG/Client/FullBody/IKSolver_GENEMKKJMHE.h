@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::FullBody
 {
+	inline static constexpr unsigned int IKSolver_GENEMKKJMHE_TypeDefinitionIndex = 74259;
+
 	class IKSolver_GENEMKKJMHE : public ::System::MulticastDelegate
 	{
 	public:

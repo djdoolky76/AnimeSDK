@@ -7,6 +7,8 @@ namespace RPG::Client { class CameraNormalConfigData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CameraFightStateCommonConfig_TypeDefinitionIndex = 69578;
+
 	class CameraFightStateCommonConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

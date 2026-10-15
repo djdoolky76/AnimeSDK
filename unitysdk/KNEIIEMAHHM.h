@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define KNEIIEMAHHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C909840)
 
+inline static constexpr unsigned int KNEIIEMAHHM_TypeDefinitionIndex = 42236;
+
 	class KNEIIEMAHHM : public ::System::Object
 	{
 	public:

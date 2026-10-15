@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MICOBPAJFBF_RESET_OFFSET UNITYSDK_OFFSET(0x1D220)
 #define MICOBPAJFBF_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1D110)
 
+inline static constexpr unsigned int MICOBPAJFBF_TypeDefinitionIndex = 75063;
+
 	struct alignas(8) MICOBPAJFBF
 	{
 		::System::Object* DDHLJAMMCFA; // 0x10

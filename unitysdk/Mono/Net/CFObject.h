@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace Mono::Net
 {
+	inline static constexpr unsigned int CFObject_TypeDefinitionIndex = 2405;
+
 	class CFObject : public ::System::Object
 	{
 	public:

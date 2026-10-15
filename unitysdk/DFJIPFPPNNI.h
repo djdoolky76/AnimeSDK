@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DFJIPFPPNNI_FILTER_OFFSET UNITYSDK_OFFSET(0xE82FC70)
 #define DFJIPFPPNNI_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0xE82FBA0)
 
+inline static constexpr unsigned int DFJIPFPPNNI_TypeDefinitionIndex = 75778;
+
 	class DFJIPFPPNNI
 	{
 	public:

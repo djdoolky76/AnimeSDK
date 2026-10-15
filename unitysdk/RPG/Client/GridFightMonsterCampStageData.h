@@ -10,6 +10,8 @@ namespace RPG::Client { class GridFightMonsterCampStageData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightMonsterCampStageData_TypeDefinitionIndex = 65057;
+
 	class GridFightMonsterCampStageData : public ::RPG::Client::GridFightMonsterStageData
 	{
 	public:

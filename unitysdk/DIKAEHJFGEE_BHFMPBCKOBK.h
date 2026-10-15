@@ -6,6 +6,8 @@
 
 #define DIKAEHJFGEE_BHFMPBCKOBK_CTOR_OFFSET UNITYSDK_OFFSET(0xF20D3F0)
 
+inline static constexpr unsigned int DIKAEHJFGEE_BHFMPBCKOBK_TypeDefinitionIndex = 57607;
+
 	class DIKAEHJFGEE_BHFMPBCKOBK : public ::System::Object
 	{
 	public:

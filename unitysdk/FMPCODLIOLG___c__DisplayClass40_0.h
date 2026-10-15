@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 #define FMPCODLIOLG___C__DISPLAYCLASS40_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15865020)
 #define FMPCODLIOLG___C__DISPLAYCLASS40_0___ASYNCLOADPREFAB_B__0_OFFSET UNITYSDK_OFFSET(0x15866680)
 
+inline static constexpr unsigned int FMPCODLIOLG___c__DisplayClass40_0_TypeDefinitionIndex = 73026;
+
 	class FMPCODLIOLG___c__DisplayClass40_0 : public ::System::Object
 	{
 	public:

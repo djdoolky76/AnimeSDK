@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define CHMJIMHEMLA_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xCF5FC00)
 #define CHMJIMHEMLA_OLEHFIFCLIN_OFFSET UNITYSDK_OFFSET(0xCF5FE90)
 
+inline static constexpr unsigned int CHMJIMHEMLA_TypeDefinitionIndex = 61368;
+
 	class CHMJIMHEMLA : public ::System::Object
 	{
 	public:

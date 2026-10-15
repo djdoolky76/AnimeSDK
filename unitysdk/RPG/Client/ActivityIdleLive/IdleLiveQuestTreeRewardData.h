@@ -12,6 +12,8 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveQuestTreeRewardData_TypeDefinitionIndex = 75377;
+
 	struct alignas(4) IdleLiveQuestTreeRewardData
 	{
 		::System::UInt32 _TicketCount_k__BackingField; // 0x10

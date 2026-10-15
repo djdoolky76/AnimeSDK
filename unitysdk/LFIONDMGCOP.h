@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LFIONDMGCOP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E93E4E0)
 #define LFIONDMGCOP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E93E540)
 
+inline static constexpr unsigned int LFIONDMGCOP_TypeDefinitionIndex = 27150;
+
 	class LFIONDMGCOP : public ::System::Object
 	{
 	public:

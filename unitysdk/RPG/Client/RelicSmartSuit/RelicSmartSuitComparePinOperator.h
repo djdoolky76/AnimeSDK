@@ -35,6 +35,8 @@ namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitCompareViewModel; }
 
 namespace RPG::Client::RelicSmartSuit
 {
+	inline static constexpr unsigned int RelicSmartSuitComparePinOperator_TypeDefinitionIndex = 74400;
+
 	class RelicSmartSuitComparePinOperator : public ::System::Object
 	{
 	public:

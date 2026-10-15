@@ -23,6 +23,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EGEFHHODAAL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13A661F0)
 #define EGEFHHODAAL_TICK_OFFSET UNITYSDK_OFFSET(0x13A66360)
 
+inline static constexpr unsigned int EGEFHHODAAL_TypeDefinitionIndex = 58606;
+
 	class EGEFHHODAAL : public ::GELIALJDFBL
 	{
 	public:

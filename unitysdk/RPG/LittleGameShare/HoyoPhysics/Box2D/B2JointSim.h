@@ -13,6 +13,8 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2JointSim; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2JointSim_TypeDefinitionIndex = 36700;
+
 	class B2JointSim : public ::System::Object
 	{
 	public:

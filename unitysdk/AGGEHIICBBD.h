@@ -25,6 +25,8 @@ namespace System { class String; }
 #define AGGEHIICBBD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E12D210)
 #define AGGEHIICBBD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E12D270)
 
+inline static constexpr unsigned int AGGEHIICBBD_TypeDefinitionIndex = 32795;
+
 	class AGGEHIICBBD : public ::System::Object
 	{
 	public:

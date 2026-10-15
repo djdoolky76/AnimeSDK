@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GuessTheSilhouetteActivityData_TypeDefinitionIndex = 61631;
+
 	class GuessTheSilhouetteActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_AbyssShineControl_ShineControlStruct_TypeDefinitionIndex = 70425;
+
 	class Effect_AbyssShineControl_ShineControlStruct : public ::System::Object
 	{
 	public:

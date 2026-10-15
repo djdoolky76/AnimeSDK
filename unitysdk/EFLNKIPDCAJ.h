@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EFLNKIPDCAJ_SET_MOTIONPARAM_OFFSET UNITYSDK_OFFSET(0x13A5AA00)
 #define EFLNKIPDCAJ__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0x13A58570)
 
+inline static constexpr unsigned int EFLNKIPDCAJ_TypeDefinitionIndex = 54204;
+
 	class EFLNKIPDCAJ : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

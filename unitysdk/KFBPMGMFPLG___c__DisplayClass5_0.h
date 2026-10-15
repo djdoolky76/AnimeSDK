@@ -6,6 +6,8 @@ namespace RPG::Client::LimaoNews { class LimaoNewsEmployeeCheckData; }
 #define KFBPMGMFPLG___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB38A5A0)
 #define KFBPMGMFPLG___C__DISPLAYCLASS5_0__GETEMPLOYEECHECK_B__0_OFFSET UNITYSDK_OFFSET(0xB38F070)
 
+inline static constexpr unsigned int KFBPMGMFPLG___c__DisplayClass5_0_TypeDefinitionIndex = 80317;
+
 	class KFBPMGMFPLG___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_ParticlePathFlowBehavior_TypeDefinitionIndex = 70522;
+
 	class Effect_ParticlePathFlowBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

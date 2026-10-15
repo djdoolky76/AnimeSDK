@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LensGlitchEffect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LensGlitchEffect_TypeDefinitionIndex = 22394;
+
 	class LensGlitchEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

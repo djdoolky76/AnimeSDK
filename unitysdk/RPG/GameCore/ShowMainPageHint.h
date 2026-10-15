@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ShowMainPageHint; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowMainPageHint_TypeDefinitionIndex = 21136;
+
 	class ShowMainPageHint : public ::RPG::GameCore::TaskConfig
 	{
 	public:

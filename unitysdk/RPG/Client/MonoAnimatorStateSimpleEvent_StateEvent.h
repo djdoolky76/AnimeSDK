@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoAnimatorStateSimpleEvent_StateEvent_TypeDefinitionIndex = 68518;
+
 	class MonoAnimatorStateSimpleEvent_StateEvent : public ::System::Object
 	{
 	public:

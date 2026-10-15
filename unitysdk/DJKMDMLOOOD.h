@@ -55,6 +55,8 @@ namespace System { class String; }
 #define DJKMDMLOOOD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1CEED0)
 #define DJKMDMLOOOD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1CEF30)
 
+inline static constexpr unsigned int DJKMDMLOOOD_TypeDefinitionIndex = 27754;
+
 	class DJKMDMLOOOD : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 #define CLOFAEJGMPI___ONASYNCEXECUTEIMPLEMENT_D__1_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C52270)
 #define CLOFAEJGMPI___ONASYNCEXECUTEIMPLEMENT_D__1_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
 
+inline static constexpr unsigned int CLOFAEJGMPI___OnAsyncExecuteImplement_d__1_TypeDefinitionIndex = 44191;
+
 	template <typename T>
 	struct alignas(8) CLOFAEJGMPI___OnAsyncExecuteImplement_d__1
 	{

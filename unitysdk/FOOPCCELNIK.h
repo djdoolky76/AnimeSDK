@@ -6,6 +6,8 @@ class PassAndKeywords;
 #define FOOPCCELNIK_EQUALS_OFFSET UNITYSDK_OFFSET(0x15909240)
 #define FOOPCCELNIK_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x159092F0)
 
+inline static constexpr unsigned int FOOPCCELNIK_TypeDefinitionIndex = 47432;
+
 	class FOOPCCELNIK
 	{
 	public:

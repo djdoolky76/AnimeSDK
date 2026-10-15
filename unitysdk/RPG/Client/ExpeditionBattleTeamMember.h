@@ -14,6 +14,8 @@ namespace RPG::Client { class ExpeditionBattleTeamMember; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ExpeditionBattleTeamMember_TypeDefinitionIndex = 63857;
+
 	class ExpeditionBattleTeamMember : public ::System::Object
 	{
 	public:

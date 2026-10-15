@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BaseExpeditionBattleNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaseExpeditionBattleNode_TypeDefinitionIndex = 16198;
+
 	class BaseExpeditionBattleNode : public ::RPG::GameCore::JsonConfig
 	{
 	public:

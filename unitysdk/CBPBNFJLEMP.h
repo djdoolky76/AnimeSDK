@@ -46,6 +46,8 @@ namespace UnityEngine { class Renderer; }
 #define CBPBNFJLEMP_POPNLPIAOCM_OFFSET UNITYSDK_OFFSET(0xC4B8C80)
 #define CBPBNFJLEMP__FADEINIMMEDIATELY_B__5_0_OFFSET UNITYSDK_OFFSET(0xC4B9F00)
 
+inline static constexpr unsigned int CBPBNFJLEMP_TypeDefinitionIndex = 69875;
+
 	class CBPBNFJLEMP : public ::RPG::Client::BehaviorBase
 	{
 	public:

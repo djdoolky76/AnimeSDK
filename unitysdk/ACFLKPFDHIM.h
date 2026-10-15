@@ -35,6 +35,8 @@ namespace System { class String; }
 #define ACFLKPFDHIM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDDA1A0)
 #define ACFLKPFDHIM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDDA200)
 
+inline static constexpr unsigned int ACFLKPFDHIM_TypeDefinitionIndex = 25535;
+
 	class ACFLKPFDHIM : public ::System::Object
 	{
 	public:

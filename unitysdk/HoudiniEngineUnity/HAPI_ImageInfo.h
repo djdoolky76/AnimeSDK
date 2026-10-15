@@ -5,6 +5,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HAPI_ImageInfo_TypeDefinitionIndex = 40509;
+
 	struct alignas(4) HAPI_ImageInfo
 	{
 		::System::Int32 imageFileFormatNameSH; // 0x10

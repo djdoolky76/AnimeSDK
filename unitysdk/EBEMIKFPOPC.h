@@ -8,6 +8,8 @@ namespace RPG::GameCore { class BattleInstance; }
 #define EBEMIKFPOPC_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x12CEF010)
 #define EBEMIKFPOPC__ONBIND_OFFSET UNITYSDK_OFFSET(0x12CEEEB0)
 
+inline static constexpr unsigned int EBEMIKFPOPC_TypeDefinitionIndex = 71513;
+
 	class EBEMIKFPOPC : public ::FMPCODLIOLG
 	{
 	public:

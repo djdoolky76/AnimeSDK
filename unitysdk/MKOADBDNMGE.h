@@ -32,6 +32,8 @@ namespace System { class String; }
 #define MKOADBDNMGE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA5D410)
 #define MKOADBDNMGE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA5D470)
 
+inline static constexpr unsigned int MKOADBDNMGE_TypeDefinitionIndex = 34055;
+
 	class MKOADBDNMGE : public ::System::Object
 	{
 	public:

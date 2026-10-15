@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerReturnJourneyItemRow_TypeDefinitionIndex = 14538;
+
 	class PlayerReturnJourneyItemRow : public ::System::Object
 	{
 	public:

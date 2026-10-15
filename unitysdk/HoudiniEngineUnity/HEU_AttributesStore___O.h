@@ -5,6 +5,8 @@ namespace HoudiniEngineUnity { class HEU_AttributesStore_SetAttributeValueFunc; 
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_AttributesStore___O_TypeDefinitionIndex = 40427;
+
 	class HEU_AttributesStore___O : public ::System::Object
 	{
 	public:

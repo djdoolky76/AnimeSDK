@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NNFFPDGPBBI_CONVERT_OFFSET UNITYSDK_OFFSET(0x1CC94030)
 #define NNFFPDGPBBI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC93EE0)
 
+inline static constexpr unsigned int NNFFPDGPBBI_TypeDefinitionIndex = 43900;
+
 	class NNFFPDGPBBI : public ::System::Object
 	{
 	public:

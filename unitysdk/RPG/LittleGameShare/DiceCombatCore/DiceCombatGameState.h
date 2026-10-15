@@ -3,6 +3,8 @@
 
 namespace RPG::LittleGameShare::DiceCombatCore
 {
+	inline static constexpr unsigned int DiceCombatGameState_TypeDefinitionIndex = 36201;
+
 	enum class DiceCombatGameState : ::System::Byte
 	{
 		WaitPlayerEnterAndLoading = 1,

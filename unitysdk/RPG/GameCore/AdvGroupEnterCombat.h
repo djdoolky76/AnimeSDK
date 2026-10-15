@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvGroupEnterCombat_TypeDefinitionIndex = 20559;
+
 	class AdvGroupEnterCombat : public ::RPG::GameCore::TaskConfig
 	{
 	public:

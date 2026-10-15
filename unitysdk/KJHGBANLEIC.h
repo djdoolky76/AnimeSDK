@@ -78,6 +78,8 @@ namespace System::Net { class WebException; }
 #define KJHGBANLEIC_PNIBMAJLFFP_OFFSET UNITYSDK_OFFSET(0xB44CD70)
 #define KJHGBANLEIC__ONTHREADHANDLE_B__20_0_OFFSET UNITYSDK_OFFSET(0xB455FB0)
 
+inline static constexpr unsigned int KJHGBANLEIC_TypeDefinitionIndex = 59591;
+
 	class KJHGBANLEIC : public ::IHFGILEEIGA
 	{
 	public:

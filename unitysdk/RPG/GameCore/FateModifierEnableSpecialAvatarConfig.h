@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateModifierEnableSpecialAvatarConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateModifierEnableSpecialAvatarConfig_TypeDefinitionIndex = 19267;
+
 	class FateModifierEnableSpecialAvatarConfig : public ::RPG::GameCore::FateModifierConfigBase
 	{
 	public:

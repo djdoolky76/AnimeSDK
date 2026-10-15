@@ -11,6 +11,8 @@ class PEEDLCHFAFL;
 #define LDGDAAOFGNA_JPDDFFNAMDP_OFFSET UNITYSDK_OFFSET(0xB6209F0)
 #define LDGDAAOFGNA_ONLFEONAAGM_OFFSET UNITYSDK_OFFSET(0xB620B90)
 
+inline static constexpr unsigned int LDGDAAOFGNA_TypeDefinitionIndex = 77012;
+
 	class LDGDAAOFGNA : public ::System::Object
 	{
 	public:

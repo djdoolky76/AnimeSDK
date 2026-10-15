@@ -36,6 +36,8 @@ namespace UnityEngine { class Object; }
 #define PJPOOKIMNKJ_PBJMDPEDKPI_OFFSET UNITYSDK_OFFSET(0xC2A3A00)
 #define PJPOOKIMNKJ_PPAPBNGOBFC_OFFSET UNITYSDK_OFFSET(0xC2A0E90)
 
+inline static constexpr unsigned int PJPOOKIMNKJ_TypeDefinitionIndex = 49574;
+
 	class PJPOOKIMNKJ : public ::BNIEAMHOKJE
 	{
 	public:

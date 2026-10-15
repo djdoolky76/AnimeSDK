@@ -17,6 +17,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoSkeletonAnimationTrigger_TypeDefinitionIndex = 68967;
+
 	class MonoSkeletonAnimationTrigger : public ::UnityEngine::MonoBehaviour
 	{
 	public:

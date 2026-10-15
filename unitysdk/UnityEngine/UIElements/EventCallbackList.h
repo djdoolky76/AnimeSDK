@@ -18,6 +18,8 @@ namespace UnityEngine::UIElements { class EventCallbackList; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int EventCallbackList_TypeDefinitionIndex = 5936;
+
 	class EventCallbackList : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPGTools::Timeline { class TalkBackgroundCGPauseClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TalkBackgroundCGPauseBehaviour_TypeDefinitionIndex = 48376;
+
 	class TalkBackgroundCGPauseBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
 	public:

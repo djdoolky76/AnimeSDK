@@ -13,6 +13,8 @@ namespace Spine::Unity { class SkeletonGraphic; }
 #define GODICBHGGJP_JJLNLPFBOPK_OFFSET UNITYSDK_OFFSET(0x15B2AAD0)
 #define GODICBHGGJP_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15B2A790)
 
+inline static constexpr unsigned int GODICBHGGJP_TypeDefinitionIndex = 60282;
+
 	class GODICBHGGJP : public ::System::Object
 	{
 	public:

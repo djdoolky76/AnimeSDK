@@ -11,6 +11,8 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int FailGuideRewardTreeImpl_TypeDefinitionIndex = 75386;
+
 	class FailGuideRewardTreeImpl : public ::System::Object
 	{
 	public:

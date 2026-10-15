@@ -1021,6 +1021,8 @@ namespace UnityEngine { class Collider; }
 
 namespace IFix
 {
+	inline static constexpr unsigned int ILFixDynamicMethodWrapper_740ECFA580F4A028_TypeDefinitionIndex = 43810;
+
 	class ILFixDynamicMethodWrapper_740ECFA580F4A028 : public ::System::Object
 	{
 	public:

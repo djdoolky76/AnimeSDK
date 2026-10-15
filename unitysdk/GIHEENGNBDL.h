@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define GIHEENGNBDL_JBMKEOLJOOK_OFFSET UNITYSDK_OFFSET(0x15A379A0)
 #define GIHEENGNBDL_JMOPONIENIO_OFFSET UNITYSDK_OFFSET(0x15A37880)
 
+inline static constexpr unsigned int GIHEENGNBDL_TypeDefinitionIndex = 74644;
+
 	class GIHEENGNBDL : public ::System::Object
 	{
 	public:

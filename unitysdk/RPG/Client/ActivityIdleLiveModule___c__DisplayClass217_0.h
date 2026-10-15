@@ -8,6 +8,8 @@ class BOBCDAJAKGC;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityIdleLiveModule___c__DisplayClass217_0_TypeDefinitionIndex = 61541;
+
 	class ActivityIdleLiveModule___c__DisplayClass217_0 : public ::System::Object
 	{
 	public:

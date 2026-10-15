@@ -30,6 +30,8 @@ namespace System { class String; }
 #define KFMAONOMPLM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E81F190)
 #define KFMAONOMPLM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E81F1F0)
 
+inline static constexpr unsigned int KFMAONOMPLM_TypeDefinitionIndex = 33581;
+
 	class KFMAONOMPLM : public ::System::Object
 	{
 	public:

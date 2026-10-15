@@ -32,6 +32,8 @@ namespace System { class String; }
 #define PLPJINKPBGF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFA8250)
 #define PLPJINKPBGF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFA82B0)
 
+inline static constexpr unsigned int PLPJINKPBGF_TypeDefinitionIndex = 30523;
+
 	class PLPJINKPBGF : public ::System::Object
 	{
 	public:

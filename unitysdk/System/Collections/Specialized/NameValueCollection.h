@@ -30,6 +30,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Collections::Specialized
 {
+	inline static constexpr unsigned int NameValueCollection_TypeDefinitionIndex = 2999;
+
 	class NameValueCollection : public ::System::Collections::Specialized::NameObjectCollectionBase
 	{
 	public:

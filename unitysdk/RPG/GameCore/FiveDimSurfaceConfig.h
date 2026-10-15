@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimSurfaceConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSurfaceConfig_TypeDefinitionIndex = 18536;
+
 	class FiveDimSurfaceConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

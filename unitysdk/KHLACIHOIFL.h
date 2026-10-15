@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KHLACIHOIFL_CTOR_OFFSET UNITYSDK_OFFSET(0xB40BD90)
 #define KHLACIHOIFL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB40BDC0)
 
+inline static constexpr unsigned int KHLACIHOIFL_TypeDefinitionIndex = 53157;
+
 	class KHLACIHOIFL
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightPrepTutorialSetGoldNumParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightPrepTutorialSetGoldNumParam_TypeDefinitionIndex = 19969;
+
 	class GridFightPrepTutorialSetGoldNumParam : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyMod
 #define PAGBIOGLAHE_CTOR_OFFSET UNITYSDK_OFFSET(0xBFC8D40)
 #define PAGBIOGLAHE_RESET_OFFSET UNITYSDK_OFFSET(0xBFC8E00)
 
+inline static constexpr unsigned int PAGBIOGLAHE_TypeDefinitionIndex = 62713;
+
 	class PAGBIOGLAHE : public ::System::Object
 	{
 	public:

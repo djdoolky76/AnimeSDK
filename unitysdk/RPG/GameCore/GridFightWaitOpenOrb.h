@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightWaitOpenOrb; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightWaitOpenOrb_TypeDefinitionIndex = 19963;
+
 	class GridFightWaitOpenOrb : public ::RPG::GameCore::TaskConfig
 	{
 	public:

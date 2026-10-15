@@ -32,6 +32,8 @@ namespace System { class String; }
 #define NICENHFMLNE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB261F0)
 #define NICENHFMLNE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB26250)
 
+inline static constexpr unsigned int NICENHFMLNE_TypeDefinitionIndex = 34515;
+
 	class NICENHFMLNE : public ::System::Object
 	{
 	public:

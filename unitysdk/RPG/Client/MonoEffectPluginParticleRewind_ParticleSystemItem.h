@@ -8,6 +8,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginParticleRewind_ParticleSystemItem_TypeDefinitionIndex = 70092;
+
 	class MonoEffectPluginParticleRewind_ParticleSystemItem : public ::System::Object
 	{
 	public:

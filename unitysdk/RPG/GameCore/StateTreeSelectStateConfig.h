@@ -10,6 +10,8 @@ namespace RPG::GameCore { class StateTreeSelectStateConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StateTreeSelectStateConfig_TypeDefinitionIndex = 15496;
+
 	class StateTreeSelectStateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

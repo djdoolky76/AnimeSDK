@@ -29,6 +29,8 @@ namespace System { class String; }
 #define IAFNLKNKPBD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E604410)
 #define IAFNLKNKPBD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E604470)
 
+inline static constexpr unsigned int IAFNLKNKPBD_TypeDefinitionIndex = 27902;
+
 	class IAFNLKNKPBD : public ::System::Object
 	{
 	public:

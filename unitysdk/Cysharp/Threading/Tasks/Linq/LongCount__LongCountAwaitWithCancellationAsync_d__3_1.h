@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int LongCount__LongCountAwaitWithCancellationAsync_d__3_1_TypeDefinitionIndex = 45419;
+
 	template <typename T>
 	struct alignas(8) LongCount__LongCountAwaitWithCancellationAsync_d__3_1
 	{

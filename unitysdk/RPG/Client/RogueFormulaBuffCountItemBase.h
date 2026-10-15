@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueFormulaBuffCountItemBase_TypeDefinitionIndex = 67205;
+
 	class RogueFormulaBuffCountItemBase : public ::System::Object
 	{
 	public:

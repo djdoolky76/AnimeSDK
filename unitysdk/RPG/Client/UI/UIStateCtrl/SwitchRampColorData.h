@@ -9,6 +9,8 @@ namespace UnityEngine { class Object; }
 
 namespace RPG::Client::UI::UIStateCtrl
 {
+	inline static constexpr unsigned int SwitchRampColorData_TypeDefinitionIndex = 74062;
+
 	class SwitchRampColorData : public ::System::Object
 	{
 	public:

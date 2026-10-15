@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KPOBNILOOKO_ONUNINIT_OFFSET UNITYSDK_OFFSET(0xB5CEB50)
 #define KPOBNILOOKO_PEJIBJMDHPH_OFFSET UNITYSDK_OFFSET(0xB5CF780)
 
+inline static constexpr unsigned int KPOBNILOOKO_TypeDefinitionIndex = 73338;
+
 	class KPOBNILOOKO : public ::HBCMHADMLOP
 	{
 	public:

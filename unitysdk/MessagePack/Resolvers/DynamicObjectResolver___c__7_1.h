@@ -7,6 +7,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace MessagePack::Resolvers
 {
+	inline static constexpr unsigned int DynamicObjectResolver___c__7_1_TypeDefinitionIndex = 7260;
+
 	template <typename T>
 	class DynamicObjectResolver___c__7_1 : public ::System::Object
 	{

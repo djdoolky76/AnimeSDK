@@ -10,6 +10,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace SimpleJSON
 {
+	inline static constexpr unsigned int JSONClass___c__DisplayClass13_0_TypeDefinitionIndex = 9961;
+
 	class JSONClass___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

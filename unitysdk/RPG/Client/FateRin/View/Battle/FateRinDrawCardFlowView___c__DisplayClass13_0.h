@@ -8,6 +8,8 @@ namespace RPG::Client::FateRin::View::Card { class FateRinCardPosControlView; }
 
 namespace RPG::Client::FateRin::View::Battle
 {
+	inline static constexpr unsigned int FateRinDrawCardFlowView___c__DisplayClass13_0_TypeDefinitionIndex = 80686;
+
 	class FateRinDrawCardFlowView___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

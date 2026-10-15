@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int AEHOCHBKGOL_TypeDefinitionIndex = 27986;
+
 	enum class AEHOCHBKGOL : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

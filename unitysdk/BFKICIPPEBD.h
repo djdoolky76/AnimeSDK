@@ -8,6 +8,8 @@ namespace System { class String; }
 #define BFKICIPPEBD_GET_HASUNREADDOT_OFFSET UNITYSDK_OFFSET(0xB170720)
 #define BFKICIPPEBD_GET_TITLE_OFFSET UNITYSDK_OFFSET(0xB170710)
 
+inline static constexpr unsigned int BFKICIPPEBD_TypeDefinitionIndex = 73468;
+
 	class BFKICIPPEBD : public ::System::Object
 	{
 	public:

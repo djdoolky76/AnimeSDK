@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 #define MDPMJLDHNAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C924CE0)
 
+inline static constexpr unsigned int MDPMJLDHNAD_TypeDefinitionIndex = 41932;
+
 	class MDPMJLDHNAD : public ::System::Object
 	{
 	public:

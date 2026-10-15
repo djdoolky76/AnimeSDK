@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MenuStateConfig_TypeDefinitionIndex = 16382;
+
 	class MenuStateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

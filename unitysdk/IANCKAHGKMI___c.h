@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define IANCKAHGKMI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E609D90)
 #define IANCKAHGKMI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E609DA0)
 
+inline static constexpr unsigned int IANCKAHGKMI___c_TypeDefinitionIndex = 34163;
+
 	class IANCKAHGKMI___c : public ::System::Object
 	{
 	public:

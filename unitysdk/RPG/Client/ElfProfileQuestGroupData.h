@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfProfileQuestGroupData_TypeDefinitionIndex = 63711;
+
 	class ElfProfileQuestGroupData : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RefreshMunicipalPedestrian; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RefreshMunicipalPedestrian_TypeDefinitionIndex = 20324;
+
 	class RefreshMunicipalPedestrian : public ::RPG::GameCore::TaskConfig
 	{
 	public:

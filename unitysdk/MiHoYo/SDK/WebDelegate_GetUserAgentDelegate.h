@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebDelegate_GetUserAgentDelegate_TypeDefinitionIndex = 7834;
+
 	class WebDelegate_GetUserAgentDelegate : public ::System::MulticastDelegate
 	{
 	public:

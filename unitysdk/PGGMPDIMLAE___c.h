@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PGGMPDIMLAE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF30250)
 #define PGGMPDIMLAE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF30260)
 
+inline static constexpr unsigned int PGGMPDIMLAE___c_TypeDefinitionIndex = 33544;
+
 	class PGGMPDIMLAE___c : public ::System::Object
 	{
 	public:

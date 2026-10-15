@@ -5,6 +5,8 @@ namespace MiHoYo::SDK::Protobuf { class MessageParser; }
 
 namespace MiHoYo::SDK::Protobuf
 {
+	inline static constexpr unsigned int FieldCodec___c__DisplayClass16_0_1_TypeDefinitionIndex = 35716;
+
 	template <typename T>
 	class FieldCodec___c__DisplayClass16_0_1 : public ::System::Object
 	{

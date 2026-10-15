@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PenaconyEndmostChronicleMoveAnimData_TypeDefinitionIndex = 66103;
+
 	class PenaconyEndmostChronicleMoveAnimData : public ::System::Object
 	{
 	public:

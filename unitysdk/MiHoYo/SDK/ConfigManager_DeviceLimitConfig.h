@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConfigManager_DeviceLimitConfig_TypeDefinitionIndex = 8210;
+
 	class ConfigManager_DeviceLimitConfig : public ::System::Object
 	{
 	public:

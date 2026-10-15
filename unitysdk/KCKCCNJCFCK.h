@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaitFixedDeltaSecond; }
 #define KCKCCNJCFCK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB33AA80)
 #define KCKCCNJCFCK_TICK_OFFSET UNITYSDK_OFFSET(0xB33AAD0)
 
+inline static constexpr unsigned int KCKCCNJCFCK_TypeDefinitionIndex = 58889;
+
 	class KCKCCNJCFCK : public ::GELIALJDFBL
 	{
 	public:

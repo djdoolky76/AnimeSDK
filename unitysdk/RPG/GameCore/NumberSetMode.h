@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NumberSetMode_TypeDefinitionIndex = 24645;
+
 	enum class NumberSetMode : ::System::Int32
 	{
 		Set = 0,

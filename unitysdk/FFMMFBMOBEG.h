@@ -58,6 +58,8 @@ namespace System { class String; }
 #define FFMMFBMOBEG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E376200)
 #define FFMMFBMOBEG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E376260)
 
+inline static constexpr unsigned int FFMMFBMOBEG_TypeDefinitionIndex = 34860;
+
 	class FFMMFBMOBEG : public ::System::Object
 	{
 	public:

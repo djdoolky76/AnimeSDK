@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int PluginUIConstants_EventName_TypeDefinitionIndex = 9173;
+
 	class PluginUIConstants_EventName : public ::System::Object
 	{
 	public:

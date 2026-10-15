@@ -8,6 +8,8 @@ class MMBLENLAFEK;
 #define MMBLENLAFEK___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB9BFAC0)
 #define MMBLENLAFEK___C__DISPLAYCLASS4_0___ONENTER_B__0_OFFSET UNITYSDK_OFFSET(0xB9BFEB0)
 
+inline static constexpr unsigned int MMBLENLAFEK___c__DisplayClass4_0_TypeDefinitionIndex = 76800;
+
 	class MMBLENLAFEK___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

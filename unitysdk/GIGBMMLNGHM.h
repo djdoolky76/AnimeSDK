@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GIGBMMLNGHM_SET_PROPERTYNAME_OFFSET UNITYSDK_OFFSET(0x15A36910)
 #define GIGBMMLNGHM_SET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x15A368F0)
 
+inline static constexpr unsigned int GIGBMMLNGHM_TypeDefinitionIndex = 47187;
+
 	class GIGBMMLNGHM : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ConvinceHPToSpliteLineConfig_TypeDefinitionIndex = 60678;
+
 	class ConvinceHPToSpliteLineConfig : public ::System::Object
 	{
 	public:

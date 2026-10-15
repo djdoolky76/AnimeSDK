@@ -11,6 +11,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StateProbeScan_TypeDefinitionIndex = 68840;
+
 	class StateProbeScan : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:

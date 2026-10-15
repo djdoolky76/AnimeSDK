@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int BuiltinResolverGetFormatterHelper_TypeDefinitionIndex = 7308;
+
 	class BuiltinResolverGetFormatterHelper : public ::System::Object
 	{
 	public:

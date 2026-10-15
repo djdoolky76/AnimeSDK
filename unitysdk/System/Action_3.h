@@ -4,6 +4,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int Action_3_TypeDefinitionIndex = 171;
+
 	template <typename T1, typename T2, typename T3>
 	class Action_3 : public ::System::MulticastDelegate
 	{

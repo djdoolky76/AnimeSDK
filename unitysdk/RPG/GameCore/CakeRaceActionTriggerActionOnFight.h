@@ -12,6 +12,8 @@ namespace RPG::GameCore { class CakeRaceActionTriggerActionOnFight; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceActionTriggerActionOnFight_TypeDefinitionIndex = 18358;
+
 	class CakeRaceActionTriggerActionOnFight : public ::RPG::GameCore::CakeRaceActionBase
 	{
 	public:

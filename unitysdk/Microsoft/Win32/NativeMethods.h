@@ -16,6 +16,8 @@ namespace System::Runtime::InteropServices { class SafeHandle; }
 
 namespace Microsoft::Win32
 {
+	inline static constexpr unsigned int NativeMethods_TypeDefinitionIndex = 2455;
+
 	class NativeMethods : public ::System::Object
 	{
 	public:

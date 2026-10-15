@@ -30,6 +30,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SwordTrainProcessActionDataItem_TypeDefinitionIndex = 61968;
+
 	class SwordTrainProcessActionDataItem : public ::System::Object
 	{
 	public:

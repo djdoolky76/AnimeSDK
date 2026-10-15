@@ -13,6 +13,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client::RelicSmartSuit
 {
+	inline static constexpr unsigned int RelicSmartSuitCalculationResultData___c_TypeDefinitionIndex = 74420;
+
 	class RelicSmartSuitCalculationResultData___c : public ::System::Object
 	{
 	public:

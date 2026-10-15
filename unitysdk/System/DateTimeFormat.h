@@ -32,6 +32,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System
 {
+	inline static constexpr unsigned int DateTimeFormat_TypeDefinitionIndex = 251;
+
 	class DateTimeFormat : public ::System::Object
 	{
 	public:

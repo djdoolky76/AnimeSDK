@@ -10,6 +10,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftOrderListControlBinder_TypeDefinitionIndex = 80019;
+
 	class MechCraftOrderListControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

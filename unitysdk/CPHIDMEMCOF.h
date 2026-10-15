@@ -18,6 +18,8 @@ namespace System { class String; }
 #define CPHIDMEMCOF_KNPLJDMAPIC_OFFSET UNITYSDK_OFFSET(0xDCD5E20)
 #define CPHIDMEMCOF_MGNBLKKHPLM_OFFSET UNITYSDK_OFFSET(0xDCD5DA0)
 
+inline static constexpr unsigned int CPHIDMEMCOF_TypeDefinitionIndex = 75547;
+
 	class CPHIDMEMCOF : public ::JCHBFEIOIHA
 	{
 	public:

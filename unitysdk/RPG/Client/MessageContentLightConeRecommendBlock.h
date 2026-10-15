@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MessageContentLightConeRecommendBlock_TypeDefinitionIndex = 63258;
+
 	class MessageContentLightConeRecommendBlock : public ::RPG::Client::MessageContentFunctionCallBlock
 	{
 	public:

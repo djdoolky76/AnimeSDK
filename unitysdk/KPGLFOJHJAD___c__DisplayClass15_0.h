@@ -7,6 +7,8 @@ class LHHCPMMADKG;
 #define KPGLFOJHJAD___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB5BC500)
 #define KPGLFOJHJAD___C__DISPLAYCLASS15_0__SETBYTASK_B__0_OFFSET UNITYSDK_OFFSET(0xB5BC9B0)
 
+inline static constexpr unsigned int KPGLFOJHJAD___c__DisplayClass15_0_TypeDefinitionIndex = 71839;
+
 	class KPGLFOJHJAD___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

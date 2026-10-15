@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MatchThreeV2TipsRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MatchThreeV2TipsRow_TypeDefinitionIndex = 11938;
+
 	class MatchThreeV2TipsRow : public ::System::Object
 	{
 	public:

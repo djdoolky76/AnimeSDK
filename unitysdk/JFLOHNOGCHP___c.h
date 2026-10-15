@@ -8,6 +8,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define JFLOHNOGCHP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x166572A0)
 #define JFLOHNOGCHP___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x166572B0)
 
+inline static constexpr unsigned int JFLOHNOGCHP___c_TypeDefinitionIndex = 77714;
+
 	class JFLOHNOGCHP___c : public ::System::Object
 	{
 	public:

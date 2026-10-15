@@ -7,6 +7,8 @@ namespace RPG::Client { class ActivityPanelData; }
 #define IGLMIKHOHFB_LCDKJPFDBCB_CTOR_OFFSET UNITYSDK_OFFSET(0x16410970)
 #define IGLMIKHOHFB_LCDKJPFDBCB_IEJHCMOPJMJ_OFFSET UNITYSDK_OFFSET(0x164109C0)
 
+inline static constexpr unsigned int IGLMIKHOHFB_LCDKJPFDBCB_TypeDefinitionIndex = 61704;
+
 	class IGLMIKHOHFB_LCDKJPFDBCB : public ::IGLMIKHOHFB
 	{
 	public:

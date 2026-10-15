@@ -11,6 +11,8 @@ namespace RPG::GameCore { class StackRedStance; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StackRedStance_TypeDefinitionIndex = 22632;
+
 	class StackRedStance : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DeactiveFarmElement_TypeDefinitionIndex = 22087;
+
 	class DeactiveFarmElement : public ::RPG::GameCore::TaskConfig
 	{
 	public:

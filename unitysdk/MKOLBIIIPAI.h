@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define MKOLBIIIPAI_DHHDFAAJMMC_OFFSET UNITYSDK_OFFSET(0xB9A2C70)
 #define MKOLBIIIPAI__ONBIND_OFFSET UNITYSDK_OFFSET(0xB9A2BB0)
 
+inline static constexpr unsigned int MKOLBIIIPAI_TypeDefinitionIndex = 72250;
+
 	class MKOLBIIIPAI : public ::FMPCODLIOLG
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PLIHGGEFANM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D301530)
 #define PLIHGGEFANM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D300E90)
 
+inline static constexpr unsigned int PLIHGGEFANM_TypeDefinitionIndex = 11607;
+
 	class PLIHGGEFANM : public ::System::Object
 	{
 	public:

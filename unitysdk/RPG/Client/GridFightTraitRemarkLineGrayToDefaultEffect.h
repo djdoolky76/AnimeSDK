@@ -12,6 +12,8 @@ namespace RPG::GameCore { class GridFightTraitRemarkRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTraitRemarkLineGrayToDefaultEffect_TypeDefinitionIndex = 65469;
+
 	class GridFightTraitRemarkLineGrayToDefaultEffect : public ::RPG::Client::GridFightTraitRemarkLineEffectBase
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyPersonaRoomContentIDConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyPersonaRoomContentIDConfig_TypeDefinitionIndex = 17797;
+
 	class RogueModifierModifyPersonaRoomContentIDConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

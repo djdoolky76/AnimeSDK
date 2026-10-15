@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UIAdaptiveDeviceConfigItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UIAdaptiveDeviceConfig_TypeDefinitionIndex = 24427;
+
 	class UIAdaptiveDeviceConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

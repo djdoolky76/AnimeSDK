@@ -9,6 +9,8 @@ namespace RPG::Client { class RogueAreaData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueProgressInfo___c__DisplayClass4_0_TypeDefinitionIndex = 67465;
+
 	class RogueProgressInfo___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

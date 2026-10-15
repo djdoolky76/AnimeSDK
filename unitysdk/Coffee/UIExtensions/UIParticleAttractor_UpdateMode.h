@@ -3,6 +3,8 @@
 
 namespace Coffee::UIExtensions
 {
+	inline static constexpr unsigned int UIParticleAttractor_UpdateMode_TypeDefinitionIndex = 45158;
+
 	enum class UIParticleAttractor_UpdateMode : ::System::Int32
 	{
 		Normal = 0,

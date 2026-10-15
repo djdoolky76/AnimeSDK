@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FJIEGMAKIMA_DFFGFGJNPMP_OINBDMGFFJL_1_OFFSET UNITYSDK_OFFSET(0x157C98F0)
 #define FJIEGMAKIMA_DFFGFGJNPMP_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0x157C9990)
 
+inline static constexpr unsigned int FJIEGMAKIMA_DFFGFGJNPMP_TypeDefinitionIndex = 60228;
+
 	class FJIEGMAKIMA_DFFGFGJNPMP : public ::System::Object
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int DCFPEIMAMCN_LDIPMJPLDCC_TypeDefinitionIndex = 33181;
+
 	enum class DCFPEIMAMCN_LDIPMJPLDCC : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

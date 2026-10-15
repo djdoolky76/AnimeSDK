@@ -28,6 +28,8 @@ namespace System { class String; }
 #define KLEHEHAMKLC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E889090)
 #define KLEHEHAMKLC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8890F0)
 
+inline static constexpr unsigned int KLEHEHAMKLC_TypeDefinitionIndex = 33162;
+
 	class KLEHEHAMKLC : public ::System::Object
 	{
 	public:

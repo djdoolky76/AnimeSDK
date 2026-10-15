@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ByCompareRogueRoomState; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareRogueRoomState_TypeDefinitionIndex = 20802;
+
 	class ByCompareRogueRoomState : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResetRedStance_TypeDefinitionIndex = 22629;
+
 	class ResetRedStance : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define PKPOJIAJAAF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF9AAC0)
 #define PKPOJIAJAAF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF9AB20)
 
+inline static constexpr unsigned int PKPOJIAJAAF_TypeDefinitionIndex = 26888;
+
 	class PKPOJIAJAAF : public ::System::Object
 	{
 	public:

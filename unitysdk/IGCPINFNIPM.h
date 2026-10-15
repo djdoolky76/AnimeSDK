@@ -10,6 +10,8 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 #define IGCPINFNIPM_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C6D4F40)
 #define IGCPINFNIPM_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C6D4E70)
 
+inline static constexpr unsigned int IGCPINFNIPM_TypeDefinitionIndex = 37205;
+
 	class IGCPINFNIPM : public ::System::Object
 	{
 	public:

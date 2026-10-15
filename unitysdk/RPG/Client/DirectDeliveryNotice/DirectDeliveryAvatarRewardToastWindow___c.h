@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::DirectDeliveryNotice
 {
+	inline static constexpr unsigned int DirectDeliveryAvatarRewardToastWindow___c_TypeDefinitionIndex = 81240;
+
 	class DirectDeliveryAvatarRewardToastWindow___c : public ::System::Object
 	{
 	public:

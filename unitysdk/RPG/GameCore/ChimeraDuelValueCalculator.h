@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChimeraDuelValueCalculator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelValueCalculator_TypeDefinitionIndex = 15995;
+
 	class ChimeraDuelValueCalculator : public ::RPG::GameCore::BaseChimeraDuelValueGetter
 	{
 	public:

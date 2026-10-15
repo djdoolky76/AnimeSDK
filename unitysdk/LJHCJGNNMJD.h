@@ -14,6 +14,8 @@ namespace System { class Nullable; }
 #define LJHCJGNNMJD_FNNICNCGLLL_OFFSET UNITYSDK_OFFSET(0x1C56E970)
 #define LJHCJGNNMJD_OCHDLMECPAJ_OFFSET UNITYSDK_OFFSET(0x1C56EAF0)
 
+inline static constexpr unsigned int LJHCJGNNMJD_TypeDefinitionIndex = 41811;
+
 	class LJHCJGNNMJD : public ::System::Object
 	{
 	public:

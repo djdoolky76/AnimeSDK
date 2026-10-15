@@ -4,6 +4,8 @@
 
 #define DKFLMHICIJG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F5A10)
 
+inline static constexpr unsigned int DKFLMHICIJG_TypeDefinitionIndex = 36867;
+
 	class DKFLMHICIJG : public ::GHADLBDBHNA
 	{
 	public:

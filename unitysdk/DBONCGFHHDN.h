@@ -31,6 +31,8 @@ namespace System { class String; }
 #define DBONCGFHHDN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E163AB0)
 #define DBONCGFHHDN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E163B10)
 
+inline static constexpr unsigned int DBONCGFHHDN_TypeDefinitionIndex = 29243;
+
 	class DBONCGFHHDN : public ::System::Object
 	{
 	public:

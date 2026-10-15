@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ActiveVirtualCameraConfig_TypeDefinitionIndex = 47814;
+
 	class ActiveVirtualCameraConfig : public ::System::Object
 	{
 	public:

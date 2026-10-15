@@ -5,6 +5,8 @@ namespace UnityEngine { class Material; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int VolumetricCloudLayerData_TypeDefinitionIndex = 4859;
+
 	struct alignas(8) VolumetricCloudLayerData
 	{
 		::UnityEngine::Material* material; // 0x10

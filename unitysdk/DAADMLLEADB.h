@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define DAADMLLEADB_CTOR_OFFSET UNITYSDK_OFFSET(0xDFBA3B0)
 #define DAADMLLEADB_HPMHPJIJAPB_OFFSET UNITYSDK_OFFSET(0xDFBA2F0)
 
+inline static constexpr unsigned int DAADMLLEADB_TypeDefinitionIndex = 77387;
+
 	class DAADMLLEADB : public ::System::Object
 	{
 	public:

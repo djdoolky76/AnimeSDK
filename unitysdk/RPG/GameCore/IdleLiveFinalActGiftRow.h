@@ -9,6 +9,8 @@ namespace RPG::GameCore { class IdleLiveFinalActGiftRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveFinalActGiftRow_TypeDefinitionIndex = 11692;
+
 	class IdleLiveFinalActGiftRow : public ::System::Object
 	{
 	public:

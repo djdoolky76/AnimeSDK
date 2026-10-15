@@ -7,6 +7,8 @@ namespace RPG::Client { class IRogueTournGameSettleResultComposition; }
 #define ADLLDJHEMDM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB145520)
 #define ADLLDJHEMDM_CTOR_OFFSET UNITYSDK_OFFSET(0xB1455E0)
 
+inline static constexpr unsigned int ADLLDJHEMDM_TypeDefinitionIndex = 67842;
+
 	class ADLLDJHEMDM : public ::System::Object
 	{
 	public:

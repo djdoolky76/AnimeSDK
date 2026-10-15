@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define MBLNDHDDPPD_GHPDHAGEGFB_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB86D430)
 #define MBLNDHDDPPD_GHPDHAGEGFB_INVOKE_OFFSET UNITYSDK_OFFSET(0xB864B00)
 
+inline static constexpr unsigned int MBLNDHDDPPD_GHPDHAGEGFB_TypeDefinitionIndex = 54354;
+
 	class MBLNDHDDPPD_GHPDHAGEGFB : public ::System::MulticastDelegate
 	{
 	public:

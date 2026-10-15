@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JFNGFOKCEDA_HJPEGIKKEDD_OFFSET UNITYSDK_OFFSET(0x16657CC0)
 #define JFNGFOKCEDA_JBFFMEENCDG_OFFSET UNITYSDK_OFFSET(0x1665A4F0)
 
+inline static constexpr unsigned int JFNGFOKCEDA_TypeDefinitionIndex = 62373;
+
 	class JFNGFOKCEDA : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace RPG::Client::NavMap::FiveDim { class SurfaceConnectIcon_SurfaceConnect
 
 namespace RPG::Client::NavMap::FiveDim
 {
+	inline static constexpr unsigned int SurfaceConnectIcon_TypeDefinitionIndex = 74679;
+
 	class SurfaceConnectIcon : public ::System::Object
 	{
 	public:

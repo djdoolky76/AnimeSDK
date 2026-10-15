@@ -4,6 +4,8 @@
 
 #define PBNONKAIAMK_CTOR_OFFSET UNITYSDK_OFFSET(0xBFF5D90)
 
+inline static constexpr unsigned int PBNONKAIAMK_TypeDefinitionIndex = 56309;
+
 	class PBNONKAIAMK : public ::System::Object
 	{
 	public:

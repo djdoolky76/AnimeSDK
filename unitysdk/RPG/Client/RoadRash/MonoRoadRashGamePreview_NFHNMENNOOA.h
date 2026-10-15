@@ -9,6 +9,8 @@ namespace RPG::Client::RoadRash { class MonoRoadRashGameRoad; }
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int MonoRoadRashGamePreview_NFHNMENNOOA_TypeDefinitionIndex = 75858;
+
 	class MonoRoadRashGamePreview_NFHNMENNOOA : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SpecialChestFindDataRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FindChestMarkConfig_TypeDefinitionIndex = 64198;
+
 	struct alignas(4) FindChestMarkConfig
 	{
 		::System::UInt32 PlaneID; // 0x10

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceDRow_TypeDefinitionIndex = 14330;
+
 	class PerformanceDRow : public ::System::Object
 	{
 	public:

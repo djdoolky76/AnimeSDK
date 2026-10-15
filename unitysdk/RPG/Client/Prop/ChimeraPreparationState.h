@@ -3,6 +3,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraPreparationState_TypeDefinitionIndex = 78477;
+
 	enum class ChimeraPreparationState : ::System::Int32
 	{
 		None = 0,

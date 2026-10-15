@@ -9,6 +9,8 @@ namespace RPG::GameCore { class BaseLittleGameAbilityValueGetterConfig; }
 #define MDMKJEMOCJA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D14BF00)
 #define MDMKJEMOCJA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D14BE30)
 
+inline static constexpr unsigned int MDMKJEMOCJA_TypeDefinitionIndex = 21403;
+
 	class MDMKJEMOCJA : public ::JNFBANKKLJK
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GEFEDOAOKNO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E457110)
 #define GEFEDOAOKNO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E457120)
 
+inline static constexpr unsigned int GEFEDOAOKNO___c_TypeDefinitionIndex = 29828;
+
 	class GEFEDOAOKNO___c : public ::System::Object
 	{
 	public:

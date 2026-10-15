@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PGNMOOIIBCL_FILTER_OFFSET UNITYSDK_OFFSET(0x1C9E90D0)
 #define PGNMOOIIBCL_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C9E8FB0)
 
+inline static constexpr unsigned int PGNMOOIIBCL_TypeDefinitionIndex = 42871;
+
 	class PGNMOOIIBCL
 	{
 	public:

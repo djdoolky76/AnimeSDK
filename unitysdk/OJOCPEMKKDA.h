@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define OJOCPEMKKDA_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C7D0000)
 #define OJOCPEMKKDA_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C7CFFC0)
 
+inline static constexpr unsigned int OJOCPEMKKDA_TypeDefinitionIndex = 37294;
+
 	class OJOCPEMKKDA : public ::System::MulticastDelegate
 	{
 	public:

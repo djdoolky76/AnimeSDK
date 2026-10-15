@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int ForEach__ForEachAwaitAsync_d__2_1_TypeDefinitionIndex = 45368;
+
 	template <typename T>
 	struct alignas(8) ForEach__ForEachAwaitAsync_d__2_1
 	{

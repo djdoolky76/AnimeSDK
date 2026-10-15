@@ -28,6 +28,8 @@ namespace UnityEngine { class Transform; }
 #define FAFEHMOPNBB_NHEMBHNGCEP_OFFSET UNITYSDK_OFFSET(0x156683B0)
 #define FAFEHMOPNBB_PGODHENKEHN_OFFSET UNITYSDK_OFFSET(0x15669AF0)
 
+inline static constexpr unsigned int FAFEHMOPNBB_TypeDefinitionIndex = 72754;
+
 	class FAFEHMOPNBB : public ::System::Object
 	{
 	public:

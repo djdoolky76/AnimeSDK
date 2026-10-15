@@ -28,6 +28,8 @@ namespace System { class String; }
 #define OEDAEKHDOOC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE24E00)
 #define OEDAEKHDOOC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE24E60)
 
+inline static constexpr unsigned int OEDAEKHDOOC_TypeDefinitionIndex = 26103;
+
 	class OEDAEKHDOOC : public ::System::Object
 	{
 	public:

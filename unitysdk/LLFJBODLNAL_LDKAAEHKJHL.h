@@ -4,6 +4,8 @@
 
 #define LLFJBODLNAL_LDKAAEHKJHL_CTOR_OFFSET UNITYSDK_OFFSET(0xB7699C0)
 
+inline static constexpr unsigned int LLFJBODLNAL_LDKAAEHKJHL_TypeDefinitionIndex = 47350;
+
 	class LLFJBODLNAL_LDKAAEHKJHL : public ::System::Object
 	{
 	public:

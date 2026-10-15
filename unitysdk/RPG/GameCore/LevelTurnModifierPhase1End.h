@@ -15,6 +15,8 @@ namespace RPG::GameCore { class LevelTurnModifierPhase1End; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelTurnModifierPhase1End_TypeDefinitionIndex = 56702;
+
 	class LevelTurnModifierPhase1End : public ::CMPGEAFHHDC
 	{
 	public:

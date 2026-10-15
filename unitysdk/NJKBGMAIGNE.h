@@ -11,6 +11,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 #define NJKBGMAIGNE_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xBC1A340)
 #define NJKBGMAIGNE__INIT_B__0_0_OFFSET UNITYSDK_OFFSET(0xBC1A400)
 
+inline static constexpr unsigned int NJKBGMAIGNE_TypeDefinitionIndex = 49345;
+
 	class NJKBGMAIGNE : public ::KHAKCLAJLOB
 	{
 	public:

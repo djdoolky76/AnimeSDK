@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierForceMonsterCampIdConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierForceMonsterCampIdConfig_TypeDefinitionIndex = 19379;
+
 	class GridFightModifierForceMonsterCampIdConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

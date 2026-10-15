@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define DPAJAECBCPA___C___CCTOR_B__33_1_OFFSET UNITYSDK_OFFSET(0x1E2099B0)
 #define DPAJAECBCPA___C___CCTOR_B__33_2_OFFSET UNITYSDK_OFFSET(0x1E2099C0)
 
+inline static constexpr unsigned int DPAJAECBCPA___c_TypeDefinitionIndex = 30317;
+
 	class DPAJAECBCPA___c : public ::System::Object
 	{
 	public:

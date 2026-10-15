@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ST_Side_Hipplen_Override_Interact_Like_Type; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_Hipplen_Override_Interact_Like_Type_TypeDefinitionIndex = 21308;
+
 	class ST_Side_Hipplen_Override_Interact_Like_Type : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

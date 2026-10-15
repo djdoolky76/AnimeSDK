@@ -42,6 +42,8 @@ namespace System { class String; }
 #define JECNOELJLKO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E715380)
 #define JECNOELJLKO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7153E0)
 
+inline static constexpr unsigned int JECNOELJLKO_TypeDefinitionIndex = 28736;
+
 	class JECNOELJLKO : public ::System::Object
 	{
 	public:

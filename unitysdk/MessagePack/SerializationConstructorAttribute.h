@@ -4,6 +4,8 @@
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int SerializationConstructorAttribute_TypeDefinitionIndex = 6170;
+
 	class SerializationConstructorAttribute : public ::System::Attribute
 	{
 	public:

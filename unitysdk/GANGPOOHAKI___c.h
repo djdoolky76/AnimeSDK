@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GANGPOOHAKI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E425500)
 #define GANGPOOHAKI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E425510)
 
+inline static constexpr unsigned int GANGPOOHAKI___c_TypeDefinitionIndex = 31711;
+
 	class GANGPOOHAKI___c : public ::System::Object
 	{
 	public:

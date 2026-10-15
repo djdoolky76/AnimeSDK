@@ -11,6 +11,8 @@ namespace System { class String; }
 #define FBBGGMMPDDG_FDFNIJEEIPN_OFFSET UNITYSDK_OFFSET(0x156945F0)
 #define FBBGGMMPDDG_NOEPHHJFJJA_OFFSET UNITYSDK_OFFSET(0x15694420)
 
+inline static constexpr unsigned int FBBGGMMPDDG_TypeDefinitionIndex = 61215;
+
 	class FBBGGMMPDDG : public ::System::Object
 	{
 	public:

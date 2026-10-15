@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JDKNLNLGODN_ONSTARTLOADING_OFFSET UNITYSDK_OFFSET(0x165D4E70)
 #define JDKNLNLGODN_ONUNINIT_OFFSET UNITYSDK_OFFSET(0x165D4E30)
 
+inline static constexpr unsigned int JDKNLNLGODN_TypeDefinitionIndex = 61061;
+
 	class JDKNLNLGODN : public ::System::Object
 	{
 	public:

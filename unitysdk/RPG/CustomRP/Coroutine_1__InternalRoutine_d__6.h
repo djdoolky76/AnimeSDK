@@ -7,6 +7,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int Coroutine_1__InternalRoutine_d__6_TypeDefinitionIndex = 37639;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	class Coroutine_1__InternalRoutine_d__6 : public ::System::Object
 	{

@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FMDGKOBKEDP_LOIEIJDEPFL_OFFSET UNITYSDK_OFFSET(0x1584F4B0)
 #define FMDGKOBKEDP_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1584F820)
 
+inline static constexpr unsigned int FMDGKOBKEDP_TypeDefinitionIndex = 78166;
+
 	class FMDGKOBKEDP : public ::System::Object
 	{
 	public:

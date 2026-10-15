@@ -160,6 +160,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int OpticalIllusionPuzzleBoard_TypeDefinitionIndex = 78702;
+
 	class OpticalIllusionPuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MissionActionIcon_TypeDefinitionIndex = 18964;
+
 	class MissionActionIcon : public ::RPG::GameCore::JsonConfig
 	{
 	public:

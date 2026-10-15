@@ -16,6 +16,8 @@ namespace RPG::GameCore { class MunicipalChatActionEmoji; }
 #define BHDOAEPPDHH_NCCOPMMJCEL_OFFSET UNITYSDK_OFFSET(0xB474AE0)
 #define BHDOAEPPDHH_NLBHKOEIFAO_OFFSET UNITYSDK_OFFSET(0xB4748A0)
 
+inline static constexpr unsigned int BHDOAEPPDHH_TypeDefinitionIndex = 69192;
+
 	class BHDOAEPPDHH : public ::MAGCBFJCKLE
 	{
 	public:

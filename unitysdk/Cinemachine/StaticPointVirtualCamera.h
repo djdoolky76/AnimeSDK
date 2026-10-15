@@ -32,6 +32,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int StaticPointVirtualCamera_TypeDefinitionIndex = 39805;
+
 	class StaticPointVirtualCamera : public ::System::Object
 	{
 	public:

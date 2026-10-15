@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 #define MAJBOCOKHJH_MAOMBHJOFBD_OFFSET UNITYSDK_OFFSET(0xB84F6A0)
 #define MAJBOCOKHJH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB84F280)
 
+inline static constexpr unsigned int MAJBOCOKHJH_TypeDefinitionIndex = 53182;
+
 	class MAJBOCOKHJH
 	{
 	public:

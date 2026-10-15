@@ -4,6 +4,8 @@
 
 #define IKCBDMLDENO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB77EE0)
 
+inline static constexpr unsigned int IKCBDMLDENO_TypeDefinitionIndex = 41990;
+
 	class IKCBDMLDENO : public ::System::Object
 	{
 	public:

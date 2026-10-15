@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerMazeItemUseBuffDrop; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerMazeItemUseBuffDrop_TypeDefinitionIndex = 21759;
+
 	class TriggerMazeItemUseBuffDrop : public ::RPG::GameCore::TaskConfig
 	{
 	public:

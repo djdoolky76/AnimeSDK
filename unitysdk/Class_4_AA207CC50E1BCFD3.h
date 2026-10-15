@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int Class_4_AA207CC50E1BCFD3_TypeDefinitionIndex = 46891;
+
 	enum class Class_4_AA207CC50E1BCFD3 : ::System::Int32
 	{
 		Value = 0,

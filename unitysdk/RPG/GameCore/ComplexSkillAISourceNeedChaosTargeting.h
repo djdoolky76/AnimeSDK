@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ComplexSkillAISourceNeedChaosTargeting; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAISourceNeedChaosTargeting_TypeDefinitionIndex = 15524;
+
 	class ComplexSkillAISourceNeedChaosTargeting : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:

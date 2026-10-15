@@ -13,6 +13,8 @@ namespace RPG::Client { class GridFightTaskConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameTutorialTask_TypeDefinitionIndex = 65507;
+
 	class GridFightGameTutorialTask : public ::System::Object
 	{
 	public:

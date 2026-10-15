@@ -34,6 +34,8 @@ namespace System { class String; }
 #define JNKOPDPGDFF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E798D10)
 #define JNKOPDPGDFF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E798D70)
 
+inline static constexpr unsigned int JNKOPDPGDFF_TypeDefinitionIndex = 34066;
+
 	class JNKOPDPGDFF : public ::System::Object
 	{
 	public:

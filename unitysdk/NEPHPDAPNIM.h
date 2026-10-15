@@ -13,6 +13,8 @@ namespace System { class String; }
 #define NEPHPDAPNIM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1FE650)
 #define NEPHPDAPNIM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1FE610)
 
+inline static constexpr unsigned int NEPHPDAPNIM_TypeDefinitionIndex = 24223;
+
 	class NEPHPDAPNIM : public ::RPG::GameCore::TaskConfig
 	{
 	public:

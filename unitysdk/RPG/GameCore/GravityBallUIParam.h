@@ -6,6 +6,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GravityBallUIParam_TypeDefinitionIndex = 52912;
+
 	class GravityBallUIParam : public ::System::Object
 	{
 	public:

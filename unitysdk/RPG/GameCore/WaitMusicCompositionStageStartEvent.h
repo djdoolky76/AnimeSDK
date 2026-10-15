@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitMusicCompositionStageStartEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitMusicCompositionStageStartEvent_TypeDefinitionIndex = 22059;
+
 	class WaitMusicCompositionStageStartEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:

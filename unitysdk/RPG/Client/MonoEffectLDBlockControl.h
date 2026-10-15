@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectLDBlockControl_TypeDefinitionIndex = 68584;
+
 	class MonoEffectLDBlockControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

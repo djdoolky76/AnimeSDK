@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByWorldLevel_TypeDefinitionIndex = 22762;
+
 	class SetDynamicValueByWorldLevel : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

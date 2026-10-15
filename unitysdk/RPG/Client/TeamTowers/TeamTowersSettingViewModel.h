@@ -25,6 +25,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersSettingViewModel_TypeDefinitionIndex = 79080;
+
 	class TeamTowersSettingViewModel : public ::System::Object
 	{
 	public:

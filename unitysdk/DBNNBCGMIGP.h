@@ -29,6 +29,8 @@ namespace System { class String; }
 #define DBNNBCGMIGP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E162850)
 #define DBNNBCGMIGP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1628B0)
 
+inline static constexpr unsigned int DBNNBCGMIGP_TypeDefinitionIndex = 25076;
+
 	class DBNNBCGMIGP : public ::System::Object
 	{
 	public:

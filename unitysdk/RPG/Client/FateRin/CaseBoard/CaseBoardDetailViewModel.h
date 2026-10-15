@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::FateRin::CaseBoard
 {
+	inline static constexpr unsigned int CaseBoardDetailViewModel_TypeDefinitionIndex = 80794;
+
 	class CaseBoardDetailViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

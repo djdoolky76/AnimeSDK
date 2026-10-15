@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GEFOBNFAJCO_GDEJKMCGIMO_OFFSET UNITYSDK_OFFSET(0x159D4370)
 #define GEFOBNFAJCO_GELCGNKGEMN_OFFSET UNITYSDK_OFFSET(0x159D4180)
 
+inline static constexpr unsigned int GEFOBNFAJCO_TypeDefinitionIndex = 49821;
+
 	class GEFOBNFAJCO : public ::System::Object
 	{
 	public:

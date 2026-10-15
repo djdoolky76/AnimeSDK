@@ -3,6 +3,8 @@
 
 namespace RPG::Embree
 {
+	inline static constexpr unsigned int EmbreeWrapper_RTCHit_TypeDefinitionIndex = 47021;
+
 	struct alignas(4) EmbreeWrapper_RTCHit
 	{
 		::System::Single Ng_x; // 0x10

@@ -49,6 +49,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::Cloud
 {
+	inline static constexpr unsigned int MiHoYoSDKDll_TypeDefinitionIndex = 8889;
+
 	class MiHoYoSDKDll : public ::UnityEngine::MonoBehaviour
 	{
 	public:

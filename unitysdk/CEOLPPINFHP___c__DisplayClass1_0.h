@@ -8,6 +8,8 @@ namespace RPG::GameCore { class PropSpecialVisionConfig; }
 #define CEOLPPINFHP___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC9F6550)
 #define CEOLPPINFHP___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xC9F6B70)
 
+inline static constexpr unsigned int CEOLPPINFHP___c__DisplayClass1_0_TypeDefinitionIndex = 58572;
+
 	class CEOLPPINFHP___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

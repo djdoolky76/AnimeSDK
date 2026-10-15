@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define MLEMMDNMHCG_MAFFBABEDPI_OFFSET UNITYSDK_OFFSET(0x1C5724F0)
 #define MLEMMDNMHCG_NJAFNONOAKL_OFFSET UNITYSDK_OFFSET(0x1C570E00)
 
+inline static constexpr unsigned int MLEMMDNMHCG_TypeDefinitionIndex = 41878;
+
 	class MLEMMDNMHCG : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::Client { class LimaoNewsDutyCheckGreetingBranch; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LimaoNewsDutyCheckGreetingBranch_TypeDefinitionIndex = 10245;
+
 	class LimaoNewsDutyCheckGreetingBranch : public ::RPG::GameCore::SimpleTalkListConfig
 	{
 	public:

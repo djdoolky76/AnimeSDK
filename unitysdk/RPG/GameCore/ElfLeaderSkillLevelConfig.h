@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ElfLeaderSkillLevelConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfLeaderSkillLevelConfig_TypeDefinitionIndex = 18463;
+
 	class ElfLeaderSkillLevelConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

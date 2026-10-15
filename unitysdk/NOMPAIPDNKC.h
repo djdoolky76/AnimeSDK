@@ -33,6 +33,8 @@ namespace System { class String; }
 #define NOMPAIPDNKC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB8F850)
 #define NOMPAIPDNKC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB8F8B0)
 
+inline static constexpr unsigned int NOMPAIPDNKC_TypeDefinitionIndex = 30889;
+
 	class NOMPAIPDNKC : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define OGBKODNDKEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE4F2A0)
 #define OGBKODNDKEN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE4F300)
 
+inline static constexpr unsigned int OGBKODNDKEN_TypeDefinitionIndex = 34919;
+
 	class OGBKODNDKEN : public ::System::Object
 	{
 	public:

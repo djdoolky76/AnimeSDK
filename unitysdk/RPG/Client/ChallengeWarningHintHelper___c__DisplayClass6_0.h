@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DynamicValue; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengeWarningHintHelper___c__DisplayClass6_0_TypeDefinitionIndex = 63121;
+
 	class ChallengeWarningHintHelper___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

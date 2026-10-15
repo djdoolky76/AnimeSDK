@@ -20,6 +20,8 @@ class LBJLBMOOJGM;
 #define ODCKCBPPJPI_NJNEKNJBMFM_OFFSET UNITYSDK_OFFSET(0xBD8BBF0)
 #define ODCKCBPPJPI_OOBOGCKLGIB_OFFSET UNITYSDK_OFFSET(0xBD8B600)
 
+inline static constexpr unsigned int ODCKCBPPJPI_TypeDefinitionIndex = 62646;
+
 	class ODCKCBPPJPI : public ::System::Object
 	{
 	public:

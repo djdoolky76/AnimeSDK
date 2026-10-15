@@ -6,6 +6,8 @@ namespace RPG::UINavigation { class UINavigation; }
 
 #define CONAIOFALJB_NMHDDLOCHFO_OFFSET UNITYSDK_OFFSET(0xDCBFA40)
 
+inline static constexpr unsigned int CONAIOFALJB_TypeDefinitionIndex = 49829;
+
 	class CONAIOFALJB : public ::System::Object
 	{
 	public:

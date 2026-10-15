@@ -7,6 +7,8 @@
 
 namespace System::Numerics::Hashing
 {
+	inline static constexpr unsigned int HashHelpers_TypeDefinitionIndex = 796;
+
 	class HashHelpers : public ::System::Object
 	{
 	public:

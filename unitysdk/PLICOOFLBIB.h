@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PLICOOFLBIB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFA1DE0)
 #define PLICOOFLBIB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFA1E40)
 
+inline static constexpr unsigned int PLICOOFLBIB_TypeDefinitionIndex = 31280;
+
 	class PLICOOFLBIB : public ::System::Object
 	{
 	public:

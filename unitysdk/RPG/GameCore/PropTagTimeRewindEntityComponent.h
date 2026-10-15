@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropTagTimeRewindEntityComponent_TypeDefinitionIndex = 17566;
+
 	class PropTagTimeRewindEntityComponent : public ::RPG::GameCore::PropTagComponent
 	{
 	public:

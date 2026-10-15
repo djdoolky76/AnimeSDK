@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HitTargetTimeSlowConfig_TypeDefinitionIndex = 22594;
+
 	class HitTargetTimeSlowConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

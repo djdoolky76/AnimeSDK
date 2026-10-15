@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DailyActiveTypeRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DailyActiveTypeRow_TypeDefinitionIndex = 13117;
+
 	class DailyActiveTypeRow : public ::System::Object
 	{
 	public:

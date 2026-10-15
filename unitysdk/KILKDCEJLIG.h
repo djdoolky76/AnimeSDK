@@ -14,6 +14,8 @@ namespace System { class String; }
 #define KILKDCEJLIG_PFHBHAKCCME_OFFSET UNITYSDK_OFFSET(0xB434FE0)
 #define KILKDCEJLIG_TICK_OFFSET UNITYSDK_OFFSET(0xB434500)
 
+inline static constexpr unsigned int KILKDCEJLIG_TypeDefinitionIndex = 52158;
+
 	class KILKDCEJLIG
 	{
 	public:

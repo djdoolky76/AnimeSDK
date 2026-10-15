@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChallengePeakConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChallengePeakConfigRow_TypeDefinitionIndex = 12979;
+
 	class ChallengePeakConfigRow : public ::System::Object
 	{
 	public:

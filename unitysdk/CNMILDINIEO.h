@@ -9,6 +9,8 @@ namespace System { class String; }
 #define CNMILDINIEO_KDOELPOACHB_OFFSET UNITYSDK_OFFSET(0xDA59B70)
 #define CNMILDINIEO_MPIBNJBBOKM_OFFSET UNITYSDK_OFFSET(0xDA59E80)
 
+inline static constexpr unsigned int CNMILDINIEO_TypeDefinitionIndex = 67173;
+
 	class CNMILDINIEO : public ::System::Object
 	{
 	public:

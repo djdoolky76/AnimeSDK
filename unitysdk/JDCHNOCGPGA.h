@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 #define JDCHNOCGPGA_CTOR_OFFSET UNITYSDK_OFFSET(0x165BF200)
 
+inline static constexpr unsigned int JDCHNOCGPGA_TypeDefinitionIndex = 59601;
+
 	class JDCHNOCGPGA : public ::System::Object
 	{
 	public:

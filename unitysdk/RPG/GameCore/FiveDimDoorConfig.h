@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimDoorConfig_TypeDefinitionIndex = 18598;
+
 	class FiveDimDoorConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

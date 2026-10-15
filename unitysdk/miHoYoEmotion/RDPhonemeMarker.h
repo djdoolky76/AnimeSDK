@@ -8,6 +8,8 @@ namespace miHoYoEmotion { class RDPhonemeMarker; }
 
 namespace miHoYoEmotion
 {
+	inline static constexpr unsigned int RDPhonemeMarker_TypeDefinitionIndex = 45969;
+
 	class RDPhonemeMarker : public ::System::Object
 	{
 	public:

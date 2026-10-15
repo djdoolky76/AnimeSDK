@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define NOLKEGGBDBP__ITERATE_D__0_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1C574A50)
 #define NOLKEGGBDBP__ITERATE_D__0_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C5749D0)
 
+inline static constexpr unsigned int NOLKEGGBDBP__Iterate_d__0_TypeDefinitionIndex = 41656;
+
 	class NOLKEGGBDBP__Iterate_d__0 : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::Client::Promises { class Promise; }
 #define GCBOJGNGLGO___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x159605E0)
 #define GCBOJGNGLGO___C__DISPLAYCLASS5_0___SHOWWORLDFINISHTOAST_B__0_OFFSET UNITYSDK_OFFSET(0x15960680)
 
+inline static constexpr unsigned int GCBOJGNGLGO___c__DisplayClass5_0_TypeDefinitionIndex = 66959;
+
 	class GCBOJGNGLGO___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

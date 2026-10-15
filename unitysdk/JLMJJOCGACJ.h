@@ -5,6 +5,8 @@
 
 #define JLMJJOCGACJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA32A0)
 
+inline static constexpr unsigned int JLMJJOCGACJ_TypeDefinitionIndex = 42506;
+
 	class JLMJJOCGACJ : public ::System::Object
 	{
 	public:

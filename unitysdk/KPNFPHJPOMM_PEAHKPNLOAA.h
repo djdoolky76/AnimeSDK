@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KPNFPHJPOMM_PEAHKPNLOAA_OIBKPJEGPOK_OFFSET UNITYSDK_OFFSET(0xB5CD6D0)
 #define KPNFPHJPOMM_PEAHKPNLOAA_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB5CDB70)
 
+inline static constexpr unsigned int KPNFPHJPOMM_PEAHKPNLOAA_TypeDefinitionIndex = 49181;
+
 	class KPNFPHJPOMM_PEAHKPNLOAA : public ::System::Object
 	{
 	public:

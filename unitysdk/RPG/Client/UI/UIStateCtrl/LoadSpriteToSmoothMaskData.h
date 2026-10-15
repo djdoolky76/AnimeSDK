@@ -8,6 +8,8 @@ namespace UnityEngine::UI { class SmoothMask; }
 
 namespace RPG::Client::UI::UIStateCtrl
 {
+	inline static constexpr unsigned int LoadSpriteToSmoothMaskData_TypeDefinitionIndex = 74052;
+
 	class LoadSpriteToSmoothMaskData : public ::System::Object
 	{
 	public:

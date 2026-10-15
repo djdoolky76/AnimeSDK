@@ -7,6 +7,8 @@ namespace RPG::GameCore { class FormationData; }
 #define CCGELMMFAJH_EMKGIBPKKNK_OFFSET UNITYSDK_OFFSET(0xC73AB40)
 #define CCGELMMFAJH_KNHALNMOJGL_OFFSET UNITYSDK_OFFSET(0xC73A700)
 
+inline static constexpr unsigned int CCGELMMFAJH_TypeDefinitionIndex = 59302;
+
 	class CCGELMMFAJH : public ::System::Object
 	{
 	public:

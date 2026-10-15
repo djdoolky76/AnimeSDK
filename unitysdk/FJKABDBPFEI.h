@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleBuffText; }
 #define FJKABDBPFEI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA70EF0)
 #define FJKABDBPFEI_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1CA70F00)
 
+inline static constexpr unsigned int FJKABDBPFEI_TypeDefinitionIndex = 43104;
+
 	class FJKABDBPFEI : public ::BKABEBEPPJK
 	{
 	public:

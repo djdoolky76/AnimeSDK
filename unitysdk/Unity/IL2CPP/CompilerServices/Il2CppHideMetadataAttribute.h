@@ -7,6 +7,8 @@
 
 namespace Unity::IL2CPP::CompilerServices
 {
+	inline static constexpr unsigned int Il2CppHideMetadataAttribute_TypeDefinitionIndex = 3971;
+
 	class Il2CppHideMetadataAttribute : public ::System::Attribute
 	{
 	public:

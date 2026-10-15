@@ -7,6 +7,8 @@ class GGJFAFONDHN;
 #define PNEJMMLABMD_BAPELIFOAID_OFFSET UNITYSDK_OFFSET(0xC3357A0)
 #define PNEJMMLABMD_GDGOFPCGLIH_OFFSET UNITYSDK_OFFSET(0xC3358D0)
 
+inline static constexpr unsigned int PNEJMMLABMD_TypeDefinitionIndex = 49364;
+
 	class PNEJMMLABMD : public ::System::Object
 	{
 	public:

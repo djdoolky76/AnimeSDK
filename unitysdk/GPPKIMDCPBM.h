@@ -61,6 +61,8 @@ namespace System { class String; }
 #define GPPKIMDCPBM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4FE280)
 #define GPPKIMDCPBM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4FE2E0)
 
+inline static constexpr unsigned int GPPKIMDCPBM_TypeDefinitionIndex = 31099;
+
 	class GPPKIMDCPBM : public ::System::Object
 	{
 	public:

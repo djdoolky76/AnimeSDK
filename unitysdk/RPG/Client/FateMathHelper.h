@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateMathHelper_TypeDefinitionIndex = 64025;
+
 	class FateMathHelper : public ::System::Object
 	{
 	public:

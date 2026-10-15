@@ -11,6 +11,8 @@ namespace System { template <typename T> class Func_1; }
 #define HPHANBGPCFH_DOONENTER_OFFSET UNITYSDK_OFFSET(0x15DC7420)
 #define HPHANBGPCFH_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x15DC74A0)
 
+inline static constexpr unsigned int HPHANBGPCFH_TypeDefinitionIndex = 78673;
+
 	class HPHANBGPCFH : public ::FKHGEDHCPHJ
 	{
 	public:

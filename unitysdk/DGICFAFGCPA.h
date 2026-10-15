@@ -10,6 +10,8 @@ namespace UnityEngine { class ScriptableObject; }
 #define DGICFAFGCPA_GMFKFFBMACL_OFFSET UNITYSDK_OFFSET(0xE84AAF0)
 #define DGICFAFGCPA_KBFDFOGDILL_OFFSET UNITYSDK_OFFSET(0xE84AA90)
 
+inline static constexpr unsigned int DGICFAFGCPA_TypeDefinitionIndex = 49529;
+
 	class DGICFAFGCPA : public ::EMLPMKPFLAH
 	{
 	public:

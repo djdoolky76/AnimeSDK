@@ -20,6 +20,8 @@
 #define DCCEKONOPCK_SET_PREVIEWHEALTH_OFFSET UNITYSDK_OFFSET(0xE23AC30)
 #define DCCEKONOPCK_SET_PREVIEWSHIELD_OFFSET UNITYSDK_OFFSET(0xE23AC90)
 
+inline static constexpr unsigned int DCCEKONOPCK_TypeDefinitionIndex = 80823;
+
 	class DCCEKONOPCK : public ::System::Object
 	{
 	public:

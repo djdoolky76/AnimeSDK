@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BAKFGMLEDGK_JPMGFHJMFKG_OFFSET UNITYSDK_OFFSET(0x15E72670)
 #define BAKFGMLEDGK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E714F0)
 
+inline static constexpr unsigned int BAKFGMLEDGK_TypeDefinitionIndex = 55059;
+
 	class BAKFGMLEDGK
 	{
 	public:

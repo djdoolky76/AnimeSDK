@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+inline static constexpr unsigned int CNEKNGIFAPK_TypeDefinitionIndex = 71082;
+
 	struct alignas(4) CNEKNGIFAPK
 	{
 		::System::Boolean JDIOKMBOKCK; // 0x10

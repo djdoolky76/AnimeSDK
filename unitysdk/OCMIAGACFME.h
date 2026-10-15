@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerPamActionPhaseTalk; }
 #define OCMIAGACFME_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBD70C50)
 #define OCMIAGACFME_TICK_OFFSET UNITYSDK_OFFSET(0xBD70CA0)
 
+inline static constexpr unsigned int OCMIAGACFME_TypeDefinitionIndex = 58982;
+
 	class OCMIAGACFME : public ::GELIALJDFBL
 	{
 	public:

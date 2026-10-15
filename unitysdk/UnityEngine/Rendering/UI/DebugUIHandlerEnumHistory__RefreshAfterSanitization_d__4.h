@@ -13,6 +13,8 @@ namespace UnityEngine::Rendering::UI { class DebugUIHandlerEnumHistory; }
 
 namespace UnityEngine::Rendering::UI
 {
+	inline static constexpr unsigned int DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4_TypeDefinitionIndex = 35683;
+
 	template <typename T1, typename T2, typename T3, typename T4>
 	class DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4 : public ::System::Object
 	{

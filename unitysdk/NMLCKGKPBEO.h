@@ -15,6 +15,8 @@ namespace RPG::Client::LimaoNews { class LimaoNewsUserData; }
 #define NMLCKGKPBEO_NJNNFJACGLH_OFFSET UNITYSDK_OFFSET(0xBC8B470)
 #define NMLCKGKPBEO_PAAGOCFDKMF_OFFSET UNITYSDK_OFFSET(0xBC8B120)
 
+inline static constexpr unsigned int NMLCKGKPBEO_TypeDefinitionIndex = 80282;
+
 	class NMLCKGKPBEO : public ::System::Object
 	{
 	public:

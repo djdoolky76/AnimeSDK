@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCurrentAudioLanguage_TypeDefinitionIndex = 23814;
+
 	class ByCurrentAudioLanguage : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

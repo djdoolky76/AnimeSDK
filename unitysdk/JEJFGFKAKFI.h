@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JEJFGFKAKFI_SET_INUPDATE_OFFSET UNITYSDK_OFFSET(0x1662CF00)
 #define JEJFGFKAKFI__STARTUPDATEDATA_B__10_0_OFFSET UNITYSDK_OFFSET(0x1662D380)
 
+inline static constexpr unsigned int JEJFGFKAKFI_TypeDefinitionIndex = 68300;
+
 	class JEJFGFKAKFI : public ::System::Object
 	{
 	public:

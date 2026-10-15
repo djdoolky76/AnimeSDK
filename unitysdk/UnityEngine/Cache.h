@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Cache_TypeDefinitionIndex = 4037;
+
 	struct alignas(4) Cache
 	{
 		::System::Int32 m_Handle; // 0x10

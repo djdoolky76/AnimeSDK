@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EffectMutexConfigData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EffectMutexConfigData_TypeDefinitionIndex = 16488;
+
 	class EffectMutexConfigData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

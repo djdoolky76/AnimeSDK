@@ -34,6 +34,8 @@ namespace System { class String; }
 #define MBOEOEFGEBL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9ECC50)
 #define MBOEOEFGEBL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9ECCB0)
 
+inline static constexpr unsigned int MBOEOEFGEBL_TypeDefinitionIndex = 27577;
+
 	class MBOEOEFGEBL : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System { class Version; }
 
 #define PJOBMDBCOFN_CTOR_OFFSET UNITYSDK_OFFSET(0xC29E2F0)
 
+inline static constexpr unsigned int PJOBMDBCOFN_TypeDefinitionIndex = 82246;
+
 	class PJOBMDBCOFN : public ::System::Object
 	{
 	public:

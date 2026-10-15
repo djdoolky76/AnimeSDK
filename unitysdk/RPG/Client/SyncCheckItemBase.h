@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SyncCheckItemBase_TypeDefinitionIndex = 59897;
+
 	class SyncCheckItemBase : public ::System::Object
 	{
 	public:

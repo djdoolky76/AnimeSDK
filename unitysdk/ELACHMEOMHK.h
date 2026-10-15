@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define ELACHMEOMHK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD989B0)
 #define ELACHMEOMHK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD982D0)
 
+inline static constexpr unsigned int ELACHMEOMHK_TypeDefinitionIndex = 10899;
+
 	class ELACHMEOMHK : public ::System::Object
 	{
 	public:

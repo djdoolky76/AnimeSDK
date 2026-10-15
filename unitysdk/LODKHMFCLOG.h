@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define LODKHMFCLOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B470)
 
+inline static constexpr unsigned int LODKHMFCLOG_TypeDefinitionIndex = 57305;
+
 	struct alignas(8) LODKHMFCLOG
 	{
 		::RPG::GameCore::GameEntity* BBMMBAKDJBC; // 0x10

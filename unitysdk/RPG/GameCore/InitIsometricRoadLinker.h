@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InitIsometricRoadLinker_TypeDefinitionIndex = 22204;
+
 	class InitIsometricRoadLinker : public ::RPG::GameCore::TaskConfig
 	{
 	public:

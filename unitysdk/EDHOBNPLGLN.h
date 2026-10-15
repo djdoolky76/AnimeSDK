@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TransitEnvProfile; }
 #define EDHOBNPLGLN_CTOR_OFFSET UNITYSDK_OFFSET(0x13315CF0)
 #define EDHOBNPLGLN_PLNCKLJOJME_OFFSET UNITYSDK_OFFSET(0x13315D00)
 
+inline static constexpr unsigned int EDHOBNPLGLN_TypeDefinitionIndex = 58765;
+
 	class EDHOBNPLGLN : public ::BAHCPACOGOI
 	{
 	public:

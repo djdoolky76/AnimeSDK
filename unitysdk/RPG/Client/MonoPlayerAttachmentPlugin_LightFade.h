@@ -16,6 +16,8 @@ namespace UnityEngine { class Light; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoPlayerAttachmentPlugin_LightFade_TypeDefinitionIndex = 60146;
+
 	class MonoPlayerAttachmentPlugin_LightFade : public ::UnityEngine::MonoBehaviour
 	{
 	public:

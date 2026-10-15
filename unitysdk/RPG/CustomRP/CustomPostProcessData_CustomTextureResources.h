@@ -8,6 +8,8 @@ namespace UnityEngine { class Texture3D; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CustomPostProcessData_CustomTextureResources_TypeDefinitionIndex = 37772;
+
 	class CustomPostProcessData_CustomTextureResources : public ::System::Object
 	{
 	public:

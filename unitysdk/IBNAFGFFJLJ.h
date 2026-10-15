@@ -17,6 +17,8 @@ namespace RPG::Client::ActivityAlley { class AlleyPackGoodData; }
 #define IBNAFGFFJLJ_NINDHOGICJD_OFFSET UNITYSDK_OFFSET(0x15E42EC0)
 #define IBNAFGFFJLJ_ONSELECT_OFFSET UNITYSDK_OFFSET(0x15E42FC0)
 
+inline static constexpr unsigned int IBNAFGFFJLJ_TypeDefinitionIndex = 74099;
+
 	class IBNAFGFFJLJ : public ::System::Object
 	{
 	public:

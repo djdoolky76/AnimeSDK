@@ -8,6 +8,8 @@ namespace System::Runtime::Remoting::Contexts { class IDynamicProperty; }
 
 namespace System::Runtime::Remoting::Contexts
 {
+	inline static constexpr unsigned int DynamicPropertyCollection_DynamicPropertyReg_TypeDefinitionIndex = 1248;
+
 	class DynamicPropertyCollection_DynamicPropertyReg : public ::System::Object
 	{
 	public:

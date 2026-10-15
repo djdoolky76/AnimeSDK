@@ -30,6 +30,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace SimpleJSON
 {
+	inline static constexpr unsigned int JSONClass_TypeDefinitionIndex = 9960;
+
 	class JSONClass : public ::SimpleJSON::JSONNode
 	{
 	public:

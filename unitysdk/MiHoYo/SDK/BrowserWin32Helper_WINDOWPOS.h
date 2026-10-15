@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int BrowserWin32Helper_WINDOWPOS_TypeDefinitionIndex = 46613;
+
 	struct alignas(4) BrowserWin32Helper_WINDOWPOS
 	{
 		::System::IntPtr hwnd; // 0x10

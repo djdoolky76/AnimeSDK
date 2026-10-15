@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int UIConstants_AccountListLoginOperateAccountStatus_TypeDefinitionIndex = 46848;
+
 	class UIConstants_AccountListLoginOperateAccountStatus : public ::System::Object
 	{
 	public:

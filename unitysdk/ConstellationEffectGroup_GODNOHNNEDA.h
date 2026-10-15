@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 #define CONSTELLATIONEFFECTGROUP_GODNOHNNEDA_IGHHHOJGNAH_OFFSET UNITYSDK_OFFSET(0xDFB3690)
 #define CONSTELLATIONEFFECTGROUP_GODNOHNNEDA_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xDFB31E0)
 
+inline static constexpr unsigned int ConstellationEffectGroup_GODNOHNNEDA_TypeDefinitionIndex = 47331;
+
 	class ConstellationEffectGroup_GODNOHNNEDA : public ::System::Object
 	{
 	public:

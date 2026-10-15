@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define BNAIELOHEFF_MPINOKJDNGC_OFFSET UNITYSDK_OFFSET(0xBDC4C30)
 #define BNAIELOHEFF_OLOBIGFDGLF_OFFSET UNITYSDK_OFFSET(0xBDC4A70)
 
+inline static constexpr unsigned int BNAIELOHEFF_TypeDefinitionIndex = 75013;
+
 	class BNAIELOHEFF : public ::System::Object
 	{
 	public:

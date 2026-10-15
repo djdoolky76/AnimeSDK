@@ -37,6 +37,8 @@ namespace System { class String; }
 #define GJLJLLKPEJH_NDNFBCJOIJO_OFFSET UNITYSDK_OFFSET(0x15A6CF90)
 #define GJLJLLKPEJH_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x15A6D1A0)
 
+inline static constexpr unsigned int GJLJLLKPEJH_TypeDefinitionIndex = 77155;
+
 	class GJLJLLKPEJH : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ShadowUtilsExt_TypeDefinitionIndex = 37903;
+
 	class ShadowUtilsExt : public ::System::Object
 	{
 	public:

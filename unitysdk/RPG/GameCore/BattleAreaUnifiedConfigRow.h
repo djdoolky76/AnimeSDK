@@ -9,6 +9,8 @@ namespace RPG::GameCore { class BattleAreaUnifiedConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleAreaUnifiedConfigRow_TypeDefinitionIndex = 12834;
+
 	class BattleAreaUnifiedConfigRow : public ::System::Object
 	{
 	public:

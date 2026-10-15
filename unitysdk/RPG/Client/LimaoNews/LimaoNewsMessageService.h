@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsMessageService_TypeDefinitionIndex = 80324;
+
 	class LimaoNewsMessageService : public ::System::Object
 	{
 	public:

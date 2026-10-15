@@ -5,6 +5,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int GaussianBlurGradualParameter_TypeDefinitionIndex = 37814;
+
 	class GaussianBlurGradualParameter
 	{
 	public:

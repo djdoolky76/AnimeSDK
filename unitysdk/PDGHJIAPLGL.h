@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PDGHJIAPLGL_KMABPJFINPG_OFFSET UNITYSDK_OFFSET(0xC0123E0)
 #define PDGHJIAPLGL_KPOADMHPMGB_OFFSET UNITYSDK_OFFSET(0xC0129D0)
 
+inline static constexpr unsigned int PDGHJIAPLGL_TypeDefinitionIndex = 64993;
+
 	class PDGHJIAPLGL : public ::System::Object
 	{
 	public:

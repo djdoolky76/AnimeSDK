@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 #define CBHJIDPHFNF_CLEAR_OFFSET UNITYSDK_OFFSET(0xC4A2FD0)
 #define CBHJIDPHFNF_CTOR_OFFSET UNITYSDK_OFFSET(0xC4A3060)
 
+inline static constexpr unsigned int CBHJIDPHFNF_TypeDefinitionIndex = 77797;
+
 	class CBHJIDPHFNF : public ::IAJLHKIHBFB
 	{
 	public:

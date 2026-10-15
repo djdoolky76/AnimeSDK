@@ -7,6 +7,8 @@
 
 namespace RPGTools::RoadGenerator
 {
+	inline static constexpr unsigned int CurveEditPreset_CurveCreateParam_TypeDefinitionIndex = 48864;
+
 	struct alignas(4) CurveEditPreset_CurveCreateParam
 	{
 		::RPGTools::RoadGenerator::CurveCreateMode Mode; // 0x10

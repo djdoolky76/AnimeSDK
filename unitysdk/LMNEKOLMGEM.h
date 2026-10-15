@@ -16,6 +16,8 @@ namespace System::Text { class StringBuilder; }
 #define LMNEKOLMGEM_SET_ID_OFFSET UNITYSDK_OFFSET(0xAF40)
 #define LMNEKOLMGEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1AFE0)
 
+inline static constexpr unsigned int LMNEKOLMGEM_TypeDefinitionIndex = 51961;
+
 	struct alignas(4) LMNEKOLMGEM
 	{
 		::System::UInt32 _ID_k__BackingField; // 0x10

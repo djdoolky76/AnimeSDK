@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyDragMapCmpt_TypeDefinitionIndex = 72843;
+
 	class MonopolyDragMapCmpt : public ::UnityEngine::MonoBehaviour
 	{
 	public:

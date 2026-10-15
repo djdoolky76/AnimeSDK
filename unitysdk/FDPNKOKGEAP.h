@@ -25,6 +25,8 @@ namespace System { class String; }
 #define FDPNKOKGEAP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E35EED0)
 #define FDPNKOKGEAP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E35EF30)
 
+inline static constexpr unsigned int FDPNKOKGEAP_TypeDefinitionIndex = 27427;
+
 	class FDPNKOKGEAP : public ::System::Object
 	{
 	public:

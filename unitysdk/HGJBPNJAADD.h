@@ -95,6 +95,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HGJBPNJAADD_SET_ULTIMATERIGBLENDTARGET_OFFSET UNITYSDK_OFFSET(0x15CA1160)
 #define HGJBPNJAADD_SET_ULTIMATERIGBLENDWEIGHT_OFFSET UNITYSDK_OFFSET(0x15CA1120)
 
+inline static constexpr unsigned int HGJBPNJAADD_TypeDefinitionIndex = 75933;
+
 	class HGJBPNJAADD : public ::System::Object
 	{
 	public:

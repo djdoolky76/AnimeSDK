@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AlleyUtils_TypeDefinitionIndex = 62271;
+
 	class AlleyUtils : public ::System::Object
 	{
 	public:

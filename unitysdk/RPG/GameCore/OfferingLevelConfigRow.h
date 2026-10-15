@@ -10,6 +10,8 @@ namespace RPG::GameCore { class OfferingLevelConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OfferingLevelConfigRow_TypeDefinitionIndex = 14293;
+
 	class OfferingLevelConfigRow : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class WaypointConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaypointConfig_TypeDefinitionIndex = 17491;
+
 	class WaypointConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

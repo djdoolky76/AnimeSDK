@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TreasureDungeonEnemyConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TreasureDungeonMonsterGrid_TypeDefinitionIndex = 68197;
+
 	class TreasureDungeonMonsterGrid : public ::RPG::Client::TreasureDungeonBaseGrid
 	{
 	public:

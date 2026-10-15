@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::UI::External::OS
 {
+	inline static constexpr unsigned int ConfirmPluginUI_TypeDefinitionIndex = 8407;
+
 	class ConfirmPluginUI : public ::System::Object
 	{
 	public:

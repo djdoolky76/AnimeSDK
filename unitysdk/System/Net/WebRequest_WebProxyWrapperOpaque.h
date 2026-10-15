@@ -11,6 +11,8 @@ namespace System::Net { class WebProxy; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int WebRequest_WebProxyWrapperOpaque_TypeDefinitionIndex = 2768;
+
 	class WebRequest_WebProxyWrapperOpaque : public ::System::Object
 	{
 	public:

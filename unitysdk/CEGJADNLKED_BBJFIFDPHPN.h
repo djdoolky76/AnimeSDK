@@ -5,6 +5,8 @@ class GELIALJDFBL;
 
 #define CEGJADNLKED_BBJFIFDPHPN_CTOR_OFFSET UNITYSDK_OFFSET(0xC9DB2A0)
 
+inline static constexpr unsigned int CEGJADNLKED_BBJFIFDPHPN_TypeDefinitionIndex = 56872;
+
 	class CEGJADNLKED_BBJFIFDPHPN : public ::System::Object
 	{
 	public:

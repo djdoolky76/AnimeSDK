@@ -32,6 +32,8 @@ namespace System { class String; }
 #define CHKKOLCPBOH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0CA1C0)
 #define CHKKOLCPBOH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0CA220)
 
+inline static constexpr unsigned int CHKKOLCPBOH_TypeDefinitionIndex = 32386;
+
 	class CHKKOLCPBOH : public ::System::Object
 	{
 	public:

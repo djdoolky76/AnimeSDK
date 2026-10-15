@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitAllProjectileFinish; }
 #define KHCLNOMEIEA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB3FF750)
 #define KHCLNOMEIEA_TICK_OFFSET UNITYSDK_OFFSET(0xB3FF7A0)
 
+inline static constexpr unsigned int KHCLNOMEIEA_TypeDefinitionIndex = 55805;
+
 	class KHCLNOMEIEA : public ::GELIALJDFBL
 	{
 	public:

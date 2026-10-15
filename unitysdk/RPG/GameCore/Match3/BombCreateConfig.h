@@ -11,6 +11,8 @@ namespace RPG::GameCore::Match3 { class BombCreateConfig; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int BombCreateConfig_TypeDefinitionIndex = 24868;
+
 	class BombCreateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

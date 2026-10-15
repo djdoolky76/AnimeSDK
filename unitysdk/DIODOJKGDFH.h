@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DIODOJKGDFH_CTOR_OFFSET UNITYSDK_OFFSET(0xF224F20)
 #define DIODOJKGDFH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF225000)
 
+inline static constexpr unsigned int DIODOJKGDFH_TypeDefinitionIndex = 55405;
+
 	class DIODOJKGDFH
 	{
 	public:

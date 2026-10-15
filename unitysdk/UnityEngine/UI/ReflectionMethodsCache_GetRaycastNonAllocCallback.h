@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int ReflectionMethodsCache_GetRaycastNonAllocCallback_TypeDefinitionIndex = 6882;
+
 	class ReflectionMethodsCache_GetRaycastNonAllocCallback : public ::System::MulticastDelegate
 	{
 	public:

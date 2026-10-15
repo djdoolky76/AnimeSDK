@@ -28,6 +28,8 @@ namespace System { class String; }
 #define MHJIOJNNPDM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA33210)
 #define MHJIOJNNPDM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA33270)
 
+inline static constexpr unsigned int MHJIOJNNPDM_TypeDefinitionIndex = 29484;
+
 	class MHJIOJNNPDM : public ::System::Object
 	{
 	public:

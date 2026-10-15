@@ -6,6 +6,8 @@
 #define JAMLOIADIDB_GET_SHOWBG_OFFSET UNITYSDK_OFFSET(0x1655B930)
 #define JAMLOIADIDB_SET_SHOWBG_OFFSET UNITYSDK_OFFSET(0x1655B940)
 
+inline static constexpr unsigned int JAMLOIADIDB_TypeDefinitionIndex = 79136;
+
 	class JAMLOIADIDB : public ::System::Object
 	{
 	public:

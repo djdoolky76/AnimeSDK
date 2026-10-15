@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowPerformanceRollingSubtitles_TypeDefinitionIndex = 21943;
+
 	class ShowPerformanceRollingSubtitles : public ::RPG::GameCore::TaskConfig
 	{
 	public:

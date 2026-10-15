@@ -7,6 +7,8 @@ class NIOHDNNONNN;
 #define NIOHDNNONNN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D214BB0)
 #define NIOHDNNONNN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D214A20)
 
+inline static constexpr unsigned int NIOHDNNONNN_TypeDefinitionIndex = 13945;
+
 	class NIOHDNNONNN : public ::System::Object
 	{
 	public:

@@ -52,6 +52,8 @@ namespace UnityEngine { class Transform; }
 #define GJPBCNIIEOB__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x15A807F0)
 #define GJPBCNIIEOB___REFRESHTARGETMARK_B__39_0_OFFSET UNITYSDK_OFFSET(0x15A821D0)
 
+inline static constexpr unsigned int GJPBCNIIEOB_TypeDefinitionIndex = 71262;
+
 	class GJPBCNIIEOB : public ::CAOEEDDAPIK
 	{
 	public:

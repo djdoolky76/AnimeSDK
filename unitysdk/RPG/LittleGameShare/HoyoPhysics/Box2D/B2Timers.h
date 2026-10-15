@@ -12,6 +12,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Timers_TypeDefinitionIndex = 36792;
+
 	class B2Timers : public ::System::Object
 	{
 	public:

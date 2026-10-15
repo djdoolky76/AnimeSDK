@@ -35,6 +35,8 @@ namespace System { class String; }
 #define OKPLFBLIDFF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEA2700)
 #define OKPLFBLIDFF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEA2760)
 
+inline static constexpr unsigned int OKPLFBLIDFF_TypeDefinitionIndex = 30942;
+
 	class OKPLFBLIDFF : public ::System::Object
 	{
 	public:

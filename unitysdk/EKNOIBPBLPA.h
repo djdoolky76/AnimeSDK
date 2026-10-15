@@ -17,6 +17,8 @@ namespace System { class Object; }
 #define EKNOIBPBLPA_KFPIIOKMALE_OFFSET UNITYSDK_OFFSET(0x15510BC0)
 #define EKNOIBPBLPA_REVERSE_OFFSET UNITYSDK_OFFSET(0x15510B30)
 
+inline static constexpr unsigned int EKNOIBPBLPA_TypeDefinitionIndex = 73556;
+
 	class EKNOIBPBLPA : public ::GHJDEAEBHGA
 	{
 	public:

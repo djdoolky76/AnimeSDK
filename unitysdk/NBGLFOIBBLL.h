@@ -27,6 +27,8 @@ namespace System { class String; }
 #define NBGLFOIBBLL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAD11F0)
 #define NBGLFOIBBLL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAD1250)
 
+inline static constexpr unsigned int NBGLFOIBBLL_TypeDefinitionIndex = 35138;
+
 	class NBGLFOIBBLL : public ::System::Object
 	{
 	public:

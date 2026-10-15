@@ -9,6 +9,8 @@ namespace UnityEngine { class Animation; }
 #define STAGEHARMONYANIMATIONLINKSLOT_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xE98AE70)
 #define STAGEHARMONYANIMATIONLINKSLOT_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xE98AED0)
 
+inline static constexpr unsigned int StageHarmonyAnimationLinkSlot_TypeDefinitionIndex = 47534;
+
 	class StageHarmonyAnimationLinkSlot : public ::StageHarmonyBaseLinkSlot
 	{
 	public:

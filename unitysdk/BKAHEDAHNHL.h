@@ -29,6 +29,8 @@ namespace System { class String; }
 #define BKAHEDAHNHL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF4D1F0)
 #define BKAHEDAHNHL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF4D250)
 
+inline static constexpr unsigned int BKAHEDAHNHL_TypeDefinitionIndex = 30879;
+
 	class BKAHEDAHNHL : public ::System::Object
 	{
 	public:

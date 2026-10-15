@@ -19,6 +19,8 @@ namespace XLua { class LuaMemoryLeakChecker_Data; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int LuaMemoryLeakChecker_TypeDefinitionIndex = 50059;
+
 	class LuaMemoryLeakChecker : public ::System::Object
 	{
 	public:

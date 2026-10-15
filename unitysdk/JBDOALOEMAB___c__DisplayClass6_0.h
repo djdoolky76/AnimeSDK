@@ -8,6 +8,8 @@ namespace RPG::GameCore { class ChimeraDuelMasterSelectorConfig; }
 #define JBDOALOEMAB___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16569570)
 #define JBDOALOEMAB___C__DISPLAYCLASS6_0___SELECTENTITIES_B__0_OFFSET UNITYSDK_OFFSET(0x16569760)
 
+inline static constexpr unsigned int JBDOALOEMAB___c__DisplayClass6_0_TypeDefinitionIndex = 77638;
+
 	class JBDOALOEMAB___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

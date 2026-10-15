@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CNHEMPIBODK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xDA51E00)
 #define CNHEMPIBODK_TICK_OFFSET UNITYSDK_OFFSET(0xDA51E50)
 
+inline static constexpr unsigned int CNHEMPIBODK_TypeDefinitionIndex = 58055;
+
 	class CNHEMPIBODK : public ::GELIALJDFBL
 	{
 	public:

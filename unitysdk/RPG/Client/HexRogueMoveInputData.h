@@ -13,6 +13,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HexRogueMoveInputData_TypeDefinitionIndex = 68923;
+
 	class HexRogueMoveInputData : public ::System::Object
 	{
 	public:

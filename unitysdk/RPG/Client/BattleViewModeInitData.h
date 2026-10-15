@@ -26,6 +26,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleViewModeInitData_TypeDefinitionIndex = 72089;
+
 	class BattleViewModeInitData : public ::System::Object
 	{
 	public:

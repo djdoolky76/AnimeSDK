@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define EFGOEFCCMNE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13A4BF10)
 #define EFGOEFCCMNE_TICK_OFFSET UNITYSDK_OFFSET(0x13A4BF60)
 
+inline static constexpr unsigned int EFGOEFCCMNE_TypeDefinitionIndex = 58123;
+
 	class EFGOEFCCMNE : public ::GELIALJDFBL
 	{
 	public:

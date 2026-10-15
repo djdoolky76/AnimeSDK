@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class Text; }
 #define MEBHHNCLCIF_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xB8B8AB0)
 #define MEBHHNCLCIF_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xB8B8B20)
 
+inline static constexpr unsigned int MEBHHNCLCIF_TypeDefinitionIndex = 72927;
+
 	class MEBHHNCLCIF : public ::LBAMBIMMJKB
 	{
 	public:

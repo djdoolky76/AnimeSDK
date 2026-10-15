@@ -6,6 +6,8 @@ namespace Proto { class MonopolyActionResult; }
 #define KLPBHOIGLJH_CTOR_OFFSET UNITYSDK_OFFSET(0xB5364C0)
 #define KLPBHOIGLJH_TRIGGER_OFFSET UNITYSDK_OFFSET(0xB536480)
 
+inline static constexpr unsigned int KLPBHOIGLJH_TypeDefinitionIndex = 66242;
+
 	class KLPBHOIGLJH : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine { class Sprite; }
 
 namespace Spine::Unity::AttachmentTools
 {
+	inline static constexpr unsigned int AttachmentCloneExtensions_TypeDefinitionIndex = 45114;
+
 	class AttachmentCloneExtensions : public ::System::Object
 	{
 	public:

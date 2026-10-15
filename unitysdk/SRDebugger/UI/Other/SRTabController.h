@@ -30,6 +30,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace SRDebugger::UI::Other
 {
+	inline static constexpr unsigned int SRTabController_TypeDefinitionIndex = 38012;
+
 	class SRTabController : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

@@ -39,6 +39,8 @@ namespace RPG::GameCore { class ChenLingEnemyRow; }
 #define PNFAENKDBIJ_SET_SOLDIERID_OFFSET UNITYSDK_OFFSET(0xC336430)
 #define PNFAENKDBIJ_SET_UNITID_OFFSET UNITYSDK_OFFSET(0xC336410)
 
+inline static constexpr unsigned int PNFAENKDBIJ_TypeDefinitionIndex = 77981;
+
 	class PNFAENKDBIJ : public ::System::Object
 	{
 	public:

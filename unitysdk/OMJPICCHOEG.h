@@ -28,6 +28,8 @@ namespace System { class String; }
 #define OMJPICCHOEG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEB85E0)
 #define OMJPICCHOEG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEB8640)
 
+inline static constexpr unsigned int OMJPICCHOEG_TypeDefinitionIndex = 30176;
+
 	class OMJPICCHOEG : public ::System::Object
 	{
 	public:

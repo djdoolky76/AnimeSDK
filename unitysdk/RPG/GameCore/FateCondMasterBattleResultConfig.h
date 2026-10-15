@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateCondMasterBattleResultConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateCondMasterBattleResultConfig_TypeDefinitionIndex = 19252;
+
 	class FateCondMasterBattleResultConfig : public ::RPG::GameCore::FateConditionConfigBase
 	{
 	public:

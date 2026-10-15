@@ -16,6 +16,8 @@ namespace UnityEngine { class MonoBehaviour; }
 
 #define FOPMCFANCBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA71F20)
 
+inline static constexpr unsigned int FOPMCFANCBP_TypeDefinitionIndex = 43184;
+
 	class FOPMCFANCBP : public ::System::Object
 	{
 	public:

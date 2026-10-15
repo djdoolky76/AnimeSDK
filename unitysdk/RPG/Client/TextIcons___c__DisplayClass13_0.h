@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TextIcons___c__DisplayClass13_0_TypeDefinitionIndex = 72684;
+
 	class TextIcons___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

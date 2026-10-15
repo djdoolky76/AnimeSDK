@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int DLSSPass___c_TypeDefinitionIndex = 37563;
+
 	class DLSSPass___c : public ::System::Object
 	{
 	public:

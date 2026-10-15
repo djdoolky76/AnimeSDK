@@ -8,6 +8,8 @@ namespace SuperScrollView { class LoopListViewInitParam; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int LoopListViewInitParam_TypeDefinitionIndex = 47662;
+
 	class LoopListViewInitParam : public ::System::Object
 	{
 	public:

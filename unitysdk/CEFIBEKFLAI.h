@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CEFIBEKFLAI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC785CC0)
 #define CEFIBEKFLAI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC7861B0)
 
+inline static constexpr unsigned int CEFIBEKFLAI_TypeDefinitionIndex = 52255;
+
 	class CEFIBEKFLAI
 	{
 	public:

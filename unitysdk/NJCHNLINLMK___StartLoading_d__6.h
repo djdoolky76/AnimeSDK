@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define NJCHNLINLMK___STARTLOADING_D__6_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xBC0ACE0)
 #define NJCHNLINLMK___STARTLOADING_D__6_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBC0A3F0)
 
+inline static constexpr unsigned int NJCHNLINLMK___StartLoading_d__6_TypeDefinitionIndex = 59440;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	class NJCHNLINLMK___StartLoading_d__6 : public ::System::Object
 	{

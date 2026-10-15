@@ -32,6 +32,8 @@ namespace System { class String; }
 #define LDJFPALJFEK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8FA480)
 #define LDJFPALJFEK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8FA4E0)
 
+inline static constexpr unsigned int LDJFPALJFEK_TypeDefinitionIndex = 31187;
+
 	class LDJFPALJFEK : public ::System::Object
 	{
 	public:

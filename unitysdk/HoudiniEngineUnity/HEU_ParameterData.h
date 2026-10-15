@@ -48,6 +48,8 @@ namespace UnityEngine { class Gradient; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_ParameterData_TypeDefinitionIndex = 40547;
+
 	class HEU_ParameterData : public ::System::Object
 	{
 	public:

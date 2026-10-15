@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionAfterCoinNumChangeConf
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionAfterCoinNumChangeConfig_TypeDefinitionIndex = 17983;
+
 	class RogueModifierExecuteActionAfterCoinNumChangeConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

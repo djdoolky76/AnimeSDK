@@ -112,6 +112,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IPOPGAAKKAD_SET_SECTIONREGIONS_OFFSET UNITYSDK_OFFSET(0x1C6F0540)
 #define IPOPGAAKKAD_SET_TRAPENTITYGROUP_OFFSET UNITYSDK_OFFSET(0x1C6F0710)
 
+inline static constexpr unsigned int IPOPGAAKKAD_TypeDefinitionIndex = 37303;
+
 	class IPOPGAAKKAD : public ::System::Object
 	{
 	public:

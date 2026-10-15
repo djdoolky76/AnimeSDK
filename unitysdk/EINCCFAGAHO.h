@@ -5,6 +5,8 @@
 
 #define EINCCFAGAHO_CTOR_OFFSET UNITYSDK_OFFSET(0x154D2CE0)
 
+inline static constexpr unsigned int EINCCFAGAHO_TypeDefinitionIndex = 61119;
+
 	class EINCCFAGAHO : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersBubbleData_TypeDefinitionIndex = 79021;
+
 	class TeamTowersBubbleData : public ::System::Object
 	{
 	public:

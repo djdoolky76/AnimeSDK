@@ -31,6 +31,8 @@ namespace System { class String; }
 #define PGNEMAJPKND_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF35900)
 #define PGNEMAJPKND_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF35960)
 
+inline static constexpr unsigned int PGNEMAJPKND_TypeDefinitionIndex = 31592;
+
 	class PGNEMAJPKND : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace Spine
 {
+	inline static constexpr unsigned int SkeletonBinary_Vertices_TypeDefinitionIndex = 39687;
+
 	class SkeletonBinary_Vertices : public ::System::Object
 	{
 	public:

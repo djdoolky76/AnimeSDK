@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LoginModule_PlayerLoginSuccessNotifyParams_TypeDefinitionIndex = 65783;
+
 	class LoginModule_PlayerLoginSuccessNotifyParams : public ::System::Object
 	{
 	public:

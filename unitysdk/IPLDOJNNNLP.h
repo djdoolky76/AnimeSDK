@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IPLDOJNNNLP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CF31E50)
 #define IPLDOJNNNLP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CF32350)
 
+inline static constexpr unsigned int IPLDOJNNNLP_TypeDefinitionIndex = 15264;
+
 	class IPLDOJNNNLP : public ::System::Object
 	{
 	public:

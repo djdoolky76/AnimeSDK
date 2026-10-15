@@ -12,6 +12,8 @@ namespace UnityEngine { class Renderer; }
 #define EFFECT_SETWEAPONOBJCENTER_START_OFFSET UNITYSDK_OFFSET(0x155E30B0)
 #define EFFECT_SETWEAPONOBJCENTER_UPDATE_OFFSET UNITYSDK_OFFSET(0x155E3110)
 
+inline static constexpr unsigned int Effect_SetWeaponObjCenter_TypeDefinitionIndex = 47457;
+
 	class Effect_SetWeaponObjCenter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int Util_TypeDefinitionIndex = 39567;
+
 	class Util : public ::System::Object
 	{
 	public:

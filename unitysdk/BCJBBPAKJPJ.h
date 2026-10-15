@@ -6,6 +6,8 @@
 #define BCJBBPAKJPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15EAAA70)
 #define BCJBBPAKJPJ_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x15EAAA80)
 
+inline static constexpr unsigned int BCJBBPAKJPJ_TypeDefinitionIndex = 62532;
+
 	class BCJBBPAKJPJ : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NDFONLJMIJE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D1F8860)
 #define NDFONLJMIJE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D1F8180)
 
+inline static constexpr unsigned int NDFONLJMIJE_TypeDefinitionIndex = 12228;
+
 	class NDFONLJMIJE : public ::System::Object
 	{
 	public:

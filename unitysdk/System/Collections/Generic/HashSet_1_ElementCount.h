@@ -3,6 +3,8 @@
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int HashSet_1_ElementCount_TypeDefinitionIndex = 3697;
+
 	template <typename T>
 	struct alignas(4) HashSet_1_ElementCount
 	{

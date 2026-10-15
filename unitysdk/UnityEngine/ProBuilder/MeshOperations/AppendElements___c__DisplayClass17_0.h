@@ -9,6 +9,8 @@
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int AppendElements___c__DisplayClass17_0_TypeDefinitionIndex = 44476;
+
 	class AppendElements___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore::Match3 { class ActionRoleCondition; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int ActionRoleCondition_TypeDefinitionIndex = 24890;
+
 	class ActionRoleCondition : public ::RPG::GameCore::Match3::Match3ConditionBase
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightWeeklyScore___c__DisplayClass16_0_TypeDefinitionIndex = 65527;
+
 	class GridFightWeeklyScore___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:

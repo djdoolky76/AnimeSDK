@@ -111,6 +111,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int TimeZoneInfo_TypeDefinitionIndex = 343;
+
 	class TimeZoneInfo : public ::System::Object
 	{
 	public:

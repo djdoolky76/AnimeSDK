@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HideMonsterSkillInViewMode_TypeDefinitionIndex = 23191;
+
 	class HideMonsterSkillInViewMode : public ::RPG::GameCore::TaskConfig
 	{
 	public:

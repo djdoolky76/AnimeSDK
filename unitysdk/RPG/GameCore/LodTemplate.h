@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LodTemplate_TypeDefinitionIndex = 19198;
+
 	class LodTemplate : public ::RPG::GameCore::JsonConfig
 	{
 	public:

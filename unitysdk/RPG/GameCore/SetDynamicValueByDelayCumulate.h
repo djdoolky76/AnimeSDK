@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByDelayCumulate_TypeDefinitionIndex = 23584;
+
 	class SetDynamicValueByDelayCumulate : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JKCPMBNBMPG_KDGDOGEFKPB_OFFSET UNITYSDK_OFFSET(0xB215760)
 #define JKCPMBNBMPG_LNNICOPFEBI_OFFSET UNITYSDK_OFFSET(0xB215260)
 
+inline static constexpr unsigned int JKCPMBNBMPG_TypeDefinitionIndex = 71686;
+
 	class JKCPMBNBMPG : public ::System::Object
 	{
 	public:

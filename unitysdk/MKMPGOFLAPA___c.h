@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MKMPGOFLAPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA5B430)
 #define MKMPGOFLAPA___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1EA5B440)
 
+inline static constexpr unsigned int MKMPGOFLAPA___c_TypeDefinitionIndex = 32409;
+
 	class MKMPGOFLAPA___c : public ::System::Object
 	{
 	public:

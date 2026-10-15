@@ -7,6 +7,8 @@ namespace System { class Object; }
 #define FMAPHFIJDBK_CTOR_OFFSET UNITYSDK_OFFSET(0x15844B10)
 #define FMAPHFIJDBK_KKKKNGADDHP_OFFSET UNITYSDK_OFFSET(0x15844B20)
 
+inline static constexpr unsigned int FMAPHFIJDBK_TypeDefinitionIndex = 66684;
+
 	class FMAPHFIJDBK : public ::FFAOGKGJGPO
 	{
 	public:

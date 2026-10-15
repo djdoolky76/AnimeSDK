@@ -9,6 +9,8 @@ namespace UnityEngine::Rendering { class BatchAnimationClip; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BatchAnimationGraphMaskLayerConfig_TypeDefinitionIndex = 60012;
+
 	class BatchAnimationGraphMaskLayerConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define EEDCFLNFDON_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD74500)
 #define EEDCFLNFDON_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD73DE0)
 
+inline static constexpr unsigned int EEDCFLNFDON_TypeDefinitionIndex = 12090;
+
 	class EEDCFLNFDON : public ::System::Object
 	{
 	public:

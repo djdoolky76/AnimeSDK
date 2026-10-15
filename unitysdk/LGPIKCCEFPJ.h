@@ -7,6 +7,8 @@
 
 #define LGPIKCCEFPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90EB30)
 
+inline static constexpr unsigned int LGPIKCCEFPJ_TypeDefinitionIndex = 43172;
+
 	class LGPIKCCEFPJ : public ::System::Object
 	{
 	public:

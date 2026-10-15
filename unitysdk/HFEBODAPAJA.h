@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define HFEBODAPAJA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE9F460)
 #define HFEBODAPAJA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE9F370)
 
+inline static constexpr unsigned int HFEBODAPAJA_TypeDefinitionIndex = 22119;
+
 	class HFEBODAPAJA : public ::RPG::GameCore::TaskConfig
 	{
 	public:

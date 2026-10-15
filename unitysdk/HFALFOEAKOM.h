@@ -6,6 +6,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 #define HFALFOEAKOM_CCTOR_OFFSET UNITYSDK_OFFSET(0x15C677F0)
 #define HFALFOEAKOM_CTOR_OFFSET UNITYSDK_OFFSET(0x15C677E0)
 
+inline static constexpr unsigned int HFALFOEAKOM_TypeDefinitionIndex = 67561;
+
 	class HFALFOEAKOM : public ::System::Object
 	{
 	public:

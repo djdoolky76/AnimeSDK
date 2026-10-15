@@ -9,6 +9,8 @@ class POHKBAILKGD;
 #define CCFMKKBEGFH_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C8DCE60)
 #define CCFMKKBEGFH_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C8DCD70)
 
+inline static constexpr unsigned int CCFMKKBEGFH_TypeDefinitionIndex = 42140;
+
 	class CCFMKKBEGFH : public ::System::Object
 	{
 	public:

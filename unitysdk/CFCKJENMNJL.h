@@ -4,6 +4,8 @@
 #define CFCKJENMNJL_CTOR_OFFSET UNITYSDK_OFFSET(0xCA0A0C0)
 #define CFCKJENMNJL_GGNBOEIMEPM_OFFSET UNITYSDK_OFFSET(0xCA09B20)
 
+inline static constexpr unsigned int CFCKJENMNJL_TypeDefinitionIndex = 68698;
+
 	class CFCKJENMNJL
 	{
 	public:

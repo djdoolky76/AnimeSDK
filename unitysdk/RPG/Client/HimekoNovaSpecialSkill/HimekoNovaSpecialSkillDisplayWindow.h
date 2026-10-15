@@ -42,6 +42,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::HimekoNovaSpecialSkill
 {
+	inline static constexpr unsigned int HimekoNovaSpecialSkillDisplayWindow_TypeDefinitionIndex = 80489;
+
 	class HimekoNovaSpecialSkillDisplayWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LGameEntityRef; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LGameEntityRef_TypeDefinitionIndex = 18898;
+
 	class LGameEntityRef : public ::RPG::GameCore::JsonConfig
 	{
 	public:

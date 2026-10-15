@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int ParkourSkillConfig_Random_TypeDefinitionIndex = 74129;
+
 	class ParkourSkillConfig_Random : public ::RPG::Client::ParkourGame::ParkourSkillConfig
 	{
 	public:

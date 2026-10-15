@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimDynamicVar; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimDynamicVar_TypeDefinitionIndex = 18872;
+
 	class FiveDimDynamicVar : public ::RPG::GameCore::LittleGameDynamicVar
 	{
 	public:

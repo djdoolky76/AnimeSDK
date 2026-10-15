@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FHNLBDMKPEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E392850)
 #define FHNLBDMKPEM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3928B0)
 
+inline static constexpr unsigned int FHNLBDMKPEM_TypeDefinitionIndex = 29434;
+
 	class FHNLBDMKPEM : public ::System::Object
 	{
 	public:

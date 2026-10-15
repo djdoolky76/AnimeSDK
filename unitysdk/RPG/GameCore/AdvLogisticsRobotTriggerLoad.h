@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvLogisticsRobotTriggerLoad; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvLogisticsRobotTriggerLoad_TypeDefinitionIndex = 21199;
+
 	class AdvLogisticsRobotTriggerLoad : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int UIConstants_OverseaAccountListLogoutConfirmOption_TypeDefinitionIndex = 46875;
+
 	class UIConstants_OverseaAccountListLogoutConfirmOption : public ::System::Object
 	{
 	public:

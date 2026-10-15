@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByMaxBP_TypeDefinitionIndex = 23582;
+
 	class SetDynamicValueByMaxBP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

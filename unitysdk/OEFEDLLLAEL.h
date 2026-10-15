@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define OEFEDLLLAEL_CTOR_OFFSET UNITYSDK_OFFSET(0xBE2B7B0)
 #define OEFEDLLLAEL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBE2B6F0)
 
+inline static constexpr unsigned int OEFEDLLLAEL_TypeDefinitionIndex = 53861;
+
 	class OEFEDLLLAEL : public ::System::Object
 	{
 	public:

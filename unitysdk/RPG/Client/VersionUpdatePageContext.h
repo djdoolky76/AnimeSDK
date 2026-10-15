@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VersionUpdatePageContext_TypeDefinitionIndex = 73195;
+
 	class VersionUpdatePageContext : public ::RPG::Client::UIController
 	{
 	public:

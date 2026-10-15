@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Recommend
 {
+	inline static constexpr unsigned int GoodRelicEvaluator_TypeDefinitionIndex = 74458;
+
 	class GoodRelicEvaluator : public ::System::Object
 	{
 	public:

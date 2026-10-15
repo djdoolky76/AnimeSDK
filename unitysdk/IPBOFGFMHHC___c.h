@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define IPBOFGFMHHC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6DDB70)
 #define IPBOFGFMHHC___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E6DDB80)
 
+inline static constexpr unsigned int IPBOFGFMHHC___c_TypeDefinitionIndex = 31314;
+
 	class IPBOFGFMHHC___c : public ::System::Object
 	{
 	public:

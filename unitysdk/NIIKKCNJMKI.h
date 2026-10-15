@@ -6,6 +6,8 @@
 #define NIIKKCNJMKI_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xBBECD10)
 #define NIIKKCNJMKI_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xBBECD20)
 
+inline static constexpr unsigned int NIIKKCNJMKI_TypeDefinitionIndex = 74018;
+
 	class NIIKKCNJMKI : public ::HPGKMODCGOD
 	{
 	public:

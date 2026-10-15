@@ -29,6 +29,8 @@ namespace System { class String; }
 #define EMLFDPFAPJP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2E62D0)
 #define EMLFDPFAPJP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2E6330)
 
+inline static constexpr unsigned int EMLFDPFAPJP_TypeDefinitionIndex = 25555;
+
 	class EMLFDPFAPJP : public ::System::Object
 	{
 	public:

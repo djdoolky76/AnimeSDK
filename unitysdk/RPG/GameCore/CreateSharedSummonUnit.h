@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CreateSharedSummonUnit_TypeDefinitionIndex = 21162;
+
 	class CreateSharedSummonUnit : public ::RPG::GameCore::TaskConfig
 	{
 	public:

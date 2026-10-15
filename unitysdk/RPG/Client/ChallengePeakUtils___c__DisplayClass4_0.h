@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengePeakUtils___c__DisplayClass4_0_TypeDefinitionIndex = 63198;
+
 	class ChallengePeakUtils___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

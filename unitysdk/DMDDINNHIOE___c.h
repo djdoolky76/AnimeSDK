@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define DMDDINNHIOE___C___CCTOR_B__28_1_OFFSET UNITYSDK_OFFSET(0x1E1EAD80)
 #define DMDDINNHIOE___C___CCTOR_B__28_2_OFFSET UNITYSDK_OFFSET(0x1E1EAD90)
 
+inline static constexpr unsigned int DMDDINNHIOE___c_TypeDefinitionIndex = 30193;
+
 	class DMDDINNHIOE___c : public ::System::Object
 	{
 	public:

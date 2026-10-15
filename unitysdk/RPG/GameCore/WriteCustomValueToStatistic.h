@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WriteCustomValueToStatistic_TypeDefinitionIndex = 23658;
+
 	class WriteCustomValueToStatistic : public ::RPG::GameCore::TaskConfig
 	{
 	public:

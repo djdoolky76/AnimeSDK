@@ -7,6 +7,8 @@
 
 namespace RPG::Client::Compliance::Ftc::DropLink
 {
+	inline static constexpr unsigned int FtcDropLinkDirectPurchaseJumpCommand_TypeDefinitionIndex = 74816;
+
 	class FtcDropLinkDirectPurchaseJumpCommand : public ::System::Object
 	{
 	public:

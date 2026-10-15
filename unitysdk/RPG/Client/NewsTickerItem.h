@@ -16,6 +16,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NewsTickerItem_TypeDefinitionIndex = 68995;
+
 	class NewsTickerItem : public ::System::Object
 	{
 	public:

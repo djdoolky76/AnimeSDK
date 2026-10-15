@@ -11,6 +11,8 @@ namespace System::Globalization { class CompareInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int InvariantComparer_TypeDefinitionIndex = 2459;
+
 	class InvariantComparer : public ::System::Object
 	{
 	public:

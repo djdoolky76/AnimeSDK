@@ -7,6 +7,8 @@ namespace RPG::GameCore { class CakeRacePickupItemConfig; }
 #define ENDBKLKOBFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C605460)
 #define ENDBKLKOBFP_IAEKDNGGBEN_OFFSET UNITYSDK_OFFSET(0x1C6053A0)
 
+inline static constexpr unsigned int ENDBKLKOBFP_TypeDefinitionIndex = 37256;
+
 	class ENDBKLKOBFP : public ::System::Object
 	{
 	public:

@@ -52,6 +52,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int MeshGenerator_TypeDefinitionIndex = 45081;
+
 	class MeshGenerator : public ::System::Object
 	{
 	public:

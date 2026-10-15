@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaGameLevelUndeterminedRoomData_TypeDefinitionIndex = 67719;
+
 	class RogueTournPersonaGameLevelUndeterminedRoomData : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CMOJGMOMFPK___C__CREATE_B__0_3_OFFSET UNITYSDK_OFFSET(0xDA41A90)
 #define CMOJGMOMFPK___C__CREATE_B__0_4_OFFSET UNITYSDK_OFFSET(0xDA41AB0)
 
+inline static constexpr unsigned int CMOJGMOMFPK___c_TypeDefinitionIndex = 61569;
+
 	class CMOJGMOMFPK___c : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MessageSpecialChangeRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MessageSpecialChangeRow_TypeDefinitionIndex = 14479;
+
 	class MessageSpecialChangeRow : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int LightPositionMode_TypeDefinitionIndex = 48690;
+
 	enum class LightPositionMode : ::System::Int32
 	{
 		World = 0,

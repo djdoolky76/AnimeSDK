@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DarkTeamFightFormationParams; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DarkTeamFightFormationParams_TypeDefinitionIndex = 16577;
+
 	class DarkTeamFightFormationParams : public ::RPG::GameCore::JsonConfig
 	{
 	public:

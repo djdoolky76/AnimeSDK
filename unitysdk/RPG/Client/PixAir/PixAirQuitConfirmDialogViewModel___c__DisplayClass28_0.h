@@ -8,6 +8,8 @@ namespace RPG::Client::PixAir { class PixAirModule; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirQuitConfirmDialogViewModel___c__DisplayClass28_0_TypeDefinitionIndex = 79386;
+
 	class PixAirQuitConfirmDialogViewModel___c__DisplayClass28_0 : public ::System::Object
 	{
 	public:

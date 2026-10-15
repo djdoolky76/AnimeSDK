@@ -19,6 +19,8 @@ namespace System::Text { class StringBuilder; }
 #define CMGLBOLPHGP_TOSTRING_OFFSET UNITYSDK_OFFSET(0xDA324C0)
 #define CMGLBOLPHGP__CLONE___OFFSET UNITYSDK_OFFSET(0xDA32BA0)
 
+inline static constexpr unsigned int CMGLBOLPHGP_TypeDefinitionIndex = 49724;
+
 	class CMGLBOLPHGP : public ::System::Object
 	{
 	public:

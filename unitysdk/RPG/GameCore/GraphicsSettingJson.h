@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GraphicsSettingJson_TypeDefinitionIndex = 18275;
+
 	class GraphicsSettingJson : public ::RPG::GameCore::JsonConfig
 	{
 	public:

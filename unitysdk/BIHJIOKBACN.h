@@ -7,6 +7,8 @@ namespace RPG::Client { class AvatarOutfit; }
 #define BIHJIOKBACN_CTOR_OFFSET UNITYSDK_OFFSET(0xB4A8780)
 #define BIHJIOKBACN_IAJBHGAOPDG_OFFSET UNITYSDK_OFFSET(0xB4A8730)
 
+inline static constexpr unsigned int BIHJIOKBACN_TypeDefinitionIndex = 62678;
+
 	class BIHJIOKBACN : public ::System::Object
 	{
 	public:

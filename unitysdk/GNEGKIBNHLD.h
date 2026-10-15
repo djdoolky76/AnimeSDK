@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GNEGKIBNHLD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C647D30)
 #define GNEGKIBNHLD_PPCHPMFPHJA_OFFSET UNITYSDK_OFFSET(0x1C61B240)
 
+inline static constexpr unsigned int GNEGKIBNHLD_TypeDefinitionIndex = 36492;
+
 	class GNEGKIBNHLD : public ::System::Object
 	{
 	public:

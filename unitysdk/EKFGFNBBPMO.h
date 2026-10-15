@@ -30,6 +30,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define EKFGFNBBPMO_OOGCMLCLMJF_OFFSET UNITYSDK_OFFSET(0x15504560)
 #define EKFGFNBBPMO_TICK_OFFSET UNITYSDK_OFFSET(0x15503B60)
 
+inline static constexpr unsigned int EKFGFNBBPMO_TypeDefinitionIndex = 52211;
+
 	class EKFGFNBBPMO
 	{
 	public:

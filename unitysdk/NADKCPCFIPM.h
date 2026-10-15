@@ -27,6 +27,8 @@ namespace System { class String; }
 #define NADKCPCFIPM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EABEDA0)
 #define NADKCPCFIPM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EABEE00)
 
+inline static constexpr unsigned int NADKCPCFIPM_TypeDefinitionIndex = 33561;
+
 	class NADKCPCFIPM : public ::System::Object
 	{
 	public:

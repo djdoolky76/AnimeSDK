@@ -23,6 +23,8 @@ namespace System { class Object; }
 #define NOPCGMDDHGI_LCJIGPCDPDG_OFFSET UNITYSDK_OFFSET(0x3C3D580)
 #define NOPCGMDDHGI_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1D243F80)
 
+inline static constexpr unsigned int NOPCGMDDHGI_TypeDefinitionIndex = 10695;
+
 	struct alignas(8) NOPCGMDDHGI
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

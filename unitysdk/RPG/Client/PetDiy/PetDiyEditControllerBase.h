@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::PetDiy
 {
+	inline static constexpr unsigned int PetDiyEditControllerBase_TypeDefinitionIndex = 74485;
+
 	class PetDiyEditControllerBase : public ::System::Object
 	{
 	public:

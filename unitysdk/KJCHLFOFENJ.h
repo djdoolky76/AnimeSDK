@@ -52,6 +52,8 @@ namespace RPG::GameCore { class VCameraShakeV2; }
 #define KJCHLFOFENJ_SET_SHAKESOURCESCALE_OFFSET UNITYSDK_OFFSET(0xB4406A0)
 #define KJCHLFOFENJ_SET_TOBEREMOVE_OFFSET UNITYSDK_OFFSET(0xB440620)
 
+inline static constexpr unsigned int KJCHLFOFENJ_TypeDefinitionIndex = 69644;
+
 	class KJCHLFOFENJ : public ::System::Object
 	{
 	public:

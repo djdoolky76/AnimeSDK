@@ -38,6 +38,8 @@ namespace UnityEngine::UI { class Image; }
 #define BPDAPGHPAAC_ONCHLFHHHDA_OFFSET UNITYSDK_OFFSET(0xC1A13C0)
 #define BPDAPGHPAAC__ONBIND_OFFSET UNITYSDK_OFFSET(0xC19FAF0)
 
+inline static constexpr unsigned int BPDAPGHPAAC_TypeDefinitionIndex = 71620;
+
 	class BPDAPGHPAAC : public ::FMPCODLIOLG
 	{
 	public:

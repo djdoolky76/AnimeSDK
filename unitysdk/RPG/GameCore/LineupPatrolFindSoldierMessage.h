@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LineupPatrolFindSoldierMessage_TypeDefinitionIndex = 52428;
+
 	class LineupPatrolFindSoldierMessage : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FreeStyleStateTemplate_TypeDefinitionIndex = 16313;
+
 	class FreeStyleStateTemplate : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -8,6 +8,8 @@ class HEIMKDBGIOM;
 #define HEIMKDBGIOM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE9A400)
 #define HEIMKDBGIOM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE9A3C0)
 
+inline static constexpr unsigned int HEIMKDBGIOM_TypeDefinitionIndex = 20925;
+
 	class HEIMKDBGIOM : public ::RPG::GameCore::TaskConfig
 	{
 	public:

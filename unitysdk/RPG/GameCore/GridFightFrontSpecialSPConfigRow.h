@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightFrontSpecialSPConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightFrontSpecialSPConfigRow_TypeDefinitionIndex = 13547;
+
 	class GridFightFrontSpecialSPConfigRow : public ::System::Object
 	{
 	public:

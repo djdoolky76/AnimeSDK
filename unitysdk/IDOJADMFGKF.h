@@ -27,6 +27,8 @@ namespace System { class String; }
 #define IDOJADMFGKF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E632290)
 #define IDOJADMFGKF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6322F0)
 
+inline static constexpr unsigned int IDOJADMFGKF_TypeDefinitionIndex = 29527;
+
 	class IDOJADMFGKF : public ::System::Object
 	{
 	public:

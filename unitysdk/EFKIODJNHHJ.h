@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EFKIODJNHHJ_NPNDBALHAEC_OFFSET UNITYSDK_OFFSET(0x13A55AA0)
 #define EFKIODJNHHJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A54EB0)
 
+inline static constexpr unsigned int EFKIODJNHHJ_TypeDefinitionIndex = 55108;
+
 	class EFKIODJNHHJ
 	{
 	public:

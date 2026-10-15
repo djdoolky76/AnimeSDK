@@ -13,6 +13,8 @@ namespace System::Runtime::Remoting::Contexts { class IContextAttribute; }
 
 namespace System::Runtime::Remoting
 {
+	inline static constexpr unsigned int ActivatedClientTypeEntry_TypeDefinitionIndex = 1202;
+
 	class ActivatedClientTypeEntry : public ::System::Runtime::Remoting::TypeEntry
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingMatchExitDestination_TypeDefinitionIndex = 81863;
+
 	enum class B51RacingMatchExitDestination : ::System::Int32
 	{
 		None = 0,

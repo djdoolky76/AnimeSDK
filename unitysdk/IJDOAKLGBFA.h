@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IJDOAKLGBFA_PBLOPPKGIKE_OFFSET UNITYSDK_OFFSET(0x1645A990)
 #define IJDOAKLGBFA_PMCFDGMFLGF_OFFSET UNITYSDK_OFFSET(0x1645AB10)
 
+inline static constexpr unsigned int IJDOAKLGBFA_TypeDefinitionIndex = 66733;
+
 	class IJDOAKLGBFA : public ::System::Object
 	{
 	public:

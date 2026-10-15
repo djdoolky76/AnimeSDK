@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ECOAKLBOLDA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E257E30)
 #define ECOAKLBOLDA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E257E40)
 
+inline static constexpr unsigned int ECOAKLBOLDA___c_TypeDefinitionIndex = 31279;
+
 	class ECOAKLBOLDA___c : public ::System::Object
 	{
 	public:

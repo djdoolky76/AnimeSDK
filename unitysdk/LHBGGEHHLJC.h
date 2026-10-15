@@ -73,6 +73,8 @@ namespace UnityEngine { class Transform; }
 #define LHBGGEHHLJC_SET_LOOKATTARGET_OFFSET UNITYSDK_OFFSET(0xB6A7840)
 #define LHBGGEHHLJC_SET_RUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB6A7800)
 
+inline static constexpr unsigned int LHBGGEHHLJC_TypeDefinitionIndex = 69751;
+
 	class LHBGGEHHLJC : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class SphereCollider; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int Test_SphereCollider_TypeDefinitionIndex = 40725;
+
 	class Test_SphereCollider : public ::System::Object
 	{
 	public:

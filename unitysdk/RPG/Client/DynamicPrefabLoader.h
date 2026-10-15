@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DynamicPrefabLoader_TypeDefinitionIndex = 72764;
+
 	class DynamicPrefabLoader : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define BNCLJLOOLBN_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xBDC81F0)
 #define BNCLJLOOLBN_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBDC8180)
 
+inline static constexpr unsigned int BNCLJLOOLBN_TypeDefinitionIndex = 54075;
+
 	class BNCLJLOOLBN : public ::CMPGEAFHHDC
 	{
 	public:

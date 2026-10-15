@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TriggerRogueShopEnterBattle; }
 #define FLKBLOHDPFH_CTOR_OFFSET UNITYSDK_OFFSET(0x15836070)
 #define FLKBLOHDPFH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158360A0)
 
+inline static constexpr unsigned int FLKBLOHDPFH_TypeDefinitionIndex = 58800;
+
 	class FLKBLOHDPFH
 	{
 	public:

@@ -25,6 +25,8 @@ namespace UnityEngine::Formats::Alembic::Util { class AlembicRecorder; }
 
 namespace UnityEngine::Formats::Alembic::Exporter
 {
+	inline static constexpr unsigned int AlembicExporter_TypeDefinitionIndex = 45892;
+
 	class AlembicExporter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

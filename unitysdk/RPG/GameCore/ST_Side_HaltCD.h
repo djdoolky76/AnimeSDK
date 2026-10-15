@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Side_HaltCD; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_HaltCD_TypeDefinitionIndex = 20139;
+
 	class ST_Side_HaltCD : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

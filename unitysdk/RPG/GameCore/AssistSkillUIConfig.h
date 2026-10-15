@@ -10,6 +10,8 @@ namespace RPG::GameCore { class HimekoNovaAssistSkillUIConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AssistSkillUIConfig_TypeDefinitionIndex = 18194;
+
 	class AssistSkillUIConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

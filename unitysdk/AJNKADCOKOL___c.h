@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AJNKADCOKOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3C6540)
 #define AJNKADCOKOL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E3C6550)
 
+inline static constexpr unsigned int AJNKADCOKOL___c_TypeDefinitionIndex = 27751;
+
 	class AJNKADCOKOL___c : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class Action; }
 #define OIOIANPEAJK_CTOR_OFFSET UNITYSDK_OFFSET(0xBEA3730)
 #define OIOIANPEAJK_DMKJAJLNEBK_OFFSET UNITYSDK_OFFSET(0xBEA3740)
 
+inline static constexpr unsigned int OIOIANPEAJK_TypeDefinitionIndex = 79707;
+
 	class OIOIANPEAJK : public ::CKAAHMNPJPA
 	{
 	public:

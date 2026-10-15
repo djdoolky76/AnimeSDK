@@ -13,6 +13,8 @@ class KDMEFGANLKI;
 #define CDOMNOHBJGD_KKNHHLEHDPK_OFFSET UNITYSDK_OFFSET(0xC76F280)
 #define CDOMNOHBJGD_LHJLLAHDCJN_OFFSET UNITYSDK_OFFSET(0xC76F560)
 
+inline static constexpr unsigned int CDOMNOHBJGD_TypeDefinitionIndex = 68010;
+
 	class CDOMNOHBJGD : public ::System::Object
 	{
 	public:

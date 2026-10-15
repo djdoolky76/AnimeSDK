@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int CHFDBMHCGFL_State_TypeDefinitionIndex = 79113;
+
 	enum class CHFDBMHCGFL_State : ::System::Int32
 	{
 		None = 0,

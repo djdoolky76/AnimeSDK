@@ -27,6 +27,8 @@ namespace UnityEngine { class Animation; }
 #define CIGJONOOCLG__ONBIND_OFFSET UNITYSDK_OFFSET(0xCF71D30)
 #define CIGJONOOCLG__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xCF72690)
 
+inline static constexpr unsigned int CIGJONOOCLG_TypeDefinitionIndex = 71289;
+
 	class CIGJONOOCLG : public ::CAOEEDDAPIK
 	{
 	public:

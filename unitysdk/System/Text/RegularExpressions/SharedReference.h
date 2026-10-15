@@ -10,6 +10,8 @@ namespace System { class WeakReference; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int SharedReference_TypeDefinitionIndex = 2501;
+
 	class SharedReference : public ::System::Object
 	{
 	public:

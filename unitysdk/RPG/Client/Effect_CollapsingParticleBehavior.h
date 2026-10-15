@@ -16,6 +16,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_CollapsingParticleBehavior_TypeDefinitionIndex = 70435;
+
 	class Effect_CollapsingParticleBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

@@ -39,6 +39,8 @@ namespace System { class String; }
 #define NIEGDAPHKGC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB2A7E0)
 #define NIEGDAPHKGC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB2A840)
 
+inline static constexpr unsigned int NIEGDAPHKGC_TypeDefinitionIndex = 25520;
+
 	class NIEGDAPHKGC : public ::System::Object
 	{
 	public:

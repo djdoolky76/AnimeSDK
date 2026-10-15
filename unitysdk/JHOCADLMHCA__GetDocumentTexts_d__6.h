@@ -9,6 +9,8 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 #define JHOCADLMHCA__GETDOCUMENTTEXTS_D__6_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x10B50)
 #define JHOCADLMHCA__GETDOCUMENTTEXTS_D__6_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B60)
 
+inline static constexpr unsigned int JHOCADLMHCA__GetDocumentTexts_d__6_TypeDefinitionIndex = 50036;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	struct alignas(8) JHOCADLMHCA__GetDocumentTexts_d__6
 	{

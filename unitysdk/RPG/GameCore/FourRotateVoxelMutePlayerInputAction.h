@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FourRotateVoxelMutePlayerInputAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelMutePlayerInputAction_TypeDefinitionIndex = 16767;
+
 	class FourRotateVoxelMutePlayerInputAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

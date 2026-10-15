@@ -55,6 +55,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PDKDGMLAHPM_PALKKMDLFHA_OFFSET UNITYSDK_OFFSET(0xC01B7A0)
 #define PDKDGMLAHPM_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xC01DBA0)
 
+inline static constexpr unsigned int PDKDGMLAHPM_TypeDefinitionIndex = 76237;
+
 	class PDKDGMLAHPM : public ::System::Object
 	{
 	public:

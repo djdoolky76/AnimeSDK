@@ -9,6 +9,8 @@ namespace RPG::Client::ChenLingBattle { class Policy; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChenLingBattleTeamSnapshot___c__DisplayClass3_0_TypeDefinitionIndex = 61435;
+
 	class ChenLingBattleTeamSnapshot___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

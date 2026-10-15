@@ -87,6 +87,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int DeployPuzzleBoard_TypeDefinitionIndex = 78529;
+
 	class DeployPuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

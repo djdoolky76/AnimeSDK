@@ -44,6 +44,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int CartographyBaseData_TypeDefinitionIndex = 74509;
+
 	class CartographyBaseData : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GMLHPOPEDIB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15AD5950)
 #define GMLHPOPEDIB_TICK_OFFSET UNITYSDK_OFFSET(0x15AD59A0)
 
+inline static constexpr unsigned int GMLHPOPEDIB_TypeDefinitionIndex = 58648;
+
 	class GMLHPOPEDIB : public ::GELIALJDFBL
 	{
 	public:

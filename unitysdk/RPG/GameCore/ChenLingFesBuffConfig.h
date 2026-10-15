@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingFesBuffConfig_TypeDefinitionIndex = 18452;
+
 	class ChenLingFesBuffConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

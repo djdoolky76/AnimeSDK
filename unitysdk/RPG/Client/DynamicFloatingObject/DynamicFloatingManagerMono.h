@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::DynamicFloatingObject
 {
+	inline static constexpr unsigned int DynamicFloatingManagerMono_TypeDefinitionIndex = 73571;
+
 	class DynamicFloatingManagerMono
 	{
 	public:

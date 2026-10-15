@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 #define MBMIGJBLODI_JOLDEBJNCLL_OFFSET UNITYSDK_OFFSET(0xB86D690)
 #define MBMIGJBLODI_PFEKEEJINJD_OFFSET UNITYSDK_OFFSET(0xB86D480)
 
+inline static constexpr unsigned int MBMIGJBLODI_TypeDefinitionIndex = 60077;
+
 	class MBMIGJBLODI : public ::LNDHLHALKAK
 	{
 	public:

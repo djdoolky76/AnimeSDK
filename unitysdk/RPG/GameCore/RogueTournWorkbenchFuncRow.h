@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RogueTournWorkbenchFuncRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournWorkbenchFuncRow_TypeDefinitionIndex = 14970;
+
 	class RogueTournWorkbenchFuncRow : public ::System::Object
 	{
 	public:

@@ -24,6 +24,8 @@ namespace System { class Object; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int PlayerTwoAxisAction_TypeDefinitionIndex = 40809;
+
 	class PlayerTwoAxisAction : public ::InControl::TwoAxisInputControl
 	{
 	public:

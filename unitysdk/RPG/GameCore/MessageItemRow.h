@@ -18,6 +18,8 @@ namespace RPG::GameCore { class MessageItemRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MessageItemRow_TypeDefinitionIndex = 14463;
+
 	class MessageItemRow : public ::System::Object
 	{
 	public:

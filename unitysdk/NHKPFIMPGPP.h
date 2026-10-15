@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NHKPFIMPGPP_DPCKLFEKBNC_OFFSET UNITYSDK_OFFSET(0xBBD3EF0)
 #define NHKPFIMPGPP_JLODINLPCCO_OFFSET UNITYSDK_OFFSET(0xBBD4740)
 
+inline static constexpr unsigned int NHKPFIMPGPP_TypeDefinitionIndex = 75395;
+
 	class NHKPFIMPGPP : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoUltraSkillCyrenePanelHelper_TypeDefinitionIndex = 71920;
+
 	class MonoUltraSkillCyrenePanelHelper : public ::UnityEngine::MonoBehaviour
 	{
 	public:

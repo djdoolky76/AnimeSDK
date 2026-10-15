@@ -7,6 +7,8 @@ class FPNHGPEICOG;
 #define PHKJDIHOPJL_CTOR_OFFSET UNITYSDK_OFFSET(0xC253DC0)
 #define PHKJDIHOPJL_ILOHHJDPDBE_OFFSET UNITYSDK_OFFSET(0xC253490)
 
+inline static constexpr unsigned int PHKJDIHOPJL_TypeDefinitionIndex = 53686;
+
 	class PHKJDIHOPJL : public ::System::Object
 	{
 	public:

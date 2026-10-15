@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareFSVwithGP_TypeDefinitionIndex = 20441;
+
 	class ByCompareFSVwithGP : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

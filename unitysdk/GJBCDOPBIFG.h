@@ -9,6 +9,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define GJBCDOPBIFG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CAAFDB0)
 #define GJBCDOPBIFG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAAFE70)
 
+inline static constexpr unsigned int GJBCDOPBIFG_TypeDefinitionIndex = 43412;
+
 	class GJBCDOPBIFG : public ::System::Object
 	{
 	public:

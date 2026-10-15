@@ -7,6 +7,8 @@ namespace UnityEngine { class Animator; }
 #define PKHDFPFPOEA_ACJMKBDMOFM_OFFSET UNITYSDK_OFFSET(0xC2BADB0)
 #define PKHDFPFPOEA_CTOR_OFFSET UNITYSDK_OFFSET(0xC2BAE70)
 
+inline static constexpr unsigned int PKHDFPFPOEA_TypeDefinitionIndex = 72500;
+
 	class PKHDFPFPOEA : public ::System::Object
 	{
 	public:

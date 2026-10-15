@@ -9,6 +9,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPerspectiveWallControl_TypeDefinitionIndex = 70735;
+
 	class MonoEffectPerspectiveWallControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

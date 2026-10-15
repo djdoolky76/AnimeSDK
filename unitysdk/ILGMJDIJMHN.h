@@ -3,6 +3,8 @@
 #include "unitysdk/RPG/GameCore/ChenLingFesProperty.h"
 namespace System { class String; }
 
+inline static constexpr unsigned int ILGMJDIJMHN_TypeDefinitionIndex = 43715;
+
 	struct alignas(8) ILGMJDIJMHN
 	{
 		::System::Boolean AEPILOPAFKG; // 0x10

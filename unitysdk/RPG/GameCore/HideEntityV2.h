@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HideEntityV2_TypeDefinitionIndex = 21666;
+
 	class HideEntityV2 : public ::RPG::GameCore::TaskConfig
 	{
 	public:

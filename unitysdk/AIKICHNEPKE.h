@@ -27,6 +27,8 @@ namespace System { class String; }
 #define AIKICHNEPKE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E27E6B0)
 #define AIKICHNEPKE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E27E710)
 
+inline static constexpr unsigned int AIKICHNEPKE_TypeDefinitionIndex = 28461;
+
 	class AIKICHNEPKE : public ::System::Object
 	{
 	public:

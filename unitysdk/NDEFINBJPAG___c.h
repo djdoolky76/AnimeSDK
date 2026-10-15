@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NDEFINBJPAG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAE5E50)
 #define NDEFINBJPAG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EAE5E60)
 
+inline static constexpr unsigned int NDEFINBJPAG___c_TypeDefinitionIndex = 28093;
+
 	class NDEFINBJPAG___c : public ::System::Object
 	{
 	public:

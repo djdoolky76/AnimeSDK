@@ -12,6 +12,8 @@ namespace System { class String; }
 #define PKLGNFKAOKB_NCOALEFDIIM_OFFSET UNITYSDK_OFFSET(0xC2D0ED0)
 #define PKLGNFKAOKB_OOCAEGPBMBO_OFFSET UNITYSDK_OFFSET(0xC2DC6E0)
 
+inline static constexpr unsigned int PKLGNFKAOKB_TypeDefinitionIndex = 75125;
+
 	class PKLGNFKAOKB : public ::System::Object
 	{
 	public:

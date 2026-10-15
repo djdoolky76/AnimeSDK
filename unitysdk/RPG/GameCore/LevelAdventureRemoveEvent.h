@@ -10,6 +10,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelAdventureRemoveEvent_TypeDefinitionIndex = 56620;
+
 	class LevelAdventureRemoveEvent : public ::System::Object
 	{
 	public:

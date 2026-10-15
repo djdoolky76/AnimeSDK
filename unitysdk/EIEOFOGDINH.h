@@ -14,6 +14,8 @@ namespace System { class Nullable; }
 #define EIEOFOGDINH_SET_CHIPCONFIG_OFFSET UNITYSDK_OFFSET(0x154C13D0)
 #define EIEOFOGDINH_SET_COUNT_OFFSET UNITYSDK_OFFSET(0x154C1410)
 
+inline static constexpr unsigned int EIEOFOGDINH_TypeDefinitionIndex = 79717;
+
 	class EIEOFOGDINH : public ::System::Object
 	{
 	public:

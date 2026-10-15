@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_AttackDamage; }
 #define JBHHMDOOLLI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F1350)
 #define JBHHMDOOLLI_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C6F1360)
 
+inline static constexpr unsigned int JBHHMDOOLLI_TypeDefinitionIndex = 36309;
+
 	class JBHHMDOOLLI : public ::AJBKGPOEBFG
 	{
 	public:

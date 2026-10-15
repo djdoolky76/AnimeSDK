@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int IntCurvePropertyData_TypeDefinitionIndex = 49401;
+
 	class IntCurvePropertyData : public ::EnviromentSystemV2Space::PropertyDataBase
 	{
 	public:

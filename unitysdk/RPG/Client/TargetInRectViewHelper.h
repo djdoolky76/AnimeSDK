@@ -15,6 +15,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TargetInRectViewHelper_TypeDefinitionIndex = 69476;
+
 	class TargetInRectViewHelper : public ::UnityEngine::MonoBehaviour
 	{
 	public:

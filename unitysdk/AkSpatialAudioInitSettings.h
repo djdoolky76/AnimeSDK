@@ -33,6 +33,8 @@ class AkSpatialAudioInitSettings;
 #define AKSPATIALAUDIOINITSETTINGS_SET_UMAXSOUNDPROPAGATIONDEPTH_OFFSET UNITYSDK_OFFSET(0x1F607D90)
 #define AKSPATIALAUDIOINITSETTINGS_SET_UNUMBEROFPRIMARYRAYS_OFFSET UNITYSDK_OFFSET(0x1F608770)
 
+inline static constexpr unsigned int AkSpatialAudioInitSettings_TypeDefinitionIndex = 44789;
+
 	class AkSpatialAudioInitSettings : public ::System::Object
 	{
 	public:

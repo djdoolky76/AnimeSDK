@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ParameterCondition_TypeDefinitionIndex = 70592;
+
 	struct alignas(4) ParameterCondition
 	{
 		::System::Boolean ModifyEmissionRateOverTime; // 0x10

@@ -20,6 +20,8 @@ namespace Entitas { class IGroup; }
 #define LJFIAJJLNED_PBNCIOHIMLE_OFFSET UNITYSDK_OFFSET(0xB716970)
 #define LJFIAJJLNED_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB716C20)
 
+inline static constexpr unsigned int LJFIAJJLNED_TypeDefinitionIndex = 77131;
+
 	class LJFIAJJLNED : public ::System::Object
 	{
 	public:

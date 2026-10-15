@@ -7,6 +7,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DevUIDebugReportDataParticlePrewarm_TypeDefinitionIndex = 68347;
+
 	class DevUIDebugReportDataParticlePrewarm : public ::System::Object
 	{
 	public:

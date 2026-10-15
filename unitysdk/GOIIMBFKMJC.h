@@ -13,6 +13,8 @@ namespace RPG::GameCore { template <typename T> class IFrameSyncOperationSource_
 #define GOIIMBFKMJC_SET_EXECUTEFRAME_OFFSET UNITYSDK_OFFSET(0x15B33D70)
 #define GOIIMBFKMJC_SET_SOURCE_OFFSET UNITYSDK_OFFSET(0x15B33D90)
 
+inline static constexpr unsigned int GOIIMBFKMJC_TypeDefinitionIndex = 54306;
+
 	class GOIIMBFKMJC : public ::System::Object
 	{
 	public:

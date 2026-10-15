@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyGameplayShowMaskBG; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyGameplayShowMaskBG_TypeDefinitionIndex = 22371;
+
 	class TrainPartyGameplayShowMaskBG : public ::RPG::GameCore::TaskConfig
 	{
 	public:

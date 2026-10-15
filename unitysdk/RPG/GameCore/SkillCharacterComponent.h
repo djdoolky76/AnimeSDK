@@ -231,6 +231,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SkillCharacterComponent_TypeDefinitionIndex = 54863;
+
 	class SkillCharacterComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

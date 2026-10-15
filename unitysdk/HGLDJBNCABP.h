@@ -32,6 +32,8 @@ namespace System { class String; }
 #define HGLDJBNCABP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E57D430)
 #define HGLDJBNCABP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E57D490)
 
+inline static constexpr unsigned int HGLDJBNCABP_TypeDefinitionIndex = 25806;
+
 	class HGLDJBNCABP : public ::System::Object
 	{
 	public:

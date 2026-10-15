@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaitFMChannelReceiverSignalChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitFMChannelReceiverSignalChange_TypeDefinitionIndex = 20580;
+
 	class WaitFMChannelReceiverSignalChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define JNDNJFPANEB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7949F0)
 #define JNDNJFPANEB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E794A50)
 
+inline static constexpr unsigned int JNDNJFPANEB_TypeDefinitionIndex = 32782;
+
 	class JNDNJFPANEB : public ::System::Object
 	{
 	public:

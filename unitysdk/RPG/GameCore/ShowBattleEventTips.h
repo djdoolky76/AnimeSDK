@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ShowBattleEventTips; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowBattleEventTips_TypeDefinitionIndex = 22943;
+
 	class ShowBattleEventTips : public ::RPG::GameCore::TaskConfig
 	{
 	public:

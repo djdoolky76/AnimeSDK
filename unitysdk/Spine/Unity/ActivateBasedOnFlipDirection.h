@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int ActivateBasedOnFlipDirection_TypeDefinitionIndex = 45056;
+
 	class ActivateBasedOnFlipDirection : public ::UnityEngine::MonoBehaviour
 	{
 	public:

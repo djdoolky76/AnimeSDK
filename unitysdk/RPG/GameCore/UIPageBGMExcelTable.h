@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UIPageBGMExcelTable_TypeDefinitionIndex = 15401;
+
 	class UIPageBGMExcelTable : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateHandbookHouguCollection_TypeDefinitionIndex = 64070;
+
 	class FateHandbookHouguCollection : public ::System::Object
 	{
 	public:

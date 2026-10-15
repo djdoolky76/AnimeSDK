@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int Ucs4Encoding4321_TypeDefinitionIndex = 1954;
+
 	class Ucs4Encoding4321 : public ::System::Xml::Ucs4Encoding
 	{
 	public:

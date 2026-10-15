@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ComplexSkillAIMapperMultiRange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAIMapperMultiRange_TypeDefinitionIndex = 15557;
+
 	class ComplexSkillAIMapperMultiRange : public ::RPG::GameCore::ComplexSkillAIMapper
 	{
 	public:

@@ -41,6 +41,8 @@ namespace System { class String; }
 #define MBBBCMLOCFI_SET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0xB858EC0)
 #define MBBBCMLOCFI_SET_SUBRELICFILTER_OFFSET UNITYSDK_OFFSET(0xB858F80)
 
+inline static constexpr unsigned int MBBBCMLOCFI_TypeDefinitionIndex = 51967;
+
 	class MBBBCMLOCFI : public ::System::Object
 	{
 	public:

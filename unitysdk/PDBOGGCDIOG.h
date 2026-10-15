@@ -4,6 +4,8 @@
 
 #define PDBOGGCDIOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2CCA20)
 
+inline static constexpr unsigned int PDBOGGCDIOG_TypeDefinitionIndex = 25013;
+
 	class PDBOGGCDIOG : public ::IEAMIIFFDKL
 	{
 	public:

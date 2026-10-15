@@ -33,6 +33,8 @@ namespace System { class String; }
 #define NEEAHLMKAAB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAF2060)
 #define NEEAHLMKAAB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAF20C0)
 
+inline static constexpr unsigned int NEEAHLMKAAB_TypeDefinitionIndex = 27176;
+
 	class NEEAHLMKAAB : public ::System::Object
 	{
 	public:

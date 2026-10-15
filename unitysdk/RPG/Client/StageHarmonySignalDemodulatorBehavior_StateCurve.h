@@ -19,6 +19,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageHarmonySignalDemodulatorBehavior_StateCurve_TypeDefinitionIndex = 70989;
+
 	class StageHarmonySignalDemodulatorBehavior_StateCurve : public ::System::Object
 	{
 	public:

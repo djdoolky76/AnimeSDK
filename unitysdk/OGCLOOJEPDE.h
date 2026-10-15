@@ -11,6 +11,8 @@ namespace RPG::GameCore { class AdventureModifierInstance; }
 #define OGCLOOJEPDE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xBE535D0)
 #define OGCLOOJEPDE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBE53510)
 
+inline static constexpr unsigned int OGCLOOJEPDE_TypeDefinitionIndex = 56621;
+
 	class OGCLOOJEPDE : public ::CMPGEAFHHDC
 	{
 	public:

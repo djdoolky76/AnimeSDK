@@ -10,6 +10,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int Utils___c__DisplayClass5_0_TypeDefinitionIndex = 50276;
+
 	class Utils___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

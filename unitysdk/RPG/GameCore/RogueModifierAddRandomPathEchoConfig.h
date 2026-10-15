@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierAddRandomPathEchoConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierAddRandomPathEchoConfig_TypeDefinitionIndex = 17992;
+
 	class RogueModifierAddRandomPathEchoConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

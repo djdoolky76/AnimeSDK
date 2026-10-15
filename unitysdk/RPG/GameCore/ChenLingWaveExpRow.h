@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChenLingWaveExpRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingWaveExpRow_TypeDefinitionIndex = 11086;
+
 	class ChenLingWaveExpRow : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EditorAssetHash2BundleIndexItem_TypeDefinitionIndex = 41462;
+
 	class EditorAssetHash2BundleIndexItem : public ::System::Object
 	{
 	public:

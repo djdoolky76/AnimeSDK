@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ElationLevelSetting; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElationLevelSetting_TypeDefinitionIndex = 17153;
+
 	class ElationLevelSetting : public ::RPG::GameCore::JsonConfig
 	{
 	public:

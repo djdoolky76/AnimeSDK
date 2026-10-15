@@ -9,6 +9,8 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld { class PayManagerCXHandheld; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int PayManagerCXHandheld___c__DisplayClass21_0_TypeDefinitionIndex = 8774;
+
 	class PayManagerCXHandheld___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

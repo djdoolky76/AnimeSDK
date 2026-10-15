@@ -4,6 +4,8 @@
 class JJNNBBAINJI;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
+inline static constexpr unsigned int JPFALKGNLED_TypeDefinitionIndex = 44132;
+
 	class JPFALKGNLED : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client::PixAir { class PixAirGameSession; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirSellAndRefreshLocker_TypeDefinitionIndex = 79346;
+
 	class PixAirSellAndRefreshLocker : public ::System::Object
 	{
 	public:

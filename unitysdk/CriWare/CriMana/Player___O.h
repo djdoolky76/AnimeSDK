@@ -6,6 +6,8 @@ namespace CriWare::CriMana { class Player_SubtitleCallbackFromNativeDelegate; }
 
 namespace CriWare::CriMana
 {
+	inline static constexpr unsigned int Player___O_TypeDefinitionIndex = 40227;
+
 	class Player___O : public ::System::Object
 	{
 	public:

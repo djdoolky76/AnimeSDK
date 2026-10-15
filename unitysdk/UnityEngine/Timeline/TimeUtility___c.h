@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int TimeUtility___c_TypeDefinitionIndex = 38879;
+
 	class TimeUtility___c : public ::System::Object
 	{
 	public:

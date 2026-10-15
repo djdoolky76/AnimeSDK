@@ -3,6 +3,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Visitor_TypeDefinitionIndex = 36806;
+
 	struct alignas(4) B2Visitor
 	{
 		::System::Int32 shapeId; // 0x10

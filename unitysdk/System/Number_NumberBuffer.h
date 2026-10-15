@@ -7,6 +7,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int Number_NumberBuffer_TypeDefinitionIndex = 308;
+
 	struct alignas(8) Number_NumberBuffer
 	{
 		::PVOID baseAddress; // 0x10

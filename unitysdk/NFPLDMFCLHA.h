@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NFPLDMFCLHA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB09C00)
 #define NFPLDMFCLHA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB09C60)
 
+inline static constexpr unsigned int NFPLDMFCLHA_TypeDefinitionIndex = 29572;
+
 	class NFPLDMFCLHA : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CRPProbeInfo_TypeDefinitionIndex = 4883;
+
 	struct alignas(4) CRPProbeInfo
 	{
 		::UnityEngine::Matrix4x4 probe2World; // 0x10

@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MHYSDKC_Watermark_TypeDefinitionIndex = 46182;
+
 	class MHYSDKC_Watermark : public ::System::Object
 	{
 	public:

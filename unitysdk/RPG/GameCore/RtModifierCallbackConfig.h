@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtModifierCallbackConfig_TypeDefinitionIndex = 17659;
+
 	class RtModifierCallbackConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

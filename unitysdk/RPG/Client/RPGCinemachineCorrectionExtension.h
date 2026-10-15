@@ -12,6 +12,8 @@ namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGCinemachineCorrectionExtension_TypeDefinitionIndex = 69702;
+
 	class RPGCinemachineCorrectionExtension : public ::Cinemachine::CinemachineExtension
 	{
 	public:

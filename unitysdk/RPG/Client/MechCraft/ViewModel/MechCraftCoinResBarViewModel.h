@@ -19,6 +19,8 @@ namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftCoinResBarViewModel_TypeDefinitionIndex = 79418;
+
 	class MechCraftCoinResBarViewModel : public ::Sofa::Core::ObservableObject
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::Client { class GridFightRole; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameFormationEditor_GridFightGameFormationRoleOption_TypeDefinitionIndex = 64642;
+
 	class GridFightGameFormationEditor_GridFightGameFormationRoleOption : public ::System::Object
 	{
 	public:

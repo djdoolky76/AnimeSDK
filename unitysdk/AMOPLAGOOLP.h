@@ -9,6 +9,8 @@ class FCOEMCEDLNL;
 #define AMOPLAGOOLP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCE1550)
 #define AMOPLAGOOLP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCE14B0)
 
+inline static constexpr unsigned int AMOPLAGOOLP_TypeDefinitionIndex = 20104;
+
 	class AMOPLAGOOLP : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

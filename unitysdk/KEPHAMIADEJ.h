@@ -38,6 +38,8 @@ namespace UnityEngine::UI { class Text; }
 #define KEPHAMIADEJ_OLMMOJCBMEB_OFFSET UNITYSDK_OFFSET(0xB386270)
 #define KEPHAMIADEJ_PLKCHJMOLDC_OFFSET UNITYSDK_OFFSET(0xB386AF0)
 
+inline static constexpr unsigned int KEPHAMIADEJ_TypeDefinitionIndex = 69006;
+
 	class KEPHAMIADEJ : public ::System::Object
 	{
 	public:

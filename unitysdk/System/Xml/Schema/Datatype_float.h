@@ -26,6 +26,8 @@ namespace System::Xml::Schema { class XmlValueConverter; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_float_TypeDefinitionIndex = 2098;
+
 	class Datatype_float : public ::System::Xml::Schema::Datatype_anySimpleType
 	{
 	public:

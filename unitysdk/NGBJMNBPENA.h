@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NGBJMNBPENA_CTOR_OFFSET UNITYSDK_OFFSET(0xBBA2080)
 #define NGBJMNBPENA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBBA20B0)
 
+inline static constexpr unsigned int NGBJMNBPENA_TypeDefinitionIndex = 54892;
+
 	class NGBJMNBPENA
 	{
 	public:

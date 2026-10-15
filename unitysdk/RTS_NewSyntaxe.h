@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 #define RTS_NEWSYNTAXE_START_OFFSET UNITYSDK_OFFSET(0x16757960)
 #define RTS_NEWSYNTAXE_UPDATE_OFFSET UNITYSDK_OFFSET(0x16757970)
 
+inline static constexpr unsigned int RTS_NewSyntaxe_TypeDefinitionIndex = 40242;
+
 	class RTS_NewSyntaxe : public ::UnityEngine::MonoBehaviour
 	{
 	public:

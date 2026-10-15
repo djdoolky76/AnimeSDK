@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingDIYDecoItemControl_TypeDefinitionIndex = 81771;
+
 	class B51RacingDIYDecoItemControl : public ::Sofa::BaseSofaControl
 	{
 	public:

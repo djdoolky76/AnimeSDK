@@ -10,6 +10,8 @@ namespace RPG::GameCore { class NavMeshLinkInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NavMeshLinkInfo_TypeDefinitionIndex = 17313;
+
 	class NavMeshLinkInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TextDynamicParamBase; }
 #define DMJJMNFKIIL_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0xFEC30F0)
 #define DMJJMNFKIIL_CTOR_OFFSET UNITYSDK_OFFSET(0xFEC3200)
 
+inline static constexpr unsigned int DMJJMNFKIIL_TypeDefinitionIndex = 64154;
+
 	class DMJJMNFKIIL : public ::System::Object
 	{
 	public:

@@ -39,6 +39,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int MethodDescriptorProto_TypeDefinitionIndex = 35782;
+
 	class MethodDescriptorProto : public ::System::Object
 	{
 	public:

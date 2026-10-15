@@ -14,6 +14,8 @@ namespace UnityEngine { class Animation; }
 #define EILEBPOKAND_LJLAKGCEBLE_OFFSET UNITYSDK_OFFSET(0x154CF700)
 #define EILEBPOKAND__ONBIND_OFFSET UNITYSDK_OFFSET(0x154CF460)
 
+inline static constexpr unsigned int EILEBPOKAND_TypeDefinitionIndex = 71850;
+
 	class EILEBPOKAND : public ::FMPCODLIOLG
 	{
 	public:

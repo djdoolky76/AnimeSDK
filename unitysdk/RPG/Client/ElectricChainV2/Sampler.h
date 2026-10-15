@@ -6,6 +6,8 @@
 
 namespace RPG::Client::ElectricChainV2
 {
+	inline static constexpr unsigned int Sampler_TypeDefinitionIndex = 73591;
+
 	class Sampler : public ::System::Object
 	{
 	public:

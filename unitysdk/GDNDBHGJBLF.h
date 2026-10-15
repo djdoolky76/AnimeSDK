@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GDNDBHGJBLF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E44FB90)
 #define GDNDBHGJBLF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E44FBF0)
 
+inline static constexpr unsigned int GDNDBHGJBLF_TypeDefinitionIndex = 31714;
+
 	class GDNDBHGJBLF : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine { class WaitForSeconds; }
 #define IAOCEDEDIDK_HPNAIEIMMPN_OFFSET UNITYSDK_OFFSET(0x1EC1D5B0)
 #define IAOCEDEDIDK_LCOHAPIIFMC_OFFSET UNITYSDK_OFFSET(0x1EC1D550)
 
+inline static constexpr unsigned int IAOCEDEDIDK_TypeDefinitionIndex = 35173;
+
 	class IAOCEDEDIDK : public ::System::Object
 	{
 	public:

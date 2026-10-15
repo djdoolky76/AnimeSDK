@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesLandRow_TypeDefinitionIndex = 12187;
+
 	class PlanetFesLandRow : public ::System::Object
 	{
 	public:

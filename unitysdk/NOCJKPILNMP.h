@@ -34,6 +34,8 @@ namespace System { class String; }
 #define NOCJKPILNMP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB88B90)
 #define NOCJKPILNMP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB88BF0)
 
+inline static constexpr unsigned int NOCJKPILNMP_TypeDefinitionIndex = 33388;
+
 	class NOCJKPILNMP : public ::System::Object
 	{
 	public:

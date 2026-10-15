@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MatchThreeScoreCurveRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MatchThreeScoreCurveRow_TypeDefinitionIndex = 11915;
+
 	class MatchThreeScoreCurveRow : public ::System::Object
 	{
 	public:

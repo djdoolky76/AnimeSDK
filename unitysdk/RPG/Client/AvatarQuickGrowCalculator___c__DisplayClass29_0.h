@@ -8,6 +8,8 @@ class NAIEKONLHAL;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarQuickGrowCalculator___c__DisplayClass29_0_TypeDefinitionIndex = 62473;
+
 	class AvatarQuickGrowCalculator___c__DisplayClass29_0 : public ::System::Object
 	{
 	public:

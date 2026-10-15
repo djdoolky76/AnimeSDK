@@ -13,6 +13,8 @@ namespace System { class Nullable; }
 #define HMCLPKKBHGH_IEHGJKIODLM_OFFSET UNITYSDK_OFFSET(0x15D79B60)
 #define HMCLPKKBHGH_NDAENKCAIJF_OFFSET UNITYSDK_OFFSET(0x15D79CB0)
 
+inline static constexpr unsigned int HMCLPKKBHGH_TypeDefinitionIndex = 57028;
+
 	class HMCLPKKBHGH : public ::NHPNLANLMDB
 	{
 	public:

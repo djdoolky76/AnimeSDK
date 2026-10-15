@@ -4,6 +4,8 @@
 #include "unitysdk/UnityEngine/Vector2Int.h"
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
+inline static constexpr unsigned int KHHHOLADJBF___O_TypeDefinitionIndex = 41692;
+
 	class KHHHOLADJBF___O : public ::System::Object
 	{
 	public:

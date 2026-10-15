@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceAllSame; }
 #define LKPPJOFFHAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C73CDA0)
 #define LKPPJOFFHAM_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C73CDB0)
 
+inline static constexpr unsigned int LKPPJOFFHAM_TypeDefinitionIndex = 36212;
+
 	class LKPPJOFFHAM : public ::PNECKGBKMEL
 	{
 	public:

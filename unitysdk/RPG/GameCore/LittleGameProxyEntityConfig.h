@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameProxyEntityConfig_TypeDefinitionIndex = 18884;
+
 	class LittleGameProxyEntityConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

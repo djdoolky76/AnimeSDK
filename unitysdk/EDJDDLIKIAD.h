@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EDJDDLIKIAD_CTOR_OFFSET UNITYSDK_OFFSET(0x133214A0)
 #define EDJDDLIKIAD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x133214D0)
 
+inline static constexpr unsigned int EDJDDLIKIAD_TypeDefinitionIndex = 58501;
+
 	class EDJDDLIKIAD
 	{
 	public:

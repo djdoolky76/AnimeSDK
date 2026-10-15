@@ -14,6 +14,8 @@ namespace RPG::GameCore { class LittleGameBezierCurveInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameBezierCurveInfo_TypeDefinitionIndex = 18851;
+
 	class LittleGameBezierCurveInfo : public ::RPG::GameCore::LittleGameLevelCurveInfo
 	{
 	public:

@@ -33,6 +33,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraEvaluationPuzzleBoard_TypeDefinitionIndex = 78452;
+
 	class ChimeraEvaluationPuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VE_RtBattleGridOrder_TypeDefinitionIndex = 24261;
+
 	class VE_RtBattleGridOrder : public ::RPG::GameCore::ValueEvaluatorConfig
 	{
 	public:

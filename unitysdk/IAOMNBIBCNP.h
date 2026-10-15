@@ -51,6 +51,8 @@ namespace System { class String; }
 #define IAOMNBIBCNP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E60B910)
 #define IAOMNBIBCNP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E60B970)
 
+inline static constexpr unsigned int IAOMNBIBCNP_TypeDefinitionIndex = 28084;
+
 	class IAOMNBIBCNP : public ::System::Object
 	{
 	public:

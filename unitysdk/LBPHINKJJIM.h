@@ -34,6 +34,8 @@ namespace System { class String; }
 #define LBPHINKJJIM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8E10C0)
 #define LBPHINKJJIM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8E1120)
 
+inline static constexpr unsigned int LBPHINKJJIM_TypeDefinitionIndex = 28147;
+
 	class LBPHINKJJIM : public ::System::Object
 	{
 	public:

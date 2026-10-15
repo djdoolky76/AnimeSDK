@@ -8,6 +8,8 @@ namespace RPG::GameCore { class FateRinCaseBoardEffectInfo; }
 
 namespace RPG::Client::FateRin::CaseBoard
 {
+	inline static constexpr unsigned int CaseBoardShowLineParams_TypeDefinitionIndex = 80809;
+
 	class CaseBoardShowLineParams : public ::System::Object
 	{
 	public:

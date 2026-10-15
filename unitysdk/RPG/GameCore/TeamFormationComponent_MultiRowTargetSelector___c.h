@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamFormationComponent_MultiRowTargetSelector___c_TypeDefinitionIndex = 57704;
+
 	class TeamFormationComponent_MultiRowTargetSelector___c : public ::System::Object
 	{
 	public:

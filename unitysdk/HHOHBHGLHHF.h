@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig; }
 #define HHOHBHGLHHF_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1C667270)
 #define HHOHBHGLHHF_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C667040)
 
+inline static constexpr unsigned int HHOHBHGLHHF_TypeDefinitionIndex = 36338;
+
 	class HHOHBHGLHHF : public ::AJBKGPOEBFG
 	{
 	public:

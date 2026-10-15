@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetHudTemplate; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetHudTemplate_TypeDefinitionIndex = 20902;
+
 	class SetHudTemplate : public ::RPG::GameCore::TaskConfig
 	{
 	public:

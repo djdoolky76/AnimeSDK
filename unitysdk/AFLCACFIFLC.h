@@ -21,6 +21,8 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftTalentTreeEntranceV
 #define AFLCACFIFLC_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xCF12850)
 #define AFLCACFIFLC_CTOR_OFFSET UNITYSDK_OFFSET(0xCF127A0)
 
+inline static constexpr unsigned int AFLCACFIFLC_TypeDefinitionIndex = 79637;
+
 	class AFLCACFIFLC : public ::System::Object
 	{
 	public:

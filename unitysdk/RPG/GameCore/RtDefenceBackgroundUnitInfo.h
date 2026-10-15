@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RtDefenceBackgroundUnitInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtDefenceBackgroundUnitInfo_TypeDefinitionIndex = 18065;
+
 	class RtDefenceBackgroundUnitInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

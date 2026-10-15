@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EPONAFAHNJK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155D9300)
 #define EPONAFAHNJK_PMIKGDCKIBA_OFFSET UNITYSDK_OFFSET(0x155D9E40)
 
+inline static constexpr unsigned int EPONAFAHNJK_TypeDefinitionIndex = 58059;
+
 	class EPONAFAHNJK
 	{
 	public:

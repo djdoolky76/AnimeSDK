@@ -9,6 +9,8 @@ namespace UnityEngine { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AssetBundleRequest_TypeDefinitionIndex = 5767;
+
 	class AssetBundleRequest : public ::UnityEngine::AsyncOperation
 	{
 	public:

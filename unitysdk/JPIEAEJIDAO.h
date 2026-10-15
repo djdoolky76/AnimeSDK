@@ -29,6 +29,8 @@ namespace System { class String; }
 #define JPIEAEJIDAO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7D5870)
 #define JPIEAEJIDAO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7D58D0)
 
+inline static constexpr unsigned int JPIEAEJIDAO_TypeDefinitionIndex = 30301;
+
 	class JPIEAEJIDAO : public ::System::Object
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MHLJNIMJGKN_MALDIKEPBIO_OFFSET UNITYSDK_OFFSET(0xB945A90)
 #define MHLJNIMJGKN__GETTEXTJOINVALUE_B__8_0_OFFSET UNITYSDK_OFFSET(0xB945E60)
 
+inline static constexpr unsigned int MHLJNIMJGKN_TypeDefinitionIndex = 74387;
+
 	class MHLJNIMJGKN : public ::System::Object
 	{
 	public:

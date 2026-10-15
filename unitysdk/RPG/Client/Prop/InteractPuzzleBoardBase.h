@@ -70,6 +70,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int InteractPuzzleBoardBase_TypeDefinitionIndex = 78615;
+
 	class InteractPuzzleBoardBase : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

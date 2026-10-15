@@ -9,6 +9,8 @@ namespace UnityEngine { class Light; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ObjectLightBind_TypeDefinitionIndex = 37641;
+
 	class ObjectLightBind : public ::UnityEngine::MonoBehaviour
 	{
 	public:

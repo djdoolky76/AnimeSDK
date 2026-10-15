@@ -13,6 +13,8 @@ namespace RPG::Client::PixAir { class PixAirEquipUpgradeViewModel; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirEquipUpgradeViewModel_TypeDefinitionIndex = 79330;
+
 	class PixAirEquipUpgradeViewModel : public ::System::Object
 	{
 	public:

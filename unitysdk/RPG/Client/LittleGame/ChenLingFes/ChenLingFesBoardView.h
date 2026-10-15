@@ -14,6 +14,8 @@ namespace RPG::GameCore { class ChenLingFesVCameraConfig; }
 
 namespace RPG::Client::LittleGame::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesBoardView_TypeDefinitionIndex = 77786;
+
 	class ChenLingFesBoardView : public ::RPG::Client::LittleGame::ChenLingFes::ChenLingFesView
 	{
 	public:

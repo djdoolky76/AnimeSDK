@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTraitRemarkParser___c_TypeDefinitionIndex = 65479;
+
 	class GridFightTraitRemarkParser___c : public ::System::Object
 	{
 	public:

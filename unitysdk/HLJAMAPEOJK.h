@@ -8,6 +8,8 @@ namespace RPG::Client { class CharacterEffect; }
 #define HLJAMAPEOJK_LFPOIGJIFGL_OFFSET UNITYSDK_OFFSET(0x2E7ED30)
 #define HLJAMAPEOJK_OAEHPMJGHAB_OFFSET UNITYSDK_OFFSET(0x2E7ECC0)
 
+inline static constexpr unsigned int HLJAMAPEOJK_TypeDefinitionIndex = 57192;
+
 	struct alignas(4) HLJAMAPEOJK
 	{
 		::System::Single EIBGEGPABFK; // 0x10

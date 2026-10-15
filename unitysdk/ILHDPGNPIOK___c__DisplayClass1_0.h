@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 #define ILHDPGNPIOK___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x164B3EF0)
 #define ILHDPGNPIOK___C__DISPLAYCLASS1_0__ADDBUFF_B__0_OFFSET UNITYSDK_OFFSET(0x164B4630)
 
+inline static constexpr unsigned int ILHDPGNPIOK___c__DisplayClass1_0_TypeDefinitionIndex = 72349;
+
 	class ILHDPGNPIOK___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

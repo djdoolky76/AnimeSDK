@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerUITopEffect_TypeDefinitionIndex = 23152;
+
 	class TriggerUITopEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

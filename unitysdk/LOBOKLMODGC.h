@@ -30,6 +30,8 @@ namespace System { class String; }
 #define LOBOKLMODGC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9B9B30)
 #define LOBOKLMODGC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9B9B90)
 
+inline static constexpr unsigned int LOBOKLMODGC_TypeDefinitionIndex = 31079;
+
 	class LOBOKLMODGC : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace SRDebugger::Services::Implementation
 {
+	inline static constexpr unsigned int BugReportApiService_TypeDefinitionIndex = 38072;
+
 	class BugReportApiService
 	{
 	public:

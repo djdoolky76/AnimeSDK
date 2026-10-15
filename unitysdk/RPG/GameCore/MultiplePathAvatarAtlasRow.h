@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MultiplePathAvatarAtlasRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MultiplePathAvatarAtlasRow_TypeDefinitionIndex = 12685;
+
 	class MultiplePathAvatarAtlasRow : public ::System::Object
 	{
 	public:

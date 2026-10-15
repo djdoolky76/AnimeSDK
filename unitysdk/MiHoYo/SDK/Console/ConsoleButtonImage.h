@@ -8,6 +8,8 @@ namespace UnityEngine { class Sprite; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int ConsoleButtonImage_TypeDefinitionIndex = 9003;
+
 	class ConsoleButtonImage : public ::UnityEngine::MonoBehaviour
 	{
 	public:

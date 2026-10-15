@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace SRDebugger::Services
 {
+	inline static constexpr unsigned int PinEntryCompleteCallback_TypeDefinitionIndex = 38065;
+
 	class PinEntryCompleteCallback : public ::System::MulticastDelegate
 	{
 	public:

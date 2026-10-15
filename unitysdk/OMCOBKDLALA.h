@@ -4,6 +4,8 @@
 
 #define OMCOBKDLALA_CTOR_OFFSET UNITYSDK_OFFSET(0xBF21430)
 
+inline static constexpr unsigned int OMCOBKDLALA_TypeDefinitionIndex = 48907;
+
 	class OMCOBKDLALA : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierEnableAdventureRoomExtraGroupConfig
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierEnableAdventureRoomExtraGroupConfig_TypeDefinitionIndex = 17953;
+
 	class RogueModifierEnableAdventureRoomExtraGroupConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Xml { class XmlNameTable; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_dayTimeDuration_TypeDefinitionIndex = 2103;
+
 	class Datatype_dayTimeDuration : public ::System::Xml::Schema::Datatype_duration
 	{
 	public:

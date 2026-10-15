@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int GameStickLinuxUnityProfile_TypeDefinitionIndex = 40995;
+
 	class GameStickLinuxUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

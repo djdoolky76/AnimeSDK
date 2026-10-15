@@ -26,6 +26,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::UI
 {
+	inline static constexpr unsigned int BindingWelcome_TypeDefinitionIndex = 8388;
+
 	class BindingWelcome : public ::MiHoYo::SDK::UIElement
 	{
 	public:

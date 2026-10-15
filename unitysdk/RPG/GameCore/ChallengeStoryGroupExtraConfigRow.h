@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChallengeStoryGroupExtraConfigRow_TypeDefinitionIndex = 12991;
+
 	class ChallengeStoryGroupExtraConfigRow : public ::System::Object
 	{
 	public:

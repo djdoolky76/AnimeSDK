@@ -28,6 +28,8 @@ namespace System { class String; }
 #define NGOKMAABDJJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB17E00)
 #define NGOKMAABDJJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB17E60)
 
+inline static constexpr unsigned int NGOKMAABDJJ_TypeDefinitionIndex = 33362;
+
 	class NGOKMAABDJJ : public ::System::Object
 	{
 	public:

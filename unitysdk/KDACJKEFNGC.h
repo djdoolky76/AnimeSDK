@@ -9,6 +9,8 @@ namespace System { class String; }
 #define KDACJKEFNGC_GET_EXPANDED_OFFSET UNITYSDK_OFFSET(0xB346A50)
 #define KDACJKEFNGC_SET_EXPANDED_OFFSET UNITYSDK_OFFSET(0xB346A60)
 
+inline static constexpr unsigned int KDACJKEFNGC_TypeDefinitionIndex = 73663;
+
 	class KDACJKEFNGC : public ::Sirenix::OdinInspector::PropertyGroupAttribute
 	{
 	public:

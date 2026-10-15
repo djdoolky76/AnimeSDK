@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightDragOpEquipSelector; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightDragOpEquipSelector_TypeDefinitionIndex = 19958;
+
 	class GridFightDragOpEquipSelector : public ::RPG::GameCore::GridFightDragOpParamBase
 	{
 	public:

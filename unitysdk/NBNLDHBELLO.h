@@ -29,6 +29,8 @@ namespace System { class String; }
 #define NBNLDHBELLO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAD4A70)
 #define NBNLDHBELLO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAD4AD0)
 
+inline static constexpr unsigned int NBNLDHBELLO_TypeDefinitionIndex = 29460;
+
 	class NBNLDHBELLO : public ::System::Object
 	{
 	public:

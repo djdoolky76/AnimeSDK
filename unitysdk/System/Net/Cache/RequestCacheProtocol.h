@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace System::Net::Cache
 {
+	inline static constexpr unsigned int RequestCacheProtocol_TypeDefinitionIndex = 2985;
+
 	class RequestCacheProtocol : public ::System::Object
 	{
 	public:

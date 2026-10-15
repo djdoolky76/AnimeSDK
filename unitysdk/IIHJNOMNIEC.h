@@ -6,6 +6,8 @@
 #define IIHJNOMNIEC_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1643CEB0)
 #define IIHJNOMNIEC_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1643CEC0)
 
+inline static constexpr unsigned int IIHJNOMNIEC_TypeDefinitionIndex = 79677;
+
 	class IIHJNOMNIEC : public ::System::Object
 	{
 	public:

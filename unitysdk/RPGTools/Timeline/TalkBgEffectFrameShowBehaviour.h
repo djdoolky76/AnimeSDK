@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TalkBgEffectFrameShowBehaviour_TypeDefinitionIndex = 48381;
+
 	class TalkBgEffectFrameShowBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

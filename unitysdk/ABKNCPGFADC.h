@@ -31,6 +31,8 @@ namespace System { class String; }
 #define ABKNCPGFADC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDCE2C0)
 #define ABKNCPGFADC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDCE320)
 
+inline static constexpr unsigned int ABKNCPGFADC_TypeDefinitionIndex = 29789;
+
 	class ABKNCPGFADC : public ::System::Object
 	{
 	public:

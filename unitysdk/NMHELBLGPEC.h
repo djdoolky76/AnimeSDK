@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define NMHELBLGPEC_RECEIVEEVENT_OFFSET UNITYSDK_OFFSET(0xBC833C0)
 #define NMHELBLGPEC_RECEIVEMESSAGE_OFFSET UNITYSDK_OFFSET(0xBC83420)
 
+inline static constexpr unsigned int NMHELBLGPEC_TypeDefinitionIndex = 76142;
+
 	class NMHELBLGPEC : public ::RPG::Client::BaseGameFlowContext
 	{
 	public:

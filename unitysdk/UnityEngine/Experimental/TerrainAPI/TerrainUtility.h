@@ -10,6 +10,8 @@ namespace UnityEngine::Experimental::TerrainAPI { class TerrainUtility_TerrainGr
 
 namespace UnityEngine::Experimental::TerrainAPI
 {
+	inline static constexpr unsigned int TerrainUtility_TypeDefinitionIndex = 5340;
+
 	class TerrainUtility : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int AOVSettings_TypeDefinitionIndex = 4828;
+
 	struct alignas(4) AOVSettings
 	{
 		::System::Boolean Enabled; // 0x10

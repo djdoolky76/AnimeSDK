@@ -5,6 +5,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineBrain_BrainEvent_TypeDefinitionIndex = 39720;
+
 	class CinemachineBrain_BrainEvent
 	{
 	public:

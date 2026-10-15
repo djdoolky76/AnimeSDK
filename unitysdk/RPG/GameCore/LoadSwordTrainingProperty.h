@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LoadSwordTrainingProperty; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoadSwordTrainingProperty_TypeDefinitionIndex = 22597;
+
 	class LoadSwordTrainingProperty : public ::RPG::GameCore::TaskConfig
 	{
 	public:

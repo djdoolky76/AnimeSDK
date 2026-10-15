@@ -9,6 +9,8 @@ class NPPEJECKIOK;
 #define NPPEJECKIOK_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0xBD13A50)
 #define NPPEJECKIOK_MBABPIHGAJN_OFFSET UNITYSDK_OFFSET(0xBD13AE0)
 
+inline static constexpr unsigned int NPPEJECKIOK_TypeDefinitionIndex = 75275;
+
 	class NPPEJECKIOK : public ::System::Object
 	{
 	public:

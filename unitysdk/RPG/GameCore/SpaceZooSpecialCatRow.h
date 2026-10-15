@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SpaceZooSpecialCatRow_TypeDefinitionIndex = 12368;
+
 	class SpaceZooSpecialCatRow : public ::System::Object
 	{
 	public:

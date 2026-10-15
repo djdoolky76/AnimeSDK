@@ -29,6 +29,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChessRogueCabinetDataItem_TypeDefinitionIndex = 66913;
+
 	class ChessRogueCabinetDataItem : public ::System::Object
 	{
 	public:

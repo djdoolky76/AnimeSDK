@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define OOMOCIDLCDM_CTOR_OFFSET UNITYSDK_OFFSET(0xBF8FD70)
 #define OOMOCIDLCDM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBF8FDA0)
 
+inline static constexpr unsigned int OOMOCIDLCDM_TypeDefinitionIndex = 54898;
+
 	class OOMOCIDLCDM
 	{
 	public:

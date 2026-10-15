@@ -9,6 +9,8 @@ namespace RPG::GameCore { class AvatarDefaultMazeBuffRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarDefaultMazeBuffRow_TypeDefinitionIndex = 12769;
+
 	class AvatarDefaultMazeBuffRow : public ::System::Object
 	{
 	public:

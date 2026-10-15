@@ -3,6 +3,8 @@
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int MethodOptions_Types_IdempotencyLevel_TypeDefinitionIndex = 5509;
+
 	enum class MethodOptions_Types_IdempotencyLevel : ::System::Int32
 	{
 		IdempotencyUnknown = 0,

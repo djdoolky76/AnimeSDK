@@ -11,6 +11,8 @@ namespace System::Threading { class Thread; }
 #define MGGAIAJILFC_LLPGKJNAMIN_OFFSET UNITYSDK_OFFSET(0xB91C9C0)
 #define MGGAIAJILFC_MNANMMJADGN_OFFSET UNITYSDK_OFFSET(0xB91C350)
 
+inline static constexpr unsigned int MGGAIAJILFC_TypeDefinitionIndex = 69481;
+
 	class MGGAIAJILFC : public ::System::Object
 	{
 	public:

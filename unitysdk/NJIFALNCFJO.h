@@ -9,6 +9,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define NJIFALNCFJO_CTOR_OFFSET UNITYSDK_OFFSET(0xBC104B0)
 #define NJIFALNCFJO_OFCKIACAHCD_OFFSET UNITYSDK_OFFSET(0xBC10530)
 
+inline static constexpr unsigned int NJIFALNCFJO_TypeDefinitionIndex = 62551;
+
 	class NJIFALNCFJO : public ::System::Object
 	{
 	public:

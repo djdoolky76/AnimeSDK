@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SpineAttachment_TypeDefinitionIndex = 45099;
+
 	class SpineAttachment : public ::Spine::Unity::SpineAttributeBase
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KBCMPOHOIDL_CONVERT_OFFSET UNITYSDK_OFFSET(0x1CC93280)
 #define KBCMPOHOIDL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC932A0)
 
+inline static constexpr unsigned int KBCMPOHOIDL_TypeDefinitionIndex = 43909;
+
 	class KBCMPOHOIDL : public ::System::Object
 	{
 	public:

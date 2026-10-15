@@ -39,6 +39,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Random_TypeDefinitionIndex = 4249;
+
 	class Random : public ::System::Object
 	{
 	public:

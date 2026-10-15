@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 #define JCBAIKOADID_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D015570)
 #define JCBAIKOADID_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D015530)
 
+inline static constexpr unsigned int JCBAIKOADID_TypeDefinitionIndex = 23372;
+
 	class JCBAIKOADID : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -62,6 +62,8 @@ namespace UnityEngine { class Texture; }
 #define EIHHFOLMCFC_POOKPLGCKFE_OFFSET UNITYSDK_OFFSET(0x154C8950)
 #define EIHHFOLMCFC_TICK_OFFSET UNITYSDK_OFFSET(0x154C94F0)
 
+inline static constexpr unsigned int EIHHFOLMCFC_TypeDefinitionIndex = 47501;
+
 	class EIHHFOLMCFC : public ::RPG::Client::TABehaviorBase
 	{
 	public:

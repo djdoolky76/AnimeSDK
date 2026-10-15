@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftDiyMechatronColorItemViewModel_TypeDefinitionIndex = 79603;
+
 	class MechCraftDiyMechatronColorItemViewModel : public ::RPG::Client::MechCraft::ViewModel::MechCraftDiyEditItemViewModelBase
 	{
 	public:

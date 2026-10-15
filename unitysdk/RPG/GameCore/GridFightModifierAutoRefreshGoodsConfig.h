@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierAutoRefreshGoodsConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierAutoRefreshGoodsConfig_TypeDefinitionIndex = 19392;
+
 	class GridFightModifierAutoRefreshGoodsConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

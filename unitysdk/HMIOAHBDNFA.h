@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HMIOAHBDNFA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15D833D0)
 #define HMIOAHBDNFA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D832C0)
 
+inline static constexpr unsigned int HMIOAHBDNFA_TypeDefinitionIndex = 53819;
+
 	class HMIOAHBDNFA
 	{
 	public:

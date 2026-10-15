@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int HoYoChannelXbox___c__DisplayClass56_0_TypeDefinitionIndex = 8656;
+
 	class HoYoChannelXbox___c__DisplayClass56_0 : public ::System::Object
 	{
 	public:

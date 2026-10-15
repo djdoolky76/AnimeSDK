@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShopItemGroupConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShopItemGroupConfigRow_TypeDefinitionIndex = 15103;
+
 	class ShopItemGroupConfigRow : public ::System::Object
 	{
 	public:

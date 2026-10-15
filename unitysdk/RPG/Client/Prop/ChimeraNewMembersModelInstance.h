@@ -31,6 +31,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraNewMembersModelInstance_TypeDefinitionIndex = 78489;
+
 	class ChimeraNewMembersModelInstance : public ::UnityEngine::MonoBehaviour
 	{
 	public:

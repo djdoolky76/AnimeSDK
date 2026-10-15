@@ -28,6 +28,8 @@ namespace System { class String; }
 #define AEGCDIIGMHF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDEBB60)
 #define AEGCDIIGMHF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDEBBC0)
 
+inline static constexpr unsigned int AEGCDIIGMHF_TypeDefinitionIndex = 34227;
+
 	class AEGCDIIGMHF : public ::System::Object
 	{
 	public:

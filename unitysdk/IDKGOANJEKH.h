@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define IDKGOANJEKH_GLODECDBPKL_1_OFFSET UNITYSDK_OFFSET(0x15ED8280)
 #define IDKGOANJEKH_GLODECDBPKL_OFFSET UNITYSDK_OFFSET(0x15ED76A0)
 
+inline static constexpr unsigned int IDKGOANJEKH_TypeDefinitionIndex = 67808;
+
 	class IDKGOANJEKH : public ::System::Object
 	{
 	public:

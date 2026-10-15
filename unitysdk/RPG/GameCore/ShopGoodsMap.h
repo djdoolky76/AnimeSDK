@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ShopGoodsMap; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShopGoodsMap_TypeDefinitionIndex = 12596;
+
 	class ShopGoodsMap : public ::System::Object
 	{
 	public:

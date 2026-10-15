@@ -13,6 +13,8 @@ namespace System::Xml::Schema { class ValidationEventArgs; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int ValidationEventHandler_TypeDefinitionIndex = 2179;
+
 	class ValidationEventHandler : public ::System::MulticastDelegate
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client { class CRPSSGIQualitySettings; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CRPLightSettings_TypeDefinitionIndex = 67928;
+
 	class CRPLightSettings : public ::System::Object
 	{
 	public:

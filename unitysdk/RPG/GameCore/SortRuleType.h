@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SortRuleType_TypeDefinitionIndex = 18257;
+
 	enum class SortRuleType : ::System::Int32
 	{
 		MinFirst = 0,

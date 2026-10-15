@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRCompositor__GetCumulativeStats_TypeDefinitionIndex = 39026;
+
 	class IVRCompositor__GetCumulativeStats : public ::System::MulticastDelegate
 	{
 	public:

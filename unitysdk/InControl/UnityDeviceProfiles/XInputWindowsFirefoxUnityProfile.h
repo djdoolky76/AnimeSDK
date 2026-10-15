@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int XInputWindowsFirefoxUnityProfile_TypeDefinitionIndex = 41059;
+
 	class XInputWindowsFirefoxUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

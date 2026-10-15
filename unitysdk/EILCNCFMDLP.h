@@ -29,6 +29,8 @@ namespace System { class String; }
 #define EILCNCFMDLP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2AB110)
 #define EILCNCFMDLP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2AB170)
 
+inline static constexpr unsigned int EILCNCFMDLP_TypeDefinitionIndex = 33690;
+
 	class EILCNCFMDLP : public ::System::Object
 	{
 	public:

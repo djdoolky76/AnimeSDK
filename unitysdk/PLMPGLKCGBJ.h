@@ -25,6 +25,8 @@ namespace System { class String; }
 #define PLMPGLKCGBJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFA3C60)
 #define PLMPGLKCGBJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFA3CC0)
 
+inline static constexpr unsigned int PLMPGLKCGBJ_TypeDefinitionIndex = 27146;
+
 	class PLMPGLKCGBJ : public ::System::Object
 	{
 	public:

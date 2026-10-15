@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreePlayerData_TypeDefinitionIndex = 65976;
+
 	class MatchThreePlayerData : public ::System::Object
 	{
 	public:

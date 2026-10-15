@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HGCIAPKELAF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E574000)
 #define HGCIAPKELAF___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E574010)
 
+inline static constexpr unsigned int HGCIAPKELAF___c_TypeDefinitionIndex = 27470;
+
 	class HGCIAPKELAF___c : public ::System::Object
 	{
 	public:

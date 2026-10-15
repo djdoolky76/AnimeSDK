@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client::UI::UIStateCtrl
 {
+	inline static constexpr unsigned int InstantAction_TypeDefinitionIndex = 74068;
+
 	class InstantAction : public ::RPG::Client::UI::UIStateCtrl::BaseAction
 	{
 	public:

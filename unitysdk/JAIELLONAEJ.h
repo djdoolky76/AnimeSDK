@@ -18,6 +18,8 @@ namespace RPG::GameCore { class TimeRewindEntityEventConfig; }
 #define JAIELLONAEJ_MONODNDCLJI_OFFSET UNITYSDK_OFFSET(0x165524F0)
 #define JAIELLONAEJ_OHMHJFANEIF_OFFSET UNITYSDK_OFFSET(0x165524B0)
 
+inline static constexpr unsigned int JAIELLONAEJ_TypeDefinitionIndex = 60804;
+
 	class JAIELLONAEJ : public ::System::Object
 	{
 	public:

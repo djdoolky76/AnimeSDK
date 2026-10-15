@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetFlipperLightDeviceRangeFollowPlayer_TypeDefinitionIndex = 22343;
+
 	class SetFlipperLightDeviceRangeFollowPlayer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

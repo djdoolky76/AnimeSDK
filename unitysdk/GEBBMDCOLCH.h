@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GEBBMDCOLCH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E450EB0)
 #define GEBBMDCOLCH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E450F10)
 
+inline static constexpr unsigned int GEBBMDCOLCH_TypeDefinitionIndex = 29354;
+
 	class GEBBMDCOLCH : public ::System::Object
 	{
 	public:

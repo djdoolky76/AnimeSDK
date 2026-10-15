@@ -37,6 +37,8 @@ namespace System::Net::Sockets { class Socket; }
 
 namespace System::Net::Sockets
 {
+	inline static constexpr unsigned int NetworkStream_TypeDefinitionIndex = 2899;
+
 	class NetworkStream : public ::System::IO::Stream
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass3_2_TypeDefinitionIndex = 7327;
+
 	template <typename T1, typename T2>
 	class DynamicObjectTypeBuilder___c__DisplayClass3_2 : public ::System::Object
 	{

@@ -13,6 +13,8 @@ namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 #define AAEKKFIJFDL_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C877350)
 #define AAEKKFIJFDL_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C8774C0)
 
+inline static constexpr unsigned int AAEKKFIJFDL_TypeDefinitionIndex = 43335;
+
 	class AAEKKFIJFDL : public ::System::Object
 	{
 	public:

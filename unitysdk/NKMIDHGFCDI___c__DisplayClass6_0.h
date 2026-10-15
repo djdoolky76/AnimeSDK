@@ -7,6 +7,8 @@ namespace System { class String; }
 #define NKMIDHGFCDI___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4C7320)
 #define NKMIDHGFCDI___C__DISPLAYCLASS6_0__ISFILEEXISTBYCONTENTHASH_B__0_OFFSET UNITYSDK_OFFSET(0x1C4C7860)
 
+inline static constexpr unsigned int NKMIDHGFCDI___c__DisplayClass6_0_TypeDefinitionIndex = 41504;
+
 	class NKMIDHGFCDI___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

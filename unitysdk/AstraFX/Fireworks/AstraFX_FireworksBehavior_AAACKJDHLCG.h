@@ -8,6 +8,8 @@ namespace AstraFX::Fireworks { class FireworkType; }
 
 namespace AstraFX::Fireworks
 {
+	inline static constexpr unsigned int AstraFX_FireworksBehavior_AAACKJDHLCG_TypeDefinitionIndex = 49022;
+
 	class AstraFX_FireworksBehavior_AAACKJDHLCG : public ::System::Object
 	{
 	public:

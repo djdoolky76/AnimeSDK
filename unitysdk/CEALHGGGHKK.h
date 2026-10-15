@@ -33,6 +33,8 @@ namespace System { class String; }
 #define CEALHGGGHKK_SET_RUNTIMEID_OFFSET UNITYSDK_OFFSET(0xC77AE10)
 #define CEALHGGGHKK_SET_TEXTID_OFFSET UNITYSDK_OFFSET(0xC77AE30)
 
+inline static constexpr unsigned int CEALHGGGHKK_TypeDefinitionIndex = 68554;
+
 	class CEALHGGGHKK : public ::EDLDHDMLJDH
 	{
 	public:

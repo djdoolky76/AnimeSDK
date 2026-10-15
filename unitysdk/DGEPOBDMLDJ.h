@@ -67,6 +67,8 @@ namespace System { class String; }
 #define DGEPOBDMLDJ_SET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x3C29F10)
 #define DGEPOBDMLDJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C45440)
 
+inline static constexpr unsigned int DGEPOBDMLDJ_TypeDefinitionIndex = 6535;
+
 	struct alignas(8) DGEPOBDMLDJ
 	{
 		::DGEPOBDMLDJ_BGFADDBMJAB HLGBEAMLOBO; // 0x10

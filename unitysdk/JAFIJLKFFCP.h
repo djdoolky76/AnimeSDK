@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JAFIJLKFFCP_NOFOEJPGELI_OFFSET UNITYSDK_OFFSET(0x16543480)
 #define JAFIJLKFFCP_OHMHJFANEIF_OFFSET UNITYSDK_OFFSET(0x16542F60)
 
+inline static constexpr unsigned int JAFIJLKFFCP_TypeDefinitionIndex = 66209;
+
 	class JAFIJLKFFCP : public ::System::Object
 	{
 	public:

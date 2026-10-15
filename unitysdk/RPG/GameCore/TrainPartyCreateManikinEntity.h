@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyCreateManikinEntity_TypeDefinitionIndex = 22367;
+
 	class TrainPartyCreateManikinEntity : public ::RPG::GameCore::TaskConfig
 	{
 	public:

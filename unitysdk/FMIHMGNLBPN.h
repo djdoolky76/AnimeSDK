@@ -21,6 +21,8 @@ namespace RPG::GameCore { class PlanetFesAssistantMessageRow; }
 #define FMIHMGNLBPN_ODDMLJINFDE_OFFSET UNITYSDK_OFFSET(0x1585C6B0)
 #define FMIHMGNLBPN_PGNKECAMPOK_OFFSET UNITYSDK_OFFSET(0x1585C0F0)
 
+inline static constexpr unsigned int FMIHMGNLBPN_TypeDefinitionIndex = 66508;
+
 	class FMIHMGNLBPN : public ::System::Object
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightRoleShop___c_TypeDefinitionIndex = 65229;
+
 	class GridFightRoleShop___c : public ::System::Object
 	{
 	public:

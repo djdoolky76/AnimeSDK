@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MapRotationEntityEffect_TypeDefinitionIndex = 17028;
+
 	class MapRotationEntityEffect : public ::RPG::GameCore::JsonConfig
 	{
 	public:

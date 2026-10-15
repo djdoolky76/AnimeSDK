@@ -22,6 +22,8 @@ namespace UnityEngine::UI { class LayoutElement; }
 
 namespace SRF::UI
 {
+	inline static constexpr unsigned int DragHandle_TypeDefinitionIndex = 35379;
+
 	class DragHandle : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DarkTeamDestroyCheck; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DarkTeamDestroyCheck_TypeDefinitionIndex = 23404;
+
 	class DarkTeamDestroyCheck : public ::RPG::GameCore::TaskConfig
 	{
 	public:

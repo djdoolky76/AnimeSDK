@@ -38,6 +38,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UI3DCameraStateBase_TypeDefinitionIndex = 57539;
+
 	class UI3DCameraStateBase : public ::System::Object
 	{
 	public:

@@ -116,6 +116,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IJFIHJJPHNA_POJHKDKMIOG_OFFSET UNITYSDK_OFFSET(0x1C6DC260)
 #define IJFIHJJPHNA_PPKODAGEEDL_OFFSET UNITYSDK_OFFSET(0x1C6DA1D0)
 
+inline static constexpr unsigned int IJFIHJJPHNA_TypeDefinitionIndex = 37023;
+
 	class IJFIHJJPHNA : public ::Entitas::Entity
 	{
 	public:

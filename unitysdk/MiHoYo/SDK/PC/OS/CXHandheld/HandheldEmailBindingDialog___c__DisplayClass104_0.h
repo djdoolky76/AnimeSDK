@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int HandheldEmailBindingDialog___c__DisplayClass104_0_TypeDefinitionIndex = 8812;
+
 	class HandheldEmailBindingDialog___c__DisplayClass104_0 : public ::System::Object
 	{
 	public:

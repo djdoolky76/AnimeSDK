@@ -6,6 +6,8 @@ namespace RPG::Client { class MapNpcDef; }
 #define BIDDFDEAEGB___C__DISPLAYCLASS39_1_CTOR_OFFSET UNITYSDK_OFFSET(0xB49FBB0)
 #define BIDDFDEAEGB___C__DISPLAYCLASS39_1___INITSERVERHOYOGROUPCLIENTENTITYDEF_B__1_OFFSET UNITYSDK_OFFSET(0xB4A1FF0)
 
+inline static constexpr unsigned int BIDDFDEAEGB___c__DisplayClass39_1_TypeDefinitionIndex = 62113;
+
 	template <typename T>
 	class BIDDFDEAEGB___c__DisplayClass39_1 : public ::System::Object
 	{

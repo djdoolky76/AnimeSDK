@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoUIPivotContainmentDetect___c__DisplayClass17_0_TypeDefinitionIndex = 72617;
+
 	class MonoUIPivotContainmentDetect___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

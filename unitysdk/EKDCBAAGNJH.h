@@ -27,6 +27,8 @@ namespace UnityEngine { class Transform; }
 #define EKDCBAAGNJH_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x15500280)
 #define EKDCBAAGNJH__ONBIND_OFFSET UNITYSDK_OFFSET(0x154FFA70)
 
+inline static constexpr unsigned int EKDCBAAGNJH_TypeDefinitionIndex = 72252;
+
 	class EKDCBAAGNJH : public ::FMPCODLIOLG
 	{
 	public:

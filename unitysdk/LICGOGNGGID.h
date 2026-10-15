@@ -18,6 +18,8 @@ namespace System::Text { class StringBuilder; }
 #define LICGOGNGGID_SET_TEAMID_OFFSET UNITYSDK_OFFSET(0xFE80)
 #define LICGOGNGGID_TOSTRING_OFFSET UNITYSDK_OFFSET(0x195D0)
 
+inline static constexpr unsigned int LICGOGNGGID_TypeDefinitionIndex = 68092;
+
 	struct alignas(4) LICGOGNGGID
 	{
 		::System::UInt32 _AvatarID_k__BackingField; // 0x10

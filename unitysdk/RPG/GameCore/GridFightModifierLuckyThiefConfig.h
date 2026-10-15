@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierLuckyThiefConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierLuckyThiefConfig_TypeDefinitionIndex = 19376;
+
 	class GridFightModifierLuckyThiefConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

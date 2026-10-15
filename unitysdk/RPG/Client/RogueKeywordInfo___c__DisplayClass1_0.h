@@ -8,6 +8,8 @@ namespace RPG::Client { class RogueKeywordData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueKeywordInfo___c__DisplayClass1_0_TypeDefinitionIndex = 67267;
+
 	class RogueKeywordInfo___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

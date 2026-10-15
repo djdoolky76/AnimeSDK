@@ -18,6 +18,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define MGKNCBCKBLL_NDKMNLDEKNM_OFFSET UNITYSDK_OFFSET(0xB927C70)
 #define MGKNCBCKBLL_NFCCENENJNP_OFFSET UNITYSDK_OFFSET(0xB927620)
 
+inline static constexpr unsigned int MGKNCBCKBLL_TypeDefinitionIndex = 49263;
+
 	class MGKNCBCKBLL : public ::System::Object
 	{
 	public:

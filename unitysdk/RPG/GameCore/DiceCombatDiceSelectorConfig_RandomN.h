@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatDiceSelectorConfig_RandomN_TypeDefinitionIndex = 16150;
+
 	class DiceCombatDiceSelectorConfig_RandomN : public ::RPG::GameCore::DiceCombatDiceSelectorConfig
 	{
 	public:

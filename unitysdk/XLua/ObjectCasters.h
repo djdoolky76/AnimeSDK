@@ -35,6 +35,8 @@ namespace XLua { class ObjectTranslator; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int ObjectCasters_TypeDefinitionIndex = 50236;
+
 	class ObjectCasters : public ::System::Object
 	{
 	public:

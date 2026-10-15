@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ManikinServantConfig_TypeDefinitionIndex = 17473;
+
 	class ManikinServantConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

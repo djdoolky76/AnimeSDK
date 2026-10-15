@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace System::Runtime::Remoting::Metadata
 {
+	inline static constexpr unsigned int SoapAttribute_TypeDefinitionIndex = 1285;
+
 	class SoapAttribute : public ::System::Attribute
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DCABOALFJAP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E165280)
 #define DCABOALFJAP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1652E0)
 
+inline static constexpr unsigned int DCABOALFJAP_TypeDefinitionIndex = 30085;
+
 	class DCABOALFJAP : public ::System::Object
 	{
 	public:

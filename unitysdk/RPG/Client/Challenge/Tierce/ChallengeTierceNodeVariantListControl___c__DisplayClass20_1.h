@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceNodeVariantListControl___c__DisplayClass20_1_TypeDefinitionIndex = 81532;
+
 	template <typename T>
 	class ChallengeTierceNodeVariantListControl___c__DisplayClass20_1 : public ::System::Object
 	{

@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EvolveBuildMixData_TypeDefinitionIndex = 63824;
+
 	class EvolveBuildMixData : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueTurntableGrantReward; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTurntableGrantReward_TypeDefinitionIndex = 20818;
+
 	class RogueTurntableGrantReward : public ::RPG::GameCore::TaskConfig
 	{
 	public:

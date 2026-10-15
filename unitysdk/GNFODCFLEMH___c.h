@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define GNFODCFLEMH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15B06F30)
 #define GNFODCFLEMH___C___REFRESHAVATARHUDPANELSIBLINGINDEX_B__10_0_OFFSET UNITYSDK_OFFSET(0x15B06F40)
 
+inline static constexpr unsigned int GNFODCFLEMH___c_TypeDefinitionIndex = 71449;
+
 	class GNFODCFLEMH___c : public ::System::Object
 	{
 	public:

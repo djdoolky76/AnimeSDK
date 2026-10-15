@@ -41,6 +41,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TutorialGuideConfigWrapper_TypeDefinitionIndex = 68205;
+
 	class TutorialGuideConfigWrapper : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ class AkWwiseInitializationSettings;
 #define AKINITIALIZER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1F59B8A0)
 #define AKINITIALIZER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1F59B7A0)
 
+inline static constexpr unsigned int AkInitializer_TypeDefinitionIndex = 44935;
+
 	class AkInitializer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

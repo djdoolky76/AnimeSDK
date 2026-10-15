@@ -30,6 +30,8 @@ namespace System { class String; }
 #define AMHDDDHIGAM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E521920)
 #define AMHDDDHIGAM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E521980)
 
+inline static constexpr unsigned int AMHDDDHIGAM_TypeDefinitionIndex = 32155;
+
 	class AMHDDDHIGAM : public ::System::Object
 	{
 	public:

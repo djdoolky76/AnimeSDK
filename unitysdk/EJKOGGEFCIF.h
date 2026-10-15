@@ -9,6 +9,8 @@ class FHJKNCMMMON;
 #define EJKOGGEFCIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD90F40)
 #define EJKOGGEFCIF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD90D30)
 
+inline static constexpr unsigned int EJKOGGEFCIF_TypeDefinitionIndex = 11982;
+
 	class EJKOGGEFCIF : public ::System::Object
 	{
 	public:

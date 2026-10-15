@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define DHLJDJKNOLO_LHJBPEBMKDN_OFFSET UNITYSDK_OFFSET(0xEBE86D0)
 #define DHLJDJKNOLO_MHDCDNHDBKB_OFFSET UNITYSDK_OFFSET(0xEBE89D0)
 
+inline static constexpr unsigned int DHLJDJKNOLO_TypeDefinitionIndex = 58862;
+
 	class DHLJDJKNOLO : public ::CNCLNAFILDC
 	{
 	public:

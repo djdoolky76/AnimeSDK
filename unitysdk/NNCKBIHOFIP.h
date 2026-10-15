@@ -32,6 +32,8 @@ namespace XLua { class LuaTable; }
 #define NNCKBIHOFIP_PCFELLPMCKA_OFFSET UNITYSDK_OFFSET(0xBC9E8E0)
 #define NNCKBIHOFIP__ONBIND_OFFSET UNITYSDK_OFFSET(0xBC9E1F0)
 
+inline static constexpr unsigned int NNCKBIHOFIP_TypeDefinitionIndex = 72289;
+
 	class NNCKBIHOFIP : public ::FMPCODLIOLG
 	{
 	public:

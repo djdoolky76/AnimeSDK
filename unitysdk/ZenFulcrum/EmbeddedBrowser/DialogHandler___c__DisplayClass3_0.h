@@ -12,6 +12,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class JSONNode; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int DialogHandler___c__DisplayClass3_0_TypeDefinitionIndex = 39496;
+
 	class DialogHandler___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

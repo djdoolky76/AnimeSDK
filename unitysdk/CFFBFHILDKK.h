@@ -4,6 +4,8 @@
 
 #define CFFBFHILDKK_CCTOR_OFFSET UNITYSDK_OFFSET(0xCA11680)
 
+inline static constexpr unsigned int CFFBFHILDKK_TypeDefinitionIndex = 69496;
+
 	class CFFBFHILDKK : public ::System::Object
 	{
 	public:

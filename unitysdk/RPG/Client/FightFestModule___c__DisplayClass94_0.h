@@ -8,6 +8,8 @@ namespace RPG::Client { class FightFestRaceData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FightFestModule___c__DisplayClass94_0_TypeDefinitionIndex = 64191;
+
 	class FightFestModule___c__DisplayClass94_0 : public ::System::Object
 	{
 	public:

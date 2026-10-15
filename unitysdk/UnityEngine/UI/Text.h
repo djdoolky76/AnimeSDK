@@ -125,6 +125,8 @@ namespace UnityEngine::UI { template <typename T> class ObjectPool_1; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int Text_TypeDefinitionIndex = 6863;
+
 	class Text : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:

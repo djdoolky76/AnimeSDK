@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameFormationEditor_GridFightGameFormationRoleFilterOption_TypeDefinitionIndex = 64644;
+
 	class GridFightGameFormationEditor_GridFightGameFormationRoleFilterOption : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GroupInitMemberEntityPropState; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GroupInitMemberEntityPropState_TypeDefinitionIndex = 20735;
+
 	class GroupInitMemberEntityPropState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

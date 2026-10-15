@@ -35,6 +35,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Runtime::Remoting::Proxies
 {
+	inline static constexpr unsigned int RealProxy_TypeDefinitionIndex = 1236;
+
 	class RealProxy : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Net { class PathList_PathListComparer; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int PathList_PathListComparer_TypeDefinitionIndex = 2806;
+
 	class PathList_PathListComparer : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client { class BaseGachaPoolData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BaseGachaGroupData___c__DisplayClass7_0_TypeDefinitionIndex = 64309;
+
 	class BaseGachaGroupData___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

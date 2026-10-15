@@ -42,6 +42,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HCOGFOGPKHI_OJOJHFOLLAC_OFFSET UNITYSDK_OFFSET(0x15C2E950)
 #define HCOGFOGPKHI_PAHEIFONMAF_OFFSET UNITYSDK_OFFSET(0x15C2DE10)
 
+inline static constexpr unsigned int HCOGFOGPKHI_TypeDefinitionIndex = 79052;
+
 	class HCOGFOGPKHI : public ::System::Object
 	{
 	public:

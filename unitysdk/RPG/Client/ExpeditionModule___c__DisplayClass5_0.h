@@ -10,6 +10,8 @@ namespace RPG::Client { class ExpeditionModule; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ExpeditionModule___c__DisplayClass5_0_TypeDefinitionIndex = 63969;
+
 	class ExpeditionModule___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

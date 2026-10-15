@@ -6,6 +6,8 @@ namespace UnityEngine { class RenderTexture; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int NoInterpRenderTextureParameter_TypeDefinitionIndex = 35654;
+
 	class NoInterpRenderTextureParameter
 	{
 	public:

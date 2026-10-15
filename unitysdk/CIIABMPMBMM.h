@@ -4,6 +4,8 @@
 
 #define CIIABMPMBMM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4E2CC0)
 
+inline static constexpr unsigned int CIIABMPMBMM_TypeDefinitionIndex = 5596;
+
 	class CIIABMPMBMM : public ::System::Attribute
 	{
 	public:

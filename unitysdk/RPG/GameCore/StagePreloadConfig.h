@@ -9,6 +9,8 @@ namespace RPG::GameCore { class StagePreloadConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StagePreloadConfig_TypeDefinitionIndex = 16357;
+
 	class StagePreloadConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

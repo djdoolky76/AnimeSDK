@@ -62,6 +62,8 @@ namespace System { class String; }
 #define FCKNFOKENDN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E34B280)
 #define FCKNFOKENDN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E34B2E0)
 
+inline static constexpr unsigned int FCKNFOKENDN_TypeDefinitionIndex = 25253;
+
 	class FCKNFOKENDN : public ::System::Object
 	{
 	public:

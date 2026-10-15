@@ -5,6 +5,8 @@
 
 #define KJFKDANBPFA_CTOR_OFFSET UNITYSDK_OFFSET(0xB449AF0)
 
+inline static constexpr unsigned int KJFKDANBPFA_TypeDefinitionIndex = 55542;
+
 	class KJFKDANBPFA : public ::System::Object
 	{
 	public:

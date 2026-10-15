@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define NJHKJADIGDP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBC10130)
 #define NJHKJADIGDP_TICK_OFFSET UNITYSDK_OFFSET(0xBC10180)
 
+inline static constexpr unsigned int NJHKJADIGDP_TypeDefinitionIndex = 52173;
+
 	class NJHKJADIGDP
 	{
 	public:

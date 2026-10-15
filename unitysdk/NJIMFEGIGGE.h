@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NJIMFEGIGGE_CTOR_OFFSET UNITYSDK_OFFSET(0xBC105B0)
 #define NJIMFEGIGGE_EHKLIDAMLEH_OFFSET UNITYSDK_OFFSET(0xBC108E0)
 
+inline static constexpr unsigned int NJIMFEGIGGE_TypeDefinitionIndex = 62635;
+
 	class NJIMFEGIGGE : public ::System::Object
 	{
 	public:

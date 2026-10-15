@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int Utils___c__DisplayClass28_0_TypeDefinitionIndex = 50272;
+
 	class Utils___c__DisplayClass28_0 : public ::System::Object
 	{
 	public:

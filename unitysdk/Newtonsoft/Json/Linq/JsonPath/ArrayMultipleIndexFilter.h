@@ -6,6 +6,8 @@
 
 namespace Newtonsoft::Json::Linq::JsonPath
 {
+	inline static constexpr unsigned int ArrayMultipleIndexFilter_TypeDefinitionIndex = 9794;
+
 	class ArrayMultipleIndexFilter : public ::Newtonsoft::Json::Linq::JsonPath::PathFilter
 	{
 	public:

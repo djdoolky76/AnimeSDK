@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NEEFMPLOKIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAF32F0)
 #define NEEFMPLOKIL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EAF3300)
 
+inline static constexpr unsigned int NEEFMPLOKIL___c_TypeDefinitionIndex = 30009;
+
 	class NEEFMPLOKIL___c : public ::System::Object
 	{
 	public:

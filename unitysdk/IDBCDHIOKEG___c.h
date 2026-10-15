@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define IDBCDHIOKEG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E628530)
 #define IDBCDHIOKEG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E628540)
 
+inline static constexpr unsigned int IDBCDHIOKEG___c_TypeDefinitionIndex = 34729;
+
 	class IDBCDHIOKEG___c : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class SetBattleScoringItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetBattleScoringItem_TypeDefinitionIndex = 23176;
+
 	class SetBattleScoringItem : public ::RPG::GameCore::TaskConfig
 	{
 	public:

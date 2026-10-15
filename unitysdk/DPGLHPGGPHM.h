@@ -32,6 +32,8 @@ namespace System { class String; }
 #define DPGLHPGGPHM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E20F380)
 #define DPGLHPGGPHM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E20F3E0)
 
+inline static constexpr unsigned int DPGLHPGGPHM_TypeDefinitionIndex = 33337;
+
 	class DPGLHPGGPHM : public ::System::Object
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int LIOJIMOOAKK_TypeDefinitionIndex = 34282;
+
 	enum class LIOJIMOOAKK : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

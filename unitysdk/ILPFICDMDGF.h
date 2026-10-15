@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define ILPFICDMDGF_CTOR_OFFSET UNITYSDK_OFFSET(0x164CBC80)
 #define ILPFICDMDGF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x164CBCB0)
 
+inline static constexpr unsigned int ILPFICDMDGF_TypeDefinitionIndex = 53152;
+
 	class ILPFICDMDGF
 	{
 	public:

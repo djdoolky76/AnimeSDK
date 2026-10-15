@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define ENOLEABOABJ_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CDB05D0)
 #define ENOLEABOABJ_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CDAFEF0)
 
+inline static constexpr unsigned int ENOLEABOABJ_TypeDefinitionIndex = 14099;
+
 	class ENOLEABOABJ : public ::System::Object
 	{
 	public:

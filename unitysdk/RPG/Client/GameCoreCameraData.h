@@ -24,6 +24,8 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GameCoreCameraData_TypeDefinitionIndex = 69561;
+
 	class GameCoreCameraData : public ::System::Object
 	{
 	public:

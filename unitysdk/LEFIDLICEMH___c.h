@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LEFIDLICEMH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9291C0)
 #define LEFIDLICEMH___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E9291D0)
 
+inline static constexpr unsigned int LEFIDLICEMH___c_TypeDefinitionIndex = 27958;
+
 	class LEFIDLICEMH___c : public ::System::Object
 	{
 	public:

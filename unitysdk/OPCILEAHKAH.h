@@ -30,6 +30,8 @@ namespace System { class String; }
 #define OPCILEAHKAH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEDDEA0)
 #define OPCILEAHKAH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEDDF00)
 
+inline static constexpr unsigned int OPCILEAHKAH_TypeDefinitionIndex = 30020;
+
 	class OPCILEAHKAH : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ class LDMBNFAMCOI;
 
 #define CMAMEPBHDDP_CTOR_OFFSET UNITYSDK_OFFSET(0xDA244D0)
 
+inline static constexpr unsigned int CMAMEPBHDDP_TypeDefinitionIndex = 80564;
+
 	class CMAMEPBHDDP : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define CLBHBDGOLCF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD7767B0)
 #define CLBHBDGOLCF_TICK_OFFSET UNITYSDK_OFFSET(0xD7768C0)
 
+inline static constexpr unsigned int CLBHBDGOLCF_TypeDefinitionIndex = 58222;
+
 	class CLBHBDGOLCF : public ::GELIALJDFBL
 	{
 	public:

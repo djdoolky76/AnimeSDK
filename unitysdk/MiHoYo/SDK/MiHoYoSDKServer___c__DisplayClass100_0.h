@@ -9,6 +9,8 @@ namespace MiHoYo::SDK { class SecurityTunnel_Packet; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKServer___c__DisplayClass100_0_TypeDefinitionIndex = 46320;
+
 	class MiHoYoSDKServer___c__DisplayClass100_0 : public ::System::Object
 	{
 	public:

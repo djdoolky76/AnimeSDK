@@ -15,6 +15,8 @@ namespace System::Net::Http::Headers { class HttpHeaders; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int HeaderInfo_TypeDefinitionIndex = 3788;
+
 	class HeaderInfo : public ::System::Object
 	{
 	public:

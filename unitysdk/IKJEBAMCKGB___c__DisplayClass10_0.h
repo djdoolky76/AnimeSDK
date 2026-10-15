@@ -6,6 +6,8 @@ class IKJEBAMCKGB;
 #define IKJEBAMCKGB___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1648EAB0)
 #define IKJEBAMCKGB___C__DISPLAYCLASS10_0__SETVIEWACTIVE_B__0_OFFSET UNITYSDK_OFFSET(0x1648FC50)
 
+inline static constexpr unsigned int IKJEBAMCKGB___c__DisplayClass10_0_TypeDefinitionIndex = 72148;
+
 	class IKJEBAMCKGB___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

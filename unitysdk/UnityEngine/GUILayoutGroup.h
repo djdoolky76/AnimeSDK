@@ -26,6 +26,8 @@ namespace UnityEngine { class GUIStyle; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GUILayoutGroup_TypeDefinitionIndex = 5192;
+
 	class GUILayoutGroup : public ::UnityEngine::GUILayoutEntry
 	{
 	public:

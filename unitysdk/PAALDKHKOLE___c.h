@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PAALDKHKOLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEEA090)
 #define PAALDKHKOLE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DEEA0A0)
 
+inline static constexpr unsigned int PAALDKHKOLE___c_TypeDefinitionIndex = 25963;
+
 	class PAALDKHKOLE___c : public ::System::Object
 	{
 	public:

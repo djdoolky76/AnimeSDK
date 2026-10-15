@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int MonoChenLingGameBoyInputBtn_TypeDefinitionIndex = 77230;
+
 	class MonoChenLingGameBoyInputBtn : public ::UnityEngine::MonoBehaviour
 	{
 	public:

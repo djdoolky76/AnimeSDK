@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define NIGHPOEBBDB_IJOONKNIDKI_OFFSET UNITYSDK_OFFSET(0xBBEABC0)
 #define NIGHPOEBBDB_PIDDJCJPLDL_OFFSET UNITYSDK_OFFSET(0xBBEAC50)
 
+inline static constexpr unsigned int NIGHPOEBBDB_TypeDefinitionIndex = 67255;
+
 	class NIGHPOEBBDB : public ::System::Object
 	{
 	public:

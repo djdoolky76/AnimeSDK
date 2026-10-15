@@ -22,6 +22,8 @@ namespace UnityEngine::UI { class Slider; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftTalentPointControlBinder_TypeDefinitionIndex = 80075;
+
 	class MechCraftTalentPointControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

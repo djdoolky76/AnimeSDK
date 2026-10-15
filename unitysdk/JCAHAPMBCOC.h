@@ -28,6 +28,8 @@ namespace System { class String; }
 #define JCAHAPMBCOC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6FE3F0)
 #define JCAHAPMBCOC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6FE450)
 
+inline static constexpr unsigned int JCAHAPMBCOC_TypeDefinitionIndex = 30714;
+
 	class JCAHAPMBCOC : public ::System::Object
 	{
 	public:

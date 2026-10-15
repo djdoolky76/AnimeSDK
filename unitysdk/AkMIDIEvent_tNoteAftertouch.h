@@ -15,6 +15,8 @@ class AkMIDIEvent_tNoteAftertouch;
 #define AKMIDIEVENT_TNOTEAFTERTOUCH_SET_BYNOTE_OFFSET UNITYSDK_OFFSET(0x1F5A1550)
 #define AKMIDIEVENT_TNOTEAFTERTOUCH_SET_BYVALUE_OFFSET UNITYSDK_OFFSET(0x1F5A16C0)
 
+inline static constexpr unsigned int AkMIDIEvent_tNoteAftertouch_TypeDefinitionIndex = 44755;
+
 	class AkMIDIEvent_tNoteAftertouch : public ::System::Object
 	{
 	public:

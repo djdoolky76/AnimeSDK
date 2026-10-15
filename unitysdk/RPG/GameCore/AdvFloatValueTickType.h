@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvFloatValueTickType; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvFloatValueTickType_TypeDefinitionIndex = 21019;
+
 	class AdvFloatValueTickType : public ::RPG::GameCore::JsonConfig
 	{
 	public:

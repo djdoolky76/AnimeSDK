@@ -6,6 +6,8 @@ namespace RPG::GameCore { class ChimeraEvaluationCondition; }
 #define MEADMBPIENB_AMPLNFFNNJI_OFFSET UNITYSDK_OFFSET(0xB8B8460)
 #define MEADMBPIENB_CTOR_OFFSET UNITYSDK_OFFSET(0xB8B8450)
 
+inline static constexpr unsigned int MEADMBPIENB_TypeDefinitionIndex = 63471;
+
 	class MEADMBPIENB : public ::GEJKIKIKHFK
 	{
 	public:

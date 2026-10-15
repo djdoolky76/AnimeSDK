@@ -12,6 +12,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_ChangeLimitedDiceAvailableCount_TypeDefinitionIndex = 16091;
+
 	class DiceCombatTaskConfig_ChangeLimitedDiceAvailableCount : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

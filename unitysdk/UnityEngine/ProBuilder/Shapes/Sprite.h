@@ -13,6 +13,8 @@ namespace UnityEngine::ProBuilder::Shapes { class Shape; }
 
 namespace UnityEngine::ProBuilder::Shapes
 {
+	inline static constexpr unsigned int Sprite_TypeDefinitionIndex = 44470;
+
 	class Sprite : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
 	public:

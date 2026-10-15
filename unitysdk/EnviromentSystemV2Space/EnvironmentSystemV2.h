@@ -110,6 +110,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int EnvironmentSystemV2_TypeDefinitionIndex = 49470;
+
 	class EnvironmentSystemV2 : public ::RPG::Client::EnvironmentSystem
 	{
 	public:

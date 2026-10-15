@@ -13,6 +13,8 @@ namespace RPG::Client::DiceCombat { class DiceCombatCollectionPageParam; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatCollectionPageParam_TypeDefinitionIndex = 76121;
+
 	class DiceCombatCollectionPageParam : public ::System::Object
 	{
 	public:

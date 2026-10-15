@@ -11,6 +11,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int EyeProtectionTimelineTrack_TypeDefinitionIndex = 48701;
+
 	class EyeProtectionTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

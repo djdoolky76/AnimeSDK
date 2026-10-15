@@ -6,6 +6,8 @@
 #define HGJLEKLDBCF_CJDNCBHLOGD_OFFSET UNITYSDK_OFFSET(0x15CA72C0)
 #define HGJLEKLDBCF_CTOR_OFFSET UNITYSDK_OFFSET(0x15CA73C0)
 
+inline static constexpr unsigned int HGJLEKLDBCF_TypeDefinitionIndex = 64938;
+
 	class HGJLEKLDBCF : public ::BOIKIMJHDHK
 	{
 	public:

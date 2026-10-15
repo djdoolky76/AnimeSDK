@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define BMHJDMDLGOA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9E1B20)
 #define BMHJDMDLGOA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9E1A30)
 
+inline static constexpr unsigned int BMHJDMDLGOA_TypeDefinitionIndex = 18158;
+
 	class BMHJDMDLGOA : public ::RPG::GameCore::JsonConfig
 	{
 	public:

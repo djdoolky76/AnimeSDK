@@ -5,6 +5,8 @@
 
 #define OKCMNGIELDI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C995250)
 
+inline static constexpr unsigned int OKCMNGIELDI_TypeDefinitionIndex = 42216;
+
 	class OKCMNGIELDI : public ::System::Object
 	{
 	public:

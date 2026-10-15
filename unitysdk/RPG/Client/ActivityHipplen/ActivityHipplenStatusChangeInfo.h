@@ -14,6 +14,8 @@ namespace RPG::GameCore { class ActivityHipplenStatConfigRow; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenStatusChangeInfo_TypeDefinitionIndex = 75480;
+
 	class ActivityHipplenStatusChangeInfo : public ::System::Object
 	{
 	public:

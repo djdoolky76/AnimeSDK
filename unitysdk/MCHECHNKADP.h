@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define MCHECHNKADP_PMFNLGCKEOO_OFFSET UNITYSDK_OFFSET(0xB87E020)
 #define MCHECHNKADP_POJBMPONJBL_OFFSET UNITYSDK_OFFSET(0xB87E580)
 
+inline static constexpr unsigned int MCHECHNKADP_TypeDefinitionIndex = 80214;
+
 	class MCHECHNKADP : public ::System::Object
 	{
 	public:

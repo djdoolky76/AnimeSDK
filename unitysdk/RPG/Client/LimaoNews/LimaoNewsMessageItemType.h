@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsMessageItemType_TypeDefinitionIndex = 80433;
+
 	enum class LimaoNewsMessageItemType : ::System::Int32
 	{
 		Normal = 0,

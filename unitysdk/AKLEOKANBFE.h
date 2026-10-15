@@ -42,6 +42,8 @@ namespace System { class String; }
 #define AKLEOKANBFE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3CF660)
 #define AKLEOKANBFE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3CF6C0)
 
+inline static constexpr unsigned int AKLEOKANBFE_TypeDefinitionIndex = 34431;
+
 	class AKLEOKANBFE : public ::System::Object
 	{
 	public:

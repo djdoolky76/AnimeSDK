@@ -17,6 +17,8 @@ namespace UnityEngine { class Canvas; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesAvatarEffect_TypeDefinitionIndex = 66474;
+
 	class PlanetFesAvatarEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

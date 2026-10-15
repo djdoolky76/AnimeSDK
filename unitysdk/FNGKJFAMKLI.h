@@ -16,6 +16,8 @@ namespace RPG::GameCore { class ChimeraDuelEffectRow; }
 #define FNGKJFAMKLI_LHLALAKKKKJ_OFFSET UNITYSDK_OFFSET(0x15870910)
 #define FNGKJFAMKLI_MJGKNFEILLI_OFFSET UNITYSDK_OFFSET(0x158706E0)
 
+inline static constexpr unsigned int FNGKJFAMKLI_TypeDefinitionIndex = 63358;
+
 	class FNGKJFAMKLI : public ::System::Object
 	{
 	public:

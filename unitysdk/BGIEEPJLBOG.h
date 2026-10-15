@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BGIEEPJLBOG_CTOR_OFFSET UNITYSDK_OFFSET(0xB189980)
 #define BGIEEPJLBOG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB1899F0)
 
+inline static constexpr unsigned int BGIEEPJLBOG_TypeDefinitionIndex = 59097;
+
 	class BGIEEPJLBOG
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TransitType_TypeDefinitionIndex = 35328;
+
 	enum class TransitType : ::System::Int32
 	{
 		Decend = 1,

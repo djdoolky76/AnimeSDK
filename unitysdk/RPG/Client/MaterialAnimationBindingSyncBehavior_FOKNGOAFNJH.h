@@ -5,6 +5,8 @@ namespace UnityEngine { class MaterialAnimationBinding; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MaterialAnimationBindingSyncBehavior_FOKNGOAFNJH_TypeDefinitionIndex = 70293;
+
 	struct alignas(8) MaterialAnimationBindingSyncBehavior_FOKNGOAFNJH
 	{
 		::UnityEngine::MaterialAnimationBinding* OFBKLIODDCP; // 0x10

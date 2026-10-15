@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+inline static constexpr unsigned int PBFICKNEGLB_TypeDefinitionIndex = 73504;
+
 	struct alignas(4) PBFICKNEGLB
 	{
 		::UnityEngine::Vector3 IJHDBLGLCMN; // 0x10

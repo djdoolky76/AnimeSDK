@@ -35,6 +35,8 @@ namespace UnityEngine::UI { class Button; }
 #define CHFBCPFFEGB___REFRESHVIEW_B__19_0_OFFSET UNITYSDK_OFFSET(0xCC960F0)
 #define CHFBCPFFEGB___REFRESHVIEW_B__19_2_OFFSET UNITYSDK_OFFSET(0xCC96170)
 
+inline static constexpr unsigned int CHFBCPFFEGB_TypeDefinitionIndex = 72319;
+
 	class CHFBCPFFEGB : public ::FMPCODLIOLG
 	{
 	public:

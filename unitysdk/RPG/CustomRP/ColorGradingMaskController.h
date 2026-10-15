@@ -25,6 +25,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ColorGradingMaskController_TypeDefinitionIndex = 37765;
+
 	class ColorGradingMaskController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

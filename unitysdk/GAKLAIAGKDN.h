@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CakeRaceEnterStatePredicateConfig; }
 #define GAKLAIAGKDN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C629190)
 #define GAKLAIAGKDN_ISMATCHIMPL_OFFSET UNITYSDK_OFFSET(0x1C6291B0)
 
+inline static constexpr unsigned int GAKLAIAGKDN_TypeDefinitionIndex = 37417;
+
 	class GAKLAIAGKDN
 	{
 	public:

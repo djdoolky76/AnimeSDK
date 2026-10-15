@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ECharacterMovementParamsMode_TypeDefinitionIndex = 68384;
+
 	enum class ECharacterMovementParamsMode : ::System::Int32
 	{
 		Default = 0,

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvSetRushBtnInteractable; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvSetRushBtnInteractable_TypeDefinitionIndex = 20204;
+
 	class AdvSetRushBtnInteractable : public ::RPG::GameCore::TaskConfig
 	{
 	public:

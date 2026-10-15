@@ -20,6 +20,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GNBPMOADDFD_PFCHPFOGKMG_OFFSET UNITYSDK_OFFSET(0x15AFCF50)
 #define GNBPMOADDFD_TICK_OFFSET UNITYSDK_OFFSET(0x15AFCE90)
 
+inline static constexpr unsigned int GNBPMOADDFD_TypeDefinitionIndex = 52423;
+
 	class GNBPMOADDFD : public ::GELIALJDFBL
 	{
 	public:

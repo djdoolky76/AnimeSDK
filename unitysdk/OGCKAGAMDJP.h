@@ -25,6 +25,8 @@ namespace System { class String; }
 #define OGCKAGAMDJP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE4FA80)
 #define OGCKAGAMDJP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE4FAE0)
 
+inline static constexpr unsigned int OGCKAGAMDJP_TypeDefinitionIndex = 28384;
+
 	class OGCKAGAMDJP : public ::System::Object
 	{
 	public:

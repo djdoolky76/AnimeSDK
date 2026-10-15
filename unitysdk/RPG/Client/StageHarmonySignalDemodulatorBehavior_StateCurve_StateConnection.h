@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageHarmonySignalDemodulatorBehavior_StateCurve_StateConnection_TypeDefinitionIndex = 70990;
+
 	class StageHarmonySignalDemodulatorBehavior_StateCurve_StateConnection : public ::System::Object
 	{
 	public:

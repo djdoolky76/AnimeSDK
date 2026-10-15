@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetFetchAllUnselectable_TypeDefinitionIndex = 23936;
+
 	class TargetFetchAllUnselectable : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define AGLBBJOEJME_CTOR_OFFSET UNITYSDK_OFFSET(0xCF3FDA0)
 
+inline static constexpr unsigned int AGLBBJOEJME_TypeDefinitionIndex = 47293;
+
 	class AGLBBJOEJME : public ::System::Object
 	{
 	public:

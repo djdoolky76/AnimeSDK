@@ -8,6 +8,8 @@ namespace RPG::Client { class MonoEffect; }
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
+	inline static constexpr unsigned int FourRotateVoxelGameStartCurve_KKOPNEKPALA_TypeDefinitionIndex = 76839;
+
 	class FourRotateVoxelGameStartCurve_KKOPNEKPALA : public ::System::Object
 	{
 	public:

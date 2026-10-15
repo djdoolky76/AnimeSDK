@@ -5,6 +5,8 @@
 
 #define FJIFFMGIAHL_CTOR_OFFSET UNITYSDK_OFFSET(0x157CF410)
 
+inline static constexpr unsigned int FJIFFMGIAHL_TypeDefinitionIndex = 66810;
+
 	class FJIFFMGIAHL : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhotoGraphDecalContainer_PhotoGraphDecalContainerInitParam_TypeDefinitionIndex = 69445;
+
 	class PhotoGraphDecalContainer_PhotoGraphDecalContainerInitParam : public ::System::Object
 	{
 	public:

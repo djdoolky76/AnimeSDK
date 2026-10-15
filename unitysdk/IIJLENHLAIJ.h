@@ -13,6 +13,8 @@ namespace System { class String; }
 #define IIJLENHLAIJ_KCBADEKEAHN_OFFSET UNITYSDK_OFFSET(0x1643EB90)
 #define IIJLENHLAIJ_LGBGLMPLFPG_OFFSET UNITYSDK_OFFSET(0x1643E030)
 
+inline static constexpr unsigned int IIJLENHLAIJ_TypeDefinitionIndex = 61333;
+
 	class IIJLENHLAIJ : public ::InControl::PlayerActionSet
 	{
 	public:

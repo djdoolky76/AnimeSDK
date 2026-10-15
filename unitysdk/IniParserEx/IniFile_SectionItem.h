@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace IniParserEx
 {
+	inline static constexpr unsigned int IniFile_SectionItem_TypeDefinitionIndex = 3934;
+
 	class IniFile_SectionItem : public ::System::Object
 	{
 	public:

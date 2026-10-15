@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PsActivityRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PsActivityRow_TypeDefinitionIndex = 13079;
+
 	class PsActivityRow : public ::System::Object
 	{
 	public:

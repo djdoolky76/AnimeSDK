@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PIIDNAIAHAK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC265660)
 #define PIIDNAIAHAK_TICK_OFFSET UNITYSDK_OFFSET(0xC265770)
 
+inline static constexpr unsigned int PIIDNAIAHAK_TypeDefinitionIndex = 55754;
+
 	class PIIDNAIAHAK : public ::GELIALJDFBL
 	{
 	public:

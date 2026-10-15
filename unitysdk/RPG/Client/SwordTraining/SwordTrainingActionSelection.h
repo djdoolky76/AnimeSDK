@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::SwordTraining
 {
+	inline static constexpr unsigned int SwordTrainingActionSelection_TypeDefinitionIndex = 75061;
+
 	class SwordTrainingActionSelection : public ::System::Object
 	{
 	public:

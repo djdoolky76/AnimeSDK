@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NCLGCOEMLIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAE0FB0)
 #define NCLGCOEMLIF___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1EAE0FC0)
 
+inline static constexpr unsigned int NCLGCOEMLIF___c_TypeDefinitionIndex = 31524;
+
 	class NCLGCOEMLIF___c : public ::System::Object
 	{
 	public:

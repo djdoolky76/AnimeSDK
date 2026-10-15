@@ -16,6 +16,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace IniParserEx
 {
+	inline static constexpr unsigned int IniFile__GetEnumerator_d__11_TypeDefinitionIndex = 3939;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11>
 	class IniFile__GetEnumerator_d__11 : public ::System::Object
 	{

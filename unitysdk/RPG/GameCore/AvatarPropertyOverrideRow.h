@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AvatarPropertyOverrideRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarPropertyOverrideRow_TypeDefinitionIndex = 12718;
+
 	class AvatarPropertyOverrideRow : public ::System::Object
 	{
 	public:

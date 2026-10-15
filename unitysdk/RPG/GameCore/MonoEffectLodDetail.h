@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MonoEffectLodDetail; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonoEffectLodDetail_TypeDefinitionIndex = 19105;
+
 	class MonoEffectLodDetail : public ::RPG::GameCore::JsonConfig
 	{
 	public:

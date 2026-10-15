@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierRoleStarUpBeforeBattleBeginConf
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierRoleStarUpBeforeBattleBeginConfig_TypeDefinitionIndex = 19358;
+
 	class GridFightModifierRoleStarUpBeforeBattleBeginConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

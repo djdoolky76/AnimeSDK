@@ -9,6 +9,8 @@ namespace System { class String; }
 #define CIMCHKCBOMG_ALEBBJAFIOG_OFFSET UNITYSDK_OFFSET(0xCF8DF20)
 #define CIMCHKCBOMG_CTOR_OFFSET UNITYSDK_OFFSET(0xCF8E300)
 
+inline static constexpr unsigned int CIMCHKCBOMG_TypeDefinitionIndex = 64907;
+
 	class CIMCHKCBOMG : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define HDJFKPHFLMA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15C385A0)
 #define HDJFKPHFLMA_TICK_OFFSET UNITYSDK_OFFSET(0x15C385F0)
 
+inline static constexpr unsigned int HDJFKPHFLMA_TypeDefinitionIndex = 58556;
+
 	class HDJFKPHFLMA : public ::GELIALJDFBL
 	{
 	public:

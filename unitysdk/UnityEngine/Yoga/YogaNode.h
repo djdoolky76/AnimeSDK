@@ -16,6 +16,8 @@ namespace UnityEngine::Yoga { class YogaNode; }
 
 namespace UnityEngine::Yoga
 {
+	inline static constexpr unsigned int YogaNode_TypeDefinitionIndex = 5868;
+
 	class YogaNode : public ::System::Object
 	{
 	public:

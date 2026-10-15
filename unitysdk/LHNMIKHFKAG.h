@@ -4,6 +4,8 @@
 
 #define LHNMIKHFKAG_CTOR_OFFSET UNITYSDK_OFFSET(0x195C0)
 
+inline static constexpr unsigned int LHNMIKHFKAG_TypeDefinitionIndex = 69537;
+
 	struct alignas(4) LHNMIKHFKAG
 	{
 		::System::Single KNBGHGEMNLF; // 0x10

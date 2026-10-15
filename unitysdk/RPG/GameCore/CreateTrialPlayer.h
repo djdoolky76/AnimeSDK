@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CreateTrialPlayer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CreateTrialPlayer_TypeDefinitionIndex = 21603;
+
 	class CreateTrialPlayer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

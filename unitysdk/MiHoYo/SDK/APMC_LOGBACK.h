@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int APMC_LOGBACK_TypeDefinitionIndex = 46495;
+
 	class APMC_LOGBACK : public ::System::Object
 	{
 	public:

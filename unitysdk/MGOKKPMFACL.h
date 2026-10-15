@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 #define MGOKKPMFACL_LJFIHGFIODI_OFFSET UNITYSDK_OFFSET(0xB92ABE0)
 #define MGOKKPMFACL_OPGGOMKJIOM_OFFSET UNITYSDK_OFFSET(0xB92A820)
 
+inline static constexpr unsigned int MGOKKPMFACL_TypeDefinitionIndex = 74116;
+
 	class MGOKKPMFACL : public ::System::Object
 	{
 	public:

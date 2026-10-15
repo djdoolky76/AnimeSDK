@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KCNGKEJFPJE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB33EDA0)
 #define KCNGKEJFPJE_TICK_OFFSET UNITYSDK_OFFSET(0xB33F0C0)
 
+inline static constexpr unsigned int KCNGKEJFPJE_TypeDefinitionIndex = 54764;
+
 	class KCNGKEJFPJE : public ::BNBOAMEBAOE
 	{
 	public:

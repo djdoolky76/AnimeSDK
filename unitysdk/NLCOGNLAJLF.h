@@ -8,6 +8,8 @@ namespace System { class String; }
 #define NLCOGNLAJLF_CTOR_OFFSET UNITYSDK_OFFSET(0xBC63B50)
 #define NLCOGNLAJLF_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0xBC63B60)
 
+inline static constexpr unsigned int NLCOGNLAJLF_TypeDefinitionIndex = 67263;
+
 	class NLCOGNLAJLF : public ::GOGCDNMNIKF
 	{
 	public:

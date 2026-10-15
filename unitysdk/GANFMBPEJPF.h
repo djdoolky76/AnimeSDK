@@ -35,6 +35,8 @@ namespace System { class String; }
 #define GANFMBPEJPF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4233C0)
 #define GANFMBPEJPF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E423420)
 
+inline static constexpr unsigned int GANFMBPEJPF_TypeDefinitionIndex = 33244;
+
 	class GANFMBPEJPF : public ::System::Object
 	{
 	public:

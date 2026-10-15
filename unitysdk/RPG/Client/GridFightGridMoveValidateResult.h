@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGridMoveValidateResult_TypeDefinitionIndex = 64855;
+
 	class GridFightGridMoveValidateResult : public ::System::Object
 	{
 	public:

@@ -40,6 +40,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DHHAIFMONHI_PHBMFFPCCDP_OFFSET UNITYSDK_OFFSET(0x1C5EEED0)
 #define DHHAIFMONHI_PLFPPAPJIPM_OFFSET UNITYSDK_OFFSET(0x1C5EF8D0)
 
+inline static constexpr unsigned int DHHAIFMONHI_TypeDefinitionIndex = 36826;
+
 	class DHHAIFMONHI : public ::System::Object
 	{
 	public:

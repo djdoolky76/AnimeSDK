@@ -33,6 +33,8 @@ namespace System { class String; }
 #define DPODMNMGDLK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E21EA10)
 #define DPODMNMGDLK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E21EA70)
 
+inline static constexpr unsigned int DPODMNMGDLK_TypeDefinitionIndex = 30883;
+
 	class DPODMNMGDLK : public ::System::Object
 	{
 	public:

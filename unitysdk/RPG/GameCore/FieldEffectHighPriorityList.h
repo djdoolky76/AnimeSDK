@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FieldEffectHighPriorityList_TypeDefinitionIndex = 16491;
+
 	class FieldEffectHighPriorityList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

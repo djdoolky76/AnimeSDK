@@ -9,6 +9,8 @@ namespace System::Reflection { class MethodInfo; }
 #define GJDBAANADDF_CREATE_OFFSET UNITYSDK_OFFSET(0x15A5D020)
 #define GJDBAANADDF_CTOR_OFFSET UNITYSDK_OFFSET(0x15A5D130)
 
+inline static constexpr unsigned int GJDBAANADDF_TypeDefinitionIndex = 73156;
+
 	class GJDBAANADDF : public ::System::Object
 	{
 	public:

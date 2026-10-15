@@ -41,6 +41,8 @@ namespace System { class String; }
 #define PPAGCEGGCAK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFD24B0)
 #define PPAGCEGGCAK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFD2510)
 
+inline static constexpr unsigned int PPAGCEGGCAK_TypeDefinitionIndex = 27325;
+
 	class PPAGCEGGCAK : public ::System::Object
 	{
 	public:

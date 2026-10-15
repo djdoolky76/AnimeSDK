@@ -9,6 +9,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int StableSystemPuzzleLight_TypeDefinitionIndex = 78873;
+
 	class StableSystemPuzzleLight : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FJOMGLDODDO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157E2F60)
 #define FJOMGLDODDO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x157E3170)
 
+inline static constexpr unsigned int FJOMGLDODDO_TypeDefinitionIndex = 52232;
+
 	class FJOMGLDODDO
 	{
 	public:

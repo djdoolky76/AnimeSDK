@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int MiHoYoSDKUIContainer___c__DisplayClass19_0_TypeDefinitionIndex = 46881;
+
 	class MiHoYoSDKUIContainer___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:

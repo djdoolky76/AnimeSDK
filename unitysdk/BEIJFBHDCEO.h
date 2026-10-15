@@ -20,6 +20,8 @@ namespace System { class String; }
 #define BEIJFBHDCEO_KJMDJMBNCPE_OFFSET UNITYSDK_OFFSET(0x16324330)
 #define BEIJFBHDCEO_LNLHHJDJKBL_OFFSET UNITYSDK_OFFSET(0x16323E30)
 
+inline static constexpr unsigned int BEIJFBHDCEO_TypeDefinitionIndex = 73804;
+
 	class BEIJFBHDCEO : public ::HPKACEPPPCA
 	{
 	public:

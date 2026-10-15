@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_HPFull; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatPredicateConfig_HPFull_TypeDefinitionIndex = 16105;
+
 	class DiceCombatPredicateConfig_HPFull : public ::RPG::GameCore::DiceCombatPredicateConfig
 	{
 	public:

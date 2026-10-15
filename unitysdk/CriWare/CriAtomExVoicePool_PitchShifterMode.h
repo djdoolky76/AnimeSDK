@@ -3,6 +3,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExVoicePool_PitchShifterMode_TypeDefinitionIndex = 40072;
+
 	enum class CriAtomExVoicePool_PitchShifterMode : ::System::Int32
 	{
 		Music = 0,

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByCopyingBatchItem_TypeDefinitionIndex = 23826;
+
 	class SetDynamicValueByCopyingBatchItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define BBINLEGFIIC_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1CCF4700)
 
+inline static constexpr unsigned int BBINLEGFIIC_TypeDefinitionIndex = 10678;
+
 	class BBINLEGFIIC : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define GHNBPDKKBFE_MGKONMGHOKE_OFFSET UNITYSDK_OFFSET(0x15A2A690)
 
+inline static constexpr unsigned int GHNBPDKKBFE_TypeDefinitionIndex = 60233;
+
 	class GHNBPDKKBFE : public ::System::Object
 	{
 	public:

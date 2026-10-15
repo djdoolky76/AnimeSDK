@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightUpgradeFlyEffect_TypeDefinitionIndex = 64506;
+
 	class GridFightUpgradeFlyEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -92,6 +92,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int FastDeliverPuzzleBoard_TypeDefinitionIndex = 78581;
+
 	class FastDeliverPuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

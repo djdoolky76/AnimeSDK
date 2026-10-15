@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GCMJOOKAKGJ_MBEAHOPNLIE_OFFSET UNITYSDK_OFFSET(0x15984BE0)
 #define GCMJOOKAKGJ_MEMAEAKDBIG_OFFSET UNITYSDK_OFFSET(0x15984D40)
 
+inline static constexpr unsigned int GCMJOOKAKGJ_TypeDefinitionIndex = 63570;
+
 	class GCMJOOKAKGJ : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::OpenWorld
 {
+	inline static constexpr unsigned int VolumeBase___c_TypeDefinitionIndex = 73990;
+
 	class VolumeBase___c : public ::System::Object
 	{
 	public:

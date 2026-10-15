@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FLJEGMGCIOG_SET_SHOWTYPE_OFFSET UNITYSDK_OFFSET(0x1C623E30)
 #define FLJEGMGCIOG_SET__CACHECATS_OFFSET UNITYSDK_OFFSET(0x1C623E70)
 
+inline static constexpr unsigned int FLJEGMGCIOG_TypeDefinitionIndex = 37210;
+
 	class FLJEGMGCIOG : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NCCMCBNNOHC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBB02D40)
 #define NCCMCBNNOHC_TICK_OFFSET UNITYSDK_OFFSET(0xBB00000)
 
+inline static constexpr unsigned int NCCMCBNNOHC_TypeDefinitionIndex = 56421;
+
 	class NCCMCBNNOHC : public ::GELIALJDFBL
 	{
 	public:

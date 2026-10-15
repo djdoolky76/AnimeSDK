@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FLMANCLCCAP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE081E0)
 #define FLMANCLCCAP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE07B00)
 
+inline static constexpr unsigned int FLMANCLCCAP_TypeDefinitionIndex = 13563;
+
 	class FLMANCLCCAP : public ::System::Object
 	{
 	public:

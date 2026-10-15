@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define DJLLENLBFAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F28E0)
 
+inline static constexpr unsigned int DJLLENLBFAD_TypeDefinitionIndex = 37163;
+
 	class DJLLENLBFAD : public ::System::Object
 	{
 	public:

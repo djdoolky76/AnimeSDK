@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BoundsCopyToolMonoPlugin_TypeDefinitionIndex = 71037;
+
 	class BoundsCopyToolMonoPlugin
 	{
 	public:

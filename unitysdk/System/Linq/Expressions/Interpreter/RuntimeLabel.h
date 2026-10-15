@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int RuntimeLabel_TypeDefinitionIndex = 3316;
+
 	struct alignas(4) RuntimeLabel
 	{
 		::System::Int32 Index; // 0x10

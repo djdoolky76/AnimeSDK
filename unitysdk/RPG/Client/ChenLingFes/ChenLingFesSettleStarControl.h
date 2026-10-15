@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesSettleStarControl_TypeDefinitionIndex = 81348;
+
 	class ChenLingFesSettleStarControl : public ::Sofa::BaseSofaControl
 	{
 	public:

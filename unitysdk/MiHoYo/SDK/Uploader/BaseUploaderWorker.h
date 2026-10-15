@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK::Uploader
 {
+	inline static constexpr unsigned int BaseUploaderWorker_TypeDefinitionIndex = 46658;
+
 	class BaseUploaderWorker : public ::System::Object
 	{
 	public:

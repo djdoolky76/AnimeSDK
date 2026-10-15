@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace System
 {
+	inline static constexpr unsigned int LocalDataStoreMgr_TypeDefinitionIndex = 167;
+
 	class LocalDataStoreMgr : public ::System::Object
 	{
 	public:

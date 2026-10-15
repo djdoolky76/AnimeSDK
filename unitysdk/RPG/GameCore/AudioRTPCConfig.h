@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AudioRTPCConfig_TypeDefinitionIndex = 16385;
+
 	class AudioRTPCConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

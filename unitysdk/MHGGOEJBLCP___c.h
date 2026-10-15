@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MHGGOEJBLCP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA31770)
 #define MHGGOEJBLCP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EA31780)
 
+inline static constexpr unsigned int MHGGOEJBLCP___c_TypeDefinitionIndex = 34669;
+
 	class MHGGOEJBLCP___c : public ::System::Object
 	{
 	public:

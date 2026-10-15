@@ -10,6 +10,8 @@ class IONGFDBBCIF;
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleliveRewardFlyController_TypeDefinitionIndex = 75193;
+
 	class IdleliveRewardFlyController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NavMeshObstacleParams_TypeDefinitionIndex = 68638;
+
 	class NavMeshObstacleParams : public ::System::Object
 	{
 	public:

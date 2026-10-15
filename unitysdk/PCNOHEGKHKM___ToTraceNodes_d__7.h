@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define PCNOHEGKHKM___TOTRACENODES_D__7_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC00A480)
 #define PCNOHEGKHKM___TOTRACENODES_D__7___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xC00A490)
 
+inline static constexpr unsigned int PCNOHEGKHKM___ToTraceNodes_d__7_TypeDefinitionIndex = 62826;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
 	class PCNOHEGKHKM___ToTraceNodes_d__7 : public ::System::Object
 	{

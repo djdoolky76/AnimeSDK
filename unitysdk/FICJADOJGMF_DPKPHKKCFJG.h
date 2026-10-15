@@ -3,6 +3,8 @@
 
 #define FICJADOJGMF_DPKPHKKCFJG_CTOR_OFFSET UNITYSDK_OFFSET(0x2E76400)
 
+inline static constexpr unsigned int FICJADOJGMF_DPKPHKKCFJG_TypeDefinitionIndex = 68751;
+
 	struct alignas(4) FICJADOJGMF_DPKPHKKCFJG
 	{
 		::System::Single GAFENHHEBPG; // 0x10

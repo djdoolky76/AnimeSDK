@@ -18,6 +18,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int PS4BindResultDialog_TypeDefinitionIndex = 9021;
+
 	class PS4BindResultDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:

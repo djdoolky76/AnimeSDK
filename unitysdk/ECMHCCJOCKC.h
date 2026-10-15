@@ -8,6 +8,8 @@ namespace System { class String; }
 #define ECMHCCJOCKC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD6D5C0)
 #define ECMHCCJOCKC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD6D230)
 
+inline static constexpr unsigned int ECMHCCJOCKC_TypeDefinitionIndex = 12670;
+
 	class ECMHCCJOCKC : public ::System::Object
 	{
 	public:

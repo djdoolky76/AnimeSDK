@@ -34,6 +34,8 @@ namespace System { class String; }
 #define HFEOGNAMHCG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5655B0)
 #define HFEOGNAMHCG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E565610)
 
+inline static constexpr unsigned int HFEOGNAMHCG_TypeDefinitionIndex = 33278;
+
 	class HFEOGNAMHCG : public ::System::Object
 	{
 	public:

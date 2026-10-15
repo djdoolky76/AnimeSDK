@@ -16,6 +16,8 @@ namespace UnityEngine::UIElements::StyleSheets { class VisualElementStylesData; 
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int ComputedStyle_TypeDefinitionIndex = 5995;
+
 	struct alignas(8) ComputedStyle
 	{
 		::UnityEngine::UIElements::VisualElement* m_Element; // 0x10

@@ -35,6 +35,8 @@ namespace UnityEngine::UIElements { class VisualTreeUpdater; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int Panel_TypeDefinitionIndex = 5890;
+
 	class Panel : public ::UnityEngine::UIElements::BaseVisualElementPanel
 	{
 	public:

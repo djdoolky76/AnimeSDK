@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FEIJPEJBDDH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E367D50)
 #define FEIJPEJBDDH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E367DB0)
 
+inline static constexpr unsigned int FEIJPEJBDDH_TypeDefinitionIndex = 32926;
+
 	class FEIJPEJBDDH : public ::System::Object
 	{
 	public:

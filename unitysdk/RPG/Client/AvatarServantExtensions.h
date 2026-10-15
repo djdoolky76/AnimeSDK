@@ -7,6 +7,8 @@ namespace RPG::AvatarSystem { class AvatarServant; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarServantExtensions_TypeDefinitionIndex = 62578;
+
 	class AvatarServantExtensions : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class OfferingUIPageConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OfferingUIPageConfigRow_TypeDefinitionIndex = 14297;
+
 	class OfferingUIPageConfigRow : public ::System::Object
 	{
 	public:

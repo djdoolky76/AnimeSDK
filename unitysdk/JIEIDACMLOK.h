@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JIEIDACMLOK_NKFLAEMPKGC_OFFSET UNITYSDK_OFFSET(0x1C6F6060)
 #define JIEIDACMLOK_ONIPLEMHAME_OFFSET UNITYSDK_OFFSET(0x1C6F6420)
 
+inline static constexpr unsigned int JIEIDACMLOK_TypeDefinitionIndex = 36977;
+
 	class JIEIDACMLOK : public ::System::Object
 	{
 	public:

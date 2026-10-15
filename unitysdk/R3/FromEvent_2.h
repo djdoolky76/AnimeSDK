@@ -6,6 +6,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace R3
 {
+	inline static constexpr unsigned int FromEvent_2_TypeDefinitionIndex = 35914;
+
 	template <typename T1, typename T2>
 	class FromEvent_2
 	{

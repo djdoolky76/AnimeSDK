@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NGBBCMBMOLI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB0ACE0)
 #define NGBBCMBMOLI___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1EB0ACF0)
 
+inline static constexpr unsigned int NGBBCMBMOLI___c_TypeDefinitionIndex = 25712;
+
 	class NGBBCMBMOLI___c : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::Client::Prop { class ChimeraArrangementModelInstance_MotionConfig
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraArrangementModelInstance_Config_TypeDefinitionIndex = 78461;
+
 	class ChimeraArrangementModelInstance_Config : public ::System::Object
 	{
 	public:

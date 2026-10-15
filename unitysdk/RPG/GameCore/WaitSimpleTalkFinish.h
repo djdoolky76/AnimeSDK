@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitSimpleTalkFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitSimpleTalkFinish_TypeDefinitionIndex = 20845;
+
 	class WaitSimpleTalkFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

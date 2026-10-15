@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ItemConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InteractRow_TypeDefinitionIndex = 14564;
+
 	class InteractRow : public ::System::Object
 	{
 	public:

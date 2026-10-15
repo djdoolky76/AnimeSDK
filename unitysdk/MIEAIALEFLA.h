@@ -4,6 +4,8 @@
 
 #define MIEAIALEFLA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92BD30)
 
+inline static constexpr unsigned int MIEAIALEFLA_TypeDefinitionIndex = 42967;
+
 	class MIEAIALEFLA : public ::System::Object
 	{
 	public:

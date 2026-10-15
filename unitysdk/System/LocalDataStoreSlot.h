@@ -11,6 +11,8 @@ namespace System { class LocalDataStoreMgr; }
 
 namespace System
 {
+	inline static constexpr unsigned int LocalDataStoreSlot_TypeDefinitionIndex = 166;
+
 	class LocalDataStoreSlot : public ::System::Object
 	{
 	public:

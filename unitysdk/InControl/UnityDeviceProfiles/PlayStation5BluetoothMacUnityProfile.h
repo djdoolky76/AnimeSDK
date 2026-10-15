@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int PlayStation5BluetoothMacUnityProfile_TypeDefinitionIndex = 41026;
+
 	class PlayStation5BluetoothMacUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

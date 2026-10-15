@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RollShopModule_TypeDefinitionIndex = 67890;
+
 	class RollShopModule : public ::RPG::Client::BaseModule
 	{
 	public:

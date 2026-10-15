@@ -153,6 +153,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightManager_TypeDefinitionIndex = 56170;
+
 	class GridFightManager : public ::LHHEGNEBMLN
 	{
 	public:

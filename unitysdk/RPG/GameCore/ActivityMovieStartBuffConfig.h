@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityMovieStartBuffConfig_TypeDefinitionIndex = 17538;
+
 	class ActivityMovieStartBuffConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

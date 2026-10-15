@@ -25,6 +25,8 @@ namespace System { class String; }
 #define JGHOCEGBDCC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E739E70)
 #define JGHOCEGBDCC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E739ED0)
 
+inline static constexpr unsigned int JGHOCEGBDCC_TypeDefinitionIndex = 30332;
+
 	class JGHOCEGBDCC : public ::System::Object
 	{
 	public:

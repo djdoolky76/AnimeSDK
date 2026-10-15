@@ -31,6 +31,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIBillboard_TypeDefinitionIndex = 69081;
+
 	class UIBillboard : public ::UnityEngine::MonoBehaviour
 	{
 	public:

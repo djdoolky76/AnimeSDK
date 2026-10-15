@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 #define FKANLHLBPLJ_OBCKIOEGOGL_OFFSET UNITYSDK_OFFSET(0x157E58A0)
 #define FKANLHLBPLJ_PMEJBHFCCJO_OFFSET UNITYSDK_OFFSET(0x157E5A50)
 
+inline static constexpr unsigned int FKANLHLBPLJ_TypeDefinitionIndex = 47959;
+
 	class FKANLHLBPLJ : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
 	public:

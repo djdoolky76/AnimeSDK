@@ -34,6 +34,8 @@ namespace System { class String; }
 #define IDMHNMOLHKN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E630300)
 #define IDMHNMOLHKN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E630360)
 
+inline static constexpr unsigned int IDMHNMOLHKN_TypeDefinitionIndex = 33407;
+
 	class IDMHNMOLHKN : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int BindInfo_BindReference_TypeDefinitionIndex = 48509;
+
 	struct alignas(8) BindInfo_BindReference
 	{
 		::RPGTools::Timeline::BindInfo_Type Type; // 0x10

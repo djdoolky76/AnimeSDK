@@ -5,6 +5,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int DirectionBlurParameter_TypeDefinitionIndex = 48599;
+
 	struct alignas(4) DirectionBlurParameter
 	{
 		::System::Boolean enableDirectionBlur; // 0x10

@@ -51,6 +51,8 @@ namespace UnityEngine { class AssetBundle; }
 #define LPPHFFMPNCH_PPKGLBODDKD_OFFSET UNITYSDK_OFFSET(0x1C4B4850)
 #define LPPHFFMPNCH_SET_BUNDLEINDEXINFO_OFFSET UNITYSDK_OFFSET(0x1C4AFFA0)
 
+inline static constexpr unsigned int LPPHFFMPNCH_TypeDefinitionIndex = 41580;
+
 	class LPPHFFMPNCH : public ::System::Object
 	{
 	public:

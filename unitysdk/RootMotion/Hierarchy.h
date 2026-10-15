@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RootMotion
 {
+	inline static constexpr unsigned int Hierarchy_TypeDefinitionIndex = 45974;
+
 	class Hierarchy : public ::System::Object
 	{
 	public:

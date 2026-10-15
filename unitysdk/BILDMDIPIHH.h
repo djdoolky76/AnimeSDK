@@ -35,6 +35,8 @@ namespace RPG::Client::FateRin::Battle { class IFateRinCardHitTestService; }
 #define BILDMDIPIHH__SUBSCRIBEEVENTS_OFFSET UNITYSDK_OFFSET(0xB4B14E0)
 #define BILDMDIPIHH__UNSUBSCRIBEEVENTS_OFFSET UNITYSDK_OFFSET(0xB4B1C00)
 
+inline static constexpr unsigned int BILDMDIPIHH_TypeDefinitionIndex = 80921;
+
 	class BILDMDIPIHH : public ::RPG::Client::FateRin::Battle::FateRinBattleHudInputBrainBase
 	{
 	public:

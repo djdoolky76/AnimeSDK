@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RestartTrackPhoto; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RestartTrackPhoto_TypeDefinitionIndex = 21646;
+
 	class RestartTrackPhoto : public ::RPG::GameCore::TaskConfig
 	{
 	public:

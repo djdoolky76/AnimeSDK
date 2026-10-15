@@ -8,6 +8,8 @@ class MFDGMNBPMLI;
 #define MFDGMNBPMLI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D157450)
 #define MFDGMNBPMLI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D157410)
 
+inline static constexpr unsigned int MFDGMNBPMLI_TypeDefinitionIndex = 21475;
+
 	class MFDGMNBPMLI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

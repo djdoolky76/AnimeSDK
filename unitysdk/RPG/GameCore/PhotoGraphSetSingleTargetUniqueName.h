@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PhotoGraphSetSingleTargetUniqueName; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphSetSingleTargetUniqueName_TypeDefinitionIndex = 21626;
+
 	class PhotoGraphSetSingleTargetUniqueName : public ::RPG::GameCore::PhotoGraphFindNpc
 	{
 	public:

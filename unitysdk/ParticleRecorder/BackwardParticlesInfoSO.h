@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace ParticleRecorder
 {
+	inline static constexpr unsigned int BackwardParticlesInfoSO_TypeDefinitionIndex = 37491;
+
 	class BackwardParticlesInfoSO : public ::UnityEngine::ScriptableObject
 	{
 	public:

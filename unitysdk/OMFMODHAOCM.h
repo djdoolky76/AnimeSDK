@@ -4,6 +4,8 @@
 
 #define OMFMODHAOCM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7D8A90)
 
+inline static constexpr unsigned int OMFMODHAOCM_TypeDefinitionIndex = 36435;
+
 	class OMFMODHAOCM : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SetLittleGameLevelVarShort; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetLittleGameLevelVarShort_TypeDefinitionIndex = 21425;
+
 	class SetLittleGameLevelVarShort : public ::RPG::GameCore::TaskConfig
 	{
 	public:

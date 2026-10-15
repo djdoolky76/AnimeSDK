@@ -4,6 +4,8 @@
 
 #define EFFECTGROUPBOUNDS_CTOR_OFFSET UNITYSDK_OFFSET(0x155DFAE0)
 
+inline static constexpr unsigned int EffectGroupBounds_TypeDefinitionIndex = 47292;
+
 	class EffectGroupBounds : public ::UnityEngine::MonoBehaviour
 	{
 	public:

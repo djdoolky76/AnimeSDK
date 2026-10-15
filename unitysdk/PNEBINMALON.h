@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PNEBINMALON_OHLBBCBKLHN_OFFSET UNITYSDK_OFFSET(0xC334D70)
 #define PNEBINMALON_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xC3349A0)
 
+inline static constexpr unsigned int PNEBINMALON_TypeDefinitionIndex = 65700;
+
 	class PNEBINMALON : public ::System::Object
 	{
 	public:

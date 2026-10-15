@@ -5,6 +5,8 @@ class IMPNGAFPDLJ;
 
 #define IGJCMJCPBNK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB76570)
 
+inline static constexpr unsigned int IGJCMJCPBNK_TypeDefinitionIndex = 42189;
+
 	class IGJCMJCPBNK : public ::System::Object
 	{
 	public:

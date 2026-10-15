@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_GetAchievementsDelegate_TypeDefinitionIndex = 7641;
+
 	class ConsoleDelegate_GetAchievementsDelegate : public ::System::MulticastDelegate
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define MNBCPGLOMIE_SET_LEADINGROLEID_OFFSET UNITYSDK_OFFSET(0xB9E26A0)
 #define MNBCPGLOMIE_SET_SUPPORTINGAVATARS_OFFSET UNITYSDK_OFFSET(0xB9E26C0)
 
+inline static constexpr unsigned int MNBCPGLOMIE_TypeDefinitionIndex = 82097;
+
 	class MNBCPGLOMIE : public ::System::Object
 	{
 	public:

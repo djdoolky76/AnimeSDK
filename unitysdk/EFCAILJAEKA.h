@@ -4,6 +4,8 @@
 
 #define EFCAILJAEKA_CTOR_OFFSET UNITYSDK_OFFSET(0x13A477F0)
 
+inline static constexpr unsigned int EFCAILJAEKA_TypeDefinitionIndex = 81281;
+
 	class EFCAILJAEKA : public ::System::Object
 	{
 	public:

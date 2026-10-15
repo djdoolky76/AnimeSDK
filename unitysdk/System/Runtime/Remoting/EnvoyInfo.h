@@ -8,6 +8,8 @@ namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
 namespace System::Runtime::Remoting
 {
+	inline static constexpr unsigned int EnvoyInfo_TypeDefinitionIndex = 1204;
+
 	class EnvoyInfo : public ::System::Object
 	{
 	public:

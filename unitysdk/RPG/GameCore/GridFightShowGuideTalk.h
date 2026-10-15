@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightShowGuideTalk; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightShowGuideTalk_TypeDefinitionIndex = 19972;
+
 	class GridFightShowGuideTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

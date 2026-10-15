@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_flatColorTexture_TypeDefinitionIndex = 39402;
+
 	class BrowserNative_Calltype_zfb_flatColorTexture : public ::System::MulticastDelegate
 	{
 	public:

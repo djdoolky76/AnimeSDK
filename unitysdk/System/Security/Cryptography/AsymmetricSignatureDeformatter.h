@@ -6,6 +6,8 @@
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int AsymmetricSignatureDeformatter_TypeDefinitionIndex = 1002;
+
 	class AsymmetricSignatureDeformatter : public ::System::Object
 	{
 	public:

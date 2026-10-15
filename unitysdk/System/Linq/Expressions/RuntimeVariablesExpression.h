@@ -8,6 +8,8 @@ namespace System::Linq::Expressions { class ParameterExpression; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int RuntimeVariablesExpression_TypeDefinitionIndex = 3272;
+
 	class RuntimeVariablesExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:

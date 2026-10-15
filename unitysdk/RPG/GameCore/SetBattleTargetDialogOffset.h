@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetBattleTargetDialogOffset; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetBattleTargetDialogOffset_TypeDefinitionIndex = 23248;
+
 	class SetBattleTargetDialogOffset : public ::RPG::GameCore::TaskConfig
 	{
 	public:

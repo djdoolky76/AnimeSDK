@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntityLoadState_TypeDefinitionIndex = 57798;
+
 	enum class EntityLoadState : ::System::Int32
 	{
 		NotLoaded = 0,

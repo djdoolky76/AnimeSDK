@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LMEBOJEOJPD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9A3BB0)
 #define LMEBOJEOJPD___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E9A3BC0)
 
+inline static constexpr unsigned int LMEBOJEOJPD___c_TypeDefinitionIndex = 26858;
+
 	class LMEBOJEOJPD___c : public ::System::Object
 	{
 	public:

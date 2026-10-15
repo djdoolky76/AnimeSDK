@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PLIAOIHBGPB_LGCBBJJIEBB_OFFSET UNITYSDK_OFFSET(0xC307270)
 #define PLIAOIHBGPB_NMGCJCOLCHK_OFFSET UNITYSDK_OFFSET(0xC3073B0)
 
+inline static constexpr unsigned int PLIAOIHBGPB_TypeDefinitionIndex = 80145;
+
 	class PLIAOIHBGPB : public ::System::Object
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NLNFLEDEKGM_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xBC77030)
 #define NLNFLEDEKGM_SET_BUFFLIST_OFFSET UNITYSDK_OFFSET(0xBC77110)
 
+inline static constexpr unsigned int NLNFLEDEKGM_TypeDefinitionIndex = 67190;
+
 	class NLNFLEDEKGM : public ::System::Object
 	{
 	public:

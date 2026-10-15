@@ -9,6 +9,8 @@ namespace RPG::Client { class ActivityElationStage; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityElationModule___c__DisplayClass36_0_TypeDefinitionIndex = 61510;
+
 	class ActivityElationModule___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:

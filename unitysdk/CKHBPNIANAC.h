@@ -5,6 +5,8 @@ class FDPALAEIHPB;
 
 #define CKHBPNIANAC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA129C0)
 
+inline static constexpr unsigned int CKHBPNIANAC_TypeDefinitionIndex = 42878;
+
 	class CKHBPNIANAC : public ::DJJKNHPLHDI
 	{
 	public:

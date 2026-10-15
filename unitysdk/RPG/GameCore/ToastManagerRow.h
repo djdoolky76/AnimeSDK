@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ToastManagerRow_TypeDefinitionIndex = 15305;
+
 	class ToastManagerRow : public ::System::Object
 	{
 	public:

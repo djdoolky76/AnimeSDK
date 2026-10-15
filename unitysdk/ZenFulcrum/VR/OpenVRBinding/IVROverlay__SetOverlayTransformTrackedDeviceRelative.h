@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVROverlay__SetOverlayTransformTrackedDeviceRelative_TypeDefinitionIndex = 39094;
+
 	class IVROverlay__SetOverlayTransformTrackedDeviceRelative : public ::System::MulticastDelegate
 	{
 	public:

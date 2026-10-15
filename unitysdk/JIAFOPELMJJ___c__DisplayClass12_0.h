@@ -7,6 +7,8 @@ class DHAFGMHPMHG_NNIFNAGDEHL;
 #define JIAFOPELMJJ___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB1CFFB0)
 #define JIAFOPELMJJ___C__DISPLAYCLASS12_0__ONAUDIOHPATCHFINISH_B__0_OFFSET UNITYSDK_OFFSET(0xB1E5050)
 
+inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass12_0_TypeDefinitionIndex = 59502;
+
 	class JIAFOPELMJJ___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

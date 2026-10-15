@@ -32,6 +32,8 @@ namespace System { class String; }
 #define AIENHIHMJDP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E27A650)
 #define AIENHIHMJDP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E27A6B0)
 
+inline static constexpr unsigned int AIENHIHMJDP_TypeDefinitionIndex = 31374;
+
 	class AIENHIHMJDP : public ::System::Object
 	{
 	public:

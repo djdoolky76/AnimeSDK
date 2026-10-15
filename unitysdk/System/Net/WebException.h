@@ -26,6 +26,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int WebException_TypeDefinitionIndex = 2758;
+
 	class WebException : public ::System::InvalidOperationException
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BeginUseSharedSummonUnit_TypeDefinitionIndex = 21165;
+
 	class BeginUseSharedSummonUnit : public ::RPG::GameCore::TaskConfig
 	{
 	public:

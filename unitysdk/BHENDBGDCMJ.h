@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define BHENDBGDCMJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB475230)
 #define BHENDBGDCMJ_FEOIFJONLCH_OFFSET UNITYSDK_OFFSET(0xB474DB0)
 
+inline static constexpr unsigned int BHENDBGDCMJ_TypeDefinitionIndex = 77528;
+
 	class BHENDBGDCMJ : public ::System::Object
 	{
 	public:

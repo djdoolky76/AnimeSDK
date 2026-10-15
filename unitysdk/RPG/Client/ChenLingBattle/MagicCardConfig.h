@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int MagicCardConfig_TypeDefinitionIndex = 76221;
+
 	class MagicCardConfig : public ::RPG::Client::ChenLingBattle::CardConfig
 	{
 	public:

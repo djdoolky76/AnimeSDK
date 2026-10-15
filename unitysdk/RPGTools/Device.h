@@ -75,6 +75,8 @@ namespace System::Diagnostics { class Process; }
 
 namespace RPGTools
 {
+	inline static constexpr unsigned int Device_TypeDefinitionIndex = 46916;
+
 	class Device : public ::System::Object
 	{
 	public:

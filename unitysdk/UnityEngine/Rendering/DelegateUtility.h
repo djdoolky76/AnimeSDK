@@ -8,6 +8,8 @@ namespace System { class Type; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DelegateUtility_TypeDefinitionIndex = 35599;
+
 	class DelegateUtility : public ::System::Object
 	{
 	public:

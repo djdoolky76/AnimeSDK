@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HipplenMiniGameType_TypeDefinitionIndex = 11625;
+
 	enum class HipplenMiniGameType : ::System::Int32
 	{
 		CountingChimera = 0,

@@ -24,6 +24,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int BGCurvePCG_MultSubMesh_TypeDefinitionIndex = 52031;
+
 	class BGCurvePCG_MultSubMesh : public ::RPG::Editor::BGCurvePCG_MeshGeneratorBase
 	{
 	public:

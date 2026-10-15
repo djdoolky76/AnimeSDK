@@ -9,6 +9,8 @@ namespace RPG::GameCore { class VersionReviewMissionRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VersionReviewMissionRow_TypeDefinitionIndex = 14166;
+
 	class VersionReviewMissionRow : public ::System::Object
 	{
 	public:

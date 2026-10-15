@@ -19,6 +19,8 @@ namespace UnityEngine::Formats::Alembic::Importer { class IStreamDescriptor; }
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicStreamDescriptor_TypeDefinitionIndex = 45869;
+
 	class AlembicStreamDescriptor : public ::UnityEngine::ScriptableObject
 	{
 	public:

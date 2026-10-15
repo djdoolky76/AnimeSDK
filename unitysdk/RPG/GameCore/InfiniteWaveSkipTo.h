@@ -11,6 +11,8 @@ namespace RPG::GameCore { class InfiniteWaveSkipTo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InfiniteWaveSkipTo_TypeDefinitionIndex = 23698;
+
 	class InfiniteWaveSkipTo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

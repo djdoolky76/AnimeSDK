@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define DEIMJPPODHL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD12840)
 #define DEIMJPPODHL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD125E0)
 
+inline static constexpr unsigned int DEIMJPPODHL_TypeDefinitionIndex = 11542;
+
 	class DEIMJPPODHL : public ::System::Object
 	{
 	public:

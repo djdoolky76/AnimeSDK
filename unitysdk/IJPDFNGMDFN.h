@@ -106,6 +106,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IJPDFNGMDFN_PJGKLNBPMGP_OFFSET UNITYSDK_OFFSET(0x16476FF0)
 #define IJPDFNGMDFN_PLEKPFKPIEK_OFFSET UNITYSDK_OFFSET(0x1647BBF0)
 
+inline static constexpr unsigned int IJPDFNGMDFN_TypeDefinitionIndex = 58488;
+
 	class IJPDFNGMDFN
 	{
 	public:

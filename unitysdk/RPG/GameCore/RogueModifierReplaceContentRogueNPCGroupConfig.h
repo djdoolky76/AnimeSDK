@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierReplaceContentRogueNPCGroupConfig; 
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierReplaceContentRogueNPCGroupConfig_TypeDefinitionIndex = 17702;
+
 	class RogueModifierReplaceContentRogueNPCGroupConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

@@ -19,6 +19,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 #define BGDGNJBCMBE_OBOJEIPJBBJ_OFFSET UNITYSDK_OFFSET(0xB179D30)
 #define BGDGNJBCMBE_OHMHJFANEIF_OFFSET UNITYSDK_OFFSET(0xB179FF0)
 
+inline static constexpr unsigned int BGDGNJBCMBE_TypeDefinitionIndex = 60695;
+
 	class BGDGNJBCMBE : public ::System::Object
 	{
 	public:

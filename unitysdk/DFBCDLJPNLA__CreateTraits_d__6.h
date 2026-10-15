@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define DFBCDLJPNLA__CREATETRAITS_D__6_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xE822C20)
 #define DFBCDLJPNLA__CREATETRAITS_D__6_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE8228E0)
 
+inline static constexpr unsigned int DFBCDLJPNLA__CreateTraits_d__6_TypeDefinitionIndex = 65112;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	class DFBCDLJPNLA__CreateTraits_d__6 : public ::System::Object
 	{

@@ -46,6 +46,8 @@ namespace MiHoYo::SDK { class SDKDelegate_WebViewJoypadCloseEnable; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKDelegate_TypeDefinitionIndex = 7768;
+
 	class SDKDelegate : public ::System::Object
 	{
 	public:

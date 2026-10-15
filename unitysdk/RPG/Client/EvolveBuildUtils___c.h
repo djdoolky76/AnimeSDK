@@ -19,6 +19,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EvolveBuildUtils___c_TypeDefinitionIndex = 63814;
+
 	class EvolveBuildUtils___c : public ::System::Object
 	{
 	public:

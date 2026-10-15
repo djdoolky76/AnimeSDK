@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelEntityValueSum; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelEntityValueSum_TypeDefinitionIndex = 15924;
+
 	class ChimeraDuelEntityValueSum : public ::RPG::GameCore::ChimeraDuelEntityValueGetterBase
 	{
 	public:

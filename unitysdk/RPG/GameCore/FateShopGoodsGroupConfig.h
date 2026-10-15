@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FateShopGoodsGroupConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateShopGoodsGroupConfig_TypeDefinitionIndex = 19261;
+
 	class FateShopGoodsGroupConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

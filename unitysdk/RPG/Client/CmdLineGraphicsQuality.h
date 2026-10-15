@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CmdLineGraphicsQuality_TypeDefinitionIndex = 35207;
+
 	enum class CmdLineGraphicsQuality : ::System::Int32
 	{
 		None = 0,

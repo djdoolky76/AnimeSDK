@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ResolveDump___c_TypeDefinitionIndex = 37746;
+
 	class ResolveDump___c : public ::System::Object
 	{
 	public:

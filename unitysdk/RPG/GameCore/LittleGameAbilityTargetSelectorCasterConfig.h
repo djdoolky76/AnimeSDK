@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameAbilityTargetSelectorCasterConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityTargetSelectorCasterConfig_TypeDefinitionIndex = 21367;
+
 	class LittleGameAbilityTargetSelectorCasterConfig : public ::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig
 	{
 	public:

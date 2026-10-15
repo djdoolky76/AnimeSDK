@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FailedType_TypeDefinitionIndex = 59539;
+
 	enum class FailedType : ::System::Int32
 	{
 		Immediate = 0,

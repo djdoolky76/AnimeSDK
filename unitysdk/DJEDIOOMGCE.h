@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DJEDIOOMGCE_CTOR_OFFSET UNITYSDK_OFFSET(0xF22EFC0)
 #define DJEDIOOMGCE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF22F030)
 
+inline static constexpr unsigned int DJEDIOOMGCE_TypeDefinitionIndex = 56493;
+
 	class DJEDIOOMGCE : public ::System::Object
 	{
 	public:

@@ -36,6 +36,8 @@ namespace System { class String; }
 #define FACMJBCOHBP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E31CC30)
 #define FACMJBCOHBP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E31CC90)
 
+inline static constexpr unsigned int FACMJBCOHBP_TypeDefinitionIndex = 33004;
+
 	class FACMJBCOHBP : public ::System::Object
 	{
 	public:

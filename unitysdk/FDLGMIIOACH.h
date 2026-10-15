@@ -32,6 +32,8 @@ namespace System { class String; }
 #define FDLGMIIOACH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E35C950)
 #define FDLGMIIOACH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E35C9B0)
 
+inline static constexpr unsigned int FDLGMIIOACH_TypeDefinitionIndex = 28605;
+
 	class FDLGMIIOACH : public ::System::Object
 	{
 	public:

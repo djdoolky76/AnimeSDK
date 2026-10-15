@@ -14,6 +14,8 @@ namespace RPG::Client { class WolfBroGunPlayTarget_RogueHP; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayTarget_RogueReplace_TypeDefinitionIndex = 68735;
+
 	class WolfBroGunPlayTarget_RogueReplace : public ::RPG::Client::WolfBroGunPlayTarget_Replace
 	{
 	public:

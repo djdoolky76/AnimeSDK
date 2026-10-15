@@ -25,6 +25,8 @@ namespace System { class String; }
 #define FMKFINNEDEG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3E8890)
 #define FMKFINNEDEG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3E88F0)
 
+inline static constexpr unsigned int FMKFINNEDEG_TypeDefinitionIndex = 32056;
+
 	class FMKFINNEDEG : public ::System::Object
 	{
 	public:

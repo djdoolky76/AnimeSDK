@@ -10,6 +10,8 @@ namespace System { class String; }
 #define NIPCDIBOMFO_GET_MESHJSONCONFIGPATH_OFFSET UNITYSDK_OFFSET(0xBC07080)
 #define NIPCDIBOMFO_GET_PARTTYPE_OFFSET UNITYSDK_OFFSET(0xBC07070)
 
+inline static constexpr unsigned int NIPCDIBOMFO_TypeDefinitionIndex = 80131;
+
 	class NIPCDIBOMFO : public ::System::Object
 	{
 	public:

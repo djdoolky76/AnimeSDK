@@ -15,6 +15,8 @@
 #define PFGDFMBOOLK_IPKICAFDKEP_OFFSET UNITYSDK_OFFSET(0xC20E400)
 #define PFGDFMBOOLK_LBKPFACNNBE_OFFSET UNITYSDK_OFFSET(0xC20E5A0)
 
+inline static constexpr unsigned int PFGDFMBOOLK_TypeDefinitionIndex = 69814;
+
 	class PFGDFMBOOLK : public ::System::Object
 	{
 	public:

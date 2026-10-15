@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartySimpleTalkData_TypeDefinitionIndex = 22361;
+
 	class TrainPartySimpleTalkData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

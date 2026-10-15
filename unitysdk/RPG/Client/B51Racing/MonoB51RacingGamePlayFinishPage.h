@@ -12,6 +12,8 @@ namespace RPG::Client { class LocalizedText; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int MonoB51RacingGamePlayFinishPage_TypeDefinitionIndex = 81870;
+
 	class MonoB51RacingGamePlayFinishPage : public ::Sofa::BaseSofaControl
 	{
 	public:

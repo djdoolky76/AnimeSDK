@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CLHIJOAKJCE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0F9240)
 #define CLHIJOAKJCE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0F92A0)
 
+inline static constexpr unsigned int CLHIJOAKJCE_TypeDefinitionIndex = 26428;
+
 	class CLHIJOAKJCE : public ::System::Object
 	{
 	public:

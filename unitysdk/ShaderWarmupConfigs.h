@@ -8,6 +8,8 @@
 #define SHADERWARMUPCONFIGS_GET_ISPSOWARMUP_OFFSET UNITYSDK_OFFSET(0xE969860)
 #define SHADERWARMUPCONFIGS_GET_SUPPORTPSOWARMUP_OFFSET UNITYSDK_OFFSET(0xE969850)
 
+inline static constexpr unsigned int ShaderWarmupConfigs_TypeDefinitionIndex = 47433;
+
 	class ShaderWarmupConfigs : public ::System::Object
 	{
 	public:

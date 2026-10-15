@@ -6,6 +6,8 @@ class DDKNIMHHNPA;
 #define PBAOMGKJJFH_CTOR_OFFSET UNITYSDK_OFFSET(0xBFE0FE0)
 #define PBAOMGKJJFH_GET_NOTIFY_OFFSET UNITYSDK_OFFSET(0xBFE0FD0)
 
+inline static constexpr unsigned int PBAOMGKJJFH_TypeDefinitionIndex = 76059;
+
 	class PBAOMGKJJFH : public ::System::Object
 	{
 	public:

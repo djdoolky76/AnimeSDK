@@ -7,6 +7,8 @@
 
 #define FKKCAGOGHKL_NGBJOCOPFMP_CCTOR_OFFSET UNITYSDK_OFFSET(0x15805810)
 
+inline static constexpr unsigned int FKKCAGOGHKL_NGBJOCOPFMP_TypeDefinitionIndex = 59321;
+
 	class FKKCAGOGHKL_NGBJOCOPFMP : public ::System::Object
 	{
 	public:

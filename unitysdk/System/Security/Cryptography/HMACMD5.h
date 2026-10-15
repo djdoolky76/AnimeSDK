@@ -7,6 +7,8 @@
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int HMACMD5_TypeDefinitionIndex = 1025;
+
 	class HMACMD5 : public ::System::Security::Cryptography::HMAC
 	{
 	public:

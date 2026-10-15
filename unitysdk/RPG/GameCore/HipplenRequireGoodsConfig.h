@@ -10,6 +10,8 @@ namespace RPG::GameCore { class HipplenRequireGoodsConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HipplenRequireGoodsConfig_TypeDefinitionIndex = 16797;
+
 	class HipplenRequireGoodsConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

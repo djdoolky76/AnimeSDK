@@ -4,6 +4,8 @@
 
 #define HGIMEDCAIHC_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDC0)
 
+inline static constexpr unsigned int HGIMEDCAIHC_TypeDefinitionIndex = 80576;
+
 	struct alignas(4) HGIMEDCAIHC
 	{
 		::RPG::GameCore::FateRinBattleHudAreaType ANKBAKDHDJD; // 0x10

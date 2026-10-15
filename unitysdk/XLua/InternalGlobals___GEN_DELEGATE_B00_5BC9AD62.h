@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace XLua
 {
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_5BC9AD62_TypeDefinitionIndex = 50198;
+
 	class InternalGlobals___GEN_DELEGATE_B00_5BC9AD62 : public ::System::MulticastDelegate
 	{
 	public:

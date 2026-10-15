@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PropTryGetNiudanReward; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropTryGetNiudanReward_TypeDefinitionIndex = 21970;
+
 	class PropTryGetNiudanReward : public ::RPG::GameCore::TaskConfig
 	{
 	public:

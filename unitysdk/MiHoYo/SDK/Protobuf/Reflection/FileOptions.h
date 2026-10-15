@@ -57,6 +57,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int FileOptions_TypeDefinitionIndex = 35784;
+
 	class FileOptions : public ::System::Object
 	{
 	public:

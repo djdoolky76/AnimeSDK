@@ -5,6 +5,8 @@
 #define MHEEJBJHLOB_CTOR_OFFSET UNITYSDK_OFFSET(0xB933AF0)
 #define MHEEJBJHLOB_MBABPIHGAJN_OFFSET UNITYSDK_OFFSET(0xB933A70)
 
+inline static constexpr unsigned int MHEEJBJHLOB_TypeDefinitionIndex = 49256;
+
 	class MHEEJBJHLOB : public ::OFLBAIOGIMO
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DMEPOENPEIF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1EB0F0)
 #define DMEPOENPEIF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1EB150)
 
+inline static constexpr unsigned int DMEPOENPEIF_TypeDefinitionIndex = 29998;
+
 	class DMEPOENPEIF : public ::System::Object
 	{
 	public:

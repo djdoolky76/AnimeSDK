@@ -6,6 +6,8 @@
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonDataModifierAsset_TypeDefinitionIndex = 45007;
+
 	class SkeletonDataModifierAsset : public ::UnityEngine::ScriptableObject
 	{
 	public:

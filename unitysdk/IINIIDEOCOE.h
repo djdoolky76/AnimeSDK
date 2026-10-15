@@ -4,6 +4,8 @@
 
 #define IINIIDEOCOE_CTOR_OFFSET UNITYSDK_OFFSET(0x164539B0)
 
+inline static constexpr unsigned int IINIIDEOCOE_TypeDefinitionIndex = 81017;
+
 	class IINIIDEOCOE : public ::System::Object
 	{
 	public:

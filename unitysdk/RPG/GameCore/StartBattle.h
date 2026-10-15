@@ -10,6 +10,8 @@ namespace RPG::GameCore { class StartBattle; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StartBattle_TypeDefinitionIndex = 23405;
+
 	class StartBattle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client::OpenWorld
 {
+	inline static constexpr unsigned int BlockHideReason_TypeDefinitionIndex = 73920;
+
 	enum class BlockHideReason : ::System::Int32
 	{
 		GamePlayLogic = 0,

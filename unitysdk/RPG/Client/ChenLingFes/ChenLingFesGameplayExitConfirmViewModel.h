@@ -36,6 +36,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameplayExitConfirmViewModel_TypeDefinitionIndex = 81375;
+
 	class ChenLingFesGameplayExitConfirmViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

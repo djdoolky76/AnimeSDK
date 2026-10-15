@@ -7,6 +7,8 @@ namespace System { class String; }
 #define CINEMACHINETOUCHINPUTMAPPER_GETINPUTAXIS_OFFSET UNITYSDK_OFFSET(0x166B6440)
 #define CINEMACHINETOUCHINPUTMAPPER_START_OFFSET UNITYSDK_OFFSET(0x166B63A0)
 
+inline static constexpr unsigned int CinemachineTouchInputMapper_TypeDefinitionIndex = 39713;
+
 	class CinemachineTouchInputMapper : public ::UnityEngine::MonoBehaviour
 	{
 	public:

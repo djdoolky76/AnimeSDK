@@ -16,6 +16,8 @@ namespace RPG::GameCore { class FantasticStoryBuffRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FantasticStoryBuffData_TypeDefinitionIndex = 63976;
+
 	class FantasticStoryBuffData : public ::System::Object
 	{
 	public:

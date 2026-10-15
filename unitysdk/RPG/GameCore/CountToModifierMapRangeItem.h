@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CountToModifierMapRangeItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CountToModifierMapRangeItem_TypeDefinitionIndex = 16064;
+
 	class CountToModifierMapRangeItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

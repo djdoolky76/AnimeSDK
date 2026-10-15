@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Spine
 {
+	inline static constexpr unsigned int AnimationStateData_TypeDefinitionIndex = 39638;
+
 	class AnimationStateData : public ::System::Object
 	{
 	public:

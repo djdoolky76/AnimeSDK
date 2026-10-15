@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 class AkCallbackManager_BankCallback;
 
+inline static constexpr unsigned int AkBankManager_AsyncBankHandle___O_TypeDefinitionIndex = 44819;
+
 	class AkBankManager_AsyncBankHandle___O : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MusicVisualization_BeatEffectElementAnimSpeed_AnimStateParam_TypeDefinitionIndex = 70811;
+
 	class MusicVisualization_BeatEffectElementAnimSpeed_AnimStateParam : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@ class LELCKJPOPAO;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConfigDataPoolDictionaryKeyValuePoolMember_2_TypeDefinitionIndex = 10765;
+
 	template <typename T1, typename T2>
 	struct alignas(8) ConfigDataPoolDictionaryKeyValuePoolMember_2
 	{

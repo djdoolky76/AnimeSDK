@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FightFestProgress_TypeDefinitionIndex = 64195;
+
 	struct alignas(4) FightFestProgress
 	{
 		::System::Int32 Current; // 0x10

@@ -4,6 +4,8 @@
 
 #define EFAPEFELCGM_CTOR_OFFSET UNITYSDK_OFFSET(0x13A47120)
 
+inline static constexpr unsigned int EFAPEFELCGM_TypeDefinitionIndex = 63735;
+
 	class EFAPEFELCGM : public ::System::Object
 	{
 	public:

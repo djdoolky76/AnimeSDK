@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OBADCOMDOON_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EBAA880)
 #define OBADCOMDOON_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EBAA8E0)
 
+inline static constexpr unsigned int OBADCOMDOON_TypeDefinitionIndex = 34649;
+
 	class OBADCOMDOON : public ::System::Object
 	{
 	public:

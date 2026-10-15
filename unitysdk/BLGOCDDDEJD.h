@@ -4,6 +4,8 @@
 
 #define BLGOCDDDEJD_CTOR_OFFSET UNITYSDK_OFFSET(0xBA6DA50)
 
+inline static constexpr unsigned int BLGOCDDDEJD_TypeDefinitionIndex = 52982;
+
 	class BLGOCDDDEJD : public ::System::Object
 	{
 	public:

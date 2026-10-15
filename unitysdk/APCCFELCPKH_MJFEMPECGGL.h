@@ -24,6 +24,8 @@ namespace UnityEngine { class Transform; }
 #define APCCFELCPKH_MJFEMPECGGL_MJNHGNIBIOO_OFFSET UNITYSDK_OFFSET(0x15BA44C0)
 #define APCCFELCPKH_MJFEMPECGGL_NLOCKOJGJHC_OFFSET UNITYSDK_OFFSET(0x15BA3D30)
 
+inline static constexpr unsigned int APCCFELCPKH_MJFEMPECGGL_TypeDefinitionIndex = 60237;
+
 	class APCCFELCPKH_MJFEMPECGGL : public ::System::Object
 	{
 	public:

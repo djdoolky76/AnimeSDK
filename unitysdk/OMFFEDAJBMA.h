@@ -4,6 +4,8 @@
 
 #define OMFFEDAJBMA_PGNGOMDAJKJ_OFFSET UNITYSDK_OFFSET(0x1EC3F8A0)
 
+inline static constexpr unsigned int OMFFEDAJBMA_TypeDefinitionIndex = 35283;
+
 	class OMFFEDAJBMA : public ::System::Object
 	{
 	public:

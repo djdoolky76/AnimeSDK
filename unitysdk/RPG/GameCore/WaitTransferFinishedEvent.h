@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitTransferFinishedEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitTransferFinishedEvent_TypeDefinitionIndex = 21600;
+
 	class WaitTransferFinishedEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:

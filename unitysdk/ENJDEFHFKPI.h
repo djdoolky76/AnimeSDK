@@ -28,6 +28,8 @@ namespace System { class String; }
 #define ENJDEFHFKPI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2F2110)
 #define ENJDEFHFKPI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2F2170)
 
+inline static constexpr unsigned int ENJDEFHFKPI_TypeDefinitionIndex = 28289;
+
 	class ENJDEFHFKPI : public ::System::Object
 	{
 	public:

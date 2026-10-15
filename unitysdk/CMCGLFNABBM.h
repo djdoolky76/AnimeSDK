@@ -22,6 +22,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define CMCGLFNABBM_POPNLPIAOCM_OFFSET UNITYSDK_OFFSET(0xDA24E40)
 #define CMCGLFNABBM___STARTFRAMECAPTURE_B__5_0_OFFSET UNITYSDK_OFFSET(0xDA257E0)
 
+inline static constexpr unsigned int CMCGLFNABBM_TypeDefinitionIndex = 69909;
+
 	class CMCGLFNABBM : public ::RPG::Client::BehaviorBase
 	{
 	public:

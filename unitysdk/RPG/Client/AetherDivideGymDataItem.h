@@ -39,6 +39,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AetherDivideGymDataItem_TypeDefinitionIndex = 62220;
+
 	class AetherDivideGymDataItem : public ::System::Object
 	{
 	public:

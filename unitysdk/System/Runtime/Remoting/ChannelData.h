@@ -14,6 +14,8 @@ namespace System::Runtime::Remoting { class ChannelData; }
 
 namespace System::Runtime::Remoting
 {
+	inline static constexpr unsigned int ChannelData_TypeDefinitionIndex = 1214;
+
 	class ChannelData : public ::System::Object
 	{
 	public:

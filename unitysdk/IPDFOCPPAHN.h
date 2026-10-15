@@ -5,6 +5,8 @@ namespace RPG::GameCore { class PropComponent; }
 
 #define IPDFOCPPAHN_CTOR_OFFSET UNITYSDK_OFFSET(0x1651E3D0)
 
+inline static constexpr unsigned int IPDFOCPPAHN_TypeDefinitionIndex = 57381;
+
 	class IPDFOCPPAHN : public ::System::Object
 	{
 	public:

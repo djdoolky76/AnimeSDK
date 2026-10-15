@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int PinballCameraController_TypeDefinitionIndex = 78895;
+
 	class PinballCameraController : public ::RPG::Client::Prop::PuzzleCameraControllerBase
 	{
 	public:

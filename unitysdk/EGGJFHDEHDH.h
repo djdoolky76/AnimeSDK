@@ -37,6 +37,8 @@ namespace System::IO { class MemoryStream; }
 #define EGGJFHDEHDH_PONHHIHOCHH_OFFSET UNITYSDK_OFFSET(0x1C46CA40)
 #define EGGJFHDEHDH_SET_OFFSET_OFFSET UNITYSDK_OFFSET(0x1C46C6C0)
 
+inline static constexpr unsigned int EGGJFHDEHDH_TypeDefinitionIndex = 41552;
+
 	class EGGJFHDEHDH : public ::System::Object
 	{
 	public:

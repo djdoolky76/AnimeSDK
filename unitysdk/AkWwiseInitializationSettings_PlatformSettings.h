@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_SETUSEGLOBALPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1F61DDB0)
 #define AKWWISEINITIALIZATIONSETTINGS_PLATFORMSETTINGS_SET_GLOBALPROPERTYHASHSET_OFFSET UNITYSDK_OFFSET(0x1F61E870)
 
+inline static constexpr unsigned int AkWwiseInitializationSettings_PlatformSettings_TypeDefinitionIndex = 44858;
+
 	class AkWwiseInitializationSettings_PlatformSettings : public ::AkCommonPlatformSettings
 	{
 	public:

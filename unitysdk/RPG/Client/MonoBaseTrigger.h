@@ -9,6 +9,8 @@ namespace RPG::Client { class MonoTriggerRegion; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoBaseTrigger_TypeDefinitionIndex = 68906;
+
 	class MonoBaseTrigger : public ::UnityEngine::MonoBehaviour
 	{
 	public:

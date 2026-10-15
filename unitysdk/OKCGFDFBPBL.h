@@ -31,6 +31,8 @@ namespace System { class String; }
 #define OKCGFDFBPBL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE91830)
 #define OKCGFDFBPBL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE91890)
 
+inline static constexpr unsigned int OKCGFDFBPBL_TypeDefinitionIndex = 32525;
+
 	class OKCGFDFBPBL : public ::System::Object
 	{
 	public:

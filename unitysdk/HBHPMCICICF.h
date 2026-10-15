@@ -8,6 +8,8 @@ class PLAJONHLDJN;
 
 #define HBHPMCICICF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6640C0)
 
+inline static constexpr unsigned int HBHPMCICICF_TypeDefinitionIndex = 36534;
+
 	class HBHPMCICICF : public ::OFJHHGBDJHM
 	{
 	public:

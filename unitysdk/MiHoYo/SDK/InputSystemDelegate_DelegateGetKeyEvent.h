@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int InputSystemDelegate_DelegateGetKeyEvent_TypeDefinitionIndex = 7558;
+
 	class InputSystemDelegate_DelegateGetKeyEvent : public ::System::MulticastDelegate
 	{
 	public:

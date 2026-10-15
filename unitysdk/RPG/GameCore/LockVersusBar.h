@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LockVersusBar; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LockVersusBar_TypeDefinitionIndex = 23146;
+
 	class LockVersusBar : public ::RPG::GameCore::TaskConfig
 	{
 	public:

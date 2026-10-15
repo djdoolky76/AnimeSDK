@@ -129,6 +129,8 @@ namespace UnityEngine::Rendering { class VolumeProfile; }
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int EnviromentProfile_TypeDefinitionIndex = 49586;
+
 	class EnviromentProfile : public ::UnityEngine::ScriptableObject
 	{
 	public:

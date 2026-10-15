@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int BiliBiliInitCode_TypeDefinitionIndex = 9317;
+
 	enum class BiliBiliInitCode : ::System::Int32
 	{
 		Success = 0,

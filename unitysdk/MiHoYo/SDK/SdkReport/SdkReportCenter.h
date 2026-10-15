@@ -44,6 +44,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK::SdkReport
 {
+	inline static constexpr unsigned int SdkReportCenter_TypeDefinitionIndex = 46635;
+
 	class SdkReportCenter : public ::System::Object
 	{
 	public:

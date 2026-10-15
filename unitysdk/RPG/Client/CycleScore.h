@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CycleScore_TypeDefinitionIndex = 63542;
+
 	class CycleScore : public ::System::Object
 	{
 	public:

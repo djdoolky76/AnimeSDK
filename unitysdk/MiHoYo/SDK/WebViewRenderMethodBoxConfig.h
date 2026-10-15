@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebViewRenderMethodBoxConfig_TypeDefinitionIndex = 7922;
+
 	class WebViewRenderMethodBoxConfig : public ::System::Object
 	{
 	public:

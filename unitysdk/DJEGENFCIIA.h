@@ -14,6 +14,8 @@ namespace System { class String; }
 #define DJEGENFCIIA_JJIPEOOFHDN_OFFSET UNITYSDK_OFFSET(0xF22F080)
 #define DJEGENFCIIA_MNLPJLBAJKJ_OFFSET UNITYSDK_OFFSET(0xF22F0D0)
 
+inline static constexpr unsigned int DJEGENFCIIA_TypeDefinitionIndex = 71587;
+
 	class DJEGENFCIIA : public ::System::Object
 	{
 	public:

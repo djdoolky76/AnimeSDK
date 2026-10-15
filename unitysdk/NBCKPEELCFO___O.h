@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 class NBCKPEELCFO_CNCCFDHIOHL;
 
+inline static constexpr unsigned int NBCKPEELCFO___O_TypeDefinitionIndex = 62275;
+
 	class NBCKPEELCFO___O : public ::System::Object
 	{
 	public:

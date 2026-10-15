@@ -27,6 +27,8 @@ namespace UnityEngine { class AnimationClip; }
 #define ELAEFPMKKCN_NECKAJFHHHO_OFFSET UNITYSDK_OFFSET(0x1551A8A0)
 #define ELAEFPMKKCN_NPFNPABANNL_OFFSET UNITYSDK_OFFSET(0x1551A330)
 
+inline static constexpr unsigned int ELAEFPMKKCN_TypeDefinitionIndex = 77796;
+
 	class ELAEFPMKKCN : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_ErrorCode_TypeDefinitionIndex = 46373;
+
 	enum class SecurityTunnel_ErrorCode : ::System::Int32
 	{
 		ConnectGateFailure = 1000,

@@ -9,6 +9,8 @@ namespace System { class String; }
 #define AICCDJOGBBO_JEOEAFMGOBC_OFFSET UNITYSDK_OFFSET(0x1C42F230)
 #define AICCDJOGBBO_KDNBABDFBLB_OFFSET UNITYSDK_OFFSET(0x1C42F180)
 
+inline static constexpr unsigned int AICCDJOGBBO_TypeDefinitionIndex = 41508;
+
 	class AICCDJOGBBO : public ::System::Object
 	{
 	public:

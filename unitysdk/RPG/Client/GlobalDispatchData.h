@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GlobalDispatchData_TypeDefinitionIndex = 69387;
+
 	class GlobalDispatchData : public ::System::Object
 	{
 	public:

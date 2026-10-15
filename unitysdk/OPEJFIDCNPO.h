@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OPEJFIDCNPO_CTOR_OFFSET UNITYSDK_OFFSET(0xBFA7EA0)
 #define OPEJFIDCNPO_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0xBFA7DF0)
 
+inline static constexpr unsigned int OPEJFIDCNPO_TypeDefinitionIndex = 54385;
+
 	class OPEJFIDCNPO : public ::System::Object
 	{
 	public:

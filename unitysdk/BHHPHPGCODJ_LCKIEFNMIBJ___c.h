@@ -10,6 +10,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define BHHPHPGCODJ_LCKIEFNMIBJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB48B8D0)
 #define BHHPHPGCODJ_LCKIEFNMIBJ___C__CREATESORTED_B__4_0_OFFSET UNITYSDK_OFFSET(0xB48B8E0)
 
+inline static constexpr unsigned int BHHPHPGCODJ_LCKIEFNMIBJ___c_TypeDefinitionIndex = 79428;
+
 	class BHHPHPGCODJ_LCKIEFNMIBJ___c : public ::System::Object
 	{
 	public:

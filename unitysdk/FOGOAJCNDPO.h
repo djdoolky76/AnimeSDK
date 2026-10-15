@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FOGOAJCNDPO_NHBIAIGAJBA_OFFSET UNITYSDK_OFFSET(0x158EA0F0)
 #define FOGOAJCNDPO_OLNLAGCNGAI_OFFSET UNITYSDK_OFFSET(0x158EA030)
 
+inline static constexpr unsigned int FOGOAJCNDPO_TypeDefinitionIndex = 49092;
+
 	class FOGOAJCNDPO : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TryCancelEnterRegion; }
 #define NJMKALMANFH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC1FB50)
 #define NJMKALMANFH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBC1FB00)
 
+inline static constexpr unsigned int NJMKALMANFH_TypeDefinitionIndex = 58804;
+
 	class NJMKALMANFH
 	{
 	public:

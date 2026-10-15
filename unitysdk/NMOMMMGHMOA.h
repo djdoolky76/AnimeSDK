@@ -29,6 +29,8 @@ namespace System { class String; }
 #define NMOMMMGHMOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB7B610)
 #define NMOMMMGHMOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB7B670)
 
+inline static constexpr unsigned int NMOMMMGHMOA_TypeDefinitionIndex = 33547;
+
 	class NMOMMMGHMOA : public ::System::Object
 	{
 	public:

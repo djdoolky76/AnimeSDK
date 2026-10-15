@@ -22,6 +22,8 @@ namespace UnityEngine::UI { class Text; }
 #define EGJANNFKDLK_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x1451AE30)
 #define EGJANNFKDLK__ONBIND_OFFSET UNITYSDK_OFFSET(0x1451AD20)
 
+inline static constexpr unsigned int EGJANNFKDLK_TypeDefinitionIndex = 71197;
+
 	class EGJANNFKDLK : public ::FMPCODLIOLG
 	{
 	public:

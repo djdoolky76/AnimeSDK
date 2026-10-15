@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NOICMGFLOKA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB8C900)
 #define NOICMGFLOKA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EB8C910)
 
+inline static constexpr unsigned int NOICMGFLOKA___c_TypeDefinitionIndex = 29711;
+
 	class NOICMGFLOKA___c : public ::System::Object
 	{
 	public:

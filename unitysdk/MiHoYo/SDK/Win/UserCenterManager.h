@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int UserCenterManager_TypeDefinitionIndex = 9478;
+
 	class UserCenterManager : public ::System::Object
 	{
 	public:

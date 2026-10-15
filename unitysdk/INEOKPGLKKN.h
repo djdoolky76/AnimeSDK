@@ -5,6 +5,8 @@ class ALFCGCNDMIA;
 
 #define INEOKPGLKKN_CTOR_OFFSET UNITYSDK_OFFSET(0x164E9490)
 
+inline static constexpr unsigned int INEOKPGLKKN_TypeDefinitionIndex = 79104;
+
 	class INEOKPGLKKN : public ::ILEDHBPJGFC
 	{
 	public:

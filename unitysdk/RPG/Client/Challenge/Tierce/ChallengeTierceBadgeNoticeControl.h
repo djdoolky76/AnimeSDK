@@ -13,6 +13,8 @@ namespace RPG::Client { class PrefabLoadMeta; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceBadgeNoticeControl_TypeDefinitionIndex = 81518;
+
 	class ChallengeTierceBadgeNoticeControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

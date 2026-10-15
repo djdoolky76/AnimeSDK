@@ -15,6 +15,8 @@ namespace UnityEngine { class Light; }
 
 namespace UnityEngine::Rendering::LookDev
 {
+	inline static constexpr unsigned int StageRuntimeInterface_TypeDefinitionIndex = 35671;
+
 	class StageRuntimeInterface : public ::System::Object
 	{
 	public:

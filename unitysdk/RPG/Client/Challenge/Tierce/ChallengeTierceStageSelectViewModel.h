@@ -54,6 +54,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceStageSelectViewModel_TypeDefinitionIndex = 81623;
+
 	class ChallengeTierceStageSelectViewModel : public ::Sofa::Core::ObservableObject
 	{
 	public:

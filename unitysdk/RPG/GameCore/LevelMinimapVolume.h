@@ -16,6 +16,8 @@ namespace UnityEngine { class Sprite; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelMinimapVolume_TypeDefinitionIndex = 17222;
+
 	class LevelMinimapVolume : public ::RPG::GameCore::JsonConfig
 	{
 	public:

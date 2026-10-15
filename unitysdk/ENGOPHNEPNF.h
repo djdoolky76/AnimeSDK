@@ -14,6 +14,8 @@ namespace UnityEngine { class Mesh; }
 #define ENGOPHNEPNF_LGFAIJFAGIC_OFFSET UNITYSDK_OFFSET(0x155ADBF0)
 #define ENGOPHNEPNF_PCLBLEOGKDI_OFFSET UNITYSDK_OFFSET(0x155AF9F0)
 
+inline static constexpr unsigned int ENGOPHNEPNF_TypeDefinitionIndex = 49006;
+
 	class ENGOPHNEPNF : public ::System::Object
 	{
 	public:

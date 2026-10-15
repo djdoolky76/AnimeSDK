@@ -15,6 +15,8 @@ namespace System { class Nullable; }
 #define NKPNJJMCJNB_MGJLINFADJK_OFFSET UNITYSDK_OFFSET(0xBC4D7E0)
 #define NKPNJJMCJNB_PODJJPBKLDC_OFFSET UNITYSDK_OFFSET(0xBC4D870)
 
+inline static constexpr unsigned int NKPNJJMCJNB_TypeDefinitionIndex = 56985;
+
 	class NKPNJJMCJNB : public ::ADKFPNMPIDD
 	{
 	public:

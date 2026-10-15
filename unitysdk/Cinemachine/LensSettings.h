@@ -20,6 +20,8 @@ namespace UnityEngine { class Camera; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int LensSettings_TypeDefinitionIndex = 39839;
+
 	struct alignas(4) LensSettings
 	{
 		::System::Single FieldOfView; // 0x10

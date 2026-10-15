@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DAEDLFEEGIB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E14D5A0)
 #define DAEDLFEEGIB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E14D600)
 
+inline static constexpr unsigned int DAEDLFEEGIB_TypeDefinitionIndex = 34413;
+
 	class DAEDLFEEGIB : public ::System::Object
 	{
 	public:

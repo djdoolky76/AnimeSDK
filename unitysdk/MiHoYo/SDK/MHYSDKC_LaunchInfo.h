@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MHYSDKC_LaunchInfo_TypeDefinitionIndex = 46172;
+
 	class MHYSDKC_LaunchInfo : public ::System::Object
 	{
 	public:

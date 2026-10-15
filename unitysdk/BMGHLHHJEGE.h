@@ -29,6 +29,8 @@ namespace System { class String; }
 #define BMGHLHHJEGE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E025B30)
 #define BMGHLHHJEGE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E025B90)
 
+inline static constexpr unsigned int BMGHLHHJEGE_TypeDefinitionIndex = 31886;
+
 	class BMGHLHHJEGE : public ::System::Object
 	{
 	public:

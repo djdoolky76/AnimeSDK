@@ -9,6 +9,8 @@
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int BinHexDecoder_TypeDefinitionIndex = 1790;
+
 	class BinHexDecoder : public ::System::Xml::IncrementalReadDecoder
 	{
 	public:

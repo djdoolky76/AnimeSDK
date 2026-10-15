@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JDPNGKAKIML_CTOR_OFFSET UNITYSDK_OFFSET(0x166120A0)
 #define JDPNGKAKIML_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x166120D0)
 
+inline static constexpr unsigned int JDPNGKAKIML_TypeDefinitionIndex = 54801;
+
 	class JDPNGKAKIML
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierProbCopyDressedRoleConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierProbCopyDressedRoleConfig_TypeDefinitionIndex = 19491;
+
 	class GridFightModifierProbCopyDressedRoleConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

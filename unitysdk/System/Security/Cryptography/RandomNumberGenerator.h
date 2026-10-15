@@ -12,6 +12,8 @@ namespace System::Security::Cryptography { class RandomNumberGenerator; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int RandomNumberGenerator_TypeDefinitionIndex = 1038;
+
 	class RandomNumberGenerator : public ::System::Object
 	{
 	public:

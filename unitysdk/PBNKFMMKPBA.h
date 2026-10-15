@@ -6,6 +6,8 @@
 #define PBNKFMMKPBA_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1C9A4CF0)
 #define PBNKFMMKPBA__START_B__1_0_OFFSET UNITYSDK_OFFSET(0x1C9A4EC0)
 
+inline static constexpr unsigned int PBNKFMMKPBA_TypeDefinitionIndex = 42207;
+
 	class PBNKFMMKPBA : public ::CKFDNGOHNPC
 	{
 	public:

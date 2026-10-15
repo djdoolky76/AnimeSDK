@@ -6,6 +6,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int IsometricViewPuzzleItem_GBNNNKDFKDP_TypeDefinitionIndex = 78646;
+
 	class IsometricViewPuzzleItem_GBNNNKDFKDP : public ::UnityEngine::PropertyAttribute
 	{
 	public:

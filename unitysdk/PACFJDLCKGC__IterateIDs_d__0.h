@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define PACFJDLCKGC__ITERATEIDS_D__0_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBFC5F90)
 #define PACFJDLCKGC__ITERATEIDS_D__0___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xBFC5FB0)
 
+inline static constexpr unsigned int PACFJDLCKGC__IterateIDs_d__0_TypeDefinitionIndex = 80111;
+
 	class PACFJDLCKGC__IterateIDs_d__0 : public ::System::Object
 	{
 	public:

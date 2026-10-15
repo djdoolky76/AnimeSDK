@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define MFEPILDHJLL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D157610)
 #define MFEPILDHJLL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1575C0)
 
+inline static constexpr unsigned int MFEPILDHJLL_TypeDefinitionIndex = 21488;
+
 	class MFEPILDHJLL : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:

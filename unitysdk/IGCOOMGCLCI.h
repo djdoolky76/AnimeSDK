@@ -5,6 +5,8 @@ class BPGMFAKEGDD;
 
 #define IGCOOMGCLCI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB75580)
 
+inline static constexpr unsigned int IGCOOMGCLCI_TypeDefinitionIndex = 43222;
+
 	class IGCOOMGCLCI : public ::System::Object
 	{
 	public:

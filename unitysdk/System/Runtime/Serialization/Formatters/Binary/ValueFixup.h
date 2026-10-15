@@ -15,6 +15,8 @@ namespace System::Runtime::Serialization::Formatters::Binary { class ReadObjectI
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int ValueFixup_TypeDefinitionIndex = 1197;
+
 	class ValueFixup : public ::System::Object
 	{
 	public:

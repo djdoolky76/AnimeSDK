@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MazeBattleTransitionClientConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MazeBattleTransitionClientConfig_TypeDefinitionIndex = 17621;
+
 	class MazeBattleTransitionClientConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

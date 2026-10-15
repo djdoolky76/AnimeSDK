@@ -31,6 +31,8 @@ namespace System { class String; }
 #define LDKMOFFMGEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8FB910)
 #define LDKMOFFMGEL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8FB970)
 
+inline static constexpr unsigned int LDKMOFFMGEL_TypeDefinitionIndex = 33069;
+
 	class LDKMOFFMGEL : public ::System::Object
 	{
 	public:

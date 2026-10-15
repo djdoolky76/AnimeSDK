@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_InstanceArrayBehavior_PossiblePropertyVector_TypeDefinitionIndex = 70615;
+
 	class Effect_InstanceArrayBehavior_PossiblePropertyVector : public ::System::Object
 	{
 	public:

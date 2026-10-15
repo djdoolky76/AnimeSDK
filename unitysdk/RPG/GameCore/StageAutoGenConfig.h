@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageAutoGenConfig_TypeDefinitionIndex = 19144;
+
 	class StageAutoGenConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

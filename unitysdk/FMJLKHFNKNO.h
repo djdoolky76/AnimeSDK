@@ -32,6 +32,8 @@ namespace UnityEngine { class Transform; }
 #define FMJLKHFNKNO_PEECNCABGFD_OFFSET UNITYSDK_OFFSET(0x1585F8C0)
 #define FMJLKHFNKNO_USELIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0x15860BA0)
 
+inline static constexpr unsigned int FMJLKHFNKNO_TypeDefinitionIndex = 57186;
+
 	class FMJLKHFNKNO : public ::System::Object
 	{
 	public:

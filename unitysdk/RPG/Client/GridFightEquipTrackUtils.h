@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEquipTrackUtils_TypeDefinitionIndex = 65347;
+
 	class GridFightEquipTrackUtils : public ::System::Object
 	{
 	public:

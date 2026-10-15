@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_RemoveEffect_TypeDefinitionIndex = 20148;
+
 	class ST_Side_RemoveEffect : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

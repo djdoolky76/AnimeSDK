@@ -5,6 +5,8 @@
 #define EEINHMNLJGI_PFIMEIAAPEH_1_OFFSET UNITYSDK_OFFSET(0x1DD3A080)
 #define EEINHMNLJGI_PFIMEIAAPEH_OFFSET UNITYSDK_OFFSET(0x1DD3A070)
 
+inline static constexpr unsigned int EEINHMNLJGI_TypeDefinitionIndex = 6410;
+
 	class EEINHMNLJGI : public ::System::Object
 	{
 	public:

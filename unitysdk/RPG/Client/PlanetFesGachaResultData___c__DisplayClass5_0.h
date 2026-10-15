@@ -8,6 +8,8 @@ namespace RPG::Client { class PlanetFesGachaResultItemData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesGachaResultData___c__DisplayClass5_0_TypeDefinitionIndex = 66598;
+
 	class PlanetFesGachaResultData___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

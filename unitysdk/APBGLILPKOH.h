@@ -35,6 +35,8 @@ namespace UnityEngine { class Animator; }
 #define APBGLILPKOH_MGAKBFCDHCJ_OFFSET UNITYSDK_OFFSET(0x158CC8C0)
 #define APBGLILPKOH_SET_ACTIVE_OFFSET UNITYSDK_OFFSET(0x158CBA70)
 
+inline static constexpr unsigned int APBGLILPKOH_TypeDefinitionIndex = 53609;
+
 	class APBGLILPKOH : public ::System::Object
 	{
 	public:

@@ -64,6 +64,8 @@ namespace UnityEngine::UI { class Image; }
 #define IEEJKFBDGHN__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x15EF24C0)
 #define IEEJKFBDGHN__ONTICK_OFFSET UNITYSDK_OFFSET(0x15EF2510)
 
+inline static constexpr unsigned int IEEJKFBDGHN_TypeDefinitionIndex = 71718;
+
 	class IEEJKFBDGHN : public ::FMPCODLIOLG
 	{
 	public:

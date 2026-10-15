@@ -9,6 +9,8 @@ class OBJANKHLNGO;
 #define EEDCAKNHIMM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1334F7C0)
 #define EEDCAKNHIMM_NMPLHCJKEOI_OFFSET UNITYSDK_OFFSET(0x1334F820)
 
+inline static constexpr unsigned int EEDCAKNHIMM_TypeDefinitionIndex = 79649;
+
 	class EEDCAKNHIMM : public ::System::Object
 	{
 	public:

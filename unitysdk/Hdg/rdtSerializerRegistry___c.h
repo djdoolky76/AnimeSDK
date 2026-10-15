@@ -20,6 +20,8 @@ namespace System { class Object; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int rdtSerializerRegistry___c_TypeDefinitionIndex = 46969;
+
 	class rdtSerializerRegistry___c : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GPPGJLBHJFL_CCTOR_OFFSET UNITYSDK_OFFSET(0x15B68010)
 #define GPPGJLBHJFL_CTOR_OFFSET UNITYSDK_OFFSET(0x15B68000)
 
+inline static constexpr unsigned int GPPGJLBHJFL_TypeDefinitionIndex = 49613;
+
 	class GPPGJLBHJFL : public ::System::Object
 	{
 	public:

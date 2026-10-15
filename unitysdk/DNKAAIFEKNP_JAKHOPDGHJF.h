@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int DNKAAIFEKNP_JAKHOPDGHJF_TypeDefinitionIndex = 59983;
+
 	struct alignas(4) DNKAAIFEKNP_JAKHOPDGHJF
 	{
 		::System::UInt32 KCLEABINAHA; // 0x10

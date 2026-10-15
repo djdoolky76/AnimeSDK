@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define DIPAOFKGPMG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xF226280)
 #define DIPAOFKGPMG___C__GETPREVIEWAVATARWITHVIRTUALRELICS_B__19_0_OFFSET UNITYSDK_OFFSET(0xF226290)
 
+inline static constexpr unsigned int DIPAOFKGPMG___c_TypeDefinitionIndex = 62699;
+
 	class DIPAOFKGPMG___c : public ::System::Object
 	{
 	public:

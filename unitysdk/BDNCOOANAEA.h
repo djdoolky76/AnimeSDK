@@ -35,6 +35,8 @@ namespace System { class String; }
 #define BDNCOOANAEA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E91C120)
 #define BDNCOOANAEA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E91C180)
 
+inline static constexpr unsigned int BDNCOOANAEA_TypeDefinitionIndex = 29411;
+
 	class BDNCOOANAEA : public ::System::Object
 	{
 	public:

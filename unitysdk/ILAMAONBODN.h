@@ -33,6 +33,8 @@ namespace System { class String; }
 #define ILAMAONBODN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6A6360)
 #define ILAMAONBODN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6A63C0)
 
+inline static constexpr unsigned int ILAMAONBODN_TypeDefinitionIndex = 34508;
+
 	class ILAMAONBODN : public ::System::Object
 	{
 	public:

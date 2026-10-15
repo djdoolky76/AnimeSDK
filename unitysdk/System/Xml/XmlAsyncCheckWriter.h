@@ -39,6 +39,8 @@ namespace System::Xml { class XmlWriter; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlAsyncCheckWriter_TypeDefinitionIndex = 1832;
+
 	class XmlAsyncCheckWriter : public ::System::Xml::XmlWriter
 	{
 	public:

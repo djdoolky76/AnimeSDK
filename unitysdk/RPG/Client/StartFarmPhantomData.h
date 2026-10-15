@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StartFarmPhantomData_TypeDefinitionIndex = 60660;
+
 	class StartFarmPhantomData : public ::System::Object
 	{
 	public:

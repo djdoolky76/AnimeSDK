@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define BJCNEJFNIID_CTOR_OFFSET UNITYSDK_OFFSET(0x1D80D250)
 #define BJCNEJFNIID_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D80D170)
 
+inline static constexpr unsigned int BJCNEJFNIID_TypeDefinitionIndex = 22780;
+
 	class BJCNEJFNIID : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SwordTrainingEffectRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwordTrainingEffectRow_TypeDefinitionIndex = 12424;
+
 	class SwordTrainingEffectRow : public ::System::Object
 	{
 	public:

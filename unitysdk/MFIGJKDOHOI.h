@@ -24,6 +24,8 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 #define MFIGJKDOHOI_PHKOMPHPILD_1_OFFSET UNITYSDK_OFFSET(0xB901FD0)
 #define MFIGJKDOHOI_PHKOMPHPILD_OFFSET UNITYSDK_OFFSET(0xB901F80)
 
+inline static constexpr unsigned int MFIGJKDOHOI_TypeDefinitionIndex = 48520;
+
 	class MFIGJKDOHOI : public ::System::Object
 	{
 	public:

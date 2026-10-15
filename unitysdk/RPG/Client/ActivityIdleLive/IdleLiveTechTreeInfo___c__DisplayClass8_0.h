@@ -9,6 +9,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveTechTreeNode; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveTechTreeInfo___c__DisplayClass8_0_TypeDefinitionIndex = 75408;
+
 	class IdleLiveTechTreeInfo___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

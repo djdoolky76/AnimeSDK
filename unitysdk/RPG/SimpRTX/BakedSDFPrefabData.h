@@ -10,6 +10,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::SimpRTX
 {
+	inline static constexpr unsigned int BakedSDFPrefabData_TypeDefinitionIndex = 51775;
+
 	class BakedSDFPrefabData : public ::System::Object
 	{
 	public:

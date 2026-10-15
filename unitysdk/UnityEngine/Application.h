@@ -160,6 +160,8 @@ namespace UnityEngine::Events { class UnityAction; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Application_TypeDefinitionIndex = 4027;
+
 	class Application : public ::System::Object
 	{
 	public:

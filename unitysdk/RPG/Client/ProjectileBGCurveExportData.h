@@ -16,6 +16,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ProjectileBGCurveExportData_TypeDefinitionIndex = 70140;
+
 	class ProjectileBGCurveExportData : public ::System::Object
 	{
 	public:

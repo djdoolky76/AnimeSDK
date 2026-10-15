@@ -37,6 +37,8 @@ namespace System::Runtime::Remoting { class ProviderData; }
 
 namespace System::Runtime::Remoting
 {
+	inline static constexpr unsigned int ConfigHandler_TypeDefinitionIndex = 1213;
+
 	class ConfigHandler : public ::System::Object
 	{
 	public:

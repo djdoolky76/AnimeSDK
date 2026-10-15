@@ -38,6 +38,8 @@ namespace UnityEngine::UI { class SmoothMask; }
 #define CAGINOHGAMD_PHBLFEFNICJ_OFFSET UNITYSDK_OFFSET(0xC47DB70)
 #define CAGINOHGAMD__ONBIND_OFFSET UNITYSDK_OFFSET(0xC47BD40)
 
+inline static constexpr unsigned int CAGINOHGAMD_TypeDefinitionIndex = 71926;
+
 	class CAGINOHGAMD : public ::CLAADCBPCHM
 	{
 	public:

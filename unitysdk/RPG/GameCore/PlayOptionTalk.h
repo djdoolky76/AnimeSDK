@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayOptionTalk_TypeDefinitionIndex = 20851;
+
 	class PlayOptionTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

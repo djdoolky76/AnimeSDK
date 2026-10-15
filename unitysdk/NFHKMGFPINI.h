@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NFHKMGFPINI_SET_ACTIVEPARTIDLIST_OFFSET UNITYSDK_OFFSET(0xBB93F20)
 #define NFHKMGFPINI_SET_FINISHEDACTIONNUM_OFFSET UNITYSDK_OFFSET(0xBB93F00)
 
+inline static constexpr unsigned int NFHKMGFPINI_TypeDefinitionIndex = 81665;
+
 	class NFHKMGFPINI : public ::System::Object
 	{
 	public:

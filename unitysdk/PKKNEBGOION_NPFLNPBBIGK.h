@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define PKKNEBGOION_NPFLNPBBIGK_IOHHAIEKKJN_OFFSET UNITYSDK_OFFSET(0xC2C7510)
 #define PKKNEBGOION_NPFLNPBBIGK_LBBHPJGJDBP_OFFSET UNITYSDK_OFFSET(0xC2D0590)
 
+inline static constexpr unsigned int PKKNEBGOION_NPFLNPBBIGK_TypeDefinitionIndex = 62179;
+
 	class PKKNEBGOION_NPFLNPBBIGK : public ::PKKNEBGOION_AKOPAHKBDJN
 	{
 	public:

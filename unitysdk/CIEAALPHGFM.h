@@ -25,6 +25,8 @@ namespace System { class String; }
 #define CIEAALPHGFM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0CFD10)
 #define CIEAALPHGFM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0CFD70)
 
+inline static constexpr unsigned int CIEAALPHGFM_TypeDefinitionIndex = 34682;
+
 	class CIEAALPHGFM : public ::System::Object
 	{
 	public:

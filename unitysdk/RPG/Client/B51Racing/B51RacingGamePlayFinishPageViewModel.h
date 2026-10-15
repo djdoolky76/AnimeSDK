@@ -6,6 +6,8 @@
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingGamePlayFinishPageViewModel_TypeDefinitionIndex = 82037;
+
 	class B51RacingGamePlayFinishPageViewModel : public ::System::Object
 	{
 	public:

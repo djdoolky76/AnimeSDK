@@ -17,6 +17,8 @@ namespace UnityEngine { class GameObject; }
 #define GKEDJANMOBM_CBLHALGKNJC_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x15A93E50)
 #define GKEDJANMOBM_CBLHALGKNJC_PODBDMJEMJP_OFFSET UNITYSDK_OFFSET(0x15A93FE0)
 
+inline static constexpr unsigned int GKEDJANMOBM_CBLHALGKNJC_TypeDefinitionIndex = 59726;
+
 	class GKEDJANMOBM_CBLHALGKNJC : public ::System::Object
 	{
 	public:

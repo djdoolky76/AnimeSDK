@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int JFHILPANBNL_TypeDefinitionIndex = 25270;
+
 	enum class JFHILPANBNL : ::System::Int32
 	{
 		GNPCNKHPAMH = 0,

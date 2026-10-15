@@ -17,6 +17,8 @@ namespace UnityEngine { class Collider; }
 #define BHBHHBIDBIB__ONTRIGGEROUT_OFFSET UNITYSDK_OFFSET(0xB46F120)
 #define BHBHHBIDBIB__TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB46EF60)
 
+inline static constexpr unsigned int BHBHHBIDBIB_TypeDefinitionIndex = 77146;
+
 	class BHBHHBIDBIB
 	{
 	public:

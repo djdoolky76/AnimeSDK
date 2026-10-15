@@ -4,6 +4,8 @@
 
 #define DGBLFOAPHPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA28D40)
 
+inline static constexpr unsigned int DGBLFOAPHPO_TypeDefinitionIndex = 43792;
+
 	class DGBLFOAPHPO : public ::System::Object
 	{
 	public:

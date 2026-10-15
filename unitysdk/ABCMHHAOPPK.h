@@ -9,6 +9,8 @@ namespace RPG::Client::LittleGame { class Match3EnergyViewStateBuffer; }
 #define ABCMHHAOPPK_CTOR_OFFSET UNITYSDK_OFFSET(0xB0EDE70)
 #define ABCMHHAOPPK_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB0EDE10)
 
+inline static constexpr unsigned int ABCMHHAOPPK_TypeDefinitionIndex = 65888;
+
 	class ABCMHHAOPPK : public ::MLKDDLHNNHH
 	{
 	public:

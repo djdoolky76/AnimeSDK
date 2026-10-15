@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AudioBlockUpdateLangRecordItem_TypeDefinitionIndex = 61212;
+
 	class AudioBlockUpdateLangRecordItem : public ::System::Object
 	{
 	public:

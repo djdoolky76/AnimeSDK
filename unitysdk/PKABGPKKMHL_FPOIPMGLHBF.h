@@ -18,6 +18,8 @@ namespace UnityEngine { class GameObject; }
 #define PKABGPKKMHL_FPOIPMGLHBF_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xC2A7900)
 #define PKABGPKKMHL_FPOIPMGLHBF_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xC2A54F0)
 
+inline static constexpr unsigned int PKABGPKKMHL_FPOIPMGLHBF_TypeDefinitionIndex = 73853;
+
 	class PKABGPKKMHL_FPOIPMGLHBF : public ::System::Object
 	{
 	public:

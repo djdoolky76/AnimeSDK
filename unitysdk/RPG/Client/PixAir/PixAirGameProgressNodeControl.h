@@ -6,6 +6,8 @@
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirGameProgressNodeControl_TypeDefinitionIndex = 79235;
+
 	class PixAirGameProgressNodeControl : public ::Sofa::BaseSofaControl
 	{
 	public:

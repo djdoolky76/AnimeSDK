@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ShaderRemoteTest_UniformAttribute_TypeDefinitionIndex = 37752;
+
 	class ShaderRemoteTest_UniformAttribute : public ::System::Attribute
 	{
 	public:

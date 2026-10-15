@@ -25,6 +25,8 @@ namespace System { class String; }
 #define NNKJBOKLHAF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB838E0)
 #define NNKJBOKLHAF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB83940)
 
+inline static constexpr unsigned int NNKJBOKLHAF_TypeDefinitionIndex = 31346;
+
 	class NNKJBOKLHAF : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int TextGenerator_IIconAtlas_TypeDefinitionIndex = 5043;
+
 	class TextGenerator_IIconAtlas
 	{
 	public:

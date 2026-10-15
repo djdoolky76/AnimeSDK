@@ -7,6 +7,8 @@
 
 namespace SRDebugger::UI::Other
 {
+	inline static constexpr unsigned int ScrollSettingsBehaviour_TypeDefinitionIndex = 38016;
+
 	class ScrollSettingsBehaviour : public ::UnityEngine::MonoBehaviour
 	{
 	public:

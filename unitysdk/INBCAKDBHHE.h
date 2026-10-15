@@ -24,6 +24,8 @@ namespace System { class Object; }
 #define INBCAKDBHHE_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1CF256F0)
 #define INBCAKDBHHE_PGMFGIBAMJN_OFFSET UNITYSDK_OFFSET(0x3C3AB50)
 
+inline static constexpr unsigned int INBCAKDBHHE_TypeDefinitionIndex = 10724;
+
 	struct alignas(8) INBCAKDBHHE
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

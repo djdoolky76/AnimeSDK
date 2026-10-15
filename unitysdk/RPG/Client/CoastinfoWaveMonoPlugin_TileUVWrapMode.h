@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CoastinfoWaveMonoPlugin_TileUVWrapMode_TypeDefinitionIndex = 70929;
+
 	enum class CoastinfoWaveMonoPlugin_TileUVWrapMode : ::System::Int32
 	{
 		Clamp01 = 0,

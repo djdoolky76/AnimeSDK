@@ -34,6 +34,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Cores_TypeDefinitionIndex = 36636;
+
 	class B2Cores : public ::System::Object
 	{
 	public:

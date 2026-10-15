@@ -18,6 +18,8 @@
 #define HCAJLDIJJOH_SET_SUBMISSIONID_OFFSET UNITYSDK_OFFSET(0x15C16420)
 #define HCAJLDIJJOH_SET_TEAMTYPE_OFFSET UNITYSDK_OFFSET(0x15C16400)
 
+inline static constexpr unsigned int HCAJLDIJJOH_TypeDefinitionIndex = 80777;
+
 	class HCAJLDIJJOH : public ::System::Object
 	{
 	public:

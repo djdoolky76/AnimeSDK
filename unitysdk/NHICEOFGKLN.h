@@ -13,6 +13,8 @@ namespace System { class String; }
 #define NHICEOFGKLN_TICK_OFFSET UNITYSDK_OFFSET(0xBBC5C10)
 #define NHICEOFGKLN__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xBBC5C70)
 
+inline static constexpr unsigned int NHICEOFGKLN_TypeDefinitionIndex = 52728;
+
 	class NHICEOFGKLN : public ::GELIALJDFBL
 	{
 	public:

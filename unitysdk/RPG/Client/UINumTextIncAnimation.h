@@ -21,6 +21,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UINumTextIncAnimation_TypeDefinitionIndex = 69109;
+
 	class UINumTextIncAnimation : public ::UnityEngine::MonoBehaviour
 	{
 	public:

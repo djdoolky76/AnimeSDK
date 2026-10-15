@@ -28,6 +28,8 @@ namespace System::Text { class StringBuilder; }
 #define GCIJNNOFDHM_SET_UPGRADE_OFFSET UNITYSDK_OFFSET(0x94C0)
 #define GCIJNNOFDHM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2E79F00)
 
+inline static constexpr unsigned int GCIJNNOFDHM_TypeDefinitionIndex = 62541;
+
 	struct alignas(8) GCIJNNOFDHM
 	{
 		::RPG::AvatarSystem::IAvatar* _Origin_k__BackingField; // 0x10

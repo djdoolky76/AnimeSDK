@@ -20,6 +20,8 @@ namespace RPG::Client::LimaoNews { class LimaoNewsWorkRecordData; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsWorkRecordData_TypeDefinitionIndex = 80308;
+
 	class LimaoNewsWorkRecordData : public ::System::Object
 	{
 	public:

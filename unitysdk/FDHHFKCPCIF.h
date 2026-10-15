@@ -30,6 +30,8 @@ namespace System { class String; }
 #define FDHHFKCPCIF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E359A40)
 #define FDHHFKCPCIF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E359AA0)
 
+inline static constexpr unsigned int FDHHFKCPCIF_TypeDefinitionIndex = 33535;
+
 	class FDHHFKCPCIF : public ::System::Object
 	{
 	public:

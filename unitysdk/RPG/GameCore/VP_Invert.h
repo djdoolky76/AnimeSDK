@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VP_Invert_TypeDefinitionIndex = 24054;
+
 	class VP_Invert : public ::RPG::GameCore::ValuePostProcessConfig
 	{
 	public:

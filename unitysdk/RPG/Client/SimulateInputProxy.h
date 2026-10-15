@@ -35,6 +35,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SimulateInputProxy_TypeDefinitionIndex = 72654;
+
 	class SimulateInputProxy : public ::UnityEngine::MonoBehaviour
 	{
 	public:

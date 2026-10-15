@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BOCPOGNEAKM_JIGJDOFEJMI_OFFSET UNITYSDK_OFFSET(0xC18DD60)
 #define BOCPOGNEAKM_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xC18DDB0)
 
+inline static constexpr unsigned int BOCPOGNEAKM_TypeDefinitionIndex = 59171;
+
 	class BOCPOGNEAKM
 	{
 	public:

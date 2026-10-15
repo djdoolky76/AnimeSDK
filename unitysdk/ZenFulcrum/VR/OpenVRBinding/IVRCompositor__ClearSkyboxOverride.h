@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRCompositor__ClearSkyboxOverride_TypeDefinitionIndex = 39032;
+
 	class IVRCompositor__ClearSkyboxOverride : public ::System::MulticastDelegate
 	{
 	public:

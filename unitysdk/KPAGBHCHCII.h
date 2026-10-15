@@ -8,6 +8,8 @@ class KPAGBHCHCII;
 #define KPAGBHCHCII_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0C59E0)
 #define KPAGBHCHCII_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0C59A0)
 
+inline static constexpr unsigned int KPAGBHCHCII_TypeDefinitionIndex = 10233;
+
 	class KPAGBHCHCII : public ::RPG::GameCore::TaskConfig
 	{
 	public:

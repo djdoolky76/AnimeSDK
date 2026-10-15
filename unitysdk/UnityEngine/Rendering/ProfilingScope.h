@@ -13,6 +13,8 @@ namespace UnityEngine::Rendering { class ProfilingSampler; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int ProfilingScope_TypeDefinitionIndex = 35555;
+
 	struct alignas(4) ProfilingScope
 	{
 		::System::Void _ctor(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::ProfilingSampler* a2)

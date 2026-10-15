@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_PlayAnimState_TypeDefinitionIndex = 68716;
+
 	class WolfBroGunPlayTargetActionConfig_PlayAnimState : public ::RPG::Client::WolfBroGunPlayTargetActionConfig
 	{
 	public:

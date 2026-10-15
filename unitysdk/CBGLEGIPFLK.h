@@ -5,6 +5,8 @@
 #define CBGLEGIPFLK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBFA4F0)
 #define CBGLEGIPFLK_ODBILIAKBFD_OFFSET UNITYSDK_OFFSET(0x1EBFA2D0)
 
+inline static constexpr unsigned int CBGLEGIPFLK_TypeDefinitionIndex = 35172;
+
 	class CBGLEGIPFLK : public ::System::Object
 	{
 	public:

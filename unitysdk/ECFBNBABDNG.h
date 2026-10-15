@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ECFBNBABDNG_CTOR_OFFSET UNITYSDK_OFFSET(0x12D0B230)
 #define ECFBNBABDNG_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0x12D0B190)
 
+inline static constexpr unsigned int ECFBNBABDNG_TypeDefinitionIndex = 77677;
+
 	class ECFBNBABDNG : public ::HBLDGJCDJPF
 	{
 	public:

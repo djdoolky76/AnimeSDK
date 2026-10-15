@@ -15,6 +15,8 @@ namespace System { class String; }
 #define EDCKNACBCGB_KIEMMIBJFBG_OFFSET UNITYSDK_OFFSET(0x1330FA20)
 #define EDCKNACBCGB_LADFJOCICPI_OFFSET UNITYSDK_OFFSET(0x1330F860)
 
+inline static constexpr unsigned int EDCKNACBCGB_TypeDefinitionIndex = 74676;
+
 	class EDCKNACBCGB : public ::System::Object
 	{
 	public:

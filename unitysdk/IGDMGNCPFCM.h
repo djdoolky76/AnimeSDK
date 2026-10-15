@@ -27,6 +27,8 @@ namespace System { class String; }
 #define IGDMGNCPFCM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E64AD20)
 #define IGDMGNCPFCM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E64AD80)
 
+inline static constexpr unsigned int IGDMGNCPFCM_TypeDefinitionIndex = 26176;
+
 	class IGDMGNCPFCM : public ::System::Object
 	{
 	public:

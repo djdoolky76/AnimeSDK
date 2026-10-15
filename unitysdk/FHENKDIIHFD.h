@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define FHENKDIIHFD_GET_NOTIFYTYPE_OFFSET UNITYSDK_OFFSET(0x157789A0)
 #define FHENKDIIHFD_SET_NOTIFYTYPE_OFFSET UNITYSDK_OFFSET(0x157789B0)
 
+inline static constexpr unsigned int FHENKDIIHFD_TypeDefinitionIndex = 56643;
+
 	class FHENKDIIHFD : public ::HMFOPIJNNDI
 	{
 	public:

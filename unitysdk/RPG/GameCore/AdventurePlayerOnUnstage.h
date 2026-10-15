@@ -16,6 +16,8 @@ namespace RPG::GameCore { class AdventurePlayerOnUnstage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventurePlayerOnUnstage_TypeDefinitionIndex = 56606;
+
 	class AdventurePlayerOnUnstage : public ::CMPGEAFHHDC
 	{
 	public:

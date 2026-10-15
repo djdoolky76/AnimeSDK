@@ -22,6 +22,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int StableSystemPuzzlePedestal_TypeDefinitionIndex = 78875;
+
 	class StableSystemPuzzlePedestal : public ::UnityEngine::MonoBehaviour
 	{
 	public:

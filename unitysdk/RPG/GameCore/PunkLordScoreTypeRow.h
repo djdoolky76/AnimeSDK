@@ -12,6 +12,8 @@ namespace RPG::GameCore { class PunkLordScoreTypeRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PunkLordScoreTypeRow_TypeDefinitionIndex = 12299;
+
 	class PunkLordScoreTypeRow : public ::System::Object
 	{
 	public:

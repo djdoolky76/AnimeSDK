@@ -8,6 +8,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 #define ONPPFKOPIHI_SETPROPERTY_1_OFFSET UNITYSDK_OFFSET(0xBF61920)
 #define ONPPFKOPIHI_SETPROPERTY_OFFSET UNITYSDK_OFFSET(0xBF618A0)
 
+inline static constexpr unsigned int ONPPFKOPIHI_TypeDefinitionIndex = 69823;
+
 	class ONPPFKOPIHI : public ::System::Object
 	{
 	public:

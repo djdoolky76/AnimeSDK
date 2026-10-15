@@ -10,6 +10,8 @@
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_ID_TypeDefinitionIndex = 2129;
+
 	class Datatype_ID : public ::System::Xml::Schema::Datatype_NCName
 	{
 	public:

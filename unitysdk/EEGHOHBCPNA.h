@@ -9,6 +9,8 @@ namespace UnityEngine { class Collider; }
 #define EEGHOHBCPNA_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA33990)
 #define EEGHOHBCPNA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA33A10)
 
+inline static constexpr unsigned int EEGHOHBCPNA_TypeDefinitionIndex = 43260;
+
 	class EEGHOHBCPNA : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine::ProBuilder::MeshOperations { class MeshImportSettings; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int MeshImporter_TypeDefinitionIndex = 44505;
+
 	class MeshImporter : public ::System::Object
 	{
 	public:

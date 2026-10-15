@@ -9,6 +9,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureBuffSync_TypeDefinitionIndex = 56645;
+
 	class AdventureBuffSync : public ::System::Object
 	{
 	public:

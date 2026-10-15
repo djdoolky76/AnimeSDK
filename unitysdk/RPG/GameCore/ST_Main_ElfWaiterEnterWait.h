@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Main_ElfWaiterEnterWait; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_ElfWaiterEnterWait_TypeDefinitionIndex = 21526;
+
 	class ST_Main_ElfWaiterEnterWait : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

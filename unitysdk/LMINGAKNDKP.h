@@ -32,6 +32,8 @@ namespace System { class String; }
 #define LMINGAKNDKP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9A6440)
 #define LMINGAKNDKP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9A64A0)
 
+inline static constexpr unsigned int LMINGAKNDKP_TypeDefinitionIndex = 30253;
+
 	class LMINGAKNDKP : public ::System::Object
 	{
 	public:

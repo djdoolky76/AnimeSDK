@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::QA
 {
+	inline static constexpr unsigned int QAManager___OnLogMessageReceivedCo_d__7_TypeDefinitionIndex = 51818;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
 	class QAManager___OnLogMessageReceivedCo_d__7 : public ::System::Object
 	{

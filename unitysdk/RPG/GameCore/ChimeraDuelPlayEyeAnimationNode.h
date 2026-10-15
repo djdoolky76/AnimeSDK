@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelPlayEyeAnimationNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelPlayEyeAnimationNode_TypeDefinitionIndex = 15947;
+
 	class ChimeraDuelPlayEyeAnimationNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
 	public:

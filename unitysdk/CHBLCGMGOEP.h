@@ -6,6 +6,8 @@ namespace RPG::Client { class AnniversaryCollectionPanelData; }
 #define CHBLCGMGOEP_CTOR_OFFSET UNITYSDK_OFFSET(0xCC910A0)
 #define CHBLCGMGOEP_MNFDJHCGKNE_OFFSET UNITYSDK_OFFSET(0xCC910B0)
 
+inline static constexpr unsigned int CHBLCGMGOEP_TypeDefinitionIndex = 62392;
+
 	class CHBLCGMGOEP : public ::NADABFJHEHM
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define JACCKHFDPCK_PLPPLBFMDCL_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16540980)
 #define JACCKHFDPCK_PLPPLBFMDCL_INVOKE_OFFSET UNITYSDK_OFFSET(0x165408E0)
 
+inline static constexpr unsigned int JACCKHFDPCK_PLPPLBFMDCL_TypeDefinitionIndex = 60111;
+
 	class JACCKHFDPCK_PLPPLBFMDCL : public ::System::MulticastDelegate
 	{
 	public:

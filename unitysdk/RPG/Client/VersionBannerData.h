@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VersionBannerData_TypeDefinitionIndex = 61673;
+
 	class VersionBannerData : public ::System::Object
 	{
 	public:

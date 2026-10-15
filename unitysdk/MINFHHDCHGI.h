@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define MINFHHDCHGI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB95FF00)
 #define MINFHHDCHGI_TICK_OFFSET UNITYSDK_OFFSET(0xB95FF50)
 
+inline static constexpr unsigned int MINFHHDCHGI_TypeDefinitionIndex = 53181;
+
 	class MINFHHDCHGI : public ::GELIALJDFBL
 	{
 	public:

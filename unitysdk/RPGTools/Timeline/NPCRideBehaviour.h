@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class NPCRideClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int NPCRideBehaviour_TypeDefinitionIndex = 48204;
+
 	class NPCRideBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

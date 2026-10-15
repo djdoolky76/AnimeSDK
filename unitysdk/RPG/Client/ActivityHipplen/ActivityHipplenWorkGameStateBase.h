@@ -14,6 +14,8 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenWorkData; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenWorkGameStateBase_TypeDefinitionIndex = 75536;
+
 	class ActivityHipplenWorkGameStateBase : public ::System::Object
 	{
 	public:

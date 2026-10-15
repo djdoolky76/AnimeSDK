@@ -11,6 +11,8 @@ namespace UnityEngine::EventSystems { class IEventSystemHandler; }
 
 namespace UnityEngine::EventSystems
 {
+	inline static constexpr unsigned int ExecuteEvents___c_TypeDefinitionIndex = 6937;
+
 	class ExecuteEvents___c : public ::System::Object
 	{
 	public:

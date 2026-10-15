@@ -9,6 +9,8 @@ namespace RPG::Client { class GridFightUpgradeRefreshEffect; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass30_0_TypeDefinitionIndex = 64488;
+
 	class GridFightEffectController___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:

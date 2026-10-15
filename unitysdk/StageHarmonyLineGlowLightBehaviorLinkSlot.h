@@ -15,6 +15,8 @@ namespace RPG::Client { class LineGlowLightMonoPlugin; }
 #define STAGEHARMONYLINEGLOWLIGHTBEHAVIORLINKSLOT_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xE993FF0)
 #define STAGEHARMONYLINEGLOWLIGHTBEHAVIORLINKSLOT_PKDEMCONMDA_OFFSET UNITYSDK_OFFSET(0xE9934B0)
 
+inline static constexpr unsigned int StageHarmonyLineGlowLightBehaviorLinkSlot_TypeDefinitionIndex = 47375;
+
 	class StageHarmonyLineGlowLightBehaviorLinkSlot : public ::StageHarmonyLightModLinkSlot
 	{
 	public:

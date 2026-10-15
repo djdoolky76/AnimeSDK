@@ -6,6 +6,8 @@ class ECNEEKNHIOE;
 
 #define AOMPIIKDCFH_CTOR_OFFSET UNITYSDK_OFFSET(0x158C3E70)
 
+inline static constexpr unsigned int AOMPIIKDCFH_TypeDefinitionIndex = 80566;
+
 	class AOMPIIKDCFH : public ::System::Object
 	{
 	public:

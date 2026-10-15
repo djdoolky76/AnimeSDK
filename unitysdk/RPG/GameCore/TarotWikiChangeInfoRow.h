@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TarotWikiChangeInfoRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TarotWikiChangeInfoRow_TypeDefinitionIndex = 15245;
+
 	class TarotWikiChangeInfoRow : public ::System::Object
 	{
 	public:

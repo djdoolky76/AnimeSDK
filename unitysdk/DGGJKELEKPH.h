@@ -13,6 +13,8 @@ class MNCOPNHONHO;
 #define DGGJKELEKPH_JCOIGCGPMDJ_OFFSET UNITYSDK_OFFSET(0xE849250)
 #define DGGJKELEKPH_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xE8490E0)
 
+inline static constexpr unsigned int DGGJKELEKPH_TypeDefinitionIndex = 76750;
+
 	class DGGJKELEKPH : public ::System::Object
 	{
 	public:

@@ -40,6 +40,8 @@ namespace UnityEngine { class WaitForSeconds; }
 #define GEJLCOJMPOE_NPIEMKCHJNM_OFFSET UNITYSDK_OFFSET(0x159DC000)
 #define GEJLCOJMPOE_OEDODIGEIEM_OFFSET UNITYSDK_OFFSET(0x159DC5A0)
 
+inline static constexpr unsigned int GEJLCOJMPOE_TypeDefinitionIndex = 78539;
+
 	class GEJLCOJMPOE : public ::System::Object
 	{
 	public:

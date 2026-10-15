@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EffectScreenAdapterBehavior_TypeDefinitionIndex = 70419;
+
 	class EffectScreenAdapterBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

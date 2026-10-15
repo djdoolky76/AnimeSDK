@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CAGNJEEKBNN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E05AD70)
 #define CAGNJEEKBNN___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E05AD80)
 
+inline static constexpr unsigned int CAGNJEEKBNN___c_TypeDefinitionIndex = 32709;
+
 	class CAGNJEEKBNN___c : public ::System::Object
 	{
 	public:

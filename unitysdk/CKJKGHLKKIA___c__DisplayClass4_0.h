@@ -8,6 +8,8 @@ class CKJKGHLKKIA;
 #define CKJKGHLKKIA___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD75F8A0)
 #define CKJKGHLKKIA___C__DISPLAYCLASS4_0__POSTVOICE_B__0_OFFSET UNITYSDK_OFFSET(0xD75FBC0)
 
+inline static constexpr unsigned int CKJKGHLKKIA___c__DisplayClass4_0_TypeDefinitionIndex = 48848;
+
 	class CKJKGHLKKIA___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

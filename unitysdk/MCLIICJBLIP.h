@@ -27,6 +27,8 @@ namespace System { class String; }
 #define MCLIICJBLIP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9FB290)
 #define MCLIICJBLIP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9FB2F0)
 
+inline static constexpr unsigned int MCLIICJBLIP_TypeDefinitionIndex = 31904;
+
 	class MCLIICJBLIP : public ::System::Object
 	{
 	public:

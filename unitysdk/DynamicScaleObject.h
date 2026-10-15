@@ -4,6 +4,8 @@
 
 #define DYNAMICSCALEOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0x12668760)
 
+inline static constexpr unsigned int DynamicScaleObject_TypeDefinitionIndex = 47341;
+
 	class DynamicScaleObject : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesRegionProgress_TypeDefinitionIndex = 66627;
+
 	class PlanetFesRegionProgress : public ::System::Object
 	{
 	public:

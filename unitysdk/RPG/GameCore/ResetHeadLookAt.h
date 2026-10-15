@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResetHeadLookAt_TypeDefinitionIndex = 22910;
+
 	class ResetHeadLookAt : public ::RPG::GameCore::TaskConfig
 	{
 	public:

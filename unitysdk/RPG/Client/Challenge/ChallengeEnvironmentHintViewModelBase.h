@@ -9,6 +9,8 @@ namespace RPG::Client { class ChallengeInstance; }
 
 namespace RPG::Client::Challenge
 {
+	inline static constexpr unsigned int ChallengeEnvironmentHintViewModelBase_TypeDefinitionIndex = 81430;
+
 	class ChallengeEnvironmentHintViewModelBase : public ::System::Object
 	{
 	public:

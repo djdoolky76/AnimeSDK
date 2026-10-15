@@ -22,6 +22,8 @@ namespace UnityEngine { class MeshRenderer; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CRPCameraSmallWindowControlBehaviour_TypeDefinitionIndex = 47894;
+
 	class CRPCameraSmallWindowControlBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

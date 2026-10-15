@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKDelegate_UseRuntimeFontDelegate_TypeDefinitionIndex = 7784;
+
 	class SDKDelegate_UseRuntimeFontDelegate : public ::System::MulticastDelegate
 	{
 	public:

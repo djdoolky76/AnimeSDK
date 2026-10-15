@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ProtocolManager___c__DisplayClass38_0_TypeDefinitionIndex = 8049;
+
 	class ProtocolManager___c__DisplayClass38_0 : public ::System::Object
 	{
 	public:

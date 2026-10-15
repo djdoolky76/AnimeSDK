@@ -15,6 +15,8 @@ class MKJBLEPELNC;
 #define DIPNGJCNABJ_MIKMJEKIMCA_OFFSET UNITYSDK_OFFSET(0xF22B250)
 #define DIPNGJCNABJ_PFFPJDJGAON_OFFSET UNITYSDK_OFFSET(0xF22B520)
 
+inline static constexpr unsigned int DIPNGJCNABJ_TypeDefinitionIndex = 67314;
+
 	class DIPNGJCNABJ : public ::System::Object
 	{
 	public:

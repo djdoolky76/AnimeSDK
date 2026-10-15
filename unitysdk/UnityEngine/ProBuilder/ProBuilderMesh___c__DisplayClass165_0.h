@@ -8,6 +8,8 @@ namespace UnityEngine::ProBuilder { class Face; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int ProBuilderMesh___c__DisplayClass165_0_TypeDefinitionIndex = 44408;
+
 	class ProBuilderMesh___c__DisplayClass165_0 : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine::Rendering { class GrowableBuffer; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CommandBufferExt_RenderCommandSetRTBuffers_TypeDefinitionIndex = 35561;
+
 	struct alignas(8) CommandBufferExt_RenderCommandSetRTBuffers
 	{
 		::Il2CppArray<::System::UInt32>* colorID; // 0x10

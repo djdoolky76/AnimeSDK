@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraSetAnimatorParam_TypeDefinitionIndex = 15871;
+
 	class ChimeraSetAnimatorParam : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{
 	public:

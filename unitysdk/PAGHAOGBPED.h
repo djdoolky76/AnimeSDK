@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 #define PAGHAOGBPED_OLLKIHLLNOO_OFFSET UNITYSDK_OFFSET(0xBFC9230)
 #define PAGHAOGBPED_PFKOMBMKDKN_OFFSET UNITYSDK_OFFSET(0xBFC96D0)
 
+inline static constexpr unsigned int PAGHAOGBPED_TypeDefinitionIndex = 78080;
+
 	class PAGHAOGBPED : public ::HBBCDNAHNMH
 	{
 	public:

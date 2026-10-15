@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimGarbageBinFinishMoveAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimGarbageBinFinishMoveAction_TypeDefinitionIndex = 18692;
+
 	class FiveDimGarbageBinFinishMoveAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

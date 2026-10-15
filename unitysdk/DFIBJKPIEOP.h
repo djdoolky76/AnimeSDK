@@ -5,6 +5,8 @@ class IIAJFCNCMEB;
 
 #define DFIBJKPIEOP_CTOR_OFFSET UNITYSDK_OFFSET(0xE82DFF0)
 
+inline static constexpr unsigned int DFIBJKPIEOP_TypeDefinitionIndex = 80549;
+
 	class DFIBJKPIEOP : public ::System::Object
 	{
 	public:

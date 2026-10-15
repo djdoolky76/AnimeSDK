@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client::PetMarble
 {
+	inline static constexpr unsigned int PetMarbleTeamSelection_TypeDefinitionIndex = 74735;
+
 	class PetMarbleTeamSelection : public ::RPG::Client::ActivityMarble::MarbleTeamSelection
 	{
 	public:

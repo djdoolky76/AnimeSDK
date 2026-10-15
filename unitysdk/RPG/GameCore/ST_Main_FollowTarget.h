@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_FollowTarget_TypeDefinitionIndex = 20122;
+
 	class ST_Main_FollowTarget : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

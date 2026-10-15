@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TeamMemberExpansionFightFormationConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamMemberExpansionFightFormationConfig_TypeDefinitionIndex = 16579;
+
 	class TeamMemberExpansionFightFormationConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

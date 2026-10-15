@@ -4,6 +4,8 @@
 
 #define GAANBJEPKKG_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0x15934050)
 
+inline static constexpr unsigned int GAANBJEPKKG_TypeDefinitionIndex = 49474;
+
 	class GAANBJEPKKG : public ::System::Object
 	{
 	public:

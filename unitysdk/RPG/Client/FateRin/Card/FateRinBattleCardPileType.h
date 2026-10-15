@@ -3,6 +3,8 @@
 
 namespace RPG::Client::FateRin::Card
 {
+	inline static constexpr unsigned int FateRinBattleCardPileType_TypeDefinitionIndex = 81118;
+
 	enum class FateRinBattleCardPileType : ::System::Int32
 	{
 		None = 0,

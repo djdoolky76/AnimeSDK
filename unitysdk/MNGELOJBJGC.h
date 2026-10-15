@@ -33,6 +33,8 @@ namespace System { class String; }
 #define MNGELOJBJGC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA989D0)
 #define MNGELOJBJGC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA98A30)
 
+inline static constexpr unsigned int MNGELOJBJGC_TypeDefinitionIndex = 26659;
+
 	class MNGELOJBJGC : public ::System::Object
 	{
 	public:

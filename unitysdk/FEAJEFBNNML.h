@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FEAJEFBNNML_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CDDF270)
 #define FEAJEFBNNML_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CDDEB90)
 
+inline static constexpr unsigned int FEAJEFBNNML_TypeDefinitionIndex = 14117;
+
 	class FEAJEFBNNML : public ::System::Object
 	{
 	public:

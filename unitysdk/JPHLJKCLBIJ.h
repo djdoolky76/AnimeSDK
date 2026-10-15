@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 #define JPHLJKCLBIJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB2C0BF0)
 
+inline static constexpr unsigned int JPHLJKCLBIJ_TypeDefinitionIndex = 62197;
+
 	class JPHLJKCLBIJ : public ::System::Object
 	{
 	public:

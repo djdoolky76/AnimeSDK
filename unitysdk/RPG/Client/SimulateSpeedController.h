@@ -24,6 +24,8 @@ namespace RPG::GameCore { class TimeScaleStack; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SimulateSpeedController_TypeDefinitionIndex = 73344;
+
 	class SimulateSpeedController : public ::System::Object
 	{
 	public:

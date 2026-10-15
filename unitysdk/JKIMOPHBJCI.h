@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define JKIMOPHBJCI_MPBPPONPAHF_OFFSET UNITYSDK_OFFSET(0xB21E220)
 #define JKIMOPHBJCI_OFANBDMFMED_OFFSET UNITYSDK_OFFSET(0xB21E4A0)
 
+inline static constexpr unsigned int JKIMOPHBJCI_TypeDefinitionIndex = 80731;
+
 	class JKIMOPHBJCI : public ::System::Object
 	{
 	public:

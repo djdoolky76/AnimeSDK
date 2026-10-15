@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetMechanismBarVisible; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetMechanismBarVisible_TypeDefinitionIndex = 20524;
+
 	class SetMechanismBarVisible : public ::RPG::GameCore::TaskConfig
 	{
 	public:

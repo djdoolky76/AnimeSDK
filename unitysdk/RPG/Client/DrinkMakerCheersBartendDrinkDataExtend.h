@@ -30,6 +30,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DrinkMakerCheersBartendDrinkDataExtend_TypeDefinitionIndex = 63615;
+
 	class DrinkMakerCheersBartendDrinkDataExtend : public ::System::Object
 	{
 	public:

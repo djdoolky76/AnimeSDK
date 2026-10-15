@@ -3,6 +3,8 @@
 
 namespace BansheeGz::BGSpline::Components
 {
+	inline static constexpr unsigned int BGCcSweep2D_ProfileModeEnum_TypeDefinitionIndex = 36051;
+
 	enum class BGCcSweep2D_ProfileModeEnum : ::System::Int32
 	{
 		Line = 0,

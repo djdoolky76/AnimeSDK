@@ -9,6 +9,8 @@ namespace System { class Action; }
 #define OEOOIGIJIMG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBE39080)
 #define OEOOIGIJIMG_DOAOGHIIPAC_OFFSET UNITYSDK_OFFSET(0xBE38FA0)
 
+inline static constexpr unsigned int OEOOIGIJIMG_TypeDefinitionIndex = 49828;
+
 	class OEOOIGIJIMG : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int TelemetryDelegate_StartDataUploadDelegate_TypeDefinitionIndex = 7704;
+
 	class TelemetryDelegate_StartDataUploadDelegate : public ::System::MulticastDelegate
 	{
 	public:

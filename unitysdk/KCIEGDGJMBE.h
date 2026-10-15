@@ -35,6 +35,8 @@ namespace System { class String; }
 #define KCIEGDGJMBE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7F7640)
 #define KCIEGDGJMBE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7F76A0)
 
+inline static constexpr unsigned int KCIEGDGJMBE_TypeDefinitionIndex = 25559;
+
 	class KCIEGDGJMBE : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MessageContentHyperlinkBlock_TypeDefinitionIndex = 63240;
+
 	class MessageContentHyperlinkBlock : public ::RPG::Client::MessageContentBlock
 	{
 	public:

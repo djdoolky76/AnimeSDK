@@ -9,6 +9,8 @@ namespace System { class Exception; }
 #define AFHJBLKBLGH__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xCF0C820)
 #define AFHJBLKBLGH__ONTASKBEGIN_B__1_1_OFFSET UNITYSDK_OFFSET(0xCF0C830)
 
+inline static constexpr unsigned int AFHJBLKBLGH_TypeDefinitionIndex = 52799;
+
 	class AFHJBLKBLGH
 	{
 	public:

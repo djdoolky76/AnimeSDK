@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LGDNAFHDLPE_FILTER_OFFSET UNITYSDK_OFFSET(0x1C90DFA0)
 #define LGDNAFHDLPE_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C90DE80)
 
+inline static constexpr unsigned int LGDNAFHDLPE_TypeDefinitionIndex = 42212;
+
 	class LGDNAFHDLPE
 	{
 	public:

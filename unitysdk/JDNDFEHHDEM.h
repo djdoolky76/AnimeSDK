@@ -12,6 +12,8 @@ namespace UnityEngine::UI { class SmoothMask; }
 #define JDNDFEHHDEM_PHIMKHKMNOH_OFFSET UNITYSDK_OFFSET(0x165D9600)
 #define JDNDFEHHDEM__ONBIND_OFFSET UNITYSDK_OFFSET(0x165D9440)
 
+inline static constexpr unsigned int JDNDFEHHDEM_TypeDefinitionIndex = 72275;
+
 	class JDNDFEHHDEM : public ::FMPCODLIOLG
 	{
 	public:

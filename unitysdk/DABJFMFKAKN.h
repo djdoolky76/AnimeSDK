@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 #define DABJFMFKAKN_DEJEIKJJHCE_OFFSET UNITYSDK_OFFSET(0xDFBAE60)
 #define DABJFMFKAKN_PEGNJCBFPFB_OFFSET UNITYSDK_OFFSET(0xDFBAEB0)
 
+inline static constexpr unsigned int DABJFMFKAKN_TypeDefinitionIndex = 71384;
+
 	class DABJFMFKAKN : public ::FMPCODLIOLG
 	{
 	public:

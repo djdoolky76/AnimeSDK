@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int EventDispatcher_DispatchContext_TypeDefinitionIndex = 5874;
+
 	struct alignas(8) EventDispatcher_DispatchContext
 	{
 		::System::UInt32 m_GateCount; // 0x10

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define BPDKJKJGECM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E040E20)
 #define BPDKJKJGECM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E040E80)
 
+inline static constexpr unsigned int BPDKJKJGECM_TypeDefinitionIndex = 28600;
+
 	class BPDKJKJGECM : public ::System::Object
 	{
 	public:

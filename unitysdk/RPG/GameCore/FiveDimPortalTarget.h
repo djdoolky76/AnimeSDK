@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimPortalTarget_TypeDefinitionIndex = 18572;
+
 	class FiveDimPortalTarget : public ::RPG::GameCore::JsonConfig
 	{
 	public:

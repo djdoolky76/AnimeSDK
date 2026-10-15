@@ -3,6 +3,8 @@
 
 namespace IFix
 {
+	inline static constexpr unsigned int IDMAP3_TypeDefinitionIndex = 82338;
+
 	enum class IDMAP3 : ::System::Int32
 	{
 		RPG_Client_FantasticStoryActivityModule_get_LastBattleScore0 = 116652,

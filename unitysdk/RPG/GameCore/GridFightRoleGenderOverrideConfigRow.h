@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightRoleGenderOverrideConfigRow_TypeDefinitionIndex = 13558;
+
 	class GridFightRoleGenderOverrideConfigRow : public ::System::Object
 	{
 	public:

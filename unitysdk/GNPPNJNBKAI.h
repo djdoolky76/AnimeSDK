@@ -10,6 +10,8 @@ class ODGPPIHLOFF;
 #define GNPPNJNBKAI_CKMGEEOAGAD_OFFSET UNITYSDK_OFFSET(0x15B1FFC0)
 #define GNPPNJNBKAI_CTOR_OFFSET UNITYSDK_OFFSET(0x15B1FF30)
 
+inline static constexpr unsigned int GNPPNJNBKAI_TypeDefinitionIndex = 49455;
+
 	class GNPPNJNBKAI : public ::AEKEIBNBMDJ
 	{
 	public:

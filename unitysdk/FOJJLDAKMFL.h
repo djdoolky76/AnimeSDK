@@ -32,6 +32,8 @@ namespace System { class String; }
 #define FOJJLDAKMFL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3FD6F0)
 #define FOJJLDAKMFL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3FD750)
 
+inline static constexpr unsigned int FOJJLDAKMFL_TypeDefinitionIndex = 33762;
+
 	class FOJJLDAKMFL : public ::System::Object
 	{
 	public:

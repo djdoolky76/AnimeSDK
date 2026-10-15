@@ -16,6 +16,8 @@ namespace UnityEngine::Formats::Alembic::Util { class AlembicRecorder_MeshBuffer
 
 namespace UnityEngine::Formats::Alembic::Util
 {
+	inline static constexpr unsigned int AlembicRecorder_ClothBuffer_TypeDefinitionIndex = 45766;
+
 	class AlembicRecorder_ClothBuffer : public ::System::Object
 	{
 	public:

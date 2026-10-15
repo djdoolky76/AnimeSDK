@@ -5,6 +5,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayPuzzleBoard_RoadTimeline_TypeDefinitionIndex = 68747;
+
 	struct alignas(8) WolfBroGunPlayPuzzleBoard_RoadTimeline
 	{
 		::RPG::Client::WolfBroGunPlayRoadMapConfig* config; // 0x10

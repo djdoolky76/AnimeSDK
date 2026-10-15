@@ -47,6 +47,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EvolveBuildUtils_TypeDefinitionIndex = 63812;
+
 	class EvolveBuildUtils : public ::System::Object
 	{
 	public:

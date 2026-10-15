@@ -32,6 +32,8 @@ namespace System { class String; }
 #define GIJBCJPELBG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E49B2E0)
 #define GIJBCJPELBG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E49B340)
 
+inline static constexpr unsigned int GIJBCJPELBG_TypeDefinitionIndex = 28677;
+
 	class GIJBCJPELBG : public ::System::Object
 	{
 	public:

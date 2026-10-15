@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Color32_TypeDefinitionIndex = 4219;
+
 	struct alignas(4) Color32
 	{
 		::System::Int32 rgba; // 0x10

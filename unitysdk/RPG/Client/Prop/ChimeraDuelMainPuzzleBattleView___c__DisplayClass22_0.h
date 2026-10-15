@@ -8,6 +8,8 @@ namespace RPG::Client::Prop { class ChimeraDuelBattlePrefabConfig_Master; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleBattleView___c__DisplayClass22_0_TypeDefinitionIndex = 78373;
+
 	class ChimeraDuelMainPuzzleBattleView___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:

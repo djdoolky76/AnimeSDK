@@ -7,6 +7,8 @@ class DNIDONCOAEE;
 #define HIPHOONFAAO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15D011B0)
 #define HIPHOONFAAO_CTOR_OFFSET UNITYSDK_OFFSET(0x15D01240)
 
+inline static constexpr unsigned int HIPHOONFAAO_TypeDefinitionIndex = 81725;
+
 	class HIPHOONFAAO : public ::System::Object
 	{
 	public:

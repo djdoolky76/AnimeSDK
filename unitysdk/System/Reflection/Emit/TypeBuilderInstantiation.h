@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace System::Reflection::Emit
 {
+	inline static constexpr unsigned int TypeBuilderInstantiation_TypeDefinitionIndex = 660;
+
 	class TypeBuilderInstantiation : public ::System::Reflection::TypeInfo
 	{
 	public:

@@ -12,6 +12,8 @@
 #define ADLNNPBDDIH_SET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0xB145640)
 #define ADLNNPBDDIH_SET_ISSELF_OFFSET UNITYSDK_OFFSET(0xB145600)
 
+inline static constexpr unsigned int ADLNNPBDDIH_TypeDefinitionIndex = 62916;
+
 	class ADLNNPBDDIH : public ::System::Object
 	{
 	public:

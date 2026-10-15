@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AITakenDamageStatisticType_TypeDefinitionIndex = 15577;
+
 	enum class AITakenDamageStatisticType : ::System::Int32
 	{
 		SinceOwnerLastAction = 0,

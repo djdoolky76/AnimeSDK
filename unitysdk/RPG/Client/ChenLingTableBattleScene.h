@@ -33,6 +33,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChenLingTableBattleScene_TypeDefinitionIndex = 72468;
+
 	class ChenLingTableBattleScene : public ::RPG::Client::ChenLingTableScene
 	{
 	public:

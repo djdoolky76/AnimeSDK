@@ -9,6 +9,8 @@ namespace RPG::Client { class AnnounceData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OperationModule___c__DisplayClass42_0_TypeDefinitionIndex = 66421;
+
 	class OperationModule___c__DisplayClass42_0 : public ::System::Object
 	{
 	public:

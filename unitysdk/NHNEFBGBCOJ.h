@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int NHNEFBGBCOJ_TypeDefinitionIndex = 43328;
+
 	struct alignas(4) NHNEFBGBCOJ
 	{
 		::System::Boolean IGDIEBODAAH; // 0x10

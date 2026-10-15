@@ -5,6 +5,8 @@
 
 namespace UnityEngine::EventSystems
 {
+	inline static constexpr unsigned int EventTrigger_TriggerEvent_TypeDefinitionIndex = 6931;
+
 	class EventTrigger_TriggerEvent
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceSelectCoun
 #define MCMJBKACPDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7425C0)
 #define MCMJBKACPDA_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C748900)
 
+inline static constexpr unsigned int MCMJBKACPDA_TypeDefinitionIndex = 36220;
+
 	class MCMJBKACPDA : public ::PNECKGBKMEL
 	{
 	public:

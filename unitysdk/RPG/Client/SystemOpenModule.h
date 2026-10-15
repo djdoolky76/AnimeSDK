@@ -86,6 +86,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SystemOpenModule_TypeDefinitionIndex = 68020;
+
 	class SystemOpenModule : public ::RPG::Client::BaseModule
 	{
 	public:

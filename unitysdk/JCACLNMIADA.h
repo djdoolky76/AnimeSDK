@@ -10,6 +10,8 @@ namespace System { class String; }
 #define JCACLNMIADA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x16577980)
 #define JCACLNMIADA_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x16577990)
 
+inline static constexpr unsigned int JCACLNMIADA_TypeDefinitionIndex = 56114;
+
 	class JCACLNMIADA : public ::DBGDNLLDPFI
 	{
 	public:

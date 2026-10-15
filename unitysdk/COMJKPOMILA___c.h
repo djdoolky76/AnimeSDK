@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define COMJKPOMILA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1374D0)
 #define COMJKPOMILA___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E1374E0)
 
+inline static constexpr unsigned int COMJKPOMILA___c_TypeDefinitionIndex = 28507;
+
 	class COMJKPOMILA___c : public ::System::Object
 	{
 	public:

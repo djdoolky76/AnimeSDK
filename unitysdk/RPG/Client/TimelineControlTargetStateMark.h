@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimelineControlTargetStateMark_TypeDefinitionIndex = 60853;
+
 	class TimelineControlTargetStateMark : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPGTools::Timeline { class ConvinceDoubleScreenShakeNameClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ConvinceDoubleScreenShakeNameBehaviour_TypeDefinitionIndex = 48040;
+
 	class ConvinceDoubleScreenShakeNameBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -10,6 +10,8 @@
 
 namespace Newtonsoft::Json::Linq
 {
+	inline static constexpr unsigned int JsonLoadSettings_TypeDefinitionIndex = 9754;
+
 	class JsonLoadSettings : public ::System::Object
 	{
 	public:

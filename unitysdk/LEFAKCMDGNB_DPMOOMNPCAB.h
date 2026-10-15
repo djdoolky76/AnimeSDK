@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int LEFAKCMDGNB_DPMOOMNPCAB_TypeDefinitionIndex = 33187;
+
 	enum class LEFAKCMDGNB_DPMOOMNPCAB : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

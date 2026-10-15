@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MarbleDamageTextInfo_TypeDefinitionIndex = 65838;
+
 	class MarbleDamageTextInfo : public ::System::Object
 	{
 	public:

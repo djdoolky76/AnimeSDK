@@ -7,6 +7,8 @@
 #define GPJJHGJOGOP_PPDAGPPKEJD_2_OFFSET UNITYSDK_OFFSET(0x1DD61550)
 #define GPJJHGJOGOP_PPDAGPPKEJD_OFFSET UNITYSDK_OFFSET(0x1DD614C0)
 
+inline static constexpr unsigned int GPJJHGJOGOP_TypeDefinitionIndex = 6306;
+
 	class GPJJHGJOGOP : public ::System::Object
 	{
 	public:

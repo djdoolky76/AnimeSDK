@@ -8,6 +8,8 @@
 
 namespace Entitas::CodeGeneration::Attributes
 {
+	inline static constexpr unsigned int EventAttribute_TypeDefinitionIndex = 10082;
+
 	class EventAttribute : public ::System::Attribute
 	{
 	public:

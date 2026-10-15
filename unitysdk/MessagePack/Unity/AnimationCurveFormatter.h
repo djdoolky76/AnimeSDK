@@ -12,6 +12,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MessagePack::Unity
 {
+	inline static constexpr unsigned int AnimationCurveFormatter_TypeDefinitionIndex = 10128;
+
 	class AnimationCurveFormatter : public ::System::Object
 	{
 	public:

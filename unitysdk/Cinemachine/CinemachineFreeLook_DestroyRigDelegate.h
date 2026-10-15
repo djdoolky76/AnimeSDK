@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineFreeLook_DestroyRigDelegate_TypeDefinitionIndex = 39741;
+
 	class CinemachineFreeLook_DestroyRigDelegate : public ::System::MulticastDelegate
 	{
 	public:

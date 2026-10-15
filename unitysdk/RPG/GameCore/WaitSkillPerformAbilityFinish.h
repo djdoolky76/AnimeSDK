@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitSkillPerformAbilityFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitSkillPerformAbilityFinish_TypeDefinitionIndex = 22688;
+
 	class WaitSkillPerformAbilityFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

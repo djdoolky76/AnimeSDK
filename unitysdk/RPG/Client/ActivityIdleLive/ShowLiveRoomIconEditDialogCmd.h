@@ -7,6 +7,8 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int ShowLiveRoomIconEditDialogCmd_TypeDefinitionIndex = 75364;
+
 	class ShowLiveRoomIconEditDialogCmd : public ::MLKDDLHNNHH
 	{
 	public:

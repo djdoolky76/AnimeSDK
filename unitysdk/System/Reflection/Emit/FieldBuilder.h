@@ -24,6 +24,8 @@ namespace System::Reflection { class Binder; }
 
 namespace System::Reflection::Emit
 {
+	inline static constexpr unsigned int FieldBuilder_TypeDefinitionIndex = 645;
+
 	class FieldBuilder : public ::System::Reflection::FieldInfo
 	{
 	public:

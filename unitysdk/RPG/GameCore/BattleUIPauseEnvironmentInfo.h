@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleUIPauseEnvironmentInfo_TypeDefinitionIndex = 55357;
+
 	class BattleUIPauseEnvironmentInfo : public ::System::Object
 	{
 	public:

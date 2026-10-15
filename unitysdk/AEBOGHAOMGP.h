@@ -13,6 +13,8 @@ namespace System::Reflection { class MemberInfo; }
 #define AEBOGHAOMGP_OEBACHHOCII_OFFSET UNITYSDK_OFFSET(0xB14B370)
 #define AEBOGHAOMGP_OEPCGHPGFOK_OFFSET UNITYSDK_OFFSET(0xB14B210)
 
+inline static constexpr unsigned int AEBOGHAOMGP_TypeDefinitionIndex = 67238;
+
 	class AEBOGHAOMGP : public ::System::Object
 	{
 	public:

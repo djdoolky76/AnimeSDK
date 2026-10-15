@@ -30,6 +30,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeManager_TypeDefinitionIndex = 68310;
+
 	class TimeManager : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define FFDPILCDNLE_CTOR_OFFSET UNITYSDK_OFFSET(0x15733150)
 
+inline static constexpr unsigned int FFDPILCDNLE_TypeDefinitionIndex = 67786;
+
 	class FFDPILCDNLE : public ::System::Object
 	{
 	public:

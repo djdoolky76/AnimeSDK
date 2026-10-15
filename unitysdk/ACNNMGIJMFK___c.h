@@ -15,6 +15,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define ACNNMGIJMFK___C___FILLCONFLICTSTAGEINDICESTO_B__12_0_OFFSET UNITYSDK_OFFSET(0xB12A1A0)
 #define ACNNMGIJMFK___C___FILLCONFLICTSTAGEINDICESTO_B__12_2_OFFSET UNITYSDK_OFFSET(0xB12A1B0)
 
+inline static constexpr unsigned int ACNNMGIJMFK___c_TypeDefinitionIndex = 81510;
+
 	class ACNNMGIJMFK___c : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsTurnOwnerEntity_TypeDefinitionIndex = 22984;
+
 	class ByIsTurnOwnerEntity : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

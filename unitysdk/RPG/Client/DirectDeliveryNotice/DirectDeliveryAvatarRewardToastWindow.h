@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class Button; }
 
 namespace RPG::Client::DirectDeliveryNotice
 {
+	inline static constexpr unsigned int DirectDeliveryAvatarRewardToastWindow_TypeDefinitionIndex = 81239;
+
 	class DirectDeliveryAvatarRewardToastWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:

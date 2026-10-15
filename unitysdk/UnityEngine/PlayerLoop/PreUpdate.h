@@ -3,6 +3,8 @@
 
 namespace UnityEngine::PlayerLoop
 {
+	inline static constexpr unsigned int PreUpdate_TypeDefinitionIndex = 4597;
+
 	struct alignas(4) PreUpdate
 	{
 	};

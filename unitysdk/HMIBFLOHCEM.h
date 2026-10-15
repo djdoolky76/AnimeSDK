@@ -4,6 +4,8 @@
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 namespace UnityEngine::Events { class UnityAction; }
 
+inline static constexpr unsigned int HMIBFLOHCEM_TypeDefinitionIndex = 49170;
+
 	class HMIBFLOHCEM : public ::System::Object
 	{
 	public:

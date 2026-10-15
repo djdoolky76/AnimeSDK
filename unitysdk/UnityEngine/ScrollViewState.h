@@ -8,6 +8,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ScrollViewState_TypeDefinitionIndex = 5195;
+
 	class ScrollViewState : public ::System::Object
 	{
 	public:

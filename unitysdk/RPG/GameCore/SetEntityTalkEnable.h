@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetEntityTalkEnable_TypeDefinitionIndex = 20764;
+
 	class SetEntityTalkEnable : public ::RPG::GameCore::TaskConfig
 	{
 	public:

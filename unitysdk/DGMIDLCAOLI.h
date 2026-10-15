@@ -6,6 +6,8 @@ namespace RPG::GameCore { class UnlockMainStreamingSource; }
 #define DGMIDLCAOLI_CTOR_OFFSET UNITYSDK_OFFSET(0xE854F20)
 #define DGMIDLCAOLI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE854F50)
 
+inline static constexpr unsigned int DGMIDLCAOLI_TypeDefinitionIndex = 58843;
+
 	class DGMIDLCAOLI
 	{
 	public:

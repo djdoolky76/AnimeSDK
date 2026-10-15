@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define MBONAPEKAKO_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C747CD0)
 #define MBONAPEKAKO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C747C80)
 
+inline static constexpr unsigned int MBONAPEKAKO_TypeDefinitionIndex = 36233;
+
 	class MBONAPEKAKO : public ::System::MulticastDelegate
 	{
 	public:

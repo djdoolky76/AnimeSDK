@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define ECNIGIDPNGJ_LACLJCPCOEI_OFFSET UNITYSDK_OFFSET(0x12D14C10)
 #define ECNIGIDPNGJ_OLCJBIANECH_OFFSET UNITYSDK_OFFSET(0x12D14B30)
 
+inline static constexpr unsigned int ECNIGIDPNGJ_TypeDefinitionIndex = 68277;
+
 	class ECNIGIDPNGJ : public ::RPG::Client::BaseModule
 	{
 	public:

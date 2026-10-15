@@ -6,6 +6,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriFsBinder_ContentsFileInfo_TypeDefinitionIndex = 40104;
+
 	struct alignas(8) CriFsBinder_ContentsFileInfo
 	{
 		::System::String* directory; // 0x10

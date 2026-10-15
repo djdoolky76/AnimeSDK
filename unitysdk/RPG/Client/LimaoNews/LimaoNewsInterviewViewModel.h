@@ -30,6 +30,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsInterviewViewModel_TypeDefinitionIndex = 80463;
+
 	class LimaoNewsInterviewViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

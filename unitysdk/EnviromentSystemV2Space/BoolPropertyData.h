@@ -7,6 +7,8 @@ class GGJFAFONDHN;
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int BoolPropertyData_TypeDefinitionIndex = 49386;
+
 	class BoolPropertyData
 	{
 	public:

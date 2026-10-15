@@ -8,6 +8,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExDebug_TypeDefinitionIndex = 40175;
+
 	class CriAtomExDebug : public ::System::Object
 	{
 	public:

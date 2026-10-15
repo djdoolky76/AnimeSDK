@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace Cinemachine::Timeline
 {
+	inline static constexpr unsigned int CinemachineTrack_TypeDefinitionIndex = 39883;
+
 	class CinemachineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

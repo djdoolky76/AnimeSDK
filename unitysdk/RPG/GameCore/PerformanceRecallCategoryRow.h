@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceRecallCategoryRow_TypeDefinitionIndex = 14337;
+
 	class PerformanceRecallCategoryRow : public ::System::Object
 	{
 	public:

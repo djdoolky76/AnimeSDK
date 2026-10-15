@@ -25,6 +25,8 @@ namespace System { class String; }
 #define DEBAGFJEEIA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E18EF50)
 #define DEBAGFJEEIA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E18EFB0)
 
+inline static constexpr unsigned int DEBAGFJEEIA_TypeDefinitionIndex = 30182;
+
 	class DEBAGFJEEIA : public ::System::Object
 	{
 	public:

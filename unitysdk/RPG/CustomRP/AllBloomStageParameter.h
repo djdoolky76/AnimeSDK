@@ -5,6 +5,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int AllBloomStageParameter_TypeDefinitionIndex = 37789;
+
 	class AllBloomStageParameter
 	{
 	public:

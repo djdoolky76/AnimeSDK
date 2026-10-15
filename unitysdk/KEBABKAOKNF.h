@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KEBABKAOKNF_CTOR_OFFSET UNITYSDK_OFFSET(0xB36FCE0)
 #define KEBABKAOKNF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB36FD10)
 
+inline static constexpr unsigned int KEBABKAOKNF_TypeDefinitionIndex = 54471;
+
 	class KEBABKAOKNF
 	{
 	public:

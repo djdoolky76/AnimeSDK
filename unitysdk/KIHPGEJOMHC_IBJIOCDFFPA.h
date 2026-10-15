@@ -9,6 +9,8 @@
 #define KIHPGEJOMHC_IBJIOCDFFPA_GJBEEFPDFFK_OFFSET UNITYSDK_OFFSET(0x14DF0)
 #define KIHPGEJOMHC_IBJIOCDFFPA_KPALKHLMMPL_OFFSET UNITYSDK_OFFSET(0x14D70)
 
+inline static constexpr unsigned int KIHPGEJOMHC_IBJIOCDFFPA_TypeDefinitionIndex = 53090;
+
 	struct alignas(4) KIHPGEJOMHC_IBJIOCDFFPA
 	{
 		::System::Single _Radius_k__BackingField; // 0x10

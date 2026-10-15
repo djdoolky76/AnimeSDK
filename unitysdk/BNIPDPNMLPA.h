@@ -8,6 +8,8 @@
 #define BNIPDPNMLPA_SET_CLOSEWINDOW_OFFSET UNITYSDK_OFFSET(0xBDDB890)
 #define BNIPDPNMLPA_SET_SWITCHTAB_OFFSET UNITYSDK_OFFSET(0xBDDB8B0)
 
+inline static constexpr unsigned int BNIPDPNMLPA_TypeDefinitionIndex = 80281;
+
 	class BNIPDPNMLPA : public ::System::Object
 	{
 	public:

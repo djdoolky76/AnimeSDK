@@ -13,6 +13,8 @@ namespace ZXing::Common { class BitMatrix; }
 
 namespace ZXing::Aztec::Internal
 {
+	inline static constexpr unsigned int AztecCode_TypeDefinitionIndex = 7003;
+
 	class AztecCode : public ::System::Object
 	{
 	public:

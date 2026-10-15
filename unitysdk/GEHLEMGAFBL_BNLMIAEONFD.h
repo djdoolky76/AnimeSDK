@@ -11,6 +11,8 @@ namespace System { class String; }
 #define GEHLEMGAFBL_BNLMIAEONFD_CTOR_OFFSET UNITYSDK_OFFSET(0x159D7780)
 #define GEHLEMGAFBL_BNLMIAEONFD_MNBBCAMDGDI_OFFSET UNITYSDK_OFFSET(0x159D7670)
 
+inline static constexpr unsigned int GEHLEMGAFBL_BNLMIAEONFD_TypeDefinitionIndex = 74384;
+
 	class GEHLEMGAFBL_BNLMIAEONFD : public ::System::Object
 	{
 	public:

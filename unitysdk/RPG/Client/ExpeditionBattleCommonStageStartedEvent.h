@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ExpeditionBattleCommonStageStartedEvent_TypeDefinitionIndex = 63870;
+
 	class ExpeditionBattleCommonStageStartedEvent : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System::Threading { class Thread; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ThreadPoolQueue_TypeDefinitionIndex = 46489;
+
 	class ThreadPoolQueue : public ::System::Object
 	{
 	public:

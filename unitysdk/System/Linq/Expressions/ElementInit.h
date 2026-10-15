@@ -12,6 +12,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int ElementInit_TypeDefinitionIndex = 3216;
+
 	class ElementInit : public ::System::Object
 	{
 	public:

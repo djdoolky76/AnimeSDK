@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define ICFEIEJDMIB_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x3C49F70)
 #define ICFEIEJDMIB_MBABPIHGAJN_OFFSET UNITYSDK_OFFSET(0x3C49F10)
 
+inline static constexpr unsigned int ICFEIEJDMIB_TypeDefinitionIndex = 6442;
+
 	struct alignas(8) ICFEIEJDMIB
 	{
 		::DGEPOBDMLDJ CNAEHKPLENB; // 0x10

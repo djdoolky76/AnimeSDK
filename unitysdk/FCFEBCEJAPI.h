@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FCFEBCEJAPI_INFHHPFKMMG_OFFSET UNITYSDK_OFFSET(0x156B85E0)
 #define FCFEBCEJAPI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156B82A0)
 
+inline static constexpr unsigned int FCFEBCEJAPI_TypeDefinitionIndex = 55161;
+
 	class FCFEBCEJAPI : public ::JODABDCOPOP
 	{
 	public:

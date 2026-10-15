@@ -3,6 +3,8 @@
 
 namespace Proto
 {
+	inline static constexpr unsigned int SceneEntityInfo_EntityOneofCase_TypeDefinitionIndex = 33940;
+
 	enum class SceneEntityInfo_EntityOneofCase : ::System::Int32
 	{
 		None = 0,

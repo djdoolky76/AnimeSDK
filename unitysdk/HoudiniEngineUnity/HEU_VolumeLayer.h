@@ -13,6 +13,8 @@ namespace UnityEngine { class TerrainLayer; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_VolumeLayer_TypeDefinitionIndex = 40770;
+
 	class HEU_VolumeLayer : public ::System::Object
 	{
 	public:

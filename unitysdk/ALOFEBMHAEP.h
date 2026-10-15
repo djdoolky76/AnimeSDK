@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define ALOFEBMHAEP_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x15571350)
 #define ALOFEBMHAEP_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x15571300)
 
+inline static constexpr unsigned int ALOFEBMHAEP_TypeDefinitionIndex = 56668;
+
 	class ALOFEBMHAEP : public ::System::Object
 	{
 	public:

@@ -43,6 +43,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BJIAFAFAFNE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB79E320)
 #define BJIAFAFAFNE__TRYASYNCSHOWUIFROMENTRANCE_B__28_0_OFFSET UNITYSDK_OFFSET(0xB7A0720)
 
+inline static constexpr unsigned int BJIAFAFAFNE_TypeDefinitionIndex = 76455;
+
 	class BJIAFAFAFNE : public ::System::Object
 	{
 	public:

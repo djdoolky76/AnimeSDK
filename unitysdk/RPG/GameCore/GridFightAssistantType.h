@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightAssistantType_TypeDefinitionIndex = 13432;
+
 	enum class GridFightAssistantType : ::System::Int32
 	{
 		NoBuyExpHint = 0,

@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OJGHGPNOOFL_ONCNALEHHKK_OFFSET UNITYSDK_OFFSET(0xBEB6D30)
 #define OJGHGPNOOFL_PEGNJCBFPFB_OFFSET UNITYSDK_OFFSET(0xBEB6F40)
 
+inline static constexpr unsigned int OJGHGPNOOFL_TypeDefinitionIndex = 71235;
+
 	class OJGHGPNOOFL : public ::FMPCODLIOLG
 	{
 	public:

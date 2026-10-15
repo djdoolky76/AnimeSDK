@@ -10,6 +10,8 @@ namespace UnityEngine::UI { class Button; }
 #define OIKHKCKPAID_VIEWPREFABPATH_OFFSET UNITYSDK_OFFSET(0xBEA0190)
 #define OIKHKCKPAID__CUSTOMBINDVIEW_OFFSET UNITYSDK_OFFSET(0xBEA0200)
 
+inline static constexpr unsigned int OIKHKCKPAID_TypeDefinitionIndex = 71605;
+
 	class OIKHKCKPAID : public ::RPG::Client::UIController
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueWorkbenchFuncLevelUpScepterConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueWorkbenchFuncLevelUpScepterConfig_TypeDefinitionIndex = 18034;
+
 	class RogueWorkbenchFuncLevelUpScepterConfig : public ::RPG::GameCore::RogueWorkbenchFuncBaseConfig
 	{
 	public:

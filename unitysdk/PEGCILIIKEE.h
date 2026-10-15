@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define PEGCILIIKEE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2D54D0)
 #define PEGCILIIKEE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2D5490)
 
+inline static constexpr unsigned int PEGCILIIKEE_TypeDefinitionIndex = 22784;
+
 	class PEGCILIIKEE : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -6,6 +6,8 @@
 #define KPFNABPGJOM_CTOR_OFFSET UNITYSDK_OFFSET(0xB5B70D0)
 #define KPFNABPGJOM_GET_TARGETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB5B70E0)
 
+inline static constexpr unsigned int KPFNABPGJOM_TypeDefinitionIndex = 56244;
+
 	class KPFNABPGJOM : public ::System::Attribute
 	{
 	public:

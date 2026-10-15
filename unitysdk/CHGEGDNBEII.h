@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CHGEGDNBEII_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF48BB0)
 #define CHGEGDNBEII_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCF48E80)
 
+inline static constexpr unsigned int CHGEGDNBEII_TypeDefinitionIndex = 52218;
+
 	class CHGEGDNBEII
 	{
 	public:

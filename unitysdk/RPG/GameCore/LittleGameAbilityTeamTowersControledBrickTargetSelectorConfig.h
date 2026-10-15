@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameAbilityTeamTowersControledBrickTargetS
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityTeamTowersControledBrickTargetSelectorConfig_TypeDefinitionIndex = 21417;
+
 	class LittleGameAbilityTeamTowersControledBrickTargetSelectorConfig : public ::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig
 	{
 	public:

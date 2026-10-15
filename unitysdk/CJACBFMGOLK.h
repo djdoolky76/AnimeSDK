@@ -25,6 +25,8 @@ namespace System { class String; }
 #define CJACBFMGOLK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0D83F0)
 #define CJACBFMGOLK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0D8450)
 
+inline static constexpr unsigned int CJACBFMGOLK_TypeDefinitionIndex = 33529;
+
 	class CJACBFMGOLK : public ::System::Object
 	{
 	public:

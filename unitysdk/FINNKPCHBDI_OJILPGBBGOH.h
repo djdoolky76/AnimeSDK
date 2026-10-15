@@ -4,6 +4,8 @@
 
 #define FINNKPCHBDI_OJILPGBBGOH_CCTOR_OFFSET UNITYSDK_OFFSET(0x157B0030)
 
+inline static constexpr unsigned int FINNKPCHBDI_OJILPGBBGOH_TypeDefinitionIndex = 70398;
+
 	class FINNKPCHBDI_OJILPGBBGOH : public ::System::Object
 	{
 	public:

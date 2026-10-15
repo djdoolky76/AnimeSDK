@@ -16,6 +16,8 @@ namespace System { class String; }
 #define CKBIKDBNKEO_SET_TRID_OFFSET UNITYSDK_OFFSET(0xD753CC0)
 #define CKBIKDBNKEO_SET_VOICEID_OFFSET UNITYSDK_OFFSET(0xD753D40)
 
+inline static constexpr unsigned int CKBIKDBNKEO_TypeDefinitionIndex = 81722;
+
 	class CKBIKDBNKEO : public ::System::Object
 	{
 	public:

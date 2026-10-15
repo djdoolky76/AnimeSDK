@@ -8,6 +8,8 @@ class LAAMIAJFOMC;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightStage___c__DisplayClass52_0_TypeDefinitionIndex = 65246;
+
 	class GridFightStage___c__DisplayClass52_0 : public ::System::Object
 	{
 	public:

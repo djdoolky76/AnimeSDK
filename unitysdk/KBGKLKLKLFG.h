@@ -33,6 +33,8 @@ namespace System { class String; }
 #define KBGKLKLKLFG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7EF2E0)
 #define KBGKLKLKLFG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7EF340)
 
+inline static constexpr unsigned int KBGKLKLKLFG_TypeDefinitionIndex = 25901;
+
 	class KBGKLKLKLFG : public ::System::Object
 	{
 	public:

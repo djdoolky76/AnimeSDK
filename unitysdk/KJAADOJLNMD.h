@@ -24,6 +24,8 @@ namespace UnityEngine::UI { class Text; }
 #define KJAADOJLNMD_SET_INDEX_OFFSET UNITYSDK_OFFSET(0xB439EE0)
 #define KJAADOJLNMD__ONBIND_OFFSET UNITYSDK_OFFSET(0xB439A90)
 
+inline static constexpr unsigned int KJAADOJLNMD_TypeDefinitionIndex = 72101;
+
 	class KJAADOJLNMD : public ::FMPCODLIOLG
 	{
 	public:

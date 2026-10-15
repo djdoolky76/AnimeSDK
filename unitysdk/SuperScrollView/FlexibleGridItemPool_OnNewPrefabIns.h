@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int FlexibleGridItemPool_OnNewPrefabIns_TypeDefinitionIndex = 47641;
+
 	class FlexibleGridItemPool_OnNewPrefabIns : public ::System::MulticastDelegate
 	{
 	public:

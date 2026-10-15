@@ -17,6 +17,8 @@ class APMIBDHBPBI;
 #define APMIBDHBPBI_NJAGIMPMMBM_OFFSET UNITYSDK_OFFSET(0x1C8ACEA0)
 #define APMIBDHBPBI_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1C8ACF50)
 
+inline static constexpr unsigned int APMIBDHBPBI_TypeDefinitionIndex = 43760;
+
 	class APMIBDHBPBI : public ::System::Object
 	{
 	public:

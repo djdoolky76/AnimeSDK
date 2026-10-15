@@ -9,6 +9,8 @@ namespace RPG::GameCore { class BaseModifierInstance_ModifierEffectData; }
 #define CDEONHDIGJG___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC765430)
 #define CDEONHDIGJG___C__DISPLAYCLASS7_0__RELOADEFFECTS_B__0_OFFSET UNITYSDK_OFFSET(0xC766300)
 
+inline static constexpr unsigned int CDEONHDIGJG___c__DisplayClass7_0_TypeDefinitionIndex = 53745;
+
 	class CDEONHDIGJG___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
+inline static constexpr unsigned int DKKIKDPFHFN___c_TypeDefinitionIndex = 50009;
+
 	class DKKIKDPFHFN___c : public ::System::Object
 	{
 	public:

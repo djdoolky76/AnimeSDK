@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleByCompareSkillRound; }
 #define AJLCJIGCJGG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88FF30)
 #define AJLCJIGCJGG_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1C88FF50)
 
+inline static constexpr unsigned int AJLCJIGCJGG_TypeDefinitionIndex = 43149;
+
 	class AJLCJIGCJGG : public ::LHJPMDPJPEC
 	{
 	public:

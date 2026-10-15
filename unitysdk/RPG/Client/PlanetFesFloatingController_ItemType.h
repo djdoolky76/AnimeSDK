@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesFloatingController_ItemType_TypeDefinitionIndex = 66487;
+
 	enum class PlanetFesFloatingController_ItemType : ::System::Int32
 	{
 		None = 0,

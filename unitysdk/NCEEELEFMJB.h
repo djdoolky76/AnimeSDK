@@ -19,6 +19,8 @@ namespace System { class String; }
 #define NCEEELEFMJB_LKOOPEDINED_OFFSET UNITYSDK_OFFSET(0xBB09C00)
 #define NCEEELEFMJB_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0xBB09E60)
 
+inline static constexpr unsigned int NCEEELEFMJB_TypeDefinitionIndex = 66369;
+
 	class NCEEELEFMJB : public ::System::Object
 	{
 	public:

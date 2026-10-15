@@ -9,6 +9,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int LensDistortionParameter_TypeDefinitionIndex = 48576;
+
 	struct alignas(8) LensDistortionParameter
 	{
 		::System::Boolean LensDistortionOverrideState; // 0x10

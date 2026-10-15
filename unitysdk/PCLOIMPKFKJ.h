@@ -20,6 +20,8 @@ class OMPCEECHGJK;
 #define PCLOIMPKFKJ_OGNLCPCIHGK_OFFSET UNITYSDK_OFFSET(0xC004320)
 #define PCLOIMPKFKJ_PNPHOGGLEBL_OFFSET UNITYSDK_OFFSET(0xC003ED0)
 
+inline static constexpr unsigned int PCLOIMPKFKJ_TypeDefinitionIndex = 76666;
+
 	class PCLOIMPKFKJ : public ::System::Object
 	{
 	public:

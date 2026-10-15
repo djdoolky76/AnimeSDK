@@ -9,6 +9,8 @@ namespace RPG::Client { class ConvinceSpliteLineConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ConvinceConfig_TypeDefinitionIndex = 60672;
+
 	class ConvinceConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

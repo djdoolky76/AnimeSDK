@@ -13,6 +13,8 @@ namespace System::IO { class StreamWriter; }
 #define EIEBEHJKOAG_PMHGHLKJPKA_EGFCFCBHJJP_OFFSET UNITYSDK_OFFSET(0x154BFB80)
 #define EIEBEHJKOAG_PMHGHLKJPKA_PHGGCKNBFLI_OFFSET UNITYSDK_OFFSET(0x154C0B10)
 
+inline static constexpr unsigned int EIEBEHJKOAG_PMHGHLKJPKA_TypeDefinitionIndex = 47406;
+
 	class EIEBEHJKOAG_PMHGHLKJPKA : public ::System::Object
 	{
 	public:

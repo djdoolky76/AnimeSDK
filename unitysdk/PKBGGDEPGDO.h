@@ -20,6 +20,8 @@ namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 #define PKBGGDEPGDO_NMBMEBMCJGE_OFFSET UNITYSDK_OFFSET(0xC2ABFD0)
 #define PKBGGDEPGDO_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xC2ABE60)
 
+inline static constexpr unsigned int PKBGGDEPGDO_TypeDefinitionIndex = 82216;
+
 	class PKBGGDEPGDO : public ::FCFLKPABIOM
 	{
 	public:

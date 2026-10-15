@@ -8,6 +8,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int SystemClock_TypeDefinitionIndex = 4394;
+
 	class SystemClock : public ::System::Object
 	{
 	public:

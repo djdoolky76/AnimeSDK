@@ -7,6 +7,8 @@ namespace RPG::Client { class AvatarOutfit; }
 #define HFEONGANBHM_GET_OUTFIT_OFFSET UNITYSDK_OFFSET(0x15C767B0)
 #define HFEONGANBHM_SET_OUTFIT_OFFSET UNITYSDK_OFFSET(0x15C767C0)
 
+inline static constexpr unsigned int HFEONGANBHM_TypeDefinitionIndex = 51914;
+
 	class HFEONGANBHM : public ::System::Object
 	{
 	public:

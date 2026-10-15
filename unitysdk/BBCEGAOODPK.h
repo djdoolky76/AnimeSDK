@@ -6,6 +6,8 @@
 #define BBCEGAOODPK_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0x15E82B30)
 #define BBCEGAOODPK_LMEAHGFFMIB_OFFSET UNITYSDK_OFFSET(0x15E82C60)
 
+inline static constexpr unsigned int BBCEGAOODPK_TypeDefinitionIndex = 56505;
+
 	class BBCEGAOODPK : public ::System::Object
 	{
 	public:

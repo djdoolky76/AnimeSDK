@@ -34,6 +34,8 @@ namespace System { class String; }
 #define PNBGCDGOLJB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFB2510)
 #define PNBGCDGOLJB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFB2570)
 
+inline static constexpr unsigned int PNBGCDGOLJB_TypeDefinitionIndex = 30138;
+
 	class PNBGCDGOLJB : public ::System::Object
 	{
 	public:

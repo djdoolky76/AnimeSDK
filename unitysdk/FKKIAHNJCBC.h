@@ -19,6 +19,8 @@ namespace System { class Action; }
 #define FKKIAHNJCBC_SET_TALENTPATHCONFIG_OFFSET UNITYSDK_OFFSET(0x15807090)
 #define FKKIAHNJCBC__GET_SHOWDETAILCOMMAND_B__17_0_OFFSET UNITYSDK_OFFSET(0x15807270)
 
+inline static constexpr unsigned int FKKIAHNJCBC_TypeDefinitionIndex = 79431;
+
 	class FKKIAHNJCBC : public ::System::Object
 	{
 	public:

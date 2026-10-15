@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FNBEGAJLEIL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE0CAE0)
 #define FNBEGAJLEIL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE0C400)
 
+inline static constexpr unsigned int FNBEGAJLEIL_TypeDefinitionIndex = 13458;
+
 	class FNBEGAJLEIL : public ::System::Object
 	{
 	public:

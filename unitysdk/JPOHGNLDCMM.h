@@ -31,6 +31,8 @@ namespace System { class String; }
 #define JPOHGNLDCMM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7DB200)
 #define JPOHGNLDCMM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7DB260)
 
+inline static constexpr unsigned int JPOHGNLDCMM_TypeDefinitionIndex = 31416;
+
 	class JPOHGNLDCMM : public ::System::Object
 	{
 	public:

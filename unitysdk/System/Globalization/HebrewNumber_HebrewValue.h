@@ -7,6 +7,8 @@
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int HebrewNumber_HebrewValue_TypeDefinitionIndex = 757;
+
 	class HebrewNumber_HebrewValue : public ::System::Object
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System::Xml::Schema { class XmlValueConverter; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlNumeric10Converter_TypeDefinitionIndex = 2223;
+
 	class XmlNumeric10Converter : public ::System::Xml::Schema::XmlBaseConverter
 	{
 	public:

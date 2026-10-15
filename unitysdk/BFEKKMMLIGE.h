@@ -10,6 +10,8 @@ class JBACCAGFHON;
 #define BFEKKMMLIGE_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xB161530)
 #define BFEKKMMLIGE_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB1615D0)
 
+inline static constexpr unsigned int BFEKKMMLIGE_TypeDefinitionIndex = 78124;
+
 	class BFEKKMMLIGE : public ::System::Object
 	{
 	public:

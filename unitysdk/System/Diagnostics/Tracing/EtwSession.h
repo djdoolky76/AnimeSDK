@@ -14,6 +14,8 @@ namespace System::Diagnostics::Tracing { class EtwSession; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int EtwSession_TypeDefinitionIndex = 1700;
+
 	class EtwSession : public ::System::Object
 	{
 	public:

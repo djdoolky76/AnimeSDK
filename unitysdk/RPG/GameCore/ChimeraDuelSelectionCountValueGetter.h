@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelSelectionCountValueGetter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelSelectionCountValueGetter_TypeDefinitionIndex = 16000;
+
 	class ChimeraDuelSelectionCountValueGetter : public ::RPG::GameCore::BaseChimeraDuelValueGetter
 	{
 	public:

@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropExcelTable_TypeDefinitionIndex = 14072;
+
 	class PropExcelTable : public ::System::Object
 	{
 	public:

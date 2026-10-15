@@ -9,6 +9,8 @@ class FCOEMCEDLNL;
 #define AMPPONMNKBD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCE1DB0)
 #define AMPPONMNKBD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCE1BB0)
 
+inline static constexpr unsigned int AMPPONMNKBD_TypeDefinitionIndex = 14946;
+
 	class AMPPONMNKBD : public ::System::Object
 	{
 	public:

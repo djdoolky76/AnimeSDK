@@ -7,6 +7,8 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2World; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2WorldMoverCastContext_TypeDefinitionIndex = 36816;
+
 	struct alignas(8) B2WorldMoverCastContext
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* world; // 0x10

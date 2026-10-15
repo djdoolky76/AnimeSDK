@@ -3,6 +3,8 @@
 
 namespace Proto
 {
+	inline static constexpr unsigned int RogueAdventureRoomGameplayWolfGunTarget_TargetImplOneofCase_TypeDefinitionIndex = 32933;
+
 	enum class RogueAdventureRoomGameplayWolfGunTarget_TargetImplOneofCase : ::System::Int32
 	{
 		None = 0,

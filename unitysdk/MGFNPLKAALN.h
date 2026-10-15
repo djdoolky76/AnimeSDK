@@ -8,6 +8,8 @@ namespace RPG::Client::Promises { class IPromise; }
 #define MGFNPLKAALN_CTOR_OFFSET UNITYSDK_OFFSET(0xB91ACA0)
 #define MGFNPLKAALN_FDLJEEGKKLI_OFFSET UNITYSDK_OFFSET(0xB91ACB0)
 
+inline static constexpr unsigned int MGFNPLKAALN_TypeDefinitionIndex = 80224;
+
 	class MGFNPLKAALN : public ::System::Object
 	{
 	public:

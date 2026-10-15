@@ -31,6 +31,8 @@ namespace System { class String; }
 #define OKECFAAPLIN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE92890)
 #define OKECFAAPLIN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE928F0)
 
+inline static constexpr unsigned int OKECFAAPLIN_TypeDefinitionIndex = 33873;
+
 	class OKECFAAPLIN : public ::System::Object
 	{
 	public:

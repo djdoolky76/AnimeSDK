@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::SwordTraining
 {
+	inline static constexpr unsigned int SwordTrainingActionManager_TypeDefinitionIndex = 75062;
+
 	class SwordTrainingActionManager : public ::System::Object
 	{
 	public:

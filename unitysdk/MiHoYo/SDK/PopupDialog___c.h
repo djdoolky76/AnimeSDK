@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PopupDialog___c_TypeDefinitionIndex = 8012;
+
 	class PopupDialog___c : public ::System::Object
 	{
 	public:

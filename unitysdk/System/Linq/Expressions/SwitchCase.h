@@ -9,6 +9,8 @@ namespace System::Linq::Expressions { class Expression; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int SwitchCase_TypeDefinitionIndex = 3276;
+
 	class SwitchCase : public ::System::Object
 	{
 	public:

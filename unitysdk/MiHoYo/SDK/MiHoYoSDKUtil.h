@@ -43,6 +43,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKUtil_TypeDefinitionIndex = 46481;
+
 	class MiHoYoSDKUtil : public ::System::Object
 	{
 	public:

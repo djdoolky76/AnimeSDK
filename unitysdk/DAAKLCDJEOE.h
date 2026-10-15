@@ -7,6 +7,8 @@ namespace Proto { class MonopolyActionResult; }
 #define DAAKLCDJEOE_CTOR_OFFSET UNITYSDK_OFFSET(0xDFBA3C0)
 #define DAAKLCDJEOE_TRIGGER_OFFSET UNITYSDK_OFFSET(0xDFBA450)
 
+inline static constexpr unsigned int DAAKLCDJEOE_TypeDefinitionIndex = 66237;
+
 	class DAAKLCDJEOE : public ::System::Object
 	{
 	public:

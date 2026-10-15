@@ -18,6 +18,8 @@ namespace System { class String; }
 #define JLMLHGKFFFD_MHAJFBCKIDE_OFFSET UNITYSDK_OFFSET(0x1C4A7AA0)
 #define JLMLHGKFFFD_OBJIGAACMKF_OFFSET UNITYSDK_OFFSET(0x1C4A7920)
 
+inline static constexpr unsigned int JLMLHGKFFFD_TypeDefinitionIndex = 41487;
+
 	class JLMLHGKFFFD : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@
 #define POKCLHMCNMN_FFKBFPKEPEN_OFFSET UNITYSDK_OFFSET(0xC36DF40)
 #define POKCLHMCNMN_MCCGDCCKHIM_OFFSET UNITYSDK_OFFSET(0xC36DFD0)
 
+inline static constexpr unsigned int POKCLHMCNMN_TypeDefinitionIndex = 76991;
+
 	class POKCLHMCNMN : public ::HCODNLKAGHK
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ArtNPCPedestrianAssetConfig_IdentityData_TypeDefinitionIndex = 69229;
+
 	class ArtNPCPedestrianAssetConfig_IdentityData : public ::System::Object
 	{
 	public:

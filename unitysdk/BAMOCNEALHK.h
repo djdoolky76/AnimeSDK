@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BAMOCNEALHK_MOLEJCLFFKI_OFFSET UNITYSDK_OFFSET(0x1C8B0770)
 #define BAMOCNEALHK_OOFKOICLFLE_OFFSET UNITYSDK_OFFSET(0x1C8B01D0)
 
+inline static constexpr unsigned int BAMOCNEALHK_TypeDefinitionIndex = 43720;
+
 	class BAMOCNEALHK : public ::System::Object
 	{
 	public:

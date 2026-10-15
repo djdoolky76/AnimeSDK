@@ -25,6 +25,8 @@ namespace System { class String; }
 #define CADOMBICGJI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E056CC0)
 #define CADOMBICGJI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E056D20)
 
+inline static constexpr unsigned int CADOMBICGJI_TypeDefinitionIndex = 26131;
+
 	class CADOMBICGJI : public ::System::Object
 	{
 	public:

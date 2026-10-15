@@ -6,6 +6,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PPEffectManager_MainIntensityByEntity_TypeDefinitionIndex = 69771;
+
 	struct alignas(8) PPEffectManager_MainIntensityByEntity
 	{
 		::RPG::GameCore::GameEntity* Entity; // 0x10

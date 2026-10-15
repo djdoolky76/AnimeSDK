@@ -8,6 +8,8 @@ class NJKFOJJDGGG;
 #define HEBDCPNECAD_JIONJNOOEMD_OFFSET UNITYSDK_OFFSET(0x15C43260)
 #define HEBDCPNECAD_UPDATE_OFFSET UNITYSDK_OFFSET(0x15C43170)
 
+inline static constexpr unsigned int HEBDCPNECAD_TypeDefinitionIndex = 65015;
+
 	class HEBDCPNECAD : public ::RPG::Client::GridFightGameModifier
 	{
 	public:

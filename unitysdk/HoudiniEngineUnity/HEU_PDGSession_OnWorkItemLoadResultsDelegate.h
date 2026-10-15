@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_PDGSession_OnWorkItemLoadResultsDelegate_TypeDefinitionIndex = 40544;
+
 	class HEU_PDGSession_OnWorkItemLoadResultsDelegate : public ::System::MulticastDelegate
 	{
 	public:

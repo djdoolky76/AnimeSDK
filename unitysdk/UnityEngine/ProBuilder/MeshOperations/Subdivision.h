@@ -11,6 +11,8 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int Subdivision_TypeDefinitionIndex = 44513;
+
 	class Subdivision : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int EditorViewportComposition_TypeDefinitionIndex = 49637;
+
 	struct alignas(8) EditorViewportComposition
 	{
 		::System::String* Name; // 0x10

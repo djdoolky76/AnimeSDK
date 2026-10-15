@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarbleSealSkillInfo_TypeDefinitionIndex = 75975;
+
 	class MarbleSealSkillInfo : public ::System::Object
 	{
 	public:

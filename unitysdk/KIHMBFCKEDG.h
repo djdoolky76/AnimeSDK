@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KIHMBFCKEDG_MGBCKEGBDDM_OFFSET UNITYSDK_OFFSET(0xB41F800)
 #define KIHMBFCKEDG_PMDIDGONPKB_OFFSET UNITYSDK_OFFSET(0xB41F620)
 
+inline static constexpr unsigned int KIHMBFCKEDG_TypeDefinitionIndex = 59039;
+
 	class KIHMBFCKEDG : public ::System::Object
 	{
 	public:

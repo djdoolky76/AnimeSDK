@@ -16,6 +16,8 @@ namespace System { class String; }
 #define PKKGCBHDFNK_OGEKKILKALH_OFFSET UNITYSDK_OFFSET(0xC2C40F0)
 #define PKKGCBHDFNK_PPHAFFLJLBA_OFFSET UNITYSDK_OFFSET(0xC2C4410)
 
+inline static constexpr unsigned int PKKGCBHDFNK_TypeDefinitionIndex = 61256;
+
 	class PKKGCBHDFNK : public ::System::Object
 	{
 	public:

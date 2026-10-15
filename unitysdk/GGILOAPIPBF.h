@@ -30,6 +30,8 @@ namespace System { class String; }
 #define GGILOAPIPBF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E47E270)
 #define GGILOAPIPBF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E47E2D0)
 
+inline static constexpr unsigned int GGILOAPIPBF_TypeDefinitionIndex = 31362;
+
 	class GGILOAPIPBF : public ::System::Object
 	{
 	public:

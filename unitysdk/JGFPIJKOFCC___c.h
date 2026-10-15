@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JGFPIJKOFCC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E739340)
 #define JGFPIJKOFCC___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E739350)
 
+inline static constexpr unsigned int JGFPIJKOFCC___c_TypeDefinitionIndex = 33771;
+
 	class JGFPIJKOFCC___c : public ::System::Object
 	{
 	public:

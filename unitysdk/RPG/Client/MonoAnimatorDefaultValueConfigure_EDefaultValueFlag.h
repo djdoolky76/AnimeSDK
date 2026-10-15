@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoAnimatorDefaultValueConfigure_EDefaultValueFlag_TypeDefinitionIndex = 68514;
+
 	enum class MonoAnimatorDefaultValueConfigure_EDefaultValueFlag : ::System::Int32
 	{
 		None = 0,

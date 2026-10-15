@@ -6,6 +6,8 @@ class CAOEEDDAPIK;
 #define BFINAHGOMOO___C__DISPLAYCLASS92_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB16BAF0)
 #define BFINAHGOMOO___C__DISPLAYCLASS92_0___FINDITEM_B__0_OFFSET UNITYSDK_OFFSET(0xB16CF90)
 
+inline static constexpr unsigned int BFINAHGOMOO___c__DisplayClass92_0_TypeDefinitionIndex = 71217;
+
 	class BFINAHGOMOO___c__DisplayClass92_0 : public ::System::Object
 	{
 	public:

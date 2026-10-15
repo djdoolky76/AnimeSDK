@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FCHMJNONHPE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E348000)
 #define FCHMJNONHPE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E348060)
 
+inline static constexpr unsigned int FCHMJNONHPE_TypeDefinitionIndex = 29736;
+
 	class FCHMJNONHPE : public ::System::Object
 	{
 	public:

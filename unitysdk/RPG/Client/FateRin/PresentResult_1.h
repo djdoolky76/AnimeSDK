@@ -5,6 +5,8 @@ namespace RPG::Client { class LuaUIController; }
 
 namespace RPG::Client::FateRin
 {
+	inline static constexpr unsigned int PresentResult_1_TypeDefinitionIndex = 80616;
+
 	template <typename T>
 	class PresentResult_1 : public ::System::Object
 	{

@@ -7,6 +7,8 @@ namespace System { class Action; }
 #define PPNJCOPMNLK_GHFNNDPKDMK_OFFSET UNITYSDK_OFFSET(0x1C7F7B30)
 #define PPNJCOPMNLK_KAGICIAJEEA_OFFSET UNITYSDK_OFFSET(0x1C7F7BC0)
 
+inline static constexpr unsigned int PPNJCOPMNLK_TypeDefinitionIndex = 37115;
+
 	class PPNJCOPMNLK : public ::System::Object
 	{
 	public:

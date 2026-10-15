@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BEJOPEHPABO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA63500)
 #define BEJOPEHPABO___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1EA63510)
 
+inline static constexpr unsigned int BEJOPEHPABO___c_TypeDefinitionIndex = 31793;
+
 	class BEJOPEHPABO___c : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define MGOLOIGOAMB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA2AFD0)
 #define MGOLOIGOAMB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA2B030)
 
+inline static constexpr unsigned int MGOLOIGOAMB_TypeDefinitionIndex = 34770;
+
 	class MGOLOIGOAMB : public ::System::Object
 	{
 	public:

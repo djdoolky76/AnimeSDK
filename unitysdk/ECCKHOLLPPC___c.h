@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ECCKHOLLPPC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E24CE40)
 #define ECCKHOLLPPC___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E24CE50)
 
+inline static constexpr unsigned int ECCKHOLLPPC___c_TypeDefinitionIndex = 25200;
+
 	class ECCKHOLLPPC___c : public ::System::Object
 	{
 	public:

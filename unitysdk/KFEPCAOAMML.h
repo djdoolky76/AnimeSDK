@@ -31,6 +31,8 @@ namespace System { class String; }
 #define KFEPCAOAMML_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E817260)
 #define KFEPCAOAMML_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8172C0)
 
+inline static constexpr unsigned int KFEPCAOAMML_TypeDefinitionIndex = 32194;
+
 	class KFEPCAOAMML : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define HJDKDKNEFMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAECA10)
 
+inline static constexpr unsigned int HJDKDKNEFMJ_TypeDefinitionIndex = 42103;
+
 	class HJDKDKNEFMJ : public ::System::Object
 	{
 	public:

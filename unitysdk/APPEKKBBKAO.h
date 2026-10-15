@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define APPEKKBBKAO_CTOR_OFFSET UNITYSDK_OFFSET(0x15BC0610)
 #define APPEKKBBKAO_JKIBFIBAMKB_OFFSET UNITYSDK_OFFSET(0x15BC06D0)
 
+inline static constexpr unsigned int APPEKKBBKAO_TypeDefinitionIndex = 62867;
+
 	class APPEKKBBKAO : public ::System::Object
 	{
 	public:

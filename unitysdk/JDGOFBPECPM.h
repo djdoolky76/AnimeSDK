@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 #define JDGOFBPECPM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8FEE0)
 #define JDGOFBPECPM_LJAPEFGODCD_OFFSET UNITYSDK_OFFSET(0x1CB8FCB0)
 
+inline static constexpr unsigned int JDGOFBPECPM_TypeDefinitionIndex = 43350;
+
 	class JDGOFBPECPM : public ::System::Object
 	{
 	public:

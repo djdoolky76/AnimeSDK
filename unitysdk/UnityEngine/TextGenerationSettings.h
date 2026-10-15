@@ -14,6 +14,8 @@ namespace UnityEngine { class Font; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int TextGenerationSettings_TypeDefinitionIndex = 5041;
+
 	struct alignas(8) TextGenerationSettings
 	{
 		::UnityEngine::Font* font; // 0x10

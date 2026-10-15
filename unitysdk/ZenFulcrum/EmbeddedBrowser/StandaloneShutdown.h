@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int StandaloneShutdown_TypeDefinitionIndex = 39562;
+
 	class StandaloneShutdown : public ::UnityEngine::MonoBehaviour
 	{
 	public:

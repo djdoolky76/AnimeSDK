@@ -6,6 +6,8 @@
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int Binder_TypeDefinitionIndex = 556;
+
 	class Binder : public ::System::Object
 	{
 	public:

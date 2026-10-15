@@ -29,6 +29,8 @@ namespace System { class String; }
 #define IOCHJOIIJAC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6CA550)
 #define IOCHJOIIJAC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6CA5B0)
 
+inline static constexpr unsigned int IOCHJOIIJAC_TypeDefinitionIndex = 34439;
+
 	class IOCHJOIIJAC : public ::System::Object
 	{
 	public:

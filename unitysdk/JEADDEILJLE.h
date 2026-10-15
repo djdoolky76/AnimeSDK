@@ -33,6 +33,8 @@ namespace System { class String; }
 #define JEADDEILJLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E712740)
 #define JEADDEILJLE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7127A0)
 
+inline static constexpr unsigned int JEADDEILJLE_TypeDefinitionIndex = 29089;
+
 	class JEADDEILJLE : public ::System::Object
 	{
 	public:

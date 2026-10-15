@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueParamRogueTournTitanFloorTypeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueParamRogueTournTitanFloorTypeConfig_TypeDefinitionIndex = 19847;
+
 	class RogueParamRogueTournTitanFloorTypeConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:

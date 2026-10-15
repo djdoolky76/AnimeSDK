@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RtBattleSkillConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtBattleSkillConfig_TypeDefinitionIndex = 17675;
+
 	class RtBattleSkillConfig : public ::RPG::GameCore::RtSkillExtraConfigBase
 	{
 	public:

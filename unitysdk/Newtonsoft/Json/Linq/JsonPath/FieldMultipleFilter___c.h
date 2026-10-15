@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace Newtonsoft::Json::Linq::JsonPath
 {
+	inline static constexpr unsigned int FieldMultipleFilter___c_TypeDefinitionIndex = 9801;
+
 	class FieldMultipleFilter___c : public ::System::Object
 	{
 	public:

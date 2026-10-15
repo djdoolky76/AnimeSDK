@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceNPCRow_TypeDefinitionIndex = 11007;
+
 	class CakeRaceNPCRow : public ::System::Object
 	{
 	public:

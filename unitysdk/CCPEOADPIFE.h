@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CCPEOADPIFE_PCEOEAFCPML_OFFSET UNITYSDK_OFFSET(0xC753AC0)
 #define CCPEOADPIFE_TICK_OFFSET UNITYSDK_OFFSET(0xC753A50)
 
+inline static constexpr unsigned int CCPEOADPIFE_TypeDefinitionIndex = 58260;
+
 	class CCPEOADPIFE
 	{
 	public:

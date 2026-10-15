@@ -10,6 +10,8 @@ namespace UnityEngine::UIElements { class IPanel; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int MouseCaptureDispatchingStrategy_TypeDefinitionIndex = 5954;
+
 	class MouseCaptureDispatchingStrategy : public ::System::Object
 	{
 	public:

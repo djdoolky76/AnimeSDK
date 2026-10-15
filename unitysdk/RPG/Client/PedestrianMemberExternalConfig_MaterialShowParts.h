@@ -10,6 +10,8 @@ namespace UnityEngine { class ScriptableObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PedestrianMemberExternalConfig_MaterialShowParts_TypeDefinitionIndex = 69248;
+
 	class PedestrianMemberExternalConfig_MaterialShowParts : public ::RPG::Client::IPedestrianMemberExternalConfig
 	{
 	public:

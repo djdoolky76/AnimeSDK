@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonsterSneakConst_TypeDefinitionIndex = 17122;
+
 	class MonsterSneakConst : public ::RPG::GameCore::JsonConfig
 	{
 	public:

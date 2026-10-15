@@ -9,6 +9,8 @@ namespace System { class String; }
 #define EOLPGHDBJNF_EKBGBBACMFL_OFFSET UNITYSDK_OFFSET(0x155C59E0)
 #define EOLPGHDBJNF_KPOBDDBABJG_OFFSET UNITYSDK_OFFSET(0x155C5970)
 
+inline static constexpr unsigned int EOLPGHDBJNF_TypeDefinitionIndex = 63874;
+
 	class EOLPGHDBJNF : public ::System::Object
 	{
 	public:

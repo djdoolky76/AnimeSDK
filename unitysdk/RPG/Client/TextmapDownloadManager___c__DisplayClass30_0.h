@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TextmapDownloadManager___c__DisplayClass30_0_TypeDefinitionIndex = 61246;
+
 	class TextmapDownloadManager___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SetBattleBGMState; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetBattleBGMState_TypeDefinitionIndex = 22965;
+
 	class SetBattleBGMState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

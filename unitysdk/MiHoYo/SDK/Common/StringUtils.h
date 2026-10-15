@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Common
 {
+	inline static constexpr unsigned int StringUtils_TypeDefinitionIndex = 8827;
+
 	class StringUtils : public ::System::Object
 	{
 	public:

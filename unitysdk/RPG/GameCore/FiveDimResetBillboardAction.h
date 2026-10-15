@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimResetBillboardAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimResetBillboardAction_TypeDefinitionIndex = 18778;
+
 	class FiveDimResetBillboardAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

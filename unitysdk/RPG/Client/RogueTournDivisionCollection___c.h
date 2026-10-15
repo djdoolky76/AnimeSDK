@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournDivisionCollection___c_TypeDefinitionIndex = 67593;
+
 	class RogueTournDivisionCollection___c : public ::System::Object
 	{
 	public:

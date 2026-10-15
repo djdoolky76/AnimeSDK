@@ -4,6 +4,8 @@
 
 #define CKIDNMINCLI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA12ED0)
 
+inline static constexpr unsigned int CKIDNMINCLI_TypeDefinitionIndex = 42807;
+
 	class CKIDNMINCLI : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{
 	public:

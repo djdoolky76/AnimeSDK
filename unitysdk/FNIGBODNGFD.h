@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 #define FNIGBODNGFD_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA714E0)
 #define FNIGBODNGFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA71530)
 
+inline static constexpr unsigned int FNIGBODNGFD_TypeDefinitionIndex = 42108;
+
 	class FNIGBODNGFD : public ::System::Object
 	{
 	public:

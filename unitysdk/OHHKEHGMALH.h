@@ -10,6 +10,8 @@ class OHHKEHGMALH;
 #define OHHKEHGMALH_LCIKHMKJIAD_OFFSET UNITYSDK_OFFSET(0xBE6B870)
 #define OHHKEHGMALH_PHONGPNKEFD_OFFSET UNITYSDK_OFFSET(0xBE6B980)
 
+inline static constexpr unsigned int OHHKEHGMALH_TypeDefinitionIndex = 58200;
+
 	class OHHKEHGMALH : public ::System::Object
 	{
 	public:

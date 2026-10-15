@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int HELMGACMHHF_TypeDefinitionIndex = 25291;
+
 	enum class HELMGACMHHF : ::System::Int32
 	{
 		PLCNMNGMFNN = 0,

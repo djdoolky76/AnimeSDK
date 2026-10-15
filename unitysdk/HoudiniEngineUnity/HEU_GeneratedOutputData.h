@@ -12,6 +12,8 @@ namespace UnityEngine { class Material; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_GeneratedOutputData_TypeDefinitionIndex = 40389;
+
 	class HEU_GeneratedOutputData : public ::System::Object
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define FGOPLKFEJAP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E384030)
 #define FGOPLKFEJAP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E384090)
 
+inline static constexpr unsigned int FGOPLKFEJAP_TypeDefinitionIndex = 32756;
+
 	class FGOPLKFEJAP : public ::System::Object
 	{
 	public:

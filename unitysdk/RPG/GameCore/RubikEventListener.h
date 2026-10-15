@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RubikEventListener_TypeDefinitionIndex = 22145;
+
 	class RubikEventListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

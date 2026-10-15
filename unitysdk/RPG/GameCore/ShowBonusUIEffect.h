@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowBonusUIEffect_TypeDefinitionIndex = 23294;
+
 	class ShowBonusUIEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

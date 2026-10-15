@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageParamEntry_TypeDefinitionIndex = 15143;
+
 	class StageParamEntry : public ::System::Object
 	{
 	public:

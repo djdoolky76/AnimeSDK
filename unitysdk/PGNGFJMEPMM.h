@@ -35,6 +35,8 @@ namespace UnityEngine::UI { class Image; }
 #define PGNGFJMEPMM__ONBIND_OFFSET UNITYSDK_OFFSET(0xC22A7F0)
 #define PGNGFJMEPMM__ONTICK_OFFSET UNITYSDK_OFFSET(0xC22AB30)
 
+inline static constexpr unsigned int PGNGFJMEPMM_TypeDefinitionIndex = 71980;
+
 	class PGNGFJMEPMM : public ::FMPCODLIOLG
 	{
 	public:

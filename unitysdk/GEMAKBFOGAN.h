@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define GEMAKBFOGAN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x159E0D90)
 #define GEMAKBFOGAN__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0x159E0CA0)
 
+inline static constexpr unsigned int GEMAKBFOGAN_TypeDefinitionIndex = 59876;
+
 	class GEMAKBFOGAN : public ::RPG::Client::SyncCheckItemBase
 	{
 	public:

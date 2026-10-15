@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KEEOAGMHFIF_ONSKIP_OFFSET UNITYSDK_OFFSET(0xB3753E0)
 #define KEEOAGMHFIF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB3752D0)
 
+inline static constexpr unsigned int KEEOAGMHFIF_TypeDefinitionIndex = 58108;
+
 	class KEEOAGMHFIF
 	{
 	public:

@@ -11,6 +11,8 @@
 #define DPJKIHNHLNO_JNDOGMFFOIM_OFFSET UNITYSDK_OFFSET(0x1DD37BC0)
 #define DPJKIHNHLNO_MKBMMDGMLGF_OFFSET UNITYSDK_OFFSET(0x1DD38280)
 
+inline static constexpr unsigned int DPJKIHNHLNO_TypeDefinitionIndex = 6409;
+
 	class DPJKIHNHLNO : public ::System::Object
 	{
 	public:

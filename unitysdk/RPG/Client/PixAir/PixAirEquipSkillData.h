@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirEquipSkillData_TypeDefinitionIndex = 79305;
+
 	class PixAirEquipSkillData : public ::System::Object
 	{
 	public:

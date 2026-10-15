@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDieImmediately_TypeDefinitionIndex = 22668;
+
 	class SetDieImmediately : public ::RPG::GameCore::TaskConfig
 	{
 	public:

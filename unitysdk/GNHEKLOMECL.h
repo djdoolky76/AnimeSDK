@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GNHEKLOMECL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4DFD90)
 #define GNHEKLOMECL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4DFDF0)
 
+inline static constexpr unsigned int GNHEKLOMECL_TypeDefinitionIndex = 34750;
+
 	class GNHEKLOMECL : public ::System::Object
 	{
 	public:

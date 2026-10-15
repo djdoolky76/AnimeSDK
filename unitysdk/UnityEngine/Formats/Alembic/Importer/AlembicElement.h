@@ -22,6 +22,8 @@ namespace UnityEngine::Formats::Alembic::Importer { class AlembicTreeNode; }
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicElement_TypeDefinitionIndex = 45853;
+
 	class AlembicElement : public ::System::Object
 	{
 	public:

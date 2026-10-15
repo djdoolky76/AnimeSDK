@@ -25,6 +25,8 @@ namespace System { class String; }
 #define PANIFOJDEBM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEF1E60)
 #define PANIFOJDEBM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEF1EC0)
 
+inline static constexpr unsigned int PANIFOJDEBM_TypeDefinitionIndex = 32625;
+
 	class PANIFOJDEBM : public ::System::Object
 	{
 	public:

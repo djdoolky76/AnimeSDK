@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Motions
 {
+	inline static constexpr unsigned int MonoEffectMotion_TypeDefinitionIndex = 73496;
+
 	class MonoEffectMotion : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -18,6 +18,8 @@ namespace UnityEngine { class GPUParticlesAsset; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GPUParticlesAsset_TypeDefinitionIndex = 4116;
+
 	class GPUParticlesAsset : public ::UnityEngine::ComputeShaderAsset
 	{
 	public:

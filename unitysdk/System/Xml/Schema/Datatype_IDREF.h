@@ -10,6 +10,8 @@
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_IDREF_TypeDefinitionIndex = 2130;
+
 	class Datatype_IDREF : public ::System::Xml::Schema::Datatype_NCName
 	{
 	public:

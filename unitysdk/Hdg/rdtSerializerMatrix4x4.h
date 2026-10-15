@@ -17,6 +17,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int rdtSerializerMatrix4x4_TypeDefinitionIndex = 46962;
+
 	class rdtSerializerMatrix4x4 : public ::System::Object
 	{
 	public:

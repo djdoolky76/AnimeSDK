@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define CMOKPGLKOOG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DCB1C40)
 #define CMOKPGLKOOG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCB1B70)
 
+inline static constexpr unsigned int CMOKPGLKOOG_TypeDefinitionIndex = 19926;
+
 	class CMOKPGLKOOG : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByHasPlayerMoveInput_TypeDefinitionIndex = 20255;
+
 	class ByHasPlayerMoveInput : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System { class String; }
 #define GFOAMKNHBFE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4748A0)
 #define GFOAMKNHBFE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E474900)
 
+inline static constexpr unsigned int GFOAMKNHBFE_TypeDefinitionIndex = 32494;
+
 	class GFOAMKNHBFE : public ::System::Object
 	{
 	public:

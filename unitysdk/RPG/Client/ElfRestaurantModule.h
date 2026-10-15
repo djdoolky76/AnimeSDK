@@ -53,6 +53,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfRestaurantModule_TypeDefinitionIndex = 63658;
+
 	class ElfRestaurantModule : public ::RPG::Client::BaseModule
 	{
 	public:

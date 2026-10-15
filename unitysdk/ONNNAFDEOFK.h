@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define ONNNAFDEOFK_OADHPNNGBGL_OFFSET UNITYSDK_OFFSET(0xBF60070)
 #define ONNNAFDEOFK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF5FE90)
 
+inline static constexpr unsigned int ONNNAFDEOFK_TypeDefinitionIndex = 55309;
+
 	class ONNNAFDEOFK
 	{
 	public:

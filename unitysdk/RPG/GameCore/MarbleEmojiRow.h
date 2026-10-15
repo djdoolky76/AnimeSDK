@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleEmojiRow_TypeDefinitionIndex = 11865;
+
 	class MarbleEmojiRow : public ::System::Object
 	{
 	public:

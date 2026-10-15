@@ -62,6 +62,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NMJLMAOJEHN_SET_TOTALCOUNT_OFFSET UNITYSDK_OFFSET(0xBC88690)
 #define NMJLMAOJEHN_UPDATEPROGRESS_OFFSET UNITYSDK_OFFSET(0xBC89CF0)
 
+inline static constexpr unsigned int NMJLMAOJEHN_TypeDefinitionIndex = 59548;
+
 	class NMJLMAOJEHN : public ::System::Object
 	{
 	public:

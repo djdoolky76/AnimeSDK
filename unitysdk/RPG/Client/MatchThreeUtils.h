@@ -24,6 +24,8 @@ namespace RPG::Client { class MatchThreeLobby; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeUtils_TypeDefinitionIndex = 65979;
+
 	class MatchThreeUtils : public ::System::Object
 	{
 	public:

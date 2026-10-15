@@ -14,6 +14,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectSerialBellControl_TypeDefinitionIndex = 70738;
+
 	class MonoEffectSerialBellControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

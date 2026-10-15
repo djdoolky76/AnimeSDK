@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MarbleBall_TypeDefinitionIndex = 65800;
+
 	class MarbleBall : public ::System::Object
 	{
 	public:

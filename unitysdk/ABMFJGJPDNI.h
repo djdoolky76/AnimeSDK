@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define ABMFJGJPDNI_JDBGEIMLNBL_OFFSET UNITYSDK_OFFSET(0xB108DB0)
 #define ABMFJGJPDNI_PFMBNDDBOHL_OFFSET UNITYSDK_OFFSET(0xB1099E0)
 
+inline static constexpr unsigned int ABMFJGJPDNI_TypeDefinitionIndex = 59718;
+
 	class ABMFJGJPDNI : public ::LJKHPOHKIIF
 	{
 	public:

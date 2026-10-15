@@ -15,6 +15,8 @@ namespace RPG::GameCore { class PerformanceReplayOverrideRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceReplayOverrideRow_TypeDefinitionIndex = 14340;
+
 	class PerformanceReplayOverrideRow : public ::System::Object
 	{
 	public:

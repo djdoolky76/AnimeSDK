@@ -6,6 +6,8 @@
 
 namespace MessagePack::Unity::Extension
 {
+	inline static constexpr unsigned int QuaternionArrayBlitFormatter_TypeDefinitionIndex = 10160;
+
 	class QuaternionArrayBlitFormatter
 	{
 	public:

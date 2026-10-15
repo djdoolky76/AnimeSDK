@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int TextGenerator_ProcessFormatDel_TypeDefinitionIndex = 5044;
+
 	class TextGenerator_ProcessFormatDel : public ::System::MulticastDelegate
 	{
 	public:

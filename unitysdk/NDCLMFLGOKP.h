@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NDCLMFLGOKP_FILTER_OFFSET UNITYSDK_OFFSET(0x1C943C70)
 #define NDCLMFLGOKP_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C943B50)
 
+inline static constexpr unsigned int NDCLMFLGOKP_TypeDefinitionIndex = 42866;
+
 	class NDCLMFLGOKP
 	{
 	public:

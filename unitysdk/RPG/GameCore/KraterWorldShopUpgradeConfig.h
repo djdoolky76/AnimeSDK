@@ -9,6 +9,8 @@ namespace RPG::GameCore { class KraterWorldShopUpgradeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int KraterWorldShopUpgradeConfig_TypeDefinitionIndex = 16815;
+
 	class KraterWorldShopUpgradeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

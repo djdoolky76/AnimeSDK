@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MessagePackEventSource_TypeDefinitionIndex = 7169;
+
 	class MessagePackEventSource : public ::System::Diagnostics::Tracing::EventSource
 	{
 	public:

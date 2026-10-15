@@ -30,6 +30,8 @@ namespace System { class String; }
 #define OJIELKBDPGB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE86A80)
 #define OJIELKBDPGB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE86AE0)
 
+inline static constexpr unsigned int OJIELKBDPGB_TypeDefinitionIndex = 27280;
+
 	class OJIELKBDPGB : public ::System::Object
 	{
 	public:

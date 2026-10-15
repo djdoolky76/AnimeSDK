@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define IIEEOLPONJM___C___CCTOR_B__38_1_OFFSET UNITYSDK_OFFSET(0x1E685700)
 #define IIEEOLPONJM___C___CCTOR_B__38_2_OFFSET UNITYSDK_OFFSET(0x1E685710)
 
+inline static constexpr unsigned int IIEEOLPONJM___c_TypeDefinitionIndex = 26377;
+
 	class IIEEOLPONJM___c : public ::System::Object
 	{
 	public:

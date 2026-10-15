@@ -19,6 +19,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::BattlePerform
 {
+	inline static constexpr unsigned int BPCharacterFullBodyClip_TypeDefinitionIndex = 48801;
+
 	class BPCharacterFullBodyClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

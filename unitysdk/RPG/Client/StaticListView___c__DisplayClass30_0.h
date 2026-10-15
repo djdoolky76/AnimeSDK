@@ -11,6 +11,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StaticListView___c__DisplayClass30_0_TypeDefinitionIndex = 72659;
+
 	class StaticListView___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int RuntimeType_ListBuilder_1_TypeDefinitionIndex = 323;
+
 	template <typename T>
 	struct alignas(8) RuntimeType_ListBuilder_1
 	{

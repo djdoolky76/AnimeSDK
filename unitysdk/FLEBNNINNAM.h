@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define FLEBNNINNAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1582D770)
 
+inline static constexpr unsigned int FLEBNNINNAM_TypeDefinitionIndex = 62901;
+
 	class FLEBNNINNAM : public ::System::Object
 	{
 	public:

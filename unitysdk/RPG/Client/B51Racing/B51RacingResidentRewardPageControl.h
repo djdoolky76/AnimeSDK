@@ -9,6 +9,8 @@ namespace RPG::Client { class LocalizedText; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingResidentRewardPageControl_TypeDefinitionIndex = 81963;
+
 	class B51RacingResidentRewardPageControl : public ::Sofa::BaseSofaControl
 	{
 	public:

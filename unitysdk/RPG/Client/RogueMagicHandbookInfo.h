@@ -42,6 +42,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMagicHandbookInfo_TypeDefinitionIndex = 67402;
+
 	class RogueMagicHandbookInfo : public ::System::Object
 	{
 	public:

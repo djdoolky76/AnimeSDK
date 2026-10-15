@@ -103,6 +103,8 @@ namespace UnityEngine { class Material; }
 #define NCCLPHOILBE__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xBAF8310)
 #define NCCLPHOILBE__ONTICK_OFFSET UNITYSDK_OFFSET(0xBAF83C0)
 
+inline static constexpr unsigned int NCCLPHOILBE_TypeDefinitionIndex = 71592;
+
 	class NCCLPHOILBE : public ::FMPCODLIOLG
 	{
 	public:

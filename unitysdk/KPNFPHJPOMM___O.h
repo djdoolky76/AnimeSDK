@@ -5,6 +5,8 @@ class MEIGMBOLDOF;
 namespace System { class Object; }
 namespace UnityEngine::Events { class UnityAction; }
 
+inline static constexpr unsigned int KPNFPHJPOMM___O_TypeDefinitionIndex = 49183;
+
 	class KPNFPHJPOMM___O : public ::System::Object
 	{
 	public:

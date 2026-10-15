@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int EnviroEProbeOverrideProperty_TypeDefinitionIndex = 49596;
+
 	class EnviroEProbeOverrideProperty : public ::EnviromentSystem::EnviroBoolProperty
 	{
 	public:

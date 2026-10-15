@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass37_0_TypeDefinitionIndex = 46419;
+
 	class SecurityTunnel___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:

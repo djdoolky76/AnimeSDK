@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerPamOnlineFirst; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerPamOnlineFirst_TypeDefinitionIndex = 20026;
+
 	class TriggerPamOnlineFirst : public ::RPG::GameCore::TaskConfig
 	{
 	public:

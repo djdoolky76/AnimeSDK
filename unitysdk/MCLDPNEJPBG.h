@@ -4,6 +4,8 @@
 
 #define MCLDPNEJPBG_CTOR_OFFSET UNITYSDK_OFFSET(0xB886920)
 
+inline static constexpr unsigned int MCLDPNEJPBG_TypeDefinitionIndex = 75642;
+
 	class MCLDPNEJPBG : public ::System::Object
 	{
 	public:

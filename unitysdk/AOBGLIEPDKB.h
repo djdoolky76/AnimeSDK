@@ -6,6 +6,8 @@
 #define AOBGLIEPDKB_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x158A6510)
 #define AOBGLIEPDKB_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x158A6520)
 
+inline static constexpr unsigned int AOBGLIEPDKB_TypeDefinitionIndex = 74010;
+
 	class AOBGLIEPDKB : public ::HONIFDCKPFM
 	{
 	public:

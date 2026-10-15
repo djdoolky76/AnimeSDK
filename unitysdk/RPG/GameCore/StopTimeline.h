@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StopTimeline_TypeDefinitionIndex = 20624;
+
 	class StopTimeline : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterDirectDissolveBehaviour_TypeDefinitionIndex = 47948;
+
 	class CharacterDirectDissolveBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ByIsPlanetFesBusinessDayFinished_TypeDefinitionIndex = 10275;
+
 	class ByIsPlanetFesBusinessDayFinished : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define FOANFBELJLK_CTOR_OFFSET UNITYSDK_OFFSET(0x158DFDA0)
 
+inline static constexpr unsigned int FOANFBELJLK_TypeDefinitionIndex = 58617;
+
 	class FOANFBELJLK : public ::System::Object
 	{
 	public:

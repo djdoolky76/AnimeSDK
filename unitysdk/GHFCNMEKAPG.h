@@ -7,6 +7,8 @@ namespace System { class String; }
 #define GHFCNMEKAPG_CTOR_OFFSET UNITYSDK_OFFSET(0x15A18B70)
 #define GHFCNMEKAPG__ONBIND_OFFSET UNITYSDK_OFFSET(0x15A18850)
 
+inline static constexpr unsigned int GHFCNMEKAPG_TypeDefinitionIndex = 71499;
+
 	class GHFCNMEKAPG : public ::BCFDAHOHJEA
 	{
 	public:

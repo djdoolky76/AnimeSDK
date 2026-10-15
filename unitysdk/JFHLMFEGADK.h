@@ -15,6 +15,8 @@ namespace RPG::GameCore { class MunicipalChatActionLookAt; }
 #define JFHLMFEGADK_LNNLMNBOPCB_OFFSET UNITYSDK_OFFSET(0x1664D480)
 #define JFHLMFEGADK_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0x1664D330)
 
+inline static constexpr unsigned int JFHLMFEGADK_TypeDefinitionIndex = 69193;
+
 	class JFHLMFEGADK : public ::MAGCBFJCKLE
 	{
 	public:

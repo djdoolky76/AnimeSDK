@@ -61,6 +61,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExAsrRack_TypeDefinitionIndex = 39912;
+
 	class CriAtomExAsrRack : public ::CriWare::CriDisposable
 	{
 	public:

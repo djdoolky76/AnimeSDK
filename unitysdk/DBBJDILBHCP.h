@@ -9,6 +9,8 @@ class NJGDIEAIHPD;
 #define DBBJDILBHCP_CTOR_OFFSET UNITYSDK_OFFSET(0xDFD6890)
 #define DBBJDILBHCP_IIHFPKJNAHP_OFFSET UNITYSDK_OFFSET(0xDFD68A0)
 
+inline static constexpr unsigned int DBBJDILBHCP_TypeDefinitionIndex = 62518;
+
 	class DBBJDILBHCP : public ::System::Object
 	{
 	public:

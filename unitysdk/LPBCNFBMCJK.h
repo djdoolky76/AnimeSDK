@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define LPBCNFBMCJK_LCJMKJPECAP_OFFSET UNITYSDK_OFFSET(0x3C4C4F0)
 #define LPBCNFBMCJK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C4C530)
 
+inline static constexpr unsigned int LPBCNFBMCJK_TypeDefinitionIndex = 6290;
+
 	struct alignas(4) LPBCNFBMCJK
 	{
 		::RPG::MVector3 BHCMCMADHBF; // 0x10

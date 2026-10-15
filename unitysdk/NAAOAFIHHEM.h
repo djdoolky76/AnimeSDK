@@ -48,6 +48,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NAAOAFIHHEM_PINALIPFLCF_OFFSET UNITYSDK_OFFSET(0xBA51FD0)
 #define NAAOAFIHHEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBA528C0)
 
+inline static constexpr unsigned int NAAOAFIHHEM_TypeDefinitionIndex = 62034;
+
 	class NAAOAFIHHEM : public ::AJEAHAODOHJ
 	{
 	public:

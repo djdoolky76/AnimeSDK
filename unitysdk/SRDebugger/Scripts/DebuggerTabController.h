@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace SRDebugger::Scripts
 {
+	inline static constexpr unsigned int DebuggerTabController_TypeDefinitionIndex = 37981;
+
 	class DebuggerTabController : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

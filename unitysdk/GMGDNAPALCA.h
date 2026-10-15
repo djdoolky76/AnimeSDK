@@ -26,6 +26,8 @@ namespace System { class Action; }
 #define GMGDNAPALCA_NKNAMNHNKIE_OFFSET UNITYSDK_OFFSET(0x15AD0CF0)
 #define GMGDNAPALCA_OEBJKAGPDAG_OFFSET UNITYSDK_OFFSET(0x15ACFF80)
 
+inline static constexpr unsigned int GMGDNAPALCA_TypeDefinitionIndex = 75995;
+
 	class GMGDNAPALCA : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Type; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int StateMachineAttribute_TypeDefinitionIndex = 1368;
+
 	class StateMachineAttribute : public ::System::Attribute
 	{
 	public:

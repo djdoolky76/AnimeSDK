@@ -7,6 +7,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int PPFilterStack_GaussianBlurParameter_TypeDefinitionIndex = 51859;
+
 	struct alignas(4) PPFilterStack_GaussianBlurParameter
 	{
 		::System::Boolean GaussianBlurOverrideState; // 0x10

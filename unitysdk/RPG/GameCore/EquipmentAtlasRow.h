@@ -9,6 +9,8 @@ namespace RPG::GameCore { class EquipmentAtlasRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EquipmentAtlasRow_TypeDefinitionIndex = 13246;
+
 	class EquipmentAtlasRow : public ::System::Object
 	{
 	public:

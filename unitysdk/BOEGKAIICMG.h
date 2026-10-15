@@ -16,6 +16,8 @@ class MGODMMLBALG;
 #define BOEGKAIICMG_START_OFFSET UNITYSDK_OFFSET(0xC18F0A0)
 #define BOEGKAIICMG_STOP_OFFSET UNITYSDK_OFFSET(0xC18F5A0)
 
+inline static constexpr unsigned int BOEGKAIICMG_TypeDefinitionIndex = 61891;
+
 	class BOEGKAIICMG : public ::BHPMNMMGLHI
 	{
 	public:

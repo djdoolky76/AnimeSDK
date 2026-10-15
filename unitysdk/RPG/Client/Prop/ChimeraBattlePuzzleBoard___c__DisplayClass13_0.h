@@ -8,6 +8,8 @@ namespace RPG::Client { class ChimeraViewProxy; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraBattlePuzzleBoard___c__DisplayClass13_0_TypeDefinitionIndex = 78427;
+
 	class ChimeraBattlePuzzleBoard___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

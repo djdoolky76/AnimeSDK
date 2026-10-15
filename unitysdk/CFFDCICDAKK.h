@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CFFDCICDAKK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0A11C0)
 #define CFFDCICDAKK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0A1220)
 
+inline static constexpr unsigned int CFFDCICDAKK_TypeDefinitionIndex = 29498;
+
 	class CFFDCICDAKK : public ::System::Object
 	{
 	public:

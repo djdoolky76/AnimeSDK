@@ -68,6 +68,8 @@ namespace UnityEngine { class Texture2D; }
 #define LOCALAMBIENTVOLUME_START_OFFSET UNITYSDK_OFFSET(0xB838D00)
 #define LOCALAMBIENTVOLUME_UNSERIALIZEASYNC_OFFSET UNITYSDK_OFFSET(0xB8383A0)
 
+inline static constexpr unsigned int LocalAmbientVolume_TypeDefinitionIndex = 47465;
+
 	class LocalAmbientVolume : public ::ScenenLightManager::SceneManagedLightComponent1
 	{
 	public:

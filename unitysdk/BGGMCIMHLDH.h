@@ -34,6 +34,8 @@ namespace System { class String; }
 #define BGGMCIMHLDH__PLAYERINTERACTCHANGELEVERSWITCHSTATE_OFFSET UNITYSDK_OFFSET(0xB1861B0)
 #define BGGMCIMHLDH__TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB1854A0)
 
+inline static constexpr unsigned int BGGMCIMHLDH_TypeDefinitionIndex = 77127;
+
 	class BGGMCIMHLDH
 	{
 	public:

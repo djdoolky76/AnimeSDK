@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int NativeInputDeviceProfileList_TypeDefinitionIndex = 40870;
+
 	class NativeInputDeviceProfileList : public ::UnityEngine::ScriptableObject
 	{
 	public:

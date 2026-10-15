@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRRenderModels__GetRenderModelCount_TypeDefinitionIndex = 39149;
+
 	class IVRRenderModels__GetRenderModelCount : public ::System::MulticastDelegate
 	{
 	public:

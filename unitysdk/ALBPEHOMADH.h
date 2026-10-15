@@ -4,6 +4,8 @@
 
 #define ALBPEHOMADH_CTOR_OFFSET UNITYSDK_OFFSET(0x15561100)
 
+inline static constexpr unsigned int ALBPEHOMADH_TypeDefinitionIndex = 72398;
+
 	class ALBPEHOMADH : public ::System::Object
 	{
 	public:

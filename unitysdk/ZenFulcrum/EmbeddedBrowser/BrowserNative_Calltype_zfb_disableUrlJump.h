@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_disableUrlJump_TypeDefinitionIndex = 39427;
+
 	class BrowserNative_Calltype_zfb_disableUrlJump : public ::System::MulticastDelegate
 	{
 	public:

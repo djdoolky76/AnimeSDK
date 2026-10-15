@@ -23,6 +23,8 @@ namespace System { class Object; }
 #define FKOBDFANDBE_NDEFLINOKMC_OFFSET UNITYSDK_OFFSET(0x3C38800)
 #define FKOBDFANDBE_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1CDFF920)
 
+inline static constexpr unsigned int FKOBDFANDBE_TypeDefinitionIndex = 10641;
+
 	struct alignas(8) FKOBDFANDBE
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

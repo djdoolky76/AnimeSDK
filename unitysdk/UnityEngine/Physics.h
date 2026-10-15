@@ -350,6 +350,8 @@ namespace UnityEngine { class Collider; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Physics_TypeDefinitionIndex = 5325;
+
 	class Physics : public ::System::Object
 	{
 	public:

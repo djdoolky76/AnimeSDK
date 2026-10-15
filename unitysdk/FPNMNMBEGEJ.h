@@ -22,6 +22,8 @@ namespace RPG::Client::RoadRash { class MonoRoadRashGameRoad; }
 #define FPNMNMBEGEJ_SET_MONO_OFFSET UNITYSDK_OFFSET(0x159229A0)
 #define FPNMNMBEGEJ_SET_TRACK_OFFSET UNITYSDK_OFFSET(0x159229C0)
 
+inline static constexpr unsigned int FPNMNMBEGEJ_TypeDefinitionIndex = 75905;
+
 	class FPNMNMBEGEJ : public ::System::Object
 	{
 	public:

@@ -37,6 +37,8 @@ namespace System { class String; }
 #define HOMMPJIOPGI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5EECD0)
 #define HOMMPJIOPGI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5EED30)
 
+inline static constexpr unsigned int HOMMPJIOPGI_TypeDefinitionIndex = 25493;
+
 	class HOMMPJIOPGI : public ::System::Object
 	{
 	public:

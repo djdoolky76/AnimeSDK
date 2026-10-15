@@ -10,6 +10,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureAfterPropStateChange_TypeDefinitionIndex = 56627;
+
 	class AdventureAfterPropStateChange : public ::System::Object
 	{
 	public:

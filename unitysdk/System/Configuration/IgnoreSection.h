@@ -17,6 +17,8 @@ namespace System::Xml { class XmlReader; }
 
 namespace System::Configuration
 {
+	inline static constexpr unsigned int IgnoreSection_TypeDefinitionIndex = 2342;
+
 	class IgnoreSection : public ::System::Configuration::ConfigurationSection
 	{
 	public:

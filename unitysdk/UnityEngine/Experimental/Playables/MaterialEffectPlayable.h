@@ -7,6 +7,8 @@
 
 namespace UnityEngine::Experimental::Playables
 {
+	inline static constexpr unsigned int MaterialEffectPlayable_TypeDefinitionIndex = 4934;
+
 	struct alignas(4) MaterialEffectPlayable
 	{
 		::UnityEngine::Playables::PlayableHandle m_Handle; // 0x10

@@ -38,6 +38,8 @@ namespace System::Collections { class IList; }
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int CollectionBase_TypeDefinitionIndex = 1467;
+
 	class CollectionBase : public ::System::Object
 	{
 	public:

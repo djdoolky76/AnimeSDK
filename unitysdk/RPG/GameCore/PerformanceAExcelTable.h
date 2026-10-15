@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceAExcelTable_TypeDefinitionIndex = 14327;
+
 	class PerformanceAExcelTable : public ::System::Object
 	{
 	public:

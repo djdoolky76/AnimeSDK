@@ -20,6 +20,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
+	inline static constexpr unsigned int ChannelProtocolDialog_TypeDefinitionIndex = 8423;
+
 	class ChannelProtocolDialog : public ::System::Object
 	{
 	public:

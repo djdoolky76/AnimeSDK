@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeammateAttackFormationConfig_TypeDefinitionIndex = 17113;
+
 	class TeammateAttackFormationConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

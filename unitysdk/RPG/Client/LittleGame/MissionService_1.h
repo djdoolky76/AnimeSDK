@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int MissionService_1_TypeDefinitionIndex = 76506;
+
 	template <typename T>
 	class MissionService_1 : public ::System::Object
 	{

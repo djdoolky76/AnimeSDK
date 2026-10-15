@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PBFMAMECNPK_OPMFKHBBGAE_OFFSET UNITYSDK_OFFSET(0x1EC8B850)
 #define PBFMAMECNPK_PEDMIMIGAMB_OFFSET UNITYSDK_OFFSET(0x1EC8B890)
 
+inline static constexpr unsigned int PBFMAMECNPK_TypeDefinitionIndex = 44054;
+
 	class PBFMAMECNPK : public ::System::Object
 	{
 	public:

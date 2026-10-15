@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyCondCardIdxBetweenConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyCondCardIdxBetweenConfig_TypeDefinitionIndex = 18090;
+
 	class TrainPartyCondCardIdxBetweenConfig : public ::RPG::GameCore::TrainPartyConditionConfigBase
 	{
 	public:

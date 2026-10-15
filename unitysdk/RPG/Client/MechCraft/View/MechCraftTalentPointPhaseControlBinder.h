@@ -8,6 +8,8 @@ namespace RPG::Client { class UIStateCtrl; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftTalentPointPhaseControlBinder_TypeDefinitionIndex = 80061;
+
 	class MechCraftTalentPointPhaseControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

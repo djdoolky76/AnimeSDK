@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetComponentAssetLoadState_TypeDefinitionIndex = 22810;
+
 	class SetComponentAssetLoadState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

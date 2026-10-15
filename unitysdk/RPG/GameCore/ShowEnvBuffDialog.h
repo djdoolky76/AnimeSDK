@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowEnvBuffDialog_TypeDefinitionIndex = 20473;
+
 	class ShowEnvBuffDialog : public ::RPG::GameCore::TaskConfig
 	{
 	public:

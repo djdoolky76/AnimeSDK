@@ -115,6 +115,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int OraclePuzzleBoard_TypeDefinitionIndex = 78723;
+
 	class OraclePuzzleBoard : public ::RPG::Client::Prop::InteractPuzzleBoardBase
 	{
 	public:

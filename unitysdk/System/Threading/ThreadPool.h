@@ -32,6 +32,8 @@ namespace System::Threading { class WaitOrTimerCallback; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int ThreadPool_TypeDefinitionIndex = 865;
+
 	class ThreadPool : public ::System::Object
 	{
 	public:

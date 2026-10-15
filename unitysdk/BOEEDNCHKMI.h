@@ -8,6 +8,8 @@ namespace RPG::Client { class RechargeShopModule; }
 #define BOEEDNCHKMI_CTOR_OFFSET UNITYSDK_OFFSET(0xC18EF70)
 #define BOEEDNCHKMI_DGOIGEGMDBG_OFFSET UNITYSDK_OFFSET(0xC18EFC0)
 
+inline static constexpr unsigned int BOEEDNCHKMI_TypeDefinitionIndex = 66790;
+
 	class BOEEDNCHKMI : public ::System::Object
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System { class UriParser; }
 
 namespace System
 {
+	inline static constexpr unsigned int UriHelper_TypeDefinitionIndex = 2475;
+
 	class UriHelper : public ::System::Object
 	{
 	public:

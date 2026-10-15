@@ -51,6 +51,8 @@ namespace UnityEngine::UI { class Text; }
 #define IBELNHPNBEC__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x15E2D900)
 #define IBELNHPNBEC__ONTICK_OFFSET UNITYSDK_OFFSET(0x15E2D730)
 
+inline static constexpr unsigned int IBELNHPNBEC_TypeDefinitionIndex = 71570;
+
 	class IBELNHPNBEC : public ::FMPCODLIOLG
 	{
 	public:

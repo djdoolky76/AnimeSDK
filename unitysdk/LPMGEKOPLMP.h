@@ -8,6 +8,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 #define LPMGEKOPLMP_CTOR_OFFSET UNITYSDK_OFFSET(0xB8245B0)
 #define LPMGEKOPLMP_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xB824550)
 
+inline static constexpr unsigned int LPMGEKOPLMP_TypeDefinitionIndex = 49546;
+
 	class LPMGEKOPLMP : public ::System::Object
 	{
 	public:

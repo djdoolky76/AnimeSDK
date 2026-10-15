@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TeamTowersMobileInputConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamTowersMobileInputConfig_TypeDefinitionIndex = 18945;
+
 	class TeamTowersMobileInputConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

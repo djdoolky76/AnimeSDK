@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int BabelfishClient___c__DisplayClass7_0_TypeDefinitionIndex = 46575;
+
 	class BabelfishClient___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

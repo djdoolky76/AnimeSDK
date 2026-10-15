@@ -31,6 +31,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace AstraFX::Fireworks
 {
+	inline static constexpr unsigned int AstraFX_FireworksMonoPlugin_TypeDefinitionIndex = 49032;
+
 	class AstraFX_FireworksMonoPlugin
 	{
 	public:

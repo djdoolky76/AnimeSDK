@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ActivityDiceRuleGroupRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityDiceRuleGroupRow_TypeDefinitionIndex = 11272;
+
 	class ActivityDiceRuleGroupRow : public ::System::Object
 	{
 	public:

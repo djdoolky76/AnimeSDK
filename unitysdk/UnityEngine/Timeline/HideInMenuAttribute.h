@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int HideInMenuAttribute_TypeDefinitionIndex = 38865;
+
 	class HideInMenuAttribute : public ::System::Attribute
 	{
 	public:

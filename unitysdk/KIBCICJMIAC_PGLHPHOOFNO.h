@@ -5,6 +5,8 @@
 
 #define KIBCICJMIAC_PGLHPHOOFNO_CTOR_OFFSET UNITYSDK_OFFSET(0xB416B30)
 
+inline static constexpr unsigned int KIBCICJMIAC_PGLHPHOOFNO_TypeDefinitionIndex = 55917;
+
 	class KIBCICJMIAC_PGLHPHOOFNO : public ::System::Object
 	{
 	public:

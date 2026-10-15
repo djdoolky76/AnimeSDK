@@ -70,6 +70,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveNode_TypeDefinitionIndex = 75150;
+
 	class IdleLiveNode : public ::System::Object
 	{
 	public:

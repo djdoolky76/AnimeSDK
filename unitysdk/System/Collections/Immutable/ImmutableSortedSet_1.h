@@ -7,6 +7,8 @@ namespace System::Collections::Immutable { class ImmutableSortedSet; }
 
 namespace System::Collections::Immutable
 {
+	inline static constexpr unsigned int ImmutableSortedSet_1_TypeDefinitionIndex = 6653;
+
 	template <typename T>
 	class ImmutableSortedSet_1 : public ::System::Object
 	{

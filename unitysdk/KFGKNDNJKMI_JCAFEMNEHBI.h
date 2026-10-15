@@ -12,6 +12,8 @@ namespace RPG::GameCore { class LevelPedestrianV2IntersectionChenLingTribeDropPo
 #define KFGKNDNJKMI_JCAFEMNEHBI_PGCBPNFMBGH_OFFSET UNITYSDK_OFFSET(0xB39D020)
 #define KFGKNDNJKMI_JCAFEMNEHBI_SET_INFO_OFFSET UNITYSDK_OFFSET(0xB39FD50)
 
+inline static constexpr unsigned int KFGKNDNJKMI_JCAFEMNEHBI_TypeDefinitionIndex = 69312;
+
 	class KFGKNDNJKMI_JCAFEMNEHBI : public ::System::Object
 	{
 	public:

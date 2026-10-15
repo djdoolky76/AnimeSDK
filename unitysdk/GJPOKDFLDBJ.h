@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GJPOKDFLDBJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4AD370)
 #define GJPOKDFLDBJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4AD3D0)
 
+inline static constexpr unsigned int GJPOKDFLDBJ_TypeDefinitionIndex = 26287;
+
 	class GJPOKDFLDBJ : public ::System::Object
 	{
 	public:

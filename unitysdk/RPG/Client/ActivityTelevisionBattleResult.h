@@ -25,6 +25,8 @@ namespace RPG::Client { class RogueEndlessBattleResult; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityTelevisionBattleResult_TypeDefinitionIndex = 61995;
+
 	class ActivityTelevisionBattleResult : public ::System::Object
 	{
 	public:

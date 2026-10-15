@@ -34,6 +34,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BubbleTalkConfig_TypeDefinitionIndex = 62941;
+
 	class BubbleTalkConfig : public ::System::Object
 	{
 	public:

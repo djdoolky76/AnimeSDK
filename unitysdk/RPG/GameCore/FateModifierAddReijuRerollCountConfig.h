@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateModifierAddReijuRerollCountConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateModifierAddReijuRerollCountConfig_TypeDefinitionIndex = 19271;
+
 	class FateModifierAddReijuRerollCountConfig : public ::RPG::GameCore::FateModifierConfigBase
 	{
 	public:

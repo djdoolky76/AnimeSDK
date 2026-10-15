@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int FileDescriptorSet___c_TypeDefinitionIndex = 35759;
+
 	class FileDescriptorSet___c : public ::System::Object
 	{
 	public:

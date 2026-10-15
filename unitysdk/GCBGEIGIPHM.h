@@ -4,6 +4,8 @@
 #define GCBGEIGIPHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1595F580)
 #define GCBGEIGIPHM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1595F510)
 
+inline static constexpr unsigned int GCBGEIGIPHM_TypeDefinitionIndex = 60875;
+
 	class GCBGEIGIPHM
 	{
 	public:

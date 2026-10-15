@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::Discussion
 {
+	inline static constexpr unsigned int CameraCompositionTrack_TypeDefinitionIndex = 48789;
+
 	class CameraCompositionTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

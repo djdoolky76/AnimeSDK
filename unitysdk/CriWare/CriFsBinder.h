@@ -43,6 +43,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriFsBinder_TypeDefinitionIndex = 40102;
+
 	class CriFsBinder : public ::CriWare::CriDisposable
 	{
 	public:

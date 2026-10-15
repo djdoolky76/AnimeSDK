@@ -130,6 +130,8 @@ namespace System::ComponentModel { class PropertyChangedEventHandler; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTeam_TypeDefinitionIndex = 65154;
+
 	class GridFightTeam : public ::System::Object
 	{
 	public:

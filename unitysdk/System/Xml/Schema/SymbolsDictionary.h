@@ -22,6 +22,8 @@ namespace System::Xml::Schema { class NamespaceList; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int SymbolsDictionary_TypeDefinitionIndex = 2065;
+
 	class SymbolsDictionary : public ::System::Object
 	{
 	public:

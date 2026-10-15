@@ -28,6 +28,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::SequentialPanelContainer
 {
+	inline static constexpr unsigned int SequentialPanelItem_TypeDefinitionIndex = 74753;
+
 	class SequentialPanelItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

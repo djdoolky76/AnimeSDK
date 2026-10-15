@@ -5,6 +5,8 @@ namespace RPG::GameCore { class BattleInstance; }
 
 #define MNJNHIAPNKD_IKHEMKFEAGC_CTOR_OFFSET UNITYSDK_OFFSET(0xBA0FC00)
 
+inline static constexpr unsigned int MNJNHIAPNKD_IKHEMKFEAGC_TypeDefinitionIndex = 71952;
+
 	class MNJNHIAPNKD_IKHEMKFEAGC : public ::System::Object
 	{
 	public:

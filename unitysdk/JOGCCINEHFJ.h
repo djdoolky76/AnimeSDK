@@ -36,6 +36,8 @@ namespace System { class String; }
 #define JOGCCINEHFJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7A1440)
 #define JOGCCINEHFJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7A14A0)
 
+inline static constexpr unsigned int JOGCCINEHFJ_TypeDefinitionIndex = 28263;
+
 	class JOGCCINEHFJ : public ::System::Object
 	{
 	public:

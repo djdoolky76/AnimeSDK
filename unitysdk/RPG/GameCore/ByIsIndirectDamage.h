@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsIndirectDamage_TypeDefinitionIndex = 23492;
+
 	class ByIsIndirectDamage : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfRestaurantModule_TakeOutInfo_TypeDefinitionIndex = 63659;
+
 	class ElfRestaurantModule_TakeOutInfo : public ::System::Object
 	{
 	public:

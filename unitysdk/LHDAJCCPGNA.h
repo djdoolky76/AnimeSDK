@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define LHDAJCCPGNA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB6A9CF0)
 #define LHDAJCCPGNA_TICK_OFFSET UNITYSDK_OFFSET(0xB6A9ED0)
 
+inline static constexpr unsigned int LHDAJCCPGNA_TypeDefinitionIndex = 52955;
+
 	class LHDAJCCPGNA : public ::GELIALJDFBL
 	{
 	public:

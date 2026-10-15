@@ -4,6 +4,8 @@
 
 #define HCKKJKBKCBD_CTOR_OFFSET UNITYSDK_OFFSET(0x15C20CC0)
 
+inline static constexpr unsigned int HCKKJKBKCBD_TypeDefinitionIndex = 74027;
+
 	class HCKKJKBKCBD
 	{
 	public:

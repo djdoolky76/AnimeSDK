@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GDCHKEIBMCK_CTOR_OFFSET UNITYSDK_OFFSET(0x15994F40)
 #define GDCHKEIBMCK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15994F70)
 
+inline static constexpr unsigned int GDCHKEIBMCK_TypeDefinitionIndex = 52514;
+
 	class GDCHKEIBMCK
 	{
 	public:

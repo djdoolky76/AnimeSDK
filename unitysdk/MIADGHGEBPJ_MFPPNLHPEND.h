@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MIADGHGEBPJ_MFPPNLHPEND_CLEAR_OFFSET UNITYSDK_OFFSET(0xB94B940)
 #define MIADGHGEBPJ_MFPPNLHPEND_CTOR_OFFSET UNITYSDK_OFFSET(0xB94B9A0)
 
+inline static constexpr unsigned int MIADGHGEBPJ_MFPPNLHPEND_TypeDefinitionIndex = 57448;
+
 	class MIADGHGEBPJ_MFPPNLHPEND : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace RPG::Client::Prop::PillarPuzzle
 {
+	inline static constexpr unsigned int PillarPuzzleBoardAllHit_TypeDefinitionIndex = 78966;
+
 	class PillarPuzzleBoardAllHit : public ::RPG::Client::Prop::PillarPuzzle::PillarPuzzleBoard
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VCameraFloatChangeParam_TypeDefinitionIndex = 16407;
+
 	class VCameraFloatChangeParam : public ::RPG::GameCore::JsonConfig
 	{
 	public:

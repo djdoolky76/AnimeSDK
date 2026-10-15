@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueGenDynamicConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueGenDynamicConfig_TypeDefinitionIndex = 19815;
+
 	class RogueGenDynamicConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

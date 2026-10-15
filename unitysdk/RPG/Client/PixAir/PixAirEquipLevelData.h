@@ -42,6 +42,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirEquipLevelData_TypeDefinitionIndex = 79304;
+
 	class PixAirEquipLevelData : public ::System::Object
 	{
 	public:

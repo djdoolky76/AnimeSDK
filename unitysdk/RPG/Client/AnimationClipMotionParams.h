@@ -9,6 +9,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AnimationClipMotionParams_TypeDefinitionIndex = 73254;
+
 	struct alignas(8) AnimationClipMotionParams
 	{
 		::UnityEngine::AnimationClip* Clip; // 0x10

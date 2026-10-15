@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define HLJHGONOFIH__SELECTENTITYIDS_D__3_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x15D62AC0)
 #define HLJHGONOFIH__SELECTENTITYIDS_D__3_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15D62990)
 
+inline static constexpr unsigned int HLJHGONOFIH__SelectEntityIDs_d__3_TypeDefinitionIndex = 77641;
+
 	template <typename T1, typename T2, typename T3>
 	class HLJHGONOFIH__SelectEntityIDs_d__3 : public ::System::Object
 	{

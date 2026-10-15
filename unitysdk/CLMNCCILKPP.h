@@ -33,6 +33,8 @@ namespace System { class String; }
 #define CLMNCCILKPP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0FBE10)
 #define CLMNCCILKPP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0FBE70)
 
+inline static constexpr unsigned int CLMNCCILKPP_TypeDefinitionIndex = 30539;
+
 	class CLMNCCILKPP : public ::System::Object
 	{
 	public:

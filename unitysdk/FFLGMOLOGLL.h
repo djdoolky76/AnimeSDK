@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FFLGMOLOGLL_FEOIFJONLCH_OFFSET UNITYSDK_OFFSET(0x15745650)
 #define FFLGMOLOGLL_OAGDIHGBBOI_OFFSET UNITYSDK_OFFSET(0x15745530)
 
+inline static constexpr unsigned int FFLGMOLOGLL_TypeDefinitionIndex = 77536;
+
 	class FFLGMOLOGLL : public ::System::Object
 	{
 	public:

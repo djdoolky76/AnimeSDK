@@ -11,6 +11,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int SkillRadialBlurTimelineTrack_TypeDefinitionIndex = 48614;
+
 	class SkillRadialBlurTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int LayoutKind_TypeDefinitionIndex = 1432;
+
 	enum class LayoutKind : ::System::Int32
 	{
 		Sequential = 0,

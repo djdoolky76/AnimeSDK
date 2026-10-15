@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CONONEALNOF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1379D0)
 #define CONONEALNOF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E137A30)
 
+inline static constexpr unsigned int CONONEALNOF_TypeDefinitionIndex = 29186;
+
 	class CONONEALNOF : public ::System::Object
 	{
 	public:

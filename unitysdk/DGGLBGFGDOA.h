@@ -6,6 +6,8 @@ namespace System { class String; }
 #define DGGLBGFGDOA_CCTOR_OFFSET UNITYSDK_OFFSET(0xE849700)
 #define DGGLBGFGDOA_CTOR_OFFSET UNITYSDK_OFFSET(0xE8496F0)
 
+inline static constexpr unsigned int DGGLBGFGDOA_TypeDefinitionIndex = 78756;
+
 	class DGGLBGFGDOA : public ::System::Object
 	{
 	public:

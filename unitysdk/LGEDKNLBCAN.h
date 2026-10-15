@@ -55,6 +55,8 @@ namespace System { class String; }
 #define LGEDKNLBCAN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E94CA70)
 #define LGEDKNLBCAN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E94CAD0)
 
+inline static constexpr unsigned int LGEDKNLBCAN_TypeDefinitionIndex = 27634;
+
 	class LGEDKNLBCAN : public ::System::Object
 	{
 	public:

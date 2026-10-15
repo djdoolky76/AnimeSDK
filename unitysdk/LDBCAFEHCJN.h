@@ -9,6 +9,8 @@ namespace RPG::Client::LittleGameShare { class ST_Main_CakeRaceUseItemDecision; 
 #define LDBCAFEHCJN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C7388E0)
 #define LDBCAFEHCJN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1C7389E0)
 
+inline static constexpr unsigned int LDBCAFEHCJN_TypeDefinitionIndex = 36995;
+
 	class LDBCAFEHCJN
 	{
 	public:

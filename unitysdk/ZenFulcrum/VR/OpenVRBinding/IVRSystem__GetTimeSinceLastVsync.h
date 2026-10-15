@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__GetTimeSinceLastVsync_TypeDefinitionIndex = 38895;
+
 	class IVRSystem__GetTimeSinceLastVsync : public ::System::MulticastDelegate
 	{
 	public:

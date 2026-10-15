@@ -7,6 +7,8 @@ class AkDiffractionPathInfo;
 #define AKDIFFRACTIONPATHINFOARRAY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F58D8E0)
 #define AKDIFFRACTIONPATHINFOARRAY_GET_STRUCTURESIZE_OFFSET UNITYSDK_OFFSET(0x1F58D920)
 
+inline static constexpr unsigned int AkDiffractionPathInfoArray_TypeDefinitionIndex = 44865;
+
 	class AkDiffractionPathInfoArray
 	{
 	public:

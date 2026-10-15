@@ -7,6 +7,8 @@ namespace System { class String; }
 #define KJHGBANLEIC___C__DISPLAYCLASS56_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB452F50)
 #define KJHGBANLEIC___C__DISPLAYCLASS56_0__ADDTEM_B__0_OFFSET UNITYSDK_OFFSET(0xB4565E0)
 
+inline static constexpr unsigned int KJHGBANLEIC___c__DisplayClass56_0_TypeDefinitionIndex = 59599;
+
 	class KJHGBANLEIC___c__DisplayClass56_0 : public ::System::Object
 	{
 	public:

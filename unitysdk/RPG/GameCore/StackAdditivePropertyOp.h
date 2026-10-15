@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StackAdditivePropertyOp_TypeDefinitionIndex = 16087;
+
 	enum class StackAdditivePropertyOp : ::System::Int32
 	{
 		Add = 1,

@@ -16,6 +16,8 @@ namespace TMPro { class TMP_Text; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_SpriteAnimator_TypeDefinitionIndex = 44633;
+
 	class TMP_SpriteAnimator : public ::UnityEngine::MonoBehaviour
 	{
 	public:

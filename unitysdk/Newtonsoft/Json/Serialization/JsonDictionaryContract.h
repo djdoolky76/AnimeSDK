@@ -34,6 +34,8 @@ namespace System::Reflection { class ConstructorInfo; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int JsonDictionaryContract_TypeDefinitionIndex = 9728;
+
 	class JsonDictionaryContract : public ::Newtonsoft::Json::Serialization::JsonContainerContract
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PersonalizeCardUseType_TypeDefinitionIndex = 66449;
+
 	enum class PersonalizeCardUseType : ::System::Int32
 	{
 		PlayerCard = 0,

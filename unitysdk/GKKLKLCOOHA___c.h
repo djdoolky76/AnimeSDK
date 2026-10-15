@@ -12,6 +12,8 @@ namespace System { template <typename T> class Func_1; }
 #define GKKLKLCOOHA___C__BUILDBATTLELOADINGGRAPH_B__7_3_OFFSET UNITYSDK_OFFSET(0x15AA0150)
 #define GKKLKLCOOHA___C__BUILDBATTLELOADINGGRAPH_B__7_4_OFFSET UNITYSDK_OFFSET(0x15AA0220)
 
+inline static constexpr unsigned int GKKLKLCOOHA___c_TypeDefinitionIndex = 73265;
+
 	class GKKLKLCOOHA___c : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EnableLocalPlayerIgnoreTimeRewindCollision; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnableLocalPlayerIgnoreTimeRewindCollision_TypeDefinitionIndex = 20952;
+
 	class EnableLocalPlayerIgnoreTimeRewindCollision : public ::RPG::GameCore::TaskConfig
 	{
 	public:

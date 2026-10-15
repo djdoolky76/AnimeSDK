@@ -8,6 +8,8 @@ class KGPCBBIOGLB;
 #define EMILHGPLJHC___C__DISPLAYCLASS90_0__ADDPROGRESSLOG_B__7_OFFSET UNITYSDK_OFFSET(0x15543D00)
 #define EMILHGPLJHC___C__DISPLAYCLASS90_0__ADDPROGRESSLOG_B__8_OFFSET UNITYSDK_OFFSET(0x15543D20)
 
+inline static constexpr unsigned int EMILHGPLJHC___c__DisplayClass90_0_TypeDefinitionIndex = 59553;
+
 	class EMILHGPLJHC___c__DisplayClass90_0 : public ::System::Object
 	{
 	public:

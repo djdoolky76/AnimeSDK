@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 #define MOGBNBGMIHF_STARTWITHTARGET_OFFSET UNITYSDK_OFFSET(0xBA2B500)
 #define MOGBNBGMIHF_STEP_OFFSET UNITYSDK_OFFSET(0xBA2B7F0)
 
+inline static constexpr unsigned int MOGBNBGMIHF_TypeDefinitionIndex = 73534;
+
 	class MOGBNBGMIHF : public ::LEEEMFAEDLN
 	{
 	public:

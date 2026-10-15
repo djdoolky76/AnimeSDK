@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVROverlay__SetKeyboardTransformAbsolute_TypeDefinitionIndex = 39134;
+
 	class IVROverlay__SetKeyboardTransformAbsolute : public ::System::MulticastDelegate
 	{
 	public:

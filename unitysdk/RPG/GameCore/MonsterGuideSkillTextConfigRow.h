@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MonsterGuideSkillTextConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonsterGuideSkillTextConfigRow_TypeDefinitionIndex = 14206;
+
 	class MonsterGuideSkillTextConfigRow : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 namespace RPG::Client::CrowdAnimator
 {
+	inline static constexpr unsigned int CrowdLod_TypeDefinitionIndex = 73742;
+
 	struct alignas(8) CrowdLod
 	{
 		::System::Single Distance; // 0x10

@@ -34,6 +34,8 @@ namespace System { class String; }
 #define BEFBCIOPNOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA61930)
 #define BEFBCIOPNOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA61990)
 
+inline static constexpr unsigned int BEFBCIOPNOA_TypeDefinitionIndex = 34070;
+
 	class BEFBCIOPNOA : public ::System::Object
 	{
 	public:

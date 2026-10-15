@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_TunnelState_TypeDefinitionIndex = 46391;
+
 	enum class SecurityTunnel_TunnelState : ::System::Int32
 	{
 		Disconnected = 0,

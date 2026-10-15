@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TarotExperimentFilesRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TarotExperimentFilesRow_TypeDefinitionIndex = 15241;
+
 	class TarotExperimentFilesRow : public ::System::Object
 	{
 	public:

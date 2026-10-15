@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameFireEffectParams; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimFireAvatarEffectAction_TypeDefinitionIndex = 18741;
+
 	class FiveDimFireAvatarEffectAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

@@ -13,6 +13,8 @@ namespace MiHoYo::SDK::ReporterUtil { class ReporterDataItem; }
 
 namespace MiHoYo::SDK::ReporterUtil
 {
+	inline static constexpr unsigned int ReporterDataItem_ItemComparer_TypeDefinitionIndex = 46646;
+
 	class ReporterDataItem_ItemComparer : public ::System::Object
 	{
 	public:

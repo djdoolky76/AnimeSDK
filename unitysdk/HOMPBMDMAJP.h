@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HOMPBMDMAJP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15DBD170)
 #define HOMPBMDMAJP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15DBD5F0)
 
+inline static constexpr unsigned int HOMPBMDMAJP_TypeDefinitionIndex = 52899;
+
 	class HOMPBMDMAJP
 	{
 	public:

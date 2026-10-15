@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvNPCSetFrozen_TypeDefinitionIndex = 20336;
+
 	class AdvNPCSetFrozen : public ::RPG::GameCore::TaskConfig
 	{
 	public:

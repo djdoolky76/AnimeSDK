@@ -13,6 +13,8 @@ namespace MiHoYo::SDK::PluginUI { class HoYoSDKReactivate; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int HoYoSDKReactivate_TypeDefinitionIndex = 46772;
+
 	class HoYoSDKReactivate : public ::MiHoYo::SDK::PluginUI::MiHoYoSDKUIContainer
 	{
 	public:

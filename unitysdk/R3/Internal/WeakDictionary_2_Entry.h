@@ -6,6 +6,8 @@ namespace System { class WeakReference; }
 
 namespace R3::Internal
 {
+	inline static constexpr unsigned int WeakDictionary_2_Entry_TypeDefinitionIndex = 35978;
+
 	template <typename T1, typename T2>
 	class WeakDictionary_2_Entry : public ::System::Object
 	{

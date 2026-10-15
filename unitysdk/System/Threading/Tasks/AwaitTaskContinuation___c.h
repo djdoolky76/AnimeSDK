@@ -10,6 +10,8 @@ namespace System::Threading { class WaitCallback; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int AwaitTaskContinuation___c_TypeDefinitionIndex = 926;
+
 	class AwaitTaskContinuation___c : public ::System::Object
 	{
 	public:

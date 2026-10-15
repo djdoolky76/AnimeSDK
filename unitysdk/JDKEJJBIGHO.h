@@ -6,6 +6,8 @@ class CAKNHIMMBOM;
 #define JDKEJJBIGHO_COMPARE_OFFSET UNITYSDK_OFFSET(0x1CB8FEF0)
 #define JDKEJJBIGHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8FF90)
 
+inline static constexpr unsigned int JDKEJJBIGHO_TypeDefinitionIndex = 43009;
+
 	class JDKEJJBIGHO : public ::System::Object
 	{
 	public:

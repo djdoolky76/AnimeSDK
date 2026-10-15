@@ -26,6 +26,8 @@ namespace UnityEngine { class Transform; }
 #define DDJMOBCGJJC_PEGDADBFIIC_OFFSET UNITYSDK_OFFSET(0xE4E21B0)
 #define DDJMOBCGJJC_PLMJHFNMKIH_OFFSET UNITYSDK_OFFSET(0xE4E22E0)
 
+inline static constexpr unsigned int DDJMOBCGJJC_TypeDefinitionIndex = 76042;
+
 	class DDJMOBCGJJC : public ::System::Object
 	{
 	public:

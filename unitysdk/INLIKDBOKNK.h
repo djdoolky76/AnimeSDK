@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define INLIKDBOKNK_CTOR_OFFSET UNITYSDK_OFFSET(0x164F6CC0)
 #define INLIKDBOKNK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x164F6CF0)
 
+inline static constexpr unsigned int INLIKDBOKNK_TypeDefinitionIndex = 54478;
+
 	class INLIKDBOKNK
 	{
 	public:

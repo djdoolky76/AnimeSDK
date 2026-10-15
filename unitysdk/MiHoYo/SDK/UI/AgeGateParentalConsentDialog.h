@@ -27,6 +27,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::UI
 {
+	inline static constexpr unsigned int AgeGateParentalConsentDialog_TypeDefinitionIndex = 8378;
+
 	class AgeGateParentalConsentDialog : public ::MiHoYo::SDK::UIElement
 	{
 	public:

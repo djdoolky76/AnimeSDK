@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_BakedEventData_TypeDefinitionIndex = 40359;
+
 	class HEU_BakedEventData : public ::HoudiniEngineUnity::HEU_AssetEventData
 	{
 	public:

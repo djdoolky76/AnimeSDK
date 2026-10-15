@@ -4,6 +4,8 @@
 
 #define MPJLKGGKKFH_CTOR_OFFSET UNITYSDK_OFFSET(0xBA3FA90)
 
+inline static constexpr unsigned int MPJLKGGKKFH_TypeDefinitionIndex = 67784;
+
 	class MPJLKGGKKFH : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LinearProjectileData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LinearProjectileData_TypeDefinitionIndex = 15659;
+
 	class LinearProjectileData : public ::RPG::GameCore::NewProjectileConfig
 	{
 	public:

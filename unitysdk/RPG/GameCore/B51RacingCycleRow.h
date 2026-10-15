@@ -10,6 +10,8 @@ namespace RPG::GameCore { class B51RacingCycleRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int B51RacingCycleRow_TypeDefinitionIndex = 10950;
+
 	class B51RacingCycleRow : public ::System::Object
 	{
 	public:

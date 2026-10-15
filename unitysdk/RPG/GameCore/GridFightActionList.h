@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightActionList; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightActionList_TypeDefinitionIndex = 19340;
+
 	class GridFightActionList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

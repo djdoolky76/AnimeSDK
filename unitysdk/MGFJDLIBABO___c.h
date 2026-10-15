@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MGFJDLIBABO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA24BF0)
 #define MGFJDLIBABO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EA24C00)
 
+inline static constexpr unsigned int MGFJDLIBABO___c_TypeDefinitionIndex = 28828;
+
 	class MGFJDLIBABO___c : public ::System::Object
 	{
 	public:

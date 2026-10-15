@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int Bootstring_TypeDefinitionIndex = 793;
+
 	class Bootstring : public ::System::Object
 	{
 	public:

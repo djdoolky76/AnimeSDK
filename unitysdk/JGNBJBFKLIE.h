@@ -10,6 +10,8 @@ namespace System { class String; }
 #define JGNBJBFKLIE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D02A5C0)
 #define JGNBJBFKLIE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D02A580)
 
+inline static constexpr unsigned int JGNBJBFKLIE_TypeDefinitionIndex = 22109;
+
 	class JGNBJBFKLIE : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define LMPDPBHFNJO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C91C090)
 
+inline static constexpr unsigned int LMPDPBHFNJO_TypeDefinitionIndex = 42546;
+
 	class LMPDPBHFNJO : public ::System::Object
 	{
 	public:

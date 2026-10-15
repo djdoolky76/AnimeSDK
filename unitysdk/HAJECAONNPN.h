@@ -25,6 +25,8 @@ namespace UnityEngine { class Transform; }
 #define HAJECAONNPN__ONINIT_OFFSET UNITYSDK_OFFSET(0x15B7B130)
 #define HAJECAONNPN__ONTICK_OFFSET UNITYSDK_OFFSET(0x15B7B920)
 
+inline static constexpr unsigned int HAJECAONNPN_TypeDefinitionIndex = 75907;
+
 	class HAJECAONNPN : public ::HCLPKMIIANI
 	{
 	public:

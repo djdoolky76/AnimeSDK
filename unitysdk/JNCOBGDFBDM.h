@@ -13,6 +13,8 @@ namespace RPG::Client::FateRin::Card { class IFateRinSystemCardViewModel; }
 #define JNCOBGDFBDM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB27A250)
 #define JNCOBGDFBDM_CTOR_OFFSET UNITYSDK_OFFSET(0xB27A220)
 
+inline static constexpr unsigned int JNCOBGDFBDM_TypeDefinitionIndex = 81157;
+
 	class JNCOBGDFBDM : public ::System::Object
 	{
 	public:

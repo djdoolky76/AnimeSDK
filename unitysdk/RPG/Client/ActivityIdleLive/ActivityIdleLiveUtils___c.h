@@ -18,6 +18,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int ActivityIdleLiveUtils___c_TypeDefinitionIndex = 75067;
+
 	class ActivityIdleLiveUtils___c : public ::System::Object
 	{
 	public:

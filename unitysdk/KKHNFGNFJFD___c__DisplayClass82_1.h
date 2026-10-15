@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define KKHNFGNFJFD___C__DISPLAYCLASS82_1_CTOR_OFFSET UNITYSDK_OFFSET(0xB4CC400)
 #define KKHNFGNFJFD___C__DISPLAYCLASS82_1__ONCASTERMODIFIERPREVIEWAFFECTTARGETS_B__1_OFFSET UNITYSDK_OFFSET(0xB4CC410)
 
+inline static constexpr unsigned int KKHNFGNFJFD___c__DisplayClass82_1_TypeDefinitionIndex = 71307;
+
 	template <typename T>
 	class KKHNFGNFJFD___c__DisplayClass82_1 : public ::System::Object
 	{

@@ -7,6 +7,8 @@
 
 namespace R3
 {
+	inline static constexpr unsigned int EmptyDisposable_TypeDefinitionIndex = 35904;
+
 	class EmptyDisposable : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System { class String; }
 #define MDHBLMOKHBA_NPJGONHMEOD_OFFSET UNITYSDK_OFFSET(0xB8A46F0)
 #define MDHBLMOKHBA_ONIAAGDIGMB_OFFSET UNITYSDK_OFFSET(0xB8A5010)
 
+inline static constexpr unsigned int MDHBLMOKHBA_TypeDefinitionIndex = 61192;
+
 	class MDHBLMOKHBA : public ::HDJIGMBHENE
 	{
 	public:

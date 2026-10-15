@@ -12,6 +12,8 @@
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int HashUtility_TypeDefinitionIndex = 38874;
+
 	class HashUtility : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GEEPIPMBGJD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E456540)
 #define GEEPIPMBGJD___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E456550)
 
+inline static constexpr unsigned int GEEPIPMBGJD___c_TypeDefinitionIndex = 27068;
+
 	class GEEPIPMBGJD___c : public ::System::Object
 	{
 	public:

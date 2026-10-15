@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginTargetCentricReveal_TypeDefinitionIndex = 70120;
+
 	class MonoEffectPluginTargetCentricReveal : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

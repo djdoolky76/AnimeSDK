@@ -21,6 +21,8 @@ namespace Sofa::Core { template <typename T1, typename T2> class ObservableDicti
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightForgeInfo_TypeDefinitionIndex = 64991;
+
 	class GridFightForgeInfo : public ::System::Object
 	{
 	public:

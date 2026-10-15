@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelTalkType_TypeDefinitionIndex = 11150;
+
 	enum class ChimeraDuelTalkType : ::System::Int32
 	{
 		None = 0,

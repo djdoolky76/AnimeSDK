@@ -6,6 +6,8 @@
 #define PNFHKPJGEHM_COMPARE_OFFSET UNITYSDK_OFFSET(0xC337DB0)
 #define PNFHKPJGEHM_CTOR_OFFSET UNITYSDK_OFFSET(0xC337E10)
 
+inline static constexpr unsigned int PNFHKPJGEHM_TypeDefinitionIndex = 52875;
+
 	class PNFHKPJGEHM : public ::System::Object
 	{
 	public:

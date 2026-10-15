@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByPreCalcHPDamage_TypeDefinitionIndex = 23266;
+
 	class SetDynamicValueByPreCalcHPDamage : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

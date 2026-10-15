@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HoYoChannelInterface___c__DisplayClass52_0_TypeDefinitionIndex = 46530;
+
 	class HoYoChannelInterface___c__DisplayClass52_0 : public ::System::Object
 	{
 	public:

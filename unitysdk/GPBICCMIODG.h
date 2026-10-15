@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GPBICCMIODG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15B3D090)
 #define GPBICCMIODG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B3D1F0)
 
+inline static constexpr unsigned int GPBICCMIODG_TypeDefinitionIndex = 52536;
+
 	class GPBICCMIODG
 	{
 	public:

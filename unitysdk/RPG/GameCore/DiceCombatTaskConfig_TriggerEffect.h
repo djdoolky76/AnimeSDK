@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_TriggerEffect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_TriggerEffect_TypeDefinitionIndex = 16036;
+
 	class DiceCombatTaskConfig_TriggerEffect : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

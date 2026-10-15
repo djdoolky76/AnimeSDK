@@ -3,6 +3,8 @@
 
 namespace RPG::Embree
 {
+	inline static constexpr unsigned int EmbreeWrapperUnsafe_RTCIntersectArguments_TypeDefinitionIndex = 47030;
+
 	struct alignas(4) EmbreeWrapperUnsafe_RTCIntersectArguments
 	{
 		::System::UInt32 flags; // 0x10

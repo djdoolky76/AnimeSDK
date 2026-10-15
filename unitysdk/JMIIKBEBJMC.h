@@ -28,6 +28,8 @@ namespace System { class String; }
 #define JMIIKBEBJMC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E78CB30)
 #define JMIIKBEBJMC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E78CB90)
 
+inline static constexpr unsigned int JMIIKBEBJMC_TypeDefinitionIndex = 29813;
+
 	class JMIIKBEBJMC : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class SmoothMask; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SpritePresetController_TypeDefinitionIndex = 69027;
+
 	class SpritePresetController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -39,6 +39,8 @@ namespace System { class String; }
 #define CEEBEKFBONM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0914D0)
 #define CEEBEKFBONM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E091530)
 
+inline static constexpr unsigned int CEEBEKFBONM_TypeDefinitionIndex = 31910;
+
 	class CEEBEKFBONM : public ::System::Object
 	{
 	public:

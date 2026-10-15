@@ -11,6 +11,8 @@ namespace System { class String; }
 #define MAFLMGNLFNA_OLGDCGGNABH_OFFSET UNITYSDK_OFFSET(0xB84C650)
 #define MAFLMGNLFNA_SET_DAMAGETYPE_OFFSET UNITYSDK_OFFSET(0xB84C6B0)
 
+inline static constexpr unsigned int MAFLMGNLFNA_TypeDefinitionIndex = 72100;
+
 	class MAFLMGNLFNA : public ::System::Object
 	{
 	public:

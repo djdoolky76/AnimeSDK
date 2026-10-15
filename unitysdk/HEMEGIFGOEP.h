@@ -8,6 +8,8 @@ namespace RPG::GameCore { class AvatarRowData; }
 #define HEMEGIFGOEP_CTOR_OFFSET UNITYSDK_OFFSET(0x15C5B0D0)
 #define HEMEGIFGOEP_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15C5B040)
 
+inline static constexpr unsigned int HEMEGIFGOEP_TypeDefinitionIndex = 62634;
+
 	class HEMEGIFGOEP : public ::System::Object
 	{
 	public:

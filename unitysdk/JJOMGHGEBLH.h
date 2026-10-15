@@ -8,6 +8,8 @@
 #define JJOMGHGEBLH_GAJOGNKBPJC_OFFSET UNITYSDK_OFFSET(0xB209F00)
 #define JJOMGHGEBLH_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB209EB0)
 
+inline static constexpr unsigned int JJOMGHGEBLH_TypeDefinitionIndex = 59317;
+
 	class JJOMGHGEBLH : public ::HFCIKOMDEIM
 	{
 	public:

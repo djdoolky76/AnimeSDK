@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int NintendoSwitchProAndroidUnityProfile_TypeDefinitionIndex = 40979;
+
 	class NintendoSwitchProAndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

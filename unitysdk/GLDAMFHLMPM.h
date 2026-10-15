@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GLDAMFHLMPM_OEBAIFMNCOL_OFFSET UNITYSDK_OFFSET(0x15AAE050)
 #define GLDAMFHLMPM_PBOMNPMKLKE_OFFSET UNITYSDK_OFFSET(0x15AAE1B0)
 
+inline static constexpr unsigned int GLDAMFHLMPM_TypeDefinitionIndex = 59850;
+
 	class GLDAMFHLMPM : public ::System::Object
 	{
 	public:

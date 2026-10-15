@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define BPHLKPJBDIM_KKKKNGADDHP_OFFSET UNITYSDK_OFFSET(0xC1A57B0)
 #define BPHLKPJBDIM_PFMCNHJGDBM_OFFSET UNITYSDK_OFFSET(0xC1A5760)
 
+inline static constexpr unsigned int BPHLKPJBDIM_TypeDefinitionIndex = 66685;
+
 	class BPHLKPJBDIM : public ::FFAOGKGJGPO
 	{
 	public:

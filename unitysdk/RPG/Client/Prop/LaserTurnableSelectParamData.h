@@ -8,6 +8,8 @@ namespace RPG::GameCore { class OptionTriggerInfo; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int LaserTurnableSelectParamData_TypeDefinitionIndex = 78672;
+
 	class LaserTurnableSelectParamData : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::Client { class TeamData; }
 #define IKFPDOOPMFO_JLGJOHBDFKO_OFFSET UNITYSDK_OFFSET(0x164889E0)
 #define IKFPDOOPMFO_KGMDNELHODN_OFFSET UNITYSDK_OFFSET(0x16488A70)
 
+inline static constexpr unsigned int IKFPDOOPMFO_TypeDefinitionIndex = 61188;
+
 	class IKFPDOOPMFO : public ::HDJIGMBHENE
 	{
 	public:

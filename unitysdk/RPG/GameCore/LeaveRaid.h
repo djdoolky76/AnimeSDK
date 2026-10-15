@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LeaveRaid; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LeaveRaid_TypeDefinitionIndex = 21615;
+
 	class LeaveRaid : public ::RPG::GameCore::TaskConfig
 	{
 	public:

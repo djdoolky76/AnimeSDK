@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NormDistanceLodTemplate_TypeDefinitionIndex = 19207;
+
 	class NormDistanceLodTemplate : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG { template <typename T> class PoolHashSet_1; }
 #define JKLGCEPNNGP_CLEAR_OFFSET UNITYSDK_OFFSET(0xB21FA10)
 #define JKLGCEPNNGP_CTOR_OFFSET UNITYSDK_OFFSET(0xB21FA90)
 
+inline static constexpr unsigned int JKLGCEPNNGP_TypeDefinitionIndex = 53500;
+
 	class JKLGCEPNNGP : public ::System::Object
 	{
 	public:

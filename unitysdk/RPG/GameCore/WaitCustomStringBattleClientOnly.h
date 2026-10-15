@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitCustomStringBattleClientOnly; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitCustomStringBattleClientOnly_TypeDefinitionIndex = 22906;
+
 	class WaitCustomStringBattleClientOnly : public ::RPG::GameCore::WaitCustomString
 	{
 	public:

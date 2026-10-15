@@ -125,6 +125,8 @@ namespace UnityEngine::UI { class LayoutGroup; }
 #define ANJOILDLGOC__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x1559C0E0)
 #define ANJOILDLGOC__ONTICK_OFFSET UNITYSDK_OFFSET(0x1559BF90)
 
+inline static constexpr unsigned int ANJOILDLGOC_TypeDefinitionIndex = 72369;
+
 	class ANJOILDLGOC : public ::FMPCODLIOLG
 	{
 	public:

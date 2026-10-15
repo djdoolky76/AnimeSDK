@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define PFBILMDGFHE_CTOR_OFFSET UNITYSDK_OFFSET(0xC2075E0)
 
+inline static constexpr unsigned int PFBILMDGFHE_TypeDefinitionIndex = 73903;
+
 	class PFBILMDGFHE : public ::System::Object
 	{
 	public:

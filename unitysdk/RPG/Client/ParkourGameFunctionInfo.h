@@ -16,6 +16,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ParkourGameFunctionInfo_TypeDefinitionIndex = 61844;
+
 	class ParkourGameFunctionInfo : public ::System::Object
 	{
 	public:

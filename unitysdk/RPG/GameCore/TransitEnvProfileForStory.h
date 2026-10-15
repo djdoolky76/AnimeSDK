@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TransitEnvProfileForStory; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TransitEnvProfileForStory_TypeDefinitionIndex = 21901;
+
 	class TransitEnvProfileForStory : public ::RPG::GameCore::TransitEnvProfile
 	{
 	public:

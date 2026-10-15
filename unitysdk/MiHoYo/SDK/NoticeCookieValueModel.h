@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int NoticeCookieValueModel_TypeDefinitionIndex = 7556;
+
 	class NoticeCookieValueModel : public ::System::Object
 	{
 	public:

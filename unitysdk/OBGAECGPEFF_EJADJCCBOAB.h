@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class Nullable; }
 namespace System { class String; }
 
+inline static constexpr unsigned int OBGAECGPEFF_EJADJCCBOAB_TypeDefinitionIndex = 54991;
+
 	struct alignas(8) OBGAECGPEFF_EJADJCCBOAB
 	{
 		::System::String* AABNPBGMOFN; // 0x10

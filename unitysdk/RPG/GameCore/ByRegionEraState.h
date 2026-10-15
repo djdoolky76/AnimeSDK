@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByRegionEraState_TypeDefinitionIndex = 22332;
+
 	class ByRegionEraState : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

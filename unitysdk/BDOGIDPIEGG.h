@@ -17,6 +17,8 @@ namespace System { class String; }
 #define BDOGIDPIEGG_NLOLABEDPHJ_OFFSET UNITYSDK_OFFSET(0x163066E0)
 #define BDOGIDPIEGG__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0x16306090)
 
+inline static constexpr unsigned int BDOGIDPIEGG_TypeDefinitionIndex = 54029;
+
 	class BDOGIDPIEGG : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 #define IKIGGAKDIGO_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CB78030)
 #define IKIGGAKDIGO_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CB78070)
 
+inline static constexpr unsigned int IKIGGAKDIGO_TypeDefinitionIndex = 43267;
+
 	class IKIGGAKDIGO : public ::System::Object
 	{
 	public:

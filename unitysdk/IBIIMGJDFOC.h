@@ -41,6 +41,8 @@ namespace UnityEngine::UI { class Text; }
 #define IBIIMGJDFOC__ONBIND_OFFSET UNITYSDK_OFFSET(0x15E38DB0)
 #define IBIIMGJDFOC__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x15E39540)
 
+inline static constexpr unsigned int IBIIMGJDFOC_TypeDefinitionIndex = 71277;
+
 	class IBIIMGJDFOC : public ::CAOEEDDAPIK
 	{
 	public:

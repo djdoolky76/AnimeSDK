@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AudioBehaviour_TypeDefinitionIndex = 5147;
+
 	class AudioBehaviour : public ::UnityEngine::Behaviour
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StreamingFeature_TypeDefinitionIndex = 67936;
+
 	class StreamingFeature : public ::System::Object
 	{
 	public:

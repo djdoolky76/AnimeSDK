@@ -18,6 +18,8 @@ namespace System { class String; }
 #define FEMGDPFONMP_SET_DUMMYINVERSEDINDEX_OFFSET UNITYSDK_OFFSET(0x15725AC0)
 #define FEMGDPFONMP_SET_NODEID_OFFSET UNITYSDK_OFFSET(0x157259D0)
 
+inline static constexpr unsigned int FEMGDPFONMP_TypeDefinitionIndex = 72163;
+
 	class FEMGDPFONMP : public ::System::Object
 	{
 	public:

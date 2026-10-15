@@ -3,6 +3,8 @@
 
 namespace Mono
 {
+	inline static constexpr unsigned int RuntimeStructs_MonoError_TypeDefinitionIndex = 18;
+
 	struct alignas(4) RuntimeStructs_MonoError
 	{
 		::System::UInt16 error_code; // 0x10

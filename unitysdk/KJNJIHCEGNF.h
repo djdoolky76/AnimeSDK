@@ -8,6 +8,8 @@ namespace RPG::Client { class SettledPunkLordData; }
 #define KJNJIHCEGNF_DBOCFDFIPGB_OFFSET UNITYSDK_OFFSET(0xB45E0D0)
 #define KJNJIHCEGNF_GGEGEHBEFGN_OFFSET UNITYSDK_OFFSET(0xB45E170)
 
+inline static constexpr unsigned int KJNJIHCEGNF_TypeDefinitionIndex = 66748;
+
 	class KJNJIHCEGNF : public ::System::Object
 	{
 	public:

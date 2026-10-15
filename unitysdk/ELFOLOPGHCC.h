@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define ELFOLOPGHCC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD9B4E0)
 #define ELFOLOPGHCC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD9AE00)
 
+inline static constexpr unsigned int ELFOLOPGHCC_TypeDefinitionIndex = 11144;
+
 	class ELFOLOPGHCC : public ::System::Object
 	{
 	public:

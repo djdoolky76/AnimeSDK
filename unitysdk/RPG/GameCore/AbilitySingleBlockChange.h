@@ -17,6 +17,8 @@ namespace RPG::GameCore { class AbilitySingleBlockChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilitySingleBlockChange_TypeDefinitionIndex = 56576;
+
 	class AbilitySingleBlockChange : public ::CMPGEAFHHDC
 	{
 	public:

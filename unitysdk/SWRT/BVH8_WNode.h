@@ -7,6 +7,8 @@
 
 namespace SWRT
 {
+	inline static constexpr unsigned int BVH8_WNode_TypeDefinitionIndex = 37499;
+
 	class BVH8_WNode : public ::System::Object
 	{
 	public:

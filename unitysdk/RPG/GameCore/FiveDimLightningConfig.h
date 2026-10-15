@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimLightningConfig_TypeDefinitionIndex = 18603;
+
 	class FiveDimLightningConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingCarStatDescItemViewModel_TypeDefinitionIndex = 82018;
+
 	class B51RacingCarStatDescItemViewModel : public ::System::Object
 	{
 	public:

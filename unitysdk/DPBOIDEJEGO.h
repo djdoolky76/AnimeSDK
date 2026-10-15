@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DPBOIDEJEGO_CTOR_OFFSET UNITYSDK_OFFSET(0x11FF9260)
 #define DPBOIDEJEGO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FF9290)
 
+inline static constexpr unsigned int DPBOIDEJEGO_TypeDefinitionIndex = 55381;
+
 	class DPBOIDEJEGO
 	{
 	public:

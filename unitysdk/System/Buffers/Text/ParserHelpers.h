@@ -7,6 +7,8 @@
 
 namespace System::Buffers::Text
 {
+	inline static constexpr unsigned int ParserHelpers_TypeDefinitionIndex = 5005;
+
 	class ParserHelpers : public ::System::Object
 	{
 	public:

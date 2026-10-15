@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleAIDegrade; }
 #define INJLIOHEJCL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB789B0)
 #define INJLIOHEJCL_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1CB789C0)
 
+inline static constexpr unsigned int INJLIOHEJCL_TypeDefinitionIndex = 43130;
+
 	class INJLIOHEJCL : public ::BKABEBEPPJK
 	{
 	public:

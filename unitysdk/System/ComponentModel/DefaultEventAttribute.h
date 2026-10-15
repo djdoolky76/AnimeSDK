@@ -13,6 +13,8 @@ namespace System::ComponentModel { class DefaultEventAttribute; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int DefaultEventAttribute_TypeDefinitionIndex = 2577;
+
 	class DefaultEventAttribute : public ::System::Attribute
 	{
 	public:

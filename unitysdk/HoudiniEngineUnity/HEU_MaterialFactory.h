@@ -48,6 +48,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_MaterialFactory_TypeDefinitionIndex = 40580;
+
 	class HEU_MaterialFactory : public ::System::Object
 	{
 	public:

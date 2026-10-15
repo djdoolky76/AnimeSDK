@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SwitchBubbleTalk; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchBubbleTalk_TypeDefinitionIndex = 22294;
+
 	class SwitchBubbleTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

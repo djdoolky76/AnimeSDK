@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtBattleSelectTargetStrategy_TypeDefinitionIndex = 24800;
+
 	enum class RtBattleSelectTargetStrategy : ::System::Int32
 	{
 		Nearest = 0,

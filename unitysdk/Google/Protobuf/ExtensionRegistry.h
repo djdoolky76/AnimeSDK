@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Google::Protobuf
 {
+	inline static constexpr unsigned int ExtensionRegistry_TypeDefinitionIndex = 5372;
+
 	class ExtensionRegistry : public ::System::Object
 	{
 	public:

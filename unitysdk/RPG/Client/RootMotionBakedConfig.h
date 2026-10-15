@@ -19,6 +19,8 @@ namespace RPG::GameCore { class AdventureCharacterConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RootMotionBakedConfig_TypeDefinitionIndex = 60060;
+
 	class RootMotionBakedConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

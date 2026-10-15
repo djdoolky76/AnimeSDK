@@ -28,6 +28,8 @@ namespace System { class Object; }
 #define BEACKINOAPF_PKMMDGKOCPB_OFFSET UNITYSDK_OFFSET(0x16307EF0)
 #define BEACKINOAPF_REMOVE_ONSTATEENTERED_OFFSET UNITYSDK_OFFSET(0x163077C0)
 
+inline static constexpr unsigned int BEACKINOAPF_TypeDefinitionIndex = 63889;
+
 	class BEACKINOAPF : public ::System::Object
 	{
 	public:

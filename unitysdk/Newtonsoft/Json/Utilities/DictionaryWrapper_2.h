@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int DictionaryWrapper_2_TypeDefinitionIndex = 9665;
+
 	template <typename T1, typename T2>
 	class DictionaryWrapper_2 : public ::System::Object
 	{

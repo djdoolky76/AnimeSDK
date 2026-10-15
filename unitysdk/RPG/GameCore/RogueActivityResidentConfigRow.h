@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActivityResidentConfigRow_TypeDefinitionIndex = 14703;
+
 	class RogueActivityResidentConfigRow : public ::System::Object
 	{
 	public:

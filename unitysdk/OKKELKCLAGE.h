@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define OKKELKCLAGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xBEDC140)
 #define OKKELKCLAGE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBEDC090)
 
+inline static constexpr unsigned int OKKELKCLAGE_TypeDefinitionIndex = 54082;
+
 	class OKKELKCLAGE : public ::CMPGEAFHHDC
 	{
 	public:

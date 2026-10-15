@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define JOAFIDAMHJM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA66D0)
 
+inline static constexpr unsigned int JOAFIDAMHJM_TypeDefinitionIndex = 43304;
+
 	class JOAFIDAMHJM : public ::System::Object
 	{
 	public:

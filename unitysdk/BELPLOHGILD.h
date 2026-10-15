@@ -17,6 +17,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BELPLOHGILD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB156A50)
 #define BELPLOHGILD_TICK_OFFSET UNITYSDK_OFFSET(0xB156AA0)
 
+inline static constexpr unsigned int BELPLOHGILD_TypeDefinitionIndex = 52344;
+
 	class BELPLOHGILD : public ::GELIALJDFBL
 	{
 	public:

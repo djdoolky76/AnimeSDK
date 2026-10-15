@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FiveDimCameraSimpleOverrideFollow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimCameraSimpleOverrideFollow_TypeDefinitionIndex = 18623;
+
 	class FiveDimCameraSimpleOverrideFollow : public ::RPG::GameCore::JsonConfig
 	{
 	public:

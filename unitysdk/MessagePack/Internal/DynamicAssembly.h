@@ -16,6 +16,8 @@ namespace System::Reflection::Emit { class TypeBuilder; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int DynamicAssembly_TypeDefinitionIndex = 7290;
+
 	class DynamicAssembly : public ::System::Object
 	{
 	public:

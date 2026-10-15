@@ -7,6 +7,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityExtraProperty_TypeDefinitionIndex = 54415;
+
 	struct alignas(4) AbilityExtraProperty
 	{
 		::RPG::GameCore::FixPoint ExtraRatio1; // 0x10

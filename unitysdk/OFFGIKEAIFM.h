@@ -26,6 +26,8 @@ namespace System { class Action; }
 #define OFFGIKEAIFM_OPAJGIJMHPN_OFFSET UNITYSDK_OFFSET(0xBE40900)
 #define OFFGIKEAIFM_PGLJLODABLB_OFFSET UNITYSDK_OFFSET(0xBE407A0)
 
+inline static constexpr unsigned int OFFGIKEAIFM_TypeDefinitionIndex = 75725;
+
 	class OFFGIKEAIFM : public ::System::Object
 	{
 	public:

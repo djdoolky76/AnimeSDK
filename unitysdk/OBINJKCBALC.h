@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OBINJKCBALC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EBB09A0)
 #define OBINJKCBALC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EBB0A00)
 
+inline static constexpr unsigned int OBINJKCBALC_TypeDefinitionIndex = 27736;
+
 	class OBINJKCBALC : public ::System::Object
 	{
 	public:

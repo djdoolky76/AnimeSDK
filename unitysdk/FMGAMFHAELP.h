@@ -6,6 +6,8 @@ class OAIPJANPCEK;
 
 #define FMGAMFHAELP_CTOR_OFFSET UNITYSDK_OFFSET(0x15853EB0)
 
+inline static constexpr unsigned int FMGAMFHAELP_TypeDefinitionIndex = 77780;
+
 	class FMGAMFHAELP : public ::DJJKNHPLHDI
 	{
 	public:

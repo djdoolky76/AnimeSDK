@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ImageForSmoothMask_TypeDefinitionIndex = 72545;
+
 	class ImageForSmoothMask : public ::UnityEngine::UI::Image
 	{
 	public:

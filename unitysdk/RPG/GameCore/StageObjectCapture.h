@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageObjectCapture_TypeDefinitionIndex = 17227;
+
 	class StageObjectCapture : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int Common_CpuUsage_TypeDefinitionIndex = 40138;
+
 	struct alignas(4) Common_CpuUsage
 	{
 		::System::Single last; // 0x10

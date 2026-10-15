@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 
 #define CHARACTERLINELIGHTGROUP_BCMLJEIDFBN_CTOR_OFFSET UNITYSDK_OFFSET(0xDCE9070)
 
+inline static constexpr unsigned int CharacterLineLightGroup_BCMLJEIDFBN_TypeDefinitionIndex = 47464;
+
 	class CharacterLineLightGroup_BCMLJEIDFBN : public ::System::Object
 	{
 	public:

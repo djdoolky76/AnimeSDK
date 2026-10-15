@@ -12,6 +12,8 @@ namespace System::Collections { class IEnumerator; }
 #define HANCMHGEOJM__PERSISTENTLOAD_D__2_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x15B98880)
 #define HANCMHGEOJM__PERSISTENTLOAD_D__2_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15B98610)
 
+inline static constexpr unsigned int HANCMHGEOJM__PersistentLoad_d__2_TypeDefinitionIndex = 73886;
+
 	template <typename T1, typename T2>
 	class HANCMHGEOJM__PersistentLoad_d__2 : public ::System::Object
 	{

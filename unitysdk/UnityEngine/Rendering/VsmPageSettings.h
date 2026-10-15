@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int VsmPageSettings_TypeDefinitionIndex = 4891;
+
 	struct alignas(4) VsmPageSettings
 	{
 		::System::Boolean autoUpdate; // 0x10

@@ -7,6 +7,8 @@
 #define GJPBCMCJDCC_OMAFDLCGFDF_1_OFFSET UNITYSDK_OFFSET(0x15A7F860)
 #define GJPBCMCJDCC_OMAFDLCGFDF_OFFSET UNITYSDK_OFFSET(0x15A7F7F0)
 
+inline static constexpr unsigned int GJPBCMCJDCC_TypeDefinitionIndex = 69207;
+
 	class GJPBCMCJDCC : public ::System::Object
 	{
 	public:

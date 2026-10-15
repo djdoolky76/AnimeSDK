@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class TreeSet_1; 
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int SortedDictionary_2_TypeDefinitionIndex = 3018;
+
 	template <typename T1, typename T2>
 	class SortedDictionary_2 : public ::System::Object
 	{

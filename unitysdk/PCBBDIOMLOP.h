@@ -29,6 +29,8 @@ namespace UnityEngine { class Transform; }
 #define PCBBDIOMLOP_OHOCOHKIEJF_1_OFFSET UNITYSDK_OFFSET(0xBFFC5C0)
 #define PCBBDIOMLOP_OHOCOHKIEJF_OFFSET UNITYSDK_OFFSET(0xBFFB830)
 
+inline static constexpr unsigned int PCBBDIOMLOP_TypeDefinitionIndex = 48895;
+
 	class PCBBDIOMLOP : public ::System::Object
 	{
 	public:

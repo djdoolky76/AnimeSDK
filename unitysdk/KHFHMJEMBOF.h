@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KHFHMJEMBOF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E842DF0)
 #define KHFHMJEMBOF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E842E50)
 
+inline static constexpr unsigned int KHFHMJEMBOF_TypeDefinitionIndex = 25539;
+
 	class KHFHMJEMBOF : public ::System::Object
 	{
 	public:

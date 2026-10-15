@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define BIKFPBGFCHP_JJPIPEJJOEG_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB4B14B0)
 #define BIKFPBGFCHP_JJPIPEJJOEG_INVOKE_OFFSET UNITYSDK_OFFSET(0xB4AF9A0)
 
+inline static constexpr unsigned int BIKFPBGFCHP_JJPIPEJJOEG_TypeDefinitionIndex = 79456;
+
 	class BIKFPBGFCHP_JJPIPEJJOEG : public ::System::MulticastDelegate
 	{
 	public:

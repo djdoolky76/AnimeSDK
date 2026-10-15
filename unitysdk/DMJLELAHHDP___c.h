@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define DMJLELAHHDP___C__ONTASKBEGIN_B__1_1_OFFSET UNITYSDK_OFFSET(0xFEC3890)
 #define DMJLELAHHDP___C__ONTASKBEGIN_B__1_2_OFFSET UNITYSDK_OFFSET(0xFEC38A0)
 
+inline static constexpr unsigned int DMJLELAHHDP___c_TypeDefinitionIndex = 52302;
+
 	class DMJLELAHHDP___c : public ::System::Object
 	{
 	public:

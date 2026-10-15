@@ -3,6 +3,8 @@
 
 namespace System::Net::Sockets
 {
+	inline static constexpr unsigned int IOControlCode_TypeDefinitionIndex = 2895;
+
 	enum class IOControlCode : ::System::Int64
 	{
 		AsyncIO = 2147772029,

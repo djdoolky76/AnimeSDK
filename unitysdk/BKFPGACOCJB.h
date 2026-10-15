@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BKFPGACOCJB_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB7B3DE0)
 #define BKFPGACOCJB_NEDKCFIHLPJ_OFFSET UNITYSDK_OFFSET(0xB7B3F70)
 
+inline static constexpr unsigned int BKFPGACOCJB_TypeDefinitionIndex = 74205;
+
 	class BKFPGACOCJB : public ::FFPAFGCOKHK
 	{
 	public:

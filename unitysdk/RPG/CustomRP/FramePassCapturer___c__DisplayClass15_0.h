@@ -8,6 +8,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int FramePassCapturer___c__DisplayClass15_0_TypeDefinitionIndex = 37625;
+
 	class FramePassCapturer___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ class PBGNKMMDBGD;
 #define DKEKDFJALPH_KCBKDDOOIHH_OFFSET UNITYSDK_OFFSET(0x1C5F4FD0)
 #define DKEKDFJALPH_MHHIGNCFNOM_OFFSET UNITYSDK_OFFSET(0x1C5F2E60)
 
+inline static constexpr unsigned int DKEKDFJALPH_TypeDefinitionIndex = 37446;
+
 	class DKEKDFJALPH : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RootMotion::FinalIK
 {
+	inline static constexpr unsigned int IKSolver_TipPoint_TypeDefinitionIndex = 46014;
+
 	class IKSolver_TipPoint : public ::System::Object
 	{
 	public:

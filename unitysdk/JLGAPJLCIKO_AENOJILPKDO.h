@@ -7,6 +7,8 @@ namespace System { class Object; }
 #define JLGAPJLCIKO_AENOJILPKDO_EQUALS_OFFSET UNITYSDK_OFFSET(0x11670)
 #define JLGAPJLCIKO_AENOJILPKDO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x11680)
 
+inline static constexpr unsigned int JLGAPJLCIKO_AENOJILPKDO_TypeDefinitionIndex = 70682;
+
 	struct alignas(8) JLGAPJLCIKO_AENOJILPKDO
 	{
 		::System::Int32 ELBDFOOMPON; // 0x10

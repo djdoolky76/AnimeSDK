@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FBBHAKEHLEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E32F280)
 #define FBBHAKEHLEC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E32F2E0)
 
+inline static constexpr unsigned int FBBHAKEHLEC_TypeDefinitionIndex = 26769;
+
 	class FBBHAKEHLEC : public ::System::Object
 	{
 	public:

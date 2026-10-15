@@ -9,6 +9,8 @@ namespace System { class String; }
 #define IHHFABFLIKK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1641F280)
 #define IHHFABFLIKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1641F270)
 
+inline static constexpr unsigned int IHHFABFLIKK_TypeDefinitionIndex = 56238;
+
 	class IHHFABFLIKK : public ::NMNGHKMHDOK
 	{
 	public:

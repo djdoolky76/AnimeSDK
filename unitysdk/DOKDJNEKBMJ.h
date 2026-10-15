@@ -5,6 +5,8 @@ namespace RPG::Client { class BaseGachaPoolData; }
 
 #define DOKDJNEKBMJ_AGDONHEEJGP_OFFSET UNITYSDK_OFFSET(0x11FED2F0)
 
+inline static constexpr unsigned int DOKDJNEKBMJ_TypeDefinitionIndex = 64321;
+
 	class DOKDJNEKBMJ : public ::System::Object
 	{
 	public:

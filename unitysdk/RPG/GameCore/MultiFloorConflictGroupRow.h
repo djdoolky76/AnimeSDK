@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MultiFloorConflictGroupRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MultiFloorConflictGroupRow_TypeDefinitionIndex = 14056;
+
 	class MultiFloorConflictGroupRow : public ::System::Object
 	{
 	public:

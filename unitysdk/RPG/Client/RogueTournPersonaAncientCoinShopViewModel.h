@@ -47,6 +47,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaAncientCoinShopViewModel_TypeDefinitionIndex = 72876;
+
 	class RogueTournPersonaAncientCoinShopViewModel : public ::RPG::Client::RogueTournPersonaBaseViewModel
 	{
 	public:

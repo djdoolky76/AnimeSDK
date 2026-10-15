@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleExtraPropertyAddition_TypeDefinitionIndex = 24766;
+
 	enum class BattleExtraPropertyAddition : ::System::Int32
 	{
 		RelicValueExtraAdditionRatio = 0,

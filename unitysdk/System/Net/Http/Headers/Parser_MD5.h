@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int Parser_MD5_TypeDefinitionIndex = 3816;
+
 	class Parser_MD5 : public ::System::Object
 	{
 	public:

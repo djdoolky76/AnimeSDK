@@ -11,6 +11,8 @@ namespace System { class String; }
 #define ANMMOFEEPEP_GNNPFBBMFLA_OFFSET UNITYSDK_OFFSET(0x2E780F0)
 #define ANMMOFEEPEP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2E780E0)
 
+inline static constexpr unsigned int ANMMOFEEPEP_TypeDefinitionIndex = 64216;
+
 	struct alignas(4) ANMMOFEEPEP
 	{
 		::System::UInt32 LLDCHLHNADA; // 0x10

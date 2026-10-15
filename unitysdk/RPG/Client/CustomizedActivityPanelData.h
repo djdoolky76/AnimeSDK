@@ -15,6 +15,8 @@ namespace RPG::Client { class ScheduleData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CustomizedActivityPanelData_TypeDefinitionIndex = 61709;
+
 	class CustomizedActivityPanelData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

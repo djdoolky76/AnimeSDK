@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PIBOMOCKACA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF41D20)
 #define PIBOMOCKACA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF41D30)
 
+inline static constexpr unsigned int PIBOMOCKACA___c_TypeDefinitionIndex = 33068;
+
 	class PIBOMOCKACA___c : public ::System::Object
 	{
 	public:

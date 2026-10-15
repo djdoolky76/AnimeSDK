@@ -5,6 +5,8 @@
 #define BNBNHLHIJAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBDC6EF0)
 #define BNBNHLHIJAJ_KHNCMBEFIKI_OFFSET UNITYSDK_OFFSET(0xBDC6EA0)
 
+inline static constexpr unsigned int BNBNHLHIJAJ_TypeDefinitionIndex = 55757;
+
 	class BNBNHLHIJAJ : public ::System::Object
 	{
 	public:

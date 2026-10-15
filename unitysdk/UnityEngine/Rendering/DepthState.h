@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DepthState_TypeDefinitionIndex = 4751;
+
 	struct alignas(4) DepthState
 	{
 		::System::Byte m_WriteEnabled; // 0x10

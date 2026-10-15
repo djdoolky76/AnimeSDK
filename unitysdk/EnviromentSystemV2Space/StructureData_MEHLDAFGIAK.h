@@ -6,6 +6,8 @@
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int StructureData_MEHLDAFGIAK_TypeDefinitionIndex = 49404;
+
 	class StructureData_MEHLDAFGIAK : public ::EnviromentSystemV2Space::BlendingValBase
 	{
 	public:

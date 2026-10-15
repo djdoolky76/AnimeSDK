@@ -12,6 +12,8 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Unity
 {
+	inline static constexpr unsigned int RangeIntFormatter_TypeDefinitionIndex = 10138;
+
 	class RangeIntFormatter : public ::System::Object
 	{
 	public:

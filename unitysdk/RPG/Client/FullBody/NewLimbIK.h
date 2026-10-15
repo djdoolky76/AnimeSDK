@@ -13,6 +13,8 @@ namespace RPG::Client::FullBody { class IKSolverLimb; }
 
 namespace RPG::Client::FullBody
 {
+	inline static constexpr unsigned int NewLimbIK_TypeDefinitionIndex = 74273;
+
 	class NewLimbIK : public ::RPG::Client::FullBody::NewIK
 	{
 	public:

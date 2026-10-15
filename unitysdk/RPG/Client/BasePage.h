@@ -7,6 +7,8 @@ class LBAMBIMMJKB;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BasePage_TypeDefinitionIndex = 71360;
+
 	class BasePage : public ::RPG::Client::UIController
 	{
 	public:

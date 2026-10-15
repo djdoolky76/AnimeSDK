@@ -7,6 +7,8 @@ namespace UnityEngine { class Animation; }
 #define GIFMPFEDFFJ_MPGLJNHHKDF_OFFSET UNITYSDK_OFFSET(0x15A34FB0)
 #define GIFMPFEDFFJ__ONBIND_OFFSET UNITYSDK_OFFSET(0x15A34F50)
 
+inline static constexpr unsigned int GIFMPFEDFFJ_TypeDefinitionIndex = 71817;
+
 	class GIFMPFEDFFJ : public ::FBAJLKHNLHH
 	{
 	public:

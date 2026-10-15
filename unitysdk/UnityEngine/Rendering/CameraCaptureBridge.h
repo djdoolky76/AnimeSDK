@@ -18,6 +18,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CameraCaptureBridge_TypeDefinitionIndex = 35596;
+
 	class CameraCaptureBridge : public ::System::Object
 	{
 	public:

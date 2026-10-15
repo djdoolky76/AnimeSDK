@@ -7,6 +7,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CustomUniqueNameTrack_TypeDefinitionIndex = 47870;
+
 	class CustomUniqueNameTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

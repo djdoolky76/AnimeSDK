@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvByFastDeliverFinish_TypeDefinitionIndex = 22160;
+
 	class AdvByFastDeliverFinish : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define NKHLPLJGCII_MHFNJCLKNMG_OFFSET UNITYSDK_OFFSET(0xBC350B0)
 #define NKHLPLJGCII_NKNNIDKJKOJ_OFFSET UNITYSDK_OFFSET(0xBC35390)
 
+inline static constexpr unsigned int NKHLPLJGCII_TypeDefinitionIndex = 77728;
+
 	class NKHLPLJGCII : public ::System::Object
 	{
 	public:

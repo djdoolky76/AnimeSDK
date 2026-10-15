@@ -7,6 +7,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::LittleGame::RoadRash
 {
+	inline static constexpr unsigned int ProjectileParams_TypeDefinitionIndex = 42934;
+
 	struct alignas(8) ProjectileParams
 	{
 		::System::Single InitHeight; // 0x10

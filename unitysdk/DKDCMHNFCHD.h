@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define DKDCMHNFCHD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF874E30)
 #define DKDCMHNFCHD_TICK_OFFSET UNITYSDK_OFFSET(0xF874EB0)
 
+inline static constexpr unsigned int DKDCMHNFCHD_TypeDefinitionIndex = 58877;
+
 	class DKDCMHNFCHD : public ::GELIALJDFBL
 	{
 	public:

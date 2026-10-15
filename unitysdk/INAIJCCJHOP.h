@@ -4,6 +4,8 @@
 
 #define INAIJCCJHOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C421520)
 
+inline static constexpr unsigned int INAIJCCJHOP_TypeDefinitionIndex = 5076;
+
 	class INAIJCCJHOP : public ::System::Attribute
 	{
 	public:

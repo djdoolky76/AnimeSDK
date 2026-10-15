@@ -8,6 +8,8 @@ namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int BAStateGroupNodeParamaters_TypeDefinitionIndex = 4800;
+
 	struct alignas(4) BAStateGroupNodeParamaters
 	{
 		static ::System::Void Play(::UnityEngine::Rendering::BatchAnimationInstance* a1, ::UnityEngine::Rendering::BANodeHash a2, ::System::Int32 a3, ::System::Int32 a4)

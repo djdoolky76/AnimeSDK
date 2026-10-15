@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::FullBody
 {
+	inline static constexpr unsigned int IKSolverLimb_TypeDefinitionIndex = 74265;
+
 	class IKSolverLimb : public ::RPG::Client::FullBody::IKSolverTrigonometric
 	{
 	public:

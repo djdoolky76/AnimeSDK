@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define AEGMKCGMPKA_STOP_OFFSET UNITYSDK_OFFSET(0xB14F960)
 #define AEGMKCGMPKA__GETDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0xB150C40)
 
+inline static constexpr unsigned int AEGMKCGMPKA_TypeDefinitionIndex = 63937;
+
 	class AEGMKCGMPKA : public ::BHPMNMMGLHI
 	{
 	public:

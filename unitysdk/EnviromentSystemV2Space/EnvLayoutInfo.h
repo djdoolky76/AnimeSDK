@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int EnvLayoutInfo_TypeDefinitionIndex = 49405;
+
 	class EnvLayoutInfo : public ::System::Object
 	{
 	public:

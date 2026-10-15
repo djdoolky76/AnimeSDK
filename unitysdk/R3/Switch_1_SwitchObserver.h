@@ -4,6 +4,8 @@ namespace System { class Object; }
 
 namespace R3
 {
+	inline static constexpr unsigned int Switch_1_SwitchObserver_TypeDefinitionIndex = 35955;
+
 	template <typename T>
 	class Switch_1_SwitchObserver
 	{

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define LGFBMEACHPI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E950910)
 #define LGFBMEACHPI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E950970)
 
+inline static constexpr unsigned int LGFBMEACHPI_TypeDefinitionIndex = 27190;
+
 	class LGFBMEACHPI : public ::System::Object
 	{
 	public:

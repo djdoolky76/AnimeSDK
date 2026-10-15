@@ -8,6 +8,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int Unsafe_A8146F7B73955B1B_TypeDefinitionIndex = 3869;
+
 	class Unsafe_A8146F7B73955B1B : public ::System::Object
 	{
 	public:

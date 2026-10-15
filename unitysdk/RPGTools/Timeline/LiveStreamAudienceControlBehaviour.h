@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class LiveStreamAudienceControlClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int LiveStreamAudienceControlBehaviour_TypeDefinitionIndex = 48166;
+
 	class LiveStreamAudienceControlBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

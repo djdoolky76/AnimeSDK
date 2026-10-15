@@ -46,6 +46,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int ConsoleAccountBindingDialog_TypeDefinitionIndex = 8993;
+
 	class ConsoleAccountBindingDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:

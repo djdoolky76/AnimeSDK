@@ -9,6 +9,8 @@
 
 namespace RPG::Client::ElectricChainV2
 {
+	inline static constexpr unsigned int InterruptedUpdater_TypeDefinitionIndex = 73588;
+
 	class InterruptedUpdater : public ::RPG::Client::ElectricChainV2::RandomUpdater
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::Client { class OnAssetOperationDelegate; }
 
 #define FEMJNDGPBKO_MDOKPNGIDKM_CTOR_OFFSET UNITYSDK_OFFSET(0x15726E60)
 
+inline static constexpr unsigned int FEMJNDGPBKO_MDOKPNGIDKM_TypeDefinitionIndex = 49133;
+
 	class FEMJNDGPBKO_MDOKPNGIDKM : public ::FEMJNDGPBKO_PINAIAPNGMA
 	{
 	public:

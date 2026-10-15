@@ -67,6 +67,8 @@ namespace System { class String; }
 #define EPBMGIOIHEI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3054E0)
 #define EPBMGIOIHEI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E305540)
 
+inline static constexpr unsigned int EPBMGIOIHEI_TypeDefinitionIndex = 25863;
+
 	class EPBMGIOIHEI : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace MiHoYo::SDK::Win { class SecondRealnameGrantPhone; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int SecondRealnameGrantPhone___c__DisplayClass38_0_TypeDefinitionIndex = 9525;
+
 	class SecondRealnameGrantPhone___c__DisplayClass38_0 : public ::System::Object
 	{
 	public:

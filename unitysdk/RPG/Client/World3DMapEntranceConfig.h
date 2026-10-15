@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int World3DMapEntranceConfig_TypeDefinitionIndex = 68281;
+
 	class World3DMapEntranceConfig : public ::System::Object
 	{
 	public:

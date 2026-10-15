@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimFluteDataGroup___c_TypeDefinitionIndex = 77213;
+
 	class FiveDimFluteDataGroup___c : public ::System::Object
 	{
 	public:

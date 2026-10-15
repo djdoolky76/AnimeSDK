@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int TextGenerator_BeforeWordWrapDel_TypeDefinitionIndex = 5046;
+
 	class TextGenerator_BeforeWordWrapDel : public ::System::MulticastDelegate
 	{
 	public:

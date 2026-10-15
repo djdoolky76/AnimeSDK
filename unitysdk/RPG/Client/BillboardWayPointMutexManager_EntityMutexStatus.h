@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BillboardWayPointMutexManager_EntityMutexStatus_TypeDefinitionIndex = 60501;
+
 	class BillboardWayPointMutexManager_EntityMutexStatus : public ::System::Object
 	{
 	public:

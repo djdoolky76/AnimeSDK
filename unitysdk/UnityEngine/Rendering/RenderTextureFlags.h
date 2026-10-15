@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int RenderTextureFlags_TypeDefinitionIndex = 35567;
+
 	enum class RenderTextureFlags : ::System::Int32
 	{
 		kRTFlagNone = 0,

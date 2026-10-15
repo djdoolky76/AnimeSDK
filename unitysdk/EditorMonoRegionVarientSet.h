@@ -4,6 +4,8 @@
 
 #define EDITORMONOREGIONVARIENTSET_CTOR_OFFSET UNITYSDK_OFFSET(0x155DFAD0)
 
+inline static constexpr unsigned int EditorMonoRegionVarientSet_TypeDefinitionIndex = 47398;
+
 	class EditorMonoRegionVarientSet : public ::UnityEngine::MonoBehaviour
 	{
 	public:

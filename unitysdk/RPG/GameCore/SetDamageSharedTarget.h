@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDamageSharedTarget_TypeDefinitionIndex = 22823;
+
 	class SetDamageSharedTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:

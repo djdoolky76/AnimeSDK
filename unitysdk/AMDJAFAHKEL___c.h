@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AMDJAFAHKEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E51A430)
 #define AMDJAFAHKEL___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E51A440)
 
+inline static constexpr unsigned int AMDJAFAHKEL___c_TypeDefinitionIndex = 28547;
+
 	class AMDJAFAHKEL___c : public ::System::Object
 	{
 	public:

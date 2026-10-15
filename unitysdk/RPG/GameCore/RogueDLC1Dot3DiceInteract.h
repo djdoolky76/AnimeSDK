@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLC1Dot3DiceInteract_TypeDefinitionIndex = 22271;
+
 	class RogueDLC1Dot3DiceInteract : public ::RPG::GameCore::TaskConfig
 	{
 	public:

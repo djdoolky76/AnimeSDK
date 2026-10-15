@@ -10,6 +10,8 @@ namespace RPG::Client::Promises { class IPromise; }
 #define MFFPHMCGEOJ___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB8F4F00)
 #define MFFPHMCGEOJ___C__DISPLAYCLASS8_0__SUBMITEXAM_B__0_OFFSET UNITYSDK_OFFSET(0xB8F5990)
 
+inline static constexpr unsigned int MFFPHMCGEOJ___c__DisplayClass8_0_TypeDefinitionIndex = 80247;
+
 	class MFFPHMCGEOJ___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

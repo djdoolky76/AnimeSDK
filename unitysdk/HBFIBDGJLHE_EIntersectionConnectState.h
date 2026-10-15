@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int HBFIBDGJLHE_EIntersectionConnectState_TypeDefinitionIndex = 82184;
+
 	enum class HBFIBDGJLHE_EIntersectionConnectState : ::System::Int32
 	{
 		Close = 0,

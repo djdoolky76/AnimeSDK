@@ -10,6 +10,8 @@ namespace System { class String; }
 #define KFPACANHPDE_SET_DAMAGECOUNTER_OFFSET UNITYSDK_OFFSET(0xB3C99C0)
 #define KFPACANHPDE_SET_DELTASP_X1000_OFFSET UNITYSDK_OFFSET(0xB3C99E0)
 
+inline static constexpr unsigned int KFPACANHPDE_TypeDefinitionIndex = 59000;
+
 	class KFPACANHPDE : public ::JENIFGNJEPE
 	{
 	public:

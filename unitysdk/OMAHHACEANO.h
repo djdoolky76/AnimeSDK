@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define OMAHHACEANO_CTOR_OFFSET UNITYSDK_OFFSET(0xBF17730)
 
+inline static constexpr unsigned int OMAHHACEANO_TypeDefinitionIndex = 57623;
+
 	class OMAHHACEANO : public ::System::Object
 	{
 	public:

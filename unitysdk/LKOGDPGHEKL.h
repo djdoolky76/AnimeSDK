@@ -28,6 +28,8 @@ namespace System { class String; }
 #define LKOGDPGHEKL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9943F0)
 #define LKOGDPGHEKL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E994450)
 
+inline static constexpr unsigned int LKOGDPGHEKL_TypeDefinitionIndex = 31297;
+
 	class LKOGDPGHEKL : public ::System::Object
 	{
 	public:

@@ -332,6 +332,8 @@ namespace System { class Type; }
 
 namespace System
 {
+	inline static constexpr unsigned int Convert_TypeDefinitionIndex = 222;
+
 	class Convert : public ::System::Object
 	{
 	public:

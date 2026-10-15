@@ -8,6 +8,8 @@ namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 #define LAMEBEBEBHO_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB5E72C0)
 #define LAMEBEBEBHO__ONEXECUTE_B__0_0_OFFSET UNITYSDK_OFFSET(0xB5E75A0)
 
+inline static constexpr unsigned int LAMEBEBEBHO_TypeDefinitionIndex = 76253;
+
 	class LAMEBEBEBHO : public ::MLKDDLHNNHH
 	{
 	public:

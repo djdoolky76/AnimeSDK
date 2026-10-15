@@ -6,6 +6,8 @@
 
 namespace RPG::Client::UI3DGame
 {
+	inline static constexpr unsigned int ChimeraBattleGameController_TypeDefinitionIndex = 75751;
+
 	class ChimeraBattleGameController : public ::System::Object
 	{
 	public:

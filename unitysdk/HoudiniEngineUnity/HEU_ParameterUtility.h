@@ -33,6 +33,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_ParameterUtility_TypeDefinitionIndex = 40551;
+
 	class HEU_ParameterUtility : public ::System::Object
 	{
 	public:

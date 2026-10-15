@@ -37,6 +37,8 @@ namespace UnityEngine { class RectTransform; }
 #define EGDAOGCDJBB_NDLAPNBKJMF_OFFSET UNITYSDK_OFFSET(0x13A60440)
 #define EGDAOGCDJBB_PHOPFPMGCFN_OFFSET UNITYSDK_OFFSET(0x13A60FF0)
 
+inline static constexpr unsigned int EGDAOGCDJBB_TypeDefinitionIndex = 78108;
+
 	class EGDAOGCDJBB : public ::System::Object
 	{
 	public:

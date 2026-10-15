@@ -7,6 +7,8 @@
 #define MABIMELMEFF_AACLJANIILC_OFFSET UNITYSDK_OFFSET(0xB83E1C0)
 #define MABIMELMEFF_CTOR_OFFSET UNITYSDK_OFFSET(0xB83E220)
 
+inline static constexpr unsigned int MABIMELMEFF_TypeDefinitionIndex = 74765;
+
 	class MABIMELMEFF : public ::HKHAKEGOLDK
 	{
 	public:

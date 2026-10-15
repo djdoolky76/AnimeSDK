@@ -32,6 +32,8 @@ namespace RPG::Client::TeamTowers { class TeamTowersWindowService; }
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersLobbyPageViewModel_TypeDefinitionIndex = 79068;
+
 	class TeamTowersLobbyPageViewModel : public ::System::Object
 	{
 	public:

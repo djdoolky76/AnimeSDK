@@ -4,6 +4,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2ManifoldPoint_TypeDefinitionIndex = 36705;
+
 	struct alignas(4) B2ManifoldPoint
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 point; // 0x10

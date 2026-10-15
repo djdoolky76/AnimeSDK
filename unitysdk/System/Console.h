@@ -32,6 +32,8 @@ namespace System::Text { class Encoding; }
 
 namespace System
 {
+	inline static constexpr unsigned int Console_TypeDefinitionIndex = 382;
+
 	class Console : public ::System::Object
 	{
 	public:

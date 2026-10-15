@@ -11,6 +11,8 @@ class KHPOKIKCOFO;
 #define LOBMHGLBLEP_HJJEPFOFOKI_OFFSET UNITYSDK_OFFSET(0xB7F4430)
 #define LOBMHGLBLEP_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xB7F3C20)
 
+inline static constexpr unsigned int LOBMHGLBLEP_TypeDefinitionIndex = 75806;
+
 	class LOBMHGLBLEP : public ::System::Object
 	{
 	public:

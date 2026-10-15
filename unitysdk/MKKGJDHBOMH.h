@@ -51,6 +51,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MKKGJDHBOMH_SET_BASEHEAL_OFFSET UNITYSDK_OFFSET(0xB99A090)
 #define MKKGJDHBOMH_SET_BASESHIELD_OFFSET UNITYSDK_OFFSET(0xB99A110)
 
+inline static constexpr unsigned int MKKGJDHBOMH_TypeDefinitionIndex = 55970;
+
 	class MKKGJDHBOMH : public ::System::Object
 	{
 	public:

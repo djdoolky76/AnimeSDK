@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_ChallengerRevival; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_ChallengerRevival_TypeDefinitionIndex = 16080;
+
 	class DiceCombatTaskConfig_ChallengerRevival : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int TimelineControlGameWorldLevelGrid_TypeDefinitionIndex = 42519;
+
 	class TimelineControlGameWorldLevelGrid : public ::System::Object
 	{
 	public:

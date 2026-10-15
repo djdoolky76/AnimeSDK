@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int FAFFMDBPCGJ_GOPAFGGINDG_TypeDefinitionIndex = 76727;
+
 	struct alignas(4) FAFFMDBPCGJ_GOPAFGGINDG
 	{
 		::System::UInt32 GAEMLFENHAG; // 0x10

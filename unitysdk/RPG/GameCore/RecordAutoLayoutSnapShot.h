@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RecordAutoLayoutSnapShot_TypeDefinitionIndex = 23126;
+
 	class RecordAutoLayoutSnapShot : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DMICEOCOGAD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1F0240)
 #define DMICEOCOGAD___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E1F0250)
 
+inline static constexpr unsigned int DMICEOCOGAD___c_TypeDefinitionIndex = 28126;
+
 	class DMICEOCOGAD___c : public ::System::Object
 	{
 	public:

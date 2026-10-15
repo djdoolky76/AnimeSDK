@@ -32,6 +32,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RootMotion::FinalIK
 {
+	inline static constexpr unsigned int IKSolverTrigonometric_TypeDefinitionIndex = 46023;
+
 	class IKSolverTrigonometric : public ::RootMotion::FinalIK::IKSolver
 	{
 	public:

@@ -36,6 +36,8 @@ namespace System { class String; }
 #define KDFPANILFOH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7FE310)
 #define KDFPANILFOH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7FE370)
 
+inline static constexpr unsigned int KDFPANILFOH_TypeDefinitionIndex = 35095;
+
 	class KDFPANILFOH : public ::System::Object
 	{
 	public:

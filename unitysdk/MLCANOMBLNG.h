@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 #define MLCANOMBLNG_NJOBMENFBFJ_OFFSET UNITYSDK_OFFSET(0xB9A5C40)
 #define MLCANOMBLNG_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xB9A5CA0)
 
+inline static constexpr unsigned int MLCANOMBLNG_TypeDefinitionIndex = 71183;
+
 	class MLCANOMBLNG : public ::System::Object
 	{
 	public:

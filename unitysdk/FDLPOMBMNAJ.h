@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FDLPOMBMNAJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x156DE260)
 #define FDLPOMBMNAJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156DE2A0)
 
+inline static constexpr unsigned int FDLPOMBMNAJ_TypeDefinitionIndex = 58579;
+
 	class FDLPOMBMNAJ
 	{
 	public:

@@ -16,6 +16,8 @@ namespace RPG::Client::Promises { class Promise; }
 #define FGDNNLKDLDB_NKNNIDKJKOJ_OFFSET UNITYSDK_OFFSET(0x157588C0)
 #define FGDNNLKDLDB_OPGLAKFNMLD_OFFSET UNITYSDK_OFFSET(0x15758380)
 
+inline static constexpr unsigned int FGDNNLKDLDB_TypeDefinitionIndex = 74713;
+
 	class FGDNNLKDLDB : public ::System::Object
 	{
 	public:

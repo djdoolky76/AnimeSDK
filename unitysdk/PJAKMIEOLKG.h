@@ -42,6 +42,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define PJAKMIEOLKG_PONPDJCKCJH_OFFSET UNITYSDK_OFFSET(0xC279C50)
 #define PJAKMIEOLKG_SET_GRAPHNAME_OFFSET UNITYSDK_OFFSET(0xC279C40)
 
+inline static constexpr unsigned int PJAKMIEOLKG_TypeDefinitionIndex = 57282;
+
 	class PJAKMIEOLKG : public ::RPG::GameCore::FreeStyleController
 	{
 	public:

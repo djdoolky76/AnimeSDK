@@ -25,6 +25,8 @@ namespace System { class String; }
 #define BILENDACAMP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE04F80)
 #define BILENDACAMP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE04FE0)
 
+inline static constexpr unsigned int BILENDACAMP_TypeDefinitionIndex = 27512;
+
 	class BILENDACAMP : public ::System::Object
 	{
 	public:

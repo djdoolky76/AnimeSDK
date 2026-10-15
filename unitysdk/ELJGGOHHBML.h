@@ -12,6 +12,8 @@ namespace UnityEngine { class Renderer; }
 #define ELJGGOHHBML_DFIJDDDDDBC_OFFSET UNITYSDK_OFFSET(0x155261E0)
 #define ELJGGOHHBML_OOAKPDFAKAC_OFFSET UNITYSDK_OFFSET(0x155260B0)
 
+inline static constexpr unsigned int ELJGGOHHBML_TypeDefinitionIndex = 69836;
+
 	class ELJGGOHHBML : public ::System::Object
 	{
 	public:

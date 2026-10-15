@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 #define CHLIAIJFBJF___C__DISPLAYCLASS31_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCF5BCE0)
 #define CHLIAIJFBJF___C__DISPLAYCLASS31_0__ASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0xCF5F530)
 
+inline static constexpr unsigned int CHLIAIJFBJF___c__DisplayClass31_0_TypeDefinitionIndex = 73894;
+
 	class CHLIAIJFBJF___c__DisplayClass31_0 : public ::System::Object
 	{
 	public:

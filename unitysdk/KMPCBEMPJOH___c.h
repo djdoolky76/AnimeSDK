@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define KMPCBEMPJOH___C__GET_STATUSTEXT_B__10_0_OFFSET UNITYSDK_OFFSET(0xB575B40)
 #define KMPCBEMPJOH___C___CTOR_B__17_0_OFFSET UNITYSDK_OFFSET(0xB575B80)
 
+inline static constexpr unsigned int KMPCBEMPJOH___c_TypeDefinitionIndex = 73476;
+
 	class KMPCBEMPJOH___c : public ::System::Object
 	{
 	public:

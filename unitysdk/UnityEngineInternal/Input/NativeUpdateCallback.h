@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace UnityEngineInternal::Input
 {
+	inline static constexpr unsigned int NativeUpdateCallback_TypeDefinitionIndex = 5792;
+
 	class NativeUpdateCallback : public ::System::MulticastDelegate
 	{
 	public:

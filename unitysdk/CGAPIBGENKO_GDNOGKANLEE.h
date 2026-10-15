@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define CGAPIBGENKO_GDNOGKANLEE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xCC65570)
 #define CGAPIBGENKO_GDNOGKANLEE_INVOKE_OFFSET UNITYSDK_OFFSET(0xCC63EB0)
 
+inline static constexpr unsigned int CGAPIBGENKO_GDNOGKANLEE_TypeDefinitionIndex = 54331;
+
 	class CGAPIBGENKO_GDNOGKANLEE : public ::System::MulticastDelegate
 	{
 	public:

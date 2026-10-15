@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPGTools
 {
+	inline static constexpr unsigned int TimelineDataScriptableObject_TypeDefinitionIndex = 47784;
+
 	class TimelineDataScriptableObject : public ::UnityEngine::ScriptableObject
 	{
 	public:

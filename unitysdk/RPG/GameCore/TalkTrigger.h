@@ -60,6 +60,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TalkTrigger_TypeDefinitionIndex = 57531;
+
 	class TalkTrigger : public ::EDLDHDMLJDH
 	{
 	public:

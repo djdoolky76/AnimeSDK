@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 #define FINNKPCHBDI_IINKHPOJOGP_OFFSET UNITYSDK_OFFSET(0x157AF120)
 #define FINNKPCHBDI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x157AFB70)
 
+inline static constexpr unsigned int FINNKPCHBDI_TypeDefinitionIndex = 70397;
+
 	class FINNKPCHBDI : public ::System::Object
 	{
 	public:

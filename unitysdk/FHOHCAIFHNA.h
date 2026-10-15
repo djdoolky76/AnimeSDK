@@ -35,6 +35,8 @@ namespace System { class String; }
 #define FHOHCAIFHNA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E393CA0)
 #define FHOHCAIFHNA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E393D00)
 
+inline static constexpr unsigned int FHOHCAIFHNA_TypeDefinitionIndex = 25563;
+
 	class FHOHCAIFHNA : public ::System::Object
 	{
 	public:

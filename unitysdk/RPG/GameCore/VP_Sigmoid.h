@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VP_Sigmoid_TypeDefinitionIndex = 24060;
+
 	class VP_Sigmoid : public ::RPG::GameCore::ValuePostProcessConfig
 	{
 	public:

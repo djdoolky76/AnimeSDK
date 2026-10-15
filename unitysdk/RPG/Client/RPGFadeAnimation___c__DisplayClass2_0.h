@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGFadeAnimation___c__DisplayClass2_0_TypeDefinitionIndex = 72827;
+
 	class RPGFadeAnimation___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

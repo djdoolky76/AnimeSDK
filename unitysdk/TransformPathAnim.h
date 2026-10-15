@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 #define TRANSFORMPATHANIM_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0xE9E3920)
 #define TRANSFORMPATHANIM_UPDATE_OFFSET UNITYSDK_OFFSET(0xE9E3980)
 
+inline static constexpr unsigned int TransformPathAnim_TypeDefinitionIndex = 47443;
+
 	class TransformPathAnim : public ::UnityEngine::MonoBehaviour
 	{
 	public:

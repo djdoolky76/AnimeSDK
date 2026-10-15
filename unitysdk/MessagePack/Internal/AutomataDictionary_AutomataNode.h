@@ -21,6 +21,8 @@ namespace System::Reflection::Emit { class LocalBuilder; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int AutomataDictionary_AutomataNode_TypeDefinitionIndex = 7282;
+
 	class AutomataDictionary_AutomataNode : public ::System::Object
 	{
 	public:

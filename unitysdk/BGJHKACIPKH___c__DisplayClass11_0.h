@@ -7,6 +7,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define BGJHKACIPKH___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB18AC40)
 #define BGJHKACIPKH___C__DISPLAYCLASS11_0___GETGLOBALNEXTLEVELVALUE_B__0_OFFSET UNITYSDK_OFFSET(0xB18AC90)
 
+inline static constexpr unsigned int BGJHKACIPKH___c__DisplayClass11_0_TypeDefinitionIndex = 65284;
+
 	class BGJHKACIPKH___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LKFKOHLGMOJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E98F170)
 #define LKFKOHLGMOJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E98F1D0)
 
+inline static constexpr unsigned int LKFKOHLGMOJ_TypeDefinitionIndex = 27138;
+
 	class LKFKOHLGMOJ : public ::System::Object
 	{
 	public:

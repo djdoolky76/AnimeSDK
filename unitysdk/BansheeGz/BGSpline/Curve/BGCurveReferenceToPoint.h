@@ -13,6 +13,8 @@ namespace BansheeGz::BGSpline::Curve { class BGCurveReferenceToPoint; }
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGCurveReferenceToPoint_TypeDefinitionIndex = 36024;
+
 	class BGCurveReferenceToPoint : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define NKAFPDKJMMF__SELECTTARGET_D__0_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBC2CA70)
 #define NKAFPDKJMMF__SELECTTARGET_D__0___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xBC2CAB0)
 
+inline static constexpr unsigned int NKAFPDKJMMF__SelectTarget_d__0_TypeDefinitionIndex = 77545;
+
 	class NKAFPDKJMMF__SelectTarget_d__0 : public ::System::Object
 	{
 	public:

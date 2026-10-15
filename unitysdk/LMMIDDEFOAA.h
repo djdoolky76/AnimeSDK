@@ -32,6 +32,8 @@ namespace RPG::GameCore { class TimeRewindEffConfig; }
 #define LMMIDDEFOAA_OHMHJFANEIF_OFFSET UNITYSDK_OFFSET(0xB7CFB20)
 #define LMMIDDEFOAA_PLHDKAPNBCG_OFFSET UNITYSDK_OFFSET(0xB7D00F0)
 
+inline static constexpr unsigned int LMMIDDEFOAA_TypeDefinitionIndex = 60803;
+
 	class LMMIDDEFOAA : public ::System::Object
 	{
 	public:

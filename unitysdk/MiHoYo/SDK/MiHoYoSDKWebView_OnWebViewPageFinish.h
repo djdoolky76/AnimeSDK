@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKWebView_OnWebViewPageFinish_TypeDefinitionIndex = 46594;
+
 	class MiHoYoSDKWebView_OnWebViewPageFinish : public ::System::MulticastDelegate
 	{
 	public:

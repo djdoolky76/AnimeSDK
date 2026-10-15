@@ -7,6 +7,8 @@ namespace System { class String; }
 #define PLPEFCEBDCH___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC30E140)
 #define PLPEFCEBDCH___C__DISPLAYCLASS0_0__PLAYANIM_B__0_OFFSET UNITYSDK_OFFSET(0xC30E6F0)
 
+inline static constexpr unsigned int PLPEFCEBDCH___c__DisplayClass0_0_TypeDefinitionIndex = 72012;
+
 	class PLPEFCEBDCH___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

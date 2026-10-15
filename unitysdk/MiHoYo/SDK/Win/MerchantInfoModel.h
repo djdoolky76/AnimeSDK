@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int MerchantInfoModel_TypeDefinitionIndex = 9260;
+
 	class MerchantInfoModel : public ::System::Object
 	{
 	public:

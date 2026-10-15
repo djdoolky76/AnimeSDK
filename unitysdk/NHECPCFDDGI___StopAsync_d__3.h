@@ -9,6 +9,8 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 #define NHECPCFDDGI___STOPASYNC_D__3_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C52CA0)
 #define NHECPCFDDGI___STOPASYNC_D__3_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
 
+inline static constexpr unsigned int NHECPCFDDGI___StopAsync_d__3_TypeDefinitionIndex = 44212;
+
 	template <typename T1, typename T2, typename T3>
 	struct alignas(8) NHECPCFDDGI___StopAsync_d__3
 	{

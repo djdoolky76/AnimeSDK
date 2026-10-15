@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraArrangementModelsPool_TypeDefinitionIndex = 78457;
+
 	class ChimeraArrangementModelsPool : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SpaceZooHandbookTextRow_TypeDefinitionIndex = 12386;
+
 	class SpaceZooHandbookTextRow : public ::System::Object
 	{
 	public:

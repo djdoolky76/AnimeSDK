@@ -9,6 +9,8 @@ namespace System::Runtime::CompilerServices { class IStrongBox; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int RuntimeVariables_TypeDefinitionIndex = 3619;
+
 	class RuntimeVariables : public ::System::Object
 	{
 	public:

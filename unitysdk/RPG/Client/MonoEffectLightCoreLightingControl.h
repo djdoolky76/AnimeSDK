@@ -9,6 +9,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectLightCoreLightingControl_TypeDefinitionIndex = 69042;
+
 	class MonoEffectLightCoreLightingControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

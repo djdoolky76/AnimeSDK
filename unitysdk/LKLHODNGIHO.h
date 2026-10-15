@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LKLHODNGIHO_CTOR_OFFSET UNITYSDK_OFFSET(0xB754560)
 #define LKLHODNGIHO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB754590)
 
+inline static constexpr unsigned int LKLHODNGIHO_TypeDefinitionIndex = 54171;
+
 	class LKLHODNGIHO
 	{
 	public:

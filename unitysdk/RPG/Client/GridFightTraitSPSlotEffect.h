@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTraitSPSlotEffect_TypeDefinitionIndex = 65401;
+
 	class GridFightTraitSPSlotEffect : public ::RPG::Client::GridFightTraitEffectBase
 	{
 	public:

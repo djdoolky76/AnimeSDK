@@ -11,6 +11,8 @@ namespace SuperScrollView { class RowColumnComparer; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int RowColumnComparer_TypeDefinitionIndex = 47634;
+
 	class RowColumnComparer : public ::System::Object
 	{
 	public:

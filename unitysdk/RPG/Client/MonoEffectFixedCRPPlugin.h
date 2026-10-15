@@ -21,6 +21,8 @@ namespace UnityEngine::Rendering { class CRPVirtualCamera; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectFixedCRPPlugin_TypeDefinitionIndex = 70028;
+
 	class MonoEffectFixedCRPPlugin : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

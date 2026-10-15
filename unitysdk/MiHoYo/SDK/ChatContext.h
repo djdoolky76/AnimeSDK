@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ChatContext_TypeDefinitionIndex = 46578;
+
 	class ChatContext : public ::System::Object
 	{
 	public:

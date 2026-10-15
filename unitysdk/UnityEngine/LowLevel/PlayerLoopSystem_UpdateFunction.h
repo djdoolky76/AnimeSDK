@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::LowLevel
 {
+	inline static constexpr unsigned int PlayerLoopSystem_UpdateFunction_TypeDefinitionIndex = 4541;
+
 	class PlayerLoopSystem_UpdateFunction : public ::System::MulticastDelegate
 	{
 	public:

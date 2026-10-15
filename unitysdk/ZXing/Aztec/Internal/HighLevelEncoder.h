@@ -18,6 +18,8 @@ namespace ZXing::Common { class BitArray; }
 
 namespace ZXing::Aztec::Internal
 {
+	inline static constexpr unsigned int HighLevelEncoder_TypeDefinitionIndex = 7057;
+
 	class HighLevelEncoder : public ::System::Object
 	{
 	public:

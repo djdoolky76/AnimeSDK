@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvEnableFitToGroundIK_TypeDefinitionIndex = 22402;
+
 	class AdvEnableFitToGroundIK : public ::RPG::GameCore::TaskConfig
 	{
 	public:

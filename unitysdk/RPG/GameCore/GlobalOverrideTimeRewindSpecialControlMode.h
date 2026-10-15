@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GlobalOverrideTimeRewindSpecialControlMode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GlobalOverrideTimeRewindSpecialControlMode_TypeDefinitionIndex = 20677;
+
 	class GlobalOverrideTimeRewindSpecialControlMode : public ::RPG::GameCore::TaskConfig
 	{
 	public:

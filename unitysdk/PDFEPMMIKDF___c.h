@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PDFEPMMIKDF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF0E480)
 #define PDFEPMMIKDF___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DF0E490)
 
+inline static constexpr unsigned int PDFEPMMIKDF___c_TypeDefinitionIndex = 31549;
+
 	class PDFEPMMIKDF___c : public ::System::Object
 	{
 	public:

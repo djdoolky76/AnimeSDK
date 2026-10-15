@@ -12,6 +12,8 @@ namespace RPG::GameCore { class LockStepStatus; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LockStepStatus_TypeDefinitionIndex = 23597;
+
 	class LockStepStatus : public ::RPG::GameCore::TaskConfig
 	{
 	public:

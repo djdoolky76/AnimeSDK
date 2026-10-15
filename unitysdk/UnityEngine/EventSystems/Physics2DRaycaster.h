@@ -11,6 +11,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace UnityEngine::EventSystems
 {
+	inline static constexpr unsigned int Physics2DRaycaster_TypeDefinitionIndex = 6951;
+
 	class Physics2DRaycaster : public ::UnityEngine::EventSystems::PhysicsRaycaster
 	{
 	public:

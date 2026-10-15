@@ -62,6 +62,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SwordTrainingStatusChangeInfo_TypeDefinitionIndex = 61978;
+
 	class SwordTrainingStatusChangeInfo : public ::System::Object
 	{
 	public:

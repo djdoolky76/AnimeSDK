@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OPIKBFAICKP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEE37D0)
 #define OPIKBFAICKP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEE3830)
 
+inline static constexpr unsigned int OPIKBFAICKP_TypeDefinitionIndex = 28660;
+
 	class OPIKBFAICKP : public ::System::Object
 	{
 	public:

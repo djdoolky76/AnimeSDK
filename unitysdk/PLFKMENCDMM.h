@@ -38,6 +38,8 @@ namespace System { class String; }
 #define PLFKMENCDMM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF9F880)
 #define PLFKMENCDMM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF9F8E0)
 
+inline static constexpr unsigned int PLFKMENCDMM_TypeDefinitionIndex = 29621;
+
 	class PLFKMENCDMM : public ::System::Object
 	{
 	public:

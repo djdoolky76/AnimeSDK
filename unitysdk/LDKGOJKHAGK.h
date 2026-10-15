@@ -13,6 +13,8 @@
 #define LDKGOJKHAGK_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB636730)
 #define LDKGOJKHAGK_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xB636620)
 
+inline static constexpr unsigned int LDKGOJKHAGK_TypeDefinitionIndex = 57725;
+
 	class LDKGOJKHAGK : public ::System::Object
 	{
 	public:

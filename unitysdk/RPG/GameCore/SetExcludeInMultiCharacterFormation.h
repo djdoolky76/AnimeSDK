@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetExcludeInMultiCharacterFormation_TypeDefinitionIndex = 22644;
+
 	class SetExcludeInMultiCharacterFormation : public ::RPG::GameCore::TaskConfig
 	{
 	public:

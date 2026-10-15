@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChimeraDuelPredicateBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelBranchNode_TypeDefinitionIndex = 15979;
+
 	class ChimeraDuelBranchNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
 	public:

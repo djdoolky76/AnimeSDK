@@ -8,6 +8,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int Bool_TypeDefinitionIndex = 45840;
+
 	struct alignas(4) Bool
 	{
 		::System::Byte v; // 0x10

@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define EBLKFJMEAIP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD5FA70)
 #define EBLKFJMEAIP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD5F340)
 
+inline static constexpr unsigned int EBLKFJMEAIP_TypeDefinitionIndex = 11550;
+
 	class EBLKFJMEAIP : public ::System::Object
 	{
 	public:

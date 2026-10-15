@@ -4,6 +4,8 @@
 
 #define PMPPMLIGJIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7F6DE0)
 
+inline static constexpr unsigned int PMPPMLIGJIG_TypeDefinitionIndex = 37056;
+
 	class PMPPMLIGJIG : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class Gradient; }
 
 namespace AstraFX::Fireworks
 {
+	inline static constexpr unsigned int FireworkType_TypeDefinitionIndex = 49029;
+
 	class FireworkType : public ::System::Object
 	{
 	public:

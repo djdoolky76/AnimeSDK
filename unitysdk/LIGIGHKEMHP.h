@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LIGIGHKEMHP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D0F7E60)
 #define LIGIGHKEMHP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0F7780)
 
+inline static constexpr unsigned int LIGIGHKEMHP_TypeDefinitionIndex = 11706;
+
 	class LIGIGHKEMHP : public ::System::Object
 	{
 	public:

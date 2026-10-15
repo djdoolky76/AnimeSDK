@@ -23,6 +23,8 @@ namespace System { class String; }
 #define MENKPIJOHDK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB8E2DF0)
 #define MENKPIJOHDK_PJBOECKKEAP_OFFSET UNITYSDK_OFFSET(0xB8E2E90)
 
+inline static constexpr unsigned int MENKPIJOHDK_TypeDefinitionIndex = 52803;
+
 	class MENKPIJOHDK
 	{
 	public:

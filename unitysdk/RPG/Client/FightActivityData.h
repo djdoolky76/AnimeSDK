@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FightActivityData_TypeDefinitionIndex = 61625;
+
 	class FightActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

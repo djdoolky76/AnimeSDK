@@ -18,6 +18,8 @@ namespace UnityEngine { class SkinnedMeshRenderer; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int EmoFaceBlusherMixer_TypeDefinitionIndex = 48117;
+
 	class EmoFaceBlusherMixer : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

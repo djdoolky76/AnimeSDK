@@ -28,6 +28,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 #define EJOGFIGAEIA_ONFADING_OFFSET UNITYSDK_OFFSET(0x154F2780)
 #define EJOGFIGAEIA_RELEASE_OFFSET UNITYSDK_OFFSET(0x154F2EF0)
 
+inline static constexpr unsigned int EJOGFIGAEIA_TypeDefinitionIndex = 49306;
+
 	class EJOGFIGAEIA : public ::IEJMFJKDEHJ
 	{
 	public:

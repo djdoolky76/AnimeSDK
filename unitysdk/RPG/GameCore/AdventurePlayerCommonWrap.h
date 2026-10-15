@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventurePlayerCommonWrap_TypeDefinitionIndex = 56535;
+
 	class AdventurePlayerCommonWrap : public ::System::Object
 	{
 	public:

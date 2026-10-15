@@ -4,6 +4,8 @@
 
 #define OLMDAJNPNBK_CTOR_OFFSET UNITYSDK_OFFSET(0xBF10DB0)
 
+inline static constexpr unsigned int OLMDAJNPNBK_TypeDefinitionIndex = 81261;
+
 	class OLMDAJNPNBK : public ::System::Object
 	{
 	public:

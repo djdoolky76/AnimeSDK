@@ -20,6 +20,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFes3DIncomePreviewControl_TypeDefinitionIndex = 81298;
+
 	class ChenLingFes3DIncomePreviewControl : public ::Sofa::BaseSofaControl
 	{
 	public:

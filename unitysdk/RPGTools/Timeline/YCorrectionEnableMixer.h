@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int YCorrectionEnableMixer_TypeDefinitionIndex = 48419;
+
 	class YCorrectionEnableMixer : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace IRIClusterBuilder
 {
+	inline static constexpr unsigned int IRIMeshClusterItem_TypeDefinitionIndex = 47747;
+
 	class IRIMeshClusterItem : public ::UnityEngine::ScriptableObject
 	{
 	public:

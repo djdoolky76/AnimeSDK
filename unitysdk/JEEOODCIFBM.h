@@ -9,6 +9,8 @@ namespace System { class String; }
 #define JEEOODCIFBM_ECIAEOJIOKI_OFFSET UNITYSDK_OFFSET(0x1661E740)
 #define JEEOODCIFBM_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x1661ED40)
 
+inline static constexpr unsigned int JEEOODCIFBM_TypeDefinitionIndex = 74588;
+
 	class JEEOODCIFBM : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GOCNLGIDBLM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4EBDB0)
 #define GOCNLGIDBLM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4EBE10)
 
+inline static constexpr unsigned int GOCNLGIDBLM_TypeDefinitionIndex = 34383;
+
 	class GOCNLGIDBLM : public ::System::Object
 	{
 	public:

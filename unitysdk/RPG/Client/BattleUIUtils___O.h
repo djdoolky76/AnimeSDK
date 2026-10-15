@@ -6,6 +6,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleUIUtils___O_TypeDefinitionIndex = 72080;
+
 	class BattleUIUtils___O : public ::System::Object
 	{
 	public:

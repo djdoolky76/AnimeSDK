@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DiceCombatModifierConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatGlobalModifiers_TypeDefinitionIndex = 16160;
+
 	class DiceCombatGlobalModifiers : public ::RPG::GameCore::JsonConfig
 	{
 	public:

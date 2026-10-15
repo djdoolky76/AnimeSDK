@@ -32,6 +32,8 @@ namespace System { class String; }
 #define BLODLKIBCIE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF66D80)
 #define BLODLKIBCIE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF66DE0)
 
+inline static constexpr unsigned int BLODLKIBCIE_TypeDefinitionIndex = 29775;
+
 	class BLODLKIBCIE : public ::System::Object
 	{
 	public:

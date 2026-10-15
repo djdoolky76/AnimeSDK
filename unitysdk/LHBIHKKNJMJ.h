@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChimeraBattleSwapPosition; }
 #define LHBIHKKNJMJ_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xB6A7CD0)
 #define LHBIHKKNJMJ_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB6A7970)
 
+inline static constexpr unsigned int LHBIHKKNJMJ_TypeDefinitionIndex = 78410;
+
 	class LHBIHKKNJMJ : public ::System::Object
 	{
 	public:

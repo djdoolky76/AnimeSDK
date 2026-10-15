@@ -43,6 +43,8 @@ namespace UnityEngine::UI { class Text; }
 #define MMKGNDLGMEC_PEGHBHPIPNF_OFFSET UNITYSDK_OFFSET(0xB9D5430)
 #define MMKGNDLGMEC__ONBIND_OFFSET UNITYSDK_OFFSET(0xB9D4CF0)
 
+inline static constexpr unsigned int MMKGNDLGMEC_TypeDefinitionIndex = 71932;
+
 	class MMKGNDLGMEC : public ::CLAADCBPCHM
 	{
 	public:

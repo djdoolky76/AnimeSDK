@@ -4,6 +4,8 @@
 
 #define MONOSCENEARTPREFAB_CTOR_OFFSET UNITYSDK_OFFSET(0xBA4F030)
 
+inline static constexpr unsigned int MonoSceneArtPrefab_TypeDefinitionIndex = 47505;
+
 	class MonoSceneArtPrefab : public ::UnityEngine::MonoBehaviour
 	{
 	public:

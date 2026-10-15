@@ -7,6 +7,8 @@ class KFGPAHIEDKH_KNNNDNBDCCN;
 #define KFGPAHIEDKH___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB3A2540)
 #define KFGPAHIEDKH___C__DISPLAYCLASS12_0___ENQUEUECHATINVITEMESSAGE_B__0_OFFSET UNITYSDK_OFFSET(0xB3A3770)
 
+inline static constexpr unsigned int KFGPAHIEDKH___c__DisplayClass12_0_TypeDefinitionIndex = 80261;
+
 	class KFGPAHIEDKH___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

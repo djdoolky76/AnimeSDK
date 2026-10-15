@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TrackPhotoTrashCanConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TrackPhotoShotParam_TypeDefinitionIndex = 60925;
+
 	struct alignas(8) TrackPhotoShotParam
 	{
 		::RPG::GameCore::TrackPhotoTrashCanConfigRow* ConfigRow; // 0x10

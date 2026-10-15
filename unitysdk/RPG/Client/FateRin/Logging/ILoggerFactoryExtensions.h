@@ -12,6 +12,8 @@ namespace System { class Type; }
 
 namespace RPG::Client::FateRin::Logging
 {
+	inline static constexpr unsigned int ILoggerFactoryExtensions_TypeDefinitionIndex = 81037;
+
 	class ILoggerFactoryExtensions : public ::System::Object
 	{
 	public:

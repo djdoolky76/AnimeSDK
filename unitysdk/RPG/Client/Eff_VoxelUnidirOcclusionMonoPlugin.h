@@ -15,6 +15,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Eff_VoxelUnidirOcclusionMonoPlugin_TypeDefinitionIndex = 70407;
+
 	class Eff_VoxelUnidirOcclusionMonoPlugin
 	{
 	public:

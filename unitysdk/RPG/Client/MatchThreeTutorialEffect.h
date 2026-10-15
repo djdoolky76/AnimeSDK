@@ -18,6 +18,8 @@ namespace UnityEngine { class Animation; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeTutorialEffect_TypeDefinitionIndex = 65967;
+
 	class MatchThreeTutorialEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

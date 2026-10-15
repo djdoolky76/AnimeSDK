@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::GCFreeClosure
 {
+	inline static constexpr unsigned int Closure_TypeDefinitionIndex = 4455;
+
 	struct alignas(8) Closure
 	{
 		::UnityEngine::GCFreeClosure::SValue _0; // 0x10

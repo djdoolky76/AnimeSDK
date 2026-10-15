@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client::UI::UIStateCtrl
 {
+	inline static constexpr unsigned int AsyncAction_TypeDefinitionIndex = 74065;
+
 	class AsyncAction : public ::RPG::Client::UI::UIStateCtrl::BaseAction
 	{
 	public:

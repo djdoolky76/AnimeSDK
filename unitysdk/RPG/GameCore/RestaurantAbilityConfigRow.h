@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RestaurantAbilityConfigRow_TypeDefinitionIndex = 11342;
+
 	class RestaurantAbilityConfigRow : public ::System::Object
 	{
 	public:

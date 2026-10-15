@@ -16,6 +16,8 @@ namespace System { class String; }
 #define GPIBKJIJKKL_SET_SEARCHDIRECTORY_OFFSET UNITYSDK_OFFSET(0x15B5A350)
 #define GPIBKJIJKKL_SET_SHOWEMPTYOPTION_OFFSET UNITYSDK_OFFSET(0x15B5A3D0)
 
+inline static constexpr unsigned int GPIBKJIJKKL_TypeDefinitionIndex = 48101;
+
 	class GPIBKJIJKKL : public ::System::Attribute
 	{
 	public:

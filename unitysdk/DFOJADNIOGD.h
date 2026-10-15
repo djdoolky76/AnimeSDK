@@ -18,6 +18,8 @@ namespace UnityEngine { class Animation; }
 #define DFOJADNIOGD_LJDOJCKMMDD_OFFSET UNITYSDK_OFFSET(0xE83A700)
 #define DFOJADNIOGD__ONBIND_OFFSET UNITYSDK_OFFSET(0xE83A400)
 
+inline static constexpr unsigned int DFOJADNIOGD_TypeDefinitionIndex = 71645;
+
 	class DFOJADNIOGD : public ::FMPCODLIOLG
 	{
 	public:

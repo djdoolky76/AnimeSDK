@@ -4,6 +4,8 @@ class BJIACBNKCCJ;
 
 namespace RPG::Client::LittleGame::RoadRash
 {
+	inline static constexpr unsigned int RoadRashMapStartPoint_TypeDefinitionIndex = 42922;
+
 	struct alignas(8) RoadRashMapStartPoint
 	{
 		::BJIACBNKCCJ* Road; // 0x10

@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int PathAttachment_TypeDefinitionIndex = 39657;
+
 	class PathAttachment : public ::Spine::VertexAttachment
 	{
 	public:

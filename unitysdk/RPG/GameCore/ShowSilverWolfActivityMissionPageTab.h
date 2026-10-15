@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowSilverWolfActivityMissionPageTab; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowSilverWolfActivityMissionPageTab_TypeDefinitionIndex = 21701;
+
 	class ShowSilverWolfActivityMissionPageTab : public ::RPG::GameCore::TaskConfig
 	{
 	public:

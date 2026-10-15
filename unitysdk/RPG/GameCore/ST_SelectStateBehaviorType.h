@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_SelectStateBehaviorType_TypeDefinitionIndex = 15495;
+
 	enum class ST_SelectStateBehaviorType : ::System::Int32
 	{
 		SelectStateByOrder = 0,

@@ -4,6 +4,8 @@
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
+inline static constexpr unsigned int LOKABAGIKFG_TypeDefinitionIndex = 56471;
+
 	struct alignas(8) LOKABAGIKFG
 	{
 		::RPG::GameCore::SoundEmitterType KNNPHOJOKBC; // 0x10

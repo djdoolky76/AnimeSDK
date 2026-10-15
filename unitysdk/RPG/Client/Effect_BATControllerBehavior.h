@@ -18,6 +18,8 @@ namespace RPG::Client { class Effect_BATControllerMonoPlugin; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_BATControllerBehavior_TypeDefinitionIndex = 70431;
+
 	class Effect_BATControllerBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

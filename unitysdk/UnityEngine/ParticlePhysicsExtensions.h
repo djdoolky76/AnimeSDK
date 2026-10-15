@@ -10,6 +10,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticlePhysicsExtensions_TypeDefinitionIndex = 5249;
+
 	class ParticlePhysicsExtensions : public ::System::Object
 	{
 	public:

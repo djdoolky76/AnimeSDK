@@ -32,6 +32,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace MiHoYo::SDK::PS
 {
+	inline static constexpr unsigned int BindManagerPS_TypeDefinitionIndex = 8894;
+
 	class BindManagerPS : public ::System::Object
 	{
 	public:

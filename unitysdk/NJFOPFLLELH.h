@@ -9,6 +9,8 @@ namespace RPG::Client { class ArchiveData; }
 #define NJFOPFLLELH_GPCHGILIMNO_OFFSET UNITYSDK_OFFSET(0xBC0FD40)
 #define NJFOPFLLELH_SET_ISDONE_OFFSET UNITYSDK_OFFSET(0xBC0FE80)
 
+inline static constexpr unsigned int NJFOPFLLELH_TypeDefinitionIndex = 62422;
+
 	class NJFOPFLLELH : public ::System::Object
 	{
 	public:

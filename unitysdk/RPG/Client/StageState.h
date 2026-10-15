@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageState_TypeDefinitionIndex = 61455;
+
 	enum class StageState : ::System::Int32
 	{
 		None = 0,

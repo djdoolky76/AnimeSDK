@@ -98,6 +98,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateModule_TypeDefinitionIndex = 64026;
+
 	class FateModule : public ::RPG::Client::BaseModule
 	{
 	public:

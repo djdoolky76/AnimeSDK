@@ -25,6 +25,8 @@ namespace UnityEngine::UI { class SmoothMask; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftChipImageControl_TypeDefinitionIndex = 79809;
+
 	class MechCraftChipImageControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

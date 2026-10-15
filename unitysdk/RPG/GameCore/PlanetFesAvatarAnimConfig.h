@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlanetFesAvatarAnimConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesAvatarAnimConfig_TypeDefinitionIndex = 16254;
+
 	class PlanetFesAvatarAnimConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

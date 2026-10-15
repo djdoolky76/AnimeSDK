@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int BJNFCAGBOJO_TypeDefinitionIndex = 71213;
+
 	struct alignas(4) BJNFCAGBOJO
 	{
 		::System::Int32 AFOPAFFACPD; // 0x10

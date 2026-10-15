@@ -7,6 +7,8 @@ namespace Microsoft::Win32::SafeHandles { class SafeProcessHandle; }
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int ProcessWaitHandle_TypeDefinitionIndex = 2554;
+
 	class ProcessWaitHandle : public ::System::Threading::WaitHandle
 	{
 	public:

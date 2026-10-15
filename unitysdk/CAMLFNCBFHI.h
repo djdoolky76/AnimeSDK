@@ -28,6 +28,8 @@ namespace System { class String; }
 #define CAMLFNCBFHI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E05E490)
 #define CAMLFNCBFHI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E05E4F0)
 
+inline static constexpr unsigned int CAMLFNCBFHI_TypeDefinitionIndex = 27746;
+
 	class CAMLFNCBFHI : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JLBDIAMCOME___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E774190)
 #define JLBDIAMCOME___C___CCTOR_B__36_0_OFFSET UNITYSDK_OFFSET(0x1E7741A0)
 
+inline static constexpr unsigned int JLBDIAMCOME___c_TypeDefinitionIndex = 33909;
+
 	class JLBDIAMCOME___c : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System { class String; }
 #define DKDHBEKAHPC_PFEODCIJKPH_OFFSET UNITYSDK_OFFSET(0xF875EA0)
 #define DKDHBEKAHPC_TICK_OFFSET UNITYSDK_OFFSET(0xF875DE0)
 
+inline static constexpr unsigned int DKDHBEKAHPC_TypeDefinitionIndex = 58276;
+
 	class DKDHBEKAHPC : public ::GELIALJDFBL
 	{
 	public:

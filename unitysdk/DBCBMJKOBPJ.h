@@ -60,6 +60,8 @@ namespace System { class String; }
 #define DBCBMJKOBPJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E156600)
 #define DBCBMJKOBPJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E156660)
 
+inline static constexpr unsigned int DBCBMJKOBPJ_TypeDefinitionIndex = 25419;
+
 	class DBCBMJKOBPJ : public ::System::Object
 	{
 	public:

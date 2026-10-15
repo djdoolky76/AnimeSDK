@@ -9,6 +9,8 @@ namespace UnityEngine { class GUIStyle; }
 #define OCIJCKCMMHD_CTOR_OFFSET UNITYSDK_OFFSET(0xBD6CE80)
 #define OCIJCKCMMHD_DNHLOGAJIGN_OFFSET UNITYSDK_OFFSET(0xBD6CDE0)
 
+inline static constexpr unsigned int OCIJCKCMMHD_TypeDefinitionIndex = 68327;
+
 	class OCIJCKCMMHD : public ::System::Object
 	{
 	public:

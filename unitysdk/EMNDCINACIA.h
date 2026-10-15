@@ -5,6 +5,8 @@
 
 #define EMNDCINACIA_LPGJLLJAGDN_OFFSET UNITYSDK_OFFSET(0x1DD3C9F0)
 
+inline static constexpr unsigned int EMNDCINACIA_TypeDefinitionIndex = 6552;
+
 	class EMNDCINACIA : public ::System::Object
 	{
 	public:

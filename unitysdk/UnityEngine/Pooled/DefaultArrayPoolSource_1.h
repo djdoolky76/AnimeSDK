@@ -5,6 +5,8 @@ namespace UnityEngine::Pooled { template <typename T> class DefaultArrayPoolSour
 
 namespace UnityEngine::Pooled
 {
+	inline static constexpr unsigned int DefaultArrayPoolSource_1_TypeDefinitionIndex = 4525;
+
 	template <typename T>
 	class DefaultArrayPoolSource_1
 	{

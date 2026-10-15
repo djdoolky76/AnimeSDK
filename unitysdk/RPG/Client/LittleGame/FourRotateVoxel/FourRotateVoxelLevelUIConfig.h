@@ -20,6 +20,8 @@ namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelMapInf
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
+	inline static constexpr unsigned int FourRotateVoxelLevelUIConfig_TypeDefinitionIndex = 76828;
+
 	class FourRotateVoxelLevelUIConfig : public ::System::Object
 	{
 	public:

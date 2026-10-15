@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JNCMIAHKALA_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CBA64E0)
 #define JNCMIAHKALA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA6530)
 
+inline static constexpr unsigned int JNCMIAHKALA_TypeDefinitionIndex = 42072;
+
 	class JNCMIAHKALA : public ::System::Object
 	{
 	public:

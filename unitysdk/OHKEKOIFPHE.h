@@ -53,6 +53,8 @@ namespace UnityEngine::UI { class LayoutGroup; }
 #define OHKEKOIFPHE__ONBIND_OFFSET UNITYSDK_OFFSET(0xBE6FE90)
 #define OHKEKOIFPHE__ONTICK_OFFSET UNITYSDK_OFFSET(0xBE703F0)
 
+inline static constexpr unsigned int OHKEKOIFPHE_TypeDefinitionIndex = 71531;
+
 	class OHKEKOIFPHE : public ::FMPCODLIOLG
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Sum__SumAsync_d__0_TypeDefinitionIndex = 45610;
+
 	struct alignas(8) Sum__SumAsync_d__0
 	{
 		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<::System::Int32>* source; // 0x10

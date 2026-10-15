@@ -16,6 +16,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::LittleGame::ChimeraDuel
 {
+	inline static constexpr unsigned int ChimeraDuelShowAbilityDetailCommand_TypeDefinitionIndex = 77660;
+
 	class ChimeraDuelShowAbilityDetailCommand : public ::System::Object
 	{
 	public:

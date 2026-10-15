@@ -124,6 +124,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define MCKHEFFODHO__GET_SYNCDRAGTARGETCELLCOMMAND_B__90_0_OFFSET UNITYSDK_OFFSET(0xB886200)
 #define MCKHEFFODHO__GET_TRYFINISHDRAGCOMMAND_B__101_0_OFFSET UNITYSDK_OFFSET(0xB886320)
 
+inline static constexpr unsigned int MCKHEFFODHO_TypeDefinitionIndex = 79501;
+
 	class MCKHEFFODHO : public ::System::Object
 	{
 	public:

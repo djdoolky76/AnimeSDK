@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RotateRubikCube_TypeDefinitionIndex = 22143;
+
 	class RotateRubikCube : public ::RPG::GameCore::TaskConfig
 	{
 	public:

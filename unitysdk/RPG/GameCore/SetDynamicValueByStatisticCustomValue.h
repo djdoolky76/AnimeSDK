@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetDynamicValueByStatisticCustomValue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByStatisticCustomValue_TypeDefinitionIndex = 21771;
+
 	class SetDynamicValueByStatisticCustomValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

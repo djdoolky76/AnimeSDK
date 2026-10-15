@@ -13,6 +13,8 @@ namespace System::Xml::Schema { class SymbolsDictionary; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int SequenceNode_TypeDefinitionIndex = 2072;
+
 	class SequenceNode : public ::System::Xml::Schema::InteriorNode
 	{
 	public:

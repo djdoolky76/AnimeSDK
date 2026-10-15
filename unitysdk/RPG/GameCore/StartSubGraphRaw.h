@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StartSubGraphRaw_TypeDefinitionIndex = 20719;
+
 	class StartSubGraphRaw : public ::RPG::GameCore::TaskConfig
 	{
 	public:

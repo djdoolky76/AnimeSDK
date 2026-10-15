@@ -13,6 +13,8 @@ namespace RPG::GameCore { class WaitBatchItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitBatch_TypeDefinitionIndex = 23760;
+
 	class WaitBatch : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Action; }
 #define BEBKBMOAJNL_NNAGLJCMMGD_OFFSET UNITYSDK_OFFSET(0x1630AB10)
 #define BEBKBMOAJNL_NONJDKKDDLE_OFFSET UNITYSDK_OFFSET(0x1630A9F0)
 
+inline static constexpr unsigned int BEBKBMOAJNL_TypeDefinitionIndex = 60466;
+
 	class BEBKBMOAJNL : public ::System::Object
 	{
 	public:

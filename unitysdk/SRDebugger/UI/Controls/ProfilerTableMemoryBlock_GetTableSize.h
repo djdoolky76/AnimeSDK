@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace SRDebugger::UI::Controls
 {
+	inline static constexpr unsigned int ProfilerTableMemoryBlock_GetTableSize_TypeDefinitionIndex = 38035;
+
 	class ProfilerTableMemoryBlock_GetTableSize : public ::System::MulticastDelegate
 	{
 	public:

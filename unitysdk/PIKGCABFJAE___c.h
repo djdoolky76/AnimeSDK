@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PIKGCABFJAE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF6AED0)
 #define PIKGCABFJAE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DF6AEE0)
 
+inline static constexpr unsigned int PIKGCABFJAE___c_TypeDefinitionIndex = 32403;
+
 	class PIKGCABFJAE___c : public ::System::Object
 	{
 	public:

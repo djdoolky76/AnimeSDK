@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterNatureType_TypeDefinitionIndex = 10408;
+
 	enum class CharacterNatureType : ::System::Int32
 	{
 		NatureNone = 0,

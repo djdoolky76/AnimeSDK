@@ -22,6 +22,8 @@ namespace UnityEngine::Profiling { class Recorder; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int ProfileRecorderInfo_TypeDefinitionIndex = 35156;
+
 	class ProfileRecorderInfo : public ::System::Object
 	{
 	public:

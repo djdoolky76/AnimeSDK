@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonGraphicController_TypeDefinitionIndex = 45034;
+
 	class SkeletonGraphicController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -6,6 +6,8 @@ class GNNEHBBAGND;
 
 #define GIFNELLKBFE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAAB980)
 
+inline static constexpr unsigned int GIFNELLKBFE_TypeDefinitionIndex = 42160;
+
 	class GIFNELLKBFE : public ::EMJIDLCDFMI
 	{
 	public:

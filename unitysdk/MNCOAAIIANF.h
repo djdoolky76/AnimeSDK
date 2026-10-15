@@ -13,6 +13,8 @@ namespace RPG::GameCore { class FiveDimTrampolineConfig; }
 #define MNCOAAIIANF_FFKBFPKEPEN_OFFSET UNITYSDK_OFFSET(0xB9E8AF0)
 #define MNCOAAIIANF_OCPKOILCJDC_OFFSET UNITYSDK_OFFSET(0xB9E8B50)
 
+inline static constexpr unsigned int MNCOAAIIANF_TypeDefinitionIndex = 76987;
+
 	class MNCOAAIIANF : public ::KIEMPKOFMLG
 	{
 	public:

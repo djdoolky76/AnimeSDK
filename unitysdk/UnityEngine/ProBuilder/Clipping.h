@@ -9,6 +9,8 @@
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int Clipping_TypeDefinitionIndex = 44343;
+
 	class Clipping : public ::System::Object
 	{
 	public:

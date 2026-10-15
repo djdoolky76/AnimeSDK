@@ -14,6 +14,8 @@ namespace System::Linq::Expressions { class ParameterExpression; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int ScopeWithType_TypeDefinitionIndex = 3202;
+
 	class ScopeWithType : public ::System::Linq::Expressions::ScopeN
 	{
 	public:

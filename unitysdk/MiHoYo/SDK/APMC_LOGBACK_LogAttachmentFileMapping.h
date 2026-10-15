@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int APMC_LOGBACK_LogAttachmentFileMapping_TypeDefinitionIndex = 46500;
+
 	class APMC_LOGBACK_LogAttachmentFileMapping : public ::System::MulticastDelegate
 	{
 	public:

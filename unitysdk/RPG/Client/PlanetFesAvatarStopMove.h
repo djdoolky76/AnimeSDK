@@ -10,6 +10,8 @@ namespace RPG::Client { class PlanetFesAvatarStopMove; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesAvatarStopMove_TypeDefinitionIndex = 10282;
+
 	class PlanetFesAvatarStopMove : public ::RPG::GameCore::TaskConfig
 	{
 	public:

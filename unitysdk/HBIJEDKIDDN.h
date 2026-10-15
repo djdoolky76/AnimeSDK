@@ -25,6 +25,8 @@ namespace RPG::GameCore { class TriggerPerformance; }
 #define HBIJEDKIDDN_SETNEXTTASK_OFFSET UNITYSDK_OFFSET(0x15C04CE0)
 #define HBIJEDKIDDN_TICK_OFFSET UNITYSDK_OFFSET(0x15C056D0)
 
+inline static constexpr unsigned int HBIJEDKIDDN_TypeDefinitionIndex = 53453;
+
 	class HBIJEDKIDDN : public ::GELIALJDFBL
 	{
 	public:

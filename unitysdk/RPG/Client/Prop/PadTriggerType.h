@@ -3,6 +3,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int PadTriggerType_TypeDefinitionIndex = 78754;
+
 	enum class PadTriggerType : ::System::Int32
 	{
 		Sphere = 0,

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define DECBOGPHHLN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E18FBD0)
 #define DECBOGPHHLN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E18FC30)
 
+inline static constexpr unsigned int DECBOGPHHLN_TypeDefinitionIndex = 31430;
+
 	class DECBOGPHHLN : public ::System::Object
 	{
 	public:

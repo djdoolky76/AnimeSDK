@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CMCONOPPGAF_CTOR_OFFSET UNITYSDK_OFFSET(0xDA27BB0)
 #define CMCONOPPGAF_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xDA27BD0)
 
+inline static constexpr unsigned int CMCONOPPGAF_TypeDefinitionIndex = 59151;
+
 	class CMCONOPPGAF
 	{
 	public:

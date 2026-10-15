@@ -10,6 +10,8 @@
 
 namespace CriWare::CriMana
 {
+	inline static constexpr unsigned int MovieInfo_TypeDefinitionIndex = 40210;
+
 	class MovieInfo : public ::System::Object
 	{
 	public:

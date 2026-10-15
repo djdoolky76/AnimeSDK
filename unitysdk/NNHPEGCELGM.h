@@ -13,6 +13,8 @@ namespace System { class String; }
 #define NNHPEGCELGM_KOKHDJKCOCC_OFFSET UNITYSDK_OFFSET(0xBCAF180)
 #define NNHPEGCELGM_ODPAPLIIDDD_OFFSET UNITYSDK_OFFSET(0xBCAF240)
 
+inline static constexpr unsigned int NNHPEGCELGM_TypeDefinitionIndex = 57188;
+
 	class NNHPEGCELGM : public ::System::Object
 	{
 	public:

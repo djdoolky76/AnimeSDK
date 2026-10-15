@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetEnergyBarState_TypeDefinitionIndex = 22737;
+
 	class SetEnergyBarState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

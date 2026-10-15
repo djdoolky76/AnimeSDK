@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LKHBEAFPHAD_FDOAOENCODE_OFFSET UNITYSDK_OFFSET(0xB74A9D0)
 #define LKHBEAFPHAD_HMFPIFOEPCM_OFFSET UNITYSDK_OFFSET(0xB74AB70)
 
+inline static constexpr unsigned int LKHBEAFPHAD_TypeDefinitionIndex = 67378;
+
 	class LKHBEAFPHAD : public ::System::Object
 	{
 	public:

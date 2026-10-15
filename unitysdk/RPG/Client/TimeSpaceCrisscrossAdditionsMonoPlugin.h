@@ -14,6 +14,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeSpaceCrisscrossAdditionsMonoPlugin_TypeDefinitionIndex = 70198;
+
 	class TimeSpaceCrisscrossAdditionsMonoPlugin
 	{
 	public:

@@ -48,6 +48,8 @@ namespace UnityEngine { class Texture; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ComputeShader_TypeDefinitionIndex = 4379;
+
 	class ComputeShader : public ::UnityEngine::Object
 	{
 	public:

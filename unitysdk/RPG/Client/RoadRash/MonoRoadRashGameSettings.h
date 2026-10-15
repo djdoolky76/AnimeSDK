@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int MonoRoadRashGameSettings_TypeDefinitionIndex = 75870;
+
 	class MonoRoadRashGameSettings : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 #define BECMNNFPMCD_KBFDFOGDILL_OFFSET UNITYSDK_OFFSET(0x16310140)
 #define BECMNNFPMCD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x16310350)
 
+inline static constexpr unsigned int BECMNNFPMCD_TypeDefinitionIndex = 49191;
+
 	class BECMNNFPMCD : public ::DGICFAFGCPA
 	{
 	public:

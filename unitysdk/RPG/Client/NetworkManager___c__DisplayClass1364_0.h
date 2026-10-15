@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NetworkManager___c__DisplayClass1364_0_TypeDefinitionIndex = 69375;
+
 	class NetworkManager___c__DisplayClass1364_0 : public ::System::Object
 	{
 	public:

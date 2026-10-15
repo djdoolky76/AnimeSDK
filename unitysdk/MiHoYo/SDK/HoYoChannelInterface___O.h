@@ -6,6 +6,8 @@ namespace MiHoYo::SDK { class HoYoChannelSDK_LogHandler; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HoYoChannelInterface___O_TypeDefinitionIndex = 46524;
+
 	class HoYoChannelInterface___O : public ::System::Object
 	{
 	public:

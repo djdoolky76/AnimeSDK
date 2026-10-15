@@ -9,6 +9,8 @@ namespace RPG::Client { class ChessRogueBoardCellDataItem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChessRogueModule___c__DisplayClass77_0_TypeDefinitionIndex = 66934;
+
 	class ChessRogueModule___c__DisplayClass77_0 : public ::System::Object
 	{
 	public:

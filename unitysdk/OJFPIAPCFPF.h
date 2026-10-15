@@ -97,6 +97,8 @@ namespace UnityEngine { class Coroutine; }
 #define OJFPIAPCFPF___SELECTACTION_1ACTION_B__51_0_OFFSET UNITYSDK_OFFSET(0xBEB4130)
 #define OJFPIAPCFPF___SELECTACTION_1ACTION_B__51_1_OFFSET UNITYSDK_OFFSET(0xBEB4150)
 
+inline static constexpr unsigned int OJFPIAPCFPF_TypeDefinitionIndex = 66423;
+
 	class OJFPIAPCFPF : public ::RPG::Client::BaseModule
 	{
 	public:

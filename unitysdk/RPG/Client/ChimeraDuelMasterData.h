@@ -55,6 +55,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelMasterData_TypeDefinitionIndex = 63372;
+
 	class ChimeraDuelMasterData : public ::System::Object
 	{
 	public:

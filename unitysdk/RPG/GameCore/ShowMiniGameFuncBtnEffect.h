@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowMiniGameFuncBtnEffect_TypeDefinitionIndex = 20499;
+
 	class ShowMiniGameFuncBtnEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

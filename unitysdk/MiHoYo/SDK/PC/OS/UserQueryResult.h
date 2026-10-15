@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int UserQueryResult_TypeDefinitionIndex = 8644;
+
 	class UserQueryResult : public ::System::Object
 	{
 	public:

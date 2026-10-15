@@ -5,6 +5,8 @@ class JKDLIBFIHAB;
 
 #define CJFFNKJCAGO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA09880)
 
+inline static constexpr unsigned int CJFFNKJCAGO_TypeDefinitionIndex = 42948;
+
 	class CJFFNKJCAGO : public ::System::Object
 	{
 	public:

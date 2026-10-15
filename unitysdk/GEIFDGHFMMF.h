@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GEIFDGHFMMF_OHCHFGDIEFN_OFFSET UNITYSDK_OFFSET(0x159D9A40)
 #define GEIFDGHFMMF_UPDATE_OFFSET UNITYSDK_OFFSET(0x159D99F0)
 
+inline static constexpr unsigned int GEIFDGHFMMF_TypeDefinitionIndex = 65016;
+
 	class GEIFDGHFMMF : public ::RPG::Client::GridFightGameModifier
 	{
 	public:

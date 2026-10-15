@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FOLCHLKACEE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x158F6E80)
 #define FOLCHLKACEE_TICK_OFFSET UNITYSDK_OFFSET(0x158F6E20)
 
+inline static constexpr unsigned int FOLCHLKACEE_TypeDefinitionIndex = 58499;
+
 	class FOLCHLKACEE : public ::GELIALJDFBL
 	{
 	public:

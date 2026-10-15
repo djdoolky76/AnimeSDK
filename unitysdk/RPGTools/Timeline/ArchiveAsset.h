@@ -11,6 +11,8 @@ namespace UnityEngine { class Object; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ArchiveAsset_TypeDefinitionIndex = 48506;
+
 	class ArchiveAsset : public ::UnityEngine::ScriptableObject
 	{
 	public:

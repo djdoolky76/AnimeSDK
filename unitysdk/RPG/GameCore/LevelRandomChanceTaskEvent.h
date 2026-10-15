@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelRandomChanceTaskEvent_TypeDefinitionIndex = 56803;
+
 	class LevelRandomChanceTaskEvent : public ::System::Object
 	{
 	public:

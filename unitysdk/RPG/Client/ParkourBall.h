@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class ICollection
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ParkourBall_TypeDefinitionIndex = 61831;
+
 	class ParkourBall : public ::System::Object
 	{
 	public:

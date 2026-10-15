@@ -13,6 +13,8 @@ class LAECFLNNOFH;
 #define MPEIPEHLMIM_JMADLMMJLDJ_OFFSET UNITYSDK_OFFSET(0xBA3ADB0)
 #define MPEIPEHLMIM_NGFLHCFFIJC_OFFSET UNITYSDK_OFFSET(0xBA3A830)
 
+inline static constexpr unsigned int MPEIPEHLMIM_TypeDefinitionIndex = 77313;
+
 	class MPEIPEHLMIM : public ::System::Object
 	{
 	public:

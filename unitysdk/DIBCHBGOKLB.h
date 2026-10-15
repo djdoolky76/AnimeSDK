@@ -10,6 +10,8 @@ namespace RPG::Client { class GridFightTraitElationEffect; }
 #define DIBCHBGOKLB_LNEPAFGAPJH_OFFSET UNITYSDK_OFFSET(0xEBEFC80)
 #define DIBCHBGOKLB_PAMKOLICNOL_OFFSET UNITYSDK_OFFSET(0xEBEFE00)
 
+inline static constexpr unsigned int DIBCHBGOKLB_TypeDefinitionIndex = 65380;
+
 	class DIBCHBGOKLB : public ::System::Object
 	{
 	public:

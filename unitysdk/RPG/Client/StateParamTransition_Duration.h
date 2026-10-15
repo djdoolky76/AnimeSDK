@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StateParamTransition_Duration_TypeDefinitionIndex = 68836;
+
 	class StateParamTransition_Duration : public ::System::Object
 	{
 	public:

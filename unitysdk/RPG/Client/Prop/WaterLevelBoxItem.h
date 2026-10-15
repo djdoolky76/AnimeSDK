@@ -21,6 +21,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int WaterLevelBoxItem_TypeDefinitionIndex = 78912;
+
 	class WaterLevelBoxItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

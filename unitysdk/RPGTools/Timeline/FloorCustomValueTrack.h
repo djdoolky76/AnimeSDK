@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int FloorCustomValueTrack_TypeDefinitionIndex = 48130;
+
 	class FloorCustomValueTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client { class PlanetFesActiveBuff; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesModule___c__DisplayClass32_0_TypeDefinitionIndex = 66652;
+
 	class PlanetFesModule___c__DisplayClass32_0 : public ::System::Object
 	{
 	public:

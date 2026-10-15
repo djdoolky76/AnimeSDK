@@ -66,6 +66,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ManaVideoPageContext_TypeDefinitionIndex = 72922;
+
 	class ManaVideoPageContext : public ::RPG::Client::UIController
 	{
 	public:

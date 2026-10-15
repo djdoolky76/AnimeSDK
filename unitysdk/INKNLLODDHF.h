@@ -20,6 +20,8 @@ namespace System { class Action; }
 #define INKNLLODDHF_SET_CONDITIONDESC_OFFSET UNITYSDK_OFFSET(0x164F5200)
 #define INKNLLODDHF_SET_REWARDCOINCOUNT_OFFSET UNITYSDK_OFFSET(0x164F5220)
 
+inline static constexpr unsigned int INKNLLODDHF_TypeDefinitionIndex = 79572;
+
 	class INKNLLODDHF : public ::System::Object
 	{
 	public:

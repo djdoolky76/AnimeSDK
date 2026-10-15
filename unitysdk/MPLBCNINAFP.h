@@ -5,6 +5,8 @@
 #define MPLBCNINAFP_CTOR_OFFSET UNITYSDK_OFFSET(0xBA40F20)
 #define MPLBCNINAFP_NEPBDELGKOD_OFFSET UNITYSDK_OFFSET(0xBA40EC0)
 
+inline static constexpr unsigned int MPLBCNINAFP_TypeDefinitionIndex = 73830;
+
 	class MPLBCNINAFP : public ::CHLIAIJFBJF
 	{
 	public:

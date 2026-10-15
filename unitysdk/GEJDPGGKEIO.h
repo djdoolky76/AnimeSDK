@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GEJDPGGKEIO_CTOR_OFFSET UNITYSDK_OFFSET(0x159DAA40)
 #define GEJDPGGKEIO_EXECUTE_OFFSET UNITYSDK_OFFSET(0x159DA250)
 
+inline static constexpr unsigned int GEJDPGGKEIO_TypeDefinitionIndex = 77342;
+
 	class GEJDPGGKEIO : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConfigManager_WebViewABTestModel_TypeDefinitionIndex = 8207;
+
 	class ConfigManager_WebViewABTestModel : public ::System::Object
 	{
 	public:

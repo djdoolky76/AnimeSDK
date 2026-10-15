@@ -14,6 +14,8 @@ namespace UnityEngine::EventSystems { class BaseEventData; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncDeselectTrigger_TypeDefinitionIndex = 38623;
+
 	class AsyncDeselectTrigger
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AetherDivideLevelRewardData_TypeDefinitionIndex = 62235;
+
 	class AetherDivideLevelRewardData : public ::System::Object
 	{
 	public:

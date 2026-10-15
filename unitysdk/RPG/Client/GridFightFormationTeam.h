@@ -80,6 +80,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightFormationTeam_TypeDefinitionIndex = 64662;
+
 	class GridFightFormationTeam : public ::System::Object
 	{
 	public:

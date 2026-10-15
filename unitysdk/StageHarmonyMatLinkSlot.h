@@ -18,6 +18,8 @@ namespace UnityEngine { class Renderer; }
 #define STAGEHARMONYMATLINKSLOT_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xE995340)
 #define STAGEHARMONYMATLINKSLOT_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xE995390)
 
+inline static constexpr unsigned int StageHarmonyMatLinkSlot_TypeDefinitionIndex = 47547;
+
 	class StageHarmonyMatLinkSlot : public ::StageHarmonyBaseLinkSlot
 	{
 	public:

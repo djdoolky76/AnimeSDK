@@ -10,6 +10,8 @@ namespace System { class String; }
 #define OCCNBEACINI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D251020)
 #define OCCNBEACINI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D250FE0)
 
+inline static constexpr unsigned int OCCNBEACINI_TypeDefinitionIndex = 19918;
+
 	class OCCNBEACINI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

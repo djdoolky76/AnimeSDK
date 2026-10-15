@@ -20,6 +20,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define TRACKCAMERACONTROLLER_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0xE9E3460)
 #define TRACKCAMERACONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0xE9E29C0)
 
+inline static constexpr unsigned int TrackCameraController_TypeDefinitionIndex = 47280;
+
 	class TrackCameraController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

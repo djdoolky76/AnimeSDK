@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ModelUI3DModeConstraint_TypeDefinitionIndex = 68510;
+
 	class ModelUI3DModeConstraint : public ::UnityEngine::MonoBehaviour
 	{
 	public:

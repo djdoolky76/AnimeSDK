@@ -8,6 +8,8 @@ namespace RPG::Client { class MessageReplyUiData; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveMessageIdToReplyUiDataConverter_TypeDefinitionIndex = 75369;
+
 	class IdleLiveMessageIdToReplyUiDataConverter : public ::System::Object
 	{
 	public:

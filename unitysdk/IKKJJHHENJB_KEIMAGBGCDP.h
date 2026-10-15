@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 #define IKKJJHHENJB_KEIMAGBGCDP_NGIIIPMKPND_OFFSET UNITYSDK_OFFSET(0x16493A30)
 #define IKKJJHHENJB_KEIMAGBGCDP_PNFAHABNEMH_OFFSET UNITYSDK_OFFSET(0x16493240)
 
+inline static constexpr unsigned int IKKJJHHENJB_KEIMAGBGCDP_TypeDefinitionIndex = 60746;
+
 	class IKKJJHHENJB_KEIMAGBGCDP : public ::System::Object
 	{
 	public:

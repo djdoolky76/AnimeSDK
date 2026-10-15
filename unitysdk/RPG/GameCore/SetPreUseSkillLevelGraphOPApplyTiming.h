@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetPreUseSkillLevelGraphOPApplyTiming; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetPreUseSkillLevelGraphOPApplyTiming_TypeDefinitionIndex = 23369;
+
 	class SetPreUseSkillLevelGraphOPApplyTiming : public ::RPG::GameCore::TaskConfig
 	{
 	public:

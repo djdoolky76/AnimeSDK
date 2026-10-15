@@ -62,6 +62,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoCityTrain_TypeDefinitionIndex = 69189;
+
 	class MonoCityTrain : public ::UnityEngine::MonoBehaviour
 	{
 	public:

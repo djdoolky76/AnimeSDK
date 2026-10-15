@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define NKLEOOMPCFC_CHAKABNICEL_OFFSET UNITYSDK_OFFSET(0xBC3B910)
 #define NKLEOOMPCFC_CTOR_OFFSET UNITYSDK_OFFSET(0xBC3B9D0)
 
+inline static constexpr unsigned int NKLEOOMPCFC_TypeDefinitionIndex = 77537;
+
 	class NKLEOOMPCFC : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define LKMBMFFFHAG_OFIJKMHJJOG_OFFSET UNITYSDK_OFFSET(0xB7559A0)
 #define LKMBMFFFHAG_PFLPCNPMKBD_OFFSET UNITYSDK_OFFSET(0xB757DF0)
 
+inline static constexpr unsigned int LKMBMFFFHAG_TypeDefinitionIndex = 77962;
+
 	class LKMBMFFFHAG : public ::System::Object
 	{
 	public:

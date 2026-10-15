@@ -33,6 +33,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int LaserTurnablePuzzleRing_TypeDefinitionIndex = 78669;
+
 	class LaserTurnablePuzzleRing : public ::UnityEngine::MonoBehaviour
 	{
 	public:

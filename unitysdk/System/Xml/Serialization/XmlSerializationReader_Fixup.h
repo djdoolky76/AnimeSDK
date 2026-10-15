@@ -12,6 +12,8 @@ namespace System::Xml::Serialization { class XmlSerializationFixupCallback; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlSerializationReader_Fixup_TypeDefinitionIndex = 2030;
+
 	class XmlSerializationReader_Fixup : public ::System::Object
 	{
 	public:

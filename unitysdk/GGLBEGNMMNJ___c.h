@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GGLBEGNMMNJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E47F460)
 #define GGLBEGNMMNJ___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E47F470)
 
+inline static constexpr unsigned int GGLBEGNMMNJ___c_TypeDefinitionIndex = 34226;
+
 	class GGLBEGNMMNJ___c : public ::System::Object
 	{
 	public:

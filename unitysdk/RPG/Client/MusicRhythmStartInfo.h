@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MusicRhythmStartInfo_TypeDefinitionIndex = 60166;
+
 	class MusicRhythmStartInfo : public ::System::Object
 	{
 	public:

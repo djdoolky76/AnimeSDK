@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LMOAEPFPCAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9AD2C0)
 #define LMOAEPFPCAP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E9AD2D0)
 
+inline static constexpr unsigned int LMOAEPFPCAP___c_TypeDefinitionIndex = 27660;
+
 	class LMOAEPFPCAP___c : public ::System::Object
 	{
 	public:

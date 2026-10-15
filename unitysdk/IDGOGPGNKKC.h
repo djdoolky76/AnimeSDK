@@ -13,6 +13,8 @@ namespace RPG::GameCore { class LinearProjectileData; }
 #define IDGOGPGNKKC_NNALPNDFFIJ_OFFSET UNITYSDK_OFFSET(0x15ED1730)
 #define IDGOGPGNKKC_PGKPGNJJMMB_OFFSET UNITYSDK_OFFSET(0x15ED1D80)
 
+inline static constexpr unsigned int IDGOGPGNKKC_TypeDefinitionIndex = 54745;
+
 	class IDGOGPGNKKC : public ::GGJEMEHMBNL
 	{
 	public:

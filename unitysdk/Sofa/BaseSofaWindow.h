@@ -63,6 +63,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Sofa
 {
+	inline static constexpr unsigned int BaseSofaWindow_TypeDefinitionIndex = 49686;
+
 	class BaseSofaWindow : public ::System::Object
 	{
 	public:

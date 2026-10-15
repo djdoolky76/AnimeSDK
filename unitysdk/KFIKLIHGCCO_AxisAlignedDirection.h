@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int KFIKLIHGCCO_AxisAlignedDirection_TypeDefinitionIndex = 51764;
+
 	enum class KFIKLIHGCCO_AxisAlignedDirection : ::System::Int32
 	{
 		PlusX = 0,

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelGameModeBegin; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelGameModeBegin_TypeDefinitionIndex = 56697;
+
 	class LevelGameModeBegin : public ::CMPGEAFHHDC
 	{
 	public:

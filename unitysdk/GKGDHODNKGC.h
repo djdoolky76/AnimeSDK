@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define GKGDHODNKGC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CAB0530)
 
+inline static constexpr unsigned int GKGDHODNKGC_TypeDefinitionIndex = 42784;
+
 	class GKGDHODNKGC : public ::System::Object
 	{
 	public:

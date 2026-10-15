@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define POOMINFCCKG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFD08C0)
 #define POOMINFCCKG___C___CCTOR_B__60_0_OFFSET UNITYSDK_OFFSET(0x1DFD08D0)
 
+inline static constexpr unsigned int POOMINFCCKG___c_TypeDefinitionIndex = 34829;
+
 	class POOMINFCCKG___c : public ::System::Object
 	{
 	public:

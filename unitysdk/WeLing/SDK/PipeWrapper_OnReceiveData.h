@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace WeLing::SDK
 {
+	inline static constexpr unsigned int PipeWrapper_OnReceiveData_TypeDefinitionIndex = 7538;
+
 	class PipeWrapper_OnReceiveData : public ::System::MulticastDelegate
 	{
 	public:

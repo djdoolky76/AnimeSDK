@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StreamingGroupVolumeComponentData_TypeDefinitionIndex = 19121;
+
 	class StreamingGroupVolumeComponentData : public ::RPG::GameCore::StageVolumeComponentData
 	{
 	public:

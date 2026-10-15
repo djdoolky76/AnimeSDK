@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RestaurantProgressRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RestaurantProgressRow_TypeDefinitionIndex = 11325;
+
 	class RestaurantProgressRow : public ::System::Object
 	{
 	public:

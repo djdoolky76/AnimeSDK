@@ -15,6 +15,8 @@ namespace RPG::GameCore { class PerFloorConflictRelativeMissionBakedData; }
 #define DKKLBCHCLIB_KHOIKAJKOBA_OFFSET UNITYSDK_OFFSET(0x3C369A0)
 #define DKKLBCHCLIB_MFNKOLACFDL_OFFSET UNITYSDK_OFFSET(0x3C36950)
 
+inline static constexpr unsigned int DKKLBCHCLIB_TypeDefinitionIndex = 10733;
+
 	struct alignas(8) DKKLBCHCLIB
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

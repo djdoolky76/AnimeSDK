@@ -5,6 +5,8 @@
 
 #define GCIBMBJGPKI_EKLGEDEDFFE_CTOR_OFFSET UNITYSDK_OFFSET(0x15976B90)
 
+inline static constexpr unsigned int GCIBMBJGPKI_EKLGEDEDFFE_TypeDefinitionIndex = 77936;
+
 	class GCIBMBJGPKI_EKLGEDEDFFE : public ::System::Object
 	{
 	public:

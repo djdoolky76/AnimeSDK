@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::FateRin::HouguMap
 {
+	inline static constexpr unsigned int FateRinHouguMapViewModel_TypeDefinitionIndex = 80765;
+
 	class FateRinHouguMapViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

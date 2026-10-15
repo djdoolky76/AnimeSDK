@@ -11,6 +11,8 @@ namespace System::Diagnostics::Tracing { class TraceLoggingMetadataCollector; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int SByteTypeInfo_TypeDefinitionIndex = 1616;
+
 	class SByteTypeInfo
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define BIGELLJGGEP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE020E0)
 #define BIGELLJGGEP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE02140)
 
+inline static constexpr unsigned int BIGELLJGGEP_TypeDefinitionIndex = 32546;
+
 	class BIGELLJGGEP : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define JFAIGANLDBK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F4A30)
 
+inline static constexpr unsigned int JFAIGANLDBK_TypeDefinitionIndex = 37166;
+
 	class JFAIGANLDBK : public ::System::Object
 	{
 	public:

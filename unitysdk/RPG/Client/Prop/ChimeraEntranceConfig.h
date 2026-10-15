@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraEntranceConfig_TypeDefinitionIndex = 78484;
+
 	class ChimeraEntranceConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:

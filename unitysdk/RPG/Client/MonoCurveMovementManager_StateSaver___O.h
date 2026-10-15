@@ -5,6 +5,8 @@ namespace RPG::Client { class NotifyHandler; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoCurveMovementManager_StateSaver___O_TypeDefinitionIndex = 68549;
+
 	class MonoCurveMovementManager_StateSaver___O : public ::System::Object
 	{
 	public:

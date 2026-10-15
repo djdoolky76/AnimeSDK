@@ -31,6 +31,8 @@ namespace System { class String; }
 #define OKEFGCNNEKI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE93D60)
 #define OKEFGCNNEKI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE93DC0)
 
+inline static constexpr unsigned int OKEFGCNNEKI_TypeDefinitionIndex = 35121;
+
 	class OKEFGCNNEKI : public ::System::Object
 	{
 	public:

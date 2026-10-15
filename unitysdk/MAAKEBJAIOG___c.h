@@ -8,6 +8,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define MAAKEBJAIOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5702F0)
 #define MAAKEBJAIOG___C__BINDTARGETCHIPSONLYCONSTRAINTS_B__12_0_OFFSET UNITYSDK_OFFSET(0x1C570300)
 
+inline static constexpr unsigned int MAAKEBJAIOG___c_TypeDefinitionIndex = 41810;
+
 	class MAAKEBJAIOG___c : public ::System::Object
 	{
 	public:

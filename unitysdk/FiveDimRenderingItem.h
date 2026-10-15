@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FIVEDIMRENDERINGITEM__ONDISABLE_OFFSET UNITYSDK_OFFSET(0x159251F0)
 #define FIVEDIMRENDERINGITEM__ONENABLE_OFFSET UNITYSDK_OFFSET(0x159252F0)
 
+inline static constexpr unsigned int FiveDimRenderingItem_TypeDefinitionIndex = 47109;
+
 	class FiveDimRenderingItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

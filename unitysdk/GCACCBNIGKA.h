@@ -5,6 +5,8 @@
 #define GCACCBNIGKA_CTOR_OFFSET UNITYSDK_OFFSET(0x2E79B70)
 #define GCACCBNIGKA_GET_INTENT_OFFSET UNITYSDK_OFFSET(0x2E79B80)
 
+inline static constexpr unsigned int GCACCBNIGKA_TypeDefinitionIndex = 62165;
+
 	struct alignas(4) GCACCBNIGKA
 	{
 		::FPJDAJBKDMN _Intent_k__BackingField; // 0x10

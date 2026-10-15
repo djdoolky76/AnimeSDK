@@ -12,6 +12,8 @@ namespace RPG::GameCore { class IdleLiveChatContentRow; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveTextContentData_TypeDefinitionIndex = 75353;
+
 	class IdleLiveTextContentData : public ::RPG::Client::ActivityIdleLive::IdleLiveDanmuContentData
 	{
 	public:

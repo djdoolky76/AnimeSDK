@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtBattleMode___c_TypeDefinitionIndex = 54270;
+
 	class RtBattleMode___c : public ::System::Object
 	{
 	public:

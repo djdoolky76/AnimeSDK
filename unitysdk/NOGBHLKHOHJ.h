@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NOGBHLKHOHJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCEBB40)
 #define NOGBHLKHOHJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBCEBC80)
 
+inline static constexpr unsigned int NOGBHLKHOHJ_TypeDefinitionIndex = 52242;
+
 	class NOGBHLKHOHJ
 	{
 	public:

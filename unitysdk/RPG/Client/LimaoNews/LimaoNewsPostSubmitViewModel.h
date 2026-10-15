@@ -21,6 +21,8 @@ namespace Sofa::Core { class SimpleCommand; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsPostSubmitViewModel_TypeDefinitionIndex = 80468;
+
 	class LimaoNewsPostSubmitViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

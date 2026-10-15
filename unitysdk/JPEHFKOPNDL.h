@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JPEHFKOPNDL_NDJEJBCEGNI_OFFSET UNITYSDK_OFFSET(0x1C7097B0)
 #define JPEHFKOPNDL_PHANFIFHKCN_OFFSET UNITYSDK_OFFSET(0x1C7089A0)
 
+inline static constexpr unsigned int JPEHFKOPNDL_TypeDefinitionIndex = 37241;
+
 	class JPEHFKOPNDL : public ::OMNEDLJOPNM
 	{
 	public:

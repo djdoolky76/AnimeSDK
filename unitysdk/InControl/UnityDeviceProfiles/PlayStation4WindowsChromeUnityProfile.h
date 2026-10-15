@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int PlayStation4WindowsChromeUnityProfile_TypeDefinitionIndex = 41056;
+
 	class PlayStation4WindowsChromeUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

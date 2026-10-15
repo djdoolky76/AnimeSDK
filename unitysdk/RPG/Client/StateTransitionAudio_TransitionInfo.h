@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StateTransitionAudio_TransitionInfo_TypeDefinitionIndex = 68849;
+
 	class StateTransitionAudio_TransitionInfo : public ::System::Object
 	{
 	public:

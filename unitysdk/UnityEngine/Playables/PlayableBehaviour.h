@@ -18,6 +18,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Playables
 {
+	inline static constexpr unsigned int PlayableBehaviour_TypeDefinitionIndex = 4914;
+
 	class PlayableBehaviour : public ::System::Object
 	{
 	public:

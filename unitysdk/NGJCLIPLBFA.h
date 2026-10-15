@@ -6,6 +6,8 @@ namespace RPG::GameCore { class IAvatarServantRowWrap; }
 
 #define NGJCLIPLBFA_KMAKLLEGBHI_OFFSET UNITYSDK_OFFSET(0xBBA9F70)
 
+inline static constexpr unsigned int NGJCLIPLBFA_TypeDefinitionIndex = 62644;
+
 	class NGJCLIPLBFA : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define GEIFDGHFMMF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x159D9F60)
 #define GEIFDGHFMMF___C__GET_PROPERTYTYPES_B__3_0_OFFSET UNITYSDK_OFFSET(0x159D9F70)
 
+inline static constexpr unsigned int GEIFDGHFMMF___c_TypeDefinitionIndex = 65017;
+
 	class GEIFDGHFMMF___c : public ::System::Object
 	{
 	public:

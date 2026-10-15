@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int LogitechF510ModeXMacUnityProfile_TypeDefinitionIndex = 41018;
+
 	class LogitechF510ModeXMacUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

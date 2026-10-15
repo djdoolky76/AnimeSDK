@@ -4,6 +4,8 @@
 
 #define KHLIGEOGGCP_CTOR_OFFSET UNITYSDK_OFFSET(0xB40BEB0)
 
+inline static constexpr unsigned int KHLIGEOGGCP_TypeDefinitionIndex = 47936;
+
 	class KHLIGEOGGCP : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

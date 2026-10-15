@@ -4,6 +4,8 @@
 
 #define JPBLFPBPHOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D058C20)
 
+inline static constexpr unsigned int JPBLFPBPHOL_TypeDefinitionIndex = 24994;
+
 	class JPBLFPBPHOL : public ::System::Attribute
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityLocalLegendModule___c_TypeDefinitionIndex = 61561;
+
 	class ActivityLocalLegendModule___c : public ::System::Object
 	{
 	public:

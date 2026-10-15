@@ -12,6 +12,8 @@ namespace System { class Type; }
 #define KOJFHENCLJG_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0x3C271D0)
 #define KOJFHENCLJG_JBOINIJPMOF_OFFSET UNITYSDK_OFFSET(0x26290)
 
+inline static constexpr unsigned int KOJFHENCLJG_TypeDefinitionIndex = 5640;
+
 	struct alignas(4) KOJFHENCLJG
 	{
 		::System::Int32 JFHBPPCIODD; // 0x10

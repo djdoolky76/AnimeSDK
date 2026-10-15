@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CIILCLFBHOI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF8B210)
 #define CIILCLFBHOI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCF8B620)
 
+inline static constexpr unsigned int CIILCLFBHOI_TypeDefinitionIndex = 52679;
+
 	class CIILCLFBHOI
 	{
 	public:

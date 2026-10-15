@@ -16,6 +16,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int ThreadPoolTaskScheduler_TypeDefinitionIndex = 937;
+
 	class ThreadPoolTaskScheduler : public ::System::Threading::Tasks::TaskScheduler
 	{
 	public:

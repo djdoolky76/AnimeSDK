@@ -4,6 +4,8 @@
 
 #define ADKPKLKIELC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCAD180)
 
+inline static constexpr unsigned int ADKPKLKIELC_TypeDefinitionIndex = 24999;
+
 	class ADKPKLKIELC : public ::System::Attribute
 	{
 	public:

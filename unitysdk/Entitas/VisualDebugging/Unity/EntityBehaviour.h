@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace Entitas::VisualDebugging::Unity
 {
+	inline static constexpr unsigned int EntityBehaviour_TypeDefinitionIndex = 10065;
+
 	class EntityBehaviour : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -16,6 +16,8 @@ class FFPFEGNEJDA;
 #define FFPFEGNEJDA_SET_POS_OFFSET UNITYSDK_OFFSET(0x1574E570)
 #define FFPFEGNEJDA_SET_UID_OFFSET UNITYSDK_OFFSET(0x1574E550)
 
+inline static constexpr unsigned int FFPFEGNEJDA_TypeDefinitionIndex = 79216;
+
 	class FFPFEGNEJDA : public ::System::Object
 	{
 	public:

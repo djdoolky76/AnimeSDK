@@ -9,6 +9,8 @@ namespace System { class String; }
 #define GFJHLACJMNK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE3C8C0)
 #define GFJHLACJMNK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE3C880)
 
+inline static constexpr unsigned int GFJHLACJMNK_TypeDefinitionIndex = 23330;
+
 	class GFJHLACJMNK : public ::RPG::GameCore::TaskConfig
 	{
 	public:

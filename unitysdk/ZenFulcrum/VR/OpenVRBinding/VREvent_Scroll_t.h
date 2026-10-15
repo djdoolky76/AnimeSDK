@@ -3,6 +3,8 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int VREvent_Scroll_t_TypeDefinitionIndex = 39284;
+
 	struct alignas(4) VREvent_Scroll_t
 	{
 		::System::Single xdelta; // 0x10

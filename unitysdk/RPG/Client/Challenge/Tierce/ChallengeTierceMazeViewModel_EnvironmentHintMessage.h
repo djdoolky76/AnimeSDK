@@ -6,6 +6,8 @@
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceMazeViewModel_EnvironmentHintMessage_TypeDefinitionIndex = 81592;
+
 	class ChallengeTierceMazeViewModel_EnvironmentHintMessage : public ::System::Object
 	{
 	public:

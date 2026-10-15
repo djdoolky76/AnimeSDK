@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define EGPBMMBCIHB_CTOR_OFFSET UNITYSDK_OFFSET(0x14520920)
 
+inline static constexpr unsigned int EGPBMMBCIHB_TypeDefinitionIndex = 64793;
+
 	class EGPBMMBCIHB : public ::System::Object
 	{
 	public:

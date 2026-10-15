@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SOCompositeConfig_TypeDefinitionIndex = 20055;
+
 	class SOCompositeConfig : public ::RPG::GameCore::SOTaskConfig
 	{
 	public:

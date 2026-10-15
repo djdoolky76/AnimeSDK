@@ -20,6 +20,8 @@ namespace UnityEngine::Rendering { template <typename T> class ObservableList_1;
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DebugUI_Container_TypeDefinitionIndex = 35524;
+
 	class DebugUI_Container : public ::UnityEngine::Rendering::DebugUI_Widget
 	{
 	public:

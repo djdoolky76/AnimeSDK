@@ -7,6 +7,8 @@ class MEJCFGPFKII;
 #define MEJCFGPFKII_CTOR_OFFSET UNITYSDK_OFFSET(0x1D151950)
 #define MEJCFGPFKII_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D151890)
 
+inline static constexpr unsigned int MEJCFGPFKII_TypeDefinitionIndex = 14401;
+
 	class MEJCFGPFKII : public ::System::Object
 	{
 	public:

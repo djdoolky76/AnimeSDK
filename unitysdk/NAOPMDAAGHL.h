@@ -63,6 +63,8 @@ namespace UnityEngine { class Transform; }
 #define NAOPMDAAGHL_SET_ENTRYPOSITION_OFFSET UNITYSDK_OFFSET(0xBAB7750)
 #define NAOPMDAAGHL_SET_ENTRYROTATION_OFFSET UNITYSDK_OFFSET(0xBAB7780)
 
+inline static constexpr unsigned int NAOPMDAAGHL_TypeDefinitionIndex = 77261;
+
 	class NAOPMDAAGHL
 	{
 	public:

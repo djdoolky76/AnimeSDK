@@ -77,6 +77,8 @@ namespace UnityEngine { class GameObject; }
 #define JBBKJFCDLEJ_PFEMAHAGPAC_OFFSET UNITYSDK_OFFSET(0x16562EC0)
 #define JBBKJFCDLEJ_PFNJEFEHFCP_OFFSET UNITYSDK_OFFSET(0x16564BE0)
 
+inline static constexpr unsigned int JBBKJFCDLEJ_TypeDefinitionIndex = 60387;
+
 	class JBBKJFCDLEJ : public ::System::Object
 	{
 	public:

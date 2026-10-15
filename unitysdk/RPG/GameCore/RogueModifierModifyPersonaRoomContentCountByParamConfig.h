@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyPersonaRoomContentCountByPara
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyPersonaRoomContentCountByParamConfig_TypeDefinitionIndex = 17796;
+
 	class RogueModifierModifyPersonaRoomContentCountByParamConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System { class String; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int OneofOptions_TypeDefinitionIndex = 5499;
+
 	class OneofOptions : public ::System::Object
 	{
 	public:

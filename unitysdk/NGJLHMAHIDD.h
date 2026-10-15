@@ -35,6 +35,8 @@ namespace System { class String; }
 #define NGJLHMAHIDD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB138F0)
 #define NGJLHMAHIDD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB13950)
 
+inline static constexpr unsigned int NGJLHMAHIDD_TypeDefinitionIndex = 28566;
+
 	class NGJLHMAHIDD : public ::System::Object
 	{
 	public:

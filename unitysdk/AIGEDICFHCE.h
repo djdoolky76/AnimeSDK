@@ -29,6 +29,8 @@ namespace System { class String; }
 #define AIGEDICFHCE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E27B110)
 #define AIGEDICFHCE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E27B170)
 
+inline static constexpr unsigned int AIGEDICFHCE_TypeDefinitionIndex = 27744;
+
 	class AIGEDICFHCE : public ::System::Object
 	{
 	public:

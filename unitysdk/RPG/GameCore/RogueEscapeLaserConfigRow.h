@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueEscapeLaserConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueEscapeLaserConfigRow_TypeDefinitionIndex = 14672;
+
 	class RogueEscapeLaserConfigRow : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define BHHAAIPKDCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C59A410)
 
+inline static constexpr unsigned int BHHAAIPKDCP_TypeDefinitionIndex = 36444;
+
 	class BHHAAIPKDCP : public ::System::Object
 	{
 	public:

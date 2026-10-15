@@ -23,6 +23,8 @@ namespace System { class String; }
 #define PEBDAPFKGKP_SET_TARGETTIMESTAMP_OFFSET UNITYSDK_OFFSET(0xC032C50)
 #define PEBDAPFKGKP_SET_TITLE_OFFSET UNITYSDK_OFFSET(0xC032C10)
 
+inline static constexpr unsigned int PEBDAPFKGKP_TypeDefinitionIndex = 61078;
+
 	class PEBDAPFKGKP : public ::System::Object
 	{
 	public:

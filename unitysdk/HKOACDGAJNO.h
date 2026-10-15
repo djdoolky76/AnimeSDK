@@ -13,6 +13,8 @@ namespace System { class String; }
 #define HKOACDGAJNO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CEBD9C0)
 #define HKOACDGAJNO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEBD980)
 
+inline static constexpr unsigned int HKOACDGAJNO_TypeDefinitionIndex = 22563;
+
 	class HKOACDGAJNO : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

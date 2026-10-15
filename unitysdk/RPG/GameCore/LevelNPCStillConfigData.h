@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelNPCStillConfigData_TypeDefinitionIndex = 17267;
+
 	class LevelNPCStillConfigData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

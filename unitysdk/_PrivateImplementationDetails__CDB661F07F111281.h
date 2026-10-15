@@ -7,6 +7,8 @@
 #include "unitysdk/_PrivateImplementationDetails__CDB661F07F111281___StaticArrayInitTypeSize_48.h"
 #include "unitysdk/_PrivateImplementationDetails__CDB661F07F111281___StaticArrayInitTypeSize_72.h"
 
+inline static constexpr unsigned int _PrivateImplementationDetails__CDB661F07F111281_TypeDefinitionIndex = 6955;
+
 	class _PrivateImplementationDetails__CDB661F07F111281 : public ::System::Object
 	{
 	public:

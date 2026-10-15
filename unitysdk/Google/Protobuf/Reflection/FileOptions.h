@@ -93,6 +93,8 @@ namespace System { class String; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int FileOptions_TypeDefinitionIndex = 5488;
+
 	class FileOptions : public ::System::Object
 	{
 	public:

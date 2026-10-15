@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CRPCameraBackgroundTrack_TypeDefinitionIndex = 47881;
+
 	class CRPCameraBackgroundTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

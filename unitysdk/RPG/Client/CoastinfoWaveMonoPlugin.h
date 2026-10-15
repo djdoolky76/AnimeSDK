@@ -39,6 +39,8 @@ namespace UnityEngine { class MeshRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CoastinfoWaveMonoPlugin_TypeDefinitionIndex = 70928;
+
 	class CoastinfoWaveMonoPlugin
 	{
 	public:

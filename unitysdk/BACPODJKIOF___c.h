@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 #define BACPODJKIOF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15BD7030)
 #define BACPODJKIOF___C__TRANSLATE_B__0_0_OFFSET UNITYSDK_OFFSET(0x15BD7040)
 
+inline static constexpr unsigned int BACPODJKIOF___c_TypeDefinitionIndex = 59955;
+
 	class BACPODJKIOF___c : public ::System::Object
 	{
 	public:

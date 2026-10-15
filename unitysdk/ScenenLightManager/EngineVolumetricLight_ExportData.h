@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int EngineVolumetricLight_ExportData_TypeDefinitionIndex = 49101;
+
 	class EngineVolumetricLight_ExportData : public ::System::Object
 	{
 	public:

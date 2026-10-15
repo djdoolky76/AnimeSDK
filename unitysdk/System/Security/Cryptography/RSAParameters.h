@@ -3,6 +3,8 @@
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int RSAParameters_TypeDefinitionIndex = 1048;
+
 	struct alignas(8) RSAParameters
 	{
 		::Il2CppArray<::System::Byte>* Exponent; // 0x10

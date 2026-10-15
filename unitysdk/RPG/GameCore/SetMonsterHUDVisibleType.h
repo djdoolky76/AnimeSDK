@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetMonsterHUDVisibleType_TypeDefinitionIndex = 22820;
+
 	class SetMonsterHUDVisibleType : public ::RPG::GameCore::TaskConfig
 	{
 	public:

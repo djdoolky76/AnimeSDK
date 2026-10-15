@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayerChallengePeakRecordMobData_TypeDefinitionIndex = 64266;
+
 	class PlayerChallengePeakRecordMobData : public ::System::Object
 	{
 	public:

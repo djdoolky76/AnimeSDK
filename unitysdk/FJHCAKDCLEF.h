@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define FJHCAKDCLEF_CTOR_OFFSET UNITYSDK_OFFSET(0x157C4260)
 
+inline static constexpr unsigned int FJHCAKDCLEF_TypeDefinitionIndex = 47602;
+
 	class FJHCAKDCLEF : public ::System::Object
 	{
 	public:

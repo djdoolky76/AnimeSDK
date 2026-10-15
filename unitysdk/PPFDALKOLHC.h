@@ -6,6 +6,8 @@
 #define PPFDALKOLHC_AOKLJHMAIOG_OFFSET UNITYSDK_OFFSET(0x1C9F95A0)
 #define PPFDALKOLHC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F95B0)
 
+inline static constexpr unsigned int PPFDALKOLHC_TypeDefinitionIndex = 41971;
+
 	class PPFDALKOLHC : public ::System::Object
 	{
 	public:

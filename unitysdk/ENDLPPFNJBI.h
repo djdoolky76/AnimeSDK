@@ -10,6 +10,8 @@ namespace RPG::Client { class IRogueTournDifficulty; }
 #define ENDLPPFNJBI_EAAMDCHNHOC_OFFSET UNITYSDK_OFFSET(0x155A7420)
 #define ENDLPPFNJBI_PKMJFHMCEED_OFFSET UNITYSDK_OFFSET(0x155A7520)
 
+inline static constexpr unsigned int ENDLPPFNJBI_TypeDefinitionIndex = 67587;
+
 	class ENDLPPFNJBI : public ::System::Object
 	{
 	public:

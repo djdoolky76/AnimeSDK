@@ -31,6 +31,8 @@ namespace System { class String; }
 #define MKEPKKAJONE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA564C0)
 #define MKEPKKAJONE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA56520)
 
+inline static constexpr unsigned int MKEPKKAJONE_TypeDefinitionIndex = 35092;
+
 	class MKEPKKAJONE : public ::System::Object
 	{
 	public:

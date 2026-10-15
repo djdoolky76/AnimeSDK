@@ -29,6 +29,8 @@ namespace System::Globalization { class EraInfo; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int GregorianCalendarHelper_TypeDefinitionIndex = 751;
+
 	class GregorianCalendarHelper : public ::System::Object
 	{
 	public:

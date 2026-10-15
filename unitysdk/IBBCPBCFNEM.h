@@ -13,6 +13,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 #define IBBCPBCFNEM_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0x15E29930)
 #define IBBCPBCFNEM_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x15E29A80)
 
+inline static constexpr unsigned int IBBCPBCFNEM_TypeDefinitionIndex = 48833;
+
 	class IBBCPBCFNEM : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

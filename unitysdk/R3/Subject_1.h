@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace R3
 {
+	inline static constexpr unsigned int Subject_1_TypeDefinitionIndex = 35972;
+
 	template <typename T>
 	class Subject_1
 	{

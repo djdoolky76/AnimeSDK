@@ -12,6 +12,8 @@ namespace System { class String; }
 #define PLIJICJHHDA_HBJAPBFKNAB_OFFSET UNITYSDK_OFFSET(0xC307C90)
 #define PLIJICJHHDA_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC307E20)
 
+inline static constexpr unsigned int PLIJICJHHDA_TypeDefinitionIndex = 59631;
+
 	class PLIJICJHHDA : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityMaxHPChange_TypeDefinitionIndex = 56568;
+
 	class AbilityMaxHPChange : public ::System::Object
 	{
 	public:

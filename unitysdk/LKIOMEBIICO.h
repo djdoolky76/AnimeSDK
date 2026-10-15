@@ -31,6 +31,8 @@ namespace System { class String; }
 #define LKIOMEBIICO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9903D0)
 #define LKIOMEBIICO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E990430)
 
+inline static constexpr unsigned int LKIOMEBIICO_TypeDefinitionIndex = 34796;
+
 	class LKIOMEBIICO : public ::System::Object
 	{
 	public:

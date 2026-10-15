@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MapRotationVolumeSlotConfigAnchor; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MapRotationVolumeSlotConfigAnchor_TypeDefinitionIndex = 17045;
+
 	class MapRotationVolumeSlotConfigAnchor : public ::RPG::GameCore::MapRotationVolumeSlotConfigBase
 	{
 	public:

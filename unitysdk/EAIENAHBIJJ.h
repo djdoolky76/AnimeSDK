@@ -17,6 +17,8 @@ namespace Proto { class ItemList; }
 #define EAIENAHBIJJ_SET_LOCALISVISIBLE_OFFSET UNITYSDK_OFFSET(0x1267B2C0)
 #define EAIENAHBIJJ_SET_REWARDS_OFFSET UNITYSDK_OFFSET(0x1267B2A0)
 
+inline static constexpr unsigned int EAIENAHBIJJ_TypeDefinitionIndex = 81648;
+
 	class EAIENAHBIJJ : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine { class Component; }
 
 #define FNFGDHDIHHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA714D0)
 
+inline static constexpr unsigned int FNFGDHDIHHM_TypeDefinitionIndex = 42906;
+
 	class FNFGDHDIHHM : public ::System::Object
 	{
 	public:

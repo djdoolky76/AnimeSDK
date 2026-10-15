@@ -18,6 +18,8 @@ namespace System::IO { class FileInfo; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ResolveDump_TypeDefinitionIndex = 37744;
+
 	class ResolveDump : public ::System::Object
 	{
 	public:

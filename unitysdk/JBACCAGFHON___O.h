@@ -23,6 +23,8 @@ class NAJCEIHIIIP;
 class PAIKIFFPMNH;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
+inline static constexpr unsigned int JBACCAGFHON___O_TypeDefinitionIndex = 78009;
+
 	class JBACCAGFHON___O : public ::System::Object
 	{
 	public:

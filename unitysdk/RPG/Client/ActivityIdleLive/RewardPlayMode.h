@@ -3,6 +3,8 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int RewardPlayMode_TypeDefinitionIndex = 75311;
+
 	enum class RewardPlayMode : ::System::Int32
 	{
 		Fly = 0,

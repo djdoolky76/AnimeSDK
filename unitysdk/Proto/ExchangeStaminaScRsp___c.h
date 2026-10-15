@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int ExchangeStaminaScRsp___c_TypeDefinitionIndex = 32043;
+
 	class ExchangeStaminaScRsp___c : public ::System::Object
 	{
 	public:

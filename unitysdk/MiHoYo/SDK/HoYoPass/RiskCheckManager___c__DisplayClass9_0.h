@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int RiskCheckManager___c__DisplayClass9_0_TypeDefinitionIndex = 8341;
+
 	class RiskCheckManager___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

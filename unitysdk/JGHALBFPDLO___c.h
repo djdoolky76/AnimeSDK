@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JGHALBFPDLO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E739B30)
 #define JGHALBFPDLO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E739B40)
 
+inline static constexpr unsigned int JGHALBFPDLO___c_TypeDefinitionIndex = 33387;
+
 	class JGHALBFPDLO___c : public ::System::Object
 	{
 	public:

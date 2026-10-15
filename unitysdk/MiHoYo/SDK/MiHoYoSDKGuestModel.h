@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKGuestModel_TypeDefinitionIndex = 46347;
+
 	class MiHoYoSDKGuestModel : public ::System::Object
 	{
 	public:

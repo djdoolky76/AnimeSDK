@@ -4,6 +4,8 @@
 
 #define AGOGHMCAKAD_CTOR_OFFSET UNITYSDK_OFFSET(0xCF46CB0)
 
+inline static constexpr unsigned int AGOGHMCAKAD_TypeDefinitionIndex = 80438;
+
 	class AGOGHMCAKAD : public ::System::Object
 	{
 	public:

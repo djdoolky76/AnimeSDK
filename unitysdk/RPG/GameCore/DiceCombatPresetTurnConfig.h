@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatPresetTurnConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatPresetTurnConfig_TypeDefinitionIndex = 16133;
+
 	class DiceCombatPresetTurnConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

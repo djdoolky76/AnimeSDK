@@ -55,6 +55,8 @@ namespace UnityEngine { class Collider; }
 #define KBLKHFKCCBC_ODDFFNPOLJO_OFFSET UNITYSDK_OFFSET(0xB314F50)
 #define KBLKHFKCCBC_POPDKFFPMLB_OFFSET UNITYSDK_OFFSET(0xB31B920)
 
+inline static constexpr unsigned int KBLKHFKCCBC_TypeDefinitionIndex = 77022;
+
 	class KBLKHFKCCBC : public ::CBIKMJHGEDE
 	{
 	public:

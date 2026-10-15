@@ -28,6 +28,8 @@ namespace System { class String; }
 #define GFOFPDMELCL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E475740)
 #define GFOFPDMELCL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4757A0)
 
+inline static constexpr unsigned int GFOFPDMELCL_TypeDefinitionIndex = 32533;
+
 	class GFOFPDMELCL : public ::System::Object
 	{
 	public:

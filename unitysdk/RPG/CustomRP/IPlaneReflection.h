@@ -3,6 +3,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int IPlaneReflection_TypeDefinitionIndex = 37635;
+
 	class IPlaneReflection
 	{
 	public:

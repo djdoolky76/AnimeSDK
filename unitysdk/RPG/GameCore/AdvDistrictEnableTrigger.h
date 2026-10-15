@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvDistrictEnableTrigger_TypeDefinitionIndex = 21195;
+
 	class AdvDistrictEnableTrigger : public ::RPG::GameCore::TaskConfig
 	{
 	public:

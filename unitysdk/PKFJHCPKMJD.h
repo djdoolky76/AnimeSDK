@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define PKFJHCPKMJD_CTOR_OFFSET UNITYSDK_OFFSET(0xC2B4D70)
 
+inline static constexpr unsigned int PKFJHCPKMJD_TypeDefinitionIndex = 72317;
+
 	class PKFJHCPKMJD : public ::System::Object
 	{
 	public:

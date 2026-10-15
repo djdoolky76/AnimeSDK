@@ -57,6 +57,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MemberData_TypeDefinitionIndex = 68106;
+
 	class MemberData : public ::System::Object
 	{
 	public:

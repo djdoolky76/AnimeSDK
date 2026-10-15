@@ -6,6 +6,8 @@
 #define DHCNDENHLGO_GET_ID_OFFSET UNITYSDK_OFFSET(0xEBC9780)
 #define DHCNDENHLGO_SET_ID_OFFSET UNITYSDK_OFFSET(0xEBC9790)
 
+inline static constexpr unsigned int DHCNDENHLGO_TypeDefinitionIndex = 81443;
+
 	class DHCNDENHLGO : public ::System::Object
 	{
 	public:

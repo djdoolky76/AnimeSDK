@@ -6,6 +6,8 @@ namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 #define PENOLCOEKCD_CTOR_OFFSET UNITYSDK_OFFSET(0xC1F3BC0)
 #define PENOLCOEKCD_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xC1F3A90)
 
+inline static constexpr unsigned int PENOLCOEKCD_TypeDefinitionIndex = 76272;
+
 	class PENOLCOEKCD : public ::MLKDDLHNNHH
 	{
 	public:

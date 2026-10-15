@@ -15,6 +15,8 @@ namespace System { class String; }
 #define MFNBAGBLBHE_BECNDBEDECJ_9_OFFSET UNITYSDK_OFFSET(0x1D161E90)
 #define MFNBAGBLBHE_BECNDBEDECJ_OFFSET UNITYSDK_OFFSET(0x1D161AE0)
 
+inline static constexpr unsigned int MFNBAGBLBHE_TypeDefinitionIndex = 10835;
+
 	class MFNBAGBLBHE : public ::System::Object
 	{
 	public:

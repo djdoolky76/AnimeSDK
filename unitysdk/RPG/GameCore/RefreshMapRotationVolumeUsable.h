@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RefreshMapRotationVolumeUsable_TypeDefinitionIndex = 20922;
+
 	class RefreshMapRotationVolumeUsable : public ::RPG::GameCore::TaskConfig
 	{
 	public:

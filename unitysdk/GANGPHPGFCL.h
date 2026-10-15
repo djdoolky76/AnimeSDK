@@ -32,6 +32,8 @@ namespace System { class String; }
 #define GANGPHPGFCL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4244A0)
 #define GANGPHPGFCL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E424500)
 
+inline static constexpr unsigned int GANGPHPGFCL_TypeDefinitionIndex = 29229;
+
 	class GANGPHPGFCL : public ::System::Object
 	{
 	public:

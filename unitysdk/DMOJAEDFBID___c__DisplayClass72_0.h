@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define DMOJAEDFBID___C__DISPLAYCLASS72_0_CTOR_OFFSET UNITYSDK_OFFSET(0xFECCE30)
 #define DMOJAEDFBID___C__DISPLAYCLASS72_0___GETSUMMONEDITEMS_B__0_OFFSET UNITYSDK_OFFSET(0xFECDA50)
 
+inline static constexpr unsigned int DMOJAEDFBID___c__DisplayClass72_0_TypeDefinitionIndex = 71322;
+
 	class DMOJAEDFBID___c__DisplayClass72_0 : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DynamicString; }
 #define PIFNKBOOHNB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2EE7D0)
 #define PIFNKBOOHNB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2EE790)
 
+inline static constexpr unsigned int PIFNKBOOHNB_TypeDefinitionIndex = 22158;
+
 	class PIFNKBOOHNB : public ::RPG::GameCore::TaskConfig
 	{
 	public:

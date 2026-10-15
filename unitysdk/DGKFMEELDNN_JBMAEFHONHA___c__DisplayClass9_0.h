@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyCo
 #define DGKFMEELDNN_JBMAEFHONHA___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE84EEB0)
 #define DGKFMEELDNN_JBMAEFHONHA___C__DISPLAYCLASS9_0___CREATETRAITITEMS_B__0_OFFSET UNITYSDK_OFFSET(0xE84F250)
 
+inline static constexpr unsigned int DGKFMEELDNN_JBMAEFHONHA___c__DisplayClass9_0_TypeDefinitionIndex = 79527;
+
 	class DGKFMEELDNN_JBMAEFHONHA___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

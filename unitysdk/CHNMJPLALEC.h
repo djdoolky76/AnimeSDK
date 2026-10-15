@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CHNMJPLALEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0CBEE0)
 #define CHNMJPLALEC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0CBF40)
 
+inline static constexpr unsigned int CHNMJPLALEC_TypeDefinitionIndex = 26625;
+
 	class CHNMJPLALEC : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int ReactivateAccountManager_TypeDefinitionIndex = 9284;
+
 	class ReactivateAccountManager : public ::System::Object
 	{
 	public:

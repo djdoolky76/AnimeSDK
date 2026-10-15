@@ -34,6 +34,8 @@ namespace System::Collections { class SortedList; }
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int SortedList_SyncSortedList_TypeDefinitionIndex = 1499;
+
 	class SortedList_SyncSortedList : public ::System::Collections::SortedList
 	{
 	public:

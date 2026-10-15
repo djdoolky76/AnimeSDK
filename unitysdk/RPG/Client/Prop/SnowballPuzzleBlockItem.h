@@ -18,6 +18,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int SnowballPuzzleBlockItem_TypeDefinitionIndex = 78864;
+
 	class SnowballPuzzleBlockItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

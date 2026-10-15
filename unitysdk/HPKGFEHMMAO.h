@@ -8,6 +8,8 @@ namespace System { class Nullable; }
 #define HPKGFEHMMAO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CED6820)
 #define HPKGFEHMMAO_GET_CATEGORY_OFFSET UNITYSDK_OFFSET(0x1CED6850)
 
+inline static constexpr unsigned int HPKGFEHMMAO_TypeDefinitionIndex = 24849;
+
 	class HPKGFEHMMAO : public ::System::Attribute
 	{
 	public:

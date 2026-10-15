@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int DefaultMemberAttribute_TypeDefinitionIndex = 559;
+
 	class DefaultMemberAttribute : public ::System::Attribute
 	{
 	public:

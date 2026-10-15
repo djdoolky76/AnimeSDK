@@ -39,6 +39,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ECJOICEMEGG_ONACQUIRE_OFFSET UNITYSDK_OFFSET(0x12D106B0)
 #define ECJOICEMEGG_ONRETURN_OFFSET UNITYSDK_OFFSET(0x12D10930)
 
+inline static constexpr unsigned int ECJOICEMEGG_TypeDefinitionIndex = 72308;
+
 	class ECJOICEMEGG : public ::FMPCODLIOLG
 	{
 	public:

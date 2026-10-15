@@ -8,6 +8,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int BlockScreenHexPuzzle_TypeDefinitionIndex = 78601;
+
 	class BlockScreenHexPuzzle : public ::RPG::Client::Prop::HexPuzzleBoardBase
 	{
 	public:

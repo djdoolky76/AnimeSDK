@@ -19,6 +19,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace RPG::Client::Pet
 {
+	inline static constexpr unsigned int BlindBoxPetIdentifierExtra_TypeDefinitionIndex = 75680;
+
 	struct alignas(4) BlindBoxPetIdentifierExtra
 	{
 		::System::UInt32 _AppearanceId_k__BackingField; // 0x10

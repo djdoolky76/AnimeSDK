@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SpecialBpFeature_TypeDefinitionIndex = 23222;
+
 	class SpecialBpFeature : public ::RPG::GameCore::JsonConfig
 	{
 	public:

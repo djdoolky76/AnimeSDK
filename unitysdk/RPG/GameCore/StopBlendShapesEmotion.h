@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StopBlendShapesEmotion_TypeDefinitionIndex = 21891;
+
 	class StopBlendShapesEmotion : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TriggerWaveEffect; }
 #define ALCEMGIGLEE_CTOR_OFFSET UNITYSDK_OFFSET(0x155625D0)
 #define ALCEMGIGLEE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15562600)
 
+inline static constexpr unsigned int ALCEMGIGLEE_TypeDefinitionIndex = 55771;
+
 	class ALCEMGIGLEE
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 #define BIAJADAIBND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D805C20)
 #define BIAJADAIBND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D805BD0)
 
+inline static constexpr unsigned int BIAJADAIBND_TypeDefinitionIndex = 21458;
+
 	class BIAJADAIBND : public ::RPG::GameCore::TaskConfig
 	{
 	public:

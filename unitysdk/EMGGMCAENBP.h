@@ -8,6 +8,8 @@
 #define EMGGMCAENBP_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0x15537130)
 #define EMGGMCAENBP_SET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x15537150)
 
+inline static constexpr unsigned int EMGGMCAENBP_TypeDefinitionIndex = 74591;
+
 	class EMGGMCAENBP : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class String; }
 #define HIKHDDDONOB_PMNFDCPMFHI_OFFSET UNITYSDK_OFFSET(0x15CF03C0)
 #define HIKHDDDONOB_TICK_OFFSET UNITYSDK_OFFSET(0x15CF02E0)
 
+inline static constexpr unsigned int HIKHDDDONOB_TypeDefinitionIndex = 58915;
+
 	class HIKHDDDONOB : public ::GELIALJDFBL
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceResultBadgeNotic
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceResultBadgeNoticeViewModel_Factory_TypeDefinitionIndex = 81606;
+
 	class ChallengeTierceResultBadgeNoticeViewModel_Factory : public ::System::Object
 	{
 	public:

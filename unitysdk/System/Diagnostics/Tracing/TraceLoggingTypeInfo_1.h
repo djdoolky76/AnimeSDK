@@ -6,6 +6,8 @@ namespace System::Diagnostics::Tracing { class TraceLoggingTypeInfo; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int TraceLoggingTypeInfo_1_TypeDefinitionIndex = 1672;
+
 	template <typename T>
 	class TraceLoggingTypeInfo_1 : public ::System::Diagnostics::Tracing::TraceLoggingTypeInfo
 	{

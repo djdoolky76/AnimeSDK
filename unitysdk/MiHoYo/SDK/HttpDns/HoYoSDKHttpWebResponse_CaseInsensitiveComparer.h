@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::HttpDns
 {
+	inline static constexpr unsigned int HoYoSDKHttpWebResponse_CaseInsensitiveComparer_TypeDefinitionIndex = 46698;
+
 	class HoYoSDKHttpWebResponse_CaseInsensitiveComparer : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GrowthMaterialGroup_TypeDefinitionIndex = 65641;
+
 	enum class GrowthMaterialGroup : ::System::UInt32
 	{
 		LEVELUP_MATERIAL = 0,

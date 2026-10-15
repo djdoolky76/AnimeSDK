@@ -8,6 +8,8 @@ namespace System::Globalization { class CultureInfo; }
 #define SR_2E6DB1B027957868_GETSTRING_1_OFFSET UNITYSDK_OFFSET(0x1EE91DB0)
 #define SR_2E6DB1B027957868_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1EE91D00)
 
+inline static constexpr unsigned int SR_2E6DB1B027957868_TypeDefinitionIndex = 1776;
+
 	class SR_2E6DB1B027957868 : public ::System::Object
 	{
 	public:

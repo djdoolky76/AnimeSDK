@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
+inline static constexpr unsigned int MMENAAHCEIJ_TypeDefinitionIndex = 54109;
+
 	struct alignas(8) MMENAAHCEIJ
 	{
 		::RPG::GameCore::RtLifeBindingConfig* IMGOLMNHMGB; // 0x10

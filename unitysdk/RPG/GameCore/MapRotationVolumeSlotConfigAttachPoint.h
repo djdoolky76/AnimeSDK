@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MapRotationVolumeSlotConfigAttachPoint_TypeDefinitionIndex = 17046;
+
 	class MapRotationVolumeSlotConfigAttachPoint : public ::RPG::GameCore::MapRotationVolumeSlotConfigBase
 	{
 	public:

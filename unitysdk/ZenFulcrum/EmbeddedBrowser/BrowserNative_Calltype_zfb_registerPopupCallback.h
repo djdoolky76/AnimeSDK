@@ -15,6 +15,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_NewWindowFunc; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_registerPopupCallback_TypeDefinitionIndex = 39453;
+
 	class BrowserNative_Calltype_zfb_registerPopupCallback : public ::System::MulticastDelegate
 	{
 	public:

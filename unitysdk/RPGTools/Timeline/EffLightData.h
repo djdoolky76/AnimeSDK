@@ -4,6 +4,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int EffLightData_TypeDefinitionIndex = 48156;
+
 	struct alignas(4) EffLightData
 	{
 		::UnityEngine::Vector3 CustomLightDir; // 0x10

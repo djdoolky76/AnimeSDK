@@ -5,6 +5,8 @@ class OFKKIMABHJD;
 
 #define BMPICAPOOFD_CTOR_OFFSET UNITYSDK_OFFSET(0xBDC4770)
 
+inline static constexpr unsigned int BMPICAPOOFD_TypeDefinitionIndex = 64042;
+
 	class BMPICAPOOFD : public ::System::Object
 	{
 	public:

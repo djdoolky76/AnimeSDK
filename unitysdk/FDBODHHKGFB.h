@@ -31,6 +31,8 @@ class POHFDKCHDNK;
 
 #define FDBODHHKGFB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C615650)
 
+inline static constexpr unsigned int FDBODHHKGFB_TypeDefinitionIndex = 36461;
+
 	class FDBODHHKGFB : public ::System::Object
 	{
 	public:

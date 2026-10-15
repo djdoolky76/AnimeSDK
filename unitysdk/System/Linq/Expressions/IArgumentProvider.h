@@ -3,6 +3,8 @@
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int IArgumentProvider_TypeDefinitionIndex = 3223;
+
 	class IArgumentProvider
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define EMAFOGNODKM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1552FE50)
 #define EMAFOGNODKM___C___REFRESHHUDACTIVESTATE_B__55_0_OFFSET UNITYSDK_OFFSET(0x1552FE60)
 
+inline static constexpr unsigned int EMAFOGNODKM___c_TypeDefinitionIndex = 71809;
+
 	class EMAFOGNODKM___c : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class StageBattleEventConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageBattleEventConfig_TypeDefinitionIndex = 23456;
+
 	class StageBattleEventConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

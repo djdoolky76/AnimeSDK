@@ -11,6 +11,8 @@ namespace UnityEngine { class Collider; }
 #define ECPIKMPOLFL_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0x1330D770)
 #define ECPIKMPOLFL_PGKPGNJJMMB_OFFSET UNITYSDK_OFFSET(0x1330DC10)
 
+inline static constexpr unsigned int ECPIKMPOLFL_TypeDefinitionIndex = 54761;
+
 	class ECPIKMPOLFL : public ::GGJEMEHMBNL
 	{
 	public:

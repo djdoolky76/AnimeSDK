@@ -11,6 +11,8 @@ namespace RPG::Client { class RoadRashGameModifier_FallingLandingQTEAddUltimateE
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoadRashGameModifier_FallingLandingQTEAddUltimateEnergy_TypeDefinitionIndex = 10305;
+
 	class RoadRashGameModifier_FallingLandingQTEAddUltimateEnergy : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:

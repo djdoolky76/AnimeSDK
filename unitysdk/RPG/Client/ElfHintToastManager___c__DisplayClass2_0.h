@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfHintToastManager___c__DisplayClass2_0_TypeDefinitionIndex = 63699;
+
 	class ElfHintToastManager___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

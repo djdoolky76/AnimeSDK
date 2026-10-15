@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define PBIPFMHIGHO___GETMAPPERSBYPARTS_D__7_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBFF1470)
 #define PBIPFMHIGHO___GETMAPPERSBYPARTS_D__7___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xBFF1480)
 
+inline static constexpr unsigned int PBIPFMHIGHO___GetMappersByParts_d__7_TypeDefinitionIndex = 62834;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
 	class PBIPFMHIGHO___GetMappersByParts_d__7 : public ::System::Object
 	{

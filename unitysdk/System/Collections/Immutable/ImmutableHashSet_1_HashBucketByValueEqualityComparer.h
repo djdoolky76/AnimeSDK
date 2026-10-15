@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace System::Collections::Immutable
 {
+	inline static constexpr unsigned int ImmutableHashSet_1_HashBucketByValueEqualityComparer_TypeDefinitionIndex = 6598;
+
 	template <typename T>
 	class ImmutableHashSet_1_HashBucketByValueEqualityComparer : public ::System::Object
 	{

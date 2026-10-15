@@ -46,6 +46,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NGAHHINMIAF_SET_PROGRESSINDEX_OFFSET UNITYSDK_OFFSET(0xBB9E440)
 #define NGAHHINMIAF_SET_PROGRESS_OFFSET UNITYSDK_OFFSET(0xBB9E4A0)
 
+inline static constexpr unsigned int NGAHHINMIAF_TypeDefinitionIndex = 59626;
+
 	class NGAHHINMIAF : public ::System::Object
 	{
 	public:

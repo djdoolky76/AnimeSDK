@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimSetAudioListenerFollowTargetAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetAudioListenerFollowTargetAction_TypeDefinitionIndex = 18721;
+
 	class FiveDimSetAudioListenerFollowTargetAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

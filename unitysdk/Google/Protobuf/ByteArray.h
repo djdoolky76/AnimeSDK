@@ -7,6 +7,8 @@
 
 namespace Google::Protobuf
 {
+	inline static constexpr unsigned int ByteArray_TypeDefinitionIndex = 5366;
+
 	class ByteArray : public ::System::Object
 	{
 	public:

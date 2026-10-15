@@ -172,6 +172,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IFBFJDCECML_PMEOBHLMABH_OFFSET UNITYSDK_OFFSET(0x1C694240)
 #define IFBFJDCECML_PNNECJKJBOA_OFFSET UNITYSDK_OFFSET(0x1C697FE0)
 
+inline static constexpr unsigned int IFBFJDCECML_TypeDefinitionIndex = 37015;
+
 	class IFBFJDCECML : public ::Entitas::Entity
 	{
 	public:

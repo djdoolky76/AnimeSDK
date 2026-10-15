@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KICPABCKDCM_LOCK_OFFSET UNITYSDK_OFFSET(0xB419CA0)
 #define KICPABCKDCM_UNLOCK_OFFSET UNITYSDK_OFFSET(0xB419D60)
 
+inline static constexpr unsigned int KICPABCKDCM_TypeDefinitionIndex = 74795;
+
 	class KICPABCKDCM : public ::RPG::Client::GamePlayLockTargetFunc
 	{
 	public:

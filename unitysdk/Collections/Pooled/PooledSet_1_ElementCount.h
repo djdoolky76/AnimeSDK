@@ -3,6 +3,8 @@
 
 namespace Collections::Pooled
 {
+	inline static constexpr unsigned int PooledSet_1_ElementCount_TypeDefinitionIndex = 5125;
+
 	template <typename T>
 	struct alignas(4) PooledSet_1_ElementCount
 	{

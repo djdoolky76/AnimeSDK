@@ -9,6 +9,8 @@ namespace UnityEngine { class Object; }
 #define STAGEHARMONYBASELINKSLOT_CTOR_OFFSET UNITYSDK_OFFSET(0xE98B5F0)
 #define STAGEHARMONYBASELINKSLOT_NJLEENKCHNO_OFFSET UNITYSDK_OFFSET(0xE98C6C0)
 
+inline static constexpr unsigned int StageHarmonyBaseLinkSlot_TypeDefinitionIndex = 47538;
+
 	class StageHarmonyBaseLinkSlot : public ::System::Object
 	{
 	public:

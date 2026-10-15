@@ -18,6 +18,8 @@ namespace UnityEngine::UIElements { class IPointerEvent; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int PointerDispatchState_TypeDefinitionIndex = 5893;
+
 	class PointerDispatchState : public ::System::Object
 	{
 	public:

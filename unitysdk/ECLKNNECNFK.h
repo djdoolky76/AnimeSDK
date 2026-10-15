@@ -28,6 +28,8 @@ namespace System { class String; }
 #define ECLKNNECNFK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E255260)
 #define ECLKNNECNFK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2552C0)
 
+inline static constexpr unsigned int ECLKNNECNFK_TypeDefinitionIndex = 29340;
+
 	class ECLKNNECNFK : public ::System::Object
 	{
 	public:

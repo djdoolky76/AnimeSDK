@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SilverWolfCollectionRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SilverWolfCollectionRow_TypeDefinitionIndex = 12347;
+
 	class SilverWolfCollectionRow : public ::System::Object
 	{
 	public:

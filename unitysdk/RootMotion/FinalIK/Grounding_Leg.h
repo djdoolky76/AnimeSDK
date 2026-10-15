@@ -64,6 +64,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RootMotion::FinalIK
 {
+	inline static constexpr unsigned int Grounding_Leg_TypeDefinitionIndex = 46008;
+
 	class Grounding_Leg : public ::System::Object
 	{
 	public:

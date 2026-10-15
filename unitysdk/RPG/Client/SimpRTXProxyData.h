@@ -9,6 +9,8 @@ namespace RPG::Client { class SimpRTXProxy; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SimpRTXProxyData_TypeDefinitionIndex = 70188;
+
 	struct alignas(4) SimpRTXProxyData
 	{
 		::UnityEngine::Vector3 localPosition; // 0x10

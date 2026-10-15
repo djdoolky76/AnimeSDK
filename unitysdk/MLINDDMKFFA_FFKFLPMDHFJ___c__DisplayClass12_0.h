@@ -7,6 +7,8 @@ namespace System { class Nullable; }
 #define MLINDDMKFFA_FFKFLPMDHFJ___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB9B02B0)
 #define MLINDDMKFFA_FFKFLPMDHFJ___C__DISPLAYCLASS12_0___CREATEPARTNERS_B__1_OFFSET UNITYSDK_OFFSET(0xB9B03B0)
 
+inline static constexpr unsigned int MLINDDMKFFA_FFKFLPMDHFJ___c__DisplayClass12_0_TypeDefinitionIndex = 79641;
+
 	class MLINDDMKFFA_FFKFLPMDHFJ___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define ELPBDFINJGH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2DB4D0)
 #define ELPBDFINJGH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2DB530)
 
+inline static constexpr unsigned int ELPBDFINJGH_TypeDefinitionIndex = 29968;
+
 	class ELPBDFINJGH : public ::System::Object
 	{
 	public:

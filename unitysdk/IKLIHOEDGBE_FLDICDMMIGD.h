@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IKLIHOEDGBE_FLDICDMMIGD_SET_ENTITY_OFFSET UNITYSDK_OFFSET(0x16499D30)
 #define IKLIHOEDGBE_FLDICDMMIGD_SET_FADEPROGRESS_OFFSET UNITYSDK_OFFSET(0x16499D60)
 
+inline static constexpr unsigned int IKLIHOEDGBE_FLDICDMMIGD_TypeDefinitionIndex = 60713;
+
 	class IKLIHOEDGBE_FLDICDMMIGD : public ::System::Object
 	{
 	public:

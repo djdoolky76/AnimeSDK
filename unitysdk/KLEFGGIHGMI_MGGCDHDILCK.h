@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KLEFGGIHGMI_MGGCDHDILCK_INIT_OFFSET UNITYSDK_OFFSET(0xB524C30)
 #define KLEFGGIHGMI_MGGCDHDILCK_UPDATE_OFFSET UNITYSDK_OFFSET(0xB524C80)
 
+inline static constexpr unsigned int KLEFGGIHGMI_MGGCDHDILCK_TypeDefinitionIndex = 73907;
+
 	class KLEFGGIHGMI_MGGCDHDILCK : public ::UnityEngine::MonoBehaviour
 	{
 	public:

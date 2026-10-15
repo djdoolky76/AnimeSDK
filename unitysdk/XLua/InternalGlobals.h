@@ -17,6 +17,8 @@ namespace XLua::LuaDLL { class lua_CSFunction; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int InternalGlobals_TypeDefinitionIndex = 50095;
+
 	class InternalGlobals : public ::System::Object
 	{
 	public:

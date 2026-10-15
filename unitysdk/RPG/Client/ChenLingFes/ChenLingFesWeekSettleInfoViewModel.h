@@ -42,6 +42,8 @@ namespace Sofa::Core { class SimpleCommand; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesWeekSettleInfoViewModel_TypeDefinitionIndex = 81406;
+
 	class ChenLingFesWeekSettleInfoViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

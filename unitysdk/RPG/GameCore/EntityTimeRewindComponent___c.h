@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntityTimeRewindComponent___c_TypeDefinitionIndex = 57471;
+
 	class EntityTimeRewindComponent___c : public ::System::Object
 	{
 	public:

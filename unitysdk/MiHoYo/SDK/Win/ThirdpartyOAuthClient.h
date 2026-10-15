@@ -40,6 +40,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int ThirdpartyOAuthClient_TypeDefinitionIndex = 9263;
+
 	class ThirdpartyOAuthClient : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnValidateHandler; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncValidateTrigger_TypeDefinitionIndex = 38611;
+
 	class AsyncValidateTrigger
 	{
 	public:

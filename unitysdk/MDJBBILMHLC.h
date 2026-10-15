@@ -33,6 +33,8 @@ namespace System { class String; }
 #define MDJBBILMHLC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA04310)
 #define MDJBBILMHLC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA04370)
 
+inline static constexpr unsigned int MDJBBILMHLC_TypeDefinitionIndex = 29213;
+
 	class MDJBBILMHLC : public ::System::Object
 	{
 	public:

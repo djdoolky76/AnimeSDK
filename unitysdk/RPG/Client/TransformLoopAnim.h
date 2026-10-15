@@ -17,6 +17,8 @@ namespace UnityEngine::Rendering { template <typename T1, typename T2> class Ser
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TransformLoopAnim_TypeDefinitionIndex = 70330;
+
 	class TransformLoopAnim
 	{
 	public:

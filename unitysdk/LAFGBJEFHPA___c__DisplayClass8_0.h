@@ -6,6 +6,8 @@ namespace RPG::Client::Promises { class IPromise; }
 #define LAFGBJEFHPA___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB5DF050)
 #define LAFGBJEFHPA___C__DISPLAYCLASS8_0___SHOWROGUETOURNENTRANCEPAGE_B__1_OFFSET UNITYSDK_OFFSET(0xB5DFB80)
 
+inline static constexpr unsigned int LAFGBJEFHPA___c__DisplayClass8_0_TypeDefinitionIndex = 67831;
+
 	class LAFGBJEFHPA___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

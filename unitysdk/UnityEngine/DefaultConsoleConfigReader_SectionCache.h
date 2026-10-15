@@ -13,6 +13,8 @@ namespace IniParserEx { class IniFile_Section; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int DefaultConsoleConfigReader_SectionCache_TypeDefinitionIndex = 4065;
+
 	class DefaultConsoleConfigReader_SectionCache : public ::System::Object
 	{
 	public:

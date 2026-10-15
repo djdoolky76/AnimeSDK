@@ -4,6 +4,8 @@
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { template <typename T> class Comparison_1; }
 
+inline static constexpr unsigned int EOOMOGCAAPH___O_TypeDefinitionIndex = 62801;
+
 	class EOOMOGCAAPH___O : public ::System::Object
 	{
 	public:

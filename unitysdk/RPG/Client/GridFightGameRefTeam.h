@@ -73,6 +73,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameRefTeam_TypeDefinitionIndex = 64797;
+
 	class GridFightGameRefTeam : public ::System::Object
 	{
 	public:

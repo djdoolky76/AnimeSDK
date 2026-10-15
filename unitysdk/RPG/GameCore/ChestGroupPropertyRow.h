@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChestGroupPropertyRow_TypeDefinitionIndex = 14389;
+
 	class ChestGroupPropertyRow : public ::System::Object
 	{
 	public:

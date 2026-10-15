@@ -15,6 +15,8 @@ namespace RPG::Client { class AimSolver; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginIKAim_TypeDefinitionIndex = 70072;
+
 	class MonoEffectPluginIKAim : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

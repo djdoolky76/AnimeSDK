@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ALOGEFGNAAP_CTOR_OFFSET UNITYSDK_OFFSET(0x15571440)
 #define ALOGEFGNAAP_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0x155713A0)
 
+inline static constexpr unsigned int ALOGEFGNAAP_TypeDefinitionIndex = 77680;
+
 	class ALOGEFGNAAP : public ::HBLDGJCDJPF
 	{
 	public:

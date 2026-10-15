@@ -30,6 +30,8 @@ namespace System { class String; }
 #define NCFCNNFIBLJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAD9640)
 #define NCFCNNFIBLJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAD96A0)
 
+inline static constexpr unsigned int NCFCNNFIBLJ_TypeDefinitionIndex = 30835;
+
 	class NCFCNNFIBLJ : public ::System::Object
 	{
 	public:

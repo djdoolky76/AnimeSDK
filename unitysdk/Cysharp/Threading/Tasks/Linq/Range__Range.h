@@ -11,6 +11,8 @@
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Range__Range_TypeDefinitionIndex = 45543;
+
 	class Range__Range : public ::System::Object
 	{
 	public:

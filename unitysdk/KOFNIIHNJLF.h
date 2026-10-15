@@ -4,6 +4,8 @@
 
 #define KOFNIIHNJLF_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1D0BEDF0)
 
+inline static constexpr unsigned int KOFNIIHNJLF_TypeDefinitionIndex = 10693;
+
 	class KOFNIIHNJLF : public ::System::Object
 	{
 	public:

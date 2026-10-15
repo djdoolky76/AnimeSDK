@@ -35,6 +35,8 @@ namespace UnityEngine { class AnimationClip; }
 #define CMIJJCMEOHI_OGOJLDNJDMO_OFFSET UNITYSDK_OFFSET(0xDA35B10)
 #define CMIJJCMEOHI_PDJIIBGANDO_OFFSET UNITYSDK_OFFSET(0xDA368B0)
 
+inline static constexpr unsigned int CMIJJCMEOHI_TypeDefinitionIndex = 73566;
+
 	class CMIJJCMEOHI : public ::System::Object
 	{
 	public:

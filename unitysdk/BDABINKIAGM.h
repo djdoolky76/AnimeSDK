@@ -34,6 +34,8 @@ namespace System { class String; }
 #define BDABINKIAGM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E913230)
 #define BDABINKIAGM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E913290)
 
+inline static constexpr unsigned int BDABINKIAGM_TypeDefinitionIndex = 34323;
+
 	class BDABINKIAGM : public ::System::Object
 	{
 	public:

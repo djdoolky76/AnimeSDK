@@ -10,6 +10,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int JsonContract___c__DisplayClass73_0_TypeDefinitionIndex = 9726;
+
 	class JsonContract___c__DisplayClass73_0 : public ::System::Object
 	{
 	public:

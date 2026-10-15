@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GrassData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BlockGrassData_TypeDefinitionIndex = 19117;
+
 	class BlockGrassData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

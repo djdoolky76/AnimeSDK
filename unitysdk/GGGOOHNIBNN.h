@@ -6,6 +6,8 @@ class HCKGCOJLJMK;
 #define GGGOOHNIBNN_CTOR_OFFSET UNITYSDK_OFFSET(0x15A04650)
 #define GGGOOHNIBNN_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15A04600)
 
+inline static constexpr unsigned int GGGOOHNIBNN_TypeDefinitionIndex = 76934;
+
 	class GGGOOHNIBNN : public ::System::Object
 	{
 	public:

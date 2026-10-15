@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelNpcSelectorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelNpcLeaveNode_TypeDefinitionIndex = 15961;
+
 	class ChimeraDuelNpcLeaveNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
 	public:

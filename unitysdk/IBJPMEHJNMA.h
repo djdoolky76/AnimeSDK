@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IBJPMEHJNMA_TICK_OFFSET UNITYSDK_OFFSET(0x15E3C4E0)
 #define IBJPMEHJNMA__ONTASKBEGIN_B__3_0_OFFSET UNITYSDK_OFFSET(0x15E3C820)
 
+inline static constexpr unsigned int IBJPMEHJNMA_TypeDefinitionIndex = 55748;
+
 	class IBJPMEHJNMA : public ::GELIALJDFBL
 	{
 	public:

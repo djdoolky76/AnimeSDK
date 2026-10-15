@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int NumericConvertInstruction_Unchecked_TypeDefinitionIndex = 3597;
+
 	class NumericConvertInstruction_Unchecked : public ::System::Linq::Expressions::Interpreter::NumericConvertInstruction
 	{
 	public:

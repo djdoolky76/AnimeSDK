@@ -6,6 +6,8 @@ namespace RPG::Client { class LongPressEvent; }
 namespace System { class Action; }
 namespace UnityEngine::Events { class UnityAction; }
 
+inline static constexpr unsigned int GKONABHICEP_TypeDefinitionIndex = 49905;
+
 	class GKONABHICEP : public ::System::Object
 	{
 	public:

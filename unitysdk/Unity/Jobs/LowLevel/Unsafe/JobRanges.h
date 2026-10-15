@@ -3,6 +3,8 @@
 
 namespace Unity::Jobs::LowLevel::Unsafe
 {
+	inline static constexpr unsigned int JobRanges_TypeDefinitionIndex = 3964;
+
 	struct alignas(4) JobRanges
 	{
 		::System::Int32 BatchSize; // 0x10

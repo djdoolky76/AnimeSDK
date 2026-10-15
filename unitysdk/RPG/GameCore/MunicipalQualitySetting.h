@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MunicipalQualitySetting; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MunicipalQualitySetting_TypeDefinitionIndex = 16918;
+
 	class MunicipalQualitySetting : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int JGDHIFOCFMM_TypeDefinitionIndex = 32208;
+
 	enum class JGDHIFOCFMM : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

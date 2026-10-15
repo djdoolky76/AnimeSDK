@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int PropAttachToStoryPropClip_TypeDefinitionIndex = 48241;
+
 	class PropAttachToStoryPropClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

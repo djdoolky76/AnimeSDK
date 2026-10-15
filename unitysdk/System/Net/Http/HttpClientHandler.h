@@ -25,6 +25,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Net::Http
 {
+	inline static constexpr unsigned int HttpClientHandler_TypeDefinitionIndex = 3761;
+
 	class HttpClientHandler : public ::System::Net::Http::HttpMessageHandler
 	{
 	public:

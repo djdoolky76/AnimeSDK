@@ -14,6 +14,8 @@ namespace UnityEngine::Rendering { class BatchAnimation; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int BatchAnimEventObjCB_ExecuteEventFun_TypeDefinitionIndex = 4790;
+
 	class BatchAnimEventObjCB_ExecuteEventFun : public ::System::MulticastDelegate
 	{
 	public:

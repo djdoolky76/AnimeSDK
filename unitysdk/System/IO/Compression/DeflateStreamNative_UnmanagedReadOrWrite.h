@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace System::IO::Compression
 {
+	inline static constexpr unsigned int DeflateStreamNative_UnmanagedReadOrWrite_TypeDefinitionIndex = 2721;
+
 	class DeflateStreamNative_UnmanagedReadOrWrite : public ::System::MulticastDelegate
 	{
 	public:

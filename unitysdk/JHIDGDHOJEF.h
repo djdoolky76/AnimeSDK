@@ -30,6 +30,8 @@ namespace System { class Object; }
 #define JHIDGDHOJEF_PHHAABHKPMN_OFFSET UNITYSDK_OFFSET(0xB1B4890)
 #define JHIDGDHOJEF_PMLLOFFOEIK_OFFSET UNITYSDK_OFFSET(0xB1B4B30)
 
+inline static constexpr unsigned int JHIDGDHOJEF_TypeDefinitionIndex = 73246;
+
 	class JHIDGDHOJEF : public ::System::Object
 	{
 	public:

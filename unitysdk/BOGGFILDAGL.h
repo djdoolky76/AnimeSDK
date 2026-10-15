@@ -4,6 +4,8 @@
 
 #define BOGGFILDAGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8C3710)
 
+inline static constexpr unsigned int BOGGFILDAGL_TypeDefinitionIndex = 43302;
+
 	class BOGGFILDAGL : public ::System::Object
 	{
 	public:

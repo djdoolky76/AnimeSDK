@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int TelemetryBoxConfig_TypeDefinitionIndex = 7917;
+
 	class TelemetryBoxConfig : public ::System::Object
 	{
 	public:

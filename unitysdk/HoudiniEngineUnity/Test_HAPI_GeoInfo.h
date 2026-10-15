@@ -9,6 +9,8 @@ namespace HoudiniEngineUnity { class Test_HAPI_GeoInfo; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int Test_HAPI_GeoInfo_TypeDefinitionIndex = 40702;
+
 	class Test_HAPI_GeoInfo : public ::System::Object
 	{
 	public:

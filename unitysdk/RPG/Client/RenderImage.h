@@ -15,6 +15,8 @@ namespace UnityEngine::UI { class RawImage; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RenderImage_TypeDefinitionIndex = 72640;
+
 	class RenderImage : public ::UnityEngine::MonoBehaviour
 	{
 	public:

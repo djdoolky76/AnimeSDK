@@ -6,6 +6,8 @@
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesWeekSettleValueViewModel_TypeDefinitionIndex = 81407;
+
 	class ChenLingFesWeekSettleValueViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

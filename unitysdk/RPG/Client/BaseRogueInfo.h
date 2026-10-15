@@ -28,6 +28,8 @@ namespace RPG::Client { class RogueReviveAvatarInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BaseRogueInfo_TypeDefinitionIndex = 67165;
+
 	class BaseRogueInfo : public ::System::Object
 	{
 	public:

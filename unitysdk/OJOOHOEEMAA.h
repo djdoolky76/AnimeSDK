@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OJOOHOEEMAA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBED0500)
 #define OJOOHOEEMAA_TICK_OFFSET UNITYSDK_OFFSET(0xBED04A0)
 
+inline static constexpr unsigned int OJOOHOEEMAA_TypeDefinitionIndex = 58707;
+
 	class OJOOHOEEMAA : public ::GELIALJDFBL
 	{
 	public:

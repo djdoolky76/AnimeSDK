@@ -8,6 +8,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define SKIRTIK_LMGCOOGDNPM_CTOR_OFFSET UNITYSDK_OFFSET(0xE969C50)
 #define SKIRTIK_LMGCOOGDNPM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE972EF0)
 
+inline static constexpr unsigned int SkirtIK_LMGCOOGDNPM_TypeDefinitionIndex = 47251;
+
 	class SkirtIK_LMGCOOGDNPM : public ::System::Object
 	{
 	public:

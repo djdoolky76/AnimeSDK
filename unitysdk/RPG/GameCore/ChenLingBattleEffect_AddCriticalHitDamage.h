@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingBattleEffect_AddCriticalHitDamage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleEffect_AddCriticalHitDamage_TypeDefinitionIndex = 15791;
+
 	class ChenLingBattleEffect_AddCriticalHitDamage : public ::RPG::GameCore::BaseChenLingBattleEffect
 	{
 	public:

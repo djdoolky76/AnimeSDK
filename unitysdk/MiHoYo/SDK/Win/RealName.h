@@ -28,6 +28,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int RealName_TypeDefinitionIndex = 9548;
+
 	class RealName : public ::MiHoYo::SDK::UIElement
 	{
 	public:

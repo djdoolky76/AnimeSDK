@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AlignTargetToTeamCenter_TypeDefinitionIndex = 22499;
+
 	class AlignTargetToTeamCenter : public ::RPG::GameCore::TaskConfig
 	{
 	public:

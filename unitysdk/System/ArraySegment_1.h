@@ -3,6 +3,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int ArraySegment_1_TypeDefinitionIndex = 196;
+
 	template <typename T>
 	struct alignas(8) ArraySegment_1
 	{

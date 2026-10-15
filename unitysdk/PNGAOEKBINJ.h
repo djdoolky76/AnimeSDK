@@ -11,6 +11,8 @@ class PNGAOEKBINJ_MACFFHIPONI;
 #define PNGAOEKBINJ_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1C7F6E80)
 #define PNGAOEKBINJ_PAOFKPNJJKD_OFFSET UNITYSDK_OFFSET(0x1C7F6E30)
 
+inline static constexpr unsigned int PNGAOEKBINJ_TypeDefinitionIndex = 37117;
+
 	class PNGAOEKBINJ : public ::System::Object
 	{
 	public:

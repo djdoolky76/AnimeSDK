@@ -27,6 +27,8 @@ namespace UnityEngine { class Transform; }
 #define NKMEEIAEDDP__CHECKENABLEBUTTONCONDITIONS_OFFSET UNITYSDK_OFFSET(0xBC3D700)
 #define NKMEEIAEDDP__GET_CHECKDISABLEINTERACT_B__2_0_OFFSET UNITYSDK_OFFSET(0xBC3E5D0)
 
+inline static constexpr unsigned int NKMEEIAEDDP_TypeDefinitionIndex = 76742;
+
 	class NKMEEIAEDDP
 	{
 	public:

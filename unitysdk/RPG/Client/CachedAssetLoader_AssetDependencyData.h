@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CachedAssetLoader_AssetDependencyData_TypeDefinitionIndex = 59435;
+
 	class CachedAssetLoader_AssetDependencyData : public ::System::Object
 	{
 	public:

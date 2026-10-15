@@ -4,6 +4,8 @@
 
 #define NMHBFNBMFIH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C972D90)
 
+inline static constexpr unsigned int NMHBFNBMFIH_TypeDefinitionIndex = 41987;
+
 	class NMHBFNBMFIH : public ::System::Object
 	{
 	public:

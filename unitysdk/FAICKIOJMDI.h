@@ -25,6 +25,8 @@ namespace System { class String; }
 #define FAICKIOJMDI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E322500)
 #define FAICKIOJMDI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E322560)
 
+inline static constexpr unsigned int FAICKIOJMDI_TypeDefinitionIndex = 32084;
+
 	class FAICKIOJMDI : public ::System::Object
 	{
 	public:

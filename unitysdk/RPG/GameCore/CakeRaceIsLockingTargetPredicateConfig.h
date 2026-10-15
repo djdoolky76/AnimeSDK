@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceIsLockingTargetPredicateConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceIsLockingTargetPredicateConfig_TypeDefinitionIndex = 18380;
+
 	class CakeRaceIsLockingTargetPredicateConfig : public ::RPG::GameCore::CakeRaceBasePredicateConfig
 	{
 	public:

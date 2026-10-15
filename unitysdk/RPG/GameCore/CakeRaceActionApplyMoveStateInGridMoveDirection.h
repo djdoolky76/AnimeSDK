@@ -11,6 +11,8 @@ namespace RPG::GameCore { class CakeRaceActionApplyMoveStateInGridMoveDirection;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceActionApplyMoveStateInGridMoveDirection_TypeDefinitionIndex = 18346;
+
 	class CakeRaceActionApplyMoveStateInGridMoveDirection : public ::RPG::GameCore::CakeRaceActionBase
 	{
 	public:

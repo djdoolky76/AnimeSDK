@@ -27,6 +27,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
 namespace Mono::Unity
 {
+	inline static constexpr unsigned int UnityTlsProvider_TypeDefinitionIndex = 2403;
+
 	class UnityTlsProvider : public ::Mono::Security::Interface::MonoTlsProvider
 	{
 	public:

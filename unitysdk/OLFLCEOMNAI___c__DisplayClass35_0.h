@@ -7,6 +7,8 @@ namespace System { class String; }
 #define OLFLCEOMNAI___C__DISPLAYCLASS35_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBF05EB0)
 #define OLFLCEOMNAI___C__DISPLAYCLASS35_0__GETINSTANTIATEOPERATION_B__0_OFFSET UNITYSDK_OFFSET(0xBF082F0)
 
+inline static constexpr unsigned int OLFLCEOMNAI___c__DisplayClass35_0_TypeDefinitionIndex = 82262;
+
 	class OLFLCEOMNAI___c__DisplayClass35_0 : public ::System::Object
 	{
 	public:

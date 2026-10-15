@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CNLGCLIDEDL_DNNPCEPCFFM_OFFSET UNITYSDK_OFFSET(0xDA59120)
 #define CNLGCLIDEDL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xDA58E10)
 
+inline static constexpr unsigned int CNLGCLIDEDL_TypeDefinitionIndex = 59186;
+
 	class CNLGCLIDEDL
 	{
 	public:

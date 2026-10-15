@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SetupMapRotationCharger; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetupMapRotationCharger_TypeDefinitionIndex = 22302;
+
 	class SetupMapRotationCharger : public ::RPG::GameCore::TaskConfig
 	{
 	public:

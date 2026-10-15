@@ -4,6 +4,8 @@
 #define IMOBOOHNHAM_DADCFBHGLOH_OFFSET UNITYSDK_OFFSET(0x3C3AA10)
 #define IMOBOOHNHAM_DJJBNDDBKIH_OFFSET UNITYSDK_OFFSET(0x2FA3BA0)
 
+inline static constexpr unsigned int IMOBOOHNHAM_TypeDefinitionIndex = 10816;
+
 	struct alignas(4) IMOBOOHNHAM
 	{
 		::System::UInt64 BCOEGBEBNDO; // 0x10

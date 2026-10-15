@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TeamLimitTypeEventRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamLimitTypeEventRow_TypeDefinitionIndex = 15278;
+
 	class TeamLimitTypeEventRow : public ::System::Object
 	{
 	public:

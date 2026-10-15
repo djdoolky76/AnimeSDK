@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GroupSaveType_TypeDefinitionIndex = 17173;
+
 	enum class GroupSaveType : ::System::Int32
 	{
 		Temporary = 0,

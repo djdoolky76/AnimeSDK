@@ -30,6 +30,8 @@ namespace System::IO::MemoryMappedFiles { class MemoryMappedViewStream; }
 
 namespace System::IO::MemoryMappedFiles
 {
+	inline static constexpr unsigned int MemoryMappedFile_TypeDefinitionIndex = 3127;
+
 	class MemoryMappedFile : public ::System::Object
 	{
 	public:

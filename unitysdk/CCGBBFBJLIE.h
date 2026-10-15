@@ -4,6 +4,8 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
+inline static constexpr unsigned int CCGBBFBJLIE_TypeDefinitionIndex = 43353;
+
 	struct alignas(8) CCGBBFBJLIE
 	{
 		::System::Int32 CEGOPEIKDLA; // 0x10

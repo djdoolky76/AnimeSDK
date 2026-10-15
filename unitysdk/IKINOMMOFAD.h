@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define IKINOMMOFAD_IJOONKNIDKI_OFFSET UNITYSDK_OFFSET(0x1648E2A0)
 #define IKINOMMOFAD_JODGOMFLEIJ_OFFSET UNITYSDK_OFFSET(0x1648E330)
 
+inline static constexpr unsigned int IKINOMMOFAD_TypeDefinitionIndex = 67253;
+
 	class IKINOMMOFAD : public ::System::Object
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System::Text { class Encoding; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int WWWTranscoder_TypeDefinitionIndex = 5352;
+
 	class WWWTranscoder : public ::System::Object
 	{
 	public:

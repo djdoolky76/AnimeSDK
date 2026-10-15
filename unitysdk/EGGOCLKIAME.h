@@ -27,6 +27,8 @@ namespace System { class String; }
 #define EGGOCLKIAME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E293DF0)
 #define EGGOCLKIAME_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E293E50)
 
+inline static constexpr unsigned int EGGOCLKIAME_TypeDefinitionIndex = 32573;
+
 	class EGGOCLKIAME : public ::System::Object
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int JSONNumber_TypeDefinitionIndex = 40682;
+
 	class JSONNumber : public ::HoudiniEngineUnity::JSONNode
 	{
 	public:

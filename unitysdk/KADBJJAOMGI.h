@@ -11,6 +11,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define KADBJJAOMGI_KPKCFMCJBCF_OFFSET UNITYSDK_OFFSET(0xB2D13D0)
 #define KADBJJAOMGI_NDHGLMHLLIJ_OFFSET UNITYSDK_OFFSET(0xB2D1380)
 
+inline static constexpr unsigned int KADBJJAOMGI_TypeDefinitionIndex = 65582;
+
 	class KADBJJAOMGI : public ::System::Object
 	{
 	public:

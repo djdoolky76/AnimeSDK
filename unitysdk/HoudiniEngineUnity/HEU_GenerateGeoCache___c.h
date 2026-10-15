@@ -13,6 +13,8 @@ namespace UnityEngine { class Material; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_GenerateGeoCache___c_TypeDefinitionIndex = 40638;
+
 	class HEU_GenerateGeoCache___c : public ::System::Object
 	{
 	public:

@@ -229,6 +229,8 @@ namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectManager_TypeDefinitionIndex = 69849;
+
 	class MonoEffectManager : public ::System::Object
 	{
 	public:

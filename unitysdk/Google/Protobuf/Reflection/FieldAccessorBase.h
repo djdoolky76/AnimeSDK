@@ -13,6 +13,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int FieldAccessorBase_TypeDefinitionIndex = 5540;
+
 	class FieldAccessorBase : public ::System::Object
 	{
 	public:

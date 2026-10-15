@@ -16,6 +16,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define JEALAGIGPFB_FLOATEVALUATOR_IPOJOPHFEEO_OFFSET UNITYSDK_OFFSET(0x16615D90)
 #define JEALAGIGPFB_FLOATEVALUATOR_OBKONJIFPNC_OFFSET UNITYSDK_OFFSET(0x16615E60)
 
+inline static constexpr unsigned int JEALAGIGPFB_FloatEvaluator_TypeDefinitionIndex = 57434;
+
 	class JEALAGIGPFB_FloatEvaluator : public ::JEALAGIGPFB_Evaluator
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System { class Object; }
 #define KMENPCLDLJD__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xB546D80)
 #define KMENPCLDLJD__UNBINDVIEW_OFFSET UNITYSDK_OFFSET(0xB547460)
 
+inline static constexpr unsigned int KMENPCLDLJD_TypeDefinitionIndex = 72727;
+
 	class KMENPCLDLJD : public ::RPG::Client::UIController
 	{
 	public:

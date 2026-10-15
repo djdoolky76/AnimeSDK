@@ -41,6 +41,8 @@ namespace System { class String; }
 #define MNLLCNFNKKP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA9ED40)
 #define MNLLCNFNKKP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA9EDA0)
 
+inline static constexpr unsigned int MNLLCNFNKKP_TypeDefinitionIndex = 31556;
+
 	class MNLLCNFNKKP : public ::System::Object
 	{
 	public:

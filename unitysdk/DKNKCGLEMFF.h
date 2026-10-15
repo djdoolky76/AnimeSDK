@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DKNKCGLEMFF_KMLOFBPPIEC_OFFSET UNITYSDK_OFFSET(0xF88AE60)
 #define DKNKCGLEMFF_SET_ITEMS_OFFSET UNITYSDK_OFFSET(0xF88B0F0)
 
+inline static constexpr unsigned int DKNKCGLEMFF_TypeDefinitionIndex = 72225;
+
 	class DKNKCGLEMFF : public ::System::Object
 	{
 	public:

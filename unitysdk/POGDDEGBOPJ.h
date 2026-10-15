@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define POGDDEGBOPJ_NHNOGPJELGG_OFFSET UNITYSDK_OFFSET(0x1C7F7890)
 #define POGDDEGBOPJ_PALLCENBCAP_OFFSET UNITYSDK_OFFSET(0x1C7F79D0)
 
+inline static constexpr unsigned int POGDDEGBOPJ_TypeDefinitionIndex = 37187;
+
 	class POGDDEGBOPJ : public ::KILOJFMKNAI
 	{
 	public:

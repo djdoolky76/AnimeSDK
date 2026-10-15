@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CCJCIOPFLKM_PKGAKBODAGC_OFFSET UNITYSDK_OFFSET(0xC73E670)
 #define CCJCIOPFLKM_TICK_OFFSET UNITYSDK_OFFSET(0xC73E8D0)
 
+inline static constexpr unsigned int CCJCIOPFLKM_TypeDefinitionIndex = 53488;
+
 	class CCJCIOPFLKM : public ::GELIALJDFBL
 	{
 	public:

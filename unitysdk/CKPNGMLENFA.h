@@ -28,6 +28,8 @@ namespace System { class String; }
 #define CKPNGMLENFA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0F0F70)
 #define CKPNGMLENFA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0F0FD0)
 
+inline static constexpr unsigned int CKPNGMLENFA_TypeDefinitionIndex = 34816;
+
 	class CKPNGMLENFA : public ::System::Object
 	{
 	public:

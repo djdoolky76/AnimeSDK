@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VersionUpdateCheck___c__DisplayClass22_1_TypeDefinitionIndex = 61260;
+
 	template <typename T>
 	class VersionUpdateCheck___c__DisplayClass22_1 : public ::System::Object
 	{

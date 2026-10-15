@@ -6,6 +6,8 @@ class IFPAJBFOHLN;
 #define EILHDIJIKOB___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x154CFC00)
 #define EILHDIJIKOB___C__DISPLAYCLASS2_0__HASEXPERTINNODE_B__0_OFFSET UNITYSDK_OFFSET(0x154CFE60)
 
+inline static constexpr unsigned int EILHDIJIKOB___c__DisplayClass2_0_TypeDefinitionIndex = 65031;
+
 	class EILHDIJIKOB___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TeamTowersRobotConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamTowersRobotConfig_TypeDefinitionIndex = 18944;
+
 	class TeamTowersRobotConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

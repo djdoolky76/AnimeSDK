@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RenderOptionsManager_TypeDefinitionIndex = 70171;
+
 	class RenderOptionsManager : public ::System::Object
 	{
 	public:

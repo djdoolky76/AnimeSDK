@@ -28,6 +28,8 @@ namespace System { class String; }
 #define KDHABGDIAPJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7FFDF0)
 #define KDHABGDIAPJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7FFE50)
 
+inline static constexpr unsigned int KDHABGDIAPJ_TypeDefinitionIndex = 29021;
+
 	class KDHABGDIAPJ : public ::System::Object
 	{
 	public:

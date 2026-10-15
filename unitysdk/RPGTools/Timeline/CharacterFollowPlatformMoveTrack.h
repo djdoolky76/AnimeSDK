@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterFollowPlatformMoveTrack_TypeDefinitionIndex = 47957;
+
 	class CharacterFollowPlatformMoveTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

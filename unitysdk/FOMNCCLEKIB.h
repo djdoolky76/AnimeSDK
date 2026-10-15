@@ -276,6 +276,8 @@ class MOCMBHIKIKP;
 #define FOMNCCLEKIB_PMODNHAEFDN_OFFSET UNITYSDK_OFFSET(0x1DD4EB60)
 #define FOMNCCLEKIB_PNCEDCPBALM_OFFSET UNITYSDK_OFFSET(0x1DD4F490)
 
+inline static constexpr unsigned int FOMNCCLEKIB_TypeDefinitionIndex = 6198;
+
 	class FOMNCCLEKIB : public ::System::Object
 	{
 	public:

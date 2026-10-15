@@ -11,6 +11,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftRequireInfoControlBinder
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftRequireInfoControl_TypeDefinitionIndex = 79998;
+
 	class MechCraftRequireInfoControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

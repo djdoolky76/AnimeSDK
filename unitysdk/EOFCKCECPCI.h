@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EOFCKCECPCI_CTOR_OFFSET UNITYSDK_OFFSET(0x155BDED0)
 #define EOFCKCECPCI_EVALUATE_OFFSET UNITYSDK_OFFSET(0x155BDF00)
 
+inline static constexpr unsigned int EOFCKCECPCI_TypeDefinitionIndex = 54692;
+
 	class EOFCKCECPCI
 	{
 	public:

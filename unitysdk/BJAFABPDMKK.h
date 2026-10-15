@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TriggerParamModifierCustomEvent; }
 #define BJAFABPDMKK_CTOR_OFFSET UNITYSDK_OFFSET(0xB7960C0)
 #define BJAFABPDMKK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB796220)
 
+inline static constexpr unsigned int BJAFABPDMKK_TypeDefinitionIndex = 55761;
+
 	class BJAFABPDMKK
 	{
 	public:

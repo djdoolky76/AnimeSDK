@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
+inline static constexpr unsigned int NJIMHPJHICM___c_TypeDefinitionIndex = 49469;
+
 	class NJIMHPJHICM___c : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CustomButton_VoidDelegate_TypeDefinitionIndex = 72520;
+
 	class CustomButton_VoidDelegate : public ::System::MulticastDelegate
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define FBAMAFLOBGA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E32D940)
 #define FBAMAFLOBGA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E32D9A0)
 
+inline static constexpr unsigned int FBAMAFLOBGA_TypeDefinitionIndex = 26957;
+
 	class FBAMAFLOBGA : public ::System::Object
 	{
 	public:

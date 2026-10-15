@@ -18,6 +18,8 @@ namespace System { class String; }
 #define KIFCMGADLEI_JOGPOKAPKLE_OFFSET UNITYSDK_OFFSET(0xB41DED0)
 #define KIFCMGADLEI_MCLMOECKKFL_OFFSET UNITYSDK_OFFSET(0xB41D970)
 
+inline static constexpr unsigned int KIFCMGADLEI_TypeDefinitionIndex = 63369;
+
 	class KIFCMGADLEI : public ::System::Object
 	{
 	public:

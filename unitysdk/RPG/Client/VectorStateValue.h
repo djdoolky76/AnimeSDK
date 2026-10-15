@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VectorStateValue_TypeDefinitionIndex = 71011;
+
 	class VectorStateValue : public ::RPG::Client::StateValueEntry
 	{
 	public:

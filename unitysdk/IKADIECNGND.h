@@ -55,6 +55,8 @@ namespace System { class String; }
 #define IKADIECNGND_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E699D60)
 #define IKADIECNGND_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E699DC0)
 
+inline static constexpr unsigned int IKADIECNGND_TypeDefinitionIndex = 31348;
+
 	class IKADIECNGND : public ::System::Object
 	{
 	public:

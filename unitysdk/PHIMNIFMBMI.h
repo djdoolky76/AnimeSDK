@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PHIMNIFMBMI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF3CE40)
 #define PHIMNIFMBMI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF3CEA0)
 
+inline static constexpr unsigned int PHIMNIFMBMI_TypeDefinitionIndex = 26647;
+
 	class PHIMNIFMBMI : public ::System::Object
 	{
 	public:

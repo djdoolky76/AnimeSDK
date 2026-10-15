@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AELMAANENII_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCF02620)
 #define AELMAANENII_TICK_OFFSET UNITYSDK_OFFSET(0xCF02670)
 
+inline static constexpr unsigned int AELMAANENII_TypeDefinitionIndex = 56445;
+
 	class AELMAANENII : public ::GELIALJDFBL
 	{
 	public:

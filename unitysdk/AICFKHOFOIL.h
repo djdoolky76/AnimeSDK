@@ -9,6 +9,8 @@ namespace System { class Type; }
 #define AICFKHOFOIL_FNAAJGAHIAI_OFFSET UNITYSDK_OFFSET(0xEBA05A0)
 #define AICFKHOFOIL_IHPAKOMCHGP_OFFSET UNITYSDK_OFFSET(0xEBA05F0)
 
+inline static constexpr unsigned int AICFKHOFOIL_TypeDefinitionIndex = 62685;
+
 	class AICFKHOFOIL : public ::System::Object
 	{
 	public:

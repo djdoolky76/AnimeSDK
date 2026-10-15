@@ -8,6 +8,8 @@ namespace System { class Action; }
 #define DJBLCIHABKP_MEIFDMDGNKE_OFFSET UNITYSDK_OFFSET(0xF22C3E0)
 #define DJBLCIHABKP_PDCAJEONFKG_OFFSET UNITYSDK_OFFSET(0xF22C3A0)
 
+inline static constexpr unsigned int DJBLCIHABKP_TypeDefinitionIndex = 68148;
+
 	class DJBLCIHABKP : public ::System::Object
 	{
 	public:

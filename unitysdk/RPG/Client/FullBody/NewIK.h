@@ -9,6 +9,8 @@
 
 namespace RPG::Client::FullBody
 {
+	inline static constexpr unsigned int NewIK_TypeDefinitionIndex = 74272;
+
 	class NewIK : public ::RPG::Client::FullBody::NewSolverManager
 	{
 	public:

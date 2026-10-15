@@ -17,6 +17,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define CIBNHFHIPAN_SET_STATETYPE_OFFSET UNITYSDK_OFFSET(0xCF65350)
 #define CIBNHFHIPAN_SET_VISIBLE_OFFSET UNITYSDK_OFFSET(0xCF65370)
 
+inline static constexpr unsigned int CIBNHFHIPAN_TypeDefinitionIndex = 56674;
+
 	class CIBNHFHIPAN : public ::CMPGEAFHHDC
 	{
 	public:

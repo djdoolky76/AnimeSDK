@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarEnergyBarState_TypeDefinitionIndex = 56881;
+
 	class AvatarEnergyBarState : public ::System::Object
 	{
 	public:

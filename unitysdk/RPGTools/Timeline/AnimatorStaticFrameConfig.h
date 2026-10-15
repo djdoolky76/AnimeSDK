@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int AnimatorStaticFrameConfig_TypeDefinitionIndex = 47856;
+
 	class AnimatorStaticFrameConfig : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define FKNMAKMLFNB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA71030)
 
+inline static constexpr unsigned int FKNMAKMLFNB_TypeDefinitionIndex = 42801;
+
 	class FKNMAKMLFNB : public ::System::Object
 	{
 	public:

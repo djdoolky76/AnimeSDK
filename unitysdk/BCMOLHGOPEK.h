@@ -28,6 +28,8 @@ namespace RPG::Client::NavMap::FiveDim { class SurfaceConnectIcon_SurfaceConnect
 #define BCMOLHGOPEK_PFDMFNEKDLI_OFFSET UNITYSDK_OFFSET(0x162E5370)
 #define BCMOLHGOPEK_PPAFKECMFMK_OFFSET UNITYSDK_OFFSET(0x162E5000)
 
+inline static constexpr unsigned int BCMOLHGOPEK_TypeDefinitionIndex = 74678;
+
 	class BCMOLHGOPEK : public ::System::Object
 	{
 	public:

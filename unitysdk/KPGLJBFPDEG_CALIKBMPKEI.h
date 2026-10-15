@@ -7,6 +7,8 @@ namespace System { template <typename T> class Func_1; }
 
 #define KPGLJBFPDEG_CALIKBMPKEI_CTOR_OFFSET UNITYSDK_OFFSET(0xB5BD0C0)
 
+inline static constexpr unsigned int KPGLJBFPDEG_CALIKBMPKEI_TypeDefinitionIndex = 72043;
+
 	class KPGLJBFPDEG_CALIKBMPKEI : public ::System::Object
 	{
 	public:

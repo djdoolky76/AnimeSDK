@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PCLOMEMFAIO_EIOENABANLK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xC008410)
 #define PCLOMEMFAIO_EIOENABANLK_INVOKE_OFFSET UNITYSDK_OFFSET(0xC0047C0)
 
+inline static constexpr unsigned int PCLOMEMFAIO_EIOENABANLK_TypeDefinitionIndex = 54339;
+
 	class PCLOMEMFAIO_EIOENABANLK : public ::System::MulticastDelegate
 	{
 	public:

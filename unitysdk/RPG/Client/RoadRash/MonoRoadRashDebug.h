@@ -86,6 +86,8 @@ namespace System { class String; }
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int MonoRoadRashDebug_TypeDefinitionIndex = 75902;
+
 	class MonoRoadRashDebug : public ::UnityEngine::MonoBehaviour
 	{
 	public:

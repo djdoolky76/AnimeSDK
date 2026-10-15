@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueParamMagicUnitCountConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueParamMagicUnitCountConfig_TypeDefinitionIndex = 19831;
+
 	class RogueParamMagicUnitCountConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:

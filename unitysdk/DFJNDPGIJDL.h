@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_InitOwedRollCount; }
 #define DFJNDPGIJDL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5DEE30)
 #define DFJNDPGIJDL_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C5E8C60)
 
+inline static constexpr unsigned int DFJNDPGIJDL_TypeDefinitionIndex = 36325;
+
 	class DFJNDPGIJDL : public ::AJBKGPOEBFG
 	{
 	public:

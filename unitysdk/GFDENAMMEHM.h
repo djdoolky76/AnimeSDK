@@ -55,6 +55,8 @@ namespace System { class String; }
 #define GFDENAMMEHM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4643D0)
 #define GFDENAMMEHM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E464430)
 
+inline static constexpr unsigned int GFDENAMMEHM_TypeDefinitionIndex = 33932;
+
 	class GFDENAMMEHM : public ::System::Object
 	{
 	public:

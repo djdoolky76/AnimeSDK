@@ -4,6 +4,8 @@
 
 #define MNKPPNJIFLL_CTOR_OFFSET UNITYSDK_OFFSET(0xBA11670)
 
+inline static constexpr unsigned int MNKPPNJIFLL_TypeDefinitionIndex = 67789;
+
 	class MNKPPNJIFLL : public ::System::Object
 	{
 	public:

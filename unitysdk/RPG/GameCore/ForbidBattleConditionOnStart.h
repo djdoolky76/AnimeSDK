@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ForbidBattleConditionOnStart; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ForbidBattleConditionOnStart_TypeDefinitionIndex = 23350;
+
 	class ForbidBattleConditionOnStart : public ::RPG::GameCore::TaskConfig
 	{
 	public:

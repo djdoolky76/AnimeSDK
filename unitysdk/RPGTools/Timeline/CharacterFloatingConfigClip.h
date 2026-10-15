@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterFloatingConfigClip_TypeDefinitionIndex = 47952;
+
 	class CharacterFloatingConfigClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

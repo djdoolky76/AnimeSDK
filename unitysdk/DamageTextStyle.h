@@ -5,6 +5,8 @@
 
 #define DAMAGETEXTSTYLE_CTOR_OFFSET UNITYSDK_OFFSET(0x12666610)
 
+inline static constexpr unsigned int DamageTextStyle_TypeDefinitionIndex = 47569;
+
 	class DamageTextStyle : public ::UnityEngine::ScriptableObject
 	{
 	public:

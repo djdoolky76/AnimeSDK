@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EDIJGDEHAIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1331EA00)
 #define EDIJGDEHAIN_EGHECGPBNPI_OFFSET UNITYSDK_OFFSET(0x1331EB60)
 
+inline static constexpr unsigned int EDIJGDEHAIN_TypeDefinitionIndex = 56194;
+
 	class EDIJGDEHAIN : public ::GIBILAKDENF
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace InControl
 {
+	inline static constexpr unsigned int HexadecimalAttribute_TypeDefinitionIndex = 40842;
+
 	class HexadecimalAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:

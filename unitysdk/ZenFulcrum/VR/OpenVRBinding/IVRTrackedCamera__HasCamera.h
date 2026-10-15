@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRTrackedCamera__HasCamera_TypeDefinitionIndex = 38941;
+
 	class IVRTrackedCamera__HasCamera : public ::System::MulticastDelegate
 	{
 	public:

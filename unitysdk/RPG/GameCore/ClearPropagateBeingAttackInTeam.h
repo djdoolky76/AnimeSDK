@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ClearPropagateBeingAttackInTeam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClearPropagateBeingAttackInTeam_TypeDefinitionIndex = 23212;
+
 	class ClearPropagateBeingAttackInTeam : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define AOBIKHHFNEA_CTOR_OFFSET UNITYSDK_OFFSET(0xDFFC0)
 
+inline static constexpr unsigned int AOBIKHHFNEA_TypeDefinitionIndex = 72380;
+
 	struct alignas(4) AOBIKHHFNEA
 	{
 		::RPG::Client::TextID NMMKDFFHOLL; // 0x10

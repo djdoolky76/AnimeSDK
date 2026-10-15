@@ -15,6 +15,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginCharaPropFaceDiffuse_TypeDefinitionIndex = 69958;
+
 	class MonoEffectPluginCharaPropFaceDiffuse : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
 	public:

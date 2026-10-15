@@ -10,6 +10,8 @@
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftDiyViewEvent_TypeDefinitionIndex = 79618;
+
 	class MechCraftDiyViewEvent : public ::System::Object
 	{
 	public:

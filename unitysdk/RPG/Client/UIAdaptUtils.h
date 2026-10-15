@@ -27,6 +27,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIAdaptUtils_TypeDefinitionIndex = 60073;
+
 	class UIAdaptUtils : public ::System::Object
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define DDDDKIANBGI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E17B810)
 #define DDDDKIANBGI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E17B870)
 
+inline static constexpr unsigned int DDDDKIANBGI_TypeDefinitionIndex = 32144;
+
 	class DDDDKIANBGI : public ::System::Object
 	{
 	public:

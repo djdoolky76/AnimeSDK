@@ -3,6 +3,8 @@
 
 namespace RPG::Client::MechCraft
 {
+	inline static constexpr unsigned int MechCraftConditionType_TypeDefinitionIndex = 41650;
+
 	enum class MechCraftConditionType : ::System::Int32
 	{
 		None = 0,

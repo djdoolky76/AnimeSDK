@@ -8,6 +8,8 @@
 #define GOBKBLJAOAE_SET_ID_OFFSET UNITYSDK_OFFSET(0x15B270A0)
 #define GOBKBLJAOAE_SET_WAYPOINTS_OFFSET UNITYSDK_OFFSET(0x15B270C0)
 
+inline static constexpr unsigned int GOBKBLJAOAE_TypeDefinitionIndex = 62138;
+
 	class GOBKBLJAOAE : public ::System::Object
 	{
 	public:

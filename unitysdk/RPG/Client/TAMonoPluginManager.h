@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TAMonoPluginManager_TypeDefinitionIndex = 70776;
+
 	class TAMonoPluginManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

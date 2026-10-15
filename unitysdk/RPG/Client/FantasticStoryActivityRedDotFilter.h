@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FantasticStoryActivityRedDotFilter_TypeDefinitionIndex = 66837;
+
 	class FantasticStoryActivityRedDotFilter : public ::RPG::Client::BaseRedDotFilter
 	{
 	public:

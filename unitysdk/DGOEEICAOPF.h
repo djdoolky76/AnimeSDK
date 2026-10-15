@@ -5,6 +5,8 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
+inline static constexpr unsigned int DGOEEICAOPF_TypeDefinitionIndex = 49976;
+
 	class DGOEEICAOPF
 	{
 	public:

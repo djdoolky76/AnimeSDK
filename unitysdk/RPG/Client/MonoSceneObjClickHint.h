@@ -28,6 +28,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoSceneObjClickHint_TypeDefinitionIndex = 68966;
+
 	class MonoSceneObjClickHint : public ::UnityEngine::MonoBehaviour
 	{
 	public:

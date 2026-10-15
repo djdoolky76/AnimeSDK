@@ -25,6 +25,8 @@ namespace System { class String; }
 #define AMIDBKDMELM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E522C60)
 #define AMIDBKDMELM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E522CC0)
 
+inline static constexpr unsigned int AMIDBKDMELM_TypeDefinitionIndex = 30396;
+
 	class AMIDBKDMELM : public ::System::Object
 	{
 	public:

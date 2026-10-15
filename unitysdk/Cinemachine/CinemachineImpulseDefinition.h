@@ -16,6 +16,8 @@ namespace Cinemachine { class SignalSourceAsset; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineImpulseDefinition_TypeDefinitionIndex = 39866;
+
 	class CinemachineImpulseDefinition : public ::System::Object
 	{
 	public:

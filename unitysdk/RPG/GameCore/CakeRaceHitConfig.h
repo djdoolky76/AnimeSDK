@@ -11,6 +11,8 @@ namespace RPG::GameCore { class CakeRaceHitConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceHitConfig_TypeDefinitionIndex = 18402;
+
 	class CakeRaceHitConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

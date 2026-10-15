@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Converter_2; }
 
 namespace RPG::Client::Progress
 {
+	inline static constexpr unsigned int CakeRaceProgressInfo___c_TypeDefinitionIndex = 74850;
+
 	class CakeRaceProgressInfo___c : public ::System::Object
 	{
 	public:

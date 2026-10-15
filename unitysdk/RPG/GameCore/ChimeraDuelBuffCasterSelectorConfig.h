@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraDuelBuffCasterSelectorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelBuffCasterSelectorConfig_TypeDefinitionIndex = 15906;
+
 	class ChimeraDuelBuffCasterSelectorConfig : public ::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig
 	{
 	public:

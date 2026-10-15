@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueGuideActivityPanelDataRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueGuideActivityPanelDataRow_TypeDefinitionIndex = 14722;
+
 	class RogueGuideActivityPanelDataRow : public ::System::Object
 	{
 	public:

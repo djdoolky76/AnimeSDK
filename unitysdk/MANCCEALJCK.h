@@ -19,6 +19,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define MANCCEALJCK_OICHBKFOPKO_OFFSET UNITYSDK_OFFSET(0xB855CB0)
 #define MANCCEALJCK_POPNLPIAOCM_OFFSET UNITYSDK_OFFSET(0xB8557C0)
 
+inline static constexpr unsigned int MANCCEALJCK_TypeDefinitionIndex = 69857;
+
 	class MANCCEALJCK : public ::RPG::Client::BehaviorBase
 	{
 	public:

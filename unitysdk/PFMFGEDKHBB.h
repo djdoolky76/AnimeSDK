@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PFMFGEDKHBB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC217CF0)
 #define PFMFGEDKHBB_REMOVE_AGENDACOMPLETED_OFFSET UNITYSDK_OFFSET(0xC217A10)
 
+inline static constexpr unsigned int PFMFGEDKHBB_TypeDefinitionIndex = 81951;
+
 	class PFMFGEDKHBB : public ::System::Object
 	{
 	public:

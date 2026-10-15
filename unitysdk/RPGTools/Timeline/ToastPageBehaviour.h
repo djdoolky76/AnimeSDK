@@ -8,6 +8,8 @@ namespace RPG::GameCore { class ToastPage; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ToastPageBehaviour_TypeDefinitionIndex = 48412;
+
 	class ToastPageBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
 	public:

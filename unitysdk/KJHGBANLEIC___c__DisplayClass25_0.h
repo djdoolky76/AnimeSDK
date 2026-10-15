@@ -8,6 +8,8 @@ namespace System::Net { class ServicePoint; }
 #define KJHGBANLEIC___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB4516D0)
 #define KJHGBANLEIC___C__DISPLAYCLASS25_0___GETWEBRESPONSE_B__1_OFFSET UNITYSDK_OFFSET(0xB456280)
 
+inline static constexpr unsigned int KJHGBANLEIC___c__DisplayClass25_0_TypeDefinitionIndex = 59595;
+
 	class KJHGBANLEIC___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:

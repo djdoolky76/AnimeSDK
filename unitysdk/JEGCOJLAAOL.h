@@ -8,6 +8,8 @@ class JEGCOJLAAOL;
 #define JEGCOJLAAOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D01E2D0)
 #define JEGCOJLAAOL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D01E090)
 
+inline static constexpr unsigned int JEGCOJLAAOL_TypeDefinitionIndex = 21063;
+
 	class JEGCOJLAAOL : public ::RPG::GameCore::JsonConfig
 	{
 	public:

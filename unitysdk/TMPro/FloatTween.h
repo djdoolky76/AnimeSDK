@@ -19,6 +19,8 @@ namespace UnityEngine::Events { class UnityAction; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int FloatTween_TypeDefinitionIndex = 44554;
+
 	struct alignas(8) FloatTween
 	{
 		::TMPro::FloatTween_FloatTweenCallback* m_Target; // 0x10

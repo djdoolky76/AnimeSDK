@@ -6,6 +6,8 @@ namespace System { class Type; }
 #define CDAGGNMDJKN_CTOR_OFFSET UNITYSDK_OFFSET(0xC75E930)
 #define CDAGGNMDJKN_GET_CONFIGTYPE_OFFSET UNITYSDK_OFFSET(0xC75E940)
 
+inline static constexpr unsigned int CDAGGNMDJKN_TypeDefinitionIndex = 59952;
+
 	class CDAGGNMDJKN : public ::System::Attribute
 	{
 	public:

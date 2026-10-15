@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BABEOGJBCEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7AE190)
 #define BABEOGJBCEL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E7AE1A0)
 
+inline static constexpr unsigned int BABEOGJBCEL___c_TypeDefinitionIndex = 25508;
+
 	class BABEOGJBCEL___c : public ::System::Object
 	{
 	public:

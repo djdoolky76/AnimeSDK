@@ -12,6 +12,8 @@ namespace RPG::GameCore { class AISelector; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AIComposeSelector_TypeDefinitionIndex = 15592;
+
 	class AIComposeSelector : public ::RPG::GameCore::AISelector
 	{
 	public:

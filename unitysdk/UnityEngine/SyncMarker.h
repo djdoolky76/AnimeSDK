@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int SyncMarker_TypeDefinitionIndex = 5732;
+
 	struct alignas(4) SyncMarker
 	{
 		::UnityEngine::StringID markerName; // 0x10

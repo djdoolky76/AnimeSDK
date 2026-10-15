@@ -9,6 +9,8 @@ namespace RPG::Client::FateRin::Battle { class IFateRinCardHitTestService; }
 #define MOHDOOBDGIL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBA2C690)
 #define MOHDOOBDGIL_CTOR_OFFSET UNITYSDK_OFFSET(0xBA2C730)
 
+inline static constexpr unsigned int MOHDOOBDGIL_TypeDefinitionIndex = 80958;
+
 	class MOHDOOBDGIL : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirBattleDropDisplayData_TypeDefinitionIndex = 79319;
+
 	class PixAirBattleDropDisplayData : public ::System::Object
 	{
 	public:

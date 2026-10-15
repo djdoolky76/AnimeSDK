@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BIFADIIBJAF_LOCK_OFFSET UNITYSDK_OFFSET(0xB4A4F70)
 #define BIFADIIBJAF_UNLOCK_OFFSET UNITYSDK_OFFSET(0xB4A50C0)
 
+inline static constexpr unsigned int BIFADIIBJAF_TypeDefinitionIndex = 74787;
+
 	class BIFADIIBJAF : public ::RPG::Client::GamePlayLockTargetFunc
 	{
 	public:

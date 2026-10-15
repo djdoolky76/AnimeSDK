@@ -7,6 +7,8 @@ class KNFCEJEJINK;
 #define FNHCPKCKBKF_CTOR_OFFSET UNITYSDK_OFFSET(0x15870CE0)
 #define FNHCPKCKBKF_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0x15870D10)
 
+inline static constexpr unsigned int FNHCPKCKBKF_TypeDefinitionIndex = 77673;
+
 	class FNHCPKCKBKF : public ::HBLDGJCDJPF
 	{
 	public:

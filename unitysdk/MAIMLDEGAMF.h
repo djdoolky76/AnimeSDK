@@ -12,6 +12,8 @@ namespace Proto { class MonopolyActionResult; }
 #define MAIMLDEGAMF_SET_ISQUIZ_OFFSET UNITYSDK_OFFSET(0xB84F070)
 #define MAIMLDEGAMF_TRIGGER_OFFSET UNITYSDK_OFFSET(0xB84EEB0)
 
+inline static constexpr unsigned int MAIMLDEGAMF_TypeDefinitionIndex = 66227;
+
 	class MAIMLDEGAMF : public ::System::Object
 	{
 	public:

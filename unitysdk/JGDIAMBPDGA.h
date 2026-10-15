@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerCustomStringOnDialogEnd; }
 #define JGDIAMBPDGA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB198AA0)
 #define JGDIAMBPDGA_TICK_OFFSET UNITYSDK_OFFSET(0xB198AF0)
 
+inline static constexpr unsigned int JGDIAMBPDGA_TypeDefinitionIndex = 58775;
+
 	class JGDIAMBPDGA : public ::GELIALJDFBL
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropSoundAttenuation_TypeDefinitionIndex = 17557;
+
 	class PropSoundAttenuation : public ::RPG::GameCore::JsonConfig
 	{
 	public:

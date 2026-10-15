@@ -4,6 +4,8 @@
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int LayoutPropertyData_1_TypeDefinitionIndex = 49366;
+
 	template <typename T>
 	class LayoutPropertyData_1 : public ::EnviromentSystemV2Space::LayoutPropertyDataBase
 	{

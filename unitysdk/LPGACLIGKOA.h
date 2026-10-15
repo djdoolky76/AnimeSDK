@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LPGACLIGKOA_CTOR_OFFSET UNITYSDK_OFFSET(0xB81F920)
 #define LPGACLIGKOA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB81F970)
 
+inline static constexpr unsigned int LPGACLIGKOA_TypeDefinitionIndex = 59126;
+
 	class LPGACLIGKOA
 	{
 	public:

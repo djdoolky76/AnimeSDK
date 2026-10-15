@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChimeraBattleShowBubbleTalk; }
 #define LABJELNIKEE_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xB5D6760)
 #define LABJELNIKEE_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB5D6230)
 
+inline static constexpr unsigned int LABJELNIKEE_TypeDefinitionIndex = 78404;
+
 	class LABJELNIKEE : public ::System::Object
 	{
 	public:

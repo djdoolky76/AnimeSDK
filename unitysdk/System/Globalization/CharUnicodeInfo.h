@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int CharUnicodeInfo_TypeDefinitionIndex = 732;
+
 	class CharUnicodeInfo : public ::System::Object
 	{
 	public:

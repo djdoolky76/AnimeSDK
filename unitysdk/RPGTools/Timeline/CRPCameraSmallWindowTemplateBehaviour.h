@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class CRPCameraSmallWindowTemplateClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CRPCameraSmallWindowTemplateBehaviour_TypeDefinitionIndex = 47904;
+
 	class CRPCameraSmallWindowTemplateBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

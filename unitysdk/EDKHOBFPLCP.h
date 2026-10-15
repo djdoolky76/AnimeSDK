@@ -4,6 +4,8 @@
 
 #define EDKHOBFPLCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD70F30)
 
+inline static constexpr unsigned int EDKHOBFPLCP_TypeDefinitionIndex = 25009;
+
 	class EDKHOBFPLCP : public ::KODIMAJKOMJ
 	{
 	public:

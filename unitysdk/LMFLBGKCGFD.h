@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define LMFLBGKCGFD_CTOR_OFFSET UNITYSDK_OFFSET(0xB77CF40)
 #define LMFLBGKCGFD_OHINFDICPFI_OFFSET UNITYSDK_OFFSET(0xB77D190)
 
+inline static constexpr unsigned int LMFLBGKCGFD_TypeDefinitionIndex = 64047;
+
 	class LMFLBGKCGFD : public ::BMPICAPOOFD
 	{
 	public:

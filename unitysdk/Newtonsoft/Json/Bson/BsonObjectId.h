@@ -8,6 +8,8 @@
 
 namespace Newtonsoft::Json::Bson
 {
+	inline static constexpr unsigned int BsonObjectId_TypeDefinitionIndex = 9861;
+
 	class BsonObjectId : public ::System::Object
 	{
 	public:

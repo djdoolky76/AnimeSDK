@@ -41,6 +41,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TextmapExcelTable_TypeDefinitionIndex = 15293;
+
 	class TextmapExcelTable : public ::System::Object
 	{
 	public:

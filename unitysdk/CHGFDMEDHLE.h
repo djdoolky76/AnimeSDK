@@ -12,6 +12,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define CHGFDMEDHLE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xCF48F70)
 #define CHGFDMEDHLE_SET_ENTITY_OFFSET UNITYSDK_OFFSET(0xCF493B0)
 
+inline static constexpr unsigned int CHGFDMEDHLE_TypeDefinitionIndex = 62936;
+
 	class CHGFDMEDHLE : public ::System::Object
 	{
 	public:

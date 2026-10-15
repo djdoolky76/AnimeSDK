@@ -109,6 +109,8 @@ namespace UnityEngine { class Transform; }
 #define EMAFOGNODKM__ONBIND_OFFSET UNITYSDK_OFFSET(0x1552A130)
 #define EMAFOGNODKM__ONRETURN_B__9_0_OFFSET UNITYSDK_OFFSET(0x1552FD90)
 
+inline static constexpr unsigned int EMAFOGNODKM_TypeDefinitionIndex = 71807;
+
 	class EMAFOGNODKM : public ::FMPCODLIOLG
 	{
 	public:

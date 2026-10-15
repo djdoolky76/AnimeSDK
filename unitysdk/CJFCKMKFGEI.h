@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CJFCKMKFGEI_GETCURRENTQUANTITY_OFFSET UNITYSDK_OFFSET(0xD202FB0)
 #define CJFCKMKFGEI_TAKEREWARD_OFFSET UNITYSDK_OFFSET(0xD2029B0)
 
+inline static constexpr unsigned int CJFCKMKFGEI_TypeDefinitionIndex = 63539;
+
 	class CJFCKMKFGEI : public ::System::Object
 	{
 	public:

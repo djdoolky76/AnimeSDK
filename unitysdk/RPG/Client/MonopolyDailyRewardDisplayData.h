@@ -17,6 +17,8 @@ class HDJNPJKFBPJ;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyDailyRewardDisplayData_TypeDefinitionIndex = 66282;
+
 	class MonopolyDailyRewardDisplayData : public ::System::Object
 	{
 	public:

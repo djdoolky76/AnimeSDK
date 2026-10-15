@@ -5,6 +5,8 @@ namespace MiHoYo::SDK { class HoYoChannelSDK_CallBack; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HoYoChannelGameplayServices___O_TypeDefinitionIndex = 46508;
+
 	class HoYoChannelGameplayServices___O : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System::Reflection { class MethodInfo; }
 
 #define IOMJOHNOGCA_KGBKNGDFABK_OFFSET UNITYSDK_OFFSET(0x16512DC0)
 
+inline static constexpr unsigned int IOMJOHNOGCA_TypeDefinitionIndex = 60086;
+
 	class IOMJOHNOGCA : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIRandomUtils_TypeDefinitionIndex = 73181;
+
 	class UIRandomUtils : public ::System::Object
 	{
 	public:

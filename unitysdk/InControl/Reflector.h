@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace InControl
 {
+	inline static constexpr unsigned int Reflector_TypeDefinitionIndex = 40913;
+
 	class Reflector : public ::System::Object
 	{
 	public:

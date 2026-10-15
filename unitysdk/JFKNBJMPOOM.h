@@ -6,6 +6,8 @@
 #define JFKNBJMPOOM_GET_ADVENTUREPLAYERID_OFFSET UNITYSDK_OFFSET(0x166506A0)
 #define JFKNBJMPOOM_SET_ADVENTUREPLAYERID_OFFSET UNITYSDK_OFFSET(0x166506B0)
 
+inline static constexpr unsigned int JFKNBJMPOOM_TypeDefinitionIndex = 51916;
+
 	class JFKNBJMPOOM : public ::System::Object
 	{
 	public:

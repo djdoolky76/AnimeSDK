@@ -21,6 +21,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Rendering::Terrain
 {
+	inline static constexpr unsigned int TerrainBlockInfo_TypeDefinitionIndex = 51797;
+
 	class TerrainBlockInfo : public ::UnityEngine::MonoBehaviour
 	{
 	public:

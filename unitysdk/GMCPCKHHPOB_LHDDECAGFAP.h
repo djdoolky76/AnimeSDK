@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int GMCPCKHHPOB_LHDDECAGFAP_TypeDefinitionIndex = 34779;
+
 	enum class GMCPCKHHPOB_LHDDECAGFAP : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FantasticStoryChapterRow_TypeDefinitionIndex = 11463;
+
 	class FantasticStoryChapterRow : public ::System::Object
 	{
 	public:

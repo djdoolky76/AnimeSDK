@@ -10,6 +10,8 @@ namespace RPG::Client::ElectricChainV2 { class Sampler; }
 
 namespace RPG::Client::ElectricChainV2
 {
+	inline static constexpr unsigned int Hemisphere_TypeDefinitionIndex = 73597;
+
 	class Hemisphere : public ::RPG::Client::ElectricChainV2::Shape
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Collections::Specialized
 {
+	inline static constexpr unsigned int NameObjectCollectionBase_NameObjectEntry_TypeDefinitionIndex = 2995;
+
 	class NameObjectCollectionBase_NameObjectEntry : public ::System::Object
 	{
 	public:

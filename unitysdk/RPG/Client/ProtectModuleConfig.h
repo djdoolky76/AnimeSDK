@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ProtectModuleConfig_TypeDefinitionIndex = 69683;
+
 	class ProtectModuleConfig : public ::RPG::Client::CameraModuleConfigBase
 	{
 	public:

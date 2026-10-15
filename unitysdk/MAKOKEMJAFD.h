@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MAKOKEMJAFD_CTOR_OFFSET UNITYSDK_OFFSET(0xB852480)
 #define MAKOKEMJAFD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8524B0)
 
+inline static constexpr unsigned int MAKOKEMJAFD_TypeDefinitionIndex = 53170;
+
 	class MAKOKEMJAFD
 	{
 	public:

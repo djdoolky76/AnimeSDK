@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TarotBookCardPoolRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TarotBookCardPoolRow_TypeDefinitionIndex = 15226;
+
 	class TarotBookCardPoolRow : public ::System::Object
 	{
 	public:

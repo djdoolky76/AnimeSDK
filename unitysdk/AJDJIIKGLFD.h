@@ -30,6 +30,8 @@ namespace UnityEngine { class Transform; }
 #define AJDJIIKGLFD_NGPKKMKMHEB_OFFSET UNITYSDK_OFFSET(0x12CB8DA0)
 #define AJDJIIKGLFD_PFPABOPCDAF_OFFSET UNITYSDK_OFFSET(0x12CB8A80)
 
+inline static constexpr unsigned int AJDJIIKGLFD_TypeDefinitionIndex = 78027;
+
 	class AJDJIIKGLFD : public ::System::Object
 	{
 	public:

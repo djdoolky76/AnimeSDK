@@ -10,6 +10,8 @@ namespace UnityEngine::UI { class Image; }
 #define EIDGANKEKNL_JJKEICHBLLC_OFFSET UNITYSDK_OFFSET(0x154BE440)
 #define EIDGANKEKNL__ONBIND_OFFSET UNITYSDK_OFFSET(0x154BE290)
 
+inline static constexpr unsigned int EIDGANKEKNL_TypeDefinitionIndex = 71886;
+
 	class EIDGANKEKNL : public ::FMPCODLIOLG
 	{
 	public:

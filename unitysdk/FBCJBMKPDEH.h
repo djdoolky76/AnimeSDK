@@ -22,6 +22,8 @@ namespace UnityEngine { class GameObject; }
 #define FBCJBMKPDEH_KGKBLKFGIGF_OFFSET UNITYSDK_OFFSET(0x156969C0)
 #define FBCJBMKPDEH_SET_MUTEXNAME_OFFSET UNITYSDK_OFFSET(0x15696CD0)
 
+inline static constexpr unsigned int FBCJBMKPDEH_TypeDefinitionIndex = 54732;
+
 	class FBCJBMKPDEH : public ::NAOKFLDEDBJ
 	{
 	public:

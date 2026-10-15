@@ -30,6 +30,8 @@ namespace UnityEngine { class Transform; }
 #define PHBPBBJDFIH_OOEIJAMGAGE_OFFSET UNITYSDK_OFFSET(0xC237890)
 #define PHBPBBJDFIH_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xC2377C0)
 
+inline static constexpr unsigned int PHBPBBJDFIH_TypeDefinitionIndex = 60703;
+
 	class PHBPBBJDFIH : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Action; }
 #define NCHBDKMLMNO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBB10D30)
 #define NCHBDKMLMNO_NMNBPCGANNE_OFFSET UNITYSDK_OFFSET(0xBB10C80)
 
+inline static constexpr unsigned int NCHBDKMLMNO_TypeDefinitionIndex = 54585;
+
 	class NCHBDKMLMNO
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SharedInt_TypeDefinitionIndex = 18305;
+
 	class SharedInt : public ::RPG::GameCore::SharedValue
 	{
 	public:

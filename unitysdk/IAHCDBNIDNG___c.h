@@ -10,6 +10,8 @@ namespace System { template <typename T> class Func_1; }
 #define IAHCDBNIDNG___C__CREATERECOMMENDITEMS_B__2_0_OFFSET UNITYSDK_OFFSET(0x15E0E810)
 #define IAHCDBNIDNG___C__CREATERECOMMENDITEMS_B__2_1_OFFSET UNITYSDK_OFFSET(0x15E0E8B0)
 
+inline static constexpr unsigned int IAHCDBNIDNG___c_TypeDefinitionIndex = 65569;
+
 	class IAHCDBNIDNG___c : public ::System::Object
 	{
 	public:

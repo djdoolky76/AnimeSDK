@@ -10,6 +10,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DeformationCharacterCasterMonoPlugin_DeformationCasterTransform_TypeDefinitionIndex = 70270;
+
 	class DeformationCharacterCasterMonoPlugin_DeformationCasterTransform : public ::System::Object
 	{
 	public:

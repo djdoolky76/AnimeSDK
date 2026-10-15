@@ -10,6 +10,8 @@
 
 namespace EzySlice
 {
+	inline static constexpr unsigned int Line_TypeDefinitionIndex = 46996;
+
 	struct alignas(4) Line
 	{
 		::UnityEngine::Vector3 m_pos_a; // 0x10

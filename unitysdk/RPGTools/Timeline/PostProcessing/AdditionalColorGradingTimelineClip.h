@@ -5,6 +5,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int AdditionalColorGradingTimelineClip_TypeDefinitionIndex = 48530;
+
 	class AdditionalColorGradingTimelineClip
 	{
 	public:

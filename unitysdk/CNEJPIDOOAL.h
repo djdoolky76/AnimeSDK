@@ -13,6 +13,8 @@ class NOBCAKJMGPH;
 #define CNEJPIDOOAL_SET_DAMAGETYPEFACTORY_OFFSET UNITYSDK_OFFSET(0xDA4A9B0)
 #define CNEJPIDOOAL_SET_PATHFACTORY_OFFSET UNITYSDK_OFFSET(0xDA4A990)
 
+inline static constexpr unsigned int CNEJPIDOOAL_TypeDefinitionIndex = 62606;
+
 	class CNEJPIDOOAL : public ::System::Object
 	{
 	public:

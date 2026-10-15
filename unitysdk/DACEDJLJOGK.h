@@ -9,6 +9,8 @@ namespace System { class String; }
 
 #define DACEDJLJOGK_CTOR_OFFSET UNITYSDK_OFFSET(0xDFBC810)
 
+inline static constexpr unsigned int DACEDJLJOGK_TypeDefinitionIndex = 81992;
+
 	class DACEDJLJOGK : public ::System::Object
 	{
 	public:

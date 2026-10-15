@@ -15,6 +15,8 @@ namespace UnityEngine { class Animation; }
 #define KPJHHMDDAPO_EMCBHIAHJOH_OFFSET UNITYSDK_OFFSET(0xB5C0AB0)
 #define KPJHHMDDAPO_FDDPBDBKEAN_OFFSET UNITYSDK_OFFSET(0xB5C0CA0)
 
+inline static constexpr unsigned int KPJHHMDDAPO_TypeDefinitionIndex = 71243;
+
 	class KPJHHMDDAPO : public ::System::Object
 	{
 	public:

@@ -64,6 +64,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengePeakGameContext_TypeDefinitionIndex = 63169;
+
 	class ChallengePeakGameContext : public ::RPG::Client::BaseGameFlowContext
 	{
 	public:

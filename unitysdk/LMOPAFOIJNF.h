@@ -30,6 +30,8 @@ namespace System { class String; }
 #define LMOPAFOIJNF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9AE060)
 #define LMOPAFOIJNF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9AE0C0)
 
+inline static constexpr unsigned int LMOPAFOIJNF_TypeDefinitionIndex = 28321;
+
 	class LMOPAFOIJNF : public ::System::Object
 	{
 	public:

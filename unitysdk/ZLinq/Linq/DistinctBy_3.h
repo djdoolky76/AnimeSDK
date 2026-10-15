@@ -6,6 +6,8 @@ namespace ZLinq::Internal { template <typename T> class HashSetSlim_1; }
 
 namespace ZLinq::Linq
 {
+	inline static constexpr unsigned int DistinctBy_3_TypeDefinitionIndex = 6118;
+
 	template <typename T1, typename T2, typename T3>
 	struct alignas(8) DistinctBy_3
 	{

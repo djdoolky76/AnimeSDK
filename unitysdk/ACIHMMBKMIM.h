@@ -30,6 +30,8 @@ namespace System { class String; }
 #define ACIHMMBKMIM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDDDE70)
 #define ACIHMMBKMIM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDDDED0)
 
+inline static constexpr unsigned int ACIHMMBKMIM_TypeDefinitionIndex = 30472;
+
 	class ACIHMMBKMIM : public ::System::Object
 	{
 	public:

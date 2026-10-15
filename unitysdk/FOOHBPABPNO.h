@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FOOHBPABPNO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E401A50)
 #define FOOHBPABPNO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E401AB0)
 
+inline static constexpr unsigned int FOOHBPABPNO_TypeDefinitionIndex = 31350;
+
 	class FOOHBPABPNO : public ::System::Object
 	{
 	public:

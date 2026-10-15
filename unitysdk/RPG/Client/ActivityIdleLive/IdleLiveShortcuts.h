@@ -39,6 +39,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveShortcuts_TypeDefinitionIndex = 75317;
+
 	class IdleLiveShortcuts : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int RenderModel_ComponentState_t_TypeDefinitionIndex = 39318;
+
 	struct alignas(4) RenderModel_ComponentState_t
 	{
 		::ZenFulcrum::VR::OpenVRBinding::HmdMatrix34_t mTrackingToComponentRenderModel; // 0x10

@@ -47,6 +47,8 @@ namespace UnityEngine::UI { class Text; }
 #define DCAIKNNLALD__ONBIND_OFFSET UNITYSDK_OFFSET(0xE2359F0)
 #define DCAIKNNLALD__ONTICK_OFFSET UNITYSDK_OFFSET(0xE2373F0)
 
+inline static constexpr unsigned int DCAIKNNLALD_TypeDefinitionIndex = 71372;
+
 	class DCAIKNNLALD : public ::FMPCODLIOLG
 	{
 	public:

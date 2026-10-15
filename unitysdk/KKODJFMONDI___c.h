@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define KKODJFMONDI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0A3070)
 #define KKODJFMONDI___C__ISLISTTYPE_B__17_0_OFFSET UNITYSDK_OFFSET(0x1D0A3080)
 
+inline static constexpr unsigned int KKODJFMONDI___c_TypeDefinitionIndex = 10745;
+
 	class KKODJFMONDI___c : public ::System::Object
 	{
 	public:

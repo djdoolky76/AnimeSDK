@@ -28,6 +28,8 @@ namespace UnityEngine::UI { class Button; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsPostZoomInWindow_TypeDefinitionIndex = 80410;
+
 	class LimaoNewsPostZoomInWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:

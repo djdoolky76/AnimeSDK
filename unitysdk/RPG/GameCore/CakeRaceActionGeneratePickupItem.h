@@ -11,6 +11,8 @@ namespace RPG::GameCore { class CakeRaceActionGeneratePickupItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceActionGeneratePickupItem_TypeDefinitionIndex = 18349;
+
 	class CakeRaceActionGeneratePickupItem : public ::RPG::GameCore::CakeRaceActionBase
 	{
 	public:

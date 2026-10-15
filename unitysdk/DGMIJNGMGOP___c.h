@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DGMIJNGMGOP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE857790)
 #define DGMIJNGMGOP___C___CLOSESCREENTRANSFER_B__15_0_OFFSET UNITYSDK_OFFSET(0xE8577A0)
 
+inline static constexpr unsigned int DGMIJNGMGOP___c_TypeDefinitionIndex = 52818;
+
 	class DGMIJNGMGOP___c : public ::System::Object
 	{
 	public:

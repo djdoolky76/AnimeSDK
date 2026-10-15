@@ -19,6 +19,8 @@ namespace RPG::GameCore { class LittleGameEditorDebugDrawConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameEditorDebugDrawConfig_TypeDefinitionIndex = 18859;
+
 	class LittleGameEditorDebugDrawConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

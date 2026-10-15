@@ -6,6 +6,8 @@ namespace System::Collections::Immutable { class ImmutableList; }
 
 namespace System::Collections::Immutable
 {
+	inline static constexpr unsigned int ImmutableList_1_TypeDefinitionIndex = 6639;
+
 	template <typename T>
 	class ImmutableList_1 : public ::System::Object
 	{

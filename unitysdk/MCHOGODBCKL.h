@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 #define MCHOGODBCKL_BCPPMJHKHIL_OFFSET UNITYSDK_OFFSET(0xB87F9C0)
 
+inline static constexpr unsigned int MCHOGODBCKL_TypeDefinitionIndex = 62835;
+
 	class MCHOGODBCKL : public ::System::Object
 	{
 	public:

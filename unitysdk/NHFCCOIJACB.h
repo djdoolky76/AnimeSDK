@@ -15,6 +15,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define NHFCCOIJACB_MONODNDCLJI_OFFSET UNITYSDK_OFFSET(0xBBBFD20)
 #define NHFCCOIJACB_OHMHJFANEIF_OFFSET UNITYSDK_OFFSET(0xBBBFCE0)
 
+inline static constexpr unsigned int NHFCCOIJACB_TypeDefinitionIndex = 60806;
+
 	class NHFCCOIJACB : public ::System::Object
 	{
 	public:

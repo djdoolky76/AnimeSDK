@@ -7,6 +7,8 @@ namespace RPG::GameCore { class PixAirCastCondition; }
 
 #define OJONFELBAFM_CTOR_OFFSET UNITYSDK_OFFSET(0xBECFE80)
 
+inline static constexpr unsigned int OJONFELBAFM_TypeDefinitionIndex = 79397;
+
 	class OJONFELBAFM : public ::System::Object
 	{
 	public:

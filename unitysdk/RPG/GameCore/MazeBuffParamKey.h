@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MazeBuffParamKey; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MazeBuffParamKey_TypeDefinitionIndex = 18262;
+
 	class MazeBuffParamKey : public ::RPG::GameCore::JsonConfig
 	{
 	public:

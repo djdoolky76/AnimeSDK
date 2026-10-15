@@ -6,6 +6,8 @@
 
 #define LEHBJLFHDAD_CTOR_OFFSET UNITYSDK_OFFSET(0xB653BD0)
 
+inline static constexpr unsigned int LEHBJLFHDAD_TypeDefinitionIndex = 54273;
+
 	class LEHBJLFHDAD : public ::System::Object
 	{
 	public:

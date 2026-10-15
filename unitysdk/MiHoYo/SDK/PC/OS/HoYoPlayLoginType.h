@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int HoYoPlayLoginType_TypeDefinitionIndex = 8491;
+
 	class HoYoPlayLoginType : public ::System::Object
 	{
 	public:

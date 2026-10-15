@@ -22,6 +22,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::Challenge
 {
+	inline static constexpr unsigned int ChallengeAvatarLineupSlotControl_TypeDefinitionIndex = 81412;
+
 	class ChallengeAvatarLineupSlotControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

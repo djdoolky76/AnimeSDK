@@ -19,6 +19,8 @@ namespace UnityEngine::UI { class Text; }
 #define PEPMBAEBOJL__ONBIND_OFFSET UNITYSDK_OFFSET(0xC1F9770)
 #define PEPMBAEBOJL__ONTICK_OFFSET UNITYSDK_OFFSET(0xC1F93F0)
 
+inline static constexpr unsigned int PEPMBAEBOJL_TypeDefinitionIndex = 71746;
+
 	class PEPMBAEBOJL : public ::FMPCODLIOLG
 	{
 	public:

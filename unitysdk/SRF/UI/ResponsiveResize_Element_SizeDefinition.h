@@ -3,6 +3,8 @@
 
 namespace SRF::UI
 {
+	inline static constexpr unsigned int ResponsiveResize_Element_SizeDefinition_TypeDefinitionIndex = 35389;
+
 	struct alignas(4) ResponsiveResize_Element_SizeDefinition
 	{
 		::System::Single ElementWidth; // 0x10

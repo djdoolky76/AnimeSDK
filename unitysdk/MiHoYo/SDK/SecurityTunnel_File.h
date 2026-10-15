@@ -19,6 +19,8 @@ namespace System::IO { class Stream; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_File_TypeDefinitionIndex = 46377;
+
 	class SecurityTunnel_File : public ::System::Object
 	{
 	public:

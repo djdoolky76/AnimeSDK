@@ -16,6 +16,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FPSCameraOverride_TypeDefinitionIndex = 70588;
+
 	class FPSCameraOverride : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TryRequestEnterRegion; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TryRequestEnterRegion_TypeDefinitionIndex = 20758;
+
 	class TryRequestEnterRegion : public ::RPG::GameCore::TaskConfig
 	{
 	public:

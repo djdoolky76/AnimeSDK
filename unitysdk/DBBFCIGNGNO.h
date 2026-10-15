@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 #define DBBFCIGNGNO_NIJJPBOIGBI_OFFSET UNITYSDK_OFFSET(0xDFD6280)
 #define DBBFCIGNGNO__ONBIND_OFFSET UNITYSDK_OFFSET(0xDFD5F30)
 
+inline static constexpr unsigned int DBBFCIGNGNO_TypeDefinitionIndex = 71774;
+
 	class DBBFCIGNGNO : public ::FMPCODLIOLG
 	{
 	public:

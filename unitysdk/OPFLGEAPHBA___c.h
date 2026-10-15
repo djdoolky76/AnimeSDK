@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define OPFLGEAPHBA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEE03A0)
 #define OPFLGEAPHBA___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1DEE03B0)
 
+inline static constexpr unsigned int OPFLGEAPHBA___c_TypeDefinitionIndex = 27008;
+
 	class OPFLGEAPHBA___c : public ::System::Object
 	{
 	public:

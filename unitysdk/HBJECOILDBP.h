@@ -11,6 +11,8 @@ namespace System { class String; }
 #define HBJECOILDBP_SET_EXPANDED_OFFSET UNITYSDK_OFFSET(0x15C0ABF0)
 #define HBJECOILDBP_SET_TOGGLEMEMBERNAME_OFFSET UNITYSDK_OFFSET(0x15C0ABD0)
 
+inline static constexpr unsigned int HBJECOILDBP_TypeDefinitionIndex = 73664;
+
 	class HBJECOILDBP : public ::Sirenix::OdinInspector::PropertyGroupAttribute
 	{
 	public:

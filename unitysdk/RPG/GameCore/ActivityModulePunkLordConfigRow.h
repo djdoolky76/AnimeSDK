@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ActivityModulePunkLordConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityModulePunkLordConfigRow_TypeDefinitionIndex = 12287;
+
 	class ActivityModulePunkLordConfigRow : public ::System::Object
 	{
 	public:

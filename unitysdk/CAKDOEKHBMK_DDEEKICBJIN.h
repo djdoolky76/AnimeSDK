@@ -4,6 +4,8 @@
 
 #define CAKDOEKHBMK_DDEEKICBJIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DBC10)
 
+inline static constexpr unsigned int CAKDOEKHBMK_DDEEKICBJIN_TypeDefinitionIndex = 43614;
+
 	class CAKDOEKHBMK_DDEEKICBJIN : public ::System::Object
 	{
 	public:

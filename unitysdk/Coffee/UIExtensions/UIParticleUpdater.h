@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Coffee::UIExtensions
 {
+	inline static constexpr unsigned int UIParticleUpdater_TypeDefinitionIndex = 45162;
+
 	class UIParticleUpdater : public ::System::Object
 	{
 	public:

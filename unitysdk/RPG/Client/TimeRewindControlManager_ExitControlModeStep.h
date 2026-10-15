@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeRewindControlManager_ExitControlModeStep_TypeDefinitionIndex = 60827;
+
 	enum class TimeRewindControlManager_ExitControlModeStep : ::System::Int32
 	{
 		None = 0,

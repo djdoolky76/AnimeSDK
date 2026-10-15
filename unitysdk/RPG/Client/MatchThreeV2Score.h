@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeV2Score_TypeDefinitionIndex = 66053;
+
 	class MatchThreeV2Score : public ::System::Object
 	{
 	public:

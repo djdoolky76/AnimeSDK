@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTravelAirwallControl_TypeDefinitionIndex = 68619;
+
 	class MonoTravelAirwallControl : public ::RPG::Client::MonoDroneAirwallControl
 	{
 	public:

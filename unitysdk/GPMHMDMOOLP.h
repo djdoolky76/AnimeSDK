@@ -4,6 +4,8 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
+inline static constexpr unsigned int GPMHMDMOOLP_TypeDefinitionIndex = 42008;
+
 	struct alignas(8) GPMHMDMOOLP
 	{
 		::System::String* CDEEHGCEOKN; // 0x10

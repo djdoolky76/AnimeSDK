@@ -34,6 +34,8 @@ namespace System { class String; }
 #define KLFNCLPCJGO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E889AF0)
 #define KLFNCLPCJGO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E889B50)
 
+inline static constexpr unsigned int KLFNCLPCJGO_TypeDefinitionIndex = 30927;
+
 	class KLFNCLPCJGO : public ::System::Object
 	{
 	public:

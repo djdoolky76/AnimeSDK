@@ -5,6 +5,8 @@ namespace RPG::Client { class ProgressBar; }
 namespace System { class Action; }
 namespace System { class Object; }
 
+inline static constexpr unsigned int AABBCPNIPGL___c__0_1_TypeDefinitionIndex = 49938;
+
 	template <typename T>
 	class AABBCPNIPGL___c__0_1 : public ::System::Object
 	{

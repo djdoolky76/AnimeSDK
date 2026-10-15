@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebDelegate_RegisterGeetestViewDelegate_TypeDefinitionIndex = 7841;
+
 	class WebDelegate_RegisterGeetestViewDelegate : public ::System::MulticastDelegate
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimGrenadierBakedMoveConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimGrenadierBakedMoveConfig_TypeDefinitionIndex = 16685;
+
 	class FiveDimGrenadierBakedMoveConfig : public ::RPG::GameCore::FiveDimPropBakedMoveConfig
 	{
 	public:

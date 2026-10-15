@@ -8,6 +8,8 @@ class MKLDKDBBDKB;
 #define MKLDKDBBDKB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1CB720)
 #define MKLDKDBBDKB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1CB5D0)
 
+inline static constexpr unsigned int MKLDKDBBDKB_TypeDefinitionIndex = 20131;
+
 	class MKLDKDBBDKB : public ::RPG::GameCore::JsonConfig
 	{
 	public:

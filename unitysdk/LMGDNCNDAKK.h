@@ -7,6 +7,8 @@ namespace RPG::Client { class IRogueTournPersonaStyle; }
 #define LMGDNCNDAKK_GET_STYLE_OFFSET UNITYSDK_OFFSET(0xB780990)
 #define LMGDNCNDAKK_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xB780940)
 
+inline static constexpr unsigned int LMGDNCNDAKK_TypeDefinitionIndex = 67038;
+
 	class LMGDNCNDAKK : public ::System::Object
 	{
 	public:

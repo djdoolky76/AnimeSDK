@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ConicalVisionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvSetNpcConicalVisionsConfig_TypeDefinitionIndex = 20000;
+
 	class AdvSetNpcConicalVisionsConfig : public ::RPG::GameCore::TaskConfig
 	{
 	public:

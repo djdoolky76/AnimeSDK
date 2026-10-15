@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EDCPBKEHEFF_KGALMIKFIGH_OFFSET UNITYSDK_OFFSET(0x13311330)
 #define EDCPBKEHEFF_MPPNEFBLDFH_OFFSET UNITYSDK_OFFSET(0x133115A0)
 
+inline static constexpr unsigned int EDCPBKEHEFF_TypeDefinitionIndex = 77310;
+
 	class EDCPBKEHEFF : public ::System::Object
 	{
 	public:

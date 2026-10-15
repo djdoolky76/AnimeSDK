@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActionDelayPreshowConfig_TypeDefinitionIndex = 18179;
+
 	class ActionDelayPreshowConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::Client { class MatchThreeBoard; }
 #define LCDDDAGNLIP_LGAOOKPFIMF_OFFSET UNITYSDK_OFFSET(0xB613150)
 #define LCDDDAGNLIP_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB613080)
 
+inline static constexpr unsigned int LCDDDAGNLIP_TypeDefinitionIndex = 65865;
+
 	class LCDDDAGNLIP : public ::FNIDIOCNBBI
 	{
 	public:

@@ -15,6 +15,8 @@ namespace RPG::Client { class CharacterAtlasFaceBehaviour; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharacterAtlasFace_TypeDefinitionIndex = 70257;
+
 	class CharacterAtlasFace : public ::UnityEngine::MonoBehaviour
 	{
 	public:

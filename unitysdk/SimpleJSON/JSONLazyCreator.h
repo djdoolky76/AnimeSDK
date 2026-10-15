@@ -36,6 +36,8 @@ namespace System { class String; }
 
 namespace SimpleJSON
 {
+	inline static constexpr unsigned int JSONLazyCreator_TypeDefinitionIndex = 9966;
+
 	class JSONLazyCreator : public ::SimpleJSON::JSONNode
 	{
 	public:

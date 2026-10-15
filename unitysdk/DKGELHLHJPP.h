@@ -4,6 +4,8 @@
 
 #define DKGELHLHJPP_CTOR_OFFSET UNITYSDK_OFFSET(0xF87B090)
 
+inline static constexpr unsigned int DKGELHLHJPP_TypeDefinitionIndex = 48277;
+
 	class DKGELHLHJPP : public ::System::Attribute
 	{
 	public:

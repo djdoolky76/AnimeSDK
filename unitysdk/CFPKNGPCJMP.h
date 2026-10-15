@@ -26,6 +26,8 @@ namespace System { class String; }
 #define CFPKNGPCJMP_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x3C43FE0)
 #define CFPKNGPCJMP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C44810)
 
+inline static constexpr unsigned int CFPKNGPCJMP_TypeDefinitionIndex = 6301;
+
 	struct alignas(4) CFPKNGPCJMP
 	{
 		::RPG::MVector3 KIGGGJGOIGD; // 0x10

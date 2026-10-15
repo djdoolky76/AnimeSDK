@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Pet
 {
+	inline static constexpr unsigned int SimplePetAppearance_TypeDefinitionIndex = 75718;
+
 	class SimplePetAppearance : public ::System::Object
 	{
 	public:

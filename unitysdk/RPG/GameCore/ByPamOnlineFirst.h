@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByPamOnlineFirst_TypeDefinitionIndex = 20010;
+
 	class ByPamOnlineFirst : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

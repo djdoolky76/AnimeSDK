@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleShowUIPageParam_TypeDefinitionIndex = 71859;
+
 	class BattleShowUIPageParam : public ::System::Object
 	{
 	public:

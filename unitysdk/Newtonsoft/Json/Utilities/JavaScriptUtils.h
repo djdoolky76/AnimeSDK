@@ -15,6 +15,8 @@ namespace System::IO { class TextWriter; }
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int JavaScriptUtils_TypeDefinitionIndex = 9673;
+
 	class JavaScriptUtils : public ::System::Object
 	{
 	public:

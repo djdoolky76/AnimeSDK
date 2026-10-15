@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GMOELMHCNEE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15AD91B0)
 #define GMOELMHCNEE__ONTASKBEGIN_G___ADDWEAK_1_0_OFFSET UNITYSDK_OFFSET(0x15ADA8D0)
 
+inline static constexpr unsigned int GMOELMHCNEE_TypeDefinitionIndex = 54824;
+
 	class GMOELMHCNEE
 	{
 	public:

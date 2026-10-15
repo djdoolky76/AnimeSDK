@@ -4,6 +4,8 @@
 
 #define IRI_OPTIMIZEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x16537960)
 
+inline static constexpr unsigned int IRI_OptimizeData_TypeDefinitionIndex = 47181;
+
 	class IRI_OptimizeData : public ::UnityEngine::MonoBehaviour
 	{
 	public:

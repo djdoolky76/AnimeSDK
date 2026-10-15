@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPedestrianV2MemberExtendFreeStyle_TypeDefinitionIndex = 17316;
+
 	class LevelPedestrianV2MemberExtendFreeStyle : public ::RPG::GameCore::JsonConfig
 	{
 	public:

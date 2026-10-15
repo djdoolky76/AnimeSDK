@@ -15,6 +15,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AUiLineRender_TypeDefinitionIndex = 72494;
+
 	class AUiLineRender : public ::UnityEngine::UI::Graphic
 	{
 	public:

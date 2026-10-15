@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+inline static constexpr unsigned int OGLAJJBODAH_TypeDefinitionIndex = 73955;
+
 	struct alignas(4) OGLAJJBODAH
 	{
 		::System::Int32 FCLBGFFNMHM; // 0x10

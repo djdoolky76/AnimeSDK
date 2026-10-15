@@ -8,6 +8,8 @@ class DKFNBJOGFME;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MapDef_ActiveHoyoGroupExtraInfo_TypeDefinitionIndex = 62080;
+
 	class MapDef_ActiveHoyoGroupExtraInfo : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ConditionCheckerUtil___c__DisplayClass11_0_TypeDefinitionIndex = 59903;
+
 	class ConditionCheckerUtil___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

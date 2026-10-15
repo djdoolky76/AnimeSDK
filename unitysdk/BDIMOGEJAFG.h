@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int BDIMOGEJAFG_TypeDefinitionIndex = 30748;
+
 	enum class BDIMOGEJAFG : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

@@ -49,6 +49,8 @@ namespace UnityEngine { class Transform; }
 #define GGJEMEHMBNL_OJMLLDHCPKJ_OFFSET UNITYSDK_OFFSET(0x15A09670)
 #define GGJEMEHMBNL_PNHBOLMCIAH_OFFSET UNITYSDK_OFFSET(0x15A0C130)
 
+inline static constexpr unsigned int GGJEMEHMBNL_TypeDefinitionIndex = 54748;
+
 	class GGJEMEHMBNL : public ::System::Object
 	{
 	public:

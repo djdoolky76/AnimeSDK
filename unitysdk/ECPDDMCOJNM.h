@@ -29,6 +29,8 @@ namespace System { class String; }
 #define ECPDDMCOJNM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E259120)
 #define ECPDDMCOJNM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E259180)
 
+inline static constexpr unsigned int ECPDDMCOJNM_TypeDefinitionIndex = 33946;
+
 	class ECPDDMCOJNM : public ::System::Object
 	{
 	public:

@@ -39,6 +39,8 @@ namespace ZXing::QrCode::Internal { class Version; }
 
 namespace ZXing::QrCode::Internal
 {
+	inline static constexpr unsigned int Encoder_TypeDefinitionIndex = 7029;
+
 	class Encoder : public ::System::Object
 	{
 	public:

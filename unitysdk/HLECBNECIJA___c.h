@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HLECBNECIJA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5BCB20)
 #define HLECBNECIJA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E5BCB30)
 
+inline static constexpr unsigned int HLECBNECIJA___c_TypeDefinitionIndex = 28427;
+
 	class HLECBNECIJA___c : public ::System::Object
 	{
 	public:

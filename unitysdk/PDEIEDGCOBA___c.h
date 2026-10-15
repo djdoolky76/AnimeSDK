@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PDEIEDGCOBA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF0DA50)
 #define PDEIEDGCOBA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DF0DA60)
 
+inline static constexpr unsigned int PDEIEDGCOBA___c_TypeDefinitionIndex = 27884;
+
 	class PDEIEDGCOBA___c : public ::System::Object
 	{
 	public:

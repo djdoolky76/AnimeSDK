@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhoneCaseData_TypeDefinitionIndex = 66453;
+
 	class PhoneCaseData : public ::RPG::Client::ItemData
 	{
 	public:

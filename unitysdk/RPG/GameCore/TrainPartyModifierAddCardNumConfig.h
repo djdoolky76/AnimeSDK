@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyModifierAddCardNumConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyModifierAddCardNumConfig_TypeDefinitionIndex = 18107;
+
 	class TrainPartyModifierAddCardNumConfig : public ::RPG::GameCore::TrainPartyModifierConfigBase
 	{
 	public:

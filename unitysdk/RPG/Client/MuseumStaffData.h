@@ -22,6 +22,8 @@ namespace RPG::GameCore { class MuseumStuffRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MuseumStaffData_TypeDefinitionIndex = 66348;
+
 	class MuseumStaffData : public ::System::Object
 	{
 	public:

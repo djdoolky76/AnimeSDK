@@ -5,6 +5,8 @@ class FDPALAEIHPB;
 
 #define ELCFEAACNPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA613C0)
 
+inline static constexpr unsigned int ELCFEAACNPA_TypeDefinitionIndex = 42881;
+
 	class ELCFEAACNPA : public ::DJJKNHPLHDI
 	{
 	public:

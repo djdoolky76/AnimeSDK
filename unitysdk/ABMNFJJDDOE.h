@@ -31,6 +31,8 @@ namespace System { class String; }
 #define ABMNFJJDDOE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDCEE70)
 #define ABMNFJJDDOE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDCEED0)
 
+inline static constexpr unsigned int ABMNFJJDDOE_TypeDefinitionIndex = 25702;
+
 	class ABMNFJJDDOE : public ::System::Object
 	{
 	public:

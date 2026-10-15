@@ -13,6 +13,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class IAsyncFixedUpdateHandler; 
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncFixedUpdateTrigger_TypeDefinitionIndex = 38505;
+
 	class AsyncFixedUpdateTrigger
 	{
 	public:

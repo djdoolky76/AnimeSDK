@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TimelineOverrideEffectTransformOffsetParams; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimelineOverrideEffectTransformOffsetParams_TypeDefinitionIndex = 57358;
+
 	class TimelineOverrideEffectTransformOffsetParams : public ::System::Object
 	{
 	public:

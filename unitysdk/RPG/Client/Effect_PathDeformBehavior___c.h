@@ -16,6 +16,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_PathDeformBehavior___c_TypeDefinitionIndex = 70528;
+
 	class Effect_PathDeformBehavior___c : public ::System::Object
 	{
 	public:

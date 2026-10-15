@@ -31,6 +31,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGDepthOfFieldRenderer_TypeDefinitionIndex = 37807;
+
 	class RPGDepthOfFieldRenderer : public ::RPG::CustomRP::CRPPostprocessSubPass2
 	{
 	public:

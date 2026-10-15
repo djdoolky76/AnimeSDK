@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WolfBroGunPlayPuzzleSetupStartupMode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WolfBroGunPlayPuzzleSetupStartupMode_TypeDefinitionIndex = 20371;
+
 	class WolfBroGunPlayPuzzleSetupStartupMode : public ::RPG::GameCore::TaskConfig
 	{
 	public:

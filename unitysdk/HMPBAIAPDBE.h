@@ -16,6 +16,8 @@ namespace UnityEngine { class Object; }
 #define HMPBAIAPDBE_NNJNDKBKGKG_OFFSET UNITYSDK_OFFSET(0x15D89C30)
 #define HMPBAIAPDBE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15D89C40)
 
+inline static constexpr unsigned int HMPBAIAPDBE_TypeDefinitionIndex = 59695;
+
 	class HMPBAIAPDBE : public ::System::Object
 	{
 	public:

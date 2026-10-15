@@ -32,6 +32,8 @@ namespace System { class String; }
 #define ALBOJHJALOF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3D3B60)
 #define ALBOJHJALOF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3D3BC0)
 
+inline static constexpr unsigned int ALBOJHJALOF_TypeDefinitionIndex = 30919;
+
 	class ALBOJHJALOF : public ::System::Object
 	{
 	public:

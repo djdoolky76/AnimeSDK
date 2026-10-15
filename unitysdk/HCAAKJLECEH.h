@@ -5,6 +5,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 #define HCAAKJLECEH_CTOR_OFFSET UNITYSDK_OFFSET(0x15C15390)
 
+inline static constexpr unsigned int HCAAKJLECEH_TypeDefinitionIndex = 56429;
+
 	class HCAAKJLECEH : public ::System::Object
 	{
 	public:

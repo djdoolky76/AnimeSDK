@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StrongChallengeStageRow_TypeDefinitionIndex = 12397;
+
 	class StrongChallengeStageRow : public ::System::Object
 	{
 	public:

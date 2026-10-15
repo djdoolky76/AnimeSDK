@@ -30,6 +30,8 @@ namespace System { class String; }
 #define IBCDDGKNICG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E60FAA0)
 #define IBCDDGKNICG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E60FB00)
 
+inline static constexpr unsigned int IBCDDGKNICG_TypeDefinitionIndex = 32159;
+
 	class IBCDDGKNICG : public ::System::Object
 	{
 	public:

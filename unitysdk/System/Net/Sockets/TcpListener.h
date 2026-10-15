@@ -23,6 +23,8 @@ namespace System::Net::Sockets { class TcpClient; }
 
 namespace System::Net::Sockets
 {
+	inline static constexpr unsigned int TcpListener_TypeDefinitionIndex = 2915;
+
 	class TcpListener : public ::System::Object
 	{
 	public:

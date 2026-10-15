@@ -20,6 +20,8 @@ namespace RPG::GameCore { class LevelSingleInsertAbilityFinishOrAbort; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelSingleInsertAbilityFinishOrAbort_TypeDefinitionIndex = 56744;
+
 	class LevelSingleInsertAbilityFinishOrAbort : public ::CMPGEAFHHDC
 	{
 	public:

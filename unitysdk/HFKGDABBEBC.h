@@ -6,6 +6,8 @@
 #define HFKGDABBEBC_CTOR_OFFSET UNITYSDK_OFFSET(0x15C881A0)
 #define HFKGDABBEBC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15C88130)
 
+inline static constexpr unsigned int HFKGDABBEBC_TypeDefinitionIndex = 67556;
+
 	class HFKGDABBEBC : public ::FDPFMFINJCO
 	{
 	public:

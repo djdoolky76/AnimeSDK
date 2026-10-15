@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRacePerformenceAudioTagType_TypeDefinitionIndex = 10988;
+
 	enum class CakeRacePerformenceAudioTagType : ::System::Int32
 	{
 		None = 0,

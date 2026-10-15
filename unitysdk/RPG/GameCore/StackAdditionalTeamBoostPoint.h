@@ -13,6 +13,8 @@ namespace RPG::GameCore { class StackAdditionalTeamBoostPoint; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StackAdditionalTeamBoostPoint_TypeDefinitionIndex = 23552;
+
 	class StackAdditionalTeamBoostPoint : public ::RPG::GameCore::TaskConfig
 	{
 	public:

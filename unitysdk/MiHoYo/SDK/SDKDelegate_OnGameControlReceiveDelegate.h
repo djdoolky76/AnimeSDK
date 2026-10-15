@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKDelegate_OnGameControlReceiveDelegate_TypeDefinitionIndex = 7797;
+
 	class SDKDelegate_OnGameControlReceiveDelegate : public ::System::MulticastDelegate
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 #define MCMBBGLGNIK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D13E8E0)
 #define MCMBBGLGNIK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D13E470)
 
+inline static constexpr unsigned int MCMBBGLGNIK_TypeDefinitionIndex = 12014;
+
 	class MCMBBGLGNIK : public ::System::Object
 	{
 	public:

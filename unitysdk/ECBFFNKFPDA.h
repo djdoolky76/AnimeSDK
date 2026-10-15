@@ -11,6 +11,8 @@ class POCFKFBIABM;
 #define ECBFFNKFPDA_ODDLBLFDJJM_OFFSET UNITYSDK_OFFSET(0x12D05F70)
 #define ECBFFNKFPDA_SET_TWEENDURATION_OFFSET UNITYSDK_OFFSET(0x12D05FC0)
 
+inline static constexpr unsigned int ECBFFNKFPDA_TypeDefinitionIndex = 71510;
+
 	class ECBFFNKFPDA : public ::System::Object
 	{
 	public:

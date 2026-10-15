@@ -14,6 +14,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveDungeonRankInfo___c_TypeDefinitionIndex = 75219;
+
 	class IdleLiveDungeonRankInfo___c : public ::System::Object
 	{
 	public:

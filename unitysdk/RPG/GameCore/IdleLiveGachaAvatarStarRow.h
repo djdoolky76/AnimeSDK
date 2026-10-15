@@ -10,6 +10,8 @@ namespace RPG::GameCore { class IdleLiveGachaAvatarStarRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveGachaAvatarStarRow_TypeDefinitionIndex = 11770;
+
 	class IdleLiveGachaAvatarStarRow : public ::System::Object
 	{
 	public:

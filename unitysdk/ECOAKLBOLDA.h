@@ -29,6 +29,8 @@ namespace System { class String; }
 #define ECOAKLBOLDA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2578E0)
 #define ECOAKLBOLDA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E257940)
 
+inline static constexpr unsigned int ECOAKLBOLDA_TypeDefinitionIndex = 31278;
+
 	class ECOAKLBOLDA : public ::System::Object
 	{
 	public:

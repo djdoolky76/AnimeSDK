@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KKIPKCDNPLE_SET_ALLYCHIMERAS_OFFSET UNITYSDK_OFFSET(0xB4CD9B0)
 #define KKIPKCDNPLE_SET_ENEMYCHIMERAS_OFFSET UNITYSDK_OFFSET(0xB4CD9D0)
 
+inline static constexpr unsigned int KKIPKCDNPLE_TypeDefinitionIndex = 63312;
+
 	class KKIPKCDNPLE : public ::System::Object
 	{
 	public:

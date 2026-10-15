@@ -40,6 +40,8 @@ namespace System { class String; }
 #define BPOMECJONGO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E050700)
 #define BPOMECJONGO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E050760)
 
+inline static constexpr unsigned int BPOMECJONGO_TypeDefinitionIndex = 27528;
+
 	class BPOMECJONGO : public ::System::Object
 	{
 	public:

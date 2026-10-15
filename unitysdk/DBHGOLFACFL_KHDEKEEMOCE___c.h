@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define DBHGOLFACFL_KHDEKEEMOCE___C__CREATE_B__3_1_OFFSET UNITYSDK_OFFSET(0xDFE1DF0)
 #define DBHGOLFACFL_KHDEKEEMOCE___C__CREATE_B__3_2_OFFSET UNITYSDK_OFFSET(0xDFE1E10)
 
+inline static constexpr unsigned int DBHGOLFACFL_KHDEKEEMOCE___c_TypeDefinitionIndex = 79436;
+
 	class DBHGOLFACFL_KHDEKEEMOCE___c : public ::System::Object
 	{
 	public:

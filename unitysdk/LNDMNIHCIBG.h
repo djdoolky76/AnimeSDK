@@ -7,6 +7,8 @@ namespace RPG::Client { class GridFightRole; }
 #define LNDMNIHCIBG_EQUALS_OFFSET UNITYSDK_OFFSET(0xB7DAEA0)
 #define LNDMNIHCIBG_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xB7DAF70)
 
+inline static constexpr unsigned int LNDMNIHCIBG_TypeDefinitionIndex = 65153;
+
 	class LNDMNIHCIBG : public ::System::Object
 	{
 	public:

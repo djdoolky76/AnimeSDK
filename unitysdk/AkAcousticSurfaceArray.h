@@ -8,6 +8,8 @@ class AkAcousticSurface;
 #define AKACOUSTICSURFACEARRAY_DEFAULTCONSTRUCTATINTPTR_OFFSET UNITYSDK_OFFSET(0x1F5702F0)
 #define AKACOUSTICSURFACEARRAY_GET_STRUCTURESIZE_OFFSET UNITYSDK_OFFSET(0x1F570240)
 
+inline static constexpr unsigned int AkAcousticSurfaceArray_TypeDefinitionIndex = 44860;
+
 	class AkAcousticSurfaceArray
 	{
 	public:

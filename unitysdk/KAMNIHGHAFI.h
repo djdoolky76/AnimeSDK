@@ -10,6 +10,8 @@ namespace System { class String; }
 #define KAMNIHGHAFI_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB2DEC30)
 #define KAMNIHGHAFI_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB2DEBE0)
 
+inline static constexpr unsigned int KAMNIHGHAFI_TypeDefinitionIndex = 56672;
+
 	class KAMNIHGHAFI : public ::System::Object
 	{
 	public:

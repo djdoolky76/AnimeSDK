@@ -9,6 +9,8 @@
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int StackGuard_TypeDefinitionIndex = 910;
+
 	class StackGuard : public ::System::Object
 	{
 	public:

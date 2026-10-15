@@ -10,6 +10,8 @@ namespace RPGTools::Timeline { class VirtualCameraNoiseConfig; }
 #define PHBPBBJDFIH_JDFIFBGCBFD_JKCPLEJCBML_OFFSET UNITYSDK_OFFSET(0xC238940)
 #define PHBPBBJDFIH_JDFIFBGCBFD_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC238F10)
 
+inline static constexpr unsigned int PHBPBBJDFIH_JDFIFBGCBFD_TypeDefinitionIndex = 60704;
+
 	class PHBPBBJDFIH_JDFIFBGCBFD : public ::System::Object
 	{
 	public:

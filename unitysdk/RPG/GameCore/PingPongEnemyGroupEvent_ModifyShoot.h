@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PingPongEnemyGroupEvent_ModifyShoot; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PingPongEnemyGroupEvent_ModifyShoot_TypeDefinitionIndex = 16999;
+
 	class PingPongEnemyGroupEvent_ModifyShoot : public ::RPG::GameCore::PingPongEnemyGroupEventBase
 	{
 	public:

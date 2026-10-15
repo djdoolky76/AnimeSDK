@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterStopBodyControlData_TypeDefinitionIndex = 47944;
+
 	class CharacterStopBodyControlData : public ::System::Object
 	{
 	public:

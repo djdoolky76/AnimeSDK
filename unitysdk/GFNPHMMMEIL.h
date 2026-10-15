@@ -10,6 +10,8 @@
 #define GFNPHMMMEIL_LEMGFGLHNMN_OFFSET UNITYSDK_OFFSET(0x159FEDE0)
 #define GFNPHMMMEIL_NOPPNEMIEPG_OFFSET UNITYSDK_OFFSET(0x159FED30)
 
+inline static constexpr unsigned int GFNPHMMMEIL_TypeDefinitionIndex = 67996;
+
 	class GFNPHMMMEIL : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int PrepareBattleTalkViewModel___c_TypeDefinitionIndex = 80986;
+
 	class PrepareBattleTalkViewModel___c : public ::System::Object
 	{
 	public:

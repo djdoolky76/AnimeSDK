@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ExcludeFromObjectFactoryAttribute_TypeDefinitionIndex = 4325;
+
 	class ExcludeFromObjectFactoryAttribute : public ::System::Attribute
 	{
 	public:

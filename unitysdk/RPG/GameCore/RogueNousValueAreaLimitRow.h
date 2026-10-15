@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueNousValueAreaLimitRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueNousValueAreaLimitRow_TypeDefinitionIndex = 14917;
+
 	class RogueNousValueAreaLimitRow : public ::System::Object
 	{
 	public:

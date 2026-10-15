@@ -11,6 +11,8 @@ namespace System { class String; }
 #define FIOCOAEDIKK__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x157B04C0)
 #define FIOCOAEDIKK__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x157B0720)
 
+inline static constexpr unsigned int FIOCOAEDIKK_TypeDefinitionIndex = 52971;
+
 	class FIOCOAEDIKK
 	{
 	public:

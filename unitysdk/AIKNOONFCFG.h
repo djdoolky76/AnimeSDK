@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AIKNOONFCFG_SET_PROPERTYMODIFIERPROVIDER_OFFSET UNITYSDK_OFFSET(0xEBAF190)
 #define AIKNOONFCFG_SET_VERSION_OFFSET UNITYSDK_OFFSET(0xEBAF150)
 
+inline static constexpr unsigned int AIKNOONFCFG_TypeDefinitionIndex = 51927;
+
 	class AIKNOONFCFG : public ::System::Object
 	{
 	public:

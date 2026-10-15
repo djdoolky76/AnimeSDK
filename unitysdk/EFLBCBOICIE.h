@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EFLBCBOICIE_KAIGPAOFLEG_OFFSET UNITYSDK_OFFSET(0x1C466970)
 #define EFLBCBOICIE_KFBOHPJHHAM_OFFSET UNITYSDK_OFFSET(0x1C46A640)
 
+inline static constexpr unsigned int EFLBCBOICIE_TypeDefinitionIndex = 41455;
+
 	class EFLBCBOICIE : public ::System::Object
 	{
 	public:

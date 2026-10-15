@@ -32,6 +32,8 @@ namespace System { class String; }
 #define EOALLAPKMFA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2F67F0)
 #define EOALLAPKMFA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2F6850)
 
+inline static constexpr unsigned int EOALLAPKMFA_TypeDefinitionIndex = 34133;
+
 	class EOALLAPKMFA : public ::System::Object
 	{
 	public:

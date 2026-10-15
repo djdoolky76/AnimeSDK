@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CFJNAPDIMKM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0A4E50)
 #define CFJNAPDIMKM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0A4EB0)
 
+inline static constexpr unsigned int CFJNAPDIMKM_TypeDefinitionIndex = 33024;
+
 	class CFJNAPDIMKM : public ::System::Object
 	{
 	public:

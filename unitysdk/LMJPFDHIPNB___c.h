@@ -10,6 +10,8 @@ namespace System { class String; }
 #define LMJPFDHIPNB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB7CCC10)
 #define LMJPFDHIPNB___C___LISTENLEVELVAR_B__18_0_OFFSET UNITYSDK_OFFSET(0xB7CCC20)
 
+inline static constexpr unsigned int LMJPFDHIPNB___c_TypeDefinitionIndex = 77086;
+
 	class LMJPFDHIPNB___c : public ::System::Object
 	{
 	public:

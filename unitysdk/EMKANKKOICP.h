@@ -33,6 +33,8 @@ namespace System { class String; }
 #define EMKANKKOICP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2E4450)
 #define EMKANKKOICP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2E44B0)
 
+inline static constexpr unsigned int EMKANKKOICP_TypeDefinitionIndex = 32603;
+
 	class EMKANKKOICP : public ::System::Object
 	{
 	public:

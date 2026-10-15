@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PLIDMPJNFEA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFA2D30)
 #define PLIDMPJNFEA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DFA2D40)
 
+inline static constexpr unsigned int PLIDMPJNFEA___c_TypeDefinitionIndex = 32735;
+
 	class PLIDMPJNFEA___c : public ::System::Object
 	{
 	public:

@@ -34,6 +34,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int MapRotationSnapshot_TypeDefinitionIndex = 25848;
+
 	class MapRotationSnapshot : public ::System::Object
 	{
 	public:

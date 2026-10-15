@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureControlTimelineEntityEvent_TypeDefinitionIndex = 56647;
+
 	class AdventureControlTimelineEntityEvent : public ::CMPGEAFHHDC
 	{
 	public:

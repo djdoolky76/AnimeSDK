@@ -5,6 +5,8 @@
 
 #define EGFGHEMHLCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA50330)
 
+inline static constexpr unsigned int EGFGHEMHLCO_TypeDefinitionIndex = 43782;
+
 	class EGFGHEMHLCO : public ::System::Object
 	{
 	public:

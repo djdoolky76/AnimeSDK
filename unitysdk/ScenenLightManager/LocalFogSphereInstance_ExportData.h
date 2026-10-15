@@ -11,6 +11,8 @@ namespace UnityEngine { class Texture; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int LocalFogSphereInstance_ExportData_TypeDefinitionIndex = 49107;
+
 	class LocalFogSphereInstance_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System::Globalization { class CultureInfo; }
 
 namespace Mono::Globalization::Unicode
 {
+	inline static constexpr unsigned int MSCompatUnicodeTable_TypeDefinitionIndex = 35;
+
 	class MSCompatUnicodeTable : public ::System::Object
 	{
 	public:

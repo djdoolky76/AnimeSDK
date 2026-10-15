@@ -7,6 +7,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int NativeIntegerAttribute_04BB2FB347473631_TypeDefinitionIndex = 35169;
+
 	class NativeIntegerAttribute_04BB2FB347473631 : public ::System::Attribute
 	{
 	public:

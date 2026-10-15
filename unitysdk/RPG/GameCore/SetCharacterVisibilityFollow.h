@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetCharacterVisibilityFollow_TypeDefinitionIndex = 22652;
+
 	class SetCharacterVisibilityFollow : public ::RPG::GameCore::TaskConfig
 	{
 	public:

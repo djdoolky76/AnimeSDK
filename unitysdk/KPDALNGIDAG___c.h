@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KPDALNGIDAG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8BA6D0)
 #define KPDALNGIDAG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E8BA6E0)
 
+inline static constexpr unsigned int KPDALNGIDAG___c_TypeDefinitionIndex = 32889;
+
 	class KPDALNGIDAG___c : public ::System::Object
 	{
 	public:

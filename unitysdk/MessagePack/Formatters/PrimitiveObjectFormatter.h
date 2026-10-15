@@ -19,6 +19,8 @@ namespace System::Reflection { class TypeInfo; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int PrimitiveObjectFormatter_TypeDefinitionIndex = 7482;
+
 	class PrimitiveObjectFormatter : public ::System::Object
 	{
 	public:

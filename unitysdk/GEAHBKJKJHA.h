@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TriggerTeamEditUI; }
 #define GEAHBKJKJHA_CTOR_OFFSET UNITYSDK_OFFSET(0x159C6360)
 #define GEAHBKJKJHA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159C6390)
 
+inline static constexpr unsigned int GEAHBKJKJHA_TypeDefinitionIndex = 58801;
+
 	class GEAHBKJKJHA
 	{
 	public:

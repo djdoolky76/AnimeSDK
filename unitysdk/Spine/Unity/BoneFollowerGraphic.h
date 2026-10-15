@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int BoneFollowerGraphic_TypeDefinitionIndex = 45015;
+
 	class BoneFollowerGraphic : public ::UnityEngine::MonoBehaviour
 	{
 	public:

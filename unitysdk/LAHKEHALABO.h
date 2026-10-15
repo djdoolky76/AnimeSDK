@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LAHKEHALABO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8CC850)
 #define LAHKEHALABO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8CC8B0)
 
+inline static constexpr unsigned int LAHKEHALABO_TypeDefinitionIndex = 34566;
+
 	class LAHKEHALABO : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCheckCharacterDie_TypeDefinitionIndex = 23439;
+
 	class ByCheckCharacterDie : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

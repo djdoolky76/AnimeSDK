@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ServerStopInfo_TypeDefinitionIndex = 69413;
+
 	class ServerStopInfo : public ::System::Object
 	{
 	public:

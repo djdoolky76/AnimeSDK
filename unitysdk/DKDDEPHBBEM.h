@@ -29,6 +29,8 @@ namespace System { class String; }
 #define DKDDEPHBBEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1D4890)
 #define DKDDEPHBBEM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1D48F0)
 
+inline static constexpr unsigned int DKDDEPHBBEM_TypeDefinitionIndex = 31053;
+
 	class DKDDEPHBBEM : public ::System::Object
 	{
 	public:

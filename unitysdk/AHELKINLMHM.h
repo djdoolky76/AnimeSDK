@@ -10,6 +10,8 @@ namespace RPG::Client { class RogueTournBuildRefTeamRecomResult; }
 #define AHELKINLMHM_NMOILPMMMMA_OFFSET UNITYSDK_OFFSET(0xEB7F340)
 #define AHELKINLMHM_OIHHFAFFEPA_OFFSET UNITYSDK_OFFSET(0xEB7FA70)
 
+inline static constexpr unsigned int AHELKINLMHM_TypeDefinitionIndex = 67543;
+
 	class AHELKINLMHM : public ::System::Object
 	{
 	public:

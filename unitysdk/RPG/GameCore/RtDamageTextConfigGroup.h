@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RtDamageTextConfigGroup; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtDamageTextConfigGroup_TypeDefinitionIndex = 18045;
+
 	class RtDamageTextConfigGroup : public ::RPG::GameCore::JsonConfig
 	{
 	public:

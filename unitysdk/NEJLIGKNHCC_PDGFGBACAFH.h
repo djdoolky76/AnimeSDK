@@ -4,6 +4,8 @@
 
 #define NEJLIGKNHCC_PDGFGBACAFH_CTOR_OFFSET UNITYSDK_OFFSET(0x10DC0)
 
+inline static constexpr unsigned int NEJLIGKNHCC_PDGFGBACAFH_TypeDefinitionIndex = 69295;
+
 	struct alignas(4) NEJLIGKNHCC_PDGFGBACAFH
 	{
 		::System::Int64 PKILDBNDGCN; // 0x10

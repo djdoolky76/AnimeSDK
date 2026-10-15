@@ -13,6 +13,8 @@ namespace RPG::GameCore { class FloatCurve; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimEnergyBlockChargeAction_TypeDefinitionIndex = 18715;
+
 	class FiveDimEnergyBlockChargeAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 #define NOAJMGEOGPG_CTOR_OFFSET UNITYSDK_OFFSET(0xBCDFCD0)
 #define NOAJMGEOGPG_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xBCDFB80)
 
+inline static constexpr unsigned int NOAJMGEOGPG_TypeDefinitionIndex = 79699;
+
 	class NOAJMGEOGPG : public ::System::Object
 	{
 	public:

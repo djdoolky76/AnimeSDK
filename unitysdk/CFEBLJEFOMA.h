@@ -28,6 +28,8 @@ namespace System { class String; }
 #define CFEBLJEFOMA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E09F770)
 #define CFEBLJEFOMA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E09F7D0)
 
+inline static constexpr unsigned int CFEBLJEFOMA_TypeDefinitionIndex = 30251;
+
 	class CFEBLJEFOMA : public ::System::Object
 	{
 	public:

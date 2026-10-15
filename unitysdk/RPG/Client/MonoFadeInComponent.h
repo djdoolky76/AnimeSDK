@@ -17,6 +17,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoFadeInComponent_TypeDefinitionIndex = 72579;
+
 	class MonoFadeInComponent : public ::UnityEngine::MonoBehaviour
 	{
 	public:

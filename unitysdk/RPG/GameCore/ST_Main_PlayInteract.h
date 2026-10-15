@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_PlayInteract_TypeDefinitionIndex = 20144;
+
 	class ST_Main_PlayInteract : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

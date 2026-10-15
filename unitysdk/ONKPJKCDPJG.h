@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/KLNKLOMDIIC.h"
 
+inline static constexpr unsigned int ONKPJKCDPJG_TypeDefinitionIndex = 43484;
+
 	struct alignas(4) ONKPJKCDPJG
 	{
 		::System::Boolean EDCNKGHPHFC; // 0x10

@@ -99,6 +99,8 @@ namespace UnityEngine::UI { class Image; }
 #define FMPCODLIOLG__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x15865D30)
 #define FMPCODLIOLG__ONTICK_OFFSET UNITYSDK_OFFSET(0x15865D70)
 
+inline static constexpr unsigned int FMPCODLIOLG_TypeDefinitionIndex = 73025;
+
 	class FMPCODLIOLG : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int Logger_TypeDefinitionIndex = 40834;
+
 	class Logger : public ::System::Object
 	{
 	public:

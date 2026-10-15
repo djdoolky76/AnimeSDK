@@ -9,6 +9,8 @@ namespace RPG::Client { class RelicItemData; }
 #define GOMOGGFKHFL_CTOR_OFFSET UNITYSDK_OFFSET(0x15B3A260)
 #define GOMOGGFKHFL_KIEAJPNOENF_OFFSET UNITYSDK_OFFSET(0x15B3A340)
 
+inline static constexpr unsigned int GOMOGGFKHFL_TypeDefinitionIndex = 74438;
+
 	class GOMOGGFKHFL : public ::System::Object
 	{
 	public:

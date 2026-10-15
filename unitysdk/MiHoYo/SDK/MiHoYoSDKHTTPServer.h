@@ -27,6 +27,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Certifica
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKHTTPServer_TypeDefinitionIndex = 46303;
+
 	class MiHoYoSDKHTTPServer : public ::System::Object
 	{
 	public:

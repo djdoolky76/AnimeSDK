@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Windows::Speech
 {
+	inline static constexpr unsigned int PhraseRecognizedEventArgs_TypeDefinitionIndex = 4447;
+
 	struct alignas(8) PhraseRecognizedEventArgs
 	{
 		::UnityEngine::Windows::Speech::ConfidenceLevel confidence; // 0x10

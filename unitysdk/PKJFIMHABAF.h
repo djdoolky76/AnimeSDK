@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PKJFIMHABAF_CTOR_OFFSET UNITYSDK_OFFSET(0xC2C16F0)
 #define PKJFIMHABAF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2C1720)
 
+inline static constexpr unsigned int PKJFIMHABAF_TypeDefinitionIndex = 53363;
+
 	class PKJFIMHABAF
 	{
 	public:

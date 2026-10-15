@@ -7,6 +7,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int TransitionParameter_TypeDefinitionIndex = 48624;
+
 	struct alignas(4) TransitionParameter
 	{
 		::System::Single Offset; // 0x10

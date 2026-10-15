@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerAndWaitMonopolyEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerAndWaitMonopolyEvent_TypeDefinitionIndex = 21724;
+
 	class TriggerAndWaitMonopolyEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:

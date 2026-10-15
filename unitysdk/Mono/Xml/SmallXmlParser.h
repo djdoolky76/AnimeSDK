@@ -35,6 +35,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace Mono::Xml
 {
+	inline static constexpr unsigned int SmallXmlParser_TypeDefinitionIndex = 24;
+
 	class SmallXmlParser : public ::System::Object
 	{
 	public:

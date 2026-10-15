@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraTalkContent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraTalkContent_TypeDefinitionIndex = 15851;
+
 	class ChimeraTalkContent : public ::RPG::GameCore::JsonConfig
 	{
 	public:

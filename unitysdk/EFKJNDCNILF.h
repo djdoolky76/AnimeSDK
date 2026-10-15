@@ -9,6 +9,8 @@ namespace System { class String; }
 #define EFKJNDCNILF_MJGKNFEILLI_OFFSET UNITYSDK_OFFSET(0x13A56700)
 #define EFKJNDCNILF_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0x13A56750)
 
+inline static constexpr unsigned int EFKJNDCNILF_TypeDefinitionIndex = 62082;
+
 	class EFKJNDCNILF : public ::System::Object
 	{
 	public:

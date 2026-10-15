@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PAIKIFFPMNH_ODLECNLFPLE_OFFSET UNITYSDK_OFFSET(0xBFCAEC0)
 #define PAIKIFFPMNH_ONFCJOECHHJ_OFFSET UNITYSDK_OFFSET(0xBFCA690)
 
+inline static constexpr unsigned int PAIKIFFPMNH_TypeDefinitionIndex = 78037;
+
 	class PAIKIFFPMNH : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ConvincePanelActive; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConvincePanelActive_TypeDefinitionIndex = 21843;
+
 	class ConvincePanelActive : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -45,6 +45,8 @@ namespace System::Xml::Serialization { class XmlTypeMapping; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlSerializationWriterInterpreter_TypeDefinitionIndex = 2038;
+
 	class XmlSerializationWriterInterpreter : public ::System::Xml::Serialization::XmlSerializationWriter
 	{
 	public:

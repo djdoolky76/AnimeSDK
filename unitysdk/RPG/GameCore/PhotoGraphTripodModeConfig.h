@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PhotoGraphTripodModeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphTripodModeConfig_TypeDefinitionIndex = 21658;
+
 	class PhotoGraphTripodModeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

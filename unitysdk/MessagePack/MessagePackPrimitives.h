@@ -73,6 +73,8 @@ namespace System { class Exception; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MessagePackPrimitives_TypeDefinitionIndex = 7172;
+
 	class MessagePackPrimitives : public ::System::Object
 	{
 	public:

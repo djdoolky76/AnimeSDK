@@ -10,6 +10,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int DynamicResolutionHeuristicProxy_TypeDefinitionIndex = 37717;
+
 	class DynamicResolutionHeuristicProxy : public ::System::Object
 	{
 	public:

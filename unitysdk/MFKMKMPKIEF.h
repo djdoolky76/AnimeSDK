@@ -31,6 +31,8 @@ namespace System { class String; }
 #define MFKMKMPKIEF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA1A6C0)
 #define MFKMKMPKIEF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA1A720)
 
+inline static constexpr unsigned int MFKMKMPKIEF_TypeDefinitionIndex = 26637;
+
 	class MFKMKMPKIEF : public ::System::Object
 	{
 	public:

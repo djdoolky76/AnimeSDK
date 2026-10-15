@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FormationMoveResume; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FormationMoveResume_TypeDefinitionIndex = 21258;
+
 	class FormationMoveResume : public ::RPG::GameCore::TaskConfig
 	{
 	public:

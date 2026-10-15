@@ -37,6 +37,8 @@ namespace UnityEngine { class Object; }
 
 namespace RPG::Client::AssetSystem
 {
+	inline static constexpr unsigned int AssetObjectOptProxy_TypeDefinitionIndex = 41572;
+
 	class AssetObjectOptProxy : public ::System::Object
 	{
 	public:

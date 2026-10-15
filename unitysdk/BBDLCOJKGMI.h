@@ -28,6 +28,8 @@ namespace System { class String; }
 #define BBDLCOJKGMI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7C0600)
 #define BBDLCOJKGMI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7C0660)
 
+inline static constexpr unsigned int BBDLCOJKGMI_TypeDefinitionIndex = 27561;
+
 	class BBDLCOJKGMI : public ::System::Object
 	{
 	public:

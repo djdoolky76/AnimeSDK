@@ -16,6 +16,8 @@ namespace System { class Type; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlArrayItemAttribute_TypeDefinitionIndex = 2000;
+
 	class XmlArrayItemAttribute : public ::System::Attribute
 	{
 	public:

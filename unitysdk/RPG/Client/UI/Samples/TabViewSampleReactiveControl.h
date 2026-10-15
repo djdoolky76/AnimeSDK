@@ -10,6 +10,8 @@ namespace RPG::Client { class TabView; }
 
 namespace RPG::Client::Ui::Samples
 {
+	inline static constexpr unsigned int TabViewSampleReactiveControl_TypeDefinitionIndex = 73464;
+
 	class TabViewSampleReactiveControl
 	{
 	public:

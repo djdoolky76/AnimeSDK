@@ -47,6 +47,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SilverWolfModule_TypeDefinitionIndex = 67964;
+
 	class SilverWolfModule : public ::RPG::Client::BaseModule
 	{
 	public:

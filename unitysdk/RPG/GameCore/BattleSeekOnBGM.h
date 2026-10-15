@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BattleSeekOnBGM; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleSeekOnBGM_TypeDefinitionIndex = 22967;
+
 	class BattleSeekOnBGM : public ::RPG::GameCore::TaskConfig
 	{
 	public:

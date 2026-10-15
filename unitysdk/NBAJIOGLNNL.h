@@ -8,6 +8,8 @@ class NBAJIOGLNNL;
 #define NBAJIOGLNNL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1EC600)
 #define NBAJIOGLNNL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1EC5C0)
 
+inline static constexpr unsigned int NBAJIOGLNNL_TypeDefinitionIndex = 20191;
+
 	class NBAJIOGLNNL : public ::RPG::GameCore::TaskConfig
 	{
 	public:

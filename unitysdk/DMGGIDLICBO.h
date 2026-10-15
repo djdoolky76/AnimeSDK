@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DMGGIDLICBO_PIFKDBBEKFH_OFFSET UNITYSDK_OFFSET(0xFEBFB30)
 #define DMGGIDLICBO_PODPNMOLIEO_OFFSET UNITYSDK_OFFSET(0xFEBEF10)
 
+inline static constexpr unsigned int DMGGIDLICBO_TypeDefinitionIndex = 65763;
+
 	class DMGGIDLICBO : public ::System::Object
 	{
 	public:

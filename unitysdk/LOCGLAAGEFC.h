@@ -9,6 +9,8 @@ namespace System { class String; }
 #define LOCGLAAGEFC_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C91E8A0)
 #define LOCGLAAGEFC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C91E920)
 
+inline static constexpr unsigned int LOCGLAAGEFC_TypeDefinitionIndex = 43404;
+
 	class LOCGLAAGEFC : public ::System::Object
 	{
 	public:

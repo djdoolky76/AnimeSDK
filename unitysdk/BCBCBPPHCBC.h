@@ -7,6 +7,8 @@ namespace System { class String; }
 #define BCBCBPPHCBC_ALEBBJAFIOG_OFFSET UNITYSDK_OFFSET(0x15EA1BD0)
 #define BCBCBPPHCBC_CTOR_OFFSET UNITYSDK_OFFSET(0x15EA20C0)
 
+inline static constexpr unsigned int BCBCBPPHCBC_TypeDefinitionIndex = 64981;
+
 	class BCBCBPPHCBC : public ::System::Object
 	{
 	public:

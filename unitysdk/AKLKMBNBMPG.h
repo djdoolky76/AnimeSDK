@@ -21,6 +21,8 @@ namespace RPG::GameCore { class ModifyAdventureCharacterRunSpeedRatio; }
 #define AKLKMBNBMPG_OOCHJEEPBHL_OFFSET UNITYSDK_OFFSET(0x12CD6940)
 #define AKLKMBNBMPG_OOGCMLCLMJF_OFFSET UNITYSDK_OFFSET(0x12CD6510)
 
+inline static constexpr unsigned int AKLKMBNBMPG_TypeDefinitionIndex = 52262;
+
 	class AKLKMBNBMPG : public ::HJKJHEJGBEK
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define ENDIDPAKMGF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2EA790)
 #define ENDIDPAKMGF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2EA7F0)
 
+inline static constexpr unsigned int ENDIDPAKMGF_TypeDefinitionIndex = 28098;
+
 	class ENDIDPAKMGF : public ::System::Object
 	{
 	public:

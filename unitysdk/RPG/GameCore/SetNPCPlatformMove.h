@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetNPCPlatformMove_TypeDefinitionIndex = 21956;
+
 	class SetNPCPlatformMove : public ::RPG::GameCore::TaskConfig
 	{
 	public:

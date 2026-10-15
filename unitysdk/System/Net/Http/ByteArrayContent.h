@@ -11,6 +11,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Net::Http
 {
+	inline static constexpr unsigned int ByteArrayContent_TypeDefinitionIndex = 3758;
+
 	class ByteArrayContent : public ::System::Net::Http::HttpContent
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LAELJHAMFOF_NINFDDIFNJM_OFFSET UNITYSDK_OFFSET(0xB5DCEC0)
 #define LAELJHAMFOF_SET_VERSION_OFFSET UNITYSDK_OFFSET(0xB5DCCA0)
 
+inline static constexpr unsigned int LAELJHAMFOF_TypeDefinitionIndex = 62751;
+
 	class LAELJHAMFOF : public ::System::Object
 	{
 	public:

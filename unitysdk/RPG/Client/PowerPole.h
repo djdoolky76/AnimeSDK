@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PowerPole_TypeDefinitionIndex = 71123;
+
 	class PowerPole : public ::UnityEngine::MonoBehaviour
 	{
 	public:

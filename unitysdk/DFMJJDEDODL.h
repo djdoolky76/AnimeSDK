@@ -16,6 +16,8 @@ namespace System { class Object; }
 #define DFMJJDEDODL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DD2E520)
 #define DFMJJDEDODL_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0x1DD2E2A0)
 
+inline static constexpr unsigned int DFMJJDEDODL_TypeDefinitionIndex = 6560;
+
 	class DFMJJDEDODL : public ::System::Object
 	{
 	public:

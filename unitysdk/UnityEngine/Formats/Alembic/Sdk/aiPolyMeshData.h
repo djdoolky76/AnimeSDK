@@ -4,6 +4,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aiPolyMeshData_TypeDefinitionIndex = 45812;
+
 	struct alignas(8) aiPolyMeshData
 	{
 		::PVOID positions; // 0x10

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PCCGPNAFMHP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF05E00)
 #define PCCGPNAFMHP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF05E60)
 
+inline static constexpr unsigned int PCCGPNAFMHP_TypeDefinitionIndex = 29521;
+
 	class PCCGPNAFMHP : public ::System::Object
 	{
 	public:

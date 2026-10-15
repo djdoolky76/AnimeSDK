@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define PPHMIMEOMAM_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xC387260)
 #define PPHMIMEOMAM_INVOKE_OFFSET UNITYSDK_OFFSET(0xC387220)
 
+inline static constexpr unsigned int PPHMIMEOMAM_TypeDefinitionIndex = 78944;
+
 	class PPHMIMEOMAM : public ::System::MulticastDelegate
 	{
 	public:

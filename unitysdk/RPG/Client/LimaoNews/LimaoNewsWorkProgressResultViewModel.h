@@ -42,6 +42,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsWorkProgressResultViewModel_TypeDefinitionIndex = 80450;
+
 	class LimaoNewsWorkProgressResultViewModel : public ::RPG::Client::LimaoNews::LimaoNewsWorkProgressBaseViewModel
 	{
 	public:

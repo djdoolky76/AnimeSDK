@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int HideStageItemTrack_TypeDefinitionIndex = 48148;
+
 	class HideStageItemTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

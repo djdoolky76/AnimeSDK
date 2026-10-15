@@ -30,6 +30,8 @@ namespace System { class String; }
 #define FAKIIFNHANG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E327970)
 #define FAKIIFNHANG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3279D0)
 
+inline static constexpr unsigned int FAKIIFNHANG_TypeDefinitionIndex = 33505;
+
 	class FAKIIFNHANG : public ::System::Object
 	{
 	public:

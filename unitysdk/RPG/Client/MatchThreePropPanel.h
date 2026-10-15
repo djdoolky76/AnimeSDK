@@ -30,6 +30,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreePropPanel_TypeDefinitionIndex = 65969;
+
 	class MatchThreePropPanel : public ::UnityEngine::MonoBehaviour
 	{
 	public:

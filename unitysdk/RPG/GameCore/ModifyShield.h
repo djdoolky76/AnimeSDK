@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyShield_TypeDefinitionIndex = 23118;
+
 	class ModifyShield : public ::RPG::GameCore::TaskConfig
 	{
 	public:

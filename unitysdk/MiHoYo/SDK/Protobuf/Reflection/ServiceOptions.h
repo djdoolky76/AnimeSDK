@@ -31,6 +31,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int ServiceOptions_TypeDefinitionIndex = 35801;
+
 	class ServiceOptions : public ::System::Object
 	{
 	public:

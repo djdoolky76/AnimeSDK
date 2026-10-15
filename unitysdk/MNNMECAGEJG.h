@@ -15,6 +15,8 @@ namespace System { class String; }
 #define MNNMECAGEJG_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBA18E30)
 #define MNNMECAGEJG_REVERSE_OFFSET UNITYSDK_OFFSET(0xBA18DD0)
 
+inline static constexpr unsigned int MNNMECAGEJG_TypeDefinitionIndex = 73512;
+
 	class MNNMECAGEJG : public ::DHKBPAGJIHF
 	{
 	public:

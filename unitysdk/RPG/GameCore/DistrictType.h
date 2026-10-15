@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DistrictType_TypeDefinitionIndex = 17185;
+
 	enum class DistrictType : ::System::Int32
 	{
 		Sound = 0,

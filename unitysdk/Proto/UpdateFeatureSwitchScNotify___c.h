@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int UpdateFeatureSwitchScNotify___c_TypeDefinitionIndex = 32097;
+
 	class UpdateFeatureSwitchScNotify___c : public ::System::Object
 	{
 	public:

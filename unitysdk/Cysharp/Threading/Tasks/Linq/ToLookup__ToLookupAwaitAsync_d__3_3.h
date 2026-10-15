@@ -14,6 +14,8 @@ namespace System::Linq { template <typename T1, typename T2> class ILookup_2; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int ToLookup__ToLookupAwaitAsync_d__3_3_TypeDefinitionIndex = 45696;
+
 	template <typename T1, typename T2, typename T3>
 	struct alignas(8) ToLookup__ToLookupAwaitAsync_d__3_3
 	{

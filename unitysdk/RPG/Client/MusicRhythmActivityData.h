@@ -13,6 +13,8 @@ namespace RPG::Client { class ActivityMusicRhythmModule; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MusicRhythmActivityData_TypeDefinitionIndex = 61644;
+
 	class MusicRhythmActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

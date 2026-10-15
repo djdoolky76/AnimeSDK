@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarUI3DDisableIdleShowReason_TypeDefinitionIndex = 62485;
+
 	enum class AvatarUI3DDisableIdleShowReason : ::System::Int32
 	{
 		FullScreenVideo = 0,

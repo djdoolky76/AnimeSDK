@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int DllNotFoundException_TypeDefinitionIndex = 233;
+
 	class DllNotFoundException : public ::System::TypeLoadException
 	{
 	public:

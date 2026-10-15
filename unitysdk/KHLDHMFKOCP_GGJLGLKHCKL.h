@@ -5,6 +5,8 @@ class KHLDHMFKOCP_FHMFJBMKDMN;
 
 #define KHLDHMFKOCP_GGJLGLKHCKL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E4A70)
 
+inline static constexpr unsigned int KHLDHMFKOCP_GGJLGLKHCKL_TypeDefinitionIndex = 43070;
+
 	class KHLDHMFKOCP_GGJLGLKHCKL : public ::System::Object
 	{
 	public:

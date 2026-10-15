@@ -9,6 +9,8 @@ namespace RPG::Client { class MonoEffect; }
 #define CGBECAKCLFD___C__DISPLAYCLASS49_0__FIRESPEEDEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xCC85170)
 #define CGBECAKCLFD___C__DISPLAYCLASS49_0__FIRESPEEDEFFECT_B__1_OFFSET UNITYSDK_OFFSET(0xCC85210)
 
+inline static constexpr unsigned int CGBECAKCLFD___c__DisplayClass49_0_TypeDefinitionIndex = 75920;
+
 	class CGBECAKCLFD___c__DisplayClass49_0 : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace Entitas { class IEntity; }
 #define AFDHLDCIKFH_ONREMOVE_OFFSET UNITYSDK_OFFSET(0xCF06A30)
 #define AFDHLDCIKFH_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xCF069C0)
 
+inline static constexpr unsigned int AFDHLDCIKFH_TypeDefinitionIndex = 79132;
+
 	class AFDHLDCIKFH
 	{
 	public:

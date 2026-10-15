@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetAnimParamByDoorKeyCountAction_TypeDefinitionIndex = 18648;
+
 	class FiveDimSetAnimParamByDoorKeyCountAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

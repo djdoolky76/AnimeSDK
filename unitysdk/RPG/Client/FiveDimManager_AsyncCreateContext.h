@@ -17,6 +17,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FiveDimManager_AsyncCreateContext_TypeDefinitionIndex = 60539;
+
 	class FiveDimManager_AsyncCreateContext : public ::System::Object
 	{
 	public:

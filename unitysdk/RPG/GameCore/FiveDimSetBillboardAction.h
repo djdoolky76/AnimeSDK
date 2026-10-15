@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimSetBillboardInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetBillboardAction_TypeDefinitionIndex = 18777;
+
 	class FiveDimSetBillboardAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

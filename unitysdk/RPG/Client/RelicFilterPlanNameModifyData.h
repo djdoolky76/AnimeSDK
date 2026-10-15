@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RelicFilterPlanNameModifyData_TypeDefinitionIndex = 66891;
+
 	class RelicFilterPlanNameModifyData : public ::System::Object
 	{
 	public:

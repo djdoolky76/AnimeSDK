@@ -13,6 +13,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityDamagePerformFinish_TypeDefinitionIndex = 56591;
+
 	class AbilityDamagePerformFinish : public ::CMPGEAFHHDC
 	{
 	public:

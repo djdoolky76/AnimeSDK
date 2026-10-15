@@ -10,6 +10,8 @@ class JHIGAEIELKO;
 #define NDHJNPFCAOD_CREATE_OFFSET UNITYSDK_OFFSET(0xBB29D40)
 #define NDHJNPFCAOD_CTOR_OFFSET UNITYSDK_OFFSET(0xBB29E50)
 
+inline static constexpr unsigned int NDHJNPFCAOD_TypeDefinitionIndex = 54292;
+
 	class NDHJNPFCAOD : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncE
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Merge_1_TypeDefinitionIndex = 45465;
+
 	template <typename T>
 	class Merge_1 : public ::System::Object
 	{

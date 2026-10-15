@@ -23,6 +23,8 @@ namespace System::Net { class SocketAddress; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int IPEndPoint_TypeDefinitionIndex = 2744;
+
 	class IPEndPoint : public ::System::Net::EndPoint
 	{
 	public:

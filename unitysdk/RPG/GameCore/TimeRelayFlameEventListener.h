@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TimeRelayFlameEventListener; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimeRelayFlameEventListener_TypeDefinitionIndex = 22038;
+
 	class TimeRelayFlameEventListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

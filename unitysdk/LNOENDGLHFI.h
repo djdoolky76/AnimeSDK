@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LNOENDGLHFI_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB7EA2A0)
 #define LNOENDGLHFI_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xB7EA350)
 
+inline static constexpr unsigned int LNOENDGLHFI_TypeDefinitionIndex = 67050;
+
 	class LNOENDGLHFI : public ::System::Object
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NNAECHOBOCB_PNDDGEKOBFL_OFFSET UNITYSDK_OFFSET(0xBC99950)
 #define NNAECHOBOCB_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xBC98860)
 
+inline static constexpr unsigned int NNAECHOBOCB_TypeDefinitionIndex = 77161;
+
 	class NNAECHOBOCB : public ::System::Object
 	{
 	public:

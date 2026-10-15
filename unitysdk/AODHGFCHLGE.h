@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 #define AODHGFCHLGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158A69C0)
 #define AODHGFCHLGE_PEEGABFAFBO_OFFSET UNITYSDK_OFFSET(0x158A7060)
 
+inline static constexpr unsigned int AODHGFCHLGE_TypeDefinitionIndex = 55487;
+
 	class AODHGFCHLGE
 	{
 	public:

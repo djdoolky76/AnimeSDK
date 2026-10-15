@@ -51,6 +51,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_SubMesh_TypeDefinitionIndex = 44641;
+
 	class TMP_SubMesh : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ThirdpartyLoginType_TypeDefinitionIndex = 8110;
+
 	enum class ThirdpartyLoginType : ::System::Int32
 	{
 		TK_INVALID_TOKEN = 0,

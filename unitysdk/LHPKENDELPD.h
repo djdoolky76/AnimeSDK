@@ -8,6 +8,8 @@
 #define LHPKENDELPD_CCTOR_OFFSET UNITYSDK_OFFSET(0xB6C1E20)
 #define LHPKENDELPD_PELJACANAFH_OFFSET UNITYSDK_OFFSET(0xB6C1CE0)
 
+inline static constexpr unsigned int LHPKENDELPD_TypeDefinitionIndex = 74924;
+
 	class LHPKENDELPD : public ::System::Object
 	{
 	public:

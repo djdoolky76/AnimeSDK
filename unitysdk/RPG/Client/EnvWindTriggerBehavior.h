@@ -34,6 +34,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EnvWindTriggerBehavior_TypeDefinitionIndex = 71068;
+
 	class EnvWindTriggerBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

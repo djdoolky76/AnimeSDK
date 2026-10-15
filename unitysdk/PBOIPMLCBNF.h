@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define PBOIPMLCBNF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBFF6BA0)
 #define PBOIPMLCBNF_TICK_OFFSET UNITYSDK_OFFSET(0xBFF6BF0)
 
+inline static constexpr unsigned int PBOIPMLCBNF_TypeDefinitionIndex = 57955;
+
 	class PBOIPMLCBNF : public ::GELIALJDFBL
 	{
 	public:

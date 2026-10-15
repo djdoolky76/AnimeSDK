@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class NPCScaleClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int NPCScaleBehaviour_TypeDefinitionIndex = 48208;
+
 	class NPCScaleBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

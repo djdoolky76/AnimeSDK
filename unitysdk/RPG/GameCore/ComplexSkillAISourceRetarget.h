@@ -14,6 +14,8 @@ namespace RPG::GameCore { class ComplexSkillAISourceRetarget; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAISourceRetarget_TypeDefinitionIndex = 15539;
+
 	class ComplexSkillAISourceRetarget : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:

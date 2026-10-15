@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EOPEINOKFCI_SET_CUSTOMUNLOCKCONDITIONCONFIGLIST_OFFSET UNITYSDK_OFFSET(0x155CD4D0)
 #define EOPEINOKFCI_SET_PACKMISSIONID_OFFSET UNITYSDK_OFFSET(0x155CD4B0)
 
+inline static constexpr unsigned int EOPEINOKFCI_TypeDefinitionIndex = 66087;
+
 	class EOPEINOKFCI : public ::System::Object
 	{
 	public:

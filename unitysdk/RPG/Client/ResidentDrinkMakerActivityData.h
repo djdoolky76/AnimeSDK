@@ -11,6 +11,8 @@ namespace RPG::Client { class DrinkMakerModule; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ResidentDrinkMakerActivityData_TypeDefinitionIndex = 63640;
+
 	class ResidentDrinkMakerActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

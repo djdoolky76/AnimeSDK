@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FreeStyleTransitionInfoConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FreeStyleTransitionInfoConfig_TypeDefinitionIndex = 16307;
+
 	class FreeStyleTransitionInfoConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

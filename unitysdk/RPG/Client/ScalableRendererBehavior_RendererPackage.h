@@ -9,6 +9,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ScalableRendererBehavior_RendererPackage_TypeDefinitionIndex = 70310;
+
 	class ScalableRendererBehavior_RendererPackage : public ::System::Object
 	{
 	public:

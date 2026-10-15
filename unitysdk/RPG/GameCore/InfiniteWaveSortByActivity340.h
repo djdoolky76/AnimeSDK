@@ -10,6 +10,8 @@ namespace RPG::GameCore { class InfiniteWaveSortByActivity340; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InfiniteWaveSortByActivity340_TypeDefinitionIndex = 23260;
+
 	class InfiniteWaveSortByActivity340 : public ::RPG::GameCore::TaskConfig
 	{
 	public:

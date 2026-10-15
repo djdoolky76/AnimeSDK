@@ -16,6 +16,8 @@ namespace UnityEngine::Profiling { class Sampler; }
 
 namespace UnityEngine::Profiling
 {
+	inline static constexpr unsigned int Sampler_TypeDefinitionIndex = 4518;
+
 	class Sampler : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConsumeActionCountDown_TypeDefinitionIndex = 23691;
+
 	class ConsumeActionCountDown : public ::RPG::GameCore::TaskConfig
 	{
 	public:

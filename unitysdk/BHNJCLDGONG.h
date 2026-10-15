@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define BHNJCLDGONG_POADJINDKPH_OFFSET UNITYSDK_OFFSET(0xB490DB0)
 #define BHNJCLDGONG_TICK_OFFSET UNITYSDK_OFFSET(0xB48FFD0)
 
+inline static constexpr unsigned int BHNJCLDGONG_TypeDefinitionIndex = 58657;
+
 	class BHNJCLDGONG : public ::GELIALJDFBL
 	{
 	public:

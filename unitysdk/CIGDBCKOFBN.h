@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CIGDBCKOFBN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0D2250)
 #define CIGDBCKOFBN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0D22B0)
 
+inline static constexpr unsigned int CIGDBCKOFBN_TypeDefinitionIndex = 33191;
+
 	class CIGDBCKOFBN : public ::System::Object
 	{
 	public:

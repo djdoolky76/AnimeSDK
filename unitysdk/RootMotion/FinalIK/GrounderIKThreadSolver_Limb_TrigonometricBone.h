@@ -10,6 +10,8 @@
 
 namespace RootMotion::FinalIK
 {
+	inline static constexpr unsigned int GrounderIKThreadSolver_Limb_TrigonometricBone_TypeDefinitionIndex = 45998;
+
 	struct alignas(4) GrounderIKThreadSolver_Limb_TrigonometricBone
 	{
 		::RootMotion::IKJob::IKTransformRef transform; // 0x10

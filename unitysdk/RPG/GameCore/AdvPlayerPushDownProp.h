@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvPlayerPushDownProp_TypeDefinitionIndex = 22237;
+
 	class AdvPlayerPushDownProp : public ::RPG::GameCore::TaskConfig
 	{
 	public:

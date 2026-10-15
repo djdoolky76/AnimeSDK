@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BHDAALLBPIG_CTOR_OFFSET UNITYSDK_OFFSET(0xB4742F0)
 #define BHDAALLBPIG_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB474300)
 
+inline static constexpr unsigned int BHDAALLBPIG_TypeDefinitionIndex = 62316;
+
 	class BHDAALLBPIG : public ::System::Object
 	{
 	public:

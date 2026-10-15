@@ -43,6 +43,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int MiHoYoSDKUIContainer_TypeDefinitionIndex = 46880;
+
 	class MiHoYoSDKUIContainer : public ::System::Object
 	{
 	public:

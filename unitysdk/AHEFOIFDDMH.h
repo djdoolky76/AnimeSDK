@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TrainPartyActionConfigBase; }
 #define AHEFOIFDDMH_KOMEPKKPNKM_OFFSET UNITYSDK_OFFSET(0xEB7DC40)
 #define AHEFOIFDDMH_MHOHBOBIHPJ_OFFSET UNITYSDK_OFFSET(0xEB7D9B0)
 
+inline static constexpr unsigned int AHEFOIFDDMH_TypeDefinitionIndex = 74281;
+
 	class AHEFOIFDDMH : public ::System::Object
 	{
 	public:

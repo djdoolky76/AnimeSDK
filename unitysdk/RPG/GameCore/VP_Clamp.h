@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VP_Clamp_TypeDefinitionIndex = 24055;
+
 	class VP_Clamp : public ::RPG::GameCore::ValuePostProcessConfig
 	{
 	public:

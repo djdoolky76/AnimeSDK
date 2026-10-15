@@ -24,6 +24,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define JIAFOPELMJJ___C___MAKELOCALVERIFY_B__67_3_OFFSET UNITYSDK_OFFSET(0xB1E4720)
 #define JIAFOPELMJJ___C___MAKELOCALVERIFY_B__67_4_OFFSET UNITYSDK_OFFSET(0xB1E4810)
 
+inline static constexpr unsigned int JIAFOPELMJJ___c_TypeDefinitionIndex = 59498;
+
 	class JIAFOPELMJJ___c : public ::System::Object
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System { class Action; }
 #define IJLOPPLGLKN__SENDPIXAIRREENTERSTAGECSREQ_B__7_0_OFFSET UNITYSDK_OFFSET(0x1646EDA0)
 #define IJLOPPLGLKN__SENDPIXAIRSTARTSTAGECSREQ_B__6_0_OFFSET UNITYSDK_OFFSET(0x1646ED60)
 
+inline static constexpr unsigned int IJLOPPLGLKN_TypeDefinitionIndex = 79222;
+
 	class IJLOPPLGLKN : public ::BHPMNMMGLHI
 	{
 	public:

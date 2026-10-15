@@ -12,6 +12,8 @@ namespace UnityEngine { class RenderTexture; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhotoGraphUtils___c__DisplayClass132_0_TypeDefinitionIndex = 69468;
+
 	class PhotoGraphUtils___c__DisplayClass132_0 : public ::System::Object
 	{
 	public:

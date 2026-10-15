@@ -9,6 +9,8 @@
 
 namespace RPG::Client::LittleGame::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceCatBubbleMonoView_TypeDefinitionIndex = 78137;
+
 	class CakeRaceCatBubbleMonoView : public ::RPG::Client::LittleGame::CakeRace::CakeRaceImageBubbleMonoView
 	{
 	public:

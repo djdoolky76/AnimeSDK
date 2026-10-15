@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define ONCOEBGNBEJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7D9F80)
 #define ONCOEBGNBEJ___C__BUILDROBOTDECISIONS_B__2_0_OFFSET UNITYSDK_OFFSET(0x1C7D9F90)
 
+inline static constexpr unsigned int ONCOEBGNBEJ___c_TypeDefinitionIndex = 37355;
+
 	class ONCOEBGNBEJ___c : public ::System::Object
 	{
 	public:

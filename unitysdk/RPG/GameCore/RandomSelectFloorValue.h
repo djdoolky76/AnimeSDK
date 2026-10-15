@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RandomSelectFloorValue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RandomSelectFloorValue_TypeDefinitionIndex = 21212;
+
 	class RandomSelectFloorValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

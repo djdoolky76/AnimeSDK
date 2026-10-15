@@ -33,6 +33,8 @@ namespace System { class String; }
 #define JACFBOEDEEB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6EBC00)
 #define JACFBOEDEEB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6EBC60)
 
+inline static constexpr unsigned int JACFBOEDEEB_TypeDefinitionIndex = 26160;
+
 	class JACFBOEDEEB : public ::System::Object
 	{
 	public:

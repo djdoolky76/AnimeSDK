@@ -10,6 +10,8 @@ namespace System { template <typename T> class IObserver_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int ToObservable_1__RunAsync_d__3_TypeDefinitionIndex = 45701;
+
 	template <typename T1, typename T2, typename T3>
 	struct alignas(8) ToObservable_1__RunAsync_d__3
 	{

@@ -10,6 +10,8 @@ namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGCinemachineShortestPathRotationBlend_TypeDefinitionIndex = 69705;
+
 	class RPGCinemachineShortestPathRotationBlend : public ::Cinemachine::CinemachineExtension
 	{
 	public:

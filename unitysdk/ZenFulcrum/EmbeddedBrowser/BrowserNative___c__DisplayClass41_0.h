@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative___c__DisplayClass41_0_TypeDefinitionIndex = 39463;
+
 	class BrowserNative___c__DisplayClass41_0 : public ::System::Object
 	{
 	public:

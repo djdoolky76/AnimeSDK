@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define JHJOPGMOGGI_IIOIMDJJEDG_OFFSET UNITYSDK_OFFSET(0xB1B9180)
 #define JHJOPGMOGGI_JEBDAFCDCIO_OFFSET UNITYSDK_OFFSET(0xB1B9060)
 
+inline static constexpr unsigned int JHJOPGMOGGI_TypeDefinitionIndex = 75457;
+
 	class JHJOPGMOGGI : public ::System::Object
 	{
 	public:

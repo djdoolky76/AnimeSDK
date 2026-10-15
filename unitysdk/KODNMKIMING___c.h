@@ -18,6 +18,8 @@ namespace System { class Object; }
 #define KODNMKIMING___C___CCTOR_B__4_7_OFFSET UNITYSDK_OFFSET(0x1C71D650)
 #define KODNMKIMING___C___CCTOR_B__4_8_OFFSET UNITYSDK_OFFSET(0x1C71D750)
 
+inline static constexpr unsigned int KODNMKIMING___c_TypeDefinitionIndex = 37409;
+
 	class KODNMKIMING___c : public ::System::Object
 	{
 	public:

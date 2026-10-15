@@ -9,6 +9,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FlipbookControllMonoPlugin_TypeDefinitionIndex = 70604;
+
 	class FlipbookControllMonoPlugin
 	{
 	public:

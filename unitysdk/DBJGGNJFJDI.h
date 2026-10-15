@@ -10,6 +10,8 @@ namespace UnityEngine { class GUILayoutOption; }
 #define DBJGGNJFJDI_HAFBDMJEGAG_OFFSET UNITYSDK_OFFSET(0xE228000)
 #define DBJGGNJFJDI_HPCPFBKDDAL_OFFSET UNITYSDK_OFFSET(0xE227F60)
 
+inline static constexpr unsigned int DBJGGNJFJDI_TypeDefinitionIndex = 49556;
+
 	class DBJGGNJFJDI : public ::System::Object
 	{
 	public:

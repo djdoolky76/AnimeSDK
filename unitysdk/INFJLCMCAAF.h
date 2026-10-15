@@ -25,6 +25,8 @@ namespace System { class Object; }
 #define INFJLCMCAAF_OGDCCBONKEG_OFFSET UNITYSDK_OFFSET(0x164EDD70)
 #define INFJLCMCAAF_OLDCMEBDLAC_OFFSET UNITYSDK_OFFSET(0x164ECE20)
 
+inline static constexpr unsigned int INFJLCMCAAF_TypeDefinitionIndex = 67072;
+
 	class INFJLCMCAAF : public ::System::Object
 	{
 	public:

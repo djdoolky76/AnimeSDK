@@ -4,6 +4,8 @@
 
 #define ADLOALPIONK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCAD190)
 
+inline static constexpr unsigned int ADLOALPIONK_TypeDefinitionIndex = 25036;
+
 	class ADLOALPIONK : public ::System::Attribute
 	{
 	public:

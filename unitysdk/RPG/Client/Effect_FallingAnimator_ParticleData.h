@@ -9,6 +9,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_FallingAnimator_ParticleData_TypeDefinitionIndex = 70468;
+
 	class Effect_FallingAnimator_ParticleData : public ::System::Object
 	{
 	public:

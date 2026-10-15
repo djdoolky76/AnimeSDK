@@ -10,6 +10,8 @@ namespace System::Linq::Expressions::Interpreter { class Instruction; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int OffsetInstruction_TypeDefinitionIndex = 3321;
+
 	class OffsetInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:

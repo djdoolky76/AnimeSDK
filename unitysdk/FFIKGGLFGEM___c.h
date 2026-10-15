@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define FFIKGGLFGEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x157445F0)
 #define FFIKGGLFGEM___C___SYNCCHIMERAPOSITION_B__4_0_OFFSET UNITYSDK_OFFSET(0x15744600)
 
+inline static constexpr unsigned int FFIKGGLFGEM___c_TypeDefinitionIndex = 77614;
+
 	class FFIKGGLFGEM___c : public ::System::Object
 	{
 	public:

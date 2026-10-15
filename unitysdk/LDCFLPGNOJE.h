@@ -30,6 +30,8 @@ namespace System { class String; }
 #define LDCFLPGNOJE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8F3770)
 #define LDCFLPGNOJE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8F37D0)
 
+inline static constexpr unsigned int LDCFLPGNOJE_TypeDefinitionIndex = 28897;
+
 	class LDCFLPGNOJE : public ::System::Object
 	{
 	public:

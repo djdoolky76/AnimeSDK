@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SwitchHandCatchableStateSync; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchHandCatchableStateSync_TypeDefinitionIndex = 20960;
+
 	class SwitchHandCatchableStateSync : public ::RPG::GameCore::TaskConfig
 	{
 	public:

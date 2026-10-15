@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ShareConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShareConfigRow_TypeDefinitionIndex = 14491;
+
 	class ShareConfigRow : public ::System::Object
 	{
 	public:

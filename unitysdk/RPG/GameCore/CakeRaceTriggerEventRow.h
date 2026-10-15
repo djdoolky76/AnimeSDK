@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceTriggerEventRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceTriggerEventRow_TypeDefinitionIndex = 11017;
+
 	class CakeRaceTriggerEventRow : public ::System::Object
 	{
 	public:

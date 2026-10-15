@@ -19,6 +19,8 @@ namespace UnityEngine::ProBuilder { class UnwrapParameters; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int UnwrapParameters_TypeDefinitionIndex = 44445;
+
 	class UnwrapParameters : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define PIOGONCBKIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC275280)
 #define PIOGONCBKIF___C__SETUPVIEW_B__5_1_OFFSET UNITYSDK_OFFSET(0xC275290)
 
+inline static constexpr unsigned int PIOGONCBKIF___c_TypeDefinitionIndex = 71331;
+
 	class PIOGONCBKIF___c : public ::System::Object
 	{
 	public:

@@ -65,6 +65,8 @@ namespace UnityEngine { class GameObject; }
 #define DFOAEBGJJJG_OOBPLPHEMJK_OFFSET UNITYSDK_OFFSET(0xE839260)
 #define DFOAEBGJJJG_PLBABGEOOCH_OFFSET UNITYSDK_OFFSET(0xE838910)
 
+inline static constexpr unsigned int DFOAEBGJJJG_TypeDefinitionIndex = 76715;
+
 	class DFOAEBGJJJG : public ::System::Object
 	{
 	public:

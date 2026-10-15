@@ -18,6 +18,8 @@ namespace System { class String; }
 #define AIPEINOFAPO_MDKHKFAKBLF_OFFSET UNITYSDK_OFFSET(0x1DD0B420)
 #define AIPEINOFAPO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C42FE0)
 
+inline static constexpr unsigned int AIPEINOFAPO_TypeDefinitionIndex = 6300;
+
 	struct alignas(4) AIPEINOFAPO
 	{
 		::RPG::MVector3 BHCMCMADHBF; // 0x10

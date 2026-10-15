@@ -12,6 +12,8 @@ namespace System { class Version; }
 
 namespace System
 {
+	inline static constexpr unsigned int Version_VersionResult_TypeDefinitionIndex = 366;
+
 	struct alignas(8) Version_VersionResult
 	{
 		::System::Version* m_parsedVersion; // 0x10

@@ -32,6 +32,8 @@ namespace System { class String; }
 #define IKECLANKKII_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E69FC30)
 #define IKECLANKKII_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E69FC90)
 
+inline static constexpr unsigned int IKECLANKKII_TypeDefinitionIndex = 34615;
+
 	class IKECLANKKII : public ::System::Object
 	{
 	public:

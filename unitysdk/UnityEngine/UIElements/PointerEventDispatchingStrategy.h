@@ -10,6 +10,8 @@ namespace UnityEngine::UIElements { class IPanel; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int PointerEventDispatchingStrategy_TypeDefinitionIndex = 5975;
+
 	class PointerEventDispatchingStrategy : public ::System::Object
 	{
 	public:

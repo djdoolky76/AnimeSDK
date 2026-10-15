@@ -46,6 +46,8 @@ namespace RPG::Client::Promises { class IPromise; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ExpeditionBattleModule_TypeDefinitionIndex = 63860;
+
 	class ExpeditionBattleModule : public ::RPG::Client::BaseModule
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define PAADPKGPFMJ__GETALLSUBINSTANCES_D__1_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBFC43D0)
 #define PAADPKGPFMJ__GETALLSUBINSTANCES_D__1___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xBFC43E0)
 
+inline static constexpr unsigned int PAADPKGPFMJ__GetAllSubInstances_d__1_TypeDefinitionIndex = 57290;
+
 	template <typename T>
 	class PAADPKGPFMJ__GetAllSubInstances_d__1 : public ::System::Object
 	{

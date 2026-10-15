@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GroupFilterExpression; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GroupFilterExpression_TypeDefinitionIndex = 17395;
+
 	class GroupFilterExpression : public ::RPG::GameCore::JsonConfig
 	{
 	public:

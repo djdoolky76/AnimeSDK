@@ -63,6 +63,8 @@ namespace System { class String; }
 #define DJEKEGMEHLK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1C7D00)
 #define DJEKEGMEHLK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1C7D60)
 
+inline static constexpr unsigned int DJEKEGMEHLK_TypeDefinitionIndex = 27321;
+
 	class DJEKEGMEHLK : public ::System::Object
 	{
 	public:

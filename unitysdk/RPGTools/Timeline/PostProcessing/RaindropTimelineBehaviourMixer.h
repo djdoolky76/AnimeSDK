@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int RaindropTimelineBehaviourMixer_TypeDefinitionIndex = 48605;
+
 	class RaindropTimelineBehaviourMixer
 	{
 	public:

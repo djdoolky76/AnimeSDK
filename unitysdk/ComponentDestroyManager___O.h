@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine::LowLevel { class PlayerLoopSystem_UpdateFunction; }
 
+inline static constexpr unsigned int ComponentDestroyManager___O_TypeDefinitionIndex = 47242;
+
 	class ComponentDestroyManager___O : public ::System::Object
 	{
 	public:

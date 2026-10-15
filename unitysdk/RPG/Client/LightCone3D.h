@@ -31,6 +31,8 @@ namespace UnityEngine { class Sprite; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LightCone3D_TypeDefinitionIndex = 72968;
+
 	class LightCone3D : public ::UnityEngine::MonoBehaviour
 	{
 	public:

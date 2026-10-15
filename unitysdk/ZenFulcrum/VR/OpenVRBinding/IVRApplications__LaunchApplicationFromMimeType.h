@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRApplications__LaunchApplicationFromMimeType_TypeDefinitionIndex = 38961;
+
 	class IVRApplications__LaunchApplicationFromMimeType : public ::System::MulticastDelegate
 	{
 	public:

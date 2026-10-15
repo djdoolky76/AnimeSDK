@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace Mono::Security::Protocol::Ntlm
 {
+	inline static constexpr unsigned int ChallengeResponse2_TypeDefinitionIndex = 2273;
+
 	class ChallengeResponse2 : public ::System::Object
 	{
 	public:

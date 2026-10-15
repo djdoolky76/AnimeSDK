@@ -8,6 +8,8 @@ class ILGDPAKJKGE;
 #define ILGDPAKJKGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF20080)
 #define ILGDPAKJKGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF1FF80)
 
+inline static constexpr unsigned int ILGDPAKJKGE_TypeDefinitionIndex = 12605;
+
 	class ILGDPAKJKGE : public ::System::Object
 	{
 	public:

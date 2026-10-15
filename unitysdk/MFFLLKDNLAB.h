@@ -17,6 +17,8 @@ namespace System::IO { class Stream; }
 #define MFFLLKDNLAB_ONDFBCCLHCD_OFFSET UNITYSDK_OFFSET(0x1EC36FB0)
 #define MFFLLKDNLAB_PDKLDMNAJBO_OFFSET UNITYSDK_OFFSET(0x1EC36DB0)
 
+inline static constexpr unsigned int MFFLLKDNLAB_TypeDefinitionIndex = 35239;
+
 	class MFFLLKDNLAB : public ::System::Object
 	{
 	public:

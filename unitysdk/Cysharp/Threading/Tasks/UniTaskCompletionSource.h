@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTaskCompletionSource_TypeDefinitionIndex = 38399;
+
 	class UniTaskCompletionSource : public ::System::Object
 	{
 	public:

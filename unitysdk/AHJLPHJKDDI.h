@@ -5,6 +5,8 @@
 #define AHJLPHJKDDI_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xEB84540)
 #define AHJLPHJKDDI_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xEB84550)
 
+inline static constexpr unsigned int AHJLPHJKDDI_TypeDefinitionIndex = 74017;
+
 	class AHJLPHJKDDI
 	{
 	public:

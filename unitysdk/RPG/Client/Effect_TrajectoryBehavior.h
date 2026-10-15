@@ -30,6 +30,8 @@ namespace RPG::Client { class Effect_TrajectoryMonoPlugin; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_TrajectoryBehavior_TypeDefinitionIndex = 70562;
+
 	class Effect_TrajectoryBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

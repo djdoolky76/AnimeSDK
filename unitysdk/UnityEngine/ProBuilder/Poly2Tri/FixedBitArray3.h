@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
+	inline static constexpr unsigned int FixedBitArray3_TypeDefinitionIndex = 38759;
+
 	struct alignas(4) FixedBitArray3
 	{
 		::System::Boolean _0; // 0x10

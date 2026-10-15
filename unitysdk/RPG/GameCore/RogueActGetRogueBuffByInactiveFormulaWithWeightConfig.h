@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActGetRogueBuffByInactiveFormulaWithWeightC
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActGetRogueBuffByInactiveFormulaWithWeightConfig_TypeDefinitionIndex = 19674;
+
 	class RogueActGetRogueBuffByInactiveFormulaWithWeightConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

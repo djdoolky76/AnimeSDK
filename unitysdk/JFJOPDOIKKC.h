@@ -11,6 +11,8 @@ namespace System { class String; }
 #define JFJOPDOIKKC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D027380)
 #define JFJOPDOIKKC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D027340)
 
+inline static constexpr unsigned int JFJOPDOIKKC_TypeDefinitionIndex = 24222;
+
 	class JFJOPDOIKKC : public ::RPG::GameCore::TaskConfig
 	{
 	public:

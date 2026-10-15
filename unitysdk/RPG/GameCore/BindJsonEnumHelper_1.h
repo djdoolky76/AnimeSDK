@@ -6,6 +6,8 @@ namespace System { class Nullable; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BindJsonEnumHelper_1_TypeDefinitionIndex = 24850;
+
 	template <typename T>
 	class BindJsonEnumHelper_1 : public ::System::Object
 	{

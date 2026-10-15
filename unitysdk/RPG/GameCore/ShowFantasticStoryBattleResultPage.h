@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowFantasticStoryBattleResultPage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowFantasticStoryBattleResultPage_TypeDefinitionIndex = 23464;
+
 	class ShowFantasticStoryBattleResultPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

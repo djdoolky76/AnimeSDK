@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MarbleMatchDetailRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleMatchDetailRow_TypeDefinitionIndex = 11869;
+
 	class MarbleMatchDetailRow : public ::System::Object
 	{
 	public:

@@ -36,6 +36,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDK_TypeDefinitionIndex = 46268;
+
 	class MiHoYoSDK : public ::MiHoYo::SDK::MiHoYoBaseSDK
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GraphicDeviceInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ForceVulkanDevices_TypeDefinitionIndex = 18273;
+
 	class ForceVulkanDevices : public ::RPG::GameCore::JsonConfig
 	{
 	public:

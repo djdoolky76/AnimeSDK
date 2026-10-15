@@ -30,6 +30,8 @@ namespace UnityEngine { class TextAsset; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonDataAsset_TypeDefinitionIndex = 45002;
+
 	class SkeletonDataAsset : public ::UnityEngine::ScriptableObject
 	{
 	public:

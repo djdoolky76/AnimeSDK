@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OKLEONFEGAC_NMFHKKFCKBD_OFFSET UNITYSDK_OFFSET(0xBEEB2F0)
 #define OKLEONFEGAC_PNJODACLLPH_OFFSET UNITYSDK_OFFSET(0xBEED8D0)
 
+inline static constexpr unsigned int OKLEONFEGAC_TypeDefinitionIndex = 55973;
+
 	class OKLEONFEGAC : public ::System::Object
 	{
 	public:

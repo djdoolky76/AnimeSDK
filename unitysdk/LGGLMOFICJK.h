@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LGGLMOFICJK_SET_STATVALUES_OFFSET UNITYSDK_OFFSET(0xB6969D0)
 #define LGGLMOFICJK_SET_TARGETSTATTIERS_OFFSET UNITYSDK_OFFSET(0xB6969F0)
 
+inline static constexpr unsigned int LGGLMOFICJK_TypeDefinitionIndex = 81695;
+
 	class LGGLMOFICJK : public ::System::Object
 	{
 	public:

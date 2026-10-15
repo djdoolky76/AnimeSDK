@@ -18,6 +18,8 @@ namespace UnityEngine { class GameObject; }
 #define JAJFHCDLHLG_ONSETSCENELIGHTLOD_OFFSET UNITYSDK_OFFSET(0x16553E50)
 #define JAJFHCDLHLG_UNSERIALIZEASYNC_OFFSET UNITYSDK_OFFSET(0x16553800)
 
+inline static constexpr unsigned int JAJFHCDLHLG_TypeDefinitionIndex = 49050;
+
 	class JAJFHCDLHLG : public ::IDBHLOCKPJL
 	{
 	public:

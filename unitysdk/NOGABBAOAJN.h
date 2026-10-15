@@ -8,6 +8,8 @@ namespace System { class Action; }
 #define NOGABBAOAJN_HELEGONAMAL_OFFSET UNITYSDK_OFFSET(0xBCEB980)
 #define NOGABBAOAJN_PFENFNFDDOM_OFFSET UNITYSDK_OFFSET(0xBCEB910)
 
+inline static constexpr unsigned int NOGABBAOAJN_TypeDefinitionIndex = 71115;
+
 	class NOGABBAOAJN : public ::System::Object
 	{
 	public:

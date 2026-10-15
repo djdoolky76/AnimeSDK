@@ -6,6 +6,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UI3DCameraState_TypeDefinitionIndex = 57540;
+
 	class UI3DCameraState : public ::RPG::GameCore::UI3DCameraStateBase
 	{
 	public:

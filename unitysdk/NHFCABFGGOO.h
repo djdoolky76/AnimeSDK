@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 namespace RPG::GameCore { class GameEntity; }
 
+inline static constexpr unsigned int NHFCABFGGOO_TypeDefinitionIndex = 57061;
+
 	struct alignas(8) NHFCABFGGOO
 	{
 		::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x10

@@ -30,6 +30,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ParkourRank_TypeDefinitionIndex = 61859;
+
 	class ParkourRank : public ::System::Object
 	{
 	public:

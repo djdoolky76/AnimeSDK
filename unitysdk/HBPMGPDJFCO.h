@@ -5,6 +5,8 @@
 
 #define HBPMGPDJFCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB5DA0)
 
+inline static constexpr unsigned int HBPMGPDJFCO_TypeDefinitionIndex = 43732;
+
 	class HBPMGPDJFCO : public ::System::Object
 	{
 	public:

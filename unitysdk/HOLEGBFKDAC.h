@@ -9,6 +9,8 @@ namespace Entitas { class IEntity; }
 #define HOLEGBFKDAC_ONREMOVE_OFFSET UNITYSDK_OFFSET(0x15DB9DA0)
 #define HOLEGBFKDAC_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x15DB9D40)
 
+inline static constexpr unsigned int HOLEGBFKDAC_TypeDefinitionIndex = 76480;
+
 	class HOLEGBFKDAC
 	{
 	public:

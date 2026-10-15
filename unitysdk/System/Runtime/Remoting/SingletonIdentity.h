@@ -16,6 +16,8 @@ namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
 namespace System::Runtime::Remoting
 {
+	inline static constexpr unsigned int SingletonIdentity_TypeDefinitionIndex = 1222;
+
 	class SingletonIdentity : public ::System::Runtime::Remoting::ServerIdentity
 	{
 	public:

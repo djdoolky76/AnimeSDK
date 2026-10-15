@@ -5,6 +5,8 @@
 #define ODFMHLICBNC_CTOR_OFFSET UNITYSDK_OFFSET(0xBD92480)
 #define ODFMHLICBNC_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xBD923B0)
 
+inline static constexpr unsigned int ODFMHLICBNC_TypeDefinitionIndex = 62447;
+
 	class ODFMHLICBNC : public ::System::Object
 	{
 	public:

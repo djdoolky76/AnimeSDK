@@ -47,6 +47,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int InsertionPuzzleItem_TypeDefinitionIndex = 78634;
+
 	class InsertionPuzzleItem : public ::RPG::Client::Prop::HexPuzzleItemBase
 	{
 	public:

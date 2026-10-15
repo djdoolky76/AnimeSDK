@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define HNMCHBMDNKF_CTOR_OFFSET UNITYSDK_OFFSET(0x15DA10E0)
 
+inline static constexpr unsigned int HNMCHBMDNKF_TypeDefinitionIndex = 48970;
+
 	class HNMCHBMDNKF : public ::System::Object
 	{
 	public:

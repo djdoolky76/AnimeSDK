@@ -4,6 +4,8 @@
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int SpeedEffectPartOffset_TypeDefinitionIndex = 75882;
+
 	struct alignas(4) SpeedEffectPartOffset
 	{
 		::System::UInt32 PartID; // 0x10

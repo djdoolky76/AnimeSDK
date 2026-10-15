@@ -11,6 +11,8 @@ class DNIDONCOAEE;
 #define AFNPIPBLFJM_SET_POINTS_OFFSET UNITYSDK_OFFSET(0xCF1AA80)
 #define AFNPIPBLFJM_SET_RANK_OFFSET UNITYSDK_OFFSET(0xCF1AAA0)
 
+inline static constexpr unsigned int AFNPIPBLFJM_TypeDefinitionIndex = 81723;
+
 	class AFNPIPBLFJM : public ::System::Object
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Windows::OS::Channel
 {
+	inline static constexpr unsigned int ProtocolManager_TypeDefinitionIndex = 8371;
+
 	class ProtocolManager : public ::System::Object
 	{
 	public:

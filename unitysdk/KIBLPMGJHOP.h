@@ -15,6 +15,8 @@ namespace RPG::GameCore { class PingPongProjectileGroup; }
 #define KIBLPMGJHOP_KAFHLHLOPHA_OFFSET UNITYSDK_OFFSET(0xB419800)
 #define KIBLPMGJHOP_MBNAAEGPPPF_OFFSET UNITYSDK_OFFSET(0xB419790)
 
+inline static constexpr unsigned int KIBLPMGJHOP_TypeDefinitionIndex = 76669;
+
 	class KIBLPMGJHOP : public ::System::Object
 	{
 	public:

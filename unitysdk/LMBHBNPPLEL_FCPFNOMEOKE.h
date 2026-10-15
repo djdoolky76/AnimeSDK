@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define LMBHBNPPLEL_FCPFNOMEOKE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB77A6D0)
 #define LMBHBNPPLEL_FCPFNOMEOKE_INVOKE_OFFSET UNITYSDK_OFFSET(0xB77A3D0)
 
+inline static constexpr unsigned int LMBHBNPPLEL_FCPFNOMEOKE_TypeDefinitionIndex = 77391;
+
 	class LMBHBNPPLEL_FCPFNOMEOKE : public ::System::MulticastDelegate
 	{
 	public:

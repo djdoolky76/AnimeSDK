@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NAPGKEGIKGN_KOMIDHBOOIC_OFFSET UNITYSDK_OFFSET(0xBAB7B00)
 #define NAPGKEGIKGN_PAMCFLCNAPG_OFFSET UNITYSDK_OFFSET(0xBAB7AA0)
 
+inline static constexpr unsigned int NAPGKEGIKGN_TypeDefinitionIndex = 66858;
+
 	class NAPGKEGIKGN : public ::System::Object
 	{
 	public:

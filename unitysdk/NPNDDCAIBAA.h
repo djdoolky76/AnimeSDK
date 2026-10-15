@@ -12,6 +12,8 @@ namespace System { class String; }
 #define NPNDDCAIBAA_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xBD10E10)
 #define NPNDDCAIBAA_LEIFNOIKKBA_OFFSET UNITYSDK_OFFSET(0xBD10CF0)
 
+inline static constexpr unsigned int NPNDDCAIBAA_TypeDefinitionIndex = 61366;
+
 	class NPNDDCAIBAA : public ::System::Object
 	{
 	public:

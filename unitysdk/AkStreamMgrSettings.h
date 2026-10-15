@@ -10,6 +10,8 @@ class AkStreamMgrSettings;
 #define AKSTREAMMGRSETTINGS_GETCPTR_OFFSET UNITYSDK_OFFSET(0x1F60A260)
 #define AKSTREAMMGRSETTINGS_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1F60A2B0)
 
+inline static constexpr unsigned int AkStreamMgrSettings_TypeDefinitionIndex = 44791;
+
 	class AkStreamMgrSettings : public ::System::Object
 	{
 	public:

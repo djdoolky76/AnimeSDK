@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftWorkshopStarControl_TypeDefinitionIndex = 80080;
+
 	class MechCraftWorkshopStarControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

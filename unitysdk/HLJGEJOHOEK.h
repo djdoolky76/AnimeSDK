@@ -9,6 +9,8 @@ namespace RPG::Client { class UIController; }
 #define HLJGEJOHOEK_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0x15D60710)
 #define HLJGEJOHOEK_CTOR_OFFSET UNITYSDK_OFFSET(0x15D60700)
 
+inline static constexpr unsigned int HLJGEJOHOEK_TypeDefinitionIndex = 64045;
+
 	class HLJGEJOHOEK : public ::BMPICAPOOFD
 	{
 	public:

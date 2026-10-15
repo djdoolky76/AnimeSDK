@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIPageTurnBehavior_KJHOOJCKGPP_TypeDefinitionIndex = 71057;
+
 	class UIPageTurnBehavior_KJHOOJCKGPP : public ::System::Object
 	{
 	public:

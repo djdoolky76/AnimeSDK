@@ -9,6 +9,8 @@ namespace RPG::Client::Promises { class Promise; }
 #define FGHBKHHINFP___C__DISPLAYCLASS39_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15762040)
 #define FGHBKHHINFP___C__DISPLAYCLASS39_0__ASYNCLOADGAMEOBJECTWITHPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0x157622B0)
 
+inline static constexpr unsigned int FGHBKHHINFP___c__DisplayClass39_0_TypeDefinitionIndex = 69166;
+
 	class FGHBKHHINFP___c__DisplayClass39_0 : public ::System::Object
 	{
 	public:

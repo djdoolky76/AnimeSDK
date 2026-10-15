@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GKCNCLIOFDA_FGAIJIBMILD_GET_DEFINITION_OFFSET UNITYSDK_OFFSET(0x15A90550)
 #define GKCNCLIOFDA_FGAIJIBMILD_GET_PARTICIPANTS_OFFSET UNITYSDK_OFFSET(0x15A90560)
 
+inline static constexpr unsigned int GKCNCLIOFDA_FGAIJIBMILD_TypeDefinitionIndex = 53524;
+
 	class GKCNCLIOFDA_FGAIJIBMILD : public ::System::Object
 	{
 	public:

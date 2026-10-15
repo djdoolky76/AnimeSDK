@@ -15,6 +15,8 @@ namespace System::Text { class StringBuilder; }
 #define DCKOBBCFHPF_MKBCONICHED_OFFSET UNITYSDK_OFFSET(0xE24F650)
 #define DCKOBBCFHPF_NGCIAACBNGC_OFFSET UNITYSDK_OFFSET(0xE24FD30)
 
+inline static constexpr unsigned int DCKOBBCFHPF_TypeDefinitionIndex = 60573;
+
 	class DCKOBBCFHPF : public ::System::Object
 	{
 	public:

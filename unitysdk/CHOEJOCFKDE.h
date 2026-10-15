@@ -11,6 +11,8 @@ class JBACCAGFHON;
 #define CHOEJOCFKDE_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xCF61780)
 #define CHOEJOCFKDE_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xCF61800)
 
+inline static constexpr unsigned int CHOEJOCFKDE_TypeDefinitionIndex = 78127;
+
 	class CHOEJOCFKDE : public ::System::Object
 	{
 	public:

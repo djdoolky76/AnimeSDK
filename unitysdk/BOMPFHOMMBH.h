@@ -31,6 +31,8 @@ namespace System { class String; }
 #define BOMPFHOMMBH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E03D4A0)
 #define BOMPFHOMMBH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E03D500)
 
+inline static constexpr unsigned int BOMPFHOMMBH_TypeDefinitionIndex = 26028;
+
 	class BOMPFHOMMBH : public ::System::Object
 	{
 	public:

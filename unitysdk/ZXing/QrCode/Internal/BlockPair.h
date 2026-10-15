@@ -8,6 +8,8 @@
 
 namespace ZXing::QrCode::Internal
 {
+	inline static constexpr unsigned int BlockPair_TypeDefinitionIndex = 6991;
+
 	class BlockPair : public ::System::Object
 	{
 	public:

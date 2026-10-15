@@ -19,6 +19,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int CultureNotFoundException_TypeDefinitionIndex = 738;
+
 	class CultureNotFoundException : public ::System::ArgumentException
 	{
 	public:

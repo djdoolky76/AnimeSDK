@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LDGJDOHPMPL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8F8950)
 #define LDGJDOHPMPL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8F89B0)
 
+inline static constexpr unsigned int LDGJDOHPMPL_TypeDefinitionIndex = 30232;
+
 	class LDGJDOHPMPL : public ::System::Object
 	{
 	public:

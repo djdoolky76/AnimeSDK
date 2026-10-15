@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MatchThreeV2SpecialRuleRow_TypeDefinitionIndex = 11934;
+
 	class MatchThreeV2SpecialRuleRow : public ::System::Object
 	{
 	public:

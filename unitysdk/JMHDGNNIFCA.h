@@ -13,6 +13,8 @@ namespace System::Text { class StringBuilder; }
 #define JMHDGNNIFCA_KFPKDOLMMNC_OFFSET UNITYSDK_OFFSET(0xB2659A0)
 #define JMHDGNNIFCA_PAKFEFGCHFM_OFFSET UNITYSDK_OFFSET(0xB265630)
 
+inline static constexpr unsigned int JMHDGNNIFCA_TypeDefinitionIndex = 59009;
+
 	class JMHDGNNIFCA : public ::System::Object
 	{
 	public:

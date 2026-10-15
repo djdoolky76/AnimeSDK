@@ -8,6 +8,8 @@ namespace RPG::Client { class ScheduleData; }
 #define JLDCJPDOIDI_KEGJKOHAPHJ_OFFSET UNITYSDK_OFFSET(0xB23C5A0)
 #define JLDCJPDOIDI_ODFNMHPLNFN_OFFSET UNITYSDK_OFFSET(0xB23C030)
 
+inline static constexpr unsigned int JLDCJPDOIDI_TypeDefinitionIndex = 67899;
+
 	class JLDCJPDOIDI : public ::System::Object
 	{
 	public:

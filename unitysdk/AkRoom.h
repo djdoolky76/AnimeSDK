@@ -22,6 +22,8 @@ namespace UnityEngine { class GameObject; }
 #define AKROOM_SET_ROOMCOUNT_OFFSET UNITYSDK_OFFSET(0x1F5B7B90)
 #define AKROOM_TRYENTER_OFFSET UNITYSDK_OFFSET(0x1F5B7BA0)
 
+inline static constexpr unsigned int AkRoom_TypeDefinitionIndex = 44943;
+
 	class AkRoom : public ::AkTriggerHandler
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ModifyCharacterFaceMaterial; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyCharacterFaceMaterial_TypeDefinitionIndex = 22421;
+
 	class ModifyCharacterFaceMaterial : public ::RPG::GameCore::TaskConfig
 	{
 	public:

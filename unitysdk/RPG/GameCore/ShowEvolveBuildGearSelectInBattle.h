@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowEvolveBuildGearSelectInBattle_TypeDefinitionIndex = 22512;
+
 	class ShowEvolveBuildGearSelectInBattle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

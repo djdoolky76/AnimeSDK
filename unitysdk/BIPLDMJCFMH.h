@@ -6,6 +6,8 @@ namespace System { class String; }
 #define BIPLDMJCFMH_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB7960B0)
 #define BIPLDMJCFMH_CTOR_OFFSET UNITYSDK_OFFSET(0xB7960A0)
 
+inline static constexpr unsigned int BIPLDMJCFMH_TypeDefinitionIndex = 52061;
+
 	class BIPLDMJCFMH : public ::System::Attribute
 	{
 	public:

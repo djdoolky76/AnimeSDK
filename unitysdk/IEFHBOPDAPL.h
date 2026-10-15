@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int IEFHBOPDAPL_TypeDefinitionIndex = 27265;
+
 	enum class IEFHBOPDAPL : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

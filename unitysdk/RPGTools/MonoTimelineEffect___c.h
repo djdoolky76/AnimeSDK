@@ -11,6 +11,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPGTools
 {
+	inline static constexpr unsigned int MonoTimelineEffect___c_TypeDefinitionIndex = 47780;
+
 	class MonoTimelineEffect___c : public ::System::Object
 	{
 	public:

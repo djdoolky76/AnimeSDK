@@ -11,6 +11,8 @@ namespace RPG::GameCore { class NewProjectileConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NewFireWaveProjectile_TypeDefinitionIndex = 22584;
+
 	class NewFireWaveProjectile : public ::RPG::GameCore::FireWaveProjectileBase
 	{
 	public:

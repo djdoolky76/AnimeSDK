@@ -13,6 +13,8 @@ namespace UnityEngine::Events { class UnityAction; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int BeforeRenderHelper_TypeDefinitionIndex = 4097;
+
 	class BeforeRenderHelper : public ::System::Object
 	{
 	public:

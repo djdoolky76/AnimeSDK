@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ExpeditionAssignerRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ExpeditionAssignerRow_TypeDefinitionIndex = 13265;
+
 	class ExpeditionAssignerRow : public ::System::Object
 	{
 	public:

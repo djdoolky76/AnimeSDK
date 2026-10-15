@@ -27,6 +27,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftChipMoldFilterControl_TypeDefinitionIndex = 79898;
+
 	class MechCraftChipMoldFilterControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

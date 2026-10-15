@@ -31,6 +31,8 @@ namespace System { class String; }
 #define MKDHPOGEDOP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA54290)
 #define MKDHPOGEDOP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA542F0)
 
+inline static constexpr unsigned int MKDHPOGEDOP_TypeDefinitionIndex = 26424;
+
 	class MKDHPOGEDOP : public ::System::Object
 	{
 	public:

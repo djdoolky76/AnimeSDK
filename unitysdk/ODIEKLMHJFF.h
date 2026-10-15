@@ -5,6 +5,8 @@ namespace RPG::Client { class IRogueTournGame; }
 
 #define ODIEKLMHJFF_DHNBJGGFODA_OFFSET UNITYSDK_OFFSET(0xBD93C70)
 
+inline static constexpr unsigned int ODIEKLMHJFF_TypeDefinitionIndex = 67642;
+
 	class ODIEKLMHJFF : public ::System::Object
 	{
 	public:

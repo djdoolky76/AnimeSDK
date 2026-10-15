@@ -20,6 +20,8 @@ namespace System { class Type; }
 #define KJLMCEGOFBK_KBJBAOJJFJM_OFFSET UNITYSDK_OFFSET(0x1DD6DCE0)
 #define KJLMCEGOFBK_PBLOJIFEKKG_OFFSET UNITYSDK_OFFSET(0x1DD6DB00)
 
+inline static constexpr unsigned int KJLMCEGOFBK_TypeDefinitionIndex = 6333;
+
 	class KJLMCEGOFBK : public ::System::Object
 	{
 	public:

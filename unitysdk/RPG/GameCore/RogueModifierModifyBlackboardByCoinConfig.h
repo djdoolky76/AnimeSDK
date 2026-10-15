@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyBlackboardByCoinConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyBlackboardByCoinConfig_TypeDefinitionIndex = 17696;
+
 	class RogueModifierModifyBlackboardByCoinConfig : public ::RPG::GameCore::RogueModifierModifyBlackboardBaseConfig
 	{
 	public:

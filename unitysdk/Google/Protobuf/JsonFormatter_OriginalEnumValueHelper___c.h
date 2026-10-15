@@ -15,6 +15,8 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace Google::Protobuf
 {
+	inline static constexpr unsigned int JsonFormatter_OriginalEnumValueHelper___c_TypeDefinitionIndex = 5405;
+
 	class JsonFormatter_OriginalEnumValueHelper___c : public ::System::Object
 	{
 	public:

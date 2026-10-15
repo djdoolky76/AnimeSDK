@@ -6,6 +6,8 @@ class FLKLJKIEEPM;
 #define IEOMMCEJKBN_AGHFPPONIEG_OFFSET UNITYSDK_OFFSET(0x1C5534B0)
 #define IEOMMCEJKBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5599E0)
 
+inline static constexpr unsigned int IEOMMCEJKBN_TypeDefinitionIndex = 41885;
+
 	class IEOMMCEJKBN : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define CLHNNJKABAO_CTOR_OFFSET UNITYSDK_OFFSET(0xD78BDB0)
 
+inline static constexpr unsigned int CLHNNJKABAO_TypeDefinitionIndex = 54427;
+
 	class CLHNNJKABAO : public ::System::Object
 	{
 	public:

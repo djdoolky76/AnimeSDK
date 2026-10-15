@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DLAJEPIPOMO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1DCE50)
 #define DLAJEPIPOMO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E1DCE60)
 
+inline static constexpr unsigned int DLAJEPIPOMO___c_TypeDefinitionIndex = 34681;
+
 	class DLAJEPIPOMO___c : public ::System::Object
 	{
 	public:

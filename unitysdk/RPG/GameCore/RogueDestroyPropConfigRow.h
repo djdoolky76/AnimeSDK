@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueDestroyPropConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDestroyPropConfigRow_TypeDefinitionIndex = 14666;
+
 	class RogueDestroyPropConfigRow : public ::System::Object
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System::Runtime::Serialization::Formatters::Binary { class TypeInforma
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int BinaryFormatter_TypeDefinitionIndex = 1179;
+
 	class BinaryFormatter : public ::System::Object
 	{
 	public:

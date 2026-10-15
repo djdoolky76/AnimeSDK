@@ -7,6 +7,8 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::CompilerServices
 {
+	inline static constexpr unsigned int StateMachineUtility_TypeDefinitionIndex = 38708;
+
 	class StateMachineUtility : public ::System::Object
 	{
 	public:

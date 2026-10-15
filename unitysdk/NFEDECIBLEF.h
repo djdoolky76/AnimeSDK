@@ -15,6 +15,8 @@ namespace UnityEngine { class Animator; }
 #define NFEDECIBLEF_OMGBFKFEEFL_OFFSET UNITYSDK_OFFSET(0xBB7BE00)
 #define NFEDECIBLEF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB7C9A0)
 
+inline static constexpr unsigned int NFEDECIBLEF_TypeDefinitionIndex = 55870;
+
 	class NFEDECIBLEF
 	{
 	public:

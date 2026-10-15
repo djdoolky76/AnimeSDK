@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define EPELDOEFJEO_GET_BUFFS_OFFSET UNITYSDK_OFFSET(0x155D2520)
 #define EPELDOEFJEO_GKKDODPDBLA_OFFSET UNITYSDK_OFFSET(0x155D25B0)
 
+inline static constexpr unsigned int EPELDOEFJEO_TypeDefinitionIndex = 63922;
+
 	class EPELDOEFJEO : public ::System::Object
 	{
 	public:

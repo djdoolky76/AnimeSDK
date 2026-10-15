@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LNJCEKPLOPD_CTOR_OFFSET UNITYSDK_OFFSET(0xB7E45A0)
 #define LNJCEKPLOPD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB7E45F0)
 
+inline static constexpr unsigned int LNJCEKPLOPD_TypeDefinitionIndex = 59185;
+
 	class LNJCEKPLOPD
 	{
 	public:

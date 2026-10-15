@@ -27,6 +27,8 @@ namespace UnityEngine { class MeshRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MeshSDFRendererBehavior_TypeDefinitionIndex = 70306;
+
 	class MeshSDFRendererBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

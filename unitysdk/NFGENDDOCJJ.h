@@ -23,6 +23,8 @@ namespace RPG::GameCore { class TriggerEffect; }
 #define NFGENDDOCJJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBB92100)
 #define NFGENDDOCJJ_TICK_OFFSET UNITYSDK_OFFSET(0xBB92150)
 
+inline static constexpr unsigned int NFGENDDOCJJ_TypeDefinitionIndex = 55732;
+
 	class NFGENDDOCJJ : public ::GELIALJDFBL
 	{
 	public:

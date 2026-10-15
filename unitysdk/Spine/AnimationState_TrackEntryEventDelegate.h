@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int AnimationState_TrackEntryEventDelegate_TypeDefinitionIndex = 39630;
+
 	class AnimationState_TrackEntryEventDelegate : public ::System::MulticastDelegate
 	{
 	public:

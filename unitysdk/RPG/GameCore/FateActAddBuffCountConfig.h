@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateActAddBuffCountConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateActAddBuffCountConfig_TypeDefinitionIndex = 19226;
+
 	class FateActAddBuffCountConfig : public ::RPG::GameCore::FateActionConfigBase
 	{
 	public:

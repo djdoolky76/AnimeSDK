@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CumulativeConsumptionModule_TypeDefinitionIndex = 63538;
+
 	class CumulativeConsumptionModule : public ::RPG::Client::BaseModule
 	{
 	public:

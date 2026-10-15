@@ -4,6 +4,8 @@
 
 #define IKNGOHFKPGD_CTOR_OFFSET UNITYSDK_OFFSET(0x1649D160)
 
+inline static constexpr unsigned int IKNGOHFKPGD_TypeDefinitionIndex = 48814;
+
 	class IKNGOHFKPGD : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CHCFMBONKMD_CCTOR_OFFSET UNITYSDK_OFFSET(0xCC91E20)
 #define CHCFMBONKMD_IJJAJACCGCD_OFFSET UNITYSDK_OFFSET(0xCC91C10)
 
+inline static constexpr unsigned int CHCFMBONKMD_TypeDefinitionIndex = 49619;
+
 	class CHCFMBONKMD : public ::System::Object
 	{
 	public:

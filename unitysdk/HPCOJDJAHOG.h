@@ -11,6 +11,8 @@ namespace SimpleJSON { class JSONNode; }
 #define HPCOJDJAHOG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CED0910)
 #define HPCOJDJAHOG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CED08D0)
 
+inline static constexpr unsigned int HPCOJDJAHOG_TypeDefinitionIndex = 24203;
+
 	class HPCOJDJAHOG : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

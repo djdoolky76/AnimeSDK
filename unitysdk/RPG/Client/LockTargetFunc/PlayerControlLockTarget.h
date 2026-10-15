@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LockTargetFunc
 {
+	inline static constexpr unsigned int PlayerControlLockTarget_TypeDefinitionIndex = 74793;
+
 	class PlayerControlLockTarget : public ::RPG::Client::GamePlayLockTargetFunc
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int DLSSPass_CameraParameters_TypeDefinitionIndex = 37554;
+
 	struct alignas(8) DLSSPass_CameraParameters
 	{
 		::UnityEngine::Camera* camera; // 0x10

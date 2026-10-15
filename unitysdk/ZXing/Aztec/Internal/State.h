@@ -21,6 +21,8 @@ namespace ZXing::Common { class BitArray; }
 
 namespace ZXing::Aztec::Internal
 {
+	inline static constexpr unsigned int State_TypeDefinitionIndex = 7002;
+
 	class State : public ::System::Object
 	{
 	public:

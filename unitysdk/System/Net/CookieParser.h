@@ -11,6 +11,8 @@ namespace System::Net { class CookieTokenizer; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int CookieParser_TypeDefinitionIndex = 2798;
+
 	class CookieParser : public ::System::Object
 	{
 	public:

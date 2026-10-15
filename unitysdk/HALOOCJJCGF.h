@@ -33,6 +33,8 @@ namespace System { class String; }
 #define HALOOCJJCGF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E508080)
 #define HALOOCJJCGF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5080E0)
 
+inline static constexpr unsigned int HALOOCJJCGF_TypeDefinitionIndex = 34347;
+
 	class HALOOCJJCGF : public ::System::Object
 	{
 	public:

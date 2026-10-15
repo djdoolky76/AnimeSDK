@@ -38,6 +38,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineTargetGroup_TypeDefinitionIndex = 39759;
+
 	class CinemachineTargetGroup : public ::UnityEngine::MonoBehaviour
 	{
 	public:

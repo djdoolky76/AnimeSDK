@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DronesPuzzleEventListener_TypeDefinitionIndex = 20374;
+
 	class DronesPuzzleEventListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

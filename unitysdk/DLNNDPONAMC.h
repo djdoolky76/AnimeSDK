@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DLNNDPONAMC_CTOR_OFFSET UNITYSDK_OFFSET(0xF8B9F30)
 #define DLNNDPONAMC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF8BA010)
 
+inline static constexpr unsigned int DLNNDPONAMC_TypeDefinitionIndex = 55448;
+
 	class DLNNDPONAMC
 	{
 	public:

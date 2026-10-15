@@ -27,6 +27,8 @@ namespace System { class String; }
 #define IBPHNIBGMPH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E61BEC0)
 #define IBPHNIBGMPH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E61BF20)
 
+inline static constexpr unsigned int IBPHNIBGMPH_TypeDefinitionIndex = 30293;
+
 	class IBPHNIBGMPH : public ::System::Object
 	{
 	public:

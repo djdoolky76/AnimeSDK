@@ -15,6 +15,8 @@ namespace RPG::GameCore { class AbilityCriticalChanceChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityCriticalChanceChange_TypeDefinitionIndex = 56570;
+
 	class AbilityCriticalChanceChange : public ::CMPGEAFHHDC
 	{
 	public:

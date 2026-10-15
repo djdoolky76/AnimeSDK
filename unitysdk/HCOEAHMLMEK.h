@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define HCOEAHMLMEK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C664770)
 #define HCOEAHMLMEK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C664730)
 
+inline static constexpr unsigned int HCOEAHMLMEK_TypeDefinitionIndex = 36251;
+
 	class HCOEAHMLMEK : public ::System::MulticastDelegate
 	{
 	public:

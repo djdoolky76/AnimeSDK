@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LOEBAOEFMDC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9BBB70)
 #define LOEBAOEFMDC___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E9BBB80)
 
+inline static constexpr unsigned int LOEBAOEFMDC___c_TypeDefinitionIndex = 31154;
+
 	class LOEBAOEFMDC___c : public ::System::Object
 	{
 	public:

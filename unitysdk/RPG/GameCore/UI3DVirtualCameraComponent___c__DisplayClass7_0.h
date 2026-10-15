@@ -8,6 +8,8 @@ namespace RPG::Client { class BlendDefinitionInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UI3DVirtualCameraComponent___c__DisplayClass7_0_TypeDefinitionIndex = 57555;
+
 	class UI3DVirtualCameraComponent___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

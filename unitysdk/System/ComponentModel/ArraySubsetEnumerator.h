@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int ArraySubsetEnumerator_TypeDefinitionIndex = 2561;
+
 	class ArraySubsetEnumerator : public ::System::Object
 	{
 	public:

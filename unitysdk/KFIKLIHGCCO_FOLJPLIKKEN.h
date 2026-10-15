@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define KFIKLIHGCCO_FOLJPLIKKEN_CTOR_OFFSET UNITYSDK_OFFSET(0xB3A9B60)
 
+inline static constexpr unsigned int KFIKLIHGCCO_FOLJPLIKKEN_TypeDefinitionIndex = 51773;
+
 	class KFIKLIHGCCO_FOLJPLIKKEN : public ::System::Object
 	{
 	public:

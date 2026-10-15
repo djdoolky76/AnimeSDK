@@ -3,6 +3,8 @@
 
 namespace RPG::Client::FateRin::CaseBoard
 {
+	inline static constexpr unsigned int DetailType_TypeDefinitionIndex = 80795;
+
 	enum class DetailType : ::System::Int32
 	{
 		Team = 0,

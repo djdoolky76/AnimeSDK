@@ -22,6 +22,8 @@ namespace UnityEngine { class Collider; }
 #define PEEDLCHFAFL___C__GET__MUSICSYNCCALLBACKINFOONPLAYERCREATEACTION_B__116_0_OFFSET UNITYSDK_OFFSET(0x1C9E7150)
 #define PEEDLCHFAFL___C__GET__MUSICSYNCCALLBACKINFOONPLAYERDESTROYACTION_B__114_0_OFFSET UNITYSDK_OFFSET(0x1C9E7130)
 
+inline static constexpr unsigned int PEEDLCHFAFL___c_TypeDefinitionIndex = 43594;
+
 	class PEEDLCHFAFL___c : public ::System::Object
 	{
 	public:

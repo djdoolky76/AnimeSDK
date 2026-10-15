@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace IRIClusterBuilder
 {
+	inline static constexpr unsigned int IRI2Type_TypeDefinitionIndex = 47739;
+
 	class IRI2Type : public ::UnityEngine::MonoBehaviour
 	{
 	public:

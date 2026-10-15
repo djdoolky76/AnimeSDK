@@ -5,6 +5,8 @@
 
 namespace UnityEngine::Networking::PlayerConnection
 {
+	inline static constexpr unsigned int PlayerEditorConnectionEvents_ConnectionChangeEvent_TypeDefinitionIndex = 4680;
+
 	class PlayerEditorConnectionEvents_ConnectionChangeEvent
 	{
 	public:

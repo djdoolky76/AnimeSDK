@@ -5,6 +5,8 @@
 
 #define PAGMKBHNEEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9A4C30)
 
+inline static constexpr unsigned int PAGMKBHNEEO_TypeDefinitionIndex = 42239;
+
 	class PAGMKBHNEEO : public ::System::Object
 	{
 	public:

@@ -41,6 +41,8 @@ namespace System { class String; }
 #define EJNFAIOPNEO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2BDCA0)
 #define EJNFAIOPNEO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2BDD00)
 
+inline static constexpr unsigned int EJNFAIOPNEO_TypeDefinitionIndex = 31499;
+
 	class EJNFAIOPNEO : public ::System::Object
 	{
 	public:

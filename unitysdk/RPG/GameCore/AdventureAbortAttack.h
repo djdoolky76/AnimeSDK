@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdventureAbortAttack; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureAbortAttack_TypeDefinitionIndex = 20200;
+
 	class AdventureAbortAttack : public ::RPG::GameCore::TaskConfig
 	{
 	public:

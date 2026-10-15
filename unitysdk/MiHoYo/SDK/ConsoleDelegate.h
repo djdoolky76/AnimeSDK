@@ -75,6 +75,8 @@ namespace MiHoYo::SDK { class ConsoleDelegate_UpdateStatisticsDelegate; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_TypeDefinitionIndex = 7613;
+
 	class ConsoleDelegate : public ::System::Object
 	{
 	public:

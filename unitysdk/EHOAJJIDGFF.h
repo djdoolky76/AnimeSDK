@@ -7,6 +7,8 @@ class KHNFFHCLLIF;
 #define EHOAJJIDGFF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x154B93D0)
 #define EHOAJJIDGFF_CTOR_OFFSET UNITYSDK_OFFSET(0x154BA990)
 
+inline static constexpr unsigned int EHOAJJIDGFF_TypeDefinitionIndex = 62608;
+
 	class EHOAJJIDGFF : public ::System::Object
 	{
 	public:

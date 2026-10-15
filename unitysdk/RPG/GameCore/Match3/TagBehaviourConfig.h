@@ -11,6 +11,8 @@ namespace RPG::GameCore::Match3 { class TagBehaviourConfig; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int TagBehaviourConfig_TypeDefinitionIndex = 24952;
+
 	class TagBehaviourConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

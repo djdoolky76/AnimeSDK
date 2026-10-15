@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingBattleTargetEvaluator_LastDefender; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleTargetEvaluator_LastDefender_TypeDefinitionIndex = 15769;
+
 	class ChenLingBattleTargetEvaluator_LastDefender : public ::RPG::GameCore::BaseChenLingBattleTargetEvaluator
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NOHKOODINEJ_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBCEFD40)
 #define NOHKOODINEJ_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xBCEFE50)
 
+inline static constexpr unsigned int NOHKOODINEJ_TypeDefinitionIndex = 78798;
+
 	class NOHKOODINEJ : public ::JLCNECHMMNG
 	{
 	public:

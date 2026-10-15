@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MCIPOMDGBCA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9F9570)
 #define MCIPOMDGBCA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E9F9580)
 
+inline static constexpr unsigned int MCIPOMDGBCA___c_TypeDefinitionIndex = 29351;
+
 	class MCIPOMDGBCA___c : public ::System::Object
 	{
 	public:

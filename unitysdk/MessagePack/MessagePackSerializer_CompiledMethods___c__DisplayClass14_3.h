@@ -12,6 +12,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MessagePackSerializer_CompiledMethods___c__DisplayClass14_3_TypeDefinitionIndex = 7223;
+
 	template <typename T1, typename T2, typename T3>
 	class MessagePackSerializer_CompiledMethods___c__DisplayClass14_3 : public ::System::Object
 	{

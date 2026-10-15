@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonopolyCheckSwitchMap_TypeDefinitionIndex = 20933;
+
 	class MonopolyCheckSwitchMap : public ::RPG::GameCore::TaskConfig
 	{
 	public:

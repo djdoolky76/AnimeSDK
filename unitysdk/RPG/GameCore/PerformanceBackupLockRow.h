@@ -14,6 +14,8 @@ namespace RPG::GameCore { class PerformanceBackupLockRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceBackupLockRow_TypeDefinitionIndex = 14355;
+
 	class PerformanceBackupLockRow : public ::System::Object
 	{
 	public:

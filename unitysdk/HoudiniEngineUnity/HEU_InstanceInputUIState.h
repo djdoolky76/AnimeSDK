@@ -9,6 +9,8 @@ namespace HoudiniEngineUnity { class HEU_InstanceInputUIState; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_InstanceInputUIState_TypeDefinitionIndex = 40412;
+
 	class HEU_InstanceInputUIState : public ::UnityEngine::ScriptableObject
 	{
 	public:

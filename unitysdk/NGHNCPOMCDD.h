@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NGHNCPOMCDD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBBA7E10)
 #define NGHNCPOMCDD_TICK_OFFSET UNITYSDK_OFFSET(0xBBA7E60)
 
+inline static constexpr unsigned int NGHNCPOMCDD_TypeDefinitionIndex = 52143;
+
 	class NGHNCPOMCDD
 	{
 	public:

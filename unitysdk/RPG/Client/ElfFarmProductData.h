@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfFarmProductData_TypeDefinitionIndex = 63684;
+
 	class ElfFarmProductData : public ::System::Object
 	{
 	public:

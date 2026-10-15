@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int LoginManager___c__DisplayClass77_0_TypeDefinitionIndex = 9453;
+
 	class LoginManager___c__DisplayClass77_0 : public ::System::Object
 	{
 	public:

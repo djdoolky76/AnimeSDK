@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CMBPILGFHLB_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DC275D0)
 #define CMBPILGFHLB_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DC26EF0)
 
+inline static constexpr unsigned int CMBPILGFHLB_TypeDefinitionIndex = 11836;
+
 	class CMBPILGFHLB : public ::System::Object
 	{
 	public:

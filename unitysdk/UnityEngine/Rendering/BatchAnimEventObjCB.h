@@ -11,6 +11,8 @@ namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int BatchAnimEventObjCB_TypeDefinitionIndex = 4789;
+
 	struct alignas(4) BatchAnimEventObjCB
 	{
 		::System::UInt32 eventKey; // 0x10

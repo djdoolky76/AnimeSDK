@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BindingSettingsType_TypeDefinitionIndex = 61299;
+
 	enum class BindingSettingsType : ::System::Int32
 	{
 		Disable = 0,

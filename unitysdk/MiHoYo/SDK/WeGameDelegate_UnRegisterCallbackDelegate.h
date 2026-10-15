@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WeGameDelegate_UnRegisterCallbackDelegate_TypeDefinitionIndex = 7712;
+
 	class WeGameDelegate_UnRegisterCallbackDelegate : public ::System::MulticastDelegate
 	{
 	public:

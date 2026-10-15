@@ -8,6 +8,8 @@
 #define FCAJGDBLMNP_KGPHELNAMNL_OFFSET UNITYSDK_OFFSET(0x156AF090)
 #define FCAJGDBLMNP_LCFLBFOHHFE_OFFSET UNITYSDK_OFFSET(0x156AF010)
 
+inline static constexpr unsigned int FCAJGDBLMNP_TypeDefinitionIndex = 60069;
+
 	class FCAJGDBLMNP : public ::System::Object
 	{
 	public:

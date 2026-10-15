@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelNavmapSubmapConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelNavmapSubmapConfig_TypeDefinitionIndex = 17225;
+
 	class LevelNavmapSubmapConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

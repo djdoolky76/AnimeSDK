@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PLOCJKDDFIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7F5180)
 #define PLOCJKDDFIM_MIDKKNAGOFA_OFFSET UNITYSDK_OFFSET(0x1C7F5190)
 
+inline static constexpr unsigned int PLOCJKDDFIM_TypeDefinitionIndex = 36385;
+
 	class PLOCJKDDFIM : public ::IFNMPBPNBIF
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatV2SingleDialogPerformanceTriggerCondit
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatV2SingleDialogPerformanceTriggerCondition_BeforeTurnPrepare_TypeDefinitionIndex = 16185;
+
 	class DiceCombatV2SingleDialogPerformanceTriggerCondition_BeforeTurnPrepare : public ::RPG::GameCore::DiceCombatV2SingleDialogPerformanceTriggerCondition
 	{
 	public:

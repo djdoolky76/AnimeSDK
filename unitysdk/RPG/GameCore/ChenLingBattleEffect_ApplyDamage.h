@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChenLingBattleEffect_ApplyDamage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleEffect_ApplyDamage_TypeDefinitionIndex = 15784;
+
 	class ChenLingBattleEffect_ApplyDamage : public ::RPG::GameCore::BaseChenLingBattleEffect
 	{
 	public:

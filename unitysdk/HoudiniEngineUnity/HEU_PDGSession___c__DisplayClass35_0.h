@@ -8,6 +8,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_PDGSession___c__DisplayClass35_0_TypeDefinitionIndex = 40546;
+
 	class HEU_PDGSession___c__DisplayClass35_0 : public ::System::Object
 	{
 	public:

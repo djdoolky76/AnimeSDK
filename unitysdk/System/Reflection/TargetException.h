@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int TargetException_TypeDefinitionIndex = 587;
+
 	class TargetException : public ::System::ApplicationException
 	{
 	public:

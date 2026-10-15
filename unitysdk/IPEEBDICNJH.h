@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define IPEEBDICNJH_NMKEGKEICDJ_OFFSET UNITYSDK_OFFSET(0x1C6E5840)
 #define IPEEBDICNJH_PICDGLIDPPO_OFFSET UNITYSDK_OFFSET(0x1C6E5600)
 
+inline static constexpr unsigned int IPEEBDICNJH_TypeDefinitionIndex = 36855;
+
 	class IPEEBDICNJH : public ::System::Object
 	{
 	public:

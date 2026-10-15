@@ -10,6 +10,8 @@ namespace RPG::Client { class UpgradeAvatarProxy; }
 #define BDFBNCDCFIM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x162F6950)
 #define BDFBNCDCFIM_CTOR_OFFSET UNITYSDK_OFFSET(0x162F68C0)
 
+inline static constexpr unsigned int BDFBNCDCFIM_TypeDefinitionIndex = 62864;
+
 	class BDFBNCDCFIM : public ::System::Object
 	{
 	public:

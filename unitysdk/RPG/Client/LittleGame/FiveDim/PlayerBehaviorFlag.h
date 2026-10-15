@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int PlayerBehaviorFlag_TypeDefinitionIndex = 43424;
+
 	enum class PlayerBehaviorFlag : ::System::Int32
 	{
 		None = 0,

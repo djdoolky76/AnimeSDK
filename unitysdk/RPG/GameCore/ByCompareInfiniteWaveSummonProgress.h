@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareInfiniteWaveSummonProgress_TypeDefinitionIndex = 23257;
+
 	class ByCompareInfiniteWaveSummonProgress : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

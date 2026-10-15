@@ -7,6 +7,8 @@ class HBGNFKBHDJK;
 #define FIPACJNLMIJ_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x157B1550)
 #define FIPACJNLMIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x157B15E0)
 
+inline static constexpr unsigned int FIPACJNLMIJ_TypeDefinitionIndex = 81720;
+
 	class FIPACJNLMIJ : public ::System::Object
 	{
 	public:

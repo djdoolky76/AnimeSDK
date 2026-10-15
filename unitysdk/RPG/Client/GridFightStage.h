@@ -96,6 +96,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightStage_TypeDefinitionIndex = 65243;
+
 	class GridFightStage : public ::Sofa::Core::ObservableObject
 	{
 	public:

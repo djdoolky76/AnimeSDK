@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::Hipplen
 {
+	inline static constexpr unsigned int HipplenMiniAnimClip_TypeDefinitionIndex = 48652;
+
 	class HipplenMiniAnimClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

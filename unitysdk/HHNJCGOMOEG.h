@@ -8,6 +8,8 @@ class HNLKNLJBHDD;
 #define HHNJCGOMOEG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C667020)
 #define HHNJCGOMOEG_DJMAKDCNPDA_OFFSET UNITYSDK_OFFSET(0x1C666EF0)
 
+inline static constexpr unsigned int HHNJCGOMOEG_TypeDefinitionIndex = 37150;
+
 	class HHNJCGOMOEG : public ::System::Object
 	{
 	public:

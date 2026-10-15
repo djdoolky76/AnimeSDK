@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TeleportConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeleportConfigRow_TypeDefinitionIndex = 12580;
+
 	class TeleportConfigRow : public ::System::Object
 	{
 	public:

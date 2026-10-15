@@ -9,6 +9,8 @@ namespace UnityEngine { class LineRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LineRendererControlMonoPlugin_TypeDefinitionIndex = 70645;
+
 	class LineRendererControlMonoPlugin
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Type; }
 
 namespace System
 {
+	inline static constexpr unsigned int DelegateData_TypeDefinitionIndex = 387;
+
 	class DelegateData : public ::System::Object
 	{
 	public:

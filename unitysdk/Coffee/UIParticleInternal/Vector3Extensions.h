@@ -12,6 +12,8 @@
 
 namespace Coffee::UIParticleInternal
 {
+	inline static constexpr unsigned int Vector3Extensions_TypeDefinitionIndex = 45125;
+
 	class Vector3Extensions : public ::System::Object
 	{
 	public:

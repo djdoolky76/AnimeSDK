@@ -10,6 +10,8 @@ namespace RPG { template <typename T> class PoolHashSet_1; }
 #define PELGFJHAPJM_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C9E7820)
 #define PELGFJHAPJM_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C9E7990)
 
+inline static constexpr unsigned int PELGFJHAPJM_TypeDefinitionIndex = 43252;
+
 	class PELGFJHAPJM : public ::System::Object
 	{
 	public:

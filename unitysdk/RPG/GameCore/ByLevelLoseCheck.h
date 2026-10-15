@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByLevelLoseCheck_TypeDefinitionIndex = 23435;
+
 	class ByLevelLoseCheck : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

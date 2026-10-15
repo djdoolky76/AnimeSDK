@@ -9,6 +9,8 @@ class AEANOGAFBGK;
 #define HBGNFKBHDJK_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0x15C035C0)
 #define HBGNFKBHDJK_SET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0x15C035E0)
 
+inline static constexpr unsigned int HBGNFKBHDJK_TypeDefinitionIndex = 81718;
+
 	class HBGNFKBHDJK : public ::System::Object
 	{
 	public:

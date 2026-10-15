@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowPlayGOSubPackageDialog; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowPlayGOSubPackageDialog_TypeDefinitionIndex = 21708;
+
 	class ShowPlayGOSubPackageDialog : public ::RPG::GameCore::TaskConfig
 	{
 	public:

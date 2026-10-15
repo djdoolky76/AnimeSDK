@@ -19,6 +19,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_InputMeshUtility_TypeDefinitionIndex = 40653;
+
 	class HEU_InputMeshUtility : public ::System::Object
 	{
 	public:

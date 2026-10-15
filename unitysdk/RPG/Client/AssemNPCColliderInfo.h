@@ -9,6 +9,8 @@ namespace RPG::Client { class AssemNPCColliderInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AssemNPCColliderInfo_TypeDefinitionIndex = 60049;
+
 	class AssemNPCColliderInfo : public ::System::Object
 	{
 	public:

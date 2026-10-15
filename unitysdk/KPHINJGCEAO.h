@@ -7,6 +7,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 #define KPHINJGCEAO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB5BDD40)
 
+inline static constexpr unsigned int KPHINJGCEAO_TypeDefinitionIndex = 56215;
+
 	struct alignas(8) KPHINJGCEAO
 	{
 		::LPNPMKNMMOK* MHJKGHNHPCP; // 0x10

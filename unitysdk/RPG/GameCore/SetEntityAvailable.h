@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetEntityAvailable_TypeDefinitionIndex = 20604;
+
 	class SetEntityAvailable : public ::RPG::GameCore::TaskConfig
 	{
 	public:

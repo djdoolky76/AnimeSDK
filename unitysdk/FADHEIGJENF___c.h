@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FADHEIGJENF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E31DFC0)
 #define FADHEIGJENF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E31DFD0)
 
+inline static constexpr unsigned int FADHEIGJENF___c_TypeDefinitionIndex = 29246;
+
 	class FADHEIGJENF___c : public ::System::Object
 	{
 	public:

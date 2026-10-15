@@ -11,6 +11,8 @@ namespace RPG::Client { class LocalizedText; }
 
 namespace RPG::Client::Challenge
 {
+	inline static constexpr unsigned int ChallengeGroupTypeNameControl_TypeDefinitionIndex = 81417;
+
 	class ChallengeGroupTypeNameControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

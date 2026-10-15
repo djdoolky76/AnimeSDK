@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TrackNpcTrackConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrackNpcTrackConfig_TypeDefinitionIndex = 22181;
+
 	class TrackNpcTrackConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

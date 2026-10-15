@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightMonsterBattleStageData___c_TypeDefinitionIndex = 65059;
+
 	class GridFightMonsterBattleStageData___c : public ::System::Object
 	{
 	public:

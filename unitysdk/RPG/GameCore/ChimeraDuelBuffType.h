@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelBuffType_TypeDefinitionIndex = 15987;
+
 	enum class ChimeraDuelBuffType : ::System::Int32
 	{
 		None = 0,

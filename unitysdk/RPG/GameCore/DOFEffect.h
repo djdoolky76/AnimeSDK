@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DOFEffect_TypeDefinitionIndex = 20261;
+
 	class DOFEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

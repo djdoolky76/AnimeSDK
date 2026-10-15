@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MiniGameHundredFloorBlockConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MiniGameHundredFloorBlockConfig_TypeDefinitionIndex = 18813;
+
 	class MiniGameHundredFloorBlockConfig : public ::RPG::GameCore::BaseScrollGameBlockConfig
 	{
 	public:

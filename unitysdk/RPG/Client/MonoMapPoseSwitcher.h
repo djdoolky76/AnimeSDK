@@ -23,6 +23,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoMapPoseSwitcher_TypeDefinitionIndex = 68869;
+
 	class MonoMapPoseSwitcher : public ::UnityEngine::MonoBehaviour
 	{
 	public:

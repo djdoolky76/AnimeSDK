@@ -41,6 +41,8 @@ namespace System { class String; }
 #define AJCFOLGANFC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E285470)
 #define AJCFOLGANFC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2854D0)
 
+inline static constexpr unsigned int AJCFOLGANFC_TypeDefinitionIndex = 33668;
+
 	class AJCFOLGANFC : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPGTools::Timeline::VFX { class VFXOverlayCharacterBackgroundClip; }
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int VFXOverlayBackgroundSwitchMarker_TypeDefinitionIndex = 48665;
+
 	class VFXOverlayBackgroundSwitchMarker : public ::UnityEngine::Timeline::Marker
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueMiracleEffectConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueMiracleEffectConfig_TypeDefinitionIndex = 17929;
+
 	class RogueMiracleEffectConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

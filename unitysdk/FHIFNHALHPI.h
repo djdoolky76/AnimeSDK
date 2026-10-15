@@ -59,6 +59,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FHIFNHALHPI_SET_NORMALYDOWNSTEP_OFFSET UNITYSDK_OFFSET(0x1C61A410)
 #define FHIFNHALHPI_SET_SPEEDUP_OFFSET UNITYSDK_OFFSET(0x1C61A450)
 
+inline static constexpr unsigned int FHIFNHALHPI_TypeDefinitionIndex = 37151;
+
 	class FHIFNHALHPI : public ::System::Object
 	{
 	public:

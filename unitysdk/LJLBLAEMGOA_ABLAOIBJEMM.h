@@ -16,6 +16,8 @@ namespace System { class String; }
 #define LJLBLAEMGOA_ABLAOIBJEMM_PECLIFCJABN_OFFSET UNITYSDK_OFFSET(0xB71E7F0)
 #define LJLBLAEMGOA_ABLAOIBJEMM_SET_ISMATCH_OFFSET UNITYSDK_OFFSET(0xB71E8D0)
 
+inline static constexpr unsigned int LJLBLAEMGOA_ABLAOIBJEMM_TypeDefinitionIndex = 68113;
+
 	class LJLBLAEMGOA_ABLAOIBJEMM : public ::System::Object
 	{
 	public:

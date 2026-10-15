@@ -10,6 +10,8 @@ namespace System { class String; }
 #define LDFNFDPHFKG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0DFD90)
 #define LDFNFDPHFKG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0DFD40)
 
+inline static constexpr unsigned int LDFNFDPHFKG_TypeDefinitionIndex = 24169;
+
 	class LDFNFDPHFKG : public ::RPG::GameCore::TaskConfig
 	{
 	public:

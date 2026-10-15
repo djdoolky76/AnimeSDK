@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimGeckoPropSpawnerParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimGeckoPropSpawnerParam_TypeDefinitionIndex = 18579;
+
 	class FiveDimGeckoPropSpawnerParam : public ::RPG::GameCore::FiveDimPropSpawnerParam
 	{
 	public:

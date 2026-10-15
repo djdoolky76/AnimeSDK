@@ -44,6 +44,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aiMeshSummary_TypeDefinitionIndex = 45808;
+
 	struct alignas(4) aiMeshSummary
 	{
 		::UnityEngine::Formats::Alembic::Sdk::aiTopologyVariance _topologyVariance_k__BackingField; // 0x10

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define POEFBOIMIPM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC35A750)
 #define POEFBOIMIPM_TICK_OFFSET UNITYSDK_OFFSET(0xC35A660)
 
+inline static constexpr unsigned int POEFBOIMIPM_TypeDefinitionIndex = 53718;
+
 	class POEFBOIMIPM
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define GMGHBGLNMFF_CTOR_OFFSET UNITYSDK_OFFSET(0x15AD12B0)
 
+inline static constexpr unsigned int GMGHBGLNMFF_TypeDefinitionIndex = 77577;
+
 	class GMGHBGLNMFF : public ::System::Object
 	{
 	public:

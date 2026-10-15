@@ -8,6 +8,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_ElectricChainAnimationSupport_ElectricChainAnimationSupport_TypeDefinitionIndex = 70455;
+
 	struct alignas(8) Effect_ElectricChainAnimationSupport_ElectricChainAnimationSupport
 	{
 		::System::Single detail; // 0x10

@@ -9,6 +9,8 @@ namespace RPG::Client { class GridFightTraitConfigBase; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTraitDamageStatisticInfo_TypeDefinitionIndex = 64416;
+
 	class GridFightTraitDamageStatisticInfo : public ::RPG::Client::GridFightDamageStatisticInfo
 	{
 	public:

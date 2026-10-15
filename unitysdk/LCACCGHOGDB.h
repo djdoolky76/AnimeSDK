@@ -30,6 +30,8 @@ namespace System { class String; }
 #define LCACCGHOGDB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8E1D80)
 #define LCACCGHOGDB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8E1DE0)
 
+inline static constexpr unsigned int LCACCGHOGDB_TypeDefinitionIndex = 27912;
+
 	class LCACCGHOGDB : public ::System::Object
 	{
 	public:

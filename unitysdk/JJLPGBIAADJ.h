@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JJLPGBIAADJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E760D10)
 #define JJLPGBIAADJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E760D70)
 
+inline static constexpr unsigned int JJLPGBIAADJ_TypeDefinitionIndex = 27130;
+
 	class JJLPGBIAADJ : public ::System::Object
 	{
 	public:

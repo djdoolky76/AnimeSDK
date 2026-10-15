@@ -14,6 +14,8 @@ namespace RPG::GameCore { class WaitTimelineFinish; }
 #define IGBEIECLHMC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x163F1AB0)
 #define IGBEIECLHMC_TICK_OFFSET UNITYSDK_OFFSET(0x163F1B10)
 
+inline static constexpr unsigned int IGBEIECLHMC_TypeDefinitionIndex = 56482;
+
 	class IGBEIECLHMC : public ::GELIALJDFBL
 	{
 	public:

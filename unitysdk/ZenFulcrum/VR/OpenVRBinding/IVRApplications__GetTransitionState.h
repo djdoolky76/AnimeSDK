@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRApplications__GetTransitionState_TypeDefinitionIndex = 38978;
+
 	class IVRApplications__GetTransitionState : public ::System::MulticastDelegate
 	{
 	public:

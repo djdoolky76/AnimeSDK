@@ -10,6 +10,8 @@ namespace System { class Type; }
 #define BHBGCPNJAMK_FNAAJGAHIAI_OFFSET UNITYSDK_OFFSET(0xB46EB30)
 #define BHBGCPNJAMK_IHPAKOMCHGP_OFFSET UNITYSDK_OFFSET(0xB46EC00)
 
+inline static constexpr unsigned int BHBGCPNJAMK_TypeDefinitionIndex = 62730;
+
 	class BHBGCPNJAMK : public ::System::Object
 	{
 	public:

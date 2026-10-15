@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PixAirEventRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PixAirEventRow_TypeDefinitionIndex = 12149;
+
 	class PixAirEventRow : public ::System::Object
 	{
 	public:

@@ -26,6 +26,8 @@ namespace RPG::Client::B51Racing { class B51RacingCarInfoPanelControl; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingInitCarPreviewPageControl_TypeDefinitionIndex = 81786;
+
 	class B51RacingInitCarPreviewPageControl : public ::Sofa::BaseSofaControl
 	{
 	public:

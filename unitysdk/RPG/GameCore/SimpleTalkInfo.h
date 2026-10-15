@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SimpleTalkInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SimpleTalkInfo_TypeDefinitionIndex = 24391;
+
 	class SimpleTalkInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

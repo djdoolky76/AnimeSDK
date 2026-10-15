@@ -15,6 +15,8 @@ namespace UnityEngine { class Renderer; }
 #define BLOODFLOWDRAWINSTANCE_CTOR_OFFSET UNITYSDK_OFFSET(0xC1B5790)
 #define BLOODFLOWDRAWINSTANCE_GET_MAXNUMINSTANCES_OFFSET UNITYSDK_OFFSET(0xC1B5740)
 
+inline static constexpr unsigned int BloodFlowDrawInstance_TypeDefinitionIndex = 47450;
+
 	class BloodFlowDrawInstance : public ::UnityEngine::MonoBehaviour
 	{
 	public:

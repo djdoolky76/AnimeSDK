@@ -7,6 +7,8 @@ namespace RPG::Client { class ChenLingFesGameInstance; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DebugChenLingFesRuntime_TypeDefinitionIndex = 60314;
+
 	class DebugChenLingFesRuntime : public ::UnityEngine::MonoBehaviour
 	{
 	public:

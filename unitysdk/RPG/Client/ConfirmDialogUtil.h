@@ -40,6 +40,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ConfirmDialogUtil_TypeDefinitionIndex = 72714;
+
 	class ConfirmDialogUtil : public ::System::Object
 	{
 	public:

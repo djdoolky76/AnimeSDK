@@ -12,6 +12,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CameraSomatoDynamicOffset_TypeDefinitionIndex = 69726;
+
 	class CameraSomatoDynamicOffset : public ::System::Object
 	{
 	public:

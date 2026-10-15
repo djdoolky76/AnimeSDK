@@ -5,6 +5,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int MotionBlurTimelineClip_TypeDefinitionIndex = 48586;
+
 	class MotionBlurTimelineClip
 	{
 	public:

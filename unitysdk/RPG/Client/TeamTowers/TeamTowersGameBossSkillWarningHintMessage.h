@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersGameBossSkillWarningHintMessage_TypeDefinitionIndex = 79011;
+
 	class TeamTowersGameBossSkillWarningHintMessage : public ::System::Object
 	{
 	public:

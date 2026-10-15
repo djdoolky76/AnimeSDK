@@ -25,6 +25,8 @@ namespace System { class String; }
 #define ODKKAPPADGE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE1F850)
 #define ODKKAPPADGE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE1F8B0)
 
+inline static constexpr unsigned int ODKKAPPADGE_TypeDefinitionIndex = 34554;
+
 	class ODKKAPPADGE : public ::System::Object
 	{
 	public:

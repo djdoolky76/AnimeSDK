@@ -9,6 +9,8 @@ namespace System { class Action; }
 #define EBIMENNAEIE_GKMOGNNFNKO_OFFSET UNITYSDK_OFFSET(0x12CFBAA0)
 #define EBIMENNAEIE_JJJBJEDNNOG_OFFSET UNITYSDK_OFFSET(0x12CFB9E0)
 
+inline static constexpr unsigned int EBIMENNAEIE_TypeDefinitionIndex = 67113;
+
 	class EBIMENNAEIE : public ::System::Object
 	{
 	public:

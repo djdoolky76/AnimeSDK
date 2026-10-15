@@ -5,6 +5,8 @@
 #define MLHBIPAHCJK_CTOR_OFFSET UNITYSDK_OFFSET(0xB9AE1A0)
 #define MLHBIPAHCJK_FHAAHMEJMCI_OFFSET UNITYSDK_OFFSET(0xB9ADE50)
 
+inline static constexpr unsigned int MLHBIPAHCJK_TypeDefinitionIndex = 66515;
+
 	class MLHBIPAHCJK : public ::FMIHMGNLBPN
 	{
 	public:

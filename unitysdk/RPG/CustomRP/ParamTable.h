@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ParamTable_TypeDefinitionIndex = 37928;
+
 	struct alignas(8) ParamTable
 	{
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* _Params; // 0x10

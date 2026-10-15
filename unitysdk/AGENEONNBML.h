@@ -56,6 +56,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AGENEONNBML_SET_ISPVE_OFFSET UNITYSDK_OFFSET(0x1C587AF0)
 #define AGENEONNBML_SET_ROOMUID_OFFSET UNITYSDK_OFFSET(0x1C587B10)
 
+inline static constexpr unsigned int AGENEONNBML_TypeDefinitionIndex = 37213;
+
 	class AGENEONNBML : public ::LIAIOEBDNEE
 	{
 	public:

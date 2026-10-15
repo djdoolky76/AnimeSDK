@@ -7,6 +7,8 @@ namespace System { class Object; }
 #define CEEFNAMLEFO_BDPLDNEANOF_EQUALS_OFFSET UNITYSDK_OFFSET(0xC781280)
 #define CEEFNAMLEFO_BDPLDNEANOF_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xC781340)
 
+inline static constexpr unsigned int CEEFNAMLEFO_BDPLDNEANOF_TypeDefinitionIndex = 52903;
+
 	class CEEFNAMLEFO_BDPLDNEANOF : public ::System::Object
 	{
 	public:

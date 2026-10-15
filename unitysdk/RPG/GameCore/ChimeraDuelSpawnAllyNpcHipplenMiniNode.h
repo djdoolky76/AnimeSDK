@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelSpawnAllyNpcHipplenMiniNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelSpawnAllyNpcHipplenMiniNode_TypeDefinitionIndex = 15953;
+
 	class ChimeraDuelSpawnAllyNpcHipplenMiniNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
 	public:

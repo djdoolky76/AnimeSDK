@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MNOOMFIAFPF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAA3680)
 #define MNOOMFIAFPF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EAA3690)
 
+inline static constexpr unsigned int MNOOMFIAFPF___c_TypeDefinitionIndex = 28771;
+
 	class MNOOMFIAFPF___c : public ::System::Object
 	{
 	public:

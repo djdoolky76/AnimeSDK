@@ -7,6 +7,8 @@
 
 namespace RPGTools::Timeline::Story
 {
+	inline static constexpr unsigned int NpcStoryMoveRunData_TypeDefinitionIndex = 48709;
+
 	class NpcStoryMoveRunData : public ::RPGTools::Timeline::Story::BaseStoryMoveRunData
 	{
 	public:

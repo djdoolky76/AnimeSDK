@@ -39,6 +39,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int ItemCost_TypeDefinitionIndex = 27788;
+
 	class ItemCost : public ::System::Object
 	{
 	public:

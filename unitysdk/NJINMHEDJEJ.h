@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NJINMHEDJEJ_MFPDHJLPHFA_OFFSET UNITYSDK_OFFSET(0xBC11A50)
 #define NJINMHEDJEJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC11660)
 
+inline static constexpr unsigned int NJINMHEDJEJ_TypeDefinitionIndex = 52917;
+
 	class NJINMHEDJEJ
 	{
 	public:

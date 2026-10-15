@@ -23,6 +23,8 @@ namespace System::Collections { class IList; }
 
 namespace System::Collections::Specialized
 {
+	inline static constexpr unsigned int NotifyCollectionChangedEventArgs_TypeDefinitionIndex = 3001;
+
 	class NotifyCollectionChangedEventArgs : public ::System::EventArgs
 	{
 	public:

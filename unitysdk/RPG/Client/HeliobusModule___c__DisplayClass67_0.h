@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HeliobusModule___c__DisplayClass67_0_TypeDefinitionIndex = 65666;
+
 	class HeliobusModule___c__DisplayClass67_0 : public ::System::Object
 	{
 	public:

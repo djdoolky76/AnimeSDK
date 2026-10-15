@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Internal
 {
+	inline static constexpr unsigned int SingleAssignmentDisposable_TypeDefinitionIndex = 38694;
+
 	class SingleAssignmentDisposable : public ::System::Object
 	{
 	public:

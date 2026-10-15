@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IINJPIGHLOB_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CF17030)
 #define IINJPIGHLOB_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CF16950)
 
+inline static constexpr unsigned int IINJPIGHLOB_TypeDefinitionIndex = 12376;
+
 	class IINJPIGHLOB : public ::System::Object
 	{
 	public:

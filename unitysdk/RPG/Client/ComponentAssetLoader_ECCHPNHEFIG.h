@@ -13,6 +13,8 @@ namespace UnityEngine { class Component; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ComponentAssetLoader_ECCHPNHEFIG_TypeDefinitionIndex = 68395;
+
 	class ComponentAssetLoader_ECCHPNHEFIG : public ::RPG::Client::ComponentAssetLoader_KPIMOEDONLE
 	{
 	public:

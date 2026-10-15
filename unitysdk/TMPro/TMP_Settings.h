@@ -61,6 +61,8 @@ namespace UnityEngine { class TextAsset; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_Settings_TypeDefinitionIndex = 44629;
+
 	class TMP_Settings : public ::UnityEngine::ScriptableObject
 	{
 	public:

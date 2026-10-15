@@ -19,6 +19,8 @@ namespace RPG::GameCore { class AbilityCurrentHPChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityCurrentHPChange_TypeDefinitionIndex = 56562;
+
 	class AbilityCurrentHPChange : public ::CMPGEAFHHDC
 	{
 	public:

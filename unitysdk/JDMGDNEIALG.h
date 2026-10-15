@@ -31,6 +31,8 @@ namespace System { class String; }
 #define JDMGDNEIALG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E70E060)
 #define JDMGDNEIALG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E70E0C0)
 
+inline static constexpr unsigned int JDMGDNEIALG_TypeDefinitionIndex = 31199;
+
 	class JDMGDNEIALG : public ::System::Object
 	{
 	public:

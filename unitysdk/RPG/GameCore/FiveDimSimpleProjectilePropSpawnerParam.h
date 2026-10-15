@@ -13,6 +13,8 @@ namespace RPG::GameCore { class FiveDimSimpleProjectileRandomVelItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSimpleProjectilePropSpawnerParam_TypeDefinitionIndex = 18589;
+
 	class FiveDimSimpleProjectilePropSpawnerParam : public ::RPG::GameCore::FiveDimPropSpawnerParam
 	{
 	public:

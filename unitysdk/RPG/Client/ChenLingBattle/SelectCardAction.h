@@ -15,6 +15,8 @@ namespace System { class Nullable; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int SelectCardAction_TypeDefinitionIndex = 76285;
+
 	class SelectCardAction : public ::RPG::Client::ChenLingBattle::PendingAction
 	{
 	public:

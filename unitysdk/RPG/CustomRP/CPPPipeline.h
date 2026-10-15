@@ -108,6 +108,8 @@ namespace UnityEngine::Rendering { class VolumeStack; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CPPPipeline_TypeDefinitionIndex = 37534;
+
 	class CPPPipeline : public ::RPG::CustomRP::CRPPipelineBase
 	{
 	public:

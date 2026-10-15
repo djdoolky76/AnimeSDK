@@ -14,6 +14,8 @@ namespace RPG::GameCore { class LittleGameLevelVarCondition; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameCustomVisibilityConfig_TypeDefinitionIndex = 18870;
+
 	class LittleGameCustomVisibilityConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

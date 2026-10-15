@@ -4,6 +4,8 @@
 
 #define BFAANIPGJEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5B7450)
 
+inline static constexpr unsigned int BFAANIPGJEB_TypeDefinitionIndex = 36206;
+
 	class BFAANIPGJEB : public ::System::Object
 	{
 	public:

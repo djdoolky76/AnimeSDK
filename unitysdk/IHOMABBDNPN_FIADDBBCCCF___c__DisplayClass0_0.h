@@ -9,6 +9,8 @@ namespace RPG::Client { class MonoEffect; }
 #define IHOMABBDNPN_FIADDBBCCCF___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1642CAB0)
 #define IHOMABBDNPN_FIADDBBCCCF___C__DISPLAYCLASS0_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1642CBB0)
 
+inline static constexpr unsigned int IHOMABBDNPN_FIADDBBCCCF___c__DisplayClass0_0_TypeDefinitionIndex = 57328;
+
 	class IHOMABBDNPN_FIADDBBCCCF___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

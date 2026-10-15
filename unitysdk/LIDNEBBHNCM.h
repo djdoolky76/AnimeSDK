@@ -14,6 +14,8 @@ namespace System { class String; }
 #define LIDNEBBHNCM_OOKBMEDBLOB_OFFSET UNITYSDK_OFFSET(0x1C4AE820)
 #define LIDNEBBHNCM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C27CD0)
 
+inline static constexpr unsigned int LIDNEBBHNCM_TypeDefinitionIndex = 41389;
+
 	struct alignas(4) LIDNEBBHNCM
 	{
 		::System::Int32 NLDLDIJHIBF; // 0x10

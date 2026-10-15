@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int BFBCFAIOIEK_TypeDefinitionIndex = 25192;
+
 	enum class BFBCFAIOIEK : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

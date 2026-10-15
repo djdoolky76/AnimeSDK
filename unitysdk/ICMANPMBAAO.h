@@ -11,6 +11,8 @@ namespace System { class String; }
 #define ICMANPMBAAO_JIJBALGKNGA_OFFSET UNITYSDK_OFFSET(0x15E52750)
 #define ICMANPMBAAO_OEJKFPPIMGH_OFFSET UNITYSDK_OFFSET(0x15E52220)
 
+inline static constexpr unsigned int ICMANPMBAAO_TypeDefinitionIndex = 82255;
+
 	class ICMANPMBAAO : public ::System::Object
 	{
 	public:

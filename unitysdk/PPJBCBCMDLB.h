@@ -16,6 +16,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define PPJBCBCMDLB_POPNLPIAOCM_OFFSET UNITYSDK_OFFSET(0xC38B320)
 #define PPJBCBCMDLB___ONFLYTOTARGET_B__6_0_OFFSET UNITYSDK_OFFSET(0xC38BBD0)
 
+inline static constexpr unsigned int PPJBCBCMDLB_TypeDefinitionIndex = 69890;
+
 	class PPJBCBCMDLB : public ::RPG::Client::BehaviorBase
 	{
 	public:

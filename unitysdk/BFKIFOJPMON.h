@@ -60,6 +60,8 @@ namespace UnityEngine { class Transform; }
 #define BFKIFOJPMON__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xB171550)
 #define BFKIFOJPMON__ONTICK_OFFSET UNITYSDK_OFFSET(0xB1715B0)
 
+inline static constexpr unsigned int BFKIFOJPMON_TypeDefinitionIndex = 71759;
+
 	class BFKIFOJPMON : public ::FMPCODLIOLG
 	{
 	public:

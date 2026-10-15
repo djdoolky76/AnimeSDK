@@ -13,6 +13,8 @@ namespace System { class Action; }
 #define MENGKGJGGPN_NNAGLJCMMGD_OFFSET UNITYSDK_OFFSET(0xB8E28F0)
 #define MENGKGJGGPN_NONJDKKDDLE_OFFSET UNITYSDK_OFFSET(0xB8E27C0)
 
+inline static constexpr unsigned int MENGKGJGGPN_TypeDefinitionIndex = 60470;
+
 	class MENGKGJGGPN : public ::System::Object
 	{
 	public:

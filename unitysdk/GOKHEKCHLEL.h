@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GOKHEKCHLEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4F06E0)
 #define GOKHEKCHLEL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4F0740)
 
+inline static constexpr unsigned int GOKHEKCHLEL_TypeDefinitionIndex = 27155;
+
 	class GOKHEKCHLEL : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define EDPHMDDGGGL___C__DISPLAYCLASS63_0___CREATESTORYCHARACTER_B__1_OFFSET UNITYSDK_OFFSET(0x1334C4E0)
 #define EDPHMDDGGGL___C__DISPLAYCLASS63_0___CREATESTORYCHARACTER_B__2_OFFSET UNITYSDK_OFFSET(0x1334C4B0)
 
+inline static constexpr unsigned int EDPHMDDGGGL___c__DisplayClass63_0_TypeDefinitionIndex = 60725;
+
 	class EDPHMDDGGGL___c__DisplayClass63_0 : public ::System::Object
 	{
 	public:

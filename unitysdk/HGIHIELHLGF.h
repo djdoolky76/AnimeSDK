@@ -9,6 +9,8 @@
 #define HGIHIELHLGF_JNDOGMFFOIM_OFFSET UNITYSDK_OFFSET(0x2E7E830)
 #define HGIHIELHLGF_MKJFHFEMJGC_OFFSET UNITYSDK_OFFSET(0x2E7E870)
 
+inline static constexpr unsigned int HGIHIELHLGF_TypeDefinitionIndex = 73966;
+
 	struct alignas(4) HGIHIELHLGF
 	{
 		::UnityEngine::Vector3 BBFOLEOPPPL; // 0x10

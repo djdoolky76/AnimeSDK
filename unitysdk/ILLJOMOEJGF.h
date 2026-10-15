@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define ILLJOMOEJGF_CTOR_OFFSET UNITYSDK_OFFSET(0x164C5A00)
 
+inline static constexpr unsigned int ILLJOMOEJGF_TypeDefinitionIndex = 52505;
+
 	class ILLJOMOEJGF : public ::System::Object
 	{
 	public:

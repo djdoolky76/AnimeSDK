@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ToggleScoreCounterShow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ToggleScoreCounterShow_TypeDefinitionIndex = 23241;
+
 	class ToggleScoreCounterShow : public ::RPG::GameCore::TaskConfig
 	{
 	public:

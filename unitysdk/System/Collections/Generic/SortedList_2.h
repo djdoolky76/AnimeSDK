@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class IComparer_1
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int SortedList_2_TypeDefinitionIndex = 3034;
+
 	template <typename T1, typename T2>
 	class SortedList_2 : public ::System::Object
 	{

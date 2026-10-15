@@ -14,6 +14,8 @@ namespace RPG::GameCore { class GridFightTraitLayerConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightTraitLayerConfigRow_TypeDefinitionIndex = 13670;
+
 	class GridFightTraitLayerConfigRow : public ::System::Object
 	{
 	public:

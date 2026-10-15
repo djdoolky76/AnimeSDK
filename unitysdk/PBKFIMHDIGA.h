@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PBKFIMHDIGA_CTOR_OFFSET UNITYSDK_OFFSET(0xBFF1D00)
 #define PBKFIMHDIGA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBFF1D50)
 
+inline static constexpr unsigned int PBKFIMHDIGA_TypeDefinitionIndex = 59079;
+
 	class PBKFIMHDIGA
 	{
 	public:

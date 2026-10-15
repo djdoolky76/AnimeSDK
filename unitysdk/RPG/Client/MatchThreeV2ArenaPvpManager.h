@@ -31,6 +31,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeV2ArenaPvpManager_TypeDefinitionIndex = 66037;
+
 	class MatchThreeV2ArenaPvpManager : public ::RPG::Client::MatchThreeV2PvpManagerBase
 	{
 	public:

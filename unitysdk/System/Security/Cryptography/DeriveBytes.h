@@ -8,6 +8,8 @@
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int DeriveBytes_TypeDefinitionIndex = 1016;
+
 	class DeriveBytes : public ::System::Object
 	{
 	public:

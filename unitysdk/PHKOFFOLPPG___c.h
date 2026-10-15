@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PHKOFFOLPPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC8FE50)
 #define PHKOFFOLPPG___C__RUN_B__12_0_OFFSET UNITYSDK_OFFSET(0x1EC8FE60)
 
+inline static constexpr unsigned int PHKOFFOLPPG___c_TypeDefinitionIndex = 44171;
+
 	class PHKOFFOLPPG___c : public ::System::Object
 	{
 	public:

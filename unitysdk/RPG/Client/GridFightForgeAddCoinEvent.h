@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightForgeAddCoinEvent_TypeDefinitionIndex = 64922;
+
 	class GridFightForgeAddCoinEvent : public ::System::Object
 	{
 	public:

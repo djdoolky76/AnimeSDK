@@ -27,6 +27,8 @@ namespace System::Xml::Linq { class XDocument; }
 
 namespace Newtonsoft::Json::Converters
 {
+	inline static constexpr unsigned int XDocumentWrapper_TypeDefinitionIndex = 9837;
+
 	class XDocumentWrapper : public ::Newtonsoft::Json::Converters::XContainerWrapper
 	{
 	public:

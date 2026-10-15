@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvTriggerAIEvent_TypeDefinitionIndex = 23391;
+
 	class AdvTriggerAIEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:

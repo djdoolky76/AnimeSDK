@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JBLMOJEFGFO_OOJGPCHHGHM_OFFSET UNITYSDK_OFFSET(0x16573660)
 #define JBLMOJEFGFO_PFGMGAMGHOK_OFFSET UNITYSDK_OFFSET(0x165733E0)
 
+inline static constexpr unsigned int JBLMOJEFGFO_TypeDefinitionIndex = 82258;
+
 	class JBLMOJEFGFO : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Action; }
 #define APOAKCPFEDM_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x15BBF8F0)
 #define APOAKCPFEDM_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x15BC0600)
 
+inline static constexpr unsigned int APOAKCPFEDM_TypeDefinitionIndex = 78440;
+
 	class APOAKCPFEDM : public ::System::Object
 	{
 	public:

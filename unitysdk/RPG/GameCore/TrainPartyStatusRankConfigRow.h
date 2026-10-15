@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TrainPartyStatusRankConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyStatusRankConfigRow_TypeDefinitionIndex = 15314;
+
 	class TrainPartyStatusRankConfigRow : public ::System::Object
 	{
 	public:

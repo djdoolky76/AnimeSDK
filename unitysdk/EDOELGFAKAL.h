@@ -12,6 +12,8 @@ namespace System { class String; }
 #define EDOELGFAKAL_EFKLLLLPAJH_OFFSET UNITYSDK_OFFSET(0x1332DD80)
 #define EDOELGFAKAL_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0x1332DDD0)
 
+inline static constexpr unsigned int EDOELGFAKAL_TypeDefinitionIndex = 53757;
+
 	class EDOELGFAKAL : public ::GJPFGOGOLBI
 	{
 	public:

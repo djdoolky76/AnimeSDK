@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int PluginUIConstants_OverseaBindAccountElements_TypeDefinitionIndex = 9239;
+
 	class PluginUIConstants_OverseaBindAccountElements : public ::System::Object
 	{
 	public:

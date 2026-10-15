@@ -9,6 +9,8 @@ class OCGNLGGKMID;
 #define DKLCIIBDMEA_GET_BLACKBOARD_OFFSET UNITYSDK_OFFSET(0x1EC68EC0)
 #define DKLCIIBDMEA_GET_FENCESCOPE_OFFSET UNITYSDK_OFFSET(0x1EC68ED0)
 
+inline static constexpr unsigned int DKLCIIBDMEA_TypeDefinitionIndex = 44111;
+
 	class DKLCIIBDMEA : public ::System::Object
 	{
 	public:

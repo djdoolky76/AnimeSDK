@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_DiceAllOdd; }
 #define MLIKEIJOJJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C74F500)
 #define MLIKEIJOJJP_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C74F520)
 
+inline static constexpr unsigned int MLIKEIJOJJP_TypeDefinitionIndex = 36342;
+
 	class MLIKEIJOJJP : public ::HHOHBHGLHHF
 	{
 	public:

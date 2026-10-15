@@ -8,6 +8,8 @@ class LKJFPIFKPNE;
 #define LKJFPIFKPNE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D10C500)
 #define LKJFPIFKPNE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D10C430)
 
+inline static constexpr unsigned int LKJFPIFKPNE_TypeDefinitionIndex = 22327;
+
 	class LKJFPIFKPNE : public ::RPG::GameCore::TaskConfig
 	{
 	public:

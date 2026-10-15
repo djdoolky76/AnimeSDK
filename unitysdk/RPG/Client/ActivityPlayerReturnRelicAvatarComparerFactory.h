@@ -8,6 +8,8 @@ namespace RPG::Client { class IAvatarComparer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityPlayerReturnRelicAvatarComparerFactory_TypeDefinitionIndex = 61882;
+
 	class ActivityPlayerReturnRelicAvatarComparerFactory : public ::System::Object
 	{
 	public:

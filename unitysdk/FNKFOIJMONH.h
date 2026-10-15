@@ -17,6 +17,8 @@ class OOCCBMLAELL;
 #define FNKFOIJMONH_SET_REASON_OFFSET UNITYSDK_OFFSET(0x158757E0)
 #define FNKFOIJMONH_SET_SUBMODE_OFFSET UNITYSDK_OFFSET(0x158757A0)
 
+inline static constexpr unsigned int FNKFOIJMONH_TypeDefinitionIndex = 80603;
+
 	class FNKFOIJMONH : public ::System::Object
 	{
 	public:

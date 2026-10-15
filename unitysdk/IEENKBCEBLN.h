@@ -28,6 +28,8 @@ namespace UnityEngine { class Object; }
 #define IEENKBCEBLN_LNLHHJDJKBL_OFFSET UNITYSDK_OFFSET(0x15EF4630)
 #define IEENKBCEBLN_OGDLIONGCMP_OFFSET UNITYSDK_OFFSET(0x15EF4DC0)
 
+inline static constexpr unsigned int IEENKBCEBLN_TypeDefinitionIndex = 73791;
+
 	class IEENKBCEBLN : public ::HPKACEPPPCA
 	{
 	public:

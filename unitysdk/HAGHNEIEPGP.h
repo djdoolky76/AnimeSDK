@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HAGHNEIEPGP_MMDAAEJLJEM_OFFSET UNITYSDK_OFFSET(0x15B76240)
 #define HAGHNEIEPGP_PDAENODHFCM_OFFSET UNITYSDK_OFFSET(0x15B761E0)
 
+inline static constexpr unsigned int HAGHNEIEPGP_TypeDefinitionIndex = 67878;
+
 	class HAGHNEIEPGP : public ::System::Object
 	{
 	public:

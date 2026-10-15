@@ -99,6 +99,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define DLNCBOGAMFG__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0xF8B88F0)
 #define DLNCBOGAMFG__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0xF8B6020)
 
+inline static constexpr unsigned int DLNCBOGAMFG_TypeDefinitionIndex = 65790;
+
 	class DLNCBOGAMFG : public ::RPG::Client::BaseModule
 	{
 	public:

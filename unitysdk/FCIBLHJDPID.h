@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FCIBLHJDPID_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E348880)
 #define FCIBLHJDPID_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3488E0)
 
+inline static constexpr unsigned int FCIBLHJDPID_TypeDefinitionIndex = 31660;
+
 	class FCIBLHJDPID : public ::System::Object
 	{
 	public:

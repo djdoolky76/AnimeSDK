@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int PolygonCollider2D_TypeDefinitionIndex = 5816;
+
 	class PolygonCollider2D : public ::UnityEngine::Collider2D
 	{
 	public:

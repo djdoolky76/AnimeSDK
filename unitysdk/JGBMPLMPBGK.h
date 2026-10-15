@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JGBMPLMPBGK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB193070)
 #define JGBMPLMPBGK_PILKOLAIOOI_OFFSET UNITYSDK_OFFSET(0xB1935F0)
 
+inline static constexpr unsigned int JGBMPLMPBGK_TypeDefinitionIndex = 55775;
+
 	class JGBMPLMPBGK
 	{
 	public:

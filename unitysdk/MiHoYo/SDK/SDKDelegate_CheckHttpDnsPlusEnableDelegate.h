@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKDelegate_CheckHttpDnsPlusEnableDelegate_TypeDefinitionIndex = 7800;
+
 	class SDKDelegate_CheckHttpDnsPlusEnableDelegate : public ::System::MulticastDelegate
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateParamCoinCountConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateParamCoinCountConfig_TypeDefinitionIndex = 16641;
+
 	class FateParamCoinCountConfig : public ::RPG::GameCore::FateParameterConfigBase
 	{
 	public:

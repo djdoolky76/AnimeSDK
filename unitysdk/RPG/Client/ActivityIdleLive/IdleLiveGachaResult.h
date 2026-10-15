@@ -20,6 +20,8 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveGachaResult_TypeDefinitionIndex = 75255;
+
 	class IdleLiveGachaResult : public ::System::Object
 	{
 	public:

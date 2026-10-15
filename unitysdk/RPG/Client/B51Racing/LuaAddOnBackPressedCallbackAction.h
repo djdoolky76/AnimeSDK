@@ -14,6 +14,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int LuaAddOnBackPressedCallbackAction_TypeDefinitionIndex = 81758;
+
 	class LuaAddOnBackPressedCallbackAction : public ::System::MulticastDelegate
 	{
 	public:

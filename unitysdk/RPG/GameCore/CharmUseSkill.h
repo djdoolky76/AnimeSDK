@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharmUseSkill_TypeDefinitionIndex = 23666;
+
 	class CharmUseSkill : public ::RPG::GameCore::TaskConfig
 	{
 	public:

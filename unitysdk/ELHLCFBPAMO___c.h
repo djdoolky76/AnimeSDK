@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ELHLCFBPAMO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2D2840)
 #define ELHLCFBPAMO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E2D2850)
 
+inline static constexpr unsigned int ELHLCFBPAMO___c_TypeDefinitionIndex = 33665;
+
 	class ELHLCFBPAMO___c : public ::System::Object
 	{
 	public:

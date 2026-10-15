@@ -13,6 +13,8 @@ namespace UnityEngine { class Material; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int MaterialReference_TypeDefinitionIndex = 44539;
+
 	struct alignas(8) MaterialReference
 	{
 		::System::Int32 index; // 0x10

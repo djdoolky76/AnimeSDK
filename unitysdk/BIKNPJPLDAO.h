@@ -36,6 +36,8 @@ namespace System { class String; }
 #define BIKNPJPLDAO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE04240)
 #define BIKNPJPLDAO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE042A0)
 
+inline static constexpr unsigned int BIKNPJPLDAO_TypeDefinitionIndex = 29972;
+
 	class BIKNPJPLDAO : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightShowRightCutIn_TypeDefinitionIndex = 23235;
+
 	class GridFightShowRightCutIn : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -60,6 +60,8 @@ namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryPar
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int ObjectReader_TypeDefinitionIndex = 1187;
+
 	class ObjectReader : public ::System::Object
 	{
 	public:

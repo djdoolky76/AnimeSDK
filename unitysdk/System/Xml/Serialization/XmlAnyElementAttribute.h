@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlAnyElementAttribute_TypeDefinitionIndex = 1997;
+
 	class XmlAnyElementAttribute : public ::System::Attribute
 	{
 	public:

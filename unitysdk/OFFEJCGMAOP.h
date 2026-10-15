@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OFFEJCGMAOP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D267AB0)
 #define OFFEJCGMAOP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D2670E0)
 
+inline static constexpr unsigned int OFFEJCGMAOP_TypeDefinitionIndex = 14372;
+
 	class OFFEJCGMAOP : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 #define AOILEMOBPJN___C___LISTENLEVELVAR_B__23_0_OFFSET UNITYSDK_OFFSET(0x158B0720)
 #define AOILEMOBPJN___C___REGISTERLOADCALLBACK_B__17_0_OFFSET UNITYSDK_OFFSET(0x158B0700)
 
+inline static constexpr unsigned int AOILEMOBPJN___c_TypeDefinitionIndex = 76825;
+
 	class AOILEMOBPJN___c : public ::System::Object
 	{
 	public:

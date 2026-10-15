@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RemoveVirtualLineupBindPlane; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveVirtualLineupBindPlane_TypeDefinitionIndex = 21612;
+
 	class RemoveVirtualLineupBindPlane : public ::RPG::GameCore::TaskConfig
 	{
 	public:

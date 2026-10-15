@@ -16,6 +16,8 @@ namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
 namespace System::Runtime::Remoting::Channels
 {
+	inline static constexpr unsigned int CrossAppDomainChannel_TypeDefinitionIndex = 1264;
+
 	class CrossAppDomainChannel : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ANCENNCMLDH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E529000)
 #define ANCENNCMLDH___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E529010)
 
+inline static constexpr unsigned int ANCENNCMLDH___c_TypeDefinitionIndex = 31084;
+
 	class ANCENNCMLDH___c : public ::System::Object
 	{
 	public:

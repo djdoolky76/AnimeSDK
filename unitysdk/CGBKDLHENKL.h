@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CGBKDLHENKL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0AA940)
 #define CGBKDLHENKL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0AA9A0)
 
+inline static constexpr unsigned int CGBKDLHENKL_TypeDefinitionIndex = 34037;
+
 	class CGBKDLHENKL : public ::System::Object
 	{
 	public:

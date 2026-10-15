@@ -30,6 +30,8 @@ namespace System::Runtime::Remoting::Messaging { class ReturnMessage; }
 
 namespace System::Runtime::Remoting::Channels
 {
+	inline static constexpr unsigned int ChannelServices_TypeDefinitionIndex = 1262;
+
 	class ChannelServices : public ::System::Object
 	{
 	public:

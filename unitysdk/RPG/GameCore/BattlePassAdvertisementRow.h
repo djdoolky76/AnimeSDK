@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattlePassAdvertisementRow_TypeDefinitionIndex = 12877;
+
 	class BattlePassAdvertisementRow : public ::System::Object
 	{
 	public:

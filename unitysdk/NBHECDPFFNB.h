@@ -22,6 +22,8 @@ namespace System { class String; }
 #define NBHECDPFFNB_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xBAC2E50)
 #define NBHECDPFFNB_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xBAC2E40)
 
+inline static constexpr unsigned int NBHECDPFFNB_TypeDefinitionIndex = 48788;
+
 	class NBHECDPFFNB : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

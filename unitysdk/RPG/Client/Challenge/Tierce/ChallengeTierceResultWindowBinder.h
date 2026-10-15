@@ -22,6 +22,8 @@ namespace UnityEngine::UI { class ScrollRect; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceResultWindowBinder_TypeDefinitionIndex = 81543;
+
 	class ChallengeTierceResultWindowBinder : public ::UnityEngine::MonoBehaviour
 	{
 	public:

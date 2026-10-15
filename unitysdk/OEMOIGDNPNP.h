@@ -34,6 +34,8 @@ namespace System { class String; }
 #define OEMOIGDNPNP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE2FE10)
 #define OEMOIGDNPNP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE2FE70)
 
+inline static constexpr unsigned int OEMOIGDNPNP_TypeDefinitionIndex = 25487;
+
 	class OEMOIGDNPNP : public ::System::Object
 	{
 	public:

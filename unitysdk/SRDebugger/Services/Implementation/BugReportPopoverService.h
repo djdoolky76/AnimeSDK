@@ -20,6 +20,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace SRDebugger::Services::Implementation
 {
+	inline static constexpr unsigned int BugReportPopoverService_TypeDefinitionIndex = 38073;
+
 	class BugReportPopoverService
 	{
 	public:

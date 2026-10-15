@@ -8,6 +8,8 @@ namespace System { class Type; }
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int ObjectReader_TypeNAssembly_TypeDefinitionIndex = 1188;
+
 	class ObjectReader_TypeNAssembly : public ::System::Object
 	{
 	public:

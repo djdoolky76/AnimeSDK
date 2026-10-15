@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class EqualityCom
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int EqualityComparer_1_TypeDefinitionIndex = 1549;
+
 	template <typename T>
 	class EqualityComparer_1 : public ::System::Object
 	{

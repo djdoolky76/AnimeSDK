@@ -10,6 +10,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define HPPNAAGGAMP___C__BORROW_B__4_1_OFFSET UNITYSDK_OFFSET(0x15DE1620)
 #define HPPNAAGGAMP___C___ONPRELOADTIMELINEASSETFINISH_B__33_0_OFFSET UNITYSDK_OFFSET(0x15DE1650)
 
+inline static constexpr unsigned int HPPNAAGGAMP___c_TypeDefinitionIndex = 48480;
+
 	class HPPNAAGGAMP___c : public ::System::Object
 	{
 	public:

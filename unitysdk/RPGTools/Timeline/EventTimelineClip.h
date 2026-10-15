@@ -16,6 +16,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int EventTimelineClip_TypeDefinitionIndex = 48434;
+
 	class EventTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

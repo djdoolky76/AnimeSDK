@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FNNMLBJJPBJ_LHFHPPJCEGA_OFFSET UNITYSDK_OFFSET(0x15887240)
 #define FNNMLBJJPBJ_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x158863C0)
 
+inline static constexpr unsigned int FNNMLBJJPBJ_TypeDefinitionIndex = 56296;
+
 	class FNNMLBJJPBJ : public ::System::Object
 	{
 	public:

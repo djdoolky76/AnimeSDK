@@ -7,6 +7,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define HBIOHKOEMDD___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15C05FA0)
 #define HBIOHKOEMDD___C__DISPLAYCLASS2_0__SORTBYREFERENCE_B__0_OFFSET UNITYSDK_OFFSET(0x15C06EC0)
 
+inline static constexpr unsigned int HBIOHKOEMDD___c__DisplayClass2_0_TypeDefinitionIndex = 66732;
+
 	class HBIOHKOEMDD___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

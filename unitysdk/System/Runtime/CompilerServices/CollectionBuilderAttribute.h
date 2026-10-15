@@ -8,6 +8,8 @@ namespace System { class Type; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int CollectionBuilderAttribute_TypeDefinitionIndex = 6585;
+
 	class CollectionBuilderAttribute : public ::System::Attribute
 	{
 	public:

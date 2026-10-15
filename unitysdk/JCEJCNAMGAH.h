@@ -5,6 +5,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 #define JCEJCNAMGAH_CTOR_OFFSET UNITYSDK_OFFSET(0x16587A90)
 
+inline static constexpr unsigned int JCEJCNAMGAH_TypeDefinitionIndex = 69657;
+
 	class JCEJCNAMGAH : public ::System::Object
 	{
 	public:

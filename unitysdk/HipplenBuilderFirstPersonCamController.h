@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 #define HIPPLENBUILDERFIRSTPERSONCAMCONTROLLER_START_OFFSET UNITYSDK_OFFSET(0x15DE30B0)
 #define HIPPLENBUILDERFIRSTPERSONCAMCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x15DE3100)
 
+inline static constexpr unsigned int HipplenBuilderFirstPersonCamController_TypeDefinitionIndex = 47200;
+
 	class HipplenBuilderFirstPersonCamController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

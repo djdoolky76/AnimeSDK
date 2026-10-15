@@ -18,6 +18,8 @@ namespace System { class String; }
 #define GLMDCJNPCGC_OEFHAKMALIC_OFFSET UNITYSDK_OFFSET(0x1C42F490)
 #define GLMDCJNPCGC_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0x1C481820)
 
+inline static constexpr unsigned int GLMDCJNPCGC_TypeDefinitionIndex = 41509;
+
 	class GLMDCJNPCGC : public ::System::Object
 	{
 	public:

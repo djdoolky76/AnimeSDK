@@ -19,6 +19,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ShopModuleLuaWrap_TypeDefinitionIndex = 67953;
+
 	class ShopModuleLuaWrap : public ::System::Object
 	{
 	public:

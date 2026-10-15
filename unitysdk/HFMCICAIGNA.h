@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HFMCICAIGNA_CTOR_OFFSET UNITYSDK_OFFSET(0x15C8BBC0)
 #define HFMCICAIGNA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C8BCA0)
 
+inline static constexpr unsigned int HFMCICAIGNA_TypeDefinitionIndex = 55418;
+
 	class HFMCICAIGNA
 	{
 	public:

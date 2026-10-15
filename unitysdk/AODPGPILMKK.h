@@ -19,6 +19,8 @@ namespace System { class String; }
 #define AODPGPILMKK_POIPBCKGABI_OFFSET UNITYSDK_OFFSET(0x158A7FB0)
 #define AODPGPILMKK_SET_ISENABLE_OFFSET UNITYSDK_OFFSET(0x158A7D90)
 
+inline static constexpr unsigned int AODPGPILMKK_TypeDefinitionIndex = 59476;
+
 	class AODPGPILMKK : public ::System::Object
 	{
 	public:

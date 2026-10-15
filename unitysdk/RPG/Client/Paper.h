@@ -7,6 +7,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Paper_TypeDefinitionIndex = 71058;
+
 	class Paper : public ::System::Object
 	{
 	public:

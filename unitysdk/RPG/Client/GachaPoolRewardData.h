@@ -26,6 +26,8 @@ namespace RPG::GameCore { class GachPoolRewardConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GachaPoolRewardData_TypeDefinitionIndex = 64322;
+
 	class GachaPoolRewardData : public ::System::Object
 	{
 	public:

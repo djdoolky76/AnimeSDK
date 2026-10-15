@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CheckSkillDependencyAxis_TypeDefinitionIndex = 15507;
+
 	class CheckSkillDependencyAxis : public ::RPG::GameCore::ConsiderationAxisConfig
 	{
 	public:

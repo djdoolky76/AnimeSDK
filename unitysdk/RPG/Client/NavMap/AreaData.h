@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int AreaData_TypeDefinitionIndex = 74502;
+
 	class AreaData : public ::System::Object
 	{
 	public:

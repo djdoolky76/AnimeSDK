@@ -21,6 +21,8 @@ namespace System { class Type; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int TraceLoggingTypeInfo_TypeDefinitionIndex = 1671;
+
 	class TraceLoggingTypeInfo : public ::System::Object
 	{
 	public:

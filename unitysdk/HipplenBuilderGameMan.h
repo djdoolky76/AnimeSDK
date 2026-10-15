@@ -47,6 +47,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HIPPLENBUILDERGAMEMAN__SELECTACTIVITIES_B__25_0_OFFSET UNITYSDK_OFFSET(0x15DEC680)
 #define HIPPLENBUILDERGAMEMAN__SELECTBUFFS_B__24_0_OFFSET UNITYSDK_OFFSET(0x15DEC640)
 
+inline static constexpr unsigned int HipplenBuilderGameMan_TypeDefinitionIndex = 47201;
+
 	class HipplenBuilderGameMan : public ::UnityEngine::MonoBehaviour
 	{
 	public:

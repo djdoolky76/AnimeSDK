@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define KLEGPKKGFMN_IEBPLCFHGIF_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0xB525DB0)
 #define KLEGPKKGFMN_IEBPLCFHGIF_PPCHOKBEHJJ_OFFSET UNITYSDK_OFFSET(0xB525E60)
 
+inline static constexpr unsigned int KLEGPKKGFMN_IEBPLCFHGIF_TypeDefinitionIndex = 61134;
+
 	class KLEGPKKGFMN_IEBPLCFHGIF : public ::System::Object
 	{
 	public:

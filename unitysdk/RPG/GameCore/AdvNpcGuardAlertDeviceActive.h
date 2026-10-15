@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvNpcGuardAlertDeviceActive_TypeDefinitionIndex = 19993;
+
 	class AdvNpcGuardAlertDeviceActive : public ::RPG::GameCore::TaskConfig
 	{
 	public:

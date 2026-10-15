@@ -29,6 +29,8 @@ namespace UnityEngine { class RenderTexture; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ShareModule_TypeDefinitionIndex = 67946;
+
 	class ShareModule : public ::RPG::Client::BaseModule
 	{
 	public:

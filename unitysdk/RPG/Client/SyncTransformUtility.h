@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class CaculateNodeData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SyncTransformUtility_TypeDefinitionIndex = 72670;
+
 	class SyncTransformUtility : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

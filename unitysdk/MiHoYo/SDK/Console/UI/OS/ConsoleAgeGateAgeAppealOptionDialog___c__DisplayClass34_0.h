@@ -8,6 +8,8 @@ namespace MiHoYo::SDK::Console::UI::OS { class ConsoleAgeGateAgeAppealOptionDial
 
 namespace MiHoYo::SDK::Console::UI::OS
 {
+	inline static constexpr unsigned int ConsoleAgeGateAgeAppealOptionDialog___c__DisplayClass34_0_TypeDefinitionIndex = 9028;
+
 	class ConsoleAgeGateAgeAppealOptionDialog___c__DisplayClass34_0 : public ::System::Object
 	{
 	public:

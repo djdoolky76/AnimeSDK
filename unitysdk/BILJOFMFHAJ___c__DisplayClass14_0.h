@@ -10,6 +10,8 @@ class PJPPGJEDCOG;
 #define BILJOFMFHAJ___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C543DE0)
 #define BILJOFMFHAJ___C__DISPLAYCLASS14_0___CREATECHIPMOLDS_B__0_OFFSET UNITYSDK_OFFSET(0x1C545130)
 
+inline static constexpr unsigned int BILJOFMFHAJ___c__DisplayClass14_0_TypeDefinitionIndex = 41818;
+
 	class BILJOFMFHAJ___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:

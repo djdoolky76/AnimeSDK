@@ -7,6 +7,8 @@ namespace RPG::Client { class ChimeraEvaluationData; }
 #define MCHDFGLEMCD___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB87DBC0)
 #define MCHDFGLEMCD___C__DISPLAYCLASS7_0___RANDOMCHOOSEEVALUATIONINSAMEGROUP_B__0_OFFSET UNITYSDK_OFFSET(0xB87DC30)
 
+inline static constexpr unsigned int MCHDFGLEMCD___c__DisplayClass7_0_TypeDefinitionIndex = 63495;
+
 	class MCHDFGLEMCD___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

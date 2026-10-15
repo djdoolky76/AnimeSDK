@@ -9,6 +9,8 @@ namespace RPG::Client::ActivityIdleLive { class SpecialEquip; }
 #define PKLDHJLIFLI_CTOR_OFFSET UNITYSDK_OFFSET(0xC2D0C90)
 #define PKLDHJLIFLI_KALLNOPDLHC_OFFSET UNITYSDK_OFFSET(0xC2D0E40)
 
+inline static constexpr unsigned int PKLDHJLIFLI_TypeDefinitionIndex = 75230;
+
 	class PKLDHJLIFLI : public ::System::Object
 	{
 	public:

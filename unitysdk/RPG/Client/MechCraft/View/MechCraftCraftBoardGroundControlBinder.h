@@ -15,6 +15,8 @@ namespace UnityEngine::UI { class GridLayoutGroup; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftBoardGroundControlBinder_TypeDefinitionIndex = 79850;
+
 	class MechCraftCraftBoardGroundControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

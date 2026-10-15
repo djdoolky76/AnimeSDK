@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int ClusterLightingSettings_TypeDefinitionIndex = 4860;
+
 	struct alignas(4) ClusterLightingSettings
 	{
 		::System::Int32 NumClusterX; // 0x10

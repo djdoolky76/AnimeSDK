@@ -8,6 +8,8 @@ namespace System { class String; }
 #define BBDIPDMEFDO_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CCF2C50)
 #define BBDIPDMEFDO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCF2BE0)
 
+inline static constexpr unsigned int BBDIPDMEFDO_TypeDefinitionIndex = 24998;
+
 	class BBDIPDMEFDO : public ::Sirenix::OdinInspector::PropertyGroupAttribute
 	{
 	public:

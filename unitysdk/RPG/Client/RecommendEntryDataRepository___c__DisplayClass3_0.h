@@ -8,6 +8,8 @@ namespace RPG::Client { class RecommendEntryData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RecommendEntryDataRepository___c__DisplayClass3_0_TypeDefinitionIndex = 66808;
+
 	class RecommendEntryDataRepository___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ class MFDGGFKPBMH;
 
 namespace RPG::Client::Ui::Samples
 {
+	inline static constexpr unsigned int FriendChatRoomTabContentControl_TypeDefinitionIndex = 73454;
+
 	class FriendChatRoomTabContentControl
 	{
 	public:

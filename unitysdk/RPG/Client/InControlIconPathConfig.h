@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int InControlIconPathConfig_TypeDefinitionIndex = 61346;
+
 	class InControlIconPathConfig : public ::System::Object
 	{
 	public:

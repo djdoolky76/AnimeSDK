@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PetLineupPlacementConfig; }
 #define MNHLCMPBNFH_KHJNHDOJDDP_OFFSET UNITYSDK_OFFSET(0xBA096B0)
 #define MNHLCMPBNFH_NHEGBODLDFH_OFFSET UNITYSDK_OFFSET(0xBA09680)
 
+inline static constexpr unsigned int MNHLCMPBNFH_TypeDefinitionIndex = 75632;
+
 	class MNHLCMPBNFH : public ::System::Object
 	{
 	public:

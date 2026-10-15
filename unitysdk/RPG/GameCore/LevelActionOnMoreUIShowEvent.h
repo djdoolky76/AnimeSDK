@@ -9,6 +9,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelActionOnMoreUIShowEvent_TypeDefinitionIndex = 56804;
+
 	class LevelActionOnMoreUIShowEvent : public ::System::Object
 	{
 	public:

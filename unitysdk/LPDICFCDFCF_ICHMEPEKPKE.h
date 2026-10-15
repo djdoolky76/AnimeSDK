@@ -12,6 +12,8 @@ namespace System { class String; }
 #define LPDICFCDFCF_ICHMEPEKPKE_KDJPPMKIJDD_OFFSET UNITYSDK_OFFSET(0xB81D780)
 #define LPDICFCDFCF_ICHMEPEKPKE_LHGBNJGEHKO_OFFSET UNITYSDK_OFFSET(0xB81DF10)
 
+inline static constexpr unsigned int LPDICFCDFCF_ICHMEPEKPKE_TypeDefinitionIndex = 60748;
+
 	class LPDICFCDFCF_ICHMEPEKPKE : public ::System::Object
 	{
 	public:

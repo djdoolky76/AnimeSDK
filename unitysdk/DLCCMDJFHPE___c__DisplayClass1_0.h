@@ -6,6 +6,8 @@ class NGFHCJIAOLH;
 #define DLCCMDJFHPE___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xF891560)
 #define DLCCMDJFHPE___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xF891800)
 
+inline static constexpr unsigned int DLCCMDJFHPE___c__DisplayClass1_0_TypeDefinitionIndex = 52671;
+
 	class DLCCMDJFHPE___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

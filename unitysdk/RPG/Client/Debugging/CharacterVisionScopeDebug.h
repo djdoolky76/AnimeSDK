@@ -9,6 +9,8 @@
 
 namespace RPG::Client::Debugging
 {
+	inline static constexpr unsigned int CharacterVisionScopeDebug_TypeDefinitionIndex = 82129;
+
 	class CharacterVisionScopeDebug : public ::UnityEngine::MonoBehaviour
 	{
 	public:

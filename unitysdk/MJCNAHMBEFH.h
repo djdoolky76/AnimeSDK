@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CakeRaceGamePropertyComparePredicateConfig; }
 #define MJCNAHMBEFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C74CF10)
 #define MJCNAHMBEFH_ISMATCHIMPL_OFFSET UNITYSDK_OFFSET(0x1C74CF30)
 
+inline static constexpr unsigned int MJCNAHMBEFH_TypeDefinitionIndex = 37415;
+
 	class MJCNAHMBEFH
 	{
 	public:

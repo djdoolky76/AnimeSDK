@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NavMeshStateConfig_NavMeshDisableSource_TypeDefinitionIndex = 68642;
+
 	enum class NavMeshStateConfig_NavMeshDisableSource : ::System::Int32
 	{
 		EraFlipState = 0,

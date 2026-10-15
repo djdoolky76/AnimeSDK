@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitGraphDynamicValueChange_TypeDefinitionIndex = 20715;
+
 	class WaitGraphDynamicValueChange : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:

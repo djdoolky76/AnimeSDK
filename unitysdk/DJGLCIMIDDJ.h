@@ -5,6 +5,8 @@ class PLMODIOCPAF;
 
 #define DJGLCIMIDDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F2760)
 
+inline static constexpr unsigned int DJGLCIMIDDJ_TypeDefinitionIndex = 37145;
+
 	class DJGLCIMIDDJ : public ::Entitas::Systems
 	{
 	public:

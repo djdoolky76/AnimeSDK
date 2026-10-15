@@ -99,6 +99,8 @@ namespace UnityEngine::UI::CoroutineTween { template <typename T> class TweenRun
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int Graphic_TypeDefinitionIndex = 6717;
+
 	class Graphic : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

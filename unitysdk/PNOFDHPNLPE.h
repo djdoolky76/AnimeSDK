@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+inline static constexpr unsigned int PNOFDHPNLPE_TypeDefinitionIndex = 43441;
+
 	struct alignas(4) PNOFDHPNLPE
 	{
 		::System::Single ECFOFCCIHMF; // 0x10

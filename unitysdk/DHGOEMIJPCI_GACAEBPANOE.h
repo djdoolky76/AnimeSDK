@@ -7,6 +7,8 @@ namespace UnityEngine { class GameObject; }
 
 #define DHGOEMIJPCI_GACAEBPANOE_CTOR_OFFSET UNITYSDK_OFFSET(0xEBD91C0)
 
+inline static constexpr unsigned int DHGOEMIJPCI_GACAEBPANOE_TypeDefinitionIndex = 73272;
+
 	class DHGOEMIJPCI_GACAEBPANOE : public ::System::Object
 	{
 	public:

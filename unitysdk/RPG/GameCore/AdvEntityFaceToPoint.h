@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvEntityFaceToPoint_TypeDefinitionIndex = 20546;
+
 	class AdvEntityFaceToPoint : public ::RPG::GameCore::TaskConfig
 	{
 	public:

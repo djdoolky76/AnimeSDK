@@ -10,6 +10,8 @@ namespace RPG::Client { class UIMonoJoyStick; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIMonoJoyStick_OutterPressState_TypeDefinitionIndex = 72835;
+
 	class UIMonoJoyStick_OutterPressState : public ::System::Object
 	{
 	public:

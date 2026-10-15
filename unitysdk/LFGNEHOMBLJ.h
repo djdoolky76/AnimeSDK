@@ -76,6 +76,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LFGNEHOMBLJ_SET_SORTTYPE_OFFSET UNITYSDK_OFFSET(0xB66DCD0)
 #define LFGNEHOMBLJ_SET_TEAM_OFFSET UNITYSDK_OFFSET(0xB66DAE0)
 
+inline static constexpr unsigned int LFGNEHOMBLJ_TypeDefinitionIndex = 56900;
+
 	class LFGNEHOMBLJ : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DENBLEPOOMN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE51C470)
 #define DENBLEPOOMN_TICK_OFFSET UNITYSDK_OFFSET(0xE51C410)
 
+inline static constexpr unsigned int DENBLEPOOMN_TypeDefinitionIndex = 52205;
+
 	class DENBLEPOOMN
 	{
 	public:

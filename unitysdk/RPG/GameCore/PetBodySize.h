@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PetBodySize_TypeDefinitionIndex = 10450;
+
 	enum class PetBodySize : ::System::Int32
 	{
 		Common = 0,

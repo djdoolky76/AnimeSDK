@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int GlobalSDFSettings_TypeDefinitionIndex = 4858;
+
 	struct alignas(4) GlobalSDFSettings
 	{
 		::System::Boolean Enable; // 0x10

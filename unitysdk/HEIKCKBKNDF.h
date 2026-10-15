@@ -13,6 +13,8 @@ namespace System { class String; }
 #define HEIKCKBKNDF_DEMNDCPCGGE_OFFSET UNITYSDK_OFFSET(0x15C52950)
 #define HEIKCKBKNDF_MBLPPGINPHE_OFFSET UNITYSDK_OFFSET(0x15C529F0)
 
+inline static constexpr unsigned int HEIKCKBKNDF_TypeDefinitionIndex = 77815;
+
 	class HEIKCKBKNDF : public ::System::Object
 	{
 	public:

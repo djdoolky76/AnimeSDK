@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define IIMDGCBKGLF_CTOR_OFFSET UNITYSDK_OFFSET(0x1644DCA0)
 
+inline static constexpr unsigned int IIMDGCBKGLF_TypeDefinitionIndex = 64788;
+
 	class IIMDGCBKGLF : public ::System::Object
 	{
 	public:

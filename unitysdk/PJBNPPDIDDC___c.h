@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PJBNPPDIDDC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF73F90)
 #define PJBNPPDIDDC___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1DF73FA0)
 
+inline static constexpr unsigned int PJBNPPDIDDC___c_TypeDefinitionIndex = 29102;
+
 	class PJBNPPDIDDC___c : public ::System::Object
 	{
 	public:

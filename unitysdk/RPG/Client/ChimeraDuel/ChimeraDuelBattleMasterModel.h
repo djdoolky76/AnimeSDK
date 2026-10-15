@@ -6,6 +6,8 @@
 
 namespace RPG::Client::ChimeraDuel
 {
+	inline static constexpr unsigned int ChimeraDuelBattleMasterModel_TypeDefinitionIndex = 81249;
+
 	class ChimeraDuelBattleMasterModel : public ::Sofa::Core::ObservableObject
 	{
 	public:

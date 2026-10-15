@@ -6,6 +6,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int AnimationCurveParameter_TypeDefinitionIndex = 35659;
+
 	class AnimationCurveParameter
 	{
 	public:

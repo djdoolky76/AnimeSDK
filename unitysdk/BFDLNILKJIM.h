@@ -10,6 +10,8 @@
 #define BFDLNILKJIM_SET_POSITION_OFFSET UNITYSDK_OFFSET(0xB160F70)
 #define BFDLNILKJIM_SET_ROTATION_OFFSET UNITYSDK_OFFSET(0xB160F90)
 
+inline static constexpr unsigned int BFDLNILKJIM_TypeDefinitionIndex = 80239;
+
 	class BFDLNILKJIM : public ::System::Object
 	{
 	public:

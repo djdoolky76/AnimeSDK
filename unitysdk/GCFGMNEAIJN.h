@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimConveyorConfig; }
 #define GCFGMNEAIJN_GOBOGHMEFKM_OFFSET UNITYSDK_OFFSET(0x1CA803D0)
 #define GCFGMNEAIJN_HDFEPMNKAPK_OFFSET UNITYSDK_OFFSET(0x1CA80580)
 
+inline static constexpr unsigned int GCFGMNEAIJN_TypeDefinitionIndex = 43473;
+
 	class GCFGMNEAIJN : public ::System::Object
 	{
 	public:

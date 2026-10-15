@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define KEIMDKKCGNK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D08A3F0)
 #define KEIMDKKCGNK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D08A3A0)
 
+inline static constexpr unsigned int KEIMDKKCGNK_TypeDefinitionIndex = 24191;
+
 	class KEIMDKKCGNK : public ::RPG::GameCore::TaskConfig
 	{
 	public:

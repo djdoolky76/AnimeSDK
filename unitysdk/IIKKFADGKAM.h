@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define IIKKFADGKAM_INFHHPFKMMG_OFFSET UNITYSDK_OFFSET(0x164415E0)
 #define IIKKFADGKAM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16441200)
 
+inline static constexpr unsigned int IIKKFADGKAM_TypeDefinitionIndex = 54974;
+
 	class IIKKFADGKAM : public ::JODABDCOPOP
 	{
 	public:

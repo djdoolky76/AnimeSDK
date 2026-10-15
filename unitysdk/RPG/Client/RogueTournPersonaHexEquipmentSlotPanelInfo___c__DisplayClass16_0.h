@@ -8,6 +8,8 @@ namespace RPG::Client { class RogueTournPersonaHexEquipmentSlotItemInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaHexEquipmentSlotPanelInfo___c__DisplayClass16_0_TypeDefinitionIndex = 72891;
+
 	class RogueTournPersonaHexEquipmentSlotPanelInfo___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:

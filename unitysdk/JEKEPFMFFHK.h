@@ -4,6 +4,8 @@
 
 #define JEKEPFMFFHK_CTOR_OFFSET UNITYSDK_OFFSET(0x1663DAB0)
 
+inline static constexpr unsigned int JEKEPFMFFHK_TypeDefinitionIndex = 64795;
+
 	class JEKEPFMFFHK : public ::System::Object
 	{
 	public:

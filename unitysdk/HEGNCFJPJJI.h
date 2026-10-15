@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HEGNCFJPJJI_NKBIJHNDKCO_OFFSET UNITYSDK_OFFSET(0x15C510B0)
 #define HEGNCFJPJJI_TICK_OFFSET UNITYSDK_OFFSET(0x15C51390)
 
+inline static constexpr unsigned int HEGNCFJPJJI_TypeDefinitionIndex = 60758;
+
 	class HEGNCFJPJJI : public ::System::Object
 	{
 	public:

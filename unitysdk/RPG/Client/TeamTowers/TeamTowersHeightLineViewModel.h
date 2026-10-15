@@ -13,6 +13,8 @@ class ODCELNBAEIB;
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersHeightLineViewModel_TypeDefinitionIndex = 79064;
+
 	class TeamTowersHeightLineViewModel : public ::System::Object
 	{
 	public:

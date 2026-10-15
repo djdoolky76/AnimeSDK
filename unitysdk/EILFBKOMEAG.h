@@ -7,6 +7,8 @@
 #define EILFBKOMEAG_FNCNMCEOALF_1_OFFSET UNITYSDK_OFFSET(0x154CF9F0)
 #define EILFBKOMEAG_FNCNMCEOALF_OFFSET UNITYSDK_OFFSET(0x154CF980)
 
+inline static constexpr unsigned int EILFBKOMEAG_TypeDefinitionIndex = 81438;
+
 	class EILFBKOMEAG : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ class ILOOAAOHIIG;
 #define FCLEMGPEMJJ___C__DISPLAYCLASS42_0_CTOR_OFFSET UNITYSDK_OFFSET(0x156CD0B0)
 #define FCLEMGPEMJJ___C__DISPLAYCLASS42_0___ONSELECTMOLDMESSAGE_B__0_OFFSET UNITYSDK_OFFSET(0x156CD7E0)
 
+inline static constexpr unsigned int FCLEMGPEMJJ___c__DisplayClass42_0_TypeDefinitionIndex = 79468;
+
 	class FCLEMGPEMJJ___c__DisplayClass42_0 : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ class FDPALAEIHPB;
 
 #define CEFAEJLOCFC_CTOR_OFFSET UNITYSDK_OFFSET(0xC7833A0)
 
+inline static constexpr unsigned int CEFAEJLOCFC_TypeDefinitionIndex = 76541;
+
 	class CEFAEJLOCFC : public ::DJJKNHPLHDI
 	{
 	public:

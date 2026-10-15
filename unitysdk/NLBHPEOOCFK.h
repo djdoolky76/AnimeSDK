@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define NLBHPEOOCFK_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0xBC60B10)
 #define NLBHPEOOCFK_NLIFDKMPCPP_OFFSET UNITYSDK_OFFSET(0xBC610F0)
 
+inline static constexpr unsigned int NLBHPEOOCFK_TypeDefinitionIndex = 73263;
+
 	class NLBHPEOOCFK : public ::JLAMCCBFMKK
 	{
 	public:

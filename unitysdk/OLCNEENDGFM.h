@@ -10,6 +10,8 @@ namespace System { class String; }
 #define OLCNEENDGFM_UNRESOLVE_OFFSET UNITYSDK_OFFSET(0xBF01100)
 #define OLCNEENDGFM__RESOLVE_OFFSET UNITYSDK_OFFSET(0xBF00FB0)
 
+inline static constexpr unsigned int OLCNEENDGFM_TypeDefinitionIndex = 56521;
+
 	class OLCNEENDGFM
 	{
 	public:

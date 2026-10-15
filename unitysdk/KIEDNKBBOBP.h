@@ -16,6 +16,8 @@ namespace System { class String; }
 #define KIEDNKBBOBP_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0xB41C760)
 #define KIEDNKBBOBP_MJGKNFEILLI_OFFSET UNITYSDK_OFFSET(0xB41C650)
 
+inline static constexpr unsigned int KIEDNKBBOBP_TypeDefinitionIndex = 64437;
+
 	class KIEDNKBBOBP : public ::System::Object
 	{
 	public:

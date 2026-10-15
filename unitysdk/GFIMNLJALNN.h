@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define GFIMNLJALNN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAA1D90)
 
+inline static constexpr unsigned int GFIMNLJALNN_TypeDefinitionIndex = 43637;
+
 	class GFIMNLJALNN : public ::System::Object
 	{
 	public:

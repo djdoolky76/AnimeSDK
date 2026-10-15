@@ -4,6 +4,8 @@
 
 #define ABEBFNICDHE_CTOR_OFFSET UNITYSDK_OFFSET(0xB0F1210)
 
+inline static constexpr unsigned int ABEBFNICDHE_TypeDefinitionIndex = 55980;
+
 	class ABEBFNICDHE : public ::System::Object
 	{
 	public:

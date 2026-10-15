@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define PBBCDBEIELA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9A4C50)
 
+inline static constexpr unsigned int PBBCDBEIELA_TypeDefinitionIndex = 43742;
+
 	class PBBCDBEIELA : public ::System::Object
 	{
 	public:

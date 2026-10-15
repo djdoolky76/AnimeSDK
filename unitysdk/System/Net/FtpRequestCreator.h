@@ -9,6 +9,8 @@ namespace System::Net { class WebRequest; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int FtpRequestCreator_TypeDefinitionIndex = 2841;
+
 	class FtpRequestCreator : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EMGDBAEPBNC_CTOR_OFFSET UNITYSDK_OFFSET(0x15536F00)
 #define EMGDBAEPBNC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15536F30)
 
+inline static constexpr unsigned int EMGDBAEPBNC_TypeDefinitionIndex = 52594;
+
 	class EMGDBAEPBNC
 	{
 	public:

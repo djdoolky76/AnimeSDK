@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LightConeQuickGrowCalculator___c__DisplayClass26_0_TypeDefinitionIndex = 65727;
+
 	class LightConeQuickGrowCalculator___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:

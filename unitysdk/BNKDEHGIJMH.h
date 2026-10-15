@@ -40,6 +40,8 @@ namespace System { class String; }
 #define BNKDEHGIJMH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E036850)
 #define BNKDEHGIJMH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0368B0)
 
+inline static constexpr unsigned int BNKDEHGIJMH_TypeDefinitionIndex = 30722;
+
 	class BNKDEHGIJMH : public ::System::Object
 	{
 	public:

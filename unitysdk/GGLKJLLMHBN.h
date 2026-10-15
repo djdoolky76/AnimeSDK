@@ -11,6 +11,8 @@ namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyMod
 #define GGLKJLLMHBN_HGONPBCKOGM_OFFSET UNITYSDK_OFFSET(0x15A0FAC0)
 #define GGLKJLLMHBN_SET_PROPERTYREPOSITORY_OFFSET UNITYSDK_OFFSET(0x15A0F770)
 
+inline static constexpr unsigned int GGLKJLLMHBN_TypeDefinitionIndex = 62715;
+
 	class GGLKJLLMHBN
 	{
 	public:

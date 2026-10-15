@@ -4,6 +4,8 @@ namespace RPG::Client { template <typename T> class RefList_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RefList_1_Enumerator_TypeDefinitionIndex = 35252;
+
 	template <typename T>
 	struct alignas(8) RefList_1_Enumerator
 	{

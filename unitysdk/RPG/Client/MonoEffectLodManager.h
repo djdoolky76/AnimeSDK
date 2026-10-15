@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectLodManager_TypeDefinitionIndex = 69912;
+
 	class MonoEffectLodManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

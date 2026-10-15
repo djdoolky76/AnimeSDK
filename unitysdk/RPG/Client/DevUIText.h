@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DevUIText_TypeDefinitionIndex = 72523;
+
 	class DevUIText : public ::UnityEngine::UI::Text
 	{
 	public:

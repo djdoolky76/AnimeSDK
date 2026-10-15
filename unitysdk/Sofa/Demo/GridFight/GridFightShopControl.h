@@ -13,6 +13,8 @@ namespace UnityEngine { class Animation; }
 
 namespace Sofa::Demo::GridFight
 {
+	inline static constexpr unsigned int GridFightShopControl_TypeDefinitionIndex = 49709;
+
 	class GridFightShopControl
 	{
 	public:

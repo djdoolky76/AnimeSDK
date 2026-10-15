@@ -9,6 +9,8 @@ namespace UnityEngine { class Animator; }
 #define FBAJLKHNLHH_MPGLJNHHKDF_OFFSET UNITYSDK_OFFSET(0x1568E540)
 #define FBAJLKHNLHH__ONBIND_OFFSET UNITYSDK_OFFSET(0x1568E320)
 
+inline static constexpr unsigned int FBAJLKHNLHH_TypeDefinitionIndex = 71820;
+
 	class FBAJLKHNLHH : public ::FMPCODLIOLG
 	{
 	public:

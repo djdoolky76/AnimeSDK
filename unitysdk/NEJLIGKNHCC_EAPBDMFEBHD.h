@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define NEJLIGKNHCC_EAPBDMFEBHD_CTOR_OFFSET UNITYSDK_OFFSET(0xBB66E60)
 #define NEJLIGKNHCC_EAPBDMFEBHD_DAALMLAPAMJ_OFFSET UNITYSDK_OFFSET(0xBB66830)
 
+inline static constexpr unsigned int NEJLIGKNHCC_EAPBDMFEBHD_TypeDefinitionIndex = 69288;
+
 	class NEJLIGKNHCC_EAPBDMFEBHD : public ::System::Object
 	{
 	public:

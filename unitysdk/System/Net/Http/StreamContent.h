@@ -15,6 +15,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Net::Http
 {
+	inline static constexpr unsigned int StreamContent_TypeDefinitionIndex = 3775;
+
 	class StreamContent : public ::System::Net::Http::HttpContent
 	{
 	public:

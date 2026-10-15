@@ -87,6 +87,8 @@ namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GameObject_TypeDefinitionIndex = 4328;
+
 	class GameObject : public ::UnityEngine::Object
 	{
 	public:

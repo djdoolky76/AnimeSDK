@@ -11,6 +11,8 @@ namespace RPG::GameCore::Booklet { class StepConfig; }
 
 namespace RPG::GameCore::Booklet
 {
+	inline static constexpr unsigned int ParallelStepConfig_TypeDefinitionIndex = 24977;
+
 	class ParallelStepConfig : public ::RPG::GameCore::Booklet::StepConfig
 	{
 	public:

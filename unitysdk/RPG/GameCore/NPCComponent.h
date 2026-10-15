@@ -139,6 +139,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NPCComponent_TypeDefinitionIndex = 57107;
+
 	class NPCComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

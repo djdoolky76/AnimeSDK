@@ -4,6 +4,8 @@ namespace UnityEngine::Pooled { template <typename T> class IPooledList_1; }
 
 namespace UnityEngine::Pooled
 {
+	inline static constexpr unsigned int PooledList_1_Enumerator_TypeDefinitionIndex = 4530;
+
 	template <typename T>
 	struct alignas(8) PooledList_1_Enumerator
 	{

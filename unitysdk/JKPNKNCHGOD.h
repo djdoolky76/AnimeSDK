@@ -9,6 +9,8 @@ namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyMod
 #define JKPNKNCHGOD_CTOR_OFFSET UNITYSDK_OFFSET(0xB22EAF0)
 #define JKPNKNCHGOD_RESET_OFFSET UNITYSDK_OFFSET(0xB22EE50)
 
+inline static constexpr unsigned int JKPNKNCHGOD_TypeDefinitionIndex = 75118;
+
 	class JKPNKNCHGOD : public ::System::Object
 	{
 	public:

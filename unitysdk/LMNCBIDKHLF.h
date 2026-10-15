@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LMNCBIDKHLF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9AC4B0)
 #define LMNCBIDKHLF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9AC510)
 
+inline static constexpr unsigned int LMNCBIDKHLF_TypeDefinitionIndex = 33607;
+
 	class LMNCBIDKHLF : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class String; }
 #define ELDOKLOMKNL_NKFKGHLMMNK_OFFSET UNITYSDK_OFFSET(0x1551E2E0)
 #define ELDOKLOMKNL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1551E330)
 
+inline static constexpr unsigned int ELDOKLOMKNL_TypeDefinitionIndex = 59613;
+
 	class ELDOKLOMKNL : public ::System::Object
 	{
 	public:

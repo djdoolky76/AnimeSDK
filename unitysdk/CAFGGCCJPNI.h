@@ -9,6 +9,8 @@ class GNFKIEAGDHL;
 #define CAFGGCCJPNI_GET_ROUTEID_OFFSET UNITYSDK_OFFSET(0xC47B810)
 #define CAFGGCCJPNI_GET_TEAMMEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0xC47B840)
 
+inline static constexpr unsigned int CAFGGCCJPNI_TypeDefinitionIndex = 63877;
+
 	class CAFGGCCJPNI : public ::System::Object
 	{
 	public:

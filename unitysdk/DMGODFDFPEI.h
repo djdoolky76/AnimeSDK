@@ -29,6 +29,8 @@ namespace System { class String; }
 #define DMGODFDFPEI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1ED980)
 #define DMGODFDFPEI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1ED9E0)
 
+inline static constexpr unsigned int DMGODFDFPEI_TypeDefinitionIndex = 27305;
+
 	class DMGODFDFPEI : public ::System::Object
 	{
 	public:

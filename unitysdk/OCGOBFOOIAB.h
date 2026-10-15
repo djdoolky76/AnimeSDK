@@ -20,6 +20,8 @@ namespace RPG::Client { class MonoInflatableFighter; }
 #define OCGOBFOOIAB_SET_ISUNDERLOWCUT_OFFSET UNITYSDK_OFFSET(0xBD61550)
 #define OCGOBFOOIAB_SET_PRESSURE_OFFSET UNITYSDK_OFFSET(0xBD614A0)
 
+inline static constexpr unsigned int OCGOBFOOIAB_TypeDefinitionIndex = 68684;
+
 	class OCGOBFOOIAB : public ::System::Object
 	{
 	public:

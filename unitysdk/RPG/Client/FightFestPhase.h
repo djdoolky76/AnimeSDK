@@ -31,6 +31,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FightFestPhase_TypeDefinitionIndex = 64179;
+
 	class FightFestPhase : public ::System::Object
 	{
 	public:

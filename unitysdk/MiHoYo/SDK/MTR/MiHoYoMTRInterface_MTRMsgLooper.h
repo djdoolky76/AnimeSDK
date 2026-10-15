@@ -11,6 +11,8 @@ namespace MiHoYo::SDK::MTR { class MiHoYoMTRInterface_MTRMsgLooper; }
 
 namespace MiHoYo::SDK::MTR
 {
+	inline static constexpr unsigned int MiHoYoMTRInterface_MTRMsgLooper_TypeDefinitionIndex = 46685;
+
 	class MiHoYoMTRInterface_MTRMsgLooper : public ::UnityEngine::MonoBehaviour
 	{
 	public:

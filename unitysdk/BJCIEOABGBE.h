@@ -5,6 +5,8 @@
 
 #define BJCIEOABGBE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5BF940)
 
+inline static constexpr unsigned int BJCIEOABGBE_TypeDefinitionIndex = 36834;
+
 	class BJCIEOABGBE : public ::System::Object
 	{
 	public:

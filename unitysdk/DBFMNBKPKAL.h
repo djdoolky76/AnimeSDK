@@ -8,6 +8,8 @@ namespace System::Collections { class IEnumerator; }
 #define DBFMNBKPKAL_CTOR_OFFSET UNITYSDK_OFFSET(0xDFE0D20)
 #define DBFMNBKPKAL_DBIJFBJGGGN_OFFSET UNITYSDK_OFFSET(0xDFE0D30)
 
+inline static constexpr unsigned int DBFMNBKPKAL_TypeDefinitionIndex = 69342;
+
 	class DBFMNBKPKAL : public ::System::Object
 	{
 	public:

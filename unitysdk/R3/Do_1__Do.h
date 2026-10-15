@@ -7,6 +7,8 @@ namespace System { class Exception; }
 
 namespace R3
 {
+	inline static constexpr unsigned int Do_1__Do_TypeDefinitionIndex = 35942;
+
 	template <typename T>
 	class Do_1__Do
 	{

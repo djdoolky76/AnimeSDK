@@ -31,6 +31,8 @@ namespace System { class String; }
 #define ILDOMDOFEPK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6AB280)
 #define ILDOMDOFEPK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6AB2E0)
 
+inline static constexpr unsigned int ILDOMDOFEPK_TypeDefinitionIndex = 32504;
+
 	class ILDOMDOFEPK : public ::System::Object
 	{
 	public:

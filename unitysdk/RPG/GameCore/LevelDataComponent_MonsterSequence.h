@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelDataComponent_MonsterSequence_TypeDefinitionIndex = 57594;
+
 	class LevelDataComponent_MonsterSequence : public ::System::Object
 	{
 	public:

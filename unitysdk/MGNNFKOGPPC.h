@@ -9,6 +9,8 @@ namespace Entitas { class IGroup; }
 #define MGNNFKOGPPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C74C4C0)
 #define MGNNFKOGPPC_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C74C580)
 
+inline static constexpr unsigned int MGNNFKOGPPC_TypeDefinitionIndex = 37448;
+
 	class MGNNFKOGPPC : public ::System::Object
 	{
 	public:

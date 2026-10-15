@@ -9,6 +9,8 @@ namespace RPG::Client { class BaseGachaDecideData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GachaDecideUtils_TypeDefinitionIndex = 64296;
+
 	class GachaDecideUtils : public ::System::Object
 	{
 	public:

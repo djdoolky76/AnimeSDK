@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define NDAHMHCJMIP_CTOR_OFFSET UNITYSDK_OFFSET(0xBB1EA00)
 
+inline static constexpr unsigned int NDAHMHCJMIP_TypeDefinitionIndex = 77252;
+
 	class NDAHMHCJMIP : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define EGLAPJGFKPN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2965C0)
 #define EGLAPJGFKPN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E296620)
 
+inline static constexpr unsigned int EGLAPJGFKPN_TypeDefinitionIndex = 32854;
+
 	class EGLAPJGFKPN : public ::System::Object
 	{
 	public:

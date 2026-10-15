@@ -1099,6 +1099,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameCoreConfigLoader_TypeDefinitionIndex = 10401;
+
 	class GameCoreConfigLoader : public ::System::Object
 	{
 	public:

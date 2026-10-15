@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int Parser_DateTime_TypeDefinitionIndex = 3810;
+
 	class Parser_DateTime : public ::System::Object
 	{
 	public:

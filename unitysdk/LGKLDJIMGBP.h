@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TutorialBlockAndWait; }
 #define LGKLDJIMGBP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB69A440)
 #define LGKLDJIMGBP_TICK_OFFSET UNITYSDK_OFFSET(0xB69A490)
 
+inline static constexpr unsigned int LGKLDJIMGBP_TypeDefinitionIndex = 58814;
+
 	class LGKLDJIMGBP : public ::GELIALJDFBL
 	{
 	public:

@@ -14,6 +14,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int GaussianFilterKernel_TypeDefinitionIndex = 37780;
+
 	class GaussianFilterKernel : public ::System::Object
 	{
 	public:

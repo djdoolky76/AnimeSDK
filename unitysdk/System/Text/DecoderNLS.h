@@ -24,6 +24,8 @@ namespace System::Text { class Encoding; }
 
 namespace System::Text
 {
+	inline static constexpr unsigned int DecoderNLS_TypeDefinitionIndex = 475;
+
 	class DecoderNLS : public ::System::Text::Decoder
 	{
 	public:

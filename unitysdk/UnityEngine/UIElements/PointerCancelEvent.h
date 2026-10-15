@@ -9,6 +9,8 @@ namespace UnityEngine::UIElements { class IPanel; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int PointerCancelEvent_TypeDefinitionIndex = 5984;
+
 	class PointerCancelEvent
 	{
 	public:

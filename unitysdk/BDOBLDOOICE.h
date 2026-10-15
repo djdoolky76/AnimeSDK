@@ -30,6 +30,8 @@ namespace System { class String; }
 #define BDOBLDOOICE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E91CDB0)
 #define BDOBLDOOICE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E91CE10)
 
+inline static constexpr unsigned int BDOBLDOOICE_TypeDefinitionIndex = 31566;
+
 	class BDOBLDOOICE : public ::System::Object
 	{
 	public:

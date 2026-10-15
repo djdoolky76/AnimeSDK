@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Converter_2; }
 #define NJIOAKCLACC___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBC183B0)
 #define NJIOAKCLACC___C___ONTASKBEGINIMPL_B__17_0_OFFSET UNITYSDK_OFFSET(0xBC183C0)
 
+inline static constexpr unsigned int NJIOAKCLACC___c_TypeDefinitionIndex = 57924;
+
 	class NJIOAKCLACC___c : public ::System::Object
 	{
 	public:

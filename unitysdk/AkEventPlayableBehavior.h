@@ -30,6 +30,8 @@ namespace UnityEngine { class GameObject; }
 #define AKEVENTPLAYABLEBEHAVIOR_TRIGGERFADEIN_OFFSET UNITYSDK_OFFSET(0x1F591E00)
 #define AKEVENTPLAYABLEBEHAVIOR_TRIGGERFADEOUT_OFFSET UNITYSDK_OFFSET(0x1F591F10)
 
+inline static constexpr unsigned int AkEventPlayableBehavior_TypeDefinitionIndex = 44926;
+
 	class AkEventPlayableBehavior : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

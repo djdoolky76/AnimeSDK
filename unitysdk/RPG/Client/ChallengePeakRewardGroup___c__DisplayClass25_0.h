@@ -9,6 +9,8 @@ namespace RPG::Client { class ChallengePeakRewardGroup; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengePeakRewardGroup___c__DisplayClass25_0_TypeDefinitionIndex = 63185;
+
 	class ChallengePeakRewardGroup___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Entitas
 {
+	inline static constexpr unsigned int Systems_TypeDefinitionIndex = 10055;
+
 	class Systems : public ::System::Object
 	{
 	public:

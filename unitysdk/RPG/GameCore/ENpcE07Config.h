@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ENpcE07Config_TypeDefinitionIndex = 16520;
+
 	class ENpcE07Config : public ::RPG::GameCore::JsonConfig
 	{
 	public:

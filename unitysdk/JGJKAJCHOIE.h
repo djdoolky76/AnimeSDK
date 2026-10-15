@@ -17,6 +17,8 @@ namespace UnityEngine { class GameObject; }
 #define JGJKAJCHOIE_PAFCMAMJENB_OFFSET UNITYSDK_OFFSET(0xB19AC10)
 #define JGJKAJCHOIE_SET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xB19AD90)
 
+inline static constexpr unsigned int JGJKAJCHOIE_TypeDefinitionIndex = 76543;
+
 	class JGJKAJCHOIE : public ::MKHNMHOHEAK
 	{
 	public:

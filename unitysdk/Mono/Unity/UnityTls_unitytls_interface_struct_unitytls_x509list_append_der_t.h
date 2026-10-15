@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace Mono::Unity
 {
+	inline static constexpr unsigned int UnityTls_unitytls_interface_struct_unitytls_x509list_append_der_t_TypeDefinitionIndex = 2382;
+
 	class UnityTls_unitytls_interface_struct_unitytls_x509list_append_der_t : public ::System::MulticastDelegate
 	{
 	public:

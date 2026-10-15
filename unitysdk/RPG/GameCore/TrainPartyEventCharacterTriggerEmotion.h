@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyEventCharacterTriggerEmotion_TypeDefinitionIndex = 22369;
+
 	class TrainPartyEventCharacterTriggerEmotion : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LKDLCJELFCM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1080F0)
 #define LKDLCJELFCM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D107D90)
 
+inline static constexpr unsigned int LKDLCJELFCM_TypeDefinitionIndex = 12004;
+
 	class LKDLCJELFCM : public ::System::Object
 	{
 	public:

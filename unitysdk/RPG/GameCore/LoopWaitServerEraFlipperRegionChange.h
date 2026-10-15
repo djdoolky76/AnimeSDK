@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LoopWaitServerEraFlipperRegionChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoopWaitServerEraFlipperRegionChange_TypeDefinitionIndex = 22347;
+
 	class LoopWaitServerEraFlipperRegionChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:

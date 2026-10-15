@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OKKEMIFLDEO_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0xBEDC200)
 #define OKKEMIFLDEO_OKPFCPPFLOJ_OFFSET UNITYSDK_OFFSET(0xBEDDC70)
 
+inline static constexpr unsigned int OKKEMIFLDEO_TypeDefinitionIndex = 56029;
+
 	class OKKEMIFLDEO : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TerrainStageLodConfig_TypeDefinitionIndex = 19205;
+
 	class TerrainStageLodConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Xml::Schema { class NamespaceList; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlSchemaAny_TypeDefinitionIndex = 2185;
+
 	class XmlSchemaAny : public ::System::Xml::Schema::XmlSchemaParticle
 	{
 	public:

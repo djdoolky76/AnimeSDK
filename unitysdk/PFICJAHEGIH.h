@@ -40,6 +40,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define PFICJAHEGIH_OGJOHNGPGCP_OFFSET UNITYSDK_OFFSET(0xC211820)
 #define PFICJAHEGIH_PIHIIEAJLDE_OFFSET UNITYSDK_OFFSET(0xC211960)
 
+inline static constexpr unsigned int PFICJAHEGIH_TypeDefinitionIndex = 74610;
+
 	class PFICJAHEGIH : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ class IGDMEOFGJAH;
 #define IGDMEOFGJAH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CEF9F30)
 #define IGDMEOFGJAH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEF9EF0)
 
+inline static constexpr unsigned int IGDMEOFGJAH_TypeDefinitionIndex = 19883;
+
 	class IGDMEOFGJAH : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitRotatableRegionLoadFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitRotatableRegionLoadFinish_TypeDefinitionIndex = 20916;
+
 	class WaitRotatableRegionLoadFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

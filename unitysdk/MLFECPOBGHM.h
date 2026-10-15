@@ -7,6 +7,8 @@ namespace RPG::GameCore { class FiveDimDashOrbConfig; }
 #define MLFECPOBGHM_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C92C9A0)
 #define MLFECPOBGHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92CA00)
 
+inline static constexpr unsigned int MLFECPOBGHM_TypeDefinitionIndex = 43510;
+
 	class MLFECPOBGHM : public ::System::Object
 	{
 	public:

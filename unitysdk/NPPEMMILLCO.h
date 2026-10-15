@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int NPPEMMILLCO_TypeDefinitionIndex = 25723;
+
 	enum class NPPEMMILLCO : ::System::Int32
 	{
 		HGLIFJGHADE = 0,

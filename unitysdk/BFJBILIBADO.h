@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BFJBILIBADO_GET_MAPS_OFFSET UNITYSDK_OFFSET(0xB16ECC0)
 #define BFJBILIBADO_GKKDODPDBLA_OFFSET UNITYSDK_OFFSET(0xB16ED50)
 
+inline static constexpr unsigned int BFJBILIBADO_TypeDefinitionIndex = 63927;
+
 	class BFJBILIBADO : public ::System::Object
 	{
 	public:

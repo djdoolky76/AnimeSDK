@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimSetBillboardInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetBillboardInfo_TypeDefinitionIndex = 21479;
+
 	class FiveDimSetBillboardInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -5,6 +5,8 @@ namespace RPG::Client { class BaseGachaGroupData; }
 
 #define NHDIDLJECBI_IKOHPADGMJL_OFFSET UNITYSDK_OFFSET(0xBBBEA50)
 
+inline static constexpr unsigned int NHDIDLJECBI_TypeDefinitionIndex = 64320;
+
 	class NHDIDLJECBI : public ::System::Object
 	{
 	public:

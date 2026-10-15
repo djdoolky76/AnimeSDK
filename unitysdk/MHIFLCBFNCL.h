@@ -14,6 +14,8 @@ namespace UnityEngine { class Animator; }
 #define MHIFLCBFNCL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB93B440)
 #define MHIFLCBFNCL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB93B3F0)
 
+inline static constexpr unsigned int MHIFLCBFNCL_TypeDefinitionIndex = 52748;
+
 	class MHIFLCBFNCL
 	{
 	public:

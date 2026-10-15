@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RecordUseAvatarGlobalBuff; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RecordUseAvatarGlobalBuff_TypeDefinitionIndex = 23421;
+
 	class RecordUseAvatarGlobalBuff : public ::RPG::GameCore::TaskConfig
 	{
 	public:

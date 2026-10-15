@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameLevelVariableFixPoint; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameLevelVariableFixPoint_TypeDefinitionIndex = 18902;
+
 	class LittleGameLevelVariableFixPoint : public ::RPG::GameCore::LittleGameLevelVariable
 	{
 	public:

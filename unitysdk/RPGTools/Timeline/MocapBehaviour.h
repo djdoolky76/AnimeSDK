@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int MocapBehaviour_TypeDefinitionIndex = 48189;
+
 	class MocapBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

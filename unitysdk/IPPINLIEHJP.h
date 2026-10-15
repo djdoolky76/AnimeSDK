@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TriggerDeadHandler; }
 #define IPPINLIEHJP_CTOR_OFFSET UNITYSDK_OFFSET(0x16527340)
 #define IPPINLIEHJP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16527370)
 
+inline static constexpr unsigned int IPPINLIEHJP_TypeDefinitionIndex = 56466;
+
 	class IPPINLIEHJP
 	{
 	public:

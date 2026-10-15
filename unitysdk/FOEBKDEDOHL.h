@@ -17,6 +17,8 @@ class LNHACPACCKH;
 #define FOEBKDEDOHL_NOJIPMKAGON_OFFSET UNITYSDK_OFFSET(0x1C625FD0)
 #define FOEBKDEDOHL_PNJODACLLPH_OFFSET UNITYSDK_OFFSET(0x1C625FC0)
 
+inline static constexpr unsigned int FOEBKDEDOHL_TypeDefinitionIndex = 37101;
+
 	class FOEBKDEDOHL : public ::System::Object
 	{
 	public:

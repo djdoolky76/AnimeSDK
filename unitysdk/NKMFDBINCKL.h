@@ -8,6 +8,8 @@ class NKMFDBINCKL;
 #define NKMFDBINCKL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2308B0)
 #define NKMFDBINCKL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2306F0)
 
+inline static constexpr unsigned int NKMFDBINCKL_TypeDefinitionIndex = 12483;
+
 	class NKMFDBINCKL : public ::System::Object
 	{
 	public:

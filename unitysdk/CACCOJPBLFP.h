@@ -6,6 +6,8 @@ class DHAEANMEFLE;
 #define CACCOJPBLFP_EGLMGIIHDKA_OFFSET UNITYSDK_OFFSET(0xC1BDC40)
 #define CACCOJPBLFP_PNLGDDFHCNC_OFFSET UNITYSDK_OFFSET(0xC1BDB40)
 
+inline static constexpr unsigned int CACCOJPBLFP_TypeDefinitionIndex = 60819;
+
 	class CACCOJPBLFP : public ::System::Object
 	{
 	public:

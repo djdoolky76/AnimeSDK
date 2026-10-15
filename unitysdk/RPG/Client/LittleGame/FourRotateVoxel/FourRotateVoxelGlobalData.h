@@ -13,6 +13,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
+	inline static constexpr unsigned int FourRotateVoxelGlobalData_TypeDefinitionIndex = 76856;
+
 	class FourRotateVoxelGlobalData : public ::UnityEngine::MonoBehaviour
 	{
 	public:

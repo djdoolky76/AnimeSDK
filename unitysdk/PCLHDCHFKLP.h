@@ -34,6 +34,8 @@ namespace System { class String; }
 #define PCLHDCHFKLP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF0A2E0)
 #define PCLHDCHFKLP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF0A340)
 
+inline static constexpr unsigned int PCLHDCHFKLP_TypeDefinitionIndex = 26995;
+
 	class PCLHDCHFKLP : public ::System::Object
 	{
 	public:

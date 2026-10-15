@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AvatarPathItemTransferRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarPathItemTransferRow_TypeDefinitionIndex = 12801;
+
 	class AvatarPathItemTransferRow : public ::System::Object
 	{
 	public:

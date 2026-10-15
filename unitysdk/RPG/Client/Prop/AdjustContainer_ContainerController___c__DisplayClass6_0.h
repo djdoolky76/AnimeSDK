@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int AdjustContainer_ContainerController___c__DisplayClass6_0_TypeDefinitionIndex = 78197;
+
 	class AdjustContainer_ContainerController___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

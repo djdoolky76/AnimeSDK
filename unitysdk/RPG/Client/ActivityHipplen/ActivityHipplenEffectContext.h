@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenEffectContext_TypeDefinitionIndex = 75496;
+
 	class ActivityHipplenEffectContext : public ::System::Object
 	{
 	public:

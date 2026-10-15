@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BAPartVariantRes_LoadState_TypeDefinitionIndex = 69524;
+
 	enum class BAPartVariantRes_LoadState : ::System::Int32
 	{
 		Uninitialized = 0,

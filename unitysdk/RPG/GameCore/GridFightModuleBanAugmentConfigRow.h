@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightModuleBanAugmentConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModuleBanAugmentConfigRow_TypeDefinitionIndex = 13477;
+
 	class GridFightModuleBanAugmentConfigRow : public ::System::Object
 	{
 	public:

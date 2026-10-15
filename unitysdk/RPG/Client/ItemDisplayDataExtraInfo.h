@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ItemDisplayDataExtraInfo_TypeDefinitionIndex = 65711;
+
 	class ItemDisplayDataExtraInfo : public ::System::Object
 	{
 	public:

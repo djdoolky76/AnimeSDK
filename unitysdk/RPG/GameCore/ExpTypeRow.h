@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ExpTypeRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ExpTypeRow_TypeDefinitionIndex = 12747;
+
 	class ExpTypeRow : public ::System::Object
 	{
 	public:

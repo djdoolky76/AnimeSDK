@@ -31,6 +31,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int ItemList_TypeDefinitionIndex = 27784;
+
 	class ItemList : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BEAIFOBHLAK_CTOR_OFFSET UNITYSDK_OFFSET(0x16309180)
 #define BEAIFOBHLAK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x163091B0)
 
+inline static constexpr unsigned int BEAIFOBHLAK_TypeDefinitionIndex = 55599;
+
 	class BEAIFOBHLAK
 	{
 	public:

@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace Mono::Security::Cryptography
 {
+	inline static constexpr unsigned int RSAManaged_TypeDefinitionIndex = 76;
+
 	class RSAManaged : public ::System::Security::Cryptography::RSA
 	{
 	public:

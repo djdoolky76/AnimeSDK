@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CGKAAPEOLNB_OPDLLNNEBPF_OFFSET UNITYSDK_OFFSET(0xCC8A500)
 #define CGKAAPEOLNB_TICK_OFFSET UNITYSDK_OFFSET(0xCC8A600)
 
+inline static constexpr unsigned int CGKAAPEOLNB_TypeDefinitionIndex = 58063;
+
 	class CGKAAPEOLNB : public ::GELIALJDFBL
 	{
 	public:

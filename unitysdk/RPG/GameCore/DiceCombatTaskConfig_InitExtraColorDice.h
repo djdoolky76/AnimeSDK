@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_InitExtraColorDice; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_InitExtraColorDice_TypeDefinitionIndex = 16056;
+
 	class DiceCombatTaskConfig_InitExtraColorDice : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

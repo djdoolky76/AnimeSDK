@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ELANINIDLGJ_NJDMJODMLFF_OFFSET UNITYSDK_OFFSET(0x1551AE00)
 #define ELANINIDLGJ_OCKDFBGAFNM_OFFSET UNITYSDK_OFFSET(0x1551B430)
 
+inline static constexpr unsigned int ELANINIDLGJ_TypeDefinitionIndex = 63896;
+
 	class ELANINIDLGJ : public ::System::Object
 	{
 	public:

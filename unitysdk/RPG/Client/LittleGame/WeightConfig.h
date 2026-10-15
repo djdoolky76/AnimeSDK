@@ -6,6 +6,8 @@
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int WeightConfig_TypeDefinitionIndex = 42313;
+
 	class WeightConfig : public ::System::Object
 	{
 	public:

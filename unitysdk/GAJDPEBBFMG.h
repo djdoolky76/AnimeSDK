@@ -28,6 +28,8 @@ namespace System { class String; }
 #define GAJDPEBBFMG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E41E210)
 #define GAJDPEBBFMG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E41E270)
 
+inline static constexpr unsigned int GAJDPEBBFMG_TypeDefinitionIndex = 27272;
+
 	class GAJDPEBBFMG : public ::System::Object
 	{
 	public:

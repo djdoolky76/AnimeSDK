@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HDLCAPDIKJI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5512F0)
 #define HDLCAPDIKJI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E551300)
 
+inline static constexpr unsigned int HDLCAPDIKJI___c_TypeDefinitionIndex = 25763;
+
 	class HDLCAPDIKJI___c : public ::System::Object
 	{
 	public:

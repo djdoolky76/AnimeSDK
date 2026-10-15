@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RelateTimeRewindTargetMaterial_TypeDefinitionIndex = 20674;
+
 	class RelateTimeRewindTargetMaterial : public ::RPG::GameCore::TaskConfig
 	{
 	public:

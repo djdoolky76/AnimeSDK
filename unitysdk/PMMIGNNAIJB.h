@@ -22,6 +22,8 @@ namespace System { class String; }
 #define PMMIGNNAIJB_PBKNKEPNPPO_OFFSET UNITYSDK_OFFSET(0x1C7F5F00)
 #define PMMIGNNAIJB_PCOMAHEECDF_OFFSET UNITYSDK_OFFSET(0x1C7F5760)
 
+inline static constexpr unsigned int PMMIGNNAIJB_TypeDefinitionIndex = 36425;
+
 	class PMMIGNNAIJB : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
+	inline static constexpr unsigned int PSProductManager___c__DisplayClass15_0_TypeDefinitionIndex = 8849;
+
 	class PSProductManager___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

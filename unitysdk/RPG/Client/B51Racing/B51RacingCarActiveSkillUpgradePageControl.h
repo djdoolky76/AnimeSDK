@@ -40,6 +40,8 @@ namespace UnityEngine { class CanvasGroup; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingCarActiveSkillUpgradePageControl_TypeDefinitionIndex = 81728;
+
 	class B51RacingCarActiveSkillUpgradePageControl : public ::Sofa::BaseSofaControl
 	{
 	public:

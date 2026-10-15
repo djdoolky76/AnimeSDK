@@ -4,6 +4,8 @@
 
 #define ADDMLHHPOBC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C581660)
 
+inline static constexpr unsigned int ADDMLHHPOBC_TypeDefinitionIndex = 37232;
+
 	class ADDMLHHPOBC : public ::System::Object
 	{
 	public:

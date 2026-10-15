@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BAMIHIIOBNM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7BBF70)
 #define BAMIHIIOBNM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7BBFD0)
 
+inline static constexpr unsigned int BAMIHIIOBNM_TypeDefinitionIndex = 34877;
+
 	class BAMIHIIOBNM : public ::System::Object
 	{
 	public:

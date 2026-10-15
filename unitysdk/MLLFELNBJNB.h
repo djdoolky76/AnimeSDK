@@ -4,6 +4,8 @@
 #define MLLFELNBJNB_CTOR_OFFSET UNITYSDK_OFFSET(0xB9B8A70)
 #define MLLFELNBJNB_INITINTERNAL_OFFSET UNITYSDK_OFFSET(0xB9B8950)
 
+inline static constexpr unsigned int MLLFELNBJNB_TypeDefinitionIndex = 69744;
+
 	class MLLFELNBJNB
 	{
 	public:

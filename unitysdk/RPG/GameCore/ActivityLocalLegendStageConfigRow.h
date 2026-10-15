@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityLocalLegendStageConfigRow_TypeDefinitionIndex = 11840;
+
 	class ActivityLocalLegendStageConfigRow : public ::System::Object
 	{
 	public:

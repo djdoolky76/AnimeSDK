@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace SRDebugger::UI::Controls
 {
+	inline static constexpr unsigned int SRTabButton_TypeDefinitionIndex = 38040;
+
 	class SRTabButton : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

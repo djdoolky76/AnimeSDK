@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 #define AICDMFFGNIH_CTOR_OFFSET UNITYSDK_OFFSET(0xEBA0530)
 
+inline static constexpr unsigned int AICDMFFGNIH_TypeDefinitionIndex = 55774;
+
 	class AICDMFFGNIH : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AddGlobalDynamicOffsetIgnoreEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddGlobalDynamicOffsetIgnoreEntity_TypeDefinitionIndex = 22510;
+
 	class AddGlobalDynamicOffsetIgnoreEntity : public ::RPG::GameCore::TaskConfig
 	{
 	public:

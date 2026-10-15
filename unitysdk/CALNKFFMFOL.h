@@ -43,6 +43,8 @@ namespace System { class String; }
 #define CALNKFFMFOL___STARTFORMIDPACKPS_B__28_0_OFFSET UNITYSDK_OFFSET(0xC48C1D0)
 #define CALNKFFMFOL___STARTFORMIDPACK_B__29_0_OFFSET UNITYSDK_OFFSET(0xC48C270)
 
+inline static constexpr unsigned int CALNKFFMFOL_TypeDefinitionIndex = 61165;
+
 	class CALNKFFMFOL : public ::RPG::Client::LoginPhase
 	{
 	public:

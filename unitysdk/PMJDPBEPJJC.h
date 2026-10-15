@@ -22,6 +22,8 @@ namespace System { class Object; }
 #define PMJDPBEPJJC_ONRETURN_OFFSET UNITYSDK_OFFSET(0xC323300)
 #define PMJDPBEPJJC__ONBIND_OFFSET UNITYSDK_OFFSET(0xC322BE0)
 
+inline static constexpr unsigned int PMJDPBEPJJC_TypeDefinitionIndex = 71723;
+
 	class PMJDPBEPJJC : public ::FMPCODLIOLG
 	{
 	public:

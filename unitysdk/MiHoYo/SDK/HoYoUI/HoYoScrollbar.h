@@ -11,6 +11,8 @@ namespace MiHoYo::SDK::HoYoUI { class HoYoUIMeta; }
 
 namespace MiHoYo::SDK::HoYoUI
 {
+	inline static constexpr unsigned int HoYoScrollbar_TypeDefinitionIndex = 46715;
+
 	class HoYoScrollbar : public ::UnityEngine::UI::Scrollbar
 	{
 	public:

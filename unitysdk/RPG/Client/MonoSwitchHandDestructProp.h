@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoSwitchHandDestructProp_TypeDefinitionIndex = 68781;
+
 	class MonoSwitchHandDestructProp : public ::UnityEngine::MonoBehaviour
 	{
 	public:

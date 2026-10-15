@@ -19,6 +19,8 @@ namespace UnityEngine { class Animator; }
 #define NNOFLKFLHEM_SET_PARAMNAME_OFFSET UNITYSDK_OFFSET(0xBCDAE70)
 #define NNOFLKFLHEM_SET_STATENAME_OFFSET UNITYSDK_OFFSET(0xBCDAE50)
 
+inline static constexpr unsigned int NNOFLKFLHEM_TypeDefinitionIndex = 60178;
+
 	class NNOFLKFLHEM : public ::System::Object
 	{
 	public:

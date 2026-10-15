@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebDelegate_RegisterJSPostMessageDelegate_TypeDefinitionIndex = 7853;
+
 	class WebDelegate_RegisterJSPostMessageDelegate : public ::System::MulticastDelegate
 	{
 	public:

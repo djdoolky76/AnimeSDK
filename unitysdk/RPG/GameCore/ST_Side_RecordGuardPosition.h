@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Side_RecordGuardPosition; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_RecordGuardPosition_TypeDefinitionIndex = 20107;
+
 	class ST_Side_RecordGuardPosition : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

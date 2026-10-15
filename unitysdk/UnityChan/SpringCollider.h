@@ -11,6 +11,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace UnityChan
 {
+	inline static constexpr unsigned int SpringCollider_TypeDefinitionIndex = 47684;
+
 	class SpringCollider : public ::UnityEngine::MonoBehaviour
 	{
 	public:

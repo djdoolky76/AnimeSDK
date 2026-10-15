@@ -18,6 +18,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int FileDescriptor___c_TypeDefinitionIndex = 5544;
+
 	class FileDescriptor___c : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_CommitCD_TypeDefinitionIndex = 20135;
+
 	class ST_Side_CommitCD : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

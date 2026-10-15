@@ -12,6 +12,8 @@ namespace System { class String; }
 #define JOIPGBLMOLI_PDAENODHFCM_OFFSET UNITYSDK_OFFSET(0xB2A0D50)
 #define JOIPGBLMOLI_SET_ID_OFFSET UNITYSDK_OFFSET(0xB2A0D40)
 
+inline static constexpr unsigned int JOIPGBLMOLI_TypeDefinitionIndex = 61449;
+
 	class JOIPGBLMOLI : public ::System::Object
 	{
 	public:

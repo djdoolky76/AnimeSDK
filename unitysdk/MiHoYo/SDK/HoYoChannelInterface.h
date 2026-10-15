@@ -68,6 +68,8 @@ namespace System::Threading { class ManualResetEvent; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HoYoChannelInterface_TypeDefinitionIndex = 46523;
+
 	class HoYoChannelInterface : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class UnitHintTriggerConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SummonUnitTriggerConfig_TypeDefinitionIndex = 17603;
+
 	class SummonUnitTriggerConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

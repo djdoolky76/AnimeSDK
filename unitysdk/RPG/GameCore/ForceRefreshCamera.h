@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ForceRefreshCamera; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ForceRefreshCamera_TypeDefinitionIndex = 20823;
+
 	class ForceRefreshCamera : public ::RPG::GameCore::TaskConfig
 	{
 	public:

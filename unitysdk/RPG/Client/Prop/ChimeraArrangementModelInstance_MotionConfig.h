@@ -7,6 +7,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraArrangementModelInstance_MotionConfig_TypeDefinitionIndex = 78462;
+
 	class ChimeraArrangementModelInstance_MotionConfig : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierAddAugmentSelectRerollCntConfig
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierAddAugmentSelectRerollCntConfig_TypeDefinitionIndex = 19470;
+
 	class GridFightModifierAddAugmentSelectRerollCntConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

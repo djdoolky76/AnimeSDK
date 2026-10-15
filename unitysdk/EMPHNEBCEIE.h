@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define EMPHNEBCEIE_NFAAKEHMPFA_OFFSET UNITYSDK_OFFSET(0x155A4280)
 #define EMPHNEBCEIE_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x155A4420)
 
+inline static constexpr unsigned int EMPHNEBCEIE_TypeDefinitionIndex = 56295;
+
 	class EMPHNEBCEIE : public ::System::Object
 	{
 	public:

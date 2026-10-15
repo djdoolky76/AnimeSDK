@@ -6,6 +6,8 @@ namespace RPG::Client { class MapEntityDef; }
 #define FIKJKAMAPGJ___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x157AC700)
 #define FIKJKAMAPGJ___C__DISPLAYCLASS5_0__REMOVESERVERENTITYDEF_B__0_OFFSET UNITYSDK_OFFSET(0x157ACF00)
 
+inline static constexpr unsigned int FIKJKAMAPGJ___c__DisplayClass5_0_TypeDefinitionIndex = 62131;
+
 	class FIKJKAMAPGJ___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

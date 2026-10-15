@@ -7,6 +7,8 @@ class LMEOENBOKCK;
 #define LMEOENBOKCK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D113A70)
 #define LMEOENBOKCK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1138D0)
 
+inline static constexpr unsigned int LMEOENBOKCK_TypeDefinitionIndex = 14413;
+
 	class LMEOENBOKCK : public ::System::Object
 	{
 	public:

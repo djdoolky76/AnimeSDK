@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define PJMEOOFGEJO_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xC29B800)
 #define PJMEOOFGEJO_PNIEFOONFOP_OFFSET UNITYSDK_OFFSET(0xC29B090)
 
+inline static constexpr unsigned int PJMEOOFGEJO_TypeDefinitionIndex = 75040;
+
 	class PJMEOOFGEJO : public ::System::Object
 	{
 	public:

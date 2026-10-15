@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameFormationEditor_UniqueDressRule___c__DisplayClass2_0_TypeDefinitionIndex = 64638;
+
 	class GridFightGameFormationEditor_UniqueDressRule___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

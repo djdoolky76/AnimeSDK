@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Main_TeleportToBornPos; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_TeleportToBornPos_TypeDefinitionIndex = 20099;
+
 	class ST_Main_TeleportToBornPos : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

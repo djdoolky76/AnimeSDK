@@ -42,6 +42,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPGTools::LDWhiteBox
 {
+	inline static constexpr unsigned int WhiteBoxRegion_TypeDefinitionIndex = 48959;
+
 	class WhiteBoxRegion : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -15,6 +15,8 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int BezierShape_TypeDefinitionIndex = 44338;
+
 	class BezierShape : public ::UnityEngine::MonoBehaviour
 	{
 	public:

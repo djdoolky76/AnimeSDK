@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define ENBNCCLELDC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDAA1C0)
 
+inline static constexpr unsigned int ENBNCCLELDC_TypeDefinitionIndex = 24991;
+
 	class ENBNCCLELDC : public ::System::Attribute
 	{
 	public:

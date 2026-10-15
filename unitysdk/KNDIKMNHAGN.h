@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define KNDIKMNHAGN_CTOR_OFFSET UNITYSDK_OFFSET(0xB5806B0)
 
+inline static constexpr unsigned int KNDIKMNHAGN_TypeDefinitionIndex = 55593;
+
 	class KNDIKMNHAGN : public ::CFJDNIMHGOG
 	{
 	public:

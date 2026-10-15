@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define HGJOIBHLHIF__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x15CA7890)
 #define HGJOIBHLHIF__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x15CA7950)
 
+inline static constexpr unsigned int HGJOIBHLHIF_TypeDefinitionIndex = 52882;
+
 	class HGJOIBHLHIF
 	{
 	public:

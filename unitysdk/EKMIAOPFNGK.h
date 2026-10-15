@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 #define EKMIAOPFNGK_NHONNHCIOOJ_OFFSET UNITYSDK_OFFSET(0x1550D5C0)
 #define EKMIAOPFNGK_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0x1550D700)
 
+inline static constexpr unsigned int EKMIAOPFNGK_TypeDefinitionIndex = 68447;
+
 	class EKMIAOPFNGK : public ::System::Object
 	{
 	public:

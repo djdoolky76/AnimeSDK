@@ -23,6 +23,8 @@ namespace RPG::Client { class PlanetFesGachaResultAvatarFragmentsData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesGachaResultAvatarFragmentsData_TypeDefinitionIndex = 66600;
+
 	class PlanetFesGachaResultAvatarFragmentsData : public ::System::Object
 	{
 	public:

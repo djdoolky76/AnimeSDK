@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JDEOFNLOPFP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165C2600)
 #define JDEOFNLOPFP_TICK_OFFSET UNITYSDK_OFFSET(0x165C2840)
 
+inline static constexpr unsigned int JDEOFNLOPFP_TypeDefinitionIndex = 52883;
+
 	class JDEOFNLOPFP : public ::LLIBBDCFOHE
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System { class Nullable; }
 #define CFPNIJINMJA_NANJEPLECBE_OFFSET UNITYSDK_OFFSET(0xCC60360)
 #define CFPNIJINMJA_SET_OBTAINEDSCOREDETAIL_OFFSET UNITYSDK_OFFSET(0xCC60540)
 
+inline static constexpr unsigned int CFPNIJINMJA_TypeDefinitionIndex = 81607;
+
 	class CFPNIJINMJA : public ::System::Object
 	{
 	public:

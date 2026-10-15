@@ -23,6 +23,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginCharacterModelCapture_TypeDefinitionIndex = 70045;
+
 	class MonoEffectPluginCharacterModelCapture : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

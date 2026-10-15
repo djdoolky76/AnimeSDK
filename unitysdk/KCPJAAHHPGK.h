@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define KCPJAAHHPGK_GET_CONSTRAINTS_OFFSET UNITYSDK_OFFSET(0xB346310)
 #define KCPJAAHHPGK_SET_CONSTRAINTS_OFFSET UNITYSDK_OFFSET(0xB346320)
 
+inline static constexpr unsigned int KCPJAAHHPGK_TypeDefinitionIndex = 79569;
+
 	class KCPJAAHHPGK : public ::System::Object
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define CHKCPJLBOGE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0C9450)
 #define CHKCPJLBOGE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0C94B0)
 
+inline static constexpr unsigned int CHKCPJLBOGE_TypeDefinitionIndex = 29145;
+
 	class CHKCPJLBOGE : public ::System::Object
 	{
 	public:

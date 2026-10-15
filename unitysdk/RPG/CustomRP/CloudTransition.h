@@ -26,6 +26,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CloudTransition_TypeDefinitionIndex = 37729;
+
 	class CloudTransition : public ::UnityEngine::MonoBehaviour
 	{
 	public:

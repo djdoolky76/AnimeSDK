@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetDynamicValueByRogueDifficultyCompMappingParam
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByRogueDifficultyCompMappingParam_TypeDefinitionIndex = 21800;
+
 	class SetDynamicValueByRogueDifficultyCompMappingParam : public ::RPG::GameCore::SetDynamicValueParamBase
 	{
 	public:

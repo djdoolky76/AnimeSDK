@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define BDEHEINMEJB_NKOMKJECAFJ_OFFSET UNITYSDK_OFFSET(0x162F3CA0)
 #define BDEHEINMEJB_PHABMGMBNMP_OFFSET UNITYSDK_OFFSET(0x162F3BF0)
 
+inline static constexpr unsigned int BDEHEINMEJB_TypeDefinitionIndex = 64882;
+
 	class BDEHEINMEJB : public ::System::Object
 	{
 	public:

@@ -24,6 +24,8 @@ namespace UnityEngine { class Transform; }
 #define AKSURFACEREFLECTOR_SET_ACOUSTICTEXTURE_OFFSET UNITYSDK_OFFSET(0x1F60EC60)
 #define AKSURFACEREFLECTOR_UPDATEGEOMETRY_OFFSET UNITYSDK_OFFSET(0x1F60DD60)
 
+inline static constexpr unsigned int AkSurfaceReflector_TypeDefinitionIndex = 44956;
+
 	class AkSurfaceReflector : public ::UnityEngine::MonoBehaviour
 	{
 	public:

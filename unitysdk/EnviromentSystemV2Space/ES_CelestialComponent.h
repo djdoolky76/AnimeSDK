@@ -23,6 +23,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int ES_CelestialComponent_TypeDefinitionIndex = 49298;
+
 	class ES_CelestialComponent : public ::EnviromentSystemV2Space::PrefabPropertyComponent
 	{
 	public:

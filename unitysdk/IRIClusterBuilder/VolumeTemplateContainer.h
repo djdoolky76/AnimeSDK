@@ -10,6 +10,8 @@ namespace UnityEngine { class Material; }
 
 namespace IRIClusterBuilder
 {
+	inline static constexpr unsigned int VolumeTemplateContainer_TypeDefinitionIndex = 47753;
+
 	class VolumeTemplateContainer : public ::UnityEngine::ScriptableObject
 	{
 	public:

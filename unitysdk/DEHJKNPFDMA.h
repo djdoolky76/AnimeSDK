@@ -42,6 +42,8 @@ namespace System { class String; }
 #define DEHJKNPFDMA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E193E90)
 #define DEHJKNPFDMA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E193EF0)
 
+inline static constexpr unsigned int DEHJKNPFDMA_TypeDefinitionIndex = 30215;
+
 	class DEHJKNPFDMA : public ::System::Object
 	{
 	public:

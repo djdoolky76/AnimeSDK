@@ -5,6 +5,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace Collections::Pooled
 {
+	inline static constexpr unsigned int PooledDictionary_2_Enumerator_TypeDefinitionIndex = 5104;
+
 	template <typename T1, typename T2>
 	struct alignas(8) PooledDictionary_2_Enumerator
 	{

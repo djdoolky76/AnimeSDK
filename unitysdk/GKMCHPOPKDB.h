@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GKMCHPOPKDB_CTOR_OFFSET UNITYSDK_OFFSET(0x15AA27E0)
 #define GKMCHPOPKDB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15AA2810)
 
+inline static constexpr unsigned int GKMCHPOPKDB_TypeDefinitionIndex = 53396;
+
 	class GKMCHPOPKDB
 	{
 	public:

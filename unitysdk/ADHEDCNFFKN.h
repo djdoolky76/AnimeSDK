@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GridFightAssistantMessageConfigRow; }
 #define ADHEDCNFFKN_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB1393D0)
 #define ADHEDCNFFKN_CTOR_OFFSET UNITYSDK_OFFSET(0xB1394A0)
 
+inline static constexpr unsigned int ADHEDCNFFKN_TypeDefinitionIndex = 64368;
+
 	class ADHEDCNFFKN : public ::System::Object
 	{
 	public:

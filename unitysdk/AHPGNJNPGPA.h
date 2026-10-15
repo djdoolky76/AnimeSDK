@@ -8,6 +8,8 @@ namespace System { class String; }
 #define AHPGNJNPGPA_CTOR_OFFSET UNITYSDK_OFFSET(0xEB8C620)
 #define AHPGNJNPGPA_JFOFGJCINFA_OFFSET UNITYSDK_OFFSET(0xEB8C4F0)
 
+inline static constexpr unsigned int AHPGNJNPGPA_TypeDefinitionIndex = 54426;
+
 	class AHPGNJNPGPA : public ::System::Object
 	{
 	public:

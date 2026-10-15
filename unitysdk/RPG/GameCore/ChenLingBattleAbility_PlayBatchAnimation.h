@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAbility_PlayBatchAnimation_TypeDefinitionIndex = 15740;
+
 	class ChenLingBattleAbility_PlayBatchAnimation : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
 	public:

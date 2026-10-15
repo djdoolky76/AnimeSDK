@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JOMAECLEPIB_MCHILAAHBLH_OFFSET UNITYSDK_OFFSET(0xB2A8F80)
 #define JOMAECLEPIB_MGEFMEFCICP_OFFSET UNITYSDK_OFFSET(0xB2A9430)
 
+inline static constexpr unsigned int JOMAECLEPIB_TypeDefinitionIndex = 79762;
+
 	class JOMAECLEPIB : public ::System::Object
 	{
 	public:

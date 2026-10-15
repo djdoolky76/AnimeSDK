@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NPCPedestrianGPUAssetConfig_TypeDefinitionIndex = 69238;
+
 	class NPCPedestrianGPUAssetConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

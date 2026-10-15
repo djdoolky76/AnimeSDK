@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int UnityString_TypeDefinitionIndex = 3718;
+
 	class UnityString : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::Client { class LimaoNewsLimaoIconOptionTalkInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LimaoNewsLimaoIconOptionTalkInfo_TypeDefinitionIndex = 10244;
+
 	class LimaoNewsLimaoIconOptionTalkInfo : public ::RPG::GameCore::OptionTalkInfo
 	{
 	public:

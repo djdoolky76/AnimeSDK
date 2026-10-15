@@ -7,6 +7,8 @@ namespace RPG::Client { class PlanetFesTradingCardApplyItem; }
 #define JIGBEFNLENA___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB1F3600)
 #define JIGBEFNLENA___C__DISPLAYCLASS7_0__SYNC_B__0_OFFSET UNITYSDK_OFFSET(0xB1FA250)
 
+inline static constexpr unsigned int JIGBEFNLENA___c__DisplayClass7_0_TypeDefinitionIndex = 66591;
+
 	class JIGBEFNLENA___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

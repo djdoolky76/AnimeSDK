@@ -6,6 +6,8 @@ namespace System { class String; }
 #define IGEFJPHFMII_CTOR_OFFSET UNITYSDK_OFFSET(0x1640A5F0)
 #define IGEFJPHFMII_KAJOBJFIAMJ_OFFSET UNITYSDK_OFFSET(0x1640A580)
 
+inline static constexpr unsigned int IGEFJPHFMII_TypeDefinitionIndex = 77569;
+
 	class IGEFJPHFMII : public ::LEMPCCICHAA
 	{
 	public:

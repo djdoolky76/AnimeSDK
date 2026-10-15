@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DFIOFNAOPIC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD1A1C0)
 #define DFIOFNAOPIC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD19AE0)
 
+inline static constexpr unsigned int DFIOFNAOPIC_TypeDefinitionIndex = 14675;
+
 	class DFIOFNAOPIC : public ::System::Object
 	{
 	public:

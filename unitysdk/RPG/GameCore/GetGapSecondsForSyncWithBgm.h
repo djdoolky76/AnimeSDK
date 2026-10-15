@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GetGapSecondsForSyncWithBgm_TypeDefinitionIndex = 22834;
+
 	class GetGapSecondsForSyncWithBgm : public ::RPG::GameCore::TaskConfig
 	{
 	public:

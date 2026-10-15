@@ -8,6 +8,8 @@ namespace System { class String; }
 #define DKGLBAHLODM_CTOR_OFFSET UNITYSDK_OFFSET(0xF87B0A0)
 #define DKGLBAHLODM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF87B0D0)
 
+inline static constexpr unsigned int DKGLBAHLODM_TypeDefinitionIndex = 52731;
+
 	class DKGLBAHLODM
 	{
 	public:

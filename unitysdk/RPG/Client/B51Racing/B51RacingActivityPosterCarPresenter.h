@@ -22,6 +22,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingActivityPosterCarPresenter_TypeDefinitionIndex = 81954;
+
 	class B51RacingActivityPosterCarPresenter : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 #define ELICEANLIMM_MIOCDNNHIHE_OFFSET UNITYSDK_OFFSET(0x15520FD0)
 #define ELICEANLIMM_NCLIDHIAEFK_OFFSET UNITYSDK_OFFSET(0x15521480)
 
+inline static constexpr unsigned int ELICEANLIMM_TypeDefinitionIndex = 54630;
+
 	class ELICEANLIMM
 	{
 	public:

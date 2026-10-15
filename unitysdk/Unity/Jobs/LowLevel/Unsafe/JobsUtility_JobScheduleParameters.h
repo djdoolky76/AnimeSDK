@@ -7,6 +7,8 @@
 
 namespace Unity::Jobs::LowLevel::Unsafe
 {
+	inline static constexpr unsigned int JobsUtility_JobScheduleParameters_TypeDefinitionIndex = 3968;
+
 	struct alignas(4) JobsUtility_JobScheduleParameters
 	{
 		::Unity::Jobs::JobHandle Dependency; // 0x10

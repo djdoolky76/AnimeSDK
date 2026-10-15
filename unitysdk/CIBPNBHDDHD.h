@@ -8,6 +8,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 #define CIBPNBHDDHD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC142B0)
 #define CIBPNBHDDHD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC14070)
 
+inline static constexpr unsigned int CIBPNBHDDHD_TypeDefinitionIndex = 22722;
+
 	class CIBPNBHDDHD : public ::RPG::GameCore::JsonConfig
 	{
 	public:

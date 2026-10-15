@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleBuffToastNotify_TypeDefinitionIndex = 71542;
+
 	class BattleBuffToastNotify : public ::System::Object
 	{
 	public:

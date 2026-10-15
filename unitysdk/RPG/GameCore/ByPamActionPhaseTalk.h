@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByPamActionPhaseTalk_TypeDefinitionIndex = 20012;
+
 	class ByPamActionPhaseTalk : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Editor::EnvironmentSystemV2Editor
 {
+	inline static constexpr unsigned int CustomEditorBlock_TypeDefinitionIndex = 52079;
+
 	class CustomEditorBlock : public ::RPG::Editor::EnvironmentSystemV2Editor::EnvEditorBlock
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace RPG::Client::BlindBox::Pool
 {
+	inline static constexpr unsigned int BlindBoxOpenSetResult_TypeDefinitionIndex = 74959;
+
 	class BlindBoxOpenSetResult : public ::System::Object
 	{
 	public:

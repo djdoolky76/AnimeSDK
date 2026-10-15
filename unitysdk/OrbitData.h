@@ -5,6 +5,8 @@
 
 #define ORBITDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xBFB9280)
 
+inline static constexpr unsigned int OrbitData_TypeDefinitionIndex = 47305;
+
 	class OrbitData : public ::System::Object
 	{
 	public:

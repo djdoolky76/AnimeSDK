@@ -30,6 +30,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Internal
 {
+	inline static constexpr unsigned int PlayerLoopRunner_TypeDefinitionIndex = 38661;
+
 	class PlayerLoopRunner : public ::System::Object
 	{
 	public:

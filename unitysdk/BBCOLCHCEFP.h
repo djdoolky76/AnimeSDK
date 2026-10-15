@@ -44,6 +44,8 @@ namespace System { class String; }
 #define BBCOLCHCEFP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7BF270)
 #define BBCOLCHCEFP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7BF2D0)
 
+inline static constexpr unsigned int BBCOLCHCEFP_TypeDefinitionIndex = 33448;
+
 	class BBCOLCHCEFP : public ::System::Object
 	{
 	public:

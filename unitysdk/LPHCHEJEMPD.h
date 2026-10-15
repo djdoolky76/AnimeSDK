@@ -34,6 +34,8 @@ namespace System { class String; }
 #define LPHCHEJEMPD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9CD8C0)
 #define LPHCHEJEMPD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9CD920)
 
+inline static constexpr unsigned int LPHCHEJEMPD_TypeDefinitionIndex = 28800;
+
 	class LPHCHEJEMPD : public ::System::Object
 	{
 	public:

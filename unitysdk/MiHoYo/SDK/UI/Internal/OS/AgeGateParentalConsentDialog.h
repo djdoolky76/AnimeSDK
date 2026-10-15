@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
+	inline static constexpr unsigned int AgeGateParentalConsentDialog_TypeDefinitionIndex = 8418;
+
 	class AgeGateParentalConsentDialog : public ::System::Object
 	{
 	public:

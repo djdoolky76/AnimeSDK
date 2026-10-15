@@ -6,6 +6,8 @@
 #define LIFHPJGHLND_GET_ENABLEAUTOBLINK_OFFSET UNITYSDK_OFFSET(0xB6CAAE0)
 #define LIFHPJGHLND_SET_ENABLEAUTOBLINK_OFFSET UNITYSDK_OFFSET(0xB6CAAF0)
 
+inline static constexpr unsigned int LIFHPJGHLND_TypeDefinitionIndex = 47866;
+
 	class LIFHPJGHLND : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

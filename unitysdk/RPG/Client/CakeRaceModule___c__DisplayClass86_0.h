@@ -8,6 +8,8 @@ namespace RPG::Client { class CakeRaceModule; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeRaceModule___c__DisplayClass86_0_TypeDefinitionIndex = 63011;
+
 	class CakeRaceModule___c__DisplayClass86_0 : public ::System::Object
 	{
 	public:

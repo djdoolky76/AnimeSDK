@@ -20,6 +20,8 @@ namespace System::Runtime::CompilerServices { class IStrongBox; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int QuoteInstruction_ExpressionQuoter_TypeDefinitionIndex = 3660;
+
 	class QuoteInstruction_ExpressionQuoter : public ::System::Linq::Expressions::ExpressionVisitor
 	{
 	public:

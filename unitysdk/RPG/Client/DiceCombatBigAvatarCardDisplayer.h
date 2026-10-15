@@ -34,6 +34,8 @@ namespace UnityEngine::UI { class ScrollRect; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DiceCombatBigAvatarCardDisplayer_TypeDefinitionIndex = 63552;
+
 	class DiceCombatBigAvatarCardDisplayer : public ::System::Object
 	{
 	public:

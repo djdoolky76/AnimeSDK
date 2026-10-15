@@ -11,6 +11,8 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceSettleConfirmVie
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceSettleConfirmViewModel_Factory_TypeDefinitionIndex = 81619;
+
 	class ChallengeTierceSettleConfirmViewModel_Factory : public ::System::Object
 	{
 	public:

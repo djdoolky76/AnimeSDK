@@ -6,6 +6,8 @@ namespace System::IO { class Stream; }
 #define DJJLNLJPGMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F2870)
 #define DJJLNLJPGMJ_HMBFDGFCAFE_OFFSET UNITYSDK_OFFSET(0x1C5F2880)
 
+inline static constexpr unsigned int DJJLNLJPGMJ_TypeDefinitionIndex = 36887;
+
 	class DJJLNLJPGMJ : public ::System::Object
 	{
 	public:

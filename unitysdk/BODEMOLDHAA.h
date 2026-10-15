@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BODEMOLDHAA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0393E0)
 #define BODEMOLDHAA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E039440)
 
+inline static constexpr unsigned int BODEMOLDHAA_TypeDefinitionIndex = 34196;
+
 	class BODEMOLDHAA : public ::System::Object
 	{
 	public:

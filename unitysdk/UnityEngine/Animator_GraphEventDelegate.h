@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Animator_GraphEventDelegate_TypeDefinitionIndex = 5713;
+
 	class Animator_GraphEventDelegate : public ::System::MulticastDelegate
 	{
 	public:

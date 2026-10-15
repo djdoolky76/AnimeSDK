@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define KBDJIHAKDOD__ONPAGECANCELCLOSE_OFFSET UNITYSDK_OFFSET(0xB2F1AC0)
 #define KBDJIHAKDOD__ONPAGECONFIRMCLOSE_OFFSET UNITYSDK_OFFSET(0xB2F19D0)
 
+inline static constexpr unsigned int KBDJIHAKDOD_TypeDefinitionIndex = 58239;
+
 	class KBDJIHAKDOD
 	{
 	public:

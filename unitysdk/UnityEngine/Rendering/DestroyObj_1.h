@@ -4,6 +4,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DestroyObj_1_TypeDefinitionIndex = 35501;
+
 	template <typename T>
 	class DestroyObj_1 : public ::System::MulticastDelegate
 	{

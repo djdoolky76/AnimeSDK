@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimSetResetPointAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetResetPointAction_TypeDefinitionIndex = 18650;
+
 	class FiveDimSetResetPointAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

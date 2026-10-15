@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AttachMoveObject_TypeDefinitionIndex = 68865;
+
 	class AttachMoveObject : public ::System::Object
 	{
 	public:

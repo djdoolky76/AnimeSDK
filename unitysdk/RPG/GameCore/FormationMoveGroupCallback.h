@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FormationMoveGroupCallback_TypeDefinitionIndex = 21262;
+
 	class FormationMoveGroupCallback : public ::RPG::GameCore::TaskConfig
 	{
 	public:

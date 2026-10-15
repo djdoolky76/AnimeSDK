@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ClearNpcDistanceTrigger; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClearNpcDistanceTrigger_TypeDefinitionIndex = 20335;
+
 	class ClearNpcDistanceTrigger : public ::RPG::GameCore::TaskConfig
 	{
 	public:

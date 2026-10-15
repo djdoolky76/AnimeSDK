@@ -15,6 +15,8 @@ namespace System::Reflection { class RuntimeMethodInfo; }
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int DllImportAttribute_TypeDefinitionIndex = 1421;
+
 	class DllImportAttribute : public ::System::Attribute
 	{
 	public:

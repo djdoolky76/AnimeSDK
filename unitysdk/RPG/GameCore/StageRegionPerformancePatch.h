@@ -9,6 +9,8 @@ namespace RPG::GameCore { class StageRegionPerformancePatch; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageRegionPerformancePatch_TypeDefinitionIndex = 19193;
+
 	class StageRegionPerformancePatch : public ::RPG::GameCore::JsonConfig
 	{
 	public:

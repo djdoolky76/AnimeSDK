@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExPlaybackDebug_TypeDefinitionIndex = 40194;
+
 	class CriAtomExPlaybackDebug : public ::System::Object
 	{
 	public:

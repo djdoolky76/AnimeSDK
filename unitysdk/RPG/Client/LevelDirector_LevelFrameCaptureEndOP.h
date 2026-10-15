@@ -8,6 +8,8 @@ namespace UnityEngine::UI { class RawImage; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LevelDirector_LevelFrameCaptureEndOP_TypeDefinitionIndex = 59305;
+
 	class LevelDirector_LevelFrameCaptureEndOP : public ::System::Object
 	{
 	public:

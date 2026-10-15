@@ -8,6 +8,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int MinFloatParameter_TypeDefinitionIndex = 35635;
+
 	class MinFloatParameter : public ::UnityEngine::Rendering::FloatParameter
 	{
 	public:

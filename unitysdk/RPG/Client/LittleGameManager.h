@@ -35,6 +35,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LittleGameManager_TypeDefinitionIndex = 60572;
+
 	class LittleGameManager : public ::System::Object
 	{
 	public:

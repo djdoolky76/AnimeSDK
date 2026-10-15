@@ -58,6 +58,8 @@ namespace UnityEngine { class Object; }
 
 namespace RPG::Client::AssetSystem
 {
+	inline static constexpr unsigned int InstanceLoader_TypeDefinitionIndex = 41570;
+
 	class InstanceLoader : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EnterHipplenGame; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnterHipplenGame_TypeDefinitionIndex = 21304;
+
 	class EnterHipplenGame : public ::RPG::GameCore::TaskConfig
 	{
 	public:

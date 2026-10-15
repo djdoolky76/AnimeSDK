@@ -16,6 +16,8 @@
 
 namespace UnityEngine::Animations
 {
+	inline static constexpr unsigned int AnimationRemoveScalePlayable_TypeDefinitionIndex = 5757;
+
 	struct alignas(4) AnimationRemoveScalePlayable
 	{
 		::UnityEngine::Playables::PlayableHandle m_Handle; // 0x10

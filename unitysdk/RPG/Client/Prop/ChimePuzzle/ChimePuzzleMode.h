@@ -3,6 +3,8 @@
 
 namespace RPG::Client::Prop::ChimePuzzle
 {
+	inline static constexpr unsigned int ChimePuzzleMode_TypeDefinitionIndex = 78979;
+
 	enum class ChimePuzzleMode : ::System::Int32
 	{
 		SpecificCombination = 0,

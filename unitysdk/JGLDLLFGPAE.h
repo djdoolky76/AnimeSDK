@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JGLDLLFGPAE_ONSKIP_OFFSET UNITYSDK_OFFSET(0xB19E010)
 #define JGLDLLFGPAE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB19E150)
 
+inline static constexpr unsigned int JGLDLLFGPAE_TypeDefinitionIndex = 52485;
+
 	class JGLDLLFGPAE
 	{
 	public:

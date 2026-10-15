@@ -12,6 +12,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayableDirectorProgressController_TypeDefinitionIndex = 68898;
+
 	class PlayableDirectorProgressController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

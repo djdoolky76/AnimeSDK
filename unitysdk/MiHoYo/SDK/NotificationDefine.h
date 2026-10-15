@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int NotificationDefine_TypeDefinitionIndex = 7586;
+
 	class NotificationDefine : public ::System::Object
 	{
 	public:

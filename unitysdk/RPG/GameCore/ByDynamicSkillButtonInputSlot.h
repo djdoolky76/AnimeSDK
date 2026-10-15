@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByDynamicSkillButtonInputSlot_TypeDefinitionIndex = 22846;
+
 	class ByDynamicSkillButtonInputSlot : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

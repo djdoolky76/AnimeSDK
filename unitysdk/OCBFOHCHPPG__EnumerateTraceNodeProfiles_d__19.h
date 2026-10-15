@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define OCBFOHCHPPG__ENUMERATETRACENODEPROFILES_D__19_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBD57060)
 #define OCBFOHCHPPG__ENUMERATETRACENODEPROFILES_D__19___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xBD570A0)
 
+inline static constexpr unsigned int OCBFOHCHPPG__EnumerateTraceNodeProfiles_d__19_TypeDefinitionIndex = 51951;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19>
 	class OCBFOHCHPPG__EnumerateTraceNodeProfiles_d__19 : public ::System::Object
 	{

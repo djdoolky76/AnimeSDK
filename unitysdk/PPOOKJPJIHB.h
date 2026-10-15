@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define PPOOKJPJIHB__ISDATAREADYIMPL_OFFSET UNITYSDK_OFFSET(0xC399420)
 #define PPOOKJPJIHB__PREPAREDATAIMPL_OFFSET UNITYSDK_OFFSET(0xC399550)
 
+inline static constexpr unsigned int PPOOKJPJIHB_TypeDefinitionIndex = 59873;
+
 	class PPOOKJPJIHB : public ::RPG::Client::AsyncCheckItemBase
 	{
 	public:

@@ -26,6 +26,8 @@ namespace UnityEngine::UI { class ScrollRect; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int ConsoleUserAgreementDialog_TypeDefinitionIndex = 9010;
+
 	class ConsoleUserAgreementDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:

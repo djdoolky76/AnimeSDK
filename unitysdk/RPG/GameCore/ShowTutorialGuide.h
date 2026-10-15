@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowTutorialGuide_TypeDefinitionIndex = 24347;
+
 	class ShowTutorialGuide : public ::RPG::GameCore::TaskConfig
 	{
 	public:

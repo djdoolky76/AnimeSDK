@@ -10,6 +10,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define DFFGPCFBGLO_CTOR_OFFSET UNITYSDK_OFFSET(0xE827030)
 #define DFFGPCFBGLO_LOHGNGKHMII_OFFSET UNITYSDK_OFFSET(0xE8270B0)
 
+inline static constexpr unsigned int DFFGPCFBGLO_TypeDefinitionIndex = 62543;
+
 	class DFFGPCFBGLO : public ::System::Object
 	{
 	public:

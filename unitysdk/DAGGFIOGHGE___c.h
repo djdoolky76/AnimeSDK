@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DAGGFIOGHGE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E151B80)
 #define DAGGFIOGHGE___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E151B90)
 
+inline static constexpr unsigned int DAGGFIOGHGE___c_TypeDefinitionIndex = 31746;
+
 	class DAGGFIOGHGE___c : public ::System::Object
 	{
 	public:

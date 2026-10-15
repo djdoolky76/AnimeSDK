@@ -16,6 +16,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginCharaReplaceMatBase_TypeDefinitionIndex = 69985;
+
 	class MonoEffectPluginCharaReplaceMatBase : public ::RPG::Client::MonoEffectPluginCharaEffectBase
 	{
 	public:

@@ -8,6 +8,8 @@ class PEMFMPIPNJN;
 #define APBDMGABKHG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8A7A80)
 #define APBDMGABKHG_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C8A7A90)
 
+inline static constexpr unsigned int APBDMGABKHG_TypeDefinitionIndex = 42483;
+
 	class APBDMGABKHG : public ::System::Object
 	{
 	public:

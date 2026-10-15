@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MarbleByCasterAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleByCasterAction_TypeDefinitionIndex = 16877;
+
 	class MarbleByCasterAction : public ::RPG::GameCore::MarblePredicateConfig
 	{
 	public:

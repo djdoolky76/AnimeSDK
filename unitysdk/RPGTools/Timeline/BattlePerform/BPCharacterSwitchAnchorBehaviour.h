@@ -12,6 +12,8 @@ namespace RPGTools::Timeline::BattlePerform { class BPCharacterSwitchAnchorClip;
 
 namespace RPGTools::Timeline::BattlePerform
 {
+	inline static constexpr unsigned int BPCharacterSwitchAnchorBehaviour_TypeDefinitionIndex = 48823;
+
 	class BPCharacterSwitchAnchorBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

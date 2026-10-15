@@ -15,6 +15,8 @@ namespace UnityEngine::Timeline { class SignalAsset; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int SignalReceiver_EventKeyValue_TypeDefinitionIndex = 38836;
+
 	class SignalReceiver_EventKeyValue : public ::System::Object
 	{
 	public:

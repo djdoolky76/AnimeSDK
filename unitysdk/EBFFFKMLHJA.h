@@ -8,6 +8,8 @@ namespace RPG::Client::FateRin::Battle { class IFateRinBattleStatusViewModel; }
 #define EBFFFKMLHJA_COMPARE_OFFSET UNITYSDK_OFFSET(0x12CEF080)
 #define EBFFFKMLHJA_CTOR_OFFSET UNITYSDK_OFFSET(0x12CEF240)
 
+inline static constexpr unsigned int EBFFFKMLHJA_TypeDefinitionIndex = 80988;
+
 	class EBFFFKMLHJA : public ::System::Object
 	{
 	public:

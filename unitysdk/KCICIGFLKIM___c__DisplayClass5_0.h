@@ -8,6 +8,8 @@ namespace RPG::Client { class IAssetOperation; }
 #define KCICIGFLKIM___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB337B10)
 #define KCICIGFLKIM___C__DISPLAYCLASS5_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0xB337B20)
 
+inline static constexpr unsigned int KCICIGFLKIM___c__DisplayClass5_0_TypeDefinitionIndex = 82276;
+
 	class KCICIGFLKIM___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

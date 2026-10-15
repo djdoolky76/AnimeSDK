@@ -6,6 +6,8 @@ class PHILMGOOGCK;
 #define PHILMGOOGCK___C__DISPLAYCLASS35_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC24DAC0)
 #define PHILMGOOGCK___C__DISPLAYCLASS35_0__SETPREADD_B__0_OFFSET UNITYSDK_OFFSET(0xC24F190)
 
+inline static constexpr unsigned int PHILMGOOGCK___c__DisplayClass35_0_TypeDefinitionIndex = 72097;
+
 	class PHILMGOOGCK___c__DisplayClass35_0 : public ::System::Object
 	{
 	public:

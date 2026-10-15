@@ -11,6 +11,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AmphoreusActivityQuestTimeLimitData_TypeDefinitionIndex = 61590;
+
 	class AmphoreusActivityQuestTimeLimitData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

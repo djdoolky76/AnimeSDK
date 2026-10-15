@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightShowGuideHintWithText_TypeDefinitionIndex = 19974;
+
 	class GridFightShowGuideHintWithText : public ::RPG::GameCore::TaskConfig
 	{
 	public:

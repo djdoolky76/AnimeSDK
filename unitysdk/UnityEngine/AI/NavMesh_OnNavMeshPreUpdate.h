@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::AI
 {
+	inline static constexpr unsigned int NavMesh_OnNavMeshPreUpdate_TypeDefinitionIndex = 5658;
+
 	class NavMesh_OnNavMeshPreUpdate : public ::System::MulticastDelegate
 	{
 	public:

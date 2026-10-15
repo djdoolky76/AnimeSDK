@@ -12,6 +12,8 @@ namespace System { class String; }
 #define OBPPCEJPCJP_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xBD53B40)
 #define OBPPCEJPCJP__ONEXECUTE_B__1_0_OFFSET UNITYSDK_OFFSET(0xBD53C40)
 
+inline static constexpr unsigned int OBPPCEJPCJP_TypeDefinitionIndex = 74471;
+
 	class OBPPCEJPCJP : public ::MFDDEJCPLON
 	{
 	public:

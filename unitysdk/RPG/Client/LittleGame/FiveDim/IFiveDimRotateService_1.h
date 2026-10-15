@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int IFiveDimRotateService_1_TypeDefinitionIndex = 43605;
+
 	template <typename T>
 	class IFiveDimRotateService_1
 	{

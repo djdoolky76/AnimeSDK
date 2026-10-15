@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define ELPLMEGAJKA_CTOR_OFFSET UNITYSDK_OFFSET(0x15529D70)
 #define ELPLMEGAJKA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15529DA0)
 
+inline static constexpr unsigned int ELPLMEGAJKA_TypeDefinitionIndex = 55256;
+
 	class ELPLMEGAJKA
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::Client::ParkourGame { class ParkourSkillConfig_SuperStar; }
 #define MEHEPKNJPOA_BEIIPGBDCOL_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0xB8CF060)
 #define MEHEPKNJPOA_BEIIPGBDCOL_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB8CE480)
 
+inline static constexpr unsigned int MEHEPKNJPOA_BEIIPGBDCOL_TypeDefinitionIndex = 74176;
+
 	class MEHEPKNJPOA_BEIIPGBDCOL : public ::MEHEPKNJPOA_FANDKJFOLKB
 	{
 	public:

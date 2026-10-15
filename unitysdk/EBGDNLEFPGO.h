@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EBGDNLEFPGO_CTOR_OFFSET UNITYSDK_OFFSET(0x12CEFC80)
 #define EBGDNLEFPGO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CEFCB0)
 
+inline static constexpr unsigned int EBGDNLEFPGO_TypeDefinitionIndex = 55360;
+
 	class EBGDNLEFPGO
 	{
 	public:

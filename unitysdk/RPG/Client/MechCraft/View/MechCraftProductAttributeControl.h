@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftProductAttributeControl_TypeDefinitionIndex = 79827;
+
 	class MechCraftProductAttributeControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

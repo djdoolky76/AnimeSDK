@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AAKFMEOMANC_CTOR_OFFSET UNITYSDK_OFFSET(0xB0CDAA0)
 #define AAKFMEOMANC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB0CDAD0)
 
+inline static constexpr unsigned int AAKFMEOMANC_TypeDefinitionIndex = 52703;
+
 	class AAKFMEOMANC
 	{
 	public:

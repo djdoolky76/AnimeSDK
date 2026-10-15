@@ -11,6 +11,8 @@ namespace RPG::GameCore { class StartBattleLevelGraphOperation; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StartBattleLevelGraphOperation_TypeDefinitionIndex = 23402;
+
 	class StartBattleLevelGraphOperation : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StatePlayTimer_TypeDefinitionIndex = 68839;
+
 	class StatePlayTimer : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:

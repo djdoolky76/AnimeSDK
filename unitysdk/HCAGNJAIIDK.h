@@ -4,6 +4,8 @@
 
 #define HCAGNJAIIDK_CTOR_OFFSET UNITYSDK_OFFSET(0x15C160D0)
 
+inline static constexpr unsigned int HCAGNJAIIDK_TypeDefinitionIndex = 49660;
+
 	class HCAGNJAIIDK : public ::System::Attribute
 	{
 	public:

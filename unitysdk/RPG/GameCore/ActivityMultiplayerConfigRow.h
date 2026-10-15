@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityMultiplayerConfigRow_TypeDefinitionIndex = 11221;
+
 	class ActivityMultiplayerConfigRow : public ::System::Object
 	{
 	public:

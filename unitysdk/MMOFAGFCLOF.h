@@ -16,6 +16,8 @@ namespace RPG::Client::B51Racing { class B51RacingHUDProgressBarView; }
 #define MMOFAGFCLOF_ODMCFIEKIMB_OFFSET UNITYSDK_OFFSET(0xB9DEE00)
 #define MMOFAGFCLOF_OGFKFADPBNO_OFFSET UNITYSDK_OFFSET(0xB9DF5E0)
 
+inline static constexpr unsigned int MMOFAGFCLOF_TypeDefinitionIndex = 81926;
+
 	class MMOFAGFCLOF : public ::System::Object
 	{
 	public:

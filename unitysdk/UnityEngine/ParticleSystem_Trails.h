@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystem_Trails_TypeDefinitionIndex = 5229;
+
 	struct alignas(8) ParticleSystem_Trails
 	{
 		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* positions; // 0x10

@@ -19,6 +19,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveFuncUnlockFly_TypeDefinitionIndex = 75177;
+
 	class IdleLiveFuncUnlockFly : public ::UnityEngine::MonoBehaviour
 	{
 	public:

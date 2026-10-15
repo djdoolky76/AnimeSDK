@@ -23,6 +23,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveCameraViewportService_TypeDefinitionIndex = 75280;
+
 	class IdleLiveCameraViewportService : public ::System::Object
 	{
 	public:

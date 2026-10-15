@@ -10,6 +10,8 @@ namespace System { class Type; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int ExceptionHandlingClause_TypeDefinitionIndex = 606;
+
 	class ExceptionHandlingClause : public ::System::Object
 	{
 	public:

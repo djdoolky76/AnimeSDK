@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MonopolyMapGroundLayer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonopolyMapGroundLayer_TypeDefinitionIndex = 16239;
+
 	class MonopolyMapGroundLayer : public ::RPG::GameCore::MonopolyMapBaseLayer
 	{
 	public:

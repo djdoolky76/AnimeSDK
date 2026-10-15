@@ -34,6 +34,8 @@ namespace System { class String; }
 #define NALOLCLOBMG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAC6690)
 #define NALOLCLOBMG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAC66F0)
 
+inline static constexpr unsigned int NALOLCLOBMG_TypeDefinitionIndex = 27947;
+
 	class NALOLCLOBMG : public ::System::Object
 	{
 	public:

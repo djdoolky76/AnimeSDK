@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define KFELGAIGHAP_SET_TASKCONTEXT_OFFSET UNITYSDK_OFFSET(0xB399BF0)
 #define KFELGAIGHAP_TICK_OFFSET UNITYSDK_OFFSET(0xB395F80)
 
+inline static constexpr unsigned int KFELGAIGHAP_TypeDefinitionIndex = 54769;
+
 	class KFELGAIGHAP : public ::BNBOAMEBAOE
 	{
 	public:

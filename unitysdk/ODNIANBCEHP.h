@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define ODNIANBCEHP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D25AC80)
 #define ODNIANBCEHP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D25A5A0)
 
+inline static constexpr unsigned int ODNIANBCEHP_TypeDefinitionIndex = 13632;
+
 	class ODNIANBCEHP : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 #define JHCCCINHFCK_GET_INDEX_OFFSET UNITYSDK_OFFSET(0xB1A8FB0)
 #define JHCCCINHFCK_GET_TRANS_OFFSET UNITYSDK_OFFSET(0xB1A8FF0)
 
+inline static constexpr unsigned int JHCCCINHFCK_TypeDefinitionIndex = 71186;
+
 	class JHCCCINHFCK : public ::FMPCODLIOLG
 	{
 	public:

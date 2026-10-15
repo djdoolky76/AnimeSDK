@@ -6,6 +6,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharMatCameraPropOverrideMonoPlugin_TypeDefinitionIndex = 70393;
+
 	class CharMatCameraPropOverrideMonoPlugin
 	{
 	public:

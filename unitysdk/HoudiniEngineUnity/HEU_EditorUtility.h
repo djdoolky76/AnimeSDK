@@ -70,6 +70,8 @@ namespace UnityEngine { class Transform; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_EditorUtility_TypeDefinitionIndex = 40621;
+
 	class HEU_EditorUtility : public ::System::Object
 	{
 	public:

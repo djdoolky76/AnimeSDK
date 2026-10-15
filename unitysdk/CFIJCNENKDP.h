@@ -35,6 +35,8 @@ namespace System { class String; }
 #define CFIJCNENKDP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0A4340)
 #define CFIJCNENKDP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0A43A0)
 
+inline static constexpr unsigned int CFIJCNENKDP_TypeDefinitionIndex = 27345;
+
 	class CFIJCNENKDP : public ::System::Object
 	{
 	public:

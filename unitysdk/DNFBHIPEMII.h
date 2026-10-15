@@ -23,6 +23,8 @@ namespace RPG::GameCore { class MiniGameHundredFloorBlockConfig; }
 #define DNFBHIPEMII_OABDJEBKACD_OFFSET UNITYSDK_OFFSET(0x1194B7D0)
 #define DNFBHIPEMII_PAMGIMGPEFB_OFFSET UNITYSDK_OFFSET(0x1194BEF0)
 
+inline static constexpr unsigned int DNFBHIPEMII_TypeDefinitionIndex = 76930;
+
 	class DNFBHIPEMII : public ::MMNMMKNDPGN
 	{
 	public:

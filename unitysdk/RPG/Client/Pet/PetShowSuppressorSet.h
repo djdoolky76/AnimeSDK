@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::Pet
 {
+	inline static constexpr unsigned int PetShowSuppressorSet_TypeDefinitionIndex = 75706;
+
 	class PetShowSuppressorSet : public ::System::Object
 	{
 	public:

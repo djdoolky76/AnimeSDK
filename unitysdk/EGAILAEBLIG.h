@@ -27,6 +27,8 @@ namespace System { class String; }
 #define EGAILAEBLIG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2911C0)
 #define EGAILAEBLIG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E291220)
 
+inline static constexpr unsigned int EGAILAEBLIG_TypeDefinitionIndex = 33425;
+
 	class EGAILAEBLIG : public ::System::Object
 	{
 	public:

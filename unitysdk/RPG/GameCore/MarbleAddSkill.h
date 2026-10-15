@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MarbleAddSkill; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleAddSkill_TypeDefinitionIndex = 16862;
+
 	class MarbleAddSkill : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGCurvePoint_FieldTypes_TypeDefinitionIndex = 36017;
+
 	class BGCurvePoint_FieldTypes : public ::System::Object
 	{
 	public:

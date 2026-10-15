@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace Entitas::CodeGeneration::Attributes
 {
+	inline static constexpr unsigned int CustomComponentNameAttribute_TypeDefinitionIndex = 10072;
+
 	class CustomComponentNameAttribute : public ::System::Attribute
 	{
 	public:

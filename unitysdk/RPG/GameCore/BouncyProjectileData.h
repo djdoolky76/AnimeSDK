@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BouncyProjectileData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BouncyProjectileData_TypeDefinitionIndex = 15661;
+
 	class BouncyProjectileData : public ::RPG::GameCore::NewProjectileConfig
 	{
 	public:

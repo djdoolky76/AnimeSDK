@@ -3,6 +3,8 @@
 
 #define DIHCINGKNAC_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1C7A10)
 
+inline static constexpr unsigned int DIHCINGKNAC_TypeDefinitionIndex = 53793;
+
 	struct alignas(4) DIHCINGKNAC
 	{
 		::System::Boolean CHNDJJNIKIK; // 0x10

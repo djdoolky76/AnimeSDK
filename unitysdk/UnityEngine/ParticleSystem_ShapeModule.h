@@ -202,6 +202,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystem_ShapeModule_TypeDefinitionIndex = 5210;
+
 	struct alignas(8) ParticleSystem_ShapeModule
 	{
 		::UnityEngine::ParticleSystem* m_ParticleSystem; // 0x10

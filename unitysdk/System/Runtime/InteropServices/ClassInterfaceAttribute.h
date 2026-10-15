@@ -7,6 +7,8 @@
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int ClassInterfaceAttribute_TypeDefinitionIndex = 1409;
+
 	class ClassInterfaceAttribute : public ::System::Attribute
 	{
 	public:

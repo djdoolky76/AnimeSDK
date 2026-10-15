@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetHLODSwitchDelay; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetHLODSwitchDelay_TypeDefinitionIndex = 20517;
+
 	class SetHLODSwitchDelay : public ::RPG::GameCore::TaskConfig
 	{
 	public:

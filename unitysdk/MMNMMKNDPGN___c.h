@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define MMNMMKNDPGN___C__GET__FIXEDUPDATEACTION_B__40_0_OFFSET UNITYSDK_OFFSET(0xB9DE5A0)
 #define MMNMMKNDPGN___C__GET__ONPLAYERCREATEACTION_B__38_0_OFFSET UNITYSDK_OFFSET(0xB9DE510)
 
+inline static constexpr unsigned int MMNMMKNDPGN___c_TypeDefinitionIndex = 76927;
+
 	class MMNMMKNDPGN___c : public ::System::Object
 	{
 	public:

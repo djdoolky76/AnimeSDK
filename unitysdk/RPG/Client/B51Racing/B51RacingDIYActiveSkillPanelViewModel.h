@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingDIYActiveSkillPanelViewModel_TypeDefinitionIndex = 81990;
+
 	class B51RacingDIYActiveSkillPanelViewModel : public ::System::Object
 	{
 	public:

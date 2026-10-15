@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define IDFPLOLHKEA_PDLJGLLHGCC_OFFSET UNITYSDK_OFFSET(0x15EC8B20)
 #define IDFPLOLHKEA_TICK_OFFSET UNITYSDK_OFFSET(0x15EC89E0)
 
+inline static constexpr unsigned int IDFPLOLHKEA_TypeDefinitionIndex = 53030;
+
 	class IDFPLOLHKEA : public ::GELIALJDFBL
 	{
 	public:

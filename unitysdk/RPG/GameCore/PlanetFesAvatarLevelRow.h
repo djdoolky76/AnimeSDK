@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesAvatarLevelRow_TypeDefinitionIndex = 12193;
+
 	class PlanetFesAvatarLevelRow : public ::System::Object
 	{
 	public:

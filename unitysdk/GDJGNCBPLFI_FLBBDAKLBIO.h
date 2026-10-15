@@ -3,6 +3,8 @@
 
 #define GDJGNCBPLFI_FLBBDAKLBIO_CTOR_OFFSET UNITYSDK_OFFSET(0x159A0290)
 
+inline static constexpr unsigned int GDJGNCBPLFI_FLBBDAKLBIO_TypeDefinitionIndex = 76754;
+
 	class GDJGNCBPLFI_FLBBDAKLBIO
 	{
 	public:

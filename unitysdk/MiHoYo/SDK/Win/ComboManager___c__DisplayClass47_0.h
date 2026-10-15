@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int ComboManager___c__DisplayClass47_0_TypeDefinitionIndex = 9431;
+
 	class ComboManager___c__DisplayClass47_0 : public ::System::Object
 	{
 	public:

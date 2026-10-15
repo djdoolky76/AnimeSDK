@@ -7,6 +7,8 @@ namespace System { class Action; }
 
 namespace R3
 {
+	inline static constexpr unsigned int FromEvent_2__FromEventPattern_TypeDefinitionIndex = 35915;
+
 	template <typename T1, typename T2>
 	class FromEvent_2__FromEventPattern : public ::System::Object
 	{

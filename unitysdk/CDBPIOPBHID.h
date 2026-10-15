@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CDBPIOPBHID_NLCBLNNGOCH_OFFSET UNITYSDK_OFFSET(0xC7618E0)
 #define CDBPIOPBHID_OKDOHDJOPBM_OFFSET UNITYSDK_OFFSET(0xC761A70)
 
+inline static constexpr unsigned int CDBPIOPBHID_TypeDefinitionIndex = 56933;
+
 	class CDBPIOPBHID : public ::System::Object
 	{
 	public:

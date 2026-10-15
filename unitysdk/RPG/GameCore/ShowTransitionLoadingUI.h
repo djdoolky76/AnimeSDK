@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowTransitionLoadingUI_TypeDefinitionIndex = 21709;
+
 	class ShowTransitionLoadingUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

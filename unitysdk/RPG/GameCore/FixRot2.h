@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FixRot2_TypeDefinitionIndex = 9943;
+
 	struct alignas(4) FixRot2
 	{
 		::RPG::GameCore::FixPoint Cos; // 0x10

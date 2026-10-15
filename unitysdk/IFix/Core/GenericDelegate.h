@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int GenericDelegate_TypeDefinitionIndex = 7122;
+
 	class GenericDelegate : public ::System::Object
 	{
 	public:

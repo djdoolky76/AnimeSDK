@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ParabolaProjectileData; }
 #define BAIMKCHELHH_JNMKCFMJPHN_OFFSET UNITYSDK_OFFSET(0x15E6CF20)
 #define BAIMKCHELHH_PGKPGNJJMMB_OFFSET UNITYSDK_OFFSET(0x15E6D710)
 
+inline static constexpr unsigned int BAIMKCHELHH_TypeDefinitionIndex = 54747;
+
 	class BAIMKCHELHH : public ::GGJEMEHMBNL
 	{
 	public:

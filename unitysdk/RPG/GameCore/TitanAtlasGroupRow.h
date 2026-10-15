@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TitanAtlasGroupRow_TypeDefinitionIndex = 15297;
+
 	class TitanAtlasGroupRow : public ::System::Object
 	{
 	public:

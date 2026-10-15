@@ -4,6 +4,8 @@
 #define GCJHPDKDIMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1597E320)
 #define GCJHPDKDIMN_ONSTARTLOADING_OFFSET UNITYSDK_OFFSET(0x1597E2C0)
 
+inline static constexpr unsigned int GCJHPDKDIMN_TypeDefinitionIndex = 61063;
+
 	class GCJHPDKDIMN
 	{
 	public:

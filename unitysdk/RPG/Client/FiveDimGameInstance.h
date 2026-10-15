@@ -340,6 +340,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FiveDimGameInstance_TypeDefinitionIndex = 60389;
+
 	class FiveDimGameInstance : public ::HCLPKMIIANI
 	{
 	public:

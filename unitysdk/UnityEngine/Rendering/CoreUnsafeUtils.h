@@ -9,6 +9,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CoreUnsafeUtils_TypeDefinitionIndex = 35475;
+
 	class CoreUnsafeUtils : public ::System::Object
 	{
 	public:

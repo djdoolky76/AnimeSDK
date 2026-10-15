@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIContextAssetLoader_AsyncAssetCache_TypeDefinitionIndex = 73031;
+
 	class UIContextAssetLoader_AsyncAssetCache : public ::System::Object
 	{
 	public:

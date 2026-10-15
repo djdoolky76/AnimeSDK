@@ -6,6 +6,8 @@
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_timeNoTimeZone_TypeDefinitionIndex = 2108;
+
 	class Datatype_timeNoTimeZone : public ::System::Xml::Schema::Datatype_dateTimeBase
 	{
 	public:

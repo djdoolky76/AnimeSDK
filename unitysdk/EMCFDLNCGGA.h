@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EMCFDLNCGGA_FILTER_OFFSET UNITYSDK_OFFSET(0x155303B0)
 #define EMCFDLNCGGA_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x155302E0)
 
+inline static constexpr unsigned int EMCFDLNCGGA_TypeDefinitionIndex = 75783;
+
 	class EMCFDLNCGGA
 	{
 	public:

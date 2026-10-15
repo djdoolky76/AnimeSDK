@@ -8,6 +8,8 @@ class AOBAIBBHDEL;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTutorialStageConfig___c__DisplayClass5_0_TypeDefinitionIndex = 65515;
+
 	class GridFightTutorialStageConfig___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

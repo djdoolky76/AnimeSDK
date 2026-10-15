@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OpenTimeRewindPage_TypeDefinitionIndex = 20649;
+
 	class OpenTimeRewindPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

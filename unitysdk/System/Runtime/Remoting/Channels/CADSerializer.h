@@ -14,6 +14,8 @@ namespace System::Runtime::Remoting::Messaging { class IMethodCallMessage; }
 
 namespace System::Runtime::Remoting::Channels
 {
+	inline static constexpr unsigned int CADSerializer_TypeDefinitionIndex = 1267;
+
 	class CADSerializer : public ::System::Object
 	{
 	public:

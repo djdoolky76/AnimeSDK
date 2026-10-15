@@ -9,6 +9,8 @@ namespace UnityEngine { class Object; }
 
 namespace Unity::Profiling
 {
+	inline static constexpr unsigned int ProfilerMarkerWithObject_TypeDefinitionIndex = 3950;
+
 	struct alignas(4) ProfilerMarkerWithObject
 	{
 		::System::IntPtr _marker; // 0x10

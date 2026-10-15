@@ -5,6 +5,8 @@
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class PropertyAdsorptionConfig; }
 
+inline static constexpr unsigned int KEFOKEFMHOJ_TypeDefinitionIndex = 10845;
+
 	struct alignas(8) KEFOKEFMHOJ
 	{
 		::RPG::GameCore::StringHash MJMEEOIEMMM; // 0x10

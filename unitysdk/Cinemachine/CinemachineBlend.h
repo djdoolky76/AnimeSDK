@@ -28,6 +28,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineBlend_TypeDefinitionIndex = 39802;
+
 	class CinemachineBlend : public ::System::Object
 	{
 	public:

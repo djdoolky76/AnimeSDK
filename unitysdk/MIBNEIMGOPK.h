@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 #define MIBNEIMGOPK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1B04C0)
 #define MIBNEIMGOPK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1B0420)
 
+inline static constexpr unsigned int MIBNEIMGOPK_TypeDefinitionIndex = 24154;
+
 	class MIBNEIMGOPK : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

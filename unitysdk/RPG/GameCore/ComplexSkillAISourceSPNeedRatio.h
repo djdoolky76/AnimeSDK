@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ComplexSkillAISourceSPNeedRatio; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAISourceSPNeedRatio_TypeDefinitionIndex = 15530;
+
 	class ComplexSkillAISourceSPNeedRatio : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:

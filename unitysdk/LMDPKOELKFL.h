@@ -33,6 +33,8 @@ namespace System { class String; }
 #define LMDPKOELKFL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9A2FD0)
 #define LMDPKOELKFL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9A3030)
 
+inline static constexpr unsigned int LMDPKOELKFL_TypeDefinitionIndex = 27825;
+
 	class LMDPKOELKFL : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JIGPGHCDBOE_REMOVE_ONFINISHED_OFFSET UNITYSDK_OFFSET(0xB1FA570)
 #define JIGPGHCDBOE_SET_SOURCE_OFFSET UNITYSDK_OFFSET(0xB1FA5E0)
 
+inline static constexpr unsigned int JIGPGHCDBOE_TypeDefinitionIndex = 79802;
+
 	class JIGPGHCDBOE : public ::System::Object
 	{
 	public:

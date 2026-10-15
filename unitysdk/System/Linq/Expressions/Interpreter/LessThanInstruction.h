@@ -14,6 +14,8 @@ namespace System::Linq::Expressions::Interpreter { class Instruction; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int LessThanInstruction_TypeDefinitionIndex = 3453;
+
 	class LessThanInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:

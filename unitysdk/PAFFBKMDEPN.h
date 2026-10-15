@@ -22,6 +22,8 @@ namespace UnityEngine { class GameObject; }
 #define PAFFBKMDEPN_ODKHAJKJENA_OFFSET UNITYSDK_OFFSET(0xBFC7FC0)
 #define PAFFBKMDEPN_PMLJIMGJNJO_OFFSET UNITYSDK_OFFSET(0xBFC7790)
 
+inline static constexpr unsigned int PAFFBKMDEPN_TypeDefinitionIndex = 73902;
+
 	class PAFFBKMDEPN : public ::PAOIIOIGCOJ
 	{
 	public:

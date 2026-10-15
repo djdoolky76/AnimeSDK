@@ -8,6 +8,8 @@ namespace SuperScrollView { class LoopGridViewInitParam; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int LoopGridViewInitParam_TypeDefinitionIndex = 47651;
+
 	class LoopGridViewInitParam : public ::System::Object
 	{
 	public:

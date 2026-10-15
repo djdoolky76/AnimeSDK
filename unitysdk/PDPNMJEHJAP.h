@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define PDPNMJEHJAP_EKGNMMMLKIL_OFFSET UNITYSDK_OFFSET(0xC0235F0)
 #define PDPNMJEHJAP_OOOHIHLDFPF_OFFSET UNITYSDK_OFFSET(0xC023320)
 
+inline static constexpr unsigned int PDPNMJEHJAP_TypeDefinitionIndex = 66964;
+
 	class PDPNMJEHJAP : public ::System::Object
 	{
 	public:

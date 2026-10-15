@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinSpecialMarkTextNodeViewModel_TypeDefinitionIndex = 80872;
+
 	class FateRinSpecialMarkTextNodeViewModel : public ::System::Object
 	{
 	public:

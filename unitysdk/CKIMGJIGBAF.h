@@ -13,6 +13,8 @@ namespace System { class String; }
 #define CKIMGJIGBAF_DKMDPLNCGLE_OFFSET UNITYSDK_OFFSET(0xD75E8B0)
 #define CKIMGJIGBAF_GKEIFKABCNN_OFFSET UNITYSDK_OFFSET(0xD75E8F0)
 
+inline static constexpr unsigned int CKIMGJIGBAF_TypeDefinitionIndex = 74385;
+
 	class CKIMGJIGBAF : public ::System::Object
 	{
 	public:

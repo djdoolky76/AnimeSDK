@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingBattleAbility_SelfKill; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAbility_SelfKill_TypeDefinitionIndex = 15750;
+
 	class ChenLingBattleAbility_SelfKill : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
 	public:

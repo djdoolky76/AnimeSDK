@@ -18,6 +18,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MiniMapManager_PropDeferLoadCallbackClosure_TypeDefinitionIndex = 60658;
+
 	class MiniMapManager_PropDeferLoadCallbackClosure : public ::System::Object
 	{
 	public:

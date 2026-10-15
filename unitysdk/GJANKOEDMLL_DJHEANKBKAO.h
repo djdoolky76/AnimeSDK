@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
+inline static constexpr unsigned int GJANKOEDMLL_DJHEANKBKAO_TypeDefinitionIndex = 73261;
+
 	struct alignas(8) GJANKOEDMLL_DJHEANKBKAO
 	{
 		::System::UInt32 JIDLKIHJLFL; // 0x10

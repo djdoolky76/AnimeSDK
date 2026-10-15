@@ -33,6 +33,8 @@ namespace System { class String; }
 #define PDGEJKAMNJO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF0E990)
 #define PDGEJKAMNJO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF0E9F0)
 
+inline static constexpr unsigned int PDGEJKAMNJO_TypeDefinitionIndex = 32410;
+
 	class PDGEJKAMNJO : public ::System::Object
 	{
 	public:

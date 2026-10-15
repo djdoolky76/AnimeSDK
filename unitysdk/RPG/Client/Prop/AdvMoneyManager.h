@@ -40,6 +40,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int AdvMoneyManager_TypeDefinitionIndex = 78190;
+
 	class AdvMoneyManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarOutfit_PlayerOutfitSlotTypeFlags__GetEnumerator_d__2_TypeDefinitionIndex = 62498;
+
 	template <typename T1, typename T2>
 	class AvatarOutfit_PlayerOutfitSlotTypeFlags__GetEnumerator_d__2 : public ::System::Object
 	{

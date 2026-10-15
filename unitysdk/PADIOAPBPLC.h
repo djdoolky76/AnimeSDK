@@ -7,6 +7,8 @@ namespace RPG::GameCore { class ChimeraDuelComparerBase; }
 #define PADIOAPBPLC_GET__ISASCEND_OFFSET UNITYSDK_OFFSET(0xBFC6310)
 #define PADIOAPBPLC_SET__ISASCEND_OFFSET UNITYSDK_OFFSET(0xBFC6320)
 
+inline static constexpr unsigned int PADIOAPBPLC_TypeDefinitionIndex = 77440;
+
 	class PADIOAPBPLC : public ::System::Object
 	{
 	public:

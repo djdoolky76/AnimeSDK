@@ -9,6 +9,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int ConsoleCancelEventArgs_TypeDefinitionIndex = 213;
+
 	class ConsoleCancelEventArgs : public ::System::EventArgs
 	{
 	public:

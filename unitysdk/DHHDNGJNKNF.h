@@ -31,6 +31,8 @@ namespace UnityEngine { class Transform; }
 #define DHHDNGJNKNF__ONBIND_OFFSET UNITYSDK_OFFSET(0xEBD9280)
 #define DHHDNGJNKNF__ONTICK_OFFSET UNITYSDK_OFFSET(0xEBD9850)
 
+inline static constexpr unsigned int DHHDNGJNKNF_TypeDefinitionIndex = 71456;
+
 	class DHHDNGJNKNF : public ::FMPCODLIOLG
 	{
 	public:

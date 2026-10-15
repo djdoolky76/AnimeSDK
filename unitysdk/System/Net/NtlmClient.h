@@ -14,6 +14,8 @@ namespace System::Net { class WebRequest; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int NtlmClient_TypeDefinitionIndex = 2870;
+
 	class NtlmClient : public ::System::Object
 	{
 	public:

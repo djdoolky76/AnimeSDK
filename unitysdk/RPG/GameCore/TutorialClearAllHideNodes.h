@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TutorialClearAllHideNodes; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TutorialClearAllHideNodes_TypeDefinitionIndex = 24379;
+
 	class TutorialClearAllHideNodes : public ::RPG::GameCore::TaskConfig
 	{
 	public:

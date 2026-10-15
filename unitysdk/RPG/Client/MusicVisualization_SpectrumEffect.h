@@ -25,6 +25,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MusicVisualization_SpectrumEffect_TypeDefinitionIndex = 70823;
+
 	class MusicVisualization_SpectrumEffect : public ::RPG::Client::MusicVisualization_SpectrumEffectBase
 	{
 	public:

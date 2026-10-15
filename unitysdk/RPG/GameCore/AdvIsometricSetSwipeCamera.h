@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvIsometricSetSwipeCamera_TypeDefinitionIndex = 22214;
+
 	class AdvIsometricSetSwipeCamera : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -6,6 +6,8 @@ class LBJLBMOOJGM;
 #define OOGENIBLDEB_CTOR_OFFSET UNITYSDK_OFFSET(0xBF7C850)
 #define OOGENIBLDEB_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xBF7C7C0)
 
+inline static constexpr unsigned int OOGENIBLDEB_TypeDefinitionIndex = 82112;
+
 	class OOGENIBLDEB : public ::System::Object
 	{
 	public:

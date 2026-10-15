@@ -33,6 +33,8 @@ namespace System { class String; }
 #define IODAFIBPAGM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6CAF60)
 #define IODAFIBPAGM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6CAFC0)
 
+inline static constexpr unsigned int IODAFIBPAGM_TypeDefinitionIndex = 26234;
+
 	class IODAFIBPAGM : public ::System::Object
 	{
 	public:

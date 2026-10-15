@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetCameraConfigPriority; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetCameraConfigPriority_TypeDefinitionIndex = 22395;
+
 	class SetCameraConfigPriority : public ::RPG::GameCore::TaskConfig
 	{
 	public:

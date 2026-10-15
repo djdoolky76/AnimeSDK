@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AKJODHMMCAL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3CE390)
 #define AKJODHMMCAL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E3CE3A0)
 
+inline static constexpr unsigned int AKJODHMMCAL___c_TypeDefinitionIndex = 26505;
+
 	class AKJODHMMCAL___c : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int TrackAssetExtensions_TypeDefinitionIndex = 38837;
+
 	class TrackAssetExtensions : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { template <typename T> class Func_1; }
 #define BKDAGBGKDKA_DOONENTER_OFFSET UNITYSDK_OFFSET(0xB7ADB50)
 #define BKDAGBGKDKA_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xB7ADBD0)
 
+inline static constexpr unsigned int BKDAGBGKDKA_TypeDefinitionIndex = 78840;
+
 	class BKDAGBGKDKA : public ::FKHGEDHCPHJ
 	{
 	public:

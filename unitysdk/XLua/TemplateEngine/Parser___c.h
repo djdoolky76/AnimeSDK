@@ -16,6 +16,8 @@ namespace XLua::TemplateEngine { class Chunk; }
 
 namespace XLua::TemplateEngine
 {
+	inline static constexpr unsigned int Parser___c_TypeDefinitionIndex = 50289;
+
 	class Parser___c : public ::System::Object
 	{
 	public:

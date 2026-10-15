@@ -25,6 +25,8 @@ namespace UnityEngine { class Sprite; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AUiLineCtrl_TypeDefinitionIndex = 72493;
+
 	class AUiLineCtrl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

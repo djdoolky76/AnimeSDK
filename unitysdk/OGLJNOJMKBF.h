@@ -7,6 +7,8 @@
 #define OGLJNOJMKBF_CNBJLNGJPCK_OFFSET UNITYSDK_OFFSET(0x1C98D0B0)
 #define OGLJNOJMKBF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C98D0C0)
 
+inline static constexpr unsigned int OGLJNOJMKBF_TypeDefinitionIndex = 43407;
+
 	class OGLJNOJMKBF : public ::System::Object
 	{
 	public:

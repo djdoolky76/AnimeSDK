@@ -9,6 +9,8 @@ namespace RPG::GameCore { class AlleyRewardRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AlleyRewardRow_TypeDefinitionIndex = 12629;
+
 	class AlleyRewardRow : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPG::GameCore { class GridFightStageRouteConfigRow; }
 #define BKIBJOEMJLC_MDKIONKAKON_OFFSET UNITYSDK_OFFSET(0xBA582D0)
 #define BKIBJOEMJLC_PCFDPCLKMCM_OFFSET UNITYSDK_OFFSET(0xBA581E0)
 
+inline static constexpr unsigned int BKIBJOEMJLC_TypeDefinitionIndex = 65255;
+
 	class BKIBJOEMJLC : public ::System::Object
 	{
 	public:

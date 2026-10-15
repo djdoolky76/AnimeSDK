@@ -21,6 +21,8 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2World; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2MotorJoints_TypeDefinitionIndex = 36714;
+
 	class B2MotorJoints : public ::System::Object
 	{
 	public:

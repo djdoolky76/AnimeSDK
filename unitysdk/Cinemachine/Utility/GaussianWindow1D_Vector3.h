@@ -7,6 +7,8 @@
 
 namespace Cinemachine::Utility
 {
+	inline static constexpr unsigned int GaussianWindow1D_Vector3_TypeDefinitionIndex = 39889;
+
 	class GaussianWindow1D_Vector3
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelMinimapVolume; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MinimapInspector_TypeDefinitionIndex = 68508;
+
 	class MinimapInspector : public ::UnityEngine::MonoBehaviour
 	{
 	public:

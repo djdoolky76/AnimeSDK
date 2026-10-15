@@ -9,6 +9,8 @@ namespace RPG::Client { class ChallengeData; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceMemoryEnvironmentHintViewModel_TypeDefinitionIndex = 81598;
+
 	class ChallengeTierceMemoryEnvironmentHintViewModel : public ::System::Object
 	{
 	public:

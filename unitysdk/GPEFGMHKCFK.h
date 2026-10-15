@@ -22,6 +22,8 @@ namespace System { class Object; }
 #define GPEFGMHKCFK___SETTEXTURE_B__6_0_OFFSET UNITYSDK_OFFSET(0x15B52F30)
 #define GPEFGMHKCFK___SETTEXTURE_B__6_1_OFFSET UNITYSDK_OFFSET(0x15B52FC0)
 
+inline static constexpr unsigned int GPEFGMHKCFK_TypeDefinitionIndex = 58466;
+
 	class GPEFGMHKCFK : public ::GELIALJDFBL
 	{
 	public:

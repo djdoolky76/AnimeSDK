@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KGOKOIOGBND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D090FA0)
 #define KGOKOIOGBND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D090F60)
 
+inline static constexpr unsigned int KGOKOIOGBND_TypeDefinitionIndex = 22729;
+
 	class KGOKOIOGBND : public ::RPG::GameCore::TaskConfig
 	{
 	public:

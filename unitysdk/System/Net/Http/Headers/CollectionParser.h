@@ -11,6 +11,8 @@ namespace System::Net::Http::Headers { class Lexer; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int CollectionParser_TypeDefinitionIndex = 3781;
+
 	class CollectionParser : public ::System::Object
 	{
 	public:

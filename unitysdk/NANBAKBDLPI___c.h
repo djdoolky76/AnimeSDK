@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NANBAKBDLPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAC7F70)
 #define NANBAKBDLPI___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1EAC7F80)
 
+inline static constexpr unsigned int NANBAKBDLPI___c_TypeDefinitionIndex = 31407;
+
 	class NANBAKBDLPI___c : public ::System::Object
 	{
 	public:

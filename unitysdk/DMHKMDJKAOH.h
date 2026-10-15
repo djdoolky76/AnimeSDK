@@ -9,6 +9,8 @@ namespace RPG::Client { class SwordTrainingGameInstance; }
 #define DMHKMDJKAOH_FFKBFPKEPEN_OFFSET UNITYSDK_OFFSET(0xFEC2A80)
 #define DMHKMDJKAOH_JKOKFFCBJLJ_OFFSET UNITYSDK_OFFSET(0xFEC2A30)
 
+inline static constexpr unsigned int DMHKMDJKAOH_TypeDefinitionIndex = 75052;
+
 	class DMHKMDJKAOH : public ::NBEKHGCNJFD
 	{
 	public:

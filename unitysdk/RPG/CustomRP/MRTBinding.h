@@ -16,6 +16,8 @@ namespace RPG::CustomRP { class PassRTRes; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int MRTBinding_TypeDefinitionIndex = 37888;
+
 	struct alignas(8) MRTBinding
 	{
 		::UnityEngine::Rendering::RenderTargetBinding rtBinding; // 0x10

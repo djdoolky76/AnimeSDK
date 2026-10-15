@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTaskConfig_TypeDefinitionIndex = 65506;
+
 	class GridFightTaskConfig : public ::System::Object
 	{
 	public:

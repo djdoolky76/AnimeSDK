@@ -9,6 +9,8 @@ namespace UnityEngine::Networking { class UnityWebRequest; }
 #define EIJCHJHFFPM_MNJOCIFNCFK_OFFSET UNITYSDK_OFFSET(0x154CCEF0)
 #define EIJCHJHFFPM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x154CCF30)
 
+inline static constexpr unsigned int EIJCHJHFFPM_TypeDefinitionIndex = 59276;
+
 	class EIJCHJHFFPM : public ::System::Object
 	{
 	public:

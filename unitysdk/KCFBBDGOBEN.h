@@ -6,6 +6,8 @@ class OMNJCDDMLHI;
 
 #define KCFBBDGOBEN_CTOR_OFFSET UNITYSDK_OFFSET(0xB334490)
 
+inline static constexpr unsigned int KCFBBDGOBEN_TypeDefinitionIndex = 77800;
+
 	class KCFBBDGOBEN : public ::DJJKNHPLHDI
 	{
 	public:

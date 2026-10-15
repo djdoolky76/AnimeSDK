@@ -20,6 +20,8 @@ namespace UnityEngine::ProBuilder { class Face; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int UVEditing___c_TypeDefinitionIndex = 44520;
+
 	class UVEditing___c : public ::System::Object
 	{
 	public:

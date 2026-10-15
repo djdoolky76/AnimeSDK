@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define KHNIAFDBHCD_PAGCNDMIANF_OFFSET UNITYSDK_OFFSET(0xB40D400)
 #define KHNIAFDBHCD_PFNFLMNPEFA_OFFSET UNITYSDK_OFFSET(0xB40DC00)
 
+inline static constexpr unsigned int KHNIAFDBHCD_TypeDefinitionIndex = 77836;
+
 	class KHNIAFDBHCD : public ::System::Object
 	{
 	public:

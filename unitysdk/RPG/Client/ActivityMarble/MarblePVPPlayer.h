@@ -25,6 +25,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarblePVPPlayer_TypeDefinitionIndex = 76017;
+
 	class MarblePVPPlayer : public ::System::Object
 	{
 	public:

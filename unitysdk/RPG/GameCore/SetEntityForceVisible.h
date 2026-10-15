@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetEntityForceVisible_TypeDefinitionIndex = 20602;
+
 	class SetEntityForceVisible : public ::RPG::GameCore::TaskConfig
 	{
 	public:

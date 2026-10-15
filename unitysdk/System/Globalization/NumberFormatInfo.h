@@ -61,6 +61,8 @@ namespace System::Globalization { class NumberFormatInfo; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int NumberFormatInfo_TypeDefinitionIndex = 760;
+
 	class NumberFormatInfo : public ::System::Object
 	{
 	public:

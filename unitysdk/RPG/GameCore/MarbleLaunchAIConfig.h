@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MarbleSampleConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleLaunchAIConfig_TypeDefinitionIndex = 16913;
+
 	class MarbleLaunchAIConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

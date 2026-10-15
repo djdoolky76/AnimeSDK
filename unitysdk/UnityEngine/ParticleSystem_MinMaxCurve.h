@@ -29,6 +29,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystem_MinMaxCurve_TypeDefinitionIndex = 5215;
+
 	struct alignas(8) ParticleSystem_MinMaxCurve
 	{
 		::UnityEngine::ParticleSystemCurveMode m_Mode; // 0x10

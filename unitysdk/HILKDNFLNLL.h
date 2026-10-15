@@ -30,6 +30,8 @@ namespace System { class String; }
 #define HILKDNFLNLL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E59AB80)
 #define HILKDNFLNLL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E59ABE0)
 
+inline static constexpr unsigned int HILKDNFLNLL_TypeDefinitionIndex = 34752;
+
 	class HILKDNFLNLL : public ::System::Object
 	{
 	public:

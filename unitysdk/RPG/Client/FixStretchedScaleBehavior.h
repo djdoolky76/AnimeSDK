@@ -16,6 +16,8 @@ namespace RPG::Client { class FixStretchedScale; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FixStretchedScaleBehavior_TypeDefinitionIndex = 70602;
+
 	class FixStretchedScaleBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

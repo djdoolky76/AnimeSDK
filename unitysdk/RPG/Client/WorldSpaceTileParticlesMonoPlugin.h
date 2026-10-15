@@ -10,6 +10,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WorldSpaceTileParticlesMonoPlugin_TypeDefinitionIndex = 70717;
+
 	class WorldSpaceTileParticlesMonoPlugin
 	{
 	public:

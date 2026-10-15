@@ -19,6 +19,8 @@ namespace System::Security::Util { class TokenizerStringBlock; }
 
 namespace System::Security::Util
 {
+	inline static constexpr unsigned int TokenizerStream_TypeDefinitionIndex = 982;
+
 	class TokenizerStream : public ::System::Object
 	{
 	public:

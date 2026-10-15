@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LOOKPCFMMNC_CTOR_OFFSET UNITYSDK_OFFSET(0xB811790)
 #define LOOKPCFMMNC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8117C0)
 
+inline static constexpr unsigned int LOOKPCFMMNC_TypeDefinitionIndex = 58082;
+
 	class LOOKPCFMMNC
 	{
 	public:

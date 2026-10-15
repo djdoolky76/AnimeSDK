@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GKOBEMLAGLF_CTOR_OFFSET UNITYSDK_OFFSET(0x15AA7AF0)
 #define GKOBEMLAGLF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15AA7B60)
 
+inline static constexpr unsigned int GKOBEMLAGLF_TypeDefinitionIndex = 59101;
+
 	class GKOBEMLAGLF
 	{
 	public:

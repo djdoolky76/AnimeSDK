@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PIKNBDOINHP_CMGPHOEAENM_OFFSET UNITYSDK_OFFSET(0xC26DF00)
 #define PIKNBDOINHP_NMHLPOHFPKJ_OFFSET UNITYSDK_OFFSET(0xC26DE50)
 
+inline static constexpr unsigned int PIKNBDOINHP_TypeDefinitionIndex = 76395;
+
 	class PIKNBDOINHP : public ::System::Object
 	{
 	public:

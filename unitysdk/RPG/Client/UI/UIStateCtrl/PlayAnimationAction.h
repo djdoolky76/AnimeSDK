@@ -17,6 +17,8 @@ namespace UnityEngine { class AnimationClip; }
 
 namespace RPG::Client::UI::UIStateCtrl
 {
+	inline static constexpr unsigned int PlayAnimationAction_TypeDefinitionIndex = 74054;
+
 	class PlayAnimationAction : public ::RPG::Client::UI::UIStateCtrl::AsyncAction
 	{
 	public:

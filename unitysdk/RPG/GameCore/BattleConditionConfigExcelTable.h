@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleConditionConfigExcelTable_TypeDefinitionIndex = 12845;
+
 	class BattleConditionConfigExcelTable : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IKCOHFPIHIA_OALPGPNHGPD_OFFSET UNITYSDK_OFFSET(0x16483CD0)
 #define IKCOHFPIHIA_PKNJDNLGCGD_OFFSET UNITYSDK_OFFSET(0x164843C0)
 
+inline static constexpr unsigned int IKCOHFPIHIA_TypeDefinitionIndex = 64035;
+
 	class IKCOHFPIHIA : public ::System::Object
 	{
 	public:

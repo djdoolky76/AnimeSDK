@@ -15,6 +15,8 @@ namespace RPG::GameCore { class ComplexSkillAIBattleGlobalData; }
 #define GMGINMOGADF_ONPPBOKMMKL_OFFSET UNITYSDK_OFFSET(0x15AD2080)
 #define GMGINMOGADF_PHHLOHKBGPN_OFFSET UNITYSDK_OFFSET(0x15AD1C40)
 
+inline static constexpr unsigned int GMGINMOGADF_TypeDefinitionIndex = 54360;
+
 	class GMGINMOGADF : public ::System::Object
 	{
 	public:

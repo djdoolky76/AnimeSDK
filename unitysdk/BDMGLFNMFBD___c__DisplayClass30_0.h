@@ -7,6 +7,8 @@ class IJNIJIMJJDK;
 #define BDMGLFNMFBD___C__DISPLAYCLASS30_0___ONPLAYBOSSFADEANIM_B__0_OFFSET UNITYSDK_OFFSET(0x16302300)
 #define BDMGLFNMFBD___C__DISPLAYCLASS30_0___ONPLAYBOSSFADEANIM_B__1_OFFSET UNITYSDK_OFFSET(0x163022C0)
 
+inline static constexpr unsigned int BDMGLFNMFBD___c__DisplayClass30_0_TypeDefinitionIndex = 79119;
+
 	class BDMGLFNMFBD___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:

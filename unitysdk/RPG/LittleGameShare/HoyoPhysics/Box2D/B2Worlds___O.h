@@ -18,6 +18,8 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { template <typename T> class
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Worlds___O_TypeDefinitionIndex = 36822;
+
 	class B2Worlds___O : public ::System::Object
 	{
 	public:

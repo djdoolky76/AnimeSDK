@@ -5,6 +5,8 @@
 
 #define FLKPJDPBNBJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1583D8B0)
 
+inline static constexpr unsigned int FLKPJDPBNBJ_TypeDefinitionIndex = 55596;
+
 	class FLKPJDPBNBJ : public ::CFJDNIMHGOG
 	{
 	public:

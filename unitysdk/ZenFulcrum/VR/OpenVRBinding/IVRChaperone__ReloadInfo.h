@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRChaperone__ReloadInfo_TypeDefinitionIndex = 38988;
+
 	class IVRChaperone__ReloadInfo : public ::System::MulticastDelegate
 	{
 	public:

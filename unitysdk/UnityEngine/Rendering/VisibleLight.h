@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int VisibleLight_TypeDefinitionIndex = 4778;
+
 	struct alignas(4) VisibleLight
 	{
 		::UnityEngine::LightType m_LightType; // 0x10

@@ -13,6 +13,8 @@ namespace RPG::AvatarSystem { class Avatar; }
 #define KMFHBNCPDOE_CTOR_OFFSET UNITYSDK_OFFSET(0xB552980)
 #define KMFHBNCPDOE_DHEOAMBKNMM_OFFSET UNITYSDK_OFFSET(0xB552D20)
 
+inline static constexpr unsigned int KMFHBNCPDOE_TypeDefinitionIndex = 62690;
+
 	class KMFHBNCPDOE : public ::System::Object
 	{
 	public:

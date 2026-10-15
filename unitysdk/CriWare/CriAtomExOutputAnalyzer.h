@@ -40,6 +40,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExOutputAnalyzer_TypeDefinitionIndex = 40045;
+
 	class CriAtomExOutputAnalyzer : public ::CriWare::CriDisposable
 	{
 	public:

@@ -8,6 +8,8 @@ class NGCOKAIKPHC;
 #define NGCOKAIKPHC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D205010)
 #define NGCOKAIKPHC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D204FD0)
 
+inline static constexpr unsigned int NGCOKAIKPHC_TypeDefinitionIndex = 23373;
+
 	class NGCOKAIKPHC : public ::RPG::GameCore::TaskConfig
 	{
 	public:

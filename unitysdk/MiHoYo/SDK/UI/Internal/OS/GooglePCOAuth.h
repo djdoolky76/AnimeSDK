@@ -26,6 +26,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
+	inline static constexpr unsigned int GooglePCOAuth_TypeDefinitionIndex = 8431;
+
 	class GooglePCOAuth : public ::MiHoYo::SDK::UIElement
 	{
 	public:

@@ -16,6 +16,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginCharaPropHairRimLight_TypeDefinitionIndex = 69963;
+
 	class MonoEffectPluginCharaPropHairRimLight : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
 	public:

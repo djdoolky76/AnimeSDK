@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define MNFBHFDNOKF___C___CCTOR_B__68_1_OFFSET UNITYSDK_OFFSET(0x1EA96E40)
 #define MNFBHFDNOKF___C___CCTOR_B__68_2_OFFSET UNITYSDK_OFFSET(0x1EA96E50)
 
+inline static constexpr unsigned int MNFBHFDNOKF___c_TypeDefinitionIndex = 26315;
+
 	class MNFBHFDNOKF___c : public ::System::Object
 	{
 	public:

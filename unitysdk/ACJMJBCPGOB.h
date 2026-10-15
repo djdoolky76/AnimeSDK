@@ -4,6 +4,8 @@
 
 #define ACJMJBCPGOB_CTOR_OFFSET UNITYSDK_OFFSET(0xB123A20)
 
+inline static constexpr unsigned int ACJMJBCPGOB_TypeDefinitionIndex = 49325;
+
 	class ACJMJBCPGOB : public ::System::Attribute
 	{
 	public:

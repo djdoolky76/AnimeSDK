@@ -30,6 +30,8 @@ namespace System { class String; }
 #define CJALEDGKEPJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0DA0C0)
 #define CJALEDGKEPJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0DA120)
 
+inline static constexpr unsigned int CJALEDGKEPJ_TypeDefinitionIndex = 26753;
+
 	class CJALEDGKEPJ : public ::System::Object
 	{
 	public:

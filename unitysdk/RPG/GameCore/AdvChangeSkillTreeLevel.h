@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvChangeSkillTreeLevel; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvChangeSkillTreeLevel_TypeDefinitionIndex = 21822;
+
 	class AdvChangeSkillTreeLevel : public ::RPG::GameCore::TaskConfig
 	{
 	public:

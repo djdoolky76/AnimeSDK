@@ -12,6 +12,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsWorkProgressStartViewModel___c__DisplayClass1_0_TypeDefinitionIndex = 80453;
+
 	class LimaoNewsWorkProgressStartViewModel___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

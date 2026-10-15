@@ -28,6 +28,8 @@ namespace System { class String; }
 #define KPJBDOPFPDL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8BC720)
 #define KPJBDOPFPDL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8BC780)
 
+inline static constexpr unsigned int KPJBDOPFPDL_TypeDefinitionIndex = 33099;
+
 	class KPJBDOPFPDL : public ::System::Object
 	{
 	public:

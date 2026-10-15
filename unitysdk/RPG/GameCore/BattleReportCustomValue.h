@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleReportCustomValue_TypeDefinitionIndex = 17116;
+
 	class BattleReportCustomValue : public ::RPG::GameCore::JsonConfig
 	{
 	public:

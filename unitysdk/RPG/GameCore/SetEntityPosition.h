@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetEntityPosition_TypeDefinitionIndex = 23755;
+
 	class SetEntityPosition : public ::RPG::GameCore::TaskConfig
 	{
 	public:

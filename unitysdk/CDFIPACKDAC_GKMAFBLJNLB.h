@@ -5,6 +5,8 @@
 
 #define CDFIPACKDAC_GKMAFBLJNLB_CTOR_OFFSET UNITYSDK_OFFSET(0xC766AF0)
 
+inline static constexpr unsigned int CDFIPACKDAC_GKMAFBLJNLB_TypeDefinitionIndex = 55122;
+
 	class CDFIPACKDAC_GKMAFBLJNLB : public ::System::Object
 	{
 	public:

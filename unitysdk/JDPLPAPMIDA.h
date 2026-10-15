@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JDPLPAPMIDA_CTOR_OFFSET UNITYSDK_OFFSET(0x16611E60)
 #define JDPLPAPMIDA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16611ED0)
 
+inline static constexpr unsigned int JDPLPAPMIDA_TypeDefinitionIndex = 59212;
+
 	class JDPLPAPMIDA
 	{
 	public:

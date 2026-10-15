@@ -14,6 +14,8 @@ namespace MessagePack::Formatters { class IMessagePackFormatter; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int Matrix4x4Formatter_TypeDefinitionIndex = 7502;
+
 	class Matrix4x4Formatter : public ::System::Object
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define CDNLGOOMBAG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E08ADE0)
 #define CDNLGOOMBAG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E08AE40)
 
+inline static constexpr unsigned int CDNLGOOMBAG_TypeDefinitionIndex = 34135;
+
 	class CDNLGOOMBAG : public ::System::Object
 	{
 	public:

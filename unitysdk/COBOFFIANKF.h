@@ -18,6 +18,8 @@ namespace System { class Object; }
 #define COBOFFIANKF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xDCB1E80)
 #define COBOFFIANKF_TICK_OFFSET UNITYSDK_OFFSET(0xDCB1EE0)
 
+inline static constexpr unsigned int COBOFFIANKF_TypeDefinitionIndex = 53472;
+
 	class COBOFFIANKF : public ::GELIALJDFBL
 	{
 	public:

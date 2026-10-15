@@ -4,6 +4,8 @@
 
 namespace System::Configuration
 {
+	inline static constexpr unsigned int ConfigurationElementCollection_TypeDefinitionIndex = 2337;
+
 	class ConfigurationElementCollection : public ::System::Configuration::ConfigurationElement
 	{
 	public:

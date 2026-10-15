@@ -6,6 +6,8 @@ class AkEnvironment;
 #define AKENVIRONMENT_AKENVIRONMENT_COMPAREBYSELECTIONALGORITHM_COMPARE_OFFSET UNITYSDK_OFFSET(0x1F58F7E0)
 #define AKENVIRONMENT_AKENVIRONMENT_COMPAREBYSELECTIONALGORITHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1F58F740)
 
+inline static constexpr unsigned int AkEnvironment_AkEnvironment_CompareBySelectionAlgorithm_TypeDefinitionIndex = 44919;
+
 	class AkEnvironment_AkEnvironment_CompareBySelectionAlgorithm : public ::AkEnvironment_AkEnvironment_CompareByPriority
 	{
 	public:

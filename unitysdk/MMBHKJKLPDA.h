@@ -12,6 +12,8 @@ class MMBHKJKLPDA;
 #define MMBHKJKLPDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1CF760)
 #define MMBHKJKLPDA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1CF270)
 
+inline static constexpr unsigned int MMBHKJKLPDA_TypeDefinitionIndex = 14944;
+
 	class MMBHKJKLPDA : public ::System::Object
 	{
 	public:

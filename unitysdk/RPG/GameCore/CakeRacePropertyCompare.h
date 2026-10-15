@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRacePropertyCompare_TypeDefinitionIndex = 18328;
+
 	enum class CakeRacePropertyCompare : ::System::Int32
 	{
 		Equal = 0,

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DIFAPHOCGKL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1BCB20)
 #define DIFAPHOCGKL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E1BCB30)
 
+inline static constexpr unsigned int DIFAPHOCGKL___c_TypeDefinitionIndex = 25393;
+
 	class DIFAPHOCGKL___c : public ::System::Object
 	{
 	public:

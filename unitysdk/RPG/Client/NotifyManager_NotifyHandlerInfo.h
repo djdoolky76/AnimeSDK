@@ -9,6 +9,8 @@ namespace RPG::Client { class NotifyHandler; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NotifyManager_NotifyHandlerInfo_TypeDefinitionIndex = 59287;
+
 	class NotifyManager_NotifyHandlerInfo : public ::System::Object
 	{
 	public:

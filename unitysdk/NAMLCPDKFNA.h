@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define NAMLCPDKFNA_START_OFFSET UNITYSDK_OFFSET(0xBAA7490)
 #define NAMLCPDKFNA_STOP_OFFSET UNITYSDK_OFFSET(0xBAA75C0)
 
+inline static constexpr unsigned int NAMLCPDKFNA_TypeDefinitionIndex = 62679;
+
 	class NAMLCPDKFNA : public ::BHPMNMMGLHI
 	{
 	public:

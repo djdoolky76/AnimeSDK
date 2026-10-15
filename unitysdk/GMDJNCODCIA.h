@@ -39,6 +39,8 @@ namespace System { class String; }
 #define GMDJNCODCIA_POHHMBNEBNP_OFFSET UNITYSDK_OFFSET(0x3C48FE0)
 #define GMDJNCODCIA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C49300)
 
+inline static constexpr unsigned int GMDJNCODCIA_TypeDefinitionIndex = 6288;
+
 	struct alignas(4) GMDJNCODCIA
 	{
 		::RPG::MVector2 KIGGGJGOIGD; // 0x10

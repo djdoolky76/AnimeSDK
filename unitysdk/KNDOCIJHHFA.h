@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define KNDOCIJHHFA_CTOR_OFFSET UNITYSDK_OFFSET(0xB581750)
 
+inline static constexpr unsigned int KNDOCIJHHFA_TypeDefinitionIndex = 68105;
+
 	class KNDOCIJHHFA : public ::System::Object
 	{
 	public:

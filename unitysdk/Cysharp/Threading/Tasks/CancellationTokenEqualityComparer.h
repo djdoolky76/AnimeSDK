@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int CancellationTokenEqualityComparer_TypeDefinitionIndex = 38133;
+
 	class CancellationTokenEqualityComparer : public ::System::Object
 	{
 	public:

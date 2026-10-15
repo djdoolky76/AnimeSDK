@@ -31,6 +31,8 @@ namespace System { class String; }
 #define KLKBKPCLHEE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E88FCD0)
 #define KLKBKPCLHEE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E88FD30)
 
+inline static constexpr unsigned int KLKBKPCLHEE_TypeDefinitionIndex = 32358;
+
 	class KLKBKPCLHEE : public ::System::Object
 	{
 	public:

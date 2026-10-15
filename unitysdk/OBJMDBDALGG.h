@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 #define OBJMDBDALGG_OEHPIOOIJDN_OFFSET UNITYSDK_OFFSET(0xBD4A8A0)
 #define OBJMDBDALGG_PDMOFKAEOOO_OFFSET UNITYSDK_OFFSET(0xBD4A0A0)
 
+inline static constexpr unsigned int OBJMDBDALGG_TypeDefinitionIndex = 71572;
+
 	class OBJMDBDALGG : public ::FMPCODLIOLG
 	{
 	public:

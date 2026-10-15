@@ -37,6 +37,8 @@ namespace System::Collections::Immutable { template <typename T> class IImmutabl
 #define GIJLOICALKG___TRYSUBSCRIBEPIECEBUFFING_B__12_0_OFFSET UNITYSDK_OFFSET(0x15A40500)
 #define GIJLOICALKG___TRYSUBSCRIBEPIECEBUFFING_B__12_1_OFFSET UNITYSDK_OFFSET(0x15A40510)
 
+inline static constexpr unsigned int GIJLOICALKG_TypeDefinitionIndex = 79452;
+
 	class GIJLOICALKG : public ::System::Object
 	{
 	public:

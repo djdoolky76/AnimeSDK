@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateExpRewardInfo___c_TypeDefinitionIndex = 64015;
+
 	class FateExpRewardInfo___c : public ::System::Object
 	{
 	public:

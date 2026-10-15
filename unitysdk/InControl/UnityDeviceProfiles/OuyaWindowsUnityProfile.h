@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int OuyaWindowsUnityProfile_TypeDefinitionIndex = 41087;
+
 	class OuyaWindowsUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

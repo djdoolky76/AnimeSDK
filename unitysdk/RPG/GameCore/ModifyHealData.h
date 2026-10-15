@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ModifyHealData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyHealData_TypeDefinitionIndex = 23572;
+
 	class ModifyHealData : public ::RPG::GameCore::TaskConfig
 	{
 	public:

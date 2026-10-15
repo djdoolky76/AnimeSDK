@@ -39,6 +39,8 @@ namespace System::Threading { class WaitHandle; }
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int AsyncResult_TypeDefinitionIndex = 1298;
+
 	class AsyncResult : public ::System::Object
 	{
 	public:

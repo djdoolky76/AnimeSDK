@@ -6,6 +6,8 @@
 
 namespace InControl
 {
+	inline static constexpr unsigned int UnityInputDeviceProfileAttribute_TypeDefinitionIndex = 40900;
+
 	class UnityInputDeviceProfileAttribute : public ::System::Attribute
 	{
 	public:

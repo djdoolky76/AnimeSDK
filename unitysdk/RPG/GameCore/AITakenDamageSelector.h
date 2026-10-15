@@ -12,6 +12,8 @@ namespace RPG::GameCore { class AITakenDamageSelector; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AITakenDamageSelector_TypeDefinitionIndex = 15599;
+
 	class AITakenDamageSelector : public ::RPG::GameCore::AISelector
 	{
 	public:

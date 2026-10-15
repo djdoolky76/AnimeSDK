@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SkillUseType_TypeDefinitionIndex = 10458;
+
 	enum class SkillUseType : ::System::Int32
 	{
 		Unknow = 0,

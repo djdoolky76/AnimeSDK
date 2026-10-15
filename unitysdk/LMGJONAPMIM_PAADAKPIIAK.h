@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ElfWaveConfig; }
 #define LMGJONAPMIM_PAADAKPIIAK_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xB781820)
 #define LMGJONAPMIM_PAADAKPIIAK_NNDJGBKKPHO_OFFSET UNITYSDK_OFFSET(0xB7818D0)
 
+inline static constexpr unsigned int LMGJONAPMIM_PAADAKPIIAK_TypeDefinitionIndex = 76540;
+
 	class LMGJONAPMIM_PAADAKPIIAK : public ::System::Object
 	{
 	public:

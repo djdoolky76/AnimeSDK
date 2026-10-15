@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int UpdateBonesDelegate_TypeDefinitionIndex = 45069;
+
 	class UpdateBonesDelegate : public ::System::MulticastDelegate
 	{
 	public:

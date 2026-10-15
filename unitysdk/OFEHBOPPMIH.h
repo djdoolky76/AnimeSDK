@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class Image; }
 #define OFEHBOPPMIH_SET_ISULTRAMODE_OFFSET UNITYSDK_OFFSET(0xBE3E990)
 #define OFEHBOPPMIH__ONBIND_OFFSET UNITYSDK_OFFSET(0xBE3E6C0)
 
+inline static constexpr unsigned int OFEHBOPPMIH_TypeDefinitionIndex = 71397;
+
 	class OFEHBOPPMIH : public ::FMPCODLIOLG
 	{
 	public:

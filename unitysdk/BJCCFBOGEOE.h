@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int BJCCFBOGEOE_TypeDefinitionIndex = 27544;
+
 	enum class BJCCFBOGEOE : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

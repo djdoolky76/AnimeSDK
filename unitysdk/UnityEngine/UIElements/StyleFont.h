@@ -15,6 +15,8 @@ namespace UnityEngine { class Font; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int StyleFont_TypeDefinitionIndex = 6002;
+
 	struct alignas(8) StyleFont
 	{
 		::UnityEngine::UIElements::StyleKeyword m_Keyword; // 0x10

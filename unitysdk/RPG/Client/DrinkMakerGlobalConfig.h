@@ -7,6 +7,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DrinkMakerGlobalConfig_TypeDefinitionIndex = 63635;
+
 	class DrinkMakerGlobalConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:

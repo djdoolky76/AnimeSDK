@@ -20,6 +20,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIRotatable_TypeDefinitionIndex = 69112;
+
 	class UIRotatable : public ::UnityEngine::MonoBehaviour
 	{
 	public:

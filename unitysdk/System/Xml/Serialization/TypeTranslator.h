@@ -17,6 +17,8 @@ namespace System::Xml::Serialization { class TypeData; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int TypeTranslator_TypeDefinitionIndex = 1995;
+
 	class TypeTranslator : public ::System::Object
 	{
 	public:

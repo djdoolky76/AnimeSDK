@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int SliderState_TypeDefinitionIndex = 5196;
+
 	class SliderState : public ::System::Object
 	{
 	public:

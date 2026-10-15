@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ClockParkUnlockScript; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClockParkUnlockScript_TypeDefinitionIndex = 21643;
+
 	class ClockParkUnlockScript : public ::RPG::GameCore::TaskConfig
 	{
 	public:

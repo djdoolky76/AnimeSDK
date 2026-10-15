@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int RenderQueueRange_TypeDefinitionIndex = 4764;
+
 	struct alignas(4) RenderQueueRange
 	{
 		::System::Int32 m_LowerBound; // 0x10

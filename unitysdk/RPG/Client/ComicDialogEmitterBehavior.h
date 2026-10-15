@@ -39,6 +39,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ComicDialogEmitterBehavior_TypeDefinitionIndex = 70876;
+
 	class ComicDialogEmitterBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

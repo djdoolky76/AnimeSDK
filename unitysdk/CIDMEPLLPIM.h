@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define CIDMEPLLPIM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC14FA0)
 #define CIDMEPLLPIM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC14F60)
 
+inline static constexpr unsigned int CIDMEPLLPIM_TypeDefinitionIndex = 23167;
+
 	class CIDMEPLLPIM : public ::RPG::GameCore::TaskConfig
 	{
 	public:

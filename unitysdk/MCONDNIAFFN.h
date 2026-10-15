@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define MCONDNIAFFN_BOCGLLIDPDD_OFFSET UNITYSDK_OFFSET(0xB88AC70)
 #define MCONDNIAFFN_CTOR_OFFSET UNITYSDK_OFFSET(0xB88A900)
 
+inline static constexpr unsigned int MCONDNIAFFN_TypeDefinitionIndex = 81111;
+
 	class MCONDNIAFFN : public ::System::Object
 	{
 	public:

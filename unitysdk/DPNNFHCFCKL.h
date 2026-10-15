@@ -47,6 +47,8 @@ namespace System { class String; }
 #define DPNNFHCFCKL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E21D810)
 #define DPNNFHCFCKL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E21D870)
 
+inline static constexpr unsigned int DPNNFHCFCKL_TypeDefinitionIndex = 26808;
+
 	class DPNNFHCFCKL : public ::System::Object
 	{
 	public:

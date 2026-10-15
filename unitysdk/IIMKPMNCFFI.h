@@ -27,6 +27,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define IIMKPMNCFFI_SET_ROTATESIGN_OFFSET UNITYSDK_OFFSET(0x1644E8C0)
 #define IIMKPMNCFFI_SET_SCALECURVE_OFFSET UNITYSDK_OFFSET(0x1644E8E0)
 
+inline static constexpr unsigned int IIMKPMNCFFI_TypeDefinitionIndex = 68791;
+
 	class IIMKPMNCFFI : public ::System::Object
 	{
 	public:

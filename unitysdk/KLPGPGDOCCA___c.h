@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define KLPGPGDOCCA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB53A9F0)
 #define KLPGPGDOCCA___C__PLAY_B__4_0_OFFSET UNITYSDK_OFFSET(0xB53AA00)
 
+inline static constexpr unsigned int KLPGPGDOCCA___c_TypeDefinitionIndex = 70321;
+
 	class KLPGPGDOCCA___c : public ::System::Object
 	{
 	public:

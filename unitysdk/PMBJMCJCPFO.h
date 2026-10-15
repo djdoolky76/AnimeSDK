@@ -14,6 +14,8 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 #define PMBJMCJCPFO_LICNJKAHNJC_4_OFFSET UNITYSDK_OFFSET(0xC314F40)
 #define PMBJMCJCPFO_LICNJKAHNJC_OFFSET UNITYSDK_OFFSET(0xC3149F0)
 
+inline static constexpr unsigned int PMBJMCJCPFO_TypeDefinitionIndex = 48511;
+
 	class PMBJMCJCPFO : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GachaTokenShopConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GachaTokenData_TypeDefinitionIndex = 64324;
+
 	class GachaTokenData : public ::System::Object
 	{
 	public:

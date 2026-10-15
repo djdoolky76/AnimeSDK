@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SaveType_TypeDefinitionIndex = 10465;
+
 	enum class SaveType : ::System::Int32
 	{
 		SAVE_WHEN_START = 0,

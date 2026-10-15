@@ -30,6 +30,8 @@ namespace System { class String; }
 #define IECODOPOOBL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E634ED0)
 #define IECODOPOOBL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E634F30)
 
+inline static constexpr unsigned int IECODOPOOBL_TypeDefinitionIndex = 27021;
+
 	class IECODOPOOBL : public ::System::Object
 	{
 	public:

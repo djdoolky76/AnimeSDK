@@ -16,6 +16,8 @@ namespace UnityEngine { class Animator; }
 #define EIDJMCKOHEK_ONRETURN_OFFSET UNITYSDK_OFFSET(0x154BEDB0)
 #define EIDJMCKOHEK__ONBIND_OFFSET UNITYSDK_OFFSET(0x154BED20)
 
+inline static constexpr unsigned int EIDJMCKOHEK_TypeDefinitionIndex = 71753;
+
 	class EIDJMCKOHEK : public ::GPMFOHDCMFF
 	{
 	public:

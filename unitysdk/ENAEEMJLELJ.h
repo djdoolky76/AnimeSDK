@@ -17,6 +17,8 @@ namespace RPG::Client { class ChallengePeakGroup; }
 #define ENAEEMJLELJ_PIHENOALKNI_OFFSET UNITYSDK_OFFSET(0x155A6DF0)
 #define ENAEEMJLELJ_SET_BOSSBUFFID_OFFSET UNITYSDK_OFFSET(0x155A6E70)
 
+inline static constexpr unsigned int ENAEEMJLELJ_TypeDefinitionIndex = 63175;
+
 	class ENAEEMJLELJ : public ::System::Object
 	{
 	public:

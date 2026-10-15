@@ -41,6 +41,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int UninterpretedOption_TypeDefinitionIndex = 35805;
+
 	class UninterpretedOption : public ::System::Object
 	{
 	public:

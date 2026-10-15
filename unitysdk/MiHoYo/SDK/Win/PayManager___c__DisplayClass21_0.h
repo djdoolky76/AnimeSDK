@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int PayManager___c__DisplayClass21_0_TypeDefinitionIndex = 9470;
+
 	class PayManager___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

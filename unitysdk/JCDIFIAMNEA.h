@@ -43,6 +43,8 @@ namespace UnityEngine::UI { class Text; }
 #define JCDIFIAMNEA_PEGNJCBFPFB_OFFSET UNITYSDK_OFFSET(0x1657BBE0)
 #define JCDIFIAMNEA__ONBIND_OFFSET UNITYSDK_OFFSET(0x1657B540)
 
+inline static constexpr unsigned int JCDIFIAMNEA_TypeDefinitionIndex = 71365;
+
 	class JCDIFIAMNEA : public ::CAOEEDDAPIK
 	{
 	public:

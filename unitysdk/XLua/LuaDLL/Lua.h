@@ -171,6 +171,8 @@ namespace XLua::LuaDLL { class lua_CSFunction; }
 
 namespace XLua::LuaDLL
 {
+	inline static constexpr unsigned int Lua_TypeDefinitionIndex = 51707;
+
 	class Lua : public ::System::Object
 	{
 	public:

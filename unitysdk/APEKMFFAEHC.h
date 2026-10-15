@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define APEKMFFAEHC_FGLGLHDAEDE_OFFSET UNITYSDK_OFFSET(0x15BA8020)
 #define APEKMFFAEHC_HEIPLCBIIBC_OFFSET UNITYSDK_OFFSET(0x15BA8100)
 
+inline static constexpr unsigned int APEKMFFAEHC_TypeDefinitionIndex = 65308;
+
 	class APEKMFFAEHC : public ::System::Object
 	{
 	public:

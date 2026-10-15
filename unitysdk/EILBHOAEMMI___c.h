@@ -4,6 +4,8 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
+inline static constexpr unsigned int EILBHOAEMMI___c_TypeDefinitionIndex = 44142;
+
 	class EILBHOAEMMI___c : public ::System::Object
 	{
 	public:

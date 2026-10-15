@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGame::Match3
 {
+	inline static constexpr unsigned int OpponentRole_TypeDefinitionIndex = 43005;
+
 	enum class OpponentRole : ::System::Int32
 	{
 		Self = 0,

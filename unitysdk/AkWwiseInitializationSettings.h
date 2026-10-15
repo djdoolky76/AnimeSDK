@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AKWWISEINITIALIZATIONSETTINGS_SLEEPFORMILLISECONDS_OFFSET UNITYSDK_OFFSET(0x1F61D370)
 #define AKWWISEINITIALIZATIONSETTINGS_TERMINATESOUNDENGINE_OFFSET UNITYSDK_OFFSET(0x1F61CD60)
 
+inline static constexpr unsigned int AkWwiseInitializationSettings_TypeDefinitionIndex = 44857;
+
 	class AkWwiseInitializationSettings : public ::AkCommonPlatformSettings
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareSelectSkillEffect___O_TypeDefinitionIndex = 23022;
+
 	class ByCompareSelectSkillEffect___O : public ::System::Object
 	{
 	public:

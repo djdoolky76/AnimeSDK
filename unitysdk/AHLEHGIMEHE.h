@@ -8,6 +8,8 @@ namespace System::Reflection { class MemberInfo; }
 #define AHLEHGIMEHE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EC624E0)
 #define AHLEHGIMEHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC624B0)
 
+inline static constexpr unsigned int AHLEHGIMEHE_TypeDefinitionIndex = 44302;
+
 	class AHLEHGIMEHE : public ::System::Exception
 	{
 	public:

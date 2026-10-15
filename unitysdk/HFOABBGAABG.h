@@ -9,6 +9,8 @@ namespace System { class Action; }
 #define HFOABBGAABG_GOPCNJKMHGJ_OFFSET UNITYSDK_OFFSET(0x15C8D160)
 #define HFOABBGAABG_JGBDDOKIMAI_OFFSET UNITYSDK_OFFSET(0x15C8D0C0)
 
+inline static constexpr unsigned int HFOABBGAABG_TypeDefinitionIndex = 54131;
+
 	class HFOABBGAABG : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define ACPNMANEGEH_CTOR_OFFSET UNITYSDK_OFFSET(0xB1333D0)
 
+inline static constexpr unsigned int ACPNMANEGEH_TypeDefinitionIndex = 70240;
+
 	class ACPNMANEGEH : public ::System::Attribute
 	{
 	public:

@@ -7,6 +7,8 @@ namespace HoudiniEngineUnity { class HEU_TOPNodeData; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_PDGCookedEventData_TypeDefinitionIndex = 40531;
+
 	class HEU_PDGCookedEventData : public ::System::Object
 	{
 	public:

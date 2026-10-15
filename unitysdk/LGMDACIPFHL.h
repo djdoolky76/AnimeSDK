@@ -34,6 +34,8 @@ namespace System { class String; }
 #define LGMDACIPFHL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E956530)
 #define LGMDACIPFHL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E956590)
 
+inline static constexpr unsigned int LGMDACIPFHL_TypeDefinitionIndex = 30779;
+
 	class LGMDACIPFHL : public ::System::Object
 	{
 	public:

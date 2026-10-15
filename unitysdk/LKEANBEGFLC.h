@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LKEANBEGFLC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB72E600)
 #define LKEANBEGFLC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB72EC80)
 
+inline static constexpr unsigned int LKEANBEGFLC_TypeDefinitionIndex = 55197;
+
 	class LKEANBEGFLC
 	{
 	public:

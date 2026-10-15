@@ -43,6 +43,8 @@ namespace System { class String; }
 #define IPIJFDIPNDE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6E4810)
 #define IPIJFDIPNDE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6E4870)
 
+inline static constexpr unsigned int IPIJFDIPNDE_TypeDefinitionIndex = 25756;
+
 	class IPIJFDIPNDE : public ::System::Object
 	{
 	public:

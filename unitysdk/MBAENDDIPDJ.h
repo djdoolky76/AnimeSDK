@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MBAENDDIPDJ_TICK_OFFSET UNITYSDK_OFFSET(0xB8578E0)
 #define MBAENDDIPDJ__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xB857940)
 
+inline static constexpr unsigned int MBAENDDIPDJ_TypeDefinitionIndex = 55104;
+
 	class MBAENDDIPDJ
 	{
 	public:

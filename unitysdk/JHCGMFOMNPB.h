@@ -29,6 +29,8 @@ namespace UnityEngine::UI { class Text; }
 #define JHCGMFOMNPB_SET_INDEX_OFFSET UNITYSDK_OFFSET(0xB1A9160)
 #define JHCGMFOMNPB__ONBIND_OFFSET UNITYSDK_OFFSET(0xB1A9060)
 
+inline static constexpr unsigned int JHCGMFOMNPB_TypeDefinitionIndex = 71565;
+
 	class JHCGMFOMNPB : public ::FMPCODLIOLG
 	{
 	public:

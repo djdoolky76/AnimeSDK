@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRCompositor__GetTrackingSpace_TypeDefinitionIndex = 39016;
+
 	class IVRCompositor__GetTrackingSpace : public ::System::MulticastDelegate
 	{
 	public:

@@ -39,6 +39,8 @@ namespace System { class String; }
 #define BAHMABONKBP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7B6FE0)
 #define BAHMABONKBP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7B7040)
 
+inline static constexpr unsigned int BAHMABONKBP_TypeDefinitionIndex = 34952;
+
 	class BAHMABONKBP : public ::System::Object
 	{
 	public:

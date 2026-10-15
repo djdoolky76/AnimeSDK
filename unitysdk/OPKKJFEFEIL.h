@@ -30,6 +30,8 @@ namespace System { class String; }
 #define OPKKJFEFEIL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEE46F0)
 #define OPKKJFEFEIL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEE4750)
 
+inline static constexpr unsigned int OPKKJFEFEIL_TypeDefinitionIndex = 30455;
+
 	class OPKKJFEFEIL : public ::System::Object
 	{
 	public:

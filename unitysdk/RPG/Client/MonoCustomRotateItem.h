@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoCustomRotateItem_TypeDefinitionIndex = 68775;
+
 	class MonoCustomRotateItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

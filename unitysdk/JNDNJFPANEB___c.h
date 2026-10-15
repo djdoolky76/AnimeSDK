@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JNDNJFPANEB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E794F20)
 #define JNDNJFPANEB___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E794F30)
 
+inline static constexpr unsigned int JNDNJFPANEB___c_TypeDefinitionIndex = 32783;
+
 	class JNDNJFPANEB___c : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CGFMDMPCKDN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0AEBE0)
 #define CGFMDMPCKDN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E0AEBF0)
 
+inline static constexpr unsigned int CGFMDMPCKDN___c_TypeDefinitionIndex = 34259;
+
 	class CGFMDMPCKDN___c : public ::System::Object
 	{
 	public:

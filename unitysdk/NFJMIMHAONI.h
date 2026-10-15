@@ -8,6 +8,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define NFJMIMHAONI_HFIDHKKOEOA_OFFSET UNITYSDK_OFFSET(0xBB991C0)
 #define NFJMIMHAONI_JAGPJGOOALH_OFFSET UNITYSDK_OFFSET(0xBB98FF0)
 
+inline static constexpr unsigned int NFJMIMHAONI_TypeDefinitionIndex = 65572;
+
 	class NFJMIMHAONI : public ::System::Object
 	{
 	public:

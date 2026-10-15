@@ -28,6 +28,8 @@ namespace System { class String; }
 #define LENPMJECBLF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9383D0)
 #define LENPMJECBLF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E938430)
 
+inline static constexpr unsigned int LENPMJECBLF_TypeDefinitionIndex = 33866;
+
 	class LENPMJECBLF : public ::System::Object
 	{
 	public:

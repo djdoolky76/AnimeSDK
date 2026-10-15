@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VE_RtBattleSkillParamByCharacterID_TypeDefinitionIndex = 24262;
+
 	class VE_RtBattleSkillParamByCharacterID : public ::RPG::GameCore::ValueEvaluatorConfig
 	{
 	public:

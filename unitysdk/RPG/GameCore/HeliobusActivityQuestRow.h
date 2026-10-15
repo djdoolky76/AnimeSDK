@@ -10,6 +10,8 @@ namespace RPG::GameCore { class HeliobusActivityQuestRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HeliobusActivityQuestRow_TypeDefinitionIndex = 13759;
+
 	class HeliobusActivityQuestRow : public ::System::Object
 	{
 	public:

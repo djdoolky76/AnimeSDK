@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChenLingBattlePredicate_IsTeamType; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattlePredicate_IsTeamType_TypeDefinitionIndex = 15813;
+
 	class ChenLingBattlePredicate_IsTeamType : public ::RPG::GameCore::BaseChenLingBattlePredicate
 	{
 	public:

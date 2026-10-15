@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameplayExitConfirmWindow___c_TypeDefinitionIndex = 81311;
+
 	class ChenLingFesGameplayExitConfirmWindow___c : public ::System::Object
 	{
 	public:

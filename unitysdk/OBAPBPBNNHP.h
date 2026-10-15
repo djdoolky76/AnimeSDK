@@ -42,6 +42,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define OBAPBPBNNHP_PEKALLODGAN_OFFSET UNITYSDK_OFFSET(0xBD34600)
 #define OBAPBPBNNHP_PIOHIPIKODE_OFFSET UNITYSDK_OFFSET(0xBD33CE0)
 
+inline static constexpr unsigned int OBAPBPBNNHP_TypeDefinitionIndex = 60739;
+
 	class OBAPBPBNNHP : public ::System::Object
 	{
 	public:

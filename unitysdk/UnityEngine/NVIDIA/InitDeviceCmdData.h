@@ -7,6 +7,8 @@
 
 namespace UnityEngine::NVIDIA
 {
+	inline static constexpr unsigned int InitDeviceCmdData_TypeDefinitionIndex = 5023;
+
 	struct alignas(4) InitDeviceCmdData
 	{
 		::System::IntPtr m_ProjectId; // 0x10

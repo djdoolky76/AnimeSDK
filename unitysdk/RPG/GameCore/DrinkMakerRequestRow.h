@@ -12,6 +12,8 @@ namespace RPG::GameCore { class DrinkMakerRequestRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DrinkMakerRequestRow_TypeDefinitionIndex = 13150;
+
 	class DrinkMakerRequestRow : public ::System::Object
 	{
 	public:

@@ -38,6 +38,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int ParameterInfo_TypeDefinitionIndex = 636;
+
 	class ParameterInfo : public ::System::Object
 	{
 	public:

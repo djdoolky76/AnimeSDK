@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NGHFNHPJHJO_LMINGHNKMCC_OFFSET UNITYSDK_OFFSET(0x1C794EE0)
 #define NGHFNHPJHJO_PEMIKBNHOEI_OFFSET UNITYSDK_OFFSET(0x1C794440)
 
+inline static constexpr unsigned int NGHFNHPJHJO_TypeDefinitionIndex = 36546;
+
 	class NGHFNHPJHJO : public ::System::Object
 	{
 	public:

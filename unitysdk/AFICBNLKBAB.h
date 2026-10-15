@@ -7,6 +7,8 @@ namespace System { class String; }
 #define AFICBNLKBAB_DAMDMJJKLON_OFFSET UNITYSDK_OFFSET(0xCF0C9F0)
 #define AFICBNLKBAB_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0xCF0CA80)
 
+inline static constexpr unsigned int AFICBNLKBAB_TypeDefinitionIndex = 61102;
+
 	class AFICBNLKBAB : public ::KDLEIHJGDAP
 	{
 	public:

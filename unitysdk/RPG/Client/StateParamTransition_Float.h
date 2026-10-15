@@ -10,6 +10,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StateParamTransition_Float_TypeDefinitionIndex = 68837;
+
 	class StateParamTransition_Float : public ::RPG::Client::StateParamTransition_Duration
 	{
 	public:

@@ -37,6 +37,8 @@ namespace System { class String; }
 #define CPNCAPLOIHI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E146350)
 #define CPNCAPLOIHI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1463B0)
 
+inline static constexpr unsigned int CPNCAPLOIHI_TypeDefinitionIndex = 25643;
+
 	class CPNCAPLOIHI : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int ChapterRecordUiData_TypeDefinitionIndex = 75414;
+
 	struct alignas(8) ChapterRecordUiData
 	{
 		::System::UInt64 BattlePower; // 0x10

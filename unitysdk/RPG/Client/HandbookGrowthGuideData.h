@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HandbookGrowthGuideData_TypeDefinitionIndex = 65617;
+
 	class HandbookGrowthGuideData : public ::System::Object
 	{
 	public:

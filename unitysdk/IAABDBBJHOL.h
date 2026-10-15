@@ -31,6 +31,8 @@ namespace System { class String; }
 #define IAABDBBJHOL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E601BA0)
 #define IAABDBBJHOL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E601C00)
 
+inline static constexpr unsigned int IAABDBBJHOL_TypeDefinitionIndex = 29550;
+
 	class IAABDBBJHOL : public ::System::Object
 	{
 	public:

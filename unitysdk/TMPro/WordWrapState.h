@@ -18,6 +18,8 @@ namespace UnityEngine { class Material; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int WordWrapState_TypeDefinitionIndex = 44688;
+
 	struct alignas(8) WordWrapState
 	{
 		::System::Int32 previous_WordBreak; // 0x10

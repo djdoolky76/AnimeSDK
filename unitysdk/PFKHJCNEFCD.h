@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PFKHJCNEFCD_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2DCA70)
 #define PFKHJCNEFCD_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D2DBFE0)
 
+inline static constexpr unsigned int PFKHJCNEFCD_TypeDefinitionIndex = 14353;
+
 	class PFKHJCNEFCD : public ::System::Object
 	{
 	public:

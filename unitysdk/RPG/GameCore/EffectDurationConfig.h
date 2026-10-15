@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EffectDurationConfig_TypeDefinitionIndex = 16347;
+
 	class EffectDurationConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

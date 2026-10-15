@@ -6,6 +6,8 @@
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int OpenedHost_TypeDefinitionIndex = 1947;
+
 	class OpenedHost : public ::System::Object
 	{
 	public:

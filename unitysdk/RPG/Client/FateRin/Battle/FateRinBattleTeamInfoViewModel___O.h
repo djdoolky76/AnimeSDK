@@ -5,6 +5,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleTeamInfoViewModel___O_TypeDefinitionIndex = 80978;
+
 	class FateRinBattleTeamInfoViewModel___O : public ::System::Object
 	{
 	public:

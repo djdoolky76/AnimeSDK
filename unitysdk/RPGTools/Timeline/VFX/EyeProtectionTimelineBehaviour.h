@@ -20,6 +20,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int EyeProtectionTimelineBehaviour_TypeDefinitionIndex = 48699;
+
 	class EyeProtectionTimelineBehaviour : public ::RPGTools::Timeline::RecoverablePlayableBehaviour
 	{
 	public:

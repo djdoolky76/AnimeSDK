@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define AJGPHBJFHPI_IIFINBAGBDG_OFFSET UNITYSDK_OFFSET(0x12CBC470)
 #define AJGPHBJFHPI_PAMKOLICNOL_OFFSET UNITYSDK_OFFSET(0x12CBC850)
 
+inline static constexpr unsigned int AJGPHBJFHPI_TypeDefinitionIndex = 76389;
+
 	class AJGPHBJFHPI : public ::System::Object
 	{
 	public:

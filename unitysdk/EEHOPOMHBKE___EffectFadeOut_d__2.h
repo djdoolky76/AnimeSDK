@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define EEHOPOMHBKE___EFFECTFADEOUT_D__2_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x13A2E640)
 #define EEHOPOMHBKE___EFFECTFADEOUT_D__2_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13A2DEB0)
 
+inline static constexpr unsigned int EEHOPOMHBKE___EffectFadeOut_d__2_TypeDefinitionIndex = 56361;
+
 	template <typename T1, typename T2>
 	class EEHOPOMHBKE___EffectFadeOut_d__2 : public ::System::Object
 	{

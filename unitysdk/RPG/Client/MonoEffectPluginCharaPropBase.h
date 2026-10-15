@@ -51,6 +51,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginCharaPropBase_TypeDefinitionIndex = 69949;
+
 	class MonoEffectPluginCharaPropBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

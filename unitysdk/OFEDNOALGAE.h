@@ -4,6 +4,8 @@
 
 #define OFEDNOALGAE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C98CD00)
 
+inline static constexpr unsigned int OFEDNOALGAE_TypeDefinitionIndex = 42816;
+
 	class OFEDNOALGAE : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{
 	public:

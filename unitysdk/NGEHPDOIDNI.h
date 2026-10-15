@@ -19,6 +19,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define NGEHPDOIDNI_ONPGJCHIKEO_OFFSET UNITYSDK_OFFSET(0xBBA44F0)
 #define NGEHPDOIDNI_POPNLPIAOCM_OFFSET UNITYSDK_OFFSET(0xBBA40D0)
 
+inline static constexpr unsigned int NGEHPDOIDNI_TypeDefinitionIndex = 70071;
+
 	class NGEHPDOIDNI : public ::RPG::Client::BehaviorBase
 	{
 	public:

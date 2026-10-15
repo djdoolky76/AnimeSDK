@@ -45,6 +45,8 @@ namespace System { class String; }
 #define BFMENAAGPDN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA6DE80)
 #define BFMENAAGPDN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA6DEE0)
 
+inline static constexpr unsigned int BFMENAAGPDN_TypeDefinitionIndex = 28211;
+
 	class BFMENAAGPDN : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define NLNAALOKGJD___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBC76060)
 #define NLNAALOKGJD___C___CREATEPHONE_B__3_0_OFFSET UNITYSDK_OFFSET(0xBC76070)
 
+inline static constexpr unsigned int NLNAALOKGJD___c_TypeDefinitionIndex = 58054;
+
 	class NLNAALOKGJD___c : public ::System::Object
 	{
 	public:

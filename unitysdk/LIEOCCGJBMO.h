@@ -13,6 +13,8 @@ class OGGELMMFPKP;
 #define LIEOCCGJBMO_SET_ISWIN_OFFSET UNITYSDK_OFFSET(0xB6C9230)
 #define LIEOCCGJBMO_SET_SOLDIERDEADCNT_OFFSET UNITYSDK_OFFSET(0xB6C9270)
 
+inline static constexpr unsigned int LIEOCCGJBMO_TypeDefinitionIndex = 76312;
+
 	class LIEOCCGJBMO : public ::System::Object
 	{
 	public:

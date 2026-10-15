@@ -26,6 +26,8 @@ class GLBHLNPCJCH;
 #define GLBHLNPCJCH_SET_ISHIDEWAYPOINT_OFFSET UNITYSDK_OFFSET(0x15AAA350)
 #define GLBHLNPCJCH_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x15AAA220)
 
+inline static constexpr unsigned int GLBHLNPCJCH_TypeDefinitionIndex = 74549;
+
 	class GLBHLNPCJCH : public ::System::Object
 	{
 	public:

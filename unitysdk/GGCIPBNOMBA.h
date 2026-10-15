@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define GGCIPBNOMBA_LONNFPKGNCN_OFFSET UNITYSDK_OFFSET(0x15A02B10)
 #define GGCIPBNOMBA_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x15A02420)
 
+inline static constexpr unsigned int GGCIPBNOMBA_TypeDefinitionIndex = 78403;
+
 	class GGCIPBNOMBA : public ::System::Object
 	{
 	public:

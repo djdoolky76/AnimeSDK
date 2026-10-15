@@ -21,6 +21,8 @@ namespace System { class String; }
 #define OFLJCMOBHIH_SET_ISENABLE_OFFSET UNITYSDK_OFFSET(0xBE46DC0)
 #define OFLJCMOBHIH__LOADINDEXINFO_OFFSET UNITYSDK_OFFSET(0xBE46DD0)
 
+inline static constexpr unsigned int OFLJCMOBHIH_TypeDefinitionIndex = 59477;
+
 	class OFLJCMOBHIH
 	{
 	public:

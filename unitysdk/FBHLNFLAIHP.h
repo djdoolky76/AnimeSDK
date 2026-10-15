@@ -26,6 +26,8 @@ namespace UnityEngine { class GameObject; }
 #define FBHLNFLAIHP_MMDJEJBIFHF_OFFSET UNITYSDK_OFFSET(0x1569E760)
 #define FBHLNFLAIHP_OPFAFBIOLJO_OFFSET UNITYSDK_OFFSET(0x1569EA10)
 
+inline static constexpr unsigned int FBHLNFLAIHP_TypeDefinitionIndex = 60670;
+
 	class FBHLNFLAIHP : public ::System::Object
 	{
 	public:

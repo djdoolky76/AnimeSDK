@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::EnvironmentSyetem
 {
+	inline static constexpr unsigned int EnviroSysAdjustLevelClip_TypeDefinitionIndex = 48635;
+
 	class EnviroSysAdjustLevelClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define ILEPJCLBBJD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6ABCF0)
 #define ILEPJCLBBJD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6ABD50)
 
+inline static constexpr unsigned int ILEPJCLBBJD_TypeDefinitionIndex = 28633;
+
 	class ILEPJCLBBJD : public ::System::Object
 	{
 	public:

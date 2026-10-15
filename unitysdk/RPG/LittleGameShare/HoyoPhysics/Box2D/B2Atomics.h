@@ -13,6 +13,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Atomics_TypeDefinitionIndex = 36585;
+
 	class B2Atomics : public ::System::Object
 	{
 	public:

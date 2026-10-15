@@ -14,6 +14,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EvolveBuildTutorialUnlockFcConfig_TypeDefinitionIndex = 63827;
+
 	struct alignas(4) EvolveBuildTutorialUnlockFcConfig
 	{
 		::System::UInt32 get_ExpChange()

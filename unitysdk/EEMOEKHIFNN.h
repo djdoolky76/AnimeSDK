@@ -23,6 +23,8 @@ namespace System { class Object; }
 #define EEMOEKHIFNN_PMFGMIBNFEO_OFFSET UNITYSDK_OFFSET(0x13A3F0A0)
 #define EEMOEKHIFNN__TRACKFIGHT_B__2_0_OFFSET UNITYSDK_OFFSET(0x13A3F5C0)
 
+inline static constexpr unsigned int EEMOEKHIFNN_TypeDefinitionIndex = 80763;
+
 	class EEMOEKHIFNN : public ::System::Object
 	{
 	public:

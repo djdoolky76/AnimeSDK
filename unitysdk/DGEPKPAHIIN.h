@@ -32,6 +32,8 @@ namespace System { class String; }
 #define DGEPKPAHIIN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1ABDD0)
 #define DGEPKPAHIIN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1ABE30)
 
+inline static constexpr unsigned int DGEPKPAHIIN_TypeDefinitionIndex = 29891;
+
 	class DGEPKPAHIIN : public ::System::Object
 	{
 	public:

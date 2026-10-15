@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DestroyUnstageCharacter_TypeDefinitionIndex = 22749;
+
 	class DestroyUnstageCharacter : public ::RPG::GameCore::TaskConfig
 	{
 	public:

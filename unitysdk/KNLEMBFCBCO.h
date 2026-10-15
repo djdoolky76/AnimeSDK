@@ -7,6 +7,8 @@ namespace System { class String; }
 #define KNLEMBFCBCO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C909BC0)
 #define KNLEMBFCBCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C909C50)
 
+inline static constexpr unsigned int KNLEMBFCBCO_TypeDefinitionIndex = 43418;
+
 	class KNLEMBFCBCO : public ::System::Object
 	{
 	public:

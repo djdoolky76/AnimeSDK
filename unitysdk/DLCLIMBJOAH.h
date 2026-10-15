@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DLCLIMBJOAH_HOGLEGMHBAO_OFFSET UNITYSDK_OFFSET(0xF896D70)
 #define DLCLIMBJOAH_OCLLPOPDDNN_OFFSET UNITYSDK_OFFSET(0xF896AF0)
 
+inline static constexpr unsigned int DLCLIMBJOAH_TypeDefinitionIndex = 52047;
+
 	class DLCLIMBJOAH : public ::System::Object
 	{
 	public:

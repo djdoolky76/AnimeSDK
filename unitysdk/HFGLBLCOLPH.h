@@ -19,6 +19,8 @@ namespace System { class Object; }
 #define HFGLBLCOLPH_PDDHJJBHHHK_OFFSET UNITYSDK_OFFSET(0x15C7A540)
 #define HFGLBLCOLPH_TICK_OFFSET UNITYSDK_OFFSET(0x15C79D90)
 
+inline static constexpr unsigned int HFGLBLCOLPH_TypeDefinitionIndex = 52701;
+
 	class HFGLBLCOLPH : public ::GELIALJDFBL
 	{
 	public:

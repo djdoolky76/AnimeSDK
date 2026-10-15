@@ -8,6 +8,8 @@ namespace RPG::Client::PixAir { class PixAirNodeInstance; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirAreaInstance___c__DisplayClass23_0_TypeDefinitionIndex = 79312;
+
 	class PixAirAreaInstance___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:

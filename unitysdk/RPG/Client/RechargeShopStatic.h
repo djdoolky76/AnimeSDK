@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RechargeShopStatic_TypeDefinitionIndex = 66801;
+
 	class RechargeShopStatic : public ::System::Object
 	{
 	public:

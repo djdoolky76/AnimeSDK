@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK::Watermark
 {
+	inline static constexpr unsigned int WatermarkHelper_TypeDefinitionIndex = 8866;
+
 	class WatermarkHelper : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace UnityEngineInternal
 {
+	inline static constexpr unsigned int GenericStack_TypeDefinitionIndex = 3921;
+
 	class GenericStack : public ::System::Collections::Stack
 	{
 	public:

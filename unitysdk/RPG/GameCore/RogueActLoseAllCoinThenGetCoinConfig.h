@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActLoseAllCoinThenGetCoinConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActLoseAllCoinThenGetCoinConfig_TypeDefinitionIndex = 19623;
+
 	class RogueActLoseAllCoinThenGetCoinConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

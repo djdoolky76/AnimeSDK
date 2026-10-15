@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GHBBMIJFIAD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E482080)
 #define GHBBMIJFIAD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4820E0)
 
+inline static constexpr unsigned int GHBBMIJFIAD_TypeDefinitionIndex = 30322;
+
 	class GHBBMIJFIAD : public ::System::Object
 	{
 	public:

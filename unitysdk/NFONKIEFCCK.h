@@ -27,6 +27,8 @@ namespace System { class String; }
 #define NFONKIEFCCK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB088F0)
 #define NFONKIEFCCK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB08950)
 
+inline static constexpr unsigned int NFONKIEFCCK_TypeDefinitionIndex = 30162;
+
 	class NFONKIEFCCK : public ::System::Object
 	{
 	public:

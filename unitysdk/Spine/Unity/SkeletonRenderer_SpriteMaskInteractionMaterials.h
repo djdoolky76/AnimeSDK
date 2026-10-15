@@ -8,6 +8,8 @@ namespace UnityEngine { class Material; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonRenderer_SpriteMaskInteractionMaterials_TypeDefinitionIndex = 45046;
+
 	class SkeletonRenderer_SpriteMaskInteractionMaterials : public ::System::Object
 	{
 	public:

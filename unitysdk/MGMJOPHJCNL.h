@@ -57,6 +57,8 @@ namespace System { class String; }
 #define MGMJOPHJCNL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA28960)
 #define MGMJOPHJCNL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA289C0)
 
+inline static constexpr unsigned int MGMJOPHJCNL_TypeDefinitionIndex = 25624;
+
 	class MGMJOPHJCNL : public ::System::Object
 	{
 	public:

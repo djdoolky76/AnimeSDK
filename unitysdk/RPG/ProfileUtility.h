@@ -51,6 +51,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int ProfileUtility_TypeDefinitionIndex = 35149;
+
 	class ProfileUtility : public ::System::Object
 	{
 	public:

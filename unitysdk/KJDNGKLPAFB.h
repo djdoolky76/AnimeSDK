@@ -32,6 +32,8 @@ namespace System { class String; }
 #define KJDNGKLPAFB_SET_ONCREATECONFIG_OFFSET UNITYSDK_OFFSET(0xB443DD0)
 #define KJDNGKLPAFB_TICK_OFFSET UNITYSDK_OFFSET(0xB442E50)
 
+inline static constexpr unsigned int KJDNGKLPAFB_TypeDefinitionIndex = 57234;
+
 	class KJDNGKLPAFB : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

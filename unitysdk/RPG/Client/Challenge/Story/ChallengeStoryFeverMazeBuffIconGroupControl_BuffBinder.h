@@ -8,6 +8,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::Challenge::Story
 {
+	inline static constexpr unsigned int ChallengeStoryFeverMazeBuffIconGroupControl_BuffBinder_TypeDefinitionIndex = 81637;
+
 	class ChallengeStoryFeverMazeBuffIconGroupControl_BuffBinder : public ::System::Object
 	{
 	public:

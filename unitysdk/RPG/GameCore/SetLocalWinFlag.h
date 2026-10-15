@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetLocalWinFlag; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetLocalWinFlag_TypeDefinitionIndex = 23406;
+
 	class SetLocalWinFlag : public ::RPG::GameCore::TaskConfig
 	{
 	public:

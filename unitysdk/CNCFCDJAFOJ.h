@@ -28,6 +28,8 @@ namespace System { class String; }
 #define CNCFCDJAFOJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E107120)
 #define CNCFCDJAFOJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E107180)
 
+inline static constexpr unsigned int CNCFCDJAFOJ_TypeDefinitionIndex = 30414;
+
 	class CNCFCDJAFOJ : public ::System::Object
 	{
 	public:

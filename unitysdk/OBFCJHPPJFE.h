@@ -8,6 +8,8 @@ namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyCon
 #define OBFCJHPPJFE_GET_PROPERTYCONTEXT_OFFSET UNITYSDK_OFFSET(0xBD3D120)
 #define OBFCJHPPJFE_SET_PROPERTYCONTEXT_OFFSET UNITYSDK_OFFSET(0xBD3D130)
 
+inline static constexpr unsigned int OBFCJHPPJFE_TypeDefinitionIndex = 51921;
+
 	class OBFCJHPPJFE : public ::System::Object
 	{
 	public:

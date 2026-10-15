@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HKJLDHHALJL_IAMOMCGPMGM_OFFSET UNITYSDK_OFFSET(0x15D4A370)
 #define HKJLDHHALJL_MFMJEGEHIOL_OFFSET UNITYSDK_OFFSET(0x15D4A490)
 
+inline static constexpr unsigned int HKJLDHHALJL_TypeDefinitionIndex = 56968;
+
 	class HKJLDHHALJL : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

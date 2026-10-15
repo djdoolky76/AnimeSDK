@@ -4,6 +4,8 @@
 
 #define JOFNALDHCCC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA7760)
 
+inline static constexpr unsigned int JOFNALDHCCC_TypeDefinitionIndex = 42247;
+
 	class JOFNALDHCCC : public ::System::Object
 	{
 	public:

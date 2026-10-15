@@ -8,6 +8,8 @@ namespace MessagePack { class IFormatterResolver; }
 
 namespace MessagePack::Unity
 {
+	inline static constexpr unsigned int UnityResolver_TypeDefinitionIndex = 10142;
+
 	class UnityResolver : public ::System::Object
 	{
 	public:

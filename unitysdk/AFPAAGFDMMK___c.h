@@ -14,6 +14,8 @@ namespace UnityEngine { class Collider; }
 #define AFPAAGFDMMK___C___CREATEINTERACTTRIGGER_B__7_0_OFFSET UNITYSDK_OFFSET(0xCF20660)
 #define AFPAAGFDMMK___C___CREATEINTERACTTRIGGER_B__7_1_OFFSET UNITYSDK_OFFSET(0xCF20680)
 
+inline static constexpr unsigned int AFPAAGFDMMK___c_TypeDefinitionIndex = 77136;
+
 	class AFPAAGFDMMK___c : public ::System::Object
 	{
 	public:

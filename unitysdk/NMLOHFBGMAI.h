@@ -23,6 +23,8 @@ namespace System::Text { class StringBuilder; }
 #define NMLOHFBGMAI_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBC8CC30)
 #define NMLOHFBGMAI__CLONE___OFFSET UNITYSDK_OFFSET(0xBC8D3A0)
 
+inline static constexpr unsigned int NMLOHFBGMAI_TypeDefinitionIndex = 80606;
+
 	class NMLOHFBGMAI : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureModifyTeamPlayerSP_TypeDefinitionIndex = 20181;
+
 	class AdventureModifyTeamPlayerSP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace TMPro { class TMP_Glyph; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_Glyph_TypeDefinitionIndex = 44573;
+
 	class TMP_Glyph : public ::TMPro::TMP_TextElement_Legacy
 	{
 	public:

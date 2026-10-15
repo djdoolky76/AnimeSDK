@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class VerticalLayoutGroup; }
 
 namespace SRDebugger::UI::Other
 {
+	inline static constexpr unsigned int PinnedUIRoot_TypeDefinitionIndex = 38009;
+
 	class PinnedUIRoot : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

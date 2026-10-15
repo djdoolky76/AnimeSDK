@@ -13,6 +13,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define BMBCAILHNBB___C__SORTWEAPONLIST_B__1_3_OFFSET UNITYSDK_OFFSET(0xBA89C70)
 #define BMBCAILHNBB___C__SORTWEAPONLIST_B__1_4_OFFSET UNITYSDK_OFFSET(0xBA89C90)
 
+inline static constexpr unsigned int BMBCAILHNBB___c_TypeDefinitionIndex = 53579;
+
 	class BMBCAILHNBB___c : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__GetOutputDevice_TypeDefinitionIndex = 38898;
+
 	class IVRSystem__GetOutputDevice : public ::System::MulticastDelegate
 	{
 	public:

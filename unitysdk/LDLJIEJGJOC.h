@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FateRinCaseBoardEffectInfo; }
 #define LDLJIEJGJOC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0E1F00)
 #define LDLJIEJGJOC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0E1EC0)
 
+inline static constexpr unsigned int LDLJIEJGJOC_TypeDefinitionIndex = 19924;
+
 	class LDLJIEJGJOC : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -25,6 +25,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_RendererMatBackwardBehavior_TypeDefinitionIndex = 70546;
+
 	class Effect_RendererMatBackwardBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

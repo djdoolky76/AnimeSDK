@@ -4,6 +4,8 @@
 
 #define FMBLGICOBDN_MOJNGIAFKMC_CTOR_OFFSET UNITYSDK_OFFSET(0x2E77AA0)
 
+inline static constexpr unsigned int FMBLGICOBDN_MOJNGIAFKMC_TypeDefinitionIndex = 49141;
+
 	struct alignas(4) FMBLGICOBDN_MOJNGIAFKMC
 	{
 		::System::Int32 FAPENEGBFGK; // 0x10

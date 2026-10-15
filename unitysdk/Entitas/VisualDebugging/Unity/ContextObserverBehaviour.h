@@ -11,6 +11,8 @@ namespace Entitas::VisualDebugging::Unity { class ContextObserver; }
 
 namespace Entitas::VisualDebugging::Unity
 {
+	inline static constexpr unsigned int ContextObserverBehaviour_TypeDefinitionIndex = 10057;
+
 	class ContextObserverBehaviour : public ::UnityEngine::MonoBehaviour
 	{
 	public:

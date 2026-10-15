@@ -29,6 +29,8 @@ namespace System { class String; }
 #define JKPIHPAGABC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7703E0)
 #define JKPIHPAGABC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E770440)
 
+inline static constexpr unsigned int JKPIHPAGABC_TypeDefinitionIndex = 29900;
+
 	class JKPIHPAGABC : public ::System::Object
 	{
 	public:

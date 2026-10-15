@@ -12,6 +12,8 @@ namespace RPG::GameCore { class PropButtonConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimInteractEmitterConfig_TypeDefinitionIndex = 18561;
+
 	class FiveDimInteractEmitterConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

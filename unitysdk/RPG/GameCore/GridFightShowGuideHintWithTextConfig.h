@@ -6,6 +6,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightShowGuideHintWithTextConfig_TypeDefinitionIndex = 53586;
+
 	class GridFightShowGuideHintWithTextConfig : public ::System::Object
 	{
 	public:

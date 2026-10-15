@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define FKDIDBGBGMF_NHICFOJGFAL_OFFSET UNITYSDK_OFFSET(0x2E77360)
 #define FKDIDBGBGMF_PPAMJNOKPLO_OFFSET UNITYSDK_OFFSET(0x2E77130)
 
+inline static constexpr unsigned int FKDIDBGBGMF_TypeDefinitionIndex = 48892;
+
 	struct alignas(8) FKDIDBGBGMF
 	{
 		::NGLFOJKOKBH* GIIHDDOGFIP; // 0x10

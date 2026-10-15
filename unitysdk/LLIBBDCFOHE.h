@@ -14,6 +14,8 @@ namespace RPG::GameCore { class WaitSecond; }
 #define LLIBBDCFOHE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB76FAB0)
 #define LLIBBDCFOHE_TICK_OFFSET UNITYSDK_OFFSET(0xB76FBE0)
 
+inline static constexpr unsigned int LLIBBDCFOHE_TypeDefinitionIndex = 58925;
+
 	class LLIBBDCFOHE : public ::GELIALJDFBL
 	{
 	public:

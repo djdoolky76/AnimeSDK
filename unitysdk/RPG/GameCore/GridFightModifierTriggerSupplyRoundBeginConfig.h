@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierTriggerSupplyRoundBeginConfig; 
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierTriggerSupplyRoundBeginConfig_TypeDefinitionIndex = 19460;
+
 	class GridFightModifierTriggerSupplyRoundBeginConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

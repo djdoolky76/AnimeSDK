@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace ZLinq
 {
+	inline static constexpr unsigned int ArgumentNullException_TypeDefinitionIndex = 6088;
+
 	class ArgumentNullException : public ::System::Object
 	{
 	public:

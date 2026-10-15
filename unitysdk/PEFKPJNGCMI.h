@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define PEFKPJNGCMI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D3090)
 
+inline static constexpr unsigned int PEFKPJNGCMI_TypeDefinitionIndex = 15461;
+
 	class PEFKPJNGCMI : public ::System::Object
 	{
 	public:

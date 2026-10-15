@@ -28,6 +28,8 @@ namespace System { class String; }
 #define FANLJJIBNJH_SET_PARAM_OFFSET UNITYSDK_OFFSET(0x15687870)
 #define FANLJJIBNJH_SET_UNIQUENAME_OFFSET UNITYSDK_OFFSET(0x15687890)
 
+inline static constexpr unsigned int FANLJJIBNJH_TypeDefinitionIndex = 71699;
+
 	class FANLJJIBNJH : public ::System::Object
 	{
 	public:

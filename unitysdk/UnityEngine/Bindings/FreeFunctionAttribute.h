@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Bindings
 {
+	inline static constexpr unsigned int FreeFunctionAttribute_TypeDefinitionIndex = 3732;
+
 	class FreeFunctionAttribute : public ::UnityEngine::Bindings::NativeMethodAttribute
 	{
 	public:

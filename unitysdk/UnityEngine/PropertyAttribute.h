@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int PropertyAttribute_TypeDefinitionIndex = 4237;
+
 	class PropertyAttribute : public ::System::Attribute
 	{
 	public:

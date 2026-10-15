@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightProjectionConfig_TypeDefinitionIndex = 65080;
+
 	class GridFightProjectionConfig : public ::System::Object
 	{
 	public:

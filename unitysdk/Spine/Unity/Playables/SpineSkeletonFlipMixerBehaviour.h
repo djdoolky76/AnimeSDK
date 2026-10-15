@@ -18,6 +18,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 
 namespace Spine::Unity::Playables
 {
+	inline static constexpr unsigned int SpineSkeletonFlipMixerBehaviour_TypeDefinitionIndex = 45912;
+
 	class SpineSkeletonFlipMixerBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

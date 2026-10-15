@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetBattleUIPanelState_TypeDefinitionIndex = 22815;
+
 	class SetBattleUIPanelState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

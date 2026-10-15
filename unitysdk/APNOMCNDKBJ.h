@@ -7,6 +7,8 @@ namespace System { class String; }
 #define APNOMCNDKBJ_BHAFIIMIFNK_OFFSET UNITYSDK_OFFSET(0x15BBF710)
 #define APNOMCNDKBJ_FBGEOJGDFPL_OFFSET UNITYSDK_OFFSET(0x15BBF7F0)
 
+inline static constexpr unsigned int APNOMCNDKBJ_TypeDefinitionIndex = 82095;
+
 	class APNOMCNDKBJ : public ::System::Object
 	{
 	public:

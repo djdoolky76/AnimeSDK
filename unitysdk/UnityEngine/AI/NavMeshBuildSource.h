@@ -20,6 +20,8 @@ namespace UnityEngine { class Object; }
 
 namespace UnityEngine::AI
 {
+	inline static constexpr unsigned int NavMeshBuildSource_TypeDefinitionIndex = 5662;
+
 	struct alignas(4) NavMeshBuildSource
 	{
 		::UnityEngine::Matrix4x4 m_Transform; // 0x10

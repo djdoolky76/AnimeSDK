@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define BPJGFDAOCKG_SET_STAGEFEVERDESC_OFFSET UNITYSDK_OFFSET(0x1C5469D0)
 #define BPJGFDAOCKG_SET_STAGEFEVERSIMPLEDESC_OFFSET UNITYSDK_OFFSET(0x1C5469F0)
 
+inline static constexpr unsigned int BPJGFDAOCKG_TypeDefinitionIndex = 41913;
+
 	class BPJGFDAOCKG : public ::System::Object
 	{
 	public:

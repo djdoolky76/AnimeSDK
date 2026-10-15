@@ -12,6 +12,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_GlyphAdjustmentRecord_TypeDefinitionIndex = 44590;
+
 	struct alignas(4) TMP_GlyphAdjustmentRecord
 	{
 		::System::UInt32 m_GlyphIndex; // 0x10

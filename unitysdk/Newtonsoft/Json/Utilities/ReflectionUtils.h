@@ -61,6 +61,8 @@ namespace System::Runtime::Serialization { class SerializationBinder; }
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int ReflectionUtils_TypeDefinitionIndex = 9679;
+
 	class ReflectionUtils : public ::System::Object
 	{
 	public:

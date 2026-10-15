@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleInstance___c_TypeDefinitionIndex = 56039;
+
 	class BattleInstance___c : public ::System::Object
 	{
 	public:

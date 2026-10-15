@@ -11,6 +11,8 @@ namespace XLua { class OverloadMethodWrap; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int MethodWrap_TypeDefinitionIndex = 50215;
+
 	class MethodWrap : public ::System::Object
 	{
 	public:

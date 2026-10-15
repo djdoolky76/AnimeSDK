@@ -7,6 +7,8 @@ class IJFIHJJPHNA;
 
 #define DJLCFHGODGM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F28C0)
 
+inline static constexpr unsigned int DJLCFHGODGM_TypeDefinitionIndex = 36540;
+
 	class DJLCFHGODGM : public ::DHAIADCDCCG
 	{
 	public:

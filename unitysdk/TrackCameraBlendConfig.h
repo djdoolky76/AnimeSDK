@@ -9,6 +9,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define TRACKCAMERABLENDCONFIG_GIIEFOFHKDE_OFFSET UNITYSDK_OFFSET(0xE9E2450)
 #define TRACKCAMERABLENDCONFIG_IMCECPDAODJ_OFFSET UNITYSDK_OFFSET(0xE9E24A0)
 
+inline static constexpr unsigned int TrackCameraBlendConfig_TypeDefinitionIndex = 47282;
+
 	class TrackCameraBlendConfig : public ::System::Object
 	{
 	public:

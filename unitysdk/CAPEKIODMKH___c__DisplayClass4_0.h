@@ -6,6 +6,8 @@ namespace RPG::Client::LittleGame::FiveDim { class SidePuzzleTargetData; }
 #define CAPEKIODMKH___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC49A3A0)
 #define CAPEKIODMKH___C__DISPLAYCLASS4_0___ONQUESTUPDATED_B__0_OFFSET UNITYSDK_OFFSET(0xC49CE10)
 
+inline static constexpr unsigned int CAPEKIODMKH___c__DisplayClass4_0_TypeDefinitionIndex = 76835;
+
 	class CAPEKIODMKH___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

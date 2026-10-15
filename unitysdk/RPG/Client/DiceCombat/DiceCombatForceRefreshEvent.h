@@ -6,6 +6,8 @@
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatForceRefreshEvent_TypeDefinitionIndex = 76055;
+
 	class DiceCombatForceRefreshEvent : public ::System::Object
 	{
 	public:

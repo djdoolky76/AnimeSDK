@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int GlobalMainIntensityTimelineClip_TypeDefinitionIndex = 48472;
+
 	class GlobalMainIntensityTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

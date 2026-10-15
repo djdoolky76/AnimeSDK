@@ -33,6 +33,8 @@ namespace System { class String; }
 #define ALIMNHEENPP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E50E1B0)
 #define ALIMNHEENPP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E50E210)
 
+inline static constexpr unsigned int ALIMNHEENPP_TypeDefinitionIndex = 25402;
+
 	class ALIMNHEENPP : public ::System::Object
 	{
 	public:

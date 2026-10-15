@@ -20,6 +20,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityBenefitModule___c_TypeDefinitionIndex = 61395;
+
 	class ActivityBenefitModule___c : public ::System::Object
 	{
 	public:

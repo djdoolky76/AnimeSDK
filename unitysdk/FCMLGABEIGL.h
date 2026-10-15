@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TurnBasedGameMode; }
 #define FCMLGABEIGL_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0x156CE990)
 #define FCMLGABEIGL_TICK_OFFSET UNITYSDK_OFFSET(0x156CEA50)
 
+inline static constexpr unsigned int FCMLGABEIGL_TypeDefinitionIndex = 56276;
+
 	class FCMLGABEIGL : public ::HBPNHCICJGF
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int RemoveEffectData_TypeDefinitionIndex = 48328;
+
 	class RemoveEffectData : public ::System::Object
 	{
 	public:

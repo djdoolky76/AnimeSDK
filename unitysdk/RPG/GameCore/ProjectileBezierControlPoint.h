@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ProjectileBezierControlPoint; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ProjectileBezierControlPoint_TypeDefinitionIndex = 15652;
+
 	class ProjectileBezierControlPoint : public ::RPG::GameCore::JsonConfig
 	{
 	public:

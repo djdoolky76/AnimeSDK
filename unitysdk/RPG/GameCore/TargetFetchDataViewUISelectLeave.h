@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetFetchDataViewUISelectLeave_TypeDefinitionIndex = 23960;
+
 	class TargetFetchDataViewUISelectLeave : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleConfig_TypeDefinitionIndex = 78303;
+
 	class ChimeraDuelMainPuzzleConfig : public ::System::Object
 	{
 	public:

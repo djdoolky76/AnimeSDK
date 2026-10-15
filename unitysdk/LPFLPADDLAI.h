@@ -8,6 +8,8 @@ namespace System { class String; }
 #define LPFLPADDLAI_CTOR_2_OFFSET UNITYSDK_OFFSET(0xB81F910)
 #define LPFLPADDLAI_CTOR_OFFSET UNITYSDK_OFFSET(0xB81F8B0)
 
+inline static constexpr unsigned int LPFLPADDLAI_TypeDefinitionIndex = 56509;
+
 	class LPFLPADDLAI : public ::System::Object
 	{
 	public:

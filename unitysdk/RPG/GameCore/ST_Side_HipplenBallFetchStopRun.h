@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Side_HipplenBallFetchStopRun; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_HipplenBallFetchStopRun_TypeDefinitionIndex = 21311;
+
 	class ST_Side_HipplenBallFetchStopRun : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define JEHPCNCCGFE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x16627F00)
 #define JEHPCNCCGFE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x16628500)
 
+inline static constexpr unsigned int JEHPCNCCGFE_TypeDefinitionIndex = 62091;
+
 	class JEHPCNCCGFE : public ::System::Object
 	{
 	public:

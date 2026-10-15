@@ -7,6 +7,8 @@ class KDPAOPIMCBB;
 #define KDPAOPIMCBB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D086AF0)
 #define KDPAOPIMCBB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D086980)
 
+inline static constexpr unsigned int KDPAOPIMCBB_TypeDefinitionIndex = 13896;
+
 	class KDPAOPIMCBB : public ::System::Object
 	{
 	public:

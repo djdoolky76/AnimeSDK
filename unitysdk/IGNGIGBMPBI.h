@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 #define IGNGIGBMPBI_OBJDDAIFHAI_OFFSET UNITYSDK_OFFSET(0x16414740)
 #define IGNGIGBMPBI_OLLKIHLLNOO_OFFSET UNITYSDK_OFFSET(0x164144A0)
 
+inline static constexpr unsigned int IGNGIGBMPBI_TypeDefinitionIndex = 78084;
+
 	class IGNGIGBMPBI : public ::HBBCDNAHNMH
 	{
 	public:

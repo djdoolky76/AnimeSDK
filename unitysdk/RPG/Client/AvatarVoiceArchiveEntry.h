@@ -30,6 +30,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarVoiceArchiveEntry_TypeDefinitionIndex = 62426;
+
 	class AvatarVoiceArchiveEntry : public ::RPG::Client::BaseArchiveEntry
 	{
 	public:

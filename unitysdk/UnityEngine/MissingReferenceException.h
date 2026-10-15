@@ -10,6 +10,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int MissingReferenceException_TypeDefinitionIndex = 4347;
+
 	class MissingReferenceException : public ::System::Exception
 	{
 	public:

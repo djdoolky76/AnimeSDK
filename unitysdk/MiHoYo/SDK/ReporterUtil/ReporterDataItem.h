@@ -21,6 +21,8 @@ namespace System { class Nullable; }
 
 namespace MiHoYo::SDK::ReporterUtil
 {
+	inline static constexpr unsigned int ReporterDataItem_TypeDefinitionIndex = 46644;
+
 	class ReporterDataItem : public ::System::Object
 	{
 	public:

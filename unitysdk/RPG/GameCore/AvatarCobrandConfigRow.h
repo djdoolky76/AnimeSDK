@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarCobrandConfigRow_TypeDefinitionIndex = 12705;
+
 	class AvatarCobrandConfigRow : public ::System::Object
 	{
 	public:

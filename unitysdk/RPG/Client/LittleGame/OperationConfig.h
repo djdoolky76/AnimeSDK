@@ -6,6 +6,8 @@
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int OperationConfig_TypeDefinitionIndex = 42324;
+
 	class OperationConfig : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RenderResolution; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DeviceInfo_TypeDefinitionIndex = 18268;
+
 	class DeviceInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

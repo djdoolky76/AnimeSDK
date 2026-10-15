@@ -25,6 +25,8 @@ namespace UnityEngine::UI { class ScrollRect; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoScrollRedDot_TypeDefinitionIndex = 72603;
+
 	class MonoScrollRedDot : public ::UnityEngine::MonoBehaviour
 	{
 	public:

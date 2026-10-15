@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OPFNAKKLBIO_LFGOJFIKGON_OFFSET UNITYSDK_OFFSET(0xBFA9A00)
 #define OPFNAKKLBIO_NOBJLCHIOMI_OFFSET UNITYSDK_OFFSET(0xBFA9760)
 
+inline static constexpr unsigned int OPFNAKKLBIO_TypeDefinitionIndex = 82250;
+
 	class OPFNAKKLBIO : public ::System::Object
 	{
 	public:

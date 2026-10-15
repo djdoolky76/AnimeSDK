@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SetDamageTextStyle; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDamageTextStyle_TypeDefinitionIndex = 22950;
+
 	class SetDamageTextStyle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

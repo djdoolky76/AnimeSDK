@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MuseumPhaseRow_TypeDefinitionIndex = 14212;
+
 	class MuseumPhaseRow : public ::System::Object
 	{
 	public:

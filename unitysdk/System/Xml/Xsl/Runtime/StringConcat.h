@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace System::Xml::Xsl::Runtime
 {
+	inline static constexpr unsigned int StringConcat_TypeDefinitionIndex = 2242;
+
 	struct alignas(8) StringConcat
 	{
 		::System::String* s1; // 0x10

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitStreamingJobFinished; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitStreamingJobFinished_TypeDefinitionIndex = 20757;
+
 	class WaitStreamingJobFinished : public ::RPG::GameCore::TaskConfig
 	{
 	public:

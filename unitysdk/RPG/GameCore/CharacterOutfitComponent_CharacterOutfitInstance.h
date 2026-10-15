@@ -48,6 +48,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterOutfitComponent_CharacterOutfitInstance_TypeDefinitionIndex = 57206;
+
 	class CharacterOutfitComponent_CharacterOutfitInstance : public ::System::Object
 	{
 	public:

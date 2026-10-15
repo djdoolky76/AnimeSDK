@@ -42,6 +42,8 @@ namespace System { class String; }
 #define JOCFCCGIPEA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E79BF00)
 #define JOCFCCGIPEA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E79BF60)
 
+inline static constexpr unsigned int JOCFCCGIPEA_TypeDefinitionIndex = 34824;
+
 	class JOCFCCGIPEA : public ::System::Object
 	{
 	public:

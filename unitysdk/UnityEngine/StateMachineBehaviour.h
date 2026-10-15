@@ -23,6 +23,8 @@ namespace UnityEngine { class Animator; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int StateMachineBehaviour_TypeDefinitionIndex = 5691;
+
 	class StateMachineBehaviour : public ::UnityEngine::ScriptableObject
 	{
 	public:

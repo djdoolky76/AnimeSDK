@@ -12,6 +12,8 @@ namespace UnityEngine { class Animator; }
 #define LKJIICKOLEK_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C90F5D0)
 #define LKJIICKOLEK_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C90F660)
 
+inline static constexpr unsigned int LKJIICKOLEK_TypeDefinitionIndex = 42032;
+
 	class LKJIICKOLEK : public ::System::Object
 	{
 	public:

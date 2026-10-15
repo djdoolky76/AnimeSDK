@@ -35,6 +35,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoInControlEvent_TypeDefinitionIndex = 61343;
+
 	class MonoInControlEvent : public ::UnityEngine::MonoBehaviour
 	{
 	public:

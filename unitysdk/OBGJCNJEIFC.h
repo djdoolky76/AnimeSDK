@@ -37,6 +37,8 @@ namespace System { class String; }
 #define OBGJCNJEIFC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EBAE4C0)
 #define OBGJCNJEIFC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EBAE520)
 
+inline static constexpr unsigned int OBGJCNJEIFC_TypeDefinitionIndex = 34580;
+
 	class OBGJCNJEIFC : public ::System::Object
 	{
 	public:

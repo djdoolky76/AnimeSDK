@@ -8,6 +8,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveAvatarConfig; }
 #define AMOMJMAMDBK__CHECKNEEDREBUILD_OFFSET UNITYSDK_OFFSET(0x1558D510)
 #define AMOMJMAMDBK__REBUILD_OFFSET UNITYSDK_OFFSET(0x1558C800)
 
+inline static constexpr unsigned int AMOMJMAMDBK_TypeDefinitionIndex = 75119;
+
 	class AMOMJMAMDBK
 	{
 	public:

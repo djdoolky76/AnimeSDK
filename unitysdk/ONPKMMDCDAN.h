@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define ONPKMMDCDAN_NIJCGFMDACC_OFFSET UNITYSDK_OFFSET(0x3C28D40)
 #define ONPKMMDCDAN_ODJCONMOLOG_OFFSET UNITYSDK_OFFSET(0x1C57B860)
 
+inline static constexpr unsigned int ONPKMMDCDAN_TypeDefinitionIndex = 41821;
+
 	struct alignas(4) ONPKMMDCDAN
 	{
 		::System::Int32 APPIHABBCGK; // 0x10

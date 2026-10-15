@@ -13,6 +13,8 @@ namespace RPG::Client::PixAir::Legacy { class PixAirEquipDisplayData; }
 #define LPOOJCMOLDC_START_OFFSET UNITYSDK_OFFSET(0xB835DD0)
 #define LPOOJCMOLDC_STOP_OFFSET UNITYSDK_OFFSET(0xB835E10)
 
+inline static constexpr unsigned int LPOOJCMOLDC_TypeDefinitionIndex = 79220;
+
 	class LPOOJCMOLDC : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoBackDynamicControl_TypeDefinitionIndex = 70727;
+
 	class MonoBackDynamicControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

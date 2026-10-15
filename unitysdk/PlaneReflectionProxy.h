@@ -15,6 +15,8 @@ namespace UnityEngine { class Renderer; }
 #define PLANEREFLECTIONPROXY_UNREGISTERPLANEREFLECTIONCASTERRENDERER_OFFSET UNITYSDK_OFFSET(0x1CBEBEE0)
 #define PLANEREFLECTIONPROXY_UNREGISTERPLANEREFLECTION_OFFSET UNITYSDK_OFFSET(0x1CBEB900)
 
+inline static constexpr unsigned int PlaneReflectionProxy_TypeDefinitionIndex = 37479;
+
 	class PlaneReflectionProxy : public ::System::Object
 	{
 	public:

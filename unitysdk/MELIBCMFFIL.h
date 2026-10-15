@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define MELIBCMFFIL_SET_SERVANTREPOSITORY_OFFSET UNITYSDK_OFFSET(0xB8DE190)
 #define MELIBCMFFIL_SET_SERVANTSKILLREPOSITORY_OFFSET UNITYSDK_OFFSET(0xB8DE1B0)
 
+inline static constexpr unsigned int MELIBCMFFIL_TypeDefinitionIndex = 62621;
+
 	class MELIBCMFFIL : public ::System::Object
 	{
 	public:

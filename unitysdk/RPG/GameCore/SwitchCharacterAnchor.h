@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchCharacterAnchor_TypeDefinitionIndex = 20825;
+
 	class SwitchCharacterAnchor : public ::RPG::GameCore::TaskConfig
 	{
 	public:

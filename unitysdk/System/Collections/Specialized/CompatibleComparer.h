@@ -15,6 +15,8 @@ namespace System::Collections { class IHashCodeProvider; }
 
 namespace System::Collections::Specialized
 {
+	inline static constexpr unsigned int CompatibleComparer_TypeDefinitionIndex = 2998;
+
 	class CompatibleComparer : public ::System::Object
 	{
 	public:

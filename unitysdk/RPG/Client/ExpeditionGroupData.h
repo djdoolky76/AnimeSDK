@@ -8,6 +8,8 @@ namespace RPG::GameCore { class ExpeditionGroupRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ExpeditionGroupData_TypeDefinitionIndex = 63962;
+
 	class ExpeditionGroupData : public ::System::Object
 	{
 	public:

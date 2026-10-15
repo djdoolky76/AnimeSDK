@@ -8,6 +8,8 @@
 #define JGCJNMMCEHA_AJJMOIHDCAO_OFFSET UNITYSDK_OFFSET(0x10280)
 #define JGCJNMMCEHA_JDLKHAILEOF_OFFSET UNITYSDK_OFFSET(0x102D0)
 
+inline static constexpr unsigned int JGCJNMMCEHA_TypeDefinitionIndex = 53507;
+
 	struct alignas(4) JGCJNMMCEHA
 	{
 		::RPG::GameCore::PetPartyAssignmentMode FCGFFAJIBKA; // 0x10

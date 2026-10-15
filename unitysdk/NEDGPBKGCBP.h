@@ -6,6 +6,8 @@
 #define NEDGPBKGCBP_IAAOCKOEJEN_OFFSET UNITYSDK_OFFSET(0xBB58CC0)
 #define NEDGPBKGCBP_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xBB58C40)
 
+inline static constexpr unsigned int NEDGPBKGCBP_TypeDefinitionIndex = 73335;
+
 	class NEDGPBKGCBP : public ::System::Object
 	{
 	public:

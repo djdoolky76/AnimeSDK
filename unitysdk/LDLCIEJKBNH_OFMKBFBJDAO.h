@@ -7,6 +7,8 @@ namespace System { class Nullable; }
 
 #define LDLCIEJKBNH_OFMKBFBJDAO_CTOR_OFFSET UNITYSDK_OFFSET(0xB63C570)
 
+inline static constexpr unsigned int LDLCIEJKBNH_OFMKBFBJDAO_TypeDefinitionIndex = 77811;
+
 	class LDLCIEJKBNH_OFMKBFBJDAO : public ::System::Object
 	{
 	public:

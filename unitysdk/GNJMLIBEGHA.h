@@ -53,6 +53,8 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4>
 #define GNJMLIBEGHA_SET_OVERRIDELINEARMOVEMENTAUTODIRECTION_OFFSET UNITYSDK_OFFSET(0x15B15040)
 #define GNJMLIBEGHA_TICK_OFFSET UNITYSDK_OFFSET(0x15B12E90)
 
+inline static constexpr unsigned int GNJMLIBEGHA_TypeDefinitionIndex = 57066;
+
 	class GNJMLIBEGHA : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FrameTimeBudgetInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FrameTimeBudgetInfo_TypeDefinitionIndex = 16464;
+
 	class FrameTimeBudgetInfo : public ::RPG::GameCore::DeviceSettingConfigItemBase
 	{
 	public:

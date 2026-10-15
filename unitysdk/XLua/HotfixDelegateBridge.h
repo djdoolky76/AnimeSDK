@@ -9,6 +9,8 @@ namespace XLua { class DelegateBridge; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int HotfixDelegateBridge_TypeDefinitionIndex = 50093;
+
 	class HotfixDelegateBridge : public ::System::Object
 	{
 	public:

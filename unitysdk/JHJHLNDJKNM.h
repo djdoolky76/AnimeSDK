@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JHJHLNDJKNM_CTOR_OFFSET UNITYSDK_OFFSET(0xB1B4CA0)
 #define JHJHLNDJKNM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1B4CD0)
 
+inline static constexpr unsigned int JHJHLNDJKNM_TypeDefinitionIndex = 55886;
+
 	class JHJHLNDJKNM
 	{
 	public:

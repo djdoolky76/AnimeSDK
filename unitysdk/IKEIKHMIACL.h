@@ -4,6 +4,8 @@
 
 #define IKEIKHMIACL_CTOR_OFFSET UNITYSDK_OFFSET(0x164871B0)
 
+inline static constexpr unsigned int IKEIKHMIACL_TypeDefinitionIndex = 77724;
+
 	class IKEIKHMIACL : public ::System::Exception
 	{
 	public:

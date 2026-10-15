@@ -137,6 +137,8 @@ namespace RPG::GameCore { class LittleGameComponentConfig; }
 #define DKMIIPICEBC_PMCGMLLCBLF_OFFSET UNITYSDK_OFFSET(0x1CD3B140)
 #define DKMIIPICEBC_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1CD3A7F0)
 
+inline static constexpr unsigned int DKMIIPICEBC_TypeDefinitionIndex = 19093;
+
 	class DKMIIPICEBC : public ::System::Object
 	{
 	public:

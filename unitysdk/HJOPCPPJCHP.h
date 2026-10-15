@@ -33,6 +33,8 @@ namespace System { class String; }
 #define HJOPCPPJCHP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5AC9F0)
 #define HJOPCPPJCHP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5ACA50)
 
+inline static constexpr unsigned int HJOPCPPJCHP_TypeDefinitionIndex = 27341;
+
 	class HJOPCPPJCHP : public ::System::Object
 	{
 	public:

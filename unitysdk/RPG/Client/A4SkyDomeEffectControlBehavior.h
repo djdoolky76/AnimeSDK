@@ -29,6 +29,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int A4SkyDomeEffectControlBehavior_TypeDefinitionIndex = 70871;
+
 	class A4SkyDomeEffectControlBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

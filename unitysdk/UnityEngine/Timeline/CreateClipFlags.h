@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int CreateClipFlags_TypeDefinitionIndex = 38856;
+
 	enum class CreateClipFlags : ::System::Int32
 	{
 		None = 0,

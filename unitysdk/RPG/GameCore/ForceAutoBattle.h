@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ForceAutoBattle_TypeDefinitionIndex = 23268;
+
 	class ForceAutoBattle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

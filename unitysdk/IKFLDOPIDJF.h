@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IKFLDOPIDJF_JIGJDOFEJMI_OFFSET UNITYSDK_OFFSET(0x16487FC0)
 #define IKFLDOPIDJF_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x16488010)
 
+inline static constexpr unsigned int IKFLDOPIDJF_TypeDefinitionIndex = 59173;
+
 	class IKFLDOPIDJF
 	{
 	public:

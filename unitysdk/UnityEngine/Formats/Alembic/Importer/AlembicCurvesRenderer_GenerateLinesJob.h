@@ -8,6 +8,8 @@
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicCurvesRenderer_GenerateLinesJob_TypeDefinitionIndex = 45880;
+
 	struct alignas(8) AlembicCurvesRenderer_GenerateLinesJob
 	{
 		::Unity::Collections::NativeArray_1<::System::Int32> indices; // 0x10

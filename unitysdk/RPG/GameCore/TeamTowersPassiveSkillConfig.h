@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TeamTowersPassiveSkillConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamTowersPassiveSkillConfig_TypeDefinitionIndex = 21407;
+
 	class TeamTowersPassiveSkillConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

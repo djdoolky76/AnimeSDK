@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionAfterStyleGiftSelectCo
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionAfterStyleGiftSelectConfig_TypeDefinitionIndex = 17872;
+
 	class RogueModifierExecuteActionAfterStyleGiftSelectConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingBattleAbility_ShowTalk; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAbility_ShowTalk_TypeDefinitionIndex = 15818;
+
 	class ChenLingBattleAbility_ShowTalk : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
 	public:

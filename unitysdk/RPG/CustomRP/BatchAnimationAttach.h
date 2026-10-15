@@ -13,6 +13,8 @@ namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int BatchAnimationAttach_TypeDefinitionIndex = 37592;
+
 	class BatchAnimationAttach : public ::UnityEngine::MonoBehaviour
 	{
 	public:

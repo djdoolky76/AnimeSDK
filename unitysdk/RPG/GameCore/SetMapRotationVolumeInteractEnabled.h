@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetMapRotationVolumeInteractEnabled; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetMapRotationVolumeInteractEnabled_TypeDefinitionIndex = 20918;
+
 	class SetMapRotationVolumeInteractEnabled : public ::RPG::GameCore::TaskConfig
 	{
 	public:

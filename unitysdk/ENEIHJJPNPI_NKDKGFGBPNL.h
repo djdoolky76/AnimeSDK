@@ -29,6 +29,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define ENEIHJJPNPI_NKDKGFGBPNL_SET_READINFO_OFFSET UNITYSDK_OFFSET(0x1CDAFD60)
 #define ENEIHJJPNPI_NKDKGFGBPNL_SET_VAL_OFFSET UNITYSDK_OFFSET(0x1CDAFCB0)
 
+inline static constexpr unsigned int ENEIHJJPNPI_NKDKGFGBPNL_TypeDefinitionIndex = 10854;
+
 	class ENEIHJJPNPI_NKDKGFGBPNL : public ::System::Object
 	{
 	public:

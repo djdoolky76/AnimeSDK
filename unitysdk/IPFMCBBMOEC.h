@@ -25,6 +25,8 @@ namespace System { class String; }
 #define IPFMCBBMOEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6DEAC0)
 #define IPFMCBBMOEC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6DEB20)
 
+inline static constexpr unsigned int IPFMCBBMOEC_TypeDefinitionIndex = 26293;
+
 	class IPFMCBBMOEC : public ::System::Object
 	{
 	public:

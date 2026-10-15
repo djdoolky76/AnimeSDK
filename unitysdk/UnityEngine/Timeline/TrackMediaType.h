@@ -7,6 +7,8 @@
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int TrackMediaType_TypeDefinitionIndex = 38855;
+
 	class TrackMediaType : public ::System::Attribute
 	{
 	public:

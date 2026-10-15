@@ -5,6 +5,8 @@ namespace System { class String; }
 #define NCFMHIMFADM_CTOR_OFFSET UNITYSDK_OFFSET(0xAF40)
 #define NCFMHIMFADM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F460)
 
+inline static constexpr unsigned int NCFMHIMFADM_TypeDefinitionIndex = 67736;
+
 	struct alignas(4) NCFMHIMFADM
 	{
 		::System::UInt32 HHPFKDEBMGP; // 0x10

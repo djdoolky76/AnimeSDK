@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Model_TypeDefinitionIndex = 7577;
+
 	class Model : public ::System::Object
 	{
 	public:

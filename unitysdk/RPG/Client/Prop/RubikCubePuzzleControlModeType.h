@@ -3,6 +3,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int RubikCubePuzzleControlModeType_TypeDefinitionIndex = 78824;
+
 	enum class RubikCubePuzzleControlModeType : ::System::Int32
 	{
 		ClickRotate = 0,

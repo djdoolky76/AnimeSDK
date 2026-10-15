@@ -53,6 +53,8 @@ namespace RPG::GameCore { class RogueParameterConfigBase; }
 #define GPELEHPDIBL_PLMPBNAEIGN_OFFSET UNITYSDK_OFFSET(0x1CE76760)
 #define GPELEHPDIBL_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1CE76920)
 
+inline static constexpr unsigned int GPELEHPDIBL_TypeDefinitionIndex = 19816;
+
 	class GPELEHPDIBL : public ::System::Object
 	{
 	public:

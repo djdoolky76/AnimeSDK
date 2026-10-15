@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelGraphConfig_TypeDefinitionIndex = 18314;
+
 	class LevelGraphConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

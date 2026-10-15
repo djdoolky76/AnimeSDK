@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UpdateFloorSavedValue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UpdateFloorSavedValue_TypeDefinitionIndex = 20705;
+
 	class UpdateFloorSavedValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

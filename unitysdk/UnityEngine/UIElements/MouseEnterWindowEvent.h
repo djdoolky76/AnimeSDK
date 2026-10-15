@@ -9,6 +9,8 @@ namespace UnityEngine::UIElements { class IPanel; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int MouseEnterWindowEvent_TypeDefinitionIndex = 5967;
+
 	class MouseEnterWindowEvent
 	{
 	public:

@@ -22,6 +22,8 @@ namespace RPG::GameCore { class SubMissionInfoConfig; }
 #define ALOHJILIGNK_PHHCIAAPABK_OFFSET UNITYSDK_OFFSET(0x15571840)
 #define ALOHJILIGNK_SET_INTERACTENTITYID_OFFSET UNITYSDK_OFFSET(0x15571DC0)
 
+inline static constexpr unsigned int ALOHJILIGNK_TypeDefinitionIndex = 80297;
+
 	class ALOHJILIGNK : public ::System::Object
 	{
 	public:

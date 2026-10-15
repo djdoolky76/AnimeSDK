@@ -22,6 +22,8 @@ namespace UnityEngine { class GameObject; }
 #define HIDPHKCBEFO_IFJNKKGMNEL_OFFSET UNITYSDK_OFFSET(0x15CE1F90)
 #define HIDPHKCBEFO_LHECJGIONGN_OFFSET UNITYSDK_OFFSET(0x15CE1CD0)
 
+inline static constexpr unsigned int HIDPHKCBEFO_TypeDefinitionIndex = 53776;
+
 	class HIDPHKCBEFO : public ::System::Object
 	{
 	public:

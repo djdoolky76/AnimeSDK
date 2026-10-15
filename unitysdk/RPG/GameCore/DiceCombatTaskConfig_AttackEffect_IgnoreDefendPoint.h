@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_AttackEffect_IgnoreDefendPoint_TypeDefinitionIndex = 16043;
+
 	class DiceCombatTaskConfig_AttackEffect_IgnoreDefendPoint : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

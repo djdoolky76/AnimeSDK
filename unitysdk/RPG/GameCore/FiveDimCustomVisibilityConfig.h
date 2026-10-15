@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimCustomVisibilityConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimCustomVisibilityConfig_TypeDefinitionIndex = 18609;
+
 	class FiveDimCustomVisibilityConfig : public ::RPG::GameCore::LittleGameCustomVisibilityConfig
 	{
 	public:

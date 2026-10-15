@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ENPEGNGIAEI_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1C5F6F70)
 #define ENPEGNGIAEI_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C5F6C30)
 
+inline static constexpr unsigned int ENPEGNGIAEI_TypeDefinitionIndex = 36337;
+
 	class ENPEGNGIAEI : public ::AJBKGPOEBFG
 	{
 	public:

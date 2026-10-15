@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MazeConfig_TypeDefinitionIndex = 17625;
+
 	class MazeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

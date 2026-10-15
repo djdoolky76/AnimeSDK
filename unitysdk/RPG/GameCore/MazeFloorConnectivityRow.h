@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MazeFloorConnectivityRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MazeFloorConnectivityRow_TypeDefinitionIndex = 14054;
+
 	class MazeFloorConnectivityRow : public ::System::Object
 	{
 	public:

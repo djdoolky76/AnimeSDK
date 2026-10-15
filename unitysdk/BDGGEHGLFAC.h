@@ -32,6 +32,8 @@ namespace System { class String; }
 #define BDGGEHGLFAC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E915DB0)
 #define BDGGEHGLFAC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E915E10)
 
+inline static constexpr unsigned int BDGGEHGLFAC_TypeDefinitionIndex = 34810;
+
 	class BDGGEHGLFAC : public ::System::Object
 	{
 	public:

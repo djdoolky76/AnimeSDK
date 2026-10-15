@@ -6,6 +6,8 @@ class FGAAFLAALBF;
 #define IGEGNAJFAJE_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1640A600)
 #define IGEGNAJFAJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1640A700)
 
+inline static constexpr unsigned int IGEGNAJFAJE_TypeDefinitionIndex = 63863;
+
 	class IGEGNAJFAJE : public ::System::Object
 	{
 	public:

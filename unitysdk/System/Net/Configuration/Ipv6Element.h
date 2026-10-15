@@ -8,6 +8,8 @@ namespace System::Configuration { class ConfigurationPropertyCollection; }
 
 namespace System::Net::Configuration
 {
+	inline static constexpr unsigned int Ipv6Element_TypeDefinitionIndex = 3081;
+
 	class Ipv6Element : public ::System::Configuration::ConfigurationElement
 	{
 	public:

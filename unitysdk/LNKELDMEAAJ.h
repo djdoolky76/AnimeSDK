@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define LNKELDMEAAJ_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0xB7E4A00)
 #define LNKELDMEAAJ_SET_OWNER_OFFSET UNITYSDK_OFFSET(0xB7E49A0)
 
+inline static constexpr unsigned int LNKELDMEAAJ_TypeDefinitionIndex = 56221;
+
 	class LNKELDMEAAJ
 	{
 	public:

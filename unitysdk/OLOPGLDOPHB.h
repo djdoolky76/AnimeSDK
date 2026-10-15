@@ -44,6 +44,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define OLOPGLDOPHB_PJHNIKBILCM_OFFSET UNITYSDK_OFFSET(0x3C50190)
 #define OLOPGLDOPHB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C501D0)
 
+inline static constexpr unsigned int OLOPGLDOPHB_TypeDefinitionIndex = 35293;
+
 	struct alignas(8) OLOPGLDOPHB
 	{
 		::System::String* AIKAPJELHNK; // 0x10

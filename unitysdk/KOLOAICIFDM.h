@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KOLOAICIFDM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5A1570)
 #define KOLOAICIFDM_PPFICACCHKB_OFFSET UNITYSDK_OFFSET(0xB5A2040)
 
+inline static constexpr unsigned int KOLOAICIFDM_TypeDefinitionIndex = 55331;
+
 	class KOLOAICIFDM
 	{
 	public:

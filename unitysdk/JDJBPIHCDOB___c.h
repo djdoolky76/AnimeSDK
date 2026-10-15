@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JDJBPIHCDOB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x165D3200)
 #define JDJBPIHCDOB___C___CLOSESCREENTRANSFER_B__18_0_OFFSET UNITYSDK_OFFSET(0x165D3210)
 
+inline static constexpr unsigned int JDJBPIHCDOB___c_TypeDefinitionIndex = 52688;
+
 	class JDJBPIHCDOB___c : public ::System::Object
 	{
 	public:

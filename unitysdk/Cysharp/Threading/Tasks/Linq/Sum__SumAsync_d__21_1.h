@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Sum__SumAsync_d__21_1_TypeDefinitionIndex = 45617;
+
 	template <typename T>
 	struct alignas(8) Sum__SumAsync_d__21_1
 	{

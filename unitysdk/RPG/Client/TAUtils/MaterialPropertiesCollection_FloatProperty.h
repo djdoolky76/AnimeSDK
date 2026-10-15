@@ -7,6 +7,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client::TAUtils
 {
+	inline static constexpr unsigned int MaterialPropertiesCollection_FloatProperty_TypeDefinitionIndex = 73617;
+
 	class MaterialPropertiesCollection_FloatProperty
 	{
 	public:

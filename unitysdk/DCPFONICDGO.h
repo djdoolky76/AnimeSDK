@@ -4,6 +4,8 @@
 
 #define DCPFONICDGO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA1B660)
 
+inline static constexpr unsigned int DCPFONICDGO_TypeDefinitionIndex = 42260;
+
 	class DCPFONICDGO : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@
 
 #define IFPOBJGHJME_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB0CCD0)
 
+inline static constexpr unsigned int IFPOBJGHJME_TypeDefinitionIndex = 42080;
+
 	class IFPOBJGHJME : public ::System::Object
 	{
 	public:

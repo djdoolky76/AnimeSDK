@@ -18,6 +18,8 @@ namespace RPG::Client { class MonoInflatableFighter; }
 #define JFDAODCOGBE_OBEGGMAPFOL_OFFSET UNITYSDK_OFFSET(0x166468F0)
 #define JFDAODCOGBE_SET_ISFROZEN_OFFSET UNITYSDK_OFFSET(0x16646A20)
 
+inline static constexpr unsigned int JFDAODCOGBE_TypeDefinitionIndex = 68683;
+
 	class JFDAODCOGBE : public ::System::Object
 	{
 	public:

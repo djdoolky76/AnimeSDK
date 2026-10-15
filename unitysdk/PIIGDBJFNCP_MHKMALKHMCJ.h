@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define PIIGDBJFNCP_MHKMALKHMCJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC266E20)
 
+inline static constexpr unsigned int PIIGDBJFNCP_MHKMALKHMCJ_TypeDefinitionIndex = 55960;
+
 	class PIIGDBJFNCP_MHKMALKHMCJ : public ::System::Object
 	{
 	public:

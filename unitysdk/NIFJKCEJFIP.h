@@ -30,6 +30,8 @@ namespace System { class String; }
 #define NIFJKCEJFIP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB2C3F0)
 #define NIFJKCEJFIP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB2C450)
 
+inline static constexpr unsigned int NIFJKCEJFIP_TypeDefinitionIndex = 32784;
+
 	class NIFJKCEJFIP : public ::System::Object
 	{
 	public:

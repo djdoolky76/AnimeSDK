@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MNAADIBENLC_MGINCIJOPIL_OFFSET UNITYSDK_OFFSET(0xB9E1AA0)
 #define MNAADIBENLC_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0xB9E1C60)
 
+inline static constexpr unsigned int MNAADIBENLC_TypeDefinitionIndex = 53770;
+
 	class MNAADIBENLC : public ::System::Object
 	{
 	public:

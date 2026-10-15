@@ -9,6 +9,8 @@ namespace RPG::Client { class ActivityAetherDivideModuleRedDotFilter; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityAetherDivideModuleRedDotFilter___c__DisplayClass35_1_TypeDefinitionIndex = 66821;
+
 	template <typename T>
 	class ActivityAetherDivideModuleRedDotFilter___c__DisplayClass35_1 : public ::System::Object
 	{

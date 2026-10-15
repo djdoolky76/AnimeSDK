@@ -5,6 +5,8 @@ namespace RPG::Client { class BattleGamePhaseInitParams; }
 
 #define EBIEELNHAHL_CTOR_OFFSET UNITYSDK_OFFSET(0x12CF9120)
 
+inline static constexpr unsigned int EBIEELNHAHL_TypeDefinitionIndex = 71122;
+
 	class EBIEELNHAHL : public ::RPG::Client::BattleGamePhase
 	{
 	public:

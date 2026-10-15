@@ -5,6 +5,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AudienceGroupInstance_Area_TypeDefinitionIndex = 69142;
+
 	struct alignas(8) AudienceGroupInstance_Area
 	{
 		::UnityEngine::Transform* origin; // 0x10

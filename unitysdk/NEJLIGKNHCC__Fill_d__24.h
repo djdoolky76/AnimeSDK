@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define NEJLIGKNHCC__FILL_D__24_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xBB678A0)
 #define NEJLIGKNHCC__FILL_D__24_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBB675F0)
 
+inline static constexpr unsigned int NEJLIGKNHCC__Fill_d__24_TypeDefinitionIndex = 69300;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24>
 	class NEJLIGKNHCC__Fill_d__24 : public ::System::Object
 	{

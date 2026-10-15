@@ -3,6 +3,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int Coord_TypeDefinitionIndex = 458;
+
 	struct alignas(4) Coord
 	{
 		::System::Int16 X; // 0x10

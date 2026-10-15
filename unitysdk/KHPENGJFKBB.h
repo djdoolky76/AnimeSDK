@@ -27,6 +27,8 @@ namespace System::Text { class StringBuilder; }
 #define KHPENGJFKBB_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB415120)
 #define KHPENGJFKBB__CLONE___OFFSET UNITYSDK_OFFSET(0xB415D80)
 
+inline static constexpr unsigned int KHPENGJFKBB_TypeDefinitionIndex = 81462;
+
 	class KHPENGJFKBB : public ::System::Object
 	{
 	public:

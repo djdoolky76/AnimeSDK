@@ -17,6 +17,8 @@ namespace UnityEngine { class RuntimeAnimatorController; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OverrideControllerSwitcher_TypeDefinitionIndex = 68635;
+
 	class OverrideControllerSwitcher : public ::UnityEngine::MonoBehaviour
 	{
 	public:

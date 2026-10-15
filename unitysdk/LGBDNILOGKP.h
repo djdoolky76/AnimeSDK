@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define LGBDNILOGKP_DOONENTER_OFFSET UNITYSDK_OFFSET(0xB68C7D0)
 #define LGBDNILOGKP_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xB68C970)
 
+inline static constexpr unsigned int LGBDNILOGKP_TypeDefinitionIndex = 57515;
+
 	class LGBDNILOGKP : public ::EDLDHDMLJDH
 	{
 	public:

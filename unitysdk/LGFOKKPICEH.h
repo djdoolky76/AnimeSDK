@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LGFOKKPICEH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E951B50)
 #define LGFOKKPICEH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E951BB0)
 
+inline static constexpr unsigned int LGFOKKPICEH_TypeDefinitionIndex = 33199;
+
 	class LGFOKKPICEH : public ::System::Object
 	{
 	public:

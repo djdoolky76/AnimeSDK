@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NBLLJGFJKPG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBADC7E0)
 #define NBLLJGFJKPG_TICK_OFFSET UNITYSDK_OFFSET(0xBADC830)
 
+inline static constexpr unsigned int NBLLJGFJKPG_TypeDefinitionIndex = 54392;
+
 	class NBLLJGFJKPG : public ::GELIALJDFBL
 	{
 	public:

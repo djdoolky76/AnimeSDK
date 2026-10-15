@@ -10,6 +10,8 @@
 #define HFACHPPOANI_ONEXITEND_OFFSET UNITYSDK_OFFSET(0x15C66FC0)
 #define HFACHPPOANI_ONTRANSITIONEND_OFFSET UNITYSDK_OFFSET(0x15C670C0)
 
+inline static constexpr unsigned int HFACHPPOANI_TypeDefinitionIndex = 73121;
+
 	class HFACHPPOANI : public ::System::Object
 	{
 	public:

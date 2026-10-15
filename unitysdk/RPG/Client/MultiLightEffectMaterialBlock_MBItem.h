@@ -9,6 +9,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MultiLightEffectMaterialBlock_MBItem_TypeDefinitionIndex = 70690;
+
 	class MultiLightEffectMaterialBlock_MBItem : public ::System::Object
 	{
 	public:

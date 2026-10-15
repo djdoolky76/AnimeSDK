@@ -5,6 +5,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int IMGUIContainer_GUIGlobals_TypeDefinitionIndex = 5881;
+
 	struct alignas(4) IMGUIContainer_GUIGlobals
 	{
 		::UnityEngine::Matrix4x4 matrix; // 0x10

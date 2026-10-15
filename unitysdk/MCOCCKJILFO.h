@@ -5,6 +5,8 @@ class FEMAHFBGJJP;
 
 #define MCOCCKJILFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C924CA0)
 
+inline static constexpr unsigned int MCOCCKJILFO_TypeDefinitionIndex = 43241;
+
 	class MCOCCKJILFO : public ::System::Object
 	{
 	public:

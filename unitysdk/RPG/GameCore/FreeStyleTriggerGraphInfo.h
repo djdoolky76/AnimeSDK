@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FreeStyleTriggerSimpleNodeInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FreeStyleTriggerGraphInfo_TypeDefinitionIndex = 16943;
+
 	class FreeStyleTriggerGraphInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

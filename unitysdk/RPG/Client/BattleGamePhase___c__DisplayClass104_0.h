@@ -8,6 +8,8 @@ class MOGBCMFMAGC;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleGamePhase___c__DisplayClass104_0_TypeDefinitionIndex = 60964;
+
 	class BattleGamePhase___c__DisplayClass104_0 : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client::Ui::Samples
 {
+	inline static constexpr unsigned int FriendChatPamTabVM_TypeDefinitionIndex = 73440;
+
 	class FriendChatPamTabVM : public ::RPG::Client::Ui::Samples::FriendChatTabViewModel
 	{
 	public:

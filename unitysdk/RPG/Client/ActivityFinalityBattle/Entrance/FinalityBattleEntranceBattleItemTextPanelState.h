@@ -19,6 +19,8 @@ namespace RPG::Client::ActivityFinalityBattle::Entrance { class FinalityBattleEn
 
 namespace RPG::Client::ActivityFinalityBattle::Entrance
 {
+	inline static constexpr unsigned int FinalityBattleEntranceBattleItemTextPanelState_TypeDefinitionIndex = 82078;
+
 	class FinalityBattleEntranceBattleItemTextPanelState : public ::System::Object
 	{
 	public:

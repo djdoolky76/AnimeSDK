@@ -7,6 +7,8 @@ namespace RPG::Client::B51Racing { class B51RacingCarInfoPanelViewModel; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingInitCarPreviewPageViewModel_TypeDefinitionIndex = 82003;
+
 	class B51RacingInitCarPreviewPageViewModel : public ::System::Object
 	{
 	public:

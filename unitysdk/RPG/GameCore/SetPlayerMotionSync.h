@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetPlayerMotionSync; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetPlayerMotionSync_TypeDefinitionIndex = 20516;
+
 	class SetPlayerMotionSync : public ::RPG::GameCore::TaskConfig
 	{
 	public:

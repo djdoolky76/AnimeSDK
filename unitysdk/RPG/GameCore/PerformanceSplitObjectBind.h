@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PerformanceSplitObjectBind; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceSplitObjectBind_TypeDefinitionIndex = 17576;
+
 	class PerformanceSplitObjectBind : public ::RPG::GameCore::JsonConfig
 	{
 	public:

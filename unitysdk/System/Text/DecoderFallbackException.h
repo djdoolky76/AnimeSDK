@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Text
 {
+	inline static constexpr unsigned int DecoderFallbackException_TypeDefinitionIndex = 472;
+
 	class DecoderFallbackException : public ::System::ArgumentException
 	{
 	public:

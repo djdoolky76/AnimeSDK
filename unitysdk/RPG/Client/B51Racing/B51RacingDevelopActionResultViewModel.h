@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingDevelopActionResultViewModel_TypeDefinitionIndex = 82024;
+
 	class B51RacingDevelopActionResultViewModel : public ::System::Object
 	{
 	public:

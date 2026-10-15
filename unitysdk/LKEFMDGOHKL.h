@@ -6,6 +6,8 @@ namespace RPG::GameCore { class IAvatarPromotionCommonRowWrap; }
 
 #define LKEFMDGOHKL_KMAKLLEGBHI_OFFSET UNITYSDK_OFFSET(0xB72ECD0)
 
+inline static constexpr unsigned int LKEFMDGOHKL_TypeDefinitionIndex = 62643;
+
 	class LKEFMDGOHKL : public ::System::Object
 	{
 	public:

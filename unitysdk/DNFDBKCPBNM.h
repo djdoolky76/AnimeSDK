@@ -18,6 +18,8 @@ namespace System::Text { class StringBuilder; }
 #define DNFDBKCPBNM_SET_ROLEID_OFFSET UNITYSDK_OFFSET(0xAF40)
 #define DNFDBKCPBNM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x198F740)
 
+inline static constexpr unsigned int DNFDBKCPBNM_TypeDefinitionIndex = 51892;
+
 	struct alignas(4) DNFDBKCPBNM
 	{
 		::System::UInt32 _RoleID_k__BackingField; // 0x10

@@ -31,6 +31,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DrinkMakerCheersGroupState_TypeDefinitionIndex = 63619;
+
 	class DrinkMakerCheersGroupState : public ::System::Object
 	{
 	public:

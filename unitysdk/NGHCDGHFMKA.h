@@ -11,6 +11,8 @@ class NGHCDGHFMKA;
 #define NGHCDGHFMKA_SET_NAME_OFFSET UNITYSDK_OFFSET(0xBBA71B0)
 #define NGHCDGHFMKA_SET_RARITY_OFFSET UNITYSDK_OFFSET(0xBBA71D0)
 
+inline static constexpr unsigned int NGHCDGHFMKA_TypeDefinitionIndex = 75080;
+
 	class NGHCDGHFMKA : public ::System::Object
 	{
 	public:

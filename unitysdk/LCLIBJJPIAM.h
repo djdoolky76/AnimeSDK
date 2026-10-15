@@ -11,6 +11,8 @@ namespace System { class String; }
 #define LCLIBJJPIAM_GET_REQUIRESTANDONGROUND_OFFSET UNITYSDK_OFFSET(0xB618AC0)
 #define LCLIBJJPIAM_LEJMCJJKENC_OFFSET UNITYSDK_OFFSET(0xB618A70)
 
+inline static constexpr unsigned int LCLIBJJPIAM_TypeDefinitionIndex = 57091;
+
 	class LCLIBJJPIAM : public ::NBNNPCIIDAJ
 	{
 	public:

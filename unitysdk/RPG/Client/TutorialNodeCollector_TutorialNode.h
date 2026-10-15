@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TutorialNodeCollector_TutorialNode_TypeDefinitionIndex = 68216;
+
 	class TutorialNodeCollector_TutorialNode : public ::System::Object
 	{
 	public:

@@ -43,6 +43,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace Entitas::VisualDebugging::Unity
 {
+	inline static constexpr unsigned int DebugSystems_TypeDefinitionIndex = 10060;
+
 	class DebugSystems : public ::Entitas::Systems
 	{
 	public:

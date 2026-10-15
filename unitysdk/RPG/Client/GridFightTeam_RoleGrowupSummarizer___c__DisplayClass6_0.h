@@ -10,6 +10,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTeam_RoleGrowupSummarizer___c__DisplayClass6_0_TypeDefinitionIndex = 65164;
+
 	class GridFightTeam_RoleGrowupSummarizer___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

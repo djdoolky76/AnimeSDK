@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarAbilityStatisticsRow_TypeDefinitionIndex = 12850;
+
 	class AvatarAbilityStatisticsRow : public ::System::Object
 	{
 	public:

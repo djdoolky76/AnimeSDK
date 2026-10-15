@@ -9,6 +9,8 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int FieldInstruction_TypeDefinitionIndex = 3396;
+
 	class FieldInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:

@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 #define HLGELEEENMC_PDFDIGFKPDO_OFFSET UNITYSDK_OFFSET(0x15D5F360)
 #define HLGELEEENMC__ONBIND_OFFSET UNITYSDK_OFFSET(0x15D5F270)
 
+inline static constexpr unsigned int HLGELEEENMC_TypeDefinitionIndex = 71295;
+
 	class HLGELEEENMC : public ::FMPCODLIOLG
 	{
 	public:

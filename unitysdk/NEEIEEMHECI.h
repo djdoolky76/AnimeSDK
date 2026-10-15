@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define NEEIEEMHECI_CTOR_OFFSET UNITYSDK_OFFSET(0xBB5B110)
 
+inline static constexpr unsigned int NEEIEEMHECI_TypeDefinitionIndex = 55514;
+
 	class NEEIEEMHECI : public ::System::Object
 	{
 	public:

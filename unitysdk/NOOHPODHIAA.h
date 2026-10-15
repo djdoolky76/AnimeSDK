@@ -23,6 +23,8 @@ namespace UnityEngine { class Collider; }
 #define NOOHPODHIAA_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C977100)
 #define NOOHPODHIAA_PLLHBPIPIGA_OFFSET UNITYSDK_OFFSET(0x1C976380)
 
+inline static constexpr unsigned int NOOHPODHIAA_TypeDefinitionIndex = 43527;
+
 	class NOOHPODHIAA : public ::System::Object
 	{
 	public:

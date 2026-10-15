@@ -8,6 +8,8 @@ class GHDLDNPEKNI;
 #define GHDLDNPEKNI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE462E0)
 #define GHDLDNPEKNI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE462A0)
 
+inline static constexpr unsigned int GHDLDNPEKNI_TypeDefinitionIndex = 19919;
+
 	class GHDLDNPEKNI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

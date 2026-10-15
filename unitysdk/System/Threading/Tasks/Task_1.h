@@ -7,6 +7,8 @@ namespace System::Threading::Tasks { class TaskFactory; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int Task_1_TypeDefinitionIndex = 889;
+
 	template <typename T>
 	class Task_1 : public ::System::Threading::Tasks::Task
 	{

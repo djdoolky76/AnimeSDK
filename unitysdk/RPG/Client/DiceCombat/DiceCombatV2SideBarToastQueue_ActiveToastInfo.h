@@ -7,6 +7,8 @@ namespace RPG::Client::DiceCombat { class DiceCombatV2SideBarToastItem; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2SideBarToastQueue_ActiveToastInfo_TypeDefinitionIndex = 76214;
+
 	class DiceCombatV2SideBarToastQueue_ActiveToastInfo : public ::System::Object
 	{
 	public:

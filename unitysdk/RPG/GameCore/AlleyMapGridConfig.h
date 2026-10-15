@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AlleyMapGridConfig_TypeDefinitionIndex = 15681;
+
 	class AlleyMapGridConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

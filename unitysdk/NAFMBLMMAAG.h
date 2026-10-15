@@ -30,6 +30,8 @@ namespace System { class String; }
 #define NAFMBLMMAAG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EABF7E0)
 #define NAFMBLMMAAG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EABF840)
 
+inline static constexpr unsigned int NAFMBLMMAAG_TypeDefinitionIndex = 34296;
+
 	class NAFMBLMMAAG : public ::System::Object
 	{
 	public:

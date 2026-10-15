@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightRolePosService_RoleRemoveSummerizer_TypeDefinitionIndex = 64858;
+
 	class GridFightRolePosService_RoleRemoveSummerizer : public ::AMCOEFHHBPO
 	{
 	public:

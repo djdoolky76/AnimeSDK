@@ -27,6 +27,8 @@ namespace System { class String; }
 #define HJNLBBOOEGB_ONABFJDEBAM_OFFSET UNITYSDK_OFFSET(0x15D32F90)
 #define HJNLBBOOEGB_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x15D30A50)
 
+inline static constexpr unsigned int HJNLBBOOEGB_TypeDefinitionIndex = 77114;
+
 	class HJNLBBOOEGB : public ::System::Object
 	{
 	public:

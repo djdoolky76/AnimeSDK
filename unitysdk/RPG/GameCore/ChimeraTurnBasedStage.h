@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraTurnBasedStage_TypeDefinitionIndex = 15821;
+
 	enum class ChimeraTurnBasedStage : ::System::Int32
 	{
 		None = 0,

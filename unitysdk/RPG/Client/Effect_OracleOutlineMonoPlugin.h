@@ -9,6 +9,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_OracleOutlineMonoPlugin_TypeDefinitionIndex = 70514;
+
 	class Effect_OracleOutlineMonoPlugin
 	{
 	public:

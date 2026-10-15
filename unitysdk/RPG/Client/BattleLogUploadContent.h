@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleLogUploadContent_TypeDefinitionIndex = 60958;
+
 	class BattleLogUploadContent : public ::System::Object
 	{
 	public:

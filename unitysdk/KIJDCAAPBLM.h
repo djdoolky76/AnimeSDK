@@ -14,6 +14,8 @@ namespace System { class String; }
 #define KIJDCAAPBLM_LCEAJKLNLKJ_OFFSET UNITYSDK_OFFSET(0xB432270)
 #define KIJDCAAPBLM_PEKCCGNLGNO_OFFSET UNITYSDK_OFFSET(0xB431CD0)
 
+inline static constexpr unsigned int KIJDCAAPBLM_TypeDefinitionIndex = 54193;
+
 	class KIJDCAAPBLM : public ::System::Object
 	{
 	public:

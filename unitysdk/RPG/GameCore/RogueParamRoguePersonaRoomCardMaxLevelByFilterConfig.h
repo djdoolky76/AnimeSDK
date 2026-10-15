@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueParamRoguePersonaRoomCardMaxLevelByFilterCo
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueParamRoguePersonaRoomCardMaxLevelByFilterConfig_TypeDefinitionIndex = 19851;
+
 	class RogueParamRoguePersonaRoomCardMaxLevelByFilterConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsInModifierCallback_TypeDefinitionIndex = 23500;
+
 	class ByIsInModifierCallback : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

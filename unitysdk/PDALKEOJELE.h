@@ -8,6 +8,8 @@ namespace System { class String; }
 #define PDALKEOJELE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2CC9F0)
 #define PDALKEOJELE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2CC620)
 
+inline static constexpr unsigned int PDALKEOJELE_TypeDefinitionIndex = 20123;
+
 	class PDALKEOJELE : public ::RPG::GameCore::JsonConfig
 	{
 	public:

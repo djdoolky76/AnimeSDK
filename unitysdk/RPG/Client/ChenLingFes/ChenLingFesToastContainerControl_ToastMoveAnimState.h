@@ -3,6 +3,8 @@
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesToastContainerControl_ToastMoveAnimState_TypeDefinitionIndex = 81355;
+
 	struct alignas(4) ChenLingFesToastContainerControl_ToastMoveAnimState
 	{
 		::System::Single StartY; // 0x10

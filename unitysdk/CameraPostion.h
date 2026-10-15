@@ -6,6 +6,8 @@
 
 #define CAMERAPOSTION_CTOR_OFFSET UNITYSDK_OFFSET(0xDCDEE60)
 
+inline static constexpr unsigned int CameraPostion_TypeDefinitionIndex = 47098;
+
 	class CameraPostion : public ::System::Object
 	{
 	public:

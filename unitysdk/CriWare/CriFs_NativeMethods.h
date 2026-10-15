@@ -14,6 +14,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriFs_NativeMethods_TypeDefinitionIndex = 40096;
+
 	class CriFs_NativeMethods : public ::System::Object
 	{
 	public:

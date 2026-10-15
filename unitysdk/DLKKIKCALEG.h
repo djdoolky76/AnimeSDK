@@ -10,6 +10,8 @@ namespace System { class Nullable; }
 #define DLKKIKCALEG_DAMDMJJKLON_OFFSET UNITYSDK_OFFSET(0xF8A2640)
 #define DLKKIKCALEG_EFOKNMPOIPE_OFFSET UNITYSDK_OFFSET(0xF8A2680)
 
+inline static constexpr unsigned int DLKKIKCALEG_TypeDefinitionIndex = 53722;
+
 	class DLKKIKCALEG : public ::KIFCLJJAOFJ
 	{
 	public:

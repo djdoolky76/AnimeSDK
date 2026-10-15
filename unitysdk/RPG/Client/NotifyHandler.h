@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NotifyHandler_TypeDefinitionIndex = 59284;
+
 	class NotifyHandler : public ::System::MulticastDelegate
 	{
 	public:

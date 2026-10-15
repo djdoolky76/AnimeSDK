@@ -10,6 +10,8 @@ namespace System { class WeakReference; }
 
 namespace RPG::Client::Pet
 {
+	inline static constexpr unsigned int PetShowSuppressorSet_Suppressor_TypeDefinitionIndex = 75707;
+
 	class PetShowSuppressorSet_Suppressor : public ::System::Object
 	{
 	public:

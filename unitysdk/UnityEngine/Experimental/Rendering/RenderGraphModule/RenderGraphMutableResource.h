@@ -15,6 +15,8 @@
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
+	inline static constexpr unsigned int RenderGraphMutableResource_TypeDefinitionIndex = 35462;
+
 	struct alignas(4) RenderGraphMutableResource
 	{
 		::System::Int32 _handle_k__BackingField; // 0x10

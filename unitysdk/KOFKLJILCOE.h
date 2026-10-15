@@ -8,6 +8,8 @@ class KOFKLJILCOE;
 #define KOFKLJILCOE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0BED30)
 #define KOFKLJILCOE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0BEC60)
 
+inline static constexpr unsigned int KOFKLJILCOE_TypeDefinitionIndex = 23168;
+
 	class KOFKLJILCOE : public ::RPG::GameCore::TaskConfig
 	{
 	public:

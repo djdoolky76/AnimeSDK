@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LFOLDODPEKH_FOBPJDKPEBP_OFFSET UNITYSDK_OFFSET(0xB6865E0)
 #define LFOLDODPEKH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6868F0)
 
+inline static constexpr unsigned int LFOLDODPEKH_TypeDefinitionIndex = 52461;
+
 	class LFOLDODPEKH
 	{
 	public:

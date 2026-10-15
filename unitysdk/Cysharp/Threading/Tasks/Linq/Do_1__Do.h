@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Do_1__Do_TypeDefinitionIndex = 45353;
+
 	template <typename T>
 	class Do_1__Do : public ::Cysharp::Threading::Tasks::MoveNextSource
 	{

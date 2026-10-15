@@ -30,6 +30,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::ActivityFinalityBattle::Badge
 {
+	inline static constexpr unsigned int FinalityBattleBadgeProgressViewModel_TypeDefinitionIndex = 82108;
+
 	class FinalityBattleBadgeProgressViewModel : public ::System::Object
 	{
 	public:

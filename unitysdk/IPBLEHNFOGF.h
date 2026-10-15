@@ -8,6 +8,8 @@ namespace RPG::GameCore { class SwordTrainingEffectRow; }
 #define IPBLEHNFOGF_BOEPEMKFPDH_OFFSET UNITYSDK_OFFSET(0x1651D410)
 #define IPBLEHNFOGF_CTOR_OFFSET UNITYSDK_OFFSET(0x1651D400)
 
+inline static constexpr unsigned int IPBLEHNFOGF_TypeDefinitionIndex = 75019;
+
 	class IPBLEHNFOGF : public ::BNAIELOHEFF
 	{
 	public:

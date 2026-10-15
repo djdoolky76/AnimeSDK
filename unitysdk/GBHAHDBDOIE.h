@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GBHAHDBDOIE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E42AA40)
 #define GBHAHDBDOIE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E42AAA0)
 
+inline static constexpr unsigned int GBHAHDBDOIE_TypeDefinitionIndex = 32970;
+
 	class GBHAHDBDOIE : public ::System::Object
 	{
 	public:

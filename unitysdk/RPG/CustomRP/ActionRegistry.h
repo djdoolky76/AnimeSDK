@@ -15,6 +15,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ActionRegistry_TypeDefinitionIndex = 37759;
+
 	class ActionRegistry : public ::System::Object
 	{
 	public:

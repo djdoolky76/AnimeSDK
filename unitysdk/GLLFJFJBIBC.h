@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GLLFJFJBIBC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4C44F0)
 #define GLLFJFJBIBC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4C4550)
 
+inline static constexpr unsigned int GLLFJFJBIBC_TypeDefinitionIndex = 25183;
+
 	class GLLFJFJBIBC : public ::System::Object
 	{
 	public:

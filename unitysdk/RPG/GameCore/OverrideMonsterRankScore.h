@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OverrideMonsterRankScore_TypeDefinitionIndex = 23708;
+
 	class OverrideMonsterRankScore : public ::RPG::GameCore::TaskConfig
 	{
 	public:

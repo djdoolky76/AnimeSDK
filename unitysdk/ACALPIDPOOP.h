@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define ACALPIDPOOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C877A20)
 
+inline static constexpr unsigned int ACALPIDPOOP_TypeDefinitionIndex = 43774;
+
 	class ACALPIDPOOP : public ::System::Object
 	{
 	public:

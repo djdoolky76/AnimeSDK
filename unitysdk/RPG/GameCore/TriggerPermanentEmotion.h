@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerPermanentEmotion_TypeDefinitionIndex = 21888;
+
 	class TriggerPermanentEmotion : public ::RPG::GameCore::TaskConfig
 	{
 	public:

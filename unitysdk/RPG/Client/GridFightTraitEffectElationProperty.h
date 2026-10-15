@@ -32,6 +32,8 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTraitEffectElationProperty_TypeDefinitionIndex = 65372;
+
 	class GridFightTraitEffectElationProperty : public ::System::Object
 	{
 	public:

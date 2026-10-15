@@ -33,6 +33,8 @@ namespace System::Xml::XPath { class XPathNavigatorKeyComparer; }
 
 namespace System::Xml::XPath
 {
+	inline static constexpr unsigned int XPathNavigator_TypeDefinitionIndex = 1976;
+
 	class XPathNavigator : public ::System::Xml::XPath::XPathItem
 	{
 	public:

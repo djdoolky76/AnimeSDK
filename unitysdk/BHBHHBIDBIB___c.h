@@ -14,6 +14,8 @@ namespace UnityEngine { class Collider; }
 #define BHBHHBIDBIB___C___CREATETRIGGER_B__6_0_OFFSET UNITYSDK_OFFSET(0xB46FC40)
 #define BHBHHBIDBIB___C___CREATETRIGGER_B__6_1_OFFSET UNITYSDK_OFFSET(0xB46FC70)
 
+inline static constexpr unsigned int BHBHHBIDBIB___c_TypeDefinitionIndex = 77147;
+
 	class BHBHHBIDBIB___c : public ::System::Object
 	{
 	public:

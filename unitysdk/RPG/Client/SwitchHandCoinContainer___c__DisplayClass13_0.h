@@ -9,6 +9,8 @@ namespace RPG::GameCore { class AdventureAfterPropStateChange; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SwitchHandCoinContainer___c__DisplayClass13_0_TypeDefinitionIndex = 68000;
+
 	class SwitchHandCoinContainer___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

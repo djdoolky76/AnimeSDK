@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::Console::OS
 {
+	inline static constexpr unsigned int LoginManagerCX_TypeDefinitionIndex = 9087;
+
 	class LoginManagerCX : public ::MiHoYo::SDK::Console::OS::LoginManager
 	{
 	public:

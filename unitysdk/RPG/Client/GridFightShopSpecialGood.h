@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightShopSpecialGood_TypeDefinitionIndex = 65240;
+
 	class GridFightShopSpecialGood : public ::RPG::Client::GridFightShopGood
 	{
 	public:

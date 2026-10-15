@@ -11,6 +11,8 @@ namespace MiHoYo::SDK::HoYoUI { class HoYoUIMeta; }
 
 namespace MiHoYo::SDK::HoYoUI
 {
+	inline static constexpr unsigned int HoYoScrollRect_TypeDefinitionIndex = 46714;
+
 	class HoYoScrollRect : public ::UnityEngine::UI::ScrollRect
 	{
 	public:

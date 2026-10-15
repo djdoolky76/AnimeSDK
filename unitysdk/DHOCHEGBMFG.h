@@ -34,6 +34,8 @@ namespace System { class String; }
 #define DHOCHEGBMFG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1B8AD0)
 #define DHOCHEGBMFG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1B8B30)
 
+inline static constexpr unsigned int DHOCHEGBMFG_TypeDefinitionIndex = 33962;
+
 	class DHOCHEGBMFG : public ::System::Object
 	{
 	public:

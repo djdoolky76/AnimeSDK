@@ -31,6 +31,8 @@ namespace System { class String; }
 #define BPFGOALJLPP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E043B70)
 #define BPFGOALJLPP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E043BD0)
 
+inline static constexpr unsigned int BPFGOALJLPP_TypeDefinitionIndex = 30863;
+
 	class BPFGOALJLPP : public ::System::Object
 	{
 	public:

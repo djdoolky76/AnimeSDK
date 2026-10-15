@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EvolveBuildTag_TypeDefinitionIndex = 63810;
+
 	class EvolveBuildTag : public ::System::Object
 	{
 	public:

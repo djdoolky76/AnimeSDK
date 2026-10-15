@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DLSSData_TypeDefinitionIndex = 4813;
+
 	struct alignas(4) DLSSData
 	{
 		::System::IntPtr SetTextureCallback; // 0x10

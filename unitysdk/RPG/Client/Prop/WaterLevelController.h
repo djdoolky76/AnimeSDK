@@ -30,6 +30,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int WaterLevelController_TypeDefinitionIndex = 78918;
+
 	class WaterLevelController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

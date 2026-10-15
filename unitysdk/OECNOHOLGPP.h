@@ -53,6 +53,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define OECNOHOLGPP___LIFTANDPLACECELLS_G__LIFTCELL_41_0_OFFSET UNITYSDK_OFFSET(0x1C577170)
 #define OECNOHOLGPP___LIFTANDPLACECELLS_G__PLACECELL_41_1_OFFSET UNITYSDK_OFFSET(0x1C577240)
 
+inline static constexpr unsigned int OECNOHOLGPP_TypeDefinitionIndex = 41792;
+
 	class OECNOHOLGPP : public ::System::Object
 	{
 	public:

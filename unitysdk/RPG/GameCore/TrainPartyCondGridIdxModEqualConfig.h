@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyCondGridIdxModEqualConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyCondGridIdxModEqualConfig_TypeDefinitionIndex = 18088;
+
 	class TrainPartyCondGridIdxModEqualConfig : public ::RPG::GameCore::TrainPartyConditionConfigBase
 	{
 	public:

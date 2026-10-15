@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DJLDFCNNNHD_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CA2AE30)
 #define DJLDFCNNNHD_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1CA2B8C0)
 
+inline static constexpr unsigned int DJLDFCNNNHD_TypeDefinitionIndex = 42132;
+
 	class DJLDFCNNNHD : public ::System::Object
 	{
 	public:

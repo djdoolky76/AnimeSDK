@@ -8,6 +8,8 @@ class GGCJNDECBLC;
 #define JDNEAIDOOAN___C__DISPLAYCLASS6_0__SNAPPATHNODE_B__1_OFFSET UNITYSDK_OFFSET(0x166109A0)
 #define JDNEAIDOOAN___C__DISPLAYCLASS6_0__SNAPPATHNODE_B__2_OFFSET UNITYSDK_OFFSET(0x166109C0)
 
+inline static constexpr unsigned int JDNEAIDOOAN___c__DisplayClass6_0_TypeDefinitionIndex = 48948;
+
 	class JDNEAIDOOAN___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SimpleTalkInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConsumeMissionItem_TypeDefinitionIndex = 21599;
+
 	class ConsumeMissionItem : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityCharacterDynamicProperties_TypeDefinitionIndex = 57738;
+
 	class AbilityCharacterDynamicProperties : public ::System::Object
 	{
 	public:

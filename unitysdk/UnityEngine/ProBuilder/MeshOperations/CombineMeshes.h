@@ -22,6 +22,8 @@ namespace UnityEngine::ProBuilder { class Vertex; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int CombineMeshes_TypeDefinitionIndex = 44482;
+
 	class CombineMeshes : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DJALOMIEKNP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1C59D0)
 #define DJALOMIEKNP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E1C59E0)
 
+inline static constexpr unsigned int DJALOMIEKNP___c_TypeDefinitionIndex = 32303;
+
 	class DJALOMIEKNP___c : public ::System::Object
 	{
 	public:

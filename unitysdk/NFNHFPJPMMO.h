@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define NFNHFPJPMMO_KHAJCIPMHEA_OFFSET UNITYSDK_OFFSET(0xBB9CCA0)
 #define NFNHFPJPMMO_TICK_OFFSET UNITYSDK_OFFSET(0xBB9C8D0)
 
+inline static constexpr unsigned int NFNHFPJPMMO_TypeDefinitionIndex = 57232;
+
 	class NFNHFPJPMMO : public ::System::Object
 	{
 	public:

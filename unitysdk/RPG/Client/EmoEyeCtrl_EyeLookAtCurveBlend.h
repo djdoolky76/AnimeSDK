@@ -12,6 +12,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EmoEyeCtrl_EyeLookAtCurveBlend_TypeDefinitionIndex = 71128;
+
 	struct alignas(8) EmoEyeCtrl_EyeLookAtCurveBlend
 	{
 		::System::Single _timer; // 0x10

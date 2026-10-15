@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RuntimeSVC_TypeDefinitionIndex = 4384;
+
 	class RuntimeSVC : public ::System::Object
 	{
 	public:

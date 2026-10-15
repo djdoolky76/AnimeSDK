@@ -6,6 +6,8 @@ namespace UnityEngine { class Renderer; }
 #define MONOEFFECTHACKEDMONITORCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xBA4D9F0)
 #define MONOEFFECTHACKEDMONITORCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xBA4D8F0)
 
+inline static constexpr unsigned int MonoEffectHackedMonitorControl_TypeDefinitionIndex = 47460;
+
 	class MonoEffectHackedMonitorControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

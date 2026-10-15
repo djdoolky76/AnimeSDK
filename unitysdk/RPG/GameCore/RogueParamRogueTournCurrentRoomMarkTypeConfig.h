@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueParamRogueTournCurrentRoomMarkTypeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueParamRogueTournCurrentRoomMarkTypeConfig_TypeDefinitionIndex = 19820;
+
 	class RogueParamRogueTournCurrentRoomMarkTypeConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:

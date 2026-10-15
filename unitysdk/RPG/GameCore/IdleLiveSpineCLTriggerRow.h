@@ -10,6 +10,8 @@ namespace RPG::GameCore { class IdleLiveSpineCLTriggerRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveSpineCLTriggerRow_TypeDefinitionIndex = 11820;
+
 	class IdleLiveSpineCLTriggerRow : public ::System::Object
 	{
 	public:

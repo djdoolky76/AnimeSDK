@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtBattleSetCameraFocusTarget_TypeDefinitionIndex = 24094;
+
 	class RtBattleSetCameraFocusTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:

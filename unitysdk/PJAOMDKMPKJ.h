@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PJAOMDKMPKJ_ENPMICEBFJE_OFFSET UNITYSDK_OFFSET(0xC27A830)
 #define PJAOMDKMPKJ_GOCHKBNMOJM_OFFSET UNITYSDK_OFFSET(0xC27A170)
 
+inline static constexpr unsigned int PJAOMDKMPKJ_TypeDefinitionIndex = 55231;
+
 	class PJAOMDKMPKJ : public ::IMAEPJJBPBK
 	{
 	public:

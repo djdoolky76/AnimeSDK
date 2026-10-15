@@ -7,6 +7,8 @@ class JNHEPGLMAFE;
 #define NPPGJNHPPMA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7CA250)
 #define NPPGJNHPPMA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C7CA270)
 
+inline static constexpr unsigned int NPPGJNHPPMA_TypeDefinitionIndex = 37192;
+
 	class NPPGJNHPPMA : public ::System::Object
 	{
 	public:

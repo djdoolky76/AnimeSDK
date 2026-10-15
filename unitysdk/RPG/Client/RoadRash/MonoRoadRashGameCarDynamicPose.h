@@ -46,6 +46,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int MonoRoadRashGameCarDynamicPose_TypeDefinitionIndex = 75855;
+
 	class MonoRoadRashGameCarDynamicPose : public ::UnityEngine::MonoBehaviour
 	{
 	public:

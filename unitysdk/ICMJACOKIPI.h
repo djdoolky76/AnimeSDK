@@ -33,6 +33,8 @@ namespace System { class String; }
 #define ICMJACOKIPI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E625C80)
 #define ICMJACOKIPI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E625CE0)
 
+inline static constexpr unsigned int ICMJACOKIPI_TypeDefinitionIndex = 26982;
+
 	class ICMJACOKIPI : public ::System::Object
 	{
 	public:

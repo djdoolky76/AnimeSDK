@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LDNBPINBPKB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8FE660)
 #define LDNBPINBPKB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E8FE670)
 
+inline static constexpr unsigned int LDNBPINBPKB___c_TypeDefinitionIndex = 28563;
+
 	class LDNBPINBPKB___c : public ::System::Object
 	{
 	public:

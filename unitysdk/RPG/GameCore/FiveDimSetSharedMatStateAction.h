@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetSharedMatStateAction_TypeDefinitionIndex = 18694;
+
 	class FiveDimSetSharedMatStateAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

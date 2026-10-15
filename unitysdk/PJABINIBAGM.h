@@ -9,6 +9,8 @@ namespace System { class Exception; }
 #define PJABINIBAGM__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xC277820)
 #define PJABINIBAGM__ONTASKBEGIN_B__1_1_OFFSET UNITYSDK_OFFSET(0xC277830)
 
+inline static constexpr unsigned int PJABINIBAGM_TypeDefinitionIndex = 52790;
+
 	class PJABINIBAGM
 	{
 	public:

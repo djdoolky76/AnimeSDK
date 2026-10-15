@@ -11,6 +11,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int TrackAsset___c_TypeDefinitionIndex = 38800;
+
 	class TrackAsset___c : public ::System::Object
 	{
 	public:

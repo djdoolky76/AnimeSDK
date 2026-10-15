@@ -9,6 +9,8 @@ namespace RPG::Client::Prop { class AdvMoneyManager; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int AdvMoneyManager___c__DisplayClass15_0_TypeDefinitionIndex = 78192;
+
 	class AdvMoneyManager___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

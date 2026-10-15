@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTask_WaitUntilValueChangedStandardObjectPromise_2___c_TypeDefinitionIndex = 38265;
+
 	template <typename T1, typename T2>
 	class UniTask_WaitUntilValueChangedStandardObjectPromise_2___c : public ::System::Object
 	{

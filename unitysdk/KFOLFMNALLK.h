@@ -41,6 +41,8 @@ namespace System { class String; }
 #define KFOLFMNALLK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E82FC60)
 #define KFOLFMNALLK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E82FCC0)
 
+inline static constexpr unsigned int KFOLFMNALLK_TypeDefinitionIndex = 30094;
+
 	class KFOLFMNALLK : public ::System::Object
 	{
 	public:

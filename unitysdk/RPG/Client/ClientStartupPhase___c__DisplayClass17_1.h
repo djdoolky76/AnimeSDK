@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ClientStartupPhase___c__DisplayClass17_1_TypeDefinitionIndex = 61142;
+
 	template <typename T>
 	class ClientStartupPhase___c__DisplayClass17_1 : public ::System::Object
 	{

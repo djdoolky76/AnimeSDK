@@ -14,6 +14,8 @@ namespace RPG::GameCore { class PerformanceReplayExcludeRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceReplayExcludeRow_TypeDefinitionIndex = 14346;
+
 	class PerformanceReplayExcludeRow : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PhotoGraphControlConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphControlConfig_TypeDefinitionIndex = 21631;
+
 	class PhotoGraphControlConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

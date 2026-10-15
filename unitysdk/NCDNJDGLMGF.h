@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NCDNJDGLMGF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D1F35A0)
 #define NCDNJDGLMGF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D1F2B90)
 
+inline static constexpr unsigned int NCDNJDGLMGF_TypeDefinitionIndex = 14362;
+
 	class NCDNJDGLMGF : public ::System::Object
 	{
 	public:

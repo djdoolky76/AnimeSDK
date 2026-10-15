@@ -23,6 +23,8 @@ namespace System::Net { class IPEndPoint; }
 #define EPFAOLJKOOK_MIABPECEEKP_OFFSET UNITYSDK_OFFSET(0x1DDABE40)
 #define EPFAOLJKOOK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDAC470)
 
+inline static constexpr unsigned int EPFAOLJKOOK_TypeDefinitionIndex = 43931;
+
 	class EPFAOLJKOOK : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Globalization { class NumberFormatInfo; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int Int32Converter_TypeDefinitionIndex = 2608;
+
 	class Int32Converter : public ::System::ComponentModel::BaseNumberConverter
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class Nullable; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudDragBrain_TypeDefinitionIndex = 80899;
+
 	class FateRinBattleHudDragBrain : public ::RPG::Client::FateRin::Battle::FateRinBattleHudInputBrainBase
 	{
 	public:

@@ -10,6 +10,8 @@ namespace Entitas { class IGroup; }
 #define MNLNBLFLNFG_EXECUTE_OFFSET UNITYSDK_OFFSET(0xBA15E40)
 #define MNLNBLFLNFG_KMANBNKPLJJ_OFFSET UNITYSDK_OFFSET(0xBA15DF0)
 
+inline static constexpr unsigned int MNLNBLFLNFG_TypeDefinitionIndex = 77784;
+
 	class MNLNBLFLNFG : public ::System::Object
 	{
 	public:

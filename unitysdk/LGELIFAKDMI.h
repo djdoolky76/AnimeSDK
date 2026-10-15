@@ -16,6 +16,8 @@ namespace UnityEngine { class Component; }
 #define LGELIFAKDMI_MMPNOMJPIJE_OFFSET UNITYSDK_OFFSET(0xB6912F0)
 #define LGELIFAKDMI_PDFMCHGIPBG_OFFSET UNITYSDK_OFFSET(0xB691520)
 
+inline static constexpr unsigned int LGELIFAKDMI_TypeDefinitionIndex = 49080;
+
 	class LGELIFAKDMI : public ::System::Object
 	{
 	public:

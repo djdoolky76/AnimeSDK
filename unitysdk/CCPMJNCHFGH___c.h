@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define CCPMJNCHFGH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C450B30)
 #define CCPMJNCHFGH___C__LIMITLOGDIRFILECOUNT_B__0_0_OFFSET UNITYSDK_OFFSET(0x1C450B40)
 
+inline static constexpr unsigned int CCPMJNCHFGH___c_TypeDefinitionIndex = 41393;
+
 	class CCPMJNCHFGH___c : public ::System::Object
 	{
 	public:

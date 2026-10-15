@@ -9,6 +9,8 @@ namespace System { class String; }
 #define MLHMAPBJMKC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1CC710)
 #define MLHMAPBJMKC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1CC6D0)
 
+inline static constexpr unsigned int MLHMAPBJMKC_TypeDefinitionIndex = 19978;
+
 	class MLHMAPBJMKC : public ::RPG::GameCore::TaskConfig
 	{
 	public:

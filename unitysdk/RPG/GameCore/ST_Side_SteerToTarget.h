@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ST_Side_SteerToTarget; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_SteerToTarget_TypeDefinitionIndex = 20109;
+
 	class ST_Side_SteerToTarget : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

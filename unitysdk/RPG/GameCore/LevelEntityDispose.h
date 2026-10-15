@@ -15,6 +15,8 @@ namespace RPG::GameCore { class LevelEntityDispose; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEntityDispose_TypeDefinitionIndex = 56770;
+
 	class LevelEntityDispose : public ::CMPGEAFHHDC
 	{
 	public:

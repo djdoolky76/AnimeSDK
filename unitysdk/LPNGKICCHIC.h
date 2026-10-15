@@ -6,6 +6,8 @@ class LEFAKCMDGNB;
 
 #define LPNGKICCHIC_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0xB824FD0)
 
+inline static constexpr unsigned int LPNGKICCHIC_TypeDefinitionIndex = 67158;
+
 	class LPNGKICCHIC : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace RPG::GameCore { class BattleInstance; }
 #define JJPEMHCBLHI_PNKKDMGDJMH_OFFSET UNITYSDK_OFFSET(0xB20B310)
 #define JJPEMHCBLHI_SET_REPLAYDATAINSTANCE_OFFSET UNITYSDK_OFFSET(0xB20BE70)
 
+inline static constexpr unsigned int JJPEMHCBLHI_TypeDefinitionIndex = 58988;
+
 	class JJPEMHCBLHI : public ::System::Object
 	{
 	public:

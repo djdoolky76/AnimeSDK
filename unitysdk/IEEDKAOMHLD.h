@@ -42,6 +42,8 @@ namespace RPG::GameCore { class BaseChimeraDuelNode; }
 #define IEEDKAOMHLD_PLMPBNAEIGN_OFFSET UNITYSDK_OFFSET(0x1CEE9BA0)
 #define IEEDKAOMHLD_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1CEE9E20)
 
+inline static constexpr unsigned int IEEDKAOMHLD_TypeDefinitionIndex = 19068;
+
 	class IEEDKAOMHLD : public ::System::Object
 	{
 	public:

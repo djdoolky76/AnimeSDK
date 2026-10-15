@@ -22,6 +22,8 @@
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int SHA512Managed_TypeDefinitionIndex = 1062;
+
 	class SHA512Managed : public ::System::Security::Cryptography::SHA512
 	{
 	public:

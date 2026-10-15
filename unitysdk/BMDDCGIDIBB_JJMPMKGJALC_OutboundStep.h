@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int BMDDCGIDIBB_JJMPMKGJALC_OutboundStep_TypeDefinitionIndex = 69173;
+
 	enum class BMDDCGIDIBB_JJMPMKGJALC_OutboundStep : ::System::Int32
 	{
 		PedestrianHide = 0,

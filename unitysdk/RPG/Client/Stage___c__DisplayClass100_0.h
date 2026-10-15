@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Stage___c__DisplayClass100_0_TypeDefinitionIndex = 69508;
+
 	class Stage___c__DisplayClass100_0 : public ::System::Object
 	{
 	public:

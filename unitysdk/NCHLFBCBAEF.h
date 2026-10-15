@@ -9,6 +9,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 #define NCHLFBCBAEF_SETPROPERTY_1_OFFSET UNITYSDK_OFFSET(0xBB113A0)
 #define NCHLFBCBAEF_SETPROPERTY_OFFSET UNITYSDK_OFFSET(0xBB11320)
 
+inline static constexpr unsigned int NCHLFBCBAEF_TypeDefinitionIndex = 69827;
+
 	class NCHLFBCBAEF : public ::System::Object
 	{
 	public:

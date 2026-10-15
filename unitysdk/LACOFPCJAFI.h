@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define LACOFPCJAFI_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB5DAE30)
 #define LACOFPCJAFI_INVOKE_OFFSET UNITYSDK_OFFSET(0xB5DADF0)
 
+inline static constexpr unsigned int LACOFPCJAFI_TypeDefinitionIndex = 54753;
+
 	class LACOFPCJAFI : public ::System::MulticastDelegate
 	{
 	public:

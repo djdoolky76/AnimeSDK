@@ -28,6 +28,8 @@ namespace System { class String; }
 #define LPCINMGGCNI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9C9300)
 #define LPCINMGGCNI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9C9360)
 
+inline static constexpr unsigned int LPCINMGGCNI_TypeDefinitionIndex = 27475;
+
 	class LPCINMGGCNI : public ::System::Object
 	{
 	public:

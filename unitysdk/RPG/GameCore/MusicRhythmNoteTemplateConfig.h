@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MusicRhythmNoteTemplateConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MusicRhythmNoteTemplateConfig_TypeDefinitionIndex = 16970;
+
 	class MusicRhythmNoteTemplateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

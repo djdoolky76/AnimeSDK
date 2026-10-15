@@ -17,6 +17,8 @@ namespace System { class Object; }
 #define FMBLPMHLFON_KANMCJHEFJJ_OFFSET UNITYSDK_OFFSET(0x1C5544D0)
 #define FMBLPMHLFON_PGFCOBHJEDK_OFFSET UNITYSDK_OFFSET(0x1C554220)
 
+inline static constexpr unsigned int FMBLPMHLFON_TypeDefinitionIndex = 41845;
+
 	class FMBLPMHLFON : public ::MAKOLMIPFFE
 	{
 	public:

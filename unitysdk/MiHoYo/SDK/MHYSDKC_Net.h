@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MHYSDKC_Net_TypeDefinitionIndex = 46214;
+
 	class MHYSDKC_Net : public ::System::Object
 	{
 	public:

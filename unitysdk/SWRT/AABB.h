@@ -17,6 +17,8 @@
 
 namespace SWRT
 {
+	inline static constexpr unsigned int AABB_TypeDefinitionIndex = 37492;
+
 	struct alignas(4) AABB
 	{
 		::UnityEngine::Vector3 _Min_k__BackingField; // 0x10

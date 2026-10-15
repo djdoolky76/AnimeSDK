@@ -6,6 +6,8 @@
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
+	inline static constexpr unsigned int PolygonPoint_TypeDefinitionIndex = 38736;
+
 	class PolygonPoint : public ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint
 	{
 	public:

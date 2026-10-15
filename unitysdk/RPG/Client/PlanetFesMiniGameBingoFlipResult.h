@@ -36,6 +36,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesMiniGameBingoFlipResult_TypeDefinitionIndex = 66609;
+
 	class PlanetFesMiniGameBingoFlipResult : public ::System::Object
 	{
 	public:

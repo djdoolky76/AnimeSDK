@@ -5,6 +5,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 #define OHHPOGMFPBF_CTOR_OFFSET UNITYSDK_OFFSET(0xBE6BD20)
 
+inline static constexpr unsigned int OHHPOGMFPBF_TypeDefinitionIndex = 54755;
+
 	class OHHPOGMFPBF : public ::System::Object
 	{
 	public:

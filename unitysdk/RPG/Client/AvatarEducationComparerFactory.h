@@ -8,6 +8,8 @@ namespace RPG::Client { class IAvatarComparer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarEducationComparerFactory_TypeDefinitionIndex = 62460;
+
 	class AvatarEducationComparerFactory : public ::System::Object
 	{
 	public:

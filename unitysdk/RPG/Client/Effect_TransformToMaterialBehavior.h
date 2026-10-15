@@ -16,6 +16,8 @@ namespace RPG::Client { class Effect_TransformToMaterialMonoPlugin; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TypeDefinitionIndex = 70572;
+
 	class Effect_TransformToMaterialBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

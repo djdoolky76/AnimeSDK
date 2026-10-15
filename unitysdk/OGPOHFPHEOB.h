@@ -27,6 +27,8 @@ namespace System { class String; }
 #define OGPOHFPHEOB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE5B200)
 #define OGPOHFPHEOB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE5B260)
 
+inline static constexpr unsigned int OGPOHFPHEOB_TypeDefinitionIndex = 33168;
+
 	class OGPOHFPHEOB : public ::System::Object
 	{
 	public:

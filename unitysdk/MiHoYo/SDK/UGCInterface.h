@@ -72,6 +72,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int UGCInterface_TypeDefinitionIndex = 46428;
+
 	class UGCInterface : public ::System::Object
 	{
 	public:

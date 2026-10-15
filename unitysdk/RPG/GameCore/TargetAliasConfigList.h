@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetAliasConfigList_TypeDefinitionIndex = 23957;
+
 	class TargetAliasConfigList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

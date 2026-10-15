@@ -14,6 +14,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define HNHIHMAAEEH_MDFLKIPIBCA_OFFSET UNITYSDK_OFFSET(0x15D95210)
 #define HNHIHMAAEEH_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0x15D94CE0)
 
+inline static constexpr unsigned int HNHIHMAAEEH_TypeDefinitionIndex = 53953;
+
 	class HNHIHMAAEEH : public ::KKEFMOKEJIF
 	{
 	public:

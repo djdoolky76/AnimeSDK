@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftExamItemControl_TypeDefinitionIndex = 79962;
+
 	class MechCraftExamItemControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

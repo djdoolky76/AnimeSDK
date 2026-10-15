@@ -6,6 +6,8 @@ class NOOHPODHIAA;
 #define HPBELMLDDEC_CTOR_OFFSET UNITYSDK_OFFSET(0x3C33120)
 #define HPBELMLDDEC_NPIIEBDOBAE_OFFSET UNITYSDK_OFFSET(0x3C33180)
 
+inline static constexpr unsigned int HPBELMLDDEC_TypeDefinitionIndex = 43528;
+
 	struct alignas(4) HPBELMLDDEC
 	{
 		::UnityEngine::Vector3 EAKMJDBLGKN; // 0x10

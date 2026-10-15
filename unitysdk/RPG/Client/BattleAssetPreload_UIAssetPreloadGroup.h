@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleAssetPreload_UIAssetPreloadGroup_TypeDefinitionIndex = 59658;
+
 	class BattleAssetPreload_UIAssetPreloadGroup : public ::RPG::Client::BattleAssetPreload_AssetPreloadGroup
 	{
 	public:

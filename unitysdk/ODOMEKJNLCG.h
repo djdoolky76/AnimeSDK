@@ -8,6 +8,8 @@ namespace System { class Action; }
 #define ODOMEKJNLCG_FHLKFMGAKJN_OFFSET UNITYSDK_OFFSET(0xBDF1FB0)
 #define ODOMEKJNLCG_IFNCGMDKJJL_OFFSET UNITYSDK_OFFSET(0xBDF1C60)
 
+inline static constexpr unsigned int ODOMEKJNLCG_TypeDefinitionIndex = 79983;
+
 	class ODOMEKJNLCG : public ::System::Object
 	{
 	public:

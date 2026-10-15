@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JENABHHEFCD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E71FFF0)
 #define JENABHHEFCD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E720050)
 
+inline static constexpr unsigned int JENABHHEFCD_TypeDefinitionIndex = 31855;
+
 	class JENABHHEFCD : public ::System::Object
 	{
 	public:

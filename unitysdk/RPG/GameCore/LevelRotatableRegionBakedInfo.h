@@ -22,6 +22,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelRotatableRegionBakedInfo_TypeDefinitionIndex = 10726;
+
 	struct alignas(8) LevelRotatableRegionBakedInfo
 	{
 		::LELCKJPOPAO* _Pool; // 0x10

@@ -27,6 +27,8 @@ namespace System::Xml::Linq { class XObjectChangeEventArgs; }
 
 namespace System::Xml::Linq
 {
+	inline static constexpr unsigned int XObject_TypeDefinitionIndex = 3882;
+
 	class XObject : public ::System::Object
 	{
 	public:

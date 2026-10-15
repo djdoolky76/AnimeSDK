@@ -9,6 +9,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int TrackballAttribute_TypeDefinitionIndex = 37760;
+
 	class TrackballAttribute : public ::System::Attribute
 	{
 	public:

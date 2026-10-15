@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceActionChangeRobinRadiusByVote; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceActionChangeRobinRadiusByVote_TypeDefinitionIndex = 18345;
+
 	class CakeRaceActionChangeRobinRadiusByVote : public ::RPG::GameCore::CakeRaceActionBase
 	{
 	public:

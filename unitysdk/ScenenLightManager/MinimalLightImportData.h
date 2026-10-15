@@ -8,6 +8,8 @@
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int MinimalLightImportData_TypeDefinitionIndex = 49143;
+
 	class MinimalLightImportData : public ::System::Object
 	{
 	public:

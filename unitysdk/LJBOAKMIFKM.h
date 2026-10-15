@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 #define LJBOAKMIFKM_CTOR_OFFSET UNITYSDK_OFFSET(0xB6E14B0)
 #define LJBOAKMIFKM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6E14E0)
 
+inline static constexpr unsigned int LJBOAKMIFKM_TypeDefinitionIndex = 55177;
+
 	class LJBOAKMIFKM
 	{
 	public:

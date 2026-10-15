@@ -37,6 +37,8 @@ namespace System { class String; }
 
 namespace Entitas::VisualDebugging::Unity
 {
+	inline static constexpr unsigned int SystemInfo_TypeDefinitionIndex = 10063;
+
 	class SystemInfo : public ::System::Object
 	{
 	public:

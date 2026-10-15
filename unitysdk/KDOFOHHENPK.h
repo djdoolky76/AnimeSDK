@@ -15,6 +15,8 @@ namespace RPG::GameCore { class DiceCombatSkillConfig; }
 #define KDOFOHHENPK_LFODHGBCCHF_OFFSET UNITYSDK_OFFSET(0x1C70EA60)
 #define KDOFOHHENPK_OMJKAPNGBEP_OFFSET UNITYSDK_OFFSET(0x1C70EB20)
 
+inline static constexpr unsigned int KDOFOHHENPK_TypeDefinitionIndex = 36465;
+
 	class KDOFOHHENPK : public ::System::Object
 	{
 	public:

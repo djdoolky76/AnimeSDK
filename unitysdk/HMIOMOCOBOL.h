@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HMIOMOCOBOL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CEC70B0)
 #define HMIOMOCOBOL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CEC69D0)
 
+inline static constexpr unsigned int HMIOMOCOBOL_TypeDefinitionIndex = 11439;
+
 	class HMIOMOCOBOL : public ::System::Object
 	{
 	public:

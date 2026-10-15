@@ -9,6 +9,8 @@ namespace RPG::Client::TrainParty { class TrainPartyPassengerSkillInfo; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyPassengerManager___c__DisplayClass9_0_TypeDefinitionIndex = 74348;
+
 	class TrainPartyPassengerManager___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

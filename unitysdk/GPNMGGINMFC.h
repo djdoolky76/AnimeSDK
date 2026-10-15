@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GPNMGGINMFC_NICLDLFFLMJ_OFFSET UNITYSDK_OFFSET(0x15B64280)
 #define GPNMGGINMFC_OGHNIKCIDMG_OFFSET UNITYSDK_OFFSET(0x15B63AF0)
 
+inline static constexpr unsigned int GPNMGGINMFC_TypeDefinitionIndex = 73224;
+
 	class GPNMGGINMFC : public ::System::Object
 	{
 	public:

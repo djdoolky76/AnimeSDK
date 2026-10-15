@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ScalePropByCollectionProgress_TypeDefinitionIndex = 20415;
+
 	class ScalePropByCollectionProgress : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GUILayoutOption_Type_TypeDefinitionIndex = 5175;
+
 	enum class GUILayoutOption_Type : ::System::Int32
 	{
 		fixedWidth = 0,

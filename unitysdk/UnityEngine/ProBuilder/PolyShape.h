@@ -23,6 +23,8 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int PolyShape_TypeDefinitionIndex = 44383;
+
 	class PolyShape : public ::UnityEngine::MonoBehaviour
 	{
 	public:

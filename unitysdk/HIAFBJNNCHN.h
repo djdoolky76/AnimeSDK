@@ -25,6 +25,8 @@ namespace System { class String; }
 #define HIAFBJNNCHN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E58E060)
 #define HIAFBJNNCHN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E58E0C0)
 
+inline static constexpr unsigned int HIAFBJNNCHN_TypeDefinitionIndex = 31137;
+
 	class HIAFBJNNCHN : public ::System::Object
 	{
 	public:

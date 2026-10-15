@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CPNCAPLOIHI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E146C50)
 #define CPNCAPLOIHI___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1E146C60)
 
+inline static constexpr unsigned int CPNCAPLOIHI___c_TypeDefinitionIndex = 25644;
+
 	class CPNCAPLOIHI___c : public ::System::Object
 	{
 	public:

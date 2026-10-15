@@ -377,6 +377,8 @@ namespace System::Buffers { template <typename T> class IBufferWriter_1; }
 #define NNGOGBHIAFI___C___CCTOR_B__61_99_OFFSET UNITYSDK_OFFSET(0x1C7B4440)
 #define NNGOGBHIAFI___C___CCTOR_B__61_9_OFFSET UNITYSDK_OFFSET(0x1C7AE4D0)
 
+inline static constexpr unsigned int NNGOGBHIAFI___c_TypeDefinitionIndex = 36871;
+
 	class NNGOGBHIAFI___c : public ::System::Object
 	{
 	public:

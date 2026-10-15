@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TriggerWavePerformStartString; }
 #define HELBOCFNPBH_CTOR_OFFSET UNITYSDK_OFFSET(0x15C5A600)
 #define HELBOCFNPBH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C5A630)
 
+inline static constexpr unsigned int HELBOCFNPBH_TypeDefinitionIndex = 58803;
+
 	class HELBOCFNPBH
 	{
 	public:

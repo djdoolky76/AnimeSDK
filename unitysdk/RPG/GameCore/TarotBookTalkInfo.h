@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TarotBookTalkInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TarotBookTalkInfo_TypeDefinitionIndex = 21142;
+
 	class TarotBookTalkInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

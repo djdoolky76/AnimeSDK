@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define HDJIGMBHENE___LOADUIGROUP_D__14_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x15C3B3D0)
 #define HDJIGMBHENE___LOADUIGROUP_D__14_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15C3B2E0)
 
+inline static constexpr unsigned int HDJIGMBHENE___LoadUIGroup_d__14_TypeDefinitionIndex = 61177;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14>
 	class HDJIGMBHENE___LoadUIGroup_d__14 : public ::System::Object
 	{

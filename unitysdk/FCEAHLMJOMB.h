@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaveMonsterMaxCount; }
 #define FCEAHLMJOMB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x156B7690)
 #define FCEAHLMJOMB_TICK_OFFSET UNITYSDK_OFFSET(0x156B76E0)
 
+inline static constexpr unsigned int FCEAHLMJOMB_TypeDefinitionIndex = 58948;
+
 	class FCEAHLMJOMB : public ::GELIALJDFBL
 	{
 	public:

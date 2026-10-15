@@ -12,6 +12,8 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Unity
 {
+	inline static constexpr unsigned int KeyframeFormatter_TypeDefinitionIndex = 10127;
+
 	class KeyframeFormatter : public ::System::Object
 	{
 	public:

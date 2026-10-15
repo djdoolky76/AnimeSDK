@@ -20,6 +20,8 @@ namespace UnityEngine::AI { class RVOSimulator; }
 #define CDCHPEIGKAI_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xC761D60)
 #define CDCHPEIGKAI_ONEGABCDHGK_OFFSET UNITYSDK_OFFSET(0xC762250)
 
+inline static constexpr unsigned int CDCHPEIGKAI_TypeDefinitionIndex = 76519;
+
 	class CDCHPEIGKAI : public ::System::Object
 	{
 	public:

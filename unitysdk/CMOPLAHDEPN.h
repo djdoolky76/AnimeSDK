@@ -34,6 +34,8 @@ namespace System { class String; }
 #define CMOPLAHDEPN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E105350)
 #define CMOPLAHDEPN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1053B0)
 
+inline static constexpr unsigned int CMOPLAHDEPN_TypeDefinitionIndex = 26974;
+
 	class CMOPLAHDEPN : public ::System::Object
 	{
 	public:

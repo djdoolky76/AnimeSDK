@@ -19,6 +19,8 @@ namespace System::Collections { class BitArray; }
 #define EONKJJEBGLN_ONPCKAGJGON_OFFSET UNITYSDK_OFFSET(0x155C8E30)
 #define EONKJJEBGLN_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x155C9760)
 
+inline static constexpr unsigned int EONKJJEBGLN_TypeDefinitionIndex = 56337;
+
 	class EONKJJEBGLN : public ::System::Object
 	{
 	public:

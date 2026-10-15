@@ -4,6 +4,8 @@
 class FEMJNDGPBKO;
 namespace RPG::Client { class OnAssetOperationDelegate; }
 
+inline static constexpr unsigned int FEMJNDGPBKO___c__DisplayClass6_0_1_TypeDefinitionIndex = 49136;
+
 	template <typename T>
 	class FEMJNDGPBKO___c__DisplayClass6_0_1 : public ::System::Object
 	{

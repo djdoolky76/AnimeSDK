@@ -9,6 +9,8 @@ namespace UnityEngine::Rendering { class RTHandle; }
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
+	inline static constexpr unsigned int RenderGraphResourceRegistry_TextureResource_TypeDefinitionIndex = 35466;
+
 	struct alignas(8) RenderGraphResourceRegistry_TextureResource
 	{
 		::UnityEngine::Experimental::Rendering::RenderGraphModule::TextureDesc desc; // 0x10

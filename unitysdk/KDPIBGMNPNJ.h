@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define KDPIBGMNPNJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB73B0)
 
+inline static constexpr unsigned int KDPIBGMNPNJ_TypeDefinitionIndex = 42187;
+
 	class KDPIBGMNPNJ : public ::System::Object
 	{
 	public:

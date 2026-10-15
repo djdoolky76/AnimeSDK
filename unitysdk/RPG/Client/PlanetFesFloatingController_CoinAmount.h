@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesFloatingController_CoinAmount_TypeDefinitionIndex = 66486;
+
 	enum class PlanetFesFloatingController_CoinAmount : ::System::Int32
 	{
 		Few = 0,

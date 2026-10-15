@@ -13,6 +13,8 @@ namespace RPG::GameCore { class NPCMonsterTrackConfigRow; }
 #define KCKCFKKKHED_SET_FLOORID_OFFSET UNITYSDK_OFFSET(0xB33AD20)
 #define KCKCFKKKHED_SET_MAPDATAKEY_OFFSET UNITYSDK_OFFSET(0xB33AD90)
 
+inline static constexpr unsigned int KCKCFKKKHED_TypeDefinitionIndex = 62923;
+
 	class KCKCFKKKHED : public ::System::Object
 	{
 	public:

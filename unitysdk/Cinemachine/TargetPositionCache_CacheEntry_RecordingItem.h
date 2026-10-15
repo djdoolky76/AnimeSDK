@@ -4,6 +4,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int TargetPositionCache_CacheEntry_RecordingItem_TypeDefinitionIndex = 39851;
+
 	struct alignas(4) TargetPositionCache_CacheEntry_RecordingItem
 	{
 		::System::Single Time; // 0x10

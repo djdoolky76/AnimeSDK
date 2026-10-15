@@ -89,6 +89,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace BansheeGz::BGSpline::Components
 {
+	inline static constexpr unsigned int BGCcMath_TypeDefinitionIndex = 36042;
+
 	class BGCcMath : public ::BansheeGz::BGSpline::Curve::BGCc
 	{
 	public:

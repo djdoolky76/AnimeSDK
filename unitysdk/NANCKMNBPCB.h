@@ -42,6 +42,8 @@ namespace System { class String; }
 #define NANCKMNBPCB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAC8840)
 #define NANCKMNBPCB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAC88A0)
 
+inline static constexpr unsigned int NANCKMNBPCB_TypeDefinitionIndex = 31410;
+
 	class NANCKMNBPCB : public ::System::Object
 	{
 	public:

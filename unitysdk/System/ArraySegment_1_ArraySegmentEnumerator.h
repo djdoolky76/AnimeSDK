@@ -4,6 +4,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int ArraySegment_1_ArraySegmentEnumerator_TypeDefinitionIndex = 197;
+
 	template <typename T>
 	class ArraySegment_1_ArraySegmentEnumerator : public ::System::Object
 	{

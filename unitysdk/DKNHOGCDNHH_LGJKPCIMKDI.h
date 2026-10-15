@@ -14,6 +14,8 @@ namespace System { class String; }
 #define DKNHOGCDNHH_LGJKPCIMKDI_SET_CACHEDEEPSIZE_OFFSET UNITYSDK_OFFSET(0x1C45EC20)
 #define DKNHOGCDNHH_LGJKPCIMKDI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C45EC30)
 
+inline static constexpr unsigned int DKNHOGCDNHH_LGJKPCIMKDI_TypeDefinitionIndex = 41445;
+
 	class DKNHOGCDNHH_LGJKPCIMKDI : public ::System::Object
 	{
 	public:

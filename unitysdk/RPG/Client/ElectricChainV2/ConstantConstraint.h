@@ -7,6 +7,8 @@
 
 namespace RPG::Client::ElectricChainV2
 {
+	inline static constexpr unsigned int ConstantConstraint_TypeDefinitionIndex = 73605;
+
 	class ConstantConstraint : public ::RPG::Client::ElectricChainV2::Constraint
 	{
 	public:

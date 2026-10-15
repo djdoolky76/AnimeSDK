@@ -4,6 +4,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RefList_1_TypeDefinitionIndex = 35251;
+
 	template <typename T>
 	class RefList_1 : public ::System::Object
 	{

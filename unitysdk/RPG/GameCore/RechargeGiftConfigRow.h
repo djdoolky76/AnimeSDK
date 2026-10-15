@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RechargeGiftConfigRow_TypeDefinitionIndex = 14622;
+
 	class RechargeGiftConfigRow : public ::System::Object
 	{
 	public:

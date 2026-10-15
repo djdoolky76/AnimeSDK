@@ -8,6 +8,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int NoInterpFloatRangeParameter_TypeDefinitionIndex = 35642;
+
 	class NoInterpFloatRangeParameter
 	{
 	public:

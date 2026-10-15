@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MANHOBHKDMG_KLNHCGEBKGF_OFFSET UNITYSDK_OFFSET(0x1C924330)
 #define MANHOBHKDMG_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1C923430)
 
+inline static constexpr unsigned int MANHOBHKDMG_TypeDefinitionIndex = 43025;
+
 	class MANHOBHKDMG : public ::System::Object
 	{
 	public:

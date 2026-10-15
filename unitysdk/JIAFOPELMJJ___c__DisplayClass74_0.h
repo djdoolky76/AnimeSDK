@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define JIAFOPELMJJ___C__DISPLAYCLASS74_0___MAKEPATCHPROGRESS_B__0_OFFSET UNITYSDK_OFFSET(0xB1E99B0)
 #define JIAFOPELMJJ___C__DISPLAYCLASS74_0___MAKEPATCHPROGRESS_B__1_OFFSET UNITYSDK_OFFSET(0xB1E99F0)
 
+inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass74_0_TypeDefinitionIndex = 59526;
+
 	class JIAFOPELMJJ___c__DisplayClass74_0 : public ::System::Object
 	{
 	public:

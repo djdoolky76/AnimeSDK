@@ -6,6 +6,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int Import3DTexture_TypeDefinitionIndex = 37632;
+
 	class Import3DTexture : public ::UnityEngine::MonoBehaviour
 	{
 	public:

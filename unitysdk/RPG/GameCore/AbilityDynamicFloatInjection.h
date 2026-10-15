@@ -4,6 +4,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityDynamicFloatInjection_TypeDefinitionIndex = 54398;
+
 	struct alignas(4) AbilityDynamicFloatInjection
 	{
 		::System::Int32 Hash; // 0x10

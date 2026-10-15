@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaitPropEventInBattle; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitPropEventInBattle_TypeDefinitionIndex = 22293;
+
 	class WaitPropEventInBattle : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:

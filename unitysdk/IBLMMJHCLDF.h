@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define IBLMMJHCLDF_JLADFCIAEOI_OFFSET UNITYSDK_OFFSET(0x15E3D9F0)
 #define IBLMMJHCLDF_MHMHCMPGAOJ_OFFSET UNITYSDK_OFFSET(0x15E3D9B0)
 
+inline static constexpr unsigned int IBLMMJHCLDF_TypeDefinitionIndex = 58973;
+
 	class IBLMMJHCLDF : public ::System::Object
 	{
 	public:

@@ -39,6 +39,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AirshipCar_TypeDefinitionIndex = 59808;
+
 	class AirshipCar : public ::UnityEngine::MonoBehaviour
 	{
 	public:

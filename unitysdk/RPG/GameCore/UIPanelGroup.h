@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UIPanelGroup; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UIPanelGroup_TypeDefinitionIndex = 17145;
+
 	class UIPanelGroup : public ::RPG::GameCore::JsonConfig
 	{
 	public:

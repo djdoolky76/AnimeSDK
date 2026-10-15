@@ -23,6 +23,8 @@ namespace UnityEngine { class Object; }
 #define PEOGBBHBPFF__LOADBLOCK_B__7_0_OFFSET UNITYSDK_OFFSET(0xC1F6CA0)
 #define PEOGBBHBPFF__LOADBLOCK_B__7_1_OFFSET UNITYSDK_OFFSET(0xC1F6CE0)
 
+inline static constexpr unsigned int PEOGBBHBPFF_TypeDefinitionIndex = 49572;
+
 	class PEOGBBHBPFF : public ::BNIEAMHOKJE
 	{
 	public:

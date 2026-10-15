@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define EIIJNHOOCOM_CTOR_OFFSET UNITYSDK_OFFSET(0x154CCE60)
 
+inline static constexpr unsigned int EIIJNHOOCOM_TypeDefinitionIndex = 73289;
+
 	class EIIJNHOOCOM : public ::System::Object
 	{
 	public:

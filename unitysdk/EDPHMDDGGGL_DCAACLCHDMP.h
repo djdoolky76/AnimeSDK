@@ -9,6 +9,8 @@ namespace System { class String; }
 
 #define EDPHMDDGGGL_DCAACLCHDMP_CTOR_OFFSET UNITYSDK_OFFSET(0x13336910)
 
+inline static constexpr unsigned int EDPHMDDGGGL_DCAACLCHDMP_TypeDefinitionIndex = 60717;
+
 	class EDPHMDDGGGL_DCAACLCHDMP : public ::System::Object
 	{
 	public:

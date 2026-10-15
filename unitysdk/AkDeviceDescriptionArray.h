@@ -8,6 +8,8 @@ class AkDeviceDescription;
 #define AKDEVICEDESCRIPTIONARRAY_DEFAULTCONSTRUCTATINTPTR_OFFSET UNITYSDK_OFFSET(0x1F58B280)
 #define AKDEVICEDESCRIPTIONARRAY_GET_STRUCTURESIZE_OFFSET UNITYSDK_OFFSET(0x1F58B1D0)
 
+inline static constexpr unsigned int AkDeviceDescriptionArray_TypeDefinitionIndex = 44864;
+
 	class AkDeviceDescriptionArray
 	{
 	public:

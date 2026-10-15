@@ -7,6 +7,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HAPI_Transform_TypeDefinitionIndex = 40490;
+
 	struct alignas(8) HAPI_Transform
 	{
 		::Il2CppArray<::System::Single>* position; // 0x10

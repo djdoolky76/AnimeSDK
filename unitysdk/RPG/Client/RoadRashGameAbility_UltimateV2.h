@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoadRashGameAbility_UltimateV2_TypeDefinitionIndex = 10298;
+
 	class RoadRashGameAbility_UltimateV2 : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:

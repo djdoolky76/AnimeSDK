@@ -41,6 +41,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_PropScreenSpaceGPUParticleBehavior_TypeDefinitionIndex = 70540;
+
 	class Effect_PropScreenSpaceGPUParticleBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

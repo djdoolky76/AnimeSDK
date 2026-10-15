@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define JPBMKCEONNO_HDCKKHMHPIM_CTOR_OFFSET UNITYSDK_OFFSET(0xB2B3CD0)
 #define JPBMKCEONNO_HDCKKHMHPIM_GKGNJABNLNH_OFFSET UNITYSDK_OFFSET(0xB2B3C00)
 
+inline static constexpr unsigned int JPBMKCEONNO_HDCKKHMHPIM_TypeDefinitionIndex = 57620;
+
 	class JPBMKCEONNO_HDCKKHMHPIM : public ::System::Object
 	{
 	public:

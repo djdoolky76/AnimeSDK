@@ -20,6 +20,8 @@ namespace UnityEngine { class Collider; }
 #define NFFPKHMKOBJ___C___DEPLOYTRAMPOLINE_B__55_1_OFFSET UNITYSDK_OFFSET(0xBB8F660)
 #define NFFPKHMKOBJ___C___RESOLVESURFACEBAKEDINFO_B__48_0_OFFSET UNITYSDK_OFFSET(0xBB8F5A0)
 
+inline static constexpr unsigned int NFFPKHMKOBJ___c_TypeDefinitionIndex = 76889;
+
 	class NFFPKHMKOBJ___c : public ::System::Object
 	{
 	public:

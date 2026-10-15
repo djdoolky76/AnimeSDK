@@ -12,6 +12,8 @@ namespace RPG::GameCore { class PhotoGraphShowIdentifyResult; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphShowIdentifyResult_TypeDefinitionIndex = 21662;
+
 	class PhotoGraphShowIdentifyResult : public ::RPG::GameCore::TaskConfig
 	{
 	public:

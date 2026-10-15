@@ -17,6 +17,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftChipMoldBankControlBinder_TypeDefinitionIndex = 79856;
+
 	class MechCraftCraftChipMoldBankControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

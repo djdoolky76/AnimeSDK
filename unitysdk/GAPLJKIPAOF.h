@@ -35,6 +35,8 @@ namespace System { class String; }
 #define GAPLJKIPAOF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E426390)
 #define GAPLJKIPAOF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4263F0)
 
+inline static constexpr unsigned int GAPLJKIPAOF_TypeDefinitionIndex = 25964;
+
 	class GAPLJKIPAOF : public ::System::Object
 	{
 	public:

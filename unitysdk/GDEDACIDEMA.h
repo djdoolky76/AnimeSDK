@@ -16,6 +16,8 @@ namespace System { class String; }
 #define GDEDACIDEMA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15999E80)
 #define GDEDACIDEMA_TICK_OFFSET UNITYSDK_OFFSET(0x1599A160)
 
+inline static constexpr unsigned int GDEDACIDEMA_TypeDefinitionIndex = 58099;
+
 	class GDEDACIDEMA : public ::GELIALJDFBL
 	{
 	public:

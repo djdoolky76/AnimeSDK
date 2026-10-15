@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LIFMGAFOBPC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E96D140)
 #define LIFMGAFOBPC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E96D1A0)
 
+inline static constexpr unsigned int LIFMGAFOBPC_TypeDefinitionIndex = 30948;
+
 	class LIFMGAFOBPC : public ::System::Object
 	{
 	public:

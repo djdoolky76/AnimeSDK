@@ -13,6 +13,8 @@ namespace RPG::Client { class UISetTMPAttribute; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginSDFText_TypeDefinitionIndex = 70107;
+
 	class MonoEffectPluginSDFText : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

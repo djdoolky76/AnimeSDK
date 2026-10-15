@@ -6,6 +6,8 @@ class MFLJIEBFMOF;
 
 #define EOKPCCAIANI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x155C4970)
 
+inline static constexpr unsigned int EOKPCCAIANI_TypeDefinitionIndex = 68937;
+
 	class EOKPCCAIANI : public ::System::Object
 	{
 	public:

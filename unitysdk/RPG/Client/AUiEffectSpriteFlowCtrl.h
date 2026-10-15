@@ -15,6 +15,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AUiEffectSpriteFlowCtrl_TypeDefinitionIndex = 72491;
+
 	class AUiEffectSpriteFlowCtrl : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

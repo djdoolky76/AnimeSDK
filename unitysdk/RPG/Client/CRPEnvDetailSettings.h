@@ -16,6 +16,8 @@ namespace RPG::CustomRP { class WaterSettingsData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CRPEnvDetailSettings_TypeDefinitionIndex = 67929;
+
 	class CRPEnvDetailSettings : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OOPCNPHPMHI_NKOICLEPKFF_OFFSET UNITYSDK_OFFSET(0xBF95820)
 #define OOPCNPHPMHI_OKPBJMMOJHN_OFFSET UNITYSDK_OFFSET(0xBF95630)
 
+inline static constexpr unsigned int OOPCNPHPMHI_TypeDefinitionIndex = 75327;
+
 	class OOPCNPHPMHI : public ::System::Object
 	{
 	public:

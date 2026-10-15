@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define EDHPIGIAOLE_OMBIIFFIKED_CTOR_OFFSET UNITYSDK_OFFSET(0x1331E100)
 
+inline static constexpr unsigned int EDHPIGIAOLE_OMBIIFFIKED_TypeDefinitionIndex = 57407;
+
 	class EDHPIGIAOLE_OMBIIFFIKED : public ::System::Object
 	{
 	public:

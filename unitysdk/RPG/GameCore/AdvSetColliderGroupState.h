@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvSetColliderGroupState_TypeDefinitionIndex = 20532;
+
 	class AdvSetColliderGroupState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define ANIM_JNMBPDMIEOL_OFFSET UNITYSDK_OFFSET(0x15BC4970)
 #define ANIM_MPFAHKMNKOM_OFFSET UNITYSDK_OFFSET(0x15BC4920)
 
+inline static constexpr unsigned int Anim_TypeDefinitionIndex = 47145;
+
 	class Anim : public ::System::Object
 	{
 	public:

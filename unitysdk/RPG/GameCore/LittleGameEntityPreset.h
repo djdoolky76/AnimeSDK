@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameEntityPreset_TypeDefinitionIndex = 18922;
+
 	class LittleGameEntityPreset : public ::RPG::GameCore::JsonConfig
 	{
 	public:

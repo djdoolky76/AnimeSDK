@@ -10,6 +10,8 @@ class DBNNKHADPJG;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BaseLightConeRecommendGuideItem_TypeDefinitionIndex = 65549;
+
 	class BaseLightConeRecommendGuideItem : public ::RPG::Client::BaseGrowthGuideItem
 	{
 	public:

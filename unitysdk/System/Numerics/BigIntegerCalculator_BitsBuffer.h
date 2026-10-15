@@ -19,6 +19,8 @@
 
 namespace System::Numerics
 {
+	inline static constexpr unsigned int BigIntegerCalculator_BitsBuffer_TypeDefinitionIndex = 3838;
+
 	struct alignas(8) BigIntegerCalculator_BitsBuffer
 	{
 		::Il2CppArray<::System::UInt32>* _bits; // 0x10

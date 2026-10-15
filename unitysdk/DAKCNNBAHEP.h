@@ -14,6 +14,8 @@ namespace System::Text { class StringBuilder; }
 #define DAKCNNBAHEP_PRINTMEMBERS_OFFSET UNITYSDK_OFFSET(0x3C522A0)
 #define DAKCNNBAHEP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C52290)
 
+inline static constexpr unsigned int DAKCNNBAHEP_TypeDefinitionIndex = 44194;
+
 	struct alignas(8) DAKCNNBAHEP
 	{
 		::System::String* ELEPDOMDAGA; // 0x10

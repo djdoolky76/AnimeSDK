@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Dll_OnDestroyDelegate_TypeDefinitionIndex = 7942;
+
 	class Dll_OnDestroyDelegate : public ::System::MulticastDelegate
 	{
 	public:

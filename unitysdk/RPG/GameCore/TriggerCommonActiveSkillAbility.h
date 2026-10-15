@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TriggerCommonActiveSkillAbility; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerCommonActiveSkillAbility_TypeDefinitionIndex = 22700;
+
 	class TriggerCommonActiveSkillAbility : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -8,6 +8,8 @@ class HMCDHNKOCGK;
 #define HMCDHNKOCGK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CEC2750)
 #define HMCDHNKOCGK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEC2700)
 
+inline static constexpr unsigned int HMCDHNKOCGK_TypeDefinitionIndex = 19913;
+
 	class HMCDHNKOCGK : public ::RPG::GameCore::SetDynamicValueByPreCalcHPDamage
 	{
 	public:

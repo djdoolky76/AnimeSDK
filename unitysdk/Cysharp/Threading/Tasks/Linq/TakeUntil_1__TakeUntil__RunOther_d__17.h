@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int TakeUntil_1__TakeUntil__RunOther_d__17_TypeDefinitionIndex = 45656;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17>
 	struct alignas(8) TakeUntil_1__TakeUntil__RunOther_d__17
 	{

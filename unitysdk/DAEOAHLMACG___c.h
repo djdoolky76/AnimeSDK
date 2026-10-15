@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DAEOAHLMACG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E14F430)
 #define DAEOAHLMACG___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E14F440)
 
+inline static constexpr unsigned int DAEOAHLMACG___c_TypeDefinitionIndex = 32711;
+
 	class DAEOAHLMACG___c : public ::System::Object
 	{
 	public:

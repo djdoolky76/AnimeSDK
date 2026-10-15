@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ColorGradingMaskWhitelist_StoryCharacter_TypeDefinitionIndex = 48463;
+
 	class ColorGradingMaskWhitelist_StoryCharacter : public ::System::Object
 	{
 	public:

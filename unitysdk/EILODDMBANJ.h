@@ -29,6 +29,8 @@ namespace System { class String; }
 #define EILODDMBANJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2AC340)
 #define EILODDMBANJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2AC3A0)
 
+inline static constexpr unsigned int EILODDMBANJ_TypeDefinitionIndex = 31948;
+
 	class EILODDMBANJ : public ::System::Object
 	{
 	public:

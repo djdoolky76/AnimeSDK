@@ -35,6 +35,8 @@ namespace UnityEngine::UI { class Text; }
 #define MIANKMJALAB_PCKEJOJIOOM_OFFSET UNITYSDK_OFFSET(0xB94CCB0)
 #define MIANKMJALAB__ONBIND_OFFSET UNITYSDK_OFFSET(0xB94BE60)
 
+inline static constexpr unsigned int MIANKMJALAB_TypeDefinitionIndex = 71388;
+
 	class MIANKMJALAB : public ::FMPCODLIOLG
 	{
 	public:

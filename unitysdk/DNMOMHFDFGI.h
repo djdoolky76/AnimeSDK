@@ -6,6 +6,8 @@ class KCLIKAPODAD;
 #define DNMOMHFDFGI_CTOR_OFFSET UNITYSDK_OFFSET(0x11FDA8C0)
 #define DNMOMHFDFGI_JKIBFIBAMKB_OFFSET UNITYSDK_OFFSET(0x11FDA8D0)
 
+inline static constexpr unsigned int DNMOMHFDFGI_TypeDefinitionIndex = 62861;
+
 	class DNMOMHFDFGI : public ::System::Object
 	{
 	public:

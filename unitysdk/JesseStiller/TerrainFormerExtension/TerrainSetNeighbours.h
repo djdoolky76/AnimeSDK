@@ -9,6 +9,8 @@ namespace UnityEngine { class Terrain; }
 
 namespace JesseStiller::TerrainFormerExtension
 {
+	inline static constexpr unsigned int TerrainSetNeighbours_TypeDefinitionIndex = 45972;
+
 	class TerrainSetNeighbours : public ::UnityEngine::MonoBehaviour
 	{
 	public:

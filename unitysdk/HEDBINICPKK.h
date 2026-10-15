@@ -9,6 +9,8 @@ namespace System { class String; }
 #define HEDBINICPKK_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x15C49410)
 #define HEDBINICPKK_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x15C493C0)
 
+inline static constexpr unsigned int HEDBINICPKK_TypeDefinitionIndex = 56678;
+
 	class HEDBINICPKK : public ::System::Object
 	{
 	public:

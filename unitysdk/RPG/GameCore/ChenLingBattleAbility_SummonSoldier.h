@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChenLingBattleEffectConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAbility_SummonSoldier_TypeDefinitionIndex = 15741;
+
 	class ChenLingBattleAbility_SummonSoldier : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
 	public:

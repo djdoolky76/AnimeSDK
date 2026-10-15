@@ -29,6 +29,8 @@ namespace UnityEngine { class Transform; }
 #define CPCJOHMDDFA__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xDCCF600)
 #define CPCJOHMDDFA___ENSURESINGLEBLOCKPANEL_B__9_0_OFFSET UNITYSDK_OFFSET(0xDCCFDD0)
 
+inline static constexpr unsigned int CPCJOHMDDFA_TypeDefinitionIndex = 71766;
+
 	class CPCJOHMDDFA : public ::FMPCODLIOLG
 	{
 	public:

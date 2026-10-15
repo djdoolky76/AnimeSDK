@@ -3,6 +3,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int InputRecord_TypeDefinitionIndex = 457;
+
 	struct alignas(4) InputRecord
 	{
 		::System::Int16 EventType; // 0x10

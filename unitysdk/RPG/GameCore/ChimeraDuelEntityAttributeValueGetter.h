@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelEntityAttributeValueGetter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelEntityAttributeValueGetter_TypeDefinitionIndex = 15923;
+
 	class ChimeraDuelEntityAttributeValueGetter : public ::RPG::GameCore::ChimeraDuelEntityValueGetterBase
 	{
 	public:

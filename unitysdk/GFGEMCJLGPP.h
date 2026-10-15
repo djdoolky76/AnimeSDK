@@ -32,6 +32,8 @@ namespace System { class String; }
 #define GFGEMCJLGPP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E469810)
 #define GFGEMCJLGPP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E469870)
 
+inline static constexpr unsigned int GFGEMCJLGPP_TypeDefinitionIndex = 30841;
+
 	class GFGEMCJLGPP : public ::System::Object
 	{
 	public:

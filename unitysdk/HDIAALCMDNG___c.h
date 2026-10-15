@@ -13,6 +13,8 @@ namespace System { template <typename T> class Func_1; }
 #define HDIAALCMDNG___C___CTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1CABDCA0)
 #define HDIAALCMDNG___C___CTOR_B__18_1_OFFSET UNITYSDK_OFFSET(0x1CABDCD0)
 
+inline static constexpr unsigned int HDIAALCMDNG___c_TypeDefinitionIndex = 42568;
+
 	class HDIAALCMDNG___c : public ::System::Object
 	{
 	public:

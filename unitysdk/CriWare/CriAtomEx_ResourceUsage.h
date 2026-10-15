@@ -3,6 +3,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomEx_ResourceUsage_TypeDefinitionIndex = 39978;
+
 	struct alignas(4) CriAtomEx_ResourceUsage
 	{
 		::System::UInt32 useCount; // 0x10

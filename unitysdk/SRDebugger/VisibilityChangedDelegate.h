@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace SRDebugger
 {
+	inline static constexpr unsigned int VisibilityChangedDelegate_TypeDefinitionIndex = 37965;
+
 	class VisibilityChangedDelegate : public ::System::MulticastDelegate
 	{
 	public:

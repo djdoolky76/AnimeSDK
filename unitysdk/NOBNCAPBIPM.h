@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NOBNCAPBIPM_LLDKMAMCNIA_OFFSET UNITYSDK_OFFSET(0xBCE5740)
 #define NOBNCAPBIPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCE55E0)
 
+inline static constexpr unsigned int NOBNCAPBIPM_TypeDefinitionIndex = 52619;
+
 	class NOBNCAPBIPM
 	{
 	public:

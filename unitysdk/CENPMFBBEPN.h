@@ -7,6 +7,8 @@ class FCOEMCEDLNL;
 #define CENPMFBBEPN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC09C70)
 #define CENPMFBBEPN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC09BD0)
 
+inline static constexpr unsigned int CENPMFBBEPN_TypeDefinitionIndex = 14393;
+
 	class CENPMFBBEPN : public ::System::Object
 	{
 	public:

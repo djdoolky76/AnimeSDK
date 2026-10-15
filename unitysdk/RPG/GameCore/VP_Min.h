@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VP_Min_TypeDefinitionIndex = 24057;
+
 	class VP_Min : public ::RPG::GameCore::ValuePostProcessConfig
 	{
 	public:

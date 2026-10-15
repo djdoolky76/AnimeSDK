@@ -8,6 +8,8 @@ class LABMDIJAHMG;
 #define LABMDIJAHMG_CTOR_OFFSET UNITYSDK_OFFSET(0xB5D81C0)
 #define LABMDIJAHMG_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB5D8130)
 
+inline static constexpr unsigned int LABMDIJAHMG_TypeDefinitionIndex = 65882;
+
 	class LABMDIJAHMG : public ::MLKDDLHNNHH
 	{
 	public:

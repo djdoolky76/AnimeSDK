@@ -41,6 +41,8 @@ namespace System { class Nullable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelGameSessionChimera_TypeDefinitionIndex = 63317;
+
 	class ChimeraDuelGameSessionChimera : public ::System::Object
 	{
 	public:

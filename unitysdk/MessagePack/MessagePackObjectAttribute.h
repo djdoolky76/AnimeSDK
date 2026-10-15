@@ -8,6 +8,8 @@
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MessagePackObjectAttribute_TypeDefinitionIndex = 6166;
+
 	class MessagePackObjectAttribute : public ::System::Attribute
 	{
 	public:

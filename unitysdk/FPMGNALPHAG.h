@@ -14,6 +14,8 @@ class NOBCAKJMGPH;
 #define FPMGNALPHAG_GHBAOILNBJP_OFFSET UNITYSDK_OFFSET(0x1591F4D0)
 #define FPMGNALPHAG_LEAFDECAGPG_OFFSET UNITYSDK_OFFSET(0x1591F460)
 
+inline static constexpr unsigned int FPMGNALPHAG_TypeDefinitionIndex = 62687;
+
 	class FPMGNALPHAG : public ::System::Object
 	{
 	public:

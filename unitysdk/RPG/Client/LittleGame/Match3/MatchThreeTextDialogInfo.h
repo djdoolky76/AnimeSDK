@@ -7,6 +7,8 @@
 
 namespace RPG::Client::LittleGame::Match3
 {
+	inline static constexpr unsigned int MatchThreeTextDialogInfo_TypeDefinitionIndex = 43016;
+
 	class MatchThreeTextDialogInfo : public ::System::Object
 	{
 	public:

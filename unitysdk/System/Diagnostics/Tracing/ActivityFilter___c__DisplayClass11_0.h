@@ -9,6 +9,8 @@ namespace System::Diagnostics::Tracing { class ActivityFilter; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int ActivityFilter___c__DisplayClass11_0_TypeDefinitionIndex = 1698;
+
 	class ActivityFilter___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

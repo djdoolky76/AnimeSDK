@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightDraftSelectAction_TypeDefinitionIndex = 64545;
+
 	class GridFightDraftSelectAction : public ::RPG::Client::GridFightPendingSelectableBaseAction
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int TrackBallParameter_TypeDefinitionIndex = 37794;
+
 	class TrackBallParameter : public ::UnityEngine::Rendering::Vector4Parameter
 	{
 	public:

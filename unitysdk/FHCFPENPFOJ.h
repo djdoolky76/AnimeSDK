@@ -6,6 +6,8 @@
 
 #define FHCFPENPFOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15772FE0)
 
+inline static constexpr unsigned int FHCFPENPFOJ_TypeDefinitionIndex = 55234;
+
 	class FHCFPENPFOJ : public ::System::Object
 	{
 	public:

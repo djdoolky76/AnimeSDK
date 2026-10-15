@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GKMOAKPLBHO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4BA160)
 #define GKMOAKPLBHO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4BA1C0)
 
+inline static constexpr unsigned int GKMOAKPLBHO_TypeDefinitionIndex = 33555;
+
 	class GKMOAKPLBHO : public ::System::Object
 	{
 	public:

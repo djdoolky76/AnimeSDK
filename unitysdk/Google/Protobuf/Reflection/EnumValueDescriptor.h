@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int EnumValueDescriptor_TypeDefinitionIndex = 5534;
+
 	class EnumValueDescriptor : public ::Google::Protobuf::Reflection::DescriptorBase
 	{
 	public:

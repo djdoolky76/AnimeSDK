@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatFriendData_TypeDefinitionIndex = 76074;
+
 	class DiceCombatFriendData : public ::System::Object
 	{
 	public:

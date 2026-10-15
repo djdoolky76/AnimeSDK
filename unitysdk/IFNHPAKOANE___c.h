@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define IFNHPAKOANE___C__CREATEPHASESKILLS_B__1_0_OFFSET UNITYSDK_OFFSET(0x15F26F80)
 #define IFNHPAKOANE___C__CREATEPHASES_B__0_0_OFFSET UNITYSDK_OFFSET(0x15F26F50)
 
+inline static constexpr unsigned int IFNHPAKOANE___c_TypeDefinitionIndex = 66636;
+
 	class IFNHPAKOANE___c : public ::System::Object
 	{
 	public:

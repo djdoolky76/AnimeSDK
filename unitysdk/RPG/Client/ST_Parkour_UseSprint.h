@@ -10,6 +10,8 @@ namespace RPG::Client { class ST_Parkour_UseSprint; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ST_Parkour_UseSprint_TypeDefinitionIndex = 10267;
+
 	class ST_Parkour_UseSprint : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

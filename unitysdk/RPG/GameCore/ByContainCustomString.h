@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByContainCustomString_TypeDefinitionIndex = 23433;
+
 	class ByContainCustomString : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

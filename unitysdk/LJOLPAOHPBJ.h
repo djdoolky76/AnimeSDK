@@ -30,6 +30,8 @@ namespace System { class String; }
 #define LJOLPAOHPBJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E989CF0)
 #define LJOLPAOHPBJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E989D50)
 
+inline static constexpr unsigned int LJOLPAOHPBJ_TypeDefinitionIndex = 27413;
+
 	class LJOLPAOHPBJ : public ::System::Object
 	{
 	public:

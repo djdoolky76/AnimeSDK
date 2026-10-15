@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OEAKPLCANOI___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBDF3AC0)
 #define OEAKPLCANOI___C__DISPLAYCLASS4_0__UPGRADENEXT2DBRICK_B__0_OFFSET UNITYSDK_OFFSET(0xBDFE280)
 
+inline static constexpr unsigned int OEAKPLCANOI___c__DisplayClass4_0_TypeDefinitionIndex = 60403;
+
 	class OEAKPLCANOI___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

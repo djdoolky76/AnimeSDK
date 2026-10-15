@@ -32,6 +32,8 @@ namespace System { class String; }
 #define KGLIOOODBPN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E839890)
 #define KGLIOOODBPN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8398F0)
 
+inline static constexpr unsigned int KGLIOOODBPN_TypeDefinitionIndex = 33164;
+
 	class KGLIOOODBPN : public ::System::Object
 	{
 	public:

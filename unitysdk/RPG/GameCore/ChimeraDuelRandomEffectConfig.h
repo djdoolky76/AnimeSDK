@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelRandomEffectConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelRandomEffectConfig_TypeDefinitionIndex = 16008;
+
 	class ChimeraDuelRandomEffectConfig : public ::RPG::GameCore::ChimeraDuelEffectConfig
 	{
 	public:

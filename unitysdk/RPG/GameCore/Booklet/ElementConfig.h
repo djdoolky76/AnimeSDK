@@ -10,6 +10,8 @@ namespace RPG::GameCore::Booklet { class ElementConfig; }
 
 namespace RPG::GameCore::Booklet
 {
+	inline static constexpr unsigned int ElementConfig_TypeDefinitionIndex = 24963;
+
 	class ElementConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

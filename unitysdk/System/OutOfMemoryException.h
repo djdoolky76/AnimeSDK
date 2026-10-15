@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int OutOfMemoryException_TypeDefinitionIndex = 312;
+
 	class OutOfMemoryException : public ::System::SystemException
 	{
 	public:

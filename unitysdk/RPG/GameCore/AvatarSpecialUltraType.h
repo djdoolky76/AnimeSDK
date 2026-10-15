@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarSpecialUltraType_TypeDefinitionIndex = 12742;
+
 	enum class AvatarSpecialUltraType : ::System::Int32
 	{
 		Normal = 0,

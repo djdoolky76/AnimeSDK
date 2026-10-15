@@ -13,6 +13,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelWaitSecond_TypeDefinitionIndex = 56816;
+
 	class LevelWaitSecond : public ::System::Object
 	{
 	public:

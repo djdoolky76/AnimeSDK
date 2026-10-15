@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DGKFMEELDNN_REMOVE_ONITEMSCHANGED_OFFSET UNITYSDK_OFFSET(0xE84C5C0)
 #define DGKFMEELDNN_REMOVE_ONTABCHANGED_OFFSET UNITYSDK_OFFSET(0xE84C680)
 
+inline static constexpr unsigned int DGKFMEELDNN_TypeDefinitionIndex = 79523;
+
 	class DGKFMEELDNN : public ::System::Object
 	{
 	public:

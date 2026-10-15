@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int ArithmeticException_TypeDefinitionIndex = 195;
+
 	class ArithmeticException : public ::System::SystemException
 	{
 	public:

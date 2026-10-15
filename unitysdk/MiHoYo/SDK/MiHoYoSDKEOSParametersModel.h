@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKEOSParametersModel_TypeDefinitionIndex = 46351;
+
 	class MiHoYoSDKEOSParametersModel : public ::System::Object
 	{
 	public:

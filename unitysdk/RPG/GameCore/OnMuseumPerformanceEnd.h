@@ -10,6 +10,8 @@ namespace RPG::GameCore { class OnMuseumPerformanceEnd; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OnMuseumPerformanceEnd_TypeDefinitionIndex = 20906;
+
 	class OnMuseumPerformanceEnd : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ByCompareRaidFinished; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareRaidFinished_TypeDefinitionIndex = 20797;
+
 	class ByCompareRaidFinished : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

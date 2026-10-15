@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int Attachment_TypeDefinitionIndex = 39650;
+
 	class Attachment : public ::System::Object
 	{
 	public:

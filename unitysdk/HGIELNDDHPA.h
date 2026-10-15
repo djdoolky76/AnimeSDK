@@ -30,6 +30,8 @@ namespace System { class String; }
 #define HGIELNDDHPA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E57AEC0)
 #define HGIELNDDHPA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E57AF20)
 
+inline static constexpr unsigned int HGIELNDDHPA_TypeDefinitionIndex = 25734;
+
 	class HGIELNDDHPA : public ::System::Object
 	{
 	public:

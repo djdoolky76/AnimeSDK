@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define BIDINAPIGNA_LEEPJIGMNDK_OFFSET UNITYSDK_OFFSET(0xB4A3AD0)
 #define BIDINAPIGNA_NODPBIKOJCF_OFFSET UNITYSDK_OFFSET(0xB4A3A10)
 
+inline static constexpr unsigned int BIDINAPIGNA_TypeDefinitionIndex = 77624;
+
 	class BIDINAPIGNA : public ::OCFMCBFNLND
 	{
 	public:

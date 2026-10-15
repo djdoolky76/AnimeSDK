@@ -31,6 +31,8 @@ namespace UnityEngine::UI { class Image; }
 #define NHFNMFHEBKH_SET_INDEX_OFFSET UNITYSDK_OFFSET(0xBBBFF80)
 #define NHFNMFHEBKH__ONBIND_OFFSET UNITYSDK_OFFSET(0xBBBFE00)
 
+inline static constexpr unsigned int NHFNMFHEBKH_TypeDefinitionIndex = 71383;
+
 	class NHFNMFHEBKH : public ::FMPCODLIOLG
 	{
 	public:

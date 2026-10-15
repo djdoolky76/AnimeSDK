@@ -12,6 +12,8 @@ class OKKMDOPFCPA;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginFiveDimFeature_TypeDefinitionIndex = 70060;
+
 	class MonoEffectPluginFiveDimFeature : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

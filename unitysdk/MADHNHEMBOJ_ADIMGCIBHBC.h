@@ -6,6 +6,8 @@
 
 #define MADHNHEMBOJ_ADIMGCIBHBC_CTOR_OFFSET UNITYSDK_OFFSET(0xB847E40)
 
+inline static constexpr unsigned int MADHNHEMBOJ_ADIMGCIBHBC_TypeDefinitionIndex = 71204;
+
 	class MADHNHEMBOJ_ADIMGCIBHBC : public ::System::Object
 	{
 	public:

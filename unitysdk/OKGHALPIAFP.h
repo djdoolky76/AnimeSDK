@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OKGHALPIAFP_MHLCGIGHLEJ_OFFSET UNITYSDK_OFFSET(0xBED8DF0)
 #define OKGHALPIAFP_PAELAGGABMK_OFFSET UNITYSDK_OFFSET(0xBED8750)
 
+inline static constexpr unsigned int OKGHALPIAFP_TypeDefinitionIndex = 77905;
+
 	class OKGHALPIAFP : public ::JNALBIEDNLH
 	{
 	public:

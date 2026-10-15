@@ -19,6 +19,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::HimekoNovaSpecialSkill
 {
+	inline static constexpr unsigned int HimekoNovaSpecialSkillAvatarControl_TypeDefinitionIndex = 80486;
+
 	class HimekoNovaSpecialSkillAvatarControl : public ::Sofa::BaseSofaControl
 	{
 	public:

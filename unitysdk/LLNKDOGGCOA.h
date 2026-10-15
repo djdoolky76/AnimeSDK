@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define LLNKDOGGCOA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9109C0)
 
+inline static constexpr unsigned int LLNKDOGGCOA_TypeDefinitionIndex = 43707;
+
 	class LLNKDOGGCOA : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SteamDelegate_GetNickNameDelegate_TypeDefinitionIndex = 7699;
+
 	class SteamDelegate_GetNickNameDelegate : public ::System::MulticastDelegate
 	{
 	public:

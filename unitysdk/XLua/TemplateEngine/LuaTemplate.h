@@ -21,6 +21,8 @@ namespace XLua::TemplateEngine { class Chunk; }
 
 namespace XLua::TemplateEngine
 {
+	inline static constexpr unsigned int LuaTemplate_TypeDefinitionIndex = 50290;
+
 	class LuaTemplate : public ::System::Object
 	{
 	public:

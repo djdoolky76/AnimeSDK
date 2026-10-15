@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define GJANKOEDMLL___REFRESHSKILLPRELOADTYPECOROUTINE_D__0_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x15A58F50)
 #define GJANKOEDMLL___REFRESHSKILLPRELOADTYPECOROUTINE_D__0_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15A58EC0)
 
+inline static constexpr unsigned int GJANKOEDMLL___RefreshSkillPreloadTypeCoroutine_d__0_TypeDefinitionIndex = 73262;
+
 	class GJANKOEDMLL___RefreshSkillPreloadTypeCoroutine_d__0 : public ::System::Object
 	{
 	public:

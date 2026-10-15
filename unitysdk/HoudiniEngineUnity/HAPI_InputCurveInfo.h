@@ -9,6 +9,8 @@ namespace HoudiniEngineUnity { class HEU_InputCurveInfo; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HAPI_InputCurveInfo_TypeDefinitionIndex = 40515;
+
 	struct alignas(4) HAPI_InputCurveInfo
 	{
 		::HoudiniEngineUnity::HAPI_CurveType curveType; // 0x10

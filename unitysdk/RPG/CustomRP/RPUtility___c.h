@@ -13,6 +13,8 @@ namespace System::Reflection { class Assembly; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPUtility___c_TypeDefinitionIndex = 37899;
+
 	class RPUtility___c : public ::System::Object
 	{
 	public:

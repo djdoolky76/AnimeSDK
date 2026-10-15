@@ -8,6 +8,8 @@ namespace RPG::Client { class RogueTournPersonaRoomCardDeckInfo; }
 #define CEAOIDGKIEE_CTOR_OFFSET UNITYSDK_OFFSET(0xC77B060)
 #define CEAOIDGKIEE_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0xC77B070)
 
+inline static constexpr unsigned int CEAOIDGKIEE_TypeDefinitionIndex = 67106;
+
 	class CEAOIDGKIEE : public ::OBDGDODGFAM
 	{
 	public:

@@ -7,6 +7,8 @@
 #define OLAENLNPDOP_CTOR_OFFSET UNITYSDK_OFFSET(0xBEFF490)
 #define OLAENLNPDOP_FLGIGFHKFFA_OFFSET UNITYSDK_OFFSET(0xBEFF1C0)
 
+inline static constexpr unsigned int OLAENLNPDOP_TypeDefinitionIndex = 64936;
+
 	class OLAENLNPDOP : public ::BOIKIMJHDHK
 	{
 	public:

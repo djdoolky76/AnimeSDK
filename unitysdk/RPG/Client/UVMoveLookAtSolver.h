@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UVMoveLookAtSolver_TypeDefinitionIndex = 70275;
+
 	class UVMoveLookAtSolver : public ::System::Object
 	{
 	public:

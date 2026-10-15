@@ -6,6 +6,8 @@ class GKPDKBNFDGM;
 #define MNLOLJGJGIJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBA161F0)
 #define MNLOLJGJGIJ_MJEGFOMAOFH_OFFSET UNITYSDK_OFFSET(0xBA16180)
 
+inline static constexpr unsigned int MNLOLJGJGIJ_TypeDefinitionIndex = 61950;
+
 	class MNLOLJGJGIJ : public ::System::Object
 	{
 	public:

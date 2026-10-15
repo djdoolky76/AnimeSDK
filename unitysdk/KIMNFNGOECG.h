@@ -5,6 +5,8 @@ namespace RPG::GameCore { class FiveDimScrollViewConfig; }
 
 #define KIMNFNGOECG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C901220)
 
+inline static constexpr unsigned int KIMNFNGOECG_TypeDefinitionIndex = 43364;
+
 	class KIMNFNGOECG : public ::System::Object
 	{
 	public:

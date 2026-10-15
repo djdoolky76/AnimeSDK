@@ -18,6 +18,8 @@ namespace UnityEngine { class Rigidbody; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SealPoolManager_TypeDefinitionIndex = 60423;
+
 	class SealPoolManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

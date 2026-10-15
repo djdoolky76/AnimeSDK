@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EnablePerformanceMode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnablePerformanceMode_TypeDefinitionIndex = 21580;
+
 	class EnablePerformanceMode : public ::RPG::GameCore::TaskConfig
 	{
 	public:

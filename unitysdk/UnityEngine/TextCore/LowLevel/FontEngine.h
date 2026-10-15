@@ -47,6 +47,8 @@ namespace UnityEngine::TextCore { class Glyph; }
 
 namespace UnityEngine::TextCore::LowLevel
 {
+	inline static constexpr unsigned int FontEngine_TypeDefinitionIndex = 5850;
+
 	class FontEngine : public ::System::Object
 	{
 	public:

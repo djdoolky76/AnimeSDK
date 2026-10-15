@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionOnEnterLayerConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionOnEnterLayerConfig_TypeDefinitionIndex = 17683;
+
 	class RogueModifierExecuteActionOnEnterLayerConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

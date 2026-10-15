@@ -11,6 +11,8 @@ namespace Cinemachine { class CinemachineVirtualCameraBase; }
 #define CINEMACHINERECOMPOSER_PREPIPELINEMUTATECAMERASTATECALLBACK_OFFSET UNITYSDK_OFFSET(0x166B5F30)
 #define CINEMACHINERECOMPOSER_RESET_OFFSET UNITYSDK_OFFSET(0x166B5EB0)
 
+inline static constexpr unsigned int CinemachineRecomposer_TypeDefinitionIndex = 39712;
+
 	class CinemachineRecomposer : public ::Cinemachine::CinemachineExtension
 	{
 	public:

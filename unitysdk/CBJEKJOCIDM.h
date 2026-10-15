@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CBJEKJOCIDM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E06C900)
 #define CBJEKJOCIDM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E06C960)
 
+inline static constexpr unsigned int CBJEKJOCIDM_TypeDefinitionIndex = 32364;
+
 	class CBJEKJOCIDM : public ::System::Object
 	{
 	public:

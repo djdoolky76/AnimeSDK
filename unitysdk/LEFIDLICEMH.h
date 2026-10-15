@@ -35,6 +35,8 @@ namespace System { class String; }
 #define LEFIDLICEMH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9289C0)
 #define LEFIDLICEMH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E928A20)
 
+inline static constexpr unsigned int LEFIDLICEMH_TypeDefinitionIndex = 27957;
+
 	class LEFIDLICEMH : public ::System::Object
 	{
 	public:

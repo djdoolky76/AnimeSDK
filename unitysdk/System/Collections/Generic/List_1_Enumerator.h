@@ -4,6 +4,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int List_1_Enumerator_TypeDefinitionIndex = 1571;
+
 	template <typename T>
 	struct alignas(8) List_1_Enumerator
 	{

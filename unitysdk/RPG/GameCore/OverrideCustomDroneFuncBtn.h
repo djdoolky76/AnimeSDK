@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OverrideCustomDroneFuncBtn_TypeDefinitionIndex = 22136;
+
 	class OverrideCustomDroneFuncBtn : public ::RPG::GameCore::TaskConfig
 	{
 	public:

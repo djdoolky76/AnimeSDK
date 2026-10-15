@@ -5,6 +5,8 @@
 
 #define OOMEABJAGJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9A0B50)
 
+inline static constexpr unsigned int OOMEABJAGJE_TypeDefinitionIndex = 42374;
+
 	class OOMEABJAGJE : public ::System::Object
 	{
 	public:

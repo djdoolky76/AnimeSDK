@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define DFBCDLJPNLA_CREATETRAITS_OFFSET UNITYSDK_OFFSET(0xE822810)
 #define DFBCDLJPNLA_CTOR_OFFSET UNITYSDK_OFFSET(0xE8228D0)
 
+inline static constexpr unsigned int DFBCDLJPNLA_TypeDefinitionIndex = 65111;
+
 	class DFBCDLJPNLA : public ::RPG::Client::GridFightRole_GridFightRoleBuilder
 	{
 	public:

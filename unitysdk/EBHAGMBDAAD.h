@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EBHAGMBDAAD_ODBJPBFIHPE_OFFSET UNITYSDK_OFFSET(0x12CF1C90)
 #define EBHAGMBDAAD_OIMOLGCPEEM_OFFSET UNITYSDK_OFFSET(0x12CF2050)
 
+inline static constexpr unsigned int EBHAGMBDAAD_TypeDefinitionIndex = 49314;
+
 	class EBHAGMBDAAD : public ::HHJGACLHFDJ
 	{
 	public:

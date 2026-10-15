@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 #define STATESPREADCONTROL_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xE998830)
 #define STATESPREADCONTROL_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE998940)
 
+inline static constexpr unsigned int StateSpreadControl_TypeDefinitionIndex = 47625;
+
 	class StateSpreadControl : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:

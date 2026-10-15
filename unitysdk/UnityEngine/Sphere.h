@@ -4,6 +4,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Sphere_TypeDefinitionIndex = 4099;
+
 	struct alignas(4) Sphere
 	{
 		::UnityEngine::Vector3 Center; // 0x10

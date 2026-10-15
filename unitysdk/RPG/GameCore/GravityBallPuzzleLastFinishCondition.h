@@ -12,6 +12,8 @@ namespace RPG::GameCore { class GravityBallPuzzleLastFinishCondition; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GravityBallPuzzleLastFinishCondition_TypeDefinitionIndex = 20382;
+
 	class GravityBallPuzzleLastFinishCondition : public ::RPG::GameCore::TaskConfig
 	{
 	public:

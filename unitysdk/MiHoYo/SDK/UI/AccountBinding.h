@@ -42,6 +42,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::UI
 {
+	inline static constexpr unsigned int AccountBinding_TypeDefinitionIndex = 8373;
+
 	class AccountBinding : public ::MiHoYo::SDK::UIElement
 	{
 	public:

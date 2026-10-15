@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPGTools::Timeline::Discussion
 {
+	inline static constexpr unsigned int StandTemplateUsageInfo___c_TypeDefinitionIndex = 48780;
+
 	class StandTemplateUsageInfo___c : public ::System::Object
 	{
 	public:

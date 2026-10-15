@@ -33,6 +33,8 @@ namespace System { class String; }
 #define EJJNPDFPIAP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2BA580)
 #define EJJNPDFPIAP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2BA5E0)
 
+inline static constexpr unsigned int EJJNPDFPIAP_TypeDefinitionIndex = 34113;
+
 	class EJJNPDFPIAP : public ::System::Object
 	{
 	public:

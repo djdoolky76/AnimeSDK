@@ -11,6 +11,8 @@ namespace UnityEngine { class Mesh; }
 #define SHADERPERFTESTIRI_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xE9696B0)
 #define SHADERPERFTESTIRI_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE968DE0)
 
+inline static constexpr unsigned int ShaderPerfTestIRI_TypeDefinitionIndex = 47404;
+
 	class ShaderPerfTestIRI : public ::UnityEngine::MonoBehaviour
 	{
 	public:

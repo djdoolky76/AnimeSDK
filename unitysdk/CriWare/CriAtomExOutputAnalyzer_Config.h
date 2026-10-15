@@ -3,6 +3,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExOutputAnalyzer_Config_TypeDefinitionIndex = 40047;
+
 	struct alignas(4) CriAtomExOutputAnalyzer_Config
 	{
 		::System::Boolean enableLevelmeter; // 0x10

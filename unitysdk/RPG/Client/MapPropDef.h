@@ -142,6 +142,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MapPropDef_TypeDefinitionIndex = 62135;
+
 	class MapPropDef : public ::RPG::Client::MapEntityDef
 	{
 	public:

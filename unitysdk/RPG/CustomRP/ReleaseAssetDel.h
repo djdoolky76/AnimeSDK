@@ -13,6 +13,8 @@ namespace UnityEngine { class Object; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ReleaseAssetDel_TypeDefinitionIndex = 37897;
+
 	class ReleaseAssetDel : public ::System::MulticastDelegate
 	{
 	public:

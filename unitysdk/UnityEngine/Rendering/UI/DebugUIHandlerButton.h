@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace UnityEngine::Rendering::UI
 {
+	inline static constexpr unsigned int DebugUIHandlerButton_TypeDefinitionIndex = 35673;
+
 	class DebugUIHandlerButton : public ::UnityEngine::Rendering::UI::DebugUIHandlerWidget
 	{
 	public:

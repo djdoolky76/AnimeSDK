@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LMBHBNPPLEL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB77A1B0)
 #define LMBHBNPPLEL_IILMFPPOAKP_OFFSET UNITYSDK_OFFSET(0xB77A250)
 
+inline static constexpr unsigned int LMBHBNPPLEL_TypeDefinitionIndex = 77390;
+
 	class LMBHBNPPLEL : public ::System::Object
 	{
 	public:

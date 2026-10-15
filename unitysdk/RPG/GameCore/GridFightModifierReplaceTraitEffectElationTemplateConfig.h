@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierReplaceTraitEffectElationTempla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierReplaceTraitEffectElationTemplateConfig_TypeDefinitionIndex = 19489;
+
 	class GridFightModifierReplaceTraitEffectElationTemplateConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine { class Animation; }
 #define CKFEAPMJFCI_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xD7598A0)
 #define CKFEAPMJFCI__ONBIND_OFFSET UNITYSDK_OFFSET(0xD7596E0)
 
+inline static constexpr unsigned int CKFEAPMJFCI_TypeDefinitionIndex = 71790;
+
 	class CKFEAPMJFCI : public ::FMPCODLIOLG
 	{
 	public:

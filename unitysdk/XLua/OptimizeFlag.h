@@ -3,6 +3,8 @@
 
 namespace XLua
 {
+	inline static constexpr unsigned int OptimizeFlag_TypeDefinitionIndex = 5607;
+
 	enum class OptimizeFlag : ::System::Int32
 	{
 		Default = 0,

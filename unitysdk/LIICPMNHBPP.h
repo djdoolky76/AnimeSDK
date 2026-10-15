@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class SortedSet_1
 #define LIICPMNHBPP_JOKOJFMPCJI_OFFSET UNITYSDK_OFFSET(0xB6D28F0)
 #define LIICPMNHBPP_NCGCEKIGKBD_OFFSET UNITYSDK_OFFSET(0xB6D1C10)
 
+inline static constexpr unsigned int LIICPMNHBPP_TypeDefinitionIndex = 66898;
+
 	class LIICPMNHBPP : public ::GOMOGGFKHFL
 	{
 	public:

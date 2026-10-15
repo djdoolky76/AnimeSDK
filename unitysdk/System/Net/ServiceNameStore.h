@@ -9,6 +9,8 @@ namespace System::Security::Authentication::ExtendedProtection { class ServiceNa
 
 namespace System::Net
 {
+	inline static constexpr unsigned int ServiceNameStore_TypeDefinitionIndex = 2783;
+
 	class ServiceNameStore : public ::System::Object
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define HNEBODEBELG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5DBE10)
 #define HNEBODEBELG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5DBE70)
 
+inline static constexpr unsigned int HNEBODEBELG_TypeDefinitionIndex = 27810;
+
 	class HNEBODEBELG : public ::System::Object
 	{
 	public:

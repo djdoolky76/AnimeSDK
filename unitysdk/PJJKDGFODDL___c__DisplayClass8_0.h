@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define PJJKDGFODDL___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC290510)
 #define PJJKDGFODDL___C__DISPLAYCLASS8_0___TRYSPAWNGUESTPET_B__0_OFFSET UNITYSDK_OFFSET(0xC296060)
 
+inline static constexpr unsigned int PJJKDGFODDL___c__DisplayClass8_0_TypeDefinitionIndex = 75641;
+
 	class PJJKDGFODDL___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

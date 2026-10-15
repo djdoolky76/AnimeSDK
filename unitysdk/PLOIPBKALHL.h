@@ -9,6 +9,8 @@ namespace UnityEngine { class Animation; }
 #define PLOIPBKALHL_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xC30CF80)
 #define PLOIPBKALHL__ONBIND_OFFSET UNITYSDK_OFFSET(0xC30CBE0)
 
+inline static constexpr unsigned int PLOIPBKALHL_TypeDefinitionIndex = 72174;
+
 	class PLOIPBKALHL : public ::FMPCODLIOLG
 	{
 	public:

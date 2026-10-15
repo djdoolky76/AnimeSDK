@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RtSkillReturnToken; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtSkillReturnToken_TypeDefinitionIndex = 24219;
+
 	class RtSkillReturnToken : public ::RPG::GameCore::TaskConfig
 	{
 	public:

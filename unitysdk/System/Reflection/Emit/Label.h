@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace System::Reflection::Emit
 {
+	inline static constexpr unsigned int Label_TypeDefinitionIndex = 648;
+
 	struct alignas(4) Label
 	{
 		::System::Int32 label; // 0x10

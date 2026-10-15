@@ -9,6 +9,8 @@ namespace RPG::Client { class UIController; }
 #define ALCCPLJJOOE_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x15561B30)
 #define ALCCPLJJOOE_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x155617E0)
 
+inline static constexpr unsigned int ALCCPLJJOOE_TypeDefinitionIndex = 77942;
+
 	class ALCCPLJJOOE : public ::System::Object
 	{
 	public:

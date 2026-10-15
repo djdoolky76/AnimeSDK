@@ -4,6 +4,8 @@
 
 #define NKAKKMMLOPA_CTOR_OFFSET UNITYSDK_OFFSET(0xBC2DB30)
 
+inline static constexpr unsigned int NKAKKMMLOPA_TypeDefinitionIndex = 47446;
+
 	class NKAKKMMLOPA : public ::System::Object
 	{
 	public:

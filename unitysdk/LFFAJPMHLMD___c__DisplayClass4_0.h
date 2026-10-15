@@ -6,6 +6,8 @@ class CBHMKEHIDCA;
 #define LFFAJPMHLMD___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC85DE0)
 #define LFFAJPMHLMD___C__DISPLAYCLASS4_0___ONTICKIMPLEMENT_B__0_OFFSET UNITYSDK_OFFSET(0x1EC864F0)
 
+inline static constexpr unsigned int LFFAJPMHLMD___c__DisplayClass4_0_TypeDefinitionIndex = 44204;
+
 	class LFFAJPMHLMD___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

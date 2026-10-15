@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RollShowRewardCaseContainer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RollShowRewardCaseContainer_TypeDefinitionIndex = 17537;
+
 	class RollShowRewardCaseContainer : public ::RPG::GameCore::CaseContainerBase
 	{
 	public:

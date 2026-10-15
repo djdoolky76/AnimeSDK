@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TimeRelayFlameSetSpecialFinalLevel; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimeRelayFlameSetSpecialFinalLevel_TypeDefinitionIndex = 22040;
+
 	class TimeRelayFlameSetSpecialFinalLevel : public ::RPG::GameCore::TaskConfig
 	{
 	public:

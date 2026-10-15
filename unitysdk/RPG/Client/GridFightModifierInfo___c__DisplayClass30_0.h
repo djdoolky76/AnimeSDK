@@ -8,6 +8,8 @@ class HEBDCPNECAD;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightModifierInfo___c__DisplayClass30_0_TypeDefinitionIndex = 65049;
+
 	class GridFightModifierInfo___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:

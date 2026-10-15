@@ -15,6 +15,8 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int MonoFiveDimCameraGamepadInput_TypeDefinitionIndex = 77232;
+
 	class MonoFiveDimCameraGamepadInput : public ::UnityEngine::MonoBehaviour
 	{
 	public:

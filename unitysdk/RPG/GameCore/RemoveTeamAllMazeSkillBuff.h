@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RemoveTeamAllMazeSkillBuff; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveTeamAllMazeSkillBuff_TypeDefinitionIndex = 22239;
+
 	class RemoveTeamAllMazeSkillBuff : public ::RPG::GameCore::TaskConfig
 	{
 	public:

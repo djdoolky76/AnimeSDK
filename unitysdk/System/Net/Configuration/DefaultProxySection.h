@@ -10,6 +10,8 @@ namespace System::Configuration { class ConfigurationPropertyCollection; }
 
 namespace System::Net::Configuration
 {
+	inline static constexpr unsigned int DefaultProxySection_TypeDefinitionIndex = 3078;
+
 	class DefaultProxySection : public ::System::Configuration::ConfigurationSection
 	{
 	public:

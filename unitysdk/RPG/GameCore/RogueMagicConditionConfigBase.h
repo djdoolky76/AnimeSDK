@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueMagicConditionConfigBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueMagicConditionConfigBase_TypeDefinitionIndex = 19575;
+
 	class RogueMagicConditionConfigBase : public ::RPG::GameCore::RogueConditionConfigBase
 	{
 	public:

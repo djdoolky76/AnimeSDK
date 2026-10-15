@@ -58,6 +58,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FightFestChallengeLevelData_TypeDefinitionIndex = 64173;
+
 	class FightFestChallengeLevelData : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class RedDotGraphConfig; }
 #define GGDOIOHKOGJ_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x15A03190)
 #define GGDOIOHKOGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15A03230)
 
+inline static constexpr unsigned int GGDOIOHKOGJ_TypeDefinitionIndex = 79165;
+
 	class GGDOIOHKOGJ : public ::System::Object
 	{
 	public:

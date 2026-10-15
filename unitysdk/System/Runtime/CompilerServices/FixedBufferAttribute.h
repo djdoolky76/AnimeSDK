@@ -9,6 +9,8 @@ namespace System { class Type; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int FixedBufferAttribute_TypeDefinitionIndex = 1386;
+
 	class FixedBufferAttribute : public ::System::Attribute
 	{
 	public:

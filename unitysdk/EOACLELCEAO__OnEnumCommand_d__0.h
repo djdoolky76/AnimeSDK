@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define EOACLELCEAO__ONENUMCOMMAND_D__0_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x155B7B00)
 #define EOACLELCEAO__ONENUMCOMMAND_D__0_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x155B7AB0)
 
+inline static constexpr unsigned int EOACLELCEAO__OnEnumCommand_d__0_TypeDefinitionIndex = 82266;
+
 	class EOACLELCEAO__OnEnumCommand_d__0 : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DOPPLDOEKFA_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0x11FF7EF0)
 #define DOPPLDOEKFA_SET_ACTIVEPROCESSOR_OFFSET UNITYSDK_OFFSET(0x11FF8520)
 
+inline static constexpr unsigned int DOPPLDOEKFA_TypeDefinitionIndex = 55625;
+
 	class DOPPLDOEKFA : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int MadCatzCTRLRAmazonUnityProfile_TypeDefinitionIndex = 40930;
+
 	class MadCatzCTRLRAmazonUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

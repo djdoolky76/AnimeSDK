@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int KKBNKEKDPFM_TypeDefinitionIndex = 30795;
+
 	enum class KKBNKEKDPFM : ::System::Int32
 	{
 		BIFLGLFOBBM = 0,

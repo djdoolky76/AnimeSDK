@@ -5,6 +5,8 @@
 
 #define NAKGBEJLKDO_CCTOR_OFFSET UNITYSDK_OFFSET(0xBAA3640)
 
+inline static constexpr unsigned int NAKGBEJLKDO_TypeDefinitionIndex = 61050;
+
 	class NAKGBEJLKDO : public ::System::Object
 	{
 	public:

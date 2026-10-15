@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define JKMNACEOGKC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB223EF0)
 #define JKMNACEOGKC_TICK_OFFSET UNITYSDK_OFFSET(0xB224170)
 
+inline static constexpr unsigned int JKMNACEOGKC_TypeDefinitionIndex = 58961;
+
 	class JKMNACEOGKC : public ::GELIALJDFBL
 	{
 	public:

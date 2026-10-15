@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Scene_InstanceArrayBehavior_CDGNMJELOMM_TypeDefinitionIndex = 70846;
+
 	struct alignas(4) Scene_InstanceArrayBehavior_CDGNMJELOMM
 	{
 		::System::Int32 EANDBJKBOHB; // 0x10

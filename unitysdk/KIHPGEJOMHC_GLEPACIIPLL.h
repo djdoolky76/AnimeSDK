@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int KIHPGEJOMHC_GLEPACIIPLL_TypeDefinitionIndex = 53089;
+
 	struct alignas(4) KIHPGEJOMHC_GLEPACIIPLL
 	{
 		::System::Single ACINEFFNDJD; // 0x10

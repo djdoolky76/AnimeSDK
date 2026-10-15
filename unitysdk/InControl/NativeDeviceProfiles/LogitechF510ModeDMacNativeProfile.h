@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int LogitechF510ModeDMacNativeProfile_TypeDefinitionIndex = 41260;
+
 	class LogitechF510ModeDMacNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int UVEditing___c__DisplayClass4_0_TypeDefinitionIndex = 44522;
+
 	class UVEditing___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

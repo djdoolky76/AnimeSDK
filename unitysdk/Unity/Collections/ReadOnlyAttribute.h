@@ -6,6 +6,8 @@
 
 namespace Unity::Collections
 {
+	inline static constexpr unsigned int ReadOnlyAttribute_TypeDefinitionIndex = 3979;
+
 	class ReadOnlyAttribute : public ::System::Attribute
 	{
 	public:

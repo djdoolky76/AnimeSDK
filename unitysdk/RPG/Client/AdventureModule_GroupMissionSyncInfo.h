@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AdventureModule_GroupMissionSyncInfo_TypeDefinitionIndex = 62009;
+
 	class AdventureModule_GroupMissionSyncInfo : public ::System::Object
 	{
 	public:

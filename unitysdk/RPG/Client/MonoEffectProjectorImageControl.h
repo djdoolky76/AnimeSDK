@@ -10,6 +10,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectProjectorImageControl_TypeDefinitionIndex = 70737;
+
 	class MonoEffectProjectorImageControl
 	{
 	public:

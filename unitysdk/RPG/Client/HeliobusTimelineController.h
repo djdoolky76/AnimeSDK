@@ -23,6 +23,8 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HeliobusTimelineController_TypeDefinitionIndex = 72806;
+
 	class HeliobusTimelineController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

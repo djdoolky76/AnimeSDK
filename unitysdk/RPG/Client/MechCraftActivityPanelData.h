@@ -18,6 +18,8 @@ class KNMJJHEKJDI;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MechCraftActivityPanelData_TypeDefinitionIndex = 61640;
+
 	class MechCraftActivityPanelData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerRemoteControllerComponent_TypeDefinitionIndex = 57658;
+
 	class PlayerRemoteControllerComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

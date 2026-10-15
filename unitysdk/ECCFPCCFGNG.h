@@ -15,6 +15,8 @@ namespace System { class String; }
 #define ECCFPCCFGNG_SET_PRODUCTPORTRAITPATH_OFFSET UNITYSDK_OFFSET(0x12D08570)
 #define ECCFPCCFGNG_SET_PRODUCTSTATS_OFFSET UNITYSDK_OFFSET(0x12D08590)
 
+inline static constexpr unsigned int ECCFPCCFGNG_TypeDefinitionIndex = 80188;
+
 	class ECCFPCCFGNG : public ::System::Object
 	{
 	public:

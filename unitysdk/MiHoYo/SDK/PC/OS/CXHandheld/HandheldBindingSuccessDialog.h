@@ -20,6 +20,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int HandheldBindingSuccessDialog_TypeDefinitionIndex = 8805;
+
 	class HandheldBindingSuccessDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:

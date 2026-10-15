@@ -31,6 +31,8 @@ namespace System { class String; }
 #define LNAAACICHPG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9AF970)
 #define LNAAACICHPG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9AF9D0)
 
+inline static constexpr unsigned int LNAAACICHPG_TypeDefinitionIndex = 26631;
+
 	class LNAAACICHPG : public ::System::Object
 	{
 	public:

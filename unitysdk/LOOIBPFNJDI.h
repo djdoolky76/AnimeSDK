@@ -6,6 +6,8 @@ namespace System { class Nullable; }
 #define LOOIBPFNJDI_CLEAR_OFFSET UNITYSDK_OFFSET(0xB811730)
 #define LOOIBPFNJDI_CTOR_OFFSET UNITYSDK_OFFSET(0xB811780)
 
+inline static constexpr unsigned int LOOIBPFNJDI_TypeDefinitionIndex = 48427;
+
 	class LOOIBPFNJDI : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ class IBIIMGJDFOC;
 #define IBIIMGJDFOC___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15E39B20)
 #define IBIIMGJDFOC___C__DISPLAYCLASS21_0__ONDETAILCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x15E3A6C0)
 
+inline static constexpr unsigned int IBIIMGJDFOC___c__DisplayClass21_0_TypeDefinitionIndex = 71278;
+
 	class IBIIMGJDFOC___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

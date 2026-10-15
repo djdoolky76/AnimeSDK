@@ -21,6 +21,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int RasterState_TypeDefinitionIndex = 4759;
+
 	struct alignas(4) RasterState
 	{
 		::UnityEngine::Rendering::CullMode m_CullingMode; // 0x10

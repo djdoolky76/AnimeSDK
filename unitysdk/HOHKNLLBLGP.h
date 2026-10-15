@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TriggerStanceCountDown; }
 #define HOHKNLLBLGP_GAAPHGOIMOD_OFFSET UNITYSDK_OFFSET(0x15DB7440)
 #define HOHKNLLBLGP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15DB72A0)
 
+inline static constexpr unsigned int HOHKNLLBLGP_TypeDefinitionIndex = 55767;
+
 	class HOHKNLLBLGP
 	{
 	public:

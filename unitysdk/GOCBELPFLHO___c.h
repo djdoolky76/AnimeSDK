@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GOCBELPFLHO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4EA9A0)
 #define GOCBELPFLHO___C___CCTOR_B__103_0_OFFSET UNITYSDK_OFFSET(0x1E4EA9B0)
 
+inline static constexpr unsigned int GOCBELPFLHO___c_TypeDefinitionIndex = 35144;
+
 	class GOCBELPFLHO___c : public ::System::Object
 	{
 	public:

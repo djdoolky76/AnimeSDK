@@ -3,6 +3,8 @@
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinCenterStyle_TypeDefinitionIndex = 80857;
+
 	enum class FateRinCenterStyle : ::System::Int32
 	{
 		Number = 1,

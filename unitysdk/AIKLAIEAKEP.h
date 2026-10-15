@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+inline static constexpr unsigned int AIKLAIEAKEP_TypeDefinitionIndex = 75621;
+
 	class AIKLAIEAKEP : public ::System::Object
 	{
 	public:

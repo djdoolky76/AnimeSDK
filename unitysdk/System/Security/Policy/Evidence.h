@@ -15,6 +15,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace System::Security::Policy
 {
+	inline static constexpr unsigned int Evidence_TypeDefinitionIndex = 957;
+
 	class Evidence : public ::System::Object
 	{
 	public:

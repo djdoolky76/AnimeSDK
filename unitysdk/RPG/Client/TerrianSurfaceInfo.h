@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TerrianSurfaceInfo_TypeDefinitionIndex = 68871;
+
 	class TerrianSurfaceInfo : public ::System::Object
 	{
 	public:

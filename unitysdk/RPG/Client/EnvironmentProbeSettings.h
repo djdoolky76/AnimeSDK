@@ -5,6 +5,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EnvironmentProbeSettings_TypeDefinitionIndex = 69775;
+
 	struct alignas(8) EnvironmentProbeSettings
 	{
 		::System::String* ReflectionProbePath; // 0x10

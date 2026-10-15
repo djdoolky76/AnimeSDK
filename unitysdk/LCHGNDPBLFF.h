@@ -6,6 +6,8 @@ class LBJLBMOOJGM;
 #define LCHGNDPBLFF_CTOR_OFFSET UNITYSDK_OFFSET(0xB6153B0)
 #define LCHGNDPBLFF_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xB615320)
 
+inline static constexpr unsigned int LCHGNDPBLFF_TypeDefinitionIndex = 62145;
+
 	class LCHGNDPBLFF : public ::System::Object
 	{
 	public:

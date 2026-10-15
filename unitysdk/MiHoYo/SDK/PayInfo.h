@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PayInfo_TypeDefinitionIndex = 7589;
+
 	class PayInfo : public ::System::Object
 	{
 	public:

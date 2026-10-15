@@ -20,6 +20,8 @@ namespace UnityEngine::Timeline { class PrefabControlPlayable; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int PrefabControlPlayable_TypeDefinitionIndex = 38849;
+
 	class PrefabControlPlayable : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

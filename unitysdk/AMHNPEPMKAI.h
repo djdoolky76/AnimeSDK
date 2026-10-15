@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define AMHNPEPMKAI_JCCLKHNHNIF_OFFSET UNITYSDK_OFFSET(0x155808C0)
 #define AMHNPEPMKAI__CREATE_B__1_3_OFFSET UNITYSDK_OFFSET(0x15581410)
 
+inline static constexpr unsigned int AMHNPEPMKAI_TypeDefinitionIndex = 74933;
+
 	class AMHNPEPMKAI : public ::System::Object
 	{
 	public:

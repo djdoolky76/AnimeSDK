@@ -7,6 +7,8 @@ class HEKHCLACHJE;
 #define HHAJMHBECLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15CB3FC0)
 #define HHAJMHBECLJ_GET_DELTA_OFFSET UNITYSDK_OFFSET(0x15CB3FB0)
 
+inline static constexpr unsigned int HHAJMHBECLJ_TypeDefinitionIndex = 79803;
+
 	class HHAJMHBECLJ : public ::System::Object
 	{
 	public:

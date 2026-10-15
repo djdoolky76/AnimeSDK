@@ -34,6 +34,8 @@ namespace System { class String; }
 #define PEFKOGMGEIC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF17310)
 #define PEFKOGMGEIC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF17370)
 
+inline static constexpr unsigned int PEFKOGMGEIC_TypeDefinitionIndex = 29466;
+
 	class PEFKOGMGEIC : public ::System::Object
 	{
 	public:

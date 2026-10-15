@@ -22,6 +22,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace MiHoYo::SDK::PS
 {
+	inline static constexpr unsigned int PSDialogBase_TypeDefinitionIndex = 8946;
+
 	class PSDialogBase : public ::MiHoYo::SDK::UIElement
 	{
 	public:

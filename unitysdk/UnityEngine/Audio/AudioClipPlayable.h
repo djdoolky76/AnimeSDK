@@ -25,6 +25,8 @@ namespace UnityEngine { class AudioClip; }
 
 namespace UnityEngine::Audio
 {
+	inline static constexpr unsigned int AudioClipPlayable_TypeDefinitionIndex = 5150;
+
 	struct alignas(4) AudioClipPlayable
 	{
 		::UnityEngine::Playables::PlayableHandle m_Handle; // 0x10

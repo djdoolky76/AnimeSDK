@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TransitEnvProfileClip_TypeDefinitionIndex = 48414;
+
 	class TransitEnvProfileClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

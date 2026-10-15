@@ -31,6 +31,8 @@ namespace System { class String; }
 #define MHBMDBMICFA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA2C2D0)
 #define MHBMDBMICFA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA2C330)
 
+inline static constexpr unsigned int MHBMDBMICFA_TypeDefinitionIndex = 29037;
+
 	class MHBMDBMICFA : public ::System::Object
 	{
 	public:

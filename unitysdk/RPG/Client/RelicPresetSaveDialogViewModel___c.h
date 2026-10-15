@@ -15,6 +15,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RelicPresetSaveDialogViewModel___c_TypeDefinitionIndex = 66878;
+
 	class RelicPresetSaveDialogViewModel___c : public ::System::Object
 	{
 	public:

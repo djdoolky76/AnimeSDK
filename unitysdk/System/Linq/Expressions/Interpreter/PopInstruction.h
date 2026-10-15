@@ -13,6 +13,8 @@ namespace System::Linq::Expressions::Interpreter { class PopInstruction; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int PopInstruction_TypeDefinitionIndex = 3622;
+
 	class PopInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:

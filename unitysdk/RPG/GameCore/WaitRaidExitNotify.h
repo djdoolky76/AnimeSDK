@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitRaidExitNotify; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitRaidExitNotify_TypeDefinitionIndex = 20909;
+
 	class WaitRaidExitNotify : public ::RPG::GameCore::TaskConfig
 	{
 	public:

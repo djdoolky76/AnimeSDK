@@ -13,6 +13,8 @@ namespace RPG::GameCore { class PVEGameStatistics; }
 #define GMGJBAIGMHK_HBIFBEDEAIA_OFFSET UNITYSDK_OFFSET(0x15AD27D0)
 #define GMGJBAIGMHK_KNJKPFCPKAH_OFFSET UNITYSDK_OFFSET(0x15AD25E0)
 
+inline static constexpr unsigned int GMGJBAIGMHK_TypeDefinitionIndex = 56013;
+
 	class GMGJBAIGMHK : public ::LHHEGNEBMLN
 	{
 	public:

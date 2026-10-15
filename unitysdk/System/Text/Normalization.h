@@ -35,6 +35,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System::Text
 {
+	inline static constexpr unsigned int Normalization_TypeDefinitionIndex = 513;
+
 	class Normalization : public ::System::Object
 	{
 	public:

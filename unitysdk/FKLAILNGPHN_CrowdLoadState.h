@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int FKLAILNGPHN_CrowdLoadState_TypeDefinitionIndex = 69217;
+
 	enum class FKLAILNGPHN_CrowdLoadState : ::System::Int32
 	{
 		None = 0,

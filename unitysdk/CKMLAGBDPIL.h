@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 #define CKMLAGBDPIL_CTOR_OFFSET UNITYSDK_OFFSET(0xD76A270)
 
+inline static constexpr unsigned int CKMLAGBDPIL_TypeDefinitionIndex = 54051;
+
 	class CKMLAGBDPIL : public ::System::Object
 	{
 	public:

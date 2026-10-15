@@ -22,6 +22,8 @@ namespace BansheeGz::BGSpline::Curve { class BGCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Airline_TypeDefinitionIndex = 59765;
+
 	class Airline : public ::UnityEngine::MonoBehaviour
 	{
 	public:

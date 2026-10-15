@@ -7,6 +7,8 @@ class EAHCLJPMCIG;
 #define GHMLAFDAJPJ_GIGAEIEHKOA_OFFSET UNITYSDK_OFFSET(0x15A2A2D0)
 #define GHMLAFDAJPJ_KFCPNFHNGBO_OFFSET UNITYSDK_OFFSET(0x15A2A270)
 
+inline static constexpr unsigned int GHMLAFDAJPJ_TypeDefinitionIndex = 80827;
+
 	class GHMLAFDAJPJ : public ::System::Object
 	{
 	public:

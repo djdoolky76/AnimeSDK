@@ -12,6 +12,8 @@ namespace RPG::GameCore { class PhotoGraphShotResultCondition; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphShotResultCondition_TypeDefinitionIndex = 21654;
+
 	class PhotoGraphShotResultCondition : public ::RPG::GameCore::JsonConfig
 	{
 	public:

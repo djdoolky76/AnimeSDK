@@ -10,6 +10,8 @@ class NBNLIDCJLHK;
 #define JIAFOPELMJJ___C__DISPLAYCLASS14_0__STARTFORLUAHOTFIX_B__0_OFFSET UNITYSDK_OFFSET(0xB1E5420)
 #define JIAFOPELMJJ___C__DISPLAYCLASS14_0__STARTFORLUAHOTFIX_B__1_OFFSET UNITYSDK_OFFSET(0xB1E5440)
 
+inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass14_0_TypeDefinitionIndex = 59504;
+
 	class JIAFOPELMJJ___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:

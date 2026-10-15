@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define CEOABLKMPKE_PHOBLLNADAL_OFFSET UNITYSDK_OFFSET(0xC9ED290)
 #define CEOABLKMPKE___N__0_OFFSET UNITYSDK_OFFSET(0xC9ED510)
 
+inline static constexpr unsigned int CEOABLKMPKE_TypeDefinitionIndex = 59481;
+
 	class CEOABLKMPKE : public ::DGACHEOMECA
 	{
 	public:

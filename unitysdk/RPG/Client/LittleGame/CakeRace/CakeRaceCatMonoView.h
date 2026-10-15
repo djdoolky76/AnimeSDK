@@ -28,6 +28,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client::LittleGame::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceCatMonoView_TypeDefinitionIndex = 78147;
+
 	class CakeRaceCatMonoView : public ::RPG::Client::LittleGame::CakeRace::CakeRaceMonoView
 	{
 	public:

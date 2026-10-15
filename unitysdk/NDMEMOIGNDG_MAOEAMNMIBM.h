@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define NDMEMOIGNDG_MAOEAMNMIBM_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xBB515F0)
 #define NDMEMOIGNDG_MAOEAMNMIBM_INVOKE_OFFSET UNITYSDK_OFFSET(0xBB50D20)
 
+inline static constexpr unsigned int NDMEMOIGNDG_MAOEAMNMIBM_TypeDefinitionIndex = 69267;
+
 	class NDMEMOIGNDG_MAOEAMNMIBM : public ::System::MulticastDelegate
 	{
 	public:

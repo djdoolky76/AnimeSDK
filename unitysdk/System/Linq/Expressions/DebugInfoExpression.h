@@ -10,6 +10,8 @@ namespace System::Linq::Expressions { class SymbolDocumentInfo; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int DebugInfoExpression_TypeDefinitionIndex = 3214;
+
 	class DebugInfoExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:

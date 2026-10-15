@@ -30,6 +30,8 @@ namespace System { class String; }
 #define KOAGMGNMMOC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8AB520)
 #define KOAGMGNMMOC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8AB580)
 
+inline static constexpr unsigned int KOAGMGNMMOC_TypeDefinitionIndex = 32468;
+
 	class KOAGMGNMMOC : public ::System::Object
 	{
 	public:

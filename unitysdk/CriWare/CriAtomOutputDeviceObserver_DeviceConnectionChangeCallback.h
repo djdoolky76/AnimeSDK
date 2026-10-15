@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomOutputDeviceObserver_DeviceConnectionChangeCallback_TypeDefinitionIndex = 39937;
+
 	class CriAtomOutputDeviceObserver_DeviceConnectionChangeCallback : public ::System::MulticastDelegate
 	{
 	public:

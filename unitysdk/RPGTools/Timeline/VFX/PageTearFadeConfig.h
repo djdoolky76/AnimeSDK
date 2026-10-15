@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int PageTearFadeConfig_TypeDefinitionIndex = 48681;
+
 	class PageTearFadeConfig : public ::System::Object
 	{
 	public:

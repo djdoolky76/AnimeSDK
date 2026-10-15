@@ -39,6 +39,8 @@ namespace System { class String; }
 #define GJIIPFBFLLC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4A9590)
 #define GJIIPFBFLLC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4A95F0)
 
+inline static constexpr unsigned int GJIIPFBFLLC_TypeDefinitionIndex = 29877;
+
 	class GJIIPFBFLLC : public ::System::Object
 	{
 	public:

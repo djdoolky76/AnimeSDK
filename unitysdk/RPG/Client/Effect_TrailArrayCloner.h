@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_TrailArrayCloner_TypeDefinitionIndex = 70561;
+
 	class Effect_TrailArrayCloner : public ::RPG::Client::TAMonoBase
 	{
 	public:

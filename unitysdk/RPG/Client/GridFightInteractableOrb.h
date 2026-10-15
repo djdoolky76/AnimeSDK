@@ -22,6 +22,8 @@ namespace UnityEngine { class SphereCollider; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightInteractableOrb_TypeDefinitionIndex = 64458;
+
 	class GridFightInteractableOrb : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class Action; }
 #define NAPIKMAGDDI_JKJMOGBMCCH_OFFSET UNITYSDK_OFFSET(0xBAB8020)
 #define NAPIKMAGDDI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAB7EB0)
 
+inline static constexpr unsigned int NAPIKMAGDDI_TypeDefinitionIndex = 58043;
+
 	class NAPIKMAGDDI
 	{
 	public:

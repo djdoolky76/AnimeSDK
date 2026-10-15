@@ -107,6 +107,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ONIJDACKGJG_SET_SPECIALBETCOINREWARDRATIOLIST_OFFSET UNITYSDK_OFFSET(0x1C7E3510)
 #define ONIJDACKGJG_SET_STARTREGIONLENGTH_OFFSET UNITYSDK_OFFSET(0x1C7E34C0)
 
+inline static constexpr unsigned int ONIJDACKGJG_TypeDefinitionIndex = 37227;
+
 	class ONIJDACKGJG : public ::KILOJFMKNAI
 	{
 	public:

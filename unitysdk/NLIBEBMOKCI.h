@@ -34,6 +34,8 @@ namespace System { class String; }
 #define NLIBEBMOKCI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB642B0)
 #define NLIBEBMOKCI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB64310)
 
+inline static constexpr unsigned int NLIBEBMOKCI_TypeDefinitionIndex = 28252;
+
 	class NLIBEBMOKCI : public ::System::Object
 	{
 	public:

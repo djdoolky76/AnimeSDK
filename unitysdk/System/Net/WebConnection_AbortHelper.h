@@ -10,6 +10,8 @@ namespace System::Net { class WebConnection; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int WebConnection_AbortHelper_TypeDefinitionIndex = 2884;
+
 	class WebConnection_AbortHelper : public ::System::Object
 	{
 	public:

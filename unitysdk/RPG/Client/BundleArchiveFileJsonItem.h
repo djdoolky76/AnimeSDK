@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BundleArchiveFileJsonItem_TypeDefinitionIndex = 61209;
+
 	class BundleArchiveFileJsonItem : public ::System::Object
 	{
 	public:

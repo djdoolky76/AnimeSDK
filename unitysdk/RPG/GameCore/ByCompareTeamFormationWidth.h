@@ -16,6 +16,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareTeamFormationWidth_TypeDefinitionIndex = 22923;
+
 	class ByCompareTeamFormationWidth : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HHMIFAELKCK_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0x15CD44C0)
 #define HHMIFAELKCK_PJMPLOFNEOO_OFFSET UNITYSDK_OFFSET(0x15CD4180)
 
+inline static constexpr unsigned int HHMIFAELKCK_TypeDefinitionIndex = 53986;
+
 	class HHMIFAELKCK : public ::System::Object
 	{
 	public:

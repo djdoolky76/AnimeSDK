@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EICCEOONIEM_HFBAFEEPOLN_OFFSET UNITYSDK_OFFSET(0x1CD86D40)
 #define EICCEOONIEM_OCDAEECDMCF_OFFSET UNITYSDK_OFFSET(0x1CD86BD0)
 
+inline static constexpr unsigned int EICCEOONIEM_TypeDefinitionIndex = 15462;
+
 	class EICCEOONIEM : public ::System::Object
 	{
 	public:

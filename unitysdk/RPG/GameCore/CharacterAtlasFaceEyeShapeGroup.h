@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CharacterAtlasFaceEyeShapeGroup; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterAtlasFaceEyeShapeGroup_TypeDefinitionIndex = 17454;
+
 	class CharacterAtlasFaceEyeShapeGroup : public ::RPG::GameCore::JsonConfig
 	{
 	public:

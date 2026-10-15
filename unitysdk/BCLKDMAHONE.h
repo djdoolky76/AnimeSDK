@@ -190,6 +190,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define BCLKDMAHONE_REMOVETRANSFORM_OFFSET UNITYSDK_OFFSET(0x1C8B3890)
 #define BCLKDMAHONE_REPLACETRANSFORM_OFFSET UNITYSDK_OFFSET(0x1C8B3730)
 
+inline static constexpr unsigned int BCLKDMAHONE_TypeDefinitionIndex = 42614;
+
 	class BCLKDMAHONE : public ::Entitas::Entity
 	{
 	public:

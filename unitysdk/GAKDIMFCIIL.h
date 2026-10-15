@@ -30,6 +30,8 @@ namespace System { class String; }
 #define GAKDIMFCIIL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E41FED0)
 #define GAKDIMFCIIL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E41FF30)
 
+inline static constexpr unsigned int GAKDIMFCIIL_TypeDefinitionIndex = 35026;
+
 	class GAKDIMFCIIL : public ::System::Object
 	{
 	public:

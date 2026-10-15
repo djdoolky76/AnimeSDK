@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimUIPileToastMessageTextIDAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimUIPileToastMessageTextIDAction_TypeDefinitionIndex = 18725;
+
 	class FiveDimUIPileToastMessageTextIDAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

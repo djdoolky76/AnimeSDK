@@ -7,6 +7,8 @@ namespace RPG::Client { class PlanetFesReward; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesLandReward_TypeDefinitionIndex = 66619;
+
 	class PlanetFesLandReward : public ::System::Object
 	{
 	public:

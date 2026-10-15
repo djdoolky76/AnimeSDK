@@ -6,6 +6,8 @@ namespace ScenenLightManager { class Tup; }
 #define NCLAAPMIJMD_COMPARE_OFFSET UNITYSDK_OFFSET(0xBB14C60)
 #define NCLAAPMIJMD_CTOR_OFFSET UNITYSDK_OFFSET(0xBB14CF0)
 
+inline static constexpr unsigned int NCLAAPMIJMD_TypeDefinitionIndex = 49165;
+
 	class NCLAAPMIJMD : public ::System::Object
 	{
 	public:

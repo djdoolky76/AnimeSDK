@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TarotBookEnergyRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TarotBookEnergyRow_TypeDefinitionIndex = 15236;
+
 	class TarotBookEnergyRow : public ::System::Object
 	{
 	public:

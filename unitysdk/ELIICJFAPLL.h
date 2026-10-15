@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ELIICJFAPLL_JLANKNHFKCN_1_OFFSET UNITYSDK_OFFSET(0x15522B60)
 #define ELIICJFAPLL_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x15522240)
 
+inline static constexpr unsigned int ELIICJFAPLL_TypeDefinitionIndex = 57264;
+
 	class ELIICJFAPLL : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define IBHFCBEOPPB_CTOR_OFFSET UNITYSDK_OFFSET(0x15E35440)
 #define IBHFCBEOPPB_ENNJBMNBLNA_OFFSET UNITYSDK_OFFSET(0x15E35450)
 
+inline static constexpr unsigned int IBHFCBEOPPB_TypeDefinitionIndex = 55976;
+
 	class IBHFCBEOPPB : public ::BIPFHKKIKLH
 	{
 	public:

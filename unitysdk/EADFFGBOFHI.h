@@ -12,6 +12,8 @@ namespace UnityEngine { class Texture; }
 #define EADFFGBOFHI_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x12671CE0)
 #define EADFFGBOFHI_MFCOINKALKA_OFFSET UNITYSDK_OFFSET(0x12671C90)
 
+inline static constexpr unsigned int EADFFGBOFHI_TypeDefinitionIndex = 70158;
+
 	class EADFFGBOFHI : public ::BEAIJJCDJHO
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GamePhaseContext_TypeDefinitionIndex = 61104;
+
 	class GamePhaseContext : public ::KGLLENLBNFD
 	{
 	public:

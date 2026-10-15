@@ -38,6 +38,8 @@ namespace System { class String; }
 #define NAGIOAKDDMJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAC2460)
 #define NAGIOAKDDMJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAC24C0)
 
+inline static constexpr unsigned int NAGIOAKDDMJ_TypeDefinitionIndex = 25118;
+
 	class NAGIOAKDDMJ : public ::System::Object
 	{
 	public:

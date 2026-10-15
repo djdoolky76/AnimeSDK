@@ -34,6 +34,8 @@ namespace System { class String; }
 #define NGNBAKJNPID_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB154A0)
 #define NGNBAKJNPID_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB15500)
 
+inline static constexpr unsigned int NGNBAKJNPID_TypeDefinitionIndex = 31323;
+
 	class NGNBAKJNPID : public ::System::Object
 	{
 	public:

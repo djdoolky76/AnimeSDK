@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRRenderModels__GetComponentState_TypeDefinitionIndex = 39154;
+
 	class IVRRenderModels__GetComponentState : public ::System::MulticastDelegate
 	{
 	public:

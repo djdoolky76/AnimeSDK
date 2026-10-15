@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Cast_1_TypeDefinitionIndex = 45273;
+
 	template <typename T>
 	class Cast_1 : public ::System::Object
 	{

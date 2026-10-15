@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_OnReceivePacketAction_TypeDefinitionIndex = 46394;
+
 	class SecurityTunnel_OnReceivePacketAction : public ::System::MulticastDelegate
 	{
 	public:

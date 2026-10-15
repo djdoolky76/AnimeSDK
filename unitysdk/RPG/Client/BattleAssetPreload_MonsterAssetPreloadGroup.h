@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleAssetPreload_MonsterAssetPreloadGroup_TypeDefinitionIndex = 59653;
+
 	class BattleAssetPreload_MonsterAssetPreloadGroup : public ::RPG::Client::BattleAssetPreload_CharacterPreloadGroupBase
 	{
 	public:

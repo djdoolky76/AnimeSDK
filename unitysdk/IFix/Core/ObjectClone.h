@@ -9,6 +9,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int ObjectClone_TypeDefinitionIndex = 7128;
+
 	class ObjectClone : public ::System::Object
 	{
 	public:

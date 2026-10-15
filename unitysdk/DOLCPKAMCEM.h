@@ -28,6 +28,8 @@ namespace System { class String; }
 #define DOLCPKAMCEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E204BD0)
 #define DOLCPKAMCEM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E204C30)
 
+inline static constexpr unsigned int DOLCPKAMCEM_TypeDefinitionIndex = 29853;
+
 	class DOLCPKAMCEM : public ::System::Object
 	{
 	public:

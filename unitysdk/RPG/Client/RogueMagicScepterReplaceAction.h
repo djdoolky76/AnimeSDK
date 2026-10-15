@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMagicScepterReplaceAction_TypeDefinitionIndex = 67007;
+
 	class RogueMagicScepterReplaceAction : public ::System::Object
 	{
 	public:

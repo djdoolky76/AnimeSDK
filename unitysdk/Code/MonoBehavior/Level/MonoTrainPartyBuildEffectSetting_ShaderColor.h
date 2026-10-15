@@ -8,6 +8,8 @@ namespace UnityEngine { class Material; }
 
 namespace Code::MonoBehavior::Level
 {
+	inline static constexpr unsigned int MonoTrainPartyBuildEffectSetting_ShaderColor_TypeDefinitionIndex = 50054;
+
 	struct alignas(8) MonoTrainPartyBuildEffectSetting_ShaderColor
 	{
 		::System::String* name; // 0x10

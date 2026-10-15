@@ -276,6 +276,8 @@ namespace UnityEngine { class Transform; }
 #define NDHMIJHMGIL__ONSHOWSKILLUI_B__79_0_OFFSET UNITYSDK_OFFSET(0xBB48D80)
 #define NDHMIJHMGIL__ONTICK_OFFSET UNITYSDK_OFFSET(0xBB2FFF0)
 
+inline static constexpr unsigned int NDHMIJHMGIL_TypeDefinitionIndex = 60417;
+
 	class NDHMIJHMGIL : public ::HCLPKMIIANI
 	{
 	public:

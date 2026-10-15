@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BlockSubmitEvents; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BlockSubmitEvents_TypeDefinitionIndex = 24278;
+
 	class BlockSubmitEvents : public ::RPG::GameCore::TaskConfig
 	{
 	public:

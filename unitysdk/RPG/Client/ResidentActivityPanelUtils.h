@@ -22,6 +22,8 @@ namespace RPG::Client { class IResidentActivityPanelData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ResidentActivityPanelUtils_TypeDefinitionIndex = 61776;
+
 	class ResidentActivityPanelUtils : public ::System::Object
 	{
 	public:

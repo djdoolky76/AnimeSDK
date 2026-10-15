@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int BlinkTimelineClip_TypeDefinitionIndex = 48544;
+
 	class BlinkTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

@@ -45,6 +45,8 @@ namespace System { class Object; }
 #define LNHDPDCGLAG_PNKLCAMLNIK_OFFSET UNITYSDK_OFFSET(0xB7E05A0)
 #define LNHDPDCGLAG_SET_INSPECIALSTATE_OFFSET UNITYSDK_OFFSET(0xB7E08A0)
 
+inline static constexpr unsigned int LNHDPDCGLAG_TypeDefinitionIndex = 52410;
+
 	class LNHDPDCGLAG : public ::System::Object
 	{
 	public:

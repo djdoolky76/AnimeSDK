@@ -53,6 +53,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int OraclePuzzlePanel_TypeDefinitionIndex = 78738;
+
 	class OraclePuzzlePanel : public ::UnityEngine::MonoBehaviour
 	{
 	public:

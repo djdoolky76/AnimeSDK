@@ -9,6 +9,8 @@ namespace Entitas { class IEntity; }
 #define CLKIJGIGDHD_ONREMOVE_OFFSET UNITYSDK_OFFSET(0xD791BC0)
 #define CLKIJGIGDHD_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xD791A90)
 
+inline static constexpr unsigned int CLKIJGIGDHD_TypeDefinitionIndex = 75956;
+
 	class CLKIJGIGDHD
 	{
 	public:

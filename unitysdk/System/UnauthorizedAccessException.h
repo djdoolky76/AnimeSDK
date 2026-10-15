@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int UnauthorizedAccessException_TypeDefinitionIndex = 359;
+
 	class UnauthorizedAccessException : public ::System::SystemException
 	{
 	public:

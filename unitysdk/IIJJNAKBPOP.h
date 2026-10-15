@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IIJJNAKBPOP_LOCK_OFFSET UNITYSDK_OFFSET(0x1643DEA0)
 #define IIJJNAKBPOP_UNLOCK_OFFSET UNITYSDK_OFFSET(0x1643DFA0)
 
+inline static constexpr unsigned int IIJJNAKBPOP_TypeDefinitionIndex = 74785;
+
 	class IIJJNAKBPOP : public ::RPG::Client::GamePlayLockTargetFunc
 	{
 	public:

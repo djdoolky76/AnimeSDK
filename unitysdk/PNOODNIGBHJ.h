@@ -25,6 +25,8 @@ namespace System::Reflection { class PropertyInfo; }
 #define PNOODNIGBHJ_PGDKDJMKDNL_OFFSET UNITYSDK_OFFSET(0x1C4D1440)
 #define PNOODNIGBHJ_PJBCFLGLPFL_OFFSET UNITYSDK_OFFSET(0x1C4CFF50)
 
+inline static constexpr unsigned int PNOODNIGBHJ_TypeDefinitionIndex = 41379;
+
 	class PNOODNIGBHJ : public ::System::Object
 	{
 	public:

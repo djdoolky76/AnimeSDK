@@ -8,6 +8,8 @@ namespace System::Net { class IPEndPoint; }
 #define HCCEELDOMFB___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDAC760)
 #define HCCEELDOMFB___C__DISPLAYCLASS1_0__PINGBYUDPASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1DDADBB0)
 
+inline static constexpr unsigned int HCCEELDOMFB___c__DisplayClass1_0_TypeDefinitionIndex = 43965;
+
 	class HCCEELDOMFB___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

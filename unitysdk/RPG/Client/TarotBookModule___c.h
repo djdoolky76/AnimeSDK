@@ -20,6 +20,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TarotBookModule___c_TypeDefinitionIndex = 68068;
+
 	class TarotBookModule___c : public ::System::Object
 	{
 	public:

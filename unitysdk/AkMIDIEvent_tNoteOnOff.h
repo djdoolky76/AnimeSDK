@@ -15,6 +15,8 @@ class AkMIDIEvent_tNoteOnOff;
 #define AKMIDIEVENT_TNOTEONOFF_SET_BYNOTE_OFFSET UNITYSDK_OFFSET(0x1F5A1D40)
 #define AKMIDIEVENT_TNOTEONOFF_SET_BYVELOCITY_OFFSET UNITYSDK_OFFSET(0x1F5A1EB0)
 
+inline static constexpr unsigned int AkMIDIEvent_tNoteOnOff_TypeDefinitionIndex = 44752;
+
 	class AkMIDIEvent_tNoteOnOff : public ::System::Object
 	{
 	public:

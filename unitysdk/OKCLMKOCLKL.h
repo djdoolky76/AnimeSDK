@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define OKCLMKOCLKL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7D0A80)
 
+inline static constexpr unsigned int OKCLMKOCLKL_TypeDefinitionIndex = 36403;
+
 	class OKCLMKOCLKL : public ::System::Object
 	{
 	public:

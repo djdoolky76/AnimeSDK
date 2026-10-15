@@ -14,6 +14,8 @@ namespace RPG::GameCore { class LevelLoseHPByRatio; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelLoseHPByRatio_TypeDefinitionIndex = 56788;
+
 	class LevelLoseHPByRatio : public ::CMPGEAFHHDC
 	{
 	public:

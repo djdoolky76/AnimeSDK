@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimAvatarMoveAbilityConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimAvatarMoveAbilityConfig_TypeDefinitionIndex = 16708;
+
 	class FiveDimAvatarMoveAbilityConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

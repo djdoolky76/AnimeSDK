@@ -29,6 +29,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int LanguageManager_TypeDefinitionIndex = 8071;
+
 	class LanguageManager : public ::System::Object
 	{
 	public:

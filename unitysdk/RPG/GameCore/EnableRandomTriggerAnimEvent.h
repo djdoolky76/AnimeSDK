@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnableRandomTriggerAnimEvent_TypeDefinitionIndex = 22428;
+
 	class EnableRandomTriggerAnimEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:

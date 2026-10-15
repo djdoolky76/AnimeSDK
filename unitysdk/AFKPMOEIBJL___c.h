@@ -14,6 +14,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define AFKPMOEIBJL___C___BUILDSHUFFLELIBRARY_B__21_0_OFFSET UNITYSDK_OFFSET(0x1C880ED0)
 #define AFKPMOEIBJL___C___CREATEBOMBS_B__3_0_OFFSET UNITYSDK_OFFSET(0x1C880E00)
 
+inline static constexpr unsigned int AFKPMOEIBJL___c_TypeDefinitionIndex = 42303;
+
 	class AFKPMOEIBJL___c : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareHeartDialScriptEmo_TypeDefinitionIndex = 21896;
+
 	class ByCompareHeartDialScriptEmo : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

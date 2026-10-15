@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierBattleSelectBuffFormulaRequiredConf
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierBattleSelectBuffFormulaRequiredConfig_TypeDefinitionIndex = 17995;
+
 	class RogueModifierBattleSelectBuffFormulaRequiredConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

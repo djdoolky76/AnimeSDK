@@ -3,6 +3,8 @@
 
 namespace Mirrorment
 {
+	inline static constexpr unsigned int MirrormentTool_NodeType_TypeDefinitionIndex = 47767;
+
 	enum class MirrormentTool_NodeType : ::System::Int32
 	{
 		MirrorFrontRoot = 0,

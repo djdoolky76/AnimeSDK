@@ -17,6 +17,8 @@ namespace System::Text { class StringBuilder; }
 #define CJBOAMAPGNK_PRINTMEMBERS_OFFSET UNITYSDK_OFFSET(0x3C52040)
 #define CJBOAMAPGNK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C52030)
 
+inline static constexpr unsigned int CJBOAMAPGNK_TypeDefinitionIndex = 44223;
+
 	struct alignas(8) CJBOAMAPGNK
 	{
 		::DEIPGFGBEMG* DPGGHOHAEMJ; // 0x10

@@ -4,6 +4,8 @@
 
 #define CNFKPFLMIIC_CTOR_OFFSET UNITYSDK_OFFSET(0xDA4C490)
 
+inline static constexpr unsigned int CNFKPFLMIIC_TypeDefinitionIndex = 81268;
+
 	class CNFKPFLMIIC : public ::System::Object
 	{
 	public:

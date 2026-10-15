@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define IMFIGNKBHBH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB788F0)
 
+inline static constexpr unsigned int IMFIGNKBHBH_TypeDefinitionIndex = 42834;
+
 	class IMFIGNKBHBH : public ::System::Object
 	{
 	public:

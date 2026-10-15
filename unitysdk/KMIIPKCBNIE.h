@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KMIIPKCBNIE_ONSKIP_OFFSET UNITYSDK_OFFSET(0xB55B9A0)
 #define KMIIPKCBNIE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB55B4B0)
 
+inline static constexpr unsigned int KMIIPKCBNIE_TypeDefinitionIndex = 52723;
+
 	class KMIIPKCBNIE
 	{
 	public:

@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyBuildStepInfo_TypeDefinitionIndex = 74315;
+
 	class TrainPartyBuildStepInfo : public ::System::Object
 	{
 	public:

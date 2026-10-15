@@ -5,6 +5,8 @@ namespace RPG::Client { class BAPartVariantRef; }
 
 #define MJMCCBBANDN_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1DB50)
 
+inline static constexpr unsigned int MJMCCBBANDN_TypeDefinitionIndex = 69521;
+
 	struct alignas(8) MJMCCBBANDN
 	{
 		::UnityEngine::Rendering::BAVariantKey FJFOPHFLGKG; // 0x10

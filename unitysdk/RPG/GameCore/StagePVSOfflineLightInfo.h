@@ -10,6 +10,8 @@ namespace RPG::GameCore { class StagePVSOfflineLightInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StagePVSOfflineLightInfo_TypeDefinitionIndex = 19185;
+
 	class StagePVSOfflineLightInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int EDPHMDDGGGL_PerfromanceStep_TypeDefinitionIndex = 60720;
+
 	enum class EDPHMDDGGGL_PerfromanceStep : ::System::Int32
 	{
 		Start = 0,

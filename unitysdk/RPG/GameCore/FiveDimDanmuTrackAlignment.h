@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimDanmuTrackAlignment_TypeDefinitionIndex = 18702;
+
 	enum class FiveDimDanmuTrackAlignment : ::System::Int32
 	{
 		XAxis = 0,

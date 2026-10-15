@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BaseChenLingBattleInitPositionEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaseChenLingBattleInitPositionEvaluator_TypeDefinitionIndex = 15752;
+
 	class BaseChenLingBattleInitPositionEvaluator : public ::RPG::GameCore::JsonConfig
 	{
 	public:

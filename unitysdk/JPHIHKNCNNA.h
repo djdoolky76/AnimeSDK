@@ -7,6 +7,8 @@ class OOCCBMLAELL;
 
 #define JPHIHKNCNNA_CTOR_OFFSET UNITYSDK_OFFSET(0xB2BECA0)
 
+inline static constexpr unsigned int JPHIHKNCNNA_TypeDefinitionIndex = 80590;
+
 	class JPHIHKNCNNA : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine { class WaitForSeconds; }
 #define GEJLCOJMPOE__ACTIVELAUNCHERVIEW_D__10_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x159DDAE0)
 #define GEJLCOJMPOE__ACTIVELAUNCHERVIEW_D__10_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x159DCCE0)
 
+inline static constexpr unsigned int GEJLCOJMPOE__ActiveLauncherView_d__10_TypeDefinitionIndex = 78540;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10>
 	class GEJLCOJMPOE__ActiveLauncherView_d__10 : public ::System::Object
 	{

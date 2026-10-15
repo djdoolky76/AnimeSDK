@@ -5,6 +5,8 @@ namespace UnityEngine { class Canvas_WillRenderCanvases; }
 
 namespace Coffee::UIParticleInternal
 {
+	inline static constexpr unsigned int UIExtraCallbacks___O_TypeDefinitionIndex = 45145;
+
 	class UIExtraCallbacks___O : public ::System::Object
 	{
 	public:

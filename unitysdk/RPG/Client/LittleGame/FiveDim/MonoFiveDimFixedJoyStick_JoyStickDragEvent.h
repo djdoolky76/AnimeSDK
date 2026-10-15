@@ -5,6 +5,8 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int MonoFiveDimFixedJoyStick_JoyStickDragEvent_TypeDefinitionIndex = 77237;
+
 	class MonoFiveDimFixedJoyStick_JoyStickDragEvent
 	{
 	public:

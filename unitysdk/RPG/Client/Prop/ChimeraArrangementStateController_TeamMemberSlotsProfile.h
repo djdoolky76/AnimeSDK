@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraArrangementStateController_TeamMemberSlotsProfile_TypeDefinitionIndex = 78491;
+
 	class ChimeraArrangementStateController_TeamMemberSlotsProfile : public ::System::Object
 	{
 	public:

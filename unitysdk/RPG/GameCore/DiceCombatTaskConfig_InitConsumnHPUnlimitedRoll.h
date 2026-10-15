@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_InitConsumnHPUnlimitedRoll_TypeDefinitionIndex = 16055;
+
 	class DiceCombatTaskConfig_InitConsumnHPUnlimitedRoll : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

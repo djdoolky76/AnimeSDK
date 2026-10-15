@@ -16,6 +16,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoHandOverlapTrigger_TypeDefinitionIndex = 68779;
+
 	class MonoHandOverlapTrigger : public ::UnityEngine::MonoBehaviour
 	{
 	public:

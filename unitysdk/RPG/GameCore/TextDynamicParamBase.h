@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TextDynamicParamBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TextDynamicParamBase_TypeDefinitionIndex = 17010;
+
 	class TextDynamicParamBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:

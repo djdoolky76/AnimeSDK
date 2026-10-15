@@ -4,6 +4,8 @@
 
 #define AUISTATETAGBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x15BC2390)
 
+inline static constexpr unsigned int AUiStateTagBase_TypeDefinitionIndex = 47577;
+
 	class AUiStateTagBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

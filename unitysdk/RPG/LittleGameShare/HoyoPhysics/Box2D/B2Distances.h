@@ -42,6 +42,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Distances_TypeDefinitionIndex = 36662;
+
 	class B2Distances : public ::System::Object
 	{
 	public:

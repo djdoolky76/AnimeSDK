@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitWaveBattlePerformFinish; }
 #define DGDBDFOPBIC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE844210)
 #define DGDBDFOPBIC_TICK_OFFSET UNITYSDK_OFFSET(0xE8443A0)
 
+inline static constexpr unsigned int DGDBDFOPBIC_TypeDefinitionIndex = 55814;
+
 	class DGDBDFOPBIC : public ::GELIALJDFBL
 	{
 	public:

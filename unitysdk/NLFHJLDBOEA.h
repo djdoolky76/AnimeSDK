@@ -34,6 +34,8 @@ namespace System { class String; }
 #define NLFHJLDBOEA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB636D0)
 #define NLFHJLDBOEA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB63730)
 
+inline static constexpr unsigned int NLFHJLDBOEA_TypeDefinitionIndex = 30224;
+
 	class NLFHJLDBOEA : public ::System::Object
 	{
 	public:

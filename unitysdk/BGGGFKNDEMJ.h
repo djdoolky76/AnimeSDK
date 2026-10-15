@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BGGGFKNDEMJ_LHPAEHNOBCE_OFFSET UNITYSDK_OFFSET(0x1C5BEBF0)
 #define BGGGFKNDEMJ_SET_PLAYERUID_OFFSET UNITYSDK_OFFSET(0x1C5BF200)
 
+inline static constexpr unsigned int BGGGFKNDEMJ_TypeDefinitionIndex = 37126;
+
 	class BGGGFKNDEMJ : public ::System::Object
 	{
 	public:

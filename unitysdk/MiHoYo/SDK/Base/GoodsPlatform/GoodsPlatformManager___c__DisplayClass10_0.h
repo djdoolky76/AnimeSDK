@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
+	inline static constexpr unsigned int GoodsPlatformManager___c__DisplayClass10_0_TypeDefinitionIndex = 8846;
+
 	class GoodsPlatformManager___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

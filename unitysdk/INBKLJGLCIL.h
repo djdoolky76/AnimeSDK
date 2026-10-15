@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define INBKLJGLCIL_DMAPBGHPDCI_OFFSET UNITYSDK_OFFSET(0x164E6840)
 #define INBKLJGLCIL_NPJPBDLJLLN_OFFSET UNITYSDK_OFFSET(0x164E66E0)
 
+inline static constexpr unsigned int INBKLJGLCIL_TypeDefinitionIndex = 81477;
+
 	class INBKLJGLCIL : public ::System::Object
 	{
 	public:

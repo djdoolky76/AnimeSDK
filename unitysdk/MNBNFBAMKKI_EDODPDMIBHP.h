@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MNBNFBAMKKI_EDODPDMIBHP_SET_NEXT_OFFSET UNITYSDK_OFFSET(0xB9E7AB0)
 #define MNBNFBAMKKI_EDODPDMIBHP_SET_PREV_OFFSET UNITYSDK_OFFSET(0xB9E7A90)
 
+inline static constexpr unsigned int MNBNFBAMKKI_EDODPDMIBHP_TypeDefinitionIndex = 53781;
+
 	class MNBNFBAMKKI_EDODPDMIBHP : public ::System::Object
 	{
 	public:

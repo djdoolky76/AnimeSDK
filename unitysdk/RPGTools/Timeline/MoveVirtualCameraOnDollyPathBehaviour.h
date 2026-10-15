@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int MoveVirtualCameraOnDollyPathBehaviour_TypeDefinitionIndex = 47818;
+
 	class MoveVirtualCameraOnDollyPathBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

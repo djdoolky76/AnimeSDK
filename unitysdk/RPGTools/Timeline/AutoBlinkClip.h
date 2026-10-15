@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int AutoBlinkClip_TypeDefinitionIndex = 47865;
+
 	class AutoBlinkClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

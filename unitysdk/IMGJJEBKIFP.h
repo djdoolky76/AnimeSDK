@@ -7,6 +7,8 @@ namespace RPG::AvatarSystem { class AvatarSkin; }
 #define IMGJJEBKIFP_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x164D48D0)
 #define IMGJJEBKIFP_CTOR_OFFSET UNITYSDK_OFFSET(0x164D49D0)
 
+inline static constexpr unsigned int IMGJJEBKIFP_TypeDefinitionIndex = 62616;
+
 	class IMGJJEBKIFP : public ::System::Object
 	{
 	public:

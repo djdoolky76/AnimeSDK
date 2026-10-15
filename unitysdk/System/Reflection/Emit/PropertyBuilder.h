@@ -30,6 +30,8 @@ namespace System::Reflection { class ParameterInfo; }
 
 namespace System::Reflection::Emit
 {
+	inline static constexpr unsigned int PropertyBuilder_TypeDefinitionIndex = 657;
+
 	class PropertyBuilder : public ::System::Reflection::PropertyInfo
 	{
 	public:

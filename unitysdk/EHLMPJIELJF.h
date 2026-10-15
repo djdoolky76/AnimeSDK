@@ -67,6 +67,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EHLMPJIELJF_SET_SURFACERELATIVETRANSFORM_OFFSET UNITYSDK_OFFSET(0x154B1F00)
 #define EHLMPJIELJF_SET_WORLDTRANSFORM_OFFSET UNITYSDK_OFFSET(0x154B1E60)
 
+inline static constexpr unsigned int EHLMPJIELJF_TypeDefinitionIndex = 62200;
+
 	class EHLMPJIELJF : public ::System::Object
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System { class String; }
 #define HGEBBOPADLG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5782F0)
 #define HGEBBOPADLG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E578350)
 
+inline static constexpr unsigned int HGEBBOPADLG_TypeDefinitionIndex = 27645;
+
 	class HGEBBOPADLG : public ::System::Object
 	{
 	public:

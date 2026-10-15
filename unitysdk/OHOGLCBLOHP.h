@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define OHOGLCBLOHP_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xBE756E0)
 #define OHOGLCBLOHP_INVOKE_OFFSET UNITYSDK_OFFSET(0xBE756A0)
 
+inline static constexpr unsigned int OHOGLCBLOHP_TypeDefinitionIndex = 78696;
+
 	class OHOGLCBLOHP : public ::System::MulticastDelegate
 	{
 	public:

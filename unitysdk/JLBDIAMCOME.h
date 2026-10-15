@@ -37,6 +37,8 @@ namespace System { class String; }
 #define JLBDIAMCOME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E773670)
 #define JLBDIAMCOME_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7736D0)
 
+inline static constexpr unsigned int JLBDIAMCOME_TypeDefinitionIndex = 33907;
+
 	class JLBDIAMCOME : public ::System::Object
 	{
 	public:

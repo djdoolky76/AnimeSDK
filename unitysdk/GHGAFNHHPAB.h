@@ -11,6 +11,8 @@
 #define GHGAFNHHPAB_OOGFMJBJEGC_OFFSET UNITYSDK_OFFSET(0x2E7B950)
 #define GHGAFNHHPAB_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x2E7B8D0)
 
+inline static constexpr unsigned int GHGAFNHHPAB_TypeDefinitionIndex = 68486;
+
 	struct alignas(8) GHGAFNHHPAB
 	{
 		::RootMotion::IKJob::IKTransformRef OILKGMEPLAE; // 0x10

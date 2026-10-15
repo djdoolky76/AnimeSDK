@@ -7,6 +7,8 @@
 
 namespace System::Xml::XmlConfiguration
 {
+	inline static constexpr unsigned int XmlReaderSection_TypeDefinitionIndex = 2241;
+
 	class XmlReaderSection : public ::System::Object
 	{
 	public:

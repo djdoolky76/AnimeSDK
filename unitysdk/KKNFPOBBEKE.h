@@ -4,6 +4,8 @@
 
 #define KKNFPOBBEKE_DBOBDPMCMAC_OFFSET UNITYSDK_OFFSET(0xB4D6440)
 
+inline static constexpr unsigned int KKNFPOBBEKE_TypeDefinitionIndex = 74813;
+
 	class KKNFPOBBEKE : public ::System::Object
 	{
 	public:

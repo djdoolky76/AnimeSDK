@@ -8,6 +8,8 @@ namespace System::Linq::Expressions { class ElementInit; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int MemberListBinding_TypeDefinitionIndex = 3248;
+
 	class MemberListBinding : public ::System::Linq::Expressions::MemberBinding
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::Client::FateRin::Logging { class ILoggerFactory; }
 
 namespace RPG::Client::FateRin
 {
+	inline static constexpr unsigned int BaseViewModel_TypeDefinitionIndex = 80625;
+
 	class BaseViewModel : public ::System::Object
 	{
 	public:

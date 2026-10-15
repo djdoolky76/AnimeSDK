@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define PPPHANEJBAC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D31C5B0)
 #define PPPHANEJBAC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D31C510)
 
+inline static constexpr unsigned int PPPHANEJBAC_TypeDefinitionIndex = 22660;
+
 	class PPPHANEJBAC : public ::RPG::GameCore::TaskConfig
 	{
 	public:

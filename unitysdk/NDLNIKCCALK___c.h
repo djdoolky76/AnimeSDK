@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NDLNIKCCALK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAEBF00)
 #define NDLNIKCCALK___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1EAEBF10)
 
+inline static constexpr unsigned int NDLNIKCCALK___c_TypeDefinitionIndex = 29681;
+
 	class NDLNIKCCALK___c : public ::System::Object
 	{
 	public:

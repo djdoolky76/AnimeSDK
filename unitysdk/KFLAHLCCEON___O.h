@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 class KNNDMDMHDHO;
 
+inline static constexpr unsigned int KFLAHLCCEON___O_TypeDefinitionIndex = 67119;
+
 	class KFLAHLCCEON___O : public ::System::Object
 	{
 	public:

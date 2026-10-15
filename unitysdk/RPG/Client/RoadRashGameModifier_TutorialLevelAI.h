@@ -11,6 +11,8 @@ namespace RPG::Client { class RoadRashGameModifier_TutorialLevelAI; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoadRashGameModifier_TutorialLevelAI_TypeDefinitionIndex = 10314;
+
 	class RoadRashGameModifier_TutorialLevelAI : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:

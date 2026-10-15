@@ -6,6 +6,8 @@
 #define KADDPLMICJK_GINCCPECLDF_OFFSET UNITYSDK_OFFSET(0xB2D2A40)
 #define KADDPLMICJK_IMGPJKMLKAC_OFFSET UNITYSDK_OFFSET(0xB2D2980)
 
+inline static constexpr unsigned int KADDPLMICJK_TypeDefinitionIndex = 67280;
+
 	class KADDPLMICJK : public ::System::Object
 	{
 	public:

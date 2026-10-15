@@ -28,6 +28,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int WireframeDraw_TypeDefinitionIndex = 37936;
+
 	class WireframeDraw : public ::System::Object
 	{
 	public:

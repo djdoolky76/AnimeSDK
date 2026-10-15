@@ -10,6 +10,8 @@ namespace System { class String; }
 #define PKIOGOHJILN_LBDJFNDMMOA_OFFSET UNITYSDK_OFFSET(0x3C4D880)
 #define PKIOGOHJILN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C4D950)
 
+inline static constexpr unsigned int PKIOGOHJILN_TypeDefinitionIndex = 6297;
+
 	struct alignas(4) PKIOGOHJILN
 	{
 		::RPG::MVector3 BHCMCMADHBF; // 0x10

@@ -36,6 +36,8 @@ namespace System::Security::Cryptography { class CspParameters; }
 
 namespace Mono::Security::Cryptography
 {
+	inline static constexpr unsigned int KeyPairPersistence_TypeDefinitionIndex = 66;
+
 	class KeyPairPersistence : public ::System::Object
 	{
 	public:

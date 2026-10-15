@@ -5,6 +5,8 @@ class BJMIMCDCPME;
 
 #define HPPGEICLFKB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB061D0)
 
+inline static constexpr unsigned int HPPGEICLFKB_TypeDefinitionIndex = 43214;
+
 	class HPPGEICLFKB : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ class NBILAHJEBCL;
 #define BACGJKIKHEO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1C540860)
 #define BACGJKIKHEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C540850)
 
+inline static constexpr unsigned int BACGJKIKHEO_TypeDefinitionIndex = 41867;
+
 	class BACGJKIKHEO : public ::System::Object
 	{
 	public:

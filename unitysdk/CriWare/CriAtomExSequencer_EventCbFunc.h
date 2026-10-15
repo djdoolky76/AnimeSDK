@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExSequencer_EventCbFunc_TypeDefinitionIndex = 39998;
+
 	class CriAtomExSequencer_EventCbFunc : public ::System::MulticastDelegate
 	{
 	public:

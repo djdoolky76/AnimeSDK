@@ -15,6 +15,8 @@ namespace UnityEngine { class LineRenderer; }
 
 namespace RPG::Client::ElectricChainV2
 {
+	inline static constexpr unsigned int Effect_ElectricChainV2Behavior_SubChain_TypeDefinitionIndex = 73585;
+
 	class Effect_ElectricChainV2Behavior_SubChain : public ::System::Object
 	{
 	public:

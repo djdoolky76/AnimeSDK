@@ -36,6 +36,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int TrackInfo_TypeDefinitionIndex = 46362;
+
 	class TrackInfo : public ::System::Object
 	{
 	public:

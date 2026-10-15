@@ -4,6 +4,8 @@
 
 #define CCMNBFLCECI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DD390)
 
+inline static constexpr unsigned int CCMNBFLCECI_TypeDefinitionIndex = 42941;
+
 	class CCMNBFLCECI : public ::System::Object
 	{
 	public:

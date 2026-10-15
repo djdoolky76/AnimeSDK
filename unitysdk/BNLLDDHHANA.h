@@ -11,6 +11,8 @@ namespace System { template <typename T> class Func_1; }
 #define BNLLDDHHANA_NECEALBHFAB_OFFSET UNITYSDK_OFFSET(0xBDDEB50)
 #define BNLLDDHHANA_NHPDCPKMNAM_OFFSET UNITYSDK_OFFSET(0xBDDE8F0)
 
+inline static constexpr unsigned int BNLLDDHHANA_TypeDefinitionIndex = 81884;
+
 	class BNLLDDHHANA : public ::System::Object
 	{
 	public:

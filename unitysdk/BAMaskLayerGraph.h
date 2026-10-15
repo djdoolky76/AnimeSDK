@@ -13,6 +13,8 @@ namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 #define BAMASKLAYERGRAPH_INIT_OFFSET UNITYSDK_OFFSET(0x1CBE5220)
 #define BAMASKLAYERGRAPH_PLAYCLIP_OFFSET UNITYSDK_OFFSET(0x1CBE53C0)
 
+inline static constexpr unsigned int BAMaskLayerGraph_TypeDefinitionIndex = 37466;
+
 	class BAMaskLayerGraph : public ::System::Object
 	{
 	public:

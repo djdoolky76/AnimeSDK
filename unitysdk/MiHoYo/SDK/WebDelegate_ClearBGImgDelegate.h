@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebDelegate_ClearBGImgDelegate_TypeDefinitionIndex = 7846;
+
 	class WebDelegate_ClearBGImgDelegate : public ::System::MulticastDelegate
 	{
 	public:

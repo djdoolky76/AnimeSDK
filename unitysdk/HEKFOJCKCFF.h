@@ -20,6 +20,8 @@ namespace UnityEngine { class Animator; }
 #define HEKFOJCKCFF_PAIHBMIGDIO_OFFSET UNITYSDK_OFFSET(0x15C58B10)
 #define HEKFOJCKCFF__ONBIND_OFFSET UNITYSDK_OFFSET(0x15C581C0)
 
+inline static constexpr unsigned int HEKFOJCKCFF_TypeDefinitionIndex = 71220;
+
 	class HEKFOJCKCFF : public ::ADLGBJAOFPD
 	{
 	public:

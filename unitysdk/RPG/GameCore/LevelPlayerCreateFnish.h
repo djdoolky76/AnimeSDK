@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelPlayerCreateFnish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPlayerCreateFnish_TypeDefinitionIndex = 56849;
+
 	class LevelPlayerCreateFnish : public ::CMPGEAFHHDC
 	{
 	public:

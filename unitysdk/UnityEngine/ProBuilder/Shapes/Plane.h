@@ -13,6 +13,8 @@ namespace UnityEngine::ProBuilder::Shapes { class Shape; }
 
 namespace UnityEngine::ProBuilder::Shapes
 {
+	inline static constexpr unsigned int Plane_TypeDefinitionIndex = 44464;
+
 	class Plane : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
 	public:

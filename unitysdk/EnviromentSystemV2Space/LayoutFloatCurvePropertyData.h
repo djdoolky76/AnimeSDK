@@ -8,6 +8,8 @@ class GGJFAFONDHN;
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int LayoutFloatCurvePropertyData_TypeDefinitionIndex = 49375;
+
 	class LayoutFloatCurvePropertyData
 	{
 	public:

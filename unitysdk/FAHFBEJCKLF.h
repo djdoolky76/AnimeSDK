@@ -31,6 +31,8 @@ namespace System { class String; }
 #define FAHFBEJCKLF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E31F570)
 #define FAHFBEJCKLF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E31F5D0)
 
+inline static constexpr unsigned int FAHFBEJCKLF_TypeDefinitionIndex = 34080;
+
 	class FAHFBEJCKLF : public ::System::Object
 	{
 	public:

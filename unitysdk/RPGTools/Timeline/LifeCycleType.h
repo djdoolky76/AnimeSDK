@@ -3,6 +3,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int LifeCycleType_TypeDefinitionIndex = 48152;
+
 	enum class LifeCycleType : ::System::Int32
 	{
 		OnBehaviourPlay = 0,

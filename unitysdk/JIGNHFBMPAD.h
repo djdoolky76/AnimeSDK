@@ -59,6 +59,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define JIGNHFBMPAD_PMGNJJCNEHG_OFFSET UNITYSDK_OFFSET(0x1C6F8110)
 #define JIGNHFBMPAD_PNNECJKJBOA_OFFSET UNITYSDK_OFFSET(0x1C6F8410)
 
+inline static constexpr unsigned int JIGNHFBMPAD_TypeDefinitionIndex = 37017;
+
 	class JIGNHFBMPAD : public ::Entitas::Entity
 	{
 	public:

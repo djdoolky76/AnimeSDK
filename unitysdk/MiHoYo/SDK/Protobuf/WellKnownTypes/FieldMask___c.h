@@ -13,6 +13,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace MiHoYo::SDK::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int FieldMask___c_TypeDefinitionIndex = 35744;
+
 	class FieldMask___c : public ::System::Object
 	{
 	public:

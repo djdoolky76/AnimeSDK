@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DAPAKLKPBLD_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DCCD4E0)
 #define DAPAKLKPBLD_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DCCCE40)
 
+inline static constexpr unsigned int DAPAKLKPBLD_TypeDefinitionIndex = 12943;
+
 	class DAPAKLKPBLD : public ::System::Object
 	{
 	public:

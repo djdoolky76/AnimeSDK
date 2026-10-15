@@ -43,6 +43,8 @@ namespace RPG::Client { class MonoMap3DTouch_EGALJIEANAO; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoMap3DTouch_TypeDefinitionIndex = 69043;
+
 	class MonoMap3DTouch : public ::UnityEngine::MonoBehaviour
 	{
 	public:

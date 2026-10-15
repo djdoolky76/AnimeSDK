@@ -8,6 +8,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int RightShiftInstruction_RightShiftUInt16_TypeDefinitionIndex = 3616;
+
 	class RightShiftInstruction_RightShiftUInt16 : public ::System::Linq::Expressions::Interpreter::RightShiftInstruction
 	{
 	public:

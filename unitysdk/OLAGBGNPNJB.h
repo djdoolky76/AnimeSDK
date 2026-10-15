@@ -12,6 +12,8 @@ namespace System { class String; }
 #define OLAGBGNPNJB_KHOHBBDOACA_OFFSET UNITYSDK_OFFSET(0xBEFF890)
 #define OLAGBGNPNJB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEFF4D0)
 
+inline static constexpr unsigned int OLAGBGNPNJB_TypeDefinitionIndex = 58463;
+
 	class OLAGBGNPNJB
 	{
 	public:

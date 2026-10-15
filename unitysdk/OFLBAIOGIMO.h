@@ -11,6 +11,8 @@ namespace System { class Action; }
 #define OFLBAIOGIMO_CCTOR_OFFSET UNITYSDK_OFFSET(0xBE46A80)
 #define OFLBAIOGIMO_CTOR_OFFSET UNITYSDK_OFFSET(0xBE46A70)
 
+inline static constexpr unsigned int OFLBAIOGIMO_TypeDefinitionIndex = 49258;
+
 	class OFLBAIOGIMO
 	{
 	public:

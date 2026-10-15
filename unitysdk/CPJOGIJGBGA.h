@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CPJOGIJGBGA_CTOR_OFFSET UNITYSDK_OFFSET(0xDCD8AB0)
 #define CPJOGIJGBGA_DDOPFCBNHGH_OFFSET UNITYSDK_OFFSET(0xDCD8B10)
 
+inline static constexpr unsigned int CPJOGIJGBGA_TypeDefinitionIndex = 65113;
+
 	class CPJOGIJGBGA : public ::RPG::Client::GridFightRole_GridFightRoleBuilder
 	{
 	public:

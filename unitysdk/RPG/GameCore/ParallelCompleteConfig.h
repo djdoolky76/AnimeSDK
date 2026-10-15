@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ParallelCompleteConfig_TypeDefinitionIndex = 23783;
+
 	class ParallelCompleteConfig : public ::RPG::GameCore::CompositeConfig
 	{
 	public:

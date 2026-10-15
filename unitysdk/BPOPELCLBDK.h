@@ -14,6 +14,8 @@ namespace System { class String; }
 #define BPOPELCLBDK_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xC1AE530)
 #define BPOPELCLBDK_MAMDDODKFGO_OFFSET UNITYSDK_OFFSET(0xC1AE1F0)
 
+inline static constexpr unsigned int BPOPELCLBDK_TypeDefinitionIndex = 57004;
+
 	class BPOPELCLBDK : public ::System::Object
 	{
 	public:

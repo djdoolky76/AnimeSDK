@@ -7,6 +7,8 @@
 #define YCORRECTION_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x15434780)
 #define YCORRECTION_SET_ENABLEYCORRECTION_OFFSET UNITYSDK_OFFSET(0x15434770)
 
+inline static constexpr unsigned int YCorrection_TypeDefinitionIndex = 47568;
+
 	class YCorrection : public ::UnityEngine::MonoBehaviour
 	{
 	public:

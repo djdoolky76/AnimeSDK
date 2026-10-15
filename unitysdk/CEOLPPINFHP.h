@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CEOLPPINFHP_CTOR_OFFSET UNITYSDK_OFFSET(0xC9F6300)
 #define CEOLPPINFHP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC9F6330)
 
+inline static constexpr unsigned int CEOLPPINFHP_TypeDefinitionIndex = 58571;
+
 	class CEOLPPINFHP
 	{
 	public:

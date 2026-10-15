@@ -64,6 +64,8 @@ namespace UnityEngine { class Transform; }
 #define SKIRTIK_UPDATESKIRTIKSERIALIZEDATAFROMASSET_OFFSET UNITYSDK_OFFSET(0xE96C5E0)
 #define SKIRTIK_UPDATESKIRTIKSERIALIZEDATA_OFFSET UNITYSDK_OFFSET(0xE96CB80)
 
+inline static constexpr unsigned int SkirtIK_TypeDefinitionIndex = 47250;
+
 	class SkirtIK : public ::UnityEngine::MonoBehaviour
 	{
 	public:

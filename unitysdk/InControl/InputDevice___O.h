@@ -5,6 +5,8 @@ namespace InControl { class DeadZoneFunc; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int InputDevice___O_TypeDefinitionIndex = 40837;
+
 	class InputDevice___O : public ::System::Object
 	{
 	public:

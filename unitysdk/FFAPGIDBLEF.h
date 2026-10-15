@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FFAPGIDBLEF_ODINLOEGGGL_OFFSET UNITYSDK_OFFSET(0x1572F450)
 #define FFAPGIDBLEF_PHBDIHNDMDA_OFFSET UNITYSDK_OFFSET(0x1572F2F0)
 
+inline static constexpr unsigned int FFAPGIDBLEF_TypeDefinitionIndex = 47703;
+
 	class FFAPGIDBLEF : public ::System::Object
 	{
 	public:

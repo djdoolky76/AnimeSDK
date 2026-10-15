@@ -21,6 +21,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int Cinemachine3rdPersonAim_TypeDefinitionIndex = 39714;
+
 	class Cinemachine3rdPersonAim : public ::Cinemachine::CinemachineExtension
 	{
 	public:

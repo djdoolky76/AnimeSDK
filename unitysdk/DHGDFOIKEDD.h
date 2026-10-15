@@ -29,6 +29,8 @@ namespace System { class String; }
 #define DHGDFOIKEDD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1B3960)
 #define DHGDFOIKEDD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1B39C0)
 
+inline static constexpr unsigned int DHGDFOIKEDD_TypeDefinitionIndex = 28443;
+
 	class DHGDFOIKEDD : public ::System::Object
 	{
 	public:

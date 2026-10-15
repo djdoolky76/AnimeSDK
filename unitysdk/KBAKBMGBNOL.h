@@ -31,6 +31,8 @@ namespace System { class String; }
 #define KBAKBMGBNOL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7E9060)
 #define KBAKBMGBNOL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7E90C0)
 
+inline static constexpr unsigned int KBAKBMGBNOL_TypeDefinitionIndex = 30342;
+
 	class KBAKBMGBNOL : public ::System::Object
 	{
 	public:

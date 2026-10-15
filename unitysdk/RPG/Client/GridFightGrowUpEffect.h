@@ -11,6 +11,8 @@ namespace UnityEngine { class Animation; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGrowUpEffect_TypeDefinitionIndex = 64499;
+
 	class GridFightGrowUpEffect : public ::RPG::Client::GridFightMemberEffect
 	{
 	public:

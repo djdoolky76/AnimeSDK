@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LittleGameLevelMetaConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameLevelMetaConfig_TypeDefinitionIndex = 18924;
+
 	class LittleGameLevelMetaConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

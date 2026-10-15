@@ -14,6 +14,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int AsyncTaskMethodBuilder_TypeDefinitionIndex = 1350;
+
 	struct alignas(8) AsyncTaskMethodBuilder
 	{
 		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder m_builder; // 0x10

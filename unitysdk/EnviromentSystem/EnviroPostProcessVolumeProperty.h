@@ -29,6 +29,8 @@ namespace UnityEngine::Rendering { class VolumeProfile; }
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int EnviroPostProcessVolumeProperty_TypeDefinitionIndex = 49611;
+
 	class EnviroPostProcessVolumeProperty : public ::EnviromentSystem::EnviroAssetProperty
 	{
 	public:

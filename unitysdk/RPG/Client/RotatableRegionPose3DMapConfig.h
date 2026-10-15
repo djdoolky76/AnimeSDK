@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RotatableRegionPose3DMapConfig_TypeDefinitionIndex = 69046;
+
 	class RotatableRegionPose3DMapConfig : public ::System::Object
 	{
 	public:

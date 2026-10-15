@@ -14,6 +14,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define IPOPGAAKKAD___C___SHOWFIELDINFO_B__23_2_OFFSET UNITYSDK_OFFSET(0x1C6F0930)
 #define IPOPGAAKKAD___C___SHOWFIELDINFO_B__23_3_OFFSET UNITYSDK_OFFSET(0x1C6F09D0)
 
+inline static constexpr unsigned int IPOPGAAKKAD___c_TypeDefinitionIndex = 37308;
+
 	class IPOPGAAKKAD___c : public ::System::Object
 	{
 	public:

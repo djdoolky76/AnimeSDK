@@ -7,6 +7,8 @@ namespace System { class String; }
 #define EAFINOJIOAA_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x12676610)
 #define EAFINOJIOAA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x12676660)
 
+inline static constexpr unsigned int EAFINOJIOAA_TypeDefinitionIndex = 82142;
+
 	class EAFINOJIOAA : public ::HGMMFJHJECA
 	{
 	public:

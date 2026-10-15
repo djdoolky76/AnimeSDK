@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarPathChangeVirtualCameraBlendConfig_TypeDefinitionIndex = 71337;
+
 	class AvatarPathChangeVirtualCameraBlendConfig : public ::System::Object
 	{
 	public:

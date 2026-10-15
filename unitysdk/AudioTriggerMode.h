@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int AudioTriggerMode_TypeDefinitionIndex = 47518;
+
 	enum class AudioTriggerMode : ::System::Int32
 	{
 		Once = 0,

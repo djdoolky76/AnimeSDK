@@ -8,6 +8,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterLookAtTiltData_TypeDefinitionIndex = 47980;
+
 	class CharacterLookAtTiltData : public ::System::Object
 	{
 	public:

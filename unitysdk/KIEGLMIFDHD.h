@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 #define KIEGLMIFDHD_NDFCJNAMFJG_OFFSET UNITYSDK_OFFSET(0x1C9010D0)
 #define KIEGLMIFDHD_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x1C901040)
 
+inline static constexpr unsigned int KIEGLMIFDHD_TypeDefinitionIndex = 43185;
+
 	class KIEGLMIFDHD : public ::System::Object
 	{
 	public:

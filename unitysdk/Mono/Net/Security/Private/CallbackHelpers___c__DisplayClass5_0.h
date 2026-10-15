@@ -12,6 +12,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
 namespace Mono::Net::Security::Private
 {
+	inline static constexpr unsigned int CallbackHelpers___c__DisplayClass5_0_TypeDefinitionIndex = 2450;
+
 	class CallbackHelpers___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

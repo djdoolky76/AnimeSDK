@@ -8,6 +8,8 @@ namespace System::Globalization { class Calendar; }
 
 namespace System
 {
+	inline static constexpr unsigned int ParsingInfo_TypeDefinitionIndex = 265;
+
 	struct alignas(8) ParsingInfo
 	{
 		::System::Globalization::Calendar* calendar; // 0x10

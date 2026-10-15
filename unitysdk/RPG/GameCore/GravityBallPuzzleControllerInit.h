@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GravityBallPuzzleControllerInit_TypeDefinitionIndex = 20377;
+
 	class GravityBallPuzzleControllerInit : public ::RPG::GameCore::TaskConfig
 	{
 	public:

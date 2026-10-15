@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MDNBBCOBGPH_FHPGCAPPENA_GET_MATCHEDPOSITIONS_OFFSET UNITYSDK_OFFSET(0x94D0)
 #define MDNBBCOBGPH_FHPGCAPPENA_SET_BESTSELECTIONCOUNT_OFFSET UNITYSDK_OFFSET(0xACF0)
 
+inline static constexpr unsigned int MDNBBCOBGPH_FHPGCAPPENA_TypeDefinitionIndex = 68101;
+
 	struct alignas(8) MDNBBCOBGPH_FHPGCAPPENA
 	{
 		::System::Collections::Generic::List_1<::System::UInt32>* _AvatarIDs_k__BackingField; // 0x10

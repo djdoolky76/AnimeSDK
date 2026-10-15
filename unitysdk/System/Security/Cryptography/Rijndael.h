@@ -10,6 +10,8 @@ namespace System::Security::Cryptography { class Rijndael; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int Rijndael_TypeDefinitionIndex = 1042;
+
 	class Rijndael : public ::System::Security::Cryptography::SymmetricAlgorithm
 	{
 	public:

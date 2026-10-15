@@ -9,6 +9,8 @@ namespace RPG::Client { class BattleModule; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleGamePhase___c__DisplayClass59_0_TypeDefinitionIndex = 60968;
+
 	class BattleGamePhase___c__DisplayClass59_0 : public ::System::Object
 	{
 	public:

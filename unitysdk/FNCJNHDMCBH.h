@@ -7,6 +7,8 @@ class FNCJNHDMCBH;
 #define FNCJNHDMCBH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE0D7E0)
 #define FNCJNHDMCBH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE0D670)
 
+inline static constexpr unsigned int FNCJNHDMCBH_TypeDefinitionIndex = 12025;
+
 	class FNCJNHDMCBH : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystem_OnNewParticleEmissionEvent_TypeDefinitionIndex = 5231;
+
 	class ParticleSystem_OnNewParticleEmissionEvent : public ::System::MulticastDelegate
 	{
 	public:

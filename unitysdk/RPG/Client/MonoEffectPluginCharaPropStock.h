@@ -17,6 +17,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginCharaPropStock_TypeDefinitionIndex = 69983;
+
 	class MonoEffectPluginCharaPropStock : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
 	public:

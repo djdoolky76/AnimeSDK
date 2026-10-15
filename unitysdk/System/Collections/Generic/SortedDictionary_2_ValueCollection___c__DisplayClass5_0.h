@@ -4,6 +4,8 @@
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int SortedDictionary_2_ValueCollection___c__DisplayClass5_0_TypeDefinitionIndex = 3027;
+
 	template <typename T1, typename T2>
 	class SortedDictionary_2_ValueCollection___c__DisplayClass5_0 : public ::System::Object
 	{

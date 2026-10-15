@@ -37,6 +37,8 @@ namespace UnityEngine::UI { class Text; }
 #define PIGKEFKJIHK_PNPANCOEFKE_OFFSET UNITYSDK_OFFSET(0xC260440)
 #define PIGKEFKJIHK__ONBIND_OFFSET UNITYSDK_OFFSET(0xC2601A0)
 
+inline static constexpr unsigned int PIGKEFKJIHK_TypeDefinitionIndex = 71611;
+
 	class PIGKEFKJIHK : public ::FMPCODLIOLG
 	{
 	public:

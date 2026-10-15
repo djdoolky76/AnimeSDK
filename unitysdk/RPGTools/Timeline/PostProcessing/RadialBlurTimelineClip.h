@@ -5,6 +5,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int RadialBlurTimelineClip_TypeDefinitionIndex = 48601;
+
 	class RadialBlurTimelineClip
 	{
 	public:

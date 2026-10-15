@@ -66,6 +66,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ComposeItemData_TypeDefinitionIndex = 65758;
+
 	class ComposeItemData : public ::System::Object
 	{
 	public:

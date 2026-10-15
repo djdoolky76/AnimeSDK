@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OOFDMALKAKD_ODKGLDGLGBP_OFFSET UNITYSDK_OFFSET(0xBF7A7B0)
 #define OOFDMALKAKD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF7A270)
 
+inline static constexpr unsigned int OOFDMALKAKD_TypeDefinitionIndex = 52533;
+
 	class OOFDMALKAKD
 	{
 	public:

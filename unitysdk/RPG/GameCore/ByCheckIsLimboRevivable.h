@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCheckIsLimboRevivable_TypeDefinitionIndex = 23035;
+
 	class ByCheckIsLimboRevivable : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int CIILMLFIACA_TypeDefinitionIndex = 31327;
+
 	enum class CIILMLFIACA : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

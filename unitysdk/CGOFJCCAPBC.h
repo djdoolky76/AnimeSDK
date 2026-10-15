@@ -36,6 +36,8 @@ namespace System { class String; }
 #define CGOFJCCAPBC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0B7CA0)
 #define CGOFJCCAPBC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0B7D00)
 
+inline static constexpr unsigned int CGOFJCCAPBC_TypeDefinitionIndex = 26829;
+
 	class CGOFJCCAPBC : public ::System::Object
 	{
 	public:

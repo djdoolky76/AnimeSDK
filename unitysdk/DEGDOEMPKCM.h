@@ -24,6 +24,8 @@ namespace RPG::Client { class RendererMaterialCache; }
 #define DEGDOEMPKCM_OOIKNGPCKEA_OFFSET UNITYSDK_OFFSET(0xE50B270)
 #define DEGDOEMPKCM_PJKEJOPFAHD_OFFSET UNITYSDK_OFFSET(0xE50B500)
 
+inline static constexpr unsigned int DEGDOEMPKCM_TypeDefinitionIndex = 57260;
+
 	class DEGDOEMPKCM : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

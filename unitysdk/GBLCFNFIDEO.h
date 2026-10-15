@@ -38,6 +38,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define GBLCFNFIDEO_POBHKMHMOGE_OFFSET UNITYSDK_OFFSET(0x1DD59600)
 #define GBLCFNFIDEO_POBOLNFJICH_OFFSET UNITYSDK_OFFSET(0x1DD5A270)
 
+inline static constexpr unsigned int GBLCFNFIDEO_TypeDefinitionIndex = 6263;
+
 	class GBLCFNFIDEO : public ::System::Object
 	{
 	public:

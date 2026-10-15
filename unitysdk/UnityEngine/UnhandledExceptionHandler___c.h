@@ -11,6 +11,8 @@ namespace System { class UnhandledExceptionEventHandler; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int UnhandledExceptionHandler___c_TypeDefinitionIndex = 4359;
+
 	class UnhandledExceptionHandler___c : public ::System::Object
 	{
 	public:

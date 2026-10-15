@@ -10,6 +10,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int LensFlareElement_TypeDefinitionIndex = 37821;
+
 	class LensFlareElement : public ::System::Object
 	{
 	public:

@@ -78,6 +78,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StaticListView_TypeDefinitionIndex = 72657;
+
 	class StaticListView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatUIRollCountRefreshParam_TypeDefinitionIndex = 76033;
+
 	class DiceCombatUIRollCountRefreshParam : public ::System::Object
 	{
 	public:

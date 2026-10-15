@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DotBarTypeConfig_TypeDefinitionIndex = 22734;
+
 	class DotBarTypeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

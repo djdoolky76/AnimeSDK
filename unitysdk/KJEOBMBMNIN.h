@@ -38,6 +38,8 @@ namespace System { class String; }
 #define KJEOBMBMNIN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E86A120)
 #define KJEOBMBMNIN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E86A180)
 
+inline static constexpr unsigned int KJEOBMBMNIN_TypeDefinitionIndex = 32962;
+
 	class KJEOBMBMNIN : public ::System::Object
 	{
 	public:

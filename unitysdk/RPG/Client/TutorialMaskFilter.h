@@ -16,6 +16,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TutorialMaskFilter_TypeDefinitionIndex = 69034;
+
 	class TutorialMaskFilter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

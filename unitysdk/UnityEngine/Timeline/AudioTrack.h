@@ -21,6 +21,8 @@ namespace UnityEngine::Timeline { template <typename T> class IntervalTree_1; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int AudioTrack_TypeDefinitionIndex = 38809;
+
 	class AudioTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

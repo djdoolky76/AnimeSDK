@@ -11,6 +11,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::Console::CN
 {
+	inline static constexpr unsigned int BindManager___c__DisplayClass12_0_TypeDefinitionIndex = 9110;
+
 	class BindManager___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

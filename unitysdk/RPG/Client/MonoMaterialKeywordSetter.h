@@ -11,6 +11,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoMaterialKeywordSetter_TypeDefinitionIndex = 71050;
+
 	class MonoMaterialKeywordSetter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

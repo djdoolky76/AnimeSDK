@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int APDINKHBHGC_TypeDefinitionIndex = 32458;
+
 	enum class APDINKHBHGC : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

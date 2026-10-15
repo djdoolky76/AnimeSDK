@@ -22,6 +22,8 @@ namespace UnityEngine::Events { class UnityEvent; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridBasedMovement_TypeDefinitionIndex = 72535;
+
 	class GridBasedMovement : public ::UnityEngine::MonoBehaviour
 	{
 	public:

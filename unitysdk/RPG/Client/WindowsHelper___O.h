@@ -5,6 +5,8 @@ namespace RPG::Client { class WindowsHelper_EnumWindowsCallBack; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WindowsHelper___O_TypeDefinitionIndex = 73245;
+
 	class WindowsHelper___O : public ::System::Object
 	{
 	public:

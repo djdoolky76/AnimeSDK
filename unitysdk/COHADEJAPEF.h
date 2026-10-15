@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define COHADEJAPEF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA134B0)
 #define COHADEJAPEF_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1CA13600)
 
+inline static constexpr unsigned int COHADEJAPEF_TypeDefinitionIndex = 43164;
+
 	class COHADEJAPEF : public ::BKABEBEPPJK
 	{
 	public:

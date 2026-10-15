@@ -6,6 +6,8 @@ namespace System { class String; }
 #define MGEMHJLOMAH_CTOR_OFFSET UNITYSDK_OFFSET(0xB918260)
 #define MGEMHJLOMAH_GET_ID_OFFSET UNITYSDK_OFFSET(0xB9182E0)
 
+inline static constexpr unsigned int MGEMHJLOMAH_TypeDefinitionIndex = 80506;
+
 	class MGEMHJLOMAH : public ::System::Attribute
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 #define KJHIAECCGBD_CTOR_OFFSET UNITYSDK_OFFSET(0xB456C70)
 #define KJHIAECCGBD_MPGEGIHLLLE_OFFSET UNITYSDK_OFFSET(0xB456680)
 
+inline static constexpr unsigned int KJHIAECCGBD_TypeDefinitionIndex = 66742;
+
 	class KJHIAECCGBD : public ::System::Object
 	{
 	public:

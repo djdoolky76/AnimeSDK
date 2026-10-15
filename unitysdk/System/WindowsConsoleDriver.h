@@ -15,6 +15,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int WindowsConsoleDriver_TypeDefinitionIndex = 462;
+
 	class WindowsConsoleDriver : public ::System::Object
 	{
 	public:

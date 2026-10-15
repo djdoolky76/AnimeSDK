@@ -39,6 +39,8 @@ namespace System::Xml::Schema { class XmlSchemaDatatype; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int SchemaElementDecl_TypeDefinitionIndex = 2173;
+
 	class SchemaElementDecl : public ::System::Xml::Schema::SchemaDeclBase
 	{
 	public:

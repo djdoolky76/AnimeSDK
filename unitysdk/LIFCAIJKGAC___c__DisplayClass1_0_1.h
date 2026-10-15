@@ -4,6 +4,8 @@
 namespace RPG::Client { class UIDragScope; }
 namespace System { class Action; }
 
+inline static constexpr unsigned int LIFCAIJKGAC___c__DisplayClass1_0_1_TypeDefinitionIndex = 49846;
+
 	template <typename T>
 	class LIFCAIJKGAC___c__DisplayClass1_0_1 : public ::System::Object
 	{

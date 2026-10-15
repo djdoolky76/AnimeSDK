@@ -36,6 +36,8 @@ namespace System::Xml::Serialization { class XmlTypeAttribute; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlAttributes_TypeDefinitionIndex = 2004;
+
 	class XmlAttributes : public ::System::Object
 	{
 	public:

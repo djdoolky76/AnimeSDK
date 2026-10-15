@@ -7,6 +7,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int NoInterpColorParameter_TypeDefinitionIndex = 35644;
+
 	class NoInterpColorParameter
 	{
 	public:

@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define DOAPHOAMCDH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD51B40)
 #define DOAPHOAMCDH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD51A70)
 
+inline static constexpr unsigned int DOAPHOAMCDH_TypeDefinitionIndex = 19939;
+
 	class DOAPHOAMCDH : public ::RPG::GameCore::TaskConfig
 	{
 	public:

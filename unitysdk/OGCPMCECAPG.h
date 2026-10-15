@@ -14,6 +14,8 @@ namespace System { class String; }
 #define OGCPMCECAPG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D26EBF0)
 #define OGCPMCECAPG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D26EBB0)
 
+inline static constexpr unsigned int OGCPMCECAPG_TypeDefinitionIndex = 22859;
+
 	class OGCPMCECAPG : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

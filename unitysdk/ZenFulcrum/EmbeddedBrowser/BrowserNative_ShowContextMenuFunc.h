@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_ShowContextMenuFunc_TypeDefinitionIndex = 39380;
+
 	class BrowserNative_ShowContextMenuFunc : public ::System::MulticastDelegate
 	{
 	public:

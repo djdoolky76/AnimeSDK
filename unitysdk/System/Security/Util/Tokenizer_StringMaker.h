@@ -12,6 +12,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System::Security::Util
 {
+	inline static constexpr unsigned int Tokenizer_StringMaker_TypeDefinitionIndex = 977;
+
 	class Tokenizer_StringMaker : public ::System::Object
 	{
 	public:

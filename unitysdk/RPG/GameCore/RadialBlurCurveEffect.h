@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RadialBlurCurveEffect_TypeDefinitionIndex = 20259;
+
 	class RadialBlurCurveEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OnEventCallBack_TypeDefinitionIndex = 56692;
+
 	class OnEventCallBack : public ::System::MulticastDelegate
 	{
 	public:

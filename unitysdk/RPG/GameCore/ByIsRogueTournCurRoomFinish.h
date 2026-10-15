@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsRogueTournCurRoomFinish_TypeDefinitionIndex = 22122;
+
 	class ByIsRogueTournCurRoomFinish : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

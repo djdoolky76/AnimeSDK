@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCheckDarkTeamDestroy_TypeDefinitionIndex = 23442;
+
 	class ByCheckDarkTeamDestroy : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

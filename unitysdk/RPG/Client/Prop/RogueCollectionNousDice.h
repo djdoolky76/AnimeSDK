@@ -14,6 +14,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int RogueCollectionNousDice_TypeDefinitionIndex = 78949;
+
 	class RogueCollectionNousDice : public ::UnityEngine::MonoBehaviour
 	{
 	public:

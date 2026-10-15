@@ -31,6 +31,8 @@ namespace System { class String; }
 #define HLFAKEOBFAB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5BCE60)
 #define HLFAKEOBFAB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5BCEC0)
 
+inline static constexpr unsigned int HLFAKEOBFAB_TypeDefinitionIndex = 33914;
+
 	class HLFAKEOBFAB : public ::System::Object
 	{
 	public:

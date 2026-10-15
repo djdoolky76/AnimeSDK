@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PenaconyEndmostChronicleMissionBinder_TypeDefinitionIndex = 66107;
+
 	class PenaconyEndmostChronicleMissionBinder : public ::UnityEngine::MonoBehaviour
 	{
 	public:

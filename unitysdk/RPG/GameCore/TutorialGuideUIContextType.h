@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TutorialGuideUIContextType_TypeDefinitionIndex = 24821;
+
 	enum class TutorialGuideUIContextType : ::System::Int32
 	{
 		None = 0,

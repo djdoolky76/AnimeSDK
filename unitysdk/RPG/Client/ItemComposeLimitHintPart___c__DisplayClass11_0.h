@@ -8,6 +8,8 @@ namespace RPG::Client { template <typename T> class PrefHashSet_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ItemComposeLimitHintPart___c__DisplayClass11_0_TypeDefinitionIndex = 65749;
+
 	class ItemComposeLimitHintPart___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

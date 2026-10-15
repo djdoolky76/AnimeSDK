@@ -3,6 +3,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int DayOfWeek_TypeDefinitionIndex = 226;
+
 	enum class DayOfWeek : ::System::Int32
 	{
 		Sunday = 0,

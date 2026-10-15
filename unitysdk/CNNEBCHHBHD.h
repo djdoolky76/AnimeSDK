@@ -5,6 +5,8 @@ namespace System { class Action; }
 
 #define CNNEBCHHBHD_CTOR_OFFSET UNITYSDK_OFFSET(0xDA5C810)
 
+inline static constexpr unsigned int CNNEBCHHBHD_TypeDefinitionIndex = 56224;
+
 	class CNNEBCHHBHD : public ::System::Object
 	{
 	public:

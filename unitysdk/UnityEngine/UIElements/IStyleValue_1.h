@@ -3,6 +3,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int IStyleValue_1_TypeDefinitionIndex = 6005;
+
 	template <typename T>
 	class IStyleValue_1
 	{

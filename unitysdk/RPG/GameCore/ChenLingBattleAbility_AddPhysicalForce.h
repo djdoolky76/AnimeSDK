@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChenLingBattleAbility_AddPhysicalForce; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAbility_AddPhysicalForce_TypeDefinitionIndex = 15735;
+
 	class ChenLingBattleAbility_AddPhysicalForce : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
 	public:

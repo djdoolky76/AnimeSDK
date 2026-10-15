@@ -23,6 +23,8 @@ namespace UnityEngine { class Animation; }
 #define OMEOAONBDBP__ONBIND_OFFSET UNITYSDK_OFFSET(0xBF25620)
 #define OMEOAONBDBP__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xBF25970)
 
+inline static constexpr unsigned int OMEOAONBDBP_TypeDefinitionIndex = 72365;
+
 	class OMEOAONBDBP : public ::FMPCODLIOLG
 	{
 	public:

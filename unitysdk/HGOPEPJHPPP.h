@@ -5,6 +5,8 @@ class FOLHKNBFONK;
 
 #define HGOPEPJHPPP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CACAED0)
 
+inline static constexpr unsigned int HGOPEPJHPPP_TypeDefinitionIndex = 42023;
+
 	class HGOPEPJHPPP : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine { class Animation; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeExtraStep_TypeDefinitionIndex = 65933;
+
 	class MatchThreeExtraStep : public ::UnityEngine::MonoBehaviour
 	{
 	public:

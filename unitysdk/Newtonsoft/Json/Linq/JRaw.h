@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace Newtonsoft::Json::Linq
 {
+	inline static constexpr unsigned int JRaw_TypeDefinitionIndex = 9758;
+
 	class JRaw : public ::Newtonsoft::Json::Linq::JValue
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG::Client::Multiplayer
 {
+	inline static constexpr unsigned int BaseMPGameService___c__DisplayClass1_0_TypeDefinitionIndex = 80253;
+
 	class BaseMPGameService___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

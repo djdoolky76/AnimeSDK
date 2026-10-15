@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NDMGIMOOFBL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAED0A0)
 #define NDMGIMOOFBL___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1EAED0B0)
 
+inline static constexpr unsigned int NDMGIMOOFBL___c_TypeDefinitionIndex = 29997;
+
 	class NDMGIMOOFBL___c : public ::System::Object
 	{
 	public:

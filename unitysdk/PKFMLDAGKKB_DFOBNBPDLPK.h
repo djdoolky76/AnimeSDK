@@ -8,6 +8,8 @@ namespace UnityEngine::Rendering { class BatchAnimationClip; }
 
 #define PKFMLDAGKKB_DFOBNBPDLPK_CTOR_OFFSET UNITYSDK_OFFSET(0xC2B94A0)
 
+inline static constexpr unsigned int PKFMLDAGKKB_DFOBNBPDLPK_TypeDefinitionIndex = 69259;
+
 	class PKFMLDAGKKB_DFOBNBPDLPK : public ::System::Object
 	{
 	public:

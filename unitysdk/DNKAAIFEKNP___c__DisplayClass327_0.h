@@ -6,6 +6,8 @@
 #define DNKAAIFEKNP___C__DISPLAYCLASS327_0_CTOR_OFFSET UNITYSDK_OFFSET(0x11FCD7F0)
 #define DNKAAIFEKNP___C__DISPLAYCLASS327_0__REPORTFATERINOPENREPLACECARD_B__0_OFFSET UNITYSDK_OFFSET(0x11FD27B0)
 
+inline static constexpr unsigned int DNKAAIFEKNP___c__DisplayClass327_0_TypeDefinitionIndex = 59993;
+
 	class DNKAAIFEKNP___c__DisplayClass327_0 : public ::System::Object
 	{
 	public:

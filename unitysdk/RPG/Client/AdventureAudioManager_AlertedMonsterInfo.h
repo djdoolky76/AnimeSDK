@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AdventureAudioManager_AlertedMonsterInfo_TypeDefinitionIndex = 60488;
+
 	class AdventureAudioManager_AlertedMonsterInfo : public ::System::Object
 	{
 	public:

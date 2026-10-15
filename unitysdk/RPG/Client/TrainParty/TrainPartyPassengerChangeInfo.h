@@ -25,6 +25,8 @@ namespace RPG::Client::TrainParty { class TrainPartyPassengerStatusInfo; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyPassengerChangeInfo_TypeDefinitionIndex = 74342;
+
 	class TrainPartyPassengerChangeInfo : public ::System::Object
 	{
 	public:

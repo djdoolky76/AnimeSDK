@@ -6,6 +6,8 @@
 
 #define LHEHAAABGHN_NIEPBFAFELJ_OFFSET UNITYSDK_OFFSET(0xB6ADA00)
 
+inline static constexpr unsigned int LHEHAAABGHN_TypeDefinitionIndex = 81064;
+
 	class LHEHAAABGHN : public ::System::Object
 	{
 	public:

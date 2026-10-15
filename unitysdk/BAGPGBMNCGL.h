@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BAGPGBMNCGL__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x15BE0390)
 #define BAGPGBMNCGL__ONTICK_OFFSET UNITYSDK_OFFSET(0x15BE0420)
 
+inline static constexpr unsigned int BAGPGBMNCGL_TypeDefinitionIndex = 65836;
+
 	class BAGPGBMNCGL : public ::FMPCODLIOLG
 	{
 	public:

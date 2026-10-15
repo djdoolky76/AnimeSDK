@@ -5,6 +5,8 @@
 
 #define IJDMNPNMMPI_CTOR_OFFSET UNITYSDK_OFFSET(0x1645A6A0)
 
+inline static constexpr unsigned int IJDMNPNMMPI_TypeDefinitionIndex = 67774;
+
 	class IJDMNPNMMPI : public ::System::Object
 	{
 	public:

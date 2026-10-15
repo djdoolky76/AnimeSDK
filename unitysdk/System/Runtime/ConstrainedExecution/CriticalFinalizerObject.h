@@ -7,6 +7,8 @@
 
 namespace System::Runtime::ConstrainedExecution
 {
+	inline static constexpr unsigned int CriticalFinalizerObject_TypeDefinitionIndex = 1341;
+
 	class CriticalFinalizerObject : public ::System::Object
 	{
 	public:

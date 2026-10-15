@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 #define OBOCABOPCON_IFDDJAALMEE_GET_OBJECTDATA_OFFSET UNITYSDK_OFFSET(0xBD4D5A0)
 #define OBOCABOPCON_IFDDJAALMEE_GET_SOURCE_OFFSET UNITYSDK_OFFSET(0xBD4D590)
 
+inline static constexpr unsigned int OBOCABOPCON_IFDDJAALMEE_TypeDefinitionIndex = 81258;
+
 	class OBOCABOPCON_IFDDJAALMEE : public ::System::Object
 	{
 	public:

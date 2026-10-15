@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NEKJAMFGPEM_CTOR_OFFSET UNITYSDK_OFFSET(0xBB6F150)
 #define NEKJAMFGPEM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBB6F180)
 
+inline static constexpr unsigned int NEKJAMFGPEM_TypeDefinitionIndex = 54463;
+
 	class NEKJAMFGPEM
 	{
 	public:

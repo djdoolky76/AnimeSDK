@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TransferMahJongLayoutEffect_TypeDefinitionIndex = 23128;
+
 	class TransferMahJongLayoutEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

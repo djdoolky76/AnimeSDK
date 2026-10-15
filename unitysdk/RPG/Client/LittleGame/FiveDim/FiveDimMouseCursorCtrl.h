@@ -17,6 +17,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimMouseCursorCtrl_TypeDefinitionIndex = 77224;
+
 	class FiveDimMouseCursorCtrl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

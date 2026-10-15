@@ -7,6 +7,8 @@ class FCOEMCEDLNL;
 #define EEBCIMFFFJF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD72370)
 #define EEBCIMFFFJF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD72280)
 
+inline static constexpr unsigned int EEBCIMFFFJF_TypeDefinitionIndex = 13314;
+
 	class EEBCIMFFFJF : public ::System::Object
 	{
 	public:

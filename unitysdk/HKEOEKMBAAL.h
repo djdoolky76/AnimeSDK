@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HKEOEKMBAAL_CTOR_OFFSET UNITYSDK_OFFSET(0x15D430A0)
 #define HKEOEKMBAAL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D430D0)
 
+inline static constexpr unsigned int HKEOEKMBAAL_TypeDefinitionIndex = 52987;
+
 	class HKEOEKMBAAL
 	{
 	public:

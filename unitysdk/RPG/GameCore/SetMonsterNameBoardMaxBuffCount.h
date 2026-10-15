@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetMonsterNameBoardMaxBuffCount; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetMonsterNameBoardMaxBuffCount_TypeDefinitionIndex = 23460;
+
 	class SetMonsterNameBoardMaxBuffCount : public ::RPG::GameCore::TaskConfig
 	{
 	public:

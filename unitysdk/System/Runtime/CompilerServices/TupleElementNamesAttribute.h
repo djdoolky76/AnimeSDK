@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int TupleElementNamesAttribute_TypeDefinitionIndex = 1348;
+
 	class TupleElementNamesAttribute : public ::System::Attribute
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace Unity::IL2CPP::CompilerServices
 {
+	inline static constexpr unsigned int Il2CppIntrinsics_TypeDefinitionIndex = 3973;
+
 	class Il2CppIntrinsics : public ::System::Object
 	{
 	public:

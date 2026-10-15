@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelAdvEffectOverrideInfo_TypeDefinitionIndex = 17229;
+
 	class LevelAdvEffectOverrideInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

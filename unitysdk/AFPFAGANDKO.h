@@ -39,6 +39,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AFPFAGANDKO_OJOCLGKECCD_OFFSET UNITYSDK_OFFSET(0xCF22E00)
 #define AFPFAGANDKO_OLMHPNPIJCP_OFFSET UNITYSDK_OFFSET(0xCF20A60)
 
+inline static constexpr unsigned int AFPFAGANDKO_TypeDefinitionIndex = 73958;
+
 	class AFPFAGANDKO : public ::PAOIIOIGCOJ
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleOnField; }
 #define OGCBMGHDEFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C98CDC0)
 #define OGCBMGHDEFP_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C98CDD0)
 
+inline static constexpr unsigned int OGCBMGHDEFP_TypeDefinitionIndex = 43114;
+
 	class OGCBMGHDEFP : public ::BKABEBEPPJK
 	{
 	public:

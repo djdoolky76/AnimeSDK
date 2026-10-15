@@ -14,6 +14,8 @@ namespace UnityEngine::ProBuilder::Shapes { class Shape; }
 
 namespace UnityEngine::ProBuilder::Shapes
 {
+	inline static constexpr unsigned int Cube_TypeDefinitionIndex = 44460;
+
 	class Cube : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
 	public:

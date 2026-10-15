@@ -12,6 +12,8 @@ namespace System::Xml::Schema { class XmlSchemaParticle; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlSchemaParticle_TypeDefinitionIndex = 2206;
+
 	class XmlSchemaParticle : public ::System::Xml::Schema::XmlSchemaAnnotated
 	{
 	public:

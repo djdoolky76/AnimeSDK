@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GANMPINODCH_CTOR_OFFSET UNITYSDK_OFFSET(0x15942DC0)
 #define GANMPINODCH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15942DF0)
 
+inline static constexpr unsigned int GANMPINODCH_TypeDefinitionIndex = 52540;
+
 	class GANMPINODCH
 	{
 	public:

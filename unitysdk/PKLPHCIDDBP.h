@@ -5,6 +5,8 @@
 #define PKLPHCIDDBP_CTOR_OFFSET UNITYSDK_OFFSET(0xC2E6380)
 #define PKLPHCIDDBP_DANKHPIIDOH_OFFSET UNITYSDK_OFFSET(0xC2E6340)
 
+inline static constexpr unsigned int PKLPHCIDDBP_TypeDefinitionIndex = 66175;
+
 	class PKLPHCIDDBP : public ::LCPNALBMKIB
 	{
 	public:

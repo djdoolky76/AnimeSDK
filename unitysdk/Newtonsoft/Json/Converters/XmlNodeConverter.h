@@ -46,6 +46,8 @@ namespace System::Xml { class XmlNamespaceManager; }
 
 namespace Newtonsoft::Json::Converters
 {
+	inline static constexpr unsigned int XmlNodeConverter_TypeDefinitionIndex = 9845;
+
 	class XmlNodeConverter : public ::Newtonsoft::Json::JsonConverter
 	{
 	public:

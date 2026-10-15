@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleCollegeData_TypeDefinitionIndex = 62874;
+
 	class BattleCollegeData : public ::System::Object
 	{
 	public:

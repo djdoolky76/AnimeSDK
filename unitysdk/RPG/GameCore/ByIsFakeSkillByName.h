@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsFakeSkillByName_TypeDefinitionIndex = 23006;
+
 	class ByIsFakeSkillByName : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

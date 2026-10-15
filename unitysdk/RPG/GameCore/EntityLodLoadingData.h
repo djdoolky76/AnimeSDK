@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntityLodLoadingData_TypeDefinitionIndex = 19216;
+
 	class EntityLodLoadingData : public ::RPG::GameCore::EntityLodLoadingArtData
 	{
 	public:

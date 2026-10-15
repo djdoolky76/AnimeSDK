@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int FormatException_TypeDefinitionIndex = 249;
+
 	class FormatException : public ::System::SystemException
 	{
 	public:

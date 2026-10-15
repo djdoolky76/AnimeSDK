@@ -33,6 +33,8 @@ namespace System { class String; }
 #define JLHEBEDKIPC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E778A10)
 #define JLHEBEDKIPC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E778A70)
 
+inline static constexpr unsigned int JLHEBEDKIPC_TypeDefinitionIndex = 32555;
+
 	class JLHEBEDKIPC : public ::System::Object
 	{
 	public:

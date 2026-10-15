@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightEquipDressType_TypeDefinitionIndex = 13440;
+
 	enum class GridFightEquipDressType : ::System::Int32
 	{
 		DressRuleNotUnique = 0,

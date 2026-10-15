@@ -6,6 +6,8 @@
 
 namespace RPG::Client::UI3DGame
 {
+	inline static constexpr unsigned int MonoUI3DGamePlayer_TypeDefinitionIndex = 75786;
+
 	class MonoUI3DGamePlayer : public ::RPG::Client::UI3DGame::MonoUI3DGameView
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine::EventSystems { class BaseEventData; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncSubmitTrigger_TypeDefinitionIndex = 38649;
+
 	class AsyncSubmitTrigger
 	{
 	public:

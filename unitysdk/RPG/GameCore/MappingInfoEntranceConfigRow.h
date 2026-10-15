@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MappingInfoEntranceConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MappingInfoEntranceConfigRow_TypeDefinitionIndex = 12582;
+
 	class MappingInfoEntranceConfigRow : public ::System::Object
 	{
 	public:

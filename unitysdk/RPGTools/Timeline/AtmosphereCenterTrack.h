@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int AtmosphereCenterTrack_TypeDefinitionIndex = 47863;
+
 	class AtmosphereCenterTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

@@ -35,6 +35,8 @@ namespace System { class String; }
 #define MOJFFDOILBN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAADA30)
 #define MOJFFDOILBN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAADA90)
 
+inline static constexpr unsigned int MOJFFDOILBN_TypeDefinitionIndex = 27206;
+
 	class MOJFFDOILBN : public ::System::Object
 	{
 	public:

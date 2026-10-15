@@ -7,6 +7,8 @@ class NFAHODNHEKK;
 #define ABHDKKFFIDN_FCKDPOPNLIB_OFFSET UNITYSDK_OFFSET(0x1C5809D0)
 #define ABHDKKFFIDN_TICK_OFFSET UNITYSDK_OFFSET(0x1C580B00)
 
+inline static constexpr unsigned int ABHDKKFFIDN_TypeDefinitionIndex = 37345;
+
 	class ABHDKKFFIDN : public ::HOCBJOJNLLC
 	{
 	public:

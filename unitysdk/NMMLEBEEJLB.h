@@ -27,6 +27,8 @@ namespace System { class String; }
 #define NMMLEBEEJLB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB7A1D0)
 #define NMMLEBEEJLB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB7A230)
 
+inline static constexpr unsigned int NMMLEBEEJLB_TypeDefinitionIndex = 32844;
+
 	class NMMLEBEEJLB : public ::System::Object
 	{
 	public:

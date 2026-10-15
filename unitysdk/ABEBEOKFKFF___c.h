@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ABEBEOKFKFF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDC9900)
 #define ABEBEOKFKFF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DDC9910)
 
+inline static constexpr unsigned int ABEBEOKFKFF___c_TypeDefinitionIndex = 31490;
+
 	class ABEBEOKFKFF___c : public ::System::Object
 	{
 	public:

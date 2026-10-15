@@ -6,6 +6,8 @@ namespace RPG::GameCore { class SkillData; }
 #define PEGEIFMEAKB_CTOR_OFFSET UNITYSDK_OFFSET(0x26AF0)
 #define PEGEIFMEAKB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x26B00)
 
+inline static constexpr unsigned int PEGEIFMEAKB_TypeDefinitionIndex = 57670;
+
 	struct alignas(8) PEGEIFMEAKB
 	{
 		::NFBKGADNBBO* IEGBIPMGBPA; // 0x10

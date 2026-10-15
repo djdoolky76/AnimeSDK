@@ -16,6 +16,8 @@ namespace UnityEngine { class Light; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int LightCollection_TypeDefinitionIndex = 51838;
+
 	class LightCollection : public ::UnityEngine::MonoBehaviour
 	{
 	public:

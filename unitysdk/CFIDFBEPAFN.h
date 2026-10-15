@@ -8,6 +8,8 @@ namespace UnityEngine { class RectTransform; }
 #define CFIDFBEPAFN_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xCC4E240)
 #define CFIDFBEPAFN_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xCC4E290)
 
+inline static constexpr unsigned int CFIDFBEPAFN_TypeDefinitionIndex = 72486;
+
 	class CFIDFBEPAFN : public ::LBAMBIMMJKB
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define GOOHEOIBCPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB56E0)
 
+inline static constexpr unsigned int GOOHEOIBCPJ_TypeDefinitionIndex = 43505;
+
 	class GOOHEOIBCPJ : public ::System::Object
 	{
 	public:

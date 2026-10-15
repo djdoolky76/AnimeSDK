@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RogueMagicLayerEffectRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueMagicLayerEffectRow_TypeDefinitionIndex = 14858;
+
 	class RogueMagicLayerEffectRow : public ::System::Object
 	{
 	public:

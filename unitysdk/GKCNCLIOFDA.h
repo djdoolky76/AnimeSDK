@@ -120,6 +120,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GKCNCLIOFDA_PHMOICGEHAL_OFFSET UNITYSDK_OFFSET(0x15A84BD0)
 #define GKCNCLIOFDA_PIKLLOCJIFB_OFFSET UNITYSDK_OFFSET(0x15A879B0)
 
+inline static constexpr unsigned int GKCNCLIOFDA_TypeDefinitionIndex = 53521;
+
 	class GKCNCLIOFDA : public ::System::Object
 	{
 	public:

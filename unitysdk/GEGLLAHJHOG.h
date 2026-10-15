@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define GEGLLAHJHOG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC6DC20)
 #define GEGLLAHJHOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC6CDE0)
 
+inline static constexpr unsigned int GEGLLAHJHOG_TypeDefinitionIndex = 44291;
+
 	class GEGLLAHJHOG : public ::System::Object
 	{
 	public:

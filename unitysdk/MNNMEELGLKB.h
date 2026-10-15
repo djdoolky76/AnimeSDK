@@ -10,6 +10,8 @@ namespace RPG::Client { class IGamePhase; }
 #define MNNMEELGLKB_HILHCKLBJOM_OFFSET UNITYSDK_OFFSET(0xBA19510)
 #define MNNMEELGLKB_NPJGONHMEOD_OFFSET UNITYSDK_OFFSET(0xBA18F50)
 
+inline static constexpr unsigned int MNNMEELGLKB_TypeDefinitionIndex = 61193;
+
 	class MNNMEELGLKB : public ::HDJIGMBHENE
 	{
 	public:

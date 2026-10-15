@@ -13,6 +13,8 @@ class DCIAAMADOGH;
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersSettleExpInfoViewModel_TypeDefinitionIndex = 79073;
+
 	class TeamTowersSettleExpInfoViewModel : public ::System::Object
 	{
 	public:

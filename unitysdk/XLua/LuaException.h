@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int LuaException_TypeDefinitionIndex = 50209;
+
 	class LuaException : public ::System::Exception
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleScoringType_TypeDefinitionIndex = 15435;
+
 	enum class BattleScoringType : ::System::Int32
 	{
 		Quest = 0,

@@ -61,6 +61,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JAHCGOLIOMF_OALIBBODAOC_OFFSET UNITYSDK_OFFSET(0x16546620)
 #define JAHCGOLIOMF_POBPPOCFFOJ_OFFSET UNITYSDK_OFFSET(0x165470B0)
 
+inline static constexpr unsigned int JAHCGOLIOMF_TypeDefinitionIndex = 59060;
+
 	class JAHCGOLIOMF : public ::System::Object
 	{
 	public:

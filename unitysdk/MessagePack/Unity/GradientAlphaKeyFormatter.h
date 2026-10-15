@@ -12,6 +12,8 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Unity
 {
+	inline static constexpr unsigned int GradientAlphaKeyFormatter_TypeDefinitionIndex = 10131;
+
 	class GradientAlphaKeyFormatter : public ::System::Object
 	{
 	public:

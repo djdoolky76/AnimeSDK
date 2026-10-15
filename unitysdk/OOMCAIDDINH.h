@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OOMCAIDDINH_CTOR_OFFSET UNITYSDK_OFFSET(0xBF8D180)
 #define OOMCAIDDINH_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xBF8D1A0)
 
+inline static constexpr unsigned int OOMCAIDDINH_TypeDefinitionIndex = 53814;
+
 	class OOMCAIDDINH
 	{
 	public:

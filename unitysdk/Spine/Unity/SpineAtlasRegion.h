@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SpineAtlasRegion_TypeDefinitionIndex = 45101;
+
 	class SpineAtlasRegion : public ::UnityEngine::PropertyAttribute
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define EBNGNFMMPLJ_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0x23062E0)
 #define EBNGNFMMPLJ_SET_ISINITIALIZED_OFFSET UNITYSDK_OFFSET(0xE7630)
 
+inline static constexpr unsigned int EBNGNFMMPLJ_TypeDefinitionIndex = 68472;
+
 	struct alignas(8) EBNGNFMMPLJ
 	{
 		::System::Boolean _IsInitialized_k__BackingField; // 0x10

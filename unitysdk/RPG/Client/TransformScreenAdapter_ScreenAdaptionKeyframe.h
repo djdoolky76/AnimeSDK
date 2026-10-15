@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TransformScreenAdapter_ScreenAdaptionKeyframe_TypeDefinitionIndex = 70345;
+
 	struct alignas(4) TransformScreenAdapter_ScreenAdaptionKeyframe
 	{
 		::System::Single Width; // 0x10

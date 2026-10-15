@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TRFCubeComponentConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TRFCubeComponentConfig_TypeDefinitionIndex = 18909;
+
 	class TRFCubeComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

@@ -26,6 +26,8 @@ namespace ZLinq { class ValueEnumerable; }
 #define AKAPAHAHLHD_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CCD2EF0)
 #define AKAPAHAHLHD_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CCD26D0)
 
+inline static constexpr unsigned int AKAPAHAHLHD_TypeDefinitionIndex = 13648;
+
 	class AKAPAHAHLHD : public ::System::Object
 	{
 	public:

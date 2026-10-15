@@ -11,6 +11,8 @@ namespace System { class String; }
 #define LEJOLMBPBPC_CTOR_OFFSET UNITYSDK_OFFSET(0xB658750)
 #define LEJOLMBPBPC_IHEFFDKFAOA_OFFSET UNITYSDK_OFFSET(0xB658510)
 
+inline static constexpr unsigned int LEJOLMBPBPC_TypeDefinitionIndex = 74422;
+
 	class LEJOLMBPBPC : public ::System::Object
 	{
 	public:

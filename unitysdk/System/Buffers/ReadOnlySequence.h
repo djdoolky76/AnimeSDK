@@ -13,6 +13,8 @@
 
 namespace System::Buffers
 {
+	inline static constexpr unsigned int ReadOnlySequence_TypeDefinitionIndex = 5001;
+
 	class ReadOnlySequence : public ::System::Object
 	{
 	public:

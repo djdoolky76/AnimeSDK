@@ -9,6 +9,8 @@
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int MatchTargetFieldConstants_TypeDefinitionIndex = 38779;
+
 	class MatchTargetFieldConstants : public ::System::Object
 	{
 	public:

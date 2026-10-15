@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PetPartySummonUnitTagMapping_TypeDefinitionIndex = 17541;
+
 	class PetPartySummonUnitTagMapping : public ::RPG::GameCore::JsonConfig
 	{
 	public:

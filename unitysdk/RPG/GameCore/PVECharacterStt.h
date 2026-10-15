@@ -7,6 +7,8 @@ class DPMFBDHCNNO;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PVECharacterStt_TypeDefinitionIndex = 57625;
+
 	class PVECharacterStt : public ::BIMHOGHOCKP
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int HandheldAgeGateParentalConsentRequiredDialog___ClosePressed_g__OnClosePressedRoutine_39_0_d_TypeDefinitionIndex = 8796;
+
 	class HandheldAgeGateParentalConsentRequiredDialog___ClosePressed_g__OnClosePressedRoutine_39_0_d : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::Client::ElectricChainV2 { class Shape; }
 
 namespace RPG::Client::ElectricChainV2
 {
+	inline static constexpr unsigned int Line_TypeDefinitionIndex = 73600;
+
 	class Line : public ::System::Object
 	{
 	public:

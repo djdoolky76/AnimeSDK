@@ -4,6 +4,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2SimplexVertex_TypeDefinitionIndex = 36774;
+
 	struct alignas(4) B2SimplexVertex
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 wA; // 0x10

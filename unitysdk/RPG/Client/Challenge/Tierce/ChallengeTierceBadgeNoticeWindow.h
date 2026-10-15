@@ -13,6 +13,8 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceBadgeNoticeContr
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceBadgeNoticeWindow_TypeDefinitionIndex = 81520;
+
 	class ChallengeTierceBadgeNoticeWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:

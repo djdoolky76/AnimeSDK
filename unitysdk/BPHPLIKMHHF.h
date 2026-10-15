@@ -32,6 +32,8 @@ namespace System { class String; }
 #define BPHPLIKMHHF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0485A0)
 #define BPHPLIKMHHF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E048600)
 
+inline static constexpr unsigned int BPHPLIKMHHF_TypeDefinitionIndex = 30074;
+
 	class BPHPLIKMHHF : public ::System::Object
 	{
 	public:

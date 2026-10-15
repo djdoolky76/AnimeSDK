@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CEDCCCCMOCL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E08FBC0)
 #define CEDCCCCMOCL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E08FC20)
 
+inline static constexpr unsigned int CEDCCCCMOCL_TypeDefinitionIndex = 26147;
+
 	class CEDCCCCMOCL : public ::System::Object
 	{
 	public:

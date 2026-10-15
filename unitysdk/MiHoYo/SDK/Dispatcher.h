@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Dispatcher_TypeDefinitionIndex = 46299;
+
 	class Dispatcher : public ::UnityEngine::MonoBehaviour
 	{
 	public:

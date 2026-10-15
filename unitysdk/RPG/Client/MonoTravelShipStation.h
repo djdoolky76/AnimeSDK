@@ -26,6 +26,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTravelShipStation_TypeDefinitionIndex = 68786;
+
 	class MonoTravelShipStation : public ::UnityEngine::MonoBehaviour
 	{
 	public:

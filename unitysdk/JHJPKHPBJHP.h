@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JHJPKHPBJHP_CONVERT_OFFSET UNITYSDK_OFFSET(0x1CC93120)
 #define JHJPKHPBJHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC93270)
 
+inline static constexpr unsigned int JHJPKHPBJHP_TypeDefinitionIndex = 43899;
+
 	class JHJPKHPBJHP : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OKFKNBCEGPL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE946D0)
 #define OKFKNBCEGPL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE94730)
 
+inline static constexpr unsigned int OKFKNBCEGPL_TypeDefinitionIndex = 34748;
+
 	class OKFKNBCEGPL : public ::System::Object
 	{
 	public:

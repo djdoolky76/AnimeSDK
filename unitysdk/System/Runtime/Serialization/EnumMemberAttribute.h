@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int EnumMemberAttribute_TypeDefinitionIndex = 3708;
+
 	class EnumMemberAttribute : public ::System::Attribute
 	{
 	public:

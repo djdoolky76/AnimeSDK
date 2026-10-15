@@ -7,6 +7,8 @@ class GDBCOMIAEDD;
 #define BANMMCONAFC___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15E7D130)
 #define BANMMCONAFC___C__DISPLAYCLASS11_0___DOSPLIT_B__0_OFFSET UNITYSDK_OFFSET(0x15E7DB40)
 
+inline static constexpr unsigned int BANMMCONAFC___c__DisplayClass11_0_TypeDefinitionIndex = 77899;
+
 	class BANMMCONAFC___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

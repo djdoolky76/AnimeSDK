@@ -80,6 +80,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RuntimeGroupManager_HoYoGroupUnit_TypeDefinitionIndex = 62059;
+
 	class RuntimeGroupManager_HoYoGroupUnit : public ::System::Object
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KCCHDNACOND_KNEMLKHEEHE_OFFSET UNITYSDK_OFFSET(0xB3307F0)
 #define KCCHDNACOND_KPBIHPCHBMB_OFFSET UNITYSDK_OFFSET(0xB3312C0)
 
+inline static constexpr unsigned int KCCHDNACOND_TypeDefinitionIndex = 81973;
+
 	class KCCHDNACOND : public ::System::Object
 	{
 	public:

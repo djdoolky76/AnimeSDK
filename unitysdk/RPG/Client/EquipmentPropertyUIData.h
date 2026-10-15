@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EquipmentPropertyUIData_TypeDefinitionIndex = 65679;
+
 	class EquipmentPropertyUIData : public ::System::Object
 	{
 	public:

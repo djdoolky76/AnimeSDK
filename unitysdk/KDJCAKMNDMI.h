@@ -28,6 +28,8 @@ namespace System { class String; }
 #define KDJCAKMNDMI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8022D0)
 #define KDJCAKMNDMI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E802330)
 
+inline static constexpr unsigned int KDJCAKMNDMI_TypeDefinitionIndex = 31422;
+
 	class KDJCAKMNDMI : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System { class String; }
 #define PBHELLCIICI_FGKCPNNMFOL_OFFSET UNITYSDK_OFFSET(0xBFEDA50)
 #define PBHELLCIICI_NLFFDCOOONG_OFFSET UNITYSDK_OFFSET(0xBFEDFE0)
 
+inline static constexpr unsigned int PBHELLCIICI_TypeDefinitionIndex = 60850;
+
 	class PBHELLCIICI : public ::System::Object
 	{
 	public:

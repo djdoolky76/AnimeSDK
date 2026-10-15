@@ -58,6 +58,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int LoopStaggeredGridViewItem_TypeDefinitionIndex = 47679;
+
 	class LoopStaggeredGridViewItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

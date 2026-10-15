@@ -13,6 +13,8 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceEntranceUnlockCo
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceEntranceUnlockWindow_TypeDefinitionIndex = 81538;
+
 	class ChallengeTierceEntranceUnlockWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:

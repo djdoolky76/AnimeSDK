@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AdventureEnterBattleState_TypeDefinitionIndex = 60136;
+
 	enum class AdventureEnterBattleState : ::System::Int32
 	{
 		Empty = 0,

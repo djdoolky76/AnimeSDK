@@ -15,6 +15,8 @@ namespace UnityEngine { class Material; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_AB7EB2BC_TypeDefinitionIndex = 50194;
+
 	class InternalGlobals___GEN_DELEGATE_B00_AB7EB2BC : public ::System::MulticastDelegate
 	{
 	public:

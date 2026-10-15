@@ -13,6 +13,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int BranchFalseInstruction_TypeDefinitionIndex = 3322;
+
 	class BranchFalseInstruction : public ::System::Linq::Expressions::Interpreter::OffsetInstruction
 	{
 	public:

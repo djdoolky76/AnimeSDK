@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueWorkbenchReforgeGenBuffListConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueWorkbenchReforgeGenBuffListConfig_TypeDefinitionIndex = 18019;
+
 	class RogueWorkbenchReforgeGenBuffListConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

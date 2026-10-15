@@ -12,6 +12,8 @@ namespace System { class String; }
 #define FPOFOJLALIE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE1DB20)
 #define FPOFOJLALIE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE1D4C0)
 
+inline static constexpr unsigned int FPOFOJLALIE_TypeDefinitionIndex = 24085;
+
 	class FPOFOJLALIE : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -20,6 +20,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int NpcPossessionClip_TypeDefinitionIndex = 48211;
+
 	class NpcPossessionClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

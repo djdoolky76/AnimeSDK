@@ -11,6 +11,8 @@ namespace UnityEngine { class Animation; }
 #define HAFLBPOIAFO_PEODBEAFGAD_OFFSET UNITYSDK_OFFSET(0x15B73230)
 #define HAFLBPOIAFO__ONBIND_OFFSET UNITYSDK_OFFSET(0x15B72FD0)
 
+inline static constexpr unsigned int HAFLBPOIAFO_TypeDefinitionIndex = 72189;
+
 	class HAFLBPOIAFO : public ::FMPCODLIOLG
 	{
 	public:

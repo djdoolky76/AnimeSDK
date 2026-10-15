@@ -9,6 +9,8 @@ namespace RPG::Client::Promises { class Promise; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GameFlowManager___c__DisplayClass9_0_TypeDefinitionIndex = 64336;
+
 	class GameFlowManager___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

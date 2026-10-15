@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CAPPELIGNBM_CTOR_OFFSET UNITYSDK_OFFSET(0xC49D540)
 #define CAPPELIGNBM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC49D570)
 
+inline static constexpr unsigned int CAPPELIGNBM_TypeDefinitionIndex = 58559;
+
 	class CAPPELIGNBM
 	{
 	public:

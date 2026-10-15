@@ -6,6 +6,8 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Animation; }
 
+inline static constexpr unsigned int MBBDKMHDBJA_TypeDefinitionIndex = 49743;
+
 	class MBBDKMHDBJA : public ::System::Object
 	{
 	public:

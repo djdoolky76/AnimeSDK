@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NIKKFEINEFD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB35330)
 #define NIKKFEINEFD___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EB35340)
 
+inline static constexpr unsigned int NIKKFEINEFD___c_TypeDefinitionIndex = 26696;
+
 	class NIKKFEINEFD___c : public ::System::Object
 	{
 	public:

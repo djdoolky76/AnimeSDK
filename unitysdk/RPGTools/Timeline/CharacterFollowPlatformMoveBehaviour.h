@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class CharacterFollowPlatformMoveClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterFollowPlatformMoveBehaviour_TypeDefinitionIndex = 47956;
+
 	class CharacterFollowPlatformMoveBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

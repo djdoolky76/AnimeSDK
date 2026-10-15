@@ -8,6 +8,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int PPFilterStack_VignetteParameter_TypeDefinitionIndex = 51856;
+
 	struct alignas(4) PPFilterStack_VignetteParameter
 	{
 		::System::Boolean VignetteOverrideState; // 0x10

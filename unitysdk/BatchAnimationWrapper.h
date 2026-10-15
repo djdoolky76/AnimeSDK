@@ -33,6 +33,8 @@ namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 #define BATCHANIMATIONWRAPPER__GETSTARTPOS_1_OFFSET UNITYSDK_OFFSET(0x1CBE7D50)
 #define BATCHANIMATIONWRAPPER__GETSTARTPOS_OFFSET UNITYSDK_OFFSET(0x1CBE7B00)
 
+inline static constexpr unsigned int BatchAnimationWrapper_TypeDefinitionIndex = 37474;
+
 	class BatchAnimationWrapper : public ::UnityEngine::MonoBehaviour
 	{
 	public:

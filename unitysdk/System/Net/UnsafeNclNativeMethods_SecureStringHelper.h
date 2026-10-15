@@ -9,6 +9,8 @@ namespace System::Security { class SecureString; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int UnsafeNclNativeMethods_SecureStringHelper_TypeDefinitionIndex = 2818;
+
 	class UnsafeNclNativeMethods_SecureStringHelper : public ::System::Object
 	{
 	public:

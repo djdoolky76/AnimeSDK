@@ -7,6 +7,8 @@ namespace UnityEngine { class GameObject; }
 #define DBMLIDBCBKL_IOBPNAFKJCH_OFFSET UNITYSDK_OFFSET(0xE232E20)
 #define DBMLIDBCBKL_MDOIFCJKHJK_OFFSET UNITYSDK_OFFSET(0xE232E60)
 
+inline static constexpr unsigned int DBMLIDBCBKL_TypeDefinitionIndex = 47587;
+
 	class DBMLIDBCBKL : public ::System::Object
 	{
 	public:

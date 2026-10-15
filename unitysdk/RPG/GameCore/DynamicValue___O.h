@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DynamicValue___O_TypeDefinitionIndex = 10841;
+
 	class DynamicValue___O : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define IGDOFEHHIME_CTOR_OFFSET UNITYSDK_OFFSET(0x1640A090)
 #define IGDOFEHHIME_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1640A0C0)
 
+inline static constexpr unsigned int IGDOFEHHIME_TypeDefinitionIndex = 55044;
+
 	class IGDOFEHHIME
 	{
 	public:

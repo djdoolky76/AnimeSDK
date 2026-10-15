@@ -12,6 +12,8 @@ namespace System::IO { class Stream; }
 #define POOMIDINGFE_MIAKHCANIED_OFFSET UNITYSDK_OFFSET(0x1EC3FCD0)
 #define POOMIDINGFE_NEPLJKJHIDD_OFFSET UNITYSDK_OFFSET(0x1EC40490)
 
+inline static constexpr unsigned int POOMIDINGFE_TypeDefinitionIndex = 35282;
+
 	class POOMIDINGFE : public ::System::Object
 	{
 	public:

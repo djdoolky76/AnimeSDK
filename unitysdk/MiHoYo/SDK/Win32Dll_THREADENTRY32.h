@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Win32Dll_THREADENTRY32_TypeDefinitionIndex = 7944;
+
 	struct alignas(4) Win32Dll_THREADENTRY32
 	{
 		::System::UInt32 dwSize; // 0x10

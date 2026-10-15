@@ -8,6 +8,8 @@ namespace RPG { template <typename T> class PoolHashSet_1; }
 #define MHDGKLOHHFJ_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C92AB80)
 #define MHDGKLOHHFJ_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C92ACE0)
 
+inline static constexpr unsigned int MHDGKLOHHFJ_TypeDefinitionIndex = 43455;
+
 	class MHDGKLOHHFJ : public ::System::Object
 	{
 	public:

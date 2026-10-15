@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RA_TriggerInstantAbility_TypeDefinitionIndex = 20045;
+
 	class RA_TriggerInstantAbility : public ::RPG::GameCore::ReactionTaskConfig
 	{
 	public:

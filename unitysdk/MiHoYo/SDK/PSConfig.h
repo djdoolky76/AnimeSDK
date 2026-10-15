@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PSConfig_TypeDefinitionIndex = 7906;
+
 	class PSConfig : public ::System::Object
 	{
 	public:

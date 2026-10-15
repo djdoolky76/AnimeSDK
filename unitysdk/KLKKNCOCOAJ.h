@@ -11,6 +11,8 @@ namespace System::ComponentModel { class PropertyChangedEventArgs; }
 #define KLKKNCOCOAJ_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xB52C3B0)
 #define KLKKNCOCOAJ_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xB52C360)
 
+inline static constexpr unsigned int KLKKNCOCOAJ_TypeDefinitionIndex = 64549;
+
 	class KLKKNCOCOAJ : public ::System::Object
 	{
 	public:

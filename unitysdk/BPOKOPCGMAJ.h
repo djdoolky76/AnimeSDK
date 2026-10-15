@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BPOKOPCGMAJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E04F9F0)
 #define BPOKOPCGMAJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E04FA50)
 
+inline static constexpr unsigned int BPOKOPCGMAJ_TypeDefinitionIndex = 33271;
+
 	class BPOKOPCGMAJ : public ::System::Object
 	{
 	public:

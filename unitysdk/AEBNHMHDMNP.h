@@ -34,6 +34,8 @@ namespace System { class String; }
 #define AEBNHMHDMNP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDE6CA0)
 #define AEBNHMHDMNP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDE6D00)
 
+inline static constexpr unsigned int AEBNHMHDMNP_TypeDefinitionIndex = 33600;
+
 	class AEBNHMHDMNP : public ::System::Object
 	{
 	public:

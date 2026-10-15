@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CHDPILMCJNP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0C2E40)
 #define CHDPILMCJNP___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E0C2E50)
 
+inline static constexpr unsigned int CHDPILMCJNP___c_TypeDefinitionIndex = 33060;
+
 	class CHDPILMCJNP___c : public ::System::Object
 	{
 	public:

@@ -20,6 +20,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AstraFXAsset_TypeDefinitionIndex = 4092;
+
 	class AstraFXAsset : public ::UnityEngine::ComputeShaderAsset
 	{
 	public:

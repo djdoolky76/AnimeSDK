@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SOTaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SOTaskConfig_TypeDefinitionIndex = 20054;
+
 	class SOTaskConfig : public ::RPG::GameCore::TaskConfig
 	{
 	public:

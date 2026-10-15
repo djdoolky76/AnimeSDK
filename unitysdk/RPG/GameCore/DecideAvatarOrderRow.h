@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DecideAvatarOrderRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DecideAvatarOrderRow_TypeDefinitionIndex = 13363;
+
 	class DecideAvatarOrderRow : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine::UI { class Image; }
 #define IDDFICCDOMI_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x15EB55A0)
 #define IDDFICCDOMI__ONBIND_OFFSET UNITYSDK_OFFSET(0x15EB53F0)
 
+inline static constexpr unsigned int IDDFICCDOMI_TypeDefinitionIndex = 71599;
+
 	class IDDFICCDOMI : public ::FMPCODLIOLG
 	{
 	public:

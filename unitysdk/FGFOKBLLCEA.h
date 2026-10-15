@@ -28,6 +28,8 @@ namespace System { class String; }
 #define FGFOKBLLCEA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E37CD80)
 #define FGFOKBLLCEA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E37CDE0)
 
+inline static constexpr unsigned int FGFOKBLLCEA_TypeDefinitionIndex = 31535;
+
 	class FGFOKBLLCEA : public ::System::Object
 	{
 	public:

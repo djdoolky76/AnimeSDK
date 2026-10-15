@@ -7,6 +7,8 @@
 #define CPGHIOFODKC_IENCPPOEFKI_OFFSET UNITYSDK_OFFSET(0xEEDB0)
 #define CPGHIOFODKC_OHEKBCCJNFJ_OFFSET UNITYSDK_OFFSET(0xEED90)
 
+inline static constexpr unsigned int CPGHIOFODKC_TypeDefinitionIndex = 68435;
+
 	struct alignas(4) CPGHIOFODKC
 	{
 		::UnityEngine::Vector3 FJMCLOIEMKG; // 0x10

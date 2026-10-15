@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UINodeCollection_TypeDefinitionIndex = 69108;
+
 	class UINodeCollection : public ::UnityEngine::MonoBehaviour
 	{
 	public:

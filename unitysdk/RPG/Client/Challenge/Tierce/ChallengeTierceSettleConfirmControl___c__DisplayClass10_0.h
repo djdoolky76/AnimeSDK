@@ -9,6 +9,8 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceSettleConfirmVie
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceSettleConfirmControl___c__DisplayClass10_0_TypeDefinitionIndex = 81545;
+
 	class ChallengeTierceSettleConfirmControl___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

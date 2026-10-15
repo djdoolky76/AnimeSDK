@@ -3,6 +3,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int MeshShape_TypeDefinitionIndex = 37935;
+
 	enum class MeshShape : ::System::Int32
 	{
 		Box = 0,

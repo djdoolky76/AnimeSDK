@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ScreenTransferTextInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ScreenTransferTextInfo_TypeDefinitionIndex = 20858;
+
 	class ScreenTransferTextInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

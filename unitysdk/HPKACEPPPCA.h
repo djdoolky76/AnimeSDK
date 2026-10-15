@@ -91,6 +91,8 @@ namespace UnityEngine { class Transform; }
 #define HPKACEPPPCA_SET_ISDENPENDPERSISTENTASSET_OFFSET UNITYSDK_OFFSET(0x15DD0D00)
 #define HPKACEPPPCA_SET_STARTDEBUG_OFFSET UNITYSDK_OFFSET(0x15DD0D40)
 
+inline static constexpr unsigned int HPKACEPPPCA_TypeDefinitionIndex = 73935;
+
 	class HPKACEPPPCA : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 #define DPKCEPGMAEP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C54F3C0)
 
+inline static constexpr unsigned int DPKCEPGMAEP_TypeDefinitionIndex = 41732;
+
 	class DPKCEPGMAEP
 	{
 	public:

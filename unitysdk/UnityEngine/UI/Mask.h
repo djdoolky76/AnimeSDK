@@ -21,6 +21,8 @@ namespace UnityEngine::UI { class Graphic; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int Mask_TypeDefinitionIndex = 6792;
+
 	class Mask : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

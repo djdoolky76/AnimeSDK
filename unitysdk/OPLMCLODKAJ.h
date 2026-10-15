@@ -27,6 +27,8 @@ namespace System { class String; }
 #define OPLMCLODKAJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEE6D50)
 #define OPLMCLODKAJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEE6DB0)
 
+inline static constexpr unsigned int OPLMCLODKAJ_TypeDefinitionIndex = 31390;
+
 	class OPLMCLODKAJ : public ::System::Object
 	{
 	public:

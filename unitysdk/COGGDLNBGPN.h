@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define COGGDLNBGPN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DCB8C10)
 #define COGGDLNBGPN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DCB85B0)
 
+inline static constexpr unsigned int COGGDLNBGPN_TypeDefinitionIndex = 10915;
+
 	class COGGDLNBGPN : public ::System::Object
 	{
 	public:

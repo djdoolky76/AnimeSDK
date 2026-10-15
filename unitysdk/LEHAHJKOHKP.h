@@ -33,6 +33,8 @@ namespace RPG::GameCore { class ChimeraDuelStatusConfig; }
 #define LEHAHJKOHKP_MNEJKHHHFFL_OFFSET UNITYSDK_OFFSET(0xB653280)
 #define LEHAHJKOHKP_NKGAJOLMDDO_OFFSET UNITYSDK_OFFSET(0xB6534B0)
 
+inline static constexpr unsigned int LEHAHJKOHKP_TypeDefinitionIndex = 77423;
+
 	class LEHAHJKOHKP : public ::System::Object
 	{
 	public:

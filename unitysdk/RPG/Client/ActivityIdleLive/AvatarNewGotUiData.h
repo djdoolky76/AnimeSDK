@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int AvatarNewGotUiData_TypeDefinitionIndex = 75413;
+
 	class AvatarNewGotUiData : public ::System::Object
 	{
 	public:

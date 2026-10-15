@@ -27,6 +27,8 @@ class NOCDFBMJDIG;
 #define AHPOLHAOBHK_OKGFBDGMLED_OFFSET UNITYSDK_OFFSET(0x1C42E480)
 #define AHPOLHAOBHK_OPKLJKDABFL_OFFSET UNITYSDK_OFFSET(0x1C42D1A0)
 
+inline static constexpr unsigned int AHPOLHAOBHK_TypeDefinitionIndex = 41481;
+
 	class AHPOLHAOBHK : public ::System::Object
 	{
 	public:

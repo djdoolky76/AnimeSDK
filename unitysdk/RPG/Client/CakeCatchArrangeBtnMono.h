@@ -14,6 +14,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeCatchArrangeBtnMono_TypeDefinitionIndex = 62961;
+
 	class CakeCatchArrangeBtnMono : public ::UnityEngine::MonoBehaviour
 	{
 	public:

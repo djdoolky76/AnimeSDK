@@ -16,6 +16,8 @@ namespace RPG::Client::FateRin::Logging { class ILoggerFactory; }
 #define BMCCACPCDON_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0xBA8A080)
 #define BMCCACPCDON_GET_VERSION_OFFSET UNITYSDK_OFFSET(0xBA8A5C0)
 
+inline static constexpr unsigned int BMCCACPCDON_TypeDefinitionIndex = 81226;
+
 	class BMCCACPCDON : public ::System::Object
 	{
 	public:

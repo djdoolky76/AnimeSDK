@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int BALayerMask_TypeDefinitionIndex = 37464;
+
 	enum class BALayerMask : ::System::Int32
 	{
 		eWalkStopLayer = 1,

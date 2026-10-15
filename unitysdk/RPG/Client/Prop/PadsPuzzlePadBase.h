@@ -24,6 +24,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int PadsPuzzlePadBase_TypeDefinitionIndex = 78757;
+
 	class PadsPuzzlePadBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

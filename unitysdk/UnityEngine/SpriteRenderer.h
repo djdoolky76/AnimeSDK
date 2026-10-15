@@ -42,6 +42,8 @@ namespace UnityEngine { class Sprite; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int SpriteRenderer_TypeDefinitionIndex = 4414;
+
 	class SpriteRenderer : public ::UnityEngine::Renderer
 	{
 	public:

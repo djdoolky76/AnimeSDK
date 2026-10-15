@@ -32,6 +32,8 @@ namespace System { class String; }
 #define DIOPCDKIEKN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1C3DC0)
 #define DIOPCDKIEKN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1C3E20)
 
+inline static constexpr unsigned int DIOPCDKIEKN_TypeDefinitionIndex = 34519;
+
 	class DIOPCDKIEKN : public ::System::Object
 	{
 	public:

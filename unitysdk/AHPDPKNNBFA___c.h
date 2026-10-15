@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define AHPDPKNNBFA___C___CALCITEMEXTRACOINNUMTERM_B__4_0_OFFSET UNITYSDK_OFFSET(0xEB8C130)
 #define AHPDPKNNBFA___C___CALCITEMEXTRAMULTIPLIERTERM_B__7_0_OFFSET UNITYSDK_OFFSET(0xEB8C150)
 
+inline static constexpr unsigned int AHPDPKNNBFA___c_TypeDefinitionIndex = 52657;
+
 	class AHPDPKNNBFA___c : public ::System::Object
 	{
 	public:

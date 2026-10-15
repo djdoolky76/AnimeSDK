@@ -9,6 +9,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Behaviour_TypeDefinitionIndex = 4317;
+
 	class Behaviour : public ::UnityEngine::Component
 	{
 	public:

@@ -7,6 +7,8 @@ namespace UnityEngine { class Material; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_MaterialManager_FallbackMaterial_TypeDefinitionIndex = 44613;
+
 	class TMP_MaterialManager_FallbackMaterial : public ::System::Object
 	{
 	public:

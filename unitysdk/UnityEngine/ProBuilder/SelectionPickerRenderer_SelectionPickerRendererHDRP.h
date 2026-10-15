@@ -11,6 +11,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int SelectionPickerRenderer_SelectionPickerRendererHDRP_TypeDefinitionIndex = 44422;
+
 	class SelectionPickerRenderer_SelectionPickerRendererHDRP : public ::System::Object
 	{
 	public:

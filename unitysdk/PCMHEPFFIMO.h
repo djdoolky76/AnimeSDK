@@ -7,6 +7,8 @@
 #define PCMHEPFFIMO_CTOR_OFFSET UNITYSDK_OFFSET(0xC0084E0)
 #define PCMHEPFFIMO_PJLGNEPKOGE_OFFSET UNITYSDK_OFFSET(0xC008490)
 
+inline static constexpr unsigned int PCMHEPFFIMO_TypeDefinitionIndex = 54278;
+
 	class PCMHEPFFIMO : public ::System::Object
 	{
 	public:

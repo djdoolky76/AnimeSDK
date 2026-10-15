@@ -9,6 +9,8 @@ namespace RPG::Client { class GridFightSeasonRole; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameRefExpiredSummary_RoleIDEqualityComparer_TypeDefinitionIndex = 64750;
+
 	class GridFightGameRefExpiredSummary_RoleIDEqualityComparer : public ::System::Object
 	{
 	public:

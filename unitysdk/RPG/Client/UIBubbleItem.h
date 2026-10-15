@@ -34,6 +34,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIBubbleItem_TypeDefinitionIndex = 68913;
+
 	class UIBubbleItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

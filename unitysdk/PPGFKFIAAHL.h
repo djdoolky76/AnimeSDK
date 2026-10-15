@@ -31,6 +31,8 @@ namespace System { class String; }
 #define PPGFKFIAAHL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFD9C70)
 #define PPGFKFIAAHL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFD9CD0)
 
+inline static constexpr unsigned int PPGFKFIAAHL_TypeDefinitionIndex = 28473;
+
 	class PPGFKFIAAHL : public ::System::Object
 	{
 	public:

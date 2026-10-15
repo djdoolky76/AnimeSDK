@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TimelineEntityStateChangeCallback; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddTimelineEntityEventListener_TypeDefinitionIndex = 20635;
+
 	class AddTimelineEntityEventListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

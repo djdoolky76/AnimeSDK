@@ -34,6 +34,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win::OS
 {
+	inline static constexpr unsigned int AgeGatePayValidationManager_TypeDefinitionIndex = 9560;
+
 	class AgeGatePayValidationManager : public ::MiHoYo::SDK::Common::OS::AgeGatePayValidationManager
 	{
 	public:

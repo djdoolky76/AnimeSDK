@@ -20,6 +20,8 @@
 
 namespace UnityEngine::AI
 {
+	inline static constexpr unsigned int NavMeshPath_TypeDefinitionIndex = 5643;
+
 	class NavMeshPath : public ::System::Object
 	{
 	public:

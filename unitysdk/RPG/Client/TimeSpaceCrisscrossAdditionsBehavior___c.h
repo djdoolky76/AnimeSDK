@@ -11,6 +11,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeSpaceCrisscrossAdditionsBehavior___c_TypeDefinitionIndex = 70197;
+
 	class TimeSpaceCrisscrossAdditionsBehavior___c : public ::System::Object
 	{
 	public:

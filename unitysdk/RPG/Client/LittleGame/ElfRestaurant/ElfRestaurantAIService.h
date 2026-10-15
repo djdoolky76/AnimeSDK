@@ -49,6 +49,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame::ElfRestaurant
 {
+	inline static constexpr unsigned int ElfRestaurantAIService_TypeDefinitionIndex = 77250;
+
 	class ElfRestaurantAIService : public ::System::Object
 	{
 	public:

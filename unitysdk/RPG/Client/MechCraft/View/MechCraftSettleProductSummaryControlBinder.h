@@ -8,6 +8,8 @@ namespace RPG::Client { class LocalizedText; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftSettleProductSummaryControlBinder_TypeDefinitionIndex = 80046;
+
 	class MechCraftSettleProductSummaryControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

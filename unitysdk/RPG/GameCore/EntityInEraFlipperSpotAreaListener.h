@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntityInEraFlipperSpotAreaListener_TypeDefinitionIndex = 22349;
+
 	class EntityInEraFlipperSpotAreaListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

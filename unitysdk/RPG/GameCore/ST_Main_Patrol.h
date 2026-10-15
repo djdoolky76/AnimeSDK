@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_Patrol_TypeDefinitionIndex = 20103;
+
 	class ST_Main_Patrol : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

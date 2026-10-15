@@ -12,6 +12,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OverrideMonoEffectConfig_TypeDefinitionIndex = 20270;
+
 	class OverrideMonoEffectConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

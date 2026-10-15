@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChimeraBattleShowDither; }
 #define JKFFJDJJFAA_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xB21BDD0)
 #define JKFFJDJJFAA_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB21BA20)
 
+inline static constexpr unsigned int JKFFJDJJFAA_TypeDefinitionIndex = 78406;
+
 	class JKFFJDJJFAA : public ::System::Object
 	{
 	public:

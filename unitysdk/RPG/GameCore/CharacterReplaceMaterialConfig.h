@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterReplaceMaterialConfig_TypeDefinitionIndex = 17442;
+
 	class CharacterReplaceMaterialConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -5,6 +5,8 @@ class CJCHKDLALDN;
 
 #define HJAGOKIHCLK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6677A0)
 
+inline static constexpr unsigned int HJAGOKIHCLK_TypeDefinitionIndex = 36271;
+
 	class HJAGOKIHCLK : public ::System::Object
 	{
 	public:

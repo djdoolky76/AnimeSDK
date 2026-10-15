@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NFDBCBOFLKP_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBB7A8E0)
 #define NFDBCBOFLKP_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0xBB7AE30)
 
+inline static constexpr unsigned int NFDBCBOFLKP_TypeDefinitionIndex = 65517;
+
 	class NFDBCBOFLKP : public ::System::Object
 	{
 	public:

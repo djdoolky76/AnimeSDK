@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GFMEMPALPAM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E472120)
 #define GFMEMPALPAM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E472180)
 
+inline static constexpr unsigned int GFMEMPALPAM_TypeDefinitionIndex = 32778;
+
 	class GFMEMPALPAM : public ::System::Object
 	{
 	public:

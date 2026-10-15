@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define ECLLAOAHBEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FB0B0)
 #define ECLLAOAHBEB_IMBNGHDBDLJ_OFFSET UNITYSDK_OFFSET(0x1C5FB0E0)
 
+inline static constexpr unsigned int ECLLAOAHBEB_TypeDefinitionIndex = 37422;
+
 	class ECLLAOAHBEB
 	{
 	public:

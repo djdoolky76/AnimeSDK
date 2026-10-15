@@ -4,6 +4,8 @@
 class EEJNNOAEEFO;
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
+inline static constexpr unsigned int NKNLPEMNLJH___O_TypeDefinitionIndex = 56214;
+
 	class NKNLPEMNLJH___O : public ::System::Object
 	{
 	public:

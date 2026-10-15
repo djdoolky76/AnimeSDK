@@ -32,6 +32,8 @@ namespace System { class String; }
 #define LDABILELOFN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8F02C0)
 #define LDABILELOFN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8F0320)
 
+inline static constexpr unsigned int LDABILELOFN_TypeDefinitionIndex = 27870;
+
 	class LDABILELOFN : public ::System::Object
 	{
 	public:

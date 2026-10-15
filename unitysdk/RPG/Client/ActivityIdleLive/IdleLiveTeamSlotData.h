@@ -41,6 +41,8 @@ namespace RPG::GameCore { class IdleLiveTeamSlotRow; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveTeamSlotData_TypeDefinitionIndex = 75106;
+
 	class IdleLiveTeamSlotData : public ::System::Object
 	{
 	public:

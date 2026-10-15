@@ -5,6 +5,8 @@
 
 #define AMNKHHBDPMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C89E420)
 
+inline static constexpr unsigned int AMNKHHBDPMJ_TypeDefinitionIndex = 42149;
+
 	class AMNKHHBDPMJ : public ::System::Object
 	{
 	public:

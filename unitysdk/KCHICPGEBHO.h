@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KCHICPGEBHO_CTOR_OFFSET UNITYSDK_OFFSET(0xB336960)
 #define KCHICPGEBHO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB336990)
 
+inline static constexpr unsigned int KCHICPGEBHO_TypeDefinitionIndex = 53362;
+
 	class KCHICPGEBHO
 	{
 	public:

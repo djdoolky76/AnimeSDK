@@ -16,6 +16,8 @@ namespace System { class String; }
 #define DNIDONCOAEE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x119626D0)
 #define DNIDONCOAEE_SET_TEAMID_OFFSET UNITYSDK_OFFSET(0x119626B0)
 
+inline static constexpr unsigned int DNIDONCOAEE_TypeDefinitionIndex = 81724;
+
 	class DNIDONCOAEE : public ::System::Object
 	{
 	public:

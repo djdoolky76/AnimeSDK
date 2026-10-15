@@ -49,6 +49,8 @@ namespace UnityEngine { class Object; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CameraState_TypeDefinitionIndex = 39799;
+
 	struct alignas(8) CameraState
 	{
 		::Cinemachine::LensSettings _Lens_k__BackingField; // 0x10

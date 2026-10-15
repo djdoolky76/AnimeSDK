@@ -18,6 +18,8 @@ namespace UnityEngine { class GameObject; }
 #define JMIDBCIBMGF_NLKEDPGMFBM_OFFSET UNITYSDK_OFFSET(0xB267270)
 #define JMIDBCIBMGF_NNLLBKHKBEP_OFFSET UNITYSDK_OFFSET(0xB268920)
 
+inline static constexpr unsigned int JMIDBCIBMGF_TypeDefinitionIndex = 47560;
+
 	class JMIDBCIBMGF : public ::System::Object
 	{
 	public:

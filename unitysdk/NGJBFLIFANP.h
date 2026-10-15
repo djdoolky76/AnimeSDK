@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define NGJBFLIFANP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EC88240)
 #define NGJBFLIFANP_KEBEIGGJIPA_OFFSET UNITYSDK_OFFSET(0x1EC88390)
 
+inline static constexpr unsigned int NGJBFLIFANP_TypeDefinitionIndex = 44311;
+
 	class NGJBFLIFANP : public ::System::Object
 	{
 	public:

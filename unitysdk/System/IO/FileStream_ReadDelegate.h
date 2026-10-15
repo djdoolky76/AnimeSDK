@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int FileStream_ReadDelegate_TypeDefinitionIndex = 718;
+
 	class FileStream_ReadDelegate : public ::System::MulticastDelegate
 	{
 	public:

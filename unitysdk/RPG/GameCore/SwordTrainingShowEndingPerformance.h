@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwordTrainingShowEndingPerformance_TypeDefinitionIndex = 20326;
+
 	class SwordTrainingShowEndingPerformance : public ::RPG::GameCore::TaskConfig
 	{
 	public:

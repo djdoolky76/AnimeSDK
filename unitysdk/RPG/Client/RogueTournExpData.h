@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournExpData_TypeDefinitionIndex = 67865;
+
 	class RogueTournExpData : public ::System::Object
 	{
 	public:

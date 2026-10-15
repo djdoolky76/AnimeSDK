@@ -6,6 +6,8 @@
 
 namespace RPG::GameCore::ConstValueMapping::Mapper
 {
+	inline static constexpr unsigned int GeneratedMapperRegistry_Assembly_CSharp_TypeDefinitionIndex = 59265;
+
 	class GeneratedMapperRegistry_Assembly_CSharp : public ::System::Object
 	{
 	public:

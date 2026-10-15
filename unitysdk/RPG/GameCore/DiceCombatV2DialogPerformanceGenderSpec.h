@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatV2DialogPerformanceGenderSpec_TypeDefinitionIndex = 16186;
+
 	enum class DiceCombatV2DialogPerformanceGenderSpec : ::System::Int32
 	{
 		DontCare = 0,

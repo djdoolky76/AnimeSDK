@@ -16,6 +16,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraBattleWorkView_TypeDefinitionIndex = 78445;
+
 	class ChimeraBattleWorkView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

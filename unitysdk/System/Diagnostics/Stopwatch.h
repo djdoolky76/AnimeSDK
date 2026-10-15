@@ -19,6 +19,8 @@ namespace System::Diagnostics { class Stopwatch; }
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int Stopwatch_TypeDefinitionIndex = 2558;
+
 	class Stopwatch : public ::System::Object
 	{
 	public:

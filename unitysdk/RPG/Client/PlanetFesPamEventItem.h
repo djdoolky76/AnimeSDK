@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesPamEventItem_TypeDefinitionIndex = 66560;
+
 	class PlanetFesPamEventItem : public ::System::Object
 	{
 	public:

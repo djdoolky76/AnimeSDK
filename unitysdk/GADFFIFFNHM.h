@@ -39,6 +39,8 @@ namespace System { class String; }
 #define GADFFIFFNHM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E416540)
 #define GADFFIFFNHM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4165A0)
 
+inline static constexpr unsigned int GADFFIFFNHM_TypeDefinitionIndex = 27502;
+
 	class GADFFIFFNHM : public ::System::Object
 	{
 	public:

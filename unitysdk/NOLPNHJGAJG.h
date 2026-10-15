@@ -12,6 +12,8 @@ namespace System { class String; }
 #define NOLPNHJGAJG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D241800)
 #define NOLPNHJGAJG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2417C0)
 
+inline static constexpr unsigned int NOLPNHJGAJG_TypeDefinitionIndex = 21506;
+
 	class NOLPNHJGAJG : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

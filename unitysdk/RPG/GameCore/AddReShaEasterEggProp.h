@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddReShaEasterEggProp_TypeDefinitionIndex = 22031;
+
 	class AddReShaEasterEggProp : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ChangeStageItemLocationBehaviour_TypeDefinitionIndex = 47921;
+
 	class ChangeStageItemLocationBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

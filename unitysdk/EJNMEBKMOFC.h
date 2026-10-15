@@ -14,6 +14,8 @@ namespace System { class String; }
 #define EJNMEBKMOFC_NBADIKPNPPA_OFFSET UNITYSDK_OFFSET(0x154EFBD0)
 #define EJNMEBKMOFC_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x154F0D60)
 
+inline static constexpr unsigned int EJNMEBKMOFC_TypeDefinitionIndex = 77170;
+
 	class EJNMEBKMOFC : public ::System::Object
 	{
 	public:

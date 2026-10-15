@@ -6,6 +6,8 @@ class PBDLKBEAHDL;
 #define PBDLKBEAHDL___C__DISPLAYCLASS41_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBFE92F0)
 #define PBDLKBEAHDL___C__DISPLAYCLASS41_0___SHOWTOAST_B__0_OFFSET UNITYSDK_OFFSET(0xBFEA2E0)
 
+inline static constexpr unsigned int PBDLKBEAHDL___c__DisplayClass41_0_TypeDefinitionIndex = 69450;
+
 	class PBDLKBEAHDL___c__DisplayClass41_0 : public ::System::Object
 	{
 	public:

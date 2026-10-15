@@ -21,6 +21,8 @@ namespace System::Runtime::Remoting::Messaging { class LogicalCallContext; }
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int ErrorMessage_TypeDefinitionIndex = 1311;
+
 	class ErrorMessage : public ::System::Object
 	{
 	public:

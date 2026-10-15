@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimPushBoxMoveConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimPushBoxMoveConfig_TypeDefinitionIndex = 16689;
+
 	class FiveDimPushBoxMoveConfig : public ::RPG::GameCore::FiveDimPropMoveConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 #define DKOHHGBCGEI_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xF88C8E0)
 #define DKOHHGBCGEI_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xF88C840)
 
+inline static constexpr unsigned int DKOHHGBCGEI_TypeDefinitionIndex = 78172;
+
 	class DKOHHGBCGEI : public ::AJHHFMBOCEN
 	{
 	public:

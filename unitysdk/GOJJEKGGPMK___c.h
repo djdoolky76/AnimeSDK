@@ -15,6 +15,8 @@ namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; 
 #define GOJJEKGGPMK___C__GENERATEHONORLIST_B__0_3_OFFSET UNITYSDK_OFFSET(0x15B36170)
 #define GOJJEKGGPMK___C__GENERATEHONORLIST_B__0_4_OFFSET UNITYSDK_OFFSET(0x15B36130)
 
+inline static constexpr unsigned int GOJJEKGGPMK___c_TypeDefinitionIndex = 66761;
+
 	class GOJJEKGGPMK___c : public ::System::Object
 	{
 	public:

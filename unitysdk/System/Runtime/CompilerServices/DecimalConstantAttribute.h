@@ -8,6 +8,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int DecimalConstantAttribute_TypeDefinitionIndex = 1384;
+
 	class DecimalConstantAttribute : public ::System::Attribute
 	{
 	public:

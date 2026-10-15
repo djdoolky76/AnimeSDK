@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Windows::OS::Channel
 {
+	inline static constexpr unsigned int BindManagerXbox_TypeDefinitionIndex = 8369;
+
 	class BindManagerXbox : public ::MiHoYo::SDK::Windows::OS::Channel::BindManager
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define ELLMHEMKPPO_OBHHNAKALGL_OFFSET UNITYSDK_OFFSET(0x1C5501B0)
 #define ELLMHEMKPPO__CONTAINS_B__9_0_OFFSET UNITYSDK_OFFSET(0x1C550A30)
 
+inline static constexpr unsigned int ELLMHEMKPPO_TypeDefinitionIndex = 41743;
+
 	class ELLMHEMKPPO : public ::System::Object
 	{
 	public:

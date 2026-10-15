@@ -17,6 +17,8 @@ namespace System { class String; }
 #define BAEMLGMIEOE_MMMMMMFGCFC_OFFSET UNITYSDK_OFFSET(0x15BD1330)
 #define BAEMLGMIEOE_ODCBCGAMIKC_OFFSET UNITYSDK_OFFSET(0x15BD9970)
 
+inline static constexpr unsigned int BAEMLGMIEOE_TypeDefinitionIndex = 73873;
+
 	class BAEMLGMIEOE : public ::System::Object
 	{
 	public:

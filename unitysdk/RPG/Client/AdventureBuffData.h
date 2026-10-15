@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AdventureBuffData_TypeDefinitionIndex = 68104;
+
 	struct alignas(4) AdventureBuffData
 	{
 		::System::UInt32 BuffID; // 0x10

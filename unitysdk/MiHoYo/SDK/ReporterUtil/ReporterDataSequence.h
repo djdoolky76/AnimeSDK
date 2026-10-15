@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::ReporterUtil
 {
+	inline static constexpr unsigned int ReporterDataSequence_TypeDefinitionIndex = 46649;
+
 	class ReporterDataSequence : public ::System::Object
 	{
 	public:

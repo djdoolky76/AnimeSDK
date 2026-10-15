@@ -8,6 +8,8 @@ class GOLCDANDHHM;
 #define GOLCDANDHHM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE74F50)
 #define GOLCDANDHHM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE74F10)
 
+inline static constexpr unsigned int GOLCDANDHHM_TypeDefinitionIndex = 10185;
+
 	class GOLCDANDHHM : public ::RPG::GameCore::TaskConfig
 	{
 	public:

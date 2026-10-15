@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::AstraFX
 {
+	inline static constexpr unsigned int AstraFX_SkinnedMesh_TypeDefinitionIndex = 73691;
+
 	class AstraFX_SkinnedMesh : public ::RPG::Client::TAMonoBase
 	{
 	public:

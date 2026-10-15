@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvSetMaxRegionRotateEnergy; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvSetMaxRegionRotateEnergy_TypeDefinitionIndex = 20921;
+
 	class AdvSetMaxRegionRotateEnergy : public ::RPG::GameCore::TaskConfig
 	{
 	public:

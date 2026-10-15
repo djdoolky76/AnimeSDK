@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SpecialAvatarExcelTable_IndexKey_TypeDefinitionIndex = 15121;
+
 	struct alignas(4) SpecialAvatarExcelTable_IndexKey
 	{
 		::System::UInt32 SpecialAvatarID; // 0x10

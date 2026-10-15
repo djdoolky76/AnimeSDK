@@ -5,6 +5,8 @@ namespace UnityEngine { class Transform; }
 
 #define DPCFKFGNBKL_ONNKKOMPGDE_CTOR_OFFSET UNITYSDK_OFFSET(0x11FFA010)
 
+inline static constexpr unsigned int DPCFKFGNBKL_ONNKKOMPGDE_TypeDefinitionIndex = 56966;
+
 	class DPCFKFGNBKL_ONNKKOMPGDE : public ::System::Object
 	{
 	public:

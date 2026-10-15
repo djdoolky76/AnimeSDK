@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetAsRogueDialogue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetAsRogueDialogue_TypeDefinitionIndex = 21119;
+
 	class SetAsRogueDialogue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

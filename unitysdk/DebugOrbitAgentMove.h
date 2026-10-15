@@ -7,6 +7,8 @@
 
 #define DEBUGORBITAGENTMOVE_CTOR_OFFSET UNITYSDK_OFFSET(0x12666CA0)
 
+inline static constexpr unsigned int DebugOrbitAgentMove_TypeDefinitionIndex = 47096;
+
 	class DebugOrbitAgentMove : public ::UnityEngine::MonoBehaviour
 	{
 	public:

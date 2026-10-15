@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AimerConfig_TypeDefinitionIndex = 68490;
+
 	class AimerConfig : public ::System::Object
 	{
 	public:

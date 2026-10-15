@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetIgnoreTimeRewindLockRangeLimit_TypeDefinitionIndex = 20656;
+
 	class SetIgnoreTimeRewindLockRangeLimit : public ::RPG::GameCore::TaskConfig
 	{
 	public:

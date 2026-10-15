@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define CMFFLPBJJKN_ONAFTERMODELARTLOAD_OFFSET UNITYSDK_OFFSET(0xDA30470)
 #define CMFFLPBJJKN_ONBEFOREMODELARTUNLOAD_OFFSET UNITYSDK_OFFSET(0xDA30410)
 
+inline static constexpr unsigned int CMFFLPBJJKN_TypeDefinitionIndex = 59715;
+
 	class CMFFLPBJJKN : public ::LJKHPOHKIIF
 	{
 	public:

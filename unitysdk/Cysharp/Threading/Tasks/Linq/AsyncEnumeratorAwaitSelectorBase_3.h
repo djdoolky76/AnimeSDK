@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int AsyncEnumeratorAwaitSelectorBase_3_TypeDefinitionIndex = 45227;
+
 	template <typename T1, typename T2, typename T3>
 	class AsyncEnumeratorAwaitSelectorBase_3 : public ::Cysharp::Threading::Tasks::MoveNextSource
 	{

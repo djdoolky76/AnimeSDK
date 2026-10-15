@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IKCPDHOPBLA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6DCB50)
 #define IKCPDHOPBLA_ISMATCHIMPL_OFFSET UNITYSDK_OFFSET(0x1C6DCBD0)
 
+inline static constexpr unsigned int IKCPDHOPBLA_TypeDefinitionIndex = 37412;
+
 	class IKCPDHOPBLA
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int CollectionsMarshal_FillCollection_1_TypeDefinitionIndex = 6083;
+
 	template <typename T>
 	class CollectionsMarshal_FillCollection_1 : public ::System::Object
 	{

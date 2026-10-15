@@ -7,6 +7,8 @@ class PEJDKHGMKPE;
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
+inline static constexpr unsigned int PEJDKHGMKPE_CEMCKNNDBJK_TypeDefinitionIndex = 50020;
+
 	class PEJDKHGMKPE_CEMCKNNDBJK : public ::System::Object
 	{
 	public:

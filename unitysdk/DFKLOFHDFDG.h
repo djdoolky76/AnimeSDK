@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define DFKLOFHDFDG_START_OFFSET UNITYSDK_OFFSET(0xE831D30)
 #define DFKLOFHDFDG_STOP_OFFSET UNITYSDK_OFFSET(0xE831DD0)
 
+inline static constexpr unsigned int DFKLOFHDFDG_TypeDefinitionIndex = 82072;
+
 	class DFKLOFHDFDG : public ::BHPMNMMGLHI
 	{
 	public:

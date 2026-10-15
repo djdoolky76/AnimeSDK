@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__AcknowledgeQuit_Exiting_TypeDefinitionIndex = 38933;
+
 	class IVRSystem__AcknowledgeQuit_Exiting : public ::System::MulticastDelegate
 	{
 	public:

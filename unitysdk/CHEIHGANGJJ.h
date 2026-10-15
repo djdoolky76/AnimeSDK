@@ -8,6 +8,8 @@ namespace RPG::Client { class TutorialGuideConfigWrapper; }
 #define CHEIHGANGJJ_DMKJAJLNEBK_OFFSET UNITYSDK_OFFSET(0xCC92FF0)
 #define CHEIHGANGJJ_FFHNOMIDEDE_OFFSET UNITYSDK_OFFSET(0xCC930A0)
 
+inline static constexpr unsigned int CHEIHGANGJJ_TypeDefinitionIndex = 68232;
+
 	class CHEIHGANGJJ : public ::System::Object
 	{
 	public:

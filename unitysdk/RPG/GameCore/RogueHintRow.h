@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueHintRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueHintRow_TypeDefinitionIndex = 14689;
+
 	class RogueHintRow : public ::System::Object
 	{
 	public:

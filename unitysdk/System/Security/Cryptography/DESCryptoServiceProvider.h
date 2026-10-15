@@ -11,6 +11,8 @@ namespace System::Security::Cryptography { class ICryptoTransform; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int DESCryptoServiceProvider_TypeDefinitionIndex = 1018;
+
 	class DESCryptoServiceProvider : public ::System::Security::Cryptography::DES
 	{
 	public:

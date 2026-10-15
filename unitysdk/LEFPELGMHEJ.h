@@ -5,6 +5,8 @@
 
 #define LEFPELGMHEJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90D3D0)
 
+inline static constexpr unsigned int LEFPELGMHEJ_TypeDefinitionIndex = 42555;
+
 	class LEFPELGMHEJ : public ::System::Object
 	{
 	public:

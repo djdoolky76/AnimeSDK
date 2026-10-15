@@ -11,6 +11,8 @@ namespace UnityEngine::UIElements { class EventDispatcher; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int EventDispatcherGate_TypeDefinitionIndex = 5871;
+
 	struct alignas(8) EventDispatcherGate
 	{
 		::UnityEngine::UIElements::EventDispatcher* m_Dispatcher; // 0x10

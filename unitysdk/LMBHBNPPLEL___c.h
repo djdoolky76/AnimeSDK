@@ -17,6 +17,8 @@ namespace System { class Object; }
 #define LMBHBNPPLEL___C___INITDEFAULTMAPPINGS_B__2_6_OFFSET UNITYSDK_OFFSET(0xB77A5B0)
 #define LMBHBNPPLEL___C___INITDEFAULTMAPPINGS_B__2_7_OFFSET UNITYSDK_OFFSET(0xB77A5F0)
 
+inline static constexpr unsigned int LMBHBNPPLEL___c_TypeDefinitionIndex = 77392;
+
 	class LMBHBNPPLEL___c : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define GNLAIADPCFM_OFMBNJOIBDD_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0x15B16240)
 #define GNLAIADPCFM_OFMBNJOIBDD_PPCHOKBEHJJ_OFFSET UNITYSDK_OFFSET(0x15B162F0)
 
+inline static constexpr unsigned int GNLAIADPCFM_OFMBNJOIBDD_TypeDefinitionIndex = 80536;
+
 	class GNLAIADPCFM_OFMBNJOIBDD : public ::System::Object
 	{
 	public:

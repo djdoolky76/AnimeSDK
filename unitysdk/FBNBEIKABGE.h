@@ -30,6 +30,8 @@ namespace System { class String; }
 #define FBNBEIKABGE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E339E80)
 #define FBNBEIKABGE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E339EE0)
 
+inline static constexpr unsigned int FBNBEIKABGE_TypeDefinitionIndex = 30126;
+
 	class FBNBEIKABGE : public ::System::Object
 	{
 	public:

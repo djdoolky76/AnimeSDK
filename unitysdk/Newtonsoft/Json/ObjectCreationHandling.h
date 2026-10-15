@@ -3,6 +3,8 @@
 
 namespace Newtonsoft::Json
 {
+	inline static constexpr unsigned int ObjectCreationHandling_TypeDefinitionIndex = 9606;
+
 	enum class ObjectCreationHandling : ::System::Int32
 	{
 		Auto = 0,

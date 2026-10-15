@@ -26,6 +26,8 @@ namespace System { class Object; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int Monitor_TypeDefinitionIndex = 837;
+
 	class Monitor : public ::System::Object
 	{
 	public:

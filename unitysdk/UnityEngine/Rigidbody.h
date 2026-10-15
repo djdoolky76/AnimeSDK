@@ -139,6 +139,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Rigidbody_TypeDefinitionIndex = 5313;
+
 	class Rigidbody : public ::UnityEngine::Component
 	{
 	public:

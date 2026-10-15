@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NOPOBDIIFIA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB924C0)
 #define NOPOBDIIFIA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EB924D0)
 
+inline static constexpr unsigned int NOPOBDIIFIA___c_TypeDefinitionIndex = 34161;
+
 	class NOPOBDIIFIA___c : public ::System::Object
 	{
 	public:

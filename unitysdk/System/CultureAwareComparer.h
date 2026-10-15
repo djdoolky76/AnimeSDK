@@ -16,6 +16,8 @@ namespace System::Globalization { class CultureInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int CultureAwareComparer_TypeDefinitionIndex = 333;
+
 	class CultureAwareComparer : public ::System::StringComparer
 	{
 	public:

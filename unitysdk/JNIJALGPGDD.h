@@ -18,6 +18,8 @@ namespace RPG::GameCore { class DiceCombatColorfulDiceSkillConfig; }
 #define JNIJALGPGDD_OHJDGIBJGLO_OFFSET UNITYSDK_OFFSET(0x1C706F60)
 #define JNIJALGPGDD_PLHJPEDHDBH_OFFSET UNITYSDK_OFFSET(0x1C706C10)
 
+inline static constexpr unsigned int JNIJALGPGDD_TypeDefinitionIndex = 36420;
+
 	class JNIJALGPGDD : public ::System::Object
 	{
 	public:

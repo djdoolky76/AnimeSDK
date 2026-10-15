@@ -26,6 +26,8 @@ namespace UnityEngine::Timeline { class SignalReceiver_EventKeyValue; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int SignalReceiver_TypeDefinitionIndex = 38835;
+
 	class SignalReceiver : public ::UnityEngine::MonoBehaviour
 	{
 	public:

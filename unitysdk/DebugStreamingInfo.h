@@ -7,6 +7,8 @@ namespace RPG::Client { class Stage; }
 #define DEBUGSTREAMINGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x12666D40)
 #define DEBUGSTREAMINGINFO_INITCMPT_OFFSET UNITYSDK_OFFSET(0x12666CE0)
 
+inline static constexpr unsigned int DebugStreamingInfo_TypeDefinitionIndex = 47245;
+
 	class DebugStreamingInfo : public ::UnityEngine::MonoBehaviour
 	{
 	public:

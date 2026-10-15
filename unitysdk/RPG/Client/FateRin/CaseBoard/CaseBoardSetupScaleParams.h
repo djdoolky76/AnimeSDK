@@ -6,6 +6,8 @@
 
 namespace RPG::Client::FateRin::CaseBoard
 {
+	inline static constexpr unsigned int CaseBoardSetupScaleParams_TypeDefinitionIndex = 80803;
+
 	class CaseBoardSetupScaleParams : public ::System::Object
 	{
 	public:

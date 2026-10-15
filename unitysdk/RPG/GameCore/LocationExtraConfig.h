@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LocationExtraConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LocationExtraConfig_TypeDefinitionIndex = 22488;
+
 	class LocationExtraConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

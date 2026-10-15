@@ -32,6 +32,8 @@ namespace System { class Object; }
 #define KMMGJIFCBHL_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1D0B4770)
 #define KMMGJIFCBHL_NNGCACOLOEJ_OFFSET UNITYSDK_OFFSET(0x3C3BD20)
 
+inline static constexpr unsigned int KMMGJIFCBHL_TypeDefinitionIndex = 10660;
+
 	struct alignas(8) KMMGJIFCBHL
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

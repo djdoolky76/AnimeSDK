@@ -60,6 +60,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int NavMapUtils_TypeDefinitionIndex = 74624;
+
 	class NavMapUtils : public ::System::Object
 	{
 	public:

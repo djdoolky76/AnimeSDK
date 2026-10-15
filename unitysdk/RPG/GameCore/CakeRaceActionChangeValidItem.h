@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceActionChangeValidItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceActionChangeValidItem_TypeDefinitionIndex = 18356;
+
 	class CakeRaceActionChangeValidItem : public ::RPG::GameCore::CakeRaceActionBase
 	{
 	public:

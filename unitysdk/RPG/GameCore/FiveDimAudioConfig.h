@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimAudioConfig_TypeDefinitionIndex = 16712;
+
 	class FiveDimAudioConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

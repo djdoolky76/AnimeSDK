@@ -139,6 +139,8 @@ namespace System { class String; }
 #define OFEDNNJIJFL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE3B740)
 #define OFEDNNJIJFL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE3B7A0)
 
+inline static constexpr unsigned int OFEDNNJIJFL_TypeDefinitionIndex = 33183;
+
 	class OFEDNNJIJFL : public ::System::Object
 	{
 	public:

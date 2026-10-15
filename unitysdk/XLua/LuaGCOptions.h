@@ -3,6 +3,8 @@
 
 namespace XLua
 {
+	inline static constexpr unsigned int LuaGCOptions_TypeDefinitionIndex = 50247;
+
 	enum class LuaGCOptions : ::System::Int32
 	{
 		LUA_GCSTOP = 0,

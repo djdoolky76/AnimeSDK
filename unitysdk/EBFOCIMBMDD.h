@@ -9,6 +9,8 @@ class NJGDIEAIHPD;
 #define EBFOCIMBMDD_CTOR_OFFSET UNITYSDK_OFFSET(0x12CEF2D0)
 #define EBFOCIMBMDD_IIHFPKJNAHP_OFFSET UNITYSDK_OFFSET(0x12CEF2E0)
 
+inline static constexpr unsigned int EBFOCIMBMDD_TypeDefinitionIndex = 62516;
+
 	class EBFOCIMBMDD : public ::System::Object
 	{
 	public:

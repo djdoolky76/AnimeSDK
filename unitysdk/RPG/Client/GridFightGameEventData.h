@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameEventData_TypeDefinitionIndex = 64557;
+
 	class GridFightGameEventData : public ::System::Object
 	{
 	public:

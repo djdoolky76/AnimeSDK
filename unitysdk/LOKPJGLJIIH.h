@@ -56,6 +56,8 @@ namespace System { class String; }
 #define LOKPJGLJIIH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9C41C0)
 #define LOKPJGLJIIH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9C4220)
 
+inline static constexpr unsigned int LOKPJGLJIIH_TypeDefinitionIndex = 25066;
+
 	class LOKPJGLJIIH : public ::System::Object
 	{
 	public:

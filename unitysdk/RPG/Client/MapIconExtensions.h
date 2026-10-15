@@ -15,6 +15,8 @@ namespace RPG::Client { class IWayPointTarget; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MapIconExtensions_TypeDefinitionIndex = 62906;
+
 	class MapIconExtensions : public ::System::Object
 	{
 	public:

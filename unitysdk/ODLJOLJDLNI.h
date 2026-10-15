@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define ODLJOLJDLNI_ILILKENJIAM_OFFSET UNITYSDK_OFFSET(0xBDEB980)
 #define ODLJOLJDLNI_PPPNIFKHIOD_OFFSET UNITYSDK_OFFSET(0xBDEB7B0)
 
+inline static constexpr unsigned int ODLJOLJDLNI_TypeDefinitionIndex = 76349;
+
 	class ODLJOLJDLNI : public ::System::Object
 	{
 	public:

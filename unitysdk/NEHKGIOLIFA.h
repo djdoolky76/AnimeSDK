@@ -14,6 +14,8 @@
 #define NEHKGIOLIFA_LIJEDGNCNMM_1_OFFSET UNITYSDK_OFFSET(0x1DD7F1D0)
 #define NEHKGIOLIFA_LIJEDGNCNMM_OFFSET UNITYSDK_OFFSET(0x1DD7F030)
 
+inline static constexpr unsigned int NEHKGIOLIFA_TypeDefinitionIndex = 6322;
+
 	class NEHKGIOLIFA : public ::System::Object
 	{
 	public:

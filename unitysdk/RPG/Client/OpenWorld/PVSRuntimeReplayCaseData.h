@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client::OpenWorld
 {
+	inline static constexpr unsigned int PVSRuntimeReplayCaseData_TypeDefinitionIndex = 73764;
+
 	class PVSRuntimeReplayCaseData : public ::System::Object
 	{
 	public:

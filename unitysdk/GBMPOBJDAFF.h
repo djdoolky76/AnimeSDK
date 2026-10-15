@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GBMPOBJDAFF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E432AA0)
 #define GBMPOBJDAFF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E432B00)
 
+inline static constexpr unsigned int GBMPOBJDAFF_TypeDefinitionIndex = 28808;
+
 	class GBMPOBJDAFF : public ::System::Object
 	{
 	public:

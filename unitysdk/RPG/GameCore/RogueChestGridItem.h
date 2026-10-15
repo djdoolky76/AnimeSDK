@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueChestGridItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueChestGridItem_TypeDefinitionIndex = 17909;
+
 	class RogueChestGridItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

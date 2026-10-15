@@ -3,6 +3,8 @@
 class INMMPMDELKE;
 namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelGameView; }
 
+inline static constexpr unsigned int FAFFMDBPCGJ_GIAOFOIKCKM_TypeDefinitionIndex = 76724;
+
 	struct alignas(8) FAFFMDBPCGJ_GIAOFOIKCKM
 	{
 		::INMMPMDELKE* OFHDAHHPNPJ; // 0x10

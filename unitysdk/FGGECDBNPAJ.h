@@ -5,6 +5,8 @@
 
 #define FGGECDBNPAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA6E330)
 
+inline static constexpr unsigned int FGGECDBNPAJ_TypeDefinitionIndex = 43305;
+
 	class FGGECDBNPAJ : public ::System::Object
 	{
 	public:

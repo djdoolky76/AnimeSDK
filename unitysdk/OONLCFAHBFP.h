@@ -4,6 +4,8 @@
 
 #define OONLCFAHBFP_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x25C90)
 
+inline static constexpr unsigned int OONLCFAHBFP_TypeDefinitionIndex = 78868;
+
 	struct alignas(4) OONLCFAHBFP
 	{
 		::RPG::Client::Prop::SnowballPuzzleBlockType GMPGDEINODK; // 0x10

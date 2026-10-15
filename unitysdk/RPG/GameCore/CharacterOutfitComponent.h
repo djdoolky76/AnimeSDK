@@ -62,6 +62,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterOutfitComponent_TypeDefinitionIndex = 57205;
+
 	class CharacterOutfitComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

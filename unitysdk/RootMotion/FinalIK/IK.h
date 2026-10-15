@@ -10,6 +10,8 @@
 
 namespace RootMotion::FinalIK
 {
+	inline static constexpr unsigned int IK_TypeDefinitionIndex = 46011;
+
 	class IK : public ::RootMotion::SolverManager
 	{
 	public:

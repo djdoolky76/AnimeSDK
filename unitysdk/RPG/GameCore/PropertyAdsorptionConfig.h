@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PropertyAdsorptionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropertyAdsorptionConfig_TypeDefinitionIndex = 17120;
+
 	class PropertyAdsorptionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

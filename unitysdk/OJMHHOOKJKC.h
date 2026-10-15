@@ -8,6 +8,8 @@ namespace UnityEngine { class Renderer; }
 #define OJMHHOOKJKC_JDBFHECCPFF_OFFSET UNITYSDK_OFFSET(0xBEC7C30)
 #define OJMHHOOKJKC_PMENEIBBMNA_OFFSET UNITYSDK_OFFSET(0xBEC7AE0)
 
+inline static constexpr unsigned int OJMHHOOKJKC_TypeDefinitionIndex = 70175;
+
 	class OJMHHOOKJKC : public ::System::Object
 	{
 	public:

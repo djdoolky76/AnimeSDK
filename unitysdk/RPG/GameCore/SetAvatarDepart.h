@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetAvatarDepart_TypeDefinitionIndex = 22744;
+
 	class SetAvatarDepart : public ::RPG::GameCore::TaskConfig
 	{
 	public:

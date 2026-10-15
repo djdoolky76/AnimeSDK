@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvCharacterDisableHitBox_TypeDefinitionIndex = 22400;
+
 	class AdvCharacterDisableHitBox : public ::RPG::GameCore::TaskConfig
 	{
 	public:

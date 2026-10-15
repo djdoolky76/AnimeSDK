@@ -4,6 +4,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelStatic_TypeDefinitionIndex = 57848;
+
 	class LevelStatic : public ::System::Object
 	{
 	public:

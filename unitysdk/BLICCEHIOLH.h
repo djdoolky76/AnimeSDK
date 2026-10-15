@@ -31,6 +31,8 @@ namespace System { class String; }
 #define BLICCEHIOLH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF62F40)
 #define BLICCEHIOLH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF62FA0)
 
+inline static constexpr unsigned int BLICCEHIOLH_TypeDefinitionIndex = 33309;
+
 	class BLICCEHIOLH : public ::System::Object
 	{
 	public:

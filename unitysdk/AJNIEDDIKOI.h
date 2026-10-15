@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AJNIEDDIKOI_GET_HANDLER_OFFSET UNITYSDK_OFFSET(0x12CC8040)
 #define AJNIEDDIKOI_GET_OWNER_OFFSET UNITYSDK_OFFSET(0x12CC8050)
 
+inline static constexpr unsigned int AJNIEDDIKOI_TypeDefinitionIndex = 78036;
+
 	class AJNIEDDIKOI : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ namespace Collections::Pooled { template <typename T> class PooledQueue_1; }
 
 namespace Collections::Pooled
 {
+	inline static constexpr unsigned int QueueDebugView_1_TypeDefinitionIndex = 5131;
+
 	template <typename T>
 	class QueueDebugView_1 : public ::System::Object
 	{

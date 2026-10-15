@@ -62,6 +62,8 @@ namespace System { class String; }
 #define GKCKIOJHFIL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4AE3F0)
 #define GKCKIOJHFIL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4AE450)
 
+inline static constexpr unsigned int GKCKIOJHFIL_TypeDefinitionIndex = 25128;
+
 	class GKCKIOJHFIL : public ::System::Object
 	{
 	public:

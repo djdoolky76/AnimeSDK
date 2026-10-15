@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HOOCMABPNDM_CTOR_OFFSET UNITYSDK_OFFSET(0x15DBDBF0)
 #define HOOCMABPNDM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15DBDC20)
 
+inline static constexpr unsigned int HOOCMABPNDM_TypeDefinitionIndex = 54524;
+
 	class HOOCMABPNDM
 	{
 	public:

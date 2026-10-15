@@ -29,6 +29,8 @@ namespace System { class String; }
 #define AEEKMHCMBPL_MLLLOKGGFPI_OFFSET UNITYSDK_OFFSET(0xB14CED0)
 #define AEEKMHCMBPL_NLDOADDIDIO_OFFSET UNITYSDK_OFFSET(0xB14D5D0)
 
+inline static constexpr unsigned int AEEKMHCMBPL_TypeDefinitionIndex = 54409;
+
 	class AEEKMHCMBPL : public ::HPICNGFLLCA
 	{
 	public:

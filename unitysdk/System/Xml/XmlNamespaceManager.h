@@ -22,6 +22,8 @@ namespace System::Xml { class XmlNameTable; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlNamespaceManager_TypeDefinitionIndex = 1964;
+
 	class XmlNamespaceManager : public ::System::Object
 	{
 	public:

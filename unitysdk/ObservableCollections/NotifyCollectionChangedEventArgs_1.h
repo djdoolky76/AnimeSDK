@@ -6,6 +6,8 @@
 
 namespace ObservableCollections
 {
+	inline static constexpr unsigned int NotifyCollectionChangedEventArgs_1_TypeDefinitionIndex = 35881;
+
 	template <typename T>
 	struct alignas(8) NotifyCollectionChangedEventArgs_1
 	{

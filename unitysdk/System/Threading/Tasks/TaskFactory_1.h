@@ -8,6 +8,8 @@ namespace System::Threading::Tasks { class TaskScheduler; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int TaskFactory_1_TypeDefinitionIndex = 891;
+
 	template <typename T>
 	class TaskFactory_1 : public ::System::Object
 	{

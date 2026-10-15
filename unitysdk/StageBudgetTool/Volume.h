@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace StageBudgetTool
 {
+	inline static constexpr unsigned int Volume_TypeDefinitionIndex = 47720;
+
 	class Volume : public ::System::Object
 	{
 	public:

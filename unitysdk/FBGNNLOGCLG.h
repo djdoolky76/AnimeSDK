@@ -33,6 +33,8 @@ namespace System { class Object; }
 #define FBGNNLOGCLG_OGMMJNMKGDK_OFFSET UNITYSDK_OFFSET(0x1569DD40)
 #define FBGNNLOGCLG_PDBJNPGPJEJ_OFFSET UNITYSDK_OFFSET(0x1569CE80)
 
+inline static constexpr unsigned int FBGNNLOGCLG_TypeDefinitionIndex = 52411;
+
 	class FBGNNLOGCLG : public ::LNHDPDCGLAG
 	{
 	public:

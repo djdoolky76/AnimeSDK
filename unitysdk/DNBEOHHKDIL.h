@@ -8,6 +8,8 @@
 #define DNBEOHHKDIL_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x11940640)
 #define DNBEOHHKDIL_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x11940650)
 
+inline static constexpr unsigned int DNBEOHHKDIL_TypeDefinitionIndex = 56162;
+
 	class DNBEOHHKDIL : public ::DBGDNLLDPFI
 	{
 	public:

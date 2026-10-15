@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TryShowSpaceZooNewCatDialog; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TryShowSpaceZooNewCatDialog_TypeDefinitionIndex = 20908;
+
 	class TryShowSpaceZooNewCatDialog : public ::RPG::GameCore::TaskConfig
 	{
 	public:

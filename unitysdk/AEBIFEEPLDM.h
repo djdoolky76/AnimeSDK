@@ -9,6 +9,8 @@ namespace System { class String; }
 #define AEBIFEEPLDM_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB14A810)
 #define AEBIFEEPLDM_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xB14A8B0)
 
+inline static constexpr unsigned int AEBIFEEPLDM_TypeDefinitionIndex = 67052;
+
 	class AEBIFEEPLDM : public ::System::Object
 	{
 	public:

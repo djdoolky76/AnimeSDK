@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CANOCBHNHLJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E05F9F0)
 #define CANOCBHNHLJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E05FA50)
 
+inline static constexpr unsigned int CANOCBHNHLJ_TypeDefinitionIndex = 31810;
+
 	class CANOCBHNHLJ : public ::System::Object
 	{
 	public:

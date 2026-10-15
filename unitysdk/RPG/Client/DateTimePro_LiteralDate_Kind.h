@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DateTimePro_LiteralDate_Kind_TypeDefinitionIndex = 35262;
+
 	enum class DateTimePro_LiteralDate_Kind : ::System::Int32
 	{
 		Unspecified = 0,

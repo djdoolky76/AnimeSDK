@@ -78,6 +78,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleAssetPreload_CharacterPreloadGroupBase_TypeDefinitionIndex = 59649;
+
 	class BattleAssetPreload_CharacterPreloadGroupBase : public ::RPG::Client::BattleAssetPreload_AssetPreloadGroup
 	{
 	public:

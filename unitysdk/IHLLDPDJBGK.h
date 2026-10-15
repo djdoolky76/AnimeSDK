@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IHLLDPDJBGK_SET_TEXTNODELIST_OFFSET UNITYSDK_OFFSET(0x16425330)
 #define IHLLDPDJBGK_SET_TRIGGERNAME_OFFSET UNITYSDK_OFFSET(0x16425310)
 
+inline static constexpr unsigned int IHLLDPDJBGK_TypeDefinitionIndex = 81012;
+
 	class IHLLDPDJBGK : public ::System::Object
 	{
 	public:

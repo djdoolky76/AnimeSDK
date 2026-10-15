@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HAILIPBNAJL___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C651C20)
 #define HAILIPBNAJL___C__DISPLAYCLASS8_0___AICHECKNEEDUSELIMITEDDICE_B__0_OFFSET UNITYSDK_OFFSET(0x1C65B120)
 
+inline static constexpr unsigned int HAILIPBNAJL___c__DisplayClass8_0_TypeDefinitionIndex = 36418;
+
 	class HAILIPBNAJL___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

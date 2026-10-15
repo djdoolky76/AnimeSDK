@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RaidFailedResult_TypeDefinitionIndex = 14586;
+
 	enum class RaidFailedResult : ::System::Int32
 	{
 		Unknown = 0,

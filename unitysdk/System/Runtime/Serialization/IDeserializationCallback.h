@@ -3,6 +3,8 @@
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int IDeserializationCallback_TypeDefinitionIndex = 1100;
+
 	class IDeserializationCallback
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int ProGridsConditionalSnapAttribute_TypeDefinitionIndex = 44412;
+
 	class ProGridsConditionalSnapAttribute : public ::System::Attribute
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SkillTransitAnimConfig_TypeDefinitionIndex = 16501;
+
 	class SkillTransitAnimConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

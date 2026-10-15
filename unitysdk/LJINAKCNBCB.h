@@ -34,6 +34,8 @@ namespace System { class String; }
 #define LJINAKCNBCB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9830B0)
 #define LJINAKCNBCB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E983110)
 
+inline static constexpr unsigned int LJINAKCNBCB_TypeDefinitionIndex = 32700;
+
 	class LJINAKCNBCB : public ::System::Object
 	{
 	public:

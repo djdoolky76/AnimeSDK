@@ -59,6 +59,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GFENFLFLHAM_PJDLIBNKKNH_OFFSET UNITYSDK_OFFSET(0x1CA956A0)
 #define GFENFLFLHAM_PJOBINLEEFH_OFFSET UNITYSDK_OFFSET(0x1CA727B0)
 
+inline static constexpr unsigned int GFENFLFLHAM_TypeDefinitionIndex = 42620;
+
 	class GFENFLFLHAM
 	{
 	public:

@@ -4,6 +4,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LookAtExtraConfig_TypeDefinitionIndex = 68314;
+
 	struct alignas(4) LookAtExtraConfig
 	{
 		::UnityEngine::Vector3 FollowOffsetDetect; // 0x10

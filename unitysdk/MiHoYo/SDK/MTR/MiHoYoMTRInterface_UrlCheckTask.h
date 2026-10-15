@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::MTR
 {
+	inline static constexpr unsigned int MiHoYoMTRInterface_UrlCheckTask_TypeDefinitionIndex = 46683;
+
 	class MiHoYoMTRInterface_UrlCheckTask : public ::MiHoYo::SDK::MTR::MiHoYoMTRInterface_BaseTask
 	{
 	public:

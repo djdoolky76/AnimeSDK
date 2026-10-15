@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfEnterNextDayHint_TypeDefinitionIndex = 63690;
+
 	class ElfEnterNextDayHint : public ::System::Object
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FIHMMMCPAOI_NINKGGDNLFJ_OFFSET UNITYSDK_OFFSET(0x157A8340)
 #define FIHMMMCPAOI___NOTIFYFLOWDISPOSE_B__5_0_OFFSET UNITYSDK_OFFSET(0x157A89C0)
 
+inline static constexpr unsigned int FIHMMMCPAOI_TypeDefinitionIndex = 67637;
+
 	class FIHMMMCPAOI : public ::ODGEOHLNBIP
 	{
 	public:

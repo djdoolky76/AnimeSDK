@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvFloatValueTickType_Loop_TypeDefinitionIndex = 21021;
+
 	class AdvFloatValueTickType_Loop : public ::RPG::GameCore::AdvFloatValueTickType
 	{
 	public:

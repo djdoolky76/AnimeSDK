@@ -16,6 +16,8 @@ namespace UnityEngine { class Sprite; }
 
 namespace UnityEngine::Tilemaps
 {
+	inline static constexpr unsigned int TileData_TypeDefinitionIndex = 5861;
+
 	struct alignas(8) TileData
 	{
 		::UnityEngine::Sprite* m_Sprite; // 0x10

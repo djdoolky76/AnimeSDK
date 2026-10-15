@@ -11,6 +11,8 @@ namespace System::Xml::Linq { class XProcessingInstruction; }
 
 namespace Newtonsoft::Json::Converters
 {
+	inline static constexpr unsigned int XProcessingInstructionWrapper_TypeDefinitionIndex = 9840;
+
 	class XProcessingInstructionWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper
 	{
 	public:

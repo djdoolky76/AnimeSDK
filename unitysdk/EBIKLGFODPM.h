@@ -8,6 +8,8 @@ class HCMJGNAPIBD;
 #define EBIKLGFODPM_CTOR_OFFSET UNITYSDK_OFFSET(0x12CFB890)
 #define EBIKLGFODPM_LNGKNPJIOML_OFFSET UNITYSDK_OFFSET(0x12CFB8A0)
 
+inline static constexpr unsigned int EBIKLGFODPM_TypeDefinitionIndex = 64152;
+
 	class EBIKLGFODPM : public ::System::Object
 	{
 	public:

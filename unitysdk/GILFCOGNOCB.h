@@ -4,6 +4,8 @@
 
 #define GILFCOGNOCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAABA90)
 
+inline static constexpr unsigned int GILFCOGNOCB_TypeDefinitionIndex = 42904;
+
 	class GILFCOGNOCB : public ::System::Object
 	{
 	public:

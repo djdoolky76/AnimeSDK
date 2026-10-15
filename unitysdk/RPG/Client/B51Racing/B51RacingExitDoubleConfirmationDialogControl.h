@@ -18,6 +18,8 @@ namespace RPG::Client::B51Racing { class LuaControllerHandle; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingExitDoubleConfirmationDialogControl_TypeDefinitionIndex = 81932;
+
 	class B51RacingExitDoubleConfirmationDialogControl : public ::Sofa::BaseSofaControl
 	{
 	public:

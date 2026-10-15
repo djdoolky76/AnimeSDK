@@ -25,6 +25,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::FullBody
 {
+	inline static constexpr unsigned int IKMappingSpine_TypeDefinitionIndex = 74254;
+
 	class IKMappingSpine : public ::RPG::Client::FullBody::IKMapping
 	{
 	public:

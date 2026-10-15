@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BEFDLIAPHKI_MHPEAEMCLNN_OFFSET UNITYSDK_OFFSET(0x16312EC0)
 #define BEFDLIAPHKI_PANOBJJMMNC_OFFSET UNITYSDK_OFFSET(0x16312F40)
 
+inline static constexpr unsigned int BEFDLIAPHKI_TypeDefinitionIndex = 67060;
+
 	class BEFDLIAPHKI : public ::System::Object
 	{
 	public:

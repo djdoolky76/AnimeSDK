@@ -10,6 +10,8 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2SolverBlock; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2SolverStage_TypeDefinitionIndex = 36780;
+
 	class B2SolverStage : public ::System::Object
 	{
 	public:

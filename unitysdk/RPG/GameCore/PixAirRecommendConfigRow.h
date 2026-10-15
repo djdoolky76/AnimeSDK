@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PixAirRecommendConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PixAirRecommendConfigRow_TypeDefinitionIndex = 12137;
+
 	class PixAirRecommendConfigRow : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define JNBEDKMHFMN_GET_FILTERSESSION_OFFSET UNITYSDK_OFFSET(0xB276C30)
 #define JNBEDKMHFMN_GET_REQUIREMENTCONFIG_OFFSET UNITYSDK_OFFSET(0xB276C10)
 
+inline static constexpr unsigned int JNBEDKMHFMN_TypeDefinitionIndex = 79529;
+
 	class JNBEDKMHFMN : public ::System::Object
 	{
 	public:

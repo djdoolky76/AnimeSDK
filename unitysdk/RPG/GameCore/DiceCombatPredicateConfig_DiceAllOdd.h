@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_DiceAllOdd; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatPredicateConfig_DiceAllOdd_TypeDefinitionIndex = 16099;
+
 	class DiceCombatPredicateConfig_DiceAllOdd : public ::RPG::GameCore::DiceCombatPredicateConfig
 	{
 	public:

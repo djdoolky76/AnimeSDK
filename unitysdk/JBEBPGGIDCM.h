@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JBEBPGGIDCM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6F4500)
 #define JBEBPGGIDCM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6F4560)
 
+inline static constexpr unsigned int JBEBPGGIDCM_TypeDefinitionIndex = 28989;
+
 	class JBEBPGGIDCM : public ::System::Object
 	{
 	public:

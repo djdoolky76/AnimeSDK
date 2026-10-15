@@ -9,6 +9,8 @@ namespace RPG::Client::Challenge { class ChallengeAvatarLineupSlotControl; }
 
 namespace RPG::Client::Challenge
 {
+	inline static constexpr unsigned int ChallengeAvatarLineupSlotControl___c__DisplayClass14_0_TypeDefinitionIndex = 81414;
+
 	class ChallengeAvatarLineupSlotControl___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:

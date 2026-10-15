@@ -30,6 +30,8 @@ namespace System { class String; }
 #define ILCBEINELFA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6A81E0)
 #define ILCBEINELFA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6A8240)
 
+inline static constexpr unsigned int ILCBEINELFA_TypeDefinitionIndex = 32587;
+
 	class ILCBEINELFA : public ::System::Object
 	{
 	public:

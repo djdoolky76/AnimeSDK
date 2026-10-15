@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GroupSystemUnlockDataRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GroupSystemUnlockDataRow_TypeDefinitionIndex = 13335;
+
 	class GroupSystemUnlockDataRow : public ::System::Object
 	{
 	public:

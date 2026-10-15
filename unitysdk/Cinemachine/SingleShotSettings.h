@@ -7,6 +7,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int SingleShotSettings_TypeDefinitionIndex = 49633;
+
 	struct alignas(4) SingleShotSettings
 	{
 		::System::Single X; // 0x10

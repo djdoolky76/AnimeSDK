@@ -65,6 +65,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AirlineWay_TypeDefinitionIndex = 59774;
+
 	class AirlineWay : public ::RPG::Client::Airline
 	{
 	public:

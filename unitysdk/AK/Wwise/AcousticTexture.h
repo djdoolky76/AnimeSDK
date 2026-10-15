@@ -12,6 +12,8 @@ class WwiseObjectReference;
 
 namespace AK::Wwise
 {
+	inline static constexpr unsigned int AcousticTexture_TypeDefinitionIndex = 44975;
+
 	class AcousticTexture : public ::AK::Wwise::BaseType
 	{
 	public:

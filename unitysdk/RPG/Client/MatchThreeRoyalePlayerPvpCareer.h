@@ -16,6 +16,8 @@ namespace RPG::Client { class MatchThreeV2RankData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeRoyalePlayerPvpCareer_TypeDefinitionIndex = 66063;
+
 	class MatchThreeRoyalePlayerPvpCareer : public ::System::Object
 	{
 	public:

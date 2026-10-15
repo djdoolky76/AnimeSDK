@@ -7,6 +7,8 @@
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int SyntaxTreeNode_TypeDefinitionIndex = 2068;
+
 	class SyntaxTreeNode : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ToggleSpecialSkillMark_TypeDefinitionIndex = 23683;
+
 	class ToggleSpecialSkillMark : public ::RPG::GameCore::TaskConfig
 	{
 	public:

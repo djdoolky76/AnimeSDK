@@ -10,6 +10,8 @@ namespace UnityEngine::EventSystems { class BaseEventData; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int ConsoleDialogBase___c__DisplayClass37_0_TypeDefinitionIndex = 9005;
+
 	class ConsoleDialogBase___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace UnityEngine::ProBuilder::KdTree { template <typename T1, typename T2> 
 
 namespace UnityEngine::ProBuilder::KdTree
 {
+	inline static constexpr unsigned int KdTreeNode_2_TypeDefinitionIndex = 38725;
+
 	template <typename T1, typename T2>
 	class KdTreeNode_2 : public ::System::Object
 	{

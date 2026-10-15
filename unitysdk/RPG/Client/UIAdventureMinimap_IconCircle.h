@@ -10,6 +10,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIAdventureMinimap_IconCircle_TypeDefinitionIndex = 69065;
+
 	class UIAdventureMinimap_IconCircle : public ::System::Object
 	{
 	public:

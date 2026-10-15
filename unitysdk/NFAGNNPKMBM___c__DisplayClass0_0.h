@@ -8,6 +8,8 @@ namespace System { class String; }
 #define NFAGNNPKMBM___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBB76C50)
 #define NFAGNNPKMBM___C__DISPLAYCLASS0_0__SHOWCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xBB76D60)
 
+inline static constexpr unsigned int NFAGNNPKMBM___c__DisplayClass0_0_TypeDefinitionIndex = 80513;
+
 	class NFAGNNPKMBM___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

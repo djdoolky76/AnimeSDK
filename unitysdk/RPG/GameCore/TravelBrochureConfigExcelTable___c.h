@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TravelBrochureConfigExcelTable___c_TypeDefinitionIndex = 15375;
+
 	class TravelBrochureConfigExcelTable___c : public ::System::Object
 	{
 	public:

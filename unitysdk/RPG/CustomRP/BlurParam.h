@@ -3,6 +3,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int BlurParam_TypeDefinitionIndex = 37878;
+
 	struct alignas(4) BlurParam
 	{
 		::System::Single BlurScale; // 0x10

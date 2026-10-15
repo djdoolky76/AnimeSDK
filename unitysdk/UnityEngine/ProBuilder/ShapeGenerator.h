@@ -28,6 +28,8 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int ShapeGenerator_TypeDefinitionIndex = 44432;
+
 	class ShapeGenerator : public ::System::Object
 	{
 	public:

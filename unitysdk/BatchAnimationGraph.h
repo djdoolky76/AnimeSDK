@@ -36,6 +36,8 @@ namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 #define BATCHANIMATIONGRAPH_TOSTOP_OFFSET UNITYSDK_OFFSET(0x1CBE7380)
 #define BATCHANIMATIONGRAPH_TOWALK_OFFSET UNITYSDK_OFFSET(0x1CBE72D0)
 
+inline static constexpr unsigned int BatchAnimationGraph_TypeDefinitionIndex = 37461;
+
 	class BatchAnimationGraph : public ::System::Object
 	{
 	public:

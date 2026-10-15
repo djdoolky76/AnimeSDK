@@ -24,6 +24,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define MEKBBCECPLB_MCNHEINPBCC_OFFSET UNITYSDK_OFFSET(0x1C749EA0)
 #define MEKBBCECPLB_MGKOIFINEHK_OFFSET UNITYSDK_OFFSET(0x1C74A1D0)
 
+inline static constexpr unsigned int MEKBBCECPLB_TypeDefinitionIndex = 37018;
+
 	class MEKBBCECPLB : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CustomBoundsProviderMonoBase_TypeDefinitionIndex = 70883;
+
 	class CustomBoundsProviderMonoBase : public ::RPG::Client::TAMonoBase
 	{
 	public:

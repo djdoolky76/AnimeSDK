@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingBattleEffect_RemoveAbility; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleEffect_RemoveAbility_TypeDefinitionIndex = 15786;
+
 	class ChenLingBattleEffect_RemoveAbility : public ::RPG::GameCore::BaseChenLingBattleEffect
 	{
 	public:

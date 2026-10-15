@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimSwitchSplineMoveDirectionAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSwitchSplineMoveDirectionAction_TypeDefinitionIndex = 18660;
+
 	class FiveDimSwitchSplineMoveDirectionAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 #define EILAGBFHCLA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x154CF1D0)
 #define EILAGBFHCLA_TICK_OFFSET UNITYSDK_OFFSET(0x154CF400)
 
+inline static constexpr unsigned int EILAGBFHCLA_TypeDefinitionIndex = 58320;
+
 	class EILAGBFHCLA : public ::GELIALJDFBL
 	{
 	public:

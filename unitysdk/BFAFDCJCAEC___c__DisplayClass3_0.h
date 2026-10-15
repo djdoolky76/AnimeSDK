@@ -7,6 +7,8 @@ class FHHAHPNHACD;
 #define BFAFDCJCAEC___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB15CD80)
 #define BFAFDCJCAEC___C__DISPLAYCLASS3_0__SENDDELETERELICPRESETPLAN_B__0_OFFSET UNITYSDK_OFFSET(0xB15D8A0)
 
+inline static constexpr unsigned int BFAFDCJCAEC___c__DisplayClass3_0_TypeDefinitionIndex = 66869;
+
 	class BFAFDCJCAEC___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

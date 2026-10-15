@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HENHCGPJJFI_HAALMFIPDCJ_OFFSET UNITYSDK_OFFSET(0x15C5D1C0)
 #define HENHCGPJJFI_MGNLOHIJACL_OFFSET UNITYSDK_OFFSET(0x15C5CEF0)
 
+inline static constexpr unsigned int HENHCGPJJFI_TypeDefinitionIndex = 67242;
+
 	class HENHCGPJJFI : public ::IKLPCALPDAE
 	{
 	public:

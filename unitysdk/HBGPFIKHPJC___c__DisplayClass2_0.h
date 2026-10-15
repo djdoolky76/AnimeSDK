@@ -10,6 +10,8 @@ namespace System { class Exception; }
 #define HBGPFIKHPJC___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x15C04240)
 #define HBGPFIKHPJC___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__1_OFFSET UNITYSDK_OFFSET(0x15C04400)
 
+inline static constexpr unsigned int HBGPFIKHPJC___c__DisplayClass2_0_TypeDefinitionIndex = 58477;
+
 	class HBGPFIKHPJC___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

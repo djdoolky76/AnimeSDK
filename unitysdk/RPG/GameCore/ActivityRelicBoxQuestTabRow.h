@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActivityRelicBoxQuestTabRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityRelicBoxQuestTabRow_TypeDefinitionIndex = 12333;
+
 	class ActivityRelicBoxQuestTabRow : public ::System::Object
 	{
 	public:

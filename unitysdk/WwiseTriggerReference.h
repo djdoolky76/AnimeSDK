@@ -6,6 +6,8 @@
 #define WWISETRIGGERREFERENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F637460)
 #define WWISETRIGGERREFERENCE_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1F637450)
 
+inline static constexpr unsigned int WwiseTriggerReference_TypeDefinitionIndex = 44893;
+
 	class WwiseTriggerReference : public ::WwiseObjectReference
 	{
 	public:

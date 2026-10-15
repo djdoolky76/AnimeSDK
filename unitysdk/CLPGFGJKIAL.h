@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CLPGFGJKIAL_CTOR_OFFSET UNITYSDK_OFFSET(0xDA231D0)
 #define CLPGFGJKIAL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDA23200)
 
+inline static constexpr unsigned int CLPGFGJKIAL_TypeDefinitionIndex = 56425;
+
 	class CLPGFGJKIAL
 	{
 	public:

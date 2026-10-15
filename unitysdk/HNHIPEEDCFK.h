@@ -6,6 +6,8 @@ class LBJLBMOOJGM;
 #define HNHIPEEDCFK_CTOR_OFFSET UNITYSDK_OFFSET(0x15D95350)
 #define HNHIPEEDCFK_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0x15D952C0)
 
+inline static constexpr unsigned int HNHIPEEDCFK_TypeDefinitionIndex = 65605;
+
 	class HNHIPEEDCFK : public ::System::Object
 	{
 	public:

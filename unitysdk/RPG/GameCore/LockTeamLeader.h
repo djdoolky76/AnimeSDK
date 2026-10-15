@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LockTeamLeader; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LockTeamLeader_TypeDefinitionIndex = 21605;
+
 	class LockTeamLeader : public ::RPG::GameCore::TaskConfig
 	{
 	public:

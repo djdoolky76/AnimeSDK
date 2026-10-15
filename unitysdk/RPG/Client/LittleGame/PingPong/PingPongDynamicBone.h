@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::PingPong
 {
+	inline static constexpr unsigned int PingPongDynamicBone_TypeDefinitionIndex = 76677;
+
 	class PingPongDynamicBone : public ::UnityEngine::MonoBehaviour
 	{
 	public:

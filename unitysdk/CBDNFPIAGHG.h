@@ -16,6 +16,8 @@ namespace System { class String; }
 #define CBDNFPIAGHG_PDFBFNFBMLF_OFFSET UNITYSDK_OFFSET(0xC4A02C0)
 #define CBDNFPIAGHG_TICK_OFFSET UNITYSDK_OFFSET(0xC4A0650)
 
+inline static constexpr unsigned int CBDNFPIAGHG_TypeDefinitionIndex = 52716;
+
 	class CBDNFPIAGHG : public ::GELIALJDFBL
 	{
 	public:

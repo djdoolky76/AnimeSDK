@@ -7,6 +7,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ScreenColorCopySettingsData_TypeDefinitionIndex = 37856;
+
 	class ScreenColorCopySettingsData : public ::System::Object
 	{
 	public:

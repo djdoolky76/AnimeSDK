@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddStageAbilityByName_TypeDefinitionIndex = 22971;
+
 	class AddStageAbilityByName : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TimeRewindOverrideHitProtectTime; }
 #define NCEFHDPDGOP_CTOR_OFFSET UNITYSDK_OFFSET(0xBB0A400)
 #define NCEFHDPDGOP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB0A430)
 
+inline static constexpr unsigned int NCEFHDPDGOP_TypeDefinitionIndex = 53402;
+
 	class NCEFHDPDGOP
 	{
 	public:

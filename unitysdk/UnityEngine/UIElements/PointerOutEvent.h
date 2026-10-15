@@ -5,6 +5,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int PointerOutEvent_TypeDefinitionIndex = 5988;
+
 	class PointerOutEvent
 	{
 	public:

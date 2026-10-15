@@ -8,6 +8,8 @@ namespace System { class String; }
 #define GKGHEGLCIJC_GET_DAMAGECOUNTER_OFFSET UNITYSDK_OFFSET(0x15A96A40)
 #define GKGHEGLCIJC_SET_DAMAGECOUNTER_OFFSET UNITYSDK_OFFSET(0x15A96A50)
 
+inline static constexpr unsigned int GKGHEGLCIJC_TypeDefinitionIndex = 58996;
+
 	class GKGHEGLCIJC : public ::JENIFGNJEPE
 	{
 	public:

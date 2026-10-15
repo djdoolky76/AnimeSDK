@@ -23,6 +23,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::RewardItem
 {
+	inline static constexpr unsigned int RewardItemControl_TypeDefinitionIndex = 79134;
+
 	class RewardItemControl
 	{
 	public:

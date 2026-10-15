@@ -25,6 +25,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 #define MINIMAPCLIPPER_SETUVOFFSET_OFFSET UNITYSDK_OFFSET(0xBA4B110)
 #define MINIMAPCLIPPER_SETUVSCALE_OFFSET UNITYSDK_OFFSET(0xBA4BCB0)
 
+inline static constexpr unsigned int MiniMapClipper_TypeDefinitionIndex = 47573;
+
 	class MiniMapClipper : public ::UnityEngine::UI::BaseMeshEffect
 	{
 	public:

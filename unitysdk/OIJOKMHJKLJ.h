@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define OIJOKMHJKLJ_SET_WORKACTION_OFFSET UNITYSDK_OFFSET(0x1EC537D0)
 #define OIJOKMHJKLJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EC53380)
 
+inline static constexpr unsigned int OIJOKMHJKLJ_TypeDefinitionIndex = 44039;
+
 	class OIJOKMHJKLJ : public ::System::Object
 	{
 	public:

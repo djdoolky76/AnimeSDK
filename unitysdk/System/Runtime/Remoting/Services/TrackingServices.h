@@ -12,6 +12,8 @@ namespace System::Runtime::Remoting { class ObjRef; }
 
 namespace System::Runtime::Remoting::Services
 {
+	inline static constexpr unsigned int TrackingServices_TypeDefinitionIndex = 1233;
+
 	class TrackingServices : public ::System::Object
 	{
 	public:

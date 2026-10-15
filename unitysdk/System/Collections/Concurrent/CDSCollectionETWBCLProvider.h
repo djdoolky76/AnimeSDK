@@ -11,6 +11,8 @@ namespace System::Collections::Concurrent { class CDSCollectionETWBCLProvider; }
 
 namespace System::Collections::Concurrent
 {
+	inline static constexpr unsigned int CDSCollectionETWBCLProvider_TypeDefinitionIndex = 1513;
+
 	class CDSCollectionETWBCLProvider : public ::System::Diagnostics::Tracing::EventSource
 	{
 	public:

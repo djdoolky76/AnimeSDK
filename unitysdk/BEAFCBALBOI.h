@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BEAFCBALBOI_CTOR_OFFSET UNITYSDK_OFFSET(0x16308DF0)
 #define BEAFCBALBOI_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x16308ED0)
 
+inline static constexpr unsigned int BEAFCBALBOI_TypeDefinitionIndex = 59155;
+
 	class BEAFCBALBOI
 	{
 	public:

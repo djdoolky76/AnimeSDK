@@ -4,6 +4,8 @@
 
 #define EDEEECDNPKD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD3A060)
 
+inline static constexpr unsigned int EDEEECDNPKD_TypeDefinitionIndex = 6551;
+
 	class EDEEECDNPKD : public ::System::Object
 	{
 	public:

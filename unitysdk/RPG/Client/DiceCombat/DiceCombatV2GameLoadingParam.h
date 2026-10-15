@@ -11,6 +11,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2GameLoadingParam_TypeDefinitionIndex = 76197;
+
 	class DiceCombatV2GameLoadingParam : public ::System::Object
 	{
 	public:

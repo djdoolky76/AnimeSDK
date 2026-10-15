@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DiceCombatWeatherSkillConfig; }
 
 #define KFPLECNMLNF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C70F3F0)
 
+inline static constexpr unsigned int KFPLECNMLNF_TypeDefinitionIndex = 36400;
+
 	class KFPLECNMLNF : public ::System::Object
 	{
 	public:

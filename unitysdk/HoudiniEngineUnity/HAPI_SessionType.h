@@ -3,6 +3,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HAPI_SessionType_TypeDefinitionIndex = 40451;
+
 	enum class HAPI_SessionType : ::System::Int32
 	{
 		HAPI_SESSION_INPROCESS = 0,

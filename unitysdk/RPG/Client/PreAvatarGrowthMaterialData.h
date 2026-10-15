@@ -9,6 +9,8 @@ namespace RPG::Client { class PreAvatarGrowthMaterialData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PreAvatarGrowthMaterialData_TypeDefinitionIndex = 66722;
+
 	class PreAvatarGrowthMaterialData : public ::System::Object
 	{
 	public:

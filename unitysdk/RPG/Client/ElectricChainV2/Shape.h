@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ElectricChainV2
 {
+	inline static constexpr unsigned int Shape_TypeDefinitionIndex = 73594;
+
 	class Shape : public ::System::Object
 	{
 	public:

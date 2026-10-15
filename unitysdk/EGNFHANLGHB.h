@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DrinkMakerCheersPerformanceRow; }
 #define EGNFHANLGHB_SET_ISFIRSTDRINKONDAY_OFFSET UNITYSDK_OFFSET(0x1451ED30)
 #define EGNFHANLGHB_SET_PERFORMANCEID_OFFSET UNITYSDK_OFFSET(0x1451ED50)
 
+inline static constexpr unsigned int EGNFHANLGHB_TypeDefinitionIndex = 63624;
+
 	class EGNFHANLGHB : public ::System::Object
 	{
 	public:

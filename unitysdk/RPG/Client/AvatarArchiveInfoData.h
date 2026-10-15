@@ -13,6 +13,8 @@ class HNCHGCMKAKE;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarArchiveInfoData_TypeDefinitionIndex = 62423;
+
 	class AvatarArchiveInfoData : public ::System::Object
 	{
 	public:

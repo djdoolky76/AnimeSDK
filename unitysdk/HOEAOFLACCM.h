@@ -6,6 +6,8 @@
 
 #define HOEAOFLACCM_CTOR_OFFSET UNITYSDK_OFFSET(0x15DB0F80)
 
+inline static constexpr unsigned int HOEAOFLACCM_TypeDefinitionIndex = 55127;
+
 	class HOEAOFLACCM : public ::System::Object
 	{
 	public:

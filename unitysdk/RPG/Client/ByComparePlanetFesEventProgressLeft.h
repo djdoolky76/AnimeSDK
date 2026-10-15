@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ByComparePlanetFesEventProgressLeft_TypeDefinitionIndex = 10274;
+
 	class ByComparePlanetFesEventProgressLeft : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

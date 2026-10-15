@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NoteComboConfig_TypeDefinitionIndex = 16950;
+
 	class NoteComboConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

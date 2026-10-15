@@ -14,6 +14,8 @@ namespace System::Collections { class IEnumerable; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int NonGenericInterfaceEnumerableFormatter_TypeDefinitionIndex = 7402;
+
 	class NonGenericInterfaceEnumerableFormatter : public ::System::Object
 	{
 	public:

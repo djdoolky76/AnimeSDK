@@ -6,6 +6,8 @@ namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 #define EOGDHGALDIG_CTOR_OFFSET UNITYSDK_OFFSET(0x155BEB90)
 #define EOGDHGALDIG_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x155BE690)
 
+inline static constexpr unsigned int EOGDHGALDIG_TypeDefinitionIndex = 76281;
+
 	class EOGDHGALDIG : public ::MLKDDLHNNHH
 	{
 	public:

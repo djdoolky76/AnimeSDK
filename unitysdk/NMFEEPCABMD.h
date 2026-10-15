@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define NMFEEPCABMD_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C79CDB0)
 #define NMFEEPCABMD_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C79CD50)
 
+inline static constexpr unsigned int NMFEEPCABMD_TypeDefinitionIndex = 36229;
+
 	class NMFEEPCABMD : public ::System::MulticastDelegate
 	{
 	public:

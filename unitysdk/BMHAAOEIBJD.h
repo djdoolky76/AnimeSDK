@@ -7,6 +7,8 @@ namespace System { class Object; }
 #define BMHAAOEIBJD_AKJABINEGDJ_OFFSET UNITYSDK_OFFSET(0xBDAE260)
 #define BMHAAOEIBJD_CTOR_OFFSET UNITYSDK_OFFSET(0xBDAE3B0)
 
+inline static constexpr unsigned int BMHAAOEIBJD_TypeDefinitionIndex = 54185;
+
 	class BMHAAOEIBJD : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define EJAKJEKBGIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA53910)
 
+inline static constexpr unsigned int EJAKJEKBGIG_TypeDefinitionIndex = 43749;
+
 	class EJAKJEKBGIG : public ::System::Object
 	{
 	public:

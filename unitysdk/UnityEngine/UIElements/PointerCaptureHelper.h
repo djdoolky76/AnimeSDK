@@ -19,6 +19,8 @@ namespace UnityEngine::UIElements { class PointerDispatchState; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int PointerCaptureHelper_TypeDefinitionIndex = 5892;
+
 	class PointerCaptureHelper : public ::System::Object
 	{
 	public:

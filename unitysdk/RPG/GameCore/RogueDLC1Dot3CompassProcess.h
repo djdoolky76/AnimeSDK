@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLC1Dot3CompassProcess_TypeDefinitionIndex = 22280;
+
 	class RogueDLC1Dot3CompassProcess : public ::RPG::GameCore::TaskConfig
 	{
 	public:

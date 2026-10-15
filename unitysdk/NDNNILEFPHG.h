@@ -9,6 +9,8 @@ class NDNNILEFPHG;
 #define NDNNILEFPHG_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0x1C944710)
 #define NDNNILEFPHG_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x1C9446B0)
 
+inline static constexpr unsigned int NDNNILEFPHG_TypeDefinitionIndex = 42016;
+
 	class NDNNILEFPHG : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MPIMMHDEAGO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB99F0)
 #define MPIMMHDEAGO___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1EAB9A00)
 
+inline static constexpr unsigned int MPIMMHDEAGO___c_TypeDefinitionIndex = 31124;
+
 	class MPIMMHDEAGO___c : public ::System::Object
 	{
 	public:

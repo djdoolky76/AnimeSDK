@@ -6,6 +6,8 @@
 
 #define AMAONGGOKGP_PHOOLFPABIL_OFFSET UNITYSDK_OFFSET(0x1C89DF60)
 
+inline static constexpr unsigned int AMAONGGOKGP_TypeDefinitionIndex = 43591;
+
 	class AMAONGGOKGP : public ::System::Object
 	{
 	public:

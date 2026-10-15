@@ -5,6 +5,8 @@ namespace RPG::Client { class NotifyHandler; }
 
 namespace RPG::Client::CrowdAnimator
 {
+	inline static constexpr unsigned int CrowdRenderer___O_TypeDefinitionIndex = 73725;
+
 	class CrowdRenderer___O : public ::System::Object
 	{
 	public:

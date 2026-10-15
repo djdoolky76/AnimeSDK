@@ -11,6 +11,8 @@
 #define BMJNELLLAAE_SET_SOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xBDBD8B0)
 #define BMJNELLLAAE_SET_WORLDPOSITION_OFFSET UNITYSDK_OFFSET(0xBDBD890)
 
+inline static constexpr unsigned int BMJNELLLAAE_TypeDefinitionIndex = 81269;
+
 	class BMJNELLLAAE : public ::System::Object
 	{
 	public:

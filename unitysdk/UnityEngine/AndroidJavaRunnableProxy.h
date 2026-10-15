@@ -7,6 +7,8 @@ namespace UnityEngine { class AndroidJavaRunnable; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AndroidJavaRunnableProxy_TypeDefinitionIndex = 5679;
+
 	class AndroidJavaRunnableProxy : public ::UnityEngine::AndroidJavaProxy
 	{
 	public:

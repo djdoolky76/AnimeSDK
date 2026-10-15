@@ -6,6 +6,8 @@ class KEHCDMCIBJJ;
 #define KEHCDMCIBJJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB37A800)
 #define KEHCDMCIBJJ_MJEODHKPKEB_OFFSET UNITYSDK_OFFSET(0xB37A780)
 
+inline static constexpr unsigned int KEHCDMCIBJJ_TypeDefinitionIndex = 56290;
+
 	class KEHCDMCIBJJ : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int ReloadGroupAttribute_TypeDefinitionIndex = 35609;
+
 	class ReloadGroupAttribute : public ::System::Attribute
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityValueGetterContextConfig_TypeDefinitionIndex = 21390;
+
 	class LittleGameAbilityValueGetterContextConfig : public ::RPG::GameCore::BaseLittleGameAbilityValueGetterConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int ArrayTypeMismatchException_TypeDefinitionIndex = 198;
+
 	class ArrayTypeMismatchException : public ::System::SystemException
 	{
 	public:

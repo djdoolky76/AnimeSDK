@@ -32,6 +32,8 @@ namespace System { class String; }
 #define NKEGPAOCGCJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB57280)
 #define NKEGPAOCGCJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB572E0)
 
+inline static constexpr unsigned int NKEGPAOCGCJ_TypeDefinitionIndex = 28036;
+
 	class NKEGPAOCGCJ : public ::System::Object
 	{
 	public:

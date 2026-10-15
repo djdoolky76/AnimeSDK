@@ -32,6 +32,8 @@ namespace System { class String; }
 #define PLAGFACLPDL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF9C940)
 #define PLAGFACLPDL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF9C9A0)
 
+inline static constexpr unsigned int PLAGFACLPDL_TypeDefinitionIndex = 28714;
+
 	class PLAGFACLPDL : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System { class Object; }
 #define HEALIJCMKKJ_MAIMJGKONJO_OFFSET UNITYSDK_OFFSET(0x1C5593C0)
 #define HEALIJCMKKJ_PGFCOBHJEDK_OFFSET UNITYSDK_OFFSET(0x1C559010)
 
+inline static constexpr unsigned int HEALIJCMKKJ_TypeDefinitionIndex = 41849;
+
 	class HEALIJCMKKJ : public ::MAKOLMIPFFE
 	{
 	public:

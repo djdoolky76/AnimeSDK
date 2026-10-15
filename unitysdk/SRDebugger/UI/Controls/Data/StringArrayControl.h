@@ -19,6 +19,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace SRDebugger::UI::Controls::Data
 {
+	inline static constexpr unsigned int StringArrayControl_TypeDefinitionIndex = 38047;
+
 	class StringArrayControl : public ::SRDebugger::UI::Controls::DataBoundControl
 	{
 	public:

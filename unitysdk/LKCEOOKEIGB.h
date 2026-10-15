@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 #define LKCEOOKEIGB_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB729B50)
 #define LKCEOOKEIGB_SET_FINISH_OFFSET UNITYSDK_OFFSET(0xB729EE0)
 
+inline static constexpr unsigned int LKCEOOKEIGB_TypeDefinitionIndex = 78527;
+
 	class LKCEOOKEIGB : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace RPG::GameCore { class TitanAtlasRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TitanAtlasInfo_TypeDefinitionIndex = 68143;
+
 	class TitanAtlasInfo : public ::System::Object
 	{
 	public:

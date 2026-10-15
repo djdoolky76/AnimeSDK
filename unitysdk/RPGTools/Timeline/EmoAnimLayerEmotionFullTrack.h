@@ -13,6 +13,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int EmoAnimLayerEmotionFullTrack_TypeDefinitionIndex = 48092;
+
 	class EmoAnimLayerEmotionFullTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:

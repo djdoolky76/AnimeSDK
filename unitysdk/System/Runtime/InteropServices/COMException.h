@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int COMException_TypeDefinitionIndex = 1427;
+
 	class COMException : public ::System::Runtime::InteropServices::ExternalException
 	{
 	public:

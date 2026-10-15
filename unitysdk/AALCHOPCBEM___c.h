@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AALCHOPCBEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDBE960)
 #define AALCHOPCBEM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DDBE970)
 
+inline static constexpr unsigned int AALCHOPCBEM___c_TypeDefinitionIndex = 27060;
+
 	class AALCHOPCBEM___c : public ::System::Object
 	{
 	public:

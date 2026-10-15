@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ThreadAndSerializationSafeAttribute_TypeDefinitionIndex = 3713;
+
 	class ThreadAndSerializationSafeAttribute : public ::System::Attribute
 	{
 	public:

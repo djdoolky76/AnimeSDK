@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LLBIFBBHLLP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB75E300)
 #define LLBIFBBHLLP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB75DA60)
 
+inline static constexpr unsigned int LLBIFBBHLLP_TypeDefinitionIndex = 52682;
+
 	class LLBIFBBHLLP
 	{
 	public:

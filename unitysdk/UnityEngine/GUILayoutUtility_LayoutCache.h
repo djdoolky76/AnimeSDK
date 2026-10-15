@@ -8,6 +8,8 @@ namespace UnityEngineInternal { class GenericStack; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GUILayoutUtility_LayoutCache_TypeDefinitionIndex = 5177;
+
 	class GUILayoutUtility_LayoutCache : public ::System::Object
 	{
 	public:

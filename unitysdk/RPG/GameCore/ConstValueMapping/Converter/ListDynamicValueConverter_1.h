@@ -5,6 +5,8 @@ namespace RPG::GameCore::ConstValueMapping::Converter { template <typename T> cl
 
 namespace RPG::GameCore::ConstValueMapping::Converter
 {
+	inline static constexpr unsigned int ListDynamicValueConverter_1_TypeDefinitionIndex = 43906;
+
 	template <typename T>
 	class ListDynamicValueConverter_1 : public ::System::Object
 	{

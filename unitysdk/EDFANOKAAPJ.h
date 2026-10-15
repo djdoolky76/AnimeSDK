@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define EDFANOKAAPJ_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x13313070)
 #define EDFANOKAAPJ_INVOKE_OFFSET UNITYSDK_OFFSET(0x13313010)
 
+inline static constexpr unsigned int EDFANOKAAPJ_TypeDefinitionIndex = 50056;
+
 	class EDFANOKAAPJ : public ::System::MulticastDelegate
 	{
 	public:

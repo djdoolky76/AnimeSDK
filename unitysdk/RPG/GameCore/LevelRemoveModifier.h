@@ -20,6 +20,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelRemoveModifier_TypeDefinitionIndex = 56779;
+
 	class LevelRemoveModifier : public ::CMPGEAFHHDC
 	{
 	public:

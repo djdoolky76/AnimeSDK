@@ -24,6 +24,8 @@ namespace RPG::Client { class ClientAlleyLogisticsScore; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ClientAlleyLogisticsScore_TypeDefinitionIndex = 62280;
+
 	class ClientAlleyLogisticsScore : public ::System::Object
 	{
 	public:

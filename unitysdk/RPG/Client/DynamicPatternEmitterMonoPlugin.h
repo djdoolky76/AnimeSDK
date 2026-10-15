@@ -34,6 +34,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DynamicPatternEmitterMonoPlugin_TypeDefinitionIndex = 70897;
+
 	class DynamicPatternEmitterMonoPlugin
 	{
 	public:

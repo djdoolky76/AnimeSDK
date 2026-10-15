@@ -9,6 +9,8 @@ namespace RPG::Client::FateRin::Card { class FateRinSingleDeckEditViewModel; }
 
 namespace RPG::Client::FateRin::Card
 {
+	inline static constexpr unsigned int FateRinSingleDeckEditViewModel___c__DisplayClass9_0_TypeDefinitionIndex = 81176;
+
 	class FateRinSingleDeckEditViewModel___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

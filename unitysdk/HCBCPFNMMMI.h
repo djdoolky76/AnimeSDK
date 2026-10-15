@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HCBCPFNMMMI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E532F90)
 #define HCBCPFNMMMI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E532FF0)
 
+inline static constexpr unsigned int HCBCPFNMMMI_TypeDefinitionIndex = 28064;
+
 	class HCBCPFNMMMI : public ::System::Object
 	{
 	public:

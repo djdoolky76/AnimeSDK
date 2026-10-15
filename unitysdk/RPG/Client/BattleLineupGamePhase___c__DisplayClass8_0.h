@@ -10,6 +10,8 @@ namespace RPG::Client::Promises { class Promise; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleLineupGamePhase___c__DisplayClass8_0_TypeDefinitionIndex = 60986;
+
 	class BattleLineupGamePhase___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

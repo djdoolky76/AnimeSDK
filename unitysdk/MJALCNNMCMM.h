@@ -14,6 +14,8 @@ namespace System { class String; }
 #define MJALCNNMCMM_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB9624E0)
 #define MJALCNNMCMM_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0xB9625D0)
 
+inline static constexpr unsigned int MJALCNNMCMM_TypeDefinitionIndex = 76517;
+
 	class MJALCNNMCMM : public ::System::Object
 	{
 	public:

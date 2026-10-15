@@ -14,6 +14,8 @@ namespace MessagePack::Formatters { class DecimalFormatter; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int DecimalFormatter_TypeDefinitionIndex = 7486;
+
 	class DecimalFormatter : public ::System::Object
 	{
 	public:

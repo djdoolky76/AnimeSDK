@@ -30,6 +30,8 @@ namespace System { class String; }
 #define LFKOLKFKOAP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9439D0)
 #define LFKOLKFKOAP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E943A30)
 
+inline static constexpr unsigned int LFKOLKFKOAP_TypeDefinitionIndex = 32882;
+
 	class LFKOLKFKOAP : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 #define FJAJACIMMMF_CTOR_OFFSET UNITYSDK_OFFSET(0x157B6580)
 #define FJAJACIMMMF_NPOFEKBLAIH_OFFSET UNITYSDK_OFFSET(0x157B6290)
 
+inline static constexpr unsigned int FJAJACIMMMF_TypeDefinitionIndex = 72432;
+
 	class FJAJACIMMMF : public ::JPNPHHIBPEK
 	{
 	public:

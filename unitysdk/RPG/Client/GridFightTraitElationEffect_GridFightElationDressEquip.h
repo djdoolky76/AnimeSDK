@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTraitElationEffect_GridFightElationDressEquip_TypeDefinitionIndex = 65385;
+
 	class GridFightTraitElationEffect_GridFightElationDressEquip : public ::System::Object
 	{
 	public:

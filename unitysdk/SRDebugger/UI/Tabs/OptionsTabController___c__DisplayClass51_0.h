@@ -10,6 +10,8 @@ namespace SRDebugger::UI::Tabs { class OptionsTabController_CategoryInstance; }
 
 namespace SRDebugger::UI::Tabs
 {
+	inline static constexpr unsigned int OptionsTabController___c__DisplayClass51_0_TypeDefinitionIndex = 37993;
+
 	class OptionsTabController___c__DisplayClass51_0 : public ::System::Object
 	{
 	public:

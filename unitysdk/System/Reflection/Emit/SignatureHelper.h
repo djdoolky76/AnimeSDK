@@ -4,6 +4,8 @@
 
 namespace System::Reflection::Emit
 {
+	inline static constexpr unsigned int SignatureHelper_TypeDefinitionIndex = 658;
+
 	class SignatureHelper : public ::System::Object
 	{
 	public:

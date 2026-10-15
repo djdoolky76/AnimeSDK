@@ -9,6 +9,8 @@ namespace Proto { class MonopolyActionResult; }
 #define DMBHFGEKLDH_SET_BUFFID_OFFSET UNITYSDK_OFFSET(0xFEB7730)
 #define DMBHFGEKLDH_TRIGGER_OFFSET UNITYSDK_OFFSET(0xFEB7490)
 
+inline static constexpr unsigned int DMBHFGEKLDH_TypeDefinitionIndex = 66225;
+
 	class DMBHFGEKLDH : public ::System::Object
 	{
 	public:

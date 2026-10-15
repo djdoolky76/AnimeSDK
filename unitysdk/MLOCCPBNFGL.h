@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MLOCCPBNFGL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D1CDD00)
 #define MLOCCPBNFGL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D1CD660)
 
+inline static constexpr unsigned int MLOCCPBNFGL_TypeDefinitionIndex = 13986;
+
 	class MLOCCPBNFGL : public ::System::Object
 	{
 	public:

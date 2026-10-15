@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DCJNIPEPHAM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1731A0)
 #define DCJNIPEPHAM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E1731B0)
 
+inline static constexpr unsigned int DCJNIPEPHAM___c_TypeDefinitionIndex = 34833;
+
 	class DCJNIPEPHAM___c : public ::System::Object
 	{
 	public:

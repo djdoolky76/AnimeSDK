@@ -46,6 +46,8 @@ namespace System { class String; }
 #define MJMGOBMOPDL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA4DCB0)
 #define MJMGOBMOPDL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA4DD10)
 
+inline static constexpr unsigned int MJMGOBMOPDL_TypeDefinitionIndex = 33730;
+
 	class MJMGOBMOPDL : public ::System::Object
 	{
 	public:

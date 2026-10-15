@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HOIOBPFMBBK_EBBGNFPNGFE_OFFSET UNITYSDK_OFFSET(0x1CECFB20)
 #define HOIOBPFMBBK_EFBEDKJGDII_OFFSET UNITYSDK_OFFSET(0x1CECFB60)
 
+inline static constexpr unsigned int HOIOBPFMBBK_TypeDefinitionIndex = 10638;
+
 	class HOIOBPFMBBK : public ::System::Object
 	{
 	public:

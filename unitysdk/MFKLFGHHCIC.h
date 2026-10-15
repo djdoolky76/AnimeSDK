@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 #define MFKLFGHHCIC_NKAPPIPMIKK_OFFSET UNITYSDK_OFFSET(0xB905C10)
 #define MFKLFGHHCIC_OHMLABGPCOI_OFFSET UNITYSDK_OFFSET(0xB905AD0)
 
+inline static constexpr unsigned int MFKLFGHHCIC_TypeDefinitionIndex = 68908;
+
 	class MFKLFGHHCIC : public ::System::Object
 	{
 	public:

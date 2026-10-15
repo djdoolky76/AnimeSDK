@@ -16,6 +16,8 @@ namespace System { class String; }
 #define DOENEFFFOHP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x11FE22D0)
 #define DOENEFFFOHP_TICK_OFFSET UNITYSDK_OFFSET(0x11FE2320)
 
+inline static constexpr unsigned int DOENEFFFOHP_TypeDefinitionIndex = 58883;
+
 	class DOENEFFFOHP : public ::GELIALJDFBL
 	{
 	public:

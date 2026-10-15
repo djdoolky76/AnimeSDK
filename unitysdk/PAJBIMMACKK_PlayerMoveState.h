@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int PAJBIMMACKK_PlayerMoveState_TypeDefinitionIndex = 43193;
+
 	enum class PAJBIMMACKK_PlayerMoveState : ::System::Int32
 	{
 		Empty = 0,

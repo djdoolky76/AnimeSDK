@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define LGHLMBMEOOJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0ED8C0)
 #define LGHLMBMEOOJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0ED880)
 
+inline static constexpr unsigned int LGHLMBMEOOJ_TypeDefinitionIndex = 24142;
+
 	class LGHLMBMEOOJ : public ::RPG::GameCore::TaskConfig
 	{
 	public:

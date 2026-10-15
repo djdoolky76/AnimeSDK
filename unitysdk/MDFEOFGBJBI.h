@@ -27,6 +27,8 @@ namespace System { class String; }
 #define MDFEOFGBJBI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA01A50)
 #define MDFEOFGBJBI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA01AB0)
 
+inline static constexpr unsigned int MDFEOFGBJBI_TypeDefinitionIndex = 32732;
+
 	class MDFEOFGBJBI : public ::System::Object
 	{
 	public:

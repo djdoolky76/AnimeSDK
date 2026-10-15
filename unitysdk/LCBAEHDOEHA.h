@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define LCBAEHDOEHA_LMEKNGLCPCN_OFFSET UNITYSDK_OFFSET(0xB610930)
 #define LCBAEHDOEHA_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xB610460)
 
+inline static constexpr unsigned int LCBAEHDOEHA_TypeDefinitionIndex = 78259;
+
 	class LCBAEHDOEHA : public ::KNFCEJEJINK
 	{
 	public:

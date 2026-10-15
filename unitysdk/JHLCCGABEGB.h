@@ -9,6 +9,8 @@ namespace System { class String; }
 #define JHLCCGABEGB_ALEBBJAFIOG_OFFSET UNITYSDK_OFFSET(0xB1BAA70)
 #define JHLCCGABEGB_CTOR_OFFSET UNITYSDK_OFFSET(0xB1BB260)
 
+inline static constexpr unsigned int JHLCCGABEGB_TypeDefinitionIndex = 64908;
+
 	class JHLCCGABEGB : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int HidePropForStoryTrack_TypeDefinitionIndex = 48143;
+
 	class HidePropForStoryTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

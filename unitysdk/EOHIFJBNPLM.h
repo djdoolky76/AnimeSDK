@@ -12,6 +12,8 @@ class NFAHODNHEKK;
 #define EOHIFJBNPLM_PDLDBMAAGFA_OFFSET UNITYSDK_OFFSET(0x1C607D90)
 #define EOHIFJBNPLM_TICK_OFFSET UNITYSDK_OFFSET(0x1C607AC0)
 
+inline static constexpr unsigned int EOHIFJBNPLM_TypeDefinitionIndex = 37351;
+
 	class EOHIFJBNPLM : public ::HOCBJOJNLLC
 	{
 	public:

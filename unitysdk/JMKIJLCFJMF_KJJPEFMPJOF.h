@@ -4,6 +4,8 @@ namespace RPG::Client { class RoadRashGameModifier_MatchLevelAIConfig_ProgressKe
 
 #define JMKIJLCFJMF_KJJPEFMPJOF_NDKJPHKDGDP_OFFSET UNITYSDK_OFFSET(0xB26A100)
 
+inline static constexpr unsigned int JMKIJLCFJMF_KJJPEFMPJOF_TypeDefinitionIndex = 58423;
+
 	struct alignas(8) JMKIJLCFJMF_KJJPEFMPJOF
 	{
 		::System::Single POGFLBBBKHJ; // 0x10

@@ -7,6 +7,8 @@ class FCOEMCEDLNL;
 #define CBOCALABMII_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA07A00)
 #define CBOCALABMII_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA078C0)
 
+inline static constexpr unsigned int CBOCALABMII_TypeDefinitionIndex = 12489;
+
 	class CBOCALABMII : public ::System::Object
 	{
 	public:

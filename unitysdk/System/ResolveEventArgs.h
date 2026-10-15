@@ -9,6 +9,8 @@ namespace System::Reflection { class Assembly; }
 
 namespace System
 {
+	inline static constexpr unsigned int ResolveEventArgs_TypeDefinitionIndex = 419;
+
 	class ResolveEventArgs : public ::System::EventArgs
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LMPMGFCHINO_CTOR_OFFSET UNITYSDK_OFFSET(0xB7D41F0)
 #define LMPMGFCHINO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7D4220)
 
+inline static constexpr unsigned int LMPMGFCHINO_TypeDefinitionIndex = 52497;
+
 	class LMPMGFCHINO
 	{
 	public:

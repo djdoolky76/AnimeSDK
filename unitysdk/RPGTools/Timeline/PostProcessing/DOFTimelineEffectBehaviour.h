@@ -24,6 +24,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int DOFTimelineEffectBehaviour_TypeDefinitionIndex = 48566;
+
 	class DOFTimelineEffectBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

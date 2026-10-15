@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayBossResult_TypeDefinitionIndex = 68742;
+
 	struct alignas(4) WolfBroGunPlayBossResult
 	{
 		::System::Int32 HPBarCount; // 0x10

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MissionCustomValue; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int QTEMissionCustomValue_TypeDefinitionIndex = 48262;
+
 	class QTEMissionCustomValue : public ::System::Object
 	{
 	public:

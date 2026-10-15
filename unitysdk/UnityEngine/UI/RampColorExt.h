@@ -27,6 +27,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int RampColorExt_TypeDefinitionIndex = 6804;
+
 	class RampColorExt : public ::System::Object
 	{
 	public:

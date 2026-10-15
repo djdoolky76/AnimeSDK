@@ -23,6 +23,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_VertexLitBehavior_TypeDefinitionIndex = 70585;
+
 	class Effect_VertexLitBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

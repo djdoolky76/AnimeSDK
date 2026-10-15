@@ -11,6 +11,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftIntegrationBarControl; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftIntegrationBarControl___c__DisplayClass20_0_TypeDefinitionIndex = 79819;
+
 	class MechCraftIntegrationBarControl___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

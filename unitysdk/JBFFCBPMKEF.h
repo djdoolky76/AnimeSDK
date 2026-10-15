@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define JBFFCBPMKEF_MGNIGKDHOAN_OFFSET UNITYSDK_OFFSET(0x1656AA40)
 #define JBFFCBPMKEF_MHJGDNPKBHO_OFFSET UNITYSDK_OFFSET(0x1656B7F0)
 
+inline static constexpr unsigned int JBFFCBPMKEF_TypeDefinitionIndex = 57765;
+
 	class JBFFCBPMKEF : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

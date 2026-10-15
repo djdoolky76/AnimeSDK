@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define NCEBAMHOOJM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C786460)
 
+inline static constexpr unsigned int NCEBAMHOOJM_TypeDefinitionIndex = 36868;
+
 	class NCEBAMHOOJM : public ::GHADLBDBHNA
 	{
 	public:

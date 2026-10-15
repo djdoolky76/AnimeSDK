@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionModule_NotifyPack_TypeDefinitionIndex = 66145;
+
 	struct alignas(4) MissionModule_NotifyPack
 	{
 		::System::UInt32 ID; // 0x10

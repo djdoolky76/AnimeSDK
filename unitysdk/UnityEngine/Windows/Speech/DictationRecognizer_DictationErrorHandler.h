@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Windows::Speech
 {
+	inline static constexpr unsigned int DictationRecognizer_DictationErrorHandler_TypeDefinitionIndex = 4441;
+
 	class DictationRecognizer_DictationErrorHandler : public ::System::MulticastDelegate
 	{
 	public:

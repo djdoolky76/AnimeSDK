@@ -6,6 +6,8 @@ class NJKFOJJDGGG;
 #define BGDIAHDJLLG_CTOR_OFFSET UNITYSDK_OFFSET(0xB17A570)
 #define BGDIAHDJLLG_UPDATE_OFFSET UNITYSDK_OFFSET(0xB17A580)
 
+inline static constexpr unsigned int BGDIAHDJLLG_TypeDefinitionIndex = 65022;
+
 	class BGDIAHDJLLG : public ::RPG::Client::GridFightGameModifier
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System::Xml { class XmlQualifiedName_HashCodeOfStringDelegate; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlQualifiedName_TypeDefinitionIndex = 1967;
+
 	class XmlQualifiedName : public ::System::Object
 	{
 	public:

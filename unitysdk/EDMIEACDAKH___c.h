@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define EDMIEACDAKH___C___TRYCREATEFORMEMORY_B__1_0_OFFSET UNITYSDK_OFFSET(0x1332C770)
 #define EDMIEACDAKH___C___TRYCREATEFORSTORY_B__2_0_OFFSET UNITYSDK_OFFSET(0x1332C870)
 
+inline static constexpr unsigned int EDMIEACDAKH___c_TypeDefinitionIndex = 81572;
+
 	class EDMIEACDAKH___c : public ::System::Object
 	{
 	public:

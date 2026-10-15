@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define BGGDOPNKDLK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5BD330)
 #define BGGDOPNKDLK___C___CCTOR_B__27_0_OFFSET UNITYSDK_OFFSET(0x1C5BD340)
 
+inline static constexpr unsigned int BGGDOPNKDLK___c_TypeDefinitionIndex = 37266;
+
 	class BGGDOPNKDLK___c : public ::System::Object
 	{
 	public:

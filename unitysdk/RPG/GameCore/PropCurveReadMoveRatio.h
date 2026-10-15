@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropCurveReadMoveRatio_TypeDefinitionIndex = 21002;
+
 	class PropCurveReadMoveRatio : public ::RPG::GameCore::TaskConfig
 	{
 	public:

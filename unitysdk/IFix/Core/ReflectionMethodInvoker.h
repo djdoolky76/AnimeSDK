@@ -16,6 +16,8 @@ namespace System::Reflection { class MethodBase; }
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int ReflectionMethodInvoker_TypeDefinitionIndex = 7130;
+
 	class ReflectionMethodInvoker : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JEKCCAGBHKK_OHBHFKJKNOB_OFFSET UNITYSDK_OFFSET(0x16638540)
 #define JEKCCAGBHKK_PLLALDFCJNC_OFFSET UNITYSDK_OFFSET(0x16638830)
 
+inline static constexpr unsigned int JEKCCAGBHKK_TypeDefinitionIndex = 57921;
+
 	class JEKCCAGBHKK : public ::GELIALJDFBL
 	{
 	public:

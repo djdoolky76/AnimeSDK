@@ -12,6 +12,8 @@ namespace System { template <typename T> class Func_1; }
 #define MOPPGLAGDDD___C__CREATEITEM_B__1_2_OFFSET UNITYSDK_OFFSET(0xBA37B30)
 #define MOPPGLAGDDD___C__CREATEITEM_B__1_3_OFFSET UNITYSDK_OFFSET(0xBA37BD0)
 
+inline static constexpr unsigned int MOPPGLAGDDD___c_TypeDefinitionIndex = 65567;
+
 	class MOPPGLAGDDD___c : public ::System::Object
 	{
 	public:

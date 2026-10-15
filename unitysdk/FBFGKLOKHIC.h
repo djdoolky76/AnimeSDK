@@ -20,6 +20,8 @@ namespace System { class Object; }
 #define FBFGKLOKHIC_SETNEXTTASK_OFFSET UNITYSDK_OFFSET(0x156985A0)
 #define FBFGKLOKHIC_TICK_OFFSET UNITYSDK_OFFSET(0x15698A10)
 
+inline static constexpr unsigned int FBFGKLOKHIC_TypeDefinitionIndex = 58270;
+
 	class FBFGKLOKHIC : public ::GELIALJDFBL
 	{
 	public:

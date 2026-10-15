@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int ShadowMapPass_TypeDefinitionIndex = 4704;
+
 	enum class ShadowMapPass : ::System::Int32
 	{
 		PointlightPositiveX = 1,

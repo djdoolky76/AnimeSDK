@@ -32,6 +32,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int AlchemyPuzzleBoard_TypeDefinitionIndex = 78206;
+
 	class AlchemyPuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

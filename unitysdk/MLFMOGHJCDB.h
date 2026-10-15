@@ -11,6 +11,8 @@ class MBIMFJCHINA;
 #define MLFMOGHJCDB_JLHPEJJABMK_OFFSET UNITYSDK_OFFSET(0xB9ADB30)
 #define MLFMOGHJCDB_NGPMNBPKNOE_OFFSET UNITYSDK_OFFSET(0xB9AD880)
 
+inline static constexpr unsigned int MLFMOGHJCDB_TypeDefinitionIndex = 73389;
+
 	class MLFMOGHJCDB : public ::System::Object
 	{
 	public:

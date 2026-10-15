@@ -10,6 +10,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int InitializeLocalInstruction_ParameterBox_TypeDefinitionIndex = 3514;
+
 	class InitializeLocalInstruction_ParameterBox : public ::System::Linq::Expressions::Interpreter::InitializeLocalInstruction
 	{
 	public:

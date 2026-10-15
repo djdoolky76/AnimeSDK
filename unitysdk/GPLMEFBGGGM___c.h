@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define GPLMEFBGGGM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15B5FFA0)
 #define GPLMEFBGGGM___C___CREATESTORYPLAYER_B__4_1_OFFSET UNITYSDK_OFFSET(0x15B5FFB0)
 
+inline static constexpr unsigned int GPLMEFBGGGM___c_TypeDefinitionIndex = 60761;
+
 	class GPLMEFBGGGM___c : public ::System::Object
 	{
 	public:

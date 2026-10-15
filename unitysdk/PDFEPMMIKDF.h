@@ -32,6 +32,8 @@ namespace System { class String; }
 #define PDFEPMMIKDF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF0DF10)
 #define PDFEPMMIKDF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF0DF70)
 
+inline static constexpr unsigned int PDFEPMMIKDF_TypeDefinitionIndex = 31548;
+
 	class PDFEPMMIKDF : public ::System::Object
 	{
 	public:

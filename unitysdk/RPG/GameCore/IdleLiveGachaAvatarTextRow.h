@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveGachaAvatarTextRow_TypeDefinitionIndex = 11776;
+
 	class IdleLiveGachaAvatarTextRow : public ::System::Object
 	{
 	public:

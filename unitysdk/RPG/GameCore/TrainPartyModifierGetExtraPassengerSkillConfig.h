@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyModifierGetExtraPassengerSkillConfig; 
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyModifierGetExtraPassengerSkillConfig_TypeDefinitionIndex = 18110;
+
 	class TrainPartyModifierGetExtraPassengerSkillConfig : public ::RPG::GameCore::TrainPartyModifierConfigBase
 	{
 	public:

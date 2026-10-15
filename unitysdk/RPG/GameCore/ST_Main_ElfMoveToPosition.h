@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ST_Main_ElfMoveToPosition; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_ElfMoveToPosition_TypeDefinitionIndex = 21543;
+
 	class ST_Main_ElfMoveToPosition : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

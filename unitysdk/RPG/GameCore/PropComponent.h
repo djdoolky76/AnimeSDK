@@ -333,6 +333,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropComponent_TypeDefinitionIndex = 57368;
+
 	class PropComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

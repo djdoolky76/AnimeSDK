@@ -3,6 +3,8 @@
 
 namespace RPG::LittleGameShare::DiceCombatCore
 {
+	inline static constexpr unsigned int DiceCombatModifierEvent_TypeDefinitionIndex = 36431;
+
 	enum class DiceCombatModifierEvent : ::System::Int32
 	{
 		OnTurnPrepare = 0,

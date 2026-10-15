@@ -8,6 +8,8 @@ namespace HoudiniEngineUnity { class HEU_DetailProperties; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_DetailProperties_TypeDefinitionIndex = 40773;
+
 	class HEU_DetailProperties : public ::System::Object
 	{
 	public:

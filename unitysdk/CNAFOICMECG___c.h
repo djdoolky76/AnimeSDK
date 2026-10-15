@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CNAFOICMECG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E106130)
 #define CNAFOICMECG___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E106140)
 
+inline static constexpr unsigned int CNAFOICMECG___c_TypeDefinitionIndex = 27968;
+
 	class CNAFOICMECG___c : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@
 #define CLASS_27_386E5F69FBE5FF19_METHOD_7_OFFSET UNITYSDK_OFFSET(0xB069310)
 #define CLASS_27_386E5F69FBE5FF19_METHOD_OFFSET UNITYSDK_OFFSET(0xB069320)
 
+inline static constexpr unsigned int Class_27_386E5F69FBE5FF19_TypeDefinitionIndex = 46914;
+
 	class Class_27_386E5F69FBE5FF19 : public ::System::Object
 	{
 	public:

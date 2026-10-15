@@ -18,6 +18,8 @@ namespace System { class String; }
 #define PEBBBNOOCFO_DEKEDBPNOEG_NEHLNJGGPLN_OFFSET UNITYSDK_OFFSET(0xC02CA10)
 #define PEBBBNOOCFO_DEKEDBPNOEG_PMFDEGIBJPH_OFFSET UNITYSDK_OFFSET(0xC02F560)
 
+inline static constexpr unsigned int PEBBBNOOCFO_DEKEDBPNOEG_TypeDefinitionIndex = 60604;
+
 	class PEBBBNOOCFO_DEKEDBPNOEG : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace Entitas { class IContext; }
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int SnapshotServerProcessor_1_TypeDefinitionIndex = 36940;
+
 	template <typename T>
 	class SnapshotServerProcessor_1 : public ::System::Object
 	{

@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 #define BDEIDAMFDBN_PPEGOIODAKI_1_OFFSET UNITYSDK_OFFSET(0x162F3E90)
 #define BDEIDAMFDBN_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x162F3D10)
 
+inline static constexpr unsigned int BDEIDAMFDBN_TypeDefinitionIndex = 78832;
+
 	class BDEIDAMFDBN : public ::System::Object
 	{
 	public:

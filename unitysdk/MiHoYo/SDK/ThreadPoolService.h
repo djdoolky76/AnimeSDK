@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ThreadPoolService_TypeDefinitionIndex = 46490;
+
 	class ThreadPoolService : public ::System::Object
 	{
 	public:

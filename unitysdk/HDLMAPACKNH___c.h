@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HDLMAPACKNH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E552740)
 #define HDLMAPACKNH___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E552750)
 
+inline static constexpr unsigned int HDLMAPACKNH___c_TypeDefinitionIndex = 27249;
+
 	class HDLMAPACKNH___c : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueMiracleGroupRow_TypeDefinitionIndex = 14725;
+
 	class RogueMiracleGroupRow : public ::System::Object
 	{
 	public:

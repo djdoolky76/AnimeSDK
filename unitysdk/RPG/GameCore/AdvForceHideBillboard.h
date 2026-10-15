@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvForceHideBillboard_TypeDefinitionIndex = 21750;
+
 	class AdvForceHideBillboard : public ::RPG::GameCore::TaskConfig
 	{
 	public:

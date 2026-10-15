@@ -6,6 +6,8 @@ namespace RPG::Client::Prop { class ChimeraDuelBubbleData; }
 #define NOKMHLGGKFK_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF34D0)
 #define NOKMHLGGKFK_KAJDHKHENLI_OFFSET UNITYSDK_OFFSET(0xBCF3470)
 
+inline static constexpr unsigned int NOKMHLGGKFK_TypeDefinitionIndex = 78287;
+
 	class NOKMHLGGKFK : public ::System::Object
 	{
 	public:

@@ -34,6 +34,8 @@ namespace System { class String; }
 #define BCAJNMLLIED_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E904170)
 #define BCAJNMLLIED_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9041D0)
 
+inline static constexpr unsigned int BCAJNMLLIED_TypeDefinitionIndex = 32448;
+
 	class BCAJNMLLIED : public ::System::Object
 	{
 	public:

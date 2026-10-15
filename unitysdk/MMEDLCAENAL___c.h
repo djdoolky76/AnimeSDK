@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MMEDLCAENAL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA8C410)
 #define MMEDLCAENAL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EA8C420)
 
+inline static constexpr unsigned int MMEDLCAENAL___c_TypeDefinitionIndex = 29375;
+
 	class MMEDLCAENAL___c : public ::System::Object
 	{
 	public:

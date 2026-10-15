@@ -12,6 +12,8 @@ namespace System::Threading { class WaitCallback; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int AsyncMethodBuilderCore___c_TypeDefinitionIndex = 1357;
+
 	class AsyncMethodBuilderCore___c : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int IsUnmanagedAttribute_A7E7F6C3675E1C95_TypeDefinitionIndex = 10177;
+
 	class IsUnmanagedAttribute_A7E7F6C3675E1C95 : public ::System::Attribute
 	{
 	public:

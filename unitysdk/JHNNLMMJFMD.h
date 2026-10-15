@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JHNNLMMJFMD_SET_ANIMCONFIG_OFFSET UNITYSDK_OFFSET(0xB1C0800)
 #define JHNNLMMJFMD_SET_AVATARDATA_OFFSET UNITYSDK_OFFSET(0xB1C0690)
 
+inline static constexpr unsigned int JHNNLMMJFMD_TypeDefinitionIndex = 66661;
+
 	class JHNNLMMJFMD : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

@@ -6,6 +6,8 @@
 
 #define BCDFHNMLPFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8B1AE0)
 
+inline static constexpr unsigned int BCDFHNMLPFJ_TypeDefinitionIndex = 41999;
+
 	class BCDFHNMLPFJ : public ::System::Object
 	{
 	public:

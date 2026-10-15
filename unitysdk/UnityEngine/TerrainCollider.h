@@ -7,6 +7,8 @@ namespace UnityEngine { class TerrainData; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int TerrainCollider_TypeDefinitionIndex = 5836;
+
 	class TerrainCollider : public ::UnityEngine::Collider
 	{
 	public:

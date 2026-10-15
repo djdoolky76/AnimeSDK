@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TalkBehaviorRow_TypeDefinitionIndex = 15213;
+
 	class TalkBehaviorRow : public ::System::Object
 	{
 	public:

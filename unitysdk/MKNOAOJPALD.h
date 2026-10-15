@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define MKNOAOJPALD_CTOR_OFFSET UNITYSDK_OFFSET(0xB9A1320)
 
+inline static constexpr unsigned int MKNOAOJPALD_TypeDefinitionIndex = 62124;
+
 	class MKNOAOJPALD : public ::System::Object
 	{
 	public:

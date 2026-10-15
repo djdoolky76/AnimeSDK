@@ -56,6 +56,8 @@ namespace UnityEngine::Rendering { class VolumeManager; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CustomAdditionalCameraData_TypeDefinitionIndex = 37698;
+
 	class CustomAdditionalCameraData : public ::UnityEngine::MonoBehaviour
 	{
 	public:

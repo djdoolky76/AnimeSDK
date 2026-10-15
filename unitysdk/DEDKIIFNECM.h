@@ -35,6 +35,8 @@ namespace System { class String; }
 #define DEDKIIFNECM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E190D70)
 #define DEDKIIFNECM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E190DD0)
 
+inline static constexpr unsigned int DEDKIIFNECM_TypeDefinitionIndex = 34972;
+
 	class DEDKIIFNECM : public ::System::Object
 	{
 	public:

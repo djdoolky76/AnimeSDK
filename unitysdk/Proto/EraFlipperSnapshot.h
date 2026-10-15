@@ -31,6 +31,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int EraFlipperSnapshot_TypeDefinitionIndex = 25844;
+
 	class EraFlipperSnapshot : public ::System::Object
 	{
 	public:

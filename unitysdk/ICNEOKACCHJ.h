@@ -10,6 +10,8 @@ namespace UnityEngine { class Material; }
 #define ICNEOKACCHJ_FMHMBLIAFDA_OFFSET UNITYSDK_OFFSET(0x15E5BC00)
 #define ICNEOKACCHJ_IDHFENOGGAP_OFFSET UNITYSDK_OFFSET(0x15E5C4B0)
 
+inline static constexpr unsigned int ICNEOKACCHJ_TypeDefinitionIndex = 62372;
+
 	class ICNEOKACCHJ : public ::System::Object
 	{
 	public:

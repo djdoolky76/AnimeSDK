@@ -15,6 +15,8 @@ namespace XLua { class LuaTable; }
 #define JONCNPOBOEF_CTOR_OFFSET UNITYSDK_OFFSET(0xB2AE6D0)
 #define JONCNPOBOEF_NILIPFGFPOM_OFFSET UNITYSDK_OFFSET(0xB2AE2F0)
 
+inline static constexpr unsigned int JONCNPOBOEF_TypeDefinitionIndex = 59997;
+
 	class JONCNPOBOEF : public ::System::Object
 	{
 	public:

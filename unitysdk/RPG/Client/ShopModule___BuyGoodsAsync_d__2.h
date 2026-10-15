@@ -11,6 +11,8 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ShopModule___BuyGoodsAsync_d__2_TypeDefinitionIndex = 67952;
+
 	template <typename T1, typename T2>
 	struct alignas(8) ShopModule___BuyGoodsAsync_d__2
 	{

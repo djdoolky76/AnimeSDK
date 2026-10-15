@@ -19,6 +19,8 @@ namespace System { class Object; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachinePath_TypeDefinitionIndex = 39744;
+
 	class CinemachinePath : public ::Cinemachine::CinemachinePathBase
 	{
 	public:

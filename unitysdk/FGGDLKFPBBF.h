@@ -18,6 +18,8 @@ namespace RPG::GameCore { class MiniGameFlappyBirdBlockConfig; }
 #define FGGDLKFPBBF_OABDJEBKACD_OFFSET UNITYSDK_OFFSET(0x1575BD20)
 #define FGGDLKFPBBF_PAMGIMGPEFB_OFFSET UNITYSDK_OFFSET(0x1575C3F0)
 
+inline static constexpr unsigned int FGGDLKFPBBF_TypeDefinitionIndex = 76929;
+
 	class FGGDLKFPBBF : public ::MMNMMKNDPGN
 	{
 	public:

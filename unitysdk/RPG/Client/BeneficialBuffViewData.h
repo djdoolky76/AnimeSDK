@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BeneficialBuffViewData_TypeDefinitionIndex = 71187;
+
 	class BeneficialBuffViewData : public ::System::Object
 	{
 	public:

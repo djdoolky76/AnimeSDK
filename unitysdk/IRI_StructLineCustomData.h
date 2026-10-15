@@ -4,6 +4,8 @@
 
 #define IRI_STRUCTLINECUSTOMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x165379B0)
 
+inline static constexpr unsigned int IRI_StructLineCustomData_TypeDefinitionIndex = 47184;
+
 	class IRI_StructLineCustomData : public ::UnityEngine::MonoBehaviour
 	{
 	public:

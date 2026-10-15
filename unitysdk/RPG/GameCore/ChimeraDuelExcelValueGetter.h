@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraDuelExcelValueGetter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelExcelValueGetter_TypeDefinitionIndex = 15996;
+
 	class ChimeraDuelExcelValueGetter : public ::RPG::GameCore::BaseChimeraDuelValueGetter
 	{
 	public:

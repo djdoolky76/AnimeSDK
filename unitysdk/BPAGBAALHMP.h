@@ -33,6 +33,8 @@ namespace System { class String; }
 #define BPAGBAALHMP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E040260)
 #define BPAGBAALHMP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0402C0)
 
+inline static constexpr unsigned int BPAGBAALHMP_TypeDefinitionIndex = 30849;
+
 	class BPAGBAALHMP : public ::System::Object
 	{
 	public:

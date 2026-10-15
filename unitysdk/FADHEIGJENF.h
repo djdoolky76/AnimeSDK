@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FADHEIGJENF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E31DA00)
 #define FADHEIGJENF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E31DA60)
 
+inline static constexpr unsigned int FADHEIGJENF_TypeDefinitionIndex = 29245;
+
 	class FADHEIGJENF : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RtBehaviorFlagListPair; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtBehaviorFlagListPair_TypeDefinitionIndex = 17646;
+
 	class RtBehaviorFlagListPair : public ::RPG::GameCore::JsonConfig
 	{
 	public:

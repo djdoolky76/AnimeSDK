@@ -28,6 +28,8 @@ namespace System { class String; }
 #define CABKLLAKHKO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E055790)
 #define CABKLLAKHKO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0557F0)
 
+inline static constexpr unsigned int CABKLLAKHKO_TypeDefinitionIndex = 33670;
+
 	class CABKLLAKHKO : public ::System::Object
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System { class String; }
 #define ILIMGHEIAMG_LLDANOMNGEB_OFFSET UNITYSDK_OFFSET(0x164BB150)
 #define ILIMGHEIAMG_MMANCKMNJNF_OFFSET UNITYSDK_OFFSET(0x164BAC80)
 
+inline static constexpr unsigned int ILIMGHEIAMG_TypeDefinitionIndex = 62734;
+
 	class ILIMGHEIAMG : public ::System::Object
 	{
 	public:

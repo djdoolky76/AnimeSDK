@@ -35,6 +35,8 @@ namespace System { class String; }
 #define BBGADFGONHI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7C2810)
 #define BBGADFGONHI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7C2870)
 
+inline static constexpr unsigned int BBGADFGONHI_TypeDefinitionIndex = 31938;
+
 	class BBGADFGONHI : public ::System::Object
 	{
 	public:

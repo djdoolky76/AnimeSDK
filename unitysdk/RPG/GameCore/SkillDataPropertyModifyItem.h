@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SkillDataPropertyModifyItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SkillDataPropertyModifyItem_TypeDefinitionIndex = 23555;
+
 	class SkillDataPropertyModifyItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

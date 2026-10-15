@@ -3,6 +3,8 @@
 #include "unitysdk/RPG/GameCore/AttackDamageType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
+inline static constexpr unsigned int GBMPNBEOLPH_TypeDefinitionIndex = 57737;
+
 	struct alignas(4) GBMPNBEOLPH
 	{
 		::RPG::GameCore::AttackDamageType JCCDPOCDGCD; // 0x10

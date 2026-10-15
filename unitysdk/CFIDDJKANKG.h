@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CFIDDJKANKG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCC4DAF0)
 #define CFIDDJKANKG_TICK_OFFSET UNITYSDK_OFFSET(0xCC4DC50)
 
+inline static constexpr unsigned int CFIDDJKANKG_TypeDefinitionIndex = 55107;
+
 	class CFIDDJKANKG : public ::GELIALJDFBL
 	{
 	public:

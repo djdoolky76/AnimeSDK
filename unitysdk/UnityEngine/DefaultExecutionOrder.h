@@ -7,6 +7,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int DefaultExecutionOrder_TypeDefinitionIndex = 4311;
+
 	class DefaultExecutionOrder : public ::System::Attribute
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int PuzzleStatic_TypeDefinitionIndex = 78783;
+
 	class PuzzleStatic : public ::System::Object
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define JINIOBBNJPF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E753740)
 #define JINIOBBNJPF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7537A0)
 
+inline static constexpr unsigned int JINIOBBNJPF_TypeDefinitionIndex = 32456;
+
 	class JINIOBBNJPF : public ::System::Object
 	{
 	public:

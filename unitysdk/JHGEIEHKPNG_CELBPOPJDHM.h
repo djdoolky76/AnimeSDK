@@ -8,6 +8,8 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class GameObject; }
 
+inline static constexpr unsigned int JHGEIEHKPNG_CELBPOPJDHM_TypeDefinitionIndex = 49879;
+
 	class JHGEIEHKPNG_CELBPOPJDHM : public ::System::Object
 	{
 	public:

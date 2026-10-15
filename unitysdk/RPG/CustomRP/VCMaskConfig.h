@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int VCMaskConfig_TypeDefinitionIndex = 37688;
+
 	class VCMaskConfig : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class Action; }
 #define GKEJIBLCKGC_NNAGLJCMMGD_OFFSET UNITYSDK_OFFSET(0x15A96240)
 #define GKEJIBLCKGC_NONJDKKDDLE_OFFSET UNITYSDK_OFFSET(0x15A96110)
 
+inline static constexpr unsigned int GKEJIBLCKGC_TypeDefinitionIndex = 60477;
+
 	class GKEJIBLCKGC : public ::System::Object
 	{
 	public:

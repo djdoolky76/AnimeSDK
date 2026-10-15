@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int ChimeraUseAbilityCommand_TypeDefinitionIndex = 76627;
+
 	class ChimeraUseAbilityCommand : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftOrderOptionalConditionsC
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftOrderRequirementControlBinder_TypeDefinitionIndex = 79997;
+
 	class MechCraftOrderRequirementControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

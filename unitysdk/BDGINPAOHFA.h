@@ -46,6 +46,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BDGINPAOHFA_PAHFDNAMMFM_OFFSET UNITYSDK_OFFSET(0x162F7B00)
 #define BDGINPAOHFA_SET_GLOBALVARS_OFFSET UNITYSDK_OFFSET(0x162F7AF0)
 
+inline static constexpr unsigned int BDGINPAOHFA_TypeDefinitionIndex = 54343;
+
 	class BDGINPAOHFA : public ::System::Object
 	{
 	public:

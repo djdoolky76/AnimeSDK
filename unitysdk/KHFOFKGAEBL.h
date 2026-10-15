@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KHFOFKGAEBL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E843610)
 #define KHFOFKGAEBL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E843670)
 
+inline static constexpr unsigned int KHFOFKGAEBL_TypeDefinitionIndex = 34090;
+
 	class KHFOFKGAEBL : public ::System::Object
 	{
 	public:

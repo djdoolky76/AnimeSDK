@@ -9,6 +9,8 @@ namespace System::Linq::Expressions { class Expression; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int TypeBinaryExpression_TypeDefinitionIndex = 3280;
+
 	class TypeBinaryExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:

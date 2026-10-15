@@ -5,6 +5,8 @@
 #define GOCCDKLAIKG_CLEAR_OFFSET UNITYSDK_OFFSET(0x15B29550)
 #define GOCCDKLAIKG_CTOR_OFFSET UNITYSDK_OFFSET(0x15B295A0)
 
+inline static constexpr unsigned int GOCCDKLAIKG_TypeDefinitionIndex = 54855;
+
 	class GOCCDKLAIKG : public ::System::Object
 	{
 	public:

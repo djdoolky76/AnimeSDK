@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 #define GKLHNHFCDBL_CTOR_OFFSET UNITYSDK_OFFSET(0x15AA1490)
 
+inline static constexpr unsigned int GKLHNHFCDBL_TypeDefinitionIndex = 67778;
+
 	class GKLHNHFCDBL : public ::System::Object
 	{
 	public:

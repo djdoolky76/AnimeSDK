@@ -18,6 +18,8 @@ namespace System { class String; }
 #define PBMKENJFELG_NFKAFBFOAGP_OFFSET UNITYSDK_OFFSET(0xBFF4C50)
 #define PBMKENJFELG_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xBFF4D70)
 
+inline static constexpr unsigned int PBMKENJFELG_TypeDefinitionIndex = 76427;
+
 	class PBMKENJFELG : public ::System::Object
 	{
 	public:

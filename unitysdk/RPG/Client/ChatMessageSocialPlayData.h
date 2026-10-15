@@ -17,6 +17,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChatMessageSocialPlayData_TypeDefinitionIndex = 63223;
+
 	class ChatMessageSocialPlayData : public ::RPG::Client::ChatMessageExtendData
 	{
 	public:

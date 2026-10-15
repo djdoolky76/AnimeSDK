@@ -18,6 +18,8 @@ namespace RPG::Client { class RogueTournPersonaPumanPrepareViewModel; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaPumanPrepareViewModel_TypeDefinitionIndex = 72916;
+
 	class RogueTournPersonaPumanPrepareViewModel : public ::RPG::Client::RogueTournPersonaBaseViewModel
 	{
 	public:

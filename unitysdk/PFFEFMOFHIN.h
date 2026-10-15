@@ -14,6 +14,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define PFFEFMOFHIN_IHIFIHGIHGB_OFFSET UNITYSDK_OFFSET(0xC20C390)
 #define PFFEFMOFHIN_NNFEFGGGECF_OFFSET UNITYSDK_OFFSET(0xC20CF20)
 
+inline static constexpr unsigned int PFFEFMOFHIN_TypeDefinitionIndex = 77801;
+
 	class PFFEFMOFHIN : public ::System::Object
 	{
 	public:

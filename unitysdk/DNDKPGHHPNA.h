@@ -14,6 +14,8 @@ namespace System { class String; }
 #define DNDKPGHHPNA_ODBGFIGACDC_OFFSET UNITYSDK_OFFSET(0x1194B570)
 #define DNDKPGHHPNA_OFKMNJNEOBP_OFFSET UNITYSDK_OFFSET(0x1194B600)
 
+inline static constexpr unsigned int DNDKPGHHPNA_TypeDefinitionIndex = 77256;
+
 	class DNDKPGHHPNA : public ::System::Object
 	{
 	public:

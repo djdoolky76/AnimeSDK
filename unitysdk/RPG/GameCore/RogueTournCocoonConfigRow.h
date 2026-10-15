@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournCocoonConfigRow_TypeDefinitionIndex = 14987;
+
 	class RogueTournCocoonConfigRow : public ::System::Object
 	{
 	public:

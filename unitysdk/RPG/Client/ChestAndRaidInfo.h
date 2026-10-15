@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChestAndRaidInfo_TypeDefinitionIndex = 66365;
+
 	class ChestAndRaidInfo : public ::System::Object
 	{
 	public:

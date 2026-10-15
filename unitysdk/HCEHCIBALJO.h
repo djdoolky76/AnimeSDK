@@ -10,6 +10,8 @@ namespace RPG::Client { class PlanetFesFloatingController; }
 #define HCEHCIBALJO_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x15C186C0)
 #define HCEHCIBALJO__ONEXECUTE_B__1_0_OFFSET UNITYSDK_OFFSET(0x15C187A0)
 
+inline static constexpr unsigned int HCEHCIBALJO_TypeDefinitionIndex = 74470;
+
 	class HCEHCIBALJO : public ::MFDDEJCPLON
 	{
 	public:

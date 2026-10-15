@@ -8,6 +8,8 @@ namespace System { class String; }
 #define IAEJMNNAMEC_CTOR_OFFSET UNITYSDK_OFFSET(0x15E02620)
 #define IAEJMNNAMEC_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0x15E02630)
 
+inline static constexpr unsigned int IAEJMNNAMEC_TypeDefinitionIndex = 65987;
+
 	class IAEJMNNAMEC : public ::System::Object
 	{
 	public:

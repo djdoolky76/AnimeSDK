@@ -16,6 +16,8 @@ namespace System::Xml::Linq { class XNode; }
 
 namespace System::Xml::Linq
 {
+	inline static constexpr unsigned int XComment_TypeDefinitionIndex = 3904;
+
 	class XComment : public ::System::Xml::Linq::XNode
 	{
 	public:

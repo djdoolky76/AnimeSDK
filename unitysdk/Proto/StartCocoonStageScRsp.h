@@ -40,6 +40,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int StartCocoonStageScRsp_TypeDefinitionIndex = 34033;
+
 	class StartCocoonStageScRsp : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierRogueWorkbenchReforgeBanFormulaConf
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierRogueWorkbenchReforgeBanFormulaConfig_TypeDefinitionIndex = 17757;
+
 	class RogueModifierRogueWorkbenchReforgeBanFormulaConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ImageColorGrading_TypeDefinitionIndex = 72544;
+
 	class ImageColorGrading : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

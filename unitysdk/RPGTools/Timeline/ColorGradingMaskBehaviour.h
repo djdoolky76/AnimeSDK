@@ -13,6 +13,8 @@ namespace RPGTools::Timeline { class ColorGradingMaskClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ColorGradingMaskBehaviour_TypeDefinitionIndex = 48468;
+
 	class ColorGradingMaskBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

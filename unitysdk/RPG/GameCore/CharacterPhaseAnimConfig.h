@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterPhaseAnimConfig_TypeDefinitionIndex = 18201;
+
 	class CharacterPhaseAnimConfig : public ::RPG::GameCore::CharacterReactionAnimConfig
 	{
 	public:

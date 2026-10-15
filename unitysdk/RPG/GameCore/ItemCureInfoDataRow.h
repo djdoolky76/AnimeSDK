@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ItemCureInfoDataRow_TypeDefinitionIndex = 13879;
+
 	class ItemCureInfoDataRow : public ::System::Object
 	{
 	public:

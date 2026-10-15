@@ -9,6 +9,8 @@ class NOCGHCNMOKB;
 #define NOCGHCNMOKB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2405E0)
 #define NOCGHCNMOKB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D240490)
 
+inline static constexpr unsigned int NOCGHCNMOKB_TypeDefinitionIndex = 14637;
+
 	class NOCGHCNMOKB : public ::System::Object
 	{
 	public:

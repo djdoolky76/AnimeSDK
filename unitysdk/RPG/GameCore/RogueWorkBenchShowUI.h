@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueWorkBenchShowUI_TypeDefinitionIndex = 22100;
+
 	class RogueWorkBenchShowUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

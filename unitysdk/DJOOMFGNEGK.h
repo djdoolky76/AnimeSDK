@@ -6,6 +6,8 @@ namespace UnityEngine { class GameObject; }
 
 #define DJOOMFGNEGK_CTOR_OFFSET UNITYSDK_OFFSET(0xF24E8B0)
 
+inline static constexpr unsigned int DJOOMFGNEGK_TypeDefinitionIndex = 60930;
+
 	class DJOOMFGNEGK : public ::System::Object
 	{
 	public:

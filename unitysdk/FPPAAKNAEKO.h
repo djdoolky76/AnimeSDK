@@ -25,6 +25,8 @@ namespace System { class String; }
 #define FPPAAKNAEKO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E410630)
 #define FPPAAKNAEKO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E410690)
 
+inline static constexpr unsigned int FPPAAKNAEKO_TypeDefinitionIndex = 31225;
+
 	class FPPAAKNAEKO : public ::System::Object
 	{
 	public:

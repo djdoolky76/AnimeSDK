@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 #define AMPNMIBFGAM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1558F8A0)
 #define AMPNMIBFGAM___C___CTOR_B__5_0_OFFSET UNITYSDK_OFFSET(0x1558F8B0)
 
+inline static constexpr unsigned int AMPNMIBFGAM___c_TypeDefinitionIndex = 78472;
+
 	class AMPNMIBFGAM___c : public ::System::Object
 	{
 	public:

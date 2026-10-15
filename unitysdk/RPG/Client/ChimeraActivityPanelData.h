@@ -12,6 +12,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraActivityPanelData_TypeDefinitionIndex = 61605;
+
 	class ChimeraActivityPanelData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

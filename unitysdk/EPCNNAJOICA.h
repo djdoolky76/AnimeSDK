@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EPCNNAJOICA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x155CF9F0)
 #define EPCNNAJOICA_TICK_OFFSET UNITYSDK_OFFSET(0x155CFA40)
 
+inline static constexpr unsigned int EPCNNAJOICA_TypeDefinitionIndex = 52228;
+
 	class EPCNNAJOICA
 	{
 	public:

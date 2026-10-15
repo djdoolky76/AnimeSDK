@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyBoundaryUtils_TypeDefinitionIndex = 72840;
+
 	class MonopolyBoundaryUtils : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EPLKINIKIKP_NGLBIFBAEPE_OFFSET UNITYSDK_OFFSET(0x155D7700)
 #define EPLKINIKIKP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155D7F70)
 
+inline static constexpr unsigned int EPLKINIKIKP_TypeDefinitionIndex = 52506;
+
 	class EPLKINIKIKP
 	{
 	public:

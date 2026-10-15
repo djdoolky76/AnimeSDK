@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ICGOLPHCKIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E621250)
 #define ICGOLPHCKIL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E621260)
 
+inline static constexpr unsigned int ICGOLPHCKIL___c_TypeDefinitionIndex = 26565;
+
 	class ICGOLPHCKIL___c : public ::System::Object
 	{
 	public:

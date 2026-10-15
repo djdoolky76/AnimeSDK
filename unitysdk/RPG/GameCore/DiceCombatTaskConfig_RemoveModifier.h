@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_RemoveModifier; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_RemoveModifier_TypeDefinitionIndex = 16062;
+
 	class DiceCombatTaskConfig_RemoveModifier : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

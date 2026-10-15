@@ -21,6 +21,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client::LittleGame::ChimeraDuel
 {
+	inline static constexpr unsigned int ChimeraDuelAnimatorView_TypeDefinitionIndex = 77709;
+
 	class ChimeraDuelAnimatorView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

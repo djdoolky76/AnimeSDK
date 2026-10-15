@@ -28,6 +28,8 @@ namespace System { class String; }
 #define BMCLGNGCCEO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0201D0)
 #define BMCLGNGCCEO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E020230)
 
+inline static constexpr unsigned int BMCLGNGCCEO_TypeDefinitionIndex = 26812;
+
 	class BMCLGNGCCEO : public ::System::Object
 	{
 	public:

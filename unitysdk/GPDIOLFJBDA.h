@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GPDIOLFJBDA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4F6720)
 #define GPDIOLFJBDA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4F6780)
 
+inline static constexpr unsigned int GPDIOLFJBDA_TypeDefinitionIndex = 35018;
+
 	class GPDIOLFJBDA : public ::System::Object
 	{
 	public:

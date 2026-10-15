@@ -18,6 +18,8 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleAvatarInfoViewModel_TypeDefinitionIndex = 80972;
+
 	class FateRinBattleAvatarInfoViewModel : public ::System::Object
 	{
 	public:

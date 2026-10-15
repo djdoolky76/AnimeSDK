@@ -33,6 +33,8 @@ namespace System { class String; }
 #define EDDIFENDEFG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E25BE00)
 #define EDDIFENDEFG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E25BE60)
 
+inline static constexpr unsigned int EDDIFENDEFG_TypeDefinitionIndex = 34098;
+
 	class EDDIFENDEFG : public ::System::Object
 	{
 	public:

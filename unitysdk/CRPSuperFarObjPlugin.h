@@ -5,6 +5,8 @@
 #define CRPSUPERFAROBJPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xDCDEE40)
 #define CRPSUPERFAROBJPLUGIN_ONENABLE_OFFSET UNITYSDK_OFFSET(0xDCDED20)
 
+inline static constexpr unsigned int CRPSuperFarObjPlugin_TypeDefinitionIndex = 47327;
+
 	class CRPSuperFarObjPlugin : public ::UnityEngine::MonoBehaviour
 	{
 	public:

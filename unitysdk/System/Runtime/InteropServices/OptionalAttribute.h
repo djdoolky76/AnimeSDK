@@ -6,6 +6,8 @@
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int OptionalAttribute_TypeDefinitionIndex = 1418;
+
 	class OptionalAttribute : public ::System::Attribute
 	{
 	public:

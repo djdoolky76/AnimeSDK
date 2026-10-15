@@ -46,6 +46,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace UnityEngine::EventSystems
 {
+	inline static constexpr unsigned int EventSystem_TypeDefinitionIndex = 6929;
+
 	class EventSystem : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

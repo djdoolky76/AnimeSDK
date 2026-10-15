@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PetMarbleBattleTitle_TypeDefinitionIndex = 65816;
+
 	class PetMarbleBattleTitle : public ::System::Object
 	{
 	public:

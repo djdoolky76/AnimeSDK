@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::ChenLing
 {
+	inline static constexpr unsigned int ChenLingShowToastData_TypeDefinitionIndex = 77834;
+
 	class ChenLingShowToastData : public ::System::Object
 	{
 	public:

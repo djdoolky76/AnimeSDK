@@ -9,6 +9,8 @@ namespace System { class Action; }
 #define LKGIMGKIFFI___C__DISPLAYCLASS72_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB7446F0)
 #define LKGIMGKIFFI___C__DISPLAYCLASS72_0___FOREACHSTACKFOLLOWCAMERA_B__0_OFFSET UNITYSDK_OFFSET(0xB7478A0)
 
+inline static constexpr unsigned int LKGIMGKIFFI___c__DisplayClass72_0_TypeDefinitionIndex = 76767;
+
 	class LKGIMGKIFFI___c__DisplayClass72_0 : public ::System::Object
 	{
 	public:

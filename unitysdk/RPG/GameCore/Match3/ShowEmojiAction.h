@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class ShowEmojiAction; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int ShowEmojiAction_TypeDefinitionIndex = 24905;
+
 	class ShowEmojiAction : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:

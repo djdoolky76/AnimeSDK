@@ -21,6 +21,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoCurveRateSlider_TypeDefinitionIndex = 72577;
+
 	class MonoCurveRateSlider : public ::UnityEngine::MonoBehaviour
 	{
 	public:

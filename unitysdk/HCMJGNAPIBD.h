@@ -7,6 +7,8 @@ class IKCOHFPIHIA;
 #define HCMJGNAPIBD_AOLKJHKOOMG_OFFSET UNITYSDK_OFFSET(0x15C283E0)
 #define HCMJGNAPIBD_CTOR_OFFSET UNITYSDK_OFFSET(0x15C283D0)
 
+inline static constexpr unsigned int HCMJGNAPIBD_TypeDefinitionIndex = 64033;
+
 	class HCMJGNAPIBD : public ::System::Object
 	{
 	public:

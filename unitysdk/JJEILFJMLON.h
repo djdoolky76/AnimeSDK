@@ -5,6 +5,8 @@ class CJCHKDLALDN;
 
 #define JJEILFJMLON_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6FF9E0)
 
+inline static constexpr unsigned int JJEILFJMLON_TypeDefinitionIndex = 36277;
+
 	class JJEILFJMLON : public ::System::Object
 	{
 	public:

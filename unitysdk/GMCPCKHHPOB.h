@@ -61,6 +61,8 @@ namespace System { class String; }
 #define GMCPCKHHPOB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4CD510)
 #define GMCPCKHHPOB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4CD570)
 
+inline static constexpr unsigned int GMCPCKHHPOB_TypeDefinitionIndex = 34778;
+
 	class GMCPCKHHPOB : public ::System::Object
 	{
 	public:

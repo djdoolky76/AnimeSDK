@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define OLADHONCPJM_CTOR_OFFSET UNITYSDK_OFFSET(0xBEFDD60)
 #define OLADHONCPJM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEFDD90)
 
+inline static constexpr unsigned int OLADHONCPJM_TypeDefinitionIndex = 56356;
+
 	class OLADHONCPJM
 	{
 	public:

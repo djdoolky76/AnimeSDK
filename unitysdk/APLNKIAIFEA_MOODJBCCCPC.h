@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 class KHKFODPFGEA;
 
+inline static constexpr unsigned int APLNKIAIFEA_MOODJBCCCPC_TypeDefinitionIndex = 81808;
+
 	struct alignas(8) APLNKIAIFEA_MOODJBCCCPC
 	{
 		::System::Boolean NPNNFCMGLNH; // 0x10

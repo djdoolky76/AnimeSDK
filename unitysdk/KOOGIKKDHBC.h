@@ -16,6 +16,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KOOGIKKDHBC_PBGHPDBHEDK_OFFSET UNITYSDK_OFFSET(0xB5A3200)
 #define KOOGIKKDHBC_TICK_OFFSET UNITYSDK_OFFSET(0xB5A3290)
 
+inline static constexpr unsigned int KOOGIKKDHBC_TypeDefinitionIndex = 58694;
+
 	class KOOGIKKDHBC : public ::GELIALJDFBL
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimEntityShakeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimEntityShakeAction_TypeDefinitionIndex = 18748;
+
 	class FiveDimEntityShakeAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

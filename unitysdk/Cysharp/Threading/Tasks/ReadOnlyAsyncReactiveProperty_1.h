@@ -6,6 +6,8 @@ namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncE
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int ReadOnlyAsyncReactiveProperty_1_TypeDefinitionIndex = 38125;
+
 	template <typename T>
 	class ReadOnlyAsyncReactiveProperty_1 : public ::System::Object
 	{

@@ -4,6 +4,8 @@
 #include "unitysdk/RPG/GameCore/SkillInputType.h"
 namespace RPG::GameCore { class GameEntity; }
 
+inline static constexpr unsigned int EJJDIEKLDPN_TypeDefinitionIndex = 72006;
+
 	struct alignas(8) EJJDIEKLDPN
 	{
 		::RPG::Client::UISkillIndex CKOIMOLALEH; // 0x10

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SyncCharLightAndCameraDir; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SyncCharLightAndCameraDir_TypeDefinitionIndex = 22973;
+
 	class SyncCharLightAndCameraDir : public ::RPG::GameCore::TaskConfig
 	{
 	public:

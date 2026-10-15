@@ -24,6 +24,8 @@ namespace System::Linq::Expressions { class Expression; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int BlockExpressionList_TypeDefinitionIndex = 3203;
+
 	class BlockExpressionList : public ::System::Object
 	{
 	public:

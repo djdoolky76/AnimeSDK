@@ -16,6 +16,8 @@ namespace UnityEngine::UI { class Toggle; }
 
 namespace SRDebugger::UI::Controls::Data
 {
+	inline static constexpr unsigned int BoolControl_TypeDefinitionIndex = 38042;
+
 	class BoolControl : public ::SRDebugger::UI::Controls::DataBoundControl
 	{
 	public:

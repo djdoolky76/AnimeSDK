@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define AINLHDFJGBJ_CREATEVALUECOMPONENT_OFFSET UNITYSDK_OFFSET(0x12CAD570)
 #define AINLHDFJGBJ_CTOR_OFFSET UNITYSDK_OFFSET(0x12CAD190)
 
+inline static constexpr unsigned int AINLHDFJGBJ_TypeDefinitionIndex = 65109;
+
 	class AINLHDFJGBJ : public ::RPG::Client::GridFightRole_GridFightRoleBuilder
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SwitchMascotEnableCameraLookAt; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchMascotEnableCameraLookAt_TypeDefinitionIndex = 22004;
+
 	class SwitchMascotEnableCameraLookAt : public ::RPG::GameCore::TaskConfig
 	{
 	public:

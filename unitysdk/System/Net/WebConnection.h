@@ -63,6 +63,8 @@ namespace System::Net::Sockets { class Socket; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int WebConnection_TypeDefinitionIndex = 2882;
+
 	class WebConnection : public ::System::Object
 	{
 	public:

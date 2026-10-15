@@ -33,6 +33,8 @@ namespace System::Threading { class AutoResetEvent; }
 
 namespace Mono::Net
 {
+	inline static constexpr unsigned int CFNetwork_TypeDefinitionIndex = 2417;
+
 	class CFNetwork : public ::System::Object
 	{
 	public:

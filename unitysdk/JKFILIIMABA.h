@@ -10,6 +10,8 @@ namespace UnityEngine { class Material; }
 
 #define JKFILIIMABA_CTOR_OFFSET UNITYSDK_OFFSET(0xB21BE10)
 
+inline static constexpr unsigned int JKFILIIMABA_TypeDefinitionIndex = 78902;
+
 	class JKFILIIMABA : public ::System::Object
 	{
 	public:

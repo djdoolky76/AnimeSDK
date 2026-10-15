@@ -8,6 +8,8 @@ namespace Spine { class TrackEntry; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int EventQueue_EventQueueEntry_TypeDefinitionIndex = 39633;
+
 	struct alignas(8) EventQueue_EventQueueEntry
 	{
 		::Spine::EventQueue_EventType type; // 0x10

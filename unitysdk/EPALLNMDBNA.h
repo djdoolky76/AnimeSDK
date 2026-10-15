@@ -4,6 +4,8 @@
 
 #define EPALLNMDBNA_CTOR_OFFSET UNITYSDK_OFFSET(0x155CE0A0)
 
+inline static constexpr unsigned int EPALLNMDBNA_TypeDefinitionIndex = 48206;
+
 	class EPALLNMDBNA : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

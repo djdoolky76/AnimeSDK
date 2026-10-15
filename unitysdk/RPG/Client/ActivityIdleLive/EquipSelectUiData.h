@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int EquipSelectUiData_TypeDefinitionIndex = 75422;
+
 	struct alignas(8) EquipSelectUiData
 	{
 		::System::Nullable* CurEquipUiData; // 0x10

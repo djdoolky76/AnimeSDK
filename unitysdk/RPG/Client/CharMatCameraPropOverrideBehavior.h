@@ -22,6 +22,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharMatCameraPropOverrideBehavior_TypeDefinitionIndex = 70391;
+
 	class CharMatCameraPropOverrideBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

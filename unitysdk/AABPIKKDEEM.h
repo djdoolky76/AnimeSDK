@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AABPIKKDEEM_CTOR_OFFSET UNITYSDK_OFFSET(0xB0C0FF0)
 #define AABPIKKDEEM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB0C1020)
 
+inline static constexpr unsigned int AABPIKKDEEM_TypeDefinitionIndex = 54482;
+
 	class AABPIKKDEEM
 	{
 	public:

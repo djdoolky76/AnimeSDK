@@ -8,6 +8,8 @@ namespace RPG::Client { class Map; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AdventureMapTestInitParams_TypeDefinitionIndex = 60952;
+
 	class AdventureMapTestInitParams : public ::System::Object
 	{
 	public:

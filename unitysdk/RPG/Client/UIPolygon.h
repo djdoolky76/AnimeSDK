@@ -19,6 +19,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIPolygon_TypeDefinitionIndex = 72696;
+
 	class UIPolygon : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:

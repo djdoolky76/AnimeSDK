@@ -15,6 +15,8 @@ namespace System { class Action; }
 #define OKIBHNGFOLI_MGJHLJEFMNI_OFFSET UNITYSDK_OFFSET(0xBEDB9F0)
 #define OKIBHNGFOLI__TRYREGISTERACTIVITYCLOSEMESSAGE_B__3_0_OFFSET UNITYSDK_OFFSET(0xBEDBA60)
 
+inline static constexpr unsigned int OKIBHNGFOLI_TypeDefinitionIndex = 82109;
+
 	class OKIBHNGFOLI : public ::System::Object
 	{
 	public:

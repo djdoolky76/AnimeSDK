@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GBOKIFBJAMN_NFDHENMGIBA_OFFSET UNITYSDK_OFFSET(0x15954F10)
 #define GBOKIFBJAMN_TICK_OFFSET UNITYSDK_OFFSET(0x159551B0)
 
+inline static constexpr unsigned int GBOKIFBJAMN_TypeDefinitionIndex = 77650;
+
 	class GBOKIFBJAMN : public ::System::Object
 	{
 	public:

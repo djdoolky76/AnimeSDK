@@ -5,6 +5,8 @@ namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int SimpleStateMachine_2_TypeDefinitionIndex = 43626;
+
 	template <typename T1, typename T2>
 	class SimpleStateMachine_2 : public ::System::Object
 	{

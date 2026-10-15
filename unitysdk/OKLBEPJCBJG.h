@@ -83,6 +83,8 @@ namespace System { class String; }
 #define OKLBEPJCBJG_OMOCCABFGCJ_OFFSET UNITYSDK_OFFSET(0x3C3D9E0)
 #define OKLBEPJCBJG_PCKEJOJIOOM_OFFSET UNITYSDK_OFFSET(0x3C3DF70)
 
+inline static constexpr unsigned int OKLBEPJCBJG_TypeDefinitionIndex = 10668;
+
 	struct alignas(8) OKLBEPJCBJG
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

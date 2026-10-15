@@ -7,6 +7,8 @@
 #define KCAODOCILAP_AOKLJHMAIOG_OFFSET UNITYSDK_OFFSET(0x1CBB0E80)
 #define KCAODOCILAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB0E90)
 
+inline static constexpr unsigned int KCAODOCILAP_TypeDefinitionIndex = 41969;
+
 	class KCAODOCILAP : public ::System::Object
 	{
 	public:

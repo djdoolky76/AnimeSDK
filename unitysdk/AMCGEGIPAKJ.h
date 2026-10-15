@@ -31,6 +31,8 @@ namespace System { class String; }
 #define AMCGEGIPAKJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E518E60)
 #define AMCGEGIPAKJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E518EC0)
 
+inline static constexpr unsigned int AMCGEGIPAKJ_TypeDefinitionIndex = 28981;
+
 	class AMCGEGIPAKJ : public ::System::Object
 	{
 	public:

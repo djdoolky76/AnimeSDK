@@ -8,6 +8,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveTechTreeInfo; }
 #define BHNENBICMKM_BUILD_OFFSET UNITYSDK_OFFSET(0xB48F1C0)
 #define BHNENBICMKM_CTOR_OFFSET UNITYSDK_OFFSET(0xB48F1A0)
 
+inline static constexpr unsigned int BHNENBICMKM_TypeDefinitionIndex = 75132;
+
 	class BHNENBICMKM
 	{
 	public:

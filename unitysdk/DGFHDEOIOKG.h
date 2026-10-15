@@ -5,6 +5,8 @@ namespace RPG::GameCore::Match3 { class Match3BirdSkillConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
+inline static constexpr unsigned int DGFHDEOIOKG_TypeDefinitionIndex = 42215;
+
 	struct alignas(8) DGFHDEOIOKG
 	{
 		::System::UInt32 BOKJJKFCFME; // 0x10

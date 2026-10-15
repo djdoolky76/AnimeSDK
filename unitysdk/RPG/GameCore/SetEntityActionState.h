@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetEntityActionState_TypeDefinitionIndex = 22653;
+
 	class SetEntityActionState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

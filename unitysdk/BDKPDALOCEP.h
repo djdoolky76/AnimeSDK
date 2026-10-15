@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BDKPDALOCEP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x162FDAF0)
 #define BDKPDALOCEP___COLLECTINFOS_B__2_0_OFFSET UNITYSDK_OFFSET(0x162FDE60)
 
+inline static constexpr unsigned int BDKPDALOCEP_TypeDefinitionIndex = 55358;
+
 	class BDKPDALOCEP
 	{
 	public:

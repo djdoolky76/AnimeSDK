@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DialogueGroupExcelTable_TypeDefinitionIndex = 13130;
+
 	class DialogueGroupExcelTable : public ::System::Object
 	{
 	public:

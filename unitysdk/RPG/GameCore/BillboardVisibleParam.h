@@ -7,6 +7,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BillboardVisibleParam_TypeDefinitionIndex = 57159;
+
 	class BillboardVisibleParam : public ::System::Object
 	{
 	public:

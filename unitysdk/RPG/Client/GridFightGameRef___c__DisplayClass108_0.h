@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass108_0_TypeDefinitionIndex = 64705;
+
 	class GridFightGameRef___c__DisplayClass108_0 : public ::System::Object
 	{
 	public:

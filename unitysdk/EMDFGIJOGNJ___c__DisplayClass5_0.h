@@ -11,6 +11,8 @@ namespace Proto { class ItemList; }
 #define EMDFGIJOGNJ___C__DISPLAYCLASS5_0__STARTINTERACTION_B__0_OFFSET UNITYSDK_OFFSET(0x15531340)
 #define EMDFGIJOGNJ___C__DISPLAYCLASS5_0__STARTINTERACTION_B__1_OFFSET UNITYSDK_OFFSET(0x15531360)
 
+inline static constexpr unsigned int EMDFGIJOGNJ___c__DisplayClass5_0_TypeDefinitionIndex = 75341;
+
 	class EMDFGIJOGNJ___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

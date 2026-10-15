@@ -9,6 +9,8 @@ namespace UnityEngine { class Animator; }
 #define MUSICRHYTHMANIMTESTCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xBA4FD20)
 #define MUSICRHYTHMANIMTESTCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0xBA4FB50)
 
+inline static constexpr unsigned int MusicRhythmAnimTestController_TypeDefinitionIndex = 47103;
+
 	class MusicRhythmAnimTestController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

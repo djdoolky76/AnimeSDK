@@ -7,6 +7,8 @@ namespace UnityEngine { class Texture2D; }
 #define BOMMJNIPOLG_CTOR_OFFSET UNITYSDK_OFFSET(0xC197430)
 #define BOMMJNIPOLG_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0xC197440)
 
+inline static constexpr unsigned int BOMMJNIPOLG_TypeDefinitionIndex = 70803;
+
 	class BOMMJNIPOLG : public ::System::Object
 	{
 	public:

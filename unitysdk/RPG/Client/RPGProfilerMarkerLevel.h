@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGProfilerMarkerLevel_TypeDefinitionIndex = 35162;
+
 	class RPGProfilerMarkerLevel : public ::System::Object
 	{
 	public:

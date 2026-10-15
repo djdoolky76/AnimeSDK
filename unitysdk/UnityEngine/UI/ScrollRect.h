@@ -155,6 +155,8 @@ namespace UnityEngine::UI { class TouchFilter; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int ScrollRect_TypeDefinitionIndex = 6825;
+
 	class ScrollRect : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

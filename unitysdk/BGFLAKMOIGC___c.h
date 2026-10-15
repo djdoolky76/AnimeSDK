@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BGFLAKMOIGC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA76450)
 #define BGFLAKMOIGC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EA76460)
 
+inline static constexpr unsigned int BGFLAKMOIGC___c_TypeDefinitionIndex = 33917;
+
 	class BGFLAKMOIGC___c : public ::System::Object
 	{
 	public:

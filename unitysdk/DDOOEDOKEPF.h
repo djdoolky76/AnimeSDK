@@ -30,6 +30,8 @@ namespace System { class String; }
 #define DDOOEDOKEPF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E18BE40)
 #define DDOOEDOKEPF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E18BEA0)
 
+inline static constexpr unsigned int DDOOEDOKEPF_TypeDefinitionIndex = 30903;
+
 	class DDOOEDOKEPF : public ::System::Object
 	{
 	public:

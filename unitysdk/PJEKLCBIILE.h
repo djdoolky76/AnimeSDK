@@ -16,6 +16,8 @@ namespace System { class Object; }
 #define PJEKLCBIILE_OPCKNBHNBOA_OFFSET UNITYSDK_OFFSET(0xC2843F0)
 #define PJEKLCBIILE_TICK_OFFSET UNITYSDK_OFFSET(0xC284440)
 
+inline static constexpr unsigned int PJEKLCBIILE_TypeDefinitionIndex = 55851;
+
 	class PJEKLCBIILE : public ::System::Object
 	{
 	public:

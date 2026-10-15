@@ -9,6 +9,8 @@ namespace Mono::Net { class CFRunLoop; }
 
 namespace Mono::Net
 {
+	inline static constexpr unsigned int CFNetwork___c__DisplayClass13_0_TypeDefinitionIndex = 2421;
+
 	class CFNetwork___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

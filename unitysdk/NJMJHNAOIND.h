@@ -16,6 +16,8 @@ namespace UnityEngine { class Animator; }
 #define NJMJHNAOIND_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xBC1F800)
 #define NJMJHNAOIND_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xBC1F6F0)
 
+inline static constexpr unsigned int NJMJHNAOIND_TypeDefinitionIndex = 48663;
+
 	class NJMJHNAOIND : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

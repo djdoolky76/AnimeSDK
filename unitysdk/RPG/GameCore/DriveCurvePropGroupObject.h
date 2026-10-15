@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DriveCurvePropGroupObject; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DriveCurvePropGroupObject_TypeDefinitionIndex = 22258;
+
 	class DriveCurvePropGroupObject : public ::RPG::GameCore::TaskConfig
 	{
 	public:

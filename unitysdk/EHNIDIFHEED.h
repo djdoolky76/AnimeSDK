@@ -9,6 +9,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define EHNIDIFHEED_CTOR_OFFSET UNITYSDK_OFFSET(0x154B8020)
 #define EHNIDIFHEED_ODEBFADAKFA_OFFSET UNITYSDK_OFFSET(0x154B7E90)
 
+inline static constexpr unsigned int EHNIDIFHEED_TypeDefinitionIndex = 62853;
+
 	class EHNIDIFHEED : public ::System::Object
 	{
 	public:

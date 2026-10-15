@@ -18,6 +18,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int ConsoleBindingSuccessDialog_TypeDefinitionIndex = 9000;
+
 	class ConsoleBindingSuccessDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:

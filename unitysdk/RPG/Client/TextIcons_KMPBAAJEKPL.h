@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TextIcons_KMPBAAJEKPL_TypeDefinitionIndex = 72681;
+
 	class TextIcons_KMPBAAJEKPL : public ::System::Object
 	{
 	public:

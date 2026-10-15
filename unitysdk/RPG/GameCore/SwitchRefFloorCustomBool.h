@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SwitchRefFloorCustomBool; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchRefFloorCustomBool_TypeDefinitionIndex = 17524;
+
 	class SwitchRefFloorCustomBool : public ::RPG::GameCore::SwitchRefBase
 	{
 	public:

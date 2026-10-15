@@ -45,6 +45,8 @@ namespace System { class String; }
 #define KHDJLEELKHD_SET_SPNEED_OFFSET UNITYSDK_OFFSET(0xB4001F0)
 #define KHDJLEELKHD_SET_STANCEDAMAGETYPE_OFFSET UNITYSDK_OFFSET(0xB4002D0)
 
+inline static constexpr unsigned int KHDJLEELKHD_TypeDefinitionIndex = 51936;
+
 	class KHDJLEELKHD : public ::System::Object
 	{
 	public:

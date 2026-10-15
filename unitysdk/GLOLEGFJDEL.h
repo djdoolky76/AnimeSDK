@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GLOLEGFJDEL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE674D0)
 #define GLOLEGFJDEL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE66E30)
 
+inline static constexpr unsigned int GLOLEGFJDEL_TypeDefinitionIndex = 10896;
+
 	class GLOLEGFJDEL : public ::System::Object
 	{
 	public:

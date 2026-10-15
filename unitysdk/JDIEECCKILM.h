@@ -23,6 +23,8 @@ namespace System::Text { class StringBuilder; }
 #define JDIEECCKILM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x165CC930)
 #define JDIEECCKILM__CLONE___OFFSET UNITYSDK_OFFSET(0x165CD0A0)
 
+inline static constexpr unsigned int JDIEECCKILM_TypeDefinitionIndex = 80608;
+
 	class JDIEECCKILM : public ::System::Object
 	{
 	public:

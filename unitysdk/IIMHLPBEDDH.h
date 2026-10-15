@@ -30,6 +30,8 @@ namespace System { class String; }
 #define IIMHLPBEDDH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E68B8B0)
 #define IIMHLPBEDDH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E68B910)
 
+inline static constexpr unsigned int IIMHLPBEDDH_TypeDefinitionIndex = 27715;
+
 	class IIMHLPBEDDH : public ::System::Object
 	{
 	public:

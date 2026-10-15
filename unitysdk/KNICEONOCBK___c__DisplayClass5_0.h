@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 #define KNICEONOCBK___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB585EE0)
 #define KNICEONOCBK___C__DISPLAYCLASS5_0__LOADASSETASYNC_B__0_OFFSET UNITYSDK_OFFSET(0xB5860A0)
 
+inline static constexpr unsigned int KNICEONOCBK___c__DisplayClass5_0_TypeDefinitionIndex = 76620;
+
 	class KNICEONOCBK___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

@@ -65,6 +65,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PAKPBEKMBEA_SET_LASTPHOTORESULTS_OFFSET UNITYSDK_OFFSET(0xBFD1450)
 #define PAKPBEKMBEA_TICK_OFFSET UNITYSDK_OFFSET(0xBFCD270)
 
+inline static constexpr unsigned int PAKPBEKMBEA_TypeDefinitionIndex = 69451;
+
 	class PAKPBEKMBEA : public ::System::Object
 	{
 	public:

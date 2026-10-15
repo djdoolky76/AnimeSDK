@@ -17,6 +17,8 @@ namespace System::Xml::Serialization { class XmlTypeMapping; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int ReflectionHelper_TypeDefinitionIndex = 1990;
+
 	class ReflectionHelper : public ::System::Object
 	{
 	public:

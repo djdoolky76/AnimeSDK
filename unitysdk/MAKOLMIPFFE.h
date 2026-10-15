@@ -4,6 +4,8 @@
 
 #define MAKOLMIPFFE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C570310)
 
+inline static constexpr unsigned int MAKOLMIPFFE_TypeDefinitionIndex = 41859;
+
 	class MAKOLMIPFFE : public ::JEBPFBNCALB
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitForWithDuration; }
 #define BCCMOINOJMP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15EA5550)
 #define BCCMOINOJMP_TICK_OFFSET UNITYSDK_OFFSET(0x15EA55A0)
 
+inline static constexpr unsigned int BCCMOINOJMP_TypeDefinitionIndex = 58893;
+
 	class BCCMOINOJMP : public ::GELIALJDFBL
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System { class String; }
 #define MLBJDGBJENK_SET_OWNERSNAME_OFFSET UNITYSDK_OFFSET(0xB9A58B0)
 #define MLBJDGBJENK_SET_SERVANTCARDOWNERTYPE_OFFSET UNITYSDK_OFFSET(0xB9A5870)
 
+inline static constexpr unsigned int MLBJDGBJENK_TypeDefinitionIndex = 81137;
+
 	class MLBJDGBJENK : public ::System::Object
 	{
 	public:

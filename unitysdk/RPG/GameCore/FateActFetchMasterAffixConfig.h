@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateActFetchMasterAffixConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateActFetchMasterAffixConfig_TypeDefinitionIndex = 19242;
+
 	class FateActFetchMasterAffixConfig : public ::RPG::GameCore::FateActionConfigBase
 	{
 	public:

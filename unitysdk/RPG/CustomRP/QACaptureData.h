@@ -13,6 +13,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int QACaptureData_TypeDefinitionIndex = 37619;
+
 	struct alignas(8) QACaptureData
 	{
 		::RPG::CustomRP::FramePassCaptureData reflection_probe_pass_data; // 0x10

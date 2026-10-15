@@ -22,6 +22,8 @@ namespace System { class String; }
 #define HPHLMCKOHHO_SET_DISABLEAFTERTRIGGERED_OFFSET UNITYSDK_OFFSET(0x15DC9F10)
 #define HPHLMCKOHHO_SET_ENSUREIMMEDIATETASK_OFFSET UNITYSDK_OFFSET(0x15DC9F50)
 
+inline static constexpr unsigned int HPHLMCKOHHO_TypeDefinitionIndex = 57507;
+
 	class HPHLMCKOHHO : public ::EDLDHDMLJDH
 	{
 	public:

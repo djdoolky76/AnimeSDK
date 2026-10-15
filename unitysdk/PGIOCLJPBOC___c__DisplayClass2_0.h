@@ -10,6 +10,8 @@ namespace System { class Exception; }
 #define PGIOCLJPBOC___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xC221A40)
 #define PGIOCLJPBOC___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__1_OFFSET UNITYSDK_OFFSET(0xC221C00)
 
+inline static constexpr unsigned int PGIOCLJPBOC___c__DisplayClass2_0_TypeDefinitionIndex = 58481;
+
 	class PGIOCLJPBOC___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

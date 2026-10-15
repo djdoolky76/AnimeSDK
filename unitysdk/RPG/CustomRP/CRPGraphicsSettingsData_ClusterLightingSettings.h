@@ -6,6 +6,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPGraphicsSettingsData_ClusterLightingSettings_TypeDefinitionIndex = 37661;
+
 	class CRPGraphicsSettingsData_ClusterLightingSettings : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 #define INNAJJPEGPM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x164F82F0)
 #define INNAJJPEGPM_TICK_OFFSET UNITYSDK_OFFSET(0x164F7E00)
 
+inline static constexpr unsigned int INNAJJPEGPM_TypeDefinitionIndex = 58316;
+
 	class INNAJJPEGPM : public ::GELIALJDFBL
 	{
 	public:

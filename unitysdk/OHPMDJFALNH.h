@@ -27,6 +27,8 @@ namespace System { class String; }
 #define OHPMDJFALNH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE67960)
 #define OHPMDJFALNH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE679C0)
 
+inline static constexpr unsigned int OHPMDJFALNH_TypeDefinitionIndex = 31690;
+
 	class OHPMDJFALNH : public ::System::Object
 	{
 	public:

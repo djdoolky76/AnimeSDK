@@ -8,6 +8,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectFrameCaptureTexPlugin_MatTexItem_TypeDefinitionIndex = 70031;
+
 	class MonoEffectFrameCaptureTexPlugin_MatTexItem : public ::System::Object
 	{
 	public:

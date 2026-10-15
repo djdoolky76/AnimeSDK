@@ -9,6 +9,8 @@ namespace RPG::Client { class AdventurePhase; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AdventurePhase___c__DisplayClass113_0_TypeDefinitionIndex = 60119;
+
 	class AdventurePhase___c__DisplayClass113_0 : public ::System::Object
 	{
 	public:

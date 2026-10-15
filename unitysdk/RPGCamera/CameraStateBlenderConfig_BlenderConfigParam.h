@@ -9,6 +9,8 @@
 
 namespace RPGCamera
 {
+	inline static constexpr unsigned int CameraStateBlenderConfig_BlenderConfigParam_TypeDefinitionIndex = 45936;
+
 	class CameraStateBlenderConfig_BlenderConfigParam : public ::System::Object
 	{
 	public:

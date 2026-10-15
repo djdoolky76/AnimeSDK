@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropCurveMovePause_TypeDefinitionIndex = 21009;
+
 	class PropCurveMovePause : public ::RPG::GameCore::TaskConfig
 	{
 	public:

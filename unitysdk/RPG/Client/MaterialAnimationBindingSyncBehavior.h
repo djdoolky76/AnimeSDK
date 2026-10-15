@@ -51,6 +51,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MaterialAnimationBindingSyncBehavior_TypeDefinitionIndex = 70291;
+
 	class MaterialAnimationBindingSyncBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define COCHLLCNDJF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E131600)
 #define COCHLLCNDJF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E131610)
 
+inline static constexpr unsigned int COCHLLCNDJF___c_TypeDefinitionIndex = 27499;
+
 	class COCHLLCNDJF___c : public ::System::Object
 	{
 	public:

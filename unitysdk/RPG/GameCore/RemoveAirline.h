@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveAirline_TypeDefinitionIndex = 21877;
+
 	class RemoveAirline : public ::RPG::GameCore::TaskConfig
 	{
 	public:

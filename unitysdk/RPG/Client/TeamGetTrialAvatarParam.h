@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TeamGetTrialAvatarParam_TypeDefinitionIndex = 68128;
+
 	class TeamGetTrialAvatarParam : public ::System::Object
 	{
 	public:

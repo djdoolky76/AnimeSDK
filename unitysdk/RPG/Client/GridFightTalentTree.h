@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTalentTree_TypeDefinitionIndex = 65266;
+
 	class GridFightTalentTree : public ::System::Object
 	{
 	public:

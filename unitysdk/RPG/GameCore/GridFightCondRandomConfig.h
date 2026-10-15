@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightCondRandomConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightCondRandomConfig_TypeDefinitionIndex = 19328;
+
 	class GridFightCondRandomConfig : public ::RPG::GameCore::GridFightConditionConfigBase
 	{
 	public:

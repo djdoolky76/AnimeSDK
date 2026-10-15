@@ -134,6 +134,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirGameSession_TypeDefinitionIndex = 79350;
+
 	class PixAirGameSession : public ::System::Object
 	{
 	public:

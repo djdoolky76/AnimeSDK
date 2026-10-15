@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateRinCaseBoardMoveBaseInfo; }
 #define HAPMNFHILIK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE81A70)
 #define HAPMNFHILIK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE81A30)
 
+inline static constexpr unsigned int HAPMNFHILIK_TypeDefinitionIndex = 19921;
+
 	class HAPMNFHILIK : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -43,6 +43,8 @@ namespace System { class String; }
 #define MLINFKJIAEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA82CC0)
 #define MLINFKJIAEL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA82D20)
 
+inline static constexpr unsigned int MLINFKJIAEL_TypeDefinitionIndex = 32016;
+
 	class MLINFKJIAEL : public ::System::Object
 	{
 	public:

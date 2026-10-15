@@ -4,6 +4,8 @@
 
 #define POEELJNJAAO_CTOR_OFFSET UNITYSDK_OFFSET(0xC35A420)
 
+inline static constexpr unsigned int POEELJNJAAO_TypeDefinitionIndex = 69406;
+
 	class POEELJNJAAO : public ::System::Object
 	{
 	public:

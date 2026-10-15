@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitRogueSelectDialogueOption; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitRogueSelectDialogueOption_TypeDefinitionIndex = 20490;
+
 	class WaitRogueSelectDialogueOption : public ::RPG::GameCore::TaskConfig
 	{
 	public:

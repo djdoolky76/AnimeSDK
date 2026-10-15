@@ -26,6 +26,8 @@ namespace UnityEngine::UI { class ScrollRect; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoInControlMove_TypeDefinitionIndex = 61344;
+
 	class MonoInControlMove : public ::UnityEngine::MonoBehaviour
 	{
 	public:

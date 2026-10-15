@@ -48,6 +48,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::BlindBox::Pool
 {
+	inline static constexpr unsigned int BlindBoxPoolModule_TypeDefinitionIndex = 74912;
+
 	class BlindBoxPoolModule : public ::RPG::Client::BaseModule
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JEODEMHEBKC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E720D90)
 #define JEODEMHEBKC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E720DA0)
 
+inline static constexpr unsigned int JEODEMHEBKC___c_TypeDefinitionIndex = 26345;
+
 	class JEODEMHEBKC___c : public ::System::Object
 	{
 	public:

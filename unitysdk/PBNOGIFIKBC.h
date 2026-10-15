@@ -12,6 +12,8 @@ namespace RPG::GameCore { class OverrideFloorConfigRow; }
 #define PBNOGIFIKBC_MNBBCAMDGDI_OFFSET UNITYSDK_OFFSET(0xBFF5C60)
 #define PBNOGIFIKBC_OJAKJDAJCNN_OFFSET UNITYSDK_OFFSET(0xBFF5AA0)
 
+inline static constexpr unsigned int PBNOGIFIKBC_TypeDefinitionIndex = 63645;
+
 	class PBNOGIFIKBC : public ::System::Object
 	{
 	public:

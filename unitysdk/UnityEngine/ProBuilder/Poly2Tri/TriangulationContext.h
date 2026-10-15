@@ -27,6 +27,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri { class TriangulationPoint; }
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
+	inline static constexpr unsigned int TriangulationContext_TypeDefinitionIndex = 38752;
+
 	class TriangulationContext : public ::System::Object
 	{
 	public:

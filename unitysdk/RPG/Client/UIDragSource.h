@@ -18,6 +18,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIDragSource_TypeDefinitionIndex = 73065;
+
 	class UIDragSource : public ::UnityEngine::MonoBehaviour
 	{
 	public:

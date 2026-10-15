@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int KeyNotFoundException_TypeDefinitionIndex = 1569;
+
 	class KeyNotFoundException : public ::System::SystemException
 	{
 	public:

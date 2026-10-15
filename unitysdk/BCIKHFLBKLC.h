@@ -4,6 +4,8 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 namespace System { class String; }
 
+inline static constexpr unsigned int BCIKHFLBKLC_TypeDefinitionIndex = 42010;
+
 	struct alignas(8) BCIKHFLBKLC
 	{
 		::System::String* CEGADPFLPGM; // 0x10

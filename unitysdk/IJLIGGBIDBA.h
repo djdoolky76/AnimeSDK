@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define IJLIGGBIDBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB77800)
 
+inline static constexpr unsigned int IJLIGGBIDBA_TypeDefinitionIndex = 43687;
+
 	class IJLIGGBIDBA : public ::System::Object
 	{
 	public:

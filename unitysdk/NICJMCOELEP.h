@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 #define NICJMCOELEP_CTOR_OFFSET UNITYSDK_OFFSET(0xBBDEF90)
 
+inline static constexpr unsigned int NICJMCOELEP_TypeDefinitionIndex = 47062;
+
 	class NICJMCOELEP : public ::System::Object
 	{
 	public:

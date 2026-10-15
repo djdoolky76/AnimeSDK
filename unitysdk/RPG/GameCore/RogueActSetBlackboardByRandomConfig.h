@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActSetBlackboardByRandomConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActSetBlackboardByRandomConfig_TypeDefinitionIndex = 19778;
+
 	class RogueActSetBlackboardByRandomConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

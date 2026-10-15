@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int DOFTimelineTrack_TypeDefinitionIndex = 48571;
+
 	class DOFTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

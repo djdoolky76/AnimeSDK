@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define BEOEOOMONGN_GET_DRESSEDSKIN_OFFSET UNITYSDK_OFFSET(0xB15B190)
 #define BEOEOOMONGN_GET_SKINIDS_OFFSET UNITYSDK_OFFSET(0xB15B100)
 
+inline static constexpr unsigned int BEOEOOMONGN_TypeDefinitionIndex = 51990;
+
 	class BEOEOOMONGN : public ::System::Object
 	{
 	public:

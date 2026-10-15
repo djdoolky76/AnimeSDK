@@ -13,6 +13,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_ConsoleFunc; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_registerConsoleCallback_TypeDefinitionIndex = 39445;
+
 	class BrowserNative_Calltype_zfb_registerConsoleCallback : public ::System::MulticastDelegate
 	{
 	public:

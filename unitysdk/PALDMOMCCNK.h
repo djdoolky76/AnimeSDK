@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PALDMOMCCNK_HIEIGBIMEMN_OFFSET UNITYSDK_OFFSET(0xBFD1B80)
 #define PALDMOMCCNK_OLNIGDNNKLM_OFFSET UNITYSDK_OFFSET(0xBFD1C60)
 
+inline static constexpr unsigned int PALDMOMCCNK_TypeDefinitionIndex = 64213;
+
 	class PALDMOMCCNK : public ::System::Object
 	{
 	public:

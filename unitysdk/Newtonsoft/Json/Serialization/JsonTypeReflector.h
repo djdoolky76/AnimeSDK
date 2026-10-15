@@ -30,6 +30,8 @@ namespace System::Runtime::Serialization { class DataMemberAttribute; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int JsonTypeReflector_TypeDefinitionIndex = 9743;
+
 	class JsonTypeReflector : public ::System::Object
 	{
 	public:

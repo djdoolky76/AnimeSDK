@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimSetSplineMoveSpeedMultiplierAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetSplineMoveSpeedMultiplierAction_TypeDefinitionIndex = 18663;
+
 	class FiveDimSetSplineMoveSpeedMultiplierAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MEEPKLELIKK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA0B030)
 #define MEEPKLELIKK___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EA0B040)
 
+inline static constexpr unsigned int MEEPKLELIKK___c_TypeDefinitionIndex = 34947;
+
 	class MEEPKLELIKK___c : public ::System::Object
 	{
 	public:

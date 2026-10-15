@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::BlindBox::Pool
 {
+	inline static constexpr unsigned int IBlindBoxPoolRepositoryExtensions___c_TypeDefinitionIndex = 74951;
+
 	class IBlindBoxPoolRepositoryExtensions___c : public ::System::Object
 	{
 	public:

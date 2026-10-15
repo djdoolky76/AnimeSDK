@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define OMKAKFPOGDA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB9340)
 #define OMKAKFPOGDA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DEB9350)
 
+inline static constexpr unsigned int OMKAKFPOGDA___c_TypeDefinitionIndex = 35029;
+
 	class OMKAKFPOGDA___c : public ::System::Object
 	{
 	public:

@@ -73,6 +73,8 @@ namespace UnityEngine::UI { class Button; }
 
 namespace RPG::UINavigation
 {
+	inline static constexpr unsigned int UINavigationZone_TypeDefinitionIndex = 51747;
+
 	class UINavigationZone : public ::UnityEngine::MonoBehaviour
 	{
 	public:

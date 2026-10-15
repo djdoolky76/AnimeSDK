@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GIFJFIDCJAI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E496610)
 #define GIFJFIDCJAI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E496670)
 
+inline static constexpr unsigned int GIFJFIDCJAI_TypeDefinitionIndex = 30134;
+
 	class GIFJFIDCJAI : public ::System::Object
 	{
 	public:

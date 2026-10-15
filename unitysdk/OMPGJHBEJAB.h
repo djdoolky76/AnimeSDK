@@ -32,6 +32,8 @@ namespace System { class String; }
 #define OMPGJHBEJAB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEBE9F0)
 #define OMPGJHBEJAB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEBEA50)
 
+inline static constexpr unsigned int OMPGJHBEJAB_TypeDefinitionIndex = 31640;
+
 	class OMPGJHBEJAB : public ::System::Object
 	{
 	public:

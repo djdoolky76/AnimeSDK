@@ -27,6 +27,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace SRF::Service
 {
+	inline static constexpr unsigned int SRServiceManager_TypeDefinitionIndex = 35416;
+
 	class SRServiceManager
 	{
 	public:

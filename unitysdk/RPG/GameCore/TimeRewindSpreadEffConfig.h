@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TimeRewindSpreadEffConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimeRewindSpreadEffConfig_TypeDefinitionIndex = 16608;
+
 	class TimeRewindSpreadEffConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

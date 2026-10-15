@@ -9,6 +9,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int WaitForSecondsRealtime_TypeDefinitionIndex = 4369;
+
 	class WaitForSecondsRealtime : public ::UnityEngine::CustomYieldInstruction
 	{
 	public:

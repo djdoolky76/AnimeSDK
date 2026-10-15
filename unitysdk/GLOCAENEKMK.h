@@ -60,6 +60,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GLOCAENEKMK__ONCONTEXTDETACHED_OFFSET UNITYSDK_OFFSET(0x15AC04B0)
 #define GLOCAENEKMK__ONEXITED_OFFSET UNITYSDK_OFFSET(0x15AC0510)
 
+inline static constexpr unsigned int GLOCAENEKMK_TypeDefinitionIndex = 77719;
+
 	class GLOCAENEKMK : public ::RPG::Client::BaseGameFlow
 	{
 	public:

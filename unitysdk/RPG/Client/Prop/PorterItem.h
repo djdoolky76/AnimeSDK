@@ -21,6 +21,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int PorterItem_TypeDefinitionIndex = 78774;
+
 	class PorterItem : public ::System::Object
 	{
 	public:

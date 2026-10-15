@@ -12,6 +12,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_MarkSkillDice; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_MarkSkillDice_TypeDefinitionIndex = 16157;
+
 	class DiceCombatTaskConfig_MarkSkillDice : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

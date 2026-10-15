@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ConfirmDialogUtil___c__DisplayClass25_0_TypeDefinitionIndex = 72719;
+
 	class ConfirmDialogUtil___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace R3 { class Observable; }
 #define BCKKHDBAENJ_NBCKMAFIBPI_OFFSET UNITYSDK_OFFSET(0x162E19D0)
 #define BCKKHDBAENJ_NKDAHLGNOKN_OFFSET UNITYSDK_OFFSET(0x162E1BE0)
 
+inline static constexpr unsigned int BCKKHDBAENJ_TypeDefinitionIndex = 49978;
+
 	class BCKKHDBAENJ : public ::System::Object
 	{
 	public:

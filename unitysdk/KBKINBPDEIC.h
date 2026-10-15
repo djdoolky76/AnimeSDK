@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define KBKINBPDEIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB0E70)
 
+inline static constexpr unsigned int KBKINBPDEIC_TypeDefinitionIndex = 43734;
+
 	class KBKINBPDEIC : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 #define HNBNHMOOBCD_CTOR_OFFSET UNITYSDK_OFFSET(0x15D8C510)
 #define HNBNHMOOBCD_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x15D8C340)
 
+inline static constexpr unsigned int HNBNHMOOBCD_TypeDefinitionIndex = 54103;
+
 	class HNBNHMOOBCD
 	{
 	public:

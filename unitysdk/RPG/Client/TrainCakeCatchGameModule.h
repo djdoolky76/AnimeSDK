@@ -41,6 +41,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TrainCakeCatchGameModule_TypeDefinitionIndex = 60223;
+
 	class TrainCakeCatchGameModule : public ::HBCMHADMLOP
 	{
 	public:

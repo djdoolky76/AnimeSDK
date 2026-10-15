@@ -10,6 +10,8 @@ namespace System { class Nullable; }
 
 namespace RPG::Client::Challenge
 {
+	inline static constexpr unsigned int ChallengeStoryEnvironmentHintViewModel_TypeDefinitionIndex = 81433;
+
 	class ChallengeStoryEnvironmentHintViewModel : public ::RPG::Client::Challenge::ChallengeEnvironmentHintViewModelBase
 	{
 	public:

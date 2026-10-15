@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 #define BEHMLFENEGF_HLKLBKNLFFO_OFFSET UNITYSDK_OFFSET(0x16323120)
 #define BEHMLFENEGF_MLJMJNEHDAA_OFFSET UNITYSDK_OFFSET(0x16322DA0)
 
+inline static constexpr unsigned int BEHMLFENEGF_TypeDefinitionIndex = 54862;
+
 	class BEHMLFENEGF : public ::System::Object
 	{
 	public:

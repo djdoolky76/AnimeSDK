@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int IHFPHIPHDCE_TypeDefinitionIndex = 32548;
+
 	enum class IHFPHIPHDCE : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

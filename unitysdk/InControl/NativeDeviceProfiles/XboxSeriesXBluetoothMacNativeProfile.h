@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int XboxSeriesXBluetoothMacNativeProfile_TypeDefinitionIndex = 41276;
+
 	class XboxSeriesXBluetoothMacNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

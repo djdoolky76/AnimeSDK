@@ -39,6 +39,8 @@ namespace System { class String; }
 #define OFMCKLEMOMP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE4A220)
 #define OFMCKLEMOMP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE4A280)
 
+inline static constexpr unsigned int OFMCKLEMOMP_TypeDefinitionIndex = 33051;
+
 	class OFMCKLEMOMP : public ::System::Object
 	{
 	public:

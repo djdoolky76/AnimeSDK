@@ -4,6 +4,8 @@
 
 #define EHNPADGDEKI_CTOR_OFFSET UNITYSDK_OFFSET(0x154B93C0)
 
+inline static constexpr unsigned int EHNPADGDEKI_TypeDefinitionIndex = 50048;
+
 	class EHNPADGDEKI : public ::System::Attribute
 	{
 	public:

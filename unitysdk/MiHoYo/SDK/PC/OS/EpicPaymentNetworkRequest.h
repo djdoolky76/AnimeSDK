@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int EpicPaymentNetworkRequest_TypeDefinitionIndex = 8535;
+
 	class EpicPaymentNetworkRequest : public ::System::Object
 	{
 	public:

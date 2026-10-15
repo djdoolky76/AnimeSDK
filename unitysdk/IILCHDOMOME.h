@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IILCHDOMOME_MNBPIBLHNHO_OFFSET UNITYSDK_OFFSET(0x16448CD0)
 #define IILCHDOMOME__TRYRECONNECT_G__ONFETCHEDLOBBY_5_0_OFFSET UNITYSDK_OFFSET(0x16448B30)
 
+inline static constexpr unsigned int IILCHDOMOME_TypeDefinitionIndex = 66041;
+
 	class IILCHDOMOME : public ::System::Object
 	{
 	public:

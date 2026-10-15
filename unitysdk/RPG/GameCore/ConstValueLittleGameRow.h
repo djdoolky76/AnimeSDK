@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConstValueLittleGameRow_TypeDefinitionIndex = 13091;
+
 	class ConstValueLittleGameRow : public ::System::Object
 	{
 	public:

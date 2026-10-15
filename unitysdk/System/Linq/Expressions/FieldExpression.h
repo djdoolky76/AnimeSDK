@@ -12,6 +12,8 @@ namespace System::Reflection { class MemberInfo; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int FieldExpression_TypeDefinitionIndex = 3245;
+
 	class FieldExpression : public ::System::Linq::Expressions::MemberExpression
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { class Action; }
 
 #define HAGLEMEGDCB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC6F2D0)
 
+inline static constexpr unsigned int HAGLEMEGDCB_TypeDefinitionIndex = 44257;
+
 	class HAGLEMEGDCB : public ::System::Object
 	{
 	public:

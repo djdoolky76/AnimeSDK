@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int DJKMDMLOOOD_DJHKCBIOPGC_TypeDefinitionIndex = 27755;
+
 	enum class DJKMDMLOOOD_DJHKCBIOPGC : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

@@ -3,6 +3,8 @@
 
 namespace RPG::Client::Emotion
 {
+	inline static constexpr unsigned int EmoPartType_TypeDefinitionIndex = 73564;
+
 	enum class EmoPartType : ::System::Int32
 	{
 		LeftBrow = 0,

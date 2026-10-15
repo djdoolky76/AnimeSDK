@@ -15,6 +15,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftRadarChartControl_TypeDefinitionIndex = 79824;
+
 	class MechCraftRadarChartControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntityModelDispose_TypeDefinitionIndex = 57195;
+
 	class EntityModelDispose : public ::System::Object
 	{
 	public:

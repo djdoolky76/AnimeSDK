@@ -8,6 +8,8 @@ namespace RPG::Client { class MainMissionData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionModule___c__DisplayClass332_0_TypeDefinitionIndex = 66154;
+
 	class MissionModule___c__DisplayClass332_0 : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KNEJEHOOFGI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8A27A0)
 #define KNEJEHOOFGI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E8A27B0)
 
+inline static constexpr unsigned int KNEJEHOOFGI___c_TypeDefinitionIndex = 32917;
+
 	class KNEJEHOOFGI___c : public ::System::Object
 	{
 	public:

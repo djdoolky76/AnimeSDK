@@ -27,6 +27,8 @@ namespace System { class String; }
 #define OLCIGFGFELG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEA5370)
 #define OLCIGFGFELG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEA53D0)
 
+inline static constexpr unsigned int OLCIGFGFELG_TypeDefinitionIndex = 33563;
+
 	class OLCIGFGFELG : public ::System::Object
 	{
 	public:

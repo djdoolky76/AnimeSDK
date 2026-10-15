@@ -29,6 +29,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIAutoFlipBehavior_TypeDefinitionIndex = 71054;
+
 	class UIAutoFlipBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

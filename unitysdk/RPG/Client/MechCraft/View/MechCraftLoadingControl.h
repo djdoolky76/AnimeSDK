@@ -8,6 +8,8 @@ class HIKAAGHELPH;
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftLoadingControl_TypeDefinitionIndex = 79975;
+
 	class MechCraftLoadingControl
 	{
 	public:

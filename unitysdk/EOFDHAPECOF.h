@@ -5,6 +5,8 @@ class JOGGBGBENHJ;
 
 #define EOFDHAPECOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA61C00)
 
+inline static constexpr unsigned int EOFDHAPECOF_TypeDefinitionIndex = 43220;
+
 	class EOFDHAPECOF : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRApplications__GetApplicationProcessId_TypeDefinitionIndex = 38965;
+
 	class IVRApplications__GetApplicationProcessId : public ::System::MulticastDelegate
 	{
 	public:

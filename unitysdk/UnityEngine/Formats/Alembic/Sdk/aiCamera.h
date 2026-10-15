@@ -9,6 +9,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aiCamera_TypeDefinitionIndex = 45828;
+
 	struct alignas(4) aiCamera
 	{
 		::System::IntPtr self; // 0x10

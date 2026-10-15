@@ -13,6 +13,8 @@ namespace RPG::Client { class LocalFogSphereAnimationControllerMonoPlugin; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LocalFogSphereAnimationControllerBehavior_TypeDefinitionIndex = 70646;
+
 	class LocalFogSphereAnimationControllerBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

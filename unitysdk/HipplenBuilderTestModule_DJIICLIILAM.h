@@ -11,6 +11,8 @@ namespace System { class String; }
 #define HIPPLENBUILDERTESTMODULE_DJIICLIILAM_KMBHEADNNGI_OFFSET UNITYSDK_OFFSET(0x15DF35C0)
 #define HIPPLENBUILDERTESTMODULE_DJIICLIILAM_PNLLINHJDJF_OFFSET UNITYSDK_OFFSET(0x15DF3560)
 
+inline static constexpr unsigned int HipplenBuilderTestModule_DJIICLIILAM_TypeDefinitionIndex = 47214;
+
 	class HipplenBuilderTestModule_DJIICLIILAM : public ::System::Object
 	{
 	public:

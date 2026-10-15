@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ChenLingBattleEffectConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAbility_FireVisualEffect_TypeDefinitionIndex = 15736;
+
 	class ChenLingBattleAbility_FireVisualEffect : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
 	public:

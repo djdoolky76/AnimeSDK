@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NEJPLEFGALN_NNPAIKAJDNA_OFFSET UNITYSDK_OFFSET(0xBB69380)
 #define NEJPLEFGALN_PJCBKEEKNGO_OFFSET UNITYSDK_OFFSET(0xBB69F70)
 
+inline static constexpr unsigned int NEJPLEFGALN_TypeDefinitionIndex = 54250;
+
 	class NEJPLEFGALN : public ::System::Object
 	{
 	public:

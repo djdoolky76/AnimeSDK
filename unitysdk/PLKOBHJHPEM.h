@@ -18,6 +18,8 @@ namespace RPG::GameCore { class NoteNotifyConfig; }
 #define PLKOBHJHPEM_SET_NOTIFYTIME_OFFSET UNITYSDK_OFFSET(0xC309DD0)
 #define PLKOBHJHPEM_SET_NOTIFYTYPE_OFFSET UNITYSDK_OFFSET(0xC309DB0)
 
+inline static constexpr unsigned int PLKOBHJHPEM_TypeDefinitionIndex = 60177;
+
 	class PLKOBHJHPEM : public ::System::Object
 	{
 	public:

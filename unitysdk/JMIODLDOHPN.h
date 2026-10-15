@@ -6,6 +6,8 @@
 #define JMIODLDOHPN_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xB268D00)
 #define JMIODLDOHPN_MGIAPKNODHI_OFFSET UNITYSDK_OFFSET(0xB268D50)
 
+inline static constexpr unsigned int JMIODLDOHPN_TypeDefinitionIndex = 59699;
+
 	class JMIODLDOHPN : public ::System::Object
 	{
 	public:

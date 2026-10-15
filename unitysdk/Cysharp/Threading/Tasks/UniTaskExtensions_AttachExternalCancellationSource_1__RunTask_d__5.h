@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTaskExtensions_AttachExternalCancellationSource_1__RunTask_d__5_TypeDefinitionIndex = 38405;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5>
 	struct alignas(8) UniTaskExtensions_AttachExternalCancellationSource_1__RunTask_d__5
 	{

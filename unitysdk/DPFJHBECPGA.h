@@ -17,6 +17,8 @@ namespace System { class Object; }
 #define DPFJHBECPGA_PAOMNJFMOJD_OFFSET UNITYSDK_OFFSET(0x11FFC320)
 #define DPFJHBECPGA_PLLAAIFHBLG_OFFSET UNITYSDK_OFFSET(0x11FFBFF0)
 
+inline static constexpr unsigned int DPFJHBECPGA_TypeDefinitionIndex = 71842;
+
 	class DPFJHBECPGA : public ::FMPCODLIOLG
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ItemDisplayData_TypeDefinitionIndex = 65710;
+
 	class ItemDisplayData : public ::System::Object
 	{
 	public:

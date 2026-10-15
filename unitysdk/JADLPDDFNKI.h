@@ -8,6 +8,8 @@ namespace System { class String; }
 #define JADLPDDFNKI_CTOR_OFFSET UNITYSDK_OFFSET(0x16541330)
 #define JADLPDDFNKI_FHGHOENCEJL_OFFSET UNITYSDK_OFFSET(0x165411D0)
 
+inline static constexpr unsigned int JADLPDDFNKI_TypeDefinitionIndex = 47951;
+
 	class JADLPDDFNKI : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System { class Object; }
 #define HDPEJIGDNJB_SET_ATTACKDATA_OFFSET UNITYSDK_OFFSET(0x15C40E30)
 #define HDPEJIGDNJB_SET_ENHANCEDDATA_OFFSET UNITYSDK_OFFSET(0x15C40E50)
 
+inline static constexpr unsigned int HDPEJIGDNJB_TypeDefinitionIndex = 71460;
+
 	class HDPEJIGDNJB : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsMainLimaoControl_LimaoGroup_TypeDefinitionIndex = 80366;
+
 	class LimaoNewsMainLimaoControl_LimaoGroup : public ::System::Object
 	{
 	public:

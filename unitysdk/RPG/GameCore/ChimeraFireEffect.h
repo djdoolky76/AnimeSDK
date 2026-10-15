@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraFireEffect_TypeDefinitionIndex = 15863;
+
 	class ChimeraFireEffect : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriFsInstaller_TypeDefinitionIndex = 40099;
+
 	class CriFsInstaller : public ::CriWare::CriDisposable
 	{
 	public:

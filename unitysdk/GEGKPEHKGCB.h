@@ -48,6 +48,8 @@ namespace System { class String; }
 #define GEGKPEHKGCB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E457770)
 #define GEGKPEHKGCB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4577D0)
 
+inline static constexpr unsigned int GEGKPEHKGCB_TypeDefinitionIndex = 26819;
+
 	class GEGKPEHKGCB : public ::System::Object
 	{
 	public:

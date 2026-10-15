@@ -11,6 +11,8 @@ namespace RPG::GameCore::Booklet { class StepConfig; }
 
 namespace RPG::GameCore::Booklet
 {
+	inline static constexpr unsigned int SequenceStepConfig_TypeDefinitionIndex = 24976;
+
 	class SequenceStepConfig : public ::RPG::GameCore::Booklet::StepConfig
 	{
 	public:

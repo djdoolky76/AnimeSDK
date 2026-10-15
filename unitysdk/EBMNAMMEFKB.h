@@ -9,6 +9,8 @@ namespace RPG::Client::FateRin::Logging { class ILoggerFactory; }
 #define EBMNAMMEFKB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x12D03C80)
 #define EBMNAMMEFKB_CTOR_OFFSET UNITYSDK_OFFSET(0x12D03C50)
 
+inline static constexpr unsigned int EBMNAMMEFKB_TypeDefinitionIndex = 81201;
+
 	class EBMNAMMEFKB : public ::System::Object
 	{
 	public:

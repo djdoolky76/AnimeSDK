@@ -7,6 +7,8 @@
 #define GIJGAKKAKGK_CTOR_OFFSET UNITYSDK_OFFSET(0x15A3E530)
 #define GIJGAKKAKGK_FBEFKEMJHGG_OFFSET UNITYSDK_OFFSET(0x15A3E1B0)
 
+inline static constexpr unsigned int GIJGAKKAKGK_TypeDefinitionIndex = 74121;
+
 	class GIJGAKKAKGK : public ::System::Object
 	{
 	public:

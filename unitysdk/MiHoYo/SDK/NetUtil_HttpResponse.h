@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int NetUtil_HttpResponse_TypeDefinitionIndex = 8185;
+
 	class NetUtil_HttpResponse : public ::System::Object
 	{
 	public:

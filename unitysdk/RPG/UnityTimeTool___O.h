@@ -5,6 +5,8 @@ namespace UnityEngine::LowLevel { class PlayerLoopSystem_UpdateFunction; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int UnityTimeTool___O_TypeDefinitionIndex = 35178;
+
 	class UnityTimeTool___O : public ::System::Object
 	{
 	public:

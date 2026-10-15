@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetMunicipalEnable; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetMunicipalEnable_TypeDefinitionIndex = 20323;
+
 	class SetMunicipalEnable : public ::RPG::GameCore::TaskConfig
 	{
 	public:

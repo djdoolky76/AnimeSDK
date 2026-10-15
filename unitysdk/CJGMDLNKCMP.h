@@ -8,6 +8,8 @@ namespace RPG::Client::LittleGameShare { class ST_CakeRaceByCompareHasEffect; }
 #define CJGMDLNKCMP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5D6140)
 #define CJGMDLNKCMP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C5D6220)
 
+inline static constexpr unsigned int CJGMDLNKCMP_TypeDefinitionIndex = 36980;
+
 	class CJGMDLNKCMP
 	{
 	public:

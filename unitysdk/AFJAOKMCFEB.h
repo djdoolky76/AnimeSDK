@@ -31,6 +31,8 @@ namespace System { class String; }
 #define AFJAOKMCFEB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E118760)
 #define AFJAOKMCFEB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1187C0)
 
+inline static constexpr unsigned int AFJAOKMCFEB_TypeDefinitionIndex = 26525;
+
 	class AFJAOKMCFEB : public ::System::Object
 	{
 	public:

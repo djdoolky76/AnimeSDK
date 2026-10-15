@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConfigManifest___O_TypeDefinitionIndex = 56511;
+
 	class ConfigManifest___O : public ::System::Object
 	{
 	public:

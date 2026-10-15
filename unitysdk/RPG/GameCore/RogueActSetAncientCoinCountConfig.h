@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActSetAncientCoinCountConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActSetAncientCoinCountConfig_TypeDefinitionIndex = 19621;
+
 	class RogueActSetAncientCoinCountConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

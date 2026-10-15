@@ -3,6 +3,8 @@
 class NDPFOOJIAIJ;
 namespace RPG::Client { class GridFightEquipTrackData; }
 
+inline static constexpr unsigned int CAHKKMIFGGB_TypeDefinitionIndex = 64923;
+
 	struct alignas(8) CAHKKMIFGGB
 	{
 		::System::UInt32 IHALFHPNNGL; // 0x10

@@ -1091,6 +1091,8 @@ namespace System { class String; }
 #define AKSOUNDENGINEPINVOKE_RPG_GETAUDIOBUFFER_OFFSET UNITYSDK_OFFSET(0x1F605880)
 #define AKSOUNDENGINEPINVOKE_RPG_ISMISSEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1F605910)
 
+inline static constexpr unsigned int AkSoundEnginePINVOKE_TypeDefinitionIndex = 44799;
+
 	class AkSoundEnginePINVOKE : public ::System::Object
 	{
 	public:

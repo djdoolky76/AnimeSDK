@@ -13,6 +13,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int NetworkManager___c_TypeDefinitionIndex = 8176;
+
 	class NetworkManager___c : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define IDFMIDPCJAC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E62A8C0)
 #define IDFMIDPCJAC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E62A920)
 
+inline static constexpr unsigned int IDFMIDPCJAC_TypeDefinitionIndex = 29986;
+
 	class IDFMIDPCJAC : public ::System::Object
 	{
 	public:

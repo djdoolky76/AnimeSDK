@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetCameraXAxisByPlayerTargetAxis_TypeDefinitionIndex = 20831;
+
 	class SetCameraXAxisByPlayerTargetAxis : public ::RPG::GameCore::TaskConfig
 	{
 	public:

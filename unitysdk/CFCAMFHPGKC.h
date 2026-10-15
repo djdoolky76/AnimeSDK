@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class ICollection
 
 #define CFCAMFHPGKC_DJMAKDCNPDA_OFFSET UNITYSDK_OFFSET(0xCA064A0)
 
+inline static constexpr unsigned int CFCAMFHPGKC_TypeDefinitionIndex = 62680;
+
 	class CFCAMFHPGKC : public ::System::Object
 	{
 	public:

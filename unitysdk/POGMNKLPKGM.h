@@ -11,6 +11,8 @@ namespace System { class String; }
 #define POGMNKLPKGM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2F0D30)
 #define POGMNKLPKGM_READROW_OFFSET UNITYSDK_OFFSET(0x1D316CB0)
 
+inline static constexpr unsigned int POGMNKLPKGM_TypeDefinitionIndex = 10831;
+
 	class POGMNKLPKGM
 	{
 	public:

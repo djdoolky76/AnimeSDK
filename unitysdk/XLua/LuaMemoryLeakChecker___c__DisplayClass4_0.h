@@ -8,6 +8,8 @@ namespace XLua { class LuaMemoryLeakChecker_Data; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int LuaMemoryLeakChecker___c__DisplayClass4_0_TypeDefinitionIndex = 50065;
+
 	class LuaMemoryLeakChecker___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

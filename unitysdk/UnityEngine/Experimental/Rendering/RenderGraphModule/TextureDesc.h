@@ -22,6 +22,8 @@ namespace UnityEngine::Rendering { class ScaleFunc; }
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
+	inline static constexpr unsigned int TextureDesc_TypeDefinitionIndex = 35464;
+
 	struct alignas(8) TextureDesc
 	{
 		::UnityEngine::Experimental::Rendering::RenderGraphModule::TextureSizeMode sizeMode; // 0x10

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int LLGNEHDEAFB_TypeDefinitionIndex = 30504;
+
 	enum class LLGNEHDEAFB : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

@@ -5,6 +5,8 @@ namespace RPG::Client { class DialogEmitterBehavior_DialogData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DialogEmitterBehavior_JEAJBIENEHH_TypeDefinitionIndex = 70889;
+
 	struct alignas(8) DialogEmitterBehavior_JEAJBIENEHH
 	{
 		::RPG::Client::DialogEmitterBehavior_DialogData* DPPEAOKFFOJ; // 0x10

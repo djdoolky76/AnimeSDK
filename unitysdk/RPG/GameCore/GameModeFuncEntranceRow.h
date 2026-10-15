@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GameModeFuncEntranceRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameModeFuncEntranceRow_TypeDefinitionIndex = 13312;
+
 	class GameModeFuncEntranceRow : public ::System::Object
 	{
 	public:

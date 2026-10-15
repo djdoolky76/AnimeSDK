@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KCFPGFDHIEO_CTOR_OFFSET UNITYSDK_OFFSET(0xB3356C0)
 #define KCFPGFDHIEO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB335710)
 
+inline static constexpr unsigned int KCFPGFDHIEO_TypeDefinitionIndex = 59207;
+
 	class KCFPGFDHIEO
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftEntranceRevenueControl_TypeDefinitionIndex = 79956;
+
 	class MechCraftEntranceRevenueControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

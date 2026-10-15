@@ -4,6 +4,8 @@
 
 namespace System::Net
 {
+	inline static constexpr unsigned int Logging_TypeDefinitionIndex = 2819;
+
 	class Logging : public ::System::Object
 	{
 	public:

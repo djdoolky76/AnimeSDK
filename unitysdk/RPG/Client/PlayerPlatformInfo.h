@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayerPlatformInfo_TypeDefinitionIndex = 66674;
+
 	class PlayerPlatformInfo : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine::ProBuilder { class Face; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int ProBuilderMesh___c_TypeDefinitionIndex = 44407;
+
 	class ProBuilderMesh___c : public ::System::Object
 	{
 	public:

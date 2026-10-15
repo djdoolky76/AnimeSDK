@@ -10,6 +10,8 @@
 #define DBKEBIADBHN_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xE22A690)
 #define DBKEBIADBHN_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xE22A6A0)
 
+inline static constexpr unsigned int DBKEBIADBHN_TypeDefinitionIndex = 56138;
+
 	class DBKEBIADBHN : public ::DBGDNLLDPFI
 	{
 	public:

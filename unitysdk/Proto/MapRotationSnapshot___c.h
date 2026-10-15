@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int MapRotationSnapshot___c_TypeDefinitionIndex = 25849;
+
 	class MapRotationSnapshot___c : public ::System::Object
 	{
 	public:

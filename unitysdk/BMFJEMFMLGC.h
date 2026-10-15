@@ -43,6 +43,8 @@ namespace UnityEngine { class Transform; }
 #define BMFJEMFMLGC_PKKJCDNFFFL_OFFSET UNITYSDK_OFFSET(0xBDA4C30)
 #define BMFJEMFMLGC_POIAHGMKPKH_OFFSET UNITYSDK_OFFSET(0xBDA58F0)
 
+inline static constexpr unsigned int BMFJEMFMLGC_TypeDefinitionIndex = 69778;
+
 	struct alignas(8) BMFJEMFMLGC
 	{
 		::UnityEngine::GameObject* ALCEFFGNIEL; // 0x10

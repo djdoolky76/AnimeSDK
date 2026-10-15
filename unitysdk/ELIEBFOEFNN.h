@@ -24,6 +24,8 @@ namespace System { class String; }
 #define ELIEBFOEFNN_SET_PLATFORMINFO_OFFSET UNITYSDK_OFFSET(0x15521DD0)
 #define ELIEBFOEFNN_SET_TEAMSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x15522080)
 
+inline static constexpr unsigned int ELIEBFOEFNN_TypeDefinitionIndex = 63298;
+
 	class ELIEBFOEFNN : public ::System::Object
 	{
 	public:

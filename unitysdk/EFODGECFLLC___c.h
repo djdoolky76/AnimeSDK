@@ -13,6 +13,8 @@ namespace System { template <typename T> class Func_1; }
 #define EFODGECFLLC___C___CTOR_B__197_0_OFFSET UNITYSDK_OFFSET(0x1CA50250)
 #define EFODGECFLLC___C___CTOR_B__197_1_OFFSET UNITYSDK_OFFSET(0x1CA50280)
 
+inline static constexpr unsigned int EFODGECFLLC___c_TypeDefinitionIndex = 42578;
+
 	class EFODGECFLLC___c : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class Object; }
 #define AMEBOBNPBFO_OMOHBFFJLPK_OFFSET UNITYSDK_OFFSET(0x1557AAE0)
 #define AMEBOBNPBFO_PEKMFJCPEMF_OFFSET UNITYSDK_OFFSET(0x1557B3F0)
 
+inline static constexpr unsigned int AMEBOBNPBFO_TypeDefinitionIndex = 80729;
+
 	class AMEBOBNPBFO : public ::System::Object
 	{
 	public:

@@ -39,6 +39,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 #define FAFFMDBPCGJ_CKFFJDBKBBD_SET_CALCULATIONGENERATION_OFFSET UNITYSDK_OFFSET(0x15679BB0)
 #define FAFFMDBPCGJ_CKFFJDBKBBD_SET_DIRECTIONGENERATION_OFFSET UNITYSDK_OFFSET(0x15679BD0)
 
+inline static constexpr unsigned int FAFFMDBPCGJ_CKFFJDBKBBD_TypeDefinitionIndex = 76729;
+
 	class FAFFMDBPCGJ_CKFFJDBKBBD : public ::System::Object
 	{
 	public:

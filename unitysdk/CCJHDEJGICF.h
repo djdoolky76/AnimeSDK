@@ -12,6 +12,8 @@ namespace System { class Exception; }
 #define CCJHDEJGICF__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xC73F540)
 #define CCJHDEJGICF__ONTASKBEGIN_B__1_1_OFFSET UNITYSDK_OFFSET(0xC73F550)
 
+inline static constexpr unsigned int CCJHDEJGICF_TypeDefinitionIndex = 52796;
+
 	class CCJHDEJGICF
 	{
 	public:

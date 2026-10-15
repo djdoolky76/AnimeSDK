@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveTechTreeInfo___c__DisplayClass17_0_TypeDefinitionIndex = 75407;
+
 	class IdleLiveTechTreeInfo___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

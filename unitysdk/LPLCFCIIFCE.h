@@ -14,6 +14,8 @@ namespace System { class String; }
 #define LPLCFCIIFCE_JJIPEOOFHDN_OFFSET UNITYSDK_OFFSET(0xB822E40)
 #define LPLCFCIIFCE_MNLPJLBAJKJ_OFFSET UNITYSDK_OFFSET(0xB822E90)
 
+inline static constexpr unsigned int LPLCFCIIFCE_TypeDefinitionIndex = 71586;
+
 	class LPLCFCIIFCE : public ::System::Object
 	{
 	public:

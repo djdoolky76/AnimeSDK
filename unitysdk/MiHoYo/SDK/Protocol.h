@@ -24,6 +24,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Protocol_TypeDefinitionIndex = 8248;
+
 	class Protocol : public ::MiHoYo::SDK::UIElement
 	{
 	public:

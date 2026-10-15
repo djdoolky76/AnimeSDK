@@ -4,6 +4,8 @@ namespace System { class Object; }
 
 namespace R3
 {
+	inline static constexpr unsigned int CombineLatest_4__CombineLatest_CombineLatestObserver_1_TypeDefinitionIndex = 35938;
+
 	template <typename T1, typename T2, typename T3, typename T4>
 	class CombineLatest_4__CombineLatest_CombineLatestObserver_1
 	{

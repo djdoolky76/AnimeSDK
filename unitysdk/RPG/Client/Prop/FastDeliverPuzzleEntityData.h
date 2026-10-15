@@ -16,6 +16,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int FastDeliverPuzzleEntityData_TypeDefinitionIndex = 78587;
+
 	class FastDeliverPuzzleEntityData : public ::UnityEngine::MonoBehaviour
 	{
 	public:

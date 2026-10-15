@@ -51,6 +51,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RechargeShopModule_TypeDefinitionIndex = 66797;
+
 	class RechargeShopModule : public ::RPG::Client::BaseModule
 	{
 	public:

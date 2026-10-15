@@ -13,6 +13,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define KLDACPIHCCN___C___CCTOR_B__46_0_OFFSET UNITYSDK_OFFSET(0xB4ECA70)
 #define KLDACPIHCCN___C___CCTOR_B__46_1_OFFSET UNITYSDK_OFFSET(0xB4ECB30)
 
+inline static constexpr unsigned int KLDACPIHCCN___c_TypeDefinitionIndex = 56211;
+
 	class KLDACPIHCCN___c : public ::System::Object
 	{
 	public:

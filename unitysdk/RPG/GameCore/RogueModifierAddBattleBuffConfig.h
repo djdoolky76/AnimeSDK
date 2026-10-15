@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierAddBattleBuffConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierAddBattleBuffConfig_TypeDefinitionIndex = 17951;
+
 	class RogueModifierAddBattleBuffConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

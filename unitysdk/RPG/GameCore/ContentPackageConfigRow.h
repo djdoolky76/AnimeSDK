@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ContentPackageConfigRow_TypeDefinitionIndex = 13093;
+
 	class ContentPackageConfigRow : public ::System::Object
 	{
 	public:

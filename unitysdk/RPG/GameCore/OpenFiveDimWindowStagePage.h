@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OpenFiveDimWindowStagePage_TypeDefinitionIndex = 21287;
+
 	class OpenFiveDimWindowStagePage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

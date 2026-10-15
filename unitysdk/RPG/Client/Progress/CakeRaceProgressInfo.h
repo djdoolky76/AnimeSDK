@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Progress
 {
+	inline static constexpr unsigned int CakeRaceProgressInfo_TypeDefinitionIndex = 74849;
+
 	class CakeRaceProgressInfo : public ::System::Object
 	{
 	public:

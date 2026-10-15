@@ -27,6 +27,8 @@ namespace System { class String; }
 #define MNJILKCIOKI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA9D7B0)
 #define MNJILKCIOKI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA9D810)
 
+inline static constexpr unsigned int MNJILKCIOKI_TypeDefinitionIndex = 26896;
+
 	class MNJILKCIOKI : public ::System::Object
 	{
 	public:

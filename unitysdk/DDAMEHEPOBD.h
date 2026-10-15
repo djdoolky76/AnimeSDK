@@ -35,6 +35,8 @@ namespace System { class String; }
 #define DDAMEHEPOBD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E179820)
 #define DDAMEHEPOBD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E179880)
 
+inline static constexpr unsigned int DDAMEHEPOBD_TypeDefinitionIndex = 29139;
+
 	class DDAMEHEPOBD : public ::System::Object
 	{
 	public:

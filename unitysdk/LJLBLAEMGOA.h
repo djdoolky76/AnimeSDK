@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LJLBLAEMGOA_OBCCKHNDFLN_OFFSET UNITYSDK_OFFSET(0xB71E490)
 #define LJLBLAEMGOA_OELFPDGFFAM_OFFSET UNITYSDK_OFFSET(0xB71DF20)
 
+inline static constexpr unsigned int LJLBLAEMGOA_TypeDefinitionIndex = 68112;
+
 	class LJLBLAEMGOA : public ::System::Object
 	{
 	public:

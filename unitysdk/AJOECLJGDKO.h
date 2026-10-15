@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AJOECLJGDKO_SET_ABILITYOWNER_OFFSET UNITYSDK_OFFSET(0x12CC8080)
 #define AJOECLJGDKO_SET_CURRENTSKILLPARAMS_OFFSET UNITYSDK_OFFSET(0x12CC80A0)
 
+inline static constexpr unsigned int AJOECLJGDKO_TypeDefinitionIndex = 79398;
+
 	class AJOECLJGDKO : public ::System::Object
 	{
 	public:

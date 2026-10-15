@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GIDKJPFBOFG_SET_ISFEVERACTIVE_OFFSET UNITYSDK_OFFSET(0x15A33CE0)
 #define GIDKJPFBOFG_SET_LEVELABILITYEFFECTIDS_OFFSET UNITYSDK_OFFSET(0x15A33D00)
 
+inline static constexpr unsigned int GIDKJPFBOFG_TypeDefinitionIndex = 77748;
+
 	class GIDKJPFBOFG : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine { class Coroutine; }
 #define LMEADFNHJBO_DHKFOJHAGHE_OFFSET UNITYSDK_OFFSET(0xB77B1A0)
 #define LMEADFNHJBO_OBOJOPHLKKE_OFFSET UNITYSDK_OFFSET(0xB77AC50)
 
+inline static constexpr unsigned int LMEADFNHJBO_TypeDefinitionIndex = 70758;
+
 	class LMEADFNHJBO : public ::System::Object
 	{
 	public:

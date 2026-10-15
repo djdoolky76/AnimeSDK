@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitUIControllerClose_TypeDefinitionIndex = 21176;
+
 	class WaitUIControllerClose : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -45,6 +45,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define IBMCNLIKBKL_OGMCGAMOBHM_OFFSET UNITYSDK_OFFSET(0x15E40980)
 #define IBMCNLIKBKL_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x15E3ECA0)
 
+inline static constexpr unsigned int IBMCNLIKBKL_TypeDefinitionIndex = 82206;
+
 	class IBMCNLIKBKL : public ::System::Object
 	{
 	public:

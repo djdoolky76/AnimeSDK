@@ -29,6 +29,8 @@ namespace System { class String; }
 #define IBPDPCOGDEP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E61B590)
 #define IBPDPCOGDEP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E61B5F0)
 
+inline static constexpr unsigned int IBPDPCOGDEP_TypeDefinitionIndex = 29239;
+
 	class IBPDPCOGDEP : public ::System::Object
 	{
 	public:

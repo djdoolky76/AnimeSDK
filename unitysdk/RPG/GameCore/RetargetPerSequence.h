@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RetargetPerSequence_TypeDefinitionIndex = 22449;
+
 	class RetargetPerSequence : public ::RPG::GameCore::TaskConfig
 	{
 	public:

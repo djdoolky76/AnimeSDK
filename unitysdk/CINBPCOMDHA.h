@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CINBPCOMDHA_CTOR_OFFSET UNITYSDK_OFFSET(0xCF8EDB0)
 #define CINBPCOMDHA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCF8EDE0)
 
+inline static constexpr unsigned int CINBPCOMDHA_TypeDefinitionIndex = 54649;
+
 	class CINBPCOMDHA
 	{
 	public:

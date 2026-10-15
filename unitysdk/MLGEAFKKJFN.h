@@ -5,6 +5,8 @@ namespace RPG::Client { class RPGProfilerMarker; }
 
 #define MLGEAFKKJFN_CCTOR_OFFSET UNITYSDK_OFFSET(0xB9ADE00)
 
+inline static constexpr unsigned int MLGEAFKKJFN_TypeDefinitionIndex = 50016;
+
 	class MLGEAFKKJFN : public ::System::Object
 	{
 	public:

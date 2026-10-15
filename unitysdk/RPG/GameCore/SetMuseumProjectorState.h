@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetMuseumProjectorState_TypeDefinitionIndex = 22197;
+
 	class SetMuseumProjectorState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

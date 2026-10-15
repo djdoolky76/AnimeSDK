@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int OMEHCMEGIHO_FailureReason_TypeDefinitionIndex = 62355;
+
 	enum class OMEHCMEGIHO_FailureReason : ::System::Int32
 	{
 		None = 0,

@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RA_ByCompareVariableBool_TypeDefinitionIndex = 20052;
+
 	class RA_ByCompareVariableBool : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

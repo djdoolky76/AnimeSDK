@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int TimerFrame__TimerFrame___c_TypeDefinitionIndex = 45726;
+
 	class TimerFrame__TimerFrame___c : public ::System::Object
 	{
 	public:

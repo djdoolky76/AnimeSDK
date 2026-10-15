@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GroupedColliderConfig_TypeDefinitionIndex = 57228;
+
 	class GroupedColliderConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:

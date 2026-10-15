@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimDebugLogEventAction_TypeDefinitionIndex = 18652;
+
 	class FiveDimDebugLogEventAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

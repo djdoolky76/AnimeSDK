@@ -9,6 +9,8 @@ namespace MessagePack::Internal { template <typename T> class ThreadsafeTypeKeyH
 
 namespace MessagePack::Resolvers
 {
+	inline static constexpr unsigned int CompositeResolver_CachingResolver_TypeDefinitionIndex = 7255;
+
 	class CompositeResolver_CachingResolver : public ::System::Object
 	{
 	public:

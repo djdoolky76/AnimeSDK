@@ -32,6 +32,8 @@ namespace System { class String; }
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersStageGroupData_TypeDefinitionIndex = 79029;
+
 	class TeamTowersStageGroupData : public ::System::Object
 	{
 	public:

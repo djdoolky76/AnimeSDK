@@ -12,6 +12,8 @@ namespace System::Collections { class Stack; }
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int Stack_StackEnumerator_TypeDefinitionIndex = 1504;
+
 	class Stack_StackEnumerator : public ::System::Object
 	{
 	public:

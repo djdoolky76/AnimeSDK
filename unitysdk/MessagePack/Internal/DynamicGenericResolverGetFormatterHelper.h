@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int DynamicGenericResolverGetFormatterHelper_TypeDefinitionIndex = 7309;
+
 	class DynamicGenericResolverGetFormatterHelper : public ::System::Object
 	{
 	public:

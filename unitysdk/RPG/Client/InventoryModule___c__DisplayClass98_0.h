@@ -8,6 +8,8 @@ namespace RPG::Client { class ConvertibleItemData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int InventoryModule___c__DisplayClass98_0_TypeDefinitionIndex = 65690;
+
 	class InventoryModule___c__DisplayClass98_0 : public ::System::Object
 	{
 	public:

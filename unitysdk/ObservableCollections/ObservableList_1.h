@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace ObservableCollections
 {
+	inline static constexpr unsigned int ObservableList_1_TypeDefinitionIndex = 35882;
+
 	template <typename T>
 	class ObservableList_1 : public ::System::Object
 	{

@@ -21,6 +21,8 @@ namespace RPG::GameCore { class TurnBasedGameMode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EvolveBuildGearManager_ExpCalculator_TypeDefinitionIndex = 56061;
+
 	class EvolveBuildGearManager_ExpCalculator : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define LBCIFACLDJJ___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB5F3560)
 #define LBCIFACLDJJ___C__DISPLAYCLASS13_0___GETGLOBALNEXTLEVELVALUE_B__0_OFFSET UNITYSDK_OFFSET(0xB5F3620)
 
+inline static constexpr unsigned int LBCIFACLDJJ___c__DisplayClass13_0_TypeDefinitionIndex = 65305;
+
 	class LBCIFACLDJJ___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ class LIOALDPOLJE;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleResulAutoDecomposeInfo___c__DisplayClass5_0_TypeDefinitionIndex = 62886;
+
 	class BattleResulAutoDecomposeInfo___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

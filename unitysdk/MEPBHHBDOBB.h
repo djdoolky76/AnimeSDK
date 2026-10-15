@@ -52,6 +52,8 @@ namespace UnityEngine { class Transform; }
 #define MEPBHHBDOBB__ONSTOP_OFFSET UNITYSDK_OFFSET(0xB8E6BE0)
 #define MEPBHHBDOBB__ONTICK_OFFSET UNITYSDK_OFFSET(0xB8E6B80)
 
+inline static constexpr unsigned int MEPBHHBDOBB_TypeDefinitionIndex = 75947;
+
 	class MEPBHHBDOBB : public ::JPIBDCCABGP
 	{
 	public:

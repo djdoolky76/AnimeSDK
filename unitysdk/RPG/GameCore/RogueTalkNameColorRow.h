@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RogueTalkNameColorRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTalkNameColorRow_TypeDefinitionIndex = 14811;
+
 	class RogueTalkNameColorRow : public ::System::Object
 	{
 	public:

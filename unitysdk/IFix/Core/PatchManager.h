@@ -34,6 +34,8 @@ namespace System::Reflection { class ParameterInfo; }
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int PatchManager_TypeDefinitionIndex = 7102;
+
 	class PatchManager : public ::System::Object
 	{
 	public:

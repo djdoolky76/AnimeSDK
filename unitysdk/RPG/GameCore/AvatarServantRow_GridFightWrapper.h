@@ -33,6 +33,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarServantRow_GridFightWrapper_TypeDefinitionIndex = 56558;
+
 	class AvatarServantRow_GridFightWrapper : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace XLua
 {
+	inline static constexpr unsigned int LuaMemoryLeakChecker___c__DisplayClass11_1_TypeDefinitionIndex = 50064;
+
 	template <typename T>
 	class LuaMemoryLeakChecker___c__DisplayClass11_1 : public ::System::Object
 	{

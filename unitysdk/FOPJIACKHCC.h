@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 #define FOPJIACKHCC_FEIIDFFOICL_OFFSET UNITYSDK_OFFSET(0x15909A00)
 #define FOPJIACKHCC_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x15909950)
 
+inline static constexpr unsigned int FOPJIACKHCC_TypeDefinitionIndex = 71544;
+
 	class FOPJIACKHCC : public ::System::Object
 	{
 	public:

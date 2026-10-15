@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HEKDKIBKPHN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C58050)
 #define HEKDKIBKPHN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15C58010)
 
+inline static constexpr unsigned int HEKDKIBKPHN_TypeDefinitionIndex = 57882;
+
 	class HEKDKIBKPHN
 	{
 	public:

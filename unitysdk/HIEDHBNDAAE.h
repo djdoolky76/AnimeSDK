@@ -10,6 +10,8 @@ class JBAPFPNFAIE;
 #define HIEDHBNDAAE_GET_DESC_OFFSET UNITYSDK_OFFSET(0x15CE26B0)
 #define HIEDHBNDAAE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x15CE26A0)
 
+inline static constexpr unsigned int HIEDHBNDAAE_TypeDefinitionIndex = 80092;
+
 	class HIEDHBNDAAE : public ::System::Object
 	{
 	public:

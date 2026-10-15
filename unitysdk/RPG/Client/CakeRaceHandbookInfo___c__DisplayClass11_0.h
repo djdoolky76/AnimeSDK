@@ -9,6 +9,8 @@ namespace RPG::Client { class CakeRaceHandbookCatItem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeRaceHandbookInfo___c__DisplayClass11_0_TypeDefinitionIndex = 63048;
+
 	class CakeRaceHandbookInfo___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

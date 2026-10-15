@@ -10,6 +10,8 @@ class HPJEECIEDAB;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarExtensions___c__DisplayClass185_0_TypeDefinitionIndex = 62573;
+
 	class AvatarExtensions___c__DisplayClass185_0 : public ::System::Object
 	{
 	public:

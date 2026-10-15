@@ -7,6 +7,8 @@ class MDEOCLLALOD;
 #define MDEOCLLALOD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1444F0)
 #define MDEOCLLALOD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D144450)
 
+inline static constexpr unsigned int MDEOCLLALOD_TypeDefinitionIndex = 15076;
+
 	class MDEOCLLALOD : public ::System::Object
 	{
 	public:

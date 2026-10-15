@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TriggerGridFightWaveSettle; }
 #define HGLIPPGNBGF_CTOR_OFFSET UNITYSDK_OFFSET(0x15CB0EE0)
 #define HGLIPPGNBGF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CB0F10)
 
+inline static constexpr unsigned int HGLIPPGNBGF_TypeDefinitionIndex = 55738;
+
 	class HGLIPPGNBGF
 	{
 	public:

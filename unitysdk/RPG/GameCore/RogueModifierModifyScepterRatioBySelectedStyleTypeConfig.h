@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyScepterRatioBySelectedStyleTy
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyScepterRatioBySelectedStyleTypeConfig_TypeDefinitionIndex = 17736;
+
 	class RogueModifierModifyScepterRatioBySelectedStyleTypeConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

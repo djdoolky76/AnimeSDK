@@ -15,6 +15,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int VignetteTimelineClip_TypeDefinitionIndex = 48631;
+
 	class VignetteTimelineClip
 	{
 	public:

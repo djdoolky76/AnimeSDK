@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FHIGIBPPOPO_CTOR_OFFSET UNITYSDK_OFFSET(0x157804A0)
 #define FHIGIBPPOPO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157804D0)
 
+inline static constexpr unsigned int FHIGIBPPOPO_TypeDefinitionIndex = 55362;
+
 	class FHIGIBPPOPO
 	{
 	public:

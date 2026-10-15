@@ -72,6 +72,8 @@ namespace System { class Object; }
 #define OIIFFJPMINO___C__TOEASEMOTIONFUNC_B__4_8_OFFSET UNITYSDK_OFFSET(0xBE9A480)
 #define OIIFFJPMINO___C__TOEASEMOTIONFUNC_B__4_9_OFFSET UNITYSDK_OFFSET(0xBE9A4A0)
 
+inline static constexpr unsigned int OIIFFJPMINO___c_TypeDefinitionIndex = 73484;
+
 	class OIIFFJPMINO___c : public ::System::Object
 	{
 	public:

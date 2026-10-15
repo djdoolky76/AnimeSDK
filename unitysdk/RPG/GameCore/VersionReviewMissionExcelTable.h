@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VersionReviewMissionExcelTable_TypeDefinitionIndex = 14167;
+
 	class VersionReviewMissionExcelTable : public ::System::Object
 	{
 	public:

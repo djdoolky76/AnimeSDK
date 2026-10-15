@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CCCEJEHNOCF_HCLHNCAMGHL_OFFSET UNITYSDK_OFFSET(0xC736C60)
 #define CCCEJEHNOCF_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xC7372D0)
 
+inline static constexpr unsigned int CCCEJEHNOCF_TypeDefinitionIndex = 62378;
+
 	class CCCEJEHNOCF : public ::System::Object
 	{
 	public:

@@ -26,6 +26,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::FateRin::View::Battle
 {
+	inline static constexpr unsigned int FateRinAddCardToHandFlowView_TypeDefinitionIndex = 80650;
+
 	class FateRinAddCardToHandFlowView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

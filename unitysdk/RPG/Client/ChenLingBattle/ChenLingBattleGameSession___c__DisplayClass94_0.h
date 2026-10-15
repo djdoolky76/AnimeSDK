@@ -8,6 +8,8 @@ namespace RPG::Client::ChenLingBattle { class Effect; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int ChenLingBattleGameSession___c__DisplayClass94_0_TypeDefinitionIndex = 76342;
+
 	class ChenLingBattleGameSession___c__DisplayClass94_0 : public ::System::Object
 	{
 	public:

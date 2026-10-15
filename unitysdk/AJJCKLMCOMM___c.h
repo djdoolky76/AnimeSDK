@@ -13,6 +13,8 @@ namespace UnityEngine { class Collider; }
 #define AJJCKLMCOMM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x12CC1750)
 #define AJJCKLMCOMM___C___CREATETARGETENTITYFILTER_B__16_0_OFFSET UNITYSDK_OFFSET(0x12CC1760)
 
+inline static constexpr unsigned int AJJCKLMCOMM___c_TypeDefinitionIndex = 77091;
+
 	class AJJCKLMCOMM___c : public ::System::Object
 	{
 	public:

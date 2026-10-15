@@ -7,6 +7,8 @@ namespace RPG::GameCore { class FiveDimAvatarConfig; }
 
 #define BPKAFDONEDH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DBAA0)
 
+inline static constexpr unsigned int BPKAFDONEDH_TypeDefinitionIndex = 43375;
+
 	class BPKAFDONEDH : public ::System::Object
 	{
 	public:

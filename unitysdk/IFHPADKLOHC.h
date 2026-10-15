@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChimeraPostSoundEvent; }
 #define IFHPADKLOHC_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0x15F17A80)
 #define IFHPADKLOHC_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x15F17AC0)
 
+inline static constexpr unsigned int IFHPADKLOHC_TypeDefinitionIndex = 78415;
+
 	class IFHPADKLOHC : public ::System::Object
 	{
 	public:

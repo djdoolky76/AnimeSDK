@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MessagePackPrimitives_Decoders_TypeDefinitionIndex = 7174;
+
 	class MessagePackPrimitives_Decoders : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateBuffTraitInfo___c_TypeDefinitionIndex = 64000;
+
 	class FateBuffTraitInfo___c : public ::System::Object
 	{
 	public:

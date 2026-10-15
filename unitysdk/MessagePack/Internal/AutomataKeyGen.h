@@ -9,6 +9,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int AutomataKeyGen_TypeDefinitionIndex = 7287;
+
 	class AutomataKeyGen : public ::System::Object
 	{
 	public:

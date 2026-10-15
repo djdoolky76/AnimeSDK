@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MusicRhythmLevelInfo_TypeDefinitionIndex = 61816;
+
 	struct alignas(8) MusicRhythmLevelInfo
 	{
 		::System::UInt32 Level; // 0x10

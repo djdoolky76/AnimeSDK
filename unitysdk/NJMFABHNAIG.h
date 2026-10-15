@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NJMFABHNAIG_PHMKKLABNGF_OFFSET UNITYSDK_OFFSET(0xBC1CB20)
 #define NJMFABHNAIG_PPFBBCBPILK_OFFSET UNITYSDK_OFFSET(0xBC1DC00)
 
+inline static constexpr unsigned int NJMFABHNAIG_TypeDefinitionIndex = 75151;
+
 	class NJMFABHNAIG : public ::System::Object
 	{
 	public:

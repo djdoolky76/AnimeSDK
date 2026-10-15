@@ -6,6 +6,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class PropertyAdsorptionConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
+inline static constexpr unsigned int LABHEAHJHJF_TypeDefinitionIndex = 10846;
+
 	struct alignas(8) LABHEAHJHJF
 	{
 		::RPG::GameCore::StringHash MJMEEOIEMMM; // 0x10

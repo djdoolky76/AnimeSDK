@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimMissileMoveConfig_TypeDefinitionIndex = 16693;
+
 	class FiveDimMissileMoveConfig : public ::RPG::GameCore::FiveDimPropMoveConfig
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System { class String; }
 #define AKIMAGESOURCESETTINGS_SETONETEXTURE_OFFSET UNITYSDK_OFFSET(0x1F599520)
 #define AKIMAGESOURCESETTINGS_SET_PARAMS__OFFSET UNITYSDK_OFFSET(0x1F5996C0)
 
+inline static constexpr unsigned int AkImageSourceSettings_TypeDefinitionIndex = 44745;
+
 	class AkImageSourceSettings : public ::System::Object
 	{
 	public:

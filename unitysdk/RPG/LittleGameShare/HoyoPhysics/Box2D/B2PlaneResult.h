@@ -7,6 +7,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2PlaneResult_TypeDefinitionIndex = 36725;
+
 	struct alignas(4) B2PlaneResult
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Plane plane; // 0x10

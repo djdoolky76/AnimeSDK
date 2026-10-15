@@ -18,6 +18,8 @@ namespace RPG::Client { class LineRendererControlMonoPlugin; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LineRendererControlBehavior_TypeDefinitionIndex = 70644;
+
 	class LineRendererControlBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

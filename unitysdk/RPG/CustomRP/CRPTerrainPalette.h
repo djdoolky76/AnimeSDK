@@ -45,6 +45,8 @@ namespace UnityEngine { class Texture2DArray; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPTerrainPalette_TypeDefinitionIndex = 37724;
+
 	class CRPTerrainPalette : public ::UnityEngine::ScriptableObject
 	{
 	public:

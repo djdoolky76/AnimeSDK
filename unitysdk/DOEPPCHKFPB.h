@@ -9,6 +9,8 @@ namespace System { class String; }
 #define DOEPPCHKFPB_EPJNHIIKAEJ_OFFSET UNITYSDK_OFFSET(0x1C5FA1F0)
 #define DOEPPCHKFPB_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0x1C5FA240)
 
+inline static constexpr unsigned int DOEPPCHKFPB_TypeDefinitionIndex = 36965;
+
 	class DOEPPCHKFPB : public ::System::Object
 	{
 	public:

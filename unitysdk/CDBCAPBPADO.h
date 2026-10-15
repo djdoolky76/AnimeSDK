@@ -4,6 +4,8 @@
 
 #define CDBCAPBPADO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DD490)
 
+inline static constexpr unsigned int CDBCAPBPADO_TypeDefinitionIndex = 42817;
+
 	class CDBCAPBPADO : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{
 	public:

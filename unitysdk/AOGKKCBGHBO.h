@@ -11,6 +11,8 @@ namespace UnityEngine { class Texture2D; }
 #define AOGKKCBGHBO_FHJFAACBEPM_OFFSET UNITYSDK_OFFSET(0x158ABA40)
 #define AOGKKCBGHBO_MCHMLDGMINI_OFFSET UNITYSDK_OFFSET(0x158ABAA0)
 
+inline static constexpr unsigned int AOGKKCBGHBO_TypeDefinitionIndex = 73728;
+
 	class AOGKKCBGHBO : public ::System::Object
 	{
 	public:

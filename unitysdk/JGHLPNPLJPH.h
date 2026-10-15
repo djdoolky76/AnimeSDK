@@ -15,6 +15,8 @@ namespace RPG::GameCore { class SkillTargetConfig; }
 #define JGHLPNPLJPH_LJJDMNJGCMH_1_OFFSET UNITYSDK_OFFSET(0x1D02A400)
 #define JGHLPNPLJPH_LJJDMNJGCMH_OFFSET UNITYSDK_OFFSET(0x1D02A3E0)
 
+inline static constexpr unsigned int JGHLPNPLJPH_TypeDefinitionIndex = 24856;
+
 	class JGHLPNPLJPH : public ::System::Object
 	{
 	public:

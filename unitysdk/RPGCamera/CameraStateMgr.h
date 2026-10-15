@@ -49,6 +49,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPGCamera
 {
+	inline static constexpr unsigned int CameraStateMgr_TypeDefinitionIndex = 45947;
+
 	class CameraStateMgr : public ::System::Object
 	{
 	public:

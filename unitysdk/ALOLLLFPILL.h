@@ -27,6 +27,8 @@ namespace System { class String; }
 #define ALOLLLFPILL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5152B0)
 #define ALOLLLFPILL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E515310)
 
+inline static constexpr unsigned int ALOLLLFPILL_TypeDefinitionIndex = 32196;
+
 	class ALOLLLFPILL : public ::System::Object
 	{
 	public:

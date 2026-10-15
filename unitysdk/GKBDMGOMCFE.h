@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GKBDMGOMCFE_NGBPJFKDPKK_OFFSET UNITYSDK_OFFSET(0x15A83320)
 #define GKBDMGOMCFE_OKLNIJGAKAF_OFFSET UNITYSDK_OFFSET(0x15A83290)
 
+inline static constexpr unsigned int GKBDMGOMCFE_TypeDefinitionIndex = 73368;
+
 	class GKBDMGOMCFE : public ::System::Object
 	{
 	public:

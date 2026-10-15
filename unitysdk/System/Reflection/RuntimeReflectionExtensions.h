@@ -18,6 +18,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int RuntimeReflectionExtensions_TypeDefinitionIndex = 538;
+
 	class RuntimeReflectionExtensions : public ::System::Object
 	{
 	public:

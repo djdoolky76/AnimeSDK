@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsMazeSkillAffectCurrentWave_TypeDefinitionIndex = 23520;
+
 	class ByIsMazeSkillAffectCurrentWave : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

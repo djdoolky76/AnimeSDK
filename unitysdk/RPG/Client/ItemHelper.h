@@ -7,6 +7,8 @@ namespace RPG::Client { class ItemData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ItemHelper_TypeDefinitionIndex = 65717;
+
 	class ItemHelper : public ::System::Object
 	{
 	public:

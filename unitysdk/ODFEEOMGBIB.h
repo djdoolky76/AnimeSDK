@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ODFEEOMGBIB_SET_SURVIVALFIRSTPASSREWARDQUESTID_OFFSET UNITYSDK_OFFSET(0xBD91C50)
 #define ODFEEOMGBIB_SET_SURVIVALSTAGEID_OFFSET UNITYSDK_OFFSET(0xBD91BE0)
 
+inline static constexpr unsigned int ODFEEOMGBIB_TypeDefinitionIndex = 79026;
+
 	class ODFEEOMGBIB : public ::System::Object
 	{
 	public:

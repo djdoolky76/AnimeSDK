@@ -39,6 +39,8 @@ namespace UnityEngine { class Transform; }
 #define KPDKCEAFBHI_SET_TIMESERVICE_OFFSET UNITYSDK_OFFSET(0xB5B4070)
 #define KPDKCEAFBHI_SET_TREVENTSERVICE_OFFSET UNITYSDK_OFFSET(0xB5B4150)
 
+inline static constexpr unsigned int KPDKCEAFBHI_TypeDefinitionIndex = 75926;
+
 	class KPDKCEAFBHI
 	{
 	public:

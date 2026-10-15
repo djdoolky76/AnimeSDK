@@ -6,6 +6,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ScheduleData___O_TypeDefinitionIndex = 67897;
+
 	class ScheduleData___O : public ::System::Object
 	{
 	public:

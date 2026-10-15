@@ -6,6 +6,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int PPFilterStack_RadialBlurParameter_TypeDefinitionIndex = 51855;
+
 	struct alignas(4) PPFilterStack_RadialBlurParameter
 	{
 		::System::Boolean RadialBlurMethodOverrideState; // 0x10

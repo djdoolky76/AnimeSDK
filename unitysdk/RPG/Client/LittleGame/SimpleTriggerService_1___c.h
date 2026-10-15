@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int SimpleTriggerService_1___c_TypeDefinitionIndex = 76525;
+
 	template <typename T>
 	class SimpleTriggerService_1___c : public ::System::Object
 	{

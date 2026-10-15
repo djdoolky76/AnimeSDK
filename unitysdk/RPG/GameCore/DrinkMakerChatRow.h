@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DrinkMakerChatRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DrinkMakerChatRow_TypeDefinitionIndex = 13182;
+
 	class DrinkMakerChatRow : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client { class ShotAnimMovementData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ShotAnimModuleConfig_TypeDefinitionIndex = 69687;
+
 	class ShotAnimModuleConfig : public ::RPG::Client::CameraModuleConfigBase
 	{
 	public:

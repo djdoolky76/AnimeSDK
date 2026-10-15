@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BPNOCPMIFPE_PEONEPGMNEE_OFFSET UNITYSDK_OFFSET(0xC1ACEA0)
 #define BPNOCPMIFPE_PNPIEMAIEKJ_OFFSET UNITYSDK_OFFSET(0xC1AC980)
 
+inline static constexpr unsigned int BPNOCPMIFPE_TypeDefinitionIndex = 62756;
+
 	class BPNOCPMIFPE : public ::BHPMNMMGLHI
 	{
 	public:

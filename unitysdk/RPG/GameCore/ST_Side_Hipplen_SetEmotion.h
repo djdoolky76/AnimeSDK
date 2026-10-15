@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_Hipplen_SetEmotion_TypeDefinitionIndex = 21309;
+
 	class ST_Side_Hipplen_SetEmotion : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

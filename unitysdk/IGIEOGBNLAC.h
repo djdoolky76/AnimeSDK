@@ -13,6 +13,8 @@ class PJPPGJEDCOG;
 #define IGIEOGBNLAC_GET_REQUIREMENTCONFIG_OFFSET UNITYSDK_OFFSET(0x1C562E70)
 #define IGIEOGBNLAC_GET_STATE_OFFSET UNITYSDK_OFFSET(0x1C562E80)
 
+inline static constexpr unsigned int IGIEOGBNLAC_TypeDefinitionIndex = 41868;
+
 	class IGIEOGBNLAC : public ::System::Object
 	{
 	public:

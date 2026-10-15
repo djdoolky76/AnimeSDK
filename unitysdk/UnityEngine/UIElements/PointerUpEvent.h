@@ -9,6 +9,8 @@ namespace UnityEngine::UIElements { class IPanel; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int PointerUpEvent_TypeDefinitionIndex = 5983;
+
 	class PointerUpEvent
 	{
 	public:

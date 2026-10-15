@@ -47,6 +47,8 @@ namespace MiHoYo::SDK { class PSDelegate_UnregisterNPStateCallbackDelegate; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PSDelegate_TypeDefinitionIndex = 7720;
+
 	class PSDelegate : public ::System::Object
 	{
 	public:

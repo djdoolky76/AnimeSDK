@@ -31,6 +31,8 @@ namespace System { class String; }
 #define JOJAAMHMCAB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7A4580)
 #define JOJAAMHMCAB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7A45E0)
 
+inline static constexpr unsigned int JOJAAMHMCAB_TypeDefinitionIndex = 34836;
+
 	class JOJAAMHMCAB : public ::System::Object
 	{
 	public:

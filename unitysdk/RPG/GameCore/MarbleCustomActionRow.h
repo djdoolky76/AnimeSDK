@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MarbleCustomActionRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleCustomActionRow_TypeDefinitionIndex = 11892;
+
 	class MarbleCustomActionRow : public ::System::Object
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define HBFODNLIBFI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E52C290)
 #define HBFODNLIBFI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E52C2F0)
 
+inline static constexpr unsigned int HBFODNLIBFI_TypeDefinitionIndex = 26585;
+
 	class HBFODNLIBFI : public ::System::Object
 	{
 	public:

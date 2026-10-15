@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GfxBufferTarget_TypeDefinitionIndex = 4378;
+
 	enum class GfxBufferTarget : ::System::Int32
 	{
 		Vertex = 1,

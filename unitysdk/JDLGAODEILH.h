@@ -29,6 +29,8 @@ namespace UnityEngine { class Transform; }
 #define JDLGAODEILH_PONNLAGFLIP_OFFSET UNITYSDK_OFFSET(0x165D61E0)
 #define JDLGAODEILH_TICK_OFFSET UNITYSDK_OFFSET(0x165D64A0)
 
+inline static constexpr unsigned int JDLGAODEILH_TypeDefinitionIndex = 70782;
+
 	class JDLGAODEILH : public ::RPG::Client::TABehaviorBase
 	{
 	public:

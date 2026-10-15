@@ -6,6 +6,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int ExtensionAttribute_TypeDefinitionIndex = 1385;
+
 	class ExtensionAttribute : public ::System::Attribute
 	{
 	public:

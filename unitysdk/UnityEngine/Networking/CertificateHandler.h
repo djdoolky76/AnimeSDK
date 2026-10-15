@@ -9,6 +9,8 @@
 
 namespace UnityEngine::Networking
 {
+	inline static constexpr unsigned int CertificateHandler_TypeDefinitionIndex = 5359;
+
 	class CertificateHandler : public ::System::Object
 	{
 	public:

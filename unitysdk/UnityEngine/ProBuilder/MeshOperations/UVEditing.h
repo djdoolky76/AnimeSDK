@@ -24,6 +24,8 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int UVEditing_TypeDefinitionIndex = 44519;
+
 	class UVEditing : public ::System::Object
 	{
 	public:

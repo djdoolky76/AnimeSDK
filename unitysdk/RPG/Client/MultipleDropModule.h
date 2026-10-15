@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MultipleDropModule_TypeDefinitionIndex = 66321;
+
 	class MultipleDropModule : public ::RPG::Client::BaseModule
 	{
 	public:

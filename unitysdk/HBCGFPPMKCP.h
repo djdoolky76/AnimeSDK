@@ -7,6 +7,8 @@ class OMNJCDDMLHI;
 #define HBCGFPPMKCP_CTOR_OFFSET UNITYSDK_OFFSET(0x15BE64D0)
 #define HBCGFPPMKCP_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15BE64E0)
 
+inline static constexpr unsigned int HBCGFPPMKCP_TypeDefinitionIndex = 77949;
+
 	class HBCGFPPMKCP : public ::System::Object
 	{
 	public:

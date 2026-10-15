@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define GHMJPCJOEBC_GOCLCMMOMOL_OFFSET UNITYSDK_OFFSET(0x15A29BF0)
 #define GHMJPCJOEBC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A299F0)
 
+inline static constexpr unsigned int GHMJPCJOEBC_TypeDefinitionIndex = 57959;
+
 	class GHMJPCJOEBC
 	{
 	public:

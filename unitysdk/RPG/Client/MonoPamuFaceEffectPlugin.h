@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoPamuFaceEffectPlugin_TypeDefinitionIndex = 68612;
+
 	class MonoPamuFaceEffectPlugin : public ::UnityEngine::MonoBehaviour
 	{
 	public:

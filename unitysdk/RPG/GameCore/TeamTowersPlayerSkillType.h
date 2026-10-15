@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamTowersPlayerSkillType_TypeDefinitionIndex = 12468;
+
 	enum class TeamTowersPlayerSkillType : ::System::Int32
 	{
 		Invalid = 0,

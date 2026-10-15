@@ -8,6 +8,8 @@ namespace RPG::GameCore { class StageMonsterRewardItem; }
 #define OKELLDKLMGF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D28E140)
 #define OKELLDKLMGF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D28E050)
 
+inline static constexpr unsigned int OKELLDKLMGF_TypeDefinitionIndex = 15145;
+
 	class OKELLDKLMGF : public ::System::Object
 	{
 	public:

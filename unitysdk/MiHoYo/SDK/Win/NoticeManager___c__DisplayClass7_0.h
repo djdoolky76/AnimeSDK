@@ -7,6 +7,8 @@ namespace MiHoYo::SDK::Win { class NoticeManager; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int NoticeManager___c__DisplayClass7_0_TypeDefinitionIndex = 9398;
+
 	class NoticeManager___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

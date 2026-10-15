@@ -13,6 +13,8 @@ namespace System { class Action; }
 #define JHGKCEPHPCF_NNAGLJCMMGD_OFFSET UNITYSDK_OFFSET(0xB1B37C0)
 #define JHGKCEPHPCF_NONJDKKDDLE_OFFSET UNITYSDK_OFFSET(0xB1B3690)
 
+inline static constexpr unsigned int JHGKCEPHPCF_TypeDefinitionIndex = 60471;
+
 	class JHGKCEPHPCF : public ::System::Object
 	{
 	public:

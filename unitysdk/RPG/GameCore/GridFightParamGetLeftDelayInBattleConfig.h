@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamGetLeftDelayInBattleConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamGetLeftDelayInBattleConfig_TypeDefinitionIndex = 19532;
+
 	class GridFightParamGetLeftDelayInBattleConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

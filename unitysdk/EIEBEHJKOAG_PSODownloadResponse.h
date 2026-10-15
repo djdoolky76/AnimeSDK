@@ -6,6 +6,8 @@
 
 #define EIEBEHJKOAG_PSODOWNLOADRESPONSE_CTOR_OFFSET UNITYSDK_OFFSET(0x154C1390)
 
+inline static constexpr unsigned int EIEBEHJKOAG_PSODownloadResponse_TypeDefinitionIndex = 47408;
+
 	class EIEBEHJKOAG_PSODownloadResponse : public ::System::Object
 	{
 	public:

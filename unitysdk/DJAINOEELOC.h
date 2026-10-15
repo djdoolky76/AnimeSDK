@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DJAINOEELOC_CTOR_OFFSET UNITYSDK_OFFSET(0xF22BF10)
 #define DJAINOEELOC_EXECUTE_OFFSET UNITYSDK_OFFSET(0xF22BB10)
 
+inline static constexpr unsigned int DJAINOEELOC_TypeDefinitionIndex = 77353;
+
 	class DJAINOEELOC : public ::System::Object
 	{
 	public:

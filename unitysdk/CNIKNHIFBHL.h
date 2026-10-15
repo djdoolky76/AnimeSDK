@@ -14,6 +14,8 @@ class OMNJCDDMLHI;
 #define CNIKNHIFBHL_IJEPAJIMDPA_OFFSET UNITYSDK_OFFSET(0xDA54BB0)
 #define CNIKNHIFBHL_NLKBOAJDKBM_OFFSET UNITYSDK_OFFSET(0xDA54810)
 
+inline static constexpr unsigned int CNIKNHIFBHL_TypeDefinitionIndex = 77960;
+
 	class CNIKNHIFBHL : public ::System::Object
 	{
 	public:

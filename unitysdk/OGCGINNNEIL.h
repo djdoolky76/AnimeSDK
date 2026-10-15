@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OGCGINNNEIL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D26E010)
 #define OGCGINNNEIL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D26D9B0)
 
+inline static constexpr unsigned int OGCGINNNEIL_TypeDefinitionIndex = 12470;
+
 	class OGCGINNNEIL : public ::System::Object
 	{
 	public:

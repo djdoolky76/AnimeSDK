@@ -64,6 +64,8 @@ namespace System { class String; }
 #define MNNDMCHALGC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAA15D0)
 #define MNNDMCHALGC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAA1630)
 
+inline static constexpr unsigned int MNNDMCHALGC_TypeDefinitionIndex = 31735;
+
 	class MNNDMCHALGC : public ::System::Object
 	{
 	public:

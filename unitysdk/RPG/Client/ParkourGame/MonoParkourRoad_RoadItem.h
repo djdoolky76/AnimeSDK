@@ -8,6 +8,8 @@ namespace RPG::Client::ParkourGame { class MonoParkourItem; }
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int MonoParkourRoad_RoadItem_TypeDefinitionIndex = 74156;
+
 	class MonoParkourRoad_RoadItem : public ::System::Object
 	{
 	public:

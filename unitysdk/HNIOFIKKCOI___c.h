@@ -11,6 +11,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define HNIOFIKKCOI___C___FILTERCATVALUEMAPBYEXTREM_B__5_1_OFFSET UNITYSDK_OFFSET(0x1C674300)
 #define HNIOFIKKCOI___C___GETDICTDESC_B__3_0_OFFSET UNITYSDK_OFFSET(0x1C674280)
 
+inline static constexpr unsigned int HNIOFIKKCOI___c_TypeDefinitionIndex = 37339;
+
 	class HNIOFIKKCOI___c : public ::System::Object
 	{
 	public:

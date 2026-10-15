@@ -9,6 +9,8 @@
 #define CGJDJIIDKFA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xCC89DE0)
 #define CGJDJIIDKFA_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xCC89DF0)
 
+inline static constexpr unsigned int CGJDJIIDKFA_TypeDefinitionIndex = 56101;
+
 	class CGJDJIIDKFA : public ::DBGDNLLDPFI
 	{
 	public:

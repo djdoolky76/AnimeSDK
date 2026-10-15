@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelAudienceMemberCurveInfo_TypeDefinitionIndex = 17325;
+
 	class LevelAudienceMemberCurveInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

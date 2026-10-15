@@ -5,6 +5,8 @@
 #define PHBNDGBHJGO_CTOR_OFFSET UNITYSDK_OFFSET(0xC237540)
 #define PHBNDGBHJGO_ONINIT_OFFSET UNITYSDK_OFFSET(0xC2371D0)
 
+inline static constexpr unsigned int PHBNDGBHJGO_TypeDefinitionIndex = 61106;
+
 	class PHBNDGBHJGO : public ::KGLLENLBNFD
 	{
 	public:

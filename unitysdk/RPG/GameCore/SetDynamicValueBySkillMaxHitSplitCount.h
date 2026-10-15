@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueBySkillMaxHitSplitCount_TypeDefinitionIndex = 23594;
+
 	class SetDynamicValueBySkillMaxHitSplitCount : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

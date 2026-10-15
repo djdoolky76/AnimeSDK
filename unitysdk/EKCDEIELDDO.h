@@ -6,6 +6,8 @@ class INHCJHBALFC;
 #define EKCDEIELDDO_CTOR_OFFSET UNITYSDK_OFFSET(0x154FEE50)
 #define EKCDEIELDDO_EXECUTE_OFFSET UNITYSDK_OFFSET(0x154FEC50)
 
+inline static constexpr unsigned int EKCDEIELDDO_TypeDefinitionIndex = 54267;
+
 	class EKCDEIELDDO : public ::BHDAFDOMINP
 	{
 	public:

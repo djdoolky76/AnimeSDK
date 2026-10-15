@@ -8,6 +8,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aiCameraSample_TypeDefinitionIndex = 45835;
+
 	struct alignas(4) aiCameraSample
 	{
 		::System::IntPtr self; // 0x10

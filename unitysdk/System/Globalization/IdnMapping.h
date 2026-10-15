@@ -22,6 +22,8 @@ namespace System::Globalization { class Punycode; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int IdnMapping_TypeDefinitionIndex = 792;
+
 	class IdnMapping : public ::System::Object
 	{
 	public:

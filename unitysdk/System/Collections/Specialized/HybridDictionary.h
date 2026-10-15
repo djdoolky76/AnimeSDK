@@ -32,6 +32,8 @@ namespace System::Collections::Specialized { class ListDictionary; }
 
 namespace System::Collections::Specialized
 {
+	inline static constexpr unsigned int HybridDictionary_TypeDefinitionIndex = 2987;
+
 	class HybridDictionary : public ::System::Object
 	{
 	public:

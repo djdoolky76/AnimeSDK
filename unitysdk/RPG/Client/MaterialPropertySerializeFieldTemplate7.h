@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MaterialPropertySerializeFieldTemplate7_TypeDefinitionIndex = 70674;
+
 	class MaterialPropertySerializeFieldTemplate7 : public ::RPG::Client::MaterialPropertySerializeFieldTemplate6
 	{
 	public:

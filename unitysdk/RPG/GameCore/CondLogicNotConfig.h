@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MiConditionConfigBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CondLogicNotConfig_TypeDefinitionIndex = 17075;
+
 	class CondLogicNotConfig : public ::RPG::GameCore::MiConditionConfigBase
 	{
 	public:

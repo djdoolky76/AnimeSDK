@@ -17,6 +17,8 @@ namespace System { class String; }
 #define BHLLEPAGGNL_NNJLOEEHJPF_OFFSET UNITYSDK_OFFSET(0xB48E720)
 #define BHLLEPAGGNL_OOBEFAFLDAF_OFFSET UNITYSDK_OFFSET(0xB48E210)
 
+inline static constexpr unsigned int BHLLEPAGGNL_TypeDefinitionIndex = 59400;
+
 	class BHLLEPAGGNL : public ::System::Object
 	{
 	public:

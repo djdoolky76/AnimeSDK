@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvNavigationPointType_TypeDefinitionIndex = 57116;
+
 	enum class AdvNavigationPointType : ::System::Int32
 	{
 		None = 0,

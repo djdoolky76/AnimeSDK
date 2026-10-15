@@ -42,6 +42,8 @@ namespace System { class String; }
 
 namespace RPG::Client::PetMarble
 {
+	inline static constexpr unsigned int PetMarblePlayer_TypeDefinitionIndex = 74700;
+
 	class PetMarblePlayer : public ::System::Object
 	{
 	public:

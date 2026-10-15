@@ -16,6 +16,8 @@ class GMFPIGMFHPE;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEmo2DAtlas_TypeDefinitionIndex = 71135;
+
 	class MonoEmo2DAtlas : public ::UnityEngine::MonoBehaviour
 	{
 	public:

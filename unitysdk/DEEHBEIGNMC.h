@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DEEHBEIGNMC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE5063C0)
 #define DEEHBEIGNMC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE5065B0)
 
+inline static constexpr unsigned int DEEHBEIGNMC_TypeDefinitionIndex = 58731;
+
 	class DEEHBEIGNMC
 	{
 	public:

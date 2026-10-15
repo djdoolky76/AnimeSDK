@@ -9,6 +9,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define BONINBGAHOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC199BF0)
 #define BONINBGAHOL___C__UPDATECAPSULEDATAS_B__7_0_OFFSET UNITYSDK_OFFSET(0xC199C00)
 
+inline static constexpr unsigned int BONINBGAHOL___c_TypeDefinitionIndex = 51888;
+
 	class BONINBGAHOL___c : public ::System::Object
 	{
 	public:

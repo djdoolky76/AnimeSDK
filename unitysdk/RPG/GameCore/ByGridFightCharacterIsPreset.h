@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByGridFightCharacterIsPreset_TypeDefinitionIndex = 22520;
+
 	class ByGridFightCharacterIsPreset : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

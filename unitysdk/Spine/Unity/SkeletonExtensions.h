@@ -54,6 +54,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonExtensions_TypeDefinitionIndex = 45104;
+
 	class SkeletonExtensions : public ::System::Object
 	{
 	public:

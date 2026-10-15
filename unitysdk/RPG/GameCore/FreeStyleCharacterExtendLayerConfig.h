@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FreeStyleCharacterExtendLayerConfig_TypeDefinitionIndex = 16309;
+
 	class FreeStyleCharacterExtendLayerConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

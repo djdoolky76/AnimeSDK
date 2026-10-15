@@ -7,6 +7,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int AsyncHelper_TypeDefinitionIndex = 1786;
+
 	class AsyncHelper : public ::System::Object
 	{
 	public:

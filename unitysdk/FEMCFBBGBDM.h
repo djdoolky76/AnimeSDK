@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define FEMCFBBGBDM_CTOR_OFFSET UNITYSDK_OFFSET(0x15725890)
 
+inline static constexpr unsigned int FEMCFBBGBDM_TypeDefinitionIndex = 57365;
+
 	class FEMCFBBGBDM : public ::System::Object
 	{
 	public:

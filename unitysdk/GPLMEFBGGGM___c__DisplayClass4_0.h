@@ -10,6 +10,8 @@ namespace System { class Action; }
 #define GPLMEFBGGGM___C__DISPLAYCLASS4_0___CREATESTORYPLAYER_B__0_OFFSET UNITYSDK_OFFSET(0x15B60090)
 #define GPLMEFBGGGM___C__DISPLAYCLASS4_0___CREATESTORYPLAYER_B__2_OFFSET UNITYSDK_OFFSET(0x15B600E0)
 
+inline static constexpr unsigned int GPLMEFBGGGM___c__DisplayClass4_0_TypeDefinitionIndex = 60762;
+
 	class GPLMEFBGGGM___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

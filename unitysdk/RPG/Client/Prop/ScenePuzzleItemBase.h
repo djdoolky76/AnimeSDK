@@ -8,6 +8,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ScenePuzzleItemBase_TypeDefinitionIndex = 78856;
+
 	class ScenePuzzleItemBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

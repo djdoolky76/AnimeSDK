@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RandomSelectorCase_TypeDefinitionIndex = 23776;
+
 	class RandomSelectorCase : public ::RPG::GameCore::JsonConfig
 	{
 	public:

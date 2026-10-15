@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define PJKJEMANFDG_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xC297E10)
 #define PJKJEMANFDG_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xC298D70)
 
+inline static constexpr unsigned int PJKJEMANFDG_TypeDefinitionIndex = 57059;
+
 	class PJKJEMANFDG : public ::System::Object
 	{
 	public:

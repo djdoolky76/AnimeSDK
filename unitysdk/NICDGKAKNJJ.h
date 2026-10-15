@@ -7,6 +7,8 @@ namespace System { class String; }
 #define NICDGKAKNJJ_GETTYPENAME_OFFSET UNITYSDK_OFFSET(0xBBDE0F0)
 #define NICDGKAKNJJ_IKDDBODBGGN_OFFSET UNITYSDK_OFFSET(0xBBDE160)
 
+inline static constexpr unsigned int NICDGKAKNJJ_TypeDefinitionIndex = 59494;
+
 	class NICDGKAKNJJ : public ::OAHKEMMHANM
 	{
 	public:

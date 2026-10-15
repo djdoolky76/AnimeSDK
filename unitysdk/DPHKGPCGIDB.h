@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DPHKGPCGIDB_CTOR_OFFSET UNITYSDK_OFFSET(0x1263E7A0)
 #define DPHKGPCGIDB_KMHHKMENOEH_OFFSET UNITYSDK_OFFSET(0x1263E670)
 
+inline static constexpr unsigned int DPHKGPCGIDB_TypeDefinitionIndex = 67150;
+
 	class DPHKGPCGIDB : public ::System::Object
 	{
 	public:

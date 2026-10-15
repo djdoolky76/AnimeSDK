@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OverrideFloorConfigRow_TypeDefinitionIndex = 13095;
+
 	class OverrideFloorConfigRow : public ::System::Object
 	{
 	public:

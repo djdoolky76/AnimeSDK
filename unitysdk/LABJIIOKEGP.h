@@ -23,6 +23,8 @@ namespace UnityEngine { class GameObject; }
 #define LABJIIOKEGP_PKCKPFHCODN_OFFSET UNITYSDK_OFFSET(0xB5D7170)
 #define LABJIIOKEGP_PLFDCONMOKD_OFFSET UNITYSDK_OFFSET(0xB5D6D40)
 
+inline static constexpr unsigned int LABJIIOKEGP_TypeDefinitionIndex = 49504;
+
 	class LABJIIOKEGP : public ::AGNHADICHLA
 	{
 	public:

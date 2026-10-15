@@ -29,6 +29,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace SRDebugger::UI::Other
 {
+	inline static constexpr unsigned int BugReportSheetController_TypeDefinitionIndex = 37997;
+
 	class BugReportSheetController : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

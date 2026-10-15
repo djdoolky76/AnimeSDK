@@ -4,6 +4,8 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { template <typename T> class Predicate_1; }
 
+inline static constexpr unsigned int GLJODGEMIIN___O_TypeDefinitionIndex = 56274;
+
 	class GLJODGEMIIN___O : public ::System::Object
 	{
 	public:

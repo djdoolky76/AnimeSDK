@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 #define JPJHKCDGGIK_EQUALS_OFFSET UNITYSDK_OFFSET(0x12C30)
 
+inline static constexpr unsigned int JPJHKCDGGIK_TypeDefinitionIndex = 53726;
+
 	struct alignas(8) JPJHKCDGGIK
 	{
 		::RPG::GameCore::TaskContext* BKIFMPHBIAK; // 0x10

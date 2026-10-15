@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int CNPayPlatManager___c__DisplayClass65_0_TypeDefinitionIndex = 9282;
+
 	class CNPayPlatManager___c__DisplayClass65_0 : public ::System::Object
 	{
 	public:

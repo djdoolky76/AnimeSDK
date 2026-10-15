@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int CryptoStream_HopToThreadPoolAwaitable_TypeDefinitionIndex = 1013;
+
 	struct alignas(4) CryptoStream_HopToThreadPoolAwaitable
 	{
 		/*

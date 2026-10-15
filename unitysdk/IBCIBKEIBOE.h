@@ -26,6 +26,8 @@ namespace UnityEngine { class RenderTexture; }
 #define IBCIBKEIBOE_OBNBEEJBLAI_OFFSET UNITYSDK_OFFSET(0x15E2C030)
 #define IBCIBKEIBOE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x15E2C3B0)
 
+inline static constexpr unsigned int IBCIBKEIBOE_TypeDefinitionIndex = 70174;
+
 	class IBCIBKEIBOE : public ::System::Object
 	{
 	public:

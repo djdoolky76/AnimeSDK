@@ -5,6 +5,8 @@
 #define CKPLIMLCMIL_CTOR_OFFSET UNITYSDK_OFFSET(0x3C29D70)
 #define CKPLIMLCMIL_KPPBAJJNIII_OFFSET UNITYSDK_OFFSET(0x3C29D80)
 
+inline static constexpr unsigned int CKPLIMLCMIL_TypeDefinitionIndex = 37221;
+
 	struct alignas(4) CKPLIMLCMIL
 	{
 		::RPG::GameCore::CakeRaceCellType GDIGGOLJIBJ; // 0x10

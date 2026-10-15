@@ -31,6 +31,8 @@ namespace System { class String; }
 #define HDDLALFAMKO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E549780)
 #define HDDLALFAMKO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5497E0)
 
+inline static constexpr unsigned int HDDLALFAMKO_TypeDefinitionIndex = 30998;
+
 	class HDDLALFAMKO : public ::System::Object
 	{
 	public:

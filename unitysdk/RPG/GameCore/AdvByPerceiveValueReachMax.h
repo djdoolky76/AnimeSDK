@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvByPerceiveValueReachMax_TypeDefinitionIndex = 20020;
+
 	class AdvByPerceiveValueReachMax : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

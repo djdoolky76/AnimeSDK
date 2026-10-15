@@ -10,6 +10,8 @@ namespace RPG::Client { class ParkourSetCountDownAnimSpeed; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ParkourSetCountDownAnimSpeed_TypeDefinitionIndex = 10261;
+
 	class ParkourSetCountDownAnimSpeed : public ::RPG::GameCore::TaskConfig
 	{
 	public:

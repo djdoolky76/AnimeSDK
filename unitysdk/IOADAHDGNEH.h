@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IOADAHDGNEH_DHMJKFLDLKD_OFFSET UNITYSDK_OFFSET(0x164FB620)
 #define IOADAHDGNEH_NBCDFMNCONC_OFFSET UNITYSDK_OFFSET(0x164FB560)
 
+inline static constexpr unsigned int IOADAHDGNEH_TypeDefinitionIndex = 80125;
+
 	class IOADAHDGNEH : public ::System::Object
 	{
 	public:

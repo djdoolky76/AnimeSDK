@@ -9,6 +9,8 @@ namespace RPG::Client { class LookAtIK; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int MonoBabyHipplen_AGKKJOBCKJO_TypeDefinitionIndex = 75601;
+
 	class MonoBabyHipplen_AGKKJOBCKJO : public ::System::Object
 	{
 	public:

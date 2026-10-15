@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int PointAttachment_TypeDefinitionIndex = 39658;
+
 	class PointAttachment : public ::Spine::Attachment
 	{
 	public:

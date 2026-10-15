@@ -12,6 +12,8 @@ namespace RPG::GameCore { class PixAirLaserConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityPixAirFireLaser_TypeDefinitionIndex = 21398;
+
 	class LittleGameAbilityPixAirFireLaser : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:

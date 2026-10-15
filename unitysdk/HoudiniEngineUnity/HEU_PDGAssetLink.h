@@ -106,6 +106,8 @@ namespace UnityEngine { class Transform; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_PDGAssetLink_TypeDefinitionIndex = 40532;
+
 	class HEU_PDGAssetLink : public ::UnityEngine::MonoBehaviour
 	{
 	public:

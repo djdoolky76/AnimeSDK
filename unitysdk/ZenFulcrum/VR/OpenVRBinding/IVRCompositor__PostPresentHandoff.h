@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRCompositor__PostPresentHandoff_TypeDefinitionIndex = 39022;
+
 	class IVRCompositor__PostPresentHandoff : public ::System::MulticastDelegate
 	{
 	public:

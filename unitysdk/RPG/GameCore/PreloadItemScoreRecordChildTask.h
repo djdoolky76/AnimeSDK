@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PreloadItemScoreRecordChildTask; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PreloadItemScoreRecordChildTask_TypeDefinitionIndex = 16374;
+
 	class PreloadItemScoreRecordChildTask : public ::RPG::GameCore::JsonConfig
 	{
 	public:

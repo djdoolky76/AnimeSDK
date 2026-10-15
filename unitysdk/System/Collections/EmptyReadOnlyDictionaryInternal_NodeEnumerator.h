@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int EmptyReadOnlyDictionaryInternal_NodeEnumerator_TypeDefinitionIndex = 1471;
+
 	class EmptyReadOnlyDictionaryInternal_NodeEnumerator : public ::System::Object
 	{
 	public:

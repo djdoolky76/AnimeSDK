@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LPBGLLGGGDN_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB8163A0)
 #define LPBGLLGGGDN_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xB8161A0)
 
+inline static constexpr unsigned int LPBGLLGGGDN_TypeDefinitionIndex = 71355;
+
 	class LPBGLLGGGDN : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaitMapPoseSwitcherRemove; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitMapPoseSwitcherRemove_TypeDefinitionIndex = 21264;
+
 	class WaitMapPoseSwitcherRemove : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:

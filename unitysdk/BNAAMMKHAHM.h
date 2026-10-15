@@ -5,6 +5,8 @@ namespace RPG::GameCore { class FiveDimInteractEmitterConfig; }
 
 #define BNAAMMKHAHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BD680)
 
+inline static constexpr unsigned int BNAAMMKHAHM_TypeDefinitionIndex = 43479;
+
 	class BNAAMMKHAHM : public ::System::Object
 	{
 	public:

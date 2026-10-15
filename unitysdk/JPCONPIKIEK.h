@@ -40,6 +40,8 @@ namespace System { class String; }
 #define JPCONPIKIEK_PFLGKAEFPAK_OFFSET UNITYSDK_OFFSET(0x3C3B6C0)
 #define JPCONPIKIEK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C3B890)
 
+inline static constexpr unsigned int JPCONPIKIEK_TypeDefinitionIndex = 10798;
+
 	struct alignas(8) JPCONPIKIEK
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

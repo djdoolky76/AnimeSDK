@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define COPKPNCABFO___C__DISPLAYCLASS53_0__TRYPACKWITHSCALE_B__0_OFFSET UNITYSDK_OFFSET(0xDCCDD30)
 #define COPKPNCABFO___C__DISPLAYCLASS53_0__TRYPACKWITHSCALE_B__1_OFFSET UNITYSDK_OFFSET(0xDCCDD80)
 
+inline static constexpr unsigned int COPKPNCABFO___c__DisplayClass53_0_TypeDefinitionIndex = 51762;
+
 	class COPKPNCABFO___c__DisplayClass53_0 : public ::System::Object
 	{
 	public:

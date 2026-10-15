@@ -4,6 +4,8 @@
 
 #define GHHGBAOEKAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15A1EBD0)
 
+inline static constexpr unsigned int GHHGBAOEKAJ_TypeDefinitionIndex = 48319;
+
 	class GHHGBAOEKAJ : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define NLLLAAEJOBP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB677F0)
 #define NLLLAAEJOBP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB67850)
 
+inline static constexpr unsigned int NLLLAAEJOBP_TypeDefinitionIndex = 30106;
+
 	class NLLLAAEJOBP : public ::System::Object
 	{
 	public:

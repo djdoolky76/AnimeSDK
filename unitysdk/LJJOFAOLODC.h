@@ -58,6 +58,8 @@ namespace UnityEngine::UI { class Button; }
 #define LJJOFAOLODC__ONTICK_OFFSET UNITYSDK_OFFSET(0xB71BB20)
 #define LJJOFAOLODC___ONBIND_B__5_0_OFFSET UNITYSDK_OFFSET(0xB71C770)
 
+inline static constexpr unsigned int LJJOFAOLODC_TypeDefinitionIndex = 72261;
+
 	class LJJOFAOLODC : public ::FMPCODLIOLG
 	{
 	public:

@@ -13,6 +13,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnGUIHandler; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncGUITrigger_TypeDefinitionIndex = 38551;
+
 	class AsyncGUITrigger
 	{
 	public:

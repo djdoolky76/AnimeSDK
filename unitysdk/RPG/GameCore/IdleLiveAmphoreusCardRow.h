@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveAmphoreusCardRow_TypeDefinitionIndex = 11742;
+
 	class IdleLiveAmphoreusCardRow : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class ToggleScoreCounterShow; }
 #define NOJPFKPHAHC_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF2A40)
 #define NOJPFKPHAHC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCF2A70)
 
+inline static constexpr unsigned int NOJPFKPHAHC_TypeDefinitionIndex = 47615;
+
 	class NOJPFKPHAHC
 	{
 	public:

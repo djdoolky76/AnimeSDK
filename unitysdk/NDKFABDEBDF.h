@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NDKFABDEBDF_OGCLOCGDCJK_OFFSET UNITYSDK_OFFSET(0xBB4B0A0)
 #define NDKFABDEBDF_TICK_OFFSET UNITYSDK_OFFSET(0xBB4AE30)
 
+inline static constexpr unsigned int NDKFABDEBDF_TypeDefinitionIndex = 57230;
+
 	class NDKFABDEBDF : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

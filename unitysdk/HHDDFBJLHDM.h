@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HHDDFBJLHDM_SET_NEUTRALCARDIDS_OFFSET UNITYSDK_OFFSET(0x15CBB7C0)
 #define HHDDFBJLHDM_SET_SERVANTCARDIDS_OFFSET UNITYSDK_OFFSET(0x15CBB7A0)
 
+inline static constexpr unsigned int HHDDFBJLHDM_TypeDefinitionIndex = 81138;
+
 	class HHDDFBJLHDM : public ::System::Object
 	{
 	public:

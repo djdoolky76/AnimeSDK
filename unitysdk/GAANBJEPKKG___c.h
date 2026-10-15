@@ -32,6 +32,8 @@ namespace UnityEngine { class ScriptableObject; }
 #define GAANBJEPKKG___C__INITIALIZE_B__0_8_OFFSET UNITYSDK_OFFSET(0x15936010)
 #define GAANBJEPKKG___C__INITIALIZE_B__0_9_OFFSET UNITYSDK_OFFSET(0x159360A0)
 
+inline static constexpr unsigned int GAANBJEPKKG___c_TypeDefinitionIndex = 49475;
+
 	class GAANBJEPKKG___c : public ::System::Object
 	{
 	public:

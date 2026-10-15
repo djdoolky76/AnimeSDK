@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphWaitIdentifyFinish_TypeDefinitionIndex = 21661;
+
 	class PhotoGraphWaitIdentifyFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

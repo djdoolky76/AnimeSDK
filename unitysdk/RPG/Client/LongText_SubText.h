@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LongText_SubText_TypeDefinitionIndex = 72570;
+
 	class LongText_SubText : public ::System::Object
 	{
 	public:

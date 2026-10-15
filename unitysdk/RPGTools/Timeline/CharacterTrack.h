@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterTrack_TypeDefinitionIndex = 47869;
+
 	class CharacterTrack : public ::RPGTools::Timeline::CustomUniqueNameTrack
 	{
 	public:

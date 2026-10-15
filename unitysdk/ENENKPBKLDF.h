@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ENENKPBKLDF_OEKNALJNBHN_OFFSET UNITYSDK_OFFSET(0x155A8FC0)
 #define ENENKPBKLDF_OJPBEBGCCHD_OFFSET UNITYSDK_OFFSET(0x155A9E70)
 
+inline static constexpr unsigned int ENENKPBKLDF_TypeDefinitionIndex = 79045;
+
 	class ENENKPBKLDF : public ::System::Object
 	{
 	public:

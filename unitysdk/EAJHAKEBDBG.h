@@ -27,6 +27,8 @@ namespace System { class String; }
 #define EAJHAKEBDBG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E22C9A0)
 #define EAJHAKEBDBG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E22CA00)
 
+inline static constexpr unsigned int EAJHAKEBDBG_TypeDefinitionIndex = 26158;
+
 	class EAJHAKEBDBG : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int IObserver_1_TypeDefinitionIndex = 292;
+
 	template <typename T>
 	class IObserver_1
 	{

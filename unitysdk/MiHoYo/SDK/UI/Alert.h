@@ -24,6 +24,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::UI
 {
+	inline static constexpr unsigned int Alert_TypeDefinitionIndex = 8394;
+
 	class Alert : public ::MiHoYo::SDK::UIElement
 	{
 	public:

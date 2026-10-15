@@ -48,6 +48,8 @@ namespace System { class String; }
 #define GNCJHGHBEPP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4D9B90)
 #define GNCJHGHBEPP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4D9BF0)
 
+inline static constexpr unsigned int GNCJHGHBEPP_TypeDefinitionIndex = 30679;
+
 	class GNCJHGHBEPP : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ class PHCMIJEDENP;
 #define LAJAJNCLFHH_OOHOJBDNFKH_OFFSET UNITYSDK_OFFSET(0x1C56D550)
 #define LAJAJNCLFHH_PLKOOACCIIP_OFFSET UNITYSDK_OFFSET(0x1C56D350)
 
+inline static constexpr unsigned int LAJAJNCLFHH_TypeDefinitionIndex = 41882;
+
 	class LAJAJNCLFHH : public ::System::Object
 	{
 	public:

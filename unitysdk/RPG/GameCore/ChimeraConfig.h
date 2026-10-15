@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraConfig_TypeDefinitionIndex = 15826;
+
 	class ChimeraConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

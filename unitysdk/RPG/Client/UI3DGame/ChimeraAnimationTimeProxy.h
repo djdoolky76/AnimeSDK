@@ -11,6 +11,8 @@ namespace UnityEngine { class Animation; }
 
 namespace RPG::Client::UI3DGame
 {
+	inline static constexpr unsigned int ChimeraAnimationTimeProxy_TypeDefinitionIndex = 75770;
+
 	class ChimeraAnimationTimeProxy : public ::UnityEngine::MonoBehaviour
 	{
 	public:

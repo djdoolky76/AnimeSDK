@@ -27,6 +27,8 @@ namespace System { class String; }
 #define IIFPPBCFBBC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6894C0)
 #define IIFPPBCFBBC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E689520)
 
+inline static constexpr unsigned int IIFPPBCFBBC_TypeDefinitionIndex = 29595;
+
 	class IIFPPBCFBBC : public ::System::Object
 	{
 	public:

@@ -52,6 +52,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineCore_TypeDefinitionIndex = 39810;
+
 	class CinemachineCore : public ::System::Object
 	{
 	public:

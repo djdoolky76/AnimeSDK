@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleChooseTarget; }
 #define CIJFBBIKMFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E49C0)
 #define CIJFBBIKMFJ_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C8E49D0)
 
+inline static constexpr unsigned int CIJFBBIKMFJ_TypeDefinitionIndex = 43108;
+
 	class CIJFBBIKMFJ : public ::BKABEBEPPJK
 	{
 	public:

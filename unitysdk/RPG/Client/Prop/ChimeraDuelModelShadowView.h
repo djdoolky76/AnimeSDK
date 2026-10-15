@@ -12,6 +12,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelModelShadowView_TypeDefinitionIndex = 78332;
+
 	class ChimeraDuelModelShadowView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

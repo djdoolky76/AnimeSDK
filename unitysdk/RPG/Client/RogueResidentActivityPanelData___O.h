@@ -6,6 +6,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueResidentActivityPanelData___O_TypeDefinitionIndex = 61781;
+
 	class RogueResidentActivityPanelData___O : public ::System::Object
 	{
 	public:

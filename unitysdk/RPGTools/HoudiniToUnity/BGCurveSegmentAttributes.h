@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPGTools::HoudiniToUnity
 {
+	inline static constexpr unsigned int BGCurveSegmentAttributes_TypeDefinitionIndex = 46935;
+
 	class BGCurveSegmentAttributes : public ::UnityEngine::MonoBehaviour
 	{
 	public:

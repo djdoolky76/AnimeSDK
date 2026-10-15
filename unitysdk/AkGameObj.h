@@ -34,6 +34,8 @@ namespace UnityEngine { class Transform; }
 #define AKGAMEOBJ_SET_ISAUTOSTOP_OFFSET UNITYSDK_OFFSET(0x1F593E50)
 #define AKGAMEOBJ_TICK_OFFSET UNITYSDK_OFFSET(0x1F595830)
 
+inline static constexpr unsigned int AkGameObj_TypeDefinitionIndex = 44929;
+
 	class AkGameObj : public ::UnityEngine::MonoBehaviour
 	{
 	public:

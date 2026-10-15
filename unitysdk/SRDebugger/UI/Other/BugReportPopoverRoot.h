@@ -8,6 +8,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace SRDebugger::UI::Other
 {
+	inline static constexpr unsigned int BugReportPopoverRoot_TypeDefinitionIndex = 37996;
+
 	class BugReportPopoverRoot : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

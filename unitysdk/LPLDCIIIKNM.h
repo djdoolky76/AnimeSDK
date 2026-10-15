@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define LPLDCIIIKNM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB823CE0)
 #define LPLDCIIIKNM_PFEODCIJKPH_OFFSET UNITYSDK_OFFSET(0xB823D30)
 
+inline static constexpr unsigned int LPLDCIIIKNM_TypeDefinitionIndex = 52856;
+
 	class LPLDCIIIKNM
 	{
 	public:

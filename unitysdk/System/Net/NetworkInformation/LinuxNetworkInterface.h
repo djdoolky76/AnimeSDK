@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace System::Net::NetworkInformation
 {
+	inline static constexpr unsigned int LinuxNetworkInterface_TypeDefinitionIndex = 2960;
+
 	class LinuxNetworkInterface : public ::System::Net::NetworkInformation::UnixNetworkInterface
 	{
 	public:

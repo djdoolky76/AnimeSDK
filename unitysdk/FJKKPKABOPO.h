@@ -5,6 +5,8 @@ class EFBFKAKOBEM;
 
 #define FJKKPKABOPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA71010)
 
+inline static constexpr unsigned int FJKKPKABOPO_TypeDefinitionIndex = 43753;
+
 	class FJKKPKABOPO : public ::System::Object
 	{
 	public:

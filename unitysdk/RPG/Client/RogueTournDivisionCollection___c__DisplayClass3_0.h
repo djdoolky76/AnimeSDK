@@ -8,6 +8,8 @@ namespace RPG::Client { class RogueTournDivisionData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournDivisionCollection___c__DisplayClass3_0_TypeDefinitionIndex = 67594;
+
 	class RogueTournDivisionCollection___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

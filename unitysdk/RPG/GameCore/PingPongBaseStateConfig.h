@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PingPongBaseStateConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PingPongBaseStateConfig_TypeDefinitionIndex = 16976;
+
 	class PingPongBaseStateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

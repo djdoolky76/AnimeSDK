@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define IFDOEIJDOLE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C69A040)
 #define IFDOEIJDOLE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C699F50)
 
+inline static constexpr unsigned int IFDOEIJDOLE_TypeDefinitionIndex = 36260;
+
 	class IFDOEIJDOLE : public ::System::MulticastDelegate
 	{
 	public:

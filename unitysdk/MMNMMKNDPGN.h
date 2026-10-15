@@ -48,6 +48,8 @@ namespace RPG::GameCore { class BaseScrollGameBlockConfig; }
 #define MMNMMKNDPGN_POOLDMKLJLJ_OFFSET UNITYSDK_OFFSET(0xB9DBCB0)
 #define MMNMMKNDPGN_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB9DA670)
 
+inline static constexpr unsigned int MMNMMKNDPGN_TypeDefinitionIndex = 76926;
+
 	class MMNMMKNDPGN : public ::BBGNOBLIAGL
 	{
 	public:

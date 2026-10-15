@@ -6,6 +6,8 @@
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int Punycode_TypeDefinitionIndex = 794;
+
 	class Punycode : public ::System::Globalization::Bootstring
 	{
 	public:

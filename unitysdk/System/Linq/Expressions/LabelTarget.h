@@ -11,6 +11,8 @@ namespace System { class Type; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int LabelTarget_TypeDefinitionIndex = 3229;
+
 	class LabelTarget : public ::System::Object
 	{
 	public:

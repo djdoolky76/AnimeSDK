@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GNCNNGOEBBD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15AFE740)
 #define GNCNNGOEBBD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15AFE7D0)
 
+inline static constexpr unsigned int GNCNNGOEBBD_TypeDefinitionIndex = 53646;
+
 	class GNCNNGOEBBD
 	{
 	public:

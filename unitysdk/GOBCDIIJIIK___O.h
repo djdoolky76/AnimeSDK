@@ -4,6 +4,8 @@
 namespace RPG::CustomRP { class ReleaseAssetDel; }
 namespace RPG::CustomRP { class SyncLoadAssetDel; }
 
+inline static constexpr unsigned int GOBCDIIJIIK___O_TypeDefinitionIndex = 70180;
+
 	class GOBCDIIJIIK___O : public ::System::Object
 	{
 	public:

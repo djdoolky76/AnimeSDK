@@ -34,6 +34,8 @@ namespace System { class String; }
 #define OMNDOECFBEA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEBC720)
 #define OMNDOECFBEA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEBC780)
 
+inline static constexpr unsigned int OMNDOECFBEA_TypeDefinitionIndex = 25942;
+
 	class OMNDOECFBEA : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class AIBehaviorFlagSelector; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AIBehaviorFlagSelector_TypeDefinitionIndex = 15598;
+
 	class AIBehaviorFlagSelector : public ::RPG::GameCore::AISelector
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::Client::FateRin { class CardStateChangeContext; }
 
 #define PGKHIKFLKLM_CTOR_OFFSET UNITYSDK_OFFSET(0xC223EB0)
 
+inline static constexpr unsigned int PGKHIKFLKLM_TypeDefinitionIndex = 80545;
+
 	class PGKHIKFLKLM : public ::System::Object
 	{
 	public:

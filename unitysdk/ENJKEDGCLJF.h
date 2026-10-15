@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ENJKEDGCLJF_ONBGNODKNPE_OFFSET UNITYSDK_OFFSET(0x155B0E10)
 #define ENJKEDGCLJF_SET_PLAYERRETURNTRIALAVATARINFOPROVIDER_OFFSET UNITYSDK_OFFSET(0x155B10C0)
 
+inline static constexpr unsigned int ENJKEDGCLJF_TypeDefinitionIndex = 61892;
+
 	class ENJKEDGCLJF : public ::System::Object
 	{
 	public:

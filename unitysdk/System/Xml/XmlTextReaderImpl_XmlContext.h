@@ -10,6 +10,8 @@ namespace System::Xml { class XmlTextReaderImpl_XmlContext; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlTextReaderImpl_XmlContext_TypeDefinitionIndex = 1855;
+
 	class XmlTextReaderImpl_XmlContext : public ::System::Object
 	{
 	public:

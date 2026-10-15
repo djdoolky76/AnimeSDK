@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FiveDimRandomBubbleTalkInfoGroup; }
 #define FHDGGEBJGCO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDF0DC0)
 #define FHDGGEBJGCO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDF0D70)
 
+inline static constexpr unsigned int FHDGGEBJGCO_TypeDefinitionIndex = 21483;
+
 	class FHDGGEBJGCO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

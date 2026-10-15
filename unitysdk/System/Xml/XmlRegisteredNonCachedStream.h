@@ -32,6 +32,8 @@ namespace System::Xml { class XmlDownloadManager; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlRegisteredNonCachedStream_TypeDefinitionIndex = 1948;
+
 	class XmlRegisteredNonCachedStream : public ::System::IO::Stream
 	{
 	public:

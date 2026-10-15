@@ -34,6 +34,8 @@ namespace System { class String; }
 #define GGLDCFNHCML_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E47FE70)
 #define GGLDCFNHCML_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E47FED0)
 
+inline static constexpr unsigned int GGLDCFNHCML_TypeDefinitionIndex = 26816;
+
 	class GGLDCFNHCML : public ::System::Object
 	{
 	public:

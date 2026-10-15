@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define CMFFLPBJJKN___REFRESHMODELINUSECOROTINE_D__6_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xDA30CD0)
 #define CMFFLPBJJKN___REFRESHMODELINUSECOROTINE_D__6_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDA30B10)
 
+inline static constexpr unsigned int CMFFLPBJJKN___RefreshModelInUseCorotine_d__6_TypeDefinitionIndex = 59716;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	class CMFFLPBJJKN___RefreshModelInUseCorotine_d__6 : public ::System::Object
 	{

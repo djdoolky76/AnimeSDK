@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 #define MDBKAFBKOGM_OBPDBPLDDHG_OFFSET UNITYSDK_OFFSET(0xB89D210)
 #define MDBKAFBKOGM_PLGBOGODHPF_OFFSET UNITYSDK_OFFSET(0xB89D600)
 
+inline static constexpr unsigned int MDBKAFBKOGM_TypeDefinitionIndex = 57809;
+
 	class MDBKAFBKOGM : public ::System::Object
 	{
 	public:

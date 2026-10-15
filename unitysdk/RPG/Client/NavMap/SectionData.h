@@ -34,6 +34,8 @@ namespace System { class String; }
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int SectionData_TypeDefinitionIndex = 74532;
+
 	class SectionData : public ::System::Object
 	{
 	public:

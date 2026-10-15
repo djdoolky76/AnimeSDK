@@ -30,6 +30,8 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudDeckTipViewModel_TypeDefinitionIndex = 80898;
+
 	class FateRinBattleHudDeckTipViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

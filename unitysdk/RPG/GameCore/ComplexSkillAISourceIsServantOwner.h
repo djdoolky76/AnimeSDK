@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ComplexSkillAISourceIsServantOwner; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAISourceIsServantOwner_TypeDefinitionIndex = 15545;
+
 	class ComplexSkillAISourceIsServantOwner : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PointGeneratorOnNavPathConfig_TypeDefinitionIndex = 15627;
+
 	class PointGeneratorOnNavPathConfig : public ::RPG::GameCore::PointGeneratorConfig
 	{
 	public:

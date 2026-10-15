@@ -12,6 +12,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define FAOGNFIIOBL___C___UPDATEENTITYMODIFIERLIST_B__6_0_OFFSET UNITYSDK_OFFSET(0x15689290)
 #define FAOGNFIIOBL___C___UPDATEENTITYMODIFIERLIST_B__6_1_OFFSET UNITYSDK_OFFSET(0x156892B0)
 
+inline static constexpr unsigned int FAOGNFIIOBL___c_TypeDefinitionIndex = 72074;
+
 	class FAOGNFIIOBL___c : public ::System::Object
 	{
 	public:

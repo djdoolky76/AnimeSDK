@@ -16,6 +16,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlTextReaderImpl_NoNamespaceManager_TypeDefinitionIndex = 1856;
+
 	class XmlTextReaderImpl_NoNamespaceManager : public ::System::Xml::XmlNamespaceManager
 	{
 	public:

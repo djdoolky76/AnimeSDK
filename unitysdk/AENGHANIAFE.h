@@ -8,6 +8,8 @@ namespace RPG::Client { class MapProp; }
 
 #define AENGHANIAFE_CTOR_OFFSET UNITYSDK_OFFSET(0xCF03620)
 
+inline static constexpr unsigned int AENGHANIAFE_TypeDefinitionIndex = 60654;
+
 	class AENGHANIAFE : public ::System::Object
 	{
 	public:

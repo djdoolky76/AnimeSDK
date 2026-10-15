@@ -18,6 +18,8 @@ namespace System { class Object; }
 #define MIKOLGJGHOA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB95B6D0)
 #define MIKOLGJGHOA_TICK_OFFSET UNITYSDK_OFFSET(0xB95B720)
 
+inline static constexpr unsigned int MIKOLGJGHOA_TypeDefinitionIndex = 58445;
+
 	class MIKOLGJGHOA : public ::GELIALJDFBL
 	{
 	public:

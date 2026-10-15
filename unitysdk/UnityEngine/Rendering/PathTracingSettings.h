@@ -4,6 +4,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int PathTracingSettings_TypeDefinitionIndex = 4826;
+
 	struct alignas(4) PathTracingSettings
 	{
 		::System::Boolean Enable; // 0x10

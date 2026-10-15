@@ -31,6 +31,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int OverseaGrantPhone_TypeDefinitionIndex = 9527;
+
 	class OverseaGrantPhone : public ::MiHoYo::SDK::UIElement
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace HkrpgProtoLog
 {
+	inline static constexpr unsigned int PlayerActionType_TypeDefinitionIndex = 25049;
+
 	enum class PlayerActionType : ::System::Int32
 	{
 		PlayerActionNone = 0,

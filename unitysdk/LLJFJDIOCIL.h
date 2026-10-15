@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int LLJFJDIOCIL_TypeDefinitionIndex = 27264;
+
 	enum class LLJFJDIOCIL : ::System::Int32
 	{
 		FPBCFHLFMON = 0,

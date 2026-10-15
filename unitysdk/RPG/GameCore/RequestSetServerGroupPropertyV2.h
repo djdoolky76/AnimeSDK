@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RequestSetServerGroupPropertyV2; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RequestSetServerGroupPropertyV2_TypeDefinitionIndex = 20733;
+
 	class RequestSetServerGroupPropertyV2 : public ::RPG::GameCore::TaskConfig
 	{
 	public:

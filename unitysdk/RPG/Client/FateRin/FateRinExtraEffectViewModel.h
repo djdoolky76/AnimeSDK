@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin
 {
+	inline static constexpr unsigned int FateRinExtraEffectViewModel_TypeDefinitionIndex = 80627;
+
 	class FateRinExtraEffectViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

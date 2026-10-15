@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 #define JCGENLGEBMO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16588530)
 #define JCGENLGEBMO_PEEIPEHPOII_OFFSET UNITYSDK_OFFSET(0x16588620)
 
+inline static constexpr unsigned int JCGENLGEBMO_TypeDefinitionIndex = 58475;
+
 	class JCGENLGEBMO
 	{
 	public:

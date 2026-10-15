@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace SRDebugger::UI::Tabs
 {
+	inline static constexpr unsigned int OptionsTabController_CategoryInstance_TypeDefinitionIndex = 37991;
+
 	class OptionsTabController_CategoryInstance : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int TargetPositionCache_CacheCurve_TypeDefinitionIndex = 39848;
+
 	class TargetPositionCache_CacheCurve : public ::System::Object
 	{
 	public:

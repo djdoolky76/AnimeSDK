@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace System
 {
+	inline static constexpr unsigned int Console_WindowsConsole_WindowsCancelHandler_TypeDefinitionIndex = 384;
+
 	class Console_WindowsConsole_WindowsCancelHandler : public ::System::MulticastDelegate
 	{
 	public:

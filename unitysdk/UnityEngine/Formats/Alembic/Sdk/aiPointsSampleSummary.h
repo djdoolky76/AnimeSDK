@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aiPointsSampleSummary_TypeDefinitionIndex = 45816;
+
 	struct alignas(4) aiPointsSampleSummary
 	{
 		::System::Int32 _count_k__BackingField; // 0x10

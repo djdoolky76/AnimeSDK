@@ -16,6 +16,8 @@ namespace System { class Type; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlElementAttribute_TypeDefinitionIndex = 2007;
+
 	class XmlElementAttribute : public ::System::Attribute
 	{
 	public:

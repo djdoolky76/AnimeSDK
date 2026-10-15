@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Transform_Enumerator_TypeDefinitionIndex = 4410;
+
 	class Transform_Enumerator : public ::System::Object
 	{
 	public:

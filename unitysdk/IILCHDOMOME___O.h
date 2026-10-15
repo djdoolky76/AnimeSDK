@@ -4,6 +4,8 @@
 namespace RPG::Client { class BaseLobby; }
 namespace System { class Action; }
 
+inline static constexpr unsigned int IILCHDOMOME___O_TypeDefinitionIndex = 66042;
+
 	class IILCHDOMOME___O : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Type; }
 #define PAKNAELLIDA_GET_PROPERTYNAME_OFFSET UNITYSDK_OFFSET(0x1EC8B160)
 #define PAKNAELLIDA_GET_SIDE_OFFSET UNITYSDK_OFFSET(0x1EC8B170)
 
+inline static constexpr unsigned int PAKNAELLIDA_TypeDefinitionIndex = 44057;
+
 	class PAKNAELLIDA : public ::System::Exception
 	{
 	public:

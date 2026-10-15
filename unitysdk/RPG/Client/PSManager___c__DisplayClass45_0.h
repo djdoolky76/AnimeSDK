@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PSManager___c__DisplayClass45_0_TypeDefinitionIndex = 66739;
+
 	class PSManager___c__DisplayClass45_0 : public ::System::Object
 	{
 	public:

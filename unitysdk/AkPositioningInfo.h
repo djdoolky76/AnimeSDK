@@ -50,6 +50,8 @@ class AkPositioningInfo;
 #define AKPOSITIONINGINFO_SET_LPFVALUEATMAXDIST_OFFSET UNITYSDK_OFFSET(0x1F5B3AD0)
 #define AKPOSITIONINGINFO_SET_PANNERTYPE_OFFSET UNITYSDK_OFFSET(0x1F5B2540)
 
+inline static constexpr unsigned int AkPositioningInfo_TypeDefinitionIndex = 44778;
+
 	class AkPositioningInfo : public ::System::Object
 	{
 	public:

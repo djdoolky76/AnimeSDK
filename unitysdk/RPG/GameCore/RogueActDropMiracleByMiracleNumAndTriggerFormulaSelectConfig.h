@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActDropMiracleByMiracleNumAndTriggerFormula
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActDropMiracleByMiracleNumAndTriggerFormulaSelectConfig_TypeDefinitionIndex = 19706;
+
 	class RogueActDropMiracleByMiracleNumAndTriggerFormulaSelectConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimSurfacePoint; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSurfaceBakedInfo_TypeDefinitionIndex = 16723;
+
 	class FiveDimSurfaceBakedInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimOneWayEntryConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimEntryConfig_TypeDefinitionIndex = 18538;
+
 	class FiveDimEntryConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

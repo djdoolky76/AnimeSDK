@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PayModule___c__DisplayClass63_0_TypeDefinitionIndex = 66441;
+
 	class PayModule___c__DisplayClass63_0 : public ::System::Object
 	{
 	public:

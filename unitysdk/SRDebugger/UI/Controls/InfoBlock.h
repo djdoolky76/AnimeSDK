@@ -7,6 +7,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace SRDebugger::UI::Controls
 {
+	inline static constexpr unsigned int InfoBlock_TypeDefinitionIndex = 38025;
+
 	class InfoBlock : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

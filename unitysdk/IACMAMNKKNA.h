@@ -28,6 +28,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 #define IACMAMNKKNA_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x15E00510)
 #define IACMAMNKKNA_PKIELGCLALD_OFFSET UNITYSDK_OFFSET(0x15DFFEB0)
 
+inline static constexpr unsigned int IACMAMNKKNA_TypeDefinitionIndex = 49356;
+
 	class IACMAMNKKNA : public ::HHJGACLHFDJ
 	{
 	public:

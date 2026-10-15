@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimelineEntityStateChangeCallback_TypeDefinitionIndex = 20634;
+
 	class TimelineEntityStateChangeCallback : public ::RPG::GameCore::JsonConfig
 	{
 	public:

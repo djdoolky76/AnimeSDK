@@ -12,6 +12,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriManaMovieController_TypeDefinitionIndex = 40127;
+
 	class CriManaMovieController : public ::CriWare::CriManaMovieMaterial
 	{
 	public:

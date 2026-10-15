@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NNOOJACEONG_EKHEIAEIKGE_OFFSET UNITYSDK_OFFSET(0xBCDEA80)
 #define NNOOJACEONG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCDEA00)
 
+inline static constexpr unsigned int NNOOJACEONG_TypeDefinitionIndex = 55670;
+
 	class NNOOJACEONG
 	{
 	public:

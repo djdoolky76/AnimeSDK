@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define COGDEMPCLHA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E133780)
 #define COGDEMPCLHA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E133790)
 
+inline static constexpr unsigned int COGDEMPCLHA___c_TypeDefinitionIndex = 29487;
+
 	class COGDEMPCLHA___c : public ::System::Object
 	{
 	public:

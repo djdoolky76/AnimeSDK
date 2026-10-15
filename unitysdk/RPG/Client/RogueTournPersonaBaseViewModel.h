@@ -13,6 +13,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaBaseViewModel_TypeDefinitionIndex = 72918;
+
 	class RogueTournPersonaBaseViewModel : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ECurveObjectLogicState_TypeDefinitionIndex = 10489;
+
 	enum class ECurveObjectLogicState : ::System::Int32
 	{
 		None = 0,

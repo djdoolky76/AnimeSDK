@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CloseupShotData_TypeDefinitionIndex = 69613;
+
 	class CloseupShotData : public ::System::Object
 	{
 	public:

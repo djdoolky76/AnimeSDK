@@ -11,6 +11,8 @@ namespace BansheeGz::BGSpline::Curve { class BGCurve; }
 
 namespace RPG::Client::FateRin::View::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudTargetingCurve_TypeDefinitionIndex = 80672;
+
 	class FateRinBattleHudTargetingCurve : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine::UI { class Text; }
 #define NGANFOCANHB_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xBBA0FE0)
 #define NGANFOCANHB_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xBBA1050)
 
+inline static constexpr unsigned int NGANFOCANHB_TypeDefinitionIndex = 72329;
+
 	class NGANFOCANHB : public ::LBAMBIMMJKB
 	{
 	public:

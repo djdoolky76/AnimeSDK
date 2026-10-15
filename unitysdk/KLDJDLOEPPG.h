@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define KLDJDLOEPPG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0A41C0)
 #define KLDJDLOEPPG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0A4180)
 
+inline static constexpr unsigned int KLDJDLOEPPG_TypeDefinitionIndex = 24099;
+
 	class KLDJDLOEPPG : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BLCOMJIAAHP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D822BA0)
 #define BLCOMJIAAHP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D8221E0)
 
+inline static constexpr unsigned int BLCOMJIAAHP_TypeDefinitionIndex = 12860;
+
 	class BLCOMJIAAHP : public ::System::Object
 	{
 	public:

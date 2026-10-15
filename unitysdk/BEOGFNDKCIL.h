@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BEOGFNDKCIL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA65740)
 #define BEOGFNDKCIL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA657A0)
 
+inline static constexpr unsigned int BEOGFNDKCIL_TypeDefinitionIndex = 28760;
+
 	class BEOGFNDKCIL : public ::System::Object
 	{
 	public:

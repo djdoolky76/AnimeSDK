@@ -7,6 +7,8 @@ class IDMHNMOLHKN;
 #define IBHBIIFBKEN_CTOR_OFFSET UNITYSDK_OFFSET(0x15E34FC0)
 #define IBHBIIFBKEN_EFHOJNKCMDL_OFFSET UNITYSDK_OFFSET(0x15E34FD0)
 
+inline static constexpr unsigned int IBHBIIFBKEN_TypeDefinitionIndex = 67134;
+
 	class IBHBIIFBKEN : public ::LKLEBOOCADM
 	{
 	public:

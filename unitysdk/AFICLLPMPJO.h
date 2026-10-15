@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ProgressBarTypeConfig; }
 #define AFICLLPMPJO_CTOR_OFFSET UNITYSDK_OFFSET(0xCF0D1E0)
 #define AFICLLPMPJO_FKNKMOFOODM_OFFSET UNITYSDK_OFFSET(0xCF0D160)
 
+inline static constexpr unsigned int AFICLLPMPJO_TypeDefinitionIndex = 56882;
+
 	class AFICLLPMPJO : public ::System::Object
 	{
 	public:

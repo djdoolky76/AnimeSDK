@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatBattleSkillCutInInfo_TypeDefinitionIndex = 76051;
+
 	class DiceCombatBattleSkillCutInInfo : public ::System::Object
 	{
 	public:

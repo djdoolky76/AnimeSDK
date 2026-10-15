@@ -10,6 +10,8 @@
 #define IAGGMNLDLNP_HLJLIKCANNP_OFFSET UNITYSDK_OFFSET(0x15E0D330)
 #define IAGGMNLDLNP_MONHKOOAPNJ_OFFSET UNITYSDK_OFFSET(0x15E0D3D0)
 
+inline static constexpr unsigned int IAGGMNLDLNP_TypeDefinitionIndex = 74994;
+
 	class IAGGMNLDLNP : public ::System::Object
 	{
 	public:

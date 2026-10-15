@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Publish_1__Publish_TypeDefinitionIndex = 45536;
+
 	template <typename T>
 	class Publish_1__Publish : public ::Cysharp::Threading::Tasks::MoveNextSource
 	{

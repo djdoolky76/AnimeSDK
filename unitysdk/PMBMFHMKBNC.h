@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PMBMFHMKBNC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFA8C50)
 #define PMBMFHMKBNC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFA8CB0)
 
+inline static constexpr unsigned int PMBMFHMKBNC_TypeDefinitionIndex = 30733;
+
 	class PMBMFHMKBNC : public ::System::Object
 	{
 	public:

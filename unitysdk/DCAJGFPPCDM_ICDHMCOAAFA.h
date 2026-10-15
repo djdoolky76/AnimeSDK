@@ -11,6 +11,8 @@ namespace System::Collections::Immutable { template <typename T> class IImmutabl
 #define DCAJGFPPCDM_ICDHMCOAAFA_SET_REACHEDTARGETS_OFFSET UNITYSDK_OFFSET(0xE2388F0)
 #define DCAJGFPPCDM_ICDHMCOAAFA_SET_VALUES_OFFSET UNITYSDK_OFFSET(0xE2388D0)
 
+inline static constexpr unsigned int DCAJGFPPCDM_ICDHMCOAAFA_TypeDefinitionIndex = 79800;
+
 	class DCAJGFPPCDM_ICDHMCOAAFA : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DeviceSettingConfigItemBase_TypeDefinitionIndex = 16461;
+
 	class DeviceSettingConfigItemBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:

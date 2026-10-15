@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 #define MEFBMDDEBNB_GAFBHHEODNE_OFFSET UNITYSDK_OFFSET(0xB8C22D0)
 #define MEFBMDDEBNB_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xB8C2250)
 
+inline static constexpr unsigned int MEFBMDDEBNB_TypeDefinitionIndex = 72347;
+
 	class MEFBMDDEBNB : public ::System::Object
 	{
 	public:

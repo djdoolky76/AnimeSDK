@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int DateTimeConstantAttribute_TypeDefinitionIndex = 1383;
+
 	class DateTimeConstantAttribute : public ::System::Runtime::CompilerServices::CustomConstantAttribute
 	{
 	public:

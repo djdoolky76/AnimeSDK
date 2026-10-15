@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define HMLLLNIEPHL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAED0E0)
 
+inline static constexpr unsigned int HMLLLNIEPHL_TypeDefinitionIndex = 43764;
+
 	class HMLLLNIEPHL : public ::System::Object
 	{
 	public:

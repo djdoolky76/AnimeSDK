@@ -27,6 +27,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AGPJKFDKONA_PBFEEAJMMHB_OFFSET UNITYSDK_OFFSET(0xCF471E0)
 #define AGPJKFDKONA_TICK_OFFSET UNITYSDK_OFFSET(0xCF477D0)
 
+inline static constexpr unsigned int AGPJKFDKONA_TypeDefinitionIndex = 58406;
+
 	class AGPJKFDKONA
 	{
 	public:

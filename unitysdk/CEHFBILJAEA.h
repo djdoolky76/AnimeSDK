@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CEHFBILJAEA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC9DC430)
 #define CEHFBILJAEA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC9DC780)
 
+inline static constexpr unsigned int CEHFBILJAEA_TypeDefinitionIndex = 58562;
+
 	class CEHFBILJAEA : public ::CMMNJAMJJCN
 	{
 	public:

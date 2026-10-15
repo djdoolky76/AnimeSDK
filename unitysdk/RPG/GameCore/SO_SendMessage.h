@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SO_SendMessage_TypeDefinitionIndex = 20066;
+
 	class SO_SendMessage : public ::RPG::GameCore::SOTaskConfig
 	{
 	public:

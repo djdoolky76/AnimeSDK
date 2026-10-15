@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DynamicString; }
 #define HCKGHEOLECJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE8BDE0)
 #define HCKGHEOLECJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE8BDA0)
 
+inline static constexpr unsigned int HCKGHEOLECJ_TypeDefinitionIndex = 22663;
+
 	class HCKGHEOLECJ : public ::RPG::GameCore::TaskConfig
 	{
 	public:

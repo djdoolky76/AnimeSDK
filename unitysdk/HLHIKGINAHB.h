@@ -11,6 +11,8 @@ namespace System { class String; }
 
 #define HLHIKGINAHB_CTOR_OFFSET UNITYSDK_OFFSET(0x15D5FB50)
 
+inline static constexpr unsigned int HLHIKGINAHB_TypeDefinitionIndex = 56926;
+
 	class HLHIKGINAHB : public ::System::Object
 	{
 	public:

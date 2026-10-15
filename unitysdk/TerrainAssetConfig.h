@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define TERRAINASSETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE9E2230)
 
+inline static constexpr unsigned int TerrainAssetConfig_TypeDefinitionIndex = 47337;
+
 	class TerrainAssetConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:

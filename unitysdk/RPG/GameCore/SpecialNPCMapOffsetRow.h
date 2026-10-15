@@ -9,6 +9,8 @@ namespace RPG::GameCore { class SpecialNPCMapOffsetRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SpecialNPCMapOffsetRow_TypeDefinitionIndex = 15129;
+
 	class SpecialNPCMapOffsetRow : public ::System::Object
 	{
 	public:

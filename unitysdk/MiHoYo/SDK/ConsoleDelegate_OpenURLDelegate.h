@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_OpenURLDelegate_TypeDefinitionIndex = 7614;
+
 	class ConsoleDelegate_OpenURLDelegate : public ::System::MulticastDelegate
 	{
 	public:

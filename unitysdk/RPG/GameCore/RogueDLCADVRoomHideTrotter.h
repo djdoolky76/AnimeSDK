@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueDLCADVRoomHideTrotter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLCADVRoomHideTrotter_TypeDefinitionIndex = 22278;
+
 	class RogueDLCADVRoomHideTrotter : public ::RPG::GameCore::TaskConfig
 	{
 	public:

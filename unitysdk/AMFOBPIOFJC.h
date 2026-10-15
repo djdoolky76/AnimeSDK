@@ -6,6 +6,8 @@
 #define AMFOBPIOFJC_CIGPLCIKPLE_OFFSET UNITYSDK_OFFSET(0x1557CB00)
 #define AMFOBPIOFJC_CTOR_OFFSET UNITYSDK_OFFSET(0x1557CB50)
 
+inline static constexpr unsigned int AMFOBPIOFJC_TypeDefinitionIndex = 78554;
+
 	class AMFOBPIOFJC : public ::MKADHMMGGNA
 	{
 	public:

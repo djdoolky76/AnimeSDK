@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HBJCHIFJEPP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15C0A990)
 #define HBJCHIFJEPP_TICK_OFFSET UNITYSDK_OFFSET(0x15C0AA70)
 
+inline static constexpr unsigned int HBJCHIFJEPP_TypeDefinitionIndex = 52484;
+
 	class HBJCHIFJEPP : public ::GELIALJDFBL
 	{
 	public:

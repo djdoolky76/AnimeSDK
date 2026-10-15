@@ -31,6 +31,8 @@ namespace System { class String; }
 #define HFPCLMDMEME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5721B0)
 #define HFPCLMDMEME_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E572210)
 
+inline static constexpr unsigned int HFPCLMDMEME_TypeDefinitionIndex = 33527;
+
 	class HFPCLMDMEME : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_PlatformWin_TypeDefinitionIndex = 40437;
+
 	class HEU_PlatformWin : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore::Match3 { class Match3TagApplyPostAction; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int Match3TagApplyPostAction_TypeDefinitionIndex = 24939;
+
 	class Match3TagApplyPostAction : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:

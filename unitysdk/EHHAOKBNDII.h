@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 #define EHHAOKBNDII_HHHBOFNGHCK_OFFSET UNITYSDK_OFFSET(0x2E72B00)
 #define EHHAOKBNDII_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0x2E72B40)
 
+inline static constexpr unsigned int EHHAOKBNDII_TypeDefinitionIndex = 57099;
+
 	struct alignas(8) EHHAOKBNDII
 	{
 		::RPG::Client::MonoCharacterHeadPoint* KCBPBMOJOKJ; // 0x10

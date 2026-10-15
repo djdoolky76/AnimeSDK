@@ -35,6 +35,8 @@ namespace UnityEngine { class Object; }
 #define ALBMHEOLJKK_UNSERIALIZEASYNC_OFFSET UNITYSDK_OFFSET(0x1555D310)
 #define ALBMHEOLJKK__UNSERIALIZEASYNC_B__6_0_OFFSET UNITYSDK_OFFSET(0x1555EE90)
 
+inline static constexpr unsigned int ALBMHEOLJKK_TypeDefinitionIndex = 49086;
+
 	class ALBMHEOLJKK : public ::NPICKHAEHCL
 	{
 	public:

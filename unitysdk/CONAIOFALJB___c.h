@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define CONAIOFALJB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDCBFDF0)
 #define CONAIOFALJB___C__ISFOCUSED_B__3_0_OFFSET UNITYSDK_OFFSET(0xDCBFE00)
 
+inline static constexpr unsigned int CONAIOFALJB___c_TypeDefinitionIndex = 49830;
+
 	class CONAIOFALJB___c : public ::System::Object
 	{
 	public:

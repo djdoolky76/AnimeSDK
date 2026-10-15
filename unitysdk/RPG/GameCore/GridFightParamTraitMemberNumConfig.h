@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamTraitMemberNumConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamTraitMemberNumConfig_TypeDefinitionIndex = 19507;
+
 	class GridFightParamTraitMemberNumConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

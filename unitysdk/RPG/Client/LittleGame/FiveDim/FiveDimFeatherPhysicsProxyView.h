@@ -18,6 +18,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimFeatherPhysicsProxyView_TypeDefinitionIndex = 77199;
+
 	class FiveDimFeatherPhysicsProxyView : public ::RPG::Client::LittleGame::FiveDim::FiveDimPropPhysicsProxyView
 	{
 	public:

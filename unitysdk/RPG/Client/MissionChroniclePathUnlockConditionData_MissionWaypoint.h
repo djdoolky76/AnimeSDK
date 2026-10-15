@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionChroniclePathUnlockConditionData_MissionWaypoint_TypeDefinitionIndex = 66122;
+
 	class MissionChroniclePathUnlockConditionData_MissionWaypoint : public ::System::Object
 	{
 	public:

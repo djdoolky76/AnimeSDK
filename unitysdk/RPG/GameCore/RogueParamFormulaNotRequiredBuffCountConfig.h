@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueParamFormulaNotRequiredBuffCountConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueParamFormulaNotRequiredBuffCountConfig_TypeDefinitionIndex = 19826;
+
 	class RogueParamFormulaNotRequiredBuffCountConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:

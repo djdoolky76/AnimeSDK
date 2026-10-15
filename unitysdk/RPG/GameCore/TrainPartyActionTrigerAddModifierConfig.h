@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyActionTrigerAddModifierConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyActionTrigerAddModifierConfig_TypeDefinitionIndex = 18080;
+
 	class TrainPartyActionTrigerAddModifierConfig : public ::RPG::GameCore::TrainPartyActionConfigBase
 	{
 	public:

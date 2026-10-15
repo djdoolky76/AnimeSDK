@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 class KNNDMDMHDHO;
 
+inline static constexpr unsigned int INFJLCMCAAF___O_TypeDefinitionIndex = 67073;
+
 	class INFJLCMCAAF___O : public ::System::Object
 	{
 	public:

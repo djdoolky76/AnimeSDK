@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_AttributesStore_SetAttributeValueFunc_TypeDefinitionIndex = 40426;
+
 	class HEU_AttributesStore_SetAttributeValueFunc : public ::System::MulticastDelegate
 	{
 	public:

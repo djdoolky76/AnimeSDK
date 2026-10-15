@@ -7,6 +7,8 @@ namespace RPG::GameCore { class EvolveGearConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EvolveBuildTreasureSolution_TypeDefinitionIndex = 63792;
+
 	class EvolveBuildTreasureSolution : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleAssetPreload___c_TypeDefinitionIndex = 59664;
+
 	class BattleAssetPreload___c : public ::System::Object
 	{
 	public:

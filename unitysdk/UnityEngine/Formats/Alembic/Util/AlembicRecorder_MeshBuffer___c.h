@@ -11,6 +11,8 @@ namespace UnityEngine::Formats::Alembic::Sdk { template <typename T> class Pinne
 
 namespace UnityEngine::Formats::Alembic::Util
 {
+	inline static constexpr unsigned int AlembicRecorder_MeshBuffer___c_TypeDefinitionIndex = 45763;
+
 	class AlembicRecorder_MeshBuffer___c : public ::System::Object
 	{
 	public:

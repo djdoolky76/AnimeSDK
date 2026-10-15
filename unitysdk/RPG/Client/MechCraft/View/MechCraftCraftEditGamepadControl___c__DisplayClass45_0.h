@@ -10,6 +10,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftCraftEditGamepadControl;
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftEditGamepadControl___c__DisplayClass45_0_TypeDefinitionIndex = 79882;
+
 	class MechCraftCraftEditGamepadControl___c__DisplayClass45_0 : public ::System::Object
 	{
 	public:

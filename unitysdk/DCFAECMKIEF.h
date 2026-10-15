@@ -16,6 +16,8 @@ namespace RPG::GameCore { class ThreadTaskConfig; }
 #define DCFAECMKIEF_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE240D30)
 #define DCFAECMKIEF_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0xE240DC0)
 
+inline static constexpr unsigned int DCFAECMKIEF_TypeDefinitionIndex = 71098;
+
 	class DCFAECMKIEF
 	{
 	public:

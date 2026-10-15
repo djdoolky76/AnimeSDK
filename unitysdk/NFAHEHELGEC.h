@@ -25,6 +25,8 @@ namespace System { class String; }
 #define NFAHEHELGEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAFF3A0)
 #define NFAHEHELGEC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAFF400)
 
+inline static constexpr unsigned int NFAHEHELGEC_TypeDefinitionIndex = 27122;
+
 	class NFAHEHELGEC : public ::System::Object
 	{
 	public:

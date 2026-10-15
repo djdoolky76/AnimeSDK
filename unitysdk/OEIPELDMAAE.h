@@ -30,6 +30,8 @@ namespace UnityEngine { class Mesh; }
 #define OEIPELDMAAE_SET_CULLINGLODDATA_OFFSET UNITYSDK_OFFSET(0xBE2E950)
 #define OEIPELDMAAE_SET_INSTANCEREFLIST_OFFSET UNITYSDK_OFFSET(0xBE2E9C0)
 
+inline static constexpr unsigned int OEIPELDMAAE_TypeDefinitionIndex = 73723;
+
 	class OEIPELDMAAE : public ::System::Object
 	{
 	public:

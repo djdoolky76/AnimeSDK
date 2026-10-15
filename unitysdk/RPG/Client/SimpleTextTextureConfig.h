@@ -10,6 +10,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SimpleTextTextureConfig_TypeDefinitionIndex = 72653;
+
 	class SimpleTextTextureConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define MODIAGGMAMG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAA5930)
 #define MODIAGGMAMG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAA5990)
 
+inline static constexpr unsigned int MODIAGGMAMG_TypeDefinitionIndex = 34666;
+
 	class MODIAGGMAMG : public ::System::Object
 	{
 	public:

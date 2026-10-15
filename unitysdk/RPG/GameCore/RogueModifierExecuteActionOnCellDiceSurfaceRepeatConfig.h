@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionOnCellDiceSurfaceRepea
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionOnCellDiceSurfaceRepeatConfig_TypeDefinitionIndex = 17945;
+
 	class RogueModifierExecuteActionOnCellDiceSurfaceRepeatConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

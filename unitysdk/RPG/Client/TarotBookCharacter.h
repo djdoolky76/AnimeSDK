@@ -40,6 +40,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TarotBookCharacter_TypeDefinitionIndex = 68054;
+
 	class TarotBookCharacter : public ::System::Object
 	{
 	public:

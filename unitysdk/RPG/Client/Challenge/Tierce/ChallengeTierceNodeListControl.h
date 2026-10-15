@@ -27,6 +27,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceNodeListControl_TypeDefinitionIndex = 81523;
+
 	class ChallengeTierceNodeListControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

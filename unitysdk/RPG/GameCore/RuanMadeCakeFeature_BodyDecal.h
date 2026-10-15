@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RuanMadeCakeFeature_BodyDecal_TypeDefinitionIndex = 17462;
+
 	class RuanMadeCakeFeature_BodyDecal : public ::RPG::GameCore::RuanMadeCakeFeatureConfig
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int CharacterMeetEventSentence_TypeDefinitionIndex = 75165;
+
 	struct alignas(8) CharacterMeetEventSentence
 	{
 		::System::UInt32 Index; // 0x10

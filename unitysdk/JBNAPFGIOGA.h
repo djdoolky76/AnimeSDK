@@ -9,6 +9,8 @@ namespace RPG::GameCore { class BaseLittleGameAbilityValueGetterConfig; }
 #define JBNAPFGIOGA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0151D0)
 #define JBNAPFGIOGA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D015100)
 
+inline static constexpr unsigned int JBNAPFGIOGA_TypeDefinitionIndex = 21404;
+
 	class JBNAPFGIOGA : public ::JNFBANKKLJK
 	{
 	public:

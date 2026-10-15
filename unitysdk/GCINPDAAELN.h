@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GCINPDAAELN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E43DDF0)
 #define GCINPDAAELN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E43DE50)
 
+inline static constexpr unsigned int GCINPDAAELN_TypeDefinitionIndex = 31621;
+
 	class GCINPDAAELN : public ::System::Object
 	{
 	public:

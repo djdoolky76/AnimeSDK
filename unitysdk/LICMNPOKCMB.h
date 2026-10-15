@@ -32,6 +32,8 @@ namespace System { class String; }
 #define LICMNPOKCMB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E96B500)
 #define LICMNPOKCMB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E96B560)
 
+inline static constexpr unsigned int LICMNPOKCMB_TypeDefinitionIndex = 31394;
+
 	class LICMNPOKCMB : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvNPCUseMazeSkill_TypeDefinitionIndex = 19984;
+
 	class AdvNPCUseMazeSkill : public ::RPG::GameCore::TaskConfig
 	{
 	public:

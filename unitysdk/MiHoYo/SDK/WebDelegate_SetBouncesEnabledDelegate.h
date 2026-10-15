@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebDelegate_SetBouncesEnabledDelegate_TypeDefinitionIndex = 7827;
+
 	class WebDelegate_SetBouncesEnabledDelegate : public ::System::MulticastDelegate
 	{
 	public:

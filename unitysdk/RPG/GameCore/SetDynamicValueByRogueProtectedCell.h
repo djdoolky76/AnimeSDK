@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetDynamicValueByRogueProtectedCell; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByRogueProtectedCell_TypeDefinitionIndex = 21788;
+
 	class SetDynamicValueByRogueProtectedCell : public ::RPG::GameCore::TaskConfig
 	{
 	public:

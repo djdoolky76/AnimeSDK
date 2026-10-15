@@ -12,6 +12,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoDiceCombatOverrideGravity_TypeDefinitionIndex = 63569;
+
 	class MonoDiceCombatOverrideGravity : public ::UnityEngine::MonoBehaviour
 	{
 	public:

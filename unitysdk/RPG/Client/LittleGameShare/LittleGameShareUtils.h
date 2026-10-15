@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int LittleGameShareUtils_TypeDefinitionIndex = 37013;
+
 	class LittleGameShareUtils : public ::System::Object
 	{
 	public:

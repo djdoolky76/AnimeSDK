@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelNpcSelectorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelNpcDitherInNode_TypeDefinitionIndex = 15951;
+
 	class ChimeraDuelNpcDitherInNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
 	public:

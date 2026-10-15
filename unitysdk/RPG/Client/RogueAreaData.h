@@ -33,6 +33,8 @@ namespace RPG::GameCore { class RogueAreaConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueAreaData_TypeDefinitionIndex = 67463;
+
 	class RogueAreaData : public ::System::Object
 	{
 	public:

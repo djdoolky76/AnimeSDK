@@ -10,6 +10,8 @@ namespace RPG::Client::Promises { class IPromise; }
 #define GLGKMCLAIID___C__DISPLAYCLASS2_0__ONENTER_B__1_OFFSET UNITYSDK_OFFSET(0x15AB2C60)
 #define GLGKMCLAIID___C__DISPLAYCLASS2_0__ONENTER_B__2_OFFSET UNITYSDK_OFFSET(0x15AB2C90)
 
+inline static constexpr unsigned int GLGKMCLAIID___c__DisplayClass2_0_TypeDefinitionIndex = 77733;
+
 	class GLGKMCLAIID___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

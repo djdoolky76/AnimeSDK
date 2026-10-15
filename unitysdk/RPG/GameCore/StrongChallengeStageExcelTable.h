@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StrongChallengeStageExcelTable_TypeDefinitionIndex = 12398;
+
 	class StrongChallengeStageExcelTable : public ::System::Object
 	{
 	public:

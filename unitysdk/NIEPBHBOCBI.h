@@ -33,6 +33,8 @@ namespace System { class String; }
 #define NIEPBHBOCBI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB2B840)
 #define NIEPBHBOCBI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB2B8A0)
 
+inline static constexpr unsigned int NIEPBHBOCBI_TypeDefinitionIndex = 28223;
+
 	class NIEPBHBOCBI : public ::System::Object
 	{
 	public:

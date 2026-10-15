@@ -8,6 +8,8 @@ namespace RPG::Client::LimaoNews { class LimaoNewsOfficeSurveyItem; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsOfficeSurveyService___c__DisplayClass2_0_TypeDefinitionIndex = 80331;
+
 	class LimaoNewsOfficeSurveyService___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

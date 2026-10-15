@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerExitReason_TypeDefinitionIndex = 57511;
+
 	enum class TriggerExitReason : ::System::Int32
 	{
 		ExitRegion = 0,

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define DCKICCFJELB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E173D00)
 #define DCKICCFJELB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E173D60)
 
+inline static constexpr unsigned int DCKICCFJELB_TypeDefinitionIndex = 30033;
+
 	class DCKICCFJELB : public ::System::Object
 	{
 	public:

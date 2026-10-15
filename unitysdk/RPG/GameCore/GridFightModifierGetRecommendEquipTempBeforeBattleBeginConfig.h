@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierGetRecommendEquipTempBeforeBatt
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierGetRecommendEquipTempBeforeBattleBeginConfig_TypeDefinitionIndex = 19359;
+
 	class GridFightModifierGetRecommendEquipTempBeforeBattleBeginConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

@@ -52,6 +52,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ConfirmDialogContext_TypeDefinitionIndex = 72711;
+
 	class ConfirmDialogContext : public ::RPG::Client::UIController
 	{
 	public:

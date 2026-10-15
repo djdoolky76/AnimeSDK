@@ -34,6 +34,8 @@ namespace System { class String; }
 #define LLFIKHHPJEB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E99AA20)
 #define LLFIKHHPJEB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E99AA80)
 
+inline static constexpr unsigned int LLFIKHHPJEB_TypeDefinitionIndex = 28784;
+
 	class LLFIKHHPJEB : public ::System::Object
 	{
 	public:

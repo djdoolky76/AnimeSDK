@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleModifyValue; }
 #define AECAPAPLEIH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C878BA0)
 #define AECAPAPLEIH_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C878BB0)
 
+inline static constexpr unsigned int AECAPAPLEIH_TypeDefinitionIndex = 43093;
+
 	class AECAPAPLEIH : public ::BKABEBEPPJK
 	{
 	public:

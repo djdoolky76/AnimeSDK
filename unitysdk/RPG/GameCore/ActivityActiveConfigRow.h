@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DisplayItemConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityActiveConfigRow_TypeDefinitionIndex = 10895;
+
 	class ActivityActiveConfigRow : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonopolyCheckShouldSettle_TypeDefinitionIndex = 20931;
+
 	class MonopolyCheckShouldSettle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

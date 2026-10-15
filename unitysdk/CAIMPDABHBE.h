@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define CAIMPDABHBE_SET_SEQUENCENAME_OFFSET UNITYSDK_OFFSET(0xC4807F0)
 #define CAIMPDABHBE_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC481380)
 
+inline static constexpr unsigned int CAIMPDABHBE_TypeDefinitionIndex = 71118;
+
 	class CAIMPDABHBE : public ::System::Object
 	{
 	public:

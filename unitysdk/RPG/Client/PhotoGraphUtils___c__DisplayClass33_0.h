@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhotoGraphUtils___c__DisplayClass33_0_TypeDefinitionIndex = 69473;
+
 	class PhotoGraphUtils___c__DisplayClass33_0 : public ::System::Object
 	{
 	public:

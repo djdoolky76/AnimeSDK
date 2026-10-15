@@ -39,6 +39,8 @@ namespace System { class String; }
 #define EKICGMEHNGD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2C29D0)
 #define EKICGMEHNGD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2C2A30)
 
+inline static constexpr unsigned int EKICGMEHNGD_TypeDefinitionIndex = 27616;
+
 	class EKICGMEHNGD : public ::System::Object
 	{
 	public:

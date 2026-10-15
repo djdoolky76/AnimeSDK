@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace Unity::IL2CPP::CompilerServices
 {
+	inline static constexpr unsigned int Il2CppIntrinsics_6138A94ECB4B0862_LateBound_TypeDefinitionIndex = 7127;
+
 	class Il2CppIntrinsics_6138A94ECB4B0862_LateBound : public ::System::MulticastDelegate
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ApplyOperation; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ApplyOperation_TypeDefinitionIndex = 23646;
+
 	class ApplyOperation : public ::RPG::GameCore::TaskConfig
 	{
 	public:

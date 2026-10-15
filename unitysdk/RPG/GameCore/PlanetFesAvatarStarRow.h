@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PlanetFesAvatarStarRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesAvatarStarRow_TypeDefinitionIndex = 12195;
+
 	class PlanetFesAvatarStarRow : public ::System::Object
 	{
 	public:

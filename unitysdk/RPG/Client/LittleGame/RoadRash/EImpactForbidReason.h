@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGame::RoadRash
 {
+	inline static constexpr unsigned int EImpactForbidReason_TypeDefinitionIndex = 42914;
+
 	enum class EImpactForbidReason : ::System::Int32
 	{
 		None = 0,

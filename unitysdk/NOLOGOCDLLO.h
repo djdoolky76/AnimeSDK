@@ -9,6 +9,8 @@ namespace System { class String; }
 #define NOLOGOCDLLO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D241620)
 #define NOLOGOCDLLO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2415D0)
 
+inline static constexpr unsigned int NOLOGOCDLLO_TypeDefinitionIndex = 22382;
+
 	class NOLOGOCDLLO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

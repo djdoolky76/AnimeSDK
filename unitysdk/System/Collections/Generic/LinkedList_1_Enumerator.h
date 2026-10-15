@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int LinkedList_1_Enumerator_TypeDefinitionIndex = 3014;
+
 	template <typename T>
 	struct alignas(8) LinkedList_1_Enumerator
 	{

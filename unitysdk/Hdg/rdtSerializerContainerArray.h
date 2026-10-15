@@ -20,6 +20,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int rdtSerializerContainerArray_TypeDefinitionIndex = 46957;
+
 	class rdtSerializerContainerArray : public ::System::Object
 	{
 	public:

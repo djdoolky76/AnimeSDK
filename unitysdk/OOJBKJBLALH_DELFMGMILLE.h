@@ -7,6 +7,8 @@ namespace RPG::Client { class PrefabLoadMeta; }
 
 #define OOJBKJBLALH_DELFMGMILLE_CTOR_OFFSET UNITYSDK_OFFSET(0xBF898E0)
 
+inline static constexpr unsigned int OOJBKJBLALH_DELFMGMILLE_TypeDefinitionIndex = 71326;
+
 	class OOJBKJBLALH_DELFMGMILLE : public ::System::Object
 	{
 	public:

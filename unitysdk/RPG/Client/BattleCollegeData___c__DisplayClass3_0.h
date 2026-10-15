@@ -8,6 +8,8 @@ namespace RPG::Client { class BattleCollegeAimData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleCollegeData___c__DisplayClass3_0_TypeDefinitionIndex = 62877;
+
 	class BattleCollegeData___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

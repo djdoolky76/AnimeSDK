@@ -31,6 +31,8 @@ namespace System { class String; }
 #define EEFDJLPDCFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E266DD0)
 #define EEFDJLPDCFO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E266E30)
 
+inline static constexpr unsigned int EEFDJLPDCFO_TypeDefinitionIndex = 28786;
+
 	class EEFDJLPDCFO : public ::System::Object
 	{
 	public:

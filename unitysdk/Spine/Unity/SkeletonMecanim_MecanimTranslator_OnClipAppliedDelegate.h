@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonMecanim_MecanimTranslator_OnClipAppliedDelegate_TypeDefinitionIndex = 45037;
+
 	class SkeletonMecanim_MecanimTranslator_OnClipAppliedDelegate : public ::System::MulticastDelegate
 	{
 	public:

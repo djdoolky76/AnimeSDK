@@ -16,6 +16,8 @@ namespace RPG::GameCore { class PropButtonConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimLeverSwitchConfig_TypeDefinitionIndex = 18554;
+
 	class FiveDimLeverSwitchConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

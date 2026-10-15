@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DEMENEAAGAA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E197510)
 #define DEMENEAAGAA___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E197520)
 
+inline static constexpr unsigned int DEMENEAAGAA___c_TypeDefinitionIndex = 32835;
+
 	class DEMENEAAGAA___c : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HGEOAJAKCAP_CTOR_OFFSET UNITYSDK_OFFSET(0x15C960F0)
 #define HGEOAJAKCAP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15C96120)
 
+inline static constexpr unsigned int HGEOAJAKCAP_TypeDefinitionIndex = 53643;
+
 	class HGEOAJAKCAP
 	{
 	public:

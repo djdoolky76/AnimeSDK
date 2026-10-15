@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int FireNotifyBehavior_TypeDefinitionIndex = 48401;
+
 	class FireNotifyBehavior : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
 	public:

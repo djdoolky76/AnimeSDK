@@ -6,6 +6,8 @@
 
 namespace Entitas::CodeGeneration::Attributes
 {
+	inline static constexpr unsigned int UniqueAttribute_TypeDefinitionIndex = 10089;
+
 	class UniqueAttribute : public ::System::Attribute
 	{
 	public:

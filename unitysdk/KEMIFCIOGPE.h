@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KEMIFCIOGPE_CTOR_OFFSET UNITYSDK_OFFSET(0xB37E660)
 #define KEMIFCIOGPE_HDIIEAELOPP_OFFSET UNITYSDK_OFFSET(0xB37E670)
 
+inline static constexpr unsigned int KEMIFCIOGPE_TypeDefinitionIndex = 72178;
+
 	class KEMIFCIOGPE : public ::System::Object
 	{
 	public:

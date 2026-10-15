@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CheckAIVariableIntAxis_TypeDefinitionIndex = 15511;
+
 	class CheckAIVariableIntAxis : public ::RPG::GameCore::ConsiderationAxisConfig
 	{
 	public:

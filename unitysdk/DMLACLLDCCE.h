@@ -33,6 +33,8 @@ namespace System { class String; }
 #define DMLACLLDCCE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1F11F0)
 #define DMLACLLDCCE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1F1250)
 
+inline static constexpr unsigned int DMLACLLDCCE_TypeDefinitionIndex = 29868;
+
 	class DMLACLLDCCE : public ::System::Object
 	{
 	public:

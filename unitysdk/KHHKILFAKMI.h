@@ -8,6 +8,8 @@ class NJGDIEAIHPD;
 #define KHHKILFAKMI_CTOR_OFFSET UNITYSDK_OFFSET(0xB409640)
 #define KHHKILFAKMI_IIHFPKJNAHP_OFFSET UNITYSDK_OFFSET(0xB409580)
 
+inline static constexpr unsigned int KHHKILFAKMI_TypeDefinitionIndex = 62519;
+
 	class KHHKILFAKMI : public ::System::Object
 	{
 	public:

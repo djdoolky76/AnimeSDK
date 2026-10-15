@@ -8,6 +8,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri { class TriangulationPoint; }
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
+	inline static constexpr unsigned int DTSweepPointComparator_TypeDefinitionIndex = 38746;
+
 	class DTSweepPointComparator : public ::System::Object
 	{
 	public:

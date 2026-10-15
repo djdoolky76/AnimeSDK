@@ -32,6 +32,8 @@ namespace UnityEngine { class Transform; }
 #define GPGDJDKKHNE_MOCPCLHLAHK_OFFSET UNITYSDK_OFFSET(0x15B581C0)
 #define GPGDJDKKHNE_OOOBKMCDGCE_OFFSET UNITYSDK_OFFSET(0x15B58550)
 
+inline static constexpr unsigned int GPGDJDKKHNE_TypeDefinitionIndex = 68793;
+
 	class GPGDJDKKHNE : public ::System::Object
 	{
 	public:

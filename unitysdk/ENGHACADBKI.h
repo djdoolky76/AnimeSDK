@@ -36,6 +36,8 @@ namespace System { class String; }
 #define ENGHACADBKI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2EDB10)
 #define ENGHACADBKI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2EDB70)
 
+inline static constexpr unsigned int ENGHACADBKI_TypeDefinitionIndex = 34980;
+
 	class ENGHACADBKI : public ::System::Object
 	{
 	public:

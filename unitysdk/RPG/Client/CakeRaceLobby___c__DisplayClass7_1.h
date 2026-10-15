@@ -9,6 +9,8 @@ namespace RPG::Client { class LobbyMemberData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeRaceLobby___c__DisplayClass7_1_TypeDefinitionIndex = 63054;
+
 	template <typename T>
 	class CakeRaceLobby___c__DisplayClass7_1 : public ::System::Object
 	{

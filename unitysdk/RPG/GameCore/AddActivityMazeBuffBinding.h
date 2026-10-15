@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AddActivityMazeBuffBinding; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddActivityMazeBuffBinding_TypeDefinitionIndex = 23420;
+
 	class AddActivityMazeBuffBinding : public ::RPG::GameCore::TaskConfig
 	{
 	public:

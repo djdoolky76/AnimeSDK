@@ -9,6 +9,8 @@ namespace RPG::Client { class PlanetFesFloatingController; }
 #define AIDGIDNPABL_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xEBA0FE0)
 #define AIDGIDNPABL__ONEXECUTE_B__1_0_OFFSET UNITYSDK_OFFSET(0xEBA10B0)
 
+inline static constexpr unsigned int AIDGIDNPABL_TypeDefinitionIndex = 74472;
+
 	class AIDGIDNPABL : public ::MFDDEJCPLON
 	{
 	public:

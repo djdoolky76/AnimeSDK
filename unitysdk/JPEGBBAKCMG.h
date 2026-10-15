@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JPEGBBAKCMG_CTOR_OFFSET UNITYSDK_OFFSET(0xB2BB480)
 #define JPEGBBAKCMG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB2BB4B0)
 
+inline static constexpr unsigned int JPEGBBAKCMG_TypeDefinitionIndex = 54907;
+
 	class JPEGBBAKCMG
 	{
 	public:

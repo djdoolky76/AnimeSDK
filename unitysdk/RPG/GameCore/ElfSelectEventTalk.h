@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ElfSelectEventTalk; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfSelectEventTalk_TypeDefinitionIndex = 18494;
+
 	class ElfSelectEventTalk : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RadialBlurEffect_TypeDefinitionIndex = 20258;
+
 	class RadialBlurEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

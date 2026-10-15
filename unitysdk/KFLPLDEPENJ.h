@@ -7,6 +7,8 @@ namespace RPG::Client { class BattleSilverWolf999CustomUIData; }
 #define KFLPLDEPENJ_NIJJPBOIGBI_OFFSET UNITYSDK_OFFSET(0xB3C5C20)
 #define KFLPLDEPENJ__ONBIND_OFFSET UNITYSDK_OFFSET(0xB3C5D40)
 
+inline static constexpr unsigned int KFLPLDEPENJ_TypeDefinitionIndex = 71296;
+
 	class KFLPLDEPENJ : public ::GJPBCNIIEOB
 	{
 	public:

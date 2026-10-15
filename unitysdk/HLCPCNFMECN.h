@@ -18,6 +18,8 @@ namespace UnityEngine { class GameObject; }
 #define HLCPCNFMECN_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x15D5CE40)
 #define HLCPCNFMECN_USELIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0x15D5CE00)
 
+inline static constexpr unsigned int HLCPCNFMECN_TypeDefinitionIndex = 57820;
+
 	class HLCPCNFMECN : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HEGGPIEGBIN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E55A460)
 #define HEGGPIEGBIN___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E55A470)
 
+inline static constexpr unsigned int HEGGPIEGBIN___c_TypeDefinitionIndex = 35081;
+
 	class HEGGPIEGBIN___c : public ::System::Object
 	{
 	public:

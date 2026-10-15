@@ -13,6 +13,8 @@ namespace UnityEngine::Formats::Alembic::Importer { class AlembicStreamPlayer; }
 
 namespace UnityEngine::Formats::Alembic::Timeline
 {
+	inline static constexpr unsigned int AlembicShotPlayable_TypeDefinitionIndex = 45753;
+
 	class AlembicShotPlayable : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

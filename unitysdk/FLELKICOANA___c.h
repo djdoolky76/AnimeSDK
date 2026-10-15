@@ -14,6 +14,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 #define FLELKICOANA___C__INIT_B__1_1_OFFSET UNITYSDK_OFFSET(0x1582FE80)
 #define FLELKICOANA___C__INIT_B__1_2_OFFSET UNITYSDK_OFFSET(0x1582FE90)
 
+inline static constexpr unsigned int FLELKICOANA___c_TypeDefinitionIndex = 61339;
+
 	class FLELKICOANA___c : public ::System::Object
 	{
 	public:

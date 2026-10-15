@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelRegionStateSavedValueCondition_TypeDefinitionIndex = 17382;
+
 	class LevelRegionStateSavedValueCondition : public ::RPG::GameCore::LevelRegionStateCondition
 	{
 	public:

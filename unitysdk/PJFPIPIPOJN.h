@@ -28,6 +28,8 @@ namespace System { class String; }
 #define PJFPIPIPOJN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF79380)
 #define PJFPIPIPOJN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF793E0)
 
+inline static constexpr unsigned int PJFPIPIPOJN_TypeDefinitionIndex = 32942;
+
 	class PJFPIPIPOJN : public ::System::Object
 	{
 	public:

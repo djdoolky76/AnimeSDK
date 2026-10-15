@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineClearShot___c_TypeDefinitionIndex = 39726;
+
 	class CinemachineClearShot___c : public ::System::Object
 	{
 	public:

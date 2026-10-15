@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DGHPIDMDOJM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1AE150)
 #define DGHPIDMDOJM___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E1AE160)
 
+inline static constexpr unsigned int DGHPIDMDOJM___c_TypeDefinitionIndex = 32321;
+
 	class DGHPIDMDOJM___c : public ::System::Object
 	{
 	public:

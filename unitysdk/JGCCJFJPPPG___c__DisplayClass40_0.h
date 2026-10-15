@@ -7,6 +7,8 @@ class ILPPBGLJABD;
 #define JGCCJFJPPPG___C__DISPLAYCLASS40_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB197590)
 #define JGCCJFJPPPG___C__DISPLAYCLASS40_0__ISENDPOINT_B__0_OFFSET UNITYSDK_OFFSET(0xB198000)
 
+inline static constexpr unsigned int JGCCJFJPPPG___c__DisplayClass40_0_TypeDefinitionIndex = 62350;
+
 	class JGCCJFJPPPG___c__DisplayClass40_0 : public ::System::Object
 	{
 	public:

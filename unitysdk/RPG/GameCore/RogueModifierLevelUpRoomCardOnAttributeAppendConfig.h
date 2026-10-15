@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierLevelUpRoomCardOnAttributeAppendCon
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierLevelUpRoomCardOnAttributeAppendConfig_TypeDefinitionIndex = 17854;
+
 	class RogueModifierLevelUpRoomCardOnAttributeAppendConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

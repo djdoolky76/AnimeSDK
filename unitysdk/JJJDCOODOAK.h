@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JJJDCOODOAK_CTOR_OFFSET UNITYSDK_OFFSET(0xB206D20)
 #define JJJDCOODOAK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB206D50)
 
+inline static constexpr unsigned int JJJDCOODOAK_TypeDefinitionIndex = 53323;
+
 	class JJJDCOODOAK
 	{
 	public:

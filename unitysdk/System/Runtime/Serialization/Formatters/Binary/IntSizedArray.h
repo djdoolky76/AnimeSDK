@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization::Formatters::Binary { class IntSizedArr
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int IntSizedArray_TypeDefinitionIndex = 1195;
+
 	class IntSizedArray : public ::System::Object
 	{
 	public:

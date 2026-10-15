@@ -11,6 +11,8 @@ namespace SuperScrollView { class LoopListViewItem2; }
 #define HPIDNHKGMKH_EXIT_OFFSET UNITYSDK_OFFSET(0x15DCDD40)
 #define HPIDNHKGMKH_TICK_OFFSET UNITYSDK_OFFSET(0x15DCDB60)
 
+inline static constexpr unsigned int HPIDNHKGMKH_TypeDefinitionIndex = 64456;
+
 	class HPIDNHKGMKH : public ::System::Object
 	{
 	public:

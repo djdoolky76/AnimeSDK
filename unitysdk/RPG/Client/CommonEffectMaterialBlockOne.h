@@ -24,6 +24,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CommonEffectMaterialBlockOne_TypeDefinitionIndex = 70396;
+
 	class CommonEffectMaterialBlockOne : public ::System::Object
 	{
 	public:

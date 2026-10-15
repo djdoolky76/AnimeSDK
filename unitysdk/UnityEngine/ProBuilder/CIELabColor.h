@@ -13,6 +13,8 @@ namespace UnityEngine::ProBuilder { class XYZColor; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int CIELabColor_TypeDefinitionIndex = 44349;
+
 	class CIELabColor : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace UnityEngine { class GameObject; }
 
 #define LIGHTPERFORMANCETESTUNIT_CTOR_OFFSET UNITYSDK_OFFSET(0xB838360)
 
+inline static constexpr unsigned int LightPerformanceTestUnit_TypeDefinitionIndex = 47318;
+
 	class LightPerformanceTestUnit : public ::System::Object
 	{
 	public:

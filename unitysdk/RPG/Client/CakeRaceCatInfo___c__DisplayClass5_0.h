@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeRaceCatInfo___c__DisplayClass5_0_TypeDefinitionIndex = 63018;
+
 	class CakeRaceCatInfo___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

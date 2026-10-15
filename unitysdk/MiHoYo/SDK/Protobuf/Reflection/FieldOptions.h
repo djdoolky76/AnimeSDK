@@ -42,6 +42,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int FieldOptions_TypeDefinitionIndex = 35790;
+
 	class FieldOptions : public ::System::Object
 	{
 	public:

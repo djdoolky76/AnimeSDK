@@ -42,6 +42,8 @@ namespace System { class String; }
 #define OJFBBKAOHAK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE80820)
 #define OJFBBKAOHAK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE80880)
 
+inline static constexpr unsigned int OJFBBKAOHAK_TypeDefinitionIndex = 31848;
+
 	class OJFBBKAOHAK : public ::System::Object
 	{
 	public:

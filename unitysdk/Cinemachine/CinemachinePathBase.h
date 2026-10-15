@@ -25,6 +25,8 @@ namespace Cinemachine { class CinemachinePathBase_Appearance; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachinePathBase_TypeDefinitionIndex = 39819;
+
 	class CinemachinePathBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

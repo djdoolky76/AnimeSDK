@@ -116,6 +116,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingDIYPageControl_TypeDefinitionIndex = 81778;
+
 	class B51RacingDIYPageControl : public ::Sofa::BaseSofaControl
 	{
 	public:

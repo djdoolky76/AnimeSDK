@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define JMAAPINLPDI__SELECTTARGET_D__2_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xB258990)
 #define JMAAPINLPDI__SELECTTARGET_D__2_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB258710)
 
+inline static constexpr unsigned int JMAAPINLPDI__SelectTarget_d__2_TypeDefinitionIndex = 77548;
+
 	template <typename T1, typename T2>
 	class JMAAPINLPDI__SelectTarget_d__2 : public ::System::Object
 	{

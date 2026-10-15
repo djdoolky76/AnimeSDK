@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddAdventureModifier_TypeDefinitionIndex = 20427;
+
 	class AddAdventureModifier : public ::RPG::GameCore::TaskConfig
 	{
 	public:

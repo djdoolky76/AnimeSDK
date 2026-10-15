@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 #define KNICEONOCBK_KBOJFONKFKN_OFFSET UNITYSDK_OFFSET(0xB586060)
 #define KNICEONOCBK_KJMDJMBNCPE_OFFSET UNITYSDK_OFFSET(0xB585EF0)
 
+inline static constexpr unsigned int KNICEONOCBK_TypeDefinitionIndex = 76619;
+
 	class KNICEONOCBK : public ::HLFHMKMJNPK
 	{
 	public:

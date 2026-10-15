@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TeammateAttackFormationConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetTeammateAttackFormation_TypeDefinitionIndex = 22490;
+
 	class SetTeammateAttackFormation : public ::RPG::GameCore::TaskConfig
 	{
 	public:

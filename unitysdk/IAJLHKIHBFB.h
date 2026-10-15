@@ -14,6 +14,8 @@ namespace System { class String; }
 #define IAJLHKIHBFB_SET_LEVELCONFIG_OFFSET UNITYSDK_OFFSET(0x15E17000)
 #define IAJLHKIHBFB_SET_OWNERENTITY_OFFSET UNITYSDK_OFFSET(0x15E17020)
 
+inline static constexpr unsigned int IAJLHKIHBFB_TypeDefinitionIndex = 60566;
+
 	class IAJLHKIHBFB : public ::System::Object
 	{
 	public:

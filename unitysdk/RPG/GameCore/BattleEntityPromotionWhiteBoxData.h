@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BattleEntityPromotionWhiteBoxData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleEntityPromotionWhiteBoxData_TypeDefinitionIndex = 22752;
+
 	class BattleEntityPromotionWhiteBoxData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

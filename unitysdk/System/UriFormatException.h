@@ -12,6 +12,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int UriFormatException_TypeDefinitionIndex = 2467;
+
 	class UriFormatException : public ::System::FormatException
 	{
 	public:

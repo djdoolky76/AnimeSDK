@@ -35,6 +35,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace MiHoYo::SDK::Console::CN
 {
+	inline static constexpr unsigned int BindMobileManagerPS_TypeDefinitionIndex = 9107;
+
 	class BindMobileManagerPS : public ::System::Object
 	{
 	public:

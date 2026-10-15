@@ -28,6 +28,8 @@ namespace System { class String; }
 #define EDJDFEIOACG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E260660)
 #define EDJDFEIOACG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2606C0)
 
+inline static constexpr unsigned int EDJDFEIOACG_TypeDefinitionIndex = 25938;
+
 	class EDJDFEIOACG : public ::System::Object
 	{
 	public:

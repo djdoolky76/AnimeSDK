@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int DebugStrCb_TypeDefinitionIndex = 37742;
+
 	class DebugStrCb : public ::System::MulticastDelegate
 	{
 	public:

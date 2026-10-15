@@ -10,6 +10,8 @@ namespace RPG::GameCore { class NPCAppearancePresetList; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NPCAppearancePresetList_TypeDefinitionIndex = 17460;
+
 	class NPCAppearancePresetList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

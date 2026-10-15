@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IMBGFBOEJNG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x164CE860)
 #define IMBGFBOEJNG_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0x164CE950)
 
+inline static constexpr unsigned int IMBGFBOEJNG_TypeDefinitionIndex = 71072;
+
 	class IMBGFBOEJNG
 	{
 	public:

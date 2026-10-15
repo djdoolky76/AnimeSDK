@@ -56,6 +56,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LPNPMKNMMOK_OMAAOOHOOOA_OFFSET UNITYSDK_OFFSET(0xB8356F0)
 #define LPNPMKNMMOK_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0xB834B70)
 
+inline static constexpr unsigned int LPNPMKNMMOK_TypeDefinitionIndex = 56184;
+
 	class LPNPMKNMMOK : public ::System::Object
 	{
 	public:

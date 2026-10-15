@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FDFJCPNPONC_JKEBBKCBHCG_OFFSET UNITYSDK_OFFSET(0x156D6040)
 #define FDFJCPNPONC_KPEJAACBNLI_OFFSET UNITYSDK_OFFSET(0x156D6150)
 
+inline static constexpr unsigned int FDFJCPNPONC_TypeDefinitionIndex = 71813;
+
 	class FDFJCPNPONC : public ::System::Object
 	{
 	public:

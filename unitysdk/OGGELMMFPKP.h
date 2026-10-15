@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OGGELMMFPKP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE52340)
 #define OGGELMMFPKP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE523A0)
 
+inline static constexpr unsigned int OGGELMMFPKP_TypeDefinitionIndex = 27082;
+
 	class OGGELMMFPKP : public ::System::Object
 	{
 	public:

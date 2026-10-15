@@ -31,6 +31,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveQuestTreeItemData_TypeDefinitionIndex = 75376;
+
 	class IdleLiveQuestTreeItemData : public ::System::Object
 	{
 	public:

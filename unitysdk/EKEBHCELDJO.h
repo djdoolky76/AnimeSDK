@@ -6,6 +6,8 @@ class GKPDKBNFDGM;
 #define EKEBHCELDJO_CTOR_OFFSET UNITYSDK_OFFSET(0x15501550)
 #define EKEBHCELDJO_MJEGFOMAOFH_OFFSET UNITYSDK_OFFSET(0x155014F0)
 
+inline static constexpr unsigned int EKEBHCELDJO_TypeDefinitionIndex = 61952;
+
 	class EKEBHCELDJO : public ::System::Object
 	{
 	public:

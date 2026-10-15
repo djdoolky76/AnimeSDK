@@ -9,6 +9,8 @@ namespace RPG::Client::UI3DGame { class ChimeraBattleNPCView; }
 
 namespace RPG::Client::UI3DGame
 {
+	inline static constexpr unsigned int ChimeraBattleNPCView___c__DisplayClass0_0_TypeDefinitionIndex = 75775;
+
 	class ChimeraBattleNPCView___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

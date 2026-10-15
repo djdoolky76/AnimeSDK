@@ -6,6 +6,8 @@
 #include "unitysdk/_PrivateImplementationDetails__740BB0E72886594E___StaticArrayInitTypeSize_240.h"
 #include "unitysdk/_PrivateImplementationDetails__740BB0E72886594E___StaticArrayInitTypeSize_96.h"
 
+inline static constexpr unsigned int _PrivateImplementationDetails__740BB0E72886594E_TypeDefinitionIndex = 44524;
+
 	class _PrivateImplementationDetails__740BB0E72886594E : public ::System::Object
 	{
 	public:

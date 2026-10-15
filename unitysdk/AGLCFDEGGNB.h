@@ -15,6 +15,8 @@ namespace System { class Random; }
 #define AGLCFDEGGNB_OEDHIHFFFLK_OFFSET UNITYSDK_OFFSET(0x1C88B800)
 #define AGLCFDEGGNB_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1C88CBC0)
 
+inline static constexpr unsigned int AGLCFDEGGNB_TypeDefinitionIndex = 42203;
+
 	class AGLCFDEGGNB : public ::CKFDNGOHNPC
 	{
 	public:

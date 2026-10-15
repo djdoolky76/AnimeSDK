@@ -51,6 +51,8 @@ namespace System { class String; }
 #define GJDACOJFAGG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4A5BA0)
 #define GJDACOJFAGG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4A5C00)
 
+inline static constexpr unsigned int GJDACOJFAGG_TypeDefinitionIndex = 30108;
+
 	class GJDACOJFAGG : public ::System::Object
 	{
 	public:

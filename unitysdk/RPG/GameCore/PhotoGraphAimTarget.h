@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphAimTarget_TypeDefinitionIndex = 21660;
+
 	class PhotoGraphAimTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:

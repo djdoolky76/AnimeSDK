@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GlobalMainIntensityEffect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GlobalMainIntensityEffect_TypeDefinitionIndex = 23731;
+
 	class GlobalMainIntensityEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

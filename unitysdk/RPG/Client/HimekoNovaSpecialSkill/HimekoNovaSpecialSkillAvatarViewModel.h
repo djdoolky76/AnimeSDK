@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client::HimekoNovaSpecialSkill
 {
+	inline static constexpr unsigned int HimekoNovaSpecialSkillAvatarViewModel_TypeDefinitionIndex = 80493;
+
 	class HimekoNovaSpecialSkillAvatarViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

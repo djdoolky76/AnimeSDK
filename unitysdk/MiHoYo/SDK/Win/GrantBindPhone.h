@@ -29,6 +29,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int GrantBindPhone_TypeDefinitionIndex = 9510;
+
 	class GrantBindPhone : public ::MiHoYo::SDK::UIElement
 	{
 	public:

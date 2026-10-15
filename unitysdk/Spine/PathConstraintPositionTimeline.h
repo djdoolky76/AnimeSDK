@@ -13,6 +13,8 @@ namespace Spine { template <typename T> class ExposedList_1; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int PathConstraintPositionTimeline_TypeDefinitionIndex = 39624;
+
 	class PathConstraintPositionTimeline : public ::Spine::CurveTimeline1
 	{
 	public:

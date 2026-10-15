@@ -15,6 +15,8 @@ namespace System { class String; }
 #define GFBDEBECAKP_OBPHMILAJEF_OFFSET UNITYSDK_OFFSET(0x159E88A0)
 #define GFBDEBECAKP__ONBIND_OFFSET UNITYSDK_OFFSET(0x159E87E0)
 
+inline static constexpr unsigned int GFBDEBECAKP_TypeDefinitionIndex = 71452;
+
 	class GFBDEBECAKP : public ::FMPCODLIOLG
 	{
 	public:

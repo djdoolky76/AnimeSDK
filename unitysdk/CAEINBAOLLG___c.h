@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CAEINBAOLLG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0583A0)
 #define CAEINBAOLLG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E0583B0)
 
+inline static constexpr unsigned int CAEINBAOLLG___c_TypeDefinitionIndex = 35021;
+
 	class CAEINBAOLLG___c : public ::System::Object
 	{
 	public:

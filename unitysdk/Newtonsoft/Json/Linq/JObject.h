@@ -69,6 +69,8 @@ namespace System::ComponentModel { class TypeConverter; }
 
 namespace Newtonsoft::Json::Linq
 {
+	inline static constexpr unsigned int JObject_TypeDefinitionIndex = 9774;
+
 	class JObject : public ::Newtonsoft::Json::Linq::JContainer
 	{
 	public:

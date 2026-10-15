@@ -6,6 +6,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int AxisStatePropertyAttribute_TypeDefinitionIndex = 39822;
+
 	class AxisStatePropertyAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:

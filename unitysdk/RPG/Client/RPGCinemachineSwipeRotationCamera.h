@@ -12,6 +12,8 @@ namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGCinemachineSwipeRotationCamera_TypeDefinitionIndex = 69707;
+
 	class RPGCinemachineSwipeRotationCamera : public ::Cinemachine::CinemachineExtension
 	{
 	public:

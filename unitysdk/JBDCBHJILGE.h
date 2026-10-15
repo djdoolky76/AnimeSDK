@@ -5,6 +5,8 @@
 
 #define JBDCBHJILGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8D140)
 
+inline static constexpr unsigned int JBDCBHJILGE_TypeDefinitionIndex = 42075;
+
 	class JBDCBHJILGE : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ class CJLEJIGIKOF;
 #define MPCKPCEBLPM_START_OFFSET UNITYSDK_OFFSET(0xBA39680)
 #define MPCKPCEBLPM_SYNCHANDLERSP_OFFSET UNITYSDK_OFFSET(0xBA39800)
 
+inline static constexpr unsigned int MPCKPCEBLPM_TypeDefinitionIndex = 65357;
+
 	class MPCKPCEBLPM : public ::System::Object
 	{
 	public:

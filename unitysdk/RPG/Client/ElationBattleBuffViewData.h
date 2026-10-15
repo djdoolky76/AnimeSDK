@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElationBattleBuffViewData_TypeDefinitionIndex = 71520;
+
 	class ElationBattleBuffViewData : public ::RPG::Client::BattleBuffViewData
 	{
 	public:

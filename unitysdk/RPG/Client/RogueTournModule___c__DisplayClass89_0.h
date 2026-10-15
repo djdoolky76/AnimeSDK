@@ -9,6 +9,8 @@ namespace RPG::Client::Promises { class IPromise; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournModule___c__DisplayClass89_0_TypeDefinitionIndex = 67806;
+
 	class RogueTournModule___c__DisplayClass89_0 : public ::System::Object
 	{
 	public:

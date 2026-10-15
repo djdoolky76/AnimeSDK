@@ -34,6 +34,8 @@ namespace System { class String; }
 #define ENEHBCOCEGB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2EB130)
 #define ENEHBCOCEGB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2EB190)
 
+inline static constexpr unsigned int ENEHBCOCEGB_TypeDefinitionIndex = 29019;
+
 	class ENEHBCOCEGB : public ::System::Object
 	{
 	public:

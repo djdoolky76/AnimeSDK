@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraBubbleTalkParam_TypeDefinitionIndex = 78405;
+
 	class ChimeraBubbleTalkParam : public ::System::Object
 	{
 	public:

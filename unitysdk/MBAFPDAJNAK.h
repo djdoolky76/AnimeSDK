@@ -6,6 +6,8 @@
 #define MBAFPDAJNAK_GET_OPTIONINDEX_OFFSET UNITYSDK_OFFSET(0xB857950)
 #define MBAFPDAJNAK_SET_OPTIONINDEX_OFFSET UNITYSDK_OFFSET(0xB857960)
 
+inline static constexpr unsigned int MBAFPDAJNAK_TypeDefinitionIndex = 75563;
+
 	class MBAFPDAJNAK : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define HHGBMDBOKHI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E587650)
 #define HHGBMDBOKHI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5876B0)
 
+inline static constexpr unsigned int HHGBMDBOKHI_TypeDefinitionIndex = 26827;
+
 	class HHGBMDBOKHI : public ::System::Object
 	{
 	public:

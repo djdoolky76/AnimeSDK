@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DIGOHHNDDCA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1BE750)
 #define DIGOHHNDDCA___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E1BE760)
 
+inline static constexpr unsigned int DIGOHHNDDCA___c_TypeDefinitionIndex = 33473;
+
 	class DIGOHHNDDCA___c : public ::System::Object
 	{
 	public:

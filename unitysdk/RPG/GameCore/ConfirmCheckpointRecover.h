@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConfirmCheckpointRecover_TypeDefinitionIndex = 21601;
+
 	class ConfirmCheckpointRecover : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropEnableCollider_TypeDefinitionIndex = 20396;
+
 	class PropEnableCollider : public ::RPG::GameCore::TaskConfig
 	{
 	public:

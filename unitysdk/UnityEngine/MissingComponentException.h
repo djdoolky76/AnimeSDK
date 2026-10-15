@@ -10,6 +10,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int MissingComponentException_TypeDefinitionIndex = 4345;
+
 	class MissingComponentException : public ::System::Exception
 	{
 	public:

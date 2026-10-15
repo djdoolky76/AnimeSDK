@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CFEFEPKIBDP_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xCA0B690)
 #define CFEFEPKIBDP_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xCA0B880)
 
+inline static constexpr unsigned int CFEFEPKIBDP_TypeDefinitionIndex = 78480;
+
 	class CFEFEPKIBDP : public ::System::Object
 	{
 	public:

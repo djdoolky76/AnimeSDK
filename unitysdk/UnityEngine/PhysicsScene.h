@@ -115,6 +115,8 @@ namespace UnityEngine { class Collider; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int PhysicsScene_TypeDefinitionIndex = 5324;
+
 	struct alignas(4) PhysicsScene
 	{
 		::System::Int32 m_Handle; // 0x10

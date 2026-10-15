@@ -6,6 +6,8 @@
 
 namespace RPG::Client::Ui::Samples
 {
+	inline static constexpr unsigned int GridFightSettleTabViewModel_TypeDefinitionIndex = 73455;
+
 	class GridFightSettleTabViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

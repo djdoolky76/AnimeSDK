@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WhiteBoxFuncCommand; }
 #define HJLHIJDKAGO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15D2E820)
 #define HJLHIJDKAGO_TICK_OFFSET UNITYSDK_OFFSET(0x15D2E870)
 
+inline static constexpr unsigned int HJLHIJDKAGO_TypeDefinitionIndex = 55815;
+
 	class HJLHIJDKAGO : public ::GELIALJDFBL
 	{
 	public:

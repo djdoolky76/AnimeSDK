@@ -8,6 +8,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client::CityCarFlow
 {
+	inline static constexpr unsigned int MonoCityCarIRI_TypeDefinitionIndex = 82236;
+
 	class MonoCityCarIRI : public ::UnityEngine::MonoBehaviour
 	{
 	public:

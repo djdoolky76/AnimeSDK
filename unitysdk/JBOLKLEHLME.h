@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JBOLKLEHLME_SET_SECTIONS_OFFSET UNITYSDK_OFFSET(0x16576B20)
 #define JBOLKLEHLME_SET_SECTIONVERTICES_OFFSET UNITYSDK_OFFSET(0x16576B00)
 
+inline static constexpr unsigned int JBOLKLEHLME_TypeDefinitionIndex = 74668;
+
 	class JBOLKLEHLME : public ::System::Object
 	{
 	public:

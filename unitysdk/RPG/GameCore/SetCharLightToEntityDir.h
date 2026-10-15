@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetCharLightToEntityDir_TypeDefinitionIndex = 21874;
+
 	class SetCharLightToEntityDir : public ::RPG::GameCore::TaskConfig
 	{
 	public:

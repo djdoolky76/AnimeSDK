@@ -11,6 +11,8 @@ namespace System { class Type; }
 #define KGGNLCOGNPM_GET_ISPARTIALSAVE_OFFSET UNITYSDK_OFFSET(0xB3EC740)
 #define KGGNLCOGNPM_LOAD_OFFSET UNITYSDK_OFFSET(0xB3EC550)
 
+inline static constexpr unsigned int KGGNLCOGNPM_TypeDefinitionIndex = 59355;
+
 	class KGGNLCOGNPM : public ::System::Object
 	{
 	public:

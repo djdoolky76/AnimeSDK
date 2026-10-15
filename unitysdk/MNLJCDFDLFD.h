@@ -9,6 +9,8 @@ class MNLJCDFDLFD;
 #define MNLJCDFDLFD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1D8570)
 #define MNLJCDFDLFD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1D8530)
 
+inline static constexpr unsigned int MNLJCDFDLFD_TypeDefinitionIndex = 21917;
+
 	class MNLJCDFDLFD : public ::RPG::GameCore::TaskConfig
 	{
 	public:

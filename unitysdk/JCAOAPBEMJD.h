@@ -8,6 +8,8 @@ namespace System { class String; }
 #define JCAOAPBEMJD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D015520)
 #define JCAOAPBEMJD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0153B0)
 
+inline static constexpr unsigned int JCAOAPBEMJD_TypeDefinitionIndex = 11574;
+
 	class JCAOAPBEMJD : public ::System::Object
 	{
 	public:

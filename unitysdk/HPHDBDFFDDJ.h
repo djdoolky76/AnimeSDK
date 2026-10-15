@@ -4,6 +4,8 @@
 
 #define HPHDBDFFDDJ_DHLFOMCKGGO_OFFSET UNITYSDK_OFFSET(0x2E7F410)
 
+inline static constexpr unsigned int HPHDBDFFDDJ_TypeDefinitionIndex = 55963;
+
 	struct alignas(4) HPHDBDFFDDJ
 	{
 		::RPG::GameCore::PropertyModifyFunction DNKFJMBHINL; // 0x10

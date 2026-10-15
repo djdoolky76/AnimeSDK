@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnableNPCMonsterAI_TypeDefinitionIndex = 20423;
+
 	class EnableNPCMonsterAI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define MAJABIBGFKH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C923410)
 
+inline static constexpr unsigned int MAJABIBGFKH_TypeDefinitionIndex = 42960;
+
 	class MAJABIBGFKH : public ::System::Object
 	{
 	public:

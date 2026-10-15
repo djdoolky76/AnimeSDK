@@ -13,6 +13,8 @@ namespace RPG::Client { class UITextUtils_RemainTimeUnitTextPalette; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UITextUtils_RemainTimeUnitTextPalette_TypeDefinitionIndex = 73184;
+
 	class UITextUtils_RemainTimeUnitTextPalette : public ::System::Object
 	{
 	public:

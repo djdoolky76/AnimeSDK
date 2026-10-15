@@ -8,6 +8,8 @@ namespace System::Configuration { class ConfigurationPropertyCollection; }
 
 namespace System::Net::Configuration
 {
+	inline static constexpr unsigned int PerformanceCountersElement_TypeDefinitionIndex = 3084;
+
 	class PerformanceCountersElement : public ::System::Configuration::ConfigurationElement
 	{
 	public:

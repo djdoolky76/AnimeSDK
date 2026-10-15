@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OnAssetOperationDelegate_TypeDefinitionIndex = 41401;
+
 	class OnAssetOperationDelegate : public ::System::MulticastDelegate
 	{
 	public:

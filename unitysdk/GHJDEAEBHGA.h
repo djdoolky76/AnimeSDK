@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GHJDEAEBHGA_KFPIIOKMALE_OFFSET UNITYSDK_OFFSET(0x15A255D0)
 #define GHJDEAEBHGA_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x15A254A0)
 
+inline static constexpr unsigned int GHJDEAEBHGA_TypeDefinitionIndex = 73554;
+
 	class GHJDEAEBHGA : public ::MOGBNBGMIHF
 	{
 	public:

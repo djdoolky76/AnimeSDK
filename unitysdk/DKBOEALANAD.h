@@ -6,6 +6,8 @@ namespace UnityEngine { class BoxCollider; }
 
 #define DKBOEALANAD_OLCEGJIKDAL_OFFSET UNITYSDK_OFFSET(0xF2550C0)
 
+inline static constexpr unsigned int DKBOEALANAD_TypeDefinitionIndex = 77178;
+
 	class DKBOEALANAD : public ::System::Object
 	{
 	public:

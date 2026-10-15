@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightMergeEquipEvent_EquipData_TypeDefinitionIndex = 64955;
+
 	class GridFightMergeEquipEvent_EquipData : public ::System::Object
 	{
 	public:

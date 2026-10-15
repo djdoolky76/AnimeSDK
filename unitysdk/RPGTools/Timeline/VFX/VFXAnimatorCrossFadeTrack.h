@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int VFXAnimatorCrossFadeTrack_TypeDefinitionIndex = 48664;
+
 	class VFXAnimatorCrossFadeTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

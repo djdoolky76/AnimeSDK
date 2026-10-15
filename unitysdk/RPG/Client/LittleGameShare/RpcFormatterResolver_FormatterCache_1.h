@@ -5,6 +5,8 @@ namespace MessagePack::Formatters { class IMessagePackFormatter; }
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int RpcFormatterResolver_FormatterCache_1_TypeDefinitionIndex = 37062;
+
 	template <typename T>
 	class RpcFormatterResolver_FormatterCache_1 : public ::System::Object
 	{

@@ -13,6 +13,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int Cookie___c_TypeDefinitionIndex = 39488;
+
 	class Cookie___c : public ::System::Object
 	{
 	public:

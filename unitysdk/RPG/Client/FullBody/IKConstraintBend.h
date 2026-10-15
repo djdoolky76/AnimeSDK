@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::FullBody
 {
+	inline static constexpr unsigned int IKConstraintBend_TypeDefinitionIndex = 74247;
+
 	class IKConstraintBend : public ::System::Object
 	{
 	public:

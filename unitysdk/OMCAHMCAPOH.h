@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OMCAHMCAPOH_HMFDIMLPEAN_OFFSET UNITYSDK_OFFSET(0xBF1F730)
 #define OMCAHMCAPOH_OOHHKONPBJM_OFFSET UNITYSDK_OFFSET(0xBF200B0)
 
+inline static constexpr unsigned int OMCAHMCAPOH_TypeDefinitionIndex = 54194;
+
 	class OMCAHMCAPOH : public ::System::Object
 	{
 	public:

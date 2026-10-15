@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IslandStateSavedValueCondition_TypeDefinitionIndex = 19135;
+
 	class IslandStateSavedValueCondition : public ::RPG::GameCore::JsonConfig
 	{
 	public:

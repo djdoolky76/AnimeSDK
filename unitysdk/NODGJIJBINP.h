@@ -7,6 +7,8 @@ class GIFNELLKBFE;
 
 #define NODGJIJBINP_CTOR_OFFSET UNITYSDK_OFFSET(0xBCE8110)
 
+inline static constexpr unsigned int NODGJIJBINP_TypeDefinitionIndex = 75792;
+
 	class NODGJIJBINP : public ::DJJKNHPLHDI
 	{
 	public:

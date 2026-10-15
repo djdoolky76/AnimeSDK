@@ -17,6 +17,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int LittleGameCartographerIdentifier_TypeDefinitionIndex = 74514;
+
 	struct alignas(4) LittleGameCartographerIdentifier
 	{
 		::System::UInt32 _FloorID_k__BackingField; // 0x10

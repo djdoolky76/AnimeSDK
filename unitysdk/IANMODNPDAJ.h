@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define IANMODNPDAJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB06210)
 
+inline static constexpr unsigned int IANMODNPDAJ_TypeDefinitionIndex = 42790;
+
 	class IANMODNPDAJ : public ::System::Object
 	{
 	public:

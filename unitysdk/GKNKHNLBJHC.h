@@ -4,6 +4,8 @@
 
 #define GKNKHNLBJHC_CTOR_OFFSET UNITYSDK_OFFSET(0x15AA5970)
 
+inline static constexpr unsigned int GKNKHNLBJHC_TypeDefinitionIndex = 59965;
+
 	class GKNKHNLBJHC : public ::System::Object
 	{
 	public:

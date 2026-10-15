@@ -4,6 +4,8 @@
 class BAJENICFMMH;
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
+inline static constexpr unsigned int KDCNOMHGMNO___O_TypeDefinitionIndex = 54097;
+
 	class KDCNOMHGMNO___O : public ::System::Object
 	{
 	public:

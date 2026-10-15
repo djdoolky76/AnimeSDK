@@ -13,6 +13,8 @@ namespace System { class Action; }
 #define PDIDGFHDJKK_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0xC013DB0)
 #define PDIDGFHDJKK_JMHMOEDJHAN_OFFSET UNITYSDK_OFFSET(0xC013EC0)
 
+inline static constexpr unsigned int PDIDGFHDJKK_TypeDefinitionIndex = 79793;
+
 	class PDIDGFHDJKK : public ::MBPKHMAJLGK
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WolfBroPickupBullet; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WolfBroPickupBullet_TypeDefinitionIndex = 21589;
+
 	class WolfBroPickupBullet : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -15,6 +15,8 @@ namespace RPG::GameCore { class PVEGameStatistics; }
 #define IKGIHLGAPJD_ONMAZEBUFFBINDING_OFFSET UNITYSDK_OFFSET(0x1648BCE0)
 #define IKGIHLGAPJD_PCPLPHBALOJ_OFFSET UNITYSDK_OFFSET(0x1648BFB0)
 
+inline static constexpr unsigned int IKGIHLGAPJD_TypeDefinitionIndex = 56014;
+
 	class IKGIHLGAPJD : public ::LHHEGNEBMLN
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PEBLEPNPDPD_CTOR_OFFSET UNITYSDK_OFFSET(0xC033000)
 #define PEBLEPNPDPD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC033030)
 
+inline static constexpr unsigned int PEBLEPNPDPD_TypeDefinitionIndex = 58613;
+
 	class PEBLEPNPDPD
 	{
 	public:

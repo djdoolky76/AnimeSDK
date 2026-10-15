@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LOKOIPOFAHC_NJDMJODMLFF_OFFSET UNITYSDK_OFFSET(0xB80B460)
 #define LOKOIPOFAHC_OFJDPHLHCGA_OFFSET UNITYSDK_OFFSET(0xB80B1F0)
 
+inline static constexpr unsigned int LOKOIPOFAHC_TypeDefinitionIndex = 53974;
+
 	class LOKOIPOFAHC : public ::System::Object
 	{
 	public:

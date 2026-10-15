@@ -13,6 +13,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnApplicationPauseHa
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncApplicationPauseTrigger_TypeDefinitionIndex = 38515;
+
 	class AsyncApplicationPauseTrigger
 	{
 	public:

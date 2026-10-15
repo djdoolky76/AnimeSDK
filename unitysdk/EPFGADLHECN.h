@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define EPFGADLHECN_IKLDNENPLDN_OFFSET UNITYSDK_OFFSET(0x2E74370)
 #define EPFGADLHECN_MOOENEIANFA_OFFSET UNITYSDK_OFFSET(0x2E742A0)
 
+inline static constexpr unsigned int EPFGADLHECN_TypeDefinitionIndex = 52057;
+
 	struct alignas(4) EPFGADLHECN
 	{
 		::UnityEngine::Vector3Int JFAGECNFHJL; // 0x10

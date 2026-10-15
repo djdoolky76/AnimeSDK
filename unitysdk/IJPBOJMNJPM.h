@@ -23,6 +23,8 @@ namespace UnityEngine::UI { class GridLayoutGroup; }
 #define IJPBOJMNJPM__ONBIND_OFFSET UNITYSDK_OFFSET(0x164728E0)
 #define IJPBOJMNJPM__ONTICK_OFFSET UNITYSDK_OFFSET(0x16472CD0)
 
+inline static constexpr unsigned int IJPBOJMNJPM_TypeDefinitionIndex = 71415;
+
 	class IJPBOJMNJPM : public ::FMPCODLIOLG
 	{
 	public:

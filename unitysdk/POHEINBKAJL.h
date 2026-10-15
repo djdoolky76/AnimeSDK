@@ -54,6 +54,8 @@ namespace UnityEngine { class Transform; }
 #define POHEINBKAJL_PPMAFIABJPK_OFFSET UNITYSDK_OFFSET(0xC363220)
 #define POHEINBKAJL__ONBIND_OFFSET UNITYSDK_OFFSET(0xC361160)
 
+inline static constexpr unsigned int POHEINBKAJL_TypeDefinitionIndex = 72023;
+
 	class POHEINBKAJL : public ::FMPCODLIOLG
 	{
 	public:

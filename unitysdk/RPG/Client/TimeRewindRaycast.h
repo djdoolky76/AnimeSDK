@@ -8,6 +8,8 @@ namespace RPG::Client { class TimeRewindRaycastInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeRewindRaycast_TypeDefinitionIndex = 60848;
+
 	class TimeRewindRaycast : public ::UnityEngine::MonoBehaviour
 	{
 	public:

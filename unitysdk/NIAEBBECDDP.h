@@ -9,6 +9,8 @@ namespace System { class String; }
 #define NIAEBBECDDP_ALEBBJAFIOG_OFFSET UNITYSDK_OFFSET(0xBBDC370)
 #define NIAEBBECDDP_CTOR_OFFSET UNITYSDK_OFFSET(0xBBDC880)
 
+inline static constexpr unsigned int NIAEBBECDDP_TypeDefinitionIndex = 64912;
+
 	class NIAEBBECDDP : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int MouseCaptureDispatchingStrategy_EventBehavior_TypeDefinitionIndex = 5955;
+
 	enum class MouseCaptureDispatchingStrategy_EventBehavior : ::System::Int32
 	{
 		None = 0,

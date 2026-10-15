@@ -23,6 +23,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::FullBody
 {
+	inline static constexpr unsigned int NewSolverManager_TypeDefinitionIndex = 74274;
+
 	class NewSolverManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

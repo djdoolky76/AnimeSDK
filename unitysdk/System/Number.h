@@ -51,6 +51,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System
 {
+	inline static constexpr unsigned int Number_TypeDefinitionIndex = 307;
+
 	class Number : public ::System::Object
 	{
 	public:

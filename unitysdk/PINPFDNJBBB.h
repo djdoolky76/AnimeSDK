@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PINPFDNJBBB_OECFJEKKIME_OFFSET UNITYSDK_OFFSET(0xC272A20)
 #define PINPFDNJBBB_PMJLIGCPPLI_OFFSET UNITYSDK_OFFSET(0xC273540)
 
+inline static constexpr unsigned int PINPFDNJBBB_TypeDefinitionIndex = 80759;
+
 	class PINPFDNJBBB : public ::System::Object
 	{
 	public:

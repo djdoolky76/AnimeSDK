@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ShopUtil_TypeDefinitionIndex = 67954;
+
 	class ShopUtil : public ::System::Object
 	{
 	public:

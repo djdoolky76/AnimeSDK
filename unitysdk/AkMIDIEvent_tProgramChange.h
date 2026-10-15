@@ -13,6 +13,8 @@ class AkMIDIEvent_tProgramChange;
 #define AKMIDIEVENT_TPROGRAMCHANGE_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1F5A2890)
 #define AKMIDIEVENT_TPROGRAMCHANGE_SET_BYPROGRAMNUM_OFFSET UNITYSDK_OFFSET(0x1F5A2CC0)
 
+inline static constexpr unsigned int AkMIDIEvent_tProgramChange_TypeDefinitionIndex = 44757;
+
 	class AkMIDIEvent_tProgramChange : public ::System::Object
 	{
 	public:

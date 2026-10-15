@@ -7,6 +7,8 @@
 #define BBMKMNBGLBJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15E93750)
 #define BBMKMNBGLBJ_FNJCKCNKBKC_OFFSET UNITYSDK_OFFSET(0x15E93680)
 
+inline static constexpr unsigned int BBMKMNBGLBJ_TypeDefinitionIndex = 77050;
+
 	class BBMKMNBGLBJ : public ::MDHAJBBMIJC
 	{
 	public:

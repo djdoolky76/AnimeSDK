@@ -22,6 +22,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MapDataKey_TypeDefinitionIndex = 66371;
+
 	class MapDataKey : public ::System::Object
 	{
 	public:

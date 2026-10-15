@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OraclePuzzleCommonConfig_TypeDefinitionIndex = 60056;
+
 	class OraclePuzzleCommonConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

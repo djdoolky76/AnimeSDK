@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SpineAnimeKeywordToTrackIndex_TypeDefinitionIndex = 69022;
+
 	class SpineAnimeKeywordToTrackIndex : public ::System::Object
 	{
 	public:

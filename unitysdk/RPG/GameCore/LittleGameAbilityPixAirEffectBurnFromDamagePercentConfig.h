@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAbilityPixAirEffectBurnFromDamagePerce
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityPixAirEffectBurnFromDamagePercentConfig_TypeDefinitionIndex = 21362;
+
 	class LittleGameAbilityPixAirEffectBurnFromDamagePercentConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:

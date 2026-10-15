@@ -11,6 +11,8 @@ namespace RPG::AvatarSystem { class Avatar; }
 #define PANOAMHIDGH_CTOR_OFFSET UNITYSDK_OFFSET(0xBFD8B20)
 #define PANOAMHIDGH_LOHKOHFINJI_OFFSET UNITYSDK_OFFSET(0xBFD8D20)
 
+inline static constexpr unsigned int PANOAMHIDGH_TypeDefinitionIndex = 62604;
+
 	class PANOAMHIDGH : public ::System::Object
 	{
 	public:

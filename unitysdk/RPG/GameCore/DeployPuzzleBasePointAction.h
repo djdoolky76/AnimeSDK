@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DeployPuzzleBasePointAction_TypeDefinitionIndex = 21979;
+
 	class DeployPuzzleBasePointAction : public ::RPG::GameCore::TaskConfig
 	{
 	public:

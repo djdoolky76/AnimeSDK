@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define INMKBDFGBIE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x164F7C10)
 #define INMKBDFGBIE___C___CREATETRIGGER_B__2_0_OFFSET UNITYSDK_OFFSET(0x164F7C20)
 
+inline static constexpr unsigned int INMKBDFGBIE___c_TypeDefinitionIndex = 77070;
+
 	class INMKBDFGBIE___c : public ::System::Object
 	{
 	public:

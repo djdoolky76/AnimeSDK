@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace XLua
 {
+	inline static constexpr unsigned int LuaMemoryLeakChecker_Data_TypeDefinitionIndex = 50060;
+
 	class LuaMemoryLeakChecker_Data : public ::System::Object
 	{
 	public:

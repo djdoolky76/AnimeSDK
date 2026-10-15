@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PMNONBEMIGO_CTOR_OFFSET UNITYSDK_OFFSET(0xC328BC0)
 #define PMNONBEMIGO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC328BF0)
 
+inline static constexpr unsigned int PMNONBEMIGO_TypeDefinitionIndex = 54485;
+
 	class PMNONBEMIGO
 	{
 	public:

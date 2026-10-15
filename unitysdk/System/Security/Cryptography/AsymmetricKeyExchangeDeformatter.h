@@ -6,6 +6,8 @@
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int AsymmetricKeyExchangeDeformatter_TypeDefinitionIndex = 1000;
+
 	class AsymmetricKeyExchangeDeformatter : public ::System::Object
 	{
 	public:

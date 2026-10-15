@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MarbleLeadHand; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleLeadHand_TypeDefinitionIndex = 16865;
+
 	class MarbleLeadHand : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

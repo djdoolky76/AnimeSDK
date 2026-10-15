@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MHYSDKC_Console_ExclusiveLeaderPrivilege_TypeDefinitionIndex = 46163;
+
 	enum class MHYSDKC_Console_ExclusiveLeaderPrivilege : ::System::Int32
 	{
 		Kick = 1,

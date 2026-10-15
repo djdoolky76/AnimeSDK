@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterOutfitComponent___c__DisplayClass25_0_TypeDefinitionIndex = 57213;
+
 	class CharacterOutfitComponent___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:

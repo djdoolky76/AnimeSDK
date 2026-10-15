@@ -16,6 +16,8 @@ namespace UnityEngine { class Rigidbody; }
 #define DRINKMAKERPHYICE_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x12667FD0)
 #define DRINKMAKERPHYICE_START_OFFSET UNITYSDK_OFFSET(0x12667100)
 
+inline static constexpr unsigned int DrinkMakerPhyIce_TypeDefinitionIndex = 47188;
+
 	class DrinkMakerPhyIce : public ::UnityEngine::MonoBehaviour
 	{
 	public:

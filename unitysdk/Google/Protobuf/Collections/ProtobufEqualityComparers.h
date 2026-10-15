@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class EqualityCom
 
 namespace Google::Protobuf::Collections
 {
+	inline static constexpr unsigned int ProtobufEqualityComparers_TypeDefinitionIndex = 5586;
+
 	class ProtobufEqualityComparers : public ::System::Object
 	{
 	public:

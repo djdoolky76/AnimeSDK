@@ -33,6 +33,8 @@ namespace System { class String; }
 #define KLECENLPBJL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E888350)
 #define KLECENLPBJL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8883B0)
 
+inline static constexpr unsigned int KLECENLPBJL_TypeDefinitionIndex = 26939;
+
 	class KLECENLPBJL : public ::System::Object
 	{
 	public:

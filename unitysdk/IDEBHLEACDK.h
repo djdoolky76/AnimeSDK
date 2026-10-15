@@ -14,6 +14,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define IDEBHLEACDK_JFOFGJCINFA_OFFSET UNITYSDK_OFFSET(0x15EB8BD0)
 #define IDEBHLEACDK_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0x15EB8B90)
 
+inline static constexpr unsigned int IDEBHLEACDK_TypeDefinitionIndex = 53763;
+
 	class IDEBHLEACDK : public ::GJPFGOGOLBI
 	{
 	public:

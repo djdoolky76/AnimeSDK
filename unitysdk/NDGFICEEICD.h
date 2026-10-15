@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NDGFICEEICD_MBJBKAOLIFD_OFFSET UNITYSDK_OFFSET(0xBB251F0)
 #define NDGFICEEICD_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBB25470)
 
+inline static constexpr unsigned int NDGFICEEICD_TypeDefinitionIndex = 64883;
+
 	class NDGFICEEICD : public ::System::Object
 	{
 	public:

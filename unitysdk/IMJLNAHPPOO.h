@@ -6,6 +6,8 @@
 #define IMJLNAHPPOO_CTOR_OFFSET UNITYSDK_OFFSET(0x164DD240)
 #define IMJLNAHPPOO_GET_TARGETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x164DD250)
 
+inline static constexpr unsigned int IMJLNAHPPOO_TypeDefinitionIndex = 56025;
+
 	class IMJLNAHPPOO : public ::System::Attribute
 	{
 	public:

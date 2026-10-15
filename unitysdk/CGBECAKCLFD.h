@@ -237,6 +237,8 @@ namespace UnityEngine { class Transform; }
 #define CGBECAKCLFD_PLPPCJDHACL_OFFSET UNITYSDK_OFFSET(0xCC84610)
 #define CGBECAKCLFD_POMAMBGPJCB_OFFSET UNITYSDK_OFFSET(0xCC75620)
 
+inline static constexpr unsigned int CGBECAKCLFD_TypeDefinitionIndex = 75915;
+
 	class CGBECAKCLFD : public ::System::Object
 	{
 	public:

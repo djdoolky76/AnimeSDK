@@ -11,6 +11,8 @@ namespace RPG::GameCore { class HeliobusCommentRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HeliobusCommentRow_TypeDefinitionIndex = 13747;
+
 	class HeliobusCommentRow : public ::System::Object
 	{
 	public:

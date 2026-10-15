@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelCurvePointInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelCurveInfo_TypeDefinitionIndex = 17376;
+
 	class LevelCurveInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{
 	public:

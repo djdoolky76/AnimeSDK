@@ -5,6 +5,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int RadialBlurParameter_TypeDefinitionIndex = 48598;
+
 	struct alignas(4) RadialBlurParameter
 	{
 		::System::Boolean RadialBlurMethodOverrideState; // 0x10

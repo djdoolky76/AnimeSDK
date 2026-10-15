@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace SRF::Service
 {
+	inline static constexpr unsigned int SRServiceManager___c_TypeDefinitionIndex = 35419;
+
 	class SRServiceManager___c : public ::System::Object
 	{
 	public:

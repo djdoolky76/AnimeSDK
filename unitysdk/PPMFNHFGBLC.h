@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitPropStateChange; }
 #define PPMFNHFGBLC__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xC394370)
 #define PPMFNHFGBLC__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xC394440)
 
+inline static constexpr unsigned int PPMFNHFGBLC_TypeDefinitionIndex = 53489;
+
 	class PPMFNHFGBLC
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int MiniEmotionClip_TypeDefinitionIndex = 48658;
+
 	class MiniEmotionClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

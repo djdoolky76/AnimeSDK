@@ -29,6 +29,8 @@ namespace System { class String; }
 #define NHKIADBINML_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB1F5D0)
 #define NHKIADBINML_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB1F630)
 
+inline static constexpr unsigned int NHKIADBINML_TypeDefinitionIndex = 31121;
+
 	class NHKIADBINML : public ::System::Object
 	{
 	public:

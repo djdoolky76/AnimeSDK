@@ -13,6 +13,8 @@ namespace RPG::Client { class GridFightRole; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightForgeExpertAwardData_TypeDefinitionIndex = 64990;
+
 	class GridFightForgeExpertAwardData : public ::RPG::Client::GridFightForgeAwardData
 	{
 	public:

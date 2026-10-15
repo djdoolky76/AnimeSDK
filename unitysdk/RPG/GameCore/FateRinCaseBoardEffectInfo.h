@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FateRinCaseBoardEffectInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateRinCaseBoardEffectInfo_TypeDefinitionIndex = 19927;
+
 	class FateRinCaseBoardEffectInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

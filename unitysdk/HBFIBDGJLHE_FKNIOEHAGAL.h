@@ -34,6 +34,8 @@ namespace UnityEngine { class RPGInstancedItemClusterVolumeManager; }
 #define HBFIBDGJLHE_FKNIOEHAGAL_PCGDPBEIACL_OFFSET UNITYSDK_OFFSET(0x15BFE7F0)
 #define HBFIBDGJLHE_FKNIOEHAGAL_POFJHKPLLAD_OFFSET UNITYSDK_OFFSET(0x15BFF250)
 
+inline static constexpr unsigned int HBFIBDGJLHE_FKNIOEHAGAL_TypeDefinitionIndex = 82175;
+
 	class HBFIBDGJLHE_FKNIOEHAGAL : public ::System::Object
 	{
 	public:

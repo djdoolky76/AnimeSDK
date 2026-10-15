@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BNBKEHDGIDK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E030F10)
 #define BNBKEHDGIDK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E030F70)
 
+inline static constexpr unsigned int BNBKEHDGIDK_TypeDefinitionIndex = 26119;
+
 	class BNBKEHDGIDK : public ::System::Object
 	{
 	public:

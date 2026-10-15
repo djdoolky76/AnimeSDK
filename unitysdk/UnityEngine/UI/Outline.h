@@ -8,6 +8,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int Outline_TypeDefinitionIndex = 6891;
+
 	class Outline : public ::UnityEngine::UI::Shadow
 	{
 	public:

@@ -23,6 +23,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_WingInstanceManagerBehavior_TypeDefinitionIndex = 70533;
+
 	class Effect_WingInstanceManagerBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

@@ -112,6 +112,8 @@ namespace UnityEngine { class Object; }
 #define BMIKHDAIIMO_SOLVEFOCUSSTATUS_OFFSET UNITYSDK_OFFSET(0xBDB3DA0)
 #define BMIKHDAIIMO___N__0_OFFSET UNITYSDK_OFFSET(0xBDBC6B0)
 
+inline static constexpr unsigned int BMIKHDAIIMO_TypeDefinitionIndex = 73876;
+
 	class BMIKHDAIIMO : public ::GDMONJOAKHD
 	{
 	public:

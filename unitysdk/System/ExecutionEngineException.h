@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int ExecutionEngineException_TypeDefinitionIndex = 246;
+
 	class ExecutionEngineException : public ::System::SystemException
 	{
 	public:

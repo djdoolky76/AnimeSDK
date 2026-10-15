@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DrinkMakerTagCombinationRow_TypeDefinitionIndex = 13152;
+
 	class DrinkMakerTagCombinationRow : public ::System::Object
 	{
 	public:

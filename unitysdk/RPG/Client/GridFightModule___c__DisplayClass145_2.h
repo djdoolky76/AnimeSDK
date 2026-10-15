@@ -9,6 +9,8 @@ namespace RPG::Client { class GridFightTraitConfigBase; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightModule___c__DisplayClass145_2_TypeDefinitionIndex = 64870;
+
 	template <typename T1, typename T2>
 	class GridFightModule___c__DisplayClass145_2 : public ::System::Object
 	{

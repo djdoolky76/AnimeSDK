@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GKOIGLGNOPC_MPEAGPKGCHF_1_OFFSET UNITYSDK_OFFSET(0x15AA8900)
 #define GKOIGLGNOPC_MPEAGPKGCHF_OFFSET UNITYSDK_OFFSET(0x15AA87E0)
 
+inline static constexpr unsigned int GKOIGLGNOPC_TypeDefinitionIndex = 62209;
+
 	class GKOIGLGNOPC : public ::System::Object
 	{
 	public:

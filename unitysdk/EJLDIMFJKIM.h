@@ -10,6 +10,8 @@ namespace System { template <typename T> class Func_1; }
 #define EJLDIMFJKIM_EXECUTE_OFFSET UNITYSDK_OFFSET(0x154E1140)
 #define EJLDIMFJKIM_TICK_OFFSET UNITYSDK_OFFSET(0x154E1220)
 
+inline static constexpr unsigned int EJLDIMFJKIM_TypeDefinitionIndex = 77668;
+
 	class EJLDIMFJKIM : public ::System::Object
 	{
 	public:

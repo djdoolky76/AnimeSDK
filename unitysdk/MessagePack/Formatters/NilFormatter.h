@@ -14,6 +14,8 @@ namespace MessagePack::Formatters { class IMessagePackFormatter; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int NilFormatter_TypeDefinitionIndex = 7440;
+
 	class NilFormatter : public ::System::Object
 	{
 	public:

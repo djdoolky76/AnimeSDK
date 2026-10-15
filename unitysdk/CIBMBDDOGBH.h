@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CIBMBDDOGBH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0CE390)
 #define CIBMBDDOGBH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0CE3F0)
 
+inline static constexpr unsigned int CIBMBDDOGBH_TypeDefinitionIndex = 32906;
+
 	class CIBMBDDOGBH : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ namespace RPG::GameCore { class AlleyPackGoodItemConfig; }
 
 #define JLBNMIJCNNI_CTOR_OFFSET UNITYSDK_OFFSET(0xB233FF0)
 
+inline static constexpr unsigned int JLBNMIJCNNI_TypeDefinitionIndex = 74106;
+
 	class JLBNMIJCNNI : public ::System::Object
 	{
 	public:

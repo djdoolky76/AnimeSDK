@@ -5,6 +5,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int KeyDownEvent_TypeDefinitionIndex = 5952;
+
 	class KeyDownEvent
 	{
 	public:

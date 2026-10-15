@@ -5,6 +5,8 @@
 
 #define PHGFAJLHKIE_CTOR_OFFSET UNITYSDK_OFFSET(0xC24B9B0)
 
+inline static constexpr unsigned int PHGFAJLHKIE_TypeDefinitionIndex = 80550;
+
 	class PHGFAJLHKIE : public ::System::Object
 	{
 	public:

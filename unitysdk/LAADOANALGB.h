@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LAADOANALGB_MNEEAMNELKC_OFFSET UNITYSDK_OFFSET(0xB5D51F0)
 #define LAADOANALGB_ONJKDFCMPPI_OFFSET UNITYSDK_OFFSET(0xB5D50B0)
 
+inline static constexpr unsigned int LAADOANALGB_TypeDefinitionIndex = 60189;
+
 	class LAADOANALGB : public ::System::Object
 	{
 	public:

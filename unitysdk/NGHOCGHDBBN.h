@@ -26,6 +26,8 @@ namespace System { class Object; }
 #define NGHOCGHDBBN_PNFFEHHIJGH_OFFSET UNITYSDK_OFFSET(0xBBA9B00)
 #define NGHOCGHDBBN_TICK_OFFSET UNITYSDK_OFFSET(0xBBA83A0)
 
+inline static constexpr unsigned int NGHOCGHDBBN_TypeDefinitionIndex = 61308;
+
 	class NGHOCGHDBBN : public ::System::Object
 	{
 	public:

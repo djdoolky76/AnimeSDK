@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ChimeraDuelExcelValueGetter; }
 #define DCAPKFGOJOH_LGEOCGMHOOH_OFFSET UNITYSDK_OFFSET(0xE238910)
 #define DCAPKFGOJOH_OEMGHLFEFKG_OFFSET UNITYSDK_OFFSET(0xE238DC0)
 
+inline static constexpr unsigned int DCAPKFGOJOH_TypeDefinitionIndex = 78280;
+
 	class DCAPKFGOJOH : public ::System::Object
 	{
 	public:

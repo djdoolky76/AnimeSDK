@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueEndlessActivityData___c_TypeDefinitionIndex = 61656;
+
 	class RogueEndlessActivityData___c : public ::System::Object
 	{
 	public:

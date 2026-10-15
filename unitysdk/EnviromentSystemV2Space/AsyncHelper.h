@@ -10,6 +10,8 @@ class GCMNECJNLBL;
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int AsyncHelper_TypeDefinitionIndex = 49236;
+
 	class AsyncHelper : public ::UnityEngine::MonoBehaviour
 	{
 	public:

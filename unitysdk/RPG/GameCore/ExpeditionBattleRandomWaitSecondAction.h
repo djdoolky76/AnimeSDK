@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ExpeditionBattleRandomWaitSecondAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ExpeditionBattleRandomWaitSecondAction_TypeDefinitionIndex = 16207;
+
 	class ExpeditionBattleRandomWaitSecondAction : public ::RPG::GameCore::BaseExpeditionBattleAction
 	{
 	public:

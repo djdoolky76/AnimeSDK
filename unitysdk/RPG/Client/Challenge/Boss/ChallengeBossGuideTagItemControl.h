@@ -18,6 +18,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::Challenge::Boss
 {
+	inline static constexpr unsigned int ChallengeBossGuideTagItemControl_TypeDefinitionIndex = 81641;
+
 	class ChallengeBossGuideTagItemControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:
